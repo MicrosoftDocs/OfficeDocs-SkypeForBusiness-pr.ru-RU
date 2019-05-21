@@ -1,10 +1,10 @@
 ---
-title: Создание или изменение очереди в Скайп для бизнеса
+title: Создание и изменение очереди в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Создание или изменение очереди группы ответа, в Скайп Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 6af6f9e4bea089f8b6194a06d1890e7d7e1699ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Создание или изменение очереди групп ответов в Skype для бизнеса Server Enterprise.
+ms.openlocfilehash: a19385567a40b958d6941ddeac873211fc92cf3e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892918"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286227"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Создание или изменение очереди в Скайп для бизнеса
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Создание и изменение очереди в Skype для бизнеса
  
-Создание или изменение очереди группы ответа, в Скайп Business Server корпоративной голосовой связи.
+Создание или изменение очереди групп ответов в Skype для бизнеса Server Enterprise.
   
-Queues hold callers until an agent answers the call. Когда приложение группы ответа выполняет поиск доступного агента, будет выполняться поиск группы агентов в порядке их список. You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.
+Queues hold callers until an agent answers the call. Когда приложение группы ответа осуществляет поиск доступного агента, он выполняет поиск групп агента в том порядке, в котором они перечислены. You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.
   
 Чтобы создать или изменить очередь, используйте одну из следующих процедур.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Чтобы использовать Скайп для панели управления Business Server для создания или изменения очереди
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Создание и изменение очереди с помощью панели управления Skype для бизнеса Server
 
 1. Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
     
     > [!NOTE]
     > Если вы являетесь одним из делегированных менеджеров группы ответа для управляемого рабочего процесса, вы можете создавать или изменять очереди группы ответа и назначать их рабочим процессам, которыми вы управляете. 
   
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
     
 3. В левой панели навигации щелкните **Группы ответа**, затем щелкните **Очередь**.
     
@@ -69,11 +69,11 @@ Queues hold callers until an agent answers the call. Когда приложен
     
    - Чтобы разъединить звонок после завершения периода ожидания, установите переключатель **Отключить**.
     
-   - Переадресация звонков на голосовую почту, нажмите кнопку **переадресация на голосовую почту**и затем в поле **SIP-адрес** введите адрес голосовой почты в формате sip: * \<username\>*@ *\<domainname\> * (для Например, sip:bob@contoso.com).
+   - Чтобы перенаправить звонок на голосовую почту, выберите команду Переслать **на голосовую почту**, а затем в поле **адрес SIP** введите адрес голосовой почты в формате SIP * \<:\>имя_пользователя*@ *\<\> DomainName* (для Например, sip:bob@contoso.com).
     
-   - Переадресация звонков на другой номер телефона, нажмите кнопку **переадресация на номер телефона**и затем в поле **SIP-адрес** введите номер телефона в формате sip: * \<номер\>*@ *\<domainname\>* (например, sip:+14255550121@contoso.com).
+   - Чтобы перенаправить звонок на другой номер телефона, нажмите кнопку Переслать **на номер телефона**, а затем в поле **адрес SIP** введите номер телефона в формате SIP: * \<\>номер*@ *\<имя_домена\>* (например, SIP:+14255550121@contoso.com).
     
-   - Чтобы переадресовать звонок на другого пользователя, нажмите кнопку **переадресация на SIP-адрес**, а затем в поле **SIP-адрес** введите URI для пользователя в формате sip: _ \<username\>_@ _\<domainname\>_.
+   - Чтобы перенаправить звонок на другого пользователя, нажмите кнопку Переслать **на адрес SIP**, а затем введите в поле **SIP Address** (универсальный код ресурса) URI для пользователя в формате SIP: _ \<\>username_@ _\<\>имя_домена_.
     
    - Чтобы переадресовать звонок в другую очередь, установите переключатель **Переадресовывать в другую очередь**, затем выберите требуемую очередь.
     
@@ -87,17 +87,17 @@ Queues hold callers until an agent answers the call. Когда приложен
     
    - Чтобы разъединить звонок после завершения периода ожидания, установите переключатель **Отключить**.
     
-   - Переадресация звонков на голосовую почту, нажмите кнопку **переадресация на голосовую почту**и затем в поле **SIP-адрес** введите адрес голосовой почты в формате sip: * \<username\>*@ *\<domainname\> * (для Например, sip:bob@contoso.com).
+   - Чтобы перенаправить звонок на голосовую почту, выберите команду Переслать **на голосовую почту**, а затем в поле **адрес SIP** введите адрес голосовой почты в формате SIP * \<:\>имя_пользователя*@ *\<\> DomainName* (для Например, sip:bob@contoso.com).
     
-   - Переадресация звонков на другой номер телефона, нажмите кнопку **переадресация на номер телефона**и затем в поле **SIP-адрес** введите номер телефона в формате sip: * \<номер\>*@ *\<domainname\>* (например, sip:+14255550121@contoso.com).
+   - Чтобы перенаправить звонок на другой номер телефона, нажмите кнопку Переслать **на номер телефона**, а затем в поле **адрес SIP** введите номер телефона в формате SIP: * \<\>номер*@ *\<имя_домена\>* (например, SIP:+14255550121@contoso.com).
     
-   - Чтобы переадресовать звонок на другого пользователя, нажмите кнопку **переадресация на SIP-адрес**, а затем в поле **SIP-адрес** введите URI для пользователя в формате sip: _ \<username\>_@ _\<domainname\>_.
+   - Чтобы перенаправить звонок на другого пользователя, нажмите кнопку Переслать **на адрес SIP**, а затем введите в поле **SIP Address** (универсальный код ресурса) URI для пользователя в формате SIP: _ \<\>username_@ _\<\>имя_домена_.
     
    - Чтобы переадресовать звонок в другую очередь, установите переключатель **Переадресовывать в другую очередь**, затем выберите требуемую очередь.
     
 10. Нажмите **Исполнить**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Чтобы использовать Скайп для консоли Business Server для создания или изменения очереди
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Создание и изменение очереди с помощью среды управления Skype для бизнеса Server
 
 1. Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
     
@@ -119,7 +119,7 @@ Queues hold callers until an agent answers the call. Когда приложен
    ```
 
    > [!NOTE]
-   > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Подробности можно найти в разделе [Import-ксргсаудиофиле](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Определите действие, которое должно выполняться при достижении порогового времени ожидания очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
@@ -128,7 +128,7 @@ Queues hold callers until an agent answers the call. Когда приложен
    ```
 
    > [!NOTE]
-   > Для получения дополнительных сведений о возможных действий и их синтаксисе см [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+   > Дополнительные сведения о возможностях и их синтаксисе: [New-ксргскаллактион](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Например:
     
@@ -149,7 +149,7 @@ Queues hold callers until an agent answers the call. Когда приложен
    ```
 
       > [!NOTE]
-      > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Дополнительные сведения см [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Чтобы использовать аудиофайл для этой подсказки, воспользуйтесь командлетом **Import-CsRgsAudioFile**. Подробности можно найти в разделе [Import-ксргсаудиофиле](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Определите действие, которое должно выполняться при достижении максимального числа звонков в очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
@@ -158,7 +158,7 @@ Queues hold callers until an agent answers the call. Когда приложен
    ```
 
     > [!NOTE]
-    > Для получения дополнительных сведений о возможных действий и их синтаксисе см [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+    > Дополнительные сведения о возможностях и их синтаксисе: [New-ксргскаллактион](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Например:
     
@@ -179,7 +179,7 @@ Queues hold callers until an agent answers the call. Когда приложен
    ```
 
     > [!NOTE]
-    > Сведения о создании группы агентов в разделе [New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Дополнительные сведения о создании группы агента: [New-ксргсажентграуп](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Создайте очередь. В командной строке выполните следующую команду.
     
@@ -207,7 +207,7 @@ Queues hold callers until an agent answers the call. Когда приложен
   
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[Командлет New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-Ксргскаллактион](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   

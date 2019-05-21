@@ -1,25 +1,25 @@
 ---
-title: Изменение параметров качества взаимодействия в Скайп для Business Server
+title: Изменение параметров качества работы в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Сводка: Узнайте, как задание параметров хранения данных о качестве взаимодействия в Скайп для Business Server.'
-ms.openlocfilehash: 19342bb3f24f9e93919d0f1a292153d553f4c450
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как указать хранение данных QoE в Skype для бизнеса Server.'
+ms.openlocfilehash: 89e20b18aa285bd4ee61df12c822e487dd6b37a4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929513"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280007"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Изменение параметров качества взаимодействия в Скайп для Business Server
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Изменение параметров качества работы в Skype для бизнеса Server
 
-**Сводка:** Узнайте, как задание параметров хранения данных о качестве взаимодействия в Скайп для Business Server.
+**Сводка:** Сведения о том, как указать хранение данных QoE в Skype для бизнеса Server.
 
 По умолчанию данные о качестве взаимодействия удаляются каждые 60 дней. Чтобы изменить срок хранения данных, используйте параметры на странице **Данные о качестве взаимодействия**. При отключении записи данных о качестве взаимодействия все собранные ранее данные будут удалены.
 
@@ -28,11 +28,11 @@ ms.locfileid: "33929513"
 
 Ниже даны инструкции по настройке параметров очистки данных о качестве взаимодействия.
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Указание срока хранения данных о качестве взаимодействия с помощью Скайп для панели управления Business Server
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Настройка хранения данных QoE с помощью панели управления Skype для бизнеса Server
 
 1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
 
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
 
 3. На панели навигации слева нажмите **Мониторинг и архивация**, затем выберите **Данные о качестве взаимодействия**.
 
@@ -44,9 +44,9 @@ ms.locfileid: "33929513"
 
 7. Нажмите **Исполнить**.
 
-## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Указание способа хранения качества взаимодействия с помощью командлетов Windows PowerShell
+## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения QoE с помощью командлетов Windows PowerShell
 
-Можно создать параметры хранения качества взаимодействия с помощью Windows PowerShell и командлет **Set-CsQoEConfiguration** . Можно выполнить этот командлет из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+Вы можете создать параметры хранения QoE с помощью Windows PowerShell и командлета **Set-кскоеконфигуратион** . Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>Указание срока хранения данных о качестве взаимодействия для определенного расположения
 
@@ -64,7 +64,7 @@ ms.locfileid: "33929513"
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Для получения дополнительных сведений см раздел справки для командлета [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [Set-кскоеконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) .
 
 ## <a name="see-also"></a>См. также
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
@@ -13,21 +13,21 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
-ms.openlocfilehash: bab53d772733f633e4f66e9b32c10f62e15c1842
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 753a9a3a65d9aaf3815c126772a19d7bfeca8be6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885603"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289155"
 ---
 # <a name="office-communications-server-scope-node"></a>Узел области сервера Office Communications
 
 Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
 
-Нажмите кнопку **Microsoft Office Communications Server 2007 R2** , чтобы развернуть разделы узла или щелкните правой кнопкой мыши чтобы отобразить параметры **топологии** или получить доступ к этой странице **справки** .
+Вы щелкните **Office Communications Server 2007 R2** , чтобы развернуть разделы под узлом, или щелкните правой кнопкой мыши, чтобы получить доступ к параметрам **топологии** или получить доступ к этой странице **справки** .
 
 ## <a name="see-also"></a>См. также
 
-[Объединение с помощью мастера объединения построителя топологии](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Слияние с помощью мастера слияния построителя топологии](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
-[Проверьте сведения о топологии](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[Проверка сведений о топологии](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

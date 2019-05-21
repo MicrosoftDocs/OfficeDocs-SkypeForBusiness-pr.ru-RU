@@ -1,10 +1,10 @@
 ---
-title: Создание профилей пропускной способности политики в Скайп для Business Server
+title: Создание профилей политики пропускной способности в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Создание или изменение политики пропускной способности, которые используются с корпоративной голосовой связи контроля допуска звонков в Скайп для Business Server.
-ms.openlocfilehash: 2ffb7699593c6c7790e37f57e7cce6d1779f0c16
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Создавайте и изменяйте политики пропускной способности, используемые корпоративным контролем за допуском звонков в Skype для бизнеса Server.
+ms.openlocfilehash: c7fecafe5f036405088a3c6c62b70774b779e266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892995"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289022"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Создание профилей пропускной способности политики в Скайп для Business Server 
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Создание профилей политики пропускной способности в Skype для бизнеса Server 
  
-Создание или изменение политики пропускной способности, которые используются с корпоративной голосовой связи контроля допуска звонков в Скайп для Business Server. 
+Создавайте и изменяйте политики пропускной способности, используемые корпоративным контролем за допуском звонков в Skype для бизнеса Server. 
   
-Политики пропускной способности определяют ограничения пропускной способности сети для режимов передачи звука и видеоизображения в реальном времени. Политики пропускной способности, применяемые tobandwidth политики профилей, которые могут применяться к нескольким сетевых узлов для контроля допуска звонков.
+Политики пропускной способности определяют ограничения пропускной способности сети для режимов передачи звука и видеоизображения в реальном времени. Политики пропускной способности применяются к тобандвидсым профилям политики, которые можно применять к нескольким сетевым сайтам для управления допуском звонков.
   
-Для указания, какие пропускной способности ограничивает вы должны в вашем развертывании CAC см [плана для контроля допуска звонков в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Рекомендации по выбору ограничений пропускной способности, которые следует настроить в развертывании CAC, приведены [в разделе Планирование управления допуском звонков в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 Примеры политик, созданных в следующей процедуре, задают ограничения для общего трафика аудиоданных, отдельных аудиосеансов, общего трафика видеоданных и отдельных видеосеансов. Например, профиль политики пропускной способности 5Mb_Link задает следующие ограничения: 
   
@@ -42,7 +42,7 @@ ms.locfileid: "33892995"
 > [!NOTE]
 > Минимальное значение для аудиосеанса 40 кбит/с. Минимальное значение для видеосеанса 100 кбит/с. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Создание профилей политики пропускной способности с помощью Скайп для консоли Business Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>Создание профилей политики пропускной способности с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
@@ -64,9 +64,9 @@ ms.locfileid: "33892995"
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Создание профилей политики пропускной способности с помощью Скайп для панели управления Business Server
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>Создание профилей политики пропускной способности с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
     
 2. В левой области навигации щелкните **Конфигурация сети**.
     

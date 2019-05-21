@@ -1,25 +1,25 @@
 ---
-title: Сводный Подотчет P2P в Скайп для Business Server
+title: Сводный отчет P2P в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 'Сводка: Сведения о сводный Подотчет P2P в Скайп для Business Server.'
-ms.openlocfilehash: 019682818d25fcd0088cb47fe51e12a17b9ce1bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о подчиненном сводном отчете P2P в Skype для бизнеса Server.'
+ms.openlocfilehash: 5238e910896a6af956285235d7e1234fe17fe005
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915820"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279916"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Сводный Подотчет P2P в Скайп для Business Server
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Сводный отчет P2P в Skype для бизнеса Server
  
-**Сводка:** Сведения о сводный Подотчет P2P в Скайп для Business Server.
+**Сводка:** Сведения о подчиненном сводном отчете P2P в Skype для бизнеса Server.
   
 Вложенный сводный отчет по одноранговым подключениям содержит общий обзор одноранговых сеансов связи, завершившихся с ошибками.
   

@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: 'Сводка: Сведения о мониторинга качества звонков, являющийся средства создания отчетов для Скайп для Business Server.'
-ms.openlocfilehash: c3972b31aa7f54b3a368b0449d4a5750f6b254af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о панели мониторинга качества связи, которая является средством создания отчетов для Skype для бизнеса Server.'
+ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930836"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274851"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Панель мониторинга качества звонков в Skype для бизнеса Server
  
-**Сводка:** Узнайте о мониторинга качества звонков, являющийся средства создания отчетов для Скайп для Business Server.
+**Сводка:** Сведения о панели мониторинга качества связи, представляющего собой средство создания отчетов для Skype для бизнеса Server.
  
-Скайп для Business Server вызов качества панели мониторинга (CQD) — это отчетов уровня качества из базы данных взаимодействия на сервере мониторинга в Скайп для Business Server и Lync Server 2013. CQD использует Microsoft SQL Server Analysis Services для предоставления сбору статистических данных об использовании и вызова качества сведения, а также фильтрации и сведение набора данных.
+Панель мониторинга качества связи в Skype для бизнеса Server (CQD) — это слой отчетности на основе базы данных качества обслуживания на сервере мониторинга в Skype для бизнеса Server и Lync Server 2013. CQD использует службы Microsoft SQL Server Analysis Services для предоставления статистической информации об использовании и данных качества связи, а также фильтрации и свертывания данных в множестве.
   
-В следующих разделах в этот раздел включены и следует изучить до развертывания панели мониторинга качества звонков.
+В этот раздел включены следующие темы, которые необходимо проверить перед развертыванием панели мониторинга качества связи.
   
-- [Планирование для панели мониторинга качества звонков для Скайп Business Server](plan.md)
+- [Планирование панели мониторинга качества звонков в Skype для бизнеса Server](plan.md)
     
-- [Развертывание панели мониторинга качества звонков для Скайп для Business Server](deploy-0.md)
+- [Развертывание панели мониторинга качества звонков для Skype для бизнеса Server](deploy-0.md)
     
-- [Использование панели мониторинга качества звонков для Скайп для Business Server](use.md)
+- [Использование панели мониторинга качества звонков для Skype для бизнеса Server](use.md)
     
-- [Создавать панели мониторинга качества звонков для Скайп для Business Server](develop.md)
+- [Разработка панели мониторинга качества звонков для Skype для бизнеса Server](develop.md)
     
 

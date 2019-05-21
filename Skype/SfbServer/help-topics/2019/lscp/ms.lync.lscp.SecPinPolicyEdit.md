@@ -1,10 +1,10 @@
 ---
-title: Создание новой или редактирование существующей политики ПИН-КОДОВ
+title: Политика закрепления создание новых или изменение существующих
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.SecPinPolicyEdit
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 09dbe2f0d8e817242c7edb6bf6ac1eb6bde1b486
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8ccbc397f4fc3814d585488115ef853a2296fc8d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891035"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292506"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Политика ПИН-кодов: создание новой или редактирование существующей
 
 Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
 
-- [Создание новой политики ПИН-код в Скайп для Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
+- [Создание новой политики ПИН-кода в Skype для бизнеса Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [Изменение существующей политики ПИН-код в Скайп для Business Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Изменение существующей политики ПИН-кода в Skype для бизнеса Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [Удаление политики ПИН-код в Скайп для Business Server](../../../manage/authentication/delete-a-pin-policy.md)
+- [Удаление политики ПИН-кода в Skype для бизнеса Server](../../../manage/authentication/delete-a-pin-policy.md)
 
 - [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 

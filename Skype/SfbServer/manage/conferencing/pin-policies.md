@@ -1,27 +1,27 @@
 ---
-title: Управление политиками ПИН-кода для конференц-связи в Скайп для Business Server
+title: Управление политиками ПИН для конференц-связи с телефонным подключением в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Сводка: Узнайте, как управлять политиками ПИН-кода для конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: 6e6fae1d418bbce4f3183e794cf8af5560226534
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как управлять политиками ПИН для конференц-связи с телефонным подключением в Skype для бизнеса Server.'
+ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888088"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280357"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Управление политиками ПИН-кода для конференц-связи в Скайп для Business Server
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Управление политиками ПИН для конференц-связи с телефонным подключением в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как управлять политиками ПИН-кода для конференц-связи в Скайп для Business Server.
+**Сводка:** Сведения о том, как управлять политиками ПИН для конференц-связи с телефонным подключением в Skype для бизнеса Server.
   
-Скайп для Business Server пользователей, имеющих учетные данные доменных служб Active Directory (AD DS) в организации могут присоединиться к телефонные конференции с проверкой подлинности с помощью персонального идентификационного номера (ПИН-кода). Политика ПИН-кодов определяет способ работы ПИН-кодов для конференц-связи с телефонным подключением.
+Пользователи Skype для бизнеса Server, у которых есть учетные данные доменных служб Active Directory (AD DS), могут присоединиться к конференциям с телефонным подключением в качестве пользователей, прошедших проверку подлинности, используя персональный идентификационный номер (PIN). Политика ПИН-кодов определяет способ работы ПИН-кодов для конференц-связи с телефонным подключением.
   
  Если вы хотите применить одну и ту же политику ПИН-кодов ко всей организации, вы можете использовать глобальную политику ПИН-кодов, изменив ее так, как нужно. Глобальная политика ПИН-кодов определяет правила для ПИН-кодов конференц-связи с телефонным подключением на уровне лесов. Глобальную политику ПИН-кодов можно изменить, но ее нельзя удалить.
   
@@ -31,19 +31,19 @@ ms.locfileid: "33888088"
   
 ## <a name="view-information-about-pin-policies"></a>Просмотр сведений о политиках ПИН-кодов
 
-Сведения о политиках ПИН-код можно просмотреть с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Сведения о политиках закрепления можно просмотреть с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Просмотр сведений о политиках ПИН-кода с помощью Скайп для панели управления Business Server
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Просмотр сведений о политиках закрепления с помощью панели управления Skype для бизнеса Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации щелкните элемент **Конференц-связь**, а затем щелкните элемент **Политика ПИН-кодов**.
     
 4. На странице **Политика ПИН-кодов** выберите политику ПИН-кодов, которую требуется просмотреть, щелкните **Правка**, а затем щелкните **Показать подробности**.
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Просмотр сведений о политиках ПИН-кода с помощью Скайп для консоли Business Server
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Просмотр сведений о политиках закрепления с помощью командной консоли Skype для бизнеса Server
 
 Для просмотра сведений о политиках ПИН-кодов используйте командлет **Get-CsPinPolicy**. Например, следующая команда возвращает сведения об одной политике ПИН-кода с идентификатором site:Redmond:
   
@@ -51,17 +51,17 @@ ms.locfileid: "33888088"
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-Дополнительные сведения, включая описание полный синтаксис и список параметров [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)см.
+Дополнительные сведения, включая полные описания синтаксиса и список параметров, можно найти в [статьях Get-кспинполици](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>Изменение глобальной политики ПИН-кодов
 
-Можно изменить глобальную политику ПИН-кода с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете изменить глобальную политику ПИН-кода с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для Business Server Management.
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Изменение глобальной телефонных конференций политики ПИН-кода с помощью Скайп для панели управления Business Server
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Изменение политики ПИН-кода для глобальной конференции с телефонным подключением с помощью панели управления Skype для бизнеса Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации щелкните элемент **Конференц-связь**, а затем щелкните элемент **Политика ПИН-кодов**.
     
@@ -86,7 +86,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 12. Нажмите **Исполнить**.
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Изменение глобальной телефонных конференций политики ПИН-кода с помощью Скайп для консоли Business Server
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Изменение политики ПИН-кода для глобальной конференции с телефонным подключением с помощью командной консоли Skype для бизнеса Server
 
 Для изменения глобальной политики ПИН-кодов для конференц-связи с телефонным подключением используйте командлет **Set-CsPinPolicy**.
   
@@ -96,17 +96,17 @@ Get-CsPinPolicy -Identity "site:Redmond"
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-Дополнительные сведения, включая описание полный синтаксис и список параметров [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)см.
+Дополнительные сведения, в том числе полные описания синтаксиса и список параметров, приведены в разделе [Set-кспинполици](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Создание политики ПИН-кодов для пользователя или сайта
 
-Можно создать пользователя или сайта политики ПИН-кода с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете создать политику ПИН-кода пользователя или сайта с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Создание пользователя или сайта политики ПИН-кода с помощью Скайп для панели управления Business Server
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Создание политики ПИН-кода для пользователя или сайта с помощью панели управления "Skype для бизнеса Server"
 
-1. Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1. Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации щелкните элемент **Конференц-связь**, а затем щелкните элемент **Политика ПИН-кодов**.
     
@@ -137,7 +137,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 13. Нажмите **Исполнить**.
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Создание пользователя или сайта политики ПИН-кода с помощью Скайп для консоли Business Server
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Создание политики для ПИН-кода пользователя или сайта с помощью командной консоли Skype для бизнеса Server
 
 Для создания политики ПИН-кодов для пользователя или сайта используйте командлет **New-CsPinPolicy**.
   
@@ -147,17 +147,17 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- Дополнительные сведения, включая описание полный синтаксис и список параметров содержатся в разделе [New-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
+ Дополнительные сведения, в том числе полные описания синтаксиса и список параметров, можно найти в разделе [New-кспинполици](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Изменение политики ПИН-кодов для пользователя или сайта
 
-Можно изменить пользователя или сайта политики ПИН-кода с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете изменить политику ПИН-кода пользователя или сайта с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для Business Server Management.
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Изменение пользователя или сайта политики ПИН-кода с помощью Скайп для панели управления Business Server
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Изменение политики закрепления пользователей и сайтов с помощью панели управления Skype для бизнеса Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации щелкните элемент **Конференц-связь**, а затем щелкните элемент **Политика ПИН-кодов**.
     
@@ -167,7 +167,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 6. Нажмите **Исполнить**.
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Изменение пользователя или сайта политики ПИН-кода с помощью Скайп для консоли Business Server
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Изменение политики закрепления пользователей и сайтов с помощью командной консоли Skype для бизнеса Server
 
 Для изменения политики ПИН-кодов для конференц-связи с телефонным подключением используйте командлет **Set-CsPinPolicy**.
   
@@ -177,23 +177,23 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-Дополнительные сведения, включая описание полный синтаксис и список параметров [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)см.
+Дополнительные сведения, в том числе полные описания синтаксиса и список параметров, приведены в разделе [Set-кспинполици](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Удаление политики ПИН-кодов для пользователя или сайта
 
-Можно удалить пользователей или сайта политики ПИН-кода с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете удалить политику закрепления пользователя или сайта с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для Business Server Management.
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Удаление пользователя или сайта политики ПИН-кода с помощью Скайп для панели управления Business Server
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Удаление политики закрепления пользователей и сайтов с помощью панели управления Skype для бизнеса Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации щелкните элемент **Конференц-связь**, а затем щелкните элемент **Политика ПИН-кодов**.
     
 4. На странице **Политика ПИН-кодов** выберите политику ПИН-кодов, которую требуется изменить, щелкните **Правка**, а затем щелкните **Удалить**.
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Удаление пользователя или сайта политики ПИН-кода с помощью Скайп для консоли Business Server
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Удаление политики ПИН-кода пользователя или сайта с помощью командной консоли Skype для бизнеса Server
 
 Для удаления политики ПИН-кодов для пользователя или сайта используйте командлет **Remove-CsPinPolicy**.
   
@@ -203,6 +203,6 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-Дополнительные сведения, включая описание полный синтаксис и список параметров можно [Remove-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
+Дополнительные сведения, в том числе полные описания синтаксиса и список параметров, приведены в разделе [Remove-кспинполици](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps).
   
 

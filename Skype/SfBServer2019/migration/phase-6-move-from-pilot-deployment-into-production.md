@@ -1,24 +1,24 @@
 ---
-title: Этап 6 переход от пилотного развертывания к рабочей версии
+title: Этап 6 Переход с пилотного развертывания на рабочий
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: В этом разделе описываются задачи, которые необходимо выполнить перед перемещением своего развертывания Скайп для Business Server 2019 из пилотной среды в развертывании производственного уровня.
-ms.openlocfilehash: 92e74af1881da85b84a7886965986c42d6e6d955
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: В этом разделе описаны задачи, которые необходимо выполнить перед перемещением развертывания Skype для бизнеса Server 2019 из пилотного развертывания в развертывание на рабочем уровне.
+ms.openlocfilehash: cc101ae93bbea9cf3fa7366bdf83676970ad450c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231527"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273891"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Этап 6: переход от пилотного развертывания к рабочей версии
 
-В этом разделе описываются задачи, которые необходимо выполнить перед перемещением развертывания Скайп для Business Server 2019 из пилотной среды в развертывании производственного уровня.
+В этом разделе описаны задачи, которые необходимо выполнить перед перемещением развертывания Skype для бизнеса Server 2019 из пилотного развертывания в развертывание на рабочем уровне.
   
 ## <a name="in-this-section"></a>Содержание
 
@@ -28,6 +28,6 @@ ms.locfileid: "32231527"
     
 - [Изменение простых URL-адресов после миграции](change-simple-urls-after-migration.md)
     
-- [Перемещение оставшихся пользователей на Скайп для Business Server 2019](move-remaining-users.md)
+- [Перемещение оставшихся пользователей в Skype для бизнеса Server 2019](move-remaining-users.md)
     
 

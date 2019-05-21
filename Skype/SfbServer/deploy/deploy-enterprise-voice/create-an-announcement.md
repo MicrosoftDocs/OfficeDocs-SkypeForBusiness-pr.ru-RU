@@ -1,10 +1,10 @@
 ---
-title: Создание и удаление оповещения в Скайп для Business Server
+title: Создание и удаление объявлений в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
-ms.openlocfilehash: 79298dbe415071d9d773375f524dff95516cc4fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Создание и удаление объявлений для приложения объявления в Skype для бизнеса Server Enterprise. От этих действий зависит способ обработки вызовов на неназначенные номера.
+ms.openlocfilehash: 6160631473a2ead839346e53f9f63294a7959289
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893009"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289078"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Создание и удаление оповещения в Скайп для Business Server
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Создание и удаление объявлений в Skype для бизнеса Server
 
-Создание и удаление объявлений для объявлений приложения в Скайп Business Server корпоративной голосовой связи. От этих действий зависит способ обработки вызовов на неназначенные номера.
+Создание и удаление объявлений для приложения объявления в Skype для бизнеса Server Enterprise. От этих действий зависит способ обработки вызовов на неназначенные номера.
 
 При настройке объявлений в действительности вы настраиваете то, как будут обрабатываться звонки на неназначенные номера. Можно воспроизводить подсказку — аудиофайл или TTS-файл синтезированной речи, или можно просто перевести вызов на указанный пункт назначения без подсказки.
 
@@ -50,7 +50,7 @@ ms.locfileid: "33893009"
 
 1. Если планируется использовать звуковые приглашения, создайте звуковой файл.
 
-2. Войдите на компьютер, где установлена Скайп для консоли Business Server как член группы RTCUniversalServerAdmins или с необходимые права пользователя как описано в **Делегирование разрешений на установку**.
+2. Войдите в систему на компьютере, на котором установлена консоль управления Skype для бизнеса Server, в качестве участника группы Рткуниверсалсерверадминс или с необходимыми правами пользователя, описанными в разделе **Делегирование разрешений на настройку**.
 
 3. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -82,13 +82,13 @@ ms.locfileid: "33893009"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Дополнительные сведения об этих командлетах, а для просмотра списка кодов языков для использования в параметре **TextToSpeechPrompt** в разделе [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Подробнее об этих командлетах и о том, как просмотреть список кодов языков, используемых в параметре **тексттоспичпромпт** , можно найти в статьях [New-ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Удаление объявления для неназначенных номеров
 
 ### <a name="to-delete-an-announcement"></a>Порядок удаления оповещения
 
-1. Войдите на компьютер, где установлена Скайп для консоли Business Server как член группы RTCUniversalServerAdmins или с необходимые права пользователя как описано в **Делегирование разрешений на установку**.
+1. Войдите в систему на компьютере, на котором установлена консоль управления Skype для бизнеса Server, в качестве участника группы Рткуниверсалсерверадминс или с необходимыми правами пользователя, описанными в разделе **Делегирование разрешений на настройку**.
 
 2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -111,11 +111,11 @@ ms.locfileid: "33893009"
    ```
 
     > [!NOTE]
-    > Для получения дополнительных сведений о Дополнительные параметры просмотра [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) и [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Подробнее о дополнительных параметрах можно узнать в [статьях Get-ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) и Remove [-ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>См. также
 
-[Создание и удаление оповещения в Скайп для Business Server](create-an-announcement.md)
+[Создание и удаление объявлений в Skype для бизнеса Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 

@@ -1,40 +1,40 @@
 ---
-title: Настройка интеграции с сервером Office Web Apps в Скайп для Business Server
+title: Настройка интеграции с Office Web Apps Server в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: 'Сводка: Прочтите этот раздел, чтобы узнать, как настроить интеграцию сервера Office Web Apps и Скайп для Business Server для включения презентаций PowerPoint для веб-конференций.'
-ms.openlocfilehash: 96920a5de9ac30e8fa0705a9fc596eb416dedc5d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться настраивать интеграцию между сервером Office Web Apps и Skype для бизнеса Server для включения презентаций PowerPoint для веб-конференций.'
+ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893324"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289113"
 ---
-# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с сервером Office Web Apps в Скайп для Business Server
+# <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с Office Web Apps Server в Skype для бизнеса Server
  
-**Сводка:** Прочтите этот раздел, чтобы узнать, как настроить интеграцию сервера Office Web Apps и Скайп для Business Server для включения презентаций PowerPoint для веб-конференций.
+**Сводка:** В этой статье рассказывается о том, как настроить интеграцию между сервером Office Web Apps и Skype для бизнеса Server для включения презентаций PowerPoint для веб-конференций.
   
-Скайп для Business Server использует сервера Office Web Apps для обработки презентаций PowerPoint для веб-конференций. Сведения о преимуществах этого подхода в разделе [Планирование для конференц-связи в Скайп для Business Server](../../plan-your-deployment/conferencing/conferencing.md).
+Skype для бизнеса Server использует сервер Office Web Apps для обработки презентаций PowerPoint для веб-конференций. Сведения о преимуществах этого подхода можно найти в разделе [Планирование конференций в Skype для бизнеса Server](../../plan-your-deployment/conferencing/conferencing.md).
   
-Перед настройкой Скайп для Business Server для использования сервера Office Web Apps, следует убедиться, что сервер Office Web Apps уже развернута и настроена. Подробную информацию об Office Web Apps Server, обратитесь к статье [развертывание инфраструктуры: Office Online Server](https://go.microsoft.com/fwlink/p/?linkid=257525). 
+Прежде чем вы сможете настроить Skype для бизнеса Server для использования сервера Office Web Apps, необходимо убедиться, что сервер Office Web Apps уже развернут и настроен. Сведения об Office Web Apps Server можно найти в статье [развертывание инфраструктуры: Office Online Server](https://go.microsoft.com/fwlink/p/?linkid=257525). 
   
-После установки сервера Office Web Apps и веб-ферме правильно настроен, затем настройте Скайп для Business Server для связи с новым сервером, добавив URL-адрес сервера Office Web Apps обнаружения в вашей Скайп для бизнеса Топология серверов. 
+После успешной установки Office Web Apps и правильной настройки веб-фермы необходимо настроить сервер Skype для бизнеса для связи с новым сервером, добавив URL-адрес обнаружения сервера Office Web Apps в Skype для бизнеса. Топология сервера. 
   
 > [!NOTE]
-> Новейшие итерации сервера Office Web Apps называется Office Online сервера, который поддерживается Скайп Business Server. Для получения дополнительных сведений обратитесь к [документации по Microsoft Office Online Server](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
+> Для последней итерации сервера Office Web Apps указан сервер Office Online, который поддерживается в Skype для бизнеса Server. Дополнительные сведения можно найти в документации по [серверу Office Online](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
   
-## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Настройка Скайп для Business Server для связи с сервером Office Web Apps
+## <a name="configure-skype-for-business-server-to-communicate-with-office-web-apps-server"></a>Настройка сервера Skype для бизнеса для связи с сервером Office Web Apps
 
 Чтобы добавить сервер Office Web Apps в топологию, выполните следующие действия:
   
-1. Откройте Скайп для Business Server Topology Builder.
+1. Откройте построитель топологии Skype для бизнеса Server.
     
 2. В диалоговом окне **построителя топологий** выберите **Загрузить топологию из существующего развертывания**, а затем нажмите **ОК**.
     
@@ -46,7 +46,7 @@ ms.locfileid: "33893324"
     
 6. В диалоговом окне **Определение нового сервера Office Web Apps** введите полное доменное имя (FQDN) сервера Office Web Apps в поле **Полное доменное имя сервера Office Web Apps**; при этом URL-адрес для обнаружения сервера Office Web Apps автоматически вводится в поле **URL-адрес обнаружения сервера Office Web Apps**.
     
-   - При локальной установке сервера Office Web Apps и в одной сетевой зоне как Скайп для Business Server выберите вариант **сервера Office Web Apps развернут во внешней сети (то есть в периметре/Интернете)** не следует выбирать.
+   - Если сервер Office Web Apps установлен в локальной сети и в той же сетевой зоне, что и Skype для бизнеса, **сервер Office Web Apps разворачивается во внешней сети (то есть, он** не должен быть установлен в качестве периметра или Интернета).
     
    - Если сервер Office Web Apps развернут за пределами внутреннего брандмауэра, выберите режим **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**.
     
@@ -66,11 +66,11 @@ ms.locfileid: "33893324"
     
 ## <a name="configure-access-for-external-users"></a>Настройка доступа внешних пользователей
 
-Если вы хотите внешних пользователей (то есть, вход в систему из за пределами брандмауэра организации) имеют доступ к презентации PowerPoint сервера Office Web Apps, после чего будет для использования сервера Office Web Apps и обратного прокси-сервера. You will also need to create and configure a website publishing rule, which will help ensure that users are able to connect to the server. 
+Если вы хотите, чтобы внешние пользователи (т. е. пользователи входят в систему из-за пределов брандмауэра организации) могли получать доступ к презентациям PowerPoint Web Apps, вы должны будете использовать сервер Office Web Apps и обратный прокси-сервер. You will also need to create and configure a website publishing rule, which will help ensure that users are able to connect to the server. 
   
 ## <a name="validate-the-configuration"></a>Проверка конфигурации
 
-После добавления сервера Office Web Apps в топологию, а после публикации, топологии, вы увидите два новых события журнала событий в Скайп для журнала событий Business Server. First, an LS Data MCU event (event ID 41034) should be added; this event will report that the Office Web Apps Server has been discovered:
+После добавления сервера Office Web Apps в топологию и после публикации этой топологии вы должны увидеть два новых события журнала событий в журнале событий Skype для бизнеса Server. First, an LS Data MCU event (event ID 41034) should be added; this event will report that the Office Web Apps Server has been discovered:
   
  **Сервер веб-конференций обнаружил сервер Office Web Apps Server, содержимое PowerPoint включено.**
   
@@ -78,20 +78,20 @@ ms.locfileid: "33893324"
   
  **Обнаружение Office Web Apps Server (WAC) сервера веб-конференций выполнено успешно.**
   
- **Office Web Apps Server внутренняя страница выступающего: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; внедрить =**
+ **Сервер Office Web Apps, внутренняя страница выступающего: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; embed =**
   
- **Страница внутренних attendee Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; внедрить = true&amp;=**
+ **Сервер Office Web Apps, страница внутреннего участника: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; embed = истина&amp;=**
   
-Если вы настроили доступа для внешних пользователей, будут видеть что-то вроде:
+Если вы настроили доступ для внешних пользователей, вы также увидите нечто примерно так:
   
- **Office Web Apps Server Внешняя страница выступающего: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; внедрения**
+ **Страница внешнего докладчика сервера Office Web Apps: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; внедрение**
   
- **Страница внутренних attendee Office Web Apps Server: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
+ **Страница внутреннего участника на сервере Office Web Apps: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
-Если отображается ошибка MCU данных LS событие с Идентификатором события 41033, который означает, что обнаружение сервера Office Web Apps. В этом случае Скайп для Business Server попытается столько раз, сколько для обнаружения вновь настройки сервера Office Web Apps. Если процесс обнаружения не удается выполнить несколько раз следует удалить из документа топологии сервера Office Web Apps, публикация обновленной топологии и повторите Добавление топологии для сервера Office Web Apps, после устранения возможных проблем подключения к.
+Если вы видите событие LS Data MCU с кодом события 41033, это означает, что не удалось обнаружить сервер Office Web Apps. В этом случае сервер Skype для бизнеса Server пытается выполнить столько раз, сколько нужно, чтобы открыть вновь настроенный сервер Office Web Apps. Если процесс обнаружения завершается сбоем, необходимо удалить сервер Office Web Apps из документа топологии, опубликовать обновленную топологию и попробовать добавить сервер Office Web Apps обратно в топологию после устранения проблем с подключением.
   
-Если сервера Office Web Apps правильность настройки и был распознан процессом обнаружения можно проверить, что сервер Office Web Apps работает как надо, общий доступ к презентации PowerPoint между парой Скайп пользователей. Если загрузки и отображения в презентацию PowerPoint пользователя A и B пользователей можно присоединиться к собранию, а также просматривать презентации, работы сервера Office Web Apps.
+Если приложение Office Web Apps настроено правильно и распознается процессом обнаружения, вы можете убедиться, что сервер Office Web Apps работает надлежащим образом, выполнив демонстрацию презентации PowerPoint между парой клиентов Skype для бизнеса. Если пользователь A может загрузить и отобразить презентацию PowerPoint, а затем пользователь B может присоединиться к собранию и просмотреть эту презентацию, будет ли работать сервер Office Web Apps.
   
-Даже в том случае, если сервер Office Web Apps отображается настроены правильно, могут потенциально появляется сообщение об ошибке «некоторых функций общего доступа недоступны из-за проблем с подключением сервера» при попытке общий доступ к презентации PowerPoint. При появлении этого сообщения об ошибке перезапустите интерфейсный сервер (или серверы) связанный с сервера Office Web Apps.
+Даже если сервер Office Web Apps настроен правильно, может быть получено сообщение об ошибке "некоторые функции общего доступа недоступны из-за проблем с подключением к серверу" при попытке предоставить общий доступ к презентации PowerPoint. Если появится сообщение об ошибке, необходимо перезапустить сервер переднего плана (или серверы), связанный с новым сервером Office Web Apps.
   
 

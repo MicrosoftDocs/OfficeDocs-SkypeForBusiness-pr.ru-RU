@@ -1,10 +1,10 @@
 ---
-title: Планирование подключения к ТСОП в Скайп Business Server
+title: Планирование подключения к PSTN в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Планирование подключения к ТСОП в корпоративной голосовой связи в Скайп Business Server.
-ms.openlocfilehash: aa3449746c539e7b7bf8fe5332fa4313f80fa555
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Планирование подключений PSTN в корпоративной голосовой связи в Skype для бизнеса Server.
+ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913572"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276499"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Планирование подключения к ТСОП в Скайп Business Server
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Планирование подключения к PSTN в Skype для бизнеса Server
  
-Планирование подключения к ТСОП в корпоративной голосовой связи в Скайп Business Server.
+Планирование подключений PSTN в корпоративной голосовой связи в Skype для бизнеса Server.
   
-Решение VoIP корпоративного уровня должно предусматривать входящие и исходящие вызовы на телефонную сеть общего пользования (ТСОП) без какого-либо снижения качества обслуживания (QoS). Пользователи, выполнять и принимать вызовы его не следует принять во внимание базовую технологию: с точки зрения пользователя инфраструктурой корпоративной голосовой связи и наоборот PSTN должны показаться любой другой телефонный звонок.
+Решение VoIP корпоративного уровня должно предусматривать входящие и исходящие вызовы на телефонную сеть общего пользования (ТСОП) без какого-либо снижения качества обслуживания (QoS). Пользователи, которые размещаются и принимают звонки, не должны знать о базовой технологии: с точки зрения пользователя, Звонок между корпоративной инфраструктурой голосовой связи и PSTN должен казаться просто другим телефонным звонком.
   
-Скайп для Business Server обеспечивает надежное, масштабируемое подключение к ТСОП с помощью следующих параметров:
+Skype для бизнеса Server обеспечивает надежную и масштабируемую КОММУТИРУЕМую связь с помощью следующих параметров:
   
 - **магистрали SIP**, соединяющие с оператором телефонной связи по сети Интернет;
     
@@ -39,14 +39,14 @@ ms.locfileid: "33913572"
   
 ## <a name="in-this-section"></a>Содержание
 
-- [SIP-магистрали в Скайп для Business Server](sip-trunking.md)
+- [Магистральные линии SIP в Skype для бизнеса Server](sip-trunking.md)
     
-- [Прямые SIP-подключения в Скайп для Business Server](direct-sip.md)
+- [Прямые подключения по протоколу SIP в Skype для бизнеса Server](direct-sip.md)
     
-- [Магистраль m: n в Скайп для Business Server](m-n-trunk.md)
+- [М:Н магистраль в Skype для бизнеса Server](m-n-trunk.md)
     
-- [Правила преобразования в Скайп для Business Server](translation-rules.md)
+- [Правила трансляции в Skype для бизнеса Server](translation-rules.md)
     
-- [Планирование маршрутизации исходящей голосовой почты в Скайп для Business Server](outbound-voice-routing.md)
+- [Планирование исходящей голосовой маршрутизации в Skype для бизнеса Server](outbound-voice-routing.md)
     
 

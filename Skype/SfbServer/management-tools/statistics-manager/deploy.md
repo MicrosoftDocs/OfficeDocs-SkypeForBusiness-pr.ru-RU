@@ -4,19 +4,19 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: Сводка. Этот раздел посвящен развертыванию диспетчера статистики в Skype для бизнеса Server.
-ms.openlocfilehash: 8313a242cc2016f3155314d76dd36be486d4d6ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901762"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288763"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
@@ -118,7 +118,7 @@ ms.locfileid: "33901762"
     
    - Если страница проверки работоспособности отображается, прослушиватель установлен успешно.
     
-   - Если KnownServerCount-1 или более поздней версии, установить подключение к Redis.
+   - Если Кновнсерверкаунт имеет значение 1 или выше, устанавливается соединение с Redis.
     
    - Подождав несколько минут и дождавшись установки по меньшей мере одного агента, посмотрите, увеличивается ли значение счетчика ValuesWritten.
     

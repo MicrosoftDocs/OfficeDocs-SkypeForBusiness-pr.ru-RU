@@ -1,11 +1,11 @@
 ---
-title: Создание новой или редактирование существующей абонентской группы
+title: Абонентская группа создание нового или изменение существующего
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceDialPlanEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 8bff26c3802d674cef661acb262e52a87b42e23c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 15e6e461006d6fa7b25ac1edb5eafa07b4ad4252
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901496"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285871"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Абонентская группа: создание новой или редактирование существующей
 
@@ -32,5 +32,5 @@ ms.locfileid: "33901496"
 
 - [Создание или изменение правила нормализации вручную](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
 
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
 

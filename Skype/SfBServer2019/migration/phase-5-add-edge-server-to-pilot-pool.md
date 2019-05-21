@@ -1,24 +1,24 @@
 ---
-title: Этап 5 добавьте Скайп для бизнеса 2019 пограничного сервера для пилотного пула
+title: Этап 5 Добавление подложки сервера Skype для бизнеса Server 2019 в пилотный пул
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: В темах этого раздела описывается, как добавление Скайп Business Server 2019 пограничного сервера для развертывания пилотного пула. В разделах представлено руководство настройки и проверки при запуске мастера развертывания нового пограничного пула.
-ms.openlocfilehash: c7da85f000fad55b27ed376d40bed957edf8dd6c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: В этой статье объясняется, как добавить пограничный сервер Skype для бизнеса Server 2019 в развертывание пула пилотных проектов. В этих разделах приведены рекомендации по настройке и проверке для мастера развертывания нового пула Edge.
+ms.openlocfilehash: 7bcd0537188b623af48e73c04bbd022d27d19e33
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231520"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273905"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Этап 5: Добавление Скайп Business Server 2019 пограничного сервера для пилотного пула
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Этап 5: Добавление сервера подложки Skype для бизнеса Server 2019 в пилотный пул
 
-В темах этого раздела описывается, как добавление Скайп Business Server 2019 пограничного сервера для развертывания пилотного пула. В разделах представлено руководство настройки и проверки при запуске мастера развертывания нового пограничного пула. 
+В этой статье объясняется, как добавить пограничный сервер Skype для бизнеса Server 2019 в развертывание пула пилотных проектов. В этих разделах приведены рекомендации по настройке и проверке для мастера развертывания нового пула Edge. 
   
 ## <a name="in-this-section"></a>Содержание
 

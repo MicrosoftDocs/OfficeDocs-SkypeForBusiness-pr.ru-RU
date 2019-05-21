@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.WebConferencing
@@ -13,29 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
-description: Скайп веб-конференций Business Server включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
-ms.openlocfilehash: 41f39dbe2fe5bec4f177729e5d24d303a87183dc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Веб-конференции в Skype для бизнеса Server включают в себя совместную работу с документами, общий доступ к приложениям и демонстрацию рабочего стола.
+ms.openlocfilehash: 51e06fa3913eca972f3ce146b344a748a07419e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889278"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284601"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web Conferencing (Planning Tool)
  
-Скайп веб-конференций Business Server включает в себя совместная работа над документами, общий доступ к приложениям и рабочим столам.
+Веб-конференции в Skype для бизнеса Server включают в себя совместную работу с документами, общий доступ к приложениям и демонстрацию рабочего стола.
   
 > [!NOTE]
-> Office Web Apps и сервера Office Web Apps для обработки общего доступа и отрисовки презентаций PowerPoint с помощью Скайп для Business Server. Возможности веб-конференций работает точно так же, как в Microsoft Lync 2013. Для получения дополнительных сведений об установке и настройке сервера Office Web Apps видеть [Настройка интеграции с сервером Office Web Apps и Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
+> Skype для бизнеса Server использует Office Web Apps и сервер Office Web Apps для обработки общего просмотра и отрисовки презентаций PowerPoint. Функции веб-конференций точно так же, как и в Microsoft Lync 2013. Подробнее об установке и настройке сервера Office Web Apps можно узнать в разделе [Настройка интеграции с Office Web Apps Server и Lync Server 2013](https://technet.microsoft.com/en-us/library/jj204792%28v=ocs.15%29.aspx). 
   
 Сведения о планировании включения веб-конференций в вашей организации см. в следующих статьях: 
   
-- [Планирование для конференц-связи в Скайп Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Планирование конференций в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [Аппаратные и программные требования для конференц-связи в Скайп для Business Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [Требования к оборудованию и программному обеспечению для Конференции в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
-- [Планирование для конференц-связи в Скайп Business Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
+- [Планирование конференц-связи с телефонным подключением в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
-- [План для больших собраний в Скайп для Business Server](../../../plan-your-deployment/conferencing/large-meetings.md)
+- [Планирование большого количества собраний в Skype для бизнеса Server](../../../plan-your-deployment/conferencing/large-meetings.md)
     
 

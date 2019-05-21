@@ -1,27 +1,27 @@
 ---
-title: Отчет о звонке в Скайп для Business Server
+title: Отчет о звонках в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Сводка: Сведения о подробного отчета по вызову используется в Скайп для Business Server.'
-ms.openlocfilehash: 1dd32baa8efdf932232e71b42a0c0ffdd1d840ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о вызове отчета "сведения о звонке", который используется в Skype для бизнеса Server.'
+ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902793"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289373"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Отчет о звонке в Скайп для Business Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Отчет о звонках в Skype для бизнеса Server
  
-**Сводка:** Узнайте о подробного отчета по вызову используется в Скайп для Business Server.
+**Сводка:** Сведения об использовании отчета о вызовах в Skype для бизнеса Server.
   
-Подробный отчет по вызову предоставляет подробное описание отдельных вызовов; отчет содержит почти все качества показатели и статистикой, собранной с Скайп для Business Server содержит разделов отчета таких как:
+В отчете подробных сведений о звонке подробно рассматривается отдельный звонок. отчет включает почти все показатели качества взаимодействия и статистику, собранные Skype для бизнеса Server, разделенные на разделы отчета, такие как:
   
 - Call Information (Сведения о вызове) 
     
@@ -49,17 +49,17 @@ ms.locfileid: "33902793"
 
 Доступ к подробному отчету по вызову можно получить из любого из следующих отчетов.
   
-- [Расположение отчета в Скайп для Business Server (расположение report.md) (щелкнув громкости вызова или процента звонков низкого качества показатель)
+- [Отчет о местоположении в Skype для бизнеса Server (location-report.md) (с помощью кнопки "позвонить" или "процент слабого звонка")
     
-- [Media Quality Summary Report в Скайп для Business Server (summary.md) (щелкнув громкости вызова или процента звонков низкого качества показатель)
+- [Сводный отчет о качестве звукового файла в Skype для бизнеса Server (summary.md) (с помощью кнопки "Звонок" или "процент неудовлетворительного звонка")
     
-- [Сравнительный отчет качества мультимедиа в Скайп для Business Server](comparison.md) (щелкнув [Call List Report в Скайп для Business Server](call-list-report-0.md) , а затем щелкнув метрику сведений).
+- [Отчет о сравнении качества мультимедиа в Skype для бизнеса Server](comparison.md) (с помощью [отчета "список обзвона" в Skype для бизнеса Server](call-list-report-0.md) и выбор детальной метрики).
     
-- [Отчет о производительности сервера в Скайп для Business Server](server-performance.md) (щелкнув громкости вызова или процента звонков низкого качества показатель)
+- [Отчет о производительности сервера в Skype для бизнеса Server](server-performance.md) (с помощью кнопки "позвонить" или "неудовлетворительный процент звонков")
     
-- [Call List Report в Скайп для Business Server](call-list-report-0.md) (щелкнув метрику сведений)
+- Отчет "список обзвона" [в Skype для бизнеса Server](call-list-report-0.md) (с помощью кнопки "Детальная Метрика")
     
-Из подробного отчета по вызову можно вызвать [Отчет устройства в Скайп для сервера](device-report.md) , щелкнув любой из следующих показателей:
+В отчете сведения о звонке вы можете получить доступ к [отчету устройства в Skype для бизнеса Server](device-report.md) , выбрав один из указанных ниже метрик.
   
 - Устройства захвата
     

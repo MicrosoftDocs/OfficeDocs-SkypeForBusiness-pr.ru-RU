@@ -1,25 +1,25 @@
 ---
-title: Тестирование телефонных конференций в Скайп для Business Server
+title: Проверка конференц-связи с телефонным подключением в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Сводка: Узнайте, как проверить телефонных конференций в Скайп для Business Server.'
-ms.openlocfilehash: 410cbaa9319130dcf4a98c23360362211869e52f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Общие сведения: Проверка конференций с телефонным подключением в Skype для бизнеса Server.'
+ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924887"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280364"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Тестирование телефонных конференций в Скайп для Business Server
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Проверка конференц-связи с телефонным подключением в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как проверить телефонных конференций в Скайп для Business Server.
+**Сводка:** Сведения о том, как протестировать Конференц-связь с телефонным подключением в Skype для бизнеса Server.
   
 Чтобы завершить проверку конфигурации конференц-связи с телефонным подключением, выполните поиск абонентских групп с регионом, для которого не задан ни один номер доступа, а также номеров доступа, для которых не задан ни один регион конференц-связи с телефонным подключением. Также следует проверить, что веб-страница "Параметры конференц-связи с телефонным подключением" и номера доступа к телефонному подключению работают правильно.
   
@@ -37,7 +37,7 @@ ms.locfileid: "33924887"
 
     Этот командлет возвращает все абонентские группы с регионом конференц-связи с телефонным подключением, для которого не задан ни один номер доступа.
     
-Для получения дополнительных сведений см [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Дополнительные сведения можно найти в [статьях Get-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>Поиск номеров доступа, которые не связаны ни с одним регионом
 
@@ -53,7 +53,7 @@ ms.locfileid: "33924887"
 
     Этот командлет возвращает все номера доступа к конференц-связи с телефонным подключением, которые не связаны ни с одним регионом.
     
-Для получения дополнительных сведений см [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Дополнительные сведения можно найти в [статьях Get-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>Проверка веб-страницы и номеров доступа
 
@@ -78,8 +78,8 @@ ms.locfileid: "33924887"
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    Полученный отчет показывает успешность или сбой операции, а также содержит диагностические сведения. - Verbose флаг содержит более подробные сведения о сколько найдены номера доступа и сведений о них.
+    Полученный отчет показывает успешность или сбой операции, а также содержит диагностические сведения. Флаг-подробный содержит более подробные сведения о том, сколько номеров доступа было найдено, и о них.
     
-Для получения дополнительных сведений см [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
+Дополнительные сведения можно найти в разделе [Test-ксдиалинконференЦинг](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
   
 

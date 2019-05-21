@@ -4,24 +4,24 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Сводка: Сведения о настройке ПИН-кода меньше собраний вариант присоединиться в Скайп для Business Server.'
-ms.openlocfilehash: c865d234b58b29890957a2c895a91d84b9a31bb0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как настроить параметр присоединения к собранию без контактов в Skype для бизнеса Server.'
+ms.openlocfilehash: ecd1d2bf184dd6b9e1ff78e16c2ca1eb8da73ef9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888109"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280385"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Настройка присоединения к собранию без ПИН-кода в Skype для бизнеса Server
  
-**Сводка:** Сведения о настройке ПИН-кода меньше собраний вариант присоединиться в Скайп для Business Server.
+**Сводка:** Сведения о том, как настроить параметр присоединения к собранию без контактов в Skype для бизнеса Server.
   
-При попытке присоединиться к собранию вызывающего-связь, служба Attendant автоматически конференции (CAA) помещает вызывающего абонента в перо удержания, отличается от & зал ожидания #x 2014 г.; Если выступающим еще не на вызов и вызывающего абонента-связь не вошел лидера ПИН-кода. ПИН-код меньше вариант присоединения к собранию позволяет присоединиться к собранию без ввода ПИН-код ведущего даже в том случае, если они находятся на первого лица на вызов вызывающей-связь. 
+Когда вызывающий абонент пытается присоединиться к собранию, служба автоматического ассистента конференций (Каа) помещает вызывающий абонент в перо, отличное от "зал ожидания" x2014. Если выступающий не установлен в звонке, а вызывающий абонент не ввел заполнитель. Параметр присоединиться к собранию с неконтактным подключением позволяет присоединиться к собранию с помощью абонентов, не вводя ведущий контакт, даже если он является первым абонентом в звонке. 
   
 При настройке этого компонента следует учитывать следующие сведения.
   
@@ -39,11 +39,11 @@ ms.locfileid: "33888109"
     
   - **Все вызывающие абоненты попадают напрямую** (Эта настройка используется по умолчанию.)
     
-- Если присоединение без ПИН-кода включено, служба CAA по-прежнему запрашивает ПИН-код ведущего. Пользователи могут присоединиться к собранию независимо от того, введен ли ПИН-код. Тем не менее сохраняя возможность вводить ПИН-код ведущего позволяет телефонные вызывающей стороне проверку в качестве лидера и управление ими собрания, если это необходимо.
+- Если присоединение без ПИН-кода включено, служба CAA по-прежнему запрашивает ПИН-код ведущего. Пользователи могут присоединиться к собранию независимо от того, введен ли ПИН-код. Однако сохранение возможности ввода ведущего PIN-кода позволяет вызывающему абоненту войти в качестве лидера, а при необходимости управлять собранием.
     
 ## <a name="configure-pin-less-meeting-join"></a>Настройка присоединения к собранию без ПИН-кода
 
-Чтобы включить присоединения к собранию без использования ПИН-кода для пользователей, используйте командлет [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) с параметром AllowAnonymousPstnActivation следующим образом:
+Чтобы включить присоединение к собранию без контактов для пользователей, используйте командлет [Set-ксдиалинконференЦингконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) с параметром аллованонимауспстнактиватион, как описано ниже.
   
 ```
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -61,6 +61,6 @@ Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstn
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-Для получения дополнительных сведений см [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+Дополнительные сведения можно найти в разделе [Set-ксконференЦингполици](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

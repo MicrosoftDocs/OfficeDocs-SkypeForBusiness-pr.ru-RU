@@ -1,10 +1,10 @@
 ---
-title: Создание политик расположения в Скайп для Business Server
+title: Создание политик местоположений в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,30 +13,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: Прочтите сведения о настройке политик расположения экстренных служб (E9-1-1) в Скайп enhanced Business Server корпоративной голосовой связи.
-ms.openlocfilehash: 1c00663dfa8c2bc1896b19790d4b2080d336928b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В этой статье рассказывается о том, как настроить политики расположения улучшенных служб экстренной помощи (E9-1-1) в Skype для бизнеса Server Enterprise.
+ms.openlocfilehash: e3e98394b660174eeb58b259de0121196934ad3c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892988"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286378"
 ---
-# <a name="create-location-policies-in-skype-for-business-server"></a>Создание политик расположения в Скайп для Business Server
+# <a name="create-location-policies-in-skype-for-business-server"></a>Создание политик местоположений в Skype для бизнеса Server
 
-Прочтите сведения о настройке политик расположения экстренных служб (E9-1-1) в Скайп enhanced Business Server корпоративной голосовой связи. 
+В этой статье рассказывается о том, как настроить политики расположения улучшенных служб экстренной помощи (E9-1-1) в Skype для бизнеса Server Enterprise. 
 
-Скайп для Business Server использует политику расположения для включения Скайп пользователей для E9-1-1 во время регистрации клиента. Политика расположения содержит параметры, которые определяют порядок реализации E911. Дополнительные сведения содержатся в разделе [планирование политики расположения для Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Skype для бизнеса Server использует политику расположения для включения клиентов Skype для бизнеса для E9-1-1 во время регистрации клиента. Политика расположения содержит параметры, которые определяют порядок реализации E911. Дополнительные сведения можно найти в разделе [политики расположения планов для Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 
-Вы задаете политики расположения с помощью Скайп для панели управления бизнеса или с помощью командлета [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) .
+Политики местоположений определяются с помощью панели управления Skype для бизнеса или с помощью командлета [New-кслокатионполици](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) .
 
 > [!NOTE]
-> Скайп для Business Server теперь поддерживает конфигурации нескольких аварийного номера для клиента. Если вы хотите настроить несколько аварийного номера, необходимо выполнить сведения в [Планирование нескольких аварийного номера в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) и [настроить несколько аварийного номера в Скайп для бизнеса](configure-multiple-emergency-numbers.md). 
+> Skype для бизнеса Server теперь поддерживает конфигурацию нескольких номеров экстренного реагирования для клиента. Если вы хотите настроить несколько номеров для экстренного реагирования, необходимо выполнить описанные ниже действия в разделе [Планирование нескольких номеров для экстренных случаев в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) и [Настройте несколько номеров для экстренной помощи в Skype для бизнеса](configure-multiple-emergency-numbers.md). 
 
 Глобальную политику расположения можно редактировать, кроме того, можно создавать новые именованные политики расположения. Клиент получает глобальную политику, если он расположен не в подсети, для которой имеется связанная локальная политика, или если локальная политика не назначена ему напрямую. Именованные политики назначаются подсетям или пользователям.   
 
 Чтобы создать политику расположения, следует использовать учетную запись, являющуюся членом группы RTCUniversalServerAdmins или административной роли CsVoiceAdministrator или обладает эквивалентными правами и разрешениями администратора.
 
-Дополнительные сведения содержатся в разделе [планирование политики расположения для Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Командлеты в этой процедуре используют заданную политику расположения и приведенные ниже значения. Полное описание командлета параметры и значения в разделе [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+Дополнительные сведения можно найти в разделе [политики расположения планов для Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Командлеты в этой процедуре используют заданную политику расположения и приведенные ниже значения. Полное описание параметров и значений командлетов можно найти в разделе [New-кслокатионполици](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
 
 
 | **Элемент**                               | **Значение**                                                                                                                                                                          |

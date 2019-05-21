@@ -1,27 +1,27 @@
 ---
-title: PSTN сводного отчета по конференциям в Скайп для Business Server
+title: Сводный отчет о конференции по PSTN в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Сводка: Сведения о PSTN конференции сводный отчет в Скайп для Business Server.'
-ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о сводном отчете о конференциях в сети Skype для бизнеса Server.'
+ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925210"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279986"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN сводного отчета по конференциям в Скайп для Business Server
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Сводный отчет о конференции по PSTN в Skype для бизнеса Server
  
-**Сводка:** Узнайте о PSTN конференции сводный отчет в Скайп для Business Server.
+**Сводка:** Сведения о сводном отчете о конференции PSTN в Skype для бизнеса Server.
   
-В Скайп для Business Server конференции ТСОП — это любой конференции, в котором по крайней мере один участник выполняет попытку подключения к звуковой части с помощью телефона ТСОП (телефонной сети общего пользования). (Телефона ТСОП является «проводной» мобильный телефон или другой телефон, который не использовать голосовой связи по протоколу IP.) Несмотря на то, что называется конференций ТСОП в отчетов мониторинга, эти конференции возможно наиболее часто называются телефонные конференции.
+В Skype для бизнеса Server — конференция PSTN — это любая конференция, в которой по крайней мере один абонент звонит на звуковую часть с помощью телефонной сети PSTN (телефонная сеть с открытым коммутируемым подключением). (КОММУТИРУЕМый телефон – это "стационарные", "сотовый телефон" или любой другой телефон, который не использует голосовую связь по IP-адресу.) Несмотря на то, что в отчетах мониторинга используются сети PSTN-конференции, эти конференции, возможно, более часто известны как конференции с телефонным подключением.
   
 Сводный отчет по конференциям ТСОП (PSTN Conference Summary Report) предоставляет сведения обо всех конференциях ТСОП, происходивших в вашей организации (т.е. о всех конференциях, хотя бы один участник которых использовал телефонное подключение). В этом отчете содержатся сведения об общем количестве конференций ТСОП, общем количестве участников этих конференций и, что возможно самое важное, об общем количестве пользователей с телефонным подключением (метрика "Total PSTN participants" ("Общее количество участников ТСОП")).
   
@@ -31,9 +31,9 @@ ms.locfileid: "33925210"
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Оптимальное использование сводного отчета по конференциям ТСОП
 
-Чтобы определить процент конференций, включая удаленных пользователей, сравните значение метрики Total PSTN конференций с общее количество конференций, которую можно найти в [Сводном отчете по конференциям в Скайп для Business Server](conference-summary-report.md).
+Чтобы определить процентную долю всех ваших конференций, включающих пользователей с телефонным подключением, Сравните значение общей метрики конференций PSTN с общей метрикой в [сводном отчете о конференции в Skype для бизнеса Server](conference-summary-report.md).
   
-If you don't see as many PSTN conferences as you might have expected to see, keep in mind that the ability to organize a conference that allows dial-in users depends on the conferencing policy that has been assigned to a user: if very few of your users are allowed to hold PSTN conferences you would obviously see very few PSTN conferences. Вы можете быстро проверить политиках конференц-связи (при его наличии), обеспечивающие пользователям возможность планирования конференций ТСОП, выполнив следующую команду в Скайп для консоли Business Server:
+If you don't see as many PSTN conferences as you might have expected to see, keep in mind that the ability to organize a conference that allows dial-in users depends on the conferencing policy that has been assigned to a user: if very few of your users are allowed to hold PSTN conferences you would obviously see very few PSTN conferences. Вы можете быстро проверить, какие из политик конференц-связи (если есть) разрешают пользователям планировать конференции по сети PSTN, выполнив следующую команду в командной консоли управления Skype для бизнеса Server:
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing

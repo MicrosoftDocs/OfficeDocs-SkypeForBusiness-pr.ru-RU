@@ -4,29 +4,29 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Можно просмотреть сведений о сетевом интерфейсе с помощью командлета Get-CsNetworkInterface и Windows PowerShell. Этот командлет можно запустить из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell.
-ms.openlocfilehash: 5460ee66d61c43925de1ec74778ea8920f79df25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Вы можете просматривать сведения о сетевом интерфейсе с помощью Windows PowerShell и командлета Get-Кснетворкинтерфаце. Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell.
+ms.openlocfilehash: ac0df8450b938a377e1325f9c3179b4650b31bdf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910265"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279391"
 ---
-# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Просмотр сведений о сетевом интерфейсе в Скайп для Business Server
+# <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Просмотр сведений о сетевом интерфейсе в Skype для бизнеса Server
 
-Можно просмотреть сведений о сетевом интерфейсе с помощью командлета **Get-CsNetworkInterface** и Windows PowerShell. Этот командлет можно запустить из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. 
+Вы можете просматривать сведения о сетевом интерфейсе с помощью Windows PowerShell и командлета **Get-кснетворкинтерфаце** . Вы можете запустить этот командлет из командной консоли Skype для бизнеса Server или из удаленного сеанса Windows PowerShell. 
 
-## <a name="to-view-network-interface-information"></a>Для просмотра сведений о сетевом интерфейсе
+## <a name="to-view-network-interface-information"></a>Просмотр сведений о сетевом интерфейсе
 
-  - Для просмотра сведений о сетевом интерфейсе, введите следующую команду в Скайп для консоли Business Server и нажмите клавишу ВВОД:
+  - Чтобы просмотреть сведения о сетевом интерфейсе, введите в командной консоли Skype для Business Server указанную ниже команду и нажмите клавишу ВВОД.
     
         Get-CsNetworkInterface
     
-    Эта команда возвращает сведения, подобные приведенным ниже, для каждого сетевого интерфейса:
+    Эта команда возвращает сведения о каждом сетевом интерфейсе, как показано ниже.
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -38,6 +38,6 @@ ms.locfileid: "33910265"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    Дополнительные сведения см [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
+    Подробности можно найти в [статьях Get-кснетворкинтерфаце](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
 
 

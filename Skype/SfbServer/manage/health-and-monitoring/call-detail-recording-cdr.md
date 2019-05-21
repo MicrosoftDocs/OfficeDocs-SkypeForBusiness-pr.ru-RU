@@ -1,40 +1,40 @@
 ---
-title: Вызовов компании recording (CDR) в Скайп for Business Server
+title: Запись сведений о звонке (CDR) в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-description: 'Сводка: Сведения о регистрации вызовов (CDR) записей, используемых в Скайп для Business Server.'
-ms.openlocfilehash: 807319c46ba39e358538a4570053f24a2d9ec532
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о записи сведений о звонке (CDR), которые используются в Skype для бизнеса Server.'
+ms.openlocfilehash: 3ad4be42fd65e3a7301e3b6d3e2fb649a3fbcea8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902776"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289401"
 ---
-# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Вызовов компании recording (CDR) в Скайп for Business Server
+# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Запись сведений о звонке (CDR) в Skype для бизнеса Server
  
-**Сводка:** Сведения о регистрации вызовов (CDR) записей, используемых в Скайп для Business Server.
+**Сводка:** Сведения о записи сведений о звонке (CDR), которые используются в Skype для бизнеса Server.
   
-Записи регистрации вызовов (CDR) и диагностическая информация об одноранговой активности, включая мгновенные сообщения, VoIP-вызовы, общий доступ к приложениям, передачу файлов и собрания. Данные об использовании могут применяться для расчета окупаемости инвестиций, а данные диагностики — для устранения неполадок, связанных с одноранговой активностью и собраниями. При установке Скайп для Business Server можно установить предварительно заданных коллекцию глобальных параметров конфигурации для регистрации Вызовов. Используйте темы этого раздела для настройки регистрации вызовов.
+Записи регистрации вызовов (CDR) и диагностическая информация об одноранговой активности, включая мгновенные сообщения, VoIP-вызовы, общий доступ к приложениям, передачу файлов и собрания. Данные об использовании могут применяться для расчета окупаемости инвестиций, а данные диагностики — для устранения неполадок, связанных с одноранговой активностью и собраниями. При установке Skype для бизнеса Server вы также устанавливаете предопределенную коллекцию глобальных параметров конфигурации для CDR. Используйте темы этого раздела для настройки регистрации вызовов.
   
 ## <a name="in-this-section"></a>Содержание
 
-- [Сведения о конфигурации CDR представления в Скайп для Business Server](view-configuration-information.md)
+- [Просмотр сведений о конфигурации CDR в Skype для бизнеса Server](view-configuration-information.md)
     
-- [Включение регистрации вызовов в Скайп для Business Server](enable-cdr.md)
+- [Включение записи сведений о звонках в Skype для бизнеса Server](enable-cdr.md)
     
-- [Создание или изменение коллекции параметров конфигурации CDR в Скайп для Business Server](create-or-modify-a-collection-of-settings.md)
+- [Создание и изменение коллекции параметров конфигурации CDR в Skype для бизнеса Server](create-or-modify-a-collection-of-settings.md)
     
-- [Удаление существующей коллекции параметров конфигурации CDR в Скайп для Business Server](delete-configuration-settings.md)
+- [Удаление существующей коллекции параметров конфигурации CDR в Skype для бизнеса Server](delete-configuration-settings.md)
     
-- [Вручную удалить базы данных качества взаимодействия в Скайп и регистрации вызовов для Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [Очистка записей и данных качества связи в Skype для бизнеса Server вручную](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## <a name="see-also"></a>См. также
 
-[Настройка регистрации вызовов и параметров качества взаимодействия в Скайп для Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[Настройка записи сведений о звонке и параметров качества обслуживания в Skype для бизнеса Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

@@ -1,39 +1,39 @@
 ---
-title: 'Управление конференц-связи номеров доступа в Скайп для Business Server '
+title: 'Управление номерами доступа для конференц-связи с телефонным подключением в Skype для бизнеса Server '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Сводка: Узнайте, как управлять номера доступа к конференц-связи в Скайп для Business Server.'
-ms.openlocfilehash: aa386b1c2dd868634539be32062ed7728e27c1e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Сводка. сведения о том, как управлять номерами доступа для конференц-связи с телефонным подключением в Skype для бизнеса Server.
+ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919411"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289036"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Управление конференц-связи номеров доступа в Скайп для Business Server
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Управление номерами доступа для конференц-связи с телефонным подключением в Skype для бизнеса Server
  
-**Сводка:** Сведения об управлении номера доступа к конференц-связи в Скайп для Business Server.
+**Сводка:** Сведения о том, как управлять номерами доступа для конференц-связи с телефонным подключением в Skype для бизнеса Server.
   
 При развертывании конференц-связи с телефонным подключением необходимо настроить телефонные номера, которые пользователи смогут набирать из ТСОП, чтобы подключиться к звуковому каналу конференции. Такие телефонные номера доступа отображаются в приглашениях на собрания и на веб-странице параметров конференц-связи с телефонным подключением. 
   
-В этом разделе описывается, как просматривать, изменять или удалять существующие номера доступа к конференц-связи с телефонным подключением. Дополнительные сведения о создании начального номера для телефонного номера можно [Настройка телефонных конференций в Скайп для Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+В этом разделе описывается, как просматривать, изменять или удалять существующие номера доступа к конференц-связи с телефонным подключением. Дополнительные сведения о создании начальных номеров доступа для телефонного подключения можно найти [в разделе Настройка конференц-связи с телефонным подключением в Skype для бизнеса Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Просмотр номеров доступа для конференц-связи с телефонным подключением
 
-Номера доступа к конференц связи с телефонным можно просмотреть с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Номера доступа для конференц-связи с телефонным подключением можно просматривать с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Просмотр номеров доступа с помощью Скайп для панели управления Business Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Просмотр номеров доступа для телефонного подключения с помощью панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации выберите **Конференция**, а затем щелкните **Номер для телефонного подключения**.
     
@@ -41,11 +41,11 @@ ms.locfileid: "33919411"
     
 5. В разделе **Изменить** установите флажок **Показать подробности**.
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Просмотр номеров доступа с помощью Скайп для консоли Business Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Просмотр номеров доступа для телефонного подключения с помощью командной консоли Skype для бизнеса Server
 
 Для просмотра информации о номерах для телефонного подключения используется командлет **Get-CsDialInConferencingAccessNumber**.
   
-Следующая команда возвращает коллекцию всех номеров доступа к конференц-связи, настроенных для использования в организации: 
+Следующая команда возвращает коллекцию всех номеров доступа конференц-связи с телефонным подключением, настроенных для использования в Организации. 
   
 ```
 Get-CsDialInConferencingAccessNumber
@@ -68,17 +68,17 @@ HostingProvider    :
 Regions            : {US}
 </pre>
 
-Для получения дополнительных сведений см [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Дополнительные сведения можно найти в [статьях Get-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>Изменение номеров доступа для конференц-связи с телефонным подключением
 
-Номера доступа можно изменить с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Вы можете изменить номера доступа для телефонного подключения с помощью панели управления Skype для бизнеса Server или консоли управления в Skype для бизнеса Server.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Изменение номера доступа с помощью Скайп для панели управления Business Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Изменение номеров доступа для телефонного подключения с помощью панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации выберите **Конференция**, а затем щелкните **Номер для телефонного подключения**.
     
@@ -91,7 +91,7 @@ Regions            : {US}
     
     Этот номер отображается в приглашениях на собрание и на веб-странице параметров конференции с телефонным подключением.
     
-6. В поле **Отображаемое имя** введите описание для этого номера для телефонного подключения. Это имя, связанное с номером доступа в Скайп для результатов поиска бизнес-деятельности.
+6. В поле **Отображаемое имя** введите описание для этого номера для телефонного подключения. Это имя, связанное с номером доступа для телефонного подключения в результатах поиска в Skype для бизнеса.
     
     Это имя отображается в клиенте, когда пользователь набирает этот номер доступа. 
     
@@ -102,12 +102,12 @@ Regions            : {US}
   
 8. В разделе **SIP URI** выполните указанные ниже действия.
     
-   В текстовом поле введите уникальный SIP URI для этого номера доступа к конференции с телефонным подключением. Этот URI SIP отображается в различных местах, в том числе, но не ограничиваясь вызова сообщений уведомлений и предыдущих версий клиентов Lync.
+   В текстовом поле введите уникальный SIP URI для этого номера доступа к конференции с телефонным подключением. Этот универсальный код ресурса (URI) SIP отображается в различных расположениях, включая и не ограничиваются сообщениями уведомления о звонках и предыдущими версиями клиентов Lync.
     
     > [!NOTE]
     > Этот же самый SIP URI не может использоваться другим номером доступа к конференции с телефонным подключением. Этот SIP URI нельзя изменить после создания номера доступа. Единственный способ изменить SIP URI для номера доступа заключается в в удалении и повторном создании этого номера доступа. 
   
-   В раскрывающемся списке выберите домен приложения помощник по конференц-связи, поддерживающий этот номер доступа.
+   В раскрывающемся списке выберите домен приложения, которое поддерживает этот номер доступа для телефонного подключения.
     
 9. В области **Пул** выберите пул, в котором работает экземпляр помощника по конференц-связи, поддерживающий этот номер для телефонного подключения.
     
@@ -122,13 +122,13 @@ Regions            : {US}
     
     Для каждого номера доступа по телефонной линии можно выбрать вплоть до четырех дополнительных языков. Пользователи могут выбирать дополнительный язык до ввода идентификатора конференции, когда они набирают номер доступа к конференции.
     
-12. Добавление области в качестве номера для телефонного номера, в разделе **связанные регионы**, нажмите кнопку **Добавить**, выберите одну или несколько областей, которые связаны с абонентские группы для этого номера доступа и нажмите кнопку **ОК**.
+12. Чтобы добавить регион для номера доступа для телефонного подключения, в разделе **связанные регионы**нажмите кнопку **Добавить**, выберите одну или несколько регионов, связанных с абонентской панелью для этого номера доступа, а затем нажмите кнопку **ОК**.
     
 13. Чтобы удалить регион из номера для телефонного подключения, в разделе **Связанные регионы** выберите регион, который требуется удалить, и нажмите **Удалить**.
     
 14. Нажмите **Исполнить**.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Изменение номера доступа с помощью Скайп для консоли Business Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Изменение номеров доступа для телефонного подключения с помощью командной консоли Skype для бизнеса Server
 
 Для изменения номеров для телефонного подключения используется командлет **Set-CsDialInConferencingAccessNumber**.
   
@@ -144,17 +144,17 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
-Для получения дополнительных сведений см [Set-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
+Дополнительные сведения можно найти в разделе [Set-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Удаление номера доступа к конференц-связи с телефонным подключением
 
-Номер доступа телефонных конференций можно удалить с помощью Скайп для панели управления Business Server или с помощью Скайп для консоли Business Server.
+Номер доступа к конференц-связи с телефонным подключением можно удалить с помощью панели управления Skype для бизнеса Server или с помощью командной консоли Skype для бизнеса Server.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Удаление номера доступа к конференц-связи с помощью Скайп для панели управления Business Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Удаление номера доступа к конференц-связи с телефонным подключением с помощью панели управления Skype для бизнеса Server
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
     
-2.  Откройте Скайп для панели управления Business Server.
+2.  Откройте панель управления Skype для бизнеса Server.
     
 3. В левой панели навигации выберите **Конференция**, а затем щелкните **Номер для телефонного подключения**.
     
@@ -162,7 +162,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
     
 5. Нажмите **ОК**.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Удаление номера доступа к конференц-связи с помощью Скайп для консоли Business Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Удаление номера доступа для конференц-связи с телефонным подключением с помощью командной консоли Skype для бизнеса Server
 
 Для удаления номера доступа к конференции с телефонным подключением используется командлет **Remove-CsDialInConferencingAccessNumber**.
   
@@ -184,6 +184,6 @@ Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConfer
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 
-Для получения дополнительных сведений см [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).
+Дополнительные сведения можно найти в разделе [Remove-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/remove-csdialinconferencingaccessnumber?view=skype-ps).
   
 

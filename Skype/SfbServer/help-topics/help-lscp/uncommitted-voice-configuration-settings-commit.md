@@ -1,11 +1,11 @@
 ---
-title: Сохранить параметры конфигурации незафиксированные голосовой связи
+title: Фиксация незафиксированных параметров настройки голосовой связи
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceViewSumCommit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: Диалоговое окно Несохраненные параметры настройки голосовой связи используется для просмотра всех внесенных изменений. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. После завершения либо нажмите кнопку Исполнить для сохранения всех изменений, либо нажмите кнопку Отмена, чтобы вернуться и исправить изменения.
-ms.openlocfilehash: e22b248f57bf786123c57c10570d8772adf03bd4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 93d1fdfa8321f21b5868c2760efc0391b4e057aa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929064"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292244"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Незафиксированные параметры конфигурации голосовой связи: фиксация
  
@@ -27,6 +27,6 @@ ms.locfileid: "33929064"
 > [!IMPORTANT]
 > Если нажать кнопку **Исполнить**, будут сохранены **все** изменения, перечисленные в диалоговом окне **Несохраненные параметры настройки голосовой связи**.
   
-Для получения дополнительных сведений о различных процедурах, которые можно выполнять с помощью Скайп для панели управления сервера Business видеть [Управление Скайп для Business Server 2015](../../manage/manage.md).
+Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).
   
 

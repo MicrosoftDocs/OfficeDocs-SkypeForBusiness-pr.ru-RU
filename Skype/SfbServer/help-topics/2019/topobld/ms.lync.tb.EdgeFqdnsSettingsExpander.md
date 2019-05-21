@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: Если для пограничных серверов требуется задать или изменить значения в разделе Внешние параметры, необходимо сначала определить, будут ли назначены отдельные IP-адреса для доступа по протоколу SIP, для пограничных веб-конференций и для пограничной службы передачи аудио- и видеоданных
-ms.openlocfilehash: cb072634f5c78ad6bfcdab0ebd543302ecd23b3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fa118ea3b1b9030c36a3c23d93b27e270ccdb09
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916016"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280517"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Расширитель параметров полного доменного имени пограничного сервера
 

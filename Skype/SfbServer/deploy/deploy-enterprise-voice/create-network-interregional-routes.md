@@ -1,10 +1,10 @@
 ---
-title: Создание сетевых маршрутов interregional в Скайп для Business Server
+title: Создание межсетевых маршрутов с межсетевым подключением в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: Создание или изменение маршрутов interregional сети, которые используются контроля допуска звонков корпоративной голосовой связи в Скайп Business Server.
-ms.openlocfilehash: b12f2f7d413be0031fd914157af4e9541095fd7f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Создавайте и изменяйте межсетевые маршруты по сети, которые используются для управления допуском голосовых вызовов в Skype для бизнеса Server.
+ms.openlocfilehash: aec289143e2b6dd54e2b52cfc231239fe5d73b7a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892974"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286371"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Создание сетевых маршрутов interregional в Скайп для Business Server
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Создание межсетевых маршрутов с межсетевым подключением в Skype для бизнеса Server
  
-Создание или изменение маршрутов interregional сети, которые используются контроля допуска звонков корпоративной голосовой связи в Скайп Business Server. 
+Создавайте и изменяйте межсетевые маршруты по сети, которые используются для управления допуском голосовых вызовов в Skype для бизнеса Server. 
   
 Маршрут между регионами сети определяет маршрут между парой регионов сети. Маршрут между регионами сети требуется для каждой пары регионов сети в развертывании службы контроля допуска звонков. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
   
@@ -31,7 +31,7 @@ ms.locfileid: "33892974"
   
 В этом примере топологии необходимо определить маршруты между регионами сети для каждой пары регионов из трех: Северная Америка/EMEA, APAC/EMEA и APAC/Северная Америка. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Создание сетевой interregional маршрутов с помощью Скайп для консоли Business Server
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>Создание маршрутов между межсетевыми маршрутами с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
@@ -52,9 +52,9 @@ ms.locfileid: "33892974"
     > [!NOTE]
     > Для маршрута между регионами "Северная Америка/APAC" требуются две связи между регионами сети, поскольку прямая сетевая связь между этими регионами отсутствует. 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Создание сетевой interregional маршрутов с помощью Скайп для панели управления Business Server
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>Создание маршрутов между межсетевыми маршрутами с помощью панели управления "Skype для бизнеса" на сервере
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
     
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
     

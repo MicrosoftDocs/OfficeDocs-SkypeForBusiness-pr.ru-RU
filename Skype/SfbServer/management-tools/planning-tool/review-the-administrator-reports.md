@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Компонент "Administrator Reports" (Отчеты администратора) предоставляют подробную информацию для развертывания и проведения операций. Отчеты создаются на базе параметров, выбранных в области Design Sites (Разработка сайтов). Проектировщик может получить дополнительную выгоду от использования компонента "Administrator Reports" (Отчеты администратора), изменив схемы сети и определив полные IP-адреса и полные доменные имена для серверов, пулов и подсистем балансировки нагрузки.
-ms.openlocfilehash: ea15bcf7c70fac09c21a2b3348e665411b6f0f34
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22b3628c5c2a499d57a6bfdd1d90fe3b79b90e85
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914186"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288987"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
@@ -36,7 +36,7 @@ ms.locfileid: "33914186"
 ## <a name="review-the-summary-report"></a>Просмотр сводного отчета
 <a name="Summary_report"> </a>
 
-Скайп для администратора Business отчета является первым четыре ценных отчетов, которые документов к проекту подробно. Информация, приведенная в этом и трех других отчетах, отлично подходит для использования вашими ИТ-группами:
+Отчет администратора Skype для бизнеса — это первый из четырех полезных отчетов, подробно задокументированных в проекте. Информация, приведенная в этом и трех других отчетах, отлично подходит для использования вашими ИТ-группами:
 
 ![Общий сводный отчет для администратора](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -55,20 +55,20 @@ ms.locfileid: "33914186"
 ## <a name="review-the-certificates-report"></a>Просмотр отчета по сертификатам
 <a name="Certificates_Report"> </a>
 
-Сертификаты отчет содержит все сертификаты, которые необходимы в рекомендуемые Скайп для развертывания Business Server 2015. Планирование по сокращению имена субъекта и альтернативные имена субъектов, которые были введены. Default text that is left unedited may represent a potential challenge for the team responsible for requesting and issuing the certificates. Certificate information also contains information about where the certificate can typically be issued from. If the infrastructure does not have an internal public key infrastructure (PKI) in place, all certificates can be requested through a public certificate provider. Extended key usages (EKU) and Assign To fields in the report are very helpful in understanding what the purpose and location for each certificate should be.
+Отчет о сертификатах включает все сертификаты, необходимые для развертывания Skype для бизнеса Server 2015. Инструмент "планирование" используется для ввода имен субъектов и альтернативных имен субъектов. Default text that is left unedited may represent a potential challenge for the team responsible for requesting and issuing the certificates. Certificate information also contains information about where the certificate can typically be issued from. If the infrastructure does not have an internal public key infrastructure (PKI) in place, all certificates can be requested through a public certificate provider. Extended key usages (EKU) and Assign To fields in the report are very helpful in understanding what the purpose and location for each certificate should be.
 
 ![Отчет по сертификатам для администратора](../../media/Certificates_Report_Admin_Report.png)
 
-Тщательно рассмотрите и осознайте использование и назначение каждого сертификата в развертывании. Если возникает вопрос о том, для чего именно нужен определенный сертификат, определите взаимодействие серверов и служб. Сертификаты в Скайп для Business Server 2015 используются для двух основных целей:
+Тщательно рассмотрите и осознайте использование и назначение каждого сертификата в развертывании. Если возникает вопрос о том, для чего именно нужен определенный сертификат, определите взаимодействие серверов и служб. Сертификаты в Skype для бизнеса Server 2015 используются в двух основных целях:
 
-- Взаимная Transport Layer Security (MTLS) - компьютеров, участвующих в связи представить с сертификатом, который подтверждает их подлинность на другой компьютер. Это называется проверкой подлинности сервера. Связи не может начинаться до каждый компьютер доверяет identity на другом компьютере.
+- Безопасность транспортного уровня (MTLS) — компьютеры, участвующие в общении, каждый из которых представляет сертификат, подтверждающий их подлинность на другом компьютере. Это называется проверкой подлинности сервера. Связь не может начаться, пока все компьютеры не будут доверять удостоверению другого компьютера.
 
-- Шифрование - шифрования (Secure Sockets Layer или SSL и протокол TLS или протокол TLS) — критические средства для обеспечения безопасности связи, помочь обеспечить конфиденциальность и создание надежного системы коммуникаций и совместной работы.
+- Шифрование с шифрованием (Secure Sockets Layer или SSL), а также протокол TLS и безопасность транспортного уровня (или) — это важный способ обеспечить безопасность связи, повысить конфиденциальность и создать доверенную систему связи и совместной работы.
 
 ## <a name="review-the-firewall-report"></a>Просмотр отчета по брандмауэрам
 <a name="Firewall_report"> </a>
 
-Скайп для Business Server 2015 имеет ряд потенциально сложные правила брандмауэра. Средство планирования уменьшает сложность, создав отчет, который определяет подробно все требования к брандмауэру, на основе критерия ввода конструктора. The IT firewall administrator will be able to use this report to configure and define the necessary rules.
+Skype для бизнеса Server 2015 имеет потенциально сложный набор правил брандмауэра. Средство планирования сокращает сложность, создавая отчет, который подробно определяет все требования брандмауэра, основываясь на входных критериях конструктора. The IT firewall administrator will be able to use this report to configure and define the necessary rules.
 
 При управлении брандмауэром этот отчет следует тщательно анализировать на предмет конфликтов с имеющимися правилами брандмауэра и нарушений имеющихся политик или процедур.
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить параметры магистральной линии SIP, выполните следующие действия.
-ms.openlocfilehash: 6206a52930251681b197dbeea4e882a59da68787
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55df4a410f4d052d6dc886f609ddfc979e1a9bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921057"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289071"
 ---
 # <a name="trunk-settings-expander"></a>Расширитель настроек магистральной линии связи
 
@@ -32,17 +32,17 @@ ms.locfileid: "33921057"
 
  **Транспортный протокол SIP**. Допустимые протоколы: TCP и TLS. По умолчанию применяется протокол TLS. Сведения о протоколах, поддерживаемых конкретным шлюзом, см. в документации поставщика шлюза. Предпочтительным является используемый по умолчанию протокол TLS, если он поддерживается шлюзом, так как этот протокол обеспечивает повышенный уровень безопасности.
 
- **Связанный сервер-посредник**: выберите существующий сервер-посредник из развертывания для связи с канала SIP.
+ **Сервер связанных исправлений**: выберите существующий сервер из развертывания для связи с магистральной внешней сетью SIP.
 
 > [!NOTE]
-> Корневая магистраль можно сопоставить с сервером-посредником.
+> На сервер-посредник может быть связана только корневая магистраль.
 
- **Порт связанного сервера-посредника**: требуемое значение это задано значение, сервер-посредник, настроенную для прослушивания.
+ **Порт сервера**-относящихся к исправлению: необходимое значение — значение, на котором настроен сервер-посредник для прослушивания.
 
 ![Расширитель настроек магистральной линии связи](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>См. также
 
-[Контрольный список развертывания для распределения каналов SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Контрольный список для развертывания каналов SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Компоненты и топологии для распределения каналов SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Компоненты и топологии для магистральной магистрали SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
