@@ -1,25 +1,25 @@
 ---
-title: Отчета о распределении сбоев в Скайп для Business Server
+title: Отчет о распределении отказов в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Сводка: Сведения об отчете распределения сбоев в Скайп Business Server.'
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения об отчете о распределении отказов в Skype для бизнеса Server.'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912080"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305698"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Отчета о распределении сбоев в Скайп для Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Отчет о распределении отказов в Skype для бизнеса Server
  
-**Сводка:** Сведения об отчете распределения сбоев в Скайп Business Server.
+**Сводка:** Сведения о отчете о распределении отказов в Skype для бизнеса Server.
   
 В отчете о распределении сбоев неудачные сеансы оцениваются в следующих категориях:
   
@@ -45,13 +45,13 @@ ms.locfileid: "33912080"
 
 Обратиться к отчету о распределении сбоев можно из любого из следующих отчетов, щелкнув показатель **Том ожидаемого сбоя** или **Том неожиданного сбоя**:
   
-- [TOP Failures Report в Скайп для Business Server](top-failures-report.md)
+- [Отчет об ошибках верхнего уровня в Skype для бизнеса Server](top-failures-report.md)
     
-- [Диагностический отчет по конференции в Скайп для Business Server](conference-diagnostic-report.md)
+- [Отчет о диагностике конференций в Skype для бизнеса Server](conference-diagnostic-report.md)
     
-- [Peer-to-Peer Activity Diagnostic Report в Скайп для Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Диагностический отчет о действиях одноранговой сети в Skype для бизнеса Server](peer-to-peer-activity-diagnostic-report.md)
     
-Из отчета о распределении сбоев вы можете щелкнуть один из следующих показателей, чтобы просмотреть [Отчет по списку сбоев в Скайп для Business Server](failure-list-report.md):
+В отчете распределение сбоев можно выбрать один из перечисленных ниже метрик, чтобы просмотреть [отчет "список отказов" в Skype для бизнеса Server](failure-list-report.md).
   
 - Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))
     
@@ -128,9 +128,9 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
-|**Rank (Ранг)** <br/> |Нет  <br/> |Относительное ранжирование неудачных сеансов на основе пула регистраторов или пограничного сервера, где выполнялся сеанс.  <br/> |
+|**Rank (Ранг)** <br/> |Нет  <br/> |Относительная ранжирование неудачных сеансов на основе регистратора или пограничного сервера, на котором выполнялся сеанс.  <br/> |
 |**Самые распространенные пулы** <br/> |Нет  <br/> |Имя пула регистраторов или пограничного сервера.  <br/> |
-|**Сеансы** <br/> |Нет  <br/> |Общее количество неудачных сеансов на пул регистраторов или пограничного сервера.  <br/> |
+|**Сеансы** <br/> |Нет  <br/> |Общее количество неудачных сеансов на каждом из групп регистраторов или пограничного сервера.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Показатели для самых распространенных источников
 
@@ -152,7 +152,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**Имя**.|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
-|**Rank (Ранг)** <br/> |Нет  <br/> |Относительное ранжирование неудачных сеансов на основании компонентов (например, ExumRouting, GroupChat или MediationServer).  <br/> |
+|**Rank (Ранг)** <br/> |Нет  <br/> |Относительная ранжирование неудачных сеансов на основе компонента (например, Ексумраутинг, Граупчат или Медиатионсервер).  <br/> |
 |**Самые распространенные компоненты** <br/> |Нет  <br/> |Имя компонента, используемого в неудачном сеансе.  <br/> |
 |**Сеансы** <br/> |Нет  <br/> |Общее количество неудачных сеансов на компонент.  <br/> |
    

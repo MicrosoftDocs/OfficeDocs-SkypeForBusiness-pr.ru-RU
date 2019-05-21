@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: В этом разделе описывается развертывание Shared Line Appearance (SLA) в накопительном пакете обновления Skype для бизнеса Server 2015 от ноября 2015 г. SLA является функцией для обработки нескольких вызовов на определенный номер, который называется общим.
-ms.openlocfilehash: bbdb5de985e44c0c3a0484605857485823457674
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04efe0a0b3ae9e89576ca2d52ce45861cde68a9d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892652"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291181"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Развертывание распределенной линии для Skype для бизнеса Server 2015
 
@@ -28,11 +28,11 @@ ms.locfileid: "33892652"
 
 Дополнительные сведения об этой функции см. в разделе [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-Внешний вид общей строки (SLA) — это новая возможность в Скайп для Business Server 2015 ноября накопительного обновления. Для включения этой функции сначала требуется развернуть это обновление.
+Общий вид линии (SLA) — это новая функция в Skype для бизнеса Server, Накопительное обновление для 2015 ноября. Для включения этой функции сначала требуется развернуть это обновление.
 
 ### <a name="install-shared-line-appearance"></a>Установка Shared Line Appearance
 
-1. После Скайп для Business Server 2015 ноября развертывается накопительное обновление, запустите `SkypeServerUpdateInstaller.exe` исправлений на каждом сервере переднего плана в пуле.
+1. После установки накопительного обновления для Skype для бизнеса на сервере 2015, запустите его `SkypeServerUpdateInstaller.exe` на каждом сервере переднего плана в пуле.
 
 2. Программа установки разворачивает последнюю версию приложения SLA, однако приложение не включено по умолчанию. Для его включения необходимо выполнить приведенные ниже действия.
 
@@ -77,7 +77,7 @@ ms.locfileid: "33892652"
     Set-CsSlaConfiguration можно использовать для создания новой группы SLA или изменения существующей.
 
     > [!NOTE]
-    > Обратите внимание на то, что указанное для `-Identity` должен быть допустимый существующей учетной записи пользователя с включенной поддержкой корпоративной голосовой связи.
+    > Обратите внимание, что заданное вами значение `-Identity` должно быть действительной существующей учетной записью пользователя, поддерживающего голосовую почту.
 
 2. Добавление делегатов в группы выполняется с помощью командлета [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates?view=skype-ps):
 
@@ -86,7 +86,7 @@ ms.locfileid: "33892652"
           <NameOfDelegate@domain>
    ```
 
-    The following example adds a user to the SLA group. Каждый пользователь добавлен в группу по должен быть допустимый пользователя с включенной поддержкой корпоративной голосовой связи:
+    The following example adds a user to the SLA group. Каждый пользователь, добавленный в группу, должен быть допустимым корпоративным пользователям с поддержкой голосовой связи:
 
    ```
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -102,7 +102,7 @@ ms.locfileid: "33892652"
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    В следующем примере настраивается переадресация вызовов, превышающих максимальное количество одновременных вызовов, на телефонный номер 202-555-1234. Целевой объект может быть пользователей в вашей организации, а не номер телефона; в этом случае используется следующий синтаксис для пользователя принимать звонки, перенаправленные то же, что при указании делегата: `sip:<NameofDelegate@domain>`. Возможные параметра для `BusyOption` — это `Voicemail`:
+    В следующем примере настраивается переадресация вызовов, превышающих максимальное количество одновременных вызовов, на телефонный номер 202-555-1234. Конечный объект может быть пользователем в вашей организации вместо номера телефона; в этом случае синтаксис для абонента, получающего переадресованные звонки, такой же, как и при указании делегата `sip:<NameofDelegate@domain>`:. Другой возможный параметр `BusyOption` `Voicemail`:
 
   ```
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -116,7 +116,7 @@ ms.locfileid: "33892652"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. В следующем примере указывается, что пропущенных звонков должны перенаправляться пользователю с именем `sla_forward_number`. Допустимые параметры для `-MissedCallOption` , параметр `Forward`, `BusySignal`, или `Disconnect`. Если выбрано `Forward`, необходимо также включить `-MissedCallForwardTarget` параметр с пользователя или на телефонный номер целевым:
+2. В следующем примере задается, что пропущенные звонки будут переадресованы пользователю `sla_forward_number`с именем. `-MissedCallOption` Допустимые параметры для параметра `Forward`:, `BusySignal`или. `Disconnect` Если выбрать `Forward`, необходимо также указать `-MissedCallForwardTarget` параметр, указав в качестве целевого номера пользователя или номер телефона.
 
    ```
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

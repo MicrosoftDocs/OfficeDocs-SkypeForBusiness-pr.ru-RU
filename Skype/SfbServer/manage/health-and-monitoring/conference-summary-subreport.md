@@ -1,25 +1,25 @@
 ---
-title: Сводный Подотчет по конференции в Скайп для Business Server
+title: Подчиненный отчет о конференциях в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Сводка: Сведения о конференции вложенного сводного отчета о в Скайп для Business Server.'
-ms.openlocfilehash: 44895a8ed8c88cdf91b10ccf919bb7e088fbe13e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о подчиненном отчете о конференциях в Skype для бизнеса Server.'
+ms.openlocfilehash: ad3e382ac832976e15518a431055bf03189061a5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926643"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305867"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Сводный Подотчет по конференции в Скайп для Business Server
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Подчиненный отчет о конференциях в Skype для бизнеса Server
  
-**Сводка:** Сведения о конференции вложенного сводного отчета о в Скайп для Business Server.
+**Сводка:** Сведения о подчиненном отчете о конференции в Skype для бизнеса Server.
   
 Вложенный сводный отчет о конференции содержит обзор неудачных сеансов конференц-связи. Такие неудачные сеансы дополнительно делятся по типу — сеансы Focus и сеансы MCU.
   

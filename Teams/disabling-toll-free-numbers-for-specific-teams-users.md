@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут управлять тем, как организаторы используют бесплатные номера для своих собраний.
-ms.openlocfilehash: 6fd415575110f9c6ae1dcf7b4fc006213a23cedd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 423aab1c942850c94385f4df15a07d3218dbe2da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232629"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290335"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Отключение бесплатных номеров для отдельных пользователей Teams
 
@@ -46,13 +46,13 @@ ms.locfileid: "32232629"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для отдельных пользователей 
 
-Из **центра администрирования группами Майкрософт**:
+Из **центра администрирования Microsoft Teams**:
 
-1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
+1. На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.
 
 2. Щелкните **Изменить** рядом с элементом **Аудиоконференции**.
 
-3. Значение **включают бесплатные номера в приглашении на собрание из этого пользователя** **из системы**. 
+3. Установите параметр **включать свободные номера в приглашения на собрания от этого пользователя** в **состояние "Выкл**.". 
 
 4. Нажмите кнопку **Сохранить**. 
 

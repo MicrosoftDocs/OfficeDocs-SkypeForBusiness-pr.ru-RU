@@ -1,5 +1,5 @@
 ---
-title: Как можно использовать идентификатор абонента в организации?
+title: Как можно использовать идентификатор звонящего в организации
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d15d51d0044ae15b04572f0b64a21912cea720a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229890"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305436"
 ---
-# <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор абонента в организации?
+# <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор звонящего в организации
 
 Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
   
@@ -65,11 +65,11 @@ ms.locfileid: "32229890"
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Конечных пользователей можно установка их идентификатора звонящего с помощью вкладка " **Параметры** " в Скайп для настольных компьютеров клиента Business **Анонимный доступ** выберите **звонки конечного пользователя** (Если эта возможность включена администратором), выберите **Скрыть Мои номера номер и профилей сведения для всех вызовов **.
+Конечные пользователи могут установить для идентификатора вызывающего абонента значение **anonymous** с помощью вкладки " **Параметры** " в классическом клиенте Skype **** для бизнеса, выберите команду " **Скрыть мой номер телефона" и сведения о профиле для всех звонков. **.
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**Версия** <br/> |**Поддерживается** <br/> |
+|**Windows** <br/> |**Версия** <br/> |**Поддерживаются** <br/> |
 |Технология «нажми и работай»  <br/> |Текущая платформа канала выпущена 6 декабря 2016 года - версия 1611 (сборка 7571.2072)  <br/> |Да  <br/> |
 |Технология «нажми и работай»  <br/> |Первый выпуск для отложенного канала был выпущен 22 февраля 2017 года - версия 1701 (сборка 7766.2060)  <br/> |Да  <br/> |
 |Технология «нажми и работай»  <br/> |Отложенный канал выпущен 13 июня 2017 г. - версия 1701 (сборка 7766.2092)  <br/> |Да  <br/> |

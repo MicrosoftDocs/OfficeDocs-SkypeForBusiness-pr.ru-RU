@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/2/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: После выполнения шагов по развертыванию и настройке Скайп облаке соединитель для выпуска для бизнеса, убедитесь, что можно сделать и принимать звонки.
-ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: После выполнения инструкций по развертыванию и настройке Skype для бизнеса Cloud Connector Edition убедитесь в том, что вы можете совершать и принимать звонки.
+ms.openlocfilehash: 9c8cc28249b6a9b1d98ff51352abbdd4888882bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240776"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286622"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Проверка развертывания Cloud Connector
  
-После выполнения шагов по развертыванию и настройке Скайп облаке соединитель для выпуска для бизнеса, убедитесь, что можно сделать и принимать звонки.
+После выполнения инструкций по развертыванию и настройке Skype для бизнеса Cloud Connector Edition убедитесь в том, что вы можете совершать и принимать звонки.
   
 ## <a name="validate-the-deployment"></a>Проверка развертывания
 

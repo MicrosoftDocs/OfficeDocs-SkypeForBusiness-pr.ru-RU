@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 layout: LandingPage
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Соответствующие вопросы планирования развертывания комнат группами Майкрософт, а также для развертывания и управления системы.
-ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Важные вопросы планирования для развертывания комнат Microsoft Teams, а также развертывания и управления системой.
+ms.openlocfilehash: d7b663e67905aee3cf235034ef2ba82eeaa98c9b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916389"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306544"
 ---
 <h2>Комнаты Microsoft Teams</h2>
 <ul class="panelContent cardsW cols cols2">
@@ -25,9 +25,9 @@ ms.locfileid: "33916389"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Преобразование собрания пробелов от малого ютиться области до больших конференц-залы с расширенными возможностями, совместной работы групп качества that& #39; s прост, развертывания и управления. </p>
-                        <p>Запуск собрания на время с одним нажатием соединения, а затем мгновенно project для отображения в комнаты и общий доступ для удаленных участников. </p>
-                        <p>Выберите один из партнеров правом системы и аудиоустройств видео: Logitech, Crestron, Polycom, Lenovo и HP.</p>
+                        <p>Преобразуйте пространство для собраний из малых худдленых областей в большие комнаты конференц-связи с богатыми возможностями совместной работы с Сат_амп_ # 39; с простыми в использовании, разворачиванием и управлением. </p>
+                        <p>Начните собрание со временем с помощью одного касания, а затем мгновенно выводите их на экран в комнате и делитесь ими с удаленными участниками. </p>
+                        <p>Выберите нужные периферийные устройства для одного из наших партнеров: Yealink, Logitech, Крестрон, Polycom, Lenovo и HP.</p>
                         <p></p>
                     </div>
                 </div>
@@ -106,9 +106,9 @@ ms.locfileid: "33916389"
 </ul>
 
 > [!NOTE]
-> Комнат группы Microsoft предназначена для использования с группами Майкрософт, Скайп для бизнеса в Интернет, Скайп для Business Server 2019 или Скайп для Business Server 2015.  <br><br>Более ранних платформы, как Lync Server 2013 не требуются для работы с группами комнат Microsoft.
+> Комнаты Microsoft Teams предназначены для использования в Microsoft Teams, Skype для бизнеса Online, Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015.  <br><br>На более ранних платформах, таких как Lync Server 2013, не предполагается работать с комнатами Microsoft Teams.
 
-В этих статьях, предназначены для людей, получает задачу планирования, развертывания и управления этих устройств, а не для пользователей системы. Пользователи будут больше интересуют комнат группами Майкрософт [интерактивной справки](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Эти статьи предназначены для пользователей с планированием, развертыванием и управлением этими устройствами, а не для пользователей системы. Пользователи могут больше заинтересовать [веб-Справка](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)по комнатам Microsoft Teams.
 
 > [!NOTE]
-> [Система Скайп комнаты](../room-systems/lrs-migration.md) (ранее — система комнаты Lync) и комнаты группами Майкрософт представляют различные продукты с другой зависимости и процедуры развертывания.
+> [Система помещения Skype](../room-systems/lrs-migration.md) (ранее — система комнат Lync) и комнаты Microsoft Teams являются различными продуктами с разными зависимостями и процедурами развертывания.

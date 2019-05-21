@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRemoveIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
-description: На странице введение удалить сертификат ознакомьтесь со сведениями о последствиях удаления сертификата тщательно. Прочитайте эти сведения, нажмите кнопку Далее, чтобы продолжить.
-ms.openlocfilehash: efb3032b988fe55498bc716e9e9314b189797bd3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: На странице "Удаление сертификата" ознакомьтесь со сведениями о последствиях удаления сертификата. После прочтения этих данных нажмите кнопку Далее, чтобы продолжить.
+ms.openlocfilehash: 3978fa7ef4b3199c3170ae7f5870c41ecae91694
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911913"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289594"
 ---
 # <a name="remove-certificate-intro"></a>Удаление сертификата (введение)
  
-На странице Введение **Удалить сертификат** ознакомьтесь со сведениями о последствиях удаления сертификата тщательно. Прочитайте эти сведения, нажмите кнопку **Далее** для продолжения.
+На странице " **Удаление сертификата** " ознакомьтесь со сведениями о последствиях удаления сертификата. После прочтения этих данных нажмите кнопку **Далее** , чтобы продолжить.
   
 

@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы управляют тем, как организаторы могут использовать бесплатные номера для их собраний.
-ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229284"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306092"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Отключение бесплатных номеров для определенных пользователей Skype для бизнеса Online
  
@@ -48,15 +48,15 @@ By default, all users in your organization are enabled for using toll-free numbe
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Отключение бесплатных номеров для определенных пользователей 
 
-Из **центра администрирования группами Майкрософт**:
+Из **центра администрирования Microsoft Teams**:
 
-1. На панели навигации слева щелкните **Пользователи**и затем выберите пользователя в списке Доступные пользователи.
+1. На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.
 
 2. Рядом с пунктом **Аудиоконференции** нажмите **Изменить**.
 
-3. Значение **включают бесплатные номера в приглашении на собрание из этого пользователя** **из системы**. 
+3. Установите параметр **включать свободные номера в приглашения на собрания от этого пользователя** в **состояние "Выкл**.". 
 
-4. Нажмите кнопку **Сохраните.** 
+4. Нажмите кнопку **Сохранить.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

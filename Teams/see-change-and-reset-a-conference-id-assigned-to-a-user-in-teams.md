@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как назначить идентификатор конференции пользователю в Microsoft Teams и какими должны быть его параметры. '
-ms.openlocfilehash: 6d1db1836ef5681416907936a7fab8db0d5ffb7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205052"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305361"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Просмотр и сброс назначенного пользователю идентификатора конференции в Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "32205052"
 
 ### <a name="to-view-the-conference-id"></a>Просмотр идентификатора конференции
 
-![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 
@@ -62,7 +62,7 @@ ms.locfileid: "32205052"
 
 вы можете сбросить идентификатор конференции для пользователя, например, если он забыл его.
   
-![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 

@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Узнайте, как качество потока классифицируется в панели мониторинга качества звонка для команд Microsoft и Skype для бизнеса Online.
-ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641036"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298634"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Классификация потоков в Панели мониторинга качества звонка
 
@@ -45,7 +45,7 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 |Round Trip|>500|Среднее время кругового пути при распространении по сети, вычисляемое в миллисекундах в соответствии со стандартом RFC3550.|
 |Packet Loss Rate|>0,1|Средний коэффициент потерь пакетов для потока.|
 |Искажение|> 30|Среднее дрожание для потока в миллисекундах.|
-|Ratio Concealed Samples Avg|> 0,07|Среднее отношение числа звука кадров с скрытых образцов, созданных функцией восстановления, общее количество кадров, звуковых потери пакетов.|
+|Ratio Concealed Samples Avg|> 0,07|Среднее соотношение количества звуковых кадров с видимыми выборками, созданными при воспроизведении потерь пакетов на общее количество звуковых кадров.|
 
 ### <a name="video-classifier"></a>Видео классификатор
 
@@ -53,9 +53,9 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 |**Этап #**|**Показатель**|**Условие**|**Классификация, если условие верно**|**Классификация, если условие ложно**|**Классификация, если метрика недоступна**|**Пояснение**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Перейти к шагу 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|_Гт_ 50% |Poor|Good|Перейти к шагу 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<7|Poor|Good|Перейти к шагу 3|Среднее число кадров в секунду, принимаемых для видеопотока, вычисленное за период сеанса.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Коэффициент потерь пакетов после применения FEC агрегируются по всем потоковое видео и кодеков.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Доля потерь пакетов после применения FEC к собранию по всем видеопотокам и кодекам.|
 
 ### <a name="vbss-classifier"></a>VBSS классификатор
 
@@ -63,9 +63,9 @@ VBSS поток помечен как хороший или плохой на о
 
 |**Этап #**|**Показатель**|**Условие**|**Классификация, если условие верно**|**Классификация, если условие ложно**|**Классификация, если метрика недоступна**|**Пояснение**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Перейти к шагу 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|_Гт_ 50% |Poor|Good|Перейти к шагу 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 2|Poor|Good|Перейти к шагу 3|Среднее число кадров в секунду, принимаемых для видеопотока, вычисленное за период сеанса.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Коэффициент потерь пакетов после применения FEC агрегируются по всем потоковое видео и кодеков.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Доля потерь пакетов после применения FEC к собранию по всем видеопотокам и кодекам.|
 
 ### <a name="application-sharing-classifier"></a>Классификатор совместного использования приложений
 
@@ -75,8 +75,8 @@ VBSS поток помечен как хороший или плохой на о
 | **Показатель**                                     | **Условие** | **Пояснение**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | > 400         | Средняя задержка в миллисекундах при обработке фрагментов в стеке RDP на сервере конференции.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Средняя относительный Односторонняя задержка между конечными точками в секундах для потоков общего доступа к приложениям.                                                                                                                       |
+| AppSharing RDP Tile Processing Latency Average | _Гт_ 400         | Средняя задержка в миллисекундах при обработке фрагментов в стеке RDP на сервере конференции.                                                                                                                          |
+| AppSharing Relative OneWay Average             | > 1,75        | Средняя односторонняя задержка между конечными точками в секундах для потоков общего обмена приложениями.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Неклассифицированные потоки
 
@@ -104,7 +104,7 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 
 ## <a name="related-topics"></a>Связанные разделы
-[Включение и использование вызова панели мониторинга качества (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[Включение и использование панели мониторинга качества звонков (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

@@ -1,10 +1,10 @@
 ---
-title: Развертывание корпоративной голосовой связи в Скайп for Business Server
+title: Развертывание корпоративной голосовой связи в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,52 +13,52 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: 'Сводка: Узнайте, как развертывание корпоративной голосовой связи для Скайп для Business Server в центральном узле.'
-ms.openlocfilehash: 8fb434a4fe02ec5755d78d549f870da9860b2910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как развернуть корпоративный голосовую почту для сервера Skype для бизнеса на центральном сайте.'
+ms.openlocfilehash: c5995570d8d3cf775b2837bb6ddfc170860d57dc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892715"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291244"
 ---
-# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Развертывание корпоративной голосовой связи в Скайп for Business Server
+# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Развертывание корпоративной голосовой связи в Skype для бизнеса Server
 
-**Сводка:** Сведения о развертывании корпоративной голосовой связи для Скайп для Business Server в центральном узле.
+**Сводка:** Сведения о том, как развернуть корпоративную голосовую почту для Skype для бизнеса Server на центральном сайте.
 
-Используйте этот раздел для развертывания корпоративной голосовой связи в центральном узле. Развертывание корпоративной голосовой связи в филиале, перейдите к [Развертывание сайтов филиалов](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
+Этот раздел используется для развертывания корпоративной голосовой связи на центральном веб-сайте. Чтобы развернуть корпоративную голосовую почту на сайте филиала, перейдите к разделу [Развертывание сайтов филиалов](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
 
-В этом разделе приведены действия для развертываний, в котором сервер-посредник совмещен на каждом сервере переднего плана или сервере Standard Edition, соответствии с рекомендациями, а также для развертываний с автономного пула серверов-посредников. Следующие материалы можно пропустить, если Topology Builder используется для определения и публикации топологии, collocates сервера-посредника на каждом сервере переднего плана или сервере Standard Edition, так как мастер развертывания уже автоматически устанавливается в файлы Сервер-посредник при установке файлов для пула серверов переднего плана или сервера Standard Edition:
+Этот раздел содержит процедуры для развертываний, в которых сервер-посредник размещен на каждом сервере переднего плана или стандартном сервере выпуска Standard, как рекомендуется, а также для развертываний с помощью пула серверов с изолированными исправлениями. Вы можете пропустить следующее содержимое, если вы используете Topology Builder, чтобы определить и опубликовать топологию, которая будет высвоена серверу-посреднику на каждом сервере переднего плана или стандартном сервере выпуска Standard Edition, так как мастер развертывания уже автоматически установил файлы для Сервер для устранения проблем при установке файлов для пула серверов переднего плана или стандартного выпуска сервера:
 ## <a name="in-this-section"></a>Содержание
 
-- [Предварительные требования безопасности и конфигурации для корпоративной голосовой связи в Скайп для Business Server](enterprise-voice-security.md)
+- [Требования к безопасности и конфигурации для корпоративной голосовой связи в Skype для бизнеса Server](enterprise-voice-security.md)
 
-- [Развертывание сервера-посредника в построителе топологий в Скайп для Business Server](deploy-a-mediation-server.md)
+- [Развертывание сервера-посредника в построителе топологии в Skype для бизнеса Server](deploy-a-mediation-server.md)
 
-- [Определение шлюза в построителе топологий в Скайп для Business Server](define-a-gateway.md)
+- [Определение шлюза в построителе топологии в Skype для бизнеса Server](define-a-gateway.md)
 
-- [Определение дополнительных магистралей в построителе топологий в Скайп для Business Server](define-additional-trunks.md)
+- [Определение дополнительных каналов в построителе топологии в Skype для бизнеса Server](define-additional-trunks.md)
 
-- [Для установки сервера-посредника в Скайп для Business Server](install-mediation-server.md)
+- [Установка сервера исправлений в Skype для бизнеса Server](install-mediation-server.md)
 
-- [Настройка магистрали в Скайп для Business Server](configure-trunks.md)
+- [Настройка каналов связи в Skype для бизнеса Server](configure-trunks.md)
 
-- [Создание или изменение правила преобразования для идентификатора звонящего в Скайп для Business Server](caller-id-presentation-rules.md)
+- [Создание или изменение правила трансляции для презентации идентификации вызывающего абонента в Skype для бизнеса Server](caller-id-presentation-rules.md)
 
-- [Создание или изменение правила преобразования для называемое идентификатор представления в Скайп для Business Server](called-id-presentation-rules.md)
+- [Создание или изменение правила трансляции для вызываемого удостоверения презентация в Skype для бизнеса Server](called-id-presentation-rules.md)
 
-- [Создание или изменение правила нормализации в Скайп для бизнеса](normalization-rules.md)
+- [Создание и изменение правила нормализации в Skype для бизнеса](normalization-rules.md)
 
-- [Создание или изменение абонентской группы в Скайп для Business Server](dial-plans.md)
+- [Создание и изменение абонентской группы в Skype для бизнеса Server](dial-plans.md)
 
-- [Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Скайп для бизнеса](voice-and-pstn.md)
+- [Настройка политик голосовой связи, записей использования PSTN и голосовых маршрутов в Skype для бизнеса](voice-and-pstn.md)
 
-- [Включение пользователей для корпоративной голосовой связи в Скайп для Business Server](enable-users-for-enterprise-voice.md)
+- [Включение пользователей корпоративной голосовой связи в Skype для бизнеса Server](enable-users-for-enterprise-voice.md)
 
-- [Развертывание расширенных функций корпоративной голосовой связи в Скайп для Business Server](deploy-advanced-enterprise-voice-features.md)
+- [Развертывание улучшенных функций голосовой связи в Skype для бизнеса Server](deploy-advanced-enterprise-voice-features.md)
 
-- [Развертывание функций управления вызовами в Скайп для бизнеса](deploy-call-management-features.md)
+- [Развертывание функций управления звонками в Skype для бизнеса](deploy-call-management-features.md)
 
 ## <a name="see-also"></a>См. также
 
-[Планирование корпоративной голосовой связи в Скайп Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+[Планирование корпоративной голосовой связи в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 

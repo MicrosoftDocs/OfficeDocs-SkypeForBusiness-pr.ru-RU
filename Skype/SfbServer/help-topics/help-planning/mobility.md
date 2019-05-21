@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Mobility
@@ -13,18 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: Мобильные возможности в Скайп для Business Server 2015 поддерживает Скайп для бизнес-функции на мобильных устройствах.
-ms.openlocfilehash: 2fa44f557517af9e6c8fe806d97d5cfb1cad1308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах.
+ms.openlocfilehash: 0dead585c5963840fb76c2ff53c051a134ea8f83
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912144"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278194"
 ---
 # <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
  
-Мобильные возможности в Скайп для Business Server 2015 поддерживает Скайп для бизнес-функции на мобильных устройствах.
+Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах.
   
-Функциональные возможности мобильности — это то же самое, что и Lync Server 2013. Дополнительные сведения о подготовке среды для мобильной работы [мобильных устройств в Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx)см.
+Возможности мобильных устройств одинаковы для Lync Server 2013. Дополнительные сведения о подготовке среды для мобильных устройств можно найти [в разделе Планирование мобильных устройств в Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).
   
 

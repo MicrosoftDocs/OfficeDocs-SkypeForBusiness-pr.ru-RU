@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
-description: 'Сводка: Настройка вашей основной сервер управления сервера, установки System Center Operations Manager и импорт пакетов управления для Скайп для Business Server 2015.'
-ms.openlocfilehash: 141a0e3470bcdad4a0fea3e67ae9a1dbdbf32bcd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: Настройка основного сервера управления, установка System Center Operations Manager и импорт пакетов управления для Skype для бизнеса Server 2015.'
+ms.openlocfilehash: a89ee8ca7c7f5601d9219ef49643adc2ebf99883
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904211"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277673"
 ---
 # <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
 
-**Сводка:** Настройте сервер управления, установки System Center Operations Manager и импорт пакетов управления для Скайп для Business Server 2015.
+**Сводка:** Настройка основного сервера управления, установка System Center Operations Manager и импорт пакетов управления для Skype для бизнеса Server 2015.
 
-Чтобы пользоваться всеми преимуществами новых возможностей, включенных в Скайп Business Server 2015 мониторинга работоспособности, необходимо сначала назначить компьютер в качестве вашей основной сервер управления сервера. Затем необходимо установить System Center Operations Manager 2012 с пакетом обновления 1 или R2 или System Center Operations Manager 2007 R2 на этом компьютере. Кроме того необходимо сначала установить поддерживаемая версия SQL Server в качестве серверной базы данных Operations Manager.
+Чтобы воспользоваться всеми преимуществами новых возможностей мониторинга работоспособности, включенных в Skype для бизнеса Server 2015, необходимо сначала назначить компьютер для работы в качестве основного сервера управления. Затем необходимо установить System Center Operations Manager 2012 с пакетом обновления 1 (SP1) или R2 либо System Center Operations Manager 2007 R2 на этом компьютере. Кроме того, необходимо сначала установить поддерживаемую версию SQL Server, которая будет выступать в качестве серверной базы данных Operations Manager.
 
-При установке System Center Operations Manager, необходимо установить все компоненты этого продукта, включая:
+При установке System Center Operations Manager вам потребуется установить все компоненты этого продукта, в том числе следующие:
 
 - рабочую базу данных;
 
@@ -42,7 +42,7 @@ ms.locfileid: "33904211"
 - хранилище данных.
 
 > [!IMPORTANT]
-> «[Распространяемого пакета Microsoft Report Viewer 2010](https://www.microsoft.com/en-us/download/details.aspx?id=6442)» должны быть установлены до начала установки System Center Operations Manager 2012.
+> Перед установкой System Center Operations Manager 2012 необходимо установить[распространяемый пакет Microsoft Report Viewer 2010](https://www.microsoft.com/en-us/download/details.aspx?id=6442).
 
 Сведения об этих программах и их установке см. по следующим ссылкам:
 
@@ -50,18 +50,18 @@ ms.locfileid: "33904211"
 
 - [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
 
-Имейте в виду, что может иметь только один корневой сервер управления каждого Скайп для развертывания Business Server.
+Имейте в виду, что вы можете использовать только один корневой сервер управления для развертывания Skype для бизнеса Server.
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Импорт пакетов управления Skype для бизнеса Server 2015
 
-При установке пакетов управления можно расширить возможности System Center Operations Manager — программное обеспечение, которое может отслеживать определяет элементы, System Center Operations Manager, как эти элементы должны отслеживаться и запуска оповещения и отчеты. Скайп для Business Server 2015 включает в себя два пакета управления System Center Operations Manager, которые обеспечивают следующие возможности:
+Вы можете расширять возможности System Center Operations Manager, устанавливая пакеты управления (программное обеспечение, которое определяет, какие элементы отслеживает диспетчер операций System Center Operations Manager), как эти элементы должны отслеживаться и как будут запускаться оповещения. отчета. Skype для бизнеса Server 2015 включает два пакета управления System Center Operations Manager, которые предоставляют следующие возможности:
 
-- **Компонент и пакет управления пользователя** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) отслеживает Скайп проблем Business Server записываются в журналы событий, зарегистрированные счетчики производительности или в записи регистрации вызовов (CDR) или базы данных качества взаимодействия (QoE). Для критических проблем System Center Operations Manager можно настроить для сразу же уведомления администраторов с помощью электронной почты, мгновенное сообщение или SMS системы обмена сообщениями. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
+- **Пакет управления компонентом и пользовательским интерфейсом** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) отслеживает проблемы в Skype для бизнеса, записанные в журналах событий, регистрируются счетчиками производительности или записываются в записи сведений о вызовах (Кдрс) или в базы данных качества взаимодействия (QoE). Для устранения критических проблем можно настроить System Center Operations Manager для немедленного уведомления администраторов по электронной почте, мгновенным сообщениям или SMS-сообщениям. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
 
     > [!NOTE]
-    >  Для получения дополнительных сведений о настройке уведомлений Operations Manager видеть [Настройка уведомлений](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Дополнительные сведения о настройке уведомлений Operations Manager: [Настройка уведомлений](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **Пакет управления Active мониторинга** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) проактивное тесты ключевые Скайп для бизнеса серверные компоненты, такие как вход в систему, обмен мгновенными сообщениями или выполнение вызовов номер телефона, расположенные на телефонной сети общего пользования (PSTN ). Такая проверка выполняется с помощью командлетов искусственных транзакций Skype для бизнеса Server. Например, командлет **Test-CsIM** позволяет смоделировать сеанс обмена мгновенными сообщениями между двумя тестовыми пользователями. В случае сбоя при моделировании сеанса формируется оповещение.
+- **Активный пакет управления мониторингом** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) заблаговременно проверяют ключевые компоненты сервера Skype для бизнеса, например вход в систему, Обмен мгновенными сообщениями и звонки на телефон, находящийся в коммутируемой телефонной сети с открытым подключением (КТСОП). ). Такая проверка выполняется с помощью командлетов искусственных транзакций Skype для бизнеса Server. Например, командлет **Test-CsIM** позволяет смоделировать сеанс обмена мгновенными сообщениями между двумя тестовыми пользователями. В случае сбоя при моделировании сеанса формируется оповещение.
 
 Одним из важнейших этапов является импорт пакетов управления. Если они не импортированы, в Skype для бизнеса Server невозможно наблюдать за событиями и выполнять искусственные транзакции с помощью Operations Manager.
 
@@ -72,17 +72,17 @@ ms.locfileid: "33904211"
 
 Для импорта пакетов управления можно использовать следующие средства:
 
-- **System Center Operations Manager** С помощью этого метода используйте Operations Manager для мониторинга для Скайп Business Server.
+- **System Center Operations Manager** С помощью этого метода вы можете добавить мониторинг для Skype для бизнеса Server с помощью Operations Manager.
 
-- **Оболочка Operations Manager** Оболочка Operations Manager можно использовать для прямого импорта или устранения неполадок проблем, возникающих при импорте пакетов управления с помощью консоли System Center Operations Manager.
+- **Оболочка Operations Manager** С помощью консоли Operations Manager можно импортировать их напрямую или устранить проблемы, возникающие при импорте пакетов управления, используя консоль System Center Operations Manager.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Импорт пакетов управления с помощью System Center Operations Manager
 
 1. Загрузите файл SkypeForBusiness2015ManagementPacks.msi с веб-страницы загрузки Майкрософт и установите файл msi.
 
-2. В System Center Operations Manager щелкните **Администрирование**.
+2. В System Center Operations Manager щелкните элемент **Администрирование**.
 
-3. На панели администрирования щелкните правой кнопкой мыши **Пакеты управления**и нажмите кнопку **Импорт пакетов управления**.
+3. В области "Администрирование" щелкните правой кнопкой мыши **пакеты управления**и выберите пункт **Импорт пакетов управления**.
 
 4. В диалоговом окне **Выберите пакеты управления** нажмите кнопку **Добавить**, затем щелкните **Добавить с диска**.
 

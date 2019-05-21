@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 07/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Поиск и управление обновлениями для Скайп Business Server и Lync 2013. Чтобы получить дополнительные сведения, а затем загружать обновления с помощью ссылок.
-ms.openlocfilehash: 4714446a4e9f123691668f9e916632f1b3270d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Поиск обновлений для Skype для бизнеса Server или Lync 2013 и управление ими. Воспользуйтесь ссылками, чтобы получить дополнительные сведения, а затем скачайте обновления.
+ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902259"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286798"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Загрузки и обновления Skype для бизнеса
 
-Веб-страницы _Скайп Business для загрузки и обновления_ , один раз на сайте Technet устарела. Содержимое были преобразованы в клиентские и серверные страницы. Выполните эти ссылки на содержимое, которое требуется.
+Веб-страница _загрузки и обновления Skype для бизнеса_ , которая была установлена один раз в TechNet, была прекращена. Содержимое было реорганизовано на клиентские и серверные страницы. Перейдите по ссылкам на нужные материалы.
 
-- [Обновления для Скайп пользователей](sfb-client-updates.md) , которой содержит разделы:
+- [Обновления для клиентов Skype для бизнеса](sfb-client-updates.md) , которые содержат разделы:
     - [Обновления клиентов Skype для бизнеса 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Обновления клиентов Skype для бизнеса 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Обновления клиентов Skype для бизнеса на Mac](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
@@ -35,7 +35,7 @@ ms.locfileid: "33902259"
         - [Обновления для Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Обновления для Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [Скайп обновлений Business Server](sfb-server-updates.md) , который содержит разделы:
+- [Обновления Skype для бизнеса Server](sfb-server-updates.md) , содержащие разделы:
     - [Журнал обновлений Skype для бизнеса Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Журнал обновлений Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Средства разработки Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)

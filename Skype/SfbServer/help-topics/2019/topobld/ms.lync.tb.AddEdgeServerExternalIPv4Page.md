@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerExternalIPv4Page
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW
-description: В внешнего адреса IPv4 введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.
-ms.openlocfilehash: 429b8779a7b6453b50dbbe8ad11782fb22746119
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: В поле External IPv4 введите внешний IP-адрес, указывающий на службу пограничного доступа, службу Edge для веб-конференций и службу Edge.
+ms.openlocfilehash: 2767ac09195298f2c7cad8bc96e91ec6099f1790
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889089"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305063"
 ---
 # <a name="add-edge-server-external-ipv4"></a>Добавление внешнего адреса IPv4 пограничного сервера
  
-В **Внешнего адреса IPv4**введите внешний IP-адрес, указывающий на служба пограничного сервера доступа, служба пограничного сервера конференц-связи Web и A / V Edge службы.
+В поле **External IPv4**введите внешний IP-адрес, указывающий на службу пограничного доступа, службу Edge для веб-конференций и службу Edge.
   
 

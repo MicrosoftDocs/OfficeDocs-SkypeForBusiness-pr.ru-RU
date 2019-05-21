@@ -1,31 +1,31 @@
 ---
-title: Создание параметров конфигурации качества взаимодействия в Скайп для Business Server
+title: Создание параметров конфигурации качества взаимодействия в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: 'Сводка: Сведения о параметрах качества взаимодействия (QoE) в Скайп для Business Server.'
-ms.openlocfilehash: aef6ff9f981af92427bbc3b6d276b2fdefb45616
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о параметрах качества взаимодействия (QoE) в Skype для бизнеса Server.'
+ms.openlocfilehash: d87938fdab64f3a77b96f427363c846829081f44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926636"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305810"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации качества взаимодействия в Скайп для Business Server
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации качества взаимодействия в Skype для бизнеса Server
  
-**Сводка:** Сведения о параметрах качества взаимодействия (QoE) в Скайп для Business Server.
+**Сводка:** Сведения о параметрах качества взаимодействия (QoE) в Skype для бизнеса Server.
   
 Показатели качества взаимодействия отслеживают качество аудио- и видеозвонков в вашей организации, включая число потерянных сетевых пакетов, фоновый шум и объем "дрожания" (разницы задержки пакетов). Эти показатели хранятся в базе данных отдельно от других данных (таких как записи функции регистрации вызовов), что позволяет включать и отключать запись качества взаимодействия независимо записи других данных.
   
-Когда вы устанавливаете Скайп для Business Server, single, глобальной коллекции параметров конфигурации качества взаимодействия будет создан автоматически. Администраторы также могут создавать особые параметры на уровне сайта. При использовании эти параметров уровня сайта имеют приоритет над глобальными параметрами. Например, если созданы параметры уровня сайта для сайта Redmond, именно эти, а не глобальные параметры будут использоваться для управления качеством взаимодействия в сайте Redmond.
+При установке Skype для бизнеса Server создается единая глобальная коллекция параметров конфигурации QoE. Администраторы также могут создавать особые параметры на уровне сайта. При использовании эти параметров уровня сайта имеют приоритет над глобальными параметрами. Например, если созданы параметры уровня сайта для сайта Redmond, именно эти, а не глобальные параметры будут использоваться для управления качеством взаимодействия в сайте Redmond.
   
-Параметры конфигурации качества взаимодействия можно создать с помощью любого из Скайп для панели управления Business Server или командлета [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . При использовании Скайп для панели управления Business Server для создания новых параметров будут доступны для вас следующие параметры:
+Параметры конфигурации QoE можно создать с помощью панели управления Skype для бизнеса Server или командлета [New-кскоеконфигуратион](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . Если вы используете панель управления Skype для бизнеса Server для создания новых параметров, вам будут доступны следующие параметры:
   
 |**Параметр пользовательского интерфейса**|**Параметр PowerShell**|**Описание**|
 |:-----|:-----|:-----|
@@ -35,13 +35,13 @@ ms.locfileid: "33926636"
 |Хранить данные о качестве взаимодействия не дольше (дн.):  <br/> |KeepQoEDataForDays  <br/> |Число дней хранения данных о качестве взаимодействия до удаления из базы данных. Это значение игнорируется, если очистка отключена.  <br/> |
    
 > [!NOTE]
-> Командлет New-CsQoEConfiguration включает в себя дополнительные параметры недоступны в Скайп для панели управления Business Server. Для получения дополнительных сведений обратитесь к разделу справки [Командлета New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
+> Командлет New-Кскоеконфигуратион содержит дополнительные параметры, недоступные на панели управления Skype для бизнеса Server. Дополнительные сведения можно найти в разделе справки, посвященных [новым кскоеконфигуратион](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
   
-### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Создание параметров конфигурации качества взаимодействия с помощью Скайп для панели управления Business Server
+### <a name="to-create-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Создание параметров конфигурации QoE с помощью панели управления "Skype для бизнеса Server"
 
 1. Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе **Delegate Setup Permissions**.
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
     
 3. В левой панели навигации щелкните **Мониторинг и архивация** и затем выберите **Данные о качестве взаимодействия**.
     
@@ -59,9 +59,9 @@ ms.locfileid: "33926636"
     
 7. Нажмите **Исполнить**.
     
-## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Создание параметров конфигурации качества взаимодействия с помощью командлетов Windows PowerShell
+## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Создание параметров конфигурации QoE с помощью командлетов Windows PowerShell
 
-Можно создать параметры конфигурации качества взаимодействия с помощью Windows PowerShell и командлет New-CsQoEConfiguration. Можно выполнить этот командлет из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+Вы можете создавать параметры конфигурации QoE с помощью Windows PowerShell и командлета New-Кскоеконфигуратион. Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server.
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Чтобы создать новую коллекцию параметров конфигурации качества взаимодействия
 
@@ -87,6 +87,6 @@ ms.locfileid: "33926636"
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 
-Для получения дополнительных сведений см раздел справки для командлета [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [New-кскоеконфигуратион](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) .
   
 

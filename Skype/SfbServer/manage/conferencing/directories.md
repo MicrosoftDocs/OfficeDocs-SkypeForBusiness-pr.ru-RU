@@ -1,27 +1,27 @@
 ---
-title: Создание каталогов конференций в Скайп для Business Server
+title: Создание каталогов конференций в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Сводка: Узнайте, как для создания каталогов конференций в Скайп для Business Server.'
-ms.openlocfilehash: 62e632126ab7fb5ac812593f78031c0825bb36ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о создании каталогов конференций в Skype для бизнеса Server.'
+ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919390"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306498"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>Создание каталогов конференций в Скайп для Business Server
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Создание каталогов конференций в Skype для бизнеса Server
  
-**Сводка:** Узнайте, как для создания каталогов конференций в Скайп для Business Server.
+**Сводка:** Сведения о создании каталогов конференций в Skype для бизнеса Server.
   
-Каталоги конференций Ведение сопоставления между собрания буквенно-цифровой идентификатор, который использует участника присоединиться к конференции, при использовании Скайп для бизнеса и конференции цифровой идентификатор, который использует телефонных конференций участника присоединиться к конференции. 
+В каталогах конференций поддерживается соответствие между буквенно-цифровым ИДЕНТИФИКАТОРом собрания, который используется участником для присоединения к Конференции при использовании Skype для бизнеса, а также идентификационный код, который используется участниками конференц-связи с телефонным подключением для присоединения к Конференции. 
   
 ## <a name="create-a-conference-directory"></a>Создание каталога конференции
 
@@ -42,6 +42,6 @@ ms.locfileid: "33919390"
 New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 ```
 
-Дополнительные сведения содержатся в разделе [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps).
+Дополнительные сведения можно найти в разделе [New-ксконференцедиректори](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps).
   
 

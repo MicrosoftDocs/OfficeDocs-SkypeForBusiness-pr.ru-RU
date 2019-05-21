@@ -1,31 +1,31 @@
 ---
-title: Отчет о Peer-to-Peer IM в Скайп для Business Server
+title: Одноранговый отчет о мгновенных сообщениях в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Сводка: Сведения об отчете Peer-to-Peer IM в Скайп для Business Server.'
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о одноранговых отчетах о мгновенных сообщениях в Skype для бизнеса Server.'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926587"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305656"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Отчет о Peer-to-Peer IM в Скайп для Business Server
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Одноранговый отчет о мгновенных сообщениях в Skype для бизнеса Server
  
-**Сводка:** Сведения об отчете Peer-to-Peer IM в Скайп для Business Server.
+**Сводка:** Ознакомьтесь с отчетом о одноранговых СООБЩЕНИЯх в Skype для бизнеса Server.
   
 Отчет об одноранговом обмене мгновенными сообщениями предоставляет сведения о тенденциях, связанных с сеансами однорангового обмена мгновенными сообщениями. Эти сведения разбиты по пулам и типам проверки подлинности. В отчете может отображаться либо общее число сеансов, проведенных за указанный период времени (например, день или час), либо общее число мгновенных сообщений, отправленных за этот период.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Доступ к отчету об одноранговом обмене мгновенными сообщениями
 
-Можно вызвать отчет обмена мгновенными Сообщениями Peer-to-Peer только, открыв [Peer-to-Peer Сводка действий отчет в Скайп для Business Server](peer-to-peer-activity-summary-report.md) и щелкнув один из следующих показателей:
+Вы можете получить доступ к отчету о одноранговых СООБЩЕНИЯх только в том случае, если открыть сводный отчет о действиях одноранговых групп [в Skype для бизнеса Server](peer-to-peer-activity-summary-report.md) и выбрать один из следующих метрик:
   
 - Общее количество одноранговых сеансов обмена мгновенными сообщениями
     

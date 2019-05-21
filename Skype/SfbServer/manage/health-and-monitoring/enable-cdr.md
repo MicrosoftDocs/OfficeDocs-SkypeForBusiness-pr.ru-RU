@@ -1,25 +1,25 @@
 ---
-title: Включение регистрации вызовов в Скайп для Business Server
+title: Включение записи сведений о звонках в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Сводка: Узнайте, как включить регистрации вызовов (CDR) записей в Скайп для Business Server.'
-ms.openlocfilehash: 40bd7bed0775652c2365da6f0a461e95db7968ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как включить запись сведений о звонке (CDR) в Skype для бизнеса Server.'
+ms.openlocfilehash: 64a6e7d8d0e633fb3ef4e440932226f1f6f9c11a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884990"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305705"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включение регистрации вызовов в Скайп для Business Server
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включение записи сведений о звонках в Skype для бизнеса Server
 
-**Сводка:** Узнайте, как включить регистрации вызовов (CDR) записей в Скайп для Business Server.
+**Сводка:** Сведения о том, как включить запись сведений о звонке (CDR) в Skype для бизнеса Server.
 
 Функция регистрации вызовов (CDR) записывает сведения об использовании и диагностические данные для одноранговых операций, включая обмен мгновенными сообщениями, звонки VoIP, общий доступ к приложениям, передачу файлов и собрания. С помощью данных об использовании можно вычислить рентабельность инвестиций, а диагностические данные можно использовать при поиске и устранении проблем с одноранговыми операциями и собраниями.
 
@@ -28,11 +28,11 @@ ms.locfileid: "33884990"
 > [!NOTE]
 > Чтобы включить CDR, необходимо сначала настроить мониторинг и базу данных мониторинга. Дополнительные сведения см. в разделе [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Чтобы включить CDR с помощью Скайп для панели управления Business Server
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Включение CDR с помощью панели управления "Skype для бизнеса Server"
 
-1.  Используя учетную запись пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или роль CsServerAdministrator или CsAdministrator, войдите на любой компьютер, который находится в сети, в котором вы развернули Скайп для Business Server .
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. .
 
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
 
 3. В левой панели навигации щелкните **Мониторинг и архивирование**, а затем — **Регистрация вызовов**.
 
@@ -43,7 +43,7 @@ ms.locfileid: "33884990"
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Включение CDR с помощью командлетов Windows PowerShell
 
-Можно включить CDR с помощью командлета **Set-CsCdrConfiguration** и Windows PowerShell. Можно выполнить этот командлет из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+Вы можете включить CDR с помощью Windows PowerShell и командлета **Set-кскдрконфигуратион** . Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Включение CDR для отдельного места
 
@@ -69,7 +69,7 @@ ms.locfileid: "33884990"
   Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
   ```
 
-Для получения дополнительных сведений см раздел справки для командлета [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [Set-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
 
 ## <a name="see-also"></a>См. также
 

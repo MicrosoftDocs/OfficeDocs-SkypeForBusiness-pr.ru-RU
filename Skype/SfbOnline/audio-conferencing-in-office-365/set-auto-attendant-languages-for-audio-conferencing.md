@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Узнайте, как установить языки автоматического секретаря аудиоконференции для номера аудиоконференции в Skype для бизнеса Online.
-ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a05b393ac671447c0efe385bb1d562039aef32d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229217"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306381"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Установка языков автоматического секретаря аудиоконференции в Skype для бизнеса Online
 
@@ -37,7 +37,7 @@ ms.locfileid: "32229217"
 Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
->  Можно изменить только языки аудиоконференций номеров, которые выделенной категории. Нельзя изменить языки номер аудиоконференций Shared.
+>  Вы можете изменять только те языки, которые используются для нумерации видеоконференций в выделенной категории. Не удается изменить языки для номера конференц-связи с общим звуковым сопровождением.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -46,18 +46,18 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 Для выполнения этого действия вы должны войти в систему с правами [глобального администратора Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) или [администратора Skype для бизнеса](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d).
     
-1. В **Скайп по центру администрирования бизнеса**, в левой области переходов перейдите на **портал прежних версий**. Один раз в старый портал выберите **звук конференц-связи**и нажмите кнопку **моста Microsoft**.
+1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к **устаревшему порталу**. На портале Legacy выберите пункт **Голосовая конференция**и выберите **Microsoft Bridge**.
     
-2. Выберите номер телефона аудиоконференций из списка и в области действий выберите пункт **задать языков**. Можно только изменить языки номеров выделенного аудиоконференций.  
+2. Выберите номер телефона для голосовой конференции в списке и на панели действий нажмите кнопку **Выбрать языки**. Изменить языки выделенных номеров для голосовой конференции можно только.  
     
 3. На странице **Установка языков** выберите список **Основной язык**, чтобы просмотреть полный список доступных языков. При необходимости щелкните каждый из списков **Дополнительных языков**, чтобы выбрать дополнительный язык.
     
     > [!NOTE]
-    > Перечисляются поддерживаемые основной и дополнительные языки Порядок, в котором можно выбрать их в списках будут порядок языков, представленных для вызывающих объектов. 
+    > Перечисляются поддерживаемые основной и дополнительные языки Порядок выбора элементов в списках — это порядок, в котором будут выводиться языки, представляемые для вызывающих абонентов. 
   
 4. Нажмите кнопку **Сохранить**.
     
-## <a name="want-else-should-i-know"></a>Хотите другим способом, должны знать?
+## <a name="want-else-should-i-know"></a>Хотите больше узнать?
 
 - Со списком поддерживаемых языков для аудиоконференций можно ознакомиться в статье [Поддерживаемые языки аудиоконференций](/MicrosoftTeams/audio-conferencing-supported-languages).
     
@@ -67,10 +67,10 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
-Для автоматизации этого шага, можно использовать командлеты [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) и [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
+Чтобы автоматизировать этот шаг, можно использовать командлеты [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) и [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
   
-Чтобы получить дополнительные сведения, обратитесь к разделу [С помощью Windows PowerShell для выполнения распространенных Скайп для бизнеса в Интернет задачи управления](https://go.microsoft.com/fwlink/?LinkId=525038)
+Дополнительные сведения можно найти в статье [Использование Windows PowerShell для выполнения стандартных задач управления в Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

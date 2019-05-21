@@ -1,10 +1,10 @@
 ---
-title: Создание связей между областями в Скайп для Business Server
+title: Создание ссылок на сетевой регион в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Создание или изменение связей между областями сети, используемые с корпоративной голосовой связи контроля допуска звонков в Скайп Business Server.
-ms.openlocfilehash: c3b0f24ffdeea1724c89951ffc88516aea4dffb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Создавайте и изменяйте ссылки на сетевые регионы, которые используются для управления допуском голосовых вызовов в Skype для бизнеса Server.
+ms.openlocfilehash: 60d4d6f1279e7f6ad3946a6b25fb32ecd589ab07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892960"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286272"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>Создание связей между областями в Скайп для Business Server
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Создание ссылок на сетевой регион в Skype для бизнеса Server
  
-Создание или изменение связей между областями сети, используемые с корпоративной голосовой связи контроля допуска звонков в Скайп Business Server. 
+Создавайте и изменяйте ссылки на сетевые регионы, которые используются для управления допуском голосовых вызовов в Skype для бизнеса Server. 
   
 Регионы в сети связываются с помощью физического подключения глобальной сети. Связь между областями сети создает канал между двумя областями, настроенными для контроля допуска звонков (CAC), и задает ограничения пропускной способности трафика аудио- и видеоданных между этими областями.
   
-Пример топологии имеет связь между Северной Америке, а также Азиатско-Тихоокеанском регионе и ссылки между EMEA, а также Азиатско-Тихоокеанском регионе. Каждый из этих связей между областями ограниченной пропускной способностью глобальной сети, как описано в таблице сведения о пропускной способности связи между областями в [Пример: сбор требований для контроля допуска звонков в Скайп для Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+В примере топологии есть связь между областями "Северная Америка" и "APAC", а также ссылкой между регионами EMEA и APAC. Каждая из этих связей между регионами ограничена пропускной способностью по сети, как описано в таблице "сведения о пропускной способности ссылки на регион [" в примере: сбор требований для управления допуском звонков в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Создание связей между областями с помощью Скайп для консоли Business Server
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Создание ссылок на сетевой регион с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
     
@@ -43,9 +43,9 @@ ms.locfileid: "33892960"
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Создание связей между областями с помощью Скайп для панели управления Business Server
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Создание ссылок на сетевой регион с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
     
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
     

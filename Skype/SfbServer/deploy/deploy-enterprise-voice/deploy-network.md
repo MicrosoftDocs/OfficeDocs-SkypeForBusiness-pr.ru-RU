@@ -1,10 +1,10 @@
 ---
-title: Развертывание областей сети, сайты и подсети в Скайп для бизнеса
+title: Развертывание регионов сети, сайтов и подсетей в Skype для бизнеса
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,33 +13,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 'Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: b5de9ed76dcba917a186a6f9060021f51d5abac9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Создавайте и изменяйте сетевые регионы, сетевые сайты и свяжите сетевые подсети в Skype для бизнеса Server. Все они используются для расширенных функций голосовой связи для предприятий: обход мультимедиа, управление допуском звонков и маршрутизация на основе местоположения.'
+ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892666"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291202"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание областей сети, сайты и подсети в Скайп для бизнеса
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание регионов сети, сайтов и подсетей в Skype для бизнеса
 
-Создание или изменение областей сети, сетевых узлов и сопоставление подсетей в Скайп для Business Server. Все эти группы используются для расширенных функций корпоративной голосовой связи: обход мультимедиа, контроль допуска звонков и маршрутизация на основе местоположения.
+Создавайте и изменяйте сетевые регионы, сетевые сайты и свяжите сетевые подсети в Skype для бизнеса Server. Все они используются для расширенных функций голосовой связи для предприятий: обход мультимедиа, управление допуском звонков и маршрутизация на основе местоположения.
 
 В расширенные функции корпоративной голосовой связи входят: [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Данные функции требуются для создания сетевых областей, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Дополнительные сведения об условиях см. в разделе [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 На контроль допуска звонков и E9-1-1 распространяются дополнительные требования относительно конфигурации для сетевых сайтов:
 
-- Для использования функции контроля допуска звонков необходимо указать профиль политики пропускной способности для каждого сайта, на который распространяются ограничения полосы пропускания WAN. Если вы планируете развернуть контроля допуска звонков, прежде чем настраивать сетевые узлы необходимо [Создание профилей политики пропускной способности в Скайп для Business Server](create-bandwidth-policy-profiles.md) .
+- Для использования функции контроля допуска звонков необходимо указать профиль политики пропускной способности для каждого сайта, на который распространяются ограничения полосы пропускания WAN. Если вы планируете развернуть управление допуском звонков, необходимо [создать профили политики пропускной способности в Skype для бизнеса Server](create-bandwidth-policy-profiles.md) , прежде чем настраивать сетевые сайты.
 
-- Для использования E9-1-1 необходимо указать политику расположения для каждого сайта. Если вы планируете развернуть E9-1-1, прежде чем настраивать сетевые узлы необходимо [Создание политик расположения в Скайп для Business Server](create-location-policies.md) .
+- Для использования E9-1-1 необходимо указать политику расположения для каждого сайта. Если вы планируете развернуть E9-1-1, необходимо [создать политики местоположений в Skype для бизнеса Server](create-location-policies.md) , прежде чем настраивать сетевые сайты.
 
 ## <a name="create-or-modify-a-network-region"></a>Создание или изменение сетевой области
 
-Если вы уже создали областей сети для одного из этих функций, не требуется создавать новые области сети; другие расширенные функции корпоративной голосовой связи будет использовать те же области сети.
+Если вы уже создали регионы сети для одной из этих функций, вам не нужно создавать новые сетевые регионы; другие дополнительные функции для корпоративной голосовой связи будут использовать те же сетевые регионы.
 
 Однако вам может потребоваться изменить существующее определение области сети для применения параметров, относящихся к функции. Например, если вы создали области сети для службы E9-1-1, для которой не требуется связанный центральный сайт, и затем развернули службу контроля допуска звонков, вам потребуется изменить определения областей сети, чтобы указать центральный сайт.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Создание области сети, с помощью Скайп для консоли Business Server
+### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>Создание сетевого региона с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -55,13 +55,13 @@ ms.locfileid: "33892666"
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
-    В этом примере вы создали области сети, называется «NorthAmerica», которая связана с центральным сайтом с ИД CHICAGO.
+    В этом примере вы создали сетевой регион с именем "Норсамерика", связанный с центральным узлом с кодом "Чикаго".
 
 3. Чтобы завершить создание областей сети для вашей топологии, повторите шаг 2, указав требуемые параметры для каждой области сети.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Создание области сети, с помощью Скайп для панели управления Business Server
+### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Создание сетевого региона с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
 
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
 
@@ -79,7 +79,7 @@ ms.locfileid: "33892666"
 
 9. Чтобы завершить создание областей сети для вашей топологии, повторите шаги с 4 по 8, указав требуемые параметры для остальных областей.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Изменение области сети с помощью Скайп для консоли Business Server
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>Изменение сетевого региона с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -95,13 +95,13 @@ ms.locfileid: "33892666"
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
-    В этом примере изменить существующую область сети называется «NorthAmerica» (созданный с помощью процедур, описанных ранее в этом разделе), изменив описание. Описание существовало для региона «NorthAmerica», эта команда переопределяет это значение; Если описание не ранее было задано, эта команда задает его.
+    В этом примере вы изменили существующий сетевой регион с именем "Норсамерика" (созданный с помощью процедур, описанных ранее в этом разделе), изменив его описание. Если для региона "Норсамерика" существует описание, эта команда перезапишет ее с помощью этого значения; Если описание не было установлено, эта команда задает его.
 
 3. Чтобы изменить остальные области сети, повторите шаг 2, указав параметры для остальных областей.
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>Изменение области сети с помощью Скайп для панели управления Business Server
+### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>Изменение сетевого региона с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
 
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
 
@@ -111,7 +111,7 @@ ms.locfileid: "33892666"
 
 5. Щелкните **Изменить**, затем щелкните **Подробнее**.
 
-6. На странице " **Изменить область** " измените значения для параметров этой области сети соответствующим образом.
+6. На странице **Изменение области** измените значения для параметров этого сетевого региона.
 
 7. Нажмите **Исполнить**.
 
@@ -119,9 +119,9 @@ ms.locfileid: "33892666"
 
 ## <a name="create-or-modify-a-network-site"></a>Создание или изменение сетевого сайта
 
-Если вы уже создали сетевых узлов для одного из этих функций, не требуется создавать новые сайты сети; другие расширенные функции корпоративной голосовой связи будет использовать те же сетевые узлы. You may, however, need to modify an existing network site definition to apply feature-specific settings. For example, if you created a network site for E9-1-1, you need to modify the network site during deployment of call admission control to apply a bandwidth policy profile.
+Если вы уже создали сайты сети для одной из этих функций, вам не нужно создавать новые сетевые сайты; другие дополнительные функции для корпоративной голосовой связи будут использовать те же сетевые сайты. You may, however, need to modify an existing network site definition to apply feature-specific settings. For example, if you created a network site for E9-1-1, you need to modify the network site during deployment of call admission control to apply a bandwidth policy profile.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Создание области сети с помощью Скайп для консоли Business Server
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>Создание сайта сети с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -137,16 +137,16 @@ ms.locfileid: "33892666"
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
-    В этом примере вы создали сетевой узел с именем «Chicago», который находится в сети «northamerica».
+    В этом примере вы создали сайт сети под названием "Чикаго", который находится в сетевом регионе "Норсамерика".
 
     > [!NOTE]
     > Чтобы эта команда выполнилась успешно, область сети NorthAmerica должна уже быть создана.
 
 3. Чтобы закончить создание сетевых узлов для вашей топологии, повторите действие 2 с параметрами других узлов.
 
-### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>Создание области сети с помощью Скайп для панели управления Business Server
+### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>Создание сетевого сайта с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
 
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
 
@@ -174,7 +174,7 @@ ms.locfileid: "33892666"
 
 11. Чтобы завершить создание сетевых узлов для вашей топологии, повторите действия с 4 по 10 с параметрами для других узлов.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Изменение области сети с помощью Скайп для консоли Business Server
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>Изменение сетевого сайта с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -190,16 +190,16 @@ ms.locfileid: "33892666"
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
-    В этом примере узел с именем «Альбукерке» будет перемещено в область сети «NorthAmerica». Чтобы изменить конфигурацию этого сетевого узла для развертывания контроля допуска звонков, E9-1-1 или обхода сервера-посредника, измените параметры сетевого узла, выполнив командлет Set-CsNetworkSite с параметром BWPolicyProfileID или LocationPolicy соответственно.
+    В этом примере сайт с именем "Альбукерке" перемещается в сетевой регион "Норсамерика". Чтобы изменить конфигурацию этого сетевого узла для развертывания контроля допуска звонков, E9-1-1 или обхода сервера-посредника, измените параметры сетевого узла, выполнив командлет Set-CsNetworkSite с параметром BWPolicyProfileID или LocationPolicy соответственно.
 
     > [!NOTE]
     > Хотя для обхода сервера-посредника существует параметр BypassID, настоятельно рекомендуется не переопределять автоматически созданные идентификаторы обхода. Чтобы настроить сетевой узел для обхода сервера-посредника, указывать дополнительные параметры не требуется.
 
 3. Чтобы закончить изменение сетевых узлов для вашей топологии, повторите действие 2 с параметрами других узлов.
 
-### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>Изменение области сети с помощью Скайп для панели управления Business Server
+### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>Изменение сетевого сайта с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
 
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
 
@@ -209,7 +209,7 @@ ms.locfileid: "33892666"
 
 5. Щелкните **Изменить**, затем щелкните **Подробнее**.
 
-6. На странице " **Изменение сайта** " измените значения для параметров этого сетевого узла соответствующим образом.
+6. На странице **изменение сайта** измените значения параметров этого сетевого сайта соответствующим образом.
 
 7. Нажмите **Исполнить**.
 
@@ -218,11 +218,11 @@ ms.locfileid: "33892666"
 ## <a name="associate-a-subnet-with-a-network-site"></a>Связь подсети с сетевым сайтом
 <a name="BKMK_AssociateSubnets"> </a>
 
-Every subnet in your network must be associated with a specific network site, because subnet information is used to determine the network site on which an endpoint is located while a new session is initiated. Когда известно местоположение каждой стороны в сеансе advanced Enterprise Voice функции можно применять эти сведения для определения способа обработки установки вызова или маршрутизации.
+Every subnet in your network must be associated with a specific network site, because subnet information is used to determine the network site on which an endpoint is located while a new session is initiated. Когда вы узнаете о расположении каждой стороны в сеансе, опытные функции голосовой связи могут применять эти данные, чтобы определить способ обработки настройки и маршрутизации звонков.
 
-All configured public IP addresses of the Audio/Video Edge Servers in your deployment must be added to your network configuration settings. These IP addresses are added as subnets with a mask of 32. The associated network site should correspond to the appropriate configured network site. Например, общедоступный IP-адрес, соответствующий A аудио- и видеоконференций в центральном узле Чикаго может быть Чикаго NetworkSiteID.
+All configured public IP addresses of the Audio/Video Edge Servers in your deployment must be added to your network configuration settings. These IP addresses are added as subnets with a mask of 32. The associated network site should correspond to the appropriate configured network site. Например, общедоступный IP-адрес, соответствующий службе EDGE (A/V) на центральном веб-сайте Чикаго, будет Нетворкситеид в Чикаго.
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Чтобы связать подсеть с сетевым узлом с помощью Скайп для консоли Business Server
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Связывание подсети с сетевым сайтом с помощью командной консоли Skype для бизнеса Server
 
 1. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
@@ -238,7 +238,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
-    В этом примере создается связь между подсетью 172.11.12.13 и сетевым узлом «Chicago».
+    В этом примере вы создали связь между подсетью 172.11.12.13 и сетевым сайтом "Чикаго".
 
 3. Повторите шаг 2 для всех подсетей топологии.
 
@@ -258,15 +258,15 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 2. Запустите командную консоль Skype для бизнеса: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Skype для бизнеса 2015** и щелкните элемент **Командная консоль Skype для бизнеса**.
 
-3. Выполните следующий командлет, чтобы импортировать **файл subnet.csv**, а затем сохраните его содержимое в хранилище управления Lync Server:
+3. Выполните следующий командлет для импорта **Subnet. csv**, а затем сохраните его содержимое в магазине Lync Server Management.
 
    ```
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
-### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Чтобы связать подсеть с сетевым узлом с помощью Скайп для панели управления Business Server
+### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Связывание подсети с сетевым сайтом с помощью панели управления Skype для бизнеса Server
 
-1. Откройте Скайп для панели управления Business Server.
+1. Откройте панель управления Skype для бизнеса Server.
 
 2. В левой области навигации щелкните элемент **Конфигурация сети**.
 
@@ -281,7 +281,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 7. Щелкните **ИД сетевого узла**, затем выберите ИД узла, в который необходимо добавить эту подсеть.
 
     > [!NOTE]
-    > Если вы еще не создали сетевые сайты, то этот список будет пустым. Дополнительные сведения см. в разделе [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Также для получения ИД сетевых сайтов можно использовать командлет **Get-CsNetworkSite**. Дополнительные сведения см Скайп для документации по консоли управления Business Server.
+    > Если вы еще не создали сетевые сайты, то этот список будет пустым. Дополнительные сведения см. в разделе [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Также для получения ИД сетевых сайтов можно использовать командлет **Get-CsNetworkSite**. Подробности можно найти в документации по консоли управления в Skype для бизнеса Server.
 
 8. В поле **Описание** введите дополнительные сведения об этой подсети.
 
@@ -299,7 +299,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
  **Уровень**: 2
 
- **Описание**: подсети для следующих IP-адресов: \<список IP-адресов\> не настроены или подсети не связаны с сетевым узлом.
+ **Описание**: подсети для указанных ниже IP-адресов: \<список IP-адресов\> либо не настроен, либо подсети не связаны с сетевым сайтом.
 
  **Причина**: подсети для соответствующих IP-адресов не указаны в параметрах конфигурации сети или не связаны с сетевым сайтом.
 

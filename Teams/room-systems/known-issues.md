@@ -5,18 +5,18 @@ author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: В этой статье рассматриваются известные проблемы приложения "Комнаты Microsoft Teams", упорядоченные по функциональным областям.
-ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916515"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306520"
 ---
 # <a name="known-issues"></a>Известные проблемы 
  
@@ -59,7 +59,8 @@ ms.locfileid: "33916515"
 ***
 Юбилейный выпуск 64-разрядной версии Windows 10 Корпоративная (на английском языке, версия 1607) больше не поддерживается, начиная с выпуска приложения "Комнаты Microsoft Teams" 3.0.12.0. 
 ***
-
+Комната Microsoft Teams — это приложение с несколькими окнами, которое должно быть подключено к порту HDMI устройства, чтобы приложение было правильно работать. Убедитесь в том, что вы подключены к дисплею HDMI, или используйте фиктивный разъем HDMI, если вы тестируете и не приобрели еще не приобретенный дисплей.
+***
 <a name="See"> </a>  
 ## <a name="see-also"></a>См. также
 
