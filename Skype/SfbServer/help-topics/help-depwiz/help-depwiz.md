@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 1/1/1900
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
-description: Щелкните ссылку мастер развертывания
-ms.openlocfilehash: 77ad3b77981f8b688819e207f9a1f6107bc89909
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Разделы мастера развертывания
+ms.openlocfilehash: 5c555a2f2e3aca7f3fc7478e29bb0c1742fa397e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921008"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301801"
 ---
 # <a name="help-depwiz"></a>Help-DepWiz
  
-В данном разделе описываются справку по Скайп для мастера развертывания Business Server.
+Темы этого узла содержат справку для мастера развертывания Skype для бизнеса Server.
   
 
   

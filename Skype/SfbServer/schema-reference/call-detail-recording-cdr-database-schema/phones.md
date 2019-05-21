@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-description: Таблица Phones представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о один телефонный номер, участвующих в вызовах VoIP с записями в базе данных.
-ms.openlocfilehash: ba13a059e043cf2a18c41c28dce1a2a54e694b9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Таблица phones является вспомогательной таблицей. Каждая запись в таблице хранит информацию об одном номере телефона, который участвует в звонках по протоколу VoIP с записями в базе данных.
+ms.openlocfilehash: 684586f21b16c785bcc75458e5330c42aad2ccb4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930618"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295946"
 ---
 # <a name="phones-table"></a>Таблица Phones
  
-Таблица Phones представляет собой вспомогательную таблицу. Каждая запись в таблице хранятся сведения о один телефонный номер, участвующих в вызовах VoIP с записями в базе данных.
+Таблица phones является вспомогательной таблицей. Каждая запись в таблице хранит информацию об одном номере телефона, который участвует в звонках по протоколу VoIP с записями в базе данных.
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**PhoneId** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий телефон.  <br/> |
-|**PhoneUri** <br/> |nvarchar(450)  <br/> | <br/> |Номер телефона.  <br/> |
-|**NextUpdateTS** <br/> |даты и времени  <br/> ||Метка времени (только для внутреннего использования).  <br/> В этом поле было представлено в Microsoft Lync Server 2013.  <br/> |
+|**Фонеид** <br/> |целое  <br/> |Primary  <br/> |Уникальный номер, идентифицирующий этот телефон.  <br/> |
+|**Фонеури** <br/> |nvarchar (450)  <br/> | <br/> |Номер телефона.  <br/> |
+|**Некступдатетс** <br/> |Датой  <br/> ||Метка времени (только для внутреннего использования).  <br/> Это поле было введено в Microsoft Lync Server 2013.  <br/> |
    
 

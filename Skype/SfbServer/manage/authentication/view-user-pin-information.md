@@ -1,37 +1,37 @@
 ---
-title: Представление пользователя сведения о ПИН-код в Скайп для Business Server
+title: Просмотр сведений о КОНТАКТе пользователя в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Сводка: Просмотр сведений о пользователе ПИН-код в Скайп для Business Server.'
-ms.openlocfilehash: a2e9d7d3e2341590a8eb6a4779bbb1a9c5c26227
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: Просмотр сведений о КОНТАКТах пользователя в Skype для бизнеса Server.'
+ms.openlocfilehash: 48b179a8d6e8619c909cb92ba63d9a5869ae8f2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919369"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297605"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server"></a>Представление пользователя сведения о ПИН-код в Скайп для Business Server
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>Просмотр сведений о КОНТАКТе пользователя в Skype для бизнеса Server
  
-**Сводка:** Просмотр пользователя сведения о ПИН-код в Скайп для Business Server.
+**Сводка:** Просмотр сведений о КОНТАКТе пользователя в Skype для бизнеса Server.
   
-Чтобы присоединиться к конференции номера в качестве пользователя с разрешением, Скайп для пользователя Business Server с использованием учетных данных доменных служб Active Directory (AD DS) требуется персонального идентификационного номера (ПИН-кода). Можно просмотреть сведения о ПИН пользователя из Скайп для панели управления Business Server.
+Чтобы присоединиться к Конференции с телефонным подключением в качестве пользователя, прошедшего проверку подлинности, требуется персональный идентификационный номер (ПИН-код) для пользователя Skype для бизнеса Server с учетной записью доменных служб Active Directory (AD DS). Вы можете просмотреть сведения о ПИН-коде пользователя на панели управления Skype для бизнеса Server.
   
 > [!NOTE]
-> Можно просмотреть сведения о состоянии ПИН, такие как когда ПИН был определен или когда был в последний раз изменен, однако сведения о состоянии не содержат самого ПИН. Если пользователь теряет свой ПИН-код, который может сбросить, выполнив процедуры, описанные в [задать пользователя телефонных конференций ПИН-код в Скайп для Business Server](set-a-user-s-dial-in-conferencing-pin.md)
+> Можно просмотреть сведения о состоянии ПИН, такие как когда ПИН был определен или когда был в последний раз изменен, однако сведения о состоянии не содержат самого ПИН. Если пользователь потерял свой ПИН-код, вы можете сбросить его, следуя инструкциям в разделе [Настройка контакта конференц-связи с телефонным подключением пользователя в Skype для бизнеса Server](set-a-user-s-dial-in-conferencing-pin.md) .
   
-### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Чтобы просмотреть ПИН пользователя в Скайп для панели управления Business Server
+### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Просмотр PIN-кода пользователя на панели управления Skype для бизнеса Server
 
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server.  
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.  
     
 3. На левой панели навигации щелкните **Пользователи**.
     
@@ -54,20 +54,20 @@ ms.locfileid: "33919369"
     > [!TIP]
     > Чтобы добавить в запрос дополнительные условия поиска, щелкните **Добавить фильтр**. 
   
-   e. Щелкните **Поиск**.
+   учеб. Щелкните **Поиск**.
     
     > [!NOTE]
     > Если ПИН-код заблокирован, перед определением необходимо его разблокировать. Чтобы разблокировать ПИН-код, щелкните **Действие**, затем **Разблокировать ПИН-код**. 
   
 6. Щелкните пользователя в результатах поиска, щелкните **Действие**, затем щелкните **Просмотреть состояние ПИН-кода**.
     
-## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о ПИН-код пользователя с помощью Windows PowerShell командлетов
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о ПИН-коде пользователя с помощью командлетов Windows PowerShell
 
-You can view user PIN information by using the Get-CsClientPinInfo cmdlet. Этот командлет можно запустить из Скайп для консоли Business Server или из удаленного сеанса Windows PowerShell. Для получения дополнительных сведений об использовании удаленной оболочки Windows PowerShell для подключения к Скайп для Business Server в статье блога [«Быстрый запуск: управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Процесс одинаков в Скайп для Business Server.
+You can view user PIN information by using the Get-CsClientPinInfo cmdlet. Этот командлет можно выполнить либо из командной консоли Skype для бизнеса Server, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании удаленной оболочки Windows PowerShell для подключения к серверу Skype для бизнеса можно найти в статье ["Краткое руководство": Управление Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell](https://go.microsoft.com/fwlink/p/?linkId=255876). Этот процесс одинаков в Skype для бизнеса Server.
   
 ### <a name="to-view-user-pin-information"></a>Порядок просмотра сведений о ПИН-коде пользователя
 
-Чтобы просмотреть сведения о ПИН пользователя, введите следующую команду в Скайп для консоли Business Server и нажмите клавишу ВВОД:
+Чтобы просмотреть сведения о ПИН-коде для пользователя, введите в командной консоли Skype для Business Server следующую команду, как показано ниже, и нажмите клавишу ВВОД.
     
   ```
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -83,10 +83,10 @@ LastPinChangeTime : 9/25/2012 1:35:03 PM
 PinExpirationTime :
 </pre>
 
-Для получения дополнительных сведений см раздел справки для командлета [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [Get-ксконференцедисклаимер](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
   
 ## <a name="see-also"></a>См. также
 
-[Задать пользователя телефонных конференций ПИН-код в Скайп для Business Server](set-a-user-s-dial-in-conferencing-pin.md)
+[Установка ПИН-кода конференц-связи с телефонным подключением пользователя в Skype для бизнеса Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Заблокировать или разблокировать ПИН-код, в Скайп пользователя для Business Server](lock-or-unlock-a-user-pin.md)
+[Блокировка и Разблокировка PIN-кода пользователя в Skype для бизнеса Server](lock-or-unlock-a-user-pin.md)

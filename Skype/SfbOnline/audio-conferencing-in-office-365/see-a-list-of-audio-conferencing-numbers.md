@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как определить входящие номера конференц-связи в Skype для бизнеса Online. '
-ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229227"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299052"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Просмотр списка номеров для аудиоконференций в Skype для бизнеса Online
 
@@ -55,11 +55,11 @@ If there is only one phone number available in your organization, it will be use
     
 2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
     
-3. В **Скайп по центру администрирования бизнеса**, в левой области переходов, перейдите к **аудиоконференции** > **Microsoft bridge**, а затем:
+3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел видеоконференции **** > **Microsoft Bridge**, а затем:
     
-   - Вы можете просмотреть номера телефонов, которые доступны для аудиоконференций.
+   - Вы можете просматривать телефонные номера, доступные для голосовой конференции.
     
-   - Также можно увидеть местоположение и основных и дополнительных языков, которые будут использоваться звукового конференц-связи, принимаемые автосекретарем.
+   - Кроме того, вы можете просмотреть расположение и основной и дополнительный языки, которые будут использоваться автосекретарем по голосовой конференции.
     
 > [!NOTE]
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
@@ -67,7 +67,7 @@ If there is only one phone number available in your organization, it will be use
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell
 
-- Для экономии времени или автоматизировать этот процесс, можно использовать командлет [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) .
+- Для экономии времени или автоматизации процесса можно воспользоваться командлетом [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) .
     
 - Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
@@ -88,5 +88,5 @@ If there is only one phone number available in your organization, it will be use
   
 ## <a name="related-topics"></a>Статьи по теме
 
-[Пробная и платная аудиоконференции в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

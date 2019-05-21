@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca00db8882837bc748dee89a100b2e7d9dd2d04f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227877"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297974"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение номеров телефонов служб
 
@@ -35,29 +35,29 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 > [!NOTE]
 > Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-У вас есть два способа получения номеров службы, поэтому можно использовать с Скайп для бизнеса и группами Майкрософт:
+У вас есть два способа получить служебные номера, чтобы использовать их в Skype для бизнеса и Microsoft teams:
   
-- Получение нового номера из Office 365.
+- Получайте новые номера из Office 365.
     
-- Порт или перенос существующих номеров от поставщика услуг или телефон поставщика в Office 365.
+- Перенос существующих номеров из вашего поставщика услуг или телефонного оператора в Office 365.
     
     > [!NOTE]
-    > При переводе номерам службы настоятельно рекомендуется обратиться в убедитесь, что более высокая производительность параллельных вызывающей считаться и правильно настроить [Корпорация Майкрософт поддерживает](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) .
+    > При переносе служебных номеров настоятельно рекомендуется обратиться в [службу поддержки Майкрософт](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) , чтобы убедиться в том, что более высокая емкость параллельных звонков считается и правильно настроена.
   
 ## <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
-![sfb логотип 30x30.png](../images/sfb-logo-30x30.png) **с помощью Скайп по центру администрирования бизнеса**
+![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в **Центр администрирования** > **групп и Скайп** > **Скайп администрирования прежних версий**.
+2. Перейдите в раздел " >  **центр администрирования"****и** > **старый администратор**Skype.
     
-3. В левой панели навигации выберите пункты **голосовой связи** > **номера телефонов** > **Добавить новый номер**и нажмите кнопку **новый номеров службы**.
+3. На левой панели навигации выберите **** > **номера** > телефонов,**Введите новый номер**, а затем нажмите кнопку **новые номера служб**.
     
     > [!IMPORTANT] 
-    > Позволяет параметр **голосовой связи** в левой области навигации в Скайп по центру администрирования бизнеса необходимо купить по крайней мере один **E5 корпоративной лицензии**, дополнительная лицензия на одной **Телефонной системой** или дополнительная лицензия на один **Аудио конференц-связи** .
+    > Для просмотра параметров **голоса** на левой панели навигации в центре администрирования Skype для бизнеса вы должны сначала приобрести хотя бы одну **лицензию**на корпоративную, одну лицензию на надстройку **** или лицензию для **голосовой конференции** .
     
-4. На странице " **Добавить новых номеров службы** " выберите следующее:
+4. На странице **Добавление новых номеров служб** выберите один из указанных ниже вариантов.
     
    - **Страна или регион**
     

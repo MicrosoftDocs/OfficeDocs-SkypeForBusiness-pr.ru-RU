@@ -1,5 +1,5 @@
 ---
-title: Сброс аудиоконференций ПИН-код в Скайп для бизнеса Интернет-версия
+title: Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Узнайте, что должен знать о ПИН-коды и сброс их в Скайп для бизнеса в Интернет. '
-ms.openlocfilehash: 0b2c6ae7a26d23fbcb0f18da45886ba13853037f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Узнайте о том, что нужно знать о контактах и о том, как сбросить их в Skype для бизнеса Online. '
+ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906799"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299089"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс аудиоконференций ПИН-код в Скайп для бизнеса Интернет-версия
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
 
 > [!Note]
 > Информацию о сбросе ПИН-кодов аудиоконференций в Microsoft Teams см. в разделе [Сброс ПИН-кода аудиоконференций в Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
@@ -40,11 +40,11 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в **Центр администрирования Office 365** > **Скайп для бизнеса**и на панели навигации слева щелкните **звук конференц-связи**.
+2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса**и на панели навигации слева выберите пункт **звуковые конференции**.
     
-3. Щелкните **Пользователи**, выберите пользователя, который требуется сбросить ПИН-кода.
+3. Щелкните **Пользователи**, выберите пользователя, для которого вы хотите сбросить PIN-код.
     
-4. В области действий в разделе **ПИН-код**, нажмите кнопку **Сброс**.
+4. На панели действий в разделе **ПИН-код**нажмите кнопку **Сброс**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -65,7 +65,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Когда начинается собрание, к нему автоматически присоединяются все пользователи, находящиеся в зале ожидания. Пример: если два участника попытаются присоединиться к собранию, когда оно еще не началось, эти участники будут перенаправлены в зал ожидания. Когда с телефона присоединяется организатор собрания под собственным ПИН-кодом, собрание начинается, и к нему подключаются все участники, находящиеся в зале ожидания.
     
-- Значение по умолчанию — запретить собрания для работы с анонимных абонентов.
+- По умолчанию собрание не разрешается запускать с помощью анонимных абонентов.
     
 - When you enable a user for audio conferencing, by default they are sent emails that include conferencing information and their PIN. The user must have an Office 365 mailbox, because when a PIN is reset, a new PIN will be sent to the user in email to their primary SMTP address (alias) that is set for the user.
     

@@ -12,20 +12,20 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Познакомьтесь с действиями развертывания для получения микропрограммы, при необходимости обновите ее, назначение лицензий и настройка параметров для Скайп для рабочих телефонов online
-ms.openlocfilehash: 9bc2a4754560b6d6caaed349377039c0b257936e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для телефонов Skype для бизнеса Online
+ms.openlocfilehash: 1e83c240b5406fbb3e7a247200d2b38d74ba8ef5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230438"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298011"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Развертывание телефонов для приложения Skype для бизнеса Online
 
@@ -96,7 +96,7 @@ ms.locfileid: "32230438"
 
 To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
-Можно найти дополнительные сведения о вызове планы, прочитав статью [телефонной системой и вызов планов](/microsoftteams/calling-plan-landing-page)
+Дополнительные сведения о тарифных планах можно найти в статье о тарифах на [телефонную систему и планы звонков](/microsoftteams/calling-plan-landing-page)
   
 - **Варианты входа**, доступные пользователям Online, перечислены ниже.
     
@@ -184,7 +184,7 @@ To enable users to successfully sign in to a Skype for Business Online phone and
     
 - **Блокировка телефона**. Это новая функция, используемая для защиты сертифицированных телефонов Skype для бизнеса. Если она включена, после успешной проверки подлинности пользователю предлагается создать ПИН-код. Созданный ПИН-код используется для блокировки телефона по истечении установленного времени ожидания в режиме простоя. Кроме того, блокировка телефона может осуществляться пользователями вручную или синхронно с блокировкой ПК с помощью функции сопряжения с телефоном. Если ПИН-код для блокировки телефона неверно введен несколько раз, осуществляется принудительный выход пользователя из системы телефона, либо телефон блокируется и может быть разблокирован только с помощью кода администратора (реализация зависит от партнера по программе IP-телефонии). ПИН-код пользователя должен содержать от 6 до 15 цифр.
     
-    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. Для получения дополнительных сведений о этих параметров в разделе [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) .
+    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. Подробнее об этих параметрах смотрите в разделе [Set-ксукфонеконфигуратион](https://technet.microsoft.com/en-us/library/mt629497.aspx) .
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Шаг 7 (необязательно). Сопряжение устройств и ПО Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,24 +20,24 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Узнайте, как назначить лицензии Skype для бизнеса на телефонные системы, аудиоконференции, планы звонков и кредиты на связь. '
-ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226123"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301271"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Назначение лицензий Skype для бизнеса
 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> Дополнительные сведения об какие лицензий, которые необходимо купить и **как приобрести** их - в зависимости от Office 365 планирование - содержатся [Скайп для лицензирования дополнительный компонент Business](skype-for-business-and-microsoft-teams-add-on-licensing.md) так что пользователи получают аудиоконференции, обслуживание бесплатных номеров и возможность вызова телефонных номеров за пределами бизнеса.
+> Сведения о [лицензировании надстроек Skype для бизнеса](skype-for-business-and-microsoft-teams-add-on-licensing.md) и о том, какие лицензии нужно приобрести, и **о том, как их приобрести** (в зависимости от плана Office 365), чтобы пользователи могли получать голосовые конференции, бесплатные номера и возможность звонить на телефонные номера за пределами вашей компании.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Телефонные системы и планы звонков. Советы и сценарии по назначению лицензий
 
-Что нужно знать, прежде чем назначение аудиоконференции, телефонной системой и вызов планирование лицензий
+Что нужно знать перед назначением для голосовой конференции, лицензий телефонной системы и плана звонков
 
 - **При использовании локальных подключений ТСОП для пользователей в гибридных средах** необходимо назначить только лицензию на **телефонную систему**. Назначать план звонков **НЕ НУЖНО**.
 
@@ -108,7 +108,7 @@ This article gives you tips about assigning licenses to your users for features 
 |Телефонная система  <br/> |MCOEV  <br/> |
 |План международных звонков  <br/> |MCOPSTN2  <br/> |
 |План внутренних звонков  <br/> |MCOPSTN1  <br/> |
-|Кредиты на связь  <br/> |MCOPSTNC  <br/> |
+|Кредиты на связь  <br/> |МКОПСТНК  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Аудиоконференция. Советы и сценарии для назначения лицензий
 
@@ -185,7 +185,7 @@ foreach ($user in $users)
 
 ### <a name="what-you-need-to-know-before-assigning-communications-credits-licenses"></a>Что нужно знать перед назначением лицензий на кредиты на связь
 
-- **E5 корпоративных клиентов**: даже в том случае, если пользователи назначаются E5 корпоративных лицензий, все же рекомендуется назначить их **Кредитов Communications** лицензий.
+- **Клиенты**с корпоративным энергообщением: даже если вашим пользователям назначены лицензии на ресурсы в корпоративной среде, **** мы по-прежнему рекомендуем назначать им лицензии на передачу данных.
     
 - **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
@@ -193,7 +193,7 @@ foreach ($user in $users)
 
 The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
-### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Назначение лицензий кредитов коммуникаций в пакетном режиме
+### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Массовое Назначение лицензий на обмен данными
 
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
 

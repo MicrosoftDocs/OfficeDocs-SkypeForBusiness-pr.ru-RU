@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,28 +19,28 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
-description: В разделе проблемы в имена политик и что можно сделать для fix it для есть со специальными знаками.
-ms.openlocfilehash: 12d89c4956b2d076f7279506ccf32737d18d50e0
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Посмотрите, какие проблемы имеют специальные символы в именах политик и что можно сделать для их исправления.
+ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632236"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298604"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
-**Не удается создать или изменить политики (для обмена мгновенными сообщениями, собраний, и т.д.), у которых есть специального символа в поле имя в группами Майкрософт администратора центра обработки**. 
+**Вы не можете создавать и изменять политики (для сообщений, собраний и т. д.), у которых есть специальный символ в имени в центре администрирования Microsoft Teams**. 
 
-Если имя политики содержит специальные символы, вам будет ограничен в управлении эти политики в центре администрирования группами Майкрософт. **Таким образом, мы настоятельно рекомендуем, что имена политики не включать специальные символы**. 
+Если имя политики содержат специальные символы, вы будете ограничиваться управлением этими политиками в центре администрирования Microsoft Teams. Поэтому **мы настоятельно рекомендуем использовать в именах политик специальные символы**. 
 
-Имена политик, которые были созданы с помощью PowerShell для собраний и системы обмена сообщениями в группах может иметь специальные символы такие как @, #, $. Тем не менее если которых требуется внести изменения в политике в центре администрирования группами Майкрософт, не будут иметь возможность. 
+Имена политик, созданные с помощью PowerShell для собраний и обмена сообщениями в Teams, могут содержать специальные символы, такие как @, #, $. Тем не менее, если вы хотите внести изменения в политику в центре администрирования Microsoft Teams, вам не удастся. 
 
-Если у вас есть политики со специальными знаками, необходимо либо изменить политику, с помощью Windows PowerShell (всегда) или создать новую политику в центре администрирования группами Майкрософт с теми же настройками, как старая политика и назначьте его к той же группе пользователей.
+Если у вас есть политика со специальными символами, вам нужно либо изменить политику с помощью Windows PowerShell (бессрочно), либо создать новую политику в центре администрирования Microsoft Teams с теми же параметрами, что и у старой политики, и назначить ее той же группе пользователей.
 
-## <a name="to-remove-special-characters"></a>Для удаления специальных символов
+## <a name="to-remove-special-characters"></a>Удаление специальных знаков
 
-**Шаг 1 - удаленного подключения с помощью PowerShell.** 
- [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , если она еще не установлена.
+**Шаг 1: Создание удаленного подключения с помощью PowerShell.** 
+ [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , если вы еще не сделали этого.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -49,40 +49,40 @@ ms.locfileid: "33632236"
 ```
 
 
-**Шаг 2 — получить параметры для старой политики и записывать выходные данные.**
+**Шаг 2: получение параметров для старой политики и запись выходных данных.**
 
 > [!NOTE]
-> В этом примере — для политики [системы обмена сообщениями](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  Действия будут иметь одинаковые для других типов политики, но необходимо использовать правильный командлета. 
+> Этот пример предназначен для политики [обмена сообщениями](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  Эти шаги будут одинаковыми для других типов политик, но необходимо использовать правильный командлет. 
 
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
 
-**Шаг 3 — Создание новой политики.**
+**Шаг 3: создание новой политики.**
 
-Можно либо создать новую политику с тот же параметр, с помощью центра администрирования группами Майкрософт или PowerShell.
+Вы можете создать новую политику с тем же параметром, используя центр администрирования Microsoft Teams или PowerShell.
 
-Выполнение этого можно создать новую политику, но необходимо добавить правильные параметры, ознакомившись [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) и затем запустить его:
+При выполнении этой команды будет создана новая политика, но вам потребуется добавить правильные параметры, просмотрев параметр [Set-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , а затем запустить его:
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-**Шаг 4 - назначьте политику.**
+**Шаг 4: назначение политики.**
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Отображается, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) для получения дополнительных сведений о этот командлет.
+Дополнительные сведения об этом командлете: [Grant-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
 
-**Шаг 5 – удаление старой политики.**
+**Шаг 5 — Удаление старой политики.**
 
-Это приведет к удалению старая политика со специальными знаками.
+Старая политика будет удалена с использованием специальных символов.
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Отображается, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) для получения дополнительных сведений о этот командлет.
+Для получения дополнительных сведений о данном командлете, щелкните ссылку [Remove-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
-Если эта команда выполнена успешно, все готово. Приведенная выше команда возвращает ошибку, вызвано тем, что старая политика назначена пользователям, поэтому необходимо запустить для удаления всех для пользователей из политики:
+Если эта команда выполнена успешно, все готово. Если команда выше возвращает сообщение об ошибке, это связано с тем, что старая политика назначается пользователям, поэтому для удаления всех назначенных пользователей из политики необходимо выполнить указанные ниже действия.
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
@@ -91,11 +91,11 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 
 Windows PowerShell дает возможность управлять пользователями, предоставляя им права на определенные действия. С его помощью вы можете управлять Office 365, используя единый центр администрирования, который упростит выполнение ваших повседневных задач. Для начала работы с Windows PowerShell ознакомьтесь с приведенными ниже разделами.
     
-  - [Почему необходимо использовать Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Зачем использовать Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell имеет много преимуществ в скорости, простоты и повышения производительности по сравнению только с помощью центра администрирования Microsoft 365, например, когда выполняются изменения параметров для нескольких пользователей за один раз. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -104,6 +104,6 @@ Windows PowerShell дает возможность управлять польз
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > Модуль Windows PowerShell для Скайп для бизнеса в Интернет позволяет создавать удаленного сеанса Windows PowerShell, который подключается к Скайп для бизнеса в Интернет и рабочих групп Microsoft. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+    > Модуль Windows PowerShell для Skype для бизнеса Online позволяет создавать удаленные сеансы Windows PowerShell, которые подключаются к Skype для бизнеса Online и Microsoft Teams. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
 

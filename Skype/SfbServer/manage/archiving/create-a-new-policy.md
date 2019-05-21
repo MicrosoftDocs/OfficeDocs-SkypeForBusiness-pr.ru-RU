@@ -1,25 +1,25 @@
 ---
-title: Создание новой политики архивации в Скайп для Business Server
+title: Создание новой политики архивации в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Сводка: Узнайте, как создать новую политику архивации для Скайп Business Server.'
-ms.openlocfilehash: e01655c5d144dd558b545bcaeaaf6a09ca4fbba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о создании новой политики архивации для Skype для бизнеса Server.'
+ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885015"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299974"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Создание новой политики архивации в Скайп для Business Server
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Создание новой политики архивации в Skype для бизнеса Server
 
-**Сводка:** Узнайте, как создание новой политики архивации Скайп для Business Server.
+**Сводка:** Сведения о том, как создать новую политику архивации для Skype для бизнеса Server.
   
 Новые политики архивации можно создавать с помощью панели управления или командлетов Windows PowerShell.
   
@@ -29,7 +29,7 @@ ms.locfileid: "33885015"
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
     
 3. На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Политика архивации**.
     
@@ -52,11 +52,11 @@ ms.locfileid: "33885015"
 6. Щелкните **Исполнить**.
     
     > [!IMPORTANT]
-    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Дополнительные сведения см [Применить политики архивации для пользователей, Скайп для Business Server](apply-a-policy-to-users.md). 
+    > Параметры политики пользователя применяются только к тем пользователям и группам пользователей, к которым применяется политика. Подробнее смотрите в разделе [применение политики архивации для пользователей в Skype для бизнеса Server](apply-a-policy-to-users.md). 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Создание новой политики архивации с помощью Windows PowerShell
 
-Новые политики архивации также можно создавать с помощью командлета **New-CsArchivingPolicy** Windows PowerShell. Для получения дополнительных сведений см раздел справки для командлета [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
+Новые политики архивации также можно создавать с помощью командлета **New-CsArchivingPolicy** Windows PowerShell. Дополнительные сведения можно найти в разделе справки по командлету [New-ксарчивингполици](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Порядок создания новой политики архивации на уровне сайта
 
@@ -76,7 +76,7 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 
 ### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Порядок создания новой политики архивации, которая включает архивацию сеансов внутренней связи
 
-Так как никакие параметры (кроме обязательного параметра Identity) не были указаны в приведенных ранее командах, новые политики будут использовать значения по умолчанию для всех своих свойств. Чтобы создать политики, использующие другие значения свойств, просто включите соответствующий параметр и его значение. Например следующая команда создает политики архивации, который разрешает архивацией внутренних сеансы обмена мгновенными сообщениями: 
+Так как никакие параметры (кроме обязательного параметра Identity) не были указаны в приведенных ранее командах, новые политики будут использовать значения по умолчанию для всех своих свойств. Чтобы создать политики, использующие другие значения свойств, просто включите соответствующий параметр и его значение. Например, следующая команда создает политику архивации, позволяющую выполнять архивирование внутренних сеансов обмена мгновенными сообщениями. 
   
 ```
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True

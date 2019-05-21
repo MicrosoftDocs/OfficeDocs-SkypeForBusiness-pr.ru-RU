@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Сингапур.
-ms.openlocfilehash: 85d925879930fcf6f32c264d4783b4660ca9db2b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сингапур.
+ms.openlocfilehash: c320a1e0f05d206f53bf1f1cd325c46e69ed11a3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222029"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299479"
 ---
 # <a name="availability-in-singapore"></a>Доступность в Сингапуре
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Вот служб Office 365 для Скайп для бизнеса и группами Майкрософт для Сингапур.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сингапур.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, какая информация автоматически передается пользователям по электронной почте при изменении их настроек конференц-связи с телефонным подключением в Microsoft Teams. '
-ms.openlocfilehash: 67e4945095b9ed7e69632741e04b4ac384741feb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d05fed1210e1060800f51b5ff8aed211e5bae66
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245120"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298908"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "32245120"
 
 - **Им назначена лицензия аудиоконференций, или поставщик услуг аудиоконференций изменен на Майкрософт.**
 
-     Это сообщение содержит идентификатор конференции, телефонный номер конференц-связи по умолчанию для собраний, ПИН-код аудиоконференций для пользователя, а также инструкции и ссылку для использования средства обновления собраний Skype для бизнеса Online, которое применяется для обновления существующих собраний пользователя. В разделе [Назначение групп Майкрософт лицензий](assign-teams-licenses.md) или [Назначить Microsoft в качестве поставщика аудиоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     Это сообщение содержит идентификатор конференции, телефонный номер конференц-связи по умолчанию для собраний, ПИН-код аудиоконференций для пользователя, а также инструкции и ссылку для использования средства обновления собраний Skype для бизнеса Online, которое применяется для обновления существующих собраний пользователя. В разделе [Назначение лицензий Microsoft Teams](assign-teams-licenses.md) или [назначение Microsoft в качестве поставщика](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)видеоконференций.
 
     > [!NOTE]
     > Если в вашей организации разрешены динамические идентификаторы конференции, все запланированные пользователем собрания будут иметь уникальные идентификаторы конференции. Вы можете настроить [динамические идентификаторы аудиоконференций в своей организации](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
@@ -44,7 +44,7 @@ ms.locfileid: "32245120"
 
      ![Проверка лицензии Skype для бизнеса](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Для получения дополнительных сведений о лицензировании см. [: Лицензирование дополнительный компонент группами Майкрософт](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    Дополнительные сведения о лицензировании можно найти в разделе [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **Изменяется идентификатор конференции и телефонный номер конференции по умолчанию для пользователя.**
 
@@ -77,7 +77,7 @@ ms.locfileid: "32245120"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Изменение отправляемых сообщений электронной почты
 
-Можно внести изменения в сообщение электронной почты, которое отправляется пользователям автоматически. По умолчанию отправителя сообщения электронной почты будут из Office 365, но можно изменить отображаемое имя, с помощью Windows PowerShell. Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Вы можете вносить изменения в сообщение электронной почты, которое автоматически отправляется пользователям. По умолчанию отправитель сообщений электронной почты будет находиться в Office 365, но вы можете изменить отображаемое имя с помощью Windows PowerShell. Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Что делать, если отправлять сообщение не требуется?
 
@@ -85,7 +85,7 @@ ms.locfileid: "32245120"
 
 По умолчанию сообщения отправляются пользователям, но вы можете отключить сообщения по аудиоконференциям с помощью Microsoft Teams или Windows PowerShell. 
 
-![команды логотип 30x30.png](media/teams-logo-30x30.png) **с помощью центра администрирования группами Майкрософт**
+![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 
