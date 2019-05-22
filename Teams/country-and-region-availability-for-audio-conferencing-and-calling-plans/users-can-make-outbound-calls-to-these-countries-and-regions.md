@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: В этой статье содержатся все страны или регионы, на которые пользователи могут помещать исходящие звонки, если у них есть план звонков.
-ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab24f12098a01fbce9e31cb83819f1c10dc28389
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281903"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330870"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Страны и регионы, в которые пользователи могут совершать исходящие звонки
 
@@ -92,7 +92,7 @@ ms.locfileid: "34281903"
 
 ## <a name="related-topics"></a>См. также:
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

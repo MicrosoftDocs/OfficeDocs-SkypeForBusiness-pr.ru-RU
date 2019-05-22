@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Сведения о том, какие автоматические ассистенты находятся в облаке и как их использовать.
-ms.openlocfilehash: 3dc96398cb2aa9ab3eafcc6e5d38ad2feb44b45b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299043"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330358"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Что представляют собой облачные автосекретари?
 
@@ -236,7 +236,7 @@ ms.locfileid: "34299043"
 
 Вы можете назначить для автосекретаря номер службы плана вызовов (Майкрософт) или прямой маршрутный номер. Дополнительные сведения вы видите в разделе [планирование Direct Routing](direct-routing-plan.md) .
 
-Чтобы назначить номер Услуги, вам нужно получить или переключить существующие платные или бесплатные номера сервисных услуг. После получения платных и бесплатных телефонных номеров для обслуживания они будут отображаться в <!-- validate nav path --> **** > **** > **Номера телефонов**в центре администрирования Skype для бизнеса, а также **числовой тип номера** будут указаны в списке **бесплатных услуг**. Чтобы получить доступ к вашим услугам, ознакомьтесь со статьей [получение телефонных номеров служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) или, если вы хотите передать и существующий номер Услуги, в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
+Чтобы назначить номер Услуги, вам нужно получить или переключить существующие платные или бесплатные номера сервисных услуг. После получения платных и бесплатных телефонных номеров для обслуживания они будут отображаться в <!-- validate nav path --> **** > **** > **Номера телефонов**в центре администрирования Skype для бизнеса, а также **числовой тип номера** будут указаны в списке **бесплатных услуг**. Чтобы получить доступ к вашим услугам, ознакомьтесь со статьей [получение телефонных номеров служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers) или, если вы хотите передать и существующий номер Услуги, в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > За пределами США нельзя использовать центр администрирования Microsoft Teams для получения номеров служб. Чтобы узнать, как это сделать, перейдите в раздел [Управление номерами телефонов для Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
@@ -245,7 +245,7 @@ ms.locfileid: "34299043"
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

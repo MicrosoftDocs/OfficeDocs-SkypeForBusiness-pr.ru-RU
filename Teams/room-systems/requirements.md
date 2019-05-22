@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
-ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 364ed7ee3027e05753dee65a896f50024e7572b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78fc934783c92909d50076eb0d4848ea919b205b
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305478"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329718"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -57,10 +56,14 @@ ms.locfileid: "34305478"
 
 **Поддерживаемые консоли**
 
-|консоль;|Воздуш|ДОСТУПНОЙ|Диск|
-|:-----|:-----|:-----|:-----|
-|[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 Гбайт  |ГБ  |  
-|[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 Гбайт  |ГБ  |  
+|консоль;|Воздуш|ДОСТУПНОЙ|Диск|Версия встроенного по|
+|:-----|:-----|:-----|:-----|:----|
+|[Крестрон Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 Гбайт |ГБ|1.0.16.490|
+|[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 Гбайт  |ГБ  | |
+|[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 Гбайт  |ГБ  |  |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 Гбайт|ГБ|Аудио-92.10.0.15</br>Видео-92.10.0.15|
+|
+ 
 
 - Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний. 
 
@@ -86,6 +89,7 @@ ms.locfileid: "34305478"
 |[Polycom Реалпресенце тройкой](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
 |[Polycom Еаглие IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
 |[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
+|[Директор Polycom Еагле глаз II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Сеннхеисер SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |

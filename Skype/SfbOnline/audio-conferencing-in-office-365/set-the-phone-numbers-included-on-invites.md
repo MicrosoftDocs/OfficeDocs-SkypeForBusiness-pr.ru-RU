@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53a733bf7874c507416c4cc54820cbebb4fbc844
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306313"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329543"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Настройка номеров телефонов, включенных в приглашения в Skype для бизнеса Online
 
@@ -74,7 +74,7 @@ ms.locfileid: "34306313"
    - **Корпорация Microsoft — это поставщик**: для выбора номеров по умолчанию для пользователя необходимо использовать **платный номер по** умолчанию и список **бесплатных номеров** по умолчанию.
     
      > [!NOTE]
-     > Прежде чем мост конференц-связи может быть задан как бесплатный номер по умолчанию для пользователей, ему следует назначить хотя бы один бесплатный номер. Чтобы получить бесплатный номер, ознакомьтесь со статьей [Получение номеров телефонов служб для Skype для бизнеса](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > Прежде чем мост конференц-связи может быть задан как бесплатный номер по умолчанию для пользователей, ему следует назначить хотя бы один бесплатный номер. Чтобы получить бесплатный номер, ознакомьтесь со статьей [Получение номеров телефонов служб для Skype для бизнеса](/microsoftteams/getting-service-phone-numbers). 
   
    - **Сторонним поставщиком является поставщик**: с помощью полей **платный номер** и бесплатный **номер** для ввода номеров для пользователя.
 

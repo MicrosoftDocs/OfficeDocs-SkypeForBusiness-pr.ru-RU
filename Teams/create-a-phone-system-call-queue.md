@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: В этой статье объясняется, как настроить телефонную систему для очередей облачных вызовов, чтобы предоставить вам свое приветствие, музыку на удержании и перенаправлять звонки на агенты в списках рассылки и группах безопасности. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 63dc71d6fad4fa82e1a335b20612e60c3b56ac91
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2dd984ef90ecbf710070c5746389e1c1806b104a
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281949"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330910"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -107,7 +107,7 @@ ms.locfileid: "34281949"
 
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Шаг 2. Получение или перенос платных или бесплатных номеров телефонов служб
 
-Перед созданием и настройкой очередей вызовов необходимо получить или выполнить передачу существующих платных или бесплатных обслуживаемых номеров. После получения платных и бесплатных телефонных номеров в >  **центре администрирования Microsoft Teams**они будут отображаться в номерах**голосовых** > **телефонов**, а также в списке **тип номера** будет указан как **услуга бесплатно**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
+Перед созданием и настройкой очередей вызовов необходимо получить или выполнить передачу существующих платных или бесплатных обслуживаемых номеров. После получения платных и бесплатных телефонных номеров в >  **центре администрирования Microsoft Teams**они будут отображаться в номерах**голосовых** > **телефонов**, а также в списке **тип номера** будет указан как **услуга бесплатно**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > За пределами США нельзя использовать центр администрирования Microsoft Teams для получения номеров служб. Чтобы узнать, как сделать это из за пределами США, перейдите в раздел [Управление телефонными номерами в Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
@@ -142,7 +142,7 @@ ms.locfileid: "34281949"
 
 **Добавление учетных записей** Выберите учетную запись ресурса. Учетная запись ресурса может быть связана со службой Service платный или бесплатный номер в очереди звонков, но для каждой очереди звонков требуется соответствующая учетная запись ресурса.
 
-Если в списке нет списка, необходимо получить номера служб и назначить их учетной записи ресурса, прежде чем можно будет создать эту очередь звонков, как описано выше. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Вам потребуется создать учетную запись ресурса, как описано в разделе [Управление учетными записями ресурсов в Teams](manage-resource-accounts.md) , если вы хотите, чтобы в очередь звонков сопоставлены номера телефонов.
+Если в списке нет списка, необходимо получить номера служб и назначить их учетной записи ресурса, прежде чем можно будет создать эту очередь звонков, как описано выше. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md). Вам потребуется создать учетную запись ресурса, как описано в разделе [Управление учетными записями ресурсов в Teams](manage-resource-accounts.md) , если вы хотите, чтобы в очередь звонков сопоставлены номера телефонов.
 
 > [!NOTE]
 > Если вы хотите или вам нужно назначить **домен** , назначая его учетной записи ресурса для очереди звонков.
@@ -321,7 +321,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Получение номеров телефонов служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Получение номеров телефонов служб](getting-service-phone-numbers.md)
 
 [Доступность аудиоконференций и планов звонков в различных странах и регионах](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

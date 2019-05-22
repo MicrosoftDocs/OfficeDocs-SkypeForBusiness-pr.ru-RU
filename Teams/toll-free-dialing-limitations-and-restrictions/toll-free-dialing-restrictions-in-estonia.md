@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 33064b7528b8b379246c39c437e2f32461c4209e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0b808b7048e7911f10cb7162d793c2a94a652510
+ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300707"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34335065"
 ---
 # <a name="toll-free-dialing-restrictions-in-estonia"></a>Ограничения набора бесплатных номеров в Эстонии
 
@@ -50,7 +50,6 @@ ms.locfileid: "34300707"
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
-
+Как [получить номера служебных телефонов для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers) )
   
  

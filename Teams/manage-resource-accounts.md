@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Сведения об управлении учетными записями ресурсов в Microsoft Teams
-ms.openlocfilehash: d8f3e2893962524c09340ef80ccf13376733d4d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2c7b03f79a29b89c94266359f21571b1994e82a
+ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291510"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34334929"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "34291510"
 
 1. Перенесите или получите платный или бесплатный номер Услуги. Номер не может быть назначен другим услугам голосовой почты или учетным записям ресурсов.
 
-   Перед тем как назначить номер телефона учетной записи ресурса, вам нужно будет получить или перенести на него номера бесплатных или платных услуг. После получения платных и бесплатных телефонных номеров в >  **центре администрирования Microsoft Teams**они будут отображаться в номерах**голосовых** > **телефонов**, а также в списке **тип номера** будет указан как **услуга бесплатно**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
+   Перед тем как назначить номер телефона учетной записи ресурса, вам нужно будет получить или перенести на него номера бесплатных или платных услуг. После получения платных и бесплатных телефонных номеров в >  **центре администрирования Microsoft Teams**они будут отображаться в номерах**голосовых** > **телефонов**, а также в списке **тип номера** будет указан как **услуга бесплатно**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
 
 2. Купите лицензию на телефонную систему и план звонков. Обнаружить  
    - [Office 365 корпоративный E1 и E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
@@ -97,7 +97,7 @@ ms.locfileid: "34291510"
 
 Назначьте прямой номер маршрутизации с помощью следующего командлета: 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber tel:+14250000000
+Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
 
 > [!IMPORTANT]

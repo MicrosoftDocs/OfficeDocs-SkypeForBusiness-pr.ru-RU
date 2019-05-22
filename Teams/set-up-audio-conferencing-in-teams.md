@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: 8702a41546eede73779247eb6816704e60225087
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 41a2d4288185d75bfed4d9882775ba054e2b3ccd
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305263"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329734"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
@@ -63,7 +63,7 @@ ms.locfileid: "34305263"
 
 Для аудиоконференции нельзя использовать номера телефонов для пользователей. Необходимо получить служебные номера. Вы можете получить либо платные, либо бесплатные служебные номера для мостов аудиоконференций. Существует три способа получения платных и бесплатных служебных номеров. 
   
-- **Используйте центр администрирования Microsoft Teams**. В некоторых странах и регионах вы можете получать номера служб для мостов конференц-связи с помощью центра администрирования Microsoft Teams. Смотрите раздел Знакомство с [телефонными номерами служб](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+- **Используйте центр администрирования Microsoft Teams**. В некоторых странах и регионах вы можете получать номера служб для мостов конференц-связи с помощью центра администрирования Microsoft Teams. Смотрите раздел Знакомство с [телефонными номерами служб](/microsoftteams/getting-service-phone-numbers).
     
 - **Перенос существующих номеров служб**. Перенос существующих номеров из текущего поставщика услуг или оператора телефонного номера в Office 365. Для получения дополнительных сведений о том, как это сделать, см. статью [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
   
