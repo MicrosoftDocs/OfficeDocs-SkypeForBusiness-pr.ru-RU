@@ -1,12 +1,12 @@
 ---
-title: Обучающие материалы для групп Майкрософт | Поддержка ИТ проблемы администрирования
+title: Обучение работе с Microsoft Teams | Она поддерживает проблемы администратора
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Подготовка ИТ-специалистам в вашей организации для развертывания и обслуживания групп Майкрософт.
+description: Подготовьте ИТ – специалистов в своей организации для развертывания и поддержки Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,38 +15,38 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0334b13b79348203666c81e597af7b6f00a6190
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9864d05be6fe316d04991aba653f36ce047c5c1
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906850"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344520"
 ---
-<span data-ttu-id="ff2ae-103">![Этапы обновления пути с акцентом на стадии технической готовности] (media/upgrade-banner-tech-readiness.png "Этапы обновления пути с акцентом на стадии технической готовности")</span><span class="sxs-lookup"><span data-stu-id="ff2ae-103">![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")</span></span>
+<span data-ttu-id="9050e-103">![Этапы путешествия по обновлению с акцентом на этапе технической подготовки] (media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")</span><span class="sxs-lookup"><span data-stu-id="9050e-103">![Stages of the upgrade journey, with emphasis on the Technical Readiness stage](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on the Technical Readiness stage")</span></span>
 
-<span data-ttu-id="ff2ae-104">В этой статье является частью технической готовности этапа обновления пути, действия, которые выполнить параллельно с рабочей области готовность пользователей.</span><span class="sxs-lookup"><span data-stu-id="ff2ae-104">This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage.</span></span> <span data-ttu-id="ff2ae-105">Прежде чем продолжить, убедитесь, что вы выполните эти действия из предыдущих этапов:</span><span class="sxs-lookup"><span data-stu-id="ff2ae-105">Before proceeding, confirm that you’ve completed these activities from previous stages:</span></span>
+<span data-ttu-id="9050e-104">Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей.</span><span class="sxs-lookup"><span data-stu-id="9050e-104">This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage.</span></span> <span data-ttu-id="9050e-105">Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.</span><span class="sxs-lookup"><span data-stu-id="9050e-105">Before proceeding, confirm that you’ve completed these activities from previous stages:</span></span>
 
-- [<span data-ttu-id="ff2ae-106">Прикреплено другие заинтересованные стороны проекта</span><span class="sxs-lookup"><span data-stu-id="ff2ae-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="ff2ae-107">Определенные области проекта</span><span class="sxs-lookup"><span data-stu-id="ff2ae-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="ff2ae-108">Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп</span><span class="sxs-lookup"><span data-stu-id="ff2ae-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="ff2ae-109">Выбранные обновления пути</span><span class="sxs-lookup"><span data-stu-id="ff2ae-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="9050e-106">Вовлеченные заинтересованные лица в проект</span><span class="sxs-lookup"><span data-stu-id="9050e-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="9050e-107">Определение области охвата проекта</span><span class="sxs-lookup"><span data-stu-id="9050e-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="9050e-108">Сосуществование и взаимодействие Skype для бизнеса и рабочих групп</span><span class="sxs-lookup"><span data-stu-id="9050e-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="9050e-109">Выбрано путешествие с обновлением</span><span class="sxs-lookup"><span data-stu-id="9050e-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a><span data-ttu-id="ff2ae-110">Подготовка ИТ-специалистам для групп Майкрософт</span><span class="sxs-lookup"><span data-stu-id="ff2ae-110">Prepare your IT staff for Microsoft Teams</span></span>
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a><span data-ttu-id="9050e-110">Подготовка ИТ – IT для Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9050e-110">Prepare your IT staff for Microsoft Teams</span></span>
 
-<span data-ttu-id="ff2ae-111">Администраторы клиента Office 365, технические интересы и службу поддержки, ответственность за управление высокое качество пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="ff2ae-111">Your Office 365 tenant admins, technical leads, and support desk are accountable for driving a high-quality user experience.</span></span> <span data-ttu-id="ff2ae-112">Сюда входят проверка того, что сеть готова для поддержки рабочих групп, Настройка групп для пользователей и возможности для эффективного решения проблем, которые могут возникнуть.</span><span class="sxs-lookup"><span data-stu-id="ff2ae-112">This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.</span></span>
+<span data-ttu-id="9050e-111">Ваши Администраторы клиентов Office 365, технические интересы и служба поддержки являются учетными записями для обеспечения высокого качества взаимодействия с пользователем.</span><span class="sxs-lookup"><span data-stu-id="9050e-111">Your Office 365 tenant admins, technical leads, and support desk are accountable for driving a high-quality user experience.</span></span> <span data-ttu-id="9050e-112">Сюда входит проверка готовности сети к поддержке Teams, Настройка групп для пользователей и возможность эффективного устранения проблем и устранение неполадок, которые могут возникнуть.</span><span class="sxs-lookup"><span data-stu-id="9050e-112">This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.</span></span>
 
-<span data-ttu-id="ff2ae-113">Совместное использование доступны следующие материалы с сотрудниками вашей ИТ и убедитесь, что они готовы для поддержки пользователей перед началом обновления до групп:</span><span class="sxs-lookup"><span data-stu-id="ff2ae-113">Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:</span></span>
+<span data-ttu-id="9050e-113">Поделитесь следующими ресурсами с сотрудниками отдела ИТ и убедитесь, что они готовы к поддержке пользователям до начала обновления до Teams.</span><span class="sxs-lookup"><span data-stu-id="9050e-113">Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:</span></span>
 
-- [<span data-ttu-id="ff2ae-114">Обучение администратора для работы с Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff2ae-114">Admin training for Microsoft Teams</span></span>](itadmin-readiness.md)
-- [<span data-ttu-id="ff2ae-115">Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов</span><span class="sxs-lookup"><span data-stu-id="ff2ae-115">Contact support for business products - Admin Help</span></span>](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [<span data-ttu-id="ff2ae-116">Устранение проблем связи с клиентом Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff2ae-116">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>](connectivity-issues.md)
-- [<span data-ttu-id="ff2ae-117">Использование файлов журналов для устранения неполадок в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff2ae-117">Use log files in troubleshooting Microsoft Teams</span></span>](log-files.md)
+- [<span data-ttu-id="9050e-114">Обучение администратора для работы с Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9050e-114">Admin training for Microsoft Teams</span></span>](itadmin-readiness.md)
+- [<span data-ttu-id="9050e-115">Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов</span><span class="sxs-lookup"><span data-stu-id="9050e-115">Contact support for business products - Admin Help</span></span>](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [<span data-ttu-id="9050e-116">Устранение проблем связи с клиентом Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9050e-116">Troubleshoot connectivity issues with the Microsoft Teams client</span></span>](connectivity-issues.md)
+- [<span data-ttu-id="9050e-117">Использование файлов журналов для устранения неполадок в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="9050e-117">Use log files in troubleshooting Microsoft Teams</span></span>](log-files.md)
 
-[//]: # (Попросите Debbie рассмотреть:)
+[//]: # (Спросить Деббие на скрутинизе:)
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/><span data-ttu-id="ff2ae-119">Точки принятия решений</span><span class="sxs-lookup"><span data-stu-id="ff2ae-119">Decision points</span></span>|<ul><li><span data-ttu-id="ff2ae-120">Задействованных все персоналу службы поддержки, которые могут принимать участие в развертывание и поддержка групп?</span><span class="sxs-lookup"><span data-stu-id="ff2ae-120">Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</span></span></li><li><span data-ttu-id="ff2ae-121">Вы разработали учебный план для дополнительного персонала входящая мере выполнения обновления?</span><span class="sxs-lookup"><span data-stu-id="ff2ae-121">Have you developed a training plan for onboarding additional staff as your upgrade progresses?</span></span></li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/><span data-ttu-id="ff2ae-122">Следующие шаги</span><span class="sxs-lookup"><span data-stu-id="ff2ae-122">Next steps</span></span>|<ul><li><span data-ttu-id="ff2ae-123">Убедитесь, что сведения, необходимые ИТ-специалистов.</span><span class="sxs-lookup"><span data-stu-id="ff2ae-123">Verify that IT staff has the information they need.</span></span></li><li><span data-ttu-id="ff2ae-124">Новые возможности будут выпущены пересмотреть параметры планов обучения и подготовки.</span><span class="sxs-lookup"><span data-stu-id="ff2ae-124">Revisit your training and preparation plans as new features are released.</span></span></li></ul>|
+| ![Значок, который описывает точки принятия решений](media/audio_conferencing_image7.png) <br/><span data-ttu-id="9050e-120">Точки принятия решений</span><span class="sxs-lookup"><span data-stu-id="9050e-120">Decision points</span></span>|<ul><li><span data-ttu-id="9050e-121">Вы выбрали всех сотрудников службы поддержки, которые могут быть вовлечены в развертывание и поддержку групп?</span><span class="sxs-lookup"><span data-stu-id="9050e-121">Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</span></span></li><li><span data-ttu-id="9050e-122">Вы разработали план обучения для подготовки дополнительного персонала к обновлению?</span><span class="sxs-lookup"><span data-stu-id="9050e-122">Have you developed a training plan for onboarding additional staff as your upgrade progresses?</span></span></li></ul> |
+| ![Значок, который описывает дальнейшие действия](media/audio_conferencing_image9.png)<br/><span data-ttu-id="9050e-124">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="9050e-124">Next steps</span></span>|<ul><li><span data-ttu-id="9050e-125">Убедитесь в том, что у ИТ – сотрудников есть нужные сведения.</span><span class="sxs-lookup"><span data-stu-id="9050e-125">Verify that IT staff has the information they need.</span></span></li><li><span data-ttu-id="9050e-126">Пересмотрите планы обучения и подготовки по мере выпуска новых функций.</span><span class="sxs-lookup"><span data-stu-id="9050e-126">Revisit your training and preparation plans as new features are released.</span></span></li></ul>|
 
-<span data-ttu-id="ff2ae-125">После подготовки ИТ-специалистам для групп убедитесь, что среды соответствует всех [необходимых компонентов](upgrade-plan-journey-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="ff2ae-125">After you’ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).</span></span>
+<span data-ttu-id="9050e-127">После подготовки ИТ – специалистов для Teams убедитесь, что ваша среда соответствует всем требованиям [](upgrade-plan-journey-prerequisites.md).</span><span class="sxs-lookup"><span data-stu-id="9050e-127">After you’ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).</span></span>
