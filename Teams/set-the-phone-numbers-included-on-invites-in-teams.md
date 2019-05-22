@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Пошаговые инструкции по созданию номера телефона по умолчанию для вызывающих абонентов для присоединения к собранию Microsoft Teams. '
-ms.openlocfilehash: 334c35a356e73f20a5344ba09c88aac0bde5d83b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 92f5d2d0773444e3e167ed4c4e944ecd0eeb95a1
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305327"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344302"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -49,7 +49,7 @@ ms.locfileid: "34305327"
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Установка или изменение номера телефона для конференц-связи по умолчанию для организатора собрания или пользователя
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.
 

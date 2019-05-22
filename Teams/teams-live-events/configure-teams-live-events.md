@@ -12,73 +12,73 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Узнайте, как управлять параметрами для групп live события, которые хранятся в вашей организации.
+description: Сведения о том, как управлять параметрами для событий Teams, которые хранятся в Организации.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 74eafcd6b16fe6d4c4b4f82c3b3472879ba506eb
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204753"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344180"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
-Используйте параметры групп событий в реальном времени для настройки параметров для live события, которые хранятся в вашей организации. Можно настроить URL-адрес поддержки и настроить распределение видео стороннего поставщика. Эти параметры применяются ко всем событиям live, которые созданы в вашей организации. 
+Используйте параметры Teams Live Events, чтобы настроить параметры для событий Live Events, которые хранятся в Организации. Вы можете настроить URL-адрес службы поддержки и настроить стороннего поставщика услуг для рассылки видео. Эти параметры применяются ко всем динамическим событиям, созданным в Организации. 
 
-Можно легко управлять эти параметры в центре администрирования группами Майкрософт. В левой области переходов, перейдите к **собраниям** > **Параметры событий в реальном времени**. 
+Эти параметры можно легко настроить в центре администрирования Microsoft Teams. На панели навигации слева перейдите к параметрам **собраний** > **Live Events**. 
 
-![Live — событие settings.png] (../media/teams-live-events-settings.png "Снимок экрана команды live настройки событий, которые можно настроить в центре администрирования группами Майкрософт") 
+![Ливе-Евент-Сеттингс. png] (../media/teams-live-events-settings.png "Снимок экрана с параметрами команд Live Events, которые можно настроить в центре администрирования Microsoft Teams") 
 
-## <a name="set-up-event-support-url"></a>Настройка URL-адрес поддержки событий
+## <a name="set-up-event-support-url"></a>Настройка URL-адреса службы поддержки событий
 
-Этот URL-адрес отображается в live участников события. Добавление поддержки URL-адрес для своей организации для предоставления возможности обратиться в службу поддержки во время события live участников.
+Этот URL-адрес отображается участникам интерактивных событий. Добавьте URL-адрес поддержки своей организации, чтобы предоставить участникам возможность обратиться в службу поддержки во время события Live.
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![команды логотип 30x30.png](../media/teams-logo-30x30.png) С помощью центра администрирования группами Майкрософт
+### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Значок, показывающий логотип Microsoft Teams](../media/teams-logo-30x30.png) Использование центра администрирования Microsoft Teams
 
-1. В левой области переходов, перейдите к **собраниям** > **Параметры Live событий**.
-2. В группе **Поддержки URL-адрес**введите URL-адрес поддержки вашей организации. 
+1. На панели навигации слева перейдите к параметрам **собраний** > **Live Event**.
+2. В разделе **URL-адрес службы поддержки**введите URL-адрес своей организации. 
 
-    ![Параметр URL-адреса поддержки для события в центре администрирования группами Майкрософт] (../media/teams-live-events-settings-supporturl.png "Снимок экрана поддерживает URL-адрес, задание для групп событий в реальном времени")
+    ![Параметр URL-адреса поддержки для событий Live в центре администрирования Microsoft Teams] (../media/teams-live-events-settings-supporturl.png "Снимок экрана с параметром \"URL-адрес поддержки\" для событий Teams в реальном времени")
 
-### <a name="using-windows-powershell"></a>С помощью Windows PowerShell
+### <a name="using-windows-powershell"></a>Использование Windows PowerShell
 Выполните следующее:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
-Для получения дополнительных сведений см [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
-## <a name="configure-a-third-party-video-distribution-provider"></a>Настройка распределение видео стороннего поставщика 
+Дополнительные сведения можно найти в разделе [Set-кстеамсмитингброадкастконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+## <a name="configure-a-third-party-video-distribution-provider"></a>Настройка стороннего поставщика услуг распространения видео 
 
-Если приобретается и настройка решения сети (SDN) определенного программного обеспечения или корпоративной сети (eCDN) решение через партнером Майкрософт и видео доставки настройте поставщика для событий в реальном времени в группах. 
+Если вы приобрели и настроили решение для передачи данных по сети (SDN) или корпоративную сеть доставки содержимого (Екдн) через партнера по доставке Microsoft Video, настройте поставщика для событий Live Events в Teams. 
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![команды логотип 30x30.png](../media/teams-logo-30x30.png) С помощью центра администрирования группами Майкрософт
+### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Значок, показывающий логотип Microsoft Teams](../media/teams-logo-30x30.png) Использование центра администрирования Microsoft Teams
 
-1. В левой области переходов, перейдите к **собраниям** > **Параметры Live событий**.
-2. В разделе **сторонние поставщики распределение видео**установите следующие параметры. 
+1. На панели навигации слева перейдите к параметрам **собраний** > **Live Event**.
+2. В разделе **сторонние поставщики средств распространения видео**выполните указанные ниже действия. 
 
-    ![Параметры поставщика сторонних производителей распределение видео в центре администрирования группами Майкрософт] (../media/teams-live-events-settings-distribution-provider.png "Снимок экрана параметров поставщика распределение видео сторонних производителей для события")
+    ![Параметры стороннего поставщика услуг распространения видео в центре администрирования Microsoft Teams] (../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры стороннего поставщика услуг распространения видео для событий Live")
 
-    - **Использование рассылки стороннего поставщика** Отключите этот вход в систему включить распределение видео стороннего поставщика.
-    - **Имя поставщика SDN** Выберите поставщика, который вы используете.
-    - **Ключ многократной установки поставщика** Введите код лицензии, полученный из контактов поставщика.
-    - **URL-адрес шаблона SDN API** Введите URL-адрес шаблона API, полученный от поставщика контакт.
+    - **Использование стороннего поставщика услуг дистрибуции** Включите этот параметр, чтобы включить стороннего поставщика услуг для рассылки видео.
+    - **Имя поставщика Sdn** Выберите поставщика, который вы используете.
+    - **Лицензионный ключ поставщика** Введите идентификатор лицензии, полученный от контакта поставщика.
+    - **URL-адрес шаблона API Sdn** Введите URL-адрес шаблона API, полученный от контакта поставщика.
 
-### <a name="using-windows-powershell"></a>С помощью Windows PowerShell
-Получение маркера лицензии идентификатор или интерфейса API и шаблона API из контактов поставщика и затем выполните одно из следующих действий в зависимости от поставщика, который вы используете:
+### <a name="using-windows-powershell"></a>Использование Windows PowerShell
+Получите идентификатор лицензии или токен API и шаблон API из контакта поставщика, а затем выполните одно из указанных ниже действий в зависимости от используемого поставщика.
 
 **Куст** 
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
-**Kollective** 
+**Коллективе** 
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
-Для получения дополнительных сведений см [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Дополнительные сведения можно найти в разделе [Set-кстеамсмитингброадкастконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]
-> Если планируется создание live событий, использующих внешний кодировщики, необходимо также [настроить поставщика eCDN с Microsoft потока](https://docs.microsoft.com/stream/network-caching). 
+> Если вы планируете создавать события Live, использующие внешние кодировщики, вам также потребуется [настроить поставщик екдн с помощью Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)

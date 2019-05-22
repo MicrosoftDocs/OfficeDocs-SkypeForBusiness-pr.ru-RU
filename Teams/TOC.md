@@ -140,7 +140,7 @@
 #### [Автоматическая отправка пользователям писем при смене настроек](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Включение и отключение отправки писем при смене настроек аудиоконференций](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Отключение бесплатных номеров для отдельных пользователей](disabling-toll-free-numbers-for-specific-teams-users.md)
-#### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП](outbound-calling-restriction-policies.md)
 #### [Просмотр и сброс идентификатора конференции, назначенного пользователю](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
@@ -285,7 +285,7 @@
 #### [Изменение языка по умолчанию для голосовой почты](change-the-default-language-for-greetings-and-emails.md)
 #### [Языки для приветствий и сообщений голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 ### Идентификатор звонящего
-#### [Как можно использовать идентификатор звонящего в организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Как можно использовать идентификатор звонящего в организации](how-can-caller-id-be-used-in-your-organization.md)
 #### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Автосекретари и очереди вызовов 
 #### [Что представляют собой облачные автосекретари](what-are-phone-system-auto-attendants.md)
@@ -336,7 +336,7 @@
 ### [Получение номеров телефонов для пользователей](getting-phone-numbers-for-your-users.md)
 ### [Предоставляемое количество номеров телефонов](how-many-phone-numbers-can-you-get.md)
 ### [Назначение, изменение и удаление номера телефона пользователя](assign-change-or-remove-a-phone-number-for-a-user.md)
-### [Получение номеров телефонов служб](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Получение номеров телефонов служб](getting-service-phone-numbers.md)
 ### [Перенос телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md)
 ### [Общие вопросы по передаче номеров](transferring-phone-numbers-common-questions.md)
 

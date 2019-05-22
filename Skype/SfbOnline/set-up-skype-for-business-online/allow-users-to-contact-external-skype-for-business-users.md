@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Узнайте, как настроить Skype для бизнеса, чтобы пользователи могли общаться с пользователями в другой организации, или разрешать им доступ к внешним контактам. '
-ms.openlocfilehash: 727077d87486a59b956720b52ca9e6f2cf388c07
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3656038efa660db0b63f382908f4de5a8b7172d4
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276190"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344563"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Разрешите пользователям связываться с внешними пользователями Skype для бизнеса
 
@@ -52,7 +52,7 @@ ms.locfileid: "34276190"
 
 Для этого вы должны иметь [разрешения администратора](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) в Office 365 в обеих организациях.
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **с помощью центра администрирования Teams**
+![Значок с логотипом](../images/teams-logo-30x30.png) Microsoft Teams **, в котором используется центр администрирования Teams**
   
 1. Войдите в систему с помощью учетной записи администратора Office 365. 
     

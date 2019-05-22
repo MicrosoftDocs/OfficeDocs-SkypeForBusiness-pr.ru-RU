@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о включении и отключении оповещений о подключении к собранию и выходе из него в Microsoft Teams. '
-ms.openlocfilehash: 6a72269ccc57275a740cbffc338d5921fed35121
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbf2ec391c35697fd7a3e7a273e82db03710bd7f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293889"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344512"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Включение и отключение оповещений о подключении к собраниям и выходе из них в Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "34293889"
   
 ## <a name="setting-meeting-join-options"></a>Настройка способов присоединения к собранию
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**. 
 

@@ -13,18 +13,17 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
 description: Рассматриваемые в этой статье требования имеют важное значение для успешной и долгосрочной работы всех функций Skype для бизнеса Online, настраиваемых в организации. Этот документ предназначен для пользователей, обладающих обширным техническим опытом. Но некоторые из вас не имеют таких глубоких знаний. Если вам нужна помощь в настройке Skype для бизнеса Online, прочтите эту статью, чтобы ознакомиться с моментами, которые необходимо учитывать. Здесь также выделяются моменты, которые нужно обсудить при работе с Microsoft FastTrack Center, отделами по работе с клиентами Майкрософт или с партнерами Майкрософт, чтобы выяснить, как выполнить эти требования.
-ms.openlocfilehash: 6aae90775aebd7384551d8e00dfe3d0dbe0c76fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297829"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344553"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Оптимизация сети для Skype для бизнеса Online
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: 67a542743c05c8042626d0bb0b52830e07305827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e99892ad42a8e7340558b8f0db7daa1da025777a
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305302"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344261"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "34305302"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Установка языков автоматического секретаря конференции
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 

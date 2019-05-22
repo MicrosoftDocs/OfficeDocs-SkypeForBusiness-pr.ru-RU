@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892cbf094c2c523d7eaa18b1d77a2fb864a3a9c0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400933"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344651"
 ---
 # <a name="plan-my-service-management"></a>Планирование управления службами
 
@@ -115,8 +115,8 @@ ms.locfileid: "33400933"
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Точки принятия решений</td><td><ul><li>Решите, кто отвечает за операции облачной голосовой связи в вашей организации.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Дальнейшие действия</td><td><ul><li>Скачайте полное руководство по планированию управления службами.</li><li>Скачайте руководство по анализу процедуры обеспечения качества.</li><li>Полностью изучите руководство по работе.</li><li>Предоставьте все руководства каждому члену операционной команды для ознакомления с требованиями к работе.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Точки принятия решений</td><td><ul><li>Решите, кто отвечает за операции облачной голосовой связи в вашей организации.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li>Скачайте полное руководство по планированию управления службами.</li><li>Скачайте руководство по анализу процедуры обеспечения качества.</li><li>Полностью изучите руководство по работе.</li><li>Предоставьте все руководства каждому члену операционной команды для ознакомления с требованиями к работе.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как включить и использовать панель мониторинга качества звонков в Skype для бизнеса Online и получить суммарные отчеты о качестве звонков. '
-ms.openlocfilehash: afcb0243144784929e8516308084fda791b0bcec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291539"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344887"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online
 
@@ -55,7 +55,7 @@ ms.locfileid: "34291539"
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Активация сводных отчетов на панели мониторинга качества вызовов Microsoft (CQD)
 
 Прежде чем приступить к работе с CQD, вам потребуется активировать его для своей организации Office 365.
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
  
 1. Войдите в свою организацию Office 365 с помощью учетной записи администратора Microsoft Teams Service, а затем щелкните плитку **Администратор** , чтобы открыть центр администрирования.
     

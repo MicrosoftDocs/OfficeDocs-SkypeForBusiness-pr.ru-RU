@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Узнайте, как настроить группы, чтобы пользователи могли взаимодействовать с пользователями в другой организации.
-ms.openlocfilehash: f34bd66b018d84a759c2bfbd5a61b6e112245abc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299945"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343940"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Предоставление пользователям Teams возможности общаться и общаться с пользователями из другой организации группы
 
@@ -50,7 +50,7 @@ ms.locfileid: "34299945"
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Шаг 2: предоставление Организации возможности общаться с другой организацией группы
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
    1. На панели навигации слева перейдите к параметрам >  **уровня Организации****внешний доступ**. 
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как назначить идентификатор конференции пользователю в Microsoft Teams и какими должны быть его параметры. '
-ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305361"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344318"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Просмотр и сброс назначенного пользователю идентификатора конференции в Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "34305361"
 
 ### <a name="to-view-the-conference-id"></a>Просмотр идентификатора конференции
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 
@@ -62,7 +62,7 @@ ms.locfileid: "34305361"
 
 вы можете сбросить идентификатор конференции для пользователя, например, если он забыл его.
   
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. В левой области навигации щелкните на элементе **Пользователи** и выберите пользователя в списке доступных пользователей.
 

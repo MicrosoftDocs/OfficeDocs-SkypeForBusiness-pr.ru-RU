@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о просмотре номеров для конференц-связи с телефонным подключением из Microsoft Teams. '
-ms.openlocfilehash: d48750959adfd9bc60752daf208779b8c3b508c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e86cd8a57857c16b42df45a23e212ce2d8bfc27b
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288477"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344470"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Просмотр списка номеров для аудиоконференций в Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "34288477"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Просмотр телефонных номеров аудиоконференций
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. На панели навигации слева перейдите к**мостам конференций**для собраний. **** >  
 2. Просмотр номеров телефонов, доступных для голосовой конференции.

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: fd259553794f0ed56d5e3a59752017b50478a97c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 37bdc3208934d6ef9a7d97b896988b705735c869
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329563"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343841"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Настройка голосовой конференции в Skype для бизнеса
 
@@ -87,7 +87,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 Затем вы хотите [настроить языки автосекретаря для голосовой конференции](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) , которые будут использовать автосекретарь конференц-связи для приветствия абонентов, находящихся в телефонном номере для голосовой конференции. 
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**:
+![Значок с логотипом](../images/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**:
 
 1. На панели мониторинга перейдите к**мостам конференций**для собраний. **** > 
 2. Выберите номер телефона моста конференц-связи, нажмите кнопку **изменить**, а затем выберите язык по умолчанию.
@@ -103,7 +103,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
     
 После настройки моста аудиоконференции убедитесь, что значения параметров по умолчанию, например, уведомления при входе и выходе, а также длина ПИН-кода настроены правильно. При необходимости их можно изменить. 
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**:
+![Значок с логотипом](../images/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**:
 
 1. На панели мониторинга перейдите к**мостам конференций**для собраний. **** > 
 2. Выберите **Параметры моста**. Откроется панель **Параметры моста**. 
@@ -123,7 +123,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 Необходимо сделать это для всех сотрудников вашей организации, которые проводят или планируют собрания. 
 
-![Teams-Logo-30x30. png](../images/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**:
+![Значок с логотипом](../images/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**:
 
 1. На панели мониторинга щелкните **Пользователи**, выберите пользователя из списка и нажмите кнопку **изменить**.
 2. Нажмите кнопку **изменить** рядом с пунктом " **звуковые конференции**", а затем в области **звуковые конференции** выберите номер в поле **** **платный** номер и бесплатный номер.

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как включить или отключить анонимным вызывающим абонентам возможность присоединяться к собранию из Центра администрирования Teams. '
-ms.openlocfilehash: 3da4c00dbe479a30e48a06b7a69665252d6953c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 246eda17bd9e373a0dcecb4a75aa4f51efc8ae22
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298642"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344188"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Начало аудиоконференции по телефону без ПИН-кода в Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "34298642"
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Разрешение и запрет присоединения анонимных вызывающих абонентов к собранию
 
-![Teams-Logo-30x30. png](media/teams-logo-30x30.png) **с помощью центра администрирования Microsoft Teams**
+![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
 1. На панели навигации слева щелкните **Пользователи**. 
 
