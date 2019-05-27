@@ -286,7 +286,8 @@
 #### [Языки для приветствий и сообщений голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 ### Идентификатор звонящего
 #### [Как можно использовать идентификатор звонящего в организации](how-can-caller-id-be-used-in-your-organization.md)
-#### [Настройка идентификатора звонящего для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Настройка идентификатора звонящего для пользователя](set-the-caller-id-for-a-user.md)
+#### [Дополнительные сведения об ИД линии вызова и имени вызывающей стороны](more-about-calling-line-id-and-calling-party-name.md)
 ### Автосекретари и очереди вызовов 
 #### [Что представляют собой облачные автосекретари](what-are-phone-system-auto-attendants.md)
 #### [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)
