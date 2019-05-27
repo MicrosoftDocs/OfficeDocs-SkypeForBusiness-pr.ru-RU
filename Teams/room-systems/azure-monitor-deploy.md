@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье рассказывается, как развернуть управление устройствами в Microsoft Teams с помощью монитора Azure.
-ms.openlocfilehash: d9f1a78d31fe6ef765fd43554337444533056114
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291502"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433377"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Развертывание управления комнатами Microsoft Teams с помощью монитора Azure
 
@@ -29,7 +29,7 @@ ms.locfileid: "34291502"
 
 Следуя этим инструкциям, вы можете использовать панель мониторинга, как в следующем примере, для получения подробных отчетов о состоянии доступности устройства, работоспособности приложения и оборудования, а также Microsoft Teams для распространения версий приложений и операционной системы.
 
-![Образец аналитического журнала для комнат Microsoft Teams] (../media/Deploy-Azure-Monitor-1.png "Образец аналитического журнала для комнат Microsoft Teams")
+![Снимок экрана, на котором показан пример аналитического анализа журнала для комнат Microsoft Teams] (../media/Deploy-Azure-Monitor-1.png "Образец аналитического журнала для комнат Microsoft Teams")
 
 В общих чертах вам необходимо выполнить следующие задачи.
 
@@ -64,7 +64,7 @@ ms.locfileid: "34291502"
 
 Настройка службы журнала для сбора событий в комнатах Microsoft Teams в разделе " [Источники данных журнала событий Windows" на мониторе Azure](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Параметры журнала событий] (../media/Deploy-Azure-Monitor-2.png "Параметры журнала событий")
+![Снимок экрана с параметрами журнала событий] (../media/Deploy-Azure-Monitor-2.png "Параметры журнала событий")
 
 > [!IMPORTANT]
 > Настройте параметры журнала событий Windows и введите в качестве имени журнала событий **систему Skype Room** , а затем установите флажки **Ошибка**, **предупреждение**и **сведения** .

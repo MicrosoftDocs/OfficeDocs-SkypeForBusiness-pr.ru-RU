@@ -1,25 +1,25 @@
 ---
-title: Создание конфигурации архивации в Скайп для Business Server
+title: Создание конфигурации архивации в Skype для бизнеса Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 'Сводка: Узнайте, как создание конфигурации архивации Скайп для Business Server.'
-ms.openlocfilehash: 3f20b763644f74b0b2265706d4190d27b28ddffd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Сводка: сведения о том, как создать конфигурацию архивации для Skype для бизнеса Server.'
+ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885026"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286220"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Создание конфигурации архивации в Скайп для Business Server
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Создание конфигурации архивации в Skype для бизнеса Server
 
-**Сводка:** Узнайте, как создание конфигурации архивации Скайп для Business Server.
+**Сводка:** Сведения о том, как создать конфигурацию архивации для Skype для бизнеса Server.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Настройка параметров архивации с помощью панели управления
 
@@ -27,7 +27,7 @@ ms.locfileid: "33885026"
   
 1. Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator. 
     
-2. Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть Скайп для панели управления Business Server. 
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. 
     
 3. На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
     
@@ -49,7 +49,7 @@ ms.locfileid: "33885026"
     
    - Для запрета действия при невозможности архивации установите флажок **При сбое архивации заблокировать обмен мгновенными сообщениями или сеансы веб-конференции**.
     
-   - Чтобы использовать Microsoft Exchange Server для хранения архивных данных, установите флажок **Интеграция с Microsoft Exchange** .
+   - Чтобы использовать сервер Microsoft Exchange для хранения данных для архивации, установите флажок **интеграция Microsoft Exchange** .
     
    - Для включения функции удаления данных установите флажок **Разрешить удаление данных архивации**, затем выполните одно из следующих действий.
     
@@ -83,4 +83,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-Для получения дополнительных сведений см раздел справки для командлета [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) .
+Дополнительные сведения можно найти в разделе справки по командлету [New-ксарчивингконфигуратион](https://docs.microsoft.com/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) .

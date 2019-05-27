@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246068"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421997"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -59,8 +59,6 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 - **Разрешить загрузку неопубликованных внешних приложений**. Если вы хотите включить некоторые внешние приложения и отключить другие, отключите этот параметр и в списке внешних приложений отключите приложения, к которым у пользователей не должно быть доступа. При включении этого параметра владельцы и участники команд, которым предоставлено разрешение, могут загружать в Teams неопубликованные приложения. 
 
 - **Разрешать новые внешние приложения по умолчанию**. При включении этого параметра пользователи могут активировать новые приложения сразу после их добавления в каталог приложений Teams. Если вы хотите контролировать новые приложения, отключите этот параметр. В этом случае не забывайте периодически просматривать новые доступные приложения, чтобы ваша организация не пропустила появление интересных программ. 
-
-Дополнительные сведения см. в статье [Параметры администратора для приложений в Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Параметры Teams на уровне организации в Центре администрирования Microsoft Teams
 Вы можете управлять параметрами пользователя для всей организации в Центре администрирования Microsoft Teams. Чтобы изменить параметры для всей организации, перейдите в Центр администрирования Microsoft Teams и выберите **Параметры для всей организации**. Вы можете настроить перечисленные ниже параметры.
@@ -128,7 +126,7 @@ Microsoft Teams позволяет организациям назначать 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Как узнать, какие функции доступны?
 
-Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/ru-RU/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Дополнительные сведения
 

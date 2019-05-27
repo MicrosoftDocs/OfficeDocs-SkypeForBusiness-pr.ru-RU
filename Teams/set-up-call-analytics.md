@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Настройка и использование средства аналитики звонков для выявления и устранения проблем с качеством звонков в Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: ff413cf0f708f14feb8aa154be0dd4229e36eed5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305223"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432779"
 ---
 # <a name="set-up-call-analytics"></a>Настройка аналитики звонков
 
@@ -44,7 +44,7 @@ ms.locfileid: "34305223"
 
 -  В области навигации слева выберите пункт **Пользователи** .
 
-   ![Снимок экрана: левая Навигация](media/set-up-call-analytics-image-2.png)
+   ![Снимок экрана: левая область навигации](media/set-up-call-analytics-image-2.png)
   
 ## <a name="set-call-analytics-permissions"></a>Настройка разрешений на доступ к анализу звонков
 <a name="BKMK_SetCAPerms"></a>

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Узнайте, как настроить группы, чтобы пользователи могли взаимодействовать с пользователями в другой организации.
-ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343940"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433193"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Предоставление пользователям Teams возможности общаться и общаться с пользователями из другой организации группы
 
@@ -79,7 +79,7 @@ ms.locfileid: "34343940"
 
 Если вы настраиваете, чтобы пользователи Teams могли находить и общаться с пользователями в Организации Skype для бизнеса, которые ограничивают круг лиц, которые могут обращаться к своим пользователям, вам будет предложено администратору этой Организации выполнить указанные ниже действия.
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса** 
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса, **с помощью центра администрирования Skype для бизнеса** 
 
 У администратора в этой Организации выполняются следующие действия:
     

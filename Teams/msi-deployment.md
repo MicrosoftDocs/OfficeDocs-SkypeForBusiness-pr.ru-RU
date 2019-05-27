@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c009433696ac554114a2a06955b4f33beb6543f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42944baab0552d28877c4974510087d69df1b697
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281619"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421950"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Установка Microsoft Teams с помощью MSI
 =================================
@@ -28,6 +28,8 @@ ms.locfileid: "34281619"
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах настольного клиента Windows, о том, как его спланировать и развертывание: клиент Teams для настольных [систем Windows](https://aka.ms/teams-clients)
 
 Для использования System Center Configuration Manager или групповой политики или любых сторонних механизмов распространения для широкого развертывания корпорация Майкрософт предоставила MSI-файлы (как [32](https://aka.ms/teams32bitmsi) , так и [64-разр](https://aka.ms/teams64bitmsi)), которые администраторы могут использовать для массового развертывания Teams, чтобы выбрать Пользователи или компьютеры. Администраторы могут использовать эти файлы для удаленного развертывания команд, чтобы пользователи не могли вручную загрузить приложение Teams. При развертывании Teams автоматически запускается для всех пользователей, которые выполняют вход на этом компьютере. (Вы можете отключить функцию автоматического запуска после установки приложения. [См. ниже](#disable-auto-launch-for-the-msi-installer).) Рекомендуется развернуть пакет на компьютере, чтобы все новые пользователи компьютера также смогли воспользоваться этим развертыванием. 
+
+Кроме того, Teams можно включить в развертывание Office 365 ProPlus. Дополнительные сведения можно найти [в разделе развертывание Microsoft Teams с Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
  
 > [!Note] 
 > Чтобы узнать больше о SCCM, ознакомьтесь со статьей общие сведения о [System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
