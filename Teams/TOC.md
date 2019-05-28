@@ -101,6 +101,7 @@
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Комнаты Microsoft Teams](room-systems/index.md)
+## [Управление Доской в Teams](manage-whiteboard.md)
 
 
 ## Аудиоконференции
@@ -579,28 +580,38 @@
 
 
 <!-- ============================================================ -->
-# [Переход на Teams](upgrade-introduction.md)
+# Переход на Teams
 ## [Начало работы](upgrade-start-here.md)
 ## [Схема перехода](upgrade-framework.md)
-## [Планирование процедуры обновления](upgrade-plan-journey.md)
+
+## Планирование процедуры обновления
+### [Обзор планирования обновления](upgrade-plan-journey.md)
 ### [Составление списка заинтересованных лиц проекта](upgrade-enlist-stakeholders.md)
 ### [Определение области проекта](upgrade-define-project-scope.md)
-### [Общие сведения о сосуществовании и взаимодействии](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+
+### Общие сведения о сосуществовании и взаимодействии
+#### [Обзор сосуществования и взаимодействия](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 #### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Планирование качества](upgrade-plan-for-quality.md)
-## [Подготовка среды для Teams](upgrade-prepare-environment.md)
+
+## Подготовка среды для Teams
+### [Обзор технической готовности](upgrade-prepare-environment.md)
 ### [Подготовка ИТ-персонала к использованию Teams](upgrade-prepare-IT-pros.md)
 ### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
 ### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
 ### [Подготовка сети](upgrade-prepare-environment-prepare-network.md)
 ### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
-## [Подготовка организации к использованию Teams](upgrade-prepare-organization.md)
+
+## Подготовка организации к использованию Teams
+### [Обзор готовности организации](upgrade-prepare-organization.md)
 ### [Оценка готовности организации к изменению](upgrade-org-change-readiness.md)
 ### [Подготовка плана готовности пользователей](upgrade-user-readiness.md)
 ## [Проведение пилотного развертывания для пользователей](pilot-essentials.md)
 ## [Переход со Skype для бизнеса Online на Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ## [Переход с гибридной или локальной среды Skype для бизнеса на Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-## [Использование, внедрение и оптимизация](continue-journey.md)
+
+## Использование, внедрение и оптимизация
+### [Обзор плана работ](continue-journey.md)
 ### [Использование службы](upgrade-operate-my-service.md)
 ### [Мониторинг качества](upgrade-monitor-quality.md)
 ### [Улучшение службы](upgrade-enhance-my-service.md)
@@ -674,7 +685,7 @@
 ### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
 ### [Планирование управления жизненным циклом в Teams](plan-teams-lifecycle.md)
 ### [Планирование управления в Teams](plan-teams-governance.md)
-
+### [Использование помощника по тестированию сети](use-network-testing-companion.md)
 
 
 
