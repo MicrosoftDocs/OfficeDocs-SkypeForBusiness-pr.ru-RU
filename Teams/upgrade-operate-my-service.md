@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0d5f6614c076b212935908d8bb77973df5c3b867
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494065"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548535"
 ---
-![Этапы путешествия по обновлению, с акцентом на этапе непрерывности] работы (media/upgrade-banner-op-excellence.png "Этапы путешествия по обновлению, с акцентом на этапе непрерывности") работы
+![Обновление схемы поездки с акцентом на этапе непрерывности] работы (media/upgrade-banner-op-excellence.png "Этапы путешествия по обновлению, с акцентом на этапе непрерывности") работы
 
 Эта статья относится к этапу непрерывной работы по обновлению, который начинается сразу же после того, как вы закончите переход с Skype для бизнеса на Teams.
 
