@@ -7,7 +7,7 @@ ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Вопросы, касающиеся обновления группам из Скайп по развертыванию гибридной или локальной.
+description: Рекомендации по переходу на Teams из гибридного или локального развертывания Skype для бизнеса.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,53 +16,53 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fd4e78149dfaee58e85b9969062f324e90b7e6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930815"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493981"
 ---
-![Этапы обновления пути с акцентом на развертывание и стадии реализации] (media/upgrade-banner-deployment.png "Этапы обновления пути с акцентом на развертывание и стадии реализации")
+![Обновление схемы поездки, акцент на развертывании и реализации] (media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
-В этой статье является частью развертывания и внедрения этапа обновления пути. Прежде чем продолжить, убедитесь, что вы выполните следующие действия:
+Эта статья является частью стадии развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
 
--   [Прикреплено другие заинтересованные стороны проекта](upgrade-enlist-stakeholders.md)
--   [Определенные области проекта](https://aka.ms/SkypetoTeams-Scope)
--   [Поняты сосуществования и взаимодействия Скайп для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
--   [Выбранные обновления пути](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Вовлеченные заинтересованные лица в проект](upgrade-enlist-stakeholders.md)
+-   [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
+-   [Сосуществование и взаимодействие Skype для бизнеса и рабочих групп](https://aka.ms/SkypeToTeams-Coexist)
+-   [Выбрано путешествие с обновлением](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 -   [Подготовка среды](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Подготовлено вашей организации](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Проведение пилотного проекта](https://aka.ms/SkypeToTeams-Pilot)
+-   [Подготовка Организации](https://aka.ms/SkypeToTeams-UserReadiness)
+-   [Пробные испытания](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>Обновление до группы с Скайп по развертыванию гибридной или локальный
+# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>Переход на Teams из гибридного или локального развертывания Skype для бизнеса
 
-Следуйте рекомендациям в статье в этой статье, если развернута Скайп для бизнеса или Microsoft Lync локальные пользователи и организации необходимо обновить групп, либо выборочно — с помощью нескольких режимах совместная работа — или файловый. Первым этапом является настройка гибридного подключения с помощью клиента Office 365 и переместите пользователей Скайп для бизнеса в Интернет и назначить их соответствующие сосуществования и режим обновления. 
+Следуйте указаниям, приведенным в этой статье, если вы разработали Skype для бизнеса или Microsoft Lync в локальной среде, и ваша организация хочет выборочно перейти на Teams, используя несколько режимов сосуществования или все. Первый этап — это настройка гибридной связи с вашим клиентом Office 365, а затем перемещение пользователей в Skype для бизнеса Online и назначение им соответствующего режима сосуществования и обновления. 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>Шаг 1: Развертывание гибридного подключения 
+## <a name="step-1-deploy-hybrid-connectivity"></a>Действие 1: развертывание гибридного подключения 
 
-Ключевые необходимые компоненты для обновления пользователей группам — для развертывания гибридного подключения. Для этого может потребоваться развертывание нового внешнего подключения для вашего существующего Скайп развертывания для бизнеса или Lync или просто Настройка гибридных связь с помощью клиента Office 365. 
+Ключевым условием для обновления пользователей до Teams является развертывание гибридного подключения. Это может включать развертывание новых внешних подключений для существующего развертывания Skype для бизнеса или Lync, а также просто настройку гибридного отношения с вашим клиентом Office 365. 
 
-Дополнительные сведения можно [Развернуть гибридного подключения между Скайп Business Server и Скайп для бизнеса в Интернет](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Дополнительные сведения можно найти в разделе [развертывание гибридной связи между Skype для бизнеса Server и Skype для бизнеса Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
-## <a name="step-2-move-users-to-skype-for-business-online"></a>Шаг 2: Перемещение пользователей в Скайп для бизнеса в Интернет 
+## <a name="step-2-move-users-to-skype-for-business-online"></a>Шаг 2: перемещение пользователей в Skype для бизнеса Online 
 
-По завершении настройки гибридной перемещение пользователей в Скайп для бизнеса в Интернет. 
+После того как вы закончите развертывание гибридной конфигурации, перенесите пользователей в Skype для бизнеса Online. 
 
-Дополнительные сведения можно [переместить пользователей из локально на Скайп для бизнеса в Интернет](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online). 
+Дополнительные сведения можно найти в разделе [Перемещение пользователей из локальной сети в Skype для бизнеса Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online). 
 
-## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>Шаг 3: Назначьте сосуществования и режим обновления
+## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>Шаг 3: назначение режима сосуществования и обновления
 
-После переноса пользователей к Скайп для бизнеса в Интернет, их можно назначить соответствующие сосуществования режим по пути обновления, принято решение вашей организации. Для получения дополнительных сведений см [Задание вашей сосуществования и параметры обновления](https://aka.ms/SkypeToTeams-SetCoexistence) и [TeamsUpgradePolicy: управление миграция и сосуществование](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+После того как вы перенесли пользователей в Skype для бизнеса Online, вы можете назначить им режим совместного существования, основываясь на пути обновления, который выбрала ваша организация. Дополнительные сведения можно найти [в статье Настройка параметров сосуществования и обновления](https://aka.ms/SkypeToTeams-SetCoexistence) и [теамсупградеполици: управление миграцией и](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)сосуществованием.
 
 > [!NOTE]
-> С Скайп Business Server 2019 и будущих накопительного обновления Скайп для Business Server 2015 можно будет выполнять шаг 2 (переход на Скайп для бизнеса в Интернет) и шаг 3 (обновления пользователей группам) за один шаг. Дополнительные сведения будут предоставлены после выпуска Скайп для Business Server 2019.
+> С помощью Skype для бизнеса Server 2019 и будущего накопительного обновления для Skype для бизнеса Server 2015 вы сможете выполнить шаг 2 (перемещение пользователей в Skype для бизнеса Online) и шаг 3 (обновление пользователей до Teams). Дополнительные сведения будут предоставлены после выпуска Skype для бизнеса Server 2019.
 
-## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системой и рабочих групп
+## <a name="phone-system-and-teams-upgrade"></a>Обновление телефонной системы и команды
 
-При переносе данных вашей Скайп для бизнеса гибридного развертывания для телефонной системы с помощью вызова планы и Майкрософт будет ваш поставщик телефонной сети (общего пользования PSTN), и при условии, что вы выполнили телефонных номеров перенос — обновление пользователям Команды будет автоматический переход входящих PSTN, вызов к группам.
+Если вы переносите гибридное развертывание Skype для бизнеса в телефонную систему с помощью планов звонков, а Microsoft является поставщиком услуг коммутируемой телефонной сети (PSTN) и предполагает, что вы выполнили перенос номера телефона, то после обновления пользователей В Teams будут автоматически перенесены входящие звонки через PSTN в Teams.
 
-Вызов планы недоступен, требуется ли перенос развертывания корпоративной голосовой связи для прямой маршрутизации Microsoft телефонной системы. Обновление пользователей в группы, см.в [Дополнительные вопросы для прямой маршрутизации телефонной системы](2-envision-make-my-service-decisions-direct-routing.md).
+Если тарифные планы недоступны, вам нужно перевести свое развертывание в корпоративную типографию на прямую маршрутизацию Microsoft Phone System. Чтобы обновить пользователей до Teams, ознакомьтесь с [дополнительными сведениями о прямой маршрутизации для телефонной системы](2-envision-make-my-service-decisions-direct-routing.md).

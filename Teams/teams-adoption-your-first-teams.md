@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b9bb8283b7a032bb15556521200683e3bd9ccd
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: ca3365cd147cf2c6d49e3fda4dc283ce758d76e3
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433050"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548775"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Создание первых команд в Microsoft Teams
 
@@ -62,4 +62,4 @@ ms.locfileid: "34433050"
 
 По мере начала работы с Teams вы и оставшаяе часть группы проекта зайдете на использование чата, каналов и ресурсов групп, чтобы запустить проект. Ваше собственное использование Teams очень важно для качества вашего проекта внедрения. Мы рекомендуем вам попытаться выполнить фрагментацию проекта, продолжая общение с основной группой проекта по электронной почте. Переходя на Teams, вы будете моделировать поведение, которое вы хотите использовать вашим сотрудниками для принятия. Настройте тон, начните и начинайте наслаждаться информацией о проекте в одном месте!  
 
-![Значок, посвященный следующему](media/teams-adoption-next-icon.png) шагу: [как можно вашей организации в Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Значок, посвященный следующему шагу](media/teams-adoption-next-icon.png) : [как вы можете подготовить свою организацию для Microsoft Teams?](teams-adoption-assess-readiness.md)

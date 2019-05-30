@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте о том, как выполняется поиск телефонных номеров, которые можно назначить пользователям в зависимости от страны/региона, штата/провинции или города, а также о том, как указать требуемое количество номеров. '
-ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2630dd7853760db16497eec83be30af8a0ff0ef8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280495"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493947"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Поиск номеров телефонов для пользователей
 
@@ -40,7 +40,7 @@ Before you can assign phone numbers to your users, you must use the **New number
 
  **Поиск номеров телефонов для пользователей**
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
   
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     

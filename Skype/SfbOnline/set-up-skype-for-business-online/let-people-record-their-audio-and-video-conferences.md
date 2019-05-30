@@ -19,18 +19,18 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Включение и отключение записи звука и видео, а также сведения о том, что не включено в записную видеоконференции. '
-ms.openlocfilehash: 31c4661f0c6ec37c8c098594dcdf737248b880b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285267"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494084"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Выбор параметров записи по умолчанию для одного или всех пользователей в Организации
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 1. Откройте > **Skype для бизнеса**в **центре администрирования Office 365**и выберите пункт **Пользователи**.
     

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 8196b764f61fda7691d65a74f2eb89969ef2d48a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305247"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494708"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 
@@ -58,13 +58,13 @@ ms.locfileid: "34305247"
 
 **Добавление адреса для экстренного реагирования для Организации**
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 В центре администрирования Skype для бизнеса перейдите в раздел**места** >  **голосовой связи** > для экстренной помощи**Добавить новый адрес**. Подробные сведения о том, как [Добавить или удалить, и адрес для экстренного реагирования в своей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) :
 
 **Добавление расположения для экстренного реагирования для Организации** 
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 В центре администрирования Skype для бизнеса перейдите в раздел**места** >  **голосовой связи** > для экстренной помощи**Добавить новый адрес**. Дополнительные сведения можно найти в разделе [Добавление, изменение и удаление расположения для экстренного реагирования для вашей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
@@ -74,7 +74,7 @@ ms.locfileid: "34305247"
 
 **Добавление адреса для экстренного реагирования для пользователя** 
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 В центре администрирования Skype для бизнеса перейдите на голосовую **** > почту**Пользователи** > службы**экстренного поиска** > **назначьте номер** > **изменить расположение**. Дополнительные сведения: [назначение или изменение адреса для экстренного реагирования для пользователя](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
@@ -83,7 +83,7 @@ ms.locfileid: "34305247"
 
 **Назначение пользователю номера телефона**
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 В центре администрирования Skype для бизнеса перейдите в раздел Пользователи **** > **** > голосовой голосовой связи**Назначение номера** > **изменить расположение**. Дополнительные сведения [можно найти в разделе Назначение, изменение и удаление номера телефона для пользователя](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 
@@ -98,15 +98,15 @@ ms.locfileid: "34305247"
     
 2. Выберите **Настройки** > **Инструменты** > **Параметры**. 
     
-     ![To view your phone number, go to Settings > Tools > Options.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![Снимок экрана с параметрами в меню "Сервис"](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. Выберите **Телефоны**. 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Снимок экрана, на котором вы выбираете параметр "телефоны"](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 В **Microsoft Teams**пользователи могут видеть свой номер телефона, щелкая **вызовы** на панели навигации слева. Номер телефона отображается над панелью набора номера.
 
-![Чтобы пользователь мог видеть свой номер в Microsoft Teams, нажмите кнопку звонки на панели навигации слева.](media/teams-phone-number.png)
+![Снимок экрана: выбор звонков на панели навигации слева.](media/teams-phone-number.png)
 
 ## <a name="what-else-do-you-need-to-know"></a>Дополнительные важные сведения
 <a name="bkmk_add_addresses"> </a>

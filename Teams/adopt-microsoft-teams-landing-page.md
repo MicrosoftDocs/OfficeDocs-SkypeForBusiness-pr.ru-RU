@@ -1,7 +1,7 @@
 ---
 title: Внедрение Microsoft Teams
 ms.reviewer: karuanag
-description: Используйте следующие ресурсы внедрения, которые помогут в планировании и развертывании рабочих групп Майкрософт в вашей организации.
+description: С помощью этих ресурсов по внедрению вы сможете планировать и развертывать Microsoft Teams в своей организации.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -16,16 +16,16 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a7d77db81026782507575cab6d3f09500dde93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902727"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494500"
 ---
 # <a name="adopt-microsoft-teams"></a>Внедрение Microsoft Teams
 
-Если вы малого бизнеса, или если вы хотите развернуть группы, начиная с чата, каналы & групп и собраний, с помощью нашего сопровождению [Начало работы руководство](get-started-with-teams-quick-start.md), разработанный поможет вам запущено и работает быстро. Если вы большой организации с гибридного или локальной Скайп для бизнес-конфигурацию, или если вы хотите развернуть функции голосовой связи (например, Office 365 вызов планы или телефонной системой), можно начать с нашей Get работы руководство, но вам потребуются дополнительные руководство ниже, в разделе **более подробные инструкции внедрения**.
+Если вы работаете в малом бизнесе или хотите развертывать группы с помощью чата, Teams _Амп_ Channels и Meetings, используйте наше [руководство "Начало работы](get-started-with-teams-quick-start.md)", которое предназначено для быстрого создания и работы. Если вы используете крупную организацию с гибридной или локальной конфигурацией Skype для бизнеса или хотите выгрузить возможности голосовой связи (например, планы вызовов Office 365 или телефонная система), вы можете начать с руководства "Приступая к работе", но вам понадобятся дополнительные Руководство ниже, в разделе **рекомендации по более глубокой внедрению**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,12 +35,12 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Краткое руководство</h3>
-                        <p>Рассматриваются наиболее распространенные сценарии внедрения</p>
+                        <h3>Краткое руководство по началу работы</h3>
+                        <p>Пошаговое руководство по наиболее распространенным сценариям внедрения</p>
                     </div>
                 </div>
             </div>
@@ -54,11 +54,11 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Общие сведения о рабочих групп и каналы</h3>
+                        <h3>Общие сведения о командах и каналах</h3>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Планирование первой группы</h3>
+                        <h3>Планирование первых групп</h3>
                     </div>
                 </div>
             </div>
@@ -90,11 +90,11 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Улучшение возможностей вашей чемпионатов</h3>
+                        <h3>Предоставьте лидерами</h3>
                     </div>
                 </div>
             </div>
@@ -108,11 +108,11 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Учебный курс по & сертификации</h3>
+                        <h3>Учебный _Амп_ сертификации</h3>
                     </div>
                 </div>
             </div>
@@ -126,11 +126,11 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Средства и файлы для загрузки</h3>
+                        <h3>Средства и загружаемые файлы</h3>
                     </div>
                 </div>
             </div>
@@ -140,8 +140,8 @@ ms.locfileid: "33902727"
 </ul>
 
 
-### <a name="deeper-adoption-guidance"></a>Более подробные инструкции внедрения
-Планы внедрения могут быть легко сложным, в зависимости от среды. Для крупномасштабных развертываний пошаговое выполнение инструкции ниже, чтобы убедиться, что у вашей организации есть плавный переход к группам.
+### <a name="deeper-adoption-guidance"></a>Более глубокая рекомендация по внедрению
+Планы внедрения могут быть простыми и сложными в зависимости от вашей среды. Для крупномасштабных развертываний выполните указанные ниже действия, чтобы обеспечить более плавный переход на Teams в Организации.
 
 <ul class="panelContent cardsF">
     <li>
@@ -150,15 +150,15 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Запуск</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Начального</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Начало работы</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Общие сведения о командах и каналах</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Создание первых команд</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Оцените готовность к культурные и организации</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Оценка готовности культурной и организационной Организации</a></p>
                     </div>
                 </div>
             </div>
@@ -170,15 +170,15 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Эксперимент</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Эксперимента</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Создание программы лидеров</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Управление быстрым началом работы</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Определение сценариев использования</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Встроенный первыми и сбор отзывов</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Встроенные последователи и сбор отзывов</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Поддержка адаптации</a></p>
                     </div>
                 </div>
@@ -191,12 +191,12 @@ ms.locfileid: "33902727"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Масштаб</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Определение успеха и полученные результаты</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Штаб</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Определение результата и успеха</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Оптимизация отзывов и отчетности</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Информированность и внедрение обучения</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Планирование проверок работоспособности служб</a></p>

@@ -1,6 +1,6 @@
 ---
 title: Teams для сферы здравоохранения
-description: Используйте следующие ресурсы для максимально эффективному использованию группами в организации здравоохранения.
+description: Используйте эти ресурсы, чтобы максимально эффективно использовать группы в вашей организации здравоохранения.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fec61542c51870ce1482f964845e13d12a3a987d
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245701"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548257"
 ---
 # <a name="teams-for-healthcare"></a>Teams для сферы здравоохранения
 
-Команды предоставляет медицинскими сотрудниками и медицинским работникам является безопасным способом связи, координации пациента медицинскими и повысить эффективность. Здесь вы найдете admin ресурсы, необходимые для управления группами для здравоохранения групп в вашей организации.
+Teams помогает группам и специалистам по карьерному обеспечению безопасно общаться, координировать здравоохранение и повышать эффективность работы. Здесь вы найдете ресурсы для администраторов, необходимые для управления группами для здравоохранения в своей организации.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +31,7 @@ ms.locfileid: "32245701"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +49,7 @@ ms.locfileid: "32245701"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ ms.locfileid: "32245701"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
                         </div>
                     </div>
                     <div class="cardText">

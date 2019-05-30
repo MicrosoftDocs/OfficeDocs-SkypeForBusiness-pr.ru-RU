@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a78ed7e0bb40d83f7b46d4d4a008f964180c32d0
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: 855029001863b6603548c865d5f7bfb039261a18
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185297"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494834"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей звонков непосредственно из Teams
 ===========================================================
@@ -39,7 +39,7 @@ ms.locfileid: "34185297"
 
 На приведенном ниже рисунке показано, как входящий звонок от автосекретаря или очереди звонков будет отображаться для пользователя.
 
-![Уведомление о входящем звонке](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Снимок экрана с уведомлением о входящем звонке](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 После получения ответа на вызов автосекретаря или очереди звонков пользователь может обработать звонок, как любой другой звонок _Амп_ # x2014; они могут добавлять или проводить конференции другого пользователя или передавать Звонок другой стороне. Кроме того, звонки автосекретаря будут переадресованы на основе конфигурации пользователя.
 

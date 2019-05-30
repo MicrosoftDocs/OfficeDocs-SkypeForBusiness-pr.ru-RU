@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Этот отчет вместе с другими отчетами в Skype для бизнеса содержит подробные сведения о действиях, в том числе использование PSTN в Организации. '
-ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299575"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494008"
 ---
 # <a name="users-blocked-report"></a>Отчет о заблокированных пользователях
 
@@ -36,7 +36,7 @@ ms.locfileid: "34299575"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Получение отчета о заблокированных пользователях Skype для бизнеса
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 - Перейдите в раздел**Администрирование** > **** >  **Office 365** > центр администрирования**в центре** > администрирования Skype для бизнеса, в котором находятся**Заблокированные пользователи**.
     

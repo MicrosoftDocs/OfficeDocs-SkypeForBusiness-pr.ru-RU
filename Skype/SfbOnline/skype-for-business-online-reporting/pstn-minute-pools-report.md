@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например, с помощью отчета пулы заряда минут в Skype для бизнеса можно узнать количество минут, потраченных в течение текущего месяца Организации.
-ms.openlocfilehash: 81622eff6954fb19b9b16e278a19ed70c6183b2e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287748"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494018"
 ---
 # <a name="pstn-minute-pools-report"></a>Отчет о пулах минут, затраченных по ТСОП
 
@@ -41,7 +41,7 @@ ms.locfileid: "34287748"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Как перейти к отчету о пулах в Skype для бизнеса PSTN
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 - Перейдите в раздел Центр администрирования **Office 365** > **** > центр администрирования**Skype для бизнеса** > **отчеты** > по**пулам PSTN-минут**.
     

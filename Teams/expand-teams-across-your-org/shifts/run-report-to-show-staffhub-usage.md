@@ -1,5 +1,5 @@
 ---
-title: Запуск отчета для отображения active StaffHub об использовании
+title: Запуск отчета для отображения активного использования StaffHub
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -8,37 +8,37 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Узнайте, как создать отчет, чтобы получить список активных пользователей StaffHub в вашей организации.
+description: Сведения о том, как запустить отчет, чтобы получить список активных пользователей StaffHub в вашей организации.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e66e889fbc7fb26b8fda55beb889bc95b155666d
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 59931183cadec09b2fc26a55cf7e284f51198efc
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33868200"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548209"
 ---
-# <a name="run-a-report-to-show-active-staffhub-usage"></a>Запуск отчета для отображения active StaffHub об использовании
+# <a name="run-a-report-to-show-active-staffhub-usage"></a>Запуск отчета для отображения активного использования StaffHub
 
 > [!IMPORTANT]
-> Начиная с 1 октября 2019, Microsoft StaffHub будет из эксплуатации. Мы создаем StaffHub возможностей в группами Майкрософт. В настоящее время группы включает в себя приложение смены для управление планированием и дополнительные возможности будут развернуты со временем. StaffHub перестанет работать для всех пользователей на 1 октября 2019. Кто-то пытается открыть StaffHub отображается сообщение, предлагая загрузить групп. Для получения дополнительных сведений см [Microsoft StaffHub из эксплуатации](microsoft-staffhub-to-be-retired.md).  
+> Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
-Используйте действия, описанные в этой статье для запуска отчета, чтобы получить список активных пользователей StaffHub в вашей организации. Эти сведения могут пригодиться при подготовке к [Перемещение группам StaffHub группами Майкрософт](move-staffhub-teams-to-shifts-in-teams.md). Из отчета вы узнаете, то необходимо включить в ваши сообщения при внесении группам параметр StaffHub.
+Выполните действия, описанные в этой статье, чтобы запустить отчет, чтобы получить список активных пользователей StaffHub в вашей организации. Эта информация может пригодиться, когда вы готовитесь к [перемещению StaffHubных групп в Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md). В отчете вы узнаете, какие пользователи должны быть включены в вашу связь при переходе с StaffHub на Teams.
 
-Необходимо иметь Premium Azure AD для выполнения действия, описанные в этой статье.
+Для выполнения действий, описанных в этой статье, необходимо иметь Azure AD Premium.
 
-1. Вход на портал Azure.
+1. Войдите на портал Azure.
 2. В левой области выберите ресурс **Azure Active Directory** .
-3. В разделе **мониторинг**щелкните **войти в систему**.
-4. В разделе **приложения**введите **Microsoft StaffHub**.
-5. Задайте диапазон дат, который необходимо использовать для отчета и нажмите кнопку **Применить**. 
+3. В разделе **мониторинг**щелкните элемент **Вход**.
+4. В разделе **приложение**введите **Microsoft StaffHub**.
+5. Укажите диапазон дат для отчета и нажмите кнопку **Применить**. 
 
-    ![Снимок экрана, отображение действия для выполнения отчета для отображения активного использования StaffHub на портале Azure](../../media/staffhub-active-usage-report.png)
+    ![Снимок экрана, показывающий, как показать использование активного StaffHub](../../media/staffhub-active-usage-report.png)
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Перемещение ваших команд Microsoft StaffHub смены в группах Майкрософт](move-staffhub-teams-to-shifts-in-teams.md)
+- [Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md)

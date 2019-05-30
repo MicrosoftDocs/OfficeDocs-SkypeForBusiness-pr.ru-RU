@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Сведения о назначении, изменении и удалении номера рабочего телефона для пользователей Teams и Skype для бизнеса, чтобы внешние компании и клиенты могли звонить через Skype.
-ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286287"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493900"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 
@@ -54,7 +54,7 @@ ms.locfileid: "34286287"
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Назначение пользователю номера телефона
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
  
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
@@ -86,7 +86,7 @@ ms.locfileid: "34286287"
 
  ## <a name="change-a-phone-number-for-a-user"></a>Изменение номера телефона пользователя
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
  
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
@@ -110,7 +110,7 @@ ms.locfileid: "34286287"
 
  ## <a name="remove-a-phone-number-from-a-user"></a>Удаление номера телефона пользователя
  
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
  
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     

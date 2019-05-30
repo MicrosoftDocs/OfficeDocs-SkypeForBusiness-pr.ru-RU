@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Получите инструкции по изменению параметров для моста конференц-связи, который используется для запроса вызывающих абонентов и сбора имен и контактов для собраний организаторов, если они не пользуются приложениями Skype для бизнеса или Microsoft Teams. '
-ms.openlocfilehash: eaccf6b09499c819451aabd4c1785b326f98ac6d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344871"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494564"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение настроек для моста аудиоконференций
 
@@ -66,7 +66,7 @@ ms.locfileid: "34344871"
 6. Нажмите кнопку **Сохранить**. 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Использование Центра администрирования Skype для бизнеса
+## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Значок, показывающий логотип Skype для бизнеса](media/sfb-logo-30x30.png)  Использование Центра администрирования Skype для бизнеса
 
  **Настройка процесса собрания, когда абоненты присоединяются к собранию**
     

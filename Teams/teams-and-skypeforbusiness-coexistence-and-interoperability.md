@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10a5fd2a1a172410a69362687146ba50cd69529
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344572"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548799"
 ---
 ![Этапы путешествия по обновлению с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы путешествия по обновлению с акцентом на стадии определения проекта")
 
@@ -66,7 +66,7 @@ ms.locfileid: "34344572"
 
 Дополнительные сведения о переходе в режим "только в Teams" можно найти в разделе [вопросы, касающиеся режима только Teams](teams-only-mode-considerations.md).
 
-![Клиент Skype для бизнеса работает в специальном режиме после того, как пользователь будет обновлен как пользователь Teams] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Клиент Skype для бизнеса работает в специальном режиме после того, как пользователь будет обновлен как пользователь Teams")
+![Снимок экрана с сообщением подтверждения Teams] (media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Клиент Skype для бизнеса работает в специальном режиме после того, как пользователь будет обновлен как пользователь Teams")
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype для бизнеса с совместной работой в Teams (этот режим является предстоящим)
 
@@ -105,11 +105,11 @@ ms.locfileid: "34344572"
 
 - Пользователи Skype для бизнеса могут использовать один и тот же чат с пользователями Teams и наоборот. Чат взаимодействия должен пройти через шлюз взаимодействия, который входит в состав облачных служб Teams (и, следовательно, только в Интернете). Беседы взаимодействия — это обычный текст: форматированный текст и смайлики не поддерживаются. Пользователи в Teams получат уведомление о том, что разговор является обсуждением взаимодействия; похожее уведомление для пользователей Skype для бизнеса скоро будет предложено.
 
-Взаимодействие ![с чат в чате из Teams] Взаимодействие (media/Interop_chat_experience_from_Teams.png "с чат в чате из Teams")
+![Снимок экрана с опытом взаимодействия в чате из Teams] Взаимодействие (media/Interop_chat_experience_from_Teams.png "с чат в чате из Teams")
 
 - Пользователи Skype для бизнеса могут выполнять голосовые и видеозвонки между пользователями Teams и наоборот.
 
-![Взаимодействие между абонентами из Teams] (media/Interop_calling_experience_from_Teams.png "Взаимодействие между абонентами из Teams")
+![Снимок экрана с интерфейсом вызова взаимодействия из Teams] (media/Interop_calling_experience_from_Teams.png "Взаимодействие между абонентами из Teams")
 
 > [!Important]
 > Для взаимодействия с локальным развертыванием Skype для бизнеса необходимо, чтобы локальная среда была в гибридном режиме с Office 365 Skype для бизнеса. Подробности можно найти в [статье Руководство по миграции и взаимодействию](https://aka.ms/SkypeToTeams-Interop).

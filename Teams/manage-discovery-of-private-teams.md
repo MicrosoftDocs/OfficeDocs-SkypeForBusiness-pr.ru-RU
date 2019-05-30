@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять возможностью обнаружения конфиденциальных команд пользователями Microsoft Teams с помощью предложений в галерее группы и в результатах поиска.
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304404"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494628"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Управление обнаружением закрытых команд в Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "34304404"
 
 Большинство организаций обладают следующими видами teams: общедоступные группы, обнаруживаемые закрытые группы и закрытые группы, которые не могут быть доступны для совместного использования.
 
-![Коллекция групп](media/private-team-discovery-team-gallery.png)
+![Снимок экрана с коллекцией групп](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>Общедоступные группы
 
@@ -52,7 +52,7 @@ ms.locfileid: "34304404"
 
 Когда владелец группы создает закрытую команду, она может сделать ее обнаруживаемой, настроив параметр обнаружения группы. По умолчанию новые закрытые команды доступны для поиска и обнаружения. Если владелец команды не хочет, чтобы частная группа отображалась в результатах поиска и предложениях, она может отключить этот параметр, выбрав команду **изменить параметры** рядом с **этой командой, чтобы можно было просматривать и находить**нужные данные.
 
-![параметр обнаружения для новых закрытых команд](media/private-team-discovery-new-team.png)
+![Снимок экрана с параметрами обнаружения для новых закрытых команд](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>Настройка возможности обнаружения существующих закрытых команд
 
@@ -62,7 +62,7 @@ ms.locfileid: "34304404"
 
 В Teams перейдите в раздел закрытая группа, щелкните **Дополнительные параметры ̇ ̇ ̇** > **Управление группой**. На вкладке **Параметры** разверните узел **обнаружение групп**, а затем снимите или установите флажок **включить обнаружение** .
 
-![параметр обнаружения для существующих закрытых команд](media/private-team-discovery-existing-team.png)
+![Снимок экрана с параметрами обнаружения для существующих закрытых команд](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>Использование PowerShell (ожидается в ближайшее время)
 

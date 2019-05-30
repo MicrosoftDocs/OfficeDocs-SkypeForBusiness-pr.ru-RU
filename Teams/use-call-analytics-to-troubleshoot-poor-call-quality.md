@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Для устранения проблем с пользователями в Microsoft Teams и Skype для бизнеса и собраний вы можете использовать подробные сведения о работе с аналитическими вызовами по устройствам, сетям и подключениям.
-ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288198"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548982"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Использование аналитики звонков для устранения проблем с качеством звонка
 
@@ -64,13 +64,13 @@ ms.locfileid: "34288198"
     
 3. На **панели мониторинга**в области **поиска пользователей**Начните вводить имя или SIP-адрес пользователя, звонки которого вы хотите устранить, или выберите **Просмотр пользователей** , чтобы просмотреть список пользователей.
     
-    ![Снимок экрана: поле поиска пользователей в средстве аналитики звонков в центре администрирования Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Снимок экрана: поле поиска пользователей в средстве аналитики звонков](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 4. Выберите пользователя из списка.
 
 5. Выберите **Журнал звонков**, а затем выберите звонок или собрание, для которых вы хотите устранить неполадки.
     
-    ![Снимок экрана, на котором показана страница журнала звонков для пользователя.](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![Снимок экрана: страница журнала звонков для пользователя.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
 6. Перейдите на вкладку **Дополнительно** и найдите желтые и красные элементы, указывающие на качество связи или проблемы с подключением.
     

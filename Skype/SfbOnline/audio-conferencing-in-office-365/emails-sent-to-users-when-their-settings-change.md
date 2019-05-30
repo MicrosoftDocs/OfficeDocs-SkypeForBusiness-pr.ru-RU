@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, какие данные автоматически отправляются пользователям по электронной почте при изменении настроек конференц-связи с телефонным подключением в Skype для бизнеса Online. '
-ms.openlocfilehash: 7f16e4dfdb108111767f173295044ca4bdfc0475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275626"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494289"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Сообщения электронной почты, отправляемые пользователям при изменении их параметров в Skype для бизнеса Online
 
@@ -111,7 +111,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 По умолчанию сообщения будут отправляться пользователям, но если вы не хотите, чтобы они могли получать электронную почту для голосовой конференции, вы можете использовать центр администрирования Skype для бизнеса или Windows PowerShell. 
  
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png)  **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png)Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**  
     
 1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
     

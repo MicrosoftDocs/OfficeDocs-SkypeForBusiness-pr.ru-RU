@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 8cc1bc8a1a510bfa6353fe2d65e1253b738011bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a225f55bd03793fa184dab8478fd608170418f2d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283473"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494524"
 ---
 # <a name="calling-plans-for-office-365"></a>Планы звонков для Office 365
 
@@ -87,7 +87,7 @@ ms.locfileid: "34283473"
     
 - [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Планирование решения телефонной системы в Office 365 (облачная УАТС)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
+- [Возможности телефонной системы в Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## <a name="related-topics"></a>Статьи по теме

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для стационарных телефонов с областями.
-ms.openlocfilehash: 59b681fecfe4fe6c2b9d89c7dbea875f30152340
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297991"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493860"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -81,7 +81,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Шаг 3 - Назначьте номер телефона учетной записи пользователя телефона общего пользования
 
-![sfb-logo-30x30.png](../../images/sfb-logo-30x30.png) Назначьте номер телефона пользователю, используя **Центр администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../../images/sfb-logo-30x30.png) Skype для бизнеса, назначает пользователю телефонный номер с помощью **центра администрирования Skype для бизнеса** .
 
 1. В центре администрирования Office 365 _гт_ **центр** > администрирования**Skype для бизнеса**.
 2. Далее: **Центр администрирования Skype для бизнеса** >  **Голосовая связь** > **Номера телефонов**.

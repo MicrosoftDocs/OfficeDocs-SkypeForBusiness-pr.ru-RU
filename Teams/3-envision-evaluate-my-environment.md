@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94138e30f9b98b9671b53ce64bfe67dd98b3216f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344727"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548384"
 ---
 # <a name="evaluate-my-environment"></a>Оценка среды
 
@@ -73,7 +73,7 @@ ms.locfileid: "34344727"
 
 В Teams используются аудио-и видеотехнологии (кодеки), которые могут адаптироваться к (и, следовательно, более качественно) в соответствии с большинством условий сети. Чтобы обеспечить оптимальную и постоянную производительность, необходимо подготовить сеть для Teams.
 
-![Схема, описывающая три компонента качества, и способ перекрытия управления службами всех трех компонентов] (media/evaluate-my-environment-image1.png "Схема, описывающая три компонента качества, и способ перекрытия управления службами всех трех компонентов. С фокусом на сети.")
+![Схема, описывающая три компонента качества] (media/evaluate-my-environment-image1.png "Схема, описывающая три компонента качества, и способ перекрытия управления службами всех трех компонентов. С фокусом на сети.")
 
 ## <a name="key-takeaways"></a>Клавиша моментов
 

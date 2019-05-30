@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344703"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548368"
 ---
 # <a name="deploy-my-service"></a>Развертывание службы
 
@@ -64,7 +64,7 @@ ms.locfileid: "34344703"
 
 [Плайбук включения сайта для голосовой связи (плайбук)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) — это книга Microsoft Excel. Каждая из этих пяти областей фокуса является отдельным листом в книге, а каждая задача развертывания и действия группируются на один из этих листов.
 
-![Снимок экрана: плайбук] (media/deploy-my-service-image1.png "Снимок экрана: плайбук")
+![Снимок экрана: плайбук включения сайта] (media/deploy-my-service-image1.png "Снимок экрана: плайбук")
 
 > [!NOTE]
 > Вы создадите отдельный экземпляр плайбук для каждого сайта в области для выпуска Teams.
@@ -88,7 +88,7 @@ ms.locfileid: "34344703"
 5. Просмотрите все действия, выполните необходимые действия и обновите состояние по мере пошаговой проверки на временной шкале. Графическое представление состояния, как описано ниже.
   
    - ![Зеленая](media/deploy-my-service-image3.png) галочка **Да или нет (зеленый):** действие завершено или неприменимо для этого сайта, и никаких дополнительных действий не требуется.</li>
-    - ![Изображение желтого восклицательного знака](media/deploy-my-service-image4.png) <strong>действие еще не завершено (желтое):</strong> действие еще не завершено, и его необходимо изменить на "Да" или "нет" в расписании.</li>
+   - ![Изображение желтого восклицательного знака](media/deploy-my-service-image4.png) <strong>действие еще не завершено (желтое):</strong> действие еще не завершено, и его необходимо изменить на "Да" или "нет" в расписании.</li>
    - ![Красный крестик](media/deploy-my-service-image5.png) <strong>(красный):</strong> действие не может быть выполнено из-за проблемы и должно быть перенесено на собрание по состоянию проекта.</li></ul>
 
 6. Состояние сведено в каждом разделе, а заголовок раздела форматируется с помощью одного из этих индикаторов состояния. **Еженедельное состояние** также обновляется автоматически.
@@ -103,8 +103,8 @@ ms.locfileid: "34344703"
 Обратите внимание на действия, которые могут занять больше времени, чем запланировано, например на перенос номеров и действия по закупкам. Эти действия могут негативно повлиять на временную шкалу развертывания сайта. Убедитесь, что вы просматриваете и обновляете список мероприятий и связанную временную шкалу [](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) еженедельно и появятся их на собрании комитетов, чтобы убедиться в том, что заинтересованные лица знают о состоянии каждого сайта и возможных отклонениях от расписания развертывания.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Точки принятия решений</td><td><ul><li>Решите, требуется ли для развертывания Плайбук включения сайта.</li><li>Определите, кто будет отвечать за настройку включения сайта в Плайбук для Microsoft Teams для каждого сайта, который вы хотите развернуть.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Скачайте Плайбук включения сайта</a>.</li><li>Настройка Плайбук включения сайта для первого сайта.</li><li>При необходимости повторите эти действия для дополнительных сайтов.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Точки принятия решений</td><td><ul><li>Решите, требуется ли для развертывания Плайбук включения сайта.</li><li>Определите, кто будет отвечать за настройку включения сайта в Плайбук для Microsoft Teams для каждого сайта, который вы хотите развернуть.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Дальнейшие действия</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Скачайте Плайбук включения сайта</a>.</li><li>Настройка Плайбук включения сайта для первого сайта.</li><li>При необходимости повторите эти действия для дополнительных сайтов.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

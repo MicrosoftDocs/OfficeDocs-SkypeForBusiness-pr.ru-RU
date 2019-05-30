@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433281"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493757"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -70,8 +70,8 @@ ms.locfileid: "34433281"
 
 | | | |
 |---------|---------|---------|
-|![Значок для точки принятия решений.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Точка принятия решений         |<ul><li>Каков план Организации для Teams по всей Организации?  (в пилотном или открытом режиме)?</li></ul>         |
-|![Значок дальнейших действий.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Дальнейшие действия         |<ul><li>Если вы выполняете предварительную подплату в закрытом пилотном проекте, решите, нужно ли это сделать с помощью лицензирования или для целей предустановления связи.</li><li>В зависимости от решения примите меры, чтобы убедиться, что только пилотные пользователи, которым разрешен доступ к Teams (при необходимости).</li><li>Задокументируйте рекомендации для пользователей, которые будут (или не будут) иметь доступ к Teams.</li></ul>         |
+|![Значок, представляющий точку принятия решения](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Точка принятия решений         |<ul><li>Каков план Организации для Teams по всей Организации?  (в пилотном или открытом режиме)?</li></ul>         |
+|![Значок, представляющий следующие шаги](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Дальнейшие действия         |<ul><li>Если вы выполняете предварительную подплату в закрытом пилотном проекте, решите, нужно ли это сделать с помощью лицензирования или для целей предустановления связи.</li><li>В зависимости от решения примите меры, чтобы убедиться, что только пилотные пользователи, которым разрешен доступ к Teams (при необходимости).</li><li>Задокументируйте рекомендации для пользователей, которые будут (или не будут) иметь доступ к Teams.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Управление группами на уровне клиентов Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

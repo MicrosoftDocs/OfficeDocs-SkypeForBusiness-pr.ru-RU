@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается, как запланировать обход мультимедиа с прямой маршрутизацией телефонной системы.
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290463"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493918"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Планирование обхода сервера-посредника с прямой маршрутизацией
 
@@ -70,7 +70,7 @@ ms.locfileid: "34290463"
 
 - Сигнал SIP всегда принимает пути 4 и 4 (в зависимости от направления трафика). Мультимедиа останется на локальном компьютере, и его путь — 5b.
 
-![Показывает поток звонков с включенным пропуском мультимедиа, клиент является внутренним и может связаться с общедоступным IP-адресом контроллера границ сеанса (Direct Media)](media/direct-routing-media-bypass-3.png)
+![Показывает поток звонков с включенным пропуском мультимедиа, клиент является внутренним](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Поток звонков, если пользователь не имеет доступа к общедоступному IP-адресу SBC
@@ -91,7 +91,7 @@ ms.locfileid: "34290463"
 
 - Мультимедиа ретранслируется с помощью путей 3, 3, 4 и 4.
 
-![Показывает поток вызова, если пользователь не имеет доступа к общедоступному IP-адресу SBC.](media/direct-routing-media-bypass-4.png)
+![Показывает поток вызова, если пользователь не имеет доступа к общедоступному IP-адресу объекта SBC](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Поток звонков, если пользователь находится за пределами сети и имеет доступ к общедоступному IP-адресу SBC
@@ -105,7 +105,7 @@ ms.locfileid: "34290463"
 
 - Сигнал SIP всегда принимает пути 3 и 3 (в зависимости от направления трафика). Потоки мультимедиа, использующие путь 2.
 
-![Показывает поток вызова, если пользователь не имеет доступа к общедоступному IP-адресу SBC.](media/direct-routing-media-bypass-5.png)
+![Показывает поток вызова, если пользователь не имеет доступа к общедоступному IP-адресу объекта SBC](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Использование мультимедийных процессоров и реле транспортировки
@@ -125,7 +125,7 @@ ms.locfileid: "34290463"
 
 - Прокси-сервер SIP — компонент, который преобразует сигналы HTTP RESTFUL, используемые в Teams, в SIP.    
 
-![Два потока звонков — один с включенным пропуском мультимедиа, а второй — отключением мультимедиа.](media/direct-routing-media-bypass-6.png)
+![Показывает потоки звонков с включенным и отключенным пропуском мультимедиа](media/direct-routing-media-bypass-6.png)
 
 
 В приведенной ниже таблице показано различие между процессорами мультимедиа и реле транспорта.

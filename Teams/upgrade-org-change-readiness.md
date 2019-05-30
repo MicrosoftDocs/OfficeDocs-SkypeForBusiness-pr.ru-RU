@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0376c97ed86bb3a34def70c25a81bc79104a27
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 0b1fcbd95d58dd53eb2f8e4289563ab403f73e29
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344478"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548495"
 ---
-![Этапы путешествия по обновлению с акцентом на этапе готовности пользователей] (media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
+![Обновление схемы поездки с акцентом на этапе готовности пользователя] (media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
 
 Эта статья входит в стадию готовности пользователя к обновлению, действия, завершенные параллельно с этапом технического подготовки. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
 

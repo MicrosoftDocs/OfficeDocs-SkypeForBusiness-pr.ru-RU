@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
-ms.openlocfilehash: 5daea877e17582ecb85bc8d7e13db5001dcdbfc6
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.openlocfilehash: 7faad94822e6392d66c44dd67cb461abf69e47dd
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408512"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493927"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Установка PIN-кода для передачи номеров новому поставщику услуг
 
@@ -50,7 +50,7 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
     
 ## <a name="set-up-your-pin"></a>Настройка ПИН-кода
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     

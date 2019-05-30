@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Узнайте, как просмотреть список всех телефонных номеров в вашей организации, все номера, назначенные пользователям, и все номера, назначенные пользователям голосовой связи, из центра администрирования Skype для бизнеса.
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280471"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493909"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
 
@@ -34,7 +34,7 @@ ms.locfileid: "34280471"
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Просмотр списка всех телефонных номеров, имеющихся в организации
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
@@ -64,7 +64,7 @@ ms.locfileid: "34280471"
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Просмотр всех телефонных номеров, назначенных пользователям
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 
 При настройке параметров пользователей вам может понадобиться просмотреть список телефонных номеров, которые уже назначены пользователям, и какие телефонные номера можно им назначить.
@@ -88,7 +88,7 @@ ms.locfileid: "34280471"
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Просмотр телефонных номеров, назначенных пользователям голосовой связи
 
-![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
 
 When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the list of the users that have phone numbers assigned to users, those that don't and whether a user is hosted Online or on-premises.

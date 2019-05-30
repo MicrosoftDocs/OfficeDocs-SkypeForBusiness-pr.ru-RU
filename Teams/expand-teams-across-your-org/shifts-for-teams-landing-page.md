@@ -1,6 +1,6 @@
 ---
 title: "\"Смены\" для Teams"
-description: Ознакомьтесь с рекомендациями администратора, необходимую для настройки и управления ими смены, средства управления расписание в группах.
+description: В этой статье приведены инструкции для администраторов по настройке и управлению сменами, а также с помощью средства управления планированием в Teams.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,18 +12,18 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa060ac4707f223ea960bdda3c7bc53a8d134e80
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245910"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494508"
 ---
 # <a name="shifts-for-teams"></a>"Смены" для Teams
 
-Команды предоставляет Firstline сотрудников в вашей организации средства, необходимые для связи и эффективная совместная работа и эффективную работу. Здесь вы найдете руководство администратора, необходимую для настройки и управления ими смены, средства управления расписание в группах.
+Teams дает сотрудникам Firstline в вашей организации инструменты, необходимые для эффективного общения и совместной работы. Здесь вы найдете руководство для администраторов по настройке и управлению сменами, а также с помощью средства управления планированием в Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Перемещение из StaffHub смены в группах
+### <a name="move-from-staffhub-to-shifts-in-teams"></a>Переход от StaffHub к сменам в Teams
 
 <ul class="panelContent cardsFTitle">
  <li>
@@ -33,11 +33,11 @@ ms.locfileid: "32245910"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Описание пенсионного обеспечения StaffHub и переход на смены в группах</h3>
+                        <h3>Узнайте о возможностях выбытия и переходе на смену StaffHub в Teams</h3>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,11 @@ ms.locfileid: "32245910"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Перемещение ваших команд StaffHub смены в группах</h3>
+                        <h3>Перемещение StaffHubных групп в смену в Teams</h3>
                     </div>
                 </div>
             </div>
@@ -69,11 +69,11 @@ ms.locfileid: "32245910"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Функции рабочих Firstline готовится к группам</h3>
+                        <h3>Firstline рабочих возможностей, поступающих в Teams</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ ms.locfileid: "32245910"
     </li>
 </ul>
 
-### <a name="set-up-and-manage-shifts"></a>Настройка и управление смены
+### <a name="set-up-and-manage-shifts"></a>Настройка смен и управление ими
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -92,11 +92,11 @@ ms.locfileid: "32245910"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Управление смен в вашей организации</h3>
+                        <h3>Управление сменами в Организации</h3>
                     </div>
                 </div>
             </div>
@@ -110,11 +110,11 @@ ms.locfileid: "32245910"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Сдвигает справки для работников Firstline</h3>
+                        <h3>Справка по сменам для Firstline работников</h3>
                     </div>
                 </div>
             </div>

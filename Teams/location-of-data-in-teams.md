@@ -7,7 +7,7 @@ ms.date: 05/09/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: Сведения о котором хранятся данные в группах Microsoft.
+description: Сведения о том, где хранятся данные в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,29 +15,29 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 369351b818506525cf750d7e5d767b3bdbf97906
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868842"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548185"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Расположение данных в Microsoft Teams
 
-Данные Teams располагаются в географическом регионе, связанном с клиентом Office 365. На данный момент группам поддерживает области Австралия, Канада, Франция, Индия, Японии, Соединенное Королевство, Америке, APAC и EMEA. 
+Данные Teams располагаются в географическом регионе, связанном с клиентом Office 365. В настоящее время Teams поддерживает регионы "Австралия", "Канада", "США", "французский, Великобритания, Америки, APAC и региона". 
 
 > [!IMPORTANT]
-> Команды в настоящее время предлагает местонахождения данных в Австралии, Канада, Франция, Индии, Японии и Соединенное Королевство для новых клиентов только. Новым считается любой клиент, ни один пользователь которого еще ни разу не входил в Teams. Существующие клиенты из Австралии, Индия и Японии будет продолжать их группами данные, хранящиеся в Азиатско-Тихоокеанском регионе. Существующие клиенты в Канада будут иметь свои данные, хранящиеся в Америке. Франция и Соединенное Королевство будут иметь свои данные, хранящиеся в регион EMEA.
+> В настоящее время команды предоставляют Кель данных в Австралии, Канаде, Франции, Индии, Японии и Великобритании только для новых клиентов. Новым считается любой клиент, ни один пользователь которого еще ни разу не входил в Teams. Существующие клиенты из Австралии, Индии и Японии продолжат хранение данных Teams в APAC регионе. Существующие клиенты в Канаде продолжат хранение данных в Америки. У Франции и Великобритании будут храниться данные в регионе EMEA.
 
-Чтобы узнать больше о запуска Индия и Соединенное Королевство местонахождения данных для групп, прочитайте Ansuman Acharya записи блога, [группами Майкрософт запускает Индия данных местонахождения, другие geos готовится к выпуску](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
+Чтобы узнать больше о том, как запускать Индии и Великобритания Data Кель для Teams, читайте в блоге Ансуман Ачаря, [Microsoft Teams запускает Кель данных в Индии, а другие жеос —](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)в ближайшее время. 
 
-Дополнительные сведения о Канада данных местонахождения для групп чтение Varun Sagar публикация в блоге, [местонахождения данных Канада запускает Microsoft групп, Австралия и Японии готовится к выпуску](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Для получения дополнительных сведений о Кель данных в Канаде для Teams, читайте в блоге Варун Сагар, [Microsoft Teams запускает в скором времени данные в Канаде, Кель, Австралии и Японии](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Чтобы узнать больше о запуска Австралия и Японии местонахождения данных для групп, прочитайте Varun Sagar публикация в блоге, [Австралия запускает Microsoft групп и Японии данных местонахождения](https://go.microsoft.com/fwlink/?linkid=867773). 
+Чтобы узнать больше о запуске Австралии и Японии данных Кель для Teams, читайте в блоге Варун Сагар, [Microsoft Teams выпустит данные для Австралии и Японии Кель](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Чтобы узнать больше о запуска Франции данных местонахождения для групп, чтение Varun Sagar записи блога [Microsoft группами запускает Франции данных местонахождения](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
+Чтобы узнать больше о запуске Франции Data Кель для Teams, читайте в блоге Варун Сагар, в Microsoft Teams выводятся [данные для Франции Кель](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466). 
 
-Чтобы просмотреть область, которая содержит данные для вашего клиента, перейдите в [Центр администрирования Microsoft 365](https://portal.office.com/adminportal/home) > **Параметры** > **профиля организации**. Опуститесь ниже в раздел **Расположение данных**. 
+Чтобы узнать, в каком регионе находятся данные для вашего клиента, откройте**профиль организации** > **Параметры** >  [центра администрирования Microsoft 365](https://portal.office.com/adminportal/home). Опуститесь ниже в раздел **Расположение данных**. 
 
-![Снимок экрана в таблице расположение данных, включая командами, в центре администрирования Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Снимок экрана: таблица "расположение данных", включая команды в центре администрирования](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
