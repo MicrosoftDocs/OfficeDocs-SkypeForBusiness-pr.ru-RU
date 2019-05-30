@@ -19,46 +19,46 @@ f1keywords:
 ms.custom:
 - Setup
 description: Сведения о том, как включать и отключать уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих, голосовых сообщениях и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: 46d1f6d0f28f9236a16a4818359b45909c216f0b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285027"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494056"
 ---
-# <a name="turn-on-or-off-mobile-phone-notifications"></a><span data-ttu-id="bec4a-103">Включение и отключение уведомлений на мобильном телефоне</span><span class="sxs-lookup"><span data-stu-id="bec4a-103">Turn on or off mobile phone notifications</span></span>
+# <a name="turn-on-or-off-mobile-phone-notifications"></a><span data-ttu-id="8ce0b-103">Включение и отключение уведомлений на мобильном телефоне</span><span class="sxs-lookup"><span data-stu-id="8ce0b-103">Turn on or off mobile phone notifications</span></span>
 
-<span data-ttu-id="bec4a-104">Как **[назначить роли администратора в Office 365 для бизнеса в](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** Организации, вы можете выбрать, будут ли пользователи Skype для бизнеса получать оповещения о входящих и пропущенных мгновенных сообщениях, находящихся на мобильных телефонах или планшетах.</span><span class="sxs-lookup"><span data-stu-id="bec4a-104">As the **[Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.</span></span>
+<span data-ttu-id="8ce0b-104">Как **[назначить роли администратора в Office 365 для бизнеса в](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** Организации, вы можете выбрать, будут ли пользователи Skype для бизнеса получать оповещения о входящих и пропущенных мгновенных сообщениях, находящихся на мобильных телефонах или планшетах.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-104">As the **[Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.</span></span>
   
-<span data-ttu-id="bec4a-105">На устройствах с Android и Windows на мобильных телефонах всплывающие уведомления Skype для бизнеса находятся в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="bec4a-105">On Android and Windows Phones, Skype for Business notifications pop up in real time.</span></span> <span data-ttu-id="bec4a-106">Однако для устройств с Windows Phone, iPhone и iPad при использовании push-уведомлений вы можете показывать оповещения каждый раз, когда вы не используете Skype для бизнеса на телефоне или планшете.</span><span class="sxs-lookup"><span data-stu-id="bec4a-106">For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.</span></span>
+<span data-ttu-id="8ce0b-105">На устройствах с Android и Windows на мобильных телефонах всплывающие уведомления Skype для бизнеса находятся в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-105">On Android and Windows Phones, Skype for Business notifications pop up in real time.</span></span> <span data-ttu-id="8ce0b-106">Однако для устройств с Windows Phone, iPhone и iPad при использовании push-уведомлений вы можете показывать оповещения каждый раз, когда вы не используете Skype для бизнеса на телефоне или планшете.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-106">For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.</span></span>
   
-## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a><span data-ttu-id="bec4a-107">Отключение push-уведомлений для всех устройств с Windows Phone и Apple в Организации</span><span class="sxs-lookup"><span data-stu-id="bec4a-107">Turn push notifications off for all the Windows Phone or Apple devices in your organization</span></span>
-<span data-ttu-id="bec4a-108"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="bec4a-108"></span></span>
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a><span data-ttu-id="8ce0b-107">Отключение push-уведомлений для всех устройств с Windows Phone и Apple в Организации</span><span class="sxs-lookup"><span data-stu-id="8ce0b-107">Turn push notifications off for all the Windows Phone or Apple devices in your organization</span></span>
+<span data-ttu-id="8ce0b-108"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="8ce0b-108"></span></span>
 
-<span data-ttu-id="bec4a-109">![SFB-Logo-30x30. png](../images/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**</span><span class="sxs-lookup"><span data-stu-id="bec4a-109">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="8ce0b-109">![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**</span><span class="sxs-lookup"><span data-stu-id="8ce0b-109">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="bec4a-110">Войдите в Office 365.</span><span class="sxs-lookup"><span data-stu-id="bec4a-110">Sign in to Office 365.</span></span>
+1. <span data-ttu-id="8ce0b-110">Войдите в Office 365.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-110">Sign in to Office 365.</span></span>
     
-2. <span data-ttu-id="bec4a-111">Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="bec4a-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
+2. <span data-ttu-id="8ce0b-111">Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-111">Go to the **Office 365 admin center** > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="bec4a-112">Перейдите к разделу**Общие** **Организации** > .</span><span class="sxs-lookup"><span data-stu-id="bec4a-112">Go to **Organization** > **General**.</span></span> 
+3. <span data-ttu-id="8ce0b-112">Перейдите к разделу**Общие** **Организации** > .</span><span class="sxs-lookup"><span data-stu-id="8ce0b-112">Go to **Organization** > **General**.</span></span> 
     
-4. <span data-ttu-id="bec4a-113">В разделе **уведомления на мобильном телефоне**снимите флажок рядом с службой уведомлений, которую вы хотите отключить, и нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="bec4a-113">Under **Mobile phone notifications**, clear the box next to the notification service you want to disable, and then click **Save**.</span></span>
+4. <span data-ttu-id="8ce0b-113">В разделе **уведомления на мобильном телефоне**снимите флажок рядом с службой уведомлений, которую вы хотите отключить, и нажмите кнопку **сохранить**.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-113">Under **Mobile phone notifications**, clear the box next to the notification service you want to disable, and then click **Save**.</span></span>
     
-<span data-ttu-id="bec4a-114">Помните:</span><span class="sxs-lookup"><span data-stu-id="bec4a-114">Keep in mind:</span></span> 
+<span data-ttu-id="8ce0b-114">Помните:</span><span class="sxs-lookup"><span data-stu-id="8ce0b-114">Keep in mind:</span></span> 
   
-- <span data-ttu-id="bec4a-115">Если вы отключите push-уведомления, пользователи по-прежнему получат все оповещения при повторном запуске Skype для бизнеса на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="bec4a-115">If you turn off push notifications, users still receive all alerts when they start up Skype for Business again on their mobile device.</span></span>
+- <span data-ttu-id="8ce0b-115">Если вы отключите push-уведомления, пользователи по-прежнему получат все оповещения при повторном запуске Skype для бизнеса на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-115">If you turn off push notifications, users still receive all alerts when they start up Skype for Business again on their mobile device.</span></span>
     
-- <span data-ttu-id="bec4a-116">Push-уведомления включены по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="bec4a-116">Push notifications are turned on by default.</span></span> <span data-ttu-id="bec4a-117">Отдельные пользователи могут отключить их, выбрав соответствующий параметр Skype для бизнеса на своем мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="bec4a-117">Individual users can turn them off by choosing the appropriate Skype for Business option on their mobile device.</span></span>
+- <span data-ttu-id="8ce0b-116">Push-уведомления включены по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-116">Push notifications are turned on by default.</span></span> <span data-ttu-id="8ce0b-117">Отдельные пользователи могут отключить их, выбрав соответствующий параметр Skype для бизнеса на своем мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-117">Individual users can turn them off by choosing the appropriate Skype for Business option on their mobile device.</span></span>
     
-- <span data-ttu-id="bec4a-118">Если вы отключите push-уведомления, пользователи не смогут снова включить их.</span><span class="sxs-lookup"><span data-stu-id="bec4a-118">When you turn off push notifications, users can't turn them back on.</span></span>
+- <span data-ttu-id="8ce0b-118">Если вы отключите push-уведомления, пользователи не смогут снова включить их.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-118">When you turn off push notifications, users can't turn them back on.</span></span>
     
 > [!IMPORTANT]
->  <span data-ttu-id="bec4a-119">Корпорация Майкрософт использует другие компании для получения уведомлений о Skype для бизнеса в реальном времени для пользователей Windows Phone, iPhone и iPad.</span><span class="sxs-lookup"><span data-stu-id="bec4a-119">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="bec4a-120">Ознакомьтесь с заявлением [о конфиденциальности для продуктов Microsoft Skype для бизнеса](https://go.microsoft.com/fwlink/p/?linkid=247732).</span><span class="sxs-lookup"><span data-stu-id="bec4a-120">See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span> 
+>  <span data-ttu-id="8ce0b-119">Корпорация Майкрософт использует другие компании для получения уведомлений о Skype для бизнеса в реальном времени для пользователей Windows Phone, iPhone и iPad.</span><span class="sxs-lookup"><span data-stu-id="8ce0b-119">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="8ce0b-120">Ознакомьтесь с заявлением [о конфиденциальности для продуктов Microsoft Skype для бизнеса](https://go.microsoft.com/fwlink/p/?linkid=247732).</span><span class="sxs-lookup"><span data-stu-id="8ce0b-120">See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="bec4a-121">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="bec4a-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8ce0b-121">Статьи по теме</span><span class="sxs-lookup"><span data-stu-id="8ce0b-121">Related topics</span></span>
 
-[<span data-ttu-id="bec4a-122">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="bec4a-122">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+[<span data-ttu-id="8ce0b-122">Настройка Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="8ce0b-122">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
   
  

@@ -12,20 +12,20 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
-description: Обучающие видеозаписи, наборов слайдов PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертывание и запуск группами Майкрософт.
+description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 826d2751f1b00c3c556d8f3760b6b94666cff4f7
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225946"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493869"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
 
-Используйте обучающие ресурсы для себя информировать о группах, обучение другими пользователями или выполнения семинары по. Советуем почаще посещать эту для нового контента. 
+Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров. Регулярно проверяйте новое содержимое. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -35,11 +35,11 @@ ms.locfileid: "32225946"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Начало работы с помощью нескольких групп и каналы fast</h3>
+                        <h3>Быстро приступите к работе с несколькими группами и каналами</h3>
                     </div>
                 </div>
             </div>
@@ -53,11 +53,11 @@ ms.locfileid: "32225946"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Просмотр best practice и инструкции по видео в кофе в облаке канал на сайте YouTube</h3>
+                        <h3>Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -71,11 +71,11 @@ ms.locfileid: "32225946"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Получение обучение пользователей</h3>
+                        <h3>Обучение пользователей</h3>
                     </div>
                 </div>
             </div>
@@ -85,28 +85,28 @@ ms.locfileid: "32225946"
 </ul>
 
 
-<h2>Обучающие</h2>
+<h2>Техническое обучение</h2>
 
-| Модуль | Видеосвязь | Презентации PowerPoint |
+| Модуль | Видеосвязь | Набор слайдов PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| Основы - основные компоненты | [Видео](https://aka.ms/teams-foundations) | [Колоды](https://aka.ms/teams-foundations-deck) |
-| Клиент настольных компьютеров Windows | [Видео](https://aka.ms/teams-clients) | [Колоды](https://aka.ms/teams-clients-deck) |
-| Управление, управления и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Колоды](https://aka.ms/teams-governance-deck) |
-| Соответствие требованиям безопасности & | [Видео](https://aka.ms/teams-security-compliance) | [Колоды](https://aka.ms/teams-security-compliance-deck) |
-| Планирование сети | [Видео](https://aka.ms/teams-networking) | [Колоды](https://aka.ms/teams-networking-deck) |
-| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Колоды](https://aka.ms/teams-quality-deck) |
-| Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Колоды](https://aka.ms/teams-meetings-intro-deck) |
-| Событий в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Колоды](https://aka.ms/teams-live-events-deck) |
-| Общие сведения о системе телефона | [Видео](https://aka.ms/teams-phone-system) | [Колоды](https://aka.ms/teams-phone-system-deck) |
-| Прямая отправка | [Видео](https://aka.ms/teams-direct-routing) | [Колоды](https://aka.ms/teams-direct-routing-deck) |
-| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения об обновлении](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3: Взаимодействие и сосуществование](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Колоды](https://aka.ms/teams-upgrade-deck)|
+| Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
+| Классическое приложение Windows | [Видео](https://aka.ms/teams-clients) | [Крытий](https://aka.ms/teams-clients-deck) |
+| Руководство, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Крытий](https://aka.ms/teams-governance-deck) |
+| Соответствие требованиям безопасности _Амп_ | [Видео](https://aka.ms/teams-security-compliance) | [Крытий](https://aka.ms/teams-security-compliance-deck) |
+| Сетевое планирование | [Видео](https://aka.ms/teams-networking) | [Крытий](https://aka.ms/teams-networking-deck) |
+| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Крытий](https://aka.ms/teams-quality-deck) |
+| Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Крытий](https://aka.ms/teams-meetings-intro-deck) |
+| События в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Крытий](https://aka.ms/teams-live-events-deck) |
+| Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Крытий](https://aka.ms/teams-phone-system-deck) |
+| Прямая маршрутизация | [Видео](https://aka.ms/teams-direct-routing) | [Крытий](https://aka.ms/teams-direct-routing-deck) |
+| Переход со Skype для бизнеса на Teams | [Видеоролик 1: введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видеоролик 3: сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Крытий](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Краткие руководства по началу работы</h2>
 
-- [Краткое руководство: группы для образовательных учреждений "Администраторы"](teams-quick-start-edu.yml)
-- [Краткое руководство: Настройка вызов планы в группах](configuring-teams-calling-quickstartguide.md)
+- [Краткое руководство: группы для администраторов для образования](teams-quick-start-edu.yml)
+- [Краткое руководство: Настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
 
-<h2>Учебные материалы</h2>
+<h2>Материалов</h2>
 
 - [Руководство. Переход со Skype для бизнеса на Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
@@ -115,5 +115,5 @@ ms.locfileid: "32225946"
 
 <h2>Курсы</h2>
 
-- [Включение качества совместной работы с группами Майкрософт](https://aka.ms/edx-cld267x-about)
-- [Специалист по внедрению службы Microsoft](https://aka.ms/AdoptionCert)
+- [Включение функции совместной работы с Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Специалист по внедрению служб (Майкрософт)](https://aka.ms/AdoptionCert)

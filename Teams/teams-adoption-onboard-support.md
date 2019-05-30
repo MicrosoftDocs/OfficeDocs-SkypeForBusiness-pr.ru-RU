@@ -10,28 +10,28 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Включение встроенный персоналу службы поддержки эксперимента этапа перехода к группам.
+description: Попросите специалиста службы поддержки провести этап эксперимента для принятия команд.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c45425e2b709b54bcc75714852d64459ff968b5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb27e8ab8722324bbfbb9bd065c0675c6b4b1631
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896252"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494826"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a><span data-ttu-id="6e225-103">Подключение службы поддержки по Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="6e225-103">Onboard support for Microsoft Teams</span></span>
+# <a name="onboard-support-for-microsoft-teams"></a><span data-ttu-id="ccde4-103">Подключение службы поддержки по Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ccde4-103">Onboard support for Microsoft Teams</span></span>
 
-<span data-ttu-id="6e225-104">Чтобы обеспечить первых пользователей и групп чемпионатов соответствующий поддерживается в начале их с помощью команды, соответствуют с вашей персоналу службы поддержки и предварительный просмотр возможностей групп.</span><span class="sxs-lookup"><span data-stu-id="6e225-104">To ensure that the early adopter and champions teams will have the appropriate support as they start using Teams, meet with your support staff and review the capabilities of Teams.</span></span> <span data-ttu-id="6e225-105">Ключевые элементы поддержки организации может потребоваться присоединиться к программе первых пользователей.</span><span class="sxs-lookup"><span data-stu-id="6e225-105">Key members of the support organization may want to join your early adopter program.</span></span> <span data-ttu-id="6e225-106">Поощрение их использования группами в свои собственные сценарии.</span><span class="sxs-lookup"><span data-stu-id="6e225-106">Encourage their use of Teams in their own scenarios.</span></span> <span data-ttu-id="6e225-107">Пройти их основные входящая продукта с помощью нашего интерактивного обучения ресурсы.</span><span class="sxs-lookup"><span data-stu-id="6e225-107">Take them through the basic onboarding of the product by using our online training resources.</span></span>  
+<span data-ttu-id="ccde4-104">Чтобы убедиться в том, что раннее внедрение и лидерами Teams будут поддерживаться в соответствии с вашими группами, соблюдайте с сотрудниками службы поддержки и ознакомьтесь с возможностями Teams.</span><span class="sxs-lookup"><span data-stu-id="ccde4-104">To ensure that the early adopter and champions teams will have the appropriate support as they start using Teams, meet with your support staff and review the capabilities of Teams.</span></span> <span data-ttu-id="ccde4-105">Основные участники организации службы поддержки могут присоединиться к программе раннего использования.</span><span class="sxs-lookup"><span data-stu-id="ccde4-105">Key members of the support organization may want to join your early adopter program.</span></span> <span data-ttu-id="ccde4-106">Поощряйте использование команд в своих сценариях.</span><span class="sxs-lookup"><span data-stu-id="ccde4-106">Encourage their use of Teams in their own scenarios.</span></span> <span data-ttu-id="ccde4-107">Изменяйте их с помощью основных обучающих ресурсов в Интернете.</span><span class="sxs-lookup"><span data-stu-id="ccde4-107">Take them through the basic onboarding of the product by using our online training resources.</span></span>  
 
-- [<span data-ttu-id="6e225-108">Основы группами Майкрософт</span><span class="sxs-lookup"><span data-stu-id="6e225-108">Foundations of Microsoft Teams</span></span>](https://youtu.be/xJBvJTDiQqg)
-- [<span data-ttu-id="6e225-109">Устранение неполадок в группы</span><span class="sxs-lookup"><span data-stu-id="6e225-109">Troubleshooting Teams</span></span>](https://youtu.be/0KNh9KNpXcA)
-- [<span data-ttu-id="6e225-110">Список известных проблем</span><span class="sxs-lookup"><span data-stu-id="6e225-110">Known issues list</span></span>](https://aka.ms/TeamsKnownIssues)
-- [<span data-ttu-id="6e225-111">Ознакомительные семинаров #ThisisTeams</span><span class="sxs-lookup"><span data-stu-id="6e225-111">#ThisisTeams Introductory Webinar</span></span>](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
-- [<span data-ttu-id="6e225-112">Включение курс по Microsoft группами для ИТ-специалистов</span><span class="sxs-lookup"><span data-stu-id="6e225-112">Enabling Microsoft Teams IT Pro course</span></span>](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
+- [<span data-ttu-id="ccde4-108">Основы Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ccde4-108">Foundations of Microsoft Teams</span></span>](https://youtu.be/xJBvJTDiQqg)
+- [<span data-ttu-id="ccde4-109">Устранение неполадок команд</span><span class="sxs-lookup"><span data-stu-id="ccde4-109">Troubleshooting Teams</span></span>](https://youtu.be/0KNh9KNpXcA)
+- [<span data-ttu-id="ccde4-110">Список известных проблем</span><span class="sxs-lookup"><span data-stu-id="ccde4-110">Known issues list</span></span>](https://aka.ms/TeamsKnownIssues)
+- [<span data-ttu-id="ccde4-111">#ThisisTeams вступительный веб – семинар</span><span class="sxs-lookup"><span data-stu-id="ccde4-111">#ThisisTeams Introductory Webinar</span></span>](https://microsoftteams.eventbuilder.com/This%20is%20Teams) 
+- [<span data-ttu-id="ccde4-112">Включение курса Microsoft Teams для ИТ Pro</span><span class="sxs-lookup"><span data-stu-id="ccde4-112">Enabling Microsoft Teams IT Pro course</span></span>](https://www.edx.org/course/enabling-teamwork-microsoft-teams-1)
 
-<span data-ttu-id="6e225-113">![Далее действия значок](media/teams-adoption-next-icon.png) далее: [группами Майкрософт внедрения этап 3: масштаб](teams-adoption-phase3-enable.md).</span><span class="sxs-lookup"><span data-stu-id="6e225-113">![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).</span></span>
+<span data-ttu-id="ccde4-113">![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [этап внедрения Microsoft Teams 3: масштабирование](teams-adoption-phase3-enable.md).</span><span class="sxs-lookup"><span data-stu-id="ccde4-113">![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).</span></span>
