@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494038"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591632"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -34,11 +34,11 @@ ms.locfileid: "34494038"
 
 ![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
-1. Войдите в систему с помощью учетной записи глобального администратора [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Office 365 по адресу.
+1. Войдите в систему с помощью учетной записи глобального администратора Office 365 или учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)администратора Skype для бизнеса по адресу.
     
-2. В центре администрирования Office 365 перейдите в раздел **"центры** > администрирования**Skype для бизнеса**".
+2. В центре администрирования Office 365 перейдите в раздел **центры** > администрирования**Teams**.
     
-3. В **центре администрирования Skype для бизнеса**перейдите в раздел **собрания** > по сети, чтобы**транслировать**собрания, а затем выберите **Включить трансляцию собраний Skype**.
+3. В **центре администрирования Teams**перейдите к старым собраниям по**сети** > **** с помощью **портала** > и выберите **Включить трансляцию собраний Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Включение трансляции собраний Skype с помощью PowerShell
 
