@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Узнайте о политиках настройки приложений в Microsoft Teams и о том, как их использовать для закрепления приложений для настройки групп для пользователей в Организации.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
+ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548823"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34592170"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -136,9 +136,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Я Teams для образовательных учреждений. Что нужно знать о политиках настройки приложений в Teams для образовательных учреждений?
 
-- Вызывающее приложение недоступно в Teams для образовательных учреждений. При создании новой политики настройки приложения вызывающее приложение отображается в списке приложений. Однако приложение не закреплено на клиентах Teams и Teams для образовательных учреждений не будет видеть приложение "звонки" в Teams. 
-
-- В настоящее время изменения политики не отражаются на Teams для образовательных учреждений в приложении Teams для Android. Мы работаем над новой версией приложения, поддерживающей изменения политики для Teams для образовательных учреждений.
+Вызывающее приложение недоступно в Teams для образовательных учреждений. При создании новой политики настройки приложения вызывающее приложение отображается в списке приложений. Однако приложение не закреплено на клиентах Teams и Teams для образовательных учреждений не будет видеть приложение "звонки" в Teams.
 
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>Сколько приложений можно добавить в политику?
 
