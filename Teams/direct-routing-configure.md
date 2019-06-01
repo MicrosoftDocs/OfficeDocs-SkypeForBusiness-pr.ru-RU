@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290447"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667500"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -38,7 +38,7 @@ ms.locfileid: "34290447"
 
 Вы можете настроить телефонную систему Microsoft и разрешить пользователям использовать прямую маршрутизацию, а затем настроить Microsoft Teams в качестве основного клиента, выполнив следующие действия: 
 
-- [Связывание SBC с телефонной системой Microsoft и проверка связывания](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [Связывание SBC с телефонной системой Microsoft и проверка связывания](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Включение поддержки прямой маршрутизации для пользователей](#enable-users-for-direct-routing-service)
 - [Убедитесь в том, что Microsoft Teams является предпочтительным клиентским абонентом для пользователей](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
@@ -446,7 +446,7 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Только для США|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Активный маршрут для номеров вызываемых абонентов + 1 425 XXX XX XX или + 1 206 XXX XX XX|
 |Только для США|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Маршрут резервного копирования для номеров вызываемых абонентов + 1 425 XXX XX XX или + 1 206 XXX XX XX|
-|Только для США|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso. раздел|Маршрут для вызываемых номеров + 1 XXX XXX XX XX (кроме + 1 425 XXX XX XX или + 1 206 XXX XX XX)|
+|Только для США|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|Маршрут для вызываемых номеров + 1 XXX XXX XX XX (кроме + 1 425 XXX XX XX или + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Маршрут для любого числового шаблона |
 
 

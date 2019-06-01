@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06655b8c43bb912409b2a1c6a42d7509f45bf651
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f32fd9fbbf43d5390422f1f6e47e0714bb5ab578
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548799"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652843"
 ---
-![Этапы путешествия по обновлению с акцентом на стадии определения проекта] (media/upgrade-banner-project-definition.png "Этапы путешествия по обновлению с акцентом на стадии определения проекта")
+![Обновление схемы поездки с акцентом на этапе определения проекта] (media/upgrade-banner-project-definition.png "Этапы путешествия по обновлению с акцентом на стадии определения проекта")
 
 Эта статья входит в стадию определения проекта, которая была выполнена после создания спонсорства коалиции и проектной группы и определение области, целей и концепции проекта. Перед продолжением убедитесь, что выполнены следующие действия:
 

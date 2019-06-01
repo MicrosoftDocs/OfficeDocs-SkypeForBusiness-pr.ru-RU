@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 65878cc54973b67a604b08d3579553bca6ca8e4a
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548368"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652740"
 ---
 # <a name="deploy-my-service"></a>Развертывание службы
 
@@ -89,7 +89,7 @@ ms.locfileid: "34548368"
   
    - ![Зеленая](media/deploy-my-service-image3.png) галочка **Да или нет (зеленый):** действие завершено или неприменимо для этого сайта, и никаких дополнительных действий не требуется.</li>
    - ![Изображение желтого восклицательного знака](media/deploy-my-service-image4.png) <strong>действие еще не завершено (желтое):</strong> действие еще не завершено, и его необходимо изменить на "Да" или "нет" в расписании.</li>
-   - ![Красный крестик](media/deploy-my-service-image5.png) <strong>(красный):</strong> действие не может быть выполнено из-за проблемы и должно быть перенесено на собрание по состоянию проекта.</li></ul>
+   - ![Красный крестик, обозначающий нет](media/deploy-my-service-image5.png) <strong>(красный):</strong> действие не может быть выполнено из-за проблемы и должно быть перенесено на собрание по состоянию проекта.</li></ul>
 
 6. Состояние сведено в каждом разделе, а заголовок раздела форматируется с помощью одного из этих индикаторов состояния. **Еженедельное состояние** также обновляется автоматически.
 

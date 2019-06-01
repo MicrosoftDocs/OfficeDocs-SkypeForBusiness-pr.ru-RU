@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 826d2751f1b00c3c556d8f3760b6b94666cff4f7
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493869"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652748"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -71,7 +71,7 @@ ms.locfileid: "34493869"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting two users" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -92,7 +92,7 @@ ms.locfileid: "34493869"
 | Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
 | Классическое приложение Windows | [Видео](https://aka.ms/teams-clients) | [Крытий](https://aka.ms/teams-clients-deck) |
 | Руководство, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Крытий](https://aka.ms/teams-governance-deck) |
-| Соответствие требованиям безопасности _Амп_ | [Видео](https://aka.ms/teams-security-compliance) | [Крытий](https://aka.ms/teams-security-compliance-deck) |
+| Соответствие & безопасности | [Видео](https://aka.ms/teams-security-compliance) | [Крытий](https://aka.ms/teams-security-compliance-deck) |
 | Сетевое планирование | [Видео](https://aka.ms/teams-networking) | [Крытий](https://aka.ms/teams-networking-deck) |
 | Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Крытий](https://aka.ms/teams-quality-deck) |
 | Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Крытий](https://aka.ms/teams-meetings-intro-deck) |
