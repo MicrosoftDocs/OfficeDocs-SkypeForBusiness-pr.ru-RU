@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Узнайте о политиках настройки приложений в Microsoft Teams и о том, как их использовать для закрепления приложений для настройки групп для пользователей в Организации.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
-ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
+ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34592170"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681977"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -175,6 +175,4 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
  ## <a name="related-topics"></a>Статьи по теме
 - [Параметры администратора для приложений в Teams](admin-settings.md)
-- [Управление политиками разрешений для приложений в Teams](teams-app-permission-policies.md)
-- [Управление пользовательскими политиками и параметрами приложений в Teams](teams-custom-app-policies-and-settings.md)
 - [Публикация приложения в каталоге приложений клиентов в клиенте Teams](tenant-apps-catalog-teams.md)

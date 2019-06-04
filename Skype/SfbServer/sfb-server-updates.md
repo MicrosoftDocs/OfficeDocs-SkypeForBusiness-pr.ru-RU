@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 4a59cc2100c3c7acd392f7a30e5fbaeef400f7db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294322"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681820"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -30,6 +30,7 @@ ms.locfileid: "34294322"
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительное обновление 9 для Skype для бизнеса Server 2015, сервер веб-компонентов|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 мая |
 |Накопительное обновление 8 для Skype для бизнеса Server 2015, сервера переднего плана и пограничного сервера|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 января|
 |Накопительное обновление 7 для Skype для бизнеса Server 2015, сервера переднего плана и пограничного сервера |[KB 4340904](https://support.microsoft.com/kb/3134260) |Июль 2018 г. |
 |Накопительное обновление 6 исправления 2 для Skype для бизнеса Server 2015, сервера переднего плана и пограничного сервера |[KB 4086059](https://support.microsoft.com/kb/4086059) |Март 2018 г. |

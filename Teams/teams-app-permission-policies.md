@@ -16,19 +16,23 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте о политиках разрешений приложений в Microsoft Teams и о том, как их использовать для управления доступными для пользователей в вашей организации приложениями.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: d15346370015843eeb497cce7fa85928e77c96d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac559fb492155af9953beb74c2fac1526f01432
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298893"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681923"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Текущий способ управления приложениями в Microsoft Teams можно найти в разделе [Управление параметрами Microsoft Teams для своей организации](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 Администраторы могут управлять тем, какие приложения доступны пользователям Microsoft Teams в Организации, с помощью политик разрешений приложений. Вы можете разрешить или заблокировать все приложения или отдельные приложения, опубликованные корпорацией Майкрософт, сторонними организациями и вашей организацией. Когда вы блокируете приложение, пользователи не смогут установить его из магазина приложений Teams.
 

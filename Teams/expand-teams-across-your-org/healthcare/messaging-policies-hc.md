@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
-ms.openlocfilehash: 957e92ec9676047d727ba26b3eb2c29d1c3db558
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494556"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681907"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения
 
@@ -52,6 +52,8 @@ ms.locfileid: "34494556"
 ## <a name="priority-notifications"></a>Уведомления о приоритетах
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 - ![Значок цифры 2, на которой показано, как создать ссылку на выноску в предыдущем](../../media/sfbcallout2.png) окне, **пользователи смогут отправлять уведомления о** приоритетах, используя этот параметр, чтобы разрешить пользователям отправлять сообщения в чате другим пользователям. Эта функция позволяет компании-специалистам в компании больницы уделять оповещение друг друга, если для важного инцидента требуется вмешательство. В отличие от регулярных "важных сообщений", уведомления о приоритетах периодически уведомляются в течение 20 минут, и пока сообщения не загружаются и прочитаются получателем, что максимально вероятно, что сообщение будет отправлено и обработано в течение срока действия.
 
