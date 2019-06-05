@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591641"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694749"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -61,6 +61,14 @@ ms.locfileid: "34591641"
 ![Снимок экрана: надстройка для собрания Teams в Outlook Mobile](media/teams-meeting-add-in-mobile.png)
 
 Координаты собрания (ссылки для присоединения к ним и номера коммутируемого подключения) будут добавлены в приглашение на собрание после того, как пользователь нажмет кнопку " **Отправить**".  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Надстройка для собраний Teams в и Финдтиме для Outlook
+Финдтиме — это надстройка для Outlook, которая помогает пользователям достичь вашего согласия на время проведения собрания в разных компаниях. После того как приглашение на собрание предоставило свое предпочтительное время, Финдтиме отправляет приглашение на собрание от имени пользователя. Если в Финдтиме выбран параметр **собрание по сети** , финдтиме запланирует собрание Skype для бизнеса или Microsoft Teams. (Финдтиме будет использовать какой-либо элемент, установленный в вашей организации в качестве канала собрания по сети по умолчанию.)
+
+> [!NOTE]  
+> Если вы сохранили параметр Skype для бизнеса на [панели мониторинга финдтиме](https://findtime.microsoft.com/UserDashboard), он будет использоваться Финдтиме вместо Microsoft Teams. Если вы хотите использовать Microsoft Teams, удалите параметр Skype для бизнеса на панели мониторинга.
+
+Более подробную информацию смотрите [в разделе Планирование собраний с помощью финдтиме](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) .
 
 ## <a name="authentication-requirements"></a>Требования к проверке подлинности
 

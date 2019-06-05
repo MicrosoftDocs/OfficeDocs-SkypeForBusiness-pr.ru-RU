@@ -17,15 +17,15 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Узнайте о лицензиях и возможностях надстройки, а также о том, как купить Office 365 профессиональный плюс.
-ms.openlocfilehash: 8330ac282fd5bc4c64d6f31140b2989143214370
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+description: Узнайте об уведомлениях о приоритетах в сообщениях Teams.
+ms.openlocfilehash: a50e9413e83b59295d46fc98562f95b8a6ce7fda
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34692312"
+ms.locfileid: "34702698"
 ---
-# <a name="priority-notifications"></a>Уведомления о приоритетах
+# <a name="messaging-policies-licensing"></a>Лицензирование политик сообщений
 
 Начиная с 1 января 2020, лицензированные пользователи смогут отправлять уведомления о приоритетах в соответствии с условиями их подписки. ИТ администраторам будет предоставлено сообщение об использовании приоритетных уведомлений для поддержки соответствующего лицензирования пользователей.
 
