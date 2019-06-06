@@ -713,6 +713,7 @@
 ##### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
 ### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
+### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
 
 
 ## Взаимодействие с Office 365
