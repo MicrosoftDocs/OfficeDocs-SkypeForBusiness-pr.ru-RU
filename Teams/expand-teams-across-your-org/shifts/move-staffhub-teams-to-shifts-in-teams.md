@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/29/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,25 +12,32 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6354c2edd4d8504aeb2c84715b982f6bf793d33
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: e2e8b0ac4f1c4eb0cce2cae97481fc428f588ec5
+ms.sourcegitcommit: 8f9bf1acdcdc2104fa8c343c030d64838e2c31eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548296"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34780811"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
 > [!IMPORTANT]
 > Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).
 
-> Возможности, описанные в этой статье, пока не были выпущены. Это сообщение было объявлено и скоро вскоре будет выпущено в начале 2019 июня. Если вы являетесь администратором, вы можете узнать, когда это будет доступно в центре сообщений (в [центре администрирования Microsoft 365](https://portal.office.com/adminportal/home)).
-
 Приложение «смена» в Teams предоставляет простой подход к управлению расписаниями и постоянным потоком сменных и отменяющих переходов, происходящих в повседневной основе. Участники групп могут получать доступ к своим расписаниям и сменам данных непосредственно в приложении, а также на разных устройствах для настройки их настроек, управления расписаниями и запроса времени.
 
-В этой статье рассказывается о том, как переместить StaffHub Teams в Организации и спланировать данные для смены в Teams. Если вы занимаетесь малым предприятием из одной или двух групп StaffHub или крупного предприятия с сотнями StaffHub Teams, здесь вы найдете инструкции для администраторов, которые помогут вам успешно выполнить переход в Teams.
+В этой статье рассказывается о том, как переместить StaffHub Teams в Организации и спланировать данные для смены в Teams. В нем рассматриваются следующие вопросы:
 
-Для выполнения действий, описанных в этой статье, необходимо быть глобальным администратором. Если вы еще не сделали этого, ознакомьтесь с разделами " [вопросы и](microsoft-staffhub-to-be-retired.md) ответы" в StaffHub о выбытиех для получения ответов на любые возникающие вопросы. 
+- [Что нужно знать о переходе в Teams](#what-you-need-to-know-about-the-move-to-teams)
+- [Подготовку](#prepare)
+- [Проведение пилотной программы](#conduct-a-pilot) 
+- [Переход за пределы пилотной версии и перемещение всех StaffHub Teams](#go-beyond-your-pilot-and-move-all-staffhub-teams)
+- [Мониторинг использования групп](#monitor-teams-usage)
+- [Устранение неполадок](#troubleshooting)
+
+Если вы занимаетесь малым предприятием из одной или двух групп StaffHub или крупного предприятия с сотнями StaffHub Teams, здесь вы найдете инструкции для администраторов, которые помогут вам успешно выполнить переход в Teams.
+
+Для выполнения действий, описанных в этой статье, необходимо быть глобальным администратором. Если вы еще не сделали этого, ознакомьтесь с разделами " [вопросы и](microsoft-staffhub-to-be-retired.md) ответы" в StaffHub о выбытиех для получения ответов на любые возникающие вопросы.
 
 ## <a name="what-you-need-to-know-about-the-move-to-teams"></a>Что нужно знать о переходе в Teams
 
@@ -59,6 +65,19 @@ ms.locfileid: "34548296"
 
 Вот как можно подготовиться к переходу на Teams.
 
+### <a name="check-that-prerequisites-are-met"></a>Проверка соответствия требованиям
+
+Перед перемещением группы StaffHub в Teams убедитесь в том, что:
+
+- Вход пользователя в систему является глобальным администратором.
+- Teams включена для всех пользователей в клиенте.
+- Создание групп Office 365 включена в клиенте.
+- StaffHub Теамид является допустимым.
+- Группа StaffHub включает в себя участников. 
+- Все участники группы StaffHub связаны с учетной записью Azure AD. 
+
+Если эти условия не соблюдаются, запрос на перемещение завершится сбоем. 
+
 ### <a name="assign-teams-licenses"></a>Назначение лицензий Teams
 
 Каждый пользователь должен иметь действующую лицензию Microsoft 365 или Office 365 из [подходящего плана](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) , и ему должна быть назначена лицензия Teams. Назначение лицензии на команды пользователям предоставляет им доступ к Teams.
@@ -68,27 +87,56 @@ ms.locfileid: "34548296"
 > [!NOTE]
 > Если в вашей организации используется Skype для бизнеса, и вы не готовы переместить всех пользователей в Teams, вы можете включить команды для сотрудников Firstline, которые смогут запускать команды вместе со Skype для бизнеса. В режиме совместного существования под названием *острова*все клиентские приложения работают как отдельные решения. Дополнительные сведения можно найти в статье [понимание групп, а также взаимодействие и совместимость Skype для бизнеса](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="provision-accounts-for-staffhub-users-who-dont-have-an-identity-in-azure-ad"></a>Подготовка учетных записей для пользователей StaffHub, у которых нет удостоверения в Azure AD
-
-Каждый руководитель и участник команды должны иметь удостоверение в Azure Active Directory (Azure AD). Если пользователь еще не имеет удостоверения в Azure AD, предоставьте для него учетную запись. Выполните описанные ниже действия.
-
-- StaffHub владельцы и руководители групп могут преобразовать фиктивную или неактивную учетную запись и связать ее с учетной записью для подготовки в StaffHub, изменив адрес электронной почты пользователя на действительный UPN на странице StaffHub параметры группы.
-
-- Администраторы могут выполнять командлеты [Add-стаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) и [Remove-стаффхубусер](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) для удаления неподготовленной учетной записи из группы StaffHub и повторного добавления учетной записи с помощью UPN.
-
 ### <a name="install-the-staffhub-powershell-module"></a>Установка модуля StaffHub PowerShell
 
-[Установите модуль PowerShell StaffHub](install-the-staffhub-powershell-module.md), если вы еще не сделали этого.
+[Установите модуль PowerShell StaffHub](install-the-staffhub-powershell-module.md), если вы еще не сделали этого. 
 
-Когда вы перемещаете группу StaffHub, запрос на перемещение проверяет наличие необходимых компонентов. Ниже приведены причины, по которым может произойти сбой запроса на перемещение.
+### <a name="provision-accounts-for-staffhub-users-who-dont-have-an-identity-in-azure-ad"></a>Подготовка учетных записей для пользователей StaffHub, у которых нет удостоверения в Azure AD
 
-- Вошедшего в систему пользователя не является глобальным администратором
-- Teams отключены для всех пользователей в клиенте
-- Создание групп Office 365 отключено в клиенте
-- Теамид StaffHub не является допустимым или не имеет пользователей
-- Группа StaffHub включает в себя пользователей, которые не связаны с учетной записью Azure AD  
+Каждый руководитель и участник команды должны иметь удостоверение в Azure Active Directory (Azure AD). Если пользователь еще не имеет удостоверения в Azure AD, предоставьте для него учетную запись. Выполните описанные ниже действия. 
 
-## <a name="run-a-pilot"></a>Запуск пилотного проекта
+#### <a name="get-a-list-of-all-users-on-staffhub-teams-that-have-team-members-that-arent-provisioned-with-an-azure-ad-account"></a>Получение списка всех пользователей в StaffHub Teams, у которых есть члены группы, не предоставленные с помощью учетной записи Azure AD
+
+Выполните следующее:
+```
+$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
+foreach($team in $StaffHubTeams[0]) {Get-StaffHubMember -TeamId $team.Id | where {$_.Email -eq $null -or $_.State -eq "Invited"}}
+```
+
+#### <a name="provision-the-account"></a>Подготовка учетной записи
+
+Выполните одно из следующих действий:
+
+- Преобразуйте счет и свяжите его с учетной записью подготовки.
+
+  StaffHub владельцы и руководители групп могут преобразовать фиктивную или неактивную учетную запись и связать ее с учетной записью для подготовки в StaffHub, изменив адрес электронной почты пользователя на действительный UPN на странице StaffHub параметры группы.
+
+- Удалите неподготовленную учетную запись, а затем снова добавьте ее с помощью UPN.
+    1. Запустите командлет [Remove-стаффхубусер](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) , чтобы удалить неподготовленную учетную запись из группы StaffHub.
+    2. Запустите командлет [Add-стаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) , чтобы добавить учетную запись обратно в группу StaffHub с помощью UPN. 
+
+### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Назначение пользователям политики настройки приложения Фирстлиневоркер
+
+Teams включает встроенную политику настройки приложений Фирстлиневоркер, которую можно использовать для настройки групп, чтобы выделиться наиболее важными приложениями для Firstline сотрудников вашей организации. Когда вы назначаете эту политику пользователям, приложения в этой политике будут закреплены на панели приложения в Teams для быстрого и удобного доступа. Другие приложения, добавленные в Teams, можно найти на панели приложения, нажав **... Другие приложения** в классической и веб-клиентах Teams и прокрутка вверх в клиенте Teams Mobile. По умолчанию политика настройки приложения Фирстлиневоркер включает в себя действия, смены, чат и звонки приложений.
+
+Инструкции по назначению пользователям политики настройки приложения Фирстлиневоркер приведены в статье [Использование политики настройки приложения фирстлиневоркер для закрепления смен в Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). После назначения политики для вступления в силу может потребоваться до 24 часов.
+
+Мы рекомендуем выполнить этот шаг не менее чем за неделю, прежде чем вы сможете переместить StaffHub Teams и пользователей в Teams. Когда пользователи находятся в Teams, убедитесь, что они могут просматривать и получать доступ к приложению смены.
+
+Вы также можете создать пользовательские политики настройки приложений и изменить параметры в политике настройки глобального приложения. Дополнительные сведения можно найти в статье [Управление политиками настройки приложений в Teams](../../teams-app-setup-policies.md).
+
+### <a name="onboard-users-to-teams"></a>Встроенные пользователи в Teams
+
+В рамках стратегии выставления настольных систем вы можете получать учебные материалы и рекомендации для пользователей, которые помогут им ознакомиться с группами. Поделитесь следующими ресурсами с пользователями, чтобы они знали, где можно получить клиентов Teams, обучение и поддержку.
+
+- [Веб-клиент Teams](https://teams.microsoft.com)
+- [Ссылки для скачивания настольной и мобильной версий клиента](https://teams.microsoft.com/downloads)
+- [Обучающие видео для Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [Справочная документация для Teams](https://support.office.com/teams)
+
+Рекомендации по развертыванию групп и внедрению групп можно найти [в разделе Развертывание групп](../../How-to-roll-out-teams.md) и [принятие групп](../../adopt-microsoft-teams-landing-page.md).
+
+## <a name="conduct-a-pilot"></a>Проведение пилотной программы
 
 Мы рекомендуем начать с перемещения двух или трех групп StaffHub, чтобы выбрать группу ранних переходов. Работа с пилотной версией поможет вам уточнить план перехода и убедиться, что вы готовы переместить все StaffHub Teams вашей организации в Teams. Кроме того, он определяет лидерами, которые помогут вам облегчить внедрение в рамках своей организации. Если вы работаете в малом бизнесе, для которого не требуется поэтапный подход, действия, описанные в этом разделе, могут быть все, что нужно сделать, чтобы перейти с StaffHub на Teams.
 
@@ -102,17 +150,18 @@ ms.locfileid: "34548296"
 
 Команда лидерами должна обеспечивать настройку для участников группы, выделять время для [получения клиентов](../../get-clients.md)Teams, входить в Teams и проверять расписания в сменах и начинать общение друг с другом. Пользователи, уже знакомые с StaffHub, будут быстро выполняться в сменах. Вы также можете навести на [](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) них указатель мыши, чтобы получить дополнительную помощь.
 
-### <a name="move-a-staffhub-team-coming-soon"></a>Переместить StaffHub группу (скоро)
+### <a name="move-a-staffhub-team"></a>Перемещение команды StaffHub
 
-Воспользуйтесь этими инструкциями для перемещения одной команды StaffHub на один раз. Мы рекомендуем этот подход для ваших пилотных команд. Позже, когда вы будете готовы к перемещению всех StaffHubных групп своей организации, читайте в статье [Перемещение групп StaffHub](#move-your-staffhub-teams-coming-soon) , чтобы узнать, как переместить несколько команд за один раз.
+Воспользуйтесь этими инструкциями для перемещения одной команды StaffHub на один раз. Мы рекомендуем этот подход для ваших пилотных команд. Позже, когда вы будете готовы к перемещению всех StaffHubных групп своей организации, читайте в статье [Перемещение групп StaffHub](#move-your-staffhub-teams) , чтобы узнать, как переместить несколько команд за один раз.
 
 Чтобы переместить группу StaffHub, выполните указанные ниже действия.
 
 ```
 Move-StaffHubTeam -TeamId <String>
+```
+Образом
 
-Sample:
-
+```
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
@@ -128,10 +177,11 @@ Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 
 ```
 Get-TeamMigrationJobStatus <String>
+```
+Образом
 
-Sample:
+```
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
-
 ```
 
 Ниже приведен пример ответа, который вы получаете при выполнении перемещения.
@@ -142,17 +192,43 @@ Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
-## <a name="make-the-transition-from-staffhub-to-teams"></a>Преобразование из StaffHub в Teams
+### <a name="move-files-from-a-staffhub-team-to-teams"></a>Перемещение файлов из группы StaffHub в группы
+
+Это действие применимо только в том случае, если команда StaffHub, перемещенная в Teams, содержит файлы, которые вы хотите также перейти в группу Teams. Вы можете перемещать файлы непосредственно в SharePoint Online или с помощью PowerShell. 
+
+#### <a name="in-sharepoint-online"></a>В SharePoint Online
+
+Узнайте [, как перемещать файлы в SharePoint Online](https://support.office.com/article/how-to-move-files-in-sharepoint-online-8c86f6c3-9612-4031-95b2-3d9d5c6e5a30).
+
+#### <a name="using-powershell"></a>Использование PowerShell
+
+Скачайте и установите [командную консоль SharePoint Online](https://www.microsoft.com/download/details.aspx?id=35588), если вы еще этого не сделали. Она включает командлеты, необходимые для перемещения файлов.  
+
+С помощью командлета [Connect-пнпонлине](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) подключитесь к сайту группы SharePoint Online.
+
+```
+Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
+```
+
+Для каждого файла, который вы хотите переместить из StaffHub в Teams, используйте командлет [Move-пнпфиле](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) , чтобы переместить файл.
+
+```
+Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
+```
+
+Чтобы переместить несколько файлов, выполните цикл по файлам и запустите вторую команду в цикле. Если сеанс остается активным, вам не нужно повторять первую команду.
+
+## <a name="go-beyond-your-pilot-and-move-all-staffhub-teams"></a>Переход за пределы пилотной версии и перемещение всех StaffHub Teams
 
 ### <a name="raise-awareness"></a>Формирование сведений о состоянии
 
 Когда вы будете готовы к переходу за пределы пилотных групп и перемещайте StaffHub Teams вашей организации в Teams, важно сначала сообщить о них в рамках своей организации. Разработайте Word по сменам и переходам в Teams, чтобы привлечь внимание к осведомленности, создать особенности и внедрять диски.
 
-### <a name="move-your-staffhub-teams-coming-soon"></a>Перемещение StaffHub Teams (скоро)
+### <a name="move-your-staffhub-teams"></a>Перемещение StaffHubных групп
 
-Чтобы переместить StaffHub Teams, выполните указанные ниже действия. Вы можете переместить все группы StaffHub организации или переместить определенные StaffHub команды. Если вы хотите переместить StaffHub команды по одной, ознакомьтесь со сведениями в разделе [Перемещение группы StaffHub](#move-a-staffhub-team-coming-soon).
+Чтобы переместить StaffHub Teams, выполните указанные ниже действия. Вы можете переместить все группы StaffHub организации или переместить определенные StaffHub команды. Если вы хотите переместить StaffHub команды по одной, ознакомьтесь со сведениями в разделе [Перемещение группы StaffHub](#move-a-staffhub-team).
 
-#### <a name="move-all-staffhub-teams-coming-soon"></a>Перемещение всех StaffHub Teams (ожидается в ближайшее время)
+#### <a name="move-all-staffhub-teams"></a>Перемещение всех StaffHub Teams
 
 Выполните указанные ниже действия, чтобы получить список всех групп StaffHub в вашей организации.
 
@@ -163,7 +239,7 @@ $StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 Затем выполните указанные ниже действия, чтобы переместить все команды.
 
 ```
-$StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
+foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
 Вот пример ответа.
@@ -177,7 +253,7 @@ $StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
     JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
-#### <a name="move-specific-staffhub-teams-coming-soon"></a>Переместить определенные группы StaffHub (скоро)
+#### <a name="move-specific-staffhub-teams"></a>Перемещение конкретных StaffHubных групп
 
 Выполните указанные ниже действия, чтобы получить список всех идентификаторов участников группы StaffHub в вашей организации.
 
@@ -196,9 +272,10 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 Создав CSV-файл, выполните указанные ниже действия, чтобы переместить указанные в CSV-файл команды.
 
 ```
-Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
+$StaffHubTeams = Import-Csv .\teams.csv
+foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
-### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>Убедитесь в том, что ваши StaffHub Teams переместились в Teams (скоро)
+### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams"></a>Убедитесь в том, что StaffHub Teams переместились в Teams
 
 Выполните указанные ниже действия, чтобы получить список всех команд в сменах в вашей организации. 
 
@@ -206,11 +283,30 @@ Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
+### <a name="move-files-from-your-staffhub-teams-to-teams"></a>Перемещение файлов из StaffHub Teams в Teams
+
+Если перемещенные команды StaffHub содержат файлы, которые вы также хотите переместить в Teams, ознакомьтесь с разметкой [Перемещение файлов из группы StaffHub в команды](#move-files-from-a-staffhub-team-to-teams).
+
 ## <a name="monitor-teams-usage"></a>Мониторинг использования групп
 
 С помощью отчетов об использовании вы сможете лучше разобраться в использовании шаблонов использования и получить информацию о том, где следует определять приоритетные обучающие и коммуникационные возможности в Организации. Поскольку смена является приложением в Teams, вы можете просматривать использование с помощью отчетов Teams. Дополнительные сведения можно найти в разделе Отчеты [Teams в центре администрирования Microsoft Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) и в [отчетах об активности в Teams в центре администрирования Microsoft 365](../../teams-activity-reports.md).
 
+## <a name="troubleshooting"></a>Поиск и устранение неполадок 
+
+**При попытке переместить файлы из StaffHub в Teams появляется сообщение об ошибке "отказано в доступе".**
+
+Это может происходить, если вы пытаетесь переместить файлы в закрытой группе Office 365, которую вы не являетесь участником. Если это так, добавьте себя в группу StaffHub с помощью командлета [аддстаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) , а затем переместите файлы. После перемещения файлов используйте командлет [Remove-стаффхубмембер](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) , чтобы удалить себя из команды. 
+
+**При попытке переместить файлы из StaffHub в Teams появляется сообщение об ошибке, в котором говорится, что общая папка не существует.**
+
+Выполните следующую команду, чтобы добавить общую папку в SharePoint, а затем повторите попытку.
+
+  ```
+  Add-PnPFolder -Name General -Folder 'Shared Documents'
+  ```  
+
 ## <a name="related-topics"></a>Статьи по теме
+- [Как выполнить развертывание Microsoft Teams](../../How-to-roll-out-teams.md)
 - [Прекращение поддержки Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Управление приложением "Смены" для вашей организации в Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Справочник по StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)

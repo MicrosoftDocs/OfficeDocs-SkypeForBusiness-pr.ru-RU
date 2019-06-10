@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ad0549380f4e90e746fec7b7bc997f99e8510ef6
+ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302763"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768768"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
 
@@ -73,28 +73,26 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 4. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) , которые вы приобрели для пользователей в вашей организации, которые планируется планировать или руководить собраниями.
 
-    > [!NOTE]
-    > В случае наличия лицензий на аудиоконференции с поминутной оплатой Вам необязательно отдельно для каждого пользователя специально назначать лицензии на кредиты на связь, чтобы использовать функцию аудиоконференций (однако, может потребоваться назначение лицензий на другие сервисы).
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: задать поставщика аудиоконференций для людей, проводящих или планирующих собрания
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+Когда лицензии на **Аудиоконференции** уже назначены для людей в организации, проводящих или планирующих собрания, все настроено и готово к работе! (Нет необходимости в настройке их поставщика аудиоконференций.)
 
 ## <a name="step-3-other-admin-tasks"></a>Шаг 3: другие задачи администратора
 
 Следующие шаги являются **необязательными**, однако многие администраторы считают их необходимыми:
 
-1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [Настройка приглашений на собрания](../set-up-skype-for-business-online/customize-meeting-invitations.md). Номера для телефонного подключения, настроенные для пользователя, будут автоматически добавлены в приглашения на собрания, отправляемые участникам. Тем не менее, вы можете добавить собственную справку и юридические ссылки, текстовое сообщение и рисунок маленькой компании.
 
-2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
+2. [Настройте номера телефонов, включенные в приглашения](set-the-phone-numbers-included-on-invites.md). Это —номер телефона, который будет отображаться в собрании, которое запланировал пользователь.
 
-3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
+3. [Настройка языков автосекретаря для голосовых конференций](set-auto-attendant-languages-for-audio-conferencing.md) , используемых автосекретарем для видеоконференций, которые используются для приветствия абонента, когда они подключаются к номеру телефона голосовой конференции. Этот шаг необходим только в том случае, если Microsoft назначен в качестве поставщика аудиоконференции.
 
 4. [Установка длины ПИН-кода для собраний по голосовой конференции](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]
-> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>Статьи по теме
 
