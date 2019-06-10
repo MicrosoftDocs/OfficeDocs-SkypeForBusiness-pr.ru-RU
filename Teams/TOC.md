@@ -23,6 +23,7 @@
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Управление обнаружением закрытых команд в Teams](manage-discovery-of-private-teams.md)
+## [Общий доступ к файлам в Teams](sharing-files-in-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
@@ -692,6 +693,7 @@
 ## Установка Teams
 ### [Работа с клиентами для Teams](get-clients.md)
 ### [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)
+### [Рекомендации по драйверам аппаратного декодера и кодировщика](hardware-decoders-and-encoders.md)
 ### [Установка Teams с помощью MSI](msi-deployment.md)
 ### [Включение Teams в организации](Office-365-set-up.md)
 ### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
