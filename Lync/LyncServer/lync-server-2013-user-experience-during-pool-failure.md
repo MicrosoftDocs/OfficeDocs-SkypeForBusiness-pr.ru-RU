@@ -1,101 +1,67 @@
-﻿---
-title: 'Lync Server 2013: действия пользователя в случае отказа пула'
-TOCTitle: Действия пользователя в случае отказа пула
-ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205184(v=OCS.15)
-ms:contentKeyID: 49310892
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Пользовательский интерфейс Lync Server 2013 в случае сбоя пула
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User experience during pool failure
+ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)
+ms:contentKeyID: 48185166
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca33dc8f77ac697b7eea9cc89fee9aa401318566
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849299"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Действия пользователя в случае отказа пула в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a><span data-ttu-id="b58dd-102">Взаимодействие с пользователем во время сбоя пула в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b58dd-102">User experience during pool failure in Lync Server 2013</span></span>
 
-В случае отработки отказа пула все пользователи этого пула принудительно выходят из него и затем выполняют вход в резервный пул. В течение непродолжительного периода времени пользователи, выполнившие вход в резервный пул, могут находиться в режиме устойчивости. В этом режиме они не могут выполнять задачи, которые приводят к постоянному изменению данных в Lync Server, например добавление контактов. После завершения отработки отказа все пользователи могут использовать любые службы резервного пула.
+</div>
 
-При сбое пула все сеансы пользователя прерываются. Чтобы продолжить, пользователю потребуется повторно создать сеансы после отработки отказа.
+<div id="mainSection">
 
-В ходе отработки отказа или восстановления размещения пользователи не перемещаются. Пользователи, размещенные в сбойном пуле, временно обслуживаются резервным пулом. После восстановления исходного пула пользователи будут переведены на обслуживание исходным пулом.
+<div id="mainBody">
 
-Обратите внимание, что в Lync 2013 база данных сервера информирования о местонахождении не реплицируется на резервный пул. Администратору рекомендуется регулярно создавать резервные копии базы данных сервера информирования о местонахождении и использовать последнюю резервную копию для восстановления базы данных сервера в резервном пуле после отработки отказа.
+<span> </span>
 
-## Взаимодействие с пользователями в ходе отработки отказа
+<span data-ttu-id="b58dd-103">_**Тема последнего изменения:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="b58dd-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-Если пользователь находится в пуле, на котором произошел сбой, пользователь выходит из системы. Все одноранговые сеансы, в которых принимал участие пользователь, будут приостановлены, включая конференции, созданные пользователем. Пользователь не сможет выполнить вход до тех пор, пока не истечет время ожидания таймера устойчивости Регистратора или администратор не начнет процедуры аварийного восстановления, независимо от того, что произойдет раньше. Следующий вход пользователя будет осуществляться на резервном пуле. Если вход выполнен до завершения отработки отказа, то пользователи будут находиться в режиме устойчивости до завершения отработки отказа. После завершения отработки отказа пользователи смогут создать новые сеансы или восстановить предыдущие сеансы.
+<span data-ttu-id="b58dd-104">Если вы перейдете из-за сбоя пула, все пользователи этого пула будут вынуждены выйти из нее, а затем войти в пул резервной копии.</span><span class="sxs-lookup"><span data-stu-id="b58dd-104">If a pool is failed over, all users of the affected pool are forced to sign out and then sign into the backup pool.</span></span> <span data-ttu-id="b58dd-105">В течение непродолжительного периода времени пользователи, вошедшие в резервный пул, могут находиться в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-105">For a brief period users who sign into the backup pool may be in resiliency mode.</span></span> <span data-ttu-id="b58dd-106">В режиме устойчивости пользователи не могут выполнять задачи, которые приводили к сохранению изменений на сервере Lync Server, например добавление контакта.</span><span class="sxs-lookup"><span data-stu-id="b58dd-106">In Resiliency mode, users are unable to perform tasks that would cause a persistent change on Lync Server, such as adding a contact.</span></span> <span data-ttu-id="b58dd-107">По завершении отработки отказа возможно полное обслуживание всех пользователей из резервного пула.</span><span class="sxs-lookup"><span data-stu-id="b58dd-107">After the failover is complete, all users can get all services from the backup pool.</span></span>
 
-## Взаимодействие с пользователями в ходе восстановления размещения
+<span data-ttu-id="b58dd-108">Любые сеансы, которые пользователь может вызвать, когда происходит сбой пула, и пользователь должен повторно установить эти сеансы после перемещения, чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="b58dd-108">Any sessions a user has when the pool fails are disrupted, and the user must re-establish those sessions after failover to continue.</span></span>
 
-Восстановление размещения может быть выполнено в то время, как затронутый пользователь выполнил вход в резервный пул. В ходе восстановления размещения пользователь остается в системе резервного пула и может продолжить работу. Обратите внимание на то, что на восстановление размещения требуется несколько минут. Так, для пула с 20 000 пользователей оно занимает приблизительно 60 минут.
+<span data-ttu-id="b58dd-109">При отработке отказа или переключении на основной ресурс пользователи не перемещаются.</span><span class="sxs-lookup"><span data-stu-id="b58dd-109">Users are not rehomed during failover or failback.</span></span> <span data-ttu-id="b58dd-110">Пользователи, размещенные в сбойном пуле, временно обслуживаются из резервного пула.</span><span class="sxs-lookup"><span data-stu-id="b58dd-110">Users who are homed on a pool that fails will be temporarily serviced by the backup pool.</span></span> <span data-ttu-id="b58dd-111">После восстановления пула домашних компьютеров администратор может не отменять эти пользователи на обслуживание первоначального пула домашних компьютеров.</span><span class="sxs-lookup"><span data-stu-id="b58dd-111">When the home pool is restored, the administrator can fail back these users to be serviced by their original home pool.</span></span>
 
-В следующих таблицах приведены дополнительные сведения о состоянии затронутого пользователя клиента Lync 2013 или Microsoft Lync 2010 в ходе восстановления размещения и после него, а также сведения о том, как видят пользователя в пуле, в котором произошел сбой, пользователи остальных пулов. Пользователи клиента Microsoft Office Communicator 2007 R2 не могут выполнить вход, пока не будет завершена отработка отказа интерфейсного пула.
+<span data-ttu-id="b58dd-112">Обратите внимание, что в Lync 2013 база данных сервера сведений о расположениях не реплицируется в пул резервных копий.</span><span class="sxs-lookup"><span data-stu-id="b58dd-112">Note in Lync 2013, the Location Information Server database is not replicated to the backup pool.</span></span> <span data-ttu-id="b58dd-113">Администратору рекомендуется регулярно создавать резервные копии базы данных сервера информирования о местонахождении и после отработки отказа восстанавливать базу данных этого сервера из последней резервную копии в резервном пуле.</span><span class="sxs-lookup"><span data-stu-id="b58dd-113">For best practice, the administrator should regularly back up the LIS database and use the latest backup copy to restore the LIS database in the backup pool after the failover.</span></span>
 
-Термин *затронутый пользователь* относится к любому пользователю, который был переведен из основного пула и обслуживается резервным пулом. По определению пользователь, который изначально находился на резервном пуле, не является затронутым пользователем.
+<div>
 
-### Взаимодействие с затронутым пользователем пула в ходе восстановления размещения
+## <a name="user-experience-during-failover"></a><span data-ttu-id="b58dd-114">Взаимодействие с пользователем во время перехода на другой ресурс</span><span class="sxs-lookup"><span data-stu-id="b58dd-114">User Experience During Failover</span></span>
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Состояние пользователя или задача</th>
-<th>Во время восстановления размещения</th>
-<th>После завершения восстановления размещения</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Состояние пользователя, который уже выполнил вход</p></td>
-<td><p>Пользователь остается подключенным к резервному пулу. В определенный момент времени пользователь выйдет из системы и затем снова выполнит вход на исходном пуле в режиме устойчивости.</p></td>
-<td><p>Состояние входа пользователя не изменяется и он переходит в обычный режим.</p></td>
-</tr>
-<tr class="even">
-<td><p>Вход нового пользователя</p></td>
-<td><p>Пользователь может выполнить вход в пул в режиме устойчивости.</p></td>
-<td><p>Пользователь может выполнить вход в исходный пул в обычном режиме.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Текущие конференции, созданные затронутым пользователем</p></td>
-<td><p>Все модальности конференции приостанавливаются. Кнопка &quot;Повторно присоединиться&quot; будет отображаться, но ни один пользователь не сможет присоединиться повторно, если затронутый пользователь находится в режиме устойчивости.</p></td>
-<td><p>Все модальности работают. Для повторного присоединения к конференции участникам требуется нажать кнопку &quot;Повторно присоединиться&quot;.</p></td>
-</tr>
-<tr class="even">
-<td><p>Текущие конференции, созданные незатронутым пользователем</p></td>
-<td><p>Конференция будет продолжена и затронутый пользователь останется подключенным к конференции. Возможности затронутого пользователя в режиме устойчивости ограничены.</p></td>
-<td><p>Конференция будет продолжена, затронутый пользователь останется подключенным к конференции, а все модальности начнут работу после выхода из режима устойчивости.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Создание расписания и изменение запланированных собраний, создание запланированных конференций</p></td>
-<td><p>Невозможно в режиме устойчивости.</p></td>
-<td><p>Доступно для всех модальностей.</p></td>
-</tr>
-<tr class="even">
-<td><p>Сведения о присутствии, отображаемые остальным пользователям того же пула</p></td>
-<td><p>Сведения о присутствии отсутствуют, если пользователь выполнил вход в резервный пул в режиме устойчивости.</p></td>
-<td><p>Отображается последнее состояние присутствия, заданное пользователем, при этом изменения состояния присутствия не отображаются.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Доступность списка контактов и службы адресной книги</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Доступно</p></td>
-</tr>
-<tr class="even">
-<td><p>Все одноранговые сеансы и модальности</p></td>
-<td><p>Доступно</p></td>
-<td><p>Доступно</p></td>
-</tr>
-</tbody>
-</table>
+<span data-ttu-id="b58dd-115">Если пользователь в пуле не проходит, пользователь выходит из него. Любые одноранговые сеансы, в которых участвует пользователь, прекращаются, как и конференции, упорядоченные этим пользователем.</span><span class="sxs-lookup"><span data-stu-id="b58dd-115">When a user is in a pool that fails, the user is logged out. Any peer-to-peer session the user was participating in is terminated, as are conferences organized by that user.</span></span> <span data-ttu-id="b58dd-116">Пользователь может войти снова только после срабатывания таймера регистрации устойчивости или запуска процедуры отработки отказа администратором в зависимости от того, что произойдет раньше.</span><span class="sxs-lookup"><span data-stu-id="b58dd-116">The user cannot log back in until either the registrar resiliency timer expires or the administrator initiates failover procedures, whichever comes first.</span></span> <span data-ttu-id="b58dd-117">Следующий вход пользователя осуществляется в резервный пул.</span><span class="sxs-lookup"><span data-stu-id="b58dd-117">When the user logs back in, they will log in to the backup pool.</span></span> <span data-ttu-id="b58dd-118">Пользователь, вошедший во время отработки отказа или ранее, до ее завершения находится в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-118">If they log in before the failover has completed, they will be in Resiliency mode until failover is complete.</span></span> <span data-ttu-id="b58dd-119">Только после этого пользователь сможет устанавливать новые сеансы или повторно устанавливать предыдущие сеансы.</span><span class="sxs-lookup"><span data-stu-id="b58dd-119">Only then the user is able to establish new sessions or re-establish previous sessions.</span></span>
 
+</div>
 
-### Взаимодействие с пользователями, размещенными в незатронутом пуле, в ходе восстановления размещения другого пула
+<div>
+
+## <a name="user-experience-during-failback"></a><span data-ttu-id="b58dd-120">Взаимодействие с пользователем при восстановлении из восстановления</span><span class="sxs-lookup"><span data-stu-id="b58dd-120">User Experience During Failback</span></span>
+
+<span data-ttu-id="b58dd-121">Переключение на основной ресурс может произойти во время сеанса работы пользователя в резервном пуле; во время переключения на основной ресурс этот сеанс продолжается.</span><span class="sxs-lookup"><span data-stu-id="b58dd-121">Pool failback can happen while an affected user is logged on to the backup pool, and the user remains logged on and working during the failback.</span></span> <span data-ttu-id="b58dd-122">Обратите внимание, что процесс восстановления после сбоя занимает несколько минут.</span><span class="sxs-lookup"><span data-stu-id="b58dd-122">Note that the failback process takes several minute to complete.</span></span><span data-ttu-id="b58dd-123">Следует исходить из длительности 60 минут для пула, в котором работает 20 000 пользователей.</span><span class="sxs-lookup"><span data-stu-id="b58dd-123">  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
+
+<span data-ttu-id="b58dd-124">В приведенных ниже таблицах приведены дополнительные сведения о том, как повлияет пользователь, работающий с клиентом Lync 2013 или Microsoft Lync 2010, в процессе и после восстановления, а также о том, как пользователи в других пулах видят и работают с пользователем в пуле, который не прошел обратно.</span><span class="sxs-lookup"><span data-stu-id="b58dd-124">The following tables show more details about how a user with a Lync 2013 client or a Microsoft Lync 2010 client is affected during and after failback, and also how users in other pools see and interact with a user in a pool who is being failed back.</span></span> <span data-ttu-id="b58dd-125">Пользователи с помощью Microsoft Office Communicator 2007 R2 не могут войти в систему, пока не будет полностью восстановлен пул переднего плана.)</span><span class="sxs-lookup"><span data-stu-id="b58dd-125">Users with Microsoft Office Communicator 2007 R2 clients cannot sign in until the Front End pool is completely failed back.)</span></span>
+
+<span data-ttu-id="b58dd-126">Термином *затронутый пользователь* обозначается любой пользователь, вышедший из исходного пула в ходе отработки отказа и обслуживаемый из резервного пула.</span><span class="sxs-lookup"><span data-stu-id="b58dd-126">The term *affected user* refers to any user who was failed over from the home pool and is being serviced by the backup pool.</span></span> <span data-ttu-id="b58dd-127">По определению, пользователи, первоначально размещенные в пуле резервных копий, не подвержены уязвимости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-127">By definition, any user originally homed on the backup pool is not an affected user.</span></span>
+
+### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a><span data-ttu-id="b58dd-128">Взаимодействие с затронутым пользователем пула в ходе восстановления размещения</span><span class="sxs-lookup"><span data-stu-id="b58dd-128">User Experience for an Affected User in a Pool in Failback</span></span>
 
 <table>
 <colgroup>
@@ -105,32 +71,105 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Задача пользователя</th>
-<th>Во время восстановления размещения</th>
-<th>После завершения восстановления размещения</th>
+<th><span data-ttu-id="b58dd-129">Состояние пользователя или задача</span><span class="sxs-lookup"><span data-stu-id="b58dd-129">User state or task</span></span></th>
+<th><span data-ttu-id="b58dd-130">Во время восстановления размещения</span><span class="sxs-lookup"><span data-stu-id="b58dd-130">During failback</span></span></th>
+<th><span data-ttu-id="b58dd-131">После завершения восстановления размещения</span><span class="sxs-lookup"><span data-stu-id="b58dd-131">After failback completion</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Просмотр сведений о присутствии затронутого пользователя</p></td>
-<td><p>Отображается последнее состояние присутствия, заданное затронутым пользователем.</p></td>
-<td><p>Незатронутые пользователи могут просматривать обновленные сведения о присутствии затронутых пользователей.</p></td>
+<td><p><span data-ttu-id="b58dd-132">Состояние пользователя, который уже выполнил вход</span><span class="sxs-lookup"><span data-stu-id="b58dd-132">User state of user already logged in</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-p108">Пользователь остается подключенным к резервному пулу. В определенный момент времени пользователь выйдет из системы и затем снова выполнит вход на исходном пуле в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-p108">User stays signed in and connected to backup pool. At some point user will be signed out and sign back in to the original home pool, in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-135">Состояние входа пользователя не изменяется, и он переходит в обычный режим.</span><span class="sxs-lookup"><span data-stu-id="b58dd-135">User remains signed in and goes into regular mode.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Текущие конференции, созданные затронутым пользователем</p></td>
-<td><p>Все модальности конференции приостанавливаются.</p></td>
-<td><p>Все модальности работают. Для повторного присоединения к конференции участникам требуется нажать кнопку &quot;Повторно присоединиться&quot;.</p></td>
+<td><p><span data-ttu-id="b58dd-136">Вход нового пользователя</span><span class="sxs-lookup"><span data-stu-id="b58dd-136">New user logging in</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-137">Пользователь может выполнить вход в пул в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-137">User can sign in to the home pool in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-138">Пользователь может выполнить вход в исходный пул в обычном режиме.</span><span class="sxs-lookup"><span data-stu-id="b58dd-138">User can sign in to the original home pool in regular mode.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Текущие конференции, созданные незатронутым пользователем</p></td>
-<td><p>Конференция будет продолжена, затронутый пользователь может остаться в конференции и все модальности будут работать.</p></td>
-<td><p>Конференция будет продолжена, затронутый пользователь может остаться в конференции и все модальности будут работать.</p></td>
+<td><p><span data-ttu-id="b58dd-139">Текущие конференции, созданные затронутым пользователем</span><span class="sxs-lookup"><span data-stu-id="b58dd-139">Ongoing conferences organized by affected user</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-p109">Все модальности конференции приостанавливаются. Кнопка "Повторно присоединиться" будет отображаться, но ни один пользователь не сможет присоединиться повторно, если затронутый пользователь находится в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-p109">All modalities of conference are terminated. Rejoin button will appear, but no users can rejoin while the affected user is in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-p110">Все модальности работают. Для повторного присоединения к конференции участникам требуется нажать кнопку "Повторно присоединиться".</span><span class="sxs-lookup"><span data-stu-id="b58dd-p110">All modalities now work. Every participant needs to click to rejoin the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Все одноранговые сеансы и модальности</p></td>
-<td><p>Доступно</p></td>
-<td><p>Доступно</p></td>
+<td><p><span data-ttu-id="b58dd-144">Текущие конференции, созданные незатронутым пользователем</span><span class="sxs-lookup"><span data-stu-id="b58dd-144">Ongoing conferences organized by unaffected user</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-p111">Конференция будет продолжена, и затронутый пользователь останется подключенным к конференции. Возможности затронутого пользователя в режиме устойчивости ограничены.</span><span class="sxs-lookup"><span data-stu-id="b58dd-p111">Conference continues and affected user can stay in the conference. Affected user is restricted to what he/she can do in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-147">Конференция будет продолжена, затронутый пользователь останется подключенным к конференции, а все модальности начнут работу после выхода из режима устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-147">Conference continues, and affected user can stay in the conference and all modalities work after user exits Resiliency mode.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b58dd-148">Создание расписания и изменение запланированных собраний, создание запланированных конференций</span><span class="sxs-lookup"><span data-stu-id="b58dd-148">Scheduling or modifying scheduled meetings, creating ad-hoc conferences</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-149">Невозможно в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-149">Not possible while user is in Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-150">Доступно для всех модальностей.</span><span class="sxs-lookup"><span data-stu-id="b58dd-150">Available for all modalities.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b58dd-151">Сведения о присутствии, отображаемые остальным пользователям того же пула</span><span class="sxs-lookup"><span data-stu-id="b58dd-151">Presence as seen by other users in the same pool</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-152">Сведения о присутствии отсутствуют, если пользователь выполнил вход в резервный пул в режиме устойчивости.</span><span class="sxs-lookup"><span data-stu-id="b58dd-152">Presence unknown while user is signed into backup pool during Resiliency mode.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-153">Отображается последнее состояние присутствия, заданное пользователем, при этом изменения состояния присутствия не отображаются.</span><span class="sxs-lookup"><span data-stu-id="b58dd-153">Shows the last presence state set by the user, and presence changes will now be reflected.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b58dd-154">Доступность списка контактов и службы адресной книги</span><span class="sxs-lookup"><span data-stu-id="b58dd-154">Contacts list and Address Book Service availability</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-155">Недоступно</span><span class="sxs-lookup"><span data-stu-id="b58dd-155">Not available</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-156">Доступно</span><span class="sxs-lookup"><span data-stu-id="b58dd-156">Available</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b58dd-157">Все одноранговые сеансы и модальности</span><span class="sxs-lookup"><span data-stu-id="b58dd-157">All peer-to-peer sessions and modalities</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-158">Доступно</span><span class="sxs-lookup"><span data-stu-id="b58dd-158">Available</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-159">Доступно</span><span class="sxs-lookup"><span data-stu-id="b58dd-159">Available</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+### <a name="user-experience-for-a-user-homed-in-an-unaffected-pool-during-failback-of-another-pool"></a><span data-ttu-id="b58dd-160">Взаимодействие с пользователями, размещенными в незатронутом пуле, в ходе восстановления размещения другого пула</span><span class="sxs-lookup"><span data-stu-id="b58dd-160">User Experience for a User Homed in an Unaffected Pool During Failback of Another Pool</span></span>
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="b58dd-161">Задача пользователя</span><span class="sxs-lookup"><span data-stu-id="b58dd-161">User task</span></span></th>
+<th><span data-ttu-id="b58dd-162">Во время восстановления размещения</span><span class="sxs-lookup"><span data-stu-id="b58dd-162">During failback</span></span></th>
+<th><span data-ttu-id="b58dd-163">После завершения восстановления размещения</span><span class="sxs-lookup"><span data-stu-id="b58dd-163">After failback completion</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="b58dd-164">Просмотр сведений о присутствии затронутого пользователя</span><span class="sxs-lookup"><span data-stu-id="b58dd-164">Viewing presence of affected user</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-165">Отображается последнее состояние присутствия, заданное затронутым пользователем.</span><span class="sxs-lookup"><span data-stu-id="b58dd-165">Shows the last presence state set by the affected user.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-p112">Незатронутые пользователи могут просматривать обновленные сведения о присутствии затронутых пользователей.</span><span class="sxs-lookup"><span data-stu-id="b58dd-p112">Working. Unaffected users see updates made by affected users.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b58dd-168">Текущие конференции, созданные затронутым пользователем</span><span class="sxs-lookup"><span data-stu-id="b58dd-168">Ongoing conferences organized by affected user</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-169">Все модальности конференции приостанавливаются.</span><span class="sxs-lookup"><span data-stu-id="b58dd-169">All modalities of conference are terminated.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-p113">Все модальности работают. Для повторного присоединения к конференции участникам требуется нажать кнопку "Повторно присоединиться".</span><span class="sxs-lookup"><span data-stu-id="b58dd-p113">All modalities now work. Every participant needs to click to rejoin the conference.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="b58dd-172">Текущие конференции, созданные незатронутым пользователем</span><span class="sxs-lookup"><span data-stu-id="b58dd-172">Ongoing conferences organized by unaffected user</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-173">Конференция будет продолжена, затронутый пользователь может остаться в конференции, и все модальности будут работать.</span><span class="sxs-lookup"><span data-stu-id="b58dd-173">Conference continues, and affected user can stay in the conference and all modalities work.</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-174">Конференция будет продолжена, затронутый пользователь может остаться в конференции, и все модальности будут работать.</span><span class="sxs-lookup"><span data-stu-id="b58dd-174">Conference continues, and affected user can stay in the conference and all modalities work.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="b58dd-175">Все одноранговые сеансы и модальности</span><span class="sxs-lookup"><span data-stu-id="b58dd-175">All peer-to-peer sessions and modalities</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-176">Доступно</span><span class="sxs-lookup"><span data-stu-id="b58dd-176">Available</span></span></p></td>
+<td><p><span data-ttu-id="b58dd-177">Доступно</span><span class="sxs-lookup"><span data-stu-id="b58dd-177">Available</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

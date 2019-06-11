@@ -1,27 +1,65 @@
-﻿---
-title: Процесс миграции
-TOCTitle: Процесс миграции
-ms:assetid: b2bd9c76-2f4b-4d14-a5c4-157bbff75de0
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205181(v=OCS.15)
-ms:contentKeyID: 49310904
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Процесс миграции
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration process
+ms:assetid: b2bd9c76-2f4b-4d14-a5c4-157bbff75de0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205181(v=OCS.15)
+ms:contentKeyID: 48185157
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba15e7fc3d190970d8c7cbc5bf7f6465286d1bc5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849005"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Процесс миграции
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-24_
+# <a name="migration-process"></a><span data-ttu-id="aecec-102">Процесс миграции</span><span class="sxs-lookup"><span data-stu-id="aecec-102">Migration process</span></span>
 
-Рекомендуемым и поддерживаемым способом миграции для Lync Server 2013 является параллельная миграция. В этом разделе описываются причины для использования параллельной миграции и приводятся сведения о сосуществовании.
+</div>
 
-## Параллельная миграция
+<div id="mainSection">
 
-Почти во всех случаях следует использовать параллельную миграцию. При этом способе новый сервер Lync Server 2013 развертывается в дополнение к соответствующему серверу Office Communications Server 2007 R2, после чего операции переносятся на новый сервер. Если необходимо выполнить откат к Office Communications Server 2007 R2, то вам нужно просто перенести операции обратно на исходные серверы. Имейте в виду, что в этом случае проведение новых собраний, запланированных с помощью обновленных клиентов, будет невозможно, и клиенты также потребуется откатить до предыдущей версии.
+<div id="mainBody">
 
-## Тестирование сосуществования
+<span> </span>
 
-После параллельного развертывания Lync Server 2013 вместе с Office Communications Server 2007 R2 топология находится в состоянии тестирования сосуществования Lync Server 2013 и Office Communications Server 2007 R2. Пока топология находится в этом состоянии, необходимо убедиться в том, что службы запускаются, все сайты доступны для администрирования и клиенты обеспечивают взаимодействие как с новыми, так и со старыми пользователями. Перед миграцией всех пользователей крайне важно оценить состояние каждого развертывания и убедиться в его работоспособности. Как правило, тестирование сосуществования продолжается в течение всего периода пилотного тестирования Lync Server 2013. Существующие пользователи перемещаются в Lync Server 2013 на некоторое время для проверки совместимости приложений и правильной работы компонентов и функций. По завершении пилотного тестирования пользователи и приложения переносятся в рабочую версию Lync Server 2013, а старые пулы и приложения Office Communications Server 2007 R2 выводятся из эксплуатации.
+<span data-ttu-id="aecec-103">_**Тема последнего изменения:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="aecec-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+
+<span data-ttu-id="aecec-104">Рекомендуемая и поддерживаемая процедура миграции для Lync Server 2013 — это процедура параллельной миграции.</span><span class="sxs-lookup"><span data-stu-id="aecec-104">The recommended and supported migration procedure for Lync Server 2013 is the side-by-side migration procedure.</span></span> <span data-ttu-id="aecec-105">В этой статье описаны причины, по которым следует использовать параллельную миграцию, а также сведения о сосуществовании.</span><span class="sxs-lookup"><span data-stu-id="aecec-105">This topic describes why you should use side-by-side migration and also includes information about coexistence.</span></span>
+
+<div>
+
+## <a name="side-by-side-migration"></a><span data-ttu-id="aecec-106">Переход с одной стороны на другую</span><span class="sxs-lookup"><span data-stu-id="aecec-106">Side-by-Side Migration</span></span>
+
+<span data-ttu-id="aecec-107">Почти во всех случаях миграции следует использовать путь параллельной миграции.</span><span class="sxs-lookup"><span data-stu-id="aecec-107">In nearly every migration, you should use the side-by-side migration path.</span></span> <span data-ttu-id="aecec-108">При переходе по отдельности вы можете развернуть новый сервер с помощью Lync Server 2013 и соответствующего сервера, на котором запущен Office Communications Server 2007 R2, а затем перенести операции на новый сервер.</span><span class="sxs-lookup"><span data-stu-id="aecec-108">In a side-by-side migration, you deploy a new server with Lync Server 2013 alongside a corresponding server that is running Office Communications Server 2007 R2, and then you transfer operations to the new server.</span></span> <span data-ttu-id="aecec-109">Если вы хотите вернуться к Office Communications Server 2007 R2, вам нужно будет только перевернуть их на первоначальные серверы.</span><span class="sxs-lookup"><span data-stu-id="aecec-109">If it becomes necessary to roll back to Office Communications Server 2007 R2, you have only to shift operations back to the original servers.</span></span> <span data-ttu-id="aecec-110">Имейте в виду, что в этом случае новые собрания, запланированные на обновленных клиентах, не будут работать, а клиентам также потребуется понизить уровень.</span><span class="sxs-lookup"><span data-stu-id="aecec-110">Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.</span></span>
+
+</div>
+
+<div>
+
+## <a name="coexistence-testing"></a><span data-ttu-id="aecec-111">Тестирование сосуществования</span><span class="sxs-lookup"><span data-stu-id="aecec-111">Coexistence Testing</span></span>
+
+<span data-ttu-id="aecec-112">После развертывания Lync Server 2013 параллельно с Office Communications Server 2007 R2 топология представляет состояние тестирования сосуществования Lync Server 2013 и Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="aecec-112">After you have deployed Lync Server 2013 in parallel with Office Communications Server 2007 R2, the topology represents a coexistence testing state of Lync Server 2013 and Office Communications Server 2007 R2.</span></span> <span data-ttu-id="aecec-113">В этом состоянии важно проверить и убедиться, что службы запущены, можно администрировать каждый сайт, а клиенты смогут общаться с текущими и устаревшими пользователями.</span><span class="sxs-lookup"><span data-stu-id="aecec-113">While in this state, it is important to test and ensure services are started, each site can be administered, and clients can communicate with current and legacy users.</span></span> <span data-ttu-id="aecec-114">Прежде чем переходить от всех пользователей, очень важно понять состояние каждого развертывания и убедиться, что каждое развертывание работает и работает правильно.</span><span class="sxs-lookup"><span data-stu-id="aecec-114">Prior to the migration of all users, it is very important that you understand the state of each deployment and ensure that each deployment is functional and working properly.</span></span> <span data-ttu-id="aecec-115">Как правило, этап тестирования сосуществования используется во время пилотного тестирования Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="aecec-115">Typically, the coexistence testing phase exists throughout the pilot testing of Lync Server 2013.</span></span> <span data-ttu-id="aecec-116">Пользователи прежних версий перемещаются на Lync Server 2013 в течение определенного периода времени, чтобы обеспечить правильную работу функций и функций.</span><span class="sxs-lookup"><span data-stu-id="aecec-116">Legacy users are moved to Lync Server 2013 for a period of time to ensure that application compatibility and features and functions are working properly.</span></span> <span data-ttu-id="aecec-117">После пилотной проверки пользователи и приложения перемещаются в рабочую версию Lync Server 2013, а устаревшие пулы и приложения Office Communications Server 2007 R2 будут прекращены.</span><span class="sxs-lookup"><span data-stu-id="aecec-117">After pilot testing, users and applications are moved to the production version of Lync Server 2013, and the legacy pools and applications of Office Communications Server 2007 R2 are retired.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

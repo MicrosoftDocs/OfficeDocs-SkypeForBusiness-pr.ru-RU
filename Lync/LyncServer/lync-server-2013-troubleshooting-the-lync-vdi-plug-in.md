@@ -1,63 +1,101 @@
-﻿---
-title: Устранение неполадок подключаемого модуля VDI Lync в Lync Server 2013
-TOCTitle: Устранение неполадок подключаемого модуля VDI Lync в Lync Server 2013
-ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204713(v=OCS.15)
-ms:contentKeyID: 49309077
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Устранение неполадок с внешним модулем VDI Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Troubleshooting the Lync VDI plug-in
+ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
+ms:contentKeyID: 48183525
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7afaa0067e4ca06f8bb40ff201b090a45c66f442
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849336"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Устранение неполадок подключаемого модуля VDI Lync в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-10_
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a><span data-ttu-id="a82b1-102">Устранение неполадок с внешним модулем Lync VDI в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a82b1-102">Troubleshooting the Lync VDI plug-in in Lync Server 2013</span></span>
 
-## Диагностика неполадок при установке подключаемого модуля инфраструктуры виртуальных рабочих столов (VDI) Lync на тонком клиенте
+</div>
 
-В случае возникновения неполадок при установке подключаемого модуля VDI на тонком клиенте проверьте следующее:
+<div id="mainSection">
 
-  - Убедитесь в наличии достаточного свободного пространства в папке, указанной в системных переменных TEMP и TMP.
+<div id="mainBody">
 
-  - Убедитесь в том, что защита от записи отключена. Инструкции см. в документации, предоставленной производителем устройства.
+<span> </span>
 
-## Диагностика неполадок сопряжения
+<span data-ttu-id="a82b1-103">_**Тема последнего изменения:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="a82b1-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-Если не удается выполнить сопряжение подключаемого модуля VDI, значок сопряжения в нижнем правом углу имеет вид буквы "Х" красного цвета (см. иллюстрацию):
+<div>
 
-![Значок Lync VDI, указывающий на успешное сопряжение](images/JJ204713.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Значок Lync VDI, указывающий на успешное сопряжение")
+## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a><span data-ttu-id="a82b1-104">Устранение неполадок, возникающих при установке плагина Lync VDI на тонком клиенте</span><span class="sxs-lookup"><span data-stu-id="a82b1-104">Troubleshooting Issues with Installing the Lync VDI Plug-in on a Thin Client</span></span>
 
-Далее перечислены возможные причины сбоя и рекомендуемые меры по исправлению:
+<span data-ttu-id="a82b1-105">Если у вас возникли проблемы при установке надстройки VDI на тонком клиенте, проверьте следующее:</span><span class="sxs-lookup"><span data-stu-id="a82b1-105">If there are issues with installing the VDI plug-in on a thin client, check the following:</span></span>
 
-  - **Пользователем введены неправильные учетные данные при входе в систему.**
+  - <span data-ttu-id="a82b1-106">Убедитесь в наличии достаточного свободного пространства в папке, указанной в системных переменных TEMP и TMP.</span><span class="sxs-lookup"><span data-stu-id="a82b1-106">Ensure that there is sufficient space in the folder that you specified in the TEMP and TMP system variables.</span></span>
+
+  - <span data-ttu-id="a82b1-p101">Убедитесь в том, что защита от записи отключена. Инструкции см. в документации, предоставленной производителем устройства.</span><span class="sxs-lookup"><span data-stu-id="a82b1-p101">Ensure that write-protect is turned off. Refer to your device manufacturer’s documentation for instructions.</span></span>
+
+</div>
+
+<div>
+
+## <a name="troubleshooting-issues-with-pairing"></a><span data-ttu-id="a82b1-109">Устранение неполадок сопряжения</span><span class="sxs-lookup"><span data-stu-id="a82b1-109">Troubleshooting Issues with Pairing</span></span>
+
+<span data-ttu-id="a82b1-110">При возникновении ошибки связывания с внешним подключением VDI значок связывания в правом нижнем углу отображается как красный крестик, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="a82b1-110">When VDI plug-in pairing fails, the pairing icon in the lower right displays as a red “X” as shown:</span></span>
+
+<span data-ttu-id="a82b1-111">![Значок LYNC VDI] , показывающий успешное связывание (images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Значок LYNC VDI") , показывающий успешное связывание</span><span class="sxs-lookup"><span data-stu-id="a82b1-111">![Lync VDI icon showing successful pairing](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Lync VDI icon showing successful pairing")</span></span>
+
+<span data-ttu-id="a82b1-112">Ниже приведены возможные причины сбоя и действия по их исправлению.</span><span class="sxs-lookup"><span data-stu-id="a82b1-112">The following are possible reasons for failures and the corrective actions you can take.</span></span>
+
+  - <span data-ttu-id="a82b1-113">**Пользователем введены неправильные учетные данные при входе в систему.**</span><span class="sxs-lookup"><span data-stu-id="a82b1-113">**The user entered incorrect credentials during sign-in.**</span></span>
     
-    Пользователю необходимо выйти из Lync и выполнить вход повторно, указав правильные учетные данные. В повторно открывшемся диалоговом окне отобразится уведомление об успешном сопряжении.
+    <span data-ttu-id="a82b1-114">Пользователь должен выйти из Lync и войти в систему с правильными учетными данными.</span><span class="sxs-lookup"><span data-stu-id="a82b1-114">The user should sign out of Lync and sign in again with the correct credentials.</span></span> <span data-ttu-id="a82b1-115">В повторно открывшемся диалоговом окне отобразится уведомление об успешном сопряжении.</span><span class="sxs-lookup"><span data-stu-id="a82b1-115">The pairing dialog box will reappear and show whether pairing is successful.</span></span>
 
-  - **Запущен еще один экземпляр клиента удаленного рабочего стола.**
+  - <span data-ttu-id="a82b1-116">**Выполняется другой экземпляр клиента удаленного рабочего стола.**</span><span class="sxs-lookup"><span data-stu-id="a82b1-116">**Another instance of the remote desktop client is running.**</span></span>
     
-    Если в Windows используется подключение к удаленному рабочему столу, пользователь должен выполнить следующие действия:
+    <span data-ttu-id="a82b1-117">Если они используют подключение к удаленному рабочему столу в Windows, пользователи должны выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="a82b1-117">If they are using Remote Desktop Connection in Windows, users should do the following:</span></span>
     
-    1.  Запустить диспетчер задач: нажмите **Alt+Ctrl+Delete** и выберите **Запустить диспетчер задач**.
+    1.  <span data-ttu-id="a82b1-118">Запустите диспетчер задач: нажмите клавиши **ALT+CTRL+DELETE** и выберите пункт **Запустить диспетчер задач**.</span><span class="sxs-lookup"><span data-stu-id="a82b1-118">Start Task Manager: Press **Alt+Ctrl+Delete**, and then click **Start Task Manager**.</span></span>
     
-    2.  Перейдите на вкладку **Процессы** и проверьте все процессы с именем **mstsc.exe** в списке.
+    2.  <span data-ttu-id="a82b1-119">Перейдите на вкладку **Процессы** и найдите все процессы с именем **mstsc.exe** в списке.</span><span class="sxs-lookup"><span data-stu-id="a82b1-119">Click the **Processes** tab and look for all processes named **mstsc.exe** in the list.</span></span>
     
-    3.  Выделите каждый из процессов **mstsc.exe** и нажмите **Завершить процесс**.
+    3.  <span data-ttu-id="a82b1-120">Выделите каждый процесс **mstsc.exe** и нажмите кнопку **Завершить процесс**. </span><span class="sxs-lookup"><span data-stu-id="a82b1-120">Highlight each **mstsc.exe** process and then click **End Process**.</span></span>
     
-    4.  Запустите новый сеанс удаленного рабочего стола и повторите попытку подключения.
+    4.  <span data-ttu-id="a82b1-121">Запустите новый сеанс удаленного рабочего стола и повторите попытку подключения. </span><span class="sxs-lookup"><span data-stu-id="a82b1-121">Start a new remote desktop session and try connecting again.</span></span>
 
-  - **Не удалось установить необходимые файлы.**
+  - <span data-ttu-id="a82b1-122">**Не удалось установить необходимые файлы.**</span><span class="sxs-lookup"><span data-stu-id="a82b1-122">**The necessary files did not install correctly.**</span></span>
     
-    После установки подключаемого модуля на локальный компьютер в папке C:\\Program Files\\Microsoft Office\\Office15 (буква диска может быть другой) должны появиться следующие файлы:
+    <span data-ttu-id="a82b1-123">После того как плагин установлен на локальном компьютере, в разделе C:\\Program Files\\Microsoft Office\\Office15 (или соответствующую букву диска) должны быть указаны следующие файлы:</span><span class="sxs-lookup"><span data-stu-id="a82b1-123">After the plug-in is installed on the local computer, the following files should be present under C:\\Program Files\\Microsoft Office\\Office15 (or the appropriate drive letter):</span></span>
     
-      - LyncVdiPlugin.dll
+      - <span data-ttu-id="a82b1-124">LyncVdiPlugin.dll</span><span class="sxs-lookup"><span data-stu-id="a82b1-124">LyncVdiPlugin.dll</span></span>
     
-      - UcVdi.dll
+      - <span data-ttu-id="a82b1-125">UcVdi.dll</span><span class="sxs-lookup"><span data-stu-id="a82b1-125">UcVdi.dll</span></span>
     
-    В случае возникновения проблем с сопряжением подключаемого модуля VDI убедитесь в наличии этих файлов на локальном компьютере.
+    <span data-ttu-id="a82b1-126">Если при связывании с помощью VDI возникли проблемы, убедитесь, что эти файлы находятся на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="a82b1-126">If there are any issues with VDI pairing, check to make sure that these files are present on the local computer.</span></span>
 
-  - **Клиент Lync запущен на локальном компьютере.**
+  - <span data-ttu-id="a82b1-127">**Клиент Lync запущен на локальном компьютере.**</span><span class="sxs-lookup"><span data-stu-id="a82b1-127">**The Lync client is running on the local computer.**</span></span>
     
-    Для работы с подключаемым модулем VDI Lync клиент Lync не должен быть запущен на локальном компьютере. В противном случае произойдет сбой сопряжения. Пользователю не рекомендуется устанавливать клиент Lync на локальном компьютере.
+    <span data-ttu-id="a82b1-128">Чтобы использовать подключаемый модуль VDI Lync, клиент Lync не должен выполняться на локальном компьютере, в противном случае связывание завершится сбоем.</span><span class="sxs-lookup"><span data-stu-id="a82b1-128">To use the Lync VDI plugin, a Lync client must not be running on the local computer, otherwise pairing will fail.</span></span> <span data-ttu-id="a82b1-129">Рекомендуется не устанавливать клиент Lync на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="a82b1-129">As a best practice, the user should not install a Lync client on the local computer.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,195 +1,257 @@
-﻿---
-title: Использование панели мониторинга в Lync Server 2013
-TOCTitle: Использование панели мониторинга в Lync Server 2013
-ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721905(v=OCS.15)
-ms:contentKeyID: 49888220
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: использование панели мониторинга'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Monitoring Dashboard
+ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721905(v=OCS.15)
+ms:contentKeyID: 49733839
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 50c5a435baf9ef6b2ef24e235270326507b68789
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849209"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Использование панели мониторинга в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-02-05_
+# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a><span data-ttu-id="afe85-102">Использование панели мониторинга в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afe85-102">Using the Monitoring Dashboard in Lync Server 2013</span></span>
 
-Панель мониторинга быстро предоставляет администраторам сведения о работоспособности и использовании системы Microsoft Lync Server 2013. Панель мониторинга предназначена для отображения объединенного представления важных системных показателей и для этого она отображает следующие сведения:
+</div>
 
-  - Итоги за текущий день. Обратите внимание, что значения, показанные для текущего дня, представляют данные, зафиксированные с полуночи до текущего времени (на основе локального времени сервера отчетов). Это означает, что вы, как правило, будете просматривать данные за неполный день, а не за 24 часа. Например, если локальное время сервера 08:00, вы увидите данные за восемь часов, поскольку с полуночи до текущего времени (08:00) прошло восемь часов.
+<div id="mainSection">
 
-  - Итоги недели и итоговые значения тенденций за последние шесть недель.
+<div id="mainBody">
 
-  - Итоги за месяц и итоговые значения тенденций за последние шесть месяцев (только для системы).
+<span> </span>
 
-Обратите внимание, что для получения URL-адреса, используемого для обращения к Отчетам о мониторинге Lync Server 2013, можно выполнить командлет [Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration):
+<span data-ttu-id="afe85-103">_**Тема последнего изменения:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="afe85-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+
+<span data-ttu-id="afe85-104">Информационная панель мониторинга позволяет администраторам быстро просматривать работоспособность системы и использование системы Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afe85-104">The Monitoring Dashboard provides administrators with a quick overview of their Microsoft Lync Server 2013 system health and system usage.</span></span> <span data-ttu-id="afe85-105">Панель мониторинга предназначена для отображения сводного представления важнейших системных показателей в одном из следующих вариантов.</span><span class="sxs-lookup"><span data-stu-id="afe85-105">The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:</span></span>
+
+  - <span data-ttu-id="afe85-p102">Итоги за текущий день. Обратите внимание, что значения, показанные для текущего дня, представляют данные, зафиксированные с полуночи до текущего времени (на основе локального времени сервера отчетов). Это означает, что вы, как правило, будете просматривать данные за неполный день, а не за 24 часа. Например, если локальное время сервера 08:00, вы увидите данные за восемь часов, поскольку с полуночи до текущего времени (08:00) прошло восемь часов.</span><span class="sxs-lookup"><span data-stu-id="afe85-p102">Totals for the current day. Note that values shown for the current day represent data that has been recorded from midnight until the current time (based on the local time of the reporting server). That means that you will typically be viewing data for a partial day and not for a 24-hour period. For example, if the local time of the server is 8:00 AM, you see eight hours’ worth of data because there are eight hours between midnight and the current time of 8:00 AM.</span></span>
+
+  - <span data-ttu-id="afe85-110">Итоги недели и итоговые значения тенденций за последние шесть недель.</span><span class="sxs-lookup"><span data-stu-id="afe85-110">Totals for the week, and trend totals for the past six weeks.</span></span>
+
+  - <span data-ttu-id="afe85-111">Итоги за месяц и итоговые значения тенденций за последние шесть месяцев (только для системы).</span><span class="sxs-lookup"><span data-stu-id="afe85-111">Totals for the month, and trend totals for the past six months (for system usage only).</span></span>
+
+<span data-ttu-id="afe85-112">Обратите внимание, что для получения URL-адреса, используемого для доступа к отчетам мониторинга Lync Server 2013, можно использовать командлет [Get-ксрепортингконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) :</span><span class="sxs-lookup"><span data-stu-id="afe85-112">Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet to return the URL used for accessing Lync Server 2013 Monitoring Reports:</span></span>
 
     Get-CsReportingConfiguration
 
-По умолчанию панель мониторинга показывает данные о следующих показателях за текущую неделю (а также итоговые значения тенденций за предыдущие шесть недель):
+<span data-ttu-id="afe85-113">По умолчанию панель мониторинга показывает данные о следующих показателях за текущую неделю (а также итоговые значения тенденций за предыдущие шесть недель):</span><span class="sxs-lookup"><span data-stu-id="afe85-113">By default, the Monitoring Dashboard shows data for the following metrics for the current week (and trend totals for the previous six weeks):</span></span>
 
-## Показатели использования системы
+<div>
 
-**Регистрация**
+## <a name="system-usage-metrics"></a><span data-ttu-id="afe85-114">Показатели использования системы</span><span class="sxs-lookup"><span data-stu-id="afe85-114">System Usage Metrics</span></span>
 
-  - Уникальных входов пользователей в систему
+<span data-ttu-id="afe85-115">**Регистрация**</span><span class="sxs-lookup"><span data-stu-id="afe85-115">**Registration**</span></span>
 
-**Одноранговая**
+  - <span data-ttu-id="afe85-116">Уникальных входов пользователей в систему</span><span class="sxs-lookup"><span data-stu-id="afe85-116">Unique user logons</span></span>
 
-  - Всего сеансов
+<span data-ttu-id="afe85-117">**Связь между одноранговыми узлами**</span><span class="sxs-lookup"><span data-stu-id="afe85-117">**Peer-to-peer**</span></span>
 
-  - Сеансов обмена мгновенными сообщениями
+  - <span data-ttu-id="afe85-118">Общее количество сеансов</span><span class="sxs-lookup"><span data-stu-id="afe85-118">Total sessions</span></span>
 
-  - Аудиосеансов
+  - <span data-ttu-id="afe85-119">Сеансов обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="afe85-119">IM sessions</span></span>
 
-  - Видеосеансов
+  - <span data-ttu-id="afe85-120">Аудиосеансов</span><span class="sxs-lookup"><span data-stu-id="afe85-120">Audio sessions</span></span>
 
-  - Общий доступ к приложениям
+  - <span data-ttu-id="afe85-121">Видеосеансов</span><span class="sxs-lookup"><span data-stu-id="afe85-121">Video sessions</span></span>
 
-  - Общее количество минут аудиосеанса
+  - <span data-ttu-id="afe85-122">Общий доступ к приложениям</span><span class="sxs-lookup"><span data-stu-id="afe85-122">Application sharing</span></span>
 
-  - Среднее количество минут аудиосеанса
+  - <span data-ttu-id="afe85-123">Общее количество минут аудиосеанса</span><span class="sxs-lookup"><span data-stu-id="afe85-123">Total audio session minutes</span></span>
 
-**Конференция**
+  - <span data-ttu-id="afe85-124">Среднее количество минут аудиосеанса</span><span class="sxs-lookup"><span data-stu-id="afe85-124">Avg. audio session minutes</span></span>
 
-  - Всего конференций
+<span data-ttu-id="afe85-125">**Конференция**</span><span class="sxs-lookup"><span data-stu-id="afe85-125">**Conference**</span></span>
 
-  - Конференции с обменом мгновенными сообщениями
+  - <span data-ttu-id="afe85-126">Общее количество конференций</span><span class="sxs-lookup"><span data-stu-id="afe85-126">Total conferences</span></span>
 
-  - Аудио- и видеоконференции
+  - <span data-ttu-id="afe85-127">Конференции с обменом мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="afe85-127">IM conferences</span></span>
 
-  - Конференции с общим доступом к приложениям
+  - <span data-ttu-id="afe85-128">Аудио- и видеоконференции</span><span class="sxs-lookup"><span data-stu-id="afe85-128">A/V conferences</span></span>
 
-  - Веб-конференции
+  - <span data-ttu-id="afe85-129">Конференции с общим доступом к приложениям</span><span class="sxs-lookup"><span data-stu-id="afe85-129">Application sharing conferences</span></span>
 
-  - Всего организаторов
+  - <span data-ttu-id="afe85-130">Веб-конференции</span><span class="sxs-lookup"><span data-stu-id="afe85-130">Web conferences</span></span>
 
-  - Всего минут аудио- и видеоконференций
+  - <span data-ttu-id="afe85-131">Всего организаторов</span><span class="sxs-lookup"><span data-stu-id="afe85-131">Total organizers</span></span>
 
-  - Среднее количество минут аудио- и видеоконференций
+  - <span data-ttu-id="afe85-132">Общая продолжительность видео-/голосовых конференций минутах</span><span class="sxs-lookup"><span data-stu-id="afe85-132">Total A/V conference minutes</span></span>
 
-  - Всего конференций ТСОП
+  - <span data-ttu-id="afe85-133">Среднее количество минут аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="afe85-133">Avg. A/V conference minutes</span></span>
 
-  - Всего участников из ТСОП
+  - <span data-ttu-id="afe85-134">Общее количество конференций по ТСОП</span><span class="sxs-lookup"><span data-stu-id="afe85-134">Total PSTN conferences</span></span>
 
-  - Общее количество минут участников из ТСОП
+  - <span data-ttu-id="afe85-135">Общее количество участников конференций по ТСОП</span><span class="sxs-lookup"><span data-stu-id="afe85-135">Total PSTN participants</span></span>
 
-Помимо показателей использования системы, следующие показатели отображают итоговые значения за текущий день и предыдущие шесть дней (если выбрано **недельное представление**) или за текущую неделю и последние шесть недель, если выбрано **месячное представление**.
+  - <span data-ttu-id="afe85-136">Общая продолжительность участия в конференции по ТСОП в минутах</span><span class="sxs-lookup"><span data-stu-id="afe85-136">Total PSTN participant minutes</span></span>
 
-## Диагностика вызова для пользователей
+<span data-ttu-id="afe85-137">Помимо показателей использования системы, отображаются следующие итоговые показатели за текущий день и предыдущие шесть дней (если выбран вариант **недельное представление**) или за текущую неделю и последние шесть недель, если выбран вариант **Месячное представление**.</span><span class="sxs-lookup"><span data-stu-id="afe85-137">In addition to the System Usage metrics, the following metrics displays total for the current day and the previous six days (if you select **Weekly View**) or for the current week and the past six weeks if you select **Monthly View**.</span></span>
 
-**Пользователей со сбоями вызовов**
+</div>
 
-  - Всего пользователей со сбоями вызовов
+<div>
 
-  - Организаторов конференций со сбоями вызовов
+## <a name="per-user-call-diagnostics"></a><span data-ttu-id="afe85-138">Диагностика вызова для пользователей</span><span class="sxs-lookup"><span data-stu-id="afe85-138">Per-User Call Diagnostics</span></span>
 
-**Пользователей со звонками плохого качества**
+<span data-ttu-id="afe85-139">**Пользователей со сбоями вызовов**</span><span class="sxs-lookup"><span data-stu-id="afe85-139">**Users with call failures**</span></span>
 
-  - Всего пользователей со звонками плохого качества
+  - <span data-ttu-id="afe85-140">Всего пользователей со сбоями вызовов</span><span class="sxs-lookup"><span data-stu-id="afe85-140">Total users with call failures</span></span>
 
-## Диагностика звонка
+  - <span data-ttu-id="afe85-141">Организаторов конференций со сбоями вызовов</span><span class="sxs-lookup"><span data-stu-id="afe85-141">Conference organizers with call failures</span></span>
 
-Одноранговая
+<span data-ttu-id="afe85-142">**Пользователей со звонками плохого качества**</span><span class="sxs-lookup"><span data-stu-id="afe85-142">**Users with poor quality calls**</span></span>
 
-  - Всего сбоев
+  - <span data-ttu-id="afe85-143">Всего пользователей со звонками плохого качества</span><span class="sxs-lookup"><span data-stu-id="afe85-143">Total users with poor quality calls</span></span>
 
-  - Общий уровень сбоев
+</div>
 
-  - Уровень сбоев обмена мгновенными сообщениями
+<div>
 
-  - Уровень сбоев аудио
+## <a name="call-diagnostics"></a><span data-ttu-id="afe85-144">Диагностика звонка</span><span class="sxs-lookup"><span data-stu-id="afe85-144">Call Diagnostics</span></span>
 
-  - Уровень сбоев общего доступа к приложениям
+<span data-ttu-id="afe85-145">Одноранговая</span><span class="sxs-lookup"><span data-stu-id="afe85-145">Peer-to-peer</span></span>
 
-Конференция
+  - <span data-ttu-id="afe85-146">Всего сбоев</span><span class="sxs-lookup"><span data-stu-id="afe85-146">Total failures</span></span>
 
-  - Всего сбоев
+  - <span data-ttu-id="afe85-147">Общий уровень сбоев</span><span class="sxs-lookup"><span data-stu-id="afe85-147">Overall failure rate</span></span>
 
-  - Общий уровень сбоев
+  - <span data-ttu-id="afe85-148">Уровень сбоев обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="afe85-148">IM failure rate</span></span>
 
-  - Уровень сбоев обмена мгновенными сообщениями
+  - <span data-ttu-id="afe85-149">Уровень сбоев аудио</span><span class="sxs-lookup"><span data-stu-id="afe85-149">Audio failure rate</span></span>
 
-  - Уровень сбоев аудио и видео
+  - <span data-ttu-id="afe85-150">Уровень сбоев общего доступа к приложениям</span><span class="sxs-lookup"><span data-stu-id="afe85-150">Application sharing failure rate</span></span>
 
-  - Уровень сбоев общего доступа к приложениям
+<span data-ttu-id="afe85-151">Конференция</span><span class="sxs-lookup"><span data-stu-id="afe85-151">Conference</span></span>
 
-Пять серверов с наибольшим числом неудачных сеансов
+  - <span data-ttu-id="afe85-152">Всего сбоев</span><span class="sxs-lookup"><span data-stu-id="afe85-152">Total failures</span></span>
 
-## Диагностика качества мультимедиа
+  - <span data-ttu-id="afe85-153">Общий уровень сбоев</span><span class="sxs-lookup"><span data-stu-id="afe85-153">Overall failure rate</span></span>
 
-Одноранговая
+  - <span data-ttu-id="afe85-154">Уровень сбоев обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="afe85-154">IM failure rate</span></span>
 
-  - Всего вызовов с плохим качеством
+  - <span data-ttu-id="afe85-155">Уровень сбоев аудио и видео</span><span class="sxs-lookup"><span data-stu-id="afe85-155">A/V failure rate</span></span>
 
-  - Процент вызовов плохого качества
+  - <span data-ttu-id="afe85-156">Уровень сбоев общего доступа к приложениям</span><span class="sxs-lookup"><span data-stu-id="afe85-156">Application sharing failure rate</span></span>
 
-  - Вызовов ТСОП с плохим качеством
+<span data-ttu-id="afe85-157">Пять серверов с наибольшим числом неудачных сеансов</span><span class="sxs-lookup"><span data-stu-id="afe85-157">Top five servers by failed sessions</span></span>
 
-Конференция
+</div>
 
-  - Всего вызовов с плохим качеством
+<div>
 
-  - Процент вызовов плохого качества
+## <a name="media-quality-diagnostics"></a><span data-ttu-id="afe85-158">Диагностика качества мультимедиа</span><span class="sxs-lookup"><span data-stu-id="afe85-158">Media Quality Diagnostics</span></span>
 
-  - Вызовов ТСОП с плохим качеством
+<span data-ttu-id="afe85-159">Связь между одноранговыми узлами</span><span class="sxs-lookup"><span data-stu-id="afe85-159">Peer-to-peer</span></span>
 
-Худшие серверы по проценту вызовов плохого качества
+  - <span data-ttu-id="afe85-160">Всего вызовов с плохим качеством</span><span class="sxs-lookup"><span data-stu-id="afe85-160">Total poor quality calls</span></span>
 
-## Работа с панелью мониторинга
+  - <span data-ttu-id="afe85-161">Процент вызовов плохого качества</span><span class="sxs-lookup"><span data-stu-id="afe85-161">Poor quality call percentage</span></span>
 
-Как упоминалось, итоговые значения по умолчанию отображаются для текущей недели, а значения тенденций отображаются за последние шесть недель. Если вы хотите увидеть итоговые значения для текущего месяца (а также значения тенденций за последние шесть месяцев), щелкните ссылку **Месячное представление** в верхнем правом углу панели мониторинга. Если вы хотите просмотреть итоговые значения по месяцам, текст ссылки измениться на **Недельное представление**. Вы можете вернуться в недельное представление, щелкнув эту ссылку.
+  - <span data-ttu-id="afe85-162">Вызовов ТСОП с плохим качеством</span><span class="sxs-lookup"><span data-stu-id="afe85-162">PSTN calls with poor quality</span></span>
 
+<span data-ttu-id="afe85-163">Конференция</span><span class="sxs-lookup"><span data-stu-id="afe85-163">Conference</span></span>
 
-> [!TIP]
-> Панель мониторинга позволяет просматривать только итоговые значения за текущую неделю (или месяц) и значения тенденций за последние шесть недель (или месяцев). Эти даты и время изменить нельзя. Например, нельзя использовать эту панель мониторинга для просмотра итоговых значений отчета за период времени, который начинается девять месяцев назад.
+  - <span data-ttu-id="afe85-164">Всего вызовов с плохим качеством</span><span class="sxs-lookup"><span data-stu-id="afe85-164">Total poor quality calls</span></span>
 
+  - <span data-ttu-id="afe85-165">Процент вызовов плохого качества</span><span class="sxs-lookup"><span data-stu-id="afe85-165">Poor quality call percentage</span></span>
 
+  - <span data-ttu-id="afe85-166">Вызовов ТСОП с плохим качеством</span><span class="sxs-lookup"><span data-stu-id="afe85-166">PSTN calls with poor quality</span></span>
 
-Значения в столбцах **Эта неделя**, **Этот месяц** и **Сегодня** приводят к более подробным сведениям об элементе. Помните, что имя столбца и значения в нем будут отличаться в зависимости от выбранного показателя и в зависимости от того, выбрали ли недельное или месячное представление. Например, если щелкнуть итоговые значения для показателя **Уникальных входов пользователей в систему**, вы увидите **Отчет о регистрации пользователей** за указанный период времени. Вы можете вернуться в панель мониторинга в любое время, щелкнув **Панель мониторинга**.
+<span data-ttu-id="afe85-167">Худшие серверы по проценту вызовов плохого качества</span><span class="sxs-lookup"><span data-stu-id="afe85-167">Top worst servers by poor quality call percentage</span></span>
 
+</div>
 
-> [!TIP]
-> Вы также можете открыть главную страницу отчетов мониторинга, щелкнув ссылку <STRONG>Отчеты</STRONG> в верхнем правом углу панели мониторинга.
+<div>
 
+## <a name="working-with-the-monitoring-dashboard"></a><span data-ttu-id="afe85-168">Работа с панелью мониторинга</span><span class="sxs-lookup"><span data-stu-id="afe85-168">Working with the Monitoring Dashboard</span></span>
 
+<span data-ttu-id="afe85-p103">Как указано выше, по умолчанию итоговые значения отображаются для текущей недели, а значения, представляющие тенденции – за последние шесть недель. Если требуется просмотреть итоговые значения для текущего месяца (а также тенденции за последние шесть месяцев), щелкните ссылку **Месячное представление** в верхнем правом углу панели мониторинга. При переходе к просмотру итоговых значений за месяц текст ссылки изменяется на **Недельное представление**. Для возврата к недельному представлению следует щелкнуть эту ссылку.</span><span class="sxs-lookup"><span data-stu-id="afe85-p103">As noted, by default totals are shown for the current week and trend values are shown for the past six weeks. If you would prefer to see totals for the current month (as well as trend values for the past six months), click the **Monthly View** link in the upper right corner of the dashboard. If you decide to view monthly totals, the link text will change to **Weekly View**. You can switch back to the weekly view by clicking that link.</span></span>
 
-В столбце **Тенденция** отображается простой линейный график, показывающий итоги за последние шесть недель (или, в зависимости от показателя и временного интервала — за последние шесть дней или шесть месяцев). Эти простые линейные графики показывают одну точку данных без метки для каждого периода времени (например, одна немаркированная точка данных для каждой из последних шести недель). Тем не менее вы можете получить фактические значения для этих графиков, удерживая указатель мыши на графике. В этом случае во всплывающей подсказке отображается максимальное и минимальное значения графика.
+<div>
 
-## Экспорт данных из панели мониторинга
 
-Панель мониторинга предоставляет несколько способов для экспорта текущего представления. На панели инструментов панели мониторинга можно увидеть значок, который выглядит как дискета с зеленой стрелкой. Если щелкнуть этот значок, появится раскрывающийся список, предоставляющий следующие форматы экспорта данных:
+> [!TIP]  
+> <span data-ttu-id="afe85-p104">Панель мониторинга позволяет просматривать только итоговые значения за текущую неделю (или месяц) и значения тенденций за последние шесть недель (или месяцев). Эти даты и время изменить нельзя. Например, нельзя использовать эту панель мониторинга для просмотра итоговых значений отчета за период времени, который начинается девять месяцев назад.</span><span class="sxs-lookup"><span data-stu-id="afe85-p104">The Monitoring Dashboard restricts you to looking at totals for the current week (or month) and trend values for the past six weeks (or months). You cannot change these dates and times. For example, you cannot use the Dashboard to view report totals for the time period beginning nine months ago.</span></span>
 
-  - XML-файл с данными отчета
 
-  - CSV (разделители-запятые)
 
-  - PDF
+</div>
 
-  - MHTML (веб-архив)
+<span data-ttu-id="afe85-p105">Значения в столбцах **Эта неделя**, **Этот месяц** и **Сегодня** содержат ссылки на подробные сведения о данном элементе. Следует учитывать, что имя столбца и отображаемые в нем значения зависят от выбранного показателя и от того, выбрано ли недельное или месячное представление. Например, при щелчке итоговых значений для показателя **Входы уникальных пользователей** отображается **Отчет о регистрации пользователей** за указанный период времени. В любой момент можно вернуться на панель мониторинга, щелкнув **Панель мониторинга**.</span><span class="sxs-lookup"><span data-stu-id="afe85-p105">The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item. Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view. For example, if you click the totals shown for the **Unique user logons** metric you will see the **User Registration Report** for the specified time period. You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.</span></span>
 
-  - Excel
+<div>
 
-  - TIFF-файл
 
-  - Word
+> [!TIP]  
+> <span data-ttu-id="afe85-180">Вы также можете открыть домашнюю страницу отчетов сервера мониторинга, щелкнув ссылку " <STRONG>отчеты</STRONG> " в правом верхнем углу панели мониторинга.</span><span class="sxs-lookup"><span data-stu-id="afe85-180">You can also access the Monitoring Server Reports home page by clicking the <STRONG>Reports</STRONG> link in the upper right corner of the Dashboard.</span></span>
 
-Для экспорта текущего представления панели мониторинга (и его значений) щелкните нужный параметр экспорта. Lync Server 2013 создает отчет в указанном формате и позволяет открыть или сохранить этот отчет. Учтите, что по умолчаниюLync Server называет отчет **Панель мониторинга** и сохраняет его в папке "Загрузки". Чтобы указать другое имя отчета или сохранить его в другой папке, щелкните стрелку рядом с кнопкой **Сохранить** и нажмите кнопку**Сохранить как**. Если имя **Панель мониторинга** и папка "Загрузки" вас устраивают, можно просто нажать кнопку **Сохранить**.
 
-Возможно, что при попытке экспорта данных панели мониторинга появится диалоговое окно **Предупреждение безопасности** с сообщением "Текущие настройки не позволяют загрузить этот файл". В этом случае выполните следующие действия.
 
-  - В Internet Explorer выберите **Свойства обозревателя**.
+</div>
 
-  - В диалоговом окне **Свойства обозревателя** на вкладке **Безопасность** щелкните **Надежных сайты**, а затем выберите **Сайты**.
+<span data-ttu-id="afe85-181">В столбце **Тенденция** отображается простой график, показывающий итоги за последние шесть недель (или, в зависимости от показателя и временного интервала, за последние шесть дней или шесть месяцев).</span><span class="sxs-lookup"><span data-stu-id="afe85-181">The **Trend** column displays a simple line graph that shows totals for the past six weeks (or, depending on the metric and the time interval, the past six days or the past six months).</span></span> <span data-ttu-id="afe85-182">На этих графиках показана одна точку данных без метки для каждого периода времени (например, для каждой из последних шести недель).</span><span class="sxs-lookup"><span data-stu-id="afe85-182">These simple line graphs display one unlabeled data point for each time period (for example, one unlabeled data point for each of the past six weeks).</span></span> <span data-ttu-id="afe85-183">Однако из графика можно извлечь фактические значения, удерживая на нем указатель мыши.</span><span class="sxs-lookup"><span data-stu-id="afe85-183">However, you can retrieve actual values for these graphs by holding your mouse pointer over the graph.</span></span> <span data-ttu-id="afe85-184">В этом случае подсказка показывает максимальные и минимальные значения на графике.</span><span class="sxs-lookup"><span data-stu-id="afe85-184">In that case, a tooltip shows you the maximum and minimum values in the graph.</span></span>
 
-  - В диалоговом окне **Надежные сайты** нажмите кнопку **Добавить**, чтобы добавить Lync Server 2013 с отчетами Lync Server 2013 в коллекции надежных веб-сайтов.
+</div>
 
-  - Нажмите кнопку **Закрыть**, а затем кнопку **ОК**.
+<div>
 
-Затем вам понадобится обновить панель мониторинга, чтобы изменения вступили в силу. Для этого нажмите клавишу F5 или щелкните значок **Обновить** на панели инструментов. (Значок **Обновить** — это круг с двумя зелеными стрелками.)
+## <a name="exporting-data-from-the-monitoring-dashboard"></a><span data-ttu-id="afe85-185">Экспорт данных из панели мониторинга</span><span class="sxs-lookup"><span data-stu-id="afe85-185">Exporting Data from the Monitoring Dashboard</span></span>
 
-Вы также можете создать таблицу Excel с динамическими потоками данных, которая содержит ссылки на последние данные панели мониторинга. Чтобы создать файл динамического потока данных, щелкните значок **Экспортировать в поток данных** на панели мониторинга.
+<span data-ttu-id="afe85-p107">Панель мониторинга предоставляет несколько способов для экспорта текущего представления. На панели инструментов панели мониторинга можно увидеть значок, который выглядит как дискета с зеленой стрелкой. Если щелкнуть этот значок, появится раскрывающийся список, предоставляющий следующие форматы экспорта данных:</span><span class="sxs-lookup"><span data-stu-id="afe85-p107">The Monitoring Dashboard provides a number of ways to export the current dashboard view. On the Dashboard toolbar, you'll see an icon that looks like a floppy disk with a green arrow attached to it. If you click this icon, a dropdown list will appear giving you the following data export formats:</span></span>
 
-Если вы хотите напечатать текущую панель мониторинга, щелкните значок принтера на панели инструментов.
+  - <span data-ttu-id="afe85-189">XML-файл с данными отчета</span><span class="sxs-lookup"><span data-stu-id="afe85-189">XML file with report data</span></span>
+
+  - <span data-ttu-id="afe85-190">CSV (разделители-запятые)</span><span class="sxs-lookup"><span data-stu-id="afe85-190">CSV (comma delimited)</span></span>
+
+  - <span data-ttu-id="afe85-191">PDF</span><span class="sxs-lookup"><span data-stu-id="afe85-191">PDF</span></span>
+
+  - <span data-ttu-id="afe85-192">MHTML (веб-архив)</span><span class="sxs-lookup"><span data-stu-id="afe85-192">MHTML (web archive)</span></span>
+
+  - <span data-ttu-id="afe85-193">Excel</span><span class="sxs-lookup"><span data-stu-id="afe85-193">Excel</span></span>
+
+  - <span data-ttu-id="afe85-194">TIFF-файл</span><span class="sxs-lookup"><span data-stu-id="afe85-194">TIFF file</span></span>
+
+  - <span data-ttu-id="afe85-195">Word</span><span class="sxs-lookup"><span data-stu-id="afe85-195">Word</span></span>
+
+<span data-ttu-id="afe85-196">Для экспорта текущего представления панели мониторинга (и вместе со значениями) щелкните требуемый вариант экспорта.</span><span class="sxs-lookup"><span data-stu-id="afe85-196">To export the current dashboard view (and its values), click the desired export option.</span></span> <span data-ttu-id="afe85-197">Lync Server 2013 создает отчет в указанном формате, а затем дает возможность открыть этот отчет или сохранить его.</span><span class="sxs-lookup"><span data-stu-id="afe85-197">Lync Server 2013 generates a report in the specified format and then give you the option of opening that report or saving it.</span></span> <span data-ttu-id="afe85-198">Обратите внимание, что по умолчанию Lync Server заголовков **панели мониторинга "отчеты"** и сохраняет ее в папке загрузок.</span><span class="sxs-lookup"><span data-stu-id="afe85-198">Note that, by default, Lync Server titles the report **Monitoring Dashboard** and saves it to your Downloads folder.</span></span> <span data-ttu-id="afe85-199">Для присвоения отчету другого имени или его сохранения в другой папке щелкните стрелку рядом с кнопкой **Сохранить** и затем выберите **Сохранить как**.</span><span class="sxs-lookup"><span data-stu-id="afe85-199">To give the report a different name or to store it in a different folder, click the arrow next to the **Save** button and then click **Save As**.</span></span> <span data-ttu-id="afe85-200">Для сохранения отчета под именем **Панель мониторинга** в папке «Загрузки» достаточно нажать кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="afe85-200">If you are fine with name **Monitoring Dashboard** and with having the report saved in the Downloads folder you can just click the **Save** button.</span></span>
+
+<span data-ttu-id="afe85-p109">При попытке экспорта данных панели мониторинга может появиться диалоговое окно **Предупреждение системы безопасности** с сообщением «Ваши параметры безопасности не разрешают загрузку этого файла». В этом случае выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="afe85-p109">It's possible that, when you try to export dashboard data, a **Security Alert** dialog box will appear along with the message "Your current settings do not allow this file to be downloaded." If that occurs, do the following:</span></span>
+
+  - <span data-ttu-id="afe85-203">В Internet Explorer выберите **Свойства обозревателя**.</span><span class="sxs-lookup"><span data-stu-id="afe85-203">In Internet Explorer, select **Internet Options**.</span></span>
+
+  - <span data-ttu-id="afe85-204">В диалоговом окне **Свойства обозревателя** на вкладке **Безопасность** щелкните **Надежные сайты**, затем **Сайты**.</span><span class="sxs-lookup"><span data-stu-id="afe85-204">In the **Internet Options** dialog box, on the **Security** tab, click **Trusted sites** and then click **Sites**.</span></span>
+
+  - <span data-ttu-id="afe85-205">В диалоговом окне **Надежные сайты** нажмите кнопку **Добавить** , чтобы добавить в коллекцию доверенных веб-сайтов Lync Server 2013, на котором запущены отчеты Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afe85-205">In the **Trusted sites** dialog box, click **Add** to add the Lync Server 2013 that is running Lync Server 2013 Reports to the collections of trusted websites.</span></span>
+
+  - <span data-ttu-id="afe85-206">Нажмите кнопку **Закрыть**, затем **ОК**.</span><span class="sxs-lookup"><span data-stu-id="afe85-206">Click **Close** and then click **OK**.</span></span>
+
+<span data-ttu-id="afe85-p110">После этого для применения изменений потребуется обновить панель мониторинга. Для этого нажмите клавишу F5 или щелкните значок **Обновить** на панели инструментов. (Значок **Обновить** представляет собой окружность с двумя зелеными стрелками.)</span><span class="sxs-lookup"><span data-stu-id="afe85-p110">You will then need to refresh the Monitoring Dashboard before the changes take effect. To do that, either press F5 or click the **Refresh** icon in the Dashboard toolbar. (The **Refresh** icon is a circle with a pair of green arrows in it.)</span></span>
+
+<span data-ttu-id="afe85-p111">Можно также создать электронную таблицу Excel с динамическими потоками данных, содержащую ссылки на последние данные панели мониторинга. Для создания файла динамического потока данных щелкните оранжевый значок **Экспортировать в поток данных** на панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="afe85-p111">You can also create an Excel spreadsheet that includes live data feeds, which includes links to the latest Monitoring Dashboard data. To create a live data feed file, click the orange **Export to Data Feed** icon in the toolbar.</span></span>
+
+<span data-ttu-id="afe85-212">Если вы хотите напечатать текущую панель мониторинга, щелкните значок принтера на панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="afe85-212">If you would prefer to print the current Dashboard then click the printer icon in the toolbar.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
