@@ -1,49 +1,89 @@
-﻿---
-title: 'Lync Server 2013: необходимые ресурсы для сервера сохраняемого чата'
-TOCTitle: Необходимые ресурсы
-ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205211(v=OCS.15)
-ms:contentKeyID: 49311015
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: необходимые ресурсы для сервера сохраняемого чата'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Required resources
+ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
+ms:contentKeyID: 48185255
+ms.date: 02/05/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823254"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Необходимые ресурсы для сервера сохраняемого чата в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-02-05_
+# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="8169c-102">Необходимые ресурсы для сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8169c-102">Required resources for Persistent Chat Server in Lync Server 2013</span></span>
 
-Высокий уровень доступности и аварийное восстановление сохраняемого сеанса беседы требуют больше ресурсов, чем обычно требуется для полнофункциональной работы. Перед настройкой сохраняемого сеанса беседы для обеспечения высокого уровня доступности и аварийного восстановления убедитесь в наличии перечисленных ниже ресурсов в дополнение к ресурсам, требуемым для стандартных операций сохраняемого сеанса беседы. Дополнительные сведения о настройке см. в разделе [Настройка сервера сохраняемого чата в Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).
+</div>
 
-  - Один выделенный экземпляр базы данных, расположенный в одном физическом центре обработки данных с сервером переднего плана службы сохраняемого сеанса беседы. Эта база данных будет выступать в роли зеркала SQL Server для базы данных-источника сохраняемый сеанс беседы. Кроме того, если вы хотите автоматизировать отработку отказа в зеркальной базе данных, назначьте дополнительный SQL Server в качестве следящего сервера зеркального отображения.
+<div id="mainSection">
 
-  - Один выделенный экземпляр базы данных, расположенный в другом физическом центре обработки данных. Эта база данных будет выступать в роли базы данных-получателя доставки журналов SQL Server для базы данных в основном центре обработки данных.
+<div id="mainBody">
 
-  - Один выделенный экземпляр базы данных, выступающий в роли зеркала SQL Server для базы данных-получателя. Можно дополнительно назначить SQL Server в качестве следящего сервера зеркального отображения. Обе базы данных должны быть расположены в одном физическом центре обработки данных в качестве базы данных-получателя.
+<span> </span>
 
-  - Если обеспечение соответствия сохраняемого сеанса беседы включено, требуется 3 дополнительных выделенных экземпляра базы данных. Распространение этих экземпляров выполняется аналогично базе данных сохраняемый сеанс беседы, описанному выше. Хотя база данных соответствия может использовать один экземпляр SQL Server совместно с базой данных сохраняемый сеанс беседы, мы рекомендуем изолированные экземпляры для обеспечения высокого уровня доступности и аварийного восстановления.
+<span data-ttu-id="8169c-103">_**Тема последнего изменения:** 2016-02-05_</span><span class="sxs-lookup"><span data-stu-id="8169c-103">_**Topic Last Modified:** 2016-02-05_</span></span>
 
-  - Для журналов транзакций доставки журналов SQL Server необходимо создать и назначить файловый ресурс. Все серверы SQL Servers в обоих центрах управления данными, на которых выполняются базы данных сохраняемый сеанс беседы, должны иметь доступ на чтение/запись для этой общей папки. Этот файловый ресурс не задается как часть роли хранилища файлов.
+<span data-ttu-id="8169c-104">Для обеспечения высокой доступности и аварийного восстановления на сервере сохраняемого чата требуются дополнительные ресурсы, помимо тех, которые обычно требуются для выполнения полных операций.</span><span class="sxs-lookup"><span data-stu-id="8169c-104">High availability and disaster recovery for Persistent Chat Server requires additional resources beyond what is typically needed for full operation.</span></span> <span data-ttu-id="8169c-105">Прежде чем настраивать сохраняемый сервер чата для обеспечения высокой доступности и аварийного восстановления, убедитесь, что у вас есть указанные ниже ресурсы, а также возможности, необходимые для стандартной работы сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="8169c-105">Before configuring Persistent Chat Server for high availability and disaster recovery, ensure that you have the following resources in addition to what is required for standard Persistent Chat Server operation.</span></span> <span data-ttu-id="8169c-106">Дополнительные сведения о настройке можно найти [в разделе Настройка сервера сохраняемого чата в Lync server 2013](lync-server-2013-configuring-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="8169c-106">For additional configuration information, see [Configuring Persistent Chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).</span></span>
 
-  - Файловый ресурс на сервере базы данных-получателя в качестве конечной папки для журналов транзакций SQL Server, которые копируются с общего файлового ресурса сервера-источника.
+  - <span data-ttu-id="8169c-107">Один выделенный экземпляр базы данных, находящийся в том же физическом центре обработки данных, на котором находится домашняя страница службы сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="8169c-107">One dedicated database instance located in the same physical data center in which the home front end of the Persistent Chat Server service is located.</span></span> <span data-ttu-id="8169c-108">Эта база данных будет служить зеркалом SQL Server для основной сохраняемой базы данных чата.</span><span class="sxs-lookup"><span data-stu-id="8169c-108">This database will serve as the SQL Server mirror for the primary Persistent Chat database.</span></span> <span data-ttu-id="8169c-109">При необходимости назначьте дополнительный сервер SQL Server, который будет использоваться в качестве следящего сервера, если вы хотите автоматически отработка отказа в зеркальной базе данных.</span><span class="sxs-lookup"><span data-stu-id="8169c-109">Optionally, designate an additional SQL Server to serve as the mirroring witness if you want an automated failover to the mirror database.</span></span>
 
-На следующих рисунках показаны примеры настройки серверов сохраняемого сеанса беседы для двух разных топологий вытянутого пула:
+  - <span data-ttu-id="8169c-110">Один выделенный экземпляр базы данных, расположенный в другом физическом центре обработки данных.</span><span class="sxs-lookup"><span data-stu-id="8169c-110">One dedicated database instance located in the other physical data center.</span></span> <span data-ttu-id="8169c-111">Эта база данных будет служить базой данных сервера SQL Server для доставки журналов базы данных в основном центре обработки данных.</span><span class="sxs-lookup"><span data-stu-id="8169c-111">This database will serve as the SQL Server Log Shipping secondary database for the database in the primary data center.</span></span>
 
-  - Растянутый пул серверов сохраняемого сеанса беседы для территориально-распределенных центров обработки данных с высокой пропускной способностью и небольшой задержкой
+  - <span data-ttu-id="8169c-112">Один выделенный экземпляр базы данных, который будет служить зеркалом SQL Server для базы данных получателя.</span><span class="sxs-lookup"><span data-stu-id="8169c-112">One dedicated database instance to serve as the SQL Server mirror for the secondary database.</span></span> <span data-ttu-id="8169c-113">При необходимости назначьте дополнительный сервер SQL Server в качестве следящего сервера зеркального отображения.</span><span class="sxs-lookup"><span data-stu-id="8169c-113">Optionally, designate an additional SQL Server to server as the mirroring witness.</span></span> <span data-ttu-id="8169c-114">Обе базы данных должны быть расположены в том же физическом центре обработки данных, что и база данных-получатель.</span><span class="sxs-lookup"><span data-stu-id="8169c-114">Both of these must be located in the same physical data center as the secondary database.</span></span>
 
-  - Растянутый пул серверов сохраняемого сеанса беседы для территориально-распределенных центров обработки данных с низкой пропускной способностью и большой задержкой
+  - <span data-ttu-id="8169c-115">Если включено соответствие требованиям сервера сохраняемого чата, требуется дополнительно три выделенных экземпляра базы данных.</span><span class="sxs-lookup"><span data-stu-id="8169c-115">If Persistent Chat Server compliance is enabled, an additional three dedicated database instances are required.</span></span> <span data-ttu-id="8169c-116">Их распространение так же, как и для базы данных "сохраняемый чат".</span><span class="sxs-lookup"><span data-stu-id="8169c-116">Their distribution is the same as those previously outlined for the Persistent Chat database.</span></span> <span data-ttu-id="8169c-117">Несмотря на то, что база данных соответствия может использовать тот же экземпляр SQL Server, что и база данных сохраняемого чата, мы рекомендуем использовать отдельные экземпляры для обеспечения высокой доступности и аварийного восстановления.</span><span class="sxs-lookup"><span data-stu-id="8169c-117">While it is possible for the compliance database to share the same SQL Server instance as the Persistent Chat database, we recommend standalone instances for high availability and disaster recovery.</span></span>
 
-На следующем рисунке показана топология растянутого пула серверов сохраняемого сеанса беседы для территориально-распределенных центров обработки данных с высокой пропускной способностью и небольшой задержкой.
+  - <span data-ttu-id="8169c-118">Файловый общий доступ должен создаваться и назначаться для журналов транзакций по доставке журналов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="8169c-118">A file share must be created and designated for the SQL Server Log Shipping transaction logs.</span></span> <span data-ttu-id="8169c-119">У всех серверов SQL в обоих центрах обработки данных, которые выполняют сохраняемые базы данных чата, должен быть доступ для чтения и записи в этой общей папке.</span><span class="sxs-lookup"><span data-stu-id="8169c-119">All SQL Servers in both data centers that run Persistent Chat databases must have read/write access to this file share.</span></span> <span data-ttu-id="8169c-120">This share is not defined as part of a FileStore role.</span><span class="sxs-lookup"><span data-stu-id="8169c-120">This share is not defined as part of a FileStore role.</span></span>
 
-**Растянутый пул серверов сохраняемого чата для территориально-распределенных центров обработки данных с высокой пропускной способностью и небольшой задержкой**
+  - <span data-ttu-id="8169c-121">Файловый общий доступ на сервере-получателе, который будет использоваться в качестве целевой папки для журналов транзакций SQL Server, которые копируются из файлового общего сервера-источника.</span><span class="sxs-lookup"><span data-stu-id="8169c-121">A file share on the secondary database server to serve as the destination folder for the SQL Server transaction logs that are copied from the primary server file share.</span></span>
 
-![Пример конфигурации HBW пула серверов сохраняемого чата](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Пример конфигурации HBW пула серверов сохраняемого чата")
+<div>
 
-На следующем рисунке показана топология растянутого серверов сохраняемого сеанса беседы для территориально-распределенных центров обработки данных с низкой пропускной способностью и большой задержкой.
 
-**Растянутый пул серверов сохраняемого чата для территориально-распределенных центров обработки данных с низкой пропускной способностью и большой задержкой**
+> [!NOTE]  
+> <span data-ttu-id="8169c-122">Активные серверы для работы с сохраняемым подключением в пуле сервера в постоянном чате должны находиться в том же часовом поясе, что и пул Lync следующего прыжка, определенный в топологии.</span><span class="sxs-lookup"><span data-stu-id="8169c-122">Active Persistent Chat servers in a Persistent Chat Server pool MUST reside in the same time zone as the next hop Lync Pool defined in the topology.</span></span>
 
-![Пример конфигурации LBW пула серверов сохраняемого чата](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Пример конфигурации LBW пула серверов сохраняемого чата")
+
+
+</div>
+
+<span data-ttu-id="8169c-123">На приведенных ниже рисунках приведены примеры того, как можно настроить весь пул серверов для постоянного чата в двух различных топологиях пула с растяжением.</span><span class="sxs-lookup"><span data-stu-id="8169c-123">The following figures provide examples about how the entire Persistent Chat Server pool can be configured in the two different stretched pool topologies:</span></span>
+
+  - <span data-ttu-id="8169c-124">Пул серверов сохраняемого постоянного чата, когда центры обработки данных находятся на высоком уровне пропускной способности и малой задержке.</span><span class="sxs-lookup"><span data-stu-id="8169c-124">Stretched Persistent Chat Server pool when data centers are geo-located with high bandwidth/low latency.</span></span>
+
+  - <span data-ttu-id="8169c-125">Пул серверов сохраняемого постоянного чата, когда центры обработки данных находятся в географической пропускной способности и большую задержку.</span><span class="sxs-lookup"><span data-stu-id="8169c-125">Stretched Persistent Chat Server pool when data centers are geo-located with low bandwidth/high latency.</span></span>
+
+<span data-ttu-id="8169c-126">На приведенном ниже рисунке показана топология пула серверов сохраняемого постоянного чата, в которой центры обработки данных географически распределены с высокой пропускной способностью и низкой задержкой.</span><span class="sxs-lookup"><span data-stu-id="8169c-126">The following figure shows a stretched Persistent Chat Server pool topology where data centers are geo-located with high bandwidth/low latency.</span></span>
+
+<span data-ttu-id="8169c-127">**Пул серверов сохраняемого постоянного чата, когда центры обработки данных находятся на высоком уровне пропускной способности и малой задержке.**</span><span class="sxs-lookup"><span data-stu-id="8169c-127">**Stretched Persistent Chat Server pool when data centers are geo-located with high bandwidth/low latency.**</span></span>
+
+<span data-ttu-id="8169c-128">![Экзамен на конфигурацию хбв пула серверов для постоянного чата] (images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Экзамен на конфигурацию хбв пула серверов для постоянного чата")</span><span class="sxs-lookup"><span data-stu-id="8169c-128">![Persistent Chat Server pool HBW configuration exam](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Persistent Chat Server pool HBW configuration exam")</span></span>
+
+<span data-ttu-id="8169c-129">На приведенном ниже рисунке показана топология пула серверов сохраняемого постоянного чата, в которой центры обработки данных находятся на низком уровне пропускной способности и большую задержку.</span><span class="sxs-lookup"><span data-stu-id="8169c-129">The following figure shows a stretched Persistent Chat Server pool topology where data centers are geo-located with low bandwidth/high latency.</span></span>
+
+<span data-ttu-id="8169c-130">**Пул серверов сохраняемого постоянного чата, когда центры обработки данных находятся в географической пропускной способности и большую задержку.**</span><span class="sxs-lookup"><span data-stu-id="8169c-130">**Stretched Persistent Chat Server pool when data centers are geo-located with low bandwidth/high latency.**</span></span>
+
+<span data-ttu-id="8169c-131">![Экзамен на конфигурацию ЛБВ пула серверов для постоянного чата] (images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Экзамен на конфигурацию ЛБВ пула серверов для постоянного чата")</span><span class="sxs-lookup"><span data-stu-id="8169c-131">![Persistent Chat Server pool LBW configuration exam](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Persistent Chat Server pool LBW configuration exam")</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,67 @@
-﻿---
-title: "Lync Server 2013: замена XmlAdapter спецадаптером сервера сохраняемого чата"
-TOCTitle: "Lync Server 2013: замена XmlAdapter спецадаптером сервера сохраняемого чата"
-ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ680106(v=OCS.15)
-ms:contentKeyID: 49887922
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: замена Ксмладаптер с настроенным адаптером соответствия для сервера сохраняемого чата'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter
+ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ680106(v=OCS.15)
+ms:contentKeyID: 49558152
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3d26e470438dc8a79dbaa3944c05ad4158cafe44
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823142"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Замена адаптера XmlAdapter настраиваемым адаптером совместимости сервера сохраняемого сеанса беседы в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="replacing-the-xmladapter-with-a-customized-persistent-chat-server-compliance-adapter-in-lync-server-2013"></a><span data-ttu-id="b2f88-102">Замена Ксмладаптер с помощью настроенного адаптера соответствия требованиям сервера для подключения к серверу в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2f88-102">Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter in Lync Server 2013</span></span>
 
-Можно создать настраиваемый адаптер и использовать его вместо адаптера XmlAdapter, установленного с сервером сохраняемого сеанса беседы. Для этого необходимо предоставить сборку .NET Framework, содержащую общий класс, который реализует интерфейс **IComplianceAdapter**. Эту сборку необходимо поместить в папку установки сохраняемого сеанса беседы на каждом сервере в пуле серверов сохраняемого сеанса беседы. Любой из серверов совместимости может предоставлять данные о совместимости адаптеру, но серверы совместимости не могут предоставлять дублированные данные о совместимости нескольким экземплярам адаптера.
+</div>
 
-## Реализация интерфейса адаптера IComplianceAdapter
+<div id="mainSection">
 
-Интерфейс определен в сборке Compliance.dll в пространстве имен `Microsoft.Rtc.Internal.Chat.Server.Compliance`. В интерфейсе определены два метода, которые должен реализовать настраиваемый адаптер.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b2f88-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b2f88-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="b2f88-104">Вы можете написать собственный адаптер, вместо того чтобы использовать Ксмладаптер, установленный на сервере сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="b2f88-104">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="b2f88-105">Для этого необходимо предоставить сборку .NET Framework, которая содержит общий класс, реализующий интерфейс **IComplianceAdapter**.</span><span class="sxs-lookup"><span data-stu-id="b2f88-105">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="b2f88-106">Эту сборку необходимо поместить в папку установки сервера сохраняемого чата для каждого сервера в пуле сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="b2f88-106">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="b2f88-107">Данные проверки совместимости могут поступать в адаптер с любого сервера проверки совместимости, но на разные экземпляры адаптера с серверов проверки совместимости на поступают повторяющиеся данные.</span><span class="sxs-lookup"><span data-stu-id="b2f88-107">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
+
+<div>
+
+## <a name="implementing-the-icomplianceadapter-interface"></a><span data-ttu-id="b2f88-108">Реализация интерфейса Икомплианцеадаптер</span><span class="sxs-lookup"><span data-stu-id="b2f88-108">Implementing the IComplianceAdapter interface</span></span>
+
+<span data-ttu-id="b2f88-109">Интерфейс определен в сборке соответствие. dll в пространстве имен `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span><span class="sxs-lookup"><span data-stu-id="b2f88-109">The interface is defined in the Compliance.dll assembly in the namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="b2f88-110">Интерфейс определяет два метода, которые должен реализовать пользовательский адаптер.</span><span class="sxs-lookup"><span data-stu-id="b2f88-110">The interface defines two methods that your custom adapter must implement.</span></span>
 
     void SetConfig(AdapterConfig config)
 
-Сервер совместимости, обслуживающий сохраняемый сеанс беседы, будет вызывать этот метод при первой загрузке адаптера. Объект `AdapterConfig` содержит конфигурацию совместимости, которую имеет сохраняемый сеанс беседы, соответствующую адаптеру совместимости.
+<span data-ttu-id="b2f88-111">Этот метод будет вызываться при первой загрузке адаптера с помощью постоянного чата.</span><span class="sxs-lookup"><span data-stu-id="b2f88-111">The Persistent Chat Compliance server will call this method when the adapter first loads.</span></span> <span data-ttu-id="b2f88-112">`AdapterConfig` Содержит постоянную конфигурацию соответствия чатов, связанную с адаптером соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="b2f88-112">The `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter.</span></span>
 
     void Translate(ConversationCollection conversations)
 
-Сервер совместимости, обслуживающий сохраняемый сеанс беседы, вызывает этот метод через определенные интервалы, пока есть новые данные, требующие перевода. Этот интервал задается параметром `RunInterval` в конфигурации совместимости, которую имеет сохраняемый сеанс беседы.
+<span data-ttu-id="b2f88-113">Сервер соответствия требованиям в чате вызывает этот метод через определенные интервалы времени, пока для перевода не поступило новых данных.</span><span class="sxs-lookup"><span data-stu-id="b2f88-113">The Persistent Chat Compliance server calls this method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="b2f88-114">Этот интервал времени равен значению, `RunInterval` заданному в параметрах соответствия требованиям сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="b2f88-114">This time interval is equal to the `RunInterval` as set in the Persistent Chat Compliance configuration.</span></span>
 
-Объект `ConversationCollection` содержит сведения о беседах, собранные при последнем вызове этого метода.
+<span data-ttu-id="b2f88-115">`ConversationCollection` Содержит сведения о разговоре, собранные с момента последнего вызова этого метода.</span><span class="sxs-lookup"><span data-stu-id="b2f88-115">The `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,51 @@
-﻿---
-title: Настройка расположения резервной копии
-TOCTitle: Настройка расположения резервной копии
-ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh202158(v=OCS.15)
-ms:contentKeyID: 52058152
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка расположения для резервного копирования'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up a backup location
+ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202158(v=OCS.15)
+ms:contentKeyID: 51541440
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c6d8f91af650e68348a35e9f485f5ca5f54093fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821882"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка расположения резервной копии
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-17_
+# <a name="setting-up-a-backup-location-for-lync-server-2013"></a><span data-ttu-id="9e791-102">Настройка расположения резервной копии для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e791-102">Setting up a backup location for Lync Server 2013</span></span>
 
-Перед первым резервным копированием Lync Server настройте необходимое оборудование и программное обеспечение для хранения и обслуживания резервных копий. Вам необходимо получить доступ к носителю и содержимому и обеспечить сетевое соединение между каждым из серверов, для которого выполняется резервное копирование, и носителем резервной копии. Используемые вами носитель и расположение должны быть определены в стратегии резервного копирования и восстановления. Расположение, которое вы используете для регулярных резервных копий может быть локальным или удаленным, но оно должно быть безопасным и доступным как для резервного копирования, так и для восстановления. Мы рекомендуем использовать удаленное расположение для защиты от катастрофических событий на вашем основном сайте.
+</div>
 
-После настройки и тестирования отдельных компонентов убедитесь в доступности резервных копий с каждого сервера.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9e791-103">_**Тема последнего изменения:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="9e791-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+
+<span data-ttu-id="9e791-104">Прежде чем приступить к первой резервной копии Lync Server, настройте оборудование и программное обеспечение, которое требуется для хранения и обслуживания резервных копий.</span><span class="sxs-lookup"><span data-stu-id="9e791-104">Before you take your first backup of Lync Server, set up the hardware and software that you need in order to store and maintain the backups.</span></span> <span data-ttu-id="9e791-105">Вам необходимо получить доступ к носителю и контенту, если это уместно, и предоставить сетевое подключение между каждым из них для резервного копирования и резервного носителя.</span><span class="sxs-lookup"><span data-stu-id="9e791-105">You need to obtain access to the media and content, as appropriate, and provide network connectivity between each server to be backed up and the backup media.</span></span> <span data-ttu-id="9e791-106">Используемые вами мультимедиа и расположение следует определять в стратегии резервного копирования и восстановления.</span><span class="sxs-lookup"><span data-stu-id="9e791-106">The media and location that you use should be defined in your backup and restoration strategy.</span></span> <span data-ttu-id="9e791-107">Расположение, используемое для регулярного резервного копирования, может быть локальным или удаленным, но оно должно быть защищено, и оно должно быть доступно и для резервного копирования, и для восстановления.</span><span class="sxs-lookup"><span data-stu-id="9e791-107">The location that you use for regular backups can be local or remote, but it must be secure, and it must be accessible for both backup and restoration.</span></span> <span data-ttu-id="9e791-108">Мы рекомендуем использовать удаленное расположение для защиты от разрушительных событий на основном сайте.</span><span class="sxs-lookup"><span data-stu-id="9e791-108">We recommend using a remote location to protect against a catastrophic event at your primary site.</span></span>
+
+<span data-ttu-id="9e791-109">После того как вы настроили и проверите отдельные компоненты, проверьте доступность резервных копий на каждом сервере.</span><span class="sxs-lookup"><span data-stu-id="9e791-109">After you set up and test the individual components, verify accessibility to the backups from each server.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

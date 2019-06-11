@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: подготовка среды к VDI'
-TOCTitle: Подготовка среды к VDI
-ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205154(v=OCS.15)
-ms:contentKeyID: 49310730
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: подготовка среды к VDI'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing your environment for VDI
+ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205154(v=OCS.15)
+ms:contentKeyID: 48185052
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5081d1267b9de521ebd17fa5f3ec5ae57a912970
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823702"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Подготовка среды Lync Server 2013 к VDI
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-22_
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a><span data-ttu-id="7c02d-102">Подготовка среды Lync Server 2013 к VDI</span><span class="sxs-lookup"><span data-stu-id="7c02d-102">Preparing your Lync Server 2013 environment for VDI</span></span>
 
-Чтобы подготовить среду для подключаемого модуля инфраструктуры виртуальных рабочих столов (VDI) для Lync, администратор должен выполнить следующие действия.
+</div>
 
-1.  На сервере Lync Server 2013 присвоить параметру EnableMediaRedirection значение TRUE для всех пользователей инфраструктуры виртуальных рабочих столов. Дополнительные сведения см. в разделах справки по командлетам [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) и [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
+<div id="mainSection">
 
-2.  На компьютере центра обработки данных установить клиент Lync 2013 на все виртуальные машины.
+<div id="mainBody">
 
-3.  На локальных компьютерах установите подключаемый модуль инфраструктуры виртуальных рабочих столов (VDI) для Lync.
+<span> </span>
+
+<span data-ttu-id="7c02d-103">_**Тема последнего изменения:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="7c02d-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+
+<span data-ttu-id="7c02d-104">Для подготовки среды для плагина Lync VDI администратор должен выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="7c02d-104">To prepare the environment for the Lync VDI plug-in, the administrator must perform the following steps.</span></span>
+
+1.  <span data-ttu-id="7c02d-105">В Lync Server 2013 убедитесь, что для Енаблемедиаредиректион установлено значение TRUE для всех пользователей VDI.</span><span class="sxs-lookup"><span data-stu-id="7c02d-105">In Lync Server 2013, ensure that EnableMediaRedirection is set to TRUE for all VDI users.</span></span> <span data-ttu-id="7c02d-106">Подробные сведения можно найти в разделах справки по командлетам [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) и командлету [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="7c02d-106">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+
+2.  <span data-ttu-id="7c02d-107">На компьютере центра обработки данных установите клиент Lync 2013 на всех виртуальных машинах.</span><span class="sxs-lookup"><span data-stu-id="7c02d-107">On the data center computer, install the Lync 2013 client on all virtual machines.</span></span>
+
+3.  <span data-ttu-id="7c02d-108">Установите плагин Lync VDI на локальных компьютерах.</span><span class="sxs-lookup"><span data-stu-id="7c02d-108">On the local computers, install the Lync VDI plug-in.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

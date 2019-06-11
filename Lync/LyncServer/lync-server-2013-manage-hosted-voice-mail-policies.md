@@ -1,34 +1,75 @@
-﻿---
-title: 'Lync Server 2013: управление политиками размещенной голосовой почты'
-TOCTitle: Управление политиками размещенной голосовой почты
-ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398332(v=OCS.15)
-ms:contentKeyID: 49309768
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление политиками размещенной голосовой почты'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage hosted voice mail policies
+ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398332(v=OCS.15)
+ms:contentKeyID: 48184139
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9f0db0d2c4e1e8258fb5d9a212084823d1e25f7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828266"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление политиками размещенной голосовой почты в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-20_
+# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a><span data-ttu-id="a5193-102">Управление политиками размещенной голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5193-102">Manage hosted voice mail policies in Lync Server 2013</span></span>
 
-*Политика маршрутизации размещенной голосовой почты* предоставляет данные для приложения маршрутизации ExUM Lync Server 2013, относящиеся к маршрутизации вызовов для пользователей, почтовые ящики которых располагаются в размещаемой службе Exchange.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a5193-103">_**Тема последнего изменения:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="a5193-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+
+<span data-ttu-id="a5193-104">*Политика размещенной голосовой почты* предоставляет информацию в приложение Lync Server 2013 ексум о том, где следует перенаправлять звонки для пользователей, чьи почтовые ящики находятся на размещенной службе Exchange.</span><span class="sxs-lookup"><span data-stu-id="a5193-104">A *hosted voice mail policy* provides information to the Lync Server 2013 ExUM Routing application about where to route calls for users whose mailboxes are located on a hosted Exchange service.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Обычно требуется только одна политика маршрутизации размещенной голосовой почты. В большинстве случаев можно изменить глобальную политику, чтобы она удовлетворяла все потребности организации. Если создается политика на уровне сайта, она автоматически назначается всем пользователям, размещенным на указанном сайте. Если создается политика на уровне пользователя, ее необходимо явно назначить пользователям, группам и контактным объектам. Возможно разворачивать несколько политик маршрутизации размещенной голосовой почты, но в этом случае они должны назначаться каждому пользователю.
+> <span data-ttu-id="a5193-105">Как правило, требуется только одна политика размещенной голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="a5193-105">Typically, only one hosted voice mail policy is required.</span></span> <span data-ttu-id="a5193-106">Во многих случаях вы можете изменить глобальную политику в соответствии с вашими потребностями.</span><span class="sxs-lookup"><span data-stu-id="a5193-106">In many cases, you can modify the global policy to meet all your needs.</span></span> <span data-ttu-id="a5193-107">Если вы создаете политику с областью сайта, она автоматически назначается всем пользователям, расположенным на указанном сайте.</span><span class="sxs-lookup"><span data-stu-id="a5193-107">If you create a policy with site scope, it is assigned automatically to all users homed at the specified site.</span></span> <span data-ttu-id="a5193-108">Если вы создаете политику с областью "на пользователя", необходимо явным образом назначать ее пользователям, группам и контактным объектам.</span><span class="sxs-lookup"><span data-stu-id="a5193-108">If you create a policy with per-user scope, you must explicitly assign it to users, groups, and contact objects.</span></span> <span data-ttu-id="a5193-109">Вы можете развернуть несколько политик размещенной голосовой почты, но в таком случае политики должны быть назначены для каждого пользователя отдельно.</span><span class="sxs-lookup"><span data-stu-id="a5193-109">It is possible to deploy multiple hosted voice mail policies, but in that case the policies must be assigned on a per-user basis.</span></span>
 
-Дополнительные сведения о планировании политик маршрутизации размещенной голосовой почты см. в разделе [Политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) документации по планированию.
 
-## Содержание
 
-  - [Изменение глобальной политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+</div>
 
-  - [Создание политики размещенной голосовой почты уровня сайта в Lync Server 2013](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+<span data-ttu-id="a5193-110">Дополнительные сведения о планировании политик размещенной голосовой почты можно найти [в разделе политики размещенной голосовой почты в Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="a5193-110">For details about planning hosted voice mail policies, see [Hosted voice mail policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) in the Planning documentation.</span></span>
 
-  - [Создание политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+<div>
 
-  - [Назначение политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+## <a name="in-this-section"></a><span data-ttu-id="a5193-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="a5193-111">In This Section</span></span>
+
+  - [<span data-ttu-id="a5193-112">Изменение политики глобальной размещенной голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5193-112">Modify the global hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+
+  - [<span data-ttu-id="a5193-113">Создание политики размещенной голосовой почты на уровне сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5193-113">Create a site-level hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+
+  - [<span data-ttu-id="a5193-114">Создание политики размещенной голосовой почты для каждого пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5193-114">Create a per-user hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+
+  - [<span data-ttu-id="a5193-115">Назначение политики размещенной голосовой почты для отдельных пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5193-115">Assign a per-user hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
