@@ -1,21 +1,41 @@
-﻿---
-title: Представление ErrorReport
-TOCTitle: Представление ErrorReport
-ms:assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721887(v=OCS.15)
-ms:contentKeyID: 49888192
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: представление Ерроррепорт'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ErrorReport view
+ms:assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721887(v=OCS.15)
+ms:contentKeyID: 49733821
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6b50a2615fe83ed481d9642ac6895120f20b9fd0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834209"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Представление ErrorReport
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="errorreport-view-in-lync-server-2013"></a>Ерроррепорт представления в Lync Server 2013
 
-В представлении ErrorReport сохраняется информация о возникших ошибках. Каждая запись соответствует одному случаю возникновения ошибки. Ошибки фиксируются агентом CDR, работающим на сервере переднего плана, или передаются клиентом. Это представление было впервые реализовано в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-01-22_
+
+В представлении Ерроррепорт хранятся сведения об ошибках, о которых сообщается. Каждая запись содержит один экземпляр ошибки. Эти ошибки регистрируются агентом CDR, который запущен на сервере переднего плана или отправлен клиентом. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -28,153 +48,174 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Сведения</th>
+<th>Подробности</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ErrorTime</strong></p></td>
+<td><p><strong>Еррортиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время возникновения ошибки. Используется в сочетании с параметром ErrorReportSeq для уникальной идентификации ошибки.</p></td>
+<td><p>Время возникновения ошибки. Используется в сочетании с Ерроррепортсек для уникальной идентификации ошибки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ErrorReportSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Идентификатор ошибки. Используется в сочетании с параметром ErrorTime для уникальной идентификации ошибки.</p></td>
+<td><p><strong>Ерроррепортсек</strong></p></td>
+<td><p>целое</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации ошибки. Используется в сочетании с Еррортиме для уникальной идентификации ошибки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MsDiagId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Диагностический идентификатор для сообщения об ошибке.</p></td>
+<td><p><strong>Мсдиагид</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Идентификатор диагностики для отчета об ошибке.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FromUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI пользователя, инициировавшего ошибку.</p></td>
+<td><p><strong>Фромури</strong></p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>URI пользователя, который поступил с ошибкой.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>FromUriType</strong></p></td>
+<td><p><strong>Фромуритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Тип URI пользователя, инициировавшего ошибку. См. <a href="lync-server-2013-uritypes-table.md">Таблица UriTypes в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p>Тип URI пользователя, который поступил на ошибку. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FromTenant</strong></p></td>
+<td><p><strong>Фромтенант</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Клиент пользователя, инициировавшего ошибку. См. <a href="lync-server-2013-tenants-table.md">Таблица Tenants в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p>Клиент пользователя, который поступил с ошибкой. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ToUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI пользователя, который был целью сообщения об ошибке.</p></td>
+<td><p><strong>Таури</strong></p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>Универсальный код ресурса (URI) пользователя, который является целью отчета об ошибке.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ToUriType</strong></p></td>
+<td><p><strong>Тауритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Тип URI пользователя, который был целью сообщения об ошибке. См. таблицу UriTypes для получения дополнительной информации.</p></td>
+<td><p>Тип URI пользователя, который является конечным лицом отчета об ошибке. Для получения дополнительных сведений ознакомьтесь с таблицей Уритипес.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ToTenant</strong></p></td>
+<td><p><strong>Тотенант</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Клиент пользователя, который был целью сообщения об ошибке. См. <a href="lync-server-2013-tenants-table.md">Таблица Tenants в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p>Клиент пользователя, который является конечным лицом отчета об ошибке. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI конференции, которая была целью сообщения об ошибке.</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>Универсальный код ресурса (URI) Конференции, которая была целью отчета об ошибке.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceUriType</strong></p></td>
+<td><p><strong>Конференцеуритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Тип URI конференции, которая была целью сообщения об ошибки. См. <a href="lync-server-2013-uritypes-table.md">Таблица UriTypes в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p>Тип URI конференции, которая была целью отчета об ошибке. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>Сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время запроса сеанса, для которого возникла ошибка. Используется в сочетании с SessionIdSeq для уникальной идентификации сеанса. См. <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p>Время запроса сеанса, в котором был создан отчет об ошибке. Используется в сочетании с Сессионидсек для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Идентификатор запроса сеанса, инициировавшего ошибку. Используется в сочетании с параметром SessionIdTime для уникальной идентификации сеанса. См. <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p><strong>Сессионидсек</strong></p></td>
+<td><p>целое</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации запроса на сеанс, который является источником отчета об ошибке. Используется в сочетании с Сессионидтиме для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogId</strong></p></td>
-<td><p>varstring(775)</p></td>
-<td><p>Диалоговый идентификатор SIP сеанса, инициировавшего ошибку. Используется следующий формат:</p>
-<p>dialog;from-tag;to-tag</p>
+<td><p><strong>Диалогид</strong></p></td>
+<td><p>варстринг (775)</p></td>
+<td><p>ИДЕНТИФИКАТОР диалогового окна SIP сеанса, на который поступила ошибка. Формат:</p>
+<p>диалоговое окно; тег "from-Tag"</p>
 <p>Эти данные можно преобразовать в текстовый формат, используя следующий синтаксис:</p>
-<p>cast(cast(ExternalId as varbinary(max)) as varchar(max))</p></td>
+<p>Cast (CAST (Екстерналид AS varbinary (max)) AS varchar (max))</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ClientVersion</strong></p></td>
+<td><p><strong>Клиентверсион</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Версии клиента, используемого пользователем, инициировавшим ошибку.</p></td>
+<td><p>Версия клиента, используемая пользователем, который поступил с ошибкой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ClientType</strong></p></td>
-<td><p>int</p></td>
-<td><p>Клиент, используемый пользователем, инициировавшим ошибку. См. <a href="lync-server-2013-useragentdef-table.md">Таблица UserAgentDef в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p><strong>Клиенттипе</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Клиент, использованный пользователем, который поступил с ошибкой. Дополнительные сведения вы увидите <a href="lync-server-2013-useragentdef-table.md">в таблице усеражентдеф в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ClientCategory</strong></p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>Имя категории клиента, используемого пользователем, инициировавшим ошибку.</p></td>
+<td><p><strong>Клиенткатегори</strong></p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>Имя категории клиента, используемой пользователем, который поступил с ошибкой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Source</strong></p></td>
+<td><p><strong>Источник</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Имя сервера, с которого поступило сообщение об ошибке (если отчет был отправлен серверным компонентом).</p></td>
+<td><p>Имя сервера, отправившего ошибку (при отправке отчета из серверного компонента).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Application</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Имя приложения, инициировавшего ошибку (если отчет был отправлен серверным компонентом).</p></td>
+<td><p>Имя приложения, которое поступило об ошибке (при отправке отчета из серверного компонента).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ResponseCode</strong></p></td>
-<td><p>int</p></td>
-<td><p>Код ответа SIP на сеанс SIP-сообщения, содержащего отчет об ошибках.</p></td>
+<td><p><strong>Респонсекоде</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Код ответа SIP в сеанс сообщения SIP с отчетом об ошибке.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
-<td><p>varchar(max)</p></td>
-<td><p>Тип запроса с отказом.</p></td>
+<td><p>varchar (max)</p></td>
+<td><p>Тип запроса, который завершился сбоем.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ContentType</strong></p></td>
-<td><p>varchar(max)</p></td>
-<td><p>Тип содержимого запроса с отказом.</p></td>
+<td><p><strong>Контента</strong></p></td>
+<td><p>varchar (max)</p></td>
+<td><p>Тип контента запроса, который завершился сбоем.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Тип сеанса. См. <a href="lync-server-2013-calltype-table.md">Таблица CallType в Lync Server 2013</a> для получения дополнительной информации.</p></td>
+<td><p>Тип сеанса. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-calltype-table.md">таблицей каллтипе в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TelemetryId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>Уникальный идентификатор времени присоединения для различных компонентов, участвующих в конференции.</p></td>
+<td><p><strong>Телеметрид</strong></p></td>
+<td><p>идентификатора</p></td>
+<td><p>Уникальный идентификатор, соответствующий сведениям о времени соединения для различных компонентов, участвующих в Конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SessionSetupTime</strong></p></td>
-<td><p>int</p></td>
-<td><p>Время (в миллисекундах), необходимое для присоединения к конференции определенного компонента.</p></td>
+<td><p><strong>Сетуптиме</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Время (в миллисекундах), требуемое конкретным компонентом для присоединения к Конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IsCapturedByServer</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Указывает, был ли данный отчет об ошибках получен агентом CDR, работающим на сервере переднего плана, или отправлен клиентом.</p></td>
+<td><p><strong>Искаптуредбисервер</strong></p></td>
+<td><p>бит</p></td>
+<td><p>Указывает, был ли отчет об ошибке записан агентом CDR, запущенным на сервере переднего плана или отправлен клиентом.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Flag</strong></p></td>
+<td><p><strong>Пометка</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>Зарезервировано для будущего использования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MsDiagHeader</strong></p></td>
-<td><p>varchar(max)</p></td>
+<td><p><strong>Мсдиагхеадер</strong></p></td>
+<td><p>varchar (max)</p></td>
 <td><p>Дополнительные сведения об ошибке.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>FrontEnd</strong></p></td>
+<td><p>nvarchar</p></td>
+<td><p>Полное доменное имя сервера переднего плана, отправившего отчет.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Pool</strong></p></td>
+<td><p>nvarchar</p></td>
+<td><p>Полное доменное имя пула, содержащего сервер переднего плана, отправивший отчет.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

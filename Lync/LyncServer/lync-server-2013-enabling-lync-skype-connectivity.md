@@ -1,65 +1,139 @@
-﻿---
-title: 'Lync Server 2013: обеспечение взаимодействия Lync и Skype'
-TOCTitle: Обеспечение взаимодействия Lync и Skype
-ms:assetid: 34c4db3e-582f-41fb-85c4-3438ae02f09f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn440170(v=OCS.15)
-ms:contentKeyID: 59373655
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: обеспечение взаимодействия Lync и Skype'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling Lync-Skype connectivity
+ms:assetid: 34c4db3e-582f-41fb-85c4-3438ae02f09f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440170(v=OCS.15)
+ms:contentKeyID: 57793361
+ms.date: 12/16/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 794d2a71c07e742a3ab5597d4bd2aff77157d675
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834264"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Обеспечение взаимодействия Lync и Skype в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Обеспечение взаимодействия Lync и Skype в Lync Server 2013
 
-После отправки запроса на подготовку можно уделить время подготовке среды Lync Server и выполнению административных задач, необходимых для настройки интеграции Lync и Skype. В этом разделе предполагается, что администратор Lync Server развернул сервер Lync Server и настроил внешний доступ. Дополнительные сведения о настройке внешнего доступа для Lync Server см. в статьях [Планирование доступа внешних пользователей в Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) и [Развертывание доступа внешних пользователей в Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
+</div>
 
-Чтобы подготовить среду Lync Server для подключения Lync-Skype, администратору Lync Server нужно выполнить три задачи.
+<div id="mainSection">
 
-## 1\. Настройка федерации и PIC
+<div id="mainBody">
 
-Федерация нужна, чтобы разрешить пользователям Skype взаимодействовать с пользователями Lync в своей организации. Общедоступная служба обмена мгновенными сообщениями (PIC) — это класс федерации, в котором для пользователей Lync должно быть настроено разрешение на взаимодействие с пользователями Skype. Федерация и PIC настраиваются с помощью панели управления Lync Server, которая показана ниже.
+<span> </span>
 
-![Отображение PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Отображение PIC")
+_**Тема последнего изменения:** 2014-12-16_
+
+После того как вы отправили запрос на подготовку, вы можете сосредоточиться на среде Lync Server и административных задачах, необходимых для настройки связи Lync — Skype. В этом разделе предполагается, что администратор сервера Lync Server развернул сервер Lync Server и настроил внешний доступ. Дополнительные сведения о настройке внешнего доступа для Lync Server можно найти [в разделе Планирование доступа внешних пользователей в Lync server 2013](lync-server-2013-planning-for-external-user-access.md) и [развертывание внешних пользователей в Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
+
+Для подготовки среды Lync Server для Lync — возможности подключения к Skype администратор сервера Lync Server должен выполнить следующие три задачи:
+
+<div>
+
+## <a name="1-configure-federation-and-pic"></a>1 \. настройка федерации и PIC;
+
+Для того чтобы пользователи Skype могли общаться с пользователями Lync в вашей организации, требуется Федерация. Общедоступная служба обмена мгновенными сообщениями (PIC) — это класс Федерации, и он должен быть настроен для предоставления пользователям Lync возможности общаться с пользователями Skype. Федерация и PIC настраиваются с помощью панели управления Lync Server, показанной ниже.
+
+![Отображение PIC] (images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Отображение PIC")
+
+<div>
+
 
 > [!IMPORTANT]  
-> Федерация PIC больше не поддерживается в Live Communication Server 2005 с пакетом обновления 1 и Office Communications Server 2007. Среди платформ с поддержкой федерации PIC: Lync Server 2013, Lync Server 2010 и Office Communications Server 2007 R2.
+> Федерация PIC больше не поддерживается в Live Communication Server 2005 с пакетом обновления 1 (SP1) и Office Communications Server 2007. Поддерживаются следующие платформы для интеграции PIC: Lync Server 2013, Lync Server 2010 и Office Communications Server 2007 R2.
 
-## 2\. Настройка не менее одной политики для поддержки доступа федеративных пользователей
 
-С помощью панели управления Lync Server администратору необходимо настроить одну или несколько политик доступа внешних пользователей, чтобы управлять совместной работой пользователей Skype и пользователей Lync Server в пределах организации.
 
-![Политики](images/Dn440170.8fd46ad1-9749-422c-8c47-c16ac9032cdb(OCS.15).jpg "Политики")
+</div>
 
-## 3\. Настройка параметра поставщика общедоступной службы обмена мгновенными сообщениями Skype в Lync
+</div>
 
-С помощью командной консоли Lync Server администратору необходимо настроить политику клиента Lync, чтобы отображать Skype как дополнительного поставщика PIC.
+<div>
+
+## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2 \. настройка не менее одной политики для поддержки доступа федеративных пользователей;
+
+С помощью панели управления Lync Server администратор должен настроить одну или несколько политик доступа внешних пользователей, чтобы указать, могут ли пользователи Skype работать вместе с внутренними пользователями Lync Server.
+
+![Политики] (images/Dn440170.8fd46ad1-9749-422c-8c47-c16ac9032cdb(OCS.15).jpg "Политики")
+
+</div>
+
+<div>
+
+## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a>3 \. Настройка параметров поставщика в Skype PIC для Lync
+
+С помощью командной консоли Lync Server администратор должен настроить политику клиента Lync, чтобы показать Skype как дополнительный поставщик PIC.
+
+<div>
+
 
 > [!NOTE]  
-> Кроме того, пока не будет сконфигурирована по крайней мере одна политика (шаг 2 выше) для поддержки общедоступного обмена мгновенными сообщениями, пользователи поставщиков общедоступной службы обмена мгновенными сообщениями (PIC) не смогут участвовать в обмене мгновенными сообщениями, а также в аудио- или видеоконференциях в вашей организации.
+> Пользователи поставщиков услуг общедоступной службы обмена мгновенными сообщениями (PIC) не могут принимать участие в СООБЩЕНИЯх, голосовых и видеоконференциях в вашей организации, пока не настроите по крайней мере одну политику (шаг 2, ранее в этой процедуре), чтобы обеспечить поддержку подключения к общедоступным СООБЩЕНИЯм
 
-1.  Сведения о настройке федерации и PIC см. в статье "Включение и отключение федерации и общедоступной службы обмена мгновенными сообщениями" по адресу [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063).
 
-2.  Чтобы узнать, как настроить хотя бы одну политику поддержки доступа федеративных пользователей, ознакомьтесь со статьей "Конфигурация политик для управления общим доступом пользователей" по адресу [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064).
 
-**Изменение поставщика общедоступной службы обмена сообщениями Messenger и его настройка для интеграции со Skype**
+</div>
 
-1.  На сервере переднего плана Lync Server откройте командную консоль Lync Server.
+1.  Чтобы настроить федерацию и PIC, обратитесь к разделу "Включение и отключение служб федерации и общедоступной службы обмена мгновенными сообщениями" [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063).
+
+2.  Для настройки хотя бы одной политики для поддержки федеративного доступа пользователей обратитесь к разделу Настройка политики для управления доступом пользователей (Public [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)Users).
+
+**Изменение существующего поставщика Messenger или Skype PIC и его настройка для Skype**
+
+1.  На сервере переднего плана Lync Server откройте командную консоль Lync Server Management Shell.
 
 2.  Выполните две следующие команды:
     
-    `Remove-CsPublicProvider -Identity Messenger`
+    `Remove-CsPublicProvider -Identity <identity-name>`
     
-    `New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl "https://images.edge.messenger.live.com/Messenger_16x16.png" -VerificationLevel 2 -Enabled 1`
-
-3.  Теперь в клиенте Lync можно выбрать Skype в качестве поставщика PIC и добавить клиент Skype, указав его учетную запись Microsoft. Кроме того, пользователь Skype, который связал свою учетную запись с учетной записью Microsoft и вошел под ней, может отправлять запрос контактных данных пользователям Lync. Подробнее об учетных записях Microsoft см. [Что такое учетная запись Microsoft?](https://support.skype.com/ru/faq/fa12059/what-is-a-microsoft-account). Дополнительную информацию о добавлении клиентов в Lync см. раздел [Взаимодействие между конечными пользователями Lync и Skype в Lync Server 2013](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
+    <div>
     
-    ![Добавление контактов Skype](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Добавление контактов Skype")
 
-4.  Подробнее об изменении размещенных поставщиков см. в статье "Создание и изменение размещенных федеративных поставщиков SIP" по адресу [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/?linkid=306065).
+    > [!NOTE]  
+    > Если у вас еще нет провайдера PIC в вашей среде и вы создаете новый поставщик PIC, вам не нужно запускать командлет <STRONG>Remove-кспубликпровидер</STRONG> .
 
-Вот и все административные задачи, которые нужно выполнить на сервере. Подключение Lync\\Skype настроено.
+    
+    </div>
+    
+    `New-CsPublicProvider -ProxyFqdn federation.messenger.msn.com -Enabled 1 -Identity Skype  -VerificationLevel 2 -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -IconUrl "https://images.edge.messenger.live.com/Messenger_16x16.png"`
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Добавлена в Lync Server 2013 CU5 &amp; Lync для настольных компьютеров в Office 2013 с пакетом обновления 1 (SP1), Намедекоратионраутингдомаин и намедекоратионексклудеддомаинлист улучшают ситуацию, когда пользователи Lync добавляют контакты Skype, необходимые для «украшения» доменов, не являющихся Microsoft Определите и отправьте их в Skype (формат: User (contoso. com) @msn. com). Эти новые параметры позволят автоматически выполнять форматирование адреса пользователя, указанного в диалоговом окне "Добавление контактов Skype" с параметром NameDecorationRoutingDomain (для которого должно быть указано значение "msn.com"), если отсутствуют домены из NameDecorationExcludedDomainList (в настоящее время возможна поддержка доменов msn.com, live.com, Hotmail.com, outlook.com).
+
+    
+    </div>
+
+3.  В клиенте Lync теперь вы можете выбрать Skype в качестве поставщика PIC и добавить клиент Skype, указав учетную запись Майкрософт. Кроме того, пользователь Skype, выполнивший слияние и выполнившего вход с помощью учетной записи Майкрософт, может отправлять запросы на контакт пользователям Lync. Дополнительные сведения об учетных записях Майкрософт можно найти [в статье что такое учетная запись Майкрософт?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account). Дополнительные сведения о добавлении клиентов в Lync можно найти [в разделе Использование связи Lync — Skype для Lync Server 2013 в качестве конечных пользователей](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
+    
+    ![Добавить абонента Skype] (images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Добавить абонента Skype")
+
+4.  Подробные сведения об изменении размещенных поставщиков можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)разделе Создание или изменение размещенных служб федерации SIP.
+
+Это все административные задачи, которые нужно выполнить на сервере. Теперь вы готовы к установке Lync – подключение к Skype.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица FileTransfers'
-TOCTitle: Таблица FileTransfers
-ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398353(v=OCS.15)
-ms:contentKeyID: 49309771
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица FileTransfers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FileTransfers table
+ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398353(v=OCS.15)
+ms:contentKeyID: 48184118
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 71e53e59e3ed1391adebff8b7c4046ef3c23aa21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834151"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица FileTransfers в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="filetransfers-table-in-lync-server-2013"></a>Таблица FileTransfers в Lync Server 2013
 
-Каждая запись представляет один сеанс передачи файлов.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-28_
+
+Каждая запись представляет собой один сеанс передачи файлов.
 
 
 <table>
@@ -35,53 +55,64 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>Запрос времени сеанса. Используется совместно с <strong>SessionIdSeq</strong> для уникальной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p><strong>Сессионидтиме</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Основной, внешний</p></td>
+<td><p>Время запроса сеанса. Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Сессионидсек</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>ИД сеанса. Используется с <strong>SessionIdTime</strong> для однозначной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p>Основной, внешний</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Имя файла</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Имя файла.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p></p></td>
-<td><p>Уникальный идентификатор для различения операций передачи файлов с одинаковыми именами файлов.</p></td>
+<td><p><strong>Филеидентити</strong></p></td>
+<td><p>идентификатора</p></td>
+<td></td>
+<td><p>Уникальный идентификатор, позволяющий отличать передачу файлов с одним и тем же именем файла.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Cookie</strong></p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Первичный</p></td>
-<td><p>Используется для идентификации каждого последующего сообщения как связанного с этим сообщением.</p></td>
+<td><p><strong>Файлах</strong></p></td>
+<td><p>nvarchar(128</p></td>
+<td><p>Primary</p></td>
+<td><p>Используется для идентификации каждого сообщения к исполнению, связанного с этим сообщением.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Accept</strong></p></td>
+<td><p><strong>Отвечать</strong></p></td>
 <td><p>бит</p></td>
-<td><p></p></td>
-<td><p>Может иметь значение TRUE или NULL. Если значение равно TRUE, то значением параметров Reject и Cancel будет NULL.</p></td>
+<td></td>
+<td><p>Может иметь значение истина или NULL. Если значение равно TRUE, то значение "отклонить" и "Отмена" будет равно NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Reject</strong></p></td>
+<td><p><strong>Отклонил</strong></p></td>
 <td><p>бит</p></td>
-<td><p></p></td>
-<td><p>Может иметь значение TRUE или NULL. Если значение равно TRUE, то значением параметров Accept и Cancel будет NULL.</p></td>
+<td></td>
+<td><p>Может иметь значение истина или NULL. Если значение равно TRUE, то "принимать" и "Отмена" будут иметь значение NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancel</strong></p></td>
+<td><p><strong>Отмена</strong>.</p></td>
 <td><p>бит</p></td>
-<td><p></p></td>
-<td><p>Может иметь значение TRUE или NULL. Если значение равно TRUE, то значением параметров Accept и Reject будет NULL.</p></td>
+<td></td>
+<td><p>Может иметь значение истина или NULL. Если значение равно TRUE, то принять и отклонить будет значение NULL.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

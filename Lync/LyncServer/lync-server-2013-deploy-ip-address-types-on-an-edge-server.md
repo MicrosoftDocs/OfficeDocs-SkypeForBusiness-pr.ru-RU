@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013: развертывание типов IP-адресов на пограничном сервере'
-TOCTitle: Развертывание типов IP-адресов на пограничном сервере
-ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204984(v=OCS.15)
-ms:contentKeyID: 49310117
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: развертывание типов IP-адресов на пограничном сервере'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy IP address types on an Edge Server
+ms:assetid: 6e2fe7e8-6e90-4d1a-8fc5-e3be92c46571
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204984(v=OCS.15)
+ms:contentKeyID: 48184435
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a094a39fd74ab30ee1dd3a5a3da4e777bcf7e338
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834573"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание типов IP-адресов на пограничном сервере для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-14_
+# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>Развертывание типов IP-адресов на пограничном сервере для Lync Server 2013
 
-С помощью построителя топологий выполните действия из следующей процедуры для развертывание типов IP-адресов в пограничном сервере.
+</div>
 
-## Развертывание типов IP-адресов в пограничном сервере
+<div id="mainSection">
 
-1.  В построителе топологий в разделе **Edge pools (Пограничные пулы)** щелкните правой кнопкой мыши сервер в пуле и выберите команду **Edit Properties (Изменить свойства)** . (можно также выбрать сервер, а затем выбрать пункт **Edit Properties (Изменить свойства)** в меню **Action (Действие)** .)
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-14_
+
+С помощью построителя топологии выполните действия, описанные в следующей процедуре, чтобы развернуть типы IP-адресов на пограничном сервере.
+
+<div>
+
+## <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Развертывание типов IP-адресов в пограничном сервере
+
+1.  В построителе топологии в разделе **кластеры Edge**щелкните правой кнопкой мыши сервер в пуле и выберите команду **изменить свойства**. (Можно также выбрать сервер, а затем выбрать пункт **Edit Properties** (Изменить свойства) в меню **Action** (Действие).)
 
 2.  В окне **изменения свойств** выберите конфигурацию IP-адресов, которую планируется поддерживать. На следующих рисунках показана конфигурация двойного стека для внутреннего и внешнего интерфейса.
     
     **Внутренний интерфейс пограничного сервера с конфигурацией двойного стека**
     
-    ![Страница общих свойств Lync Server](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Страница общих свойств Lync Server")
+    ![Страница общих свойств Lync Server] (images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Страница общих свойств Lync Server")
     
     **Внешний интерфейс пограничного сервера с конфигурацией двойного стека**
     
-    ![Страница следующего перехода/внешней конфигурации Lync Server](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Страница следующего перехода/внешней конфигурации Lync Server")
+    ![Страница настройки следующего прыжка/внешней конфигурации Lync Server] (images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Страница настройки следующего прыжка/внешней конфигурации Lync Server")
 
 3.  Для каждого выбранного типа адреса необходимо предоставить соответствующие внутренние и внешние адреса.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

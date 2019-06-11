@@ -1,129 +1,161 @@
-﻿---
-title: Командлет Get-CsService для управления адресной книгой
-TOCTitle: Командлет Get-CsService для управления адресной книгой
-ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg429698(v=OCS.15)
-ms:contentKeyID: 49309430
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Get-Кссервице для управления адресными книгами'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Get-CsService for Address Book management
+ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
+ms:contentKeyID: 48183853
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4cfa9bd42bb29ca32ab27dc64d2ee9a111abab8d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834136"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Командлет Get-CsService для управления адресной книгой
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-Кссервице для управления адресными книгами в Lync Server 2013
 
-По умолчанию право на локальный запуск командлета Get-CsService имеют члены следующих групп: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Чтобы получить список всех ролей управления доступом на основе ролей (RBAC), которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните в командной строке Windows PowerShell следующую команду:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет Get-Кссервице локально: Рткуниверсалусерадминс, Рткуниверсалсерверадминс. Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Командлет Get-CsService полезен для получения и отображения текущей конфигурации служб, определенной инфраструктурой. Если указать полное доменное имя пула и параметр WebServer, командлет возвращает веб-службы, предлагаемые сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.
+Get-Кссервице является ценным для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры. Определив полное доменное имя (FQDN) для пула и веб-сервер параметров, командлет выводит на экран службы, предоставляемые вашим сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.
 
 Например:
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-Этот командлет возвращает следующие данные:
+Этот командлет возвращает следующее:
 
-Идентификатор : WebServer:pool01.contoso.net
+Identity::pool01. contoso. NET
 
-FileStore : FileStore:dc01.contoso.net
+Хранилище файлов: хранилища файлов:DC01. contoso. NET
 
-UserServer : UserServer:pool01.contoso.net
+Усерсервер: Усерсервер:pool01. contoso. NET
 
-PrimaryHttpPort : 80
+Примарихттппорт: 80
 
-PrimaryHttpsPort : 443
+Примарихттпспорт: 443
 
-ExternalHttpPort : 8080
+Екстерналхттппорт: 8080
 
-ExternalHttpsPort : 4443
+Екстерналхттпспорт: 4443
 
-PublishedPrimaryHttpPort : 80
+Публишедпримарихттппорт: 80
 
-PublishedPrimaryHttpsPort : 443
+Публишедпримарихттпспорт: 443
 
-PublishedExternalHttpPort : 80
+Публишедекстерналхттппорт: 80
 
-PublishedExternalHttpsPort : 443
+Публишедекстерналхттпспорт: 443
 
-ReachPrimaryPsomServerPort : 8060
+Реачпримарипсомсерверпорт: 8060
 
-ReachExternalPsomServerPort : 8061
+Реачекстерналпсомсерверпорт: 8061
 
-AppSharingPortStart : 49152
+Аппшарингпортстарт: 49152
 
-AppSharingPortCount : 16383
+Аппшарингпорткаунт: 16383
 
-LIServiceInternalUri : https://internalweb.contoso.net/locationinformation/liservice.svc
+Лисервицеинтерналури:https://internalweb.contoso.net/locationinformation/liservice.svc
 
-ABHandlerInternalUri : https://internalweb.contoso.net/abs/handler
+Абхандлеринтерналури:https://internalweb.contoso.net/abs/handler
 
-ABHandlerExternalUri : https://csweb.contoso.com/abs/handler
+Абхандлерекстерналури:https://csweb.contoso.com/abs/handler
 
-DLExpansionInternalUri : https://internalweb.contoso.net/groupexpansion/service.svc
+Длекспансионинтерналури:https://internalweb.contoso.net/groupexpansion/service.svc
 
-DLExpansionExternalUri : https://csweb.contoso.com/groupexpansion/service.svc
+Длекспансионекстерналури:https://csweb.contoso.com/groupexpansion/service.svc
 
-CAHandlerInternalUri : https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+Кахандлеринтерналури:https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CAHandlerInternalAnonUri : http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+Кахандлеринтерналанонури:http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CollabContentInternalUri : https://internalweb.contoso.net/CollabContent
+Коллабконтентинтерналури:https://internalweb.contoso.net/CollabContent
 
-CollabContentExternalUri : https://csweb.contoso.com/CollabContent
+Коллабконтентекстерналури:https://csweb.contoso.com/CollabContent
 
-CAHandlerExternalUri : https://csweb.contoso.com/CertProv/CertProvisioningService.svc
+Кахандлерекстерналури:https://csweb.contoso.com/CertProv/CertProvisioningService.svc
 
-DeviceUpdateDownloadInternalUri : https://internalweb.contoso.net/RequestHandler/ucdevice.upx
+Девицеупдатедовнлоадинтерналури:https://internalweb.contoso.net/RequestHandler/ucdevice.upx
 
-DeviceUpdateDownloadExternalUri : https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
+Девицеупдатедовнлоадекстерналури:https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
 
-DeviceUpdateStoreInternalUri : http://internalweb.contoso.net/RequestHandler/Files
+Девицеупдатестореинтерналури:http://internalweb.contoso.net/RequestHandler/Files
 
-DeviceUpdateStoreExternalUri : https://csweb.contoso.com/RequestHandlerExt/Files
+Девицеупдатесторикстерналури:https://csweb.contoso.com/RequestHandlerExt/Files
 
-RgsAgentServiceInternalUri : https://internalweb.contoso.net/RgsClients/AgentService.svc
+Ргсажентсервицеинтерналури:https://internalweb.contoso.net/RgsClients/AgentService.svc
 
-RgsAgentServiceExternalUri : https://csweb.contoso.com/RgsClients/AgentService.svc
+Ргсажентсервицеекстерналури:https://csweb.contoso.com/RgsClients/AgentService.svc
 
-MeetExternalUri : https://csweb.contoso.com/Meet
+Митекстерналури:https://csweb.contoso.com/Meet
 
-DialinExternalUri : https://csweb.contoso.com/Dialin
+Диалинекстерналури:https://csweb.contoso.com/Dialin
 
-CscpInternalUri : https://internalweb.contoso.net/Cscp
+Кскпинтерналури:https://internalweb.contoso.net/Cscp
 
-ReachExternalUri : https://csweb.contoso.com/Reach
+Реачекстерналури:https://csweb.contoso.com/Reach
 
-ReachInternalUri : https://internalweb.contoso.net/Reach
+Реачинтерналури:https://internalweb.contoso.net/Reach
 
-WebTicketExternalUri : https://csweb.contoso.com/WebTicket/WebTicketService.svc
+Вебтиккетекстерналури:https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
-WebTicketInternalUri : https://internalweb.contoso.net/WebTicket/WebTicketService.svc
+Вебтиккетинтерналури:https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
-ExternalFqdn : csweb.contoso.com
+Екстерналфкдн: csweb.contoso.com
 
-InternalFqdn : internalweb.contoso.net
+Интерналфкдн: internalweb.contoso.net
 
-DependentServiceList : {Registrar:pool01.contoso.net, ConferencingServer:pool01.contoso.net}
+Депендентсервицелист: {регистратор:pool01. contoso. NET, КонференЦингсервер:pool01. contoso. NET}
 
-ServiceId : 1-WebServices-1
+Сервицеид: 1 — WebService-1
 
-SiteId : Site:Redmond
+Идентификатор сайта: сайт Redmond
 
-PoolFqdn : pool01.contoso.net
+Пулфкдн: pool01.contoso.net
 
-Версия : 5
+Версия: 5
 
-Роль : WebServer
+Роль: сервер
 
-Подробное описание полной команды см. в следующих разделах в главном справочнике по командлетам RTCCmdlets Lync Server Windows PowerShell.
+<div>
 
-## См. также
+## <a name="see-also"></a>См. также
 
-#### Другие ресурсы
 
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

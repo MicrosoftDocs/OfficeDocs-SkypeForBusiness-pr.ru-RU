@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Dialog'
-TOCTitle: Таблица Dialog
-ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398313(v=OCS.15)
-ms:contentKeyID: 49309720
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Dialog'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dialog table
+ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
+ms:contentKeyID: 48184068
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834391"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Dialog в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="dialog-table-in-lync-server-2013"></a>Таблица Dialog в Lync Server 2013
 
-Таблица Dialog является вспомогательной. Каждая запись представляет одно диалоговое окно SIP.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-02_
+
+Диалоговая таблица — это вспомогательная таблица; Каждая запись отображает диалоговое окно протокола SIP.
 
 
 <table>
@@ -35,29 +55,40 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Первичный</p></td>
-<td><p>Время получения агентом качества обслуживания первого отчета от звонящего или вызываемого абонента. Используется совместно с SessionSeq для уникальной идентификации сеанса.</p></td>
+<td><p><strong>Конференцедатетиме</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>Время, когда агент качества (QoE) получает первый отчет от вызывающего или вызываемого абонента. Используется в сочетании с Сессионсек для уникальной идентификации сеанса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSeq</strong></p></td>
+<td><p><strong>Сессионсек</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Порядковый номер, позволяющий различать сеансы с одинаковым ConferenceDateTime.</p></td>
+<td><p>Primary</p></td>
+<td><p>Порядковый номер, чтобы отличать сеансы связи с одинаковым Конференцедатетиме.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogID</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p></p></td>
-<td><p>Глобальный уникальный идентификатор диалогового окна.</p></td>
+<td><p><strong>Диалогид</strong></p></td>
+<td><p>varchar (256)</p></td>
+<td></td>
+<td><p>ИДЕНТИФИКАТОР диалогового окна, который является глобально уникальным.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogIDChecksum</strong></p></td>
+<td><p><strong>Диалогидчекксум</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Ключ индекса</p></td>
+<td><p>индекса</p></td>
 <td><p>Контрольная сумма идентификатора диалогового окна.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

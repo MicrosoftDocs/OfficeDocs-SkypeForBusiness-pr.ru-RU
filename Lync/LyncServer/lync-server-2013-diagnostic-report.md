@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: диагностический отчет'
-TOCTitle: Диагностический отчет
-ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615445(v=OCS.15)
-ms:contentKeyID: 49310909
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: диагностический отчет'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Diagnostic Report
+ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
+ms:contentKeyID: 48185159
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b314bccb0c1df539598e17ffc8ca12b30287b8eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834413"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Диагностический отчет в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="diagnostic-report-in-lync-server-2013"></a>Диагностический отчет в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-02-07_
 
 Диагностический отчет предоставляет сведения о сеансах, которые завершились с ошибкой. Эти сведения включают ИД диагностики и диагностический заголовок, переданные при сбое сеанса. ИД диагностики – это уникальный идентификатор (в виде заголовка ms-diagnostics), который возвращает добавленное сообщение SIP, а диагностический заголовок содержит дополнительное описание ИД диагностики. Отчет также может содержать дополнительные сведения об устранении неполадок, предоставляемые компонентом создания отчетов. Пример:
 
@@ -23,19 +43,29 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Запрашиваемые имена для ошибок разрешения DNS-имен. Разрешение DNS-имен выполняется при каждом обращении клиента к серверу имен и запросе IP-адреса, соответствующему указанному имени устройства.
 
-## Доступ к диагностическому отчету
+<div>
 
-Для доступа к диагностическому отчету щелкните показатель Diagnostic Report (Detail) (Диагностический отчет (Сведения)) в отчете [Подробный отчет по сеансу однорановой связи в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) или отчете Conference Detail Report (Сведения о конференции).
+## <a name="accessing-the-diagnostic-report"></a>Доступ к диагностическому отчету
 
-## Фильтры
+Отчет о диагностике можно получить, щелкнув метрику диагностического отчета (подробности) в отчете о одноранговых [сеансах в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) или в отчете "сведения о конференции".
+
+</div>
+
+<div>
+
+## <a name="filters"></a>Фильтры
 
 Нет. В диагностическом отчете нельзя использовать фильтр.
 
-## Показатели
+</div>
+
+<div>
+
+## <a name="metrics"></a>Показатели
 
 В следующей таблице перечислены сведения, содержащиеся в диагностическом отчете.
 
-### Показатели отчета Diagnostic Report (Диагностический отчет)
+### <a name="diagnostic-report-metrics"></a>Показатели отчета Diagnostic Report (Диагностический отчет)
 
 <table>
 <colgroup>
@@ -52,52 +82,52 @@ _**Дата изменения раздела:** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Reported time</strong> (Время создания отчета)</p></td>
+<td><p><strong>Время создания отчета</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Дата и время создания отчета.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Response code</strong> (Код ответа)</p></td>
+<td><p><strong>Код ответа</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Код ответа SIP, отправленный при сбое сеанса.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Request type</strong> (Тип запроса)</p></td>
+<td><p><strong>Тип запроса</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Тип запроса SIP, завершившегося с ошибкой. Например, INVITE, BYE или SERVICE.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Source</strong> (Источник)</p></td>
+<td><p><strong>Источник</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Источник ошибки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>From user URI</strong> (URI пользователя, инициатора сеанса)</p></td>
+<td><p><strong>URI пользователя, инициатора сеанса</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>SIP-адрес пользователя, инициировавшего сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>From user agent</strong> (Агент пользователя, инициатора сеанса)</p></td>
+<td><p><strong>Агент пользователя, инициатора сеанса</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Программное обеспечение, используемое конечной точкой пользователя, инициировавшего сеанс.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Diagnostic ID</strong> (ИД диагностики)</p></td>
+<td><p><strong>ИД диагностики</strong></p></td>
 <td><p>Нет</p></td>
-<td><p>Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</p></td>
+<td><p>Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Content type</strong> (Тип содержимого)</p></td>
+<td><p><strong>Тип содержимого</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Тип содержимого мультимедиа, которое привело к ошибке. Например, общий тип содержимого Application/sdp. Протокол SDP – это стандартный протокол Интернета, который используется для оповещений сеансов, приглашений сеансов и других видов инициирования сеансов мультимедиа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong> (Приложение)</p></td>
+<td><p><strong>Приложение</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Приложение, используемое при возникновении ошибки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>To user URI</strong> (URI пользователя, получившего приглашение к сеансу)</p></td>
+<td><p><strong>URI пользователя, получившего приглашение к сеансу</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>SIP-адрес пользователя, получившего приглашение к сеансу.</p></td>
 </tr>
@@ -107,7 +137,7 @@ _**Дата изменения раздела:** 2016-12-08_
 <td><p>Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnostic header</strong> (Заголовок диагностики)</p></td>
+<td><p><strong>Заголовок диагностики</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Описание ИД диагностики.</p></td>
 </tr>
@@ -115,5 +145,17 @@ _**Дата изменения раздела:** 2016-12-08_
 </table>
 
 
-Список ошибок диагностики можно найти на странице [Ms-Diagnostics Header](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+Список ошибок диагностики можно найти на странице заголовков [MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

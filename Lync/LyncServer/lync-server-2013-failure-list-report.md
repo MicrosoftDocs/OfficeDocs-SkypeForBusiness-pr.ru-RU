@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: отчет по списку отказов'
-TOCTitle: Отчет по списку отказов
-ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615446(v=OCS.15)
-ms:contentKeyID: 49310939
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: отчет о списке сбоев'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failure List Report
+ms:assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615446(v=OCS.15)
+ms:contentKeyID: 48185194
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 32c1c9c15b1f539aa1a5213989674dfea268a684
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834163"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Отчет по списку отказов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="failure-list-report-in-lync-server-2013"></a>Отчет о списке отказов в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-07-02_
 
 Отчет Failure List (Список ошибок) предоставляет сведения об участниках однорангового сеанса (конференции), завершившегося с ошибкой. Эти сведения содержат URI пользователя, у которого возникла ошибка, а также код ответа SIP и ИД диагностики, связанные с ошибкой.
 
-## Доступ к отчету Failure List (Список ошибок)
+<div>
 
-Чтобы открыть отчет Failure List (Список ошибок), щелкните в [Отчет по распределению отказов в Lync Server 2013](lync-server-2013-failure-distribution-report.md) один из следующих показателей:
+## <a name="accessing-the-failure-list-report"></a>Доступ к отчету Failure List (Список ошибок)
+
+Для доступа к отчету о списке отказов достаточно щелкнуть один из указанных ниже метрик в [отчете о распределении неисправностей в Lync Server 2013](lync-server-2013-failure-distribution-report.md):
 
   - Top diagnostic reasons (sessions) (Основные причины диагностики (сеансы))
 
@@ -37,15 +59,19 @@ _**Дата изменения раздела:** 2015-03-09_
 
   - Top from user agents (sessions) (Основные агенты пользователей, используемые в сеансах, завершившихся с ошибками (сеансы))
 
-Чтобы открыть отчет [Подробный отчет по сеансу однорановой связи в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) из отчета Failure List (Список ошибок), щелкните показатель Session detail (Сведения о сеансе) для однорангового сеанса. Чтобы открыть отчет Conference Detail (Сведения о конференции), щелкните показатель Conference (Конференция) для конференции.
+Из отчета "список отказов" можно получить доступ к [отчету о одноранговых сеансах в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) , щелкнув метрику "подробности сеанса" однорангового сеанса. Чтобы открыть отчет сведений о конференции, нажмите показатель «Конференция» для конференции.
 
-## Рекомендации по использованию отчета Failure List (Список ошибок)
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Рекомендации по использованию отчета Failure List (Список ошибок)
 
 Чтобы просмотреть описание кода ответа или ИД диагностики, наведите указатель мыши на значение. Например, если вы наведете указатель мыши на Diagnostic ID (ИД диагностики) 7 025, то вы увидите следующую всплывающую подсказку:
 
 Internal server error creating media for user (Внутренняя ошибка сервера при создании среды для пользователя).
 
-Важно отметить, что отчет Failure List (Список ошибок) не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками. (К примеру, отчет Failure List (Список ошибок) не предоставляет функции фильтрации данных.) Однако если вы экспортируете данные и затем преобразуете их в файл данных с разделителями-запятыми, то для ответа на вышеуказанные вопросы можно использовать Windows PowerShell. Предположим, что вы сохранили данные в CSV-файле C:\\Data\\Failure\_List.csv. Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды:
+Важно отметить, что отчет по списку ошибок не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками. (В одном случае у отчета "список отказов" нет возможностей фильтрации.) Однако если вы экспортируете данные, а затем преобразуете их в файл с разделителями-запятыми, вы можете использовать Windows PowerShell для поиска ответов на такие вопросы, как, например,. Например, предположим, что вы сохраняете данные в. CSV-файл с именем\\C\\:\_List Data failure. csv. Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды:
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
@@ -75,15 +101,23 @@ Internal server error creating media for user (Внутренняя ошибка
         16    Ken.Myero@litwareinc.com
         14    Henrik.Jensen@litwareinc.com
 
-## Фильтры
+</div>
+
+<div>
+
+## <a name="filters"></a>Фильтры
 
 Нет. В отчете Failure List (Список ошибок) нельзя использовать фильтр.
 
-## Показатели
+</div>
+
+<div>
+
+## <a name="metrics"></a>Показатели
 
 В следующей таблице приведены сведения, содержащиеся в отчете Failure List (Список ошибок) для каждого звонка, завершившегося с ошибкой.
 
-### Показатели отчета Failure List (Список ошибок)
+### <a name="failure-list-report-metrics"></a>Показатели отчета Failure List (Список ошибок)
 
 <table>
 <colgroup>
@@ -100,45 +134,58 @@ Internal server error creating media for user (Внутренняя ошибка
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Reported time</strong> (Время создания отчета)</p></td>
+<td><p><strong>Время создания отчета</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Дата и время создания отчета.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Request</strong> (Запрос)</p></td>
+<td><p><strong>Запрос</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Response code</strong> (Код ответа)</p></td>
+<td><p><strong>Код ответа</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Код ответа SIP, отправленный при сбое конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnostic ID</strong> (ИД диагностики)</p></td>
+<td><p><strong>ИД диагностики</strong></p></td>
 <td><p>Нет</p></td>
-<td><p>Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</p></td>
+<td><p>Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Join cost time (ms)</strong> (Время присоединения (мс))</p></td>
+<td><p><strong>Время присоединения (мс)</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>From user</strong> (Пользователь-отправитель)</p></td>
+<td><p><strong>Пользователь-отправитель</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>SIP-адрес пользователя, инициировавшего вызов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>From user agent</strong> (Агент пользователя, инициатора сеанса)</p></td>
+<td><p><strong>Агент пользователя, инициатора сеанса</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Программное обеспечение, используемое конечной точкой пользователя, инициировавшего звонок.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>To user</strong> (Пользователь-получатель)</p></td>
+<td><p><strong>Пользователь-получатель</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>SIP-адрес пользователя, принявшего звонок.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

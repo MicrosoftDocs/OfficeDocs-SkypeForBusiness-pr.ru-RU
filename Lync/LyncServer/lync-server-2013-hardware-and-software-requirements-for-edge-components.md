@@ -1,38 +1,80 @@
-﻿---
-title: "Lync Server 2013: требования к оборудованию и ПО для пограничных компонентов"
-TOCTitle: Требования к оборудованию и программному обеспечению для пограничных компонентов
-ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412931(v=OCS.15)
-ms:contentKeyID: 49311007
-ms.date: 07/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования к оборудованию и программному обеспечению для пограничных компонентов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardware and software requirements for edge components
+ms:assetid: beac1140-e303-488a-ac9f-fc86dcb1987d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412931(v=OCS.15)
+ms:contentKeyID: 48185273
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ff89566757d8e184e51854235ab4990a0b2bdeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834083"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования к оборудованию и программному обеспечению для пограничных компонентов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-03-14_
+# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a>Требования к оборудованию и программному обеспечению для пограничных компонентов в Lync Server 2013
 
-Требования к программному обеспечению и оборудованию для пограничных компонентов включают требования к компонентам Lync Server 2013 ПО, сервер и Директор (необязательно). Дополнительные сведения о компонентах, требуемых для поддержки доступа внешних пользователей, и поддерживаемых топологиях см. в разделе [Компоненты, необходимые для доступа внешних пользователей в Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
+</div>
 
-## Оборудование для пограничных серверов и Директоров
+<div id="mainSection">
 
-Рекомендации и требования к оборудованию определены в разделе поддержки. Для сервер и дополнительного Директор рекомендованные конфигурации оборудования подробно описаны в следующем разделе. В разделе по планированию см. подраздел [Аппаратные серверные платформы для Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
+<div id="mainBody">
 
-## Требования к программному обеспечению для пограничных серверов и Директоров
+<span> </span>
 
-Требования к операционной системе для сервер и дополнительного Директор аналогичным соответствующим ролям Lync Server 2013. Поддерживаемые операционные системы подробно описаны в разделе [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).
+_**Тема последнего изменения:** 2013-03-14_
 
-Дополнительные требования к компонентам и программному обеспечению для сервер и дополнительного Директор подробно описаны в разделе [Дополнительные требования к программному обеспечению для Lync Server 2013](lync-server-2013-additional-software-requirements.md).
+Требования к оборудованию и программному обеспечению для компонентов Edge включают в себя компоненты программного обеспечения для связи Lync Server 2013, в том числе пограничные серверы и дополнительные режиссеры. Дополнительные сведения о компонентах, необходимых для поддержки внешних пользователей и топологий, можно найти [в статьях компоненты, необходимые для доступа внешних пользователей к серверу Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
 
-## См. также
+<div>
 
-#### Концепции
+## <a name="hardware-for-edge-servers-and-directors"></a>Оборудование для пограничных серверов и режиссеров
+
+Рекомендации и требования к оборудованию описаны в разделе Поддержка. Для пограничных серверов и дополнительных директоров Рекомендуемые конфигурации оборудования описаны в следующем разделе. Планирование можно найти в разделе [платформы серверного оборудования для Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
+
+</div>
+
+<div>
+
+## <a name="software-requirements-for-edge-servers-and-directors"></a>Требования к программному обеспечению для пограничного сервера и режиссеров
+
+Требования к операционной системе для пограничных серверов и для опциональных директоров согласуются с другими ролями Lync Server 2013. Поддерживаемые операционные системы описаны в этой [справочной системе поддерживают сервер и инструменты, поддерживаемые операционной системой в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).
+
+Дополнительные компоненты и требования к программному обеспечению для пограничного сервера и для опциональных директоров подробно описаны в разделе [Дополнительные требования к программному обеспечению для Lync Server 2013](lync-server-2013-additional-software-requirements.md).
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
 
 [Компоненты, необходимые для доступа внешних пользователей в Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md)  
-[Аппаратные серверные платформы для Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
+[Аппаратные серверные платформы для Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
 [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)  
-[Дополнительные требования к программному обеспечению для Lync Server 2013](lync-server-2013-additional-software-requirements.md)
+[Дополнительные требования к программному обеспечению для Lync Server 2013](lync-server-2013-additional-software-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

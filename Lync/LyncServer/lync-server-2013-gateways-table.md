@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Gateways'
-TOCTitle: Таблица Gateways
-ms:assetid: a909daad-d137-45e0-b149-1de9f8e1e029
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412795(v=OCS.15)
-ms:contentKeyID: 49310792
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Gateways'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Gateways table
+ms:assetid: a909daad-d137-45e0-b149-1de9f8e1e029
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412795(v=OCS.15)
+ms:contentKeyID: 48185034
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a4f26a45d992d716b94cb7353f813c038272b132
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834131"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Gateways в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="gateways-table-in-lync-server-2013"></a>Таблица Gateways в Lync Server 2013
 
-Gateways – это вспомогательная таблица. Каждая запись хранит сведения об одном шлюзе, используемом для звонков ТСОП, для которых в базе данных есть соответствующие записи.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2010-11-05_
+
+Таблица Gateways является вспомогательной таблицей. Каждая запись содержит сведения об одном шлюзе, который участвует в звонках по коммутируемой телефонной сети (PSTN), которые содержат записи в базе данных.
 
 
 <table>
@@ -35,17 +55,28 @@ Gateways – это вспомогательная таблица. Каждая 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>GatewayId</strong></p></td>
+<td><p><strong>Гатевайид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
+<td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этот шлюз.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Gateway</strong></p></td>
+<td><p><strong>Шлюз</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
 <td><p>Имя шлюза.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
