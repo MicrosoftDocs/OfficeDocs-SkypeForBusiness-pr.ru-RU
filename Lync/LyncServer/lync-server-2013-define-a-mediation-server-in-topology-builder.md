@@ -1,112 +1,199 @@
-﻿---
-title: 'Lync Server 2013: определение сервера-посредника в построителе топологий'
-TOCTitle: Определение сервера-посредника в построителе топологий
-ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398391(v=OCS.15)
-ms:contentKeyID: 49309862
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: определение сервера-посредника в построителе топологии'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define a Mediation Server in Topology Builder
+ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
+ms:contentKeyID: 48184217
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834726"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Определение сервера-посредника в построителе топологий в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-03-25_
+# <a name="define-a-mediation-server-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="59228-102">Определение сервера-посредника в построителе топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59228-102">Define a Mediation Server in Topology Builder in Lync Server 2013</span></span>
 
-В этом разделе приведены инструкции по использованию программы топологий для определения отдельного сервера-посредника посредник или пула, совмещенного с переднего плана, на сайте, для которого ранее не производилось развертывание корпоративной голосовой связи.
+</div>
 
-Вы можете определить топологию с помощью учетной записи, входящей в группу администраторов.
+<div id="mainSection">
 
-## Определение посредник, совмещенного с переднего плана
+<div id="mainBody">
 
-Выполните действия, приведенные в этом разделе, для использования топологий в целях определения посредник, совмещенного с переднего плана на узле, на котором корпоративной голосовой связи не был развернут ранее.
+<span> </span>
 
-## Добавление посредник в переднего плана
+<span data-ttu-id="59228-103">_**Тема последнего изменения:** 2013-03-25_</span><span class="sxs-lookup"><span data-stu-id="59228-103">_**Topic Last Modified:** 2013-03-25_</span></span>
 
-1.  Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Построитель топологий Lync Server**.
+<span data-ttu-id="59228-104">Выполните действия, описанные в этой статье, чтобы определить отдельный сервер-посредник или пул, размещенный в пуле переднего плана на сайте, для которого предварительно не было развернуто корпоративное голосовой интерфейс.</span><span class="sxs-lookup"><span data-stu-id="59228-104">Follow the steps in this topic to use Topology Builder to define a stand-alone Mediation Server or a pool collocated with a Front End pool at a site for which you did not previously deploy Enterprise Voice.</span></span>
 
-2.  В дереве консоли топологий разверните имя сайта, для которого следует определить переднего плана.
+<span data-ttu-id="59228-105">Вы можете определить топологию с помощью учетной записи, которая входит в группу "Администраторы".</span><span class="sxs-lookup"><span data-stu-id="59228-105">You can define a topology using an account that is a member of the Administrators group.</span></span>
 
-3.  В дереве консоли нажмите правой кнопкой мыши нужный тип переднего плана, затем нажмите **Создать переднего плана..**.
+<div>
 
-4.  Перемещайтесь по мастеру **Определение нового пула переднего плана** , пока не откроете страницу **Выбор ролей серверов с совмещенным расположением** .
+## <a name="define-mediation-server-collocated-to-a-front-end-pool"></a><span data-ttu-id="59228-106">Определение сервера-посредника, выровненного с интерфейсом передней части пула</span><span class="sxs-lookup"><span data-stu-id="59228-106">Define Mediation Server collocated to a Front End pool</span></span>
 
-5.  В разделе **Выбор ролей серверов с совмещенным расположением** установите флажок **Совмещение посредник**.
+<span data-ttu-id="59228-107">Выполните действия, описанные в этой статье, чтобы определить сервер-источник, выровненный в пуле переднего плана на сайте, где корпоративный голосовой интерфейс не был ранее развернут.</span><span class="sxs-lookup"><span data-stu-id="59228-107">Follow the steps in this topic to use Topology Builder to define a Mediation Server collocated to a Front End pool in a site where Enterprise Voice has not been previously deployed.</span></span>
+
+<div>
+
+## <a name="to-add-a-mediation-server-to-a-front-end-pool"></a><span data-ttu-id="59228-108">Добавление сервера-исправления в пул переднего плана</span><span class="sxs-lookup"><span data-stu-id="59228-108">To Add a Mediation Server to a Front End pool</span></span>
+
+1.  <span data-ttu-id="59228-109">Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="59228-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="59228-110">В построителе топологии в дереве консоли разверните узел с именем сайта, для которого нужно определить пул переднего плана.</span><span class="sxs-lookup"><span data-stu-id="59228-110">In Topology Builder, in the console tree, expand the name of the site for which you want to define a Front End pool.</span></span>
+
+3.  <span data-ttu-id="59228-111">В дереве консоли щелкните правой кнопкой мыши тип пула переднего плана, а затем выберите команду **создать пул переднего плана..**.</span><span class="sxs-lookup"><span data-stu-id="59228-111">In the console tree, right-click the type of Front End pool you want, and then click **New Front End pool..**.</span></span>
+
+4.  <span data-ttu-id="59228-112">Перемещайтесь по мастеру **Определение нового пула переднего плана**, пока не откроете страницу **Выбор ролей серверов с совмещенным расположением**.</span><span class="sxs-lookup"><span data-stu-id="59228-112">Navigate through the **Define New Front End Pool** wizard until you reach the **Select collocated server roles** page.</span></span>
+
+5.  <span data-ttu-id="59228-113">В разделе Выбор размещенных **ролей сервера**установите флажок размещенный **сервер исправлений**.</span><span class="sxs-lookup"><span data-stu-id="59228-113">In **Select collocated server roles**, check the option **Collocate Mediation Server**.</span></span>
     
-    > [!NOTE]  
-    > <ul>    
-    > <li><p>Если типом выбранного переднего плана является Enterprise Edition, компонент посредник будет установлен на все переднего плана данного переднего плана.</p></li>    
-    > <li><p>Параметр <strong>Пул узла следующего перехода</strong>, используемый посредник, будет задан как переднего плана, в котором совмещается сам посредник.</p></li>    
-    > <li><p><strong>Пограничный пул</strong>, используемый посредник, будет тем же пул, связанным с переднего плана, с которым совмещен посредник.</p></li>
-    > </ul>
-
-
-6.  Нажмите **По умолчанию** для использования этого переднего плана с целью маршрутизации вызовов из Microsoft Office Communications Server 2007 R2 в ТСОП.
-
-7.  Нажмите **Готово**, если один или несколько одноранговых узлов уже сопоставлены с переднего плана.
+    <div>
     
+
     > [!NOTE]  
-    > Перед тем как приступать к следующему этапу развертывания корпоративной голосовой связи, убедитесь в том, что пул посредник (то есть, переднего плана с совмещенным компонентом посредник) использует указанные вами полные доменные имена.
+    > <UL>
+    > <LI>
+    > <P><span data-ttu-id="59228-114">Если вы выбрали тип переднего плана для выпуска Enterprise Edition, серверный компонент будет установлен на всех серверах переднего плана в пуле внешних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="59228-114">If the type of Front End pool you selected is the Enterprise Edition, then the Mediation Server component will be installed on all the Front End Servers of that Front End pool.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="59228-115"><STRONG>Пул следующего прыжка</STRONG> , используемый сервером, будет являться пулом переднего плана, на котором размещен сервер для исправлений.</span><span class="sxs-lookup"><span data-stu-id="59228-115">The <STRONG>Next hop pool</STRONG> used by the Mediation Server will be the Front End pool where the Mediation Server is collocated on.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="59228-116"><STRONG>Пул пограничного</STRONG> сервера, используемый сервером обновлений, будет таким же, как и пул переднего плана, связанный с пулом интерфейсов, на котором размещен сервер исправлений.</span><span class="sxs-lookup"><span data-stu-id="59228-116">The <STRONG>Edge pool</STRONG> used by the Mediation Server will be the same Edge pool associated with the Front End pool where the Mediation Server is collocated on.</span></span></P></LI></UL>
 
-8.  Затем выполните процедуры в разделе [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md) руководства по развертыванию для добавления посредник в топологию до перехода к следующему шагу, который будет заключаться в изменении портов прослушивания на посредник (если необходимо). Следует публиковать топологию при каждом изменении ее с помощью топологий.
+    
+    </div>
 
-## Определение отдельного посредник
+6.  <span data-ttu-id="59228-117">Нажмите кнопку **по умолчанию** , чтобы использовать этот пул переднего плана для маршрутизации звонков из Microsoft Office Communications Server 2007 R2 в КТСОП.</span><span class="sxs-lookup"><span data-stu-id="59228-117">Click **Make Default** to use this Front End pool to route calls from Microsoft Office Communications Server 2007 R2 to the PSTN.</span></span>
 
-Выполните действия, приведенные в этом разделе, для использования топологий для определения отдельного посредник или пула на на сайте, где еще не развертывалась корпоративной голосовой связи.
+7.  <span data-ttu-id="59228-118">Нажмите кнопку **Готово** , после того как вы завершите связывание одного или нескольких одноранговых элементов с пулом переднего плана.</span><span class="sxs-lookup"><span data-stu-id="59228-118">Click **Finish** when you are finished associating one or more peers to the Front End pool.</span></span>
+    
+    <div>
+    
 
-Если уже развернуты Серверы-посредники, совмещенные с переднего плана на сайте, можно пропустить данный раздел и ознакомиться с разделом [Установка файлов для сервера-посредника в Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), прежде чем перейти к разделу [Конфигурация магистралей в Lync Server 2013](lync-server-2013-configuring-trunks.md).
+    > [!NOTE]  
+    > <span data-ttu-id="59228-119">Прежде чем перейти к следующему этапу в процессе развертывания Enterprise Voice, убедитесь в том, что в пуле сервера-посредника (то есть в пуле переднего плана с развернутым компонентом сервера-посредником) используются указанные полные доменные имена.</span><span class="sxs-lookup"><span data-stu-id="59228-119">Before you proceed to the next step in the Enterprise Voice deployment process, make sure that the Mediation Server pool (i.e. Front End pool with the Mediation Server component collocated) is using the FQDNs that you specified.</span></span>
+
+    
+    </div>
+
+8.  <span data-ttu-id="59228-120">Затем выполните действия, описанные в статье [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md) в руководстве по развертыванию, чтобы добавить сервер исправлений в топологию, прежде чем переходить к следующему действию при необходимости изменения портов прослушивания на сервере обновлений.</span><span class="sxs-lookup"><span data-stu-id="59228-120">Next, follow the procedures in [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md) in the Deployment Guide documentation to add the Mediation Server to your topology before proceeding to the next step of modifying the listening ports of the Mediation Server if needed.</span></span> <span data-ttu-id="59228-121">Вы должны публиковать топологию каждый раз, когда вы используете Topology Builder, чтобы определить или изменить топологию.</span><span class="sxs-lookup"><span data-stu-id="59228-121">You must publish your topology each time you use Topology Builder to define or modify your topology.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="define-stand-alone-mediation-server"></a><span data-ttu-id="59228-122">Определение сервера изолированных исправлений</span><span class="sxs-lookup"><span data-stu-id="59228-122">Define stand-alone Mediation Server</span></span>
+
+<span data-ttu-id="59228-123">Выполните действия, описанные в этом разделе, чтобы определить изолированный сервер или пул, на котором не развернута Корпоративная работа с помощью Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="59228-123">Follow the steps in this topic to use Topology Builder to define a stand-alone Mediation Server or pool at a site where Enterprise Voice has not been previously deployed.</span></span>
+
+<span data-ttu-id="59228-124">Если вы уже развернули серверы исправлений, размещенные в пулах переднего плана на этом сайте, вы можете пропустить этот раздел и [установить сервер исправлений для сервера обновлений в Lync server 2013](lync-server-2013-install-the-files-for-mediation-server.md) , прежде чем переходить к [настройке каналов в Lync Server 2013](lync-server-2013-configuring-trunks.md).</span><span class="sxs-lookup"><span data-stu-id="59228-124">If you already deployed Mediation Servers collocated to Front End pools at this site, you can skip this section and [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) before proceeding to [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> В данном разделе предполагается, что уже настроено не менее одного переднего плана, как описано в разделе <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Определение и настройка пула переднего плана или сервера Standard Edition в Lync Server 2013</a> и <a href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</a> документации по развертыванию.
+> <span data-ttu-id="59228-125">В этом разделе предполагается, что вы уже настроили по крайней мере один пул переднего плана, как описано в статье <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Определение и Настройка внешнего пула и сервера Standard Edition в Lync server 2013</A> и <A href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</A> в руководстве по развертыванию содержатся.</span><span class="sxs-lookup"><span data-stu-id="59228-125">This section assumes that you have already setup at least one Front End pool, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> and <A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A> in the Deployment Guide documentation.</span></span>
 
-## Добавление сервера-посредника
 
-1.  Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Построитель топологий Lync Server**.
 
-2.  В дереве консоли топологий разверните имя сайта, для которого следует определить посредник.
+</div>
 
-3.  В дереве консоли нажмите правой кнопкой мыши узел **Пулы посредников** и выберите **серверов-посредников**.
+<div>
 
-4.  В диалоговом окне **Определение нового пула-посредника** введите полное доменное имя пула посредник.
+## <a name="to-add-a-mediation-server"></a><span data-ttu-id="59228-126">Добавление сервера-посредника</span><span class="sxs-lookup"><span data-stu-id="59228-126">To Add a Mediation Server</span></span>
 
-5.  Затем выполните одно из следующих действий.
+1.  <span data-ttu-id="59228-127">Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="59228-127">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="59228-128">В построителе топологии в дереве консоли разверните узел с именем сайта, для которого нужно определить сервер-посредник.</span><span class="sxs-lookup"><span data-stu-id="59228-128">In Topology Builder, in the console tree, expand the name of the site for which you want to define a Mediation Server.</span></span>
+
+3.  <span data-ttu-id="59228-129">В дереве консоли щелкните правой кнопкой мыши узел **Пулы** ресурсов и выберите пункт **пул серверных обновлений**.</span><span class="sxs-lookup"><span data-stu-id="59228-129">In the console tree, right-click the **Mediation pools** node, and then click **Mediation Server pool**.</span></span>
+
+4.  <span data-ttu-id="59228-130">В разделе **Определение нового пула исправлений**введите полное доменное имя пула серверов обновлений (FQDN).</span><span class="sxs-lookup"><span data-stu-id="59228-130">In **Define New Mediation Pool**, type the Mediation Server pool fully qualified domain name (FQDN).</span></span>
+
+5.  <span data-ttu-id="59228-131">Затем выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="59228-131">Next, do one of the following:</span></span>
     
-      - При необходимости развертывания нескольких Серверы-посредники в пуле для предоставления высокой доступности выберите **Пул из нескольких компьютеров**.
+      - <span data-ttu-id="59228-132">Если вы хотите развернуть несколько серверов обновлений в пуле для обеспечения высокой доступности, выберите пункт **несколько пулов компьютеров**.</span><span class="sxs-lookup"><span data-stu-id="59228-132">If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Для поддержки пулов посредник с несколькими Серверы-посредники необходимо развернуть балансировку нагрузки DNS. Подробные сведения см. в разделе &quot;Использование балансировки нагрузки DNS в пулах посредник&quot; главы <a href="lync-server-2013-dns-load-balancing.md">Балансировка нагрузки на DNS</a> в документации по планированию.    
-      - Если вы хотите развернуть только один посредник в пуле, так как высокая доступность не требуется, выберите пункт **Пул на одном компьютере** и пропустите следующий шаг.
+        > <span data-ttu-id="59228-133">Необходимо развернуть балансировку нагрузки DNS для пулов серверов с несколькими серверами-исправлений.</span><span class="sxs-lookup"><span data-stu-id="59228-133">You must deploy DNS load balancing to support Mediation Server pools that have multiple Mediation Servers.</span></span> <span data-ttu-id="59228-134">Дополнительные сведения можно найти в разделе Использование балансировки нагрузки DNS для пулов серверов исправлений <A href="lync-server-2013-dns-load-balancing.md">в средстве балансировки нагрузки DNS в системе Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="59228-134">For details, see the Using DNS Load Balancing on Mediation Server Pools section of <A href="lync-server-2013-dns-load-balancing.md">DNS load balancing in Lync Server 2013</A> in the Planning documentation.</span></span>
 
-6.  Если на предыдущем шаге вы выбрали вариант **Пул на нескольких компьютерах** , в разделе **Определение компьютеров в этом пуле** щелкните поле **Полное доменное имя компьютера** , введите полное доменное имя каждого сервера в пуле и нажмите кнопку **Добавить** . Повторите это действие для всех Серверы-посредники, которые нужно добавить в пул. Определив все компьютеры в пуле, нажмите кнопку **Далее** .
-
-7.  На странице **Выберите пул следующих прыжков** щелкните поле **Пул следующих прыжков** , выберите полное доменное имя интерфейсного пула, который будет использовать этот пул посредник, и нажмите кнопку **Далее** .
-
-8.  На странице **Выбор пограничного сервера** выполните одно из следующих действий.
+        
+        </div>
     
-      - Если вы хотите предоставить возможность связи с ТСОП внешним пользователям, для которых включена поддержка корпоративной голосовой связи, в списке **Выберите пограничный пул, используемый этим сервером-посредником** выберите полное доменное имя пула пограничного сервера, который будет использовать этот пул посредник для предоставления связи с ТСОП внешним пользователям, и нажмите кнопку **Далее** .
+      - <span data-ttu-id="59228-135">Если вы хотите развернуть только один сервер-посредник в пуле, так как вам не требуется высокая доступность, выберите **один пул компьютеров**.</span><span class="sxs-lookup"><span data-stu-id="59228-135">If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**.</span></span> <span data-ttu-id="59228-136">Пропустите описанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="59228-136">Skip the following step.</span></span>
+
+6.  <span data-ttu-id="59228-137">If you selected **Multiple computer pool** in the previous step, on the **Define the computers in this pool** item, click **Computer FQDN**, type the FQDN of each server in the pool, and then click **Add**.</span><span class="sxs-lookup"><span data-stu-id="59228-137">If you selected **Multiple computer pool** in the previous step, on the **Define the computers in this pool** item, click **Computer FQDN**, type the FQDN of each server in the pool, and then click **Add**.</span></span> <span data-ttu-id="59228-138">Повторите этот шаг для всех других серверов, которые вы хотите добавить в пул.</span><span class="sxs-lookup"><span data-stu-id="59228-138">Repeat this step for all other Mediation Servers that you want to add to the pool.</span></span> <span data-ttu-id="59228-139">When you have defined all the computers in the pool, click **Next**.</span><span class="sxs-lookup"><span data-stu-id="59228-139">When you have defined all the computers in the pool, click **Next**.</span></span>
+
+7.  <span data-ttu-id="59228-140">На странице **Выбор следующего прыжка** щелкните **пул очередного прыжка**, выберите полное доменное имя пула, который будет использоваться этим пулом серверов исправлений, и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="59228-140">On the **Select the next hop** page, click **Next hop pool**, click the FQDN of the Front End pool that will use this Mediation Server pool, and then click **Next**.</span></span>
+
+8.  <span data-ttu-id="59228-141">На странице **Выбор пограничного сервера** выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="59228-141">On the **Select an Edge Server** page, do one of the following:</span></span>
     
-      - Если вы не планируете предоставлять возможности корпоративной голосовой связи внешним пользователям или не хотите обеспечивать возможность связи с ТСОП для пользователей, находящихся за пределами внутренней сети, нажмите кнопку **Далее** .
-
-9.  Затем выполните процедуры, приведенные в разделе [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md) документации по развертыванию, чтобы добавить сервер-посредник в топологию. Каждый раз когда вы используете построитель топологий для создания или изменения топологии, вам нужно опубликовывать топологию, чтобы данные можно было использовать для установки файлов для серверов Lync Server. Далее перейдите к следующим этапам, чтобы изменить прослушивающие порты на сервере-посреднике, если это необходимо.
-
-## Определение портов прослушивания посредник
-
-Выполните действия, приведенные в этом разделе, чтобы использовать топологий для определения портов прослушивания, по которым посредник или пул будут принимать входящие подключения от однорангового шлюза.
-
-## Изменение портов прослушивания посредник
-
-1.  Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Построитель топологий Lync Server**.
-
-2.  В дереве консоли топологий разверните узел **Пулы посредников** и нажмите правой кнопкой мыши ранее созданный посредник.
-
-3.  По умолчанию на сервере-посреднике используются прослушивающие SIP-порты 5070 для трафика TLS с сервера Lync Server и 5067 для трафика TLS из одноранговых узлов (шлюзов, УАТС и пограничных контроллеров сеансов). TCP-порт по умолчанию отключен. Необходимо включить TCP-порт, если имеются шлюзы, не поддерживающие TLS.
-
-4.  Укажите нужный диапазон портов прослушивания TLS или TCP, по которому посредник будет принимать входящие подключения от шлюзов ТСОП.
+      - <span data-ttu-id="59228-142">Если вы хотите обеспечить подключение к сети PSTN для внешних пользователей, для которых разрешено использование корпоративной голосовой связи, в разделе **Выбор пула EDGE, используемого этим сервером исправлений**, выберите полное доменное имя пула пограничного сервера, который будет использоваться этим пулом серверов, для предоставления возможности подключения к сети PSTN внешние пользователи и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="59228-142">If you want to provide PSTN connectivity to external users enabled for Enterprise Voice, under **Select Edge Pool used by this Mediation Server**, click the FQDN of the Edge Server pool that will use this Mediation Server pool to provide PSTN connectivity to those external users, and then click **Next**.</span></span>
     
+      - <span data-ttu-id="59228-143">Если вы не планируете включать внешних пользователей для корпоративной голосовой связи или не хотите предоставлять доступ к КТСОП для пользователей за пределами внутренней сети, нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="59228-143">If you do not plan to enable external users for Enterprise Voice, or if you do not want to provide PSTN connectivity to users when they are outside the internal network, click **Next**.</span></span>
+
+9.  <span data-ttu-id="59228-144">Затем выполните действия, описанные в разделе [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md) в документации по развертыванию, чтобы добавить сервер исправлений в топологию.</span><span class="sxs-lookup"><span data-stu-id="59228-144">Next, follow the procedures in [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md) in the Deployment documentation to add the Mediation Server to the topology.</span></span> <span data-ttu-id="59228-145">Вы должны публиковать топологию каждый раз, когда используется построитель топологии для создания или изменения топологии, чтобы эти данные можно было использовать для установки файлов для серверов с Lync Server.</span><span class="sxs-lookup"><span data-stu-id="59228-145">You must publish your topology each time you use Topology Builder to build or modify your topology so that the data can be used to install the files for servers that are running Lync Server.</span></span> <span data-ttu-id="59228-146">Затем перейдите к следующим действиям, чтобы при необходимости изменить порты прослушивания на сервере обновлений.</span><span class="sxs-lookup"><span data-stu-id="59228-146">Then continue to the next steps to modify the listening ports on the Mediation Server, if necessary.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="define-the-mediation-server-listening-ports"></a><span data-ttu-id="59228-147">Определение Прослушивающихх портов сервера</span><span class="sxs-lookup"><span data-stu-id="59228-147">Define the Mediation Server Listening Ports</span></span>
+
+<span data-ttu-id="59228-148">Выполните действия, описанные в этом разделе, чтобы определить порты прослушивания сервер или группа, которые будут получать входящие соединения от кэширующего узла шлюза.</span><span class="sxs-lookup"><span data-stu-id="59228-148">Follow the steps in this topic to use Topology Builder to define the listening ports a Mediation Server or pool will accept incoming connections from a gateway peer.</span></span>
+
+<div>
+
+## <a name="to-modify-the-mediation-server-listening-ports"></a><span data-ttu-id="59228-149">Изменение портов для прослушивания сервера исправлений</span><span class="sxs-lookup"><span data-stu-id="59228-149">To Modify the Mediation Server Listening Ports</span></span>
+
+1.  <span data-ttu-id="59228-150">Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="59228-150">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="59228-151">В построителе топологии в дереве консоли разверните узел **Пулы исправлений** и щелкните правой кнопкой мыши сервер-посредника, который вы создали ранее.</span><span class="sxs-lookup"><span data-stu-id="59228-151">In Topology Builder, in the console tree, expand the **Mediation pools** node, and right-click the Mediation Server previously created.</span></span>
+
+3.  <span data-ttu-id="59228-152">По умолчанию порты для прослушивания SIP на сервере-посреднике — это 5070 для трафика TLS из Lync Server, 5067 для TLS-трафика от одноранговых серверов (шлюзы, Пбксес или SBCs).</span><span class="sxs-lookup"><span data-stu-id="59228-152">By default, the SIP listening ports on the Mediation Server are 5070 for TLS traffic from Lync Server, 5067 for TLS traffic from peers (gateways, PBXes, or SBCs).</span></span> <span data-ttu-id="59228-153">TCP-порт по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="59228-153">TCP port is disabled by default.</span></span> <span data-ttu-id="59228-154">Необходимо включить TCP-порт, если имеются шлюзы, не поддерживающие TLS.</span><span class="sxs-lookup"><span data-stu-id="59228-154">You must enable TCP port if you have gateways that do not support TLS.</span></span>
+
+4.  <span data-ttu-id="59228-155">Укажите требуемый диапазон портов для прослушивания TLS или TCP. сервер исправлений будет принимать входящие подключения от шлюзов PSTN.</span><span class="sxs-lookup"><span data-stu-id="59228-155">Specify the desired TLS or TCP listening port range the Mediation Server will accept incoming connections from PSTN gateways.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Ввод диапазона портов TCP не является обязательным, если не установлен флажок <strong>Включить порт TCP</strong> . Эта запись не является обязательной.
+    > <span data-ttu-id="59228-156">Ввод диапазона портов TCP не обязателен, если не установлен флажок <STRONG>Включить порт TCP</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="59228-156">Entering a TCP port range is not required if <STRONG>Enable TCP port</STRONG> is not checked.</span></span> <span data-ttu-id="59228-157">Это настройка не обязательна.</span><span class="sxs-lookup"><span data-stu-id="59228-157">This setting is optional.</span></span>
 
-Далее ознакомьтесь с [Определение шлюза в построителе топологий в Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) и установите файлы для каждого посредник в пуле с помощью указанных в разделе [Установка файлов для сервера-посредника в Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) процедур.
+    
+    </div>
+
+<span data-ttu-id="59228-158">Затем [Определите шлюз в построителе топологии в Lync server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) и установите файлы на каждый сервер-посредник в пуле, выполнив действия, описанные в разделе [Установка сервера обновлений файлов для исправлений в Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md).</span><span class="sxs-lookup"><span data-stu-id="59228-158">Next, [Define a gateway in Topology Builder in Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) and install the files on each Mediation Server in the pool by following the procedures in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md).</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

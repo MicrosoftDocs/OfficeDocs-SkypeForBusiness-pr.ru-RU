@@ -1,121 +1,190 @@
-﻿---
-title: 'Lync Server 2013: создание или изменение диапазона неназначенных номеров'
-TOCTitle: Создание или изменение диапазона неназначенных номеров
-ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412748(v=OCS.15)
-ms:contentKeyID: 49310704
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: создание или изменение неназначенного диапазона номеров'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify an unassigned number range
+ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412748(v=OCS.15)
+ms:contentKeyID: 48185013
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 88c24e1f76e6c07e1a5e32b075aec6aa7de23ea1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834778"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание или изменение диапазона неназначенных номеров в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a><span data-ttu-id="0958d-102">Создание и изменение неназначенного диапазона номеров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0958d-102">Create or modify an unassigned number range in Lync Server 2013</span></span>
 
-Используйте одну из следующих процедур для настройки диапазонов неназначенных телефонных номеров для "Объявление".
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0958d-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="0958d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="0958d-104">Используйте одну из описанных ниже процедур для настройки диапазонов номеров, неназначенных для приложения извещения.</span><span class="sxs-lookup"><span data-stu-id="0958d-104">Use one of the following procedures to configure unassigned number ranges for the Announcement application.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Перед настройкой таблицы неназначенных номеров требуется определить оповещения или настроить автосекретарь единой системы обмена сообщениями Exchange.
+> <span data-ttu-id="0958d-105">Перед настройкой таблицы неназначенные номера необходимо предварительно определить одно или несколько объявлений или настроить автосекретарь единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="0958d-105">Before you configure the unassigned number table, you must have already defined one or more announcements or set up an Exchange Unified Messaging (UM) Auto Attendant.</span></span>
 
-## Использование управления Lync Server для настройки неназначенных телефонных номеров
 
-1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  В левой панели навигации щелкните **Функции голосовых служб** , а затем выберите **Неназначенный номер** .
+<div>
 
-4.  На странице **Неназначенный номер** выполните одно из следующих действий:
+## <a name="to-use-lync-server-control-panel-to-configure-unassigned-phone-numbers"></a><span data-ttu-id="0958d-106">Настройка неназначенных телефонных номеров с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="0958d-106">To use Lync Server Control Panel to configure unassigned phone numbers</span></span>
+
+1.  <span data-ttu-id="0958d-107">Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="0958d-107">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="0958d-108">Дополнительные сведения можно найти [в разделе Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="0958d-108">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="0958d-109">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0958d-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0958d-110">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0958d-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="0958d-111">В левой области навигации щелкните **Функции голосовой связи**, затем **Неназначенный номер**.</span><span class="sxs-lookup"><span data-stu-id="0958d-111">In the left navigation bar, click **Voice Features**, and then click **Unassigned Number**.</span></span>
+
+4.  <span data-ttu-id="0958d-112">На странице **Неназначенный номер** выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="0958d-112">On the **Unassigned Number** page, do one of the following:</span></span>
     
-      - Чтобы создать новый диапазон номеров, выберите **Создать** . В поле **Имя** введите имя для этого диапазона номеров.
+      - <span data-ttu-id="0958d-p103">Для создания нового диапазона номеров щелкните **Создать**. В поле **Имя** введите идентификационное имя этого диапазона номеров.</span><span class="sxs-lookup"><span data-stu-id="0958d-p103">To create a new number range, click **New**. In **Name**, type an identifying name for this range of numbers.</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > После записи нового диапазона неназначенных номеров в базе данных вы не сможете изменить имя диапазона.    
-      - Чтобы изменить существующий диапазон номеров, введите его имя целиком (или же его часть) в поле поиска. В списке найденных диапазонов номеров щелкните нужное имя, выберите **Изменить** , аз щелкните **Подробнее** .
+        > <span data-ttu-id="0958d-115">После записи нового диапазона неназначенных номеров в базе данных вы не сможете изменить имя диапазона.</span><span class="sxs-lookup"><span data-stu-id="0958d-115">After you commit the new unassigned number range to the database, you cannot change this name.</span></span>
 
-5.  В первом поле **Диапазон номеров** введите первый номер диапазона, а во втором поле **Диапазон номеров** введите последний номер диапазона.
+        
+        </div>
     
+      - <span data-ttu-id="0958d-p104">Для изменения существующего диапазона номеров полностью или частично введите его имя в поле поиска. В сформированном списке найденных диапазонов номеров щелкните требуемое имя и выберите **Изменить**, затем **Подробнее**.</span><span class="sxs-lookup"><span data-stu-id="0958d-p104">To modify an existing number range, type all or part of the name of the number range in the search field. In the resulting list of number ranges, click the name you want, click **Edit**, and then click **Show details**.</span></span>
+
+5.  <span data-ttu-id="0958d-118">В первом поле **Диапазон номеров** введите начальный номер диапазона, а во втором поле **Диапазон номеров** введите его конечный номер.</span><span class="sxs-lookup"><span data-stu-id="0958d-118">In the first **Number range** field, type the beginning number of the range, and in the second **Number range** field, type the ending number of the range.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > <ul>    
-    > <li><p>Первый номер диапазона должен быть меньше или равен последнему номеру диапазона.</p></li>    
-    > <li><p>Если первый номер или последний номер диапазона содержит добавочный номер, то оба номера (первый и последний) должны содержать добавочный номер. Кроме того, добавочный номер должен быть одинаковым для первого и последнего номера диапазона.</p></li>    
-    > <li><p>Номер должен соответствовать регулярному выражению (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?. Это означает, что номер должен начинаться со строки &quot;tel:&quot; (если эта строка не указана, она будет добавлена автоматически), знака &quot;плюс&quot; (+) и цифры от 1 до 9. Номер телефона может быть длиной до 17 цифр, и в конце может быть указан добавочный номер в формате &quot;;ext=добавочный_номер&quot;.</p></li>
-    > </ul>
-
-
-6.  В поле **Служба оповещения** выполните одно из следующих действий:
-    
-      - Щелкните **Оповещение** .
-    
-      - Щелкните **Единая система обмена сообщениями Exchange** .
-
-7.  Если на предыдущем шаге вы выбрали **Оповещение** , выполните следующие действия:
-    
-    1.  В **Полное доменное имя конечного сервера** щелкните **Выбор** , щелкните ИД службы приложения, запускающей приложение "Объявление", которое будет обрабатывать входящие вызовы для этого диапазона неназначенных номеров, и затем нажмите кнопку **ОК** .
-    
-    2.  В списке **Оповещение** выберите оповещение, воспроизводимое для этого диапазона неназначенных номеров.
-
-8.  Если на предыдущем шаге вы выбрали **Единая система обмена сообщениями Exchange** , то в **Номер автосекретаря** щелкните **Выбор** , выберите номер телефона, используемый для этого диапазона неназначенных номеров, и затем нажмите кнопку **ОК** .
-
-9.  Нажмите кнопку **ОК** .
-
-10. Убедитесь, что на странице **Неназначенный номер** диапазоны неназначенных номеров расположены в требуемом порядке. Чтобы изменить расположение диапазона в таблице, выберите одно или несколько смежных имен в списке диапазонов, а затем щелкните стрелки вверх или вниз.
-    
-
-    > [!TIP]
-    > Lync Server просматривает таблицу неназначенных номеров сверху вниз и использует первый диапазон, который соответствует неназначенному номеру. При наличии перекрывающихся диапазонов и одного диапазона, который задает последнее возможное действие, убедитесь, что этот диапазон находится внизу списка.
-
-
-
-11. Если диапазоны неназначенных номеров расположены в требуемом порядке, щелкните **Фиксировать все** .
-
-## Использование Windows PowerShell для настройки неназначенных телефонных номеров
-
-1.  Войдите на компьютер, где установлена командная консоль Lync Server, как член группы RTCUniversalServerAdmins или имея необходимые права пользователя, описанные в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
-
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
-
-3.  Используйте **New-CsUnassignedNumber** для создания нового диапазона неназначенных номеров. Используйте **Set-CsUnassignedNumber** для изменения существующего диапазона неназначенных номеров.
-    
-
-    > [!TIP]
-    > Если имеются перекрывающиеся диапазоны и требуется, чтобы эти диапазоны применялись в определенном порядке, включите параметр Priority. В этом случае при звонке будет применяться диапазон, обладающий наибольшим приоритетом.
+    > <UL>
+    > <LI>
+    > <P><span data-ttu-id="0958d-119">Первый номер диапазона должен быть меньше или равен последнему номеру диапазона.</span><span class="sxs-lookup"><span data-stu-id="0958d-119">The beginning number of the range must be less than or equal to the ending number of the range.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="0958d-120">Если первый номер или последний номер диапазона содержит добавочный номер, то оба номера (первый и последний) должны содержать добавочный номер. Кроме того, добавочный номер должен быть одинаковым для первого и последнего номера диапазона.</span><span class="sxs-lookup"><span data-stu-id="0958d-120">If the beginning number of the range or the ending number of the range includes an extension number, both the beginning number and the ending number of the range must include an extension, and the extension number must be the same for both the beginning number and the ending number.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="0958d-121">Номер должен соответствовать регулярному выражению (Tel:) ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?.</span><span class="sxs-lookup"><span data-stu-id="0958d-121">The number must match the regular expression (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?.</span></span> <span data-ttu-id="0958d-122">Это означает, что номер должен начинаться со строки "tel:" (если эта строка не указана, она будет добавлена автоматически), знака "плюс" (+) и цифры от 1 до 9.</span><span class="sxs-lookup"><span data-stu-id="0958d-122">This means the number may begin with the string tel: (if you don’t specify that string, it will be automatically added for you), a plus sign (+), and a digit 1 through 9.</span></span> <span data-ttu-id="0958d-123">Номер телефона может быть длиной до 17 цифр, и в конце может быть указан добавочный номер в формате ";ext=добавочный_номер".</span><span class="sxs-lookup"><span data-stu-id="0958d-123">The phone number can be up to 17 digits and may be followed by an extension in the format ;ext= followed by the extension number.</span></span></P></LI></UL>
 
     
-    В командной строке выполните один из следующих действий:
+    </div>
+
+6.  <span data-ttu-id="0958d-124">В поле **Служба оповещения** выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="0958d-124">In **Announcement service**, do one of the following:</span></span>
     
-      - Чтобы создать диапазон номеров для службы оповещения, выполните:
+      - <span data-ttu-id="0958d-125">Щелкните **Оповещение**.</span><span class="sxs-lookup"><span data-stu-id="0958d-125">Click **Announcement**.</span></span>
+    
+      - <span data-ttu-id="0958d-126">Щелкните **Единая система обмена сообщениями Exchange**.</span><span class="sxs-lookup"><span data-stu-id="0958d-126">Click **Exchange UM**.</span></span>
+
+7.  <span data-ttu-id="0958d-127">Если на предыдущем шаге выбран вариант **Оповещение**, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0958d-127">If, in the previous step, you clicked **Announcement**, do the following:</span></span>
+    
+    1.  <span data-ttu-id="0958d-128">В разделе **полное доменное имя целевого сервера**нажмите кнопку **выбрать**, выберите идентификатор службы приложения, на котором будет выполняться объявление для обработки входящих звонков с этим диапазоном неназначенных номеров, и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="0958d-128">Under **FQDN of destination server**, click **Select**, click the service ID of the Application service that runs the Announcement application that will handle incoming calls to this range of unassigned numbers, and then click **OK**.</span></span>
+    
+    2.  <span data-ttu-id="0958d-129">В разделе **Оповещение** выберите оповещение, которое требуется воспроизводить для даннго диапазона неназначенных номеров.</span><span class="sxs-lookup"><span data-stu-id="0958d-129">In **Announcement**, click the announcement to be played for this range of unassigned numbers.</span></span>
+
+8.  <span data-ttu-id="0958d-130">Если на предыдущем шаге выбран вариант **Единая система обмена сообщениями Exchange**, в разделе **Номер автосекретаря** щелкните **Выбрать**, выберите номер телефона для данного диапазона неназначенных номеров, затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="0958d-130">If, in the previous step, you clicked **Exchange UM**, under **Auto Attendant phone number**, click **Select**, click the phone number to be used for this range of unassigned numbers, and then click **OK**.</span></span>
+
+9.  <span data-ttu-id="0958d-131">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="0958d-131">Click **OK**.</span></span>
+
+10. <span data-ttu-id="0958d-p106">Убедитесь в том, что на странице **Неназначенный номер** диапазоны неназначенных номеров расположены в требуемом порядке. Для изменения места диапазона в таблице выберите одно или несколько смежных имен в списке диапазонов, затем щелкните стрелку вверх или вниз.</span><span class="sxs-lookup"><span data-stu-id="0958d-p106">On the **Unassigned Number** page, be sure that the unassigned number ranges are arranged in the order that you want. To change a range's position in the table, click one or more consecutive names in the list of ranges, and then click the up arrow or the down arrow.</span></span>
+    
+    <div>
+    
+
+    > [!TIP]  
+    > <span data-ttu-id="0958d-134">Lync Server ищет в таблице неназначенные номера сверху вниз и использует первый диапазон, который соответствует неназначенному номеру.</span><span class="sxs-lookup"><span data-stu-id="0958d-134">Lync Server searches the unassigned number table from top to bottom and uses the first range that matches the unassigned number.</span></span> <span data-ttu-id="0958d-135">Если при наличии перекрывающихся диапазонов один диапазон задает действие, которое служит последним средством, убедитесь в том, что этот диапазон находится внизу списка.</span><span class="sxs-lookup"><span data-stu-id="0958d-135">If you have overlapping ranges and one range specifies a last resort action, make sure that range is at the bottom of the list.</span></span>
+
+    
+    </div>
+
+11. <span data-ttu-id="0958d-136">Расположив диапазоны неназначенных номеров в требуемом порядке, щелкните **Выбрать все**.</span><span class="sxs-lookup"><span data-stu-id="0958d-136">When you have the unassigned number ranges in the order that you want, click **Commit all**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-to-configure-unassigned-phone-numbers"></a><span data-ttu-id="0958d-137">Использование Windows PowerShell для настройки неназначенных телефонных номеров</span><span class="sxs-lookup"><span data-stu-id="0958d-137">To use Windows PowerShell to configure unassigned phone numbers</span></span>
+
+1.  <span data-ttu-id="0958d-138">Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="0958d-138">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="0958d-139">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="0958d-139">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="0958d-140">Используйте **New-ксунассигнеднумбер** для создания нового неназначенного диапазона номеров.</span><span class="sxs-lookup"><span data-stu-id="0958d-140">Use **New-CsUnassignedNumber** to create a new unassigned number range.</span></span> <span data-ttu-id="0958d-141">С помощью **Set-ксунассигнеднумбер** можно изменить существующий диапазон номеров, отличный от назначенного.</span><span class="sxs-lookup"><span data-stu-id="0958d-141">Use **Set-CsUnassignedNumber** to modify an existing unassigned number range.</span></span>
+    
+    <div>
+    
+
+    > [!TIP]  
+    > <span data-ttu-id="0958d-p109">Если имеются перекрывающиеся диапазоны и требуется, чтобы эти диапазоны применялись в определенном порядке, включите параметр Priority. В этом случае при звонке будет применяться диапазон, обладающий наибольшим приоритетом.</span><span class="sxs-lookup"><span data-stu-id="0958d-p109">If you have overlapping ranges and want the ranges to be applied in a specific order, include the Priority parameter. The range with the highest priority will be applied to the call.</span></span>
+
+    
+    </div>
+    
+    <span data-ttu-id="0958d-144">В командной строке выполните один из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="0958d-144">At the command line, do one of the following:</span></span>
+    
+      - <span data-ttu-id="0958d-145">Чтобы создать диапазон номеров для службы оповещения, выполните:</span><span class="sxs-lookup"><span data-stu-id="0958d-145">To create a number range for an Announcement service, run:</span></span>
         
             New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
     
-      - Или: чтобы создать диапазон номеров для автосекретаря единая система обмена сообщениями Exchange, выполните:
+      - <span data-ttu-id="0958d-146">Или: чтобы создать диапазон номеров для автосекретаря единая система обмена сообщениями Exchange, выполните:</span><span class="sxs-lookup"><span data-stu-id="0958d-146">Or, to create a number range for Exchange UM Auto Attendant, run:</span></span>
         
             New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
     
-    Например:
+    <span data-ttu-id="0958d-147">Например:</span><span class="sxs-lookup"><span data-stu-id="0958d-147">For example:</span></span>
     
         New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
     
-    Или
+    <span data-ttu-id="0958d-148">Или</span><span class="sxs-lookup"><span data-stu-id="0958d-148">Or</span></span>
     
         New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
     
-    В следующем примере показывается, как можно изменить номера в существующем диапазоне неназначенных номеров:
+    <span data-ttu-id="0958d-149">В следующем примере показывается, как можно изменить номера в существующем диапазоне неназначенных номеров:</span><span class="sxs-lookup"><span data-stu-id="0958d-149">The following example shows how to modify the numbers in an existing unassigned number range:</span></span>
     
         Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Удаление диапазона неназначенных портов в Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)  
+## <a name="see-also"></a><span data-ttu-id="0958d-150">См. также</span><span class="sxs-lookup"><span data-stu-id="0958d-150">See Also</span></span>
 
-#### Другие ресурсы
 
-[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
-[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
-[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
+[<span data-ttu-id="0958d-151">Удаление неназначенного диапазона номеров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0958d-151">Delete an unassigned number range in Lync Server 2013</span></span>](lync-server-2013-delete-an-unassigned-number-range.md)  
+
+
+[<span data-ttu-id="0958d-152">New-CsUnassignedNumber</span><span class="sxs-lookup"><span data-stu-id="0958d-152">New-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsUnassignedNumber)  
+[<span data-ttu-id="0958d-153">Set-CsUnassignedNumber</span><span class="sxs-lookup"><span data-stu-id="0958d-153">Set-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsUnassignedNumber)  
+[<span data-ttu-id="0958d-154">Get-CsUnassignedNumber</span><span class="sxs-lookup"><span data-stu-id="0958d-154">Get-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUnassignedNumber)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

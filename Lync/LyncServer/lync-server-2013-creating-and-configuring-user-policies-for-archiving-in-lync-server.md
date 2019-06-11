@@ -1,48 +1,89 @@
-﻿---
-title: Создание и настройка пользовательских политик для архивации в Lync Server
-TOCTitle: Создание и настройка пользовательских политик для архивации в Lync Server
-ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204923(v=OCS.15)
-ms:contentKeyID: 49309878
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Создание и Настройка политик пользователей для архивации в Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating and configuring user policies for Archiving in Lync Server
+ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204923(v=OCS.15)
+ms:contentKeyID: 48184234
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3adccda55d1ae033acf52d64b093e73fe81dad10
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834764"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание и настройка пользовательских политик для архивации в Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-09_
+# <a name="creating-and-configuring-user-policies-for-archiving-in-lync-server-2013"></a><span data-ttu-id="0095f-102">Создание и Настройка политик пользователей для архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0095f-102">Creating and configuring user policies for Archiving in Lync Server 2013</span></span>
 
-Чтобы включить или отключить архивацию для отдельных пользователей, размещенных в Lync Server, вам сначала следует создать политику пользователей и затем применить ее к одному или нескольким пользователям или группам пользователей. Дополнительные сведения о применении политик пользователей к определенным пользователям и группам пользователей см. в разделе [Применение политики архивирования Lync Server к пользователю](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md) документации по развертыванию.
+</div>
 
-Дополнительные сведения о работе политик архивации, включая иерархию для глобальной политики, политик сайтов и политик пользователей см. в разделе [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md) документации по планированию, развертыванию или эксплуатации.
+<div id="mainSection">
 
-> [!NOTE]  
-> Если для своего развертывания вы разрешаете интеграцию с Microsoft Exchange, политики Exchange определяют, включена ли архивация для пользователей, которые размещаются в Exchange 2013, с почтовыми ящиками, помещенными на судебное удержание. Дополнительные сведения см. в разделе <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Настройка политик для архивации при использовании интеграции с Exchange Server</a> документации по развертыванию.<br />Чтобы включить архивацию внутренних и внешних коммуникаций в политиках архивации, вы должны указать все соответствующие параметры конфигураций архивации. Дополнительные сведения см. в разделе <a href="lync-server-2013-configuring-archiving-options.md">Настройка параметров архивации</a> документации по развертыванию.
+<div id="mainBody">
 
-## Настройка политики архивации для пользователей, размещенных на Lync Server
+<span> </span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
+<span data-ttu-id="0095f-103">_**Тема последнего изменения:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="0095f-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server 2013. Дополнительные сведения о различных методах запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="0095f-104">Чтобы включить или отключить архивацию для конкретных пользователей, размещенных на Lync Server, необходимо сначала создать политику пользователя, а затем применить ее к одному или нескольким пользователям или группам пользователей.</span><span class="sxs-lookup"><span data-stu-id="0095f-104">To enable or disable Archiving for specific users homed on Lync Server, you must first create a user policy and then apply the policy to one or more users or user groups.</span></span> <span data-ttu-id="0095f-105">Дополнительные сведения о применении политик пользователей к определенным пользователям и группам пользователей можно найти в разделе [применение политики архивации сервера Lync Server для пользователя на Lync server 2013](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0095f-105">For details about applying user policies to specific users and user groups, see [Applying a Lync Server Archiving policy to a user in Lync Server 2013](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md) in the Deployment documentation.</span></span>
 
-3.  На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Политика архивации**.
+<span data-ttu-id="0095f-106">Сведения о том, как работают политики архивации, в том числе иерархия для глобальных политик, сайтов и пользователей, описаны в разделе сведения [о том, как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по развертыванию или в документации по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="0095f-106">For details about how Archiving policies work, including the hierarchy for global, site, and user policies, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, in the Deployment documentation, or in the Operations documentation.</span></span>
 
-4.  Щелкните элемент **New** (Создать) и **User policy** (Политика пользователей).
+<div>
 
-5.  В окне **New Archiving Policy** (Новая политика архивации) выполните следующие действия:
+
+> [!NOTE]
+> <span data-ttu-id="0095f-107">Если вы включили интеграцию Microsoft Exchange для развертывания, политики хранения на месте Exchange определяют, разрешено ли архивирование для пользователей, использующих Exchange 2013, и почтовые ящики, которые помещаются на хранение на месте.</span><span class="sxs-lookup"><span data-stu-id="0095f-107">If you enabled Microsoft Exchange integration for your deployment, Exchange In-Place Hold policies control whether archiving is enabled for the users who are homed on Exchange 2013 and have their mailboxes put on In-Place Hold.</span></span> <span data-ttu-id="0095f-108">Подробности можно найти в разделе <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Настройка политик архивации в Lync server 2013 при использовании интеграции с Exchange Server</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0095f-108">For details, see <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Setting up policies for Archiving in Lync Server 2013 when using Exchange Server integration</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="0095f-109">Перед включением архивации необходимо указать все соответствующие параметры в разделе конфигурации архивации.</span><span class="sxs-lookup"><span data-stu-id="0095f-109">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span> <span data-ttu-id="0095f-110">Подробности можно найти <A href="lync-server-2013-configuring-archiving-options.md">в разделе Настройка параметров архивации в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0095f-110">For details, see <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving options in Lync Server 2013</A> in the Deployment documentation.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-configure-an-archiving-policy-for-users-homed-on-lync-server"></a><span data-ttu-id="0095f-111">Настройка политики архивации для пользователей, которые находятся на сервере Lync Server</span><span class="sxs-lookup"><span data-stu-id="0095f-111">To configure an archiving policy for users homed on Lync Server</span></span>
+
+1.  <span data-ttu-id="0095f-112">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="0095f-112">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="0095f-113">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0095f-113">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="0095f-114">Дополнительные сведения о различных способах запуска панели управления Lync Server 2013 можно найти в разделе [Открытие средства администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0095f-114">For details about the different methods that you can use to start Lync Server 2013 Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="0095f-115">На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Политика архивации**.</span><span class="sxs-lookup"><span data-stu-id="0095f-115">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+
+4.  <span data-ttu-id="0095f-116">Нажмите **Создать** и выберите **Политика пользователя**</span><span class="sxs-lookup"><span data-stu-id="0095f-116">Click **New**, and then click **User policy**.</span></span>
+
+5.  <span data-ttu-id="0095f-117">В области **Создание новой политики архивации** выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="0095f-117">In **New Archiving Policy**, do the following:</span></span>
     
-      - В поле **Name** (Имя) укажите имя политики пользователей.
+      - <span data-ttu-id="0095f-118">В поле **Имя** укажите имя политики пользователей.</span><span class="sxs-lookup"><span data-stu-id="0095f-118">In **Name**, specify the name for the user policy.</span></span>
     
-      - В поле **Description** (Описание) укажите сведения о том, что из себя представляет данная политика пользователей (например, политика пользователей для юридического отдела).
+      - <span data-ttu-id="0095f-119">В поле **Описание** укажите сведения о том, что из себя представляет данная политика пользователей (например, политика пользователей для юридического отдела).</span><span class="sxs-lookup"><span data-stu-id="0095f-119">In **Description**, provide information about what the user policy is (for example, user policy for legal department).</span></span>
     
-      - Чтобы контролировать архивацию внутренних коммуникаций в рамках политики пользователей, установите или снимите флажок **Archive internal communications** (Архивировать внутренние коммуникации).
+      - <span data-ttu-id="0095f-120">Чтобы контролировать архивацию внутренних коммуникаций в рамках политики пользователей, установите или снимите флажок **Архивация внутренних взаимодействий**.</span><span class="sxs-lookup"><span data-stu-id="0095f-120">To control archiving of internal communications for the user policy, select or clear the **Archive internal communications** check box.</span></span>
     
-      - Чтобы контролировать архивацию внешних коммуникаций в рамках политики пользователей, установите или снимите флажок **Archive external communications** (Архивировать внешние коммуникации).
+      - <span data-ttu-id="0095f-121">Чтобы контролировать архивацию внешних коммуникаций в рамках политики пользователей, установите или снимите флажок **Архивация внешних взаимодействий**.</span><span class="sxs-lookup"><span data-stu-id="0095f-121">To control archiving of external communications for the user policy, select or clear the **Archive external communications** check box.</span></span>
 
-6.  Щелкните элемент **Commit** (Исполнить).
+6.  <span data-ttu-id="0095f-122">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="0095f-122">Click **Commit**.</span></span>
 
-Политика пользователей применяется только к тем пользователям, которым вы ее назначили. Дополнительные сведения о применении политики пользователей к отдельным пользователям см. в разделе [Применение политики архивирования Lync Server к пользователю](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md) документации по развертыванию.
+<span data-ttu-id="0095f-123">Политика пользователей применяется только к тем пользователям, которым вы ее назначили.</span><span class="sxs-lookup"><span data-stu-id="0095f-123">A user policy applies only to users to whom you assign the policy.</span></span> <span data-ttu-id="0095f-124">Дополнительные сведения о применении политики пользователей к определенным пользователям можно найти в разделе [применение политики архивации сервера Lync Server для пользователя на Lync server 2013](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0095f-124">For details about applying a user policy to specific users, see [Applying a Lync Server Archiving policy to a user in Lync Server 2013](lync-server-2013-applying-a-lync-server-archiving-policy-to-a-user.md) in the Deployment documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

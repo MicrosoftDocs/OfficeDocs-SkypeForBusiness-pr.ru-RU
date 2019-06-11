@@ -1,41 +1,75 @@
-﻿---
-title: Проблемы с тестом среды
-TOCTitle: Проблемы с тестом среды
-ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205421(v=OCS.15)
-ms:contentKeyID: 49311783
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: проблемы с проверкой среды'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Issues with the environment test
+ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
+ms:contentKeyID: 48185970
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ed158c598b9dc5596df23cb845f0adac4c6fed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833952"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Проблемы с тестом среды
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-21_
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a><span data-ttu-id="a12f2-102">Проблемы, связанные с проверкой среды в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a12f2-102">Issues with the environment test in Lync Server 2013</span></span>
 
-Анализатор соответствия рекомендациям позволяет вам убедиться, что ваша среда системы Lync Server 2013 представляет собой поддерживаемую конфигурацию. В рамках проверки доменных служб Active Directory анализатор соответствия рекомендациям выполняет следующие действия:
+</div>
 
-  - проверяет лес доменных служб Active Directory и подготовку схемы;
+<div id="mainSection">
 
-  - определяет число сайтов и доменов доменных служб Active Directory в развертывании;
+<div id="mainBody">
 
-  - проверяет уровни лесов и доменов;
+<span> </span>
 
-  - проверяет версию контроллера домена;
+<span data-ttu-id="a12f2-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="a12f2-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-  - определяет домен, конфигурацию и контекст именования схемы;
+<span data-ttu-id="a12f2-104">Анализатор соответствия рекомендациям позволяет удостовериться в том, что ваша среда Lync Server 2013 является поддерживаемой конфигурацией.</span><span class="sxs-lookup"><span data-stu-id="a12f2-104">Best Practices Analyzer provides a way for you to verify that your Lync Server 2013 environment is a supported configuration.</span></span> <span data-ttu-id="a12f2-105">В рамках проверки доменных служб Active Directory анализатор соответствия рекомендациям делает следующее:</span><span class="sxs-lookup"><span data-stu-id="a12f2-105">As part of the Active Directory Domain Services check, Best Practices Analyzer does the following:</span></span>
 
-  - определяет число пользователей с включенной поддержкой;
+  - <span data-ttu-id="a12f2-106">Проверка леса доменных служб Active Directory и подготовки схемы.</span><span class="sxs-lookup"><span data-stu-id="a12f2-106">Verifies the Active Directory Domain Services forest and schema preparation.</span></span>
 
-  - проверяет место хранения глобальных параметров доменных служб Active Directory;
+  - <span data-ttu-id="a12f2-107">Определяет количество сайтов и доменов доменных служб Active Directory в развертывании.</span><span class="sxs-lookup"><span data-stu-id="a12f2-107">Identifies the number of Active Directory Domain Services sites and domains in the deployment.</span></span>
 
-  - проверяет точки подключения службы для Lync Server;
+  - <span data-ttu-id="a12f2-108">Проверка уровней леса и домена.</span><span class="sxs-lookup"><span data-stu-id="a12f2-108">Checks the forest and domain levels.</span></span>
 
-  - определяет версию базы данных.
+  - <span data-ttu-id="a12f2-109">Проверяет версию контроллера домена.</span><span class="sxs-lookup"><span data-stu-id="a12f2-109">Checks the domain controller version.</span></span>
 
-## Устранение проблем со средой
+  - <span data-ttu-id="a12f2-110">Определяет контекст именования домена, конфигурации и схемы.</span><span class="sxs-lookup"><span data-stu-id="a12f2-110">Identifies the domain, configuration, and schema naming context.</span></span>
 
-Если тестирование среды выявило неполадки, вероятно, они вызваны проблемами с конфигурацией Active Directory или уровнем программного обеспечения, запущенного на конкретных серверах. Например, если анализатор соответствия рекомендациям обнаруживает в среде контроллеры домена, работающие под управлением Windows Server 2000, он выдает предупреждение, и вам потребуется обновить такие контроллеры до поддерживаемой версии Windows Server.
+  - <span data-ttu-id="a12f2-111">Определяет количество включенных пользователей.</span><span class="sxs-lookup"><span data-stu-id="a12f2-111">Identifies the number of enabled users.</span></span>
+
+  - <span data-ttu-id="a12f2-112">Проверка хранения глобальных параметров доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="a12f2-112">Checks where the global Active Directory Domain Services settings are stored.</span></span>
+
+  - <span data-ttu-id="a12f2-113">Проверка точек соединения службы (Скпс) для Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a12f2-113">Checks for the service connection points (SCPs) for Lync Server.</span></span>
+
+  - <span data-ttu-id="a12f2-114">Определяет версию базы данных.</span><span class="sxs-lookup"><span data-stu-id="a12f2-114">Identifies the database version.</span></span>
+
+<div>
+
+## <a name="resolving-issues-with-the-environment"></a><span data-ttu-id="a12f2-115">Устранение проблем с окружающей средой</span><span class="sxs-lookup"><span data-stu-id="a12f2-115">Resolving Issues with the Environment</span></span>
+
+<span data-ttu-id="a12f2-116">Если при тестировании среды обнаружены проблемы с вашей средой, это может быть вызвано проблемами с конфигурацией Active Directory или уровнем программного обеспечения, запущенного на определенных серверах.</span><span class="sxs-lookup"><span data-stu-id="a12f2-116">If the environment test found problems with your environment, these problems are probably caused by issues with your Active Directory configuration or the level of software running on specific servers.</span></span> <span data-ttu-id="a12f2-117">Например, если анализатор соответствия рекомендациям определяет контроллеры домена в среде под управлением Windows Server 2000, он выдаст предупреждение, и вам потребуется обновить эти контроллеры домена до поддерживаемой версии Windows Server.</span><span class="sxs-lookup"><span data-stu-id="a12f2-117">For example, if Best Practices Analyzer identifies any domain controllers in your environment that are running Windows Server 2000, it will issue a warning and you will need to upgrade those domain controllers to a supported version of Windows Server.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

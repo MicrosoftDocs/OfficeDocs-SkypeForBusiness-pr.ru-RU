@@ -1,144 +1,189 @@
-﻿---
-title: Средство диагностики Lync PreCall
-TOCTitle: Средство диагностики Lync PreCall
-ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn451255(v=OCS.15)
-ms:contentKeyID: 59373653
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: средство диагностики предзвонков для Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync PreCall Diagnostics Tool
+ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
+ms:contentKeyID: 56708404
+ms.date: 11/04/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833926"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Средство диагностики Lync PreCall
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a><span data-ttu-id="e3c99-102">Средство диагностики предзвонков для Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e3c99-102">Lync PreCall Diagnostics Tool in Lync Server 2013</span></span>
 
-Средство диагностики Lync PreCall Diagnostics (PCD) — это клиентское приложение, позволяющее видеть, как текущее состояние сети влияет на качество звука предстоящих звонков по корпоративной голосовой связи.
+</div>
 
-Оно наиболее полезно в ситуациях, когда последний участок сети с высокой долей вероятности является самым слабым (например, на ноутбуках с общедоступной сетью Wi-Fi или у пользователей домашних ПК). PCD создает небольшой поток пакетов, проходящий через последний участок сети. Затем средство анализирует поток пакетов, чтобы оценить влияние дрожания и потерь данных на качество звука, и создает соответствующий отчет. Средство PCD может работать в непрерывном режиме, даже во время звонков. Поток пакетов не оказывает значительного воздействия на пропускную способность.
+<div id="mainSection">
 
-**В последнем выпуске PCD (версия 1.1) содержатся следующие улучшения:**
+<div id="mainBody">
 
-  - Поддержка использования более длинного пароля, который теперь может достигать длины до 127 символов
+<span> </span>
 
-  - Дополнительные виды диагностики для неполадок проверки подлинности при входе
+<span data-ttu-id="e3c99-103">_**Тема последнего изменения:** 2016-11-04_</span><span class="sxs-lookup"><span data-stu-id="e3c99-103">_**Topic Last Modified:** 2016-11-04_</span></span>
 
-  - Улучшенная поддержка гибридных развертываний Lync
+<span data-ttu-id="e3c99-104">Средство диагностики предварительных вызовов Lync (ПКД) — это клиентское приложение, позволяющее узнать, как текущее состояние сети может повлиять на качество звука при предстоящем звонке в корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="e3c99-104">The Lync PreCall Diagnostics Tool (PCD) is a client-based application that allows you to see how the current state of your network might impact the audio quality in an upcoming Enterprise Voice call.</span></span>
 
-  - Обновления в элементе выбора учетных данных
+<span data-ttu-id="e3c99-105">ПКД наиболее полезен в ситуациях, когда последний прыжок сети, скорее всего, является самым слабым (например, при наличии ноутбуков в общедоступной сети Wi-Fi или домашних пользователей).</span><span class="sxs-lookup"><span data-stu-id="e3c99-105">PCD is most useful in situations where the last hop of a network is likely to be the weakest (for example, with laptops on a public WiFi network or home users).</span></span> <span data-ttu-id="e3c99-106">ПКД создает небольшой потоковый пакет, который проходит по этому заключительному этапу сети.</span><span class="sxs-lookup"><span data-stu-id="e3c99-106">PCD creates a small packet stream that traverses this final leg of the network.</span></span> <span data-ttu-id="e3c99-107">Затем средство анализирует поток пакета, чтобы оценить, как нарушение и убытки в этой области могут повлиять на качество связи, а затем предоставляет отчет.</span><span class="sxs-lookup"><span data-stu-id="e3c99-107">The tool then analyzes the packet stream to estimate how the jitter and loss along this leg might impact call quality, and then provides a report.</span></span> <span data-ttu-id="e3c99-108">Вы можете запускать ПКД на клиенте постоянно, даже при помещении звонков.</span><span class="sxs-lookup"><span data-stu-id="e3c99-108">You can run PCD continuously on the client, even while calls are being placed.</span></span> <span data-ttu-id="e3c99-109">Поток пакетов не оказывает существенного воздействия на пропускную способность.</span><span class="sxs-lookup"><span data-stu-id="e3c99-109">The packet stream does not have a significant effect on bandwidth.</span></span>
 
-  - Улучшенная стабильность системы
+<span data-ttu-id="e3c99-110">**Последний выпуск ПКД версии 1,1 включает следующие улучшения:**</span><span class="sxs-lookup"><span data-stu-id="e3c99-110">**The latest release of the PCD, version 1.1, includes the following enhancements:**</span></span>
 
-Мы будем рады любым отзывам. Просьба отправлять все вопросы, связанные с поддержкой и проблемами, на адрес [обратной связи по PCD](mailto:pcdfb@microsoft.com) — <pcdfb@microsoft.com>.
+  - <span data-ttu-id="e3c99-111">Поддержка более длинных паролей, которые теперь могут содержать до 127 символов</span><span class="sxs-lookup"><span data-stu-id="e3c99-111">Support for longer passwords, which can now be up to 127 characters</span></span>
 
-В этой статье содержатся следующие разделы:
+  - <span data-ttu-id="e3c99-112">Дополнительная диагностика проблем со входом для проверки подлинности</span><span class="sxs-lookup"><span data-stu-id="e3c99-112">Additional diagnostics for authentication sign-in issues</span></span>
 
-  - Версии Lync PCD
+  - <span data-ttu-id="e3c99-113">Улучшенная поддержка гибридных развертываний Lync</span><span class="sxs-lookup"><span data-stu-id="e3c99-113">Better support for Lync hybrid deployments</span></span>
 
-  - Требования к системе для установки Lync PCD
+  - <span data-ttu-id="e3c99-114">Обновления средства выбора учетных данных</span><span class="sxs-lookup"><span data-stu-id="e3c99-114">Updates to credential picker</span></span>
 
-  - Функции Lync PCD
+  - <span data-ttu-id="e3c99-115">Улучшенная стабильность</span><span class="sxs-lookup"><span data-stu-id="e3c99-115">Stability improvements</span></span>
 
-  - Запуск Lync PCD
+<span data-ttu-id="e3c99-116">Благодарим за отзыв.</span><span class="sxs-lookup"><span data-stu-id="e3c99-116">We appreciate any feedback.</span></span> <span data-ttu-id="e3c99-117">Пожалуйста, отправляйте вопросы и ответы по вопросам поддержки по адресу <pcdfb@microsoft.com> [ПКД отзыва](mailto:pcdfb@microsoft.com) .</span><span class="sxs-lookup"><span data-stu-id="e3c99-117">Please send all support questions or issues to the [PCD Feedback](mailto:pcdfb@microsoft.com) alias at <pcdfb@microsoft.com>.</span></span>
 
-  - Удаление Lync PCD
+<span data-ttu-id="e3c99-118">В этой статье содержатся следующие разделы:</span><span class="sxs-lookup"><span data-stu-id="e3c99-118">This topic includes the following sections:</span></span>
 
-## Версии Lync PCD
+  - <span data-ttu-id="e3c99-119">Версии ПКД для Lync</span><span class="sxs-lookup"><span data-stu-id="e3c99-119">Lync PCD Versions</span></span>
 
-В этой статье представлено описание следующих версий средства, доступных для бесплатной загрузки:
+  - <span data-ttu-id="e3c99-120">Требования к системе для Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-120">Lync PCD System Requirements</span></span>
 
-  - классическое приложение Windows ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914));
+  - <span data-ttu-id="e3c99-121">Возможности Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-121">Lync PCD Features</span></span>
 
-  - современное приложение Windows 8 ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110)).
+  - <span data-ttu-id="e3c99-122">Выполнение Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-122">Running Lync PCD</span></span>
+
+  - <span data-ttu-id="e3c99-123">Удаление Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-123">Uninstalling Lync PCD</span></span>
+
+<span id="Version"></span>
+
+<div>
+
+## <a name="lync-pcd-versions"></a><span data-ttu-id="e3c99-124">Версии ПКД для Lync</span><span class="sxs-lookup"><span data-stu-id="e3c99-124">Lync PCD Versions</span></span>
+
+<span data-ttu-id="e3c99-125">В этой статье описаны следующие версии средства, которые можно загрузить бесплатно.</span><span class="sxs-lookup"><span data-stu-id="e3c99-125">This topic describes the following versions of the tool, available for free download:</span></span>
+
+  - <span data-ttu-id="e3c99-126">Классическое приложение для[http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914)Windows ()</span><span class="sxs-lookup"><span data-stu-id="e3c99-126">Windows Desktop App ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))</span></span>
+
+</div>
+
+<span id="Requirements"></span>
+
+<div>
+
+## <a name="lync-pcd-system-requirements"></a><span data-ttu-id="e3c99-127">Требования к системе для Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-127">Lync PCD System Requirements</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Пользователи Lync в Office 365 могут использовать обе версии PCD.
+> <span data-ttu-id="e3c99-128">Для ПКД требуется, чтобы веб-интерфейс единой системы обмена сообщениями (УКВА) был установлен и настроен для поддержки мобильных клиентов в развертывании Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e3c99-128">PCD requires that Unified Communications Web API (UCWA) be installed and configured to support mobile clients in the Lync Server deployment.</span></span> <span data-ttu-id="e3c99-129">УКВА устанавливается вместе с Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e3c99-129">UCWA is installed with Lync Server.</span></span>
 
-Если вы хотите использовать предыдущую версию PCD, ознакомьтесь с указанными ниже ресурсами.
 
-  - 32-разрядную версию PCD можно бесплатно загрузить из Центра загрузки Майкрософт со страницы [Office Communications Server 2007 R2, инструменты набора ресурсов PreCallDiagnostic (32-разрядная версия)](http://go.microsoft.com/fwlink/p/?linkid=164769).
 
-  - 64-разрядная версия PCD входит в состав инструментов набора ресурсов Office Communications Server 2007 R2, которые можно бесплатно загрузить из Центра загрузки Майкрософт со страницы [инструментов набора ресурсов Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=145159).
+</div>
 
-## Требования к системе для установки Lync PCD
+<div>
 
-> [!NOTE]  
-> Для установки PCD необходимо установить и настроить веб-интерфейс API объединенных коммуникаций (UCWA). Это необходимо для поддержки мобильных клиентов в развернутой среде Lync Server. UCWA устанавливается вместе с Lync Server.
+## <a name="windows-desktop-app-requirements"></a><span data-ttu-id="e3c99-130">Требования для классических приложений для Windows</span><span class="sxs-lookup"><span data-stu-id="e3c99-130">Windows Desktop App Requirements</span></span>
 
-## Требования классического приложения Windows
+  - <span data-ttu-id="e3c99-131">Любая версия операционной системы Windows 7 или Windows 8.</span><span class="sxs-lookup"><span data-stu-id="e3c99-131">Any edition of the Windows 7 or Windows 8 operating system</span></span>
 
-  - Любая версия операционной системы Windows 7 или Windows 8
+  - <span data-ttu-id="e3c99-132">Microsoft .NET Framework 4,5, на котором можно найти по адресу[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)</span><span class="sxs-lookup"><span data-stu-id="e3c99-132">Microsoft .NET Framework 4.5 available at [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)</span></span>
 
-  - Платформа Microsoft .NET Framework 4.5, которую можно загрузить по адресу [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+</div>
 
-## Требования современного приложения Windows 8
+</div>
 
-  - Любая версия Windows 8
+<span id="features"></span>
 
-  - Платформа Microsoft .NET Framework 4.5, которую можно загрузить по адресу [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+<div>
 
-## Функции Lync PCD
+## <a name="lync-pcd-features"></a><span data-ttu-id="e3c99-133">Возможности Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-133">Lync PCD Features</span></span>
 
-Lync PCD имеет следующие функции:
+<span data-ttu-id="e3c99-134">Lync ПКД включает следующие возможности:</span><span class="sxs-lookup"><span data-stu-id="e3c99-134">Lync PCD includes the following features:</span></span>
 
-  - режим запуска On Demand (по запросу) по умолчанию (передача пакетов каждые две минуты);
+  - <span data-ttu-id="e3c99-135">Запускать по запросу (2-минутные пакеты)</span><span class="sxs-lookup"><span data-stu-id="e3c99-135">Run in default On Demand (2 minute bursts)</span></span>
 
-  - режим запуска Always On (постоянный) (до 24 часов в прикрепленном представлении);
+  - <span data-ttu-id="e3c99-136">Всегда запускать в режиме "включено" (до 24 часов в привязанном представлении)</span><span class="sxs-lookup"><span data-stu-id="e3c99-136">Run in Always On (up to 24 hours in snapped view) mode</span></span>
 
-  - историческое представление тестовых запусков;
+  - <span data-ttu-id="e3c99-137">Исторический вид тестовых запусков</span><span class="sxs-lookup"><span data-stu-id="e3c99-137">Historical view of your test runs</span></span>
 
-  - диагностика ошибок входа (только Lync PCD для Windows 8);
+  - <span data-ttu-id="e3c99-138">Диагностика сбоев при входе (только Lync ПКД для Windows 8)</span><span class="sxs-lookup"><span data-stu-id="e3c99-138">Diagnose sign-in failures (Lync PCD for Windows 8 only)</span></span>
 
-![Снимок экрана: процесс входа в функцию Lync PCD](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Снимок экрана: процесс входа в функцию Lync PCD")
+<span data-ttu-id="e3c99-139">![Снимок экрана с индикатором выполнения входных компонентов LYNC ПКД] (images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Снимок экрана с индикатором выполнения входных компонентов LYNC ПКД")</span><span class="sxs-lookup"><span data-stu-id="e3c99-139">![Lync PCD features Sign in progress screen shot](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Lync PCD features Sign in progress screen shot")</span></span>
 
-  - графическое представление показателей сети — экспертной оценки качества (MOS) сети, потери пакетов и временного интервала между дрожанием в полноэкранном режиме и в прикрепленном представлении.
+  - <span data-ttu-id="e3c99-140">Графическое представление метрик сети — сетевые MOS, потеря пакетов и нарушение колебаний в полноэкранном режиме и прикрепленном представлении.</span><span class="sxs-lookup"><span data-stu-id="e3c99-140">Graphical view of network metrics – Network MOS, Packet Loss and Interarrival Jitter in full screen and snapped view.</span></span>
 
-**Полноэкранное представление**
+<span data-ttu-id="e3c99-141">**Полноэкранный режим**</span><span class="sxs-lookup"><span data-stu-id="e3c99-141">**Full screen view**</span></span>
 
-![Графики с результатами тестирования с помощью средства диагностики PreCall](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Графики с результатами тестирования с помощью средства диагностики PreCall")
+<span data-ttu-id="e3c99-142">![Графы результатов проверки предварительных вызовов средств диагностики] (images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Графы результатов проверки предварительных вызовов средств диагностики")</span><span class="sxs-lookup"><span data-stu-id="e3c99-142">![PreCall Diagnostic Tool test result graphs](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "PreCall Diagnostic Tool test result graphs")</span></span>
 
-**Прикрепленное представление**
+<span data-ttu-id="e3c99-143">**Привязанное представление**</span><span class="sxs-lookup"><span data-stu-id="e3c99-143">**Snapped view**</span></span>
 
-![Средство диагностики PreCall, результаты тестирования использования](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Средство диагностики PreCall, результаты тестирования использования")
+<span data-ttu-id="e3c99-144">![Результаты проверки использования средства диагностики] предварительных вызовов (images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Результаты проверки использования средства диагностики") предварительных вызовов</span><span class="sxs-lookup"><span data-stu-id="e3c99-144">![PreCall Diagnostic Tool Utilization test results](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "PreCall Diagnostic Tool Utilization test results")</span></span>
 
-## Запуск Lync PCD
+</div>
 
-## Запуск классического приложения Windows
+<span id="running"></span>
 
-1.  Чтобы запустить PCD на компьютере с ОС Windows 7, выберите пункт **PreCall Diagnostics** в меню **Пуск**.
+<div>
+
+## <a name="running-lync-pcd"></a><span data-ttu-id="e3c99-145">Выполнение Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-145">Running Lync PCD</span></span>
+
+<div>
+
+## <a name="running-windows-desktop-app"></a><span data-ttu-id="e3c99-146">Запущен классическое приложение Windows</span><span class="sxs-lookup"><span data-stu-id="e3c99-146">Running Windows Desktop App</span></span>
+
+1.  <span data-ttu-id="e3c99-147">Чтобы запустить ПКД в системе Windows 7, в меню "Пуск" выберите пункт " **Диагностика** **перед** вызовом".</span><span class="sxs-lookup"><span data-stu-id="e3c99-147">To start the PCD on a Windows 7 system, select **PreCall Diagnostics** from the **Start** menu.</span></span>
     
-    Чтобы запустить PCD на компьютере с ОС Windows 8, щелкните значок на начальном экране или выполните поиск по фразе PreCall Diagnostics.
+    <span data-ttu-id="e3c99-148">Чтобы запустить ПКД в системе Windows 8, щелкните значок на начальном экране или выполните поиск по запросу "Диагностика для предзвонков".</span><span class="sxs-lookup"><span data-stu-id="e3c99-148">To start the PCD on a Windows 8 system, select the icon on your Start screen, or search for “PreCall Diagnostics.”</span></span>
     
-    ![Значок средства диагностики PreCall](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Значок средства диагностики PreCall")
+    <span data-ttu-id="e3c99-149">![Значок средства диагностики] для предзвонка (images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Значок средства диагностики") для предзвонка</span><span class="sxs-lookup"><span data-stu-id="e3c99-149">![PreCall Diagnostic tool icon](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "PreCall Diagnostic tool icon")</span></span>
 
-2.  После запуска средства выберите предпочтительный метод предоставления учетных данных и режим работы сети в диалоговом окне **Параметры средства PreCall Diagnostics**, а затем нажмите кнопку **ОК**.
+2.  <span data-ttu-id="e3c99-150">При запуске средства выберите предпочтительный способ предоставления учетных данных, а затем в диалоговом окне **Параметры средства диагностики** для подготовки к диагностике выберите команду " **ОК**".</span><span class="sxs-lookup"><span data-stu-id="e3c99-150">When the tool starts, select your preferred method of providing credentials and select the network operating mode in the **PreCall Diagnostics Tool Options** dialog box, then select **OK**:</span></span>
 
-3.  Для запуска диагностики нажмите кнопку **Начать тестирование**.
+3.  <span data-ttu-id="e3c99-151">Нажмите кнопку **начать проверку** , чтобы начать работу с диагностикой.</span><span class="sxs-lookup"><span data-stu-id="e3c99-151">Select the **Start Test** button to start running diagnostics.</span></span>
     
-    Если выбран параметр **Использовать сетевые учетные данные** тестирование начнется незамедлительно.
+    <span data-ttu-id="e3c99-152">Если вы выбрали параметр **использовать сетевые учетные данные** , проверка начнется немедленно.</span><span class="sxs-lookup"><span data-stu-id="e3c99-152">If you selected the **Use network credentials** option, the test begins immediately.</span></span>
     
-    Если выбран параметр **Ввести учетные данные**, откроется диалоговое окно **Безопасность Windows**. Тестирование начнется после ввода учетных данных.
+    <span data-ttu-id="e3c99-153">Если вы выбрали параметр **предоставить учетные данные** , откроется диалоговое окно " **Безопасность Windows** ".</span><span class="sxs-lookup"><span data-stu-id="e3c99-153">If you selected the **Let me enter my credentials** option, the **Windows Security** dialog box opens.</span></span> <span data-ttu-id="e3c99-154">После ввода учетных данных начинается проверка.</span><span class="sxs-lookup"><span data-stu-id="e3c99-154">After you enter your credentials, the test starts.</span></span>
 
-## Запуск современного приложения Windows 8
+</div>
 
+</div>
 
-1.  Для запуска PCD щелкните значок на начальном экране или выполните поиск по фразе PreCall Diagnostics.
-    
-    ![Значок средства диагностики PreCall](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Значок средства диагностики PreCall")
+<span id="uninstall"></span>
 
-2.  После запуска средства введите свои учетные данные и нажмите кнопку **ОК**.
-    
-    ![Вход в средство диагностики Lync PreCall](images/Dn451255.88039914-4c68-48f6-a9fa-58cb4e3f3488(OCS.15).jpg "Вход в средство диагностики Lync PreCall")
+<div>
 
-3.  Для запуска диагностики нажмите кнопку **Начать тестирование**.
+## <a name="uninstalling-lync-pcd"></a><span data-ttu-id="e3c99-155">Удаление Lync ПКД</span><span class="sxs-lookup"><span data-stu-id="e3c99-155">Uninstalling Lync PCD</span></span>
 
-## Удаление Lync PCD
+<span data-ttu-id="e3c99-156">Чтобы удалить Lync ПКД, выполните действия, описанные в операционной системе.</span><span class="sxs-lookup"><span data-stu-id="e3c99-156">To remove Lync PCD, follow the procedure for your operating system:</span></span>
 
-Чтобы удалить Lync PCD с компьютера, выполните следующие действия:
+  - <span data-ttu-id="e3c99-157">В системе Windows 7 откройте **Панель управления**, выберите " **программы и компоненты**", а затем дважды щелкните элемент "Диагностика предварительных **вызовов Lync 2013**".</span><span class="sxs-lookup"><span data-stu-id="e3c99-157">On a Windows 7 system, open the **Control Panel**, select **Programs and Features**, and double-click **Lync 2013 PreCall Diagnostics**.</span></span>
 
-  - для удаления с компьютера с ОС Windows 7 откройте **Панель управления**, выберите пункт **Программы и компоненты** и дважды щелкните элемент **Lync 2013 PreCall Diagnostics**;
+  - <span data-ttu-id="e3c99-158">В системе Windows 8 щелкните правой кнопкой мыши плитку ПКД и выберите команду **Удалить** на панели приложения в нижней части начального экрана.</span><span class="sxs-lookup"><span data-stu-id="e3c99-158">On a Windows 8 system, right-click on the PCD tile and click **Uninstall** from the app bar at the bottom of the start screen.</span></span>
 
-  - для удаления с компьютера с ОС Windows 8 щелкните правой кнопкой мыши плитку PCD и нажмите кнопку **Удалить** на панели приложения в нижней части начального экрана.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

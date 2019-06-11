@@ -1,47 +1,105 @@
-﻿---
-title: Вопросы и ответы по поддержке больших собраний в Lync Server 2013
-TOCTitle: Вопросы и ответы по поддержке больших собраний в Lync Server 2013
-ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204804(v=OCS.15)
-ms:contentKeyID: 49309400
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: вопросы и ответы по поддержке большого количества собраний'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server large meeting support FAQ
+ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204804(v=OCS.15)
+ms:contentKeyID: 48183837
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1c8355374a773afe3d6da22c886a2b103b13abd3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833948"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Вопросы и ответы по поддержке больших собраний в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-22_
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a><span data-ttu-id="f7426-102">Дополнительные вопросы и ответы о поддержке собраний для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7426-102">Large meeting support FAQ for Lync Server 2013</span></span>
 
-В следующих разделах даются ответы на часто задаваемые вопросы по созданию и осуществлению больших собраний.
+</div>
 
-## Вопрос. Сколько пользователей могут участвовать в большом собрании?
+<div id="mainSection">
 
-Моделью пользователей Lync Server предусмотрено ограничение в 250 пользователей для общего пула или 1000 пользователей для пула, выделенного для больших собраний. Эти цифры были получены нами в ходе тестирования и только для определенного набора оборудования, использованного в тестах. Исходя из результатов тестирования, мы рекомендуем их в качестве максимальных значений. Однако вы самостоятельно определяете максимально допустимое число участников собраний в организации путем настройки одной или нескольких политик конференц-связи (используйте для настройки командлеты Windows PowerShell на командной консоли Командная консоль Lync Server или в панели управления Lync Server). Вы можете указать в политике конференц-связи любое 32-битное целое число от 1 до 4 294 967 295, но рекомендуемый размер находится в диапазоне от 2 до 250 участников включительно. Значение по умолчанию — 250.
+<div id="mainBody">
 
-## Вопрос. Сколько собраний или других рабочих нагрузок можно разместить в пуле, выделенном для больших собраний?
+<span> </span>
 
-Чтобы обеспечить оптимальную работу пользователей в процессе проведения больших собраний с числом участников до 1000, мы рекомендуем размещать одновременно только одно большое собрание в выделенном пуле. Мы также рекомендуем не использовать этот пул для выполнения других рабочих нагрузок во время проведения большого собрания.
+<span data-ttu-id="f7426-103">_**Тема последнего изменения:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="f7426-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-## Вопрос. Должны ли организаторы большого собрания размещаться в выделенном пуле?
+<span data-ttu-id="f7426-104">В следующих разделах приведены ответы на часто задаваемые вопросы о создании и выполнении крупных собраний.</span><span class="sxs-lookup"><span data-stu-id="f7426-104">The following sections provide answers to common questions for creating and running large meetings.</span></span>
 
-Нет. Мы рекомендуем размещать в выделенном пуле только тех сотрудников, которые отвечают за планирование больших собраний. При проведении больших собраний это предотвратит проблемы, вызванные передачей постороннего трафика в режиме реального времени. Для планирования больших собраний в выделенном пуле используйте учетную запись сотрудника, ответственного за планирование больших собраний. Учетную запись организатора собрания (пользователя, запрашивающего проведение большого собрания) следует добавить в список выступающих.
+<div>
 
-## Вопрос. Какие режимы передачи данных можно использовать в рамках большого собрания?
+## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a><span data-ttu-id="f7426-105">Вопрос: сколько пользователей может участвовать в большом собрании?</span><span class="sxs-lookup"><span data-stu-id="f7426-105">Q: How many users can participate in a large meeting?</span></span>
 
-Большие собрания с числом участников до 1000 могут включать передачу звука, видео, совместное использование презентаций PowerPoint, доски и опрос присутствия.
+<span data-ttu-id="f7426-106">Пользовательская модель Lync Server определяет количество пользователей 250 в общем пуле или 1000 пользователей в пуле, предназначенных для крупных собраний, но эти числа представляют только число тестируемых пользователей и только для определенного набора оборудования, которое мы использовали в нашем тестировании.</span><span class="sxs-lookup"><span data-stu-id="f7426-106">The Lync Server user model specifies limits of 250 users in a shared pool or 1000 users in a pool dedicated to large meetings, but these numbers only represent the number of users we tested and only for the specific set of hardware that we used in our testing.</span></span> <span data-ttu-id="f7426-107">В соответствии с нашим тестированием мы рекомендуем использовать эти ограничения для максимального размера.</span><span class="sxs-lookup"><span data-stu-id="f7426-107">Based on our testing, we recommend those limits for maximum sizes.</span></span> <span data-ttu-id="f7426-108">Тем не менее, вы можете управлять реальным количеством участников, разрешенных на собраниях в вашей организации, настроив одну или несколько политик конференц-связи (которые вы конфигурируете с помощью командлетов Windows PowerShell в командной консоли Lync Server Management Shell или с помощью Lync Server). Панель управления).</span><span class="sxs-lookup"><span data-stu-id="f7426-108">However, you control the actual number of participants allowed in meetings in your organization by configuring one or more conferencing policies (which you configure using Windows PowerShell cmdlets in the Lync Server Management Shell or using the Lync Server Control Panel).</span></span> <span data-ttu-id="f7426-109">Число, указанное в политике конференц-связи, может быть любым 32-битным целым числом от 1 до 4 294 967 295, но рекомендуемый размер — от 2 до 250 участников, включительно; значение по умолчанию — 250.</span><span class="sxs-lookup"><span data-stu-id="f7426-109">The number that you specify in a conferencing policy can be any 32-bit whole number between 1 and 4,294,967,295, but the recommended size is between 2 and 250 participants, inclusive; and the default value is 250.</span></span>
 
-## Вопрос. Можно ли использовать групповые мгновенные сообщения во время больших собраний?
+</div>
 
-Да. Однако отправка множества мгновенных сообщений большим числом участников собрания может повлиять на качество работы пользователей вследствие проблем с прокруткой текста в окне мгновенных сообщений. Доставка большого числа мгновенных сообщений 1000 пользователей может также создавать существенную нагрузку на серверы и снижать производительность. Как правило, мгновенные сообщения требуются только для вопросов и ответов.
+<div>
 
-## Могут ли пользователи присоединяться к большим собраниям, набирая номер с телефона?
+## <a name="q-how-many-meetings-or-other-workloads-can-i-have-in-a-pool-that-is-dedicated-to-large-meetings"></a><span data-ttu-id="f7426-110">Вопрос: сколько собраний или других рабочих нагрузок можно найти в пуле, предназначенном для крупных собраний?</span><span class="sxs-lookup"><span data-stu-id="f7426-110">Q: How many meetings or other workloads can I have in a pool that is dedicated to large meetings?</span></span>
 
-Да. Если пул Lync Server 2013 надлежащим образом развернут и для него включена конференц-связь с телефонным подключением, пользователи могут присоединяться к большим собраниям с телефона. Тестирование показало, что около 15 % из 1000 пользователей могут присоединиться к большому собранию за 10 минут.
+<span data-ttu-id="f7426-111">Для обеспечения оптимального взаимодействия с пользователями в крупных собраниях до 1000 участников рекомендуется размещать в пуле только одно большое собрание, предназначенное для крупных собраний.</span><span class="sxs-lookup"><span data-stu-id="f7426-111">To ensure the best user experience in large meetings of up to 1000 participants, we recommend hosting only a single large meeting at a time on a pool that is dedicated to large meetings.</span></span> <span data-ttu-id="f7426-112">Кроме того, мы рекомендуем не разрешать выполнение каких – либо других рабочих нагрузок в пуле при выполнении большого собрания.</span><span class="sxs-lookup"><span data-stu-id="f7426-112">We also recommend not allowing any other workloads to run on that pool when the large meeting is in progress.</span></span>
 
-## Вопрос. Можно ли проводить большие собрания в виртуальной топологии?
+</div>
 
-Мы не тестировали большие собрания в виртуальной топологии, поэтому размещение выделенного пула для больших собраний в виртуальных машинах не поддерживается.
+<div>
+
+## <a name="q-should-the-organizers-of-large-meeting-be-homed-on-the-dedicated-pool"></a><span data-ttu-id="f7426-113">Вопрос: должна ли организаторовка большого собрания быть размещена в выделенном пуле?</span><span class="sxs-lookup"><span data-stu-id="f7426-113">Q: Should the organizers of large meeting be homed on the dedicated pool?</span></span>
+
+<span data-ttu-id="f7426-114">№</span><span class="sxs-lookup"><span data-stu-id="f7426-114">No.</span></span> <span data-ttu-id="f7426-115">Мы рекомендуем не разкрывайте пользователей, кроме выделенных сотрудников, которые управляют планированием крупных собраний в выделенном пуле.</span><span class="sxs-lookup"><span data-stu-id="f7426-115">We recommend not homing any users other than the dedicated staff that manages scheduling of large meetings on the dedicated pool.</span></span> <span data-ttu-id="f7426-116">Это предотвращает возникновение проблем с большим количеством собраний, размещенных в пуле, в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="f7426-116">This prevents other real-time communications traffic from causing problems with large meetings that are hosted in the pool.</span></span> <span data-ttu-id="f7426-117">Вы должны планировать большие собрания в выделенном пуле, используя учетную запись большого сотрудника для планирования собраний.</span><span class="sxs-lookup"><span data-stu-id="f7426-117">You should schedule large meetings on the dedicated pool using a user account of the large meeting scheduling staff.</span></span> <span data-ttu-id="f7426-118">Вы должны добавить учетную запись пользователя организатора собрания (пользователя, который запрашивает большое собрание) в качестве выступающего для большого собрания.</span><span class="sxs-lookup"><span data-stu-id="f7426-118">You should add the user account of the meeting organizer (the user who requests a large meeting) as a presenter for the large meeting.</span></span>
+
+</div>
+
+<div>
+
+## <a name="q-what-media-modalities-can-i-use-in-a-large-meeting"></a><span data-ttu-id="f7426-119">Вопрос: какие носители мультимедиа модальностей можно использовать в большом собрании?</span><span class="sxs-lookup"><span data-stu-id="f7426-119">Q: What media modalities can I use in a large meeting?</span></span>
+
+<span data-ttu-id="f7426-120">Большое количество собраний с до 1000 пользователей может включать в себя звук, видео, общий доступ к PowerPoint, доски и опрос присутствия.</span><span class="sxs-lookup"><span data-stu-id="f7426-120">Large meetings with up to 1000 users can include audio, video, PowerPoint sharing, whiteboards, and presence polling.</span></span>
+
+</div>
+
+<div>
+
+## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a><span data-ttu-id="f7426-121">Вопрос: можно ли использовать групповую обмен мгновенными сообщениями (IM) в крупных собраниях?</span><span class="sxs-lookup"><span data-stu-id="f7426-121">Q: Can I use group instant messaging (IM) in large meetings?</span></span>
+
+<span data-ttu-id="f7426-122">Да.</span><span class="sxs-lookup"><span data-stu-id="f7426-122">Yes.</span></span> <span data-ttu-id="f7426-123">Однако большое количество мгновенных сообщений, особенно при отправке большого количества участников собрания, может повлиять на взаимодействие с пользователем из-за проблем с быстрой прокруткой текста в окне мгновенного обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="f7426-123">However, large numbers of instant messages, especially when sent by a large number of meeting participants, can affect the user experience due to problems with fast text scrolling in the IM window.</span></span> <span data-ttu-id="f7426-124">Доставка большого количества мгновенных сообщений до 1000 пользователей также может привести к значительным загрузкам сервера, что может повлиять на производительность.</span><span class="sxs-lookup"><span data-stu-id="f7426-124">Delivering a large amount of instant messages to up to 1000 users can also introduce significant server loads, which can affect performance.</span></span> <span data-ttu-id="f7426-125">Обычно обмен мгновенными сообщениями требуется только для вопросов и ответов\&(Q AS).</span><span class="sxs-lookup"><span data-stu-id="f7426-125">Generally, IM is only required for questions and answers (Q\&As).</span></span>
+
+</div>
+
+<div>
+
+## <a name="can-users-join-large-meetings-by-dialing-in-from-a-phone"></a><span data-ttu-id="f7426-126">Могут ли пользователи присоединяться к большим собраниям с помощью телефонного подключения?</span><span class="sxs-lookup"><span data-stu-id="f7426-126">Can users join large meetings by dialing in from a phone?</span></span>
+
+<span data-ttu-id="f7426-127">Да.</span><span class="sxs-lookup"><span data-stu-id="f7426-127">Yes.</span></span> <span data-ttu-id="f7426-128">Если пул Lync Server 2013 правильно развернут и включен для конференц-связи с телефонным подключением, пользователи смогут присоединиться к большим собраниям с помощью набора номера.</span><span class="sxs-lookup"><span data-stu-id="f7426-128">If the Lync Server 2013 pool is properly deployed and enabled for dial-in conferencing, users will be able to join the large meetings by dialing in.</span></span> <span data-ttu-id="f7426-129">Наше тестирование показало, что до 15% пользователей 1000 может присоединиться к большому собранию в течение 10 минут.</span><span class="sxs-lookup"><span data-stu-id="f7426-129">Our testing has shown that up to 15% of the 1000 users can join the large meeting over a 10 minute period.</span></span>
+
+</div>
+
+<div>
+
+## <a name="q-can-i-host-large-meetings-in-a-virtual-topology"></a><span data-ttu-id="f7426-130">Вопрос: можно ли размещать большие собрания в виртуальной топологии?</span><span class="sxs-lookup"><span data-stu-id="f7426-130">Q: Can I host large meetings in a virtual topology?</span></span>
+
+<span data-ttu-id="f7426-131">Мы не проверяли в виртуальной топологии большое количество собраний, поэтому мы не поддерживаем использование виртуальных машин для размещения выделенного пула для крупных собраний.</span><span class="sxs-lookup"><span data-stu-id="f7426-131">We have not tested large meetings in a virtual topology, so we do not support the use of virtual machines to host a dedicated pool for large meetings.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,98 +1,158 @@
-﻿---
-title: "Lync Server 2013: созд. конфиг. арх. для управл. арх. на конкр. сайтах или пулах"
-TOCTitle: "Lync Server 2013: созд. конфиг. арх. для управл. арх. на конкр. сайтах или пулах"
-ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205251(v=OCS.15)
-ms:contentKeyID: 49311118
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: создание конфигурации архивации для управления архивированием для определенных сайтов или пулов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating an Archiving configuration to manage Archiving for specific sites or pools
+ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205251(v=OCS.15)
+ms:contentKeyID: 48185361
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39ff0add99f41e31ad585b58112146a7f52cc1b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834769"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание конфигурации архивации для управления архивацией на конкретных сайтах или пулах
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="creating-an-archiving-configuration-in-lync-server-2013-to-manage-archiving-for-specific-sites-or-pools"></a><span data-ttu-id="9d155-102">Создание конфигурации архивации в Lync Server 2013 для управления архивированием определенных сайтов и пулов</span><span class="sxs-lookup"><span data-stu-id="9d155-102">Creating an Archiving configuration in Lync Server 2013 to manage Archiving for specific sites or pools</span></span>
 
-В панели управления Lync Server 2013 конфигурации архивирования используются для управления реализацией архивирования в развертывании. Это включает следующие конфигурации архивирования:
+</div>
 
-  - Глобальная конфигурация, которая создается по умолчанию во время развертывания Lync Server 2013.
+<div id="mainSection">
 
-  - Необязательные конфигурации на уровне сайта или пула, которые можно создать и использовать для указания того, как архивирование реализуется для определенных сайтов или пулов.
+<div id="mainBody">
 
-Начальная настройка конфигураций архивирования производится во время развертывания архивирования, но вы можете изменить, добавить и удалить конфигурации после развертывания. Дополнительные сведения о реализации конфигураций архивирования, включая доступные параметры и иерархию конфигураций архивирования, см. в разделе [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, в документации по развертыванию или в документации по эксплуатации.
+<span> </span>
+
+<span data-ttu-id="9d155-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="9d155-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="9d155-104">В панели управления Lync Server 2013 вы можете управлять реализацией архивации в развертывании с помощью конфигураций архивации.</span><span class="sxs-lookup"><span data-stu-id="9d155-104">In Lync Server 2013 Control Panel, you use Archiving configurations to control how archiving is implemented in your deployment.</span></span> <span data-ttu-id="9d155-105">К ним относятся следующие конфигурации архивации:</span><span class="sxs-lookup"><span data-stu-id="9d155-105">This includes the following Archiving configurations:</span></span>
+
+  - <span data-ttu-id="9d155-106">Глобальная конфигурация, создаваемая по умолчанию при развертывании Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9d155-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
+
+  - <span data-ttu-id="9d155-107">Необязательные конфигурации уровня сайта и пула, которые можно создать и использовать для определения способа реализации архивации для конкретных сайтов или пулов.</span><span class="sxs-lookup"><span data-stu-id="9d155-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
+
+<span data-ttu-id="9d155-108">Первоначально конфигурации архивации задаются при развертывании архивации, но вы можете изменить, добавить и удалить настройки после развертывания.</span><span class="sxs-lookup"><span data-stu-id="9d155-108">You initially set up Archiving configurations when you deploy Archiving, but you can change, add, and delete configurations after deployment.</span></span> <span data-ttu-id="9d155-109">Сведения о способах реализации конфигураций архивации, в том числе о параметрах, которые можно указать и в иерархии конфигураций архивации, приведены в разделе [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, развертывание Документация или операционные документы.</span><span class="sxs-lookup"><span data-stu-id="9d155-109">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Для использования архивирования необходимо настроить политики архивирования, чтобы определить, требуется ли включать архивирование для внутренней связи, для внешней связи или для обоих вариантов, включающих пользователей, размещенных в Lync Server 2013. По умолчанию архивирование не включено ни для внутренней, ни для внешней связи. Перед включением архивирования в любой политике необходимо задать подходящие конфигурации архивирования для развертывания и, если требуется, для определенных сайтов и пулов, как описано в данном разделе. Дополнительные сведения о включении архивирования см. в разделе <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Настройка и назначение политик архивации</a> в документации по развертыванию.<br />Если после развертывания архивирования решено, что необходимо использовать интеграцию с Microsoft Exchange для хранения архивных данных и файлов на серверах Exchange 2013, а все пользователи размещены на серверах Exchange 2013, то следует удалить конфигурацию базы данных SQL Server из топологии. Для этого необходимо использовать топологий. Дополнительные сведения см. в разделе <a href="lync-server-2013-changing-archiving-database-options.md">Изменение параметров базы данных для архивации в Lync Server 2013</a> документации по эксплуатации.
+> <span data-ttu-id="9d155-110">Чтобы использовать архивацию, необходимо настроить политики архивации, чтобы указать, следует ли включать архивирование для внутренней связи, для внешней связи или для пользователей, расположенных на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9d155-110">To use archiving, you must configure Archiving policies to specify whether to enable archiving for internal communications, for external communications, or for both for users homed on Lync Server 2013.</span></span> <span data-ttu-id="9d155-111">По умолчанию архивация не включена для внутренней и внешней связи.</span><span class="sxs-lookup"><span data-stu-id="9d155-111">By default, archiving is not enabled for either internal or external communications.</span></span> <span data-ttu-id="9d155-112">Перед включением архивации в любых политиках следует задать соответствующие конфигурации архивации для развертывания и (необязательно) для определенных сайтов и пулов, как описано в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="9d155-112">Before enabling Archiving in any policies, you should specify the appropriate Archiving configurations for your deployment and, optionally, for specific sites and pools, as described in this section.</span></span> <span data-ttu-id="9d155-113">Подробнее о том, как включить архивацию, можно найти <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">в разделе Настройка и назначение политик архивации в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="9d155-113">For details about enabling Archiving, see <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuring and assigning Archiving policies in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="9d155-114">Если вы решите, что после развертывания архивации вы хотите использовать интеграцию с Microsoft Exchange для хранения данных и файлов на серверах Exchange 2013, а все пользователи будут размещены на серверах Exchange 2013, необходимо удалить конфигурацию базы данных SQL Server. из топологии.</span><span class="sxs-lookup"><span data-stu-id="9d155-114">If you decide after you deploy Archiving that you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers and all your users are homed on your Exchange 2013 servers, you should remove the SQL Server database configuration from your topology.</span></span> <span data-ttu-id="9d155-115">Для этого необходимо использовать Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="9d155-115">You must use Topology Builder to do this.</span></span> <span data-ttu-id="9d155-116">Подробнее смотрите в разделе <A href="lync-server-2013-changing-archiving-database-options.md">изменение параметров базы данных для архивации в Lync Server 2013</A> в документации по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="9d155-116">For details, see <A href="lync-server-2013-changing-archiving-database-options.md">Changing Archiving database options in Lync Server 2013</A> in the Operations documentation.</span></span>
 
-## Создание конфигурации архивирования для сайта или пула
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
+<div>
 
-4.  На странице **Конфигурация архивирования** щелкните **Создать**, а затем выполните одно из следующих действий:
-    
-      - Чтобы создать конфигурацию архивирования сайта, щелкните элемент **Конфигурация сайта**, а затем в разделе **выбора сайта** выберите сайт, который требуется настроить для архивирования.
-    
-      - Чтобы создать конфигурацию архивирования пула, щелкните элемент **Конфигурация пула**, а затем в разделе **выбора пула** выберите пул, который требуется настроить для архивирования.
+## <a name="to-create-an-archiving-configuration-for-a-site-or-pool"></a><span data-ttu-id="9d155-117">Создание конфигурации архивации для сайта или пула</span><span class="sxs-lookup"><span data-stu-id="9d155-117">To create an archiving configuration for a site or pool</span></span>
 
-5.  В разделе **Новый параметр архивирования**, в раскрывающемся списке **Параметр архивирования** выполните одно из следующих действий:
-    
-      - Чтобы включить архивирование только для сеансов обмена мгновенными сообщениями, щелкните **Архивировать сеансы обмена мгновенными сообщениями**.
-    
-      - Чтобы включить архивирование для обмена мгновенными сообщениями и веб-конференций, щелкните элемент **Archive IM and web conferencing sessions** (Архивировать сеансы обмена мгновенными сообщениями и веб-конференций).
-    
-      - Чтобы отключить политику архивирования, щелкните **Отключить архивирование**.
+1.  <span data-ttu-id="9d155-118">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="9d155-118">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-6.  Также в разделе **Новый параметр архивирования** выполните следующее:
+2.  <span data-ttu-id="9d155-119">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9d155-119">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9d155-120">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="9d155-120">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="9d155-121">На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.</span><span class="sxs-lookup"><span data-stu-id="9d155-121">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+
+4.  <span data-ttu-id="9d155-122">На странице **Конфигурация архивации** нажмите **Создать**, а затем выполните одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="9d155-122">On the **Archiving Configuration** page, click **New**, and then do one of the following:</span></span>
     
-      - Чтобы заблокировать действия, когда архивирование невозможно, установите флажок **Block instant messaging (IM) or web conferencing sessions if archiving fails** (Блокировать сеансы обмена мгновенными сообщениями или веб-конференций, если не удается выполнить архивирование).
+      - <span data-ttu-id="9d155-123">Чтобы создать конфигурацию архивации сайта, нажмите кнопку **Конфигурация сайта** , а затем в списке **выберите сайт**выберите сайт, который нужно настроить для архивации.</span><span class="sxs-lookup"><span data-stu-id="9d155-123">To create a site archiving configuration, click **Site Configuration** and then, in **Select a site**, select the site to be configured for archiving.</span></span>
     
-      - Чтобы использовать Microsoft Exchange Server для хранения архивных данных, установите флажок **Интеграция с Microsoft Exchange**.
+      - <span data-ttu-id="9d155-124">Чтобы создать конфигурацию архивации пула, нажмите кнопку **Конфигурация пула** , а затем в **группе Выбор пула**выберите пул, для которого нужно настроить архивирование.</span><span class="sxs-lookup"><span data-stu-id="9d155-124">To create a pool archiving configuration, click **Pool Configuration** and then, in **Select a pool**, select the pool to be configured for archiving.</span></span>
+
+5.  <span data-ttu-id="9d155-125">В разделе **Создание новой настройки архивации** выберите в раскрывающемся списке **Настройки архивации** один из следующих вариантов.</span><span class="sxs-lookup"><span data-stu-id="9d155-125">In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:</span></span>
     
-      - Чтобы включить удаление данных, установите флажок **Включить удаление архивных данных**, а затем выполните одно из следующих действий:
+      - <span data-ttu-id="9d155-126">Чтобы включить архивирование только для сеансов обмена мгновенными сообщениями, нажмите **Архивировать сеансы мгновенных сообщений**.</span><span class="sxs-lookup"><span data-stu-id="9d155-126">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
+    
+      - <span data-ttu-id="9d155-127">Чтобы включить архивирование для обмена мгновенными сообщениями и веб-конференций, нажмите элемент **Архивировать сеансы мгновенных сообщений и веб-конференций**.</span><span class="sxs-lookup"><span data-stu-id="9d155-127">To enable archiving for both IM sessions and web conferences, click **Archive IM and web conferencing sessions**.</span></span>
+    
+      - <span data-ttu-id="9d155-128">Если требуется запретить архивацию для данной политики, щелкните **Отключить архивацию**.</span><span class="sxs-lookup"><span data-stu-id="9d155-128">To disable archiving for the policy, click **Disable archiving**.</span></span>
+
+6.  <span data-ttu-id="9d155-129">На странице **Создание новой настройки архивации** можно также выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="9d155-129">Also in **New Archiving Setting**, do the following:</span></span>
+    
+      - <span data-ttu-id="9d155-130">Для запрета действия при невозможности архивации установите флажок **При сбое архивации заблокировать обмен мгновенными сообщениями или сеансы веб-конференции**.</span><span class="sxs-lookup"><span data-stu-id="9d155-130">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
+    
+      - <span data-ttu-id="9d155-131">Чтобы использовать сервер Microsoft Exchange для хранения данных для архивации, установите флажок **интеграция Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="9d155-131">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
+    
+      - <span data-ttu-id="9d155-132">Для включения функции удаления данных установите флажок **Разрешить удаление данных архивации**, затем выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="9d155-132">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
         
-          - Чтобы задать удаление после определенного числа дней, щелкните **Удалять экспортированные архивные данные и сохраненные архивные данные максимум в течение (дней)**, а затем задайте число дней.
+          - <span data-ttu-id="9d155-133">Для настройки удаления записей по истечении заданного срока (в днях) щелкните **Очищать экспортированные данные архивации, а также данные архивации по окончании максимального срока хранения (дн.)**, затем укажите количество дней.</span><span class="sxs-lookup"><span data-stu-id="9d155-133">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
         
-          - Чтобы ограничить удаление только теми данными, которые были экспортированы, щелкните **Удалять только экспортированные архивные данные**.
+          - <span data-ttu-id="9d155-134">Для удаления только экспортированных данных выберите **Удалять только экспортированные данные архивации**.</span><span class="sxs-lookup"><span data-stu-id="9d155-134">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
 
-7.  Нажмите кнопку **Зафиксировать**.
+7.  <span data-ttu-id="9d155-135">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="9d155-135">Click **Commit**.</span></span>
 
-## Создание параметров конфигурации архивации с помощью командлетов Lync Server
+</div>
 
-Параметры конфигурации архивации можно также создавать с помощью командной консоли Windows PowerShell Windows PowerShell и командлета New-CsArchivingConfiguration. Этот командлет можно выполнять либо из командной консоли командная консоль Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Создание новой коллекции параметров конфигурации архивации для сайта
+## <a name="creating-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="9d155-136">Создание параметров конфигурации архивации с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="9d155-136">Creating Archiving Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-  - Следующая команда создает новую коллекцию параметров конфигурации архивации для сайта Redmond:
+<span data-ttu-id="9d155-137">Параметры конфигурации архивации можно создать с помощью Windows PowerShell и командлета New-Ксарчивингконфигуратион.</span><span class="sxs-lookup"><span data-stu-id="9d155-137">Archiving configuration settings can be created by using Windows PowerShell and the New-CsArchivingConfiguration cmdlet.</span></span> <span data-ttu-id="9d155-138">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9d155-138">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="9d155-139">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9d155-139">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-create-a-new-collection-of-archiving-configuration-settings-for-a-site"></a><span data-ttu-id="9d155-140">Создание новой коллекции параметров конфигурации архивации для сайта</span><span class="sxs-lookup"><span data-stu-id="9d155-140">To create a new collection of archiving configuration settings for a site</span></span>
+
+  - <span data-ttu-id="9d155-141">Следующая команда создает новую коллекцию параметров конфигурации архивации для сайта Redmond:</span><span class="sxs-lookup"><span data-stu-id="9d155-141">The following command creates a new collection of archiving configuration settings for the Redmond site:</span></span>
     
         New-CsArchivingConfiguration -Identity "site:Redmond"
 
-## Создание новой коллекции параметров конфигурации архивации, разрешающих только архивацию обмена мгновенными сообщениями
+</div>
 
-  - Поскольку в предыдущей команде не было указано никаких параметров, кроме обязательного параметра Identity, новая коллекция параметров конфигурации будет использовать значения по умолчанию для всех своих свойств. Чтобы создать параметры, использующие другие значения свойств, просто включите соответствующий параметр и его значение. Например, чтобы создать коллекцию параметров конфигурации архивации, которая по умолчанию разрешает только архивацию сеансов обмена мгновенными сообщениями, используйте команду, аналогичную следующей:
+<div>
+
+## <a name="to-create-a-new-collection-of-archiving-configuration-settings-that-only-allow-im-archiving"></a><span data-ttu-id="9d155-142">Создание нового набора параметров конфигурации архивации, разрешающего только архивирование мгновенных сообщений</span><span class="sxs-lookup"><span data-stu-id="9d155-142">To create a new collection of archiving configuration settings that only allow IM archiving</span></span>
+
+  - <span data-ttu-id="9d155-143">Поскольку в предыдущей команде не было указано никаких параметров, кроме обязательного параметра Identity, новая коллекция параметров конфигурации будет использовать значения по умолчанию для всех своих свойств.</span><span class="sxs-lookup"><span data-stu-id="9d155-143">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties.</span></span> <span data-ttu-id="9d155-144">Чтобы создать параметры, использующие другие значения свойств, просто включите соответствующий параметр и его значение.</span><span class="sxs-lookup"><span data-stu-id="9d155-144">To create settings that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="9d155-145">Например, чтобы создать коллекцию параметров конфигурации архивации, которые по умолчанию разрешают архивирование сеансов обмена мгновенными сообщениями, используйте такую команду:</span><span class="sxs-lookup"><span data-stu-id="9d155-145">For example, to create a collection of archiving configuration settings that, by default, allow archiving of instant messaging sessions, only use a command like this:</span></span>
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 
-## Указание нескольких значений свойств при создании параметров конфигурации активации
+</div>
 
-  - Чтобы изменить несколько значений свойств, можно включить несколько параметров. Например, следующая команда настраивает новые параметры для архивации сеансов обмена мгновенными сообщениями и для блокирования обмена мгновенными сообщениями при недоступности службы архивации:
+<div>
+
+## <a name="to-specify-multiple-property-values-when-creating-archiving-configuration-settings"></a><span data-ttu-id="9d155-146">Указание нескольких значений свойства при создании параметров конфигурации архивации</span><span class="sxs-lookup"><span data-stu-id="9d155-146">To specify multiple property values when creating archiving configuration settings</span></span>
+
+  - <span data-ttu-id="9d155-p108">Чтобы изменить несколько значений свойств, можно включить несколько параметров. Например, следующая команда настраивает новые параметры для архивации сеансов обмена мгновенными сообщениями и для блокирования обмена мгновенными сообщениями при недоступности службы архивации:</span><span class="sxs-lookup"><span data-stu-id="9d155-p108">Multiple property values can be modified by including multiple parameters. For example, this command configures the new settings to archive instant messaging sessions and to block instant messaging of the archiving service is not available:</span></span>
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-Дополнительные сведения см. в разделе справки для командлета [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration).
+</div>
 
-## См. также
+<span data-ttu-id="9d155-149">Дополнительные сведения можно найти в разделе справки по командлету [New-ксарчивингконфигуратион](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="9d155-149">For more information, see the help topic for the [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) cmdlet.</span></span>
 
-#### Концепции
+</div>
 
-[Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md)  
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a><span data-ttu-id="9d155-150">См. также</span><span class="sxs-lookup"><span data-stu-id="9d155-150">See Also</span></span>
 
-[Управление параметрами конфигурации архивации для организации, сайтов и пулов в Lync Server 2013](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+
+[<span data-ttu-id="9d155-151">Как работает архивация в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d155-151">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+
+
+[<span data-ttu-id="9d155-152">Управление параметрами конфигурации архивации в Lync Server 2013 для Организации, сайтов и пулов</span><span class="sxs-lookup"><span data-stu-id="9d155-152">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
