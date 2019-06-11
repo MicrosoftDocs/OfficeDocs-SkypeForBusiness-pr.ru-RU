@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing third-party audio conferencing'
+---
+title: 'Lync Server 2013: Проверка голосовой конференции третьих лиц'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing third-party audio conferencing
 ms:assetid: 0428eb2f-a5ce-47e5-9ea4-383965dfc1e4
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727299(v=OCS.15)
-ms:contentKeyID: 62388614
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727299(v=OCS.15)
+ms:contentKeyID: 63969576
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b1c23f65015dd34f5efbaafa8472466394caa52c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849367"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing third-party audio conferencing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Тестирование голосовой конференции третьих лиц в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-01_
 
 
 <table>
@@ -23,95 +43,121 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAudioConferencingProvider cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-КсаудиоконференЦингпровидер. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-An audio conferencing provider is a third-party company that provides organizations with conferencing services. Among other things, audio conferencing providers enable users located off site, and not connected to the corporate network or the Internet, to participate in the audio portion of a conference or meeting. Audio conferencing providers often provide high-end services such as live translation, transcription, and live per-conference operator assistance.
+## <a name="description"></a>Описание
 
-The **Test-CsAudioConferencingProvider** cmdlet is used to verify that a user is able to make a connection to his or her audio conferencing provider. Note that this cmdlet can be run in one of two ways. Many administrators will use the CsHealthMonitoringConfiguration cmdlets to set up test users for each of their Registrar pools. These test users represent a pair of user accounts that have been preconfigured for use with synthetic transactions. (Typically these are test accounts and not accounts that belong to actual users.) If test users are configured for a pool, administrators can run the **Test-CsAudioConferencingProvider** cmdlet against that pool without having to specify the identity of (and supply the credentials for) the user account involved in the test.
+Поставщик услуг аудиоконференций — это сторонняя компания, предоставляющая организациям услуги по проведению аудиоконференций. Помимо всего прочего поставщики услуг аудиоконференций позволяют пользователям, расположенным за пределами организации и не подключенным к корпоративной сети или Интернету, участвовать в конференции или собрании с помощью аудиосвязи. Поставщики видеоконференций часто предоставляют высококачественные службы, такие как трансляция, транскрипция и Динамическая поддержка операторов на Конференции.
 
-Alternatively, administrators can run the **Test-CsAudioConferencingProvider** cmdlet using an actual user account. If you decide to conduct the test using an actual user account you will need to supply the logon name and password for that account.
+Командлет **Test-ксаудиоконференЦингпровидер** используется для подтверждения того, что пользователь может подключиться к своему поставщику конференц-связи. Обратите внимание, что этот командлет можно выполнить одним из двух способов. Многие администраторы будут использовать командлеты Кшеалсмониторингконфигуратион для настройки тестовых пользователей для каждого из своих пулов регистраторов. Эти тестовые пользователи представляют собой пару учетных записей пользователей, которые были предварительно настроены для использования с искусственными транзакциями. (Как правило, они являются тестовыми учетными записями, а не учетными записями, принадлежащими реальным пользователям.) Если тестовые пользователи настроены для пула, администраторы могут выполнять командлет **Test-ксаудиоконференЦингпровидер** для этого пула без необходимости указывать учетные данные для учетной записи пользователя, участвующей в тесте.
 
-## Running the test
+Кроме того, администраторы могут выполнять командлет **Test-ксаудиоконференЦингпровидер** с использованием реальной учетной записи пользователя. Если вы решите провести тестирование с использованием реальной учетной записи пользователя, вам потребуется указать имя для входа и пароль для этой учетной записи.
 
-Example 1 checks to see if a test user defined for the pool atl-cs-001.litwareinc.com is able to connect to his or her audio conferencing provider. This command requires that at least one test user be defined for the pool. If no test users have been defined for atl-cs-001.litwareinc.com, then the command will fail; that's because the **Test-CsAudioConferencingProvider** cmdlet will not know which user to employ in the test. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user account that the command should employ when verifying the connection with an audio conferencing provider.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+В примере 1 Проверка того, определен ли тестовый пользователь для пула atl-cs-001.litwareinc.com, может подключаться к своему поставщику конференц-связи. Для этой команды требуется, чтобы для пула было определено по крайней мере один тестовый пользователь. Если тестовых пользователей для atl-cs-001.litwareinc.com не заданы, команда завершится сбоем. Это обусловлено тем, что командлет **Test-ксаудиоконференЦингпровидер** не будет знать, какой пользователь должен использовать в тесте. Если вы не определили тестовых пользователей для пула, необходимо включить параметр Усерсипаддресс и учетные данные учетной записи пользователя, которую должна использовать команда, при проверке подключения с помощью поставщика видеоконференций.
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-The commands shown in Example 2 test the ability of a specific user (litwareinc\\kenmyer) to connect to his audio conferencing provider. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credentials object containing the name and password of the user Ken Myer. (Because the logon name litwareinc\\kenmyer has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Myer account.) The resulting credentials object is stored in a variable named $credential.
+Команды, показанные в примере 2, проверяют возможность определенного пользователя (плана litwareinc\\кенмер) для подключения к своему поставщику видеоконференций. Для этого в первой команде примера используется командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя Кен мер. (Поскольку имя для входа плана litwareinc\\кенмер в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи Кен мер.) Результирующий объект учетных данных хранится в переменной с именем $credential.
 
-The second command then checks to see if this user can connect to his audio conferencing provider. To carry out this task, the Test-CsAudioConferencingProvider cmdlet is called, along with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object containing Ken Myer's user credentials); and UserSipAddress (the SIP address corresponding to the supplied user credentials).
+Вторая команда проверяет, может ли пользователь подключиться к своему поставщику видеоконференций. Для выполнения этой задачи вызывается командлет Test-КсаудиоконференЦингпровидер, а также три параметра: Таржетфкдн (полное доменное имя пула регистраторов). Усеркредентиал (объект Windows PowerShell, содержащий учетные данные пользователя Кен мер); и Усерсипаддресс (адрес SIP, соответствующий предоставленным учетным данным пользователя).
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If the audio conferencing provider is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-sql-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если вы правильно настроили поставщик видеоконференций, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-sql-001.litwareinc.com
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:00
 
-If the specified user can't log on or log off, the Result will be shown as a **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Сообщение об ошибке:
 
-Target Fqdn : atl-sql-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если указанному пользователю не удается войти в систему или выйти из нее, результат будет показан в виде **ошибки**, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-sql-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Результат: сбой
 
-did not properly respond after a period of time, or
+Задержка: 00:00:00
 
-established connection failed because connected host has
+Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона
 
-failed to respond \[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+не отвечает на запросы в течение определенного периода времени или
 
-Inner Exception:A connection attempt failed because the
+не удалось установить соединение, так как подключенный узел имеет
 
-connected party did not properly respond after a period of
+не удалось ответить \[на 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
 
-time, or established connection failed because connected host
+Внутреннее исключение: сбой при попытке подключения из-за того, что
 
-has failed to respond
+связь с абонентом завершилась неправильно после определенного периода
 
-\[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+время или соединение не удалось установить, так как подключенный узел
 
-Diagnosis :
+не отвечает
 
-For example, the previous output includes the note “the connected party did not properly respond” That typically indicates a problem with the Edge Server.
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
 
-## Reasons why the test might have failed
+Диагностик
 
-Here are some common reasons why **Test-CsAudioConferencingProvider** might fail:
+Например, в предыдущем выводе есть Примечание "подключенная сторона не ответила должным образом", которая обычно указывает на проблему с пограничным сервером.
 
-  - An incorrect parameter value was supplied. As shown in the previous example, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - Note that the test will fail if the user employed by the **Test-CsAudioConferencingProvider** cmdlet has not been assigned an audio conferencing provider.
+<div>
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксаудиоконференЦингпровидер** :
+
+  - Предоставлено неправильное значение параметра. Как показано в предыдущем примере, необязательные параметры должны быть настроены правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
+
+  - Обратите внимание, что тест завершается сбоем, если пользователь, который использует командлет **Test-ксаудиоконференЦингпровидер** , не назначил поставщика видеоконференций.
+
+  - Эта команда завершается сбоем, если граничный сервер неправильно настроен или еще не развернут.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

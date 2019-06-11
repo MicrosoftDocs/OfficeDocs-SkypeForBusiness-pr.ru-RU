@@ -1,108 +1,161 @@
-﻿---
-title: 'Lync Server 2013: Viewing and analyzing monitoring server reports'
+---
+title: 'Lync Server 2013: Просмотр и анализ отчетов сервера мониторинга'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Viewing and analyzing monitoring server reports
 ms:assetid: 4dd448f1-01d2-49b2-b109-0728f36566b7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720332(v=OCS.15)
-ms:contentKeyID: 62222393
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720332(v=OCS.15)
+ms:contentKeyID: 63969599
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 0cc942c887175bacb0047c5d82d1ad9a89c18ef5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849143"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Viewing and analyzing monitoring server reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-05-19_
+# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a>Просмотр и анализ отчетов сервера мониторинга в Lync Server 2013
 
-Monitoring Server reports provides several different measures of voice quality to monitor the QoE that is being delivered to end-users. Additionally, Monitoring Server includes several built-in reports that your organization can use to watch usage and media quality trends on your organization's network and troubleshoot media quality issues that arise.
+</div>
 
-A primary part of keeping Monitoring Server Reports interesting for daily and weekly operations is viewing and analyzing Media Quality Reports, in particular:
+<div id="mainSection">
 
-  - QoE Summary/Trend Reports
+<div id="mainBody">
 
-  - QoE Performance Reports
+<span> </span>
 
-## View reports from the monitoring server
+_**Тема последнего изменения:** 2014-05-19_
 
-1.  From a web browser, locate your servers hosting the SQL reporting services.
+Мониторинг серверных отчетов предоставляет несколько разных показателей качества голоса для наблюдения за QoE, которые доставляются конечным пользователям. Кроме того, сервер мониторинга включает несколько встроенных отчетов, которые ваша организация может использовать для отслеживания использования и тенденций качества мультимедиа в сети организации, а также для устранения проблем с качеством мультимедиа.
 
-2.  View the required reports from the browser screen.
+Основная часть хранения серверных отчетов, представляющих собой ежедневные и еженедельные операции, — просмотр и анализ отчетов о качестве мультимедиа в частности:
 
-3.  (Optional) Export a report by selecting the export option and the required output format.
+  - QoE/отчеты о тенденциях
 
-## Configure call detail recording (CDR)
+  - Отчеты о производительности QoE
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent permissions), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.
+<div>
 
-2.  Open a browser window, and then enter the Admin URL to open the управления Lync Server.
+## <a name="view-reports-from-the-monitoring-server"></a>Просмотр отчетов на сервере мониторинга
 
-3.  In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.
+1.  В веб-браузере найдите серверы, на которых размещены службы отчетов SQL.
 
-4.  On the **Call Detail Recording** page, click the appropriate site in the table, click **Edit**, and then click **Show Details**.
+2.  Просмотрите необходимые отчеты в окне браузера.
 
-5.  To turn on purging, select **Enable Purging for Monitoring Servers**.
+3.  Необязательно Экспортируйте отчет, выбрав параметр Экспорт и требуемый выходной формат.
 
-6.  In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that call detail recordings should be retained.
+</div>
 
-7.  In **Keep error report data for maximum duration (days):** select the maximum number of days that error reports should be retained.
+<div>
 
-8.  Click **Commit**.
+## <a name="configure-call-detail-recording-cdr"></a>Настройка записи сведений о звонке (CDR)
 
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные разрешения) либо назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Lync Server 2013.
 
-## Configure QoE
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.
 
-1.  Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see Delegate Setup Permissions.
+3.  В левой панели навигации щелкните **Мониторинг и архивирование**, а затем — **Регистрация вызовов**.
 
-2.  Open a browser window, and then enter the Admin URL to open the управления Lync Server.
+4.  На странице **Регистрация вызовов** в таблице щелкните необходимый сайт, щелкните **Правка**, а затем — **Показать подробности**.
 
-3.  In the left navigation bar, click **Monitoring and Archiving**, and then click **Quality of Experience Data**.
+5.  Чтобы включить очистку, установите флажок **включить очистку для серверов мониторинга**.
 
-4.  On the **Quality of Experience Data** page, click the appropriate site from the table, click **Edit**, and then click **Show Details**.
+6.  В разделе **хранить подробные сведения о вызове (в днях)** выберите максимальное количество дней, в течение которых следует хранить записи с подробными сведениями о звонке.
 
-5.  To turn on purging, select **Enable Purging for Monitoring Servers**.
+7.  В параметре **Хранить сведения отчетов об ошибках максимум в течение (дней):** выберите максимальное число дней, в течение которых должны храниться данные отчетов об ошибках.
 
-6.  In **Keep call detail recordings for maximum duration (days):** select the maximum number of days that QoE data should be retained.
+8.  Щелкните **Исполнить**.
 
-7.  Click Commit.
+</div>
 
-## Change the archiving policy
+<div>
 
-1.  From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
+## <a name="configure-qoe"></a>Настройка QoE
 
-2.  Open a browser window, and then enter the Admin URL to open the управления Lync Server.
+1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе Delegate Setup Permissions.
 
-3.  In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.
 
-4.  Click **Global** in the list of policies, click **Edit**, and then click **Show details**.
+3.  На панели навигации слева нажмите **Мониторинг и архивация**, затем выберите **Данные о качестве взаимодействия**.
 
-5.  In **Edit Archiving Policy - Global**, do the following:
+4.  На странице **Данные о качестве взаимодействия** выберите требуемый сайт в таблице, нажмите **Изменить** и выберите **Показать сведения**.
 
-6.  To enable or disable internal archiving for the deployment, select or clear the **Archive internal communications** check box.
+5.  Чтобы включить очистку, установите флажок **включить очистку для серверов мониторинга**.
 
-7.  To enable or disable external archiving for the deployment, select or clear the **Archive external communications** check box.
+6.  В разделе **хранить сведения о звонке для максимальной длительности (дни):** выберите максимальное количество дней, в течение которых QoE данные должны оставаться на удержании.
 
-8.  Click **Commit**.
+7.  Нажмите Исполнить.
 
-## Apply an archiving policy to a user
+</div>
 
-1.  From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.
+<div>
 
-2.  Open a browser window, and then enter the Admin URL to open the управления Lync Server.
+## <a name="change-the-archiving-policy"></a>Изменение политики архивации
 
-3.  In the left navigation bar, click **Users**, and then search on the user account that you want to configure.
+1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
 
-4.  In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.
 
-5.  In **Edit Lync Server User** under **Archiving policy**, select the archiving user policy that you want to apply.
+3.  На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Политика архивации**.
 
-6.  Click **Commit**.
+4.  Нажмите пункт **Глобальная** в списке политик, выберите **Изменить**, затем **Показать сведения**.
 
-## См. также
+5.  На странице **Изменить политику архивации — глобальная** выполните следующие действия.
 
-#### Концепции
+6.  Чтобы включить или отключить внутреннее архивирование для развертывания, установите или снимите флажок **Архивировать внутреннюю связь** .
+
+7.  Чтобы включить или отключить внешнее архивирование для развертывания, установите или снимите флажок **Архивировать внешние связи** .
+
+8.  Нажмите **Исполнить**.
+
+</div>
+
+<div>
+
+## <a name="apply-an-archiving-policy-to-a-user"></a>Применение к пользователю политики архивации
+
+1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
+
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.
+
+3.  В левой панели навигации нажмите **Пользователи** и выполните поиск учетной записи, которую вы хотите настроить.
+
+4.  В таблице с результатами поиска выберите нужную учетную запись, нажмите кнопку **Изменить** и выберите пункт **Показать сведения**.
+
+5.  В диалоговом окне **изменение пользователя Lync Server** в разделе **Политика архивации**выберите политику архивации пользователей, которую вы хотите применить.
+
+6.  Нажмите **Исполнить**.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
 
 [Использование отчетов мониторинга в Lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
 [Отчет о производительности сервера в Lync Server 2013](lync-server-2013-server-performance-report.md)  
-[Отчет по сравнению качества среды](lync-server-2013-media-quality-comparison-report.md)
+[Отчет о сравнении качества мультимедиа в Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

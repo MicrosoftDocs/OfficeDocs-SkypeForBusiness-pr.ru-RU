@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица UserSite'
-TOCTitle: Таблица UserSite
-ms:assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398256(v=OCS.15)
-ms:contentKeyID: 49309113
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица UserSite'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserSite table
+ms:assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398256(v=OCS.15)
+ms:contentKeyID: 48183552
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9dfb3e3d99775405ce4a09df706bec8eea59f6f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849273"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица UserSite в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="usersite-table-in-lync-server-2013"></a>Таблица UserSite в Lync Server 2013
 
-Таблица UserSite является вспомогательной. Каждая запись представляет один сайт пользователя, определенный в настройке конфигурации сети.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2010-11-09_
+
+Таблица Усерсите является вспомогательной таблицей. Каждая запись соответствует одному сайту пользователя, определенному в параметрах конфигурации сети.
 
 
 <table>
@@ -35,23 +55,34 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserSiteKey</strong></p></td>
+<td><p><strong>Усерситекэй</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
+<td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий сайт пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserSiteName</strong></p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Unique</p></td>
+<td><p><strong>Усерситенаме</strong></p></td>
+<td><p>nvarchar(128</p></td>
+<td><p>Повторя</p></td>
 <td><p>Имя сайта пользователя.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RegionKey</strong></p></td>
+<td><p><strong>Регионкэй</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Указывается в таблице <a href="lync-server-2013-region-table.md">Таблица Region в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>Ссылка на из <a href="lync-server-2013-region-table.md">таблицы Region в Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,53 @@
-﻿---
-title: "Lync Server 2013: задание лиц, кот. могут публиковать сообщ. в чате аудитории"
-TOCTitle: Установка лиц, которые могут публиковать сообщения в чате аудитории
-ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ215873(v=OCS.15)
-ms:contentKeyID: 49309226
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: установка лиц, которые могут публиковать сообщения в чате аудитории'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting who can post messages in an auditorium chat room
+ms:assetid: 26168d3e-362c-4c34-9693-21301f151166
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215873(v=OCS.15)
+ms:contentKeyID: 48705999
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4767ebab4a804b393832e03dcbcd75855501346f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Установка лиц, которые могут публиковать сообщения в чате аудитории в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-06_
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>Установка лиц, которые могут публиковать сообщения в чате аудитории в Lync Server 2013
 
-В чате аудитории сообщения могут отправлять только те пользователи, которым назначена роль выступающего. Все остальные участники могут только читать сообщения. Выступающие в чате аудитории должны быть участниками чата.
+</div>
 
-Для получения более подробных сведений об использовании командной строки Windows PowerShell для управления чатами аудитории см. раздел [Управление чатами](manage-rooms.md) в документации по развертыванию.
+<div id="mainSection">
 
-Хотя администраторы, контролирующие сохраняемый сеанс беседы, и менеджеры чатов аудитории могут управлять настройками чата, они не могут отправлять сообщения в чате аудитории, если не являются **выступающими**.
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-06_
+
+В комнате чата Аудиториум только пользователи, которым назначена роль выступающего, могут публиковать сообщения. Все остальные пользователи могут только читать сообщения. Выступающие в комнате чата Аудиториум должны быть членами комнаты чата.
+
+Дополнительные сведения об использовании интерфейса командной строки Windows PowerShell для управления комнатами чата Аудиториум см. в разделе [Управление комнатами](manage-rooms.md) в документации по развертыванию.
+
+Несмотря на то, что администраторы комнаты для помещения в записную комнату и чат могут управлять параметрами комнаты чата, они не смогут публиковать в **** комнате чата Аудиториум, если только они не являются выступающими.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

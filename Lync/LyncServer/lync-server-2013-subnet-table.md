@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Subnet'
-TOCTitle: Таблица Subnet
-ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398582(v=OCS.15)
-ms:contentKeyID: 49310218
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Subnet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Subnet table
+ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398582(v=OCS.15)
+ms:contentKeyID: 48184544
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20318d0ed2f487efccda81936b113044f75e2618
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849611"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Subnet в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="subnet-table-in-lync-server-2013"></a>Таблица Subnet в Lync Server 2013
 
-Таблица Subnet является вспомогательной. Каждая запись представляет одну подсеть, определенную в параметрах конфигурации сети.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-02_
+
+Таблица подсети является вспомогательной таблицей. Каждая запись соответствует одной подсети, определенной в параметрах конфигурации сети.
 
 
 <table>
@@ -35,29 +55,40 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SubnetIP</strong></p></td>
+<td><p><strong>Субнетип</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>Целочисленное представление IP-адреса подсети.</p></td>
+<td><p>Основной, внешний</p></td>
+<td><p>Целочисленное представление для IP-адреса подсети.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SubnetMask</strong></p></td>
+<td><p><strong>Сети</strong></p></td>
 <td><p>целое</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Маска подсети.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserSiteKey</strong></p></td>
+<td><p><strong>Усерситекэй</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Указывается в <a href="lync-server-2013-usersite-table.md">Таблица UserSite в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>На которую ссылается <a href="lync-server-2013-usersite-table.md">Таблица усерсите в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SubnetDescription</strong></p></td>
-<td><p>nvarchar(512)</p></td>
-<td><p></p></td>
+<td><p><strong>Субнетдескриптион</strong></p></td>
+<td><p>nvarchar (512)</p></td>
+<td></td>
 <td><p>Описание подсети.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

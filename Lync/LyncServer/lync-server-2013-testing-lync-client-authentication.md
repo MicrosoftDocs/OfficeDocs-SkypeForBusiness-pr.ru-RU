@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Lync Client authentication'
+---
+title: 'Lync Server 2013: проверка подлинности клиента Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Lync Client authentication
 ms:assetid: e22114cb-4456-4e5f-93ab-51592c4a8209
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn689120(v=OCS.15)
-ms:contentKeyID: 62247368
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689120(v=OCS.15)
+ms:contentKeyID: 63969659
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 7d8ea26c39582a69062526c7b4ae00343bb19482
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849394"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Lync Client authentication in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a>Проверка подлинности клиента Lync в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-05_
 
 
 <table>
@@ -23,104 +43,130 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsClientAuth cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксклиентаус. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsClientAuth cmdlet enables you to determine whether a user can log on to the Lync Server by using a client certificate, you can run the Test-CsClientAuth cmdlet. After calling Test-CsClientAuth, the cmdlet will contact the certificate provisioning service and download a copy of any client certificates for the specified user. If a client certificate can be found and downloaded, Test-CsClientAuth will then attempt to log on by using that certificate. If logon succeeds, Test-CsClientAuth will log off and report that the test succeeded. If a certificate cannot be found or downloaded, or if the cmdlet is unable to logon using that certificate, then Test-CsClientAuth will report that the test failed.
+## <a name="description"></a>Описание
 
-## Running the test
+Командлет Test-Ксклиентаус позволяет определить, может ли пользователь войти на сервер Lync с помощью клиентского сертификата, чтобы запустить командлет Test-Ксклиентаус. После вызова Test-Ксклиентаус командлет подйдет к службе подготовки сертификатов и Скачайте копию всех клиентских сертификатов для указанного пользователя. Если сертификат клиента может быть найден и загружен, тест-Ксклиентаус будет пытаться войти в систему с помощью этого сертификата. Если вход завершается успешно, тест-Ксклиентаус выполнит выход и сообщит об успешном завершении теста. Если сертификат не удается найти или загрузить, или командлет не может войти в систему с помощью этого сертификата, тест-Ксклиентаус сообщит о том, что тест завершился сбоем.
 
-The Test-CsClientAuth cmdlet is run by using the account of any user who is enabled for Lync Server. To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsClientAuth:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Ксклиентаус запускается с помощью учетной записи любого пользователя, который включен для Lync Server. Чтобы выполнить эту проверку с использованием реальной учетной записи пользователя, необходимо сначала создать объект учетных данных Windows PowerShell, содержащий имя учетной записи и пароль. Затем необходимо добавить этот объект учетных данных и адрес SIP, назначенный учетной записи, когда система вызывает Test-Ксклиентаус:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsClientAuth](https://technet.microsoft.com/en-us/library/gg398712\(v=ocs.14\).aspx) cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету [Test-ксклиентаус](http://technet.microsoft.com/en-us/library/gg398712\(v=ocs.14\).aspx) .
 
-## Determining success or failure
+</div>
 
-If the specified user can log on to Lync Server by using a client certificate, you will receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если указанный пользователь может войти на сервер Lync Server с помощью клиентского сертификата, вы получите вывод примерно так, чтобы его свойство Result пометило как успешное **.**
 
-Latency : 00:00:06.8630376
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:06.8630376
 
-If the specified user can not log on, the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:
+Ошибки
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если указанный пользователь не может войти в систему, результат будет показан как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Latency : 00:00:03.3645259
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error : Could not download a CS Certificate for the given user. Check if
+Результат: сбой
 
-provided uri and credentials are correct.
+Задержка: 00:00:03.3645259
 
-Diagnosis :
+Ошибка: не удалось загрузить сертификат CS для указанного пользователя. Проверка наличия
 
-For example, the previous output states that the test failed because a valid client certificate couldn't be located for the specified user. You can return a list of the client certificates issued to a user by running a command as follows:
+предоставлены правильные URI и учетные данные.
+
+Диагностик
+
+Например, в предыдущем выводе говорится, что тест завершился сбоем, так как не удалось найти действительный сертификат клиента для указанного пользователя. Вы можете вернуть список сертификатов клиентов, выданных пользователю, выполнив команду следующим образом:
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-If Test-CsClientAuth fails, then you might want to rerun the test, this time including the Verbose parameter:
+Если при выполнении теста-Ксклиентаус происходит сбой, может потребоваться повторный запуск теста, в том числе параметр подробно:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-When the Verbose parameter is included, Test-CsClientAuth will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example:
+При включенном параметре "подробный" функция Test-Ксклиентаус будет возвращать пошаговые инструкции для каждого действия, которое он пытался войти на сервер Lync Server. Например:
 
-Trying to download a CS certificate for User : kenmyer@litwareinc.com endpoint : STEpid
+Попытка загрузить сертификат CS для пользователя: kenmyer@litwareinc.com Endpoint: Степид
 
-Web Service url : https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
+URL веб-службы:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc
 
-Could not download a CS certificate from web service.
+Не удалось скачать сертификат CS из веб-службы.
 
-CHECK:
+ОПРЕДЕЛИТЬ
 
-\- Web service url is valid and the web services are functional
+\-URL веб-службы является действительным, и веб-службы работают
 
-\- If using PhoneNo\\\\Pin to authenticate, make sure they match the user uri
+\-Если для проверки\\\\подлинности используется закрепление фонено, убедитесь, что они соответствуют универсальному коду ресурса пользователя
 
-\- If using NTLM\\Kerberos auth, make sure you provided valid credentials
+\-При использовании проверки\\подлинности NTLM Kerberos убедитесь, что вы указали действительные учетные данные.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsClientAuth might fail:
+<div>
 
-  - You specified a user account that was not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой Test-Ксклиентаус:
+
+  - Указана недействительная учетная запись пользователя. Для проверки существования учетной записи пользователя можно выполнить следующую команду:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - Учетная запись пользователя верна, но в настоящее время учетная запись не включена для Lync Server. Чтобы убедиться в том, что учетная запись пользователя включена для Lync Server, выполните команду, подобную следующей:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Если для свойства Enabled задано значение false, это означает, что пользователь в настоящее время не поддерживает Lync Server.
 
-  - The test user might not have a valid client certificate. You can return information about the client certificates assigned to a user by using a command similar to this:
+  - Возможно, у тестового пользователя нет действительного сертификата клиента. Вы можете вернуть сведения о сертификатах клиента, назначенных пользователю, с помощью команды, подобной следующей:
     
         Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

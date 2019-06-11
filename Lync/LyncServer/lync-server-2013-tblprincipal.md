@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipal
 ms:assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558667(v=OCS.15)
-ms:contentKeyID: 49310262
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558667(v=OCS.15)
+ms:contentKeyID: 48184571
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: c24f963b34ef6184675e724496d7d45ca1d40d27
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849531"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipal в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tblprincipal-in-lync-server-2013"></a>tblPrincipal в Lync Server 2013
 
-Таблица tblPrincipal содержит все субъекты, включая пользователей, папки и группы.
+</div>
 
-### Столбцы
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-12_
+
+ТблпринЦипал содержит всех участников, в том числе пользователей, папок и групп.
+
+### <a name="columns"></a>Столбцов
 
 <table>
 <colgroup>
@@ -34,104 +54,104 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>ИД субъекта.</p></td>
+<td><p>Принид</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinGuid</p></td>
-<td><p>GUID, not null</p></td>
-<td><p>Идентификатор GUID субъекта. Широко применяется в качестве альтернативного первичного ключа, поскольку также используется в пространстве Доменные службы Active Directory. (GUID кэшированного субъекта аналогичен GUID соответствующего объекта Active Directory.)</p></td>
+<td><p>Прингуид</p></td>
+<td><p>GUID, а не NULL</p></td>
+<td><p>Идентификатор GUID участника. Это широко используется как альтернативный первичный ключ, так как его значение пересекается с пространством доменных служб Active Directory. (GUID для кэшированного участника равен GUID соответствующего объекта Active Directory.)</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinUri</p></td>
-<td><p>nvarchar (256), не равно null</p></td>
-<td><p>Универсальный код ресурса (URI) субъекта. Схема SIP используется для пользователей, а ma-grp – практически для всех остальных субъектов.</p></td>
+<td><p>Принури</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>Универсальный код ресурса (URI) участника. Схема SIP используется для пользователей, а MA-GRP используется практически всеми остальными.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Общее имя. Используется только для пользователей.</p></td>
+<td><p>Приннаме</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Обычное имя. Используется только для пользовательских типов.</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinDisplayName</p></td>
+<td><p>Приндисплайнаме</p></td>
 <td><p>Nvarchar (256)</p></td>
-<td><p>Отображаемое имя. Используется только для пользователей.</p></td>
+<td><p>Отображаемое имя. Используется только для пользовательских типов.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinCompanyName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Название компании. Используется только для пользователей.</p></td>
+<td><p>Принкомпанинаме</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Название компании. Используется только для пользовательских типов.</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinEmail</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Электронная почта. Используется только для пользователей.</p></td>
+<td><p>Принемаил</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Отправить по электронной почте. Используется только для пользовательских типов.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinADPath</p></td>
-<td><p>nvarchar(384)</p></td>
-<td><p>Имя домена объекта Active Directory, кэшированной версией которого является субъект. Может иметь значение Null для типов, не являющихся объектами Active Directory (например, системных пользователей).</p></td>
+<td><p>Принадпас</p></td>
+<td><p>nvarchar (384)</p></td>
+<td><p>Доменное имя объекта Active Directory, который является кэшированной версией участника. Может принимать значение NULL для типов, которые не являются объектами службы каталогов Active Directory (например, пользователи системы).</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinADUserPrincipalName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Имя участника-пользователя. Используется только для обычных типов пользователя.</p></td>
+<td><p>ПринадусерпринЦипалнаме</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Имя участника-пользователя (UPN) пользователя. Используется только обычными типами пользователей.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinDisabled</p></td>
-<td><p>smallint, not null</p></td>
+<td><p>Приндисаблед</p></td>
+<td><p>smallint, NOT NULL</p></td>
 <td><ul>
-<li><p>0 – субъект активен.</p></li>
-<li><p>1 – субъект отключен, поскольку отключены возможности SIP пользователя.</p></li>
-<li><p>2 – субъект удален, поскольку удален связанный объект Active Directory.</p></li>
+<li><p>0: участник активен.</p></li>
+<li><p>1: участник отключен, поскольку возможности SIP пользователя отключены.</p></li>
+<li><p>2: участник удален, так как связанный объект рекламы удален.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>prinTypeID</p></td>
-<td><p>smallint, not null</p></td>
-<td><p>Тип субъекта (из таблицы tblPrincipalType).</p></td>
+<td><p>Принтипеид</p></td>
+<td><p>smallint, NOT NULL</p></td>
+<td><p>Тип участника (из таблицы ТблпринЦипалтипе).</p></td>
 </tr>
 <tr class="even">
-<td><p>prinPoolID</p></td>
-<td><p>Int</p></td>
-<td><p>Пул Lync, назначенный субъекту.</p></td>
+<td><p>Принпулид</p></td>
+<td><p>Типом</p></td>
+<td><p>Назначение пула Lync для участника.</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinPolicyID</p></td>
-<td><p>Int</p></td>
-<td><p>Значение политики сохраняемого сеанса беседы для пользователя, если определена политика типов тегов.</p></td>
+<td><p>Принполициид</p></td>
+<td><p>Типом</p></td>
+<td><p>Значение политики сервера сохраняемого чата для пользователя, если указана политика типа тега.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinAddedBy</p></td>
+<td><p>Принаддедби</p></td>
 <td><p>целое</p></td>
-<td><p>Идентификатор субъекта создателя.</p></td>
+<td><p>Идентификатор участника создателя.</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinAddedOn</p></td>
+<td><p>Принаддедон</p></td>
 <td><p>bigint, NOT NULL</p></td>
-<td><p>Метка времени создания.</p></td>
+<td><p>Метка времени для времени создания.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinUpdatedBy</p></td>
+<td><p>Принупдатедби</p></td>
 <td><p>целое</p></td>
-<td><p>Идентификатор субъекта, выполнившего последнее обновление.</p></td>
+<td><p>Идентификатор участника, который последним обновил это.</p></td>
 </tr>
 <tr class="odd">
-<td><p>prinUpdatedOn</p></td>
+<td><p>Принупдатедон</p></td>
 <td><p>bigint, NOT NULL</p></td>
-<td><p>Метка времени последнего обновления.</p></td>
+<td><p>Метка времени для последнего обновления.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinVerifiedOn</p></td>
-<td><p>datetime, not null</p></td>
-<td><p>Дата и время последнего обновления субъекта в результате синхронизации с Active Directory.</p></td>
+<td><p>Принверифиедон</p></td>
+<td><p>DateTime, NOT NULL</p></td>
+<td><p>Дата и время последнего обновления службы синхронизации Active Directory для участника.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Ключи
+### <a name="keys"></a>Параметры
 
 <table>
 <colgroup>
@@ -146,13 +166,24 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
+<td><p>Принид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>prinTypeID</p></td>
-<td><p>Внешний ключ с подстановкой в таблице tblPrincipalType.ptypeID.</p></td>
+<td><p>Принтипеид</p></td>
+<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипалтипе. Птипеид.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

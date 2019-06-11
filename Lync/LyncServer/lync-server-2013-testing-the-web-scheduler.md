@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the Web scheduler'
+---
+title: 'Lync Server 2013: Проверка веб-планировщика'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727304(v=OCS.15)
-ms:contentKeyID: 62388620
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
+ms:contentKeyID: 63969603
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: beb4030a87302c8abaaba9418eaba06b831ed8d6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849369"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the Web scheduler in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-the-web-scheduler-in-lync-server-2013"></a>Проверка веб-планировщика в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-03_
 
 
 <table>
@@ -23,110 +43,140 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWebScheduler</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксвебсчедулер</strong> . Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsWebScheduler** cmdlet enables you to determine whether a specific user can schedule a meeting using the Web Scheduler. The Web Scheduler enables users who are not running Outlook to schedule online meetings. Among other things, this new feature (which incorporates the functionality found in the Web Scheduler tool that was included with the Microsoft Lync Server 2010 resource kit) enables users to:
+## <a name="description"></a>Описание
 
-  - Schedule a new online meeting.
+Командлет **Test-ксвебсчедулер** позволяет определить, может ли определенный пользователь запланировать собрание с помощью веб-планировщика. Веб-планировщик позволяет пользователям, которые не запущены в Outlook, планировать собрания по сети. Помимо прочего, эта новая функция (которая включает в себя функцию, обнаруженную в средстве веб-планировщика, которая входит в состав набора Microsoft Lync Server 2010 Resource Kit), позволяет пользователям:
 
-  - List all meetings that he or she has scheduled.
+  - Планирование нового собрания по сети.
 
-  - View/modify an existing meeting.
+  - Список всех собраний, для которых он запланирован.
 
-  - Delete an existing meeting.
+  - Просмотр и изменение существующего собрания.
 
-  - Send an email invitation to meeting participants by using a preconfigured SMTP mail server.
+  - Удаление существующего собрания.
 
-  - Join an existing conference.
+  - Отправьте приглашение по электронной почте участникам собрания с помощью предварительно настроенного почтового сервера SMTP.
 
-## Running the test
+  - Присоединиться к существующей конференции.
 
-The following example verifies the Web Scheduler for the pool atl-cs-001.litwareinc.com. This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can schedule an online meeting using the Web Scheduler.
+</div>
 
-If test users are not defined, then the command will fail because it won't know which user to log on as. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user the command should use when trying to log on.
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+В следующем примере показана проверка веб-планировщика для пула atl-cs-001.litwareinc.com. Эта команда будет работать только в том случае, если тестовые пользователи определены для пула atl-cs-001.litwareinc.com. Если это так, команда определит, может ли первый тестовый пользователь запланировать собрание по сети с помощью веб-планировщика.
+
+Если тестовые пользователи не заданы, команда завершится сбоем, так как не будет определять, какой пользователь должен войти в систему. Если вы не определили тестовых пользователей для пула, необходимо включить параметр Усерсипаддресс и учетные данные пользователя, который должна использовать команда при попытке входа в систему.
 
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com"
 
-The commands shown in the next example test the ability of a specific user (litwareinc\\kenmeyer) to schedule an online meeting using the Web scheduler. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Ken Meyer. (Because the logon name litwareinc\\kenmeyer is included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Ken Meyer account.) The resulting credential object is then stored in a variable named $cred1.
+Команды, показанные в следующем примере, проверяют возможность определенного пользователя (плана litwareinc\\кенмэйер), чтобы запланировать собрание по сети с помощью веб-планировщика. Для этого в первой команде примера используется командлет **Get-Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell, который содержит имя и пароль пользователя Кен Мэйер. (Поскольку имя для входа плана litwareinc\\кенмэйер входит в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи Кен Мэйер.) Полученный объект учетных данных затем сохраняется в переменной с именем $cred 1.
 
-The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and schedule an online meeting. To run this task, the **Test-CsWebScheduler** cmdlet is called, together with three parameters: TargetFqdn (the FQDN of the Registrar pool); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).
+Вторая команда проверяет, может ли пользователь войти в пул atl-cs-001.litwareinc.com и запланировать собрание по сети. Для выполнения этой задачи вызывается командлет **Test-ксвебсчедулер** , вместе с тремя параметрами: таржетфкдн (полное доменное имя пула регистраторов). Усеркредентиал (объект Windows PowerShell, который включает в себя учетные данные пользователя для почтового Вронский); и Усерсипаддресс (SIP-адрес, соответствующий предоставленным учетным данным пользователя).
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebScheduler -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If the web scheduler is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Target Uri : https:// atl-cs-001.litwareinc.com.
+Если веб-планировщик настроен правильно, вы получите вывод, аналогичный приведенному ниже, и свойство Result помечается как **успешно**.
+
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
+
+Конечный URI: https://atl-cs-001.litwareinc.com.
 
 litwareinc.com:443/Scheduler
 
-Result : Success
+Результат: успех
 
-Latency : 00:00:00
+Задержка: 00:00:00
 
-Error Message :
+Сообщение об ошибке:
 
-Diagnosis :
+Диагностик
 
-If the web scheduler is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Если веб-планировщик настроен неправильно, результат будет отображаться как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Предупреждение: не удалось прочитать номер порта регистратора для заданного полного имени
 
-domain name (FQDN). Using default Registrar port number. Exception:
+доменное имя (FQDN). С помощью номера порта регистратора по умолчанию. Ошибка
 
-System.InvalidOperationException: No matching cluster found in topology.
+System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.
 
-at
+скорость
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+Microsoft. RTC. Management. Синсетиктрансактионс. Сипсинсетиктрансактион. Триретри
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Target Uri :
+Конечный URI:
 
-Result : Failure
+Результат: сбой
 
-Latency : 00:00:00
+Задержка: 00:00:00
 
-Error Message : No matching cluster found in topology.
+Сообщение об ошибке: подходящие кластеры не найдены в топологии.
 
-Diagnosis :
+Диагностик
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsWebScheduler** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-  - This command will fail if the Web Scheduler is misconfigured or not yet deployed.
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксвебсчедулер** :
 
-## См. также
+  - Предоставлено неправильное значение параметра. Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
 
-#### Другие ресурсы
+  - Эта команда завершится сбоем, если веб-планировщик неправильно настроен или еще не развернут.
 
-[Set-CsWebServer](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServer)
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Set-CsWebServer](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServer)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

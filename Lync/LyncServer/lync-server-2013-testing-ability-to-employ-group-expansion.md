@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing ability to employ group expansion'
+---
+title: 'Lync Server 2013: Проверка возможности развертывания групп'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to employ group expansion
 ms:assetid: 9b0fc954-6f9c-411a-ab32-94ebabc42de2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn743836(v=OCS.15)
-ms:contentKeyID: 62279315
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743836(v=OCS.15)
+ms:contentKeyID: 63969634
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f99be38a906c508346f580b36d055ccba86a168e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849413"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing ability to employ group expansion in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Тестирование возможности развертывания групп в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-05_
 
 
 <table>
@@ -23,115 +43,141 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupExpansion cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксграупекспансион. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupExpansion&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsGroupExpansion cmdlet lets you determine whether group expansion is working within your organization. When group expansion is enabled, users configure distribution groups as a contact. That means that those users can then send the same instant message to all the group members by addressing the message to the group instead of to individual members of that group. Group expansion enables you to quickly and easily view all the group members and their current status.
+## <a name="description"></a>Описание
 
-With the Test-CsGroupExpansion cmdlet, you specify an Active Directory distribution group by using the group’s email address. Test-CsGroupExpansion then uses group expansion to retrieve the group membership and compare the retrieved list to the membership of the group email address that you supplied. If the two lists match, then group expansion is working correctly. Note that you can test group expansion in two ways: by testing the service itself or by testing the associated web service.
+Командлет Test-Ксграупекспансион позволяет определить, работает ли расширение групп в Организации. Если включено расширение группы, пользователи настраивают группы рассылки как контакты. Это означает, что пользователи смогут отправить одно и то же мгновенное сообщение всем участникам группы, направив сообщение группе, а не отдельным участникам этой группы. Расширение групп позволяет быстро и легко просмотреть всех участников группы и их текущее состояние.
 
-For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
+С помощью командлета Test-Ксграупекспансион вы указываете группу рассылки Active Directory, используя адрес электронной почты группы. После этого в Ксграупекспансион используется расширение группы, чтобы получить сведения о членстве в группах и сравнить полученный список с членством в указанном адресе электронной почты группы. Если два списка соответствуют друг другу, то расширение группы работает правильно. Обратите внимание, что вы можете протестировать расширение группы двумя способами: Протестируйте саму службу или проверяя связанную веб-службу.
 
-## Running the test
+Дополнительные сведения можно найти в справочной документации по командлету [Test-ксграупекспансион](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) .
 
-The Test-CsGroupExpansion cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who was enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested and the email address for a valid distribution group. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Ксграупекспансион можно выполнить с помощью предварительно настроенной тестовой учетной записи (см. раздел Настройка тестовых учетных записей для выполнения тестов Lync Server) или учетной записи пользователя, который был включен для Lync Server. Для выполнения этой проверки с помощью тестовой учетной записи необходимо указать полное доменное имя тестируемого пула сервера Lync и адрес электронной почты для действительной группы рассылки. Например:
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com"
 
-To run this check using an actual user account, you must first create a Lync Server credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsGroupExpansion:
+Чтобы выполнить эту проверку с использованием реальной учетной записи пользователя, необходимо сначала создать объект учетных данных Lync Server, содержащий имя учетной записи и пароль. Затем необходимо добавить этот объект учетных данных и адрес SIP, назначенный учетной записи, когда система вызывает Test-Ксграупекспансион:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету [Test-ксграупекспансион](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) .
 
-## Determining success or failure
+</div>
 
-If the specified user can use group expansion, you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Если указанный пользователь может использовать расширение группы, вы будете получать выходные данные, аналогичные этим, с помощью свойства Result, помеченного как **успешно.**
 
-Result : Success
+Таржетури:https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Latency : 00:00:01.1234976
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:01.1234976
 
-If the specified user can't use group expansion, then the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:
+Ошибки
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+Диагностик
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Если указанный пользователь не может использовать расширение группы, результат будет показан как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Result : Failure
+Таржетури:https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
-Latency : 00:00:00
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: сбой
 
-Diagnosis :
+Задержка: 00:00:00
 
-Test-CsGroupExpansion : The endpoint was unable to register. See the ErrorCode for specific reason.
+Ошибки
 
-The previous output states that the test failed because the specified user was unable to register with Lync Server. This will typically occur if the test account does not exist or has not enabled for Lync Server. You can verify that the account exists, and determine whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to the following:
+Диагностик
+
+Test-Ксграупекспансион: не удалось зарегистрировать конечную точку. Ознакомьтесь с ErrorCode по конкретной причине.
+
+В предыдущем выводе говорится, что тест завершился сбоем, так как указанный пользователь не смог зарегистрироваться в Lync Server. Обычно это происходит, если учетная запись пользователя не существует или не включена в Lync Server. Вы можете проверить существование учетной записи и определить, включена ли учетная запись для NM-OCS-14-3, выполнив команду, подобную следующей:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
 
-If Test-CsGroupExpansion fails, then you might want to rerun the test, this time including the Verbose parameter:
+Если при выполнении теста-Ксграупекспансион происходит сбой, может потребоваться повторный запуск теста, в том числе параметр подробно:
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -Verbose
 
-When the Verbose parameter is included Test-CsGroupExpansion will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example, this output indicates that the specified distribution group couldn't be found:
+При включенном параметре "подробный" — Ксграупекспансион возвращает пошаговые учетные записи всех действий, которые он пытался войти на сервер Lync Server. Например, эти выходные данные указывают на то, что не удалось найти указанную группу рассылки:
 
-Trying to get web ticket.
+Попытка получить веб-билет.
 
-Web Service url : https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
+URL веб-службы:https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
 
-Using NTLM/Kerb auth.
+Использование проверки подлинности NTLM/керб.
 
-GetWebTicketActivity completed.
+Жетвебтиккетактивити завершен.
 
-'VerifyDistributionList' activity started.
+Начато действие "Верифидистрибутионлист".
 
-DLX Web Service Response Status is: NotFound.
+Состояние ответа веб-службы ДЛКС: Нотфаунд.
 
-'VerifyDistributionList' activity completed in '0.2597923' secs.
+Действие "Верифидистрибутионлист" завершено в течение "0,2597923" сек.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsGroupExpansion might fail:
+<div>
 
-  - You specified an invalid user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой Test-Ксграупекспансион:
+
+  - Вы указали недопустимую учетную запись пользователя. Для проверки существования учетной записи пользователя можно выполнить следующую команду:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account was enabled for Lync Server, run a command similar to the following:
+  - Учетная запись пользователя верна, но в настоящее время учетная запись не включена для Lync Server. Чтобы убедиться в том, что учетная запись пользователя включена для Lync Server, выполните команду, подобную следующей:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Если для свойства Enabled задано значение false, это означает, что пользователь в настоящее время не поддерживает Lync Server.
 
-  - Group expansion might be disabled. It is possible to turn off group expansion. If group expansion was disabled then the Test-CsGroupExpansion cmdlet will fail. To determine whether group expansion is enabled, use a command similar to this:
+  - Возможно, отключено расширение групп. Можно отключить развертывание групп. Если расширение группы было отключено, командлет Test-Ксграупекспансион завершится сбоем. Чтобы определить, включено ли расширение группы, выполните следующую команду:
     
         Get-CsWebServiceConfiguration | Select-Object Identity, EnableGroupExpansion
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

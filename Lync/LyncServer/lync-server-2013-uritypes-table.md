@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица UriTypes'
-TOCTitle: Таблица UriTypes
-ms:assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398587(v=OCS.15)
-ms:contentKeyID: 49310228
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица UriTypes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UriTypes table
+ms:assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398587(v=OCS.15)
+ms:contentKeyID: 48184553
+ms.date: 06/16/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 916f4e6b06bc8fab484d29f7fe88170025de01d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849309"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица UriTypes в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-06-16_
+# <a name="uritypes-table-in-lync-server-2013"></a>Таблица UriTypes в Lync Server 2013
 
-В таблице UriTypes приводятся различные типы универсальных кодов ресурсов (URI), отслеживаемые в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2015-06-16_
+
+В таблице Уритипес содержатся различные типы URI (универсального идентификатора ресурса), отслеживаемые в Microsoft Lync Server 2013.
 
 
 <table>
@@ -35,21 +55,32 @@ _**Дата изменения раздела:** 2015-06-16_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UriTypeId</strong></p></td>
+<td><p><strong>Уритипеид</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный идентификатор типа URI.</p></td>
+<td><p>Primary</p></td>
+<td><p>Уникальный идентификатор, присвоенный типу URI.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UriType</strong></p></td>
+<td><p><strong>Уритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Описания различных типов URI. Допустимые значения:</p>
+<td></td>
+<td><p>Описание различных типов URI. Допустимые значения:</p>
 <ul>
-<li><p>0 – Phone Uri</p></li>
-<li><p>1 – User Uri</p></li>
+<li><p>1 – универсальный код ресурса (URI)</p></li>
+<li><p>0 — URI пользователя</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: "Lync Server 2013: Test mobile users' ability to exchange instant messages"
+---
+title: 'Lync Server 2013: Проверка возможности обмена мгновенными сообщениями с пользователями мобильных устройств'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test mobile users' ability to exchange instant messages
 ms:assetid: a78a048f-d413-4bee-8626-d62b8b74f811
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn767950(v=OCS.15)
-ms:contentKeyID: 62486229
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767950(v=OCS.15)
+ms:contentKeyID: 63969638
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b7fd19f6ef2f4a44a61d56848b4bf845c79736ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849455"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test mobile users' ability to exchange instant messages in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>Тестирование возможности мобильных пользователей обмениваться мгновенными сообщениями в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-07_
 
 
 <table>
@@ -23,125 +43,151 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежемесячно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxP2PIM cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsMcxP2PIM. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Mobility Service enables mobile device users to do such things as:
+## <a name="description"></a>Описание
 
-1.  Exchange instant messages and presence information.
+Служба Mobility Service позволяет пользователям мобильных устройств выполнять такие действия, как:
 
-2.  Store and retrieve voice mail internally instead of with their wireless provider.
+1.  Обмен мгновенными сообщениями и сведениями о присутствии.
 
-3.  Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing.
+2.  Храните и изменяйте голосовую почту внутренне, а не с поставщиком услуг беспроводной связи.
 
-The Test-CsMxcP2PIM cmdlet provides a quick and easy way to verify that users can use the Mobility Service to exchange instant messages.
+3.  Пользуйтесь возможностями Lync Server, такими как звонки через Конференц-связь с телефонным подключением.
 
-## Running the test
+Командлет Test-CsMxcP2PIM предоставляет быстрый и простой способ проверки того, что пользователи могут использовать службу Mobility Service для обмена мгновенными сообщениями.
 
-To run this test, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxP2PIM:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Чтобы выполнить этот тест, необходимо создать два объекта учетных данных Windows PowerShell (объекты, содержащие имя и пароль учетной записи) для каждой учетной записи. После вызова Test-CsMcxP2PIM вы должны добавить эти объекты учетных данных и адреса SIP для двух учетных записей.
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\pilar"
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the help topic for the [Test-CsMcxP2PIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM) cmdlet.
+Дополнительные сведения можно найти в разделе справки по командлету [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) .
 
-## Determining success or failure
+</div>
 
-If the two test users can exchange instant messages by using the mobility service then Test-CsMcxP2PIM will return test result Success:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Target Uri : http://atl-cs-001.litwareinc.com:443/mcx
+Если два тестовых пользователя могут обмениваться мгновенными сообщениями с помощью службы Mobility Service, при использовании команды Test-CsMcxP2PIM будут возвращены результаты проверки.
 
-Result : Success
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Latency : 00:00:00
+Конечный URI:http://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:00
 
-If the test fails then the Result will be set to Failure and a detailed error message and diagnosis will be displayed:
+Сообщение об ошибке:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Target Uri : https://atl-cs-001.litwareinc.com:443/mcx
+В противном случае результат будет настроен на сбой, и на экране появится подробное сообщение об ошибке и диагностика.
 
-Result : Failure
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Latency : 00:00:00
+Конечный URI:https://atl-cs-001.litwareinc.com:443/mcx
 
-Error Message : No response received for Web-Ticket service.
+Результат: сбой
 
-Inner Exception:The HHTP request is unauthorized with
+Задержка: 00:00:00
 
-client negotiation scheme 'Ntlm'. The authentication
+Сообщение об ошибке: ни одного ответа не получено для службы веб-билета.
 
-header received from the server was 'Negotiate,NTLM'.
+Внутреннее исключение: запрос ХХТП не разрешен
 
-Inner Exception:The remote server returned an error:
+Клиентская схема согласования "NTLM". Проверка подлинности
 
-(401) Unauthorized.
+заголовку, полученному от сервера, является "Negotiate, NTLM".
 
-Diagnosis :
+Внутреннее исключение: удаленный сервер вернул ошибку:
 
-Inner Diagnosis:X-MS-server-Fqdb : atl-cs-
+(401) от несанкционированного доступа.
+
+Диагностик
+
+Внутренняя диагностика: X-MS-Server-Фкдб: ATL-CS-
 
 001.litwareinc.com
 
-Cache-Control : private
+Cache-Control: Private
 
-Content-Type : text/html; charset=utf-8.
+Content-Type: Text/HTML; charset = UTF-8.
 
-Server : Microsoft-IIS/8.5
+Сервер: Microsoft-IIS/8.5
 
-WWW-Authenticate : Negotiate,NTLM
+WWW-Authenticate: Negotiate, NTLM
 
-X-Powered-By : ASP.NET
+X — с питанием от: ASP.NET
 
-X-Content-Type-Options : nosniff
+X-Content-Types-параметры: onпрослушивание
 
-Date : Wed, 28 May 2014 19:16:05 GMT
+Дата: СР. 28 мая 2014 19:16:05 GMT
 
-Content-Length : 6305
+Content-Length: 6305
 
-## Reasons why the test might have failed
+</div>
 
-If Test-CsMcxP2PIM fails your first step should be to verify that the mobility service is up and running. That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed. For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Если при использовании команды Test-CsMcxP2PIM происходит сбой, необходимо убедиться в том, что служба Mobility Service работает. Это можно сделать с помощью веб-браузера, чтобы убедиться, что вы можете получить доступ к URL-адресу службы Mobility Service для пула Lync Server. Например, эта команда проверяет URL-адрес для пула atl-cs-001.litwareinc.com:
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
-If the mobility service seems to be running then verify that your two test users have valid Lync Server accounts. You can retrieve account information by using a command similar to this:
+Если служба Mobility Service работает, убедитесь в том, что у ваших двух тестовых пользователей есть действительные учетные записи Lync Server. Вы можете получить сведения об учетной записи с помощью следующей команды:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.
+Если свойство Enabled не равно true или если команда не выполнена, это означает, что у пользователя нет действительной учетной записи Lync Server.
 
-You should also verify that the user is enabled for mobility. To do that, first determine the mobility policy that is assigned to the account:
+Кроме того, необходимо убедиться, что у пользователя включена поддержка мобильных устройств. Для этого сначала определите политику мобильности, назначенную учетной записи:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:
+После того как вы узнаете имя политики, используйте командлет Get-Ксмобилитиполици, чтобы убедиться, что для политики (например, Редмондмобилитиполици) задано значение true для свойства Енаблемобилити.
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-If you receive an error message with authentication headers, that often means that you have not specified a valid user account. Verify the user name and password and then try the test again. If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property. That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+Если появляется сообщение об ошибке с заголовком проверки подлинности, это часто означает, что вы не указали действительной учетной записи пользователя. Проверьте имя пользователя и пароль, а затем повторите проверку. Если вы убедились в том, что учетная запись пользователя верна, используйте командлет Get-Ксвебсервицеконфигуратион и проверьте значение свойства Усевиндовсаус. С помощью которого вы узнаете, какие методы проверки подлинности включены в вашей организации. Дополнительные советы по устранению неполадок со службой Mobility Service можно найти в статье пошаговые инструкции [по устранению неполадок, связанных с подключением к блогу внешних мобильных устройств Lync](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
