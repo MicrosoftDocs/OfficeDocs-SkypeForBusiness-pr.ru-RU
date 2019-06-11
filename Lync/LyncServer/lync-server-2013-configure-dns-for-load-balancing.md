@@ -1,74 +1,119 @@
-﻿---
-title: 'Lync Server 2013: настройка DNS для балансировки нагрузки'
-TOCTitle: Настройка DNS для балансировки нагрузки
-ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398251(v=OCS.15)
-ms:contentKeyID: 49309103
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: настройка DNS для балансировки нагрузки'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure DNS for load balancing
+ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
+ms:contentKeyID: 48183540
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841390"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка DNS для балансировки нагрузки в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="c9f88-102">Настройка DNS для балансировки нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9f88-102">Configure DNS for load balancing in Lync Server 2013</span></span>
 
-Чтобы успешно выполнить данную процедуру, вы должны войти на сервер или в домен хотя бы в качестве члена группы администраторов домена или группы DnsAdmins.
+</div>
 
-Функция балансировки нагрузки службы доменных имен (DNS) осуществляет балансировку сетевого трафика, уникального для системы Lync Server 2013, например трафика SIP и трафика мультимедиа. Функция балансировки нагрузки DNS поддерживается для интерфейсных пулов, пограничных пулов, пулов директоров и автономных пулов-посредников. Пул, настроенный на использование подсистемы балансировки нагрузки DNS, должен иметь два заданных полных доменных имени: обычное полное доменное имя пула, используемое подсистемой балансировки нагрузки (например, pool1.contoso.com) и разрешающееся в физические IP-адреса серверов в этом пуле, и еще одно полное доменное имя для веб- служб пула (например, web1.contoso.net), разрешающееся в виртуальный IP-адрес пула. Дополнительные сведения о функции балансировки нагрузки DNS см. в разделе [Балансировка нагрузки на DNS](lync-server-2013-dns-load-balancing.md) документации по планированию.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c9f88-103">_**Тема последнего изменения:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c9f88-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="c9f88-104">Для успешного выполнения этой процедуры необходимо войти в систему на сервере или в домене в группу администраторов домена или в группу пользователей Днсадминс.</span><span class="sxs-lookup"><span data-stu-id="c9f88-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+
+<span data-ttu-id="c9f88-105">Балансировка нагрузки службы доменных имен (DNS) обеспечивает баланс сетевого трафика, уникального для Lync Server 2013, например трафик SIP и трафик мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="c9f88-105">Domain Name System (DNS) Load Balancing balances the network traffic that is unique to Lync Server 2013, such as SIP traffic and media traffic.</span></span> <span data-ttu-id="c9f88-106">Балансировка нагрузки DNS поддерживается для пулов интерфейсов, пулов пограничных каталогов, пулов и изолированных пулов исправлений.</span><span class="sxs-lookup"><span data-stu-id="c9f88-106">DNS load balancing is supported for Front End pools, Edge pools, Director pools, and stand-alone Mediation pools.</span></span> <span data-ttu-id="c9f88-107">Для пула, настроенного для использования балансировки нагрузки DNS, должны быть заданы два полных доменных имени (FQDN), которые используются службой балансировки нагрузки DNS (например, pool1.contoso.com) и которые разрешаются к физическим IP-адресам серверов в пуле. и другое полное доменное имя для веб-служб пула (например, web1.contoso.net), которое разрешается в виртуальный IP-адрес пула.</span><span class="sxs-lookup"><span data-stu-id="c9f88-107">A pool that is configured to use DNS load balancing must have two fully qualified domain names (FQDNs) defined: the regular pool FQDN that is used by DNS load balancing (for example, pool1.contoso.com) and that resolves to the physical IPs of the servers in the pool, and another FQDN for the pool’s Web Services (for example, web1.contoso.net), which resolves to the virtual IP address of the pool.</span></span> <span data-ttu-id="c9f88-108">Подробные сведения о балансировке нагрузки DNS можно найти [в разделе Балансировка нагрузки DNS в Lync Server 2013](lync-server-2013-dns-load-balancing.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="c9f88-108">For details about DNS Load Balancing, see [DNS load balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in the Planning documentation.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Для HTTPS-трафика с клиента на сервер все еще требуется аппаратная балансировка нагрузки.
+> <span data-ttu-id="c9f88-109">Балансировка нагрузки оборудования по-прежнему требуется для трафика HTTPS на стороне клиента.</span><span class="sxs-lookup"><span data-stu-id="c9f88-109">Hardware load balancing is still required for client to server HTTPS traffic.</span></span>
 
-Прежде чем использовать балансировку нагрузки DNS, следует выполнить следующее:
 
-1.  Переопределить полное доменное имя пула внутренних веб- служб.
+
+</div>
+
+<span data-ttu-id="c9f88-110">Для использования балансировки нагрузки DNS необходимо выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="c9f88-110">Before you can use DNS load balancing, you must do the following:</span></span>
+
+1.  <span data-ttu-id="c9f88-111">Переопределение полного доменного имени пула внутренних веб-служб.</span><span class="sxs-lookup"><span data-stu-id="c9f88-111">Override the internal Web Services pool FQDN.</span></span>
     
+    <div>
+    
+
     > [!WARNING]  
-    > Если решено переопределить внутренние веб-службы с самоопределяемым полным именем домена, каждое полное имя домена должно отличаться от полного имени домена для любого другого объекта переднего плана, Директор и Директоров.
+    > <span data-ttu-id="c9f88-112">Если вы решите переопределить внутренние веб-службы с помощью самоопределенного полного доменного имени, каждое полное доменное имя должно быть уникальным из любого другого пула переднего плана, режиссера или директора пула.</span><span class="sxs-lookup"><span data-stu-id="c9f88-112">If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.</span></span>
 
-2.  Создать записи узлов A DNS, чтобы разрешать полное доменное имя пула в IP-адреса всех серверов в этом пуле.
-
-3.  Включить случайный выбор IP-адресов, а для Windows Server DNS – включить циклическое обслуживание.
     
+    </div>
+
+2.  <span data-ttu-id="c9f88-113">Создайте DNS A Records hosts, чтобы разрешить полное доменное имя пула с IP-адресами всех серверов в пуле.</span><span class="sxs-lookup"><span data-stu-id="c9f88-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span></span>
+
+3.  <span data-ttu-id="c9f88-114">Включение случайного выбора IP-адреса или для DNS-сервера Windows Server включите циклическое управление.</span><span class="sxs-lookup"><span data-stu-id="c9f88-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Циклическое обслуживание должно быть включено по умолчанию.
+    > <span data-ttu-id="c9f88-115">По умолчанию будет включена функция "циклический перебор".</span><span class="sxs-lookup"><span data-stu-id="c9f88-115">Round robin should be enabled by default.</span></span>
 
-## Переопределение полного доменного имени внутренних веб-служб
-
-1.  Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Построитель топологий Lync Server**.
-
-2.  В дереве консоли разверните узел интерфейсных пулов Enterprise Edition.
-
-3.  Щелкните пул правой кнопкой мыши и выберите пункт **Изменить свойства** , а затем **Веб-службы** .
-
-4.  В области **Internal web services** (Внутренние веб-службы) установите флажок **Override FQDN** (Переопределить полное доменное имя).
-
-5.  Введите полное доменное имя пула, которое разрешается в физические IP-адреса серверов в пуле.
-
-6.  В области **External web services** (Внешние веб-службы) введите полное доменное имя внешнего пула, которое разрешается в виртуальные IP-адреса этого пула, а затем нажмите кнопку **ОК** .
-
-7.  В дереве консоли щелкните систему **Lync Server 2013** и затем на панели **Actions** (Действия) щелкните элемент **Publish Topology** (Опубликовать топологию).
-
-## Создание записи узлов A DNS для всех внутренних серверов пулов
-
-1.  Нажмите кнопку **Пуск** , выберите **Все программы** , **Администрирование** и затем **DNS** .
-
-2.  В окне **Диспетчер DNS** щелкните DNS-сервер, управляющий вашими записями, чтобы развернуть его.
-
-3.  Щелкните пункт **Зоны прямого просмотра** , чтобы развернуть его.
-
-4.  Щелкните правой кнопкой DNS-домен, в который требуется добавить записи, а затем щелкните **Создать узел (A или AAAA)** .
-
-5.  В поле **Имя** введите имя записи узла (имя домена добавляется автоматически).
-
-6.  В поле "IP-адрес" введите IP-адрес отдельного сервера переднего плана и выберите **Создать соответствующую PTR-запись** или **Разрешать любому прошедшему проверку пользователю обновлять DNS-записи с таким же именем владельца** , если это возможно.
-
-7.  продолжайте создавать записи для всех членов серверов переднего плана, которые будут принимать участие в балансировке нагрузки DNS.
     
-    Например, если бы у вас был пул с именем pool1.contoso.com и три сервера переднего плана, потребовалось бы создать следующие DNS-записи:
+    </div>
+
+<div>
+
+## <a name="to-override-internal-web-services-fqdn"></a><span data-ttu-id="c9f88-116">Чтобы переопределить полное доменное имя внутренней веб-службы</span><span class="sxs-lookup"><span data-stu-id="c9f88-116">To override internal Web services FQDN</span></span>
+
+1.  <span data-ttu-id="c9f88-117">Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-117">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="c9f88-118">В дереве консоли разверните узел Пулы переднего плана Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="c9f88-118">From the console tree, expand the Enterprise Edition Front End pools node.</span></span>
+
+3.  <span data-ttu-id="c9f88-119">Щелкните пул правой кнопкой мыши, выберите команду **изменить свойства**, а затем — **веб-службы**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span></span>
+
+4.  <span data-ttu-id="c9f88-120">В разделе **внутренние веб-службы**установите флажок Переопределение **полного доменного имени** .</span><span class="sxs-lookup"><span data-stu-id="c9f88-120">Below **Internal web services**, select the **Override FQDN** check box.</span></span>
+
+5.  <span data-ttu-id="c9f88-121">Введите полное доменное имя пула, которое разрешается в физические IP-адреса серверов в пуле.</span><span class="sxs-lookup"><span data-stu-id="c9f88-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span></span>
+
+6.  <span data-ttu-id="c9f88-122">Под **внешними веб-службами**введите полное доменное имя внешнего пула, которое разрешается в виртуальные IP-адреса пула, и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="c9f88-123">В дереве консоли щелкните **Lync Server 2013**, а затем в области **действия** выберите пункт **топология публикации**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-123">From the console tree, click **Lync Server 2013**, and then in the **Actions** pane, click **Publish Topology**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a><span data-ttu-id="c9f88-124">Создание записей DNS Host (A) для всех внутренних серверов пула</span><span class="sxs-lookup"><span data-stu-id="c9f88-124">To create DNS Host (A) Records for all internal pool servers</span></span>
+
+1.  <span data-ttu-id="c9f88-125">Нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Администрирование**и **DNS**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
+
+2.  <span data-ttu-id="c9f88-126">В **диспетчере DNS**выберите DNS-сервер для управления записями, чтобы развернуть его.</span><span class="sxs-lookup"><span data-stu-id="c9f88-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span></span>
+
+3.  <span data-ttu-id="c9f88-127">Нажмите кнопку **зоны прямого просмотра** , чтобы развернуть ее.</span><span class="sxs-lookup"><span data-stu-id="c9f88-127">Click **Forward Lookup Zones** to expand it.</span></span>
+
+4.  <span data-ttu-id="c9f88-128">Щелкните правой кнопкой мыши домен DNS, в который нужно добавить записи, и выберите команду **создать узел (A или AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span></span>
+
+5.  <span data-ttu-id="c9f88-129">В поле **Имя** введите имя записи узла (имя домена добавляется автоматически).</span><span class="sxs-lookup"><span data-stu-id="c9f88-129">In the **Name** box, type the name of the host record (the domain name will be automatically appended).</span></span>
+
+6.  <span data-ttu-id="c9f88-130">В поле IP-адрес введите IP-адрес отдельного сервера переднего плана, а затем выберите команду **создать соответствующую запись указателя (PTR)** или **разрешите пользователям, прошедшим проверку подлинности, обновлять записи DNS с тем же именем владельца**, если это применимо.</span><span class="sxs-lookup"><span data-stu-id="c9f88-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span></span>
+
+7.  <span data-ttu-id="c9f88-131">Продолжайте создавать записи для всех серверов-интерфейсов участников, которые будут принимать участие в балансировке нагрузки DNS.</span><span class="sxs-lookup"><span data-stu-id="c9f88-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span></span>
+    
+    <span data-ttu-id="c9f88-132">Например, если у вас есть пул с именем pool1.contoso.com и тремя серверами переднего плана, вы создадите следующие записи DNS:</span><span class="sxs-lookup"><span data-stu-id="c9f88-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span></span>
     
     
     <table>
@@ -79,48 +124,75 @@ _**Дата изменения раздела:** 2015-03-09_
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Полное доменное имя</th>
-    <th>Тип</th>
-    <th>Данные</th>
+    <th><span data-ttu-id="c9f88-133">Полное доменное имя</span><span class="sxs-lookup"><span data-stu-id="c9f88-133">FQDN</span></span></th>
+    <th><span data-ttu-id="c9f88-134">Тип</span><span class="sxs-lookup"><span data-stu-id="c9f88-134">Type</span></span></th>
+    <th><span data-ttu-id="c9f88-135">Значение</span><span class="sxs-lookup"><span data-stu-id="c9f88-135">Data</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Pool1.contoso.com</p></td>
-    <td><p>Узел (A)</p></td>
-    <td><p>192.168.1.1</p></td>
+    <td><p><span data-ttu-id="c9f88-136">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c9f88-136">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="c9f88-137">Узел (A)</span><span class="sxs-lookup"><span data-stu-id="c9f88-137">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="c9f88-138">192.168.1.1</span><span class="sxs-lookup"><span data-stu-id="c9f88-138">192.168.1.1</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Pool1.contoso.com</p></td>
-    <td><p>Узел (A)</p></td>
-    <td><p>192.168.1.2</p></td>
+    <td><p><span data-ttu-id="c9f88-139">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c9f88-139">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="c9f88-140">Узел (A)</span><span class="sxs-lookup"><span data-stu-id="c9f88-140">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="c9f88-141">192.168.1.2</span><span class="sxs-lookup"><span data-stu-id="c9f88-141">192.168.1.2</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Pool1.contoso.com</p></td>
-    <td><p>Узел (A)</p></td>
-    <td><p>192.168.1.3</p></td>
+    <td><p><span data-ttu-id="c9f88-142">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="c9f88-142">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="c9f88-143">Узел (A)</span><span class="sxs-lookup"><span data-stu-id="c9f88-143">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="c9f88-144">192.168.1.3</span><span class="sxs-lookup"><span data-stu-id="c9f88-144">192.168.1.3</span></span></p></td>
     </tr>
     </tbody>
     </table>
     
-    Дополнительные сведения о создании записей узлов A DNS см. в разделе [Настройка записей узлов DNS для Lync Server 2013](lync-server-2013-configure-dns-host-records.md).
+    <span data-ttu-id="c9f88-145">Дополнительные сведения о создании записей DNS Hosting (A) можно найти в разделе [Настройка записей узлов DNS для Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span><span class="sxs-lookup"><span data-stu-id="c9f88-145">For details about creating DNS Host (A) records, see [Configure DNS Host records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span></span>
 
-## Включение циклического обслуживания для Windows Server
+</div>
 
-1.  Нажмите кнопку **Пуск** , выберите **Все программы** , **Администрирование** и затем **DNS** .
+<div>
 
-2.  Разверните узел **DNS** , щелкните правой кнопкой мыши DNS-сервер, который требуется настроить, и выберите пункт **Свойства** .
+## <a name="to-enable-round-robin-for-windows-server"></a><span data-ttu-id="c9f88-146">Включение циклического переобслуживанием для Windows Server</span><span class="sxs-lookup"><span data-stu-id="c9f88-146">To enable round robin for Windows Server</span></span>
 
-3.  Откройте вкладку **Дополнительно** , выберите **Включить циклическое обслуживание** и **Включить расстановку по адресу** , а затем нажмите кнопку **ОК** .
+1.  <span data-ttu-id="c9f88-147">Нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Администрирование**и **DNS**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
+
+2.  <span data-ttu-id="c9f88-148">Разверните узел **DNS**, щелкните правой кнопкой мыши DNS-сервер, который вы хотите настроить, и выберите пункт **свойства**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span></span>
+
+3.  <span data-ttu-id="c9f88-149">На вкладке **Дополнительно** установите флажок **включить циклический перебор** и **включите**расстановку по сети, а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="c9f88-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span></span>
     
-    ![Диалоговое окно циклического перебора DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Диалоговое окно циклического перебора DNS")
+    <span data-ttu-id="c9f88-150">![Диалоговое окно "циклический перебор DNS"] (images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Диалоговое окно \"циклический перебор DNS\"")</span><span class="sxs-lookup"><span data-stu-id="c9f88-150">![DNS Round Robin dialog box](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin dialog box")</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Эта возможность должна быть включена по умолчанию.
+> <span data-ttu-id="c9f88-151">Эта функция должна быть включена по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="c9f88-151">This feature should be enabled by default.</span></span>
 
-## См. также
 
-#### Концепции
 
-[Балансировка нагрузки на DNS](lync-server-2013-dns-load-balancing.md)
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c9f88-152">См. также</span><span class="sxs-lookup"><span data-stu-id="c9f88-152">See Also</span></span>
+
+
+[<span data-ttu-id="c9f88-153">Балансировка нагрузки DNS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9f88-153">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

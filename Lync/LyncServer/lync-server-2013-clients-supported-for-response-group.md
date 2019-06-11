@@ -1,42 +1,79 @@
-﻿---
-title: 'Lync Server 2013: клиенты, поддерживаемые для группы ответа'
-TOCTitle: Клиенты, поддерживаемые для группы ответа
-ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398674(v=OCS.15)
-ms:contentKeyID: 49310401
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: клиенты, поддерживаемые для группы ответа'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Clients supported for Response Group
+ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)
+ms:contentKeyID: 48184705
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f3da4701a2520f38bd6b4718f51f60342bd6685e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841547"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Клиенты, поддерживаемые для группы ответа в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-03-28_
+# <a name="clients-supported-for-response-group-in-lync-server-2013"></a><span data-ttu-id="fc6d3-102">Клиенты, поддерживаемые для группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc6d3-102">Clients supported for Response Group in Lync Server 2013</span></span>
 
-"Группа ответа" поддерживает следующие клиенты:
+</div>
 
-  - Настольный клиент Lync 2013
+<div id="mainSection">
 
-  - Клиент рабочего стола Lync 2010
+<div id="mainBody">
 
-  - оператор Lync 2010
+<span> </span>
 
-  - Помощник Office Communications Server 2007 R2
+<span data-ttu-id="fc6d3-103">_**Тема последнего изменения:** 2014-03-28_</span><span class="sxs-lookup"><span data-stu-id="fc6d3-103">_**Topic Last Modified:** 2014-03-28_</span></span>
 
-  - Lync Phone Edition
+<span data-ttu-id="fc6d3-104">Приложение группы ответа поддерживает следующие клиенты:</span><span class="sxs-lookup"><span data-stu-id="fc6d3-104">The Response Group application supports the following clients:</span></span>
+
+  - <span data-ttu-id="fc6d3-105">Клиент Lync 2013 для настольных компьютеров</span><span class="sxs-lookup"><span data-stu-id="fc6d3-105">Lync 2013 desktop client</span></span>
+
+  - <span data-ttu-id="fc6d3-106">Клиент Lync 2010 для настольных компьютеров</span><span class="sxs-lookup"><span data-stu-id="fc6d3-106">Lync 2010 desktop client</span></span>
+
+  - <span data-ttu-id="fc6d3-107">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="fc6d3-107">Lync 2010 Attendant</span></span>
+
+  - <span data-ttu-id="fc6d3-108">Помощник Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="fc6d3-108">Office Communications Server 2007 R2 Attendant</span></span>
+
+  - <span data-ttu-id="fc6d3-109">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="fc6d3-109">Lync Phone Edition</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> &quot;Группа ответа&quot; не поддерживается для мобильных клиентов Lync.
+> <span data-ttu-id="fc6d3-110">Приложение "группа ответа" не поддерживается в мобильных клиентах Lync.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-110">The Response Group application is not supported on Lync mobile clients.</span></span>
 
-Дополнительные сведения о новых функциях см. в разделе [Новые функции приложения группы ответа в Lync Server 2013](lync-server-2013-new-response-group-application-features.md) документации по началу работы.
 
-Доступные клиенты зависят от типа пользователя ответа:
 
-  - **Вызывающие** могут вызывать группу ответа с помощью любого вышеуказанного клиента или обычного телефона ТСОП.
+</div>
 
-  - **Неформальные агенты** (агенты, которым для приема звонков не требуется входить в группы и выходить из них) могут принимать звонки с помощью Оператор, Lync или Lync Phone Edition. Неформальные агенты автоматически входят в группы при входе в Lync Server 2013 с помощью одного из этих клиентов.
+<span data-ttu-id="fc6d3-111">Сведения о новых возможностях смотрите в разделе [новые функции приложения группы ответа в Lync Server 2013](lync-server-2013-new-response-group-application-features.md) в документации Приступая к работе.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-111">For details about new features, see [New Response Group application features in Lync Server 2013](lync-server-2013-new-response-group-application-features.md) in the Getting Started documentation.</span></span>
 
-  - **Формальные агенты** (агенты, которым для приема звонков требуется входить в группы и выходить из них) могут принимать звонки с помощью Lync 2013 и посредством доступа к консоли агента в меню или с помощью Оператор и посредством доступа к консоли агента из браузера Internet Explorer.
+<span data-ttu-id="fc6d3-112">Конкретный клиент, который можно использовать, зависит от типа пользователя группы ответа.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-112">The specific client that you can use depends on the type of Response Group user that you are:</span></span>
+
+  - <span data-ttu-id="fc6d3-113">**Вызывающие абоненты** могут вызывать группу ответа с помощью любого вышеуказанного клиента или обычного телефона ТСОП.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-113">**Callers** can call a response group by using any of the clients listed previously, and by using a standard telephone over the public switched telephone network (PSTN).</span></span>
+
+  - <span data-ttu-id="fc6d3-114">**Неформальные агенты** (агенты, которые не входят в свои группы для приема звонков и не работают в них, могут получать звонки с помощью ассистента, Lync или Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-114">**Informal agents** (agents who do not sign into and out of their groups to accept calls) can accept calls by using Attendant, Lync, or Lync Phone Edition.</span></span> <span data-ttu-id="fc6d3-115">Неформальные агенты автоматически подписываются в свои группы при входе в Lync Server 2013 с помощью одного из этих клиентов.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-115">Informal agents are automatically signed into their groups when they sign in to Lync Server 2013 by using one of these clients.</span></span>
+
+  - <span data-ttu-id="fc6d3-116">**Формальные агенты** (агенты, которые должны входить в свои группы для приема звонков и выходить из них, могут получать звонки с помощью Lync 2013 и получать доступ к консоли агента из элемента меню, а также с помощью помощника и доступа к консоли агента прямо из Internet Explorer.</span><span class="sxs-lookup"><span data-stu-id="fc6d3-116">**Formal agents** (agents who must sign into and out of their groups to accept calls) can accept calls by using Lync 2013 and accessing the agent console from the menu item, or by using Attendant and accessing the agent console directly from Internet Explorer.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

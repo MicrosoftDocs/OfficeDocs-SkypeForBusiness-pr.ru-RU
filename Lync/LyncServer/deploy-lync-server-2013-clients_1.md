@@ -1,32 +1,68 @@
-﻿---
-title: Развертывание клиентов Lync Server 2013
-TOCTitle: Развертывание клиентов Lync Server 2013
-ms:assetid: 508e5dfa-588b-4289-81ce-2043c2d79e04
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204883(v=OCS.15)
-ms:contentKeyID: 49309746
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Развертывание клиентов Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy Lync Server 2013 clients
+ms:assetid: 508e5dfa-588b-4289-81ce-2043c2d79e04
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204883(v=OCS.15)
+ms:contentKeyID: 48184100
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 659ec7be51358e73824c322461a3e27a163dc1bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание клиентов Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="deploy-lync-server-2013-clients"></a><span data-ttu-id="74c98-102">Развертывание клиентов Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74c98-102">Deploy Lync Server 2013 clients</span></span>
 
-После миграции пользователей в Lync Server 2013 выполните следующие действия.
+</div>
 
-1.  Используйте фильтр версий клиентов для нового сервера Lync Server 2013, чтобы разрешить вход только клиентам, у которых установлены практически все последние обновления.
+<div id="mainSection">
 
-2.  При необходимости настройте параметры групповой политики, необходимые для начальной загрузки клиентов. Подробные сведения см. в разделе [Настройка политик начальной загрузки клиентов в Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) документации по развертыванию. Конфигурация этих параметров необходима только в том случае, если необходимо изменить существующие политики начальной загрузки клиентов или если необходимо задать новые политики начальной загрузки клиентов. Если не планируется менять политики начальной загрузки клиентов или необходимо сохранить действие устаревших политик начальной загрузки клиентов, нет необходимости предпринимать каких-либо действий.
+<div id="mainBody">
 
-3.  Настройте другие пользовательские и клиентские политики для определенных пользователей или групп с помощью управления Lync Server 2013, командная консоль Lync Server 2013 или обоих средств вместе. Дополнительные сведения см. в разделе [Новые и измененные параметры для Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) документации по планированию.
+<span> </span>
 
-4.  Разверните последнюю версию клиентов Lync Server 2013 вместе с последними накопительными обновлениями. Подробные сведения см. в разделе [Развертывание клиентов и устройств в Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) документации по развертыванию.
+<span data-ttu-id="74c98-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="74c98-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-5.  (Дополнительно) Если организация нуждается в расширенном режиме конфиденциальности присутствия Lync Server 2013, то после завершения миграции определите правило политики клиентских версий, чтобы предотвратить вход более ранних клиентских версий. Затем включите расширенный режим конфиденциальности присутствия.
+<span data-ttu-id="74c98-104">После миграции пользователей на Lync Server 2013 выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="74c98-104">After you migrate users to Lync Server 2013, do the following:</span></span>
+
+1.  <span data-ttu-id="74c98-105">С помощью фильтра Client Version (клиентская версия) на новом сервере Lync Server 2013 разрешите только клиентам с установленными последними обновлениями, чтобы войти в систему.</span><span class="sxs-lookup"><span data-stu-id="74c98-105">Use the Client Version Filter on the new Lync Server 2013 server to only allow clients with the most current updates installed to sign in.</span></span>
+
+2.  <span data-ttu-id="74c98-106">При необходимости настройте параметры групповой политики, необходимые для начальной загрузки клиента.</span><span class="sxs-lookup"><span data-stu-id="74c98-106">If necessary, configure the Group Policy settings that are required for client bootstrapping.</span></span> <span data-ttu-id="74c98-107">Подробности можно найти в разделе [Настройка политик начальной настройки клиента в Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="74c98-107">For details, see [Configuring client bootstrapping policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) in the Deployment documentation.</span></span> <span data-ttu-id="74c98-108">Настройка этих параметров требуется только в том случае, если вы хотите изменить существующие политики начальной настройки клиента или настроить новые политики начальной настройки клиента.</span><span class="sxs-lookup"><span data-stu-id="74c98-108">Configuration of these settings is only necessary if you want to change existing client bootstrapping policies or if you want to set new client bootstrapping policies.</span></span> <span data-ttu-id="74c98-109">Если вы не планируете настраивать политики начальной настройки клиента или хотите, чтобы политики начальной загрузки устаревшего клиента оставались в силе, никаких действий не требуется.</span><span class="sxs-lookup"><span data-stu-id="74c98-109">If you do not plan to configure client bootstrapping policies, or you want legacy client bootstrapping policies to remain in effect, no action is necessary.</span></span>
+
+3.  <span data-ttu-id="74c98-110">Настройте другие политики пользователей и клиентов для определенных пользователей или групп пользователей с помощью панели управления Lync Server 2013, командной консоли Lync Server 2013 или и того, и другого.</span><span class="sxs-lookup"><span data-stu-id="74c98-110">Configure other user and client policies for specific users or groups of users by using Lync Server 2013 Control Panel, Lync Server 2013 Management Shell, or both.</span></span> <span data-ttu-id="74c98-111">Подробные сведения можно найти в разделе [новые и измененные параметры Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="74c98-111">For details, see [New and changed settings for Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) in the Planning documentation.</span></span>
+
+4.  <span data-ttu-id="74c98-112">Развертывание последней версии клиентов Lync Server 2013 вместе с последними накопительными обновлениями.</span><span class="sxs-lookup"><span data-stu-id="74c98-112">Deploy the latest version of Lync Server 2013 clients along with the latest cumulative updates.</span></span> <span data-ttu-id="74c98-113">Подробные сведения можно найти [в разделе Развертывание клиентов и устройств в Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="74c98-113">For details, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in the Deployment documentation.</span></span>
+
+5.  <span data-ttu-id="74c98-114">Необязательно Если в вашей организации требуется расширенный режим конфиденциальности Lync Server 2013 после завершения миграции, определите правило политики для версии клиента, чтобы предотвратить вход более ранних версий клиента.</span><span class="sxs-lookup"><span data-stu-id="74c98-114">(Optional) If your organization requires Lync Server 2013 enhanced presence privacy mode, after migration is complete, define a Client Version Policy Rule to prevent earlier client versions from signing in.</span></span> <span data-ttu-id="74c98-115">Затем включите режим расширенной защиты сведений о присутствии.</span><span class="sxs-lookup"><span data-stu-id="74c98-115">Then, enable enhanced presence privacy mode.</span></span>
     
-    > [!IMPORTANT]
-    > Не включайте расширенный режим конфиденциальности присутствия Lync 2013, пока у каждого пользователя в данном пуле серверов не будут установлены текущие клиентские версии.
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > <span data-ttu-id="74c98-116">Не включайте режим конфиденциальности для расширенного присутствия в Lync 2013, пока у каждого пользователя в данном пуле серверов не будет установлено Последнее количество клиентских версий.</span><span class="sxs-lookup"><span data-stu-id="74c98-116">Do not enable Lync 2013 enhanced presence privacy mode until every user on a given server pool has the most current client versions installed.</span></span>
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

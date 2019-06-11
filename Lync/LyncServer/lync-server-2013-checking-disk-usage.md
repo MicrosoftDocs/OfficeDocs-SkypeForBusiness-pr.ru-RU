@@ -1,53 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Checking disk usage'
+---
+title: 'Lync Server 2013: Проверка использования дискового пространства'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Checking disk usage
 ms:assetid: 0f0cb9bf-3f11-43ff-be10-5c8e1b5c4f08
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720908(v=OCS.15)
-ms:contentKeyID: 62246659
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720908(v=OCS.15)
+ms:contentKeyID: 63969578
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 791f4a0f9db56c38c837fa77b443d5aa6de74bd1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841571"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Checking disk usage in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-04-30_
+# <a name="checking-disk-usage-in-lync-server-2013"></a><span data-ttu-id="0f7a8-102">Проверка использования диска в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f7a8-102">Checking disk usage in Lync Server 2013</span></span>
 
-Hard disks drives are an important component of the Lync Server 2013 deployment. Without sufficient free disk volume, neither the operating system nor the Lync Server 2013 databases can function correctly. You must monitor the Lync Server 2013 back-end database statistics daily to help to make sure that servers do not run out of disk space, and to prepare to add storage resources as required.
+</div>
 
-Apart from checking space on disks hosting the operating system, program files, database, and transaction logs (Lync Server 2013 Back End), you should also monitor usage of the file system that includes disk space for file shares that contain the following important data:
+<div id="mainSection">
 
-  - Meeting content
+<div id="mainBody">
 
-  - Meeting content metadata
+<span> </span>
 
-  - Meeting compliance logs
+<span data-ttu-id="0f7a8-103">_**Тема последнего изменения:** 2014-04-30_</span><span class="sxs-lookup"><span data-stu-id="0f7a8-103">_**Topic Last Modified:** 2014-04-30_</span></span>
 
-  - Application data files (used internally by the application server component)
+<span data-ttu-id="0f7a8-104">Жесткие диски — это важный компонент развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-104">Hard disks drives are an important component of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="0f7a8-105">Без достаточного свободного места на диске ни операционная система, ни база данных Lync Server 2013 могут работать неправильно.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-105">Without sufficient free disk volume, neither the operating system nor the Lync Server 2013 databases can function correctly.</span></span> <span data-ttu-id="0f7a8-106">Необходимо ежедневно отслеживать статистику базы данных Lync Server 2013, чтобы убедиться в том, что на серверах не осталось свободного места, а также для подготовки к добавлению ресурсов хранилища по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-106">You must monitor the Lync Server 2013 back-end database statistics daily to help to make sure that servers do not run out of disk space, and to prepare to add storage resources as required.</span></span>
 
-  - Group Chat Server web service and compliance folders (to store files uploaded to the Group Chat web service)
+<span data-ttu-id="0f7a8-107">Помимо проверки места на дисках с операционной системой, файлами программы, базой данных и журналами транзакций (Lync Server 2013 Back), необходимо также отслеживать использование файловой системы, в которой есть место для файлов, содержащих указанные ниже важные сведения. сведения</span><span class="sxs-lookup"><span data-stu-id="0f7a8-107">Apart from checking space on disks hosting the operating system, program files, database, and transaction logs (Lync Server 2013 Back End), you should also monitor usage of the file system that includes disk space for file shares that contain the following important data:</span></span>
 
-  - Group Chat compliance XML files (that contain Group Chat compliance records)
+  - <span data-ttu-id="0f7a8-108">Содержимое собрания</span><span class="sxs-lookup"><span data-stu-id="0f7a8-108">Meeting content</span></span>
 
-  - Update files (for Device Update Service)
+  - <span data-ttu-id="0f7a8-109">Метаданные содержимого собрания</span><span class="sxs-lookup"><span data-stu-id="0f7a8-109">Meeting content metadata</span></span>
 
-  - Address Book files
+  - <span data-ttu-id="0f7a8-110">Журналы соответствия требованиям к собранию</span><span class="sxs-lookup"><span data-stu-id="0f7a8-110">Meeting compliance logs</span></span>
 
-Lync Server 2013 needs hard disk space to store its databases and transaction logs in addition to files on file shares previously listed.
+  - <span data-ttu-id="0f7a8-111">Файлы данных приложения (используется внутренне компонентом сервера приложений)</span><span class="sxs-lookup"><span data-stu-id="0f7a8-111">Application data files (used internally by the application server component)</span></span>
 
-You should monitor the disk space regularly to help to make sure that the Lync Server 2013 deployment is not adversely affected because of insufficient storage resources.
+  - <span data-ttu-id="0f7a8-112">Групповая связь с веб-службой сервера и ее соответствием (для хранения файлов, отправленных в веб-службу группового чата)</span><span class="sxs-lookup"><span data-stu-id="0f7a8-112">Group Chat Server web service and compliance folders (to store files uploaded to the Group Chat web service)</span></span>
 
-Compare and maintain statistical information about available disk space on each Lync Server 2013 volume and expected growth of the databases and transaction log files. This helps with capacity planning and adding storage when the storage resources are required.
+  - <span data-ttu-id="0f7a8-113">XML-файлы соответствия групповой чат (содержащие записи соответствия требованиям группового чата)</span><span class="sxs-lookup"><span data-stu-id="0f7a8-113">Group Chat compliance XML files (that contain Group Chat compliance records)</span></span>
 
-To accommodate troubleshooting and disaster recovery situations, we recommend that available free volume space be equal or greater than 110 percent of the size of database.
+  - <span data-ttu-id="0f7a8-114">Файлы обновления (для службы обновления устройств)</span><span class="sxs-lookup"><span data-stu-id="0f7a8-114">Update files (for Device Update Service)</span></span>
 
-You can check free disk space by using the following methods:
+  - <span data-ttu-id="0f7a8-115">Файлы адресной книги</span><span class="sxs-lookup"><span data-stu-id="0f7a8-115">Address Book files</span></span>
 
-1.  **System Center Operations Manager**   System Center Operations Manager can be used to warn administrators when volume space is constrained.
+<span data-ttu-id="0f7a8-116">Lync Server 2013 нуждается в жестком диске для хранения баз данных и журналов транзакций в дополнение к файлам в перечисленных выше файловых ресурсах.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-116">Lync Server 2013 needs hard disk space to store its databases and transaction logs in addition to files on file shares previously listed.</span></span>
 
-2.  **Running a script**   Monitor disk space by running a script that sends you a message if the available hard disk space falls below 20 percent. You can find a sample script on Microsoft Script Center on TechNet, examine: [http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+<span data-ttu-id="0f7a8-117">Чтобы убедиться в том, что развертывание Lync Server 2013 не может негативно повлиять на место на диске, необходимо регулярно следить за тем, что в этом случае недостаточно ресурсов хранилища.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-117">You should monitor the disk space regularly to help to make sure that the Lync Server 2013 deployment is not adversely affected because of insufficient storage resources.</span></span>
 
-3.  **Windows Explorer**   Use Windows Explorer to check for disk space on volumes that store Lync Server 2013 logs and databases.
+<span data-ttu-id="0f7a8-118">Сравните и отслеживайте статистические данные о доступном дисковом пространстве на каждом томе Lync Server 2013 и ожидаемом росте баз данных и файлов журнала транзакций.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-118">Compare and maintain statistical information about available disk space on each Lync Server 2013 volume and expected growth of the databases and transaction log files.</span></span> <span data-ttu-id="0f7a8-119">Это помогает при планировании мощности и добавлении хранилища, когда требуются ресурсы хранилища.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-119">This helps with capacity planning and adding storage when the storage resources are required.</span></span>
+
+<span data-ttu-id="0f7a8-120">Для устранения неполадок и аварийного восстановления рекомендуется, чтобы объем свободного места в свободном объеме не превышал 110 процента от размера базы данных.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-120">To accommodate troubleshooting and disaster recovery situations, we recommend that available free volume space be equal or greater than 110 percent of the size of database.</span></span>
+
+<span data-ttu-id="0f7a8-121">Вы можете проверить свободное место на диске, выполнив указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-121">You can check free disk space by using the following methods:</span></span>
+
+1.  <span data-ttu-id="0f7a8-122">\*\*\*\*   Системный центр Operations Manager System Center Operations Manager может использоваться для предупреждения администраторов о том, что место в томе ограничено.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-122">**System Center Operations Manager**   System Center Operations Manager can be used to warn administrators when volume space is constrained.</span></span>
+
+2.  <span data-ttu-id="0f7a8-123">\*\*\*\* Выполнив сценарий, который посылает вам сообщение, если объем свободного места на жестком диске падает ниже 20%.   </span><span class="sxs-lookup"><span data-stu-id="0f7a8-123">**Running a script**   Monitor disk space by running a script that sends you a message if the available hard disk space falls below 20 percent.</span></span> <span data-ttu-id="0f7a8-124">Вы можете найти образец сценария в центре сценариев Майкрософт на веб-сайте TechNet, изучите следующие сведения:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)</span><span class="sxs-lookup"><span data-stu-id="0f7a8-124">You can find a sample script on Microsoft Script Center on TechNet, examine: [http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)</span></span>
+
+3.  <span data-ttu-id="0f7a8-125">**Проводник**   Windows использует проводник для проверки места на диске для томов, в которых хранятся журналы и базы данных Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0f7a8-125">**Windows Explorer**   Use Windows Explorer to check for disk space on volumes that store Lync Server 2013 logs and databases.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

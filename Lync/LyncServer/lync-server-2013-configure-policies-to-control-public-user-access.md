@@ -1,82 +1,132 @@
-﻿---
-title: "Lync Server 2013: настройка политик управления общим доступом пользователей"
-TOCTitle: Конфигурация политик для управления общим доступом пользователей
-ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520946(v=OCS.15)
-ms:contentKeyID: 49308869
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: конфигурация политик для управления общим доступом пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure policies to control public user access
+ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
+ms:contentKeyID: 48183343
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841356"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Конфигурация политик для управления общим доступом пользователей в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a><span data-ttu-id="5f1d7-102">Конфигурация политик для управления общим доступом пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f1d7-102">Configure policies to control public user access in Lync Server 2013</span></span>
 
-Подключение к общедоступной службе обмена мгновенными сообщениями позволяет пользователям организации использовать мгновенные сообщения для взаимодействия с пользователями служб обмена мгновенными сообщениями, предоставленными поставщиками общедоступных услуг обмена мгновенными сообщениями, в том числе сеть интернет-услуг Windows Live, Yahoo\! и AOL. Чтобы управлять взаимодействием пользователей общедоступных служб с внутренними пользователями Lync Server, можно настроить одну или несколько политик доступа внешних пользователей. Подключение к общедоступной службе обмена мгновенными сообщениями – это дополнительный компонент, использующий конфигурацию среды и пользователей организации. Он также зависит от предоставления услуги поставщиком общедоступных услуг обмена мгновенными сообщениями. Сведения о предоставлении используемой среде возможности взаимодействовать с общедоступными поставщиками см. в руководстве по предоставлению подключения к общедоступной службе обмена мгновенными сообщениями для Microsoft Lync Server, Office Communications Server и Live Communications Server: <http://go.microsoft.com/fwlink/?linkid=269821>
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="5f1d7-103">_**Тема последнего изменения:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="5f1d7-103">_**Topic Last Modified:** 2013-10-07_</span></span>
+
+<span data-ttu-id="5f1d7-104">Общедоступная служба обмена мгновенными сообщениями позволяет пользователям в вашей организации общаться с пользователями служб обмена мгновенными сообщениями, предоставляемыми поставщиками Интернет-сообщений, в том числе с помощью сети Windows\!Live, Yahoo и AOL.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-104">Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public IM service providers, including the Windows Live network of Internet services, Yahoo\!, and AOL.</span></span> <span data-ttu-id="5f1d7-105">Вы настраиваете одну или несколько политик доступа внешних пользователей для управления совместным доступом пользователей с помощью внутренних пользователей Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-105">You configure one or more external user access policies to control whether public users can collaborate with internal Lync Server users.</span></span> <span data-ttu-id="5f1d7-106">Общедоступная служба обмена мгновенными сообщениями — это дополнительный компонент, который основывается на конфигурации развертывания и пользователей.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-106">Public instant messaging connectivity is an added feature that relies on configuration of your deployment and users.</span></span> <span data-ttu-id="5f1d7-107">Это также зависит от подготовки службы в общедоступном поставщике обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-107">It also depends on the provisioning of the service at the public IM provider.</span></span> <span data-ttu-id="5f1d7-108">Сведения о том, как подготовить развертывание для использования общедоступных поставщиков, можно найти в статье Руководство по подготовке службы подключения к общедоступным СООБЩЕНИЯм для Microsoft Lync Server, Office Communications Server и сервера Live Communications Server.[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)</span><span class="sxs-lookup"><span data-stu-id="5f1d7-108">For information on how to provision your deployment to use the public providers, see the “Public IM Connectivity Provisioning Guide for Microsoft Lync Server, Office Communications Server, and Live Communications Server” guide: [http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>С 1 сентября 2012 г. прекращена продажа лицензий пользовательских подписок на подключение к общедоступным службам обмена мгновенными сообщениями Microsoft Lync (PIC USL) по новым или продляемым соглашениям. Клиенты с активными лицензиями смогут продолжать использование федерации с Yahoo! Messenger до отключения службы. Поддержка служб AOL и Yahoo! завершается в июне 2014 г. Дополнительные сведения см. в статье <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013</a>.</p></li>
-> 
-> <li><p>Лицензия подписки пользователя на возможность подключения к общедоступным службам обмена мгновенными сообщениями представляет собой лицензию подписки на пользователя в месяц, которая необходима для того, чтобы Lync Server или Office Communications Server могли образовывать федерацию с Yahoo! Messenger. Корпорация Майкрософт смогла предоставлять данную услугу благодаря поддержке со стороны компании Yahoo!, однако соответствующий базовый договор расторгается.</p></li>
-> 
-> 
-> <li><p>Сейчас, более чем когда-либо раньше, Lync представляет собой эффективное средство для объединения организаций и отдельных пользователей по всему миру. Федерация с Windows Live Messenger не требует никаких дополнительных лицензий на пользователя/устройство, кроме Lync Standard CAL. В этот список будет добавлена федерация Skype, позволяя пользователям Lync взаимодействовать с сотнями миллионов людей посредством мгновенных сообщений и голосовой связи.</p></li></ul>
+> <UL>
+> <LI>
+> <P><span data-ttu-id="5f1d7-109">По состоянию на 1 сентября 2012, лицензия на подписку на общедоступные службы обмена мгновенными сообщениями в Microsoft Lync ("PIC усл") больше недоступна для приобретения новых или обновленных договоров.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-109">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="5f1d7-110">Пользователи с активными лицензиями смогут продолжать использовать федерацию с помощью Yahoo!</span><span class="sxs-lookup"><span data-stu-id="5f1d7-110">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="5f1d7-111">Messenger, пока служба не отключается.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-111">Messenger until the service shut down date.</span></span> <span data-ttu-id="5f1d7-112">Дата окончания жизненного цикла 2014 для AOL и Yahoo! в течение июня.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-112">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="5f1d7-113">было объявлено.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-113">has been announced.</span></span> <span data-ttu-id="5f1d7-114">Подробности можно найти <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">в разделе Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-114">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="5f1d7-115">УСЛ PIC является лицензией на ежемесячную подписку для пользователей Lync Server или Office Communications Server, которая требуется для Федерации с помощью Yahoo!.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-115">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="5f1d7-116">Messenger.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-116">Messenger.</span></span> <span data-ttu-id="5f1d7-117">Возможность предоставления этой услуги корпорацией Майкрософт зависит от поддержки компании Yahoo!, основного соглашения, для которого выполняется обмотка.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-117">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="5f1d7-118">В некоторых случаях Lync — это мощный инструмент для связи между организациями и людьми по всему миру.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-118">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="5f1d7-119">Для интеграции с Windows Live Messenger не требуется дополнительных лицензий на пользователей и устройств за пределами стандартной клиентской лицензии Lync.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-119">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="5f1d7-120">В этот список будет добавлена Федерация Skype, благодаря чему пользователи Lync смогут общаться с сотнями миллионов людей с помощью обмена мгновенными сообщениями и голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-120">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
 
-Для доступа к сайту предоставления службы обмена мгновенными сообщениями Microsoft Lync Server используйте следующую ссылку: <http://go.microsoft.com/fwlink/?linkid=212638>
 
-Для управления доступом пользователей общедоступных служб можно настроить политики на глобальном уровне, уровне сайта и пользовательском уровне. Сведения о типах настраиваемых политик см. в статье [Настройка поддержки доступа внешних пользователей в Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) в документации по развертыванию или в документации по планированию. Параметры политики Lync Server, которые применяются на уровне одной политики, могут переопределять параметры, применяемые на уровне другой политики. Приоритет политик Lync Server: политика пользователя (самое большое влияние) переопределяет политику сайта, а политика сайта — глобальную политику (минимальное влияние). То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект.
+</div>
 
-В случае приглашений к обмену мгновенными сообщениями ответ зависит от клиентского ПО. Запрос принимается, если внешние отправители не блокированы пользовательским правилом (то есть настройками пользовательских списков клиентов **Разрешить** и **Заблокировать** для клиентов). Кроме того, приглашения к обмену мгновенными сообщениями могут быть блокированы, если пользователь выбирает блокировку всех мгновенных сообщений от пользователей, не входящих в его список **Разрешить** .
+<span data-ttu-id="5f1d7-121">Чтобы получить доступ к сайту подготовки службы подключения к общедоступным службам обмена мгновенными сообщениями Microsoft Lync Server, используйте следующую ссылку:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)</span><span class="sxs-lookup"><span data-stu-id="5f1d7-121">To access the Microsoft Lync Server Public IM Connectivity Provisioning site, use the following link: [http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)</span></span>
+
+<span data-ttu-id="5f1d7-122">Для управления доступом пользователей можно настроить политики на уровне Global, site и User.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-122">To control public user access, you can configure policies at the global, site, and user level.</span></span> <span data-ttu-id="5f1d7-123">Дополнительные сведения о типах политик, которые можно настроить, приведены в разделе [Настройка поддержки внешних пользователей в Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) в документации по развертыванию или документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-123">For details about the types of policies that you can configure, see [Configuring support for external user access in Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) in the Deployment documentation or the Planning documentation.</span></span> <span data-ttu-id="5f1d7-124">Параметры политики сервера Lync Server, примененные на одном уровне политики, могут переопределять параметры, примененные на другом уровне политики.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-124">Lync Server policy settings that are applied at one policy level can override settings that are applied at another policy level.</span></span> <span data-ttu-id="5f1d7-125">Приоритет политики Lync Server: политика пользователей (наибольшее влияние) переопределяет политику сайта, а затем политика сайта переопределяет глобальную политику (наименее влияние).</span><span class="sxs-lookup"><span data-stu-id="5f1d7-125">Lync Server policy precedence is: User policy (most influence) overrides a Site policy, and then a Site policy overrides a Global policy (least influence).</span></span> <span data-ttu-id="5f1d7-126">То есть, чем ближе параметр политики к объекту, на который она влияет, тем больше влияния она оказывает на объект.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-126">This means that the closer the policy setting is to the object that the policy is affecting, the more influence it has on the object.</span></span>
+
+<span data-ttu-id="5f1d7-127">В случае приглашения на обмен мгновенными сообщениями ответ зависит от клиентского программного обеспечения.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-127">In the case of IM invitations, the response depends on the client software.</span></span> <span data-ttu-id="5f1d7-128">Запрос принимается только в том случае, если внешние отправители явным образом не блокируются пользователем с помощью настраиваемого правила (то есть в параметрах **разрешенных** и **заблокированных** списков пользователей).</span><span class="sxs-lookup"><span data-stu-id="5f1d7-128">The request is accepted unless external senders are explicitly blocked by a user-configured rule (that is, the settings in the user’s client **Allow** and **Block** lists).</span></span> <span data-ttu-id="5f1d7-129">Кроме того, приглашения на обмен мгновенными сообщениями можно блокировать, если пользователь заблокирует все сообщения от пользователей, не включенных в список **разрешений** .</span><span class="sxs-lookup"><span data-stu-id="5f1d7-129">Additionally, IM invitations can be blocked if a user elects to block all IM from users who are not on his or her **Allow** list.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Политики управления доступом пользователей общедоступных служб можно настроить даже при отсутствии федерации в организации. Но настроенные политики действуют только при включенных федеративных отношениях для организации. Подробные сведения о включении федерации см. в статье <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Включение или отключения удаленного доступа пользователей в Lync Server 2013</a> в документации по развертыванию или в документации по эксплуатации. Кроме того, если задана пользовательская политика управления доступом пользователей общедоступных служб, она применяется только к пользователям, для которых разрешено использование Lync Server и настроено использование политики. Подробные сведения о задании пользователей общедоступных служб, которые могут подключаться к Lync Server, см. в статье <a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Назначение политики доступа внешних пользователей пользователю, разрешенному для Lync в Lync Server 2013</a> в документации по развертыванию или в документации по эксплуатации.
+> <span data-ttu-id="5f1d7-130">Вы можете настроить политики для управления доступом пользователей и даже в том случае, если вы не включили Федерацию для своей организации.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-130">You can configure policies to control public user access, even if you have not enabled federation for your organization.</span></span> <span data-ttu-id="5f1d7-131">Тем не менее, настроенные политики действуют только в том случае, если включена Федерация для вашей организации.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-131">However, the policies that you configure are in effect only when you have federation enabled for your organization.</span></span> <span data-ttu-id="5f1d7-132">Дополнительные сведения о включении Федерации можно найти <A href="lync-server-2013-enable-or-disable-remote-user-access.md">в разделе Включение и отключение удаленного доступа пользователей в Lync Server 2013</A> в документации по развертыванию или документации по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-132">For details about enabling federation, see <A href="lync-server-2013-enable-or-disable-remote-user-access.md">Enable or disable remote user access in Lync Server 2013</A> in the Deployment documentation or the Operations documentation.</span></span> <span data-ttu-id="5f1d7-133">Кроме того, если указать политику пользователей для управления доступом пользователей, политика применяется только к пользователям, которые включены в Lync Server и настроены на использование политики.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-133">Additionally, if you specify a user policy to control public user access, the policy applies only to users that are enabled for Lync Server and configured to use the policy.</span></span> <span data-ttu-id="5f1d7-134">Подробнее об указании общедоступных пользователей, которые могут входить на сервер Lync Server, можно узнать в разделе <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">назначение внешней политики доступа пользователю Lync на Lync server 2013</A> в документации по развертыванию или документации по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-134">For details about specifying public users that can sign in to Lync Server, see <A href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Assign an external user access policy to a Lync enabled user in Lync Server 2013</A> in the Deployment documentation or the Operations documentation.</span></span>
 
-Для настройки политики, поддерживающей доступ пользователей одного или нескольких общедоступных поставщиков услуг обмена мгновенными сообщениями, используется следующая процедура.
 
-## Настройка политики внешнего доступа для поддержки доступа пользователей общедоступных служб
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+</div>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="5f1d7-135">Чтобы настроить политику для поддержки доступа пользователей одного или нескольких общедоступных служб обмена мгновенными сообщениями, выполните описанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-135">Use the following procedure to configure a policy to support access by users of one or more public IM providers.</span></span>
 
-3.  На левой панели навигации щелкните **Внешний доступ пользователей** , затем щелкните **Политика внешнего доступа** .
+<div>
 
-4.  На странице **Политика внешнего доступа** выполните одно из следующих действий.
+## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a><span data-ttu-id="5f1d7-136">Настройка политики внешнего доступа для поддержки общего доступа пользователей</span><span class="sxs-lookup"><span data-stu-id="5f1d7-136">To configure an external access policy to support public user access</span></span>
+
+1.  <span data-ttu-id="5f1d7-137">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-137">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="5f1d7-138">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-138">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="5f1d7-139">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="5f1d7-139">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="5f1d7-140">На панели навигации слева выберите **внешний доступ для пользователей**и нажмите кнопку **Политика внешних доступа**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-140">In the left navigation bar, click **External User Access**, and then click **External Access Policy**.</span></span>
+
+4.  <span data-ttu-id="5f1d7-141">На странице " **политика внешней доступа** " выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-141">On the **External Access Policy** page, do one of the following:</span></span>
     
-      - Чтобы настроить глобальную политику для поддержки доступа пользователей общедоступных служб, щелкните глобальную политику, щелкните **Изменить** , а затем щелкните **Показать сведения** .
+      - <span data-ttu-id="5f1d7-142">Чтобы настроить глобальную политику для поддержки доступа пользователей Public, щелкните глобальную политику, нажмите кнопку **изменить**, а затем выберите пункт **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-142">To configure the global policy to support public user access, click the global policy, click **Edit**, and then click **Show details**.</span></span>
     
-      - Чтобы создать новую политику сайта, щелкните **Создать** , затем щелкните **Политика сайта** . В разделе **Выбор сайта** щелкните подходящий сайт в списке и нажмите кнопку **ОК** .
+      - <span data-ttu-id="5f1d7-143">Чтобы создать новую политику сайта, нажмите кнопку **создать**и выберите пункт **Политика сайта**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-143">To create a new site policy, click **New**, and then click **Site policy**.</span></span> <span data-ttu-id="5f1d7-144">В разделе **выберите сайт**выберите нужный сайт из списка и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-144">In **Select a Site**, click the appropriate site from the list and then click **OK**.</span></span>
     
-      - Чтобы создать новую политику для пользователей, щелкните **Создать** , затем щелкните **Политика пользователей** . В окне **Создание политики внешнего доступа** задайте в поле **Имя** уникальное имя, показывающее область применения этой политики (например, **EnablePublicUsers** для пользовательской политики, разрешающей взаимодействие с пользователями общедоступных служб).
+      - <span data-ttu-id="5f1d7-145">Чтобы создать политику пользователя, нажмите кнопку **создать**и выберите пункт **Политика пользователя**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-145">To create a new user policy, click **New**, and then click **User policy**.</span></span> <span data-ttu-id="5f1d7-146">В **новой политике внешнего доступа**Создайте уникальное имя в поле Name ( **имя** ), которое указывает политику пользователя (например, **енаблепубликусерс** для политики пользователя, которая позволяет использовать связь для общедоступных пользователей).</span><span class="sxs-lookup"><span data-stu-id="5f1d7-146">In **New External Access Policy**, create a unique name in the **Name** field that indicates what the user policy covers (for example, **EnablePublicUsers** for a user policy that enables communications for public users).</span></span>
     
-      - Чтобы изменить существующую политику, щелкните ее в таблице, щелкните **Изменить** , затем **Показать сведения** .
+      - <span data-ttu-id="5f1d7-147">Чтобы изменить существующую политику, выберите соответствующую политику, указанную в таблице, и нажмите кнопку **изменить**, а затем выберите команду **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-147">To change an existing policy, click the appropriate policy listed in the table, click **Edit**, and then click **Show details**.</span></span>
 
-5.  (Необязательно) Если необходимо добавить или изменить описание, укажите сведения для этой политики в пункте **Описание** .
+5.  <span data-ttu-id="5f1d7-148">Необязательно Если вы хотите добавить или изменить описание, укажите сведения о политике в **описании**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-148">(Optional) If you want to add or edit a description, specify the information for the policy in **Description**.</span></span>
 
-6.  Выполните одно из указанных ниже действий.
+6.  <span data-ttu-id="5f1d7-149">Выполните одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="5f1d7-149">Do one of the following:</span></span>
     
-      - Чтобы разрешить для политики доступ пользователей общедоступных служб, установите флажок **Разрешить взаимодействие с незарегистрированными пользователями** .
+      - <span data-ttu-id="5f1d7-150">Чтобы разрешить доступ к политике общим пользователям, установите флажок **разрешить связь с общедоступными пользователями** .</span><span class="sxs-lookup"><span data-stu-id="5f1d7-150">To enable public user access for the policy, select the **Enable communications with public users** check box.</span></span>
     
-      - Чтобы запретить для политики доступ пользователей общедоступных служб, снимите флажок **Разрешить взаимодействие с незарегистрированными пользователями** .
+      - <span data-ttu-id="5f1d7-151">Чтобы отключить общий доступ пользователей для политики, снимите флажок **разрешить связь с общедоступными пользователями** .</span><span class="sxs-lookup"><span data-stu-id="5f1d7-151">To disable public user access for the policy, clear the **Enable communications with public users** check box.</span></span>
 
-7.  Щелкните **Исполнить** .
+7.  <span data-ttu-id="5f1d7-152">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-152">Click **Commit**.</span></span>
 
-Чтобы включить доступ пользователей общедоступных служб, необходимо также включить в организации поддержку федерации. Дополнительные сведения см. в разделе [Настройка политик управления доступом федеративных пользователей в Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+<span data-ttu-id="5f1d7-153">Для включения доступа Public User необходимо также включить поддержку Федерации в Организации.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-153">To enable public user access, you must also enable support for federation in your organization.</span></span> <span data-ttu-id="5f1d7-154">Подробности можно найти [в разделе Настройка политик для управления доступом к федеративным пользователям в Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="5f1d7-154">For details, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).</span></span>
 
-В случае пользовательской политики, также необходимо настроить и применить политику к пользователям общедоступных служб, которым требуется разрешить совместную работу с пользователями общедоступных служб. Дополнительные сведения см. в разделе [Назначение политик уровня пользователя в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md).
+<span data-ttu-id="5f1d7-155">Если это политика пользователя, необходимо также применить политику к общедоступным пользователям, которые должны быть доступны для совместной работы с общедоступными пользователями.</span><span class="sxs-lookup"><span data-stu-id="5f1d7-155">If this is a user policy, you must also apply the policy to public users that you want to be able to collaborate with public users.</span></span> <span data-ttu-id="5f1d7-156">Подробнее смотрите в разделе [назначение политик для пользователей в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md).</span><span class="sxs-lookup"><span data-stu-id="5f1d7-156">For details, see [Assigning per-user policies in Lync Server 2013](lync-server-2013-assigning-per-user-policies.md).</span></span>
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Создание или изменение общедоступных федеративных поставщиков SIP в Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)  
+## <a name="see-also"></a><span data-ttu-id="5f1d7-157">См. также</span><span class="sxs-lookup"><span data-stu-id="5f1d7-157">See Also</span></span>
 
-#### Другие ресурсы
 
-[Управление федеративными поставщиками SIP в организации в Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)
+[<span data-ttu-id="5f1d7-158">Создание или изменение общедоступных федеративных поставщиков SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f1d7-158">Create or edit public SIP federated providers in Lync Server 2013</span></span>](lync-server-2013-create-or-edit-public-sip-federated-providers.md)  
+
+
+[<span data-ttu-id="5f1d7-159">Управление федеративными поставщиками SIP в организации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5f1d7-159">Manage SIP federated providers for your organization in Lync Server 2013</span></span>](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

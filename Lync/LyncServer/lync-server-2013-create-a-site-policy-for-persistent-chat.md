@@ -1,49 +1,96 @@
-﻿---
-title: 'Lync Server 2013: создание политики сайта для сохраняемого чата'
-TOCTitle: Создание политики сайта для сохраняемого чата
-ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204693(v=OCS.15)
-ms:contentKeyID: 49309015
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: создание политики сайта для сохраняемого чата'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site policy for Persistent Chat
+ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)
+ms:contentKeyID: 48183470
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: be98028bf06c20c82dca98fc3bc20d25e97a94c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание политики сайта для сохраняемого чата в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-06_
+# <a name="create-a-site-policy-for-persistent-chat-in-lync-server-2013"></a><span data-ttu-id="066c9-102">Создание политики сайта для сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="066c9-102">Create a site policy for Persistent Chat in Lync Server 2013</span></span>
 
-Для каждого развернутого узла можно создать определенную политику сохраняемый сеанс беседы.
+</div>
 
-Конфигурация в политике сайта переопределяет глобальную политику, но только для сайта, к которому применяется эта политика.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="066c9-103">_**Тема последнего изменения:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="066c9-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="066c9-104">Для каждого сайта, который вы развернули, вы можете создать политику постоянной беседы для определенного сайта.</span><span class="sxs-lookup"><span data-stu-id="066c9-104">For each site you have deployed, you can create a site-specific Persistent Chat policy.</span></span>
+
+<span data-ttu-id="066c9-105">Конфигурация в политике сайта переопределяет глобальную политику, но только для сайта, к которому применяется эта политика.</span><span class="sxs-lookup"><span data-stu-id="066c9-105">The configuration in the site policy overrides the global policy, but only for the specific site covered by the site policy.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Перед настройкой и использованием сохраняемого сеанса беседы нужно добавить в топологию поддержку сохраняемого сеанса беседы с помощью топологий и затем опубликовать топологию. Дополнительные сведения см. в разделе <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Добавление сервера сохраняемого сеанса беседы в развертывание в Lync Server 2013</a> документации по развертыванию.<br />Инструкции по настройке параметров конфигурации сохраняемого сеанса беседы см. в разделе <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Настройка параметров сервера сохраняемого чата на глобальном уровне или для пула сервера сохраняемого чата в Lync Server 2013</a> документации по развертыванию.
+> <span data-ttu-id="066c9-106">Чтобы настроить и использовать сохраняемый сервер чата, необходимо сначала использовать Topology Builder, чтобы добавить в топологию постоянную поддержку сервера чата, а затем опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="066c9-106">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="066c9-107">Подробные сведения о том, <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">как добавить сохраняемый сервер чата в развертывание в среде Lync server 2013, можно</A> найти в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="066c9-107">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="066c9-108">Чтобы настроить параметры конфигурации сервера для сохраняемого чата, ознакомьтесь с разстройкой <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Параметры сервера сохраняемого чата глобально или для постоянного пула серверов чатов в Lync server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="066c9-108">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
-## Чтобы создать политику сохраняемый сеанс беседы для узла
 
-1.  Войдите в систему на любом компьютере во внутреннем развертывании с помощью учетной записи пользователя, которому назначена роль CsPersistentChatAdministrator, CsAdministrator или CsUserAdministrator.
 
-2.  В меню **Пуск** выберите панель управления Lync Server или откройте окно браузера и введите URL-адрес страницы администрирования. Дополнительные сведения о различных способах запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  На панели навигации слева нажмите **сохраняемый сеанс беседы**, затем выберите **Политика сохраняемый сеанс беседы**.
+<div>
+
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a><span data-ttu-id="066c9-109">Создание политики сохраняемого чата для сайта</span><span class="sxs-lookup"><span data-stu-id="066c9-109">To create a Persistent Chat policy for a site</span></span>
+
+1.  <span data-ttu-id="066c9-110">Войдите в систему на любом компьютере во внутреннем развертывании с помощью учетной записи пользователя, которому назначена роль CsPersistentChatAdministrator, CsAdministrator или CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="066c9-110">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="066c9-111">В меню **Пуск** выберите Панель управления Lync Server или откройте окно браузера и введите URL-адрес администратора.</span><span class="sxs-lookup"><span data-stu-id="066c9-111">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="066c9-112">Дополнительные сведения о различных способах запуска панели управления Lync Server можно найти в разделе [Открытие средства администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="066c9-112">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="066c9-113">В левой панели навигации нажмите **Сохраняемый чат** и выберите пункт **Политика сохраняемого чата**.</span><span class="sxs-lookup"><span data-stu-id="066c9-113">In the left navigation bar, click **Persistent Chat**, and then click **Persistent Chat Policy**.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Можно также использовать командлеты Windows PowerShell. См. раздел <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell</a> в документации по развертыванию.
+    > <span data-ttu-id="066c9-114">Вы также можете использовать командлеты Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="066c9-114">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="066c9-115">Дополнительные сведения можно найти в разделе <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Настройка сервера сохраняемого чата с помощью командлетов Windows PowerShell</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="066c9-115">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in the Deployment documentation.</span></span>
 
-4.  Нажмите кнопку **Создать** и выберите **Политика сайта** .
-
-5.  В окне **Выбор узла** щелкните узел, к которому нужно применить эту политику.
-
-6.  В разделе **Новая политика сохраняемый сеанс беседы** выполните следующие действия:
     
-      - В поле **Имя** укажите имя новой политики узла (например, Редмонд).
-    
-      - В поле **Описание** укажите сведения о цели политики узла (например, политика комнаты чата для узла Редмонд).
-    
-      - Чтобы управлять сохраняемый сеанс беседы для всех узлов, которые не контролируются политикой уровня узла, установите флажок **Включить сохраняемый сеанс беседы**.
+    </div>
 
-7.  Щелкните **Исполнить** .
+4.  <span data-ttu-id="066c9-116">Нажмите кнопку **Создать** и выберите **Политика сайта**.</span><span class="sxs-lookup"><span data-stu-id="066c9-116">Click **New**, and then click **Site policy**.</span></span>
+
+5.  <span data-ttu-id="066c9-117">В окне **Выбор сайта** нажмите сайт, к которому нужно применить эту политику.</span><span class="sxs-lookup"><span data-stu-id="066c9-117">In **Select a Site**, click the site to which the policy is to be applied.</span></span>
+
+6.  <span data-ttu-id="066c9-118">В окне **Создание политики сохраняемого чата** выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="066c9-118">In **New Persistent Chat Policy**, do the following:</span></span>
+    
+      - <span data-ttu-id="066c9-119">В поле **Имя** укажите имя новой политики сайта (например, Редмонд).</span><span class="sxs-lookup"><span data-stu-id="066c9-119">In **Name**, specify a name for the new site policy (for example, Redmond).</span></span>
+    
+      - <span data-ttu-id="066c9-120">В поле **Описание** укажите сведения о цели политики сайта (например, политика комнаты чата для сайта Редмонд).</span><span class="sxs-lookup"><span data-stu-id="066c9-120">In **Description**, provide details about what the site policy is (for example, chat room policy for Redmond).</span></span>
+    
+      - <span data-ttu-id="066c9-121">Чтобы управлять сохраняемым чатом для всех сайтов, которые не контролируются политикой сайта, установите или снимите флажок **Разрешить сохраняемый чат**.</span><span class="sxs-lookup"><span data-stu-id="066c9-121">To control Persistent Chat for all sites not specifically controlled through a site policy, select or clear the **Enable Persistent Chat** check box.</span></span>
+
+7.  <span data-ttu-id="066c9-122">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="066c9-122">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

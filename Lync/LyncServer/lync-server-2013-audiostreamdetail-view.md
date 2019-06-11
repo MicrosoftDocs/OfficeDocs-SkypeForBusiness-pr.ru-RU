@@ -1,21 +1,41 @@
-﻿---
-title: Представление AudioStreamDetail
-TOCTitle: Представление AudioStreamDetail
-ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721859(v=OCS.15)
-ms:contentKeyID: 49888155
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: представление Аудиостреамдетаил'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: AudioStreamDetail view
+ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721859(v=OCS.15)
+ms:contentKeyID: 49733792
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10992007c76321f8ed3b436b9786cbef840173ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841901"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Представление AudioStreamDetail
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a><span data-ttu-id="adc5d-102">Аудиостреамдетаил представления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="adc5d-102">AudioStreamDetail view in Lync Server 2013</span></span>
 
-В представлении AudioStreamDetail хранятся сведения о всех аудиопотоках в базе данных. Это представление появилось в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="adc5d-103">_**Тема последнего изменения:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="adc5d-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+
+<span data-ttu-id="adc5d-104">В представлении Аудиостреамдетаил хранятся сведения о каждом звуковом потоке в базе данных.</span><span class="sxs-lookup"><span data-stu-id="adc5d-104">The AudioStreamDetail View stores information about each audio stream in the database.</span></span> <span data-ttu-id="adc5d-105">Это представление было представлено в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="adc5d-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -26,678 +46,689 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбец</th>
-<th>Тип данных</th>
-<th>Сведения</th>
+<th><span data-ttu-id="adc5d-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="adc5d-106">Column</span></span></th>
+<th><span data-ttu-id="adc5d-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="adc5d-107">Data Type</span></span></th>
+<th><span data-ttu-id="adc5d-108">Подробности</span><span class="sxs-lookup"><span data-stu-id="adc5d-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>SessionTime</p></td>
-<td><p>datetime</p></td>
-<td><p>Ссылка из таблицы <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-109">Сессионтиме</span><span class="sxs-lookup"><span data-stu-id="adc5d-109">SessionTime</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-110">datetime</span><span class="sxs-lookup"><span data-stu-id="adc5d-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-111">На которую ссылается <a href="lync-server-2013-medialine-table.md">Таблица медиалине в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="adc5d-111">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SessionSeq</p></td>
-<td><p>int</p></td>
-<td><p>Ссылка из таблицы <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-112">Сессионсек</span><span class="sxs-lookup"><span data-stu-id="adc5d-112">SessionSeq</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-113">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-113">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-114">На которую ссылается <a href="lync-server-2013-medialine-table.md">Таблица медиалине в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="adc5d-114">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>StreamId</p></td>
-<td><p>int</p></td>
-<td><p>Уникальный идентификатор в линии мультимедиа.</p></td>
+<td><p><span data-ttu-id="adc5d-115">Стреамид</span><span class="sxs-lookup"><span data-stu-id="adc5d-115">StreamId</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-116">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-116">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-117">Уникальный идентификатор в строке мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="adc5d-117">Unique ID within a media line.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>StartTime</p></td>
-<td><p>datetime</p></td>
-<td><p>Время начала сеанса.</p></td>
+<td><p><span data-ttu-id="adc5d-118">StartTime</span><span class="sxs-lookup"><span data-stu-id="adc5d-118">StartTime</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-119">datetime</span><span class="sxs-lookup"><span data-stu-id="adc5d-119">datetime</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-120">Время начала сеанса.</span><span class="sxs-lookup"><span data-stu-id="adc5d-120">Start time of the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>EndTime</p></td>
-<td><p>datetime</p></td>
-<td><p>Время окончания сеанса.</p></td>
+<td><p><span data-ttu-id="adc5d-121">EndTime</span><span class="sxs-lookup"><span data-stu-id="adc5d-121">EndTime</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-122">datetime</span><span class="sxs-lookup"><span data-stu-id="adc5d-122">datetime</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-123">Время окончания сеанса.</span><span class="sxs-lookup"><span data-stu-id="adc5d-123">End time of the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DialogCategory</p></td>
-<td><p>bit</p></td>
-<td><p>Категория диалога; 0 — это зона от Lync Server до сервера-посредника; 1 — это зона от сервера-посредника до шлюза ТСОП.</p></td>
+<td><p><span data-ttu-id="adc5d-124">Диалогкатегори</span><span class="sxs-lookup"><span data-stu-id="adc5d-124">DialogCategory</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-125">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-125">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-126">Категория диалоговых окон: 0 — сервер Lync Server — серверное средство для устранения проблем; 1 — это сервер, на котором выдается посредник для шлюза PSTN.</span><span class="sxs-lookup"><span data-stu-id="adc5d-126">Dialog category: 0 is the Lync Server to Mediation Server leg; 1 is the Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MediationServerBypassFlag</p></td>
-<td><p>bit</p></td>
-<td><p>Флаг, указывающий, выполнял ли вызов обход сервера-посредника.</p></td>
+<td><p><span data-ttu-id="adc5d-127">Медиатионсервербипассфлаг</span><span class="sxs-lookup"><span data-stu-id="adc5d-127">MediationServerBypassFlag</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-128">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-128">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-129">Флаг, указывающий, обходит ли звонок.</span><span class="sxs-lookup"><span data-stu-id="adc5d-129">Flag indicating if the call was bypassed or not.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>MediaBypassWarningFlag</p></td>
-<td><p>int</p></td>
-<td><p>Если это поле присутствует, оно указывает, почему вызов не выполнял обход сервера-посредника, даже если идентификаторы обхода соответствовали. Задается только одно значение:</p>
-<p>0x0001 — неизвестный идентификатор обхода для сетевого адаптера по умолчанию.</p></td>
+<td><p><span data-ttu-id="adc5d-130">Медиабипассварнингфлаг</span><span class="sxs-lookup"><span data-stu-id="adc5d-130">MediaBypassWarningFlag</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-131">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-131">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-132">Если указано, указывает, почему звонок не обходится, даже если идентификаторы обхода не совпадают.</span><span class="sxs-lookup"><span data-stu-id="adc5d-132">If present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="adc5d-133">Определено только одно значение:</span><span class="sxs-lookup"><span data-stu-id="adc5d-133">Only one value is defined:</span></span></p>
+<p><span data-ttu-id="adc5d-134">0x0001 — Неизвестный идентификатор обхода для сетевого адаптера по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="adc5d-134">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallPriority</p></td>
-<td><p>int</p></td>
-<td><p>Приоритет вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-135">Каллприорити</span><span class="sxs-lookup"><span data-stu-id="adc5d-135">CallPriority</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-136">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-136">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-137">Приоритет звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-137">Priority of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Полное доменное имя пула вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-138">Каллерпул</span><span class="sxs-lookup"><span data-stu-id="adc5d-138">CallerPool</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-139">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-139">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-140">Полное доменное имя пула вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-140">Caller pool FQDN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Полное доменное имя пула вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-141">Каллипул</span><span class="sxs-lookup"><span data-stu-id="adc5d-141">CalleePool</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-142">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-142">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-143">Полное доменное имя пула вызываемых абонентов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-143">Callee pool FQDN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Caller</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-144">Вызывающая сторона</span><span class="sxs-lookup"><span data-stu-id="adc5d-144">Caller</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-145">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="adc5d-145">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-146">URI вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-146">Caller’s URI.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Callee</p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-147">Вызываемая сторона</span><span class="sxs-lookup"><span data-stu-id="adc5d-147">Callee</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-148">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="adc5d-148">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-149">Универсальный код ресурса (URI) вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-149">Callee’s URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Строка агента пользователя вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-150">Каллерусеражент</span><span class="sxs-lookup"><span data-stu-id="adc5d-150">CallerUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-151">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-151">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-152">Строка агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-152">Caller’s user agent string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerUserAgentType</p></td>
-<td><p>smallint</p></td>
-<td><p>Тип агента пользователя вызывающего абонента. Дополнительные сведения см. в разделе <a href="lync-server-2013-useragent-table.md">Таблица UserAgent в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-153">Каллерусераженттипе</span><span class="sxs-lookup"><span data-stu-id="adc5d-153">CallerUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-154">smallint</span><span class="sxs-lookup"><span data-stu-id="adc5d-154">smallint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-155">Тип агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-155">Type of the caller’s user agent.</span></span> <span data-ttu-id="adc5d-156">Дополнительные сведения: <a href="lync-server-2013-useragent-table.md">Таблица UserAgent в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-156">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerUserAgentCategory</p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>Категория агента пользователя вызывающего абонента. Дополнительные сведения см. в разделе <a href="lync-server-2013-useragentdef-table-qoe.md">Таблица UserAgentDef (QoE) в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-157">Каллерусераженткатегори</span><span class="sxs-lookup"><span data-stu-id="adc5d-157">CallerUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-158">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="adc5d-158">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-159">Категория агента пользователя вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-159">Category of the caller’s user agent.</span></span> <span data-ttu-id="adc5d-160">Дополнительные сведения <a href="lync-server-2013-useragentdef-table-qoe.md">усеражентдеф в таблице "QoE" в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-160">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for details.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Строка агента пользователя вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-161">Каллиусеражент</span><span class="sxs-lookup"><span data-stu-id="adc5d-161">CalleeUserAgent</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-162">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-162">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-163">Строка агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-163">Callee’s user agent string.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeUserAgentType</p></td>
-<td><p>smallint</p></td>
-<td><p>Тип агента пользователя вызываемого абонента. Дополнительные сведения см. в разделе <a href="lync-server-2013-useragent-table.md">Таблица UserAgent в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-164">Каллиусераженттипе</span><span class="sxs-lookup"><span data-stu-id="adc5d-164">CalleeUserAgentType</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-165">smallint</span><span class="sxs-lookup"><span data-stu-id="adc5d-165">smallint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-166">Тип агента пользователя, вызываемого абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-166">Type of callee’s user agent.</span></span> <span data-ttu-id="adc5d-167">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-useragent-table.md">таблицей UserAgent в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-167">See the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a> for information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeUserAgentCategory</p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>Категория агента пользователя вызываемого абонента. Дополнительные сведения см. в разделе <a href="lync-server-2013-useragentdef-table-qoe.md">Таблица UserAgentDef (QoE) в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-168">Каллиусераженткатегори</span><span class="sxs-lookup"><span data-stu-id="adc5d-168">CalleeUserAgentCategory</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-169">nvarchar (64)</span><span class="sxs-lookup"><span data-stu-id="adc5d-169">nvarchar(64)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-170">Категория агента пользователя вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-170">Category of callee’s user agent.</span></span> <span data-ttu-id="adc5d-171">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-useragentdef-table-qoe.md">таблицей усеражентдеф (QoE) в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-171">See the <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a> for information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Имя конечной точки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-172">Каллерендпоинт</span><span class="sxs-lookup"><span data-stu-id="adc5d-172">CallerEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-173">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-173">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-174">Имя конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-174">Caller’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Имя конечной точки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-175">Каллиендпоинт</span><span class="sxs-lookup"><span data-stu-id="adc5d-175">CalleeEndpoint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-176">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-176">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-177">Имя конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-177">Callee’s endpoint name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerOS</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Операционная система конечной точки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-178">Каллерос</span><span class="sxs-lookup"><span data-stu-id="adc5d-178">CallerOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-179">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-179">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-180">Операционная система (ОС) конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-180">Operating system (OS) of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeOS</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Операционная система конечной точки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-181">Каллиос</span><span class="sxs-lookup"><span data-stu-id="adc5d-181">CalleeOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-182">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-182">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-183">Операционная система (ОС) конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-183">Operating system (OS) of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerCPUName</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Название ЦП конечной точки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-184">Каллеркпунаме</span><span class="sxs-lookup"><span data-stu-id="adc5d-184">CallerCPUName</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-185">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-185">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-186">Имя ЦП конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-186">CPU name of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCPUName</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Название ЦП конечной точки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-187">Калликпунаме</span><span class="sxs-lookup"><span data-stu-id="adc5d-187">CalleeCPUName</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-188">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-188">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-189">Имя ЦП конечной точки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-189">CPU name of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerCPUNumberOfCores</p></td>
-<td><p>smallint</p></td>
-<td><p>Число ядер ЦП на конечной точке вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-190">Каллеркпунумберофкорес</span><span class="sxs-lookup"><span data-stu-id="adc5d-190">CallerCPUNumberOfCores</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-191">smallint</span><span class="sxs-lookup"><span data-stu-id="adc5d-191">smallint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-192">Количество ядер ЦП в конечной точке вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-192">Number of CPU cores in the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCPUNumberOfCores</p></td>
-<td><p>smallint</p></td>
-<td><p>Число ядер ЦП на конечной точке вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-193">Калликпунумберофкорес</span><span class="sxs-lookup"><span data-stu-id="adc5d-193">CalleeCPUNumberOfCores</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-194">smallint</span><span class="sxs-lookup"><span data-stu-id="adc5d-194">smallint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-195">Количество ядер ЦП в конечной точке вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-195">Number of CPU cores in the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
-<td><p>Скорость ЦП конечной точки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-196">Каллеркпупроцессорспид</span><span class="sxs-lookup"><span data-stu-id="adc5d-196">CallerCPUProcessorSpeed</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-197">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-197">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-198">Частота процессора конечной точки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-198">CPU processor speed of the caller’s endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCPUProcessorSpeed</p></td>
-<td><p>int</p></td>
-<td><p>Скорость ЦП конечной точки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-199">Калликпупроцессорспид</span><span class="sxs-lookup"><span data-stu-id="adc5d-199">CalleeCPUProcessorSpeed</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-200">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-200">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-201">Тактовая частота процессора на конечной точке вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-201">CPU processor speed of the callee’s endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerVirtualizationFlag</p></td>
-<td><p>tinyint</p></td>
-<td><p>Указывает, работает ли система вызывающего абонента в виртуализованной среде. Дополнительные сведения см. в разделе <a href="lync-server-2013-endpoint-table.md">Таблица Endpoint в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-202">Каллервиртуализатионфлаг</span><span class="sxs-lookup"><span data-stu-id="adc5d-202">CallerVirtualizationFlag</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-203">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-203">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-204">Указывает, работает ли система вызывающего абонента в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="adc5d-204">Indicates whether the caller’s system is running in a virtualized environment.</span></span> <span data-ttu-id="adc5d-205">Дополнительные сведения приведены <a href="lync-server-2013-endpoint-table.md">в таблице конечная точка в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-205">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeVirtualizationFlag</p></td>
-<td><p>tinyint</p></td>
-<td><p>Указывает, работает ли система вызываемого абонента в виртуализованной среде. Дополнительные сведения см. в разделе <a href="lync-server-2013-endpoint-table.md">Таблица Endpoint в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-206">Калливиртуализатионфлаг</span><span class="sxs-lookup"><span data-stu-id="adc5d-206">CalleeVirtualizationFlag</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-207">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-207">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-208">Указывает, работает ли система вызываемого абонента в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="adc5d-208">Indicates whether the callee’s system is running in a virtualized environment.</span></span> <span data-ttu-id="adc5d-209">Дополнительные сведения приведены <a href="lync-server-2013-endpoint-table.md">в таблице конечная точка в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-209">See the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CorrelationKey</p></td>
-<td><p></p></td>
-<td><p>Ключ корреляции. Ссылка из таблицы <a href="lync-server-2013-sessioncorrelation-table.md">Таблица SessionCorrelation в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-210">Коррелатионкэй</span><span class="sxs-lookup"><span data-stu-id="adc5d-210">CorrelationKey</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="adc5d-211">Ключ корреляции.</span><span class="sxs-lookup"><span data-stu-id="adc5d-211">Correlation key.</span></span> <span data-ttu-id="adc5d-212">На которую ссылается <a href="lync-server-2013-sessioncorrelation-table.md">Таблица сессионкоррелатион в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="adc5d-212">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ConnectivityIce</p></td>
-<td><p>tinyint</p></td>
-<td><p>Сведения о канале передачи медиаданных, например прямой или ретранслируемый. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-213">Коннективитице</span><span class="sxs-lookup"><span data-stu-id="adc5d-213">ConnectivityIce</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-214">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-214">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-215">Информация о пути к носителю, например прямая или ретранслируемая.</span><span class="sxs-lookup"><span data-stu-id="adc5d-215">Information about the media path, such as direct or relayed.</span></span> <span data-ttu-id="adc5d-216">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialine-table.md">таблицей медиалине в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-216">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerIceWarningFlags</p></td>
-<td><p>int</p></td>
-<td><p>Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызывающего абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.</p></td>
+<td><p><span data-ttu-id="adc5d-217">Каллерицеварнингфлагс</span><span class="sxs-lookup"><span data-stu-id="adc5d-217">CallerIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-218">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-218">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-219">Сведения о процессе интерактивной установки подключения (ICE), описанные в разделе Флаги BITS для вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-219">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller.</span></span> <span data-ttu-id="adc5d-220">Подробности можно найти в спецификации серверного протокола контроля качества обслуживания.</span><span class="sxs-lookup"><span data-stu-id="adc5d-220">For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeIceWarningFlags</p></td>
-<td><p>int</p></td>
-<td><p>Сведения о технологии ICE (Interactive Connectivity Establishment), описанные в битовых флагах, для вызываемого абонента. Дополнительные сведения см. в спецификации протокола сервера мониторинга качества взаимодействия.</p></td>
+<td><p><span data-ttu-id="adc5d-221">Каллиицеварнингфлагс</span><span class="sxs-lookup"><span data-stu-id="adc5d-221">CalleeIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-222">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-222">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-223">Сведения о процессе установки интерактивной связи (ICE), описанные в флагах BITS для вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-223">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee.</span></span> <span data-ttu-id="adc5d-224">Подробности можно найти в спецификации серверного протокола контроля качества обслуживания.</span><span class="sxs-lookup"><span data-stu-id="adc5d-224">For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Transport</p></td>
-<td><p>tinyint</p></td>
-<td><p>Тип транспорта: 0 — UDP, 1 — TCP.</p></td>
+<td><p><span data-ttu-id="adc5d-225">Transport</span><span class="sxs-lookup"><span data-stu-id="adc5d-225">Transport</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-226">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-226">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-227">Тип транспорта: 0 — UDP, 1 — TCP.</span><span class="sxs-lookup"><span data-stu-id="adc5d-227">Transport type: 0 is UDP, 1 is TCP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>IP-адрес вызывающего абонента. Это может быть IPv4-адрес или IPv6-адрес.</p></td>
+<td><p><span data-ttu-id="adc5d-228">Каллерипаддр</span><span class="sxs-lookup"><span data-stu-id="adc5d-228">CallerIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-229">var (50)</span><span class="sxs-lookup"><span data-stu-id="adc5d-229">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-230">IP-адрес вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-230">IP address of the caller.</span></span> <span data-ttu-id="adc5d-231">Это может быть либо IPv4, либо IPv6-адрес.</span><span class="sxs-lookup"><span data-stu-id="adc5d-231">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerPort</p></td>
-<td><p>int</p></td>
-<td><p>Порт, используемый вызывающим абонентом.</p></td>
+<td><p><span data-ttu-id="adc5d-232">Каллерпорт</span><span class="sxs-lookup"><span data-stu-id="adc5d-232">CallerPort</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-233">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-233">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-234">Порт, используемый вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-234">Port used by the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerInside</p></td>
-<td><p>bit</p></td>
-<td><p>Указывает, находится ли вызывающий абонент во внутренней сети: 1 означает, что вызывающий абонент находится внутри корпоративной сети, 0 означает, что вызывающий абонент находится вне сети.</p></td>
+<td><p><span data-ttu-id="adc5d-235">Каллеринсиде</span><span class="sxs-lookup"><span data-stu-id="adc5d-235">CallerInside</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-236">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-236">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-237">Указывает, находится ли вызывающий объект в сети Interval: 1 означает, что вызывающий абонент входит в корпоративную сеть, а 0 означает, что вызывающий абонент находится за пределами сети.</span><span class="sxs-lookup"><span data-stu-id="adc5d-237">Indicates whether the caller is inside the interval network: 1 means caller is inside the enterprise network, 0 means the caller is outside the network.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>IP-адрес вызываемого абонента. Это может быть IPv4-адрес или IPv6-адрес.</p></td>
+<td><p><span data-ttu-id="adc5d-238">Каллиипаддр</span><span class="sxs-lookup"><span data-stu-id="adc5d-238">CalleeIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-239">var (50)</span><span class="sxs-lookup"><span data-stu-id="adc5d-239">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-240">IP-адрес вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-240">IP address of the callee.</span></span> <span data-ttu-id="adc5d-241">Это может быть либо IPv4, либо IPv6-адрес.</span><span class="sxs-lookup"><span data-stu-id="adc5d-241">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleePort</p></td>
-<td><p>int</p></td>
-<td><p>Порт, используемый вызываемым абонентом.</p></td>
+<td><p><span data-ttu-id="adc5d-242">Каллипорт</span><span class="sxs-lookup"><span data-stu-id="adc5d-242">CalleePort</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-243">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-243">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-244">Порт, используемый вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-244">Port used by the callee.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeInside</p></td>
-<td><p>bit</p></td>
-<td><p>Указывает, находится ли вызываемый абонент во внутренней сети: 1 означает, что вызываемый абонент находится внутри корпоративной сети, 0 означает, что вызываемый абонент находится вне сети.</p></td>
+<td><p><span data-ttu-id="adc5d-245">Каллиинсиде</span><span class="sxs-lookup"><span data-stu-id="adc5d-245">CalleeInside</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-246">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-246">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-247">Указывает, находится ли вызывающий объект в сети Interval: 1 означает, что вызываемый абонент входит в корпоративную сеть, а 0 означает, что вызываемый объект находится за пределами сети.</span><span class="sxs-lookup"><span data-stu-id="adc5d-247">Indicates whether the callee is inside the interval network: 1 means callee is inside the enterprise network, 0 means the callee is outside the network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerUserSite</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Имя сайта вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-248">Каллерусерсите</span><span class="sxs-lookup"><span data-stu-id="adc5d-248">CallerUserSite</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-249">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-249">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-250">Имя сайта вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-250">Name of the caller’s site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRegion</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Название страны или региона, где находится сайт вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-251">Каллеррегион</span><span class="sxs-lookup"><span data-stu-id="adc5d-251">CallerRegion</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-252">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-252">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-253">Название страны или региона сайта вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-253">Name of the country/region of the caller’s site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeUserSite</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Имя сайта вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-254">Каллиусерсите</span><span class="sxs-lookup"><span data-stu-id="adc5d-254">CalleeUserSite</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-255">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-255">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-256">Имя сайта вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-256">Name of the callee’s site.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRegion</p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Название страны или региона, где находится сайт вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-257">Каллирегион</span><span class="sxs-lookup"><span data-stu-id="adc5d-257">CalleeRegion</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-258">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="adc5d-258">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-259">Название страны или региона сайта вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-259">Name of the country/region of the callee’s site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerRelayIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызывающим абонентом. Дополнительные сведения см. в разделе <a href="lync-server-2013-ipaddress-table.md">Таблица IPAddress в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-260">Каллеррелайипаддр</span><span class="sxs-lookup"><span data-stu-id="adc5d-260">CallerRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-261">var (50)</span><span class="sxs-lookup"><span data-stu-id="adc5d-261">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-262">IP-адрес службы EDGE (/V), используемой вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-262">IP Address of the A/V Edge service used by the caller.</span></span> <span data-ttu-id="adc5d-263">Дополнительные сведения приведены в <a href="lync-server-2013-ipaddress-table.md">таблице IP-адрес в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-263">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRelayPort</p></td>
-<td><p>int</p></td>
-<td><p>Порт, используемый вызывающим абонентом в пограничной службе обработки аудио- и видеоданных.</p></td>
+<td><p><span data-ttu-id="adc5d-264">Каллеррелайпорт</span><span class="sxs-lookup"><span data-stu-id="adc5d-264">CallerRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-265">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-265">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-266">Порт, используемый в службе EDGE (A/V), используемой вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-266">Port used on the A/V Edge service used by the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRelayIPAddr</p></td>
-<td><p>var(50)</p></td>
-<td><p>IP-адрес пограничной службы обработки аудио- и видеоданных, используемой вызываемым абонентом. Дополнительные сведения см. в разделе <a href="lync-server-2013-ipaddress-table.md">Таблица IPAddress в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-267">Каллирелайипаддр</span><span class="sxs-lookup"><span data-stu-id="adc5d-267">CalleeRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-268">var (50)</span><span class="sxs-lookup"><span data-stu-id="adc5d-268">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-269">Ключ IP-адреса для службы EDGE (/V), используемой вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-269">IP Address key of the A/V Edge service used by the callee.</span></span> <span data-ttu-id="adc5d-270">Дополнительные сведения приведены в <a href="lync-server-2013-ipaddress-table.md">таблице IP-адрес в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-270">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRelayPort</p></td>
-<td><p>int</p></td>
-<td><p>Порт, используемый вызываемым абонентом в пограничной службе обработки аудио- и видеоданных.</p></td>
+<td><p><span data-ttu-id="adc5d-271">Каллирелайпорт</span><span class="sxs-lookup"><span data-stu-id="adc5d-271">CalleeRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-272">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-272">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-273">Порт, используемый в службе EDGE (A/V), используемой вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-273">Port used on the A/V Edge service used by the callee.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerCaptureDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя устройства захвата вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-274">Каллеркаптуредев</span><span class="sxs-lookup"><span data-stu-id="adc5d-274">CallerCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-275">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-275">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-276">Имя устройства захвата вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-276">Caller’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRenderDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя устройства обработки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-277">Каллеррендердев</span><span class="sxs-lookup"><span data-stu-id="adc5d-277">CallerRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-278">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-278">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-279">Имя устройства отрисовки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-279">Caller’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerCaptureDevDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя драйвера для устройства захвата вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-280">Каллеркаптуредевдривер</span><span class="sxs-lookup"><span data-stu-id="adc5d-280">CallerCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-281">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-281">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-282">Имя драйвера устройства захвата вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-282">Caller’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRenderDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя драйвера для устройства обработки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-283">Каллеррендердривер</span><span class="sxs-lookup"><span data-stu-id="adc5d-283">CallerRenderDriver</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-284">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-284">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-285">Имя драйвера устройства отрисовки вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-285">Caller’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCaptureDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя устройства захвата вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-286">Калликаптуредев</span><span class="sxs-lookup"><span data-stu-id="adc5d-286">CalleeCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-287">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-287">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-288">Имя устройства захвата абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-288">Callee’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRenderDev</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя устройства обработки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-289">Каллирендердев</span><span class="sxs-lookup"><span data-stu-id="adc5d-289">CalleeRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-290">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-290">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-291">Имя устройства отрисовки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-291">Callee’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeCaptureDevDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя драйвера для устройства захвата вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-292">Калликаптуредевдривер</span><span class="sxs-lookup"><span data-stu-id="adc5d-292">CalleeCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-293">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-293">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-294">Имя драйвера устройства захвата абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-294">Callee’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRenderDevDriver</p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Имя драйвера для устройства обработки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-295">Каллирендердевдривер</span><span class="sxs-lookup"><span data-stu-id="adc5d-295">CalleeRenderDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-296">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="adc5d-296">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-297">Имя драйвера устройства обработки вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-297">Callee’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerNetworkConnectionType</p></td>
-<td><p>tinyint</p></td>
-<td><p>Тип подключения к сети вызывающего абонента: 0 — проводной, 1 — беспроводной.</p></td>
+<td><p><span data-ttu-id="adc5d-298">Каллернетворкконнектионтипе</span><span class="sxs-lookup"><span data-stu-id="adc5d-298">CallerNetworkConnectionType</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-299">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-299">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-300">Тип сетевого подключения вызывающего абонента: 0 проводное соединение, 1 — Беспроводная связь.</span><span class="sxs-lookup"><span data-stu-id="adc5d-300">Caller’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerVPN</p></td>
-<td><p>bit</p></td>
-<td><p>Указывает, подключен ли вызывающий абонент через виртуальную частную сеть: 1 — да, 0 — нет.</p></td>
+<td><p><span data-ttu-id="adc5d-301">Каллервпн</span><span class="sxs-lookup"><span data-stu-id="adc5d-301">CallerVPN</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-302">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-302">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-303">Указывает, подключен ли вызывающий абонент к виртуальной частной сети: 1 — виртуальная частная сеть (VPN), 0 — не VPN.</span><span class="sxs-lookup"><span data-stu-id="adc5d-303">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerLinkSpeed</p></td>
-<td><p>decimal(18,0)</p></td>
-<td><p>Скорость сетевого соединения в бит/с для конечной точки вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-304">Каллерлинкспид</span><span class="sxs-lookup"><span data-stu-id="adc5d-304">CallerLinkSpeed</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-305">десятичное число (18; 0)</span><span class="sxs-lookup"><span data-stu-id="adc5d-305">decimal(18,0)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-306">Скорость сетевого соединения для конечной точки вызывающего абонента бит/с.</span><span class="sxs-lookup"><span data-stu-id="adc5d-306">Network link speed for the caller's endpoint in bps.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeNetworkConnectionType</p></td>
-<td><p>tinyint</p></td>
-<td><p>Тип подключения к сети вызываемого абонента: 0 — проводной, 1 — беспроводной.</p></td>
+<td><p><span data-ttu-id="adc5d-307">Каллинетворкконнектионтипе</span><span class="sxs-lookup"><span data-stu-id="adc5d-307">CalleeNetworkConnectionType</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-308">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-308">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-309">Тип сетевого подключения абонента: 0 – проводное, 1 — Беспроводная связь.</span><span class="sxs-lookup"><span data-stu-id="adc5d-309">Callee’s network connection type: 0 is wired, 1 is wireless.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeVPN</p></td>
-<td><p>bit</p></td>
-<td><p>Указывает, подключен ли вызываемый абонент через виртуальную частную сеть: 1 — да, 0 — нет.</p></td>
+<td><p><span data-ttu-id="adc5d-310">Калливпн</span><span class="sxs-lookup"><span data-stu-id="adc5d-310">CalleeVPN</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-311">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-311">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-312">Указывает, подключен ли вызывающий абонент к виртуальной частной сети: 1 — виртуальная частная сеть (VPN), 0 — не VPN.</span><span class="sxs-lookup"><span data-stu-id="adc5d-312">Indicates whether the caller connected over a virtual private network: 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeLinkSpeed</p></td>
-<td><p>decimal(18,0)</p></td>
-<td><p>Скорость сетевого соединения в бит/с для конечной точки вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-313">Каллилинкспид</span><span class="sxs-lookup"><span data-stu-id="adc5d-313">CalleeLinkSpeed</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-314">десятичное число (18; 0)</span><span class="sxs-lookup"><span data-stu-id="adc5d-314">decimal(18,0)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-315">Скорость сетевого соединения для конечной точки вызываемого абонента бит/с.</span><span class="sxs-lookup"><span data-stu-id="adc5d-315">Network link speed for the callee's endpoint in bps.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ConversationalMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Узкополосный MOS аудиосеансов (на основе обоих аудиопотоков).</p></td>
+<td><p><span data-ttu-id="adc5d-316">Конверсатионалмос</span><span class="sxs-lookup"><span data-stu-id="adc5d-316">ConversationalMOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-317">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-317">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-318">Нарровбанд MOS из сеансов голосовой связи (на основе обоих звуковых потоков).</span><span class="sxs-lookup"><span data-stu-id="adc5d-318">Narrowband Conversational MOS of the audio sessions (based on both audio streams).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AppliedBandwidthLimit</p></td>
-<td><p>int</p></td>
-<td><p>Фактическая пропускная способность, доступная указанному потоку с учетом заданных параметров политики (TURN, API, SDP, сервер политики и т. д.). Это значение не следует путать с эффективной пропускной способностью, так как эффективная пропускная способность может оказаться ниже на основе оценки полосы пропускания. Это, по сути, максимальная пропускная способность отправляемого потока с учетом ограничений, наложенных оценкой полосы пропускания.</p></td>
+<td><p><span data-ttu-id="adc5d-319">Апплиедбандвидслимит</span><span class="sxs-lookup"><span data-stu-id="adc5d-319">AppliedBandwidthLimit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-320">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-320">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-321">Реальная пропускная способность, примененная к потоку отправки данных в соответствии с различными параметрами политики (например, "повернуть", "API", SDP, сервер политики и т. д.).</span><span class="sxs-lookup"><span data-stu-id="adc5d-321">Actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, and so on).</span></span> <span data-ttu-id="adc5d-322">Это не следует путать с эффективной пропускной способностью, так как в зависимости от оценки пропускной способности может снизиться эффективная пропускная способность.</span><span class="sxs-lookup"><span data-stu-id="adc5d-322">This is not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate.</span></span> <span data-ttu-id="adc5d-323">Это является, по сути, максимальной пропускной способностью потока отправки, который может занимать ограничения пропускной способности, наложенные на эту оценку.</span><span class="sxs-lookup"><span data-stu-id="adc5d-323">This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>JitterInterArrival</p></td>
-<td><p>int</p></td>
-<td><p>Средний уровень дрожания в сети на основе статистики протокола RTCP.</p></td>
+<td><p><span data-ttu-id="adc5d-324">JitterInterArrival</span><span class="sxs-lookup"><span data-stu-id="adc5d-324">JitterInterArrival</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-325">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-325">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-326">Средняя колебание сети из статистики протокола управления временем в реальном времени (РТКП).</span><span class="sxs-lookup"><span data-stu-id="adc5d-326">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>JitterInterArrivalMax</p></td>
-<td><p>int</p></td>
-<td><p>Максимальный уровень дрожания в сети в течение вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-327">Життеринтерарривалмакс</span><span class="sxs-lookup"><span data-stu-id="adc5d-327">JitterInterArrivalMax</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-328">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-328">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-329">Максимальная колебание сети во время звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-329">Maximum network jitter during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PacketLossRate</p></td>
-<td><p>decimal(5,4)</p></td>
-<td><p>Средний коэффициент потерь пакетов в течение вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-330">PacketLossRate</span><span class="sxs-lookup"><span data-stu-id="adc5d-330">PacketLossRate</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-331">десятичное число (5; 4)</span><span class="sxs-lookup"><span data-stu-id="adc5d-331">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-332">Средняя скорость потерь пакетов во время звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-332">Average packet loss rate during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PacketLossRateMax</p></td>
-<td><p>decimal(5,4)</p></td>
-<td><p>Максимальная потеря пакетов, наблюдавшаяся в течение вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-333">Паккетлоссратемакс</span><span class="sxs-lookup"><span data-stu-id="adc5d-333">PacketLossRateMax</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-334">десятичное число (5; 4)</span><span class="sxs-lookup"><span data-stu-id="adc5d-334">decimal(5,4)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-335">Максимальное количество потерь пакетов, замеченное во время звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-335">Maximum packet loss observed during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>BurstDensity</p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p>Средняя плотность потерь пакетов во время пиков потерь в течение вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-336">Бурстденсити</span><span class="sxs-lookup"><span data-stu-id="adc5d-336">BurstDensity</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-337">десятичное число (9; 4)</span><span class="sxs-lookup"><span data-stu-id="adc5d-337">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-338">Средняя плотность потери пакетов во время звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-338">Average density of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>BurstDuration</p></td>
-<td><p>int</p></td>
-<td><p>Средняя продолжительность потерь пакетов во время пиков потерь в течение вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-339">Бурстдуратион</span><span class="sxs-lookup"><span data-stu-id="adc5d-339">BurstDuration</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-340">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-340">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-341">Средняя продолжительность потери пакетов в течение заданных потерь во время звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-341">Average duration of packet loss during bursts of losses during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>BurstGapDensity</p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p>Средняя плотность потерь пакетов в промежутках между пиками потерь.</p></td>
+<td><p><span data-ttu-id="adc5d-342">Бурстгапденсити</span><span class="sxs-lookup"><span data-stu-id="adc5d-342">BurstGapDensity</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-343">десятичное число (9; 4)</span><span class="sxs-lookup"><span data-stu-id="adc5d-343">decimal(9,4)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-344">Средняя плотность потери пакетов при пропуске между пакетами потери данных.</span><span class="sxs-lookup"><span data-stu-id="adc5d-344">Average density of packet loss during gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>BurstGapDuration</p></td>
-<td><p>int</p></td>
-<td><p>Средняя продолжительность промежутков между пиками потерь пакетов.</p></td>
+<td><p><span data-ttu-id="adc5d-345">Бурстгапдуратион</span><span class="sxs-lookup"><span data-stu-id="adc5d-345">BurstGapDuration</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-346">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-346">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-347">Средняя продолжительность промежутков между пакетами потери данных.</span><span class="sxs-lookup"><span data-stu-id="adc5d-347">Average duration of gaps between bursts of packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PacketUtilization</p></td>
-<td><p>int</p></td>
-<td><p>Количество пакетов для аудиопотока.</p></td>
+<td><p><span data-ttu-id="adc5d-348">Паккетутилизатион</span><span class="sxs-lookup"><span data-stu-id="adc5d-348">PacketUtilization</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-349">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-349">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-350">Число пакетов для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="adc5d-350">Packet count for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>BandwidthEst</p></td>
-<td><p>int</p></td>
-<td><p>Оценка пропускной способности для аудиопотока.</p></td>
+<td><p><span data-ttu-id="adc5d-351">Самый пропускная способность</span><span class="sxs-lookup"><span data-stu-id="adc5d-351">BandwidthEst</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-352">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-352">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-353">Оценка пропускной способности для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="adc5d-353">Bandwidth estimates for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DegradationAvg</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Снижение экспертной оценки качества (MOS) в сети для всего звонка в диапазоне от 0,0 до 5,0. Эта метрика показывает величину уменьшения MOS в сети, обусловленную дрожанием и потерей пакетов. Для приемлемого качества это значение должно быть меньше, чем 0,5.</p></td>
+<td><p><span data-ttu-id="adc5d-354">Деградатионавг</span><span class="sxs-lookup"><span data-stu-id="adc5d-354">DegradationAvg</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-355">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-355">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-356">Сетевое MOS падение на весь звонок.</span><span class="sxs-lookup"><span data-stu-id="adc5d-356">Network MOS Degradation for the whole call.</span></span> <span data-ttu-id="adc5d-357">Диапазон от 0,0 до 5,0.</span><span class="sxs-lookup"><span data-stu-id="adc5d-357">Range is 0.0 to 5.0.</span></span> <span data-ttu-id="adc5d-358">Этот показатель показывает объем сетевого MOS уменьшился из-за колебаний и потери пакетов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-358">This metric shows the amount the Network MOS was reduced because of jitter and packet loss.</span></span> <span data-ttu-id="adc5d-359">Для приемлемого качества оно должно быть менее 0,5.</span><span class="sxs-lookup"><span data-stu-id="adc5d-359">For acceptable quality it should less than 0.5.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DegradationMax</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Максимальное снижение экспертной оценки качества (MOS) в сети во время звонка.</p></td>
+<td><p><span data-ttu-id="adc5d-360">Деградатионмакс</span><span class="sxs-lookup"><span data-stu-id="adc5d-360">DegradationMax</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-361">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-361">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-362">Максимальная длина сетевого MOS во время звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-362">Maximum Network MOS degradation during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DegradationJitterAvg</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Снижение экспертной оценки качества (MOS) в сети, вызванное дрожанием.</p></td>
+<td><p><span data-ttu-id="adc5d-363">Деградатионжиттеравг</span><span class="sxs-lookup"><span data-stu-id="adc5d-363">DegradationJitterAvg</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-364">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-364">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-365">Снижение производительности сети MOS из – за колебаний.</span><span class="sxs-lookup"><span data-stu-id="adc5d-365">Network MOS degradation caused by jitter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DegradationPacketLossAvg</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Снижение экспертной оценки качества (MOS) в сети, вызванное потерей пакетов.</p></td>
+<td><p><span data-ttu-id="adc5d-366">Деградатионпаккетлоссавг</span><span class="sxs-lookup"><span data-stu-id="adc5d-366">DegradationPacketLossAvg</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-367">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-367">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-368">Снижение производительности сети MOS из – за потери пакетов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-368">Network MOS degradation caused by packet loss.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PayloadDescription</p></td>
-<td><p>int</p></td>
-<td><p>Аудиокодек, использованный для вызова, на который ссылается таблица <a href="lync-server-2013-payloaddescription-table.md">Таблица PayloadDescription в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-369">PayloadDescription</span><span class="sxs-lookup"><span data-stu-id="adc5d-369">PayloadDescription</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-370">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-370">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-371">Аудиокодек, использованный для вызова, на который ссылается <a href="lync-server-2013-payloaddescription-table.md">Таблица пайлоаддескриптион в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="adc5d-371">The audio codec used for the call, referenced from the <a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AudioSampleRate</p></td>
-<td><p>int</p></td>
-<td><p>Частота выборки для аудиопотока.</p></td>
+<td><p><span data-ttu-id="adc5d-372">Аудиосамплерате</span><span class="sxs-lookup"><span data-stu-id="adc5d-372">AudioSampleRate</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-373">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-373">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-374">Частота дискретизации для аудиопотока.</span><span class="sxs-lookup"><span data-stu-id="adc5d-374">Sampling rate for the audio stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerSendSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-375">Каллерсендсигналлевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-375">CallerSendSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-376">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-376">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-377">Уровень звукового сигнала, выступающем после аналогового усиления, для звука, отправленного вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-377">Post-Analog Gain Control audio signal level for the audio the caller sent.</span></span> <span data-ttu-id="adc5d-378">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-378">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-379">Для приемлемого качества оно должно быть не менее 30 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-379">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="adc5d-380">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-380">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRecvSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>Уровень звукового сигнала для аудиопотока, принятого вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-381">Каллерреквсигналлевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-381">CallerRecvSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-382">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-382">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-383">Уровень звукового сигнала для звука, полученного вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-383">Audio signal level for the audio the caller received.</span></span> <span data-ttu-id="adc5d-384">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-384">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-385">Для приемлемого качества оно должно быть не менее 30 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-385">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="adc5d-386">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-386">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerSendNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>Послеаналоговая регулировка уровня акустического шума для аудиопотока, отправленного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-387">Каллерсендноиселевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-387">CallerSendNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-388">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-388">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-389">После аналогового усиления контрольного шума для звука, который отправляет вызывающий абонент.</span><span class="sxs-lookup"><span data-stu-id="adc5d-389">Post-Analog Gain Control audio noise level for the audio the caller sent.</span></span> <span data-ttu-id="adc5d-390">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-390">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-391">Для приемлемого качества оно должно быть менее 35 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-391">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="adc5d-392">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-392">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRecvNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>Послеаналоговая регулировка уровня акустического шума для аудиопотока, полученного вызывающим абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-393">Каллерреквноиселевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-393">CallerRecvNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-394">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-394">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-395">Звуковой шум по контролю звукового сопровождения для звукового сигнала, полученного вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-395">Post-Analog Gain Control audio noise level for the audio the caller received.</span></span> <span data-ttu-id="adc5d-396">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-396">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-397">Для приемлемого качества оно должно быть менее 35 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-397">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="adc5d-398">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-398">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerEchoReturn</p></td>
-<td><p>int</p></td>
-<td><p>Отношение мощностей некомпенсированного и скомпенсированного эхосигнала для вызывающего абонента. Единица измерения для этого показателя — дБ. Чем ниже значение, тем меньше эхосигнал. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-399">Каллеречоретурн</span><span class="sxs-lookup"><span data-stu-id="adc5d-399">CallerEchoReturn</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-400">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-400">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-401">Для вызывающего абонента возводится расширение возвращающего эха.</span><span class="sxs-lookup"><span data-stu-id="adc5d-401">Echo Return Loss Enhancement for the caller.</span></span> <span data-ttu-id="adc5d-402">Единицей измерения для этой метрики является dB.</span><span class="sxs-lookup"><span data-stu-id="adc5d-402">The unit for this metric is dB.</span></span> <span data-ttu-id="adc5d-403">Более низкие значения представляют менее эхо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-403">Lower values represent less echo.</span></span> <span data-ttu-id="adc5d-404">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-404">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerSpeakerGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>Среднее количество временных сбоев за пять минут при воспроизведении акустическими системами вызывающего абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-405">Каллерспеакерглитчрате</span><span class="sxs-lookup"><span data-stu-id="adc5d-405">CallerSpeakerGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-406">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-406">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-407">Среднее число сбоев в течение пяти минут для отрисовки динамик вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-407">Average glitches per five minutes for the caller’s loudspeaker rendering.</span></span> <span data-ttu-id="adc5d-408">Для хорошего качества это должно быть меньше, чем один за пять минут.</span><span class="sxs-lookup"><span data-stu-id="adc5d-408">For good quality, this should be less than one per five minutes.</span></span> <span data-ttu-id="adc5d-409">Не сообщается серверам конференц-связи, серверам или IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="adc5d-409">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerMicGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>Среднее количество временных сбоев за пять минут при захвате звука микрофоном вызывающего абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-410">Каллермикглитчрате</span><span class="sxs-lookup"><span data-stu-id="adc5d-410">CallerMicGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-411">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-411">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-412">Среднее число сбоев в течение пяти минут для захвата микрофона вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-412">Average glitches per five minutes for the caller’s microphone capture.</span></span> <span data-ttu-id="adc5d-413">Для хорошего качества это должно быть менее чем на одну 5 минут.</span><span class="sxs-lookup"><span data-stu-id="adc5d-413">For good quality this should be less than one per five minutes.</span></span> <span data-ttu-id="adc5d-414">Не сообщается серверам конференц-связи, серверам или IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="adc5d-414">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerTimestampDriftRateMic</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Скорость рассинхронизации часов микрофона вызывающего абонента относительно часов процессора.</p></td>
+<td><p><span data-ttu-id="adc5d-415">Каллертиместампдрифтратемик</span><span class="sxs-lookup"><span data-stu-id="adc5d-415">CallerTimestampDriftRateMic</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-416">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-416">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-417">Частота отсчета часов микрофона вызывающего устройства, относящихся к тактовой частоте процессора.</span><span class="sxs-lookup"><span data-stu-id="adc5d-417">Caller’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerTimestampDriftRateSpk</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Скорость рассинхронизации часов динамика вызывающего абонента относительно часов процессора.</p></td>
+<td><p><span data-ttu-id="adc5d-418">Каллертиместампдрифтратеспк</span><span class="sxs-lookup"><span data-stu-id="adc5d-418">CallerTimestampDriftRateSpk</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-419">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-419">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-420">Частота отсчета сигналов для динамиков устройства выступающего в сторону от времени ЦП.</span><span class="sxs-lookup"><span data-stu-id="adc5d-420">Caller’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerTimestampErrorMicMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-421">Каллертиместамперрормикмс</span><span class="sxs-lookup"><span data-stu-id="adc5d-421">CallerTimestampErrorMicMs</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-422">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-422">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-423">Средняя пометка времени потока захвата микрофона в миллисекундах за последние 20 секунд звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-423">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerTimestampErrorSpkMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Средняя ошибка метки времени для потока воспроизведения динамиком вызывающего абонента, в миллисекундах, в последние 20 секунд вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-424">Каллертиместамперрорспкмс</span><span class="sxs-lookup"><span data-stu-id="adc5d-424">CallerTimestampErrorSpkMs</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-425">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-425">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-426">Среднее значение ошибки метки времени линейного отображения динамика вызывающего абонента в миллисекундах за последние 20 секунд звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-426">Average of the caller’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerVsEntryCauses</p></td>
-<td><p>smallint</p></td>
-<td><p>Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-427">Каллервсентрикаусес</span><span class="sxs-lookup"><span data-stu-id="adc5d-427">CallerVsEntryCauses</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-428">smallint</span><span class="sxs-lookup"><span data-stu-id="adc5d-428">smallint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-429">Голосовая связь — это режим двусторонней печати с ограниченными возможностями перерывов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-429">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="adc5d-430">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialine-table.md">таблицей медиалине в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-430">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerEchoEventCauses</p></td>
-<td><p>tinyint</p></td>
-<td><p>Причины события эхосигнала для вызывающего абонента. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-431">Каллеречоевенткаусес</span><span class="sxs-lookup"><span data-stu-id="adc5d-431">CallerEchoEventCauses</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-432">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-432">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-433">Причины возникновения события echo для вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-433">Causes of an echo event for the caller.</span></span> <span data-ttu-id="adc5d-434">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialine-table.md">таблицей медиалине в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-434">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerEchoPercentMicIn</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Процент времени, когда в потоке захвата микрофоном вызывающего абонента обнаруживается эхосигнал. Если используется гарнитура, то значение должно быть низким.</p></td>
+<td><p><span data-ttu-id="adc5d-435">КаллеречоперцентмиЦин</span><span class="sxs-lookup"><span data-stu-id="adc5d-435">CallerEchoPercentMicIn</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-436">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-436">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-437">Процент времени, в течение которого обнаружено эхо в потоке захвата микрофона вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-437">Percentage of time when echo is detected in the caller’s microphone capture stream.</span></span> <span data-ttu-id="adc5d-438">Если используется гарнитура, значение должно быть низким.</span><span class="sxs-lookup"><span data-stu-id="adc5d-438">If headset is used, the value should be low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerEchoPercentSend</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Процент времени, когда в потоке, отправленном вызывающим абонентом, обнаруживается эхосигнал. Высокое значение в отправленных потоках указывает на утечку эхосигнала.</p></td>
+<td><p><span data-ttu-id="adc5d-439">Каллеречоперцентсенд</span><span class="sxs-lookup"><span data-stu-id="adc5d-439">CallerEchoPercentSend</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-440">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-440">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-441">Процент времени, в течение которого обнаружено эхо в потоке, отправленном вызывающим абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-441">Percentage of time when echo is detected in the caller’s sent stream.</span></span> <span data-ttu-id="adc5d-442">Высокий процент эха в потоках отправки указывает на наличие утечки эха.</span><span class="sxs-lookup"><span data-stu-id="adc5d-442">High echo percentage in send streams an indication of echo leak.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRxAGCSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>Уровень сигнала, полученный на сервере-посреднике от шлюза, для аудиопотока вызывающего абонента; этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.</p></td>
+<td><p><span data-ttu-id="adc5d-443">Каллеррксагксигналлевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-443">CallerRxAGCSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-444">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-444">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-445">Уровень сигнала на сервере-источнике сообщений от шлюза к звуку вызывающего абонента; Это относится только к серверу обновлений.</span><span class="sxs-lookup"><span data-stu-id="adc5d-445">Received signal level on the Mediation Server from the Gateway for the caller’s audio; this applies only to the Mediation Server.</span></span> <span data-ttu-id="adc5d-446">Единица измерения этой метрики — Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-446">The unit of this metric is dBoV.</span></span> <span data-ttu-id="adc5d-447">Для хорошего качества допустимый диапазон должен составлять от-30 до-18 Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-447">For good quality, the acceptable range should be -30 to -18 dBoV.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerRxAGCNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>Уровень акустического шума, полученный на сервере-посреднике от шлюза, для аудиопотока вызывающего абонента. Этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — ниже -50 dBoV.</p></td>
+<td><p><span data-ttu-id="adc5d-448">Каллеррксагкноиселевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-448">CallerRxAGCNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-449">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-449">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-450">Уровень сигнала на сервере-источнике от шлюза для звука вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-450">Received signal level on the Mediation Server from the Gateway for the caller’s audio.</span></span> <span data-ttu-id="adc5d-451">Это относится только к серверу обновлений.</span><span class="sxs-lookup"><span data-stu-id="adc5d-451">This applies only to the Mediation Server.</span></span> <span data-ttu-id="adc5d-452">Единица измерения этой метрики — Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-452">The unit of this metric is dBoV.</span></span> <span data-ttu-id="adc5d-453">Для хорошего качества допустимый диапазон должен быть меньше, чем-50 Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-453">For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CallerRxAGCGain</p></td>
-<td><p>int</p></td>
-<td><p>Автоматическая регулировка усиления на стороне сервера-посредника, применяемая к аудиопотоку вызывающего абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-454">Каллеррксагкгаин</span><span class="sxs-lookup"><span data-stu-id="adc5d-454">CallerRxAGCGain</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-455">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-455">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-456">Автоматический контроль усиления (АГК) на стороне сервера-посредника, примененной к звуковому каналу вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-456">Automatic gain control (AGC) on the Mediation Server side applied to the caller’s audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CallerInitialSignalLevelRMS</p></td>
-<td><p>float</p></td>
-<td><p>Среднеквадратическое отклонение входящего сигнала вызывающего абонента до 30 первых секунд вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-457">Каллеринитиалсигналлевелрмс</span><span class="sxs-lookup"><span data-stu-id="adc5d-457">CallerInitialSignalLevelRMS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-458">число с плавающей точкой</span><span class="sxs-lookup"><span data-stu-id="adc5d-458">float</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-459">Среднее значение среднего квадрата входящего сигнала для вызывающего абонента до первых 30 секунд звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-459">Root mean square (RMS) of the incoming signal to the caller for up to the first 30 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeSendSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>Послеаналоговая регулировка уровня звукового сигнала для аудиопотока, отправленного вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-460">Каллисендсигналлевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-460">CalleeSendSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-461">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-461">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-462">Представляет уровень звукового сигнала после аналогового усиления для звука, отправленного вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-462">Represents the Post-Analog Gain Control audio signal level for the audio the callee sent.</span></span> <span data-ttu-id="adc5d-463">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-463">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-464">Для приемлемого качества оно должно быть не менее 30 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-464">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="adc5d-465">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-465">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRecvSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>Уровень звукового сигнала для аудиопотока, принятого вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть не менее 30 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-466">Каллиреквсигналлевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-466">CalleeRecvSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-467">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-467">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-468">Уровень звукового сигнала для звука, полученного вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-468">Audio signal level for the audio the callee received.</span></span> <span data-ttu-id="adc5d-469">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-469">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-470">Для приемлемого качества оно должно быть не менее 30 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-470">For acceptable quality, it should be at least 30 dBmo.</span></span> <span data-ttu-id="adc5d-471">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-471">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeSendNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>Послеаналоговая регулировка уровня акустического шума для аудиопотока, отправленного вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-472">Каллисендноиселевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-472">CalleeSendNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-473">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-473">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-474">После аналогового усиления контрольного шума для звука, отправленного вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-474">Post-Analog Gain Control audio noise level for the audio the callee sent.</span></span> <span data-ttu-id="adc5d-475">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-475">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-476">Для приемлемого качества оно должно быть менее 35 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-476">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="adc5d-477">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-477">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRecvNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>Послеаналоговая регулировка уровня акустического шума для аудиопотока, принятого вызываемым абонентом. Единица измерения для этого показателя — дБмо. Для приемлемого качества значение должно быть менее 35 дБмо. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-478">Каллиреквноиселевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-478">CalleeRecvNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-479">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-479">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-480">После аналогового усиления контрольного шума для звука, полученного вызывающим абонентом, на уровне звука.</span><span class="sxs-lookup"><span data-stu-id="adc5d-480">Post-Analog Gain Control audio noise level for the audio the callee received.</span></span> <span data-ttu-id="adc5d-481">Единицей измерения для этой метрики является Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-481">The unit for this metric is dBmo.</span></span> <span data-ttu-id="adc5d-482">Для приемлемого качества оно должно быть менее 35 Дбмо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-482">For acceptable quality, it should be less than 35 dBmo.</span></span> <span data-ttu-id="adc5d-483">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-483">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeEchoReturn</p></td>
-<td><p>int</p></td>
-<td><p>Отношение мощностей некомпенсированного и скомпенсированного эхосигнала для вызываемого абонента. Единица измерения для этого показателя — дБ. Чем ниже значение, тем меньше эхосигнал. Этот показатель не сообщается сервером аудио- и видеоконференций и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-484">Каллиечоретурн</span><span class="sxs-lookup"><span data-stu-id="adc5d-484">CalleeEchoReturn</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-485">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-485">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-486">Для вызываемого функции возвращаются улучшения с потерей эха.</span><span class="sxs-lookup"><span data-stu-id="adc5d-486">Echo Return Loss Enhancement for the callee.</span></span> <span data-ttu-id="adc5d-487">Единицей измерения для этой метрики является dB.</span><span class="sxs-lookup"><span data-stu-id="adc5d-487">The unit for this metric is dB.</span></span> <span data-ttu-id="adc5d-488">Более низкие значения представляют менее эхо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-488">Lower values represent less echo.</span></span> <span data-ttu-id="adc5d-489">Этот показатель не передается сервером Конференции и IP-телефонами по протоколу A/V.</span><span class="sxs-lookup"><span data-stu-id="adc5d-489">This metric is not reported by the A/V Conferencing Server or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeSpeakerGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>Среднее количество временных сбоев за пять минут при воспроизведении акустическими системами вызываемого абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-490">Каллиспеакерглитчрате</span><span class="sxs-lookup"><span data-stu-id="adc5d-490">CalleeSpeakerGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-491">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-491">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-492">Среднее число сбоев в течение пяти минут для отрисовки динамик вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-492">Average glitches per five minutes for the callee’s loudspeaker rendering.</span></span> <span data-ttu-id="adc5d-493">Для хорошего качества это должно быть меньше, чем один за пять минут.</span><span class="sxs-lookup"><span data-stu-id="adc5d-493">For good quality, this should be less than one per five minutes.</span></span> <span data-ttu-id="adc5d-494">Не сообщается серверам конференц-связи, серверам или IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="adc5d-494">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeMicGlitchRate</p></td>
-<td><p>int</p></td>
-<td><p>Среднее количество временных сбоев за пять минут при захвате звука микрофоном вызываемого абонента. Для хорошего качества должно быть не более одного сбоя в пять минут. Этот показатель не сообщается серверами аудио- и видеоконференций, серверами-посредниками и IP-телефонами.</p></td>
+<td><p><span data-ttu-id="adc5d-495">Каллимикглитчрате</span><span class="sxs-lookup"><span data-stu-id="adc5d-495">CalleeMicGlitchRate</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-496">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-496">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-497">Среднее число сбоев в течение пяти минут для захвата микрофона вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-497">Average glitches per five minutes for the callee’s microphone capture.</span></span> <span data-ttu-id="adc5d-498">Для хорошего качества это должно быть менее чем на одну 5 минут.</span><span class="sxs-lookup"><span data-stu-id="adc5d-498">For good quality this should be less than one per five minutes.</span></span> <span data-ttu-id="adc5d-499">Не сообщается серверам конференц-связи, серверам или IP-телефонам.</span><span class="sxs-lookup"><span data-stu-id="adc5d-499">Not reported by A/V Conferencing Servers, Mediation Servers, or IP phones.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeTimestampDriftRateMic</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Скорость рассинхронизации часов микрофона вызываемого абонента относительно часов процессора.</p></td>
+<td><p><span data-ttu-id="adc5d-500">Каллитиместампдрифтратемик</span><span class="sxs-lookup"><span data-stu-id="adc5d-500">CalleeTimestampDriftRateMic</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-501">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-501">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-502">Частота отсчета часов микрофона для вызываемого абонента в соответствии с тактовой частотой процессора.</span><span class="sxs-lookup"><span data-stu-id="adc5d-502">Callee’s microphone device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeTimestampDriftRateSpk</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Скорость рассинхронизации часов динамика вызываемого абонента относительно часов процессора.</p></td>
+<td><p><span data-ttu-id="adc5d-503">Каллитиместампдрифтратеспк</span><span class="sxs-lookup"><span data-stu-id="adc5d-503">CalleeTimestampDriftRateSpk</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-504">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-504">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-505">Частота отсчета звукового сигнала устройства вызываемого абонента в соответствии с тактовой частотой процессора.</span><span class="sxs-lookup"><span data-stu-id="adc5d-505">Callee’s speaker device clock drift rate, relative to CPU clock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeTimestampErrorMicMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Средняя ошибка метки времени для потока захвата микрофоном, в миллисекундах, в последние 20 секунд вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-506">Каллитиместамперрормикмс</span><span class="sxs-lookup"><span data-stu-id="adc5d-506">CalleeTimestampErrorMicMs</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-507">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-507">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-508">Средняя пометка времени потока захвата микрофона в миллисекундах за последние 20 секунд звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-508">Average microphone capture stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeTimestampErrorSpkMs</p></td>
-<td><p>decimal(9,2)</p></td>
-<td><p>Средняя ошибка метки времени для потока воспроизведения динамиком вызываемого абонента, в миллисекундах, в последние 20 секунд вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-509">Каллитиместамперрорспкмс</span><span class="sxs-lookup"><span data-stu-id="adc5d-509">CalleeTimestampErrorSpkMs</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-510">десятичное число (9, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-510">decimal(9,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-511">Среднее сообщение об ошибке пометки времени линейного отображения динамика в миллисекундах за последние 20 секунд звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-511">Average of the callee’s speaker render stream time stamp error, in milliseconds, in the last 20 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeVsEntryCauses</p></td>
-<td><p>smallint</p></td>
-<td><p>Речевой коммутатор — это полудуплексный режим с уменьшенной возможностью прерывания. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-512">Калливсентрикаусес</span><span class="sxs-lookup"><span data-stu-id="adc5d-512">CalleeVsEntryCauses</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-513">smallint</span><span class="sxs-lookup"><span data-stu-id="adc5d-513">smallint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-514">Голосовая связь — это режим двусторонней печати с ограниченными возможностями перерывов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-514">Voice switch is a half-duplex mode with reduced interruption ability.</span></span> <span data-ttu-id="adc5d-515">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialine-table.md">таблицей медиалине в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-515">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeEchoEventCauses</p></td>
-<td><p>tinyint</p></td>
-<td><p>Причины события эхосигнала для вызываемого абонента. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="adc5d-516">Каллиечоевенткаусес</span><span class="sxs-lookup"><span data-stu-id="adc5d-516">CalleeEchoEventCauses</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-517">tinyint</span><span class="sxs-lookup"><span data-stu-id="adc5d-517">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-518">Причины возникновения события echo для вызываемого объекта.</span><span class="sxs-lookup"><span data-stu-id="adc5d-518">Causes of an echo event for the callee.</span></span> <span data-ttu-id="adc5d-519">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialine-table.md">таблицей медиалине в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="adc5d-519">See the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeEchoPercentMicIn</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Процент времени, когда в потоке захвата микрофоном вызываемого абонента обнаруживается эхосигнал. Если используется гарнитура, то значение должно быть низким.</p></td>
+<td><p><span data-ttu-id="adc5d-520">КаллиечоперцентмиЦин</span><span class="sxs-lookup"><span data-stu-id="adc5d-520">CalleeEchoPercentMicIn</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-521">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-521">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-522">Процент времени, когда в потоке захвата микрофона вызываемого абонента будет обнаружено эхо.</span><span class="sxs-lookup"><span data-stu-id="adc5d-522">Percentage of time when echo is detected in the callee’s microphone capture stream.</span></span> <span data-ttu-id="adc5d-523">Если используется гарнитура, значение должно быть низким.</span><span class="sxs-lookup"><span data-stu-id="adc5d-523">If headset is used, the value should be low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeEchoPercentSend</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Процент времени, когда в потоке, отправленном вызываемым абонентом, обнаруживается эхосигнал. Высокое значение в отправленных потоках указывает на утечку эхосигнала.</p></td>
+<td><p><span data-ttu-id="adc5d-524">Каллиечоперцентсенд</span><span class="sxs-lookup"><span data-stu-id="adc5d-524">CalleeEchoPercentSend</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-525">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-525">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-526">Процент времени, в течение которого обнаружено эхо в потоке, отправленном вызываемым абонентом.</span><span class="sxs-lookup"><span data-stu-id="adc5d-526">Percentage of time when echo is detected in the callee’s sent stream.</span></span> <span data-ttu-id="adc5d-527">Высокий процент эха в потоках отправки указывает на наличие утечки эха.</span><span class="sxs-lookup"><span data-stu-id="adc5d-527">High echo percentage in send streams an indication of echo leak.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRxAGCSignalLevel</p></td>
-<td><p>int</p></td>
-<td><p>Уровень сигнала, полученный на сервере-посреднике от шлюза, для аудиопотока вызываемого абонента; этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — от -30 до -18 dBoV.</p></td>
+<td><p><span data-ttu-id="adc5d-528">Каллирксагксигналлевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-528">CalleeRxAGCSignalLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-529">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-529">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-530">Уровень сигнала на сервере-посреднике от шлюза для звука вызываемого абонента; Это относится только к серверу обновлений.</span><span class="sxs-lookup"><span data-stu-id="adc5d-530">Received signal level on the Mediation Server from the Gateway for the callee’s audio; this applies only to the Mediation Server.</span></span> <span data-ttu-id="adc5d-531">Единица измерения этой метрики — Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-531">The unit of this metric is dBoV.</span></span> <span data-ttu-id="adc5d-532">Для хорошего качества допустимый диапазон должен составлять от [-30 до-18] Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-532">For good quality, the acceptable range should be [-30 to -18] dBoV.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeRxAGCNoiseLevel</p></td>
-<td><p>int</p></td>
-<td><p>Уровень акустического шума, полученный на сервере-посреднике от шлюза, для аудиопотока вызываемого абонента. Этот показатель относится только к серверу-посреднику. Единица измерения — dBoV. Приемлемый диапазон для хорошего качества — ниже -50 dBoV.</p></td>
+<td><p><span data-ttu-id="adc5d-533">Каллирксагкноиселевел</span><span class="sxs-lookup"><span data-stu-id="adc5d-533">CalleeRxAGCNoiseLevel</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-534">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-534">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-535">Уровень сигнала на сервере-посреднике от шлюза к звуковому каналу вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-535">Received signal level on the Mediation Server from the Gateway for the callee’s audio.</span></span> <span data-ttu-id="adc5d-536">Это относится только к серверу обновлений.</span><span class="sxs-lookup"><span data-stu-id="adc5d-536">This applies only to the Mediation Server.</span></span> <span data-ttu-id="adc5d-537">Единица измерения этой метрики — Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-537">The unit of this metric is dBoV.</span></span> <span data-ttu-id="adc5d-538">Для хорошего качества допустимый диапазон должен быть меньше, чем-50 Дбов.</span><span class="sxs-lookup"><span data-stu-id="adc5d-538">For good quality, the acceptable range should be less than -50 dBoV.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>CalleeRxAGCGain</p></td>
-<td><p>int</p></td>
-<td><p>Автоматическая регулировка усиления на стороне сервера-посредника, применяемая к аудиопотоку вызываемого абонента.</p></td>
+<td><p><span data-ttu-id="adc5d-539">Каллирксагкгаин</span><span class="sxs-lookup"><span data-stu-id="adc5d-539">CalleeRxAGCGain</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-540">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-540">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-541">Функция автоматического усиления доступа (АГК) на стороне сервера-посредника, примененная к звуковому каналу вызываемого абонента.</span><span class="sxs-lookup"><span data-stu-id="adc5d-541">Automatic gain control (AGC) on the Mediation Server side applied to the callee’s audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>CalleeInitialSignalLevelRMS</p></td>
-<td><p>float</p></td>
-<td><p>Среднеквадратическое отклонение входящего сигнала вызываемого абонента до 30 первых секунд вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-542">Каллиинитиалсигналлевелрмс</span><span class="sxs-lookup"><span data-stu-id="adc5d-542">CalleeInitialSignalLevelRMS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-543">число с плавающей точкой</span><span class="sxs-lookup"><span data-stu-id="adc5d-543">float</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-544">Среднее значение среднего квадрата (RMS) входящего сигнала для вызываемого абонента до первых 30 секунд звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-544">Root mean square (RMS) of the incoming signal to the callee for up to the first 30 seconds of the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RatioConcealedSamplesAvg</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Среднее отношение числа скрытых образцов, созданных функцией восстановления звука, к обычным образцам.</p></td>
+<td><p><span data-ttu-id="adc5d-545">Ратиоконцеаледсамплесавг</span><span class="sxs-lookup"><span data-stu-id="adc5d-545">RatioConcealedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-546">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-546">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-547">Среднее отношение количества преобразованных образцов, созданных при воспроизведении звука, на обычные выборки.</span><span class="sxs-lookup"><span data-stu-id="adc5d-547">Average ratio of concealed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RatioStretchedSamplesAvg</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Среднее отношение числа растянутых образцов, созданных функцией восстановления звука, к обычным образцам.</p></td>
+<td><p><span data-ttu-id="adc5d-548">Ратиостретчедсамплесавг</span><span class="sxs-lookup"><span data-stu-id="adc5d-548">RatioStretchedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-549">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-549">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-550">Среднее отношение растянутых образцов, созданных при воспроизведении звука, на обычные выборки.</span><span class="sxs-lookup"><span data-stu-id="adc5d-550">Average ratio of stretched samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RatioCompressedSamplesAvg</p></td>
-<td><p>decimal(5,2)</p></td>
-<td><p>Среднее отношение числа сжатых образцов, созданных функцией восстановления звука, к обычным образцам.</p></td>
+<td><p><span data-ttu-id="adc5d-551">Ратиокомпресседсамплесавг</span><span class="sxs-lookup"><span data-stu-id="adc5d-551">RatioCompressedSamplesAvg</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-552">десятичное число (5; 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-552">decimal(5,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-553">Среднее отношение количества сжатых образцов, созданных при восстановлении звука, на обычные образцы.</span><span class="sxs-lookup"><span data-stu-id="adc5d-553">Average ratio of compressed samples generated by audio healing to typical samples.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RoundTrip</p></td>
-<td><p>int</p></td>
-<td><p>Время приема-передачи на основе статистики RTCP.</p></td>
+<td><p><span data-ttu-id="adc5d-554">RoundTrip</span><span class="sxs-lookup"><span data-stu-id="adc5d-554">RoundTrip</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-555">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-555">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-556">Время кругового приема из статистики РТКП.</span><span class="sxs-lookup"><span data-stu-id="adc5d-556">Round trip time from RTCP statistics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RoundTripMax</p></td>
-<td><p>int</p></td>
-<td><p>Максимальное время приема-передачи для аудиопотока.</p></td>
+<td><p><span data-ttu-id="adc5d-557">Раундтрипмакс</span><span class="sxs-lookup"><span data-stu-id="adc5d-557">RoundTripMax</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-558">целое</span><span class="sxs-lookup"><span data-stu-id="adc5d-558">int</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-559">Максимальное время кругового приема для звукового потока.</span><span class="sxs-lookup"><span data-stu-id="adc5d-559">Maximum round trip time for the audio stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>OverallAvgNetworkMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Средняя экспертная оценка качества (MOS) в широкополосной сети для вызова. Значение этого показателя зависит от потерь пакетов, дрожания и используемого кодека. Диапазон — от 1,0 до 5,0.</p></td>
+<td><p><span data-ttu-id="adc5d-560">Овераллавгнетворкмос</span><span class="sxs-lookup"><span data-stu-id="adc5d-560">OverallAvgNetworkMOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-561">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-561">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-562">Средняя сетевая MOS широкополосному для звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-562">Average wideband Network MOS for the call.</span></span> <span data-ttu-id="adc5d-563">Эта метрика зависит от потерь пакетов, колебаний и используемого кодека.</span><span class="sxs-lookup"><span data-stu-id="adc5d-563">This metric depends on the packet loss, jitter, and codec used.</span></span> <span data-ttu-id="adc5d-564">Диапазон от 1,0 до 5,0.</span><span class="sxs-lookup"><span data-stu-id="adc5d-564">Range is 1.0 to 5.0.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>OverallMinNetworkMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Минимальная экспертная оценка качества (MOS) в широкополосной сети для вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-565">Овераллминнетворкмос</span><span class="sxs-lookup"><span data-stu-id="adc5d-565">OverallMinNetworkMOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-566">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-566">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-567">Минимальная широкополосному сети MOS для звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-567">Minimum wideband Network MOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SendListenMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Средняя прогнозируемая экспертная оценка качества (MOS) при широкополосном прослушивании для отправленного аудиосигнала, включая характеристики уровня чувствительности микрофона, уровня помех и устройства захвата.</p></td>
+<td><p><span data-ttu-id="adc5d-568">Сендлистенмос</span><span class="sxs-lookup"><span data-stu-id="adc5d-568">SendListenMOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-569">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-569">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-570">Средняя прогнозируемая широкополосному прослушивания MOS для звукового сигнала, в том числе уровней речи, шума и характеристик устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="adc5d-570">Average predicted wideband Listening MOS score for audio sent, including speech level, noise level and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SendListenMOSMin</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Минимальное значение SendListenMOS для вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-571">Сендлистенмосмин</span><span class="sxs-lookup"><span data-stu-id="adc5d-571">SendListenMOSMin</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-572">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-572">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-573">Минимальная Сендлистенмос для звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-573">Minimum SendListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>RecvListenMOS</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Средняя прогнозируемая экспертная оценка качества (MOS) для аудиосигнала, полученного из сети, включая характеристики уровня чувствительности микрофона, уровня помех и устройства захвата.</p></td>
+<td><p><span data-ttu-id="adc5d-574">Реквлистенмос</span><span class="sxs-lookup"><span data-stu-id="adc5d-574">RecvListenMOS</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-575">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-575">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-576">Средняя прогнозируемая широкополосному прослушивания MOS для звуковых сообщений, полученных из сети, включая уровень речи, уровень шума, кодек, условия сети и характеристики устройства захвата.</span><span class="sxs-lookup"><span data-stu-id="adc5d-576">Average predicted wideband Listening MOS score for audio received from the network including speech level, noise level, codec, network conditions and capture device characteristics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>RecvListenMOSMin</p></td>
-<td><p>decimal(3,2)</p></td>
-<td><p>Минимальное значение RecvListenMOS для вызова.</p></td>
+<td><p><span data-ttu-id="adc5d-577">Реквлистенмосмин</span><span class="sxs-lookup"><span data-stu-id="adc5d-577">RecvListenMOSMin</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-578">десятичное число (3, 2)</span><span class="sxs-lookup"><span data-stu-id="adc5d-578">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-579">Минимальная Реквлистенмос для звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-579">Minimum RecvListenMOS for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>AudioFECUsed</p></td>
-<td><p>bit</p></td>
-<td><p>Указывает, применялась ли для этого вызова прямая коррекция аудиосигнала.</p></td>
+<td><p><span data-ttu-id="adc5d-580">Аудиофекусед</span><span class="sxs-lookup"><span data-stu-id="adc5d-580">AudioFECUsed</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-581">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-581">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-582">Указывает, был ли использован голосовой FEC для звонка.</span><span class="sxs-lookup"><span data-stu-id="adc5d-582">Indicates whether audio FEC was used for the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>SenderIsCallerPAI</p></td>
-<td><p>bit</p></td>
-<td><p>Указывает направление передачи данных P-Asserted-Identity: 1 указывает направление потока от вызывающего абонента к вызываемому; 0 указывает направление потока от вызываемого абонента к вызывающему.</p></td>
+<td><p><span data-ttu-id="adc5d-583">Сендерискаллерпаи</span><span class="sxs-lookup"><span data-stu-id="adc5d-583">SenderIsCallerPAI</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-584">бит</span><span class="sxs-lookup"><span data-stu-id="adc5d-584">bit</span></span></p></td>
+<td><p><span data-ttu-id="adc5d-585">Указывает направление, в котором определяются p-утвержденные сведения; 1 — направление потока на вызываемый абонентом. 0 — направление потока из вызываемого объекта вызывающему абоненту.</span><span class="sxs-lookup"><span data-stu-id="adc5d-585">Indicates direction of the p-asserted identify information; 1 means the stream direction is from the caller to the callee; 0 means the stream direction is from the callee to the caller.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

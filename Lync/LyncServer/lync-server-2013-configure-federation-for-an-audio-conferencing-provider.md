@@ -1,27 +1,57 @@
-﻿---
-title: 'Lync Server 2013: настройка федерации для поставщика аудиоконференций'
-TOCTitle: Настройка федерации для поставщика аудиоконференций
-ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn510996(v=OCS.15)
-ms:contentKeyID: 59953749
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка Федерации для поставщика голосовой конференц-связи'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure federation for an audio conferencing provider
+ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn510996(v=OCS.15)
+ms:contentKeyID: 60595883
+ms.date: 07/24/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 30bf49947034f995b10551985450f560bc1d3693
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841375"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка федерации для поставщика аудиоконференций в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-07-24_
+# <a name="configure-federation-for-an-audio-conferencing-provider-in-lync-server-2013"></a><span data-ttu-id="43392-102">Настройка Федерации для поставщика голосовой конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="43392-102">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>
 
-Чтобы использовать поставщика услуг аудиоконференций (ACP) в своем гибридном развертывании (локальное развертывание Lync Server с Lync Online), федерацию между своим локальным развертыванием Lync и партнером ACP необходимо настроить как разрешенный сервер-партнер. Возможность федерации можно настроить с помощью добавления домена партнера ACP и пограничного сервера (он также может называться прокси-сервером доступа) в список федеративных доменов локального развертывания. Затем вашему партнеру ACP потребуется добавить полное доменное имя вашего локального пула пограничных серверов в их список разрешенных федеративных доменов. Для получения дополнительных сведений обратитесь к поставщику ACP.
+</div>
 
-  - **Добавление домена ACP и пограничного сервера в качестве разрешенных федеративных доменов**
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="43392-103">_**Тема последнего изменения:** 2014-07-24_</span><span class="sxs-lookup"><span data-stu-id="43392-103">_**Topic Last Modified:** 2014-07-24_</span></span>
+
+<span data-ttu-id="43392-104">Если вы хотите использовать поставщика голосовой конференц-связи (ACP) в гибридном развертывании (Lync Server в локальной среде Lync Online), вам нужно настроить федерацию между локальным развертыванием Lync и партнером ACP в качестве разрешенного сервера-партнера.</span><span class="sxs-lookup"><span data-stu-id="43392-104">If you want to use an Audio Conferencing Provider (ACP) in your hybrid deployment (Lync Server on-premises with Lync Online), you need to configure federation between your on-premises Lync deployment and the ACP partner as an Allowed Partner Server.</span></span> <span data-ttu-id="43392-105">Вы можете настроить федерацию, добавив домен партнера ACP и пограничный сервер (этот способ также может называться прокси-сервером доступа) в список федеративных доменов для локального развертывания.</span><span class="sxs-lookup"><span data-stu-id="43392-105">You can configure federation by adding the ACP partner domain and Edge server (this may also be called the Access Proxy) to the Federated Domains list for your on-premises deployment.</span></span> <span data-ttu-id="43392-106">Для вашего партнера ACP необходимо добавить полное доменное имя пула из локального пограничного сервера в список разрешенных федеративных доменов.</span><span class="sxs-lookup"><span data-stu-id="43392-106">Your ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.</span></span> <span data-ttu-id="43392-107">Обратитесь к поставщику ACP за дополнительным партнером Детаилсйоур, а затем добавьте полное доменное имя пула из вашего домена пограничного сервера в список разрешенных федеративных доменов.</span><span class="sxs-lookup"><span data-stu-id="43392-107">Contact your ACP provider for additional detailsYour ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.</span></span>
+
+  - <span data-ttu-id="43392-108">**Добавление домена ACP и пограничного сервера в качестве разрешенных федеративных доменов**</span><span class="sxs-lookup"><span data-stu-id="43392-108">**Adding the ACP Domain and Edge Server as an Allowed Federated Domain**</span></span>
     
-    Чтобы добавить домен ACP в качестве разрешенного сервера-партнера (разрешенный федеративный домен), выполните действия, описанные в разделе [Настройка поддержки для разрешенных внешних доменов в Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md). Для пограничного сервера добавьте полное доменное имя пограничного сервера партнера ACP. Может потребоваться связаться со своим партнером ACP, чтобы получить полное доменное имя для своего пограничного сервера, на который ваши ACP могут ссылаться как на свой прокси-сервер доступа.
+    <span data-ttu-id="43392-109">Чтобы добавить домен ACP в качестве разрешенного сервера-партнера (разрешенного федеративного домена), выполните действия, описанные в разделе [Настройка поддержки для разрешенных внешних доменов в Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).</span><span class="sxs-lookup"><span data-stu-id="43392-109">To add the ACP domain as an Allowed Partner Server (allowed Federated Domain), follow the steps in [Configure support for allowed external domains in Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).</span></span> <span data-ttu-id="43392-110">Для пограничного сервера добавьте полное доменное имя пограничного сервера партнера ACP.</span><span class="sxs-lookup"><span data-stu-id="43392-110">For the Edge Server, add the FQDN of the ACP partner’s Edge Server.</span></span> <span data-ttu-id="43392-111">Может потребоваться связаться со своим партнером ACP, чтобы получить полное доменное имя для своего пограничного сервера, на который ваши ACP могут ссылаться как на свой прокси-сервер доступа.</span><span class="sxs-lookup"><span data-stu-id="43392-111">You may need to contact your ACP partner to obtain the FQDN for their Edge Server, which may also be referred to by your ACP as their Access Proxy.</span></span>
 
-  - **Предоставление полного доменного имени пула пограничного сервера партнеру ACP**
+  - <span data-ttu-id="43392-112">**Предоставление полного доменного имени пула пограничного сервера партнеру ACP**</span><span class="sxs-lookup"><span data-stu-id="43392-112">**Provide the FQDN of your Edge Server Pool to the ACP partner**</span></span>
     
-    Партнеру ACP необходимо настроить федерацию, чтобы добавить ваш локальный домен как разрешенный сервер-партнер, добавив полное доменное имя пула пограничных серверов в качестве разрешенного федеративного домена.
+    <span data-ttu-id="43392-113">Партнеру ACP необходимо настроить федерацию, чтобы добавить ваш локальный домен как разрешенный сервер-партнер, добавив полное доменное имя пула пограничных серверов в качестве разрешенного федеративного домена.</span><span class="sxs-lookup"><span data-stu-id="43392-113">The ACP partner needs to configure federation to add your on-premises domain as an Allowed Partner Server by adding the FQDN of your Edge Server pool as an allowed Federated domain.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

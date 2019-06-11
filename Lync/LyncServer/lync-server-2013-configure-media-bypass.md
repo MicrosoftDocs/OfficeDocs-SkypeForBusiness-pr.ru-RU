@@ -1,48 +1,91 @@
-﻿---
-title: 'Lync Server 2013: настройка обхода сервера-посредника'
-TOCTitle: Настройка обхода сервера-посредника
-ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413028(v=OCS.15)
-ms:contentKeyID: 49311676
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: настройка обхода сервера-посредника'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media bypass
+ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413028(v=OCS.15)
+ms:contentKeyID: 48185836
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 465a949ca1581933f96f18cfe2977d400fa7a152
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841360"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка обхода сервера-посредника в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="configure-media-bypass-in-lync-server-2013"></a><span data-ttu-id="344f3-102">Настройка обхода сервера-посредника в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="344f3-102">Configure media bypass in Lync Server 2013</span></span>
 
-Информация в этом разделе основана на предположении, что вы уже опубликовали и настроили либо один, либо несколько серверов-посредников (как указано в [Определение сервера-посредника в построителе топологий в Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md) и [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md) или в [Определение и настройка пула переднего плана или сервера Standard Edition в Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) и [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md), соответственно, в документации по развертыванию).
+</div>
 
-Информация в этом разделе основана на предположении, что вы уже задали по крайней мере один одноранговый шлюз для обеспечения связи ТСОП, как указано в [Определение шлюза в построителе топологий в Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md). Если однорагновым шлюзом, к которому вы подключаетесь, является устройство SBC поставщика распределения каналов SIP, убедитесь, что данный поставщик является квалифицированным и поддерживает обход сервера-посредника. Например, многие поставщики распределения каналов SIP допускают прием устройством SBC трафика только от сервера-посредника. В этом случае обход не должен быть разрешен для данной магистрали. Кроме того, вы не можете включить обход сервера-посредника, если организация не предоставляет IP-адреса внутренней сети поставщику распределения каналов SIP.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="344f3-103">_**Тема последнего изменения:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="344f3-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+
+<span data-ttu-id="344f3-104">В этом разделе предполагается, что вы уже опубликовали и настроили как минимум один сервер-посредник (как описано в статье [Определение сервера-посредника в построителе топологии в Lync server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md) и [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md)или в [Определите и настройте интерфейсный пул или сервер стандартных выпусков в Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) и [опубликуйте топологию в Lync Server 2013](lync-server-2013-publish-the-topology.md)соответственно, в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="344f3-104">This section assumes that you have already published and configured either at least one or more Mediation Servers (as described in [Define a Mediation Server in Topology Builder in Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md) and [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md), or in [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) and [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md), respectively, all in the Deployment documentation).</span></span>
+
+<span data-ttu-id="344f3-105">Кроме того, в этом разделе предполагается, что вы определили по крайней мере один узел шлюза, чтобы обеспечить подключение PSTN, как описано в статье [определение шлюза в построителе топологии в Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md).</span><span class="sxs-lookup"><span data-stu-id="344f3-105">This section also assumes that you have defined at least one gateway peer to provide PSTN connectivity, as described in [Define a gateway in Topology Builder in Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md).</span></span> <span data-ttu-id="344f3-106">Если однорагновым шлюзом, к которому вы подключаетесь, является устройство SBC поставщика распределения каналов SIP, убедитесь, что данный поставщик является квалифицированным и поддерживает обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="344f3-106">If the peer you connect to is the SBC of a SIP trunking provider, make sure that the provider is a qualified provider and that the provider supports media bypass.</span></span> <span data-ttu-id="344f3-107">Например, многие поставщики распределения каналов SIP допускают прием устройством SBC трафика только от сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="344f3-107">For example, many SIP trunking providers will only allow their SBC to receive traffic from the Mediation Server.</span></span> <span data-ttu-id="344f3-108">В этом случае обход не должен быть разрешен для данной магистрали.</span><span class="sxs-lookup"><span data-stu-id="344f3-108">If so, then bypass must not be enabled for the trunk in question.</span></span> <span data-ttu-id="344f3-109">Кроме того, вы не можете включить обход сервера-посредника, если организация не предоставляет IP-адреса внутренней сети поставщику распределения каналов SIP.</span><span class="sxs-lookup"><span data-stu-id="344f3-109">Also, you cannot enable media bypass unless your organization reveals its internal network IP addresses to the SIP trunking provider.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала набор ТСОП-шлюзов и SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-УАТС. Режим обхода сервера-посредника поддерживается только для продуктов и версий из программы Unified Communications Open Interoperability Program – Lync Server по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.
+> <span data-ttu-id="344f3-110">Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-PBX и пограничным контроллером SBC.</span><span class="sxs-lookup"><span data-stu-id="344f3-110">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="344f3-111">Корпорация Майкрософт протестировала набор шлюзов ТСОП и контроллеров SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="344f3-111">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="344f3-112">Обход мультимедиа поддерживается только в том случае, если у вас есть продукты и версии, указанные в едином приложении <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>для взаимодействия с Open Communications — Lync Server на.</span><span class="sxs-lookup"><span data-stu-id="344f3-112">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
 
-В этом разделе приведено описание процесса обхода сервера-посредника для уменьшения объема обработки, которую должен выполнять сервер-посредник. Перед активацией обхода сервера-посредника убедитесь, что ваша среда соответствует требованиям, необходимым для поддержки обхода сервера-посредника, как описано в разделе [Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) документации по планированию. Также необходимо использовать информацию, приведенную в [Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md), чтобы принять решение относительно того, следует ли активировать глобальные параметры обхода сервера-посредника, чтобы всегда выполнять обход или использовать данные сайта и региона при определении необходимости обхода сервера-посредника.
 
-Если вы уже дополнительно настроили контроль допуска звонков (CAC), другую расширенную функцию Enterprise Voice, обратите внимание на то, что резервирование полосы пропускания, выполняемое функцией контроля допуска звонков, не распространяется на какие-либо вызовы, для которых используется обход сервера-посредника. Сначала выполняется проверка того, используется ли обход сервера-посредника, и, если обход используется, функция контроля допуска звонков не применяется для вызовов; только если проверка обхода сервера-посредника возвращает отказ, выполняется проверка на использование функции контроля допуска звонков. Эти две функции являются взаимоисключающими для любого отдельного вызова, передаваемого на ТСОП. Это логично, поскольку обход сервера-посредника предполагает, что полоса пропускания между конечными точками, участвующими в вызове, не ограничена; обход сервера-посредника не выполняется при наличии ограничений. В результате при вызове ТСОП возможно возникновение одной их следующих ситуаций: а) выполняется обход сервера-посредника, а функция контроля допуска звонков не резервирует полосу пропускания для вызова; или б) функция контроля допуска звонков применяет резервирование полосы пропускания, а сервер-посредником, которые участвует в вызове, выполняет обработку.
 
-## Дальнейшие действия: включение обхода сервера-посредника на магистральном соединении
+</div>
 
-После настройки начальных параметров для подключения ТСОП (телефонные группы, голосовые политики, записи об использовании ТСОП, маршруты исходящих вызовов и правила преобразования) можно приступать к процессу активации обхода сервера-посредника в соответствии с инструкциями раздела [Настройка магистрали с обходом сервера-посредника в Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md).
+<span data-ttu-id="344f3-113">В этом разделе объясняется, как включить обход мультимедиа, чтобы уменьшить количество необходимых для сервера исправлений обработки.</span><span class="sxs-lookup"><span data-stu-id="344f3-113">This section describes how to enable media bypass to reduce the processing required of the Mediation Server.</span></span> <span data-ttu-id="344f3-114">Перед включением пропуска мультимедиа убедитесь, что ваша среда отвечает требованиям, необходимым для поддержки обхода мультимедиа, как описано в разделе [Планирование обхода мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="344f3-114">Before you enable media bypass, make sure that your environment meets the conditions required to support media bypass, as described in [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning documentation.</span></span> <span data-ttu-id="344f3-115">Кроме того, убедитесь, что вы использовали данные в разделе [Планирование обхода мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) , чтобы решить, нужно ли включать глобальные параметры обхода мультимедийного содержимого, чтобы всегда обходить сервер-посредник или использовать сведения о сайте и регионе при определении необходимости обходить сервер исправлений.</span><span class="sxs-lookup"><span data-stu-id="344f3-115">Also make sure that you used the information in [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) to decide whether to enable media bypass global settings to always bypass the Mediation Server or to use site and region information when determining whether to bypass the Mediation Server.</span></span>
 
-## См. также
+<span data-ttu-id="344f3-p104">Если вы уже дополнительно настроили контроль допуска звонков (CAC), другую расширенную функцию Enterprise Voice, обратите внимание на то, что резервирование полосы пропускания, выполняемое функцией контроля допуска звонков, не распространяется на какие-либо вызовы, для которых используется обход сервера-посредника. Сначала выполняется проверка того, используется ли обход сервера-посредника, и, если обход используется, функция контроля допуска звонков не применяется для вызовов; только если проверка обхода сервера-посредника возвращает отказ, выполняется проверка на использование функции контроля допуска звонков. Эти две функции являются взаимоисключающими для любого отдельного вызова, передаваемого на ТСОП. Это логично, поскольку обход сервера-посредника предполагает, что полоса пропускания между конечными точками, участвующими в вызове, не ограничена; обход сервера-посредника не выполняется при наличии ограничений. В результате при вызове ТСОП возможно возникновение одной их следующих ситуаций: а) выполняется обход сервера-посредника, а функция контроля допуска звонков не резервирует полосу пропускания для вызова; или б) функция контроля допуска звонков применяет резервирование полосы пропускания, а сервер-посредником, которые участвует в вызове, выполняет обработку.</span><span class="sxs-lookup"><span data-stu-id="344f3-p104">If you have already optionally configured call admission control (CAC), another advanced Enterprise Voice feature, note that the bandwidth reservation performed by call admission control does not apply to any calls for which media bypass is employed. The verification of whether to employ media bypass is performed first, and if media bypass is employed, call admission control is not used for the call; only if the media bypass check fails is the check performed for call admission control. The two features are thus mutually exclusive for any particular call that is routed to the PSTN. This is the logic because media bypass assumes that bandwidth constraints do not exist between the media endpoints on a call; media bypass cannot be performed on links with restricted bandwidth. As a result, one of the following will apply to a PSTN call: a) media bypasses the Mediation Server, and call admission control does not reserve bandwidth for the call; or b) call admission control applies bandwidth reservation to the call, and media is processed by the Mediation Server involved in the call.</span></span>
 
-#### Задачи
+<div>
 
-[Настройка магистрали с обходом сервера-посредника в Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Настройка постоянного обхода сервера-посредника](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)  
-[Настройка глобальных параметров обхода сервера-посредника для использования сведений о местоположении и регионе](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)  
+## <a name="next-steps-enable-media-bypass-on-the-trunk-connection"></a><span data-ttu-id="344f3-121">Дальнейшие действия: включение мультимедиа на магистральном подключении</span><span class="sxs-lookup"><span data-stu-id="344f3-121">Next Steps: Enable Media Bypass on the Trunk Connection</span></span>
 
-#### Концепции
+<span data-ttu-id="344f3-122">После того как вы настроили начальные параметры подключения к PSTN (абонентские группы, политики голосовой связи, записи использования PSTN, маршруты исходящих вызовов и правила трансляции), начинайте процесс включения мультимедиа, выполнив действия, описанные в разделе [Настройка магистрали с помощью мультимедиа в Lync Сервер 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="344f3-122">After configuring initial settings for PSTN connectivity (dial plans, voice policies, PSTN usage records, outbound call routes, and translation rules), begin the process of enabling media bypass by using the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md).</span></span>
 
-[Глобальные параметры обхода сервера-посредника в Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+## <a name="see-also"></a><span data-ttu-id="344f3-123">См. также</span><span class="sxs-lookup"><span data-stu-id="344f3-123">See Also</span></span>
+
+
+[<span data-ttu-id="344f3-124">Configure a trunk with media bypass in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="344f3-124">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="344f3-125">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span><span class="sxs-lookup"><span data-stu-id="344f3-125">Configure media bypass in Lync Server 2013 to always bypass the Mediation Server</span></span>](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)  
+[<span data-ttu-id="344f3-126">Configure media bypass global settings in Lync Server 2013 to use site and region information</span><span class="sxs-lookup"><span data-stu-id="344f3-126">Configure media bypass global settings in Lync Server 2013 to use site and region information</span></span>](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md)  
+
+
+[<span data-ttu-id="344f3-127">Глобальные параметры обхода мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="344f3-127">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+
+
+[<span data-ttu-id="344f3-128">Планирование обхода серверов-посредников в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="344f3-128">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

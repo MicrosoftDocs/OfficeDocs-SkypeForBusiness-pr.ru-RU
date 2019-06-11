@@ -1,75 +1,122 @@
-﻿---
-title: Добавление базы данных архивации в топологию Lync Server 2013
-TOCTitle: Добавление базы данных архивации в топологию Lync Server 2013
-ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204654(v=OCS.15)
-ms:contentKeyID: 49308863
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: добавление архивных баз данных в топологию Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding Archiving databases to the Lync Server 2013 topology
+ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204654(v=OCS.15)
+ms:contentKeyID: 48183338
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe77c57050d6d6c70d5818405fd657d5a8fd3f0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841937"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Добавление базы данных архивации в топологию Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-10_
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a><span data-ttu-id="5e837-102">Добавление архивных баз данных в топологию Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5e837-102">Adding Archiving databases to the Lync Server 2013 topology</span></span>
 
-Перед тем как настраивать поддержку архивации в развертывании, ее необходимо включить в топологию. В этом разделе приводятся сведения о том, как с помощью топологий добавить архивацию в существующую топологию.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="5e837-103">_**Тема последнего изменения:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="5e837-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+
+<span data-ttu-id="5e837-104">Перед настройкой поддержки архивации в развертывании необходимо встроить ее в топологию.</span><span class="sxs-lookup"><span data-stu-id="5e837-104">You must incorporate archiving into your topology before you can configure your deployment to support archiving.</span></span> <span data-ttu-id="5e837-105">В этой статье объясняется, как с помощью Topology Builder добавить архивацию в существующую топологию.</span><span class="sxs-lookup"><span data-stu-id="5e837-105">The information in this topic explains how to use Topology Builder to add archiving to your existing topology.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Если нужно использовать интеграцию с Microsoft Exchange для хранения данных и файлов архивации на серверах Exchange 2013 для всех пользователей, не указывайте данные в разделах <strong>Архивация хранилища SQL Server</strong> или <strong>Использовать зеркальное отображение хранилища SQL Server</strong>.
+> <span data-ttu-id="5e837-106">Если вы хотите использовать интеграцию Microsoft Exchange для хранения архивных данных и файлов на серверах Exchange 2013 для всех пользователей в развертывании, не указывайте параметр <STRONG>Архивирование хранилища SQL Server</STRONG> или <STRONG>Используйте сведения о зеркальном ОТОБРАЖЕНии хранилища SQL</STRONG> Server.</span><span class="sxs-lookup"><span data-stu-id="5e837-106">If you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers for all your users in your deployment, do not specify <STRONG>Archiving SQL Server store</STRONG> or <STRONG>Use SQL Server Store mirroring</STRONG> information.</span></span>
 
-## Добавление поддержки базы данных архивации в топологию
 
-1.  Войдите на компьютер, на котором работает Lync Server 2013 или установлены средства администрирования Lync Server, используя учетную запись, входящую в группу локальных пользователей (или учетную запись с эквивалентными правами пользователя).
+
+</div>
+
+<div>
+
+## <a name="to-add-archiving-database-support-to-your-topology"></a><span data-ttu-id="5e837-107">Добавление поддержки архивной базы данных в топологию</span><span class="sxs-lookup"><span data-stu-id="5e837-107">To add Archiving database support to your topology</span></span>
+
+1.  <span data-ttu-id="5e837-108">На компьютере, на котором работает Lync Server 2013 или на котором установлены средства администрирования сервера Lync, войдите в систему с помощью учетной записи, которая является членом локальной группы пользователей (или учетной записи с эквивалентными правами пользователей).</span><span class="sxs-lookup"><span data-stu-id="5e837-108">On a computer that is running Lync Server 2013, or on which the Lync Server administrative tools are installed, log on by using an account that is a member of the local Users group (or an account with equivalent user rights).</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Вы можете определить топологию с помощью учетной записи, входящей в группу локальных пользователей, но чтобы опубликовать топологию и затем добавить в нее сервер, нужна учетная запись, являющаяся членом групп <strong>Администраторы домена</strong> и <strong>RTCUniversalServerAdmins</strong> и имеющая весь набор разрешений (на чтение, запись и изменение) для общей папки, которую вы используете для хранения файлов Lync Server 2013 (это позволит топологий настроить необходимые списки управления доступом на уровне пользователей (DACL)), или учетная запись с эквивалентными правами.
+    > <span data-ttu-id="5e837-109">Вы можете определить топологию с помощью учетной записи, которая является членом локальной группы "Пользователи", но для публикации топологии, необходимой для добавления сервера в топологию, необходимо использовать учетную запись, которая входит в группу <STRONG>"Администраторы домена"</STRONG> и <STRONG>рткуниверсалсервер Группа "Администраторы"</STRONG> и есть разрешения "полный доступ" ("чтение", "запись" и "Изменить") в общей папке, которую вы используете для работы с хранилищем файлов Lync Server 2013 (это значит, что построитель топологии может настроить требуемый список управления доступом на уровне пользователей (DACL). или учетной записи с эквивалентными правами.</span><span class="sxs-lookup"><span data-stu-id="5e837-109">You can define a topology by using an account that is a member of the local Users group, but to publish a topology, which is required to add a server to the topology, you must use an account that is a member of the <STRONG>Domain Admins</STRONG> group and the <STRONG>RTCUniversalServerAdmins</STRONG> group, and that has full control permissions (that is, read, write, and modify) on the file share that you are using for the Lync Server 2013 file store (that is, so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent rights.</span></span>
 
-2.  Запустите топологий.
-
-3.  В дереве консоли перейдите к интерфейсному пулу, в котором вы хотите развернуть архивацию, и щелкните его имя.
-
-4.  В меню **Действие** выберите пункт **Изменить свойства**.
-
-5.  В диалоговом окне **Изменение свойств** перейдите на вкладку **Общее**.
-
-6.  Перейдите к разделу **Архивация**.
-
-7.  Установите флажок **Архивация**.
-
-8.  В разделе **Архивация хранилища SQL Server** выполните одно из следующих действий.
     
-      - Чтобы использовать существующее хранилище SQL Server, в раскрывающемся списке выберите имя нужного хранилища SQL Server. Если все пользователи находятся в Microsoft Exchange Server 2013 или выше, можно архивировать взаимодействие Lync со всеми пользователями в Exchange. В этом случае настраивать хранилище архивации SQL Server не нужно.
-    
-      - Чтобы указать новое хранилище SQL Server, щелкните пункт **Создать**, а затем в диалоговом окне **Определение нового хранилища SQL Server** выполните следующие действия.
-        
-          - В поле **Полное доменное имя SQL Server** укажите полное доменное имя сервера, на котором нужно создать хранилище SQL Server.
-        
-          - Чтобы использовать экземпляр по умолчанию, выберите пункт **Экземпляр по умолчанию**. Чтобы использовать другой экземпляр, щелкните пункт **Именованный экземпляр** и укажите нужный экземпляр.
-        
-          - Если указанный экземпляр SQL Server находится в отношении зеркального отображения, установите флажок **Этот экземпляр SQL находится в отношении зеркального отображения**, а затем в поле **Номер зеркального порта** укажите номер порта.
+    </div>
 
-9.  Если нужно использовать зеркальное отображение хранилища SQL Server, выберите пункт **Включить зеркальное отображение хранилища SQL Server**, а затем выполните следующие действия.
-    
-      - Чтобы использовать существующее хранилище SQL Server для зеркального отображения, в раскрывающемся списке **Зеркальное хранилище архивации SQL Server** выберите имя нужного хранилища SQL Server.
-    
-      - Чтобы указать новое хранилище SQL Server для зеркального отображения, щелкните пункт **Создать**, а затем в диалоговом окне **Определение нового хранилища SQL Server** выполните одно из следующих действий.
-        
-        1.  В поле **Полное доменное имя SQL Server** укажите полное доменное имя сервера SQL Server, на котором нужно создать хранилище SQL Server.
-        
-        2.  Чтобы использовать экземпляр по умолчанию, выберите пункт **Экземпляр по умолчанию**. Чтобы использовать другой экземпляр, щелкните пункт **Именованный экземпляр** и укажите нужный экземпляр.
-        
-        3.  Если указанный экземпляр SQL Server находится в отношении зеркального отображения, установите флажок **Этот экземпляр SQL находится в отношении зеркального отображения**, а затем в поле **Номер зеркального порта** укажите номер порта.
-    
-      - Если включено зеркальное отображение SQL Server и нужно добавить свидетель зеркалирования SQL Server (третий, отдельный экземпляр SQL Server, способный отслеживать состояние работоспособности основного и зеркального экземпляров SQL Server), установите флажок **Использовать свидетель зеркалирования SQL Server для автоматического перехода на другой ресурс** и выполните одно из следующих действий.
-        
-        1.  В поле **Полное доменное имя SQL Server** укажите полное доменное имя сервера, на котором нужно создать свидетель зеркалирования SQL Server.
-        
-        2.  Чтобы использовать экземпляр по умолчанию, выберите пункт **Экземпляр по умолчанию**. Чтобы использовать другой экземпляр, щелкните пункт **Именованный экземпляр** и укажите нужный экземпляр.
-        
-        3.  Если указанный экземпляр SQL Server находится в отношении зеркального отображения, установите флажок **Этот экземпляр SQL находится в отношении зеркального отображения**, а затем в поле **Номер зеркального порта** укажите номер порта.
+2.  <span data-ttu-id="5e837-110">Запустите построитель топологии.</span><span class="sxs-lookup"><span data-stu-id="5e837-110">Start Topology Builder.</span></span>
 
-10. Чтобы сохранить конфигурацию, нажмите кнопку **ОК**.
+3.  <span data-ttu-id="5e837-111">В дереве консоли перейдите к пулу переднего плана, на котором вы хотите развернуть архивирование, и щелкните имя пула переднего плана, на котором вы хотите развернуть архивирование.</span><span class="sxs-lookup"><span data-stu-id="5e837-111">In the console tree, navigate to the Front End pool in which you want to deploy Archiving, and then click the name of the Front End pool where you want to deploy Archiving.</span></span>
+
+4.  <span data-ttu-id="5e837-112">В меню **Действие** выберите **Изменение свойств**.</span><span class="sxs-lookup"><span data-stu-id="5e837-112">In the **Action** menu, click **Edit Properties**.</span></span>
+
+5.  <span data-ttu-id="5e837-113">В диалоговом окне **Изменение свойств** щелкните **Общие**.</span><span class="sxs-lookup"><span data-stu-id="5e837-113">In the **Edit Properties** dialog box, click **General**.</span></span>
+
+6.  <span data-ttu-id="5e837-114">Прокрутите вниз до раздела **Архивация**.</span><span class="sxs-lookup"><span data-stu-id="5e837-114">Scroll down to **Archiving**.</span></span>
+
+7.  <span data-ttu-id="5e837-115">Установите флажок **Архивация**.</span><span class="sxs-lookup"><span data-stu-id="5e837-115">Select the **Archiving** check box.</span></span>
+
+8.  <span data-ttu-id="5e837-116">В разделе **Архивация хранилища SQL Server** выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="5e837-116">Under **Archiving SQL Server store,** do one of the following:</span></span>
+    
+      - <span data-ttu-id="5e837-117">Чтобы использовать имеющееся хранилище SQL Server в раскрывающемся списке щелкните название нужного хранилища.</span><span class="sxs-lookup"><span data-stu-id="5e837-117">To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use.</span></span> <span data-ttu-id="5e837-118">Если все пользователи находятся на сервере Microsoft Exchange Server 2013 или более поздней версии, вы можете архивировать средства связи Lync для всех пользователей в Exchange.</span><span class="sxs-lookup"><span data-stu-id="5e837-118">If all of your users are homed on Microsoft Exchange Server 2013 or above, you can archive Lync communications for all your users in Exchange.</span></span> <span data-ttu-id="5e837-119">В этом случае вам не нужно настраивать хранилище архивации SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5e837-119">In this case, you don’t need to configure SQL Server Archiving store.</span></span>
+    
+      - <span data-ttu-id="5e837-120">Чтобы указать новое хранилище SQL Server, нажмите кнопку **создать**, а затем в диалоговом окне **Определение нового хранилища SQL Server** выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="5e837-120">To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server Store** dialog box, do the following:</span></span>
+        
+          - <span data-ttu-id="5e837-121">В **доменном имени SQL Server**укажите полное доменное имя сервера, на котором вы хотите создать новое хранилище SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5e837-121">In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server store.</span></span>
+        
+          - <span data-ttu-id="5e837-122">Для применения экземпляра по умолчанию щелкните **Экземпляр по умолчанию**; для задания другого экземпляра щелкните **Именованный экземпляр**, затем укажите требуемый экземпляр.</span><span class="sxs-lookup"><span data-stu-id="5e837-122">Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named instance**, and then specify the instance you want to use.</span></span>
+        
+          - <span data-ttu-id="5e837-123">Если указанный экземпляр SQL Server находится в отношении отражения, установите флажок **этот экземпляр SQL находится в отношении зеркального отображения** , а затем в поле **номер зеркального порта**укажите номер порта.</span><span class="sxs-lookup"><span data-stu-id="5e837-123">If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.</span></span>
+
+9.  <span data-ttu-id="5e837-124">Если вы хотите использовать зеркальное отображение хранилища SQL Server, установите флажок **включить зеркальное отображение хранилища SQL**Server, а затем выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="5e837-124">If you want to use SQL Server store mirroring, select **Enable SQL Server Store mirroring**, and then do the following:</span></span>
+    
+      - <span data-ttu-id="5e837-125">Чтобы использовать существующее хранилище SQL Server для зеркального отображения, в раскрывающемся списке " **Архивирование хранилища SQL Server** " выберите имя хранилища SQL Server, которое вы хотите использовать для зеркального отображения.</span><span class="sxs-lookup"><span data-stu-id="5e837-125">To use an existing SQL Server store for mirroring, in the **Archiving SQL Server store mirror** drop-down list box, click the name of the SQL Server store that you want to use for mirroring.</span></span>
+    
+      - <span data-ttu-id="5e837-126">Чтобы указать новое хранилище SQL Server для зеркального отображения, нажмите кнопку **создать**, а затем в диалоговом окне **Определение нового хранилища SQL Server** выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="5e837-126">To specify a new SQL Server store for mirroring, click **New**, and then in the **Define New SQL Server Store** dialog box, do one of the following:</span></span>
+        
+        1.  <span data-ttu-id="5e837-127">В **доменном имени SQL Server**укажите полное доменное имя сервера SQL Server, на котором вы хотите создать новое хранилище SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5e837-127">In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server store.</span></span>
+        
+        2.  <span data-ttu-id="5e837-128">Для применения экземпляра по умолчанию щелкните **Экземпляр по умолчанию**; для задания другого экземпляра щелкните **Именованный экземпляр**, затем укажите требуемый экземпляр.</span><span class="sxs-lookup"><span data-stu-id="5e837-128">Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named Instance**, and then specify the instance you want to use.</span></span>
+        
+        3.  <span data-ttu-id="5e837-129">Если указанный экземпляр SQL Server находится в отношении отражения, установите флажок **этот экземпляр SQL находится в отношении зеркального отображения** , а затем в поле **номер зеркального порта**укажите номер порта.</span><span class="sxs-lookup"><span data-stu-id="5e837-129">If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.</span></span>
+    
+      - <span data-ttu-id="5e837-130">При включении зеркального отображения SQL Server и необходимости включения следящего сервера SQL Server (третий, отдельный экземпляр SQL Server, который может определять работоспособность основного сервера SQL Server и зеркальных экземпляров), выберите параметр **использование следящего сервера SQL Server Mirroring для включения флажок автоматического перехода на другой ресурс** , а затем выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="5e837-130">If you enable SQL Server mirroring and want to include a SQL Server mirroring witness (a third, separate SQL Server instance that can detect the health of the primary SQL Server server and mirror instances), select the **Use SQL Server mirroring witness to enable automatic failover** check box, and then do one of the following:</span></span>
+        
+        1.  <span data-ttu-id="5e837-131">В **доменном имени SQL Server**укажите полное доменное имя сервера, на котором вы хотите создать новый следящий сервер SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5e837-131">In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server mirroring witness.</span></span>
+        
+        2.  <span data-ttu-id="5e837-132">Для применения экземпляра по умолчанию щелкните **Экземпляр по умолчанию**; для задания другого экземпляра щелкните **Именованный экземпляр**, затем укажите экземпляр, который будет служить следящим сервером зеркального отображения.</span><span class="sxs-lookup"><span data-stu-id="5e837-132">Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named Instance**, and then specify the instance you want to use for the mirroring witness.</span></span>
+        
+        3.  <span data-ttu-id="5e837-133">Если указанный экземпляр SQL Server находится в отношении отражения, установите флажок **этот экземпляр SQL находится в отношении зеркального отображения** , а затем в поле **номер зеркального порта**укажите номер порта.</span><span class="sxs-lookup"><span data-stu-id="5e837-133">If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.</span></span>
+
+10. <span data-ttu-id="5e837-134">Для сохранения конфигурации нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="5e837-134">To save the configuration, click **OK**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
