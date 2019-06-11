@@ -1,33 +1,75 @@
-﻿---
-title: 'Lync Server 2013: определение своих требований к корпоративной голосовой связи'
-TOCTitle: Определение требований организации к корпоративной голосовой связи
-ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425826(v=OCS.15)
-ms:contentKeyID: 49309378
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: определение своих требований к корпоративной голосовой связи'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining your organization's requirements for Enterprise Voice
+ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425826(v=OCS.15)
+ms:contentKeyID: 48183816
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0ce05c39e3433ff949d82f583207aebfba871fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Определение своих требований к корпоративной голосовой связи в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-08-07_
+# <a name="defining-your-requirements-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="574c6-102">Определение своих требований к корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="574c6-102">Defining your requirements for Enterprise Voice in Lync Server 2013</span></span>
 
-В этом разделе представлен обзор рекомендаций, которые нужно учитывать при работе с областями, узлами и связями между узлами в топологии при развертывании корпоративной голосовой связи. Подробные сведения, необходимые для принятия правильных решений, см. в разделе [Сетевые параметры для расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) в документации по планированию.
+</div>
 
-## Узлы и области
+<div id="mainSection">
 
-Во-первых, определите узлы в топологии, в которых будет развертываться система корпоративной голосовой связи, и сетевые области, которым эти узлы принадлежат. В частности, рассмотрите, как вы будете обеспечивать подключение к телефонной сети общего пользования (ТСОП) для каждого узла. По соображениям управляемости и логистики определяющим фактором могут быть области, которым эти узлы принадлежат. Определите, где шлюзы будут развернуты локально, где будет развернуто ПО для обеспечения связи в филиалах (SBA) и где вы сможете настроить SIP-магистрали (локально или на центральном узле) до поставщика услуг Интернет-телефонии (ITSP).
+<div id="mainBody">
 
-## Сетевые связи между узлами
+<span> </span>
 
-Вам также нужно учесть использование пропускной полосы, ожидаемое для сетевых связей между сайт и филиалов. Если существуют (или вы планируете реализовать) устойчивые каналы глобальной сети между узлами, мы рекомендуем развернуть шлюз в каждом филиала для локального терминирования номеров DID для пользователей этих узлов. Если устойчивые каналы глобальной сети существуют, но пропускная полоса канала глобальной сети, вероятно, будет ограничена, настройте контроль допуска звонков для этого канала. Если таких каналов нет, размещаете менее 1000 пользователей в филиала или у вас нет локальных администраторов Lync Server, мы рекомендуем развернуть для обеспечения связи в филиалах в филиала. Если вы размещаете от 1000 до 5000 пользователей в филиала, у вас нет устойчивого подключения к глобальной сети и вы обучили локальных администраторов Lync Server, мы рекомендуем развернуть для обеспечения связи в филиалах с небольшим шлюзом в филиала. Также рассмотрите возможность включения обхода сервера-посредника на ограниченных каналах, если у вас есть шлюз, поддерживающий обход сервера-посредника.
+<span data-ttu-id="574c6-103">_**Тема последнего изменения:** 2012-08-07_</span><span class="sxs-lookup"><span data-stu-id="574c6-103">_**Topic Last Modified:** 2012-08-07_</span></span>
 
-## См. также
+<span data-ttu-id="574c6-104">В этой статье приводятся общие сведения о регионах, сайтах и ссылках между сайтами в вашей топологии, а также о том, как они важны при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="574c6-104">This topic provides an overview of the considerations you need to make about the regions, sites, and the links between sites in your topology and how those are important when you deploy Enterprise Voice.</span></span> <span data-ttu-id="574c6-105">Сведения о том, как принять эти решения, можно найти в разделе [Параметры сети для расширенных функций голосовой связи в Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="574c6-105">For details to help you make these decisions, see [Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md) in the Planning documentation.</span></span>
 
-#### Концепции
+<div>
 
-[Сетевые параметры для расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+## <a name="sites-and-regions"></a><span data-ttu-id="574c6-106">Сайты и регионы</span><span class="sxs-lookup"><span data-stu-id="574c6-106">Sites and Regions</span></span>
+
+<span data-ttu-id="574c6-107">Сначала определите сайты в вашей топологии, в которых будут развертываться Корпоративная голосовая связь и регионы сети, к которым принадлежат эти сайты.</span><span class="sxs-lookup"><span data-stu-id="574c6-107">First, identify the sites in your topology where you will deploy Enterprise Voice and the network regions to which those sites belong.</span></span> <span data-ttu-id="574c6-108">В частности, рассмотрите, как вы будете обеспечивать подключение к телефонной сети общего пользования (ТСОП) для каждого узла.</span><span class="sxs-lookup"><span data-stu-id="574c6-108">In particular, consider how you will provide public switched telephone network (PSTN) connectivity to each site.</span></span> <span data-ttu-id="574c6-109">По соображениям управляемости и логистики определяющим фактором могут быть области, которым эти узлы принадлежат.</span><span class="sxs-lookup"><span data-stu-id="574c6-109">For manageability and logistical reasons, the regions to which these sites belong can be a deciding factor.</span></span> <span data-ttu-id="574c6-110">Решите, где будут развертываться шлюзы, где будут развертываться бесперебойные устройства филиалов (Сбас) и где можно настроить магистральные магистрали SIP (как на локальном компьютере, так и на центральном сайте) с поставщиком услуг телефонной связи через Интернет (ИТСП).</span><span class="sxs-lookup"><span data-stu-id="574c6-110">Decide where gateways will be deployed locally, where Survivable Branch Appliances (SBAs) will be deployed, and where you can configure SIP trunks (either locally or at the central site) to an Internet telephony service provider (ITSP).</span></span>
+
+</div>
+
+<div>
+
+## <a name="network-links-between-sites"></a><span data-ttu-id="574c6-111">Сетевые ссылки между сайтами</span><span class="sxs-lookup"><span data-stu-id="574c6-111">Network Links Between Sites</span></span>
+
+<span data-ttu-id="574c6-112">Кроме того, необходимо проанализировать использование пропускной способности, которое ожидается в сетевых связях между центральным сайтом и его сайтами филиалов.</span><span class="sxs-lookup"><span data-stu-id="574c6-112">You also need to consider the bandwidth usage that you expect on the network links between your central site and its branch sites.</span></span> <span data-ttu-id="574c6-113">Если вы или планируете развертывание, отказоустойчивая WAN Links между сайтами, мы рекомендуем вам развернуть шлюз на каждом сайте филиала, чтобы обеспечить локальное прекращение сеанса для пользователей на этих сайтах.</span><span class="sxs-lookup"><span data-stu-id="574c6-113">If you have, or plan to deploy, resilient WAN links between sites, we recommend that you deploy a gateway at each branch site to provide local direct inward dial (DID) termination for users at those sites.</span></span> <span data-ttu-id="574c6-114">Если устойчивые каналы глобальной сети существуют, но пропускная полоса канала глобальной сети, вероятно, будет ограничена, настройте контроль допуска звонков для этого канала.</span><span class="sxs-lookup"><span data-stu-id="574c6-114">If you have resilient WAN links, but the bandwidth on a WAN link is likely to be constrained, configure call admission control for that link.</span></span> <span data-ttu-id="574c6-115">Если вы не обладаете устойчивыми ссылками на глобальную сеть, разместите на сайте филиала менее 1000 пользователей и не имеете доступ к локальным администраторам серверам Lync, поэтому мы рекомендуем развернуть бесперебойно работающее устройство филиала на сайте филиала.</span><span class="sxs-lookup"><span data-stu-id="574c6-115">If you do not have resilient WAN links, host fewer than 1000 users at your branch site, and do not have local trained Lync Server administrators available, we recommend that you deploy a Survivable Branch Appliance at the branch site.</span></span> <span data-ttu-id="574c6-116">Если вы размещаете пользователей 1000 и 5000 на сайте филиала, не можете использовать устойчивое подключение к глобальной сети и прошли обучение администраторам сервера Lync, мы рекомендуем развернуть бесперебойный сервер с небольшим шлюзом на сайте филиала.</span><span class="sxs-lookup"><span data-stu-id="574c6-116">If you host between 1000 and 5000 users at your branch site, lack a resilient WAN connection, and have trained Lync Server administrators available, we recommend that you deploy a Survivable Branch Server with a small gateway at the branch site.</span></span> <span data-ttu-id="574c6-117">Также рассмотрите возможность включения обхода сервера-посредника на ограниченных каналах, если у вас есть шлюз, поддерживающий обход сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="574c6-117">Consider also enabling media bypass on constrained links if you have a gateway peer that supports media bypass.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="574c6-118">См. также</span><span class="sxs-lookup"><span data-stu-id="574c6-118">See Also</span></span>
+
+
+[<span data-ttu-id="574c6-119">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="574c6-119">Network settings for the advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

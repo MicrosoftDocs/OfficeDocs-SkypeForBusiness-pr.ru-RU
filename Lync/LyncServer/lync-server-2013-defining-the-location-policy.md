@@ -1,81 +1,135 @@
-﻿---
-title: 'Lync Server 2013: определение политики расположения'
-TOCTitle: Определение политики расположения
-ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398962(v=OCS.15)
-ms:contentKeyID: 49311351
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: определение политики расположения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining the location policy
+ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
+ms:contentKeyID: 48185553
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834710"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Определение политики расположения для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-29_
+# <a name="defining-the-location-policy-for-lync-server-2013"></a><span data-ttu-id="eb915-102">Определение политики расположения для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb915-102">Defining the location policy for Lync Server 2013</span></span>
 
-Все политики расположений содержат следующие сведения.
+</div>
 
-  - **Emergency Services Enabled** (Аварийные службы включены)  
-    Если для этого параметра задано значение **Да**, для клиента включена поддержка E9-1-1. При регистрации клиента он попытается получить расположение из службы информирования о местонахождении и включит сведения о расположении в данные, передаваемые при звонке в аварийную службу.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="eb915-103">_**Тема последнего изменения:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="eb915-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+
+<span data-ttu-id="eb915-104">Все политики расположений содержат следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="eb915-104">Each location policy contains the following information:</span></span>
+
+  - <span data-ttu-id="eb915-105">**Службы экстренной помощи включены**</span><span class="sxs-lookup"><span data-stu-id="eb915-105">**Emergency Services Enabled**</span></span>  
+    <span data-ttu-id="eb915-106">Если это значение равно **Да**, клиент включен для E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="eb915-106">When this value is **Yes**, the client is enabled for E9-1-1.</span></span> <span data-ttu-id="eb915-107">Когда клиент регистрируется, он пытается получить место из службы сведений о местоположении и будет включать сведения о расположении в процессе вызова экстренной помощи.</span><span class="sxs-lookup"><span data-stu-id="eb915-107">When a client registers, it attempts to acquire a location from the Location Information service and will include the location information as part of an emergency call.</span></span>
 
 <!-- end list -->
 
-  - **Location Required** (Требуется указать расположение)  
-    Этот параметр используется, только если для параметра **Аварийные службы включены** задано значение **Да**.
+  - <span data-ttu-id="eb915-108">**Требуется расположение**</span><span class="sxs-lookup"><span data-stu-id="eb915-108">**Location Required**</span></span>  
+    <span data-ttu-id="eb915-109">Этот параметр используется только в том случае, если для функции " **включен** для экстренных служб" установлено значение **"Да"**.</span><span class="sxs-lookup"><span data-stu-id="eb915-109">This setting is used only when **Emergence Services Enabled** is set to **Yes**.</span></span>
     
-    Можно настроить параметр **Требуется указать расположение** , чтобы определить поведение клиентов. Если задать значение **Нет**, расположение не будет запрашиваться у пользователя. Если задать значение **Да**, расположение будет запрашиваться у пользователя, но он сможет отклонить запрос. Если задать для параметра значение **Заявление об отказе**, расположение будет запрашиваться у пользователя и при попытке отклонить запрос будет выводиться уведомление об отказе. В любом случае пользователь сможет использовать клиент.
+    <span data-ttu-id="eb915-110">Вы можете настроить требуемый параметр **расположения** , чтобы определить поведение клиента.</span><span class="sxs-lookup"><span data-stu-id="eb915-110">You can configure the **Location Required** setting to define the client behavior.</span></span> <span data-ttu-id="eb915-111">Если задать значение **Нет**, расположение не будет запрашиваться у пользователя.</span><span class="sxs-lookup"><span data-stu-id="eb915-111">Setting the value to **No** means that the user will not be prompted for a location.</span></span> <span data-ttu-id="eb915-112">Если задать значение **Да**, расположение будет запрашиваться у пользователя, но он сможет отклонить запрос.</span><span class="sxs-lookup"><span data-stu-id="eb915-112">Setting the value to **Yes** means that the user will be prompted for a location, but can dismiss the prompt.</span></span> <span data-ttu-id="eb915-113">Если задать для параметра значение **Заявление об отказе**, расположение будет запрашиваться у пользователя и при попытке отклонить запрос будет выводиться уведомление об отказе.</span><span class="sxs-lookup"><span data-stu-id="eb915-113">Setting the value to **Disclaimer** means that the user will be prompted for a location and also will be shown a disclaimer if they try to dismiss the prompt.</span></span> <span data-ttu-id="eb915-114">В любом случае пользователь сможет использовать клиент.</span><span class="sxs-lookup"><span data-stu-id="eb915-114">In all cases, the user can continue to use the client.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Текст заявления не отображается, если пользовать вручную вводит расположение, прежде чем получить доступ к E9-1-1. Обновленный текст заявления об отказе не будет отображаться для пользователей, которые уже просмотрели заявление.
+    > <span data-ttu-id="eb915-p103">Текст заявления не отображается, если пользователь вручную вводит расположение, прежде чем получить доступ к E9-1-1. Обновленный текст заявления об отказе не будет отображаться для пользователей, которые уже просмотрели заявление. </span><span class="sxs-lookup"><span data-stu-id="eb915-p103">The disclaimer text will not appear if a user manually entered a location before being enabled for E9-1-1. Updates to the disclaimer text will not be viewed by users that have already viewed the disclaimer.</span></span>
 
-<!-- end list -->
-
-  - **Enhanced Emergency Service Disclaimer** (Расширенное заявление об отказе аварийных служб)  
-    Этот параметр задает заявление об отказе, которое будет отображаться для пользователей, если они отклоняют запрос расположения. В Lync Server 2013 можно использовать политику расположения, чтобы задавать разные заявления об отказе для разных языковых параметров или наборов пользователей.
     
-    > [!NOTE]  
-    > Этот параметр политики расположения отличается от Lync Server 2010, в котором для задания глобального заявления об отказе для всей организации используется командлет <strong>Set-CsEnhancedEmergencyServiceDisclaimer</strong>. Если глобальное заявление об отказе уже существует, потребуется указать это заявление об отказе в политике расположения, поскольку Lync Server 2013 использует только заявления об отказе, заданные политикой расположения.
+    </div>
 
 <!-- end list -->
 
-  - **Emergency Dial String** (Строка набора аварийного номера)  
-    Эта строка набора номера (за исключением начального символа “+”, включая любые правила нормализации, примененные абонентской группой пользователя Lync) указывает, что вызов является звонком в аварийную службу. Параметр **Строка набора аварийного номера** указывает клиенту на необходимость включения в вызов данных о расположении и обратном вызове.
+  - <span data-ttu-id="eb915-117">**Заявление об отказе расширенных экстренных служб**</span><span class="sxs-lookup"><span data-stu-id="eb915-117">**Enhanced Emergency Service Disclaimer**</span></span>  
+    <span data-ttu-id="eb915-118">Этот параметр задает заявление об отказе, которое будет отображаться для пользователей, если они отклоняют запрос расположения.</span><span class="sxs-lookup"><span data-stu-id="eb915-118">This setting specifies the disclaimer that users see if they dismiss the prompt for a location.</span></span> <span data-ttu-id="eb915-119">В Lync Server 2013 вы можете использовать политику расположения для настройки различных отказов на использование разных языковых стандартов и разных групп пользователей.</span><span class="sxs-lookup"><span data-stu-id="eb915-119">In Lync Server 2013, you can use location policy to set different disclaimers for different locales or different sets of users.</span></span>
     
-    > [!NOTE]  
-    > Если в организации не используется префикс доступа к внешней линии, нет необходимости создавать соответствующее правило нормализации абонентской группы, добавляющее “+” в строку вызова аварийных служб перед отправкой вызова в компонент внешней маршрутизации на сервере пула Lync. Символ “+” будет автоматически добавляться в начало номера клиентом Lync в соответствии с политикой расположения. Однако если сайт использует префикс внешнего доступа, потребуется добавить в соответствующую политику абонентской группы правило нормализации, которое будет отсекать префикс внешнего доступа и добавлять символ “+”. Например, если для расположения задано использование префикса внешнего доступа 9, и пользователь набирает номер 9 911, чтобы позвонить в аварийную службу, клиент будет использовать политику абонентской группы для нормализации этого номера до +911 перед передачей набранного номера маршрутизатору в профиле расположения абонента.
-
-<!-- end list -->
-
-  - **Emergency Dial String Masks** (Маски строки набора аварийного номера)  
-    Список строк набора номера, разделенных запятыми, преобразуемый в указанную **строку набора аварийного номера**. Например, может потребоваться добавить номер 112 (номер аварийных служб в большинстве стран Европы). Пользователи Lync, прибывшие из Европы, могут не знать номера аварийных служб в США (911). Эта настройка позволит им набирать номер 112 с тем же результатом. Как и при настройке параметра "Строка набора аварийного номера" не добавляйте символ “+” в начало номеров и при использовании кодов доступа к внешней линии убедитесь, что в политике абонентской группы пользователя есть правила нормализации, которые будут отсекать цифры кода доступа.
-
-<!-- end list -->
-
-  - **Режим работы с ТСОП**  
-    Имя режима работы с ТСОП, содержащее пути маршрутизации, определяющие, через какую магистраль SIP, шлюз ТСОП или шлюз ELIN будут передаваться звонки в аварийные службы.
+    <div>
     
+
     > [!NOTE]  
-    > Политике расположения можно назначить только один режим. Этот режим использования ТСОП будет переопределять другие режимы, назначенные в политике голосовой связи пользователя. Однако он будет применяться только к вызовам, указанным в строке набора аварийного номера или одной из масок строки набора аварийного номера.
+    > <span data-ttu-id="eb915-120">Этот параметр политики расположения отличается от Lync Server 2010, в котором вы использовали командлет <STRONG>Set-ксенханцедемерженцисервицедисклаимер</STRONG> , чтобы задать глобальный отказ для всей Организации.</span><span class="sxs-lookup"><span data-stu-id="eb915-120">This location policy setting differs from Lync Server 2010, where you used the <STRONG>Set-CsEnhancedEmergencyServiceDisclaimer</STRONG> cmdlet to set a global disclaimer for the entire organization.</span></span> <span data-ttu-id="eb915-121">Если глобальный отказ от ответственности уже существует, необходимо указать этот отказ в политике расположения.</span><span class="sxs-lookup"><span data-stu-id="eb915-121">If a global disclaimer already exists, you need to specify that disclaimer in location policy.</span></span> <span data-ttu-id="eb915-122">Это значит, что в Lync Server 2013 используются только те отказы, которые указаны в политике "расположение".</span><span class="sxs-lookup"><span data-stu-id="eb915-122">That is, Lync Server 2013 uses only disclaimers specified in location policy.</span></span>
+
+    
+    </div>
 
 <!-- end list -->
 
-  - **Notification URI** (URI уведомления)  
-    Задает один или несколько URI SIP персонала службы безопасности, которые получают уведомление в виде мгновенного сообщения при отправке звонка в аварийную службу. Этот параметр поддерживает группы рассылки.
+  - <span data-ttu-id="eb915-123">**Строка набора номера для экстренной помощи**</span><span class="sxs-lookup"><span data-stu-id="eb915-123">**Emergency Dial String**</span></span>  
+    <span data-ttu-id="eb915-124">Эта строка набора номера (меньше, чем интерлиньяж "+", но все нормализация, выполненные абонентской панелью пользователя Lync) указывает на то, что звонок является экстренным звонком.</span><span class="sxs-lookup"><span data-stu-id="eb915-124">This dial string (less the leading “+”, but including any normalization done by the Lync user’s Dial Plan) signifies that a call is an emergency call.</span></span> <span data-ttu-id="eb915-125">На клиенте **строка набора аварийного номера** обеспечивает включение в вызов данных о местоположении и информации для обратного вызова.</span><span class="sxs-lookup"><span data-stu-id="eb915-125">The **Emergency Dial String** causes the client to include location and callback information with the call.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="eb915-126">Если в вашей организации не используется префикс доступа к внешней линии, вам не нужно создавать соответствующее правило нормализации для абонентской группы, добавляющее "+" в строку 911 перед отправкой вызова на исходящую маршрутизацию на сервере пула Lync. "+" будет автоматически добавлен клиентом Lync в качестве результата политики расположения.</span><span class="sxs-lookup"><span data-stu-id="eb915-126">If your organization does not use an external line access prefix, you do not need to create a corresponding Dial Plan normalization rule that adds a “+” to the 911 string prior to sending the call to Outbound Routing on a Lync pool server; the “+” will be automatically prepended by the Lync client as a result of the location policy.</span></span> <span data-ttu-id="eb915-127">Однако если на сайте используется префикс внешнего доступа, необходимо добавить правило нормализации для соответствующей политики абонентского плана, которое удаляет префикс доступа к внешним данным и добавляет знак "+".</span><span class="sxs-lookup"><span data-stu-id="eb915-127">However, if your site uses an external access prefix, you need to add a normalization rule to the applicable Dial Plan policy that strips the external access prefix and adds the “+”.</span></span> <span data-ttu-id="eb915-128">Например, если в вашем местоположении используется префикс внешнего доступа 9 и пользователь набирает номер 9&nbsp;911 для вызова экстренной помощи, клиент будет использовать политику абонентской группы для ее нормализации до + 911 перед тем, как вызываемые номера будут оцениваться маршрутами в расположении вызывающего абонента. профиля.</span><span class="sxs-lookup"><span data-stu-id="eb915-128">For example, if your location uses an external access prefix of 9 and a user dials 9&nbsp;911 to place an emergency call, the client will use its Dial Plan policy to normalize this to +911 before the dialed number is evaluated by the routes in the caller’s location profile.</span></span>
+
+    
+    </div>
 
 <!-- end list -->
 
-  - **URI конференции**  
-    Задает прямой внутренний номер (как правило, номер службы безопасности), по которому выполнятся подключение конференц-связи при отправке звонка в аварийную службу.
+  - <span data-ttu-id="eb915-129">**Маски строк в экстренных звонках**</span><span class="sxs-lookup"><span data-stu-id="eb915-129">**Emergency Dial String Masks**</span></span>  
+    <span data-ttu-id="eb915-130">Список разделенных точкой с запятой строк набора номера, который преобразуется в указанную **строку для экстренного набора**.</span><span class="sxs-lookup"><span data-stu-id="eb915-130">A semicolon-separated list of dial strings that is translated into the specified **Emergency Dial String**.</span></span> <span data-ttu-id="eb915-131">Например, вы можете добавить 112, который является номером службы экстренной помощи в большинстве стран Европы.</span><span class="sxs-lookup"><span data-stu-id="eb915-131">For example, you may want to add 112, which is the emergency service number for most of Europe.</span></span> <span data-ttu-id="eb915-132">Посетители Lync из Европы могут не знать, что 911 является номером экстренной помощи в США, но может набрать номер 112 и получить тот же результат.</span><span class="sxs-lookup"><span data-stu-id="eb915-132">A visiting Lync user from Europe may not know that 911 is the U.S. emergency number, but they can dial 112 and get the same result.</span></span> <span data-ttu-id="eb915-133">Как и в случае со строкой набора экстренных вызовов, не включайте знак "+" перед каждым числом, и если вы используете коды доступа внешней линии, убедитесь в том, что в политике абонентской группы пользователя есть правила нормализации для удаления цифр кода доступа.</span><span class="sxs-lookup"><span data-stu-id="eb915-133">As with the Emergency Dial String, do not include a “+” before each number, and if you use external line access codes, be sure there are normalization rules in the user’s Dial Plan policy to strip off the access code digit.</span></span>
 
 <!-- end list -->
 
-  - **Режим конференции**  
-    Указывает, будет ли URI конференции включаться в вызов аварийной службы в режиме односторонней или двусторонней связи.
+  - <span data-ttu-id="eb915-134">**Использование ТСОП**</span><span class="sxs-lookup"><span data-stu-id="eb915-134">**PSTN Usage**</span></span>  
+    <span data-ttu-id="eb915-135">Имя режима работы с ТСОП, содержащее пути маршрутизации, определяющие, через какую магистраль SIP, шлюз ТСОП или шлюз ELIN будут передаваться звонки в аварийные службы.</span><span class="sxs-lookup"><span data-stu-id="eb915-135">The name of the PSTN Usage that contains the routing paths that determine which SIP trunk, PSTN gateway, or ELIN gateway emergency calls will go to.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="eb915-p109">Политике расположения можно назначить только один режим. Этот режим использования ТСОП будет переопределять другие режимы, назначенные в политике голосовой связи пользователя. Однако он будет применяться только к вызовам, указанным в строке набора аварийного номера или одной из масок строки набора аварийного номера.</span><span class="sxs-lookup"><span data-stu-id="eb915-p109">Only one usage can be assigned to a location policy. This PSTN Usage overrides the PSTN Usages assigned to the user’s voice policy, but applies only to calls placed to the Emergency Dial String or to one of the Emergency Dial String Masks.</span></span>
+
+    
+    </div>
 
 <!-- end list -->
 
-  - **Location Refresh Interval** (Интервал обновления данных расположения)  
-    Задает интервал времени (в часах) межу поступлением запросов клиента на обновление данных расположения из службы информирования о местонахождении. Значение можно задать в диапазоне от 1 до 12. Значение по умолчанию: 4 часа.
+  - <span data-ttu-id="eb915-138">**URI уведомления**</span><span class="sxs-lookup"><span data-stu-id="eb915-138">**Notification URI**</span></span>  
+    <span data-ttu-id="eb915-p110">Задает один или несколько URI SIP персонала службы безопасности, которые получают уведомление в виде мгновенного сообщения при отправке звонка в аварийную службу. Этот параметр поддерживает группы рассылки.</span><span class="sxs-lookup"><span data-stu-id="eb915-p110">Specifies one or more SIP URIs of the security personnel who receive an instant messaging (IM) notification when an emergency call is placed. Distribution groups are supported.</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="eb915-141">**Идентификатор URI конференции**</span><span class="sxs-lookup"><span data-stu-id="eb915-141">**Conference URI**</span></span>  
+    <span data-ttu-id="eb915-142">Задает прямой внутренний номер (как правило, номер службы безопасности), по которому выполнятся подключение конференц-связи при отправке звонка в аварийную службу.  </span><span class="sxs-lookup"><span data-stu-id="eb915-142">Specifies a direct inward dialing (DID) number (typically, a security desk number) that should be conferenced in when an emergency call is placed.</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="eb915-143">**Режим конференции**</span><span class="sxs-lookup"><span data-stu-id="eb915-143">**Conference Mode**</span></span>  
+    <span data-ttu-id="eb915-144">Указывает, будет ли URI конференции включаться в вызов аварийной службы в режиме односторонней или двусторонней связи. </span><span class="sxs-lookup"><span data-stu-id="eb915-144">Specifies if the conference URI will be conferenced into the emergency call by using one-way or two-way communication.</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="eb915-145">**Интервал обновления данных расположения**</span><span class="sxs-lookup"><span data-stu-id="eb915-145">**Location Refresh Interval**</span></span>  
+    <span data-ttu-id="eb915-146">Указывает время (в часах) между запросами клиентов на обновление расположения в службе сведений о расположении.</span><span class="sxs-lookup"><span data-stu-id="eb915-146">Specifies the amount of time (in hours) between client requests for a location update from the Location Information service.</span></span> <span data-ttu-id="eb915-147">The value can be set to any value between 1 and 12.</span><span class="sxs-lookup"><span data-stu-id="eb915-147">The value can be set to any value between 1 and 12.</span></span> <span data-ttu-id="eb915-148">The default value is 4.</span><span class="sxs-lookup"><span data-stu-id="eb915-148">The default value is 4.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

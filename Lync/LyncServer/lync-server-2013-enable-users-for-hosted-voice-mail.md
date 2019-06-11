@@ -1,50 +1,98 @@
-﻿---
-title: "Lync Server 2013: подключение пользователям размещаемой голосовой почты"
-TOCTitle: Включение поддержки размещаемой голосовой почты для пользователей
-ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413062(v=OCS.15)
-ms:contentKeyID: 49311729
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: включение поддержки размещаемой голосовой почты для пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable users for hosted voice mail
+ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413062(v=OCS.15)
+ms:contentKeyID: 48185919
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 45872df26989d8d264ce77406bfbce86f321ccf8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834274"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение поддержки размещаемой голосовой почты для пользователей в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-24_
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a><span data-ttu-id="7ede8-102">Включение поддержки размещаемой голосовой почты для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ede8-102">Enable users for hosted voice mail in Lync Server 2013</span></span>
 
-Ниже приведена процедура включения голосовой почты в службе размещаемой единой системой обмена сообщениями Exchange для пользователей Lync Server 2013.
+</div>
 
-Подробные сведения см. в разделе [Управление пользователями размещенной системы Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) документации по планированию.
+<div id="mainSection">
 
-Более подробные сведения о командлете [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) см. в документации Командная консоль Lync Server.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="7ede8-103">_**Тема последнего изменения:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="7ede8-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+
+<span data-ttu-id="7ede8-104">Следуйте инструкциям, чтобы включить пользователей Lync Server 2013 для голосовой почты в размещенной службе единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="7ede8-104">Follow the procedure to enable Lync Server 2013 users for voice mail on a hosted Exchange Unified Messaging (UM) service.</span></span>
+
+<span data-ttu-id="7ede8-105">Дополнительные сведения можно найти [в разделе Управление пользователями Exchange в среде Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="7ede8-105">For details, see [Hosted Exchange user management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="7ede8-106">Дополнительные сведения о командлете [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) можно найти в документации по оболочке Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="7ede8-106">For details about the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet, see the Lync Server Management Shell documentation.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Прежде чем для пользователей Lync Server 2013 можно будет включить поддержку размещаемой голосовой почты, необходимо развернуть политику маршрутизации размещенной голосовой почты, которая будет применяться к учетным записям пользователей. Дополнительные сведения см. в статье <a href="lync-server-2013-hosted-voice-mail-policies.md">Политики размещенной голосовой почты в Lync Server 2013</a>.
+> <span data-ttu-id="7ede8-107">Прежде чем пользователи Lync Server 2013 могут быть включены для поддержки размещенной голосовой почты, необходимо развернуть политику размещенной голосовой почты, которая применяется к учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="7ede8-107">Before a Lync Server 2013 user can be enabled for hosted voice mail, a hosted voice mail policy that applies to their user account must be deployed.</span></span> <span data-ttu-id="7ede8-108">Подробнее смотрите в разделе <A href="lync-server-2013-hosted-voice-mail-policies.md">политики размещенной голосовой почты в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="7ede8-108">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
 
-## To enable users for hosted voice mail
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Выполните командлет Set-CsUser, чтобы настроить учетную запись пользователя для размещаемой голосовой почты. Например, выполните команду:
+</div>
+
+<div>
+
+## <a name="to-enable-users-for-hosted-voice-mail"></a><span data-ttu-id="7ede8-109">Предоставление пользователям размещенной голосовой почты</span><span class="sxs-lookup"><span data-stu-id="7ede8-109">To enable users for hosted voice mail</span></span>
+
+1.  <span data-ttu-id="7ede8-110">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="7ede8-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="7ede8-111">Запустите командлет Set-CsUser, чтобы настроить учетную запись пользователя для размещенной голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="7ede8-111">Run the Set-CsUser cmdlet to configure the user account for hosted voice mail.</span></span> <span data-ttu-id="7ede8-112">Например, выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7ede8-112">For example, run:</span></span>
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
-    Команда в предыдущем примере задает следующие параметры:
+    <span data-ttu-id="7ede8-113">Команда в предыдущем примере задает следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="7ede8-113">The preceding example sets the following parameters:</span></span>
     
-      - **HostedVoiceMail** включает маршрутизацию вызовов голосовой почты пользователей в размещаемую единую систему обмена сообщениями Exchange. Также сигнализирует Microsoft Lync 2013 о необходимости зажечь индикатор «вызов голосовой почты».
+      - <span data-ttu-id="7ede8-114">**Хостедвоицемаил** позволяет перенаправлять голосовую почту пользователя на размещенную в единой системе обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="7ede8-114">**HostedVoiceMail** enables a user’s voice mail calls to be routed to hosted Exchange UM.</span></span> <span data-ttu-id="7ede8-115">Она также сообщает Microsoft Lync 2013 о том, что у вас есть индикатор "позвонить голосовой почте".</span><span class="sxs-lookup"><span data-stu-id="7ede8-115">It also signals Microsoft Lync 2013 to light up the “call voice mail” indicator.</span></span>
     
-      - **Identity** указывает изменяемую учетную запись. Значение Identity можно указать, используя следующие форматы:
+      - <span data-ttu-id="7ede8-116">**Identity** указывает учетную запись пользователя, который нужно изменить.</span><span class="sxs-lookup"><span data-stu-id="7ede8-116">**Identity** specifies the user account to be modified.</span></span> <span data-ttu-id="7ede8-117">Значение идентификатора можно задать в одном из следующих форматов:</span><span class="sxs-lookup"><span data-stu-id="7ede8-117">The Identity value can be specified using any of the following formats:</span></span>
         
-          - SIP-адрес пользователя
+          - <span data-ttu-id="7ede8-118">Адрес SIP пользователя</span><span class="sxs-lookup"><span data-stu-id="7ede8-118">The user's SIP address</span></span>
         
-          - имя участника-пользователя Active Directory пользователя
+          - <span data-ttu-id="7ede8-119">Имя субъекта-пользователя в службе каталогов Active Directory</span><span class="sxs-lookup"><span data-stu-id="7ede8-119">The user's Active Directory User-Principal-Name</span></span>
         
-          - домен пользователя\\имя пользователя (например, contoso\\kenmyer)
+          - <span data-ttu-id="7ede8-120">Доменное\\имя пользователя (например, Contoso\\кенмер).</span><span class="sxs-lookup"><span data-stu-id="7ede8-120">The user's domain\\logon name (for example, contoso\\kenmyer)</span></span>
         
-          - отображаемое имя доменных служб Active Directory пользователя (например, Ken Myer). Если отображаемое имя используется в качестве значения параметра Identity, можно использовать подстановочный знак "звездочка" (\*). Например, удостоверение "\* Smith" возвращает всех пользователей с отображаемым именем, которое заканчивается строковым значением "Smith".
+          - <span data-ttu-id="7ede8-121">Отображаемое имя доменных служб Active Directory (например, Кен мер).</span><span class="sxs-lookup"><span data-stu-id="7ede8-121">The user's Active Directory Domain Services Display-Name (for example, Ken Myer).</span></span> <span data-ttu-id="7ede8-122">Если в качестве значения удостоверения используется имя для отображения, можно использовать подстановочный знак "звездочка" (\*).</span><span class="sxs-lookup"><span data-stu-id="7ede8-122">If using the Display-Name as the Identity value, you can use the asterisk (\*) wildcard character.</span></span> <span data-ttu-id="7ede8-123">Например, удостоверение "\* Иванов" возвращает всех пользователей, у которых есть имя отображения, которое оканчивается строковым значением Смит.</span><span class="sxs-lookup"><span data-stu-id="7ede8-123">For example, the Identity "\* Smith" returns all the users who have a Display-Name that ends with the string value "Smith".</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Имя-учетной-записи-SAM Active Directory пользователя нельзя использовать в качестве значения параметра Identity, так как это имя может быть неуникальным в лесу.
+        > <span data-ttu-id="7ede8-124">Имя учетной записи SAM в Active Directory не может использоваться в качестве значения удостоверения, так как имя SAM-Account-Name не обязательно должно быть уникальным в лесу.</span><span class="sxs-lookup"><span data-stu-id="7ede8-124">The user’s Active Directory SAM-Account-Name cannot be used as the Identity value because the SAM-Account-Name is not necessarily unique in the forest.</span></span>
+
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

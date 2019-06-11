@@ -1,44 +1,99 @@
-﻿---
-title: "Lync Server 2013: разверт. устройства или сервера обеспечения связи в филиалах"
-TOCTitle: Развертывание устройства или сервера обеспечения связи в филиалах
-ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398849(v=OCS.15)
-ms:contentKeyID: 49311196
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: развертывание устройства или сервера обеспечения связи в филиалах'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying a Survivable Branch Appliance or Server
+ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398849(v=OCS.15)
+ms:contentKeyID: 48185643
+ms.date: 12/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7cf894fe6650ff3c06eaaa37f6ba05d70f50eeb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834566"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание устройства или сервера обеспечения связи в филиалах с Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-12-10_
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a><span data-ttu-id="9f946-102">Развертывание устройства или сервера обеспечения связи в филиалах с Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f946-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</span></span>
 
-Устойчивая система корпоративной голосовой связи означает устойчивость узлов филиалов, т. е. возможность обеспечить непрерывную работу корпоративной голосовой связи для пользователей узлов филиалов, если канал до центрального узла станет недоступным.
+</div>
 
-Для небольших и средних узлов филиала (от 25 до 1000 пользователей) рекомендуется развернуть для обеспечения связи в филиалах для терминирования вызовов по ТСОП с использованием встроенного шлюза ТСОП ил SIP-магистрали до поставщика услуг телефонии. для обеспечения связи в филиалах – это устройство стороннего производителя с сервером Blade Server под управлением Операционная система Windows Server 2008 R2, Lync Server 2013 Registrar, посредник и со шлюзом ТСОП – в одном корпусе.
+<div id="mainSection">
 
-Для сайтов филиала с 1000–5000 пользователей и без устойчивого канала глобальной сети мы рекомендуем использовать для обеспечения связи в филиалах с подключением к шлюзу PSTN или SIP-магистрали до поставщика услуг телефонии. для обеспечения связи в филиалах – это компьютер на основе Windows Server с установленным регистратором и программным обеспечением посредник.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9f946-103">_**Тема последнего изменения:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="9f946-103">_**Topic Last Modified:** 2014-12-10_</span></span>
+
+<span data-ttu-id="9f946-104">Отказоустойчивая Корпоративная голосовая связь — это возможность предоставления постоянной корпоративной голосовой связи пользователям сайтов филиалов в случае, если ссылка на центральный сайт станет недоступна.</span><span class="sxs-lookup"><span data-stu-id="9f946-104">Resilient Enterprise Voice refers to branch-site resiliency, that is, the ability to provide continuous Enterprise Voice service to branch site users in the event that the link to the central site becomes unavailable.</span></span>
+
+<span data-ttu-id="9f946-105">Для небольших и средних сайтов филиалов (сайтов филиалов с 25 до 1 000 пользователей) рекомендуется развертывание бесперебойно работающего устройства филиалов, который будет прерывать вызовы по коммутируемой телефонной сети с помощью встроенного шлюза PSTN или канала SIP на телефон. поставщик услуг.</span><span class="sxs-lookup"><span data-stu-id="9f946-105">For small and medium-sized branch sites (branch sites with 25 to 1,000 users), we recommend deploying a Survivable Branch Appliance, which will terminate public switched telephone network (PSTN) calls by using its built-in PSTN gateway or a SIP trunk to a telephone service provider.</span></span> <span data-ttu-id="9f946-106">Бесперебойно работающее приложение-ветвь — это стороннее устройство, включающее в себя сервер с операционной системой Windows Server 2008 R2, регистратор Lync Server 2013, программное обеспечение сервера-посредников и шлюз PSTN в одном корпусе устройства.</span><span class="sxs-lookup"><span data-stu-id="9f946-106">A Survivable Branch Appliance is a third-party device that includes a blade server running the Windows Server 2008 R2 operating system, Lync Server 2013 Registrar, Mediation Server software, and a PSTN gateway, all in a single appliance chassis.</span></span>
+
+<span data-ttu-id="9f946-107">Для сайтов филиалов с 1 000 до 5 000 и без гибкой глобальной сети рекомендуется подключить одноадресный сервер к поставщику услуг телефонной связи либо к шлюзу PSTN, либо к магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="9f946-107">For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a Survivable Branch Server connected to either a PSTN gateway or a SIP trunk to a telephone service provider.</span></span> <span data-ttu-id="9f946-108">Бесперебойный сервер подразделения — это компьютер под управлением Windows, на котором установлено программное обеспечение регистратора и сервер-посредника.</span><span class="sxs-lookup"><span data-stu-id="9f946-108">A Survivable Branch Server is a Windows Server-based computer that has Registrar and Mediation Server software installed on it.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Для узлов филиалов более чем с 5000 пользователями и выделенными администраторами Lync Server мы рекомендуем использовать полное развертывание Lync Server 2013 отдельно от центрального узла.<br />Сведения о выборе лучшего решения обеспечения устойчивости для сайтов филиалов в вашей организации, включая предварительные требования и рекомендации по планированию, см. в разделе <a href="lync-server-2013-branch-site-resiliency-requirements.md">Требования к устойчивости для сайтов филиала для Lync Server 2013</a> документации по планированию.
+> <span data-ttu-id="9f946-109">Для сайтов филиалов, в которых более 5 000 пользователей и выделенные администраторы сервера Lync Server, рекомендуется использовать полное развертывание Lync Server 2013, отделенное от центрального сайта.</span><span class="sxs-lookup"><span data-stu-id="9f946-109">For branch sites with more than 5,000 users and dedicated Lync Server administrators, we recommend a full Lync Server 2013 deployment, separate from that of the central site.</span></span><BR><span data-ttu-id="9f946-110">Подробные сведения о выборе наилучшего решения для обеспечения устойчивости для сайтов филиалов в Организации, в том числе о предварительных требованиях и планировании, приведены в разделе <A href="lync-server-2013-branch-site-resiliency-requirements.md">требования к устойчивости сайтов для Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="9f946-110">For details about choosing the best resiliency solution for the branch sites in your organization, including prerequisites and planning considerations, see <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
-## Содержание
 
-  - [Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задачи центрального сайта](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
 
-  - [Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задача сайта филиала](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+</div>
 
-  - [Настройка пользователей для организации устойчивости на сайтах филиалов в Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+<div>
 
-  - [Пользователи, работающие дома на устройстве или сервере для обеспечения связи в филиалах, в Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
 
-  - [Приложения: устройства и серверы для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
+> [!NOTE]  
+> <span data-ttu-id="9f946-111">Пользователи, расположенные на устройстве с бесперебойной подразделением Lync Server, не могут создавать новые комнаты чата и просматривать открытку для существующих комнат.</span><span class="sxs-lookup"><span data-stu-id="9f946-111">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.</span></span>
 
-## См. также
 
-#### Другие ресурсы
 
-[Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="9f946-112">Содержание</span><span class="sxs-lookup"><span data-stu-id="9f946-112">In This Section</span></span>
+
+  - [<span data-ttu-id="9f946-113">Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задачи центрального сайта</span><span class="sxs-lookup"><span data-stu-id="9f946-113">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
+
+  - [<span data-ttu-id="9f946-114">Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задача сайта филиала</span><span class="sxs-lookup"><span data-stu-id="9f946-114">Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task</span></span>](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+
+  - [<span data-ttu-id="9f946-115">Настройка пользователей для организации устойчивости на сайтах филиалов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f946-115">Configuring users for branch site resiliency in Lync Server 2013</span></span>](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+
+  - [<span data-ttu-id="9f946-116">Пользователи, работающие дома на устройстве или сервере для обеспечения связи в филиалах, в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f946-116">Home users on a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
+
+  - [<span data-ttu-id="9f946-117">Приложения: устройства и серверы для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f946-117">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="9f946-118">См. также</span><span class="sxs-lookup"><span data-stu-id="9f946-118">See Also</span></span>
+
+
+[<span data-ttu-id="9f946-119">Развертывание Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f946-119">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,81 +1,145 @@
-﻿---
-title: "Lync Server 2013: рекомендации по интегр. локальной единой сист. обмена сообщ."
-TOCTitle: Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server
-ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398656(v=OCS.15)
-ms:contentKeyID: 49310362
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: рекомендации по интеграции локальной единой системы обмена сообщениями'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
+ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
+ms:contentKeyID: 48184681
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 15973bf2055339e375e4aecc7cfd1f61ac205dbb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834102"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a><span data-ttu-id="a50ed-102">Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a50ed-102">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>
 
-Ниже приведены рекомендации по развертыванию Enterprise Voice:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a50ed-103">_**Тема последнего изменения:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="a50ed-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+
+<span data-ttu-id="a50ed-104">Ниже приведены рекомендации по развертыванию корпоративной голосовой связи:</span><span class="sxs-lookup"><span data-stu-id="a50ed-104">The following are guidelines and best practices to consider when you deploy Enterprise Voice:</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> обмена сообщениями Exchange поддерживает IPv6, только если используется UCMA 4.
+> <span data-ttu-id="a50ed-105">Единая система обмена сообщениями Exchange поддерживает IPv6 только в том случае, если вы также используете УКМА 4.</span><span class="sxs-lookup"><span data-stu-id="a50ed-105">Exchange Unified Messaging (UM) supports IPv6 only if you are also using UCMA 4.</span></span>
 
-  - Разверните Lync Server 2013 Standard Edition или переднего плана. Дополнительные сведения см. в разделе [Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) в документации по развертыванию.
 
-  - Работайте вместе с администраторами Exchange, чтобы подтвердить, какие задачи каждый из вас будет выполнять для обеспечения успешной интеграции.
 
-  - Разверните роли сервера почтового ящика в каждом лесу обмена сообщениями Exchange, в котором для пользователей будет включена поддержка обмена сообщениями Exchange. Дополнительные сведения об установке серверных ролей Exchange см. в документации Microsoft Exchange Server 2013.
+</div>
+
+  - <span data-ttu-id="a50ed-106">Развертывание сервера Lync Server 2013 Standard Edition или пула переднего плана.</span><span class="sxs-lookup"><span data-stu-id="a50ed-106">Deploy a Lync Server 2013 Standard Edition server or a Front End pool.</span></span> <span data-ttu-id="a50ed-107">Подробнее об установке можно найти в разделе [развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="a50ed-107">For details about installation, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+
+  - <span data-ttu-id="a50ed-108">Работайте вместе с администраторами Exchange, чтобы подтвердить, какие задачи каждый из вас будет выполнять для обеспечения успешной интеграции.</span><span class="sxs-lookup"><span data-stu-id="a50ed-108">Work with Exchange administrators to confirm which tasks each of you will perform to assure a smooth and successful integration.</span></span>
+
+  - <span data-ttu-id="a50ed-109">Разверните роли сервера почтовых ящиков Exchange в каждом лесе в лесу единой системы обмена сообщениями Exchange, в котором вы хотите включить пользователей для Exchange UM.</span><span class="sxs-lookup"><span data-stu-id="a50ed-109">Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM.</span></span> <span data-ttu-id="a50ed-110">Подробнее об установке ролей Exchange Server можно найти в документации по Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a50ed-110">For details about installing Exchange server roles, see the Microsoft Exchange Server 2013 documentation.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > После установки системы обмена сообщениями Exchange она настраивается для использования самозаверяющегося сертификата.<br />    Однако самозаверяющийся сертификат не позволяет Lync Server 2013 и обмена сообщениями Exchange доверять друг другу, поэтому необходимо запросить отдельный сертификат от центра сертификации, которому доверяют оба сервера.
+    > <span data-ttu-id="a50ed-111">Если установлена единая система обмена сообщениями Exchange, она настроена на использование самозаверяющего сертификата.</span><span class="sxs-lookup"><span data-stu-id="a50ed-111">When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate.</span></span><BR><span data-ttu-id="a50ed-112">Однако самозаверенный сертификат не включает Lync Server 2013 и Exchange UM для обеспечения доверительных отношений друг с другом, поэтому необходимо запросить отдельный сертификат в центре сертификации, которому доверяют оба сервера.</span><span class="sxs-lookup"><span data-stu-id="a50ed-112">The self-signed certificate, however, does not enable Lync Server 2013 and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust.</span></span>
 
-  - Если Lync Server 2013 и обмена сообщениями Exchange установлены в разных лесах, настройте каждый лес Exchange с доверием лесу Lync Server 2013 и настройте лес Lync Server 2013 с доверием каждому лесу Exchange. Также задайте настройки обмена сообщениями Exchange пользователей в объектах пользователей в лесу Lync Server 2013. Обычно это делается с помощью скрипта или средства, работающего в разных лесах, такого как Identity Lifecycle Manager (ILM).
+    
+    </div>
 
-  - При необходимости установите консоль управления Exchange для управления серверами единой системы обмена сообщениями.
+  - <span data-ttu-id="a50ed-113">Если в разных лесах установлены Lync Server 2013 и Exchange UM, настройте каждый лес Exchange таким образом, чтобы он доверял лесу Lync Server 2013 и лесу Lync Server 2013, чтобы доверять каждому лесу Exchange.</span><span class="sxs-lookup"><span data-stu-id="a50ed-113">If Lync Server 2013 and Exchange UM are installed in different forests, configure each Exchange forest to trust the Lync Server 2013 forest and the Lync Server 2013 forest to trust each Exchange forest.</span></span> <span data-ttu-id="a50ed-114">Кроме того, настройте параметры Exchange UM для объектов пользователей в лесу Lync Server 2013, как правило, с помощью сценария или инструмента между лесами, например, диспетчером жизненного цикла удостоверений (ILM).</span><span class="sxs-lookup"><span data-stu-id="a50ed-114">Also, set the users’ Exchange UM settings on the user objects in the Lync Server 2013 forest, typically by using a script or a cross-forest tool, such as Identity Lifecycle Manager (ILM).</span></span>
 
-  - Получите допустимые телефонные номера для голосового доступа к Outlook и автосекретарю.
+  - <span data-ttu-id="a50ed-115">При необходимости установите консоль управления Exchange для управления серверами единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="a50ed-115">If necessary, install the Exchange Management Console to manage your Unified Messaging servers.</span></span>
 
-  - Если используется версия обмена сообщениями Exchange, предшествующая Microsoft Exchange Server 2010 с пакетом обновлений 1 (SP1), согласуйте имена абонентских групп обмена сообщениями Exchange SIP URI и абонентских групп Enterprise Voice.
+  - <span data-ttu-id="a50ed-116">Получите допустимые телефонные номера для голосового доступа к Outlook и автосекретарю.</span><span class="sxs-lookup"><span data-stu-id="a50ed-116">Obtain valid phone numbers for Outlook Voice Access and auto attendant.</span></span>
 
-## Развертывание избыточных серверов единой системы обмена сообщениями Exchange
+  - <span data-ttu-id="a50ed-117">Если вы используете более раннюю версию Exchange, чем Microsoft Exchange Server 2010 с пакетом обновления 1 (SP1), координирует имена для абонентов SIP в UM-среде с помощью URI и для корпоративных абонентных групп.</span><span class="sxs-lookup"><span data-stu-id="a50ed-117">If you are using a version of Exchange UM earlier than Microsoft Exchange Server 2010 Service Pack 1 (SP1), coordinate names for Exchange UM SIP URI dial plans and Enterprise Voice dial plans.</span></span>
+
+<div>
+
+## <a name="deploying-redundant-exchange-um-servers"></a><span data-ttu-id="a50ed-118">Развертывание избыточных серверов единой системы обмена сообщениями Exchange</span><span class="sxs-lookup"><span data-stu-id="a50ed-118">Deploying Redundant Exchange UM Servers</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Рекомендуется развернуть минимум два сервера, на которых работают службы единой системы обмена сообщениями Exchange, для каждой абонентской группы обмена сообщениями Exchange SIP URI, настроенной в организации. Помимо дополнительной емкости развертывание избыточных серверов обеспечивает высокую доступность. При сбое сервера Lync Server 2013 можно настроить на переход на другой сервер.
+> <span data-ttu-id="a50ed-119">Рекомендуется развертывать минимум два сервера, на которых выполняются службы Exchange UM для каждой абонентской группы Exchange UM, которую вы настроили для Организации.</span><span class="sxs-lookup"><span data-stu-id="a50ed-119">We recommend that you deploy a minimum of two servers on which Exchange UM services is running for each Exchange UM SIP URI dial plan that you configure for your organization.</span></span> <span data-ttu-id="a50ed-120">In addition to providing expanded capacity, deploying redundant servers provides high availability.</span><span class="sxs-lookup"><span data-stu-id="a50ed-120">In addition to providing expanded capacity, deploying redundant servers provides high availability.</span></span> <span data-ttu-id="a50ed-121">В случае сбоя сервера Lync Server 2013 можно настроить на переход на другой сервер.</span><span class="sxs-lookup"><span data-stu-id="a50ed-121">In the event of an server failure, Lync Server 2013 can be configured to fail over to another server.</span></span>
 
-В следующем примере конфигурации единой системы обмена сообщениями Exchange обеспечивают устойчивость.
 
-**Пример 1. Устойчивость единой системы обмена сообщениями Exchange**
 
-![Пример 1 единой системы обмена сообщениями Exchange](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Пример 1 единой системы обмена сообщениями Exchange")
+</div>
 
-В примере 1 серверы единой системы обмена сообщениями Exchange 1 и 2 включены в центре обработки данных в Таквила, серверы единой системы обмена сообщениями Exchange 3 и 4 включены в центре данных в Дублине. В случае сбоя в Таквила записи DNS A для серверов 1 и 2 следует настроить так, чтобы они указывали на серверы 3 и 4 соответственно. В случае сбоя сервера единой системы обмена сообщениями Exchange в Дублине записи DNS A для серверов 3 и 4 необходимо настроить так, чтобы они указывал на серверы 1 и 2 соответственно.
+<span data-ttu-id="a50ed-122">В следующем примере конфигурации единой системы обмена сообщениями Exchange обеспечивают устойчивость.</span><span class="sxs-lookup"><span data-stu-id="a50ed-122">The following example configurations provide Exchange UM resiliency.</span></span>
+
+<span data-ttu-id="a50ed-123">**Пример 1. Устойчивость единой системы обмена сообщениями Exchange**</span><span class="sxs-lookup"><span data-stu-id="a50ed-123">**Example 1: Exchange UM Resiliency**</span></span>
+
+<span data-ttu-id="a50ed-124">![Пример 1 единой системы обмена сообщениями Exchange] (images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Пример 1 единой системы обмена сообщениями Exchange")</span><span class="sxs-lookup"><span data-stu-id="a50ed-124">![Exchange UM Example 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM Example 1")</span></span>
+
+<span data-ttu-id="a50ed-p105">В примере 1 серверы единой системы обмена сообщениями Exchange 1 и 2 включены в центре обработки данных в Таквила, серверы единой системы обмена сообщениями Exchange 3 и 4 включены в центре данных в Дублине. В случае сбоя в Таквила записи DNS A для серверов 1 и 2 следует настроить так, чтобы они указывали на серверы 3 и 4 соответственно. В случае сбоя сервера единой системы обмена сообщениями Exchange в Дублине записи DNS A для серверов 3 и 4 необходимо настроить так, чтобы они указывал на серверы 1 и 2 соответственно.</span><span class="sxs-lookup"><span data-stu-id="a50ed-p105">In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. In the event of an Exchange UM outage in Tukwila, the Domain Name System (DNS) A records for servers 1 and 2 should be configured to point to servers 3 and 4, respectively. In the event of an Exchange UM outage in Dublin, the DNS A records for servers 3 and 4 should be configured to point to servers 1 and 2, respectively.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Для примера 1 вы также должны назначить один из следующих сертификатов на каждом сервере единой системы обмена сообщениями Exchange:<ul>
-> 
-> <li><p>Используйте сертификат с подстановочными знаками в альтернативном имени субъекта (SAN).</p></li>
-> 
-> 
-> <li><p>Добавьте полное доменное имя каждого из четырех серверов единой системы обмена сообщениями Exchange в SAN.</p></li></ul>
+> <span data-ttu-id="a50ed-128">Для примера 1 вы также должны назначить один из следующих сертификатов на каждом сервере единой системы обмена сообщениями Exchange:</span><span class="sxs-lookup"><span data-stu-id="a50ed-128">For Example 1, you should also assign one of following certificate on each Exchange UM server:</span></span> 
+> <UL>
+> <LI>
+> <P><span data-ttu-id="a50ed-129">Используйте сертификат с подстановочными знаками в альтернативном имени субъекта (SAN).</span><span class="sxs-lookup"><span data-stu-id="a50ed-129">Use a certificate with a wildcard in the Subject Alternative Name (SAN).</span></span></P>
+> <LI>
+> <P><span data-ttu-id="a50ed-130">Добавьте полное доменное имя каждого из четырех серверов единой системы обмена сообщениями Exchange в SAN.</span><span class="sxs-lookup"><span data-stu-id="a50ed-130">Put the fully qualified domain name (FQDN) of each of the four Exchange UM servers in the SAN.</span></span></P></LI></UL>
 
 
-**Пример 2. Устойчивость единой системы обмена сообщениями Exchange**
 
-![Пример 2 единой системы обмена сообщениями Exchange](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Пример 2 единой системы обмена сообщениями Exchange")
+</div>
 
-В примере 2 при обычных условиях работы серверов единой системы обмена сообщениями Exchange 1 и 2 включены в центре обработки данных в Таквила, серверы единой системы обмена сообщениями Exchange 3 и 4 включены в центре обработки данных Дублина. Все четыре сервера включены в абонентскую группу SIP URI Таквила. Но серверы 3 и 4 отключены. В случае сбоя единой системы обмена сообщениями Exchange в Таквила, например, серверы единой системы обмена сообщениями Exchange 1 и 2 должны быть отключены, а серверы единой системы обмена сообщениями Exchange 4 и 3 должны быть включены, чтобы трафик единой системы обмена сообщениями Exchange из Таквила направлялся на серверы в Дублине.
+<span data-ttu-id="a50ed-131">**Пример 2. Устойчивость единой системы обмена сообщениями Exchange**</span><span class="sxs-lookup"><span data-stu-id="a50ed-131">**Example 2: Exchange UM Resiliency**</span></span>
 
-Дополнительные сведения о включении или отключении единой системы обмена сообщениями в Exchange 2013 см. в статье «Интеграция Exchange 2013 UM с Lync Server» по адресу [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).
+<span data-ttu-id="a50ed-132">![Пример 2 для Exchange UM] (images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Пример 2 для Exchange UM")</span><span class="sxs-lookup"><span data-stu-id="a50ed-132">![Exchange UM Example 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM Example 2")</span></span>
 
-Дополнительные сведения о включении или отключении единой системы обмена сообщениями в Microsoft Exchange Server 2010 см. в статье:
+<span data-ttu-id="a50ed-p106">В примере 2 при обычных условиях работы серверов единой системы обмена сообщениями Exchange 1 и 2 включены в центре обработки данных в Таквила, серверы единой системы обмена сообщениями Exchange 3 и 4 включены в центре обработки данных Дублина. Все четыре сервера включены в абонентскую группу SIP URI Таквила. Но серверы 3 и 4 отключены. В случае сбоя единой системы обмена сообщениями Exchange в Таквила, например, серверы единой системы обмена сообщениями Exchange 1 и 2 должны быть отключены, а серверы единой системы обмена сообщениями Exchange 4 и 3 должны быть включены, чтобы трафик единой системы обмена сообщениями Exchange из Таквила направлялся на серверы в Дублине.</span><span class="sxs-lookup"><span data-stu-id="a50ed-p106">In Example 2, under ordinary operating conditions Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. All four servers are included in the Tukwila users' SIP URI dial plan; however, servers 3 and 4 are disabled. In the event of an Exchange UM outage in Tukwila, for example, Exchange UM servers 1 and 2 should be disabled and Exchange UM servers 3 and 4 should be enabled so the Tukwila Exchange UM traffic will be routed to the servers in Dublin.</span></span>
 
-  - «Включение единой системы обмена сообщениями в Exchange 2010» по адресу [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418).
+<span data-ttu-id="a50ed-136">Дополнительные сведения о том, как включить или отключить единую систему обмена сообщениями в Exchange 2013, можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)разделе "интеграция Exchange 2013 UM с Lync Server".</span><span class="sxs-lookup"><span data-stu-id="a50ed-136">For details about how to enable or disable Unified Messaging on Exchange 2013, see “Integrate Exchange 2013 UM with Lync Server” at [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).</span></span>
 
-  - «Выключение единой системы обмена сообщениями в Exchange 2010» по адресу [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416).
+<span data-ttu-id="a50ed-137">Сведения о том, как включить или отключить единую систему обмена сообщениями на сервере Microsoft Exchange Server 2010, можно найти в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="a50ed-137">For details about how to enable or disable Unified Messaging on Microsoft Exchange Server 2010, see:</span></span>
 
-## См. также
+  - <span data-ttu-id="a50ed-138">"Включить единую систему обмена сообщениями на [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010".</span><span class="sxs-lookup"><span data-stu-id="a50ed-138">"Enable Unified Messaging on Exchange 2010" at [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418).</span></span>
 
-#### Концепции
+  - <span data-ttu-id="a50ed-139">"Отключить единую систему обмена сообщениями в [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010".</span><span class="sxs-lookup"><span data-stu-id="a50ed-139">"Disable Unified Messaging on Exchange 2010" at [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416).</span></span>
 
-[Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="a50ed-140">См. также</span><span class="sxs-lookup"><span data-stu-id="a50ed-140">See Also</span></span>
+
+
+[<span data-ttu-id="a50ed-141">Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a50ed-141">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

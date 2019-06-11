@@ -1,61 +1,108 @@
-﻿---
-title: Удаление диапазона неназначенных портов в Lync Server 2013
-TOCTitle: Удаление диапазона неназначенных портов в Lync Server 2013
-ms:assetid: a8141bfb-b94d-4d0f-a7a9-2e60d10b103a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182565(v=OCS.15)
-ms:contentKeyID: 49310796
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: удаление неназначенного диапазона номеров'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an unassigned number range
+ms:assetid: a8141bfb-b94d-4d0f-a7a9-2e60d10b103a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182565(v=OCS.15)
+ms:contentKeyID: 48185090
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f8bf1bcea1a2f84def783b833d232a44282cab6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834607"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление диапазона неназначенных портов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="delete-an-unassigned-number-range-in-lync-server-2013"></a><span data-ttu-id="be555-102">Удаление неназначенного диапазона номеров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be555-102">Delete an unassigned number range in Lync Server 2013</span></span>
 
-В этом разделе приведены инструкции по удалению диапазона неназначенных номеров для оповещений.
+</div>
 
-## Удаление диапазона неназначенных номеров с помощью панели управления Lync Server
+<div id="mainSection">
 
-1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  В левой панели навигации щелкните **Voice Features** (Функции голосовых служб) и затем выберите **Unassigned Number** (Неназначенный номер).
+<span data-ttu-id="be555-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="be555-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-4.  На странице **Unassigned Number** (Неназначенный номер) введите в поле поиска имя удаляемого диапазона неназначенных номеров или часть имени.
+<span data-ttu-id="be555-104">Чтобы удалить неназначенный диапазон номеров для объявлений, выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="be555-104">Use one of the following procedures to delete an unassigned number range for Announcements.</span></span>
 
-5.  В списке диапазонов номеров выберите требуемое имя, а затем щелкните **Изменить** и **Удалить**.
+<div>
 
-6.  Щелкните **Commit all** (Сохранить все).
+## <a name="to-use-lync-server-control-panel-to-delete-an-unassigned-number-range"></a><span data-ttu-id="be555-105">Удаление неназначенного диапазона номеров с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="be555-105">To use Lync Server Control Panel to delete an unassigned number range</span></span>
 
-## Удаление диапазона неназначенных номеров с помощью командлетов
+1.  <span data-ttu-id="be555-106">Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="be555-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="be555-107">Дополнительные сведения можно найти [в разделе Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="be555-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-1.  Войдите на компьютер, где установлена командная консоль Lync Server, как член группы RTCUniversalServerAdmins или имея необходимые права пользователя, описанные в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+2.  <span data-ttu-id="be555-108">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="be555-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="be555-109">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="be555-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+3.  <span data-ttu-id="be555-110">В левой области навигации щелкните **Функции голосовой связи**, затем **Неназначенный номер**.</span><span class="sxs-lookup"><span data-stu-id="be555-110">In the left navigation bar, click **Voice Features** and then click **Unassigned Number**.</span></span>
 
-3.  В командной строке введите:
+4.  <span data-ttu-id="be555-111">На странице **Неназначенный номер** полностью или частично введите в поле поиска имя диапазона неназначенных номеров, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="be555-111">On the **Unassigned Number** page, in the search field, type all or part of the name of the unassigned number range you want to delete.</span></span>
+
+5.  <span data-ttu-id="be555-112">В сформированном списке диапазонов номеров выберите требуемое имя и щелкните **Изменить**, затем **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="be555-112">In the resulting list of number ranges, click the name, click **Edit**, and then click **Delete**.</span></span>
+
+6.  <span data-ttu-id="be555-113">Щелкните **Сохранить все**.</span><span class="sxs-lookup"><span data-stu-id="be555-113">Click **Commit all**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-use-windows-powershell-to-delete-an-unassigned-number-range"></a><span data-ttu-id="be555-114">Удаление неназначенного числового диапазона с помощью Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="be555-114">To use Windows PowerShell to delete an unassigned number range</span></span>
+
+1.  <span data-ttu-id="be555-115">Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="be555-115">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="be555-116">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="be555-116">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="be555-117">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="be555-117">At the command line, type:</span></span>
     
         Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
     
-    Пример:
+    <span data-ttu-id="be555-118">Например:</span><span class="sxs-lookup"><span data-stu-id="be555-118">For example:</span></span>
     
         Remove-CsUnassignedNumber -Identity "Unassigned range 1"
     
+    <div>
+    
+
     > [!NOTE]  
-    > Подробные сведения о дополнительных параметрах см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
+    > <span data-ttu-id="be555-119">Подробнее о дополнительных параметрах можно найти в разделе <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-кскаллпаркорбит</A>.</span><span class="sxs-lookup"><span data-stu-id="be555-119">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>.</span></span>
 
-## См. также
+    
+    </div>
 
-#### Задачи
+</div>
 
-[Создание или изменение диапазона неназначенных номеров в Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md)  
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a><span data-ttu-id="be555-120">См. также</span><span class="sxs-lookup"><span data-stu-id="be555-120">See Also</span></span>
 
-[Remove-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUnassignedNumber)  
-[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
+
+[<span data-ttu-id="be555-121">Создание и изменение неназначенного диапазона номеров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be555-121">Create or modify an unassigned number range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-an-unassigned-number-range.md)  
+
+
+[<span data-ttu-id="be555-122">Remove-CsUnassignedNumber</span><span class="sxs-lookup"><span data-stu-id="be555-122">Remove-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsUnassignedNumber)  
+[<span data-ttu-id="be555-123">Get-CsUnassignedNumber</span><span class="sxs-lookup"><span data-stu-id="be555-123">Get-CsUnassignedNumber</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsUnassignedNumber)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

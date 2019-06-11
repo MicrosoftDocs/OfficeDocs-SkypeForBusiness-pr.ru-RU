@@ -1,53 +1,98 @@
-﻿---
-title: "Lync Server 2013: архивация мгновенных сообщений или сеансов конференц-связи"
-TOCTitle: "Lync Server 2013: архивация мгновенных сообщений или сеансов конференц-связи"
-ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182567(v=OCS.15)
-ms:contentKeyID: 49310809
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Включение и отключение архивирования сеансов обмена мгновенными сообщениями и конференц-связи
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling Archiving of IM or conferencing sessions
+ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182567(v=OCS.15)
+ms:contentKeyID: 48185104
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 65712cf15ae73ec7cdb49dc7652348085a4c93d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834252"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение или отключение архивации мгновенных сообщений или сеансов конференц-связи
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-10_
+# <a name="enabling-or-disabling-archiving-of-im-or-conferencing-sessions-in-lync-server-2013"></a><span data-ttu-id="6e3e0-102">Включение и отключение архивирования сеансов обмена мгновенными сообщениями и конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e3e0-102">Enabling or disabling Archiving of IM or conferencing sessions in Lync Server 2013</span></span>
 
-Чтобы включить или отключить архивацию сеансов обмена мгновенными сообщениями, конференций или обоих, используйте конфигурации архивации на панели управления Lync Server 2013. Доступны следующие конфигурации архивации:
+</div>
 
-  - Глобальная конфигурация, которая создается по умолчанию при развертывании Lync Server 2013.
+<div id="mainSection">
 
-  - Конфигурации на уровне сайта и пула (необязательные), которые вы можете создать и использовать для указания реализации архивации для определенных сайтов или пулов.
+<div id="mainBody">
 
-Первичная настройка конфигураций архивации выполняется при развертывании архивации, однако изменение, добавление и удаление конфигураций доступно только после развертывания. Дополнительные сведения о реализации конфигураций архивации, включая сведения о доступных параметрах и иерархии конфигураций архивации, см. в разделе [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md) документации по планированию, развертыванию или операциям.
+<span> </span>
 
-> [!NOTE]  
-> Перед использованием архивации необходимо настроить политики архивации, которые позволяют включать и отключать архивацию для внутренних коммуникаций, внешних коммуникаций или коммуникаций обоих типов для пользователей Lync Server 2013. По умолчанию для внутренних и внешних коммуникаций архивация отключена. Перед включением архивации с помощью политик необходимо указать конфигурации архивации для развертывания, а также для сайтов и пулов при необходимости. Дополнительные сведения о включении архивации см. в разделе <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Настройка и назначение политик архивации</a> документации по развертыванию.<br />Если после развертывания архивации вы решили использовать интеграцию Microsoft Exchange для хранения данных и файлов архивации на серверах Exchange 2013 и все ваши пользователи расположены на серверах Exchange 2013, вам потребуется удалить конфигурацию базы данных SQL Server из топологии. Для выполнения этой задачи необходимо использовать топологий. Дополнительные сведения см. в разделе <a href="lync-server-2013-changing-archiving-database-options.md">Изменение параметров базы данных для архивации в Lync Server 2013</a> документации по операциям.
+<span data-ttu-id="6e3e0-103">_**Тема последнего изменения:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="6e3e0-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-## Включение и отключение архивации сеансов обмена мгновенными сообщениями и конференций
+<span data-ttu-id="6e3e0-104">В панели управления Lync Server 2013 вы можете включать и отключать архивирование мгновенных сообщений, сеансов конференций и и тех, и других, с помощью конфигураций архивации.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-104">In Lync Server 2013 Control Panel, you use Archiving configurations to enable and disable archiving of IM, conferencing sessions, or both.</span></span> <span data-ttu-id="6e3e0-105">К ним относятся следующие конфигурации архивации:</span><span class="sxs-lookup"><span data-stu-id="6e3e0-105">This includes the following Archiving configurations:</span></span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
+  - <span data-ttu-id="6e3e0-106">Глобальная конфигурация, создаваемая по умолчанию при развертывании Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+  - <span data-ttu-id="6e3e0-107">Необязательные конфигурации уровня сайта и пула, которые можно создать и использовать для определения способа реализации архивации для конкретных сайтов или пулов.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
 
-3.  На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
+<span data-ttu-id="6e3e0-108">Первоначально конфигурации архивации задаются при развертывании архивации, но вы можете изменить, добавить и удалить настройки после развертывания.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-108">You initially set up Archiving configurations when you deploy Archiving, but you can change, add, and delete configurations after deployment.</span></span> <span data-ttu-id="6e3e0-109">Сведения о способах реализации конфигураций архивации, в том числе о параметрах, которые можно указать и в иерархии конфигураций архивации, приведены в разделе [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, развертывание Документация или операционные документы.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-109">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
-4.  В списке конфигураций архивации выберите глобальную конфигурацию, конфигурацию на уровне сайта или пула, щелкните **Edit** (Изменить), щелкните **Show details** (Показать сведения) и затем выполните следующие действия:
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="6e3e0-110">Чтобы использовать архивацию, необходимо настроить политики архивации, чтобы указать, следует ли включать архивирование для внутренней связи, для внешней связи или для пользователей, расположенных на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-110">To use archiving, you must configure Archiving policies to specify whether to enable archiving for internal communications, for external communications, or for both for users homed on Lync Server 2013.</span></span> <span data-ttu-id="6e3e0-111">По умолчанию архивация не включена для внутренней и внешней связи.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-111">By default, archiving is not enabled for either internal or external communications.</span></span> <span data-ttu-id="6e3e0-112">Перед включением архивации в любых политиках следует задать соответствующие конфигурации архивации для развертывания и (необязательно) для определенных сайтов и пулов, как описано в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-112">Before enabling Archiving in any policies, you should specify the appropriate Archiving configurations for your deployment and, optionally, for specific sites and pools, as described in this section.</span></span> <span data-ttu-id="6e3e0-113">Подробнее о том, как включить архивацию, можно найти <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">в разделе Настройка и назначение политик архивации в Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-113">For details about enabling Archiving, see <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuring and assigning Archiving policies in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="6e3e0-114">Если вы решите, что после развертывания архивации вы хотите использовать интеграцию с Microsoft Exchange для хранения данных и файлов на серверах Exchange 2013, а все пользователи будут размещены на серверах Exchange 2013, необходимо удалить конфигурацию базы данных SQL Server. из топологии.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-114">If you decide after you deploy Archiving that you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers and all your users are homed on your Exchange 2013 servers, you should remove the SQL Server database configuration from your topology.</span></span> <span data-ttu-id="6e3e0-115">Для этого необходимо использовать Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-115">You must use Topology Builder to do this.</span></span> <span data-ttu-id="6e3e0-116">Подробнее смотрите в разделе <A href="lync-server-2013-changing-archiving-database-options.md">изменение параметров базы данных для архивации в Lync Server 2013</A> в документации по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-116">For details, see <A href="lync-server-2013-changing-archiving-database-options.md">Changing Archiving database options in Lync Server 2013</A> in the Operations documentation.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-archiving-of-im-or-conferencing-sessions"></a><span data-ttu-id="6e3e0-117">Включение и отключение архивирования сеансов обмена мгновенными сообщениями и конференц-связи</span><span class="sxs-lookup"><span data-stu-id="6e3e0-117">To enable or disable archiving of IM or conferencing sessions</span></span>
+
+1.  <span data-ttu-id="6e3e0-118">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-118">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="6e3e0-119">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-119">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="6e3e0-120">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="6e3e0-120">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="6e3e0-121">На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-121">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+
+4.  <span data-ttu-id="6e3e0-122">Выберите в списке конфигураций архивации подходящую глоабальную конфигурацию либо конфигурацию сайта или пула, щелкните **Правка**, **Подробнее**, затем выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-122">Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
     
-      - Чтобы включить только архивацию сеансов обмена мгновенными сообщениями, щелкните **Archive IM sessions** (Архивировать сеансы обмена мгновенными сообщениями).
+      - <span data-ttu-id="6e3e0-123">Чтобы включить архивирование только для сеансов обмена мгновенными сообщениями, нажмите **Архивировать сеансы мгновенных сообщений**.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-123">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
     
-      - Чтобы включить архивацию сеансов обмена мгновенными сообщениями и конференций, щелкните **Archive IM and conferencing sessions** (Архивировать сеансы обмена мгновенными сообщениями и конференций).
+      - <span data-ttu-id="6e3e0-124">Если требуется архивировать как сеансы обмена мгновенными сообщениями, так и конференции, щелкните **Архивировать сеансы мгновенных сообщений и веб-конференций**.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-124">To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.</span></span>
     
-      - Чтобы отключить архивацию, щелкните **Disable archiving** (Отключить архивацию).
+      - <span data-ttu-id="6e3e0-125">Если требуется запретить архивацию для данной политики, щелкните **Отключить архивацию**.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-125">To disable archiving for the policy, click **Disable archiving**.</span></span>
 
-5.  Щелкните **Commit** (Применить).
+5.  <span data-ttu-id="6e3e0-126">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="6e3e0-126">Click **Commit**.</span></span>
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Управление параметрами конфигурации архивации для организации, сайтов и пулов в Lync Server 2013](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
-[Настройка и назначение политик архивации](lync-server-2013-configuring-and-assigning-archiving-policies.md)
+## <a name="see-also"></a><span data-ttu-id="6e3e0-127">См. также</span><span class="sxs-lookup"><span data-stu-id="6e3e0-127">See Also</span></span>
+
+
+[<span data-ttu-id="6e3e0-128">Управление параметрами конфигурации архивации в Lync Server 2013 для Организации, сайтов и пулов</span><span class="sxs-lookup"><span data-stu-id="6e3e0-128">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+[<span data-ttu-id="6e3e0-129">Настройка и назначение политик архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e3e0-129">Configuring and assigning Archiving policies in Lync Server 2013</span></span>](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

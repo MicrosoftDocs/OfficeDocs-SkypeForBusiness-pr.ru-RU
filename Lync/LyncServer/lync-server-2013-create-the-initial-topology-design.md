@@ -1,80 +1,140 @@
-﻿---
-title: 'Lync Server 2013: создание начального проекта топологии'
-TOCTitle: Создание начального проекта
-ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615047(v=OCS.15)
-ms:contentKeyID: 52058504
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Создание начального дизайна топологии'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create the initial design
+ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
+ms:contentKeyID: 51541530
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834768"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание начального проекта топологии для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-21_
+# <a name="create-the-initial-topology-design-for-lync-server-2013"></a><span data-ttu-id="792c1-102">Создание начальной структуры топологии для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="792c1-102">Create the initial topology design for Lync Server 2013</span></span>
 
-После завершения установки планирования Lync Server 2013 вы готовы к запуску планирования и началу разработки предложенной инфраструктуры Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="792c1-103">_**Тема последнего изменения:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="792c1-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="792c1-104">После того как вы закончите установку Lync Server 2013, Planning Tool, вы можете приступить к работе с инструментом планирования и начать разработку предлагаемой инфраструктуры Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="792c1-104">After you have finished installing the Lync Server 2013, Planning Tool, you are ready to start the Planning Tool and begin designing the proposed Lync Server 2013 infrastructure.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> планирования – это средство на основе мастера с подробными инструкциями, предоставляющими сведения для процесса принятия решений во время разработки сайтов и топологий. Целью данного раздела является не утомительное руководство, а просто помощь в начале работы с планирования во время разработки.
+> <span data-ttu-id="792c1-105">Инструмент "планирование" — это инструмент, управляемый мастером, с подробными руководствами, которые позволяют проинформировать процесс принятия решений при проектировании сайтов и топологии.</span><span class="sxs-lookup"><span data-stu-id="792c1-105">The Planning Tool is a wizard-driven tool with detailed guides to inform your decision-making process in designing your sites and topology.</span></span> <span data-ttu-id="792c1-106">Этот раздел не является исчерпывающим руководством, но просто поможет вам приступить к работе с инструментом планирования в сеансах проектирования.</span><span class="sxs-lookup"><span data-stu-id="792c1-106">This topic is intended not as an exhaustive guide, but simply to help get you started using the Planning Tool in your design sessions.</span></span>
 
-## Начало работы со средством планирования и создание начального дизайна
 
-1.  Запустите средство планирования Lync Server 2013: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Средство планирования**.
 
-2.  После запуска планирования появится страница **Welcome to the Planning Tool for Microsoft Lync Server 2013 (Вас приветствует средство планирования для Microsoft Lync Server 2013)** . Чтобы начать разработку, выберите один из следующих параметров.
+</div>
+
+<div>
+
+## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a><span data-ttu-id="792c1-107">Начало работы с инструментом планирования и создание начального дизайна</span><span class="sxs-lookup"><span data-stu-id="792c1-107">To get started using the Planning Tool and create the initial design</span></span>
+
+1.  <span data-ttu-id="792c1-108">Запустите Lync Server 2013, инструмент планирование: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и выберите **инструмент планирование**.</span><span class="sxs-lookup"><span data-stu-id="792c1-108">Start the Lync Server 2013, Planning Tool: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Planning Tool**.</span></span>
+
+2.  <span data-ttu-id="792c1-109">После запуска средства планирования появится **окно "Добро пожаловать в средство планирования для Microsoft Lync Server 2013** ".</span><span class="sxs-lookup"><span data-stu-id="792c1-109">After the Planning Tool has started, the **Welcome to the Planning Tool for Microsoft Lync Server 2013** page appears.</span></span> <span data-ttu-id="792c1-110">Choose one of the following options to begin your design:</span><span class="sxs-lookup"><span data-stu-id="792c1-110">Choose one of the following options to begin your design:</span></span>
     
-      - **Вариант 1. Начало работы**   Если щелкнуть команду **Get Started (начало работы)** , будет предъявлен определенный набор вопросов с соответствующими разделами для задания критериев. После завершения начального интервью **Get Started (начало работы)** откроется раздел **Design Sites (разработка сайтов)** , чтобы задать архитектуру сайта. Для выполнения этого варианта перейдите к шагу 3.
+      - <span data-ttu-id="792c1-111">**Вариант 1: Приступая к работе**   . для начала нажмите кнопку " **начать работу** ", чтобы задать условия отбора для определенного набора вопросов.</span><span class="sxs-lookup"><span data-stu-id="792c1-111">**Option 1: Get Started**   Clicking **Get Started** provides a specific series of interview questions with relevant selections to define the criteria.</span></span> <span data-ttu-id="792c1-112">После завершения начального интервью **Get Started (начало работы)** откроется раздел **Design Sites (разработка сайтов)**, чтобы задать архитектуру сайта.</span><span class="sxs-lookup"><span data-stu-id="792c1-112">After you have finished the initial **Get Started** interview section, you proceed into **Design Sites** to define your site architecture.</span></span> <span data-ttu-id="792c1-113">Для выполнения этого варианта перейдите к шагу 3.</span><span class="sxs-lookup"><span data-stu-id="792c1-113">To complete this option, proceed to step 3.</span></span>
     
-      - **Вариант 2. Разработка сайтов**   Если щелкнуть команду **Design Sites (разработка сайтов)** на странице приветствия, вопросы интервью, отображаемые в разделе **Get Started (начало работы)** , будут пропущены. В этом случае сведения, собираемые с помощью вопросов интервью в разделе **Get Started (начало работы)** , будут иметь значения по умолчанию. Щелкнув команду **Design Sites (разработка сайтов)** , опытный разработчик может исключить начальное интервью и изменить значения по умолчанию, если требуется, на начальной странице **Central Sites (центральные сайты)** . Для выполнения этого варианта пропустите шаги 3?5 и начните с шага 6.
+      - <span data-ttu-id="792c1-114">**Вариант 2: конструктор сайтов**   на странице " **конструктор** " в окне приветствия обходится вопросы опроса, представленные в разделе "Приступая к **работе** ".</span><span class="sxs-lookup"><span data-stu-id="792c1-114">**Option 2: Design Sites**   Clicking **Design Sites** at the Welcome page bypasses the interview questions presented in the **Get Started** section.</span></span> <span data-ttu-id="792c1-115">В этом случае сведения, собираемые с помощью вопросов интервью в разделе **Get Started (начало работы)**, будут иметь значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="792c1-115">The information that would have been gathered by responding to the interview questions in **Get Started** section is set to default values with this option.</span></span> <span data-ttu-id="792c1-116">Щелкнув команду **Design Sites (разработка сайтов)**, опытный разработчик может исключить начальное интервью и изменить значения по умолчанию, если требуется, на начальной странице **Central Sites (центральные сайты)**.</span><span class="sxs-lookup"><span data-stu-id="792c1-116">By clicking **Design Sites**, the experienced designer can bypass the initial interview and change the default values, as needed, on the **Central Sites** start page.</span></span> <span data-ttu-id="792c1-117">Для выполнения этого варианта пропустите шаги 3–5 и начните с шага 6.</span><span class="sxs-lookup"><span data-stu-id="792c1-117">To complete this option, skip over steps 3-5 and start at step 6.</span></span>
     
-      - **Вариант 3. Отображение сохраненной топологии**   Если вы уже создали и сохранили топологию при помощи планирования, можно пропустить большую часть шагов и начать с открытия и отображения топологии. Также в топологию можно внести изменения и обновления, пересохранить ее и затем экспортировать в Microsoft Excel или Microsoft Visio. Чтобы выполнить данный вариант, пропустите шаги 3-12 и начните с шага 13.
+      - <span data-ttu-id="792c1-118">**Вариант 3: отображение сохраненной топологии**   . Если вы уже завершили и сохранили топологию в предыдущем использовании средства планирования, вы можете пропустить большинство из этих шагов и начать работу, открыв и отображая топологию.</span><span class="sxs-lookup"><span data-stu-id="792c1-118">**Option 3: Display Your Saved Topology**   If you have already completed and saved a topology through previous use of the Planning Tool, you can skip over most of these steps and start by opening and displaying the topology.</span></span> <span data-ttu-id="792c1-119">You can also make changes and updates to the topology, resave it, and then export it to Microsoft Excel or Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="792c1-119">You can also make changes and updates to the topology, resave it, and then export it to Microsoft Excel or Microsoft Visio.</span></span> <span data-ttu-id="792c1-120">To complete this option, skip over steps 3-12 and start at step 13.</span><span class="sxs-lookup"><span data-stu-id="792c1-120">To complete this option, skip over steps 3-12 and start at step 13.</span></span>
 
-3.  Щелкните **Get Started (начало работы)** , чтобы начать разработку топологии Lync Server 2013.
+3.  <span data-ttu-id="792c1-121">Чтобы приступить к разработке топологии Lync Server 2013, нажмите кнопку "начать **работу** ".</span><span class="sxs-lookup"><span data-stu-id="792c1-121">Click **Get Started** to begin designing your Lync Server 2013 topology.</span></span>
 
-4.  Ответьте на вопросы каждого раздела, выбирая соответствующий критерий проекта и затем нажмите кнопку **Далее** , чтобы перейти на следующую страницу мастера. Нажмите кнопку **Назад** , если требуется внести изменения на предыдущих страницах.
+4.  <span data-ttu-id="792c1-p106">Ответьте на вопросы каждого раздела, выбирая соответствующий критерий проекта и затем нажмите кнопку **Далее**, чтобы перейти на следующую страницу мастера. Нажмите кнопку **Назад**, если требуется внести изменения на предыдущих страницах.</span><span class="sxs-lookup"><span data-stu-id="792c1-p106">Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page. Click **Back** to make changes on previous pages.</span></span>
+    
+    <div>
     
 
-    > [!TIP]
-    > На каждой странице есть описание критериев выбора и рекомендации, основанные на предпочтительных методах и результатах планирования емкости. Если требуются дополнительные сведения, нажмите кнопку <STRONG>Learn more (дополнительные сведения)</STRONG> , чтобы прочитать подробную информацию из документации по планированию Lync Server 2013 на веб-сайте Microsoft TechNet. Чтобы получить доступ к веб-сайту Microsoft TechNet, требуется подключение к Интернету.
+    > [!TIP]  
+    > <span data-ttu-id="792c1-124">На каждой странице есть описание критериев выбора и рекомендации, основанные на предпочтительных методах и результатах планирования емкости.</span><span class="sxs-lookup"><span data-stu-id="792c1-124">Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning.</span></span> <span data-ttu-id="792c1-125">Если вы хотите <STRONG>получить</STRONG> дополнительные сведения, щелкните ссылку Дополнительные сведения, чтобы ознакомиться с подробной информацией из документации по планированию Lync Server 2013 на веб-сайте Microsoft TechNet.</span><span class="sxs-lookup"><span data-stu-id="792c1-125">If you require additional details, click <STRONG>Learn more</STRONG> to read detailed information from the Lync Server 2013 Planning documentation on the Microsoft TechNet website.</span></span> <span data-ttu-id="792c1-126">Чтобы получить доступ к веб-сайту Microsoft TechNet, требуется подключение к Интернету.</span><span class="sxs-lookup"><span data-stu-id="792c1-126">You must have Internet connectivity to access the Microsoft TechNet website.</span></span>
 
-
-
-5.  Выберите подходящие параметры проекта. После задания начальных критериев будет выдано подтверждение, что обзор свойств завершен.
-
-6.  Нажмите кнопку **Design Sites (разработка сайтов)** , чтобы определить сайт.
     
+    </div>
+
+5.  <span data-ttu-id="792c1-127">Выберите подходящие параметры проекта.</span><span class="sxs-lookup"><span data-stu-id="792c1-127">Select the appropriate options for your design.</span></span> <span data-ttu-id="792c1-128">После задания начальных критериев будет выдано подтверждение, что обзор свойств завершен.</span><span class="sxs-lookup"><span data-stu-id="792c1-128">After the initial criteria are defined, a page will confirm that your Features Overview is complete.</span></span>
+
+6.  <span data-ttu-id="792c1-129">Нажмите кнопку **дизайн сайтов** , чтобы определить центральный сайт.</span><span class="sxs-lookup"><span data-stu-id="792c1-129">Click **Design Sites** to define your central site.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Каждая топология Lync Server 2013 будет иметь минимум один сайт. Проект может содержать один сайт, сайт с несколькими сайтами филиалов, несколько центральных сайтов или несколько центральных сайтов с сайтами филиалов, связанными с каждым сайт.
+    > <span data-ttu-id="792c1-130">Каждая топология Lync Server 2013 будет иметь хотя бы один центральный сайт.</span><span class="sxs-lookup"><span data-stu-id="792c1-130">Each Lync Server 2013 topology will have at least one central site.</span></span> <span data-ttu-id="792c1-131">На вашем макете может быть один центральный сайт, центральный сайт с несколькими сайтами филиалов, несколько центральных сайтов или несколько центральных сайтов с узлами филиалов, связанными с каждым центральным сайтом.</span><span class="sxs-lookup"><span data-stu-id="792c1-131">Your design may have a single central site, a central site with a number of branch sites, a number of central sites, or a number of central sites with branch sites associated with each central site.</span></span>
 
-7.  В поле **Site Name (имя сайта)** введите имя, которое будет идентифицировать этот сайт.
-
-8.  В поле **Site Homed Users (пользователи, размещенные на сайте)** введите предполагаемое число локальных пользователей, которые будут одновременно работать с сайтом и которые будут размещены на этом сайт.
-
-9.  В поле **Cloud Homed Users (пользователи, размещенные в облаке)** введите предполагаемое число облачных пользователей, которые будут одновременно работать с сайтом и которые будут размещены на этом сайт.
-
-10. Измените выбранные значения для параметров Online Collaboration (совместная работа в сети), Users (пользователи), Voice (голосовая связь), Additional Deployment Options (дополнительные параметры развертывания) или Server Applications (серверные приложения), если требуется.
     
+    </div>
+
+7.  <span data-ttu-id="792c1-132">В поле **имя сайта**введите имя, которое будет определять этот центральный сайт.</span><span class="sxs-lookup"><span data-stu-id="792c1-132">In **Site Name**, type the name that will identify this central site.</span></span>
+
+8.  <span data-ttu-id="792c1-133">На **сайте сеть пользователей**введите ожидаемое число локальных пользователей, которые будут размещены на этом центральном сайте.</span><span class="sxs-lookup"><span data-stu-id="792c1-133">In **Site Homed Users**, type the expected number of on-premises concurrent users who will be homed in this central site.</span></span>
+
+9.  <span data-ttu-id="792c1-134">В разделе **Пользователи облачного облака**введите ожидаемое количество одновременных пользователей в сети, которые будут размещены на этом центральном сайте.</span><span class="sxs-lookup"><span data-stu-id="792c1-134">In **Cloud Homed Users**, type the expected number of online concurrent users who will be homed in this central site.</span></span>
+
+10. <span data-ttu-id="792c1-135">Измените выбранные значения для параметров Online Collaboration (совместная работа в сети), Users (пользователи), Voice (голосовая связь), Additional Deployment Options (дополнительные параметры развертывания) или Server Applications (серверные приложения), если требуется.</span><span class="sxs-lookup"><span data-stu-id="792c1-135">Modify the selections for Online Collaboration, Users, Voice, Additional Deployment Options, or Server Applications, as needed.</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > На данном этапе разработки можно только выбирать или отменять параметры развертывания. Но большее число параметров можно настроить на последующих этапах работы планирования. Имеются также параметры, которые недоступны и не могут быть отменены. Кроме того, иногда необходимо отменить один параметр, чтобы отменить другой. Например, если отменить параметр <strong>Enterprise Voice (корпоративная голосовая связь)</strong> в разделе Voice (голосовая связь), то параметры <strong>Response Group (группа ответа)</strong> , <strong>Announcement (объявления)</strong> и <strong>Call Park (парковка вызовов)</strong> в разделе Server Applications (серверные приложения) также будут отменены (все эти параметры являются функциями корпоративной голосовой связи).
+    > <span data-ttu-id="792c1-136">At this point in the design, you can only select or clear options for your deployment.</span><span class="sxs-lookup"><span data-stu-id="792c1-136">At this point in the design, you can only select or clear options for your deployment.</span></span> <span data-ttu-id="792c1-137">Тем не менее, вы можете настроить дополнительные параметры на последующих этапах работы средства планирования.</span><span class="sxs-lookup"><span data-stu-id="792c1-137">However, you can configure more options in a later phase of the Planning Tool.</span></span> <span data-ttu-id="792c1-138">There are also options that are unavailable and cannot be cleared.</span><span class="sxs-lookup"><span data-stu-id="792c1-138">There are also options that are unavailable and cannot be cleared.</span></span> <span data-ttu-id="792c1-139">In addition, you may have to clear one option in order to clear another.</span><span class="sxs-lookup"><span data-stu-id="792c1-139">In addition, you may have to clear one option in order to clear another.</span></span> <span data-ttu-id="792c1-140">For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.</span><span class="sxs-lookup"><span data-stu-id="792c1-140">For example, if you clear the <STRONG>Enterprise Voice</STRONG> option under Voice, then the <STRONG>Response Group</STRONG>, <STRONG>Announcement</STRONG>, and <STRONG>Call Park</STRONG> options under Server Applications (all of which are features of Enterprise Voice) are also cleared.</span></span>
 
-11. После задания имени сайта и числа пользователей нажмите кнопку **Далее** .
+    
+    </div>
 
-12. На следующих страницах запрашивается информация о доменах SIP, параметрах конференций, параметрах голосовой связи, инфраструктуре, обмена сообщениями Exchange, доступе внешних пользователей, параметрах сохраняемый сеанс беседы, параметрах клиентов, параметрах совмещения функций и сайтов филиалов. Ответьте на эти вопросы соответствующим образом.
+11. <span data-ttu-id="792c1-141">После задания имени сайта и числа пользователей нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="792c1-141">After defining a site name and number of users, click **Next**.</span></span>
 
-13. Последний вопрос о том, требуется ли создать другой сайт. Если выбрать **Да** , то планирования возвращается на страницу центральных сайтов. Если выбрать **Нет** , нажмите кнопку **Далее** и затем кнопку **Draw (нарисовать)** , чтобы отобразить высокоуровневое представление глобальной топологии.
+12. <span data-ttu-id="792c1-142">На следующих страницах запрашиваются сведения о доменах SIP, параметрах конференции, параметрах голосовой связи и инфраструктуре, службе единой системы обмена сообщениями, внешних пользователях, параметрах сохраняемого чата, параметрах клиентов, параметрах развороте и сайтах филиалов.</span><span class="sxs-lookup"><span data-stu-id="792c1-142">The following pages ask for information about SIP domains, conference settings, voice settings and infrastructure, Exchange UM, external user access, Persistent Chat settings, client settings, collocation options, and branch sites.</span></span> <span data-ttu-id="792c1-143">Answer these questions as appropriate.</span><span class="sxs-lookup"><span data-stu-id="792c1-143">Answer these questions as appropriate.</span></span>
 
-14. Чтобы просмотреть существующую топологию, нажмите кнопку **Display (отобразить)** .
+13. <span data-ttu-id="792c1-144">Последний вопрос спрашивает, хотите ли вы создать другой центральный сайт.</span><span class="sxs-lookup"><span data-stu-id="792c1-144">The final question asks if you want to create another central site.</span></span> <span data-ttu-id="792c1-145">При нажатии **кнопки "Да"** средство планирования будет возвращено на страницу "центральные сайты".</span><span class="sxs-lookup"><span data-stu-id="792c1-145">If you select **Yes**, then the Planning Tool returns to the Central Sites page.</span></span> <span data-ttu-id="792c1-146">If you select **No**, click **Next**, and then click **Draw** to display the high-level Global Topology view.</span><span class="sxs-lookup"><span data-stu-id="792c1-146">If you select **No**, click **Next**, and then click **Draw** to display the high-level Global Topology view.</span></span>
 
-15. Щелкните XML-файл, содержащий ранее сохраненную топологию, а затем нажмите кнопку **Open (открыть)** .
+14. <span data-ttu-id="792c1-147">Чтобы просмотреть существующую топологию, нажмите кнопку **Display (отобразить)**.</span><span class="sxs-lookup"><span data-stu-id="792c1-147">To view an existing topology, click **Display**.</span></span>
 
-16. планирования отобразит страницу глобальной топологии. Теперь можно начать редактирование, обновление или изменение топологии с помощью инструментов, доступных в планирования.
+15. <span data-ttu-id="792c1-148">Щелкните XML-файл, содержащий ранее сохраненную топологию, а затем нажмите кнопку **Open (открыть)**.</span><span class="sxs-lookup"><span data-stu-id="792c1-148">Click the .xml file that represents the previously saved topology, and then click **Open**.</span></span>
 
-## См. также
+16. <span data-ttu-id="792c1-149">В средстве планирования отображается страница глобальной топологии.</span><span class="sxs-lookup"><span data-stu-id="792c1-149">The Planning Tool displays the Global Topology page.</span></span> <span data-ttu-id="792c1-150">Теперь можно приступить к редактированию, обновлению или изменению топологии с помощью средств, доступных в средстве планирования.</span><span class="sxs-lookup"><span data-stu-id="792c1-150">You can now begin editing, updating, or changing the topology by using the tools available in the Planning Tool.</span></span>
 
-#### Концепции
+</div>
 
-[Изменение структуры в Lync Server 2013](lync-server-2013-editing-the-design.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="792c1-151">См. также</span><span class="sxs-lookup"><span data-stu-id="792c1-151">See Also</span></span>
+
+
+[<span data-ttu-id="792c1-152">Изменение структуры в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="792c1-152">Editing the design in Lync Server 2013</span></span>](lync-server-2013-editing-the-design.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

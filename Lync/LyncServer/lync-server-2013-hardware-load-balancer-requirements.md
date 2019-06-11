@@ -1,93 +1,175 @@
-﻿---
-title: 'Lync Server 2013: требования к подсистеме балансировки нагрузки оборудования'
-TOCTitle: Требования к подсистеме балансировки нагрузки оборудования
-ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ656815(v=OCS.15)
-ms:contentKeyID: 49887938
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования к подсистеме балансировки нагрузки оборудования'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardware load balancer requirements
+ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ656815(v=OCS.15)
+ms:contentKeyID: 49287208
+ms.date: 05/11/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d5b10a91f469bf4688de06e836e0bdeffae1112
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834091"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования к подсистеме балансировки нагрузки оборудования для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a><span data-ttu-id="3af13-102">Требования к подсистеме балансировки нагрузки оборудования для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3af13-102">Hardware load balancer requirements for Lync Server 2013</span></span>
 
-Топология масштабированной и консолидированной среды пограничных серверов Lync Server 2013 оптимизирована для балансировки нагрузки через DNS в новых развертываниях, образующих федерацию с другими организациями с помощью Lync Server. Если для какого-либо из перечисленных ниже сценариев требуется высокая степень доступности, в пулах пограничных серверов сервер необходимо использовать аппаратный балансировщик нагрузки.
+</div>
 
-  - Образование федерации с организациями с помощью Office Communications Server 2007 R2 или Office Communications Server 2007
+<div id="mainSection">
 
-  - Система обмена сообщениями Exchange для удаленных пользователей, применяющих версию обмена сообщениями Exchange, предшествующую Exchange 2010 с пакетом обновления 1
+<div id="mainBody">
 
-  - Связь с пользователями общедоступных систем обмена сообщениями
+<span> </span>
+
+<span data-ttu-id="3af13-103">_**Тема последнего изменения:** 2015-05-11_</span><span class="sxs-lookup"><span data-stu-id="3af13-103">_**Topic Last Modified:** 2015-05-11_</span></span>
+
+<span data-ttu-id="3af13-104">Масштабируемая консолидированная высокоэффективная топология Lync Server 2013 оптимизирована для балансировки нагрузки DNS для новых развертываний, которые главным образом используются в других организациях, использующих Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3af13-104">The Lync Server 2013 scaled consolidated Edge topology is optimized for DNS load balancing for new deployments federating primarily with other organizations using Lync Server.</span></span> <span data-ttu-id="3af13-105">Если для любого из перечисленных ниже сценариев требуется высокая доступность, аппаратная подсистема балансировки нагрузки должна использоваться в пулах пограничного сервера для указанных ниже элементов.</span><span class="sxs-lookup"><span data-stu-id="3af13-105">If high availability is required for any of the following scenarios, a hardware load balancer must be used on Edge Server pools for the following:</span></span>
+
+  - <span data-ttu-id="3af13-106">Интеграция с организациями с помощью Office Communications Server 2007 R2 или Office Communications Server 2007</span><span class="sxs-lookup"><span data-stu-id="3af13-106">Federation with organizations using Office Communications Server 2007 R2 or Office Communications Server 2007</span></span>
+
+  - <span data-ttu-id="3af13-107">UM Exchange для удаленных пользователей, использующих UM до Exchange 2010 с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="3af13-107">Exchange UM for remote users using Exchange UM prior to Exchange 2010 with SP1</span></span>
+
+  - <span data-ttu-id="3af13-108">Связь с пользователями общедоступных систем обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="3af13-108">Connectivity to public IM users</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Использование в одном интерфейсе балансировки нагрузки через DNS, а в другом аппаратной балансировки нагрузки не поддерживается. Необходимо использовать либо ту, либо другую систему балансировки нагрузки для обоих интерфейсов.
+> <span data-ttu-id="3af13-p102">Использование в одном интерфейсе балансировки нагрузки через DNS, а в другом аппаратной балансировки нагрузки не поддерживается. Необходимо использовать либо ту, либо другую систему балансировки нагрузки для обоих интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="3af13-p102">Using DNS load balancing on one interface and hardware load balancing on the other is not supported. You must use hardware load balancing for both interfaces or DNS load balancing for both.</span></span>
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> При использовании аппаратной балансировки нагрузки балансировщик, развертываемый для соединений с внутренней сетью, необходимо настроить на балансировку нагрузки только трафика, идущего к серверам, на которых выполняются пограничная служба доступа и пограничная служба аудио- и видеоданных. Он не может балансировать нагрузку трафика, идущего ко внутренней пограничной службе веб-конференций или внутренней прокси-службе XMPP.
+> <span data-ttu-id="3af13-p103">При использовании аппаратной балансировки нагрузки балансировщик, развертываемый для соединений с внутренней сетью, необходимо настроить на балансировку нагрузки только трафика, идущего к серверам, на которых выполняются пограничная служба доступа и пограничная служба аудио- и видеоданных. Он не может балансировать нагрузку трафика, идущего ко внутренней пограничной службе веб-конференций или внутренней прокси-службе XMPP.</span><span class="sxs-lookup"><span data-stu-id="3af13-p103">If you are using a hardware load balancer, the load balancer deployed for connections with the internal network must be configured to load balance only the traffic to servers running the Access Edge service and the A/V Edge service. It cannot load balance the traffic to the internal Web Conferencing Edge service or the internal XMPP Proxy service.</span></span>
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 не поддерживает преобразование сетевых адресов в режиме прямого ответа сервера (direct server return).
+> <span data-ttu-id="3af13-113">NAT сервера с Lync Server 2013 не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="3af13-113">The direct server return (DSR) NAT is not supported with Lync Server 2013.</span></span>
 
-Чтобы определить, поддерживает ли ваш аппаратный балансировщик нагрузки функции, необходимые для Lync Server 2013, см. раздел о партнерах по балансировщику нагрузки на странице Lync Server 2010 по адресу [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).
 
-## Требования к аппаратному балансировщику нагрузки для пограничных серверов, использующих пограничную службу аудио- и видеоданных
 
-Аппаратный балансировщик нагрузки должен удовлетворять следующим требованиям, если используются пограничные серверы:
+</div>
 
-  - Отключите Nagle-оптимизацию TCP для внутреннего и внешнего портов 443. Оптимизация по алгоритму Nagle – это процесс объединения мелких пакетов сервера в один пакет большего размера для более эффективной передачи.
+<span data-ttu-id="3af13-114">Чтобы определить, поддерживает ли ваш аппаратный балансировщик нагрузки необходимые функции, необходимые для Lync Server 2013, в [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)разделе "участники подсистемы балансировки нагрузки lync Server 2010".</span><span class="sxs-lookup"><span data-stu-id="3af13-114">To determine whether your hardware load balancer supports the necessary features required by Lync Server 2013, see "Lync Server 2010 Load Balancer Partners" at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).</span></span>
 
-  - Отключите Nagle-оптимизацию TCP для диапазона внешних портов 50 000 - 59 999.
+<div>
 
-  - Не применяйте преобразование сетевых адресов на внутреннем или внешнем брандмауэре.
+## <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a><span data-ttu-id="3af13-115">Требования к аппаратному балансировщику нагрузки для пограничных серверов, использующих пограничную службу аудио- и видеоданных</span><span class="sxs-lookup"><span data-stu-id="3af13-115">Hardware Load Balancer Requirements for Edge Servers Running the A/V Edge Service</span></span>
 
-  - Пограничный внутренний интерфейс и внешний интерфейс пограничного сервера сервер должны находиться в разных сетях, и маршрутизацию между ними следует отключить.
+<span data-ttu-id="3af13-116">Ниже приведены требования к оборудованию для подсистемы балансировки нагрузки для пограничного сервера, на котором работает служба Edge-V:</span><span class="sxs-lookup"><span data-stu-id="3af13-116">Following are the hardware load balancer requirements for Edge Servers running the A/V Edge service:</span></span>
 
-  - Внешний интерфейс пограничного сервера сервер, на котором выполняется пограничная служба аудио- и видеоданных, должен использовать IP-адреса с открытой маршрутизацией, но никакого преобразования сетевых адресов или портов на всех внешних IP-адресах пограничного интерфейса.
+  - <span data-ttu-id="3af13-p104">Отключите Nagle-оптимизацию TCP для внутреннего и внешнего портов 443. Оптимизация по алгоритму Nagle — это процесс объединения мелких пакетов сервера в один пакет большего размера для более эффективной передачи.</span><span class="sxs-lookup"><span data-stu-id="3af13-p104">Turn off TCP nagling for both internal and external ports 443. Nagling is the process of combining several small packets into a single, larger packet for more efficient transmission.</span></span>
 
-## Требования к подсистеме балансировки нагрузки оборудования
+  - <span data-ttu-id="3af13-119">Отключите Nagle-оптимизацию TCP для диапазона внешних портов 50 000 - 59 999.</span><span class="sxs-lookup"><span data-stu-id="3af13-119">Turn off TCP nagling for external port range 50,000 – 59,999.</span></span>
 
-Требования к использованию сходства на основе файлов cookie заметно сократились в Lync Server 2013 для веб-служб. Если при развертывании Lync Server 2013 вы не оставляете пограничные серверы переднего плана или пулы переднего планаLync Server 2010, вам не требуется сохраняемость на основе файлов cookie. Но если вы оставляете какие-либо пограничные серверы переднего плана или пулы переднего планаLync Server 2010 на временной или постоянной основе, вам следует по-прежнему использовать сохраняемость на основе файлов cookie, развернутую и настроенную для Lync Server 2010.
+  - <span data-ttu-id="3af13-120">Не применяйте преобразование сетевых адресов на внутреннем или внешнем брандмауэре.</span><span class="sxs-lookup"><span data-stu-id="3af13-120">Do not use NAT on the internal or external firewall.</span></span>
 
-> [!NOTE]  
-> <strong>Если вы все же решите использовать сходство на основе файлов cookie, хотя вашему развертыванию оно и не требуется</strong>, это не будет иметь никаких отрицательных последствий.
+  - <span data-ttu-id="3af13-121">Внутренний интерфейс EDGE должен находиться в другой сети, чем внешний интерфейс пограничного сервера, и маршрутизация между ними должна быть отключена.</span><span class="sxs-lookup"><span data-stu-id="3af13-121">The edge internal interface must be on a different network than the Edge Server external interface and routing between them must be disabled.</span></span>
 
-Для развертываний, в которых **не будет использоваться** сходство на основе файлов cookie:
+  - <span data-ttu-id="3af13-122">Внешний интерфейс пограничного сервера, на котором работает служба EDGE, должен использовать общедоступные IP-адреса и не преобразованием NAT или порта на любые внешние IP-адреса Edge.</span><span class="sxs-lookup"><span data-stu-id="3af13-122">The external interface of the Edge Server running the A/V Edge Service must use publicly routable IP addresses and no NAT or port translation on any of the edge external IP addresses.</span></span>
 
-  - В правиле публикации обратного прокси-сервера через порт 4443, установите значение True для параметра **Перенаправлять заголовок узла** . Это обеспечит перенаправление исходного URL-адреса.
+</div>
 
-Для развертываний, в которых **будет использоваться** сходство на основе файлов cookie:
+<div>
 
-  - В правиле публикации обратного прокси-сервера через порт 4443, установите значение True для параметра **Перенаправлять заголовок узла** . Это обеспечит перенаправление исходного URL-адреса.
+## <a name="hardware-load-balancer-requirements"></a><span data-ttu-id="3af13-123">Требования к подсистеме балансировки нагрузки оборудования</span><span class="sxs-lookup"><span data-stu-id="3af13-123">Hardware Load Balancer Requirements</span></span>
 
-  - Файл cookie для аппаратного балансировщика нагрузки НЕ ДОЛЖЕН помечаться как httpOnly
+<span data-ttu-id="3af13-124">В Lync Server 2013 для веб-служб значительно снижены требования к схожести на основе файлов cookie.</span><span class="sxs-lookup"><span data-stu-id="3af13-124">Cookie-based affinity requirements are greatly reduced in Lync Server 2013 for Web services.</span></span> <span data-ttu-id="3af13-125">Если вы развертываете Lync Server 2013 и не сохраните ни один из серверных пулов Lync Server 2010 или внешних интерфейсов, не требуется постоянство на основе cookie-файлов.</span><span class="sxs-lookup"><span data-stu-id="3af13-125">If you are deploying Lync Server 2013 and will not retain any Lync Server 2010 Front End Servers or Front End pools, you do not need cookie-based persistence.</span></span> <span data-ttu-id="3af13-126">Тем не менее, если вы временно или постоянно сохраняете все серверы переднего плана Lync Server 2010 или внешние пулы, вы по-прежнему используете сохраняемость на основе файлов cookie, так как она развернута и настроена для Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="3af13-126">However, if you will temporarily or permanently retain any Lync Server 2010 Front End Servers or Front End pools, you still use cookie-based persistence as it is deployed and configured for Lync Server 2010.</span></span>
 
-  - Файл cookie для аппаратного балансировщика нагрузки НЕ ДОЛЖЕН быть ограничен сроком действия
+<div>
 
-  - Файл cookie для аппаратного балансировщика нагрузки ДОЛЖЕН иметь имя **MS-WSMAN** (веб-службы ожидают это значение, его нельзя менять)
-
-  - Режим использования файлов cookie ДОЛЖЕН задаваться в каждом ответе HTTP, для которого входящий запрос HTTP не имел файла cookie, даже если файл cookie был уже получен предыдущим ответом HTTP в том же соединении TCP. Если балансировщик нагрузки при оптимизации допускает только одну вставку файла cookie для каждого соединения TCP, такая оптимизация НЕ ДОЛЖНА применяться
 
 > [!NOTE]  
-> В типичных конфигурациях аппаратного балансировщика нагрузки используется сходство исходных адресов и срок действия сеанса TCP 20 минут, что удобно для клиентов Lync Server и Lync 2013, поскольку состояние клиента поддерживается в течение времени работы клиентов или взаимодействия приложений.
+> <span data-ttu-id="3af13-127"><STRONG>Если вы все же решите использовать сходство на основе файлов cookie, хотя вашему развертыванию оно и не требуется</STRONG>, это не будет иметь никаких отрицательных последствий.</span><span class="sxs-lookup"><span data-stu-id="3af13-127"><STRONG>If you decide to use cookie-based affinity even though your deployment does not require it</STRONG>, there is no negative impact to doing so.</span></span>
 
-При развертывании мобильных устройств ваш аппаратный балансировщик нагрузки должен поддерживать возможность балансировки нагрузки для индивидуальных запросов в рамках сеанса TCP (фактически необходима возможность балансировки нагрузки индивидуальных запросов на основе целевого IP-адреса).
+
+
+</div>
+
+<span data-ttu-id="3af13-128">Для развертываний, в которых **не будет использоваться** сходство на основе файлов cookie:</span><span class="sxs-lookup"><span data-stu-id="3af13-128">For deployments that **will not use** cookie-based affinity:</span></span>
+
+  - <span data-ttu-id="3af13-129">В правиле публикации обратного прокси-сервера через порт 4443, установите значение True для параметра **Перенаправлять заголовок узла**.</span><span class="sxs-lookup"><span data-stu-id="3af13-129">On the reverse proxy publishing rule for port 4443, set **Forward host header** to True.</span></span> <span data-ttu-id="3af13-130">Это обеспечит перенаправление исходного URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="3af13-130">This will ensure that the original URL is forwarded.</span></span>
+
+<span data-ttu-id="3af13-131">Для развертываний, в которых **будет использоваться** сходство на основе файлов cookie:</span><span class="sxs-lookup"><span data-stu-id="3af13-131">For deployments that **will use** cookie-based affinity:</span></span>
+
+  - <span data-ttu-id="3af13-p107">В правиле публикации обратного прокси-сервера через порт 4443, установите значение True для параметра **Перенаправлять заголовок узла**. Это обеспечит перенаправление исходного URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="3af13-p107">On the reverse proxy publishing rule for port 4443, set **Forward host header** to True. This will ensure that the original URL is forwarded.</span></span>
+
+  - <span data-ttu-id="3af13-134">Файл cookie для аппаратного балансировщика нагрузки НЕ ДОЛЖЕН помечаться как httpOnly</span><span class="sxs-lookup"><span data-stu-id="3af13-134">Hardware load balancer cookie MUST NOT be marked httpOnly</span></span>
+
+  - <span data-ttu-id="3af13-135">Файл cookie для аппаратного балансировщика нагрузки НЕ ДОЛЖЕН быть ограничен сроком действия</span><span class="sxs-lookup"><span data-stu-id="3af13-135">Hardware load balancer cookie MUST NOT have an expiration time</span></span>
+
+  - <span data-ttu-id="3af13-136">Файл cookie для аппаратного балансировщика нагрузки ДОЛЖЕН иметь имя **MS-WSMAN** (веб-службы ожидают это значение, его нельзя менять)</span><span class="sxs-lookup"><span data-stu-id="3af13-136">Hardware load balancer cookie MUST be named **MS-WSMAN** (This is the value that the Web services expect, and cannot be changed)</span></span>
+
+  - <span data-ttu-id="3af13-p108">Режим использования файлов cookie ДОЛЖЕН задаваться в каждом ответе HTTP, для которого входящий запрос HTTP не имел файла cookie, даже если файл cookie был уже получен предыдущим ответом HTTP в том же соединении TCP. Если балансировщик нагрузки при оптимизации допускает только одну вставку файла cookie для каждого соединения TCP, такая оптимизация НЕ ДОЛЖНА применяться.</span><span class="sxs-lookup"><span data-stu-id="3af13-p108">Hardware load balancer cookie MUST be set in every HTTP response for which the incoming HTTP request did not have a cookie, regardless of whether a previous HTTP response on that same TCP connection had already obtained a cookie. If the load balancer optimizes cookie insert to only occur once per TCP connection, that optimization MUST NOT be used</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="3af13-139">Типичные конфигурации подсистемы балансировки нагрузки аппаратных средств используют сходство с исходным адресом и время жизни сеанса TCP мин., что подходит для клиентов Lync Server и Lync 2013, поскольку состояние сеанса поддерживается с помощью клиента и (или) взаимодействия с приложением.</span><span class="sxs-lookup"><span data-stu-id="3af13-139">Typical hardware load balancer configurations use source-address affinity and a 20 min. TCP session lifetime, which is fine for Lync Server and Lync 2013 clients because session state is maintained through client usage and/or and application interaction.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="3af13-140">При развертывании мобильных устройств ваш аппаратный балансировщик нагрузки должен поддерживать возможность балансировки нагрузки для индивидуальных запросов в рамках сеанса TCP (фактически необходима возможность балансировки нагрузки индивидуальных запросов на основе целевого IP-адреса).</span><span class="sxs-lookup"><span data-stu-id="3af13-140">If you are deploying mobile devices, your hardware load balancer must be able to load balance individual request within a TCP session (in effect, you must be able to load balance an individual request based on the target IP address).</span></span>
+
+<div>
+
 
 > [!WARNING]  
-> В аппаратных балансировщиках нагрузки F5 имеется функция OneConnect, которая обеспечивает индивидуальную балансировку нагрузки для каждого запроса в соединении TCP. Если вы развертываете мобильные устройства, убедитесь, что поставщик вашего аппаратного балансировщика нагрузки поддерживает аналогичную функциональную возможность. Последним приложениям Apple iOS для мобильных устройств требуется протокол TLS версии 1.2. F5 предоставляет для этого специальные настройки.<br />Подробные сведения о сторонних поставщиках аппаратных балансировщиков нагрузки см. в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</a>
+> <span data-ttu-id="3af13-p109">В аппаратных балансировщиках нагрузки F5 имеется функция OneConnect, которая обеспечивает индивидуальную балансировку нагрузки для каждого запроса в соединении TCP. Если вы развертываете мобильные устройства, убедитесь, что поставщик вашего аппаратного балансировщика нагрузки поддерживает аналогичную функциональную возможность. Последним приложениям Apple iOS для мобильных устройств требуется протокол TLS версии 1.2. F5 предоставляет для этого специальные настройки.</span><span class="sxs-lookup"><span data-stu-id="3af13-p109">F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this.</span></span><BR><span data-ttu-id="3af13-145">Подробнее о подсистемах балансировки нагрузки оборудования сторонних производителей можно найти в разделе<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A></span><span class="sxs-lookup"><span data-stu-id="3af13-145">For details on third party hardware load balancers, see <A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A></span></span>
 
-Ниже приводятся требования к аппаратному балансировщику нагрузки для веб-служб директора и интерфейсного пула.
 
-  - Для внутренних виртуальных IP-адресов веб-служб задайте сохраняемость Source\_addr (внутренний порт 80, 443) на аппаратном балансировщике нагрузки. Для Lync Server 2013 сохраняемость Source\_addr означает, что множество соединений, исходящих с одного IP-адреса, всегда отправляются на один сервер для поддержания состояния сеанса.
 
-  - В качестве таймаута простоя TCP используйте значение 1800 секунд.
+</div>
 
-  - На брандмауэре между обратным прокси-сервером и аппаратным балансировщиком нагрузки пула на следующем прыжке создайте правило, разрешающее HTTPS-трафик через порт 4443 из обратного прокси-сервера в аппаратный балансировщик нагрузки. В аппаратном балансировщике нагрузки необходимо настроить прослушивание портов 80, 443 и 4443.
+<span data-ttu-id="3af13-146">Ниже приводятся требования к аппаратному балансировщику нагрузки для веб-служб директора и интерфейсного пула.</span><span class="sxs-lookup"><span data-stu-id="3af13-146">Following are the hardware load balancer requirements for Director and Front End pool Web Services:</span></span>
 
-## Сводка требований к сходству для аппаратного балансировщика нагрузки
+  - <span data-ttu-id="3af13-147">Для внутренних виртуальных IP-адресов укажите параметр\_сохраняемости исходного адреса (внутренний порт 80, 443) в подсистеме балансировки нагрузки оборудования.</span><span class="sxs-lookup"><span data-stu-id="3af13-147">For internal Web Services VIPs, set Source\_addr persistence (internal port 80, 443) on the hardware load balancer.</span></span> <span data-ttu-id="3af13-148">Для Lync Server 2013, сохранение\_исходного адреса означает, что несколько подключений, поступающих из одного IP-адреса, всегда отправляются на один сервер для сохранения состояния сеанса.</span><span class="sxs-lookup"><span data-stu-id="3af13-148">For Lync Server 2013, Source\_addr persistence means that multiple connections coming from a single IP address are always sent to one server to maintain session state.</span></span>
+
+  - <span data-ttu-id="3af13-149">В качестве таймаута простоя TCP используйте значение 1800 секунд.</span><span class="sxs-lookup"><span data-stu-id="3af13-149">Use TCP idle timeout of 1800 seconds.</span></span>
+
+  - <span data-ttu-id="3af13-p111">На брандмауэре между обратным прокси-сервером и аппаратным балансировщиком нагрузки пула на следующем прыжке создайте правило, разрешающее HTTPS-трафик через порт 4443 из обратного прокси-сервера в аппаратный балансировщик нагрузки. В аппаратном балансировщике нагрузки необходимо настроить прослушивание портов 80, 443 и 4443.</span><span class="sxs-lookup"><span data-stu-id="3af13-p111">On the firewall between the reverse proxy and the next hop pool’s hardware load balancer, create a rule to allow https: traffic on port 4443, from the reverse proxy to the hardware load balancer. The hardware load balancer must be configured to listen on ports 80, 443, and 4443.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="3af13-152">Для дальнейшего ознакомления с конфигурацией подсистемы балансировки нагрузки для оборудования ознакомьтесь со сведенным <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">масштабированным краем по порту с помощью подсистем балансировки нагрузки для оборудования в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="3af13-152">For further reading on configuration of the hardware load balancer, please review <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</A>.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="summary-of-hardware-load-balancer-affinity-requirements"></a><span data-ttu-id="3af13-153">Сводка требований к сходству для аппаратного балансировщика нагрузки</span><span class="sxs-lookup"><span data-stu-id="3af13-153">Summary of Hardware Load Balancer Affinity Requirements</span></span>
 
 
 <table>
@@ -98,81 +180,43 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Расположение клиента или пользователя</th>
-<th>Требования к сходству внешних доменных имен веб-служб</th>
-<th>Требования к сходству внутренних доменных имен веб-служб</th>
+<th><span data-ttu-id="3af13-154">Расположение клиента или пользователя</span><span class="sxs-lookup"><span data-stu-id="3af13-154">Client/user location</span></span></th>
+<th><span data-ttu-id="3af13-155">Требования к сходству внешних доменных имен веб-служб</span><span class="sxs-lookup"><span data-stu-id="3af13-155">External web services FQDN affinity requirements</span></span></th>
+<th><span data-ttu-id="3af13-156">Требования к сходству внутренних доменных имен веб-служб</span><span class="sxs-lookup"><span data-stu-id="3af13-156">Internal web services FQDN affinity requirements</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>веб-приложение Lync Web App (внутренние и внешние пользователи)</p>
-<p>Мобильное устройство (внутренние и внешние пользователи)</p></td>
-<td><p>Без сходства</p></td>
-<td><p>Сходство исходных адресов</p></td>
+<td><p><span data-ttu-id="3af13-157">Lync Web App (внутренние и внешние пользователи)</span><span class="sxs-lookup"><span data-stu-id="3af13-157">Lync Web App (internal and external users)</span></span></p>
+<p><span data-ttu-id="3af13-158">Мобильное устройство (внутренние и внешние пользователи)</span><span class="sxs-lookup"><span data-stu-id="3af13-158">Mobile device (internal and external users)</span></span></p></td>
+<td><p><span data-ttu-id="3af13-159">Без сходства</span><span class="sxs-lookup"><span data-stu-id="3af13-159">No affinity</span></span></p></td>
+<td><p><span data-ttu-id="3af13-160">Сходство исходных адресов</span><span class="sxs-lookup"><span data-stu-id="3af13-160">Source address affinity</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>веб-приложение Lync Web App (только внешние пользователи)</p>
-<p>Мобильное устройство (внутренние и внешние пользователи)</p></td>
-<td><p>Без сходства</p></td>
-<td><p>Сходство исходных адресов</p></td>
+<td><p><span data-ttu-id="3af13-161">Lync Web App (только для внешних пользователей)</span><span class="sxs-lookup"><span data-stu-id="3af13-161">Lync Web App (external users only)</span></span></p>
+<p><span data-ttu-id="3af13-162">Мобильное устройство (внутренние и внешние пользователи)</span><span class="sxs-lookup"><span data-stu-id="3af13-162">Mobile device (internal and external users)</span></span></p></td>
+<td><p><span data-ttu-id="3af13-163">Без сходства</span><span class="sxs-lookup"><span data-stu-id="3af13-163">No affinity</span></span></p></td>
+<td><p><span data-ttu-id="3af13-164">Сходство исходных адресов</span><span class="sxs-lookup"><span data-stu-id="3af13-164">Source address affinity</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>веб-приложение Lync Web App (только внутренние пользователи)</p>
-<p>Мобильное устройство (без развертывания)</p></td>
-<td><p>Без сходства</p></td>
-<td><p>Сходство исходных адресов</p></td>
+<td><p><span data-ttu-id="3af13-165">Lync Web App (только для внутренних пользователей)</span><span class="sxs-lookup"><span data-stu-id="3af13-165">Lync Web App (internal users only)</span></span></p>
+<p><span data-ttu-id="3af13-166">Мобильное устройство (без развертывания)</span><span class="sxs-lookup"><span data-stu-id="3af13-166">Mobile device (not deployed)</span></span></p></td>
+<td><p><span data-ttu-id="3af13-167">Без сходства</span><span class="sxs-lookup"><span data-stu-id="3af13-167">No affinity</span></span></p></td>
+<td><p><span data-ttu-id="3af13-168">Сходство исходных адресов</span><span class="sxs-lookup"><span data-stu-id="3af13-168">Source address affinity</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Мониторинг порта для аппаратных балансировщиков нагрузки
+</div>
 
-Мониторинг порта на аппаратных балансировщиках нагрузки позволяет определить, когда конкретные службы становятся недоступными из-за ошибки оборудования или связи. Например, если служба сервера переднего плана (RTCSRV) останавливается из-за ошибки сервера переднего плана или пула переднего плана, функция мониторинга аппаратного балансировщика нагрузки прекращает получение трафика веб-службы служб. Благодаря использованию функции мониторинга порта в аппаратном балансировщике нагрузки можно отслеживать следующее:
+<div>
 
-### Пул пользователя сервера переднего плана – внутренний интерфейс аппаратного балансировщика нагрузки
+## <a name="port-monitoring-for-hardware-load-balancers"></a><span data-ttu-id="3af13-169">Мониторинг порта для аппаратных балансировщиков нагрузки</span><span class="sxs-lookup"><span data-stu-id="3af13-169">Port Monitoring for Hardware Load Balancers</span></span>
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Виртуальный IP-адрес/порт</th>
-<th>Порт узла</th>
-<th>Компьютер/монитор узла</th>
-<th>Профиль сохраняемости</th>
-<th>Примечания.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>&lt;pool&gt;web-int_mco_443_vs</p>
-<p>443</p></td>
-<td><p>443</p></td>
-<td><p>Сервер переднего плана</p>
-<p>5061</p></td>
-<td><p>Source (Источник)</p></td>
-<td><p>HTTPS</p></td>
-</tr>
-<tr class="even">
-<td><p>&lt;pool&gt;web-int_mco_80_vs</p>
-<p>80</p></td>
-<td><p>80</p></td>
-<td><p>Сервер переднего плана</p>
-<p>5061</p></td>
-<td><p>Source (Источник)</p></td>
-<td><p>HTTP</p></td>
-</tr>
-</tbody>
-</table>
+<span data-ttu-id="3af13-170">You define port monitoring on the hardware load balancers to determine when specific services are no longer available due to hardware or communications failure.</span><span class="sxs-lookup"><span data-stu-id="3af13-170">You define port monitoring on the hardware load balancers to determine when specific services are no longer available due to hardware or communications failure.</span></span> <span data-ttu-id="3af13-171">Например, если служба сервера переднего плана (РТКСРВ) останавливается из-за того, что сервер переднего плана или пул переднего плана завершает работу с ошибкой, то в этом случае монитор ХЛБ должен прекратить получать трафик на веб – службах.</span><span class="sxs-lookup"><span data-stu-id="3af13-171">For example, if the Front End Server service (RTCSRV) stops because the Front End Server or Front End pool fails, the HLB monitoring should also stop receiving traffic on the Web Services.</span></span> <span data-ttu-id="3af13-172">You implement port monitoring on the HLB to monitor the following:</span><span class="sxs-lookup"><span data-stu-id="3af13-172">You implement port monitoring on the HLB to monitor the following:</span></span>
 
-
-### Пул пользователя сервера переднего плана – внешний интерфейс аппаратного балансировщика нагрузки
+### <a name="front-end-server-user-pool--hlb-internal-interface"></a><span data-ttu-id="3af13-173">Пул пользователей переднего плана сервера — внутренний интерфейс ХЛБ</span><span class="sxs-lookup"><span data-stu-id="3af13-173">Front End Server User Pool – HLB Internal Interface</span></span>
 
 <table>
 <colgroup>
@@ -184,32 +228,87 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Виртуальный IP-адрес/порт</th>
-<th>Порт узла</th>
-<th>Компьютер/монитор узла</th>
-<th>Профиль сохраняемости</th>
-<th>Примечания.</th>
+<th><span data-ttu-id="3af13-174">Виртуальный IP-адрес/порт</span><span class="sxs-lookup"><span data-stu-id="3af13-174">Virtual IP/Port</span></span></th>
+<th><span data-ttu-id="3af13-175">Порт узла</span><span class="sxs-lookup"><span data-stu-id="3af13-175">Node Port</span></span></th>
+<th><span data-ttu-id="3af13-176">Компьютер/монитор узла</span><span class="sxs-lookup"><span data-stu-id="3af13-176">Node Machine/Monitor</span></span></th>
+<th><span data-ttu-id="3af13-177">Профиль сохраняемости</span><span class="sxs-lookup"><span data-stu-id="3af13-177">Persistence Profile</span></span></th>
+<th><span data-ttu-id="3af13-178">Примечания.</span><span class="sxs-lookup"><span data-stu-id="3af13-178">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;pool&gt;web_mco_443_vs</p>
-<p>443</p></td>
-<td><p>4443</p></td>
-<td><p>Сервер переднего плана</p>
-<p>5061</p></td>
-<td><p>Нет</p></td>
-<td><p>HTTPS</p></td>
+<td><p><span data-ttu-id="3af13-179">&lt;веб&gt;-сайт пула — int_mco_443_vs</span><span class="sxs-lookup"><span data-stu-id="3af13-179">&lt;pool&gt;web-int_mco_443_vs</span></span></p>
+<p><span data-ttu-id="3af13-180">443</span><span class="sxs-lookup"><span data-stu-id="3af13-180">443</span></span></p></td>
+<td><p><span data-ttu-id="3af13-181">443</span><span class="sxs-lookup"><span data-stu-id="3af13-181">443</span></span></p></td>
+<td><p><span data-ttu-id="3af13-182">Сервер переднего плана</span><span class="sxs-lookup"><span data-stu-id="3af13-182">Front End</span></span></p>
+<p><span data-ttu-id="3af13-183">5061</span><span class="sxs-lookup"><span data-stu-id="3af13-183">5061</span></span></p></td>
+<td><p><span data-ttu-id="3af13-184">Источник</span><span class="sxs-lookup"><span data-stu-id="3af13-184">Source</span></span></p></td>
+<td><p><span data-ttu-id="3af13-185">HTTPS</span><span class="sxs-lookup"><span data-stu-id="3af13-185">HTTPS</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;pool&gt;web_mco_80_vs</p>
-<p>80</p></td>
-<td><p>8080</p></td>
-<td><p>Сервер переднего плана</p>
-<p>5061</p></td>
-<td><p>Нет</p></td>
-<td><p>HTTP</p></td>
+<td><p><span data-ttu-id="3af13-186">&lt;веб&gt;-сайт пула — int_mco_80_vs</span><span class="sxs-lookup"><span data-stu-id="3af13-186">&lt;pool&gt;web-int_mco_80_vs</span></span></p>
+<p><span data-ttu-id="3af13-187">80</span><span class="sxs-lookup"><span data-stu-id="3af13-187">80</span></span></p></td>
+<td><p><span data-ttu-id="3af13-188">80</span><span class="sxs-lookup"><span data-stu-id="3af13-188">80</span></span></p></td>
+<td><p><span data-ttu-id="3af13-189">Сервер переднего плана</span><span class="sxs-lookup"><span data-stu-id="3af13-189">Front End</span></span></p>
+<p><span data-ttu-id="3af13-190">5061</span><span class="sxs-lookup"><span data-stu-id="3af13-190">5061</span></span></p></td>
+<td><p><span data-ttu-id="3af13-191">Источник</span><span class="sxs-lookup"><span data-stu-id="3af13-191">Source</span></span></p></td>
+<td><p><span data-ttu-id="3af13-192">HTTP</span><span class="sxs-lookup"><span data-stu-id="3af13-192">HTTP</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+### <a name="front-end-server-user-pool--hlb-external-interface"></a><span data-ttu-id="3af13-193">Пул пользователей переднего плана сервера — внешний интерфейс ХЛБ</span><span class="sxs-lookup"><span data-stu-id="3af13-193">Front End Server User Pool – HLB External Interface</span></span>
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="3af13-194">Виртуальный IP-адрес/порт</span><span class="sxs-lookup"><span data-stu-id="3af13-194">Virtual IP/Port</span></span></th>
+<th><span data-ttu-id="3af13-195">Порт узла</span><span class="sxs-lookup"><span data-stu-id="3af13-195">Node Port</span></span></th>
+<th><span data-ttu-id="3af13-196">Компьютер/монитор узла</span><span class="sxs-lookup"><span data-stu-id="3af13-196">Node Machine/Monitor</span></span></th>
+<th><span data-ttu-id="3af13-197">Профиль сохраняемости</span><span class="sxs-lookup"><span data-stu-id="3af13-197">Persistence Profile</span></span></th>
+<th><span data-ttu-id="3af13-198">Примечания.</span><span class="sxs-lookup"><span data-stu-id="3af13-198">Notes</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="3af13-199">&lt;web_mco_443_vs&gt;пула</span><span class="sxs-lookup"><span data-stu-id="3af13-199">&lt;pool&gt;web_mco_443_vs</span></span></p>
+<p><span data-ttu-id="3af13-200">443</span><span class="sxs-lookup"><span data-stu-id="3af13-200">443</span></span></p></td>
+<td><p><span data-ttu-id="3af13-201">4443</span><span class="sxs-lookup"><span data-stu-id="3af13-201">4443</span></span></p></td>
+<td><p><span data-ttu-id="3af13-202">Сервер переднего плана</span><span class="sxs-lookup"><span data-stu-id="3af13-202">Front End</span></span></p>
+<p><span data-ttu-id="3af13-203">5061</span><span class="sxs-lookup"><span data-stu-id="3af13-203">5061</span></span></p></td>
+<td><p><span data-ttu-id="3af13-204">Отсутствуют</span><span class="sxs-lookup"><span data-stu-id="3af13-204">None</span></span></p></td>
+<td><p><span data-ttu-id="3af13-205">HTTPS</span><span class="sxs-lookup"><span data-stu-id="3af13-205">HTTPS</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="3af13-206">&lt;web_mco_80_vs&gt;пула</span><span class="sxs-lookup"><span data-stu-id="3af13-206">&lt;pool&gt;web_mco_80_vs</span></span></p>
+<p><span data-ttu-id="3af13-207">80</span><span class="sxs-lookup"><span data-stu-id="3af13-207">80</span></span></p></td>
+<td><p><span data-ttu-id="3af13-208">8080</span><span class="sxs-lookup"><span data-stu-id="3af13-208">8080</span></span></p></td>
+<td><p><span data-ttu-id="3af13-209">Сервер переднего плана</span><span class="sxs-lookup"><span data-stu-id="3af13-209">Front End</span></span></p>
+<p><span data-ttu-id="3af13-210">5061</span><span class="sxs-lookup"><span data-stu-id="3af13-210">5061</span></span></p></td>
+<td><p><span data-ttu-id="3af13-211">Отсутствуют</span><span class="sxs-lookup"><span data-stu-id="3af13-211">None</span></span></p></td>
+<td><p><span data-ttu-id="3af13-212">HTTP</span><span class="sxs-lookup"><span data-stu-id="3af13-212">HTTP</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

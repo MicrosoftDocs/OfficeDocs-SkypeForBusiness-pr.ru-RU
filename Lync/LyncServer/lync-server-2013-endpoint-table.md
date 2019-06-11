@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Endpoint'
-TOCTitle: Таблица Endpoint
-ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398327(v=OCS.15)
-ms:contentKeyID: 49309744
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Endpoint'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Endpoint table
+ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398327(v=OCS.15)
+ms:contentKeyID: 48184098
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6cedf4d85cefd8a9fefb9f0ee4608f4a290fdc09
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834214"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Endpoint в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="endpoint-table-in-lync-server-2013"></a><span data-ttu-id="c7432-102">Таблица Endpoint в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7432-102">Endpoint table in Lync Server 2013</span></span>
 
-Таблица конечных точек – это вспомогательная таблица, в которой хранятся сведения о конечных точках, которые участвовали в сеансах, зарегистрированных в базе данных. Каждая запись в таблице соответствует одной конечной точки.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c7432-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="c7432-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="c7432-104">Таблица конечных точек — это вспомогательная таблица, в которой хранятся сведения о конечных точках, участвующих в сеансах, записанных в базе данных.</span><span class="sxs-lookup"><span data-stu-id="c7432-104">The Endpoint table is a supporting table that stores information about the endpoints that have participated in sessions recorded in the database.</span></span> <span data-ttu-id="c7432-105">Каждая запись в таблице представляет одну конечную точку.</span><span class="sxs-lookup"><span data-stu-id="c7432-105">Each record in the table represents one endpoint.</span></span>
 
 
 <table>
@@ -27,62 +47,73 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
-<th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><span data-ttu-id="c7432-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="c7432-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="c7432-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="c7432-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>EndpointKey</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный номер, идентифицирующий эту конечную точку.</p></td>
+<td><p><span data-ttu-id="c7432-110"><strong>Ендпоинткэй</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-110"><strong>EndpointKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-111">целое</span><span class="sxs-lookup"><span data-stu-id="c7432-111">int</span></span></p></td>
+<td><p><span data-ttu-id="c7432-112">Primary</span><span class="sxs-lookup"><span data-stu-id="c7432-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="c7432-113">Уникальный номер, идентифицирующий эту конечную точку.</span><span class="sxs-lookup"><span data-stu-id="c7432-113">Unique number identifying this endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Имя</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Unique</p></td>
-<td><p>Имя конечной точки.</p></td>
+<td><p><span data-ttu-id="c7432-114"><strong>Имя</strong>.</span><span class="sxs-lookup"><span data-stu-id="c7432-114"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="c7432-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="c7432-116">Повторя</span><span class="sxs-lookup"><span data-stu-id="c7432-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="c7432-117">Имя конечной точки.</span><span class="sxs-lookup"><span data-stu-id="c7432-117">Endpoint name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ОС</strong></p></td>
-<td><p>nvarchar(128)</p></td>
+<td><p><span data-ttu-id="c7432-118"><strong>OS</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-118"><strong>OS</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-119">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="c7432-119">nvarchar(128)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Операционная система конечной точки.</p></td>
+<td><p><span data-ttu-id="c7432-120">Операционная система (ОС) конечной точки.</span><span class="sxs-lookup"><span data-stu-id="c7432-120">Operating system (OS) of the endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CPUName</strong></p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p></p></td>
-<td><p>Имя ЦП конечной точки.</p></td>
+<td><p><span data-ttu-id="c7432-121"><strong>Кпунаме</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-121"><strong>CPUName</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-122">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="c7432-122">nvarchar(128)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="c7432-123">Имя ЦП конечной точки.</span><span class="sxs-lookup"><span data-stu-id="c7432-123">CPU name of the endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CPUNumberOfCores</strong></p></td>
-<td><p>smallint</p></td>
-<td><p></p></td>
-<td><p>Число ядер ЦП на конечной точке.</p></td>
+<td><p><span data-ttu-id="c7432-124"><strong>Кпунумберофкорес</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-124"><strong>CPUNumberOfCores</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-125">smallint</span><span class="sxs-lookup"><span data-stu-id="c7432-125">smallint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="c7432-126">Количество ядер ЦП конечной точки.</span><span class="sxs-lookup"><span data-stu-id="c7432-126">Number of CPU cores of the endpoint.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CPUProcessorSpeed</strong></p></td>
-<td><p>целое</p></td>
-<td><p></p></td>
-<td><p>Скорость ЦП конечной точки.</p></td>
+<td><p><span data-ttu-id="c7432-127"><strong>Кпупроцессорспид</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-127"><strong>CPUProcessorSpeed</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-128">целое</span><span class="sxs-lookup"><span data-stu-id="c7432-128">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="c7432-129">Тактовая частота процессора для конечной точки.</span><span class="sxs-lookup"><span data-stu-id="c7432-129">CPU processor speed of the endpoint.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VirtualizationFlag</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Битовый флаг, указывающий, работает ли система в виртуализованной среде:</p>
+<td><p><span data-ttu-id="c7432-130"><strong>Виртуализатионфлаг</strong></span><span class="sxs-lookup"><span data-stu-id="c7432-130"><strong>VirtualizationFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="c7432-131">tinyint</span><span class="sxs-lookup"><span data-stu-id="c7432-131">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="c7432-132">Битовый флаг, указывающий на то, что система работает в виртуализованной среде.</span><span class="sxs-lookup"><span data-stu-id="c7432-132">Bit flag that indicates if the system is running in a virtualized environment:</span></span></p>
 <ul>
-<li><p>0x0000 – нет</p></li>
-<li><p>0x0001 – HyperV</p></li>
-<li><p>0x0002 – VMWare</p></li>
-<li><p>0x0004 – Virtual PC</p></li>
-<li><p>0x0008 – Xen PC</p></li>
+<li><p><span data-ttu-id="c7432-133">0x0000 — None (нет)</span><span class="sxs-lookup"><span data-stu-id="c7432-133">0x0000 – None</span></span></p></li>
+<li><p><span data-ttu-id="c7432-134">0x0001 — HyperV</span><span class="sxs-lookup"><span data-stu-id="c7432-134">0x0001 – HyperV</span></span></p></li>
+<li><p><span data-ttu-id="c7432-135">0x0002 — VMWare</span><span class="sxs-lookup"><span data-stu-id="c7432-135">0x0002 – VMWare</span></span></p></li>
+<li><p><span data-ttu-id="c7432-136">0x0004 — Virtual PC</span><span class="sxs-lookup"><span data-stu-id="c7432-136">0x0004 – Virtual PC</span></span></p></li>
+<li><p><span data-ttu-id="c7432-137">0x0008 – ПК с Xen</span><span class="sxs-lookup"><span data-stu-id="c7432-137">0x0008 – Xen PC</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

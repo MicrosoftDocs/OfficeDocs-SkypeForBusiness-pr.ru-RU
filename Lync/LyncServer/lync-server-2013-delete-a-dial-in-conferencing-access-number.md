@@ -1,55 +1,105 @@
-﻿---
-title: Удаление номера доступа к конференц-связи с телефонным подключением
-TOCTitle: Удаление номера доступа к конференц-связи с телефонным подключением
-ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520956(v=OCS.15)
-ms:contentKeyID: 49309089
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Удаление номера доступа к конференц-связи с телефонным подключением'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a dial-in conferencing access number
+ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)
+ms:contentKeyID: 48183522
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2559b8a3e053c02a6a67ccc17ab5a1f25b46a05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834648"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление номера доступа к конференц-связи с телефонным подключением
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a><span data-ttu-id="03ce4-102">Удаление номера доступа для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03ce4-102">Delete a dial-in conferencing access number in Lync Server 2013</span></span>
 
-Выполните следующие действия, чтобы удалить номер доступа к конференции с телефонным подключением.
+</div>
 
-## Удаление номера доступа к конференции с телефонным подключением
+<div id="mainSection">
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+<div id="mainBody">
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  В левой панели навигации выберите **Конференции**, а затем щелкните **Удаленный доступ (через телефонную сеть)**.
+<span data-ttu-id="03ce4-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="03ce4-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  На странице выберите номер доступа, который нужно удалить, в списке, нажмите кнопку **Изменить**, а затем нажмите **Удалить**.
+<span data-ttu-id="03ce4-104">Чтобы удалить номер доступа к конференц-связи с телефонным подключением, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="03ce4-104">Follow these steps to delete a dial-in conferencing access number.</span></span>
 
-5.  Нажмите кнопку **ОК**.
+<div>
 
-## Удаление номеров доступа к конференц-связи с телефонным подключением с помощью командлетов Windows PowerShell
+## <a name="to-delete-a-dial-in-conferencing-access-number"></a><span data-ttu-id="03ce4-105">Удаление номера доступа к конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="03ce4-105">To delete a dial-in conferencing access number</span></span>
 
-Для удаления номеров доступа к конференц-связи с телефонным подключением можно использовать Windows PowerShell и командлет **Remove-CsDialInConferencingAccessNumber**. Этот командлет можно выполнить из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+1.  <span data-ttu-id="03ce4-106">Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="03ce4-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-## Удаление отдельного номера доступа к конференц-связи с телефонным подключением
+2.  <span data-ttu-id="03ce4-107">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="03ce4-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="03ce4-108">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="03ce4-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-  - Эта команда служит для удаления номера доступа к конференц-связи с телефонным подключением с идентификатором sip:RedmondDialInAccess@litwareinc.com:
+3.  <span data-ttu-id="03ce4-109">В левой панели навигации выберите **Конференция**, а затем щелкните **Номер для телефонного подключения**.</span><span class="sxs-lookup"><span data-stu-id="03ce4-109">In the left navigation bar, click **Conferencing**, and then click **Dial-in Access Number**.</span></span>
+
+4.  <span data-ttu-id="03ce4-110">На странице выберите номер доступа, который нужно удалить, в списке, нажмите кнопку **Изменить**, а затем — **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="03ce4-110">On the page, click the dial-in number you want to delete in the list, click **Edit**, and then click **Delete**.</span></span>
+
+5.  <span data-ttu-id="03ce4-111">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="03ce4-111">Click **OK**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="03ce4-112">Удаление номеров доступа для конференц-связи с телефонным подключением с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="03ce4-112">Removing Dial-in Conferencing Access Numbers by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="03ce4-113">Номера доступа для конференц-связи с телефонным подключением можно удалить с помощью Windows PowerShell и командлета **Remove-ксдиалинконференЦингакцесснумбер** .</span><span class="sxs-lookup"><span data-stu-id="03ce4-113">Dial-in conferencing access numbers can be deleted by using Windows PowerShell and the **Remove-CsDialInConferencingAccessNumber** cmdlet.</span></span> <span data-ttu-id="03ce4-114">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="03ce4-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="03ce4-115">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="03ce4-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a><span data-ttu-id="03ce4-116">Чтобы удалить определенный номер доступа к конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="03ce4-116">To remove a specific dial-in conferencing access number</span></span>
+
+  - <span data-ttu-id="03ce4-117">Эта команда удаляет номер доступа к конференц-связи с телефонным подключением с удостоверением sip:RedmondDialInAccess@litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="03ce4-117">This command deletes the dial-in conferencing access number with Identity sip:RedmondDialInAccess@litwareinc.com:</span></span>
     
         Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 
-## Удаление всех номеров доступа к конференц-связи с телефонным подключением, назначенных для отдельного региона
+</div>
 
-  - Эта команда служит для удаления всех номеров доступа к конференц-связи с телефонным подключением, связанных с регионом "Северо-запад":
+<div>
+
+## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a><span data-ttu-id="03ce4-118">Удаление всех номеров доступа для конференц-связи с телефонным подключением, назначенных определенному региону</span><span class="sxs-lookup"><span data-stu-id="03ce4-118">To remove all the dial-in conferencing access numbers assigned to a specific region</span></span>
+
+  - <span data-ttu-id="03ce4-119">Эта команда удаляет все номера доступа для конференц-связи с телефонным подключением, связанные с этим регионом:</span><span class="sxs-lookup"><span data-stu-id="03ce4-119">This command deletes all the dial-in conferencing access numbers associated with the Northwest region:</span></span>
     
         Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 
-## Удаление всех номеров доступа к конференц-связи с телефонным подключением с учетом основного языка
+</div>
 
-  - Эта команда служит для удаления всех номеров доступа к конференц-связи с телефонным подключением, для которых основным языком является итальянский:
+<div>
+
+## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a><span data-ttu-id="03ce4-120">Удаление номеров доступа для конференц-связи с телефонным подключением на основе основного языка</span><span class="sxs-lookup"><span data-stu-id="03ce4-120">To remove dial-in conferencing access numbers based on primary language</span></span>
+
+  - <span data-ttu-id="03ce4-121">Эта команда удаляет все номера для конференц-связи с телефонным подключением, где основной язык — итальянский:</span><span class="sxs-lookup"><span data-stu-id="03ce4-121">This command deletes all the dial-in conferencing access numbers where Italian is the primary language:</span></span>
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber).
+</div>
+
+<span data-ttu-id="03ce4-122">Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксдиалинконференЦингакцесснумбер](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) .</span><span class="sxs-lookup"><span data-stu-id="03ce4-122">For more information, see the help topic for the [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
