@@ -1,53 +1,103 @@
-﻿---
-title: Удаление существующей коллекции параметров конфигурации собраний
-TOCTitle: Удаление существующей коллекции параметров конфигурации собраний
-ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688136(v=OCS.15)
-ms:contentKeyID: 49888092
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Удаление существующей коллекции параметров конфигурации собрания
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing collection of meeting configuration settings
+ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688136(v=OCS.15)
+ms:contentKeyID: 49733736
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10d564cf8fbcfb8c66df5e84841aae456913f1dc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834612"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление существующей коллекции параметров конфигурации собраний
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Удаление существующей коллекции параметров конфигурации собрания в Lync Server 2013
 
-Можно удалить конфигурацию сайта или пользователя. Глобальную конфигурацию невозможно удалить. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию.
+</div>
 
-## Удаление конфигурации собрания для сайта или пользователя
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Вы можете удалить сайт или конфигурацию пользователя. Невозможно удалить глобальную конфигурацию. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию.
+
+<div>
+
+## <a name="to-delete-a-site-or-user-meeting-configuration"></a>Удаление конфигурации сайта или собрания пользователя
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Конференция** и выберите **Конфигурация собрания**.
+3.  На панели навигации слева выберите **Конференц** -связь, а затем — **Конфигурация собрания**.
 
-4.  В списке конфигураций собрания выберите конфигурацию сайта или пула, щелкните "Изменить", а затем "Удалить".
+4.  В списке конфигураций собрания выберите конфигурацию сайта или пула, щелкните **Изменить**, а затем **Удалить**.
 
-## Удаление параметров конфигурации собрания с помощью командлетов Lync Server PowerShell
+</div>
 
-Параметры собрания также можно удалить с помощью Windows PowerShell и командлета Remove-CsMeetingConfiguration. Этот командлет можно запустить из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Удаление указанной коллекции параметров конфигурации собрания
+## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации собраний с помощью командлетов Windows PowerShell
 
-  - Эта команда удаляет параметры конфигурации собрания, примененные к сайту Redmond:
+Параметры собрания можно удалить с помощью Windows PowerShell и командлета Remove-Ксмитингконфигуратион. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a>Удаление заданной коллекции параметров конфигурации собрания
+
+  - Эта команда удаляет параметры конфигурации собрания, примененные к сайту Redmond.
     
         Remove-CsMeetingConfiguration -Identity "site:Redmond"
 
-## Удаление всех параметров конфигурации собрания, примененных к области сайта
+</div>
 
-  - Эта команда удаляет все параметры конфигурации собрания, примененные к области сайта:
+<div>
+
+## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a>Удаление всех параметров конфигурации собрания, примененных к области сайта
+
+  - Эта команда удаляет все параметры конфигурации собрания, примененные к области сайта.
     
         Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 
-## Удаление всех параметров конфигурации собрания, которые допускают анонимных пользователей по умолчанию
+</div>
 
-  - Эта команда удаляет все параметры, которые допускают анонимных пользователей по умолчанию:
+<div>
+
+## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a>Удаление всех параметров конфигурации собрания, которые по умолчанию применяют анонимные пользователи
+
+  - И этот параметр удаляет все параметры, которые позволяют принимать анонимные пользователи по умолчанию.
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsMeetingConfiguration](ttps://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMeetingConfiguration).
+</div>
+
+Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксмитингконфигуратион](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15)) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

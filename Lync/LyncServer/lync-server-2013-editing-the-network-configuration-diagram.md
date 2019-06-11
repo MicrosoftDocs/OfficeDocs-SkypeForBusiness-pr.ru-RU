@@ -1,25 +1,45 @@
-﻿---
-title: Изменение схемы конфигурации сети в Lync Server 2013
-TOCTitle: Изменение схемы конфигурации сети в Lync Server 2013
-ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558643(v=OCS.15)
-ms:contentKeyID: 52058208
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: редактирование схемы конфигурации сети'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Editing the network configuration diagram
+ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
+ms:contentKeyID: 51541469
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2772cad1d1a16aa0363b1ab50d0bcaadacb91a08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834319"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Изменение схемы конфигурации сети в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-21_
+# <a name="editing-the-network-configuration-diagram-in-lync-server-2013"></a>Изменение схемы конфигурации сети в Lync Server 2013
 
-Основная часть работы, выполняемой проектировщиком в средстве планирования Lync Server 2013, заключается в определении значений IP-адресов и полных доменных имен для записей на схеме сети. Указываемая на данной странице информация включается в состав отчетов и других сведений, доступных в средстве планирования.
+</div>
 
-![Сеть в средстве планирования (схема)](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Сеть в средстве планирования (схема)")
+<div id="mainSection">
 
-Средство планирования создает схему сети со стандартным текстом для IP-адресов и полных доменных имен.
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-21_
+
+Большая часть работы, которую делает разработчик в Lync Server 2013, средство планирования состоит из определения записей для IP-адресов и полных доменных имен (FQDN) для записей в сетевом графике. Данные, введенные на этой странице, переносятся в отчеты и другие сведения, содержащиеся в инструменте "планирование".
+
+![Сетевая схема инструмента "Планирование] " (images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Сетевая схема инструмента \"Планирование") "
+
+Средство планирования создает сетевую схему с текстом по умолчанию для IP-адресов и полных доменных имен.
 
 Изменение схемы сети и входных значений:
 
@@ -41,11 +61,25 @@ _**Дата изменения раздела:** 2013-02-21_
 
 После внесения всех правок сохраните топологию, выполнив следующие действия:
 
-Чтобы сохранить структуру средства планирования, щелкните элемент **File** (Файл) и выберите пункт **Save Topology** (Сохранить топологию) или **Save Topology As** (Сохранить топологию как). В случае отображения диалогового окна **Save Planning Tool As** (Сохранить средство планирования как) введите имя для файла в поле **File name** (Имя файла) и нажмите кнопку **Save** (Сохранить).
+Чтобы сохранить структуру средства планирования, нажмите кнопку **файл**, а затем выберите команду **Сохранить топологию** или **Сохранить топологию как**. If a **Save Planning Tool As** dialog box appears, type a name for the file in **File name**, and then click **Save**.
 
-## См. также
+<div>
 
-#### Концепции
+## <a name="see-also"></a>См. также
 
-[Изменение структуры в Lync Server 2013](lync-server-2013-editing-the-design.md)
+
+[Изменение структуры в Lync Server 2013](lync-server-2013-editing-the-design.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,41 +1,96 @@
-﻿---
-title: "Lync Server 2013: устройство/сервер для обеспечения связи в филиалах (филиалы)"
-TOCTitle: Развертывание устройства или сервера для обеспечения связи в филиалах — задача сайта филиала
-ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398599(v=OCS.15)
-ms:contentKeyID: 49310260
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Развертывание устройства или сервера для обеспечения связи в филиалах — задача сайта филиала
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
+ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)
+ms:contentKeyID: 48184586
+ms.date: 10/29/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f9c50e2c2377ead96f155beb2471419edb9da91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834577"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задача сайта филиала
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-10-28_
+# <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задача сайта филиала
 
-Выполните одну из двух процедур, описанных в этом разделе, на сайте филиала после успешного выполнения задач, описание которых приведено в разделе [Развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задачи центрального сайта](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+</div>
 
-> [!IMPORTANT]  
-> Чтобы выполнить эту процедуру, необходимо быть членом группы RTCUniversalSBATechnicians.
+<div id="mainSection">
 
-## Развертывание устройства для обеспечения связи в филиалах
+<div id="mainBody">
 
-  - Развертывание для обеспечения связи в филиалах поддерживается поставщиком для обеспечения связи в филиалах посредством веб-интерфейса пользователя. Информацию о развертывании для обеспечения связи в филиалах см. в документации поставщика для обеспечения связи в филиалах.
+<span> </span>
 
-## Развертывание сервера для обеспечения связи в филиалах
+_**Тема последнего изменения:** 2014-10-28_
 
-  - Установите Microsoft Lync Server 2010 на компьютер, на котором выполняется Windows Server 2008 или Windows Server 2008 R2, таким же образом, как Вы бы установили любую другую роль сервера Lync Server 2013.
+Выполните одну из двух процедур, описанных в этой статье, на сайте филиала, после того как они успешно завершили развертывание работающего [устройства филиала или сервера с помощью задач Lync server 2013 — центральное место](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md).
+
+<div>
+
+
+> [!IMPORTANT]
+> Для выполнения этой процедуры необходимо быть членом группы РткуниверсалсбатечниЦианс.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-appliance"></a>Развертывание бесперебойно работающего устройства филиалов
+
+  - Бесперебойное развертывание управляющего устройства филиала включается в работающем разработчике устройства филиала с помощью ПОЛЬЗОВАТЕЛЬСКОГО интерфейса веб-сайта. Сведения о том, как развертывать бесперебойно работающее устройство филиала, можно найти в документации, поставляемой с производителем устройства филиала.
+
+</div>
+
+<div>
+
+## <a name="to-deploy-the-survivable-branch-server"></a>Развертывание бесперебойно работающего сервера филиалов
+
+  - Установите Lync Server 2013 на компьютере под управлением Windows Server 2008 R2, Windows Server 2012 или Windows Server 2012 R2 так же, как и любую другую роль сервера Lync Server 2013.
     
-    > [!NOTE]  
-    > Для получения информации об установке Lync Server см. <a href="lync-server-2013-deploying-lync-server.md">Развертывание Lync Server 2013</a> в документации по развертыванию.
+    <div>
+    
 
-**Дальнейшее действие** : [Настройка пользователей для организации устойчивости на сайтах филиалов в Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+    > [!NOTE]
+    > Сведения об установке Lync Server можно найти в разделе <A href="lync-server-2013-deploying-lync-server.md">развертывание Lync server 2013</A> в документации по развертыванию.
 
-## См. также
+    
+    </div>
 
-#### Задачи
+**Следующий шаг**: [Настройка пользователей для обеспечения устойчивости сайтов филиалов в Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
-[Приложение A. Использование командлетов для развертывания устройств для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Приложение A. Использование командлетов для развертывания устройств для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
