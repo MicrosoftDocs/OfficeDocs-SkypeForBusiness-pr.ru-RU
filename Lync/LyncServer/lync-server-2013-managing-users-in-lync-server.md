@@ -1,29 +1,67 @@
-﻿---
-title: 'Lync Server 2013: управление пользователями в Lync Server'
-TOCTitle: Управление пользователями в Lync Server 2013
-ms:assetid: 16b2d276-f0ea-4be6-ac61-673be6f37cad
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ649974(v=OCS.15)
-ms:contentKeyID: 49887879
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление пользователями в Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing users in Lync Server 2013
+ms:assetid: 16b2d276-f0ea-4be6-ac61-673be6f37cad
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ649974(v=OCS.15)
+ms:contentKeyID: 49344809
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bf066982dadfffc6d5adbb00da7e65ead9c87026
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827657"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление пользователями в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-17_
+# <a name="managing-users-in-lync-server-2013"></a>Управление пользователями в Lync Server 2013
 
-Панель управления Lync Server 2013 и командная консоль Lync Server 2013 можно использовать для управления учетными записями пользователей в Lync Server 2013. Процедуры, рассматриваемые в этом разделе, предоставляют пошаговые инструкции для просмотра данных учетной записи и настройки параметров учетных записей пользователей
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Учетные записи пользователей, разрешенные в Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+<div id="mainBody">
 
-## См. также
+<span> </span>
 
-#### Концепции
+_**Тема последнего изменения:** 2012-10-17_
 
-[Операции в Lync Server 2013](lync-server-2013-operations.md)
+Вы можете управлять учетными записями пользователей в Lync Server 2013 с помощью панели управления Lync Server 2013 и управляющей оболочки Lync Server 2013. В этом разделе приведены инструкции по просмотру сведений об учетной записи и настройке параметров для учетных записей пользователей.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Учетные записи пользователей, включенные для Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Операции в Lync Server 2013](lync-server-2013-operations.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

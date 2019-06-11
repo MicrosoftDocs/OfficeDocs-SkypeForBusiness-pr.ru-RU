@@ -1,23 +1,45 @@
-﻿---
-title: Атрибуты схемы по классам в Lync Server 2013
-TOCTitle: Атрибуты схемы по классам в Lync Server 2013
-ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398544(v=OCS.15)
-ms:contentKeyID: 49310147
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: атрибуты схемы по классу'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes by class
+ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
+ms:contentKeyID: 48184468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822043"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Атрибуты схемы по классам в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Атрибуты схемы по классу в Lync Server 2013
 
-В этом разделе представлены атрибуты схемы, которые могут содержаться в каждом классе Lync Server 2013 и классах, которые могут содержаться в других классах. Список всех классов и их описания см. в разделе [Классы и описания схемы в Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Список всех атрибутов и их описания см. в разделе [Атрибуты схемы и описания в Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+</div>
 
-## Атрибуты по классам
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-08-29_
+
+В этом разделе перечислены атрибуты схемы, которые могут содержаться в каждом классе Lync Server 2013 и классы, которые могут содержаться в других классах. Список всех классов и их описаний можно найти [в разделе классы схем и описания в Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Список всех атрибутов и их описание можно найти [в разделе атрибуты и описания схемы в Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+
+<div>
+
+## <a name="attributes-by-class"></a>Атрибуты по классу
 
 
 <table>
@@ -27,254 +49,256 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Класс</th>
-<th>Может содержать следующие атрибуты</th>
+<th>Классов</th>
+<th>Могут содержать эти атрибуты</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contact</p></td>
-<td><p>msDS-SourceObjectDN</p>
-<p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationDestination</p>
-<p>msRTCSIP-ApplicationOptions</p>
-<p>msRTCSIP-ApplicationPrimaryLanguage</p>
-<p>msRTCSIP-ApplicationSecondaryLanguages</p>
-<p>msRTCSIP-ArchivingEnabled</p>
+<td><p>Службу</p></td>
+<td><p>msDS-Саурцеобжектдн</p>
+<p>msRTCSIP-Акпинфо</p>
+<p>msRTCSIP-Аппликатиондестинатион</p>
+<p>msRTCSIP-Аппликатионоптионс</p>
+<p>msRTCSIP-Аппликатионпримарилангуаже</p>
+<p>msRTCSIP-Аппликатионсекондарилангуажес</p>
+<p>msRTCSIP-Арчивинженаблед</p>
 <p>msRTCSIP-DeploymentLocator</p>
-<p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
-<p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
-<p>msRTCSIP-LineServer</p>
-<p>msRTCSIP-OptionFlags</p>
-<p>msRTCSIP-OriginatorSid</p>
-<p>msRTCSIP-OwnerUrn</p>
-<p>msRTCSIP-PrimaryHomeServer</p>
+<p>msRTCSIP-Федератионенаблед</p>
+<p>msRTCSIP-Граупингид</p>
+<p>msRTCSIP-Интернетакцессенаблед</p>
+<p>msRTCSIP (линия)</p>
+<p>msRTCSIP-Линесервер</p>
+<p>msRTCSIP-Оптионфлагс</p>
+<p>msRTCSIP-Оригинаторсид</p>
+<p>msRTCSIP-Овнерурн</p>
+<p>msRTCSIP-Примарихомесервер</p>
 <p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
+<p>msRTCSIP-Привателине</p>
 <p>msRTCSIP-ProxyAddresses</p>
-<p>msRTCSIP-SourceObjectType</p>
-<p>msRTCSIP-TargetHomeServer</p>
-<p>msRTCSIP-TargetUserPolicies</p>
+<p>msRTCSIP-Саурцеобжекттипе</p>
+<p>msRTCSIP-Таржесомесервер</p>
+<p>msRTCSIP-ТаржетусерполиЦиес</p>
 <p>msRTCSIP-TenantId</p>
 <p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
-<p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
-<p>msRTCSIP-UserPolicy</p>
-<p>msRTCSIP-UserRoutingGroupId</p>
+<p>msRTCSIP-Усерекстенсион</p>
+<p>msRTCSIP-Усерлокатионпрофиле</p>
+<p>msRTCSIP-УсерполиЦиес</p>
+<p>msRTCSIP-Усерполици</p>
+<p>msRTCSIP-Усерраутингграупид</p>
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>Mail-Recipient</p></td>
-<td><p>msExchUCVoiceMailSettings</p>
+<td><p>Почта-получатель</p></td>
+<td><p>Мсексчуквоицемаилсеттингс</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ApplicationServerService</p></td>
-<td><p>msRTCSIP-ApplicationServerBL</p></td>
+<td><p>msRTCSIP-Аппликатионсерверсервице</p></td>
+<td><p>msRTCSIP-Аппликатионсервербл</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
-<p>msRTCSIP-ApplicationServerPoolLink</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>msRTCSIP-Аппликатионсерверсеттингс</p></td>
+<td><p>msRTCSIP-Аппликатионлист</p>
+<p>msRTCSIP-Аппликатионсерверпуллинк</p>
+<p>msRTCSIP-Екстенсиондата</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
-<td><p>msRTCSIP-ConferenceDirectoryHomePool</p>
-<p>msRTCSIP-ConferenceDirectoryId</p>
-<p>msRTCSIP-ConferenceDirectoryTargetPool</p>
-<p>msRTCSIP-ExtensionData</p></td>
+<td><p>msRTCSIP-Конференцедиректори</p></td>
+<td><p>msRTCSIP-Конференцедиректорихомепул</p>
+<p>msRTCSIP-Конференцедиректорид</p>
+<p>msRTCSIP-Конференцедиректоритаржетпул</p>
+<p>msRTCSIP-Екстенсиондата</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-DefaultCWABank</p></td>
-<td><p>msRTCSIP-DefaultCWAExternalURL</p>
-<p>msRTCSIP-DefaultCWAInternalURL</p></td>
+<td><p>msRTCSIP-Дефаултквабанк</p></td>
+<td><p>msRTCSIP-Дефаулткваекстерналурл</p>
+<p>msRTCSIP-Дефаулткваинтерналурл</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Domain</p></td>
-<td><p>msRTCSIP-Default</p>
-<p>msRTCSIP-DomainData</p>
-<p>msRTCSIP-DomainName</p></td>
+<td><p>msRTCSIP-Domain (домен)</p></td>
+<td><p>msRTCSIP — по умолчанию</p>
+<p>msRTCSIP-Домаиндата</p>
+<p>msRTCSIP-имя_домена</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EdgeProxy</p></td>
-<td><p>msRTCSIP-EdgeProxyData</p>
-<p>msRTCSIP-EdgeProxyFQDN</p></td>
+<td><p>msRTCSIP-Еджепрокси</p></td>
+<td><p>msRTCSIP-Еджепроксидата</p>
+<p>msRTCSIP-Еджепроксифкдн</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseMCUSettings</p></td>
-<td><p>msRTCSIP-MCUData</p>
-<p>msRTCSIP-MCUFactoryAddress</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>msRTCSIP-Ентерприсемкусеттингс</p></td>
+<td><p>msRTCSIP-Мкудата</p>
+<p>msRTCSIP-Мкуфакторяддресс</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-EnterpriseMediationServerSettings</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p>
-<p>msRTCSIP-TrustedServiceLinks</p></td>
+<td><p>msRTCSIP-Ентерприсемедиатионсерверсеттингс</p></td>
+<td><p>msRTCSIP-Екстенсиондата</p>
+<p>msRTCSIP-Серверверсион</p>
+<p>msRTCSIP-Трустедсервицелинкс</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-EnterpriseServerSettings</p></td>
+<td><p>msRTCSIP-Ентерприсесерверсеттингс</p></td>
 <td><p>msRTCSIP-EnterpriseServices</p>
-<p>msRTCSIP-PoolAddress</p>
-<p>msRTCSIP-ServerData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<p>msRTCSIP-Пуладдресс</p>
+<p>msRTCSIP-Сервердата</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>msRTCSIP-BackEndServer</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-MirrorBackEndServer</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>msRTCSIP-Глобалтопологисеттинг</p></td>
+<td><p>msRTCSIP-Баккендсервер</p>
+<p>msRTCSIP-Екстенсиондата</p>
+<p>msRTCSIP-Миррорбаккендсервер</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocalNormalization</p></td>
-<td><p>msRTCSIP-LocalNormalizationOptions</p></td>
+<td><p>msRTCSIP-Локалнормализатион</p></td>
+<td><p>msRTCSIP-Локалнормализатионоптионс</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMapping</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-MappingContact</p>
-<p>msRTCSIP-MappingLocation</p></td>
+<td><p>msRTCSIP-Локатионконтактмаппинг</p></td>
+<td><p>msRTCSIP-Екстенсиондата</p>
+<p>msRTCSIP-Маппингконтакт</p>
+<p>msRTCSIP-Маппинглокатион</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-LocationProfile</p></td>
-<td><p>msRTCSIP-ExternalAccessCode</p>
-<p>msRTCSIP-LocationProfileOptions</p></td>
+<td><p>msRTCSIP-Локатионпрофиле</p></td>
+<td><p>msRTCSIP-Екстерналакцесскоде</p>
+<p>msRTCSIP-Локатионпрофилеоптионс</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-MCUFactory</p></td>
-<td><p>msRTCSIP-MCUFactoryData</p>
-<p>msRTCSIP-MCUFactoryProviderID</p>
-<p>msRTCSIP-MCUServers</p>
-<p>msRTCSIP-MCUType</p>
-<p>msRTCSIP-MCUVendor</p>
-<p>msRTCSIP-PoolAddresses</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>msRTCSIP-Мкуфактори</p></td>
+<td><p>msRTCSIP-Мкуфакторидата</p>
+<p>msRTCSIP-Мкуфакторипровидерид</p>
+<p>msRTCSIP-Мкусерверс</p>
+<p>msRTCSIP-Мкутипе</p>
+<p>msRTCSIP-Мкувендор</p>
+<p>msRTCSIP-Пуладдрессес</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactoryService</p></td>
-<td><p>msRTCSIP-MCUFactoryPath</p></td>
+<td><p>msRTCSIP-Мкуфакторисервице</p></td>
+<td><p>msRTCSIP-Мкуфакторипас</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Mobility</p></td>
-<td><p>msRTCSIP-MobilityFlags</p>
-<p>msRTCSIP-MobilityPolicy</p></td>
+<td><p>msRTCSIP — мобильность</p></td>
+<td><p>msRTCSIP-Мобилитифлагс</p>
+<p>msRTCSIP-Мобилитиполици</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MonitoringServer</p></td>
-<td><p>dnsHostName</p>
-<p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>msRTCSIP-Мониторингсервер</p></td>
+<td><p>Атрибуты</p>
+<p>msRTCSIP-Екстенсиондата</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pool</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
-<p>msRTCSIP-BackEndServer</p>
-<p>msRTCSIP-dnsHostName</p>
-<p>msRTCSIP-PoolData</p>
-<p>msRTCSIP-PoolDisplayName</p>
-<p>msRTCSIP-PoolDomainFQDN</p>
-<p>msRTCSIP-PoolFunctionality</p>
-<p>msRTCSIP-PoolType</p>
-<p>msRTCSIP-PoolVersion</p>
-<p>msRTCSIP-TrustedServiceLinks</p></td>
+<td><p>msRTCSIP — пул</p></td>
+<td><p>msRTCSIP-Аппликатионлист</p>
+<p>msRTCSIP-Баккендсервер</p>
+<p>msRTCSIP — dnsHostName</p>
+<p>msRTCSIP-Пулдата</p>
+<p>msRTCSIP-Пулдисплайнаме</p>
+<p>msRTCSIP-Пулдомаинфкдн</p>
+<p>msRTCSIP-Пулфунктионалити</p>
+<p>msRTCSIP-Пултипе</p>
+<p>msRTCSIP-Пулверсион</p>
+<p>msRTCSIP-Трустедсервицелинкс</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-PoolService</p></td>
-<td><p>msRTCSIP-FrontEndServers</p></td>
+<td><p>msRTCSIP-Пулсервице</p></td>
+<td><p>msRTCSIP-Фронтендсерверс</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Presence</p></td>
-<td><p>msRTCSIP-PresenceFlags</p>
-<p>msRTCSIP-PresencePolicy</p></td>
+<td><p>msRTCSIP — присутствие</p></td>
+<td><p>msRTCSIP-Пресенцефлагс</p>
+<p>msRTCSIP-Пресенцеполици</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedMCU</p></td>
-<td><p>msRTCSIP-MCUType</p>
-<p>msRTCSIP-MCUVendor</p>
-<p>msRTCSIP-RoutingPoolDN</p>
-<p>msRTCSIP-TrustedMCUData</p>
-<p>msRTCSIP-TrustedMCUFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>msRTCSIP-Трустедмку</p></td>
+<td><p>msRTCSIP-Мкутипе</p>
+<p>msRTCSIP-Мкувендор</p>
+<p>msRTCSIP-Раутингпулдн</p>
+<p>msRTCSIP-Трустедмкудата</p>
+<p>msRTCSIP-Трустедмкуфкдн</p>
+<p>msRTCSIP-Трустедсерверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxy</p></td>
-<td><p>msRTCSIP-TrustedProxyData</p>
-<p>msRTCSIP-TrustedProxyFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>msRTCSIP-Трустедпрокси</p></td>
+<td><p>msRTCSIP-Трустедпроксидата</p>
+<p>msRTCSIP-Трустедпроксифкдн</p>
+<p>msRTCSIP-Трустедсерверверсион</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServer</p></td>
-<td><p>msRTCSIP-TrustedServerData</p>
-<p>msRTCSIP-TrustedServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>msRTCSIP-Трустедсервер</p></td>
+<td><p>msRTCSIP-Трустедсервердата</p>
+<p>msRTCSIP-Трустедсерверфкдн</p>
+<p>msRTCSIP-Трустедсерверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedService</p></td>
-<td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-Routable</p>
-<p>msRTCSIP-RoutingPoolDN</p>
-<p>msRTCSIP-ServerBL</p>
-<p>msRTCSIP-TrustedServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p>
-<p>msRTCSIP-TrustedServiceFlags</p>
-<p>msRTCSIP-TrustedServicePort</p>
-<p>msRTCSIP-TrustedServiceType</p></td>
+<td><p>msRTCSIP-Трустедсервице</p></td>
+<td><p>msRTCSIP-Екстенсиондата</p>
+<p>msRTCSIP с маршрутизацией</p>
+<p>msRTCSIP-Раутингпулдн</p>
+<p>msRTCSIP-Сервербл</p>
+<p>msRTCSIP-Трустедсерверфкдн</p>
+<p>msRTCSIP-Трустедсерверверсион</p>
+<p>msRTCSIP-Трустедсервицефлагс</p>
+<p>msRTCSIP-Трустедсервицепорт</p>
+<p>msRTCSIP-Трустедсервицетипе</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
-<td><p>msRTCSIP-TrustedWebComponentsServerData</p>
-<p>msRTCSIP-TrustedWebComponentsServerFQDN</p>
-<p>msRTCSIP-TrustedServerVersion</p></td>
+<td><p>msRTCSIP-Трустедвебкомпонентссервер</p></td>
+<td><p>msRTCSIP-Трустедвебкомпонентссервердата</p>
+<p>msRTCSIP-Трустедвебкомпонентссерверфкдн</p>
+<p>msRTCSIP-Трустедсерверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-WebComponentsService</p></td>
-<td><p>msRTCSIP-WebComponentsServers</p></td>
+<td><p>msRTCSIP-Вебкомпонентссервице</p></td>
+<td><p>msRTCSIP-Вебкомпонентссерверс</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-WebComponentSettings</p></td>
-<td><p>msRTCSIP-WebComponentsData</p>
-<p>msRTCSIP-WebComponentsPoolAddress</p>
-<p>msRTCSIP-ServerVersion</p></td>
+<td><p>msRTCSIP-Вебкомпонентсеттингс</p></td>
+<td><p>msRTCSIP-Вебкомпонентсдата</p>
+<p>msRTCSIP-Вебкомпонентспуладдресс</p>
+<p>msRTCSIP-Серверверсион</p></td>
 </tr>
 <tr class="even">
-<td><p>User</p></td>
-<td><p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationOptions</p>
-<p>msRTCSIP-ArchivingEnabled</p>
+<td><p>Пользователь</p></td>
+<td><p>msRTCSIP-Акпинфо</p>
+<p>msRTCSIP-Аппликатионоптионс</p>
+<p>msRTCSIP-Арчивинженаблед</p>
 <p>msRTCSIP-DeploymentLocator</p>
-<p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
-<p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
-<p>msRTCSIP-LineServer</p>
-<p>msRTCSIP-OptionFlags</p>
-<p>msRTCSIP-OriginatorSid</p>
-<p>msRTCSIP-OwnerUrn</p>
-<p>msRTCSIP-PrimaryHomeServer</p>
+<p>msRTCSIP-Федератионенаблед</p>
+<p>msRTCSIP-Граупингид</p>
+<p>msRTCSIP-Интернетакцессенаблед</p>
+<p>msRTCSIP (линия)</p>
+<p>msRTCSIP-Линесервер</p>
+<p>msRTCSIP-Оптионфлагс</p>
+<p>msRTCSIP-Оригинаторсид</p>
+<p>msRTCSIP-Овнерурн</p>
+<p>msRTCSIP-Примарихомесервер</p>
 <p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
-<p>msRTCSIP-TargetHomeServer</p>
-<p>msRTCSIP-TargetUserPolicies</p>
+<p>msRTCSIP-Привателине</p>
+<p>msRTCSIP-Таржесомесервер</p>
+<p>msRTCSIP-ТаржетусерполиЦиес</p>
 <p>msRTCSIP-TenantId</p>
 <p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
-<p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
-<p>msRTCSIP-UserPolicy</p>
-<p>msRTCSIP-UserRoutingGroupId</p>
+<p>msRTCSIP-Усерекстенсион</p>
+<p>msRTCSIP-Усерлокатионпрофиле</p>
+<p>msRTCSIP-УсерполиЦиес</p>
+<p>msRTCSIP-Усерполици</p>
+<p>msRTCSIP-Усерраутингграупид</p>
 <p>ProxyAddresses</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Классы, содержащиеся в других классах
+<div>
+
+## <a name="classes-contained-in-other-classes"></a>Классы, содержащиеся в других классах
 
 
 <table>
@@ -284,82 +308,97 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Класс</th>
+<th>Классов</th>
 <th>Может содержать этот класс</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-Server</p>
-<p>msRTCSIP-PoolService</p>
+<td><p>Особый</p></td>
+<td><p>msRTCSIP-Server (сервер)</p>
+<p>msRTCSIP-Пулсервице</p>
 <p>msRTCSIP-MCU</p>
-<p>msRTCSIP-MCUFactoryService</p>
-<p>msRTCSIP-WebComponents</p>
-<p>msRTCSIP-WebComponentsService</p>
-<p>msRTCSIP-ApplicationServerService</p>
+<p>msRTCSIP-Мкуфакторисервице</p>
+<p>msRTCSIP — компоненты</p>
+<p>msRTCSIP-Вебкомпонентссервице</p>
+<p>msRTCSIP-Аппликатионсерверсервице</p>
 <p>msRTCSIP-Service</p>
-<p>msRTCSIP-ConnectionPoint</p>
-<p>msRTCSIP-MediationServer</p>
-<p>msRTCSIP-ApplicationServer</p></td>
+<p>msRTCSIP-Коннектионпоинт</p>
+<p>msRTCSIP-Медиатионсервер</p>
+<p>msRTCSIP-Аппликатионсервер</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-Service</p></td>
-<td><p>msRTCSIP-GlobalContainer</p>
-<p>msRTCSIP-Pools</p>
-<p>msRTCSIP-MCUFactories</p>
-<p>msRTCSIP-TrustedMCUs</p>
-<p>msRTCSIP-TrustedWebComponentsServers</p>
-<p>msRTCSIP-TrustedProxies</p>
-<p>msRTCSIP-TrustedServices</p>
-<p>msRTCSIP-ApplicationContacts</p>
-<p>msRTCSIP-LocationContactMappings</p>
-<p>msRTCSIP-ConferenceDirectories</p>
-<p>msRTCSIP-GlobalTopologySettings</p></td>
+<td><p>msRTCSIP-Глобалконтаинер</p>
+<p>msRTCSIP (пулы)</p>
+<p>msRTCSIP-Мкуфакториес</p>
+<p>msRTCSIP-Трустедмкус</p>
+<p>msRTCSIP-Трустедвебкомпонентссерверс</p>
+<p>msRTCSIP-Трустедпроксиес</p>
+<p>msRTCSIP-Трустедсервицес</p>
+<p>msRTCSIP-Аппликатионконтактс</p>
+<p>msRTCSIP-Локатионконтактмаппингс</p>
+<p>msRTCSIP-Конференцедиректориес</p>
+<p>msRTCSIP-Глобалтопологисеттингс</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>msRTCSIP-Domain</p>
-<p>msRTCSIP-TrustedServer</p>
-<p>msRTCSIP-EdgeProxy</p>
-<p>msRTCSIP-MonitoringServer</p></td>
+<td><p>msRTCSIP-Глобалконтаинер</p></td>
+<td><p>msRTCSIP-Domain (домен)</p>
+<p>msRTCSIP-Трустедсервер</p>
+<p>msRTCSIP-Еджепрокси</p>
+<p>msRTCSIP-Мониторингсервер</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pools</p></td>
-<td><p>msRTCSIP-Pool</p></td>
+<td><p>msRTCSIP (пулы)</p></td>
+<td><p>msRTCSIP — пул</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MCUFactories</p></td>
-<td><p>msRTCSIP-MCUFactory</p></td>
+<td><p>msRTCSIP-Мкуфакториес</p></td>
+<td><p>msRTCSIP-Мкуфактори</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedMCUs</p></td>
-<td><p>msRTCSIP-TrustedMCU</p></td>
+<td><p>msRTCSIP-Трустедмкус</p></td>
+<td><p>msRTCSIP-Трустедмку</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedWebComponentsServers</p></td>
-<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
+<td><p>msRTCSIP-Трустедвебкомпонентссерверс</p></td>
+<td><p>msRTCSIP-Трустедвебкомпонентссервер</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-TrustedProxies</p></td>
-<td><p>msRTCSIP-TrustedProxy</p></td>
+<td><p>msRTCSIP-Трустедпроксиес</p></td>
+<td><p>msRTCSIP-Трустедпрокси</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServices</p></td>
-<td><p>msRTCSIP-TrustedService</p></td>
+<td><p>msRTCSIP-Трустедсервицес</p></td>
+<td><p>msRTCSIP-Трустедсервице</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-LocationContactMappings</p></td>
-<td><p>msRTCSIP-LocationContactMapping</p></td>
+<td><p>msRTCSIP-Локатионконтактмаппингс</p></td>
+<td><p>msRTCSIP-Локатионконтактмаппинг</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectories</p></td>
-<td><p>msRTCSIP-ConferenceDirectory</p></td>
+<td><p>msRTCSIP-Конференцедиректориес</p></td>
+<td><p>msRTCSIP-Конференцедиректори</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySettings</p></td>
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
+<td><p>msRTCSIP-Глобалтопологисеттингс</p></td>
+<td><p>msRTCSIP-Глобалтопологисеттинг</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

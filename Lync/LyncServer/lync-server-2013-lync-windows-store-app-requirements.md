@@ -1,42 +1,83 @@
-﻿---
-title: Требования приложения Lync из Магазина Windows
-TOCTitle: Требования приложения Lync из Магазина Windows
-ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ823129(v=OCS.15)
-ms:contentKeyID: 52058240
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования к приложению в магазине Lync из Магазина Windows'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Windows Store app requirements
+ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ823129(v=OCS.15)
+ms:contentKeyID: 50120200
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 806fb7a71232492be7ef01474136817b7808111e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828427"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования приложения Lync из Магазина Windows
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a>Требования к приложению Lync из Магазина Windows для Lync Server 2013
 
-Организации с локальными развертыванием сервера Lync Server должны соответствовать перечисленным ниже требованиям для поддержки Магазина Lync Windows.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-12-03_
+
+Организации с локальным развертыванием сервера Lync Server должны соответствовать следующим требованиям для поддержки приложения Lync из Магазина Windows.
+
+<div>
+
 
 > [!NOTE]  
-> Если используется сервер Lync Server 2010, выполните на всех серверах накопительное обновление для Lync Server 2010 за февраль 2012 г. (доступно по адресу <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) или новее. Чтобы разрешить пользователям участвовать в собраниях, выполните на серверах накопительное обновление для Lync Server 2010 за октябрь 2012 г. (доступно по адресу <a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>).
+> Для Lync Server 2010 Запустите накопительное обновление для Lync Server 2010: Февраль 2012 (доступно по адресу <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp; кбид = 2670352</A>) или более поздней версии на всех серверах. Чтобы разрешить пользователям присоединяться к собраниям, запустите накопительное обновление для Lync Server 2010: Октябрь 2012 (доступно по адресу <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp; кбид = 2737915</A>) на серверах.
 
-  - Включите на сервере автоматическое обнаружение, Lync Web App и службы веб-билетов.
 
-  - Включите проверку подлинности сертификата на переднего плана или переднего плана. (Процесс регистрации пользователей на переднего плана или переднего плана часто называют регистратором.) Подробные сведения см. в статье [Создание параметров конфигурации регистратора](lync-server-2013-create-registrar-configuration-settings.md).
+
+</div>
+
+  - Включите функцию автообнаружения, Lync Web App и службы веб-билета на сервере.
+
+  - Включите проверку подлинности на сертификате на сервере переднего плана или в пуле внешних интерфейсов. (Процесс регистрации пользователей на сервере переднего плана или в пуле переднего плана часто называется регистратором). Подробности можно найти [в разделе Создание параметров конфигурации регистратора в Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).
 
   - Опубликуйте записи ресурсов псевдонимов DNS (CNAME) для службы автообнаружения.
 
-  - Точка распространения списка отзыва сертификатов для сертификатов более не обязана быть выдана точкам сервера Lync ресурсу HTTP, а не LDAP. Однако на клиентских компьютерах должны быть установлены последние обновления для Windows.
+  - Больше не требуется, чтобы точка распространения списка отзыва сертификатов (CDP) для сертификатов, выданных в Lync Server, указывала на ресурс HTTP, а не на ресурс LDAP. Тем не менее убедитесь, что на клиентских компьютерах установлены последние обновления Windows.
 
-  - Настройте прокси-серверы HTTP на предприятии, чтобы разрешить трафик HTTP, связанный с Lync Server. При необходимости добавьте исключения для автообнаружения, Lync Web App и служб веб-билетов.
+  - Настройте прокси-серверы HTTP в корпоративной сети, чтобы разрешить трафик HTTP, связанный с Lync Server.При необходимости добавьте исключения для служб автообнаружения, Lync Web App и веб-билета.
 
-  - На клиентах установите Windows 8.1 и последнюю версию Магазина Lync Windows для исправления неполадки со входом, которая обычно происходит при использовании нескольких доменов (например, при использовании кода URI для SIP **userA@domainZ.com** со значением пограничного сервера **sip.domainX.com**).
+  - На клиентских компьютерах установите Windows 8,1 и последнюю версию приложения Lync из Магазина Windows, чтобы устранить проблему с входом, которая обычно происходит при использовании нескольких доменов (например, если URI SIP — **userA@domainZ.com** , но пограничный сервер — **SIP.domainX.com**).
 
-Если ваша организация подписана на Lync Online или Office 365 и вы используете собственное доменное имя, необходимо выполнить ряд дополнительных действий, чтобы настроить сеть для автообнаружения серверов Lync. Требования к конфигурации сети одинаковы для Магазина Lync Windows и Lync на мобильных устройствах. Следуйте инструкциям "Настройка сети", которые описаны в статье вики-сайта по Office 365 "Настройка мобильных устройств Lync" по адресу [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822).
+Если ваша организация подписалась на Lync Online или Office 365 и вы используете свое собственное доменное имя, вы должны выполнить дополнительные действия, чтобы настроить сеть для автоопределения серверов Lync. Требования к конфигурации сети одинаковы для приложения Lync из Магазина Windows и Lync на мобильных устройствах. Следуйте инструкциям "Настройка сети" в вики-статье Office 365 "Настройка мобильных устройств Lync" [http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822).
 
-## См. также
+<div>
 
-#### Концепции
+## <a name="see-also"></a>См. также
 
-[Развертывание приложения Lync из Магазина Windows](lync-server-2013-deploying-lync-windows-store-app.md)
+
+[Развертывание приложения Lync из Магазина Windows в Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

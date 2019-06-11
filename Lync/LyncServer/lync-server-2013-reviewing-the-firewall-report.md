@@ -1,29 +1,63 @@
-﻿---
-title: Просмотр отчета по брандмауэрам в Lync Server 2013
-TOCTitle: Просмотр отчета по брандмауэрам в Lync Server 2013
-ms:assetid: 5ccc60b5-751a-425b-ab60-6885d3114c94
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558654(v=OCS.15)
-ms:contentKeyID: 52058226
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: проверка отчета брандмауэра'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reviewing the Firewall Report
+ms:assetid: 5ccc60b5-751a-425b-ab60-6885d3114c94
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558654(v=OCS.15)
+ms:contentKeyID: 51541481
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 995f35221e03086dc2777c1e02702fced17bbcdd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822428"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр отчета по брандмауэрам в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-21_
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a>Просмотр отчета о брандмауэре в Lync Server 2013
 
-Lync Server 2013 может обладать набором правил брандмауэра с достаточно сложной структурой. Средство планирования упрощает работу с этим набором правил посредством создания отчета, который подробно определяет все требования к брандмауэру на основании указанных проектировщиком критериев. ИТ-администратор брандмауэра сможет использовать данный отчет для настройки и определения необходимых правил.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-21_
+
+Lync Server 2013 имеет потенциально сложный набор правил брандмауэра. Средство планирования сокращает сложность, создавая отчет, который подробно определяет все требования брандмауэра, основываясь на входных критериях конструктора. The IT firewall administrator will be able to use this report to configure and define the necessary rules.
 
 При управлении брандмауэром этот отчет следует тщательно анализировать на предмет конфликтов с имеющимися правилами брандмауэра и нарушений имеющихся политик или процедур.
 
-![Отчет по брандмауэрам для администратора](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Отчет по брандмауэрам для администратора")
+![Отчет администратора брандмауэра] (images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Отчет администратора брандмауэра")
 
-## См. также
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a>См. также
 
-[Просмотр отчетов администратора в Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)
+
+[Просмотр отчетов администратора в Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

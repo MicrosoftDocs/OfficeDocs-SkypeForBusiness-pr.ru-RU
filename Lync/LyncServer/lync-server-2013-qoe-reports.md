@@ -1,111 +1,161 @@
-﻿---
-title: 'Lync Server 2013: QoE reports'
+---
+title: 'Lync Server 2013: отчеты QoE'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720913(v=OCS.15)
-ms:contentKeyID: 62246664
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
+ms:contentKeyID: 63969601
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823737"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# QoE reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-05-01_
+# <a name="qoe-reports-in-lync-server-2013"></a>QoE отчеты в Lync Server 2013
 
-## QoE summary/trend reports
+</div>
 
-The QoE summary/trends reports are useful for finding the peak usage times of day and examining the media quality during those times to help assure that your organization's network resources are sufficient. Your organization can also use the many filters available in the report to isolate performance numbers for certain locations, client and device types, and servers.
+<div id="mainSection">
 
-QoE summary/trend reports consist of:
+<div id="mainBody">
 
-  - UC-to-UC Summary/Trend Report
+<span> </span>
 
-  - PSTN Summary/Trend Report
+_**Тема последнего изменения:** 2014-05-01_
 
-  - Conference Summary/Trend Report
+<div>
 
-## QoE performance reports
+## <a name="qoe-summarytrend-reports"></a>QoE/отчеты о тенденциях
 
-QoE performance reports provide details about the three reports that concentrate on the QoE performance of Mediation Servers, A/V Conferencing Servers, and endpoint locations.
+Отчеты о сводных данных и тенденциях QoE помогают найти пиковое время использования и проанализировать качество мультимедиа в течение этого периода, чтобы убедиться в том, что сетевые ресурсы Организации достаточны. В организации также могут использоваться многочисленные фильтры, доступные в отчете, чтобы изолировать номера производительности для определенных местоположений, типов клиентов и устройств и серверов.
 
-## Mediation server performance report
+QoE отчеты о тенденциях и тенденции состоят из следующих элементов:
 
-The Mediation Server Performance report lists the metrics achieved by one or more Mediation during the specified time period. The metrics for the unified communications (UC)-to-Mediation Server leg and the Mediation Server-to-Gateway leg of each call are reported separately. Use this report to compare the volume and performance of your organization's various Mediation Servers.
+  - Отчет о сводных данных и тенденциях UC-связи
 
-For each Mediation Server (and for each call leg), the report displays the following:
+  - Отчет о PSTN и тенденциях
 
-  - Number of calls
+  - Отчет о конференциях и тенденциях
 
-  - Packet Loss
+</div>
 
-  - Round Trip Time
+<div>
 
-  - Jitter
+## <a name="qoe-performance-reports"></a>Отчеты о производительности QoE
 
-  - Conversational mean opinion score (MOS)
+В отчетах о производительности QoE содержатся сведения об этих трех отчетах, которые сосредоточены на QoE производительности серверов-конференций, серверах Конференции и расположениях конечных точек.
 
-  - Sending MOS
+</div>
 
-  - Listening MOS
+<div>
 
-  - Network MOS
+## <a name="mediation-server-performance-report"></a>Отчет о производительности сервера «исправление»
 
-  - Network MOS Degradation
+В отчете "производительность сервера исправлений" перечислены метрики, достигнутые одним или несколькими исправлениями за указанный период времени. Метрики сервера единой системы обмена сообщениями (UC), а также сведения о том, как перенаправляться между шлюзами, выводятся отдельно для каждого звонка. С помощью этого отчета вы можете сравнить объем и производительность различных серверов-посредников вашей организации.
 
-  - Echo Return
+Для каждого сервера-посредника (и для каждого участка звонка) в отчете выводятся следующие данные:
 
-  - Signal Level
+  - Число звонков
 
-## A/V conferencing server performance report
+  - Packet Loss (Потеря пакетов)
 
-The A/V Conferencing Server Performance report provides lists of metrics achieved by one or more A/V Conferencing Servers during the specified time period. This report can be used to compare the volume and performance of your organization’s various A/V Conferencing Servers. Your organization can also isolate the report to show only the experience for specific client types, such as Lync clients or PSTN clients.
+  - Время круга
 
-For each A/V Conferencing Server, the report displays the following:
+  - Искажение
 
-  - Number of conferences
+  - Предметный балл — Оценка вашего мнения (MOS)
 
-  - Packet Loss
+  - Отправка MOS
 
-  - Round Trip Time
+  - Прослушивание MOS
 
-  - Jitter
+  - Сетевые MOS
 
-  - Conversational mean opinion score (MOS)
-
-  - Sending MOS
-
-  - Listening MOS
-
-  - Network MOS
-
-  - Network MOS Degradation
+  - Сетевое MOS падение
 
   - Echo Return
 
-  - Signal Level
+  - Уровень сигнала
 
-## Location-based performance report
+</div>
 
-The Location-Based Performance report provides a list of network locations and for each location shows the number of calls in each pre-determined range of quality. The goal of this report is to provide insight into the media quality of the bulk of your organization’s telephone calls for various locations so that you can identify poorly performing locations, and see the different grades of media quality in your organization’s different locations.
+<div>
 
-When displaying the report, different tables of metrics appear—one table for each metric your organization decides to report on. You can choose from the following metrics for this report:
+## <a name="av-conferencing-server-performance-report"></a>Отчет о производительности сервера конференций/V
 
-  - Conversational mean opinion score (MOS)
+Отчет о производительности сервера конференц-связи "A/V" предоставляет списки метрик, достигнутые одним или несколькими серверами конференц-связи в течение заданного периода времени. Этот отчет можно использовать для сравнения объема и производительности различных серверов конференц-связи в вашей организации. В организации также можно изолировать отчет, чтобы отображались только сведения о конкретных типах клиентов, например клиентах Lync и клиентах PSTN.
 
-  - Network MOS
+Для каждого сервера конференций/V в отчете выводятся следующие сведения:
 
-  - Network MOS Degradation
+  - Количество конференций
 
-  - Sending MOS
+  - Packet Loss (Потеря пакетов)
 
-  - Listening MOS
+  - Время круга
 
-  - Packet Loss
+  - Искажение
 
-  - Jitter
+  - Предметный балл — Оценка вашего мнения (MOS)
 
-  - Latency
+  - Отправка MOS
+
+  - Прослушивание MOS
+
+  - Сетевые MOS
+
+  - Сетевое MOS падение
+
+  - Echo Return
+
+  - Уровень сигнала
+
+</div>
+
+<div>
+
+## <a name="location-based-performance-report"></a>Отчет о производительности на основе местоположения
+
+Отчет о производительности на основе местоположения содержит список сетевых расположений и для каждого местоположения показывает количество звонков в каждый предварительно определенный диапазон качества. Цель этого отчета — обеспечить более подробное представление о том, как достичь большого количества телефонных звонков в вашей организации для различных местоположений, чтобы вы могли выявлять некачественные места и просматривать различные оценки качества мультимедиа в вашей организации разных местоположений.
+
+При отображении отчета появятся различные таблицы метрик — по одной таблице для каждой метрики, на которую вы решаете сообщить в Организации. Для этого отчета можно выбрать следующие метрики:
+
+  - Предметный балл — Оценка вашего мнения (MOS)
+
+  - Сетевые MOS
+
+  - Сетевое MOS падение
+
+  - Отправка MOS
+
+  - Прослушивание MOS
+
+  - Packet Loss (Потеря пакетов)
+
+  - Искажение
+
+  - Задержка
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

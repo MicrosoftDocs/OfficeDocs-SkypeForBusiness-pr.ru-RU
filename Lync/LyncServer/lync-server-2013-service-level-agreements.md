@@ -1,39 +1,81 @@
-﻿---
-title: 'Lync Server 2013: Service level agreements'
+---
+title: 'Lync Server 2013: соглашения об уровне обслуживания'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Service level agreements
 ms:assetid: 10899bad-e8b0-422d-83c9-1599fb3a7d17
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720321(v=OCS.15)
-ms:contentKeyID: 62222384
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720321(v=OCS.15)
+ms:contentKeyID: 63969580
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 445b7189d7f13f1b854bfb4bd921251c319f87ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821994"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Service level agreements in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-08-18_
+# <a name="service-level-agreements-in-lync-server-2013"></a>Соглашения об уровне обслуживания в Lync Server 2013
 
-The SLA is a document that defines the services that your customer expects from you. The complexity and content of this document depends largely on whether customers are internal (within your environment) or external.
+</div>
 
-## External Customers
+<div id="mainSection">
 
-If your customer is external, the SLA may be part of a legal contract with financial incentives and penalties for performance that falls inside or outside defined levels of service. Defining these levels of service should be part of the overall contract negotiation.
+<div id="mainBody">
 
-As with all contracts, it’s important that both parties understand expectations. The SLA defines these expectations. The contents of the document should change infrequently and only because of negotiations with the customer.
+<span> </span>
 
-## Internal Customers
+_**Тема последнего изменения:** 2014-08-18_
 
-If your customer is internal, you may still want to define the services that are expected of operations teams and of IT systems. The SLA may be created by the operations staff and intended as a set of goals for the availability of IT services within your organization. Or, performance levels may be set by management and used as benchmarks when assessing staff performance.
+Соглашение об уровне обслуживания — это документ, который определяет услуги, которые ваш клиент ожидает от вас. Сложность и содержание этого документа зависят от того, являются ли клиенты внутренними (внутри вашей среды) или внешними.
 
-## Typical Criteria
+<div>
 
-SLAs include sections that define criteria of minimum levels of availability, support, and capacity.
+## <a name="external-customers"></a>Внешние клиенты
 
-  - **Availability**   Define the hours and the operating systems on which sites and other Lync services will be available. Any routine maintenance that affects service availability should be defined. Define external factors that affect service, for example, the loss of Internet connectivity.
+Если ваш клиент является внешним, соглашение об уровне обслуживания может быть частью юридического контракта с учетом финансовых стимулов и санкций для повышения производительности, которые выпадают на внутренние или внешние уровни обслуживания. Определение уровней обслуживания должно быть частью всего согласования контракта.
 
-  - **Support**   Define the hours when support for a system will be available. Specify methods for customers to contact support staff, how incidents are grouped, and target time to respond and to resolve the incident. Define frequency and content of feedback to the customer.
+Как и в случае со всеми контрактами, важно, чтобы обе стороны понимали ожидания. Эти ожидания определяются соглашением об уровне обслуживания. Содержимое документа должно изменяться редко и только из-за переговоров с клиентом.
 
-  - **Capacity**   Define the maximum enabled size of Lync sites and the steps to take if the limit is exceeded. Define the maximum enabled time to do standard tasks, such as the time to retrieve a document from a document library. Define the maximum number of users per Lync pool and agree to a process to increase capacity if more users are added.
+</div>
+
+<div>
+
+## <a name="internal-customers"></a>Внутренние пользователи
+
+Если клиент является внутренним, вы по-прежнему можете определять службы, которые должны быть в Teams и в информационных системах. Соглашение об уровне обслуживания может быть создано сотрудниками операций и служить набором целей для обеспечения доступности ИТ-услуг в Организации. Кроме того, уровни производительности можно настроить с помощью управления и использования в качестве тестовых показателей при оценке производительности сотрудников.
+
+</div>
+
+<div>
+
+## <a name="typical-criteria"></a>Типичные условия
+
+Соглашения об уровне обслуживания включают разделы, которые определяют условия минимального уровня доступности, поддержки и емкости.
+
+  - **Доступность**   . Определите часы и операционные системы, в которых будут доступны сайты и другие службы Lync. Должно быть определено любое плановое обслуживание, которое влияет на доступность служб. Определите внешние факторы, влияющие на обслуживание, например потерю подключения к Интернету.
+
+  - **Поддержка**   . определяет часы, в которых будет доступна поддержка системы. Укажите методы для пользователей, которые должны обратиться в службу поддержки, как они группируются, а также указывают время, в течение которого нужно ответить, и устранить инцидент. Определение частоты и контента отзыва для клиента.
+
+  - **Емкость**   определяет максимально допустимый размер сайтов Lync и шаги, которые необходимо выполнить при превышении ограничения. Определение максимального разрешенного времени для выполнения стандартных задач, таких как время получения документа из библиотеки документов. Определите максимальное количество пользователей на пул Lync и пригласите его к процессу, чтобы увеличить его емкость, если их добавить больше пользователей.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

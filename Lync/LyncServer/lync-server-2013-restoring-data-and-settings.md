@@ -1,44 +1,85 @@
-﻿---
-title: Восстановление данных и параметров
-TOCTitle: Восстановление данных и параметров
-ms:assetid: b07f5dd7-7bed-4819-8cb5-617f5acd478e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh202185(v=OCS.15)
-ms:contentKeyID: 52058300
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: восстановление данных и параметров'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring data and settings
+ms:assetid: b07f5dd7-7bed-4819-8cb5-617f5acd478e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202185(v=OCS.15)
+ms:contentKeyID: 51541503
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b7562e0899a5129832ef4651c041b8c7daf545e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822393"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Восстановление данных и параметров
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-17_
+# <a name="restoring-data-and-settings-in-lync-server-2013"></a>Восстановление данных и параметров в Lync Server 2013
 
-Если вы развернули топологию аварийного восстановления с сопряженными пулами, возникает отказ одного из этих интерфейсных пулов и необходимо быстро восстановить обслуживание для пользователей, см. [Отработка отказа для пула в Lync Server 2013](lync-server-2013-failing-over-a-pool.md). В противном случае используйте информацию в следующих разделах, а также рабочие таблицы, представленные в [Листы по резервному копированию и восстановлению](lync-server-2013-backup-and-restoration-worksheets.md), чтобы восстановить Lync Server после сбоя.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-17_
+
+Если вы реализовали топологию аварийного восстановления с объединенными пулами, а один из этих пулов переднего плана отключился и вам нужно быстро восстановить службу для пользователей, ознакомьтесь [с разработкой отказа в пуле в Lync Server 2013](lync-server-2013-failing-over-a-pool.md). В противном случае используйте сведения из указанных ниже разделов, а также листы резервного [копирования и восстановления для Lync server 2013](lync-server-2013-backup-and-restoration-worksheets.md)для восстановления сервера Lync после сбоя или сбоя.
+
+<div>
+
 
 > [!NOTE]  
-> Чтобы сократить время простоя и потенциальную потерю данных, выполните процедуры восстановления, описанные в этом документе, только если процедуры устранения неполадок не позволили эффективно идентифицировать и устранить проблему. В ходе устранения неполадок попытайтесь минимизировать влияние на другие серверы и компоненты при выключении и перезапуске серверов.
+> Чтобы сократить время бездействия и возможной потери данных, выполните процедуры восстановления, описанные в этом документе, только в том случае, если процедуры устранения неполадок не дают результатов для выявления и устранения проблемы. Во время устранения неполадок попробуйте минимизировать влияние на другие серверы и компоненты при завершении работы и перезапуске серверов.
 
-## Содержание
 
-  - [Подготовка к восстановлению сервера Lync](lync-server-2013-preparing-to-restore-lync-server.md)
 
-  - [Восстановление сервера Standard Edition](lync-server-2013-restoring-a-standard-edition-server.md)
+</div>
 
-  - [Восстановление сервера с центральным хранилищем управления](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)
+<div>
 
-  - [Восстановление внутреннего сервера Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)
+## <a name="in-this-section"></a>Содержание
 
-  - [Восстановление рядового сервера Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md)
+  - [Подготовка к восстановлению Lync Server 2013](lync-server-2013-preparing-to-restore-lync-server.md)
 
-  - [Восстановление пула сервера Lync](lync-server-2013-restoring-a-lync-server-pool.md)
+  - [Восстановление сервера Standard Edition в Lync Server 2013](lync-server-2013-restoring-a-standard-edition-server.md)
 
-  - [Выполнение простой процедуры отработки отказа для интерфейсного пула](lync-server-2013-performing-an-abc-front-end-pool-failover.md)
+  - [Восстановление сервера, на котором размещается центральное хранилище для управления в Lync Server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)
 
-  - [Восстановление хранилища файлов](lync-server-2013-restoring-a-file-store.md)
+  - [Восстановление сервера выпуска Enterprise Edition в Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)
 
-  - [Восстановление данных архивации или мониторинга](lync-server-2013-restoring-monitoring-or-archiving-data.md)
+  - [Восстановление сервера участника Enterprise Edition в Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md)
 
-  - [Восстановление данных сохраняемого чата](lync-server-2013-restoring-persistent-chat-data.md)
+  - [Восстановление пула сервера Lync Server в Lync Server 2013](lync-server-2013-restoring-a-lync-server-pool.md)
+
+  - [Выполнение отработки отказа в пуле переднего плана для электронной стороны в Lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md)
+
+  - [Восстановление хранилища файлов в Lync Server 2013](lync-server-2013-restoring-a-file-store.md)
+
+  - [Восстановление данных мониторинга или архивации в Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md)
+
+  - [Восстановление данных из сохраняемого чата в Lync Server 2013](lync-server-2013-restoring-persistent-chat-data.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

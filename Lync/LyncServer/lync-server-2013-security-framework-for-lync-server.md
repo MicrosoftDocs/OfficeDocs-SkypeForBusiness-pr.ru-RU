@@ -1,25 +1,45 @@
-﻿---
-title: Платформа безопасности для Lync Server 2013
-TOCTitle: Платформа безопасности для Lync Server 2013
-ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn481316(v=OCS.15)
-ms:contentKeyID: 59682850
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: инфраструктура безопасности для Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Security framework for Lync Server 2013
+ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)
+ms:contentKeyID: 59893866
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17900e0ca9db8f9dbc1bf66a1bd65aff62d9dd62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822078"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Платформа безопасности для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-11-08_
+# <a name="security-framework-for-lync-server-2013"></a>Платформа безопасности для Lync Server 2013
 
-В этом разделе представлен обзор основных элементов, формирующих платформу безопасности для Microsoft Lync Server 2013. Сведения о том, как эти элементы работают вместе, важны для принятия обоснованных решений об обеспечении безопасности развертывания Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-11-08_
+
+В этом разделе приводятся общие сведения об основных элементах, которые формируют структуру безопасности для Microsoft Lync Server 2013. Понимание того, как эти элементы работают вместе, очень важно для принятия обоснованных решений по обеспечению безопасности конкретного развертывания Lync Server 2013.
 
 Ниже представлены эти элементы.
 
-  - Доменные службы Active Directory (AD DS) предоставляет один доверенный внутренний репозиторий для учетных записей пользователя и сетевых ресурсов.
+  - Доменные службы Active Directory (AD DS) предоставляют единый доверенный серверный репозиторий для учетных записей пользователей и сетевых ресурсов.
 
   - Управление доступом на основе ролей (RBAC) позволяет делегировать административные задачи, обеспечивая при этом поддержку высоких стандартов безопасности.
 
@@ -29,13 +49,15 @@ _**Дата изменения раздела:** 2013-11-08_
 
   - Протоколы отраслевых стандартов для проверки подлинности пользователя (по мере возможности).
 
-  - Windows PowerShell предоставляет компоненты безопасности, которые включены по умолчанию, поэтому пользователь не может запустить эти сценарии случайно или без усилий.
+  - Windows PowerShell предоставляет функции безопасности, которые включены по умолчанию, чтобы пользователи не могли легко или непреднамеренно запускать сценарии.
 
-Эти основные элементы безопасности работают вместе для определения доверенных пользователей, серверов, подключений и операций для обеспечения безопасной основы для Lync Server 2013.
+Эти фундаментальные элементы безопасности вместе используются для определения доверенных пользователей, серверов, подключений и операций, чтобы обеспечить надежную основу для Lync Server 2013.
 
-## Содержание
+<div>
 
-В темах этого раздела описан способ работы каждого основного элемента для повышения уровня безопасности инфраструктуры Lync Server.
+## <a name="in-this-section"></a>Содержание
+
+В этом разделе объясняется, как все эти фундаментальные элементы помогают повысить безопасность инфраструктуры Lync Server.
 
   - [Доменные службы Active Directory для Lync Server 2013](lync-server-2013-active-directory-domain-services-for-lync-server.md)
 
@@ -43,11 +65,23 @@ _**Дата изменения раздела:** 2013-11-08_
 
   - [Инфраструктура открытых ключей для Lync Server 2013](lync-server-2013-public-key-infrastructure.md)
 
-  - [Протоколы TLS и MTLS для Lync Server 2013](lync-server-2013-tls-and-mtls.md)
+  - [TLS и MTLS для Lync Server 2013](lync-server-2013-tls-and-mtls.md)
 
-  - [Возможности шифрования для Lync Server 2013](lync-server-2013-encryption.md)
+  - [Шифрование для Lync Server 2013](lync-server-2013-encryption.md)
 
-  - [Проверка подлинности пользователя и клиента для Lync Server 2013](lync-server-2013-user-and-client-authentication.md)
+  - [Проверка подлинности пользователей и клиентов для Lync Server 2013](lync-server-2013-user-and-client-authentication.md)
 
   - [Средства управления для Windows PowerShell и Lync Server 2013](lync-server-2013-windows-powershell-and-lync-server-management-tools.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

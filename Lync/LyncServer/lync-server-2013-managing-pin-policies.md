@@ -1,37 +1,75 @@
-﻿---
-title: Управление политиками PIN-кода
-TOCTitle: Управление политиками PIN-кода
-ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721841(v=OCS.15)
-ms:contentKeyID: 49888127
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Управление политиками закрепления'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing PIN policies
+ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721841(v=OCS.15)
+ms:contentKeyID: 49733774
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 80b7ab92f3dbe88c9a820e184b8e88444b0bf4ad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827853"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление политиками PIN-кода
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="managing-pin-policies-in-lync-server-2013"></a>Управление политиками ПИН-кода в Lync Server 2013
 
-Вы можете управлять политиками ПИН-кодов Lync Server 2013 с помощью панели управления Lync Server 2013 или Командная консоль Lync Server. Чтобы настроить политики ПИН-кодов для организации, используйте следующую процедуру.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Просмотр сведений о политике PIN-кода](lync-server-2013-view-pin-policy-inforrmation.md)
+<div id="mainBody">
 
-  - [Создание новой политики ПИН-кодов](lync-server-2013-create-a-new-pin-policy.md)
+<span> </span>
 
-  - [Изменение существующей политики ПИН-кодов](lync-server-2013-modify-an-existing-pin-policy.md)
+_**Тема последнего изменения:** 2012-11-01_
 
-  - [Удаление политики ПИН-кодов](lync-server-2013-delete-a-pin-policy.md)
+Вы можете управлять политиками закрепления Lync Server 2013 с помощью панели управления Lync Server 2013 или командной консоли Lync Server Management Shell. Ниже приведены ссылки на процедуры настройки политик PIN-кодов для организации.
 
-  - [Назначение политики PIN-кодов уровня пользователя](lync-server-2013-assign-a-per-user-pin-policy.md)
+<div>
 
-## См. также
+## <a name="in-this-section"></a>Содержание
 
-#### Другие ресурсы
+  - [Просмотр политики ПИН-кода инфоррматион в Lync Server 2013](lync-server-2013-view-pin-policy-inforrmation.md)
 
-[Управление PIN-кодами пользователей](lync-server-2013-managing-user-pins.md)
+  - [Создание новой политики ПИН-кода в Lync Server 2013](lync-server-2013-create-a-new-pin-policy.md)
+
+  - [Изменение существующей политики ПИН-кода в Lync Server 2013](lync-server-2013-modify-an-existing-pin-policy.md)
+
+  - [Удаление политики ПИН-кода в Lync Server 2013](lync-server-2013-delete-a-pin-policy.md)
+
+  - [Назначение политики PIN-кода для пользователя в Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Управление контактами пользователей в Lync Server 2013](lync-server-2013-managing-user-pins.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

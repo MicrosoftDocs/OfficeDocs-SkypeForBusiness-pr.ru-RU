@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Mcus'
-TOCTitle: Таблица Mcus
-ms:assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425742(v=OCS.15)
-ms:contentKeyID: 49309242
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Mcus'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mcus table
+ms:assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425742(v=OCS.15)
+ms:contentKeyID: 48183674
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bf0a34d24bf60770f2b1e2664a89993f5917d854
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827538"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Mcus в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="mcus-table-in-lync-server-2013"></a>Таблица Mcus в Lync Server 2013
 
-Таблица Mcus является вспомогательной. Каждая запись хранит информацию об одной службе конференций. К ним могут относиться служба обмена мгновенными сообщениями в режиме конференции, служба телефонных конференций (которые выполняются как процессы на интерфейсных серверах), служба веб-конференций пограничного сервера и служба аудио- и видеоконференций.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-28_
+
+Таблица Мкус является вспомогательной таблицей. Каждая запись содержит сведения о одной службе конференц-связи. К ним относятся служба конференций обмена мгновенными сообщениями и служба конференц-связи с телефонным подключением (которая запускается как процессы на серверах переднего плана), а также службы "веб-конференции" и "Конференция".
 
 
 <table>
@@ -35,23 +55,34 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>McuId</strong></p></td>
+<td><p><strong>Мкуид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный номер, идентифицирующий этот сервер конференций.</p></td>
+<td><p>Primary</p></td>
+<td><p>Уникальный номер, идентифицирующий этот сервер конференц-связи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p><strong>Мкуури</strong></p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>McuTypeId</strong></p></td>
-<td><p>inyint</p></td>
-<td><p>Внешний</p></td>
-<td><p>Тип сервера конференций, например conf:chat (для мгновенных сообщений) или conf:audio-video. Дополнительные сведения см. в разделе <a href="lync-server-2013-uritypes-table.md">Таблица UriTypes в Lync Server 2013</a>.</p></td>
+<td><p><strong>Мкутипеид</strong></p></td>
+<td><p>ининт</p></td>
+<td><p> Другом</p></td>
+<td><p>Тип сервера конференций, например conf: Chat (для мгновенных сообщений) или conf: аудио-видео. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,59 @@
-﻿---
-title: Управление очередями группы ответа
-TOCTitle: Управление очередями группы ответа
-ms:assetid: 1e91720c-ab67-4dfb-b30c-0ef2a8012310
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520960(v=OCS.15)
-ms:contentKeyID: 49309142
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Управление очередями групп ответов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Response Group queues
+ms:assetid: 1e91720c-ab67-4dfb-b30c-0ef2a8012310
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520960(v=OCS.15)
+ms:contentKeyID: 48183576
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c000bb475d97f933d1038e9ef727264e5672644b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827811"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление очередями группы ответа
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-02_
+# <a name="managing-response-group-queues-in-lync-server-2013"></a>Управление очередями групп ответов в Lync Server 2013
 
-Очереди содержат направленные в группу ответа звонки, пока агент не ответит на звонок. При управлении очередью вы назначаете ей одну или нескольких групп агентов и указываете параметры очереди, такие как число звонков, которое может вместить в себя очередь перед выполнением действия при переполнении, и период времени, в течение которого звонок ожидает агента перед выполнением действия таймаута. Когда приложение "Группа ответа" ищет доступного агента, оно выполняет поиск по группам агентов в том порядке, в котором они приведены в списке.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Создание или изменение очереди в Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)
+<div id="mainBody">
 
-  - [Удаление очреди группы ответа](lync-server-2013-delete-a-response-group-queue.md)
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-02_
+
+Очереди хранят звонки в группу ответа до тех пор, пока агент не ответит на звонок. При управлении очередью вы назначаете одну или несколько групп агента в очередь и определяете параметры очереди, например число вызовов, которые может храниться в очереди, прежде чем выполнять действие переполнения и время, в течение которого вызов ждет агента до того, как ктион. Когда приложение группы ответа осуществляет поиск доступного агента, он выполняет поиск групп агента в том порядке, в котором они перечислены.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Создание и изменение очереди в Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)
+
+  - [Удаление очереди групп ответов в Lync Server 2013](lync-server-2013-delete-a-response-group-queue.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

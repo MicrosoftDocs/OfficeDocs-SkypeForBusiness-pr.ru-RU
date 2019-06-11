@@ -1,41 +1,75 @@
-﻿---
-title: 'Lync Server 2013: управление топологией Lync Server'
-TOCTitle: Управление топологией Lync Server 2013
-ms:assetid: 323ef486-c907-4036-a2bf-c869b1d7f288
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520973(v=OCS.15)
-ms:contentKeyID: 49309377
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление топологией Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing the Lync Server 2013 topology
+ms:assetid: 323ef486-c907-4036-a2bf-c869b1d7f288
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520973(v=OCS.15)
+ms:contentKeyID: 48183784
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d4e8c5e93ebbbc054ac3bdc9e792cc8376b47449
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827713"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление топологией Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-11_
+# <a name="managing-the-lync-server-2013-topology"></a>Управление топологией Lync Server 2013
 
-В этом разделе описываются пошаговые процедуры для задач, которые можно выполнить на странице **Топология** , используя панель управления Lync Server 2013.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Просмотр списка компьютеров, на которых работает Lync Server 2013](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
+<div id="mainBody">
 
-  - [Просмотр состояния служб, работающих на компьютере, в Lync Server 2013](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+<span> </span>
 
-  - [Просмотр сведений о службе в Lync Server 2013](lync-server-2013-view-details-about-a-service.md)
+_**Тема последнего изменения:** 2012-10-11_
 
-  - [Запуск или остановка служб Lync Server 2013](lync-server-2013-start-or-stop-lync-server-services.md)
+В этой статье приведены пошаговые инструкции для задач, которые можно выполнить с помощью страницы **Topology** на панели управления Lync Server 2013.
 
-  - [Запрет сеансов для служб в Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)
+<div>
 
-  - [Обновление серверов переднего плана в Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)
+## <a name="in-this-section"></a>Содержание
 
-  - [Добавление или удаление сервера переднего плана в Lync Server 2013](lync-server-2013-add-or-remove-a-front-end-server.md)
+  - [Просмотр списка компьютеров с Lync Server 2013](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
 
-  - [Обновление сервера заднего плана или стандартного выпуска сервера в Lync Server 2013](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+  - [Просмотр состояния служб, запущенных на компьютере в Lync Server 2013](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
-  - [Управление приложениями MSPL (Microsoft SIP Processing Language) в Lync Server 2013](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+  - [Просмотр подробных сведений о службе в Lync Server 2013](lync-server-2013-view-details-about-a-service.md)
+
+  - [Запуск и остановка служб Lync Server 2013](lync-server-2013-start-or-stop-lync-server-services.md)
+
+  - [Предотвращение сеансов для служб в Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)
+
+  - [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)
+
+  - [Add or remove a Front End Server in Lync Server 2013](lync-server-2013-add-or-remove-a-front-end-server.md)
+
+  - [Обновление или обновление серверного сервера или стандартного выпуска Standard в Lync Server 2013](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+
+  - [Управление приложениями языка обработки Microsoft SIP (МСПЛ) в Lync Server 2013](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
   - [Управление простыми URL-адресами в Lync Server 2013](lync-server-2013-managing-simple-urls.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

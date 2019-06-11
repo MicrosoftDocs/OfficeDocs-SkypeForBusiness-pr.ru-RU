@@ -1,81 +1,152 @@
-﻿---
-title: Сброс правила обновления устройства
-TOCTitle: Сброс правила обновления устройства
-ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994069(v=OCS.15)
-ms:contentKeyID: 52058342
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: сброс правила обновления устройства'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reset a Device Update rule
+ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994069(v=OCS.15)
+ms:contentKeyID: 51803980
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab03c5c28db28ddbd883f3f50845eaf91d4fd1a9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823212"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Сброс правила обновления устройства
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>Сброс правила обновления устройства в Lync Server 2013
 
-Если вас не устраивает то, как обновление работает на тестовом устройстве, вы можете сбросить правило обновления устройства. Это приведет к удалению состояния ожидания правила и обновления с тестового устройства.
+</div>
 
-Затем можно удалить правило обновления устройства, используя управления Lync Server или Windows PowerShell.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Если вы не хотите, чтобы обновление работало на тестовом устройстве, вы можете сбросить правило обновления устройства, которое удаляет состояние ожидания правила и удаление обновления с тестовых устройств.
+
+Вы можете удалить правило обновления устройства с помощью панели управления Lync Server или Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Чтобы удалить правило, которое вы уже утвердили (то есть развернутое), восстановите его. Дополнительные сведения см. в статье <a href="lync-server-2013-restore-a-device-update-rule.md">Восстановление правила обновления устройства</a>.
+> Чтобы удалить правило, которое вы уже утвердили (то есть выпало из него), восстановите его. Подробности можно найти <A href="lync-server-2013-restore-a-device-update-rule.md">в разделе Восстановление правила обновления устройства в Lync Server 2013</A>.
 
-## Сброс правила обновления устройства управления Lync Server
+
+
+</div>
+
+<div>
+
+## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>Сброс правила обновления устройства с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой области навигации щелкните элемент **Клиенты**, а затем нажмите кнопку **Device Update** (Обновление устройства).
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **обновлению устройства** .
 
-4.  На странице **Обновление устройства** выполните одно из следующих действий.
+4.  На странице **обновление устройства** выполните одно из указанных ниже действий.
     
-      - Чтобы сбросить одно правило, выберите его.
+      - Чтобы сбросить одно правило, выберите правило, которое вы хотите сбросить.
     
-      - Чтобы сбросить все правила, в меню **Правка** щелкните **Выбрать все**.
+      - Чтобы сбросить все правила, в меню **Правка** выберите команду **выделить все**.
     
-      - Чтобы сбросить все правила для одной торговой марки, используйте меню столбца **Brand** (Марка).
+      - Чтобы сбросить все правила для одной торговой марки, используйте меню столбец " **бренд** ".
 
-5.  Нажмите кнопку **Действие**, а затем **Cancel pending updates** (Отменить ожидающие обновления).
+5.  Нажмите кнопку **действие**и выберите пункт **отменить ожидающие обновления**.
+    
+    <div>
     
 
-    > [!TIP]
-    > Если вы уверены, что развертывать отмененное правило обновления устройства больше никогда не потребуется, вы можете удалить его. Дополнительные сведения см. в статье <A href="lync-server-2013-remove-a-device-update-rule.md">Удаление правила обновления устройства</A>.
+    > [!TIP]  
+    > Если вы уверены в том, что вы не хотите выгрузить правила обновления устройства, которые вы отменили, возможно, потребуется удалить их. Подробности можно найти <A href="lync-server-2013-remove-a-device-update-rule.md">в разделе Удаление правила обновления устройства в Lync Server 2013</A>.
 
+    
+    </div>
 
+</div>
 
-## Сброс правила обновления устройства с помощью командлетов Windows PowerShell
+<div>
 
-Правила обновления устройства также можно сбросить с помощью Windows PowerShell и командлета **Reset-CsDeviceUpdateRule**. Этот командлет можно запустить из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell.
+## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Сброс правила обновления устройства с помощью командлетов Windows PowerShell
+
+Кроме того, вы можете сбросить правила обновления устройства с помощью Windows PowerShell и командлета **Reset-ксдевицеупдатеруле** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
+> Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.
 
-## Сброс определенного правила обновления устройства на сервере
 
-  - Следующая команда сбрасывает правило обновления устройства d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 на веб-сервере atl-cs-001.litwareinc.com:
+
+</div>
+
+<div>
+
+## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>Сброс правила обновления для определенного устройства на сервере
+
+  - Следующая команда сбрасывает правило обновления устройства d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 на веб-сервере atl-cs-001.litwareinc.com:
     
         Reset-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
-## Сброс всех правил обновления устройств на сервере
+</div>
 
-  - Эта команда сбрасывает все правила обновления устройств на веб-сервере atl-cs-001.litwareinc.com:
+<div>
+
+## <a name="to-reset-all-the-device-update-rules-on-a-server"></a>Сброс всех правил обновления устройства на сервере
+
+  - Эта команда сбрасывает все правила обновления устройства на веб-сервере atl-cs-001.litwareinc.com:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"  | Reset-CsDeviceUpdateRule
 
-## Сброс всех правил обновления устройств определенной торговой марки
+</div>
 
-  - В этом примере сбрасываются все обновления устройств в организации, которые имеют значение "Microsoft" параметра "Марка":
+<div>
+
+## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>Сброс всех правил обновления устройства, для которых определена фирменная символика
+
+  - В этом примере все обновления для устройств, на которых установлен Межфирменная символика (Майкрософт), сбрасываются.
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Дополнительные сведения см. в разделе справки по командлету [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
+</div>
 
-## См. также
+Дополнительные сведения можно найти в разделе справки по командлету [Reset-ксдевицеупдатеруле](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) .
 
-#### Задачи
+</div>
 
-[Утверждение правила обновления устройства](lync-server-2013-approve-a-device-update-rule.md)
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Утверждение правила обновления устройства в Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

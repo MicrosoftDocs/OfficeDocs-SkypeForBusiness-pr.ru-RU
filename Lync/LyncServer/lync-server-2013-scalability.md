@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: масштабируемость'
-TOCTitle: Масштабируемость
-ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg417160(v=OCS.15)
-ms:contentKeyID: 49309639
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: масштабируемость'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scalability
+ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417160(v=OCS.15)
+ms:contentKeyID: 48183995
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0dfdc96934871fd2e73af30507288c734e786cc0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822169"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Масштабируемость с Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="scalability-with-lync-server-2013"></a>Масштабируемость с Lync Server 2013
 
-Lync Server предлагается в двух выпусках, Enterprise Edition и Standard Edition. Разные выпуски в основном предназначаются для разных размеров организаций. Как показано в следующей таблице, оба выпуска поддерживают все функциональные возможности при любых рабочих нагрузках, за исключением высокого уровня доступности и аварийного восстановления.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-25_
+
+Lync Server предлагается в двух выпусках, Enterprise Edition и Standard Edition. Различные выпуски предназначены преимущественно для разных размеров организаций. Как показано в приведенной ниже таблице, оба издания поддерживают все функции во всех рабочих нагрузках, кроме случаев высокой доступности и аварийного восстановления.
 
 
 <table>
@@ -27,46 +47,57 @@ Lync Server предлагается в двух выпусках, Enterprise Ed
 <thead>
 <tr class="header">
 <th>Функция</th>
-<th>Поддерживается в Enterprise Edition?</th>
-<th>Поддерживается в Standard Edition?</th>
+<th>Поддерживается в корпоративном выпуске?</th>
+<th>Поддерживается в стандартном выпуске?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Обмен мгновенными сообщениями и функция присутствия</p></td>
-<td><p>Да</p></td>
+<td><p>Обмен мгновенными сообщениями и присутствие</p></td>
+<td><p>Да </p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
 <td><p>Конференц-связь</p></td>
-<td><p>Да</p></td>
+<td><p>Да </p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V conferencing (Аудио- и видеоконференции)</p></td>
-<td><p>Да</p></td>
+<td><p>Да </p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
 <td><p>Конференц-связь с телефонным подключением</p></td>
-<td><p>Да</p></td>
+<td><p>Да </p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
 <td><p>Корпоративная голосовая связь</p></td>
-<td><p>Да</p></td>
+<td><p>Да </p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p>Виртуализация</p></td>
-<td><p>Да</p></td>
+<td><p>Виртуализаци</p></td>
+<td><p>Да </p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p>Высокий уровень доступности, отработка отказа, аварийное восстановление</p></td>
+<td><p>Высокий уровень доступности, отказов и аварийного восстановления</p></td>
 <td><p>Да</p></td>
 <td><p>Нет</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
