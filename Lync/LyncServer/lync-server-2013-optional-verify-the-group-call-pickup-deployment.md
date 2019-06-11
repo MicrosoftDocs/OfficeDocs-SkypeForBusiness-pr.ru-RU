@@ -1,23 +1,53 @@
-﻿---
-title: (Необязательно) Проверка развертывания компонента группового ответа на звонки
-TOCTitle: (Необязательно) Проверка развертывания компонента группового ответа на звонки
-ms:assetid: 820890ea-5c3f-4488-b322-20ca6ddd4191
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945639(v=OCS.15)
-ms:contentKeyID: 52058258
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (необязательно) Проверка развертывания раскладки группового вызова'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify the Group Call Pickup deployment
+ms:assetid: 820890ea-5c3f-4488-b322-20ca6ddd4191
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945639(v=OCS.15)
+ms:contentKeyID: 51541493
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a6f6b0eddc5cc2a557efa5aa40e0600ca0abef6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825592"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Необязательно) Проверка развертывания компонента группового ответа на звонки
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-01-30_
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="1cabd-102">Необязательно Проверка развертывания отправки группового звонка в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1cabd-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
 
-После включения группового ответа на звонки для пользователя убедитесь, что данная конфигурация работает правильно. Следует проверить, по крайней мере, следующее:
+</div>
 
-  - Позвоните пользователю с включенной поддержкой группового ответа на звонки, после чего другой пользователь должен ответить на этот звонок. Второй пользователь может быть членом той же или иной группы либо вообще не иметь поддержки группового ответа на звонки.
+<div id="mainSection">
 
-  - Позвоните пользователю с включенной поддержкой группового ответа на звонки и не отвечайте на этот звонок.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1cabd-103">_**Тема последнего изменения:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="1cabd-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+
+<span data-ttu-id="1cabd-104">После включения отправки групп для пользователей убедитесь, что конфигурация работает должным образом.</span><span class="sxs-lookup"><span data-stu-id="1cabd-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="1cabd-105">Как минимум, проверьте следующее:</span><span class="sxs-lookup"><span data-stu-id="1cabd-105">At a minimum, verify the following:</span></span>
+
+  - <span data-ttu-id="1cabd-p102">Позвоните пользователю с включенной поддержкой группового ответа на звонки, после чего другой пользователь должен ответить на этот звонок. Второй пользователь может быть членом той же или иной группы либо вообще не иметь поддержки группового ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="1cabd-p102">Call a user who is enabled for Group Call Pickup and have another user retrieve the call. The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
+
+  - <span data-ttu-id="1cabd-108">Позвоните пользователю с включенной поддержкой группового ответа на звонки и не отвечайте на этот звонок.</span><span class="sxs-lookup"><span data-stu-id="1cabd-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

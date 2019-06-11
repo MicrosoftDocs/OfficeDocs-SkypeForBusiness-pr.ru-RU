@@ -1,36 +1,65 @@
-﻿---
-title: Требования к маршрутизации на основе расположения для конференц-связи
-TOCTitle: Требования к маршрутизации на основе расположения для конференц-связи
-ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn362806(v=OCS.15)
-ms:contentKeyID: 56270563
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования для маршрутизации на основе местоположения для конференций'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Requirements for Location-Based Routing for conferencing
+ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362806(v=OCS.15)
+ms:contentKeyID: 56335085
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 925b71497012d7e6ed9c19042a079a7b30630c47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823324"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования к маршрутизации на основе расположения для конференц-связи
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="requirements-for-location-based-routing-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="338ed-102">Требования для маршрутизации на основе местоположения для конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-102">Requirements for Location-Based Routing for conferencing in Lync Server 2013</span></span>
 
-Ниже приведены требования, необходимые для установки и настройки приложения конференц-связи с маршрутизацией на основе расположения.
+</div>
 
-  - Накопительный пакет обновления 2 для Lync Server 2013 должен быть развернут на всех серверах и в пулах топологии.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="338ed-103">_**Тема последнего изменения:** 2013-07-19_</span><span class="sxs-lookup"><span data-stu-id="338ed-103">_**Topic Last Modified:** 2013-07-19_</span></span>
+
+<span data-ttu-id="338ed-104">Ниже приведены требования, необходимые для установки и настройки приложения для конференц-связи с учетом местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-104">The following are the requirements needed for the installation and configuration of the Location-Based Routing Conferencing application:</span></span>
+
+  - <span data-ttu-id="338ed-105">Для Lync Server 2013 накопительный пакет обновления 2 должен быть развернут на всех серверах или пулах в вашей топологии.</span><span class="sxs-lookup"><span data-stu-id="338ed-105">Lync Server 2013 Cumulative Update 2 must be deployed on all servers or pools in your topology.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Если на сервере или в пуле Lync в топологии не установлен накопительный пакет обновления 2 (или более поздней версии) для Lync Server 2013, то маршрутизация на основе расположения для собраний Lync не гарантируется.
+> <span data-ttu-id="338ed-106">Если на сервере Lync или в пуле в топологии не установлен компонент Lync Server 2013 накопительный пакет обновления 2 или более новой версии, принудительное применение маршрутизации на основе местоположения для собраний Lync не гарантируется.</span><span class="sxs-lookup"><span data-stu-id="338ed-106">If a Lync server or pool in your topology does not have Lync Server 2013 Cumulative Update 2 or higher installed, then enforcement of Location-Based Routing of Lync meetings cannot be guaranteed.</span></span>
 
-  - Маршрутизация на основе расположения Lync Server 2013  — необходимое условие для работы приложения конференц-связи с маршрутизацией на основе расположения. Подробнее о настройке маршрутизации на основе расположения Lync Server 2013 см. в статье [Настройка маршрутизации на основе расположения](lync-server-2013-configuring-location-based-routing.md).
 
-  - Требования к приложению конференц-связи с маршрутизацией на основе расположения такие же, как и для маршрутизации на основе расположения Lync Server 2013. Подробнее см. в статье [Планирование маршрутизации на основе расположения](lync-server-2013-planning-for-location-based-routing.md).
 
-## Поддерживаемые серверы
+</div>
 
-Для приложения конференц-связи с маршрутизацией на основе расположения необходимо, чтобы во всех интерфейсных пулах и на всех серверах с выпуском Standard Edition в топологии был развернут накопительный пакет обновления 2 для Lync Server 2013. Если он не установлен на некоторых серверах Lync в топологии, к собраниям Lync и переводам вызовов с консультацией не могут полностью применяться ограничения маршрутизации на основе расположения.
+  - <span data-ttu-id="338ed-107">Сервер Lync Server 2013 — это предварительное требование для приложения для конференц-связи с учетом местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-107">Lync Server 2013 Location-Based Routing is a pre-requisite for Location-Based Routing Conferencing application.</span></span> <span data-ttu-id="338ed-108">Дополнительные сведения о настройке маршрутизации на основе местоположения в Lync Server 2013 можно найти в разделе [Настройка маршрутизации на основе местоположения](lync-server-2013-configuring-location-based-routing.md).</span><span class="sxs-lookup"><span data-stu-id="338ed-108">For further information on configuring Lync Server 2013 Location-Based Routing, please refer to [Configuring Location-Based Routing](lync-server-2013-configuring-location-based-routing.md).</span></span>
 
-В указанной ниже таблице приведено сочетание ролей серверов и версий, поддерживающих маршрутизацию на основе расположения.
+  - <span data-ttu-id="338ed-109">Требования к приложению для конференц-связи на основе местоположения аналогичны требованиям для маршрутизации на основе местоположения в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="338ed-109">Requirements of Location-Based Routing Conferencing application are the same as the requirements for Lync Server 2013 Location-Based Routing.</span></span> <span data-ttu-id="338ed-110">Дополнительные сведения можно найти в разделе [планирование маршрутизации на основе местоположения](lync-server-2013-planning-for-location-based-routing.md).</span><span class="sxs-lookup"><span data-stu-id="338ed-110">For more information, please refer to [Planning for Location-Based Routing](lync-server-2013-planning-for-location-based-routing.md).</span></span>
+
+<div>
+
+## <a name="supported-servers"></a><span data-ttu-id="338ed-111">Поддерживаемые серверы</span><span class="sxs-lookup"><span data-stu-id="338ed-111">Supported Servers</span></span>
+
+<span data-ttu-id="338ed-112">Приложение для конференц-связи с учетом местоположения требует, чтобы Lync Server 2013 накопительный пакет обновления 2 развернут на всех интерфейсных пулах и серверах стандартных выпусков в вашей топологии.</span><span class="sxs-lookup"><span data-stu-id="338ed-112">The Location-Based Routing Conferencing application requires that Lync Server 2013 Cumulative Update 2 is deployed on all Front-End pools and Standard Edition Servers in your topology.</span></span> <span data-ttu-id="338ed-113">Если в вашей топологии Lync Server 2013 накопительный пакет обновления 2 (SP2) не установлен на некоторых серверах Lync, ограничения на маршрутизацию на основе местоположения не будут полностью применены для собраний Lync и консултативе передачи звонков.</span><span class="sxs-lookup"><span data-stu-id="338ed-113">If Lync Server 2013 Cumulative Update 2 is not installed on some Lync Servers in your topology, Location-Based Routing restrictions cannot be fully enforced on Lync meetings and consultative call transfers.</span></span>
+
+<span data-ttu-id="338ed-114">В следующей таблице указаны комбинации ролей сервера и версий, которые поддерживают маршрутизацию на основе местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-114">The following table identifies the combination of server roles and versions that support Location-Based Routing.</span></span>
 
 
 <table>
@@ -41,82 +70,106 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Версия интерфейсного пула</p></td>
-<td><p>Версия cервера-посредника</p></td>
-<td><p>Поддерживается</p></td>
+<td><p><span data-ttu-id="338ed-115">Версия внешнего пула</span><span class="sxs-lookup"><span data-stu-id="338ed-115">Front-End Pool version</span></span></p></td>
+<td><p><span data-ttu-id="338ed-116">Версия cервера-посредника</span><span class="sxs-lookup"><span data-stu-id="338ed-116">Mediation Server version</span></span></p></td>
+<td><p><span data-ttu-id="338ed-117">Поддерживается</span><span class="sxs-lookup"><span data-stu-id="338ed-117">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Накопительный пакет обновления 2 для Lync Server 2013</p></td>
-<td><p>Накопительный пакет обновления 2 для Lync Server 2013</p></td>
-<td><p>Да</p></td>
+<td><p><span data-ttu-id="338ed-118">Накопительный пакет обновления 2 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-118">Lync Server 2013 Cumulative Update 2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-119">Накопительный пакет обновления 2 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-119">Lync Server 2013 Cumulative Update 2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-120">Да</span><span class="sxs-lookup"><span data-stu-id="338ed-120">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Накопительный пакет обновления 2 для Lync Server 2013</p></td>
-<td><p>Накопительный пакет обновления 1 для Lync Server 2013</p></td>
-<td><p>Нет</p></td>
+<td><p><span data-ttu-id="338ed-121">Накопительный пакет обновления 2 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-121">Lync Server 2013 Cumulative Update 2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-122">Накопительный пакет обновления 1 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-122">Lync Server 2013 Cumulative Update 1</span></span></p></td>
+<td><p><span data-ttu-id="338ed-123">Нет</span><span class="sxs-lookup"><span data-stu-id="338ed-123">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Накопительный пакет обновления 2 для Lync Server 2013</p></td>
-<td><p>Lync Server 2010</p></td>
-<td><p>Нет</p></td>
+<td><p><span data-ttu-id="338ed-124">Накопительный пакет обновления 2 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-124">Lync Server 2013 Cumulative Update 2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-125">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="338ed-125">Lync Server 2010</span></span></p></td>
+<td><p><span data-ttu-id="338ed-126">Нет</span><span class="sxs-lookup"><span data-stu-id="338ed-126">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Накопительный пакет обновления 2 для Lync Server 2013</p></td>
-<td><p>Office Communications Server 2007 R2</p></td>
-<td><p>Нет</p></td>
+<td><p><span data-ttu-id="338ed-127">Накопительный пакет обновления 2 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-127">Lync Server 2013 Cumulative Update 2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-128">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="338ed-128">Office Communications Server 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-129">Нет</span><span class="sxs-lookup"><span data-stu-id="338ed-129">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Накопительный пакет обновления 1 для Lync Server 2013</p></td>
-<td><p>Любая</p></td>
-<td><p>Нет</p></td>
+<td><p><span data-ttu-id="338ed-130">Накопительный пакет обновления 1 для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="338ed-130">Lync Server 2013 Cumulative Update 1</span></span></p></td>
+<td><p><span data-ttu-id="338ed-131">Любой</span><span class="sxs-lookup"><span data-stu-id="338ed-131">Any</span></span></p></td>
+<td><p><span data-ttu-id="338ed-132">Нет</span><span class="sxs-lookup"><span data-stu-id="338ed-132">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2010</p></td>
-<td><p>Любая</p></td>
-<td><p>Нет</p></td>
+<td><p><span data-ttu-id="338ed-133">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="338ed-133">Lync Server 2010</span></span></p></td>
+<td><p><span data-ttu-id="338ed-134">Любой</span><span class="sxs-lookup"><span data-stu-id="338ed-134">Any</span></span></p></td>
+<td><p><span data-ttu-id="338ed-135">Нет</span><span class="sxs-lookup"><span data-stu-id="338ed-135">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Office Communications Server 2007 R2</p></td>
-<td><p>Любая</p></td>
-<td><p>Нет</p></td>
+<td><p><span data-ttu-id="338ed-136">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="338ed-136">Office Communications Server 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="338ed-137">Любой</span><span class="sxs-lookup"><span data-stu-id="338ed-137">Any</span></span></p></td>
+<td><p><span data-ttu-id="338ed-138">Нет</span><span class="sxs-lookup"><span data-stu-id="338ed-138">No</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Поддерживаемые клиенты
+</div>
 
-Клиенты Lync, которые поддерживают маршрутизацию на основе расположения для собраний Lync, — те же клиенты, что поддерживают маршрутизацию на основе расположения Lync Server 2013. Подробнее см. в статье [Поддержка маршрутизации на основе расположения клиентами и серверами](lync-server-2013-client-and-server-support-for-location-based-routing.md).
+<div>
 
-## Требования к cерверу-посреднику для перевода вызовов с консультацией
+## <a name="supported-clients"></a><span data-ttu-id="338ed-139">Поддерживаемые клиенты</span><span class="sxs-lookup"><span data-stu-id="338ed-139">Supported Clients</span></span>
 
-Для приложения конференц-связи с маршрутизацией на основе расположения требуется развертывание автономного сервера-посредника. Это необходимо для соблюдения ограничений маршрутизации на основе расположения для перевода вызовов с консультацией.
+<span data-ttu-id="338ed-140">Клиенты Lync, поддерживающие маршрутизацию на основе местоположения для собраний Lync, — это те же клиенты, которые поддерживают маршрут на основе расположения в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="338ed-140">The Lync clients that support Location-Based Routing of Lync meetings are the same clients that support Lync Server 2013 Location-Based Routing.</span></span> <span data-ttu-id="338ed-141">Дополнительные сведения можно найти в разделе [Поддержка клиентов и серверов для маршрутизации на основе местоположения](lync-server-2013-client-and-server-support-for-location-based-routing.md).</span><span class="sxs-lookup"><span data-stu-id="338ed-141">For more information, please refer to [Client and Server Support for Location-Based Routing](lync-server-2013-client-and-server-support-for-location-based-routing.md).</span></span>
 
-Чтобы обеспечить маршрутизацию на основе расположения для перевода вызовов с консультацией, сервер-посредник должен быть связан только с одним узлом сервера-посредника (например, УАТС, шлюзом SIP и пр.) в областях сети, где требуется маршрутизация на основе расположения. Если в одной и той же области сети развернуты дополнительные узлы сервера-посредника, их необходимо связать с другим сервером-посредником. Подробное описание этого требования приведено ниже.
+</div>
 
-  - Один сервер-посредник на несколько узлов сервера-посредника. Когда передача вызова с консультацией направляется на узел сервера-посредника через сервер-посредник, на котором настроены несколько магистралей SIP для нескольких узлов (например, УАТС и шлюзов), то передача вызовов с консультацией блокируется во избежание обхода платных звонков по ТСОП, если такая передача разрешена только по некоторым из магистралей SIP.
+<div>
+
+## <a name="mediation-server-requirements-for-consultative-call-transfers"></a><span data-ttu-id="338ed-142">Требования к серверу исправлений для передачи вызовов Консултативе</span><span class="sxs-lookup"><span data-stu-id="338ed-142">Mediation Server Requirements for Consultative Call Transfers</span></span>
+
+<span data-ttu-id="338ed-143">Приложение для конференц-связи с учетом местоположения требует развертывания изолированных серверов, чтобы обеспечить ограничения маршрутизации на основе местоположения при передаче звонков консултативе.</span><span class="sxs-lookup"><span data-stu-id="338ed-143">The Location-Based Routing Conferencing application requires deploying stand-alone Mediation Servers in order to enforce Location-Based Routing restrictions on consultative call transfers.</span></span>
+
+<span data-ttu-id="338ed-144">Для принудительного применения маршрутизации, основанной на расположении для передачи вызовов консултативе, сервер-посредник должен быть связан только с одним одноранговым узлом (например, УАТС, шлюзом SIP и т. д.) в сетевых регионах, где требуется маршрутизация на основе местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-144">To enforce Location-Based Routing of consultative call transfers, the Mediation Server must be associated with only one Mediation Server peer (i.e. PBX, SIP gateway, etc) in network regions where Location-Based Routing is required.</span></span> <span data-ttu-id="338ed-145">Если в одном и том же регионе развернуты одноранговые узлы сервера-посредника, то узел сервера-посредника должен быть связан с другим сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="338ed-145">If additional Mediation Server peers are deployed in the same network region, the Mediation Server peer must be associated with a different Mediation Server .</span></span> <span data-ttu-id="338ed-146">Это требование подробно описано ниже.</span><span class="sxs-lookup"><span data-stu-id="338ed-146">This Requirement is detailed as follows:</span></span>
+
+  - <span data-ttu-id="338ed-147">Одноранговый сервер для одного сервера-посредника, когда передача вызова консултативе перенаправляется на одноранговый сервер с несколькими магистральными серверами (например, АТС и шлюзы). консултативе Передача вызова блокируется, чтобы предотвратить бесплатный звонок, если передача вызова консултативе разрешена через некоторые магистральные магистрали SIP, но это запрещено посредством других магистральных каналов SIP.</span><span class="sxs-lookup"><span data-stu-id="338ed-147">Single Mediation Server per multiple Mediation Server peers When a consultative call transfer is routed to a Mediation Server peer through a Mediation Server that’s configured with multiple SIP trunks to multiple peers (i.e. PBXs and gateways), the consultative call transfer is blocked to prevent PSTN toll bypass if the consultative call transfer is permitted through some SIP trunks but disallowed through other SIP trunks.</span></span>
     
-    Например, если один сервер-посредник обслуживает и узел сервера-посредника шлюза ТСОП, и узел сервера-посредника УАТС, то будет наблюдаться следующее:
+    <span data-ttu-id="338ed-148">Например, в случае одного сервера-посредника, обслуживающего одноранговый сервер шлюза КТСОП и одноранговый сервер обнаружения АТС, будет проблюдаться описанное ниже поведение.</span><span class="sxs-lookup"><span data-stu-id="338ed-148">For example, in the case of a single Mediation Server servicing a PSTN Gateway Mediation Server Peer and a PBX Mediation Server Peer, the following behavior will be observed:</span></span>
     
-      - при попытке пользователя Lync с данного сайта (например, сайта 1) перевести вызов с конечной точкой ТСОП пользователю Lync с другого сайта (например, сайта 2) путем передачи вызова с консультацией звонок будет запрещен во избежание обхода платных звонков по ТСОП;
+      - <span data-ttu-id="338ed-149">Если пользователь Lync с определенного сайта (например, сайт 1) пытается передать Звонок в конечную точку PSTN пользователю Lync из другого сайта (например, сайта 2) через консултативе Transfer, Звонок будет запрещен для предотвращения бесплатных звонков по сети PSTN.</span><span class="sxs-lookup"><span data-stu-id="338ed-149">When a Lync user from a given site (i.e. site 1) attempts to transfer a call with a PSTN endpoint to a Lync user from a different site (i.e. site 2) via consultative transfer, the call will be disallowed to prevent PSTN toll bypass.</span></span>
     
-      - при попытке пользователя Lync с данного сайта (сайта 1) перевести вызов с использованием конечной точки УАТС на том же сайте (сайте 1) пользователю Lync с другого сайта (сайта 2) путем передачи вызова с консультацией звонок будет запрещен, даже если он не несет потенциальной опасности обхода платных звонков по ТСОП.
+      - <span data-ttu-id="338ed-150">Если пользователь Lync с определенного сайта (например, сайт 1) пытается передать звонок с помощью конечной точки УАТС в том же сайте (например, на сайте 1) для пользователя Lync с другого сайта (то есть сайта 2) через консултативе Transfer, Звонок будет запрещен, даже если он не повлечет за потенциальные КТСОП Тол l обойти.</span><span class="sxs-lookup"><span data-stu-id="338ed-150">When a Lync user from a given site (i.e. site 1) attempts to transfer a call with a PBX endpoint in the same site (site 1) to a Lync user from a different site (i.e. site 2) via consultative transfer, the call will be disallowed even if it doesn’t incur in potential PSTN toll bypassing.</span></span>
 
-  - Отдельные серверы-посредники для каждого узла сервера-посредника
+  - <span data-ttu-id="338ed-151">Отдельные серверы исправлений для одного из серверов исправлений</span><span class="sxs-lookup"><span data-stu-id="338ed-151">Separate Mediation Servers per Mediation Server peer</span></span>
     
-    Когда передача вызова с консультацией ориентирована на узел сервера-посредника, она оценивается по отношению к одиночному узлу сервера-посредника, который обслуживается сервером-посредником. Вызов будет запрещен или разрешен, исходя из возможной попытки обхода платных звонков по ТСОП, независимо от остальных узлов сервера-посредника на сайте, так как они обслуживаются отдельным сервером-посредником.
+    <span data-ttu-id="338ed-152">Когда консултативе передача предназначена для однорангового сервера-посредника, пересылка консултативе будет оцениваться относительно однорангового сервера единого обслуживания, обслуживаемого сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="338ed-152">When a consultative transfer is targeted at a Mediation Server Peer, the consultative transfer will be evaluated against the single Mediation Server Peer serviced by the Mediation Server.</span></span> <span data-ttu-id="338ed-153">Этот звонок не будет разрешен или разрешен в соответствии со своими возможностями, которые могут повлечь за собой бесплатные звонки по бесплатной сети, независимо от того, на каком сервере они обходились, по мере их обслуживания разными серверами-посредниками.</span><span class="sxs-lookup"><span data-stu-id="338ed-153">The call will be disallowed or allowed based in its potential to incur in PSTN toll bypass regardless of all other Mediations Server Peers in the site as they’re serviced by separate Mediation Servers.</span></span>
     
-    Например, в случае отдельных серверов-посредников, обслуживающих узел сервера-посредника шлюза ТСОП и узел сервера-посредника УАТС, будет наблюдаться следующее:
+    <span data-ttu-id="338ed-154">Например, в случае отдельного сервера-посредника, обслуживающего одноранговый сервер шлюза КТСОП и одноранговый сервер обнаружения АТС, будут наблюдаться указанные ниже правила.</span><span class="sxs-lookup"><span data-stu-id="338ed-154">For example, in the case of a separate Mediation Servers servicing a PSTN Gateway Mediation Server Peer and a PBX Mediation Server Peer, the following behavior will be observed:</span></span>
     
-      - при попытке пользователя Lync с данного сайта (например, сайта 1) перевести вызов с конечной точкой ТСОП пользователю Lync с другого сайта (например, сайта 2) путем передачи вызова с консультацией звонок будет запрещен во избежание обхода платных звонков по ТСОП;
+      - <span data-ttu-id="338ed-155">Если пользователь Lync с определенного сайта (например, сайт 1) пытается передать Звонок в конечную точку PSTN пользователю Lync из другого сайта (например, сайта 2) через консултативе Transfer, Звонок будет запрещен для предотвращения бесплатных звонков по сети PSTN.</span><span class="sxs-lookup"><span data-stu-id="338ed-155">When a Lync user from a given site (i.e. site 1) attempts to transfer a call with a PSTN endpoint to a Lync user from a different site (i.e. site 2) via consultative transfer, the call will be disallowed to prevent PSTN toll bypass.</span></span>
     
-      - при попытке пользователя Lync с данного сайта (сайта 1) перевести вызов с использованием конечной точки УАТС на том же сайте (сайте 1) пользователю Lync с другого сайта (сайта 2) путем передачи вызова с консультацией звонок будет разрешен, так как он не несет потенциальной опасности обхода платных звонков по ТСОП.
+      - <span data-ttu-id="338ed-156">Если пользователь Lync с определенного сайта (например, сайт 1) пытается передать Звонок в конечную точку УАТС в том же сайте (например, на сайте 1) для пользователя Lync с другого сайта (то есть для сайта 2) через консултативе Transfer, Звонок будет разрешен, так как он не повлечет за собой потенциальную бесплатный звонок. амперсанд.</span><span class="sxs-lookup"><span data-stu-id="338ed-156">When a Lync user from a given site (i.e. site 1) attempts to transfer a call with a PBX endpoint in the same site (site 1) to a Lync user from a different site (i.e. site 2) via consultative transfer, the call will be allowed as it doesn’t incur in potential PSTN toll bypassing.</span></span>
 
-## Возможности, не поддерживаемые приложением конференц-связи с маршрутизацией на основе расположения
+</div>
 
-Приложение конференц-связи с маршрутизацией на основе расположения не поддерживает указанные ниже возможности.
+<div>
 
-  - Конференц-связь с телефонным подключением. Маршрутизация на основе расположения не может быть реализована для конференц-связи с телефонным подключением. Любой запрос на телефонное подключение к данной конференции не будет ограничен маршрутизацией на основе расположения, даже если организатор конференции — пользователь Lync, которому разрешена маршрутизация на основе расположения.
+## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a><span data-ttu-id="338ed-157">Возможности, не поддерживаемые приложением для организации маршрутизации на основе местоположения</span><span class="sxs-lookup"><span data-stu-id="338ed-157">Capabilities Not Supported by the Location-Based Routing Conferencing Application</span></span>
 
-  - Рекомендуется не предоставлять номера доступа к конференц-связи в регионах, где должны соблюдаться ограничения маршрутизации на основе расположения.
+<span data-ttu-id="338ed-158">Следующие возможности не поддерживаются в приложении для конференц-связи с учетом расположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-158">The following capabilities are not supported by the Location-Based Routing Conferencing application:</span></span>
+
+  - <span data-ttu-id="338ed-159">Конференц-связь с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="338ed-159">Dial-in conferencing.</span></span> <span data-ttu-id="338ed-160">Для конференц-связи с телефонным подключением нельзя применять маршрутизацию на основе местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-160">Location-Based Routing cannot be enforced for Dial-in conferencing.</span></span> <span data-ttu-id="338ed-161">Любой запрос на подключение к данной Конференции не будет ограничен маршрутом на основе местоположения, даже если организатором конференции является пользователь Lync, для которого включена маршрутизация на основе местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-161">Any dial-in request to a given conference will not be restricted by Location-Based Routing even if the conference organizer is a Lync user enabled for Location-Based Routing.</span></span>
+
+  - <span data-ttu-id="338ed-162">Рекомендуется не предоставлять номера доступа к конференциям в регионах, в которых необходимо применять ограничения маршрутизации на основе местоположения.</span><span class="sxs-lookup"><span data-stu-id="338ed-162">It’s recommended not to provision conferencing access numbers in regions where Location-Based Routing restrictions need to be enforced.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

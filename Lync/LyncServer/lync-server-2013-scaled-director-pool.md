@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: масштабируемый пул директоров'
-TOCTitle: Масштабируемый пул директоров
-ms:assetid: 47a293ce-c964-4685-a9ec-2868dc1f2bc8
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204864(v=OCS.15)
-ms:contentKeyID: 49309643
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: масштабируемый пул директоров'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scaled Director pool
+ms:assetid: 47a293ce-c964-4685-a9ec-2868dc1f2bc8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204864(v=OCS.15)
+ms:contentKeyID: 48184055
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2963b37d213c931ba3706c873b9bf4ec5b68ee13
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822148"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Масштабируемый пул директоров в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-08_
+# <a name="scaled-director-pool-in-lync-server-2013"></a><span data-ttu-id="c34c8-102">Масштабируемый пул директоров в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c34c8-102">Scaled Director pool in Lync Server 2013</span></span>
 
-Сервер Директор можно разворачивать в конфигурации как с одним сервером Директор, так и с пулом Директоров. В этом разделе определяется топология и конфигурация для двух топологий с пулами серверов Директор. Если вы планируете разворачивать один сервер Директор, рекомендации по планированию для этой топологии см. в разделе [Единственный директор в Lync Server 2013](lync-server-2013-single-director.md).
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Масштабируемый пул директоров — балансировка нагрузки на DNS и аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+<div id="mainBody">
 
-  - [Масштабируемый пул директоров — аппаратный балансировщик нагрузки в Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+<span> </span>
+
+<span data-ttu-id="c34c8-103">_**Тема последнего изменения:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c34c8-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+
+<span data-ttu-id="c34c8-104">Режиссер может быть развернут либо в одной конфигурации режиссера, либо в качестве пула режиссеров.</span><span class="sxs-lookup"><span data-stu-id="c34c8-104">The Director can be deployed in either a single Director configuration, or as a Director pool.</span></span> <span data-ttu-id="c34c8-105">В этом разделе описаны топология и конфигурация двух топологий пулов и каталогов.</span><span class="sxs-lookup"><span data-stu-id="c34c8-105">This section defines a topology and configuration for two pooled Director topologies.</span></span> <span data-ttu-id="c34c8-106">Если вы планируете развернуть один режиссер, ознакомьтесь с разделом " [единый режиссер" в Lync Server 2013](lync-server-2013-single-director.md) для планирования этой топологии.</span><span class="sxs-lookup"><span data-stu-id="c34c8-106">If you are planning on deploying a single Director, see the topic [Single Director in Lync Server 2013](lync-server-2013-single-director.md) for planning considerations for that topology.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="c34c8-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="c34c8-107">In This Section</span></span>
+
+  - [<span data-ttu-id="c34c8-108">Масштабируемый пул директоров — балансировка нагрузки на DNS и аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c34c8-108">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+
+  - [<span data-ttu-id="c34c8-109">Масштабируемый пул директоров — аппаратный балансировщик нагрузки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c34c8-109">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

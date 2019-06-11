@@ -1,23 +1,53 @@
-﻿---
-title: 'Lync Server 2013: обзор архивации'
-TOCTitle: Обзор архивации
-ms:assetid: 1e3c2ef1-f561-4f57-8b6a-7d78addc1ed1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204729(v=OCS.15)
-ms:contentKeyID: 49309132
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: обзор архивации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Archiving
+ms:assetid: 1e3c2ef1-f561-4f57-8b6a-7d78addc1ed1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204729(v=OCS.15)
+ms:contentKeyID: 48183570
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba4aa88f94f0e32b35ab3fc5f71359e5a1c00d99
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825760"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Обзор архивации в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-09-30_
+# <a name="overview-of-archiving-in-lync-server-2013"></a><span data-ttu-id="dbfad-102">Обзор архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dbfad-102">Overview of Archiving in Lync Server 2013</span></span>
 
-Архивация в системе Lync Server 2013 предоставляет способ для архивации передаваемых через систему Lync Server 2013 данных.
+</div>
 
-Вы можете внедрить архивацию в рамках начального развертывания системы Lync Server 2013 или добавить ее в существующее развертывание. Чтобы воспользоваться базами данных архивации системы Lync Server 2013 (базами данных SQL Server) для хранения архивных данных, используйте построитель топологий для добавления баз данных в топологию, а затем опубликуйте эту топологию еще раз. Если все пользователи размещаются в Exchange 2013, и их почтовые ящики помещены на хранение на месте, вам не требуется обновлять топологию, а нужно только включить интеграцию с Microsoft Exchange для хранения архивных данных в Exchange 2013.
+<div id="mainSection">
 
-При внедрении архивации ее необходимо настроить, чтобы указать, что именно архивируется. По умолчанию архивация не выполняется. Для настройки архивации и управления ею используется панель управления Lync Server 2013. Архивацию можно развернуть для внутренних или внешних коммуникаций. Параметры архивации можно настроить для всей своей организации, а при необходимости – для отдельных сайтов, пулов, пользователей и их групп. Дополнительные сведения о том, как определить оптимальные параметры для своей организации, см. в разделе [Определение требований к архивации в Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) документации по планированию. Дополнительные сведения о внедрении политик архивации и конфигураций, а также о том, какую информацию можно и нельзя архивировать, см. в разделе [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md) документации по планированию, развертыванию или эксплуатации.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="dbfad-103">_**Тема последнего изменения:** 2013-09-30_</span><span class="sxs-lookup"><span data-stu-id="dbfad-103">_**Topic Last Modified:** 2013-09-30_</span></span>
+
+<span data-ttu-id="dbfad-104">Архивация в Lync Server 2013 предоставляет способ архивации сообщений, отправленных с помощью Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dbfad-104">Archiving in Lync Server 2013 provides a way for you to archive communications that are sent through Lync Server 2013.</span></span>
+
+<span data-ttu-id="dbfad-105">Вы можете внедрить архивацию как часть первоначального развертывания Lync Server 2013 или добавить ее в существующее развертывание.</span><span class="sxs-lookup"><span data-stu-id="dbfad-105">You can implement Archiving as part of your initial Lync Server 2013 deployment, or you can add it to an existing deployment.</span></span> <span data-ttu-id="dbfad-106">Чтобы использовать базу данных архивации Lync Server 2013 (базы данных SQL Server) для хранения данных архивации, используйте Topology Builder, чтобы добавить базы данных в топологию, а затем опубликуйте топологию еще раз.</span><span class="sxs-lookup"><span data-stu-id="dbfad-106">To use Lync Server 2013 Archiving databases (SQL Server databases) for storage of archiving data, you use Topology Builder to add the databases to your topology, and then publish the topology again.</span></span> <span data-ttu-id="dbfad-107">Если все ваши пользователи находятся в Exchange 2013 и почтовые ящики помещаются на хранение на месте, вам не нужно обновлять топологию, но для того чтобы хранить архивные данные в Exchange 2013, нужно только включить интеграцию Microsoft Exchange.</span><span class="sxs-lookup"><span data-stu-id="dbfad-107">If all your users are homed on Exchange 2013 and have their mailboxes put on In-Place Hold, you do not have to update your topology, but only need to enable Microsoft Exchange integration to store archived data in Exchange 2013.</span></span>
+
+<span data-ttu-id="dbfad-108">При внедрении архива вы настраиваете его, чтобы указать, что заархивировано.</span><span class="sxs-lookup"><span data-stu-id="dbfad-108">When you implement Archiving, you configure it to specify what is archived.</span></span> <span data-ttu-id="dbfad-109">По умолчанию ничего не архивируется.</span><span class="sxs-lookup"><span data-stu-id="dbfad-109">By default, nothing is archived.</span></span> <span data-ttu-id="dbfad-110">Настраивать архивирование и управлять ими можно с помощью панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dbfad-110">You configure and manage Archiving by using Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="dbfad-111">Вы можете реализовать архивацию для внутренней связи, внешней связи или и того, и для других.</span><span class="sxs-lookup"><span data-stu-id="dbfad-111">You can implement Archiving for internal communications, external communications, or both.</span></span> <span data-ttu-id="dbfad-112">Вы можете настроить параметры архивирования всей Организации и, при необходимости, для определенных сайтов, определенных пулов и определенных пользователей и групп пользователей.</span><span class="sxs-lookup"><span data-stu-id="dbfad-112">You can configure archiving settings your entire organization and, optionally, for specific sites, specific pools, and specific users and user groups.</span></span> <span data-ttu-id="dbfad-113">Подробнее о том, как определить соответствующие параметры для Организации, можно найти [в разделе Определение требований для архивации в Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="dbfad-113">For details about determining the appropriate options for your organization, see [Defining your requirements for Archiving in Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md) in the Planning documentation.</span></span> <span data-ttu-id="dbfad-114">Сведения о том, как выполняются политики архивирования и конфигурации, а также сведения о том, [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) , можно найти в документации по планированию, документации по развертыванию или Документация по эксплуатации.</span><span class="sxs-lookup"><span data-stu-id="dbfad-114">For details about how Archiving policies and configurations are implemented, and details about what information can or cannot be archived, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

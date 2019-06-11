@@ -1,29 +1,67 @@
-﻿---
-title: Управление простыми URL-адресами в Lync Server 2013
-TOCTitle: Управление простыми URL-адресами в Lync Server 2013
-ms:assetid: 97ad8230-f422-462a-9ce4-6061fa7f2617
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688146(v=OCS.15)
-ms:contentKeyID: 49888098
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление простыми URL-адресами'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing simple URLs
+ms:assetid: 97ad8230-f422-462a-9ce4-6061fa7f2617
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688146(v=OCS.15)
+ms:contentKeyID: 49733748
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1bc4a09cf31308b146424dfd2421c7ce5f91a6f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827748"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление простыми URL-адресами в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-11_
+# <a name="managing-simple-urls-in-lync-server-2013"></a><span data-ttu-id="debd8-102">Управление простыми URL-адресами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="debd8-102">Managing simple URLs in Lync Server 2013</span></span>
 
-Используйте процедуры, представленные в этом разделе, для управления простыми URL-адресами на странице **Топология** в панели управления Lync Server 2013.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-[Просмотр сведений о простом URL-адресе](lync-server-2013-view-simple-url-details.md)
+<div id="mainBody">
 
-## См. также
+<span> </span>
 
-#### Концепции
+<span data-ttu-id="debd8-103">_**Тема последнего изменения:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="debd8-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-[Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
+<span data-ttu-id="debd8-104">С помощью описанных в этом разделе процедур можно управлять простыми \*\*\*\* URL-адресами на странице топология в Lync Server 2013 панели управления.</span><span class="sxs-lookup"><span data-stu-id="debd8-104">Use the procedures in this section to manage simple URLs from the **Topology** page in Lync Server 2013 Control Panel.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="debd8-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="debd8-105">In This Section</span></span>
+
+[<span data-ttu-id="debd8-106">Просмотр простых данных URL-адреса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="debd8-106">View simple URL details in Lync Server 2013</span></span>](lync-server-2013-view-simple-url-details.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="debd8-107">См. также</span><span class="sxs-lookup"><span data-stu-id="debd8-107">See Also</span></span>
+
+
+[<span data-ttu-id="debd8-108">Планирование простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="debd8-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

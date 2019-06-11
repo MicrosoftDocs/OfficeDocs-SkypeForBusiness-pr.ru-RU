@@ -1,41 +1,71 @@
-﻿---
-title: 'Lync Server 2013: перенос пользователей в единое хранилище контактов'
-TOCTitle: Перенос пользователей в единое хранилище контактов
-ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204737(v=OCS.15)
-ms:contentKeyID: 49309173
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: перенос пользователей в единое хранилище контактов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Migrate users to unified contact store
+ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204737(v=OCS.15)
+ms:contentKeyID: 48183600
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fd0ec64192f1aa83eb9c076976c20a9e87ab9115
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827216"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Перенос пользователей в единое хранилище контактов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-15_
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="0ceec-102">Перенос пользователей в единое хранилище контактов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ceec-102">Migrate users to unified contact store in Lync Server 2013</span></span>
 
-Контакты пользователя автоматически переносятся на сервер Exchange 2013 в следующих условиях:
+</div>
 
-  - пользователю назначена политика служб пользователя, где для параметра UcsAllowed установлено значение true;
+<div id="mainSection">
 
-  - для пользователя создан почтовый ящик Exchange 2013 и пользователь хотя бы раз вошел в почтовый ящик;
+<div id="mainBody">
 
-  - пользователь входит в систему с помощью полнофункционального клиента Lync 2013.
+<span> </span>
 
-Если пользователь входит с помощью Lync 2010 или более ранней версии клиента или пользователь не подключен к серверу Exchange 2013, политика служб пользователя игнорируется, а контакты пользователя остаются в Lync Server.
+<span data-ttu-id="0ceec-103">_**Тема последнего изменения:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="0ceec-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-Можно определить, перенесены ли контакты пользователя, с помощью любого из следующих методов:
+<span data-ttu-id="0ceec-104">Пользовательские контакты автоматически переносятся на сервер Exchange 2013, когда пользователь:</span><span class="sxs-lookup"><span data-stu-id="0ceec-104">A user's contacts are automatically migrated to the Exchange 2013 server when the user:</span></span>
 
-  - Проверьте следующий раздел реестра на клиентском компьютере:
+  - <span data-ttu-id="0ceec-105">Назначена политика пользовательских служб, у которой Уксалловед установлено значение true.</span><span class="sxs-lookup"><span data-stu-id="0ceec-105">Has been assigned a user services policy that has UcsAllowed set to True.</span></span>
+
+  - <span data-ttu-id="0ceec-106">Была настроена с помощью почтового ящика Exchange 2013 и один раз вошел в почтовый ящик.</span><span class="sxs-lookup"><span data-stu-id="0ceec-106">Has been provisioned with an Exchange 2013 mailbox and has signed into the mailbox at least once.</span></span>
+
+  - <span data-ttu-id="0ceec-107">Войдите в систему с помощью клиента Lync 2013 с богатыми возможностями.</span><span class="sxs-lookup"><span data-stu-id="0ceec-107">Logs in by using a Lync 2013 rich client.</span></span>
+
+<span data-ttu-id="0ceec-108">Если пользователь входит в систему с помощью клиента Lync 2010 или более ранней версии или пользователь не подключен к серверу Exchange 2013, политика служб пользователей игнорируется, а контакты пользователя остаются в Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0ceec-108">If the user logs in with a Lync 2010 or earlier client, or if the user is not connected to an Exchange 2013 server, the user services policy is ignored and the user's contacts remain in Lync Server.</span></span>
+
+<span data-ttu-id="0ceec-109">Чтобы определить, перенесены ли контакты пользователя, используйте один из указанных ниже способов.</span><span class="sxs-lookup"><span data-stu-id="0ceec-109">You can determine whether a user's contacts have been migrated by using either of the following methods:</span></span>
+
+  - <span data-ttu-id="0ceec-110">На клиентском компьютере проверьте следующий раздел реестра:</span><span class="sxs-lookup"><span data-stu-id="0ceec-110">Check the following registry key on the client computer:</span></span>
     
-    HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS
+    <span data-ttu-id="0ceec-111">\_Пользовательское\\программное\\обеспечение\\для\\hKey\\\_Microsoft\\\<Office 15,0\>\\Lync SIP URL UCS</span><span class="sxs-lookup"><span data-stu-id="0ceec-111">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span></span>
     
-    Если контакты пользователя хранятся в Exchange 2013, этот раздел содержит параметр InUCSMode со значением 2165.
+    <span data-ttu-id="0ceec-112">Если контакты пользователя хранятся в Exchange 2013, в этом разделе содержится значение Инуксмоде со значением 2165.</span><span class="sxs-lookup"><span data-stu-id="0ceec-112">If the user's contacts are stored in Exchange 2013, this key contains a value of InUCSMode with a value of 2165.</span></span>
 
-  - Выполните командлет **Test-CsUnifiedContactStore**. В командной строке Командная консоль Lync Server введите следующий текст:
+  - <span data-ttu-id="0ceec-113">Запустите командлет **Test-ксунифиедконтактсторе** .</span><span class="sxs-lookup"><span data-stu-id="0ceec-113">Run the **Test-CsUnifiedContactStore** cmdlet.</span></span> <span data-ttu-id="0ceec-114">В командной строке оболочки Lync Server Management Shell введите:</span><span class="sxs-lookup"><span data-stu-id="0ceec-114">At the Lync Server Management Shell command line, type:</span></span>
     
         Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
     
-    Если командлет **Test-CsUnifiedContactStore** выполнен успешно, следовательно, выполнен перенос контактов пользователя к единое хранилище контактов.
+    <span data-ttu-id="0ceec-115">Если **тест-ксунифиедконтактсторе** выполняется успешно, контакты пользователя были перенесены в единое хранилище контактов.</span><span class="sxs-lookup"><span data-stu-id="0ceec-115">If **Test-CsUnifiedContactStore** succeeds, the user's contacts were migrated to unified contact store.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

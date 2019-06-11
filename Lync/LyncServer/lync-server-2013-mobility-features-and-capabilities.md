@@ -1,69 +1,131 @@
-﻿---
-title: 'Lync Server 2013: функции и возможности мобильной работы'
-TOCTitle: Функции и возможности мобильной работы
-ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh689983(v=OCS.15)
-ms:contentKeyID: 49309000
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: функции и возможности мобильной работы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility features and capabilities
+ms:assetid: 12517a88-2531-44a5-bea5-d8884aff53eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689983(v=OCS.15)
+ms:contentKeyID: 48183457
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4e47a37acd45ed577b9ad730de39c79d4113c8f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827195"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Функции и возможности мобильной работы в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="mobility-features-and-capabilities-in-lync-server-2013"></a><span data-ttu-id="8c2e1-102">Функции и возможности мобильной работы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8c2e1-102">Mobility features and capabilities in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="8c2e1-103">_**Тема последнего изменения:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="8c2e1-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Компонент мобильности, представленный в накопительных пакетах обновления для Lync Server 2013 за февраль 2013 года, поддерживает функциональные возможности клиентов Lync 2010 Mobile и Lync 2013 Mobile. Когда развертывается служба мобильности Lync Server 2013 Mobility Service, пользователи могут с помощью поддерживаемых мобильных устройств на платформе Apple iOS, Android, Windows Phone или Nokia Symbian выполнять такие действия, как отправка и прием мгновенных сообщений, просмотр контактов и просмотр присутствия. Также мобильные устройства поддерживают некоторые функции Корпоративной голосовой связи, такие как присоединение к конференции, "Позвонить с рабочего", доступ по одному номеру, голосовая почта и пропущенные звонки. К новым компонентам, представленным в накопительных пакетах обновления для Lync Server 2013 за февраль 2013 года, относится возможность использования протокола VoIP и видео (H.264) для участника собрания.
+<span data-ttu-id="8c2e1-104">Функция мобильной связи, представленная в накопительных обновлениях для Lync Server 2013: Февраль 2013 поддерживает функции мобильных клиентов Lync 2010 Mobile и Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-104">The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2010 Mobile and Lync 2013 Mobile clients functionality.</span></span> <span data-ttu-id="8c2e1-105">При развертывании службы Lync Server 2013 Mobility Service пользователи могут использовать поддерживаемые устройства Apple iOS, Android и Windows Phone или Nokia Symbian на мобильных устройствах для выполнения таких операций, как отправка и получение мгновенных сообщений, просмотр контактов и Просмотр сведений о присутствии.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-105">When you deploy the Lync Server 2013 Mobility Service, users can use supported Apple iOS, Android, and Windows Phone, or Nokia Symbian mobile devices to perform activities such as sending and receiving instant messages, viewing contacts, and viewing presence.</span></span> <span data-ttu-id="8c2e1-106">Кроме того, мобильные устройства поддерживают некоторые корпоративные функции голосовой связи, например, для присоединения к Конференции, звонков через Skype, голосовую почту и пропущенных звонков.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-106">In addition, mobile devices support some Enterprise Voice features, such as click to join a conference, Call via Work, single number reach, voice mail, and missed calls.</span></span> <span data-ttu-id="8c2e1-107">Новые функции, представленные в накопительных обновлениях для Lync Server 2013: Февраль 2013 включают возможности голосовой связи по протоколу IP (VoIP) и видео (H. 264) для участника собрания.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-107">New features introduced in the Cumulative Updates for Lync Server 2013: February 2013 include Voice over IP (VoIP) capability and video (H.264) for meeting attendee.</span></span>
 
-Компонент мобильности, представленный в накопительных пакетах обновления для Lync Server 2013 за февраль 2013 года, поддерживает функциональные возможности клиентов Lync 2013 Mobile. Накопительные пакеты обновления для Lync Server 2013 за февраль 2013 года устанавливают веб-интерфейс API объединенных коммуникаций (UCWA). UCWA представляет собой компонент, используемый для клиентов Lync 2013 Mobile. В Lync Server 2013 Mcx используется для клиентов Lync 2010 Mobile. Накопительные пакеты обновления для Lync Server 2013 за февраль 2013 года представляют UCWA как новую точку входа для мобильных служб. Параллельно Lync Server 2013 внедряет службу Mobility Service (Mcx), представленную в накопительных пакетах обновления для Lync Server 2010 за ноябрь 2011 года, и предоставляет поддержку для Lync 2010 Mobile. При развертывании накопительных пакетов обновления для Lync Server 2013 за февраль 2013 года пользователи могут использовать поддерживаемые мобильные устройства на базе Apple iOS, Android и Windows Phone для выполнения следующих действий:
+<span data-ttu-id="8c2e1-108">Функция мобильной связи, представленная в накопительных обновлениях для Lync Server 2013: Февраль 2013 поддерживает функции мобильных клиентов Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-108">The mobility feature introduced in the Cumulative Updates for Lync Server 2013: February 2013 supports Lync 2013 Mobile client functionality.</span></span> <span data-ttu-id="8c2e1-109">Накопительные обновления для Lync Server 2013: Февраль 2013 установите веб-API единой системы обмена сообщениями или УКВА.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-109">The Cumulative Updates for Lync Server 2013: February 2013 install Unified Communications Web API, or UCWA.</span></span> <span data-ttu-id="8c2e1-110">УКВА является компонентом, используемым для мобильных клиентов Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-110">UCWA is the component used for Lync 2013 Mobile clients.</span></span> <span data-ttu-id="8c2e1-111">В Lync Server 2013 МККС используется для мобильных клиентов Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-111">In Lync Server 2013, Mcx is used for Lync 2010 Mobile clients.</span></span> <span data-ttu-id="8c2e1-112">Накопительные обновления для Lync Server 2013: Февраль 2013 вводят УКВА как новую точку входа для служб Mobility Service.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-112">Cumulative Updates for Lync Server 2013: February 2013 introduce UCWA as the new entry point for mobility services.</span></span> <span data-ttu-id="8c2e1-113">Lync Server 2013 параллельно реализует службу Mobility Service (МККС), которая представлена в накопительных обновлениях для Lync Server 2010: Ноябрь 2011, и обеспечивает поддержку Lync 2010 Mobile.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-113">Lync Server 2013 concurrently implements the Mobility Service (Mcx), introduced in the Cumulative Updates for Lync Server 2010: November 2011, and provides support for Lync 2010 Mobile.</span></span> <span data-ttu-id="8c2e1-114">При развертывании накопительных обновлений для Lync Server 2013: Февраль 2013, пользователи могут использовать поддерживаемые мобильные устройства Apple iOS, Android и Windows Phone для выполнения таких действий, как:</span><span class="sxs-lookup"><span data-stu-id="8c2e1-114">When you deploy the Cumulative Updates for Lync Server 2013: February 2013, users can use supported Apple iOS, Android, and Windows Phone mobile devices to perform such activities as:</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Возможности, поддерживаемые службой Mobility Service, которые были получены из накопительных пакетов обновления для Lync Server 2010 за ноябрь 2011 года, отмечены как (Mcx). Все перечисленные возможности поддерживаются UCWA, который был представлен в накопительных пакетах обновления для Lync Server 2013 за февраль 2013 года.
-
-  - Отправка и прием мгновенных сообщений (Mcx)
-
-  - Просмотр сведений о присутствии (Mcx)
-
-  - Просмотр контактов (Mcx)
-
-  - Присоединение к конференции (Mcx)
-
-  - Звонок с рабочего телефона (Mcx)
-
-  - Доступ по одному номеру (Mcx)
-
-  - Голосовая почта (Mcx)
-
-  - Уведомление о пропущенных звонках (Mcx)
-
-  - Протокол VoIP
-
-  - Видео участника (H.264)
-
-> [!NOTE]  
-> Lync 2010 Mobile предоставляет клиент для мобильных устройств на базе Nokia Symbian. В Lync 2013 Mobile клиент для мобильных устройств на базе Nokia Symbian будет отсутствовать.
-
-Пользователи Apple iPad имеют доступ к расширенным возможностям. После присоединения к собранию с помощью обратного аудиовызова пользователь iPad может просматривать выгруженные презентации Microsoft PowerPoint в рамках собрания, совместно использовать приложения и рабочие столы, просматривать список участников собрания и получать уведомления о других типах содержимого, которое совместно используется в рамках собрания.
+> <span data-ttu-id="8c2e1-115">Возможности, поддерживаемые службой Mobility Service из накопительных обновлений для Lync Server 2010: Ноябрь 2011 отмечены вместе с (МККС).</span><span class="sxs-lookup"><span data-stu-id="8c2e1-115">Features supported by the Mobility Service from the Cumulative Updates for Lync Server 2010: November 2011 are noted with (Mcx).</span></span> <span data-ttu-id="8c2e1-116">Все перечисленные функции поддерживаются УКВА, представленными в накопительных обновлениях для Lync Server 2013: Февраль 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-116">All listed features are supported by the UCWA, introduced in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 
-> [!TIP]
-> Функция доступа посредством одного номера позволяет пользователю принимать на мобильный телефон звонки, которые были сделаны путем набора рабочего номера. При использовании функции "Позвонить с рабочего" пользователь выполняет исходящий звонок из клиента Lync Mobile, используя номер рабочего телефона вместо номера мобильного телефона. При обратном звонке клиент отправляет в Mcx или UCWA (в зависимости от версии Lync Mobile) запрос о выполнении звонка. Сервер инициирует звонок, а затем посылает обратный вызов на мобильный телефон пользователя. Когда пользователь отвечает, сервер завершает звонок и набирает номер собеседника. При использовании функции "Позвонить с рабочего" в ходе звонка используются рабочие идентификационные данные пользователя, то есть вызываемый абонент не видит номера мобильного телефона пользователя и пользователь может избежать соответствующих расходов за исходящий вызов.
 
+</div>
+
+  - <span data-ttu-id="8c2e1-117">Отправка и получение мгновенных сообщений (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-117">Send and receive instant messages (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-118">Просмотр сведений о присутствии (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-118">View presence (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-119">Просмотр контактов (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-119">View contacts (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-120">Щелкните, чтобы присоединиться к Конференции (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-120">Click to join a conference (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-121">Позвонить с помощью работы (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-121">Call via work (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-122">Однозначный номер (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-122">Single number reach (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-123">Голосовая почта (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-123">Voice mail (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-124">Уведомление о пропущенном звонке (МККС)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-124">Missed call notification (Mcx)</span></span>
+
+  - <span data-ttu-id="8c2e1-125">Протокол VoIP</span><span class="sxs-lookup"><span data-stu-id="8c2e1-125">Voice over IP (VoIP)</span></span>
+
+  - <span data-ttu-id="8c2e1-126">Видео участника (H.264)</span><span class="sxs-lookup"><span data-stu-id="8c2e1-126">Attendee video (H.264)</span></span>
+
+<div>
 
 
 > [!NOTE]  
-> Не все функции работают одинаково на всех мобильных устройствах. Сведения о функциях, поддерживаемых на мобильных устройствах, см. в таблицах сравнения мобильных клиентов по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</a>. Сведения о поддерживаемых устройствах и операционных системах см. в статьях с описанием требований в документации <a href="lync-server-2013-planning-for-mobile-clients.md">Планирование для мобильных клиентов в Lync Server 2013</a>.
+> <span data-ttu-id="8c2e1-127">Lync 2010 Mobile предоставил клиента для устройств Nokia Symbian.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-127">Lync 2010 Mobile provided a client for Nokia Symbian devices.</span></span> <span data-ttu-id="8c2e1-128">Lync 2013 Mobile не будет иметь клиента для устройств на базе Symbian Nokia.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-128">Lync 2013 Mobile will not have a client for Nokia Symbian-based devices.</span></span>
 
-При использовании компонента автообнаружения Lync Server 2013 мобильные приложения могут автоматически находить веб-службы Lync Server 2013, что устраняет необходимость ручного ввода URL-адресов в настройках устройства. Ручной ввод URL-адресов в параметрах мобильных устройств также поддерживается и используется в основном в целях диагностики.
+
+
+</div>
+
+<span data-ttu-id="8c2e1-129">Пользователи Apple iPad смогут получить доступ к расширенным возможностям.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-129">Apple iPad users will have access to enhanced capabilities.</span></span> <span data-ttu-id="8c2e1-130">После присоединения к собранию с помощью голосового звонка пользователь iPad сможет просматривать загруженные презентации Microsoft PowerPoint в собрании, совместно использовать приложения и настольные компьютеры, просматривать список участников собрания и получать уведомления о других типах контента. Общий доступ в собрании.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-130">After joining a meeting by using audio call back, an iPad user will be able to view uploaded Microsoft PowerPoint presentations within a meeting, share applications and desktops, view the meeting participant list, and receive notifications of other content types that are being shared within the meeting.</span></span>
+
+<div>
+
+
+> [!TIP]  
+> <span data-ttu-id="8c2e1-131">При наличии одного номера пользователь принимает звонки на мобильный телефон, набираемый на рабочий номер.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-131">With single number reach, a user receives calls on a mobile phone that were dialed to the work number.</span></span> <span data-ttu-id="8c2e1-132">С помощью функции "звонок через Work" пользователь походит на исходящий звонок из клиента Lync Mobile, используя рабочий телефон, а не номер мобильного телефона.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-132">With Call via Work, the user places an outbound call from the Lync Mobile client by using a work phone number instead of the mobile phone number.</span></span> <span data-ttu-id="8c2e1-133">При использовании удаленного доступа клиент отправляет запрос на МККС или УКВА (на основе версии Lync Mobile) для осуществления звонка.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-133">With dial-out, the client sends a request to Mcx or UCWA (based on the Lync Mobile version) to make the call for them.</span></span> <span data-ttu-id="8c2e1-134">Сервер инициирует звонок, а затем снова вызывает пользователя на мобильном телефоне.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-134">The server initiates the call and then calls the user back on the mobile phone.</span></span> <span data-ttu-id="8c2e1-135">После того как пользователь ответит, сервер завершает звонок, набрав другого абонента.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-135">When the user answers, the server completes the call by dialing the other party.</span></span> <span data-ttu-id="8c2e1-136">Используя функцию "звонок с помощью работы", пользователи могут сохранять свою работу во время звонка, что означает, что получатель звонка не видит номер мобильного телефона вызывающего абонента, и вызывающий объект не позволяет устранить подлинность исходящих звонков.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-136">By using Call via Work, users can maintain their work identity during a call, which means that the call recipient does not see the caller's mobile number, and the caller avoids incurring outbound calling charges.</span></span>
+
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="8c2e1-137">Некоторые функции работают одинаково на всех мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-137">Not all features work exactly the same on all mobile devices.</span></span> <span data-ttu-id="8c2e1-138">Дополнительные сведения о функциях, поддерживаемых на мобильных устройствах, можно найти в таблице сравнения <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>мобильных клиентов.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-138">For details about features supported on mobile devices, see the Mobile Client Comparison Tables at <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>.</span></span> <span data-ttu-id="8c2e1-139">Подробные сведения о поддерживаемых устройствах и операционных системах можно найти в разделах требования в разделе <A href="lync-server-2013-planning-for-mobile-clients.md">планирование для мобильных клиентов в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-139">For details about supported devices and operating systems, see the requirements topics under <A href="lync-server-2013-planning-for-mobile-clients.md">Planning for mobile clients in Lync Server 2013</A>.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="8c2e1-140">Если вы используете функцию автообнаружения Lync Server 2013, мобильные приложения смогут автоматически находить веб-службы Lync Server 2013, не требуя вручную вводить URL-адреса в параметры устройства.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-140">When you use the Lync Server 2013 Autodiscover feature, mobile applications can automatically locate Lync Server 2013 Web Services without requiring users to manually enter the URLs in their device settings.</span></span> <span data-ttu-id="8c2e1-141">Кроме того, в параметрах мобильного устройства поддерживается ввод URL-адресов вручную, в основном для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-141">Manually entering URLs in mobile device settings is also supported, primarily for troubleshooting purposes.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Mcx и UCWA являются бесплатными службами и развертываются для поддержки клиентов Lync 2010 Mobile и Lync 2013 Mobile. Lync 2013 Mobile не сможет выполнять вход в развертывания Lync Server 2010. Lync 2010 Mobile и Lync 2013 Mobile смогут использовать развертывание Lync Server 2013 с установленными накопительными пакетами обновления для Lync Server 2013 за февраль 2013 года.
+> <span data-ttu-id="8c2e1-142">МККС и УКВА — это бесплатные услуги, и они развертываются для поддержки мобильных клиентов Lync 2010 для мобильных устройств и Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-142">The Mcx and UCWA are complimentary services and both are deployed to support Lync 2010 Mobile and Lync 2013 Mobile clients.</span></span> <span data-ttu-id="8c2e1-143">Lync 2013 Mobile не сможет войти в развертывание Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-143">Lync 2013 Mobile will not be able to sign in to Lync Server 2010 deployments.</span></span> <span data-ttu-id="8c2e1-144">Lync 2010 Mobile и Lync 2013 Mobile также смогут использовать развертывание Lync Server 2013 с накопительными обновлениями для Lync Server 2013: применено обновлений за Февраль 2013 г.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-144">Lync 2010 Mobile and Lync 2013 Mobile will be able to use a Lync Server 2013 deployment with the Cumulative Updates for Lync Server 2013: February 2013 applied.</span></span>
 
-Функция мобильности также поддерживает *push-уведомления* для мобильных устройств, на которых невозможна работа приложений в фоновом режиме. Push-уведомление – это передаваемое на мобильное устройство уведомление о событии, которое произошло в то время, когда мобильное приложение было неактивно. Примером события, которое приводит к отправке push-уведомления, является пропущенное приглашение к участию в сеансе обмена мгновенными сообщениями.
 
-Mcx, UCWA, служба автообнаружения и поддержка push-уведомлений предоставлены в Lync Server 2013. Обновленные компоненты и возможности клиента и использование UCWA в качестве точки входа для мобильных служб представлены в накопительных пакетах обновления для Lync Server 2013 за февраль 2013 года.
+
+</div>
+
+<span data-ttu-id="8c2e1-145">Функция Mobility также поддерживает *Push-уведомления* для мобильных устройств, которые не поддерживают приложения, работающие в фоновом режиме.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-145">The mobility feature also supports *push notifications* for mobile devices that do not support applications running in the background.</span></span> <span data-ttu-id="8c2e1-146">Push-уведомление — это уведомление, которое отправляется на мобильное устройство для события, которое происходит, когда мобильное приложение неактивно.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-146">A push notification is a notification that is sent to a mobile device about an event that occurs while a mobile application is inactive.</span></span> <span data-ttu-id="8c2e1-147">Например, сообщение с приглашением на обмен мгновенными сообщениями может привести к появлению push-уведомлений.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-147">For example, a missed instant messaging (IM) invitation can result in a push notification.</span></span>
+
+<span data-ttu-id="8c2e1-148">МККС, УКВА, служба автообнаружения и поддержка push-уведомлений предоставляются в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-148">Mcx, UCWA, Autodiscover Service, and support for push notifications are provided in Lync Server 2013.</span></span> <span data-ttu-id="8c2e1-149">Обновленные функции клиента, возможности и использование УКВА в качестве точки входа для мобильных устройств представлены в накопительных обновлениях для Lync Server 2013: Февраль 2013.</span><span class="sxs-lookup"><span data-stu-id="8c2e1-149">Updated client features, capabilities, and the use of UCWA as the mobility entry point are introduced in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

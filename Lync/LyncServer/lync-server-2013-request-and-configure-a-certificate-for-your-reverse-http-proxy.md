@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: запрос и настройка сертификата для обратного HTTP-прокси'
-TOCTitle: Запрос и настройка сертификата для обратного HTTP-прокси
-ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg429704(v=OCS.15)
-ms:contentKeyID: 49309689
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Запрос и настройка сертификата для обратного HTTP-прокси
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Request and configure a certificate for your reverse HTTP proxy
+ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
+ms:contentKeyID: 48184085
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823310"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Запрос и настройка сертификата для обратного HTTP-прокси в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a><span data-ttu-id="bc02c-102">Запрос и настройка сертификата для обратного HTTP-прокси в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc02c-102">Request and configure a certificate for your reverse HTTP proxy in Lync Server 2013</span></span>
 
-Вам требуется установить сертификат корневого центра сертификации (ЦС) на сервере с шлюзом Microsoft Forefront Threat Management Gateway 2010 или с маршрутизацией запросов приложений IIS для инфраструктуры ЦС, выдавшего серверные сертификаты внутренним серверам с Microsoft Lync Server 2013.
+</div>
 
-Вам также следует установить общий сертификат веб-сервера на обратный прокси-сервер. Альтернативные имена субъектов этого сертификата должны содержать опубликованные внешние полные доменные имена для каждого пула, в котором размещаются пользователи с включенной поддержкой удаленного доступа, а также внешние полные доменные имена всех Директоров или пулов Директоров, которые будут использоваться в рамках пограничной инфраструктуры. Альтернативное имя субъекта также должно содержать простой URL-адрес собрания, простой URL-адрес для телефонного подключения и – если вы развертываете мобильные приложения и планируете использовать автоматическое обнаружение – внешний URL-адрес службы автообнаружения, как показано в следующей таблице.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="bc02c-103">_**Тема последнего изменения:** 2014-02-14_</span><span class="sxs-lookup"><span data-stu-id="bc02c-103">_**Topic Last Modified:** 2014-02-14_</span></span>
+
+<span data-ttu-id="bc02c-104">Необходимо установить сертификат корневого центра сертификации (ЦС) на сервере под управлением Microsoft Forefront Threat Management Gateway 2010 или IIS ARR для инфраструктуры центра сертификации, выдавшего сертификаты сервера внутренним серверам, на которых запущено приложение Microsoft Lync. Сервер 2013.</span><span class="sxs-lookup"><span data-stu-id="bc02c-104">You need to install the root certification authority (CA) certificate on the server running Microsoft Forefront Threat Management Gateway 2010 or IIS ARR for the CA infrastructure that issued the server certificates to the internal servers running Microsoft Lync Server 2013.</span></span>
+
+<span data-ttu-id="bc02c-105">Кроме того, необходимо установить общедоступный сертификат веб-сервера на обратном прокси-сервере.</span><span class="sxs-lookup"><span data-stu-id="bc02c-105">You also must install a public web server certificate on your reverse proxy server.</span></span> <span data-ttu-id="bc02c-106">Дополнительные имена субъектов для этого сертификата должны содержать опубликованные внешние полные доменные имена для каждого пула, который является доменом для пользователей, для которых разрешен удаленный доступ, и внешнее FQDN для всех директоров и пулов, которые будут использоваться в течение Эта инфраструктура пограничного.</span><span class="sxs-lookup"><span data-stu-id="bc02c-106">This certificate’s subject alternative names should contain the published external fully qualified domain names (FQDNs) of each pool that is home to users enabled for remote access, and the external FQDNs of all Directors or Director pools that will be used within that Edge infrastructure.</span></span> <span data-ttu-id="bc02c-107">Альтернативное имя темы также должно содержать простой URL-адрес для собрания, простой URL-адрес для телефонного подключения и, если вы развертываете мобильные приложения, и запланировать использование автоматического обнаружения, URL-адрес службы внешнего автообнаружения, как показано в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="bc02c-107">The subject alternative name must also contain the meeting simple URL, the dial-in simple URL, and, if you are deploying mobile applications and plan to use automatic discovery, the external Autodiscover Service URL as shown in the following table.</span></span>
 
 
 <table>
@@ -29,58 +49,64 @@ _**Дата изменения раздела:** 2016-12-08_
 <thead>
 <tr class="header">
 <th></th>
-<th>Значение</th>
-<th>Пример</th>
+<th><span data-ttu-id="bc02c-108">Значение</span><span class="sxs-lookup"><span data-stu-id="bc02c-108">Value</span></span></th>
+<th><span data-ttu-id="bc02c-109">Пример</span><span class="sxs-lookup"><span data-stu-id="bc02c-109">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя субъекта</p></td>
-<td><p>Полное доменное имя пула</p></td>
-<td><p>webext.contoso.com</p></td>
+<td><p><span data-ttu-id="bc02c-110">Имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-110">Subject name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-111">Полное доменное имя пула</span><span class="sxs-lookup"><span data-stu-id="bc02c-111">Pool FQDN</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-112">webext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-112">webext.contoso.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Альтернативное имя субъекта</p></td>
-<td><p>Полное доменное имя пула</p></td>
-<td><p>webext.contoso.com</p>
+<td><p><span data-ttu-id="bc02c-113">Альтернативное имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-113">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-114">Полное доменное имя пула</span><span class="sxs-lookup"><span data-stu-id="bc02c-114">Pool FQDN</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-115">webext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-115">webext.contoso.com</span></span></p>
 
-> [!IMPORTANT]  
-> Это имя субъекта также должно присутствовать в альтернативном имени субъекта.
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="bc02c-116">Имя субъекта должно быть указано в альтернативном имени субъекта.</span><span class="sxs-lookup"><span data-stu-id="bc02c-116">The subject name must also be present in the subject alternative name.</span></span>
 
 </td>
 </tr>
 <tr class="odd">
-<td><p>Альтернативное имя субъекта</p></td>
-<td><p>Необязательно Директор Веб-службы (если развернут Директор)</p></td>
-<td><p>webdirext.contoso.com</p></td>
+<td><p><span data-ttu-id="bc02c-117">Альтернативное имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-117">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-118">Необязательные веб-службы режиссера (если режиссер развернут)</span><span class="sxs-lookup"><span data-stu-id="bc02c-118">Optional Director Web Services (if Director is deployed)</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-119">webdirext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-119">webdirext.contoso.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Альтернативное имя субъекта</p></td>
-<td><p>Простой URL-адрес собрания</p>
+<td><p><span data-ttu-id="bc02c-120">Альтернативное имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-120">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-121">Простой URL-адрес для собрания</span><span class="sxs-lookup"><span data-stu-id="bc02c-121">Meeting simple URL</span></span></p>
 
-> [!NOTE]  
-> Все простые URL-адреса собраний должны находиться в альтернативном имени субъекта. Каждый SIP-домен должен иметь хотя бы один активный простой URL-адрес собрания.
+
+
+> [!NOTE]
+> <span data-ttu-id="bc02c-122">Все простые URL-адреса собраний должны находиться в альтернативном имени субъекта.</span><span class="sxs-lookup"><span data-stu-id="bc02c-122">All meeting simple URLs must be in the subject alternative name.</span></span> <span data-ttu-id="bc02c-123">У каждого домена SIP должен быть хотя бы один активный простой URL-адрес для собрания.</span><span class="sxs-lookup"><span data-stu-id="bc02c-123">Each SIP domain must have at least one active meeting simple URL.</span></span>
 
 </td>
-<td><p>meet.contoso.com</p></td>
+<td><p><span data-ttu-id="bc02c-124">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-124">meet.contoso.com</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Альтернативное имя субъекта</p></td>
-<td><p>Простой URL-адрес для телефонного подключения</p></td>
-<td><p>dialin.contoso.com</p></td>
+<td><p><span data-ttu-id="bc02c-125">Альтернативное имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-125">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-126">Простой URL-адрес для телефонного подключения</span><span class="sxs-lookup"><span data-stu-id="bc02c-126">Dial-in simple URL</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-127">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-127">dialin.contoso.com</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Альтернативное имя субъекта</p></td>
-<td><p>сервер Office Web Apps</p></td>
-<td><p>officewebapps01.contoso.com</p></td>
+<td><p><span data-ttu-id="bc02c-128">Альтернативное имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-128">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-129">Сервер Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="bc02c-129">Office Web Apps Server</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-130">officewebapps01.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-130">officewebapps01.contoso.com</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Альтернативное имя субъекта</p></td>
-<td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>lyncdiscover.contoso.com</p>
+<td><p><span data-ttu-id="bc02c-131">Альтернативное имя субъекта</span><span class="sxs-lookup"><span data-stu-id="bc02c-131">Subject alternative name</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-132">Внешний URL-адрес службы автообнаружения</span><span class="sxs-lookup"><span data-stu-id="bc02c-132">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="bc02c-133">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="bc02c-133">lyncdiscover.contoso.com</span></span></p>
 
-> [!NOTE]  
-> Если вы также используете Microsoft Exchange Server, то необходимо настроить правила обратного прокси-сервера для автообнаружения Exchange и URL-адресов веб-служб.
+
+
+> [!NOTE]
+> <span data-ttu-id="bc02c-134">Если вы также используете Microsoft Exchange Server, вам также потребуется настроить обратные правила прокси-сервера для URL-адресов автообнаружения Exchange и Web Services.</span><span class="sxs-lookup"><span data-stu-id="bc02c-134">If you are also using Microsoft Exchange Server you will also need to configure reverse proxy rules for the Exchange autodiscover and web services URLs.</span></span>
 
 </td>
 </tr>
@@ -88,78 +114,121 @@ _**Дата изменения раздела:** 2016-12-08_
 </table>
 
 
-> [!NOTE]  
-> Если ваше внутреннее развертывание состоит из нескольких серверов Standard Edition или интерфейсных пулов, вам следует настроить правила веб-публикации для каждого полного доменного имени внешней веб-фермы и потребуется использовать сертификат и веб-прослушиватель для каждого из них либо получить сертификат, альтернативное имя субъекта которого содержит имена, используемые всеми пулами, назначить его веб-прослушивателю и совместно использовать в нескольких правилах веб-публикации.
+<div>
 
-## Создание запроса сертификата
 
-Вы можете создать запрос сертификата на обратном прокси-сервере. Этот запрос создается на другом компьютере, но после получения закрытого ключа из публичного центра сертификации необходимо экспортировать подписанный сертификат с этим ключом, а затем импортировать его на обратный прокси-сервер.
+> [!NOTE]
+> <span data-ttu-id="bc02c-135">Если внутреннее развертывание состоит из более чем одного стандартного сервера выпуска или пула переднего плана, необходимо настроить правила веб-публикации для каждого полного доменного имени внешней веб-фермы, и вам потребуется сертификат и веб-прослушиватель для каждого из них, или необходимо получить сертификат. , чье замещающее имя темы включает имена, используемые всеми пулами, назначение его веб-прослушивателю и предоставление общего доступа к нему из нескольких правил веб-публикации.</span><span class="sxs-lookup"><span data-stu-id="bc02c-135">If your internal deployment consists of more than one Standard Edition server or Front End pool, you must configure web publishing rules for each external web farm FQDN and you will either need a certificate and web listener for each, or you must obtain a certificate whose subject alternative name contains the names used by all of the pools, assign it to a web listener, and share it among multiple web publishing rules.</span></span>
 
-> [!NOTE]  
-> Запрос сертификата или запрос подписи сертификата (CSR) – это запрос к доверенному публичному центру сертификации (ЦС) на проверку и подписание открытого ключа запрашивающего компьютера. При создании сертификата создаются открытый и закрытый ключи. Только открытый ключ подписывается и является общедоступным. Как следует из названия, открытый ключ делается доступным для любого общедоступного запроса. Открытый ключ предназначен для использования клиентами, серверами и другими инициаторами запросов, которым нужно безопасно обмениваться данными и проверять удостоверение компьютера. Закрытый ключ хранится в безопасном месте и используется только тем компьютером, на котором создана пара ключей для расшифровки сообщений, зашифрованных с помощью открытого ключа. Закрытый ключ можно использовать для других целей. Для потребностей обратного прокси-сервера в первую очередь используется шифрование данных. Также используется проверка подлинности с помощью сертификата на уровне ключа сертификата. В эту проверку входит только подтверждение, что инициатор запроса имеет открытый ключ компьютера или компьютер, для которого есть открытый ключ, на самом деле является тем, за кого себя выдает.
+
+
+</div>
+
+<div>
+
+## <a name="create-a-certificate-request"></a><span data-ttu-id="bc02c-136">Создание запроса на сертификат</span><span class="sxs-lookup"><span data-stu-id="bc02c-136">Create a Certificate Request</span></span>
+
+<span data-ttu-id="bc02c-137">Вы создаете запрос на сертификат на обратном прокси-сервере.</span><span class="sxs-lookup"><span data-stu-id="bc02c-137">You create a certificate request on the reverse proxy.</span></span> <span data-ttu-id="bc02c-138">Вы создаете запрос на другом компьютере, но хотите экспортировать подписанный сертификат с закрытым ключом и импортировать его на обратный прокси-сервер после того, как вы получили его от общедоступного центра сертификации.</span><span class="sxs-lookup"><span data-stu-id="bc02c-138">You create a request on another computer, but you must export the signed certificate with the private key and import it onto the reverse proxy once you have received it from the public certification authority.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="bc02c-139">Запрос на сертификат или запрос подписи сертификата (CSR) — это запрос доверенного общедоступного центра сертификации (ЦС) для проверки и подписывания открытого ключа компьютера-запроса.</span><span class="sxs-lookup"><span data-stu-id="bc02c-139">A certificate request or a certificate signing request (CSR) is a request to a trusted public certification authority (CA) to validate and sign the requesting computer’s public key.</span></span> <span data-ttu-id="bc02c-140">При создании сертификата создается открытый ключ и закрытый ключ.</span><span class="sxs-lookup"><span data-stu-id="bc02c-140">When a certificate is generated, a public key and a private key are created.</span></span> <span data-ttu-id="bc02c-141">Только открытый ключ является общим и подписанным.</span><span class="sxs-lookup"><span data-stu-id="bc02c-141">Only the public key is shared and signed.</span></span> <span data-ttu-id="bc02c-142">Как указано в имени, Открытый ключ предоставляется любому общедоступному запросу.</span><span class="sxs-lookup"><span data-stu-id="bc02c-142">As the name implies, the public key is made available to any public request.</span></span> <span data-ttu-id="bc02c-143">Открытый ключ предназначен для использования клиентами, серверами и другими инициаторами запроса, которые должны безопасно обмениваться сведениями и проверять удостоверение компьютера.</span><span class="sxs-lookup"><span data-stu-id="bc02c-143">The public key is for use by clients, servers and other requesters that need to exchange information securely and validate a computer’s identity.</span></span> <span data-ttu-id="bc02c-144">Закрытый ключ защищен и используется только компьютером, который создал пару ключей для расшифровки сообщений, зашифрованных с помощью открытого ключа.</span><span class="sxs-lookup"><span data-stu-id="bc02c-144">The private key is kept secured and is used only by the computer that created the key pair to decrypt messages encrypted with its public key.</span></span> <span data-ttu-id="bc02c-145">Закрытый ключ можно использовать для других целей.</span><span class="sxs-lookup"><span data-stu-id="bc02c-145">The private key can be used for other purposes.</span></span> <span data-ttu-id="bc02c-146">Для обратной идентификации прокси-сервера используется шифрование данных.</span><span class="sxs-lookup"><span data-stu-id="bc02c-146">For reverse proxy purposes, data encipherment is the primary use.</span></span> <span data-ttu-id="bc02c-147">Секондарили, проверка подлинности сертификата на уровне ключа сертификата является другой, и она ограничивается только подтверждением того, что у инициатора запроса есть открытый ключ компьютера, и что компьютер, на котором он открыт, действительно является компьютером, на котором он находится.</span><span class="sxs-lookup"><span data-stu-id="bc02c-147">Secondarily, the certificate authentication at the certificate key level is another use, and is limited only to validation that a requester has the computer’s public key, or that the computer that you have a public key for is actually the computer that it claims to be.</span></span>
+
+
+
+</div>
+
+<div>
 
 
 > [!TIP]
-> Если вы планируете использовать сертификаты сервер и сертификаты обратного прокси-сервера одновременно, учтите, что требования к этим сертификатам очень похожи. При настройке и запросе сертификата сервер объедините альтернативные имена субъекта сервер и обратного прокси-сервера. Вы можете использовать этот же сертификат для обратного прокси-сервера, если экспортируете сертификат с закрытым ключом и скопируете экспортированный файл на обратный прокси-сервер, а затем импортируете сертификат или пару ключей и назначите их, как того требуют предстоящие процедуры. Ознакомьтесь с требованиями к сертификатам для сервер&nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">Планирование сертификатов пограничного сервера в Lync Server 2013</A> и обратного прокси-сервера <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Сводка по сертификатам — обратный прокси-сервер в Lync Server 2013</A>. Обязательно создайте сертификат с экспортируемым закрытым ключом. Создание сертификата и запроса сертификата с экспортируемым закрытым ключом необходимо для сервера сервер, входящего в состав пула. Это обычная процедура, и мастер сертификатов в развертывания Lync Server для сервер позволит вам установить флажок <STRONG>Сделать закрытый ключ экспортируемым</STRONG> . Как только вы получите обратно запрос сертификата от публичного центра сертификации, вы экспортируете сертификат и закрытый ключ. Чтобы узнать больше о том, как создавать и экспортировать сертификат с закрытым ключом, см. раздел "Экспорт сертификата с закрытым ключом для пограничных серверов в пуле" в статье <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Настройка сертификатов для внешнего интерфейса пограничного сервера для Lync Server 2013</A>. Сертификат должен иметь расширение <STRONG>.PFX</STRONG>.
+> <span data-ttu-id="bc02c-148">Если вы планируете одновременное планирование сертификатов пограничного сервера и прокси-сертификатов, следует обратить внимание на то, что между двумя требованиями к сертификатам есть большое отношение.</span><span class="sxs-lookup"><span data-stu-id="bc02c-148">If you plan your Edge Server certificates and your reverse proxy certificates at the same time, you should notice that there is a great deal of similarity between the two certificate requirements.</span></span> <span data-ttu-id="bc02c-149">Если вы настраиваете и запрашиваете сертификат пограничного сервера, объедините пограничный сервер и альтернативные имена субъектов для обратного прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="bc02c-149">When you configure and request your Edge Server certificate, combine the Edge Server and the reverse proxy subject alternative names.</span></span> <span data-ttu-id="bc02c-150">Вы можете использовать один и тот же сертификат для обратного прокси-сервера в случае экспорта сертификата и закрытого ключа и копирования экспортированного файла в обратный прокси и импорта сертификата или ключа и назначения его в соответствии с предстоящимй процедурой.</span><span class="sxs-lookup"><span data-stu-id="bc02c-150">You can use the same certificate for your reverse proxy if you export the certificate and the private key and copy the exported file to the reverse proxy and then import the certificate/key pair and assign it as needed in the upcoming procedures.</span></span> <span data-ttu-id="bc02c-151">Ознакомьтесь со сведениями о требованиях к сертификатам для плана пограничного сервера&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">в Lync Server 2013</A> и обратной связи <A href="lync-server-2013-certificate-summary-reverse-proxy.md">сертификата прокси-сервера в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="bc02c-151">Refer to the certificate requirements for the Edge Server&nbsp;<A href="lync-server-2013-plan-for-edge-server-certificates.md">Plan for Edge Server certificates in Lync Server 2013</A> and the reverse proxy <A href="lync-server-2013-certificate-summary-reverse-proxy.md">Certificate summary - Reverse proxy in Lync Server 2013</A>.</span></span> <span data-ttu-id="bc02c-152">Убедитесь, что вы создали сертификат с экспортируемым закрытым ключом.</span><span class="sxs-lookup"><span data-stu-id="bc02c-152">Make sure that you create the certificate with an exportable private key.</span></span> <span data-ttu-id="bc02c-153">Создание сертификата и запроса на сертификат с экспортируемым закрытым ключом требуется для пограничного сервера пула, поэтому этот режим является нормальным и мастером сертификатов в мастере развертывания Lync Server на пограничном сервере позволит вам настроить <STRONG> Флаг экспорта закрытого ключа</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="bc02c-153">Creating the certificate and certificate request with an exportable private key is required for pooled Edge Servers, so this is a normal practice and the Certificate Wizard in the Lync Server Deployment Wizard for the Edge Server will allow you to set the <STRONG>Make private key exportable</STRONG> flag.</span></span> <span data-ttu-id="bc02c-154">После получения запроса на сертификат из общедоступного центра сертификации вы будете экспортировать сертификат и закрытый ключ.</span><span class="sxs-lookup"><span data-stu-id="bc02c-154">Once you receive the certificate request back from the public certification authority, you will export the certificate and the private key.</span></span> <span data-ttu-id="bc02c-155">Сведения о том, как создать и экспортировать сертификат с закрытым ключом, можно найти в разделе "Экспорт сертификата с закрытым ключом для пограничных серверов в пуле" в разделе <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Настройка сертификатов для внешнего интерфейса Edge для Lync Server 2013</A> .</span><span class="sxs-lookup"><span data-stu-id="bc02c-155">See the section “To export the certificate with the private key for Edge Servers in a pool” in the topic <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">Set up certificates for the external edge interface for Lync Server 2013</A> for details on how to create and export your certificate with a private key.</span></span> <span data-ttu-id="bc02c-156">Расширение сертификата должно иметь тип <STRONG>PFX</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="bc02c-156">The extension of the certificate should be of type <STRONG>.pfx</STRONG>.</span></span>
 
 
 
-Чтобы создать запрос подписи сертификата на компьютере, на котором будут назначаться сертификат и закрытый ключ, выполните указанные ниже действия.
+</div>
 
-**Создание запроса подписи сертификата**
+<span data-ttu-id="bc02c-157">Чтобы создать запрос на подписывание сертификата на компьютере, на котором будет назначаться сертификат и закрытый ключ, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="bc02c-157">To generate a certificate signing request on the computer where the certificate and private key will be assigned, you do the following:</span></span>
 
-1.  Откройте (MMC) и добавьте оснастку сертификатов, а затем выберите пункт **Компьютеры** и разверните раздел **Личное** . Подробные сведения о создании консоли сертификатов в (MMC) см. на веб-странице [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).
+<span data-ttu-id="bc02c-158">**Создание запроса на подписывание сертификата**</span><span class="sxs-lookup"><span data-stu-id="bc02c-158">**Creating a certificate signing request**</span></span>
 
-2.  Щелкните правой кнопкой мыши пункт **Сертификаты** и выберите команду **Все задачи**  \> **Дополнительные операции**  \> **Создать настраиваемый запрос** .
+1.  <span data-ttu-id="bc02c-159">Откройте консоль управления (MMC) и добавьте оснастку "сертификаты" и выберите пункт " **Компьютеры**", а затем — " **Личные**".</span><span class="sxs-lookup"><span data-stu-id="bc02c-159">Open the Microsoft Management Console (MMC) and add the Certificates snap-in and select **Computers**, then expand **Personal**.</span></span> <span data-ttu-id="bc02c-160">Подробнее о том, как создать консоль сертификатов в консоли управления Майкрософт (MMC), можно найти в [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)разделе.</span><span class="sxs-lookup"><span data-stu-id="bc02c-160">For details on how to create a certificates console in the Microsoft Management Console (MMC), see [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).</span></span>
 
-3.  На странице **Регистрация сертификата** нажмите кнопку **Далее** .
+2.  <span data-ttu-id="bc02c-161">Щелкните правой кнопкой мыши пункт **Сертификаты**, выберите **все задачи**, а затем **Дополнительные операции**, нажмите **создать настраиваемый запрос**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-161">Right-click **Certificates**, click **All Tasks**, click **Advanced Operations**, click **Create Custom Request**.</span></span>
 
-4.  На странице **Выбор политики регистрации сертификатов** в разделе **Настраиваемый запрос** выберите пункт **Продолжить без политики регистрации** . Нажмите кнопку **Далее** .
+3.  <span data-ttu-id="bc02c-162">На странице " **регистрация сертификата** " нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-162">On the **Certificate Enrollment** page, click **Next**.</span></span>
 
-5.  На странице **Настраиваемый запрос** для значения **Шаблон** выберите пункт **Старый ключ (без шаблона)** . Если иное не указано поставщиком сертификатов, снимите флажок **Не показывать расширения по умолчанию** и выберите для параметра **Формат запроса** значение **PKCS \#10** . Нажмите кнопку **Далее** .
+4.  <span data-ttu-id="bc02c-163">На странице " **Выбор политики регистрации сертификатов** " в разделе **настраиваемый запрос**выберите вариант **Продолжить без политики регистрации**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-163">On the **Select Certificate Enrollment Policy** page under **Custom Request**, select **Proceed without enrollment policy**.</span></span> <span data-ttu-id="bc02c-164">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-164">Click **Next**.</span></span>
 
-6.  На странице **Сведения о сертификате** щелкните пункт **Сведения** , а затем  **Свойства** .
+5.  <span data-ttu-id="bc02c-165">На странице " **настраиваемый запрос** " для **шаблона** выбор **устаревшего ключа (без шаблона)**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-165">On the **Custom Request** page, for **Template** select **(No template) Legacy key**.</span></span> <span data-ttu-id="bc02c-166">Если поставщик сертификата не направляет иное, оставьте флажок не проверять **расширения по умолчанию** и выберите **Формат запроса** в **PKCS \#10**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-166">Unless otherwise directed by your certificate provider, leave **Suppress default extensions** unchecked and the **Request format** selection on **PKCS \#10**.</span></span> <span data-ttu-id="bc02c-167">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-167">Click **Next**.</span></span>
 
-7.  На странице **Свойства сертификата** на вкладке **Общие** в поле **Понятное имя** введите имя этого сертификата. При необходимости введите описание в поле **Описание** . Понятное имя и описание, как правило, используются администратором, чтобы узнать назначение сертификата (например, **Слушатель обратного прокси-сервера для Lync Server**).
+6.  <span data-ttu-id="bc02c-168">На странице **сведения о сертификате** нажмите кнопку **сведения**и выберите пункт **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-168">On the **Certificate Information** page, click **Details**, then click **Properties**.</span></span>
 
-8.  Выберите вкладку **Субъект** . В разделе **Имя субъекта** для параметра **Тип** выберите значение **Общее имя** в качестве типа имени субъекта. В поле **Значение** введите имя субъекта, которое будет использоваться для обратного прокси-сервера, а затем нажмите кнопку **Добавить** . В примере, приведенном в таблице в этом разделе, имя субъекта – webext.contoso.com; это имя было бы введено в поле "Значение" в качестве имени субъекта.
+7.  <span data-ttu-id="bc02c-169">На странице **Свойства сертификата** на вкладке **Общие** в поле Понятное **имя** введите имя этого сертификата.</span><span class="sxs-lookup"><span data-stu-id="bc02c-169">On the **Certificate Properties** page on the **General** tab in the **Friendly Name** field, type a name for this certificate.</span></span> <span data-ttu-id="bc02c-170">При необходимости введите описание в поле **Описание** .</span><span class="sxs-lookup"><span data-stu-id="bc02c-170">Optionally, type a description in the **Description** field.</span></span> <span data-ttu-id="bc02c-171">Понятное имя и описание обычно используются администратором, чтобы определить назначение сертификата, например **обратный прослушиватель прокси-сервера для Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-171">The Friendly Name and description are typically used by the Administrator to identify what the certificate purpose is, such as **Reverse Proxy Listener for Lync Server**.</span></span>
 
-9.  На вкладке **Субъект** в разделе **Альтернативное имя** в раскрывающемся списке параметра **Тип** выберите значение **DNS** . Для каждого указанного альтернативного имени субъекта, требуемого в сертификате, введите полное доменное имя, а затем нажмите кнопку **Добавить** . Например, в таблице приведены три альтернативных имени субъекта: meet.contoso.com, dialin.contoso.com и lyncdiscover.contoso.com. В поле **Значение** введите meet.contoso.com и нажмите кнопку **Добавить** . Повторите эти действия для альтернативных имен каждого субъекта, который необходимо указать.
+8.  <span data-ttu-id="bc02c-172">Откройте вкладку **Тема** . В разделе **имя субъекта** для **типа**выберите пункт **Общее имя** для типа имени субъекта.</span><span class="sxs-lookup"><span data-stu-id="bc02c-172">Select the **Subject** tab. Under **Subject name** for the **Type**, select **Common name** for the Subject name type.</span></span> <span data-ttu-id="bc02c-173">В качестве **значения**введите имя субъекта, которое будет использоваться для обратного прокси-сервера, и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-173">For the **Value**, type the subject name that you will use for the reverse proxy, and then click **Add**.</span></span> <span data-ttu-id="bc02c-174">В примере, приведенном в таблице в этом разделе, имя субъекта — webext.contoso.com, и оно будет введено в поле Value (значение) для имени субъекта.</span><span class="sxs-lookup"><span data-stu-id="bc02c-174">In the example provided in the table in this topic, the subject name is webext.contoso.com and would be typed into the Value field for the Subject name.</span></span>
 
-10. На странице **Свойства сертификата** выберите вкладку **Расширения** . На этой странице нужно указать назначения криптографических ключей в поле **Использование ключа** , а также расширенное использование ключа в поле **Расширенное использование ключа (политики применения)** .
+9.  <span data-ttu-id="bc02c-175">На вкладке **Тема** в разделе **альтернативное имя**выберите **DNS** в раскрывающемся списке **тип**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-175">On the **Subject** tab under **Alternative name**, select **DNS** from the drop down for **Type**.</span></span> <span data-ttu-id="bc02c-176">Введите полное доменное имя для каждого определенного имени, которое требуется использовать в сертификате, и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-176">For each defined subject alternative name that you require on the certificate, type the fully qualified domain name, then click **Add**.</span></span> <span data-ttu-id="bc02c-177">Например, в таблице есть три альтернативных имени субъекта, meet.contoso.com, dialin.contoso.com и lyncdiscover.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="bc02c-177">For example, in the table there are three subject alternative names, meet.contoso.com, dialin.contoso.com, and lyncdiscover.contoso.com.</span></span> <span data-ttu-id="bc02c-178">В поле " **значение** " введите Meet.contoso.com и нажмите кнопку " **Добавить**".</span><span class="sxs-lookup"><span data-stu-id="bc02c-178">In the **Value** field, type meet.contoso.com, then click **Add**.</span></span> <span data-ttu-id="bc02c-179">Повторите эти действия для каждой темы, которую нужно определить.</span><span class="sxs-lookup"><span data-stu-id="bc02c-179">Repeat for each subject alternative names that you need to define.</span></span>
 
-11. Нажмите стрелку **Использование ключа** , чтобы отобразить **Доступные параметры** . В этом разделе щелкните пункт **Цифровая подпись** и выберите команду **Добавить** . Щелкните пункт **Шифрование ключей** и нажмите кнопку **Добавить** . Если флажок **Сделать критическими** снят, установите его.
+10. <span data-ttu-id="bc02c-180">На странице " **Свойства сертификата** " откройте вкладку " **расширения** ". На этой странице вы будете определять цели криптографических ключей в **использовании ключа** и использование расширенного ключа в **расширенном использовании ключа (политики приложений)**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-180">On the **Certificate Properties** page, click the **Extensions** tab. On this page, you will define the cryptographic key purposes in **Key usage** and the extended key usage in **Extended Key Usage (application policies)**.</span></span>
 
-12. Нажмите стрелку **Расширенное использование ключа (политики применения)** , чтобы отобразить **Доступные параметры** . В этом разделе щелкните пункт **Серверная проверка подлинности** и нажмите кнопку **Добавить** . Щелкните пункт **Проверка подлинности клиента** и нажмите кнопку **Добавить** . Если установлен флажок **Сделать расширенное использование ключа критическим** , снимите его. В отличие от флажка использования ключа (который должен быть установлен), флажок "Расширенное использование ключа" необходимо снять.
+11. <span data-ttu-id="bc02c-181">Щелкните стрелку " **Использование ключа** ", чтобы показать **Доступные параметры**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-181">Click the **Key usage** arrow to show the **Available options**.</span></span> <span data-ttu-id="bc02c-182">В разделе Доступные параметры выберите пункт **Цифровая подпись**и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-182">Under Available options, click **Digital signature**, then click **Add**.</span></span> <span data-ttu-id="bc02c-183">Выберите **Шифрование ключей**и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-183">Click **Key encipherment**, then click **Add**.</span></span> <span data-ttu-id="bc02c-184">Если флажок **установить критические данные об использовании ключа** не установлен, установите флажок.</span><span class="sxs-lookup"><span data-stu-id="bc02c-184">If the checkbox for **Make these key usages critical** is unchecked, select the checkbox.</span></span>
 
-13. На странице **Свойства сертификата** выберите вкладку **Закрытый ключ** . Щелкните стрелку **Параметры ключа** . Для значения **Размер ключа** выберите в раскрывающемся списке значение **2048** . Если вы создаете эту пару ключей и запрос подписи сертификата не на обратном прокси-сервере, для которого предназначен этот сертификат, а на другом компьютере, выберите пункт **Сделать закрытый ключ экспортируемым** .
+12. <span data-ttu-id="bc02c-185">Щелкните стрелку **расширенного использования ключа (политики применения)** , чтобы отобразить **Доступные параметры**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-185">Click the **Extended Key Usage (application policies)** arrow to show the **Available options**.</span></span> <span data-ttu-id="bc02c-186">В разделе Доступные параметры выберите **Проверка подлинности сервера**и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-186">Under Available options, click **Server Authentication**, then click **Add**.</span></span> <span data-ttu-id="bc02c-187">Выберите **Проверка подлинности клиента**, а затем нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-187">Click **Client Authentication**, then click **Add**.</span></span> <span data-ttu-id="bc02c-188">Если флажок **сделать обязательным использование расширенных ключей** установлен, снимите флажок.</span><span class="sxs-lookup"><span data-stu-id="bc02c-188">If the check box for **Make the Extended Key Usages critical** is checked, unselect the checkbox.</span></span> <span data-ttu-id="bc02c-189">Напротив, флажок использование ключа (должен быть установлен) необходимо убедиться, что флажок расширенного ключа использования не установлен.</span><span class="sxs-lookup"><span data-stu-id="bc02c-189">Contrary to the Key usage checkbox (which must be checked) you must be sure that the Extended Key Usage checkbox is not checked.</span></span>
+
+13. <span data-ttu-id="bc02c-190">На странице " **Свойства сертификата** " откройте вкладку **закрытые ключи** . Щелкните стрелку **Параметры ключа** .</span><span class="sxs-lookup"><span data-stu-id="bc02c-190">On the **Certificate Properties** page, click the **Private Key** tab. Click the **Key options** arrow.</span></span> <span data-ttu-id="bc02c-191">В раскрывающемся списке **Размер ключа**выберите **2048** .</span><span class="sxs-lookup"><span data-stu-id="bc02c-191">For **Key size**, select **2048** from the drop down.</span></span> <span data-ttu-id="bc02c-192">Если вы создаете пару ключей и CSR на компьютере, отличном от обратного прокси-сервера, для которого предназначен этот сертификат, установите флажок **сделать закрытым ключ экспортируемым**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-192">If you are generating this key pair and CSR on a computer other than the reverse proxy that this certificate is intended for, select **Make private key exportable**.</span></span>
+    
+    <div>
     
     <table>
     <thead>
     <tr class="header">
-    <th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Sicherheit Hinweis:</th>
+    <th><img src="images/Gg398321.security(OCS.15).gif" title="разрешения" alt="security" /><span data-ttu-id="bc02c-194">Примечание о безопасности:</span><span class="sxs-lookup"><span data-stu-id="bc02c-194">Security Note:</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Выбор параметра <strong>Сделать закрытый ключ экспортируемым</strong> рекомендуется, если ферма содержит несколько обратных прокси-серверов, так как сертификат и закрытый ключ понадобится скопировать на каждый из них. Если экспорт закрытого ключа разрешен, необходимо проявить особое внимание к сертификату и компьютеру, на котором он создан. Взломанный закрытый ключ сделает сертификат бесполезным, так как подвергнет компьютеры опасности внешнего доступа и других атак.</td>
+    <td><span data-ttu-id="bc02c-195">Выбор варианта <strong>экспорта закрытого ключа</strong> обычно рекомендуется использовать, если в ферме есть несколько обратных прокси-серверов, так как вы будете копировать сертификат и закрытый ключ на каждый компьютер в ферме.</span><span class="sxs-lookup"><span data-stu-id="bc02c-195">Selecting <strong>Make a private key exportable</strong> is generally advised when you have more than one reverse proxy in a farm because you will copy the certificate and the private key to each machine in the farm.</span></span> <span data-ttu-id="bc02c-196">Если вы разрешены для экспортируемого закрытого ключа, вы должны уделять особой осторожности с сертификатом и компьютером, на котором он был создан.</span><span class="sxs-lookup"><span data-stu-id="bc02c-196">If you do allow for an exportable private key, you must take extra care with the certificate and the computer that it is generated on.</span></span> <span data-ttu-id="bc02c-197">Закрытый ключ, если он скомпрометирован, будет вырисовывать бесполезный сертификат, а также может предоставить компьютеру или компьютерам внешний доступ и другие уязвимости системы безопасности.</span><span class="sxs-lookup"><span data-stu-id="bc02c-197">The private key, if compromised, will render the certificate useless as well as potentially expose the computer or computers to external access and other security vulnerabilities.</span></span></td>
     </tr>
     </tbody>
     </table>
-
-14. На вкладке **Закрытый ключ** нажмите стрелку **Тип ключа** . Выберите параметр **Обмен** .
-
-15. Нажмите кнопку **ОК** , чтобы сохранить установленные **Свойства сертификата** .
-
-16. На странице **Регистрация сертификата** нажмите кнопку **Далее** .
-
-17. На странице **Где вы хотите сохранить автономный запрос?** появится запрос на ввод значений в поля **Имя поля** и **Формат файла** для сохранения запроса подписи сертификата.
-
-18. В поле **Имя файла** введите путь и имя файла для запроса или нажмите кнопку **Обзор** , чтобы выбрать папку для файла, и введите имя файла для запроса .
-
-19. Выберите для пункта **Формат файла** значение **Base 64** или **Двоичный** . Если поставщиком сертификатов не указано иное, выберите значение **Base 64** .
-
-20. Найдите файл запроса, который сохранили при выполнении предыдущего действия. Отправьте его в общий центр сертификации.
     
-    > [!IMPORTANT]  
-    > Корпорация Майкрософт определила общие центры сертификации, отвечающие требованиям объединенных коммуникаций. Список можно просмотреть в статье базы знаний по адресу <a href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</a>
+    </div>
+
+14. <span data-ttu-id="bc02c-198">На вкладке **закрытые ключи** щелкните стрелку **тип ключа** .</span><span class="sxs-lookup"><span data-stu-id="bc02c-198">On the **Private Key** tab, click the **Key type** arrow.</span></span> <span data-ttu-id="bc02c-199">Выберите параметр **Exchange** .</span><span class="sxs-lookup"><span data-stu-id="bc02c-199">Select the **Exchange** option.</span></span>
+
+15. <span data-ttu-id="bc02c-200">Нажмите кнопку **ОК** , чтобы сохранить заданные **Свойства сертификата** .</span><span class="sxs-lookup"><span data-stu-id="bc02c-200">Click **OK** to save the **Certificate Properties** that you have set.</span></span>
+
+16. <span data-ttu-id="bc02c-201">На странице " **регистрация сертификата** " нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-201">On the **Certificate Enrollment** page, click **Next**.</span></span>
+
+17. <span data-ttu-id="bc02c-202">На странице **где вы хотите сохранить автономный запрос?** вам будет предложено указать **имя файла** и **Формат файла** для сохранения запроса подписи сертификата.</span><span class="sxs-lookup"><span data-stu-id="bc02c-202">On the **Where do you want to save the offline request?** page, you are prompted for a **File Name** and a **File Format** for saving the certificate signing request.</span></span>
+
+18. <span data-ttu-id="bc02c-203">В поле **имя файла** введите путь и имя файла запроса или нажмите кнопку **Обзор** , чтобы выбрать расположение для файла, и введите имя файла для запроса.</span><span class="sxs-lookup"><span data-stu-id="bc02c-203">In the **File Name** entry field, type a path and filename for the request, or click **Browse** to select a location for the file and type the filename for the request.</span></span>
+
+19. <span data-ttu-id="bc02c-204">В качестве **формата файла**выберите значение **base 64** или **binary**.</span><span class="sxs-lookup"><span data-stu-id="bc02c-204">For **File format**, click either **Base 64** or **Binary**.</span></span> <span data-ttu-id="bc02c-205">Выберите **Base 64** , если вы не указали, что в противном случае поставщик для ваших сертификатов.</span><span class="sxs-lookup"><span data-stu-id="bc02c-205">Select **Base 64** unless you are instructed otherwise by the vendor for your certificates.</span></span>
+
+20. <span data-ttu-id="bc02c-206">Найдите файл запроса, сохраненный на предыдущем шаге.</span><span class="sxs-lookup"><span data-stu-id="bc02c-206">Locate the request file that you saved in the previous step.</span></span> <span data-ttu-id="bc02c-207">Отправьте свой общедоступный центр сертификации.</span><span class="sxs-lookup"><span data-stu-id="bc02c-207">Submit to your public certification authority.</span></span>
+    
+    <div>
+    
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="bc02c-208">Корпорация Майкрософт выявила общедоступные центры сертификации, удовлетворяющие требованиям для объединенных коммуникаций.</span><span class="sxs-lookup"><span data-stu-id="bc02c-208">Microsoft has identified Public CAs that meets the requirements for Unified Communications purposes.</span></span> <span data-ttu-id="bc02c-209">Список сохранен в следующей статье базы знаний.</span><span class="sxs-lookup"><span data-stu-id="bc02c-209">A list is maintained in the following knowledge base article.</span></span> <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

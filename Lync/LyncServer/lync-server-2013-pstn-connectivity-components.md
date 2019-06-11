@@ -1,54 +1,103 @@
-﻿---
-title: 'Lync Server 2013: компоненты подключения к ТСОП'
-TOCTitle: Компоненты подключения к ТСОП
-ms:assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398504(v=OCS.15)
-ms:contentKeyID: 49310061
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: компоненты подключения PSTN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN connectivity components
+ms:assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398504(v=OCS.15)
+ms:contentKeyID: 48184408
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ecda38b4164a70cd4dbb21271ff6efedb08cd498
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823576"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Компоненты подключения к ТСОП в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="pstn-connectivity-components-in-lync-server-2013"></a><span data-ttu-id="662b4-102">Компоненты подключения PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="662b4-102">PSTN connectivity components in Lync Server 2013</span></span>
 
-Решение VoIP корпоративного уровня должно обеспечивать вызовы в телефонную сеть общего пользования (ТСОП) и обратно без ухудшения качества обслуживания (QoS). Кроме того, пользователи не должны беспокоиться о выбранной технологии, когда размещают или получают вызовы. С точки зрения пользователя, вызовы между инфраструктурой корпоративной голосовой связи и ТСОП должны выглядеть в точности, как любой другой сеанс SIP.
+</div>
 
-Для подключений ТСОП можно развернуть либо распределение каналов SIP, либо шлюз ТСОП (с УАТС, также называемой прямой связью SIP, или без УАТС).
+<div id="mainSection">
 
-## Распределение каналов SIP
+<div id="mainBody">
 
-Помимо использования шлюзов ТСОП, решение корпоративной голосовой связи можно подключать к ТСОП путем распределения каналов SIP. Распределение каналов SIP позволяет следующие сценарии.
+<span> </span>
 
-  - Пользователь предприятия за корпоративным брандмауэром или вне его может выполнять местный или дальний (междугородный или международный) вызов, заданный номером, совместимым с форматом E.164, который заканчивается в ТСОП как служба соответствующего поставщика услуг.
+<span data-ttu-id="662b4-103">_**Тема последнего изменения:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="662b4-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-  - Любой абонент ТСОП может связываться с пользователем предприятия за пределами корпоративного брандмауэра или вне его, набирая номер прямого входящего набора, связанный с этим пользователем.
+<span data-ttu-id="662b4-104">Решение VoIP корпоративного уровня должно предусматривать входящие и исходящие вызовы на телефонную сеть общего пользования (ТСОП) без какого-либо снижения качества обслуживания (QoS).</span><span class="sxs-lookup"><span data-stu-id="662b4-104">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="662b4-105">Кроме того, при совершении и приеме вызовов пользователи не должны знать об этой базовой технологии.</span><span class="sxs-lookup"><span data-stu-id="662b4-105">In addition, users should not be aware of the underlying technology when they place and receive calls.</span></span> <span data-ttu-id="662b4-106">С точки зрения пользователя, Звонок между корпоративной инфраструктурой голосовой связи и PSTN должен казаться всего, как один сеанс SIP.</span><span class="sxs-lookup"><span data-stu-id="662b4-106">From the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another SIP session.</span></span>
 
-Для использования такого решения по развертыванию необходим поставщик услуг распределения каналов SIP.
+<span data-ttu-id="662b4-107">Для ТСОП-соединений вы можете развернуть либо магистраль SIP, либо шлюз ТСОП (вместе с УАТС, также известной как прямой канал SIP, или без УАТС).</span><span class="sxs-lookup"><span data-stu-id="662b4-107">For PSTN connections, you can either deploy a SIP trunk or a PSTN gateway (with a PBX, also known as a Direct SIP link, or without a PBX).</span></span>
 
-## Шлюзы ТСОП
+<div>
 
-Шлюзы ТСОП – это устройства сторонних производителей, которые передают сигналы и мультимедиа между инфраструктурой корпоративной голосовой связи и ТСОП или УАТС. Шлюзы ТСОП работают с сервером-посредником, чтобы представить вызов ТСОП или УАТС клиенту корпоративной голосовой связи. Сервер-посредник также представляет вызовы клиентов корпоративной голосовой связи в шлюз ТСОП для маршрутизации в ТСОП или УАТС. Список партнеров, сотрудничающих с корпорацией Майкрософт по разработке устройств, которые работают с Lync Server, см. на веб-сайте партнеров объединенных коммуникаций Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).
+## <a name="sip-trunking"></a><span data-ttu-id="662b4-108">Транкинг SIP</span><span class="sxs-lookup"><span data-stu-id="662b4-108">SIP Trunking</span></span>
 
-## Станции УАТС
+<span data-ttu-id="662b4-109">В качестве альтернативы шлюзам PSTN вы можете подключить корпоративную голосовую связь к сети PSTN с помощью магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="662b4-109">As an alternative to using PSTN gateways, you can connect your Enterprise Voice solution to the PSTN by using SIP trunking.</span></span> <span data-ttu-id="662b4-110">Организация магистральной сети SIP позволяет реализовать следующие сценарии.</span><span class="sxs-lookup"><span data-stu-id="662b4-110">SIP trunking enables the following scenarios:</span></span>
 
-Если имеется инфраструктура голосовой связи, использующая УАТС, то можно использовать эту УАТС с корпоративной голосовой связью Lync Server.
+  - <span data-ttu-id="662b4-111">Пользователь предприятия за корпоративным брандмауэром или вне его может выполнять местный или дальний (междугородный или международный) вызов, заданный номером, совместимым с форматом E.164, который заканчивается на ТСОП как служба соответствующего поставщика услуг.</span><span class="sxs-lookup"><span data-stu-id="662b4-111">An enterprise user inside or outside the corporate firewall can make a local or long-distance call specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
 
-Поддерживаются следующие сценарии интеграции корпоративной голосовой связи с УАТС:
+  - <span data-ttu-id="662b4-112">Любой абонент ТСОП может связываться с пользователем предприятия за пределами корпоративного брандмауэра или вне его, набирая номер прямого входящего набора, связанный с этим пользователем.</span><span class="sxs-lookup"><span data-stu-id="662b4-112">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number associated with that enterprise user.</span></span>
 
-  - IP-УАТС, поддерживающий обход сервера-посредника, с сервером-посредником;
+<span data-ttu-id="662b4-113">Для использования такого решения по развертыванию необходим поставщик услуг транкинга SIP.</span><span class="sxs-lookup"><span data-stu-id="662b4-113">The use of this deployment solution requires a SIP trunking service provider.</span></span>
 
-  - IP-УАТС, которому требуется изолированный шлюз ТСОП;
+</div>
 
-  - УАТС с временным мультиплексированием с изолированным шлюзом ТСОП.
+<div>
+
+## <a name="pstn-gateways"></a><span data-ttu-id="662b4-114">Шлюзы ТСОП</span><span class="sxs-lookup"><span data-stu-id="662b4-114">PSTN gateways</span></span>
+
+<span data-ttu-id="662b4-115">Шлюзы PSTN – это сторонние устройства, которые преобразуют сигналы и носители между корпоративной инфраструктурой голосовой связи и PSTN или УАТС.</span><span class="sxs-lookup"><span data-stu-id="662b4-115">PSTN gateways are third-party devices that translate signaling and media between the Enterprise Voice infrastructure and a PSTN or a PBX.</span></span> <span data-ttu-id="662b4-116">Шлюзы PSTN работают с сервером-посредником, чтобы представлять вызов по сети PSTN или УАТС в клиенте голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="662b4-116">PSTN gateways work with the Mediation Server to present a PSTN or PBX call to an Enterprise Voice client.</span></span> <span data-ttu-id="662b4-117">Сервер, на котором выводятся сведения о клиентах, также предоставляет шлюзу PSTN Услуги для маршрутизации в КТСОП или УАТС.</span><span class="sxs-lookup"><span data-stu-id="662b4-117">The Mediation Server also presents calls from Enterprise Voice clients to the PSTN gateway for routing to the PSTN or PBX.</span></span> <span data-ttu-id="662b4-118">Список партнеров, работающих с корпорацией Майкрософт, для предоставления устройств, которые работают с Lync Server, можно найти на веб-сайте Microsoft [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)Unified Communications Partners по адресу.</span><span class="sxs-lookup"><span data-stu-id="662b4-118">For a list of partners who work with Microsoft to provide devices that work with Lync Server, see the Microsoft Unified Communications Partners website at [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+
+</div>
+
+<div>
+
+## <a name="private-branch-exchanges"></a><span data-ttu-id="662b4-119">Станции УАТС</span><span class="sxs-lookup"><span data-stu-id="662b4-119">Private Branch Exchanges</span></span>
+
+<span data-ttu-id="662b4-120">Если у вас есть существующая инфраструктура голосовой связи, использующая АТС, вы можете использовать телефонную сеть с голосовой связью Lync Server Enterprise.</span><span class="sxs-lookup"><span data-stu-id="662b4-120">If you have an existing voice infrastructure that uses a private branch exchange (PBX), you can use your PBX with Lync Server Enterprise Voice.</span></span>
+
+<span data-ttu-id="662b4-121">Поддерживаются следующие сценарии интеграции с корпоративной голосовой АТС.</span><span class="sxs-lookup"><span data-stu-id="662b4-121">The supported Enterprise Voice-PBX integration scenarios are as follows:</span></span>
+
+  - <span data-ttu-id="662b4-122">IP-УАТС, поддерживающая обход мультимедиа, для сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="662b4-122">IP-PBX that supports media bypass, with a Mediation Server.</span></span>
+
+  - <span data-ttu-id="662b4-123">IP-УАТС, которой требуется изолированный шлюз ТСОП;</span><span class="sxs-lookup"><span data-stu-id="662b4-123">IP-PBX that requires a stand-alone PSTN gateway.</span></span>
+
+  - <span data-ttu-id="662b4-124">УАТС с временным мультиплексированием с изолированным шлюзом ТСОП.</span><span class="sxs-lookup"><span data-stu-id="662b4-124">Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-УАТС и SBC. Корпорация Майкрософт протестировала набор ТСОП-шлюзов и SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-УАТС. Режим обхода сервера-посредника поддерживается только для продуктов и версий из программы Unified Communications Open Interoperability Program – Lync Server по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</a>.
+> <span data-ttu-id="662b4-125">Функция обхода сервера-посредника взаимодействует не со всеми шлюзами ТСОП, IP-PBX и пограничным контроллером SBC.</span><span class="sxs-lookup"><span data-stu-id="662b4-125">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="662b4-126">Корпорация Майкрософт протестировала набор шлюзов ТСОП и контроллеров SBC с сертифицированными партнерами и провела некоторые тесты для Cisco IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="662b4-126">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="662b4-127">Обход мультимедиа поддерживается только в том случае, если у вас есть продукты и версии, указанные в едином приложении <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>для взаимодействия с Open Communications — Lync Server на.</span><span class="sxs-lookup"><span data-stu-id="662b4-127">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
 
-Подробные сведения о партнерах, предлагающих решения корпоративной голосовой связи, см. на веб-сайте партнеров объединенных коммуникаций Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).
 
-Подробные сведения о партнерах, предлагающих аппаратные решения для корпоративной голосовой связи, см. на веб-сайте партнеров объединенных коммуникаций Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).
+
+</div>
+
+<span data-ttu-id="662b4-128">Подробные сведения о партнерах, предлагающих корпоративные решения для предприятий, можно найти на веб- [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)сайте Microsoft Unified Communications Partners по адресу.</span><span class="sxs-lookup"><span data-stu-id="662b4-128">For details about partners who offer Enterprise Voice solutions, see the Microsoft Unified Communications Partners website at [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+
+<span data-ttu-id="662b4-129">Сведения о партнерах, предлагающих корпоративные аппаратные решения для предприятий, включая шлюзы PSTN, можно найти на веб [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)-сайте Microsoft Unified Communications Partner.</span><span class="sxs-lookup"><span data-stu-id="662b4-129">For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the Microsoft Unified Communications Partners website [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

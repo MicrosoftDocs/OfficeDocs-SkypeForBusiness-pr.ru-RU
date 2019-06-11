@@ -1,64 +1,121 @@
-﻿---
-title: 'Lync Server 2013: подготовка доменных служб Active Directory'
-TOCTitle: Подготовка доменных служб Active Directory
-ms:assetid: 7b0d9aa4-f1ab-4578-b22f-b802b6ed1530
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398607(v=OCS.15)
-ms:contentKeyID: 49310256
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: подготовка доменных служб Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing Active Directory Domain Services
+ms:assetid: 7b0d9aa4-f1ab-4578-b22f-b802b6ed1530
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398607(v=OCS.15)
+ms:contentKeyID: 48184583
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7deb5594c0d3c009ee4b10565bc4dbe12f56d2c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824003"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Подготовка доменных служб Active Directory в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a><span data-ttu-id="b2c66-102">Подготовка доменных служб Active Directory в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2c66-102">Preparing Active Directory Domain Services in Lync Server 2013</span></span>
 
-В сервере Lync Server 2013 можно использовать мастер развертывания Lync Server для подготовки Доменные службы Active Directory или напрямую воспользоваться командлетами командной консоли Командная консоль Lync Server. Кроме того, можно использовать программу командной строки ldifde.exe непосредственно в контроллерах доменов, как описывается ниже в данной статье.
+</div>
 
-Мастер развертывания Lync Server проводит вас по всем задачам подготовки Active Directory.Этот мастер развертывания выполняет командлеты командной консоли Командная консоль Lync Server. Это средство удобно использовать в средах с топологией из одного домена и одного леса и с другими аналогичными топологиями.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b2c66-103">_**Тема последнего изменения:** 2014-02-19_</span><span class="sxs-lookup"><span data-stu-id="b2c66-103">_**Topic Last Modified:** 2014-02-19_</span></span>
+
+<span data-ttu-id="b2c66-104">В Lync Server 2013 можно использовать мастер развертывания Lync Server для подготовки доменных служб Active Directory, а также использовать командлеты командной консоли Lync Server напрямую.</span><span class="sxs-lookup"><span data-stu-id="b2c66-104">In Lync Server 2013, you can use the Lync Server Deployment Wizard to prepare Active Directory Domain Services, or you can use Lync Server Management Shell cmdlets directly.</span></span> <span data-ttu-id="b2c66-105">Кроме того, вы можете использовать средство командной строки ldifde. exe непосредственно на контроллерах домена, как описано далее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="b2c66-105">You can also use the ldifde.exe command line tool directly on your domain controllers, as described later in this topic.</span></span>
+
+<span data-ttu-id="b2c66-106">Мастер развертывания Lync Server поможет вам пройти все задачи подготовки Active Directory.</span><span class="sxs-lookup"><span data-stu-id="b2c66-106">The Lync Server Deployment Wizard guides you through each Active Directory preparation task.</span></span> <span data-ttu-id="b2c66-107">Мастер развертывания выполнит командлеты командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b2c66-107">The Deployment Wizard runs Lync Server Management Shell cmdlets.</span></span> <span data-ttu-id="b2c66-108">Этот инструмент полезен для сред с одним доменом и топологией с одним лесом или с другой аналогичной топологией.</span><span class="sxs-lookup"><span data-stu-id="b2c66-108">This tool is useful for environments with a single domain and single forest topology, or other similar topology.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Можно разворачивать Lync Server в лесу или домене, где контроллеры доменов имеют 32-разрядные версии некоторых операционных систем (подробные сведения см. в статье <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Требования к инфраструктуре Active Directory для Lync Server 2013</a>). Однако в таких средах нельзя использовать мастер развертывания Lync Server для выполнения подготовки схемы, леса и доменов, поскольку мастер развертывания и вспомогательные имеют только 64-разрядную версию. Вместо этого мастера для подготовки схемы, леса и домена можно воспользоваться программой ldifde.exe и соответствующими IDF-файлами в 32-разрядном контроллере домена. См. раздел «Использование командлетов и Ldifde.exe» ниже в этой статье.
+> <span data-ttu-id="b2c66-109">Вы можете развернуть Lync Server в лесу или домене, где контроллеры домена выполняют 32-разрядные версии некоторых операционных систем (Дополнительные сведения можно найти в разделе <A href="lync-server-2013-active-directory-infrastructure-requirements.md">требования к инфраструктуре службы каталогов Active Directory для Lync Server 2013</A>).</span><span class="sxs-lookup"><span data-stu-id="b2c66-109">You can deploy Lync Server in a forest or domain where domain controllers run 32-bit versions of some operating systems (for details, see <A href="lync-server-2013-active-directory-infrastructure-requirements.md">Active Directory infrastructure requirements for Lync Server 2013</A>).</span></span> <span data-ttu-id="b2c66-110">Однако вы не можете использовать мастер развертывания Lync Server для подготовки схемы, леса и домена в этих средах, так как мастер развертывания и вспомогательные файлы предназначены только для 64.</span><span class="sxs-lookup"><span data-stu-id="b2c66-110">However, you cannot use the Lync Server Deployment Wizard to run schema, forest, and domain preparation in these environments because the Deployment Wizard and supporting files are 64-bit only.</span></span> <span data-ttu-id="b2c66-111">Вместо этого вы можете подготовить схему, лес и домен с помощью LDIFDE. exe и связанных с ними LDF-файлов на контроллере домена 32-bit.</span><span class="sxs-lookup"><span data-stu-id="b2c66-111">Instead, you can use ldifde.exe and the associated .ldf files on a 32-bit domain controller to prepare the schema, forest and domain.</span></span> <span data-ttu-id="b2c66-112">Ознакомьтесь с разделом "использование командлетов и LDIFDE. exe" Далее в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="b2c66-112">See the section “Using Cmdlets and Ldifde.exe” later in this topic.</span></span>
 
-Командлеты командной консоли Командная консоль Lync Server можно использовать для выполнения задач удаленно или в более сложных средах.
 
-## Необходимые условия для подготовки Active Directory
 
-Действия по подготовке Active Directory необходимо выполнять на компьютере с Windows Server 2012, Windows Server 2012 R2 или Windows Server 2008 R2 с пакетом обновления 1 (SP1) (64-разрядная версия). Для подготовки Active Directory требуется командная консоль Командная консоль Lync Server и OCSCore.
+</div>
 
-Для выполнения задач подготовки Active Directory необходимы следующие компоненты.
+<span data-ttu-id="b2c66-113">Вы можете использовать командлеты командной консоли Lync Server для удаленного запуска задач или для более сложных сред.</span><span class="sxs-lookup"><span data-stu-id="b2c66-113">You can use Lync Server Management Shell cmdlets to run tasks remotely or for more complex environments.</span></span>
 
-  - Lync Server Компоненты ядра (OCScore.msi).
+<div>
+
+## <a name="active-directory-preparation-prerequisites"></a><span data-ttu-id="b2c66-114">Необходимые условия для подготовки службы каталогов Active Directory</span><span class="sxs-lookup"><span data-stu-id="b2c66-114">Active Directory Preparation Prerequisites</span></span>
+
+<span data-ttu-id="b2c66-115">Вы должны выполнить подготовительные шаги Active Directory на компьютере под управлением Windows Server 2012, Windows Server 2012 R2 или Windows Server 2008 R2 с пакетом обновления 1 (64-разр.).</span><span class="sxs-lookup"><span data-stu-id="b2c66-115">You must run Active Directory preparation steps on a computer running Windows Server 2012, Windows Server 2012 R2, or Windows Server 2008 R2 with SP1 (64-bit).</span></span> <span data-ttu-id="b2c66-116">Для подготовки Active Directory требуется командная консоль Lync Server Management Shell и Окскоре.</span><span class="sxs-lookup"><span data-stu-id="b2c66-116">Active Directory preparation requires Lync Server Management Shell and OCSCore.</span></span>
+
+<span data-ttu-id="b2c66-117">Для выполнения задач подготовки Active Directory требуются следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="b2c66-117">The following components are required to run Active Directory preparation tasks:</span></span>
+
+  - <span data-ttu-id="b2c66-118">Основные компоненты Lync Server (Окскоре. msi)</span><span class="sxs-lookup"><span data-stu-id="b2c66-118">Lync Server Core components (OCScore.msi)</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Если планируется использование командной консоли Командная консоль Lync Server для подготовки Active Directory, то сначала необходимо запустить мастер развертывания Lync Server, чтобы установить компоненты ядра.
+    > <span data-ttu-id="b2c66-119">Если вы планируете использовать командную консоль управления Lync Server для подготовки службы каталогов Active Directory, сначала необходимо запустить мастер развертывания Lync Server для установки основных компонентов.</span><span class="sxs-lookup"><span data-stu-id="b2c66-119">If you plan to use Lync Server Management Shell for Active Directory preparation, you must run the Lync Server Deployment Wizard first to install Core components.</span></span>
 
-  - Платформа Microsoft .NET Framework 4.5.
     
+    </div>
+
+  - <span data-ttu-id="b2c66-120">Платформа Microsoft .NET Framework 4.5.</span><span class="sxs-lookup"><span data-stu-id="b2c66-120">Microsoft .NET Framework 4.5</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Для Windows Server 2012 и Windows Server 2012 R2 платформа .NET Framework 4.5 устанавливается и активируется с помощью диспетчера серверов. Дополнительные сведения см. в статье &quot;Microsoft .NET Framework 4.5&quot; в <a href="lync-server-2013-additional-software-requirements.md">Дополнительные требования к программному обеспечению для Lync Server 2013</a>. Для Windows Server 2008 R2 загрузите и установите <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</a> с вебсайта Microsoft.
+    > <span data-ttu-id="b2c66-121">Для Windows Server 2012 и Windows Server 2012 R2 нужно установить и активировать платформу .NET Framework 4,5 с помощью диспетчера серверов.</span><span class="sxs-lookup"><span data-stu-id="b2c66-121">For Windows Server 2012 and Windows Server 2012 R2, you install and activate .NET Framework 4.5 by using Server Manager.</span></span> <span data-ttu-id="b2c66-122">Дополнительные сведения можно найти в разделе "Microsoft .NET Framework 4,5" в <A href="lync-server-2013-additional-software-requirements.md">дополнительных требованиях к программному обеспечению для Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="b2c66-122">For details, see "Microsoft .NET Framework 4.5" in <A href="lync-server-2013-additional-software-requirements.md">Additional software requirements for Lync Server 2013</A>.</span></span> <span data-ttu-id="b2c66-123">Для Windows Server&nbsp;2008&nbsp;R2 Скачайте и установите <A href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">платформу .NET Framework 4,5</A> на веб-сайте Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="b2c66-123">For Windows Server&nbsp;2008&nbsp;R2, download and install <A href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</A> from the Microsoft web site.</span></span>
 
-  - Средства удаленного администрирования сервера (RSAT).
     
+    </div>
+
+  - <span data-ttu-id="b2c66-124">Средства удаленного администрирования сервера (RSAT)</span><span class="sxs-lookup"><span data-stu-id="b2c66-124">Remote Server Administration Tools (RSAT)</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Некоторые средства RSAT необходимы, когда действия по подготовке Active Directory выполняются не в контроллере домена, а на рядовом сервере. Установите оснастки AD DS и программы командной строки, а также модуль Active Directory для Windows PowerShell из узла средств AD DS и AD LDS в диспетчере серверов.
+    > <span data-ttu-id="b2c66-125">Некоторые инструменты для RSAT нужны при запуске шагов подготовки Active Directory на рядовом сервере, а не на контроллере домена.</span><span class="sxs-lookup"><span data-stu-id="b2c66-125">Some RSAT tools are required if you run Active Directory preparation steps on a member server rather than on a domain controller.</span></span> <span data-ttu-id="b2c66-126">Установите оснастки AD DS и средства командной строки и модуль Active Directory для Windows PowerShell из узла "средства AD DS и AD LDS" в диспетчере серверов.</span><span class="sxs-lookup"><span data-stu-id="b2c66-126">Install the AD DS snap-ins and command-line tools and the Active Directory Module for Windows PowerShell from the AD DS and AD LDS Tools node in Server Manager.</span></span>
 
-  - Распространяемый комплект Microsoft Visual C++ 11.
     
+    </div>
+
+  - <span data-ttu-id="b2c66-127">Распространяемый пакет Microsoft Visual C++ 11</span><span class="sxs-lookup"><span data-stu-id="b2c66-127">Microsoft Visual C++ 11 Redistributable</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Программа установки предложит установить этот необходимый компонент, если он не был установлен ранее. Пакет вам поставляется, и не придется приобретать его отдельно.
+    > <span data-ttu-id="b2c66-128">Программа установки предложит установить этот компонент, если он еще не установлен на компьютере.</span><span class="sxs-lookup"><span data-stu-id="b2c66-128">Setup prompts you to install this prerequisite if it is not already installed on the computer.</span></span> <span data-ttu-id="b2c66-129">Пакет предоставляется вам, и вы не сможете его получить отдельно.</span><span class="sxs-lookup"><span data-stu-id="b2c66-129">The package is supplied for you, and you will not have to acquire it separately.</span></span>
 
-  - Windows PowerShell 3.0 (64-разрядная версия).
     
-    Для Windows Server 2012 и Windows Server 2012 R2, компонент Windows PowerShell 3.0 должен быть включен в установку Lync Server 2013. Для Windows Server 2008 R2 необходимо установить или выполнить обновление до Windows PowerShell 3.0. Дополнительные сведения см. в статье [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+    </div>
 
-## Права и роли администратора
+  - <span data-ttu-id="b2c66-130">Windows PowerShell 3,0 (64-разр.)</span><span class="sxs-lookup"><span data-stu-id="b2c66-130">Windows PowerShell 3.0 (64-bit)</span></span>
+    
+    <span data-ttu-id="b2c66-131">Для Windows Server 2012 и Windows Server 2012 R2, Windows PowerShell 3,0 следует включить в установку Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b2c66-131">For Windows Server 2012 and Windows Server 2012 R2, Windows PowerShell 3.0 should be included with your Lync Server 2013 installation.</span></span> <span data-ttu-id="b2c66-132">Для Windows Server 2008 R2 необходимо установить или обновить приложение до Windows PowerShell 3,0.</span><span class="sxs-lookup"><span data-stu-id="b2c66-132">For Windows Server 2008 R2, you need to install or upgrade to Windows PowerShell 3.0.</span></span> <span data-ttu-id="b2c66-133">Дополнительные сведения можно найти в разделе [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)</span><span class="sxs-lookup"><span data-stu-id="b2c66-133">For details, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)</span></span>
 
-В следующей таблице приведены административные права и роли, которые необходимы для каждой задачи подготовки Active Directory.
+</div>
 
-### Права пользователя, необходимые для подготовки Active Directory
+<div>
+
+## <a name="administrator-rights-and-roles"></a><span data-ttu-id="b2c66-134">Права и роли администратора</span><span class="sxs-lookup"><span data-stu-id="b2c66-134">Administrator Rights and Roles</span></span>
+
+<span data-ttu-id="b2c66-135">В следующей таблице показаны права администратора и роли, необходимые для каждой задачи подготовки Active Directory.</span><span class="sxs-lookup"><span data-stu-id="b2c66-135">The following table shows the administrative rights and roles required for each Active Directory preparation task.</span></span>
+
+### <a name="user-rights-required-for-active-directory-preparation"></a><span data-ttu-id="b2c66-136">Права пользователей, необходимые для подготовки службы каталогов Active Directory</span><span class="sxs-lookup"><span data-stu-id="b2c66-136">User Rights Required for Active Directory Preparation</span></span>
 
 <table>
 <colgroup>
@@ -67,32 +124,36 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Процедура</th>
-<th>Права или роли</th>
+<th><span data-ttu-id="b2c66-137">Процедур</span><span class="sxs-lookup"><span data-stu-id="b2c66-137">Procedure</span></span></th>
+<th><span data-ttu-id="b2c66-138">Права и роли</span><span class="sxs-lookup"><span data-stu-id="b2c66-138">Rights or roles</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Подготовка схемы</p></td>
-<td><p>Членство в группе администраторов схемы для корневого домена леса и права администратора для хозяина схемы</p></td>
+<td><p><span data-ttu-id="b2c66-139">Подготовка схемы</span><span class="sxs-lookup"><span data-stu-id="b2c66-139">Schema preparation</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-140">Группа "Администраторы схемы" для корневого домена леса и права администратора на хозяине схемы</span><span class="sxs-lookup"><span data-stu-id="b2c66-140">Member of Schema Admins group for the forest root domain and administrator rights on the schema master</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Подготовка леса</p></td>
-<td><p>Членство в группе администраторов предприятия для леса</p></td>
+<td><p><span data-ttu-id="b2c66-141">Подготовка леса</span><span class="sxs-lookup"><span data-stu-id="b2c66-141">Forest preparation</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-142">Член группы администраторов предприятия для леса</span><span class="sxs-lookup"><span data-stu-id="b2c66-142">Member of Enterprise Admins group for the forest</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Подготовка домена</p></td>
-<td><p>Членство в группе администраторов предприятия или в группе администраторов домена для конкретного домена</p></td>
+<td><p><span data-ttu-id="b2c66-143">Подготовка домена</span><span class="sxs-lookup"><span data-stu-id="b2c66-143">Domain preparation</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-144">Входить в группу "Администраторы предприятия" или "Администраторы домена" для указанного домена</span><span class="sxs-lookup"><span data-stu-id="b2c66-144">Member of Enterprise Admins or Domain Admins group for the specified domain</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Командлеты подготовки Active Directory
+</div>
 
-В следующей таблице сравниваются командлеты командной консоли Командная консоль Lync Server, используемые для подготовки AD DS, с командами LcsCmd, используемыми для подготовки AD DS в Microsoft Office Communications Server 2007 R2.
+<div>
 
-### Командлеты в сравнении с командами LcsCmd
+## <a name="active-directory-preparation-cmdlets"></a><span data-ttu-id="b2c66-145">Командлеты подготовки службы каталогов Active Directory</span><span class="sxs-lookup"><span data-stu-id="b2c66-145">Active Directory Preparation Cmdlets</span></span>
+
+<span data-ttu-id="b2c66-146">В следующей таблице сравниваются командлеты командной консоли Lync Server, используемые для подготовки AD DS к командам Лкскмд, используемым для подготовки AD DS в Microsoft Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="b2c66-146">The following table compares the Lync Server Management Shell cmdlets used to prepare AD DS to the LcsCmd commands used to prepare AD DS in Microsoft Office Communications Server 2007 R2.</span></span>
+
+### <a name="cmdlets-compared-to-lcscmd"></a><span data-ttu-id="b2c66-147">Командлеты по сравнению с Лкскмд</span><span class="sxs-lookup"><span data-stu-id="b2c66-147">Cmdlets Compared to LcsCmd</span></span>
 
 <table>
 <colgroup>
@@ -101,94 +162,136 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Командлеты</th>
-<th>Команды LcsCmd</th>
+<th><span data-ttu-id="b2c66-148">Командлеты</span><span class="sxs-lookup"><span data-stu-id="b2c66-148">Cmdlets</span></span></th>
+<th><span data-ttu-id="b2c66-149">Лкскмд</span><span class="sxs-lookup"><span data-stu-id="b2c66-149">LcsCmd</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Install-CsAdServerSchema</p></td>
-<td><p>Lcscmd /forest /action:SchemaPrep /SchemaType:Server</p></td>
+<td><p><span data-ttu-id="b2c66-150">Install-CsAdServerSchema</span><span class="sxs-lookup"><span data-stu-id="b2c66-150">Install-CsAdServerSchema</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-151">Лкскмд/Forest/Актион: Счемапреп/Счематипе: Server</span><span class="sxs-lookup"><span data-stu-id="b2c66-151">Lcscmd /forest /action:SchemaPrep /SchemaType:Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Get-CsAdServerSchema</p></td>
-<td><p>Lcscmd /forest /action:CheckSchemaPrepState</p></td>
+<td><p><span data-ttu-id="b2c66-152">Get-CsAdServerSchema</span><span class="sxs-lookup"><span data-stu-id="b2c66-152">Get-CsAdServerSchema</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-153">Лкскмд/Forest/Актион: Чекксчемапрепстате</span><span class="sxs-lookup"><span data-stu-id="b2c66-153">Lcscmd /forest /action:CheckSchemaPrepState</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Enable-CsAdForest</p></td>
-<td><p>Lcscmd /forest /action:ForestPrep</p></td>
+<td><p><span data-ttu-id="b2c66-154">Enable-CsAdForest</span><span class="sxs-lookup"><span data-stu-id="b2c66-154">Enable-CsAdForest</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-155">Лкскмд/Forest/Актион: ForestPrep</span><span class="sxs-lookup"><span data-stu-id="b2c66-155">Lcscmd /forest /action:ForestPrep</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Disable-CsAdForest</p></td>
-<td><p>Lcscmd /forest /action:ForestUnprep</p></td>
+<td><p><span data-ttu-id="b2c66-156">Disable-CsAdForest</span><span class="sxs-lookup"><span data-stu-id="b2c66-156">Disable-CsAdForest</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-157">Лкскмд/Forest/Актион: Форестунпреп</span><span class="sxs-lookup"><span data-stu-id="b2c66-157">Lcscmd /forest /action:ForestUnprep</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Get-CsAdForest</p></td>
-<td><p>Lcscmd /forest /action:CheckForestPrepState</p></td>
+<td><p><span data-ttu-id="b2c66-158">Get-CsAdForest</span><span class="sxs-lookup"><span data-stu-id="b2c66-158">Get-CsAdForest</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-159">Лкскмд/Forest/Актион: Чеккфорестпрепстате</span><span class="sxs-lookup"><span data-stu-id="b2c66-159">Lcscmd /forest /action:CheckForestPrepState</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Enable-CsAdDomain</p></td>
-<td><p>Lcscmd /domain /action:DomainPrep</p></td>
+<td><p><span data-ttu-id="b2c66-160">Enable-CsAdDomain</span><span class="sxs-lookup"><span data-stu-id="b2c66-160">Enable-CsAdDomain</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-161">Лкскмд/Domain/Актион: Домаинпреп</span><span class="sxs-lookup"><span data-stu-id="b2c66-161">Lcscmd /domain /action:DomainPrep</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Disable-CsAdDomain</p></td>
-<td><p>Lcscmd /domain /action: DomainUnprep</p></td>
+<td><p><span data-ttu-id="b2c66-162">Disable-CsAdDomain</span><span class="sxs-lookup"><span data-stu-id="b2c66-162">Disable-CsAdDomain</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-163">Лкскмд/Domain/Актион: Домаинунпреп</span><span class="sxs-lookup"><span data-stu-id="b2c66-163">Lcscmd /domain /action: DomainUnprep</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Get-CsAdDomain</p></td>
-<td><p>Lcscmd /domain /action:CheckDomainPrepState</p></td>
+<td><p><span data-ttu-id="b2c66-164">Get-CsAdDomain</span><span class="sxs-lookup"><span data-stu-id="b2c66-164">Get-CsAdDomain</span></span></p></td>
+<td><p><span data-ttu-id="b2c66-165">Лкскмд/Domain/Актион: Чеккдомаинпрепстате</span><span class="sxs-lookup"><span data-stu-id="b2c66-165">Lcscmd /domain /action:CheckDomainPrepState</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Блокирование требований Active Directory
+</div>
 
-Если в вашей организации отключено наследование разрешений, или должны быть отключены разрешения авторизованного пользователя, то во время подготовки домена необходимо выполнить дополнительные действия. Подробные сведения см. в статье [Подготовка заблокированных доменных служб Active Directory в Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
+<div>
 
-## Разрешения настраиваемых контейнеров
+## <a name="locked-down-active-directory-requirements"></a><span data-ttu-id="b2c66-166">Заблокированные требования Active Directory</span><span class="sxs-lookup"><span data-stu-id="b2c66-166">Locked Down Active Directory Requirements</span></span>
 
-Если в вашей организации вместо трех встроенных контейнеров ("Пользователи", "Компьютеры" и "Контроллеры доменов") используются настраиваемые контейнеры, то необходимо предоставить группе авторизованных пользователей доступ на чтение в этих настраиваемых контейнерах. Доступ на чтение в этих контейнерах необходим для подготовки домена. Подробные сведения см. в статье [Подготовка доменов для Lync Server 2013](lync-server-2013-preparing-domains.md).
+<span data-ttu-id="b2c66-167">Если наследование разрешений отключено или разрешения пользователей, прошедших проверку подлинности, должны быть отключены в вашей организации, необходимо выполнить дополнительные действия в процессе подготовки домена.</span><span class="sxs-lookup"><span data-stu-id="b2c66-167">If permissions inheritance is disabled or authenticated user permissions must be disabled in your organization, you must perform additional steps during domain preparation.</span></span> <span data-ttu-id="b2c66-168">Дополнительные сведения можно найти [в разделе Подготовка заблокированных доменных служб Active Directory в Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span><span class="sxs-lookup"><span data-stu-id="b2c66-168">For details, see [Preparing a locked-down Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span></span>
 
-## Использование командлетов и Ldifde.exe
+</div>
 
-Действие **Prepare Schema (Подготовка схемы)** в мастере развертывания Lync Server и командлет **Install-CsAdServerSchema** распространяют схему Active Directory на контроллеры доменов с 64-разрядной операционной системой. Если требуется распространить схему Active Directory на контроллер домена с 32-разрядной операционной системой, можно выполнить командлет **Install-CsAdServerSchema** удаленно с рядового сервера (это рекомендуемый подход). Однако если требуется выполнить подготовку схемы непосредственно в контроллере домена, можно использовать программу Ldifde.exe для импорта файлов схемы. Программа Ldifde.exe поставляется с большинством версий операционной системы Windows.
+<div>
 
-Если импорт файлов схемы выполняется с помощью программы Ldifde.exe, то необходимо импортировать все файлы, независимо от того, выполняется ли миграция от предыдущей версии или чистая установка. Эти файлы необходимо импортировать в следующем порядке:
+## <a name="custom-container-permissions"></a><span data-ttu-id="b2c66-169">Разрешения для настраиваемого контейнера</span><span class="sxs-lookup"><span data-stu-id="b2c66-169">Custom Container Permissions</span></span>
 
-1.  ExternalSchema.ldf;
+<span data-ttu-id="b2c66-170">Если в вашей организации используются пользовательские контейнеры вместо трех встроенных контейнеров (то есть пользователей, компьютеров и контроллеров домена), необходимо предоставить доступ на чтение настраиваемым контейнерам для группы пользователей, прошедших проверку подлинности.</span><span class="sxs-lookup"><span data-stu-id="b2c66-170">If your organization uses custom containers instead of the three built-in containers (that is, Users, Computers, and Domain Controllers), you must grant read access to the custom containers for the Authenticated Users group.</span></span> <span data-ttu-id="b2c66-171">Для подготовки домена требуется доступ на чтение к контейнерам.</span><span class="sxs-lookup"><span data-stu-id="b2c66-171">Read access to the containers is required for domain preparation.</span></span> <span data-ttu-id="b2c66-172">Дополнительные сведения можно найти в разделе [Подготовка доменов для Lync Server 2013](lync-server-2013-preparing-domains.md).</span><span class="sxs-lookup"><span data-stu-id="b2c66-172">For details, see [Preparing domains for Lync Server 2013](lync-server-2013-preparing-domains.md).</span></span>
 
-2.  ServerSchema.ldf;
+</div>
 
-3.  BackCompatSchema.ldf;
+<div>
 
-4.  VersionSchema.ldf.
+## <a name="using-cmdlets-and-ldifdeexe"></a><span data-ttu-id="b2c66-173">Использование командлетов и LDIFDE. exe</span><span class="sxs-lookup"><span data-stu-id="b2c66-173">Using Cmdlets and Ldifde.exe</span></span>
+
+<span data-ttu-id="b2c66-174">Этап **подготовки схемы** в мастере развертывания Lync Server и командлет **Install-Ксадсерверсчема** расширяет схему Active Directory на контроллерах домена под управлением 64-разрядной операционной системы.</span><span class="sxs-lookup"><span data-stu-id="b2c66-174">The **Prepare Schema** step in the Lync Server Deployment Wizard and the **Install-CsAdServerSchema** cmdlet extend the Active Directory schema on domain controllers running a 64-bit operating system.</span></span> <span data-ttu-id="b2c66-175">Если вам нужно продлить схему Active Directory на контроллере домена под управлением 32-разрядной операционной системы, вы можете выполнить командлет **Install-ксадсерверсчема** удаленно с рядового сервера (рекомендуемый способ).</span><span class="sxs-lookup"><span data-stu-id="b2c66-175">If you need to extend the Active Directory schema on a domain controller running a 32-bit operating system, you can run the **Install-CsAdServerSchema** cmdlet remotely from a member server (recommended approach).</span></span> <span data-ttu-id="b2c66-176">Тем не менее, если требуется выполнить подготовку схемы непосредственно на контроллере домена, можно использовать средство ldifde. exe для импорта файлов схемы.</span><span class="sxs-lookup"><span data-stu-id="b2c66-176">If you need to run schema preparation directly on the domain controller, however, you can use the Ldifde.exe tool to import the schema files.</span></span> <span data-ttu-id="b2c66-177">Средство Ldifde. exe поставляется с большинством версий операционной системы Windows.</span><span class="sxs-lookup"><span data-stu-id="b2c66-177">The Ldifde.exe tool comes with most versions of the Windows operating system.</span></span>
+
+<span data-ttu-id="b2c66-178">Если для импорта файлов схемы используется программа LDIFDE. exe, необходимо импортировать все четыре файла независимо от того, выполняется ли миграция из предыдущей версии или выполняется чистая установка.</span><span class="sxs-lookup"><span data-stu-id="b2c66-178">If you use Ldifde.exe to import the schema files, you must import all four files, regardless of whether you are migrating from a previous version or performing a clean installation.</span></span> <span data-ttu-id="b2c66-179">Вы должны импортировать их в следующей последовательности:</span><span class="sxs-lookup"><span data-stu-id="b2c66-179">You must import them in the following sequence:</span></span>
+
+1.  <span data-ttu-id="b2c66-180">Екстерналсчема. ldf</span><span class="sxs-lookup"><span data-stu-id="b2c66-180">ExternalSchema.ldf</span></span>
+
+2.  <span data-ttu-id="b2c66-181">Серверсчема. ldf</span><span class="sxs-lookup"><span data-stu-id="b2c66-181">ServerSchema.ldf</span></span>
+
+3.  <span data-ttu-id="b2c66-182">Бакккомпатсчема. ldf</span><span class="sxs-lookup"><span data-stu-id="b2c66-182">BackCompatSchema.ldf</span></span>
+
+4.  <span data-ttu-id="b2c66-183">Версионсчема. ldf</span><span class="sxs-lookup"><span data-stu-id="b2c66-183">VersionSchema.ldf</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Эти четыре LDF-файла расположены в каталоге \Support\Schema установочного носителя или загрузки.
+> <span data-ttu-id="b2c66-184">Четыре LDF файлов находятся в каталоге \Суппорт\счема установочного носителя или файле.</span><span class="sxs-lookup"><span data-stu-id="b2c66-184">The four .ldf files are located in \Support\Schema directory of your installation media or download.</span></span>
 
-Чтобы с помощью программы Ldifde.exe импортировать эти четыре файла схемы в контроллер домена, который является хозяином схемы, используйте следующий формат:
+
+
+</div>
+
+<span data-ttu-id="b2c66-185">Чтобы использовать Ldifde. exe для импорта четырех файлов схемы на контроллере домена, который является хозяином схемы, используйте следующий формат:</span><span class="sxs-lookup"><span data-stu-id="b2c66-185">To use Ldifde.exe to import the four schema files on a domain controller that is the schema master, use the following format:</span></span>
 
     ldifde -i -v -k -s <DCName> -f <Schema filename> -c DC=X <defaultNamingContext> -j logFilePath -b <administrator account> <logon domain> <password>
 
-Например:
+<span data-ttu-id="b2c66-186">Например:</span><span class="sxs-lookup"><span data-stu-id="b2c66-186">For example:</span></span>
 
     ldifde -i -v -k -s DC1 -f ServerSchema.ldf -c DC=X "DC=contoso,DC=com" -j C:\BatchImportLogFile -b Administrator contoso password
 
-> [!NOTE]  
-> Параметр b следует использовать только в том случае, если вы вошли как другой пользователь. Подробные сведения о необходимых правах пользователя см. в разделе &quot;Права и роли администратора&quot; выше в этой статье.
+<div>
 
-Чтобы с помощью программы Ldifde.exe импортировать эти четыре файла схемы в контроллер домена, который не является хозяином схемы, используйте следующий формат:
+
+> [!NOTE]  
+> <span data-ttu-id="b2c66-187">Параметр b следует использовать только в том случае, если вы вошли в систему под учетной записью другого пользователя.</span><span class="sxs-lookup"><span data-stu-id="b2c66-187">Use the b parameter only if you are logged in as a different user.</span></span> <span data-ttu-id="b2c66-188">Подробные сведения о необходимых правах пользователей можно найти в разделе "права и роли администратора", приведенном ранее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="b2c66-188">For details about the required user rights, see the "Administrator Rights and Roles" section earlier in this topic.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="b2c66-189">Чтобы использовать Ldifde. exe для импорта четырех файлов схемы на контроллере домена, который не является хозяином схемы, используйте следующий формат:</span><span class="sxs-lookup"><span data-stu-id="b2c66-189">To use Ldifde.exe to import the four schema files on a domain controller that is not the schema master, use the following format:</span></span>
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Подробные сведения об использовании программы Ldifde см. в статье 237677 базы знаний Майкрософт "Использование средства LDIFDE для импорта и экспорта объектов каталогов в Active Directory" по адресу [http://go.microsoft.com/fwlink/?linkid=132204\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=132204%26clcid=0x419).
+<span data-ttu-id="b2c66-190">Подробнее об использовании ldifde можно узнать в статье 237677 базы знаний Майкрософт "использование LDIFDE для импорта и экспорта объектов службы каталогов Active Directory" [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204).</span><span class="sxs-lookup"><span data-stu-id="b2c66-190">For details about using Ldifde, see Microsoft Knowledge Base article 237677, "Using LDIFDE to import and export directory objects to Active Directory," at [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204).</span></span>
 
-## Содержание
+</div>
 
-  - [Подготовка схемы Active Directory в Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)
+<div>
 
-  - [Подготовка леса для Lync Server 2013](lync-server-2013-preparing-the-forest.md)
+## <a name="in-this-section"></a><span data-ttu-id="b2c66-191">Содержание</span><span class="sxs-lookup"><span data-stu-id="b2c66-191">In This Section</span></span>
 
-  - [Подготовка доменов для Lync Server 2013](lync-server-2013-preparing-domains.md)
+  - [<span data-ttu-id="b2c66-192">Подготовка схемы Active Directory в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2c66-192">Preparing the Active Directory schema in Lync Server 2013</span></span>](lync-server-2013-preparing-the-active-directory-schema.md)
+
+  - [<span data-ttu-id="b2c66-193">Подготовка леса для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2c66-193">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)
+
+  - [<span data-ttu-id="b2c66-194">Подготовка доменов для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2c66-194">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

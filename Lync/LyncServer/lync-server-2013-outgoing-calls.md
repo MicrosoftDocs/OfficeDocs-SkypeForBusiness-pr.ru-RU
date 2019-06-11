@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: исходящие звонки'
-TOCTitle: Исходящие звонки
-ms:assetid: 885ffe6f-cd51-4f21-8d4f-a1ff8d818858
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994049(v=OCS.15)
-ms:contentKeyID: 52058267
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: исходящие звонки'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Outgoing calls
+ms:assetid: 885ffe6f-cd51-4f21-8d4f-a1ff8d818858
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994049(v=OCS.15)
+ms:contentKeyID: 51803960
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2ccd095cfe27f173ff0fe7ac0dac92ca51a7c1d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825669"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Исходящие звонки в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="outgoing-calls-in-lync-server-2013"></a><span data-ttu-id="c4f09-102">Исходящие звонки в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c4f09-102">Outgoing calls in Lync Server 2013</span></span>
 
-На маршрутизацию исходящих звонков пользователей, для которых включена маршрутизация на основе местоположения, влияет расположение конечной точки пользователя в сети. В приведенной ниже таблице показано, как маршрутизация на основе местоположения влияет на маршрутизацию исходящих звонков в зависимости от расположения конечной точки звонящего абонента.
+</div>
 
-### Абонент совершает исходящий звонок ТСОП
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c4f09-103">_**Тема последнего изменения:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="c4f09-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+
+<span data-ttu-id="c4f09-104">Маршрутизация исходящих вызовов пользователей, для которых включена маршрутизация на основе местоположения, зависит от расположения в сети для конечной точки пользователя.</span><span class="sxs-lookup"><span data-stu-id="c4f09-104">The routing of outbound calls of users enabled for Location-Based Routing is affected by the network location of the user’s endpoint.</span></span> <span data-ttu-id="c4f09-105">В следующей таблице показано, как маршрутизация на основе местоположения влияет на маршрутизацию исходящих вызовов в зависимости от расположения конечной точки вызывающего объекта.</span><span class="sxs-lookup"><span data-stu-id="c4f09-105">The following table illustrates how Location-Based Routing affects the routing of outbound calls depending on the location of the caller’s endpoint.</span></span>
+
+### <a name="caller-placing-an-outbound-call-to-the-pstn"></a><span data-ttu-id="c4f09-106">Абонент размещает исходящий звонок ТСОП</span><span class="sxs-lookup"><span data-stu-id="c4f09-106">Caller placing an outbound call to the PSTN</span></span>
 
 <table>
 <colgroup>
@@ -28,28 +48,42 @@ _**Дата изменения раздела:** 2015-03-09_
 <thead>
 <tr class="header">
 <th></th>
-<th>Конечная точка пользователя расположена на сетевом сайте, для которого включена маршрутизация на основе местоположения.</th>
-<th>Конечная точка пользователя расположена на неизвестном сетевом сайте или на сайте, для которого не включена маршрутизация на основе местоположения.</th>
+<th><span data-ttu-id="c4f09-107">Конечная точка пользователя расположена на сетевом сайте, для которого включена маршрутизация на основе расположения</span><span class="sxs-lookup"><span data-stu-id="c4f09-107">User endpoint located in a network site enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="c4f09-108">Конечная точка пользователя расположена на неизвестном сетевом сайте или на сайте, для которого не включена маршрутизация на основе расположения</span><span class="sxs-lookup"><span data-stu-id="c4f09-108">User endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Авторизация исходящих звонков</p></td>
-<td><p>Звонок авторизован на основе политики голосовой связи пользователя.</p></td>
-<td><p>Звонок авторизован на основе политики голосовой связи пользователя.</p></td>
+<td><p><span data-ttu-id="c4f09-109">Авторизация исходящих звонков</span><span class="sxs-lookup"><span data-stu-id="c4f09-109">Authorization of outbound calls</span></span></p></td>
+<td><p><span data-ttu-id="c4f09-110">Звонок авторизован на основе политики голосовой связи пользователя</span><span class="sxs-lookup"><span data-stu-id="c4f09-110">Call is authorized based on user’s voice policy</span></span></p></td>
+<td><p><span data-ttu-id="c4f09-111">Звонок авторизован на основе политики голосовой связи пользователя</span><span class="sxs-lookup"><span data-stu-id="c4f09-111">Call is authorized based on user’s voice policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Маршрутизация исходящего звонка</p></td>
-<td><p>Звонок маршрутизируется в соответствии с политикой маршрутизации голосовой связи для данного сетевого сайта.</p></td>
-<td><p>Звонок маршрутизируется в соответствии с политикой голосовой связи пользователя и только через магистрали, для которых не включена маршрутизация на основе местоположения (если они доступны).</p></td>
+<td><p><span data-ttu-id="c4f09-112">Маршрутизация исходящего звонка</span><span class="sxs-lookup"><span data-stu-id="c4f09-112">Routing of outbound call</span></span></p></td>
+<td><p><span data-ttu-id="c4f09-113">Звонок маршрутизируется в соответствии с политикой маршрутизации голосовой связи для данного сетевого сайта</span><span class="sxs-lookup"><span data-stu-id="c4f09-113">Call is routed according to the network site’s voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="c4f09-114">Звонок маршрутизируется в соответствии с политикой голосовой связи пользователя и только через магистрали, для которых не включена маршрутизация на основе расположения (если они доступны)</span><span class="sxs-lookup"><span data-stu-id="c4f09-114">Call is routed according to user’s voice policy and only through trunks not enabled for Location-Based Routing (if available)</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## См. также
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a><span data-ttu-id="c4f09-115">См. также</span><span class="sxs-lookup"><span data-stu-id="c4f09-115">See Also</span></span>
 
-[Сценарии маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
+
+[<span data-ttu-id="c4f09-116">Сценарии маршрутизации на основе местоположения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c4f09-116">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

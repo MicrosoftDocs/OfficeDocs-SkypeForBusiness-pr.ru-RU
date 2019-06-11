@@ -1,43 +1,87 @@
-﻿---
-title: Планирование автоопределения в Lync Server 2013
-TOCTitle: Планирование автоопределения в Lync Server 2013
-ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945628(v=OCS.15)
-ms:contentKeyID: 52058218
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование автообнаружения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Autodiscover
+ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)
+ms:contentKeyID: 51541474
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a1d0ce7a775bc73c5f3afa10d1f9c148395b0eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825123"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование автоопределения в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-16_
+# <a name="planning-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="a1105-102">Планирование автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1105-102">Planning for Autodiscover in Lync Server 2013</span></span>
 
-Автообнаружение для Lync Server впервые появилось в накопительном пакете обновления для Lync Server 2010 за ноябрь 2011 года. Изначально основной причиной для внедрения автообнаружения было предоставление Lync Mobile средств для поиска службы Mobility Service (Mcx). Теперь служба автообнаружения в Lync Server 2013 используется всеми клиентами для поиска серверных и пользовательских служб. Служба автообнаружения Microsoft Lync Server 2013 выполняется в Директорах и на серверах переднего плана.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a1105-103">_**Тема последнего изменения:** 2013-02-16_</span><span class="sxs-lookup"><span data-stu-id="a1105-103">_**Topic Last Modified:** 2013-02-16_</span></span>
+
+<span data-ttu-id="a1105-104">Средство автообнаружения было представлено для Lync Server в накопительном обновлении для Lync Server 2010: Ноябрь 2011.</span><span class="sxs-lookup"><span data-stu-id="a1105-104">Autodiscover was introduced for Lync Server in the Cumulative Update for Lync Server 2010: November 2011.</span></span> <span data-ttu-id="a1105-105">Основным предназначением для этой первоначальной реализации автообнаружения было предоставление средств Lync Mobile поиска службы Mobility Service (МККС).</span><span class="sxs-lookup"><span data-stu-id="a1105-105">The primary purpose for this initial implementation of Autodiscover was to provide a means for Lync Mobile to locate the Mobility service (Mcx).</span></span> <span data-ttu-id="a1105-106">Служба автообнаружения в Lync Server 2013 теперь является службой, используемой всеми клиентами для поиска серверных и пользовательских служб.</span><span class="sxs-lookup"><span data-stu-id="a1105-106">The Autodiscover service in Lync Server 2013 is now a service used by all clients to locate server and user services.</span></span> <span data-ttu-id="a1105-107">Служба автообнаружения Microsoft Lync Server 2013 работает на директориях и серверах переднего плана.</span><span class="sxs-lookup"><span data-stu-id="a1105-107">The Microsoft Lync Server 2013 Autodiscover service runs on Directors and Front End Servers.</span></span>
+
+<div>
 
 
-> [!TIP]
-> Более подробное техническое описание автообнаружения и передаваемых клиентам данных см. в статье <A href="lync-server-2013-understanding-autodiscover.md">Общие сведения об автообнаружении</A>.<BR>Мобильность все еще является особым сценарием, а службы мобильности все еще требуют специального планирования. Дополнительные сведения см. в статье <A href="lync-server-2013-planning-for-mobility.md">Планирование мобильной работы в Lync Server 2013</A>.
+> [!TIP]  
+> <span data-ttu-id="a1105-108">Дополнительные сведения о автообнаружения и возможностях, которые передается клиентам, приведены в разделе <A href="lync-server-2013-understanding-autodiscover.md">Общие сведения о автообнаружения в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a1105-108">For a more technical understanding of Autodiscover and what is communicated to clients, see <A href="lync-server-2013-understanding-autodiscover.md">Understanding Autodiscover in Lync Server 2013</A>.</span></span><BR><span data-ttu-id="a1105-109">Мобильность по-прежнему является особым сценарием, а для служб Mobility по-прежнему требуется специальное планирование.</span><span class="sxs-lookup"><span data-stu-id="a1105-109">Mobility is still a distinct scenario and the Mobility services still require some special planning.</span></span> <span data-ttu-id="a1105-110">Дополнительные сведения можно найти <A href="lync-server-2013-planning-for-mobility.md">в разделе Планирование мобильных устройств в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a1105-110">For additional details, see <A href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</A>.</span></span>
 
 
 
-При первоначальном введении автообнаружения в Lync Server 2010 приходилось идти на компромиссы, которые были неизбежны при внедрении службы, требующей внесения изменений в сертификаты для существующих развертываний серверов. Автообнаружение можно использовать через порт TCP 443 для HTTPS или через порт TCP 80 для HTTP. В случае использования HTTPS сертификаты на обратных прокси-серверах, Директорах и серверах переднего плана следует выпустить повторно, чтобы обеспечить использование необходимых записей DNS `lyncdiscover.<домен>` и `lyncdiscoverinternal.<домен>`. В случае использования HTTP повторного выпуска сертификатов можно избежать с помощью записей CNAME (или псевдонимов) для DNS, позволяющих использовать в сертификатах имеющиеся имена. Использование HTTP указывает на то, что изначально обмен данными не шифровался.
+</div>
 
-Поскольку Lync Server 2013 использует автообнаружение для всех клиентов, основной сценарий заключается в использовании исключительно HTTPS и создании сертификатов с записями lyncdiscover.\<домен\> в конфигурации обратных прокси-серверов, Директоров и серверов переднего плана. Если вы внедряете автообнаружение в развертывание, обновленное с Lync Server 2010, можно использовать HTTP во избежание повторного выпуска сертификатов. Инструкции по обоим сценариям приведены в последующих разделах.
+<span data-ttu-id="a1105-111">При вводе автообнаружения в Lync Server 2010 для реализации службы, требующей потенциальных изменений сертификатов на существующем сервере, находились нарушения, которые необходимо было сделать.</span><span class="sxs-lookup"><span data-stu-id="a1105-111">When Autodiscover was introduced in Lync Server 2010, there were compromises that needed to be made in order to implement a service that required potential certificate changes to existing server deployments.</span></span> <span data-ttu-id="a1105-112">Функцию автообнаружения можно использовать для порта TCP 443 для HTTPS или порта TCP 80 для HTTP.</span><span class="sxs-lookup"><span data-stu-id="a1105-112">Autodiscover could be used over port TCP 443 for HTTPS or over port TCP 80 for HTTP.</span></span> <span data-ttu-id="a1105-113">Если вы принимаете решение использовать HTTPS, сертификаты на обратных прокси-серверах, режиссерах и серверах переднего плана должны быть повторно выпущены для размещения необходимых `lyncdiscover.<domain>` и `lyncdiscoverinternal.<domain>` DNS-записей.</span><span class="sxs-lookup"><span data-stu-id="a1105-113">If the decision was made to use HTTPS, certificates on reverse proxies, Directors, and Front End Servers needed to be reissued in order to accommodate the required `lyncdiscover.<domain>` and `lyncdiscoverinternal.<domain>` DNS records.</span></span> <span data-ttu-id="a1105-114">Если вы хотите использовать HTTP, повторные выдаче сертификатов могут быть невозможны с помощью записей CNAME DNS (или псевдонима) для использования существующих имен в сертификатах.</span><span class="sxs-lookup"><span data-stu-id="a1105-114">If the decision was to use HTTP, the reissue of certificates could be avoided by using DNS CNAME (or alias) records to use existing names on the certificates.</span></span> <span data-ttu-id="a1105-115">Использование HTTP означает, что начальные соединения не были зашифрованы.</span><span class="sxs-lookup"><span data-stu-id="a1105-115">Using HTTP did mean that the initial communications were unencrypted.</span></span>
 
-> [!IMPORTANT]
-> Список альтернативных имен субъектов для сертификатов, используемых правилом публикации внешних веб-служб, должен содержать запись <em>lyncdiscover.&lt;домен SIP&gt;</em> для каждого домена SIP в вашей организации. Подробные сведения о записях альтернативных имен субъектов, которые требуются для Директоров, серверов переднего плана и обратных прокси-серверов, см. в статье <a href="lync-server-2013-certificate-summary-autodiscover.md">Сводка по сертификатам — автообнаружение</a>.
+<span data-ttu-id="a1105-116">Поскольку Lync Server 2013 использует функцию автообнаружения для всех клиентов, основным сценарием является использование HTTPS исключительно и создание сертификатов с помощью lyncdiscover. \<домен\> в рамках настройки обратных прокси, режиссеров и серверов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="a1105-116">Because Lync Server 2013 uses Autodiscover for all clients, the main scenario is to use HTTPS exclusively and to create certificates with lyncdiscover.\<domain\> as part of the configuration of reverse proxies, Directors and Front End Servers.</span></span> <span data-ttu-id="a1105-117">Если вы реализуете автообнаружение в обновленном развертывании с Lync Server 2010, вам может потребоваться использовать HTTP, чтобы избежать повторной сертификации сертификатов.</span><span class="sxs-lookup"><span data-stu-id="a1105-117">If you are implementing Autodiscover into an upgraded deployment from Lync Server 2010, you may want to use HTTP to avoid reissuing certificates.</span></span> <span data-ttu-id="a1105-118">Руководство по обоим сценариям приведено в следующих разделах.</span><span class="sxs-lookup"><span data-stu-id="a1105-118">Guidance for both scenarios is provided in the following sections.</span></span>
+
+<div>
 
 
-## Содержание
+> [!IMPORTANT]  
+> <span data-ttu-id="a1105-119">Список альтернативных имен субъектов в сертификатах, используемых внешним правилом публикации веб-служб, должен содержать <EM>lyncdiscover.&lt; сипдомаин&gt; </EM> запись для каждого домена SIP в Организации.</span><span class="sxs-lookup"><span data-stu-id="a1105-119">The subject alternative name list on certificates used by the external web services publishing rule must contain a <EM>lyncdiscover.&lt;sipdomain&gt;</EM> entry for each SIP domain within your organization.</span></span> <span data-ttu-id="a1105-120">Дополнительные сведения об элементах альтернативных имен тем, которые требуются для режиссеров, серверов переднего плана и обратного доступа, приведены <A href="lync-server-2013-certificate-summary-autodiscover.md">в разделе сведения о сертификате: автообнаружение в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a1105-120">For details about the subject alternative name entries that are required for Directors, Front End Servers, and reverse proxies, see <A href="lync-server-2013-certificate-summary-autodiscover.md">Certificate summary - Autodiscover in Lync Server 2013</A>.</span></span>
 
-  - [Сводка по сертификатам — автообнаружение](lync-server-2013-certificate-summary-autodiscover.md)
 
-  - [Сводка по портам — автообнаружение в Lync Server 2013](lync-server-2013-port-summary-autodiscover.md)
 
-  - [Сводка DNS — автообнаружение в Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md)
+</div>
 
-  - [Гибридные и разделенные домены — автообнаружение](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="a1105-121">Содержание</span><span class="sxs-lookup"><span data-stu-id="a1105-121">In This Section</span></span>
+
+  - [<span data-ttu-id="a1105-122">Сведения о сертификате: обнаружение автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1105-122">Certificate summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-certificate-summary-autodiscover.md)
+
+  - [<span data-ttu-id="a1105-123">Сводка порта: автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1105-123">Port summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-port-summary-autodiscover.md)
+
+  - [<span data-ttu-id="a1105-124">Сводка DNS: обнаружение автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1105-124">DNS summary - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-dns-summary-autodiscover.md)
+
+  - [<span data-ttu-id="a1105-125">Гибридная и Разделяемая доменные возможности автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1105-125">Hybrid and split-domain - Autodiscover in Lync Server 2013</span></span>](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

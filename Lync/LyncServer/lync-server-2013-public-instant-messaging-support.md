@@ -1,46 +1,93 @@
-﻿---
-title: 'Lync Server 2013: поддержка общедоступных служб обмена мгновенными сообщениями'
-TOCTitle: Поддержка общедоступных служб обмена мгновенными сообщениями
-ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204732(v=OCS.15)
-ms:contentKeyID: 49309147
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддержка общедоступных служб обмена мгновенными сообщениями'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Public instant messaging support
+ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204732(v=OCS.15)
+ms:contentKeyID: 48183582
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f9da9be8db34306fc95f84ebdd40abc26bffd15e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823660"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддержка общедоступных служб обмена мгновенными сообщениями в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-10-07_
+# <a name="public-instant-messaging-support-in-lync-server-2013"></a><span data-ttu-id="e97d6-102">Поддержка общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e97d6-102">Public instant messaging support in Lync Server 2013</span></span>
 
-Система Lync Server 2013 поддерживает использование лицензированных поставщиков возможности подключения к общедоступным службам обмена мгновенными сообщениями, а также использование протокола XMPP (eXtensible Messaging and Presence Protocol) для реализации специального типа федерации, который позволяет Lync Server получать доступ к настроенным партнерам домена XMPP, используя клиент Lync 2013.
+</div>
 
-## Поддержка поставщиком возможности подключения к общедоступным службам обмена мгновенными сообщениями
+<div id="mainSection">
 
-В настоящее время поддерживаются следующие партнеры по возможности подключения к общедоступным службам обмена мгновенными сообщениями:
+<div id="mainBody">
 
-  - America Online
+<span> </span>
 
-  - Windows Live
+<span data-ttu-id="e97d6-103">_**Тема последнего изменения:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="e97d6-103">_**Topic Last Modified:** 2013-10-07_</span></span>
 
-  - Yahoo\!;
+<span data-ttu-id="e97d6-104">Lync Server 2013 поддерживает использование лицензированных общедоступных служб обмена мгновенными сообщениями (IM), а также использование протокола расширенного доступа к сообщениям и доступности (КСМПП) для реализации специального типа Федерации, позволяющего серверу Lync Server получать доступ к настроенным КСМПП Партнеры домена с помощью клиента Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e97d6-104">Lync Server 2013 supports the use of licensed public instant messaging (IM) connectivity providers, as well as the use of eXtensible Messaging and Presence Protocol (XMPP) to implement a special type of federation that enables a Lync Server to access configured XMPP domain partners by using the Lync 2013 client.</span></span>
 
-Для взаимодействия с пользователями Windows Live система Lync Server 2013 поддерживает одноранговый обмен мгновенными сообщениями, а также телефонные звонки и видеозвонки. Для взаимодействия с AOL и Yahoo\! система Lync Server 2013 поддерживает одноранговый обмен мгновенными сообщениями. Может потребоваться отдельная лицензия.
+<div>
+
+## <a name="public-im-connectivity-provider-support"></a><span data-ttu-id="e97d6-105">Поддержка поставщика подключения к службе обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="e97d6-105">Public IM Connectivity Provider Support</span></span>
+
+<span data-ttu-id="e97d6-106">В настоящее время поддерживаются следующие партнеры по подключению к мгновенным сообщениям:</span><span class="sxs-lookup"><span data-stu-id="e97d6-106">The currently supported public instant messaging connectivity partners are:</span></span>
+
+  - <span data-ttu-id="e97d6-107">America Online</span><span class="sxs-lookup"><span data-stu-id="e97d6-107">America Online</span></span>
+
+  - <span data-ttu-id="e97d6-108">Windows Live</span><span class="sxs-lookup"><span data-stu-id="e97d6-108">Windows Live</span></span>
+
+  - <span data-ttu-id="e97d6-109">Yahoo\!</span><span class="sxs-lookup"><span data-stu-id="e97d6-109">Yahoo\!</span></span>
+
+<span data-ttu-id="e97d6-110">Для связи с пользователями Windows Live Lync Server 2013 поддерживает обмен мгновенными сообщениями, голосовые и видеозвонки в одноранговой сети.</span><span class="sxs-lookup"><span data-stu-id="e97d6-110">For communications with Windows Live users, Lync Server 2013 supports peer-to-peer IM and audio and video calls.</span></span> <span data-ttu-id="e97d6-111">Для связи с AOL и Yahoo\!в Lync Server 2013 поддерживается одноранговый обмен мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="e97d6-111">For communications with AOL and Yahoo\!, Lync Server 2013 supports peer-to-peer IM.</span></span> <span data-ttu-id="e97d6-112">Может потребоваться отдельная лицензия.</span><span class="sxs-lookup"><span data-stu-id="e97d6-112">A separate license may be required.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul><li><p>С 1 сентября 2012 г. прекращена продажа лицензий пользовательских подписок на подключение к общедоступным службам обмена мгновенными сообщениями Microsoft Lync (PIC USL) по новым или продляемым соглашениям. Клиенты с активными лицензиями смогут продолжать использование федерации с Yahoo! Messenger до отключения службы. Поддержка служб AOL и Yahoo! завершается в июне 2014 г. Дополнительные сведения см. в статье <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013</a>.</p></li>
-> <li><p>Лицензия подписки пользователя на возможность подключения к общедоступным службам обмена мгновенными сообщениями представляет собой лицензию подписки на пользователя в месяц, которая необходима для того, чтобы Lync Server или Office Communications Server могли образовывать федерацию с Yahoo! Messenger. Корпорация Майкрософт смогла предоставлять данную услугу благодаря поддержке со стороны компании Yahoo!, однако соответствующий базовый договор расторгается.</p></li>
-> <li><p>Сейчас, более чем когда-либо раньше, Lync представляет собой эффективное средство для объединения организаций и отдельных пользователей по всему миру. Федерация с Windows Live Messenger не требует никаких дополнительных лицензий на пользователя/устройство, кроме Lync Standard CAL. В этот список будет добавлена федерация Skype, позволяя пользователям Lync взаимодействовать с сотнями миллионов людей посредством мгновенных сообщений и голосовой связи.</p></li>
-> </ul>
+> <UL>
+> <LI>
+> <P><span data-ttu-id="e97d6-113">По состоянию на 1 сентября 2012, лицензия на подписку на общедоступные службы обмена мгновенными сообщениями в Microsoft Lync ("PIC усл") больше недоступна для приобретения новых или обновленных договоров.</span><span class="sxs-lookup"><span data-stu-id="e97d6-113">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="e97d6-114">Пользователи с активными лицензиями смогут продолжать использовать федерацию с помощью Yahoo!</span><span class="sxs-lookup"><span data-stu-id="e97d6-114">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="e97d6-115">Messenger, пока служба не отключается.</span><span class="sxs-lookup"><span data-stu-id="e97d6-115">Messenger until the service shut down date.</span></span> <span data-ttu-id="e97d6-116">Дата окончания жизненного цикла 2014 для AOL и Yahoo! в течение июня.</span><span class="sxs-lookup"><span data-stu-id="e97d6-116">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="e97d6-117">было объявлено.</span><span class="sxs-lookup"><span data-stu-id="e97d6-117">has been announced.</span></span> <span data-ttu-id="e97d6-118">Подробности можно найти <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">в разделе Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="e97d6-118">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e97d6-119">УСЛ PIC является лицензией на ежемесячную подписку для пользователей Lync Server или Office Communications Server, которая требуется для Федерации с помощью Yahoo!.</span><span class="sxs-lookup"><span data-stu-id="e97d6-119">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="e97d6-120">Messenger.</span><span class="sxs-lookup"><span data-stu-id="e97d6-120">Messenger.</span></span> <span data-ttu-id="e97d6-121">Возможность предоставления этой услуги корпорацией Майкрософт зависит от поддержки компании Yahoo!, основного соглашения, для которого выполняется обмотка.</span><span class="sxs-lookup"><span data-stu-id="e97d6-121">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e97d6-122">В некоторых случаях Lync — это мощный инструмент для связи между организациями и людьми по всему миру.</span><span class="sxs-lookup"><span data-stu-id="e97d6-122">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="e97d6-123">Для интеграции с Windows Live Messenger не требуется дополнительных лицензий на пользователей и устройств за пределами стандартной клиентской лицензии Lync.</span><span class="sxs-lookup"><span data-stu-id="e97d6-123">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="e97d6-124">В этот список будет добавлена Федерация Skype, благодаря чему пользователи Lync смогут общаться с сотнями миллионов людей с помощью обмена мгновенными сообщениями и голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="e97d6-124">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
 
-## Поддержка федерации XMPP
 
-Федерация XMPP поддерживает взаимодействие пользователей Lync с настроенными пользователями домена XMPP, использующими общедоступного поставщика, такого как GTalk. Коммуникации с такими пользователями могут включать в себя следующее:
+</div>
 
-  - Одноранговый обмен мгновенными сообщениями и сведения о присутствии
+</div>
 
-  - создание федеративных контактов XMPP в клиенте Lync.
+<div>
+
+## <a name="xmpp-federation-support"></a><span data-ttu-id="e97d6-125">Поддержка Федерации КСМПП</span><span class="sxs-lookup"><span data-stu-id="e97d6-125">XMPP Federation Support</span></span>
+
+<span data-ttu-id="e97d6-126">КСМПП Федерация поддерживает взаимодействие пользователей Lync с настроенными пользователями домена КСМПП, которые используют общедоступный поставщик, например Гталк.</span><span class="sxs-lookup"><span data-stu-id="e97d6-126">XMPP federation supports Lync users communication with configured XMPP domain users who use a public provider, such as GTalk.</span></span> <span data-ttu-id="e97d6-127">Связь с этими пользователями может включать в себя следующее:</span><span class="sxs-lookup"><span data-stu-id="e97d6-127">Communications with these users can include the following:</span></span>
+
+  - <span data-ttu-id="e97d6-128">Обмен мгновенными сообщениями и присутствием одноранговой сети</span><span class="sxs-lookup"><span data-stu-id="e97d6-128">Peer-to-peer IM and presence</span></span>
+
+  - <span data-ttu-id="e97d6-129">Создание федеративных контактов КСМПП в клиенте Lync</span><span class="sxs-lookup"><span data-stu-id="e97d6-129">Creation of XMPP federated contacts in the Lync client</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

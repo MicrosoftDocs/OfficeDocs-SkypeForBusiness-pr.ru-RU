@@ -1,51 +1,90 @@
-﻿---
-title: Изменение существующей политики ПИН-кодов
-TOCTitle: Изменение существующей политики ПИН-кодов
-ms:assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520993(v=OCS.15)
-ms:contentKeyID: 49309755
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: изменение существующей политики для ПИН-кода'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify an existing PIN policy
+ms:assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520993(v=OCS.15)
+ms:contentKeyID: 48184143
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 16f763ebf0d1a8b74a8370ba7b4ca4913886c612
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827097"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Изменение существующей политики ПИН-кодов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-19_
+# <a name="modify-an-existing-pin-policy-in-lync-server-2013"></a><span data-ttu-id="06c90-102">Изменение существующей политики ПИН-кода в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06c90-102">Modify an existing PIN policy in Lync Server 2013</span></span>
 
-Вы можете использовать вкладку **Политика ПИН-кода**, чтобы обеспечить проверку подлинности с применением ПИН-кода для пользователей, которые подключаются к Lync 2013 по IP-телефонам. Для использования проверки подлинности с ПИН-кодом выберите параметр **Включить проверку подлинности с ПИН-кодом** в настройках веб-службы. Дополнительные сведения см. в разделе [Изменение параметров конфигурации существующей веб-службы](lync-server-2013-modify-existing-web-service-configuration-settings.md).
+</div>
 
-Выполните следующие действия, чтобы изменить политику ПИН-кода на уровне пользователя или узла.
+<div id="mainSection">
 
-## Изменение существующей политики ПИН-кода
+<div id="mainBody">
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+<span> </span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="06c90-103">_**Тема последнего изменения:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="06c90-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-3.  В левой панели навигации щелкните **Безопасность**, а затем щелкните **Политика ПИН-кода**.
+<span data-ttu-id="06c90-104">С помощью вкладки " **политика закрепления** " вы можете предоставить персональный идентификационный номер (ПИН-код) пользователям, которые подключаются к Lync 2013 с IP-телефонами.</span><span class="sxs-lookup"><span data-stu-id="06c90-104">You can use the **PIN Policy** tab to provide personal identification number (PIN) authentication to users who are connecting to Lync 2013 with IP Phones.</span></span> <span data-ttu-id="06c90-105">Чтобы использовать проверку подлинности по ПИН-коду, необходимо установить флажок **Разрешить проверку подлинности на основе ПИН-кода** в настройках веб-службы.</span><span class="sxs-lookup"><span data-stu-id="06c90-105">To use PIN authentication, make sure that **Enable PIN Authentication** is selected in Web Service settings.</span></span> <span data-ttu-id="06c90-106">Дополнительные сведения можно найти [в разделе изменение существующих параметров конфигурации веб-службы в Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md).</span><span class="sxs-lookup"><span data-stu-id="06c90-106">For details, see [Modify existing Web Service configuration settings in Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md).</span></span>
 
-4.  На странице **Политика ПИН-кода** выберите политику, нажмите кнопку **Изменить**, а затем щелкните **Показать подробности**.
+<span data-ttu-id="06c90-107">Выполните следующие действия, чтобы изменить политику ПИН-кода на уровне пользователя или узла.</span><span class="sxs-lookup"><span data-stu-id="06c90-107">Follow these steps to modify a user-level or a site-level PIN policy.</span></span>
 
-5.  В окне **Изменение политики ПИН-кода** введите или выберите в поле **Минимальная длина ПИН-кода** минимальную длину ПИН-кода. Минимальная длина по умолчанию составляет пять цифр.
+<div>
 
-6.  Чтобы получить возможность указывать максимальное число попыток входа, допустимое до блокировки пользователя, установите флажок **Указать максимальное число попыток входа**. Если не выбрать этот параметр, максимальное число разрешенных попыток определяется автоматически на основе длины ПИН-кода. По умолчанию максимальное число разрешенных попыток определяется автоматически.
+## <a name="to-modify-an-existing-pin-policy"></a><span data-ttu-id="06c90-108">Изменение существующей политики ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="06c90-108">To modify an existing PIN policy</span></span>
 
-7.  Если вы установили флажок **Указать максимальное число попыток входа** введите или выберите в поле **Максимальное число попыток входа** максимальное допустимое число попыток входа в систему.
+1.  <span data-ttu-id="06c90-109">Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="06c90-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-8.  Чтобы срок действия ПИН-кодов истекал, установите флажок **Включить истечение срока действия ПИН-кода**. Если этот параметр не выбран, срок действия ПИН-кодов не истекает. По умолчанию срок действия ПИН-кода не ограничен.
+2.  <span data-ttu-id="06c90-110">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="06c90-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="06c90-111">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="06c90-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-9.  Если вы установили флажок **Включить истечение срока действия ПИН-кода** введите или выберите в поле **Срок действия ПИН-кода истекает через (дней)** количество дней, по прошествии которых истекает срок действия ПИН-кода.
+3.  <span data-ttu-id="06c90-112">В левой панели навигации последовательно выберите пункты **Безопасность** и **Политика ПИН-кода**.</span><span class="sxs-lookup"><span data-stu-id="06c90-112">In the left navigation bar, click **Security** and then click **PIN Policy**.</span></span>
 
-10. В поле **Счетчик журнала ПИН-кодов** введите число ПИН-кодов, которые пользователи должны создать перед тем, как они смогут повторно использовать тот же ПИН-код. По умолчанию пользователи могут применять свои ПИН-коды повторно.
+4.  <span data-ttu-id="06c90-113">На странице **Политика в отношении ПИН-кодов** выберите политику, нажмите кнопку **Изменить**, а затем щелкните **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="06c90-113">On the **PIN Policy** page, click a policy, click **Edit**, and then click **Show details**.</span></span>
 
-11. Чтобы разрешить одинаковые группы цифр в ПИН-кодах, например последовательные числа и повторяющиеся множества, установите флажок **Разрешить общие шаблоны**. Если этот параметр не выбран, допустимы только сложные шаблоны цифры (параметр по умолчанию).
+5.  <span data-ttu-id="06c90-p103">В окне **Изменение политики ПИН-кода** введите или выберите в поле **Минимальная длина ПИН-кода** минимальную длину ПИН-кода. Минимальная длина по умолчанию составляет пять цифр.</span><span class="sxs-lookup"><span data-stu-id="06c90-p103">In **Edit PIN Policy**, in **Minimum PIN length**, type or select the minimum PIN length that you want to allow. The default minimum length is five digits.</span></span>
+
+6.  <span data-ttu-id="06c90-p104">Чтобы иметь возможность задать максимальное число попыток входа перед блокированием пользователя, установите флажок **Задать максимальное число попыток входа**. Если этот параметр не выбран, максимальное число разрешенных попыток входа автоматически определяется в зависимости от длины ПИН-кода. По умолчанию максимальное число попыток определяется автоматически.</span><span class="sxs-lookup"><span data-stu-id="06c90-p104">To be able to specify the maximum number of logon attempts before a user is locked out, select the **Specify maximum logon attempts** check box. If you do not select this option, the maximum number of allowed attempts is automatically determined based on the PIN length. By default, the maximum number of attempts is automatically determined.</span></span>
+
+7.  <span data-ttu-id="06c90-119">Если установлен флажок **Задать максимальное число попыток входа**, в поле **Максимальное число попыток входа** введите или выберите максимальное число попыток входа, которое требуется разрешить.</span><span class="sxs-lookup"><span data-stu-id="06c90-119">If you selected the **Specify maximum logon attempts** check box, in **Maximum logon attempts**, type or select the maximum number of logon attempts that you want to allow.</span></span>
+
+8.  <span data-ttu-id="06c90-p105">Чтобы ПИН-коды имели конечный срок действия, установите флажок **Включить конечный срок действия ПИН-кодов**. Если этот параметр не выбран, ПИН-коды не будут иметь ограничений по сроку действия. По умолчанию ПИН-коды не имеют ограничений по сроку действия.</span><span class="sxs-lookup"><span data-stu-id="06c90-p105">To have PINs expire, select the **Enable PIN expiration** check box. If you do not select this option, PINs will never expire. By default, PINs never expire.</span></span>
+
+9.  <span data-ttu-id="06c90-123">Если флажок **Разрешить окончание срока действия ПИН-кода** установлен, то в поле **Срок действия ПИН-кода истекает после (дней)** введите или выберите максимальное число дней, после которых ПИН-коды становятся недействительными.</span><span class="sxs-lookup"><span data-stu-id="06c90-123">If you selected the **Enable PIN expiration** check box, in **PIN expires after (days)**, type or select the number of days after which PINs expire.</span></span>
+
+10. <span data-ttu-id="06c90-p106">В поле **История значений ПИН-кода** введите число ПИН-кодов, которое пользователь должен создать перед тем, как он сможет использовать их повторно. По умолчанию пользователи могут повторно использовать ПИН-коды.</span><span class="sxs-lookup"><span data-stu-id="06c90-p106">In **PIN history count**, type the number of PINs that a user must create before the user can reuse a PIN. By default, users can reuse their PINs.</span></span>
+
+11. <span data-ttu-id="06c90-p107">Чтобы разрешить распространенные последовательности цифр в ПИН-кодах, такие как последовательные номера и повторяющиеся наборы номеров, установите флажок **Разрешить общие шаблоны**. Если не выбрать этот параметр, будут разрешены только сложные наборы цифр. По умолчанию разрешены только сложные наборы цифр.</span><span class="sxs-lookup"><span data-stu-id="06c90-p107">To allow common patterns of digits in PINs, such as sequential numbers and repetitive sets of numbers, select the **Allow common patterns** check box. If you do not select this option, only complex patterns of digits are allowed. By default, only complex patterns of digits are allowed.</span></span>
     
-    > [!IMPORTANT]
-    > Мы не рекомендуем разрешать общие шаблоны.
+    <div>
+    
 
+    > [!IMPORTANT]  
+    > <span data-ttu-id="06c90-129">Мы рекомендуем не разрешать использование распространенных последовательностей.</span><span class="sxs-lookup"><span data-stu-id="06c90-129">We recommend that you do not allow common patterns.</span></span>
 
-12. Нажмите кнопку **Сохранить**.
+    
+    </div>
+
+12. <span data-ttu-id="06c90-130">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="06c90-130">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

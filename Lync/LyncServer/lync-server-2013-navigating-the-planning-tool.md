@@ -1,53 +1,85 @@
-﻿---
-title: 'Lync Server 2013: навигация по средству планирования'
-TOCTitle: Навигация по средству планирования
-ms:assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558601(v=OCS.15)
-ms:contentKeyID: 52058154
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Навигация в инструменте "планирование"'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Navigating the Planning Tool
+ms:assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558601(v=OCS.15)
+ms:contentKeyID: 51541441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39be29fb31bc48d037fbecd81b0016edf57e85aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826572"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Навигация по средству планирования для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-21_
+# <a name="navigating-the-planning-tool-in-lync-server-2013"></a><span data-ttu-id="2ad03-102">Навигация в инструменте "планирование" в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ad03-102">Navigating the Planning Tool in Lync Server 2013</span></span>
 
-Для навигации по средству планирования Microsoft Lync Server 2013 используется сочетание панели инструментов, кнопок и ссылок на страницах, а также контекстно-зависимых областей. Контекстно-зависимые области предоставляют информацию о структуре для планирования и мощности, которая соответствует параметрам выбора на конкретной странице.
+</div>
 
-При запуске средства планирования проектировщик прежде всего видит страницу **приветствия средства планирования для Microsoft Lync Server 2013** .
+<div id="mainSection">
 
-![Страница приветствия в средстве планирования](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Страница приветствия в средстве планирования")
+<div id="mainBody">
 
-На этой странице приветствия проектировщик выбирает элемент **Get Started** (Начало работы), **Design Sites** (Разработка сайтов) или **Display** (Отображение). Дополнительные сведения см. в разделе [Создание начального проекта топологии для Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).
+<span> </span>
 
-В верхней части средства планирования находится панель инструментов, упрощающая доступ к часто используемым функциям. Эта панели инструментов приведена здесь для справки, и каждая из функций будет подробно рассмотрена в соответствующих разделах.
+<span data-ttu-id="2ad03-103">_**Тема последнего изменения:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="2ad03-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-![Панель инструментов в средстве планирования](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Панель инструментов в средстве планирования")
+<span data-ttu-id="2ad03-104">Навигация в Microsoft Lync Server 2013, планирование с помощью панели инструментов, специальных кнопок и ссылок, а также контекстно-зависимых областей.</span><span class="sxs-lookup"><span data-stu-id="2ad03-104">You navigate the Microsoft Lync Server 2013, Planning Tool by using a combination of a toolbar, page-specific buttons and links, and context-specific panes.</span></span> <span data-ttu-id="2ad03-105">Контекстно-зависимые области предоставляют информацию о структуре для планирования и обеспечения мощности, которая соответствует параметрам выбора на конкретной странице.</span><span class="sxs-lookup"><span data-stu-id="2ad03-105">The context-specific panes provide design information for planning and capacity that is relevant to the selection options on a specific page.</span></span>
 
-В левой части средства планирования имеется раздел "External Links" (Внешние ссылки). Здесь проектировщик может легко получить доступ к информации о планировании и развертывании, а также другим техническим ресурсам, таким как учебные курсы, технические блоги, форумы и другие загружаемые ресурсы. Кроме того, в разделе "External Links" (Внешние ссылки) находится ссылка "Feedback" (Отзыв) для группы средства планированияLync Server 2013.
+<span data-ttu-id="2ad03-106">При запуске средства планирования сначала разработчик видит страницу " **Добро пожаловать в инструмент" планирование "для Microsoft Lync Server 2013** .</span><span class="sxs-lookup"><span data-stu-id="2ad03-106">On starting the Planning Tool, a designer first sees the **Welcome to the Planning Tool for Microsoft Lync Server 2013** page.</span></span>
 
-![Диалоговое окно внешних ссылок в средстве планирования](images/Gg558601.76959057-8eb2-4158-b1b3-585cca80be7e(OCS.15).jpg "Диалоговое окно внешних ссылок в средстве планирования")
+<span data-ttu-id="2ad03-107">![Начальная страница средства планирования] (images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Начальная страница средства планирования")</span><span class="sxs-lookup"><span data-stu-id="2ad03-107">![Planning Tool Welcome page](images/Gg558601.ff5b72e6-bcf0-49e9-8784-3636fe8187c5(OCS.15).jpg "Planning Tool Welcome page")</span></span>
 
-Контекстно-зависимая область "Actions" (Действия) отображается на многих страницах средства планирования. Эта страница упрощает проектировщику доступ к основным разделам топологии. Ссылки в области "Actions" (Действия) изменяются в зависимости от степени детализации вашей топологии. Данная область становится доступна после прохождения опроса и отображения топологии. В области действий присутствует раздел "Overview" (Обзор), где отображаются числа, введенные проектировщиком в рамках опроса. Данный обзор контекстно зависит от отображаемой информации.
+<span data-ttu-id="2ad03-108">На этой странице приветствия проектировщик выбирает элемент **Get Started** (Начало работы), **Design Sites** (Разработка сайтов) или **Display** (Отображение).</span><span class="sxs-lookup"><span data-stu-id="2ad03-108">On the Welcome page, the designer chooses **Get Started**, **Design Sites**, or **Display**.</span></span> <span data-ttu-id="2ad03-109">Подробности можно найти [в разделе Создание начальной структуры топологии для Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).</span><span class="sxs-lookup"><span data-stu-id="2ad03-109">For details, see [Create the initial topology design for Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md).</span></span>
 
-Кроме того, информация об оборудовании отображается в обзоре под областью действий. В конфигурации оборудования отображается список требований к оборудованию, рекомендованных для текущей топологии.
+<span data-ttu-id="2ad03-110">В верхней части инструмента "планирование" находится панель инструментов, обеспечивающая удобный доступ к часто используемым функциям.</span><span class="sxs-lookup"><span data-stu-id="2ad03-110">At the top of the Planning Tool is a toolbar that provides easy access to frequently used functions.</span></span> <span data-ttu-id="2ad03-111">Эта панели инструментов приведена здесь для справки, и каждая из функций будет подробно рассмотрена в соответствующих разделах.</span><span class="sxs-lookup"><span data-stu-id="2ad03-111">The toolbar is displayed here for reference, and each function will be discussed in related topics.</span></span>
 
-![Область действий в средстве планирования](images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "Область действий в средстве планирования")
+<span data-ttu-id="2ad03-112">![Панель инструментов средства планирования] (images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Панель инструментов средства планирования")</span><span class="sxs-lookup"><span data-stu-id="2ad03-112">![Planning Tool Toolbar](images/Gg558601.a008ddd1-b73d-4406-9d4b-df68bed9906e(OCS.15).jpg "Planning Tool Toolbar")</span></span>
 
-## См. также
+<span data-ttu-id="2ad03-113">В левой части средства планирования есть раздел внешние ссылки.</span><span class="sxs-lookup"><span data-stu-id="2ad03-113">The Planning Tool has an External Links section on the left side of the tool.</span></span> <span data-ttu-id="2ad03-114">Здесь проектировщик может легко получить доступ к информации о планировании и развертывании, а также другим техническим ресурсам, таким как учебные курсы, технические блоги, форумы и другие загружаемые ресурсы.</span><span class="sxs-lookup"><span data-stu-id="2ad03-114">From here, the designer has easy access to planning and deployment information, and other technical resources such as training, technical blogs, forums, and other downloadable resources.</span></span> <span data-ttu-id="2ad03-115">Кроме того, в разделе Внешние ссылки находится ссылка на отзыв для команды средства планирования Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2ad03-115">Also in the External Links section is a Feedback link to the Lync Server 2013 Planning Tool team.</span></span>
 
-#### Задачи
+<span data-ttu-id="2ad03-116">![Диалоговое окно "внешние ссылки" инструмента "планирование"] (images/Gg558601.76959057-8eb2-4158-b1b3-585cca80be7e(OCS.15).jpg "Диалоговое окно \"внешние ссылки\" инструмента \"планирование\"")</span><span class="sxs-lookup"><span data-stu-id="2ad03-116">![Planning Tool External Links dialog box](images/Gg558601.76959057-8eb2-4158-b1b3-585cca80be7e(OCS.15).jpg "Planning Tool External Links dialog box")</span></span>
 
-[Создание начального проекта топологии для Lync Server 2013](lync-server-2013-create-the-initial-topology-design.md)  
+<span data-ttu-id="2ad03-117">Панель, учитывающая контекстно-зависимые действия, отображается на многих страницах в инструменте "планирование".</span><span class="sxs-lookup"><span data-stu-id="2ad03-117">A context-sensitive Actions pane is displayed on many pages in the Planning Tool.</span></span> <span data-ttu-id="2ad03-118">Эта страница упрощает проектировщику доступ к основным разделам топологии.</span><span class="sxs-lookup"><span data-stu-id="2ad03-118">The Actions pane gives the designer easy access to main sections of the topology.</span></span> <span data-ttu-id="2ad03-119">Ссылки в области "Actions" (Действия) изменяются в зависимости от степени детализации вашей топологии.</span><span class="sxs-lookup"><span data-stu-id="2ad03-119">The links available in the Actions pane change based on the detail level in your topology.</span></span> <span data-ttu-id="2ad03-120">Данная область становится доступна после прохождения опроса и отображения топологии.</span><span class="sxs-lookup"><span data-stu-id="2ad03-120">The Actions pane is available after you have completed the interview questions and displayed your topology.</span></span> <span data-ttu-id="2ad03-121">В области действий присутствует раздел "Overview" (Обзор), где отображаются числа, введенные проектировщиком в рамках опроса.</span><span class="sxs-lookup"><span data-stu-id="2ad03-121">Included in the Actions pane is the Overview section, which displays numbers that the designer has entered as part of the interview process.</span></span> <span data-ttu-id="2ad03-122">Данный обзор контекстно зависит от отображаемой информации.</span><span class="sxs-lookup"><span data-stu-id="2ad03-122">The overview is contextually related to the displayed information.</span></span>
 
-#### Концепции
+<span data-ttu-id="2ad03-p106">Кроме того, информация об оборудовании отображается в обзоре под областью действий. В конфигурации оборудования отображается список требований к оборудованию, рекомендованных для текущей топологии.</span><span class="sxs-lookup"><span data-stu-id="2ad03-p106">Additionally, hardware information is displayed in the overview under the Actions pane. The hardware configuration displays a list of hardware requirements that the current topology recommends.</span></span>
 
-[Изменение структуры в Lync Server 2013](lync-server-2013-editing-the-design.md)  
+<span data-ttu-id="2ad03-125">![Область действий инструмента "Планирование] " (images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "Область действий инструмента \"Планирование") "</span><span class="sxs-lookup"><span data-stu-id="2ad03-125">![Planning Tool Actions Pane](images/Gg558601.9679d8fd-4de8-4a5a-bfcf-699da9aa7283(OCS.15).jpg "Planning Tool Actions Pane")</span></span>
 
-#### Другие ресурсы
+<div>
 
-[Просмотр отчетов администратора в Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)
+## <a name="see-also"></a><span data-ttu-id="2ad03-126">См. также</span><span class="sxs-lookup"><span data-stu-id="2ad03-126">See Also</span></span>
+
+
+[<span data-ttu-id="2ad03-127">Создание начальной структуры топологии для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ad03-127">Create the initial topology design for Lync Server 2013</span></span>](lync-server-2013-create-the-initial-topology-design.md)  
+
+
+[<span data-ttu-id="2ad03-128">Изменение структуры в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ad03-128">Editing the design in Lync Server 2013</span></span>](lync-server-2013-editing-the-design.md)  
+
+
+[<span data-ttu-id="2ad03-129">Просмотр отчетов администратора в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ad03-129">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

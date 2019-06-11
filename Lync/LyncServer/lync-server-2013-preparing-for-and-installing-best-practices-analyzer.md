@@ -1,67 +1,109 @@
-﻿---
-title: Подготовка к установке анализатора соответствия рекомендациям
-TOCTitle: Подготовка к установке анализатора соответствия рекомендациям
-ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg591347(v=OCS.15)
-ms:contentKeyID: 49309805
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: подготовка к установке и установка анализатора соответствия рекомендациям'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing for and installing Best Practices Analyzer
+ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591347(v=OCS.15)
+ms:contentKeyID: 48184149
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 58d1d2f86b579bfb0259c8ad3e4b26b051b47a8b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823926"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Подготовка к установке анализатора соответствия рекомендациям
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="e1179-102">Подготовка и установка анализатора соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1179-102">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>
 
-Необходимо выполнить вход в систему как член группы администраторов, чтобы выполнить задачи, приведены в этом разделе.
+</div>
 
-## Системные требования для установки анализатора соответствия рекомендациям
+<div id="mainSection">
 
-Чтобы выполнить анализатор соответствия рекомендациям Lync Server 2013 для сканирования среды, на компьютере должна работать 64-разрядная версия одной из следующих операционных систем:
+<div id="mainBody">
 
-  - Windows Server 2008 R2 с пакетом обновления 1 (SP1) Standard
+<span> </span>
 
-  - Windows Server 2008 R2 с пакетом обновления 1 (SP1) Enterprise
+<span data-ttu-id="e1179-103">_**Тема последнего изменения:** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="e1179-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-  - Windows Server 2008 R2 с пакетом обновления 1 (SP1) Datacenter
+<span data-ttu-id="e1179-104">Для выполнения задач, описанных в этом разделе, необходимо войти в систему в качестве члена группы администраторов.</span><span class="sxs-lookup"><span data-stu-id="e1179-104">You must be logged on as a member of the Administrators group to perform the tasks that are described in this topic.</span></span>
 
-  - Windows Server 2012 Datacenter
+<div>
 
-  - Windows Server 2012 Standard
+## <a name="system-requirements-for-best-practices-analyzer-installation"></a><span data-ttu-id="e1179-105">Требования к системе для установки анализатора соответствия рекомендациям</span><span class="sxs-lookup"><span data-stu-id="e1179-105">System Requirements for Best Practices Analyzer Installation</span></span>
 
-  - Windows Server 2012 Enterprise
+<span data-ttu-id="e1179-106">Для запуска Lync Server 2013, анализатора соответствия рекомендациям для проверки среды на компьютере должна быть установлена версия 64-bit Edition одной из указанных ниже операционных систем.</span><span class="sxs-lookup"><span data-stu-id="e1179-106">To run Lync Server 2013, Best Practices Analyzer to scan your environment, the computer must be running a 64-bit edition of one of the following operating systems:</span></span>
 
-  - ОС Windows Server 2012 R2 Datacenter
+  - <span data-ttu-id="e1179-107">Стандартная операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="e1179-107">Windows Server 2008 R2 with Service Pack 1 (SP1) Standard operating system</span></span>
 
-  - ОС Windows Server 2012 R2 Standard
+  - <span data-ttu-id="e1179-108">Операционная система Windows Server 2008 R2 с пакетом обновления 1 (SP1)</span><span class="sxs-lookup"><span data-stu-id="e1179-108">Windows Server 2008 R2 with SP1 Enterprise operating system</span></span>
 
-  - ОС Windows Server 2012 R2 Enterprise
+  - <span data-ttu-id="e1179-109">Windows Server 2008 R2 с пакетом обновления 1 (SP1) для операционной системы Datacenter</span><span class="sxs-lookup"><span data-stu-id="e1179-109">Windows Server 2008 R2 with SP1 Datacenter operating system</span></span>
 
-  - ОС Windows 8
+  - <span data-ttu-id="e1179-110">Операционная система Windows Server 2012 Datacenter</span><span class="sxs-lookup"><span data-stu-id="e1179-110">Windows Server 2012 Datacenter operating system</span></span>
 
-  - ОС Windows 7
+  - <span data-ttu-id="e1179-111">Операционная система Windows Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="e1179-111">Windows Server 2012 Standard operating system</span></span>
 
-На компьютере также должны работать следующие компоненты:
+  - <span data-ttu-id="e1179-112">Операционная система Windows Server 2012 Enterprise</span><span class="sxs-lookup"><span data-stu-id="e1179-112">Windows Server 2012 Enterprise operating system</span></span>
 
-  - Microsoft .NET Framework 4.5. Для Lync Server 2013 необходимо вручную установить на сервере 64-разр. версию Microsoft .NET Framework 4.5, прежде чем устанавливать Lync Server 2013.
+  - <span data-ttu-id="e1179-113">Операционная система Windows Server 2012 R2 Datacenter</span><span class="sxs-lookup"><span data-stu-id="e1179-113">Windows Server 2012 R2 Datacenter operating system</span></span>
 
-  - Основные компоненты Lync Server 2013.
+  - <span data-ttu-id="e1179-114">Операционная система Windows Server 2012 R2 Standard</span><span class="sxs-lookup"><span data-stu-id="e1179-114">Windows Server 2012 R2 Standard operating system</span></span>
 
-  - Пакет обратной совместимости WMI. Подробные сведения см. в разделе [Установка пакета обратной совместимости WMI](install-wmi-backward-compatibility-package.md) документации по миграции.
+  - <span data-ttu-id="e1179-115">Операционная система Windows Server 2012 R2 Enterprise</span><span class="sxs-lookup"><span data-stu-id="e1179-115">Windows Server 2012 R2 Enterprise operating system</span></span>
 
-  - Windows PowerShell 3.0. Подробные сведения см. в разделе [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) документации по развертыванию.
+  - <span data-ttu-id="e1179-116">Операционная система Windows 8</span><span class="sxs-lookup"><span data-stu-id="e1179-116">Windows 8 operating system</span></span>
 
-Можно установить анализатор соответствия рекомендациям на компьютерах с поддерживаемой ОС, где не работают основные компоненты Lync Server 2013 или пакет обратной совместимости WMI, однако на этих компьютерах анализатор можно будет использовать только для просмотра отчетов, но не для выполнения сканирования.
+  - <span data-ttu-id="e1179-117">Операционная система Windows 7</span><span class="sxs-lookup"><span data-stu-id="e1179-117">Windows 7 operating system</span></span>
 
-## Выбор компьютера для установки
+<span data-ttu-id="e1179-118">На компьютере должны быть также запущены следующие возможности:</span><span class="sxs-lookup"><span data-stu-id="e1179-118">The computer must also be running the following:</span></span>
 
-Рекомендуется устанавливать анализатор соответствия рекомендациям Lync Server 2013 на компьютере, предназначенном для управления Lync Server 2013. Можно установить средство на сервере с Lync Server 2013 или на административном компьютере, на котором работают средства администрирования Lync Server 2013. Если установить средство на сервере с Lync Server, рекомендуется использовать это средство только для сканирования данного сервера.
+  - <span data-ttu-id="e1179-119">Microsoft .NET Framework 4,5.</span><span class="sxs-lookup"><span data-stu-id="e1179-119">Microsoft .NET Framework 4.5.</span></span> <span data-ttu-id="e1179-120">Для Lync Server 2013 необходимо вручную установить 64-разрядную версию Microsoft .NET Framework 4,5 на сервере перед установкой Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1179-120">For Lync Server 2013, you must manually install the 64-bit edition of Microsoft .NET Framework 4.5 on the server prior to installing Lync Server 2013.</span></span>
 
-## Установка анализатора соответствия рекомендациям
+  - <span data-ttu-id="e1179-121">Lync Server 2013, основные компоненты.</span><span class="sxs-lookup"><span data-stu-id="e1179-121">Lync Server 2013, Core Components.</span></span>
 
-Анализатор соответствия рекомендациям можно загрузить для Lync Server 2013 с сайта [http://go.microsoft.com/fwlink/?linkid=266539\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x419).
+  - <span data-ttu-id="e1179-122">Пакет обратной совместимости WMI.</span><span class="sxs-lookup"><span data-stu-id="e1179-122">WMI Backward Compatibility Package.</span></span> <span data-ttu-id="e1179-123">Дополнительные сведения можно найти в разделе [Установка пакета обратной СОВМЕСТИМОСТИ WMI](install-wmi-backward-compatibility-package.md) в документации по миграции.</span><span class="sxs-lookup"><span data-stu-id="e1179-123">For details, see [Install WMI Backward Compatibility package](install-wmi-backward-compatibility-package.md) in the Migration documentation.</span></span>
 
-Чтобы установить анализатор соответствия рекомендациям, запустите файл установщика Microsoft RtcBPA.msi на компьютере, где необходимо установить средство, затем следуйте инструкциям на экране. Местом установки программных файлов по умолчанию является *\<системный диск\>*\\Program Files\\Lync Server 2013\\BPA.
+  - <span data-ttu-id="e1179-124">Windows PowerShell 3,0.</span><span class="sxs-lookup"><span data-stu-id="e1179-124">Windows PowerShell 3.0.</span></span> <span data-ttu-id="e1179-125">Дополнительные сведения можно найти в разделе [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="e1179-125">For details, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) in the Deployment documentation.</span></span>
+
+<span data-ttu-id="e1179-126">Вы можете установить анализатор соответствия рекомендациям на компьютерах с поддерживаемой операционной системой, не использующей Lync Server 2013, основные компоненты или пакет обратной совместимости WMI, но вы можете использовать анализатор соответствия рекомендациям только для просмотра отчетов, а не для запуска сканирования.</span><span class="sxs-lookup"><span data-stu-id="e1179-126">You can install Best Practices Analyzer on computers with a supported operating system that are not running Lync Server 2013, Core Components or WMI Backward Compatibility Package, but you can use Best Practices Analyzer on those computers only to view reports, not to run scans.</span></span>
+
+</div>
+
+<div>
+
+## <a name="choosing-a-computer-for-installation"></a><span data-ttu-id="e1179-127">Выбор компьютера для установки</span><span class="sxs-lookup"><span data-stu-id="e1179-127">Choosing a Computer for Installation</span></span>
+
+<span data-ttu-id="e1179-128">Мы рекомендуем установить Lync Server 2013, анализатор соответствия рекомендациям на компьютере, специально предназначенном для управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1179-128">We recommend that you install Lync Server 2013, Best Practices Analyzer on a computer that is dedicated to Lync Server 2013 management.</span></span> <span data-ttu-id="e1179-129">Вы можете установить этот инструмент на сервер, на котором работает Lync Server 2013 или административный компьютер, на котором запущены средства администрирования Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1179-129">You can install the tool on a server running Lync Server 2013 or an administrative computer running Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="e1179-130">Если вы установили средство на сервер, на котором работает Lync Server, мы рекомендуем использовать это средство для проверки только этого сервера.</span><span class="sxs-lookup"><span data-stu-id="e1179-130">If you install the tool on a server that is running Lync Server, we recommend that you use the tool to scan only that server.</span></span>
+
+</div>
+
+<div>
+
+## <a name="installing-best-practices-analyzer"></a><span data-ttu-id="e1179-131">Установка анализатора соответствия рекомендациям</span><span class="sxs-lookup"><span data-stu-id="e1179-131">Installing Best Practices Analyzer</span></span>
+
+<span data-ttu-id="e1179-132">Вы можете скачать анализатор соответствия рекомендациям для Lync Server 2013 по [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)адресу.</span><span class="sxs-lookup"><span data-stu-id="e1179-132">You can download the Best Practices Analyzer for Lync Server 2013 at [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539).</span></span>
+
+<span data-ttu-id="e1179-133">Чтобы установить анализатор соответствия рекомендациям, запустите файл установщика Microsoft Рткбпа. msi на компьютере, на котором вы хотите установить средство, и следуйте инструкциям на экране.</span><span class="sxs-lookup"><span data-stu-id="e1179-133">To install Best Practices Analyzer, start the Microsoft Installer file RtcBPA.msi on the computer where you want to install the tool, and then follow the instructions on the screen.</span></span> <span data-ttu-id="e1179-134">По умолчанию для установки файлов программы устанавливаются \<файлы программы\>\\системного диска\\Lync Server 2013\\BPA.</span><span class="sxs-lookup"><span data-stu-id="e1179-134">The default location for installing the program files is \<system drive\>\\Program Files\\Lync Server 2013\\BPA.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

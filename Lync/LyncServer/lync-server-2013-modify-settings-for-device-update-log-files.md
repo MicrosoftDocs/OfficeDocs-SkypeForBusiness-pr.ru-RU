@@ -1,23 +1,43 @@
-﻿---
-title: Изменение параметров для файлов журналов обновления устройств
-TOCTitle: Изменение параметров для файлов журналов обновления устройств
-ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182554(v=OCS.15)
-ms:contentKeyID: 49310642
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: изменение параметров для файлов журнала обновления устройства'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify settings for Device Update log files
+ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182554(v=OCS.15)
+ms:contentKeyID: 48184975
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 37002e1043f990ae1e726301b9c720af35556201
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826887"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Изменение параметров для файлов журналов обновления устройств
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="modify-settings-for-device-update-log-files-in-lync-server-2013"></a><span data-ttu-id="10f61-102">Изменение параметров для файлов журнала обновления устройства в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10f61-102">Modify settings for Device Update log files in Lync Server 2013</span></span>
 
-Настройки регистрации информации об обновлении устройств в организации можно изменять с помощью управления Lync Server или Командная консоль Lync Server. В следующей таблице указано, какие настройки доступны для изменения и какие средства можно использовать для изменения этих настроек.
+</div>
 
-Параметры журналов можно изменять глобально или на уровне сайта.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="10f61-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="10f61-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="10f61-104">Вы можете изменить параметры, которые будут регистрироваться в вашей организации с помощью панели управления Lync Server или консоли управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="10f61-104">You can change settings for how device update information is logged in your organization by using Lync Server Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="10f61-105">В приведенной ниже таблице показано, какие параметры можно изменять, а также какие инструменты используются для изменения параметров.</span><span class="sxs-lookup"><span data-stu-id="10f61-105">The following table shows which settings are modifiable, and which tool(s) you use to modify the settings.</span></span>
+
+<span data-ttu-id="10f61-106">Параметры журнала можно изменять и применять глобально или на уровне отдельных сайтов.</span><span class="sxs-lookup"><span data-stu-id="10f61-106">Log settings can be changed and applied globally, or per site.</span></span>
 
 
 <table>
@@ -27,91 +47,124 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Подлежит изменению</th>
-<th>Использование</th>
+<th><span data-ttu-id="10f61-107">Для изменения</span><span class="sxs-lookup"><span data-stu-id="10f61-107">To change</span></span></th>
+<th><span data-ttu-id="10f61-108">Применение</span><span class="sxs-lookup"><span data-stu-id="10f61-108">Use</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Максимальный размер (в байтах) файла журнала</p></td>
-<td><p>управления Lync Server</p>
-<p>-или-</p>
-<p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-109">Максимальный размер файла журнала (в байтах)</span><span class="sxs-lookup"><span data-stu-id="10f61-109">The maximum size (in bytes) for a log file</span></span></p></td>
+<td><p><span data-ttu-id="10f61-110">Панель управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-110">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="10f61-111">/</span><span class="sxs-lookup"><span data-stu-id="10f61-111">-or-</span></span></p>
+<p><span data-ttu-id="10f61-112">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-112">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальный объем информации (в байтах), который может хранится в кэше</p></td>
-<td><p>управления Lync Server</p>
-<p>-или-</p>
-<p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-113">Максимальный объем данных (в байтах), которые могут храниться в кэше</span><span class="sxs-lookup"><span data-stu-id="10f61-113">The maximum amount of information (in bytes) that can be held in the cache</span></span></p></td>
+<td><p><span data-ttu-id="10f61-114">Панель управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-114">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="10f61-115">/</span><span class="sxs-lookup"><span data-stu-id="10f61-115">-or-</span></span></p>
+<p><span data-ttu-id="10f61-116">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-116">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Частота (в минутах) записи кэшированной информации в файл журнала</p></td>
-<td><p>управления Lync Server</p>
-<p>-или-</p>
-<p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-117">Частота записи кэшированных данных в файл журнала (в минутах)</span><span class="sxs-lookup"><span data-stu-id="10f61-117">How often (in minutes) to write cached information to the log file</span></span></p></td>
+<td><p><span data-ttu-id="10f61-118">Панель управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-118">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="10f61-119">/</span><span class="sxs-lookup"><span data-stu-id="10f61-119">-or-</span></span></p>
+<p><span data-ttu-id="10f61-120">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-120">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Длительность (в днях) периода хранения файлов журнала</p></td>
-<td><p>управления Lync Server</p>
-<p>-или-</p>
-<p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-121">Продолжительность хранения файлов журнала (в днях)</span><span class="sxs-lookup"><span data-stu-id="10f61-121">How long (in days) to keep log files</span></span></p></td>
+<td><p><span data-ttu-id="10f61-122">Панель управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-122">Lync Server Control Panel</span></span></p>
+<p><span data-ttu-id="10f61-123">/</span><span class="sxs-lookup"><span data-stu-id="10f61-123">-or-</span></span></p>
+<p><span data-ttu-id="10f61-124">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-124">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Время (время дня) проверки наличия устаревших файлов, которые подлежат удалению</p></td>
-<td><p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-125">Время (в днях) для проверки просроченных файлов, которые нужно удалить</span><span class="sxs-lookup"><span data-stu-id="10f61-125">When (time of day) to check for expired files that should be deleted</span></span></p></td>
+<td><p><span data-ttu-id="10f61-126">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-126">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Допустимые расширения файлов журналов</p></td>
-<td><p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-127">Какие расширения файлов журналов разрешаются</span><span class="sxs-lookup"><span data-stu-id="10f61-127">What log file extensions to permit</span></span></p></td>
+<td><p><span data-ttu-id="10f61-128">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-128">Lync Server Management Shell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохраняемые типы файлов журналов</p></td>
-<td><p>Командная консоль Lync Server</p></td>
+<td><p><span data-ttu-id="10f61-129">Типы файлов журналов, которые нужно сохранить</span><span class="sxs-lookup"><span data-stu-id="10f61-129">Which log file types to retain</span></span></p></td>
+<td><p><span data-ttu-id="10f61-130">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-130">Lync Server Management Shell</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Изменение параметров журналов с помощью управления Lync Server
+<div>
 
-1.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="10f61-131">Изменение параметров ведения журнала с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="10f61-131">To change logging settings by using Lync Server Control Panel</span></span>
 
-2.  В левой области навигации последовательно выберите пункты **Клиенты** и **Конфигурация журналов устройств**.
+1.  <span data-ttu-id="10f61-132">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="10f61-132">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="10f61-133">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="10f61-133">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  На странице **Конфигурация журналов устройств** дважды щелкните конфигурацию, которую требуется изменить.
+2.  <span data-ttu-id="10f61-134">На панели навигации слева выберите пункт **Клиенты**, а затем — **Конфигурация журнала устройств**.</span><span class="sxs-lookup"><span data-stu-id="10f61-134">In the left navigation bar, click **Clients**, and then click **Device Log Configuration**.</span></span>
 
-4.  В диалоговом окне **Изменение параметров журнала** измените какие-либо из следующих параметров.
+3.  <span data-ttu-id="10f61-135">На странице **конфигурации журнала устройства** дважды щелкните конфигурацию, которую вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="10f61-135">On the **Device Log Configuration** page, double-click the configuration that you want to change.</span></span>
+
+4.  <span data-ttu-id="10f61-136">В диалоговом окне **изменение параметров журнала** измените любые из указанных ниже параметров.</span><span class="sxs-lookup"><span data-stu-id="10f61-136">In the **Edit Log Setting** dialog box, change any of the following settings:</span></span>
     
-      - **Максимальный размер файла (в байтах)** — задает максимальный размер файла журнала до его очистки. Значение по умолчанию — 1 024 000 байт (1 МБ).
+      - <span data-ttu-id="10f61-137">**Максимальный размер файла (в байтах)**   — максимальный размер, который может быть указан в файле журнала до его очистки.</span><span class="sxs-lookup"><span data-stu-id="10f61-137">**Maximum file size (bytes)**   Specifies the maximum size a log file can become before it is purged.</span></span> <span data-ttu-id="10f61-138">Значение по умолчанию — 1 024 000 байт (1 МБ).</span><span class="sxs-lookup"><span data-stu-id="10f61-138">The default is 1,024,000 bytes (1 MB).</span></span>
     
-      - **Максимальный размер кэша (в байтах)**   —задает максимальный объем информации (в байтах), который может храниться в кэше файла журнала, прежде чем этот кэш будет очищен, а данные записаны в файл журнала. Значение по умолчанию — 512 000 байт (0,5 МБ).
+      - <span data-ttu-id="10f61-139">**Максимальный размер кэша (в байтах)**   — максимальный объем данных (в байтах), которые могут храниться в кэше файлов журналов, прежде чем этот кэш должен быть очищен и данные записываются в файл журнала.</span><span class="sxs-lookup"><span data-stu-id="10f61-139">**Maximum cache size (bytes)**   Specifies the maximum amount of information (in bytes) that can be held in the log file cache before that cache must be cleared and the data is written to a log file.</span></span> <span data-ttu-id="10f61-140">Значение по умолчанию — 512 000 байт (0,5 МБ).</span><span class="sxs-lookup"><span data-stu-id="10f61-140">The default is 512,000 bytes (0.5 MB).</span></span>
     
-      - **Количество минут до очистки кэша (1-60)** — указывает, как часто информация, сохраненная в кэше файла журнала, должна записываться в фактический файл журнала. После записи данных в журнал кэш очищается. Значение по умолчанию — пять минут.
+      - <span data-ttu-id="10f61-141">**Количество минут для кэша очистки (1-60)**   показывает, как часто данные, хранящиеся в кэше файлов журналов, записываются в файл журнала.</span><span class="sxs-lookup"><span data-stu-id="10f61-141">**Number of minutes to flush cache (1-60)**   Indicates how often information stored in the log file cache is written to the actual log file.</span></span> <span data-ttu-id="10f61-142">После того как данные записываются в журнал, кэш очищается.</span><span class="sxs-lookup"><span data-stu-id="10f61-142">After the data is logged, the cache is cleared.</span></span> <span data-ttu-id="10f61-143">По умолчанию используется значение 5 минут.</span><span class="sxs-lookup"><span data-stu-id="10f61-143">The default is five minutes.</span></span>
     
-      - **Количество дней хранения файлов журналов (1-365)**   — задает число дней, которое хранятся файлы журналов перед их очисткой. Значение по умолчанию — 10 дней.
+      - <span data-ttu-id="10f61-144">**Число дней для хранения файлов журнала (1-365)**   указывает количество дней, в течение которых хранятся файлы журнала, прежде чем они будут очищены.</span><span class="sxs-lookup"><span data-stu-id="10f61-144">**Number of days to keep log files (1-365)**   Specifies the number of days the log files are kept before they are purged.</span></span> <span data-ttu-id="10f61-145">Значение по умолчанию — 10 дней.</span><span class="sxs-lookup"><span data-stu-id="10f61-145">The default is 10 days.</span></span>
 
-5.  Нажмите кнопку **Зафиксировать**.
+5.  <span data-ttu-id="10f61-146">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="10f61-146">Click **Commit**.</span></span>
 
-## Изменение параметров журналов с помощью командлетов Windows PowerShell
+</div>
 
-Параметры файлов журналов обновления устройств можно изменить с помощью Windows PowerShell и командлета **Set-CsDeviceUpdateConfiguration**. Этот командлет можно запускать из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell.
+<div>
+
+## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="10f61-147">Изменение параметров ведения журнала с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="10f61-147">Changing Logging Settings by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="10f61-148">Параметры файла журнала обновления устройства можно изменить с помощью Windows PowerShell и командлета **Set-ксдевицеупдатеконфигуратион** .</span><span class="sxs-lookup"><span data-stu-id="10f61-148">Device update log file settings can be modified by using Windows PowerShell and the **Set-CsDeviceUpdateConfiguration** cmdlet.</span></span> <span data-ttu-id="10f61-149">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="10f61-149">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
+> <span data-ttu-id="10f61-150">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="10f61-150">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
-В следующих примерах показан ряд способов, которые позволяют использовать **Set-CsDeviceUpdateConfiguration** для изменения настроек.
 
-## Порядок изменения максимального размера файла журнала и интервала очистки журналов
 
-  - Следующая команда изменят параметры журнала обновления устройств, применяемые к сайту Redmond. В этом примере задается максимальный размер файла журнала, равный 204800 байтам, и интервал очистки журнала, равный 14 дням.
+</div>
+
+<span data-ttu-id="10f61-151">В следующих примерах показано несколько способов использования **Set-ксдевицеупдатеконфигуратион** для изменения параметров.</span><span class="sxs-lookup"><span data-stu-id="10f61-151">The following examples show a couple of the ways that you can use **Set-CsDeviceUpdateConfiguration** to modify settings.</span></span>
+
+<div>
+
+## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a><span data-ttu-id="10f61-152">Изменение максимального размера файла журнала и интервала очистки журнала</span><span class="sxs-lookup"><span data-stu-id="10f61-152">To modify the maximum log file size and the log cleanup interval</span></span>
+
+  - <span data-ttu-id="10f61-153">Следующая команда изменяет параметры журнала обновления устройства, примененные к сайту Redmond.</span><span class="sxs-lookup"><span data-stu-id="10f61-153">The following command modifies the device update log settings applied to the Redmond site.</span></span> <span data-ttu-id="10f61-154">В этом примере для максимального размера файла журнала задано значение 204800 байт, а для интервала очистки журнала установлено значение 14 дней.</span><span class="sxs-lookup"><span data-stu-id="10f61-154">In this example, the maximum log file size is set to 204800 bytes and the log cleanup interval is set to 14 days.</span></span>
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -MaxLogFileSize 204800 -LogCleanUpInterval 14.00:00:00
 
-## Изменение времени очистки журнала (времени дня)
+</div>
 
-  - Эта команда определяет время очистки журнала для сайта Redmond (03:00).
+<div>
+
+## <a name="to-modify-the-log-cleanup-time-of-day"></a><span data-ttu-id="10f61-155">Изменение времени очистки журнала за день</span><span class="sxs-lookup"><span data-stu-id="10f61-155">To modify the log cleanup time of day</span></span>
+
+  - <span data-ttu-id="10f61-156">Эта команда задает время очистки журнала для сайта Redmond на 3:00 AM.</span><span class="sxs-lookup"><span data-stu-id="10f61-156">This command sets the log cleanup time for the Redmond site to 3:00 AM.</span></span>
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-Для получения дополнительных сведений см. раздел справки по командлету [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration).
+</div>
+
+<span data-ttu-id="10f61-157">Дополнительные сведения можно найти в разделе справки по командлету [Set-ксдевицеупдатеконфигуратион](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="10f61-157">For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица MonitoredRegionLink'
-TOCTitle: Таблица MonitoredRegionLink
-ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398874(v=OCS.15)
-ms:contentKeyID: 49311223
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица MonitoredRegionLink'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: MonitoredRegionLink table
+ms:assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398874(v=OCS.15)
+ms:contentKeyID: 48185487
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a176136f28f7f343dc081ca9b551a672b35e7785
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826768"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица MonitoredRegionLink в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a><span data-ttu-id="2016c-102">Таблица MonitoredRegionLink в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2016c-102">MonitoredRegionLink table in Lync Server 2013</span></span>
 
-Таблица MonitoredRegionLink является вспомогательной. Каждая запись представляет одно соединение между странами/регионами.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2016c-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="2016c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="2016c-104">Таблица Мониторедрегионлинк является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="2016c-104">The MonitoredRegionLink table is a supporting table.</span></span> <span data-ttu-id="2016c-105">Каждая запись представляет одну связь между двумя странами и областями.</span><span class="sxs-lookup"><span data-stu-id="2016c-105">Each record represents one link between two countries/regions.</span></span>
 
 
 <table>
@@ -27,25 +47,36 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
-<th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><span data-ttu-id="2016c-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="2016c-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="2016c-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="2016c-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="2016c-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="2016c-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="2016c-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="2016c-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Region1Key</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>Указывается в <a href="lync-server-2013-region-table.md">Таблица Region в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="2016c-110"><strong>Region1Key</strong></span><span class="sxs-lookup"><span data-stu-id="2016c-110"><strong>Region1Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="2016c-111">целое</span><span class="sxs-lookup"><span data-stu-id="2016c-111">int</span></span></p></td>
+<td><p><span data-ttu-id="2016c-112">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="2016c-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="2016c-113">Ссылка на который указан в <a href="lync-server-2013-region-table.md">таблице Region в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="2016c-113">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Region2Key</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>Указывается в <a href="lync-server-2013-region-table.md">Таблица Region в Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="2016c-114"><strong>Region2Key</strong></span><span class="sxs-lookup"><span data-stu-id="2016c-114"><strong>Region2Key</strong></span></span></p></td>
+<td><p><span data-ttu-id="2016c-115">целое</span><span class="sxs-lookup"><span data-stu-id="2016c-115">int</span></span></p></td>
+<td><p><span data-ttu-id="2016c-116">Основной, внешний</span><span class="sxs-lookup"><span data-stu-id="2016c-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="2016c-117">Ссылка на который указан в <a href="lync-server-2013-region-table.md">таблице Region в Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="2016c-117">Referenced from the <a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

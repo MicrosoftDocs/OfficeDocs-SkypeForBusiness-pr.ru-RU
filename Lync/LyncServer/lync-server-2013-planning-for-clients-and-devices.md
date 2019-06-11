@@ -1,27 +1,61 @@
-﻿---
-title: Планирование клиентов и устройств в Lync Server 2013
-TOCTitle: Планирование клиентов и устройств в Lync Server 2013
-ms:assetid: 7b45958a-bb98-4f69-b597-18bb27034244
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398610(v=OCS.15)
-ms:contentKeyID: 49310259
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование для клиентов и устройств'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for clients and devices in Lync Server
+ms:assetid: 7b45958a-bb98-4f69-b597-18bb27034244
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398610(v=OCS.15)
+ms:contentKeyID: 48184598
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3294a4e8d0f94e2cf8c2dd5d028da36266c7fd0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824899"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование клиентов и устройств в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-04_
+# <a name="planning-for-clients-and-devices-in-lync-server-2013"></a><span data-ttu-id="017d3-102">Планирование для клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="017d3-102">Planning for clients and devices in Lync Server 2013</span></span>
 
-В разделах этой статьи описывается процесс планирования клиентов и устройств сервера Lync Server 2013 в организации.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Планирование клиентов в Lync Server 2013](lync-server-2013-planning-for-clients.md)
+<div id="mainBody">
 
-  - [Планирование для мобильных клиентов в Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
+<span> </span>
 
-  - [Планирование для устройств](lync-server-2013-planning-for-devices.md)
+<span data-ttu-id="017d3-103">_**Тема последнего изменения:** 2012-06-04_</span><span class="sxs-lookup"><span data-stu-id="017d3-103">_**Topic Last Modified:** 2012-06-04_</span></span>
+
+<span data-ttu-id="017d3-104">В этой статье описано, как спланировать использование клиентов и устройств Lync Server 2013 в Организации.</span><span class="sxs-lookup"><span data-stu-id="017d3-104">The topics in this section describe how to plan for Lync Server 2013 clients and devices in your organization.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="017d3-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="017d3-105">In This Section</span></span>
+
+  - [<span data-ttu-id="017d3-106">Планирование для клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="017d3-106">Planning for clients in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients.md)
+
+  - [<span data-ttu-id="017d3-107">Планирование мобильных клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="017d3-107">Planning for mobile clients in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobile-clients.md)
+
+  - [<span data-ttu-id="017d3-108">Планирование устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="017d3-108">Planning for devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-devices.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

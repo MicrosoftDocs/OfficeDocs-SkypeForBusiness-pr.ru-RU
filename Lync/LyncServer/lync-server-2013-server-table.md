@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Server'
-TOCTitle: Таблица Servers
-ms:assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398801(v=OCS.15)
-ms:contentKeyID: 49310636
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server table
+ms:assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398801(v=OCS.15)
+ms:contentKeyID: 48184890
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 363c07a6ab3be8f5acdf0286a4223f96a8bd3700
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822008"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Server в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="69fef-102">Таблица Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="69fef-102">Server table in Lync Server 2013</span></span>
 
-Таблица Server является таблицей поддержки. Каждая запись в этой таблице представляет один сервер.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="69fef-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="69fef-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="69fef-104">Серверная таблица является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="69fef-104">The Server table is a supporting table.</span></span> <span data-ttu-id="69fef-105">Каждая запись представляет один сервер.</span><span class="sxs-lookup"><span data-stu-id="69fef-105">Each record represents one server.</span></span>
 
 
 <table>
@@ -27,44 +47,55 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
-<th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><span data-ttu-id="69fef-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="69fef-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="69fef-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="69fef-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ServerKey</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный номер, идентифицирующий сервер.</p></td>
+<td><p><span data-ttu-id="69fef-110"><strong>Серверкэй</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-110"><strong>ServerKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="69fef-111">целое</span><span class="sxs-lookup"><span data-stu-id="69fef-111">int</span></span></p></td>
+<td><p><span data-ttu-id="69fef-112">Primary</span><span class="sxs-lookup"><span data-stu-id="69fef-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="69fef-113">Уникальный номер, идентифицирующий сервер.</span><span class="sxs-lookup"><span data-stu-id="69fef-113">Unique number identifying the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Ключ индекса</p></td>
-<td><p>Строка MAC-адреса.</p></td>
+<td><p><span data-ttu-id="69fef-114"><strong>Фкднорип</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-114"><strong>FQDNOrIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="69fef-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="69fef-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="69fef-116">индекса</span><span class="sxs-lookup"><span data-stu-id="69fef-116">index</span></span></p></td>
+<td><p><span data-ttu-id="69fef-117">Строка MAC-адреса.</span><span class="sxs-lookup"><span data-stu-id="69fef-117">MAC address string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ServerType</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>1: сервер-посредник</p>
-<p>2: сервер аудио- и видеоконференций 16394: пограничная служба аудио- и видеосвязи 32769: шлюз</p></td>
+<td><p><span data-ttu-id="69fef-118"><strong>ServerType</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-118"><strong>ServerType</strong></span></span></p></td>
+<td><p><span data-ttu-id="69fef-119">целое</span><span class="sxs-lookup"><span data-stu-id="69fef-119">int</span></span></p></td>
+<td><p><span data-ttu-id="69fef-120">Другом</span><span class="sxs-lookup"><span data-stu-id="69fef-120">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="69fef-121">1: сервер исправлений</span><span class="sxs-lookup"><span data-stu-id="69fef-121">1: Mediation Server</span></span></p>
+<p><span data-ttu-id="69fef-122">2: Server16394 конференции/V-service32769: шлюз</span><span class="sxs-lookup"><span data-stu-id="69fef-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PoolName</strong></p></td>
-<td><p>nvarchar(512)</p></td>
-<td><p></p></td>
-<td><p>Пул, которому принадлежит сервер. Применяется только для серверов аудио- и видеоконференций.</p></td>
+<td><p><span data-ttu-id="69fef-123"><strong>Пулнаме</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-123"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="69fef-124">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="69fef-124">nvarchar(512)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="69fef-125">Группа, к которой принадлежит сервер.</span><span class="sxs-lookup"><span data-stu-id="69fef-125">Pool the server belongs to.</span></span> <span data-ttu-id="69fef-126">Применимо только для сервера конференц-связи A/V.</span><span class="sxs-lookup"><span data-stu-id="69fef-126">Only applicable for the A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p></p></td>
-<td><p>Только для внутреннего использования.</p></td>
+<td><p><span data-ttu-id="69fef-127"><strong>Некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="69fef-127"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="69fef-128">datetime</span><span class="sxs-lookup"><span data-stu-id="69fef-128">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="69fef-129">Только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="69fef-129">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,61 @@
-﻿---
-title: Справочник схем
-TOCTitle: Справочник схем
-ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398370(v=OCS.15)
-ms:contentKeyID: 49309802
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Справочник по схеме'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema reference
+ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398370(v=OCS.15)
+ms:contentKeyID: 48184191
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7ad70a69426f0fb858fe3b231ddbbddfa5f0753d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821903"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Справочник схем
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-29_
+# <a name="schema-reference-for-lync-server-2013"></a><span data-ttu-id="a7f38-102">Справочник по схемам для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7f38-102">Schema reference for Lync Server 2013</span></span>
 
-## Содержание
+</div>
 
-  - [Схема базы данных регистрации вызовов (CDR) в Lync Server 2013](lync-server-2013-call-detail-recording-cdr-database-schema.md)
+<div id="mainSection">
 
-  - [Схема базы данных качества взаимодействия (QoE) в Lync Server 2013](lync-server-2013-quality-of-experience-qoe-database-schema.md)
+<div id="mainBody">
 
-  - [Схема базы данных сохраняемого чата в Lync Server 2013](lync-server-2013-persistent-chat-database-schema.md)
+<span> </span>
 
-  - [Расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
+<span data-ttu-id="a7f38-103">_**Тема последнего изменения:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="a7f38-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="a7f38-104">Содержание</span><span class="sxs-lookup"><span data-stu-id="a7f38-104">In This Section</span></span>
+
+  - [<span data-ttu-id="a7f38-105">Схема базы данных регистрации вызовов (CDR) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7f38-105">Call detail recording (CDR) database schema in Lync Server 2013</span></span>](lync-server-2013-call-detail-recording-cdr-database-schema.md)
+
+  - [<span data-ttu-id="a7f38-106">Схема базы данных качества взаимодействия (QoE) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7f38-106">Quality of Experience (QoE) database schema in Lync Server 2013</span></span>](lync-server-2013-quality-of-experience-qoe-database-schema.md)
+
+  - [<span data-ttu-id="a7f38-107">Схема базы данных сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7f38-107">Persistent Chat database schema in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-database-schema.md)
+
+  - [<span data-ttu-id="a7f38-108">Расширения схемы Active Directory, классы и атрибуты, используемые в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7f38-108">Active Directory schema extensions, classes, and attributes used by Lync Server 2013</span></span>](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

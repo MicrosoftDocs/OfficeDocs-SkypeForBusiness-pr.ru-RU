@@ -1,54 +1,89 @@
-﻿---
-title: 'Lync Server 2013: управление расположениями для шлюзов ELIN'
-TOCTitle: Управление расположениями для шлюзов ELIN
-ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205288(v=OCS.15)
-ms:contentKeyID: 49311224
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Управление расположением для шлюзов Елин'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing locations for ELIN gateways
+ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
+ms:contentKeyID: 48185496
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8b447a150a48255a04e5a332cc5d0f56110848f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828042"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление расположениями для шлюзов ELIN в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a><span data-ttu-id="56ff5-102">Управление расположением для шлюзов Елин в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="56ff5-102">Managing locations for ELIN gateways in Lync Server 2013</span></span>
 
-Чтобы Lync Server автоматически предоставлял клиентам сведения о местоположении в сети, необходимо выполнить следующие задачи:
+</div>
 
-  - Заполнить базу данных информирования о местонахождении данными карты географических соответствий и включить номера ELIN в поле CompanyName.
+<div id="mainSection">
 
-  - Опубликовать местоположения, чтобы они были доступны клиентам в сети.
+<div id="mainBody">
 
-  - Отправить номера ELIN в базу данных автоматического определения местоположения (ALI) поставщика PSTN.
+<span> </span>
 
-Дополнительные сведения о том, как выполнять эти задачи, см. в разделе [Настройка базы данных местоположений в Lync Server 2013](lync-server-2013-configure-the-location-database.md) в документации по развертыванию.
+<span data-ttu-id="56ff5-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="56ff5-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="56ff5-104">Чтобы сервер Lync Server автоматически предоставил вам расположение для клиентов в сети, необходимо выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="56ff5-104">To have Lync Server automatically provide locations for clients within a network, you need to perform the following tasks:</span></span>
+
+  - <span data-ttu-id="56ff5-105">Заполните базу данных службы сведений о расположении с помощью сети виремап и включите в поле CompanyName идентификационные номера расположения для экстренного реагирования (Елинс).</span><span class="sxs-lookup"><span data-stu-id="56ff5-105">Populate the Location Information service database with a network wiremap, and include the Emergency Location Identification Numbers (ELINs) in the CompanyName field.</span></span>
+
+  - <span data-ttu-id="56ff5-106">Опубликовать расположения, чтобы они были доступны клиентам в сети.</span><span class="sxs-lookup"><span data-stu-id="56ff5-106">Publish the locations so that they are available for clients in your network.</span></span>
+
+  - <span data-ttu-id="56ff5-107">Отправить номера ELIN в базу данных автоматического определения расположения (ALI) поставщика PSTN.</span><span class="sxs-lookup"><span data-stu-id="56ff5-107">Upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span>
+
+<span data-ttu-id="56ff5-108">Подробнее о том, как выполнять эти задачи, можно найти [в статье Настройка базы данных местоположений в Lync Server 2013](lync-server-2013-configure-the-location-database.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="56ff5-108">For details about how to perform these tasks, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Местоположения, добавленные в центральную базу данных местоположений, недоступны клиентам до тех пор, пока местоположения не будут опубликованы с помощью команды Командная консоль Lync Server и реплицированы в локальные хранилища пула. Дополнительные сведения см. в разделе <a href="lync-server-2013-publish-the-location-database.md">Публикация базы данных местоположений в Lync Server 2013</a> в документации по развертыванию.
+> <span data-ttu-id="56ff5-109">Расположения, добавленные в центральную базу данных, недоступно для клиента, пока они не опубликованы с помощью команды командной консоли Lync Server и реплицируются в локальные магазины пула.</span><span class="sxs-lookup"><span data-stu-id="56ff5-109">Locations added to the central location database are not available to the client until they have been published by using a Lync Server Management Shell command and are replicated to the pool's local stores.</span></span> <span data-ttu-id="56ff5-110">Дополнительные сведения можно найти в разделе <A href="lync-server-2013-publish-the-location-database.md">Публикация базы данных местоположений из Lync Server 2013</A> в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="56ff5-110">For details, see <A href="lync-server-2013-publish-the-location-database.md">Publish the location database from Lync Server 2013</A> in the Deployment documentation.</span></span>
 
-В данном разделе описываются вопросы, которые необходимо рассмотреть во время планирования обновления и поддержки базы данных местоположений.
 
-## Планирование сведений о местоположении для экстренных служб
 
-При использовании шлюзов ELIN необходимо внести в базу данных информирования о местонахождении почтовый адрес, определенное местоположение в здании и как минимум один номер ELIN для каждого местоположения. Во время этапа планирования рекомендуется решить вопрос о присвоении имен местоположений и определить способ назначения номеров ELIN.
+</div>
 
-## Планирование имен местоположений
+<span data-ttu-id="56ff5-111">В данном разделе описываются вопросы, которые необходимо рассмотреть во время планирования обновления и поддержки базы данных расположений.</span><span class="sxs-lookup"><span data-stu-id="56ff5-111">This section describes things to consider as you plan to update and maintain the location database.</span></span>
 
-Поле **Location**информирования о местонахождении, в котором указывается определенное местоположение в здании, имеет максимальную длину 20 символов (включая пробелы). Учитывая это ограничение, в поле рекомендуется включить следующие данные.
+<div>
 
-  - Понятное имя, идентифицирующее расположение звонящего в аварийную службу, которое позволит агентам аварийной службы быстрее находить указанное расположение в момент прибытия по адресу. Это имя расположения может включать номер здания, номер этажа, обозначение корпусов, номер комнаты и т. д. Избегайте употребления неявных сокращенных названий, известных только сотрудникам, что может привести к направлению аварийной службы по неправильному адресу.
+## <a name="planning-emergency-locations"></a><span data-ttu-id="56ff5-112">Планирование сведений о расположении для экстренных служб</span><span class="sxs-lookup"><span data-stu-id="56ff5-112">Planning Emergency Locations</span></span>
 
-  - Идентификатор расположения, который позволяет пользователям быстро оценить, правильно ли клиент Lync выбрал расположение. Клиент Lync автоматически сцепляет значения и отображает обнаруженные поля **Location** и **City** в заголовке. Рекомендуется добавлять почтовый адрес здания в каждый идентификатор расположения (например, "1-ый этаж \<номер дома\>"). Без почтового адреса общий идентификатор расположения, такой как "1-ый этаж" может применяться к любому зданию в городе.
+<span data-ttu-id="56ff5-113">При использовании Елин Gateways вы заполняете базу данных сведений о расположении на административный адрес, определенное расположение в здании и по крайней мере один Елин для каждого места.</span><span class="sxs-lookup"><span data-stu-id="56ff5-113">When you use ELIN gateways, you populate the Location Information service database with the civic address, a specific location within a building, and at least one ELIN for each location .</span></span> <span data-ttu-id="56ff5-114">Во время этапа планирования рекомендуется решить вопрос о присвоении имен расположений и определить способ назначения номеров ELIN.</span><span class="sxs-lookup"><span data-stu-id="56ff5-114">During the planning phase, it is a good idea to decide how you want to name the locations and how you want to assign ELINs.</span></span>
 
-  - Если расположение определяется приблизительно, например по точке беспроводного доступа, можно добавить слово Near (например, "примерно 1-ый этаж 1234").
+<div>
 
-## Планирование номеров ELIN
+## <a name="planning-location-names"></a><span data-ttu-id="56ff5-115">Планирование имен расположений</span><span class="sxs-lookup"><span data-stu-id="56ff5-115">Planning Location Names</span></span>
 
-После того как вы определите, каким образом следует разделить строение на местоположения, необходимо решить, сколько номеров ELIN следует назначить каждому местоположению. Например, в здании с несколькими этажами или корпусами различным областям можно назначить разные аварийные зоны. Обычно каждый этаж в здании считается отдельным местоположением. Каждому местоположению затем назначается один или несколько номеров ELIN, которые используются в качестве номеров вызова во время экстренных звонков. Обратитесь к поставщику PSTN, чтобы получить телефонные номера, которые можно использовать для ELIN. В следующей таблице представлен пример местоположений для определенного почтового адреса.
+<span data-ttu-id="56ff5-116">В поле " **Расположение** службы сведений о расположении", которое содержит конкретное расположение в здании, имеет максимальную длину 20 символов (включая пробелы).</span><span class="sxs-lookup"><span data-stu-id="56ff5-116">The Location Information service **Location** field, which holds the specific location within a building, has a maximum length of 20 characters (including spaces).</span></span> <span data-ttu-id="56ff5-117">Учитывая это ограничение, в поле рекомендуется включить следующие данные.</span><span class="sxs-lookup"><span data-stu-id="56ff5-117">Within that limited length, try to include the following:</span></span>
 
-### Пример назначений местоположений и ELIN
+  - <span data-ttu-id="56ff5-p104">Понятное имя, идентифицирующее расположение звонящего в аварийную службу, которое позволит агентам аварийной службы быстрее находить указанное расположение в момент прибытия по адресу. Это имя расположения может включать номер здания, номер этажа, обозначение корпусов, номер комнаты и т. д. Избегайте употребления неявных сокращенных названий, известных только сотрудникам, что может привести к направлению аварийной службы по неправильному адресу.</span><span class="sxs-lookup"><span data-stu-id="56ff5-p104">An easy-to-understand name that identifies the location of the 911 caller to help ensure that emergency responders find the specific location promptly when they arrive at the civic address. This location name may include a building number, floor number, wing designator, room number, and so on. Avoid nicknames that are known only to employees, which might cause emergency responders to go to the wrong location.</span></span>
+
+  - <span data-ttu-id="56ff5-121">Идентификатор места, с помощью которого пользователи смогут легко видеть, что клиент Lync берет на себя нужное расположение.</span><span class="sxs-lookup"><span data-stu-id="56ff5-121">A location identifier that helps users to easily see that their Lync client picked up the correct location.</span></span> <span data-ttu-id="56ff5-122">Клиент Lync автоматически объединяет и отображает обнаруженные поля " **место** " и " **город** " в заголовке.</span><span class="sxs-lookup"><span data-stu-id="56ff5-122">The Lync client automatically concatenates and displays the discovered **Location** and **City** fields in its header.</span></span> <span data-ttu-id="56ff5-123">Рекомендуется добавить почтовый адрес здания в каждый идентификатор местоположения (например, "номер \<\>улицы первого этажа").</span><span class="sxs-lookup"><span data-stu-id="56ff5-123">A good practice is to add the street address of the building to each location identifier (for example, "1st Floor \<street number\>").</span></span> <span data-ttu-id="56ff5-124">Без почтового адреса общий идентификатор расположения, такой как "1‑й этаж" может применяться к любому зданию в городе.</span><span class="sxs-lookup"><span data-stu-id="56ff5-124">Without the street address, a generic location identifier such as "1st Floor" could apply to any building in the city.</span></span>
+
+  - <span data-ttu-id="56ff5-125">Если расположение определяется приблизительно, например по точке беспроводного доступа, можно добавить слово Near (например, "примерно 1-й этаж 1234").</span><span class="sxs-lookup"><span data-stu-id="56ff5-125">If the location is approximate because it’s determined by a wireless access point, you may want to add the word Near (for example, "Near 1st Floor 1234").</span></span>
+
+</div>
+
+<div>
+
+## <a name="planning-elins"></a><span data-ttu-id="56ff5-126">Планирование номеров ELIN</span><span class="sxs-lookup"><span data-stu-id="56ff5-126">Planning ELINs</span></span>
+
+<span data-ttu-id="56ff5-p106">После того как вы определите, каким образом следует разделить строение на расположения, необходимо решить, сколько номеров ELIN следует назначить каждому расположению. Например, в здании с несколькими этажами или корпусами различным областям можно назначить разные аварийные зоны. Обычно каждый этаж в здании считается отдельным расположением. Каждому расположению затем назначается один или несколько номеров ELIN, которые используются в качестве номеров вызова во время экстренных звонков. Обратитесь к поставщику PSTN, чтобы получить телефонные номера, которые можно использовать для ELIN. В следующей таблице представлен пример расположений для определенного почтового адреса.</span><span class="sxs-lookup"><span data-stu-id="56ff5-p106">After you decide how you want to divide your building space into locations, you need to decide how many ELINs to assign to each location. For example, in a multifloor or multitenant building, different areas in the building can be assigned different emergency zones. Typically, each floor in a building is designated as a location. Each location is then assigned one or more ELINs, which are used as the calling number(s) during an emergency call. Contact your PSTN carrier for phone numbers that you can use for ELINs. The following table provides an example of locations for a specific street address.</span></span>
+
+### <a name="sample-location-and-elin-assignments"></a><span data-ttu-id="56ff5-133">Пример назначений расположений и ELIN</span><span class="sxs-lookup"><span data-stu-id="56ff5-133">Sample Location and ELIN Assignments</span></span>
 
 <table>
 <colgroup>
@@ -58,62 +93,84 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Область здания</th>
-<th>Расположение</th>
-<th>ELIN</th>
+<th><span data-ttu-id="56ff5-134">Область здания</span><span class="sxs-lookup"><span data-stu-id="56ff5-134">Building Area</span></span></th>
+<th><span data-ttu-id="56ff5-135">Расположение</span><span class="sxs-lookup"><span data-stu-id="56ff5-135">Location</span></span></th>
+<th><span data-ttu-id="56ff5-136">ELIN</span><span class="sxs-lookup"><span data-stu-id="56ff5-136">ELIN</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Первый этаж</p></td>
-<td><p>1</p></td>
-<td><p>425-555-0100</p></td>
+<td><p><span data-ttu-id="56ff5-137">Первый этаж</span><span class="sxs-lookup"><span data-stu-id="56ff5-137">First floor</span></span></p></td>
+<td><p><span data-ttu-id="56ff5-138">1</span><span class="sxs-lookup"><span data-stu-id="56ff5-138">1</span></span></p></td>
+<td><p><span data-ttu-id="56ff5-139">425-555-0100</span><span class="sxs-lookup"><span data-stu-id="56ff5-139">425-555-0100</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Второй этаж</p></td>
-<td><p>2</p></td>
-<td><p>425-555-0111</p></td>
+<td><p><span data-ttu-id="56ff5-140">Второй этаж</span><span class="sxs-lookup"><span data-stu-id="56ff5-140">Second floor</span></span></p></td>
+<td><p><span data-ttu-id="56ff5-141">2</span><span class="sxs-lookup"><span data-stu-id="56ff5-141">2</span></span></p></td>
+<td><p><span data-ttu-id="56ff5-142">425-555-0111</span><span class="sxs-lookup"><span data-stu-id="56ff5-142">425-555-0111</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Третий этаж</p></td>
-<td><p>3</p></td>
-<td><p>425-555-0123</p></td>
+<td><p><span data-ttu-id="56ff5-143">Третий этаж</span><span class="sxs-lookup"><span data-stu-id="56ff5-143">Third floor</span></span></p></td>
+<td><p><span data-ttu-id="56ff5-144">3</span><span class="sxs-lookup"><span data-stu-id="56ff5-144">3</span></span></p></td>
+<td><p><span data-ttu-id="56ff5-145">425-555-0123</span><span class="sxs-lookup"><span data-stu-id="56ff5-145">425-555-0123</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Задаваемые местоположения должны удовлетворять следующим требованиям:
+<span data-ttu-id="56ff5-146">Задаваемые расположения должны удовлетворять следующим требованиям.</span><span class="sxs-lookup"><span data-stu-id="56ff5-146">The locations you define should meet the following requirements:</span></span>
 
-  - Соответствовать местным и общегосударственным правилам в отношении максимальной области для местоположения и числа местоположений на каждый почтовый адрес.
+  - <span data-ttu-id="56ff5-147">Соответствовать местным и общегосударственным правилам в отношении максимальной области для расположения и числа расположений на каждый почтовый адрес.</span><span class="sxs-lookup"><span data-stu-id="56ff5-147">Comply with local and national/regional regulations in terms of maximum area per location and number of locations per street address.</span></span>
 
-  - Быть достаточно конкретными, чтобы можно было легко определить местонахождение абонента, совершающего экстренный вызов.
+  - <span data-ttu-id="56ff5-148">Быть достаточно конкретными, чтобы можно было легко определить местонахождение абонента, совершающего экстренный вызов.</span><span class="sxs-lookup"><span data-stu-id="56ff5-148">Are specific enough to make it easy to locate the emergency caller.</span></span>
 
-## Заполнение базы данных расположений
+</div>
 
-Ниже приведены вопросы, которые помогут определить порядок заполнения базы данных местоположений.
+</div>
 
-  - **Какой процесс будет использоваться для заполнения базы данных расположений?**  
-    Где хранятся данные и какие действия необходимо выполнить, чтобы преобразовать данные в формат, требуемый базой данных местоположений? Будут ли расположения добавляться по-отдельности или массово, используя CSV-файл?
+<div>
+
+## <a name="populating-the-location-database"></a><span data-ttu-id="56ff5-149">Заполнение базы данных расположений</span><span class="sxs-lookup"><span data-stu-id="56ff5-149">Populating the Location Database</span></span>
+
+<span data-ttu-id="56ff5-150">Ниже приведены вопросы, которые помогут определить порядок заполнения базы данных расположений.</span><span class="sxs-lookup"><span data-stu-id="56ff5-150">The following questions will help you determine how to will populate the location database.</span></span>
+
+  - <span data-ttu-id="56ff5-151">**Какой процесс будет использоваться для заполнения базы данных расположений?**</span><span class="sxs-lookup"><span data-stu-id="56ff5-151">**What process will you use to populate the location database?**</span></span>  
+    <span data-ttu-id="56ff5-p107">Где хранятся данные и какие действия необходимо выполнить, чтобы преобразовать данные в формат, требуемый базой данных расположений? Будут ли расположения добавляться по отдельности или массово, используя CSV-файл?</span><span class="sxs-lookup"><span data-stu-id="56ff5-p107">Where does the data exist, and what steps do you need to take to convert the data into the format required by the location database? Will you add locations individually, or in bulk, by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - **Используется ли сторонняя база данных, которая уже содержит сопоставление расположений?**  
-    Используя дополнительную службу информирования о местонахождении Lync Server для подключения к сторонней базе данных, можно группировать расположения и управлять ими с помощью автономной платформы. Преимущество этого подхода заключается в том, что в дополнение к связыванию расположений с идентификаторами сети можно связать расположения с пользователями. Это означает, что служба информирования о местонахождении может возвращать несколько адресов, созданных дополнительной службой информирования о местонахождении, в клиент Lync Server. Пользователь затем может выбрать наиболее подходящее расположение.
+  - <span data-ttu-id="56ff5-154">**Используется ли сторонняя база данных, которая уже содержит сопоставление расположений?**</span><span class="sxs-lookup"><span data-stu-id="56ff5-154">**Do you have a third party database that already contains a mapping of locations?**</span></span>  
+    <span data-ttu-id="56ff5-155">С помощью параметра службы дополнительных сведений о расположении Lync Server для подключения к базе данных третьих лиц вы можете группировать и управлять ими с помощью автономной платформы.</span><span class="sxs-lookup"><span data-stu-id="56ff5-155">By using Lync Server's Secondary Location Information service option to connect to a third-party database, you can group and manage locations by using an offline platform.</span></span> <span data-ttu-id="56ff5-156">Преимущество этого метода заключается в том, что он позволяет связывать расположения не только с идентификаторами сети, но и с пользователями.</span><span class="sxs-lookup"><span data-stu-id="56ff5-156">A benefit to this approach is that in addition to associating locations to network identifiers, you can associate locations to a user.</span></span> <span data-ttu-id="56ff5-157">Это означает, что служба сведений о расположении может возвращать несколько адресов, исходящих из дополнительной службы сведений о расположении, в клиенте Lync Server.</span><span class="sxs-lookup"><span data-stu-id="56ff5-157">This means that the Location Information service can return multiple addresses, originating from the Secondary Location Information service, to a Lync Server client.</span></span> <span data-ttu-id="56ff5-158">Пользователь затем может выбрать наиболее подходящее расположение.</span><span class="sxs-lookup"><span data-stu-id="56ff5-158">The user can then choose the most appropriate location.</span></span>
     
-    Для интеграции со службой информирования о местонахождении требуется, чтобы сторонняя база данных соответствовала схеме запросов и ответов местоположений Lync Server. Дополнительные сведения см. в разделе <http://go.microsoft.com/fwlink/p/?linkid=213819>. Дополнительные сведения о развертывании дополнительной службы информирования о местонахождении см. в разделе [Настройка службы сведений о дополнительном расположении в Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) документации по развертыванию.
+    <span data-ttu-id="56ff5-159">Для интеграции со службой сведений о расположении база данных стороннего поставщика должна следовать схеме запроса на расположение на сервере Lync Server/ответа.</span><span class="sxs-lookup"><span data-stu-id="56ff5-159">To integrate with the Location Information service, the third-party database must follow the Lync Server Location Request/Response schema.</span></span> <span data-ttu-id="56ff5-160">Подробности можно найти в <http://go.microsoft.com/fwlink/p/?linkid=213819>разделе.</span><span class="sxs-lookup"><span data-stu-id="56ff5-160">For details, see <http://go.microsoft.com/fwlink/p/?linkid=213819>.</span></span> <span data-ttu-id="56ff5-161">Дополнительные сведения о развертывании дополнительной службы сведений о расположении можно найти [в разделе Настройка дополнительной службы сведений о расположении в Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="56ff5-161">For details about deploying a Secondary Location Information service, see [Configure a secondary Location Information service in Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) in the Deployment documentation.</span></span>
 
-Дополнительные сведения о заполнении базы данных расположений см. в разделе [Настройка базы данных местоположений в Lync Server 2013](lync-server-2013-configure-the-location-database.md) документации по развертыванию.
+<span data-ttu-id="56ff5-162">Сведения о заполнении базы данных местоположений содержатся в разделе [Настройка базы данных местоположений в Lync Server 2013](lync-server-2013-configure-the-location-database.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="56ff5-162">For details about populating the location database, see [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) in the Deployment documentation.</span></span>
 
-## Обслуживание базы данных расположений
+</div>
 
-После заполнения базы данных необходимо разработать стратегию обновления базы данных по мере внесения изменений в конфигурацию сети. Ниже приведены вопросы, которые помогут определить порядок обслуживания базы данных расположений.
+<div>
 
-  - **Как будет обновляться база данных расположений?**  
-    Существует несколько сценариев, которые требуют обновления базы данных местоположений, включая добавление протоколов WAP, изменение разводки в офисе (в связи с разными назначениями коммутаторов) и расширение подсети. Будет ли выполняться прямое обновление каждого отдельного местоположения или массовое обновление всех местоположений с помощью CSV-файла?
+## <a name="maintaining-the-location-database"></a><span data-ttu-id="56ff5-163">Обслуживание базы данных расположений</span><span class="sxs-lookup"><span data-stu-id="56ff5-163">Maintaining the Location Database</span></span>
+
+<span data-ttu-id="56ff5-p110">После заполнения базы данных необходимо разработать стратегию обновления базы данных по мере внесения изменений в конфигурацию сети. Ниже приведены вопросы, которые помогут определить порядок обслуживания базы данных расположений.</span><span class="sxs-lookup"><span data-stu-id="56ff5-p110">After you populate the location database, you need to develop a strategy for updating the database as the network configuration changes. The following questions will help you determine how to maintain the location database.</span></span>
+
+  - <span data-ttu-id="56ff5-166">**Как будет обновляться база данных расположений?**</span><span class="sxs-lookup"><span data-stu-id="56ff5-166">**How will you update the location database?**</span></span>  
+    <span data-ttu-id="56ff5-p111">Существует несколько сценариев, которые требуют обновления базы данных расположений, включая добавление протоколов WAP, изменение разводки в офисе (в связи с разными назначениями коммутаторов) и расширение подсети. Будет ли выполняться прямое обновление каждого отдельного расположения или массовое обновление всех расположений с помощью CSV-файла?</span><span class="sxs-lookup"><span data-stu-id="56ff5-p111">There are several scenarios that require an update to the location database, including adding wireless access points (WAPs), office recabling (resulting in different switch assignments), and subnet expansion. Will you directly update each individual location, or will you perform a bulk update of all the locations by using a CSV file?</span></span>
 
 <!-- end list -->
 
-  - **Будет ли использоваться для сопоставления MAC-адресов клиентов Lync с портами и идентификаторами коммутаторов приложение SNMP?**  
-    При использовании приложения SNMP потребуется разработать ручную процедуру, которая позволит поддерживать согласованность данных о портах и корпусах коммутаторов между приложением SNMP и базой данных расположений. Если приложение SNMP возвращает IP-адрес корпуса или ИД порта, данных о которых нет в базе данных, службе информирования о местонахождении не удастся вернуть расположение клиенту.
+  - <span data-ttu-id="56ff5-169">**Будет ли использоваться для сопоставления MAC-адресов клиентов Lync с портами и идентификаторами коммутаторов приложение SNMP?**</span><span class="sxs-lookup"><span data-stu-id="56ff5-169">**Will you use an SNMP application to match Lync client MAC addresses to port and switch identifiers?**</span></span>  
+    <span data-ttu-id="56ff5-170">При использовании приложения SNMP потребуется разработать ручную процедуру, которая позволит поддерживать согласованность данных о портах и корпусах коммутаторов между приложением SNMP и базой данных расположений.</span><span class="sxs-lookup"><span data-stu-id="56ff5-170">If you use an SNMP application, you need to develop a manual process for keeping the switch chassis and port information consistent between the SNMP application and the location database.</span></span> <span data-ttu-id="56ff5-171">Если приложение SNMP возвращает IP-адрес или идентификатор порта, не включенный в базу данных, Служба сведений о расположении не сможет возвращать данные о расположении клиенту.</span><span class="sxs-lookup"><span data-stu-id="56ff5-171">If the SNMP application returns a chassis IP address or port ID that is not included in the database, the Location Information service will not be able to return a location to the client.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
