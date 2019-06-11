@@ -1,51 +1,88 @@
-﻿---
-title: Включение и отключение интеграции с хранилищем Exchange
-TOCTitle: Включение и отключение интеграции с хранилищем Exchange
-ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205228(v=OCS.15)
-ms:contentKeyID: 49311076
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Включение и отключение интеграции с хранилищем Exchange'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling integration with Exchange storage
+ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)
+ms:contentKeyID: 48185295
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d2ded7e4cf586faf1f15ea6205aa23802413dc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834236"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение и отключение интеграции с хранилищем Exchange
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-09_
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a><span data-ttu-id="f8bc6-102">Включение и отключение интеграции Lync Server 2013 с хранилищем Exchange</span><span class="sxs-lookup"><span data-stu-id="f8bc6-102">Enabling or disabling integration of Lync Server 2013 with Exchange storage</span></span>
 
-В панели управления Lync Server 2013 конфигурации архивирования используются для включения и отключения интеграции с хранилищем Exchange. Это включает следующие конфигурации архивирования:
+</div>
 
-  - Глобальная конфигурация, которая создается по умолчанию во время развертывания Lync Server 2013.
+<div id="mainSection">
 
-  - Необязательные конфигурации на уровне сайта или пула, которые можно создать и использовать для указания того, как архивирование реализуется для определенных сайтов или пулов.
+<div id="mainBody">
 
-Дополнительные сведения о реализации конфигураций архивирования, включая доступные параметры и иерархию конфигураций архивирования, см. в разделе [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, в документации по развертыванию или в документации по эксплуатации.
+<span> </span>
 
-## Включение или отключение интеграции с хранилищем Microsoft Exchange
+<span data-ttu-id="f8bc6-103">_**Тема последнего изменения:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="f8bc6-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
+<span data-ttu-id="f8bc6-104">В панели управления Lync Server 2013 вы можете включать и отключать интеграцию с хранилищем Exchange с помощью конфигураций архивации.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-104">In Lync Server 2013 Control Panel, you use Archiving configurations to enable and disable integration with Exchange storage.</span></span> <span data-ttu-id="f8bc6-105">К ним относятся следующие конфигурации архивации:</span><span class="sxs-lookup"><span data-stu-id="f8bc6-105">This includes the following Archiving configurations:</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+  - <span data-ttu-id="f8bc6-106">Глобальная конфигурация, создаваемая по умолчанию при развертывании Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
 
-3.  На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
+  - <span data-ttu-id="f8bc6-107">Необязательные конфигурации уровня сайта и пула, которые можно создать и использовать для определения способа реализации архивации для конкретных сайтов или пулов.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
 
-4.  Щелкните имя соответствующей конфигурации — глобальной, сайта или пула — в списке конфигураций архивирования, затем щелкните **Правка**, щелкните **Показать подробности** и выполните следующие действия:
+<span data-ttu-id="f8bc6-108">Сведения о способах реализации конфигураций архивации, в том числе о параметрах, которые можно указать и в иерархии конфигураций архивации, приведены в разделе [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, развертывание Документация или операционные документы.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-108">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+
+<div>
+
+## <a name="to-enable-or-disable-integration-with-microsoft-exchange-storage"></a><span data-ttu-id="f8bc6-109">Включение и отключение интеграции с хранилищем Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="f8bc6-109">To enable or disable integration with Microsoft Exchange storage</span></span>
+
+1.  <span data-ttu-id="f8bc6-110">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-110">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="f8bc6-111">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="f8bc6-112">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="f8bc6-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="f8bc6-113">На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+
+4.  <span data-ttu-id="f8bc6-114">В списке конфигураций архивации щелкните имя подходящей глобальной конфигурации либо конфигурации сайта или пула, щелкните **Изменить** и **Показать подробности**, затем выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-114">Click the name of the appropriate global, site, or pool configuration in the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
     
-      - Чтобы включить интеграцию с хранилищем Exchange 2013, установите флажок **Интеграция с Microsoft Exchange**.
+      - <span data-ttu-id="f8bc6-115">Чтобы включить интеграцию с хранилищем Exchange 2013, установите флажок **интеграция Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="f8bc6-115">To enable integration with Exchange 2013 storage, select the **Microsoft Exchange integration** check box.</span></span>
     
-      - Чтобы отключить интеграцию с хранилищем Exchange 2013, снимите флажок **Интеграция с Microsoft Exchange**.
+      - <span data-ttu-id="f8bc6-116">Чтобы отключить интеграцию с хранилищем Exchange 2013, снимите флажок **интеграция Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="f8bc6-116">To disable integration with Exchange 2013 storage, clear the **Microsoft Exchange integration** check box.</span></span>
 
-5.  Нажмите кнопку **Зафиксировать**.
+5.  <span data-ttu-id="f8bc6-117">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="f8bc6-117">Click **Commit**.</span></span>
 
-## См. также
+</div>
 
-#### Концепции
+<div>
 
-[Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md)  
+## <a name="see-also"></a><span data-ttu-id="f8bc6-118">См. также</span><span class="sxs-lookup"><span data-stu-id="f8bc6-118">See Also</span></span>
 
-#### Другие ресурсы
 
-[Управление параметрами конфигурации архивации для организации, сайтов и пулов в Lync Server 2013](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[<span data-ttu-id="f8bc6-119">Как работает архивация в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8bc6-119">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+
+
+[<span data-ttu-id="f8bc6-120">Управление параметрами конфигурации архивации в Lync Server 2013 для Организации, сайтов и пулов</span><span class="sxs-lookup"><span data-stu-id="f8bc6-120">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

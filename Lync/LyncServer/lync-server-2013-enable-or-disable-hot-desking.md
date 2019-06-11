@@ -1,46 +1,94 @@
-﻿---
-title: Включение или отключение поддержки незакрепленных телефонов
-TOCTitle: Включение или отключение поддержки незакрепленных телефонов
-ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994057(v=OCS.15)
-ms:contentKeyID: 52058275
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Включение и отключение поддержки горячей замены'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable hot desking
+ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994057(v=OCS.15)
+ms:contentKeyID: 51803968
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5d9f2d168a06b5624375dcd005da58b4d3d5fd8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834288"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение или отключение поддержки незакрепленных телефонов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-20_
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a><span data-ttu-id="3ed21-102">Включение и отключение функции поддержки горячей замены в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ed21-102">Enable or disable hot desking in Lync Server 2013</span></span>
 
-Можно настроить телефоны общего пользования как *незакрепленные телефоны*. При использовании незакрепленных телефонов пользователи могут выполнять вход в свою учетную запись пользователя и после выполнения входа в систему использовать функции Lync Server и свои собственные настройки пользовательского профила. Использование незакрепленных телефонов управляется клиентскими политиками: для включения или отключения использования незакрепленных телефонов необходимо изменить клиентские политики, которые используются телефонами общего пользования. Для получения подробных сведений об определении политик конференц-связи, которые назначены телефонам общего пользования, см. [Просмотр сведений о телефонах общего пользования](lync-server-2013-view-common-area-phone-information.md).
+</div>
 
-Вы используете параметр EnableHotdesking командлета **New-CSClientPolicy** или командлета **Set-CSClientPolicy** для включения или отключения использования телефона в качестве незакрепленного, как описано далее. Выполняйте эти командлеты из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="3ed21-103">_**Тема последнего изменения:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="3ed21-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+
+<span data-ttu-id="3ed21-104">Вы можете настроить стандартные телефоны как стационарные *телефоны*.</span><span class="sxs-lookup"><span data-stu-id="3ed21-104">You can set up common area phones as *hot-desk phones*.</span></span> <span data-ttu-id="3ed21-105">С помощью стационарных телефонов пользователи могут входить в свою учетную запись пользователя и после входа в нее использовать возможности сервера Lync и собственные параметры профиля пользователя.</span><span class="sxs-lookup"><span data-stu-id="3ed21-105">With hot-desk phones, users can log on to their own user account, and, after they are logged on, use Lync Server features and their own user profile settings.</span></span> <span data-ttu-id="3ed21-106">Управление горячим подключением осуществляется с помощью политик клиента: чтобы включить или отключить функцию горячей замены, необходимо изменить политики клиента, используемые вашими стандартными телефонами.</span><span class="sxs-lookup"><span data-stu-id="3ed21-106">Hot desking is managed by using client policies: to enable or disable hot desking, you need to modify the client policies that are used by your common area phones.</span></span> <span data-ttu-id="3ed21-107">Подробные сведения о том, как определить политики конференц-связи, назначенные на обычные телефоны, можно найти [в статьях Просмотр сведений о телефонах в Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).</span><span class="sxs-lookup"><span data-stu-id="3ed21-107">For details about how to determine the conferencing policies that have been assigned to your common area phones, see [View common area phone information in Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).</span></span>
+
+<span data-ttu-id="3ed21-108">Вы можете использовать параметр Енаблехотдескинг командлета **New-CSClientPolicy** или командлет **Set-CSClientPolicy** , чтобы включить или отключить функцию горячей замены на телефоне, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="3ed21-108">You use the EnableHotdesking parameter of the **New-CSClientPolicy** cmdlet or the **Set-CSClientPolicy** cmdlet to enable or disable hot desking on a phone, as follows.</span></span> <span data-ttu-id="3ed21-109">Выполните эти командлеты либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="3ed21-109">Run these cmdlets from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="3ed21-110">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="3ed21-110">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
 
 
-## Включение использования незакрепленных телефонов
+<div>
 
-  - Чтобы включить использование телефона общего пользования в качестве незакрепленного, необходимо изменить клиентскую политику, назначенную этому телефону (или набору телефонов).
+## <a name="enabling-hot-desking"></a><span data-ttu-id="3ed21-111">Включение поддержки горячей замены</span><span class="sxs-lookup"><span data-stu-id="3ed21-111">Enabling hot desking</span></span>
+
+  - <span data-ttu-id="3ed21-112">Чтобы включить функцию горячего подключения для обычного телефонного телефона, необходимо изменить политику клиента, назначенную этому телефону (или набору телефонов).</span><span class="sxs-lookup"><span data-stu-id="3ed21-112">To enable hot desking for a common area phone, you must modify the client policy that has been assigned to that phone (or collection of phones).</span></span>
     
-    После определения политики, которую необходимо изменить, следующим шагом является использование командлета **Set-CsClientPolicy** для установки значения True для параметра EnableHotdesking. Пример:
+    <span data-ttu-id="3ed21-113">После того как вы определили политику, которую необходимо изменить, далее следует использовать командлет **Set-CsClientPolicy** , чтобы установить для параметра Енаблехотдескинг значение true.</span><span class="sxs-lookup"><span data-stu-id="3ed21-113">After you have identified the policy that needs to be modified, the next step is to use the **Set-CsClientPolicy** cmdlet to set the EnableHotdesking parameter to True.</span></span> <span data-ttu-id="3ed21-114">Например:</span><span class="sxs-lookup"><span data-stu-id="3ed21-114">For example:</span></span>
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 
-  - Кроме того, можно использовать командлет **New-CsClientPolicy** для создания новой клиентской политики, поддерживающей использование незакрепленных телефонов. Пример:
+  - <span data-ttu-id="3ed21-115">Кроме того, вы можете использовать командлет **New-CsClientPolicy** для создания новой политики клиента, обеспечивающей поддержку горячего рабочего стола.</span><span class="sxs-lookup"><span data-stu-id="3ed21-115">Alternatively, you can use the **New-CsClientPolicy** cmdlet to create a new client policy that enables hot desking.</span></span> <span data-ttu-id="3ed21-116">Например:</span><span class="sxs-lookup"><span data-stu-id="3ed21-116">For example:</span></span>
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
-> [!IMPORTANT]
-> После создания этой политики необходимо назначить ее соответствующим телефонам общего пользования. Для получения дополнительных сведений см. <a href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Назначение политик телефону общего пользования</a>.
+</div>
+
+<div>
 
 
-## Отключение использования незакрепленных телефонов
+> [!IMPORTANT]  
+> <span data-ttu-id="3ed21-117">После того как эта политика создана, вы должны назначить ее соответствующим телефонам.</span><span class="sxs-lookup"><span data-stu-id="3ed21-117">After this policy has been created, you must assign it to the appropriate common area phones.</span></span> <span data-ttu-id="3ed21-118">Подробности можно найти <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">в разделе назначение политик в Lync Server 2013 на общем телефоне</A>с областями.</span><span class="sxs-lookup"><span data-stu-id="3ed21-118">For details, see <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Assign policies in Lync Server 2013 to a common area phone</A>.</span></span>
 
-  - Чтобы отключить использование телефона общего пользования в качестве незакрепленного, сбросьте значение параметра EnableHotdesking командлета **Set-CsClientPolicy** с установкой значения по умолчанию (False). Пример:
+
+
+</div>
+
+<div>
+
+## <a name="disabling-hot-desking"></a><span data-ttu-id="3ed21-119">Отключение поддержки горячей замены</span><span class="sxs-lookup"><span data-stu-id="3ed21-119">Disabling hot desking</span></span>
+
+  - <span data-ttu-id="3ed21-120">Чтобы отключить функцию горячего подключения для обычного телефонного телефона, сбросьте параметр Енаблехотдескинг командлета **Set-CsClientPolicy** в значение по умолчанию, равное false.</span><span class="sxs-lookup"><span data-stu-id="3ed21-120">To disable hot desking for a common area phone, reset the EnableHotdesking parameter of the **Set-CsClientPolicy** cmdlet to the default value of False.</span></span> <span data-ttu-id="3ed21-121">Например:</span><span class="sxs-lookup"><span data-stu-id="3ed21-121">For example:</span></span>
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
-Дополнительные сведения см. в разделах справки по командлету [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) и командлету [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy).
+</div>
+
+<span data-ttu-id="3ed21-122">Подробные сведения можно найти в разделах справки по командлетам [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) и командлету [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .</span><span class="sxs-lookup"><span data-stu-id="3ed21-122">For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

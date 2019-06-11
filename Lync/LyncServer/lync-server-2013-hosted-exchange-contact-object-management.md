@@ -1,55 +1,107 @@
-﻿---
-title: 'Lync Server 2013: управление объектом Contact в размещенной системе Exchange'
-TOCTitle: Управление объектом Contact в размещенной системе Exchange
-ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412978(v=OCS.15)
-ms:contentKeyID: 49311588
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление объектом Contact в размещенной системе Exchange'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange Contact object management
+ms:assetid: eead9d76-bc4f-4c1c-9779-683cb7a88410
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412978(v=OCS.15)
+ms:contentKeyID: 48185748
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c67438745ee7cbb9de0ccfdef1d5d8959bb4679c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834061"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление объектом Contact в размещенной системе Exchange в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-25_
+# <a name="hosted-exchange-contact-object-management-in-lync-server-2013"></a><span data-ttu-id="c525f-102">Управление объектом Contact в размещенной системе Exchange в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c525f-102">Hosted Exchange Contact object management in Lync Server 2013</span></span>
 
-Необходимо настроить контактный объект для каждого номера автосекретаря и кода доступа в распределенном развертывании.
+</div>
 
-Для интеграции с размещенной единой системой обмена сообщениями Exchange ocsumutil.exe не может использоваться для управления контактными объектами, поскольку оно зависит от параметров единой системы обмена сообщениями Exchange в Active Directory. В распределенном развертывании сервер Lync Server 2013 и размещенная единая система обмена сообщениями Exchange устанавливаются в разных лесах без отношений доверия между ними. В целях обеспечения безопасности администраторы сервера Lync Server 2013 не имеют прямого доступа к параметрам единой системы обмена сообщениями Exchange в Active Directory. В результате сервер Lync Server 2013 предоставляет другую модель для управления контактными объектами в *общем адресном пространстве SIP* , которое доступно как серверу Lync Server 2013, так и службе размещенной единой системы обмена сообщениями Exchange.
+<div id="mainSection">
 
-## Рабочий процесс размещенных контактных объектов
+<div id="mainBody">
 
-Далее приводятся общие действия для совместной работы с администратором клиента размещенного Exchange по управлению контактными объектами.
+<span> </span>
 
-1.  Администратор Exchange запрашивает телефонные номера для доступа абонентов единой системы обмена сообщениями Exchange и контактные объекты автосекретаря.
+<span data-ttu-id="c525f-103">_**Тема последнего изменения:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="c525f-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-2.  Администратор сервера Lync Server 2013 создает контактный объект для каждого телефонного номера и назначает политику размещенной голосовой почты каждому контактному объекту.
+<span data-ttu-id="c525f-104">Вам нужно настроить объект контакта для каждого номера автосекретаря и номера абонентского доступа в вашем меж-либо из вашего локального развертывания.</span><span class="sxs-lookup"><span data-stu-id="c525f-104">You need to configure a Contact object for each auto-attendant number and subscriber access number in your cross-premises deployment.</span></span>
 
-3.  Администратор сервера Lync Server 2013 предоставляет телефонные номера администратору Exchange.
+<span data-ttu-id="c525f-105">Для интеграции с размещенной UM-службой оксумутил. exe нельзя использовать для управления объектами контакта, так как это зависит от параметров службы каталогов Active Directory в UM-среде.</span><span class="sxs-lookup"><span data-stu-id="c525f-105">For integration with hosted Exchange UM, ocsumutil.exe cannot be used to manage Contact objects, because it depends on Active Directory Exchange UM settings.</span></span> <span data-ttu-id="c525f-106">В случае междоменного развертывания Lync Server 2013 и размещенная UM-среде Exchange устанавливаются в разных лесах, не имеющих доверительных отношений между ними.</span><span class="sxs-lookup"><span data-stu-id="c525f-106">In a cross-premises deployment, Lync Server 2013 and hosted Exchange UM are installed in separate forests with no trust between them.</span></span> <span data-ttu-id="c525f-107">По соображениям безопасности Lync Server 2013 Administrators не имеет прямого доступа к параметрам Active Directory единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="c525f-107">For security reasons, Lync Server 2013 administrators have no direct access to Exchange UM Active Directory settings.</span></span> <span data-ttu-id="c525f-108">В результате Lync Server 2013 предоставляет другую модель для управления объектами контакта в *общем адресном пространстве SIP* , доступном как для Lync Server 2013, так и для размещенной службы Exchange UM.</span><span class="sxs-lookup"><span data-stu-id="c525f-108">As a result, Lync Server 2013 provides a different model for managing Contact objects in a *shared SIP address space* that is accessible to both Lync Server 2013 and the hosted Exchange UM service.</span></span>
 
-4.  Администратор Exchange назначает эти телефонные номера соответствующим абонентским группам единой системы обмена сообщениями Exchange для автосекретарей и абонентского доступа.
+<div>
+
+## <a name="hosted-contact-object-workflow"></a><span data-ttu-id="c525f-109">Размещенный объектный рабочий процесс объекта контакта</span><span class="sxs-lookup"><span data-stu-id="c525f-109">Hosted Contact Object Workflow</span></span>
+
+<span data-ttu-id="c525f-110">Ниже приведены общие инструкции по работе с размещенным администратором клиента Exchange для управления контактными объектами.</span><span class="sxs-lookup"><span data-stu-id="c525f-110">The following are the general steps for working with your hosted Exchange tenant administrator to manage contact objects:</span></span>
+
+1.  <span data-ttu-id="c525f-111">Администратор Exchange запрашивает номера телефонов для доступа подписчика UM Exchange и контактных объектов автоматического ассистента.</span><span class="sxs-lookup"><span data-stu-id="c525f-111">The Exchange administrator requests phone numbers for the Exchange UM subscriber access and auto-attendant Contact objects.</span></span>
+
+2.  <span data-ttu-id="c525f-112">Администратор Lync Server 2013 создает объект контакта для каждого номера телефона и назначает политику размещенной голосовой почты каждому объекту контакта.</span><span class="sxs-lookup"><span data-stu-id="c525f-112">The Lync Server 2013 administrator creates a Contact object for each phone number and assigns a hosted voice mail policy to each Contact object.</span></span>
+
+3.  <span data-ttu-id="c525f-113">Администратор Lync Server 2013 предоставляет номера телефонов для администратора Exchange.</span><span class="sxs-lookup"><span data-stu-id="c525f-113">The Lync Server 2013 administrator provides the phone numbers to the Exchange administrator.</span></span>
+
+4.  <span data-ttu-id="c525f-114">Администратор Exchange назначает номера телефонов для соответствующих абонентских групп единой системы обмена сообщениями для автосекретаря и абонентского доступа.</span><span class="sxs-lookup"><span data-stu-id="c525f-114">The Exchange administrator assigns the phone numbers to appropriate Exchange UM dial plans for auto attendants and subscriber access.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Не требуется настраивать какие-либо параметры абонентских групп сервера Lync Server 2013 в контактных объектах, как это делается в распределенных развертываниях.
+> <span data-ttu-id="c525f-115">Вам не нужно настраивать параметры телефонной группы Lync Server 2013 для объектов контакта так же, как и в локальных развертываниях.</span><span class="sxs-lookup"><span data-stu-id="c525f-115">There is no need to configure any Lync Server 2013 dial plan settings on the Contact objects as there is with on-premises deployments.</span></span>
 
-## Настройка размещенных контактных объектов
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="configuring-hosted-contact-objects"></a><span data-ttu-id="c525f-116">Настройка размещенных объектов контакта</span><span class="sxs-lookup"><span data-stu-id="c525f-116">Configuring Hosted Contact Objects</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Прежде чем контактные объекты сервера Lync Server 2013 можно будет включить для размещенной единой системы обмена сообщениями Exchange, необходимо развернуть политику размещенной голосовой почты, которая к ним применяется. Эта политика может быть задана на глобальном уровне, на уровне сайта или на уровне пользователя, если она применяется к контактному объекту, который требуется включить. Подробные сведения см. в статье <a href="lync-server-2013-hosted-voice-mail-policies.md">Политики размещенной голосовой почты в Lync Server 2013</a>.
+> <span data-ttu-id="c525f-117">Прежде чем можно будет включить объект контакта Lync Server 2013 для размещенной единой системы обмена сообщениями Exchange, необходимо развернуть политику размещенной голосовой почты, которая применяется к ним.</span><span class="sxs-lookup"><span data-stu-id="c525f-117">Before Lync Server 2013 Contact objects can be enabled for hosted Exchange UM, a hosted voice mail policy that applies to them must be deployed.</span></span> <span data-ttu-id="c525f-118">Эта политика может быть общедоступной, на уровне сайта или для отдельных пользователей, если она применяется к объекту контакта, который вы хотите включить.</span><span class="sxs-lookup"><span data-stu-id="c525f-118">The policy can be of global, site-level, or per-user scope, as long as it applies to the contact object you want to enable.</span></span> <span data-ttu-id="c525f-119">Подробнее смотрите в разделе <A href="lync-server-2013-hosted-voice-mail-policies.md">политики размещенной голосовой почты в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="c525f-119">For details, see <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail policies in Lync Server 2013</A>.</span></span>
 
-Для настройки размещенных контактных объектов автосекретаря и абонентского доступа в распределенном развертывании необходимо использовать следующие командлеты:
 
-  - **New-CsExUmContact**, который создает новый контактный объект для размещенной единой системы обмена сообщениями;
 
-  - **Set-CsExUmContact**, который изменяет существующий контактный объект для размещенной единой системы обмена сообщениями Exchange.
+</div>
 
-В следующем примере создается контактный объект автосекретаря:
+<span data-ttu-id="c525f-120">Для настройки размещенных объектов контактов для автоматического ассистента и доступа абонентов в рамках локального развертывания необходимо использовать следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="c525f-120">To configure hosted auto-attendant and subscriber access Contact objects in a cross-premises deployment, you must use the following cmdlets:</span></span>
+
+  - <span data-ttu-id="c525f-121">**New-ксексумконтакт** создает новый объект контакта для размещенной единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="c525f-121">**New-CsExUmContact** creates a new Contact object for hosted UM.</span></span>
+
+  - <span data-ttu-id="c525f-122">**Set-ксексумконтакт** изменяет существующий объект контакта для размещенной единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="c525f-122">**Set-CsExUmContact** modifies an existing Contact object for hosted Exchange UM.</span></span>
+
+<span data-ttu-id="c525f-123">В следующем примере создается объект контакта автоматического ассистента.</span><span class="sxs-lookup"><span data-stu-id="c525f-123">The following example creates an auto-attendant Contact object:</span></span>
 
     New-CsExUmContact -SipAddress sip:exumaa1@fabrikam.com -RegistrarPool RedmondPool.litwareinc.com -OU "OU=ExUmContacts,DC=litwareinc,DC=com" -DisplayNumber 2065559876 -AutoAttendant $True
 
-В этом примере создается новый контактный объект единой системы обмена сообщениями Exchange с SIP-адресом sip:exumaa1@fabrikam.com. Служба регистратора сервера Lync Server 2013 работает в пуле с именем RedmondPool.litwareinc.com. Сведения будут сохраняться в подразделении Active Directory OU=ExUmContacts,DC=litwareinc,DC=com. Телефонный номер контактного объекта – 2065554567. Дополнительный параметр -AutoAttendant $True указывает, что этот объект является контактным объектом автосекретаря. Значение False параметра -AutoAttendant (установленное по умолчанию) указывает контактный объект абонентского доступа.
+<span data-ttu-id="c525f-124">В этом примере создается новый объект контакта UM Exchange с адресом SIP sip:exumaa1@fabrikam.com.</span><span class="sxs-lookup"><span data-stu-id="c525f-124">This example creates a new Exchange UM Contact object with the SIP address sip:exumaa1@fabrikam.com.</span></span> <span data-ttu-id="c525f-125">Имя пула, в котором работает служба регистратора Lync Server 2013, — RedmondPool.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="c525f-125">The name of the pool where the Lync Server 2013 Registrar service is running is RedmondPool.litwareinc.com.</span></span> <span data-ttu-id="c525f-126">Организационное подразделение Active Directory, в котором будут храниться эти данные, — OU = Ексумконтактс, DC = плана litwareinc, DC = com.</span><span class="sxs-lookup"><span data-stu-id="c525f-126">The Active Directory organizational unit where this information will be stored is OU=ExUmContacts,DC=litwareinc,DC=com.</span></span> <span data-ttu-id="c525f-127">Номер телефона объекта Contact — 2065554567.</span><span class="sxs-lookup"><span data-stu-id="c525f-127">The phone number of the Contact object is 2065554567.</span></span> <span data-ttu-id="c525f-128">Параметр необязательного автосекретаря $True указывает на то, что этот объект является автоматическим контактным объектом-участником.</span><span class="sxs-lookup"><span data-stu-id="c525f-128">The optional -AutoAttendant $True parameter specifies that this object is an auto-attendant Contact object.</span></span> <span data-ttu-id="c525f-129">Если для параметра автосекретаря задано значение false (значение по умолчанию), указывает объект контакта доступа абонента.</span><span class="sxs-lookup"><span data-stu-id="c525f-129">Setting the -AutoAttendant parameter to False (the default) specifies a subscriber access Contact object.</span></span>
 
-Подробные сведения о командлетах New-CsExUmContact и Set-CsExUmContact см. в документации по командной консоли Командная консоль Lync Server.
+<span data-ttu-id="c525f-130">Сведения о командлетах New-Ксексумконтакт и Set-Ксексумконтакт можно найти в документации по оболочке Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="c525f-130">For details about the New-CsExUmContact and Set-CsExUmContact cmdlets, see the Lync Server Management Shell documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

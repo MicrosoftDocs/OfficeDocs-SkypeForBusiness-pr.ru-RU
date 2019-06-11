@@ -1,41 +1,81 @@
-﻿---
-title: 'Lync Server 2013: мгновенные сообщения (IM) и присутствие'
-TOCTitle: Мгновенные сообщения (IM) и присутствие
-ms:assetid: 6a93ae95-3b64-410b-ab72-74dea232f065
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg417162(v=OCS.15)
-ms:contentKeyID: 49310048
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: мгновенные сообщения (IM) и присутствие'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IM and presence
+ms:assetid: 6a93ae95-3b64-410b-ab72-74dea232f065
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417162(v=OCS.15)
+ms:contentKeyID: 48184398
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 18eb3d4a7fa5daaa59817d2eefde7af3a8e3f494
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834037"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Мгновенные сообщения (IM) и присутствие в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-10-07_
+# <a name="im-and-presence-in-lync-server-2013"></a><span data-ttu-id="04b07-102">Мгновенные сообщения (IM) и присутствие в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04b07-102">IM and presence in Lync Server 2013</span></span>
 
-Обмен мгновенными сообщениями и присутствие настраиваются автоматически при любом развертывании Lync Server.
+</div>
 
-Сведения о *присутствии* дают пользователям возможность обращаться к коллегам в правильное время и в правильной форме, что создает более эффективную рабочую среду. Присутствие пользователя – это набор сведений, включающих сведения о доступности, готовности общаться, дополнительные примечания (например, о местонахождении и состоянии), а также способы контакта. Присутствие в Lync Server было усовершенствовано; в него были добавлены картинки, сведения о местонахождении и широкий набор состояний присутствия, который кроме основных состояний, таких как "В сети", "Занят" и "Идет конференция", был дополнен такими, как "Не на работе", "Не беспокоить" и "Скоро вернусь". Администраторы также могут определять особые, относящиеся к конкретной организации состояния присутствия.
+<div id="mainSection">
 
-Параметры управления контактами и доступом пользователей дают пользователям возможность указывать, какие сведения могут видеть остальные. Пользователи могут устанавливать разные уровни контактов, каждый из которых может видеть разные уровни сведений о присутствии.
+<div id="mainBody">
 
-Просто посмотрев на список контактов, пользователи с первого взгляда могут найти все, что им нужно знать. Простые цветные значки указывают состояние присутствия других пользователей; также показываются изображения пользователей и сведения об их местонахождении.
+<span> </span>
 
-Благодаря интеграции Lync Server с другими продуктами, такими как Outlook и SharePoint, всякий раз при появлении имени контакта, например, в письме электронной почты или на веб-сайте группы, отображается его состояние и контактные данные. Кроме того, при развертывании Exchange 2013Lync Server и Exchange 2013 могут совместно использовать единое хранилище контактов, доступ к которому имеют клиенты каждого продукта.
+<span data-ttu-id="04b07-103">_**Тема последнего изменения:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="04b07-103">_**Topic Last Modified:** 2013-10-07_</span></span>
 
-Благодаря системе обмена мгновенными сообщениями в Lync Server пользователи могут быстро обмениваться друг с другом сообщениями с актуальной информацией. При необходимости можно также разрешить пользователям взаимодействовать с пользователями общедоступных сетей обмена мгновенными сообщениями, таких как MSN/Windows Live, Yahoo\! и AOL. Следует отметить, что для возможности подключения к общедоступным службам обмена мгновенными сообщениями Windows Live, AOL и Yahoo\! может потребоваться отдельная лицензия. Lync Server также включает совместимость с протоколом XMPP, так что пользователи могут обмениваться мгновенными сообщениями м сведениями о присутствии с пользователями служб XMPP, таких как Google Talk.
+<span data-ttu-id="04b07-104">Обмен мгновенными сообщениями и присутствие автоматически устанавливаются в любой среде развертывания Lync Server.</span><span class="sxs-lookup"><span data-stu-id="04b07-104">Instant messaging (IM) and presence are automatically installed in any Lync Server deployment.</span></span>
+
+<span data-ttu-id="04b07-105">\*\* Сведения о присутствии позволяют пользователям в нужное время подходить к работе с коллегами, чтобы стать более эффективной рабочей средой.</span><span class="sxs-lookup"><span data-stu-id="04b07-105">*Presence* information enables users to approach colleagues at the right time with the right form of communication, to lead to a more productive work environment.</span></span> <span data-ttu-id="04b07-106">Присутствие пользователя — это набор данных, который включает в себя доступность, готовность к общению, дополнительные заметки (например, расположение и состояние), а также способ связи с пользователем.</span><span class="sxs-lookup"><span data-stu-id="04b07-106">A user’s presence is a collection of information that includes availability, willingness to communicate, additional notes (such as location and status), and how the user can be contacted.</span></span> <span data-ttu-id="04b07-107">Присутствие в Lync Server с изображениями, сведениями о расположении и обширным набором состояний присутствия, включающий "отключенные трудозатраты", "не беспокоить", и "быть справа назад", в дополнение к основным состояниям, таким как "доступно", "занят" и "в конференц-связи".</span><span class="sxs-lookup"><span data-stu-id="04b07-107">Presence is enhanced in Lync Server with pictures, location information, and a rich set of presence states that includes “Off Work,” “Do Not Disturb,” and “Be Right Back,” in addition to basic states such as “Available,” “Busy,” and “In a Conference.”</span></span> <span data-ttu-id="04b07-108">Администраторы также могут определять настраиваемые состояния присутствия, связанные с организациями.</span><span class="sxs-lookup"><span data-stu-id="04b07-108">Administrators can also define customized, organization-specific presence states.</span></span>
+
+<span data-ttu-id="04b07-109">Управление контактами и параметры доступа пользователей позволяют пользователям управлять сведениями, которые могут просматривать другие пользователи.</span><span class="sxs-lookup"><span data-stu-id="04b07-109">Contact management and user access options enable users to control what information others can see.</span></span> <span data-ttu-id="04b07-110">Пользователи могут задавать различные уровни контактов, каждый из которых может просматривать различные уровни сведений о присутствии.</span><span class="sxs-lookup"><span data-stu-id="04b07-110">Users can set different levels of contacts, each of which can view different levels of presence information.</span></span>
+
+<span data-ttu-id="04b07-111">Просто взгляните на список контактов, пользователи могут найти все, что необходимо для наглядного знания.</span><span class="sxs-lookup"><span data-stu-id="04b07-111">By simply looking at a Contacts list, users can find everything they need to know at a glance.</span></span> <span data-ttu-id="04b07-112">Простые цветные значки определяют состояние присутствия другого пользователя, а также отображается изображение и расположение.</span><span class="sxs-lookup"><span data-stu-id="04b07-112">Simple colored icons indicate other users’ presence status, and picture and location are also shown.</span></span>
+
+<span data-ttu-id="04b07-113">Интеграция с Lync Server и другими продуктами, такими как Outlook и SharePoint, при появлении имени контакта, например в сообщении электронной почты или на веб-сайте группы, также отображается состояние и контактные данные.</span><span class="sxs-lookup"><span data-stu-id="04b07-113">With the integration between Lync Server and other products such as Outlook and SharePoint, whenever a contact’s name appears, such as in an email message or on a team website, the status and contact information is also displayed.</span></span> <span data-ttu-id="04b07-114">Кроме того, если вы развертываете Exchange 2013, Lync Server и Exchange 2013 могут совместно использовать единое хранилище контактов, которое может быть доступно клиентам любого продукта.</span><span class="sxs-lookup"><span data-stu-id="04b07-114">Additionally, if you deploy Exchange 2013, Lync Server and Exchange 2013 can share a unified contact store, which can be accessed by clients of either product.</span></span>
+
+<span data-ttu-id="04b07-115">Благодаря функции обмена мгновенными сообщениями в Lync Server пользователи могут быстро переключаться между ними с помощью актуальных данных.</span><span class="sxs-lookup"><span data-stu-id="04b07-115">With instant messaging in Lync Server, users can quickly message each other with timely information.</span></span> <span data-ttu-id="04b07-116">Если вы предпочитаете, пользователи также смогут общаться с пользователями общедоступных сетей обмена мгновенными сообщениями, таких как\!MSN/Windows Live, Yahoo и AOL.</span><span class="sxs-lookup"><span data-stu-id="04b07-116">If you prefer, your users can also communicate with users of public IM networks such as MSN/Windows Live, Yahoo\!, and AOL.</span></span> <span data-ttu-id="04b07-117">Обратите внимание, что для общедоступной службы обмена мгновенными сообщениями с Windows Live, AOL и Yahoo может потребоваться отдельная лицензия.\!</span><span class="sxs-lookup"><span data-stu-id="04b07-117">Note that a separate license might be required for public IM connectivity with Windows Live, AOL, and Yahoo\!</span></span> <span data-ttu-id="04b07-118">Lync Server также включает в себя совместимость с помощью расширенного обмена сообщениями и протокола присутствия (КСМПП), чтобы пользователи могли обмениваться сообщениями и сведениями о присутствии с пользователями служб КСМПП, таких как Google чата.</span><span class="sxs-lookup"><span data-stu-id="04b07-118">Lync Server also includes Extensible Messaging and Presence Protocol (XMPP) compatibility, so your users can exchange IM messages and presence information with users of XMPP services such as Google Talk.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul><li><p>С 1 сентября 2012 г. прекращена продажа лицензий пользовательских подписок на подключение к общедоступным службам обмена мгновенными сообщениями Microsoft Lync (PIC USL) по новым или продляемым соглашениям. Клиенты с активными лицензиями смогут продолжать использование федерации с Yahoo! Messenger до отключения службы. Поддержка служб AOL и Yahoo! завершается в июне 2014 г. Дополнительные сведения см. в статье <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013</a>.</p></li>
-> <li><p>Лицензия подписки пользователя на возможность подключения к общедоступным службам обмена мгновенными сообщениями представляет собой лицензию подписки на пользователя в месяц, которая необходима для того, чтобы Lync Server или Office Communications Server могли образовывать федерацию с Yahoo! Messenger. Корпорация Майкрософт смогла предоставлять данную услугу благодаря поддержке со стороны компании Yahoo!, однако соответствующий базовый договор расторгается.</p></li>
-> <li><p>Сейчас, более чем когда-либо раньше, Lync представляет собой эффективное средство для объединения организаций и отдельных пользователей по всему миру. Федерация с Windows Live Messenger не требует никаких дополнительных лицензий на пользователя/устройство, кроме Lync Standard CAL. В этот список будет добавлена федерация Skype, позволяя пользователям Lync взаимодействовать с сотнями миллионов людей посредством мгновенных сообщений и голосовой связи.</p></li></ul>
+> <UL>
+> <LI>
+> <P><span data-ttu-id="04b07-119">По состоянию на 1 сентября 2012, лицензия на подписку на общедоступные службы обмена мгновенными сообщениями в Microsoft Lync ("PIC усл") больше недоступна для приобретения новых или обновленных договоров.</span><span class="sxs-lookup"><span data-stu-id="04b07-119">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="04b07-120">Пользователи с активными лицензиями смогут продолжать использовать федерацию с помощью Yahoo!</span><span class="sxs-lookup"><span data-stu-id="04b07-120">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="04b07-121">Messenger, пока служба не отключается.</span><span class="sxs-lookup"><span data-stu-id="04b07-121">Messenger until the service shut down date.</span></span> <span data-ttu-id="04b07-122">Дата окончания жизненного цикла 2014 для AOL и Yahoo! в течение июня.</span><span class="sxs-lookup"><span data-stu-id="04b07-122">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="04b07-123">было объявлено.</span><span class="sxs-lookup"><span data-stu-id="04b07-123">has been announced.</span></span> <span data-ttu-id="04b07-124">Подробности можно найти <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">в разделе Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="04b07-124">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="04b07-125">УСЛ PIC является лицензией на ежемесячную подписку для пользователей Lync Server или Office Communications Server, которая требуется для Федерации с помощью Yahoo!.</span><span class="sxs-lookup"><span data-stu-id="04b07-125">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="04b07-126">Messenger.</span><span class="sxs-lookup"><span data-stu-id="04b07-126">Messenger.</span></span> <span data-ttu-id="04b07-127">Возможность предоставления этой услуги корпорацией Майкрософт зависит от поддержки компании Yahoo!, основного соглашения, для которого выполняется обмотка.</span><span class="sxs-lookup"><span data-stu-id="04b07-127">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="04b07-128">В некоторых случаях Lync — это мощный инструмент для связи между организациями и людьми по всему миру.</span><span class="sxs-lookup"><span data-stu-id="04b07-128">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="04b07-129">Для интеграции с Windows Live Messenger не требуется дополнительных лицензий на пользователей и устройств за пределами стандартной клиентской лицензии Lync.</span><span class="sxs-lookup"><span data-stu-id="04b07-129">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="04b07-130">В этот список будет добавлена Федерация Skype, благодаря чему пользователи Lync смогут общаться с сотнями миллионов людей с помощью обмена мгновенными сообщениями и голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="04b07-130">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
 
 
-Журнал бесед дает пользователям возможность отслеживать старые беседы системы обмена мгновенными сообщениями и извлекать сведения, которые были переданы в мгновенном сообщении несколько месяцев назад.
 
-Возможности сохраняемый сеанс беседы позволяют пользователям участвовать в многопользовательских тематических беседах, которые подлежат сохранению. Сообщения, опубликованные в комнатах чата (форумах обсуждений) могут сохраняться, чтобы пользователи из разных мест и отделов могли участвовать в них, даже если они находится в сети не одновременно.
+</div>
 
-Если организация обязана придерживаться нормативных правил, можно развернуть функцию архивации сообщений, чтобы архивировать содержимое мгновенных сообщений всех пользователей в организации или только отдельных указанных пользователей. Если развернут Exchange 2013, то архив мгновенных сообщений можно интегрировать с функцией удержания для хранения на месте Exchange, чтобы обеспечить единое административное управление для соответствия требованиям.
+<span data-ttu-id="04b07-131">Журнал бесед позволяет пользователям отслеживать старые текстовые беседы, а также получать информацию, которая могла бы быть передана в сообщении из месяца назад.</span><span class="sxs-lookup"><span data-stu-id="04b07-131">Conversation history enables users to keep track of old IM conversations, and retrieve information that may have been communicated by IM months ago.</span></span>
+
+<span data-ttu-id="04b07-132">Функция сохраняемый чат позволяет пользователям принимать участие в многофакторных беседах, которые сохраняются с течением времени.</span><span class="sxs-lookup"><span data-stu-id="04b07-132">The Persistent Chat feature enables users to participate in multiparty, topic-based conversations that persist over time.</span></span> <span data-ttu-id="04b07-133">Сообщения, опубликованные в помещениях чатов (дискуссионные форумы), могут быть постоянными (то есть доступны во времени), чтобы люди из разных местоположений и отделов могли участвовать в работе, даже если они не подключены к Интернету одновременно.</span><span class="sxs-lookup"><span data-stu-id="04b07-133">Messages posted to chat rooms (discussion forums) can be persistent (that is, available over time), so that people from different locations and departments can participate, even when they are not all online at the same time.</span></span>
+
+<span data-ttu-id="04b07-134">Если в вашей организации должны следовать правила соответствия требованиям, вы можете развернуть функцию архивации сообщений, чтобы архивировать содержимое мгновенных сообщений для всех пользователей в организации или только для определенных пользователей.</span><span class="sxs-lookup"><span data-stu-id="04b07-134">If your organization must follow compliance regulations, you can deploy a message archiving feature to archive the content of instant messages for all users in your organization, or for only certain users you specify.</span></span> <span data-ttu-id="04b07-135">Если вы также разворачиваете Exchange 2013, Архив обмена мгновенными сообщениями можно интегрировать с функцией хранение на месте в Exchange, чтобы обеспечить единое администрирование для вашего соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="04b07-135">If you also deploy Exchange 2013, your IM archive can be integrated with the In-Place Hold feature of Exchange, to provide a single administration experience for your compliance.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

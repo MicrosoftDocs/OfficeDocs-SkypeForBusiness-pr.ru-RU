@@ -1,39 +1,73 @@
-﻿---
-title: 'Lync Server 2013: развертывание сайтов филиалов'
-TOCTitle: Развертывание сайтов филиалов
-ms:assetid: 1475dee0-66ae-4ee5-b6f1-7409b4bbff45
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398217(v=OCS.15)
-ms:contentKeyID: 49309029
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: развертывание сайтов филиалов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying branch sites
+ms:assetid: 1475dee0-66ae-4ee5-b6f1-7409b4bbff45
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398217(v=OCS.15)
+ms:contentKeyID: 48183483
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6c96a8c99b6f80e7e70f3129e502d33b93a73f42
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834560"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание сайтов филиалов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-21_
+# <a name="deploying-branch-sites-in-lync-server-2013"></a><span data-ttu-id="12098-102">Развертывание сайтов филиалов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12098-102">Deploying branch sites in Lync Server 2013</span></span>
 
-Пользователи узла филиала получают большинство функций Lync Server 2013 от сервера в центральном узле, с которым связан узел филиала. Каждый узел филиала связан ровно с одним центральным узлом. Чтобы позволить совершать вызовы по ТСОП, узел филиала может содержать следующие компоненты:
+</div>
 
-  - шлюз ТСОП и, возможно, сервер-посредник;
+<div id="mainSection">
 
-  - SIP-магистраль;
+<div id="mainBody">
 
-  - существующая инфраструктура голосовой связи с УАТС;
+<span> </span>
 
-  -  для обеспечения связи в филиалах
+<span data-ttu-id="12098-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="12098-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-  - для обеспечения связи в филиалах.
+<span data-ttu-id="12098-104">Пользователи сайтов филиалов получают большинство функций Lync Server 2013 с сервера центрального сайта, с которым связан сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="12098-104">Branch site users get most of their Lync Server 2013 functionality from the server at the central site that the branch site is associated with.</span></span> <span data-ttu-id="12098-105">Каждый сайт филиала связан только с одним центральным сайтом.</span><span class="sxs-lookup"><span data-stu-id="12098-105">Each branch site is associated with exactly one central site.</span></span> <span data-ttu-id="12098-106">Для передачи звонков из коммутируемой телефонной сети с открытым коммутируемым подключением сайт филиала может содержать любые из указанных ниже вариантов.</span><span class="sxs-lookup"><span data-stu-id="12098-106">To provide calls to and from the public switched telephone network (PSTN), a branch site might contain any of the following:</span></span>
 
-Узлы ответвлений с для обеспечения связи в филиалах или для обеспечения связи в филиалах более устойчивы во времена отказов глобальных сетей и центральных узлов по сравнению с узлами ответвлений без одного из этих программных решений. Например, в узле с развернутой службой для обеспечения связи в филиалах или для обеспечения связи в филиалах пользователи по-прежнему смогут выполнять и получать вызовы ТСОП, если сеть, соединяющая узел ответвления с центральным узлом, вышла из строя. Другой способ обеспечения устойчивости работы узла ответвления состоит в использовании шлюза ТСОП или SIP-магистрали с полномасштабным развертыванием Lync Server в узле ответвления.
+  - <span data-ttu-id="12098-107">Шлюз PSTN и, возможно, сервер Медитатион</span><span class="sxs-lookup"><span data-stu-id="12098-107">A PSTN gateway and possibly a Meditation Server</span></span>
 
-Сведения о том, какое развертывание узла ответвления оптимально для конкретной организации, включая необходимые условия и вопросы планирования, см. в разделах [Планирование подключения к ТСОП в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) и [Планирование устойчивости голосовой связи для сайта филиала в Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) в документации по планированию.
+  - <span data-ttu-id="12098-108">Магистральная линия SIP</span><span class="sxs-lookup"><span data-stu-id="12098-108">A SIP trunk</span></span>
 
-## Содержание
+  - <span data-ttu-id="12098-109">Существующая инфраструктура голосовой связи с частным обменом филиалов (АТС)</span><span class="sxs-lookup"><span data-stu-id="12098-109">An existing voice infrastructure with a private branch exchange (PBX)</span></span>
 
-  - [Обеспечение подключения ТСОП в сайте филиала в Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - <span data-ttu-id="12098-110">Бесперебойно работающее устройство филиала</span><span class="sxs-lookup"><span data-stu-id="12098-110">A Survivable Branch Appliance</span></span>
 
-  - [Развертывание устройства или сервера обеспечения связи в филиалах с Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+  - <span data-ttu-id="12098-111">Бесперебойный сервер филиала</span><span class="sxs-lookup"><span data-stu-id="12098-111">A Survivable Branch Server</span></span>
+
+<span data-ttu-id="12098-112">Сайты филиалов с бесперебойно работающими управляющими системами или работающими серверами филиалов более устойчивы во время многофакторной сети или сбоя центрального сайта, чем для сайтов филиалов без одного из этих решений.</span><span class="sxs-lookup"><span data-stu-id="12098-112">Branch sites with a Survivable Branch Appliance or a Survivable Branch Server are more resilient in times of wide-area network or central site failures than branch sites without one of these solutions.</span></span> <span data-ttu-id="12098-113">Например, на сайте с бесперебойно работающим управляющим устройством филиала или развернутом работающем сервере филиала пользователи по-прежнему могут совершать и принимать звонки PSTN, если сеть, соединяющая сайт ветви с центральным сайтом, не работает.</span><span class="sxs-lookup"><span data-stu-id="12098-113">For example, in a site with a Survivable Branch Appliance or a Survivable Branch Server deployed, users can still make and receive PSTN calls if the network connecting the branch site to the central site is down.</span></span> <span data-ttu-id="12098-114">Кроме того, вы можете достичь устойчивости сайта с помощью шлюза PSTN или магистральной магистрали SIP с полным развертыванием Lync Server на сайте филиала.</span><span class="sxs-lookup"><span data-stu-id="12098-114">Another way to achieve branch-site resiliency is by using a PSTN gateway or a SIP trunk with a full-scale Lync Server deployment at the branch site.</span></span>
+
+<span data-ttu-id="12098-115">Сведения о том, какое развертывание сайтов филиалов подходит для вашей организации, в том числе необходимые требования и другие соображения по планированию, приведены в разделе [Планирование подключений PSTN в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) и [Планирование обеспечения устойчивости голоса для филиалов в Lync Сервер 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="12098-115">For details about which branch site deployment is right for your organization, including prerequisites and other planning considerations, see [Planning for PSTN connectivity in Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) and [Planning for branch-site voice resiliency in Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) in the Planning documentation.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="12098-116">Содержание</span><span class="sxs-lookup"><span data-stu-id="12098-116">In This Section</span></span>
+
+  - [<span data-ttu-id="12098-117">Обеспечение подключения ТСОП в сайте филиала в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12098-117">Providing PSTN connectivity at a branch site in Lync Server 2013</span></span>](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+
+  - [<span data-ttu-id="12098-118">Развертывание устройства или сервера обеспечения связи в филиалах с Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12098-118">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</span></span>](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

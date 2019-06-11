@@ -1,41 +1,71 @@
-﻿---
-title: 'Lync Server 2013: диагностический отчет'
-TOCTitle: Диагностический отчет
-ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615445(v=OCS.15)
-ms:contentKeyID: 49310909
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: диагностический отчет'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Diagnostic Report
+ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
+ms:contentKeyID: 48185159
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b314bccb0c1df539598e17ffc8ca12b30287b8eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834413"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Диагностический отчет в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="2775b-102">Диагностический отчет в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2775b-102">Diagnostic Report in Lync Server 2013</span></span>
 
-Диагностический отчет предоставляет сведения о сеансах, которые завершились с ошибкой. Эти сведения включают ИД диагностики и диагностический заголовок, переданные при сбое сеанса. ИД диагностики – это уникальный идентификатор (в виде заголовка ms-diagnostics), который возвращает добавленное сообщение SIP, а диагностический заголовок содержит дополнительное описание ИД диагностики. Отчет также может содержать дополнительные сведения об устранении неполадок, предоставляемые компонентом создания отчетов. Пример:
+</div>
 
-  - Код причины, предоставляемый шлюзом PSTN, которая привела к возникновению ошибки. Если происходит сбой в PSTN при обработке исходящего звонка, автоматически создается код причины ISUP. Например, шлюз PSTN может прислать код причины 34, говорящий о том, что для выполнения вызова нет доступного канала или цепи.
+<div id="mainSection">
 
-  - Полное доменное имя узла, порт и WinSock для ошибок подключения.
+<div id="mainBody">
 
-  - Запрашиваемые имена для ошибок разрешения DNS-имен. Разрешение DNS-имен выполняется при каждом обращении клиента к серверу имен и запросе IP-адреса, соответствующему указанному имени устройства.
+<span> </span>
 
-## Доступ к диагностическому отчету
+<span data-ttu-id="2775b-103">_**Тема последнего изменения:** 2014-02-07_</span><span class="sxs-lookup"><span data-stu-id="2775b-103">_**Topic Last Modified:** 2014-02-07_</span></span>
 
-Для доступа к диагностическому отчету щелкните показатель Diagnostic Report (Detail) (Диагностический отчет (Сведения)) в отчете [Подробный отчет по сеансу однорановой связи в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) или отчете Conference Detail Report (Сведения о конференции).
+<span data-ttu-id="2775b-104">Диагностический отчет предоставляет сведения о сеансах, которые завершились с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="2775b-104">The Diagnostic Report provides diagnostic and troubleshooting information for a failed session.</span></span> <span data-ttu-id="2775b-105">Эти сведения включают ИД диагностики и диагностический заголовок, переданные при сбое сеанса.</span><span class="sxs-lookup"><span data-stu-id="2775b-105">This information includes both the Diagnostic ID and the Diagnostic header that were reported when the session failed.</span></span> <span data-ttu-id="2775b-106">ИД диагностики – это уникальный идентификатор (в виде заголовка ms-diagnostics), который возвращает добавленное сообщение SIP, а диагностический заголовок содержит дополнительное описание ИД диагностики.</span><span class="sxs-lookup"><span data-stu-id="2775b-106">The Diagnostic ID is a unique identifier (in the form of an ms-diagnostics header) that gets attached to a SIP message, while the Diagnostic header provides an accompanying description for the Diagnostic ID.</span></span> <span data-ttu-id="2775b-107">Отчет также может содержать дополнительные сведения об устранении неполадок, предоставляемые компонентом создания отчетов.</span><span class="sxs-lookup"><span data-stu-id="2775b-107">The report might also contain valuable troubleshooting details that are known by the reporting component.</span></span> <span data-ttu-id="2775b-108">Пример:</span><span class="sxs-lookup"><span data-stu-id="2775b-108">For example:</span></span>
 
-## Фильтры
+  - <span data-ttu-id="2775b-p102">Код причины, предоставляемый шлюзом PSTN, которая привела к возникновению ошибки. Если происходит сбой в PSTN при обработке исходящего звонка, автоматически создается код причины ISUP. Например, шлюз PSTN может прислать код причины 34, говорящий о том, что для выполнения вызова нет доступного канала или цепи.</span><span class="sxs-lookup"><span data-stu-id="2775b-p102">The cause code provided by the PSTN gateway that generated the failure. When an outgoing call fails on the PSTN network, an ISDN User Part (ISUP) cause code is automatically generated. For example, a PSTN gateway might send cause code 34 to indicate that no circuit or channel was available for completing the call.</span></span>
 
-Нет. В диагностическом отчете нельзя использовать фильтр.
+  - <span data-ttu-id="2775b-112">Полное доменное имя узла, порт и WinSock для ошибок подключения.</span><span class="sxs-lookup"><span data-stu-id="2775b-112">Peer FQDN, port, and Winsock errors for connectivity failures.</span></span>
 
-## Показатели
+  - <span data-ttu-id="2775b-p103">Запрашиваемые имена для ошибок разрешения DNS-имен. Разрешение DNS-имен выполняется при каждом обращении клиента к серверу имен и запросе IP-адреса, соответствующему указанному имени устройства.</span><span class="sxs-lookup"><span data-stu-id="2775b-p103">Names being looked up for DNS resolution failures. DNS resolution takes place any time a client contacts a name server and requests the IP address that corresponds to specified device name.</span></span>
 
-В следующей таблице перечислены сведения, содержащиеся в диагностическом отчете.
+<div>
 
-### Показатели отчета Diagnostic Report (Диагностический отчет)
+## <a name="accessing-the-diagnostic-report"></a><span data-ttu-id="2775b-115">Доступ к диагностическому отчету</span><span class="sxs-lookup"><span data-stu-id="2775b-115">Accessing the Diagnostic Report</span></span>
+
+<span data-ttu-id="2775b-116">Отчет о диагностике можно получить, щелкнув метрику диагностического отчета (подробности) в отчете о одноранговых [сеансах в Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) или в отчете "сведения о конференции".</span><span class="sxs-lookup"><span data-stu-id="2775b-116">The Diagnostic Report can be accessed by clicking the Diagnostic Report (Detail) metric on either the [Peer-to-Peer Session Detail Report in Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) or the Conference Detail Report.</span></span>
+
+</div>
+
+<div>
+
+## <a name="filters"></a><span data-ttu-id="2775b-117">Фильтры</span><span class="sxs-lookup"><span data-stu-id="2775b-117">Filters</span></span>
+
+<span data-ttu-id="2775b-p104">Нет. В диагностическом отчете нельзя использовать фильтр.</span><span class="sxs-lookup"><span data-stu-id="2775b-p104">None. You cannot filter the Diagnostic Report.</span></span>
+
+</div>
+
+<div>
+
+## <a name="metrics"></a><span data-ttu-id="2775b-120">Показатели</span><span class="sxs-lookup"><span data-stu-id="2775b-120">Metrics</span></span>
+
+<span data-ttu-id="2775b-121">В следующей таблице перечислены сведения, содержащиеся в диагностическом отчете.</span><span class="sxs-lookup"><span data-stu-id="2775b-121">The following table lists the information provided in the Diagnostic Report for each session.</span></span>
+
+### <a name="diagnostic-report-metrics"></a><span data-ttu-id="2775b-122">Показатели отчета Diagnostic Report (Диагностический отчет)</span><span class="sxs-lookup"><span data-stu-id="2775b-122">Diagnostic Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -45,75 +75,87 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Имя</th>
-<th>Поддержка сортировки</th>
-<th>Описание</th>
+<th><span data-ttu-id="2775b-123">Имя</span><span class="sxs-lookup"><span data-stu-id="2775b-123">Name</span></span></th>
+<th><span data-ttu-id="2775b-124">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="2775b-124">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="2775b-125">Описание</span><span class="sxs-lookup"><span data-stu-id="2775b-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Reported time</strong> (Время создания отчета)</p></td>
-<td><p>Нет</p></td>
-<td><p>Дата и время создания отчета.</p></td>
+<td><p><span data-ttu-id="2775b-126"><strong>Время создания отчета</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-126"><strong>Report time</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-127">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-127">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-128">Дата и время создания отчета.</span><span class="sxs-lookup"><span data-stu-id="2775b-128">Date and time that the report was recorded.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Response code</strong> (Код ответа)</p></td>
-<td><p>Нет</p></td>
-<td><p>Код ответа SIP, отправленный при сбое сеанса.</p></td>
+<td><p><span data-ttu-id="2775b-129"><strong>Код ответа</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-129"><strong>Response code</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-130">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-130">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-131">Код ответа SIP, отправленный при сбое сеанса.</span><span class="sxs-lookup"><span data-stu-id="2775b-131">SIP response code sent when the session failed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Request type</strong> (Тип запроса)</p></td>
-<td><p>Нет</p></td>
-<td><p>Тип запроса SIP, завершившегося с ошибкой. Например, INVITE, BYE или SERVICE.</p></td>
+<td><p><span data-ttu-id="2775b-132"><strong>Тип запроса</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-132"><strong>Request type</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-133">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-133">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-p105">Тип запроса SIP, завершившегося с ошибкой. Например, INVITE, BYE или SERVICE.</span><span class="sxs-lookup"><span data-stu-id="2775b-p105">SIP request type that failed. For example, INVITE, BYE, or SERVICE.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Source</strong> (Источник)</p></td>
-<td><p>Нет</p></td>
-<td><p>Источник ошибки.</p></td>
+<td><p><span data-ttu-id="2775b-136"><strong>Источник</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-136"><strong>Source</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-137">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-137">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-138">Источник ошибки.</span><span class="sxs-lookup"><span data-stu-id="2775b-138">Source of the error.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>From user URI</strong> (URI пользователя, инициатора сеанса)</p></td>
-<td><p>Нет</p></td>
-<td><p>SIP-адрес пользователя, инициировавшего сеанс.</p></td>
+<td><p><span data-ttu-id="2775b-139"><strong>URI пользователя, инициатора сеанса</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-139"><strong>From user URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-140">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-140">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-141">SIP-адрес пользователя, инициировавшего сеанс.</span><span class="sxs-lookup"><span data-stu-id="2775b-141">SIP address of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>From user agent</strong> (Агент пользователя, инициатора сеанса)</p></td>
-<td><p>Нет</p></td>
-<td><p>Программное обеспечение, используемое конечной точкой пользователя, инициировавшего сеанс.</p></td>
+<td><p><span data-ttu-id="2775b-142"><strong>Агент пользователя, инициатора сеанса</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-142"><strong>From user agent</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-143">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-143">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-144">Программное обеспечение, используемое конечной точкой пользователя, инициировавшего сеанс.</span><span class="sxs-lookup"><span data-stu-id="2775b-144">Software used by the endpoint of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Diagnostic ID</strong> (ИД диагностики)</p></td>
-<td><p>Нет</p></td>
-<td><p>Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</p></td>
+<td><p><span data-ttu-id="2775b-145"><strong>ИД диагностики</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-145"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-146">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-146">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-147">Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок.</span><span class="sxs-lookup"><span data-stu-id="2775b-147">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Content type</strong> (Тип содержимого)</p></td>
-<td><p>Нет</p></td>
-<td><p>Тип содержимого мультимедиа, которое привело к ошибке. Например, общий тип содержимого Application/sdp. Протокол SDP – это стандартный протокол Интернета, который используется для оповещений сеансов, приглашений сеансов и других видов инициирования сеансов мультимедиа.</p></td>
+<td><p><span data-ttu-id="2775b-148"><strong>Тип содержимого</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-148"><strong>Content type</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-149">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-149">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-p106">Тип содержимого мультимедиа, которое привело к ошибке. Например, общий тип содержимого Application/sdp. Протокол SDP – это стандартный протокол Интернета, который используется для оповещений сеансов, приглашений сеансов и других видов инициирования сеансов мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="2775b-p106">Type of media content that failed. For example, a common content type is Application/sdp. Session Description Protocol (SDP) is a standard Internet protocol used for session announcements, session invitations, and other forms of multimedia session initiation.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong> (Приложение)</p></td>
-<td><p>Нет</p></td>
-<td><p>Приложение, используемое при возникновении ошибки.</p></td>
+<td><p><span data-ttu-id="2775b-153"><strong>Приложение</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-153"><strong>Application</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-154">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-154">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-155">Приложение, используемое при возникновении ошибки.</span><span class="sxs-lookup"><span data-stu-id="2775b-155">Application involved in the error.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>To user URI</strong> (URI пользователя, получившего приглашение к сеансу)</p></td>
-<td><p>Нет</p></td>
-<td><p>SIP-адрес пользователя, получившего приглашение к сеансу.</p></td>
+<td><p><span data-ttu-id="2775b-156"><strong>URI пользователя, получившего приглашение к сеансу</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-156"><strong>To user URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-157">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-157">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-158">SIP-адрес пользователя, получившего приглашение к сеансу.</span><span class="sxs-lookup"><span data-stu-id="2775b-158">SIP address of the user who was invited to the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Время присоединения к конференции (мс)</p></td>
-<td><p>Нет</p></td>
-<td><p>Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</p></td>
+<td><p><span data-ttu-id="2775b-159">Время присоединения к конференции (мс)</span><span class="sxs-lookup"><span data-stu-id="2775b-159">Conference join times (ms)</span></span></p></td>
+<td><p><span data-ttu-id="2775b-160">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-160">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-161">Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.</span><span class="sxs-lookup"><span data-stu-id="2775b-161">Amount of time (in milliseconds) it took for the user to join the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnostic header</strong> (Заголовок диагностики)</p></td>
-<td><p>Нет</p></td>
-<td><p>Описание ИД диагностики.</p></td>
+<td><p><span data-ttu-id="2775b-162"><strong>Заголовок диагностики</strong></span><span class="sxs-lookup"><span data-stu-id="2775b-162"><strong>Diagnostic header</strong></span></span></p></td>
+<td><p><span data-ttu-id="2775b-163">Нет</span><span class="sxs-lookup"><span data-stu-id="2775b-163">No</span></span></p></td>
+<td><p><span data-ttu-id="2775b-164">Описание ИД диагностики.</span><span class="sxs-lookup"><span data-stu-id="2775b-164">Diagnostic ID description.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Список ошибок диагностики можно найти на странице [Ms-Diagnostics Header](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+<span data-ttu-id="2775b-165">Список ошибок диагностики можно найти на странице заголовков [MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).</span><span class="sxs-lookup"><span data-stu-id="2775b-165">A list of diagnostic errors can be found on the [Ms-Diagnostics Header page](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

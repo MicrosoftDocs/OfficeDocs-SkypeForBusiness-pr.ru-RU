@@ -1,31 +1,69 @@
-﻿---
-title: Определение правил трансляции и нормализации в Lync Server 2013
-TOCTitle: Определение правил трансляции и нормализации в Lync Server 2013
-ms:assetid: a22e4804-8802-42b1-a1b1-be42f85b3d46
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688159(v=OCS.15)
-ms:contentKeyID: 49888119
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: определение правил перевода и правил нормализации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining translation rules and normalization rules
+ms:assetid: a22e4804-8802-42b1-a1b1-be42f85b3d46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688159(v=OCS.15)
+ms:contentKeyID: 49733763
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ad1fc019db0512c605fd436354c5e5107a16c4b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834699"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Определение правил трансляции и нормализации в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-18_
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="20b17-102">Определение правил перевода и правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20b17-102">Defining translation rules and normalization rules in Lync Server 2013</span></span>
 
-Используйте подразделы данного раздела, чтобы узнать, каким образом можно настроить магистральные линии связи для Lync Server 2013.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Определение правил преобразования в Lync Server 2013](lync-server-2013-defining-translation-rules.md)
+<div id="mainBody">
 
-  - [Определение правил нормализации в Lync Server 2013](lync-server-2013-defining-normalization-rules.md)
+<span> </span>
 
-## См. также
+<span data-ttu-id="20b17-103">_**Тема последнего изменения:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="20b17-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-#### Другие ресурсы
+<span data-ttu-id="20b17-104">Чтобы научиться настраивать магистральные магистрали для Lync Server 2013, используйте подразделы в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="20b17-104">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
 
-[Управление маршрутизацией голосовой связи в Lync Server 2013](lync-server-2013-managing-voice-routing.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="20b17-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="20b17-105">In This Section</span></span>
+
+  - [<span data-ttu-id="20b17-106">Определение правил преобразования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20b17-106">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
+
+  - [<span data-ttu-id="20b17-107">Определение правил нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20b17-107">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="20b17-108">См. также</span><span class="sxs-lookup"><span data-stu-id="20b17-108">See Also</span></span>
+
+
+[<span data-ttu-id="20b17-109">Управление маршрутизацией голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20b17-109">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

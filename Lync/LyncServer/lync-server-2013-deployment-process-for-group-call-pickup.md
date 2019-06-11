@@ -1,23 +1,43 @@
-﻿---
-title: Процесс развертывания компонента группового ответа на звонки
-TOCTitle: Процесс развертывания компонента группового ответа на звонки
-ms:assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945615(v=OCS.15)
-ms:contentKeyID: 52058159
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: процесс развертывания для отправки группового звонка'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for Group Call Pickup
+ms:assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945615(v=OCS.15)
+ms:contentKeyID: 51541444
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 04ff5eda01c5436240c0baca2b1711bba8e9c996
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834472"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Процесс развертывания компонента группового ответа на звонки
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="060d0-102">Процесс развертывания для отправки группового звонка в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="060d0-102">Deployment process for Group Call Pickup in Lync Server 2013</span></span>
 
-В данном разделе приводится обзор тех действий, которые необходимы для развертывания компонента группового ответа на звонки. Перед настройкой компонента группового ответа на звонки вам следует развернуть Enterprise Edition или Standard Edition с системой корпоративной голосовой связи. Компоненты, необходимые для группового ответа на звонки, устанавливаются и включаются во время развертывания системы корпоративной голосовой связи.
+</div>
 
-### Процесс развертывания компонента группового ответа на звонки
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="060d0-103">_**Тема последнего изменения:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="060d0-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+
+<span data-ttu-id="060d0-104">В этом разделе приводятся общие сведения о процедуре развертывания группового звонка.</span><span class="sxs-lookup"><span data-stu-id="060d0-104">This section provides an overview of the steps involved in deploying Group Call Pickup.</span></span> <span data-ttu-id="060d0-105">Перед настройкой отправки группового звонка необходимо развернуть Enterprise Edition или Standard Edition с корпоративной голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="060d0-105">You must deploy Enterprise Edition or Standard Edition with Enterprise Voice before you configure Group Call Pickup.</span></span> <span data-ttu-id="060d0-106">Компоненты, необходимые для отправки группового звонка, устанавливаются и включаются при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="060d0-106">The components required by Group Call Pickup are installed and enabled when you deploy Enterprise Voice.</span></span>
+
+### <a name="group-call-pickup-deployment-process"></a><span data-ttu-id="060d0-107">Процесс развертывания компонента группового ответа на звонки</span><span class="sxs-lookup"><span data-stu-id="060d0-107">Group Call Pickup Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -28,64 +48,77 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Этап</th>
-<th>Действия</th>
-<th>Необходимые группы и роли</th>
-<th>Документация по развертыванию</th>
+<th><span data-ttu-id="060d0-108">Этап</span><span class="sxs-lookup"><span data-stu-id="060d0-108">Phase</span></span></th>
+<th><span data-ttu-id="060d0-109">Шаги</span><span class="sxs-lookup"><span data-stu-id="060d0-109">Steps</span></span></th>
+<th><span data-ttu-id="060d0-110">Необходимые группы и роли</span><span class="sxs-lookup"><span data-stu-id="060d0-110">Required groups and roles</span></span></th>
+<th><span data-ttu-id="060d0-111">Документация по развертыванию</span><span class="sxs-lookup"><span data-stu-id="060d0-111">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Включение средства набора ресурсов SEFAUtil в топологии</p></td>
+<td><p><span data-ttu-id="060d0-112">Включение средства набора ресурсов Сефаутил в топологии</span><span class="sxs-lookup"><span data-stu-id="060d0-112">Enable the SEFAUtil resource kit tool in the topology</span></span></p></td>
 <td><ol>
-<li><p>Используйте командлет <strong>New-CsTrustedApplicationPool</strong> для создания нового пула доверенных приложений.</p></li>
-<li><p>Используйте командлет <strong>New-CsTrustedApplication</strong> для указания средства SEFAUtil в качестве доверенного приложения.</p></li>
-<li><p>Запустите командлет <strong>Enable-CsTopology</strong> для включения топологии.</p></li>
-<li><p>Установите средства набора ресурсов на сервере переднего плана, который входит в состав пула доверенных приложений, созданного в действии 1.</p></li>
-<li><p>Убедитесь, что SEFAUtil выполняется правильно, воспользовавшись им для отображения параметров переадресации звонков какого-либо пользователя в развертывании.</p></li>
+<li><p><span data-ttu-id="060d0-113">С помощью командлета <strong>New-CsTrustedApplicationPool</strong> создайте новый доверенный пул приложений.</span><span class="sxs-lookup"><span data-stu-id="060d0-113">Use the <strong>New-CsTrustedApplicationPool</strong> cmdlet to create a new trusted application pool.</span></span></p></li>
+<li><p><span data-ttu-id="060d0-114">С помощью командлета<strong>New-CsTrustedApplication</strong> задайте инструмент SEFAUtil в качестве доверенного приложения.</span><span class="sxs-lookup"><span data-stu-id="060d0-114">Use the <strong>New-CsTrustedApplication</strong> cmdlet to specify the SEFAUtil tool as trusted application.</span></span></p></li>
+<li><p><span data-ttu-id="060d0-115">Выполните командлет <strong>Enable-CsTopology</strong> для включения топологии.</span><span class="sxs-lookup"><span data-stu-id="060d0-115">Run the <strong>Enable-CsTopology</strong> cmdlet to enable the topology.</span></span></p></li>
+<li><p><span data-ttu-id="060d0-116">Установите средства набора ресурсов на сервере переднего плана, который находится в надежном пуле приложений, созданном на этапе 1.</span><span class="sxs-lookup"><span data-stu-id="060d0-116">Install the resource kit tools on a Front End Server that is in the trusted application pool created in step 1.</span></span></p></li>
+<li><p><span data-ttu-id="060d0-117">Убедитесь, что SEFAUtil выполняется правильно, воспользовавшись им для отображения параметров переадресации звонков какого-либо пользователя в развертывании.</span><span class="sxs-lookup"><span data-stu-id="060d0-117">Verify that SEFAUtil is running correctly by running it to display the call forwarding settings of a user in the deployment.</span></span></p></li>
 </ol></td>
-<td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">Развертывание инструмента SEFAUtil</a></p></td>
+<td><p><span data-ttu-id="060d0-118">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="060d0-118">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="060d0-119"><a href="lync-server-2013-deploy-the-sefautil-tool.md">Deploy the SEFAUtil tool in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="060d0-119"><a href="lync-server-2013-deploy-the-sefautil-tool.md">Deploy the SEFAUtil tool in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Настройте диапазоны номеров для ответа на звонки в таблице орбит парковки вызовов</p></td>
-<td><p>Используйте командлет <strong>New-CSCallParkOrbit</strong> для создания диапазонов номеров для ответа на звонки в таблице орбит парковки вызовов и назначьте этим диапазонам ответа на звонки тип GroupPickup.</p>
+<td><p><span data-ttu-id="060d0-120">Настройте диапазоны номеров для ответа на звонки в таблице орбит парковки вызовов</span><span class="sxs-lookup"><span data-stu-id="060d0-120">Configure call pickup number ranges in the call park orbit table</span></span></p></td>
+<td><p><span data-ttu-id="060d0-121">С помощью командлета <strong>New-кскаллпаркорбит</strong> можно создать диапазоны номеров для отправки звонков в таблице "приостановить Звонок", а затем назначить диапазон раскладки для набора грауппиккуп.</span><span class="sxs-lookup"><span data-stu-id="060d0-121">Use the <strong>New-CSCallParkOrbit</strong> cmdlet to create call pickup number ranges in the call park orbit table and assign the call pickup ranges the type GroupPickup.</span></span></p>
 <div>
 
-> [!NOTE]
-> Вам следует использовать командную консоль Командная консоль Lync Server для создания, изменения, удаления и просмотра диапазонов номеров группового ответа на звонки в таблице орбит парковки вызовов. Диапазоны номеров для группового ответа на звонки в панели управления Lync Server недоступны.
+> [!NOTE]  
+> <span data-ttu-id="060d0-122">Вы должны использовать командную консоль Lync Server для создания, изменения, удаления и просмотра диапазонов номеров отправки групп в таблице "приостановить Звонок".</span><span class="sxs-lookup"><span data-stu-id="060d0-122">You must use Lync Server Management Shell to create, modify, remove, and view Group Call Pickup number ranges in the call park orbit table.</span></span> <span data-ttu-id="060d0-123">На панели управления Lync Server не доступны диапазоны номеров для отправки групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="060d0-123">Group Call Pickup number ranges are not available in Lync Server Control Panel.</span></span>
+
 
 </div>
 <div>
 
-> [!NOTE]
-> Для простой интеграции с существующими абонентскими группами диапазоны номеров обычно настраиваются как блок виртуальных расширений. Назначение номеров DID как номеров диапазона в таблице орбит парковки вызовов не поддерживается.
+> [!NOTE]  
+> <span data-ttu-id="060d0-p103">Для простой интеграции с существующими абонентскими группами диапазоны номеров обычно настраиваются как блок виртуальных расширений. Назначение номеров DID как номеров диапазона в таблице орбит парковки вызовов не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="060d0-p103">For seamless integration with existing dial plans, number ranges are typically configured as a block of virtual extensions. Assigning Direct Inward Dialing (DID) numbers as range numbers in the call park orbit table is not supported.</span></span>
+
 
 </div></td>
-<td><p>RTCUniversalServerAdmins</p>
-<p>CsVoiceAdministrator</p>
-<p>CsServerAdministrator</p>
-<p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Настройка номеров группы ответа на звонки</a></p></td>
+<td><p><span data-ttu-id="060d0-126">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="060d0-126">RTCUniversalServerAdmins</span></span></p>
+<p><span data-ttu-id="060d0-127">CsVoiceAdministrator</span><span class="sxs-lookup"><span data-stu-id="060d0-127">CsVoiceAdministrator</span></span></p>
+<p><span data-ttu-id="060d0-128">CsServerAdministrator</span><span class="sxs-lookup"><span data-stu-id="060d0-128">CsServerAdministrator</span></span></p>
+<p><span data-ttu-id="060d0-129">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="060d0-129">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="060d0-130"><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Настройка номеров групп для отправки звонков в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="060d0-130"><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Configure call pickup group numbers in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Назначение номеров ответа на звонок пользователям и включение группового ответа на звонки для этих пользователей</p></td>
-<td><p>Используйте параметр /enablegrouppickup в средстве набора ресурсов SEFAUtil, чтобы включить групповой ответ на звонки звонки и назначить пользователям номер ответа на звонок.</p></td>
+<td><p><span data-ttu-id="060d0-131">Назначение абоненту номера для отправки и включения группового приема для пользователей</span><span class="sxs-lookup"><span data-stu-id="060d0-131">Assign a call pickup number to users, and enable Group Call Pickup for the users</span></span></p></td>
+<td><p><span data-ttu-id="060d0-132">Используйте параметр/енаблеграуппиккуп в средстве Сефаутил Resource Kit для включения отправки группового звонка и назначения номера для отправки звонков пользователям.</span><span class="sxs-lookup"><span data-stu-id="060d0-132">Use the /enablegrouppickup parameter in the SEFAUtil resource kit tool to enable Group Call Pickup and assign a call pickup number for users.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">Включение группового ответа на звонки для пользователей и назначение группового номера</a></p></td>
+<td><p><span data-ttu-id="060d0-133"><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">Включение отправки группового звонка для пользователей в Lync Server 2013 и назначение номера группы</a></span><span class="sxs-lookup"><span data-stu-id="060d0-133"><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">Enable Group Call Pickup for users in Lync Server 2013 and assign a group number</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление пользователей о назначенном им номере ответа на звонок и любом другом важном номере</p></td>
-<td><p>Поскольку любой пользователь может восстановить звонок, адресованный пользователю группового ответа на звонки, пользователям может потребоваться отслеживать более одной группы.</p></td>
+<td><p><span data-ttu-id="060d0-134">Уведомление пользователей о назначенном им номере ответа на звонок и любом другом важном номере</span><span class="sxs-lookup"><span data-stu-id="060d0-134">Notify users of their assigned call pickup number and any other number of interest</span></span></p></td>
+<td><p><span data-ttu-id="060d0-135">Поскольку любой пользователь может получить звонок пользователю для отправки группового звонка, пользователям может потребоваться мониторинг нескольких групп.</span><span class="sxs-lookup"><span data-stu-id="060d0-135">Because any user can retrieve a call made to a Group Call Pickup user, users may want to monitor more than one group.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Сообщение пользователям о назначении ответа на звонок в группе</a></p></td>
+<td><p><span data-ttu-id="060d0-136"><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Связь групп раскладки звонков для пользователей в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="060d0-136"><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Communicate Group Call Pickup assignments to users in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Проверка развертывания компонента группового ответа на звонки</p></td>
-<td><p>Проверьте выполнение и восстановление звонков, чтобы убедиться в том, что конфигурация работает корректно.</p></td>
+<td><p><span data-ttu-id="060d0-137">Проверка развертывания для группового приема звонков</span><span class="sxs-lookup"><span data-stu-id="060d0-137">Verify your Group Call Pickup deployment</span></span></p></td>
+<td><p><span data-ttu-id="060d0-138">Тестирование размещения и получения звонков для обеспечения работоспособности вашей конфигурации.</span><span class="sxs-lookup"><span data-stu-id="060d0-138">Test placing and retrieving calls to make sure that your configuration works as expected.</span></span></p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">(Необязательно) Проверка развертывания компонента группового ответа на звонки</a></p></td>
+<td><p><span data-ttu-id="060d0-139"><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">Необязательно Проверка развертывания отправки группового звонка в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="060d0-139"><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

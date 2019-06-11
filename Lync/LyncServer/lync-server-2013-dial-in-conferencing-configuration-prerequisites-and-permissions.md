@@ -1,85 +1,147 @@
-﻿---
-title: "Lync Server 2013: требования и права для конференций с телефонным подключением"
-TOCTitle: Необходимые условия и разрешения для настройки конференц-связи с телефонным подключением
-ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412865(v=OCS.15)
-ms:contentKeyID: 49310912
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Необходимые условия и разрешения для настройки конференц-связи с телефонным подключением
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial-in conferencing configuration prerequisites and permissions
+ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
+ms:contentKeyID: 48185165
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834407"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Необходимые условия и разрешения для настройки конференц-связи с телефонным подключением в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-20_
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a><span data-ttu-id="7a22a-102">Необходимые условия и разрешения для настройки конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a22a-102">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>
 
-Конференц-связь с телефонным подключением – это необязательный компонент рабочей нагрузки "Конференция" Lync Server 2013. Компоненты, которые требуется установить перед настройкой конференц-связи с телефонным подключением, развертываются при проектировании топологии с помощью топологий и последующей настройки интерфейсного пула или сервера Standard Edition. В этом разделе описывается подготовка к настройке конференц-связи с телефонным подключением.
+</div>
 
-Предполагается, что вы прочли разделы по планированию, в частности разделы по рабочей нагрузке "Конференция" и конференц-связи с телефонным подключением.
+<div id="mainSection">
 
-## Компоненты, требуемые для настройки конференц-связи с телефонным подключением
+<div id="mainBody">
 
-Для конференц-связи с телефонным подключением требуются следующие компоненты Lync Server 2013:
+<span> </span>
 
-  - Unified Communications Application Service (UCAS) (называемые *службой приложения* );
+<span data-ttu-id="7a22a-103">_**Тема последнего изменения:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="7a22a-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-  - помощника по конференц-связи
+<span data-ttu-id="7a22a-104">Конференц-связь с телефонным подключением — это необязательный компонент рабочей нагрузки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7a22a-104">Dial-in conferencing is an optional component of the Lync Server 2013 Conferencing workload.</span></span> <span data-ttu-id="7a22a-105">Компоненты, которые необходимо установить перед тем, как настроить Конференц-связь с телефонным подключением, развертываются при использовании построителя топологии для создания топологии и последующем настройке пула переднего плана или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="7a22a-105">The components you need to install before you can configure dial-in conferencing are deployed when you use the Topology Builder to design your topology and then set up your Front End pool or Standard Edition server.</span></span> <span data-ttu-id="7a22a-106">В этой статье описаны действия, которые необходимо выполнить, прежде чем можно будет настроить Конференц-связь с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="7a22a-106">This topic describes what you need to have accomplished before you can configure dial-in conferencing.</span></span>
 
-  - объявлений для конференц-связи
+<span data-ttu-id="7a22a-107">В этом разделе предполагается, что вы прочитали разделы планирование, связанные с рабочей нагрузкой и конференцстью с телефонным подключением, в частности.</span><span class="sxs-lookup"><span data-stu-id="7a22a-107">This section assumes that you have read the planning sections related to the Conferencing workload and dial-in conferencing in particular.</span></span>
 
-  - веб\-страница "Параметры конференц-связи с телефонным подключением";
+<div>
 
-  - сервер-посредник Lync Server 2013 и шлюз ТСОП.
+## <a name="dial-in-conferencing-configuration-prerequisites"></a><span data-ttu-id="7a22a-108">Необходимые условия для настройки конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="7a22a-108">Dial-in Conferencing Configuration Prerequisites</span></span>
 
-Эти компоненты развертываются при определении и публикации топологии с помощью топологий и развертывании интерфейсного пула или сервера Standard Edition. Если планируется развертывание корпоративной голосовой связи, то его необходимо выполнить перед настройкой конференц-связи с телефонным подключением. Если развертывание корпоративной голосовой связи не планируется, то вы можете развернуть сервер-посредник и шлюз ТСОП при развертывании интерфейсного пула или сервера Standard Edition.
+<span data-ttu-id="7a22a-109">Для конференц-связи с телефонным подключением необходимы следующие компоненты Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="7a22a-109">Dial-in conferencing requires the following Lync Server 2013 components:</span></span>
 
-> [!NOTE]  
-> Если вы обновляете Office Communications Server 2007 R2 до Lync Server 2013, разверните конференц-связь с телефонным подключением в каждом пуле, который планируется использовать для размещения конференций Lync Server 2013. Дополнительные сведения о миграции конференц-связи с телефонным подключением см. в разделе <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Миграция с Office Communications Server 2007 R2 на Lync Server 2013</a>.
+  - <span data-ttu-id="7a22a-110">служба приложения объединенных коммуникаций (UCAS) (называемая просто *службой приложения*);</span><span class="sxs-lookup"><span data-stu-id="7a22a-110">Unified Communications Application Service (UCAS) (called the *Application service*)</span></span>
 
-Содержимое этого раздела предполагает, что вы выполнили следующие действия.
+  - <span data-ttu-id="7a22a-111">приложение помощника по конференц-связи;</span><span class="sxs-lookup"><span data-stu-id="7a22a-111">Conferencing Attendant application</span></span>
 
-  - Установка последних обновлений для среды Office Communications Server 2007 R2, если выполняется переход на Lync Server 2013.
+  - <span data-ttu-id="7a22a-112">приложение оповещения для конференц-связи;</span><span class="sxs-lookup"><span data-stu-id="7a22a-112">Conferencing Announcement application</span></span>
 
-  - Проектирование и настройка топологии с помощью топологий. При указании рабочей нагрузки "Конференция" необходимо выбрать конференц-связь с телефонным подключением. Дополнительные сведения об определении топологии см. в разделе [Определение и настройка топологии в Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) документации по развертыванию.
+  - <span data-ttu-id="7a22a-113">веб-страница "Параметры конференц-связи с телефонным подключением";</span><span class="sxs-lookup"><span data-stu-id="7a22a-113">Dial-in Conferencing Settings webpage</span></span>
 
-  - Публикация топологии и настройка интерфейсного пула или сервера Standard Edition. Дополнительные сведения о публикации топологии и установке Lync Server 2013 см. в разделе [Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) документации по развертыванию.
+  - <span data-ttu-id="7a22a-114">Хотя бы один сервер исправлений Lync Server 2013 и хотя бы один шлюз PSTN</span><span class="sxs-lookup"><span data-stu-id="7a22a-114">At least one Lync Server 2013 Mediation Server and at least one PSTN gateway</span></span>
+
+<span data-ttu-id="7a22a-115">Эти компоненты развертываются при использовании построителя топологии для определения и публикации топологии и последующего развертывания пула переднего плана или стандартного сервера выпусков.</span><span class="sxs-lookup"><span data-stu-id="7a22a-115">You deploy these components when you use the Topology Builder to define and publish your topology and then deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="7a22a-116">Если вы выполняете развертывание корпоративной голосовой связи, перед настройкой конференц-связи с телефонным подключением вы должны развернуть ее.</span><span class="sxs-lookup"><span data-stu-id="7a22a-116">If you are deploying Enterprise Voice, you should deploy it before you configure dial-in conferencing.</span></span> <span data-ttu-id="7a22a-117">Если вы не развертываете корпоративную голосовую почту, вы можете развернуть сервер-посредник и шлюз общественной коммутируемой телефонной сети (PSTN) при развертывании пула переднего плана или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="7a22a-117">If you are not deploying Enterprise Voice, you can deploy a Mediation Server and a public switched telephone network (PSTN) gateway when you deploy your Front End pool or Standard Edition server.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="7a22a-118">Если вы обновляете Office Communications Server 2007 R2 на Lync Server 2013, разместите Конференц-связь с телефонным подключением в каждом пуле, который планируется использовать для размещения конференции Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7a22a-118">If you are upgrading from Office Communications Server 2007 R2 to Lync Server 2013, deploy dial-in conferencing in every pool that you plan to use to host Lync Server 2013 conferences.</span></span> <span data-ttu-id="7a22a-119">Дополнительные сведения о переносе конференц-связи с телефонным подключением можно найти <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">в разделе Миграция с Office Communications Server 2007 R2 на Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="7a22a-119">For details about migrating dial-in conferencing, see <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration from Office Communications Server 2007 R2 to Lync Server 2013</A>.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="7a22a-120">В этом разделе предполагается, что вы выполнили описанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="7a22a-120">This section assumes that you have done the following:</span></span>
+
+  - <span data-ttu-id="7a22a-121">Последние обновления для среды Office Communications Server 2007 R2 применяются при переходе на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7a22a-121">Applied the latest updates to your Office Communications Server 2007 R2 environment, if you are migrating to Lync Server 2013.</span></span>
+
+  - <span data-ttu-id="7a22a-122">Использование построителя топологии для создания и настройки топологии.</span><span class="sxs-lookup"><span data-stu-id="7a22a-122">Used Topology Builder to design and configure your topology.</span></span> <span data-ttu-id="7a22a-123">При указании рабочей нагрузки для Конференции вы выбрали вариант конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="7a22a-123">While specifying the Conferencing workload, you selected the dial-in conferencing option.</span></span> <span data-ttu-id="7a22a-124">Подробнее об определении топологии можно узнать в разделе [Определение и Настройка топологии в Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="7a22a-124">For details about defining your topology, see [Defining and configuring the topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) in the Deployment documentation.</span></span>
+
+  - <span data-ttu-id="7a22a-125">Вы опубликовали свою топологию и настроили интерфейс пула и сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="7a22a-125">Published your topology, and set up the Front End pool or Standard Edition server.</span></span> <span data-ttu-id="7a22a-126">Подробнее о публикации топологии и установке Lync Server 2013 можно найти в документации развертывание [Lync server 2013](lync-server-2013-deploying-lync-server.md) .</span><span class="sxs-lookup"><span data-stu-id="7a22a-126">For details about publishing the topology and installing Lync Server 2013, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
     
-    > [!NOTE]  
-    > При установке опубликованной топологии веб-страница &quot;Параметры конференц-связи с телефонным подключением&quot; устанавливается на сервере переднего плана или сервере Standard Edition в ходе установки веб-служб.    
-    > [!IMPORTANT]  
-    > Если после развертывания Lync Server 2013 изменяется путь к хранилищу файлов в топологий, то для использования нового пути вам потребуется перезапустить приложения &quot;Помощник по конференц-связи&quot; и &quot;Оповещения для конференц-связи&quot;.
+    <div>
+    
 
-  - Развертывание корпоративной голосовой связи. Если вы не планируете развертывание корпоративной голосовой связи, то вам потребуется развернуть сервер-посредник на сервере переднего плана Enterprise Edition или Standard Edition, либо развернуть отдельный сервер-посредник, а также развернуть шлюз ТСОП. Дополнительные сведения о развертывании корпоративной голосовой связи см. в разделе [Развертывание корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) документации по развертыванию. Дополнительные сведения об установке отдельного сервера-посредника и шлюза ТСОП см. в разделе [Развертывание серверов-посредников и определение одноранговых узлов в Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) документации по развертыванию.
+    > [!NOTE]
+    > <span data-ttu-id="7a22a-127">При установке топологии публикации веб-страница параметров конференций с телефонным подключением устанавливается на сервере переднего плана или стандартном сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="7a22a-127">When you install your published topology, the Dial-in Conferencing Settings webpage is installed on the Front End Server or Standard Edition server as part of Web Services.</span></span>
 
-На следующей блок-схеме показаны шаги, которые необходимо выполнить перед настройкой конференц-связи с телефонным подключением, а также для настройки конференц-связи с телефонным подключением.
+    
+    </div>
+    
+    <div>
+    
 
-**Развертывание конференц-связи с телефонным подключением**
+    > [!IMPORTANT]
+    > <span data-ttu-id="7a22a-128">Если вы изменили путь к хранилищу файлов в построителе топологии после развертывания Lync Server 2013, необходимо перезапустить помощника по конференциям и конференц-связь, чтобы использовать новый путь.</span><span class="sxs-lookup"><span data-stu-id="7a22a-128">If you change the path for the File Store in Topology Builder after you deploy Lync Server 2013, you need to restart the Conferencing Attendant and Conferencing Announcement applications to use the new path.</span></span>
 
-![Развертывание конференц-связи с телефонным подключением (блок-схема)](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Развертывание конференц-связи с телефонным подключением (блок-схема)")
+    
+    </div>
 
-## Разрешения для конференц-связи с телефонным подключением
+  - <span data-ttu-id="7a22a-129">Развернутая Корпоративная голосовая связь.</span><span class="sxs-lookup"><span data-stu-id="7a22a-129">Deployed Enterprise Voice.</span></span> <span data-ttu-id="7a22a-130">Если вы не развертываете корпоративную голосовую почту, вы либо развернули сервер-посредник на сервере переднего плана Enterprise Edition либо на сервер Standard Edition, либо разворачиваете отдельный сервер-посредник, и вы развернули шлюз PSTN.</span><span class="sxs-lookup"><span data-stu-id="7a22a-130">If you are not deploying Enterprise Voice, you either collocated a Mediation Server on the Enterprise Edition Front End Server or the Standard Edition server, or you deployed a stand-alone Mediation Server, and you deployed a PSTN gateway.</span></span> <span data-ttu-id="7a22a-131">Подробнее о внедрении корпоративной голосовой связи можно найти [в разделе Развертывание корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="7a22a-131">For details about deploying Enterprise Voice, see [Deploying Enterprise Voice in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) in the Deployment documentation.</span></span> <span data-ttu-id="7a22a-132">Подробнее об установке отдельного сервера-посредника и шлюза PSTN можно узнать в разделе [развертывание серверов обновлений и определение одноранговых узлов в Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="7a22a-132">For details about installing a stand-alone Mediation Server and PSTN gateway, see [Deploying Mediation Servers and defining peers in Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) in the Deployment documentation.</span></span>
 
-Для настройки конференц-связи с телефонным подключением вам потребуются следующие средства администрирования:
+<span data-ttu-id="7a22a-133">В следующей блок-схеме показаны действия, которые необходимо выполнить, прежде чем можно будет настроить Конференц-связь с телефонным подключением и действия, которые необходимо выполнить, чтобы настроить Конференц-связь с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="7a22a-133">The following flowchart shows the steps that you must perform before you can configure dial-in conferencing and the steps that you perform to configure dial-in conferencing.</span></span>
 
-  - управления Lync Server 2013
+<span data-ttu-id="7a22a-134">**Развертывание конференц-связи с телефонным подключением**</span><span class="sxs-lookup"><span data-stu-id="7a22a-134">**Deploying dial-in conferencing**</span></span>
 
-  - Командная консоль Lync Server
+<span data-ttu-id="7a22a-135">![Блок-схема развертывания конференций] с телефонным подключением (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Блок-схема развертывания конференций") с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="7a22a-135">![Dial-in Conferencing Deployment flowchart](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Dial-in Conferencing Deployment flowchart")</span></span>
 
-С помощью этих средств администрирования вы сможете настроить параметры конференц-связи с телефонным подключением, а также абонентские группы, политики и прочие параметры, требуемые конференц-связи с телефонным подключением.
+</div>
 
-Для настройки конференц-связи с телефонным подключением потребуются следующие административные роли (в зависимости от задачи):
+<div>
 
-  - **CsVoiceAdministrator**.   Эта роль администратора позволяет создавать и настраивать параметры и политики голосовых служб, а также управлять ими.
+## <a name="dial-in-conferencing-permissions"></a><span data-ttu-id="7a22a-136">Разрешения на Конференц-связь с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="7a22a-136">Dial-in Conferencing Permissions</span></span>
 
-  - **CsUserAdministrator**.   Эта роль администратора позволяет включать и отключать пользователей для Lync Server, а также назначать пользователям существующие политики, например политики конференц-связи и политики ПИН-кода.
+<span data-ttu-id="7a22a-137">Чтобы настроить Конференц-связь с телефонным подключением, необходимо использовать указанные ниже средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="7a22a-137">To configure dial-in conferencing, you need to use the following administrative tools:</span></span>
 
-  - **CsAdministrator**.   Эта роль администратора позволяет выполнять все задачи, доступные ролям CsVoiceAdministrator и CsUserAdministrator.
+  - <span data-ttu-id="7a22a-138">управления Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a22a-138">Lync Server 2013 Control Panel</span></span>
 
-## См. также
+  - <span data-ttu-id="7a22a-139">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="7a22a-139">Lync Server Management Shell</span></span>
 
-#### Концепции
+<span data-ttu-id="7a22a-140">С помощью этих средств администрирования можно настраивать параметры конференц-связи с телефонным подключением, а также группы абонентов, политики и другие параметры, необходимые для конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="7a22a-140">You use these administrative tools to configure dial-in conferencing settings, and the dial plans, policies, and other settings that dial-in conferencing requires.</span></span>
 
-[Развертывание корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+<span data-ttu-id="7a22a-141">Для настройки конференц-связи с телефонным подключением требуются следующие административные роли, зависящие от задачи.</span><span class="sxs-lookup"><span data-stu-id="7a22a-141">Configuring dial-in conferencing requires any of the following administrative roles, depending on the task:</span></span>
+
+  - <span data-ttu-id="7a22a-142">**Ксвоицеадминистратор**   . Эта роль администратора может создавать, настраивать параметры и политики, связанные с голосовой связью, и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="7a22a-142">**CsVoiceAdministrator**   This administrator role can create, configure, and manage voice-related settings and policies.</span></span>
+
+  - <span data-ttu-id="7a22a-143">**Ксусерадминистратор**   . Эта роль администратора может включать и отключать пользователей для Lync Server и назначать пользователям существующие политики, например политики Конференции и политики ПИН.</span><span class="sxs-lookup"><span data-stu-id="7a22a-143">**CsUserAdministrator**   This administrator role can enable and disable users for Lync Server and assign existing policies, such as conferencing policies and PIN policies, to users.</span></span>
+
+  - <span data-ttu-id="7a22a-144">**Ксадминистратор**   . Эта роль администратора может выполнять все задачи ксвоицеадминистратор и ксусерадминистратор.</span><span class="sxs-lookup"><span data-stu-id="7a22a-144">**CsAdministrator**   This administrator role can perform all of the tasks of CsVoiceAdministrator and CsUserAdministrator.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="7a22a-145">См. также</span><span class="sxs-lookup"><span data-stu-id="7a22a-145">See Also</span></span>
+
+
+[<span data-ttu-id="7a22a-146">Развертывание корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a22a-146">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
