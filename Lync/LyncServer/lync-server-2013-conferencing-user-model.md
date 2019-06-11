@@ -1,49 +1,79 @@
-﻿---
-title: Модель пользователя конференц-связи
-TOCTitle: Модель пользователя конференц-связи
-ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205199(v=OCS.15)
-ms:contentKeyID: 49310967
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Пользовательская модель конференц-связи Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: The conferencing user model
+ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
+ms:contentKeyID: 48185229
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841461"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Модель пользователя конференц-связи
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-22_
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a><span data-ttu-id="1d5a8-102">Пользовательская модель конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1d5a8-102">The conferencing user model in Lync Server 2013</span></span>
 
-Ключевая часть модели пользователя конференц-связи Lync Server — это размер собрания. После сбора данных из нескольких точек (как описано в предыдущем разделе) мы определили следующее:
+</div>
 
-  - Большинство собраний являются небольшими собраниями для совместной работы со средним числом участников от четырех до шести.
+<div id="mainSection">
 
-  - Примерно 80 процентов собраний имеет меньше 20 участников.
+<div id="mainBody">
 
-  - 99,98 процентов собраний имеет меньше 100 участников.
+<span> </span>
 
-Кроме размера собрания, модель пользователя конференц-связи учитывает и другие факторы, например:
+<span data-ttu-id="1d5a8-103">_**Тема последнего изменения:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="1d5a8-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-  - **Одновременные собрания.**    Сколько предполагается пользователей, которые будут участвовать в собраниях одновременно?
+<span data-ttu-id="1d5a8-104">Важной частью пользовательской модели конференц-связи с Lync Server является размер собрания.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-104">A critical part of the Lync Server conferencing user model is meeting size.</span></span> <span data-ttu-id="1d5a8-105">После сбора данных из нескольких точек данных (как описано в предыдущем разделе) мы определили следующее:</span><span class="sxs-lookup"><span data-stu-id="1d5a8-105">After collecting data from the multiple data points (as described in the previous section), we determined the following:</span></span>
 
-  - **Состав мультимедиа.**   Какие типы мультимедиа доступны и будут применяться пользователями на собраниях?
+  - <span data-ttu-id="1d5a8-106">Большинство собраний — это небольшие собрания для совместной работы с участием не более 4 – 6 человек.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-106">Most meetings are actually small collaborative meetings with an average of four to six participants</span></span>
 
-  - **Типы пользователей.**   Являются ли пользователи внутренними, удаленными, федеративными или анонимными?
+  - <span data-ttu-id="1d5a8-107">Около 80% собраний менее 20 участников.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-107">Approximately 80 percent of meetings have fewer than 20 participants.</span></span>
 
-  - **Время сбора на собрание.**   Сколько времени занимает присоединение всех пользователей к собранию?
+  - <span data-ttu-id="1d5a8-108">99,98 процентов собраний менее 100 участников.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-108">99.98 percent of meetings have fewer than 100 participants.</span></span>
 
-Дополнительные сведения о пользовательской модели см. в разделе [Пользовательские модели в Lync Server 2013](lync-server-2013-user-models.md).
+<span data-ttu-id="1d5a8-109">Кроме размера собрания, пользовательская модель конференций также учитывает различные факторы, например:</span><span class="sxs-lookup"><span data-stu-id="1d5a8-109">In addition to meeting size, the conferencing user model also takes into account a variety of factors, such as:</span></span>
 
-Для определение числа собраний и пользователей в целях тестирования выполнялись следующие действия.
+  - <span data-ttu-id="1d5a8-110">\*\*\*\*   Количество одновременных собраний. сколько пользователей должны одновременно находиться в собраниях?</span><span class="sxs-lookup"><span data-stu-id="1d5a8-110">**Concurrent meetings**   How many users are expected to be in meetings at the same time?</span></span>
 
-  - Бралось полное число пользователей в организации (например, 80 000 пользователей) и умножалось на долю одновременно работающих пользователей собрания (например, 5% всех пользователей), чтобы определить полное число пользователей, которые, как предполагается, будут участвовать в собраниях одновременно (в данном примере 4 000 пользователей).
+  - <span data-ttu-id="1d5a8-111">\*\*\*\* Типы мультимедиа, доступные и ожидаемые для использования пользователями в собраниях?   </span><span class="sxs-lookup"><span data-stu-id="1d5a8-111">**Media mix**   What types of media are available and expected to be used by users in meetings?</span></span>
 
-  - Полное число пользователей делилось на число серверов переднего планаLync Server 2013 в развертывании (например, на 8 серверов), чтобы определить число участников собрания на каждый сервер переднего плана (в данном примере 500 пользователей на сервер переднего плана).
+  - <span data-ttu-id="1d5a8-112">**Пользовательские типы**   пользователей: внутренние пользователи, удаленные пользователи, Федеративные пользователи и анонимные пользователи?</span><span class="sxs-lookup"><span data-stu-id="1d5a8-112">**User types**   Are users internal users, remote users, federated users, or anonymous users?</span></span>
 
-  - Число пользователей, приходящихся на каждый сервер переднего плана, делилось на средний размер собрания (например, 4 пользователя), чтобы определить предполагаемое среднее число собраний на каждом сервере переднего плана (в данном примере 125 собраний на сервер переднего плана).
+  - <span data-ttu-id="1d5a8-113">**Сколько времени занимает время**   , в течение которого все пользователи собрания смогут присоединиться к собранию?</span><span class="sxs-lookup"><span data-stu-id="1d5a8-113">**Meeting ramp up time**   How long does it take for all users of a meeting to join a meeting?</span></span>
 
-  - Чтобы получить нагрузку на каждом сервере переднего плана, мы оценивали состав мультимедиа. Например, если исходить из предположения, что 75% собраний не ограничиваются поддержкой только звука, а 50% этих собраний требуют совместного использования приложений, то в среднем 47 собраний и 188 пользователей подключаются одновременно к каждому серверу переднего плана для совместного использования приложений.
+<span data-ttu-id="1d5a8-114">Подробные сведения о пользовательской модели можно найти в статьях [пользовательские модели в Lync Server 2013](lync-server-2013-user-models.md).</span><span class="sxs-lookup"><span data-stu-id="1d5a8-114">For details about the user model, see [User models in Lync Server 2013](lync-server-2013-user-models.md).</span></span>
 
-  - Тестировались различные размеры собраний (на основе нашей модели пользователя, включающей 250 пользователей в общем пуле) для проверки масштабируемости. сервера.
+<span data-ttu-id="1d5a8-115">Для определения количества собраний и пользователей, используемых для тестирования, мы сделали следующее:</span><span class="sxs-lookup"><span data-stu-id="1d5a8-115">To determine the number of meetings and users to use for testing, we did the following:</span></span>
+
+  - <span data-ttu-id="1d5a8-116">Затратил общее количество пользователей в Организации (например, 80 000 пользователей) и умножая их на параллельный тариф (например, 5% от всех пользователей), чтобы определить общее количество пользователей, которые должны одновременно находиться в собраниях (в этом примере). , пользователи 4000).</span><span class="sxs-lookup"><span data-stu-id="1d5a8-116">Took the total number of users in an organization (for example, 80,000 users) and multiplied it by the meeting concurrency rate (for example, 5% of all users) to determine the total number of users expected to be in meetings at the same time (in this example, 4000 users).</span></span>
+
+  - <span data-ttu-id="1d5a8-117">В этом примере общее количество пользователей на сервере Lync Server 2013, сервере переднего плана в развертывании (например, 8 серверов) используется для определения предполагаемого количества участников собрания для каждого сервера переднего плана (в данном случае — 500 пользователей на сервере переднего плана).</span><span class="sxs-lookup"><span data-stu-id="1d5a8-117">Divided the total number of users by the number of Lync Server 2013, Front End Servers in the deployment (for example, 8 servers) to determine the estimated number of meeting participants per Front End Server (in this example, 500 users per Front End Server).</span></span>
+
+  - <span data-ttu-id="1d5a8-118">Разделить количество пользователей на сервере переднего плана по среднему размеру собрания (например, 4 пользователям), чтобы определить предполагаемое среднее количество собраний на сервер переднего плана (в этом примере — собрание 125 на сервере переднего плана).</span><span class="sxs-lookup"><span data-stu-id="1d5a8-118">Divided the number of users per Front End Server by the average meeting size (for example, 4 users) to determine the estimated average number of meetings per Front End Server (in this example, 125 meetings per Front End Server).</span></span>
+
+  - <span data-ttu-id="1d5a8-119">Для получения каждой нагрузки на каждый сервер переднего плана мы оценили набор мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-119">To get the per media load on each Front End Server, we estimated the media mix.</span></span> <span data-ttu-id="1d5a8-120">Например, при условии, что в 75% для собраний требуется больше, чем просто поддержка звука, а 50% — общий доступ к приложениям, то есть общее число 47 и 188 пользователей подключаются параллельно к каждому серверу переднего плана для общего доступа к приложениям.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-120">For example, assuming that 75% of the meetings require more than just audio support and 50% of those meetings require application sharing, an average of 47 meetings and 188 users connect concurrently to each Front End Server for application sharing.</span></span>
+
+  - <span data-ttu-id="1d5a8-121">Вы проверили различные размеры собрания (на основе нашей пользовательской модели 250 для пользователей в общем пуле), чтобы обеспечить масштабируемость сервера.</span><span class="sxs-lookup"><span data-stu-id="1d5a8-121">Tested a variety of meeting sizes (based our user model of up to 250 users in a shared pool) to ensure server scalability.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

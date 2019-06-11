@@ -1,144 +1,240 @@
-﻿---
-title: Настройка DNS для автообнаружения
-TOCTitle: Настройка DNS для автообнаружения
-ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945656(v=OCS.15)
-ms:contentKeyID: 52058402
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка DNS для автообнаружения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring DNS for Autodiscover
+ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)
+ms:contentKeyID: 51541528
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c490cac475f3b9a9c8038636f4ac7f6670f22637
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841269"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка DNS для автообнаружения
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-12-12_
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="1bd46-102">Настройка DNS для автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bd46-102">Configuring DNS for Autodiscover in Lync Server 2013</span></span>
 
-Чтобы поддерживалось автообнаружение для клиентов Lync, необходимо создать следующие DNS-записи:
+</div>
 
-  - внутренняя DNS-запись для поддержки Lync, которые подключаются изнутри сети организации;
+<div id="mainSection">
 
-  - внешняя или общая DNS-запись для поддержки Lync, которые подключаются из Интернета.
+<div id="mainBody">
 
-Необходимо создать внутреннюю и внешнюю DNS-запись для каждого SIP-домена.
+<span> </span>
 
-Эти DNS-записи могут быть записями A (узла) или записями CNAME в зависимости от вашей возможности создавать новые сертификаты с дополнительным альтернативным именем субъекта (SAN). Если у вас нет возможности запросить и развернуть новый внешний (открытый) сертификат с SAN lyncdiscover.\<имя\_домена\>, используйте процедуры для применения порта 80 HTTP/TCP. В последующих процедурах описано, как создавать внешние и внутренние DNS-записи.
+<span data-ttu-id="1bd46-103">_**Тема последнего изменения:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="1bd46-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-## Создание DNS-записей CNAME
+<span data-ttu-id="1bd46-104">Для поддержки автообнаружение для клиентов Lync необходимо создать следующие записи DNS (Domain Name System):</span><span class="sxs-lookup"><span data-stu-id="1bd46-104">To support autodiscovery for Lync clients, you need to create the following Domain Name System (DNS) records:</span></span>
 
-1.  Выполните вход на DNS-сервер следующим образом.
+  - <span data-ttu-id="1bd46-105">Внутренняя запись DNS для поддержки клиентов Lync, подключающихся из сети Организации</span><span class="sxs-lookup"><span data-stu-id="1bd46-105">An internal DNS record to support Lync clients who connect from within your organization's network</span></span>
+
+  - <span data-ttu-id="1bd46-106">Внешняя (или общедоступная) запись DNS для поддержки клиентов Lync, подключающихся из Интернета</span><span class="sxs-lookup"><span data-stu-id="1bd46-106">An external, or public, DNS record to support Lync clients who connect from the Internet</span></span>
+
+<span data-ttu-id="1bd46-107">Вы должны создать внутреннюю запись DNS и внешнюю запись DNS для каждого домена SIP.</span><span class="sxs-lookup"><span data-stu-id="1bd46-107">You must create an internal DNS record and an external DNS record for each SIP domain.</span></span>
+
+<span data-ttu-id="1bd46-108">DNS-записи могут быть либо записями (ведущими), либо записями CNAME, в зависимости от возможности создания новых сертификатов с помощью дополнительного имени альтернативной темы (SAN).</span><span class="sxs-lookup"><span data-stu-id="1bd46-108">The DNS records can be either A (host) records or CNAME records, based on your ability to create new certificates with the additional subject alternate name (SAN).</span></span> <span data-ttu-id="1bd46-109">Если вы не можете запросить и развернуть новый внешний (открытый) сертификат с помощью lyncdiscover. \<доменное\> имя San, используйте процедуру для использования порта HTTP/TCP 80.</span><span class="sxs-lookup"><span data-stu-id="1bd46-109">If you are not able to request and deploy a new external (public) certificate with the lyncdiscover.\<domain name\> SAN, use the procedure for using HTTP/TCP port 80.</span></span> <span data-ttu-id="1bd46-110">Ниже описана процедура создания внутренних и внешних записей DNS.</span><span class="sxs-lookup"><span data-stu-id="1bd46-110">The following procedures describe how to create internal and external DNS records.</span></span>
+
+<div>
+
+## <a name="to-create-dns-cname-records"></a><span data-ttu-id="1bd46-111">Создание записей CNAME DNS</span><span class="sxs-lookup"><span data-stu-id="1bd46-111">To create DNS CNAME records</span></span>
+
+1.  <span data-ttu-id="1bd46-112">Войдите на DNS-сервер, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-112">Log on to a DNS server as follows:</span></span>
     
-      - Чтобы создать внутреннюю DNS-запись, выполните вход на DNS-сервер вашей сети как член группы администраторов домена или член группы DnsAdmins.
+      - <span data-ttu-id="1bd46-113">Чтобы создать внутреннюю DNS-запись, войдите в DNS-сервер в сети как член группы администраторов домена или участника группы Днсадминс.</span><span class="sxs-lookup"><span data-stu-id="1bd46-113">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
     
-      - Чтобы создать внешнюю DNS-запись, подключитесь к внешнему поставщику DNS.
+      - <span data-ttu-id="1bd46-114">Чтобы создать внешнюю запись DNS, подключитесь к общедоступному поставщику DNS.</span><span class="sxs-lookup"><span data-stu-id="1bd46-114">To create an external DNS record, connect to your public DNS provider.</span></span>
 
-2.  Откройте административную оснастку DNS: нажмите **Пуск**, **Инструменты администратора** и **DNS**.
+2.  <span data-ttu-id="1bd46-115">Откройте оснастку администрирование DNS: нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — **DNS**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-115">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-3.  Выполните одно их следующих действий.
+3.  <span data-ttu-id="1bd46-116">Выполните одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="1bd46-116">Do one of the following:</span></span>
     
-      - Для внутренней DNS-записи в дереве консоли DNS-сервера разверните элемент **Зоны прямого просмотра** для вашего домена Active Directory (например, contoso.local).
+      - <span data-ttu-id="1bd46-117">Для внутренней записи DNS в дереве консоли DNS-сервера разверните **зоны прямого просмотра** для домена Active Directory (например, contoso. local).</span><span class="sxs-lookup"><span data-stu-id="1bd46-117">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Это домен Active Directory, где установлен ваш пул Lync Server 2013Директор и переднего плана.    
-      - Для внешней DNS-записи в дереве консоли DNS-сервера разверните элемент **Зоны прямого просмотра** для вашего SIP-домена (например, contoso.com).
+        > <span data-ttu-id="1bd46-118">Этот домен является доменом Active Directory, в котором установлен пул&nbsp;каталогов Lync Server 2013 и пул внешних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="1bd46-118">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
 
-4.  Проверьте, что для вашего пула Директоров есть запись A узла.
+        
+        </div>
     
-      - Для внутренней DNS-записи запись A узла должна существовать для полного доменного имени внутренних веб-служб для вашего пула Директоров (например, lyncwebdir01.contoso.local).
-    
-      - Для внешней DNS-записи запись A должна существовать для полного доменного имени внешних веб-служб для вашего пула Директоров (например, lyncwebextdir.contoso.com).
+      - <span data-ttu-id="1bd46-119">Для внешней записи DNS в дереве консоли DNS-сервера разверните **зоны прямого просмотра** для домена SIP (например, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="1bd46-119">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-5.  Проверьте, что для вашего пула переднего плана есть запись A узла.
+4.  <span data-ttu-id="1bd46-120">Убедитесь в том, что для пула каталогов существует запись узла, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-120">Verify that a host A record exists for your Director pool as follows:</span></span>
     
-      - Для внутренней DNS-записи запись A узла должна существовать для полного доменного имени внутренних веб-служб для вашего пула переднего плана (например, lyncwebpool01.contoso.local).
+      - <span data-ttu-id="1bd46-121">Для внутренней записи DNS должно существовать запись узла A для полного доменного имени (например, lyncwebdir01. contoso. local) для внутренних веб-служб (FQDN).</span><span class="sxs-lookup"><span data-stu-id="1bd46-121">For an internal DNS record, a host A record should exist for the internal Web Services fully qualified domain name (FQDN) for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
     
-      - Для внешней DNS-записи запись A узла должна существовать для полного доменного имени внешних веб-служб для вашего пула переднего плана (например, lyncwebextpool01.contoso.com).
+      - <span data-ttu-id="1bd46-122">Для внешней записи DNS для пула каталогов внешних веб-служб (например, lyncwebextdir.contoso.com) должна существовать запись узла A.</span><span class="sxs-lookup"><span data-stu-id="1bd46-122">For an external DNS record, a host A record should exist for the external web services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
 
-6.  Для внутренней DNS-записи в дереве консоли DNS-сервера разверните элемент **Зоны прямого просмотра** для вашего SIP-домена (например, contoso.com).
+5.  <span data-ttu-id="1bd46-123">Убедитесь в том, что для пула переднего плана существует запись с узлом, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-123">Verify that a host A record exists for your Front End pool as follows:</span></span>
     
+      - <span data-ttu-id="1bd46-124">Для внутренней записи DNS должна существовать запись узла A для внутреннего доменного имени внутренней веб-службы для пула переднего плана (например, lyncwebpool01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="1bd46-124">For an internal DNS record, a host A record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
+    
+      - <span data-ttu-id="1bd46-125">Для внешней записи DNS должна существовать запись узла A для внешнего доменного имени внешней веб-службы для пула переднего плана (например, lyncwebextpool01.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="1bd46-125">For an external DNS record, a host A record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
+
+6.  <span data-ttu-id="1bd46-126">Для внутренней записи DNS в дереве консоли DNS-сервера разверните **зоны прямого просмотра** для домена SIP (например, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="1bd46-126">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Если создается внешняя DNS-запись, <strong>Зоны прямого просмотра</strong> уже были развернуты для вашего SIP-домена с шага 3.
+    > <span data-ttu-id="1bd46-127">Если вы создаете внешнюю запись DNS, <STRONG>зоны прямого просмотра</STRONG> уже развернуты для вашего домена SIP на шаге 3.</span><span class="sxs-lookup"><span data-stu-id="1bd46-127">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
 
-7.  Щелкните правой кнопкой название SIP-домена, затем **Новый псевдоним (CNAME)**.
+    
+    </div>
 
-8.  В поле **Имя псевдонима** введите одно из следующих значений.
-    
-      - Для внутренней DNS-записи введите lyncdiscoverinternal в качестве имени узла для внутреннего URL-адреса службы автообнаружения.
-    
-      - Для внешней DNS-записи введите lyncdiscover в качестве имени узла для URL-адреса внешней службы автообнаружения.
+7.  <span data-ttu-id="1bd46-128">Щелкните имя домена SIP правой кнопкой мыши и выберите команду **создать псевдоним (CNAME)**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-128">Right-click the SIP domain name, and then click **New Alias (CNAME)**.</span></span>
 
-9.  В поле **Полное доменное имя для целевого узла** сделайте следующее.
+8.  <span data-ttu-id="1bd46-129">В поле **Alias Name (псевдоним**) введите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="1bd46-129">In **Alias name**, type one of the following:</span></span>
     
-      - Для внутренней DNS-записи введите или укажите полное доменное имя для вашего пула Директоров (например, lyncwebdir01.contoso.local) и затем нажмите кнопку **ОК**.
+      - <span data-ttu-id="1bd46-130">Для внутренней записи DNS введите линкдисковеринтернал в качестве имени узла для URL-адреса внутренней службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="1bd46-130">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
     
-      - Для внешней DNS-записи введите или укажите полное доменное имя внешних веб-служб для вашего пула Директоров (например, lyncwebextdir.contoso.com) и затем нажмите кнопку **ОК**.
+      - <span data-ttu-id="1bd46-131">Для внешней записи DNS введите lyncdiscover в качестве имени узла для URL-адреса внешней службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="1bd46-131">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+
+9.  <span data-ttu-id="1bd46-132">В поле полное **доменное имя (FQDN) целевого узла**выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="1bd46-132">In **Fully qualified domain name (FQDN) for target host**, do one of the following:</span></span>
     
+      - <span data-ttu-id="1bd46-133">Для внутренней записи DNS введите или выберите полное доменное имя внутренней веб-службы для своего пула (например, lyncwebdir01. contoso. local), а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-133">For an internal DNS record, type or browse to the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local), and then click **OK**.</span></span>
+    
+      - <span data-ttu-id="1bd46-134">Для внешней записи DNS введите или найдите полное доменное имя внешней веб-службы для своего пула (например, lyncwebextdir.contoso.com), а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-134">For an external DNS record, type or browse to the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com), and then click **OK**.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Если Директор не используется, то примените внешнее и внутреннее полное доменное имя веб-служб для переднего плана или (для одного сервера) — доменное имя для переднего плана или Сервер Standard Edition.    
+    > <span data-ttu-id="1bd46-135">Если вы не используете режиссер, используйте внутреннее и внешнее полное доменное имя веб-служб для пула переднего плана или, для одного сервера, полное доменное имя сервера переднего плана или стандартного сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="1bd46-135">If you do not use a Director, use the internal and external Web Services FQDN for the Front End pool, or, for a single server, the FQDN for the Front End Server or Standard Edition server.</span></span>
+
+    
+    </div>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Необходимо создать новую запись CNAME автообнаружения в зоне прямого просмотра каждого SIP-домена, поддерживаемого в вашем окружении Lync Server 2013.
+    > <span data-ttu-id="1bd46-136">В зоне прямого просмотра каждого домена SIP, который поддерживается в среде Lync Server 2013, необходимо создать новую запись автообнаружения CNAME.</span><span class="sxs-lookup"><span data-stu-id="1bd46-136">You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
 
-## Создание DNS-записей A
-
-1.  Выполните вход на DNS-сервер следующим образом.
     
-      - Чтобы создать внутреннюю DNS-запись, выполните вход на DNS-сервер вашей сети как член группы администраторов домена или член группы DnsAdmins.
-    
-      - Чтобы создать внешнюю DNS-запись, подключитесь к общедоступному поставщику DNS или внешнему DNS-серверу.
+    </div>
 
-2.  Откройте административную оснастку DNS: нажмите последовательно **Пуск**, **Инструменты администратора** и **DNS**.
+</div>
 
-3.  Выполните одно их следующих действий.
+<div>
+
+## <a name="to-create-dns-a-records"></a><span data-ttu-id="1bd46-137">Создание записей DNS A</span><span class="sxs-lookup"><span data-stu-id="1bd46-137">To create DNS A records</span></span>
+
+1.  <span data-ttu-id="1bd46-138">Войдите на DNS-сервер, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-138">Log on to a DNS server as follows:</span></span>
     
-      - Для внутренней DNS-записи в дереве консоли DNS-сервера разверните элемент **Зоны прямого просмотра** для вашего домена Active Directory (например, contoso.local).
+      - <span data-ttu-id="1bd46-139">Чтобы создать внутреннюю DNS-запись, войдите в DNS-сервер в сети как член группы администраторов домена или участника группы Днсадминс.</span><span class="sxs-lookup"><span data-stu-id="1bd46-139">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+    
+      - <span data-ttu-id="1bd46-140">Чтобы создать внешнюю запись DNS, подключитесь к общедоступному поставщику услуг DNS или внешнему DNS-серверу.</span><span class="sxs-lookup"><span data-stu-id="1bd46-140">To create an external DNS record, connect to your public DNS provider or external DNS server.</span></span>
+
+2.  <span data-ttu-id="1bd46-141">Откройте оснастку администрирование DNS: нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — **DNS**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-141">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+
+3.  <span data-ttu-id="1bd46-142">Выполните одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="1bd46-142">Do one of the following:</span></span>
+    
+      - <span data-ttu-id="1bd46-143">Для внутренней записи DNS в дереве консоли DNS-сервера разверните **зоны прямого просмотра** для домена Active Directory (например, contoso. local).</span><span class="sxs-lookup"><span data-stu-id="1bd46-143">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
         
-        > [!NOTE]  
-        > Это домен Active Directory, где установлен ваш пул Lync Server 2013Директор и переднего плана.    
-      - Для внешней DNS-записи в дереве консоли DNS-сервера разверните элемент **Зоны прямого просмотра** для вашего SIP-домена (например, contoso.com).
-
-4.  Проверьте наличие записи A узла (для IPv6, AAAA) для вашего пула Директоров следующим образом.
-    
-      - Для внутренней DNS-записи запись A узла (для IPv6, AAAA) должна существовать для полного доменного имени внутренних веб-служб для вашего пула Директоров (например, lyncwebdir01.contoso.local).
-    
-      - Для внешней DNS-записи запись A узла (для IPv6, AAAA) должна существовать для полного доменного имени внешних веб-служб для вашего пула Директоров (например, lyncwebextdir.contoso.com).
-
-5.  Проверьте наличие записи A узла (для IPv6, AAAA) для вашего пула переднего плана следующим образом:
-    
-      - Для внутренней DNS-записи, запись A (для IPv6, AAAA) должна существовать для полного доменного имени внутренних веб-служб для вашего пула переднего плана (например, lyncwebpool01.contoso.local).
-    
-      - Для внешней DNS-записи запись A (для IPv6, AAAA) должна существовать для полного доменного имени внешних веб-служб для вашего пула переднего плана (например, lyncwebextpool01.contoso.com).
-
-6.  Для внутренней DNS-записи в дереве консоли DNS-сервера разверните элемент **Зоны прямого просмотра** для вашего SIP-домена (например, contoso.com).
-    
-    > [!NOTE]  
-    > Если создается внешняя DNS-запись, <strong>Зоны прямого просмотра</strong> уже были развернуты для вашего SIP-домена с шага 3.
-
-7.  Щелкните правой кнопкой имя SIP-домена и нажмите **Новый узел (A или AAAA)**.
-
-8.  В поле **Имя**, введите имя узла.
-    
-      - Для внутренней DNS-записи введите lyncdiscoverinternal в качестве имени узла для внутреннего URL-адреса службы автообнаружения.
-    
-      - Для внешней DNS-записи введите lyncdiscover в качестве имени узла для URL-адреса внешней службы автообнаружения.
-    
-    > [!NOTE]  
-    > Доменное имя берется из зоны, в которой определена запись, поэтому его не нужно вводить как часть записи A узла.
-
-9.  В поле **IP-адрес** введите адрес следующим образом.
-    
-      - Для внутренней DNS-записи введите IP-адрес внутренних веб-служб Директор (или, если используется балансировщик нагрузки, введите виртуальный IP (VIP) балансировщика Директор).
+        <div>
         
+
         > [!NOTE]  
-        > Если Директор не используется, введите IP-адрес переднего плана или Сервер Standard Edition либо, если используется балансировщик нагрузки, введите VIP балансировщика переднего плана.    
-      - Для внешней DNS-записи введите внешний или публичный IP-адрес обратного прокси-сервера.
+        > <span data-ttu-id="1bd46-144">Этот домен является доменом Active Directory, в котором установлен пул&nbsp;каталогов Lync Server 2013 и пул внешних интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="1bd46-144">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
 
-10. Щелкните **Добавить узел**, а затем нажмите кнопку **ОК**.
-
-11. Чтобы создать дополнительную запись A, повторите шаги с 8 по 10.
+        
+        </div>
     
+      - <span data-ttu-id="1bd46-145">Для внешней записи DNS в дереве консоли DNS-сервера разверните **зоны прямого просмотра** для домена SIP (например, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="1bd46-145">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+
+4.  <span data-ttu-id="1bd46-146">Убедитесь в том, что для вашего пула режиссера существует запись узла A (для IPv6, AAAA), как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-146">Verify that a host A (for IPv6, AAAA) record exists for your Director pool as follows:</span></span>
+    
+      - <span data-ttu-id="1bd46-147">Для внутренней записи DNS должна существовать запись узла A (для IPv6, AAAA) для полного доменного имени (например, lyncwebdir01. contoso. local) внутренних веб-служб для пула каталогов.</span><span class="sxs-lookup"><span data-stu-id="1bd46-147">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
+    
+      - <span data-ttu-id="1bd46-148">Для внешней записи DNS для пула каталогов внешних веб-служб (например, lyncwebextdir.contoso.com) должна существовать запись узла A (для IPv6, AAAA).</span><span class="sxs-lookup"><span data-stu-id="1bd46-148">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
+
+5.  <span data-ttu-id="1bd46-149">Убедитесь в том, что для пула переднего плана существует запись узла A (для IPv6, AAAA), как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-149">Verify that a host A (for IPv6, AAAA) record exists for your Front End pool as follows:</span></span>
+    
+      - <span data-ttu-id="1bd46-150">Для внутренней записи DNS должна существовать запись Host A (для IPv6, AAAA) для полного доменного имени внутренней веб-службы для пула переднего плана (например, lyncwebpool01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="1bd46-150">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
+    
+      - <span data-ttu-id="1bd46-151">Для внешней записи DNS должна существовать запись Host A (для IPv6, AAAA) для полного доменного имени внешней веб-службы для пула переднего плана (например, lyncwebextpool01.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="1bd46-151">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
+
+6.  <span data-ttu-id="1bd46-152">Для внутренней записи DNS в дереве консоли DNS-сервера разверните **зоны прямого просмотра** для домена SIP (например, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="1bd46-152">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1bd46-153">Если вы создаете внешнюю запись DNS, <STRONG>зоны прямого просмотра</STRONG> уже развернуты для вашего домена SIP на шаге 3.</span><span class="sxs-lookup"><span data-stu-id="1bd46-153">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
+
+    
+    </div>
+
+7.  <span data-ttu-id="1bd46-154">Щелкните имя домена SIP правой кнопкой мыши и выберите команду **создать узел (A или AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-154">Right-click the SIP domain name, and then click **New Host (A or AAAA)**.</span></span>
+
+8.  <span data-ttu-id="1bd46-155">В поле **Name (имя**) введите имя узла, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-155">In **Name**, type the host name as follows:</span></span>
+    
+      - <span data-ttu-id="1bd46-156">Для внутренней записи DNS введите линкдисковеринтернал в качестве имени узла для URL-адреса внутренней службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="1bd46-156">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
+    
+      - <span data-ttu-id="1bd46-157">Для внешней записи DNS введите lyncdiscover в качестве имени узла для URL-адреса внешней службы автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="1bd46-157">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1bd46-158">Доменное имя считается от зоны, в которой определена запись, поэтому ее не нужно вводить как часть записи A.</span><span class="sxs-lookup"><span data-stu-id="1bd46-158">The domain name is assumed from the zone in which the record is defined and, therefore, does not need to be entered as part of the A record.</span></span>
+
+    
+    </div>
+
+9.  <span data-ttu-id="1bd46-159">В поле **IP-адрес**введите IP-адрес, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="1bd46-159">In **IP Address**, type the IP address as follows:</span></span>
+    
+      - <span data-ttu-id="1bd46-160">Для внутренней записи DNS введите IP-адрес внутренней веб-службы режиссера (или, если вы используете подсистему балансировку нагрузки, введите виртуальные IP-адреса (VIP) для подсистемы балансировки нагрузки режиссера).</span><span class="sxs-lookup"><span data-stu-id="1bd46-160">For an internal DNS record, type the internal Web Services IP address of the Director (or, if you use a load balancer, type the virtual IP (VIP) of the Director load balancer).</span></span>
+        
+        <div>
+        
+
+        > [!NOTE]  
+        > <span data-ttu-id="1bd46-161">Если вы не используете режиссер, введите IP-адрес сервера переднего плана или сервера Standard Edition или, если вы используете подсистему балансировки нагрузки, введите VIP для подсистемы балансировки нагрузки пула из состава переднего плана.</span><span class="sxs-lookup"><span data-stu-id="1bd46-161">If you do not use a Director, type the IP address of the Front End Server or Standard Edition server, or, if you use a load balancer, type the VIP of the Front End pool load balancer.</span></span>
+
+        
+        </div>
+    
+      - <span data-ttu-id="1bd46-162">Для внешней записи DNS введите внешний или общедоступный IP-адрес обратного прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="1bd46-162">For an external DNS record, type the external or public IP address of the reverse proxy.</span></span>
+
+10. <span data-ttu-id="1bd46-163">Нажмите кнопку **Добавить узел**и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-163">Click **Add Host**, and then click **OK**.</span></span>
+
+11. <span data-ttu-id="1bd46-164">Чтобы создать дополнительную запись, повторите шаги 8 – 10.</span><span class="sxs-lookup"><span data-stu-id="1bd46-164">To create an additional A record, repeat steps 8 through 10.</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Необходимо создать новые записи A — lyncdiscover и lyncdiscoverinternal — в зоне прямого просмотра для каждого SIP-домена, поддерживаемого в вашем окружении Lync Server 2013.
+    > <span data-ttu-id="1bd46-165">Вы должны создать новый lyncdiscover и линкдисковеринтернал записи в зоне прямого просмотра каждого домена SIP, который поддерживается в среде Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1bd46-165">You must create a new lyncdiscover and lyncdiscoverinternal A records in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
 
-12. После завершения создания записей A (для IPv6, AAAA) нажмите кнопку **Готово**.
+    
+    </div>
+
+12. <span data-ttu-id="1bd46-166">Завершив создание записей A (для IPv6, AAAA), нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="1bd46-166">When you are finished creating A (for IPv6, AAAA) records, click **Done**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

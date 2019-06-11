@@ -1,142 +1,191 @@
-﻿---
-title: Конфигурация шлюза XMPP в Lync Server 2013
-TOCTitle: Конфигурация шлюза XMPP в Lync Server 2013
-ms:assetid: 00777a34-cc36-4992-9459-08c14543ef6b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687953(v=OCS.15)
-ms:contentKeyID: 49887844
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Настройка шлюза КСМПП на Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure XMPP gateway on Lync Server 2013
+ms:assetid: 00777a34-cc36-4992-9459-08c14543ef6b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687953(v=OCS.15)
+ms:contentKeyID: 49733538
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5874495bb7a398ab8b5b5cde6376faaa6c193a85
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841842"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Конфигурация шлюза XMPP в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="configure-xmpp-gateway-on-lync-server-2013"></a><span data-ttu-id="2e885-102">Настройка шлюза КСМПП на Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e885-102">Configure XMPP gateway on Lync Server 2013</span></span>
 
-При настройке политик для поддержки федеративных партнеров протокола XMPP эти политики применяются к пользователям федеративных доменов XMPP, но не к пользователям поставщиков услуг мгновенной передачи сообщений по протоколу SIP (например, Windows Live) или федеративных доменов SIP. Если нужно, чтобы пользователи могли добавлять контакты из федеративного домена XMPP и взаимодействовать с ними, для каждого такого домена настраивается федеративный партнер XMPP. После создания политик в качестве дополнительных задач нужно настроить сертификаты шлюза XMPP, развернуть шлюз XMPP Lync Server 2013, а затем обновить записи DNS для этого шлюза XMPP.
+</div>
 
-## Настройка сертификатов шлюза XMPP на пограничном сервере Lync Server 2013
+<div id="mainSection">
 
-1.  На пограничном сервере в мастере развертывания рядом с пунктом **Шаг 3. Запрос, установка или назначение сертификатов** нажмите кнопку **Повторный запуск** .
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2e885-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2e885-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="2e885-104">Если вы настраиваете политики для поддержки федеративных партнеров по протоколу расширенного обмена сообщениями (КСМПП), политики применяются к пользователям КСМПП федеративных доменов, но не к пользователям служб мгновенных сообщений в протоколе запуска сеансов (SIP). (например, Windows Live) или федеративные домены SIP.</span><span class="sxs-lookup"><span data-stu-id="2e885-104">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains.</span></span> <span data-ttu-id="2e885-105">Вы настраиваете федеративного партнера КСМПП для каждого КСМПП федеративного домена, с которым вы хотите разрешить пользователям добавлять контакты и взаимодействовать с ними.</span><span class="sxs-lookup"><span data-stu-id="2e885-105">You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="2e885-106">После того как политики будут установлены, дополнительные задачи включают настройку сертификатов шлюза КСМПП, развертывание шлюза Lync Server 2013 КСМПП и, наконец, обновление записей DNS для шлюза КСМПП.</span><span class="sxs-lookup"><span data-stu-id="2e885-106">Once the policies are in place, additional tasks include configuring the XMPP Gateway certificates, deploying the Lync Server 2013 XMPP Gateway, and finally updating the DNS records for the XMPP Gateway.</span></span>
+
+<div>
+
+## <a name="configure-xmpp-gateway-certificates-on-the-lync-server-2013-edge-server"></a><span data-ttu-id="2e885-107">Настройка сертификатов шлюза КСМПП на пограничном сервере Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e885-107">Configure XMPP Gateway Certificates on the Lync Server 2013 Edge Server</span></span>
+
+1.  <span data-ttu-id="2e885-108">На пограничном сервере в мастере развертывания рядом с **шагом 3: запрос, установка и назначение сертификатов**нажмите кнопку **выполнить еще раз**.</span><span class="sxs-lookup"><span data-stu-id="2e885-108">On the Edge Server, in the Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.</span></span>
+    
+    <div class=" ">
     
 
-    > [!TIP]
-    > Если развертывание пограничного сервера выполняется впервые, то вместо кнопки "Повторный запуск" будет отображаться кнопка "Запуск".
+    > [!TIP]  
+    > <span data-ttu-id="2e885-109">Если пограничный сервер развертывается в первый раз, вместо повторного запуска вы увидите "запустить".</span><span class="sxs-lookup"><span data-stu-id="2e885-109">If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.</span></span>
 
-
-
-2.  На странице **Available Certificate Tasks** (Доступные задачи сертификатов) щелкните команду **Create a new certificate request** (Создать новый запрос сертификата).
-
-3.  На странице **запроса сертификата** выберите пункт **External Edge Certificate** (Внешний сертификат пограничного сервера).
-
-4.  На странице **Отложенный или немедленный запрос** установите флажок **Подготовить запрос сейчас, чтобы отправить его позже** .
-
-5.  На странице **файла запроса сертификата** введите полный путь и имя файла, в который должен сохраняться запрос (например, c:\\cert\_exernal\_edge.cer).
-
-6.  На странице **указания альтернативного шаблона сертификата** для использования шаблона, отличного от шаблона WebServer по умолчанию, установите флажок **Use alternative certificate template for the selected certification authority** (Использовать альтернативный шаблон сертификата для выбранного центра сертификации).
-
-7.  На странице **настроек имени и безопасности** выполните следующие действия.
     
-    1.  В поле **Понятное имя** введите отображаемое имя для сертификата.
+    </div>
+
+2.  <span data-ttu-id="2e885-110">На странице **Доступные задачи сертификатов** щелкните команду **Создать новый запрос сертификата**.</span><span class="sxs-lookup"><span data-stu-id="2e885-110">On the **Available Certificate Tasks** page, click **Create a new certificate request**.</span></span>
+
+3.  <span data-ttu-id="2e885-111">На странице **запроса сертификата** выберите **внешний Граничный сертификат**.</span><span class="sxs-lookup"><span data-stu-id="2e885-111">On the **Certificate Request** page, click **External Edge Certificate**.</span></span>
+
+4.  <span data-ttu-id="2e885-112">На странице **отложенный или немедленный запрос** установите флажок **подготовить запрос сейчас, но отправить позже** .</span><span class="sxs-lookup"><span data-stu-id="2e885-112">On the **Delayed or Immediate Request** page, select the **Prepare the request now, but send it later** check box.</span></span>
+
+5.  <span data-ttu-id="2e885-113">На странице " **файл запроса сертификата** " введите полный путь и имя файла, в который нужно сохранить запрос (например, c:\\CERT\_ексернал\_Edge. cer).</span><span class="sxs-lookup"><span data-stu-id="2e885-113">On the **Certificate Request File** page, type the full path and file name of the file to which the request is to be saved (for example, c:\\cert\_exernal\_edge.cer).</span></span>
+
+6.  <span data-ttu-id="2e885-114">На странице " **Укажите другой шаблон сертификата** ", чтобы использовать шаблон, отличный от шаблона веб-сервера по умолчанию, установите флажок **использовать альтернативный шаблон сертификата для выбранного центра сертификации** .</span><span class="sxs-lookup"><span data-stu-id="2e885-114">On the **Specify Alternate Certificate Template** page, to use a template other than the default WebServer template, select the **Use alternative certificate template for the selected certification authority** check box.</span></span>
+
+7.  <span data-ttu-id="2e885-115">На странице **имя и параметры безопасности** выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="2e885-115">On the **Name and Security Settings** page, do the following:</span></span>
     
-    2.  В поле **Длина в битах** укажите длину в битах (обычно используется значение по умолчанию 2048).
+    1.  <span data-ttu-id="2e885-116">В поле **понятное имя**введите отображаемое имя сертификата.</span><span class="sxs-lookup"><span data-stu-id="2e885-116">In **Friendly name**, type a display name for the certificate.</span></span>
     
-    3.  Убедитесь, что флажок **Mark certificate private key as exportable** (Пометить закрытый ключ сертификата как экспортируемый) установлен.
+    2.  <span data-ttu-id="2e885-117">В качестве **битовой длины**укажите длину в битах (обычно это значение по умолчанию — 2048).</span><span class="sxs-lookup"><span data-stu-id="2e885-117">In **Bit length**, specify the bit length (typically, the default of 2048).</span></span>
+    
+    3.  <span data-ttu-id="2e885-118">Убедитесь, что установлен флажок " **помечать закрытый ключ сертификата как экспортируемый** ".</span><span class="sxs-lookup"><span data-stu-id="2e885-118">Verify that the **Mark certificate private key as exportable** check box is selected.</span></span>
 
-8.  На странице **сведений об организации** укажите имя организации и подразделения (например, отделения или отдела).
+8.  <span data-ttu-id="2e885-119">На странице " **сведения об организации** " введите имя Организации и организационное подразделение (например, "подразделение" или "Отдел").</span><span class="sxs-lookup"><span data-stu-id="2e885-119">On the **Organization Information** page, type the name for the organization and the organizational unit (for example, a division or department).</span></span>
 
-9.  На странице **сведений о местоположении** укажите сведения о местоположении.
+9.  <span data-ttu-id="2e885-120">На странице **сведения о географическом** расположении укажите сведения о местоположении.</span><span class="sxs-lookup"><span data-stu-id="2e885-120">On the **Geographical Information** page, specify the location information.</span></span>
 
-10. На странице **имени субъекта и альтернативных имен субъекта** отображаются сведения, автоматически заполненные мастером. Если требуются дополнительные альтернативные имена субъекта, то они указываются в следующих двух действиях.
+10. <span data-ttu-id="2e885-121">На странице **имя субъекта/альтернативная тема** отображается информация, которая будет автоматически заполнена мастером.</span><span class="sxs-lookup"><span data-stu-id="2e885-121">On the **Subject Name/Subject Alternate Names** page, the information to be automatically populated by the wizard is displayed.</span></span> <span data-ttu-id="2e885-122">Если требуются дополнительные альтернативные имена субъектов, их можно указать в следующих двух шагах.</span><span class="sxs-lookup"><span data-stu-id="2e885-122">If additional subject alternative names are needed, you specify them in the next two steps.</span></span>
 
-11. На странице **параметров домена SIP в альтернативных именах субъекта (SAN)** установите флажок домена для добавления записи sip.\<домен\_sip\> в список альтернативных имен субъекта.
+11. <span data-ttu-id="2e885-123">В **параметрах домена SIP на странице "альтернативные имена тем" (SAN)** установите флажок домен, чтобы добавить SIP. \<сипдомаин\> элемент в список альтернативных имен субъектов.</span><span class="sxs-lookup"><span data-stu-id="2e885-123">On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, select the domain check box to add a sip.\<sipdomain\> entry to the subject alternative names list.</span></span>
 
-12. На странице **Настройка дополнительных альтернативных имен субъекта** укажите все необходимые дополнительные альтернативные имена субъекта.
+12. <span data-ttu-id="2e885-124">На странице **Настройка дополнительных имен для других тем** укажите необходимые дополнительные имена субъектов.</span><span class="sxs-lookup"><span data-stu-id="2e885-124">On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.</span></span>
+    
+    <div class=" ">
     
 
-    > [!TIP]
-    > Если устанавливается прокси-сервер XMPP, то по умолчанию в записях SAN заполняется имя домена (например, contoso.com). Если требуются дополнительные записи, добавьте их сейчас.
+    > [!TIP]  
+    > <span data-ttu-id="2e885-125">Если установлен прокси-сервер КСМПП, по умолчанию доменное имя (например, contoso.com) заполнено в записях сети SAN.</span><span class="sxs-lookup"><span data-stu-id="2e885-125">If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries.</span></span> <span data-ttu-id="2e885-126">Если вам нужны дополнительные элементы, добавьте их на этом этапе.</span><span class="sxs-lookup"><span data-stu-id="2e885-126">If you require more entries, add them in this step.</span></span>
 
-
-
-13. На странице **сводки по запросу** просмотрите сведения о сертификате, которые будут использоваться для создания запроса.
-
-14. После выполнения всех команд можно **Просмотреть журнал** или нажать кнопку **Далее** для продолжения.
-
-15. На странице **Файл запроса сертификата** можно просмотреть файл сформированного запроса на подписание сертификата (CSR), нажав кнопку просмотра или выйдя из мастера сертификатов нажатием кнопки **Готово** .
-
-16. Скопируйте файл запроса и отправьте его в ваш общедоступный центр сертификации.
-
-17. После получения, импорта и назначения общедоступного сертификата необходимо остановить и перезапустить службы пограничного сервера. Это можно сделать, введя в консоли управления Lync Server следующую команду:
     
-   ```
+    </div>
+
+13. <span data-ttu-id="2e885-127">На странице **сводки запроса** ознакомьтесь со сведениями о сертификате, которые будут использоваться для создания запроса.</span><span class="sxs-lookup"><span data-stu-id="2e885-127">On the **Request Summary** page, review the certificate information to be used to generate the request.</span></span>
+
+14. <span data-ttu-id="2e885-128">После завершения выполнения команд можно **Просмотреть журнал**или нажать кнопку **Далее** , чтобы продолжить.</span><span class="sxs-lookup"><span data-stu-id="2e885-128">After the commands finish running, you can **View Log**, or click **Next** to continue.</span></span>
+
+15. <span data-ttu-id="2e885-129">На странице " **файл запроса на сертификат** " можно просмотреть созданный файл запроса на подписывание сертификата (CSR), щелкнув Просмотреть или выйти из мастера сертификатов, нажав кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="2e885-129">On the **Certificate Request File** page, you can view the generated certificate signing request (CSR) file by clicking View or exit the Certificate Wizard by clicking **Finish**.</span></span>
+
+16. <span data-ttu-id="2e885-130">Скопируйте файл запроса и отправьте его в общедоступный центр сертификации.</span><span class="sxs-lookup"><span data-stu-id="2e885-130">Copy the request file and submit to your public certification authority.</span></span>
+
+17. <span data-ttu-id="2e885-131">После получения, импорта и назначения общедоступного сертификата вы должны остановить и перезапустить службы пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="2e885-131">After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services.</span></span> <span data-ttu-id="2e885-132">Для этого введите в консоль управления Lync Server:</span><span class="sxs-lookup"><span data-stu-id="2e885-132">You do this by typing in the Lync Server Management console:</span></span>
+    
+       ```
         Stop-CsWindowsService
-   ```
-   ``` 
+       ```
+    
+       ```
         Start-CsWindowsService
-  ```
-  
-## Настройка нового шлюза XMPP Lync Server 2013
+       ```
 
-1.  Откройте панель управления Lync Server.
+</div>
 
-2.  В левой панели навигации нажмите **Federation and External Access** (Федерация и внешний доступ), а затем выберите пункт **XMPP Federated Partners** (Федеративные партнеры XMPP).
+<div>
 
-3.  Чтобы создать новую конфигурацию, нажмите кнопку **Создать** .
+## <a name="configure-a-new-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="2e885-133">Настройка нового шлюза Lync Server 2013 КСМПП</span><span class="sxs-lookup"><span data-stu-id="2e885-133">Configure a new Lync Server 2013 XMPP Gateway</span></span>
 
-4.  Задайте следующие параметры.
+1.  <span data-ttu-id="2e885-134">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2e885-134">Open Lync Server Control Panel.</span></span>
 
-5.  **Основной домен**     (обязательно). Основной домен – это базовый домен партнера XMPP. Например, в качестве имени домена партнера XMPP можно указать **fabrikam.com**. Это обязательная запись.
+2.  <span data-ttu-id="2e885-135">На панели навигации слева выберите пункт **интеграция и внешний доступ** , а затем — **КСМПП Федеративные партнеры**.</span><span class="sxs-lookup"><span data-stu-id="2e885-135">In the left navigation bar, click **Federation and External Access** and then click **XMPP Federated Partners**.</span></span>
 
-6.  **Описание** .   В этом поле можно ввести заметки и другие полезные сведения для данной конкретной конфигурации. Эта запись не является обязательной.
+3.  <span data-ttu-id="2e885-136">Чтобы создать новую конфигурацию, нажмите кнопку **создать**.</span><span class="sxs-lookup"><span data-stu-id="2e885-136">To create a new configuration, click **New**.</span></span>
 
-7.  **Дополнительные домены** .   Это домены, которые являются частью домена партнера XMPP, и которые следует включить как часть разрешенного взаимодействия XMPP. Например, если в качестве основного домена указан **fabrikam.com**, то может потребоваться перечислить все остальные домены, входящие в домен fabrikam.com, с которыми будет осуществляться взаимодействие посредством XMPP.
+4.  <span data-ttu-id="2e885-137">Определите следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="2e885-137">Define the following settings:</span></span>
 
-8.  **Тип партнера** .   Параметр **Тип партнера** является обязательным. Необходимо выбрать один из указанных далее типов для описания контактов, которые могут добавляться. Можно выбрать один из следующих типов.
+5.  <span data-ttu-id="2e885-138">**Основной домен**     (обязательно).</span><span class="sxs-lookup"><span data-stu-id="2e885-138">**Primary domain**    (Required).</span></span> <span data-ttu-id="2e885-139">Основной домен — это базовый домен партнера КСМПП.</span><span class="sxs-lookup"><span data-stu-id="2e885-139">The primary domain is the base domain of the XMPP partner.</span></span> <span data-ttu-id="2e885-140">Например, вы можете ввести **Fabrikam.com** для доменного имени КСМПП партнера.</span><span class="sxs-lookup"><span data-stu-id="2e885-140">For example, you would enter **fabrikam.com** for the XMPP partner domain name.</span></span> <span data-ttu-id="2e885-141">Это обязательный элемент.</span><span class="sxs-lookup"><span data-stu-id="2e885-141">This is a required entry.</span></span>
+
+6.  <span data-ttu-id="2e885-142">**Описание**   описание для заметок или другой идентифицирующей информации о конкретной конфигурации.</span><span class="sxs-lookup"><span data-stu-id="2e885-142">**Description**   The description is for notes or other identifying information for this particular configuration.</span></span> <span data-ttu-id="2e885-143">Этот параметр является необязательным.</span><span class="sxs-lookup"><span data-stu-id="2e885-143">This entry is optional.</span></span>
+
+7.  <span data-ttu-id="2e885-144">**Дополнительные домены**   дополнительные домены — это домены, которые входят в состав домена вашего партнера КСМПП, который должен быть включен в рамках разрешенного КСМПП общения.</span><span class="sxs-lookup"><span data-stu-id="2e885-144">**Additional domains**   Additional domains are domains that are a part of your XMPP partner’s domain that should be included as part of the allowed XMPP communication.</span></span> <span data-ttu-id="2e885-145">Например, если основной домен — **Fabrikam.com**, вы увидите список всех остальных доменов, которые находятся в Fabrikam.com, с которыми вы будете общаться с помощью КСМПП.</span><span class="sxs-lookup"><span data-stu-id="2e885-145">For example, if the primary domain is **fabrikam.com**, then you would list all other domains that are under fabrikam.com that you will communicate with by way of XMPP.</span></span>
+
+8.  <span data-ttu-id="2e885-146">**Тип**   партнера. **тип партнера** является обязательным параметром.</span><span class="sxs-lookup"><span data-stu-id="2e885-146">**Partner type**   The **Partner type** is a required setting.</span></span> <span data-ttu-id="2e885-147">Чтобы описать и принудительно добавить контакты, необходимо выбрать один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="2e885-147">You must choose one of the following to describe and enforce what contacts can be added.</span></span> <span data-ttu-id="2e885-148">Вы можете выбрать один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="2e885-148">You can select from:</span></span>
     
-      - **Федеративный** .   Тип партнера **Федеративный** представляет наивысший уровень доверия между развертыванием Lync Server и партнером XMPP.  Этот тип партнера рекомендуется для федерации с серверами XMPP в одном предприятии или при наличии установленного бизнес-сотрудничества.  Контакты XMPP, указанные в федеративных партнерах, могут выполнять следующие действия.
+      - <span data-ttu-id="2e885-149">**Федеративное** Тип **федеративного** партнера представляет высокий уровень доверия между развертыванием Lync Server и партнером по КСМПП.</span><span class="sxs-lookup"><span data-stu-id="2e885-149">**Federated** A **Federated** partner type represents a high level of trust between the Lync Server deployment and the XMPP partner.</span></span><span data-ttu-id="2e885-150">Этот тип партнера рекомендуется использовать для Федерации с серверами КСМПП в рамках одного предприятия или там, где есть установленная деловая связь.</span><span class="sxs-lookup"><span data-stu-id="2e885-150">  This partner type is recommended for federating with XMPP servers within the same enterprise or where there is an established business relationship.</span></span><span data-ttu-id="2e885-151">КСМППные контакты в федеративных партнерах могут:</span><span class="sxs-lookup"><span data-stu-id="2e885-151">  XMPP contacts in Federated partners can:</span></span>
         
-        1.  Добавлять контакты Lync и просматривать их сведения о присутствии без необходимости экспресс-авторизации пользователем Lync.
+        1.  <span data-ttu-id="2e885-152">Добавляйте контакты Lync и просматривайте их присутствие без использования быстрой авторизации пользователя Lync.</span><span class="sxs-lookup"><span data-stu-id="2e885-152">Add Lync contacts and view their presence without express authorization from the Lync user.</span></span>
         
-        2.  Отправлять мгновенные сообщения контактам Lync независимо от того, были ли они добавлены пользователями Lync в свой список контактов.
+        2.  <span data-ttu-id="2e885-153">Отправляйте мгновенные сообщения в контакты Lync, не добавляя ли пользователь Lync в свой список контактов.</span><span class="sxs-lookup"><span data-stu-id="2e885-153">Send instant messages to Lync contacts whether or not the Lync user has added them into their contact list.</span></span>
         
-        3.  Просматривать заметки о состоянии пользователя Lync.
+        3.  <span data-ttu-id="2e885-154">Ознакомьтесь с заметками о состоянии пользователя Lync.</span><span class="sxs-lookup"><span data-stu-id="2e885-154">See a Lync user’s status notes.</span></span>
     
-      - **Общедоступный проверенный** .    **Общедоступный проверенный** партнер – это общедоступный поставщик XMPP, которому доверена проверка удостоверений своих пользователей.  Контакты XMPP в общедоступных проверенных сетях могут добавлять контакты Lync и просматривать их сведения о присутствии, а также отправлять им мгновенные сообщения без экспресс-авторизации пользователями Lync.  Контакты XMPP в общедоступных проверенных сетях никогда не видят заметки о состоянии пользователей Lync.  Эта установка не рекомендуется.
+      - <span data-ttu-id="2e885-155">\*\*\*\* Общедоступная \*\*\*\* проверенная проверка подлинности партнера является общедоступным поставщиком КСМПП, который является надежным для проверки личности пользователей.</span><span class="sxs-lookup"><span data-stu-id="2e885-155">**Public verified** A **Public verified** partner is a public XMPP provider that is trusted to verify the identity of its users.</span></span><span data-ttu-id="2e885-156">КСМППные контакты в общедоступной проверенной сети могут добавлять контакты Lync и просматривать их присутствие и отправлять мгновенные сообщения без явного разрешения пользователей Lync.</span><span class="sxs-lookup"><span data-stu-id="2e885-156">  XMPP contacts in Public Verified networks can add Lync contacts and view their presence and send instant messages to them without express authorization from the Lync users.</span></span><span data-ttu-id="2e885-157">КСМПП контакты в общедоступной проверенной сети никогда не видят заметок о состоянии пользователей Lync.</span><span class="sxs-lookup"><span data-stu-id="2e885-157">  XMPP contacts in public verified networks never see a Lync users’ status notes.</span></span><span data-ttu-id="2e885-158">Этот параметр не рекомендуется.</span><span class="sxs-lookup"><span data-stu-id="2e885-158">  This setting is not recommended.</span></span>
     
-      - **Общедоступный непроверенный** .    **Общедоступный непроверенный** партнер – это общедоступный поставщик XMPP, которому не доверена проверка удостоверений своих пользователей.  Пользователи XMPP в общедоступных непроверенных сетях не могут взаимодействовать с пользователями Lync, пока пользователь Lync не выполнит их экспресс-авторизацию путем добавления их в список контактов.  Пользователи XMPP в общедоступных непроверенных сетях никогда не видят заметки о состоянии пользователей Lync.  Эта установка рекомендуется для федерации с общедоступными поставщиками XMPP, такими как Google Talk.
+      - <span data-ttu-id="2e885-159">\*\*\*\* Общедоступная непроверенная Общедоступный непроверенный партнер — это общедоступный поставщик КСМПП, который не является доверенным для проверки подлинности пользователей. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="2e885-159">**Public unverified** A **Public unverified** partner is a public XMPP provider that is not trusted to verify the identity of its users.</span></span><span data-ttu-id="2e885-160">Пользователи КСМПП в общедоступных непроверенных сетях не смогут общаться с пользователями Lync, если пользователь Lync явно не предоставил их, добавив их в список контактов.</span><span class="sxs-lookup"><span data-stu-id="2e885-160">  XMPP users on Public Unverified networks cannot communicate with Lync users unless the Lync user has expressly authorized them by adding them to the contact list.</span></span><span data-ttu-id="2e885-161">Пользователи КСМПП в общедоступных непроверенных сетях не увидят заметок о состоянии пользователей Lync.</span><span class="sxs-lookup"><span data-stu-id="2e885-161">  XMPP users on public unverified networks never see Lync users’ status notes.</span></span><span data-ttu-id="2e885-162">Этот параметр рекомендуется использовать для любой Федерации с общедоступными поставщиками КСМПП, такими как Google поговорить.</span><span class="sxs-lookup"><span data-stu-id="2e885-162">  This setting is recommended for any federation with public XMPP providers such as Google Talk.</span></span>
 
-9.  **Тип подключения:** задает разные правила и параметры обратного вызова.
+9.  <span data-ttu-id="2e885-163">**Тип подключения:** Определяет различные параметры правил и диалбакк.</span><span class="sxs-lookup"><span data-stu-id="2e885-163">**Connection Type:** Defines the various rules and dialback settings.</span></span>
     
-      - **Согласование TLS** .   Определяет правила согласования TLS. XMPP-служба может требовать TLS, может считать TLS необязательным элементом или указывать, что TLS не поддерживается. Выбор варианта "Необязательный" означает, что решение об обязательном согласовании принимается на стороне XMPP-службы. Все возможные значения и соответствующие сведения о согласовании SASL, TLS и обратного вызова – в том числе недопустимые и известные неправильные конфигурации – см. в статье [Параметры согласования для федеративных XMPP-партнеров в Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
+      - <span data-ttu-id="2e885-164">**Согласование TLS определяет**   правила согласования TLS.</span><span class="sxs-lookup"><span data-stu-id="2e885-164">**TLS Negotiation**   Defines the TLS negotiation rules.</span></span> <span data-ttu-id="2e885-165">Для службы КСМПП может потребоваться TLS, может быть необязательным TLS или определено, что TLS не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="2e885-165">An XMPP service can require TLS, can make TLS optional, or you define that TLS is not supported.</span></span> <span data-ttu-id="2e885-166">Если выбрать необязательный вариант, вы не сможете получить требование к службе КСМПП для решения, которое является обязательным для согласования.</span><span class="sxs-lookup"><span data-stu-id="2e885-166">Choosing Optional leaves the requirement up to the XMPP service for a mandatory-to-negotiate decision.</span></span> <span data-ttu-id="2e885-167">Чтобы просмотреть все возможные параметры и сведения о согласовании SASL, TLS и Диалбакк, в том числе недопустимых и известных конфигураций ошибок, — [в разделе Параметры согласования КСМПП федеративных партнеров в Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)</span><span class="sxs-lookup"><span data-stu-id="2e885-167">To view all possible settings and details for SASL, TLS and Dialback negotiation – including not valid and known error configurations - see [Negotiation settings for XMPP federated partners in Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)</span></span>
         
-           **Обязательный**     – служба XMPP требует согласование TLS.
+           - <span data-ttu-id="2e885-168">\*\*\*\* Для службы КСМПП требуется согласование TLS.   </span><span class="sxs-lookup"><span data-stu-id="2e885-168">**Required**   The XMPP service requires TLS negotiation.</span></span>
         
-           **Необязательный**     – служба XMPP указывает обязательность согласования TLS.
+           - <span data-ttu-id="2e885-169">\*\*\*\*   Необязательная служба КСМПП указывает на то, что TLS является обязательным для согласования.</span><span class="sxs-lookup"><span data-stu-id="2e885-169">**Optional**   The XMPP service indicates that TLS is mandatory-to-negotiate.</span></span>
         
-           **Не поддерживается**     – служба XMPP не поддерживает TLS.
+           - <span data-ttu-id="2e885-170">**Не поддерживается**   служба КСМПП не поддерживает TLS.</span><span class="sxs-lookup"><span data-stu-id="2e885-170">**Not Supported**   The XMPP service does not support TLS.</span></span>
     
-      - **Согласование SASL** .   Задает правила согласования SASL. Служба XMPP может требовать SASL, может установить необязательность SASL, а также вы можете задать, что SASL не поддерживается. При выборе значения "Необязательно" решение об обязательности согласования будет принимать служба XMPP.
+      - <span data-ttu-id="2e885-171">**Согласование SASL определяет**   правила согласования SASL.</span><span class="sxs-lookup"><span data-stu-id="2e885-171">**SASL negotiation**   Defines the SASL negotiation rules.</span></span> <span data-ttu-id="2e885-172">Служба КСМПП может потребовать SASL, может сделать SASL необязательной или определить, что SASL не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="2e885-172">An XMPP service can require SASL, can make SASL optional, or you define that SASL is not supported.</span></span> <span data-ttu-id="2e885-173">Если выбрать необязательный вариант, вы не сможете получить требование к службе КСМПП партнера, чтобы принять решение для принудительного согласования.</span><span class="sxs-lookup"><span data-stu-id="2e885-173">Choosing Optional leaves the requirement up to the partner XMPP service for a mandatory-to-negotiate decision.</span></span>
         
-           **Обязательный**     – служба XMPP требует согласование SASL.
+           - <span data-ttu-id="2e885-174">\*\*\*\* Для службы КСМПП требуется согласование SASL.   </span><span class="sxs-lookup"><span data-stu-id="2e885-174">**Required**   The XMPP service requires SASL negotiation.</span></span>
         
-           **Необязательный**     – служба XMPP указывает обязательность согласования SASL.
+           - <span data-ttu-id="2e885-175">\*\*\*\*   Необязательная служба КСМПП указывает, что SASL является обязательным для согласования.</span><span class="sxs-lookup"><span data-stu-id="2e885-175">**Optional**   The XMPP service indicates that SASL is mandatory-to-negotiate.</span></span>
         
-           **Не поддерживается**     – служба XMPP не поддерживает SASL.
+           - <span data-ttu-id="2e885-176">**Не поддерживается**   служба КСМПП не поддерживает SASL.</span><span class="sxs-lookup"><span data-stu-id="2e885-176">**Not Supported**   The XMPP service does not support SASL.</span></span>
     
-      - **Поддержка серверного согласования обратным вызовом** . Процесс серверного согласования обратным вызовом использует службу доменных имен (DNS) и полномочный сервер для проверки, пришел ли запрос от допустимого партнера XMPP. Для этого исходный сервер создает сообщение определенного типа с созданным ключом обратного вызова и ищет принимающий сервер в DNS. Затем исходный сервер отправляет этот ключ в XML-потоке в результат поиска в DNS, предположительно на принимающий сервер. После получения ключа в XML-потоке принимающий сервер не отвечает исходному серверу, а отправляет этот ключ на известный полномочный сервер. Полномочный сервер проверяет, является ли ключ допустимым. Если ключ недопустимый, то принимающий сервер не отвечает исходному серверу. Если ключ допустимый, то принимающий сервер информирует исходный сервер о допустимости удостоверения и ключа и о том, что можно начать беседу.
+      - <span data-ttu-id="2e885-177">**Диалбакк согласование серверной поддержки** Сервер службы поддержки диалбакк использует систему доменных имен (DNS) и удостоверяющий сервер, чтобы убедиться, что запрос был получен от действующего партнера КСМПП.</span><span class="sxs-lookup"><span data-stu-id="2e885-177">**Support server dialback negotiation** The support server dialback negotiation process uses the domain name system (DNS) and an authoritative server to verify that the request came from a valid XMPP partner.</span></span> <span data-ttu-id="2e885-178">Для этого на исходном сервере создается сообщение определенного типа с созданным ключом диалбакк и выполняется поиск сервера-получателя в DNS.</span><span class="sxs-lookup"><span data-stu-id="2e885-178">To do this, the originating server creates a message of a specific type with a generated dialback key and looks up the receiving server in DNS.</span></span> <span data-ttu-id="2e885-179">Сервер-источник отправляет ключ в потоке XML в конечный поиск DNS, предположительно на получающем сервере.</span><span class="sxs-lookup"><span data-stu-id="2e885-179">The originating server sends the key in an XML stream to the resulting DNS lookup, presumably the receiving server.</span></span> <span data-ttu-id="2e885-180">При получении ключа над потоком XML, принимающий сервер не отвечает на исходный сервер, но отправляет ключ на известный полномочный сервер.</span><span class="sxs-lookup"><span data-stu-id="2e885-180">On receipt of the key over the XML stream, the receiving server does not respond to the originating server, but sends the key to a known authoritative server.</span></span> <span data-ttu-id="2e885-181">Удостоверяющий сервер проверяет, является ли ключ допустимым или недействительным.</span><span class="sxs-lookup"><span data-stu-id="2e885-181">The authoritative server verifies that the key is either valid or not valid.</span></span> <span data-ttu-id="2e885-182">Если это значение недействительно, принимающий сервер не отвечает на исходящий сервер.</span><span class="sxs-lookup"><span data-stu-id="2e885-182">If not valid, the receiving server does not respond to the originating server.</span></span> <span data-ttu-id="2e885-183">Если ключ является действительным, принимающий сервер информирует сервер источника о том, что удостоверение и ключ являются допустимыми, и может быть инициировано обсуждение.</span><span class="sxs-lookup"><span data-stu-id="2e885-183">If the key is valid, the receiving server informs the originating server that the identity and key is valid and the conversation can commence.</span></span>
         
-        **Согласование обратным вызовом** может иметь два следующих допустимых состояния.
+        <span data-ttu-id="2e885-184">Существует два допустимых состояния для **согласования диалбакк**:</span><span class="sxs-lookup"><span data-stu-id="2e885-184">There are two valid states for **Dialback negotiation**:</span></span>
         
-           **True**     – сервер XMPP настроен для использования согласования обратным вызовом, если запрос будет получен от исходного сервера.
+           - <span data-ttu-id="2e885-185">**True**   : сервер КСМПП настроен на использование согласования диалбакк, если требуется получить запрос от сервера-источника.</span><span class="sxs-lookup"><span data-stu-id="2e885-185">**True**   The XMPP server is configured to use Dialback negotiation if a request should be received from an originating server.</span></span>
         
-           **False**     – сервер XMPP не настроен для использования согласования обратным вызовом, и если запрос будет получен от исходного сервера, то он будет игнорироваться.
+           - <span data-ttu-id="2e885-186">**False**   . сервер КСМПП не настроен на использование согласования диалбакк и если запрос должен быть получен от сервера-источника, он будет проигнорирован.</span><span class="sxs-lookup"><span data-stu-id="2e885-186">**False**   The XMPP server is not configured to use Dialback negotiation and if a request should be received from an originating server, it will be ignored.</span></span>
 
-10. Нажмите кнопку **Commit** (Сохранить), чтобы сохранить изменения в политике на уровне сайта или пользователя.
+10. <span data-ttu-id="2e885-187">Нажмите \*\*\*\* кнопку Сохранить, чтобы сохранить изменения в политике сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="2e885-187">Click **Commit** to save your changes to the site or user policy.</span></span>
 
-## Обновление записей DNS для шлюза XMPP Lync Server 2013
+</div>
 
-1.  Чтобы настроить DNS для федерации XMPP, следует добавить во внешнюю DNS следующую запись SRV:\_xmpp-server.\_tcp.\<имя\_домена\>. Эта запись SRV будет преобразовываться в полное доменное имя пограничного доступа пограничного сервера со значением порта 5269.
+<div>
+
+## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="2e885-188">Обновление записей DNS для Lync Server 2013 КСМПП Gateway</span><span class="sxs-lookup"><span data-stu-id="2e885-188">Update DNS Records for Lync Server 2013 XMPP Gateway</span></span>
+
+1.  <span data-ttu-id="2e885-189">Чтобы настроить DNS для КСМПП Федерации, добавьте следующую запись SRV на внешний DNS-сервер:\_КСМПП-Server. \_протокол TCP. \<доменное\> имя. SRV-запись будет СОПОСТАВЛЕНа с полным доменным именем EDGE на пограничном сервере с таким же значением порта 5269.</span><span class="sxs-lookup"><span data-stu-id="2e885-189">To configure DNS for XMPP federation, you add the following SRV record to your external DNS:\_xmpp-server.\_tcp.\<domain name\> The SRV record will resolve to the Access Edge FQDN of the Edge server, with a port value of 5269.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

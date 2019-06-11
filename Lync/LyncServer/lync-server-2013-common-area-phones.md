@@ -1,38 +1,79 @@
-﻿---
-title: Телефоны общего пользования в Lync Server 2013
-TOCTitle: Телефоны общего пользования в Lync Server 2013
-ms:assetid: d63bb3de-154e-4347-9251-9fa94e7d593a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994076(v=OCS.15)
-ms:contentKeyID: 52058337
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: общие телефоны с областями'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Common area phones
+ms:assetid: d63bb3de-154e-4347-9251-9fa94e7d593a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994076(v=OCS.15)
+ms:contentKeyID: 51803987
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 179d6a0102e62a081846a14981ed70294432ed44
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841535"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Телефоны общего пользования в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="common-area-phones-in-lync-server-2013"></a><span data-ttu-id="70e12-102">Общие Телефоны на мобильных телефонах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70e12-102">Common area phones in Lync Server 2013</span></span>
 
-Телефоны общего пользования — это IP-телефоны, не предназначенные для применения отдельным пользователем. Телефоны общего пользования обычно располагаются не в чьем-то кабинете, а в приемных, кафетериях, комнатах отдыха, переговорных и других местах, где обычно собирается большое количество людей. В отличие от других телефонов в Lync Server, управление которыми обычно осуществляется на основе политик голосовых вызовов и абонентских групп, назначаемых отдельным пользователям, телефоны общего пользования не назначаются отдельным пользователям. Это означает, что управлять ими требуется по-другому.
+</div>
 
-Для управления телефонами общего пользования создаются контактные объекты Доменные службы Active Directory, которым (как и учетным записям пользователей) можно назначать политики и планы голосовых вызовов. Этот подход позволяет контролировать телефоны общего пользования, даже если они не связаны с отдельными пользователями.
+<div id="mainSection">
 
-В статьях этого раздела описывается создание контактных объектов для телефонов общего пользователя, их изменение и удаление, а также настройка и просмотр сведений о конфигурации таких телефонов в вашей среде.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="70e12-103">_**Тема последнего изменения:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="70e12-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+
+<span data-ttu-id="70e12-104">Обычные телефоны — это IP-телефоны, не связанные с конкретным пользователем.</span><span class="sxs-lookup"><span data-stu-id="70e12-104">Common area phones are IP phones that are not associated with an individual user.</span></span> <span data-ttu-id="70e12-105">Вместо того чтобы находились в офисе другого пользователя, обычно они размещаются в здании приемных, кафетериас, мягких для сотрудников, комнатах собраний и в других местах, где часто может быть собрано большое количество людей.</span><span class="sxs-lookup"><span data-stu-id="70e12-105">Instead of being located in someone’s office, common area phones are typically located in building lobbies, cafeterias, employee lounges, meeting rooms, and other locations where a large number of people are likely to gather.</span></span> <span data-ttu-id="70e12-106">В отличие от других телефонов в Lync Server, обычно использующих политики голосовой связи и абонентские группы, которым назначены индивидуальные пользователи, для них не могут быть назначены индивидуальные пользователи.</span><span class="sxs-lookup"><span data-stu-id="70e12-106">Unlike other phones in Lync Server, which are typically maintained by using voice policies and dial plans that are assigned to individual users, common area phones do not have individual users assigned to them.</span></span> <span data-ttu-id="70e12-107">Это означает, что они должны управляться иначе, чем ваши другие телефоны.</span><span class="sxs-lookup"><span data-stu-id="70e12-107">This means that they must be managed differently than your other phones.</span></span>
+
+<span data-ttu-id="70e12-108">Чтобы управлять стандартными телефонами, вы создаете объекты контактов доменных служб Active Directory для всех распространенных телефонов, например для учетных записей пользователей, могут назначаться политики и голосовые планы.</span><span class="sxs-lookup"><span data-stu-id="70e12-108">To manage common area phones, you create Active Directory Domain Services contact objects for all your common area phones that, like user accounts, can be assigned policies and voice plans.</span></span> <span data-ttu-id="70e12-109">Этот подход позволяет поддерживать контроль над распространенными телефонами, даже если они не связаны с конкретным пользователем.</span><span class="sxs-lookup"><span data-stu-id="70e12-109">This approach enables you to maintain control over common area phones, even though those phones are not associated with an individual user.</span></span>
+
+<span data-ttu-id="70e12-110">В этом разделе приведены сведения о том, как создавать объекты контактов для обычных телефонов, изменять и удалять их, а также настраивать и просматривать сведения о конфигурации для телефонной сети, используемой в развертывании.</span><span class="sxs-lookup"><span data-stu-id="70e12-110">Use the topics in this section to learn how to create contact objects for common area phones, modify and delete them, and configure and view configuration information about the common area phones in your deployment.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Поддерживается три типа телефонов общего пользования: Aastra 6721ip, HP 4110 IP Phone и Polycom CX500 IP. Существует еще один телефон для конференц-связи, Polycom CX3000 IP, который также является телефоном общего пользования. Однако он предназначен для использования в конференц-залах. Дополнительные сведения о телефонах общего пользователя см. в разделе Common Area Phones (Телефоны общего пользования) статьи <a href="http://technet.microsoft.com/ru-ru/library/gg398958(v=ocs.14).aspx">Choosing New Devices (Выбор новых устройств)</a>.
+> <span data-ttu-id="70e12-111">У вас есть три варианта для стационарных телефонов: Aastra 6721ip Common Area Phone, телефонный номер HP 4110 IP и Polycom CX500 IP на стандартном телефоне.</span><span class="sxs-lookup"><span data-stu-id="70e12-111">You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone.</span></span> <span data-ttu-id="70e12-112">Телефон конференц-связи по Polycom CX3000 является другим вариантом универсального телефона.</span><span class="sxs-lookup"><span data-stu-id="70e12-112">The Polycom CX3000 IP conferencing phone is another variant common area phone.</span></span> <span data-ttu-id="70e12-113">Однако она предназначена для использования в конференц-залах.</span><span class="sxs-lookup"><span data-stu-id="70e12-113">However, it is intended for use in conference rooms.</span></span> <span data-ttu-id="70e12-114">Подробнее об общих телефонах с областями можно узнать в разделе телефоны в области " <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">Выбор новых устройств</A>".</span><span class="sxs-lookup"><span data-stu-id="70e12-114">For details about common area phones, see the Common Area Phones section of <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.</span></span>
 
-## Содержание
 
-  - [Просмотр сведений о телефонах общего пользования](lync-server-2013-view-common-area-phone-information.md)
 
-  - [Создание или изменение объекта контактов телефона общего пользования](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+</div>
 
-  - [Включение или отключение поддержки незакрепленных телефонов](lync-server-2013-enable-or-disable-hot-desking.md)
+<div>
 
-  - [Удаление объекта контактов телефона общего пользования](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+## <a name="in-this-section"></a><span data-ttu-id="70e12-115">Содержание</span><span class="sxs-lookup"><span data-stu-id="70e12-115">In This Section</span></span>
 
-  - [Назначение политик телефону общего пользования](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+  - [<span data-ttu-id="70e12-116">Просмотр сведений о стандартном телефоне в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70e12-116">View common area phone information in Lync Server 2013</span></span>](lync-server-2013-view-common-area-phone-information.md)
+
+  - [<span data-ttu-id="70e12-117">Создание или изменение объекта контактного телефона для общего города в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70e12-117">Create or modify a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+
+  - [<span data-ttu-id="70e12-118">Включение и отключение функции поддержки горячей замены в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70e12-118">Enable or disable hot desking in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-hot-desking.md)
+
+  - [<span data-ttu-id="70e12-119">Удаление объекта контактного телефона из общей области в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="70e12-119">Delete a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+
+  - [<span data-ttu-id="70e12-120">Назначение политик в Lync Server 2013 на стандартном телефоне</span><span class="sxs-lookup"><span data-stu-id="70e12-120">Assign policies in Lync Server 2013 to a common area phone</span></span>](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,47 +1,85 @@
-﻿---
-title: Назначение политик уровня пользователя в Lync Server 2013
-TOCTitle: Назначение политик уровня пользователя в Lync Server 2013
-ms:assetid: a4ed0120-d9e5-4eb2-acfd-8de2cb503652
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182561(v=OCS.15)
-ms:contentKeyID: 49310747
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: назначение политик для пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user policies
+ms:assetid: a4ed0120-d9e5-4eb2-acfd-8de2cb503652
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182561(v=OCS.15)
+ms:contentKeyID: 48184971
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b9088326d5d7a11bd186a594327eb083df590849
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841869"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Назначение политик уровня пользователя в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-14_
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a><span data-ttu-id="83fe4-102">Назначение политик для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-102">Assigning per-user policies in Lync Server 2013</span></span>
 
-Чтобы задать параметры, отличные от параметров, которые заданы с помощью политик и назначены остальным пользователям, например с помощью глобальных политик, вы можете назначить отдельные политики пользователю или группе пользователей. Эти политики называются политиками на уровне пользователя.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Назначение политики конференц-связи уровня пользователя](lync-server-2013-assign-a-per-user-conferencing-policy.md)
+<div id="mainBody">
 
-  - [Назначение политики клиентской версии уровня пользователя](lync-server-2013-assign-a-per-user-client-version-policy.md)
+<span> </span>
 
-  - [Назначение политики PIN-кодов уровня пользователя](lync-server-2013-assign-a-per-user-pin-policy.md)
+<span data-ttu-id="83fe4-103">_**Тема последнего изменения:** 2012-10-14_</span><span class="sxs-lookup"><span data-stu-id="83fe4-103">_**Topic Last Modified:** 2012-10-14_</span></span>
 
-  - [Назначение политики доступа внешних пользователей пользователю, разрешенному для Lync в Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+<span data-ttu-id="83fe4-104">Вы можете назначать определенные политики пользователю или группе пользователей, чтобы указать конкретные параметры, которые отличаются от параметров, определенных в политиках, назначенных другим пользователям, например глобальные политики.</span><span class="sxs-lookup"><span data-stu-id="83fe4-104">You can assign certain policies to a user or a group of users in order to specify particular settings that deviate from the settings defined in policies assigned to other users, such as global policies.</span></span> <span data-ttu-id="83fe4-105">Эти политики называются политиками для пользователей.</span><span class="sxs-lookup"><span data-stu-id="83fe4-105">These policies are called per-user policies.</span></span>
 
-  - [Назначение политики архивирования уровня пользователя](lync-server-2013-assign-a-per-user-archiving-policy.md)
+<div>
 
-  - [Назначение политики расположения уровня пользователя](lync-server-2013-assign-a-per-user-location-policy.md)
+## <a name="in-this-section"></a><span data-ttu-id="83fe4-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="83fe4-106">In This Section</span></span>
 
-  - [Назначение политики мобильности уровня пользователя](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [<span data-ttu-id="83fe4-107">Назначение политики конференций для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-107">Assign a per-user conferencing policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
-  - [Назначение политики сохраняемого сеанса беседы уровня пользователя](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+  - [<span data-ttu-id="83fe4-108">Назначение политики клиентской версии для пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-108">Assign a per-user client version policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-client-version-policy.md)
 
-  - [Назначение политики тарифного плана уровня пользователя](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [<span data-ttu-id="83fe4-109">Назначение политики PIN-кода для пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-109">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [Назначение политики голосовых служб уровня пользователя](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [<span data-ttu-id="83fe4-110">Назначение политики доступа внешних пользователей пользователю, разрешенному для Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-110">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-## См. также
+  - [<span data-ttu-id="83fe4-111">Назначение политики архивации по пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-111">Assign a per-user archiving policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-#### Другие ресурсы
+  - [<span data-ttu-id="83fe4-112">Назначение политики местоположения для каждого пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-112">Assign a per-user location policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-location-policy.md)
 
-[Управление пользователями в Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)
+  - [<span data-ttu-id="83fe4-113">Назначение политики мобильности на мобильные пользователи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-113">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
+
+  - [<span data-ttu-id="83fe4-114">Назначение политики постоянного чата для каждого пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-114">Assign a per-user Persistent Chat policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+
+  - [<span data-ttu-id="83fe4-115">Назначение политики абонентской группы для пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-115">Assign a per-user dial plan policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+
+  - [<span data-ttu-id="83fe4-116">Назначение политики голосовой связи для пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-116">Assign a per-user voice policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-voice-policy.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="83fe4-117">См. также</span><span class="sxs-lookup"><span data-stu-id="83fe4-117">See Also</span></span>
+
+
+[<span data-ttu-id="83fe4-118">Управление пользователями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="83fe4-118">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

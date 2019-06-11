@@ -1,60 +1,101 @@
-﻿---
-title: Настройка голосового маршрута для E9-1-1 в Lync Server 2013
-TOCTitle: Настройка голосового маршрута для E9-1-1 в Lync Server 2013
-ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398496(v=OCS.15)
-ms:contentKeyID: 49310078
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка маршрута голосовой связи E9-1-1'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure an E9-1-1 voice route
+ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398496(v=OCS.15)
+ms:contentKeyID: 48184384
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 59f4e2a6707d270f66a66663b19f975ac69961c2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841440"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка голосового маршрута для E9-1-1 в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-17_
+# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a><span data-ttu-id="94d8e-102">Настройка маршрута голосовой связи E9-1-1 в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94d8e-102">Configure an E9-1-1 voice route in Lync Server 2013</span></span>
 
-Чтобы развернуть E9-1-1, сначала необходимо настроить маршрут голосовой связи для выполнения экстренных вызовов. Для получения дополнительных сведений о создании маршрутов голосовой связи см. раздел [Создание голосового маршрута в Lync Server 2013](lync-server-2013-create-a-voice-route.md). Можно определить более одного маршрута, если, например, развертывание включает основной магистральный канал SIP и дополнительный магистральный канал SIP.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="94d8e-103">_**Тема последнего изменения:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="94d8e-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+
+<span data-ttu-id="94d8e-104">Чтобы развернуть E9-1-1, сначала необходимо настроить маршрут голосовой связи для выполнения экстренных вызовов.</span><span class="sxs-lookup"><span data-stu-id="94d8e-104">To deploy E9-1-1, you first need to configure an emergency call voice route.</span></span> <span data-ttu-id="94d8e-105">Дополнительные сведения о создании маршрутов голосовой связи можно найти [в разделе Создание голосового маршрута в Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span><span class="sxs-lookup"><span data-stu-id="94d8e-105">For details about creating voice routes, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span> <span data-ttu-id="94d8e-106">Можно определить более одного маршрута, если, например, развертывание включает основной магистральный канал SIP и дополнительный магистральный канал SIP.</span><span class="sxs-lookup"><span data-stu-id="94d8e-106">You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз. Для этого установите для флага EnablePIDFLOSupport в командлете <strong>Set-CsTrunkConfiguration</strong> значение True. Значение по умолчанию для EnablePIDFLOSupport — False. Пример: <code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />Не требуется включать получение местоположений для резервных шлюзов ТСОП и шлюзов ELIN.
+> <span data-ttu-id="94d8e-107">Чтобы включить информацию о местоположении в приглашение E9-1-1 INVITE, необходимо настроить магистральный канал SIP, который служит для подключения к поставщику службы E9-1-1 для маршрутизации экстренных вызовов через шлюз.</span><span class="sxs-lookup"><span data-stu-id="94d8e-107">To include location information in an E9-1-1 INVITE, you need to configure the SIP trunk that connects to the E9-1-1 service provider to route emergency calls through the gateway.</span></span> <span data-ttu-id="94d8e-108">Для этого установите для флага EnablePIDFLOSupport в командлете <STRONG>Set-CsTrunkConfiguration</STRONG> значение True.</span><span class="sxs-lookup"><span data-stu-id="94d8e-108">To do this, set the EnablePIDFLOSupport flag on the <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet to True.</span></span> <span data-ttu-id="94d8e-109">Значение по умолчанию для EnablePIDFLOSupport — False.</span><span class="sxs-lookup"><span data-stu-id="94d8e-109">The default value for EnablePIDFLOSupport is False.</span></span> <span data-ttu-id="94d8e-110">Например:<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE></span><span class="sxs-lookup"><span data-stu-id="94d8e-110">For example: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE></span></span><BR><span data-ttu-id="94d8e-111">Не требуется включать получение местоположений для резервных шлюзов ТСОП и шлюзов ELIN.</span><span class="sxs-lookup"><span data-stu-id="94d8e-111">It is not necessary to enable receiving locations for fallback public switched telephone network (PSTN) gateways and Emergency Location Identification Number (ELIN) gateways.</span></span>
 
-Для получения дополнительных сведений о работе с маршрутами голосовой связи см. документацию Командная консоль Lync Server для следующих командлетов:
 
-  - **Set-CsPstnUsage**
 
-  - **Get-CsPstnUsage**
+</div>
 
-  - **New-CsVoiceRoute**
+<span data-ttu-id="94d8e-112">Дополнительные сведения о работе с голосовыми маршрутами можно найти в документации по оболочке управления Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="94d8e-112">For details about working with voice routes, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - **Get-CsVoiceRoute**
+  - <span data-ttu-id="94d8e-113">**Set-CsPstnUsage**</span><span class="sxs-lookup"><span data-stu-id="94d8e-113">**Set-CsPstnUsage**</span></span>
 
-  - **Set-CsVoiceRoute**
+  - <span data-ttu-id="94d8e-114">**Get-CsPstnUsage**</span><span class="sxs-lookup"><span data-stu-id="94d8e-114">**Get-CsPstnUsage**</span></span>
 
-  - **Remove-CsVoiceRoute**
+  - <span data-ttu-id="94d8e-115">**New-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="94d8e-115">**New-CsVoiceRoute**</span></span>
 
-## Настройка маршрута голосовой связи E9-1-1
+  - <span data-ttu-id="94d8e-116">**Get-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="94d8e-116">**Get-CsVoiceRoute**</span></span>
 
-1.  Выполните вход в систему компьютера с использованием учетной записи, которая является членом группы RTCUniversalServerAdmins или членом роли администратора CsVoiceAdministrator.
+  - <span data-ttu-id="94d8e-117">**Set-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="94d8e-117">**Set-CsVoiceRoute**</span></span>
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+  - <span data-ttu-id="94d8e-118">**Remove-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="94d8e-118">**Remove-CsVoiceRoute**</span></span>
 
-3.  Выполните следующий командлет, чтобы создать новую запись об использовании ТСОП.
+<div>
+
+## <a name="to-configure-an-e9-1-1-voice-route"></a><span data-ttu-id="94d8e-119">Настройка маршрута голосовой связи E9-1-1</span><span class="sxs-lookup"><span data-stu-id="94d8e-119">To configure an E9-1-1 voice route</span></span>
+
+1.  <span data-ttu-id="94d8e-120">Выполните вход в систему компьютера с использованием учетной записи, которая является членом группы RTCUniversalServerAdmins или членом роли администратора CsVoiceAdministrator.</span><span class="sxs-lookup"><span data-stu-id="94d8e-120">Log on to the computer with an account that is a member of the RTCUniversalServerAdmins groups, or a member of the CsVoiceAdministrator administrative role.</span></span>
+
+2.  <span data-ttu-id="94d8e-121">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="94d8e-121">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="94d8e-122">Выполните следующий командлет, чтобы создать новую запись об использовании ТСОП.</span><span class="sxs-lookup"><span data-stu-id="94d8e-122">Run the following cmdlet to create a new PSTN usage record.</span></span>
     
-    Это должно быть то же самое имя, которое будет использоваться для параметра **ТСОП** в политике определения местоположения. Хотя развертывание будет включать несколько записей об использовании телефона, в следующем примере показано, как добавить «Использование экстренных вызовов» в текущий список доступных использований ТСОП. Для получения дополнительных сведений см. раздел [Настройка политик голосовой связи и записей использования ТСОП для авторизации функций звонков и предоставления привилегий в Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
+    <span data-ttu-id="94d8e-123">Это должно быть то же самое имя, которое будет использоваться для параметра **ТСОП** в политике определения местоположения.</span><span class="sxs-lookup"><span data-stu-id="94d8e-123">This must be the same name that you will use for the **PSTN** setting in the location policy.</span></span> <span data-ttu-id="94d8e-124">Хотя развертывание будет включать несколько записей об использовании телефона, в следующем примере показано, как добавить "Использование экстренных вызовов" в текущий список доступных использований ТСОП.</span><span class="sxs-lookup"><span data-stu-id="94d8e-124">Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages.</span></span> <span data-ttu-id="94d8e-125">Подробности можно найти в разделе [Настройка политик голосовой связи и использование PSTN для авторизации функций и привилегий для звонков в Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span><span class="sxs-lookup"><span data-stu-id="94d8e-125">For details, see [Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span></span>
     
         Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
 
-4.  Выполните следующий командлет, чтобы создать новый маршрут голосовой связи с помощью записи об использовании ТСОП, созданной на предыдущем этапе.
+4.  <span data-ttu-id="94d8e-126">Выполните следующий командлет, чтобы создать новый маршрут голосовой связи с помощью записи об использовании ТСОП, созданной на предыдущем этапе.</span><span class="sxs-lookup"><span data-stu-id="94d8e-126">Run the following cmdlet to create a new voice route by using the PSTN usage record that you created in the previous step.</span></span>
     
-    Шаблон номера должен соответствовать шаблону номера, который используется в параметре **Строка набора номера для экстренной связи** политики определения местоположения. Знак «+» необходим, так как Lync добавляет «+» к экстренным вызовам. «Co1-pstngateway-1» — это идентификатор службы магистрального канала SIP для поставщика службы E9-1-1 или для идентификатора службы шлюза ELIN. В следующем примере в качестве имени маршрута голосовой связи используется EmergencyRoute.
+    <span data-ttu-id="94d8e-127">Шаблон номера должен соответствовать шаблону номера, который используется в параметре **Строка набора номера для экстренной связи** политики определения местоположения.</span><span class="sxs-lookup"><span data-stu-id="94d8e-127">The number pattern must be the same number pattern that is used in the **Emergency Dial String** setting in the location policy.</span></span> <span data-ttu-id="94d8e-128">Знак "+" нужен, так как Lync добавляет "+" для вызова экстренной помощи.</span><span class="sxs-lookup"><span data-stu-id="94d8e-128">A "+" sign is needed because Lync adds "+" to emergency calls.</span></span> <span data-ttu-id="94d8e-129">"Co1-pstngateway-1" — это идентификатор службы магистрального канала SIP для поставщика службы E9-1-1 или для идентификатора службы шлюза ELIN.</span><span class="sxs-lookup"><span data-stu-id="94d8e-129">"Co1-pstngateway-1" is the SIP trunk service ID for the E9-1-1 service provider or for the ELIN gateway service ID.</span></span> <span data-ttu-id="94d8e-130">В следующем примере в качестве имени маршрута голосовой связи используется EmergencyRoute.</span><span class="sxs-lookup"><span data-stu-id="94d8e-130">The following example uses "EmergencyRoute" as the name of the voice route.</span></span>
     
         New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
 
-5.  Для магистральных соединений SIP мы также рекомендуем (по желанию) выполнить следующий командлет, чтобы создать локальный маршрут для вызовов, которые не обрабатываются магистральным каналом поставщика службы E9-1-1. Этот маршрут будет использоваться, если подключение к поставщику службы E9-1-1 недоступно.
+5.  <span data-ttu-id="94d8e-p105">Для магистральных соединений SIP мы также рекомендуем (по желанию) выполнить следующий командлет, чтобы создать локальный маршрут для вызовов, которые не обрабатываются магистральным каналом поставщика службы E9-1-1. Этот маршрут будет использоваться, если подключение к поставщику службы E9-1-1 недоступно.</span><span class="sxs-lookup"><span data-stu-id="94d8e-p105">Optionally, for SIP trunk connections, we recommend that you run the following cmdlet to create a local route for calls that are not handled by the E9-1-1 service provider’s SIP trunk. This route will be used if the connection to the E9-1-1 service provider is not available.</span></span>
     
-    В следующем примере предполагается, что в политику голосовой связи пользователя включено использование "Локально".
+    <span data-ttu-id="94d8e-133">В следующем примере предполагается, что в политику голосовой связи пользователя включено использование "Локально".</span><span class="sxs-lookup"><span data-stu-id="94d8e-133">The following example assumes that user has "Local" usage in their voice policy.</span></span>
     
         New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

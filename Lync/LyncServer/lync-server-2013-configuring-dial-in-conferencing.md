@@ -1,55 +1,93 @@
-﻿---
-title: 'Lync Server 2013: настройка конференц-связи с телефонным подключением'
-TOCTitle: Настройка конференц-связи с телефонным подключением
-ms:assetid: 79a98c5d-a0a8-4729-828d-b9166842432c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398600(v=OCS.15)
-ms:contentKeyID: 49310246
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: настройка конференц-связи с телефонным подключением'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring dial-in conferencing
+ms:assetid: 79a98c5d-a0a8-4729-828d-b9166842432c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398600(v=OCS.15)
+ms:contentKeyID: 48184587
+ms.date: 10/03/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4ca8b82fe77e578f1ac513d00583c42dd56162a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841262"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка конференц-связи с телефонным подключением в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-10-03_
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="feb3a-102">Настройка конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
 
-В этом разделе приводятся инструкции по настройке конференц-связи с телефонным подключением Lync Server 2013.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Необходимые условия и разрешения для настройки конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+<div id="mainBody">
 
-  - [Контрольный список развертывания для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+<span> </span>
 
-  - [Настройка абонентских групп для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+<span data-ttu-id="feb3a-103">_**Тема последнего изменения:** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="feb3a-103">_**Topic Last Modified:** 2014-10-03_</span></span>
 
-  - [Проверка назначения регионов абонентским группам Lync Server 2013](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+<span data-ttu-id="feb3a-104">В этом разделе рассказывается, как настроить Конференц-связь с телефонным подключением в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="feb3a-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
 
-  - [Проверка параметров политики ПИН-кодов в Lync Server 2013 (необязательно)](lync-server-2013-optional-verify-pin-policy-settings.md)
+<div>
 
-  - [Настройка политики конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+## <a name="in-this-section"></a><span data-ttu-id="feb3a-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="feb3a-105">In This Section</span></span>
 
-  - [Настройка номеров доступа для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="feb3a-106">Необходимые условия и разрешения для настройки конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [<span data-ttu-id="feb3a-107">Контрольный список развертывания для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [Изменение назначенных клавиш для команд DTMF в Lync Server 2013 (необязательно)](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [<span data-ttu-id="feb3a-108">Настройка абонентских групп для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [Включение и отключение объявлений о присоединении и выходе из конференции в Lync Server 2013 (необязательно)](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [<span data-ttu-id="feb3a-109">Проверка абонентских планов Lync Server 2013 назначенные регионы</span><span class="sxs-lookup"><span data-stu-id="feb3a-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [Проверка конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [<span data-ttu-id="feb3a-110">Проверка параметров политики ПИН-кодов в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="feb3a-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [Развертывание надстройки собраний по сети для Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [<span data-ttu-id="feb3a-111">Настройка политики конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [Настройка параметров учетных записей пользователей в Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
+  - [<span data-ttu-id="feb3a-112">Настройка номеров доступа для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [Создание каталогов конференций (обязательно)](recommended-create-conference-directories.md)
+  - [<span data-ttu-id="feb3a-113">Проверка параметров конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="feb3a-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [Приветствие пользователей в конференции с телефонным подключением Lync Server 2013 (необязательно)](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [<span data-ttu-id="feb3a-114">Изменение назначенных клавиш для команд DTMF в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="feb3a-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-## Связанные разделы
+  - [<span data-ttu-id="feb3a-115">Включение и отключение объявлений о присоединении и выходе из конференции в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="feb3a-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-[Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+  - [<span data-ttu-id="feb3a-116">Проверка конференц-связи с телефонным подключением в Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="feb3a-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
+
+  - [<span data-ttu-id="feb3a-117">Развертывание надстройки собраний по сети для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+
+  - [<span data-ttu-id="feb3a-118">Настройка параметров учетных записей пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
+
+  - [<span data-ttu-id="feb3a-119">(Recommended) Create Conference Directories</span><span class="sxs-lookup"><span data-stu-id="feb3a-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
+
+  - [<span data-ttu-id="feb3a-120">Приветствие пользователей в конференции с телефонным подключением Lync Server 2013 (необязательно)</span><span class="sxs-lookup"><span data-stu-id="feb3a-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a><span data-ttu-id="feb3a-121">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="feb3a-121">Related Sections</span></span>
+
+[<span data-ttu-id="feb3a-122">Развертывание Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="feb3a-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

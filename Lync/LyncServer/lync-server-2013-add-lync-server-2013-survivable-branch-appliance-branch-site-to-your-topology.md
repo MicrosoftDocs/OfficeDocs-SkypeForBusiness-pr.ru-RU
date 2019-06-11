@@ -1,58 +1,96 @@
-﻿---
-title: "Lync Server 2013: ввод в топологию устройства для обеспечения связи в филиалах"
-TOCTitle: Добавление в топологию сайта филиала устройства для обеспечения связи в филиалах Lync Server 2013
-ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721896(v=OCS.15)
-ms:contentKeyID: 49888211
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Добавление в топологию сайта филиала устройства для обеспечения связи в филиалах Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add Lync Server 2013 Survivable Branch Appliance branch site to your topology
+ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721896(v=OCS.15)
+ms:contentKeyID: 49733830
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 83ae19b3683b725db64b2f598eb6fc3d182bac17
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841946"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Добавление в топологию сайта филиала устройства для обеспечения связи в филиалах Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-07_
+# <a name="add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology"></a><span data-ttu-id="e81c8-102">Добавление в топологию сайта филиала устройства для обеспечения связи в филиалах Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81c8-102">Add Lync Server 2013 Survivable Branch Appliance branch site to your topology</span></span>
 
-Microsoft Lync Server 2013для обеспечения связи в филиалах (SBA) нельзя связать с Microsoft Lync Server 2010переднего плана в качестве резервного регистратора. SBA необходимо связать с Microsoft Lync Server 2013переднего плана. Эти действия предполагают использование SBA Microsoft Lync Server 2013. Выполните эту процедуру на центральном сайте.
+</div>
 
-## Добавление сайтов филиалов с SBA Microsoft Lync Server 2013 в топологию
+<div id="mainSection">
 
-1.  Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Построитель топологий Lync Server**.
+<div id="mainBody">
 
-2.  В дереве консоли разверните центральный сайт, разверните **сайты филиалов** , а затем щелкните **New Branch Site** (Новый сайт филиала).
+<span> </span>
 
-3.  В диалоговом окне **Define New Branch Site** (Задать новый сайт филиала) щелкните **Name** (Имя), а затем введите имя нового сайта филиала.
+<span data-ttu-id="e81c8-103">_**Тема последнего изменения:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="e81c8-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-4.  (Необязательно) Нажмите **Описание**, а затем введите содержательное описание для сайта филиала.
+<span data-ttu-id="e81c8-104">Microsoft Lync Server 2013 (СБА) не может быть связан с пулом переднего плана Microsoft Lync Server 2010 в качестве регистратора резервных копий.</span><span class="sxs-lookup"><span data-stu-id="e81c8-104">Microsoft Lync Server 2013 Survivable Branch Appliances (SBA) cannot be associated to a Microsoft Lync Server 2010 Front End pool as a backup Registrar.</span></span> <span data-ttu-id="e81c8-105">СБА должен быть связан с пулом внешних интерфейсов Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e81c8-105">The SBA must be associated with a Microsoft Lync Server 2013 Front End pool.</span></span> <span data-ttu-id="e81c8-106">Эти действия предполагают наличие Microsoft Lync Server 2013 СБА.</span><span class="sxs-lookup"><span data-stu-id="e81c8-106">These steps assume a Microsoft Lync Server 2013 SBA.</span></span> <span data-ttu-id="e81c8-107">Выполните эту процедуру на центральном веб-сайте.</span><span class="sxs-lookup"><span data-stu-id="e81c8-107">Perform this procedure at the central site.</span></span>
 
-5.  Нажмите кнопку **Далее** .
+<div>
 
-6.  (Необязательно) В следующем диалоговом окне **Определение нового сайта филиала для сайта** выполните любое из следующих действий:
+## <a name="to-add-branch-sites-with-microsoft-lync-server-2013-sba-to-your-topology"></a><span data-ttu-id="e81c8-108">Добавление сайтов филиалов с Microsoft Lync Server 2013 СБА в топологию</span><span class="sxs-lookup"><span data-stu-id="e81c8-108">To add branch sites with Microsoft Lync Server 2013 SBA to your topology</span></span>
+
+1.  <span data-ttu-id="e81c8-109">Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e81c8-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="e81c8-110">В дереве консоли разверните узел центрального сайта, разверните узел **сайты филиалов**и выберите пункт **создать сайт филиала**.</span><span class="sxs-lookup"><span data-stu-id="e81c8-110">In the console tree, expand the central site, expand **Branch Sites**, and then click **New Branch Site**.</span></span>
+
+3.  <span data-ttu-id="e81c8-111">В диалоговом окне **Определение нового сайта ветви** щелкните **имя**и введите имя для нового сайта ветви.</span><span class="sxs-lookup"><span data-stu-id="e81c8-111">In the **Define New Branch Site** dialog box, click **Name**, and then type a name for the new branch site.</span></span>
+
+4.  <span data-ttu-id="e81c8-112">Необязательно Нажмите кнопку **Описание**и введите понятное описание сайта филиала.</span><span class="sxs-lookup"><span data-stu-id="e81c8-112">(Optional) Click **Description**, and then type a meaningful description for the branch site.</span></span>
+
+5.  <span data-ttu-id="e81c8-113">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="e81c8-113">Click **Next**.</span></span>
+
+6.  <span data-ttu-id="e81c8-114">Необязательно В диалоговом окне **Определение нового сайта ветви** выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="e81c8-114">(Optional) In the next **Define New Branch Site** dialog box, do any of the following:</span></span>
     
-      - Нажмите **Город**, а затем введите название города, в котором расположен сайт филиала.
+      - <span data-ttu-id="e81c8-115">Щелкните **город**и введите имя города, в котором находится сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="e81c8-115">Click **City**, and then type the name of the city in which the branch site is located.</span></span>
     
-      - Нажмите **Регион**, а затем введите название региона или области, где расположен сайт филиала.
+      - <span data-ttu-id="e81c8-116">Щелкните область или **регион**, а затем введите имя состояния или региона, в котором находится сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="e81c8-116">Click **State/Region**, and then type the name of the state or region in which the branch site is located.</span></span>
     
-      - Нажмите **Код страны**, а затем введите двузначный вызывной код для страны/региона, где расположен сайт филиала.
+      - <span data-ttu-id="e81c8-117">Щелкните **код страны**, а затем введите четырехзначный код звонка для страны или региона, в котором расположен сайт филиала.</span><span class="sxs-lookup"><span data-stu-id="e81c8-117">Click **Country Code**, and then type the two-digit calling code for the country/region in which the branch site is located.</span></span>
 
-7.  Нажмите **Далее** и выполните любое из следующих действий:
+7.  <span data-ttu-id="e81c8-118">Нажмите кнопку **Далее**, а затем выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="e81c8-118">Click **Next**, and then do one of the following:</span></span>
     
-      - Если вы используете для обеспечения связи в филиалах или для обеспечения связи в филиалах в этом сайте, убедитесь, что установлен флажок **Open the New Survivable Wizard when this wizard closes** (Открыть мастер создания комплекса Survivable при закрытии этого мастера).
+      - <span data-ttu-id="e81c8-119">Если вы используете работающее работающее устройство филиала или его временный сервер филиала на этом сайте, убедитесь, что установлен флажок **открыть новый бесперебойный мастер при закрытом окне мастера** .</span><span class="sxs-lookup"><span data-stu-id="e81c8-119">If you are using a Survivable Branch Appliance or Survivable Branch Server at this site, be sure that the **Open the New Survivable Wizard when this wizard closes** check box is selected.</span></span>
     
-      - Если вы не используете для обеспечения связи в филиалах или для обеспечения связи в филиалах в этом сайте, снимите флажок **Open the New Survivable Wizard when this wizard closes** (Открыть мастер создания комплекса Survivable при закрытии этого мастера).
+      - <span data-ttu-id="e81c8-120">Если вы не используете работающее работающее устройство филиала или бесперебойную подразделение сервера на этом сайте, снимите флажок **открыть новый бесперебойный мастер, когда этот мастер** закроется.</span><span class="sxs-lookup"><span data-stu-id="e81c8-120">If you are not using a Survivable Branch Appliance or Survivable Branch Server at this site, clear the **Open the New Survivable Wizard when this wizard closes** check box.</span></span>
     
-      - Щелкните **Finish** (Готово), а затем следуйте инструкциям, представленным в открывшемся мастере. Для получения информации о пунктах, доступных в мастере, см. [Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+      - <span data-ttu-id="e81c8-121">Нажмите кнопку **Готово**, а затем следуйте указаниям в открывшемся мастере.</span><span class="sxs-lookup"><span data-stu-id="e81c8-121">Click **Finish**, and then follow the directions in the wizard that opens.</span></span> <span data-ttu-id="e81c8-122">Сведения об элементах мастера можно найти [в разделе Определение работающего устройства филиала или сервера в Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span><span class="sxs-lookup"><span data-stu-id="e81c8-122">For information about wizard items, see [Define a Survivable Branch Appliance or Server in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).</span></span>
 
-8.  Повторите предыдущие действия для каждого сайта филиала, который необходимо добавить в топологию.
+8.  <span data-ttu-id="e81c8-123">Повторите описанные выше действия для всех сайтов филиалов, которые нужно добавить в топологию.</span><span class="sxs-lookup"><span data-stu-id="e81c8-123">Repeat the previous steps for each branch site that you want to add to the topology.</span></span>
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
-[Определение шлюза ТСОП для сайта филиала в Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-[Настройка магистрали с обходом сервера-посредника в Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Настройка магистрали без обхода сервера-посредника в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+## <a name="see-also"></a><span data-ttu-id="e81c8-124">См. также</span><span class="sxs-lookup"><span data-stu-id="e81c8-124">See Also</span></span>
+
+
+[<span data-ttu-id="e81c8-125">Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81c8-125">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
+[<span data-ttu-id="e81c8-126">Определение шлюза ТСОП для сайта филиала в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81c8-126">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
+[<span data-ttu-id="e81c8-127">Configure a trunk with media bypass in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81c8-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="e81c8-128">Настройка магистрали без обхода мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e81c8-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

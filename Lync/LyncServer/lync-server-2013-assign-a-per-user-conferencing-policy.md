@@ -1,116 +1,124 @@
-﻿---
-title: Назначение политики конференц-связи уровня пользователя
-TOCTitle: Назначение политики конференц-связи уровня пользователя
-ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg521015(v=OCS.15)
-ms:contentKeyID: 49310158
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Назначение политики конференц-связи уровня пользователя
+title: 'Lync Server 2013: назначение политики конференций для отдельных пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user conferencing policy
+ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521015(v=OCS.15)
+ms:contentKeyID: 48184475
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9dbeb129ef58c6993d1cd919b03d7417d35b439a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841918"
+---
+# <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="499e5-102">Назначение политики конференций для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="499e5-102">Assign a per-user conferencing policy in Lync Server 2013</span></span>
 
  
 
-_**Дата изменения раздела:** 2013-02-22_
 
-Политика конференц-связи — это один из параметров учетной записи пользователя, который можно настроить в панели управления Lync Server.
+<span data-ttu-id="499e5-103">Политика конференц-связи — это один из параметров учетной записи пользователя, которую можно настроить на панели управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="499e5-103">The conferencing policy is one of the individual settings of a user account that you can configure in Lync Server Control Panel.</span></span>
 
-Развертывание одной или нескольких политик конференц-связи на уровне пользователей не является обязательным. Вы можете развернуть политику конференц-связи только на глобальном уровне или на уровне сайта. Если вы развертываете политики на уровне пользователей, их нужно явно назначить пользователям, группам или объектам контактов. Если не назначена политика на уровне сайта или пользователя, по умолчанию пользователю предоставляются права и разрешения конференц-связи, определенные в глобальной политике конференц-связи.
+<span data-ttu-id="499e5-104">Развертывание одной или нескольких политик конференц-связи для пользователей не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="499e5-104">Deploying one or more per-user conferencing policies is optional.</span></span> <span data-ttu-id="499e5-105">Вы также можете развернуть только политику Конференции глобального уровня или политику конференций на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="499e5-105">You can also deploy only a global-level conferencing policy or site-level conferencing policy.</span></span> <span data-ttu-id="499e5-106">Если вы выполняете развертывание политик для пользователей, необходимо явным образом назначать их пользователям, группам и контактным объектам.</span><span class="sxs-lookup"><span data-stu-id="499e5-106">If you do deploy per-user policies, you must explicitly assign them to users, groups, or contact objects.</span></span> <span data-ttu-id="499e5-107">Пользовательские права и разрешения для конференций автоматически определяются по умолчанию в соответствии с политикой Конференции глобального уровня, если не назначено ни одного определенного уровня сайта или политики пользователя.</span><span class="sxs-lookup"><span data-stu-id="499e5-107">Conferencing user rights and permissions automatically default to those defined in the global-level conferencing policy when no specific site-level or per-user policy is assigned.</span></span>
 
-Создав по крайней мере одну политику конференц-связи на уровне пользователя, определяющую права и разрешения, которые сервер должен предоставлять организованным пользователем собраниям, назначьте ее с помощью инструкций в этом разделе.
+<span data-ttu-id="499e5-108">После того как вы создадите хотя бы одну политику конференций для пользователя, выполните описанные в этой статье действия, чтобы назначить политику, которая определяет права и разрешения пользователей, которые нужно предоставить серверу собраниям, упорядоченным определенным пользователем.</span><span class="sxs-lookup"><span data-stu-id="499e5-108">After creating at least one per-user conferencing policy, use the procedures in this topic to assign the policy that specifies the user rights and permissions that you want the server to grant to the meetings organized by a particular user.</span></span>
 
-Список всех доступных параметров политики конференц-связи см. в разделе [Информация о параметрах политики конференц-связи в Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+<span data-ttu-id="499e5-109">Список всех доступных параметров политики конференций приведен в [справочнике параметры политики конференц-связи для Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).</span><span class="sxs-lookup"><span data-stu-id="499e5-109">For a list of all available conferencing policy settings, see [Conferencing policy settings reference for Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).</span></span>
 
-Подробные сведения о создании политик конференц-связи на уровне пользователя см. в разделе [Создание или изменения политики конференц-связи в Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+<span data-ttu-id="499e5-110">Дополнительные сведения о создании политик конференц-связи можно найти в статьях [Создание и изменение политики конференций в Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).</span><span class="sxs-lookup"><span data-stu-id="499e5-110">For details about creating conferencing policies, see [Create or modify a conferencing policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).</span></span>
 
-## Назначение политики конференц-связи на уровне пользователя
+## <a name="to-assign-a-per-user-conferencing-policy"></a><span data-ttu-id="499e5-111">Назначение политики конференции для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="499e5-111">To assign a per-user conferencing policy</span></span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
+1.  <span data-ttu-id="499e5-112">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="499e5-112">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  <span data-ttu-id="499e5-113">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="499e5-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="499e5-114">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="499e5-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  На панели навигации слева щелкните пункт **Пользователи**.
+3.  <span data-ttu-id="499e5-115">На левой панели навигации щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="499e5-115">In the left navigation bar, click **Users**.</span></span>
 
-4.  Чтобы найти пользователя, используйте один из следующих способов.
+4.  <span data-ttu-id="499e5-116">Используйте один из следующих методов для обнаружения пользователя:</span><span class="sxs-lookup"><span data-stu-id="499e5-116">Use one of the following methods to locate a user:</span></span>
     
-      - В поле **Поиск пользователей** введите первую часть или полное отображаемое имя, имя пользователя, его фамилию, имя учетной записи SAM, SIP-адрес или универсальный код ресурса (URI) учетной записи, после чего нажмите кнопку **Найти**.
+      - <span data-ttu-id="499e5-117">В поле **Поиск пользователей** введите отображаемое имя (полностью или первую его часть), имя, фамилию, имя учетной записи SAM (Security Accounts Manager — диспетчер учетных записей безопасности), SIP-адрес или линейный идентификатор URI (Uniform Resource Identifier — универсальный код ресурса) учетной записи пользователя, а затем щелкните **Найти**.</span><span class="sxs-lookup"><span data-stu-id="499e5-117">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - Если у вас есть сохраненный запрос, щелкните значок **Открыть запрос**, в диалоговом окне **Открыть** выберите запрос (файл USF) и нажмите кнопку **Найти**.
+      - <span data-ttu-id="499e5-118">Если у вас есть сохраненный запрос, щелкните значок **Открыть запрос**. С помощью диалогового окна **Открыть** загрузите запрос (файл .usf), а затем щелкните **Поиск**.</span><span class="sxs-lookup"><span data-stu-id="499e5-118">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  (Необязательно) Укажите дополнительные условия поиска, чтобы сузить результаты.
+5.  <span data-ttu-id="499e5-119">(Необязательно) Задайте дополнительные критерии поиска, чтобы сократить количество результатов:</span><span class="sxs-lookup"><span data-stu-id="499e5-119">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  Нажмите кнопку **Добавить фильтр**.
+    1.  <span data-ttu-id="499e5-120">Щелкните **Добавить фильтр**.</span><span class="sxs-lookup"><span data-stu-id="499e5-120">Click **Add Filter**.</span></span>
     
-    2.  Введите свойство пользователя или выберите его, щелкнув стрелку раскрывающегося списка.
+    2.  <span data-ttu-id="499e5-121">Введите свойства пользователя; для это введите его или щелкните стрелку в раскрывающемся списке, чтобы выбрать свойство.</span><span class="sxs-lookup"><span data-stu-id="499e5-121">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  В раскрывающемся списке **Равно** выберите оператор (например, **Равно** или **Не равно**).
+    3.  <span data-ttu-id="499e5-122">В раскрывающемся списке **Равно** щелкните оператор (например, **Равно** или **Не равно**).</span><span class="sxs-lookup"><span data-stu-id="499e5-122">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  В зависимости от выбранного свойства пользователя введите нужное условие для фильтрации результатов поиска или выберите его в раскрывающемся списке.
+    4.  <span data-ttu-id="499e5-123">В зависимости от выбранного свойства пользователя введите критерии, которые необходимо использовать для фильтрации результатов поиска; для это введите его или щелкните стрелку в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="499e5-123">Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
 
-        > [!TIP]
-        > Чтобы добавить в запрос дополнительные инструкции поиска, нажмите кнопку <STRONG>Добавить фильтр</STRONG>.
+        > [!TIP]  
+        > <span data-ttu-id="499e5-124">Чтобы добавить в запрос дополнительные условия поиска, щелкните <STRONG>Добавить фильтр</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="499e5-124">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
 
     
-    5.  Нажмите кнопку **Найти**.
+    5.  <span data-ttu-id="499e5-125">Щелкните **Поиск**.</span><span class="sxs-lookup"><span data-stu-id="499e5-125">Click **Find**.</span></span>
 
-6.  Выберите пользователя в результатах поиска, щелкните пункт **Действие**, а затем щелкните **Назначить политики**.
+6.  <span data-ttu-id="499e5-126">Выберите пользователя в списке результатов поиска, щелкните **Действие**, а затем **Назначить политики**.</span><span class="sxs-lookup"><span data-stu-id="499e5-126">Click a user in the search results, click **Action**, and then click **Assign policies**.</span></span>
     
 
-    > [!TIP]
-    > Если вы хотите применить одну политику конференц-связи к нескольким пользователям, выберите в результатах поиска нескольких пользователей, щелкните пункт <STRONG>Действия</STRONG>, а затем щелкните <STRONG>Назначить политики</STRONG>.
+    > [!TIP]  
+    > <span data-ttu-id="499e5-127">Если вы хотите применить одну и ту же политику конференций для нескольких пользователей, выберите в результатах поиска нескольких пользователей, а затем нажмите кнопку <STRONG>действия</STRONG>и выберите команду <STRONG>назначить политики</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="499e5-127">If you want the same per-user conferencing policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.</span></span>
 
 
 
-7.  В окне **Назначение политик** в разделе **Политика конференц-связи** выполните одно из следующих действий.
+7.  <span data-ttu-id="499e5-128">В группе **назначение политик**в разделе **Политика Конференц**-связи выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="499e5-128">In **Assign Policies**, under **Conferencing policy**, do one of the following:</span></span>
     
+
     > [!NOTE]  
-    > Поскольку в диалоговом окне <strong>Назначение политик</strong> можно настроить несколько политик, для каждой из них по умолчанию выбран вариант <strong>&lt;Оставить как есть&gt;</strong>. Чтобы не изменять политику, ранее назначенную пользователю, оставьте это значение.    
-      - Выберите вариант **\<Автоматически\>**, чтобы разрешить Lync Server 2013 автоматически выбирать глобальную политику или политику на уровне сайта, если она определена.
+    > <span data-ttu-id="499e5-129">Поскольку есть несколько политик, которые можно настроить в разделе <STRONG>назначение политик</STRONG>, <STRONG> &lt;&gt; </STRONG> для каждой из них в диалоговом окне по умолчанию выбран параметр Сохранить как.</span><span class="sxs-lookup"><span data-stu-id="499e5-129">Because there are multiple policies that you can configure in <STRONG>Assign Policies</STRONG>, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box.</span></span> <span data-ttu-id="499e5-130">Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.</span><span class="sxs-lookup"><span data-stu-id="499e5-130">Continue using the policy previously assigned to the user by making no changes to this setting.</span></span>
+
     
-      - Щелкните название политики конференц-связи на уровне пользователя, которую вы ранее определили на странице **Политика конференц-связи**.
+      - <span data-ttu-id="499e5-131">Выберите \*\* \<автоматически\> \*\* , чтобы разрешить Lync Server 2013 автоматически выбрать политику глобального уровня или, если она определена, политику на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="499e5-131">Select **\<Automatic\>** to allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.</span></span>
+    
+      - <span data-ttu-id="499e5-132">Щелкните имя политики конференц-связи пользователей, которая ранее определена на странице " **Политика Конференц** -связи".</span><span class="sxs-lookup"><span data-stu-id="499e5-132">Click the name of a per-user conferencing policy you previously defined on the **Conferencing Policy** page.</span></span>
         
 
-        > [!TIP]
-        > Чтобы вам было легче определить политику, которую нужно назначить пользователю, после выбора названия политики вы можете нажать кнопку <STRONG>Просмотреть</STRONG>, чтобы просмотреть права и разрешения, определенные в рамках этой политики.
+        > [!TIP]  
+        > <span data-ttu-id="499e5-133">Чтобы с легкостью определить политику, которую необходимо назначить, после выбора названия политики щелкните <STRONG>Просмотр</STRONG> для просмотра прав и разрешений пользователя, заданных в политике.</span><span class="sxs-lookup"><span data-stu-id="499e5-133">To help you decide the policy you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.</span></span>
 
 
 
-8.  По завершении нажмите кнопку **ОК**.
+8.  <span data-ttu-id="499e5-134">По завершении щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="499e5-134">When you are finished, click **OK**.</span></span>
 
-## Назначение политики конференц-связи на уровне пользователя с помощью командлетов Lync Server PowerShell
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="499e5-135">Назначение политики конференций для пользователей с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="499e5-135">Assigning a Per-User Conferencing Policy by Using Windows PowerShell Cmdlets</span></span>
 
-Политики конференц-связи также можно назначить на уровне пользователя с помощью Lync Server PowerShell и командлета Grant-CsConferencingPolicy. Этот командлет можно выполнить в командная консоль Lync Server 2013 или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<span data-ttu-id="499e5-136">Политики конференции для пользователя можно назначить с помощью Windows PowerShell и командлетом Grant-КсконференЦингполици.</span><span class="sxs-lookup"><span data-stu-id="499e5-136">Per-user conferencing policies can be assigned by using Windows PowerShell and the Grant-CsConferencingPolicy cmdlet.</span></span> <span data-ttu-id="499e5-137">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="499e5-137">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="499e5-138">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="499e5-138">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-## Назначение одиночному пользователю политики конференц-связи на уровне пользователей
+## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a><span data-ttu-id="499e5-139">Назначение индивидуальной политики конференц-связи с пользователями для одного пользователя</span><span class="sxs-lookup"><span data-stu-id="499e5-139">To assign a per-user conferencing policy to a single user</span></span>
 
-  - Следующей командой пользователю Ken Myer назначается политика конференц-связи edmondConferencingPolicy на уровне пользователей.
+  - <span data-ttu-id="499e5-140">Следующая команда назначает пользователю РедмондконференЦингполици политику конференций "на пользователя" для мер.</span><span class="sxs-lookup"><span data-stu-id="499e5-140">The following command assigns the per-user conferencing policy RedmondConferencingPolicy to the user Ken Myer.</span></span>
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName "RedmondConferencingPolicy"
 
-## Назначение нескольким пользователям политики конференц-связи на уровне пользователей
+## <a name="to-assign-a-per-user-conferencing-policy-to-multiple-users"></a><span data-ttu-id="499e5-141">Назначение политики конференц-связи с пользователями нескольким пользователям</span><span class="sxs-lookup"><span data-stu-id="499e5-141">To assign a per-user conferencing policy to multiple users</span></span>
 
-  - Эта команда назначает политику конференц-связи на уровне пользователя HRConferencingPolicy всем пользователям, которые работают в отделе кадров. Дополнительные сведения о параметре LdapFilter, используемом в этой команде, см. в документации для командлета [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - <span data-ttu-id="499e5-142">Эта команда назначает политику конференц-связи пользователей ХрконференЦингполици всем пользователям, которые работают в отделе кадров.</span><span class="sxs-lookup"><span data-stu-id="499e5-142">This command assigns the per-user conferencing policy HRConferencingPolicy to all the users who work for the Human Resources department.</span></span> <span data-ttu-id="499e5-143">Дополнительные сведения о параметре Лдапфилтер, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="499e5-143">For more information on the LdapFilter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
-## Отмена назначения политики конференц-связи на уровне пользователей
+## <a name="to-unassign-a-per-user-conferencing-policy"></a><span data-ttu-id="499e5-144">Отмена политики конференции для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="499e5-144">To unassign a per-user conferencing policy</span></span>
 
-  - Следующей командой отменяется любая политика конференц-связи на уровне пользователей, ранее назначенная пользователю Ken Myer. После того как политика на уровне пользователей отменена, Ken Myer будет автоматически управляться с помощью глобальной политики или политики его локального сайта, если такая существует. Политика сайта имеет приоритет над глобальной политикой.
+  - <span data-ttu-id="499e5-145">Следующая команда отменяет назначение каждой политики конференц-связи пользователей, ранее назначенной для Кен мер.</span><span class="sxs-lookup"><span data-stu-id="499e5-145">The following command unassigns any per-user conferencing policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="499e5-146">После отмены назначения для Кена Майера будет автоматически действовать глобальная политика или локальная политика сайта, если такая существует.</span><span class="sxs-lookup"><span data-stu-id="499e5-146">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="499e5-147">Политика сайта имеет приоритет над глобальной политикой.</span><span class="sxs-lookup"><span data-stu-id="499e5-147">A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки о командлете [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy).
+<span data-ttu-id="499e5-148">Дополнительные сведения можно найти в разделе справки о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="499e5-148">For more information, see the help topic for the [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\)) cmdlet.</span></span>
 
-## См. также
+## <a name="see-also"></a><span data-ttu-id="499e5-149">См. также</span><span class="sxs-lookup"><span data-stu-id="499e5-149">See Also</span></span>
 
-#### Задачи
 
-[Создание или изменения политики конференц-связи в Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)  
+[<span data-ttu-id="499e5-150">Создание и изменение политики конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="499e5-150">Create or modify a conferencing policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-conferencing-policy.md)  
 
-#### Другие ресурсы
 
-[Назначение политик уровня пользователя в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+[<span data-ttu-id="499e5-151">Назначение политик для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="499e5-151">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 

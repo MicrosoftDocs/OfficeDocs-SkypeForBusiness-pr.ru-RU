@@ -1,43 +1,81 @@
-﻿---
-title: Импорт политик и параметров
-TOCTitle: Импорт политик и параметров
-ms:assetid: b25decee-2ee5-4836-b370-454411d39252
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205178(v=OCS.15)
-ms:contentKeyID: 49310900
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Импорт политик и параметров
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Import policies and settings
+ms:assetid: b25decee-2ee5-4836-b370-454411d39252
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205178(v=OCS.15)
+ms:contentKeyID: 48185147
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5f4a4d86d687236934c319e3fb7bd5e6c8027a73
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841987"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Импорт политик и параметров
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-28_
+# <a name="import-policies-and-settings"></a><span data-ttu-id="37f9b-102">Импорт политик и параметров</span><span class="sxs-lookup"><span data-stu-id="37f9b-102">Import policies and settings</span></span>
 
-После объединения данных топологии Office Communications Server 2007 R2 с пилотным пулом Lync Server 2013 вам нужно выполнить командлет командной консоли Lync Server 2013, чтобы перенести политики и параметры конфигурации Office Communications Server 2007 R2 в пилотный пул Lync Server 2013.
+</div>
 
-Командлет **Import-CsLegacyConfiguration** импортирует политики, маршруты голосовых вызовов, абонентские группы, URL-адреса Communicator Web Access и номера для телефонного подключения в Lync Server 2013.
+<div id="mainSection">
 
-## Перенос политик и параметров
+<div id="mainBody">
 
-1.  На сервере переднего плана Lync Server 2013 запустите Командная консоль Lync Server.
+<span> </span>
 
-2.  В командной строке введите следующую команду:
+<span data-ttu-id="37f9b-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="37f9b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="37f9b-104">После того как вы объедините сведения о топологии Office Communications Server 2007 R2 с помощью проекта Lync Server 2013 для пилотного пула, необходимо запустить командлет командной консоли Lync Server 2013 для миграции политик и параметров конфигурации Office Communications Server 2007 R2 в состав пула Lync Server 2013 Pilot.</span><span class="sxs-lookup"><span data-stu-id="37f9b-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
+
+<span data-ttu-id="37f9b-105">Командлет **Import-кслегациконфигуратион** импортирует политики, маршруты голосовой связи, абонентские группы, URL-адреса Communicator Web Access и номера доступа для телефонного подключения в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37f9b-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
+
+<div>
+
+## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="37f9b-106">Миграция политик и параметров</span><span class="sxs-lookup"><span data-stu-id="37f9b-106">To migrate policies and settings</span></span>
+
+1.  <span data-ttu-id="37f9b-107">На сервере переднего плана Lync Server 2013 запустите командную консоль Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="37f9b-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="37f9b-108">В командной строке введите следующую команду:</span><span class="sxs-lookup"><span data-stu-id="37f9b-108">At the command line, type the following:</span></span>
     
         Import-CsLegacyConfiguration
     
-    После импорта политик просмотрите их в управления Lync Server с помощью следующей процедуры.
+    <span data-ttu-id="37f9b-109">После импорта политик воспользуйтесь приведенными ниже инструкциями, чтобы просмотреть импортированные политики на панели управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="37f9b-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
 
-## Просмотр импортированных политик
+</div>
 
-1.  Откройте панель управления Lync Server 2013.
+<div>
 
-2.  Выберите пункт **Маршрутизация голосовой связи** и просмотрите импортированные политики.
+## <a name="to-view-imported-policies"></a><span data-ttu-id="37f9b-110">Просмотр импортированных политик</span><span class="sxs-lookup"><span data-stu-id="37f9b-110">To view imported policies</span></span>
 
-3.  Выберите пункт **Конференц-связь** и просмотрите импортированные политики.
+1.  <span data-ttu-id="37f9b-111">Откройте панель управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37f9b-111">Open Lync Server 2013 Control Panel.</span></span>
 
-4.  Выберите пункт **Федерация и внешний доступ** и просмотрите импортированные политики.
+2.  <span data-ttu-id="37f9b-112">Нажмите кнопку **Маршрутизация голоса** и просмотрите импортированные политики.</span><span class="sxs-lookup"><span data-stu-id="37f9b-112">Click **Voice Routing** and view the imported policies.</span></span>
 
-5.  Выберите пункт **Мониторинг и архивация** и просмотрите импортированные политики.
+3.  <span data-ttu-id="37f9b-113">Выберите **Конференц** -связь и просмотрите импортированные политики.</span><span class="sxs-lookup"><span data-stu-id="37f9b-113">Click **Conferencing** and view the imported policies.</span></span>
+
+4.  <span data-ttu-id="37f9b-114">Выберите пункт **Федерация и внешний доступ** и просмотрите импортированные политики.</span><span class="sxs-lookup"><span data-stu-id="37f9b-114">Click **Federation and External Access** and view the imported policies.</span></span>
+
+5.  <span data-ttu-id="37f9b-115">Нажмите кнопку **мониторинг и архивация** и просмотрите импортированные политики.</span><span class="sxs-lookup"><span data-stu-id="37f9b-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: конфигурация страницы присоединения к собранию'
-TOCTitle: Конфигурация страницы присоединения к собранию
-ms:assetid: 45880423-47f4-49af-b825-cbd8e3fc1046
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204861(v=OCS.15)
-ms:contentKeyID: 49309628
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: конфигурация страницы присоединения к собранию'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring the meeting join page
+ms:assetid: 45880423-47f4-49af-b825-cbd8e3fc1046
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204861(v=OCS.15)
+ms:contentKeyID: 48184037
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 984386eb15aac3c3d2d46c9d7aaab53457915b39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841170"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Конфигурация страницы присоединения к собранию в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a><span data-ttu-id="2935e-102">Конфигурация страницы присоединения к собранию в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2935e-102">Configuring the meeting join page in Lync Server 2013</span></span>
 
-Если пользователь щелкает ссылку собрания в приглашении на собрание, страница присоединения к собранию определяет, установлен ли на пользовательском компьютере клиент Lync 2013. Если клиент уже установлен, он открывается и присоединяется к собранию. Если клиент не установлен, по умолчанию открывается версия Lync Web App 2013.
+</div>
 
-Можно изменить поведение страницы присоединения к собранию, если необходимо разрешить пользователям присоединяться к собраниям с использованием Office Communicator 2007 R2 или оператор Lync 2010. Эти параметры конфигурации были удалены из панели управления Lync Server 2013, однако можно настроить их с помощью командлета Set-CsWebServiceConfiguration.
+<div id="mainSection">
 
-### Параметры Set-CsWebServiceConfiguration для страницы присоединения к собранию
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2935e-103">_**Тема последнего изменения:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="2935e-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+
+<span data-ttu-id="2935e-104">Когда пользователь щелкает ссылку на собрание в приглашении на собрание, страница присоединения к собранию определяет, уже установлен ли клиент Lync 2013 на компьютере пользователя.</span><span class="sxs-lookup"><span data-stu-id="2935e-104">When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user’s computer.</span></span> <span data-ttu-id="2935e-105">Если клиент уже установлен, клиент открывает и присоединяется к собранию.</span><span class="sxs-lookup"><span data-stu-id="2935e-105">If a client is already installed, the client opens and joins the meeting.</span></span> <span data-ttu-id="2935e-106">Если клиент не установлен, по умолчанию открывается версия 2013 для Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="2935e-106">If a client is not installed, by default the 2013 version of Lync Web App opens.</span></span>
+
+<span data-ttu-id="2935e-107">Вы можете изменить поведение страницы присоединения к собранию, если вы хотите разрешить пользователям присоединяться к собраниям с помощью Office Communicator 2007 R2 или Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="2935e-107">You can modify the behavior of the meeting join page if you want to allow users to join meetings with Office Communicator 2007 R2 or Lync 2010 Attendant.</span></span> <span data-ttu-id="2935e-108">Эти параметры конфигурации были удалены из панели управления Lync Server 2013, но их можно настроить с помощью командлета Set-Ксвебсервицеконфигуратион.</span><span class="sxs-lookup"><span data-stu-id="2935e-108">These configuration options have been removed from the Lync Server 2013 Control Panel, but you configure them by using the Set-CsWebServiceConfiguration cmdlet.</span></span>
+
+### <a name="meeting-join-page-set-cswebserviceconfiguration-parameters"></a><span data-ttu-id="2935e-109">Наборы страниц для присоединения к собранию — параметры Ксвебсервицеконфигуратион</span><span class="sxs-lookup"><span data-stu-id="2935e-109">Meeting Join Page Set-CsWebServiceConfiguration Parameters</span></span>
 
 <table>
 <colgroup>
@@ -28,38 +48,56 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Параметр Set-CsWebServiceConfiguration</th>
-<th>Описание</th>
+<th><span data-ttu-id="2935e-110">Параметр Set-Ксвебсервицеконфигуратион</span><span class="sxs-lookup"><span data-stu-id="2935e-110">Set-CsWebServiceConfiguration Parameter</span></span></th>
+<th><span data-ttu-id="2935e-111">Описание</span><span class="sxs-lookup"><span data-stu-id="2935e-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ShowJoinUsingLegacyClientLink</p></td>
-<td><p>Если параметр имеет значение True, пользователи присоединяются к собранию с помощью клиентского приложения, отличного от Lync, позволяя присоединиться к собранию с помощью Office Communicator 2007 R2. По умолчанию используется значение False.</p></td>
+<td><p><span data-ttu-id="2935e-112">Шовжоинусинглегациклиентлинк</span><span class="sxs-lookup"><span data-stu-id="2935e-112">ShowJoinUsingLegacyClientLink</span></span></p></td>
+<td><p><span data-ttu-id="2935e-113">Если установлено значение true, пользователи, присоединяющиеся к собранию с помощью клиентского приложения, отличного от Lync, получают возможность присоединиться к собранию с помощью Office Communicator 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="2935e-113">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting by using Office Communicator 2007 R2.</span></span> <span data-ttu-id="2935e-114">Значение по умолчанию — False.</span><span class="sxs-lookup"><span data-stu-id="2935e-114">The default value is False.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>Если задано значение True, пользователям будут автоматически показаны дополнительные варианты присоединения к сетевой конференции (например, с помощью Office Communicator 2007 R2). Если параметр имеет значение False (значение по умолчанию), эти параметры будут доступны, но пользователям придется самостоятельно открывать список параметров.</p></td>
+<td><p><span data-ttu-id="2935e-115">Шовалтернатежоиноптионсекспандед</span><span class="sxs-lookup"><span data-stu-id="2935e-115">ShowAlternateJoinOptionsExpanded</span></span></p></td>
+<td><p><span data-ttu-id="2935e-116">Если установлено значение true, дополнительные параметры для присоединения к онлайн-конференции (например, Office Communicator 2007 R2) автоматически развертываются и появятся для пользователей.</span><span class="sxs-lookup"><span data-stu-id="2935e-116">When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users.</span></span> <span data-ttu-id="2935e-117">Если задано значение false (по умолчанию), эти параметры будут доступны, но пользователю потребуется отобразить список параметров.</span><span class="sxs-lookup"><span data-stu-id="2935e-117">When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Настройка страницы присоединения к собранию с помощью командная консоль Lync Server 2013
+<div>
 
-1.  Откройте командная консоль Lync Server 2013. В меню **Пуск** последовательно выберите пункты **Все программы** , **Microsoft Lync Server 2013** и **Командная консоль Lync Server**.
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a><span data-ttu-id="2935e-118">Настройка страницы присоединения к собранию с помощью управляющей оболочки Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2935e-118">To configure the meeting join page by using Lync Server 2013 Management Shell</span></span>
 
-2.  Чтобы просмотреть параметры конфигурации веб-служб, выполните следующий командлет:
+1.  <span data-ttu-id="2935e-119">Запустите командную консоль Lync Server 2013: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и щелкните **Командная консоль управления Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="2935e-119">Start the Lync Server 2013 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="2935e-120">Чтобы просмотреть параметры конфигурации веб-службы, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="2935e-120">To view the web service configuration settings, run the following cmdlet:</span></span>
     
         Get-CsWebServiceConfiguration
 
-3.  Выполните следующую команду, установив для параметров значения «True» или «False» в зависимости от предпочтений (подробные сведения о параметрах этого командлета см. [Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration) в документации командная консоль Lync Server 2013):
+3.  <span data-ttu-id="2935e-121">Выполните следующую команду, если для параметров задано значение истина или ложь, в зависимости от предпочтения (Дополнительные сведения о параметрах этого командлета можно найти в статье [Set-ксвебсервицеконфигуратион](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration) в документации по среде управления Lync Server 2013).</span><span class="sxs-lookup"><span data-stu-id="2935e-121">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration) in the Lync Server 2013 Management Shell documentation):</span></span>
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
+## <a name="see-also"></a><span data-ttu-id="2935e-122">См. также</span><span class="sxs-lookup"><span data-stu-id="2935e-122">See Also</span></span>
+
+
+[<span data-ttu-id="2935e-123">Set-Ксвебсервицеконфигуратион</span><span class="sxs-lookup"><span data-stu-id="2935e-123">Set-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

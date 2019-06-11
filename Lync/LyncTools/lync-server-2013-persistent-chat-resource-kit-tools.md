@@ -1,67 +1,117 @@
-﻿---
-title: Lync Server 2013 Persistent Chat Resource Kit Tools
+---
+title: Средства набора ресурсов сохраняемого чата для Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945599(v=OCS.15)
-ms:contentKeyID: 52058575
-ms.date: 08/03/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
+ms:contentKeyID: 51541423
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842043"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 Persistent Chat Resource Kit Tools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-24_
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a><span data-ttu-id="12d99-102">Средства набора ресурсов сохраняемого чата для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12d99-102">Lync Server 2013 Persistent Chat Resource Kit Tools</span></span>
 
-The Lync Server 2013 сохраняемый сеанс беседы Resource Kit tools help to make routine tasks easier for IT administrators who deploy and manage Lync Server 2013 сохраняемого сеанса беседы. In addition to installation instructions, this topic describes the purpose of each tool, and examples of its use.
+</div>
 
-## Installation of the Resource Kit Tools
+<div id="mainSection">
 
-To install the Resource Kit Tools сервера Lync Server 2013, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
+<div id="mainBody">
 
-> [!IMPORTANT]
-> After installing the Resource Kit Tools сервера Lync Server 2013, you must install <strong>PsExec.exe</strong> and copy <strong>PsExec.exe</strong> to the following path: \<strong>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</strong>. If you do not copy <strong>PsExec.exe</strong>, the сохраняемый сеанс беседы Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <strong>PsExec.exe</strong>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</a>.
+<span> </span>
+
+<span data-ttu-id="12d99-103">_**Тема последнего изменения:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="12d99-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+
+<span data-ttu-id="12d99-104">Средства набора ресурсов сохраняемый чат для Lync Server 2013 помогают упростить выполнение повседневных задач для ИТ – администраторов, которые развертывают и управляют сервером Lync Server 2013 с сохраненным чат.</span><span class="sxs-lookup"><span data-stu-id="12d99-104">The Lync Server 2013 Persistent Chat Resource Kit tools help to make routine tasks easier for IT administrators who deploy and manage Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="12d99-105">В дополнение к инструкциям по установке в этом разделе описывается назначение каждого инструмента и примеры его использования.</span><span class="sxs-lookup"><span data-stu-id="12d99-105">In addition to installation instructions, this topic describes the purpose of each tool, and examples of its use.</span></span>
+
+<div>
+
+## <a name="installation-of-the-resource-kit-tools"></a><span data-ttu-id="12d99-106">Установка средств из набора ресурсов</span><span class="sxs-lookup"><span data-stu-id="12d99-106">Installation of the Resource Kit Tools</span></span>
+
+<span data-ttu-id="12d99-107">Чтобы установить Lync Server 2013, средства набора ресурсов, загрузите **персистентчатрескит. msi**.</span><span class="sxs-lookup"><span data-stu-id="12d99-107">To install the Lync Server 2013, Resource Kit Tools, download **PersistentChatReskit.msi**.</span></span> <span data-ttu-id="12d99-108">Запустите **персистентчатрескит. msi** , чтобы выполнить простую установку.</span><span class="sxs-lookup"><span data-stu-id="12d99-108">Run **PersistentChatReskit.msi** to do a simple installation.</span></span> <span data-ttu-id="12d99-109">MSI устанавливает все инструменты, описанные в следующем пути: \\ **Program Files\\ Microsoft Lync Server 2013\\, пакет ресурсов**для работы сервера.</span><span class="sxs-lookup"><span data-stu-id="12d99-109">The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**.</span></span> <span data-ttu-id="12d99-110">Инструменты, представляющие собой автономные исполняемые файлы, находятся непосредственно в этой папке.</span><span class="sxs-lookup"><span data-stu-id="12d99-110">Tools that are self-contained executables are in this folder.</span></span> <span data-ttu-id="12d99-111">Инструменты, у которых также есть файлы, находятся в своих вложенных папках.</span><span class="sxs-lookup"><span data-stu-id="12d99-111">Tools that also have files are in their own subfolders.</span></span>
+
+<div>
 
 
-## Supported Environments
+> [!IMPORTANT]  
+> <span data-ttu-id="12d99-112">После установки пакета Lync Server 2013, средства набора ресурсов необходимо установить <STRONG>PsExec. exe</STRONG> и скопировать <STRONG>файл PsExec. exe</STRONG> в следующий путь: \\ <STRONG>Program Files \ Microsoft Lync Server 2013 \ сохраняемый сервер ресурсов кит\чатстресстул </STRONG>.</span><span class="sxs-lookup"><span data-stu-id="12d99-112">After installing the Lync Server 2013, Resource Kit Tools, you must install <STRONG>PsExec.exe</STRONG> and copy <STRONG>PsExec.exe</STRONG> to the following path: \\<STRONG>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</STRONG>.</span></span> <span data-ttu-id="12d99-113">Если вы не копируете <STRONG>PsExec. exe</STRONG>, средство для работы с сохраняемым чат создаст исключение ошибки и не будет выполняться должным образом.</span><span class="sxs-lookup"><span data-stu-id="12d99-113">If you do not copy <STRONG>PsExec.exe</STRONG>, the Persistent Chat Stress Tool will throw an error exception, and not perform correctly.</span></span> <span data-ttu-id="12d99-114">Перед запуском средства убедитесь в том, что вы отвечаете этим требованиям предварительной версии.</span><span class="sxs-lookup"><span data-stu-id="12d99-114">Make sure that you meet this prerequisite requirement prior to running the tool.</span></span> <span data-ttu-id="12d99-115">Подробнее об установке программы <STRONG>PsExec. exe</STRONG>можно узнать <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>в разделе.</span><span class="sxs-lookup"><span data-stu-id="12d99-115">For details about installing <STRONG>PsExec.exe</STRONG>, see <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.</span></span>
 
-For optimal performance, the Resource Kit Tools сервера Lync Server 2013 should be installed in the same environment and with the same specifications that are required for Lync Server 2013.
 
-## Resource Kit Tools Overview
 
-Here are the tools that are provided in the Lync Server 2013 сохраняемый сеанс беседы Resource Kit. The following section provides a description of each tool, including requirements and example usage.
+</div>
 
-  - AffCheck
+</div>
 
-  - ChatMonitoringSummary
+<div>
 
-  - ChatStress Tool
+## <a name="supported-environments"></a><span data-ttu-id="12d99-116">Поддерживаемые среды</span><span class="sxs-lookup"><span data-stu-id="12d99-116">Supported Environments</span></span>
 
-  - ChatUpgradeVerifier
+<span data-ttu-id="12d99-117">Для оптимальной производительности в Lync Server 2013 вы сможете установить средства набора ресурсов в той же среде и те же спецификации, которые необходимы для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12d99-117">For optimal performance, the Lync Server 2013, Resource Kit Tools should be installed in the same environment and with the same specifications that are required for Lync Server 2013.</span></span>
 
-  - ChatUsageReport
+</div>
 
-  - ScheduleADSyncforPrincipal
+<div>
 
-## AffCheck
+## <a name="resource-kit-tools-overview"></a><span data-ttu-id="12d99-118">Обзор средств из набора ресурсов</span><span class="sxs-lookup"><span data-stu-id="12d99-118">Resource Kit Tools Overview</span></span>
 
-## Description
+<span data-ttu-id="12d99-119">Ниже приведены средства, доступные в наборе ресурсов для работы с пакетом Resource Chat для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="12d99-119">Here are the tools that are provided in the Lync Server 2013 Persistent Chat Resource Kit.</span></span> <span data-ttu-id="12d99-120">В следующем разделе представлено описание всех инструментов, в том числе требования и использование примера использования.</span><span class="sxs-lookup"><span data-stu-id="12d99-120">The following section provides a description of each tool, including requirements and example usage.</span></span>
 
-The AffCheck tool confirms that the сохраняемый сеанс беседы back-end database user and group affiliation records match that of Active Directory (AD DS).
+  - <span data-ttu-id="12d99-121">Аффчекк</span><span class="sxs-lookup"><span data-stu-id="12d99-121">AffCheck</span></span>
 
-## Requirements
+  - <span data-ttu-id="12d99-122">Чатмониторингсуммари</span><span class="sxs-lookup"><span data-stu-id="12d99-122">ChatMonitoringSummary</span></span>
 
-The tool is installed with the PersistentChatResKit installer on a domain joined machine.
+  - <span data-ttu-id="12d99-123">Инструмент Чатстресс</span><span class="sxs-lookup"><span data-stu-id="12d99-123">ChatStress Tool</span></span>
 
-The user account under which the tool is run must have Read access to the сохраняемый сеанс беседы back-end database and Active Directory Domain Services.
+  - <span data-ttu-id="12d99-124">Чатупградеверифиер</span><span class="sxs-lookup"><span data-stu-id="12d99-124">ChatUpgradeVerifier</span></span>
 
-## Usage
+  - <span data-ttu-id="12d99-125">Чатусажерепорт</span><span class="sxs-lookup"><span data-stu-id="12d99-125">ChatUsageReport</span></span>
 
-Configure the AffCheck.exe.config file according to the instructions in the config file and run the AffCheck tool without command-line parameters. Following are the contents of the default AffCheck.exe.config.
+  - <span data-ttu-id="12d99-126">СчедулеадсинкфорпринЦипал</span><span class="sxs-lookup"><span data-stu-id="12d99-126">ScheduleADSyncforPrincipal</span></span>
 
-**AffCheck.exe.config:**
+</div>
+
+<div>
+
+## <a name="affcheck"></a><span data-ttu-id="12d99-127">Аффчекк</span><span class="sxs-lookup"><span data-stu-id="12d99-127">AffCheck</span></span>
+
+<div>
+
+## <a name="description"></a><span data-ttu-id="12d99-128">Описание</span><span class="sxs-lookup"><span data-stu-id="12d99-128">Description</span></span>
+
+<span data-ttu-id="12d99-129">Средство Аффчекк подтверждает, что записи, заданные пользователем базы данных и принадлежности к группе, совпадают с учетными записями доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="12d99-129">The AffCheck tool confirms that the Persistent Chat back-end database user and group affiliation records match that of Active Directory Domain Services.</span></span>
+
+</div>
+
+<div>
+
+## <a name="requirements"></a><span data-ttu-id="12d99-130">Требования</span><span class="sxs-lookup"><span data-stu-id="12d99-130">Requirements</span></span>
+
+<span data-ttu-id="12d99-131">Средство устанавливается вместе с установщиком Персистентчатрескит на компьютере, подключенном к домену.</span><span class="sxs-lookup"><span data-stu-id="12d99-131">The tool is installed with the PersistentChatResKit installer on a domain joined machine.</span></span>
+
+<span data-ttu-id="12d99-132">Учетная запись пользователя, от имени которой запускается средство, должна иметь доступ на чтение к сохраняемой резервной базе данных чата и доменным службам Active Directory.</span><span class="sxs-lookup"><span data-stu-id="12d99-132">The user account under which the tool is run must have Read access to the Persistent Chat back-end database and Active Directory Domain Services.</span></span>
+
+</div>
+
+<div>
+
+## <a name="usage"></a><span data-ttu-id="12d99-133">Режим</span><span class="sxs-lookup"><span data-stu-id="12d99-133">Usage</span></span>
+
+<span data-ttu-id="12d99-134">Настройте файл Аффчекк. exe. config в соответствии с инструкциями в файле конфигурации и запустите средство Аффчекк без параметров командной строки.</span><span class="sxs-lookup"><span data-stu-id="12d99-134">Configure the AffCheck.exe.config file according to the instructions in the config file and run the AffCheck tool without command-line parameters.</span></span> <span data-ttu-id="12d99-135">Ниже приведены данные содержимого файла Аффчекк. exe. config, используемого по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="12d99-135">Following are the contents of the default AffCheck.exe.config.</span></span>
+
+<span data-ttu-id="12d99-136">**Аффчекк. exe. config:**</span><span class="sxs-lookup"><span data-stu-id="12d99-136">**AffCheck.exe.config:**</span></span>
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -96,40 +146,59 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
-```
+  ```
+</div>
 
-## ChatMonitoringSummary
+</div>
 
-## Description
+<div>
 
-The PersistentChatMonitoringSummary tool moves сохраняемый сеанс беседы monitoring information from the monitoring database into a specified CSV log file.
+## <a name="chatmonitoringsummary"></a><span data-ttu-id="12d99-137">Чатмониторингсуммари</span><span class="sxs-lookup"><span data-stu-id="12d99-137">ChatMonitoringSummary</span></span>
 
-The CSV file will contain a breakdown of сохраняемый сеанс беседы sessions by number of total sessions, successful sessions, unexpected failures, expected failures, and a breakdown of the unexpected failures by diagnostic ID, number of failures, and failure description.
+<div>
 
-## Requirements
+## <a name="description"></a><span data-ttu-id="12d99-138">Описание</span><span class="sxs-lookup"><span data-stu-id="12d99-138">Description</span></span>
 
-Install the сохраняемый сеанс беседы Resource Kit tools on a domain-joined machine that has access to the Monitoring database.
+<span data-ttu-id="12d99-139">Средство Персистентчатмониторингсуммари перемещает сохраняемые данные чата из базы данных мониторинга в указанный файл журнала CSV.</span><span class="sxs-lookup"><span data-stu-id="12d99-139">The PersistentChatMonitoringSummary tool moves Persistent Chat monitoring information from the monitoring database into a specified CSV log file.</span></span>
 
-The user account under which the tool runs must have Read access to the Monitoring database.
+<span data-ttu-id="12d99-140">CSV-файл содержит подразделение сеансов сохраняемого чата на общее количество сеансов, успешные сеансы, непредвиденные сбои, ожидаемые ошибки и разделение на непредвиденные сбои с помощью идентификатора диагностики, количества сбоев и описания сбоя.</span><span class="sxs-lookup"><span data-stu-id="12d99-140">The CSV file will contain a breakdown of Persistent Chat sessions by number of total sessions, successful sessions, unexpected failures, expected failures, and a breakdown of the unexpected failures by diagnostic ID, number of failures, and failure description.</span></span>
 
-The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectionStrings\> section that defines the connection string to the Monitoring database. It must also contain a key for the PersistentChatEndpointUri that the monitoring data will be gathered for, and a file path to a location for the CSV file that will be generated. Refer to the installed config file for examples. The file must be located in the same directory as the tool.
+</div>
 
-## Usage
+<div>
+
+## <a name="requirements"></a><span data-ttu-id="12d99-141">Требования</span><span class="sxs-lookup"><span data-stu-id="12d99-141">Requirements</span></span>
+
+<span data-ttu-id="12d99-142">Установите средства набора ресурсов сохраняемого чата на компьютере, подключенном к домену, который имеет доступ к базе данных мониторинга.</span><span class="sxs-lookup"><span data-stu-id="12d99-142">Install the Persistent Chat Resource Kit tools on a domain-joined machine that has access to the Monitoring database.</span></span>
+
+<span data-ttu-id="12d99-143">Учетная запись пользователя, под которой запускается средство, должна иметь доступ на чтение к базе данных мониторинга.</span><span class="sxs-lookup"><span data-stu-id="12d99-143">The user account under which the tool runs must have Read access to the Monitoring database.</span></span>
+
+<span data-ttu-id="12d99-144">Файл Персистентчатмониторингсуммари. exe. config должен содержать \<\> раздел connectionStrings, который определяет строку соединения с базой данных мониторинга.</span><span class="sxs-lookup"><span data-stu-id="12d99-144">The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectionStrings\> section that defines the connection string to the Monitoring database.</span></span> <span data-ttu-id="12d99-145">Оно также должно содержать ключ для Персистентчатендпоинтури, для которого будут собираться данные мониторинга, и путь к файлу для CSV-файла, который будет создан.</span><span class="sxs-lookup"><span data-stu-id="12d99-145">It must also contain a key for the PersistentChatEndpointUri that the monitoring data will be gathered for, and a file path to a location for the CSV file that will be generated.</span></span> <span data-ttu-id="12d99-146">Ознакомьтесь с примерами установленного файла конфигурации.</span><span class="sxs-lookup"><span data-stu-id="12d99-146">Refer to the installed config file for examples.</span></span> <span data-ttu-id="12d99-147">Файл должен находиться в той же папке, что и инструмент.</span><span class="sxs-lookup"><span data-stu-id="12d99-147">The file must be located in the same directory as the tool.</span></span>
+
+</div>
+
+<div>
+
+## <a name="usage"></a><span data-ttu-id="12d99-148">Режим</span><span class="sxs-lookup"><span data-stu-id="12d99-148">Usage</span></span>
 
 ```Batch
-PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
+    PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
 ```
 
-These parameters define the selection of data:
+<span data-ttu-id="12d99-149">Эти параметры определяют выбор данных:</span><span class="sxs-lookup"><span data-stu-id="12d99-149">These parameters define the selection of data:</span></span>
 
-**StartDateTime:** Optionally specifies the start date of the selection period. Default: 1/1/1753 12:00:00 AM
+<span data-ttu-id="12d99-150">**Стартдатетиме:** При необходимости указывается дата начала периода выбора.</span><span class="sxs-lookup"><span data-stu-id="12d99-150">**StartDateTime:** Optionally specifies the start date of the selection period.</span></span> <span data-ttu-id="12d99-151">По умолчанию: 1/1/1753 12:00:00 AM</span><span class="sxs-lookup"><span data-stu-id="12d99-151">Default: 1/1/1753 12:00:00 AM</span></span>
 
-**EndDateTime:** Optionally specifies the last date of the selection period. Default: Now
+<span data-ttu-id="12d99-152">**Енддатетиме:** Дополнительно определяет последнюю дату периода выбора.</span><span class="sxs-lookup"><span data-stu-id="12d99-152">**EndDateTime:** Optionally specifies the last date of the selection period.</span></span> <span data-ttu-id="12d99-153">По умолчанию: Now</span><span class="sxs-lookup"><span data-stu-id="12d99-153">Default: Now</span></span>
 
-## Example
+</div>
+
+<div>
+
+## <a name="example"></a><span data-ttu-id="12d99-154">Пример</span><span class="sxs-lookup"><span data-stu-id="12d99-154">Example</span></span>
 
 ```Batch
-  C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
+    C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
     Gathering Persistent Chat Session Summary information between "1/1/1753 12:00:00 AM" and "11/19/2012 10:11:25 AM" for Persistent Chat Endpoint Uri "persistentChatEndpointUri@domain.com"...
@@ -139,163 +208,224 @@ These parameters define the selection of data:
     Press enter to exit...
 ```
 
-## сохраняемый сеанс беседы Stress Tool
+</div>
 
-## Description
+</div>
 
-The сохраняемый сеанс беседы Stress tool provides an easy way to simulate usage of сохраняемый сеанс беседы to test real-world performance, including varied user models to better fit your expected usage scenarios.
+<div>
 
-## Requirements
+## <a name="persistent-chat-stress-tool"></a><span data-ttu-id="12d99-155">Инструмент «стресс» сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="12d99-155">Persistent Chat Stress Tool</span></span>
 
-Install the сохраняемый сеанс беседы Resource Kit tools onto a domain-joined machine that has access to the сохраняемый сеанс беседы back-end database.
+<div>
 
-In addition to this *controller* machine, you will need several *loader* machines. For every 10K users in your user model, you will need at least 4GB of free RAM on a loader machine. For example, a run with 80K users will require about 32GB of RAM spread across all loader machines. We recommend that you have at least three loader machines, regardless of expected load.
+## <a name="description"></a><span data-ttu-id="12d99-156">Описание</span><span class="sxs-lookup"><span data-stu-id="12d99-156">Description</span></span>
 
-Loader machines must have the .NET 4.5 Framework as well as the Visual C++ 2012 Redistributable installed.
+<span data-ttu-id="12d99-157">Инструмент «стресс» сохраняемый чат обеспечивает простой способ моделирования использования сохраняемого чата для тестирования реальной производительности, включая различные пользовательские модели, чтобы лучше соответствовать ожидаемым сценариям использования.</span><span class="sxs-lookup"><span data-stu-id="12d99-157">The Persistent Chat Stress tool provides an easy way to simulate usage of Persistent Chat to test real-world performance, including varied user models to better fit your expected usage scenarios.</span></span>
 
-## Configuration
+</div>
 
-Copy ChatStressTool files into a shared folder accessible from all loader machines.
+<div>
 
-Create users and channels for use in the stress run:
+## <a name="requirements"></a><span data-ttu-id="12d99-158">Требования</span><span class="sxs-lookup"><span data-stu-id="12d99-158">Requirements</span></span>
 
-  - Create as many users as your user model calls for, enable them for Lync, and set their сохраняемый сеанс беседы policy to Enabled.
+<span data-ttu-id="12d99-159">Установите средства набора ресурсов сохраняемого чата на компьютер, подключенный к домену, который имеет доступ к сохраняемой резервной базе данных чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-159">Install the Persistent Chat Resource Kit tools onto a domain-joined machine that has access to the Persistent Chat back-end database.</span></span>
 
-  - Create a category for your stress channels, and then create as many rooms as are needed under that category. The category should have all stress users in its **Allowed** list (by way of adding their OU), and stress rooms should have a privacy setting of **Open**.
+<span data-ttu-id="12d99-160">В дополнение к этому компьютеру *контроллера* вам понадобятся несколько машин *Loader* .</span><span class="sxs-lookup"><span data-stu-id="12d99-160">In addition to this *controller* machine, you will need several *loader* machines.</span></span> <span data-ttu-id="12d99-161">Для каждых 10 000 пользователей в пользовательской модели вам понадобится не менее 4 ГБ оперативной памяти на машине загрузчика.</span><span class="sxs-lookup"><span data-stu-id="12d99-161">For every 10K users in your user model, you will need at least 4GB of free RAM on a loader machine.</span></span> <span data-ttu-id="12d99-162">Например, для работы с пользователями 80K потребуется около 32 ГБ ОЗУ на всех машинах загрузчика.</span><span class="sxs-lookup"><span data-stu-id="12d99-162">For example, a run with 80K users will require about 32GB of RAM spread across all loader machines.</span></span> <span data-ttu-id="12d99-163">Мы рекомендуем использовать как минимум три компьютера загрузчика, независимо от ожидаемой нагрузки.</span><span class="sxs-lookup"><span data-stu-id="12d99-163">We recommend that you have at least three loader machines, regardless of expected load.</span></span>
 
-  - We recommend creating extra stress rooms. You can create 50,000 rooms with the following командной строки Windows PowerShell command:
-    
-       ```Powershell
+<span data-ttu-id="12d99-164">На компьютерах загрузчика должна быть установлена платформа .NET 4,5, а также распространяемый компонент Visual C++ 2012.</span><span class="sxs-lookup"><span data-stu-id="12d99-164">Loader machines must have the .NET 4.5 Framework as well as the Visual C++ 2012 Redistributable installed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="configuration"></a><span data-ttu-id="12d99-165">Конфигурация</span><span class="sxs-lookup"><span data-stu-id="12d99-165">Configuration</span></span>
+
+<span data-ttu-id="12d99-166">Скопируйте файлы Чатстресстул в общую папку, доступную на всех машинах загрузчика.</span><span class="sxs-lookup"><span data-stu-id="12d99-166">Copy ChatStressTool files into a shared folder accessible from all loader machines.</span></span>
+
+<span data-ttu-id="12d99-167">Создание пользователей и каналов для использования в нагрузочном прогоне.</span><span class="sxs-lookup"><span data-stu-id="12d99-167">Create users and channels for use in the stress run:</span></span>
+
+  - <span data-ttu-id="12d99-168">Создавайте как можно больше пользователей, для которых используется модель пользователя, включите их в Lync и установите для них параметр "сохраняемая политика чата".</span><span class="sxs-lookup"><span data-stu-id="12d99-168">Create as many users as your user model calls for, enable them for Lync, and set their Persistent Chat policy to Enabled.</span></span>
+
+  - <span data-ttu-id="12d99-169">Создайте категорию для каналов стресс-, а затем создайте столько комнат, сколько необходимо для этой категории.</span><span class="sxs-lookup"><span data-stu-id="12d99-169">Create a category for your stress channels, and then create as many rooms as are needed under that category.</span></span> <span data-ttu-id="12d99-170">У категории должны быть все повременные пользователи \*\*\*\* в списке разрешенных пользователей (с учетом их подразделений), а в помещениях для нагрузки должны быть установлены параметры конфиденциальности **Open**.</span><span class="sxs-lookup"><span data-stu-id="12d99-170">The category should have all stress users in its **Allowed** list (by way of adding their OU), and stress rooms should have a privacy setting of **Open**.</span></span>
+
+  - <span data-ttu-id="12d99-171">Мы рекомендуем создавать дополнительные помещения для нагрузки.</span><span class="sxs-lookup"><span data-stu-id="12d99-171">We recommend creating extra stress rooms.</span></span> <span data-ttu-id="12d99-172">Для создания комнат 50 000 можно использовать следующую команду интерфейса командной строки Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="12d99-172">You can create 50,000 rooms with the following Windows PowerShell command-line interface command:</span></span>
+    ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
-       ```
+    ```    
 
-Edit the configuration files to fit your topology:
+<span data-ttu-id="12d99-173">Измените файлы конфигурации в соответствии с вашей топологией.</span><span class="sxs-lookup"><span data-stu-id="12d99-173">Edit the configuration files to fit your topology:</span></span>
 
-In **LoaderProcess.exe.config**, change “controller.contoso.com” to the controller machine’s fully qualified domain name (FQDN).
+<span data-ttu-id="12d99-174">В **лоадерпроцесс. exe. config**измените значение "Controller.contoso.com" на полное доменное имя (FQDN) контроллера компьютера.</span><span class="sxs-lookup"><span data-stu-id="12d99-174">In **LoaderProcess.exe.config**, change “controller.contoso.com” to the controller machine’s fully qualified domain name (FQDN).</span></span>
 
-In **StressLauncher.exe.config:**
+<span data-ttu-id="12d99-175">В **стресслаунчер. exe. config:**</span><span class="sxs-lookup"><span data-stu-id="12d99-175">In **StressLauncher.exe.config:**</span></span>
 
-1.  Change the “LoaderBinary” setting value to the shared folder’s path.
+1.  <span data-ttu-id="12d99-176">Измените значение параметра "Лоадербинари" на путь к общей папке.</span><span class="sxs-lookup"><span data-stu-id="12d99-176">Change the “LoaderBinary” setting value to the shared folder’s path.</span></span>
 
-2.  Change “AdminUser”/”AdminPassword” to credentials that have admin access to loader machines.
+2.  <span data-ttu-id="12d99-177">Измените "Админусер"/"AdminPassword" на учетные данные, которые имеют административный доступ к компьютерам загрузчика.</span><span class="sxs-lookup"><span data-stu-id="12d99-177">Change “AdminUser”/”AdminPassword” to credentials that have admin access to loader machines.</span></span>
 
-3.  Change “ChannelCategory” to the name of the category that stress channels have been created under.
+3.  <span data-ttu-id="12d99-178">Измените "Чаннелкатегори" на название категории, для которой созданы каналы нагрузки.</span><span class="sxs-lookup"><span data-stu-id="12d99-178">Change “ChannelCategory” to the name of the category that stress channels have been created under.</span></span>
 
-4.  Change “UserNamePattern” and “UserPasswordPattern” to a template that matches your stress user credentials. {0} is replaced with the user’s index number.
+4.  <span data-ttu-id="12d99-179">Измените "Усернамепаттерн" и "Усерпассвордпаттерн" на шаблон, соответствующий вашим учетным данным пользователя.</span><span class="sxs-lookup"><span data-stu-id="12d99-179">Change “UserNamePattern” and “UserPasswordPattern” to a template that matches your stress user credentials.</span></span> <span data-ttu-id="12d99-180">{0}заменяется номером индекса пользователя.</span><span class="sxs-lookup"><span data-stu-id="12d99-180">{0} is replaced with the user’s index number.</span></span>
 
-5.  Change “Domain” to the SIP domain of your test topology.
+5.  <span data-ttu-id="12d99-181">Замените слово Domain на домен SIP для топологии тестирования.</span><span class="sxs-lookup"><span data-stu-id="12d99-181">Change “Domain” to the SIP domain of your test topology.</span></span>
 
-6.  Change “ConnectionString” to a connection string for your сохраняемый сеанс беседы back-end database.
+6.  <span data-ttu-id="12d99-182">Измените "ConnectionString" на строку подключения для сохраняемой серверной базы данных чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-182">Change “ConnectionString” to a connection string for your Persistent Chat back-end database.</span></span>
 
-7.  Change “UserIndexStart” to the index of the first stress user.
+7.  <span data-ttu-id="12d99-183">Замените значение "Усериндексстарт" индексом первого пользователя, который повлияет на погрузку.</span><span class="sxs-lookup"><span data-stu-id="12d99-183">Change “UserIndexStart” to the index of the first stress user.</span></span>
 
-8.  Change “LyncFQDN” to the FQDN of your Front End pool.
+8.  <span data-ttu-id="12d99-184">Измените значение "Линкфкдн" на полное доменное имя пула переднего плана.</span><span class="sxs-lookup"><span data-stu-id="12d99-184">Change “LyncFQDN” to the FQDN of your Front End pool.</span></span>
 
-9.  Modify the “Machines” list to include machine names for all of your loader machines.
+9.  <span data-ttu-id="12d99-185">Измените список "machines", чтобы включить имена компьютеров для всех компьютеров загрузчика.</span><span class="sxs-lookup"><span data-stu-id="12d99-185">Modify the “Machines” list to include machine names for all of your loader machines.</span></span>
 
-10. Change the baseAddress of the service endpoint (default is “controller.contoso.com”) to the FQDN of your controller machine.
+10. <span data-ttu-id="12d99-186">Измените значение baseAddress конечной точки службы (по умолчанию — "controller.contoso.com") до полного доменного имени компьютера контроллера.</span><span class="sxs-lookup"><span data-stu-id="12d99-186">Change the baseAddress of the service endpoint (default is “controller.contoso.com”) to the FQDN of your controller machine.</span></span>
 
-## Usage
+</div>
 
-After configuration is complete, open StressLauncher.exe on the controller machine. You can launch StressLauncher as any user. The credentials under which the loader processes start on the loader machines must be specified in the config file. You also must give a connection string that has Read access to the сохраняемый сеанс беседы back-end database. If this connection string uses integrated Windows authentication, you must launch StressLauncher as a user that has this access.
+<div>
 
-Alter the user model settings as needed. Click **Start Load** to initiate a run. After a minute or so, users will start being signed in, and the progress bar will begin to fill. At this point, you may can the controller machine working and take performance measurements.
+## <a name="usage"></a><span data-ttu-id="12d99-187">Режим</span><span class="sxs-lookup"><span data-stu-id="12d99-187">Usage</span></span>
 
-## ChatUpgradeVerifier
+<span data-ttu-id="12d99-188">После завершения настройки откройте Стресслаунчер. exe на контроллере компьютера.</span><span class="sxs-lookup"><span data-stu-id="12d99-188">After configuration is complete, open StressLauncher.exe on the controller machine.</span></span> <span data-ttu-id="12d99-189">Вы можете запустить Стресслаунчер как любой пользователь.</span><span class="sxs-lookup"><span data-stu-id="12d99-189">You can launch StressLauncher as any user.</span></span> <span data-ttu-id="12d99-190">Учетные данные, под которыми запускается процесс загрузчика на компьютерах загрузчика, должны быть указаны в файле конфигурации.</span><span class="sxs-lookup"><span data-stu-id="12d99-190">The credentials under which the loader processes start on the loader machines must be specified in the config file.</span></span> <span data-ttu-id="12d99-191">Кроме того, необходимо предоставить строку подключения, которая имеет доступ на чтение к сохраняемой серверной базе данных чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-191">You also must give a connection string that has Read access to the Persistent Chat back-end database.</span></span> <span data-ttu-id="12d99-192">Если строка подключения использует встроенную проверку подлинности Windows, необходимо запустить Стресслаунчер как пользователя с этим доступом.</span><span class="sxs-lookup"><span data-stu-id="12d99-192">If this connection string uses integrated Windows authentication, you must launch StressLauncher as a user that has this access.</span></span>
 
-## Description
+<span data-ttu-id="12d99-193">При необходимости измените параметры пользовательской модели.</span><span class="sxs-lookup"><span data-stu-id="12d99-193">Alter the user model settings as needed.</span></span> <span data-ttu-id="12d99-194">Нажмите кнопку **начать загрузку** , чтобы начать выполнение.</span><span class="sxs-lookup"><span data-stu-id="12d99-194">Click **Start Load** to initiate a run.</span></span> <span data-ttu-id="12d99-195">После минуты пользователь начнет вход в систему, а индикатор выполнения начнет заполняться.</span><span class="sxs-lookup"><span data-stu-id="12d99-195">After a minute or so, users will start being signed in, and the progress bar will begin to fill.</span></span> <span data-ttu-id="12d99-196">На этом этапе вы можете использовать контроллеры компьютера и получить измерения производительности.</span><span class="sxs-lookup"><span data-stu-id="12d99-196">At this point, you may can the controller machine working and take performance measurements.</span></span>
 
-ChatUpgradeVerifier is a сохраняемый сеанс беседы specific database comparison tool. The tool compares either the Group Chat 2007 R2 or Group Chat 2010 Database (2007/2010Db) to the сохраняемый сеанс беседы 2013 Database (2013Db).
+</div>
 
-The tool will check, one by one, each category, сохраняемый сеанс беседы room, and add-in in 2007/2010Db to see if it appears in the 2013Db. The comparison includes checking all settings on the category, chat room, or add-in, any principals in scope on the category, and any principal in a role on either the category or the chat room. If a category or a chat room does not appear correctly in the 2013Db, the differences will be output to a conflicts file. If, after the upgrade has occurred, the 2007/2010Db is changed and then this tool is run, there will be a differences output to the conflicts file. Note that this application is a database comparison tool only and does not validate the upgrade process.
+</div>
 
-## Requirements
+<div>
 
-Install the сохраняемый сеанс беседы Resource Kit tools on a domain-joined machine that has access to the сохраняемый сеанс беседы back-end databases (previous and current versions for сохраняемый сеанс беседы).
+## <a name="chatupgradeverifier"></a><span data-ttu-id="12d99-197">Чатупградеверифиер</span><span class="sxs-lookup"><span data-stu-id="12d99-197">ChatUpgradeVerifier</span></span>
 
-The user account under which the tool runs must have Read access to the сохраняемый сеанс беседы databases.
+<div>
 
-The ChatUpgradeVerifier.exe.config file must contain either the GroupChat2007R2Db parameter or the GroupChat2010Db parameter, with a connection string to the appropriate Group Chat database (either Groupchat 2007R2 or 2010). It must also contain a PersistentChat2013Db parameter, with a connection string to the сохраняемый сеанс беседы 2013 database.
+## <a name="description"></a><span data-ttu-id="12d99-198">Описание</span><span class="sxs-lookup"><span data-stu-id="12d99-198">Description</span></span>
 
-## Usage
+<span data-ttu-id="12d99-199">Чатупградеверифиер — это специальный инструмент для сравнения баз данных в чате.</span><span class="sxs-lookup"><span data-stu-id="12d99-199">ChatUpgradeVerifier is a Persistent Chat specific database comparison tool.</span></span> <span data-ttu-id="12d99-200">Это средство сравнивает базу данных группового чата 2007 R2 или Group Chat 2010 (2007/2010Db) с базой данных сохраняемого чата 2013 (2013Db).</span><span class="sxs-lookup"><span data-stu-id="12d99-200">The tool compares either the Group Chat 2007 R2 or Group Chat 2010 Database (2007/2010Db) to the Persistent Chat 2013 Database (2013Db).</span></span>
 
-Run **ChatUpgradeVerifier** without any parameters.
+<span data-ttu-id="12d99-201">Это средство проверит, отображается ли оно на одной категории, в области "сохраняемый чат", а надстройка в выпуске в Office 2007 или 2010Db.</span><span class="sxs-lookup"><span data-stu-id="12d99-201">The tool will check, one by one, each category, Persistent Chat room, and add-in in 2007/2010Db to see if it appears in the 2013Db.</span></span> <span data-ttu-id="12d99-202">Сравнение включает проверку всех параметров в категории, комнаты чата или надстройки, любые участники в области в этой категории и любые участники роли в этой категории либо в комнате чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-202">The comparison includes checking all settings on the category, chat room, or add-in, any principals in scope on the category, and any principal in a role on either the category or the chat room.</span></span> <span data-ttu-id="12d99-203">Если категория или комната чата не отображаются должным образом в 2013Db, эти различия будут выводиться в файл конфликтов.</span><span class="sxs-lookup"><span data-stu-id="12d99-203">If a category or a chat room does not appear correctly in the 2013Db, the differences will be output to a conflicts file.</span></span> <span data-ttu-id="12d99-204">Если после завершения обновления Office 2007 или 2010Db изменится, а затем запускается это средство, в файле конфликтов будет выводиться разница.</span><span class="sxs-lookup"><span data-stu-id="12d99-204">If, after the upgrade has occurred, the 2007/2010Db is changed and then this tool is run, there will be a differences output to the conflicts file.</span></span> <span data-ttu-id="12d99-205">Обратите внимание, что это приложение является только средством сравнения баз данных и не проверяет процесс обновления.</span><span class="sxs-lookup"><span data-stu-id="12d99-205">Note that this application is a database comparison tool only and does not validate the upgrade process.</span></span>
 
-## Example
+</div>
 
-![Запуск ChatUpgradeVerifier.exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Запуск ChatUpgradeVerifier.exe.")
+<div>
 
-## сохраняемый сеанс беседы Usage Report
+## <a name="requirements"></a><span data-ttu-id="12d99-206">Требования</span><span class="sxs-lookup"><span data-stu-id="12d99-206">Requirements</span></span>
 
-## Description
+<span data-ttu-id="12d99-207">Установка средств набора ресурсов сохраняемого чата на компьютере, подключенном к домену, который имеет доступ к сохраняемым внутренним базам данных чата (предыдущим и текущим версиям для сохраняемого чата).</span><span class="sxs-lookup"><span data-stu-id="12d99-207">Install the Persistent Chat Resource Kit tools on a domain-joined machine that has access to the Persistent Chat back-end databases (previous and current versions for Persistent Chat).</span></span>
 
-The ChatUsageReport tool generates an HTML report of сохраняемый сеанс беседы service usage.
+<span data-ttu-id="12d99-208">Учетная запись пользователя, с помощью которой запускается средство, должна иметь доступ на чтение к базам данных сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-208">The user account under which the tool runs must have Read access to the Persistent Chat databases.</span></span>
 
-## Requirements
+<span data-ttu-id="12d99-209">Файл Чатупградеверифиер. exe. config должен содержать либо параметр GroupChat2007R2Db, либо параметр GroupChat2010Db, в строке соединения с соответствующей базой данных группового чата (как Граупчат 2007R2, так и 2010).</span><span class="sxs-lookup"><span data-stu-id="12d99-209">The ChatUpgradeVerifier.exe.config file must contain either the GroupChat2007R2Db parameter or the GroupChat2010Db parameter, with a connection string to the appropriate Group Chat database (either Groupchat 2007R2 or 2010).</span></span> <span data-ttu-id="12d99-210">Кроме того, он должен содержать параметр PersistentChat2013Db со строкой соединения с базой данных сохраняемого чата-2013.</span><span class="sxs-lookup"><span data-stu-id="12d99-210">It must also contain a PersistentChat2013Db parameter, with a connection string to the Persistent Chat 2013 database.</span></span>
 
-Install the сохраняемый сеанс беседы Resource Kit tools on a domain-joined machine that has access to the сохраняемый сеанс беседы back-end database.
+</div>
 
-The user account under which the tool is run must have Read access to the сохраняемый сеанс беседы back-end database.
+<div>
 
-The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> section defining the connection string to the сохраняемый сеанс беседы back-end database. The contents of the default config file are included here, for your reference.
+## <a name="usage"></a><span data-ttu-id="12d99-211">Режим</span><span class="sxs-lookup"><span data-stu-id="12d99-211">Usage</span></span>
 
-## Usage
+<span data-ttu-id="12d99-212">Запустите **чатупградеверифиер** без каких бы то ни было параметров.</span><span class="sxs-lookup"><span data-stu-id="12d99-212">Run **ChatUpgradeVerifier** without any parameters.</span></span>
 
-```Powershell
-ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
-```
+</div>
 
-These parameters define the selection of data:
+<div>
 
-**StartDate:** Optionally specifies the UTC start date of the selection period. Default: Earliest Date
+## <a name="example"></a><span data-ttu-id="12d99-213">Пример</span><span class="sxs-lookup"><span data-stu-id="12d99-213">Example</span></span>
 
-**EndDate:** Optionally specifies the UTC end date of the selection period. Default: Now
+<span data-ttu-id="12d99-214">![Запуск чатупградеверифиер. exe.] (images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Запуск чатупградеверифиер. exe.")</span><span class="sxs-lookup"><span data-stu-id="12d99-214">![Running ChatUpgradeVerifier.exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Running ChatUpgradeVerifier.exe.")</span></span>
 
-These parameters define how and what data is displayed:
+</div>
 
-**TopActiveUsers:** If this is specified, the report will include the n most active users in terms of the number of messages the user has posted in the chat room for the selected period. Default: 10
+</div>
 
-**TopActiveRooms:** If this is specified, the report will include the n most active chat rooms in terms of the number of messages posted in the room for the selected period. Default: 10
+<div>
 
-**LeastActiveRooms:** If this is specified, the report will include the n least active chat rooms in terms of the number of messages posted in the chat room for the selected period. Rooms will have at least one message posted. Default: 10
+## <a name="persistent-chat-usage-report"></a><span data-ttu-id="12d99-215">Отчет об использовании сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="12d99-215">Persistent Chat Usage Report</span></span>
 
-**RoomsInactiveSince:** If this is specified, the report will include a list of chat rooms that have been inactive since the specified date. Default: Entire Time
+<div>
 
-**OutputFolder:** The folder where the ChatUsageReport.html and the graph images will be placed. This must be defined in the config file or on the command line.
+## <a name="description"></a><span data-ttu-id="12d99-216">Описание</span><span class="sxs-lookup"><span data-stu-id="12d99-216">Description</span></span>
 
-All of the command line parameter values can also be specified in the ChatUsageReport.exe.config file that is located in the same directory as the tool. If any value is specified in both the config file and the command line, the command line value will override the config file value.
+<span data-ttu-id="12d99-217">Средство Чатусажерепорт создает HTML-отчет по использованию службы сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-217">The ChatUsageReport tool generates an HTML report of Persistent Chat service usage.</span></span>
 
-## Output
+</div>
 
-The report will always include the following output:
+<div>
 
-  - Top n most active chat rooms by number of message posts for selected period.
+## <a name="requirements"></a><span data-ttu-id="12d99-218">Требования</span><span class="sxs-lookup"><span data-stu-id="12d99-218">Requirements</span></span>
 
-  - Top n most active users by number of message posts for selected period.
+<span data-ttu-id="12d99-219">Установите средства набора ресурсов сохраняемого чата на компьютере, подключенном к домену, который имеет доступ к сохраняемой резервной базе данных чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-219">Install the Persistent Chat Resource Kit tools on a domain-joined machine that has access to the Persistent Chat back-end database.</span></span>
 
-  - Top n least active chat rooms by number of message posts for selected period.
+<span data-ttu-id="12d99-220">Учетная запись пользователя, с помощью которой запускается инструмент, должна иметь доступ на чтение к сохраняемой обратной стороне чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-220">The user account under which the tool is run must have Read access to the Persistent Chat back-end database.</span></span>
 
-  - Chat rooms that are inactive for the entire life of the database, or since the specified date.
+<span data-ttu-id="12d99-221">Файл Чатусажерепорт. exe. config должен содержать \<\> раздел connectionStrings, определяющий строку подключения для постоянной обратной базы данных чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-221">The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> section defining the connection string to the Persistent Chat back-end database.</span></span> <span data-ttu-id="12d99-222">Содержимое файла конфигурации по умолчанию включается здесь для ссылки.</span><span class="sxs-lookup"><span data-stu-id="12d99-222">The contents of the default config file are included here, for your reference.</span></span>
 
-  - Daily message post trend for selected period.
+</div>
 
-  - Weekly message post trend for selected period.
+<div>
 
-  - Monthly message post trend for selected period.
-
-  - Total message posts for selected period.
-
-  - Total number of enabled rooms.
-
-## Example
-
-The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.
+## <a name="usage"></a><span data-ttu-id="12d99-223">Режим</span><span class="sxs-lookup"><span data-stu-id="12d99-223">Usage</span></span>
 
 ```Powershell
-ChatUsageReport -RoomsInactiveSince 06-20-2010
+    ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
 ```
+<span data-ttu-id="12d99-224">Эти параметры определяют выбор данных:</span><span class="sxs-lookup"><span data-stu-id="12d99-224">These parameters define the selection of data:</span></span>
 
-ChatUsageReport.exe.config:
+<span data-ttu-id="12d99-225">**StartDate (Дата** начала): При необходимости определяет дату начала периода выбора в формате UTC.</span><span class="sxs-lookup"><span data-stu-id="12d99-225">**StartDate:** Optionally specifies the UTC start date of the selection period.</span></span> <span data-ttu-id="12d99-226">По умолчанию: ранняя дата</span><span class="sxs-lookup"><span data-stu-id="12d99-226">Default: Earliest Date</span></span>
+
+<span data-ttu-id="12d99-227">**Дата окончания:** При необходимости определяет дату окончания периода выбора в формате UTC.</span><span class="sxs-lookup"><span data-stu-id="12d99-227">**EndDate:** Optionally specifies the UTC end date of the selection period.</span></span> <span data-ttu-id="12d99-228">По умолчанию: Now</span><span class="sxs-lookup"><span data-stu-id="12d99-228">Default: Now</span></span>
+
+<span data-ttu-id="12d99-229">Эти параметры определяют, как и какие данные отображаются.</span><span class="sxs-lookup"><span data-stu-id="12d99-229">These parameters define how and what data is displayed:</span></span>
+
+<span data-ttu-id="12d99-230">**Топактивеусерс:** Если указан этот параметр, в отчет будут включены n наиболее активных пользователей в соответствии с количеством сообщений, опубликованных пользователем в комнате чата в течение выбранного периода.</span><span class="sxs-lookup"><span data-stu-id="12d99-230">**TopActiveUsers:** If this is specified, the report will include the n most active users in terms of the number of messages the user has posted in the chat room for the selected period.</span></span> <span data-ttu-id="12d99-231">По умолчанию: 10</span><span class="sxs-lookup"><span data-stu-id="12d99-231">Default: 10</span></span>
+
+<span data-ttu-id="12d99-232">**Топактиверумс:** Если указан этот параметр, в отчет будут включены n самых активных комнат чата в соответствии с количеством сообщений, опубликованных в комнате за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-232">**TopActiveRooms:** If this is specified, the report will include the n most active chat rooms in terms of the number of messages posted in the room for the selected period.</span></span> <span data-ttu-id="12d99-233">По умолчанию: 10</span><span class="sxs-lookup"><span data-stu-id="12d99-233">Default: 10</span></span>
+
+<span data-ttu-id="12d99-234">**Леастактиверумс:** Если указан этот параметр, в отчете будут содержаться как минимум активные комнаты чата в соответствии с количеством сообщений, опубликованных в комнате чата за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-234">**LeastActiveRooms:** If this is specified, the report will include the n least active chat rooms in terms of the number of messages posted in the chat room for the selected period.</span></span> <span data-ttu-id="12d99-235">У комнат будет хотя бы одно сообщение.</span><span class="sxs-lookup"><span data-stu-id="12d99-235">Rooms will have at least one message posted.</span></span> <span data-ttu-id="12d99-236">По умолчанию: 10</span><span class="sxs-lookup"><span data-stu-id="12d99-236">Default: 10</span></span>
+
+<span data-ttu-id="12d99-237">**Румсинактивесинце:** Если задано значение, отчет будет включать список комнат чатов, которые были неактивны с момента указанной даты.</span><span class="sxs-lookup"><span data-stu-id="12d99-237">**RoomsInactiveSince:** If this is specified, the report will include a list of chat rooms that have been inactive since the specified date.</span></span> <span data-ttu-id="12d99-238">По умолчанию: все время</span><span class="sxs-lookup"><span data-stu-id="12d99-238">Default: Entire Time</span></span>
+
+<span data-ttu-id="12d99-239">**Аутпутфолдер:** Папка, в которой будут размещены изображения Чатусажерепорт. HTML и Graph.</span><span class="sxs-lookup"><span data-stu-id="12d99-239">**OutputFolder:** The folder where the ChatUsageReport.html and the graph images will be placed.</span></span> <span data-ttu-id="12d99-240">Это значение должно быть определено в файле конфигурации или в командной строке.</span><span class="sxs-lookup"><span data-stu-id="12d99-240">This must be defined in the config file or on the command line.</span></span>
+
+<span data-ttu-id="12d99-241">Все значения параметров командной строки также можно указать в файле Чатусажерепорт. exe. config, который находится в той же папке, что и инструмент.</span><span class="sxs-lookup"><span data-stu-id="12d99-241">All of the command line parameter values can also be specified in the ChatUsageReport.exe.config file that is located in the same directory as the tool.</span></span> <span data-ttu-id="12d99-242">Если в файле конфигурации и в командной строке задано какое либо значение, значение из командной строки будет переопределяться в файле конфигурации.</span><span class="sxs-lookup"><span data-stu-id="12d99-242">If any value is specified in both the config file and the command line, the command line value will override the config file value.</span></span>
+
+</div>
+
+<div>
+
+## <a name="output"></a><span data-ttu-id="12d99-243">Выходные данные</span><span class="sxs-lookup"><span data-stu-id="12d99-243">Output</span></span>
+
+<span data-ttu-id="12d99-244">В отчет всегда будут включены следующие выходные данные:</span><span class="sxs-lookup"><span data-stu-id="12d99-244">The report will always include the following output:</span></span>
+
+  - <span data-ttu-id="12d99-245">Первые n самых активных комнат чата по количеству записей в сообщении за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-245">Top n most active chat rooms by number of message posts for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-246">Первые n наиболее активных пользователей по количеству записей сообщений за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-246">Top n most active users by number of message posts for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-247">Первые n наименее активные комнаты чата по количеству записей в сообщении за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-247">Top n least active chat rooms by number of message posts for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-248">Комнаты чата, неактивные для полного существования базы данных или в соответствии с указанной датой.</span><span class="sxs-lookup"><span data-stu-id="12d99-248">Chat rooms that are inactive for the entire life of the database, or since the specified date.</span></span>
+
+  - <span data-ttu-id="12d99-249">Ежедневная Разноска сообщения за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-249">Daily message post trend for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-250">Еженедельное сообщение о тенденциях за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-250">Weekly message post trend for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-251">Месячная тенденция сообщения за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-251">Monthly message post trend for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-252">Общее количество записей в сообщении за выбранный период.</span><span class="sxs-lookup"><span data-stu-id="12d99-252">Total message posts for selected period.</span></span>
+
+  - <span data-ttu-id="12d99-253">Общее количество включенных комнат.</span><span class="sxs-lookup"><span data-stu-id="12d99-253">Total number of enabled rooms.</span></span>
+
+</div>
+
+<div>
+
+## <a name="example"></a><span data-ttu-id="12d99-254">Пример</span><span class="sxs-lookup"><span data-stu-id="12d99-254">Example</span></span>
+
+<span data-ttu-id="12d99-255">В следующем примере демонстрируется создание отчета об использовании для всего 2001 года и поместика отчета в Аутпутфолдер, указанный в Чатусажерепорт. exe. config.</span><span class="sxs-lookup"><span data-stu-id="12d99-255">The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.</span></span>
+
+```Powershell
+    ChatUsageReport -RoomsInactiveSince 06-20-2010
+```
+<span data-ttu-id="12d99-256">Чатусажерепорт. exe. config:</span><span class="sxs-lookup"><span data-stu-id="12d99-256">ChatUsageReport.exe.config:</span></span>
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -317,20 +447,35 @@ ChatUsageReport.exe.config:
       </appSettings>
     </configuration></configuration>
 ```
+</div>
 
-## ScheduleADSyncForPrincipal
+</div>
 
-## Description
+<div>
 
-ScheduleADSyncForPrincipal is a Microsoft SQL Server 2012 script that must be run directly from within SQL Server Management Studio when connected to the сохраняемый сеанс беседы back-end database. This script enables you to force сохраняемый сеанс беседы to synchronize its records of a user with those of Active Directory Domain Services, rather than waiting for the scheduled synchronization time.
+## <a name="scheduleadsyncforprincipal"></a><span data-ttu-id="12d99-257">СчедулеадсинкфорпринЦипал</span><span class="sxs-lookup"><span data-stu-id="12d99-257">ScheduleADSyncForPrincipal</span></span>
 
-## Requirements
+<div>
 
-The user account under which the script is run must have owner access to the сохраняемый сеанс беседы back-end database.
+## <a name="description"></a><span data-ttu-id="12d99-258">Описание</span><span class="sxs-lookup"><span data-stu-id="12d99-258">Description</span></span>
 
-## Usage
+<span data-ttu-id="12d99-259">СчедулеадсинкфорпринЦипал — это сценарий Microsoft SQL Server 2012, который необходимо запускать непосредственно из SQL Server Management Studio при подключении к сохраняемой обратной стороне чата в базе данных.</span><span class="sxs-lookup"><span data-stu-id="12d99-259">ScheduleADSyncForPrincipal is a Microsoft SQL Server 2012 script that must be run directly from within SQL Server Management Studio when connected to the Persistent Chat back-end database.</span></span> <span data-ttu-id="12d99-260">Этот сценарий позволяет принудительно использовать сохраняемый чат для синхронизации записей пользователя с данными из доменных служб Active Directory, а не ждать запланированного времени синхронизации.</span><span class="sxs-lookup"><span data-stu-id="12d99-260">This script enables you to force Persistent Chat to synchronize its records of a user with those of Active Directory Domain Services, rather than waiting for the scheduled synchronization time.</span></span>
 
-Following are the contents of the default script:
+</div>
+
+<div>
+
+## <a name="requirements"></a><span data-ttu-id="12d99-261">Требования</span><span class="sxs-lookup"><span data-stu-id="12d99-261">Requirements</span></span>
+
+<span data-ttu-id="12d99-262">Учетная запись пользователя, под которой запускается сценарий, должна иметь доступ владельца к сохраняемой резервной базе данных чата.</span><span class="sxs-lookup"><span data-stu-id="12d99-262">The user account under which the script is run must have owner access to the Persistent Chat back-end database.</span></span>
+
+</div>
+
+<div>
+
+## <a name="usage"></a><span data-ttu-id="12d99-263">Режим</span><span class="sxs-lookup"><span data-stu-id="12d99-263">Usage</span></span>
+
+<span data-ttu-id="12d99-264">Ниже приведено содержимое сценария по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="12d99-264">Following are the contents of the default script:</span></span>
 
 ```Powershell
     /*
@@ -369,4 +514,18 @@ Following are the contents of the default script:
         where
          prinID = <PrinID,int,0>
 ```
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,85 +1,147 @@
-﻿---
-title: 'Lync Server 2013: настройка DNS для поддержки пограничной топологии'
-TOCTitle: Настройка DNS для поддержки пограничной топологии
-ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398756(v=OCS.15)
-ms:contentKeyID: 49310572
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: настройка DNS для поддержки пограничной топологии'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure DNS for edge support
+ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398756(v=OCS.15)
+ms:contentKeyID: 48184894
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79e1712b3425c7cce4020799b37f10aba894aeb3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841392"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка DNS для поддержки пограничной топологии в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-15_
+# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a><span data-ttu-id="b0418-102">Настройка DNS для поддержки пограничной топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b0418-102">Configure DNS for edge support in Lync Server 2013</span></span>
 
-Необходимо настроить записи службы доменных имен (DNS) для внутренних и внешних пограничных интерфейсов, включая интерфейсы пограничных серверов и интерфейсы обратного прокси-сервера. По умолчанию пограничные серверы не присоединены к домену и не будут иметь полных доменных имен. На пограничный сервер можно ссылаться только по короткому (машинному) имени, а не по полному доменному имени. Однако построитель топологий использует не короткие имена, а полные доменные имена. Имя пограничного сервера должно соответствовать полному доменному имени, используемому построителем топологий. Для этого задается DNS-суффикс, который затем, после объединения с именем компьютера, дает нужное полное доменное имя. Чтобы добавить DNS-суффикс к имени компьютера, используйте процедуру, приведенную в разделе “Добавление DNS-суффикса к имени компьютера пограничного сервера, не присоединенного к домену".
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b0418-103">_**Тема последнего изменения:** 2013-02-15_</span><span class="sxs-lookup"><span data-stu-id="b0418-103">_**Topic Last Modified:** 2013-02-15_</span></span>
+
+<span data-ttu-id="b0418-104">Необходимо настроить записи DNS для внутренних и внешних интерфейсов EDGE, включая пограничный сервер и прокси-интерфейсы обратной стороны.</span><span class="sxs-lookup"><span data-stu-id="b0418-104">You must configure Domain Name System (DNS) records for internal and external edge interfaces, including both Edge Server and reverse proxy interfaces.</span></span> <span data-ttu-id="b0418-105">По умолчанию пограничные серверы не подключены к домену и не имеют полного доменного имени (полного доменного имени).</span><span class="sxs-lookup"><span data-stu-id="b0418-105">By default, Edge Servers are not joined to a domain and will not have a fully qualified domain name (fully qualified domain name).</span></span> <span data-ttu-id="b0418-106">Сервер граничного сервера ссылается только на краткое имя (компьютер), а не полное доменное имя.</span><span class="sxs-lookup"><span data-stu-id="b0418-106">The Edge Server is only referred to by the short (machine) name, not a fully qualified domain name.</span></span> <span data-ttu-id="b0418-107">Однако в построителе топологии используются полные доменные имена, а не короткие.</span><span class="sxs-lookup"><span data-stu-id="b0418-107">However, Topology Builder uses FQDNs, not short names.</span></span> <span data-ttu-id="b0418-108">Имя пограничного сервера должно совпадать с полным доменным именем, используемым построителем топологии.</span><span class="sxs-lookup"><span data-stu-id="b0418-108">The name of the Edge Server must match the FQDN used by Topology Builder.</span></span> <span data-ttu-id="b0418-109">Для этого вы определяете DNS-суффикс, после того как в сочетании с именем компьютера выводятся ожидаемые полные доменные имена.</span><span class="sxs-lookup"><span data-stu-id="b0418-109">To do this, you define a DNS suffix that, when combined with the machine name, results in the expected FQDN.</span></span> <span data-ttu-id="b0418-110">Используйте описанную ниже процедуру, чтобы добавить DNS-суффикс к имени компьютера и пограничного сервера, который не присоединен к домену, чтобы добавить DNS-суффикс к имени компьютера.</span><span class="sxs-lookup"><span data-stu-id="b0418-110">Use the following procedure in “To add the DNS suffix to the computer name on and Edge Server that is not joined to a domain” to add the DNS suffix to the computer name.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> По умолчанию DNS использует алгоритм с циклическим перебором для смены порядка данных записей ресурсов, возвращаемых в ответах на запросы, когда для запрашиваемого DNS-имени домена существует несколько записей ресурсов одного типа. Балансировка нагрузки на DNS сервера Lync Server 2013 зависит от циклического перебора DNS как части механизма балансировки нагрузки на DNS. Убедитесь, что параметр циклического перебора не был отключен. При использовании DNS-сервера, который не управляется операционной системой Windows, убедитесь, что включено упорядочивание записей ресурсов с циклическим перебором.
+> <span data-ttu-id="b0418-111">По умолчанию DNS использует алгоритм циклического прокрутки для поворота данных о записи ресурсов, возвращенных в ответах на запросы, в которых для запрашиваемого доменного имени DNS существует несколько записей ресурсов одного и того же типа.</span><span class="sxs-lookup"><span data-stu-id="b0418-111">By default, DNS uses a round robin algorithm to rotate the order of resource record data returned in query answers where multiple resource records of the same type exist for a queried DNS domain name.</span></span> <span data-ttu-id="b0418-112">Функция балансировки нагрузки DNS для Lync Server 2013 зависит от того, что циклическая служба DNS является частью механизма балансировки нагрузки DNS.</span><span class="sxs-lookup"><span data-stu-id="b0418-112">Lync Server 2013 DNS load balancing, depends on DNS round-robin as a part of the DNS Load Balancing mechanism.</span></span> <span data-ttu-id="b0418-113">Убедитесь, что параметр "циклический перебор" не отключен.</span><span class="sxs-lookup"><span data-stu-id="b0418-113">Verify that round-robin setting has not been disabled.</span></span> <span data-ttu-id="b0418-114">Если вы используете DNS-сервер, на котором не установлена операционная система Windows, убедитесь, что включен порядок записей в циклической службе.</span><span class="sxs-lookup"><span data-stu-id="b0418-114">If you are using a DNS server that is not running a Windows operating system, verify that round-robin resource record ordering is enabled.</span></span>
 
-Для создания и проверки каждой SRV-записи DNS используйте следующие процедуры в разделе “ **Создание SRV-записи DNS** ”. Для задания А-записи DNS, необходимой для доступа внешних пользователей, используйте процедуру в разделе “ **Создание А-записи DNS** ”. Для подтверждения, что записи настроены и работают правильно, см. раздел “ **Проверка записи DNS** ” в этой статье. Подробные сведения о каждой записи ресурса, необходимой для поддержки доступа внешних пользователей, см. в статье [Определение требований DNS для Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-## Добавление DNS-суффикса к имени компьютера пограничного сервера, не присоединенного к домену
 
-1.  Нажмите на компьютере кнопку **Пуск** , щелкните правой кнопкой мыши пункт **Компьютер** и выберите пункт **Свойства** .
+</div>
 
-2.  В разделе **Имя компьютера, имя домена и параметры рабочей группы** щелкните пункт **Изменить параметры** .
+<span data-ttu-id="b0418-115">Воспользуйтесь приведенными ниже инструкциями\*\*\*\*, чтобы создать и проверить каждую DNS SRV-запись.</span><span class="sxs-lookup"><span data-stu-id="b0418-115">Use the following procedures in “**To create a DNS SRV record**” to create and verify each DNS SRV record.</span></span> <span data-ttu-id="b0418-116">Используйте процедуру, описанную в разделе "**Создание записи DNS a**", чтобы определить DNS a-записи, необходимые для доступа внешних пользователей.</span><span class="sxs-lookup"><span data-stu-id="b0418-116">Use the procedure in “**To create a DNS A record**” to define the DNS A records required for external user access.</span></span> <span data-ttu-id="b0418-117">Чтобы убедиться в том, что записи настроены и правильно работают, ознакомьтесь с разделом "**Проверка DNS-записей**" в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="b0418-117">To confirm that the records are configured and working correctly, see “**To verify a DNS record**” in this topic.</span></span> <span data-ttu-id="b0418-118">Сведения о каждой записи, необходимой для поддержки внешних пользователей, приведены в разделе [Определение требований к DNS для Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="b0418-118">For details about each record required to support external user access, see [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
 
-3.  На вкладке **Имя компьютера** нажмите **Изменить** .
+<div>
 
-4.  В разделе **Изменение имени компьютера или домена** нажмите **Дополнительно** .
+## <a name="to-add-the-dns-suffix-to-the-computer-name-on-an-edge-server-that-is-not-joined-to-a-domain"></a><span data-ttu-id="b0418-119">Добавление DNS-суффикса к имени компьютера на пограничном сервере, который не входит в домен</span><span class="sxs-lookup"><span data-stu-id="b0418-119">To add the DNS suffix to the computer name on an Edge Server that is not joined to a domain</span></span>
 
-5.  В разделе **DNS-суффикс и NetBIOS-имя компьютера** в поле **Основной DNS-суффикс этого компьютера** ведите имя внутреннего домена (например, corp.contoso.com), а затем трижды нажмите кнопку **ОК** .
+1.  <span data-ttu-id="b0418-120">На компьютере нажмите кнопку **Пуск**, щелкните правой кнопкой мыши пункт **компьютер**, а затем выберите пункт **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="b0418-120">On the computer, click **Start**, right-click **Computer**, and then click **Properties**.</span></span>
 
-6.  Перезагрузите компьютер.
+2.  <span data-ttu-id="b0418-121">В разделе **имя компьютера, домен и параметры рабочей группы**нажмите кнопку **изменить параметры**.</span><span class="sxs-lookup"><span data-stu-id="b0418-121">Under **Computer name, domain, and workgroup settings**, click **Change settings**.</span></span>
 
-## Создание SRV-записи DNS
+3.  <span data-ttu-id="b0418-122">На вкладке **имя компьютера** нажмите кнопку **изменить**.</span><span class="sxs-lookup"><span data-stu-id="b0418-122">On the **Computer Name** tab, click **Change**.</span></span>
 
-1.  На соответствующем DNS-сервере нажмите кнопку **Пуск** и последовательно выберите пункты **Панель управления** , **Администрирование** и **DNS** .
+4.  <span data-ttu-id="b0418-123">В окне **изменение имени компьютера или домена**нажмите кнопку **Дополнительно**.</span><span class="sxs-lookup"><span data-stu-id="b0418-123">In **Computer Name/Domain Changes**, click **More**.</span></span>
+
+5.  <span data-ttu-id="b0418-124">В **DNS-суффиксе и NetBIOS имени компьютера**в **основном DNS-суффиксе компьютера**введите имя своего внутреннего домена (например, Corp.contoso.com), а затем нажмите кнопку **ОК** три значения.</span><span class="sxs-lookup"><span data-stu-id="b0418-124">In **DNS Suffix and NetBIOS Computer Name**, in **Primary DNS suffix of this computer**, type the name of your internal domain (for example, corp.contoso.com), and then click **OK** three times.</span></span>
+
+6.  <span data-ttu-id="b0418-125">Перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="b0418-125">Restart the computer.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-create-a-dns-srv-record"></a><span data-ttu-id="b0418-126">Создание DNS-записи SRV</span><span class="sxs-lookup"><span data-stu-id="b0418-126">To create a DNS SRV record</span></span>
+
+1.  <span data-ttu-id="b0418-127">На соответствующем DNS-сервере нажмите кнопку **Пуск**, выберите **Панель управления**, щелкните **Администрирование**и выберите **DNS**.</span><span class="sxs-lookup"><span data-stu-id="b0418-127">On the appropriate DNS server, click **Start**, click **Control Panel**, click **Administrative Tools**, and then click **DNS**.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Необходимо настроить DNS так, чтобы были: 1) внешние записи DNS для внешнего поиска DNS, выполняемого удаленными пользователями и федеративными партнерами; 2) записи для поиска DNS, используемых пограничными серверами в сети периметра (также называемой демилитаризованной зоной или промежуточной подсетью), включая записи А для внутренних серверов, на которых работает сервер Lync Server 2013; 3) внутренние записи DNS для поиска внутренними клиентами и серверами, на которых работает сервер Lync Server 2013.
+    > <span data-ttu-id="b0418-128">Вы должны настроить DNS таким образом, чтобы были доступны: 1) внешние DNS-записи для поиска внешних DNS удаленными пользователями и федеративными партнерами; 2) записи для поиска DNS для использования пограничных серверов в демилитаризованной зоне (также называемой демилитаризованной зоной, ДМЗ и экранированной подсетью), включая записи для внутренних серверов, на которых запущен Lync Server 2013; и 3) внутренние DNS-записи для подстановок внутренних клиентов и серверов с Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b0418-128">You need to configure DNS so that there are: 1) external DNS entries for external DNS lookups by remote users and federated partners; 2) entries for DNS lookups for use by the Edge Servers within the perimeter network (also known as DMZ, demilitarized zone, and screened subnet), including A records for the internal servers running Lync Server 2013; and 3) internal DNS entries for lookups by the internal clients and servers running Lync Server 2013.</span></span>
 
-2.  В дереве консоли для вашего домена SIP разверните узел **Зоны прямого просмотра** и щелкните правой кнопкой мыши домен, в котором установлен сервер Lync Server 2013.
+    
+    </div>
 
-3.  Щелкните элемент **Другие новые записи** .
+2.  <span data-ttu-id="b0418-129">В дереве консоли для вашего домена SIP разверните раздел **зоны прямого просмотра**и щелкните правой кнопкой мыши домен, в котором установлен Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b0418-129">In the console tree for your SIP domain, expand **Forward Lookup Zones**, and then right-click the domain where Lync Server 2013 is installed.</span></span>
 
-4.  В поле **Выбор типа записи ресурса** введите **Расположение службы (запись SRV)** и нажмите **Создать запись** .
+3.  <span data-ttu-id="b0418-130">Нажмите кнопку **другие новые записи**.</span><span class="sxs-lookup"><span data-stu-id="b0418-130">Click **Other New Records**.</span></span>
 
-5.  Предоставьте все необходимые сведения для А-записи DNS.
+4.  <span data-ttu-id="b0418-131">В списке **выберите тип записи ресурса**введите **расположение службы (SRV)** и нажмите кнопку **создать запись**.</span><span class="sxs-lookup"><span data-stu-id="b0418-131">In **Select a resource record type**, type **Service Location (SRV)**, and then click **Create Record**.</span></span>
 
-## Создание А-записи DNS
+5.  <span data-ttu-id="b0418-132">Введите все необходимые сведения для DNS SRV-записи.</span><span class="sxs-lookup"><span data-stu-id="b0418-132">Provide all required information for the DNS SRV record.</span></span>
 
-1.  На DNS-сервере нажмите кнопку **Пуск** , а затем последовательно выберите пункты **Панель управления** , **Администрирование** и **DNS** .
+</div>
 
-2.  В дереве консоли для вашего домена SIP разверните узел **Зоны прямого просмотра** и щелкните правой кнопкой мыши домен, в котором установлен сервер Lync Server 2013.
+<div>
 
-3.  Щелкните элемент **Создать узел (A)** .
+## <a name="to-create-a-dns-a-record"></a><span data-ttu-id="b0418-133">Создание записи DNS A</span><span class="sxs-lookup"><span data-stu-id="b0418-133">To create a DNS A record</span></span>
 
-4.  Предоставьте все необходимые сведения для А-записи DNS.
+1.  <span data-ttu-id="b0418-134">На DNS-сервере нажмите кнопку **Пуск**, выберите **Панель управления**, щелкните **Администрирование**, а затем — **DNS**.</span><span class="sxs-lookup"><span data-stu-id="b0418-134">On the DNS server, click **Start**, click **Control Panel**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-## Проверка записи DNS
+2.  <span data-ttu-id="b0418-135">В дереве консоли для вашего домена SIP разверните раздел **зоны прямого просмотра**, а затем щелкните правой кнопкой мыши домен, в котором установлен Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b0418-135">In the console tree for your SIP domain, expand **Forward Lookup Zones**, and then right-click the domain in which Lync Server 2013 is installed.</span></span>
 
-1.  Выполните вход на клиентский компьютер в домене.
+3.  <span data-ttu-id="b0418-136">Нажмите кнопку **создать узел (A)**.</span><span class="sxs-lookup"><span data-stu-id="b0418-136">Click **New Host (A)**.</span></span>
 
-2.  В меню **Пуск** выберите пункт **Выполнить** .
+4.  <span data-ttu-id="b0418-137">Введите все необходимые сведения для DNS SRV-записи.</span><span class="sxs-lookup"><span data-stu-id="b0418-137">Provide all required information for the DNS SRV record.</span></span>
 
-3.  В командной строке введите следующую команду:
+</div>
+
+<div>
+
+## <a name="to-verify-a-dns-record"></a><span data-ttu-id="b0418-138">Проверка записи DNS</span><span class="sxs-lookup"><span data-stu-id="b0418-138">To verify a DNS record</span></span>
+
+1.  <span data-ttu-id="b0418-139">Войдите в домен на клиентском компьютере.</span><span class="sxs-lookup"><span data-stu-id="b0418-139">Log on to a client computer in the domain.</span></span>
+
+2.  <span data-ttu-id="b0418-140">В меню **Пуск** выберите пункт **Выполнить**.</span><span class="sxs-lookup"><span data-stu-id="b0418-140">Click **Start**, and then click **Run**.</span></span>
+
+3.  <span data-ttu-id="b0418-141">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="b0418-141">At the command prompt, run the following command:</span></span>
     
         nslookup <FQDN edge interface>
 
-4.  Убедитесь, что вы получили ответ, который сводится к соответствующему IP-адресу для указанного полного доменного имени.
+4.  <span data-ttu-id="b0418-142">Убедитесь в том, что вы получили ответ на соответствующий IP-адрес для полного доменного имени.</span><span class="sxs-lookup"><span data-stu-id="b0418-142">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Создание записи DNS SRV для интеграции с размещенной единой системой обмена сообщениями](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)  
+## <a name="see-also"></a><span data-ttu-id="b0418-143">См. также</span><span class="sxs-lookup"><span data-stu-id="b0418-143">See Also</span></span>
 
-#### Концепции
 
-[Определение требований DNS для Lync Server 2013](lync-server-2013-determine-dns-requirements.md)
+[<span data-ttu-id="b0418-144">Создание записи DNS SRV для интеграции с размещенной единой системой обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="b0418-144">Create a DNS SRV record for integration with hosted Exchange UM</span></span>](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)  
+
+
+[<span data-ttu-id="b0418-145">Определение требований DNS для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b0418-145">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

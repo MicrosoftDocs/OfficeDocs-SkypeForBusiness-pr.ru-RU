@@ -1,76 +1,82 @@
-﻿---
-title: Командлеты, использующие удостоверение пользователя
-TOCTitle: Командлеты, использующие удостоверение пользователя
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56270611
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Командлеты, использующие удостоверение пользователя
+title: Командлеты в Skype для бизнеса Online, использующие удостоверение пользователя
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a><span data-ttu-id="ef825-102">Командлеты в Skype для бизнеса Online, использующие удостоверение пользователя</span><span class="sxs-lookup"><span data-stu-id="ef825-102">Cmdlets in Skype for Business Online that use a user identity</span></span>
 
  
 
-_**Дата изменения раздела:** 2015-06-22_
 
-В Skype для бизнеса Online на удостоверение отдельного пользователя можно ссылаться несколькими способами.
+<span data-ttu-id="ef825-103">В Skype для бизнеса Online есть несколько способов ссылки на индивидуальные удостоверения пользователей.</span><span class="sxs-lookup"><span data-stu-id="ef825-103">In Skype for Business Online, there are a number of different ways to reference an individual user Identity:</span></span>
 
-  - Использовать отображаемое имя пользователя в доменных службах Active Directory. Пример:
+  - <span data-ttu-id="ef825-104">Введите отображаемое имя пользователя доменных служб Active Directory.</span><span class="sxs-lookup"><span data-stu-id="ef825-104">Use the user’s Active Directory Domain Services display name.</span></span> <span data-ttu-id="ef825-105">Например:</span><span class="sxs-lookup"><span data-stu-id="ef825-105">For example:</span></span>
     
         -Identity "Ken Myer"
 
-  - Использовать SIP-адрес пользователя. Пример:
+  - <span data-ttu-id="ef825-106">Используйте SIP-адрес пользователя.</span><span class="sxs-lookup"><span data-stu-id="ef825-106">Use the user’s SIP address.</span></span> <span data-ttu-id="ef825-107">Например:</span><span class="sxs-lookup"><span data-stu-id="ef825-107">For example:</span></span>
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - Использовать имя участника-пользователя. Пример:
+  - <span data-ttu-id="ef825-108">Используйте имя участника-пользователя.</span><span class="sxs-lookup"><span data-stu-id="ef825-108">Use the user’s UPN.</span></span> <span data-ttu-id="ef825-109">Например:</span><span class="sxs-lookup"><span data-stu-id="ef825-109">For example:</span></span>
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Использовать различающееся имя пользователя доменных служб Active Directory. Пример:
+  - <span data-ttu-id="ef825-110">Используйте различающееся имя доменных служб Active Directory пользователя.</span><span class="sxs-lookup"><span data-stu-id="ef825-110">Use the user’s Active Directory Domain Services distinguished name.</span></span> <span data-ttu-id="ef825-111">Например:</span><span class="sxs-lookup"><span data-stu-id="ef825-111">For example:</span></span>
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Удостоверение пользователя принимают следующие командлеты:
+<span data-ttu-id="ef825-112">Следующие командлеты допускают удостоверение пользователя:</span><span class="sxs-lookup"><span data-stu-id="ef825-112">The following cmdlets accept a user Identity:</span></span>
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - <span data-ttu-id="ef825-113">[Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-113">[Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))</span></span>
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - <span data-ttu-id="ef825-114">[Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-114">[Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))</span></span>
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - <span data-ttu-id="ef825-115">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-115">[Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))</span></span>
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - <span data-ttu-id="ef825-116">[Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-116">[Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))</span></span>
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - <span data-ttu-id="ef825-117">[Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-117">[Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))</span></span>
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - <span data-ttu-id="ef825-118">[Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-118">[Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))</span></span>
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - <span data-ttu-id="ef825-119">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-119">[New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))</span></span>
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - <span data-ttu-id="ef825-120">[Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-120">[Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))</span></span>
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - <span data-ttu-id="ef825-121">[Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-121">[Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))</span></span>
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - <span data-ttu-id="ef825-122">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-122">[Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))</span></span>
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - <span data-ttu-id="ef825-123">[Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-123">[Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))</span></span>
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - <span data-ttu-id="ef825-124">[Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-124">[Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))</span></span>
 
-Обратите внимание, что указывать параметр Identity пользователя при вызове одного из командлетов **Get-Cs** не обязательно. Если он не указан, командлеты возвращают все экземпляры указанного элемента. Например, следующая команда возвращает информацию обо всех пользователях с включенной поддержкой Skype для бизнеса Online:
+<span data-ttu-id="ef825-125">Обратите внимание, что при вызове одного из командлетов **Get-CS** вам не нужно указывать удостоверение пользователя.</span><span class="sxs-lookup"><span data-stu-id="ef825-125">Note that you do not need to specify a user Identity when calling one of the **Get-Cs** cmdlets.</span></span> <span data-ttu-id="ef825-126">В этом случае командлеты возвращают все экземпляры указанного элемента.</span><span class="sxs-lookup"><span data-stu-id="ef825-126">In this case, the cmdlets return all the instances of the specified item.</span></span> <span data-ttu-id="ef825-127">Например, эта команда возвращает сведения обо всех пользователях, которые были включены в Skype для бизнеса Online:</span><span class="sxs-lookup"><span data-stu-id="ef825-127">For example, this command returns information about all the users who have been enabled for Skype for Business Online:</span></span>
 
     Get-CsOnlineUser
 
-Параметр Identity является обязательным только в том случае, если необходимо получить сведения о конкретном пользователе:
+<span data-ttu-id="ef825-128">Параметр Identity является обязательным только в том случае, если вы хотите вернуть сведения для определенного пользователя:</span><span class="sxs-lookup"><span data-stu-id="ef825-128">The Identity parameter is required only if you want to return information for a specific user:</span></span>
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## См. также
+## <a name="see-also"></a><span data-ttu-id="ef825-129">См. также</span><span class="sxs-lookup"><span data-stu-id="ef825-129">See Also</span></span>
 
-#### Концепции
 
-[Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[<span data-ttu-id="ef825-130">Удостоверения, области и клиенты в Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="ef825-130">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="ef825-131">[Командлеты Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="ef825-131">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 

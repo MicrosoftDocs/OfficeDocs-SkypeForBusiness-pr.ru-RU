@@ -1,59 +1,98 @@
-﻿---
-title: "Lync Server 2013: настр. фед. SIP, фед. XMPP и общед. служб обм. мгн. сообщ."
-TOCTitle: Настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями
-ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205134(v=OCS.15)
-ms:contentKeyID: 49310759
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring SIP federation, XMPP federation and public instant messaging
+ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205134(v=OCS.15)
+ms:contentKeyID: 48184998
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f82e154347c0a77dd4367678fefd518b1abf2fc7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841180"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a><span data-ttu-id="e8c99-102">Настройка федерации SIP, федерации XMPP и общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8c99-102">Configuring SIP federation, XMPP federation and public instant messaging in Lync Server 2013</span></span>
 
-Федерация, подключения к общедоступным службам обмена мгновенными сообщениями и протокол XMPP обуславливают появление нового типа внешних пользователей – федеративных пользователей. Пользователи федеративного развертывания Lync Server или развертывания XMPP имеют доступ к ограниченному набору служб и проходят проверку подлинности во внешней системе. Удаленные же пользователи являются членами вашего развертывания Lync Server и имеют доступ ко всем его службам.
+</div>
 
-> [!NOTE]  
-> Поддержка служб AOL и Yahoo! завершается в июне 2014 г. Подробные сведения см. в статье <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Поддержка подключения к общедоступным службам обмена мгновенными сообщениями в Lync Server 2013</a>.
+<div id="mainSection">
 
-Подключения к общедоступным службам обмена сообщениями – это особый тип федерации, который позволяет клиенту Lync Server получать доступ к настроенным общедоступным службам обмена мгновенными сообщениями партнеров с помощью Lync 2013. В настоящее время доступны следующие партнерские службы:
+<div id="mainBody">
 
-   America Online
+<span> </span>
 
-   Windows Live
+<span data-ttu-id="e8c99-103">_**Тема последнего изменения:** 2013-10-07_</span><span class="sxs-lookup"><span data-stu-id="e8c99-103">_**Topic Last Modified:** 2013-10-07_</span></span>
 
-   Yahoo\!;
+<span data-ttu-id="e8c99-104">Интеграция, общедоступная служба обмена мгновенными сообщениями и расширенный протокол обмена сообщениями (КСМПП) определяют различные классы внешних пользователей — федеративных пользователей.</span><span class="sxs-lookup"><span data-stu-id="e8c99-104">Federation, public instant messaging connectivity and Extensible Messaging and Presence Protocol (XMPP) define a different class of external users – Federated users.</span></span> <span data-ttu-id="e8c99-105">Пользователи федеративного сервера Lync Server или развертывание КСМПП имеют доступ к ограниченному набору служб и проходят проверку подлинности с помощью внешнего развертывания.</span><span class="sxs-lookup"><span data-stu-id="e8c99-105">Users of a federated Lync Server deployment or XMPP deployment have access to a limited set of services and are authenticated by the external deployment.</span></span> <span data-ttu-id="e8c99-106">Удаленные пользователи — это участники развертывания Lync Server, у которых есть доступ ко всем службам, предлагаемым вашим развертыванием.</span><span class="sxs-lookup"><span data-stu-id="e8c99-106">Remote users are members of your Lync Server deployment and have access to all services offered by your deployment.</span></span>
 
-Конфигурация подключений к общедоступным службам обмена мгновенными сообщениями обеспечивает следующие возможности связи для пользователей Lync:
+<div>
 
-  - обмен мгновенными сообщениями и сведениями о присутствии;
 
-  - возможность просмотра контактов общедоступной службы обмена мгновенными сообщениями в клиенте Lync;
+> [!NOTE]
+> <span data-ttu-id="e8c99-107">Дата окончания жизненного цикла 2014 для AOL и Yahoo! в течение июня.</span><span class="sxs-lookup"><span data-stu-id="e8c99-107">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="e8c99-108">было объявлено.</span><span class="sxs-lookup"><span data-stu-id="e8c99-108">has been announced.</span></span> <span data-ttu-id="e8c99-109">Подробности можно найти <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">в разделе Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="e8c99-109">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span>
 
-  - двусторонние текстовые беседы с контактами;
 
-  - звуковые и видеозвонки пользователям Windows Live.
 
-Федерация Lync Server предусматривает наличие соглашения о взаимодействии между вашим развертыванием Lync Server и другими развертываниями Office Communications Server 2007 R2 или Lync Server. Федеративная конфигурация Lync Server обеспечивает следующие возможности связи пользователей Lync с федеративными пользователями:
+</div>
 
-  - обмен мгновенными сообщениями и сведениями о присутствии;
+<span data-ttu-id="e8c99-110">Общедоступная служба обмена мгновенными сообщениями — это особый тип Федерации, который позволяет клиенту Lync Server получать доступ к настроенным участникам обмена мгновенными сообщениями с помощью Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e8c99-110">Public instant messaging connectivity is a special type of federation that allows a Lync Server client to access configured public Instant Messaging partners using the Lync 2013.</span></span> <span data-ttu-id="e8c99-111">Среди текущих партнеров по подключению к мгновенным сообщениям:</span><span class="sxs-lookup"><span data-stu-id="e8c99-111">The current public instant messaging connectivity partners are:</span></span>
 
-  - создание федеративных контактов в клиенте Lync.
+  - <span></span>  
+    <span data-ttu-id="e8c99-112">America Online</span><span class="sxs-lookup"><span data-stu-id="e8c99-112">America Online</span></span>
 
-Федерация XMPP предусматривает наличие внешнего развертывания на основе протокола XMPP. Конфигурация XMPP обеспечивает следующие возможности связи пользователей Lync с разрешенными пользователями домена XMPP:
+  - <span></span>  
+    <span data-ttu-id="e8c99-113">Windows Live</span><span class="sxs-lookup"><span data-stu-id="e8c99-113">Windows Live</span></span>
 
-  - обмен мгновенными сообщениями и сведениями о присутствии (только в двустороннем режиме);
+  - <span></span>  
+    <span data-ttu-id="e8c99-114">Yahoo\!</span><span class="sxs-lookup"><span data-stu-id="e8c99-114">Yahoo\!</span></span>
 
-  - создание федеративных контактов XMPP в клиенте Lync.
+<span data-ttu-id="e8c99-115">Общедоступная конфигурация службы мгновенных сообщений позволяет пользователям Lync получать доступ к общедоступным пользователям по подключению к службе мгновенных сообщений.</span><span class="sxs-lookup"><span data-stu-id="e8c99-115">A public instant messaging connectivity configuration allows Lync users access to public instant messaging connectivity users by:</span></span>
 
-> [!IMPORTANT]  
-> Возможность XMPP сервера Lync Server 2013 была протестирована корпорацией Microsoft и поддерживается в части федеративного обмена мгновенными сообщениями с использованием Google Talk. По вопросам использования других XMPP-систем обращайтесь к сторонним поставщикам, чтобы выяснить, поддерживают ли они федерацию с Lync Server 2013, а также чтобы получить рекомендации по вопросам, связанным с устранением неполадок и развертыванием.
+  - <span data-ttu-id="e8c99-116">Обмен мгновенными сообщениями и сведениями о присутствии</span><span class="sxs-lookup"><span data-stu-id="e8c99-116">IM and Presence</span></span>
 
-## Развертывание внешней федерации пограничного сервера, подключения к общедоступным службам обмена мгновенными сообщениями и протокола XMPP
+  - <span data-ttu-id="e8c99-117">Видимость контактных данных общедоступной службы обмена мгновенными сообщениями в клиенте Lync</span><span class="sxs-lookup"><span data-stu-id="e8c99-117">Visibility of public instant messaging connectivity contacts in Lync client</span></span>
+
+  - <span data-ttu-id="e8c99-118">Человеко общаться с контактами с помощью общения</span><span class="sxs-lookup"><span data-stu-id="e8c99-118">Person to person IM conversations with contacts</span></span>
+
+  - <span data-ttu-id="e8c99-119">Голосовые и видеозвонки с пользователями Windows Live</span><span class="sxs-lookup"><span data-stu-id="e8c99-119">Audio and video calls with Windows Live users</span></span>
+
+<span data-ttu-id="e8c99-120">Платформа Lync Server Federation определяет соглашение между развертыванием Lync Server и другими развертываниями Office Communications Server 2007 R2 или Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e8c99-120">Lync Server federation defines an agreement between your Lync Server deployment and other Office Communications Server 2007 R2 or Lync Server deployments.</span></span> <span data-ttu-id="e8c99-121">Интегрированная конфигурация Lync Server позволяет пользователям Lync получать доступ к федеративным пользователям, выполнив следующие действия:</span><span class="sxs-lookup"><span data-stu-id="e8c99-121">A Lync Server federated configuration allows Lync users access to federated users by:</span></span>
+
+  - <span data-ttu-id="e8c99-122">Обмен мгновенными сообщениями и сведениями о присутствии</span><span class="sxs-lookup"><span data-stu-id="e8c99-122">IM and Presence</span></span>
+
+  - <span data-ttu-id="e8c99-123">Создание федеративных контактов в клиенте Lync</span><span class="sxs-lookup"><span data-stu-id="e8c99-123">Creation of federated contacts in the Lync client</span></span>
+
+<span data-ttu-id="e8c99-124">КСМПП Федерация определяет внешнее развертывание на основе расширенного протокола обмена сообщениями и присутствия.</span><span class="sxs-lookup"><span data-stu-id="e8c99-124">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol.</span></span> <span data-ttu-id="e8c99-125">Конфигурация КСМПП позволяет пользователям Lync получать доступ к разрешенным пользователям домена КСМПП, выполнив указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="e8c99-125">An XMPP configuration allows Lync users access to allowed XMPP domain users by:</span></span>
+
+  - <span data-ttu-id="e8c99-126">Обмен сообщениями и присутствие — только для человека</span><span class="sxs-lookup"><span data-stu-id="e8c99-126">IM and Presence – person to person only</span></span>
+
+  - <span data-ttu-id="e8c99-127">Создание федеративных контактов КСМПП в клиенте Lync</span><span class="sxs-lookup"><span data-stu-id="e8c99-127">Creation of XMPP federated contacts in the Lync client</span></span>
+
+<div>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="e8c99-p106">Возможность XMPP сервера Lync Server 2013 была протестирована корпорацией Microsoft и поддерживается в части федеративного обмена мгновенными сообщениями с использованием Google Talk. По вопросам использования других XMPP-систем обращайтесь к сторонним поставщикам, чтобы выяснить, поддерживают ли они федерацию с Lync Server 2013, а также чтобы получить рекомендации по вопросам, связанным с устранением неполадок и развертыванием.</span><span class="sxs-lookup"><span data-stu-id="e8c99-p106">The XMPP capability of Lync Server 2013 is tested and supported by Microsoft for instant messaging federation with Google Talk. For any other XMPP systems contact the third-party vendor to verify that they support federation with Lync Server 2013, and for any deployment or troubleshooting recommendations.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="edge-server-external-federation-public-instant-messaging-connectivity-and-xmpp-users-deployment-process"></a><span data-ttu-id="e8c99-130">Внешняя Федерация пограничного сервера, соединение общедоступных мгновенных сообщений и процесс развертывания КСМПП пользователей</span><span class="sxs-lookup"><span data-stu-id="e8c99-130">Edge Server External Federation, Public Instant Messaging Connectivity and XMPP Users Deployment Process</span></span>
 
 
 <table>
@@ -65,53 +104,84 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Этап</th>
-<th>Шаги</th>
-<th>Разрешения</th>
-<th>Документация</th>
+<th><span data-ttu-id="e8c99-131">Этап</span><span class="sxs-lookup"><span data-stu-id="e8c99-131">Phase</span></span></th>
+<th><span data-ttu-id="e8c99-132">Шаги</span><span class="sxs-lookup"><span data-stu-id="e8c99-132">Steps</span></span></th>
+<th><span data-ttu-id="e8c99-133">Разрешения</span><span class="sxs-lookup"><span data-stu-id="e8c99-133">Permissions</span></span></th>
+<th><span data-ttu-id="e8c99-134">Документация</span><span class="sxs-lookup"><span data-stu-id="e8c99-134">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Определение параметров, добавляемых в существующее развертывание пограничного сервера</p></td>
-<td><p>Чтобы изменить параметры пограничного сервера, а также создать и опубликовать топологию, используйте топологий. Существующая пограничная топология будет реплицировать изменения с управления на пограничный сервер.</p></td>
-<td><p>Группа &quot;Администраторы домена&quot; и группа RTCUniversalServerAdmins</p>
-<div>
+<td><p><span data-ttu-id="e8c99-135">Определение параметров для добавления в существующее развертывание пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="e8c99-135">Determine the options to add to the existing Edge deployment</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-136">Запустите построитель топологии, чтобы изменить параметры пограничного сервера и создать и опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="e8c99-136">Run Topology Builder to edit Edge Server settings and create and publish the topology.</span></span> <span data-ttu-id="e8c99-137">Существующая топология пограничного сервера будет реплицировать изменения из хранилища центрального управления на пограничный сервер.</span><span class="sxs-lookup"><span data-stu-id="e8c99-137">Your existing Edge topology will replicate changes from the Central Management store to the Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-138">Группа «Администраторы домена» и группа «Рткуниверсалсерверадминс»</span><span class="sxs-lookup"><span data-stu-id="e8c99-138">Domain Admins group and RTCUniversalServerAdmins group</span></span></p>
 
-> [!NOTE]  
-> Вы можете изменить топологию с помощью учетной записи члена группы локальных пользователей, однако для публикации топологии требуется учетная запись члена группы &quot;Администраторы домена&quot; и группы RTCUniversalServerAdmins
-</div></td>
-<td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Создание топологии пограничных серверов и директора в Lync Server 2013</a></p></td>
+
+
+> [!NOTE]
+> <span data-ttu-id="e8c99-139">Вы можете изменить топологию с помощью учетной записи, которая является членом локальной группы "Пользователи", но для публикации топологии требуется учетная запись, которая входит в группу "Администраторы домена" и в группу "Рткуниверсалсерверадминс".</span><span class="sxs-lookup"><span data-stu-id="e8c99-139">You can edit a topology using an account that is a member of the local users group, but publishing a topology requires an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group</span></span>
+
+</td>
+<td><p><span data-ttu-id="e8c99-140"><a href="lync-server-2013-building-an-edge-and-director-topology.md">Создание топологии пограничных серверов и директора в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-140"><a href="lync-server-2013-building-an-edge-and-director-topology.md">Building an edge and Director topology in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Подготовка к установке</p></td>
-<td><ol><li><p>Убедитесь, что для системы выполнены необходимые условия.</p></li><li><p>Настройте внутренние и внешние DNS-записи для поддержки подключения к общедоступным службам обмена сообщениями, федерации Lync и федерации XMPP.</p></li><li><p>Настройте порты и протоколы на брандмауэре для поддержки типов развертываемой федерации.</p></li><li><p>Получите и установите общедоступные сертификаты. Время, требуемое для получения сертификатов, зависит от используемого центра сертификации (ЦС). На этом этапе развертывания данный этап является необязательным. Если этот шаг пропущен, то потребуется выполнить соответствующие действия в ходе настройки пограничного сервера. Служба пограничного сервера будет запущена только после получения сертификатов.</p></li></ol>
-<p></p></td>
-<td><p>Зависят от организации, поскольку эти роли обычно распределены между множеством рабочих групп</p></td>
-<td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Планирование федерации SIP, федерации XMPP и Public Instant Messaging в Lync Server 2013</a></p></td>
+<td><p><span data-ttu-id="e8c99-141">Подготовка к установке</span><span class="sxs-lookup"><span data-stu-id="e8c99-141">Prepare for setup</span></span></p></td>
+<td><ol>
+<li><p><span data-ttu-id="e8c99-142">Убедитесь в том, что соблюдены требования к системе.</span><span class="sxs-lookup"><span data-stu-id="e8c99-142">Ensure that system prerequisites are met.</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-143">Настройка внутренних и внешних DNS-записей для поддержки общедоступной службы обмена мгновенными сообщениями, Федерации Lync и КСМПП Федерации</span><span class="sxs-lookup"><span data-stu-id="e8c99-143">Configure internal and external DNS records, to support public instant messaging connectivity, Lync Federation and XMPP Federation</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-144">Настройка портов и протоколов в брандмауэре для поддержки типов интеграции, которые вы развертываете</span><span class="sxs-lookup"><span data-stu-id="e8c99-144">Configure ports and protocols at the firewall to support the types of federation that you are deploying</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-145">Получение и установка общедоступных сертификатов.</span><span class="sxs-lookup"><span data-stu-id="e8c99-145">Obtain and install public certificates.</span></span> <span data-ttu-id="e8c99-146">Время, необходимое для получения сертификатов, зависит от того, какой центр сертификации (ЦС) выдаст сертификат.</span><span class="sxs-lookup"><span data-stu-id="e8c99-146">The time required to obtain certificates depends on which certification authority (CA) issues the certificate.</span></span> <span data-ttu-id="e8c99-147">Этот шаг является необязательным в этой точке развертывания.</span><span class="sxs-lookup"><span data-stu-id="e8c99-147">This step is optional at this point in the deployment.</span></span> <span data-ttu-id="e8c99-148">Если вы не выполнили этот этап на этом этапе, необходимо сделать это во время настройки пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="e8c99-148">If you do not perform this step at this point, you must do it during Edge Server configuration.</span></span> <span data-ttu-id="e8c99-149">Служба пограничного сервера не может быть запущена, пока не будут получены сертификаты</span><span class="sxs-lookup"><span data-stu-id="e8c99-149">The Edge Server service cannot be started until certificates are obtained</span></span></p></li>
+</ol></td>
+<td><p><span data-ttu-id="e8c99-150">В соответствии с вашей организацией, так как эти роли обычно делятся на несколько рабочих групп.</span><span class="sxs-lookup"><span data-stu-id="e8c99-150">As appropriate to your organization, as these roles are typically split amongst numerous work groups</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-151"><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Планирование SIP, Федерации КСМПП и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-151"><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Planning for SIP, XMPP federation, and public instant messaging in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Настройка пограничных серверов для сценариев федерации</p></td>
-<td><ol><li><p>Добавьте экспортированный файл конфигурации топологии на каждой пограничный сервер или дождитесь завершения репликации.</p></li><li><p>Чтобы установить компоненты для поддержки федерации, запустите мастер развертывания повторно.</p></li><li><p>Настройте пограничные серверы.</p></li><li><p>Запросите сертификаты для каждого пограничного сервера и установите их.</p></li><li><p>Перезапустите службы пограничного сервера.</p></li></ol></td>
-<td><p>Группа Администраторы</p></td>
-<td><p><a href="lync-server-2013-setting-up-lync-federation.md">Настройка федерации в Lync в Lync Server 2013</a></p>
-<p><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Настройка соединения для общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</a></p>
-<p><a href="lync-server-2013-setting-up-xmpp-federation.md">Настройка федерации XMPP в Lync Server 2013</a></p></td>
+<td><p><span data-ttu-id="e8c99-152">Настройка пограничных серверов для сценариев интеграции</span><span class="sxs-lookup"><span data-stu-id="e8c99-152">Set up Edge Servers for Federation Scenarios</span></span></p></td>
+<td><ol>
+<li><p><span data-ttu-id="e8c99-153">Передача экспортированного файла конфигурации топологии на пограничный сервер или разрешение выполнения репликации</span><span class="sxs-lookup"><span data-stu-id="e8c99-153">Transport the exported topology configuration file to each Edge Server or allow replication to complete</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-154">Повторное выполнение мастера развертывания для установки вспомогательных компонентов для Федерации</span><span class="sxs-lookup"><span data-stu-id="e8c99-154">Re-Run the Deployment Wizard to install supporting components for Federation</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-155">Настройка пограничных серверов</span><span class="sxs-lookup"><span data-stu-id="e8c99-155">Configure the Edge Servers</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-156">Запрос и установка сертификатов для каждого пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="e8c99-156">Request and install certificates for each Edge Server</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-157">Перезапуск служб пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="e8c99-157">Restart the Edge Server services</span></span></p></li>
+</ol></td>
+<td><p><span data-ttu-id="e8c99-158">Группа администраторов</span><span class="sxs-lookup"><span data-stu-id="e8c99-158">Administrators group</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-159"><a href="lync-server-2013-setting-up-lync-federation.md">Настройка федерации в Lync в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-159"><a href="lync-server-2013-setting-up-lync-federation.md">Setting up Lync federation in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="e8c99-160"><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Настройка соединения для общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-160"><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Setting up public instant messaging connectivity in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="e8c99-161"><a href="lync-server-2013-setting-up-xmpp-federation.md">Настройка федерации XMPP в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-161"><a href="lync-server-2013-setting-up-xmpp-federation.md">Setting up XMPP federation in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Настройка поддержки доступа внешних пользователей</p></td>
-<td><ol><li><p>Воспользуйтесь компонентом External User Access (Доступ внешних пользователей) на панели управления Lync Server.</p></li><li><p>Настройте политику внешнего доступа для включения коммуникаций с федеративными пользователями или внешними пользователями.</p></li><li><p>Настройте федеративные домены SIP, чтобы разрешить или заблокировать домены.</p></li><li><p>Включите федеративных поставщиков SIP для поставщиков общедоступных служб обмена мгновенными сообщениями.</p></li><li><p>Настройте федеративных партнеров XMPP для каждого домена XMPP.</p></li></ol></td>
-<td><p>Группа RTCUniversalServerAdmins или учетная запись пользователя, назначенная роли CSAdministrator</p></td>
-<td><p><a href="lync-server-2013-configuring-support-for-external-user-access.md">Настройка поддержки доступа внешних пользователей в Lync Server 2013</a></p>
-<p><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Настройка шифрования мультимедиа для общедоступных поставщиков в Lync Server 2013</a></p></td>
+<td><p><span data-ttu-id="e8c99-162">Настройка поддержки внешнего доступа пользователей.</span><span class="sxs-lookup"><span data-stu-id="e8c99-162">Configure support for external user access.</span></span></p></td>
+<td><ol>
+<li><p><span data-ttu-id="e8c99-163">Использование внешних пользователей панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="e8c99-163">Use the Lync Server Control Panel External User Access</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-164">Настройка политики внешнего доступа для подключения к данным с помощью федеративных пользователей или открытых пользователей</span><span class="sxs-lookup"><span data-stu-id="e8c99-164">Configure External Access Policy to enable Communications with federated users or public users</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-165">Настройка федеративных доменов SIP для разрешения или блокировки доменов</span><span class="sxs-lookup"><span data-stu-id="e8c99-165">Configure SIP Federated Domains to Allow or Block domains</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-166">Включение поставщиков услуг SIP Федерации для общедоступных служб обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="e8c99-166">Enable SIP Federated Providers for public instant messaging connectivity providers</span></span></p></li>
+<li><p><span data-ttu-id="e8c99-167">Настройка федеративных партнеров КСМПП для КСМПП домена</span><span class="sxs-lookup"><span data-stu-id="e8c99-167">Configure XMPP Federated Partners per XMPP domain</span></span></p></li>
+</ol></td>
+<td><p><span data-ttu-id="e8c99-168">Группа Рткуниверсалсерверадминс или учетная запись пользователя, назначенная роли Ксадминистратор</span><span class="sxs-lookup"><span data-stu-id="e8c99-168">RTCUniversalServerAdmins group or user account that is assigned to the CSAdministrator role</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-169"><a href="lync-server-2013-configuring-support-for-external-user-access.md">Настройка поддержки доступа внешних пользователей в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-169"><a href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="e8c99-170"><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Настройка шифрования мультимедиа для общедоступных поставщиков в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-170"><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Configure media encryption for public providers in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Проверка конфигурации пограничного сервера</p></td>
-<td><p>Проверьте возможности подключения к серверу и репликацию данных конфигурации с внутренних серверов.</p></td>
-<td><p>Для проверки репликации требуется учетная запись группы RTCUniversalServerAdmins или учетная запись пользователя, назначенная роли CSAdministrator Для проверки подключения требуются учетные записи, представляющие все типы федеративных пользователей</p></td>
-<td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Проверка развертывания пограничного сервера в Lync Server 2013</a></p>
-<p><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Пример конфигурации XMPP в Lync Server 2013 — федерация XMPP с Google Talk</a></p></td>
+<td><p><span data-ttu-id="e8c99-171">Проверка конфигурации пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="e8c99-171">Verify your Edge Server configuration</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-172">Проверка подключения к серверу и репликация данных конфигурации с внутренних серверов</span><span class="sxs-lookup"><span data-stu-id="e8c99-172">Verify server connectivity and replication of configuration data from internal servers</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-173">Для проверки репликации, Рткуниверсалсерверадминс или учетной записи пользователя, назначенной для Ксадминистратор Ролефор проверки подключения пользователей, пользователь для каждого типа федеративных пользователей.</span><span class="sxs-lookup"><span data-stu-id="e8c99-173">For verification of replication, RTCUniversalServerAdmins group or user account that is assigned to the CSAdministrator roleFor verification of user connectivity, a user for each type of Federated user</span></span></p></td>
+<td><p><span data-ttu-id="e8c99-174"><a href="lync-server-2013-verifying-your-edge-deployment.md">Проверка развертывания пограничного сервера в Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-174"><a href="lync-server-2013-verifying-your-edge-deployment.md">Verifying your edge deployment in Lync Server 2013</a></span></span></p>
+<p><span data-ttu-id="e8c99-175"><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Пример конфигурации XMPP в Lync Server 2013 — федерация XMPP с Google Talk</a></span><span class="sxs-lookup"><span data-stu-id="e8c99-175"><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

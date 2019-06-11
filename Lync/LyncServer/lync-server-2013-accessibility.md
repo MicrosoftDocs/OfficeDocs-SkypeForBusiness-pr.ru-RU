@@ -1,37 +1,65 @@
-﻿---
-title: 'Lync Server 2013: специальные возможности'
-TOCTitle: Специальные возможности для людей с ограниченными возможностями
-ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204754(v=OCS.15)
-ms:contentKeyID: 49309257
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: специальные возможности'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Accessibility for people with disabilities
+ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
+ms:contentKeyID: 48183681
+ms.date: 01/15/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841974"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Специальные возможности в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="3d896-102">Специальные возможности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d896-102">Accessibility in Lync Server 2013</span></span>
 
-Корпорация Microsoft прилагает все усилия для того, чтобы ее продукты и службы могли с легкостью использоваться всеми. В следующих разделах рассматриваются компоненты, продукты и службы, помогающие упростить использование Lync Server 2013 для людей с ограниченными возможностями.
+</div>
 
-## Специальные возможности Lync Server 2013
+<div id="mainSection">
 
-Следующие компоненты помогают использовать Lync Server 2013 людям с ограниченными возможностями.
+<div id="mainBody">
 
-  - Сочетания клавиш
+<span> </span>
 
-  - Альтернативный текст для рисунков
+<span data-ttu-id="3d896-103">_**Тема последнего изменения:** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="3d896-103">_**Topic Last Modified:** 2014-10-09_</span></span>
 
-Кроме того, пользователям с ограниченными возможностями, работающим с Lync Server, помогут некоторые компоненты и средства специальных возможностей Windows. При использовании Windows PowerShell специальные возможности включают в себя изменение размера и цвета текста в "Командная консоль Lync Server". Дополнительные сведения о параметрах специальных возможностей Windows PowerShell см. в разделе "Специальные возможности в Windows PowerShell 2.0" технической библиотеки по адресу [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).
+<span data-ttu-id="3d896-104">Корпорация Майкрософт стремится сделать свои продукты и услуги более удобными для всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="3d896-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="3d896-105">В следующих разделах приведены сведения о возможностях, продуктах и службах, которые помогают сделать Lync Server 2013 более доступным для людей с ограниченными возможностями.</span><span class="sxs-lookup"><span data-stu-id="3d896-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
 
-## Сочетания клавиш
+<div>
 
-При взаимодействии с пользовательским интерфейсом средств администрирования и других компонентов Lync Server можно использовать сочетания клавиш.
+## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="3d896-106">Специальные возможности Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d896-106">Accessibility features of Lync Server 2013</span></span>
 
-С помощью сочетания клавиш можно быстро выполнять следующие распространенные задачи.
+<span data-ttu-id="3d896-107">Следующие функции Lync Server 2013 помогают сделать ее более удобной для людей с ограниченными возможностями.</span><span class="sxs-lookup"><span data-stu-id="3d896-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
+
+  - <span data-ttu-id="3d896-108">Сочетания клавиш</span><span class="sxs-lookup"><span data-stu-id="3d896-108">Keyboard Shortcuts</span></span>
+
+  - <span data-ttu-id="3d896-109">Замещающий текст для рисунков</span><span class="sxs-lookup"><span data-stu-id="3d896-109">Alternate text for figures</span></span>
+
+<span data-ttu-id="3d896-110">Кроме того, некоторые специальные возможности и средства Windows могут использовать пользователи Lync Server с ограниченными возможностями.</span><span class="sxs-lookup"><span data-stu-id="3d896-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="3d896-111">Изменения размера и цвета Windows PowerShell предоставляют специальные возможности при использовании командной консоли Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="3d896-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="3d896-112">Дополнительные сведения о специальных возможностях Windows PowerShell: в разделе "Специальные возможности Windows PowerShell 2,0" в библиотеке [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)TechNet по адресу.</span><span class="sxs-lookup"><span data-stu-id="3d896-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
+
+</div>
+
+<span id="BKMK_KeyboardShortcuts"></span>
+
+<div>
+
+## <a name="keyboard-shortcuts"></a><span data-ttu-id="3d896-113">Сочетания клавиш</span><span class="sxs-lookup"><span data-stu-id="3d896-113">Keyboard shortcuts</span></span>
+
+<span data-ttu-id="3d896-114">С помощью сочетаний клавиш вы можете взаимодействовать с пользовательским интерфейсом в средствах администрирования Lync Server и других функциональных возможностях.</span><span class="sxs-lookup"><span data-stu-id="3d896-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
+
+<span data-ttu-id="3d896-115">С помощью сочетаний клавиш вы можете быстро выполнять следующие стандартные задачи.</span><span class="sxs-lookup"><span data-stu-id="3d896-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
 
 
 <table>
@@ -41,95 +69,120 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Задача</th>
-<th>Сочетание клавиш</th>
+<th><span data-ttu-id="3d896-116">Для этого</span><span class="sxs-lookup"><span data-stu-id="3d896-116">To do this</span></span></th>
+<th><span data-ttu-id="3d896-117">Использование сочетания клавиш</span><span class="sxs-lookup"><span data-stu-id="3d896-117">Use this keyboard shortcut</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Переключение между элементами пользовательского интерфейса.</p></td>
-<td><p>Tab</p></td>
+<td><p><span data-ttu-id="3d896-118">Переключаться между элементами в пользовательском интерфейсе.</span><span class="sxs-lookup"><span data-stu-id="3d896-118">Switch between elements in the user interface.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-119">Вкладок</span><span class="sxs-lookup"><span data-stu-id="3d896-119">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Выполнение действия выбранного элемента, например <strong>Показать все</strong>, <strong>Скрыть все</strong> или открытие гиперссылки.</p></td>
-<td><p>Enter</p></td>
+<td><p><span data-ttu-id="3d896-120">Выполнение действия для выбранного элемента, например " <strong>Показать все</strong>", " <strong>Скрыть все</strong>" или "Открыть гиперссылку".</span><span class="sxs-lookup"><span data-stu-id="3d896-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-121">Ведите</span><span class="sxs-lookup"><span data-stu-id="3d896-121">Enter</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Выбор следующего элемента на странице или в меню.</p></td>
-<td><p>Tab</p></td>
+<td><p><span data-ttu-id="3d896-122">Преобразование выделенного элемента в следующий элемент на странице или в меню.</span><span class="sxs-lookup"><span data-stu-id="3d896-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-123">Вкладок</span><span class="sxs-lookup"><span data-stu-id="3d896-123">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Выбор предыдущего элемента на странице или в меню.</p></td>
-<td><p>Shift+Tab</p></td>
+<td><p><span data-ttu-id="3d896-124">Преобразование выделенного элемента в предыдущий элемент на странице.</span><span class="sxs-lookup"><span data-stu-id="3d896-124">Change the selected element to the previous element on the page.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-125">Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="3d896-125">Shift+Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Выбор элемента, находящегося выше, ниже, слева или справа на странице или в меню.</p></td>
-<td><p>Клавиши со стрелками</p></td>
+<td><p><span data-ttu-id="3d896-126">Изменение выделенного элемента на странице или в меню вверх, вниз, влево или вправо.</span><span class="sxs-lookup"><span data-stu-id="3d896-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-127">Клавиши со стрелками</span><span class="sxs-lookup"><span data-stu-id="3d896-127">Arrow Keys</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Разворачивание выбранного узла в дереве.</p></td>
-<td><p>Клавиша +</p></td>
+<td><p><span data-ttu-id="3d896-128">Развертывание выбранного узла в дереве.</span><span class="sxs-lookup"><span data-stu-id="3d896-128">Expand the selected node in tree.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-129">+Основными</span><span class="sxs-lookup"><span data-stu-id="3d896-129">+ Key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Сворачивание выбранного узла в дереве.</p></td>
-<td><p>Клавиша -</p></td>
+<td><p><span data-ttu-id="3d896-130">Свертывание выбранного узла в дереве.</span><span class="sxs-lookup"><span data-stu-id="3d896-130">Collapse the selected node in the tree.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-131">-Основными</span><span class="sxs-lookup"><span data-stu-id="3d896-131">- Key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Доступ к строке меню.</p></td>
-<td><p>Alt</p></td>
+<td><p><span data-ttu-id="3d896-132">Получить доступ к строке меню.</span><span class="sxs-lookup"><span data-stu-id="3d896-132">Access the menu bar.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-133">Сочетани</span><span class="sxs-lookup"><span data-stu-id="3d896-133">Alt</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Доступ к команде в строке меню.</p></td>
-<td><p>Alt+подчеркнутая буква в названии команды меню.</p></td>
+<td><p><span data-ttu-id="3d896-134">Получить доступ к команде строки меню.</span><span class="sxs-lookup"><span data-stu-id="3d896-134">Access a menu bar command.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-135">ALT + подчеркнутая буква в контекстном меню.</span><span class="sxs-lookup"><span data-stu-id="3d896-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Выбор раскрывающегося списка в мастере сертификатов.</p></td>
-<td><p>Tab</p></td>
+<td><p><span data-ttu-id="3d896-136">Выберите раскрывающийся список в мастере сертификатов.</span><span class="sxs-lookup"><span data-stu-id="3d896-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-137">Вкладок</span><span class="sxs-lookup"><span data-stu-id="3d896-137">Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Открытие раскрывающегося списка в мастере сертификатов.</p></td>
-<td><p>Ctrl+ПРОБЕЛ</p></td>
+<td><p><span data-ttu-id="3d896-138">Открытие раскрывающегося списка в мастере сертификатов.</span><span class="sxs-lookup"><span data-stu-id="3d896-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-139">Ctrl + пробел</span><span class="sxs-lookup"><span data-stu-id="3d896-139">Ctrl+Spacebar</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Выделение элемента раскрывающегося списка в мастере сертификатов.</p></td>
-<td><p>Tab и затем Ctrl+клавиши со стрелками для перехода между элементами.</p></td>
+<td><p><span data-ttu-id="3d896-140">Выделит элемент в раскрывающемся списке мастера сертификатов.</span><span class="sxs-lookup"><span data-stu-id="3d896-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-141">, А затем CTRL + клавиши со стрелками для перемещения между элементами.</span><span class="sxs-lookup"><span data-stu-id="3d896-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Выбор или отмена выбора элемента раскрывающегося списка в мастере сертификатов.</p></td>
-<td><p>Ctrl+ПРОБЕЛ</p></td>
+<td><p><span data-ttu-id="3d896-142">Выбор или отмена элемента в раскрывающемся списке мастера сертификатов.</span><span class="sxs-lookup"><span data-stu-id="3d896-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="3d896-143">Ctrl + пробел</span><span class="sxs-lookup"><span data-stu-id="3d896-143">Ctrl+Spacebar</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Альтернативный текст для рисунков
+</div>
 
-Для всех рисунков в справке Lync Server 2013, включая снимки экрана, схемы, блок-схемы и другие изображения, добавлен альтернативный текст. Если пользователю сложно рассмотреть рисунок, он может навести на него указатель мыши и прочитать соответствующий альтернативный текст. Альтернативный текст представляет собой описание того, что изображено на рисунке.
+<span id="BKMK_AltText"></span>
 
-## Продукты и службы Microsoft со специальными возможностями
+<div>
 
-В следующих разделах рассматриваются компоненты, продукты и службы, помогающие упростить использование Windows для людей с ограниченными возможностями.
+## <a name="alternate-text-for-figures"></a><span data-ttu-id="3d896-144">Замещающий текст для рисунков</span><span class="sxs-lookup"><span data-stu-id="3d896-144">Alternate text for figures</span></span>
+
+<span data-ttu-id="3d896-145">На каждом рисунке в справке Lync Server 2013, включая снимки экрана, схемы, блокы и другие фигуры, связан замещающий текст.</span><span class="sxs-lookup"><span data-stu-id="3d896-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="3d896-146">Пользователи, которые не смогли просматривать рисунки, могут надержать курсор на фигуре, чтобы прочитать замещающий текст.</span><span class="sxs-lookup"><span data-stu-id="3d896-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="3d896-147">Замещающий текст описывает, что показано на рисунке.</span><span class="sxs-lookup"><span data-stu-id="3d896-147">The alternate text describes what is shown in the figure.</span></span>
+
+</div>
+
+<span id="BKMK_AccessMS"></span>
+
+<div>
+
+## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="3d896-148">Продукты и услуги Майкрософт со специальными возможностями</span><span class="sxs-lookup"><span data-stu-id="3d896-148">Accessibility products and services from Microsoft</span></span>
+
+<span data-ttu-id="3d896-149">В следующих разделах приведены сведения о возможностях, продуктах и службах, которые делают Windows более удобной для людей с ограниченными возможностями.</span><span class="sxs-lookup"><span data-stu-id="3d896-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Сведения, приведенные в этом разделе, относятся только к пользователям, которые приобрели лицензии на продукты Microsoft в США. При получении этого продукта за пределами США можно воспользоваться информационной карточкой филиала, предоставленной вместе с комплектом ПО, или посетить веб-сайт специальных возможностей Microsoft по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</a>, где можно найти список телефонных номеров и адресов служб поддержки корпорации Microsoft. Обратитесь в филиал, чтобы выяснить, доступны ли описанные в данном разделе типы продуктов и услуг в вашем регионе. Дополнительные сведения о специальных возможностях, включенных в продукты Microsoft, можно найти в разделе специальных возможностей на веб-сайте продуктов Microsoft.
+> <span data-ttu-id="3d896-150">Информация, приведенная в этом разделе, относится только к пользователям, которые лицензированы продукты Майкрософт в США.</span><span class="sxs-lookup"><span data-stu-id="3d896-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="3d896-151">Если вы приобрели этот продукт за пределами США, вы можете использовать карточку с информацией о дочерней компании, которая поставлялась вместе с <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> вашим пакетом программного обеспечения, или посетить веб-сайт Microsoft Accessibility по адресу службы поддержки Майкрософт. служб.</span><span class="sxs-lookup"><span data-stu-id="3d896-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="3d896-152">Вы можете обратиться к своему представительству, чтобы узнать, доступны ли в вашем регионе продукты и услуги, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="3d896-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="3d896-153">Дополнительные сведения о специальных возможностях, включенных в продукты Майкрософт, находятся на веб-сайте Специальные возможности в продуктах Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3d896-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
 
-## Специальные возможности Windows
 
-Операционная система Windows включает в себя встроенные специальные возможности, упрощающие работу для пользователей, испытывающих затруднения при работе с клавиатурой и мышью, слепых или с нарушением зрения, глухих или с нарушением слуха. Эти компоненты устанавливаются с помощью программы установки ОС. Дополнительные сведения об этих компонентах см. в справке Windows на веб-сайте специальных возможностей Microsoft по адресу [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
 
-  - **Бесплатный пошаговый учебник**   Корпорация Microsoft предлагает серию пошаговых учебников с подробным описанием процедур настройки параметров специальных возможностей на компьютере. Действия с мышью и клавиатурой описаны параллельно, чтобы можно было научиться работать с помощью мыши, клавиатуры или того и другого.
+</div>
+
+<div>
+
+## <a name="accessibility-features-of-windows"></a><span data-ttu-id="3d896-154">Специальные возможности Windows</span><span class="sxs-lookup"><span data-stu-id="3d896-154">Accessibility features of Windows</span></span>
+
+<span data-ttu-id="3d896-155">В операционной системе Windows есть множество встроенных специальных возможностей, которые полезны для тех, кто не может вводить или использовать мышь, или имеют слабое зрение или не очень много слуха.</span><span class="sxs-lookup"><span data-stu-id="3d896-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="3d896-156">Эти возможности устанавливаются во время установки.</span><span class="sxs-lookup"><span data-stu-id="3d896-156">The features are installed during Setup.</span></span> <span data-ttu-id="3d896-157">Сведения об этих функциях можно найти в справке Windows или в Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility по адресу.</span><span class="sxs-lookup"><span data-stu-id="3d896-157">For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+
+  - <span data-ttu-id="3d896-158">**Бесплатные**   пошаговые учебные курсы Корпорация Майкрософт предоставляет ряд пошаговых учебников, в которых описаны подробные инструкции по настройке специальных возможностей и параметров на компьютере.</span><span class="sxs-lookup"><span data-stu-id="3d896-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="3d896-159">Эти сведения представлены в виде параллельных форматов, и вы можете научиться использовать мышь, клавиатуру и их сочетание.</span><span class="sxs-lookup"><span data-stu-id="3d896-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
     
-    Пошаговые руководства по продуктам Microsoft можно найти на веб-сайте специальных возможностей Microsoft по адресу [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+    <span data-ttu-id="3d896-160">Чтобы найти пошаговые учебники по продуктам Microsoft, ознакомьтесь со специальными [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)возможностями Майкрософт по адресу.</span><span class="sxs-lookup"><span data-stu-id="3d896-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - **Продукты, предоставляющие специальные возможности, для Windows**   Доступен широкий выбор продуктов, предоставляющих специальные возможности, которые упрощают работу с компьютером для людей с ограниченными возможностями. Каталог продуктов, предоставляющих специальные возможности, для Windows находится на веб-сайте специальных возможностей Microsoft по адресу [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+  - <span data-ttu-id="3d896-161">**Продукты, поддерживающие специальные возможности для Windows**   , представляют собой широкий спектр специальных возможностей, позволяющих облегчить работу с компьютерами для людей с ограниченными возможностями.</span><span class="sxs-lookup"><span data-stu-id="3d896-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="3d896-162">Вы можете выполнить поиск по каталогу продуктов специальных возможностей, которые работают в Windows на веб-сайте Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility по адресу.</span><span class="sxs-lookup"><span data-stu-id="3d896-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
     
-    В случае использования специальных возможностей перед обновлением программного обеспечения или оборудования обязательно свяжитесь с поставщиком специальных возможностей, чтобы узнать о потенциальных проблемах совместимости.
+    <span data-ttu-id="3d896-163">Если вы используете специальные возможности, перед обновлением программного обеспечения или оборудования не забудьте связаться с поставщиком специальных возможностей, чтобы проверить наличие проблем с совместимостью.</span><span class="sxs-lookup"><span data-stu-id="3d896-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
 
-## Документация в альтернативных форматах
+</div>
 
-Если пользователь испытывает затруднения при чтении печатных материалов, можно получить документацию ко многим продуктам Microsoft в более доступном формате. Перечень документации по продуктам с поддержкой специальных возможностей можно найти на веб-сайте специальных возможностей Microsoft по адресу [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+<div>
 
-Кроме того, можно получить дополнительные публикации Microsoft от компании Recording for the Blind & Dyslexic, Inc (RFB\&D). Компания RFB\&D распространяет эти документы зарегистрированным участникам, имеющим права на использование данной службы. Для получения дополнительных сведений о доступности документации по продуктам Microsoft и книг издательства Microsoft Press обратитесь в компанию RFB\&D.
+## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="3d896-164">Документация в альтернативных форматах</span><span class="sxs-lookup"><span data-stu-id="3d896-164">Documentation in alternative formats</span></span>
+
+<span data-ttu-id="3d896-165">Если у вас возникли проблемы при чтении и обработке печатных материалов, вы можете получить документацию по многочисленным продуктам Майкрософт в более специальных форматах.</span><span class="sxs-lookup"><span data-stu-id="3d896-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="3d896-166">На веб-сайте Microsoft Accessibility можно получить указатель на справочную документацию по [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)продукту по адресу.</span><span class="sxs-lookup"><span data-stu-id="3d896-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+
+<span data-ttu-id="3d896-167">Кроме того, вы можете получить дополнительные публикации Майкрософт из записи для & неспособными к чтению, Inc (РФБ\&г).</span><span class="sxs-lookup"><span data-stu-id="3d896-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="3d896-168">РФБ\&D распространяет эти документы на зарегистрированные и доступные участники службы рассылки.</span><span class="sxs-lookup"><span data-stu-id="3d896-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="3d896-169">Для получения сведений о доступности документации по продуктам Майкрософт и книг от Microsoft Press обратитесь в\&РФБ г.</span><span class="sxs-lookup"><span data-stu-id="3d896-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
 
 
 <table>
@@ -138,41 +191,67 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Recording for the Blind &amp; Dyslexic, Inc.</p>
-<p>20 Roszel Road</p>
-<p>Princeton, NJ 08540</p>
-<p>Номер телефона в США: (800) 221-4792</p>
-<p>Веб-сайт компании Recording for the Blind &amp; Dyslexic по адресу <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<td><p><span data-ttu-id="3d896-170">Запись для слепых &amp; неспособными к чтению, Inc.</span><span class="sxs-lookup"><span data-stu-id="3d896-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
+<p><span data-ttu-id="3d896-171">20 росзел дорожка</span><span class="sxs-lookup"><span data-stu-id="3d896-171">20 Roszel Road</span></span></p>
+<p><span data-ttu-id="3d896-172">Принстона, Хабаровский 08540</span><span class="sxs-lookup"><span data-stu-id="3d896-172">Princeton, NJ 08540</span></span></p>
+<p><span data-ttu-id="3d896-173">Номер телефона в США: (800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="3d896-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
+<p><span data-ttu-id="3d896-174">Веб-сайт: запись для &amp; слепых неспособными к чтениюов<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="3d896-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Служба поддержки клиентов для людей с ограниченными возможностями
+</div>
 
-Главная цель корпорации Microsoft — обеспечить высокое качество обслуживания всех клиентов, в том числе людей с ограниченными возможностями. Если вам требуется помощь, обратитесь в наш отдел поддержки клиентов для людей с ограниченными возможностями, сотрудники которого прошли специальное обучение для оказания поддержки клиентам с ограниченными способностями по телефону или электронной почте.
+<div>
 
-[Служба поддержки для людей с ограниченными способностями](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="3d896-175">Служба поддержки пользователей с ограниченными возможностями</span><span class="sxs-lookup"><span data-stu-id="3d896-175">Customer service for people with disabilities</span></span>
 
-Прямой телефон: 1-800-936-5900
+<span data-ttu-id="3d896-176">Корпорация Майкрософт стремится обеспечить оптимальную работу всех наших пользователей, в том числе пользователей с ограниченными возможностями.</span><span class="sxs-lookup"><span data-stu-id="3d896-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="3d896-177">Если вам нужна помощь, обратитесь в нашу группу поддержки специальных возможностей, чтобы помочь людям с ограниченными возможностями по телефону или электронной почте.</span><span class="sxs-lookup"><span data-stu-id="3d896-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
 
-Телетайп: 1-800-892-5234
+[<span data-ttu-id="3d896-178">Обращение в службу ответов на инвалидность</span><span class="sxs-lookup"><span data-stu-id="3d896-178">Contact the Disability Answer Desk</span></span>](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-Будни: 05:00 - 21:00 (по тихоокеанскому времени)
+<span data-ttu-id="3d896-179">Прямая телефонная линия: 1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="3d896-179">Direct Telephone Line: 1-800-936-5900</span></span>
 
-Выходные: 06:00 - 15:00 (по тихоокеанскому времени)
+<span data-ttu-id="3d896-180">РЕЖИМ ТЕЛЕТАЙПА: 1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="3d896-180">TTY: 1-800-892-5234</span></span>
 
-## Служба поддержки клиентов для людей с нарушениями слуха
+<span data-ttu-id="3d896-181">Будние дни: 5 утра</span><span class="sxs-lookup"><span data-stu-id="3d896-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="3d896-182">-9 P.M.</span><span class="sxs-lookup"><span data-stu-id="3d896-182">- 9 P.M.</span></span> <span data-ttu-id="3d896-183">(Тихоокеанское время)</span><span class="sxs-lookup"><span data-stu-id="3d896-183">(Pacific Time)</span></span>
 
-Пользователи, страдающие глухотой или нарушениями слуха, могут обращаться в службы поддержки по продуктам Microsoft и службы поддержки клиентов по текстовому телефону (TTY/TDD):
+<span data-ttu-id="3d896-184">Выходные дни: 6 утра</span><span class="sxs-lookup"><span data-stu-id="3d896-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="3d896-185">-3 P.M.</span><span class="sxs-lookup"><span data-stu-id="3d896-185">- 3 P.M.</span></span> <span data-ttu-id="3d896-186">(Тихоокеанское время)</span><span class="sxs-lookup"><span data-stu-id="3d896-186">(Pacific Time)</span></span>
 
-  - По вопросам поддержки клиентов обращайтесь в Центр информационной поддержки продаж Microsoft по телефону (800) 892-5234 с 6:30 до 17:30 (по тихоокеанскому времени), с понедельника по пятницу, кроме праздников.
+</div>
 
-  - Для получения помощи по техническим вопросам в США обращайтесь в службы поддержки по продуктам Microsoft по телефону (800) 892-5234 с 6:00 до 18:00 (по тихоокеанскому времени), с понедельника по пятницу, кроме праздников. В Канаде звоните по телефону (905) 568-9641 с 8:00 до 20:00 (по восточному времени) с понедельника по пятницу, кроме праздников.
+<div>
 
-При использовании службы поддержки корпорации Microsoft действуют цены и условия, актуальные на момент использования службы. Подробные сведения о поддержке Microsoft см. по адресу [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).
+## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="3d896-187">Служба поддержки клиентов для людей с нарушениями слуха</span><span class="sxs-lookup"><span data-stu-id="3d896-187">Customer service for people with hearing impairments</span></span>
 
-## Дополнительные сведения
+<span data-ttu-id="3d896-188">Если вы столкнулись с нарушениями слуха, полный доступ к продукту и службам поддержки Microsoft можно получить с помощью службы текстового телефона (TTY/TDD).</span><span class="sxs-lookup"><span data-stu-id="3d896-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
 
-Дополнительные сведения о том, как технологии, упрощающие использование компьютера, помогают повысить качество жизни людей с ограниченными возможностями, см. в разделе о специальных возможностях Microsoft по адресу [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).
+  - <span data-ttu-id="3d896-189">В службе поддержки клиентов свяжитесь с Microsoft Sales Information Center по адресу (800) 892-5234 от 6:30 утра</span><span class="sxs-lookup"><span data-stu-id="3d896-189">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M.</span></span> <span data-ttu-id="3d896-190">и 5:30 P.M.</span><span class="sxs-lookup"><span data-stu-id="3d896-190">and 5:30 P.M.</span></span> <span data-ttu-id="3d896-191">По тихоокеанскому времени, с понедельника по пятницу, кроме праздников.</span><span class="sxs-lookup"><span data-stu-id="3d896-191">Pacific Time, Monday through Friday, excluding holidays.</span></span>
+
+  - <span data-ttu-id="3d896-192">Для получения технической помощи в США обратитесь в службу поддержки продуктов Майкрософт по адресу (800) 892-5234 от 6:00 утра.</span><span class="sxs-lookup"><span data-stu-id="3d896-192">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M.</span></span> <span data-ttu-id="3d896-193">и 6:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="3d896-193">and 6:00 P.M.</span></span> <span data-ttu-id="3d896-194">По тихоокеанскому времени, с понедельника по пятницу, кроме праздников.</span><span class="sxs-lookup"><span data-stu-id="3d896-194">Pacific Time, Monday through Friday, excluding holidays.</span></span> <span data-ttu-id="3d896-195">Звонки в Канаде (905) 568-9641 в течение 8:00 утра</span><span class="sxs-lookup"><span data-stu-id="3d896-195">In Canada, dial (905) 568-9641 between 8:00 A.M.</span></span> <span data-ttu-id="3d896-196">и 8:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="3d896-196">and 8:00 P.M.</span></span> <span data-ttu-id="3d896-197">Восточное время, с понедельника по пятницу, кроме праздников.</span><span class="sxs-lookup"><span data-stu-id="3d896-197">Eastern Time, Monday through Friday, excluding holidays.</span></span>
+
+<span data-ttu-id="3d896-198">В службах поддержки Microsoft действуют цены, условия и положения, указанные на момент использования службы.</span><span class="sxs-lookup"><span data-stu-id="3d896-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="3d896-199">Подробности можно найти в [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)разделе Служба поддержки Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="3d896-199">For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="for-more-information"></a><span data-ttu-id="3d896-200">Дополнительные сведения</span><span class="sxs-lookup"><span data-stu-id="3d896-200">For more information</span></span>
+
+<span data-ttu-id="3d896-201">Подробные сведения о том, как специальные возможности для компьютеров помогают улучшить жизнь людей с ограниченными возможностями, можно найти в [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)разделе Специальные возможности Майкрософт на.</span><span class="sxs-lookup"><span data-stu-id="3d896-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

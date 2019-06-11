@@ -1,114 +1,122 @@
-﻿---
-title: Назначение политики архивирования уровня пользователя
-TOCTitle: Назначение политики архивирования уровня пользователя
-ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182560(v=OCS.15)
-ms:contentKeyID: 49310708
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Назначение политики архивирования уровня пользователя
+title: 'Lync Server 2013: назначение политики архивации для отдельных пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user archiving policy
+ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:contentKeyID: 48185014
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841758"
+---
+# <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a><span data-ttu-id="189c7-102">Назначение политики архивации по пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="189c7-102">Assign a per-user archiving policy in Lync Server 2013</span></span>
 
  
 
-_**Дата изменения раздела:** 2013-02-22_
 
-Одним из индивидуальных параметров учетной записи пользователя, настраиваемых в панели управления Lync Server 2013, является политика архивации.
+<span data-ttu-id="189c7-103">Политика архивации — это один из параметров учетной записи пользователя, которую можно настроить на панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="189c7-103">The archiving policy is one of the individual settings of a user account that you can configure in the Lync Server 2013 Control Panel.</span></span>
 
-Развертывание политик архивации на уровне пользователя является необязательным. Вы можете развернуть политику архивации только на глобальном уровне или на уровне сайта. При развертывании политик на уровне пользователей вам потребуется явно назначить их пользователям, группам или объектам контакта. Если политика архивации на уровне сайта или пользователя не задана, то по умолчанию будут использоваться параметры архивации, заданные в политике конференц-связи глобального уровня.
+<span data-ttu-id="189c7-104">Развертывание одной или нескольких политик архивации отдельных пользователей не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="189c7-104">Deploying one or more per-user archiving policies is optional.</span></span> <span data-ttu-id="189c7-105">Вы также можете развернуть только политику архивации глобального уровня или политику архивации на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="189c7-105">You can also deploy only a global-level archiving policy or site-level archiving policy.</span></span> <span data-ttu-id="189c7-106">Если выполняется развертывание политик на пользователя, необходимо явно назначить их пользователям, группам или контактным объектам.</span><span class="sxs-lookup"><span data-stu-id="189c7-106">If you do deploy per-user policies, you must explicitly assign them to users, groups, or contact object.</span></span> <span data-ttu-id="189c7-107">Требования к архивированию автоматически по умолчанию задаются в политике Конференции глобального уровня, если не назначено ни одного определенного уровня сайта или политики пользователя.</span><span class="sxs-lookup"><span data-stu-id="189c7-107">Archiving requirements automatically default to those defined in the global-level conferencing policy when no specific site-level or per-user policy is assigned.</span></span>
 
-После создания политики архивации на уровне пользователя назначьте политику, которая задает параметры архивации внутренних коммуникаций пользователя, внешних коммуникаций пользователя или коммуникаций обоих типов, с помощью процедур, описанных в этом разделе.
+<span data-ttu-id="189c7-108">После создания хотя бы одной политики архивации для пользователей с помощью описанных в этой статье процедур вы можете назначить политику, которая будет заархивирована на сервере с использованием внутренней связи, внешней связи или того или иного пользователя.</span><span class="sxs-lookup"><span data-stu-id="189c7-108">After creating at least one per-user archiving policy, use the procedures in this topic to assign the policy that appropriately specifies whether a particular user’s internal communications, external communications, or both, will be archived by the server.</span></span>
 
-Дополнительные сведения о создании политик архивации на уровне пользователя см. в разделе [Создание политики архивации для включения или отключения архивации внутренних или внешних коммуникаций для определенных сайтов или пользователей](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+<span data-ttu-id="189c7-109">Подробнее о создании политик архивации для каждого пользователя можно узнать [в разделе Создание политики архивации в Lync Server 2013, чтобы включить или отключить архивирование внутренних или внешних сообщений для определенных сайтов или пользователей](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).</span><span class="sxs-lookup"><span data-stu-id="189c7-109">For details about creating per-user archiving policies, see [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).</span></span>
 
-## Назначение политики архивации на уровне пользователя
+## <a name="to-assign-a-per-user-archiving-policy"></a><span data-ttu-id="189c7-110">Назначение политики архивации на пользователя</span><span class="sxs-lookup"><span data-stu-id="189c7-110">To assign a per-user archiving policy</span></span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
+1.  <span data-ttu-id="189c7-111">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="189c7-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  <span data-ttu-id="189c7-112">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="189c7-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="189c7-113">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="189c7-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  В панели навигации слева щелкните **Пользователи**.
+3.  <span data-ttu-id="189c7-114">На левой панели навигации щелкните **Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="189c7-114">In the left navigation bar, click **Users**.</span></span>
 
-4.  Чтобы найти пользователя, используйте один из следующих методов:
+4.  <span data-ttu-id="189c7-115">Используйте один из следующих методов для обнаружения пользователя:</span><span class="sxs-lookup"><span data-stu-id="189c7-115">Use one of the following methods to locate a user:</span></span>
     
-      - В поле **Поиск пользователей** введите отображаемое имя, имя пользователя, фамилию, имя учетной записи в диспетчере учетных записей безопасности, SIP-адрес или универсальный код ресурса (URI) учетной записи пользователя (или первые буквы соответствующих имен) и затем щелкните **Поиск**.
+      - <span data-ttu-id="189c7-116">В поле **Поиск пользователей** введите отображаемое имя (полностью или первую его часть), имя, фамилию, имя учетной записи SAM (Security Accounts Manager — диспетчер учетных записей безопасности), SIP-адрес или линейный идентификатор URI (Uniform Resource Identifier — универсальный код ресурса) учетной записи пользователя, а затем щелкните **Найти**.</span><span class="sxs-lookup"><span data-stu-id="189c7-116">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - При наличии сохраненного запроса щелкните значок **Открыть запрос**, найдите запрос (USF-файл) в диалоговом окне **Открыть** и затем щелкните **Поиск**.
+      - <span data-ttu-id="189c7-117">Если у вас есть сохраненный запрос, щелкните значок **Открыть запрос**. С помощью диалогового окна **Открыть** загрузите запрос (файл .usf), а затем щелкните **Поиск**.</span><span class="sxs-lookup"><span data-stu-id="189c7-117">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  Чтобы сузить результаты поиска, укажите дополнительные критерии поиска (необязательно):
+5.  <span data-ttu-id="189c7-118">(Необязательно) Задайте дополнительные критерии поиска, чтобы сократить количество результатов:</span><span class="sxs-lookup"><span data-stu-id="189c7-118">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  Щелкните **Добавить фильтр**.
+    1.  <span data-ttu-id="189c7-119">Щелкните **Добавить фильтр**.</span><span class="sxs-lookup"><span data-stu-id="189c7-119">Click **Add Filter**.</span></span>
     
-    2.  Введите свойство пользователя или выберите его в раскрывающемся списке.
+    2.  <span data-ttu-id="189c7-120">Введите свойства пользователя; для это введите его или щелкните стрелку в раскрывающемся списке, чтобы выбрать свойство.</span><span class="sxs-lookup"><span data-stu-id="189c7-120">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  В раскрывающемся списке **Равно** выберите оператор (например, **Равно** или **Не равно**).
+    3.  <span data-ttu-id="189c7-121">В раскрывающемся списке **Равно** щелкните оператор (например, **Равно** или **Не равно**).</span><span class="sxs-lookup"><span data-stu-id="189c7-121">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  Введите критерий, который необходимо использовать для фильтрации результатов поиска, в зависимости от выбранного свойства пользователя или выберите критерий в раскрывающемся списке.
+    4.  <span data-ttu-id="189c7-122">В зависимости от выбранного свойства пользователя введите критерии, которые необходимо использовать для фильтрации результатов поиска; для это введите его или щелкните стрелку в раскрывающемся списке.</span><span class="sxs-lookup"><span data-stu-id="189c7-122">Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
 
-        > [!TIP]
-        > Чтобы добавить в запрос дополнительные выражения поиска, щелкните <STRONG>Добавить фильтр</STRONG>.
+        > [!TIP]  
+        > <span data-ttu-id="189c7-123">Чтобы добавить в запрос дополнительные условия поиска, щелкните <STRONG>Добавить фильтр</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="189c7-123">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
 
     
-    5.  Щелкните **Поиск**.
+    5.  <span data-ttu-id="189c7-124">Щелкните **Поиск**.</span><span class="sxs-lookup"><span data-stu-id="189c7-124">Click **Find**.</span></span>
 
-6.  Выберите пользователя в результатах поиска, щелкните **Действие** и затем щелкните **Назначить политики**.
+6.  <span data-ttu-id="189c7-125">Выберите пользователя в списке результатов поиска, щелкните **Действие**, а затем **Назначить политики**.</span><span class="sxs-lookup"><span data-stu-id="189c7-125">Click a user in the search results, click **Action**, and then click **Assign policies**.</span></span>
     
 
-    > [!TIP]
-    > Если требуется применить одну политику архивации к нескольким пользователям, выберите нескольких пользователей в результатах поиска, щелкните <STRONG>Действия</STRONG> и затем щелкните <STRONG>Назначить политики</STRONG>.
+    > [!TIP]  
+    > <span data-ttu-id="189c7-126">Если вы хотите применить одну и ту же политику архивации пользователей для нескольких пользователей, выберите в результатах поиска нескольких пользователей, а затем нажмите кнопку <STRONG>действия</STRONG>и выберите команду <STRONG>назначить политики</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="189c7-126">If you want the same per-user archiving policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.</span></span>
 
 
 
-7.  В разделе **Политика архивации** диалогового окна **Назначение политик** выполните одно из следующих действий:
+7.  <span data-ttu-id="189c7-127">В группе **назначение политик**в разделе **Политика архивации**выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="189c7-127">In **Assign Policies**, under **Archiving policy**, do one of the following:</span></span>
     
+
     > [!NOTE]  
-    > Поскольку с помощью диалогового окна <strong>Назначение политик</strong> можно настроить несколько политик, для каждой политики по умолчанию выбрано значение <strong>&lt;Без изменений&gt;</strong>. При использовании политики, назначенной пользователю ранее, это значение не будет использоваться.    
-      - Разрешите Lync Server 2013 автоматически выбирать политику глобального уровня или политику на уровне сайта, если она задана.
+    > <span data-ttu-id="189c7-128">Из <STRONG> &lt;-&gt; </STRONG> за нескольких политик, которые можно настроить с помощью диалогового окна <STRONG>назначение политик</STRONG> , по умолчанию для каждой политики в диалоговом окне выбрать пункт Сохранить как.</span><span class="sxs-lookup"><span data-stu-id="189c7-128">Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box.</span></span> <span data-ttu-id="189c7-129">Чтобы продолжить использование политики, назначенной пользователю ранее, не вносите никаких изменений в эти настройки.</span><span class="sxs-lookup"><span data-stu-id="189c7-129">Continue using the policy previously assigned to the user by making no changes to this setting.</span></span>
+
     
-      - Щелкните имя политики архивации на уровне пользователя, которую вы задали ранее на странице **Политика архивации**.
+      - <span data-ttu-id="189c7-130">Разрешение Lync Server 2013 для автоматического выбора политики глобального уровня или, если определено, политики на уровне сайта.</span><span class="sxs-lookup"><span data-stu-id="189c7-130">Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.</span></span>
+    
+      - <span data-ttu-id="189c7-131">Щелкните имя политики архивации для пользователей, определенной ранее на странице " **Политика архивации** ".</span><span class="sxs-lookup"><span data-stu-id="189c7-131">Click the name of a per-user archiving policy you previously defined on the **Archiving Policy** page.</span></span>
         
 
-        > [!TIP]
-        > Чтобы упростить выбор назначаемой политики, выделите имя политики и затем щелкните <STRONG>Просмотр</STRONG> для получения сведений о правах и разрешениях, определенных в политике.
+        > [!TIP]  
+        > <span data-ttu-id="189c7-132">Чтобы выбрать политику, которую вы хотите назначить, после выбора имени политики нажмите кнопку <STRONG>Просмотр</STRONG> , чтобы просмотреть права и разрешения пользователей, определенные в политике.</span><span class="sxs-lookup"><span data-stu-id="189c7-132">To help you decide the policy that you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.</span></span>
 
 
 
-8.  После завершения назначения политики нажмите кнопку **ОК**.
+8.  <span data-ttu-id="189c7-133">По завершении щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="189c7-133">When you are finished, click **OK**.</span></span>
 
-## Назначение индивидуальной политики архивации с помощью командлетов Windows PowerShell
+## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="189c7-134">Назначение политики архивации для пользователей с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="189c7-134">Assigning a Per-User Archiving Policy by Using Windows PowerShell Cmdlets</span></span>
 
-Индивидуальные политики архивации могут также назначаться с помощью Windows PowerShell и командлета **Grant-CsArchivingPolicy**. Этот командлет может запускаться либо из командная консоль Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<span data-ttu-id="189c7-135">Вы можете назначать политики архивации для пользователей с помощью Windows PowerShell и командлета **Grant-ксарчивингполици** .</span><span class="sxs-lookup"><span data-stu-id="189c7-135">You can assign per-user archiving policies by using Windows PowerShell and the **Grant-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="189c7-136">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="189c7-136">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="189c7-137">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="189c7-137">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-## Назначение одиночному пользователю политики архивации на уровне пользователей
+## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a><span data-ttu-id="189c7-138">Назначение политики архивации отдельных пользователей для одного пользователя</span><span class="sxs-lookup"><span data-stu-id="189c7-138">To assign a per-user archiving policy to a single user</span></span>
 
-  - Следующей командой пользователю Ken Myer назначается политика архивации RedmondArchivingPolicy на уровне пользователей.
+  - <span data-ttu-id="189c7-139">Следующей командой пользователю Ken Myer назначается политика архивации RedmondArchivingPolicy на уровне пользователей.</span><span class="sxs-lookup"><span data-stu-id="189c7-139">The following command assigns the per-user archiving policy RedmondArchivingPolicy to the user Ken Myer.</span></span>
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 
-## Назначение нескольким пользователям политики архивации на уровне пользователей
+## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a><span data-ttu-id="189c7-140">Назначение политики архивации на пользователя для нескольких пользователей</span><span class="sxs-lookup"><span data-stu-id="189c7-140">To assign a per-user archiving policy to multiple users</span></span>
 
-  - Этот командлет назначает индивидуальную политику архивации RedmondArchivingPolicy всем пользователям, имеющим учетные записи, размещенные в пуле регистратора (Registrar) atl-cs-001.litwareinc.com. Дополнительные сведения о параметре Filter, используемом в этой команде см. в документации по командлету [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - <span data-ttu-id="189c7-141">Эта команда назначает политику архивации пользователей Редмондарчивингполици всем пользователям, которые имеют учетные записи, размещенные на atl-cs-001.litwareinc.com пула регистраторов.</span><span class="sxs-lookup"><span data-stu-id="189c7-141">This command assigns the per-user archiving policy RedmondArchivingPolicy to all the users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="189c7-142">Дополнительные сведения о параметре фильтрации, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="189c7-142">For more information on the Filter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
-## Отмена назначения политики архивации на уровне пользователей
+## <a name="to-unassign-a-per-user-archiving-policy"></a><span data-ttu-id="189c7-143">Отмена политики архивации для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="189c7-143">To unassign a per-user archiving policy</span></span>
 
-  - Следующей командой отменяется любая политика архивации на уровне пользователей, ранее назначенная пользователю Ken Myer. После того как политика на уровне пользователей отменена, Ken Myer будет автоматически управляться с помощью глобальной политики или политики его локального сайта, если такая существует. Политика сайта имеет приоритет над глобальной политикой.
+  - <span data-ttu-id="189c7-144">Следующая команда отменяет назначение каждой политики архивации пользователей, ранее назначенной для Кен мер.</span><span class="sxs-lookup"><span data-stu-id="189c7-144">The following command unassigns any per-user archiving policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="189c7-145">После отмены назначения для Кена Майера будет автоматически действовать глобальная политика или локальная политика сайта, если такая существует.</span><span class="sxs-lookup"><span data-stu-id="189c7-145">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="189c7-146">Политика сайта имеет приоритет над глобальной политикой.</span><span class="sxs-lookup"><span data-stu-id="189c7-146">A site policy takes precedence over the global policy.</span></span>
     
-        Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
+        Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки по командлету [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
+<span data-ttu-id="189c7-147">Дополнительные сведения можно найти в разделе справки о командлете [Grant-ксарчивингполици](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="189c7-147">For more information, see the help topic for the [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) cmdlet.</span></span>
 
-## См. также
+## <a name="see-also"></a><span data-ttu-id="189c7-148">См. также</span><span class="sxs-lookup"><span data-stu-id="189c7-148">See Also</span></span>
 
-#### Задачи
 
-[Создание политики архивации для включения или отключения архивации внутренних или внешних коммуникаций для определенных сайтов или пользователей](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[<span data-ttu-id="189c7-149">Создание политики архивации в Lync Server 2013 для включения и отключения архивации внутренних или внешних сообщений определенных сайтов и пользователей</span><span class="sxs-lookup"><span data-stu-id="189c7-149">Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users</span></span>](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
 
-#### Другие ресурсы
 
-[Назначение политик уровня пользователя в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+[<span data-ttu-id="189c7-150">Назначение политик для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="189c7-150">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 
