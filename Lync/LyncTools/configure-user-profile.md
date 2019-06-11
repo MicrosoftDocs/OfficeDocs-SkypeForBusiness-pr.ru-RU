@@ -1,161 +1,249 @@
-﻿---
-title: Configure User Profile
+---
+title: Настройка профиля пользователя
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945594(v=OCS.15)
-ms:contentKeyID: 52058568
-ms.date: 08/03/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
+ms:contentKeyID: 51541419
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842053"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configure User Profile
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-24_
+# <a name="configure-user-profile"></a>Настройка профиля пользователя
 
-The tools included in the Lync Server 2013 Stress and Performance Tool package enable you to create and configure test user accounts that you can use to run load simulations. Use the Lync Server 2013 User Creation Tool to create the users. (For details, see [Create Users and Contacts](create-users-and-contacts.md).) After users are created, configure the user profiles by using the Lync Server 2013 Load Configuration Tool.
+</div>
 
-## Running the Lync Server 2013 Load Configuration Tool
+<div id="mainSection">
 
-To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all of the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
+<div id="mainBody">
 
-> [!IMPORTANT]
-> The user-specific values specified in UserProfileGenerator must match the values specified in the Lync Server 2013 User Creation Tool (UserProvisioningTool) for the pool.
+<span> </span>
+
+_**Тема последнего изменения:** 2018-10-11_
+
+Инструменты, включенные в пакет инструментов для Lync Server 2013, позволяют создавать и настраивать учетные записи пользователей, которые можно использовать для моделирования загрузки. С помощью средства создания пользователей Lync Server 2013 вы можете создавать пользователей. (Подробные сведения можно найти в разделе [Создание пользователей и контактов](create-users-and-contacts.md).) После создания пользователей настройте профили пользователей с помощью средства настройки загрузки Lync Server 2013.
+
+<div>
+
+## <a name="running-the-lync-server-2013-load-configuration-tool"></a>Запуск средства настройки загрузки для Lync Server 2013
+
+Чтобы настроить профили пользователей, запустите средство для настройки загрузки Lync Server 2013 (Усерпрофилеженератор. exe) и заполните каждую из вкладок. Усерпрофилеженератор. exe создаст каталог для каждого клиентского компьютера, на котором необходимо выполнить эмуляцию. Каждый клиентский каталог также сопровождается сценарием для запуска всех экземпляров средства нагрузки и производительности Lync Server 2013 (Линкперфтул. exe).
+
+<div>
 
 
-Fill in the fields on each tab of the Lync Server 2013 Load Configuration Tool, as described in the following sections.
+> [!IMPORTANT]  
+> Пользовательские значения, заданные в Усерпрофилеженератор, должны соответствовать значениям, указанным в средстве создания пользователей Lync Server 2013 (Усерпровисионингтул) для пула.
 
-## Common Configuration
 
-The **Common Configuration** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure. Fill in the fields of the **Common Configuration** tab, as described in the following steps.
 
-![Вкладка Common Configuration (Общая конфигурация).](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Вкладка Common Configuration (Общая конфигурация).")
+</div>
 
-1.  In **Number of Available Machines**, type or click the number of computers that you want to use to run LyncPerfTool.exe. We recommend that you have one computer for every 4,500 users that you will be simulating. That number may vary if you reduce the load level or if you use only a subset of the available features. (Load levels are set on the **General Scenarios** tab.)
+Заполните поля на каждой вкладке средства настройки загрузки Lync Server 2013, как описано в следующих разделах.
 
-2.  In **Prefix for User Names**, type the prefix for the user name of the users. To log in, the Uniform Resource Identifier (URI) will be: UserPrefix\[User Start Index…(Number Of Users-1)\]@User Domain.
+<div>
 
-3.  In **Password for All Users**, enter the password that was used for creating the users. If you leave this field empty, the username will be used as the password.
+## <a name="common-configuration"></a>Общая конфигурация
 
-4.  In **User Start Index**, click or type the index of the first user to be configured. You can configure different ranges for different types or levels of load, but you must run UserProfileGenerator.exe once per the range that you want to configure.
+На приведенном ниже рисунке показана вкладка " **Общая конфигурация** " средства настройки загрузки Lync Server 2013. Заполните поля на вкладке **Общая конфигурация** , как описано ниже.
 
-5.  In **Number of Users**, click or type the total number of users you are going to configure.
+![Общая вкладка "Конфигурация".] (images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Общая вкладка \"Конфигурация\".")
 
-6.  In **User Domain**, type the domain used for the SIP URI. This is used to construct the SIP URI of each user to log on to the Lync Server 2013 Front End Server or Standard Edition server. It can be different from the account domain.
+1.  В списке **доступные компьютеры**введите или выберите количество компьютеров, которые нужно использовать для запуска линкперфтул. exe. Мы рекомендуем использовать один компьютер для всех пользователей 4 500, которые вы будете моделировать. Это число может различаться в зависимости от размера нагрузки или при использовании только подмножества доступных функций. (Уровни нагрузки задаются на вкладке " **Общие сценарии** ".)
 
-7.  In **Account Domain**, type the Active Directory (AD DS) domain logon.
+2.  В поле **префикс для имен пользователей**введите префиксы для имен пользователей. Для входа в систему будет использоваться универсальный код ресурса (URI): Усерпрефикс\[User start index... (Количество пользователей – 1) \]@User Domain (домен).
 
-8.  Enter the maximum number of concurrent endpoints in **Sign In Per Second (per instance)** for which you want the tool to log in all the endpoints/users. The recommended rate is \<=2 per second/standard SKU FE.
+3.  В поле **пароль для всех пользователей**введите пароль, который использовался при создании пользователей. Если оставить это поле пустым, имя пользователя будет использоваться в качестве пароля.
 
-9.  In **Access Proxy or Pool FQDN**, type the fully qualified domain name (FQDN) of the server that you want the clients to connect to. If the users are logging on externally, specify the access proxy. If the users are internal, specify the FQDN of their pool or Standard Edition server.
+4.  В поле **начать индексирование пользователя**щелкните или введите индекс первого пользователя, которого нужно настроить. Вы можете настроить различные диапазоны для разных типов или уровней нагрузки, но необходимо запускать Усерпрофилеженератор. exe один раз в диапазоне, который вы хотите настроить.
 
-10. In **Port**, click or type the port that you want users to use for SIP (the default is 5061).
+5.  В разделе **количество пользователей**выберите или введите общее количество пользователей, которых вы хотите настроить.
 
-For External Network Server Settings, specify the **Access Proxy or Pool FQDN** and the **Port**. These settings are used only for External endpoints load simulation.
+6.  В разделе **домен пользователя**введите домен, используемый для URI SIP. Используется для создания универсального кода ресурса (URI) SIP для каждого пользователя, чтобы войти на сервер переднего плана Lync Server 2013 или сервер Standard Edition. Оно может отличаться от домена учетной записи.
 
-## General Scenarios
+7.  В поле **домен учетной записи**введите имя домена доменных служб Active Directory.
 
-The **General Scenarios** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+8.  Введите максимальное количество одновременных конечных точек в поле **Вход в секунду (для каждого экземпляра)** , для которого требуется выполнить вход в систему для всех конечных точек и пользователей. Рекомендуемая ставка \<= 2 в секунду/стандарт SKU Fe.
 
-Configure the load levels and parameters for each of the general scenarios that you want to run, or leave disabled.
+9.  В разделе **прокси-сервер или доменное имя пула**введите полное доменное имя (FQDN) сервера, к которому должны подключаться клиенты. Если пользователи находятся на внешнем входе, укажите прокси-сервер доступа. Если пользователи являются внутренними, укажите полное доменное имя своего пула или сервера Standard Edition.
 
-![Вкладка General Scenarios (Общие сценарии).](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Вкладка General Scenarios (Общие сценарии).")
+10. В поле **порт**выберите или введите номер порта, который будет использоваться пользователями для SIP (значение по умолчанию — 5061).
 
-1.  In **Instant Messaging**, which includes peer-to-peer and conferencing, specify the appropriate value for the Load Level.
+Для параметров сервера внешней сети укажите **имя прокси-сервера или FQDN для пула** и **порт**. Эти параметры используются только для моделирования нагрузки внешних конечных точек.
+
+</div>
+
+<div>
+
+## <a name="general-scenarios"></a>Общие сценарии
+
+На приведенном ниже рисунке показана вкладка " **Общие сценарии** " средства настройки загрузки Lync Server 2013.
+
+Настройте уровни нагрузки и параметры для каждого из общих сценариев, которые вы хотите выполнить, или оставьте значение отключено.
+
+![Вкладка "Общие сценарии".] (images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Вкладка \"Общие сценарии\".")
+
+1.  В окне **обмена мгновенными сообщениями**, в том числе одноранговым одноранговым узлом и конференц-связью, укажите соответствующее значение для уровня нагрузки.
     
-    > [!NOTE]
-    > Load level values for all fields (except Location Information Services) are <strong>Disabled</strong>, <strong>Low</strong>, <strong>Medium</strong>, <strong>High</strong>, and <strong>Custom</strong>. When Low, Medium, High, or Custom is selected, configurations will be generated for each modality and client. High will result in the maximum supported load to be generated for the server, Medium corresponds to 60 percent of the load, and Low corresponds to 30 percent of the load.
-
-
-2.  In **Audio Conferencing**, which is audio conferencing only, specify the appropriate value for Load Level. Peer-to-peer calls are covered in the Voice Scenarios section later in this topic. To enable MultiView, open the **Advanced** tab for that modality.
-
-3.  In **Application Sharing**, specify the appropriate value for Load Level.
-
-4.  In **Data Collaboration**, which includes data conferencing, specify the appropriate value for Load Level.
-
-5.  In **Distribution List Expansion**, specify the appropriate value for Load Level. You must also click the **Advanced** button, and then fill in the fields with the same values that you configured on the **Distribution List** tab of the Lync Server User Creation Tool (UserProvisioningTool.exe). For details about these fields, see [Create Users and Contacts](create-users-and-contacts.md)
-
-6.  In **Address Book Web Query**, which is the address book lookup service (not the address book file download), specify the appropriate value for Load Level. To enable address book downloads, click the corresponding **Advanced** button, and then set **EnableABSDownload** to true.
-
-7.  In **Response Group Service**, specify the appropriate value for Load Level. You must also click the corresponding **Advanced** button, and then specify the URIs of the response groups you have already created when provisioning Response Group Service agents. You must specify at least one response group. Use semicolons to separate multiple response groups. Update RGSUriSuffixStartIndex and RGSUriSuffixEndIndex to the actual values.
-
-8.  In **Location Information Services**, select the appropriate value for Load Level. The load level for Location Information Services must be **Enabled** or **Disabled**.
-
-> [!NOTE]
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it, and a set of check boxes that enable variations of the scenarios. <strong>Ad-hoc</strong> means to generate simulation of conferences that will be created throughout the hour. <strong>Large Conf</strong> means that Large Conference Scenario will be simulated. <strong>External</strong> means to also simulate external users.<br />
-These buttons and check boxes allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and make customization possible. For each scenario on the <strong>General Scenarios</strong> tab (except for Location Information Services), if the value of Load Level is <strong>Custom</strong>, then the conversation rate will be calculated using the corresponding field in the <strong>Advanced</strong> dialog box. The field name differs, depending on the scenario, but the field description will state, &quot;NOTE: This number will only be used if Custom is selected from the drop-down menu.&quot; In general, the values <strong>High</strong>, <strong>Medium</strong>, and <strong>Low</strong> will alter the conversation rates per modality in line with the User Model that is a balance of all the scenarios. If there is a need to change the load level per modality due to a difference in expected usage, we recommend using a <strong>Custom</strong> conversation rate.<br />
-
-
-
-## Voice Scenarios
-
-The **Voice Scenarios** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
-
-Use the **Voice Scenarios** tab to configure all of the voice-related scenarios.
-
-![Вкладка Voice Scenarios (Голосовые сценарии).](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Вкладка Voice Scenarios (Голосовые сценарии).")
-
-1.  In **VoIP**, click the **Advanced** button, and then provide values for the **PhoneAreaCode** and **LocationProfile** (dial plan) fields. You must also specify a value for **Load Level**. If Load Level for **VoIP** and **UC/PSTN Gateway** is Enabled, then a public switched telephone network (PSTN) to unified communications (UC) configuration file will always be generated that will simulate external calls.
-
-2.  In **UC/PSTN Gateway**, specify a value for Load Level. If you select a load level other than **Disabled**, you must supply a value for **PSTN Area Code** by clicking the **Add** button under Mediation Server and PSTN. Verify that you have a route configured for that area code.
+    <div>
     
-    > [!NOTE]
-    > You can use either the управления Lync Server or the Lync Server to verify voice route configuration.
+
+    > [!NOTE]  
+    > Значения уровня загрузки для всех полей (за исключением информационных служб) <STRONG></STRONG>отключаются, <STRONG>низкие</STRONG>, <STRONG>средние</STRONG>, <STRONG>высокие</STRONG>и <STRONG>пользовательские</STRONG>. Если выбрано "низкий", "средний", "высокий" или "особый", для каждого модальия и клиента будут созданы конфигурации. High (высокий) приведет к тому, что максимальная поддерживаемая нагрузка будет сгенерирована для сервера, средняя — 60% от нагрузки, а низкая соответствует 30 процентам нагрузки.
+
+    
+    </div>
+
+2.  В **голосовой конференции**, которая является только для голосовой конференции, укажите соответствующее значение для уровня загрузки. Одноранговые вызовы описаны в разделе сценарии голосовой связи ниже в этой статье. Чтобы включить многорежимный просмотр, откройте вкладку **Дополнительно** для этой модальности.
+
+3.  В разделе **общий доступ к приложениям**укажите подходящее значение для уровня загрузки.
+
+4.  В разделе **Совместная работа с данными**, в том числе в конференц-связи с данными, укажите подходящее значение для уровня загрузки.
+
+5.  В разделе **Развертывание списка рассылки**укажите подходящее значение для уровня загрузки. Кроме того, необходимо нажать кнопку **Дополнительно** , а затем заполнить поля теми же значениями, которые вы настроили на вкладке **список рассылки** средства создания пользователей Lync Server (усерпровисионингтул. exe). Дополнительные сведения об этих полях можно найти в разделе [Создание пользователей и контактов](create-users-and-contacts.md)
+
+6.  В **веб-запросе на адресную книгу**, которая является службой просмотра адресной книги (не для скачивания файла адресной книги), укажите соответствующее значение для уровня загрузки. Чтобы включить загрузку в адресную книгу, нажмите соответствующую кнопку **Дополнительно** , а затем установите для **енаблеабсдовнлоад** значение true.
+
+7.  В **службе группы ответа**укажите подходящее значение для уровня загрузки. Кроме того, необходимо нажать соответствующую кнопку **Дополнительно** , а затем указать URI групп ответа, которые уже созданы при подготовке агентов службы группы ответа. Необходимо указать хотя бы одну группу ответа. Используйте точку с запятой для разделения нескольких групп ответа. Обновите Ргсурисуффиксстартиндекс и Ргсурисуффиксендиндекс до реальных значений.
+
+8.  В **информационных службах расположения**выберите соответствующее значение для уровня загрузки. Уровень нагрузки для служб сведений о расположении должен быть **включен** или **выключен**.
+
+<div>
 
 
-3.  In **Conferencing Attendant**, specify a value for Load Level. Selecting a load level (other than **Disabled**) will enable the **Telephone Number** field. Enter the telephone number of the Auto Attendant that you want to use. Also, click the **Advanced** button, and then specify a value for the **LocationProfile** field.
-
-4.  In **Call Park Service**, specify the appropriate value for **Load Level**.
-
-5.  In **Mediation Server and PSTN**, for each Mediation Server that you want to use, you must have a separate PSTN simulator. After you have determined which client you are going to use as the simulator, you need to configure your Mediation Server to route calls to that computer on the PSTN Simulator port that you configured. Click **Add** to configure the value for the Mediation Server.
-
-> [!NOTE]
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each scenario on the <strong>Voice Scenarios</strong> tab, if the value of <strong>Load Level</strong> is <strong>Custom</strong>, then the conversation rate will be calculated by using the corresponding field in the <strong>Advanced</strong> dialog box. The field name differs, depending on the scenario, but the field description will state, &quot;NOTE: This number will only be used if Custom is selected from the drop-down menu.&quot;
+> [!NOTE]  
+> У каждого сценария есть кнопка " <STRONG>Дополнительно</STRONG> ", расположенная рядом с ней, и набор флажков для включения вариантов сценариев. <STRONG></STRONG> Нерегламентированные — это создание имитации конференций, которые будут создаваться в течение часа. <STRONG>Крупный CONF</STRONG> означает, что на нем будет проводиться имитация большого сценария Конференции. <STRONG>Внешние</STRONG> — это также имитация внешних пользователей.<BR>Эти кнопки и флажки позволяют получить доступ к определенным значениям для каждого сценария, который изменит поведение средства нагрузки и производительности Lync Server 2013 (Линкперфтул) и делает возможным настройку. Для каждого сценария на вкладке " <STRONG>Общие сценарии</STRONG> " (кроме информационных служб расположения), если значение уровня загрузки — <STRONG>Custom</STRONG>, частота беседы будет рассчитывается с использованием соответствующего поля в диалоговом окне <STRONG>Дополнительно</STRONG> . Имя поля различается в зависимости от сценария, но его описание — "Примечание. Этот номер будет использоваться только в том случае, если в раскрывающемся меню выбран пункт" только настраиваемый ". Как правило, значения " <STRONG>высокий</STRONG>", " <STRONG>средний</STRONG>" и " <STRONG>низкий</STRONG> " изменяют тарифы на беседу в строке с помощью пользовательской модели, которая является балансом по всем сценариям. Если необходимо изменить уровень загрузки для каждого модального элемента из-за разницы в ожидаемом использовании, рекомендуется использовать настраиваемый частоту <STRONG></STRONG> беседы.<BR>
 
 
-## Reach
 
-Reach is a new experience in Lync Server 2013 that supports conferencing scenarios through the Unified Communications Web API (UCWA) server that is installed on the Front End server. The **Reach** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+</div>
 
-Use the **Reach** tab to configure all of the reach-related scenarios.
+</div>
 
-![Вкладка Reach (Доступность).](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Вкладка Reach (Доступность).")
+<div>
 
-1.  Click the **Advanced** button next to **General Reach Settings**. Set the field **UcwaTargetServerUrl** to the Director pool virtual IP (VIP) or the Front End pool VIP.
+## <a name="voice-scenarios"></a>Сценарии голосовой связи
 
-2.  In **Application Sharing**, **Data Collaboration**, and **IM**, select the appropriate value for **Load Level**.
+На приведенном ниже рисунке показана вкладка " **речевые сценарии** " средства настройки загрузки Lync Server 2013.
 
-> [!NOTE]
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each of the Reach scenarios, if the <strong>Load Level</strong> is <strong>Custom</strong>, then the value specified in the <strong>ConversationsPerHour</strong> field is used instead of the default
+С помощью вкладки " **речевые сценарии** " можно настроить все сценарии, связанные с голосовыми операциями.
+
+![Вкладка "речевые сценарии".] (images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Вкладка \"речевые сценарии\".")
+
+1.  В **VoIP**нажмите кнопку **Дополнительно** , а затем укажите значения полей **фонеареакоде** и **локатионпрофиле** (абонентская группа). Кроме того, необходимо указать значение для **уровня загрузки**. Если включен уровень загрузки для **VoIP** и **UC/PSTN** , будет всегда создаваться файл конфигурации общедоступной коммутируемой телефонной сети (PSTN), который будет имитировать внешние звонки.
+
+2.  В **шлюзе UC/КТСОП**укажите значение для уровня загрузки. Если вы выбрали уровень загрузки, отличный от **disabled**, необходимо указать значение для **кода города PSTN** , нажав кнопку **добавить** в разделе сервер-посредник и PSTN. Убедитесь в том, что маршрут настроен для этого кода города.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Для проверки конфигурации маршрутов голосовой связи можно использовать панель управления Lync Server или консоль управления Lync Server.
+
+    
+    </div>
+
+3.  В списке **участников Конференц**-связи укажите значение для параметра Load (уровень загрузки). Если выбрать уровень загрузки (кроме **отключенных**), будет включена поле " **номер телефона** ". Введите номер телефона автосекретаря, который вы хотите использовать. Кроме того, нажмите кнопку **Дополнительно** , а затем укажите значение для поля **локатионпрофиле** .
+
+4.  В **службе парковки звонков**укажите подходящее значение для **уровня загрузки**.
+
+5.  На **сервере-посреднике и КТСОП**для каждого сервера-посредника необходимо использовать отдельный симулятор PSTN. После того как вы определили, какой клиент вы будете использовать в качестве имитатора, вам нужно настроить сервер, чтобы он направлял звонки на этот компьютер на своем порте имитатора PSTN, который вы настроили. Нажмите кнопку **Добавить** , чтобы настроить значение для сервера обновлений.
+
+<div>
 
 
-Use the **Mobility** tab to configure all of the mobility-related scenarios.
-
-![Вкладка Mobility (Мобильность).](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Вкладка Mobility (Мобильность).")
-
-1.  Click the **Advanced** button next to **Mobility (UCWA)**. Set the field **UcwaTargetServerUrl** to the Director pool virtual IP (VIP) or the Front End pool VIP.
-
-2.  In **Presence and P2P Instant Messaging\\Audio**, select the appropriate value for **Load Level** to enable Mobility Scenario simulation.
-
-> [!NOTE]
-> Each of the scenarios has an <strong>Advanced</strong> button located next to it. These buttons allow access to values specific to each scenario that will change the behavior of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool) and enable customization. For each of the Reach scenarios, if the <strong>Load Level</strong> is <strong>Custom</strong>, then the value specified in the <strong>ConversationsPerHour</strong> field is used instead of the default.
+> [!NOTE]  
+> Рядом с каждым сценарием расположена кнопка " <STRONG>Дополнительно</STRONG> ". Эти кнопки позволяют получить доступ к значениям, специфичным для каждого сценария, который изменит поведение средства нагрузки и производительности Lync Server 2013 (Линкперфтул) и включить настройку. Для каждого сценария на вкладке " <STRONG>сценарии голосового</STRONG> ввода", если значение <STRONG>уровня загрузки</STRONG> — " <STRONG>Настраиваемая</STRONG>", частота беседы будет вычислена с помощью соответствующего поля в диалоговом окне " <STRONG>Дополнительно</STRONG> ". Имя поля различается в зависимости от сценария, но его описание — "Примечание. Этот номер будет использоваться только в том случае, если в раскрывающемся меню выбран пункт" только настраиваемый ".
 
 
-## Summary
 
-The **Summary** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+</div>
 
-![Вкладка Summary (Сводка).](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Вкладка Summary (Сводка).")
+</div>
 
-The **Summary** tab indicates which users to use for each of the scenarios. It is possible to manually configure user number ranges by selecting the **Enable Custom User Range Generation** check box, and then double-clicking the scenario in the table that has the **User Range** that you want to customize. Check (RunClient.bat) Add sign-in delay when starting, in order to include delays in the generated batch files to correspond with the sign-in rate. This is useful to prevent server overload when signing in a large number of users. Click **Generate Files**, and select the folder where you want to generate the configuration. A dialog box similar to the following figure will appear when your files have been successfully created.
+<div>
 
-![Подтверждение создания файлов.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Подтверждение создания файлов.")
+## <a name="reach"></a>Придет
 
-## См. также
+REACH — это новая функция в Lync Server 2013, поддерживающая сценарии конференц-связи с помощью веб-сервера единой системы обмена сообщениями (УКВА), установленного на сервере переднего плана. На приведенном ниже рисунке показана вкладка " **доступность** " средства настройки загрузки Lync Server 2013.
 
-#### Концепции
+На вкладке **REACH** можно настроить все сценарии, связанные с достижимостью.
 
-[Create Users and Contacts](create-users-and-contacts.md)
+![Вкладка REACH.] (images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Вкладка REACH.")
 
+1.  Нажмите кнопку **Дополнительно** рядом с пунктом **Параметры общего доступа**. Задайте для поля **укватаржетсерверурл** виртуальный IP-адрес пула (VIP) или серверный VIP пула.
+
+2.  В **общем доступе к приложениям**, **совместной работе с данными**и **сообщениях**выберите соответствующее значение для **уровня загрузки**.
+
+<div>
+
+
+> [!NOTE]  
+> Рядом с каждым сценарием расположена кнопка " <STRONG>Дополнительно</STRONG> ". Эти кнопки позволяют получить доступ к значениям, специфичным для каждого сценария, который изменит поведение средства нагрузки и производительности Lync Server 2013 (Линкперфтул) и включить настройку. Для каждого сценария REACH, если <STRONG>уровень загрузки</STRONG> является настраиваемым, <STRONG></STRONG>вместо значения по умолчанию используется значение, указанное в поле <STRONG>конверсатионсперхаур</STRONG> .
+
+
+
+</div>
+
+С помощью вкладки " **мобильность** " можно настроить все сценарии для мобильных устройств.
+
+![Вкладка "мобильность".] (images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Вкладка \"мобильность\".")
+
+1.  Нажмите кнопку " **Дополнительно** " рядом с кнопкой " **мобильность" (Уква)**. Задайте для поля **укватаржетсерверурл** виртуальный IP-адрес пула (VIP) или серверный VIP пула.
+
+2.  В **аудиофайлах присутствия и P2P\\для обмена мгновенными сообщениями**выберите соответствующее значение для параметра **уровень нагрузки** , чтобы включить модель мобильных сценариев.
+
+<div>
+
+
+> [!NOTE]  
+> Рядом с каждым сценарием расположена кнопка " <STRONG>Дополнительно</STRONG> ". Эти кнопки позволяют получить доступ к значениям, специфичным для каждого сценария, который изменит поведение средства нагрузки и производительности Lync Server 2013 (Линкперфтул) и включить настройку. Для каждого сценария REACH, если <STRONG>уровень загрузки</STRONG> является настраиваемым, <STRONG></STRONG>вместо значения по умолчанию используется значение, указанное в поле <STRONG>конверсатионсперхаур</STRONG> .
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="summary"></a>Заключение
+
+На приведенном ниже рисунке показана вкладка " **Сводка** " средства настройки загрузки Lync Server 2013.
+
+![Вкладка "Сводка".] (images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Вкладка \"Сводка\".")
+
+Вкладка " **Сводка** " показывает, какие пользователи используются для каждого из сценариев. Вы можете вручную настроить диапазоны номеров пользователей, установив флажок **включить настраиваемое создание диапазона пользователей** , а затем дважды щелкнуть сценарий в таблице, для которой вы хотите настроить **Пользовательский диапазон** . Проверка (Рунклиент. bat) добавьте задержку входа при запуске, чтобы включить в созданные пакетные файлы задержки, соответствующие частоте входа. Это полезно для предотвращения перегрузки сервера при входе в большое количество пользователей. Нажмите кнопку **создать файлы**и выберите папку, в которой вы хотите создать конфигурацию. После успешного создания файлов появится диалоговое окно, подобное показанному на рисунке ниже.
+
+![Уведомление о том, что файлы были созданы.] (images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Уведомление о том, что файлы были созданы.")
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Создание пользователей и контактов](create-users-and-contacts.md)  
+</div>
+</div>
+<span></span>
+</div>
+</div>
+</div>

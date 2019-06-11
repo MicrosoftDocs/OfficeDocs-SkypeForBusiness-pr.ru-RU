@@ -1,23 +1,45 @@
-﻿---
-title: Требования к инфраструктуре средств администрирования в Lync Server 2013
-TOCTitle: Требования к инфраструктуре средств администрирования в Lync Server 2013
-ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg195766(v=OCS.15)
-ms:contentKeyID: 49310799
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования к инфраструктуре средств администрирования'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Administrative tools infrastructure requirements
+ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
+ms:contentKeyID: 48185102
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe2c520bd8af46699f2499efcbcb5ef5a7142339
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842016"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования к инфраструктуре средств администрирования в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-27_
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Требования к инфраструктуре средств администрирования в Lync Server 2013
 
-Установка средств администрирования Microsoft Lync Server 2013, а также выполнение большинства задач управления с помощью этих средств осуществляется без каких-либо требований к инфраструктуре. Требования к инфраструктуре для определенных сценариев см. в подразделах настоящего раздела.
+</div>
 
-## Содержание
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-27_
+
+У вас нет дополнительных требований к инфраструктуре для установки Microsoft Lync Server 2013 Tools или выполнения большинства задач управления с помощью этих средств. Требования к инфраструктуре для конкретных сценариев описаны в разделах этой статьи.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Требования к публикации топологии в Lync Server 2013](lync-server-2013-requirements-to-publish-a-topology.md)
 
@@ -27,21 +49,39 @@ _**Дата изменения раздела:** 2012-09-27_
 
   - [Изменить или настроить простые URL-адреса в Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
 
-## Связанные разделы
+</div>
 
-  - [Командная консоль Lync Server](lync-server-2013-lync-server-management-shell.md)
+<div>
 
-## См. также
+## <a name="related-sections"></a>Связанные разделы
 
-#### Задачи
+  - [командная консоль Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
 
 [Установка средств администрирования Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  
 
-#### Концепции
 
 [Программные требования для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
 
-#### Другие ресурсы
 
-[Административные права и разрешения, необходимые для установки и администрирования Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+[Административные права и разрешения, необходимые для установки и администрирования Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

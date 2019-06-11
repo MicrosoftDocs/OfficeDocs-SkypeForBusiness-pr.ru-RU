@@ -1,68 +1,119 @@
-﻿---
-title: 'Lync Server 2013: дополнительные требования к программному обеспечению'
-TOCTitle: Дополнительные требования к программному обеспечению
-ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398686(v=OCS.15)
-ms:contentKeyID: 49310435
-ms.date: 07/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: дополнительные требования к программному обеспечению'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Additional software requirements
+ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398686(v=OCS.15)
+ms:contentKeyID: 48184731
+ms.date: 12/09/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2e21a375fecbd109e108806dc816a9fa3fce81a2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841921"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Дополнительные требования к программному обеспечению для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="additional-software-requirements-for-lync-server-2013"></a>Дополнительные требования к программному обеспечению для Lync Server 2013
 
-Помимо требований к оборудованию и операционным системам серверных платформ, Lync Server 2013 требует установки дополнительного ПО на развертываемых серверах.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2016-12-08_
+
+В дополнение к требованиям к оборудованию и операционной системе для серверных платформ Lync Server 2013 требует установки дополнительного программного обеспечения на серверах, которые вы развертываете.
+
+<div>
+
 
 > [!NOTE]  
-> Подробные сведения о требованиях к платформе для серверов Lync Server см. в разделах <a href="lync-server-2013-server-hardware-platforms.md">Аппаратные серверные платформы для Lync Server 2013</a> и <a href="lync-server-2013-server-and-tools-operating-system-support.md">Поддержка сервера и средств в операционной системе в Lync Server 2013</a>. Подробные сведения о требованиях к системе для клиентских компьютеров и устройств см. в разделе <a href="lync-server-2013-planning-for-clients-and-devices.md">Планирование клиентов и устройств в Lync Server 2013</a> в документации по планированию. Подробные сведения о требованиях к ПО для средств администрирования см. в разделе <a href="lync-server-2013-administrative-tools-software-requirements.md">Программные требования для средств администрирования в Lync Server 2013</a>.
+> Сведения о требованиях к платформе для серверов Lync Server можно найти в разделе <A href="lync-server-2013-server-hardware-platforms.md">аппаратные платформы сервера для Lync server 2013</A> и <A href="lync-server-2013-server-and-tools-operating-system-support.md">серверных и инструментальных средств, поддерживаемых операционной системой в Lync Server 2013</A>. Дополнительные сведения о требованиях к системе для клиентских компьютеров и устройств можно найти <A href="lync-server-2013-planning-for-clients-and-devices.md">в разделе Планирование клиентов и устройств в Lync Server 2013</A> в документации по планированию. Сведения о требованиях к программному обеспечению для администрирования описаны <A href="lync-server-2013-administrative-tools-software-requirements.md">в разделе Требования к программному обеспечению для администраторов в Lync Server 2013</A>.
 
-## Необходимое программное обеспечение для всех внутренних ролей сервера
 
-В данном разделе представлен список необходимого программного обеспечения для всех внутренних ролей сервера, все из которых являются ролями сервера Lync Server за исключением пограничного сервера. Требования для сервер и пул указаны далее в разделе в пункте **Дополнительное программное обеспечение для пограничных серверов**.
 
-## Windows PowerShell 3.0
+</div>
 
-На каждом сервере, на котором выполняется Lync Server 2013, должен быть установлен правильный выпуск оболочки Windows PowerShell 3.0. Дополнительные сведения см. в статье [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+<div>
 
-## Платформа Microsoft .NET Framework 4.5.
+## <a name="additional-software-necessary-for-all-internal-server-roles"></a>Дополнительное программное обеспечение, необходимое для всех внутренних серверных ролей
 
-Для Lync Server требуется использование Microsoft .NET Framework 4.5 для всех внутренних ролей сервера и на любом компьютере, на котором будут работать средства администрирования Lync Server или планирования Microsoft Lync Server 2013. Для Lync Server 2013 на сервере необходимо вручную установить 64-разрядную версию Microsoft .NET Framework 4.5 до установки Lync Server 2013. Чтобы выполнить ручную установку, загрузите Microsoft .NET Framework 4.5 из Центра загрузки Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?LinkId=268529](http://go.microsoft.com/fwlink/p/?linkid=268529)
+В этом разделе перечислены программы, необходимые для всех внутренних ролей сервера, которые являются всеми ролями сервера Lync Server, кроме пограничного сервера. Требования к пограничным серверам и пулам Edge перечислены ниже в разделе **дополнительное программное обеспечение для пограничного сервера**.
 
-## Установка Microsoft .NET Framework 4.5 на серверах под управлением Windows Server 2012
+</div>
 
-Когда программное обеспечение Microsoft .NET Framework 4.5 устанавливают на серверах, на которых выполняется Lync Server 2013 и Windows Server 2012, необходимо выполнить один дополнительный шаг. После установки пакета .NET Framework 4.5 используйте диспетчер сервера для установки службы HTTP-активации.
+<div>
 
-**Установка службы HTTP-активации .NET 4.5 в ОС Windows Server 2012**
+## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-1.  В меню **Пуск** последовательно выберите пункты **Программы** , **Администрирование** , **Диспетчер сервера** .
+На каждом сервере, на котором работает Lync Server 2013, должны быть установлены правильные выпуски Windows PowerShell 3,0. Подробные сведения можно найти в разделе [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-2.  В диспетчере сервера в области **Сводка компонентов** выберите **Добавить компоненты** .
+</div>
 
-3.  Разверните узел **.NET Framework 4.5** .
+<div>
 
-4.  Выберите пункт **WCF-активация** , если он еще не выбран. Затем выберите **HTTP-активация** .
+## <a name="microsoft-net-framework-45"></a>Платформа Microsoft .NET Framework 4.5.
 
-5.  Нажмите кнопку **Далее** и следуйте инструкциям для завершения установки.
+Lync Server требует Microsoft .NET Framework 4,5 для всех внутренних серверных ролей и на любом компьютере, на котором выполняются средства администрирования сервера Lync Server или Microsoft Lync Server 2013; средство планирования. Для Lync Server 2013 необходимо вручную установить 64-разрядную версию Microsoft .NET Framework 4,5 на сервере перед установкой Lync Server 2013. Чтобы установить ее вручную, скачайте Microsoft .NET 4,5 Framework из центра загрузки Майкрософт по адресу[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
-## Windows Identity Foundation
+<div>
 
-**Windows Identity Foundation** в Lync Server 2013 требует установки Windows Identity Foundation для поддержки сценариев проверки подлинности "сервер-сервер". В Windows Server 2008 R2 и Windows Server 2012 предусмотрены разные процедуры установки Windows Identify Foundation. Выберите операционную систему сервера из приведенного ниже списка.
+## <a name="installing-microsoft-net-framework-45-on-servers-running-windows-server-2012"></a>Установка Microsoft .NET Framework 4,5 на серверах под управлением Windows Server 2012
 
-  - Windows Server 2008 R2   Прежде всего, необходимо проверить, установлен ли Windows Server 2008 R2 на компьютере. Для этого перейдите в раздел панели управления **Установка и удаление программ** , **Просмотр установленных обновлений** и в разделе **Windows** найдите запись **Windows Identity Foundation (KB974405)** . Подробные сведения об установке Windows Identity Foundation см. в статье по адресу [http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657).
+При установке Microsoft .NET Framework 4,5 на сервер, на котором работают Lync Server 2013 и Windows Server 2012, необходимо выполнить одно из дополнительных действий. После установки .NET Framework 4,5 Используйте Диспетчер серверов для установки активации HTTP.
 
-  - Windows Server 2012   Для установки Windows Identity Foundation в Windows Server 2012 используется **диспетчер серверов** . В **мастере добавления ролей и компонентов** диспетчера серверов выберите **Компоненты** . Выберите в списке **Windows Identity Foundation 3.5** . Нажмите кнопку **Далее** , а затем **Установить** .
+**Установка активации .NET 4,5 HTTP в Windows Server 2012**
 
-## Дополнительное программное обеспечение для всех интерфейсных серверов и серверов Standard Edition
+1.  В меню **Пуск** выберите пункт **программы**, а затем — **Администрирование**, а затем — **Диспетчер серверов**.
 
-На всех серверах переднего плана и серверах Standard Edition также должны выполняться службы Службы IIS с некоторыми модулями. Кроме того, на всех серверах переднего плана и серверах Standard Edition, на которых развернуты службы конференц-связи, приостановки вызовов, объявлений или групп ответа, должна выполняться среда Windows Media Format Runtime.
+2.  В диспетчере серверов в разделе **Сводка по компонентам**выберите **Добавить функции**.
 
-## IIS
+3.  Разверните **.NET Framework 4,5**.
 
-На серверах переднего плана и серверах Standard Edition должны выполняться службы Службы IIS со следующими модулями:
+4.  Выберите **Активация WCF** , если она еще не выбрана. Затем выберите **Активация HTTP**.
+
+5.  Нажмите кнопку **Далее** и следуйте инструкциям, чтобы завершить установку.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="windows-identity-foundation"></a>Windows Identity Foundation
+
+**** Для поддержки сценариев проверки подлинности сервера и сервера в Lync Server 2013 необходимо установить Windows Identity Foundation. Для Windows Server 2008 R2 и Windows Server 2012 требуется выполнить различные процедуры для установки Windows Identify Foundation. Выберите серверную операционную систему из следующего списка:
+
+  - Windows Server 2008 R2 для Windows Server 2008 R2 — убедитесь, что она уже установлена на вашем компьютере. Для этого выберите элемент **Установка и удаление программ**, **Просмотрите установленные обновления**и найдите в разделе **Windows** удостоверение для **Windows (KB974405)**. Подробнее об установке Windows Identity Foundation можно узнать [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)в статье.
+
+  - Windows Server 2012 для Windows Server 2012 вы используете **Диспетчер серверов** для установки Windows Identity Foundation. В **мастере добавления ролей и компонентов**в диспетчере серверов выберите **компоненты**. В списке выберите **Windows Identity Foundation 3,5** . Нажмите кнопку **Далее**, а затем — **установить**.
+
+</div>
+
+<div>
+
+## <a name="additional-software-for-all-front-end-servers-and-standard-edition-servers"></a>Дополнительное программное обеспечение для всех серверов переднего плана и стандартных серверов выпусков
+
+На всех серверах переднего плана и стандартных серверах выпусков также должны выполняться службы IIS с определенными модулями. Кроме того, все серверы переднего плана и серверы стандартных выпусков, для которых развернута Конференц-связь, приложение для присоединения к приостановке, объявление и группа ответа, должны запускать среду выполнения формата Windows Media
+
+<div>
+
+## <a name="internet-information-services-iis"></a>Службы IIS
+
+Для серверов переднего плана и стандартных серверов выпусков должны выполняться службы IIS со следующими модулями:
 
   - Статическое содержимое
 
@@ -74,7 +125,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Расширяемость .NET
 
-  - Расширения ISAPI
+  - Расширения ISAPI (Internet Server API)
 
   - Фильтры ISAPI
 
@@ -96,27 +147,41 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Сценарии и средства управления для служб IIS
 
-  - анонимный доступ (устанавливается по умолчанию при установке служб IIS);
+  - Анонимная проверка подлинности (устанавливается по умолчанию при установке IIS).
 
   - Проверка подлинности с сопоставлением сертификатов клиентов
 
-## Windows Media Format Runtime и рабочий стол Windows
+</div>
 
-**Рабочий стол Windows.** На всех серверах переднего плана и серверах Standard Edition, на которых будет развертываться конференц-связь, должна быть установлена среда Windows Media Format Runtime, устанавливаемая вместе с рабочим столом Windows, за исключением Windows Server 2012. Windows Server 2012 требует наличия платформы Microsoft Media Foundation. Среда Windows Media Format Runtime нужна для запуска файлов WMA, которые воспроизводятся службами Приостановка вызовов, объявлений и групп ответа.
+<div>
 
-Мы рекомендуем установить рабочий стол Windows перед установкой Lync Server 2013. Если сервер Lync Server 2013 не обнаружит это программное обеспечение, он запросит его установку, после чего вам будет нужно перезапустить сервер, чтобы завершить установку.
+## <a name="windows-media-format-runtime-and-windows-desktop-experience"></a>Среда выполнения формата Windows Media и возможности рабочего стола Windows
 
-## Дополнительное программное обеспечение для серверов переднего плана и серверов Standard Edition под управлением Windows Server 2012
+**Возможности рабочего стола Windows** Все серверы переднего плана и стандартные серверы выпусков, на которых будет развернута конференция, должны иметь установленную среду выполнения формата Windows Media (за исключением Windows Server 2012, установленной в составе рабочего стола Windows. Для Windows Server 2012 требуется Microsoft Media Foundation. Для работы с файлами Windows Media Audio (WMA), которые воспринимаются приложениями для приема, объявления и ответа, воспроизводится для объявлений и музыкальных файлов, которые требуются в среде выполнения формата Windows Media.
 
-Для переднего плана требуется платформа .NET 3.5, которая не устанавливается по умолчанию в Windows Server 2012. Чтобы установить ее, вставьте установочный носитель Windows Server 2012 в диск D и введите следующее:
+Перед установкой Lync Server 2013 рекомендуется установить возможности рабочего стола Windows. Если Lync Server 2013 не находит это программное обеспечение на сервере, вам будет предложено установить его, а затем необходимо перезапустить сервер, чтобы завершить установку.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="additional-software-for-front-end-servers-and-standard-edition-servers-running-on-windows-server-2012"></a>Дополнительное программное обеспечение для серверов переднего плана и серверов Standard Edition, работающих под управлением Windows Server 2012
+
+Для серверов с внешними интерфейсами требуется .NET 3,5, который не установлен по умолчанию в Windows Server 2012. Чтобы установить его, вставьте установочный носитель Windows Server 2012 в дисковод D и введите следующую команду:
 
     Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client, BITS -Source D:\sources\sxs
 
-Дополнительные сведения об установке .NET 3.5 на серверах под управлением Windows Server 2012 см. в статье «Вопросы развертывания Microsoft .NET Framework 3.5» по адресу <http://go.microsoft.com/fwlink/p/?linkid=275032>.
+Подробные сведения об установке .NET 3,5 на серверах под управлением Windows Server 2012 можно найти в разделе "вопросы по <https://go.microsoft.com/fwlink/p/?linkid=275032>развертыванию Microsoft .net Framework 3,5".
 
-## Дополнительное программное обеспечение для Директоров
+</div>
 
-На Директорах должны выполняться службы Службы IIS со следующими модулями:
+<div>
+
+## <a name="additional-software-for-directors"></a>Дополнительное программное обеспечение для режиссеров
+
+Режиссеры должны запускать службы IIS со следующими модулями:
 
   - Статическое содержимое
 
@@ -128,7 +193,7 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Расширяемость .NET
 
-  - Расширения ISAPI
+  - Расширения ISAPI (Internet Server API)
 
   - Фильтры ISAPI
 
@@ -148,37 +213,65 @@ _**Дата изменения раздела:** 2016-12-08_
 
   - Сценарии и средства управления для служб IIS
 
-  - анонимный доступ (устанавливается по умолчанию при установке служб IIS);
+  - Анонимная проверка подлинности (устанавливается по умолчанию при установке IIS).
 
   - Проверка подлинности с сопоставлением сертификатов клиентов
 
-## Дополнительное программное обеспечение для интерфейсных серверов сохраняемого чата
+</div>
 
-На интерфейсных серверах сохраняемого чата должен работать компонент Windows Server, MSMQ.
+<div>
 
-Дополнительные сведения о включении MSMQ [см. здесь.](http://technet.microsoft.com/en-us/library/cc771474.aspx)
+## <a name="additional-software-for-persistent-chat-front-end-servers"></a>Дополнительное программное обеспечение для серверов клиентского чата с постоянным подключением
 
-## Дополнительное программное обеспечение для пограничных серверов
+На серверах, использующих сохраняемый чат, должны быть запущены очередь сообщений (также называемая MSMQ), которая является компонентом Windows Server.
 
-Пограничные серверы требуют наличия следующего программного обеспечения:
+Чтобы узнать, как включить MSMQ, [нажмите здесь.](https://technet.microsoft.com/en-us/library/cc771474.aspx)
 
-  - На каждом сервере, на котором выполняется Lync Server 2013, должен быть установлен правильный выпуск оболочки Windows PowerShell 3.0. Дополнительные сведения см. в статье [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+</div>
 
-  - Для Lync Server требуется Microsoft .NET Framework 4.5. Для Lync Server 2013, установленного в системе Windows Server 2008 R2, необходимо вручную установить 64-разрядный выпуск Microsoft .NET Framework 4.5 на сервере перед установкой Lync Server 2013. Чтобы выполнить ручную установку, загрузите Microsoft .NET Framework 4.5 из Центра загрузки Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?LinkId=268529](http://go.microsoft.com/fwlink/p/?linkid=268529)
+<div>
 
-  - **Windows Identity Foundation** в Lync Server 2013 требует установки Windows Identity Foundation для поддержки сценариев проверки подлинности "сервер-сервер". В Windows Server 2008 R2 и Windows Server 2012 предусмотрены разные процедуры установки Windows Identify Foundation. Выберите операционную систему сервера из приведенного ниже списка.
+## <a name="additional-software-for-edge-servers"></a>Дополнительное программное обеспечение для пограничных серверов
+
+Для пограничных серверов требуется следующее программное обеспечение:
+
+  - На каждом сервере, на котором работает Lync Server 2013, должны быть установлены правильные выпуски Windows PowerShell 3,0. Подробные сведения можно найти в разделе [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+
+  - Для Lync Server требуется Microsoft .NET Framework 4,5. Для Lync Server 2013, установленного в Windows Server 2008 R2, перед установкой Lync Server 2013 необходимо вручную установить версию 64-bit Microsoft .NET Framework 4,5 на сервере. Чтобы установить ее вручную, скачайте Microsoft .NET 4,5 Framework из центра загрузки Майкрософт по адресу[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+
+  - **** Для поддержки сценариев проверки подлинности сервера и сервера в Lync Server 2013 необходимо установить Windows Identity Foundation. Для Windows Server 2008 R2 и Windows Server 2012 требуется выполнить различные процедуры для установки Windows Identify Foundation. Выберите серверную операционную систему из следующего списка:
     
-      - Windows Server 2008 R2   Прежде всего, необходимо проверить, установлен ли Windows Server 2008 R2 на компьютере. Для этого перейдите в раздел панели управления **Установка и удаление программ** , **Просмотр установленных обновлений** и в разделе **Windows** найдите запись **Windows Identity Foundation (KB974405)** . Подробные сведения об установке Windows Identity Foundation см. в статье по адресу [http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657).
+      - Windows Server 2008 R2 для Windows Server 2008 R2 — убедитесь, что она уже установлена на вашем компьютере. Для этого выберите элемент **Установка и удаление программ**, **Просмотрите установленные обновления**и найдите в разделе **Windows** удостоверение для **Windows (KB974405)**. Подробнее об установке Windows Identity Foundation можно узнать [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)в статье.
     
-      - Windows Server 2012   Для установки Windows Identity Foundation в Windows Server 2012 используется **диспетчер серверов** . В **мастере добавления ролей и компонентов** диспетчера серверов выберите **Компоненты** . Выберите в списке **Windows Identity Foundation 3.5** . Нажмите кнопку **Далее** , а затем **Установить** .
+      - Windows Server 2012 для Windows Server 2012 вы используете **Диспетчер серверов** для установки Windows Identity Foundation. В **мастере добавления ролей и компонентов**в диспетчере серверов выберите **компоненты**. В списке выберите **Windows Identity Foundation 3,5** . Нажмите кнопку **Далее**, а затем — **установить**.
 
-## Не устанавливайте многоуровневые поставщики услуг на серверах-посредниках
+</div>
 
-Не устанавливайте клиентское ПО Microsoft ISA или другое ПО многоуровневых поставщиков услуг (LSP) Winsock на серверах переднего плана или изолированных серверах-посредниках. Установка этого ПО может привести к снижению скорости передачи трафика на сервере-посреднике.
+<div>
 
-## См. также
+## <a name="do-not-install-layered-socket-providers-on-media-servers"></a>Не устанавливайте провайдеры многоуровневых соединителей на серверах мультимедиа
 
-#### Концепции
+Не устанавливайте клиентское программное обеспечение сервера Microsoft Internet Security and Acceleration (ISA) или любое другое программное обеспечение, которое можно получить с любого другого поставщика многоуровневой службы (LSP), на любом сервере переднего плана или отдельном сервере. Установка этого программного обеспечения может привести к ухудшению производительности мультимедийного трафика.
 
-[Программные требования для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Программные требования для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

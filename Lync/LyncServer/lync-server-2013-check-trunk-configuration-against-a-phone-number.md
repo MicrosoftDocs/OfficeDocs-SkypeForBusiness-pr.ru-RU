@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Check trunk configuration against a phone number'
+---
+title: 'Lync Server 2013: Проверка конфигурации магистрали по номеру телефона'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Check trunk configuration against a phone number
 ms:assetid: 0800d7a3-fc35-482b-a9a4-203d890bfa45
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn725206(v=OCS.15)
-ms:contentKeyID: 62335981
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725206(v=OCS.15)
+ms:contentKeyID: 63969574
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b667f43e430b5047f72e2d8352f57337f0849055
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841583"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Check trunk configuration against a phone number in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Проверка конфигурации магистрали по номеру телефона в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-05-20_
 
 
 <table>
@@ -23,88 +43,118 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежемесячно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsTrunkConfiguration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-CsTrunkConfiguration. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsTrunkConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-SIP trunks connect the Lync Server internal Enterprise Voice network to any of the following:
+## <a name="description"></a>Описание
 
-  - The Public Switched Telephone network (PSTN).
+Магистральные магистрали SIP соединяют внутреннюю корпоративную сеть Lync Server с одним из указанных ниже способов.
 
-  - An IP-public branch exchange (PBX).
+  - Коммутируемая коммутируемая телефонная сеть (КТСОП).
 
-  - A Session Border Controller (SBC).
+  - IP-адрес общедоступной ветви (УАТС).
 
-The Test-CsTrunkConfiguration cmdlet verifies that a phone number (as dialed by a user) can be converted to the E.164 network and routed over a specified SIP trunk.
+  - Контроллер границ сеанса (SBC).
 
-## Running the test
+Командлет Test-CsTrunkConfiguration подтверждает, что номер телефона (установленный пользователем) может быть преобразован в сеть E. 164 и находился на указанной магистральной магистрали SIP.
 
-To run the Test-CsTrunkConfiguration cmdlet you must first use the Get-CsTrunkConfiguration cmdlet to retrieve an instance of your SIP trunk configuration settings; that instance is then piped to Test-CsTrunkConfiguration:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Чтобы запустить командлет Test-CsTrunkConfiguration, необходимо сначала использовать командлет Get-CsTrunkConfiguration для получения экземпляра параметров конфигурации магистральной магистрали SIP; Затем этот экземпляр передается в Test-CsTrunkConfiguration:
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-Running Test-CsTrunkConfiguration without first running Get-CsTrunkConfiguration won't work. For example, this command will fail without returning any data:
+Выполнение Test-CsTrunkConfiguration без первого запуска Get-CsTrunkConfiguration не работает. Например, эта команда завершится сбоем, не возвращая никаких данных:
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
-If you have multiple collections of SIP trunk configuration settings, you can use a command similar to the following to at the same time test each collection against the same phone number:
+Если у вас несколько семейств параметров конфигурации магистральной магистрали SIP, вы можете использовать одну из следующих команд для проверки каждой из них по одному и тому же номеру телефона.
 
 `Get-CsTrunkConfiguration | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-For more information, see the Help documentation for the Test-CsTrunkConfiguration cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету Test-CsTrunkConfiguration.
 
-## Determining success or failure
+</div>
 
-If Test-CsTrunkConfiguration can place a call to the dialed number then the translated phone number (in the E.164 format) and the rule used to translate that phone number will both be displayed on screen:
+<div>
 
-TranslatedNumber MatchingRule
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
+
+Если функция "тест-CsTrunkConfiguration" может позвонить на номер телефона, на экране будут отображены переведенный номер (в формате E. 164) и правило, используемое для перевода этого номера телефона.
+
+Транслатеднумбер Матчингруле
 
 \---------------- ------------
 
 \+12065551219 Global/Redmond
 
-If the test fails, Test-CsTrunkConfiguration will return empty property values:
+Если тест не проходит проверку, CsTrunkConfiguration будет возвращать пустые значения свойств.
 
-TranslatedNumber MatchingRule
+Транслатеднумбер Матчингруле
 
 \---------------- ------------
 
-## Reasons why the test might have failed
+</div>
 
-If Test-CsTrunkConfiguration does not return a match that typically means that the trunk configuration settings being test do not have an outgoing calling number translation rule capable to converting the dialed number to the E.164 format. To retrieve the translation rules assigned to a collection of trunk configuration settings, you can use syntax similar to this:
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Если "Test-CsTrunkConfiguration" не возвращает соответствие, которое обычно означает, что проверяемые параметры конфигурации канала не имеют правила трансляции номеров исходящих вызовов для преобразования набора номера в формат E. 164. Чтобы получить правила перевода, назначенные коллекции параметров конфигурации канала, можно использовать синтаксис, подобный приведенному ниже.
 
 `Get-CsTrunkConfiguration -Identity "global" | Select-Object -ExpandProperty OutboundTranslationRulesList`
 
-That returns information similar to this for each translation rule:
+, Возвращающий подобные данные для каждого правила трансляции.
 
-Description : Phone numbers without a country code or area code.
+Описание: номера телефонов без кода страны или города.
 
-Pattern : ^\\+(\\d\*)$
+Шаблон: ^\\+ (\\d\*) $
 
 `Translation : $1`
 
-Name : NoAreaCode
+Name (имя): Ноареакоде
 
-At that point, you check the value of the Pattern property (which is a [regular expression](https://go.microsoft.com/fwlink/?linkid=400464) string) to see whether any of the translation rules are configured to handle the dialed number. If not, you'll either have to change one of the existing rules (Set-CsOutboundTranslationRule) or use the New-CsOutboundTranslationRule cmdlet to add a new rule to the collection.
+На этом этапе необходимо проверить значение свойства Pattern (строка [регулярного выражения](http://go.microsoft.com/fwlink/?linkid=400464) ), чтобы проверить, настроены ли какие-либо правила трансляции для обработки номера набора. Если это не так, вам придется изменить одно из существующих правил (Set-Ксаутбаундтранслатионруле) или использовать командлет New-Ксаутбаундтранслатионруле, чтобы добавить новое правило в коллекцию.
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration)
+## <a name="see-also"></a>См. также
+
+
+[Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

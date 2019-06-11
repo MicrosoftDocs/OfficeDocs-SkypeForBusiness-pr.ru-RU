@@ -1,37 +1,81 @@
-﻿---
-title: 'Lync Server 2013: поддержка Active Directory'
-TOCTitle: Поддержка Active Directory
-ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425756(v=OCS.15)
-ms:contentKeyID: 49309254
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддержка Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory support
+ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425756(v=OCS.15)
+ms:contentKeyID: 48183679
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9be3bda71e44d0e739fce3a8d01db9cb84e2b9e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841957"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддержка Active Directory в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="active-directory-support-in-lync-server-2013"></a>Поддержка Active Directory в Lync Server 2013
 
-Lync Server 2013 поддерживает следующие локальные топологии доменных служб Доменные службы Active Directory:
+</div>
 
-  - один лес с одним доменом;
+<div id="mainSection">
 
-  - один лес с одним деревом и несколькими доменами;
+<div id="mainBody">
 
-  - один лес с несколькими деревьями и несвязанными пространствами имен;
+<span> </span>
 
-  - несколько лесов в топологии с центральным лесом;
+_**Тема последнего изменения:** 2012-12-04_
 
-  - несколько лесов в топологии с лесом ресурсов.
+Локальные топологии доменных служб Active Directory, поддерживаемые Lync Server 2013, описаны ниже.
+
+  - Один лес с одним доменом
+
+  - Один лес с одним деревом и несколькими доменами
+
+  - Один лес с несколькими деревьями и несвязанными пространствами имен
+
+  - Несколько лесов в топологии с центральным лесом
+
+  - Несколько лесов в топологии с лесом ресурсов
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 не поддерживает однокомпонентные домены. Например, лес с корневым доменом <strong>contoso.local</strong> поддерживается, а с однокомпонентным корневым доменом <strong>local</strong> – нет. Подробные сведения см. в статье 300684 базы знаний Майкрософт «Сведения о настройке Windows для доменов с DNS-именем, состоящим из одной метки» по адресу<a href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</a>.
+> Lync Server 2013 не поддерживает домены с одной меткой. Например, лес с корневым доменом с именем <STRONG>contoso. local</STRONG> поддерживается, но не поддерживается корневой домен с именем <STRONG>Local</STRONG> в одной метке. Подробные сведения о том, как настроить Windows для доменов с DNS-именами, сопоставленными с одной меткой, можно найти в статье <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>300684 в Microsoft Knowledge Base.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 не поддерживает переименование доменов. Если необходимо переименовать домен, в котором развернут сервер Lync Server, сначала необходимо удалить Lync Server, переименовать домен, а затем переустановить Lync Server.
+> Lync Server 2013 не поддерживает переименование доменов. Если необходимо переименовать домен, на котором развернут сервер Lync Server, сначала необходимо удалить Lync Server, затем переименовать домен, а затем повторно установить Lync Server.
 
-Подробные сведения о поддерживаемых топологиях и требованиях для локальных развертываний см. в разделе [Требования к доменным службам Active Directory, поддержка и топология в Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) в документации по планированию.
+
+
+</div>
+
+Для получения подробных сведений о поддерживаемых топологиях и требованиях для локальных развертываний просмотрите [требования к доменным службам Active Directory, поддержку и топологии в Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) в документации по планированию.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

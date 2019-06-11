@@ -1,33 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Capacity and availability management'
+---
+title: 'Lync Server 2013: Управление емкостью и обеспечением доступности'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Capacity and availability management
 ms:assetid: 207a2997-f482-4bee-892d-d2b112294481
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720325(v=OCS.15)
-ms:contentKeyID: 62222388
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720325(v=OCS.15)
+ms:contentKeyID: 63969586
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 923dd7a4133da52a68e4d66ee6d5c7c47e7c0421
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841693"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Capacity and availability management in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Управление емкостью и доступностью в Lync Server 2013
 
-The purpose of capacity management and availability management is to measure and control system performance. We recommend that you implement capacity management and availability management procedures so that you can measure and control system performance. You have to know whether the system is available and if it can handle the current and the projected demands by setting baselines and monitoring the system to look for trends.
+</div>
 
-## Capacity management
+<div id="mainSection">
 
-Capacity management involves planning, sizing, and controlling service capacity to help guarantee that the minimum performance levels specified in your SLA are exceeded. Good capacity management helps ensure that you can provide IT services at a reasonable cost and still meet the levels of performance defined in your SLAs with the client. These criteria can include the following:
+<div id="mainBody">
 
-  - **System Response Time**   This is the measured time that the system takes to do typical actions. Examples include the time that is required for for the audio/video server role to process audio/video traffic, the time that is required for a client to create and join a conference, or the time taken for presence to be updated in all watcher clients.
+<span> </span>
 
-  - **Storage Capacity**   This is the capacity of a storage system, whether it is a content database, a backup device, or a local drive. Examples include the maximum amount of storage space to be provided per site and the time that backups should be stored before they are overwritten.
+_**Тема последнего изменения:** 2014-08-18_
 
-Adjusting capacity is frequently a case of making sure that enough physical resources are available, such as disk space and network bandwidth. The following table lists typical resolutions for capacity-related issues.
+Цель управления емкостью и обеспечением доступности — измерение и контроль производительности системы. Мы рекомендуем реализовать процедуры управления емкостью и управления надежностью, чтобы можно было измерять и контролировать производительность системы. Вам нужно знать, доступна ли система, и может обрабатывать текущие и прогнозируемые требования, задавая базовые показатели и контролируя систему для поиска тенденций.
 
-### Typical resolutions for capacity-related issues
+<div>
+
+## <a name="capacity-management"></a>Управление емкостью
+
+Управление производительностью включает в себя планирование, изменение размера и Управление емкостью служб, чтобы гарантировать превышение минимальных уровней производительности, указанных для вашего соглашения об уровне обслуживания. Эффективное Управление емкостью помогает обеспечить предоставление ИТ-услуг по разумным затратам и, тем не менее, отвечать на уровни производительности, определенные в рамках вашего соглашения об уровне обслуживания с помощью клиента. Эти условия могут включать в себя следующее:
+
+  - **Время ответа системы**   . Это измеряемое время, которое система предпринимает для выполнения типичных действий. В качестве примера можно привести время, необходимое для работы роли аудио-и видеофайла для обработки аудио-и видеопотока, время, необходимое для создания и присоединения к Конференции с помощью клиента, а также время, затраченное на обновление во всех клиентах наблюдателей.
+
+  - **Емкость хранилища —**   это емкость системы хранения, будь то база данных контента, устройство резервного копирования или локальный диск. Пример: максимальный объем дискового пространства, который должен быть указан на сайте, и время, в которое необходимо сохранить резервные копии, прежде чем они будут перезаписаны.
+
+Настройка емкости зачастую является единственным вариантом обеспечения доступности достаточных физических ресурсов, таких как место на диске и пропускная способность сети. В приведенной ниже таблице перечислены типичные решения проблем, связанных с производительностью.
+
+### <a name="typical-resolutions-for-capacity-related-issues"></a>Типичные решения проблем, связанных с производительностью
 
 <table>
 <colgroup>
@@ -36,64 +58,84 @@ Adjusting capacity is frequently a case of making sure that enough physical reso
 </colgroup>
 <thead>
 <tr class="header">
-<th>Issue</th>
-<th>Possible resolution</th>
+<th>Ошибка</th>
+<th>Возможное решение</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Remote users having poor audio/video performance</p></td>
-<td><p>Check to see whether appropriate bandwidth is available on the WAN links and if QoS is enabled and appropriately configured. Check QoE data.</p></td>
+<td><p>Неудовлетворительные качество звука и видео удаленных пользователей</p></td>
+<td><p>Проверьте, доступна ли подходящая пропускная способность для WAN Links, а также в том случае, если качество обслуживания включено и настроено надлежащим образом. Проверьте данные QoE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Overall response of the Lync environment is slow.</p></td>
-<td><p>Run tests to check that the existing front-end servers can deal with the load. Introduce a new front-end server if it is needed.Check SQL database response times and fix the causes for the delays (for example, improve disk I/O).</p></td>
+<td><p>Общий ответ среды Lync очень медленный.</p></td>
+<td><p>Выполнение тестов для проверки того, что существующие серверы переднего плана могут работать с загрузкой. Представьте новый сервер переднего плана, если это необходимо. Проверьте значения времени ответа на базу данных SQL и исправьте причины возникновения задержек (например, улучшения дискового ввода-вывода).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Troubleshooting in greater detail is covered in the Lync Server Networking Guide.
+Более подробные сведения об устранении неполадок описаны в руководстве по сети Lync Server.
 
-Capacity is affected by system configuration and depends on physical resources such as network bandwidth. For example, if a Lync environment is configured to perform a full backup nightly, care must be taken to help guarantee that the effect on the interactive performance experienced by end-users is minimized.
+На производительность влияет настройка системы, и они зависят от физических ресурсов, таких как пропускная способность сети. Например, если среда Lync настроена для ежедневного выполнения полного резервного копирования, необходимо соблюдать осторожность, чтобы гарантировать, что эффект на интерактивной производительности, доступ к которой происходил для конечных пользователей, будет минимизирован.
 
-Capacity management is the process of keeping the capacity of a system within acceptable levels and addresses the following issues:
+Управление производительностью — это процесс сохранения мощности системы в пределах приемлемых уровней и устранения указанных ниже проблем.
 
-  - **Reacting to changes in requirements**   Capacity requirements have to be adjusted to account for changes in the system or the organization. For example, if your environment decides to implement Enterprise Voice, the number and placement of Mediation Servers and public switched telephone network (PSTN) gateways will be very important. If you'll be doing Session Initiation Protocol (SIP) trunking or direct SIP, the overall design will be significantly changed to provide the best Enterprise Voice performance.
+  - **Передействующее на изменения требований**   к мощности в требованиях должны быть скорректированы для учета изменений, внесенных в системе или в Организации. Например, если в вашей среде требуется реализовать корпоративную голосовую почту, будет очень важнее количество и расположение серверов-посредников и шлюзов для коммутируемой телефонной сети. Если вы собираетесь звонить по протоколу SIP или Direct SIP, Общая схема будет значительно изменяться для обеспечения оптимальной производительности при работе с корпоративной голосовой связью.
 
-  - **Predicting future requirements**   Some capacity requirements change predictably over time. By tracking trends you can plan upgrades in advance. For example, available bandwidth between various Lync sites must be monitored to create a baseline. This baseline will allow you to predict when you have to add more bandwidth to these links as user count in these remote sites increases with time.
+  - **Прогнозирование требований**   к будущем. Некоторые требования к мощности изменяют предсказуемо с течением времени. Отслеживая тенденции, вы можете предварительно планировать обновления. Например, для создания базового плана необходимо отслеживать доступную пропускную способность между различными сайтами Lync. Этот базовый план позволит вам предсказать, когда необходимо добавить дополнительную пропускную способность для этих ссылок, так как количество пользователей на этих сайтах увеличится с учетом времени.
 
-## Availability management
+</div>
 
-Availability management is the process of making sure that any IT service consistently and cost effectively delivers the level of consistent, reliable service that is required by the customer. Availability management deals with minimizing loss of service and with making sure that appropriate action is taken if service is lost. In a Lync environment, you may be concerned about whether the Enterprise Voice service is available, whether users can join scheduled conferences, and so on. An SLA defines an acceptable frequency and length of outages and allows for certain periods when the system is unavailable for planned maintenance.
+<div>
 
-If you have to provide reports to your management about the availability of systems, or if you have financial or other penalties associated with missing availability targets, you must record availability data. Even if you do not have such formal requirements, it is a good idea to at least know how frequently a system has failed in a certain time period. For example, system availability in the last 12 months and how long it took to recover from each failure. This information will help you measure and improve your team’s effectiveness in responding to a system failure. It can also give you useful information if there is a dispute.
+## <a name="availability-management"></a>Управление обеспечением доступности
 
-Measures related to availability are as follows:
+Управление обеспечением доступности — это процесс, который гарантирует своевременную и экономичную работу любых ИТ – служб, необходимых для клиента. Управление обеспечением доступности — это минимизация потерь на обслуживание и обеспечение выполнения соответствующего действия при потере обслуживания. В среде Lync может возникнуть вопрос того, доступна ли корпоративная голосовая служба, могут ли пользователи присоединяться к запланированным конференциям и т. д. Соглашение об уровне обслуживания определяет приемлемую частоту и продолжительность перерывов, а также позволяет получить определенные периоды, когда система будет недоступна для запланированного обслуживания.
 
-  - **Availability**   This is typically expressed as the time that a system or service can be accessed compared to the time that it is down. It is typically expressed as a percentage. (You may see references to “three nines” or “five nines”. These refer to 99.9 percent or 99.999 percent availability.)
+Если вам нужно предоставлять отчеты для управления сведениями о доступности систем или при наличии финансовых или других санкций, связанных с отсутствующими целевыми объектами доступности, необходимо записать данные о доступности. Даже если у вас нет подобных формальных требований, рекомендуется по крайней мере знать, как часто система завершилась сбоем за определенный период времени. Например, доступность системы за последние 12 месяцев и время, затраченное на восстановление после каждой ошибки. Эта информация поможет вам измерять и улучшать эффективность работы группы в ответ на сбой системы. Кроме того, он может предоставить вам полезные сведения, если у вас есть спорный вопрос.
 
-  - **Reliability**   This is a measure of the time between failures of a system and is sometimes expressed as mean (or average) time between failures (MTBF).
+Меры, связанные с обеспечением доступности, описаны ниже.
 
-  - **Time to Repair**   This is the time taken to recover a service after a failure has occurred and is often expressed as mean (meaning average) time to repair (MTTR).
+  - **Доступность**   это обычно выражается в том случае, если вы можете получить доступ к системе или службе по сравнению со временем, на которое она не работает. Обычно оно выражается в процентах. (Могут отображаться ссылки на три девяти или пять девяти). Они ссылаются на 99,9% и 99,999 процента доступности.)
 
-Availability, reliability, and time to repair are related as follows:
+  - **Надежность**   . это мера времени между сбоями системы и иногда измеряется (среднее) время между сбоями (MTBF).
 
-**Availability = (MTBF – MTTR) / MTBF**   For example, if a server fails two times over a six-month period and is unavailable for an average of 20 minutes, the MTBF is three months or 90 days and the MTTR is 20 minutes. Therefore, Availability = (90 days – 20 minutes) / 90 days = 99.985 percent.
+  - **Время восстановления**   это время, затраченное на восстановление службы после возникновения сбоя, которое часто выражается как среднее время восстановления (мттр).
 
-Availability management is the process of making sure that availability is maximized and kept within the parameters that are defined in SLAs. Availability management includes the following processes:
+Доступность, надежность и время восстановления связаны следующим образом:
 
-  - **Monitoring**    Examining when and for how long services are unavailable.
+**Доступность = (MTBF – мттр)/MTBF**   (например, если сервер не проходит две попытки в течение шести месяцев и недоступен в среднем на 20 минут), MTBF составляет три месяца или 90 дня, а мттр — 20 минут. Таким образом, доступность = (90 дней – 20 минут)/90 дней = 99,985%.
 
-  - **Reporting**   Availability figures should be regularly provided to management, users, and operations teams. These reports should highlight trends and identify areas that are doing well and areas that require attention. The report should summarize compliance with targets set in the SLAs.
+Управление обеспечением доступности — это процесс, который гарантирует, что доступность развернута и сохраняется в параметрах, определенных в SLA. Управление обеспечением доступности включает следующие процессы:
 
-  - **Improvement**   If availability does not meet targets that are defined in the SLAs or where the trend is toward reduced availability, the availability management process should plan remedial steps. This should include working with other responsible teams to highlight reasons for outages and to plan remedial actions to prevent a recurrence of the outages.
+  - **Наблюдение за**     анализом времени и время, в течение которого недоступна служба.
 
-Capacity and availability measurements are repetitive tasks that are ideally suited to automated tools and scripts such as Microsoft System Center Operations Manager (ранее Microsoft Operations Manager), which is discussed later in this document.
+  - **Данные о доступности отчетов**   должны регулярно предоставляться для управления, пользователей и рабочих групп. Эти отчеты должны выявлять тенденции и определять области, которые прекрасно работают, и области, требующие внимания. Отчет должен суммировать соответствие требованиям с целями, заданными в SLA.
 
-## См. также
+  - **Улучшение**   если доступность не соответствует конечным объектам, определенным в соглашениях об уровне обслуживания или тенденция к снижению доступности, процесс управления сведениями о доступности должен планировать шаги. Это должно включать работу с другими ответственными группами, чтобы вычислить причины нарушения и спланировать повторяющиеся действия, чтобы не допустить повторения перерывов.
 
-#### Другие ресурсы
+Измерения емкости и доступности — это повторяющиеся задачи, которые лучше всего подходят для автоматизированных средств и сценариев, таких как Microsoft System Center Operations Manager (прежнее название — Microsoft Operations Manager), которое рассматривается ниже в этом документе.
 
-[Monitoring Lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Мониторинг сервера Lync Server 2013 с помощью System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

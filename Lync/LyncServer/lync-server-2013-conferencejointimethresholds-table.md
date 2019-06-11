@@ -1,33 +1,53 @@
-﻿---
-title: Таблица ConferenceJoinTimeThresholds в Lync Server 2013
-TOCTitle: Таблица ConferenceJoinTimeThresholds в Lync Server 2013
-ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204809(v=OCS.15)
-ms:contentKeyID: 49309479
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Конференцежоинтимесрешолдс'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceJoinTimeThresholds table
+ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
+ms:contentKeyID: 48183855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 66793cc3bd545d343198d00f7fb477c1f9b88fac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841489"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица ConferenceJoinTimeThresholds в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>Таблица Конференцежоинтимесрешолдс в Lync Server 2013
 
-Таблица ConferenceJoinTimeThresholds содержит границы классификации, которые используются в сводном отчете о времени присоединения к к конференции. В данном отчете представлены сводные данные о времени, которое требуется для пользователей на успешное присоединение к конференции. Приводятся как средние значения, так и значения в одной из следующих категорий:
+</div>
 
-  - менее 2 секунд;
+<div id="mainSection">
 
-  - от 2 до 5 секунд;
+<div id="mainBody">
 
-  - от 5 до 10 секунд;
+<span> </span>
 
-  - более 10 секунд.
+_**Тема последнего изменения:** 2012-09-28_
 
-Таблица ConferenceJoinTimeThresholds содержит значения классификации для 2 секунд, 5 секунд и 10 секунд.
+В таблице Конференцежоинтимесрешолдс содержатся ограничители классификации, используемые в сводном отчете "время присоединения к Конференции". Сводный отчет о времени присоединения к Конференции суммирует количество времени, необходимого для успешного присоединения пользователей к Конференции; Эти значения времени выводятся как среднее значение и в одной из следующих категорий:
 
-Эта таблица была представлена в Microsoft Lync Server 2013.
+  - Менее 2 секунд.
+
+  - От 2 секунды до 5 секунд.
+
+  - От 5 секунд до 10 секунд.
+
+  - Более 10 секунд.
+
+В таблице Конференцежоинтимесрешолдс содержатся значения классификации 2 секунды, 5 секунд и 10 секунд.
+
+Эта таблица введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -41,28 +61,39 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ или индекс</th>
+<th>Ключ/индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ThresholdId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Основной</p></td>
+<td><p><strong>Срешолдид</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Primary</p></td>
 <td><p>Уникальный идентификатор для классификации.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ThresholdValue</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>Верхняя граница для классификации. Допустимые значения:</p>
+<td><p><strong>Срешолдвалуе</strong></p></td>
+<td><p>целое</p></td>
+<td></td>
+<td><p>Верхний предел для классификации. Допустимые значения:</p>
 <ol>
 <li><p>2</p></li>
 <li><p>5</p></li>
-<li><p>10</p></li>
+<li><p>5-10</p></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

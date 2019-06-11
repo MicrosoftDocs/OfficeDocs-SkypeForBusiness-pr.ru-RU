@@ -1,76 +1,82 @@
-﻿---
-title: Командлеты, использующие удостоверение пользователя
-TOCTitle: Командлеты, использующие удостоверение пользователя
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56270611
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Командлеты, использующие удостоверение пользователя
+title: Командлеты в Skype для бизнеса Online, использующие удостоверение пользователя
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Командлеты в Skype для бизнеса Online, использующие удостоверение пользователя
 
  
 
-_**Дата изменения раздела:** 2015-06-22_
 
-В Skype для бизнеса Online на удостоверение отдельного пользователя можно ссылаться несколькими способами.
+В Skype для бизнеса Online есть несколько способов ссылки на индивидуальные удостоверения пользователей.
 
-  - Использовать отображаемое имя пользователя в доменных службах Active Directory. Пример:
+  - Введите отображаемое имя пользователя доменных служб Active Directory. Например:
     
         -Identity "Ken Myer"
 
-  - Использовать SIP-адрес пользователя. Пример:
+  - Используйте SIP-адрес пользователя. Например:
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - Использовать имя участника-пользователя. Пример:
+  - Используйте имя участника-пользователя. Например:
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Использовать различающееся имя пользователя доменных служб Active Directory. Пример:
+  - Используйте различающееся имя доменных служб Active Directory пользователя. Например:
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Удостоверение пользователя принимают следующие командлеты:
+Следующие командлеты допускают удостоверение пользователя:
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
-Обратите внимание, что указывать параметр Identity пользователя при вызове одного из командлетов **Get-Cs** не обязательно. Если он не указан, командлеты возвращают все экземпляры указанного элемента. Например, следующая команда возвращает информацию обо всех пользователях с включенной поддержкой Skype для бизнеса Online:
+Обратите внимание, что при вызове одного из командлетов **Get-CS** вам не нужно указывать удостоверение пользователя. В этом случае командлеты возвращают все экземпляры указанного элемента. Например, эта команда возвращает сведения обо всех пользователях, которые были включены в Skype для бизнеса Online:
 
     Get-CsOnlineUser
 
-Параметр Identity является обязательным только в том случае, если необходимо получить сведения о конкретном пользователе:
+Параметр Identity является обязательным только в том случае, если вы хотите вернуть сведения для определенного пользователя:
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## См. также
+## <a name="see-also"></a>См. также
 
-#### Концепции
 
-[Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Удостоверения, области и клиенты в Skype для бизнеса Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Командлеты Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

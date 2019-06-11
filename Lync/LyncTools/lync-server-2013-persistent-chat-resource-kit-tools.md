@@ -1,67 +1,117 @@
-﻿---
-title: Lync Server 2013 Persistent Chat Resource Kit Tools
+---
+title: Средства набора ресурсов сохраняемого чата для Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945599(v=OCS.15)
-ms:contentKeyID: 52058575
-ms.date: 08/03/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
+ms:contentKeyID: 51541423
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842043"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 Persistent Chat Resource Kit Tools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-24_
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Средства набора ресурсов сохраняемого чата для Lync Server 2013
 
-The Lync Server 2013 сохраняемый сеанс беседы Resource Kit tools help to make routine tasks easier for IT administrators who deploy and manage Lync Server 2013 сохраняемого сеанса беседы. In addition to installation instructions, this topic describes the purpose of each tool, and examples of its use.
+</div>
 
-## Installation of the Resource Kit Tools
+<div id="mainSection">
 
-To install the Resource Kit Tools сервера Lync Server 2013, download **PersistentChatReskit.msi**. Run **PersistentChatReskit.msi** to do a simple installation. The .msi installs all the tools in the following path: \\**Program Files\\ Microsoft Lync Server 2013\\Persistent Chat Server Resource Kit**. Tools that are self-contained executables are in this folder. Tools that also have files are in their own subfolders.
+<div id="mainBody">
 
-> [!IMPORTANT]
-> After installing the Resource Kit Tools сервера Lync Server 2013, you must install <strong>PsExec.exe</strong> and copy <strong>PsExec.exe</strong> to the following path: \<strong>Program Files\ Microsoft Lync Server 2013\Persistent Chat Server Resource Kit\ChatStressTool</strong>. If you do not copy <strong>PsExec.exe</strong>, the сохраняемый сеанс беседы Stress Tool will throw an error exception, and not perform correctly. Make sure that you meet this prerequisite requirement prior to running the tool. For details about installing <strong>PsExec.exe</strong>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</a>.
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-24_
+
+Средства набора ресурсов сохраняемый чат для Lync Server 2013 помогают упростить выполнение повседневных задач для ИТ – администраторов, которые развертывают и управляют сервером Lync Server 2013 с сохраненным чат. В дополнение к инструкциям по установке в этом разделе описывается назначение каждого инструмента и примеры его использования.
+
+<div>
+
+## <a name="installation-of-the-resource-kit-tools"></a>Установка средств из набора ресурсов
+
+Чтобы установить Lync Server 2013, средства набора ресурсов, загрузите **персистентчатрескит. msi**. Запустите **персистентчатрескит. msi** , чтобы выполнить простую установку. MSI устанавливает все инструменты, описанные в следующем пути: \\ **Program Files\\ Microsoft Lync Server 2013\\, пакет ресурсов**для работы сервера. Инструменты, представляющие собой автономные исполняемые файлы, находятся непосредственно в этой папке. Инструменты, у которых также есть файлы, находятся в своих вложенных папках.
+
+<div>
 
 
-## Supported Environments
+> [!IMPORTANT]  
+> После установки пакета Lync Server 2013, средства набора ресурсов необходимо установить <STRONG>PsExec. exe</STRONG> и скопировать <STRONG>файл PsExec. exe</STRONG> в следующий путь: \\ <STRONG>Program Files \ Microsoft Lync Server 2013 \ сохраняемый сервер ресурсов кит\чатстресстул </STRONG>. Если вы не копируете <STRONG>PsExec. exe</STRONG>, средство для работы с сохраняемым чат создаст исключение ошибки и не будет выполняться должным образом. Перед запуском средства убедитесь в том, что вы отвечаете этим требованиям предварительной версии. Подробнее об установке программы <STRONG>PsExec. exe</STRONG>можно узнать <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>в разделе.
 
-For optimal performance, the Resource Kit Tools сервера Lync Server 2013 should be installed in the same environment and with the same specifications that are required for Lync Server 2013.
 
-## Resource Kit Tools Overview
 
-Here are the tools that are provided in the Lync Server 2013 сохраняемый сеанс беседы Resource Kit. The following section provides a description of each tool, including requirements and example usage.
+</div>
 
-  - AffCheck
+</div>
 
-  - ChatMonitoringSummary
+<div>
 
-  - ChatStress Tool
+## <a name="supported-environments"></a>Поддерживаемые среды
 
-  - ChatUpgradeVerifier
+Для оптимальной производительности в Lync Server 2013 вы сможете установить средства набора ресурсов в той же среде и те же спецификации, которые необходимы для Lync Server 2013.
 
-  - ChatUsageReport
+</div>
 
-  - ScheduleADSyncforPrincipal
+<div>
 
-## AffCheck
+## <a name="resource-kit-tools-overview"></a>Обзор средств из набора ресурсов
 
-## Description
+Ниже приведены средства, доступные в наборе ресурсов для работы с пакетом Resource Chat для Lync Server 2013. В следующем разделе представлено описание всех инструментов, в том числе требования и использование примера использования.
 
-The AffCheck tool confirms that the сохраняемый сеанс беседы back-end database user and group affiliation records match that of Active Directory (AD DS).
+  - Аффчекк
 
-## Requirements
+  - Чатмониторингсуммари
 
-The tool is installed with the PersistentChatResKit installer on a domain joined machine.
+  - Инструмент Чатстресс
 
-The user account under which the tool is run must have Read access to the сохраняемый сеанс беседы back-end database and Active Directory Domain Services.
+  - Чатупградеверифиер
 
-## Usage
+  - Чатусажерепорт
 
-Configure the AffCheck.exe.config file according to the instructions in the config file and run the AffCheck tool without command-line parameters. Following are the contents of the default AffCheck.exe.config.
+  - СчедулеадсинкфорпринЦипал
 
-**AffCheck.exe.config:**
+</div>
+
+<div>
+
+## <a name="affcheck"></a>Аффчекк
+
+<div>
+
+## <a name="description"></a>Описание
+
+Средство Аффчекк подтверждает, что записи, заданные пользователем базы данных и принадлежности к группе, совпадают с учетными записями доменных служб Active Directory.
+
+</div>
+
+<div>
+
+## <a name="requirements"></a>Требования
+
+Средство устанавливается вместе с установщиком Персистентчатрескит на компьютере, подключенном к домену.
+
+Учетная запись пользователя, от имени которой запускается средство, должна иметь доступ на чтение к сохраняемой резервной базе данных чата и доменным службам Active Directory.
+
+</div>
+
+<div>
+
+## <a name="usage"></a>Режим
+
+Настройте файл Аффчекк. exe. config в соответствии с инструкциями в файле конфигурации и запустите средство Аффчекк без параметров командной строки. Ниже приведены данные содержимого файла Аффчекк. exe. config, используемого по умолчанию.
+
+**Аффчекк. exe. config:**
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -96,40 +146,59 @@ Configure the AffCheck.exe.config file according to the instructions in the conf
         <add key="Ignore" value ="DC=uatest,DC=test,DC=contoso,DC=com;DC=test,DC=contoso,DC=com"/>
       </appSettings>
     </configuration>
-```
+  ```
+</div>
 
-## ChatMonitoringSummary
+</div>
 
-## Description
+<div>
 
-The PersistentChatMonitoringSummary tool moves сохраняемый сеанс беседы monitoring information from the monitoring database into a specified CSV log file.
+## <a name="chatmonitoringsummary"></a>Чатмониторингсуммари
 
-The CSV file will contain a breakdown of сохраняемый сеанс беседы sessions by number of total sessions, successful sessions, unexpected failures, expected failures, and a breakdown of the unexpected failures by diagnostic ID, number of failures, and failure description.
+<div>
 
-## Requirements
+## <a name="description"></a>Описание
 
-Install the сохраняемый сеанс беседы Resource Kit tools on a domain-joined machine that has access to the Monitoring database.
+Средство Персистентчатмониторингсуммари перемещает сохраняемые данные чата из базы данных мониторинга в указанный файл журнала CSV.
 
-The user account under which the tool runs must have Read access to the Monitoring database.
+CSV-файл содержит подразделение сеансов сохраняемого чата на общее количество сеансов, успешные сеансы, непредвиденные сбои, ожидаемые ошибки и разделение на непредвиденные сбои с помощью идентификатора диагностики, количества сбоев и описания сбоя.
 
-The file, PersistentChatMonitoringSummary.exe.config, must contain a \<connectionStrings\> section that defines the connection string to the Monitoring database. It must also contain a key for the PersistentChatEndpointUri that the monitoring data will be gathered for, and a file path to a location for the CSV file that will be generated. Refer to the installed config file for examples. The file must be located in the same directory as the tool.
+</div>
 
-## Usage
+<div>
+
+## <a name="requirements"></a>Требования
+
+Установите средства набора ресурсов сохраняемого чата на компьютере, подключенном к домену, который имеет доступ к базе данных мониторинга.
+
+Учетная запись пользователя, под которой запускается средство, должна иметь доступ на чтение к базе данных мониторинга.
+
+Файл Персистентчатмониторингсуммари. exe. config должен содержать \<\> раздел connectionStrings, который определяет строку соединения с базой данных мониторинга. Оно также должно содержать ключ для Персистентчатендпоинтури, для которого будут собираться данные мониторинга, и путь к файлу для CSV-файла, который будет создан. Ознакомьтесь с примерами установленного файла конфигурации. Файл должен находиться в той же папке, что и инструмент.
+
+</div>
+
+<div>
+
+## <a name="usage"></a>Режим
 
 ```Batch
-PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
+    PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
 ```
 
-These parameters define the selection of data:
+Эти параметры определяют выбор данных:
 
-**StartDateTime:** Optionally specifies the start date of the selection period. Default: 1/1/1753 12:00:00 AM
+**Стартдатетиме:** При необходимости указывается дата начала периода выбора. По умолчанию: 1/1/1753 12:00:00 AM
 
-**EndDateTime:** Optionally specifies the last date of the selection period. Default: Now
+**Енддатетиме:** Дополнительно определяет последнюю дату периода выбора. По умолчанию: Now
 
-## Example
+</div>
+
+<div>
+
+## <a name="example"></a>Пример
 
 ```Batch
-  C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
+    C:\Users\Administrator.VDOMAIN>Desktop\PersistentChatMonitoringSummary.exe
     Reading database connection information, Persistent Chat endpoint uri, and csv output path information from the application config file...
     Connecting to Monitoring database with connection string specified in the application config file...
     Gathering Persistent Chat Session Summary information between "1/1/1753 12:00:00 AM" and "11/19/2012 10:11:25 AM" for Persistent Chat Endpoint Uri "persistentChatEndpointUri@domain.com"...
@@ -139,163 +208,224 @@ These parameters define the selection of data:
     Press enter to exit...
 ```
 
-## сохраняемый сеанс беседы Stress Tool
+</div>
 
-## Description
+</div>
 
-The сохраняемый сеанс беседы Stress tool provides an easy way to simulate usage of сохраняемый сеанс беседы to test real-world performance, including varied user models to better fit your expected usage scenarios.
+<div>
 
-## Requirements
+## <a name="persistent-chat-stress-tool"></a>Инструмент «стресс» сохраняемого чата
 
-Install the сохраняемый сеанс беседы Resource Kit tools onto a domain-joined machine that has access to the сохраняемый сеанс беседы back-end database.
+<div>
 
-In addition to this *controller* machine, you will need several *loader* machines. For every 10K users in your user model, you will need at least 4GB of free RAM on a loader machine. For example, a run with 80K users will require about 32GB of RAM spread across all loader machines. We recommend that you have at least three loader machines, regardless of expected load.
+## <a name="description"></a>Описание
 
-Loader machines must have the .NET 4.5 Framework as well as the Visual C++ 2012 Redistributable installed.
+Инструмент «стресс» сохраняемый чат обеспечивает простой способ моделирования использования сохраняемого чата для тестирования реальной производительности, включая различные пользовательские модели, чтобы лучше соответствовать ожидаемым сценариям использования.
 
-## Configuration
+</div>
 
-Copy ChatStressTool files into a shared folder accessible from all loader machines.
+<div>
 
-Create users and channels for use in the stress run:
+## <a name="requirements"></a>Требования
 
-  - Create as many users as your user model calls for, enable them for Lync, and set their сохраняемый сеанс беседы policy to Enabled.
+Установите средства набора ресурсов сохраняемого чата на компьютер, подключенный к домену, который имеет доступ к сохраняемой резервной базе данных чата.
 
-  - Create a category for your stress channels, and then create as many rooms as are needed under that category. The category should have all stress users in its **Allowed** list (by way of adding their OU), and stress rooms should have a privacy setting of **Open**.
+В дополнение к этому компьютеру *контроллера* вам понадобятся несколько машин *Loader* . Для каждых 10 000 пользователей в пользовательской модели вам понадобится не менее 4 ГБ оперативной памяти на машине загрузчика. Например, для работы с пользователями 80K потребуется около 32 ГБ ОЗУ на всех машинах загрузчика. Мы рекомендуем использовать как минимум три компьютера загрузчика, независимо от ожидаемой нагрузки.
 
-  - We recommend creating extra stress rooms. You can create 50,000 rooms with the following командной строки Windows PowerShell command:
-    
-       ```Powershell
+На компьютерах загрузчика должна быть установлена платформа .NET 4,5, а также распространяемый компонент Visual C++ 2012.
+
+</div>
+
+<div>
+
+## <a name="configuration"></a>Конфигурация
+
+Скопируйте файлы Чатстресстул в общую папку, доступную на всех машинах загрузчика.
+
+Создание пользователей и каналов для использования в нагрузочном прогоне.
+
+  - Создавайте как можно больше пользователей, для которых используется модель пользователя, включите их в Lync и установите для них параметр "сохраняемая политика чата".
+
+  - Создайте категорию для каналов стресс-, а затем создайте столько комнат, сколько необходимо для этой категории. У категории должны быть все повременные пользователи **** в списке разрешенных пользователей (с учетом их подразделений), а в помещениях для нагрузки должны быть установлены параметры конфиденциальности **Open**.
+
+  - Мы рекомендуем создавать дополнительные помещения для нагрузки. Для создания комнат 50 000 можно использовать следующую команду интерфейса командной строки Windows PowerShell:
+    ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
-       ```
+    ```    
 
-Edit the configuration files to fit your topology:
+Измените файлы конфигурации в соответствии с вашей топологией.
 
-In **LoaderProcess.exe.config**, change “controller.contoso.com” to the controller machine’s fully qualified domain name (FQDN).
+В **лоадерпроцесс. exe. config**измените значение "Controller.contoso.com" на полное доменное имя (FQDN) контроллера компьютера.
 
-In **StressLauncher.exe.config:**
+В **стресслаунчер. exe. config:**
 
-1.  Change the “LoaderBinary” setting value to the shared folder’s path.
+1.  Измените значение параметра "Лоадербинари" на путь к общей папке.
 
-2.  Change “AdminUser”/”AdminPassword” to credentials that have admin access to loader machines.
+2.  Измените "Админусер"/"AdminPassword" на учетные данные, которые имеют административный доступ к компьютерам загрузчика.
 
-3.  Change “ChannelCategory” to the name of the category that stress channels have been created under.
+3.  Измените "Чаннелкатегори" на название категории, для которой созданы каналы нагрузки.
 
-4.  Change “UserNamePattern” and “UserPasswordPattern” to a template that matches your stress user credentials. {0} is replaced with the user’s index number.
+4.  Измените "Усернамепаттерн" и "Усерпассвордпаттерн" на шаблон, соответствующий вашим учетным данным пользователя. {0}заменяется номером индекса пользователя.
 
-5.  Change “Domain” to the SIP domain of your test topology.
+5.  Замените слово Domain на домен SIP для топологии тестирования.
 
-6.  Change “ConnectionString” to a connection string for your сохраняемый сеанс беседы back-end database.
+6.  Измените "ConnectionString" на строку подключения для сохраняемой серверной базы данных чата.
 
-7.  Change “UserIndexStart” to the index of the first stress user.
+7.  Замените значение "Усериндексстарт" индексом первого пользователя, который повлияет на погрузку.
 
-8.  Change “LyncFQDN” to the FQDN of your Front End pool.
+8.  Измените значение "Линкфкдн" на полное доменное имя пула переднего плана.
 
-9.  Modify the “Machines” list to include machine names for all of your loader machines.
+9.  Измените список "machines", чтобы включить имена компьютеров для всех компьютеров загрузчика.
 
-10. Change the baseAddress of the service endpoint (default is “controller.contoso.com”) to the FQDN of your controller machine.
+10. Измените значение baseAddress конечной точки службы (по умолчанию — "controller.contoso.com") до полного доменного имени компьютера контроллера.
 
-## Usage
+</div>
 
-After configuration is complete, open StressLauncher.exe on the controller machine. You can launch StressLauncher as any user. The credentials under which the loader processes start on the loader machines must be specified in the config file. You also must give a connection string that has Read access to the сохраняемый сеанс беседы back-end database. If this connection string uses integrated Windows authentication, you must launch StressLauncher as a user that has this access.
+<div>
 
-Alter the user model settings as needed. Click **Start Load** to initiate a run. After a minute or so, users will start being signed in, and the progress bar will begin to fill. At this point, you may can the controller machine working and take performance measurements.
+## <a name="usage"></a>Режим
 
-## ChatUpgradeVerifier
+После завершения настройки откройте Стресслаунчер. exe на контроллере компьютера. Вы можете запустить Стресслаунчер как любой пользователь. Учетные данные, под которыми запускается процесс загрузчика на компьютерах загрузчика, должны быть указаны в файле конфигурации. Кроме того, необходимо предоставить строку подключения, которая имеет доступ на чтение к сохраняемой серверной базе данных чата. Если строка подключения использует встроенную проверку подлинности Windows, необходимо запустить Стресслаунчер как пользователя с этим доступом.
 
-## Description
+При необходимости измените параметры пользовательской модели. Нажмите кнопку **начать загрузку** , чтобы начать выполнение. После минуты пользователь начнет вход в систему, а индикатор выполнения начнет заполняться. На этом этапе вы можете использовать контроллеры компьютера и получить измерения производительности.
 
-ChatUpgradeVerifier is a сохраняемый сеанс беседы specific database comparison tool. The tool compares either the Group Chat 2007 R2 or Group Chat 2010 Database (2007/2010Db) to the сохраняемый сеанс беседы 2013 Database (2013Db).
+</div>
 
-The tool will check, one by one, each category, сохраняемый сеанс беседы room, and add-in in 2007/2010Db to see if it appears in the 2013Db. The comparison includes checking all settings on the category, chat room, or add-in, any principals in scope on the category, and any principal in a role on either the category or the chat room. If a category or a chat room does not appear correctly in the 2013Db, the differences will be output to a conflicts file. If, after the upgrade has occurred, the 2007/2010Db is changed and then this tool is run, there will be a differences output to the conflicts file. Note that this application is a database comparison tool only and does not validate the upgrade process.
+</div>
 
-## Requirements
+<div>
 
-Install the сохраняемый сеанс беседы Resource Kit tools on a domain-joined machine that has access to the сохраняемый сеанс беседы back-end databases (previous and current versions for сохраняемый сеанс беседы).
+## <a name="chatupgradeverifier"></a>Чатупградеверифиер
 
-The user account under which the tool runs must have Read access to the сохраняемый сеанс беседы databases.
+<div>
 
-The ChatUpgradeVerifier.exe.config file must contain either the GroupChat2007R2Db parameter or the GroupChat2010Db parameter, with a connection string to the appropriate Group Chat database (either Groupchat 2007R2 or 2010). It must also contain a PersistentChat2013Db parameter, with a connection string to the сохраняемый сеанс беседы 2013 database.
+## <a name="description"></a>Описание
 
-## Usage
+Чатупградеверифиер — это специальный инструмент для сравнения баз данных в чате. Это средство сравнивает базу данных группового чата 2007 R2 или Group Chat 2010 (2007/2010Db) с базой данных сохраняемого чата 2013 (2013Db).
 
-Run **ChatUpgradeVerifier** without any parameters.
+Это средство проверит, отображается ли оно на одной категории, в области "сохраняемый чат", а надстройка в выпуске в Office 2007 или 2010Db. Сравнение включает проверку всех параметров в категории, комнаты чата или надстройки, любые участники в области в этой категории и любые участники роли в этой категории либо в комнате чата. Если категория или комната чата не отображаются должным образом в 2013Db, эти различия будут выводиться в файл конфликтов. Если после завершения обновления Office 2007 или 2010Db изменится, а затем запускается это средство, в файле конфликтов будет выводиться разница. Обратите внимание, что это приложение является только средством сравнения баз данных и не проверяет процесс обновления.
 
-## Example
+</div>
 
-![Запуск ChatUpgradeVerifier.exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Запуск ChatUpgradeVerifier.exe.")
+<div>
 
-## сохраняемый сеанс беседы Usage Report
+## <a name="requirements"></a>Требования
 
-## Description
+Установка средств набора ресурсов сохраняемого чата на компьютере, подключенном к домену, который имеет доступ к сохраняемым внутренним базам данных чата (предыдущим и текущим версиям для сохраняемого чата).
 
-The ChatUsageReport tool generates an HTML report of сохраняемый сеанс беседы service usage.
+Учетная запись пользователя, с помощью которой запускается средство, должна иметь доступ на чтение к базам данных сохраняемого чата.
 
-## Requirements
+Файл Чатупградеверифиер. exe. config должен содержать либо параметр GroupChat2007R2Db, либо параметр GroupChat2010Db, в строке соединения с соответствующей базой данных группового чата (как Граупчат 2007R2, так и 2010). Кроме того, он должен содержать параметр PersistentChat2013Db со строкой соединения с базой данных сохраняемого чата-2013.
 
-Install the сохраняемый сеанс беседы Resource Kit tools on a domain-joined machine that has access to the сохраняемый сеанс беседы back-end database.
+</div>
 
-The user account under which the tool is run must have Read access to the сохраняемый сеанс беседы back-end database.
+<div>
 
-The file, ChatUsageReport.exe.config, must contain a \<connectionStrings\> section defining the connection string to the сохраняемый сеанс беседы back-end database. The contents of the default config file are included here, for your reference.
+## <a name="usage"></a>Режим
 
-## Usage
+Запустите **чатупградеверифиер** без каких бы то ни было параметров.
 
-```Powershell
-ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
-```
+</div>
 
-These parameters define the selection of data:
+<div>
 
-**StartDate:** Optionally specifies the UTC start date of the selection period. Default: Earliest Date
+## <a name="example"></a>Пример
 
-**EndDate:** Optionally specifies the UTC end date of the selection period. Default: Now
+![Запуск чатупградеверифиер. exe.] (images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Запуск чатупградеверифиер. exe.")
 
-These parameters define how and what data is displayed:
+</div>
 
-**TopActiveUsers:** If this is specified, the report will include the n most active users in terms of the number of messages the user has posted in the chat room for the selected period. Default: 10
+</div>
 
-**TopActiveRooms:** If this is specified, the report will include the n most active chat rooms in terms of the number of messages posted in the room for the selected period. Default: 10
+<div>
 
-**LeastActiveRooms:** If this is specified, the report will include the n least active chat rooms in terms of the number of messages posted in the chat room for the selected period. Rooms will have at least one message posted. Default: 10
+## <a name="persistent-chat-usage-report"></a>Отчет об использовании сохраняемого чата
 
-**RoomsInactiveSince:** If this is specified, the report will include a list of chat rooms that have been inactive since the specified date. Default: Entire Time
+<div>
 
-**OutputFolder:** The folder where the ChatUsageReport.html and the graph images will be placed. This must be defined in the config file or on the command line.
+## <a name="description"></a>Описание
 
-All of the command line parameter values can also be specified in the ChatUsageReport.exe.config file that is located in the same directory as the tool. If any value is specified in both the config file and the command line, the command line value will override the config file value.
+Средство Чатусажерепорт создает HTML-отчет по использованию службы сохраняемого чата.
 
-## Output
+</div>
 
-The report will always include the following output:
+<div>
 
-  - Top n most active chat rooms by number of message posts for selected period.
+## <a name="requirements"></a>Требования
 
-  - Top n most active users by number of message posts for selected period.
+Установите средства набора ресурсов сохраняемого чата на компьютере, подключенном к домену, который имеет доступ к сохраняемой резервной базе данных чата.
 
-  - Top n least active chat rooms by number of message posts for selected period.
+Учетная запись пользователя, с помощью которой запускается инструмент, должна иметь доступ на чтение к сохраняемой обратной стороне чата.
 
-  - Chat rooms that are inactive for the entire life of the database, or since the specified date.
+Файл Чатусажерепорт. exe. config должен содержать \<\> раздел connectionStrings, определяющий строку подключения для постоянной обратной базы данных чата. Содержимое файла конфигурации по умолчанию включается здесь для ссылки.
 
-  - Daily message post trend for selected period.
+</div>
 
-  - Weekly message post trend for selected period.
+<div>
 
-  - Monthly message post trend for selected period.
-
-  - Total message posts for selected period.
-
-  - Total number of enabled rooms.
-
-## Example
-
-The following example generates a usage report for the entire year 2001 and places the report in the OutputFolder specified in the ChatUsageReport.exe.config.
+## <a name="usage"></a>Режим
 
 ```Powershell
-ChatUsageReport -RoomsInactiveSince 06-20-2010
+    ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
 ```
+Эти параметры определяют выбор данных:
 
-ChatUsageReport.exe.config:
+**StartDate (Дата** начала): При необходимости определяет дату начала периода выбора в формате UTC. По умолчанию: ранняя дата
+
+**Дата окончания:** При необходимости определяет дату окончания периода выбора в формате UTC. По умолчанию: Now
+
+Эти параметры определяют, как и какие данные отображаются.
+
+**Топактивеусерс:** Если указан этот параметр, в отчет будут включены n наиболее активных пользователей в соответствии с количеством сообщений, опубликованных пользователем в комнате чата в течение выбранного периода. По умолчанию: 10
+
+**Топактиверумс:** Если указан этот параметр, в отчет будут включены n самых активных комнат чата в соответствии с количеством сообщений, опубликованных в комнате за выбранный период. По умолчанию: 10
+
+**Леастактиверумс:** Если указан этот параметр, в отчете будут содержаться как минимум активные комнаты чата в соответствии с количеством сообщений, опубликованных в комнате чата за выбранный период. У комнат будет хотя бы одно сообщение. По умолчанию: 10
+
+**Румсинактивесинце:** Если задано значение, отчет будет включать список комнат чатов, которые были неактивны с момента указанной даты. По умолчанию: все время
+
+**Аутпутфолдер:** Папка, в которой будут размещены изображения Чатусажерепорт. HTML и Graph. Это значение должно быть определено в файле конфигурации или в командной строке.
+
+Все значения параметров командной строки также можно указать в файле Чатусажерепорт. exe. config, который находится в той же папке, что и инструмент. Если в файле конфигурации и в командной строке задано какое либо значение, значение из командной строки будет переопределяться в файле конфигурации.
+
+</div>
+
+<div>
+
+## <a name="output"></a>Выходные данные
+
+В отчет всегда будут включены следующие выходные данные:
+
+  - Первые n самых активных комнат чата по количеству записей в сообщении за выбранный период.
+
+  - Первые n наиболее активных пользователей по количеству записей сообщений за выбранный период.
+
+  - Первые n наименее активные комнаты чата по количеству записей в сообщении за выбранный период.
+
+  - Комнаты чата, неактивные для полного существования базы данных или в соответствии с указанной датой.
+
+  - Ежедневная Разноска сообщения за выбранный период.
+
+  - Еженедельное сообщение о тенденциях за выбранный период.
+
+  - Месячная тенденция сообщения за выбранный период.
+
+  - Общее количество записей в сообщении за выбранный период.
+
+  - Общее количество включенных комнат.
+
+</div>
+
+<div>
+
+## <a name="example"></a>Пример
+
+В следующем примере демонстрируется создание отчета об использовании для всего 2001 года и поместика отчета в Аутпутфолдер, указанный в Чатусажерепорт. exe. config.
+
+```Powershell
+    ChatUsageReport -RoomsInactiveSince 06-20-2010
+```
+Чатусажерепорт. exe. config:
 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
@@ -317,20 +447,35 @@ ChatUsageReport.exe.config:
       </appSettings>
     </configuration></configuration>
 ```
+</div>
 
-## ScheduleADSyncForPrincipal
+</div>
 
-## Description
+<div>
 
-ScheduleADSyncForPrincipal is a Microsoft SQL Server 2012 script that must be run directly from within SQL Server Management Studio when connected to the сохраняемый сеанс беседы back-end database. This script enables you to force сохраняемый сеанс беседы to synchronize its records of a user with those of Active Directory Domain Services, rather than waiting for the scheduled synchronization time.
+## <a name="scheduleadsyncforprincipal"></a>СчедулеадсинкфорпринЦипал
 
-## Requirements
+<div>
 
-The user account under which the script is run must have owner access to the сохраняемый сеанс беседы back-end database.
+## <a name="description"></a>Описание
 
-## Usage
+СчедулеадсинкфорпринЦипал — это сценарий Microsoft SQL Server 2012, который необходимо запускать непосредственно из SQL Server Management Studio при подключении к сохраняемой обратной стороне чата в базе данных. Этот сценарий позволяет принудительно использовать сохраняемый чат для синхронизации записей пользователя с данными из доменных служб Active Directory, а не ждать запланированного времени синхронизации.
 
-Following are the contents of the default script:
+</div>
+
+<div>
+
+## <a name="requirements"></a>Требования
+
+Учетная запись пользователя, под которой запускается сценарий, должна иметь доступ владельца к сохраняемой резервной базе данных чата.
+
+</div>
+
+<div>
+
+## <a name="usage"></a>Режим
+
+Ниже приведено содержимое сценария по умолчанию.
 
 ```Powershell
     /*
@@ -369,4 +514,18 @@ Following are the contents of the default script:
         where
          prinID = <PrinID,int,0>
 ```
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

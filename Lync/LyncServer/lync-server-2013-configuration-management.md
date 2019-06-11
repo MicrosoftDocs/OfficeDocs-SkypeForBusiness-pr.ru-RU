@@ -1,57 +1,99 @@
-﻿---
-title: 'Lync Server 2013: Configuration management'
+---
+title: 'Lync Server 2013: Управление конфигурацией'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720316(v=OCS.15)
-ms:contentKeyID: 62222378
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:contentKeyID: 63969570
+ms.date: 05/16/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841473"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration management in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-05-15_
+# <a name="configuration-management-in-lync-server-2013"></a>Управление конфигурацией в Lync Server 2013
 
-Configuration management is the process of recording and tracking hardware and software assets and system configuration information. It is generally used to track software licenses, maintain a standard hardware and software build for client computers and servers, and define naming standards for new computers. Configuration management generally covers the following categories:
+</div>
 
-  - **Hardware**   This category tracks the pieces of equipment that the IT organization owns, where equipment is located, and who uses equipment. This information enables an organization to plan and budget for upgrades, maintain standard hardware builds, report on the value of IT assets for accounting purposes, and help prevent theft.
+<div id="mainSection">
 
-  - **Software**   This category tracks software that is installed on each computer, the version numbers, and where the licenses are held. This information helps plan upgrades, to ensure that software is licensed, and detect the presence of unauthorized (and unlicensed) software.
+<div id="mainBody">
 
-  - **Standard Builds**   This category tracks the current standard build for the client computers and servers and whether the client computers and servers meet this standard. Defining and enforcing standard builds helps support staff because the staff is required to maintain only a limited number of versions of each piece of software.
+<span> </span>
 
-  - **Cumulative Updates and Hotfixes**   This category tracks which service packs are tested and approved for use and which computers are up to date. This information is important to reduce the risk of computers being compromised and to detect users who have installed unapproved updates.
+_**Тема последнего изменения:** 2015-05-15_
 
-  - **System Configuration Information**   This category tracks the function of a system, the interaction between system elements, and the processes that depend on a system that is running smoothly. For example, third-party proxy server may be configured on a single server. The proxy server’s dependence on this server should be understood and contingency plans may be required if there is a failure. If the proxy server can be configured to also communicate with another front-end server, dependencies and contingency plans will probably change.
+Управление конфигурацией — это процесс записи и отслеживания аппаратных и программных ресурсов и сведений о конфигурации системы. Она обычно используется для отслеживания лицензий на программное обеспечение, обслуживания стандартных аппаратных и программных сборок для клиентских компьютеров и серверов и определения стандартов именования для новых компьютеров. В управлении конфигурацией обычно рассматриваются следующие категории:
 
-## Implementing configuration management
+  - **Оборудование**   . в этой категории отслеживается оборудование, которому принадлежит ИТ – организация, где находится оборудование и кто пользуется оборудованием. Эта информация позволяет организациям планировать и возобновлять обновления, поддерживать стандартные сборки оборудования, сообщать о стоимости информационных ресурсов в целях учета и помогать в предотвращении хищения.
 
-After you determine what items need managing, implement configuration management by collecting data and reporting data. The simplest approach for small organizations is to collect data manually (number and model of client computers, operating system, installed software) and save it in an Office Word or Office Excel document. For larger, more complex, and constantly changing systems, the discovery of assets and collection of detailed information must be automated. Decide what information is relevant to your organization and record it in a database.
+  - **Программное обеспечение**   . Эта категория отслеживает программное обеспечение, которое установлено на каждом компьютере, Номера версий и места проведения лицензий. Эти сведения помогают планировать обновления, обеспечивать лицензирование программного обеспечения и определять наличие неавторизованного (и нелицензированного) программного обеспечения.
 
-The configuration management database is a useful tool for support staff and management in the following areas:
+  - **Стандартные сборки**   . Эта категория отслеживает текущую стандартную сборку для клиентских компьютеров и серверов, а также от того, соответствуют ли клиентские компьютеры и серверы этим стандарту. Определение и принудительное использование стандартных сборок помогает специалистам службы поддержки, так как персонал обязан поддерживать только ограниченное количество версий каждой части программного обеспечения.
 
-  - **Security Audits**   The database enables you to identify servers that are running Lync Server and client computer systems that must have hotfixes applied or that have missed the installation of a service pack or the latest antivirus updates.
+  - **Накопительные обновления и исправления**   . Эта категория отслеживает, какие пакеты обновления проверены и утверждены для использования и для каких компьютеров установлены обновления. Эта информация важна для снижения риска нарушения безопасности компьютеров и обнаружения пользователей с установленными неодобренными обновлениями.
 
-  - **Software Installation**   Identifying client software versions and tracking them will aid administrators in planning version updates and new installs and also by helping with licensing documentation and compliance.
+  - **Сведения о**   конфигурации системы в этой категории отслеживается функция системы, взаимодействие между системными элементами и процессы, зависящие от системы, в которой выполняется плавный запуск. Например, прокси-сервер стороннего поставщика можно настроить на одном сервере. При возникновении сбоя может потребоваться, чтобы прокси-сервер был заблокирован на этом сервере и планы на непредвиденные случаи. Если прокси-сервер можно настроить так, чтобы он также мог взаимодействовать с другим сервером переднего плана, зависимости и планы на непредвиденные случаи, скорее всего, изменятся.
 
-  - **Configuration Information**   If you maintain an up-to-date list of all settings that were changed from their default, then you'll be able to troubleshoot issues quickly and more effectively.
+<div>
 
-  - **Planning Upgrades**   If a capacity review reveals that additional storage space is required on your Lync database servers, it’s important to know whether each server has an internal RAID controller. If they do, then are they the same model? Do they have the same number of disks installed? The configuration management database will indicate the type of disk that can be installed, the number, and the upgrade path in each case.
+## <a name="implementing-configuration-management"></a>Реализация управления конфигурацией
 
-## Tools used for configuration management
+Определив элементы, необходимые для управления, реализуйте управление конфигурацией, собирая данные и отчеты. Самый простой подход для малых организаций — собирать данные вручную (номер и модель клиентских компьютеров, операционную систему, установленное программное обеспечение) и сохранять их в документе Office Word или Office Excel. Для более крупных, более сложных и постоянно меняющихся систем обнаружение ресурсов и сбор подробных данных должно выполняться автоматически. Определите, какая информация важна для вашей организации, и записывайте ее в базу данных.
 
-There are many tools to discover, audit, and report assets. Some of these tools are discussed in this section.
+База данных управления конфигурацией — это полезный инструмент для поддержки персонала и управления в указанных ниже областях.
 
-  - **Automated Scripts**   You can write simple scripts to report items such as the operating system, service pack level, and whether software exists on a specific set of computers. You can write these scripts to an organization’s exact requirements. However, the required number of scripts and their complexity can make scripts expensive to create and maintain.
+  - **Аудит безопасности база**   данных позволяет идентифицировать серверы, на которых работают системы Lync Server и клиентские компьютеры, на которых должны быть установлены исправления или пропущены Установка пакета обновления или последних обновлений антивирусной программы.
 
-  - **Automated Tools**   Depending on the size of your business and your organizational needs, you may want to consider using automated tools. Tools such as System Center Configuration Manager incorporate standard report templates (such as service pack level) and also enable you to create customized reports, for example, for a custom application. The System Center Configuration Manager can also be used to report on hardware and software configurations.
+  - **Установка программного**   обеспечения определение версий клиентского программного обеспечения и их отслеживание помогает администраторам планировать обновления версий и новые установки, а также помогать в документации и соответствии требованиям.
 
-## Relationship with change management
+  - **Сведения о**   конфигурации если вы сохраняете актуальный список всех параметров, которые были изменены по умолчанию, вы сможете быстро и эффективно устранять проблемы.
 
-Configuration management is closely related to change management. Configuration management identifies the need for change and identifies and records that a change has occurred. For example, the configuration management database can be used to identify servers that require a hotfix. Change management then defines the process for applying the hotfix.
+  - **Планирование обновлений**   если в ходе проверки производительности выясняется, что на серверах баз данных Lync требуется дополнительное дисковое пространство, важно знать, имеет ли каждый сервер внутренний RAID-контроллер. Если это так, то они являются одной и той же моделью. Установлено ли на них одинаковое число дисков? База данных управления конфигурацией будет указывать тип диска, который можно установить, номер и путь обновления в каждом случае.
 
-Conversely, if a new cumulative update is rolled out, the change management process should supply this information to the configuration management system. The configuration management tools will probably need to be configured to identify the new software so that they can discover and track where and when the software is deployed.
+</div>
+
+<div>
+
+## <a name="tools-used-for-configuration-management"></a>Инструменты, используемые для управления конфигурацией
+
+Существует множество инструментов для работы с ресурсами, аудита и создания отчетов. Некоторые из этих средств обсуждаются в этом разделе.
+
+  - **Автоматические сценарии**   . Вы можете создавать простые сценарии для создания отчетов о таких элементах, как операционная система, уровень пакета обновления, а также сведения о том, существует ли программное обеспечение на определенном наборе компьютеров. Эти сценарии можно писать на конкретные требования Организации. Тем не менее, требуемое количество сценариев и их сложность может усложнить создание и обслуживание сценариев.
+
+  - **Автоматические инструменты**   , зависящие от размера вашего бизнеса и потребностей Организации, вы можете использовать автоматизированные средства. Такие инструменты, как System Center Configuration Manager, включают стандартные шаблоны отчетов (например, уровень пакета обновления), а также позволяют создавать пользовательские отчеты, например, для пользовательского приложения. Кроме того, System Center Configuration Manager можно использовать для создания отчетов о конфигурациях оборудования и программного обеспечения.
+
+</div>
+
+<div>
+
+## <a name="relationship-with-change-management"></a>Связь с управлением изменениями
+
+Управление конфигурацией тесно связано с управлением изменениями. Управление конфигурацией определяет необходимость изменения и идентификации и записи, внесенные в ходе изменения. Например, можно использовать базу данных управления конфигурацией для идентификации серверов, которым требуется исправление. Управление изменениями затем определяет процесс применения исправления.
+
+И наоборот, если вы выйдете новое накопительное обновление, процесс управления изменениями должен предоставить эту информацию системе управления конфигурацией. Средства управления конфигурацией, скорее всего, должны быть настроены для идентификации нового программного обеспечения, чтобы они могли находить и отслеживать, где и когда развертывается программное обеспечение.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

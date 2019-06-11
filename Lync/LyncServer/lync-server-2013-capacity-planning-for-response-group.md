@@ -1,29 +1,65 @@
-﻿---
-title: 'Lync Server 2013: планирование емкости для группы ответа'
-TOCTitle: Планирование емкости для группы ответа
-ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412754(v=OCS.15)
-ms:contentKeyID: 49310726
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование емкости для группы ответа'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Response Group
+ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
+ms:contentKeyID: 48184951
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 72f3e49806dc573a4e17bc917834deba97a74ca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841671"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование емкости для группы ответа в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Планирование емкости для группы ответа в Lync Server 2013
 
-В следующей таблице описывается пользовательская модель ответа, которую можно взять за основу при определении требований к планированию мощности.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-29_
+
+<div id="sectionSection0" class="section">
+
+В приведенной ниже таблице описана пользовательская модель группы ответа, которую можно использовать в качестве основы для планирования производственных мощностей.
+
+<div>
+
 
 > [!NOTE]  
 > Значения приведены для звуковых файлов группы ответа со следующими характеристиками: 16-разрядный файл с расширением WAV и частотой 16 кГц в монофонической записи. Если вы используете другие форматы файлов, например Windows Media Audio (WMA), характеристики могут отличаться.
 
+
+
+</div>
+
+<div>
+
+
 > [!IMPORTANT]  
 > При планировании мощности аварийного восстановления для парных пулов необходимо учитывать, что каждый пул, входящий в состав парного пула, должен обрабатывать рабочие нагрузки всех групп ответа в обоих пулах.
 
-### Пользовательская модель группы ответа
+
+
+</div>
+
+### <a name="response-group-user-model"></a>Пользовательская модель группы ответа
 
 <table>
 <colgroup>
@@ -34,14 +70,14 @@ _**Дата изменения раздела:** 2015-03-09_
 <thead>
 <tr class="header">
 <th>Показатель</th>
-<th>Для каждого пула Enterprise Edition (содержит 8 серверов переднего плана)</th>
+<th>Пул корпоративных выпусков (с 8 серверами переднего плана)</th>
 <th>Для каждого сервера Standard Edition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Входящих звонков в секунду</p></td>
-<td><p>16</p></td>
+<td><p>шестнадцат</p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="even">
@@ -52,12 +88,12 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p>Число одновременных анонимных сеансов (без учета сеансов обмена мгновенными сообщениями)</p></td>
 <td><p>224</p></td>
-<td><p>28</p></td>
+<td><p>Плот</p></td>
 </tr>
 <tr class="even">
 <td><p>Число одновременных анонимных сеансов (с учетом сеансов обмена мгновенными сообщениями)</p></td>
 <td><p>64</p></td>
-<td><p>8</p></td>
+<td><p>No8</p></td>
 </tr>
 <tr class="odd">
 <td><p>Число активных агентов (официальные и неофициальные)</p></td>
@@ -76,4 +112,17 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

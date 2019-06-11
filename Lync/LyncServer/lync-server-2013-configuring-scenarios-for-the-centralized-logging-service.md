@@ -1,26 +1,53 @@
-﻿---
-title: Настройка сценариев для службы централизованного ведения журналов
-TOCTitle: Настройка сценариев для службы централизованного ведения журналов
-ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688085(v=OCS.15)
-ms:contentKeyID: 49888032
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка сценариев для централизованной службы ведения журналов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring scenarios for the Centralized Logging Service
+ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
+ms:contentKeyID: 49733682
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841183"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка сценариев для службы централизованного ведения журналов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Настройка сценариев для централизованной службы ведения журналов в Lync Server 2013
 
-Сценарии определяют область действия (глобальную, узел, пул или компьютер) и то, что поставщики используют в централизованная служба ведения журнала. С помощью сценариев вы включаете и отключаете трассировку поставщиков (например, S4, SIPStack, мгновенных сообщений и сведений о присутствии). Настроив сценарий вы можете сгруппировать все поставщики заданной логической коллекции, которые решают определенную проблему. Если сценарий нужно изменить в соответствии с потребностями устранения неполадок и ведения журналов, средства отладки Lync Server 2013 представляют вам модуль Windows PowerShell с именем *ClsController.psm1*, который содержит функцию *Edit-CsClsScenario*. Предназначение этого модуля — изменение свойств именованного сценария. Средства отладки Lync Server 2013 можно загрузить, перейдя по этой ссылке: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-02-05_
+
+Сценарии определяют область (глобальные, сайты, пулы или компьютеры) и поставщиков услуг, которые используются в централизованной службе ведения журнала. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Если вы обнаружите, что сценарий необходимо изменить в соответствии с требованиями для устранения неполадок и ведения журнала, в средствах отладки Lync Server 2013 есть модуль Windows PowerShell с именем *клсконтроллер. PSM1* , который содержит функцию с именем *Edit-ксклссценарио *. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Средства отладки Lync Server 2013 загружаются по следующей ссылке:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+
+<div>
+
 
 > [!IMPORTANT]  
-> Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии выполняются в данный момент, используйте командлеты Windows PowerShell и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. С помощью Windows PowerShell и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a> можно динамически изменять то, как сценарии выполняются. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются.
+> Для любой области действия (глобальной, области узла, пула и компьютера) одновременно можно использовать не больше двух сценариев. Чтобы определить, какие сценарии выполняются в настоящее время, используйте Windows PowerShell и <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">Get-ксклссценарио</A>. Используя Windows PowerShell и <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">Set-ксклссценарио</A>, вы можете динамически менять, какие сценарии запущены. Это можно сделать во время сеанса ведения журнала, чтобы скорректировать собираемые данные и поставщиков, от которых они собираются.
 
-Чтобы выполнять функции централизованная служба ведения журнала с помощью Командная консоль Lync Server необходимо быть участником группы безопасности RBAC CsAdministrator или CsServerAdministrator или настраиваемой роли RBAC, которая содержит одну из этих групп. Чтобы получить список всех ролей управления доступом на основе ролей (RBAC), которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните в командной строке Командная консоль Lync Server или Windows PowerShell следующую команду:
+
+
+</div>
+
+Для запуска функций централизованной службы ведения журналов с помощью командной консоли Lync Server вы должны быть членом группы безопасности Ксадминистратор или Кссерверадминистратор (или настраиваемой роли RBAC), содержащей либо из этих двух групп. Чтобы возвратить список всех ролей RBAC, которым назначен этот командлет, включая любые пользовательские роли RBAC, созданные пользователем, выполните следующую команду из командной консоли Lync Server Management Shell или Windows PowerShell.
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -28,24 +55,32 @@ _**Дата изменения раздела:** 2016-12-08_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-Остальная часть этого раздела посвящена определению сценария, изменению сценария, получению сведений о выполняемых сценариях, удалению сценария указанию содержимого сценария для оптимизации устранения неполадок. Существует два способа выполнения команд централизованная служба ведения журнала. Вы можете использовать файл CLSController.exe, который по умолчанию расположен в каталоге C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\CLSAgent. Или же вы можете использовать Командная консоль Lync Server для выполнения команд Windows PowerShell. Важное отличие состоит в том, что при использовании CLSController.exe в командой строке выбор доступных сценариев ограничен. При использовании Windows PowerShell можно определить новые сценарии для применения в сеансах ведения журналов.
+The remainder of this topic focuses on how to define a scenario, modify a scenario, retrieve what scenarios are running, remove a scenario, and specify what a scenario contains to optimize your troubleshooting. Существует два способа вывести централизованные команды службы ведения журнала. \\По умолчанию вы можете использовать файл клсконтроллер. exe, который находится в папке C: Program Files\\, которые представляют\\собой общие файлы Microsoft\\Lync Server 2013 клсажент. Кроме того, вы можете использовать командную консоль Lync Server для выдаче команды Windows PowerShell. Важное отличие заключается в том, что при использовании Клсконтроллер. exe в командной строке имеется ограниченный выбор доступных сценариев. Если вы используете Windows PowerShell, вы можете определить новые сценарии для использования в сеансах ведения журнала.
 
-Как было описано в статье [Обзор службы централизованного ведения журналов](lync-server-2013-overview-of-the-centralized-logging-service.md), сценарий состоит из следующих элементов:
+Как было представлено в [обзоре централизованной службы ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), элементы сценария описаны ниже.
 
-  - **Поставщики**   Если вы знакомы с OCSLogger, поставщики — это компоненты, из которых модуль трассировки OCSLogger должен собирать журналы. Поставщики — это те же компоненты, а во многих случаях их имя совпадает с компонентами в OCSLogger. Если вы не знакомы с OCSLogger, поставщики — это компоненты, связанные с ролью сервера, из которых централизованная служба ведения журнала может собирать журналы. Дополнительные сведения о настройке поставщиков см. в разделе [Настройка поставщиков для службы централизованного ведения журналов](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
+  - **Поставщики**   если вы знакомы с окслогжер, поставщики — это компоненты, которые вы указываете, чтобы сообщить окслогжер о том, что механизм трассировки должен собирать журналы. Поставщики — это те же компоненты, а во многих случаях их имя совпадает с компонентами в OCSLogger. Если вы не знакомы с Окслогжер, поставщики являются компонентами, специфичными для серверной роли, из которой Служба централизованного ведения журналов может собирать журналы. Подробнее о настройке поставщиков вы узнаете в разделе [Настройка служб централизованного ведения журналов в Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
 
-  - **Идентификатор**   Параметр –Identity задает область действия и имя сценария. Например, вы можете задать глобальную область ("global") и задать для сценария идентификатор "LyssServiceScenario". Если объединить эти два параметра, вы полните параметр Identity (например, "global/LyssServiceScenario").
+  - **Identity**   параметр — Identity задает область и имя сценария. Например, вы можете задать глобальную область ("global") и задать для сценария идентификатор "LyssServiceScenario". Если объединить эти два параметра, выполните параметр Identity (например, "global/LyssServiceScenario").
     
     При необходимости можно использовать параметры –Name и –Parent. Параметр Name задается для уникальной идентификации сценария. Если используется параметр Name, необходимо также использовать параметр Parent, чтобы добавить сценарий в глобальную область или область узла.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Если используются параметры Name и Parent, вы не можете применять параметр <strong>–Identity</strong>.
+    > Если используются параметры Name и Parent, вы не можете применять параметр <STRONG>–Identity</STRONG>.
 
-## Создание сценария с помощью командлета New-CsClsScenario
+    
+    </div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+<div>
 
-2.  Чтобы создать сценарий для сеанса ведения журналов, используйте [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider) и задайте имя сценария (т. е. его уникальный идентификатор). Выберите тип формата ведения журнала в WPP (т. е. препроцессор трассировки ПО Windows, значение по умолчанию), EventLog (т. е. формат журнала событий Windows) или IISLog (т. е. формат ASCII на основе формата IIS). Затем задайте уровень (как указано в подразделе "Уровни ведения журнала" в этом разделе) и флаги (см. "Флаги" в этом разделе).
+## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Создание сценария с помощью командлета New-CsClsScenario
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+2.  Чтобы создать сценарий для сеанса ведения журналов, используйте [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) и задайте имя сценария (т. е. его уникальный идентификатор). Выберите тип формата ведения журнала в WPP (т. е. препроцессор трассировки ПО Windows, значение по умолчанию), EventLog (т. е. формат журнала событий Windows) или IISLog (т. е. формат ASCII на основе формата IIS). Затем задайте уровень (как указано в подразделе "Уровни ведения журнала" в этом разделе) и флаги (см. "Флаги" в этом разделе).
     
     Для этого примера сценария мы используем LyssProvider как пример переменной поставщика.
     
@@ -61,20 +96,34 @@ _**Дата изменения раздела:** 2016-12-08_
     
         New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
 
-## Создание сценария с несколькими поставщиками с помощью командлета New-CsClsScenario
+</div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+<div>
 
-2.  Можно использовать не больше двух сценариев для области действия. Однако число поставщиков не ограничено. В этом примере предположим, что мы создали три поставщика и хотим назначить все три из них определяемому вами сценарию. Имена переменных поставщиков: LyssProvider, ABServerProvider и SIPStackProvider. Чтобы определить и назначить несколько поставщиков сценарию, введите следующее в командной строке Командная консоль Lync Server или Windows PowerShell:
+## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>Создание сценария с несколькими поставщиками с помощью командлета New-CsClsScenario
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+2.  You are limited to two scenarios per scope. However, you are not limited to a set number of providers. In this example, assume that we have created three providers, and you want to assign all three to the scenario you are defining. The provider variable names are LyssProvider, ABServerProvider, and SIPStackProvider. Чтобы определить сценарий и назначить ему несколько поставщиков, введите следующую команду в командной консоли Lync Server Management Shell или в командную строке Windows PowerShell.
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
+    <div>
+    
+
     > [!NOTE]  
-    > Как это известно в Windows PowerShell, соглашение для создания хэш-таблицы значений с помощью <code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> называется <em>сплаттингом</em>. Дополнительные сведения о сплаттинге в Windows PowerShell см. в статье <a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x419</a>.
+    > Так как она известна в Windows PowerShell, правило создания хэш-таблицы значений <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> называется <EM>Сплаттинг</EM>. Подробные сведения о сплаттинг в Windows PowerShell можно найти <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>в разделе.
 
-## Изменение существующего сценария с помощью командлета Set-CsClsScenario
+    
+    </div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+</div>
+
+<div>
+
+## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Изменение существующего сценария с помощью командлета Set-CsClsScenario
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 2.  Можно использовать не больше двух сценариев для области действия. Вы можете изменить выполняемые сценарии в любое время даже во время сеанса ведения журналов. Если переопределить выполняемые сценарии, текущий сеанс перестанет использовать удаленный сценарий и начнет применять новый сценарий. Однако данные ведения журналов, полученные с помощью удаленного сценария, останутся в полученных журналах. Чтобы определить новый сценарий, выполните следующие действия (если уже определенный поставщик "S4Provider" уже добавлен):
     
@@ -96,9 +145,13 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
 
-## Удаление существующего сценария с помощью командлета Remove-CsClsScenario
+</div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+<div>
+
+## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Удаление существующего сценария с помощью командлета Remove-CsClsScenario
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 2.  Если вы хотите удалить сценарий, определенный ранее, введите следующую команду:
     
@@ -110,36 +163,56 @@ _**Дата изменения раздела:** 2016-12-08_
 
 Командлет **Remove-CsClsScenario** удаляет указанный сценарий, но полученные трассировки все еще доступны в журналах.
 
-## Загрузка и выгрузка командлета Edit-CsClsScenario с помощью модуля ClsController.psm1
+</div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+<div>
+
+## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>Загрузка и выгрузка командлета Edit-Ксклссценарио с помощью модуля Клсконтроллер. PSM1
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Модуль ClsController.psm1 предоставляется как отдельная веб-загрузка. Он является частью средств отладки Lync Server 2013. По умолчанию средства отладки устанавливаются в каталог C:\Program Files\Lync Server 2013\Debugging Tools.
+    > Модуль Клсконтроллер. PSM1 предоставляется в виде отдельного веб-файла для загрузки. Модуль входит в состав средств отладки Lync Server 2013. По умолчанию инструменты отладки устанавливаются в каталоге C:\Program Филес\линк Server 2013 \ Отладка.
+
+    
+    </div>
 
 2.  В Windows PowerShell введите:
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
+    <div>
+    
 
-    > [!TIP]
-    > При успешной загрузке модуля вы возвращаетесь в командную строку Windows PowerShell. Чтобы подтвердить загрузку модуля и доступность Edit-CsClsScenario, введите команду <CODE>Get-Help Edit-CsClsScenario</CODE>. Вы должны увидеть базовые сведения о синтаксисе использования EditCsClsScenario.
+    > [!TIP]  
+    > Успешная загрузка модуля возвращает вас в командную команду Windows PowerShell. Чтобы убедиться в том, что модуль загружен и что он доступен для редактирования, Ксклссценарио <CODE>Get-Help Edit-CsClsScenario</CODE>, введите. Вы должны увидеть базовые сведения о синтаксисе использования EditCsClsScenario.
 
-
+    
+    </div>
 
 3.  Чтобы выгрузить модули, введите:
     
         Remove-Module ClsController
     
+    <div>
+    
 
-    > [!TIP]
-    > При успешной выгрузке модуля вы возвращаетесь в командную строку Windows PowerShell. Чтобы подтвердить выгрузку модуля, введите <CODE>Get-Help Edit-CsClsScenario</CODE>. Windows PowerShell неудачно попытается найти справку для командлета.
+    > [!TIP]  
+    > Успешная выгрузка модуля возвращает вас в командную команду Windows PowerShell. Чтобы убедиться в том, что модуль выгружен, введите <CODE>Get-Help Edit-CsClsScenario</CODE>. Windows PowerShell попытается найти справку для командлета и не будет выполнена.
 
+    
+    </div>
 
+</div>
 
-## Удаление существующего поставщика из сценария с помощью командлета Edit-ClsController
+<div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Удаление существующего поставщика из сценария с помощью командлета Edit-ClsController
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 2.  Чтобы удалить поставщика из сценария AlwaysOn, введите:
     
@@ -155,9 +228,13 @@ _**Дата изменения раздела:** 2016-12-08_
     
     Позиционное размещение значений параметров применяется только к параметрам –Scenario и –Provider. Все другие параметры нужно определить явно.
 
-## Добавление поставщика в сценарий с помощью командлета Edit-ClsController
+</div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+<div>
+
+## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Добавление поставщика в сценарий с помощью командлета Edit-ClsController
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 2.  Чтобы добавить поставщик в сценарий AlwaysOn, введите:
     
@@ -167,9 +244,21 @@ _**Дата изменения раздела:** 2016-12-08_
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    Значением -Loglevel может быть Fatal, Error, Warning, Info, Verbose, Debug или All. Значением –Flags может быть любой из флагов, поддерживаемых поставщиком, например TF\_COMPONENT, TF\_DIAG. Для параметра –Flags также можно указать значение ALL
+    \-Логлевел может иметь тип Неустранимая, ошибка, предупреждение, сведения, подробный, отладочный или все. – Флаги могут быть любыми флагами, которые поддерживаются поставщиком, например\_TF Component,\_TF DIAG. Для параметра –Flags также можно указать значение ALL
     
     Предыдущий пример также можно ввести, используя позиционность командлета. Например, чтобы добавить поставщик ChatServer в сценарий AlwaysOn, введите:
     
         Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

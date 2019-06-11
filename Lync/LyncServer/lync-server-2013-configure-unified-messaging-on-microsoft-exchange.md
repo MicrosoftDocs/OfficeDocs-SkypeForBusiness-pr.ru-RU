@@ -1,47 +1,89 @@
-﻿---
-title: "Lync Server 2013: настр. единой сист. обм. сообщ. на серв. Microsoft Exchange"
-TOCTitle: "Lync Server 2013: настр. единой сист. обм. сообщ. на серв. Microsoft Exchange"
-ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398129(v=OCS.15)
-ms:contentKeyID: 49308839
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Unified Messaging on Microsoft Exchange
+ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398129(v=OCS.15)
+ms:contentKeyID: 48183311
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841327"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка единой системы обмена сообщениями на сервере Microsoft Exchange в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Настройка единой системы обмена сообщениями в Microsoft Exchange для Lync Server 2013
 
-В этом разделе описывается настройка обмена сообщениями Exchange на Microsoft Exchange Server для использования с корпоративной голосовой связи.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-24_
+
+В этой статье описано, как настроить единую систему обмена сообщениями Exchange (UM) на сервере Microsoft Exchange для использования с корпоративной голосовой связью.
+
+<div>
+
 
 > [!NOTE]  
-> В примерах командлетов, приведенных в этом разделе, представлен синтаксис версии Exchange 2007 командной консоли Exchange. В случае использования Exchange 2010 или Exchange 2013 см. соответствующую документацию, указанную в качестве справочной.
+> Примеры командлетов в этом разделе содержат синтаксис для версии Exchange 2007 среды Exchange Management Shell. Если вы используете Exchange 2010 или Exchange 2013, ознакомьтесь с соответствующей документацией в соответствии с указанными ссылками.
 
-## Порядок настройки сервера, на котором выполняется система Exchange Server UM
 
-1.  Создайте абонентскую группу URI (универсальный код ресурса) протокола SIP (протокол инициации сеанса) UM для каждого профиля местоположения корпоративной голосовой связи. Если выбрано использование консоли управления Exchange, создайте новую абонентскую группу с настройкой безопасности **Защищено (рекомендуется)**.
+
+</div>
+
+<div>
+
+## <a name="to-configure-a-server-running-exchange-server-um"></a>Настройка сервера, на котором работает UM-сервер Exchange
+
+1.  Создайте абонентскую группу SIP (универсального кода ресурса) для каждого из профилей местоположения вашего голоса. Если вы решили использовать консоль управления Exchange, создайте новую абонентскую группу с защищенным параметром безопасности **(предпочтительно)**.
     
+    <div>
+    
+
     > [!WARNING]  
-    > Если, как было рекомендовано ранее, задать для параметра безопасности значение <strong>С защитой SIP</strong>, чтобы сделать обязательным шифрование только SIP-трафика, то обратите внимание, что этого параметра безопасности абонентской группы недостаточно, если для пула переднего плана настроено обязательное шифрование, то есть пул требует шифрования как SIP-, так и RTP-трафика. Если параметры безопасности абонентской группы и пула несовместимы, происходит сбой всех вызовов обмена сообщениями Exchange из пула переднего плана, что приводит к появлению сообщения об ошибке &quot;Несовместимые параметры безопасности&quot;.    
-    Если используется командная консоль Exchange, введите:
+    > Если для параметра безопасности задано значение " <STRONG>SIP secures</STRONG> ", для которого требуется шифрование только за трафик SIP, как было рекомендовано, обратите внимание на то, что этот параметр безопасности для абонентской группы недостаточен, если пул переднего плана настроен таким образом, что требуется шифрование. для пула требуется шифрование на трафиках SIP и RTP. Если параметры безопасности для абонентской группы и пула несовместимы, все звонки на Exchange UM из пула переднего плана будут завершаться сбоем, что приведет к ошибке, указывающей на то, что у вас есть несовместимый параметр безопасности.
+
+    
+    </div>
+    
+    Если вы используете консоль управления Exchange, введите:
     
         New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
     
     Для получения дополнительных сведений см.:
     
-      - Для Office Communications Server 2007 см. "Создание абонентской группы URI SIP единой системы обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/?linkid=268632\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268632%26clcid=0x419) и "New-UMDialplan: справка по Exchange 2007" по адресу [http://go.microsoft.com/fwlink/?linkid=268666\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268666%26clcid=0x419).
+      - В Office Communications Server 2007 вы можете ознакомиться с разрешениями "Создание абонентской группы SIP для единой [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) системы обмена сообщениями" и "New-Умдиалплан: [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)Exchange 2007".
     
-      - Для Exchange 2010 см. "Создание абонентской группы UM" по адресу [http://go.microsoft.com/fwlink/?linkid=268674\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268674%26clcid=0x419) и "New-UMDialplan: справка по Exchange 2010" по адресу [http://go.microsoft.com/fwlink/?linkid=268680\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268680%26clcid=0x419).
+      - В [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)Exchange 2010 вы видите раздел "Создание абонентской группы единой системы [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) обмена сообщениями" на странице "New-умдиалплан: Exchange 2010".
     
-      - Для Exchange 2013 см. раздел "Единая система обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/?linkid=266579\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=266579%26clcid=0x419).
+      - Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
     
-    > [!NOTE]  
-    > Выбор уровня безопасности <strong>SIPSecured</strong> или <strong>Secured</strong> зависит от того, активирован или деактивирован безопасный протокол передачи данных в реальном времени (secure real-time transport protocol — SRTP) для шифрования носителей. Для интеграции Lync Server 2010 с Exchange UM этот уровень должен соответствовать уровню шифрования в конфигурации носителя Lync Server. Конфигурацию носителя Lync Server можно просмотреть, выполнив командлет <strong>Get-CsMediaConfiguration</strong>. Дополнительные сведения см. в разделе &quot;Get-CsMediaConfiguration&quot; документации Командная консоль Lync Server.<br />    Сведения о выборе соответствующего параметра безопасности VoIP см. в статье <a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013</a>.
+    <div>
+    
 
-2.  Выполните следующий командлет, чтобы получить полное доменное имя (FQDN) для каждой абонентской группы единой системы обмена сообщениями:
+    > [!NOTE]  
+    > Выбор уровня безопасности <STRONG>сипсекуред</STRONG> или <STRONG>Защита</STRONG> зависит от того, активирована или деактивирована ли протокол передачи данных в режиме реального времени (SRTP) для шифрования мультимедиа. Интеграция с единой системой обмена сообщениями Exchange для интеграции с Lync Server 2010 соответствует уровню шифрования в конфигурации мультимедиа Lync Server. Чтобы просмотреть конфигурацию мультимедиа Lync Server, запустите командлет <STRONG>Get-ксмедиаконфигуратион</STRONG> . Подробности можно найти в разделе Get-Ксмедиаконфигуратион в документации по среде управления Lync Server.<BR>Подробнее о том, как выбрать соответствующий параметр безопасности в службе VoIP, можно найти <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">в разделе процесс развертывания для интеграции локальной системы обработки сообщений и Lync Server 2013</A>.
+
+    
+    </div>
+
+2.  Чтобы получить полное доменное имя (FQDN) для каждой абонентской группы единой системы обмена сообщениями, выполните следующий командлет:
     
     ``` 
     (Get-UMDialPlan <dialplanname>).PhoneContext  
@@ -49,100 +91,158 @@ _**Дата изменения раздела:** 2016-12-08_
     
     Для получения дополнительных сведений см.:
     
-      - Для Exchange 2007 см. "Get-UMDialplan: справка по Exchange 2007" по адресу [http://go.microsoft.com/fwlink/?linkid=196457\&clcid268678\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=196457%26clcid268678%26clcid=0x419).
+      - Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)статье "Get-Умдиалплан: Exchange 2007".
     
-      - Для Exchange 2010 см. "Get-UMDialplan: справка по Exchange 2010" по адресу [http://go.microsoft.com/fwlink/?linkid=268679\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268679%26clcid=0x419).
+      - Дополнительные сведения об Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)статье "Get-Умдиалплан: Exchange 2010".
     
-      - Для Exchange 2013 см. раздел "Единая система обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/?linkid=266579\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=266579%26clcid=0x419).
+      - Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
 
-3.  Запишите имя каждой абонентской группы единой системы обмена сообщениями. В зависимости от версии сервера Exchange Server в дальнейшем может потребоваться использование полного доменного имени каждой абонентской группы в качестве имени соответствующей абонентской группы Lync Server единой системы обмена сообщениями, чтобы имена абонентских групп совпадали.
+3.  Запишите имя абонентской группы для каждой абонентской группы единой системы обмена сообщениями. В зависимости от используемой версии Exchange Server может потребоваться использовать полное доменное имя каждого имени абонентского плана в соответствии с именем каждой соответствующей абонентской группы Lync Server, чтобы имена абонентских групп соответствовали друг другу.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Имена абонентских групп Lync Server должны совпадать с именами абонентских групп единой системы обмена сообщениями только в том случае, если используется версия Exchange, которая <em>предшествует</em> версии Exchange 2010 с пакетом обновления 1.
+    > Имена абонентской группы Lync Server должны совпадать с именами абонентских групп UM только в том случае, если абонентская группа UM <EM></EM> работает в более ранней версии Exchange, чем Exchange 2010 с пакетом обновления 1.
 
-4.  Добавьте абонентскую группу на сервер, на котором выполняется обмена сообщениями Exchange, следующим образом:
     
-      - Если выбрано использование консоли управления Exchange, можно добавить абонентскую группу из листа свойств для сервера. Для получения конкретных инструкций см. документацию по продукту Exchange Server.
-        
-        Для Exchange 2007 см. "Добавление сервера единой системы обмена сообщениями в абонентскую группу" по адресу [http://go.microsoft.com/fwlink/?linkid=268681\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268681%26clcid=0x419).
-        
-        Для Exchange 2010 см. "Просмотр или настройка свойств сервера единой системы обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/?linkid=268682\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268682%26clcid=0x419).
-        
-        Для Exchange 2013 см. раздел "Единая система обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/?linkid=266579\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=266579%26clcid=0x419).
+    </div>
+
+4.  Добавьте абонентскую группу на сервер, на котором запущена служба Exchange UM, как описано ниже.
     
-      - Если используется командная консоль Exchange, выполните следующие действия для каждого сервера единой системы обмена сообщениями Exchange:
+      - Если вы решили использовать консоль управления Exchange, вы можете добавить абонентскую группу из страницы свойств сервера. Конкретные инструкции можно найти в документации по продукту Exchange Server.
+        
+        Сведения о том, как добавить сервер единой системы обмена сообщениями в абонентскую группу Exchange 2007 [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681), можно найти по адресу ".
+        
+        Для Exchange 2010 вы увидите в [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682)разделе "Просмотр или Настройка свойств сервера UM".
+        
+        Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
+    
+      - Если вы используете командную консоль Exchange, выполните указанные ниже действия для каждого из серверов Exchange UM.
         
             $ums=get-umserver; 
             $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
             $ums[0].DialPlans +=$dp.Identity; 
-            set-umserver -instance $ums[0]
+            set-umservice -instance $ums[0]
     
-    > [!NOTE]  
-    > Прежде чем выполнить следующее действие, убедитесь, что у всех пользователей корпоративной голосовой связи настроен почтовый ящик Exchange Server.<br />    Для Exchange 2007 см. библиотеку TechNet Exchange Server 2007 по адресу <a href="http://go.microsoft.com/fwlink/?linkid=268685%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=268685&amp;clcid=0x419</a>.<br />    Для Exchange 2010 см. библиотеку TechNet Exchange Server 2010 по адресу <a href="http://go.microsoft.com/fwlink/?linkid=268686%26clcid=0x419" class="uri">http://go.microsoft.com/fwlink/?linkid=268686&amp;clcid=0x419</a>.<br />    При задании политики почтовых ящиков для каждой абонентской группы, созданной на этапе 1, выберите либо политику по умолчанию, либо политику, созданную вами.
+    <div>
+    
 
-5.  Перейдите в каталог \<*Каталог установки Exchange*\>\\Scripts, а затем, если развертывание Exchange осуществляется в одном лесу, введите:
+    > [!NOTE]  
+    > Перед выполнением следующего действия Убедитесь в том, что все пользователи организации голосовой связи настроены с помощью почтового ящика Exchange Server.<BR>Сведения об Exchange 2007 можно найти в библиотеке TechNet на сайте Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>Server 2007.<BR>Сведения об Exchange 2010 можно найти в библиотеке TechNet на сайте Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>Server 2010.<BR>При указании политики почтовых ящиков для каждой абонентской группы, созданной в действии 1, выберите либо политику по умолчанию, либо ее созданную.
+
+    
+    </div>
+
+5.  Перейдите к \<разделу\>\\сценарии установки Exchange, а затем, если Exchange развернут в одном лесе, введите:
     
         exchucutil.ps1
     
-    Или, если развертывание Exchange, осуществляется в нескольких лесах, введите:
+    Если Exchange развернут в нескольких лесах, введите:
     
         exchucutil.ps1 -Forest:"<forest FQDN>"
     
-    где *forest FQDN* — это лес, в котором осуществляется развертывание Lync Server.
+    где полное доменное имя леса определяет лес, в котором развернут Lync Server.
     
-    При наличии одной или нескольких абонентских групп единой системы обмена сообщениями, связанных с несколькими шлюзами IP, перейдите к шагу 6. Если каждая абонентская группа связана только с одним шлюзом IP, пропустите шаг 6.
+    Если у вас есть одна или несколько абонентских групп UM, которые связаны с несколькими IP-шлюзами, перейдите к действию 6. Если абонентские группы связаны только с одним IP-шлюзом, пропустите шаг 6.
     
-    > [!IMPORTANT]  
-    > Обязательно перезапустите службу <strong>Lync Server Front-End</strong> (rtcsrv.exe) <em>после</em> выполнения exchucutil.ps1. В противном случае Lync Server не определит единую систему обмена сообщениями в топологии.
+    <div>
+    
 
-6.  С помощью командной консоли Exchange или консоли управления Exchange заблокируйте исходящие вызовы для всех шлюзов IP, связанных с каждой абонентской группой, кроме одного.
-    
-    > [!NOTE]  
-    > Этот шаг необходим для того, чтобы обеспечить беспроблемное прохождение через корпоративный брандмауэр исходящих вызовов внешних пользователей со стороны сервера под управлением Exchange Server Unified Messaging (например, как в случае воспроизведения на телефоне).    
     > [!IMPORTANT]  
-    > При выборе шлюза IP единой системы обмена сообщениями, посредством которого могут осуществляться исходящие вызовы, выберите тот, который, вероятнее всего, сможет обрабатывать больший объем трафика. Не разрешайте исходящий трафик через шлюз IP, который подключается к пулу директоров Lync Server. Также избегайте пулов в другом центральном сайте или сайте филиала. Можно использовать один из следующих методов запрета прохождения исходящих вызовов через шлюз IP:    
-      - Если используется командная консоль Exchange, заблокируйте каждый шлюз IP, выполнив следующую команду:
+    > <EM>После</EM> запуска ексчукутил. ps1 убедитесь в том, что вы перезапустите службу <STRONG>внешнего сервера Lync Server</STRONG> (ртксрв. exe). В противном случае Lync Server не будет определять единую систему обмена сообщениями в топологии.
+
+    
+    </div>
+
+6.  Используя среду управления Exchange или консоль управления Exchange, отключите исходящие вызовы для всех IP-шлюзов, связанных с каждой из ваших абонентских планов.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Этот этап необходим для того, чтобы убедиться в том, что исходящие вызовы на сервере, на котором работает единая система обмена сообщениями Exchange, (например, как в случае с сценариями воспроизведения на телефоне) надежно просматривают корпоративный брандмауэр.
+
+    
+    </div>
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > При выборе IP-шлюза UM, через который разрешены исходящие вызовы, выберите тот, который скорее всего будет обрабатывать весь трафик. Не разрешать исходящий трафик через шлюз IP, который подключается к группе режиссеров Lync Server. Также Избегайте пулов на другом центральном сайте или сайте ветви. Для блокирования исходящих звонков через шлюз IP можно использовать один из указанных ниже способов.
+
+    
+    </div>
+    
+      - Если вы используете консоль управления Exchange, отключите каждый шлюз IP, выполнив следующую команду:
         
             Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         
-        Для Exchange 2007 см. "Set-UMIPGateway: справка по Exchange 2007" (Set-UMIPGateway: справка по Exchange 2007) по адресу [http://go.microsoft.com/fwlink/?linkid=268687\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268687%26clcid=0x419).
+        Инструкции для Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)разделе "Set-Умипгатевай: Exchange 2007 Help".
         
-        Для Exchange 2010 см. "Set-UMIPGateway: справка по Exchange 2010" по адресу [http://go.microsoft.com/fwlink/?linkid=268688\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268688%26clcid=0x419).
+        Инструкции для Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)разделе "Set-Умипгатевай: Exchange 2010 Help".
     
-      - При использовании консоли управления Exchange снимите флажок **Разрешить исходящие вызовы через шлюз IP**.
+      - Если вы используете консоль управления Exchange, снимите флажок **Разрешить исходящие вызовы через этот IP-шлюз** .
     
-    > [!IMPORTANT]  
-    > Если абонентская группа URI SIP UM связана только с одним шлюзом IP, не запрещайте исходящие вызовы через этот шлюз.
+    <div>
+    
 
-7.  Создайте автосекретаря единой системы обмена сообщениями для каждой абонентской группы Lync Server.
-    
     > [!IMPORTANT]  
-    > Имя автосекретаря не должно содержать пробелов.    
+    > Если абонентская группа SIP для обмена сообщениями с URI связана только с одним IP-шлюзом, не запретите исходящие вызовы через этот шлюз.
+
     
-    ```
-    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    ```
+    </div>
+
+7.  Создание автосекретаря UM для каждой абонентской группы Lync Server.
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > Не включайте пробелы в имя автосекретаря.
+
+    
+    </div>
+    
+        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
     
     Для получения дополнительных сведений см.:
     
-      - Для Exchange 2007 см. "New-UMAutoAttendant: справка по Exchange 2007" по адресу [http://go.microsoft.com/fwlink/?linkid=268689\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268689%26clcid=0x419).
+      - Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)статье "New-Умаутоаттендант: Exchange 2007".
     
-      - Для Exchange 2010 см. "New-UMAutoAttendant: справка по Exchange 2010" по адресу [http://go.microsoft.com/fwlink/?linkid=268690\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268690%26clcid=0x419).
+      - Дополнительные сведения об Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)статье "New-Умаутоаттендант: Exchange 2010".
     
-    Следующее действие следует выполнять для каждого пользователя после того, как включено использование корпоративной голосовой связи для пользователей Lync Server и стали известны их SIP-адреса.
+    Необходимо выполнить описанные ниже действия для каждого пользователя, если вы включили пользователей Lync Server для корпоративного голосовой связи и знаете их URI SIP.
 
-8.  Свяжите пользователей единой системы обмена сообщениями Exchange (для каждого из которых должен быть настроен почтовый ящик Exchange) с абонентской группой единой системы обмена сообщениями и создайте URI SIP для каждого пользователя.
+8.  Свяжите пользователей Exchange UM (каждый из которых должен быть настроен с помощью почтового ящика Exchange) с абонентской группой UM и создайте универсальный код ресурса (URI) SIP для каждого пользователя.
     
+    <div>
+    
+
     > [!NOTE]  
-    > В качестве <strong>SIPResourceIdentifier</strong> в следующем примере должен использоваться адрес SIP пользователя Lync Server.    
-    
-    ```
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    ```
+    > <STRONG>Сипресаурцеидентифиер</STRONG> в следующем примере должен быть адресом SIP пользователя Lync Server.
 
+    
+    </div>
+    
+        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    
     Для получения дополнительных сведений см.:
     
-      - Для Exchange 2007 см. "Enable-UMMailbox: справка по Exchange 2007" по адресу [http://go.microsoft.com/fwlink/?linkid=268691\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268691%26clcid=0x419).
+      - Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)статье "Enable-Уммаилбокс: Exchange 2007 Help".
     
-      - Для Exchange 2010 см. "Enable-UMMailbox: справка по Exchange 2010" по адресу [http://go.microsoft.com/fwlink/?linkid=268692\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268692%26clcid=0x419).
+      - Дополнительные сведения об Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)статье "Enable-Уммаилбокс: Exchange 2010 Help".
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
