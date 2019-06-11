@@ -1,87 +1,117 @@
-﻿---
-title: "Lync Server 2013: настр. политики кач. обслуж. для погран. серв. аудио- и видеосвязи"
-TOCTitle: "Lync Server 2013: настр. политики кач. обслуж. для погран. серв. аудио- и видеосвязи"
-ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204681(v=OCS.15)
-ms:contentKeyID: 49308984
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Настройка политики качества обслуживания для пограничного сервера/V Edge
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring a Quality of Service policy for your A/V Edge Servers
+ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204681(v=OCS.15)
+ms:contentKeyID: 48183444
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 58f5bfabfe794ed274d28074aaf162bc715a6ed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841309"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка политики качества обслуживания для пограничных серверов аудио- и видеосвязи
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a><span data-ttu-id="64933-102">Настройка политики качества обслуживания для пограничного сервера/V в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64933-102">Configuring a Quality of Service policy for your A/V Edge Servers in Lync Server 2013</span></span>
 
-Помимо создания политик QoS для серверов конференций, приложений и серверов-посредников, также необходимо создать политики для аудио и видео для внутренней стороны пограничных серверов аудио- и видеоданных. Тем не менее, политики, используемые на пограничных серверах, отличаются от политик, используемых на серверах конференций, приложений и серверах-посредниках. Для серверов конференций, приложений и посредников вы указывали исходный диапазон портов. Для пограничных серверов необходимо указать конечный диапазон портов. Из-за этого нельзя просто применить политики QoS серверов конференций, приложений и серверах-посредников к пограничным серверам: эти политики просто не будут работать. Вместо этого нужно создать новые политики и применить их только к пограничным серверам.
+</div>
 
-В приведенной ниже процедуре описан процесс создания объектов групповой политики Active Directory, которые могут использоваться для управления качеством обслуживания на пограничных серверах. Конечно, возможно, что ваши пограничные серверы являются автономными серверами без учетных записей Active Directory. В этом случае можно использовать локальную групповую политику вместо групповой политики Active Directory: единственное различие состоит в том, что необходимо создать эти локальные политики с помощью редактора локальной групповой политики, и нужно отдельно создавать один и тот же набор политик на каждом пограничном сервере. Чтобы запустить редактор локальной групповой политики на пограничном сервере, выполните следующие действия:
+<div id="mainSection">
 
-1.  В меню **Пуске** щелкните **Выполнить**.
+<div id="mainBody">
 
-2.  В диалоговом окне **Выполнить** введите **gpedit.msc** и нажмите клавишу ВВОД.
+<span> </span>
 
-Если вы создаете политику на основе Active Directory, войдите на компьютер, где установлен компонент управления групповой политикой. Откройте управление групповыми политиками (нажмите кнопку **Пуске**, выберите **Администрирование**, а затем щелкните **Управление групповой политикой**) и выполните следующие действия:
+<span data-ttu-id="64933-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="64933-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-1.  В консоли управления групповой политики найдите контейнер, в котором необходимо создать политику. Например, если все компьютеры Lync Server находятся в подразделении с именем Lync Server, то новую политику следует создать в подразделении Lync Server.
+<span data-ttu-id="64933-104">Кроме того, чтобы создавать политики QoS для конференций, приложений и серверов исправлений, вам также необходимо создать как голосовые, так и видеополитики для внутренней стороны пограничных серверов A/V.</span><span class="sxs-lookup"><span data-stu-id="64933-104">In addition to creating QoS policies for your Conferencing, Application, and Mediation servers, you must also create both audio and video policies for the internal side of your A/V Edge servers.</span></span> <span data-ttu-id="64933-105">Тем не менее политики, используемые на пограничных серверах, отличаются от политик, используемых на серверах конференц-связи, приложений и исправлений.</span><span class="sxs-lookup"><span data-stu-id="64933-105">However, the policies used on your Edge servers are different from the policies used on your Conferencing, Application, and Mediation servers.</span></span> <span data-ttu-id="64933-106">Для серверов конференций, приложений и исправлений вы указали диапазон портов источника; При использовании пограничных серверов необходимо указать диапазон портов назначения.</span><span class="sxs-lookup"><span data-stu-id="64933-106">For the Conferencing, Application, and Mediation servers you specified a source port range; with Edge servers, you need to specify a destination port range.</span></span> <span data-ttu-id="64933-107">Из-за того, что вы не можете просто применить политики качества обслуживания для конференц-связи, приложений и сервера исправлений на пограничные серверы: эти политики просто не работают.</span><span class="sxs-lookup"><span data-stu-id="64933-107">Because of that you cannot simply apply the Conferencing, Application, and Mediation server QoS policies to your Edge servers: these policies simply won't work.</span></span> <span data-ttu-id="64933-108">Вместо этого необходимо создать новые политики и применить эти политики только к пограничным серверам.</span><span class="sxs-lookup"><span data-stu-id="64933-108">Instead, you must create new policies and apply those policies to your Edge servers only.</span></span>
 
-2.  Щелкните правой кнопкой мыши соответствующий контейнер, а затем выберите команду **Создать объект GPO в этом домене и связать его**.
+<span data-ttu-id="64933-109">Ниже описаны действия, которые необходимо выполнить для создания объектов групповой политики Active Directory, которые можно использовать для управления качеством обслуживания на пограничных серверах.</span><span class="sxs-lookup"><span data-stu-id="64933-109">The following procedure describes the process for creating Active Directory Group Policy objects that can be used to manage Quality of Service on Edge Servers.</span></span> <span data-ttu-id="64933-110">Разумеется, возможно, что пограничные серверы — это изолированные серверы, у которых нет учетных записей Active Directory.</span><span class="sxs-lookup"><span data-stu-id="64933-110">Of course, it's possible that your Edge servers are stand-alone servers that do not have Active Directory accounts.</span></span> <span data-ttu-id="64933-111">В этом случае вы можете использовать локальную групповую политику вместо групповой политики Active Directory: Единственная разница заключается в том, что вы должны создавать эти локальные политики с помощью редактора локальных групповых политик и отдельно создавать одинаковый набор политик на каждом пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="64933-111">If that's the case, you can use local Group Policy instead of Active Directory Group Policy: the only difference is that you must create these local policies using the Local Group Policy Editor, and must individually create the same set of policies on each Edge Server.</span></span> <span data-ttu-id="64933-112">Чтобы запустить редактор локальной групповой политики на пограничном сервере, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="64933-112">To start the Local Group Policy Editor on an Edge server do the following:</span></span>
 
-3.  В диалоговом окне **Создание GPO** введите имя нового объекта групповой политики в поле **Имя** (например, **Аудио Lync Server**) и нажмите кнопку **ОК**.
+1.  <span data-ttu-id="64933-113">Нажмите кнопку **Пуск** и выберите команду **выполнить**.</span><span class="sxs-lookup"><span data-stu-id="64933-113">Click **Start** and then click **Run**.</span></span>
 
-4.  Щелкните правой кнопкой мыши созданную политику и выберите команду **Правка**.
+2.  <span data-ttu-id="64933-114">В диалоговом окне **выполнить** введите **gpedit. msc** и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="64933-114">In the **Run** dialog box, type **gpedit.msc** and then press ENTER.</span></span>
 
-С этого момента процесс одинаков независимо от того, создаете ли вы политику Active Directory или локальную политику:
+<span data-ttu-id="64933-115">Если вы создаете политики на основе Active Directory, вы должны войти на компьютер, на котором установлен компонент управления групповыми политиками.</span><span class="sxs-lookup"><span data-stu-id="64933-115">If you are creating Active Directory-based policies, then you should log on to a computer where Group Policy Management has been installed.</span></span> <span data-ttu-id="64933-116">В этом случае откройте управление групповыми политиками (нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — **Управление групповой политикой**) и выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="64933-116">In that case, open Group Policy Management (click **Start**, point to **Administrative Tools**, and then click **Group Policy Management**) and then complete the following steps:</span></span>
 
-1.  В редакторе управления групповой политикой или редакторе локальной групповой политики последовательно разверните узлы **Конфигурация компьютера**, **Политики**, **Параметры Windows**, щелкните правой кнопкой мыши **QoS на основе политики**, а затем щелкните **Создать новую политику**.
+1.  <span data-ttu-id="64933-117">В разделе Управление групповой политикой найдите контейнер, в котором нужно создать новую политику.</span><span class="sxs-lookup"><span data-stu-id="64933-117">In Group Policy Management, locate the container where the new policy should be created.</span></span> <span data-ttu-id="64933-118">Например, если все компьютеры Lync Server находятся в подразделении с именем Lync Server, новую политику следует создать в OU сервера Lync Server.</span><span class="sxs-lookup"><span data-stu-id="64933-118">For example, if all your Lync Server computers are located in an OU named Lync Server then the new policy should be created in the Lync Server OU.</span></span>
 
-2.  На первой странице в диалоговом окне **QoS на основе политики** введите имя новой политики (например, **Аудио Lync Server**) в поле **Имя**. Выберите **Указать значение DSCP** и введите значение **46**. Не устанавливайте флажок **Укажите частоту передачи** и нажмите **Далее**.
+2.  <span data-ttu-id="64933-119">Щелкните правой кнопкой мыши соответствующий контейнер и выберите команду **создать объект групповой политики в этом домене и свяжите его**.</span><span class="sxs-lookup"><span data-stu-id="64933-119">Right-click the appropriate container and then click **Create a GPO in this domain, and Link it here**.</span></span>
 
-3.  На следующей странице убедитесь, что выбран параметр **Все приложения** и нажмите кнопку **Далее**. Этот параметр дает указание сети искать все пакеты со значением DSCP 46, а не только пакеты, созданные определенным приложением.
+3.  <span data-ttu-id="64933-120">В диалоговом окне **создание GPO** введите имя нового объекта групповой политики в поле **имя** (например, **Lync Server Audio**) и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="64933-120">In the **New GPO** dialog box, type a name for the new Group Policy object in the **Name** box (for example, **Lync Server Audio**) and then click **OK**.</span></span>
 
-4.  На третьей странице убедитесь, что выбраны оба параметра **Любой исходный IP-адрес** и **Любой конечный IP-адрес**, и нажмите кнопку **Далее**. Эти два параметра используются, чтобы гарантировать, что пакеты будут управляться независимо от того, какой компьютер (IP-адрес) отправил их и какой компьютер (IP-адрес) получит эти пакеты.
+4.  <span data-ttu-id="64933-121">Щелкните созданную политику правой кнопкой мыши и выберите команду **изменить**.</span><span class="sxs-lookup"><span data-stu-id="64933-121">Right-click the newly-created policy and then click **Edit**.</span></span>
 
-5.  На четвертой странице выберите **TCP и UDP** в раскрывающемся списке **Выберите протокол, к которому применяется политика QoS**. TCP (Transmission Control Protocol) и UDP (User Datagram Protocol) — это два сетевых протокола, которые чаще всего используются Lync Server и клиентскими приложениями.
+<span data-ttu-id="64933-122">Здесь процесс идентичен, независимо от того, создается ли вы политика Active Directory или локальная политика.</span><span class="sxs-lookup"><span data-stu-id="64933-122">From here the process is identical regardless of whether you are creating an Active Directory policy or a local policy:</span></span>
 
-6.  Под заголовком **Укажите номер порта назначения** выберите **От этого порта или диапазона назначения**. В соответствующем текстовом поле введите диапазон портов, зарезервированный для передачи аудиоданных. Например, если вы зарезервировали порты 49152-57500 для аудиотрафика, введите этот диапазон в следующем формате: **49152:57500**. Нажмите кнопку **Готово**.
+1.  <span data-ttu-id="64933-123">В редакторе управления групповыми политиками или в редакторе локальных групповых политик разверните раздел **Конфигурация компьютера**, затем — **политики**, разверните раздел **Параметры Windows**, щелкните правой кнопкой мыши службу **QoS на основе политики**, а затем выберите команду **создать новую политику**.</span><span class="sxs-lookup"><span data-stu-id="64933-123">In the Group Policy Management Editor or the Local Group Policy Editor, expand **Computer Configuration**, expand **Policies**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**.</span></span>
 
-После создания политики QoS для аудиотрафика следует создать вторую политику для видеотрафика. Для этого выполните ту же основную процедуру, которой вы следовали при создании политики для аудио, внеся следующие изменения.
+2.  <span data-ttu-id="64933-124">В диалоговом окне **QoS на основе политики** на первой странице в поле **имя** введите имя новой политики (например, **Lync Server Audio**).</span><span class="sxs-lookup"><span data-stu-id="64933-124">In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy (e.g., **Lync Server Audio**) in the **Name** box.</span></span> <span data-ttu-id="64933-125">Выберите **задать значение DSCP** и задайте значение **46**.</span><span class="sxs-lookup"><span data-stu-id="64933-125">Select **Specify DSCP Value** and set the value to **46**.</span></span> <span data-ttu-id="64933-126">Оставьте параметр **задать частоту исходящих подключений** невыбранным и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="64933-126">Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.</span></span>
 
-  - Используйте другое (уникальное) имя политики (например, **Видео Lync Server**).
+3.  <span data-ttu-id="64933-127">На следующей странице убедитесь, что выбраны **все приложения** , а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="64933-127">On the next page, make sure that **All applications** is selected and then click **Next**.</span></span> <span data-ttu-id="64933-128">Этот параметр предписывает сети искать все пакеты с разметкой DSCP для 46, а не только пакеты, созданные определенным приложением.</span><span class="sxs-lookup"><span data-stu-id="64933-128">This setting instructs the network to look for all packets with a DSCP marking of 46, not just packets created by a specific application.</span></span>
 
-  - Установите значение DSCP равным **34** вместо 46. (Обратите внимание, что нет необходимости в использовании значения DSCP, равного 34. Единственно требование состоит в том, что для видео необходимо использовать значение DSCP, отличное от значения DSCP для аудио.)
+4.  <span data-ttu-id="64933-129">На третьей странице убедитесь, что выбраны оба **IP-адреса источника** и **конечный IP-адрес** , а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="64933-129">On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected and then click **Next**.</span></span> <span data-ttu-id="64933-130">Эти два параметра гарантируют, что пакеты будут управляться независимо от того, на каком компьютере (IP-адрес) отправили эти пакеты, и какой компьютер (IP-адрес) будет получать эти пакеты.</span><span class="sxs-lookup"><span data-stu-id="64933-130">These two settings ensure that packets will be managed regardless of which computer (IP address) sent those packets and which computer (IP address) will receive those packets.</span></span>
 
-  - Используйте ранее настроенный диапазон портов для видеотрафика. Например, если вы зарезервировали порты 57501-65535 для видео, то установите следующий диапазон портов: **57501:65535**. Опять же, этот диапазон нужно настроить как диапазона портов назначения.
+5.  <span data-ttu-id="64933-131">На четвертой странице в раскрывающемся списке выберите протокол **TCP и UDP** , который будет **применяться этой политикой QoS** .</span><span class="sxs-lookup"><span data-stu-id="64933-131">On page four, select **TCP and UDP** from the **Select the protocol this QoS policy applies to** dropdown list.</span></span> <span data-ttu-id="64933-132">Протокол TCP и протокол UDP (User Datagram Protocol) — это два сетевых протокола, которые чаще всего используются в Lync Server и клиентских приложениях.</span><span class="sxs-lookup"><span data-stu-id="64933-132">TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most-commonly used by Lync Server and its client applications.</span></span>
 
-Если вы решите создать политику для управления трафиком совместного использования приложений, необходимо создать третью политику, внеся следующие изменения.
+6.  <span data-ttu-id="64933-133">В разделе заголовков **укажите номер порта назначения**, выберите один **из конечных портов или диапазонов**.</span><span class="sxs-lookup"><span data-stu-id="64933-133">Under the heading **Specify the destination port number**, select **From this destination port or range**.</span></span> <span data-ttu-id="64933-134">В сопроводительном текстовом поле введите диапазон портов, зарезервированный для передачи звука.</span><span class="sxs-lookup"><span data-stu-id="64933-134">In the accompanying text box, type the port range reserved for audio transmissions.</span></span> <span data-ttu-id="64933-135">Например, если вы зарезервированы порты 49152 – порты 57500 для звукового трафика, введите диапазон портов в следующем формате: **49152:57500**.</span><span class="sxs-lookup"><span data-stu-id="64933-135">For example, if you reserved ports 49152 through ports 57500 for audio traffic then enter the port range using this format: **49152:57500**.</span></span> <span data-ttu-id="64933-136">Нажмите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="64933-136">Click **Finish**.</span></span>
 
-  - Используйте другое (уникальное) имя политики (например, **Совместное использование приложений Lync Server**).
+<span data-ttu-id="64933-137">После создания политики QoS для звукового трафика вы должны создать вторую политику для видеосеанса.</span><span class="sxs-lookup"><span data-stu-id="64933-137">After you have created the QoS policy for audio traffic you should create a second policy for video traffic.</span></span> <span data-ttu-id="64933-138">Чтобы создать политику для видео, выполните те же действия, что и при создании политики звука, заменив указанные ниже.</span><span class="sxs-lookup"><span data-stu-id="64933-138">To create a policy for video, follow the same basic procedure you followed when creating the audio policy, making these substitutions:</span></span>
 
-  - Установите значение DSCP равным **24** вместо 46. (Повторимся, что нет необходимости в использовании значения DSCP, равного 24. Единственное требование состоит в том, что значение DSCP, используемое для общего доступа к приложениям, должно отличаться от значений DSCP, используемых для аудио и видео.)
+  - <span data-ttu-id="64933-139">Используйте другое (и уникальное) имя политики (например, **Lync Server Video**).</span><span class="sxs-lookup"><span data-stu-id="64933-139">Use a different (and unique) policy name (for example, **Lync Server Video**).</span></span>
 
-  - Используйте ранее настроенный диапазон портов для видеотрафика. Например, если вы зарезервировали порты 40803-49151 для совместного использования приложений, то установите следующий диапазон портов: **40803:49151**.
+  - <span data-ttu-id="64933-140">Задайте для параметра DSCP значение **34** вместо 46.</span><span class="sxs-lookup"><span data-stu-id="64933-140">Set the DSCP value to **34** instead of 46.</span></span> <span data-ttu-id="64933-141">(Обратите внимание, что вам не нужно использовать значение DSCP для 34.</span><span class="sxs-lookup"><span data-stu-id="64933-141">(Note that you do not have to use a DSCP value of 34.</span></span> <span data-ttu-id="64933-142">Единственным требованием является использование другого значения DSCP для видео, чем вы использовали для звука.</span><span class="sxs-lookup"><span data-stu-id="64933-142">The only requirement is that you use a different DSCP value for video than you used for audio.)</span></span>
 
-Созданные политики не вступят в силу до обновления групповой политики на пограничных серверах. Хотя групповая политика периодически обновляется самостоятельно, вы можете обновить ее принудительно, выполнив следующую команду на каждом компьютере, на котором требуется обновить групповую политику:
+  - <span data-ttu-id="64933-143">Используйте ранее настроенный диапазон портов для видеопотока.</span><span class="sxs-lookup"><span data-stu-id="64933-143">Use the previously-configured port range for video traffic.</span></span> <span data-ttu-id="64933-144">Например, если у вас есть резервированные порты 57501 – 65535 для видео, задайте диапазон портов следующим образом: **57501:65535**.</span><span class="sxs-lookup"><span data-stu-id="64933-144">For example, if you have reserved ports 57501 through 65535 for video, then set the port range to this: **57501:65535**.</span></span> <span data-ttu-id="64933-145">Опять же, это значение должно быть задано в качестве диапазона портов назначения.</span><span class="sxs-lookup"><span data-stu-id="64933-145">Again, this should be configured as the destination port range.</span></span>
+
+<span data-ttu-id="64933-146">Если вы решили создать политику для управления трафиком общего доступа к приложениям, вы должны создать третью политику, заменив указанные ниже.</span><span class="sxs-lookup"><span data-stu-id="64933-146">If you decide to create a policy for managing application sharing traffic you must create a third policy, making the following substitutions:</span></span>
+
+  - <span data-ttu-id="64933-147">Используйте другое (и уникальное) имя политики (например, **общий доступ к приложениям Lync Server**).</span><span class="sxs-lookup"><span data-stu-id="64933-147">Use a different (and unique) policy name (for example, **Lync Server Application Sharing**).</span></span>
+
+  - <span data-ttu-id="64933-148">Задайте для параметра DSCP значение **24** , а не 46.</span><span class="sxs-lookup"><span data-stu-id="64933-148">Set the DSCP value to **24** instead of 46.</span></span> <span data-ttu-id="64933-149">(Опять же, вам не нужно использовать значение DSCP, равное 24.</span><span class="sxs-lookup"><span data-stu-id="64933-149">(Again, you do not have to use a DSCP value of 24.</span></span> <span data-ttu-id="64933-150">Единственным требованием является использование другого значения DSCP для общего пользования приложениями, чем при использовании звука или видео.)</span><span class="sxs-lookup"><span data-stu-id="64933-150">The only requirement is that you use a different DSCP value for application sharing than you used for audio or for video.)</span></span>
+
+  - <span data-ttu-id="64933-151">Используйте ранее настроенный диапазон портов для видеопотока.</span><span class="sxs-lookup"><span data-stu-id="64933-151">Use the previously-configured port range for video traffic.</span></span> <span data-ttu-id="64933-152">Например, если у вас есть резервированные порты 40803 – 49151 для совместного использования приложений, задайте диапазон портов следующим образом: **40803:49151**.</span><span class="sxs-lookup"><span data-stu-id="64933-152">For example, if you have reserved ports 40803 through 49151 for application sharing, then set the port range to this: **40803:49151**.</span></span>
+
+<span data-ttu-id="64933-153">Новые политики, созданные вами, вступят в силу только после обновления групповой политики на серверах пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="64933-153">The new policies you have created will not take effect until Group Policy has been refreshed on your Edge servers.</span></span> <span data-ttu-id="64933-154">Хотя групповая политика периодически обновляется сама, вы можете обновить ее принудительно, запустив на каждом нужном компьютере следующую команду.</span><span class="sxs-lookup"><span data-stu-id="64933-154">Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:</span></span>
 
     Gpudate.exe /force
 
-Эту команду можно выполнить в Lync Server или в любой командной строке с учетными данными администратора. Для запуска окна командной строки с учетными данными администратора нажмите кнопку **Пуск**, щелкните правой кнопкой **Командная строка**, а затем выберите **Запуск от имени администратора**. Учтите, что вам может потребоваться перезапустить пограничный сервер после выполнения Gpudate.exe.
+<span data-ttu-id="64933-155">Эту команду можно выполнить из Lync Server или из окна команд, которое запущено с учетными данными администратора.</span><span class="sxs-lookup"><span data-stu-id="64933-155">This command can be run from within the Lync Server or from any command window that is running under administrator credentials.</span></span> <span data-ttu-id="64933-156">Чтобы открыть такое окно с правами администратора, в меню **Пуск** правой кнопкой мыши щелкните **Командная строка** и выберите пункт **Запуск от имени администратора**.</span><span class="sxs-lookup"><span data-stu-id="64933-156">To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span> <span data-ttu-id="64933-157">Обратите внимание, что при запуске Гпудате. exe может потребоваться перезапуск пограничного сервера.</span><span class="sxs-lookup"><span data-stu-id="64933-157">Note that you might need to restart the Edge server even after running Gpudate.exe.</span></span>
 
-Чтобы обеспечить отметку сетевых пакетов соответствующим значением DSCP, необходимо также создать новый раздел реестра, выполнив следующую процедуру:
+<span data-ttu-id="64933-158">Чтобы убедиться в том, что сетевые пакеты помечены с использованием соответствующего значения DSCP, необходимо также создать новый параметр реестра на каждом компьютере, выполнив описанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="64933-158">To help ensure that network packets are marked with the appropriate DSCP value, you should also create a new registry entry on each computer by completing the following procedure:</span></span>
 
-1.  Щелкните **Пуск**, затем **Выполнить**.
+1.  <span data-ttu-id="64933-159">Нажмите кнопку **Пуск** и выберите команду **выполнить**.</span><span class="sxs-lookup"><span data-stu-id="64933-159">Click **Start** and then click **Run**.</span></span>
 
-2.  В диалоговом окне **Выполнить** введите **regedit**, затем нажмите ВВОД.
+2.  <span data-ttu-id="64933-160">В диалоговом окне " **выполнить** " \*\*\*\* введите regedit и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="64933-160">In the **Run** dialog box, type **regedit** and then press ENTER.</span></span>
 
-3.  В редакторе реестра разверните **HKEY\_LOCAL\_MACHINE**, затем **SYSTEM**, разверните **CurrentControlSet**, затем **services**, затем **Tcpip**.
+3.  <span data-ttu-id="64933-161">В редакторе реестра разверните раздел **\_hKey локальный\_компьютер**, разверните раздел **система**, разверните **куррентконтролсет**, затем — **службы**, а затем — значок **tcpip**.</span><span class="sxs-lookup"><span data-stu-id="64933-161">In the Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **SYSTEM**, expand **CurrentControlSet**, expand **services**, and then expand **Tcpip**.</span></span>
 
-4.  Щелкните правой кнопкой пункт **Tcpip**, выберите **Создать**, затем щелкните **Раздел**. После создания нового раздела реестра введите **QoS** и нажмите клавишу ВВОД, чтобы переименовать раздел.
+4.  <span data-ttu-id="64933-162">Щелкните правой кнопкой мыши **tcpip**, наведите указатель на пункт **создать**и выберите **клавишу**.</span><span class="sxs-lookup"><span data-stu-id="64933-162">Right-click **Tcpip**, point to **New**, and then click **Key**.</span></span> <span data-ttu-id="64933-163">После создания нового раздела реестра введите **QoS** и нажмите клавишу ВВОД, чтобы переименовать раздел.</span><span class="sxs-lookup"><span data-stu-id="64933-163">After the new registry key is created, type **QoS** and then press ENTER to rename the key.</span></span>
 
-5.  Щелкните правой кнопкой мыши **QoS**, выберите пункт **Создать**, затем щелкните **Строковый параметр**. После создания нового параметра реестра введите **Do not use NLA** и нажмите клавишу ВВОД для переименования значения.
+5.  <span data-ttu-id="64933-164">Щелкните правой кнопкой мыши **QoS**, наведите указатель на пункт **создать**и выберите **строковое значение**.</span><span class="sxs-lookup"><span data-stu-id="64933-164">Right-click **QoS**, point to **New**, and then click **String Value**.</span></span> <span data-ttu-id="64933-165">После создания нового значения реестра введите команду не **использовать NLA** и нажмите клавишу ВВОД, чтобы переименовать значение.</span><span class="sxs-lookup"><span data-stu-id="64933-165">After the new registry value is created, type **Do not use NLA** and then press ENTER to rename the value.</span></span>
 
-6.  Дважды щелкните **Do no use NLA**. В диалоговом окне **Изменение строкового параметра** введите **1** в поле **Значение**, затем нажмите кнопку **ОК**.
+6.  <span data-ttu-id="64933-166">Дважды щелкните пункт **не использовать NLA**.</span><span class="sxs-lookup"><span data-stu-id="64933-166">Double-click **Do no use NLA**.</span></span> <span data-ttu-id="64933-167">В диалоговом окне **изменение строки** введите **1** в поле **значение** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="64933-167">In the **Edit String** dialog box, type **1** in the **Value data** box and then click **OK**.</span></span>
 
-7.  Закройте редактор реестра, затем перезагрузите компьютер.
+7.  <span data-ttu-id="64933-168">Закройте редактор реестра и перезагрузите компьютер.</span><span class="sxs-lookup"><span data-stu-id="64933-168">Close the Registry Editor and then reboot your computer.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

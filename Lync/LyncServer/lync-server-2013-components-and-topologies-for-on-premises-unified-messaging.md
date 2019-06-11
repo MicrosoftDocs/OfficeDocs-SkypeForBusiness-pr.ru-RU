@@ -1,41 +1,86 @@
-﻿---
-title: "Lync Server 2013: компон. и топологии для локальной единой сист. обмена сообщ."
-TOCTitle: Компоненты и топологии для локальной единой системы обмена сообщениями
-ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425711(v=OCS.15)
-ms:contentKeyID: 49309189
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: компоненты и топологии для локальной единой системы обмена сообщениями'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for on-premises Unified Messaging
+ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
+ms:contentKeyID: 48183619
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cdaf33a230f2663e9fc8b541aafb47c362d0ac97
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841514"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Компоненты и топологии для локальной единой системы обмена сообщениями в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-25_
+# <a name="components-and-topologies-for-on-premises-unified-messaging-in-lync-server-2013"></a><span data-ttu-id="0f846-102">Компоненты и топологии для локальной единой системы обмена сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f846-102">Components and topologies for on-premises Unified Messaging in Lync Server 2013</span></span>
 
-В этом разделе описываются компоненты Microsoft Exchange Server 2013, необходимые для обеспечения возможностей обмена сообщениями Exchange в рамках развертывания Lync Server 2013. В нем также описываются поддерживаемые топологии для интеграции с локальной системой обмена сообщениями Exchange.
+</div>
 
-## Компоненты Exchange Server
+<div id="mainSection">
 
-Для предоставления пользователям корпоративной голосовой связи в организации компонентов и служб обмена сообщениями Exchange, описанных выше в разделе [Функции интегрированной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md), необходимо выполнить развертывание сервера почтовых ящиков Microsoft Exchange и сервера клиентского доступа, на котором размещаются почтовые ящики пользователей и который предоставляет единое хранилище электронной и голосовой почты. обмена сообщениями Exchange работает как служба на серверах почтовых ящиков и клиентского доступа.
+<div id="mainBody">
 
-Подробные сведения о компонентах единой системы обмена сообщениями Exchange в Microsoft Exchange Server 2007 и Microsoft Exchange Server 2010 см. в разделе [Развертывание локальной единой системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) в документации по развертыванию.
+<span> </span>
 
-## Поддерживаемые топологии
+<span data-ttu-id="0f846-103">_**Тема последнего изменения:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="0f846-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-Вы можете развернуть Lync Server 2013 и обмена сообщениями Exchange в одном и том же лесу или нескольких лесах. Если развертывание охватывает несколько лесов, для каждого леса обмена сообщениями Exchange необходимо выполнить действия по интеграции с Exchange. Кроме того, для каждого леса Microsoft Exchange вам нужно настроить отношение доверия с лесом Lync Server 2013, а для леса Lync Server 2013 – отношение доверия с каждым лесом обмена сообщениями Exchange. Помимо этого отношения доверия между лесами, необходимо задать параметры обмена сообщениями Exchange для объектов пользователей в лесе Lync Server 2013 для всех пользователей.
+<span data-ttu-id="0f846-104">В этом разделе описаны компоненты Microsoft Exchange Server 2013, необходимые для обеспечения функций единой системы обмена сообщениями Exchange (UM) для развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0f846-104">This topic describes the Microsoft Exchange Server 2013 components required to provide Exchange Unified Messaging (UM) features to Lync Server 2013 deployment.</span></span> <span data-ttu-id="0f846-105">Кроме того, здесь описаны поддерживаемые топологии для локальной интеграции единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="0f846-105">It also describes the supported topologies for on-premises Exchange UM integration.</span></span>
 
-Lync Server 2013 поддерживает следующие топологии для интеграции с обмена сообщениями Exchange:
+<div>
 
-  - один лес;
+## <a name="exchange-server-components"></a><span data-ttu-id="0f846-106">Компоненты Exchange Server</span><span class="sxs-lookup"><span data-stu-id="0f846-106">Exchange Server Components</span></span>
 
-  - один домен (то есть один лес с одним доменом); Lync Server 2013, Microsoft Exchange и пользователи находятся в одном домене;
+<span data-ttu-id="0f846-107">Для предоставления функций и служб Exchange UM, описанных в [функциях интегрированной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) для пользователей корпоративной голосовой связи в вашей организации, необходимо развернуть сервер почтовых ящиков Microsoft Exchange и сервер клиентского доступа. который размещает почтовые ящики пользователей и предоставляет единое место для хранения электронной почты и голосовой почты.</span><span class="sxs-lookup"><span data-stu-id="0f846-107">To provide the Exchange UM features and services described in [Features of integrated Unified Messaging and Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) to Enterprise Voice users in your organization, you must deploy an Microsoft Exchange Mailbox server and Client Access server, which hosts user mailboxes and provides a single storage location for email and voice mail.</span></span> <span data-ttu-id="0f846-108">UM Exchange работает как служба на почтовом ящике Exchange и серверах клиентского доступа.</span><span class="sxs-lookup"><span data-stu-id="0f846-108">Exchange UM runs as a service on Exchange Mailbox and Client Access servers.</span></span>
 
-  - несколько доменов (то есть корневой домен с одним или несколькими дочерними доменами); серверы Lync Server 2013 и Microsoft Exchange развертываются не в том же домене, что и пользователи; серверы обмена сообщениями Exchange могут развертываться не в тех же доменах, что и поддерживаемый ими пул Lync Server 2013;
+<span data-ttu-id="0f846-109">Дополнительные сведения о компонентах UM Exchange в Microsoft Exchange Server 2007 и Microsoft Exchange Server 2010 можно найти в разделе [развертывание локальной системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="0f846-109">For details about Exchange UM components in Microsoft Exchange Server 2007 and Microsoft Exchange Server 2010, see [Deploying on-premises Exchange UM to provide Lync Server 2013 voice mail](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) in the Deployment documentation.</span></span>
 
-  - несколько лесов (то есть лес ресурсов); сервер Lync Server 2013 развертывается в одном лесу, а затем пользователи распределяются по нескольким лесам; атрибуты единой системы обмена сообщениями Exchange пользователей необходимо реплицировать в лес Lync Server 2013.
+</div>
+
+<div>
+
+## <a name="supported-topologies"></a><span data-ttu-id="0f846-110">Поддерживаемые топологии</span><span class="sxs-lookup"><span data-stu-id="0f846-110">Supported Topologies</span></span>
+
+<span data-ttu-id="0f846-111">Вы можете развернуть Lync Server 2013 и единую систему обмена сообщениями Exchange (UM) в одном лесе или нескольких лесах.</span><span class="sxs-lookup"><span data-stu-id="0f846-111">You can deploy Lync Server 2013 and Exchange Unified Messaging (UM) in the same forest or multiple forests.</span></span> <span data-ttu-id="0f846-112">Если развертывание охватывает несколько лесов, необходимо выполнить шаги интеграции Exchange для каждого леса UM Exchange.</span><span class="sxs-lookup"><span data-stu-id="0f846-112">If the deployment spans multiple forests, you must perform the Exchange integration steps for each Exchange UM forest.</span></span> <span data-ttu-id="0f846-113">Кроме того, необходимо настроить каждый лес Microsoft Exchange для доверительных отношений с лесом Lync Server 2013 и лесом сервера Lync Server 2013 для доверительных отношений между каждым лесом Exchange UM.</span><span class="sxs-lookup"><span data-stu-id="0f846-113">Furthermore, you must configure each Microsoft Exchange forest to trust the Lync Server 2013 forest and the Lync Server 2013 forest to trust each Exchange UM forest.</span></span> <span data-ttu-id="0f846-114">В дополнение к этому доверию лесов параметры Exchange UM для всех пользователей должны быть установлены на объектах пользователей в лесу Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0f846-114">In addition to this forest trust, the Exchange UM settings for all users must be set on the user objects in the Lync Server 2013 forest.</span></span>
+
+<span data-ttu-id="0f846-115">Lync Server 2013 поддерживает следующие топологии интеграции Exchange UM.</span><span class="sxs-lookup"><span data-stu-id="0f846-115">Lync Server 2013 supports the following topologies for Exchange UM integration:</span></span>
+
+  - <span data-ttu-id="0f846-116">Один лес</span><span class="sxs-lookup"><span data-stu-id="0f846-116">Single forest</span></span>
+
+  - <span data-ttu-id="0f846-117">Один домен (то есть один лес с одним доменом).</span><span class="sxs-lookup"><span data-stu-id="0f846-117">Single domain (that is, a single forest with a single domain).</span></span> <span data-ttu-id="0f846-118">Lync Server 2013, Microsoft Exchange и пользователи находятся в одном домене.</span><span class="sxs-lookup"><span data-stu-id="0f846-118">Lync Server 2013, Microsoft Exchange, and users all reside in the same domain.</span></span>
+
+  - <span data-ttu-id="0f846-119">Multiple domain (that is, a root domain with one or more child domains).</span><span class="sxs-lookup"><span data-stu-id="0f846-119">Multiple domain (that is, a root domain with one or more child domains).</span></span> <span data-ttu-id="0f846-120">Сервер Lync Server 2013 и серверы Microsoft Exchange развертываются в разных доменах из домена, где создаются пользователи.</span><span class="sxs-lookup"><span data-stu-id="0f846-120">Lync Server 2013, and Microsoft Exchange servers are deployed in different domains from the domain where you create users.</span></span> <span data-ttu-id="0f846-121">Серверы Exchange UM можно разворачивать в разных доменах из пула Lync Server 2013, который они поддерживают.</span><span class="sxs-lookup"><span data-stu-id="0f846-121">Exchange UM servers can be deployed in different domains from the Lync Server 2013 pool they support.</span></span>
+
+  - <span data-ttu-id="0f846-122">Несколько лесов (то есть лес ресурсов).</span><span class="sxs-lookup"><span data-stu-id="0f846-122">Multiple forest (that is, resource forest).</span></span> <span data-ttu-id="0f846-123">Lync Server 2013 развернут в одном лесе, и пользователи распределены по нескольким лесам.</span><span class="sxs-lookup"><span data-stu-id="0f846-123">Lync Server 2013 is deployed in a single forest, and then users are distributed across multiple forests.</span></span> <span data-ttu-id="0f846-124">Атрибуты среды обмена UM для пользователей должны быть реплицированы в лес 2013 для Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0f846-124">The users’ Exchange UM attributes must be replicated over to the Lync Server 2013 forest.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Систему Exchange можно развернуть в нескольких лесах. Каждая организация Exchange может предоставлять обмена сообщениями Exchange своим пользователям. обмена сообщениями Exchange также можно развернуть в одном лесу с Lync Server 2013.
+    > <span data-ttu-id="0f846-125">Exchange can be deployed in multiple forests.</span><span class="sxs-lookup"><span data-stu-id="0f846-125">Exchange can be deployed in multiple forests.</span></span> <span data-ttu-id="0f846-126">Каждая организация Exchange может предоставлять своим пользователям обмен UM, а Exchange UM может быть развернут в том же лесе, что и Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0f846-126">Each Exchange organization can provide Exchange UM to its users, or Exchange UM can be deployed in the same forest as Lync Server 2013.</span></span>
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

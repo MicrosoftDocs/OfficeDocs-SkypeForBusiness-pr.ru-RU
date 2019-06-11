@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица ContentTypes'
-TOCTitle: Таблица ContentTypes
-ms:assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399007(v=OCS.15)
-ms:contentKeyID: 49311462
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица ContentTypes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ContentTypes table
+ms:assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399007(v=OCS.15)
+ms:contentKeyID: 48185723
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7947531c6ec4a518fa7e2c605dea3bba8b6cf9b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841135"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица ContentTypes в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="contenttypes-table-in-lync-server-2013"></a><span data-ttu-id="de81a-102">Таблица ContentTypes в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de81a-102">ContentTypes table in Lync Server 2013</span></span>
 
-Таблица ContentTypes является вспомогательной таблице, в которой содержится список типов содержимого, используемых как для одноранговых сеансов, так и для сеансов конференций. Каждая запись в таблице представляет один тип содержимого.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="de81a-103">_**Тема последнего изменения:** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="de81a-103">_**Topic Last Modified:** 2010-11-07_</span></span>
+
+<span data-ttu-id="de81a-104">Таблица ContentTypes является вспомогательной таблицей, в которой хранится список типов контента, используемых в одноранговых сеансах и сеансах конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="de81a-104">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="de81a-105">Каждая запись в таблице представляет один тип контента.</span><span class="sxs-lookup"><span data-stu-id="de81a-105">Each record in the table represents one content type.</span></span>
 
 
 <table>
@@ -27,25 +47,36 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбец</th>
-<th>Тип данных</th>
-<th>Ключ/индекс</th>
-<th>Сведения</th>
+<th><span data-ttu-id="de81a-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="de81a-106">Column</span></span></th>
+<th><span data-ttu-id="de81a-107">Тип данных</span><span class="sxs-lookup"><span data-stu-id="de81a-107">Data Type</span></span></th>
+<th><span data-ttu-id="de81a-108">Ключ/индекс</span><span class="sxs-lookup"><span data-stu-id="de81a-108">Key/Index</span></span></th>
+<th><span data-ttu-id="de81a-109">Сведения</span><span class="sxs-lookup"><span data-stu-id="de81a-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ContentTypeId</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный номер, идентифицирующий этот тип содержимого.</p></td>
+<td><p><span data-ttu-id="de81a-110"><strong>Контенттипеид</strong></span><span class="sxs-lookup"><span data-stu-id="de81a-110"><strong>ContentTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="de81a-111">целое</span><span class="sxs-lookup"><span data-stu-id="de81a-111">int</span></span></p></td>
+<td><p><span data-ttu-id="de81a-112">Primary</span><span class="sxs-lookup"><span data-stu-id="de81a-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="de81a-113">Уникальный номер, определяющий тип контента.</span><span class="sxs-lookup"><span data-stu-id="de81a-113">Unique number identifying the content type.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ContentType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><span data-ttu-id="de81a-114"><strong>Контента</strong></span><span class="sxs-lookup"><span data-stu-id="de81a-114"><strong>ContentType</strong></span></span></p></td>
+<td><p><span data-ttu-id="de81a-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="de81a-115">nvarchar(256)</span></span></p></td>
 <td> </td>
-<td><p>Имя типа содержимого.</p></td>
+<td><p><span data-ttu-id="de81a-116">Имя типа контента.</span><span class="sxs-lookup"><span data-stu-id="de81a-116">Content type name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

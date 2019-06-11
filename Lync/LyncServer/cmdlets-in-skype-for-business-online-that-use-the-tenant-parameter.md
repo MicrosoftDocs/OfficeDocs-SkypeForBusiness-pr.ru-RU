@@ -1,63 +1,69 @@
-﻿---
-title: Командлеты, которые используют параметр Tenant
-TOCTitle: Командлеты, которые используют параметр Tenant
-ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn362850(v=OCS.15)
-ms:contentKeyID: 56270630
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Командлеты, которые используют параметр Tenant
+title: Командлеты в Skype для бизнеса Online, в которых используется параметр "клиент"
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use the Tenant parameter
+ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362850(v=OCS.15)
+ms:contentKeyID: 56558865
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa3b09e6f419c7425332427ccf4a4ff664b9e395
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841089"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a><span data-ttu-id="b9701-102">Командлеты в Skype для бизнеса Online, в которых используется параметр "клиент"</span><span class="sxs-lookup"><span data-stu-id="b9701-102">Cmdlets in Skype for Business Online that use the Tenant parameter</span></span>
 
  
 
-_**Дата изменения раздела:** 2015-06-22_
 
-При изменении параметров общедоступных поставщиков необходимо указывать идентификатор клиента даже если существует только один клиент. Например, следующая команда устанавливает Windows Live в качестве единственного общедоступного поставщика, с которым разрешено взаимодействовать пользователям:
+<span data-ttu-id="b9701-103">При изменении параметров вашего общедоступного поставщика необходимо всегда предоставлять удостоверение клиента; Это справедливо даже в том случае, если у вас есть только один клиент.</span><span class="sxs-lookup"><span data-stu-id="b9701-103">When modifying your public provider settings, you always need to supply a Tenant identity; this is true even if you only have a single tenant.</span></span> <span data-ttu-id="b9701-104">Например, эта команда задает для Windows Live только общего поставщика, которому разрешено взаимодействовать пользователям:</span><span class="sxs-lookup"><span data-stu-id="b9701-104">For example, this command sets Windows Live as the only public provider your users are allowed to communicate with:</span></span>
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-К счастью, не требуется вводить идентификатор клиента (например, bf19b7db-6960-41e5-a139-2aa373474354) каждый раз при выполнении одного из этих командлетов. Вместо этого можно получить идентификатор клиента с помощью командлета [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), сохранить его в переменной, а затем использовать эту переменную при вызове любого другого командлета. Например:
+<span data-ttu-id="b9701-105">К счастью, вам не нужно вводить код клиента (например, bf19b7db-6960-41e5-A139-2aa373474354) каждый раз при запуске одного из этих командлетов.</span><span class="sxs-lookup"><span data-stu-id="b9701-105">Fortunately, you do not need to type the Tenant ID (for example, bf19b7db-6960-41e5-a139-2aa373474354) each time you run one of these cmdlets.</span></span> <span data-ttu-id="b9701-106">Вместо этого вы можете получить идентификатор клиента, выполнив командлет [Get-кстенант](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) , сохранив идентификатор клиента в переменной, а затем используя эту переменную при вызове одного из других командлетов.</span><span class="sxs-lookup"><span data-stu-id="b9701-106">Instead, you can retrieve the Tenant ID by running the [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) cmdlet, storing the Tenant ID in a variable, and then using that variable when you call one of the other cmdlets.</span></span> <span data-ttu-id="b9701-107">Например:</span><span class="sxs-lookup"><span data-stu-id="b9701-107">For example:</span></span>
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Кроме того, можно выполнить данное действие с помощью одной команды, получив идентификатор клиента и передав это значение в командлет Set-CsTenantPublicProvider:
+<span data-ttu-id="b9701-108">Кроме того, вы можете сделать это в одной команде, получая идентификатор клиента, а затем переадресовать это значение командлету Set-Кстенантпубликпровидер:</span><span class="sxs-lookup"><span data-stu-id="b9701-108">Alternatively, you can do this in a single command by retrieving the Tenant ID and then piping that value to the Set-CsTenantPublicProvider cmdlet:</span></span>
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-При вызове командлета **Get-CsTenant** не требуется указывать идентификатор клиента. Эта команда возвращает данные о вашем клиенте:
+<span data-ttu-id="b9701-109">При вызове командлета **Get-кстенант** вам не нужно указывать идентификатор клиента.</span><span class="sxs-lookup"><span data-stu-id="b9701-109">You do not need to specify the tenant ID when calling the **Get-CsTenant** cmdlet.</span></span> <span data-ttu-id="b9701-110">Эта команда возвращает сведения о вашем клиенте:</span><span class="sxs-lookup"><span data-stu-id="b9701-110">This command returns information about your tenant:</span></span>
 
     Get-CsTenant
 
-Указанные далее командлеты принимают идентификатор клиента. Однако в данном случае этот параметр является необязательным и при вызове командлета вводить его не требуется. Вместо этого Windows PowerShell самостоятельно введет значение идентификатора клиента на основе данных клиента Skype для бизнеса Online, к которому вы подключены в настоящий момент.
+<span data-ttu-id="b9701-111">Следующие командлеты допускают удостоверение клиента.</span><span class="sxs-lookup"><span data-stu-id="b9701-111">The following cmdlets accept a tenant identity.</span></span> <span data-ttu-id="b9701-112">Однако в этих случаях параметр является необязательным и его не нужно вводить при вызове командлета.</span><span class="sxs-lookup"><span data-stu-id="b9701-112">However, in these cases, the parameter is optional and does not need to be entered when calling the cmdlet.</span></span> <span data-ttu-id="b9701-113">Вместо этого Windows PowerShell будет вводить удостоверение клиента на основе клиента Skype для бизнеса Online, с которым вы уже подключены.</span><span class="sxs-lookup"><span data-stu-id="b9701-113">Instead, Windows PowerShell will effectively enter the tenant identity for you based on the Skype for Business Online tenant you are currently connected to:</span></span>
 
-  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
+  - <span data-ttu-id="b9701-114">[Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-114">[Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))</span></span>
 
-  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
+  - <span data-ttu-id="b9701-115">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-115">[Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))</span></span>
 
-  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
+  - <span data-ttu-id="b9701-116">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-116">[Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
+  - <span data-ttu-id="b9701-117">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-117">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
+  - <span data-ttu-id="b9701-118">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-118">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+  - <span data-ttu-id="b9701-119">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-119">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))</span></span>
 
-Например командлет **Get-CsTenantFederationConfiguration** можно вызвать с помощью следующей команды:
+<span data-ttu-id="b9701-120">Например, командлет **Get-кстенантфедератионконфигуратион** можно вызвать с помощью следующей команды:</span><span class="sxs-lookup"><span data-stu-id="b9701-120">For example, the **Get-CsTenantFederationConfiguration** cmdlet can be called by using this command:</span></span>
 
     Get-CsTenantFederationConfiguration
 
-При вызове командлета Get-CsTenantFederationConfiguration можно использовать параметр Tenant, хотя это и не является необходимым:
+<span data-ttu-id="b9701-121">Хотя это не обязательно, вы можете включить параметр клиента при вызове get-Кстенантфедератионконфигуратион:</span><span class="sxs-lookup"><span data-stu-id="b9701-121">Although not required, you can include the Tenant parameter when calling Get-CsTenantFederationConfiguration :</span></span>
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
-## См. также
+## <a name="see-also"></a><span data-ttu-id="b9701-122">См. также</span><span class="sxs-lookup"><span data-stu-id="b9701-122">See Also</span></span>
 
-#### Концепции
 
-[Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[<span data-ttu-id="b9701-123">Удостоверения, области и клиенты в Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="b9701-123">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="b9701-124">[Командлеты Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="b9701-124">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 

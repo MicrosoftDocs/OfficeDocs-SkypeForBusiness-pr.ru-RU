@@ -1,21 +1,41 @@
-﻿---
-title: Настройка локального приложения партнера для Microsoft Lync Server 2013
-TOCTitle: Настройка локального приложения партнера для Microsoft Lync Server 2013
-ms:assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204975(v=OCS.15)
-ms:contentKeyID: 49310040
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Настройка приложения для локального партнера для Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring an on-premises partner application for Lync Server 2013
+ms:assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204975(v=OCS.15)
+ms:contentKeyID: 48184412
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c396415dd6bd3bda99254f30b0223f1ff672a01f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841292"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка локального приложения партнера для Microsoft Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-04_
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a><span data-ttu-id="e0016-102">Настройка приложения для локального партнера для Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0016-102">Configuring an on-premises partner application for Microsoft Lync Server 2013</span></span>
 
-После назначения сертификата OAuthTokenIssuer необходимо настроить партнерские приложения Microsoft Lync Server 2013. (Описываемая здесь процедура настраивает Microsoft Exchange Server 2013 и Microsoft SharePoint для работы в качестве партнерских приложений.) Чтобы настроить локальное партнерское приложение, необходимо сначала скопировать следующий скрипт Windows PowerShell и вставить код в Блокноте (или любом другом текстовом редакторе):
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e0016-103">_**Тема последнего изменения:** 2013-02-04_</span><span class="sxs-lookup"><span data-stu-id="e0016-103">_**Topic Last Modified:** 2013-02-04_</span></span>
+
+<span data-ttu-id="e0016-104">После назначения сертификата Оаустокениссуер необходимо настроить партнерские приложения Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e0016-104">After you have assigned the OAuthTokenIssuer certificate you must then configure your Microsoft Lync Server 2013 partner applications.</span></span> <span data-ttu-id="e0016-105">(В соответствии с инструкциями, изложенными в разделе Настройка сервера Microsoft Exchange Server 2013 и Microsoft SharePoint для использования в качестве партнерских приложений.) Чтобы настроить локальное приложение партнера, необходимо скопировать следующий сценарий Windows PowerShell и вставить его в Блокнот (или любой другой текстовый редактор).</span><span class="sxs-lookup"><span data-stu-id="e0016-105">(The procedure about to be discussed configures both Microsoft Exchange Server 2013 and Microsoft SharePoint to act as partner applications.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):</span></span>
 
     if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
        {
@@ -63,31 +83,41 @@ _**Дата изменения раздела:** 2013-02-04_
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-После копирования кода сохраните скрипт с расширением .PS1 (например, C:\\Scripts\\ServerToServerAuth.ps1). Учтите, что перед выполнением скрипта нужно заменить URL-адреса метаданных https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 и http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx на URL-адреса метаданных, используемые Exchange 2013 и серверами SharePoint соответственно. Сведения об определении URL-адреса метаданных см. в документации по Exchange 2013 и SharePoint.
+<span data-ttu-id="e0016-106">После копирования кода сохраните его с помощью. Расширение файла PS1 (например, C:\\Scripts\\сервертосервераус. ps1).</span><span class="sxs-lookup"><span data-stu-id="e0016-106">After copying the code, save the script using a .PS1 file extension (for example, C:\\Scripts\\ServerToServerAuth.ps1).</span></span> <span data-ttu-id="e0016-107">Обратите внимание на то, что перед выполнением этого сценария необходимо заменить URL https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 - http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx адреса метаданных и URL-адреса метаданных, которые используются в сервере Exchange 2013 и SharePoint Server соответственно.</span><span class="sxs-lookup"><span data-stu-id="e0016-107">Note that, before you run this script, you must replace the metadata URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 and http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx with the metadata URLs used by your Exchange 2013 and SharePoint servers, respectively.</span></span> <span data-ttu-id="e0016-108">Сведения о том, как определить URL-адрес метаданных соответствующего продукта, можно найти в документации по продукту Exchange 2013 и SharePoint.</span><span class="sxs-lookup"><span data-stu-id="e0016-108">See the product documentation for Exchange 2013 and SharePoint for information on how you can identify the respective product's metadata URL.</span></span>
 
-Если посмотреть на последнюю строку скрипта, можно заметить, что командлет Set-CsOAuthConfiguration вызывается помощью следующего синтаксиса:
+<span data-ttu-id="e0016-109">Если посмотреть на последнюю строку скрипта, можно заметить, что командлет Set-CsOAuthConfiguration вызывается помощью следующего синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="e0016-109">If you look at the last line of the script you will notice that the Set-CsOAuthConfiguration cmdlet is called using this syntax:</span></span>
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-Поскольку параметр Realm не использовался при вызове Set-CsOAuthConfiguration, область устанавливается автоматически как полное доменное имя организации (например, litwareinc.com). Если имя области отличается от имени организации, нужно указать имя области, например:
+<span data-ttu-id="e0016-p103">Поскольку параметр Realm не использовался при вызове Set-CsOAuthConfiguration, область устанавливается автоматически как полное доменное имя организации (например, litwareinc.com). Если имя области отличается от имени организации, нужно указать имя области, например:</span><span class="sxs-lookup"><span data-stu-id="e0016-p103">Because the Realm parameter was not used when calling Set-CsOAuthConfiguration the realm will automatically be set to the fully qualified domain name (FQDN) of your organization (for example, litwareinc.com). If your realm name is different from your organization name then you should include the realm name, like this:</span></span>
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 
-После внесения этих изменений можно выполнить скрипт и настроить Exchange 2013 и SharePoint как партнерские приложения, выполнив файл скрипта в командная консоль Lync Server 2013. Например:
+<span data-ttu-id="e0016-112">После внесения этих изменений вы можете выполнить сценарий и настроить оба сервера Exchange 2013 и SharePoint как партнерские приложения, запустив файл сценария в командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e0016-112">After making these changes you can then execute the script, and configure both Exchange 2013 and SharePoint as partner applications, by running the script file from within the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="e0016-113">Например:</span><span class="sxs-lookup"><span data-stu-id="e0016-113">For example:</span></span>
 
     C:\Scripts\ServerToServerAuth.ps1
 
-Учтите, что вы можете выполнить этот скрипт, даже если не установлен и Exchange 2013, и SharePoint Server. Проблем не будет, если, например, настроить SharePoint Server как партнерское приложение, даже если SharePoint Server не установлен.
+<span data-ttu-id="e0016-114">Обратите внимание, что вы можете выполнить этот сценарий даже в том случае, если у вас не установлен сервер Exchange 2013 и SharePoint Server: Если вы, скажем, настроили SharePoint Server как партнерское приложение, не возникнут проблемы, даже если у вас не установлен SharePoint Server.</span><span class="sxs-lookup"><span data-stu-id="e0016-114">Note that you can run this script even if you do not have both Exchange 2013 and SharePoint Server installed:, no problems will occur if you, say, configure SharePoint Server as a partner application even though you do not have SharePoint Server installed.</span></span>
 
-При выполнении этого скрипта может отображаться сообщение об ошибке, похожее на следующее:
+<span data-ttu-id="e0016-115">При выполнении этого скрипта может отображаться сообщение об ошибке, похожее на следующее:</span><span class="sxs-lookup"><span data-stu-id="e0016-115">When you run this script you might receive an error message similar to the following:</span></span>
 
     New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Exception setting "MetadataUrl": "The metadata document could not be downloaded from the URL in the MetadataUrl parameter or downloaded data is not a valid metadata document."
 
-Это сообщение об ошибке обычно означает одно из двух: 1) один из URL-адресов, указанных в скрипте, недействительный (то есть один из URL-адресов метаданных не является фактическим URL-адресом метаданных); 2) не удалось связаться с одним из URL-адресов метаданных. В этом случае убедитесь, что заданы правильные и доступные URL-адреса, и повторно выполните скрипт.
+<span data-ttu-id="e0016-p105">Это сообщение об ошибке обычно означает одно из двух: 1) один из URL-адресов, указанных в скрипте, недействительный (то есть один из URL-адресов метаданных не является фактическим URL-адресом метаданных); 2) не удалось связаться с одним из URL-адресов метаданных. В этом случае убедитесь, что заданы правильные и доступные URL-адреса, и повторно выполните скрипт.</span><span class="sxs-lookup"><span data-stu-id="e0016-p105">This error message typically means one of two things: 1) that one of the URLs specified in the script is not valid (that is, one of your metadata URLs is not an actual metadata URL); or, 2) one of the metadata URLs could not be contacted. If this happens, verify that the URLs are correct and are accessible, and the re-run the script.</span></span>
 
-После создания партнерского приложения для Lync Server 2013 необходимо настроить Lync Server как партнерское приложение для Exchange 2013. Вы можете настроить партнерские приложения для Exchange 2013, выполнив скрипт Configure-EnterprisePartnerApplication.1; все, что нужно сделать — указать URL-адрес метаданных для Lync Server и указать, что Lync Server является новым партнерским приложением.
+<span data-ttu-id="e0016-118">После создания приложения-партнера для Lync Server 2013 необходимо настроить Lync Server, чтобы он был партнерским приложением для Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="e0016-118">After creating the partner application for Lync Server 2013 you must then configure Lync Server to be a partner application for Exchange 2013.</span></span> <span data-ttu-id="e0016-119">Вы можете настроить партнерские приложения для Exchange 2013, выполнив сценарий Конфигуре-ентерприсепартнераппликатион. ps1; все, что вам нужно, — это указать URL-адрес метаданных для сервера Lync Server и указать, что Lync Server — это новое приложение-партнер.</span><span class="sxs-lookup"><span data-stu-id="e0016-119">You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Lync Server and indicate that Lync Server is the new partner application.</span></span>
 
-Чтобы настроить Lync Server как партнерское приложение для Exchange, откройте консоль управления Exchange и выполните следующую или аналогичную команду:
+<span data-ttu-id="e0016-120">Чтобы настроить Lync Server в качестве партнерского приложения Exchange, откройте командную консоль Exchange и выполните команду, подобную следующей.</span><span class="sxs-lookup"><span data-stu-id="e0016-120">To configure Lync Server as a partner application for Exchange, open the Exchange Management Shell and run a command similar to this</span></span>
 
     "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://lync.contoso.com/metadata/json/1" -ApplicationType "Lync"
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

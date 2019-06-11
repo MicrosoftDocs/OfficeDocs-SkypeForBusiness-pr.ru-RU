@@ -1,59 +1,75 @@
-﻿---
-title: Настройка высокой производительности службы Mobility Service
-TOCTitle: Настройка высокой производительности службы Mobility Service
-ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh690042(v=OCS.15)
-ms:contentKeyID: 49311077
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка службы Mobility Service для высокой производительности'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Mobility Service for high performance
+ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)
+ms:contentKeyID: 48185332
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 54a1c9b901e9a861b40a5cfa8c2642e3e3e41ffe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841201"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка высокой производительности службы Mobility Service
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-17_
+# <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a><span data-ttu-id="15165-102">Настройка службы Mobility Service для высокой производительности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15165-102">Configuring Mobility Service for high performance in Lync Server 2013</span></span>
 
-Во время установки Lync Server 2013 Mobility Service в Службы IIS 7.5 установщик службы Mobility Service настраивает некоторые параметры производительности в переднего плана. Мы рекомендуем использовать IIS 7.5 для Mobility Service. В случае использования IIS 7.0 на Windows Server 2008 необходимо настроить эти параметру вручную. Параметры влияют на максимальное число одновременных запросов пользователей и максимальное число потоков, которые разрешены для Mobility Service.
+</div>
 
-Параметры производительности следующие:
+<div id="mainSection">
 
-  - **maxConcurrentThreadsPerCPU** имеет значение нуль (0).
+<div id="mainBody">
 
-  - **maxConcurrentRequestsPerCPU** имеет значение нуль (0).
+<span> </span>
 
-  - Процессная модель ASP.NET имеет значение AutoConfig (только для IIS 7.5).
+<span data-ttu-id="15165-103">_**Тема последнего изменения:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="15165-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-  - Предел очереди HTTP.sys имеет значение 1000 (по умолчанию).
-
-Если используются IIS 7.0, мы рекомендуем установить обновление, которое доступно в статье базы знаний Майкрософт 2290617 "ИСПРАВЛЕНИЕ: доступно исправление для включения настройки некоторых свойств ASP.NET для всех пулов приложений в IIS 7.0" по адресу [http://go.microsoft.com/fwlink/?linkid=3052\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0x419), чтобы можно было применить изменения только к Mobility Service и не затрагивать другие веб-службы.
-
-В следующей процедуре описан порядок изменения максимального числа одновременных запросов ASP.NET и потоков в IIS 7.0, если не установлено обновление, доступное в статье базы знаний 2290617. Однако даже в том случае, если не установлено обновление из статьи базы знаний 2290617, необходимо использовать документацию, предоставленную в статье, чтобы применить те же самые изменения только к внутренним и внутренним и внешним пулам приложений IIS Mobility. В этом случае используется отдельный файл конфигурации для параметров ASP.NET.
-
-> [!IMPORTANT]
-> Если для изменения максимальных значений используется следующая процедура, изменения будут затрагивать все пулы приложений IIS.
+<div>
 
 
-Дополнительные сведения о настройке этих параметров см. в разделе [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0x419).
+> [!IMPORTANT]  
+> <span data-ttu-id="15165-104">Этот раздел относится только к службе мобильной связи Lync Server 2013 (МККС) и не применяется к веб-API единой системы обмена сообщениями (УКВА), как в накопительных обновлениях для Lync Server 2013: Февраль 2013.</span><span class="sxs-lookup"><span data-stu-id="15165-104">This topic applies only to the Lync Server 2013 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
-## Изменение максимального числа одновременных запросов и потоков
 
-1.  Нажмите кнопку **Пуск** и затем выберите команду **Выполнить**.
 
-2.  В поле **Выполнить** введите следующую команду:
-    
-        notepad %SystemRoot%\Microsoft.NET\Framework64\v2.0.50727\Aspnet.config
+</div>
 
-3.  Нажмите кнопку **ОК**.
+<span data-ttu-id="15165-105">При установке службы Mobility Service (МККС) в службах IIS 7,5 программа установки службы Mobility Service настраивает некоторые параметры быстродействия на сервере переднего плана.</span><span class="sxs-lookup"><span data-stu-id="15165-105">When you install the Mobility Service (Mcx) on Internet Information Services (IIS) 7.5, the Mobility Service installer configures some performance settings on the Front End Server.</span></span> <span data-ttu-id="15165-106">We recommend that you use IIS 7.5 for mobility.</span><span class="sxs-lookup"><span data-stu-id="15165-106">We recommend that you use IIS 7.5 for mobility.</span></span> <span data-ttu-id="15165-107">The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.</span><span class="sxs-lookup"><span data-stu-id="15165-107">The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.</span></span>
 
-4.  Добавьте или замените следующий элемент \<system.web\>, являющийся дочерним параметром элемента \<configuration\> в файле Aspnet.config:
-    
-        <system.web>
-        <applicationPool maxConcurrentRequestsPerCPU="<#>" maxConcurrentThreadsPerCPU="0" requestQueueLimit="5000"/>
-        </system.web>
-    
-    где \# соответствует 0, чтобы снять ограничение, или новому числу, как описано выше в данном разделе.
+<span data-ttu-id="15165-108">Далее представлены параметры производительности:</span><span class="sxs-lookup"><span data-stu-id="15165-108">Here are the performance settings:</span></span>
 
-5.  Сохраните файл Aspnet.config и закройте Блокнот.
+<div>
+
+## <a name="settings-for-mcx-on-iis-75"></a><span data-ttu-id="15165-109">Параметры для Mcx в службе IIS 7.5</span><span class="sxs-lookup"><span data-stu-id="15165-109">Settings for Mcx on IIS 7.5</span></span>
+
+1.  <span data-ttu-id="15165-110">**maxConcurrentThreadsPerCPU** имеет значение нуля (0).</span><span class="sxs-lookup"><span data-stu-id="15165-110">**maxConcurrentThreadsPerCPU** is set to zero (0).</span></span>
+
+2.  <span data-ttu-id="15165-111">**maxConcurrentRequestsPerCPU** имеет значение нуля (0).</span><span class="sxs-lookup"><span data-stu-id="15165-111">**maxConcurrentRequestsPerCPU** is set to zero (0).</span></span>
+
+3.  <span data-ttu-id="15165-112">Процессная модель ASP.NET имеет значение AutoConfig (только для IIS 7.5).</span><span class="sxs-lookup"><span data-stu-id="15165-112">ASP.NET process model is set to AutoConfig (for IIS 7.5 only).</span></span>
+
+4.  <span data-ttu-id="15165-113">Предел очереди HTTP.sys имеет значение 1000 (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="15165-113">HTTP.sys queue limit is set to 1,000 (by default).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

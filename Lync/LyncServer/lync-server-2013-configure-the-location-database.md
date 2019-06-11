@@ -1,38 +1,79 @@
-﻿---
-title: Настройка базы данных местоположений в Lync Server 2013
-TOCTitle: Настройка базы данных местоположений в Lync Server 2013
-ms:assetid: 8544be31-6958-47ef-b926-fdc80d56191c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398679(v=OCS.15)
-ms:contentKeyID: 49310385
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка базы данных местоположений'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure the location database
+ms:assetid: 8544be31-6958-47ef-b926-fdc80d56191c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398679(v=OCS.15)
+ms:contentKeyID: 48184704
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 15a9456cc79e02735fe94c24748674944722b49c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841313"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка базы данных местоположений в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-17_
+# <a name="configure-the-location-database-in-lync-server-2013"></a><span data-ttu-id="515a2-102">Configure the location database in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515a2-102">Configure the location database in Lync Server 2013</span></span>
 
-Чтобы включить автоматическое определение клиентами своего местоположения в сети, сначала необходимо настроить базу данных местоположений. Если не настроить эту базу данных и задать для параметра **Требуется местоположение** в политике местоположений значение **Да** или **Отказ**, пользователь получит запрос на ручной ввод местоположения.
+</div>
 
-Чтобы настроить базу данных местоположений, следует выполнить следующие задачи.
+<div id="mainSection">
 
-1.  Заполните базу данных с сопоставлением сетевых элементов местоположениям. При использовании шлюза ELIN необходимо включить ELIN в поле \<Имя\_компании\>.
+<div id="mainBody">
 
-2.  Поверьте адрес по руководству MSAG, которое поддерживается поставщиком услуг E9-1-1.
+<span> </span>
 
-3.  Опубликуйте обновленную базу данных.
+<span data-ttu-id="515a2-103">_**Тема последнего изменения:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="515a2-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+
+<span data-ttu-id="515a2-104">Чтобы включить автоматическое определение клиентами своего местоположения в сети, сначала необходимо настроить базу данных местоположений.</span><span class="sxs-lookup"><span data-stu-id="515a2-104">To enable clients to automatically detect their location within a network, you first need to configure the location database.</span></span> <span data-ttu-id="515a2-105">Если вы не настраиваете базу данных местоположений и для **расположения** , требуемого в политике расположения, задано значение **Да** или **отказ**, пользователю будет предложено ввести расположение вручную.</span><span class="sxs-lookup"><span data-stu-id="515a2-105">If you do not configure a location database, and **Location Required** in the location policy is set to **Yes** or **Disclaimer**, the user will be prompted to manually enter a location.</span></span>
+
+<span data-ttu-id="515a2-106">Чтобы настроить базу данных местоположений, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="515a2-106">To configure the location database, you will perform the following tasks:</span></span>
+
+1.  <span data-ttu-id="515a2-107">Заполните базу данных с сопоставлением сетевых элементов местоположениям.</span><span class="sxs-lookup"><span data-stu-id="515a2-107">Populate the database with a mapping of network elements to locations.</span></span> <span data-ttu-id="515a2-108">При использовании шлюза идентификационный номер места для экстренного реагирования (Елин) необходимо добавить Елин в поле \<CompanyName\> .</span><span class="sxs-lookup"><span data-stu-id="515a2-108">If you use an Emergency Location Identification Number (ELIN) gateway, you need to include the ELIN in the \<CompanyName\> field.</span></span>
+
+2.  <span data-ttu-id="515a2-109">Поверьте адрес по руководству MSAG, которое поддерживается поставщиком услуг E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="515a2-109">Validate the addresses against the master street address guide (MSAG) that is maintained by the E9-1-1 service provider.</span></span>
+
+3.  <span data-ttu-id="515a2-110">Опубликуйте обновленную базу данных.</span><span class="sxs-lookup"><span data-stu-id="515a2-110">Publish the updated database.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Кроме того, можно определить дополнительную базу данных местоположений, которую можно использовать вместо базы данных местоположений. Подробности см. в разделе <a href="lync-server-2013-configure-a-secondary-location-information-service.md">Настройка службы сведений о дополнительном расположении в Lync Server 2013</a>.
+> <span data-ttu-id="515a2-111">Кроме того, вы можете определить вспомогательную базу данных расположения, которую можно использовать при размещении базы данных местоположений.</span><span class="sxs-lookup"><span data-stu-id="515a2-111">Alternately, you can define a secondary location source database that can be used in placed of the location database.</span></span> <span data-ttu-id="515a2-112">Подробности можно найти <A href="lync-server-2013-configure-a-secondary-location-information-service.md">в разделе Настройка дополнительной службы сведений о расположении в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="515a2-112">For details, see <A href="lync-server-2013-configure-a-secondary-location-information-service.md">Configure a secondary Location Information service in Lync Server 2013</A>.</span></span>
 
-## Содержание
 
-  - [Наполнение базы данных местоположений](lync-server-2013-populate-the-location-database.md)
 
-  - [Проверка адресов](lync-server-2013-validate-addresses.md)
+</div>
 
-  - [Публикация базы данных местоположений в Lync Server 2013](lync-server-2013-publish-the-location-database.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="515a2-113">Содержание</span><span class="sxs-lookup"><span data-stu-id="515a2-113">In This Section</span></span>
+
+  - [<span data-ttu-id="515a2-114">Заполнение базы данных местоположений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515a2-114">Populate the location database in Lync Server 2013</span></span>](lync-server-2013-populate-the-location-database.md)
+
+  - [<span data-ttu-id="515a2-115">Проверка адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515a2-115">Validate addresses in Lync Server 2013</span></span>](lync-server-2013-validate-addresses.md)
+
+  - [<span data-ttu-id="515a2-116">Публикация базы данных местоположений из Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="515a2-116">Publish the location database from Lync Server 2013</span></span>](lync-server-2013-publish-the-location-database.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

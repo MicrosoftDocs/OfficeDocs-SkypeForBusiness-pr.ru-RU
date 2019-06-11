@@ -1,79 +1,140 @@
-﻿---
-title: 'Lync Server 2013: настройка интеграции локальной Lync Server с Exchange Online'
-TOCTitle: Настройка интеграции локальной Lync Server 2013 с Exchange Online
-ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh533880(v=OCS.15)
-ms:contentKeyID: 49310554
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Настройка локальной интеграции Lync Server с Exchange Online
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
+ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)
+ms:contentKeyID: 48184900
+ms.date: 03/30/2018
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ae1ba45ace830f33b239bf2f8ead1a75fcee3417
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841207"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка интеграции локальной Lync Server 2013 с Exchange Online
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-07-02_
+# <a name="configuring-on-premises-lync-server-2013-integration-with-exchange-online"></a><span data-ttu-id="57461-102">Настройка локальной интеграции Lync Server 2013 с Exchange Online</span><span class="sxs-lookup"><span data-stu-id="57461-102">Configuring on-premises Lync Server 2013 integration with Exchange Online</span></span>
 
-Клиенты, использующие локальные развертывания Lync Server 2013, могут настроить взаимодействие с Microsoft Outlook Web App в Microsoft Exchange Online в режиме гибридного развертывания. Возможности взаимодействия включают единый вход и интеграцию обмена мгновенными сообщениями и сведениями о присутствии в интерфейс Outlook Web App. Чтобы включить эту интеграцию, вам нужно настроить сервер в локальном развертывании Lync Server, выполнив следующие задачи:
+</div>
 
-  - настройте общее адресное пространство SIP;
+<div id="mainSection">
 
-  - настройте поставщика услуг размещения на сервер;
+<div id="mainBody">
 
-  - проверьте репликацию обновленного управления.
+<span> </span>
 
-## Настройка общего адресного пространства SIP
+<span data-ttu-id="57461-103">_**Тема последнего изменения:** 2018-03-30_</span><span class="sxs-lookup"><span data-stu-id="57461-103">_**Topic Last Modified:** 2018-03-30_</span></span>
 
-Для интеграции локального сервера Lync Server 2013 с Exchange Online нужно настроить общее адресное пространство SIP. Одно и то же адресное пространство домена SIP поддерживается как сервером Lync Server, так и службой Exchange Online.
+<span data-ttu-id="57461-104">Клиенты, использующие локальные развертывания Lync Server 2013, могут настраивать взаимодействие с приложением Microsoft Outlook Web App в Microsoft Exchange Online в режиме гибридной развертки.</span><span class="sxs-lookup"><span data-stu-id="57461-104">Customers who are using on-premises Lync Server 2013 deployments can configure interoperability with Microsoft Outlook Web App in Microsoft Exchange Online in a hybrid deployment mode.</span></span> <span data-ttu-id="57461-105">Возможности взаимодействия включают единый вход и интеграцию обмена мгновенными сообщениями и сведениями о присутствии в интерфейс Outlook Web App.</span><span class="sxs-lookup"><span data-stu-id="57461-105">Interoperability features include single sign on and instant messaging (IM) and presence integration with the Outlook Web App interface.</span></span> <span data-ttu-id="57461-106">Чтобы включить эту интеграцию, необходимо настроить граничный сервер в локальной среде развертывания Lync Server, выполнив указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="57461-106">To enable this integration, you must configure the Edge Server in your on-premises Lync Server deployment by completing the following tasks:</span></span>
 
-С помощью Командная консоль Lync Server настройте федерацию на сервер, выполнив командлет **Set-CSAccessEdgeConfiguration** с использованием параметров, показанных в следующем примере.
+  - <span data-ttu-id="57461-107">настройте общее адресное пространство SIP;</span><span class="sxs-lookup"><span data-stu-id="57461-107">Configure a shared SIP address space</span></span>
+
+  - <span data-ttu-id="57461-108">Настройка поставщика услуг размещения на пограничном сервере</span><span class="sxs-lookup"><span data-stu-id="57461-108">Configure a hosting provider on the Edge Server</span></span>
+
+  - <span data-ttu-id="57461-109">Проверка репликации обновленного центрального хранилища в центре администрирования</span><span class="sxs-lookup"><span data-stu-id="57461-109">Verify replication of the updated Central Management store</span></span>
+
+<span data-ttu-id="57461-110">Если Lync Server 2013 интегрирован с Exchange Online, пользователь, который пытается войти в мгновенном сообщении из OWA, считается удаленным или внешним пользователем.</span><span class="sxs-lookup"><span data-stu-id="57461-110">If Lync Server 2013 is integrated with Exchange Online, a user who is trying to sign in to IM from OWA is considered a remote or external user.</span></span> <span data-ttu-id="57461-111">В этом случае пользователю должна быть назначена политика внешней доступа, для которой выбраны указанные ниже параметры.</span><span class="sxs-lookup"><span data-stu-id="57461-111">In this scenario, this user must have an external access policy assigned that has the following option selected:</span></span>
+
+<span data-ttu-id="57461-112">**Включение связи с удаленными пользователями**</span><span class="sxs-lookup"><span data-stu-id="57461-112">**Enable communications with remote users**</span></span>
+
+<span data-ttu-id="57461-113">Включите этот параметр, если вы хотите, чтобы пользователи в вашей организации, которые находятся за пределами межсетевого экрана (например, подключены к сети и пользователи, которые находятся в дороге), смогли подключиться к серверу Lync через Интернет.</span><span class="sxs-lookup"><span data-stu-id="57461-113">Enable this option if you want users in your organization who are outside your firewall, such as telecommuters and users who are traveling, to be able to connect to Lync Server over the Internet.</span></span>
+
+<span data-ttu-id="57461-114">Дополнительные сведения можно найти [в разделе Управление политикой внешнего доступа в Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="57461-114">For more information, see [Manage external access policy in Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md).</span></span>
+
+<div>
+
+## <a name="configure-a-shared-sip-address-space"></a><span data-ttu-id="57461-115">Настройка общего адресного пространства SIP</span><span class="sxs-lookup"><span data-stu-id="57461-115">Configure a Shared SIP Address Space</span></span>
+
+<span data-ttu-id="57461-116">Для интеграции локального сервера Lync Server 2013 с Exchange Online необходимо настроить общее адресное пространство SIP.</span><span class="sxs-lookup"><span data-stu-id="57461-116">To integrate on-premises Lync Server 2013 with Exchange Online, you must configure a shared SIP address space.</span></span> <span data-ttu-id="57461-117">Одно и то же адресное пространство домена SIP поддерживается как в Lync Server, так и в службе Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="57461-117">The same SIP domain address space is supported by both Lync Server and the Exchange Online service.</span></span>
+
+<span data-ttu-id="57461-118">С помощью командной консоли Lync Server настройте сервер граничного сервера для Федерации, запустив командлет **Set-ксакцесседжеконфигуратион** , используя параметры, показанные в следующем примере.</span><span class="sxs-lookup"><span data-stu-id="57461-118">Using the Lync Server Management Shell, configure the Edge Server for federation by running the **Set-CSAccessEdgeConfiguration** cmdlet, using the parameters that are displayed in the following example:</span></span>
 
     Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
-  - Параметр **AllowFederatedUsers** указывает, разрешено ли внутренним пользователям связываться с пользователями из федеративных доменов. Это свойство также определяет, могут ли внутренние пользователи связываться с пользователями в общем адресном пространстве SIP Lync Server и Exchange Online.
+  - <span data-ttu-id="57461-119">**AllowFederatedUsers** указывает, разрешено ли внутренним пользователям взаимодействовать с пользователями из федеративных доменов.</span><span class="sxs-lookup"><span data-stu-id="57461-119">**AllowFederatedUsers** specifies whether internal users are allowed to communicate with users from federated domains.</span></span> <span data-ttu-id="57461-120">Это свойство также определяет, могут ли внутренние пользователи общаться с пользователями в общем пространстве адресного пространства SIP с Lync Server и Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="57461-120">This property also determines whether internal users can communicate with users in a shared SIP address space scenario with Lync Server and Exchange Online.</span></span>
 
-Подробные сведения об использовании Командная консоль Lync Server см. в разделе [Командная консоль Lync Server](lync-server-2013-lync-server-management-shell.md).
+<span data-ttu-id="57461-121">Подробнее об использовании командной консоли Lync Server можно узнать в разделе [Lync server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).</span><span class="sxs-lookup"><span data-stu-id="57461-121">For details about how to use the Lync Server Management Shell, see [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md).</span></span>
 
-## Настройка поставщика услуг размещения на пограничном сервере
+</div>
 
-С помощью Командная консоль Lync Server настройте поставщика услуг размещения на сервер, выполнив командлет **New-CsHostingProvider** с использованием параметров, показанных в следующем примере.
+<div>
+
+## <a name="configure-a-hosting-provider-on-the-edge-server"></a><span data-ttu-id="57461-122">Настройка поставщика услуг размещения на пограничном сервере</span><span class="sxs-lookup"><span data-stu-id="57461-122">Configure a Hosting Provider on the Edge Server</span></span>
+
+<span data-ttu-id="57461-123">Для настройки поставщика услуг размещения на пограничном сервере используйте командную консоль Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="57461-123">Use the Lync Server Management Shell to configure a hosting provider on the Edge Server.</span></span> <span data-ttu-id="57461-124">Для этого выполните командлет **New-кшостингпровидер** с помощью параметров, описанных в приведенном ниже примере.</span><span class="sxs-lookup"><span data-stu-id="57461-124">To do this, run the **New-CsHostingProvider** cmdlet, using the parameters in the following example:</span></span>
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-> [!NOTE]  
-> При использовании Office 365 под управлением 21Vianet в Китае замените значение для параметра <strong>ProxyFqdn</strong> (например, exap.um.outlook.com) на полное доменное имя для службы под управлением 21Vianet: «exap.um.partner.outlook.cn».
+<div>
 
-  - Параметр **Identity** определяет строковое значение уникального идентификатора для создаваемого поставщика услуг размещения (например, "Exchange Online"). Значения с пробелами должны заключаться в двойные кавычки.
 
-  - Параметр **Enabled** определяет, включено ли сетевое соединение между вашим доменом и поставщиком услуг размещения. Должен иметь значение True.
+> [!NOTE]
+> <span data-ttu-id="57461-125">При использовании Office 365 под управлением 21Vianet в Китае замените значение для параметра <STRONG>ProxyFqdn</STRONG> (например, exap.um.outlook.com) на полное доменное имя для службы под управлением 21Vianet: "exap.um.partner.outlook.cn".</span><span class="sxs-lookup"><span data-stu-id="57461-125">If you are using Office 365 operated by 21Vianet in China, replace the value for the <STRONG>ProxyFqdn</STRONG> parameter in this example ("exap.um.outlook.com") with the FQDN for the service operated by 21Vianet: "exap.um.partner.outlook.cn".</span></span>
 
-  - Параметр **EnabledSharedAddressSpace** определяет, используется ли поставщик услуг размещения в общем адресном пространстве SIP. Должен иметь значение True.
 
-  - Параметр **HostsOCSUsers** указывает, используется ли поставщик услуг размещения для размещения Office Communications Server или Lync Server. Должен иметь значение False.
 
-  - Параметр **ProxyFQDN** определяет полное доменное имя прокси-сервера, используемого поставщиком услуг размещения. Для Exchange Online полное доменное имя – exap.um.outlook.com.
+</div>
 
-  - Параметр **IsLocal** указывает на то, входит ли прокси-сервер, используемый поставщиком услуг размещения, в вашу топологию Lync Server. Должен иметь значение False.
+  - <span data-ttu-id="57461-126">Параметр **Identity** определяет строковое значение уникального идентификатора для создаваемого поставщика услуг размещения (например, "Exchange Online").</span><span class="sxs-lookup"><span data-stu-id="57461-126">**Identity** specifies a unique string value identifier for the hosting provider that you are creating (for example, "Exchange Online").</span></span> <span data-ttu-id="57461-127">Значения, содержащие пробелы, должны быть заключены в двойные кавычки.</span><span class="sxs-lookup"><span data-stu-id="57461-127">Values that contain spaces must be in double quotation marks.</span></span>
 
-  - Параметр **VerificationLevel** указывает разрешенный уровень проверки сообщений, отправляемых поставщику и получаемых от него. Задайте значение **UseSourceVerification**, при котором используется уровень проверки, добавленный в сообщения, отправляемые поставщиком услуг размещения. Если этот уровень не указан, сообщения будут отклоняться как недоступные для проверки.
+  - <span data-ttu-id="57461-128">Параметр **Enabled** указывает, разрешено ли сетевое подключение между вашим доменом и поставщиком услуг размещения.</span><span class="sxs-lookup"><span data-stu-id="57461-128">**Enabled** indicates whether the network connection between your domain and the hosting provider is enabled.</span></span> <span data-ttu-id="57461-129">Должно быть задано **значение true**.</span><span class="sxs-lookup"><span data-stu-id="57461-129">This must be set to **True**.</span></span>
 
-## Проверка репликации обновленного центрального хранилища управления
+  - <span data-ttu-id="57461-130">Параметр **EnabledSharedAddressSpace** определяет, используется ли поставщик услуг размещения в общем адресном пространстве SIP.</span><span class="sxs-lookup"><span data-stu-id="57461-130">**EnabledSharedAddressSpace** indicates whether the hosting provider will be used in a shared SIP address space scenario.</span></span> <span data-ttu-id="57461-131">Должно быть задано **значение true**.</span><span class="sxs-lookup"><span data-stu-id="57461-131">This must be set to **True**.</span></span>
 
-Изменения, которые вы вносите с помощью описанных выше командлетов, применяются к сервер автоматически, и на их репликацию обычно требуется меньше минуты. Вы можете проверить состояние репликации и затем убедиться в том, что изменения были применены к сервер, с помощью следующих командлетов.
+  - <span data-ttu-id="57461-132">**Хостсоксусерс** указывает, используется ли поставщик услуг размещения для размещения Office Communications Server или Lync Server.</span><span class="sxs-lookup"><span data-stu-id="57461-132">**HostsOCSUsers** indicates whether the hosting provider is used to host Office Communications Server or Lync Server.</span></span> <span data-ttu-id="57461-133">Для него должно быть задано **значение false**.</span><span class="sxs-lookup"><span data-stu-id="57461-133">This must be set to **False**.</span></span>
 
-Чтобы проверить состояние репликации, на внутреннем сервере развертывания Lync Server выполните следующий командлет.
+  - <span data-ttu-id="57461-134">Параметр **ProxyFQDN** определяет полное доменное имя прокси-сервера, используемого поставщиком услуг размещения.</span><span class="sxs-lookup"><span data-stu-id="57461-134">**ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider.</span></span> <span data-ttu-id="57461-135">Полное доменное имя Exchange Online: exap.um.outlook.com.</span><span class="sxs-lookup"><span data-stu-id="57461-135">For Exchange Online, the FQDN is exap.um.outlook.com.</span></span>
+
+  - <span data-ttu-id="57461-136">\*\*\*\* "WebProxy" показывает, является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Lync.</span><span class="sxs-lookup"><span data-stu-id="57461-136">**IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Lync Server topology.</span></span> <span data-ttu-id="57461-137">Для него должно быть задано **значение false**.</span><span class="sxs-lookup"><span data-stu-id="57461-137">This must be set to **False**.</span></span>
+
+  - <span data-ttu-id="57461-138">**Верификатионлевел** указывает уровень проверки, разрешенный для сообщений, отправляемых и получаемых поставщиком услуг хостинга.</span><span class="sxs-lookup"><span data-stu-id="57461-138">**VerificationLevel** indicates the verification level allowed for messages that are sent to and from the hosted provider.</span></span> <span data-ttu-id="57461-139">Укажите **усесаурцеверификатион**.</span><span class="sxs-lookup"><span data-stu-id="57461-139">Specify **UseSourceVerification**.</span></span> <span data-ttu-id="57461-140">Этот параметр основывается на уровне проверки, который включен в сообщения, отправляемые поставщиком услуг размещения.</span><span class="sxs-lookup"><span data-stu-id="57461-140">This option relies on the verification level that is included in messages that are sent from the hosting provider.</span></span> <span data-ttu-id="57461-141">Если этот уровень не указан, сообщение будет отвергнуто как Непроверяемое.</span><span class="sxs-lookup"><span data-stu-id="57461-141">If this level is not specified, the message will be rejected as being unverifiable.</span></span>
+
+</div>
+
+<div>
+
+## <a name="verify-replication-of-the-updated-central-management-store"></a><span data-ttu-id="57461-142">Проверка репликации обновленного центрального хранилища управления</span><span class="sxs-lookup"><span data-stu-id="57461-142">Verify Replication of the Updated Central Management Store</span></span>
+
+<span data-ttu-id="57461-143">Изменения, внесенные с помощью командлетов в предыдущих разделах, автоматически применяются к пограничного сервера, и для их репликации обычно требуется менее одной минуты.</span><span class="sxs-lookup"><span data-stu-id="57461-143">The changes that you made by using the cmdlets in the preceding sections are automatically applied to the Edge Server, and generally take less than one minute to replicate.</span></span> <span data-ttu-id="57461-144">Вы можете проверить состояние репликации и применить изменения на пограничном сервере с помощью следующих командлетов.</span><span class="sxs-lookup"><span data-stu-id="57461-144">You can verify the replication status and that the changes were applied to your Edge Server by using the following cmdlets.</span></span>
+
+<span data-ttu-id="57461-145">Чтобы проверить наличие обновлений репликации на внутреннем сервере в развертывании Lync Server, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="57461-145">To verify replication updates on a server internal in your Lync Server deployment, run the following cmdlet:</span></span>
 
     Get-CsManagementStoreReplicationStatus
 
-Чтобы проверить, были ли применены изменения, на сервер выполните следующий командлет.
+<span data-ttu-id="57461-146">Чтобы убедиться в том, что изменения применены, выполните на пограничном сервере следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="57461-146">To verify that the changes were applied, run the following cmdlet on the Edge Server:</span></span>
 
     Get-CsHostingProvider -LocalStore
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Предоставление пользователям Lync Server 2013 голосовой почты в размещенной единой системе обмена сообщениями Exchange](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)  
-[Интеграция с размещенной единой системой обмена сообщениями Exchange в Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+## <a name="see-also"></a><span data-ttu-id="57461-147">См. также</span><span class="sxs-lookup"><span data-stu-id="57461-147">See Also</span></span>
+
+
+[<span data-ttu-id="57461-148">Предоставление пользователям Lync Server 2013 голосовой почты в размещенной единой системе обмена сообщениями Exchange</span><span class="sxs-lookup"><span data-stu-id="57461-148">Providing Lync Server 2013 users voice mail on hosted Exchange UM</span></span>](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)  
+[<span data-ttu-id="57461-149">Интеграция с размещенной единой системой обмена сообщениями Exchange в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57461-149">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

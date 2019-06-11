@@ -1,21 +1,51 @@
-﻿---
-title: Применение обновлений Office Communications Server 2007 R2
-TOCTitle: Применение обновлений Office Communications Server 2007 R2
-ms:assetid: d5f298ed-2d7d-4e0f-b45b-b2d665e5945e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205302(v=OCS.15)
-ms:contentKeyID: 49311311
-ms.date: 12/17/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Установка обновлений Office Communications Server 2007 R2
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Apply Office Communications Server 2007 R2 updates
+ms:assetid: d5f298ed-2d7d-4e0f-b45b-b2d665e5945e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205302(v=OCS.15)
+ms:contentKeyID: 48185546
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 670f5a453afa7890027585e56b249246bdc716c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841107"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Применение обновлений Office Communications Server 2007 R2
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-16_
+# <a name="apply-office-communications-server-2007-r2-updates"></a><span data-ttu-id="60e94-102">Установка обновлений Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="60e94-102">Apply Office Communications Server 2007 R2 updates</span></span>
 
-Перед переходом на Lync Server 2013 необходимо применить обновления к среде Office Communications Server 2007 R2. Наиболее актуальную информацию о Office Communications Server 2007 R2 см. в разделе **Обновления дляCommunications Server 2007 R2** по адресу [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+</div>
 
-Чтобы установить обновления для Office Communications Server 2007 R2 рекомендуется следовать инструкциям **Метод 1 — средство общей установки обновлений сервера**, описанной в статье 968802 базы знаний корпорации Майкрософт «Обновления для Communications Server 2007 R2» по адресу [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="60e94-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="60e94-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="60e94-104">Перед переходом на Lync Server 2013 необходимо применить обновления к среде Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="60e94-104">Before you migrate to Lync Server 2013, updates must be applied to your Office Communications Server 2007 R2 environment.</span></span> <span data-ttu-id="60e94-105">Последние сведения о Office Communications Server 2007 R2 можно найти в статьях **обновления для** **Communications Server 2007 R2** по адресу [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span><span class="sxs-lookup"><span data-stu-id="60e94-105">For the most up-to-date information about Office Communications Server 2007 R2, see **Updates for** **Communications Server 2007 R2** at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span></span>
+
+<span data-ttu-id="60e94-106">Чтобы установить обновления для Office Communications Server 2007 R2, рекомендуем воспользоваться процедурой, описанной в разделе **1 накопительный пакет обновления** для Microsoft Knowledge Base в статье 968802 "обновления для Communications Server 2007 R2" [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span><span class="sxs-lookup"><span data-stu-id="60e94-106">To install updates for Office Communications Server 2007 R2, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in Microsoft Knowledge Base article 968802, "Updates for Communications Server 2007 R2," at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=968802](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968802).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
