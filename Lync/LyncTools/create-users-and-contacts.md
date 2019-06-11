@@ -1,156 +1,243 @@
-﻿---
-title: Create Users and Contacts
+---
+title: Создание пользователей и контактов
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945587(v=OCS.15)
-ms:contentKeyID: 52058566
-ms.date: 08/03/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
+ms:contentKeyID: 51541412
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842047"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Create Users and Contacts
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-22_
+# <a name="create-users-and-contacts"></a>Создание пользователей и контактов
 
-You must use the Lync Server 2013 User Provisioning Tool (UserProvisioningTool.exe) to create users and contacts in preparation for stress and performance load testing.
+</div>
 
-Here is a list of terms and definitions that you might find useful as you read through this topic.
+<div id="mainSection">
 
-  - Organizational Unit – The Active Directory (AD DS) organizational unit (OU).
+<div id="mainBody">
 
-  - Federated / Cross Pool – Users who will be enabled to communicate with users from other Instant Messaging (IM) services, such as MSN network of Internet services, AOL®, and Yahoo\!®.
+<span> </span>
 
-  - Distribution Lists – The objects in Active Directory Domain Services that contain a list of Active Directory Domain Services users, used for launching communications with groups of people.
+_**Тема последнего изменения:** 2013-02-22_
 
-  - Location Info Service – The Lync Server 2013 service that, when enabled and configured per phone, enables retrieval of physical location for Enhanced 9-1-1 (E9-1-1) services.
+Для создания пользователей и контактов в целях подготовки к нагрузке и нагрузочному тестированию необходимо использовать средство подготовки пользователей Lync Server 2013 (Усерпровисионингтул. exe).
 
-  - U.S. Phone Numbers – The phone numbers that are assigned to users, in addition to the SIP URI that is used for routing inbound and outbound calls and reverse number lookup (RNL).
+Ниже приведен список терминов и определений, которые могут оказаться полезными для прочтения по этой теме.
 
-## Create Users and Contacts by Using UserProvisioningTool.exe
+  - Организационное подразделение — организационное подразделение доменных служб Active Directory (OU).
 
-You must use the Lync Server User Provisioning Tool to create users and contacts for load simulation. The Lync Server User Provisioning Tool is installed with the Lync Server Stress and Performance Tool package. Be sure that the package installer (CapacityPlanningTool.msi) has been run on the Front End Server or the Standard Edition server. Start the Lync Server User Provisioning Tool by running the file UserProvisioningTool.exe (located at %InstalledDirectory%LyncStressAndPerfTool\\LyncStress) on the Front End Server or on the Standard Edition server.
+  - Федеративные и перекрестный пулы — пользователи, которые будут доступны для общения с пользователями из других служб обмена мгновенными сообщениями (например, сети MSN, Интернет-служб, AOL® и Yahoo\!®).
 
-> [!IMPORTANT]
-> You must be logged on as a member of the Domain Admins security group in order to run UserProvisioningTool.exe. It is necessary to run from this context because UserProvisioningTool.exe will be creating and configuring new Active Directory Domain Services users.
+  - Списки рассылки — объекты в доменных службах Active Directory, содержащие список пользователей доменных служб Active Directory, которые используются для запуска связи с группами пользователей.
+
+  - Служба сведений о расположении — служба Lync Server 2013, которая, если она включена и настроена на телефоне, обеспечивает получение физического местоположения для расширенных служб 9-1-1 (E9-1-1).
+
+  - Номера телефонов в США — номера телефонов, назначенные пользователям, а также URI SIP, который используется для маршрутизации входящих и исходящих звонков, а также обратного просмотра номера (РНЛ).
+
+<div>
+
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Создание пользователей и контактов с помощью Усерпровисионингтул. exe
+
+Для создания пользователей и контактов для моделирования нагрузки необходимо использовать средство подготовки пользователей Lync Server. Средство подготовки пользователей Lync Server устанавливается вместе с пакетом инструментов для Lync Server для выгрузки и производительности. Убедитесь, что установщик пакетов (КапаЦитипланнингтул. msi) запущен на сервере переднего плана или стандартном сервере выпуске. Запустите средство подготовки пользователей Lync Server, запустив файл Усерпровисионингтул. exe (расположенный на странице% Инсталледдиректори% Линкстрессандперфтул\\линкстресс) на сервере переднего плана или на сервере Standard Edition.
+
+<div>
 
 
-> [!NOTE]
-> When you create a significant number of users (10,000 or more), run UserProvisioningTool.exe from a high-end computer. Note that the domain controller will also experience high load while the users are being created.
-
-
-When the Lync Server User Provisioning Tool opens, click **Configuration** and select **Load Configuration**. To begin configuring users and contacts, load the default file that is included in the package, SampleData.xml. This will prepopulate the fields with example data that you'll need to revise for your system. If you have a preconfigured XML file that already contains customized settings, load that file instead. Fill in the fields in the Lync Server User Provisioning Tool, as described in the following sections.
-
-![Вкладка User Creation (Создание пользователя).](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Вкладка User Creation (Создание пользователя).")
-
-To configure server options, follow these steps.
-
-1.  In **Front End Pool FQDN**, type the fully qualified domain name (FQDN) of the Standard Edition server or Front End pool where you want to host the users.
-
-2.  In **User Name Prefix**, type a prefix that you want to use to build user names for testing purposes.
-
-3.  In **Password**, specify a password that will be applied for all of the test user accounts.
-
-4.  In **SIP Domain**, type the domain name to be used for test users’ SIP URIs (Uniform Resource Identifiers).
-
-5.  In **Account Domain**, type the domain name of your current Active Directory Domain Services domain, under which you want to create the test users.
-
-6.  In **Organizational Unit**, type the name of the Active Directory Domain Services OU where you want to create the User objects. If the OU does not exist, it will be created.
-
-7.  In **Phone Area Code**, type the three-digit area code that will be used for test user accounts. Be sure that phone area code does not conflict with any other users’ area codes in Active Directory Domain Services.
-
-8.  Select the **Voice Enabled** check box if you want to enable the test users for корпоративной голосовой связи.
-
-9.  In **Number of Users**, specify the total number of test users that you want to create.
-
-10. In **Start Index**, specify the starting number that will be used as suffix to the user name prefix.
-
-## Create Users Button
-
-When you click on the Create Users button, it will validate all the input parameters.
-
-  - If there are any validation errors, it will prompt you to correct those input values.
-
-  - If all the input values are correct, it will start creating users in Active Directory Domain Services. A progress bar will appear at the bottom of this form. We recommend that you do not close the application while the progress bar is active.
-
-User Creation is a slow process. It can take several minutes. If the number of users is very large, the process could even take a few hours. If the users already exist, they are updated with any changes. You can validate that the users were created by logging on as one of the users in the range. Use the user prefix, user number, and @sipDomain as the user name (for example, LyncUser10@contoso.net), along with the specified password.
-
-## Delete Users Button
-
-When you click on Delete Users button, it will validate all the input parameters.
-
-  - If there are any validation errors, it will prompt you to correct those input values.
-
-  - If all the input values are correct, it will start disabling and deleting users in Active Directory Domain Services. A progress bar will appear at the bottom of this form. We recommend that you do not close the application while the progress bar is active.
-
-> [!NOTE]
-> <ol><li><p>Only U.S.-formatted phone numbers are supported. Phone numbers are always assigned to users, and all users created by UserProvisioningTool.exe are enabled for корпоративной голосовой связи. Any scenarios that use the phone number, such as Conferencing Auto Attendant or UC-PSTN calls, use this phone number to properly route calls. For this reason, every user must have a unique phone number. If you have to create users twice, the command will fail unless you use a different area code, or if the previous users have been disabled by using the <strong>Disable-CsUser</strong> cmdlet.</p></li><li><p>Before you create contacts, you must first complete user replication, performed from the Users tab. If you have just created your users, you must wait until Lync Server replication completes and populates the user accounts in the database. If the users have not finished replicating, you will see an error. You will know when users have finished replicating if Lync Server 2013 Front End service has started, or by successfully running the <strong>Get-CsUser</strong> cmdlet on the last user.</p></li>
-</ol>
+> [!IMPORTANT]  
+> Для запуска Усерпровисионингтул. exe необходимо войти в систему в качестве члена группы безопасности администраторов домена. Это необходимо для запуска из этого контекста, так как Усерпровисионингтул. exe будет создавать и настраивать новые пользователи доменных служб Active Directory.
 
 
 
+</div>
 
-## Contacts Creation Tab
+<div>
 
-The Contacts Creation tab enables you to specify details for users’ contacts.
 
-![Вкладка Contacts Creation (Создание контактов).](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Вкладка Contacts Creation (Создание контактов).")
+> [!NOTE]  
+> Создав большое количество пользователей (10 000 или более), запустите Усерпровисионингтул. exe с высокодоступного компьютера. Обратите внимание, что при создании пользователей контроллер домена также будет работать с высокой загрузкой.
 
-To configure users’ contacts, follow these steps.
 
-1.  In Average Contacts per User, specify the average number of contacts to populate in contact lists for each of the users.
 
-2.  Select the Fixed check box if you want to create an equal number of contacts for every user. If you want to vary the number of contacts created for users, clear the check box.
+</div>
 
-3.  In Average Contact Groups per User, specify the number of contact groups per user. This number must be smaller than Average Contacts per User.
+Когда откроется средство подготовки пользователей Lync Server, нажмите кнопку **Конфигурация** и выберите пункт **загрузить конфигурацию**. Чтобы приступить к настройке пользователей и контактов, загрузите файл по умолчанию, который входит в пакет, Сампледата. XML. Эти поля будут предварительно заполнены данными примера, которые необходимо исправить для вашей системы. Если у вас есть предварительно настроенный XML-файл, который уже содержит настроенные параметры, загрузите его. Заполните поля в средстве подготовки пользователей Lync Server, как описано в следующих разделах.
 
-4.  In Federated / Cross Pool Contacts Percentage, specify a number between 0 and 100. This percentage of contacts will be created with the federated users.
+![Вкладка "Создание пользователя".] (images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Вкладка \"Создание пользователя\".")
 
-5.  In Federated / Cross Pool User Prefix, specify the username for federated users that will be added to the contact lists of local users.
+Чтобы настроить параметры сервера, выполните указанные ниже действия.
 
-6.  In Federated / Cross Pool User SIP Domain, specify the SIP Domain Name of the federated users.
+1.  В **доменном имени пула переднего плана**введите полное доменное имя (FQDN) сервера Standard Edition или пула переднего плана, где вы хотите разместить пользователей.
+
+2.  В параметре **префикс имени пользователя**введите префикс, который вы хотите использовать для создания имен пользователей в целях тестирования.
+
+3.  В поле **Password (пароль**) укажите пароль, который будет применяться для всех тестовых учетных записей пользователей.
+
+4.  В **домене SIP**введите имя домена, которое будет использоваться для проверки URI SIP (универсальные коды ресурсов) для тестовых пользователей.
+
+5.  В поле **домен учетной записи**введите доменное имя текущего домена доменных служб Active Directory, в котором вы хотите создать тестовые пользователи.
+
+6.  В **** разделе организационное подразделение введите имя подразделения доменных служб Active Directory, в котором вы хотите создать объекты пользователей. Если подразделение не существует, оно будет создано.
+
+7.  В поле **код телефонной города**введите код города с тремя цифрами, который будет использоваться для тестовых учетных записей пользователей. Убедитесь, что код телефонной области не конфликтует с кодами областей других пользователей в доменных службах Active Directory.
+
+8.  Установите флажок **включить голосовой звонок** , если вы хотите включить тестовых пользователей для корпоративного голосовой связи.
+
+9.  В разделе **количество пользователей**укажите общее количество тестовых пользователей, которых вы хотите создать.
+
+10. В поле **начальный индекс**укажите начальный номер, который будет использоваться в качестве суффикса к префиксу имени пользователя.
+
+<div>
+
+## <a name="create-users-button"></a>Кнопка "создать пользователей"
+
+При нажатии кнопки "создать пользователей" будут проверены все входные параметры.
+
+  - Если обнаружены ошибки проверки подлинности, вам будет предложено исправить введенные значения.
+
+  - Если все входные значения указаны правильно, они начнут создавать пользователей в доменных службах Active Directory. В нижней части формы появится индикатор выполнения. Мы не рекомендуем закрывать приложение, когда активен индикатор выполнения.
+
+Создание пользователей — это медленный процесс. Это может занять несколько минут. Если количество пользователей очень велико, процесс может даже занять несколько часов. Если пользователи уже существуют, они будут обновляться с учетом всех изменений. Вы можете проверить, что пользователи были созданы, войдя в систему как один из пользователей в диапазоне. Используйте префикс пользователя, номер пользователя и @sipDomain в качестве имени пользователя (например, LyncUser10@contoso.net), а также указанного пароля.
+
+</div>
+
+<div>
+
+## <a name="delete-users-button"></a>Кнопка "удалить пользователей"
+
+При нажатии кнопки удалить пользователей будут проверены все входные параметры.
+
+  - Если обнаружены ошибки проверки подлинности, вам будет предложено исправить введенные значения.
+
+  - Если все введенные значения верны, они будут отключены и удалены для пользователей доменных служб Active Directory. В нижней части формы появится индикатор выполнения. Мы не рекомендуем закрывать приложение, когда активен индикатор выполнения.
+
+<div>
+
+
+> [!NOTE]  
+> <OL>
+> <LI>
+> <P>Поддерживаются только телефонные номера в формате "США". Номера телефонов назначаются пользователям, и все пользователи, созданные в Усерпровисионингтул. exe, включены для корпоративной голосовой связи. В любых сценариях, использующих номер телефона (например, автосекретарь конференц-связи или телефонные номера PSTN – КТСОП), используйте этот телефонный номер для правильного направления звонков. По этой причине у каждого пользователя должен быть уникальный номер телефона. Если вы хотите дважды создавать пользователей, команда завершится сбоем, если не используется другой код города или если предыдущие пользователи отключены с помощью командлета <STRONG>Disable-CsUser</STRONG> .</P>
+> <LI>
+> <P>Прежде чем создавать контакты, необходимо сначала завершить репликацию пользователей, выполненную на вкладке Пользователи. Если вы только что создали пользователей, вы должны дождаться завершения репликации Lync Server и заполнения учетных записей пользователей в базе данных. Если репликация пользователей еще не завершилась, появится сообщение об ошибке. Вы будете знать, когда пользователи завершили репликацию при запуске службы внешнего интерфейса Lync Server 2013 или успешно выполнили командлет <STRONG>Get-CsUser</STRONG> для последнего пользователя.</P></LI></OL>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="contacts-creation-tab"></a>Вкладка "Создание контактов"
+
+С помощью вкладки "Создание контактов" можно указать сведения о контактах пользователей.
+
+![Вкладка "Создание контактов".] (images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Вкладка \"Создание контактов\".")
+
+Чтобы настроить контакты пользователей, выполните указанные ниже действия.
+
+1.  В разделе "среднее число контактов на пользователя" Укажите среднее количество контактов, которые должны быть заполнены в списках контактов для каждого из пользователей.
+
+2.  Установите флажок "фиксированный", если вы хотите создать одинаковое количество контактов для каждого пользователя. Если вы хотите изменить число контактов, созданных для пользователей, снимите этот флажок.
+
+3.  В разделе "среднее число групп контактов на пользователя" укажите количество групп контактов для каждого пользователя. Это число должно быть меньше среднего количества контактов на пользователя.
+
+4.  В процентах между федеративными и перекрестными пулами укажите число от 0 до 100. Этот процент контактов будет создан для федеративных пользователей.
+
+5.  В одноименном и междоменном префиксе пользователя пула укажите имя пользователя для федеративных пользователей, которые будут добавлены в список контактов локальных пользователей.
+
+6.  В домене "Федеративные и междоменные пользователи пула" Укажите доменное имя SIP для федеративных пользователей.
     
-    > [!NOTE]
-    > None of the users should be signed in when creating contacts.
-
-
-7.  In User Creation tab, verify that the parameters are correct. The range of users for which contacts will be created is obtained from the User Creation tab.
-
-8.  Click Create Contacts to begin the contact creation. This process can take several minutes. After it completes, a dialog box will appear with the message, "Operation Completed Successfully." You can validate the contacts that were created by logging on as a user that was created from the User Creation tab.
+    <div>
     
-    > [!NOTE]
-    > After the contacts are created, this tool will restart all the Front End Servers in the target pool. It may take longer (up to 2 hours) for the Front End Servers to start, depending on how many contacts were created by this operation.
 
+    > [!NOTE]  
+    > При создании контактов ни один из пользователей не должен входить в учетную записную книжку.
 
-## Distribution List
+    
+    </div>
 
-One of the features of the Lync Server 2013 Stress and Performance Tool is to simulate the distribution list (DL) expansion feature in Lync 2013. If you are not going to enable DL expansion in UserProvisioningTool, you can skip this step.
+7.  На вкладке Создание пользователей убедитесь, что параметры заданы правильно. Диапазон пользователей, для которых будут созданы контакты, получается с вкладки Создание пользователей.
 
-![Вкладка Distribution List Creation (Создание списка рассылки).](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Вкладка Distribution List Creation (Создание списка рассылки).")
+8.  Нажмите кнопку Создать контакты, чтобы начать создание контакта. Этот процесс может занять несколько минут. После завершения работы появится диалоговое окно с сообщением "операция выполнена успешно". Вы можете проверить контакты, созданные при входе в систему в качестве пользователя, который был создан на вкладке Создание пользователей.
+    
+    <div>
+    
 
-The Distribution List tab enables you to create DLs that the Stress and Performance Tool will use for Distribution List Expansion feature. Prior to creating DLs, Lync Server 2013 must already be installed. You must have run Lync Server 2013 ForestPrep. Otherwise, the DL attributes do not exist in the Active Directory Domain Services schema and the tool will not be able to create DLs.
+    > [!NOTE]  
+    > После создания контактов это средство перезапускает все серверы переднего плана в целевом пуле. Для начала работы сервера переднего плана может потребоваться больше времени (до 2 часов) в зависимости от того, сколько контактов было создано в этой операции.
 
-To configure distribution lists, follow these steps.
+    
+    </div>
 
-1.  In Number of Distribution Lists, specify the total number of DLs that you want to create. (We recommend that you start with twice the number of users). They are numbered from 0 to n-1.
+</div>
 
-2.  In Distribution List Prefix, specify the prefix that the DLs will have. For example if you specify 100 DLs and a prefix of testDL, the DLs will be named testDL0, testDL1, and so on, through testDL99.
+<div>
 
-3.  In Minimum Members in a Dist. List, specify the minimum number of users to add in each Distribution List.
+## <a name="distribution-list"></a>Список рассылки
 
-4.  In Maximum Members in a Dist. List, specify the maximum number of users to add in each Distribution List.
+Одной из функций средства нагрузки и производительности Lync Server 2013 является имитация возможности расширения списка рассылки (DL) в Lync 2013. Если вы не собираетесь использовать расширение DL в Усерпровисионингтул, вы можете пропустить этот шаг.
 
-## Create Distribution Lists Button
+![Вкладка "Создание списка рассылки".] (images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Вкладка \"Создание списка рассылки\".")
 
-When you click the Create Distribution Lists button, the tool queries Active Directory (AD DS) to see if distribution lists matching the prefix and numbers already exist. The tool will create only the ones that do not already exist. When adding members to these newly created Distribution Lists, it will pick the users from the range specified on the User Creation tab.
+Вкладка "список рассылки" позволяет создавать списки, которые будут использоваться средством "стресс и производительность" для расширения списка рассылки. Прежде чем создавать списки рассылки, Lync Server 2013 должен быть уже установлен. Необходимо запустить Lync Server 2013 ForestPrep. В противном случае атрибуты списка рассылки не существуют в схеме доменных служб Active Directory, и средство не сможет создавать списки рассылки.
 
-## Location Info Service Config Tab
+Чтобы настроить списки рассылки, выполните указанные ниже действия.
 
-One of the features of the Lync Server 2013 Stress and Performance Tool is to generate dummy configuration files for the Location Information Service. The Location Information Service typically does not have any significant performance impact on the servers.
+1.  В списке рассылки укажите общее количество библиотек документов, которые вы хотите создать. (Мы рекомендуем начать с двойного раза с количеством пользователей). Нумерация от 0 до n-1.
 
-![Вкладка Location Info Service Config (Конфигурация сервиса данных о местоположении).](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Вкладка Location Info Service Config (Конфигурация сервиса данных о местоположении).")
+2.  В префиксе списка рассылки укажите префикс, который будет содержать списки рассылки. Например, если вы задаете списки рассылки 100 и префикс Тестдл, списки рассылки будут называться testDL0, testDL1 и т. д. через testDL99.
 
-If you choose to test this feature, you can fill in the values mentioned in the form and then click the Generate LIS Config Files button. It will generate CSV files called LIS\_Subnet.csv, LIS\_Switches.csv, LIS\_Ports.csv, and LIS\_WAP.csv. You can then import these CSV files into LIS database by using the **Set-CsLisSubnet** cmdlet, the **Set-CsLisSwitch** cmdlet, the **Set-CsLisPort** cmdlet, and the **Set-CsWirelessAccessPoint** cmdlet, respectively.
+3.  В списке минимальное число участников в файле Redist. Укажите Минимальное количество пользователей, которые нужно добавить в каждый список рассылки.
+
+4.  В списке Максимальное число участников в файле Redist. Укажите максимальное количество пользователей, которые нужно добавить в каждый список рассылки.
+
+<div>
+
+## <a name="create-distribution-lists-button"></a>Кнопка создания списков рассылки
+
+При нажатии кнопки "создать списки рассылки" средство запрашивает доменные службы Active Directory, чтобы узнать, совпадают ли списки рассылки, удовлетворяющие этому префиксу, и эти номера уже существуют. Средство создаст только те из них, которые еще не существуют. При добавлении участников в созданные списки рассылки выводятся пользователи из диапазона, указанного на вкладке Создание пользователей.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="location-info-service-config-tab"></a>Вкладка "Настройка службы сведений о расположении"
+
+Одной из функций средства нагрузки и производительности Lync Server 2013 является создание фиктивных файлов конфигурации для службы сведений о расположении. Как правило, в службе сведений о расположении не влияет производительность серверов.
+
+![Вкладка "Настройка службы сведений о расположении".] (images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Вкладка \"Настройка службы сведений о расположении\".")
+
+Если вы решите протестировать эту функцию, вы можете ввести значения, указанные в форме, и нажать кнопку Создать файлы в файле LIS. Он будет создавать CSV-файлы с\_названием "подсеть\_LIS. csv",\_переключатели LIS. csv,\_порты LIS. csv и LIS. csv. Затем вы можете импортировать эти CSV-файлы в базу данных LIS с помощью командлета **Set-кслиссубнет** , командлета Set- **кслиссвитч** , командлета **Set-кслиспорт** и командлета **Set-ксвирелессакцесспоинт** соответственно.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

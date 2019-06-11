@@ -1,57 +1,91 @@
-﻿---
-title: 'Lync Server 2013: Change management'
+---
+title: 'Lync Server 2013: Управление изменениями'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720336(v=OCS.15)
-ms:contentKeyID: 62222400
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
+ms:contentKeyID: 63969618
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 13eb521ea6b4be5f8d701885df65a3e1672b2eaa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841621"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Change management in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-08-18_
+# <a name="change-management-in-lync-server-2013"></a>Управление изменениями в Lync Server 2013
 
-Changes to the IT environment are unavoidable. Changes include new technologies, systems, applications, hardware, tools, processes, and changes in roles and responsibilities. An effective change management system lets you introduce changes to the IT environment quickly and with minimal service disruption. A change management system brings together the teams involved in changing a system. For example, deciding to take advantage of the веб-приложения Office Web Apps. This is an integrated Lync Service application that enables users to read and edit documents in a browser. The implementation of this service, after you have gone into production, requires the involvement of several teams:
+</div>
 
-  - **Test Team**   This team load-tests the веб-приложения Office Web Apps on a test server, in the process providing information about the expected usage patterns and expected performance of the production servers.
+<div id="mainSection">
 
-  - **Lync Administrators**   This team determines the deployment strategy and scripts the installation where it was possible. The team is responsible for making sure that the change is deployed on the production environment, and it is responsible for administration afterward. The team must understand the effect of the changes and incorporate them in procedures before the changes are put into production
+<div id="mainBody">
 
-  - **Network Team**   This team is responsible for changes to firewall rules that allow access from the Internet to the internal Lync pool servers. The team is also responsible in working with the Lync administrators for making sure that the available bandwidth can support the additional load.
+<span> </span>
 
-  - **Security Team**   This team assesses security and minimizes risks. The security team must review known vulnerabilities and help ensure that security risks are minimized.
+_**Тема последнего изменения:** 2014-08-18_
 
-  - **User Acceptance Team**   This team is composed of users who are willing to test the system and offer feedback for improvements.
+Изменения в среде информационных сред не поддерживаются. Изменения включают в себя новые технологии, системы, приложения, оборудование, инструменты, процессы и изменения ролей и обязанностей. Эффективная система управления изменениями позволяет быстро вносить изменения в ИНФОРМАЦИОНную среду и с минимальным вмешательством в службу. Система управления изменениями объединяет вместе группы, вовлеченные в изменение системы. Например, вы решите использовать преимущества Office Web Apps. Это интегрированное приложение служб Lync, позволяющее пользователям читать и редактировать документы в браузере. Реализация этой службы после того, как вы пропали производственную среду, требует вовлечения нескольких команд:
 
-The change management process defines the responsibilities of each team and schedules the work to be performed, incorporating checks and tests where they are required. Change controls will vary depending on the complexity and expected effect of a change. They can vary from automatic approval of minor changes, to change review meetings, to full project-level reviews. To explain this better, the groups of changes are discussed in this section.
+  - **Пробная группа**   . Эта группа командной нагрузки — тестирование веб-приложений Office на тестовом сервере, предоставление сведений о ожидаемых шаблонах использования и ожидаемой производительности рабочих серверов.
 
-  - **Major Changes**   Major changes have a global effect on the system and may require input from various teams. An example of this is upgrading to Lync Server 2013. Major changes affect many teams and perhaps different systems. The change management process will probably include one or more change review meetings to inform the teams that will be involved in the change or be affected by the change.
+  - **Администраторы Lync.**   эта группа определяет стратегию развертывания и сценарии, в которых она может быть установлена. Группа несет ответственность за то, что изменение развертывается в производственной среде, и за это будет ответственным за администрирование. Группа должна понять эффект изменений и внедрить их в процедуры перед внесением изменений в производственную среду.
 
-  - **Significant Changes**   Significant changes require significant resources to plan, build, and implement. Appropriate change controls should be introduced to help make ensure that the effect of the change is understood, deployment procedures are tested, and the rollback and contingency plans are ready. An example of a significant change is deploying a new cumulative update.
+  - **Сетевая группа**   . Эта группа отвечает за изменения правил брандмауэра, разрешающие доступ из Интернета на внутренние серверы пула Lync. Кроме того, группа ответственна за работу с администраторами Lync, чтобы убедиться в том, что доступная пропускная способность может поддерживать дополнительную нагрузку.
 
-  - **Minor Changes**   Minor changes do not significantly affect the IT environment, for example, changing certain Lync policies via the управления Microsoft Lync Server 2013.
+  - **Группа безопасности эта**   команда оценивает безопасность и минимизирует риски. Группа безопасности должна просмотреть известные уязвимости и убедиться в том, что риски безопасности минимизированы.
 
-  - **Standard Changes**   Standard changes are performed regularly and are well understood and documented. The change management process should review all changes to the procedures. It should not be needed for routine changes like creating a content database or adding a user.
+  - **Группа принятия пользователей**   . Эта группа состоит из пользователей, которые хотят тестировать систему и отзывать Отзывы и предложения по улучшению.
 
-The following example of change management examines how different teams interact and the actions that are performed when a new service pack is deployed. These actions are organized and managed by the change management process.
+Процесс управления изменениями определяет обязанности каждой команды и планирует выполнение работы, включая проверки и проверки там, где они требуются. Элементы управления изменением будут различаться в зависимости от сложности и ожидаемого воздействия изменения. Они могут варьироваться от автоматического утверждения незначительных изменений, изменения собраний для проверки и полного рецензирования на уровне проектов. Чтобы объяснить это лучше, в этом разделе обсуждаются группы изменений.
 
-  - **Raise a change request**   The security team has assessed the latest service pack and confirmed that it resolves a possible vulnerability in the production system. The team raises a change request to have the new cumulative update applied to all servers that are running Lync Server.
+  - **Существенные изменения**   . существенные изменения имеют глобальный эффект в системе и могут требовать ввода данных из различных групп. Например, это обновление до Lync Server 2013. Значительные изменения влияют на множество групп и, возможно, для разных систем. Процесс управления изменениями, скорее всего, будет включать одно или несколько собраний по пересмотру для информирования групп, которые будут вовлечены в изменение или которые будут затронуты изменением.
 
-  - **Service pack release notes review**   The Lync administrator team reviews the service pack release notes to identify the effect on the system.
+  - **** Существенные изменения требуют значительных ресурсов для планирования, сборки и реализации.    Чтобы убедиться в том, что эффект изменения понятен, должны быть введены соответствующие элементы управления изменениями, тестируемые процедуры развертывания и планы отката и непредвиденных действий готовы. Примером значительного изменения является развертывание нового накопительного обновления.
 
-  - **A series of lab tests is performed**   The Lync administrator team must perform test updates on a server in a test environment to decide whether the service pack can be applied successfully without affecting any of the installed applications and server systems. If there are third-party or internally created applications that interface with Lync Server in a production environment, these should be also tested. These tests can also be used to estimate the time that is required to perform the upgrades.
+  - **Незначительные изменения**   небольшие изменения не влияют на среду информационных сред, например, изменяя определенные политики Lync с помощью панели управления Microsoft Lync Server 2013.
 
-  - **Users are informed of the outage**   The Lync administrator team, communications team, or user help desk informs all affected users about the planned maintenance cycle and how long the service will be unavailable.
+  - **Стандартные**изменения выполняются регулярно, и они понятны и документированы.    Процесс управления изменениями должен просмотреть все изменения, внесенные в процедуры. Это не требуется для повседневных изменений, например для создания базы данных контента или добавления пользователя.
 
-  - **A full backup of Lync is performed before the upgrade**   The Lync administrator team must verify that there is a valid backup that can be used to revert to the original system state if the service pack installation fails. We recommend that the backup be restored to a standby server to have this system readily available if there are issues.
+В следующем примере управления изменениями рассматривается взаимодействие разных команд и действия, выполняемые при развертывании нового пакета обновления. Эти действия упорядочены и управляются процессом управления изменениями.
 
-  - **The cumulative update is deployed**   The Lync administrator team does the installation during the planned maintenance cycle.
+  - **Выдать запрос**   на изменение служба безопасности оценивает последний пакет обновления и подтвердил, что она устраняет возможную уязвимость в производственной системе. Команда создает запрос на изменение, чтобы применить новое накопительное обновление для всех серверов, на которых работает Lync Server.
 
-## Managing the timing of changes
+  - **Проверка заметок в пакете обновления**   в команде администратора Lync вы просматриваете заметки о выпуске пакета обновления, чтобы определить, какой эффект работает в системе.
 
-We recommend that you implement a procedure for scheduling changes to avoid disruptions in overlapping sections of your work. For example, two teams may both be planning a minor change to a system. One team may be applying a cumulative update on a pool while another team is migrating legacy users into that pool. Neither team is affected by the changes that the other team is planning, and each team may not necessarily know about changes that the other team is planning. If both changes occurred at the same time, there might be issues implementing the changes. Also, if there are issues after the changes were applied, for example, if the user migration fails, it may be difficult to decide which change should be rolled back. There should be regular maintenance periods set up between IT and management to test the changes and accept them.
+  - **Серия лабораторных тестов**   , выполняемая командой администратора Lync, должна выполнять тестирование на сервере в тестовой среде, чтобы решить, можно ли успешно применять пакет обновления, не затрагивая установленные приложения и сервер. системный. Если у вас есть сторонние или внутренние приложения, которые взаимосвязаны с Lync Server в производственной среде, они также будут протестированы. С помощью этих тестов также можно оценить время, необходимое для выполнения обновлений.
+
+  - **Пользователи сообщают**   об отключении команды администратора Lync, команды связи или службе поддержки пользователей, уведомляя всех пользователей о запланированном цикле обслуживания и время, в течение которого служба будет недоступна.
+
+  - **Полное резервное копирование Lync выполняется перед тем, как обновление**   будет выполняться командой администратора Lync, чтобы убедиться в наличии действительной резервной копии, которую можно использовать для возврата к исходному состоянию системы, если установка пакета обновления завершается сбоем. Рекомендуется восстановить резервную копию на резервном сервере, чтобы эта система всегда была доступна при возникновении проблем.
+
+  - **Общее обновление**   разворачивается командой администратора Lync во время запланированного цикла обслуживания.
+
+<div>
+
+## <a name="managing-the-timing-of-changes"></a>Управление временем изменений
+
+Рекомендуется применять процедуры для планирования изменений, чтобы избежать нарушений в перекрывающихся разделах вашей работы. Например, две команды могут одновременно планировать небольшие изменения системы. Одной командой может быть применение накопительного обновления для пула, в то время как другая команда выполняет миграцию устаревших пользователей в этот пул. Изменения, планируемые другой командой, не влияют на ни одну команду, и каждая команда может не знать о изменениях, которые другая группа планирует. Если одновременно возникли оба изменения, возможно, возникли проблемы с реализацией изменений. Кроме того, если после применения изменений возникли проблемы, например в случае сбоя миграции пользователей, может возникнуть сложно решить, какие изменения нужно откатить. Для проверки изменений и их приема должны быть настроены регулярные периоды обслуживания и управление ими.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

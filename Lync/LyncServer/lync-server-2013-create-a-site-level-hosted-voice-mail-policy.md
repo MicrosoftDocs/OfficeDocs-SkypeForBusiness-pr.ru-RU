@@ -1,45 +1,79 @@
-﻿---
-title: Создание политики размещенной голосовой почты уровня сайта в Lync Server 2013
-TOCTitle: Создание политики размещенной голосовой почты уровня сайта в Lync Server 2013
-ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398216(v=OCS.15)
-ms:contentKeyID: 49309027
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Создание политики размещенной голосовой почты на уровне сайта'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site-level hosted voice mail policy
+ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398216(v=OCS.15)
+ms:contentKeyID: 48183481
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d9df91e28eeba8bc9769e4fcbeff6ebba2b3746d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841076"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание политики размещенной голосовой почты уровня сайта в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-24_
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Создание политики размещенной голосовой почты на уровне сайта в Lync Server 2013
 
-Новая политика *сайта* может оказывать влияние на всех пользователей, размещенных на сайте, для которого задана политика. Если для пользователя настроен доступ к размещенной единой системе обмена сообщениями Exchange и ему не присвоена политика уровня пользователя, применяется политика сайта. Если политика сайта не развернута, применяется глобальная политика.
+</div>
 
-Для получения сведений о настройке политик сайта см. документацию по Командная консоль Lync Server для следующих командлетов:
+<div id="mainSection">
 
-  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostedVoicemailPolicy)
+<div id="mainBody">
 
-  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+<span> </span>
 
-  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+_**Тема последнего изменения:** 2012-09-24_
 
-## Создание политики голосовой почты с размещением на сайте
+Политика *сайта* может влиять на всех пользователей, которые размещены на сайте, для которого определена политика. Если пользователь настроен на доступ к размещенной единой системе обмена сообщениями в UM и для него не назначена политика на уровне пользователя, применяется политика сайта. Если вы не развернули политику сайта, она будет применена к глобальной политике.
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+Дополнительные сведения о настройке политик сайтов можно найти в документации по оболочке управления Lync Server для следующих командлетов:
 
-2.  Выполните командлет New-CsHostedVoicemailPolicy для создания политики. Например, выполните:
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+
+  - [Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+
+<div>
+
+## <a name="to-create-a-site-hosted-voice-mail-policy"></a>Создание политики размещенной голосовой почты сайта
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+2.  Запустите командлет New-Кшостедвоицемаилполици, чтобы создать политику. Например, выполните командлет:
     
         New-CsHostedVoicemailPolicy -Identity site:Redmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for the Redmond site." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    В этом примере создается политика размещенной голосовой почты в рамках сайта и задаются следующие параметры:
+    В этом примере создается политика размещенной голосовой почты с областью сайта и устанавливаются следующие параметры:
     
-      - **Идентификатор** — указание уникального идентификатора для политики, включая область. Для политики в рамках сайта значение параметра «Идентификатор» необходимо указывать, например, в формате `site:`*\<имя\>*, `site:Redmond`.
+      - **Identity** — уникальный идентификатор для политики, включающий область. Для политики с областью сайта значение параметра удостоверения должно быть задано в `site:` * \<имени\>* формата, например. `site:Redmond`
     
-      - **Назначение** — определение полного имени домена размещенной службы единой системы обмена сообщениями Exchange. Этот параметр является необязательным, но если для политики, назначенной пользователю, не указано значение «Назначение» и вы пытаетесь активировать размещенную голосовую почту для пользователя, произойдет сбой активации.
+      - **Destination** указывает полное доменное имя (FQDN) размещенной службы единой системы обмена сообщениями. Этот параметр является необязательным, но при попытке включить пользователя для размещенной голосовой почты и назначенной пользователю политики не может быть задано значение "включить".
     
-      - **Описание** — указание дополнительного описания политики.
+      - **Описание** — необязательные описательные сведения о политике.
     
-      - **Организация** — разделенный запятыми список клиентов Exchange, которые служат для размещения пользователей Lync Server 2013. Каждый клиент должен быть указан в виде полного доменного имени клиента в размещенной службе Exchange UM.
+      - **Организация** : список клиентов Exchange, разделенных запятыми, которые пользователи Lync Server 2013. Каждый клиент должен быть указан в качестве полного доменного имени этого клиента в размещенной службе единой системы обмена сообщениями.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,61 +1,98 @@
-﻿---
-title: Настройка мониторинга SCOM
-TOCTitle: Настройка мониторинга SCOM
-ms:assetid: 4003d225-2a33-448c-abd9-571750661140
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688033(v=OCS.15)
-ms:contentKeyID: 49887960
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Настройка мониторинга SCOM
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure SCOM monitoring
+ms:assetid: 4003d225-2a33-448c-abd9-571750661140
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688033(v=OCS.15)
+ms:contentKeyID: 49733624
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b73bbf1ae1a487f8e6dcf8560e37cf5c7a73ba04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841087"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка мониторинга SCOM
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-04_
+# <a name="configure-scom-monitoring"></a>Настройка мониторинга SCOM
 
-После миграции на Microsoft Lync Server 2013 необходимо выполнить несколько задач для настройки работы Lync Server 2013 с System Center Operations Manager.
+</div>
 
-  - Примените обновления Lync Server 2010 к серверу, выбранному для управления логикой централизованного обнаружения.
+<div id="mainSection">
 
-  - Обновите раздел реестра потенциального сервера централизованного обнаружения.
+<div id="mainBody">
 
-  - Настройте основной сервер управления System Center Operations Manager для переопределения потенциального сервера централизованного обнаружения.
+<span> </span>
 
-Инструкции по выполнению каждой задачи приведены ниже.
+_**Тема последнего изменения:** 2012-10-04_
 
-**Примените обновления Lync Server 2010 к серверу, выбранному для управления логикой централизованного обнаружения.**
+После перехода на Microsoft Lync Server 2013 необходимо выполнить несколько задач, чтобы настроить Lync Server 2013 для работы с System Center Operations Manager.
 
-1.  Выберите сервер, на котором установлены файлы агента System Center Operations Manager и который настроен как потенциальный узел обнаружения.
+  - Примените к серверу Lync Server 2010 обновлений, выбранных для управления логикой центрального обнаружения.
 
-2.  Примените обновления Lync Server 2010 к этому серверу. См. раздел [Применить обновления Lync Server 2010](apply-lync-server-2010-updates.md).
+  - Обновите раздел реестра для основного сервера поиска кандидатов.
 
-**Обновите раздел реестра потенциального сервера централизованного обнаружения.**
+  - Настройка основного сервера System Center Operations Manager для переопределения узла центра обнаружения кандидатов.
 
-1.  На сервере, выбранном для управления логикой централизованного обнаружения, откройте окно командной строки Windows PowerShell.
+Ниже приведены инструкции по переносу каждой из этих задач.
+
+**Примените к серверу Lync Server 2010 обновлений, выбранных для управления логикой центрального обнаружения.**
+
+1.  Выровняйте сервер, на котором установлены файлы агента System Center Operations Manager и настроен как узел обнаружения кандидатов.
+
+2.  Примените к этому серверу обновления Lync Server 2010. Ознакомьтесь с разделом [применение обновлений Lync Server 2010](apply-lync-server-2010-updates.md).
+
+**Обновите раздел реестра для основного сервера поиска кандидатов.**
+
+1.  На сервере, выбранном для управления логикой центрального обнаружения, Откройте командное окно Windows PowerShell.
 
 2.  В командной строке введите следующую команду:
     
-    ```
-    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    ```
-    ```
-    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    ```
+       ```
+        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+       ```
     
+       ```
+        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+       ```
+    
+    <div class="">
+    
+
     > [!NOTE]  
-    > При редактировании реестра может возникнуть ошибка выполнения команды, если раздел реестра уже существует. Эту ошибку можно игнорировать.
+    > При внесении изменений в реестр может возникнуть сообщение о том, что команда завершилась сбоем, если раздел реестра уже существует. Если вы столкнетесь с этим, вы можете спокойно проигнорировать ошибку.
 
-**Настройте основной сервер управления System Center Operations Manager для переопределения потенциального сервера наблюдения централизованного обнаружения.**
+    
+    </div>
 
-1.  На компьютере с установленной консолью System Center Operations Manager разверните **Объекты пакета управления** и выберите **Обнаружение объектов**.
+**Настройка основного сервера System Center Operations Manager для переопределения узла наблюдения за центральным обнаружением.**
 
-2.  Щелкните пункт **Изменение области...**
+1.  На компьютере с установленной консолью System Center Operations Manager разверните **объект пакета управления** , а затем выберите пункт **Обнаружение объектов**.
 
-3.  на странице **Ориентация объектов пакета управления** выберите **LS Discovery Candidate**.
+2.  Выберите команду **изменить область...**
 
-4.  Переопределите **Эффективное значение LS Discovery Candidate**, указав имя сервера, выбранного ранее.
+3.  На странице " **объекты пакета управления областью** " выберите **кандидат на обнаружение Ls**.
 
-Наконец, чтобы завершить внесение изменений, перезапустите службу работоспособности на корневом сервере управления System Center Operations Manager.
+4.  Переопределение **действующего значения-кандидата на обнаружение Ls** на имя сервера-кандидата, выбранное в предыдущей процедуре.
+
+Наконец, чтобы завершить изменения, перезапустите службу работоспособности на корневом сервере управления System Center Operations Manager.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

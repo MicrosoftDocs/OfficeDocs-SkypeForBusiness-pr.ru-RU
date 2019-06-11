@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: требования к инфраструктуре Active Directory'
-TOCTitle: Требования к инфраструктуре Active Directory
-ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412955(v=OCS.15)
-ms:contentKeyID: 49311064
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования к инфраструктуре Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory infrastructure requirements
+ms:assetid: c2086f7b-662f-4179-ab99-2c0311ebd903
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412955(v=OCS.15)
+ms:contentKeyID: 48185318
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2c583fd751bf70814f9aa2fae5f6cfe08bec0202
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841959"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования к инфраструктуре Active Directory для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Требования к инфраструктуре Active Directory для Lync Server 2013
 
-Перед началом подготовки Доменные службы Active Directory для Lync Server 2013 убедитесь, что инфраструктура Active Directory соответствует следующим обязательным условиям:
+</div>
 
-  - Все контроллеры доменов (включая все серверы глобального каталога) в лесу, где разворачивается Lync Server, работают под управлением одной из следующих операционных систем:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-11-07_
+
+Прежде чем приступить к подготовке доменных служб Active Directory для Lync Server 2013, убедитесь, что инфраструктура Active Directory удовлетворяет следующим требованиям:
+
+  - Все контроллеры домена (включая все серверы глобального каталога) в лесу, где развертывается сервер Lync Server, работают под управлением одной из следующих операционных систем.
     
       - Операционная система Windows Server 2012 R2
     
@@ -27,20 +47,36 @@ _**Дата изменения раздела:** 2016-12-08_
     
       - Операционная система Windows Server 2008
     
-      - Windows Server 2008 Enterprise, 32-разрядная
+      - Windows Server 2008 Enterprise 32-bit
     
-      - 32-разрядная или 64-разрядная версия Операционная система Windows Server 2003 R2
+      - 32-разрядная или 64-разрядная версии операционной системы Windows Server 2003 R2
     
-      - 32-разрядная или 64-разрядная версия Операционная система Windows Server 2003
+      - 32-разрядная или 64-разрядная версии операционной системы Windows Server 2003
 
-  - Все домены, в которых разворачивается Lync Server, будут переведены в режим работы домена Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 или в собственный режим Windows Server 2003.
+  - Все домены, в которых развертывается сервер Lync Server, порождаются на функциональном уровне домена Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 или не ниже Windows Server 2003.
 
-  - Лес, в котором разворачивается Lync Server, будет переведен в режим работы леса Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 или в собственный режим Windows Server 2003.
+  - Лес, в котором развертывается сервер Lync Server, передается на функциональный уровень леса Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 или хотя бы Windows Server 2003 или более поздней версии.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Сведения об изменении режима работы домена или леса см. в статье &quot;Повышение режимов работы домена и леса&quot; библиотеки TechNet по адресу <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>.
+    > Чтобы изменить функциональный уровень домена или леса, ознакомьтесь со статьей "создание функциональных уровней домена и леса" в библиотеке <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>TechNet по адресу.
 
-  - Глобальный каталог разворачивается во всех доменах, где разворачиваются компьютеры или пользователи Lync Server.
+    
+    </div>
 
-Сервер Lync Server 2013 поддерживает универсальные группы в операционных системах Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 и Windows Server 2003. Участники универсальных групп могут включать в себя другие группы и учетные записи из любого домена в дереве доменов или лесе; можно назначить разрешения в любом домене дерева доменов или леса. Поддержка универсальных групп вместе с делегированием административных полномочий упрощает управление развертыванием Lync Server. Например, не нужно добавлять один домен к другому, чтобы разрешить администратору управлять обоими.
+  - Глобальный каталог разворачивается во всех доменах, где развертываются компьютеры или пользователи Lync Server.
+
+Lync Server 2013 поддерживает универсальные группы в операционных системах Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 и Windows Server 2003. Members of universal groups can include other groups and accounts from any domain in the domain tree or forest and can be assigned permissions in any domain in the domain tree or forest. Поддержка универсальной группы в сочетании с делегированием администратора упрощает управление развертыванием Lync Server. For example, it is not necessary to add one domain to another to enable an administrator to manage both.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

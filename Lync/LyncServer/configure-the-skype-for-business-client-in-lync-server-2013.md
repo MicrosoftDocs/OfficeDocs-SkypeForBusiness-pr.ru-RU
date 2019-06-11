@@ -1,71 +1,111 @@
-﻿---
-title: Configure the Skype for Business client in Lync Server 2013
+---
+title: Настройка клиента Skype для бизнеса в Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn954919(v=OCS.15)
-ms:contentKeyID: 65772745
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
+ms:contentKeyID: 65227958
+ms.date: 09/18/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 5fa863fd1775fbc2a726806f2dd4fff5fed5dbfd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841777"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configure the client experience with Skype for Business
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="configure-the-client-experience-with-skype-for-business"></a>Configure the client experience with Skype for Business
 
-**Summary:** This topic describes how to configure the client experience for Skype for Business client users in a Lync Server 2013 environment. You can configure the client experience only if you are running Lync Server 2013 with the December 2014 Cumulative Update (5.0.8308.857) or later installed. For information about updating Lync Server 2013, see [Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?linkid=532651).
+</div>
 
-Skype для бизнеса provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype для бизнеса provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Lync is now Skype for Business -- see what's new](https://go.microsoft.com/fwlink/?linkid=529022).
+<div id="mainSection">
 
-Lync Server 2013 supports the new Skype для бизнеса client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype для бизнеса experience. Or, if you have not yet upgraded all users to Skype для бизнеса Server 2015, you might want all users to have the same client experience until all are upgraded to the new server.
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2015-09-17_
+
+**Сводка:** В этой статье описано, как настроить взаимодействие с клиентами для пользователей Skype для бизнеса в среде Lync Server 2013. Настроить интерфейс клиента можно только в том случае, если на компьютере установлено приложение Lync Server 2013 с установленным накопительным обновлением за декабрь 2014 (5.0.8308.857) или более поздней версии. Сведения об обновлении Lync Server 2013 можно найти в статьях [обновления для Lync server 2013](http://go.microsoft.com/fwlink/p/?linkid=532651).
+
+Skype для бизнеса — это новый пользовательский интерфейс, который основан на потребительских интерфейсах Skype. Помимо всех функций Lync, в Skype для бизнеса предусмотрены новые функции, упрощенные элементы управления и знакомые значки. Подробные сведения о новом интерфейсе клиента можно найти в разделе [Lync (Skype для бизнеса) – ознакомьтесь со статьей о новых](http://go.microsoft.com/fwlink/?linkid=529022)возможностях.
+
+Lync Server 2013 поддерживает новый клиентский интерфейс Skype для бизнеса, а также взаимодействие с клиентом Lync. Администратор может выбрать для пользователей предпочтительный режим взаимодействия. Например, вам может потребоваться развернуть взаимодействие с клиентом Lync, пока пользователи в вашей организации не будут полностью прошли обучение в новом интерфейсе Skype для бизнеса. Если вы еще не обновили все пользователи в Skype для бизнеса Server 2015, вам может потребоваться, чтобы все пользователи могли использовать одинаковые возможности клиента, пока не будут обновлены до нового сервера.
+
+<div>
+
 
 > [!IMPORTANT]  
-> If your organization has both Skype для бизнеса Server 2015 and Lync Server 2013 deployed, the default client experience will differ depending on server versions and UI settings. When users launch Skype для бизнеса for the first time, they will always see the Skype для бизнеса user interface--even if you have selected the Lync user interface. After several minutes, users are asked to switch to Lync mode. For more information, see <strong>First launch client behavior</strong> later in this topic.
+> Если в вашей организации одновременно развернуты и Skype для бизнеса Server 2015, и Lync Server 2013, интерфейс по умолчанию будет отличаться в зависимости от версии сервера и параметров пользовательского интерфейса. Когда пользователи запускают Skype для бизнеса в первый раз, они всегда будут видеть пользовательский интерфейс Skype для бизнеса, даже если вы выбрали пользовательский интерфейс Lync. Через несколько минут пользователи просят перейти в режим Lync. Дополнительные сведения см. в разделе <STRONG>Режим работы клиента при первом запуске</STRONG> далее в этой статье.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> The Lync 2013 client experience is not an option for Skype для бизнеса 2016 client versions. Before you attempt to configure your client environment to use the Lync 2013 client, please check the client version to ensure it does not start with the number 16; for example: 16.x.x.x.
+> Взаимодействие с клиентом Lync 2013 не поддерживается в версиях клиентов Skype для бизнеса 2016. Перед настройкой клиентской среды на использование клиента Lync 2013 убедитесь, что версия клиента не начинается с цифр "16" (например: 16.x.x.x).
 
-## Configure the client experience
 
-You can specify the client experience the users in your organization will see by using the **Set-CSClientPolicy** cmdlet with the EnableSkypeUI parameter. The following command selects the Skype для бизнеса client experience for all users in your organization affected by the Global policy (remember, site or user-specific policies override the Global policy):
+
+</div>
+
+<div>
+
+## <a name="configure-the-client-experience"></a>Configure the client experience
+
+С помощью командлета **Set-CSClientPolicy** с параметром енаблескипеуи вы можете указать интерфейс клиента, который будет отображаться для пользователей в вашей организации. Следующая команда выбирает взаимодействие с клиентом Skype для бизнеса для всех пользователей в Организации, которым затронула Глобальная политика (Помните, что политики сайтов или пользователей переопределяют глобальную политику).
 
     Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 
-The next command selects the Lync client experience for all users in your organization affected by the Global policy:
+Следующая команда выбирает взаимодействие с клиентом Lync для всех пользователей в вашей организации, затрагиваемых глобальной политикой.
 
     Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 
-The next command selects the Skype для бизнеса client experience for all users within the Redmond site:
+Следующая команда выбирает взаимодействие с клиентом Skype для бизнеса для всех пользователей на сайте Redmond.
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-If you want to configure the client experience for specific users within your organization, you can create a new user policy by using the **New-CsClientPolicy** cmdlet, and then assign the policy to specific users by using the **Grant-CsClientPolicy** cmdlet.
+Если вы хотите настроить взаимодействие с клиентами для конкретных пользователей в Организации, вы можете создать новую политику пользователей с помощью командлета **New-CsClientPolicy** , а затем назначить политику для определенных пользователей с помощью функции **Grant-CsClientPolicy** Командлет.
 
-For example, the following command creates a new client policy, SalesClientUI, that selects the Skype для бизнеса client experience:
+Например, следующая команда создает новую политику клиента, Салесклиентуи, которая выбирает взаимодействие с клиентом Skype для бизнеса.
 
     New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 
-The next command assigns the policy, SalesClientUI, to all members of the Sales department:
+При выполнении следующей команды политика SalesClientUI назначается всем участникам из отдела продаж:
 
     Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName SalesClientUI
 
-## First launch client behaviors
+</div>
 
-By default, when users launch Skype для бизнеса for the first time, they will always see the Skype для бизнеса user interface--even if you have selected the Lync client experience by setting the value of the EnableSkypeUI parameter to $False as described previously. After several minutes, users will then be asked to switch to Lync mode.
+<div>
 
-If you want to display the Lync user interface when users launch the Skype для бизнеса client for the first time, follow these steps before the client is started for the first time after being updated:
+## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
-1.  Confirm that the value of `EnableSkypeUI` is set to $False in the policy you are using as described previously.
+По умолчанию при первом запуске Skype для бизнеса они всегда будут видеть пользовательский интерфейс Skype для бизнеса, даже если вы выбрали режим взаимодействия с клиентом Lync, присвоий параметру Енаблескипеуи значение для $False, как описано выше. . Через несколько минут пользователям будет предложено переключиться в режим Lync.
 
-2.  Update the system registry on the user's computer. You should do this before the first time users launch the Skype для бизнеса client, and you should do this only once. For information about how to create a Group Policy Object to update the registry on a domain joined computer, see the section later in the topic.
+Чтобы отобразить интерфейс Lync при первом запуске клиента Skype для бизнеса, выполните следующие действия до того, как клиент будет запущен в первый раз после обновления.
+
+1.  Убедитесь в том, что `EnableSkypeUI` значение параметра установлено на $false в той политике, которую вы используете, как описано выше.
+
+2.  Обновите системный реестр на компьютере пользователя. Это необходимо сделать до первого запуска клиента Skype для бизнеса. Действие выполняется всего один раз. Сведения о создании объекта групповой политики для обновления реестра на присоединенном к домену компьютере см. далее в этом разделе.
     
-    In the **\[HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\Lync\]** key, create a new **Binary** value.
+    В разделе ** \[файл\_hKey\_приложения\\\\Microsoft\\Office\\\] Lync для текущего пользователя** создайте новый **двоичный** параметр.
     
-    The **Value name** must be **EnableSkypeUI**, and the **Value data** must be set to **00 00 00 00**.
+    **Имя значения** должно быть **EnableSkypeUI**. Для **данных значения** задайте **00 00 00 00**.
     
-    The key should look like the following:
+    Строка должна выглядеть следующим образом:
     
         [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
         "CanSharePptInCollab"=dword:00000001
@@ -73,31 +113,43 @@ If you want to display the Lync user interface when users launch the Skype дл�
         "CanAppShareInCollab"=dword:00000001
         "EnableSkypeUI"=hex:00,00,00,00
 
-The Lync user interface will now be displayed when users launch the Skype для бизнеса client for the first time.
+Теперь интерфейс Lync будет отображаться при первом запуске клиента Skype для бизнеса пользователями.
 
-## Control the display of the Welcome screen tutorial
+<div>
 
-When users open the Skype для бизнеса client, the default behavior is to display a Welcome screen that includes *7 Quick tips most people ask for*. You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
+## <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Руководство по управлению отображением экрана приветствия
 
-In the **\[HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\]** key, create a new **DWORD (32-bit) Value**. The **Value name** must be **IsBasicTutorialSeenByUser**, and the **Value data** must be set to **1**.
+Когда пользователи открывают клиент Skype для бизнеса, по умолчанию отображается экран приветствия, включающий *семь советов*, которые нужно запросить. Вы можете отключить отображение экрана приветствия, но по-прежнему предоставить пользователям доступ к учебнику, добавив следующий параметр реестра на клиентском компьютере:
 
-The key should look like the following:
+В разделе ** \[hKey\_текущего\_пользователя\\\\\\Microsoft Office\\15,0\\Lync\] ** создайте новый **параметр DWORD (32-разр.)**. Для параметра **Имя значение** необходимо указать значение **IsBasicTutorialSeenByUser**, для параметра **Данные значения** — **1**.
+
+Строка должна выглядеть следующим образом:
 
     "IsBasicTutorialSeenByUser"=dword:00000001
 
-## Turn off the client tutorial
+</div>
 
-If you do not want your users to be able to access the tutorial, you can turn off the client tutorial with the following Registry value:
+<div>
 
-In the **\[HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\]** key, create a new **DWORD (32-bit) Value**. The **Value name** must be **TutorialFeatureEnabled**, and the **Value data** must be set to **0**.
+## <a name="turn-off-the-client-tutorial"></a>Отключение руководства в клиенте
+
+Чтобы не показывать пользователям руководство, задайте в реестре следующее значение.
+
+В разделе ** \[hKey\_текущего\_пользователя\\\\\\Microsoft Office\\15,0\\Lync\] ** создайте новый **параметр DWORD (32-разр.)**. Для параметра **Имя значение** необходимо указать значение **TutorialFeatureEnabled**, для параметра **Данные значения** — **0**.
 
     "TutorialFeatureEnabled"=dword:00000000
 
-You can turn the tutorial back on by setting the **Value data** to **1**.
+Чтобы снова включить руководство, задайте для параметра **Данные значения** значение **1**.
 
-## Default client experiences
+</div>
 
-If your organization has both Skype для бизнеса Server 2015 and Lync Server deployed, the client experience will differ depending on server versions and the Skype UI setting. The following table shows the initial client experience based on server version and the UI setting:
+</div>
+
+<div>
+
+## <a name="default-client-experiences"></a>Взаимодействие с клиентом по умолчанию
+
+Если в вашей организации одновременно развернуты и Skype для бизнеса Server 2015, и Lync Server, взаимодействие с клиентом будет отличаться в зависимости от версии сервера и параметров пользовательского интерфейса Skype. В следующей таблице указан первоначальный режим взаимодействия с клиентом в зависимости от версии сервера и параметра пользовательского интерфейса.
 
 
 <table>
@@ -108,15 +160,15 @@ If your organization has both Skype для бизнеса Server 2015 and Lync S
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Server version</p></th>
-<th><p>EnableSkypeUI setting</p></th>
-<th><p>Client experience</p></th>
+<th><p>Версия сервера</p></th>
+<th><p>Параметр EnableSkypeUI</p></th>
+<th><p>Взаимодействие с клиентом</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Skype для бизнеса Server 2015</p></td>
-<td><p>Default</p></td>
+<td><p>По умолчанию</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
 <tr class="even">
@@ -127,33 +179,33 @@ If your organization has both Skype для бизнеса Server 2015 and Lync S
 <tr class="odd">
 <td><p>Skype для бизнеса Server 2015</p></td>
 <td><p>False</p></td>
-<td><p>User asked to switch to Lync mode (user can switch to Skype для бизнеса later if you change the UI setting to $true)</p></td>
+<td><p>Пользователь запросят перейти в режим Lync (пользователь может переключиться на Skype для бизнеса позже, если вы измените параметр UI на $true).</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2010 or Lync Server 2013 (with correct patches)</p></td>
-<td><p>Default</p></td>
-<td><p>User asked to switch to Lync mode (user can switch to Skype для бизнеса later if you change the UI setting to $true)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
+<td><p>По умолчанию</p></td>
+<td><p>Пользователь запросят перейти в режим Lync (пользователь может переключиться на Skype для бизнеса позже, если вы измените параметр UI на $true).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2010 or Lync Server 2013 (with correct patches)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
 <td><p>True</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2010 or Lync Server 2013 (with correct patches)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
 <td><p>False</p></td>
-<td><p>User asked to switch to Lync mode (user can switch to Skype для бизнеса later if you change the UI setting to $true)</p></td>
+<td><p>Пользователь запросят перейти в режим Lync (пользователь может переключиться на Skype для бизнеса позже, если вы измените параметр UI на $true).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2010 or Lync Server 2013 (without patches)</p></td>
-<td><p>Default</p></td>
-<td><p>User asked to switch to Lync client experience (user cannot switch to Skype для бизнеса later)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (без исправлений)</p></td>
+<td><p>По умолчанию</p></td>
+<td><p>Пользователь запросят перейти в режим взаимодействия с клиентом Lync (пользователь не может переключиться на Skype для бизнеса позже)</p></td>
 </tr>
 </tbody>
 </table>
 
 
-The next table shows the client experience when the administrator changes the initial setting for the Skype UI experience:
+В следующей таблице показано, как администратор изменяет первоначальные параметры пользовательского интерфейса Skype.
 
 
 <table>
@@ -165,76 +217,80 @@ The next table shows the client experience when the administrator changes the in
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Server version</p></th>
-<th><p>Skype UI setting</p></th>
-<th><p>Client UI = Lync</p></th>
-<th><p>Client UI = Skype for Business</p></th>
+<th><p>Версия сервера</p></th>
+<th><p>Параметр пользовательского интерфейса Skype</p></th>
+<th><p>Пользовательский интерфейс клиента = Lync</p></th>
+<th><p>Клиентский пользовательский интерфейс = Skype для бизнеса</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Skype для бизнеса Server 2015</p></td>
 <td><p>True</p></td>
-<td><p>User asked to switch to Skype для бизнеса</p></td>
+<td><p>Пользователь попросят перейти на Skype для бизнеса</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
 <tr class="even">
 <td><p>Skype для бизнеса Server 2015</p></td>
 <td><p>False</p></td>
-<td><p>Lync UI</p></td>
-<td><p>User asked to switch to Lync UI</p></td>
+<td><p>Пользовательский интерфейс Lync</p></td>
+<td><p>Пользователь запросят переключиться на пользовательский интерфейс Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2010 or Lync Server 2013 (with correct patches)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
 <td><p>True</p></td>
-<td><p>User asked to switch to Skype для бизнеса</p></td>
+<td><p>Пользователь попросят перейти на Skype для бизнеса</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2010 or Lync Server 2013 (with correct patches)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
 <td><p>False</p></td>
-<td><p>Lync UI</p></td>
-<td><p>User asked to switch to Lync UI</p></td>
+<td><p>Пользовательский интерфейс Lync</p></td>
+<td><p>Пользователь запросят переключиться на пользовательский интерфейс Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2010 or Lync Server 2013 (without patches)</p></td>
-<td><p>Default</p></td>
-<td><p>Lync mode (cannot switch to Skype для бизнеса)</p></td>
-<td><p>Lync UI (cannot switch to Skype для бизнеса)</p></td>
+<td><p>Lync Server 2010 или Lync Server 2013 (без исправлений)</p></td>
+<td><p>По умолчанию</p></td>
+<td><p>Режим Lync (не удается перейти на Skype для бизнеса)</p></td>
+<td><p>Пользовательский интерфейс Lync (не удается перейти на Skype для бизнеса)</p></td>
 </tr>
 </tbody>
 </table>
 
 
-The patch versions required to manage the configuration of the Skype для бизнеса client are:
+Для управления конфигурацией клиента Skype для бизнеса требуются следующие версии исправлений:
 
-  - Lync Server 2010 - February 2015 Cumulative Update (4.0.7577.710) for Lync Server 2010. For information, see [Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=532771)
+  - Lync Server 2010 — февраля 2015 (4.0.7577.710) для Lync Server 2010. Дополнительные сведения можно найти в разделе [Обновление для Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=532771)
 
-  - Lync Server 2013 - December 2014 Cumulative Update (5.0.8308.857) for Lync Server 2013. For information, see [Updates for Lync Server 2013](https://go.microsoft.com/fwlink/p/?linkid=532772).
+  - Lync Server 2013 – Декабрь 2014 (5.0.8308.857) для Lync Server 2013. Дополнительные сведения можно найти в разделе [Обновление для Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=532772).
 
-## Create a Group Policy Object to modify the registry on a domain joined computer
+</div>
 
-The registry update to display the Lync client experience the first time a user launches the Skype для бизнеса client should be done only once. If you use a Group Policy Object (GPO) to update the registry, you need to define the object to create a new value rather than update the Value data. When the GPO is applied, if the new value does not exist, the GPO will create it and set the Value data to 0.
+<div>
 
-The following procedure describes how to modify the registry so that the Lync client experience is displayed the first time a user launches the Skype для бизнеса. You can also use this procedure to update the registry to disable the Welcome screen tutorial as described earlier.
+## <a name="create-a-group-policy-object-to-modify-the-registry-on-a-domain-joined-computer"></a>Создание объекта групповой политики для изменения реестра на компьютере, присоединенном к домену
 
-**To create the GPO**
+Для отображения интерфейса Lync при первом запуске клиента Skype для бизнеса необходимо только один раз обновить реестр. Если для обновления реестра используется объект групповой политики (GPO), необходимо определить объект для создания нового значения, а не обновлять данные значения. Если при применении GPO новое значение не существует, оно будет создано, а для данных значения будет задано значение 0.
 
-1.  Start the **Group Policy Management console**.
+В процедуре ниже описывается изменение реестра таким образом, чтобы при первом запуске Skype для бизнеса пользователем отображался интерфейс Lync. С помощью этой процедуры можно также обновить реестр и отключить показ учебного пособия на экране приветствия, как описано выше.
+
+**Создание объекта групповой политики**
+
+1.  Запустите **Консоль управления групповыми политиками**.
     
-    For information about how to use the Group Policy Management Console, see [Group Policy Management Console](https://go.microsoft.com/fwlink/?linkid=532759).
+    Сведения о работе с консолью управления групповыми политиками см. в разделе [Консоль управления групповыми политиками](http://go.microsoft.com/fwlink/?linkid=532759).
 
-2.  Right-click the **Group Policy Objects** node and select **New** on the menu.
+2.  Щелкните правой кнопкой мыши узел **Объекты групповой политики** и выберите в меню пункт **Создать**.
 
-3.  In the **New GPO** dialog, enter a name for the GPO, for example, **MakeLyncDefaultUI**, and then click **OK**.
+3.  В диалоговом окне **New GPO** (Создание нового объекта групповой политики) введите имя для этого нового объекта групповой политики, например, **MakeLyncDefaultUI**, и нажмите кнопку **ОК**.
 
-4.  Right-click on the new GPO you just created and then select **Edit** from the menu.
+4.  Щелкните созданный объект групповой политики правой кнопкой мыши и выберите **Edit** (Редактировать) из меню.
 
-5.  In the **Group Policy Management Editor**, expand **User Configuration**, expand **Preferences**, expand **Windows Settings**, and then select the **Registry** node.
+5.  В **Редакторе управления групповыми политиками** разверните папки **Конфигурация пользователя**, **Параметры**, **Параметры Windows** и выберите узел **Реестр**.
 
-6.  Right-click on the **Registry** node, and then select **New** \> **Registry Item**.
+6.  Щелкните правой кнопкой мыши узел **реестра** и выберите пункт **создать** \> **элемент реестра**.
 
-7.  On the **New Registry Properties** dialog, update the following:
+7.  В диалоговом окне **New Registry Properties** (Новые свойства реестра) обновите следующие параметры:
     
     
     <table>
@@ -244,60 +300,72 @@ The following procedure describes how to modify the registry so that the Lync cl
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Field</th>
-    <th>Value to select or enter</th>
+    <th>Поле</th>
+    <th>Значение для выбора или ввода</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><strong>Action</strong></p></td>
-    <td><p><strong>Create</strong></p></td>
+    <td><p><strong>Действие</strong></p></td>
+    <td><p><strong>Создание</strong></p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>Hive</strong></p></td>
+    <td><p><strong>Куст</strong></p></td>
     <td><p>HKEY_CURRENT_USER</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>Key Path</strong></p></td>
+    <td><p><strong>Ключевой путь</strong></p></td>
     <td><p>Software\Microsoft\Office\Lync</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>Value name</strong></p></td>
+    <td><p><strong>Имя значения</strong></p></td>
     <td><p>EnableSkypeUI</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>Value type</strong></p></td>
+    <td><p><strong>Тип значения</strong></p></td>
     <td><p>REG_BINARY</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>Value data</strong></p></td>
-    <td><p>00000000</p></td>
+    <td><p><strong>Данные значения</strong></p></td>
+    <td><p>00000001</p></td>
     </tr>
     </tbody>
     </table>
 
 
-8.  Click **OK** to save your changes, and then close the GPO.
+8.  Нажмите кнопку **OK**, чтобы сохранить изменения, затем закройте объект групповой политики.
 
-Next, you'll need to link the GPO you created to the group of users that you want to assign the policy to, such as an OU.
+Далее следует связать созданный объект групповой политики с группой пользователей, которым необходимо назначить политику, например, с подразделением.
 
-**To use the GPO to assign the policy**
+**Назначение политики с помощью объекта групповой политики**
 
-1.  In the Group Policy Management Console, right-click on the OU you want to assign the policy to, and then select **Link to an existing GPO**.
+1.  В консоли управления групповыми политиками щелкните правой кнопкой мыши на подразделении, которому необходимо назначить групповую политику, и выберите **Связать с существующим объектом групповой политики**.
 
-2.  On the **Select GPO** dialog, select the GPO you created, and then select **OK**.
+2.  В диалоговом окне **Выбор объекта групповой политики** выберите созданный объект групповой политики и нажмите кнопку **OK**.
 
-3.  On the target user's computer, open a command prompt and type the following command:
+3.  На целевом компьютере пользователя откройте командную строку и введите следующую команду:
     
     **gpupdate /target:user**
     
-    The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
+    При применении объекта групповой политики отобразится сообщение "Обновление политики...". После завершения обновления отобразится сообщение "Обновление политики пользователя завершено успешно".
 
-4.  At the command prompt, type the following command:
+4.  В командной строке введите следующую команду:
     
     **gpresult /r**
     
-    You should see "Assigned Group Policy Objects" with the name of the GPO you created displayed below.
+    Ниже отобразится список назначенных объектов групповой политики с именем созданного объекта групповой политики.
 
-You can also verify that the GPO has successfully updated the registry on a user's computer by examining the registry. Open Registry Editor and navigate to the **\[HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\Lync\]** key. If the GPO successfully updated the registry you will see a value named EnableSkypeUI with a value of 0.
+Также можно проверить успешное обновление реестра объектом групповой политики на компьютере пользователя, изучив реестр. Откройте редактор реестра и перейдите к ** \[программному\_\_обеспечению\\\\текущего пользователя\\в\\разделе\] hKey Microsoft Office Lync** . Если объект групповой политики успешно обновил реестр, будет отображаться значение с именем EnableSkypeUI и значением 0.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

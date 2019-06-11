@@ -1,59 +1,95 @@
-﻿---
-title: "Lync Server 2013: настр. среды для работы с порталом админ. Сист. комнат Lync"
-TOCTitle: Настройка среды для работы с веб-порталом администрирования системы комнат Lync
-ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn436325(v=OCS.15)
-ms:contentKeyID: 59373654
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: настройка среды для работы с веб-порталом администрирования системы комнат Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring your environment for the Lync Room System Administrative Web Portal
+ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436325(v=OCS.15)
+ms:contentKeyID: 56737623
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0ef7596e65c44f871da8c26a0526a389dde72a45
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841143"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка среды Lync Server 2013 для работы с веб-порталом администрирования системы комнат Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Configuring your Lync Server 2013 environment for the Lync Room System Administrative Web Portal
 
-Для работы с веб-порталом администрирования системы комнат Lync (LRS) потребуется установить или настроить перечисленные ниже компоненты.
+</div>
 
-> [!IMPORTANT]
-> Если сервер настроен с помощью аутентификации Kerberos и NTLM, а LRS работает на компьютере, который не присоединен к домену, аутентификация Kerberos будет завершена ошибкой и пользователь не сможет видеть состояния LRS на портале администрирования. Чтобы устранить эту проблему, настройки сервер с помощью аутентификации NTLM или аутентификаций NTLM и TLS-DSK (без Kerberos) или присоедините компьютер LRS к домену.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-05-22_
+
+Чтобы использовать веб-портал для управления комнатой на Lync (ЛРС), необходимо установить или настроить следующие необходимые компоненты.
+
+<div>
 
 
-1.  Установите накопительный пакет обновления Lync Server 2013 за июль 2013 г. в топологии сервера Lync Server.
+> [!IMPORTANT]  
+> Если сервер настроен на проверку подлинности Kerberos и NTLM и ЛРС запущен на компьютере, который не подключен к домену, проверка подлинности Kerberos не будет выполнена, и пользователь не увидит состояние ЛРС на административном портале. Чтобы устранить эту проблему, настройте сервер для проверки подлинности NTLM либо проверки подлинности NTLM и TLS-ДСК (без Kerberos) либо Присоедините компьютер ЛРС к домену.
+
+
+
+</div>
+
+1.  Установка накопительных обновлений для Lync Server 2013: Июль 2013 в топологии Lync Server.
     
-    Загрузить пакет обновления или ознакомиться с его составом можно на странице [Обновления для Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
+    Чтобы получить обновление или просмотреть сведения о том, что входит в состав этого приложения, ознакомьтесь со статьей [Обновление для Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
 
-2.  Создайте пользователя Active Directory с включенной поддержкой SIP.
+2.  Создайте учетную запись пользователя Active Directory с включенной поддержкой SIP.
     
-    Веб-портал администрирования LRS использует эти учетные данные для получения сведений с сервера Lync Server. Рекомендуемое имя пользователя – LRSApp.
+    На веб-портале ЛРС администрирования эти учетные данные используются для запроса данных с сервера Lync Server. Рекомендуемое имя пользователя — Лрсапп.
 
 3.  Создайте группу безопасности Active Directory с именем LRSSupportAdminGroup.
     
     Создайте группу с глобальной областью действия и типом "Безопасность". Пользователи с включенной поддержкой SIP, добавляемые в эту группу, будут автоматически получать разрешения на просмотр списка комнат и выполнение определенных команд, таких как ведение журналов.
 
-4.  Создайте группу безопасности Active Directory с именем LRSFullAccessAdminGroup.
+4.  Создайте группу безопасности Active Directory с именем LRSFullAccessAdminGroup. 
     
-    Создайте группу с глобальной областью действия и типом "Безопасность". Пользователи с поддержкой возможностей SIP, добавляемые в эту группу, будут автоматически получать разрешения на доступ ко всем функциям портала.
+    Создание группы с областью группировки в качестве глобальных и группового типа как "безопасность". Пользователи, добавленные в эту группу, имеют разрешение на использование всех функций портала администрирования.
     
      
     
-    ![Список групп администрирования с ролью группы безопасности](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Список групп администрирования с ролью группы безопасности")  
+    ![Список групп администраторов с ролью "Группа безопасности"] (images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Список групп администраторов с ролью \"Группа безопасности\"")  
     
      
 
-5.  Добавьте группу LRSFullAccessAdminGroup как участника группы LRSSupportAdminGroup.
+5.  Добавьте Лрсфуллакцессадминграуп в качестве участника Лрссуппортадминграуп.
     
-    ![Свойства LRSSupportAdminGroup, страница участников](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Свойства LRSSupportAdminGroup, страница участников")  
+    ![Страница свойств лрссуппортадминграуп "участники] " (images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Страница свойств лрссуппортадминграуп \"участники") "  
     
      
 
 6.  Создайте пользователя Active Directory с поддержкой возможностей SIP и именем LRSSupport. Добавьте его в группу LRSSupportAdminGroup.
     
-    ![Свойства LRSSupportAdminGroup, страница участников](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Свойства LRSSupportAdminGroup, страница участников")  
+    ![Страница свойств лрссуппортадминграуп "участники] " (images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Страница свойств лрссуппортадминграуп \"участники") "  
     
      
 
-7.  Установите компоненты ASP.NET MVC 4 для Visual Studio 2010 SP1 и Visual Web Developer 2010 SP1, которые доступны в Центре загрузки Майкрософт по адресу [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967).
+7.  Установите ASP.NET MVC 4 для Visual Studio 2010 с пакетом обновления 1 (SP1) и Visual Web Developer 2010 SP1, [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)который можно найти в центре загрузки Майкрософт по адресу.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

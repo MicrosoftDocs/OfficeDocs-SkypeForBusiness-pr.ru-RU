@@ -1,19 +1,49 @@
-﻿---
-title: Резервные системы и данные
-TOCTitle: Резервные системы и данные
-ms:assetid: b0bbab1e-0361-4bc4-9998-21d182be7b46
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205174(v=OCS.15)
-ms:contentKeyID: 49310890
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Резервное копирование систем и данных
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Back up systems and data
+ms:assetid: b0bbab1e-0361-4bc4-9998-21d182be7b46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205174(v=OCS.15)
+ms:contentKeyID: 48185118
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 80832fe06f97a2fde4c48380a403683fbefe706c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841108"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Резервные системы и данные
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="back-up-systems-and-data"></a>Резервное копирование систем и данных
 
-Перед началом перехода на Lync Server 2013 настоятельно рекомендуется выполнить полное резервное копирование системы и документирование существующей системы, включая перечень учетных записей пользователей, размещенных в каждом пуле, чтобы по мере необходимости можно было произвести откат до Office Communications Server 2007 R2. Доступны различные средства и программы для резервного копирования и восстановления данных, настроек и систем. Дополнительные сведения и инструкции см. в руководстве по резервному копированию и восстановлению Office Communications Server 2007 R2 по адресу <http://go.microsoft.com/fwlink/p/?linkid=168162>.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-19_
+
+Прежде чем приступить к переходу на Lync Server 2013, настоятельно рекомендуется выполнить полную архивацию системы и документировать существующую систему, в том числе учетные записи пользователей, расположенные в каждом пуле, чтобы можно было вернуться к связям с Office. Сервер 2007 R2, если это становится нужно. Для резервного копирования и восстановления данных, параметров и систем доступны различные инструменты и программы. Подробности и инструкции можно найти в <http://go.microsoft.com/fwlink/p/?linkid=168162>разделе "Руководство по резервному копированию и восстановлению Office Communications Server 2007 R2".
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
