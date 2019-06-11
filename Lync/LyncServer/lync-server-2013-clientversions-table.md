@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица ClientVersions'
-TOCTitle: Таблица ClientVersions
-ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398356(v=OCS.15)
-ms:contentKeyID: 49309779
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица ClientVersions'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ClientVersions table
+ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398356(v=OCS.15)
+ms:contentKeyID: 48184176
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cba578209ca6c22360da73c2317334ecf77da569
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841554"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица ClientVersions в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="clientversions-table-in-lync-server-2013"></a>Таблица ClientVersions в Lync Server 2013
 
-Таблица ClientVersions является вспомогательной таблицей, в которой хранится список различных типов и версий клиентов, которые приняли участие в сеансах, зарегистрированных в базе данных. Каждая запись в таблице представляет одну версию клиента.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-28_
+
+Таблица Клиентверсионс является вспомогательной таблицей, в которой хранится список различных типов клиентов и версий, которые принимали участие в сеансах, записанных в базе данных. Каждая запись в таблице представляет одну версию клиента.
 
 
 <table>
@@ -37,22 +57,33 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>VersionId</strong></p></td>
 <td><p><strong>целое</strong></p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный номер, идентифицирующий данный тип клиента и его версию.</p></td>
+<td><p>Primary</p></td>
+<td><p>Уникальный номер, показывающий этот тип клиента и версию.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Version</strong></p></td>
+<td><p><strong>Версия</strong></p></td>
 <td><p><strong>nvarchar(256)</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Название версии.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ClientType</strong></p></td>
+<td><p><strong>Клиенттипе</strong></p></td>
 <td><p>целое</p></td>
-<td><p></p></td>
-<td><p>Указывает тип клиента, используемого в этом сеансе. Дополнительные сведения см. в разделе <a href="lync-server-2013-useragentdef-table.md">Таблица UserAgentDef в Lync Server 2013</a>.</p>
-<p>Это поле появилось в Microsoft Lync Server 2013.</p></td>
+<td></td>
+<td><p>Указывает тип клиента, используемого в сеансе. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-useragentdef-table.md">таблицей усеражентдеф в Lync Server 2013</a> .</p>
+<p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Check Lync Server 2013 server certificates'
+---
+title: 'Lync Server 2013: Проверка серверных сертификатов Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Check server certificates
 ms:assetid: 7b0474e8-0efe-47f0-84eb-a1ba575dabfd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn725210(v=OCS.15)
-ms:contentKeyID: 62335985
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725210(v=OCS.15)
+ms:contentKeyID: 63969620
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: dced86c93b7ec35cb410601f1d72720e25d156b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841586"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Check Lync Server 2013 server certificates
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="check-lync-server-2013-server-certificates"></a>Проверка серверных сертификатов Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-01_
 
 
 <table>
@@ -23,96 +43,106 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежемесячно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Get-CsCertificate cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Get-Ксцертификате. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Get-CsCertificate cmdlet enables you to retrieve information about each of your Lync Server certificates. That’s especially important because certificates have a built-in expiration date. For example,, privately-issued certificates typically expire after 12 months. If any of your Lync Server certificates expire then you'll lose the accompanying functionality until that certificate is renewed or replaced.
+## <a name="description"></a>Описание
 
-## Running the test
+Командлет Get-Ксцертификате позволяет получить сведения о каждом из сертификатов сервера Lync Server. Это особенно важно, так как у сертификатов есть встроенная Дата окончания срока действия. Например, просроченные сертификаты, как правило, истекает через 12 месяцев. Если срок действия одного из сертификатов вашего сервера Lync Server истек, то все возможности будут потеряны до тех пор, пока сертификат не будет обновлен или заменен.
 
-To return information about each of your Lync Server certificates just run the following command:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Чтобы получить сведения о каждом из ваших сертификатов сервера Lync Server, выполните следующую команду:
 
 `Get-CsCertificate`
 
-Or, you can filter the return certificate information based on expiration date. For example, this command limits the returned data to certificates that expire (cannot be used after) June 1, 2014:
+Вы также можете отфильтровать сведения о сертификате возврата на основе даты окончания срока действия. Например, эта команда ограничивает возвращаемые данные сертификатами с истекшим сроком действия (не может использоваться после) июня 1, 2014:
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-For more information, see the Help documentation for the Get-CsCertificate cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету Get-Ксцертификате.
 
-Note that, although the Test-CsCertificateConfiguration cmdlet exists, it is not very useful to administrators. (Instead, that cmdlet is primarily used by the Certificate wizard.) Although the cmdlet works, the information that it returns is of minimal value as shown in the following output example:
+Обратите внимание, что несмотря на то, что командлет Test-Ксцертификатеконфигуратион существует, он не очень полезен администраторам. (Вместо этого этот командлет используется преимущественно мастером сертификатов.) Несмотря на то что командлет работает, возвращаемые им данные имеют минимальное значение, как показано в следующем примере вывода:
 
-Thumbprint Use
+Использование отпечатка
 
 \---------- ---
 
-A9D51A2911C74FABFF7F2A8A994B20857D399107 Default
+A9D51A2911C74FABFF7F2A8A994B20857D399107 по умолчанию
 
-## Reviewing the output
+</div>
 
-The Get-CsCertificate cmdlet returns information similar to the following for each of your Lync Server certificates:
+<div>
 
-Issuer : CN=FabrikamCA
+## <a name="reviewing-the-output"></a>Просмотр результатов
 
-NotAfter : 12/28/2015 3:35:41 PM
+Командлет Get-Ксцертификате возвращает сведения о каждом из сертификатов сервера Lync Server, аналогичные приведенным ниже.
 
-NotBefore : 1/2/2014 12:49:37 PM
+Issuer: CN = Фабрикамка
 
-SerialNumber : 611BB01200000000000C
+Нотафтер: 12/28/2015 3:35:41 PM
 
-Subject : CN=LYNC-SE.fabrikam.com
+Нотбефоре: 1/2/2014 12:49:37 PM
 
-AlternativeNames : {sip.fabrikam.com, LYNC-SE.fabrikam.com,
+SerialNumber: 611BB01200000000000C
+
+Тема: CN = LYNC-SE.fabrikam.com
+
+Алтернативенамес: {sip.fabrikam.com, LYNC-SE.fabrikam.com,
 
 meet.fabrikam.com, admin.fabrikam.com...}
 
-Thumbprint : A9D51A2911C74FABFF7F2A8A994B20857D399107
+Отпечаток: A9D51A2911C74FABFF7F2A8A994B20857D399107
 
-Use : Default
+Использование: Default
 
-As a rule, the top issues involving Lync Server certificates involve dates and times, such as when certificates take effect (NotBefore) or when they expire (NotAfter). Because these dates and times are so important, you might want to limit the returned data to information such as the certificate use, the certificate serial number, and the certificate expiration date; then you can quickly review all the certificates and when they will expire. To return just that information, use the command together with the options as shown:
+Как правило, основные проблемы, связанные с сертификатами Lync Server, включают в себя даты и время, например время вступления в силу сертификатов (Нотбефоре) или срок их действия (Нотафтер). Поскольку эти значения даты и времени настолько важны, возможно, потребуется ограничить возвращаемые данные такими данными, как использование сертификата, серийный номер сертификата и Дата окончания срока действия сертификата; После этого вы сможете быстро просмотреть все сертификаты и срок их действия. Чтобы вернуть эти данные, используйте команду вместе с параметрами, как показано ниже.
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
-That command returns data similar to the following, with the certificates sorted in order of their expiration date:
+Эта команда возвращает данные, похожие на приведенные ниже, при этом сертификаты сортируются в порядке их истечения срока действия.
 
-Use SerialNumber NotAfter
+Использование Нотафтер SerialNumber
 
 \--- ------------ --------
 
-Default 611BB01200000000000C 12/28/2015 3:35:41 PM
+611BB01200000000000C по умолчанию 12/28/2015 3:35:41 PM
 
-WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
+Вебсервицесинтерал 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
-WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
+Вебсервицесекстернал 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-If you have certificate problems, you might want to review the AlternativeNames configured for a certificate. At first glance, that seems to be a problem. By default, and depending on the size of your console window, Get-CsCertificate might not be able to display all the names:
+Если у вас возникли проблемы с сертификатом, возможно, вы захотите просмотреть Алтернативенамес, настроенный для сертификата. На первый взгляд, это похоже на проблему. По умолчанию, в зависимости от размера окна консоли, Get-Ксцертификате может не отображать все имена:
 
-AlternativeNames : {sip.fabrikam.com, LYNC.fabrikam.com,
+Алтернативенамес: {sip.fabrikam.com, LYNC.fabrikam.com,
 
-meet.fabrikam.com, admin.fabrika...}
+meet.fabrikam.com, admin. фабрика...}
 
-To see all the alternative names assigned to a certificate use a command similar to this one:
+Чтобы просмотреть все альтернативные имена, назначенные сертификату, используйте следующую команду:
 
 `Get-CsCertificate | Where-Object {$_.SerialNumber -eq "611BB01200000000000C"} | Select-Object -ExpandProperty AlternativeNames`
 
-That should show you all of the alternative names on the certificate:
+Для отображения всех альтернативных имен в сертификате:
 
 sip.fabrikam.com
 
@@ -126,9 +156,25 @@ LYNC-SE.fabrikam.com
 
 Dialin.fabrikam.com
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)
+## <a name="see-also"></a>См. также
+
+
+[Get-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

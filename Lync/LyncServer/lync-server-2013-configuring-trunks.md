@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: конфигурация магистралей'
-TOCTitle: Конфигурация магистралей
-ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398170(v=OCS.15)
-ms:contentKeyID: 49308919
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: конфигурация магистралей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring trunks
+ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398170(v=OCS.15)
+ms:contentKeyID: 48183389
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2d40a290f75ae48b73a4695e04ea2934b0c4d695
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841165"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Конфигурация магистралей в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="configuring-trunks-in-lync-server-2013"></a>Конфигурация магистралей в Lync Server 2013
 
-В качестве части развертывания корпоративной голосовой связи можно настроить магистраль между сервером-посредником и одним или несколькими перечисляемыми ниже одноранговыми узлами, чтобы обеспечить возможность подключения через коммутируемую телефонную сеть общего пользования (ТСОП) клиентов и устройств корпоративной голосовой связи в организации:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+В рамках развертывания Enterprise Voice вы можете настроить магистраль между сервером-посредником и одним или несколькими из указанных ниже одноранговых сетей для предоставления подключения по коммутируемой телефонной сети (PSTN) для корпоративных клиентов и мобильных устройств в Организации.
 
   - Подключение магистрали SIP к поставщику услуг Интернет-телефонии
 
@@ -23,44 +43,75 @@ _**Дата изменения раздела:** 2012-11-01_
 
   - УАТС
 
-Подробные сведения см. в разделе [Планирование подключения к ТСОП в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) документации по планированию.
+Подробнее смотрите в разделе [Планирование подключений PSTN в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) в документации по планированию.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Прежде чем приступать к настройке магистрали, убедитесь что создана топология и что сервер-посредник и его одноранговый узел настроены и связаны друг с другом. Подробности см. в разделе <a href="lync-server-2013-define-a-gateway-in-topology-builder.md">Определение шлюза в построителе топологий в Lync Server 2013</a> в документации по развертыванию.
+> Перед началом настройки магистрали убедитесь в том, что топология создана и что сервер исправлений и его одноранговые элементы настроены и связаны друг с другом. Подробности можно найти <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">в разделе определение шлюза в построителе топологии в Lync Server 2013</A> в документации по развертыванию.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> В качестве части настройки можно включить функцию обхода сервера-посредника системы Lync Server 2013, которая позволяет передавать мультимедиа в обход сервера-посредника. Магистрали можно настроить как с включенной, так и с выключенной функцией медиа-посредника, но мы настоятельно рекомендуем включить эту функцию. Подробности см. в разделе <a href="lync-server-2013-planning-for-media-bypass.md">Планирование обхода серверов-посредников в Lync Server 2013</a> в документации по планированию.
+> В рамках настройки магистрали вы можете включить функцию обхода мультимедиа Lync Server 2013, которая позволяет мультимедиа обходить сервер-посредник. Магистральные магистрали можно настраивать с включенным параметром "обойти" или без него, но настоятельно рекомендуем включить его. Подробности можно найти <A href="lync-server-2013-planning-for-media-bypass.md">в разделе Планирование обхода мультимедиа в Lync Server 2013</A> в документации по планированию.
 
-## Содержание
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Поддержка нескольких каналов в Lync Server 2013](lync-server-2013-multiple-trunk-support.md)
 
-  - [Маршрутизация промежуточных магистралей в Lync Server 2013](lync-server-2013-inter-trunk-routing.md)
+  - [Маршрутизация с межмагистральными организациями в Lync Server 2013](lync-server-2013-inter-trunk-routing.md)
 
-  - [Просмотр сведений о конфигурации магистрали в Lync Server 2013](lync-server-2013-view-trunk-configuration-information.md)
+  - [Просмотр сведений о магистральной конфигурации в Lync Server 2013](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [Настройка магистрали с обходом сервера-посредника в Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [Настройка магистрали без обхода сервера-посредника в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [Настройка магистрали без обхода мультимедиа в Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [Создание новой коллекции параметров конфигурации магистралей в Lync Server 2013](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [Создание нового набора параметров конфигурации магистрали в Lync Server 2013](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [Удаление существующей коллекции параметров конфигурации магистралей SIP в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [Удаление существующей коллекции параметров конфигурации магистральной магистрали SIP в Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
-  - [Изменение параметров конфигурации магистрали SIP в Lync Server 2013](lync-server-2013-modify-sip-trunk-configuration-settings.md)
+  - [Изменение параметров конфигурации магистральной магистрали SIP в Lync Server 2013](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
-  - [Тестирование параметров конфигурации магистрали SIP в Lync Server 2013](lync-server-2013-test-sip-trunk-configuration-settings.md)
+  - [Проверка параметров конфигурации магистральной магистрали SIP в Lync Server 2013](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [Просмотр сведения об отдельных магистралях SIP в Lync Server 2013](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [Просмотр сведений об отдельных магистральах SIP в Lync Server 2013](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Определение шлюза в построителе топологий в Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)  
+## <a name="see-also"></a>См. также
 
-#### Другие ресурсы
 
-[Планирование подключения к ТСОП в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
-[Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+[Определение шлюза в построителе топологии в Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)  
+
+
+[Планирование подключений PSTN в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
+[Планирование обхода серверов-посредников в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

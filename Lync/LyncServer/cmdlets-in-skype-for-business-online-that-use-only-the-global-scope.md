@@ -1,62 +1,69 @@
-﻿---
-title: Командлеты, использующие только глобальную область
-TOCTitle: Командлеты, использующие только глобальную область
-ms:assetid: 0ffd3bc9-a6a1-4c2e-8d52-e599acc49d2d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn362771(v=OCS.15)
-ms:contentKeyID: 56270528
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Командлеты, использующие только глобальную область
+title: Командлеты в Skype для бизнеса Online, использующие только глобальную область
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use only the global scope
+ms:assetid: 0ffd3bc9-a6a1-4c2e-8d52-e599acc49d2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362771(v=OCS.15)
+ms:contentKeyID: 56558800
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af9bb88fc4dbe3b7814d1f2f69d711527a769a3b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841099"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Командлеты в Skype для бизнеса Online, использующие только глобальную область
 
  
 
-_**Дата изменения раздела:** 2015-06-22_
 
-Некоторые параметры Skype для бизнеса Online доступны только в *глобальной области*. Это означает, что ко всем пользователям, назначенным клиенту, применяется один набор параметров (у каждого клиента есть свой уникальный набор глобальных параметров). При использовании командлетов, действие которых ограничено глобальной областью, параметр Identity является необязательным. Например, для получения параметров конфигурации собрания используйте следующую команду:
+Ряд параметров Skype для бизнеса Online доступен только в *глобальной области*. Это означает, что существует единственная коллекция параметров, которая применяется ко всем пользователям, которые назначены этому клиенту. (У каждого клиента есть своя уникальная коллекция глобальных параметров.) При использовании командлетов, ограниченных глобальной областью, параметр Identity является необязательным. Например, чтобы получить параметры конфигурации собрания, можно использовать следующую команду:
 
     Get-CsMeetingConfiguration -Identity "global"
 
-Кроме того, можно опустить параметр Identity и использовать следующую более простую команду:
+Кроме того, вы можете опустить параметр Identity и использовать эту простую команду вместо этого:
 
     Get-CsMeetingConfiguration
 
-Поскольку глобальный набор параметров конфигурации собраний всего один, обе вышеупомянутые команды возвращают абсолютно одинаковые сведения. Параметр Identity также можно опустить при использовании одного из командлетов **Set-Cs**. Следующие две команды идентичны:
+Так как имеется только одна глобальная коллекция параметров конфигурации собрания, две команды возвращают одни и те же данные. Параметр Identity также можно опустить при использовании одного из командлетов **Set-CS** . Эти две команды идентичны:
 
     Set-CsMeetingConfiguration -Identity "global" -AdmitAnonymousUsersByDefault $False
     Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False
 
-Эти команды идентичны, поскольку Windows PowerShell по умолчанию изменяет глобальный набор, если параметр Identity не включен.
+Две команды идентичны, так как по умолчанию Windows PowerShell изменит глобальную коллекцию, если не включить параметр Identity.
 
-Следующие командлеты работают только на глобальном уровне:
+Следующие командлеты работают только в глобальной области:
 
-  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
+  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/gg398980\(v=ocs.15\))
 
-  - [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)
+  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg425875\(v=ocs.15\))
 
-  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
+  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg413002\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
 
-  - [Get-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantPublicProvider)
+  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/jj994016\(v=ocs.15\))
 
-  - [Remove-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsVoicePolicy)
+  - [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398309\(v=ocs.15\))
 
-  - [Set-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingConfiguration)
+  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg398648\(v=ocs.15\))
 
-  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
+  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg398484\(v=ocs.15\))
 
-Обратите внимание, что командлет **Remove-CsVoicePolicy** в некотором роде аномален. Во-первых, он не требует включения параметра Identity:
+Обратите внимание, что командлет **Remove-ксвоицеполици** является какой-либо аномалией. Для начала для этого командлета требуется включить параметр Identity:
 
     Remove-CsVoicePolicy -Identity "global"
 
-Во-вторых, командлет **Remove-CsVoicePolicy** на самом деле не удаляет глобальную голосовую политику, а Skype для бизнеса Online не позволяет удалить глобальные политики или настройки конфигурации. Однако, помощью этого командлета можно сбросить все свойства глобальной голосовой политики в значения по умолчанию. Например, по умолчанию свойству AllowCallForwarding задано значение False, но его можно изменить, задав ему значение True. При выполнении командлета **Remove-CsVoicePolicy** свойство AllowCallForwarding вернет значение по умолчанию, т.е. False. Этот сценарий кратко изложен в следующей таблице:
+Во-вторых, командлет **Remove-ксвоицеполици** фактически не удаляет глобальную политику голосовой связи; В Skype для бизнеса Online запрещено удалять глобальные политики и параметры конфигурации. Действие командлета — это возможность сброса всех свойств в глобальной политике голосовой связи в значения по умолчанию. Например, по умолчанию для свойства Алловкаллфорвардинг задано значение false. Тем не менее, Алловкаллфорвардинг может быть изменено, и теперь для него установлено значение true. При запуске командлета **Remove-ксвоицеполици** свойству алловкаллфорвардинг будет возвращено значение по умолчанию: false. В приведенной ниже таблице перечислены сценарии.
 
 
 <table>
@@ -66,7 +73,7 @@ _**Дата изменения раздела:** 2015-06-22_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Значение AllowCallForwarding</th>
+<th>Значение Алловкаллфорвардинг</th>
 <th>Сценарий</th>
 </tr>
 </thead>
@@ -81,16 +88,15 @@ _**Дата изменения раздела:** 2015-06-22_
 </tr>
 <tr class="odd">
 <td><p>False</p></td>
-<td><p>После выполнения командлета <strong>Remove-CsVoicePolicy</strong></p></td>
+<td><p>После запуска командлета <strong>Remove-ксвоицеполици</strong></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## См. также
+## <a name="see-also"></a>См. также
 
-#### Концепции
 
-[Удостоверения, области и клиенты](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Удостоверения, области и клиенты в Skype для бизнеса Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Командлеты Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

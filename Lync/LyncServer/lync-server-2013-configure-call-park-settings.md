@@ -1,24 +1,51 @@
-﻿---
-title: Настройка параметров парковки вызовов в Lync Server 2013
-TOCTitle: Настройка параметров парковки вызовов в Lync Server 2013
-ms:assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425886(v=OCS.15)
-ms:contentKeyID: 49309505
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка параметров парковки звонков'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Call Park settings
+ms:assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425886(v=OCS.15)
+ms:contentKeyID: 48183922
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9acbd44acf2ca78042452d2c1f52d4c5fa26056f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841429"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка параметров парковки вызовов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>Настройка параметров парковки звонков в Lync Server 2013
 
-Если нет необходимости использования параметров приостановки вызовов, можно настроить их. При установке приостановки вызовов для глобальных параметров задаются значения по умолчанию. Вы можете изменить эти глобальные параметры, а также указать параметры для отдельных сайтов. Используйте командлет **New-CsCpsConfiguration** для создания новых параметров для конкретного сайта и командлет **Set-CsCpsConfiguration** для изменения существующих параметров.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+Если вы не хотите использовать настройки по умолчанию для приостановки звонка, вы можете настроить их. При установке приложения для парковки по умолчанию устанавливаются глобальные параметры. Вы можете изменять глобальные параметры, а также задавать параметры для определенного сайта. С помощью командлета **New-кскпсконфигуратион** можно создавать новые параметры для определенного сайта. Используйте командлет **Set-кскпсконфигуратион** для изменения существующих параметров.
+
+<div>
+
 
 > [!NOTE]  
-> Мы рекомендуем вам настроить хотя бы параметр <strong>OnTimeoutURI</strong> для резервного назначения, используемого в случае истечения времени ожидания запаркованного вызова и сбоя переключения на удерживаемого абонента.
+> Мы рекомендуем настроить хотя бы параметр <STRONG>OnTimeoutURI</STRONG> для резервного назначения, используемого в случае истечения времени ожидания запаркованного вызова и сбоя переключения на удерживаемого абонента.
+
+
+
+</div>
 
 Используйте командлет **New-CsCpsConfiguration** или **Set-CsCpsConfiguration** для настройки любых из приведенных ниже параметров:
 
@@ -58,34 +85,55 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-## Настройка параметров приостановки вызовов
+<div>
 
-1.  Войдите на компьютер, где установлена командная консоль Lync Server, как член группы RTCUniversalServerAdmins или имея необходимые права пользователя, описанные в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+## <a name="to-configure-call-park-settings"></a>Настройка параметров парковки для звонков
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Выполните:
+2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+3.  Выполните следующую команду:
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
+    <div>
+    
 
-    > [!TIP]
-    > Используйте командлет <STRONG>Get-CsSite</STRONG> для идентификации сайта. Дополнительные сведения см. в документации по командной консоли Командная консоль Lync Server.
+    > [!TIP]  
+    > Используйте командлет <STRONG>Get-CsSite</STRONG> для идентификации сайта. Подробные сведения можно найти в руководстве по среде Lync Server Management Shell.
 
+    
+    </div>
     
     Например:
     
         New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Настройка функции воспроизведения музыки для режима удержания при парковке вызова в Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
+## <a name="see-also"></a>См. также
 
-#### Другие ресурсы
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
-[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
-[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
+[Настройка музыкального сопровождения для приема звонков на удержании в Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
+
+
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
+[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

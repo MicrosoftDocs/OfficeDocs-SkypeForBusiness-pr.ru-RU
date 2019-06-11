@@ -1,77 +1,119 @@
-﻿---
-title: 'Lync Server 2013: Best practices for Lync Server environments'
+---
+title: 'Lync Server 2013: советы и рекомендации по работе с серверными средами Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Best practices for Lync Server environments
 ms:assetid: b0e45d84-09c8-4d3e-aad0-bc6f34ce233b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720348(v=OCS.15)
-ms:contentKeyID: 62222407
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720348(v=OCS.15)
+ms:contentKeyID: 63969642
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 00dbbf95990875b8366ce5a03f1d2d70e6652828
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841742"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Best practices for Lync Server 2013 environments
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="best-practices-for-lync-server-2013-environments"></a>Рекомендации по работе с средами Lync Server 2013
 
-The following general principles should be applied to ongoing operations of your system:
+</div>
 
-  - **Understand and utilize MOF**   MOF is a collection of best practices, principles, and models that provide organizations technical guidance about the management of IT assets, such as daily Lync Server 2013 operations. Following MOF guidelines can help you achieve mission-critical production system reliability, availability, supportability, and manageability for Microsoft products. For more information, see [Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939).
+<div id="mainSection">
 
-  - **Learn about best practices for Lync Server 2013**   We recommend that you implement practical and proven procedures to manage Lync Server 2013. By using tried, tested, and documented methods of managing operations may be more efficient than developing your own methods.
+<div id="mainBody">
 
-  - **Separate operations into daily, weekly, and monthly processes**   Document the required operational tasks that you'll regularly perform. Documenting how you perform tasks helps make sure that your information is preserved when there is a change in your operational environment such as when new technologies are deployed or staff changes occur. We recommend that operational tasks be separated into manageable workloads where tasks are performed daily, weekly, and monthly. Daily tasks would focus efforts on the functioning of a system, and monthly tasks would focus more on ensuring the long-term health of a system.
+<span> </span>
+
+_**Тема последнего изменения:** 2014-08-04_
+
+Следующие общие принципы должны применяться к текущим операциям системы:
+
+  - **Общие сведения и использование MOF**   MOF — это набор рекомендаций, принципов и моделей, которые предоставляют организациям технические рекомендации по управлению ИТ-ресурсами, например, ежедневных операций Lync Server 2013. Ниже приведены рекомендации по использованию MOF, которые помогут вам добиться критической надежности, доступности, обеспечения поддержки и управляемости продуктов Майкрософт. Дополнительные сведения можно найти в разделе [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
+
+  - **Ознакомьтесь**   с рекомендациями по работе с Lync Server 2013 мы рекомендуем реализовать практичные и проверенные процедуры для управления Lync Server 2013. Использование проверенных, протестированных и документированных методов управления операциями может быть более эффективной, чем разработка собственных методов.
+
+  - **Разделяйте операции на ежедневные, еженедельные и ежемесячные процессы**   , задокументируйте необходимые рабочие задачи, которые будут регулярно выполняться. Сведения о том, как выполнять задачи, помогают удостовериться в том, что информация сохраняется при изменении в рабочей среде, например при развертывании новых технологий или изменении штатных обязанностей. Рекомендуется разделить операционные задачи на управляемые рабочие нагрузки, где задачи выполняются ежедневно, еженедельно и ежемесячно. Ежедневные задачи будут сосредоточиться на работе системы, а ежемесячные задачи — сосредоточиться на долгосрочной работоспособности системы.
     
-    This document can be used in environments deploying only instant messaging/presence (IM/P) components or IM/P with Enterprise Voice. When tasks or checklist items are specific to Enterprise Voice, this is mentioned and if your environment does not include Enterprise Voice the portion may be skipped.
+    Этот документ можно использовать в средах, в которых развертываются только компоненты обмена мгновенными сообщениями и присутствия (IM/P), а также обмен мгновенными сообщениями с корпоративной голосовой связью. Если задачи или контрольный список относятся к корпоративной голосовой связи, это упомянуто, и если в вашей среде не указана корпоративная голосовая связь, часть может быть пропущена.
 
-  - **Deploy the tools that are required for operating Lync Server 2013**   Many tools are available to help troubleshoot issues, automate tasks, and help monitor and maintain the Lync Server 2013 environment. Define a standard set of tools for your organization so the tasks that are performed by the operations team are performed accurately, efficiently, consistently, and in a controlled manner. You should also implement processes to track incidents and major configuration changes.
+  - **Развертывание средств, необходимых для работы в Lync Server 2013**   многие инструменты помогут вам устранить проблемы, автоматизировать задачи, а также отслеживать и поддерживать среду Lync Server 2013. Определите стандартный набор инструментов для Организации, чтобы задачи, выполняемые командой операций, выполнялись корректно, эффективно, своевременно и в контролируемом виде. Кроме того, необходимо реализовать процессы для отслеживания происшествий и существенных изменений в конфигурации.
 
-## Справочные материалы
+<div>
 
-For the benefit of readers not already familiar with the basics of server management in general, we provide an overview of server management practices. Readers already familiar with server management may choose to skip this section.
+## <a name="reference"></a>Справочные материалы
 
-Best practices are recommendations that are based on the knowledge and experience that IT professionals have gained across many environments. They provide standard procedures for typical tasks that your Lync Server administrators must perform daily, and list the tools that they should use to manage a Lync Server environment.
+Для тех, кто еще не знаком с основами управления серверами в целом, мы предлагаем общие рекомендации по управлению сервером. Читатели, уже знакомые с управлением сервером, могут пропустить этот раздел.
 
-Typical tasks for Lync administrators include the following:
+Рекомендации — это рекомендации, которые основываются на наборе знаний и опыте, когда ИТ-специалисты посмотрелись в разных средах. Они предоставляют стандартные процедуры для типичных задач, которые администраторы сервера Lync Server должны выполнять ежедневно, и перечень средств, которые должны использоваться для управления средой Lync Server.
 
-  - **Capacity and Availability Management**   Define how and what to measure to predict future capacity requirements and to report about the capacity, reliability, and availability of your systems. You must verify that servers that are running Lync Server are sized to handle the load on the system, and that unplanned downtime is kept under the levels defined in the service level agreement (SLA). Additionally, you'll have to upgrade hardware to continue to meet the defined requirements.
+К типичным задачам для администраторов Lync относятся следующие:
 
-  - **Change Management and Configuration Management**   Control how changes are made to IT systems. This should include testing, application feedback and contingency plans, documentation of all changes, and approval from management if issues occur. Keep a record of your software and hardware assets and their configurations.
+  - **Управление емкостью и**   обеспечением доступности. Определите, как и что следует измерять, чтобы прогнозировать будущие требования к мощности и сообщать о производительности, надежности и доступности систем. Необходимо убедиться в том, что на серверах, на которых работает Lync Server, определена размер для обработки нагрузки системы, а незапланированные простои остаются на уровнях, определенных в соглашении об уровне обслуживания (SLA). Кроме того, вам потребуется обновить оборудование, чтобы оно продолжало соответствовать определенным требованиям.
 
-  - **System Administration**   Outline standard methods for doing administrative tasks such as database administration and site administration.
+  - ****   Управление изменениями и управлением конфигурацией определяют, как изменения вносятся в ИТ – системы. Это должно включать тестирование, планы обратной связи с приложениями и ограничений на непредвиденные случаи, документацию по всем изменениям и одобрение управления в случае возникновения проблем. Храните запись программного обеспечения и ресурсов оборудования и их конфигураций.
 
-  - **Security Administration**   Have a detailed policy and plan that protects data confidentiality, data integrity, and data availability of the IT infrastructure. This includes day-to-day activities and tasks that are related to maintaining and adjusting the IT security infrastructure.
+  - ****   Стандартные методы структуры системного администратора для выполнения административных задач, таких как администрирование базы данных и администрирование сайта.
 
-  - **System Troubleshooting**   Outline methods for dealing with unexpected issues, including steps to prevent similar issues in the future.
+  - **У администратора**   безопасности есть детальная политика и планирование, защищающие конфиденциальность данных, целостность данных и доступность данных в ИТ-инфраструктуре. Сюда входят повседневные мероприятия и задачи, связанные с обслуживанием и настройкой инфраструктуры ИТ-безопасности.
 
-  - **Service Level Agreements**   Maintain a set of goals for the performance of the IT systems and regularly measure performance against these goals.
+  - **Способы устранения неполадок**   , связанных с ошибками системы, в том числе шаги для предотвращения подобных проблем в будущем.
 
-  - **Documentation**   Document standard procedures, such as configuration information and lessons learned, and make them available to the staff members that need them. As changes to the configuration are made, update the documentation accordingly.
+  - **Соглашение об уровне обслуживания**   поддерживает набор целей для производительности ИТ-систем и регулярно измеряет производительность по сравнению с этими целями.
 
-## Связанные разделы
+  - ****   Стандартные процедуры документированных документов, такие как сведения о конфигурации и выученные уроки, и делают их доступными для сотрудников, которым они нужны. После внесения изменений в конфигурацию Обновите документацию соответствующим образом.
 
-Review the following topics concerning system operations before proceeding:
+</div>
 
-  - [Capacity and availability management in Lync Server 2013](lync-server-2013-capacity-and-availability-management.md)
+<div>
 
-  - [Change management in Lync Server 2013](lync-server-2013-change-management.md)
+## <a name="related-sections"></a>Связанные разделы
 
-  - [Configuration management in Lync Server 2013](lync-server-2013-configuration-management.md)
+Прежде чем продолжить, ознакомьтесь со следующими разделами, посвященными системным операциям.
 
-  - [System administration in Lync Server 2013](lync-server-2013-system-administration.md)
+  - [Управление емкостью и доступностью в Lync Server 2013](lync-server-2013-capacity-and-availability-management.md)
 
-  - [Service level agreements in Lync Server 2013](lync-server-2013-service-level-agreements.md)
+  - [Управление изменениями в Lync Server 2013](lync-server-2013-change-management.md)
 
-  - [Documentation in Lync Server 2013](lync-server-2013-documentation.md)
+  - [Управление конфигурацией в Lync Server 2013](lync-server-2013-configuration-management.md)
 
-  - [Standard procedures in Lync Server 2013](lync-server-2013-standard-procedures.md)
+  - [Администрирование системы в Lync Server 2013](lync-server-2013-system-administration.md)
 
-  - [Emergency procedures in Lync Server 2013](lync-server-2013-emergency-procedures.md)
+  - [Соглашения об уровне обслуживания в Lync Server 2013](lync-server-2013-service-level-agreements.md)
 
-## См. также
+  - [Документация в Lync Server 2013](lync-server-2013-documentation.md)
 
-#### Другие ресурсы
+  - [Стандартные процедуры в Lync Server 2013](lync-server-2013-standard-procedures.md)
 
-[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)
+  - [Процедуры для экстренного реагирования в Lync Server 2013](lync-server-2013-emergency-procedures.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

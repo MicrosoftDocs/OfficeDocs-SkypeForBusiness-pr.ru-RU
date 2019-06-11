@@ -1,47 +1,97 @@
-﻿---
-title: Настройка сетевых сайтов для контроля допуска звонков в Lync Server 2013
-TOCTitle: Настройка сетевых сайтов для контроля допуска звонков в Lync Server 2013
-ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412840(v=OCS.15)
-ms:contentKeyID: 49310850
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка сетевых сайтов для CAC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure network sites for CAC
+ms:assetid: afcea38f-5789-45ec-97af-c6e38364950c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412840(v=OCS.15)
+ms:contentKeyID: 48185144
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 528ed67243fb0ab0451abf504a458afc420d94ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841341"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка сетевых сайтов для контроля допуска звонков в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-05_
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Настройка сетевых сайтов для CAC в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-05_
+
+<div class=" ">
+
 
 > [!IMPORTANT]  
-> Если вы уже создали сетевые сайты для службы E9-1-1 или обхода сервера-посредника, то вы можете применить к ним профиль политики пропускной способности с помощью командлета <strong>Set-CsNetworkSite</strong>. Пример изменения сетевого сайта см. в разделе <a href="lync-server-2013-create-or-modify-a-network-site.md">Создание или изменение сетевого сайта в Lync Server 2013</a>.
+> Если вы уже создали сайты сети для E9-1 или мультимедиа, вы можете изменить существующие сайты сети, чтобы применить профиль политики пропускной способности с помощью командлета <STRONG>Set-кснетворксите</STRONG> . Пример изменения сайта сети можно найти <A href="lync-server-2013-create-or-modify-a-network-site.md">в разделе Создание или изменение сайта сети в Lync Server 2013</A>.
 
-*Сетевые сайты* — это офисы или расположения в каждой области сети контроля допуска звонков, E9-1-1 и обхода сервера-посредника. Чтобы создать сетевые сайты, соответствующие примеру топологии сети для контроля допуска звонков, используйте следующие процедуры. В этих процедурах демонстрируется создание и настройка сетевых сайтов, на которые распространяется ограничение пропускной способности глобальной сети. Следовательно, для этих сетевых сайтов требуются политики пропускной способности, которые ограничивают трафик звуковых и видеоданных в режиме реального времени.
 
-В примере развертывания контроля допуска звонков регион Северная Америка содержит 6 сайтов. На 3 сайта распространяется ограничение пропускной способности глобальной сети: Рино, Портленд и Альбукерке. На оставшиеся 3 сайта ограничение пропускной способности глобальной сети *не* действует: Нью-Йорк, Чикаго и Детройт. Пример создания или изменения сетевых сайтов см. в разделе [Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
 
-Пример топологии сети см. в разделе [Пример: сбор своих требований организации для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) документации по планированию.
+</div>
+
+*Сетевые сайты* — это офисы или места в каждом сетевом регионе управления допуском звонков (CAC), E9-1-1, а также с помощью мультимедийных развертываний. Для создания сайтов сети, которые выравниваются по сетевым сайтам в примере топологии сети для CAC, выполните указанные ниже действия. В этих процедурах показано, как создавать и настраивать сетевые сайты, ограниченные с помощью глобальной сети, и поэтому требуют политики пропускной способности, которые ограничивают поток аудио-или видеоканала в режиме реального времени.
+
+В примере развертывания CAC для Северной Америки регион "Северная Америка" состоит из шести сайтов. На три из этих сайтов наложено пропускная способность глобальной сети: Рено, Портленде и Альбукерке. Другие три сайта, *не* ограниченные пропускной СПОСОБНОСТЬЮ глобальной сети: Нью-Йорк, Чикаго и Детройт. Пример создания или изменения этих сайтов сети можно найти [в разделе Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
+
+Пример топологии сети вы можете найти в статье [пример. сбор требований для управления допуском звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) в документации по планированию.
+
+<div class=" ">
+
 
 > [!NOTE]  
-> В следующей процедуре для создания сетевого сайта используется Командная консоль Lync Server. Дополнительные сведения о создании сетевого сайта с помощью панели управления Lync Server см. в разделе <a href="lync-server-2013-create-or-modify-a-network-site.md">Создание или изменение сетевого сайта в Lync Server 2013</a>.
+> В описанной ниже процедуре для создания сайта сети используется Командная консоль Lync Server Management Shell. Дополнительные сведения об использовании панели управления Lync Server для создания сайта можно найти в разделе <A href="lync-server-2013-create-or-modify-a-network-site.md">Создание или изменение сайта сети в Lync Server 2013</A>.
 
-## Создание сетевых узлов для контроля допуска звонков
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Чтобы создать сетевые сайты и применить требуемый профиль политики пропускной способности для каждого сайта, выполните командлет **New-CsNetworkSite**. Пример:
+</div>
+
+<div>
+
+## <a name="to-create-network-sites-for-call-admission-control"></a>Создание сетевых сайтов для управления допуском звонков
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+2.  Запустите командлет **New-кснетворксите** для создания сайтов сети и применения к каждому сайту соответствующего профиля политики пропускной способности. Например, выполните командлет:
     
-    ```
-    New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
-    ```
-    ```
-    New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
-    ```
-    ```
-    New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
-    ```
+       ```
+        New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+       ```
+    
+       ```
+        New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
+       ```
+    
+       ```
+        New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
+       ```
 
-3.  Чтобы завершить создание сетевых сайтов для всего примера топологии, повторите шаг 2 для сетевых сайтов с ограничением пропускной способности, расположенных в Европе, на Ближнем Востоке и в Африке, а также в Азиатско-тихоокеанском регионе.
+3.  Чтобы завершить создание сайтов сети для всей топологии примера, повторите шаг 2 для сайтов сети с ограниченным доступом в регионах EMEA и APAC.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

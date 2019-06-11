@@ -1,21 +1,41 @@
-﻿---
-title: Настройка Microsoft Lync Server 2013 в распределенной среде
-TOCTitle: Настройка Microsoft Lync Server 2013 в распределенной среде
-ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204990(v=OCS.15)
-ms:contentKeyID: 49310129
-ms.date: 02/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка сервера Lync Server в нескольких локальных средах'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Microsoft Lync Server 2013 in a cross-premises environment
+ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204990(v=OCS.15)
+ms:contentKeyID: 48184449
+ms.date: 02/21/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 44a47dc3bf3c832819fe431cb0177bfc1a03f330
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841237"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка Microsoft Lync Server 2013 в распределенной среде
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2017-02-21_
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>Настройка Microsoft Lync Server 2013 в нескольких локальных средах
 
-При распределенной конфигурации некоторые ваши пользователи размещаются в локальной установке Microsoft Lync Server 2013, а другие — в версии Lync Server для Office 365. Чтобы настроить межсерверную проверку подлинности в распределенной среде, вам следует сначала настроить локальную установку системы Lync Server 2013 на доверие серверу авторизации Office 365. Первый шаг данной процедуры можно выполнить, запустив следующий скрипт командной консоли Командная консоль Lync Server:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2017-02-21_
+
+В многолокальных конфигурациях некоторые пользователи находятся в локальной установке Microsoft Lync Server 2013, а другие пользователи находятся в версии Office 365 на Lync Server. Чтобы настроить проверку подлинности "сервер-сервер" в нескольких локальных средах, необходимо сначала настроить локальную установку Lync Server 2013, чтобы доверять серверу авторизации Office 365. Чтобы выполнить этот процесс, запустите следующий сценарий оболочки управления Lync Server.
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -59,24 +79,31 @@ _**Дата изменения раздела:** 2017-02-21_
 
     $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 
-После выполнения скрипта вам следует настроить отношение доверия между системой Lync Server 2013 и сервером авторизации, а также между системой Exchange 2013 и сервером авторизации. Это можно выполнить только с помощью командлетов Microsoft Online Services.
+После завершения работы сценария необходимо настроить отношение доверия между Lync Server 2013 и сервером авторизации, а также вторым отношением доверия между Exchange 2013 и сервером авторизации. Это возможно только с помощью командлетов Microsoft Online Services.
+
+<div>
+
 
 > [!NOTE]  
-> Если вы еще не установили командлеты Microsoft Online Services, то для продолжения вам потребуется выполнить две операции. Во-первых, загрузите и установите 64-разрядную версию помощника по входу в Microsoft Online Services. После завершения установки загрузите и установите 64-разрядную версию модуля Microsoft Online Services для Windows PowerShell. Подробные сведения об установке и использовании модуля Microsoft Online Services см. на веб-сайте, посвященном Office 365. Данные инструкции также помогут вам настроить единый вход, федерацию и синхронизацию между Office 365 и Active Directory.<br />Если вы не выполнили установку этих командлетов, то произойдет сбой вашего сценария, так как командлет Get-CsTenant будет недоступен.
+> Если вы не установили командлеты Microsoft Online Services, перед продолжением вам потребуется выполнить два действия. Во-первых, скачайте и установите 64-разрядную версию помощника по входу в Microsoft Online Services. После завершения установки Скачайте и установите 64-разрядную версию модуля Microsoft Online Services для Windows PowerShell. Подробные сведения об установке и использовании модуля Microsoft Online Services можно найти на веб-сайте Office 365. В этих инструкциях также рассказывается о том, как настроить единый вход, Федерацию и синхронизацию между Office 365 и Active Directory.<BR>Если вы не выполнили установку этих командлетов, то произойдет сбой вашего сценария, так как командлет Get-CsTenant будет недоступен.
 
-После завершения настройки Office 365 и создания субъектов-служб Office 365 для системы Lync Server 2013 и Exchange 2013 вам потребуется зарегистрировать свои учетные данные с использованием данных субъектов-служб. Для этого вам следует сначала получить X.509 Base64 в виде файла CER. После этого данный сертификат применяется к субъектам-службам Office 365.
 
-После получения сертификата X.509 запустите модуль Microsoft Online Services (нажмите кнопку **Пуск**, выберите **Все программы**, **Microsoft Online Services** и **Модуль Microsoft Online Services для Windows PowerShell**). После открытия модуля введите следующую команду для импорта модуля Microsoft Online Windows PowerShell с командлетами, которые можно использовать для управления субъектами-службами:
+
+</div>
+
+После того как вы настроили Office 365, и после создания участников служб Office 365 для Lync Server 2013 и Exchange 2013, вам потребуется зарегистрировать ваши учетные данные для этих субъектов-служб. Для этого необходимо сначала получить X.509 Base64 в виде файла CER. Этот сертификат будет затем применен к участникам службы Office 365.
+
+После получения сертификата X. 509 запустите модуль Microsoft Online Services (нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **веб-службы Майкрософт**, а затем — **модуль Microsoft Online Services для Windows. PowerShell**). После открытия модуля "службы" введите следующую команду для импорта модуля Microsoft Online Windows PowerShell, содержащего командлеты, которые можно использовать для управления субъектами-службами.
 
     Import-Module MSOnlineExtended
 
-После завершения импорта модуля введите следующую команду и нажмите клавишу ВВОД для подключения к Office 365:
+После импорта модуля введите указанную ниже команду и нажмите клавишу ВВОД, чтобы подключиться к Office 365:
 
     Connect-MsolService
 
-После нажатия клавиши ВВОД отображается диалоговое окно. Введите в нем имя пользователя и пароль Office 365, а затем нажмите кнопку "ОК".
+При нажатии клавиши Enter отображается диалоговое окно учетных данных. В диалоговом окне введите имя пользователя и пароль Office 365 и нажмите кнопку ОК.
 
-После подключения к Office 365 вы можете запустить следующую команду для получения информации о субъектах-службах:
+После подключения к Office 365 вы можете выполнить следующую команду, чтобы получить сведения об участниках служб.
 
     Get-MsolServicePrincipal
 
@@ -91,18 +118,18 @@ _**Дата изменения раздела:** 2017-02-21_
     ServicePrincipalName : LyncServer/litwareinc.com
     TrustedForDelegation : True
 
-Следующий этап состоит из импорта, кодирования и назначения сертификата X.509. Чтобы импортировать и закодировать сертификат, используйте следующие команды Windows PowerShell, при этом обязательно укажите полный путь к файлу CER во время вызова метода Import:
+На следующем шаге выполняется импорт, кодирование и назначение сертификата X.509. Для импорта и кодирования сертификата используйте указанные ниже команды Windows PowerShell, чтобы указать полный путь к файлу. CER при вызове метода Import:
 
     $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
     $certificate.Import("C:\Certificates\Office365.cer")
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-После завершения импорта и кодирования сертификата вы можете назначить его своим субъектам-службам Office 365. Для этого сначала воспользуйтесь командлетом Get-MsolServicePrincipal, чтобы извлечь значение свойства AppPrincipalId для субъектов-служб Lync Server и Microsoft Exchange; это значение свойства AppPrincipalId будет использоваться для идентификации субъекта-службы, которому назначается сертификат. После получения значения свойства AppPrincipalId для системы Lync Server 2013 используйте следующую команду, чтобы назначить сертификат версии Lync Server для Office 365 (свойства StartDate и EndDate должны соответствовать периоду действия данного сертификата):
+После того как сертификат будет импортирован и закодирован, вы можете назначить сертификат участникам службы Office 365. Для этого сначала используйте Get-МсолсервицепринЦипал для получения значения свойства АпппринЦипалид как для сервера Lync, так и для участников службы Microsoft Exchange. значение свойства АпппринЦипалид будет использоваться для идентификации субъекта-службы, которому назначается сертификат. С помощью значения свойства АпппринЦипалид для Lync Server 2013 можно назначить сертификат версии Office 365 для Lync Server (свойства StartDate и EndDate должны соответствовать сроку действия сертификата).
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
-После этого вам необходимо повторно выполнить команду, используя значение свойства AppPrincipalId для Exchange 2013.
+Затем следует повторить команду, на этот раз используя значение свойства АпппринЦипалид для Exchange 2013.
 
 Если позднее вам потребуется удалить этот сертификат, сначала вам потребуется получить для него значение KeyId:
 
@@ -121,11 +148,21 @@ _**Дата изменения раздела:** 2017-02-21_
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-Кроме назначения сертификата, вам также следует настроить субъект-службу Exchange Online, а также настроить локальную версию системы Lync Server 2013 в качестве субъекта-службы Office 365. Для этого можно использовать две следующие команды:
+Помимо назначения сертификата необходимо также настроить субъект-службу Office 365 для Exchange Online, добавив имя участника сервера для локальной версии Lync Server 2013. Это можно сделать, выполнив следующие четыре строки в сеансе PowerShell Microsoft Online Services.
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     
     $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
     $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
     Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

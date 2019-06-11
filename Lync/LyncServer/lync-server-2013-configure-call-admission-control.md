@@ -1,47 +1,95 @@
-﻿---
-title: 'Lync Server 2013: настройка контроля допуска звонков'
-TOCTitle: Настройка контроля допуска звонков
-ms:assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398870(v=OCS.15)
-ms:contentKeyID: 49311185
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка управления допуском звонков'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure call admission control
+ms:assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398870(v=OCS.15)
+ms:contentKeyID: 48185464
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86961c9f282e1a486bf7cf94eda494d37c415cf6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841426"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка контроля допуска звонков в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-21_
+# <a name="configure-call-admission-control-in-lync-server-2013"></a>Настройка управления допуском звонков в Lync Server 2013
 
-Контроль допуска звонков (CAC) – это решение, которое определяет, можно ли установить сеанс в реальном времени на основе доступной полосы пропускания, чтобы предотвратить сеансы с плохим качеством аудио или видео в перегруженных сетях. CAC управляет трафиком в реальном времени только для аудио и видео и не влияет на трафик обычных данных. CAC может направлять вызов через Интернет, если канал глобальной связи по умолчанию не обладает необходимой пропускной полосой. Дополнительные сведения см. в разделе [Планирование контроля допуска звонков в Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) документации по планированию.
+</div>
 
-В этом разделе приведен набор примеров процедур для развертывания и управления CAC в сети.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-21_
+
+Система контроля допуска звонков обеспечивает проверку возможности установления сеанса связи в реальном времени без ухудшения качества видео- и голосовой связи в перегруженных сетях. Управление трафиком в реальном времени осуществляется только для звуковых и видеофайлов и не влияет на трафик данных. CAC может перенаправлять Звонок через Интернет-путь, если путь к глобальной сети по умолчанию не имеет необходимой пропускной способности. Подробнее смотрите в разделе [Планирование управления допуском звонков в Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) в документации по планированию.
+
+В этом разделе представлен набор примеров процедур, демонстрирующих способы развертывания и управления CAC в сети.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Перед развертыванием CAC следует собрать все необходимые сведения для топологи корпоративной сети, как описано в разделе <a href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">Пример: сбор своих требований организации для контроля допуска звонков в Lync Server 2013</a> документации по планированию. Кроме того, убедитесь, что компоненты CAC установлены и активированы, как описано в разделе <a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Определение и настройка пула переднего плана или сервера Standard Edition в Lync Server 2013</a> документации по развертыванию.
+> Перед развертыванием CAC необходимо собрать все необходимые данные для топологии корпоративной сети, как описано в <A href="lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md">примере. сбор требований для управления допуском звонков в Lync Server 2013</A> в документации по планированию. Кроме того, убедитесь, что компоненты CAC установлены и активированы, как описано в разделе <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Определение и Настройка внешнего пула и сервера Standard Edition в Lync server 2013</A> в документации по развертыванию.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> Все примеры развертывания и управления CAC в этом разделе выполняются с использованием Командная консоль Lync Server. В качестве альтернативы можно также использовать раздел <strong>Конфигурация сети</strong> управления Lync Server для управления CAC.
+> Все примеры развертывания и управления CAC в этом разделе выполняются с помощью командной консоли Lync Server Management Shell. Кроме того, вы можете использовать раздел " <STRONG>Настройка сети</STRONG> " панели управления Lync Server для управления CAC.
 
-## Содержание
 
-  - [Настройка сетевых областей для контроля допуска звонков в Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Настройка регионов сети для CAC в Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)
 
   - [Создание профилей политики пропускной способности в Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md)
 
-  - [Настройка сетевых сайтов для контроля допуска звонков в Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md)
+  - [Настройка сетевых сайтов для CAC в Lync Server 2013](lync-server-2013-configure-network-sites-for-cac.md)
 
-  - [Сопоставление подсетей с сетевыми сайтами для контроля допуска звонков в Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-cac.md)
+  - [Связывание подсетей с сетевыми сайтами для CAC в Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-cac.md)
 
-  - [Создание связей между сетевыми областями в Lync Server 2013](lync-server-2013-create-network-region-links.md)
+  - [Создание ссылок на сетевой регион в Lync Server 2013](lync-server-2013-create-network-region-links.md)
 
-  - [Создание межрегиональных сетевых маршрутов в Lync Server 2013](lync-server-2013;-create-network-interregion-routes.md)
+  - [Создание маршрутов между межсетевыми регионах в Lync Server 2013](lync-server-2013;-create-network-interregion-routes.md)
 
-  - [Создание политик межсайтового взаимодействия в Lync Server 2013](lync-server-2013-create-network-intersite-policies.md)
+  - [Создание политик межсайтовой сети в Lync Server 2013](lync-server-2013-create-network-intersite-policies.md)
 
-  - [Включение контроля допуска звонков в Lync Server 2013](lync-server-2013-enable-call-admission-control.md)
+  - [Включение управления допуском звонков в Lync Server 2013](lync-server-2013-enable-call-admission-control.md)
 
-  - [Контрольный список развертывания контроля допуска звонков в Lync Server 2013](lync-server-2013-call-admission-control-deployment-checklist.md)
+  - [Контрольный список развертывания управления допуском звонков для Lync Server 2013](lync-server-2013-call-admission-control-deployment-checklist.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,69 @@
-﻿---
-title: Настройка добавочных номеров для парковки вызовов
-TOCTitle: Настройка добавочных номеров для парковки вызовов
-ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182611(v=OCS.15)
-ms:contentKeyID: 49311767
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка расширений номеров телефонов для вызовов парковки'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure phone number extensions for parking calls
+ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182611(v=OCS.15)
+ms:contentKeyID: 48185980
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0a0fd55b851715fe8aef238797392af6317dff0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34841338"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка добавочных номеров для парковки вызовов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-10_
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a>Настройка расширений номеров телефонов для вызовов парковки в Lync Server 2013
 
-Приложение приостановки вызовов использует добавочные номера в таблице орбит Приостановка вызовов для парковки вызовов. Вам необходимо настроить таблицу орбит Приостановка вызовов с диапазонами добавочных номеров, зарезервированных вашей организацией для запаркованных вызовов. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул Lync Server, в котором развернуто и настроено приложение приостановки вызовов, может иметь один или несколько диапазонов орбит. Диапазоны орбит должны быть уникальными в рамках всего развертывания Lync Server.
+</div>
 
-> [!IMPORTANT]
-> Перед использованием Приостановка вызовов следует установить флажок <strong>Разрешить парковку вызовов</strong> в политике голосовой связи. По умолчанию данный параметр не выбран.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-10_
+
+Приложение "присоединение к звонку" использует номера добавочных номеров в таблице "парковки на орбиту", чтобы приостановить звонки. Вам нужно настроить таблицу на приостановку соединения с диапазонами добавочных номеров, которые ваша организация резервирует для припаркованных звонков. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул Lync Server, в котором развернут и настроено приложение для приостановки звонков, может иметь один или несколько диапазонов по орбите. Диапазоны орбиты должны быть глобально уникальными в рамках развертывания Lync Server.
+
+<div>
 
 
-## Содержание
+> [!IMPORTANT]  
+> Для использования функции "Приостановка звонка" необходимо установить флажок " <STRONG>включить приостановку звонка</STRONG> " в политике голосовой связи. По умолчанию этот флажок не установлен.
 
-  - [Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [Удаление диапазона орбит для парковки вызовов в Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Создание или изменение диапазона орбиты на расстоянии вверх на сервере Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+
+  - [Удаление диапазона орбиты на расстоянии вверх на сервере Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
