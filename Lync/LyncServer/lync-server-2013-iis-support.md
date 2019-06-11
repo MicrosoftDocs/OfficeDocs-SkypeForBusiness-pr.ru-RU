@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: поддержка IIS'
-TOCTitle: Поддержка IIS
-ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398987(v=OCS.15)
-ms:contentKeyID: 49311423
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддержка IIS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Internet Information Services (IIS) support
+ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398987(v=OCS.15)
+ms:contentKeyID: 48185627
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 609a86df20128573dec478109afd602e1f677345
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834032"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддержка IIS в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-29_
+# <a name="iis-support-in-lync-server-2013"></a>Поддержка IIS в Lync Server 2013
 
-Нескольким компонентам системы Lync Server 2013 требуются службы Службы IIS. Поддерживаются следующие версии служб IIS:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-29_
+
+Для некоторых компонентов Lync Server 2013 требуются информационные службы Интернета (IIS). Ниже перечислены поддерживаемые версии служб IIS.
 
   - IIS 8,0
 
-  - IIS 7.5
+  - IIS 7,5
 
-Дополнительные сведения о требованиях служб IIS к компонентам системы Lync Server 2013 см. в разделе [Требования служб IIS в Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md) документации по планированию.
+Подробные сведения о требованиях к службам IIS для компонентов Lync Server 2013 можно найти [в разделе Требования к службам IIS для Lync server 2013](lync-server-2013-internet-information-services-iis-requirements.md) в документации по планированию.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

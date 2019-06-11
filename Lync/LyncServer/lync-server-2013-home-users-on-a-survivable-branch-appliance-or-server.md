@@ -1,43 +1,98 @@
-﻿---
-title: "Lync Server 2013: польз., работ. дома на устр. или серв. для обесп. связи в филиалах"
-TOCTitle: Пользователи, работающие дома на устройстве или сервере для обеспечения связи в филиалах
-ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413066(v=OCS.15)
-ms:contentKeyID: 49311733
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: нользователи, работающие дома на устройстве или сервере для обеспечения связи в филиалах'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Home users on a Survivable Branch Appliance or Server
+ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413066(v=OCS.15)
+ms:contentKeyID: 48185926
+ms.date: 12/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ceabf8fe7d8f9068e60bbc20406d2496f815b04b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834073"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Пользователи, работающие дома на устройстве или сервере для обеспечения связи в филиалах, в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-12-10_
+# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Пользователи, работающие дома на устройстве или сервере для обеспечения связи в филиалах, в Lync Server 2013
 
-Процесс размещения пользователей на устройстве для обеспечения связи в филиалах или сервере для обеспечения связи в филиалах аналогичен процессу размещения пользователей в пуле переднего плана. Выполните процедуру с устройством для обеспечения связи в филиалах или сервером для обеспечения связи в филиалах на центральном сайте.
+</div>
 
-## Размещение пользователей на устройстве для обеспечения связи в филиалах или сервере для обеспечения связи в филиалах
+<div id="mainSection">
 
-1.  Перед перемещением пользователей на сервер для обеспечения связи в филиалах или устройство для обеспечения связи в филиалах откройте командную консоль Командная консоль Lync Server, а затем выполните все следующие действия:
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-12-10_
+
+Процесс доступа пользователей к сети с бесперебойной подразделением или работающем на нем сервере аналогичен процессу служб доступа к сети в пуле переднего плана. Проведите бесперебойную подсеть устройства филиалов или бесперебойно работающую процедуру сервера ветвей на центральном сайте.
+
+<div>
+
+## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Для домашних пользователей на бесперебойно работающем устройстве филиалов или на сервере, который находится в бесперебойном отделении
+
+1.  Прежде чем переносить пользователей на сервер или бесперебойную подписку, откройте командную консоль Lync Server Management Shell, а затем выполните одно из указанных ниже действий.
     
-      - Запустите командлет **Test-CsPstnOutboundCall**, чтобы убедиться, что сервер для обеспечения связи в филиалах запущен и настроена связь с телефонной сетью общего пользования (ТСОП). Если требуется изменить свойства шлюза ТСОП, используйте командлет **Set-CsPstnGateway**.
+      - Запустите командлет **Test-кспстнаутбаундкалл** , чтобы убедиться в том, что запущенный сервер филиала работает и настроено подключение к телефонной сети общего пользования (PSTN). Если вам нужно изменить свойства шлюза PSTN, используйте командлет **Set-кспстнгатевай**.
     
-      - Запустите командлет **Get-CsVoicePolicy**, чтобы убедиться, что для пользователей, которые будут размещены на сервере для обеспечения связи в филиалах, задана соответствующая политика маршрутизации VoIP. Если требуется изменить политику VoIP, используйте командлет **Set-CsVoicePolicy**.
+      - Запустите командлет **Get-ксвоицеполици** , чтобы убедиться в том, что пользователи, которые будут размещены на сервере для работающего филиала, имеют соответствующую политику маршрутизации VoIP. Если необходимо изменить политику VoIP, используйте командлет **Set-ксвоицеполици**.
     
-      - Запустите командлет **Get-CsVoicemailReroutingConfiguration**, чтобы убедиться, что настроены параметры перенаправления голосовой почты. Если требуется изменить параметры перенаправления голосовой почты, используйте командлет **Set-CsVoicemailReroutingConfiguration**.
+      - Запустите командлет **Get-ксвоицемаилрераутингконфигуратион** , чтобы убедиться, что параметры перенаправления голосовой почты настроены. Если вам нужно изменить параметры перенаправления голосовой почты, используйте командлет **Set-ксвоицемаилрераутингконфигуратион**.
 
-2.  В командной консоли Командная консоль Lync Server выполните командлет **Move-CsUser**, чтобы переместить размещенных пользователей.
+2.  В командной консоли Lync Server выполните командлет **Move-CsUser** , чтобы переместить домашних пользователей.
+
+<div>
+
 
 > [!NOTE]  
-> Вы также можете использовать панель управления Lync Server для проверки обязательных условий и размещения пользователей.
+> Вы также можете использовать панель управления Lync Server для проверки необходимых и домашних пользователей.
 
-## См. также
 
-#### Другие ресурсы
 
-[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
-[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
-[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Пользователи, расположенные на устройстве с бесперебойной подразделением Lync Server, не могут создавать новые комнаты чата и просматривать открытку для существующих комнат.
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Get-Ксвоицеполици](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

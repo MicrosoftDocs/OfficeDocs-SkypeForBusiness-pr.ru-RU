@@ -1,71 +1,125 @@
-﻿---
-title: Включение или отключение push-уведомлений для телефонов Windows
-TOCTitle: Включение или отключение push-уведомлений для телефонов Windows
-ms:assetid: a34f0c5c-4228-40e3-9d93-bc0b5df4895d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688162(v=OCS.15)
-ms:contentKeyID: 49888130
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Включение и отключение push-уведомлений для телефонов с Windows'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling push notifications for Windows Phones
+ms:assetid: a34f0c5c-4228-40e3-9d93-bc0b5df4895d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688162(v=OCS.15)
+ms:contentKeyID: 49733767
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b25594948f1d88caaca3dd07ca035b20f9f00079
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834239"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение или отключение push-уведомлений для телефонов Windows
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Включение и отключение push-уведомлений для телефонов с Windows в Lync Server 2013
 
-Push-уведомления в форме эмблем, значков или предупреждений могут отправляться на Windows Phone, даже когда мобильное приложение не является активным. Push-уведомления уведомляют пользователя о таких событиях, как получение или потеря приглашения службы обмена мгновенными сообщениями и сообщения голосовой почты. Вы можете включить или отключить push-уведомления для устройств Windows Phone с помощью панели управления Lync Server 2013 либо командная консоль Lync Server 2013.
+</div>
 
-## Включение push-уведомлений для Windows Phone из панели управления Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Push-уведомления, в форме индикаторов, значков или оповещений, могут отправляться на устройство Windows Phone, даже если оно неактивно. Push-уведомления извещать пользователей о таких событиях, как новое или пропущенное приглашение на обмен мгновенными сообщениями и голосовая почта. Вы можете включать и отключать push-уведомления для устройств с Windows Phone с помощью панели управления Lync Server 2013 или оболочки управления Lync Server 2013.
+
+<div>
+
+## <a name="to-enable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>Включение push-уведомлений для Windows Phone с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Клиенты**, а затем щелкните кнопку навигации **Настройка push-уведомлений**.
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **конфигурации push-уведомлений** .
 
-4.  На странице **Настройка push-уведомлений** выберите сайт, который хотите изменить, откройте меню **Изменить** и выберите пункт **Подробнее**.
+4.  На странице **Конфигурация push-уведомлений** выберите сайт, который вы хотите изменить, а затем в меню **Правка** выберите пункт **Показать подробности**.
 
-5.  Установите флажок **Разрешить push-уведомления от Майкрософт**.
+5.  Установите флажок **включить push-уведомления Microsoft** .
 
-6.  Нажмите кнопку **Зафиксировать**.
+6.  Нажмите **Исполнить**.
 
-## Отключение push-уведомлений для Windows Phone из панели управления Lync Server
+</div>
+
+<div>
+
+## <a name="to-disable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>Отключение push-уведомлений для Windows Phone с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Клиенты**, а затем щелкните кнопку навигации **Настройка push-уведомлений**.
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **конфигурации push-уведомлений** .
 
-4.  На странице **Настройка push-уведомлений** выберите сайт, который хотите изменить, откройте меню **Изменить** и выберите пункт **Подробнее**.
+4.  На странице **Конфигурация push-уведомлений** выберите сайт, который вы хотите изменить, а затем в меню **Правка** выберите пункт **Показать подробности**.
 
-5.  Снимите флажок **Разрешить push-уведомления от Майкрософт**.
+5.  Снимите флажок **включить push-уведомления Microsoft** .
 
-6.  Нажмите кнопку **Зафиксировать**.
+6.  Нажмите **Исполнить**.
 
-## Включение и отключение push-уведомлений для Windows Phone с помощью командлетов Windows PowerShell
+</div>
 
-Вы можете включить или отключить push-уведомления для Windows Phone с помощью командлета **Set-CsPushNotificationConfiguration**. Этот командлет можно запустить либо из командная консоль Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Включение push-уведомлений для Windows Phone
+## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Включение и отключение push-уведомлений для Windows Phone с помощью командлетов Windows PowerShell
 
-  - Чтобы включить push-уведомления для Windows Phone задайте для свойства EnableMicrosoftPushNotificationService значение True ($True). Пример:
+Вы можете включать и отключать push-уведомления для Windows Phone с помощью командлета **Set – кспушнотификатионконфигуратион** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-enable-push-notifications-for-windows-phone"></a>Включение push-уведомлений для Windows Phone
+
+  - Чтобы включить push-уведомления для Windows Phone, установите для свойства Енаблемикрософтпушнотификатионсервице значение true ($True). Например:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $True
 
-## Отключение push-уведомлений для Windows Phone
+</div>
 
-  - Чтобы включить push-уведомления для Windows Phone задайте для свойства EnableMicrosoftPushNotificationService значение False ($False). Пример:
+<div>
+
+## <a name="to-disable-push-notifications-for-windows-phone"></a>Отключение push-уведомлений для Windows Phone
+
+  - Чтобы отключить push-уведомления для Windows Phone, установите для свойства Енаблемикрософтпушнотификатионсервице значение false ($False). Например:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 
-Дополнительные сведения см. в разделе справки по командлету [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
+</div>
 
-## См. также
+Дополнительные сведения можно найти в разделе справки по командлету [Set-кспушнотификатионконфигуратион](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) .
 
-#### Задачи
+</div>
 
-[Настройка для использования push-уведомлений в Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Настройка для использования push-уведомлений в Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

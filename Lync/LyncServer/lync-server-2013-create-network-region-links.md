@@ -1,69 +1,113 @@
-﻿---
-title: Создание связей между сетевыми областями в Lync Server 2013
-TOCTitle: Создание связей между сетевыми областями в Lync Server 2013
-ms:assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413047(v=OCS.15)
-ms:contentKeyID: 49311714
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: создание ссылок на сетевой регион'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create network region links
+ms:assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413047(v=OCS.15)
+ms:contentKeyID: 48185873
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7715aa258c56e98789f12d3c057047d947fd3c51
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834833"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание связей между сетевыми областями в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="create-network-region-links-in-lync-server-2013"></a>Создание ссылок на сетевой регион в Lync Server 2013
 
-Регионы в сети связываются с помощью физического подключения глобальной сети. *Связь между областями сети* создает канал между двумя областями, настроенными для контроля допуска звонков (CAC), и задает ограничения пропускной способности трафика аудио- и видеоданных между этими областями.
+</div>
 
-Дополнительные сведения о работе со связями между областями сети см. в описании следующих командлетов в документации Командная консоль Lync Server:
+<div id="mainSection">
 
-  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
+<div id="mainBody">
 
-  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
+<span> </span>
 
-  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
+_**Тема последнего изменения:** 2012-10-19_
 
-  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
+Регионы в сети связываются с помощью физического подключения глобальной сети. *Связь* по сетевому региону создает связь между двумя областями, настроенными для управления допуском звонков (CAC), и определяет ограничения пропускной способности для звуковых и видеофайлов в этих регионах.
 
-В примере топологии имеется ссылка между областями "Северная Америка" и APAC. Каналы этих областей ограничены пропускной способностью глобальной сети (см. таблицу "Пропускная способность связи между областями" в разделе [Пример: сбор своих требований организации для контроля допуска звонков в Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) документации по планированию.
+Дополнительные сведения о работе с ссылками на сетевой регион можно найти в документации по оболочке Lync Server Management Shell для следующих командлетов:
 
-## Создание связей между областями с помощью командной консоли Lync Server
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
+
+  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)
+
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
+
+В примере топологии есть связь между областями "Северная Америка" и "APAC", а также ссылкой между регионами EMEA и APAC. Каждая из этих связей между регионами ограничена пропускной способностью по сети, как описано в таблице сведения о пропускной способности связи по регионам в [примере: сбор требований для управления допуском звонков в Lync Server 2013 в](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) разделе Документация по планированию.
+
+<div>
+
+## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a>Создание ссылок на сетевой регион с помощью среды управления Lync Server
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 2.  Запустите командлет New-CsNetworkRegionLink, чтобы создать связи между областями и примените соответствующие профили политики пропускной способности. Например, выполните командлет:
     
-    ```
-    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
-    ```
-    ```
-    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
-    ```
+      ```
+        New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
+      ```
+    
+      ```
+        New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
+      ```
 
-## Создание связей между областями с помощью панели управления Lync Server
+</div>
 
-1.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
+
+## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a>Создание ссылок на сетевой регион с помощью панели управления Lync Server
+
+1.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  В левой области навигации щелкните элемент **Конфигурация сети**.
 
-3.  Нажмите кнопку навигации **Region Link** (Связь между областями).
+3.  Нажмите кнопку навигации **Связь между областями**.
 
-4.  Нажмите кнопку **Создать**.
+4.  Выберите **Создать**.
 
-5.  На странице **New Region Link** (Создание связи между областями) щелкните поле **Имя** и введите имя для связи между областями сети.
+5.  На странице **Создание связи между областями** щелкните поле **Имя** и введите имя для связи между областями сети.
 
-6.  Щелкните **Network Region \#1** (Область сети 1), затем в списке выберите область сети, которую требуется связать с областью сети 2.
+6.  Щелкните **сетевую \#область 1**, а затем щелкните в списке сетевой регион, который вы хотите связать с сетевым регионом \#2.
 
-7.  Щелкните **Network Region \#2** (Область сети 2), а затем выберите в списке область, которую требуется связать с областью сети 1.
+7.  Щелкните **Сетевое \#окружение 2**, а затем щелкните сетевой регион в списке, который вы хотите связать с сетевым регионом \#1.
 
-8.  Кроме того, можно щелкнуть элемент **Bandwidth policy** (Политика пропускной способности), а затем выбрать профиль политики пропускной способности, который требуется применить к связи между областями сети.
+8.  Кроме того, можно щелкнуть элемент **Политика пропускной способности**, а затем выбрать профиль политики пропускной способности, который требуется применить к связи между областями сети.
     
+    <div class=" ">
+    
+
     > [!NOTE]  
     > Применять политику пропускной способности следует только в том случае, если для связи между областями сети имеются ограничения полосы пропускания и требуется использовать CAC для управления трафиком среды по этому каналу.
 
-9.  Нажмите кнопку **Зафиксировать**.
+    
+    </div>
+
+9.  Нажмите **Исполнить**.
 
 10. Чтобы завершить создание связи между областями сети для топологии, повторите шаги с 4 по 9 с настройками для других областей.
 
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>

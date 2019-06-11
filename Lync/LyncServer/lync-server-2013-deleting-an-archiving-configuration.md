@@ -1,65 +1,118 @@
-﻿---
-title: Удаление конфигурации архивации
-TOCTitle: Удаление конфигурации архивации
-ms:assetid: a8744d39-5cf2-474c-9a99-a0f3a37f846f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205167(v=OCS.15)
-ms:contentKeyID: 49310800
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Удаление конфигурации архивации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting an Archiving configuration
+ms:assetid: a8744d39-5cf2-474c-9a99-a0f3a37f846f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205167(v=OCS.15)
+ms:contentKeyID: 48185093
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a67d944de9b2c35c9ea2428603b39ddabbbcb26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834587"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление конфигурации архивации
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="deleting-an-archiving-configuration-in-lync-server-2013"></a>Удаление конфигурации архивации в Lync Server 2013
 
-Вы можете удалить конфигурацию сайта или пула. Однако, нельзя удалить глобальную конфигурацию. Если вы все же удалите глобальную конфигурацию, параметрам будут автоматически присвоены значения по умолчанию. Дополнительные сведения о реализации конфигураций архивации, включая сведения о доступных параметрах и иерархии конфигураций архивации, см. в разделе [Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md) документации по планированию, развертыванию или операциям.
+</div>
 
-## Удаление конфигурации сайта или пула для архивации
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Вы можете удалить конфигурацию сайта или конфигурацию пула. Невозможно удалить глобальную конфигурацию. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию. Сведения о способах реализации конфигураций архивации, в том числе о параметрах, которые можно указать и в иерархии конфигураций архивации, приведены в разделе [как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md) в документации по планированию, развертывание Документация или операционные документы.
+
+<div>
+
+## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a>Удаление конфигурации сайта или пула для архивации
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsArchivingAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  На левой панели навигации щелкните **Мониторинг и архивация**, а затем щелкните **Конфигурация архивации**.
 
-4.  В списке конфигураций архивации щелкните конфигурацию сайта или пула, которую необходимо удалить, а затем щелкните **Edit** (Изменить) и **Delete** (Удалить).
+4.  В списке конфигураций архивирования нажмите конфигурацию сайта или пула, которую необходимо удалить, затем выберите **Изменить** и **Удалить**.
 
-5.  Щелкните **Commit** (Сохранить).
+5.  Нажмите **Исполнить**.
 
-## Удаление параметров конфигурации архивации с помощью командлетов Командная консоль Lync Server
+</div>
 
-Параметры конфигурации архивации можно также удалить с помощью Windows PowerShell и командлета Remove-CsArchivingConfiguration. Выполнить этот командлет можно в командная консоль Lync Server 2013 или в рамках удаленного сеанса Windows PowerShell.
+<div>
 
-## Удаление определенного набора параметров конфигурации архивации
+## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации архивации с помощью командлетов Windows PowerShell
 
-  - Следующая команда удаляет параметры конфигурации архивации, применяемые к сайту Redmond.
+Параметры конфигурации архивации можно удалить с помощью Windows PowerShell и командлета **Remove-ксарчивингконфигуратион** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a>Удаление заданной коллекции параметров конфигурации архивации
+
+  - Следующая команда удаляет параметры конфигурации архивации, примененные к сайту Redmond.
     
         Remove-CsArchivingConfiguration -Identity "site:Redmond"
 
-## Удаление всех параметров конфигурации архивации, применяемых на уровне сайта
+</div>
 
-  - Эта команда удаляет все параметры конфигурации архивации, применяемые на уровне службы.
+<div>
+
+## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a>Удаление всех параметров конфигурации архивации, примененных к области сайта
+
+  - Эта команда удаляет все параметры конфигурации архивации, примененные к области служб.
     
         Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 
-## Удаление параметров конфигурации архивации в соответствии с указанным значением свойства
+</div>
 
-  - Эта команда удаляет все параметры конфигурации архивации, в которых отключена служба архивации Exchange.
+<div>
+
+## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a>Удаление параметров конфигурации архивации на основе заданного значения свойства
+
+  - Эта команда удаляет все параметры конфигурации архивации, в которых отключено архивирование Exchange.
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingConfiguration).
+</div>
 
-## См. также
+Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксарчивингконфигуратион](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .
 
-#### Концепции
+</div>
 
-[Принцип работы архивации в Lync Server 2013](lync-server-2013-how-archiving-works.md)  
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a>См. также
 
-[Управление архивацией внутренних и внешних коммуникаций в Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+
+[Как работает архивация в Lync Server 2013](lync-server-2013-how-archiving-works.md)  
+
+
+[Управление архивированием внутренней и внешней связи в Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

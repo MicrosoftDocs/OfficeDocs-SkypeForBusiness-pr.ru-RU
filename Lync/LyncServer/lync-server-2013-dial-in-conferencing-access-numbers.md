@@ -1,32 +1,73 @@
-﻿---
-title: Номера доступа для конференц-связи с телефонным подключением
-TOCTitle: Номера доступа для конференц-связи с телефонным подключением
-ms:assetid: 28def7d3-d584-4ae4-bb2a-918cb0b96c37
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688002(v=OCS.15)
-ms:contentKeyID: 49887916
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: номера доступа к конференц-связи с телефонным подключением'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial-in conferencing access numbers
+ms:assetid: 28def7d3-d584-4ae4-bb2a-918cb0b96c37
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688002(v=OCS.15)
+ms:contentKeyID: 49733590
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a704fef0f3f27b32633a8dbd4cd66882c661642d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834402"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Номера доступа для конференц-связи с телефонным подключением
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-18_
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Номера доступа для конференц-связи с телефонным подключением в Lync Server 2013
 
-Чтобы разрешить пользователям присоединяться к локальной конференции посредством аудиосвязи через телефонную сеть общего пользования (ТСОП), необходимо настроить номера доступа к конференции с телефонным подключением. Это номера, по которым можно позвонить, чтобы присоединиться к конференции.
+</div>
 
-Номера доступа с телефонным подключением отображаются в приглашениях на собрания и на веб-странице "Параметры конференц-связи с телефонным подключением".
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-18_
+
+Чтобы разрешить пользователям присоединиться к звуковой части локальных конференций с помощью телефонной сети, необходимо настроить номера доступа для конференц-связи с телефонным подключением. Номера доступа для конференц-связи с телефонным подключением – это номера, с помощью которых пользователи вызывают присоединение к Конференции.
+
+Номера доступа для телефонного подключения выводятся в приглашениях на собрания и на веб-странице параметров конференции с телефонным подключением.
+
+<div>
+
 
 > [!NOTE]  
-> Добавить новый номер доступа с телефонным подключением можно только после завершения репликации Active Directory для этого номера доступа. Репликация может занять несколько часов.
+> Вы не можете использовать новый номер доступа для телефонного подключения, пока не завершите репликацию Active Directory для этого номера доступа. Репликация может занять несколько часов.
 
-## Содержание
 
-  - [Просмотр номеров доступа для конференц-связи с телефонным подключением](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Просмотр номеров доступа для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
   - [Создание или изменение номера доступа к конференции с телефонным подключением в Lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [Удаление номера доступа к конференц-связи с телефонным подключением](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [Удаление номера доступа для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,53 +1,103 @@
-﻿---
-title: Удаление существующей коллекции параметров конфигурации версий клиентов
-TOCTitle: Удаление существующей коллекции параметров конфигурации версий клиентов
-ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ898480(v=OCS.15)
-ms:contentKeyID: 52058249
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Удаление существующей коллекции параметров конфигурации клиентской версии
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing collection of client version configuration settings
+ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898480(v=OCS.15)
+ms:contentKeyID: 50873760
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2a71df7af1f0a6158cb61e780b44ed4227d32018
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834617"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление существующей коллекции параметров конфигурации версий клиентов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="delete-an-existing-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Удаление существующей коллекции параметров конфигурации клиентской версии в Lync Server 2013
 
-Если вы хотите удалить ранее заданные для сайта параметры конфигурации клиента, это можно сделать из панели управления Lync Server 2013 или командной консоли Lync Server 2013.
+</div>
 
-## Удаление параметров конфигурации клиента с помощью панели управления Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Если вы хотите удалить параметры конфигурации клиента, уже настроенные для сайта, вы можете удалить параметры из панели управления Lync Server 2013 или оболочки управления Lync Server 2013.
+
+<div>
+
+## <a name="to-remove-client-configuration-settings-by-using-lync-server-control-panel"></a>Удаление параметров конфигурации клиента с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните элемент **Clients** (Клиенты) и затем нажмите кнопку навигации **Client Version Configuration** (Конфигурация версий клиентов).
+3.  На панели навигации слева выберите пункт **Клиенты**, а затем нажмите кнопку Навигация по **конфигурации версии клиента** .
 
-4.  Выберите сайт, щелкните элемент **Edit** (Изменить), элемент **Delete** (Удалить) и нажмите кнопку **OK** (ОК).
+4.  Выберите сайт, нажмите кнопку **изменить**, а затем — **Удалить**, а затем нажмите кнопку **ОК**.
 
-## Удаление параметров конфигурации версии клиента с помощью командлетов Windows PowerShell
+</div>
 
-Вы можете удалить параметры конфигурации версии клиента с помощью командлета **Remove-CsClientVersionConfiguration**. Для выполнения этого командлета может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Удаление указанной коллекции параметров конфигурации версии клиента
+## <a name="removing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации клиентской версии с помощью командлетов Windows PowerShell
 
-  - Следующая команда удаляет параметры конфигурации версии клиента, применяемые к сайту Redmond.
+Вы можете удалить параметры конфигурации версии клиента с помощью командлета **Remove-ксклиентверсионконфигуратион** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-remove-a-specified-collection-of-client-version-configuration-settings"></a>Удаление заданной коллекции параметров конфигурации клиентской версии
+
+  - Следующая команда удаляет параметры конфигурации для версии клиента, примененные к сайту Redmond.
     
         Remove-CsClientVersionConfiguration -Identity "site:Redmond"
 
-## Удаление всех параметров конфигурации версии клиента, примененных на уровне сайта
+</div>
 
-  - Эта команда удаляет все параметры конфигурации версии клиента, настроенные на уровне сайта:
+<div>
+
+## <a name="to-remove-all-the-client-version-configuration-settings-applied-to-the-site-scope"></a>Удаление всех параметров конфигурации для версии клиента, примененных к области сайта
+
+  - Эта команда удаляет все параметры конфигурации клиентской версии, настроенные на уровне сайта.
     
         Get-CsClientVersionConfiguration -Filter site:* | Remove-CsClientVersionConfiguration
 
-## Удаление всех параметров конфигурации версии клиента в зависимости от значения свойства DefaultAction
+</div>
 
-  - А эта команда удаляет все параметры конфигурации версии клиента, для которых было установлено действие по умолчанию "Блокировать" (Block):
+<div>
+
+## <a name="to-remove-all-the-client-version-configuration-settings-based-on-the-value-of-the-defaultaction-property"></a>Удаление всех параметров конфигурации клиентской версии на основе значения свойства Дефаултактион
+
+  - Эта команда удаляет все параметры конфигурации клиентской версии, для которых для действия по умолчанию установлено значение "блокировать".
     
         Get-CsClientVersionConfiguration | Where-Object {$_.DefaultAction -eq "Block" | Remove-CsClientVersionConfiguration
 
-Дополнительные сведения см. в разделе справки по командлету [Remove-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionConfiguration).
+</div>
+
+Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксклиентверсионконфигуратион](https://technet.microsoft.com/en-us/library/Gg425925(v=OCS.15)) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

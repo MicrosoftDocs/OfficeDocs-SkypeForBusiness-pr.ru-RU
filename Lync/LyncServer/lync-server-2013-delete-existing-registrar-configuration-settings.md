@@ -1,57 +1,107 @@
-﻿---
-title: Удаление параметров конфигурации существующего регистратора
-TOCTitle: Удаление параметров конфигурации существующего регистратора
-ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182571(v=OCS.15)
-ms:contentKeyID: 49310844
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: удаление существующих параметров конфигурации регистратора'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete existing Registrar configuration settings
+ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182571(v=OCS.15)
+ms:contentKeyID: 48185132
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d9fe0ee46ff823a5184ee79f3b06bb02bb68115d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834597"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление параметров конфигурации существующего регистратора
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="delete-existing-registrar-configuration-settings-in-lync-server-2013"></a>Удаление существующих параметров конфигурации регистратора в Lync Server 2013
 
-В этом разделе приведены инструкции по удалению Регистратора.
+</div>
 
-## Удаление Регистратора
+<div id="mainSection">
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+<div id="mainBody">
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  В левой панели навигации щелкните **Security** (Безопасность) и затем щелкните **Registrar** (Регистратор).
+_**Тема последнего изменения:** 2013-02-23_
 
-4.  На странице **Registrar** (Регистратор) введите имя удаляемого Регистратора или часть имени в поле поиска.
+Выполните указанные ниже действия, чтобы удалить регистратора.
 
-5.  Выберите требуемого Регистратора, а затем щелкните **Edit** (Изменить) и **Delete** (Удалить).
+<div>
 
-6.  Нажмите кнопку **ОК**.
+## <a name="to-delete-registrar-configuration-settings"></a>Удаление параметров конфигурации регистратора
 
-## Удаление параметров конфигурации Регистратора с помощью командлетов Командная консоль Lync Server
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
 
-Параметры конфигурации Регистратора также можно удалить с помощью Командная консоль Lync Server и командлета **Remove-CsProxyConfiguration**. Выполнить этот командлет можно в командная консоль Lync Server 2013 или в рамках удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-## Удаление определенного набора параметров безопасности Регистратора
+3.  В левой области навигации щелкните **Безопасность**, затем **Регистратор**.
+
+4.  На странице **Регистратор** полностью или частично введите в поле поиска имя регистратора, который требуется удалить.
+
+5.  Выберите в списке требуемый регистратор, затем щелкните **Изменить** и **Удалить**.
+
+6.  Нажмите **ОК**.
+
+</div>
+
+<div>
+
+## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации регистратора с помощью командлетов Windows PowerShell
+
+Вы можете удалить параметры конфигурации регистратора с помощью Windows PowerShell и командлета **Remove-кспроксиконфигуратион** . Этот командлет можно выполнить из управляющей оболочки Lync Server 2013 или из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>Удаление определенного набора параметров безопасности Регистратора
 
   - Следующая команда удаляет параметры безопасности Регистратора, применяемые к пограничному серверу atl-edge-011.litwareinc.com.
     
         Remove-CsProxyConfiguration -Identity service:EdgeServer:atl-edge-011.litwareinc.com
 
-## Удаление всех параметров безопасности Регистратора, применяемых на уровне сайта
+</div>
+
+<div>
+
+## <a name="to-remove-all-of-the-registrar-security-settings-applied-to-the-site-scope"></a>Удаление всех параметров безопасности Регистратора, применяемых на уровне сайта
 
   - Следующая команда удаляет все параметры безопасности Регистратора, применяемые к службе Регистратора.
     
         Get-CsProxyConfiguration -Filter "service:Registrar:*" | Remove-CsProxyConfiguration
 
-## Удаление всех параметров безопасности Регистратора, разрешающих проверку подлинности NTLM
+</div>
+
+<div>
+
+## <a name="to-remove-all-of-the-registrar-security-settings-that-allow-ntlm-authentication"></a>Удаление всех параметров безопасности Регистратора, разрешающих проверку подлинности NTLM
 
   - Следующая команда удаляет все параметры безопасности Регистратора, разрешающие использование NTLM для проверки подлинности клиентов.
     
         Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
 
-Дополнительные сведения см. в разделе [Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration).
+</div>
+
+Подробности можно найти в разделе [Remove-кспроксиконфигуратион](https://docs.microsoft.com/powershell/module/skype/Remove-CsProxyConfiguration).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

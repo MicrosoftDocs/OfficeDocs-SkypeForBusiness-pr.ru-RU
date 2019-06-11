@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: развертывание контрольного списка для мониторинга'
-TOCTitle: Развертывание контрольного списка для мониторинга
-ms:assetid: 4e798370-277c-4391-84b4-13a972b45ca6
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204874(v=OCS.15)
-ms:contentKeyID: 49887983
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: развертывание контрольного списка для мониторинга'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment checklist for monitoring
+ms:assetid: 4e798370-277c-4391-84b4-13a972b45ca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204874(v=OCS.15)
+ms:contentKeyID: 48184080
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3cbf14920ef0103f2d6e8aa6088a2c0b35e17654
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834497"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание контрольного списка для мониторинга в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Развертывание контрольного списка для мониторинга в Lync Server 2013
 
-Хотя мониторинг уже установлен и активирован на каждом интерфейсном сервере, есть ряд действий, которые необходимо предпринять, прежде чем можно будет собирать данные мониторинга для Microsoft Lync Server 2013. Эти действия приведены в следующем контрольном списке.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-05_
+
+Несмотря на то, что мониторинг уже установлен и активирован на каждом сервере переднего плана, вы по-прежнему можете выполнить несколько действий, которые необходимо предпринять, прежде чем вы сможете собирать данные мониторинга для Microsoft Lync Server 2013. Эти действия приведены в следующем контрольном списке.
 
 
 <table>
@@ -36,22 +56,33 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p><strong>Установка необходимого оборудования и программного обеспечения</strong></p></td>
 <td><p>Установка поддерживаемой версии Microsoft SQL Server на компьютере, который будет работать в качестве внутреннего хранилища данных для мониторинга.</p></td>
 <td><p>Пользователь домена, который также является членом группы администраторов.</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">Поддерживаемое оборудование для Lync Server 2013</a> в руководстве по технической поддержке</p>
-<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</a> в руководстве по технической поддержке</p></td>
+<td><p><a href="lync-server-2013-supported-hardware.md">Поддерживаемое оборудование для Lync Server 2013</a> в руководстве по поддержке</p>
+<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</a> в руководстве по поддержке</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Создание приемлемой внутренней топологии для поддержки мониторинга</strong></p></td>
-<td><p>Используйте построитель топологий Lync Server 2013 для добавления в топологию баз данных мониторинга с последующей публикацией и обновлением топологии.</p></td>
+<td><p><strong>Создание подходящей внутренней топологии для поддержки мониторинга</strong></p></td>
+<td><p>Используйте построитель топологии Lync Server 2013 для добавления в топологию баз данных мониторинга и публикации обновленной топологии.</p></td>
 <td><p>Чтобы определить топологию, пользователь, который является членом локальной группы пользователей.</p>
 <p>Чтобы опубликовать топологию, пользователь, который является членом группы администраторов домена и группы RTCUniversalServerAdmins.</p></td>
-<td><p><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Связь хранилища мониторинга с пулом переднего плана в Lync Server 2013</a> в руководстве по развертыванию</p></td>
+<td><p><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Связывание хранилища мониторинга с пулом переднего плана в Lync Server 2013</a> в руководстве по развертыванию</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Включение подходящих параметров мониторинга</strong></p></td>
-<td><p>Включите мониторинг регистрации вызовов (CDR) и качества связи (QoE) на глобальном уровне и уровне сайта.</p></td>
+<td><p>Включите мониторинг для записи сведений о вызовах (CDR) и/или качества (QoE) в глобальной и (или) масштабах сайта.</p></td>
 <td><p>Пользователь, который является членом группы RTCUniversalServerAdmins или которому была назначена роль RBAC, предоставляющая доступ к командлетам CsCdrConfiguration и CsQoEConfiguration.</p></td>
-<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Настройка регистрации вызовов и параметров качества взаимодействия в Lync Server 2013</a> в руководстве по эксплуатации</p></td>
+<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Настройка записи сведений о звонке и параметров качества обслуживания в Lync Server 2013</a> в руководстве по эксплуатации</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

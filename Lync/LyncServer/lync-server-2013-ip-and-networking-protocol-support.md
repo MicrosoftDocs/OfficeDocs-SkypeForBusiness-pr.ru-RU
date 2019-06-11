@@ -1,28 +1,71 @@
-﻿---
-title: 'Lync Server 2013: поддержка IP и сетевого протокола'
-TOCTitle: Поддержка IP и сетевого протокола
-ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412848(v=OCS.15)
-ms:contentKeyID: 49310871
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддержка IP и сетевого протокола'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IP and networking protocol support
+ms:assetid: b0cffb10-3478-445c-89c7-8cb8b5027424
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412848(v=OCS.15)
+ms:contentKeyID: 48185128
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a35395c9bb7eb8d90e5618ba6afde17defdbbcfd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833951"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддержка IP и сетевого протокола в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="ip-and-networking-protocol-support-in-lync-server-2013"></a>Поддержка IP и сетевого протокола в Lync Server 2013
 
-Lync Server 2013 поддерживает следующие протоколы IP и сетевые протоколы:
+</div>
 
-  - **Протоколы IP.**    Lync Server 2013 поддерживает IP версии 4 (IPv4) или IP версии 6 (IPv6) для сети сервера.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-21_
+
+Lync Server 2013 поддерживает следующие протоколы IP и сети:
+
+  - **IP-протоколы.**    Lync Server 2013 поддерживает IP-версии 4 (IPv4) или IP версии 6 (IPv6) для серверной сети.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Lync Server 2013 может работать в сети с включенным двойным стеком IP.
+    > Lync Server 2013 может работать в сети с поддержкой двух стеков IP-адресов.
 
-  - **Транспортные протоколы SIP.**   SIP может использовать как минимум 3 типа транспортных протоколов: UDP, TCP и TLS. В конфигурации SIP по умолчанию TLS запускается поверх TCP. TLS используется в сети Lync Server 2013. На границе сети Lync Server 2013 может работать поверх TCP. Lync Server 2013 не поддерживает UDP для транспорта SIP, поскольку он не соответствует минимальным требованиям безопасности, надежности и масштабируемости для предприятий. Дополнительные сведения см. в записи блога NextHop «UDP или не UDP — вот в чем вопрос» по адресу [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369).
     
+    </div>
+
+  - **Транспортные протоколы SIP.**    В общем случае SIP может использовать по крайней мере три типа транспорта: протокол UDP и протокол управления передачей (TCP), а также TLS-защиту. В конфигурации транспорта SIP по умолчанию TLS выполняется по протоколу TCP. Протокол TLS используется в сети Lync Server 2013. На краю сети Lync Server 2013 может взаимодействовать по протоколу TCP. Lync Server 2013 не поддерживает транспортный протокол UDP для SIP, так как он не соответствует минимальным стандартам безопасности, надежности и масштабируемости для корпоративной связи. Подробные сведения можно найти в статье блога для NextHop: "для UDP, а не в UDP, вопрос которой —" по адресу [http://go.microsoft.com/fwlink/p/?linkId=185369](http://go.microsoft.com/fwlink/p/?linkid=185369)".
+    
+    <div>
+    
+
     > [!NOTE]  
     > Содержимое всех блогов и их URL-адреса могут быть изменены без уведомления.
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

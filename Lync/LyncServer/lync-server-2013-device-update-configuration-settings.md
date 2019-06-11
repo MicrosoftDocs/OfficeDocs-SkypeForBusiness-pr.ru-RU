@@ -1,27 +1,61 @@
-﻿---
-title: " Параметры конфигурации обновления устройств в Lync Server 2013"
-TOCTitle: " Параметры конфигурации обновления устройств в Lync Server 2013"
-ms:assetid: a567b290-4c78-48bf-8ff7-39e32e54de39
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994058(v=OCS.15)
-ms:contentKeyID: 52058290
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: параметры конфигурации обновления устройства'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Update configuration settings
+ms:assetid: a567b290-4c78-48bf-8ff7-39e32e54de39
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994058(v=OCS.15)
+ms:contentKeyID: 51803969
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4418519efecbc860c8e0fbc09864895a852df6c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834424"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-#  Параметры конфигурации обновления устройств в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-20_
+# <a name="device-update-configuration-settings-in-lync-server-2013"></a>Параметры конфигурации обновления устройства в Lync Server 2013
 
-Управление обновления устройств осуществляется с помощью параметров конфигурации устройств. Эти параметры можно применять на глобальном уровне или на уровне сайта.
+</div>
 
-## Содержание
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-20_
+
+Управление веб-службой обновления устройства осуществляется с помощью параметров конфигурации устройства. Эти параметры можно применять в глобальной области или в области сайта.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Просмотр параметров конфигурации обновления устройств в Lync Server 2013](lync-server-2013-view-device-update-configuration-settings.md)
 
-  - [Создание или изменение коллекции параметров конфигурации обновления устройств](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
+  - [Создание или изменение коллекции параметров конфигурации обновления устройства в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
 
-  - [Удаление коллекции параметров конфигурации обновления устройств](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
+  - [Удаление коллекции параметров конфигурации обновления устройства в Lync Server 2013](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

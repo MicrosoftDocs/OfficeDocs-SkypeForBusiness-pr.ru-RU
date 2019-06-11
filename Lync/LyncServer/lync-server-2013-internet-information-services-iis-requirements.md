@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: требования служб IIS'
-TOCTitle: Требования служб IIS
-ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398321(v=OCS.15)
-ms:contentKeyID: 49309739
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования служб IIS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Internet Information Services (IIS) requirements
+ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
+ms:contentKeyID: 48184128
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcb0350178a19a75ac821a452ef90e10da297677
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833958"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования служб IIS в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Требования служб IIS в Lync Server 2013
 
-Нескольким компонентам системы Lync Server 2013 требуются службы Службы IIS. В данном разделе описываются конкретные возможности служб IIS, необходимые для поддержки Lync Server. В подразделах данного раздела рассматриваются требования отдельных компонентов к службам IIS.
+</div>
 
-Когда на Windows Server 2008 включена роль «Веб-сервер (IIS)», по умолчанию устанавливаются различные службы роли. В следующей таблице описываются дополнительные службы роли, которые следует установить при включении роли «Веб-сервер (IIS)» в Windows Server 2008.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-19_
+
+Для некоторых компонентов Lync Server 2013 требуются информационные службы Интернета (IIS). В этой статье описаны особые возможности IIS, необходимые для поддержки сервера Lync Server. В подразделах этого раздела описаны требования конкретных компонентов IIS.
+
+Если роль веб-сервера (IIS) включена в Windows Server 2008, по умолчанию устанавливаются различные службы ролей. В приведенной ниже таблице описаны дополнительные службы ролей, которые необходимо установить, если в Windows Server 2008 включена роль веб-сервера (IIS).
 
 
 <table>
@@ -27,7 +47,7 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Служба роли</th>
+<th>Служба ролей</th>
 <th>Функция</th>
 </tr>
 </thead>
@@ -80,21 +100,39 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
+<div>
+
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="security" alt="security" />Безопасность Примечание</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="разрешения" alt="security" />Примечание о безопасности:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Если вы используете IIS 7.0 в операционной системе Windows Server 2008, программа установки Lync Server отключает в службах IIS проверку подлинности в режиме ядра.</td>
+<td>Если вы используете сервер IIS 7,0 в операционной системе Windows Server 2008, Настройка сервера Lync Server отключает проверку подлинности в режиме ядра в службах IIS.</td>
 </tr>
 </tbody>
 </table>
 
 
-## Содержание
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Требования IIS для пулов переднего плана и серверов Standard Edition в Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

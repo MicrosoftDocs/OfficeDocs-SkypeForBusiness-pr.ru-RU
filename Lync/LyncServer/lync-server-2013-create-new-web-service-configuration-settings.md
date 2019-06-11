@@ -1,29 +1,51 @@
-﻿---
-title: Создание параметров конфигурации новой веб-службы
-TOCTitle: Создание параметров конфигурации новой веб-службы
-ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182605(v=OCS.15)
-ms:contentKeyID: 49311648
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: создание новых параметров конфигурации веб-службы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create new Web Service configuration settings
+ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182605(v=OCS.15)
+ms:contentKeyID: 48185801
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 86105e4dbf6b624f87844a68ebe5fca6bba02247
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834824"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание параметров конфигурации новой веб-службы
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="create-new-web-service-configuration-settings-in-lync-server-2013"></a>Создание новых параметров конфигурации веб-службы в Lync Server 2013
 
-Для настройки методов проверки подлинности, используемых для получения доступа к веб-серверам и веб-службам, связанным с Lync Server 2013, используйте страницу **Веб-служба**.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+На странице **веб-службы** можно настроить методы проверки подлинности для доступа к веб-серверам, связанным с Lync Server 2013 и веб-службам.
 
 Чтобы создать политику веб-службы, выполните следующие действия.
 
-## Создание политики веб-службы
+<div>
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+## <a name="to-create-new-web-service-configuration-settings"></a>Создание параметров конфигурации новой веб-службы
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
+
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  В левой панели навигации щелкните **Безопасность**, а затем щелкните **Веб-служба**.
 
@@ -43,5 +65,17 @@ _**Дата изменения раздела:** 2012-11-01_
     
       - **Включить загрузку цепочки сертификатов**, чтобы серверы, представляющие сертификат проверки подлинности, загружали цепочку сертификатов для этого сертификата.
 
-7.  Щелкните **Зафиксировать**.
+7.  Нажмите **Исполнить**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

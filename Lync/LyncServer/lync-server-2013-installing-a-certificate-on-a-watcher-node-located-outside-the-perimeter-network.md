@@ -1,21 +1,51 @@
-﻿---
-title: Установка сертификата на узел-наблюдатель, расположенный вне сети периметра
-TOCTitle: Установка сертификата на узел-наблюдатель, расположенный вне сети периметра
-ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688113(v=OCS.15)
-ms:contentKeyID: 49888068
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Установка сертификата на узле-наблюдателе, расположенном за пределами сети периметра'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing a certificate on a watcher node located outside the perimeter network
+ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688113(v=OCS.15)
+ms:contentKeyID: 49733711
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1479ffdd7f6652b96f3015e047194d76bf1e8978
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833993"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Установка сертификата на узел-наблюдатель, расположенный вне сети периметра
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a>Установка сертификата на узле-наблюдателе, расположенном вне сети периметра Lync Server 2013
 
-Для агентов System Center Operations Manager, работающих в сети периметра (например, пограничный сервер Lync Server), за пределами предприятия (например, внешний узел-наблюдатель синтетических транзакций) или в границах доверия Доменные службы Active Directory, может потребоваться настроить сервер шлюза System Center Operations Manager. Эта роль сервера позволяет агентам без отношения доверия с корневым сервером управления создавать предупреждения. Дополнительные сведения см. в статье "Управление серверами шлюза в Operations Manager 2007" в библиотеке TechNet для System Center Operations Manager по адресу [http://go.microsoft.com/fwlink/?linkid=268703\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=268703%26clcid=0x419).
+</div>
 
-Если вы развертываете агент в одном из этих расположений, вам также потребуется запросить и настроить сертификат, позволяющий узлу-наблюдателю отправлять предупреждения System Center Operations Manager. Чтобы упростить этот процесс, группа разработчиков Operations Manager создала набор вспомогательных программ, позволяющих запрашивать и устанавливать нужный тип сертификата на компьютера узла-наблюдателя. Сведения о об этих программах и их загрузке см. в статье блога "Упрощенное получение сертификатов для неприсоединенных к домену агентов с помощью мастера создания сертификатов" по адресу [http://go.microsoft.com/fwlink/?linkid=267421\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=267421%26clcid=0x419).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-22_
+
+Агенты System Center Operations Manager, работающие в демилитаризованной зоне (например, на сервере Lync Server EDGE), вне Организации (например, на внешнем узле наблюдения за транзакциями) или на границе доверенных доменных служб Active Directory, могут требуется Конфигурация сервера шлюза System Center Operations Manager. Эта роль сервера позволяет агентам, у которых нет отношения доверия с корневым сервером управления, создавать оповещения. Дополнительные сведения можно найти в разделе "Управление серверами шлюзов в Operations Manager 2007" в библиотеке TechNet System Center Operations Manager по адресу [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703).
+
+Если вы развертываете агент в одном из этих местоположений, вам также потребуется запросить и настроить сертификат, который позволит узлу-наблюдателю отправлять оповещения в System Center Operations Manager. Для упрощения этого процесса группа Operations Manager создала набор служебных программ, которые позволят вам запросить и установить правильный тип сертификата на компьютере с узлом-наблюдателем. Сведения о том, как скачать эти служебные программы, можно найти в статье "получение сертификатов для агентов, не присоединенных к домену, с помощью [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)мастера создания сертификатов" на веб-странице блога.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

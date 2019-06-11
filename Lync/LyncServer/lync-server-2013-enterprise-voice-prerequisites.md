@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: необходимые условия для корпоративной голосовой связи'
-TOCTitle: Необходимые условия для корпоративной голосовой связи
-ms:assetid: eca317b9-2f4f-4d40-9509-9d734b2305b0
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399068(v=OCS.15)
-ms:contentKeyID: 49311569
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: необходимые условия для корпоративной голосовой связи'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enterprise Voice prerequisites
+ms:assetid: eca317b9-2f4f-4d40-9509-9d734b2305b0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399068(v=OCS.15)
+ms:contentKeyID: 48185746
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03baddeb817b97452fa88bc2f2a070757ebf4f54
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834202"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Необходимые условия для корпоративной голосовой связи в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-08-06_
+# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a>Необходимые условия для корпоративной голосовой связи в Lync Server 2013
 
-Для обеспечения наилучшего взаимодействия при развертывании корпоративной голосовой связи убедитесь, что ваша ИТ-инфраструктура, сеть и системы соответствуют предварительным требованиям, которые излагаются в разделах этой статьи.
+</div>
 
-## Содержание
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-08-06_
+
+Для оптимальной работы при развертывании корпоративной голосовой связи убедитесь в том, что ваша ИТ инфраструктура, сеть и системы соответствуют предварительным требованиям, описанным в подразделах этого раздела.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Необходимое программное обеспечение для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [Необходимые условия для обеспечения безопасности и настройки корпоративной голосовой связи в Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [Требования к безопасности и конфигурации для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

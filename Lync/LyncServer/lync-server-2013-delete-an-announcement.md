@@ -1,27 +1,49 @@
-﻿---
-title: Удаление объявления
-TOCTitle: Удаление объявления
-ms:assetid: 26ea7149-4470-4c22-9bab-8a4065aca44e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687998(v=OCS.15)
-ms:contentKeyID: 49887910
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Удаление объявления'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an announcement
+ms:assetid: 26ea7149-4470-4c22-9bab-8a4065aca44e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687998(v=OCS.15)
+ms:contentKeyID: 49733588
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8bb942c57394e2141ad4c550ecaf33ae2ef128fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834628"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление объявления
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="delete-an-announcement-in-lync-server-2013"></a>Удаление объявления в Lync Server 2013
 
-Используйте следующую процедуру для удаления оповещения о вызовах на неназначенные номера.
+</div>
 
-## Порядок удаления оповещения
+<div id="mainSection">
 
-1.  Войдите на компьютер, где установлена командная консоль Lync Server, как член группы RTCUniversalServerAdmins или имея необходимые права пользователя, описанные в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+Чтобы удалить объявление, которое используется для звонков на неназначенные номера, выполните описанные ниже действия.
+
+<div>
+
+## <a name="to-delete-an-announcement"></a>Порядок удаления оповещения
+
+1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 3.  Получите список всех оповещений, используемых в организации. Выполните в командной строке следующую команду:
     
@@ -31,21 +53,42 @@ _**Дата изменения раздела:** 2012-11-01_
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    Пример:
+    Например:
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
+    <div>
+    
+
     > [!NOTE]  
-    > Дополнительные сведения о других параметрах см. в статьях <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a> и <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>.
+    > Подробнее о дополнительных параметрах можно узнать в <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">статьях Get-ксаннаунцемент</A> и Remove <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">-ксаннаунцемент</A>.
 
-## См. также
+    
+    </div>
 
-#### Задачи
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
 
 [Создание объявления в Lync Server 2013](lync-server-2013-create-an-announcement.md)  
 
-#### Другие ресурсы
 
-[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
-[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
+[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

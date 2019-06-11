@@ -1,71 +1,125 @@
-﻿---
-title: Включение и отключение push-уведомлений для iPhone
-TOCTitle: Включение и отключение push-уведомлений для iPhone
-ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688122(v=OCS.15)
-ms:contentKeyID: 49888078
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Включение и отключение push-уведомлений для iPhone'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling push notifications for iPhones
+ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688122(v=OCS.15)
+ms:contentKeyID: 49733719
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ccd4e4c65c539f5a6af36d1012c32059b3e291a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834240"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение и отключение push-уведомлений для iPhone
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a>Включение и отключение push-уведомлений для iPhone в Lync Server 2013
 
-Push-уведомления в форме эмблем, значков или оповещений могут отправляться в iPhone, даже если мобильное приложение не активно. Push-уведомления сообщают пользователю о событиях, таких как новые или пропущенные приглашения в сеанс обмена мгновенными сообщениями, а также новые сообщения голосовой почты. Вы можете включить или выключить push-уведомления для iPhone с помощью панели управления Lync Server 2013 или командная консоль Lync Server 2013.
+</div>
 
-## Включение push-уведомлений для iPhone из панели управления Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Push-уведомления, в форме индикаторов, значков или оповещений, могут отправляться на iPhone, даже если мобильное приложение неактивно. Push-уведомления извещать пользователей о таких событиях, как новое или пропущенное приглашение на обмен мгновенными сообщениями и голосовая почта. Вы можете включить или отключить push-уведомления для iPhone с помощью панели управления Lync Server 2013 или оболочки управления Lync Server 2013.
+
+<div>
+
+## <a name="to-enable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>Включение push-уведомлений для iPhone с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Клиенты**, а затем щелкните кнопку навигации **Настройка push-уведомлений**.
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **конфигурации push-уведомлений** .
 
-4.  На странице **Настройка push-уведомлений** выберите сайт, который хотите изменить, откройте меню **Изменить** и выберите пункт **Подробнее**.
+4.  На странице **Конфигурация push-уведомлений** выберите сайт, который вы хотите изменить, а затем в меню **Правка** выберите пункт **Показать подробности**.
 
-5.  Установите флажок **Разрешить push-уведомления от Apple**.
+5.  Установите флажок **включить push-уведомления Apple** .
 
-6.  Нажмите кнопку **Сохранить**.
+6.  Нажмите **Исполнить**.
 
-## Отключение push-уведомлений для iPhone из панели управления Lync Server
+</div>
+
+<div>
+
+## <a name="to-disable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>Отключение push-уведомлений для iPhone с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Клиенты**, а затем щелкните кнопку навигации **Настройка push-уведомлений**.
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **конфигурации push-уведомлений** .
 
-4.  На странице **Настройка push-уведомлений** выберите сайт, который хотите изменить, откройте меню **Изменить** и выберите пункт **Подробнее**.
+4.  На странице **Конфигурация push-уведомлений** выберите сайт, который вы хотите изменить, а затем в меню **Правка** выберите пункт **Показать подробности**.
 
-5.  Снимите флажок **Разрешить push-уведомления от Apple**.
+5.  Снимите флажок **включить push-уведомления Apple** .
 
-6.  Нажмите кнопку **Сохранить**.
+6.  Нажмите **Исполнить**.
 
-## Включение и отключение push-уведомлений для iPhone с помощью командлетов Windows PowerShell
+</div>
 
-Вы можете включить и выключить push-уведомления для Apple iPhone с помощью командлета **Set-CsPushNotificationConfiguration**. Его можно выполнить в командная консоль Lync Server 2013 или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Включение push-уведомлений для iPhone
+## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Включение и отключение push-уведомлений на iPhone с помощью командлетов Windows PowerShell
 
-  - Чтобы включить push-уведомления для iPhone, установите для свойства EnableApplePushNotificationService значение True ($True). Например:
+С помощью командлета **Set-кспушнотификатионконфигуратион** можно включить или отключить извещающие уведомления для Apple iPhone. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-enable-push-notifications-for-iphone"></a>Включение push-уведомлений для iPhone
+
+  - Чтобы включить push-уведомления для iPhone, установите для свойства Енаблеапплепушнотификатионсервице значение true ($True). Например:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $True
 
-## Включение push-уведомлений для iPhone
+</div>
 
-  - Чтобы выключить push-уведомления для iPhone, установите для свойства EnableApplePushNotificationService значение False ($False). Например:
+<div>
+
+## <a name="to-disable-push-notifications-for-iphone"></a>Отключение push-уведомлений для iPhone
+
+  - Чтобы отключить push-уведомления для iPhone, установите для свойства Енаблеапплепушнотификатионсервице значение false ($False). Например:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 
-Дополнительные сведения см. в разделе справки о командлете [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
+</div>
 
-## См. также
+Дополнительные сведения можно найти в разделе справки по командлету [Set-кспушнотификатионконфигуратион](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) .
 
-#### Задачи
+</div>
 
-[Настройка для использования push-уведомлений в Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Настройка для использования push-уведомлений в Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

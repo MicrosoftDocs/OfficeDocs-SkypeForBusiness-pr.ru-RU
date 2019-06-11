@@ -1,53 +1,95 @@
-﻿---
-title: Удаление существующих маршрутов областей сети
-TOCTitle: Удаление существующих маршрутов областей сети
-ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688074(v=OCS.15)
-ms:contentKeyID: 49888019
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: удаление существующих маршрутов сетевого региона'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting existing network region routes
+ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688074(v=OCS.15)
+ms:contentKeyID: 49733669
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5e188ef3214088fe9c38c144fad1908d13fef162
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834584"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление существующих маршрутов областей сети
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="deleting-existing-network-region-routes-in-lync-server-2013"></a>Удаление существующих маршрутов сетевого региона в Lync Server 2013
 
-Каждый регион в рамках конфигурации контроля допуска звонков (CAC) должен иметь способ доступа к любому другому региону. Связи между регионами накладывают определенные ограничения на пропускную способность, доступную подключениям между регионами, и также представляют собой физические соединения; маршруты же определяют путь, который должны пройти подключения от одного региона до другого. Можно использовать панель управления Lync Server для настройки маршрутов между сетевыми регионами. На панели управления Lync Server можно создать, изменить или удалить маршрут сетевого региона. С помощью инструкций, приведенных в этом разделе, можно удалить существующие маршруты сетевых регионов. Дополнительные сведения о создании или изменении маршрутов сетевых регионов см. в разделе [Создание или изменение маршрутов между сетевыми областями](lync-server-2013-creating-or-modifying-network-region-routes.md).
+</div>
 
-## Чтобы удалить маршрут сетевого региона
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+Каждый регион в конфигурации управления допуском звонков (CAC) должен иметь какой-либо способ получить доступ ко всем остальным регионам. Несмотря на то, что ссылки на области устанавливают ограничения пропускной способности для подключений между регионами и представляют собой физические ссылки, маршрут определяет связанный путь, который будет проходить соединение между двумя областями. Вы можете настроить маршруты к сетевым регионам с помощью панели управления Lync Server. С помощью панели управления Lync Server вы можете создавать, изменять и удалять маршруты сетевого региона. Этот раздел используется для удаления существующих маршрутов сетевого региона. Дополнительные сведения о создании и изменении маршрутов сетевого региона можно найти [в разделе Создание и изменение маршрутов сетевого региона в Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
+
+<div>
+
+## <a name="to-delete-a-network-region-route"></a>Удаление маршрута сетевого региона
 
 1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В панели навигации выберите **Настройка сети**, а затем щелкните **Маршрут региона**.
+3.  На панели навигации слева выберите пункт **Настройка сети** , а затем — пункт **путь**к региону.
 
-4.  На странице **Маршрут региона** щелкните маршрут, который следует удалить.
+4.  На странице " **регион** " щелкните маршрут региона, который вы хотите удалить.
     
-    > [!NOTE]  
-    > Одновременно можно удалить сразу несколько маршрутов регионов. Для этого нажмите и удерживайте клавишу CTRL, одновременно выбирая несколько маршрутов регионов. Или щелкните пункт <strong>Выделить все</strong> в меню <strong>Изменить</strong> для выбора сразу нескольких маршрутов.
+    <div>
+    
 
-5.  В меню **Изменить** щелкните **Удалить**.
+    > [!NOTE]  
+    > За один раз можно удалить сразу несколько маршрутов. Для этого нажмите клавишу CTRL и, удерживая нажатой клавишу CTRL, выберите один из нескольких маршрутов областей. Кроме того, чтобы выделить все маршруты областей, в меню <STRONG>Правка</STRONG> выберите команду <STRONG>выделить все</STRONG> .
+
+    
+    </div>
+
+5.  В меню **Правка** выберите команду **Удалить**.
 
 6.  Нажмите кнопку **ОК**.
 
-## См. также
+</div>
 
-#### Задачи
+<div>
 
-[Создание или изменение маршрутов между сетевыми областями](lync-server-2013-creating-or-modifying-network-region-routes.md)  
+## <a name="see-also"></a>См. также
 
-#### Концепции
 
-[Настройка маршрута области сети](https://technet.microsoft.com/ru-ru/library/gg133706\(v=ocs.15\))  
+[Создание и изменение маршрутов сетевого региона в Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md)  
 
-#### Другие ресурсы
 
-[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
-[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
-[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
-[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+[Настройка маршрута области сети](https://technet.microsoft.com/en-us/library/gg133706\(v=ocs.15\))  
+
+
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,43 +1,69 @@
-﻿---
-title: Удаление диапазона орбит для парковки вызовов в Lync Server 2013
-TOCTitle: Удаление диапазона орбит для парковки вызовов в Lync Server 2013
-ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182546(v=OCS.15)
-ms:contentKeyID: 49310417
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Удаление диапазона на орбите с помощью кнопки "приостановить Звонок"'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete a Call Park orbit range
+ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182546(v=OCS.15)
+ms:contentKeyID: 48184713
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 69144e6552f9c3688c904c8522689abc8da7add2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834659"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление диапазона орбит для парковки вызовов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-20_
+# <a name="delete-a-call-park-orbit-range-in-lync-server-2013"></a>Удаление диапазона орбиты на расстоянии вверх на сервере Lync Server 2013
 
-Воспользуйтесь одной из описанных ниже процедур, чтобы удалить диапазон орбит Приостановка вызовов.
+</div>
 
-## Использование управления Lync Server для удаления диапазона орбит Приостановка вызовов
+<div id="mainSection">
 
-1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения см. в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-20_
+
+Для удаления диапазона на расстоянии по орбите воспользуйтесь одной из описанных ниже процедур.
+
+<div>
+
+## <a name="to-use-lync-server-control-panel-to-delete-a-call-park-orbit-range"></a>Использование панели управления Lync Server для удаления диапазона орбиты с приостановкой
+
+1.  Войдите на компьютер как член группы RTCUniversalServerAdmins или роли CsVoiceAdministrator, CsServerAdministrator или CsAdministrator. Дополнительные сведения можно найти [в разделе Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  На панели навигации слева щелкните пункт **Функции голосовой связи**, а затем щелкните **Парковка вызовов**.
 
-4.  На странице **Парковка вызовов** в поле поиска введите имя диапазона орбиты, который вы хотите удалить, или его часть.
+4.  На странице "Приостановка **звонка** " в поле "Поиск" введите имя или часть названия диапазона на орбите, который вы хотите удалить.
 
-5.  В полученном списке орбит выберите нужную орбиту, нажмите кнопку **Изменить**, а затем щелкните **Удалить**.
+5.  В появившемся списке орбит нажмите на орбиту, выберите команду **изменить**, а затем нажмите кнопку **Удалить**.
 
 6.  Нажмите кнопку **ОК**.
 
-## Использование командлетов для удаления диапазона орбит Приостановка вызовов
+</div>
 
-1.  Войдите на компьютер, где установлена командная консоль Lync Server, как член группы RTCUniversalServerAdmins или имея необходимые права пользователя, описанные в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div>
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+## <a name="to-use-windows-powershell-to-delete-a-call-park-orbit-range"></a>Использование Windows PowerShell для удаления диапазона на расстоянии по орбите
 
-3.  В командной строке введите следующую команду.
+1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+
+2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+3.  В командной строке введите следующую команду:
     
         Remove-CsCallParkOrbit -Identity "<orbit range name>" 
     
@@ -45,17 +71,38 @@ _**Дата изменения раздела:** 2013-02-20_
     
         Remove-CsCallParkOrbit -Identity "Redmond orbit 1"
     
+    <div>
+    
+
     > [!NOTE]  
-    > Дополнительные сведения о других параметрах см. в разделе <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>.
+    > Подробнее о дополнительных параметрах можно найти в разделе <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-кскаллпаркорбит</A>.
 
-## См. также
+    
+    </div>
 
-#### Задачи
+</div>
 
-[Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a>См. также
 
-[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
-[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
+
+[Создание или изменение диапазона орбиты на расстоянии вверх на сервере Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+
+
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
