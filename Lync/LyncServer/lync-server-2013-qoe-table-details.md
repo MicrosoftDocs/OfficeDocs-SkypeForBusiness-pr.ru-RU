@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: данные таблицы качества взаимодействия'
-TOCTitle: Данные таблицы качества взаимодействия
-ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413003(v=OCS.15)
-ms:contentKeyID: 49311620
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: данные таблицы качества взаимодействия'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoE table details
+ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413003(v=OCS.15)
+ms:contentKeyID: 48185775
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcfb0d3dd40341f082e4efdcb8bd22a7c3ba6b25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823779"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Данные таблицы качества взаимодействия в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-02_
+# <a name="qoe-table-details-in-lync-server-2013"></a>Данные таблицы качества взаимодействия в Lync Server 2013
 
-В этих разделах приведено подробное описание столбцов в каждой из таблиц схемы базы данных качества взаимодействия (QoE).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-02_
+
+В этих разделах описаны столбцы в каждой из таблиц схемы базы данных качества взаимодействия (QoE).
 
   - [Таблица AppliedBandwidthSource в Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
 
-  - [Таблица AppSharingMetricsThreshold в Lync Server 2013](lync-server-2013-appsharingmetricsthreshold-table.md)
+  - [Таблица Аппшарингметрикссрешолд в Lync Server 2013](lync-server-2013-appsharingmetricsthreshold-table.md)
 
-  - [Таблица AppSharingStream в Lync Server 2013](lync-server-2013-appsharingstream-table.md)
+  - [Таблица Аппшарингстреам в Lync Server 2013](lync-server-2013-appsharingstream-table.md)
 
   - [Таблица AudioClientEvent в Lync Server 2013](lync-server-2013-audioclientevent-table.md)
 
@@ -29,7 +49,7 @@ _**Дата изменения раздела:** 2012-10-02_
 
   - [Таблица AudioStream в Lync Server 2013](lync-server-2013-audiostream-table.md)
 
-  - [Таблица CodecDescription в Lync Server 2013](lync-server-2013-codecdescription-table.md)
+  - [Таблица Кодекдескриптион в Lync Server 2013](lync-server-2013-codecdescription-table.md)
 
   - [Таблица Conference в Lync Server 2013](lync-server-2013-conference-table.md)
 
@@ -43,7 +63,7 @@ _**Дата изменения раздела:** 2012-10-02_
 
   - [Таблица EndpointSubnet в Lync Server 2013](lync-server-2013-endpointsubnet-table.md)
 
-  - [Таблица IPAddress в Lync Server 2013](lync-server-2013-ipaddress-table.md)
+  - [Таблица IP-адреса в Lync Server 2013](lync-server-2013-ipaddress-table.md)
 
   - [Таблица MacAddress в Lync Server 2013](lync-server-2013-macaddress-table.md)
 
@@ -53,13 +73,13 @@ _**Дата изменения раздела:** 2012-10-02_
 
   - [Таблица MonitoredUserSiteLink](monitoredusersitelink-table.md)
 
-  - [Таблица NetworkConnectionDetail в Lync Server 2013](lync-server-2013-networkconnectiondetail-table.md)
+  - [Таблица Нетворкконнектиондетаил в Lync Server 2013](lync-server-2013-networkconnectiondetail-table.md)
 
   - [Таблица PayloadDescription в Lync Server 2013](lync-server-2013-payloaddescription-table.md)
 
   - [Таблица Pool в Lync Server 2013](lync-server-2013-pool-table.md)
 
-  - [Таблица PurgeSettings (качество взаимодействия) в Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
+  - [Пуржесеттингс Table (QoE) в Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
 
   - [Таблица Region в Lync Server 2013](lync-server-2013-region-table.md)
 
@@ -71,19 +91,29 @@ _**Дата изменения раздела:** 2012-10-02_
 
   - [Таблица Subnet в Lync Server 2013](lync-server-2013-subnet-table.md)
 
-  - [Таблица TraceRoute в Lync Server 2013](lync-server-2013-traceroute-table.md)
+  - [Таблица использованием Traceroute в Lync Server 2013](lync-server-2013-traceroute-table.md)
 
   - [Таблица User в Lync Server 2013](lync-server-2013-user-table.md)
 
   - [Таблица UserAgent в Lync Server 2013](lync-server-2013-useragent-table.md)
 
-  - [Таблица UserAgentDef (QoE) в Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
+  - [Усеражентдеф Table (QoE) в Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
 
   - [Таблица UserSite в Lync Server 2013](lync-server-2013-usersite-table.md)
 
   - [Таблица VideoClientEvent в Lync Server 2013](lync-server-2013-videoclientevent-table.md)
 
-  - [Таблица VideoMetricsThreshold в Lync Server 2013](lync-server-2013-videometricsthreshold-table.md)
+  - [Таблица Видеометрикссрешолд в Lync Server 2013](lync-server-2013-videometricsthreshold-table.md)
 
   - [Таблица VideoStream в Lync Server 2013](lync-server-2013-videostream-table.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

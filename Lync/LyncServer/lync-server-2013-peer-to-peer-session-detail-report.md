@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: подробный отчет по сеансу однорановой связи'
-TOCTitle: Подробный отчет по сеансу однорановой связи
-ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558659(v=OCS.15)
-ms:contentKeyID: 49310095
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: одноранговый отчет о сеансе'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Session Detail Report
+ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
+ms:contentKeyID: 48184416
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825403"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Подробный отчет по сеансу однорановой связи в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Отчет о одноранговых сеансах в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-06_
 
 Отчет по деталям однорангового сеанса (Peer-to-Peer Session Detail Report) предоставляет подробные сведения об одноранговом сеансе. Например, если выбрать сеанс обмена мгновенными сообщениями, то отчет предоставит сведения о количестве сообщений, отправленных в этом сеансе каждым из двух пользователей.
 
-## Доступ к отчету по деталям однорангового сеанса
+<div>
+
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a>Доступ к отчету по деталям однорангового сеанса
 
 Отчет по деталям однорангового сеанса можно вызвать в любом из следующих отчетов (все они доступны на домашней странице отчетов мониторинга).
 
@@ -29,13 +51,17 @@ _**Дата изменения раздела:** 2015-03-09_
 
   - Отчет по списку отказов
 
-Из отчета по деталям однорангового сеанса можно вызвать [Диагностический отчет в Lync Server 2013](lync-server-2013-diagnostic-report.md), щелкнув метрику Diagnostic Report (Details) (Диагностический отчет (детали)). Можно также вызвать отчет по основным сбоям (Top Failures Report), щелкнув одну из следующих метрик:
+В отчете сведения о одноранговых сеансах вы можете получить доступ к [отчету диагностики в Lync Server 2013](lync-server-2013-diagnostic-report.md) , щелкнув метрику диагностического отчета (подробности). Можно также вызвать отчет по основным сбоям (Top Failures Report), щелкнув одну из следующих метрик:
 
   - Response (Ответ)
 
-  - Diagnostic ID (ИД диагностики)
+  - Диагностический идентификатор
 
-## Оптимальное использование отчета по деталям однорангового сеанса
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Оптимальное использование отчета по деталям однорангового сеанса
 
 В отчете по деталям однорангового сеанса имеется большое количество метрик, многие из которых могут быть незнакомы системным администраторам. Однако во многих случаях при наведении указателя мыши на метку метрики отображаются всплывающие подсказки, дающие краткое описание этой метрики.
 
@@ -43,15 +69,23 @@ _**Дата изменения раздела:** 2015-03-09_
 
 Кроме того, поместив указатель мыши на метрику Response code (Код ответа) или Diagnostic ID (ИД диагностики), можно получить описание следующих значений.
 
-## Фильтры
+</div>
+
+<div>
+
+## <a name="filters"></a>Фильтры
 
 Фильтры отсутствуют. Фильтрация отчета по деталям однорангового сеанса не предусмотрена.
 
-## Метрики сведений о сеансе
+</div>
+
+<div>
+
+## <a name="session-information-metrics"></a>Метрики сведений о сеансе
 
 В следующей таблице приведены сведения, которые предоставляются отчетом по деталям однорангового сеанса для каждого сеанса.
 
-### Метрики сведений о сеансе
+### <a name="session-information-metrics"></a>Метрики сведений о сеансе
 
 <table>
 <colgroup>
@@ -66,86 +100,90 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pool FQDN</strong> (Полное доменное имя пула)</p></td>
+<td><p><strong>Полное доменное имя пула</strong></p></td>
 <td><p>Полное доменное имя пула регистратора или пограничного сервера, участвующего в сеансе.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Invite time</strong> (Время приглашения)</p></td>
+<td><p><strong>Invite time (Время приглашения)</strong></p></td>
 <td><p>Дата и время, когда было отправлено приглашение принять участие в сеансе.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Response time</strong> (Время ответа)</p></td>
+<td><p><strong>Response time (Время ответа)</strong></p></td>
 <td><p>Дата и время, когда было получено принятие приглашения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>From user</strong> (Пользователь-отправитель)</p></td>
+<td><p><strong>From user (Пользователь-отправитель)</strong></p></td>
 <td><p>SIP-адрес пользователя, инициировавшего сеанс.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>From user agent</strong> (Агент пользователя, инициатора сеанса)</p></td>
+<td><p><strong>From user agent (Агент пользователя, инициатора сеанса)</strong></p></td>
 <td><p>Программное обеспечение, используемое конечной точкой пользователя, инициировавшего сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Is From user internal</strong> (Пользователь-инициатор внутренний?)</p></td>
+<td><p><strong>Is From user internal (Пользователь-инициатор внутренний?)</strong></p></td>
 <td><p>Указывает, вошел ли пользователь, начавший сеанс, во внутреннюю сеть.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Is From user integrated with desk phone</strong> (Пользователь-инициатор интегрирован со стационарным телефоном?)</p></td>
+<td><p><strong>Is From user integrated with desk phone (Пользователь-инициатор интегрирован со стационарным телефоном?)</strong></p></td>
 <td><p>Указывает, интегрирована ли конечная точка пользователя, начавшего сеанс, с его стационарным телефоном.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Session Priority</strong> (Приоритет сеанса)</p></td>
+<td><p><strong>Session Priority (Приоритет сеанса)</strong></p></td>
 <td><p>Приоритет, назначенный сеансу. Возможные приоритеты: Unknown (Неизвестно); Non-Urgent (Несрочный); Normal (Обычный); Urgent (Срочный) и Emergency (Экстренный).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Response code</strong> (Код ответа)</p></td>
+<td><p><strong>Response code (Код ответа)</strong></p></td>
 <td><p>Код ответа SIP, отправленный при сбое сеанса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Front end</strong> (Сервер переднего плана)</p></td>
+<td><p><strong>Front end (Сервер переднего плана)</strong></p></td>
 <td><p>Имя сервера переднего плана, использовавшегося в конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Capture time</strong> (Время регистрации)</p></td>
+<td><p><strong>Capture time (Время регистрации)</strong></p></td>
 <td><p>Дата и время регистрации сведений о сеансе.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>End time</strong> (Время окончания)</p></td>
+<td><p><strong>End time (Время окончания)</strong></p></td>
 <td><p>Дата и время окончания сеанса.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>To user</strong> (Пользователь-получатель)</p></td>
+<td><p><strong>To user (Пользователь-получатель)</strong></p></td>
 <td><p>SIP-адрес пользователя, получившего приглашение к сеансу.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>To user agent</strong> (Агент пользователя-получателя)</p></td>
+<td><p><strong>To user agent (Агент пользователя-получателя)</strong></p></td>
 <td><p>Программное обеспечение, использовавшееся конечной точкой пользователя, приглашенного принять участие в сеансе.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Is To user internal</strong> (Пользователь-получатель внутренний?)</p></td>
+<td><p><strong>Is To user internal (Пользователь-получатель внутренний?)</strong></p></td>
 <td><p>Указывает, вошел ли пользователь, приглашенный принять участие в сеансе, во внутреннюю сеть.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Is To user integrated with desk phone</strong> (Пользователь-получатель интегрирован со стационарным телефоном?)</p></td>
+<td><p><strong>Is To user integrated with desk phone (Пользователь-получатель интегрирован со стационарным телефоном?)</strong></p></td>
 <td><p>Указывает, интегрирована ли конечная точка пользователя, приглашенного принять участие в сеансе, с его стационарным телефоном.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Is retried session</strong> (Повторный сеанс?)</p></td>
+<td><p><strong>Is retried session (Повторный сеанс?)</strong></p></td>
 <td><p>Указывает, являлся ли этот сеанс попыткой повтора сеанса, который завершился неудачно.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnostic ID</strong> (ИД диагностики)</p></td>
+<td><p><strong>Диагностический идентификатор</strong></p></td>
 <td><p>Уникальный идентификатор (в форме заголовка ms-diagnostics), присоединенный к сообщению SIP, который часто содержит сведения, помогающий устранять ошибки. Поместите указатель мыши на этот идентификатор, чтобы увидеть дополнительные сведения о нем.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Метрики для модальностей
+</div>
+
+<div>
+
+## <a name="metrics-for-modalities"></a>Метрики для модальностей
 
 В следующей таблице приведены сведения, которые предоставляются отчетом по деталям однорангового сеанса для всех модальностей сеанса.
 
-### Метрики для модальностей
+### <a name="metrics-for-modalities"></a>Метрики для модальностей
 
 <table>
 <colgroup>
@@ -162,17 +200,17 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Modalities</strong> (Модальности)</p></td>
+<td><p><strong>Modalities (Модальности)</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Модальности, использованные в сеансе, например, обмен мгновенными сообщениями или передача файла.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>From user messages</strong> (Сообщения пользователя-инициатора)</p></td>
+<td><p><strong>From user messages (Сообщения пользователя-инициатора)</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Количество сообщений, отправленных пользователем, начавшим сеанс.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>To user messages</strong> (Сообщения пользователя-получателя)</p></td>
+<td><p><strong>To user messages (Сообщения пользователя-получателя)</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Количество сообщений, отправленных пользователем, приглашенным принять участие в сеансе.</p></td>
 </tr>
@@ -180,11 +218,15 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-## Метрики для диагностических отчетов
+</div>
+
+<div>
+
+## <a name="metrics-for-diagnostic-reports"></a>Метрики для диагностических отчетов
 
 В следующей таблице приведены сведения, которые отчет по деталям однорангового сеанса предоставляет для каждого диагностического отчета.
 
-### Метрики для диагностических отчетов
+### <a name="metrics-for-diagnostic-reports"></a>Метрики для диагностических отчетов
 
 <table>
 <colgroup>
@@ -201,35 +243,48 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Detail</strong> (Сведения)</p></td>
+<td><p><strong>Подробности</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>При нажатии этой метрики отображается диагностический отчет для данного сеанса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Reported time</strong> (Время создания отчета)</p></td>
+<td><p><strong>Reported time (Время создания отчета)</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Дата и время создания отчета.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Request</strong> (Запрос)</p></td>
+<td><p><strong>Запрос</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>SIP-тип запроса. Например, INVITE или BYE.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Diagnostic ID</strong> (ИД диагностики)</p></td>
+<td><p><strong>Diagnostic ID (ИД диагностики)</strong></p></td>
 <td><p>Нет</p></td>
-<td><p>Уникальный идентификатор (в виде заголовка ms-diagnostics), добавленный к сообщению SIP, который предоставляет полезные сведения для устранения ошибок.</p></td>
+<td><p>Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Content type</strong> (Тип содержимого)</p></td>
+<td><p><strong>Тип содержимого</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Тип контента мультимедиа, использовавшегося в конференции. Например, распространенным типом контента является Application/sdp. Протокол SDP – это стандартный Интернет-протокол, используемый для объявления о сеансе, приглашения принять участие в сеансе и других форм инициации сеанса мультимедиа.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Reported by</strong> (Сообщил)</p></td>
+<td><p><strong>Reported by (Сообщил)</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Компьютер (клиент или сервер), который сообщил о проблеме.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

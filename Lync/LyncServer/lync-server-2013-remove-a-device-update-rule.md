@@ -1,63 +1,113 @@
-﻿---
-title: Удаление правила обновления устройства
-TOCTitle: Удаление правила обновления устройства
-ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994066(v=OCS.15)
-ms:contentKeyID: 52058299
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Удаление правила обновления устройства'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a Device Update rule
+ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994066(v=OCS.15)
+ms:contentKeyID: 51803977
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3776fe2b80e301e02c099f3c6154afc1c382d0d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823247"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление правила обновления устройства
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="remove-a-device-update-rule-in-lync-server-2013"></a>Удаление правила обновления устройства в Lync Server 2013
 
-Удаление правила обновления устройств приводит к безвозвратному исключению этого правила из очереди обновления устройств.
+</div>
 
-Процедура удаления правила отличается от удаления обновления с устройств в развертывании или с тестовых устройств. Чтобы удалить утвержденное обновление из развертывания, вы *восстанавливаете* правило обновления устройств. Для получения более подробных сведений см. [Восстановление правила обновления устройства](lync-server-2013-restore-a-device-update-rule.md). Чтобы удалить с тестовых устройств обновление, которое не было утверждено, вы выполняете *сброс*. Для получения более подробных сведений см. [Сброс правила обновления устройства](lync-server-2013-reset-a-device-update-rule.md).
+<div id="mainSection">
 
-Можно удалить правило обновления устройства с помощью управления Lync Server или Windows PowerShell.
+<div id="mainBody">
 
-## Порядок удаления правил обновления устройств с помощью управления Lync Server
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+При удалении правила обновления устройства все равно удаляются из очереди обновления устройства.
+
+Удаление правила отличается от удаления обновления с устройств в вашем развертывании или с тестовых устройств. Чтобы удалить одобренное обновление из развертывания, восстановите правило обновления устройства. ** Подробности можно найти [в разделе Восстановление правила обновления устройства в Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md). Для удаления обновления, которое вы еще не утвердили на тестовых устройствах, вы можете *сбросить* его. Подробности можно найти [в разделе Сброс правила обновления устройства в Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).
+
+Вы можете удалить правило обновления устройства с помощью панели управления Lync Server или Windows PowerShell.
+
+<div>
+
+## <a name="to-remove-device-update-rules-by-using-lync-server-control-panel"></a>Удаление правил обновления устройства с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На левой панели навигации щелкните **Клиенты**, затем нажмите кнопку навигации **Обновление устройств**.
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **обновлению устройства** .
 
-4.  На странице **Обновление устройств** выполните одно из следующих действий:
+4.  На странице **обновление устройства** выполните одно из указанных ниже действий.
     
-      - Чтобы удалить одно правило, выберите это правило.
+      - Чтобы удалить одно правило, выберите правило, которое вы хотите удалить.
     
-      - Чтобы удалить все правила, щелкните **Изменить**, а затем щелкните **Выбрать все**.
+      - Чтобы удалить все правила, откройте меню **Правка** и выберите команду **выделить все**.
 
-5.  Щелкните **Изменить** и **Удалить**.
+5.  Нажмите **Изменить**, затем кнопку **Удалить**.
 
-## Удаление правил обновления устройств с помощью командлетов Windows PowerShell
+</div>
 
-Правила обновления устройств можно также удалить с помощью Windows PowerShell и командлета **Remove-CsDeviceUpdateRule**. Этот командлет можно запускать либо из командная консоль Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Порядок удаления одного правила обновления устройств с сервера
+## <a name="removing-device-update-rules-by-using-windows-powershell-cmdlets"></a>Удаление правил обновления устройства с помощью командлетов Windows PowerShell
 
-  - Следующая команда удаляет правило обновления устройств d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 с веб-серверв atl-cs-001.litwareinc.com:
+Кроме того, вы можете удалить правила обновления устройства с помощью Windows PowerShell и командлета **Remove-ксдевицеупдатеруле** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-remove-a-single-device-update-rule-from-a-server"></a>Удаление правила обновления отдельного устройства с сервера
+
+  - Следующая команда удаляет правило обновления устройства d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 с веб-сервера в atl-cs-001.litwareinc.com.
     
         Remove-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
-## Порядок удаления всех правил обновления устройств с сервера
+</div>
 
-  - Эта команда удаляет все правила обновления устройств с веб-сервера atl-cs-001.litwareinc.com:
+<div>
+
+## <a name="to-remove-all-the-device-update-rules-from-a-server"></a>Удаление всех правил обновления устройства с сервера
+
+  - Эта команда удаляет все правила обновления устройства на веб-сервере atl-cs-001.litwareinc.com.
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Remove-CsDeviceUpdateRule
 
-Для получения дополнительных сведений см. раздел справки по командлету [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateRule).
+</div>
 
-## См. также
+Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксдевицеупдатеруле](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateRule) .
 
-#### Задачи
+</div>
 
-[Утверждение правила обновления устройства](lync-server-2013-approve-a-device-update-rule.md)
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Утверждение правила обновления устройства в Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

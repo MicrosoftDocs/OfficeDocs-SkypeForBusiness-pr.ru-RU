@@ -1,24 +1,51 @@
-﻿---
-title: Представление ProgressReport
-TOCTitle: Представление ProgressReport
-ms:assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721857(v=OCS.15)
-ms:contentKeyID: 49888153
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: представление Прогрессрепорт'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ProgressReport view
+ms:assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721857(v=OCS.15)
+ms:contentKeyID: 49733790
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 423d99211a89ef328bc62aca89a9b65141e128ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823597"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Представление ProgressReport
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="progressreport-view-in-lync-server-2013"></a>Прогрессрепорт представления в Lync Server 2013
 
-В представлении ProgressReport хранятся сведения о завершенных сеансах. Отчеты о ходе выполнения записываются только для тех звонков и сеансов, которые Lync Server 2013 определяет как полезные для диагностических целей. Это представление появилось в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-01_
+
+В представлении Прогрессрепорт хранятся сведения о завершенных сеансах. Отчеты о ходе выполнения будут записываться только для звонков и сеансов, которые определяет Lync Server 2013, может быть полезен в целях диагностики. Это представление было представлено в Microsoft Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> Поля ErrorTime, ErrorReportSeq и ProgressReportSeq могут указывать не только на ошибки, но и на сообщения о состоянии звонков или сеансов.
+> Поля Еррортиме, Ерроррепортсек и Прогрессрепортсек не обязательно ссылаются на ошибки, а также на сообщения, указывающие на состояние вызовов или сообщений.
+
+
+
+</div>
 
 
 <table>
@@ -31,55 +58,66 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Сведения</th>
+<th>Подробности</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ErrorTime</strong></p></td>
+<td><p><strong>Еррортиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время, когда произошла ошибка. В сочетании со значением ErrorReportSeq уникально идентифицирует ошибку.</p></td>
+<td><p>Время возникновения ошибки. Используется в сочетании с Ерроррепортсек для уникальной идентификации ошибки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ErrorReportSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Идентификационный номер ошибки. В сочетании со значением ErrorTime уникально идентифицирует ошибку.</p></td>
+<td><p><strong>Ерроррепортсек</strong></p></td>
+<td><p>целое</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации ошибки. Используется в сочетании с Еррортиме для уникальной идентификации ошибки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ProgressReportSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Идентификатор отчета о ходе выполнения. Используется для различения отчетов о ходе выполнения в рамках одного отчета об ошибках.</p></td>
+<td><p><strong>Прогрессрепортсек</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Идентификатор для идентификации отчета о ходе выполнения. Используется, чтобы отличать отчеты о ходе выполнения одного отчета об ошибках.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MsDiagId</strong></p></td>
-<td><p>int</p></td>
-<td><p>ИД диагностики для отчета об ошибках.</p></td>
+<td><p><strong>Мсдиагид</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Идентификатор диагностики для отчета об ошибке.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Source</strong></p></td>
+<td><p><strong>Источник</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Имя сервера, на котором произошла ошибка (если отчет был отправлен компонентом сервера).</p></td>
+<td><p>Имя сервера, отправившего ошибку (при отправке отчета из серверного компонента).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Application</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Имя приложения, в котором произошла ошибка (если отчет был отправлен компонентом сервера).</p></td>
+<td><p>Имя приложения, которое поступило об ошибке (при отправке отчета из серверного компонента).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TelemetryId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>Уникальный идентификатор, коррелирующий данные о времени присоединения к конференции разных компонентов, задействованных в ней.</p></td>
+<td><p><strong>Телеметрид</strong></p></td>
+<td><p>идентификатора</p></td>
+<td><p>Уникальный идентификатор, соответствующий сведениям о времени соединения для различных компонентов, участвующих в Конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSetupTime</strong></p></td>
-<td><p>int</p></td>
-<td><p>Время (в миллисекундах), требуемое определенному компоненту для присоединения к конференции.</p></td>
+<td><p><strong>Сессионсетуптиме</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Время (в миллисекундах), требуемое конкретным компонентом для присоединения к Конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MsDiagHeader</strong></p></td>
-<td><p>varchar(max)</p></td>
+<td><p><strong>Мсдиагхеадер</strong></p></td>
+<td><p>varchar (max)</p></td>
 <td><p>Дополнительные сведения об ошибке.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

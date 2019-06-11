@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: планирование маршрутизации на основе местоположения'
-TOCTitle: Планирование маршрутизации на основе местоположения
-ms:assetid: bb035924-6b52-4f0f-8e05-b76864fb9ef3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994068(v=OCS.15)
-ms:contentKeyID: 52058327
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование маршрутизации на основе местоположения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Location-Based Routing
+ms:assetid: bb035924-6b52-4f0f-8e05-b76864fb9ef3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994068(v=OCS.15)
+ms:contentKeyID: 51803979
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3873e8710d6ab70212de7780ef5f34d1436df1d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824794"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование маршрутизации на основе местоположения в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-07-31_
+# <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Планирование маршрутизации на основе местоположения в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-07-31_
 
 Сведения, представленные в данной теме, относятся к накопительным обновлениям для Lync Server 2013: февраль 2013 г.
 
-Функция маршрутизации на основе местоположения позволяет задать ограничения для маршрутизации звонков между конечными точками VoIP и ТСОП на основе местоположения абонентов. Эта функция входит в состав инфраструктуры Lync Server 2013корпоративной голосовой связи. Маршрутизация на основе местоположения – функция управления звонками, которая определяет порядок их маршрутизации на Lync Server 2013 CU1. Она позволяет установить правила авторизации звонков, определяющие, может ли звонок быть маршрутизирован на конечные точки АТС или ТСОП исходя из географического местоположения звонящего абонента Lync.
+Маршрутизация на основе местоположения позволяет ограничить маршрутизацию звонков между конечными точками VoIP и КОММУТИРУЕМыми конечными точками, основываясь на местоположении сторон в звонке. Маршрутизация на основе местоположения входит в корпоративную инфраструктуру голосовой связи Lync Server 2013. Маршрутизация на основе местоположения — это функция управления звонками, определяющая способ маршрутизации звонков Lync Server 2013 CU1. Он принудительно устанавливает правила авторизации вызовов для направления звонков в конечные точки УАТС или PSTN, основываясь на географическом расположении вызывающего абонента Lync.
 
-## Содержание
+<div>
 
-  - [Обзор маршрутизации на основе расположения в Lync Server 2013](lync-server-2013-overview-of-location-based-routing.md)
+## <a name="in-this-section"></a>Содержание
+
+  - [Обзор маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-overview-of-location-based-routing.md)
 
   - [Инструкции по маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
 
@@ -35,11 +57,27 @@ _**Дата изменения раздела:** 2013-07-31_
 
   - [Процесс развертывания функции маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-deployment-process-for-location-based-routing.md)
 
-  - [Маршрутизация на основе расположения для конференций в Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md)
+  - [Маршрутизация на основе местоположения для конференц-связи в Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md)
 
-## См. также
+</div>
 
-#### Концепции
+<div>
 
-[Планирование корпоративной голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
+## <a name="see-also"></a>См. также
+
+
+[Планирование для корпоративного голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

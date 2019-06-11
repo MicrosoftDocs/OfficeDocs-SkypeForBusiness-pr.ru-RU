@@ -1,26 +1,53 @@
-﻿---
-title: Представление Media
-TOCTitle: Представление Media
-ms:assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687981(v=OCS.15)
-ms:contentKeyID: 49887885
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: представление мультимедиа'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media view
+ms:assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687981(v=OCS.15)
+ms:contentKeyID: 49733570
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1ec4b80cc790068029a286a54d26a59a35fc125
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827300"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Представление Media
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="media-view-in-lync-server-2013"></a>Представление мультимедиа в Lync Server 2013
 
-В представлении "Мультимедиа" хранятся данные об одном типе мультимедийных данных, используемых в одноранговом сеансе. Один сеанс может быть представлен несколькими записями в таблице, если используется более одного типа мультимедиа. Это представление впервые реализовано в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-01_
+
+В представлении мультимедиа хранятся сведения о одном типе мультимедиа, используемом в одноранговых сеансах. Один сеанс будет представлен в таблице несколькими записями, если используется более одного типа мультимедиа. Это представление было представлено в Microsoft Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> Представление &quot;Мультимедиа&quot; не используется для расчета продолжительности воспроизведения мультимедиа в ходе сеанса. На представлении отображены сведения о сигнале для обмена мультимедиа в рамках сеанса. Обмен мультимедиа осуществляется с помощью запроса INVITE, а значение StartTime определяет время отправки запроса INVITE. Время приглашения может не совпадать с временем начала воспроизведения мультимедиа, поскольку воспроизведение мультимедиа начинается только после подтверждения приема сеанса.
+> Представление мультимедиа не следует использовать для расчета длительности мультимедиа для сеанса. В этом представлении содержатся сведения о сигналах обмена мультимедийными данными в сеансе. Обмен мультимедийными данными выполняется запросом приглашения, а StartTime указывает время отправки приглашения. Время приглашения не обязательно означает время начала воспроизведения мультимедиа, так как средство мультимедиа запускается только после принятия сеанса.
 
-На представлении "Мультимедиа" помимо перечисленных ниже столбцов отображаются также все столбцы в [Представление SessionDetails](lync-server-2013-sessiondetails-view.md).
+
+
+</div>
+
+В представлении мультимедиа содержатся все столбцы в [представлении сессиондетаилс в Lync Server 2013](lync-server-2013-sessiondetails-view.md) в дополнение к указанным ниже.
 
 
 <table>
@@ -33,25 +60,36 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробные сведения</th>
+<th>Подробности</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Мультимедиа</strong></p></td>
+<td><p><strong>Media</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Тип мультимедиа. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialist-table.md">Таблица MediaList в Lync Server 2013</a>.</p></td>
+<td><p>Тип мультимедиа. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialist-table.md">таблицей медиалист в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MediaStartTime</strong></p></td>
+<td><p><strong>Медиастарттиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Время отправки запроса мультимедиа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediaEndTime</strong></p></td>
+<td><p><strong>Медиаендтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Время окончания сеанса.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

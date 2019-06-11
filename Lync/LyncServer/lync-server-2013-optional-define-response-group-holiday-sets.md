@@ -1,30 +1,59 @@
-﻿---
-title: (Необязательно) определение набора праздников группы ответа в Lync Server 2013
-TOCTitle: (Необязательно) определение набора праздников группы ответа в Lync Server 2013
-ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688063(v=OCS.15)
-ms:contentKeyID: 49887997
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (необязательно) Определение наборов праздников группы ответа'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Define Response Group holiday sets
+ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688063(v=OCS.15)
+ms:contentKeyID: 49733657
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ca58b3e2c17ea70e9af7a9eba48df8582b1485c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825718"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Необязательно) определение набора праздников группы ответа в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-02-07_
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Необязательно Определение наборов праздников группы ответа в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-02-07_
 
 Параметры праздников служат для определения дней, в которые группа ответа закрыта для использования, а также для определения действия в эти дни. Набор праздников — это коллекция праздников, которая применяется к группе ответа.
+
+<div>
+
 
 > [!NOTE]  
 > Если рабочий процесс определяется как управляемый рабочий процесс, пользователь, которому была назначена роль CsResponseGroupManager, может изменять праздники для управляемых им рабочих процессов.
 
-## Чтобы создать набор праздников
+
+
+</div>
+
+<div>
+
+## <a name="to-create-a-holiday-set"></a>Чтобы создать набор праздников
 
 1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 3.  Для каждого праздника, который следует определить, выполните следующую команду:
     
@@ -40,15 +69,30 @@ _**Дата изменения раздела:** 2014-02-07_
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
         New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
 
-## См. также
+</div>
 
-#### Концепции
+<div>
 
-[Создание или изменения рабочего процесса сервисной группы в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+## <a name="see-also"></a>См. также
+
+
+[Создание или изменение рабочего процесса группы слежения в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Создание или изменение интерактивного рабочего процесса в Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
-#### Другие ресурсы
 
-[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
-[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
+[New-Ксргшолидай](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

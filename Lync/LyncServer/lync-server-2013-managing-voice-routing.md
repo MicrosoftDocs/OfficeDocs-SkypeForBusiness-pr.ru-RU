@@ -1,39 +1,76 @@
-﻿---
-title: 'Lync Server 2013: управление маршрутизацией голосовой связи'
-TOCTitle: Управление маршрутизацией голосовой связи
-ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182596(v=OCS.15)
-ms:contentKeyID: 49311362
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление маршрутизацией голосовой связи'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing voice routing
+ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182596(v=OCS.15)
+ms:contentKeyID: 48185554
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cbfdaa2359493941e2bde6cbbfcb857b75071c5f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827615"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление маршрутизацией голосовой связи в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="managing-voice-routing-in-lync-server-2013"></a>Управление маршрутизацией голосовой связи в Lync Server 2013
 
-Статьи в этом разделе содержат пошаговые процедуры для задач, которые можно выполнять с помощью группы **Voice Routing** (Маршрутизация голосовых вызовов) в панели управления Lync Server.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Определение правил трансляции и нормализации в Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+В этой статье приведены пошаговые инструкции для задач, которые можно выполнить с помощью группы **маршрутизации голосовых команд** на панели управления Lync Server.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Определение правил перевода и правил нормализации в Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
   - [Конфигурация магистралей в Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  - [Настройка политик голосовой связи, записей использования ТСОП и маршрутов голосовых вызовов в Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [Настройка политик голосовой связи, записей использования КТСОП и голосовых маршрутов в Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
   - [Настройка абонентских групп в Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
-## См. также
+</div>
 
-#### Концепции
+<div>
 
-[Планирование корпоративной голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+## <a name="see-also"></a>См. также
 
-#### Другие ресурсы
 
-[Управление функциями управления звонками в Lync Server 2013](lync-server-2013-managing-call-management-features.md)
+[Планирование для корпоративного голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+
+
+[Управление функциями управления звонками в Lync Server 2013](lync-server-2013-managing-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

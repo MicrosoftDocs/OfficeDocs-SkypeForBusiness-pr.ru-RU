@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: управление категориями, чатами и надстройками'
-TOCTitle: Управление категориями, чатами и надстройками
-ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412799(v=OCS.15)
-ms:contentKeyID: 49310806
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление категориями, чатами и надстройками'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing categories, rooms, and add-ins
+ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)
+ms:contentKeyID: 48185100
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2870d83d463866e07afdffab7c0a840bb2686928
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828084"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление категориями, чатами и надстройками в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-06_
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Управление категориями, чатами и надстройками в Lync Server 2013
 
-Для создания категорий и надстроек администраторы сохраняемый сеанс беседы могут использовать страницу **сохраняемый сеанс беседы** в панели управления Lync Server 2013 или командлеты Windows PowerShell. Для управления комнатами сохраняемый сеанс беседы администраторы могут использовать командлеты Windows PowerShell. Если поддержка SIP включена, то администраторы сохраняемый сеанс беседы также могут использовать клиент Lync для открытия веб-страницы, используемой для создания комнат чата и управления ими.
+</div>
 
-В следующих разделах описывается создание категорий и чатов и работа с ними.
+<div id="mainSection">
 
-## Содержание
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-06_
+
+В панели управления Lync Server 2013 или с помощью командлетов Windows PowerShell для создания категорий и надстроек можно использовать **** страницу сохраняемого чата. Для управления сохраняемыми комнатами чата администраторы могут использовать командлеты Windows PowerShell. Кроме того, если администратор постоянного чата также поддерживает SIP, он может использовать клиент Lync, чтобы открыть веб-страницу для создания комнат чата и управления ими.
+
+В следующих разделах описано, как создавать и работать с категориями и комнатами чата.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Создание или редактирование новой категории в Lync Server 2013](lync-server-2013-creating-or-editing-a-new-category.md)
 
@@ -36,4 +58,16 @@ _**Дата изменения раздела:** 2012-10-06_
   - [Удаление чата или категории в Lync Server 2013](lync-server-2013-deleting-a-chat-room-or-category.md)
 
   - [Удаление сообщения или удаление устаревших сообщений в Lync Server 2013](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

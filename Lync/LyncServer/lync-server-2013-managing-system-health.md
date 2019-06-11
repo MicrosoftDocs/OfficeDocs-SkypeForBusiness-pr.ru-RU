@@ -1,19 +1,49 @@
-﻿---
-title: 'Lync Server 2013: управление работоспособностью системы'
-TOCTitle: Управление работоспособностью системы
-ms:assetid: b7d653ff-0b7a-4d27-97e8-63f87c9be62f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412897(v=OCS.15)
-ms:contentKeyID: 49310952
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: управление работоспособностью системы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing system health
+ms:assetid: b7d653ff-0b7a-4d27-97e8-63f87c9be62f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412897(v=OCS.15)
+ms:contentKeyID: 48185201
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e48b31d063ca00c7b247c53d1e51b536a9b0bd8e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827755"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление работоспособностью системы в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="managing-system-health-in-lync-server-2013"></a>Управление работоспособностью системы в Lync Server 2013
 
-Управление работоспособностью системы и ее мониторинг встроены в общую систему управления работоспособностью и мониторинга Lync Server 2013. Дополнительные сведения см. в разделе [Настройка системы проверки работоспособности в Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+Управление состоянием и мониторинг работоспособности системы встроено в общее управление здоровьем и мониторинг в Lync Server 2013. Подробные сведения можно найти [в разделе Конфигурация работоспособности в Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

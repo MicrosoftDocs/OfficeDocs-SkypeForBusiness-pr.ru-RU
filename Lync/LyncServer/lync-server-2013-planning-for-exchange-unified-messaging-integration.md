@@ -1,35 +1,57 @@
-﻿---
-title: "Lync Server 2013: план интеграции единой системы обмена сообщениями Exchange"
-TOCTitle: Планирование интеграции единой системы обмена сообщениями Exchange
-ms:assetid: e7c63a71-2d99-4aa9-b649-36c1a431bdf1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399031(v=OCS.15)
-ms:contentKeyID: 49311510
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование интеграции единой системы обмена сообщениями Exchange'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Exchange Unified Messaging integration
+ms:assetid: e7c63a71-2d99-4aa9-b649-36c1a431bdf1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399031(v=OCS.15)
+ms:contentKeyID: 48185880
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: de7f3bc9a3e8a1330fc1a142c491e22a4407f104
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824864"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование интеграции единой системы обмена сообщениями Exchange в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>Планирование интеграции единой системы обмена сообщениями Exchange в Lync Server 2013
 
-Система Lync Server 2013 поддерживает интеграцию с единой системой обмена сообщениями Exchange для объединения голосовых сообщений и сообщений электронной почты в единую инфраструктуру обмена сообщениями. В Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) и Microsoft Exchange Server 2010единая система обмена сообщениями Exchange является одной из нескольких ролей сервера Exchange, доступных вам для установки и настройки.
+</div>
 
-В Microsoft Exchange Server 2013единая система обмена сообщениями Exchange выполняется в качестве службы на сервере почтовых ящиков Exchange. Для развертываний корпоративной голосовой связи системы Lync Server 2013 единая система обмена сообщениями объединяет голосовые сообщения и сообщения электронной почты в одном хранилище, доступ к которому можно получить как с телефона (посредством голосового доступа к Outlook), так и с компьютера. Единая система обмена сообщениями и система Lync Server 2013 работают вместе для того, чтобы предоставить службы автоответчика, голосового доступа к Outlook и автосекретаря пользователям корпоративной голосовой связи.
+<div id="mainSection">
 
-Дополнительные сведения об изменениях архитектуры Microsoft Exchange Server 2013 см. в разделе «Изменения архитектуры голосовой связи» в документации Microsoft Exchange Server 2013 по адресу [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730).
+<div id="mainBody">
 
-Чтобы обеспечить поддержку этих компонентов в локальном развертывании единой системы обмена сообщениями Exchange, вам следует использовать один из следующих продуктов:
+<span> </span>
 
-  - Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) или с последним пакетом обновления
+_**Тема последнего изменения:** 2012-10-13_
 
-  - Microsoft Exchange Server 2010 или с последним пакетом обновления
+Lync Server 2013 поддерживает интеграцию с единой системой обмена сообщениями Exchange (UM) для комбинирования голосовой почты и обмена сообщениями в одной инфраструктуре обмена сообщениями. В Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) и Microsoft Exchange Server 2010 сервер единой системы обмена сообщениями Exchange (UM) — это одна из нескольких ролей Exchange Server, которые можно установить и настроить.
+
+В Microsoft Exchange Server 2013 служба единой системы обмена сообщениями работает в качестве службы сервера почтовых ящиков Exchange. Для корпоративных развертываний на Lync Server 2013, единая система обмена сообщениями объединяет голосовую почту и сообщения электронной почты в едином магазине, доступном с телефона (голосовой доступ к Outlook) или на компьютере. Единая система обмена сообщениями и Lync Server 2013 работают вместе для обеспечения ответа на звонки, голосового доступа к Outlook и служб автоматического ассистента для пользователей корпоративной голосовой связи.
+
+Дополнительные сведения об изменениях архитектуры в Microsoft Exchange Server 2013 можно найти в разделе "изменения архитектуры голосовой связи" в документации по Microsoft Exchange Server 2013 [http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)по адресу.
+
+Для того чтобы эти функции поддерживались в локальной среде Exchange UM, необходимо выполнить одно из следующих действий:
+
+  - Microsoft Exchange Server 2007 с пакетом обновления 1 (SP1) или последний пакет обновления
+
+  - Microsoft Exchange Server 2010 или последний пакет обновления
 
   - Microsoft Exchange Server 2013
 
-## Содержание
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Функции интегрированной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md)
 
@@ -38,4 +60,16 @@ _**Дата изменения раздела:** 2016-12-08_
   - [Рекомендации по интеграции локальной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
   - [Процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

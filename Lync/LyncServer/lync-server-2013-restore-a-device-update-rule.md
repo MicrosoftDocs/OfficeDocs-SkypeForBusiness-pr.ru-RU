@@ -1,58 +1,111 @@
-﻿---
-title: Восстановление правила обновления устройства
-TOCTitle: Восстановление правила обновления устройства
-ms:assetid: ac490baf-c7a0-48d9-8fd0-ba5729489341
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994061(v=OCS.15)
-ms:contentKeyID: 52058298
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: восстановление правила обновления устройства'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restore a Device Update rule
+ms:assetid: ac490baf-c7a0-48d9-8fd0-ba5729489341
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994061(v=OCS.15)
+ms:contentKeyID: 51803972
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 90eeb82e710b6ea65bc32184685497494dbef8d6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823093"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Восстановление правила обновления устройства
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="restore-a-device-update-rule-in-lync-server-2013"></a>Восстановление правила обновления устройства в Lync Server 2013
 
-Чтобы удалить правило обновления устройств с устройств, входящих в развертывание, восстановите его. Восстановление правила обновления устройств приводит к удалению обновления и восстановлению предыдущей версии этого правила.
+</div>
 
-Можно восстановить правило обновления устройств с помощью управления Lync Server или Windows PowerShell.
+<div id="mainSection">
 
-## Порядок восстановления правил обновления устройств с помощью управления Lync Server
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Чтобы удалить правило обновления устройства с устройств в развертывании, восстановите его. При восстановлении правила обновления для устройства удаляется и переустанавливается Предыдущая версия правила.
+
+Вы можете восстановить правило обновления устройства с помощью панели управления Lync Server или Windows PowerShell.
+
+<div>
+
+## <a name="to-restore-device-update-rules-by-using-lync-server-control-panel"></a>Восстановление правил обновления устройства с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На левой панели навигации щелкните **Клиенты**, затем нажмите кнопку навигации **Обновление устройств**.
+3.  На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Навигация по **обновлению устройства** .
 
-4.  На странице **Обновление устройств** выполните одно из следующих действий:
+4.  На странице **обновление устройства** выполните одно из указанных ниже действий.
     
       - Чтобы восстановить одно правило, выберите это правило.
     
-      - Чтобы восстановить все правила, щелкните **Изменить**, а затем щелкните **Выбрать все**.
+      - Чтобы восстановить все правила, нажмите кнопку **изменить**, а затем выберите команду **выделить все**.
 
-5.  Щелкните меню **Действие** и выберите пункт **Восстановить**.
+5.  Откройте меню **действия** , а затем выберите команду **восстановить**.
 
-## Восстановление правил обновления устройств с помощью командлетов Windows PowerShell
+</div>
 
-Правила обновления устройств также можно восстановить с помощью Windows PowerShell и командлета **Restore-CsDeviceUpdateRule**. Этот командлет можно запускать из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell.
+<div>
+
+## <a name="restoring-device-update-rules-by-using-windows-powershell-cmdlets"></a>Восстановление правил обновления устройства с помощью командлетов Windows PowerShell
+
+Кроме того, вы можете восстановить правила обновления устройства с помощью Windows PowerShell и командлета **RESTORE-ксдевицеупдатеруле** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell &quot;Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell&quot; по адресу <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>.
+> Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.
 
-## Порядок восстановления одного правила обновления устройств на сервере
 
-  - Следующая команда восстанавливает правило обновления устройств d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 на веб-сервере atl-cs-001.litwareinc.com:
+
+</div>
+
+<div>
+
+## <a name="to-restore-a-single-device-update-rule-on-a-server"></a>Восстановление отдельного правила обновления устройства на сервере
+
+  - Следующая команда восстанавливает правило обновления устройства d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 на веб-сервере atl-cs-001.litwareinc.com:
     
         Restore-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
-## Порядок восстановления всех правил обновления устройств на сервере
+</div>
+
+<div>
+
+## <a name="to-restore-all-the-device-update-rules-on-a-server"></a>Восстановление всех правил обновления устройства на сервере
 
   - Эта команда восстанавливает все правила обновления устройств на веб-сервере atl-cs-001.litwareinc.com:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
-Для получения дополнительных сведений см. раздел справки по командлету [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Restore-CsDeviceUpdateRule).
+</div>
+
+Дополнительные сведения можно найти в разделе справки по командлету [RESTORE-ксдевицеупдатеруле](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

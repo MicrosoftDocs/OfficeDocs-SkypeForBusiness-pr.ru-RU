@@ -1,87 +1,134 @@
-﻿---
-title: Перемещение групп ответа в новый пул
-TOCTitle: Перемещение групп ответа в новый пул
-ms:assetid: da0db765-41e5-430b-b5a7-5418ec5ff2a7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205298(v=OCS.15)
-ms:contentKeyID: 49311346
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: перемещение групп ответов в новый пул'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Moving response groups to a new pool
+ms:assetid: da0db765-41e5-430b-b5a7-5418ec5ff2a7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205298(v=OCS.15)
+ms:contentKeyID: 48185538
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e682ce99826cd5b9f2812c358e1028bfb491ddef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826691"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Перемещение групп ответа в новый пул
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="moving-response-groups-to-a-new-pool-in-lync-server-2013"></a>Перемещение групп ответа в новый пул в Lync Server 2013
 
-Lync Server 2013 обеспечивает поддержку нового командлета для переноса групп ответа из одного пула в другой, даже если полное имя домена отличается.
+</div>
 
-Ниже представлена процедура перемещения групп ответа из одного пула переднего плана в другой пул переднего плана с другим полным доменным именем.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+Lync Server 2013 предлагает новую поддержку командлетов для перемещения групп ответов из одного пула в другой, даже если полное доменное имя (FQDN) отличается.
+
+Выполните действия, описанные в приведенной ниже процедуре, для перемещения групп ответов из пула переднего плана в другой пул переднего плана с другим полным доменным именем.
+
+<div>
+
 
 > [!NOTE]  
-> В среде сосуществования можно перемещать группы ответа только между пулами переднего планаLync Server 2013.
+> В среде сосуществования вы можете перемещать группы ответов только между пулами интерфейсов внешних&nbsp;интерфейсов Lync Server 2013.
 
-## Перемещение группы ответа в пул с другими полным доменным именем
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Экспортируйте группу ответа в исходном пуле. В командной строке введите:
+</div>
+
+<div>
+
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>Перемещение групп ответа в пул с другим полным доменным именем
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+
+2.  Экспортируйте группы ответов в исходном пуле. В командной строке введите следующую команду:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
-    Пример:
+    Например:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    Чтобы удалить группы ответа из исходного пула во время экспорта, включите в команду параметр –RemoveExportedConfiguration. Пример:
+    Чтобы удалить группы ответов из исходного пула во время экспорта, включите параметр – Ремовикспортедконфигуратион. Например:
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  Импортируйте группы ответа в конечный пул и назначьте конечный пул новому владельцу. В командной строке введите:
+3.  Импортируйте группы ответа в целевой пул и назначьте пул назначения в качестве нового владельца. В командной строке выполните следующую команду:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    Если вы также хотите скопировать параметры ответа уровня приложения из исходного пула в целевой пул, включите параметр –ReplaceExistingSettings. Для каждого пула можно указать только один набор параметров уровня приложения. Если вы копируете параметры уровня приложения из исходного пула в целевой пул, параметры из исходного пула заменяют параметры целевого пула. Если вы не копируете параметры из исходного пула, к импортируемым группам ответа применяются существующие параметры из целевого пула.
+    Если вы также хотите скопировать параметры уровня приложения группы ответа из исходного пула в конечный пул, добавьте параметр – Реплацеексистингргссеттингс. Для каждого пула можно задать на уровне приложения только один набор параметров. При копировании параметров уровня приложения из исходного пула в конечный пул параметры из исходного пула заменяют параметры для целевого пула. Если вы не копируете параметры уровня приложения из исходного пула, в импортированных группах ответа применяются существующие параметры из целевого пула.
     
-    Пример:
+    Например:
     
-        Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
+        Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingRgsSettings
     
-    > [!NOTE]  
-    > Параметры уровня приложения включают конфигурацию музыки, воспроизводимой при удержании, по умолчанию, аудиофайл для воспроизведения при удержании по умолчанию, длительность периода обратного вызова и контекст вызова. Чтобы просмотреть эти параметры конфигурации, выполните командлет <strong>Get-CsRgsConfiguration</strong>. Для получения более подробных сведений об этом командлете см. <a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>.
+    <div>
+    
 
-4.  Убедитесь, что импорт выполнен успешно, просмотрев импортированную конфигурацию группы ответа. Для этого выполните следующие действия:
+    > [!NOTE]  
+    > Параметры уровня приложения включают стандартную конфигурацию хранения музыки, используемую по умолчанию в качестве звукового файла для хранения музыки, агент рингбакк льготный период и контекстную конфигурацию вызова. Чтобы просмотреть эти параметры конфигурации, запустите командлет <STRONG>Get-ксргсконфигуратион</STRONG> . Подробнее об этом командлете можно узнать в <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">статьях Get-ксргсконфигуратион</A>.
+
     
-      - Убедитесь, что импортированы все рабочие процессы. В командной строке введите следующую команду:
+    </div>
+
+4.  Убедитесь, что импорт прошел успешно, отображая импортированную конфигурацию группы ответа следующим образом.
+    
+      - Убедитесь, что все рабочие процессы импортированы. В командной строке введите следующую команду:
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Убедитесь, что импортированы все очереди. В командной строке введите следующую команду:
+      - Убедитесь, что все очереди импортированы. В командной строке введите следующую команду:
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Убедитесь, что импортированы все группы агентов. В командной строке введите следующую команду:
+      - Убедитесь, что все группы агента импортированы. В командной строке введите следующую команду:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Убедитесь, что импортированы все часы работы. В командной строке введите следующую команду:
+      - Убедитесь, что все деловые часы были импортированы. В командной строке введите следующую команду:
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<destination pool FQDN>" 
     
-      - Убедитесь, что импортированы все наборы выходных. В командной строке введите следующую команду:
+      - Убедитесь, что все наборы праздников импортированы. В командной строке введите следующую команду:
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  Убедитесь, что импорт выполнен успешно, позвонив в одну из групп ответа и убедившись, что вызов обрабатывается правильно.
+5.  Убедитесь, что импорт выполнен успешно, поместив вызов в одну из групп ответа и подтверждаю, что вызов обрабатывается правильно.
 
-6.  Попросите агентов, которые являются участниками формальных групп агентов, войти в свои группы в конечном пуле.
+6.  Агенты запросов, являющиеся членами формальных групп агента, для входа в группы агента в целевом пуле.
 
-7.  Если группы ответа не удалялись из исходного пула в ходе процедуры, удалите их из него. В командной строке введите:
+7.  Если вы ранее не удалили группы ответов из исходного пула, удалите группы ответов из исходного пула. В командной строке введите следующую команду:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     
-    Пример:
+    Например:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -RemoveExportedConfiguration -FileName "C:\TempRGsConfiguration.zip"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

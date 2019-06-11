@@ -1,37 +1,79 @@
-﻿---
-title: Управление политикой расположения в Lync Server 2013
-TOCTitle: Управление политикой расположения в Lync Server 2013
-ms:assetid: 59742679-7e3d-4f1d-8992-a4720b7a123a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688069(v=OCS.15)
-ms:contentKeyID: 49888004
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Управление политикой расположения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing location policy
+ms:assetid: 59742679-7e3d-4f1d-8992-a4720b7a123a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688069(v=OCS.15)
+ms:contentKeyID: 49733663
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7fe7194ca51eda25d32a7139689a653a267d8359
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827972"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Управление политикой расположения в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-15_
+# <a name="managing-location-policy-in-lync-server-2013"></a>Управление политикой расположения в Lync Server 2013
 
-Используйте процедуры, приведенные в этом разделе, для управления политикой расположения Lync Server 2013 в группе **Конфигурация сети** на панели управления Lync Server.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Просмотр сведений о политике расположения](lync-server-2013-viewing-location-policy-information.md)
+<div id="mainBody">
 
-  - [Создание или изменение политики расположения](lync-server-2013-creating-or-modifying-a-location-policy.md)
+<span> </span>
 
-  - [Удаление политики расположения](lync-server-2013-deleting-a-location-policy.md)
+_**Тема последнего изменения:** 2012-10-15_
 
-## Связанные разделы
+С помощью описанных в этом разделе процедур вы можете управлять политикой расположения Lync Server 2013 в группе **Конфигурация сети** на панели управления Lync Server.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Просмотр сведений о политике местоположений в Lync Server 2013](lync-server-2013-viewing-location-policy-information.md)
+
+  - [Создание и изменение политики расположения в Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)
+
+  - [Удаление политики расположения в Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Связанные разделы
 
 [Планирование чрезвычайных служб (E9-1-1) в Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-## См. также
+</div>
 
-#### Концепции
+<div>
 
-[Определение политики расположения для Lync Server 2013](lync-server-2013-defining-the-location-policy.md)
+## <a name="see-also"></a>См. также
+
+
+[Определение политики расположения для Lync Server 2013](lync-server-2013-defining-the-location-policy.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

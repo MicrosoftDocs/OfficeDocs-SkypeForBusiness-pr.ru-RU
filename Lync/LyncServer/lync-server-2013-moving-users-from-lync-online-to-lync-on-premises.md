@@ -1,26 +1,63 @@
-﻿---
-title: "Lync Server 2013: перемещение польз. из Lync Online в локальное развертывание"
-TOCTitle: "Lync Server 2013: перемещение польз. из Lync Online в локальное развертывание"
-ms:assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn689117(v=OCS.15)
-ms:contentKeyID: 62247365
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: перемещение пользователей из Lync Online в локальное Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Moving users from Lync Online to Lync on-premises
+ms:assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689117(v=OCS.15)
+ms:contentKeyID: 62258122
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dce09e0f4c71ae4c341546ac73999384ffce5d1b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826579"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Перемещение пользователей из Lync Online в локальное развертывание Lync в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-05-08_
+# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Перемещение пользователей из Lync Online в локальное в Lync Server 2013
 
-Ваша организация развернула Lync Online, раньше никогда не развертывая Lync Server локально? И теперь вы бы хотели переместить учетные записи пользователей, которые изначально были включены для Lync в Lync Online в свое локальное развертывание Lync Server? Этот раздел может помочь это сделать.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-05-08_
+
+Была ли ваша организация развертывает Lync Online до того, как она была развернута локально в Lync Server? И теперь вы хотите переместить учетные записи пользователей, изначально включенные для Lync в Lync Online, в локальное развертывание Lync Server? Соответствующая процедура приведена в этом разделе.
+
+<div>
+
 
 > [!NOTE]  
-> Этот раздел посвящен только перемещению пользователей, которые изначально были включены для Lync в Lync Online. Возможно, у вас есть учетные записи пользователей, которые сначала были включены для локального развертывания Lync, а затем перенесены в Lync Online? Если это так и вы хотите переместить их обратно в локальное развертывание, этот процесс прост: <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Администрирование пользователей в гибридном развертывании Lync Server 2013</a>.
+> Этот раздел относится только к перемещению пользователей, изначально включенных в Lync в Lync Online. Возможно, у вас есть учетные записи пользователей, для которых предварительно разрешено локальное Lync, а затем вы перешли на Lync Online? Если да, и вы хотите переместить их обратно в локально, процесс будет прост: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Администрирование пользователей в гибридном развертывании Lync Server 2013</A>.
 
-  - [Первые действия перед началом переноса пользователей из Lync Online в локальное развертывание Lync](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
 
-  - [Миграция пользователей Lync Online в локальное развертывание Lync](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
+
+</div>
+
+  - [Прежде чем приступить к переносу пользователей из Lync Online в локальную версию Lync в Lync Server 2013, выполните указанные ниже действия.](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
+
+  - [Миграция пользователей Lync Online в локальное Lync в Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

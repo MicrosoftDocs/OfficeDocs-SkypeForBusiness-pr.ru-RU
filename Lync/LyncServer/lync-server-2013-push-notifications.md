@@ -1,33 +1,71 @@
-﻿---
-title: Push-уведомления
-TOCTitle: Push-уведомления
-ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687991(v=OCS.15)
-ms:contentKeyID: 49887899
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Push-уведомления'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Push notifications
+ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687991(v=OCS.15)
+ms:contentKeyID: 49733581
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97c1575ffb7a4cf1e53aa5006b8196fe4e0666d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Push-уведомления
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="push-notifications-in-lync-server-2013"></a>Push-уведомления в Lync Server 2013
 
-Управление push-уведомлениями осуществляется в разделе **Клиенты** в панели управления Lync Server 2013.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Включение и отключение push-уведомлений для iPhone](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+<div id="mainBody">
 
-  - [Включение или отключение push-уведомлений для телефонов Windows](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+<span> </span>
 
-  - [Просмотр сведений о параметрах push-уведомлений](lync-server-2013-viewing-information-about-push-notification-settings.md)
+_**Тема последнего изменения:** 2012-10-19_
 
-## См. также
+Вы можете управлять Push-уведомлениями в разделе " **Клиенты** " панели управления Lync Server 2013.
 
-#### Задачи
+<div>
 
-[Настройка для использования push-уведомлений в Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+## <a name="in-this-section"></a>Содержание
+
+  - [Включение и отключение push-уведомлений для iPhone в Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+
+  - [Включение и отключение push-уведомлений для телефонов с Windows в Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+
+  - [Просмотр сведений о параметрах push-уведомлений в Lync Server 2013](lync-server-2013-viewing-information-about-push-notification-settings.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Настройка для использования push-уведомлений в Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: Представление McuJoinsAndLeaves
-TOCTitle: Представление McuJoinsAndLeaves
-ms:assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688088(v=OCS.15)
-ms:contentKeyID: 49888037
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: представление Мкужоинсандлеавес'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: McuJoinsAndLeaves view
+ms:assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688088(v=OCS.15)
+ms:contentKeyID: 49733687
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7592879a1c6c6cc6bbcac54fd843046b69acee83
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827573"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Представление McuJoinsAndLeaves
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="mcujoinsandleaves-view-in-lync-server-2013"></a>Мкужоинсандлеавес представления в Lync Server 2013
 
-В представлении McuJoinsAndLeaves хранится информация о присоединении и выходе пользователей для одного сервера конференций. Каждая запись в этом представлении содержит сведения о звонке, сочетающие в себе данные о присоединении или отключении пользователя и сервере конференций. Это представление было представлено в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-01_
+
+В представлении Мкужоинсандлеавес хранятся сведения о присоединениях и выходе пользователей на один сервер конференции. Каждая запись в этом представлении включает в себя сведения о звонках для одной комбинации присоединения пользователя или выхода из него и сервера конференц-связи. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -28,95 +48,106 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Сведения</th>
+<th>Подробности</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>Сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время экземпляра конференции. Используется вместе с параметром SessionIdSeq для уникального определения экземпляра конференции. Дополнительные сведения см. в <a href="lync-server-2013-conferences-table.md">Таблица Conferences в Lync Server 2013</a>.</p></td>
+<td><p>Время экземпляра Конференции. Используется в сочетании с Сессионидсек для уникальной идентификации экземпляра Конференции. Дополнительные сведения приведены <a href="lync-server-2013-conferences-table.md">в таблице конференции для Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Идентификатор для определения экземпляра конференции. Используется вместе с параметром SessionIdTime для уникального определения экземпляра конференции. Дополнительные сведения см. в <a href="lync-server-2013-conferences-table.md">Таблица Conferences в Lync Server 2013</a>.</p></td>
+<td><p><strong>Сессионидсек</strong></p></td>
+<td><p>целое</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации экземпляра Конференции. Используется в сочетании с Сессионидтиме для уникальной идентификации экземпляра Конференции. Дополнительные сведения приведены <a href="lync-server-2013-conferences-table.md">в таблице конференции для Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>McuUri</strong></p></td>
+<td><p><strong>Мкуури</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>URI сервера конференций, к которому подключился пользователь.</p></td>
+<td><p>Универсальный код ресурса (URI) сервера конференций, к которому подключен пользователь.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>McuUriType</strong></p></td>
+<td><p><strong>Мкууритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>URI сервера конференций, к которому подключился пользователь. Дополнительные сведения см. в разделе <a href="lync-server-2013-uritypes-table.md">Таблица UriTypes в Lync Server 2013</a>.</p></td>
+<td><p>Универсальный код ресурса (URI) сервера конференций, к которому подключен пользователь. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI пользователя, сведения о присоединении или выходе к серверу конференций которого были записаны.</p></td>
+<td><p><strong>Усерури</strong></p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>Универсальный код ресурса (URI) пользователя, которому были собраны сведения о присоединении или выходе сервера конференций.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserUriType</strong></p></td>
+<td><p><strong>Усеруритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Тип URI пользователя, сведения о присоединении или выходе к серверу конференций которого были записаны. Дополнительные сведения см. в разделе <a href="lync-server-2013-uritypes-table.md">Таблица UriTypes в Lync Server 2013</a>.</p></td>
+<td><p>Тип универсального кода ресурса (URI), к которому были собраны сведения о присоединении или выходе сервера конференций. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserTenant</strong></p></td>
+<td><p><strong>Усертенант</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Клиент пользователя, сведения о присоединении или выходе к серверу конференций которого были записаны. Дополнительные сведения см. в разделе <a href="lync-server-2013-tenants-table.md">Таблица Tenants в Lync Server 2013</a>.</p></td>
+<td><p>Клиент пользователя, которому были собраны сведения о присоединении или выходе сервера конференций. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserClientVersion</strong></p></td>
+<td><p><strong>Усерклиентверсион</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Версия клиента пользователя, сведения о присоединении или выходе к серверу конференций которого были записаны.</p></td>
+<td><p>Версия клиента, используемая пользователем, для которого была собрана информация о присоединении или выходе сервера конференций.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserClientType</strong></p></td>
-<td><p>int</p></td>
-<td><p>Версия клиента пользователя, сведения о присоединении или выходе к серверу конференций которого были записаны. Дополнительные сведения см. в разделе <a href="lync-server-2013-useragentdef-table.md">Таблица UserAgentDef в Lync Server 2013</a>.</p></td>
+<td><p><strong>Усерклиенттипе</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Клиент, который использовался пользователем, которому присвоены данные для присоединения или выхода на сервер конференц-связи. Дополнительные сведения вы увидите <a href="lync-server-2013-useragentdef-table.md">в таблице усеражентдеф в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserClientCategory</strong></p></td>
-<td><p>nvarchar(64)</p></td>
-<td><p>Имя категории пользователя, сведения о присоединении или выходе к серверу конференций которого были записаны.</p></td>
+<td><p><strong>Усерклиенткатегори</strong></p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>Название категории клиента, используемой пользователем, для которого была получена информация о приходе и выходе сервера конференций.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>McuUserInstance</strong></p></td>
-<td><p>int</p></td>
-<td><p>Уникально определяет комбинацию пользователя и устройства для пользователей, одновременно вошедших на несколько устройств.</p></td>
+<td><p><strong>Мкуусеринстанце</strong></p></td>
+<td><p>целое</p></td>
+<td><p>Уникально определяет сочетание пользователей и устройств для пользователей, одновременно выполнивших вход на несколько устройств.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>IsUserFromPstn</strong></p></td>
+<td><p><strong>Исусерфромпстн</strong></p></td>
 <td><p>бит</p></td>
-<td><p>Разряд, указывающий, является ли пользователь внутренним.</p></td>
+<td><p>Бит, обозначающий, является ли пользователь внутренним.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogSessionIdTime</strong></p></td>
+<td><p><strong>Диалогсессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время запроса сеанса. Используется вместе с параметром SessionIdSeq для уникального определения сеанса. Дополнительные сведения см. в <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p>Время запроса сеанса. Используется в сочетании с Сессионидсек для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DialogSessionIdSeq</strong></p></td>
-<td><p>int</p></td>
-<td><p>Идентификационный номер для идентификации сеанса. Используется совместно с параметром SessionIdTime для уникальной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p><strong>Диалогсессионидсек</strong></p></td>
+<td><p>целое</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с Сессионидтиме для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DialogId</strong></p></td>
-<td><p>varchar(775)</p></td>
-<td><p>Код диалога SIP этого сеанса. Формат: диалог;начальный тег;конечный тег.</p></td>
+<td><p><strong>Диалогид</strong></p></td>
+<td><p>varchar (775)</p></td>
+<td><p>ИДЕНТИФИКАТОР диалогового окна SIP для сеанса. Формат: диалоговое окно; тег.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserJoinTime</strong></p></td>
+<td><p><strong>Усержоинтиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время, когда пользователь присоединился к серверу конференций.</p></td>
+<td><p>Время присоединения пользователя к серверу конференц-связи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserLeaveTime</strong></p></td>
+<td><p><strong>Усерлеаветиме</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Время, когда пользователь вышел с сервера конференций.</p></td>
+<td><p>Время, когда пользователь оставил сервер конференц-связи.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

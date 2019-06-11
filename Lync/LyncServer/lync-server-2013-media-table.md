@@ -1,24 +1,51 @@
-﻿---
-title: 'Lync Server 2013: таблица Media'
-TOCTitle: Таблица Media
-ms:assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398268(v=OCS.15)
-ms:contentKeyID: 49309129
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Media'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media table
+ms:assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398268(v=OCS.15)
+ms:contentKeyID: 48183568
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: da8b3aaff56e782307f3146fdcee7d4410340198
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827314"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Media в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="media-table-in-lync-server-2013"></a>Таблица Media в Lync Server 2013
 
-Каждая запись представляет один тип мультимедиа, используемый в одноранговом сеансе. Если бы использовалось более одного типа мультимедиа, один сеанс был бы представлен несколькими записями в таблице.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-28_
+
+Каждая запись представляет один тип мультимедиа, используемый в одноранговых сеансах. Один сеанс будет представлен в таблице несколькими записями, если используется более одного типа мультимедиа.
+
+<div>
+
 
 > [!NOTE]  
-> Таблицу мультимедиа не следует использовать для вычисления длительности мультимедиа для сеанса. Эта таблица содержит сведения об обмене мультимедиа во время сеанса. Обмен мультимедиа осуществляется с помощью запроса INVITE, а время отправки этого запроса указывается с помощью параметра StartTime. Время отправки запроса необязательно соответствует времени запуска обмена мультимедиа, который начинается только после приема сеанса вызываемым. EndTime обычно обозначает время завершения этого сеанса.
+> Таблицу мультимедиа нельзя использовать для расчета длительности мультимедиа для сеанса. В этой таблице содержатся сведения о сигнализации обмена мультимедийными данными в сеансе. Обмен мультимедийными данными выполняется запросом приглашения, а StartTime указывает время отправки приглашения. Время приглашения не обязательно означает время запуска мультимедиа, так как Media запускается только после того, как сеанс принял сеанс. Значение EndTime обычно означает время окончания этого сеанса.
+
+
+
+</div>
 
 
 <table>
@@ -38,35 +65,46 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>Запрос времени сеанса. Используется совместно с <strong>SessionIdSeq</strong> для уникальной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p><strong>Сессионидтиме</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Основной, внешний</p></td>
+<td><p>Время запроса сеанса. Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Сессионидсек</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>ИД сеанса. Используется с <strong>SessionIdTime</strong> для однозначной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p>Основной, внешний</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Первичный, внешний</p></td>
-<td><p>Уникальный номер, идентифицирующий этот тип мультимедиа. Дополнительные сведения см. в разделе <a href="lync-server-2013-medialist-table.md">Таблица MediaList в Lync Server 2013</a>.</p></td>
+<td><p>Основной, внешний</p></td>
+<td><p>Уникальный номер, идентифицирующий этот тип мультимедиа. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-medialist-table.md">таблицей медиалист в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>StartTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Первичный</p></td>
-<td><p>Время отправки запроса мультимедиа, а не фактическое время начала обмена мультимедиа. <strong>StartTime</strong> включает в себя время настройки сеанса.</p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>Это время отправки запроса мультимедиа, а не фактического времени запуска мультимедиа. Параметр <strong>StartTime</strong> включает время настройки сеанса.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p></p></td>
-<td><p>Время завершения этого сеанса.</p></td>
+<td><p>datetime</p></td>
+<td></td>
+<td><p>Это время окончания сеанса.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

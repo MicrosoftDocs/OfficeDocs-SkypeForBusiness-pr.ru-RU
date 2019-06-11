@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: сценарии маршрутизации на основе местоположения'
-TOCTitle: Сценарии маршрутизации на основе местоположения
-ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ994064(v=OCS.15)
-ms:contentKeyID: 52058312
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: сценарии маршрутизации на основе местоположения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for Location-Based Routing
+ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994064(v=OCS.15)
+ms:contentKeyID: 51803975
+ms.date: 08/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a8ef0e8941dae57c1e9b53d767d7dd0b9d5578de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822204"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Сценарии маршрутизации на основе местоположения в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-08-11_
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Сценарии маршрутизации на основе местоположения в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-08-11_
 
 К функции маршрутизации на основе расположения применяются следующие общие правила при маршрутизации вызовов в следующих сценариях.
 
-## Содержание
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Исходящие звонки в Lync Server 2013](lync-server-2013-outgoing-calls.md)
 
@@ -31,9 +53,25 @@ _**Дата изменения раздела:** 2014-08-11_
 
   - [Групповые звонки с маршрутизацией на основе расположения в Lync Server 2013](lync-server-2013-team-calling-with-location-based-routing.md)
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Планирование маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+## <a name="see-also"></a>См. также
+
+
+[Планирование маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

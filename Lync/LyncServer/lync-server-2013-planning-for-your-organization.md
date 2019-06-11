@@ -1,33 +1,67 @@
-﻿---
-title: 'Lync Server 2013: планирование для организации'
-TOCTitle: 'Руководство по планированию: планирование для организации'
-ms:assetid: fbbfcc5b-eece-48de-800f-2c28954eca33
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413071(v=OCS.15)
-ms:contentKeyID: 49311746
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование для организации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Planning primer: Planning for your organization'
+ms:assetid: fbbfcc5b-eece-48de-800f-2c28954eca33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413071(v=OCS.15)
+ms:contentKeyID: 48185940
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4c2b9521f9c8603829c2a35cbccc430b67f0184e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824255"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование для организации в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-24_
+# <a name="organization-planning-for-lync-server-2013"></a>Планирование для организации в Lync Server 2013
 
-Статьи в этом разделе содержат справочные сведения о начале планирования развертывания Lync Server .
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - Раздел [Принятие решения о способе развертывания Lync Server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md) содержит рекомендации по выбору подходящих базовых сценариев развертывания для системы Lync Server 2013.
+<div id="mainBody">
 
-  - [Начало процесса планирования для Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) позволяет понять аспекты, которые требуется учесть при начале планирования локального развертывания и использовании документации по планированию вместе со средством топологий.
+<span> </span>
 
-  - [Основы топологии, которые необходимо знать перед планированием для Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) описывает основные компоненты топологии Lync Server, включая сайты, пулы серверов и топологии, поддерживающие высокую надежность и аварийное восстановление.
+_**Тема последнего изменения:** 2012-09-24_
 
-  - [Начальные решения по планированию для Lync Server 2013](lync-server-2013-initial-planning-decisions.md) содержит вопросы, на которые нужно ответить, чтобы решить, какие нагрузки и компоненты Lync Server требуется развернуть.
+В этом разделе приведены инструкции по планированию развертывания Lync Server.
 
-  - [Клиенты для Lync Server 2013](lync-server-2013-clients.md) содержит описание разных типов клиентского программного обеспечения, которое можно развернуть для пользователей организации, включая клиентское ПО, установленное на компьютерах, веб-клиенты и мобильные устройства.
+<div>
 
-  - В разделе [Эталонные топологии в Lync Server 2013](lync-server-2013-reference-topologies.md) описываются примеры топологий, иллюстрирующие удачные примеры проектов топологии в трех типичных типах организаций и объяснения причин, которые лежат в основе многих решений, которые были приняты при проектировании этих топологий.
+## <a name="in-this-section"></a>Содержание
+
+  - [Выбор способа развертывания Lync server 2013](lync-server-2013-deciding-how-to-deploy-microsoft-lync.md) содержит рекомендации по выбору между основными сценариями развертывания для lync Server 2013.
+
+  - [Начало процесса планирования для Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) поможет вам понять, как приступить к планированию локального развертывания, а также о том, как работает руководство по планированию с построителем топологии.
+
+  - [Основы топологии перед планированием для Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) описаны основы серверных топологий Lync, в том числе сайтов, пулов серверов и топологий, которые поддерживают высокую доступность и восстановление после аварии.
+
+  - [Решения для первоначального планирования для Lync Server 2013](lync-server-2013-initial-planning-decisions.md) пошаговые ответы на вопросы, которые необходимо выполнить, чтобы решить, какие задачи и функции Lync Server нужно развернуть.
+
+  - [Клиенты для Lync Server 2013](lync-server-2013-clients.md) описывают различные типы клиентских программного обеспечения, которые можно развернуть для пользователей организации, в том числе клиентское программное обеспечение, веб-клиенты и мобильные устройства.
+
+  - [Эталонные топологии в Lync Server 2013](lync-server-2013-reference-topologies.md) — это три примера топологий, иллюстрирующие хороший дизайн топологии в трех типов организациях, и объясняется причина, по которой вы решаете, как это было в процессе разработки этих топологий.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

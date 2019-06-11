@@ -1,29 +1,63 @@
-﻿---
-title: 'Lync Server 2013: планирование объявлений'
-TOCTitle: Планирование объявлений
-ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399062(v=OCS.15)
-ms:contentKeyID: 49311557
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование объявлений'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for announcements
+ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399062(v=OCS.15)
+ms:contentKeyID: 48185706
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e112429af7d3778755585e2bcb90bbe604170a85
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825081"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование объявлений в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-13_
+# <a name="planning-for-announcements-in-lync-server-2013"></a>Планирование объявлений в Lync Server 2013
 
-В Lync Server приложение "Объявление" позволяет настраивать обработку входящих телефонных вызовов, когда набранный номер действителен для организации, но не назначен ни пользователю, ни телефону. Такие вызовы можно передавать в предварительно заданное назначение (на телефонный номер, SIP URI или на голосовую почту), или воспроизводить вызывающему абоненту звуковое объявление, или выполнять оба действия. Приложение "Оповещение" помогает исключить ситуацию, в которой вызывающий абонент неправильно набирает номер и слышит сигнал "занято", или клиент SIP получает сообщение об ошибке. В этом разделе даются сведения по планированию, относящиеся к приложению "Объявление".
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Обзор приложения "Оповещение" в Lync Server 2013](lync-server-2013-overview-of-the-announcement-application.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-13_
+
+Приложение Lync Server объявлений позволяет настраивать обработку входящих звонков, когда номер набираемого номера действителен для вашей организации, но не назначен пользователю или телефону. Вы можете передать эти звонки на предварительно определенный адрес (номер телефона, URI SIP или голосовую почту), а также воспроизвести звуковое оповещение или и то, и другое. Приложение извещения поможет избежать ситуаций, в которых вызывающий абонент не набирает звук и прозвучит сообщение об ошибке. Этот раздел содержит сведения о планировании, специфичные для приложения "объявление".
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Общие сведения о приложении объявления в Lync Server 2013](lync-server-2013-overview-of-the-announcement-application.md)
 
   - [Компоненты, используемые приложением "Объявление" в Lync Server 2013](lync-server-2013-components-used-by-the-announcement-application.md)
 
   - [Технические требования для приложения "Объявление" в Lync Server 2013](lync-server-2013-technical-requirements-for-the-announcement-application.md)
 
-  - [Процесс развертывания приложения "Объявления" в Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Процесс развертывания приложения для объявлений в Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

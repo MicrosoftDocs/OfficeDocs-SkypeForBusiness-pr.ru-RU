@@ -1,29 +1,59 @@
-﻿---
-title: Необходимые условия для федерации с клиентом Lync Online
-TOCTitle: Необходимые условия для федерации с клиентом Lync Online
-ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh202196(v=OCS.15)
-ms:contentKeyID: 49311678
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: предварительные требования для Федерации с клиентом Lync Online'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Prerequisites for federating with a Lync Online customer
+ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202196(v=OCS.15)
+ms:contentKeyID: 48185838
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af3db1918e2d347084f1bbdcdf5ea4eb92ae8d91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823674"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Необходимые условия для федерации с клиентом Lync Online
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="prerequisites-for-federating-with-a-lync-online-customer-in-lync-server-2013"></a>Необходимые условия для Федерации с клиентом Lync Online в Lync Server 2013
 
-Организация федерации с клиентом Lync Online 2010 возможна только после завершения процедур начального развертывания и настройки Lync Server 2013 в организации. В эти процедуры входит следующее:
+</div>
 
-  - Развертывание по крайней мере одного сервера Standard Edition или пула переднего планаEnterprise Edition в организации. Для получения дополнительных сведений о развертывание внутренних серверов см. раздел [Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) в документации по развертыванию.
+<div id="mainSection">
 
-  - Активация внутренних учетных записей пользователя для Lync Server 2013. Для получения более подробных сведений см. [Отключение и повторное включение учетных записей пользователей для Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) в документации по развертыванию или документации по операциям.
+<div id="mainBody">
 
-  - Развертывание по крайней мере одного пограничного сервера и других компонентов для поддержки внешнего доступа пользователей. Более подробные сведения см. в разделе [Управление федерацией и внешним доступом к Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) документации по развертыванию.
+<span> </span>
 
-  - Активация поддержки федераций в организации и настройка надлежащего метода управлением доступа к федеративным доменам. Более подробные сведения см. в разделах [Включение или отключения удаленного доступа пользователей в Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md) и [Управление федеративными поставщиками SIP в организации в Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) в документации по операциям.
+_**Тема последнего изменения:** 2012-10-19_
 
-  - Активация внешнего доступа для пользователей в организации. Более подробные сведения см. в разделе [Назначение политики доступа внешних пользователей пользователю, разрешенному для Lync в Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) и в документации по развертыванию или документации по операциям.
+Чтобы создать федерацию с заказчиком Lync Online 2010, вы должны уже выполнить начальное развертывание и настройку Lync Server 2013 в своей организации. Доступны следующие политики:
+
+  - Развертывание по крайней мере одного стандартного сервера выпуска или одного пула переднего плана Enterprise Edition в Организации. Дополнительные сведения о развертывании внутренних серверов можно найти в разделе [развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) в документации по развертыванию.
+
+  - Включение внутренних учетных записей пользователей для Lync Server 2013. Дополнительные сведения можно найти в разделе [Отключение и повторное включение учетной записи пользователя для Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) в документации по развертыванию или документации по эксплуатации.
+
+  - Развертывание по крайней мере одного пограничного сервера и других компонентов, необходимых для поддержки внешнего доступа пользователей. Подробные сведения можно найти в разделе [Управление интеграцией и внешним доступом к Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) в документации по развертыванию.
+
+  - Включение поддержки Федерации в Организации и настройка соответствующего метода для управления доступом с помощью федеративных доменов. Дополнительные сведения можно найти в разделе [Включение и отключение удаленного доступа пользователей в Lync server 2013](lync-server-2013-enable-or-disable-remote-user-access.md) и [Управление поставщиками SIP для Организации в Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) в документации по эксплуатации.
+
+  - Разрешение доступа внешних пользователей для пользователей в вашей организации. Дополнительные сведения можно найти в разделе [назначение внешней политики доступа к пользователю Lync в Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) , а также в документации по развертыванию или работе.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

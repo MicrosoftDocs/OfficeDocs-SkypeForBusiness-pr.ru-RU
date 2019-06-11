@@ -1,35 +1,57 @@
-﻿---
-title: Планирование
-TOCTitle: Планирование
-ms:assetid: 6398cd91-8773-41bc-9b66-725d65ba9d66
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398447(v=OCS.15)
-ms:contentKeyID: 49309967
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Планирование Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning
+ms:assetid: 6398cd91-8773-41bc-9b66-725d65ba9d66
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398447(v=OCS.15)
+ms:contentKeyID: 48184302
+ms.date: 12/10/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fc737ff9b3a457d8227892b6e74575e332d20ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824108"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-12-09_
+# <a name="planning-for-lync-server-2013"></a>Планирование для Lync Server 2013
 
-Этап планирования — это время, на протяжении которого вы решаете, какие функции Lync Server 2013 следует развернуть и каким образом их необходимо развертывать. В темах этого раздела описываются процедуры планирования успешного развертывания Lync Server.
+</div>
 
-## Содержание
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-12-09_
+
+В этом разделе объясняется, как запланировать успешное развертывание Lync Server.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Планирование для организации в Lync Server 2013](lync-server-2013-planning-for-your-organization.md)
 
   - [Определение требований к инфраструктуре для Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md)
 
-  - [Планирование сети для Lync Server](lync-server-2013-network-planning.md)
+  - [Сетевое планирование для Lync Server 2013](lync-server-2013-network-planning.md)
 
-  - [Планирование мощности для Lync Server 2013](lync-server-2013-capacity-planning.md)
+  - [Планирование мощностей для Lync Server 2013](lync-server-2013-capacity-planning.md)
 
   - [Планирование высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
 
-  - [Планирование управляемости и виртуализации](lync-server-2013-planning-for-manageability-and-virtualization.md)
+  - [Планирование управляемости и виртуализации в Lync Server 2013](lync-server-2013-planning-for-manageability-and-virtualization.md)
 
   - [Планирование для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
 
@@ -37,7 +59,7 @@ _**Дата изменения раздела:** 2014-12-09_
 
   - [Планирование доступа внешних пользователей в Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)
 
-  - [Планирование корпоративной голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
+  - [Планирование для корпоративного голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
 
   - [Планирование мониторинга в Lync Server 2013](lync-server-2013-planning-for-monitoring.md)
 
@@ -45,11 +67,25 @@ _**Дата изменения раздела:** 2014-12-09_
 
   - [Планирование сервера сохраняемого чата в Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)
 
-  - [Планирование интеграции Exchange Server в Lync Server 2013](lync-server-2013-planning-for-exchange-server-integration.md)
+  - [Планирование интеграции Exchange Server с Lync Server 2013](lync-server-2013-planning-for-exchange-server-integration.md)
 
-  - [Планирование клиентов и устройств в Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)
+  - [Планирование для клиентов и устройств в Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)
 
-  - [Планирование удаленного управления звонками в Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+  - [Планирование удаленного управления звонком в Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
 
   - [Планирование мобильной работы в Lync Server 2013](lync-server-2013-planning-for-mobility.md)
+
+  - [Планирование безопасности в Lync Server 2013](lync-server-2013-planning-for-security.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

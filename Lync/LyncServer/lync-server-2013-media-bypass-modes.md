@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: режимы обхода сервера-посредника'
-TOCTitle: Режимы обхода сервера-посредника
-ms:assetid: 38c06c81-7e45-4423-9e00-7fbfa4befe46
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425862(v=OCS.15)
-ms:contentKeyID: 49309461
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: режимы обхода сервера-посредника'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media bypass modes
+ms:assetid: 38c06c81-7e45-4423-9e00-7fbfa4befe46
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425862(v=OCS.15)
+ms:contentKeyID: 48183898
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a08ec3ae6d985c18e20964a857a74ad40bc7668d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827454"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Режимы обхода сервера-посредника в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-05_
+# <a name="media-bypass-modes-in-lync-server-2013"></a>Режимы обхода сервера-посредника в Lync Server 2013
 
-Обход сервера-посредника необходимо настроить как глобально, так и для каждого отдельного канала ТСОП. При включении обхода сервера-посредника на глобальном уровне имеются два варианта: **Обходить всегда** и **Использовать сведения о сайте и области** .
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-05_
+
+Обход сервера-посредника необходимо настроить как глобально, так и для каждого отдельного канала ТСОП. При включении обхода сервера-посредника на глобальном уровне имеются два варианта: **Обходить всегда** и **Использовать сведения о сайте и области**.
 
 Как можно предположить из названия, параметр **Обходить всегда** означает, что попытки обхода сервера-посредника будут предприниматься для всех вызовов ТСОП. Параметр **Обходить всегда** используется в развертываниях, в которых не требуется ни включать контроль допуска звонков, ни указывать подробные сведения о конфигурации, касающиеся того, когда следует пытаться обходить сервер-посредник. Кроме того, параметр **Обходить всегда** используется, когда имеется полное подключение между клиентами и шлюзами ТСОП. В такой конфигурации все подсети ставятся в соответствие одному и только одному идентификатору обхода, который вычисляется системой.
 
@@ -29,11 +49,25 @@ _**Дата изменения раздела:** 2012-10-05_
 
   - Подсети, связанные с каждым сайтом, наследуют идентификатор обхода этого сайта.
 
-## См. также
+<div>
 
-#### Концепции
+## <a name="see-also"></a>См. также
 
-[Обзор обхода сервера-посредника в Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
+
+[Общие сведения об обходном пропуске мультимедиа в Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
 [Обход сервера-посредника и контроль допуска звонков в Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
-[Технические требования для сервера-посредника в Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)
+[Технические требования для сервера-посредника в Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

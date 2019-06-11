@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Phones'
-TOCTitle: Таблица Phones
-ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425923(v=OCS.15)
-ms:contentKeyID: 49309573
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Phones'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Phones table
+ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425923(v=OCS.15)
+ms:contentKeyID: 48183996
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 920454a5db71c1e6f3cd2ea2ae1134d149b4f297
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825179"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Phones в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="phones-table-in-lync-server-2013"></a>Таблица Phones в Lync Server 2013
 
-Таблица Phones является таблицей поддержки. Каждая запись в этой таблице хранит сведения об одном телефонном номере, принимавшем участие в вызовах VoIP, имеющих записи в базе данных.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-08-20_
+
+Таблица phones является вспомогательной таблицей. Каждая запись в таблице хранит информацию об одном номере телефона, который участвует в звонках по протоколу VoIP с записями в базе данных.
 
 
 <table>
@@ -35,24 +55,35 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>PhoneId</strong></p></td>
+<td><p><strong>Фонеид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальный номер, идентифицирующий телефон.</p></td>
+<td><p>Primary</p></td>
+<td><p>Уникальный номер, идентифицирующий этот телефон.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PhoneUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p><strong>Фонеури</strong></p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
 <td><p>Номер телефона.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>дата-время</p></td>
-<td><p></p></td>
+<td><p><strong>Некступдатетс</strong></p></td>
+<td><p>Датой</p></td>
+<td></td>
 <td><p>Метка времени (только для внутреннего использования).</p>
-<p>Это поле появилось в Microsoft Lync Server 2013.</p></td>
+<p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

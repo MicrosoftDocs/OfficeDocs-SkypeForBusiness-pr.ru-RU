@@ -1,35 +1,57 @@
-﻿---
-title: 'Lync Server 2013: планирование корпоративной голосовой связи'
-TOCTitle: Планирование корпоративной голосовой связи
-ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413081(v=OCS.15)
-ms:contentKeyID: 49311776
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: планирование для корпоративного голосовой связи'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Enterprise Voice
+ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)
+ms:contentKeyID: 48185959
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 29732d1690e1934f811df6fc448596e987205791
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824850"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Планирование корпоративной голосовой связи в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-11-01_
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Планирование для корпоративного голосовой связи в Lync Server 2013
 
-Процедура развертывания корпоративной голосовой связи зависит от существующей топологии, инфраструктуры и функций корпоративной голосовой связи, которые предполагается поддерживать. Необходимые процедуры зависят от набора выбранных компонентов. Однако существуют некоторые общие аспекты планирования, которые следует учитывать.
+</div>
 
-В общем необходимо учесть типы и число развертываемых сайтов и их географическое расположение, объемы вызовов, обрабатываемых каждым сайтом, типы сетевых каналов между сайтами, необходимость обеспечения избыточности и отработки отказа для функций голосовой связи для каждого сайта, а также то, предполагается ли использовать имеющееся оборудование УАТС. Кроме того, существуют некоторые факторы, такие как высокая надежность, которые следует учесть при планировании среды Lync Server  ПО в целом. Эти аспекты также рассматриваются в статьях данного раздела.
+<div id="mainSection">
 
-## Вопросы планирования
+<div id="mainBody">
 
-Конкретные решения по планированию, относящиеся к развертыванию определенной возможности корпоративной голосовой связи или сценарию или компоненту развертывания, см. в статьях данного раздела.
+<span> </span>
+
+_**Тема последнего изменения:** 2013-11-01_
+
+Процесс развертывания для корпоративной голосовой связи зависит от существующей топологии, инфраструктуры и функций корпоративной голосовой связи, которые требуется поддерживать. Необходимые процедуры будут зависеть от выбранных функций, но есть и другие вопросы планирования, которые необходимо выполнить на высоком уровне.
+
+Общие рекомендации состоят в том, чтобы учесть тип и количество развертываемых сайтов и их географическое положение, интенсивность вызовов на каждом сайте, типы сетевых каналов связи между сайтами, необходимость в избыточности и отработке отказов для функций голосовой связи на каждом сайте, а также потребность в использовании существующего оборудования УАТС. Существуют некоторые особенности, например высокая доступность, которые следует учитывать при планировании общего программного обеспечения для связи Lync Server. Эти аспекты рассматриваются в данном разделе по мере необходимости.
+
+<div>
+
+## <a name="planning-considerations"></a>Вопросы планирования
+
+Сведения о планировании решений, относящихся к развертыванию определенной возможности голосовой связи или сценарии развертывания или компоненту, можно найти в темах этого раздела.
 
   - [Определение своих требований к корпоративной голосовой связи в Lync Server 2013](lync-server-2013-defining-your-requirements-for-enterprise-voice.md)
 
   - [Оценка объема использования и трафика голосовой связи для Lync Server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Сетевые параметры для расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
+  - [Network settings for the advanced Enterprise Voice features in Lync Server 2013](lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md)
 
-  - [Компоненты, необходимые для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
+  - [Components required for Enterprise Voice in Lync Server 2013](lync-server-2013-components-required-for-enterprise-voice.md)
 
   - [Планирование устойчивости корпоративной голосовой связи в Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
@@ -53,5 +75,17 @@ _**Дата изменения раздела:** 2013-11-01_
 
   - [Перемещение пользователей на корпоративную голосовую связь в Lync Server 2013](lync-server-2013-moving-users-to-enterprise-voice.md)
 
-  - [Средство диагностики Lync PreCall](lync-server-2013-lync-precall-diagnostics-tool.md)
+  - [Средство диагностики предзвонков для Lync в Lync Server 2013](lync-server-2013-lync-precall-diagnostics-tool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

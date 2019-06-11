@@ -1,27 +1,49 @@
-﻿---
-title: Счетчики производительности мобильной работы
-TOCTitle: Счетчики производительности мобильной работы
-ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh690046(v=OCS.15)
-ms:contentKeyID: 49311242
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: счетчики производительности мобильных устройств'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility performance counters
+ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
+ms:contentKeyID: 48185441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Счетчики производительности мобильной работы
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Счетчики производительности мобильных устройств в Lync Server 2013
 
-В следующей таблице содержатся имена и описания счетчиков производительности, которые можно использовать для отслеживания серверов, на которых выполняется веб-API объединенных коммуникаций (UCWA) и служба Lync Server 2013 Mobility Service.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-22_
+
+В следующих таблицах перечислены имена и описания счетчиков производительности, которые можно использовать для мониторинга серверов, использующих веб-API единой системы обмена сообщениями (УКВА) и службы Lync Server 2013 МККС Mobility Service.
 
 Имя категории для счетчиков в таблице UCWA — **LS:WEB — UCWA**.
 
 Имя категории для счетчиков в таблице службы Mcx Mobility Service — **LS:WEB — Mobile Communication Service**.
 
-## Счетчики производительности для UCWA
+<div>
+
+## <a name="performance-counters-for-ucwa"></a>Счетчики производительности для UCWA
 
 
 <table>
@@ -117,11 +139,11 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Этот счетчик показывает среднее время (в миллисекундах), затрачиваемое на получение фотографии с сервера Exchange.</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTP 4xx Responses/Second (Ответов HTTP 4xx/с)</p></td>
+<td><p>Ответов HTTP 4xx/с</p></td>
 <td><p>Частота ответов с кодом HTTP 4xx (в секунду)</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP 5xx Responses/Second (Ответов HTTP 5xx/с)</p></td>
+<td><p>Ответов HTTP 5xx/с</p></td>
 <td><p>Частота ответов с кодом HTTP 5xx (в секунду)</p></td>
 </tr>
 <tr class="odd">
@@ -141,7 +163,7 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Общее число неудачных попыток десериализации</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of HD Photo Get Failures (Число сбоев получения фотографий в формате HD)</p></td>
+<td><p>Количество сбоев при получении фотографий HD</p></td>
 <td><p>Общее число неудачных попыток получения фотографий в формате HD с сервера Exchange</p></td>
 </tr>
 <tr class="even">
@@ -181,11 +203,11 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Общее число запросов на создание приложений, полученных с момента запуска службы</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total HTTP 4xx Responses (Общее число ответов HTTP 4xx)</p></td>
+<td><p>Всего ответов HTTP 4xx</p></td>
 <td><p>Общее число ответов HTTP 4xx</p></td>
 </tr>
 <tr class="even">
-<td><p>Total HTTP 5xx Responses (Общее число ответов HTTP 5xx)</p></td>
+<td><p>Всего отчетов HTTP 5xx</p></td>
 <td><p>Общее число ответов HTTP 5xx</p></td>
 </tr>
 <tr class="odd">
@@ -212,7 +234,11 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-### Счетчики производительности для службы Mcx Mobility Service
+</div>
+
+<div id="sectionSection1" class="section">
+
+### <a name="performance-counters-for-mcx-mobility-service"></a>Счетчики производительности для службы Mcx Mobility Service
 
 <table>
 <colgroup>
@@ -328,11 +354,11 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>Total Requests Rejected (Всего отклоненных запросов)</p></td>
-<td><p>Общее число отлоненных запросов</p></td>
+<td><p>Общее число отклоненных запросов</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total Requests Succeeded (Всего успешных запросов)</p></td>
-<td><p>ОБщее число запросов, поступивших в службу Mobility Service, которые были успешно выполнены</p></td>
+<td><p>Общее число запросов, поступивших в службу Mobility Service, которые были успешно выполнены</p></td>
 </tr>
 <tr class="even">
 <td><p>Total Session Initiated Count (Всего запущенных сеансов)</p></td>
@@ -352,4 +378,17 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

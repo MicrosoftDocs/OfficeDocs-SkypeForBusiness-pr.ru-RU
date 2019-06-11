@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: примеры запросов к базе данных сохраняемого чата'
-TOCTitle: Примеры запросов к базе данных сохраняемого чата
-ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558649(v=OCS.15)
-ms:contentKeyID: 49309783
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: примеры запросов к базе данных сохраняемого чата'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Sample Persistent Chat database queries
+ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558649(v=OCS.15)
+ms:contentKeyID: 48184133
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c5e442ebf3aef34d297a1b23da06b00fc4724aa0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822211"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Примеры запросов к базе данных сохраняемого чата для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-06_
+# <a name="sample-persistent-chat-database-queries-for-lync-server-2013"></a>Примеры запросов к базе данных сохраняемого чата для Lync Server 2013
 
-В этом разделе содержатся примеры запросов для базы данных сохраняемый сеанс беседы.
+</div>
 
-Используйте следующий пример, чтобы получить список наиболее активных комнат сохраняемый сеанс беседы после определенной даты.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-06_
+
+В этом разделе содержатся примеры запросов для базы данных сохраняемого чата.
+
+Чтобы получить список наиболее активных сохраненных комнат чата после определенной даты, используйте следующий пример.
 
     SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
       FROM tblChat, tblNode
@@ -25,7 +45,7 @@ _**Дата изменения раздела:** 2012-10-06_
       GROUP BY nodeName
       ORDER BY ChatMessages DESC
 
-Используйте следующий пример, чтобы получить список наиболее активных пользователей после определенной даты.
+Чтобы получить список наиболее активных пользователей после определенной даты, используйте следующий пример.
 
     SELECT prinName as Name, count(*) as ChatMessages
       FROM tblChat, tblPrincipal
@@ -33,25 +53,25 @@ _**Дата изменения раздела:** 2012-10-06_
       GROUP BY prinName
       ORDER BY ChatMessages DESC
 
-Используйте следующий пример, чтобы получить список всех, кто когда-либо отправлял сообщение "Hello World".
+В следующем примере показано, как получить список всех тех, кто когда-либо отправил сообщение с помощью "Hello World".
 
     SELECT nodeName as ChatRoom, prinName as Name, content as Message
       FROM tblChat, tblNode, tblPrincipal
       WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 
-Используйте следующий пример, чтобы получить список членства в группах для определенного участника.
+С помощью приведенного ниже примера можно получить список участников группы для определенного участника.
 
     SELECT prinName as Name    
       FROM tblPrincipalAffiliations as pa, tblPrincipal
       where principalID = 7 and affiliationID = prinID
 
-Используйте следующий пример, чтобы получить список всех комнат чата, в которые непосредственно входит пользователь Джейн Доу.
+В следующем примере показано, как получить список всех комнат чата, в которых входит пользователь, Джейн Seleznyov.
 
     SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
       FROM tblPrincipalRole, tblPrincipal, tblNode
       WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 
-Используйте следующий пример, чтобы получить список приглашений, полученных пользователем.
+С помощью приведенного ниже примера можно получить список приглашенных, полученных пользователем.
 
     SELECT prinName
           ,nodeName
@@ -60,4 +80,14 @@ _**Дата изменения раздела:** 2012-10-06_
       FROM tblPrincipalInvites as inv, tblPrincipal as p, tblNode as n
       where inv.prinID = 5 AND inv.prinID = p.prinID and inv.nodeID = n.nodeID
       ORDER BY invID DESC
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

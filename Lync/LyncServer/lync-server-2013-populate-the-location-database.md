@@ -1,19 +1,39 @@
-﻿---
-title: Наполнение базы данных местоположений
-TOCTitle: Наполнение базы данных местоположений
-ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg413069(v=OCS.15)
-ms:contentKeyID: 49311759
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: заполнение базы данных местоположений'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Populate the location database
+ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
+ms:contentKeyID: 48185939
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824052"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Наполнение базы данных местоположений
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Заполнение базы данных местоположений в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-17_
 
 Чтобы автоматически определять расположение клиентов в сети, сначала требуется заполнить базу данных местоположений в *карте географических соответствий*, которая сопоставляет элементы сети с городскими адресами (например, улицей). Для определения карты географических соответствий вы можете использовать подсети, точки беспроводного доступа, коммутаторы и порты.
 
@@ -36,31 +56,31 @@ _**Дата изменения раздела:** 2015-03-09_
 <tbody>
 <tr class="odd">
 <td><p><strong>Точка беспроводного доступа</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;BSSID&gt;,&lt;Описание&gt;,&lt;расположение&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;преднаправленный&gt;,...</p>
+<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;i Direction&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Подсеть</strong></p></td>
-<td><p>&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;&gt;Подсеть&lt;,&gt;Описание&lt;,&gt;расположение&lt;,&gt;CompanyName&lt;,&gt;хаусенумбер&lt;,&gt;хаусенумберсуффикс&lt;, преднаправленный&gt;,...</p>
+<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;i Direction&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Порт</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</p>
-<p>…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;Чассисид&gt;,&lt;портидсубтипе&gt;,&lt;Портид&gt;,&lt;Описание&gt;,&lt;расположение&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt; Хаусенумберсуффикс&gt;,...</p>
+<p>... &lt;Преднаправленный&gt;,&lt;стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;двусторонний&lt;, город&gt;,&lt;штат&gt;,&lt;индекс,&gt;&lt; Страну&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Коммутатор</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;Чассисид&gt;,&lt;Описание&gt;,&lt;расположение&gt;,&lt;CompanyName&gt;,&lt;хаусенумбер&gt;,&lt;хаусенумберсуффикс&gt;,&lt;преднаправленный&gt;,...</p>
+<p>... &lt;Стритнаме&gt;,&lt;стритсуффикс&gt;,&lt;&gt;i Direction&lt;, City&gt;,&lt;штат&gt;,&lt;PostalCode&gt;, страна&lt;&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Если вы не заполняете базу данных расположений, и для параметра **Location Required** (Требуется расположение) в политике расположения задано значение **Да** или **Заявление об отказе**, клиент будет предлагать пользователю ввести расположение вручную.
+Если вы не заполняете базу данных расположений, и для параметра **Требуется местоположение** в политике местоположений задано значение **Да** или **Заявление об отказе**, клиент будет предлагать пользователю ввести расположение вручную.
 
-Дополнительные сведения о заполнении базы данных местоположений см. описание следующих командлетов в документации по командной консоли Командная консоль Lync Server:
+Сведения о том, как заполнять базу данных расположения, можно найти в документации по оболочке Lync Server Management Shell для следующих командлетов:
 
   - **Get-CsLisSubnet**
 
@@ -68,7 +88,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
   - Remove-CsLisSubnet
 
-  - **Get-CsLisWirelessAccessPoint**
+  - **Get-Кслисвирелессакцесспоинт**
 
   - **Set-CsLisWirelessAccessPoint**
 
@@ -82,11 +102,13 @@ _**Дата изменения раздела:** 2015-03-09_
 
   - **Get-CsLisPort**
 
-  - **Set-CsLisPort**
+  - **Set-Кслиспорт**
 
   - **Remove-CsLisPort**
 
-## Добавление элементов сети в базу данных расположений
+<div>
+
+## <a name="to-add-network-elements-to-the-location-database"></a>Добавление элементов сети в базу данных расположений
 
 1.  Выполните следующий командлет, чтобы добавить расположение подсети в базу данных расположения.
     
@@ -129,4 +151,16 @@ _**Дата изменения раздела:** 2015-03-09_
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

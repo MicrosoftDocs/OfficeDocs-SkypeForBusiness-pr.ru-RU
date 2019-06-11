@@ -1,64 +1,121 @@
-﻿---
-title: 'Lync Server 2013: подготовка доменных служб Active Directory'
-TOCTitle: Подготовка доменных служб Active Directory
-ms:assetid: 7b0d9aa4-f1ab-4578-b22f-b802b6ed1530
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398607(v=OCS.15)
-ms:contentKeyID: 49310256
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: подготовка доменных служб Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing Active Directory Domain Services
+ms:assetid: 7b0d9aa4-f1ab-4578-b22f-b802b6ed1530
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398607(v=OCS.15)
+ms:contentKeyID: 48184583
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7deb5594c0d3c009ee4b10565bc4dbe12f56d2c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824003"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Подготовка доменных служб Active Directory в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Подготовка доменных служб Active Directory в Lync Server 2013
 
-В сервере Lync Server 2013 можно использовать мастер развертывания Lync Server для подготовки Доменные службы Active Directory или напрямую воспользоваться командлетами командной консоли Командная консоль Lync Server. Кроме того, можно использовать программу командной строки ldifde.exe непосредственно в контроллерах доменов, как описывается ниже в данной статье.
+</div>
 
-Мастер развертывания Lync Server проводит вас по всем задачам подготовки Active Directory.Этот мастер развертывания выполняет командлеты командной консоли Командная консоль Lync Server. Это средство удобно использовать в средах с топологией из одного домена и одного леса и с другими аналогичными топологиями.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-02-19_
+
+В Lync Server 2013 можно использовать мастер развертывания Lync Server для подготовки доменных служб Active Directory, а также использовать командлеты командной консоли Lync Server напрямую. Кроме того, вы можете использовать средство командной строки ldifde. exe непосредственно на контроллерах домена, как описано далее в этой статье.
+
+Мастер развертывания Lync Server поможет вам пройти все задачи подготовки Active Directory. Мастер развертывания выполнит командлеты командной консоли Lync Server. Этот инструмент полезен для сред с одним доменом и топологией с одним лесом или с другой аналогичной топологией.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Можно разворачивать Lync Server в лесу или домене, где контроллеры доменов имеют 32-разрядные версии некоторых операционных систем (подробные сведения см. в статье <a href="lync-server-2013-active-directory-infrastructure-requirements.md">Требования к инфраструктуре Active Directory для Lync Server 2013</a>). Однако в таких средах нельзя использовать мастер развертывания Lync Server для выполнения подготовки схемы, леса и доменов, поскольку мастер развертывания и вспомогательные имеют только 64-разрядную версию. Вместо этого мастера для подготовки схемы, леса и домена можно воспользоваться программой ldifde.exe и соответствующими IDF-файлами в 32-разрядном контроллере домена. См. раздел «Использование командлетов и Ldifde.exe» ниже в этой статье.
+> Вы можете развернуть Lync Server в лесу или домене, где контроллеры домена выполняют 32-разрядные версии некоторых операционных систем (Дополнительные сведения можно найти в разделе <A href="lync-server-2013-active-directory-infrastructure-requirements.md">требования к инфраструктуре службы каталогов Active Directory для Lync Server 2013</A>). Однако вы не можете использовать мастер развертывания Lync Server для подготовки схемы, леса и домена в этих средах, так как мастер развертывания и вспомогательные файлы предназначены только для 64. Вместо этого вы можете подготовить схему, лес и домен с помощью LDIFDE. exe и связанных с ними LDF-файлов на контроллере домена 32-bit. Ознакомьтесь с разделом "использование командлетов и LDIFDE. exe" Далее в этом разделе.
 
-Командлеты командной консоли Командная консоль Lync Server можно использовать для выполнения задач удаленно или в более сложных средах.
 
-## Необходимые условия для подготовки Active Directory
 
-Действия по подготовке Active Directory необходимо выполнять на компьютере с Windows Server 2012, Windows Server 2012 R2 или Windows Server 2008 R2 с пакетом обновления 1 (SP1) (64-разрядная версия). Для подготовки Active Directory требуется командная консоль Командная консоль Lync Server и OCSCore.
+</div>
 
-Для выполнения задач подготовки Active Directory необходимы следующие компоненты.
+Вы можете использовать командлеты командной консоли Lync Server для удаленного запуска задач или для более сложных сред.
 
-  - Lync Server Компоненты ядра (OCScore.msi).
+<div>
+
+## <a name="active-directory-preparation-prerequisites"></a>Необходимые условия для подготовки службы каталогов Active Directory
+
+Вы должны выполнить подготовительные шаги Active Directory на компьютере под управлением Windows Server 2012, Windows Server 2012 R2 или Windows Server 2008 R2 с пакетом обновления 1 (64-разр.). Для подготовки Active Directory требуется командная консоль Lync Server Management Shell и Окскоре.
+
+Для выполнения задач подготовки Active Directory требуются следующие компоненты:
+
+  - Основные компоненты Lync Server (Окскоре. msi)
     
+    <div>
+    
+
     > [!NOTE]  
-    > Если планируется использование командной консоли Командная консоль Lync Server для подготовки Active Directory, то сначала необходимо запустить мастер развертывания Lync Server, чтобы установить компоненты ядра.
+    > Если вы планируете использовать командную консоль управления Lync Server для подготовки службы каталогов Active Directory, сначала необходимо запустить мастер развертывания Lync Server для установки основных компонентов.
+
+    
+    </div>
 
   - Платформа Microsoft .NET Framework 4.5.
     
-    > [!NOTE]  
-    > Для Windows Server 2012 и Windows Server 2012 R2 платформа .NET Framework 4.5 устанавливается и активируется с помощью диспетчера серверов. Дополнительные сведения см. в статье &quot;Microsoft .NET Framework 4.5&quot; в <a href="lync-server-2013-additional-software-requirements.md">Дополнительные требования к программному обеспечению для Lync Server 2013</a>. Для Windows Server 2008 R2 загрузите и установите <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</a> с вебсайта Microsoft.
-
-  - Средства удаленного администрирования сервера (RSAT).
+    <div>
     
+
     > [!NOTE]  
-    > Некоторые средства RSAT необходимы, когда действия по подготовке Active Directory выполняются не в контроллере домена, а на рядовом сервере. Установите оснастки AD DS и программы командной строки, а также модуль Active Directory для Windows PowerShell из узла средств AD DS и AD LDS в диспетчере серверов.
+    > Для Windows Server 2012 и Windows Server 2012 R2 нужно установить и активировать платформу .NET Framework 4,5 с помощью диспетчера серверов. Дополнительные сведения можно найти в разделе "Microsoft .NET Framework 4,5" в <A href="lync-server-2013-additional-software-requirements.md">дополнительных требованиях к программному обеспечению для Lync Server 2013</A>. Для Windows Server&nbsp;2008&nbsp;R2 Скачайте и установите <A href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">платформу .NET Framework 4,5</A> на веб-сайте Майкрософт.
 
-  - Распространяемый комплект Microsoft Visual C++ 11.
     
+    </div>
+
+  - Средства удаленного администрирования сервера (RSAT)
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Программа установки предложит установить этот необходимый компонент, если он не был установлен ранее. Пакет вам поставляется, и не придется приобретать его отдельно.
+    > Некоторые инструменты для RSAT нужны при запуске шагов подготовки Active Directory на рядовом сервере, а не на контроллере домена. Установите оснастки AD DS и средства командной строки и модуль Active Directory для Windows PowerShell из узла "средства AD DS и AD LDS" в диспетчере серверов.
 
-  - Windows PowerShell 3.0 (64-разрядная версия).
     
-    Для Windows Server 2012 и Windows Server 2012 R2, компонент Windows PowerShell 3.0 должен быть включен в установку Lync Server 2013. Для Windows Server 2008 R2 необходимо установить или выполнить обновление до Windows PowerShell 3.0. Дополнительные сведения см. в статье [Установка Windows PowerShell 3.0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+    </div>
 
-## Права и роли администратора
+  - Распространяемый пакет Microsoft Visual C++ 11
+    
+    <div>
+    
 
-В следующей таблице приведены административные права и роли, которые необходимы для каждой задачи подготовки Active Directory.
+    > [!NOTE]  
+    > Программа установки предложит установить этот компонент, если он еще не установлен на компьютере. Пакет предоставляется вам, и вы не сможете его получить отдельно.
 
-### Права пользователя, необходимые для подготовки Active Directory
+    
+    </div>
+
+  - Windows PowerShell 3,0 (64-разр.)
+    
+    Для Windows Server 2012 и Windows Server 2012 R2, Windows PowerShell 3,0 следует включить в установку Lync Server 2013. Для Windows Server 2008 R2 необходимо установить или обновить приложение до Windows PowerShell 3,0. Дополнительные сведения можно найти в разделе [Установка Windows PowerShell 3,0 для Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+
+</div>
+
+<div>
+
+## <a name="administrator-rights-and-roles"></a>Права и роли администратора
+
+В следующей таблице показаны права администратора и роли, необходимые для каждой задачи подготовки Active Directory.
+
+### <a name="user-rights-required-for-active-directory-preparation"></a>Права пользователей, необходимые для подготовки службы каталогов Active Directory
 
 <table>
 <colgroup>
@@ -67,32 +124,36 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Процедура</th>
-<th>Права или роли</th>
+<th>Процедур</th>
+<th>Права и роли</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Подготовка схемы</p></td>
-<td><p>Членство в группе администраторов схемы для корневого домена леса и права администратора для хозяина схемы</p></td>
+<td><p>Группа "Администраторы схемы" для корневого домена леса и права администратора на хозяине схемы</p></td>
 </tr>
 <tr class="even">
 <td><p>Подготовка леса</p></td>
-<td><p>Членство в группе администраторов предприятия для леса</p></td>
+<td><p>Член группы администраторов предприятия для леса</p></td>
 </tr>
 <tr class="odd">
 <td><p>Подготовка домена</p></td>
-<td><p>Членство в группе администраторов предприятия или в группе администраторов домена для конкретного домена</p></td>
+<td><p>Входить в группу "Администраторы предприятия" или "Администраторы домена" для указанного домена</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Командлеты подготовки Active Directory
+</div>
 
-В следующей таблице сравниваются командлеты командной консоли Командная консоль Lync Server, используемые для подготовки AD DS, с командами LcsCmd, используемыми для подготовки AD DS в Microsoft Office Communications Server 2007 R2.
+<div>
 
-### Командлеты в сравнении с командами LcsCmd
+## <a name="active-directory-preparation-cmdlets"></a>Командлеты подготовки службы каталогов Active Directory
+
+В следующей таблице сравниваются командлеты командной консоли Lync Server, используемые для подготовки AD DS к командам Лкскмд, используемым для подготовки AD DS в Microsoft Office Communications Server 2007 R2.
+
+### <a name="cmdlets-compared-to-lcscmd"></a>Командлеты по сравнению с Лкскмд
 
 <table>
 <colgroup>
@@ -102,72 +163,91 @@ _**Дата изменения раздела:** 2016-12-08_
 <thead>
 <tr class="header">
 <th>Командлеты</th>
-<th>Команды LcsCmd</th>
+<th>Лкскмд</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Install-CsAdServerSchema</p></td>
-<td><p>Lcscmd /forest /action:SchemaPrep /SchemaType:Server</p></td>
+<td><p>Лкскмд/Forest/Актион: Счемапреп/Счематипе: Server</p></td>
 </tr>
 <tr class="even">
 <td><p>Get-CsAdServerSchema</p></td>
-<td><p>Lcscmd /forest /action:CheckSchemaPrepState</p></td>
+<td><p>Лкскмд/Forest/Актион: Чекксчемапрепстате</p></td>
 </tr>
 <tr class="odd">
 <td><p>Enable-CsAdForest</p></td>
-<td><p>Lcscmd /forest /action:ForestPrep</p></td>
+<td><p>Лкскмд/Forest/Актион: ForestPrep</p></td>
 </tr>
 <tr class="even">
 <td><p>Disable-CsAdForest</p></td>
-<td><p>Lcscmd /forest /action:ForestUnprep</p></td>
+<td><p>Лкскмд/Forest/Актион: Форестунпреп</p></td>
 </tr>
 <tr class="odd">
 <td><p>Get-CsAdForest</p></td>
-<td><p>Lcscmd /forest /action:CheckForestPrepState</p></td>
+<td><p>Лкскмд/Forest/Актион: Чеккфорестпрепстате</p></td>
 </tr>
 <tr class="even">
 <td><p>Enable-CsAdDomain</p></td>
-<td><p>Lcscmd /domain /action:DomainPrep</p></td>
+<td><p>Лкскмд/Domain/Актион: Домаинпреп</p></td>
 </tr>
 <tr class="odd">
 <td><p>Disable-CsAdDomain</p></td>
-<td><p>Lcscmd /domain /action: DomainUnprep</p></td>
+<td><p>Лкскмд/Domain/Актион: Домаинунпреп</p></td>
 </tr>
 <tr class="even">
 <td><p>Get-CsAdDomain</p></td>
-<td><p>Lcscmd /domain /action:CheckDomainPrepState</p></td>
+<td><p>Лкскмд/Domain/Актион: Чеккдомаинпрепстате</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Блокирование требований Active Directory
+</div>
 
-Если в вашей организации отключено наследование разрешений, или должны быть отключены разрешения авторизованного пользователя, то во время подготовки домена необходимо выполнить дополнительные действия. Подробные сведения см. в статье [Подготовка заблокированных доменных служб Active Directory в Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
+<div>
 
-## Разрешения настраиваемых контейнеров
+## <a name="locked-down-active-directory-requirements"></a>Заблокированные требования Active Directory
 
-Если в вашей организации вместо трех встроенных контейнеров ("Пользователи", "Компьютеры" и "Контроллеры доменов") используются настраиваемые контейнеры, то необходимо предоставить группе авторизованных пользователей доступ на чтение в этих настраиваемых контейнерах. Доступ на чтение в этих контейнерах необходим для подготовки домена. Подробные сведения см. в статье [Подготовка доменов для Lync Server 2013](lync-server-2013-preparing-domains.md).
+Если наследование разрешений отключено или разрешения пользователей, прошедших проверку подлинности, должны быть отключены в вашей организации, необходимо выполнить дополнительные действия в процессе подготовки домена. Дополнительные сведения можно найти [в разделе Подготовка заблокированных доменных служб Active Directory в Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
 
-## Использование командлетов и Ldifde.exe
+</div>
 
-Действие **Prepare Schema (Подготовка схемы)** в мастере развертывания Lync Server и командлет **Install-CsAdServerSchema** распространяют схему Active Directory на контроллеры доменов с 64-разрядной операционной системой. Если требуется распространить схему Active Directory на контроллер домена с 32-разрядной операционной системой, можно выполнить командлет **Install-CsAdServerSchema** удаленно с рядового сервера (это рекомендуемый подход). Однако если требуется выполнить подготовку схемы непосредственно в контроллере домена, можно использовать программу Ldifde.exe для импорта файлов схемы. Программа Ldifde.exe поставляется с большинством версий операционной системы Windows.
+<div>
 
-Если импорт файлов схемы выполняется с помощью программы Ldifde.exe, то необходимо импортировать все файлы, независимо от того, выполняется ли миграция от предыдущей версии или чистая установка. Эти файлы необходимо импортировать в следующем порядке:
+## <a name="custom-container-permissions"></a>Разрешения для настраиваемого контейнера
 
-1.  ExternalSchema.ldf;
+Если в вашей организации используются пользовательские контейнеры вместо трех встроенных контейнеров (то есть пользователей, компьютеров и контроллеров домена), необходимо предоставить доступ на чтение настраиваемым контейнерам для группы пользователей, прошедших проверку подлинности. Для подготовки домена требуется доступ на чтение к контейнерам. Дополнительные сведения можно найти в разделе [Подготовка доменов для Lync Server 2013](lync-server-2013-preparing-domains.md).
 
-2.  ServerSchema.ldf;
+</div>
 
-3.  BackCompatSchema.ldf;
+<div>
 
-4.  VersionSchema.ldf.
+## <a name="using-cmdlets-and-ldifdeexe"></a>Использование командлетов и LDIFDE. exe
+
+Этап **подготовки схемы** в мастере развертывания Lync Server и командлет **Install-Ксадсерверсчема** расширяет схему Active Directory на контроллерах домена под управлением 64-разрядной операционной системы. Если вам нужно продлить схему Active Directory на контроллере домена под управлением 32-разрядной операционной системы, вы можете выполнить командлет **Install-ксадсерверсчема** удаленно с рядового сервера (рекомендуемый способ). Тем не менее, если требуется выполнить подготовку схемы непосредственно на контроллере домена, можно использовать средство ldifde. exe для импорта файлов схемы. Средство Ldifde. exe поставляется с большинством версий операционной системы Windows.
+
+Если для импорта файлов схемы используется программа LDIFDE. exe, необходимо импортировать все четыре файла независимо от того, выполняется ли миграция из предыдущей версии или выполняется чистая установка. Вы должны импортировать их в следующей последовательности:
+
+1.  Екстерналсчема. ldf
+
+2.  Серверсчема. ldf
+
+3.  Бакккомпатсчема. ldf
+
+4.  Версионсчема. ldf
+
+<div>
+
 
 > [!NOTE]  
-> Эти четыре LDF-файла расположены в каталоге \Support\Schema установочного носителя или загрузки.
+> Четыре LDF файлов находятся в каталоге \Суппорт\счема установочного носителя или файле.
 
-Чтобы с помощью программы Ldifde.exe импортировать эти четыре файла схемы в контроллер домена, который является хозяином схемы, используйте следующий формат:
+
+
+</div>
+
+Чтобы использовать Ldifde. exe для импорта четырех файлов схемы на контроллере домена, который является хозяином схемы, используйте следующий формат:
 
     ldifde -i -v -k -s <DCName> -f <Schema filename> -c DC=X <defaultNamingContext> -j logFilePath -b <administrator account> <logon domain> <password>
 
@@ -175,20 +255,43 @@ _**Дата изменения раздела:** 2016-12-08_
 
     ldifde -i -v -k -s DC1 -f ServerSchema.ldf -c DC=X "DC=contoso,DC=com" -j C:\BatchImportLogFile -b Administrator contoso password
 
-> [!NOTE]  
-> Параметр b следует использовать только в том случае, если вы вошли как другой пользователь. Подробные сведения о необходимых правах пользователя см. в разделе &quot;Права и роли администратора&quot; выше в этой статье.
+<div>
 
-Чтобы с помощью программы Ldifde.exe импортировать эти четыре файла схемы в контроллер домена, который не является хозяином схемы, используйте следующий формат:
+
+> [!NOTE]  
+> Параметр b следует использовать только в том случае, если вы вошли в систему под учетной записью другого пользователя. Подробные сведения о необходимых правах пользователей можно найти в разделе "права и роли администратора", приведенном ранее в этой статье.
+
+
+
+</div>
+
+Чтобы использовать Ldifde. exe для импорта четырех файлов схемы на контроллере домена, который не является хозяином схемы, используйте следующий формат:
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Подробные сведения об использовании программы Ldifde см. в статье 237677 базы знаний Майкрософт "Использование средства LDIFDE для импорта и экспорта объектов каталогов в Active Directory" по адресу [http://go.microsoft.com/fwlink/?linkid=132204\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=132204%26clcid=0x419).
+Подробнее об использовании ldifde можно узнать в статье 237677 базы знаний Майкрософт "использование LDIFDE для импорта и экспорта объектов службы каталогов Active Directory" [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204).
 
-## Содержание
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Подготовка схемы Active Directory в Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)
 
   - [Подготовка леса для Lync Server 2013](lync-server-2013-preparing-the-forest.md)
 
   - [Подготовка доменов для Lync Server 2013](lync-server-2013-preparing-domains.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: операции'
-TOCTitle: Операции
-ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398344(v=OCS.15)
-ms:contentKeyID: 49309781
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: операции'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Operations
+ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)
+ms:contentKeyID: 48184155
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63fe79fbf30d41f3f365d3ae06027cb43e557b1f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825837"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Операции в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-01-26_
+# <a name="operations-in-lync-server-2013"></a>Операции в Lync Server 2013
 
-В подразделах этого раздела описывается использование средств управления для настройки развертывания Lync Server 2013 и управления им.
+</div>
 
-## Содержание
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2015-01-26_
+
+В этой статье объясняется, как использовать средства управления для настройки развертывания Lync Server 2013 и управления ими.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
 
   - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
 
@@ -51,7 +73,7 @@ _**Дата изменения раздела:** 2015-01-26_
 
   - [Управление службой Enhanced 9-1-1 и службой расположения в Lync Server 2013](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
-  - [Управление службами Lync Server 2013 и ролями сервера](lync-server-2013-managing-lync-server-services-and-server-roles.md)
+  - [Управление службами и серверными ролями Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
   - [Управление приложениями в Lync Server 2013](lync-server-2013-managing-applications.md)
 
@@ -59,16 +81,32 @@ _**Дата изменения раздела:** 2015-01-26_
 
   - [Резервное копирование и восстановление Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Конфигурация наблюдения за работоспособностью Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Конфигурация мониторинга и работоспособности в Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
 
-  - [Командная консоль Lync Server](lync-server-2013-lync-server-management-shell.md)
+  - [командная консоль Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
 
   - [Анализатор соответствия рекомендациям Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md)
 
-## См. также
+</div>
 
-#### Другие ресурсы
+<div>
 
-[Развертывание](lync-server-2013-deployment.md)  
-[Планирование](lync-server-2013-planning.md)
+## <a name="see-also"></a>См. также
+
+
+[Развертывание Lync Server 2013](lync-server-2013-deployment.md)  
+[Планирование для Lync Server 2013](lync-server-2013-planning.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
