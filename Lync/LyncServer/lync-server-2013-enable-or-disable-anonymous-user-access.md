@@ -1,64 +1,121 @@
-﻿---
-title: 'Lync Server 2013: включение или отключение анонимного доступа пользователей'
-TOCTitle: Включение или отключение анонимного доступа пользователей
-ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ619192(v=OCS.15)
-ms:contentKeyID: 49311619
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: включение или отключение анонимного доступа пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable anonymous user access
+ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
+ms:contentKeyID: 49733872
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d07bf27f5424f121c5dcf070f5231e2fd8c324f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834312"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Включение или отключение анонимного доступа пользователей в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a><span data-ttu-id="09a57-102">Включение или отключение анонимного доступа пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09a57-102">Enable or disable anonymous user access in Lync Server 2013</span></span>
 
-Анонимными являются те пользователи, у которых нет учетных записей в доменных службах Доменные службы Active Directory вашей организации или в поддерживаемом федеративном домене, но которых можно пригласить удаленно участвовать в локальной конференции. Разрешая анонимное участие в собраниях, вы позволяете анонимным пользователям (удостоверение которых подтверждено только ключом собрания или конференции) присоединяться к собраниям. Для разрешения анонимного участия необходимо включить его в своей организации.
+</div>
 
-Если позднее вам потребуется запретить анонимный доступ пользователей на временной или постоянной основе, вы можете отключить его в своей организации. Используйте приведенную здесь процедуру для включения и отключения анонимного доступа пользователей в своей организации.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="09a57-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="09a57-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="09a57-104">Анонимные пользователи — это пользователи, у которых нет учетной записи пользователя в доменных службах Active Directory или в поддерживаемом Федеративной домене, но может быть приглашено удаленно участвовать в локальной конференции.</span><span class="sxs-lookup"><span data-stu-id="09a57-104">Anonymous users are users who do not have a user account in your organization's Active Directory Domain Services or in a supported federated domain, but can be invited to participate remotely in an on-premises conference.</span></span> <span data-ttu-id="09a57-105">Разрешая Анонимное участие в собраниях, вы включаете анонимных пользователей (то есть для пользователей, чьи удостоверения проверяются только с помощью собрания или ключа конференции) для присоединения к собраниям.</span><span class="sxs-lookup"><span data-stu-id="09a57-105">By allowing anonymous participation in meetings you enable anonymous users (that is, users whose identity is verified through the meeting or conference key only) to join meetings.</span></span> <span data-ttu-id="09a57-106">Разрешение анонимного участия требует ее включения в вашу организацию.</span><span class="sxs-lookup"><span data-stu-id="09a57-106">Allowing anonymous participation requires enabling it for your organization.</span></span>
+
+<span data-ttu-id="09a57-107">Если позже вы захотите временно запретить доступ анонимных пользователей к Интернету, вы можете отключить ее для своей организации.</span><span class="sxs-lookup"><span data-stu-id="09a57-107">If you later want to temporarily or permanently prevent access by anonymous users, you can disable it for your organization.</span></span> <span data-ttu-id="09a57-108">Чтобы включить или отключить анонимный доступ для пользователей в Организации, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="09a57-108">Use the procedure in this section to enable or disable anonymous user access for your organization.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Включив анонимный доступ пользователей для своей организации, вы просто указываете, что ваши серверы с пограничной службой доступа поддерживают анонимный доступ пользователей. Анонимные пользователи не могут участвовать в собраниях вашей организации, пока вы не настроите хотя бы одну политику конференц-связи и не примените ее к одному или нескольким пользователям или группам пользователей. Приглашать анонимных пользователей на собрания могут только пользователи, которым назначена политика конференц-связи, настроенная для поддержки анонимных пользователей. Дополнительные сведения о настройке политик конференц-связи для поддержки приглашения анонимных пользователей см. в разделе <a href="lync-server-2013-conferencing-policies.md">Политики конференц-связи в Lync Server 2013</a>.
+> <span data-ttu-id="09a57-109">Включив анонимные пользователи, вы указываете, что серверы, на которых работает служба EDGE, должны поддерживать доступ анонимных пользователей.</span><span class="sxs-lookup"><span data-stu-id="09a57-109">By enabling anonymous user access for your organization you are only specifying that your servers running the Access Edge service support access by anonymous users.</span></span> <span data-ttu-id="09a57-110">Анонимные пользователи не могут принимать участие в собраниях в вашей организации, пока не будет настроена хотя бы одна политика Конференции и она будет применена к одному или нескольким пользователям или группам пользователей.</span><span class="sxs-lookup"><span data-stu-id="09a57-110">Anonymous users cannot participate in any meetings in your organization until you also configure at least one conferencing policy and apply it to one or more users or user groups.</span></span> <span data-ttu-id="09a57-111">Пользователи, которые могут пригласить анонимных пользователей на собрания, — это те, которым назначена политика конференций, настроенная для поддержки анонимных пользователей.</span><span class="sxs-lookup"><span data-stu-id="09a57-111">The only users that can invite anonymous users to meetings are those users that are assigned a conferencing policy that is configured to support anonymous users.</span></span> <span data-ttu-id="09a57-112">Дополнительные сведения о настройке политик конференц-связи для анонимных пользователей можно найти <A href="lync-server-2013-conferencing-policies.md">в разделе политики конференц-связи в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="09a57-112">For details about configuring conferencing policies to support inviting anonymous users, see <A href="lync-server-2013-conferencing-policies.md">Conferencing policies in Lync Server 2013</A>.</span></span>
 
-## Включение и отключение анонимного доступа пользователей в своей организации
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  В левой панели навигации щелкните **Доступ для внешних пользователей** и **Настройка пограничного доступа** .
+<div>
 
-4.  На странице **Настройка пограничного доступа** выберите пункты **Глобальная** и **Изменить** , а затем щелкните **Подробнее** .
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a><span data-ttu-id="09a57-113">Включение и отключение анонимного доступа пользователей к Организации</span><span class="sxs-lookup"><span data-stu-id="09a57-113">To enable or disable anonymous user access for your organization</span></span>
 
-5.  В разделе **Изменить настройку пограничного доступа** выполните одно из следующих действий.
+1.  <span data-ttu-id="09a57-114">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="09a57-114">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="09a57-115">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="09a57-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="09a57-116">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="09a57-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="09a57-117">На панели навигации слева выберите элемент **внешний доступ к пользователю**, а затем — **Конфигурация Edge Access**.</span><span class="sxs-lookup"><span data-stu-id="09a57-117">In the left navigation bar, click **External User Access**, and then click **Access Edge Configuration**.</span></span>
+
+4.  <span data-ttu-id="09a57-118">На странице **конфигурации Edge Access** щелкните **Глобальная**, выберите пункт **изменить**, а затем — **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="09a57-118">On the **Access Edge Configuration** page, click **Global**, click **Edit**, and then click **Show details**.</span></span>
+
+5.  <span data-ttu-id="09a57-119">В окне **изменение конфигурации Edge Access**выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="09a57-119">In **Edit Access Edge Configuration**, do one of the following:</span></span>
     
-      - Чтобы включить анонимный доступ пользователей для своей организации, установите флажок **Разрешить взаимодействие с анонимными пользователями** .
+      - <span data-ttu-id="09a57-120">Чтобы включить анонимный доступ для пользователей в Организации, установите флажок **включить связь с анонимными пользователями** .</span><span class="sxs-lookup"><span data-stu-id="09a57-120">To enable anonymous user access for your organization, select the **Enable communications with anonymous users** check box.</span></span>
     
-      - Чтобы отключить анонимный доступ пользователей для своей организации, снимите флажок **Разрешить взаимодействие с анонимными пользователями** .
+      - <span data-ttu-id="09a57-121">Чтобы запретить анонимный доступ к Организации, снимите флажок **включить связь с анонимными пользователями** .</span><span class="sxs-lookup"><span data-stu-id="09a57-121">To disable anonymous user access for your organization, clear the **Enable communications with anonymous users** check box.</span></span>
 
-6.  Щелкните **Исполнить** .
+6.  <span data-ttu-id="09a57-122">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="09a57-122">Click **Commit**.</span></span>
 
-## Включение или отключение анонимного доступа пользователей с помощью командлетов Windows PowerShell
+</div>
 
-Вы можете управлять анонимным доступом пользователей с помощью Windows PowerShell и командлета **Set-CsAccessEdgeConfiguration**. Этот командлет можно выполнить из командная консоль Lync Server 2013 или удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Включение анонимного доступа пользователей
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="09a57-123">Включение и отключение анонимного доступа пользователей с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="09a57-123">Enabling or Disabling Anonymous User Access by Using Windows PowerShell Cmdlets</span></span>
 
-  - Чтобы включить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение True ($True):
+<span data-ttu-id="09a57-124">Управлять доступом анонимных пользователей можно с помощью Windows PowerShell и командлета **Set-ксакцесседжеконфигуратион** .</span><span class="sxs-lookup"><span data-stu-id="09a57-124">You can manage anonymous user access by using Windows PowerShell and the **Set-CsAccessEdgeConfiguration** cmdlet.</span></span> <span data-ttu-id="09a57-125">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="09a57-125">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="09a57-126">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="09a57-126">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-enable-anonymous-user-access"></a><span data-ttu-id="09a57-127">Разрешение анонимного доступа пользователей</span><span class="sxs-lookup"><span data-stu-id="09a57-127">To enable anonymous user access</span></span>
+
+  - <span data-ttu-id="09a57-128">Чтобы включить анонимный доступ для пользователей, присвойте свойству **аллованонимаусусерс** значение True ($true):</span><span class="sxs-lookup"><span data-stu-id="09a57-128">To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):</span></span>
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## Отключение анонимного доступа пользователей
+</div>
 
-  - Чтобы отключить анонимный доступ пользователей, установите для свойства **AllowAnonymousUsers** значение False ($False):
+<div>
+
+## <a name="to-disable-anonymous-user-access"></a><span data-ttu-id="09a57-129">Отключение анонимного доступа пользователей</span><span class="sxs-lookup"><span data-stu-id="09a57-129">To disable anonymous user access</span></span>
+
+  - <span data-ttu-id="09a57-130">Чтобы запретить анонимный доступ пользователей, установите для свойства **аллованонимаусусерс** значение False ($false):</span><span class="sxs-lookup"><span data-stu-id="09a57-130">To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):</span></span>
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
-## См. также
+</div>
 
-#### Концепции
+</div>
 
-[Информация о параметрах политики конференц-связи в Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="09a57-131">См. также</span><span class="sxs-lookup"><span data-stu-id="09a57-131">See Also</span></span>
+
+
+[<span data-ttu-id="09a57-132">Справочник по параметрам политики конференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09a57-132">Conferencing policy settings reference for Lync Server 2013</span></span>](lync-server-2013-conferencing-policy-settings-reference.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

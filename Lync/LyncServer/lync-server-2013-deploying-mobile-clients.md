@@ -1,34 +1,74 @@
-﻿---
-title: Развертывание мобильных клиентов
-TOCTitle: Развертывание мобильных клиентов
-ms:assetid: f6e237f8-f38c-4812-8fd8-c5202e7c4045
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh691005(v=OCS.15)
-ms:contentKeyID: 49311691
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: развертывание мобильных клиентов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying mobile clients
+ms:assetid: f6e237f8-f38c-4812-8fd8-c5202e7c4045
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691005(v=OCS.15)
+ms:contentKeyID: 48185854
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a1b0683ac6f4d249d6a0173ab2f6d3bed294a1a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834533"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Развертывание мобильных клиентов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="deploying-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="e7c4b-102">Развертывание мобильных клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7c4b-102">Deploying mobile clients in Lync Server 2013</span></span>
 
-Приложения Lync 2013 для мобильных клиентов предоставляют функции обмена мгновенными сообщениями, улучшенных сведений о присутствии и телефонии пользователям в организации, которые осуществляют подключение посредством смартфона или телефона под управлением выпуска Professional операционной системы Windows Mobile. Можно порекомендовать пользователям установить Lync 2013, предоставив им ссылку на магазин приложений для их мобильного телефона.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e7c4b-103">_**Тема последнего изменения:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="e7c4b-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+
+<span data-ttu-id="e7c4b-104">Приложения Lync 2013 для мобильных клиентов обеспечивают обмен мгновенными сообщениями, расширенные возможности присутствия и телефонию для пользователей в вашей организации, которые подключаются с смартфона или телефона, на котором работает профессиональный выпуск Windows Mobile.</span><span class="sxs-lookup"><span data-stu-id="e7c4b-104">Lync 2013 apps for mobile clients provide instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a phone running a Professional edition of Windows Mobile.</span></span> <span data-ttu-id="e7c4b-105">Вы можете подать пользователям возможность установить Lync 2013, направив их на рынок приложений на мобильном телефоне.</span><span class="sxs-lookup"><span data-stu-id="e7c4b-105">You can instruct your users to install Lync 2013 by directing them to the app marketplace for their mobile phone.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 также поддерживает Lync 2010 для мобильных клиентов. Подробные сведения см. в следующих статьях библиотеки TechNet Lync Server 2010:<ul>
-> 
-> <li><p>«Планирование для мобильных клиентов» на веб-сайте <a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>.</p></li>
-> 
-> 
-> <li><p>«Развертывание мобильных клиентов» на веб-сайте <a href="http://go.microsoft.com/fwlink/?linkid=236068" class="uri">http://go.microsoft.com/fwlink/?linkid=236068</a>.</p></li></ul>
+> <span data-ttu-id="e7c4b-106">Lync Server 2013 также поддерживает Lync 2010 для мобильных клиентов.</span><span class="sxs-lookup"><span data-stu-id="e7c4b-106">Lync Server 2013 also supports Lync 2010 for mobile clients.</span></span> <span data-ttu-id="e7c4b-107">Подробные сведения можно найти в следующих статьях в библиотеке TechNet Server 2010:</span><span class="sxs-lookup"><span data-stu-id="e7c4b-107">For details, refer to the following articles in the Lync Server 2010 TechNet library:</span></span> 
+> <UL>
+> <LI>
+> <P><span data-ttu-id="e7c4b-108">"Планирование для мобильных клиентов" в <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span><span class="sxs-lookup"><span data-stu-id="e7c4b-108">“Planning for Mobile Clients” at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="e7c4b-109">"Развертывание мобильных клиентов" на <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</span><span class="sxs-lookup"><span data-stu-id="e7c4b-109">“Deploying Mobile Clients” at <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>.</span></span></P></LI></UL>
 
 
-## Содержание
 
-  - [Развертывание Lync для Windows Phone](lync-server-2013-deploying-lync-for-windows-phone.md)
+</div>
 
-  - [Развертывание Lync для iPhone и iPad](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="e7c4b-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="e7c4b-110">In This Section</span></span>
+
+  - [<span data-ttu-id="e7c4b-111">Развертывание Lync для Windows Phone в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7c4b-111">Deploying Lync for Windows Phone in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-for-windows-phone.md)
+
+  - [<span data-ttu-id="e7c4b-112">Развертывание Lync для iPhone и iPad в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7c4b-112">Deploying Lync for iPhone and iPad in Lync Server 2013</span></span>](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

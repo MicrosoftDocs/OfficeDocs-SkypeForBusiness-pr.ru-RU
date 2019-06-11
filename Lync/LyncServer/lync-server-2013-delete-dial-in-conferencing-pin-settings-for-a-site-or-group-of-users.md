@@ -1,36 +1,77 @@
-﻿---
-title: "Lync Server 2013: уд. парам. ПИН-кода для конф. с тел. подкл. для сайта или группы польз."
-TOCTitle: "Lync Server 2013: уд. парам. ПИН-кода для конф. с тел. подкл. для сайта или группы польз."
-ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520955(v=OCS.15)
-ms:contentKeyID: 49309045
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Удаление параметров контакта конференц-связи с телефонным подключением для сайта или группы пользователей
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete dial-in conferencing PIN settings for a site or group of users
+ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520955(v=OCS.15)
+ms:contentKeyID: 48183498
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 488970df9e85bdbf8e3f2d8cbe21965eaf3c621c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834608"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление параметров ПИН-кода для конференц-связи с телефонным подключением для сайта или группы пользователей
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-18_
+# <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a><span data-ttu-id="4c620-102">Удаление параметров контакта конференц-связи с телефонным подключением для сайта или группы пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c620-102">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>
 
-Для удаления политики ПИН-кодов уровня пользователя или сайта выполните следующие действия.
+</div>
 
-> [!NOTE]  
-> Глобальную политику ПИН-кодов удалить нельзя.
+<div id="mainSection">
 
-## Удаление политики ПИН-кодов на уровне пользователя или сайта
+<div id="mainBody">
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+<span> </span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="4c620-103">_**Тема последнего изменения:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="4c620-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-3.  В левой панели навигации щелкните элемент **Конференц-связь**, а затем элемент **Политика ПИН-кодов**.
+<span data-ttu-id="4c620-104">Выполните эти действия, чтобы удалить политику ПИН уровня пользователя или сайта.</span><span class="sxs-lookup"><span data-stu-id="4c620-104">Follow these steps to delete a user-level or a site-level PIN policy.</span></span>
 
-4.  На странице **Политика ПИН-кодов** в поле поиска полностью или частично введите имя политики, которую требуется удалить.
+<div>
 
-5.  В появившемся списке политик щелкните нужную политику и последовательно выберите в меню пункты **Правка** и **Удалить**.
 
-6.  Нажмите кнопку **ОК**.
+> [!NOTE]
+> <span data-ttu-id="4c620-105">Глобальную политику ПИН-кодов удалить нельзя.</span><span class="sxs-lookup"><span data-stu-id="4c620-105">You cannot delete the global PIN policy.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="to-delete-a-user-or-site-pin-policy"></a><span data-ttu-id="4c620-106">Удаление политики ПИН для пользователя или сайта</span><span class="sxs-lookup"><span data-stu-id="4c620-106">To delete a user or site PIN policy</span></span>
+
+1.  <span data-ttu-id="4c620-107">Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4c620-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+
+2.  <span data-ttu-id="4c620-108">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4c620-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4c620-109">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="4c620-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="4c620-110">В левой панели навигации щелкните элемент **Конференц-связь**, а затем щелкните элемент **Политика ПИН-кодов**.</span><span class="sxs-lookup"><span data-stu-id="4c620-110">In the left navigation bar, click **Conferencing**, and then click **PIN Policy**.</span></span>
+
+4.  <span data-ttu-id="4c620-111">На странице " **политика ПИН-кода** " в поле "Поиск" введите имя или часть имени политики, которую вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="4c620-111">On the **PIN Policy** page, in the search field, type all or part of the name of the policy you want to delete.</span></span>
+
+5.  <span data-ttu-id="4c620-112">В списке политик выберите необходимую политику, щелкните **Правка**, затем выберите **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="4c620-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+
+6.  <span data-ttu-id="4c620-113">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="4c620-113">Click **OK**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

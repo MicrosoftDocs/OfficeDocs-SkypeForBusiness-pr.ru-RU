@@ -1,50 +1,83 @@
-﻿---
-title: "Lync Server 2013: перед перен. польз. из Lync Online в локальное разверт. Lync"
-TOCTitle: "Lync Server 2013: перед перен. польз. из Lync Online в локальное разверт. Lync"
-ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn689118(v=OCS.15)
-ms:contentKeyID: 62247366
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: первые шаги перед началом миграции пользователей из Lync Online в локальное Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: First steps before you start migrating users from Lync Online to Lync on-premises
+ms:assetid: 98245b04-ded4-4186-8da3-ba1c554b5c39
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689118(v=OCS.15)
+ms:contentKeyID: 62258123
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3e278fcb1e63c1db1334e625765d65d5d556e934
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834142"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Первые действия перед началом переноса пользователей из Lync Online в локальное развертывание Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="723f3-102">Прежде чем приступить к переносу пользователей из Lync Online в локальную версию Lync в Lync Server 2013, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="723f3-102">First steps before you start migrating users from Lync Online to Lync on-premises in Lync Server 2013</span></span>
 
-Прежде чем начинать перемещение пользователей Lync Online в свою локальную среду, убедитесь, что выполняются описанные ниже условия.
+</div>
 
-  - Локальная среда Lync Server должна быть полностью развернута и проверена. Дополнительные сведения см. в статье [Развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md).
+<div id="mainSection">
 
-  - Клиент Lync Online должен быть настроен для удаленного доступа PowerShell.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="723f3-103">_**Тема последнего изменения:** 2014-05-08_</span><span class="sxs-lookup"><span data-stu-id="723f3-103">_**Topic Last Modified:** 2014-05-08_</span></span>
+
+<span data-ttu-id="723f3-104">Прежде чем приступить к перемещению пользователей Lync Online в локальную среду, убедитесь в том, что выполняются все указанные ниже условия.</span><span class="sxs-lookup"><span data-stu-id="723f3-104">Before you start moving Lync Online users to your on-premises environment, check that all of the following are true:</span></span>
+
+  - <span data-ttu-id="723f3-105">Локальная среда Lync Server должна быть полностью развернута и проверена.</span><span class="sxs-lookup"><span data-stu-id="723f3-105">Your Lync Server on-premises environment must be fully deployed and validated.</span></span> <span data-ttu-id="723f3-106">Дополнительные сведения можно найти в разделе [развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span><span class="sxs-lookup"><span data-stu-id="723f3-106">For more information, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md).</span></span>
+
+  - <span data-ttu-id="723f3-107">Клиент Lync Online должен быть настроен для доступа к удаленной оболочке PowerShell.</span><span class="sxs-lookup"><span data-stu-id="723f3-107">Your Lync Online tenant must be configured for remote PowerShell Access.</span></span>
     
-    Для этого сначала установите модуль Skype для бизнеса Online для Windows PowerShell, который можно получить на следующий странице: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
+    <span data-ttu-id="723f3-108">Для этого сначала установите модуль Lync Online для Windows PowerShell, который вы можете найти ниже [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span><span class="sxs-lookup"><span data-stu-id="723f3-108">To do this, first install the Lync Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
     
-    После установки данного модуля можно запустить удаленный сеанс, введя в Командная консоль Lync Server следующие командлеты:
+    <span data-ttu-id="723f3-109">После установки модуля вы можете установить удаленный сеанс, введя следующие командлеты в командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="723f3-109">After you install the module, you can establish a remote session by typing the following cmdlets in the Lync Server Management Shell:</span></span>
     
-    ```
-            Import-Module LyncOnlineConnector
-    ```
-    ```
+       ```
+        Import-Module LyncOnlineConnector
+       ```  
+    
+       ```
         $cred = Get-Credential
-    ```
-    ```
-        $CSSession = New-CsOnlineSession -Credential $cred
-    ```
-    ```
-        Import-PSSession $CSSession -AllowClobber
-    ```
+       ``` 
     
-Дополнительные сведения о запуске удаленного сеанса PowerShell в Skype для бизнеса Online см. в статье [Подключение к Lync Online с использованием Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+       ```
+        $CSSession = New-CsOnlineSession -Credential $cred
+       ```
+    
+       ```
+        Import-PSSession $CSSession -AllowClobber
+       ```
+    
+    <span data-ttu-id="723f3-110">Дополнительные сведения о том, как установить удаленный сеанс PowerShell в Lync Online, можно найти [в разделе Подключение к Lync Online с помощью Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="723f3-110">For more information about how to establish a remote PowerShell session with Lync Online, see [Connecting to Lync Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+  
+    <span data-ttu-id="723f3-111">Дополнительные сведения об использовании модуля Lync Online PowerShell можно найти в разделе [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="723f3-111">For more information about using the Lync Online PowerShell module, see [Using Windows PowerShell to manage Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
-Дополнительные сведения об использовании модуля Skype для бизнеса Online PowerShell см. в статье [Использование Windows PowerShell для управления Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
-
-  - Lync Online должен быть настроен для общедоступного адресного пространства SIP. Для этого сначала запустите удаленный сеанс Powershell с Lync Online. Затем выполните следующий командлет:
+  - <span data-ttu-id="723f3-112">В Lync Online необходимо настроить общее адресное пространство SIP.</span><span class="sxs-lookup"><span data-stu-id="723f3-112">Your Lync Online must be configured for Shared SIP Address Space.</span></span> <span data-ttu-id="723f3-113">Для этого сначала запустите удаленный сеанс PowerShell с помощью Lync Online.</span><span class="sxs-lookup"><span data-stu-id="723f3-113">To do this, first start a remote Powershell session with Lync Online.</span></span> <span data-ttu-id="723f3-114">Затем выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="723f3-114">Then run the following cmdlet:</span></span>
     
         Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
-После завершения этих действий можно перейти к [Миграция пользователей Lync Online в локальное развертывание Lync](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).
+<span data-ttu-id="723f3-115">После выполнения этих действий вы можете перейти к [миграции пользователей Lync Online в локальное Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span><span class="sxs-lookup"><span data-stu-id="723f3-115">After you’ve finished these steps, you can move on to [Migrating Lync Online users to Lync on-premises in Lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

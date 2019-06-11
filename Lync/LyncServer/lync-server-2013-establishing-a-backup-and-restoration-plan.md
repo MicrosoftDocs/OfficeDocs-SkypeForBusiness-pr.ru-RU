@@ -1,118 +1,179 @@
-﻿---
-title: Реализация плана резервного копирования и восстановления
-TOCTitle: Реализация плана резервного копирования и восстановления
-ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh202183(v=OCS.15)
-ms:contentKeyID: 52058286
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: создание плана резервного копирования и восстановления'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Establishing a backup and restoration plan
+ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202183(v=OCS.15)
+ms:contentKeyID: 51541499
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b3516e63a7cbada4a89fad3540406e38b299fef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834193"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Реализация плана резервного копирования и восстановления
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-17_
+# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a><span data-ttu-id="49660-102">Установка плана резервного копирования и восстановления для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49660-102">Establishing a backup and restoration plan for Lync Server 2013</span></span>
 
-Создание плана резервного копирования и восстановления включает следующие этапы:
+</div>
 
-  - Разработка плана
+<div id="mainSection">
 
-  - Реализация плана
+<div id="mainBody">
 
-  - Поддержание плана
+<span> </span>
 
-## Разработка плана резервного копирования и восстановления
+<span data-ttu-id="49660-103">_**Тема последнего изменения:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="49660-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-После разработки стратегии резервного копирования и восстановления для Lync Server используйте ее, чтобы документально зафиксировать подробный план резервного копирования и восстановления. План должен четко отражать приоритеты и требования относительно резервного копирования данных и настроек. Вы можете использовать информацию, доступную в разделе [Определение стратегии резервного копирования и восстановления](lync-server-2013-establishing-a-backup-and-restoration-strategy.md), и рабочие таблицы, представленные в разделе [Листы по резервному копированию и восстановлению](lync-server-2013-backup-and-restoration-worksheets.md), чтобы упростить документирование стратегии. Ваш план должен также содержать критерии для определения времени и способа восстановления обслуживания.
+<span data-ttu-id="49660-104">Создание резервной копии и плана восстановления включает следующие этапы:</span><span class="sxs-lookup"><span data-stu-id="49660-104">Creating a backup and restoration plan involves the following steps:</span></span>
 
-При разработке плана необходимо принимать во внимание и учитывать следующее:
+  - <span data-ttu-id="49660-105">Разработка плана.</span><span class="sxs-lookup"><span data-stu-id="49660-105">Developing the plan.</span></span>
 
-  - Метод восстановления серверов на новом оборудовании
+  - <span data-ttu-id="49660-106">Реализация плана.</span><span class="sxs-lookup"><span data-stu-id="49660-106">Implementing the plan.</span></span>
 
-  - Метод восстановления служб, которые требуют действий со стороны нескольких отделов или бизнес-подразделений
+  - <span data-ttu-id="49660-107">Обслуживание плана.</span><span class="sxs-lookup"><span data-stu-id="49660-107">Maintaining the plan.</span></span>
 
-  - Способ быстрого получения запасных серверов
+<div>
 
-  - Время, необходимое для восстановления с помощью вашей стратегии. Принимайте во внимание требования организации в отношении целевого времени восстановления (RTO).
+## <a name="developing-a-backup-and-restoration-plan"></a><span data-ttu-id="49660-108">Разработка плана резервного копирования и восстановления</span><span class="sxs-lookup"><span data-stu-id="49660-108">Developing a Backup and Restoration Plan</span></span>
 
-Измените процедуры резервного копирования и восстановления в данном разделе, добавив и удалив процедуры по мере необходимости, чтобы отразить серверы и компоненты в развертывании. Вы также можете добавить в процедуры соответствующие данные, такие как расписание резервного копирования, чтобы не упустить какую-либо важную информацию.
+<span data-ttu-id="49660-109">После того как вы разрабатываете стратегию резервного копирования и восстановления для Lync Server, используйте ее для документирования подробного плана резервного копирования и восстановления.</span><span class="sxs-lookup"><span data-stu-id="49660-109">After you develop your backup and restoration strategy for Lync Server, use it to document a detailed backup and restoration plan.</span></span> <span data-ttu-id="49660-110">План должен явным образом передавать приоритеты и требования для резервного копирования данных и параметров.</span><span class="sxs-lookup"><span data-stu-id="49660-110">Your plan should clearly convey the priorities and requirements for backing up data and settings.</span></span> <span data-ttu-id="49660-111">Вы можете использовать информацию о том, [как создать стратегию резервного копирования и восстановления для Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) и листы на [листах резервного копирования и восстановления для Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) , чтобы облегчить документирование стратегии.</span><span class="sxs-lookup"><span data-stu-id="49660-111">You can use the information in [Establishing a backup and restoration strategy for Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) and the worksheets in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) to facilitate the documentation of your strategy.</span></span> <span data-ttu-id="49660-112">План также должен содержать условия для выбора времени и способа восстановления служб.</span><span class="sxs-lookup"><span data-stu-id="49660-112">Your plan should also contain criteria for deciding when and how to restore service.</span></span>
+
+<span data-ttu-id="49660-113">По мере разработки плана необходимо учитывать следующие требования:</span><span class="sxs-lookup"><span data-stu-id="49660-113">As you develop your plan, you need to consider, and account for, the following:</span></span>
+
+  - <span data-ttu-id="49660-114">Как вы будете восстанавливать серверы на новом оборудовании.</span><span class="sxs-lookup"><span data-stu-id="49660-114">How you will recover servers on new hardware.</span></span>
+
+  - <span data-ttu-id="49660-115">Способ восстановления служб, требующих действия, в составе нескольких бизнес-областей или отделов.</span><span class="sxs-lookup"><span data-stu-id="49660-115">How you will recover services that require action on the part of multiple business areas or departments.</span></span>
+
+  - <span data-ttu-id="49660-116">Как можно быстро получить резервные серверы.</span><span class="sxs-lookup"><span data-stu-id="49660-116">How you can acquire spare servers quickly.</span></span>
+
+  - <span data-ttu-id="49660-117">Время, необходимое для восстановления с помощью стратегии.</span><span class="sxs-lookup"><span data-stu-id="49660-117">The time it takes to recover by using your strategy.</span></span> <span data-ttu-id="49660-118">Рассматривайте требования, предъявляемые в вашей организации, к целевому показателю времени восстановления (RTO).</span><span class="sxs-lookup"><span data-stu-id="49660-118">Consider your organization’s requirements for recovery time objective (RTO).</span></span>
+
+<span data-ttu-id="49660-119">Измените процедуры резервного копирования и восстановления, описанные в этой статье, чтобы отразить серверы и компоненты в развертывании, добавляя и удаляя необходимые процедуры.</span><span class="sxs-lookup"><span data-stu-id="49660-119">Modify the backup and restoration procedures in this topic, adding and deleting procedures as appropriate, to reflect the servers and components in your deployment.</span></span> <span data-ttu-id="49660-120">Вы также можете добавить нужные сведения, например расписание резервного копирования, в соответствующие процедуры, чтобы убедиться, что эти сведения не проходили.</span><span class="sxs-lookup"><span data-stu-id="49660-120">You can also add appropriate details, such as the backup schedule, to the appropriate procedures to make sure that the information is not overlooked.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Это хороший способ создания сценариев на столько шагов, на сколько это возможно, чтобы гарантировать качество и воспроизводимость процедур.
+> <span data-ttu-id="49660-121">Рекомендуется создавать сценарии для максимально возможного количества действий, чтобы обеспечить качество и репродуЦибилити процедур.</span><span class="sxs-lookup"><span data-stu-id="49660-121">It is good practice to create scripts for as many steps as possible, to help ensure the quality and reproducibility of procedures.</span></span>
 
-В своем плане укажите, кто отвечает за рассмотрение плана, кто отвечает за тестирование и проверку любых новых процедур и средств и кто должен утвердить изменения плана и связанных процедур.
 
-Чтобы убедиться, что план резервного копирования и восстановления полностью соответствует поставленным целям и приоритетам, получите одобрение соответствующих специалистов, отвечающих за принятие технических и рабочих решений в вашей организации, прежде чем реализовать этот план.
 
-## Реализация плана резервного копирования и восстановления
+</div>
 
-Для реализации плана резервного копирования и восстановления требуется выполнение следующих действий:
+<span data-ttu-id="49660-122">В своем плане укажите, кто является ответственным за просмотр плана, кто отвечает за тестирование и проверку каких – либо новых процедур или средств, а также кто должен утвердить изменения плана и связанных процедур.</span><span class="sxs-lookup"><span data-stu-id="49660-122">In your plan, specify who is responsible for reviewing the plan, who is responsible for testing and validating any new procedures or tools, and who must approve any changes to the plan and related procedures.</span></span>
 
-  - Тестирование и проверка плана
+<span data-ttu-id="49660-123">Чтобы убедиться в том, что план резервного копирования и восстановления полностью отвечает всем установленным целям и приоритетам, прежде чем приступить к реализации плана, получите утверждение соответствующих ответственных бизнес-решений и ответственных за принятие технических решений в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="49660-123">To make sure that your backup and restoration plan fully meets all established goals and priorities, get the approval of the appropriate business decision makers and technical decision makers in your organization before you implement the plan.</span></span>
 
-  - Разъяснение плана
+</div>
 
-  - Проверка операций резервного копирования и восстановления
+<div>
 
-## Тестирование и проверка плана
+## <a name="implementing-the-backup-and-restoration-plan"></a><span data-ttu-id="49660-124">Реализация плана резервного копирования и восстановления</span><span class="sxs-lookup"><span data-stu-id="49660-124">Implementing the Backup and Restoration Plan</span></span>
 
-Процедуры, описанные в данном документе, были проверены и подтверждены в лабораторных условиях. Чтобы убедиться, что эти или любые другие процедуры работают в вашей среде, следует проверить и подтвердить каждую процедуру, которую вы собираетесь реализовать. Завершите тестирование и проверку, прежде чем представить свой план для окончательного утверждения.
+<span data-ttu-id="49660-125">Для реализации плана резервного копирования и восстановления необходимо выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="49660-125">Implementing a backup and restoration plan requires the following steps:</span></span>
 
-## Разъяснение плана
+  - <span data-ttu-id="49660-126">Тестирование плана и его проверка.</span><span class="sxs-lookup"><span data-stu-id="49660-126">Testing and validating the plan.</span></span>
 
-Ваш план резервного копирования и восстановления должен четко описывать, кто реализует процедуры, и содержать пошаговые процедуры по проведению процедур. Вы должны убедиться, что все лица, ответственные за любой аспект резервного копирования и восстановления, понимают план и осознают, каким образом он должен быть реализован и какую роль они исполняют. Это включает все требования к реализации следующих процедур.
+  - <span data-ttu-id="49660-127">Связь с планом.</span><span class="sxs-lookup"><span data-stu-id="49660-127">Communicating the plan.</span></span>
 
-  - Резервное копирование пула и сервера
+  - <span data-ttu-id="49660-128">Проверка операций резервного копирования и восстановления.</span><span class="sxs-lookup"><span data-stu-id="49660-128">Validating backup and restoration operations.</span></span>
 
-  - Восстановление обслуживания
+<div>
 
-**Резервное копирование пула и сервера**
+## <a name="testing-and-validating-the-plan"></a><span data-ttu-id="49660-129">Тестирование и проверка плана</span><span class="sxs-lookup"><span data-stu-id="49660-129">Testing and Validating the Plan</span></span>
 
-План резервного копирования и восстановления должен включать всю информацию, необходимую для выполнения процедур резервного копирования на постоянной основе. Основная информация, которую необходимо довести до сведения ответственных сотрудников, включает следующую:
+<span data-ttu-id="49660-130">Описанные здесь процедуры были протестированы и проверены в лабораторной среде.</span><span class="sxs-lookup"><span data-stu-id="49660-130">The procedures described here have been tested and validated in a lab environment.</span></span> <span data-ttu-id="49660-131">Чтобы убедиться в том, что эти и другие процедуры работают в вашей среде, необходимо проверить и протестировать каждую процедуру, которую вы планируете реализовать.</span><span class="sxs-lookup"><span data-stu-id="49660-131">To make sure that these or any other procedures work in your environment, you should test and validate each procedure you intend to implement.</span></span> <span data-ttu-id="49660-132">Перед отправкой плана для финального утверждения прополните тестирование и проверку.</span><span class="sxs-lookup"><span data-stu-id="49660-132">Complete the testing and the validation before you submit your plan for final approval.</span></span>
 
-  - Группа или отдельное лицо (указывается в качестве индивидуального лица или роли), ответственное за резервное копирование каждого сервера
+</div>
 
-  - Конкретные графики для резервного копирования каждого сервера
+<div>
 
-  - Места хранения резервных копий каждого типа данных (настройки, базы данных и файловые ресурсы)
+## <a name="communicating-the-plan"></a><span data-ttu-id="49660-133">Связь с планом</span><span class="sxs-lookup"><span data-stu-id="49660-133">Communicating the Plan</span></span>
 
-  - Используемые процедуры резервного копирования, включая средства, необходимые для выполнения каждой процедуры
+<span data-ttu-id="49660-134">В плане резервного копирования и восстановления нужно четко описать, кто реализует процедуры, и пошаговые инструкции по выполнению процедур.</span><span class="sxs-lookup"><span data-stu-id="49660-134">Your backup and restoration plan should clearly describe who implements procedures and step-by-step instructions for carrying out the procedures.</span></span> <span data-ttu-id="49660-135">Необходимо убедиться, что все, кто несет ответственность за любой аспект резервного копирования и восстановления, понимает план, как его реализация и назначение роли.</span><span class="sxs-lookup"><span data-stu-id="49660-135">You should make sure that everyone responsible for any aspect of backup and restoration understands the plan, how it is to be implemented, and what their role is.</span></span> <span data-ttu-id="49660-136">Сюда входят все требования к реализации, указанные ниже.</span><span class="sxs-lookup"><span data-stu-id="49660-136">This includes all implementation requirements for the following:</span></span>
 
-  - Информация, необходимая для выполнения резервного копирования, как это изложено в разделе [Листы по резервному копированию и восстановлению](lync-server-2013-backup-and-restoration-worksheets.md)
+  - <span data-ttu-id="49660-137">Резервное копирование пула и сервера.</span><span class="sxs-lookup"><span data-stu-id="49660-137">Pool and server backup.</span></span>
 
-  - Методы проверки, которые будут использоваться для обеспечения правильности резервного копирования данных и настроек и их доступности для восстановления (включая периодические проверки и тестовые восстановления)
+  - <span data-ttu-id="49660-138">Восстановление службы.</span><span class="sxs-lookup"><span data-stu-id="49660-138">Restoration of service.</span></span>
 
-**Восстановление обслуживания**
+<span data-ttu-id="49660-139">**Резервное копирование пула и сервера**</span><span class="sxs-lookup"><span data-stu-id="49660-139">**Pool and server backup**</span></span>
 
-План резервного копирования и восстановления должен включать всю информацию, необходимую для восстановления обслуживания в том случае, если на одном или нескольких серверах происходит потеря, приводящая к недоступности службы. Основная информация, которую необходимо довести до сведения ответственных сотрудников, включает следующую:
+<span data-ttu-id="49660-140">План резервного копирования и восстановления должен включать все данные, необходимые для выполнения процедур резервного копирования на постоянной основе.</span><span class="sxs-lookup"><span data-stu-id="49660-140">The backup and restoration plan should include all information required to complete backup procedures on an ongoing basis.</span></span> <span data-ttu-id="49660-141">К основным сведениям, которые должны быть переданы ответственным участникам группы, относятся следующие:</span><span class="sxs-lookup"><span data-stu-id="49660-141">The primary information to be communicated to responsible team members includes the following:</span></span>
 
-  - Группа или отдельное лицо (указывается в качестве индивидуального лица или роли), ответственное за определение того, когда требуется восстановление обслуживания и какие процедуры должны использоваться в этих целях, а также группа или отдельное лицо, ответственное за реализацию процедур для каждого сценария восстановления
+  - <span data-ttu-id="49660-142">Группа или человек (заданные как индивидуальные пользователи или роли), ответственные за резервное копирование каждого сервера.</span><span class="sxs-lookup"><span data-stu-id="49660-142">Team or person (specified as an individual or role) responsible for backing up each server.</span></span>
 
-  - Критерии для определения того, какие процедуры восстановления являются наиболее подходящими в конкретной ситуации
+  - <span data-ttu-id="49660-143">Определенные расписания резервного копирования каждого сервера.</span><span class="sxs-lookup"><span data-stu-id="49660-143">Specific schedules for backing up each server.</span></span>
 
-  - Предполагаемое время восстановления обслуживания и целевое время восстановления в каждом сценарии восстановления.
+  - <span data-ttu-id="49660-144">Расположение резервных копий для каждого типа данных (параметры, база данных и файловые ресурсы).</span><span class="sxs-lookup"><span data-stu-id="49660-144">Backup locations for each type of data (settings, database, and file shares).</span></span>
 
-  - роцедуры восстановления, которые должны использоваться, в том числе инструменты, необходимые для выполнения каждой процедуры
+  - <span data-ttu-id="49660-145">Процедуры резервного копирования, которые необходимо использовать, в том числе инструменты, необходимые для выполнения каждой процедуры.</span><span class="sxs-lookup"><span data-stu-id="49660-145">Backup procedures to be used, including the tools required to complete each procedure.</span></span>
 
-  - Информация, необходимая для восстановления данных и настроек. Рабочие таблицы доступны в разделе [Листы по резервному копированию и восстановлению](lync-server-2013-backup-and-restoration-worksheets.md).
+  - <span data-ttu-id="49660-146">Сведения, необходимые для создания резервных копий, как описано в [книге резервного копирования и восстановления для Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).</span><span class="sxs-lookup"><span data-stu-id="49660-146">Information required to complete backups, as covered in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).</span></span>
 
-## Проверка операций резервного копирования и восстановления
+  - <span data-ttu-id="49660-147">Методы проверки, которые должны использоваться для обеспечения надлежащей архивации данных и параметров, а также для восстановления, которые могут включать периодические проверки и тестирование восстановлений.</span><span class="sxs-lookup"><span data-stu-id="49660-147">Validation methods to be used to help ensure that data and settings are appropriately backed up and available for restoration, which can include periodic audits and test restorations.</span></span>
 
-После выполнения начальных попыток резервного копирования в производственной среде через заданные промежутки времени (что предусмотрено в плане резервного копирования и восстановления) необходимо проверить следующее:
+<span data-ttu-id="49660-148">**Восстановление службы**</span><span class="sxs-lookup"><span data-stu-id="49660-148">**Restoration of service**</span></span>
 
-  - езервное копирование выполняется в соответствии с требованиями
+<span data-ttu-id="49660-149">План резервного копирования и восстановления должен включать все данные, необходимые для восстановления службы, на случай, если один или несколько серверов испытывают убытки, которые делают обслуживание недоступным.</span><span class="sxs-lookup"><span data-stu-id="49660-149">The backup and restoration plan should include all information required to restore service, in case one or more servers experience a loss that makes service unavailable.</span></span> <span data-ttu-id="49660-150">К основным сведениям, которые должны быть переданы ответственным участникам группы, относятся следующие:</span><span class="sxs-lookup"><span data-stu-id="49660-150">The primary information to be communicated to responsible team members includes the following:</span></span>
 
-  - Резервные копии данных и настроек доступны для использования.
+  - <span data-ttu-id="49660-151">Группа или человек (заданные в виде отдельного пользователя или роли), ответственные за определение того, что требуется восстановление службы, и процедуры, которые должны использоваться для восстановления служб, а также группы или сотрудника, ответственные за реализацию процедур для каждого из них. сценарий восстановления.</span><span class="sxs-lookup"><span data-stu-id="49660-151">Team or person (specified as an individual or a role) that is responsible for determining when restoration of service is required and the procedures to be used to restore service, and also the team or person responsible for implementing procedures for each restoration scenario.</span></span>
 
-  - Процедуры восстановления могут выполняться в сроки, определяемые целевым временем восстановления, которое указано в плане резервного копирования и восстановления, и результаты отвечают всем бизнес-требованиям.
+  - <span data-ttu-id="49660-152">Условия для определения того, какие процедуры восстановления наиболее подходящие для конкретной ситуации.</span><span class="sxs-lookup"><span data-stu-id="49660-152">Criteria for determining which restoration procedures are most appropriate for a specific situation.</span></span>
 
-  - Рабочие таблицы резервного копирования и восстановлены были заполнены и проверены, и они хранятся в надежном месте. Эти рабочие таблицы представлены в разделе [Листы по резервному копированию и восстановлению](lync-server-2013-backup-and-restoration-worksheets.md).
+  - <span data-ttu-id="49660-153">Оценка времени для восстановления обслуживания и времени восстановления (RTO) в каждом сценарии восстановления.</span><span class="sxs-lookup"><span data-stu-id="49660-153">Time estimates for restoration of service and recovery time objective (RTO) in each restoration scenario.</span></span>
 
-  - Процедуры восстановления были проверены и работают в соответствии с требованиями, указанными в плане резервного копирования и восстановления.
+  - <span data-ttu-id="49660-154">Процедуры восстановления, которые необходимо использовать, в том числе инструменты, необходимые для выполнения каждой процедуры.</span><span class="sxs-lookup"><span data-stu-id="49660-154">Restoration procedures to be used, including the tools required to complete each procedure.</span></span>
 
-## Поддержание плана резервного копирования и восстановления
+  - <span data-ttu-id="49660-155">Данные, необходимые для восстановления данных и параметров.</span><span class="sxs-lookup"><span data-stu-id="49660-155">Information required to restore data and settings.</span></span> <span data-ttu-id="49660-156">На листах резервного [копирования и восстановления для Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)доступны листы.</span><span class="sxs-lookup"><span data-stu-id="49660-156">Worksheets are provided in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).</span></span>
 
-Топология Lync Server является динамической средой, которая изменяется вместе с вашей организацией. Переоценивайте план резервного копирования и восстановления по мере изменения организации и периодически пересматривайте его, чтобы убедиться, что он по-прежнему отвечает требованиям вашего бизнеса.
+</div>
+
+<div>
+
+## <a name="validating-backup-and-restoration-operations"></a><span data-ttu-id="49660-157">Проверка операций резервного копирования и восстановления</span><span class="sxs-lookup"><span data-stu-id="49660-157">Validating Backup and Restoration Operations</span></span>
+
+<span data-ttu-id="49660-158">После выполнения начальной архивации в производственной среде и через определенные интервалы (в соответствии с планом резервного копирования и восстановления) необходимо проверить следующее:</span><span class="sxs-lookup"><span data-stu-id="49660-158">After completing initial backup efforts in your production environment and at specified intervals (as covered in your backup and restoration plan), you should verify the following:</span></span>
+
+  - <span data-ttu-id="49660-159">Резервные копии происходят по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="49660-159">Backups are occurring as required.</span></span>
+
+  - <span data-ttu-id="49660-160">Заархивированные данные и параметры доступны для всех.</span><span class="sxs-lookup"><span data-stu-id="49660-160">Backed-up data and settings are accessible.</span></span>
+
+  - <span data-ttu-id="49660-161">Процедуры восстановления могут выполняться в рамках целевого значения времени восстановления (RTO), указанного в плане резервного копирования и восстановления, и результаты соответствуют всем бизнес-требованиям.</span><span class="sxs-lookup"><span data-stu-id="49660-161">Restoration procedures can be performed within the recovery time objective (RTO) times specified in the backup and restoration plan, and the results meet all business requirements.</span></span>
+
+  - <span data-ttu-id="49660-162">Резервные листы загружаются и проверяются и хранятся в безопасном месте.</span><span class="sxs-lookup"><span data-stu-id="49660-162">Backup worksheets have been completed and verified, and they are stored in a secure location.</span></span> <span data-ttu-id="49660-163">Эти листы содержатся в [книге резервного копирования и восстановления для Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).</span><span class="sxs-lookup"><span data-stu-id="49660-163">These worksheets are provided in [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md).</span></span>
+
+  - <span data-ttu-id="49660-164">Процедуры восстановления были проверены и проверены на предмет ожидаемых действий, как указано в плане резервного копирования и восстановления.</span><span class="sxs-lookup"><span data-stu-id="49660-164">Restoration procedures have been tested and verified to work as expected, as specified in your backup and restoration plan.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="maintaining-the-backup-and-restoration-plan"></a><span data-ttu-id="49660-165">Сохранение плана резервного копирования и восстановления</span><span class="sxs-lookup"><span data-stu-id="49660-165">Maintaining the Backup and Restoration Plan</span></span>
+
+<span data-ttu-id="49660-166">Топология сервера Lync Server — это динамическая среда, которая изменяется в Организации.</span><span class="sxs-lookup"><span data-stu-id="49660-166">A Lync Server topology is a dynamic environment that changes with your organization.</span></span> <span data-ttu-id="49660-167">Изучите план резервного копирования и восстановления по мере изменения своей организации и периодически проверяйте его, чтобы убедиться, что он продолжает отвечать потребностям вашего бизнеса.</span><span class="sxs-lookup"><span data-stu-id="49660-167">Reassess your backup and restoration plan as your organization changes, and review it periodically to make sure that it continues to meet the needs of your business.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
