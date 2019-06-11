@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: ad0549380f4e90e746fec7b7bc997f99e8510ef6
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34768768"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813052"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Воспользуйтесь пробной версией или приобретите функцию аудиоконференции в Office 365 для Skype для бизнеса Online
 
@@ -69,7 +69,7 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > Если кредиты на связь не настроены, для любых пользователей с лицензиями с поминутной оплатой функция аудиоконференции работать не будет.
+    > Если кредиты на связь не настроены, для любых пользователей с лицензиями с поминутной оплатой функция аудиоконференции работать не будет. Кроме того, если у вас есть лицензии "Оплата за минуту", вам не нужно назначать лицензии на обмен сообщениями по отдельности каждому пользователю для использования в целях голосовой конференции, но вам, возможно, потребуется назначить их для другой службы.
 
 4. [Назначение и удаление лицензий для Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) , которые вы приобрели для пользователей в вашей организации, которые планируется планировать или руководить собраниями.
 
