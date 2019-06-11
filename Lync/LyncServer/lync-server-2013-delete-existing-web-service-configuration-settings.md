@@ -1,63 +1,117 @@
-﻿---
-title: Удаление параметров конфигурации существующей веб-службы
-TOCTitle: Удаление параметров конфигурации существующей веб-службы
-ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182582(v=OCS.15)
-ms:contentKeyID: 49311092
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: удаление существующих параметров конфигурации веб-службы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete existing Web Service configuration settings
+ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182582(v=OCS.15)
+ms:contentKeyID: 48185333
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: faecc3675e4ed22e6bab3a85825ae65c50a8511f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834595"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление параметров конфигурации существующей веб-службы
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a>Удаление существующих параметров конфигурации веб-службы в Lync Server 2013
 
-Чтобы удалить политику веб-службы, выполните следующие действия.
+</div>
 
-## Удаление политики веб-службы
+<div id="mainSection">
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+<div id="mainBody">
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Чтобы удалить параметры конфигурации веб-службы, выполните следующие действия.
+
+<div>
+
+## <a name="to-delete-web-service-configuration-settings"></a>Удаление параметров конфигурации существующей веб-службы
+
+1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
+
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  В левой панели навигации щелкните **Безопасность**, а затем щелкните **Веб-служба**.
 
 4.  На странице **Веб-служба** в поле поиска введите полностью или частично имя политики, которую требуется удалить.
 
-5.  В списке политик выберите необходимую политику, щелкните **Правка** и затем щелкните **Удалить**.
+5.  В списке политик выберите необходимую политику, щелкните **Правка**, затем выберите **Удалить**.
 
-6.  Нажмите кнопку **ОК**.
+6.  Нажмите **ОК**.
 
-## Удаление параметров конфигурации новых веб-служб с помощью командлетов командной консоли Командная консоль Lync Server
+</div>
 
-Параметры конфигурации веб-служб можно также удалять с помощью Командная консоль Lync Server и командлета **Remove-CsWebServiceConfiguration**. Этот командлет можно выполнить из командной консоли командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Удаление конкретной коллекции параметров конфигурации веб-служб
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации веб-службы с помощью командлетов Windows PowerShell
+
+Вы можете удалить параметры конфигурации веб-службы с помощью Windows PowerShell и командлета **Remove-ксвебсервицеконфигуратион** . Этот командлет можно выполнить из управляющей оболочки Lync Server 2013 или из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Удаление конкретной коллекции параметров конфигурации веб-служб
 
   - Следующая команда удаляет параметры безопасности веб-служб, относящиеся к сайту Redmond:
     
         Remove-CsWebServiceConfiguration -Identity "site:Redmond"
 
-## Удаление всех параметров конфигурации веб-служб, относящихся к области сайта
+</div>
+
+<div>
+
+## <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a>Удаление всех параметров конфигурации веб-служб, относящихся к области сайта
 
   - Следующая команда удаляет все параметры безопасности веб-служб, относящиеся к области службы:
     
         Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
 
-## Удаление всех параметров конфигурации веб-служб, позволяющих проверку подлинности с помощью сертификатов
+</div>
+
+<div>
+
+## <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a>Удаление всех параметров конфигурации веб-служб, позволяющих проверку подлинности с помощью сертификатов
 
   - Следующая команда удаляет все параметры безопасности веб-служб, позволяющие использовать проверку подлинности с помощью сертификатов:
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-Дополнительные сведения см. в разделе [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
+</div>
 
-## См. также
+Подробности можно найти в разделе [Remove-ксвебсервицеконфигуратион](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).
 
-#### Другие ресурсы
+</div>
 
-[Настройка безопасности в Lync Server 2013](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Настройка проверки подлинности на панели управления Lync Server 2013](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

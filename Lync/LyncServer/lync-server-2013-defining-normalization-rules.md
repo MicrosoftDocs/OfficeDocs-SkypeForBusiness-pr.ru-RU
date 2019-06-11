@@ -1,42 +1,80 @@
-﻿---
-title: 'Lync Server 2013: определение правил нормализации'
-TOCTitle: Определение правил нормализации
-ms:assetid: ed31d56c-00b5-4f72-bd9f-beb4100d441f
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399071(v=OCS.15)
-ms:contentKeyID: 49311574
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: определение правил нормализации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining normalization rules
+ms:assetid: ed31d56c-00b5-4f72-bd9f-beb4100d441f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399071(v=OCS.15)
+ms:contentKeyID: 48185741
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9406e4fa7445242ae3f112ebfb772713d9d2219c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834703"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Определение правил нормализации в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="defining-normalization-rules-in-lync-server-2013"></a>Определение правил нормализации в Lync Server 2013
 
-Правила нормализации Lync Server 2013 используют регулярные выражения .NET Framework для преобразования набранных телефонных номеров в формат E.164. Другими словами, правила нормализации получают набранный пользователем телефонный номер и преобразуют его в номер с внутренним форматом, который используется Lync Server. Каждой абонентской группе должно быть назначено хотя бы одно правило нормализации.
+</div>
 
-Подробные сведения о правилах нормализации см. в разделе [Абонентские группы и правила нормализации в Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) документации по планированию.
+<div id="mainSection">
 
-Подробные сведения о способах написания регулярных выражений см. в статье «Регулярные выражения в .NET Framework» по адресу [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927).
+<div id="mainBody">
 
-Для задания или изменения регулярных выражений можно использовать следующие способы.
+<span> </span>
 
-  - С помощью средства **Построение правила нормализации** укажите значения для цифр в начале, длины, цифр для удаления и цифр для добавления, а затем позвольте панели управления Lync Server создать на основе указанных значений шаблон соответствия и правило преобразования.
+_**Тема последнего изменения:** 2014-04-22_
 
-  - Вручную напишите регулярные выражения, чтобы задать шаблон соответствия и правило преобразования.
+В правилах нормализации Lync Server 2013 используются регулярные выражения .NET Framework для перевода телефонных номеров с набором в формат E. 164. другими словами, правила нормализации принимают номер телефона, набранный пользователем, и преобразуют его в формат, используемый приложением Lync Server для внутренних целей. Каждой абонентской группе должно быть назначено хотя бы одно правило нормализации.
 
-## Содержание
+Дополнительные сведения о правилах нормализации приведены [в разделе планы и правила нормализации в Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) в документации по планированию.
 
-  - [Создание или изменение правила нормализации с помощью средства построения правил нормализации в Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)
+Сведения о том, как создавать регулярные выражения, приведены в [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)разделе "регулярные выражения .NET Framework".
+
+Чтобы определить или изменить правило нормализации, можно использовать один из указанных ниже способов.
+
+  - С помощью средства **создания правил нормализации** укажите значения для начальных цифр, длину, цифр для удаления и цифр, которые нужно добавить, а затем откройте на панели управления Lync Server соответствующие шаблон сопоставления и правило перевода.
+
+  - Напишите регулярные выражения вручную, чтобы задать шаблон сопоставления и правило трансляции.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Создание и изменение правила нормализации с помощью сборки правила нормализации в Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md)
 
   - [Создание или изменение правила нормализации вручную в Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)
 
-## См. также
+</div>
 
-#### Задачи
+<div>
+
+## <a name="see-also"></a>См. также
+
 
 [Создание абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
-[Изменение абонентской группы в Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)
+[Изменение абонентской группы в Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

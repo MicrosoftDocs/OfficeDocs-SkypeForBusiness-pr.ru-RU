@@ -1,31 +1,65 @@
-﻿---
-title: Требования Lync для Windows Phone
-TOCTitle: Требования Lync для Windows Phone
-ms:assetid: c0f8d7be-b731-4842-862d-7c0665dbb531
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh691001(v=OCS.15)
-ms:contentKeyID: 52058328
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: требования Lync для Windows Phone'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync for Windows Phone requirements
+ms:assetid: c0f8d7be-b731-4842-862d-7c0665dbb531
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh691001(v=OCS.15)
+ms:contentKeyID: 51541514
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ee9db6e1d0513911f301bf601ee8c3c5cd7b9b63
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34833925"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Требования Lync для Windows Phone
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Требования к Lync для Windows Phone в Lync Server 2013
 
-Microsoft Lync 2013 для Windows Phone обеспечивает функции обмена мгновенными сообщениями, расширенных сведений о присутствии и телефонии для пользователей организаций, подключающихся к сети с помощью смартфонов и мобильных устройств с ОС Windows Профессиональная. Мобильные устройства позволяют пользователям получать доступ к Lync 2013. В этом разделе рассматриваются вопросы планирования развертывания Lync 2013 для Windows Phone, включая необходимые условия идентификации и технические требования, обязательные компоненты и руководство по развертыванию.
+</div>
 
-## Необходимые условия для развертывания Lync для Windows Phone
+<div id="mainSection">
 
-Ниже приведены необходимые условия для развертывания Lync 2013 для Windows Phone.
+<div id="mainBody">
 
-  - Windows Phone 8 (кодовое имя "Apollo") или последняя версия
+<span> </span>
 
-  - На устройстве Windows Phone должны быть установлены последние доступные обновления (Майкрософт). Дополнительные сведения см. в журнале обновлений Windows Phone 8 по адресу <http://go.microsoft.com/fwlink/?linkid=281961>.
+_**Тема последнего изменения:** 2013-02-20_
 
-  - На устройстве должно быть доступно 12 МБ свободного места на диске.
+Microsoft Lync 2013 для Windows Phone обеспечивает обмен мгновенными сообщениями, расширенные возможности присутствия и телефонию для пользователей в вашей организации, которые подключаются к смартфону или мобильному устройству с Windows профессиональный. Мобильные устройства позволяют пользователям увеличить доступ к Lync 2013. В этой статье описаны вопросы планирования для Lync 2013 для Windows Phone, которые включают определение требований и технические требования, необходимые компоненты и руководство по развертыванию.
+
+<div>
+
+## <a name="lync-for-windows-phone-prerequisites"></a>Предварительные требования Lync для Windows Phone
+
+Ниже приведены необходимые условия для Lync 2013 для Windows Phone.
+
+  - Windows Phone 8, коденамед "Аполло" или новейшей версии.
+
+  - На устройстве с Windows Phone должны быть доступны последние обновления от корпорации Майкрософт. Подробности можно найти в разделе Журнал обновлений Windows Phone 8 [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)по адресу.
+
+  - На устройстве должно быть не более 12 МБАЙТ свободного места на диске.
 
   - В наличии должны иметься активные тарифные планы голосовой связи и передачи данных поставщика услуг.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

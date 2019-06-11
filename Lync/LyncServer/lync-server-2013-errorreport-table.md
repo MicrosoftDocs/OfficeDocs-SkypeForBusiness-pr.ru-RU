@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица ErrorReport'
-TOCTitle: Таблица ErrorReport
-ms:assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412826(v=OCS.15)
-ms:contentKeyID: 49310859
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица ErrorReport'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ErrorReport table
+ms:assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412826(v=OCS.15)
+ms:contentKeyID: 48185129
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0fc30d4686ffcc1d1cda0474b3b01a645c94be5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834200"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица ErrorReport в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-06-22_
+# <a name="errorreport-table-in-lync-server-2013"></a>Таблица ErrorReport в Lync Server 2013
 
-Таблица ErrorReport предназначена для хранения сведений о ошибках. Каждая запись соответствует одной ошибке. Ошибки регистрируются агентом регистрации вызовов, запущенным на сервере переднего плана, либо отправляются самим клиентом.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-28_
+
+В таблице Ерроррепорт хранятся сведения о возникших ошибках. Каждая запись содержит один экземпляр ошибки. Эти ошибки регистрируются агентом CDR, который запущен на сервере переднего плана или отправлен клиентом.
 
 
 <table>
@@ -35,69 +55,69 @@ _**Дата изменения раздела:** 2015-06-22_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ErrorTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Первичный</p></td>
-<td><p>Дата и время возникновения ошибки.</p></td>
+<td><p><strong>Еррортиме</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>Дата и время, когда возникла ошибка.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ErrorReportSeq</strong></p></td>
+<td><p><strong>Ерроррепортсек</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>ИД отчета об ошибках. Используется с <strong>ErrorTime</strong> для однозначной идентификации отчета об ошибках.</p></td>
+<td><p>Primary</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации отчета об ошибке. Используется в сочетании с <strong>еррортиме</strong> для уникальной идентификации отчета об ошибке.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ErrorId</strong></p></td>
+<td><p><strong>Еррорид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>ИД типа ошибки. Дополнительные сведения см. в разделе <a href="lync-server-2013-errordef-table.md">Таблица ErrorDef в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>Уникальный идентификатор типа ошибки. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-errordef-table.md">таблицей еррордеф в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FromUserId</strong></p></td>
+<td><p><strong>Фромусерид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Пользователь, создавший запрос, который привел к возникновению ошибки. Дополнительные сведения см. в разделе <a href="lync-server-2013-users-table.md">Таблица Users в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>Пользователь, который поступил на этот запрос, вызвавший ошибку. Дополнительные сведения <a href="lync-server-2013-users-table.md">можно найти в таблице Users (пользователи) в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ToUserId</strong></p></td>
+<td><p><strong>Таусерид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Получатель запроса, который привел к возникновению ошибки. Дополнительные сведения см. в разделе <a href="lync-server-2013-users-table.md">Таблица Users в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>Конечный пользователь для запроса, вызвавшего ошибку. Дополнительные сведения <a href="lync-server-2013-users-table.md">можно найти в таблице Users (пользователи) в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ConferenceUriId</strong></p></td>
+<td><p><strong>Конференцеуриид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>URI конференции, связанной с ошибкой. Дополнительные сведения см. в разделе <a href="lync-server-2013-conferenceuris-table.md">Таблица ConferenceUris в Lync Server 2013</a>. Если ConferenceUriId не равен NULL, то либо FromUserId, либо ToUserId будет иметь значение NULL.</p></td>
+<td><p>Другом</p></td>
+<td><p>Универсальный код ресурса (URI) для Конференции, связанный с ошибкой. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-conferenceuris-table.md">таблицей конференцеурис в Lync Server 2013</a> . Как правило, если Конференцеуриид не имеет значение null, то либо Фромусерид, либо Таусерид будет NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Внешний</p></td>
-<td><p>Используется с <strong>SessionIdSeq</strong> для однозначной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p><strong>Сессионидтиме</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Другом</p></td>
+<td><p>Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionIdSeq</strong></p></td>
+<td><p><strong>Сессионидсек</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>ИД сеанса. Используется с <strong>SessionIdTime</strong> для однозначной идентификации сеанса. Дополнительные сведения см. в разделе <a href="lync-server-2013-dialogs-table.md">Таблица Dialogs в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SourceId</strong></p></td>
+<td><p><strong>Источника</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Сервер, отправивший отчет об ошибках (если отчет отправляется серверным компонентом). Дополнительные сведения см. в разделе <a href="lync-server-2013-servers-table.md">Таблица Servers в Lync Server 2013</a>.</p>
-<p>Это поле появилось в Microsoft Lync Server 2013.</p></td>
+<td><p>Другом</p></td>
+<td><p>Сервер, отправивший отчет об ошибке (при отправке отчета из серверного компонента). Более подробную информацию вы видите <a href="lync-server-2013-servers-table.md">в таблице Servers (серверы) в Lync Server 2013</a> .</p>
+<p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ApplicationId</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Сервер, отправивший отчет об ошибках (если отчет отправляется серверным компонентом). Дополнительные сведения см. в разделе <a href="lync-server-2013-application-table.md">Таблица Application в Lync Server 2013</a>.</p>
-<p>Это поле появилось в Microsoft Lync Server 2013.</p></td>
+<td><p>Другом</p></td>
+<td><p>Сервер, отправивший отчет об ошибке (при отправке отчета из серверного компонента). Дополнительные сведения приведены <a href="lync-server-2013-application-table.md">в таблице приложение Lync Server 2013</a> .</p>
+<p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MsDiagHeader</strong></p></td>
+<td><p><strong>Мсдиагхеадер</strong></p></td>
 <td><p>изображение</p></td>
 <td><p> </p></td>
 <td><p>Дополнительные сведения об ошибке.</p>
@@ -105,49 +125,60 @@ _**Дата изменения раздела:** 2015-06-22_
 <p><code>cast(cast(Detail as varbinary(max)) as varchar(max)) </code></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ClientVersionId</strong></p></td>
+<td><p><strong>Клиентверсионид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Версия клиента конечной точки, отправляющей отчет об ошибках. Дополнительные сведения см. в разделе <a href="lync-server-2013-clientversions-table.md">Таблица ClientVersions в Lync Server 2013</a>.</p></td>
+<td><p>Другом</p></td>
+<td><p>Клиентская версия конечной точки, отправляющей отчет об ошибке. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-clientversions-table.md">таблицей клиентверсионс в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IsCapturedByServer</strong></p></td>
+<td><p><strong>Искаптуредбисервер</strong></p></td>
 <td><p>бит</p></td>
-<td><p></p></td>
-<td><p>Отчет об ошибках, полученный агентом регистрации вызовов, запущенным на сервере переднего плана, или отправленный клиентом.</p></td>
+<td></td>
+<td><p>Отчет об ошибке, записанный агентом CDR, который запущен на сервере переднего плана или отправляется клиентом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Flag</strong></p></td>
+<td><p><strong>Пометка</strong></p></td>
 <td><p>smallint</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Зарезервировано для будущего использования.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TelemetryId</strong></p></td>
-<td><p>uniqueIdentifier</p></td>
-<td><p></p></td>
-<td><p>Уникальный идентификатор времени присоединения для различных компонентов, участвующих в конференции.</p>
-<p>Это поле появилось в Microsoft Lync Server 2013.</p></td>
+<td><p><strong>Телеметрид</strong></p></td>
+<td><p>Идентификатора</p></td>
+<td></td>
+<td><p>Уникальный идентификатор, соответствующий сведениям о времени соединения для различных компонентов, участвующих в Конференции.</p>
+<p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSetupTime</strong></p></td>
+<td><p><strong>Сессионсетуптиме</strong></p></td>
 <td><p>целое</p></td>
-<td><p></p></td>
-<td><p>Время (в миллисекундах), необходимое для присоединения к конференции определенного компонента.</p>
-<p>Это поле появилось в Microsoft Lync Server 2013.</p></td>
+<td></td>
+<td><p>Время (в миллисекундах), требуемое конкретным компонентом для присоединения к Конференции.</p>
+<p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ServerId</strong></p></td>
+<td><p><strong>Серверид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Полное доменное имя сервера, который создал отчет об ошибках.</p></td>
+<td><p>Другом</p></td>
+<td><p>Представляет полное доменное имя сервера, который сгенерировал отчет об ошибке.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PoolId</strong></p></td>
+<td><p><strong>Пулид</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Внешний</p></td>
-<td><p>Полное доменное имя пула, в котором был создан отчет об ошибках.</p></td>
+<td><p>Другом</p></td>
+<td><p>Представляет полное доменное имя пула, в котором был создан отчет об ошибке.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

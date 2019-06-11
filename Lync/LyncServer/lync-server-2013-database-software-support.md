@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: поддержка программного обеспечения баз данных'
-TOCTitle: Поддержка программного обеспечения баз данных
-ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398990(v=OCS.15)
-ms:contentKeyID: 49311428
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддержка программного обеспечения баз данных'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Database software support
+ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398990(v=OCS.15)
+ms:contentKeyID: 48185517
+ms.date: 12/02/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8bc8daef764ce5b15fd8c8b7e29f7031ebcfbafc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834737"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддержка программного обеспечения баз данных в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="database-software-support-in-lync-server-2013"></a>Поддержка программного обеспечения баз данных в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-12-01_
 
 Lync Server 2013 поддерживает следующие системы управления базами данных:
 
@@ -27,36 +47,58 @@ Lync Server 2013 поддерживает следующие системы уп
     
       - Microsoft SQL Server 2012 Standard (64-разрядная версия). Рекомендуется установить более новый пакет обновления.
 
-  - **База данных сервера Standard Edition и базы данных переднего плана**
+  - **Базы данных сервера Standard Edition и серверного сервера переднего плана**
     
       - Microsoft SQL Server 2012 Express (64-разрядная версия). Рекомендуется установить более новый пакет обновления.
         
-        Поддерживается исправление и обновление Microsoft SQL Server на переднего плана и выпуска Standard. Однако при выполнении исправления или обновления любого рода на переднего плана необходимо учитывать требования кворума. Подробнее см. разделы [Обновление серверов переднего плана в Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) и [Топология и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+        Мы поддерживаем обновление и обновление Microsoft SQL Server на серверах переднего и стандартном выпуске. Тем не менее, если вы вносите обновления или исправления на серверах переднего плана, необходимо учитывать требования кворума. Подробнее см. разделы [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md) и [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
     
+    <div>
+    
+
     > [!NOTE]  
-    > Microsoft SQL Server 2012 Express (64-разрядная версия) автоматически устанавливается Lync Server 2013 на каждом сервере Standard Edition и каждом сервере переднего плана.
+    > Microsoft SQL Server 2012 Express (64-bit Edition) автоматически устанавливается на Lync Server 2013 на каждом сервере Standard Edition и на каждом сервере переднего плана.
+
+    
+    </div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>Система Lync Server 2013 не поддерживает 32-разрядную версию SQL Server. Вам следует использовать 64-разрядную версию.</p></li>
-> <li><p>SQL Server Web edition и SQL Server Workgroup Edition не поддерживаются. Вы не можете использовать их с системой Lync Server 2013.</p></li>
-> 
-> <li><p>Система Lync Server 2013 не поддерживает собственное зеркальное отображение базы данных.</p></li>
-> 
-> 
-> <li><p>Чтобы использовать роль сервера мониторинга, вам следует установить SQL Server Reporting Services.</p></li></ul>
+> <UL>
+> <LI>
+> <P>Lync Server 2013 не поддерживает 32-разрядный выпуск SQL Server. Вам следует использовать 64-разрядную версию.</P>
+> <LI>
+> <P>SQL Server Web Edition и SQL Server Workgroup Edition не поддерживаются. Вы не можете использовать их в Lync Server 2013.</P>
+> <LI>
+> <P>Lync Server 2013 поддерживает встроенное зеркальное отображение базы данных.</P>
+> <LI>
+> <P>Чтобы использовать роль сервера мониторинга, необходимо установить службы SQL Server Reporting Services.</P></LI></UL>
 
 
-Серверная база данных интерфейсного пула может быть установлена на отдельный компьютер SQL Server.
+
+</div>
+
+В пуле переднего плана серверная база данных может быть одним компьютером SQL Server.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Если вы выравниваете базы данных Lync Server с другими базами данных, мы настоятельно рекомендуем оценить все факторы, которые могут повлиять га доступность и производительность, а также убедиться, что в случае сбоя одного узла другой узел сможет обрабатывать всю нагрузку. Для проверки возможностей отработки отказа мы рекомендуем провести тестирование для всех сценариев отработки отказа.
+> При совместном использовании баз данных Lync Server с другими базами данных мы настоятельно рекомендуем оценить все факторы, которые могут повлиять на доступность и производительность, а также гарантируя, что если один из узлов завершается сбоем, оставшийся узел может обрабатывать загрузку. Для проверки возможностей отработки отказа мы рекомендуем провести тестирование для всех сценариев отработки отказа.
 
-## Использование зеркального отображения и кластеризации SQL
 
-Lync Server 2013 поддерживает использование как зеркального отображения SQL, так и кластеризации SQL для каждой базы данных Lync Server. Зеркальное отображение SQL настраивается с помощью средства топологий в Lync Server 2013. Для настройки отказоустойчивой кластеризации SQL необходимо использовать SQL Server.
 
-Lync Server 2013 поддерживает зеркалирование SQL и топологии кластеров SQL для всех развертываний, включая развертывание с нуля и организации, в которых было выполнено обновление с предыдущих версий Lync Server.
+</div>
+
+<div>
+
+## <a name="using-sql-mirroring-and-sql-clustering"></a>Использование зеркального отображения и кластеризации SQL
+
+Lync Server 2013 поддерживает использование либо SQL Mirroring, либо кластеризации SQL для каждой базы данных сервера Lync Server. Зеркальное отображение SQL можно легко настроить с помощью средства Topology Builder в Lync Server 2013. Для настройки отказоустойчивой кластеризации SQL необходимо использовать SQL Server.
+
+Lync Server 2013 поддерживает как зеркальное отражение SQL, так и топологии кластеризации SQL для всех развертываний, в том числе гринфиелд развертываний и организаций, обновленных из предыдущих версий Lync Server.
 
 Поддержка кластеризации SQL предназначена для активных и пассивных конфигураций. По соображениям производительности не следует предоставлять общий доступ к пассивному узлу для любого другого экземпляра SQL.
 
@@ -74,7 +116,19 @@ Lync Server 2013 поддерживает зеркалирование SQL и т
     
       - Программное обеспечение для баз данных Microsoft SQL Server 2008 R2 Enterprise (64-разрядная версия). Рекомендуется установить более новый пакет обновления.
 
-Дополнительные сведения о зеркальном отображении SQL см. в статье [Высокая доступность внутреннего сервера в Lync Server 2013](lync-server-2013-back-end-server-high-availability.md). Подробные сведения о развертывании кластеров SQL см. в статье [Настройка кластеризации SQL Server в Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
+Дополнительные сведения о зеркальном отображении SQL можно найти в разделе о [высокой доступности сервера в Lync server 2013](lync-server-2013-back-end-server-high-availability.md). Подробнее о том, как развертывать кластеризацию SQL, можно узнать в разделе [Настройка кластеризации SQL Server для Lync server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-Дополнительные сведения и рекомендации по отказоустойчивой кластеризации в SQL Server 2012 см. в статье по адресу <http://technet.microsoft.com/ru-ru/library/hh231721.aspx>. Дополнительные сведения об отказоустойчивой кластеризации в SQL Server 2008 см. в статье по адресу <http://technet.microsoft.com/ru-ru/library/ms189134(v=sql.105).aspx>.
+Дополнительные сведения и рекомендации по работе с отказоустойчивой кластеризацией в SQL Server 2012 можно <http://technet.microsoft.com/en-us/library/hh231721.aspx>найти в разделе. Сведения об отказоустойчивой кластеризации в SQL Server 2008 <http://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx>можно найти в разделе.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

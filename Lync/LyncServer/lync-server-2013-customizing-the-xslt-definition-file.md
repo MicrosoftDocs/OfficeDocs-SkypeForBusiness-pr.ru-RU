@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: настройка файла определений XSLT'
-TOCTitle: Настройка файла определений XSLT
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49888259
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: настройка файла определений XSLT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка файла определений XSLT в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Настройка файла определений XSLT в Lync Server 2013
 
-Данные из записей и архивов службы соответствия по каждой из бесед сервера сохраняемого сеанса беседы системы Lync Server 2013, включая сведения о том, когда участник:
+</div>
 
-  - присоединяется к комнате сохраняемый сеанс беседы;
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-09-11_
+
+Служба соответствия записывает и архивирует данные, связанные с каждым сервером Lync Server 2013, сохраняемым разговором с сервером чата, в том числе если участником:
+
+  - Присоединение к сохраняемой комнате чата
 
   - покидает комнату чата;
 
@@ -29,11 +49,13 @@ _**Дата изменения раздела:** 2015-03-09_
 
   - загружает файл.
 
-Эти данные предоставляются в формате XML, который можно преобразовать в формат, наиболее подходящий для вашей организации, с помощью файла определения XSLT. В данном разделе рассматривается XML-файл, создаваемый службой соответствия, а также приводятся примеры файлов определения XSLT и выходных файлов.
+Данные доставляются в формате XML, который можно преобразовать в формат, который наилучшим образом подходит для вашей организации, с помощью файла определения XSLT. Этот раздел содержит описание файла XML, созданного с помощью службы проверки совместимости. Приведены также примеры файла определения XSLT и выходного файла.
 
-## Формат выходных данных
+<div>
 
-Выходные данные службы соответствия делятся на категории по беседе (элемент Conversation) и затем по сообщению (элемент Messages), как показано в следующем образце кода.
+## <a name="output-format"></a>Выходной формат
+
+Выходные данные службы соответствия подразделяются на обсуждения (элемент CONVERSATION), а затем в сообщении (элемент Messages), как показано в следующем примере кода.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,14 +70,14 @@ _**Дата изменения раздела:** 2015-03-09_
       </Conversation>
     </Conversations>
 
-Элемент Conversation содержит четыре элемента (Channel, FirstMessage, StartTimeUTC и EndTimeUTC). Элемент Channel содержит URI-код комнаты чата, а элемент FirstMessage описывает первое сообщение в элементе Messages. Элементы StartTimeUTC и EndTimeUTC задают начальное и конечное время беседы, как показано в следующем образце кода.
+Элемент Conversation содержит четыре элемента (Channel, FirstMessage, StartTimeUTC и EndTimeUTC). Элемент Channel содержит код URI, назначенный комнате чата, а элемент FirstMessage описывает первое сообщение в элементе Messages. Элементы Старттимеутк и Ендтимеутк предоставляют начальные и конечные значения для беседы, как показано в следующем примере кода.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Элемент Message содержит два элемента (Sender и DateTimeUTC) и три атрибута (Type, Content и ID). Элемент Sender представляет пользователя, который отправляет сообщение, а элемент DateTimeUTC представляет время возникновения события, как показано в следующем образце кода.
+Элемент Message содержит два элемента (Sender и DateTimeUTC) и три атрибута (Type, Content и ID). Элемент sender представляет пользователя, который отправляет сообщение, а элемент Датетимеутк — при возникновении события, как показано в следующем примере кода.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -64,7 +86,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 В следующей таблице показаны атрибуты сообщений Type, Content и ID.
 
-### Атрибуты элемента Messages
+### <a name="messages-element-attributes"></a>Атрибуты элемента Messages
 
 <table>
 <colgroup>
@@ -81,19 +103,19 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Type</p></td>
+<td><p>Тип</p></td>
 <td><p>Указывает тип сообщения. Типы сообщений описаны в таблице типов сообщений элемента Message.</p></td>
 <td><p>Обязательный</p></td>
 </tr>
 <tr class="even">
 <td><p>Content</p></td>
 <td><p>Представляет собой содержимое сообщения. Для сообщений с типом Join или Part этот атрибут не используется.</p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно </p></td>
 </tr>
 <tr class="odd">
 <td><p>ID</p></td>
 <td><p>Указывает уникальный идентификатор содержимого. Этот атрибут используется только с сообщениями, имеющими тип Chat.</p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно </p></td>
 </tr>
 </tbody>
 </table>
@@ -101,7 +123,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 Каждый элемент Sender содержит пять атрибутов: имя пользователя, идентификатор, адрес электронной почты, принадлежность ко внутренним пользователям и URI-код. Эти атрибуты описаны в следующей таблице.
 
-### Атрибуты элемента Sender
+### <a name="sender-element-attributes"></a>Атрибуты элемента Sender
 
 <table>
 <colgroup>
@@ -120,17 +142,17 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p>Username</p></td>
 <td><p>Имя отправителя.</p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно </p></td>
 </tr>
 <tr class="even">
 <td><p>ID</p></td>
 <td><p>Уникальный идентификатор отправителя.</p></td>
-<td><p>Обязательный</p></td>
+<td><p>Обязательно</p></td>
 </tr>
 <tr class="odd">
 <td><p>Email</p></td>
 <td><p>Адрес электронной почты отправителя.</p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно </p></td>
 </tr>
 <tr class="even">
 <td><p>Internal</p></td>
@@ -148,7 +170,7 @@ _**Дата изменения раздела:** 2015-03-09_
 
 В следующей таблице показаны типы сообщений, которые может содержать элемент Messages. Здесь также представлен пример использования каждого из элементов.
 
-### Типы сообщений элемента Message
+### <a name="message-element-message-types"></a>Типы сообщений элемента Message
 
 <table>
 <colgroup>
@@ -216,9 +238,11 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-## Выходные данные XSD для "сохраняемый сеанс беседы" по умолчанию и пример преобразования XSL
+<div>
 
-В следующем образце кода содержатся выходные данные по умолчанию с сервера соответствия.
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Схема выходных данных сохраняемого чата по умолчанию и пример преобразования XSL
+
+В следующем образце кода показан вывод по умолчанию на сервере соответствия требованиям.
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -315,7 +339,7 @@ _**Дата изменения раздела:** 2015-03-09_
       </xs:element>
     </xs:schema>
 
-В следующем образце кода содержится пример преобразования XSL.
+В следующем образце кода показан пример преобразования XSL.
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -384,4 +408,18 @@ _**Дата изменения раздела:** 2015-03-09_
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,60 +1,117 @@
-﻿---
-title: Создание или изменение коллекции параметров конфигурации версий клиентов
-TOCTitle: Создание или изменение коллекции параметров конфигурации версий клиентов
-ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ898477(v=OCS.15)
-ms:contentKeyID: 52058216
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Создание или изменение коллекции параметров конфигурации клиентской версии
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a collection of client version configuration settings
+ms:assetid: 4e6faffd-a36f-40f1-8734-78d84b7df921
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898477(v=OCS.15)
+ms:contentKeyID: 50873757
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 84df13c7abbc98cbb90c5b59a6b0717deb855e28
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834802"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Создание или изменение коллекции параметров конфигурации версий клиентов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Создание и изменение семейства параметров конфигурации клиентской версии в Lync Server 2013
 
-Параметры конфигурации используются для включения и отключения управления версиями клиентов. Глобальная конфигурация версий клиентов устанавливается вместе с Lync Server и используется для включения или выключения управления версиями клиентов в рамках всего развертывания серверов. Вы также можете настроить параметры конфигурации версий клиентов для отдельных сайтов. Для создания или изменения параметров конфигурации версий клиентов может использоваться панель управления Lync Server 2013 или командная консоль Lync Server 2013.
+</div>
 
-> [!NOTE]  
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Параметры конфигурации используются для включения и отключения управления версиями клиентов. Конфигурация глобальной клиентской версии устанавливается вместе с Lync Server и используется для включения или отключения управления версиями на клиенте для всего развертывания сервера. Вы также можете настроить параметры конфигурации клиента для отдельных сайтов. Вы можете создавать и изменять параметры конфигурации клиентской версии из панели управления Lync Server 2013 или оболочки управления Lync Server 2013.
+
+<div>
+
+
+> [!NOTE]
 > Поскольку анонимные пользователи не связаны с пользователями, сайтами или службами, к ним могут применяться только политики глобального уровня.
 
-## Создание или изменение параметров конфигурации версий клиентов с помощью панели управления Lync Server
+
+
+</div>
+
+<div>
+
+## <a name="to-create-or-modify-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Создание и изменение параметров конфигурации клиентской версии с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните элемент **Clients** (Клиенты) и затем нажмите кнопку навигации **Client Version Configuration** (Конфигурация версий клиентов).
+3.  На панели навигации слева выберите пункт **Клиенты**, а затем нажмите кнопку Навигация по **конфигурации версии клиента** .
 
-4.  На странице **Client Version Configuration** (Конфигурация версий клиентов) выполните следующие действия:
+4.  На странице **Configuration Version (версия клиента** ) выполните указанные ниже действия.
     
-      - Чтобы создать новую конфигурацию, щелкните элемент **New** (Создать), выберите сайт, нажмите кнопку **OK** (ОК) и обновите параметры.
+      - Чтобы создать новую конфигурацию, нажмите кнопку **создать**, выберите сайт, нажмите кнопку **ОК** и обновите параметры.
     
-      - Чтобы изменить конфигурацию, выберите ее, щелкните элемент **Edit** (Изменить), затем элемент **Show details** (Показать подробности) и внесите изменения в параметры.
+      - Чтобы изменить конфигурацию, выберите ее, нажмите кнопку **изменить**, щелкните **Показать подробности**и внесите изменения в параметры.
 
-## Создание или изменение параметров конфигурации версий клиентов с помощью командлетов Windows PowerShell
+</div>
 
-Вы можете создавать параметры конфигурации версий клиентов с помощью командлета **New-CsClientVersionConfiguration**, а также изменять их с помощью командлета **Set-CsClientVersionConfiguration**. Для выполнения этих командлетов может использоваться командная консоль Lync Server 2013 или удаленный сеанс Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Создание новой коллекции параметров конфигурации версий клиентов
+## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Создание и изменение параметров конфигурации клиентской версии с помощью командлетов Windows PowerShell
 
-  - Следующая команда создает новую коллекцию параметров конфигурации версий клиентов, применяемую к сайту Redmond. В данном примере управление версиями клиентов для сайта Redmond отключено.
+Вы можете создать параметры конфигурации клиентской версии с помощью командлета **New-ксклиентверсионконфигуратион** и изменить их с помощью командлета **Set-ксклиентверсионконфигуратион** . Эти командлеты можно запускать либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-create-a-new-collection-of-client-version-configuration-settings"></a>Создание коллекции параметров конфигурации клиентской версии
+
+  - Следующая команда создает новую коллекцию параметров конфигурации для версии клиента, примененную к сайту Redmond. В этом примере управление версиями клиента отключено для сайта Redmond.
     
         New-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $False
 
-## Включение управления версиями клиентов для сайта
+</div>
 
-  - Эта команда служит для включения управления версиями клиентов для сайта Redmond.
+<div>
+
+## <a name="to-enable-client-versioning-for-a-site"></a>Включение управления версиями на сайте
+
+  - Эта команда включает управление версиями клиентов для сайта Redmond.
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-## Отключение управления версиями клиентов в рамках всей организации
+</div>
 
-  - В данном примере управление версиями клиентов отключено для всех параметров конфигурации версий клиентов, используемых в организации.
+<div>
+
+## <a name="to-disable-client-versioning-throughout-the-organization"></a>Отключение управления версиями клиента во всей Организации
+
+  - В этом примере управление версиями клиента отключено для всех параметров конфигурации клиентской версии, используемых в Организации.
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-Дополнительные сведения см. в разделе справки для командлетов [New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) и [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration).
+</div>
+
+Дополнительные сведения можно найти в разделе справки по командлетам [New-ксклиентверсионконфигуратион](https://technet.microsoft.com/en-us/library/Gg399029(v=OCS.15)) и [ксклиентверсионконфигуратион](https://technet.microsoft.com/en-us/library/Gg398623(v=OCS.15)) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
