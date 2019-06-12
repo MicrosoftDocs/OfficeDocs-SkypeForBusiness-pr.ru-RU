@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing database configuration'
+---
+title: 'Lync Server 2013: Проверка конфигурации базы данных'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing database configuration
 ms:assetid: 60f7fcd2-5efe-4791-b159-b0f9bf39a41b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727307(v=OCS.15)
-ms:contentKeyID: 62388621
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727307(v=OCS.15)
+ms:contentKeyID: 63969606
 ms.date: 07/07/2016
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 805b62e234f7a5469d3af3677ba81478fb3abc8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849402"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing database configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-07-07_
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Проверка конфигурации базы данных в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2016-07-07_
 
 
 <table>
@@ -23,156 +43,186 @@ _**Дата изменения раздела:** 2016-07-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group, and need to have Administrator privileges on the SQL server.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsDatabase</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс и должны иметь права администратора на сервере SQL Server.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксдатабасе</strong> . Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsDatabase** cmdlet verifies connectivity to one or more Lync Server 2013 databases. When run, the **Test-CsDatabase** cmdlet reads the Lync Server topology, attempts to connect to relevant databases, and then reports back the success or failure of each try. If a connection can be made, the cmdlet will also report back such information as the database name, SQL Server version information, and the location of any installed mirror databases.
+## <a name="description"></a>Описание
 
-## Running the test
+Командлет **Test-ксдатабасе** проверяет подключение к одной или нескольким базам данных Lync Server 2013. При запуске командлет **Test-ксдатабасе** считывает топологию Lync Server, пытается подключиться к соответствующим базам данных, а затем сообщает об успешном завершении или сбое каждой попытки. Если подключение может быть установлено, командлет также сообщит такую информацию, как имя базы данных, сведения о версии SQL Server и расположение установленных зеркальных баз данных.
 
-The command shown in Example 1 verifies the configuration of the Central Management database.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Команда, показанная в примере 1, проверяет конфигурацию базы данных Центрального управления.
 
     Test-CsDatabase -CentralManagementDatabase
 
-Example 2 verifies all the Lync Server databases installed on the computer atl-sql-001.litwareinc.com.
+Пример 2: проверка всех баз данных Lync Server, установленных на компьютере atl-sql-001.litwareinc.com.
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-In Example 3, verification is performed only for the Archiving database installed on the computer atl-sql-001.litwareinc.com. Note that the SqlInstanceName parameter is included to specify the SQL Server instance (Archinst) where the Archiving database is located.
+В примере 3 Проверка выполняется только для архивной базы данных, установленной на компьютере atl-sql-001.litwareinc.com. Обратите внимание, что параметр Склинстанценаме включает экземпляр SQL Server (Арчинст), в котором находится база данных архивации.
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-The command shown in Example 4 verifies the databases installed on the local computer.
+Команда, показанная в примере 4, проверяет базы данных, установленные на локальном компьютере.
 
     Test-CsDatabase -LocalService
 
-## Determining success or failure
+</div>
 
-If database connectivity is configured correctly, you'll receive output similar to this, with the Succeed property marked as **True**:
+<div>
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-SqlInstanceName : rtc
+Если подключение к базам данных настроено должным образом, вы получите такие данные, как, например, свойство успешно, помеченное как **Истина**:
 
-MirrorSqlServerFqdn :
+Склсерверфкдн: atl-sql-001.litwareinc.com
 
-MirrorSqlInstanceName :
+Склинстанценаме: RTC
 
-DatabaseName : xds
+Миррорсклсерверфкдн:
 
-DataSource :
+Миррорсклинстанценаме:
 
-SQLServerVersion :
+DatabaseName: XDS
 
-ExpectedVersion : 10.13.2
+Источников
 
-InstalledVersion :
+Склсерверверсион:
 
-Succeed : True
+Експектедверсион: 10.13.2
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+Инсталледверсион:
 
-SqlInstanceName : rtc
+Успешно: истина
 
-MirrorSqlServerFqdn :
+Склсерверфкдн: atl-sql-001.litwareinc.com
 
-MirrorSqlInstanceName :
+Склинстанценаме: RTC
 
-DatabaseName : lis
+Миррорсклсерверфкдн:
 
-DataSource :
+Миррорсклинстанценаме:
 
-SQLServerVersion :
+Имя базы: LIS
 
-ExpectedVersion : 3.1.1
+Источников
 
-InstalledVersion :
+Склсерверверсион:
 
-Succeed : True
+Експектедверсион: 3.1.1
 
-If the database is configured correctly but still available, the Succeed field will be shown as **False**, and additional warnings and information will be provided:
+Инсталледверсион:
 
-SqlServerFqdn : atl-sql-001.litwareinc.com
+Успешно: истина
 
-SqlInstanceName : rtc
+Если база данных настроена правильно, но по-прежнему доступна, поле "успешно" будет отображаться как " **ложь**", а также будут указаны дополнительные предупреждения и сведения.
 
-MirrorSqlServerFqdn :
+Склсерверфкдн: atl-sql-001.litwareinc.com
 
-MirrorSqlInstanceName :
+Склинстанценаме: RTC
 
-DatabaseName : xds
+Миррорсклсерверфкдн:
 
-DataSource :
+Миррорсклинстанценаме:
 
-SQLServerVersion :
+DatabaseName: XDS
 
-ExpectedVersion : 10.13.2
+Источников
 
-InstalledVersion :
+Склсерверверсион:
 
-Succeed : False
+Експектедверсион: 10.13.2
 
-SqlServerFqdn : atl-cs-001.litwareinc.com
+Инсталледверсион:
 
-SqlInstanceName : rtc
+Успешно: ложь
 
-MirrorSqlServerFqdn :
+Склсерверфкдн: atl-cs-001.litwareinc.com
 
-MirrorSqlInstanceName :
+Склинстанценаме: RTC
 
-DatabaseName : lis
+Миррорсклсерверфкдн:
 
-DataSource :
+Миррорсклинстанценаме:
 
-SQLServerVersion :
+Имя базы: LIS
 
-ExpectedVersion : 3.1.1
+Источников
 
-InstalledVersion :
+Склсерверверсион:
 
-Succeed : False
+Експектедверсион: 3.1.1
 
-WARNING: Test-CsDatabase encountered errors. Consult the log file for a
+Инсталледверсион:
 
-detailed analysis, and to make sure that all errors (2) and warnings (0) are addressed
+Успешно: ложь
 
-before continuing.
+Предупреждение: при выполнении теста-Ксдатабасе возникли ошибки. Просмотрите файл журнала для
 
-WARNING: Detailed results can be found at
+подробный анализ и проверка того, что все ошибки (2) и предупреждения (0) рассмотрены.
 
-"C:\\Users\\Testing\\AppData\\Local\\Temp\\2\\Test-CsDatabase-b18d488a-8044-4679-bbf2-
+перед продолжением.
 
-04d593cce8e6.html".
+Предупреждение: подробные результаты можно найти по адресу
 
-## Reasons why the test might have failed
+"C:\\пользователи\\\\проверяют\\каталог\\AppData\\Local\\Temp 2 Test-ксдатабасе-b18d488a-8044-4679-bbf2-
 
-Here are some common reasons why **Test-CsDatabase** might fail:
+04d593cce8e6. HTML ".
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the database is misconfigured or not yet deployed.
+<div>
 
-## См. также
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-#### Другие ресурсы
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксдатабасе** :
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDatabaseMirrorState)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
-[Get-CsUserDatabaseState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserDatabaseState)
+  - Предоставлено неправильное значение параметра. Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
+
+  - Эта команда завершается сбоем, если база данных неправильно настроена или еще не развернута.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

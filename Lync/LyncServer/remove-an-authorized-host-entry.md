@@ -1,33 +1,67 @@
-﻿---
-title: Удаление записи авторизованного размещения
-TOCTitle: Удаление записи авторизованного размещения
-ms:assetid: 56a04140-347e-4eef-bede-0e858534f71e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204902(v=OCS.15)
-ms:contentKeyID: 49309812
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Удаление авторизованной записи узла
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove an authorized host entry
+ms:assetid: 56a04140-347e-4eef-bede-0e858534f71e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204902(v=OCS.15)
+ms:contentKeyID: 48184177
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca9bc99382e904c398dbb7434b2ee6343ab661ee
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848913"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление записи авторизованного размещения
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-26_
+# <a name="remove-an-authorized-host-entry"></a>Удаление авторизованной записи узла
 
-В этом разделе описывается, как удалить устаревшую авторизованную запись узла (известную как *запись доверенного приложения* в Lync Server 2013). Существующие авторизованные записи узлов для любых шлюзов SIP/CSTA в развертывании Office Communications Server 2007 R2 следует удалять при миграции удаленного управления вызовами в развертывание Lync Server 2013. Необходимо использовать средства администрирования, поставляемые вместе с Office Communications Server 2007 R2, для удаления существующих авторизованных записей узлов.
+</div>
 
-## Чтобы удалить авторизованную запись узла в развертывании Office Communications Server 2007 R2
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-26_
+
+В этой статье описано, как удалить устаревшую авторизованную запись узла (которая называется *надежной записью приложения* в Lync Server 2013). Вы должны удалить существующие авторизованные записи узла для всех шлюзов SIP/КСТА в Office Communications Server 2007 R2, когда вы перенесете управление удаленным звонком в развертывание Lync Server 2013. Для удаления существующих авторизованных записей узла необходимо использовать средства администрирования, входящие в состав Office Communications Server 2007 R2.
+
+<div>
+
+## <a name="to-remove-an-authorized-host-entry-in-an-office-communications-server-2007-r2-deployment"></a>Удаление авторизованной записи узла в развертывании Office Communications Server 2007 R2
 
 1.  Откройте консоль администрирования Office Communications Server 2007 R2.
 
 2.  Разверните дерево и щелкните правой кнопкой мыши пул, в котором был создан авторизованный узел.
 
-3.  Щелкните **Свойства** , затем **Свойства интерфейсного сервера** .
+3.  Нажмите кнопку **Свойства**, а затем — **Свойства Front End**.
 
-4.  Перейдите на вкладку **Авторизация узла** .
+4.  Откройте вкладку **авторизация узла** .
 
-5.  Выберите сервер, затем нажмите кнопку **Удалить** .
+5.  Выберите сервер, а затем нажмите кнопку **Удалить**.
 
-6.  В окне **Свойства** нажмите кнопку **ОК** .
+6.  В окне " **Свойства**" нажмите кнопку **ОК**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

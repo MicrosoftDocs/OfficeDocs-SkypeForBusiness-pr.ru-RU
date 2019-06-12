@@ -1,43 +1,77 @@
-﻿---
-title: 'Lync Server 2013: Validating voice number normalization and routing'
+---
+title: 'Lync Server 2013: проверка нормализации номера голоса и маршрутизации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating voice number normalization and routing
 ms:assetid: a6a825c7-6928-4e80-b7e9-803b7f7ebd13
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720922(v=OCS.15)
-ms:contentKeyID: 62246674
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720922(v=OCS.15)
+ms:contentKeyID: 63969633
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 1be8f09304ccf077eb24daf707e536e9c90f84dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849194"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validating voice number normalization and routing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2014-05-19_
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>Проверка нормализации и маршрутизации номера голосовой связи в Lync Server 2013
 
-Correct number normalization and routing is very important for functional Enterprise Voice environment. Especially during migrations from private branch exchange (PBX) to stand-alone Lync Server environment, one of the keys to successful migration is to reveal and document all existing dialing rules, and create appropriate normalization rules, voice policies, phone usages and routes.
+</div>
 
-Validating number normalization and routing is important not only during migrations but also during normal, stable operation of the system.
+<div id="mainSection">
 
-We recommend conducting this validation daily by using the управления Lync Server, starting with developing a robust set of test cases against the current set of normalization rules that were published in the Lync Server global settings. These test cases should be run daily to highlight any unwanted changes that were made and committed to the dial plan.
+<div id="mainBody">
 
-управления Lync Server also helps you visualize, test, change, archive, and share configuration information about voice routing and in changing Enterprise Voice number normalization rules, dial plans, voice policy, and routes. It has additional features for doing the following:
+<span> </span>
 
-  - Exporting and importing or backing up voice routing data between systems.
+_**Тема последнего изменения:** 2014-05-19_
 
-  - Testing configuration changes before uploading them to a live system.
+Правильная нормализация номеров и маршрутизация очень важна для работы корпоративной голосовой среды. Особенно при миграции из УАТС в автономную среду Lync, одной из клавиш для успешной миграции является отображение и документирование всех существующих правил набора номера, а также создание соответствующих правил нормализации, политик голосовой связи использование и маршруты для телефонов.
 
-  - Creating and running configuration test cases to help ensure the usability of routing data after you make changes to it, but before committing them the changes to a deployed system.
+Проверка нормализации номера и маршрутизации важна не только при миграции, но и во время нормальной и стабильной работы системы.
 
-  - Creating and changing number normalization rules, location profiles, voice policy, and routing data without writing the necessary regular expressions.
+Мы рекомендуем использовать эту проверку ежедневно с помощью панели управления Lync Server, начиная с разработки надежного набора тестовых случаев для текущего набора правил нормализации, которые были опубликованы в глобальных параметрах Lync Server. Эти тестовые случаи следует запускать ежедневно для выбора ненужных изменений, внесенных в абонентскую группу.
 
-  - Analyzing a location profile for compatibility with the Lync Server Phone Edition.
+С помощью панели управления Lync Server вы также можете наглядно представить, протестировать, изменить, заархивировать и обмениваться сведениями о маршрутизации голосовой связи и изменить правила нормализации голосовых номеров, абонентские группы, политику голосовой связи и маршруты. У него есть дополнительные возможности для следующих действий:
 
-  - More information about voice routing tests can be found at [Тестирование голосовой маршрутизации в Lync Server 2013](lync-server-2013-test-voice-routing.md)
+  - Экспорт и импорт и архивация данных голосовой маршрутизации между системами.
 
-## См. также
+  - Тестирование изменений конфигурации перед их загрузкой в действующую систему.
 
-#### Другие ресурсы
+  - Создание и выполнение тестовых случаев конфигурации для обеспечения удобства использования данных маршрутизации после внесения изменений, но до внесения изменений в развернутую систему.
 
-[Тестирование голосовой маршрутизации в Lync Server 2013](lync-server-2013-test-voice-routing.md)
+  - Создавайте и изменяйте правила нормализации чисел, профили местоположений, политику голосовой связи и данные маршрутизации, не записывая необходимые регулярные выражения.
+
+  - Анализ профиля местоположения для обеспечения совместимости с Lync Server Phone Edition.
+
+  - Дополнительные сведения о тестовых маршрутах можно найти на странице [Проверка голосовой маршрутизации в Lync Server 2013](lync-server-2013-test-voice-routing.md)
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Тестирование голосовой маршрутизации в Lync Server 2013](lync-server-2013-test-voice-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

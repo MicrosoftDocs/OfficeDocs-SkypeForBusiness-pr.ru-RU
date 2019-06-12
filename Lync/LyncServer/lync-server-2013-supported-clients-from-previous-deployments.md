@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: поддерживаемые клиенты из предыдущих развертываний'
-TOCTitle: Поддерживаемые клиенты из предыдущих развертываний
-ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398499(v=OCS.15)
-ms:contentKeyID: 49310041
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддерживаемые клиенты из предыдущих развертываний'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported clients from previous deployments
+ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398499(v=OCS.15)
+ms:contentKeyID: 48184390
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7b5cbecf45a9ea5203b3e459a895b2bddb0cfe55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849584"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддерживаемые клиенты из предыдущих развертываний в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Поддерживаемые клиенты из предыдущих развертываний в Lync Server 2013
 
-В сценарии сосуществования клиенты Lync Server 2013 могут взаимодействовать с клиентами более ранних версий Lync Server и Office Communications Server. В отличие от предыдущих выпусков, Lync Server 2010 поддерживает новые клиенты Lync 2013. Это позволяет организациям, выполняющим обновление с Lync Server 2010, развертывать новые клиенты независимо от обновлений Lync Server.
+</div>
 
-## Поддерживаемые сочетания сервера и клиента
+<div id="mainSection">
 
-В следующей таблице показаны поддерживаемые сочетания версий клиентов и серверов. Lync Server 2013 поддерживает две предыдущие версии клиента, а Lync Server 2010 поддерживает новый клиент Lync 2013.
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-12-14_
+
+В сценарии сосуществования Пользователи Lync Server 2013 могут взаимодействовать с клиентами из более ранних версий Lync Server и Office Communications Server. В отличие от предыдущих выпусков, Lync Server 2010 поддерживает новые клиенты Lync 2013. Это позволяет организациям, работающим с Lync Server 2010, развертывать новые клиенты независимо от того, как Lync Server выполняет обновление.
+
+<div>
+
+## <a name="supported-server-and-client-combinations"></a>Поддерживаемые комбинации сервера и клиента
+
+В следующей таблице показаны поддерживаемые комбинации версий клиентов и сервера. Lync Server 2013 поддерживает две предыдущие версии клиента, а Lync Server 2010 поддерживает новый клиент Lync 2013.
 
 
 <table>
@@ -57,37 +79,37 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
-<td><p>оператор Lync 2010</p></td>
+<td><p>Lync 2010 Attendant</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010</p></td>
-<td><p>Нет данных</p></td>
-<td><p>Поддерживается1</p></td>
-<td><p>Нет данных</p></td>
+<td><p>Неприменимо</p></td>
+<td><p>Supported1</p></td>
+<td><p>Неприменимо</p></td>
 </tr>
 <tr class="even">
-<td><p>веб-приложение Lync Web App 2010</p></td>
+<td><p>Lync Web App 2010</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">
 <td><p>Участник Lync 2010</p></td>
-<td><p>Не поддерживается2</p></td>
+<td><p>Не Supported2</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2</p></td>
-<td><p>Совместима3</p></td>
+<td><p>Interoperable3</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Поддерживается</p></td>
 </tr>
 <tr class="odd">
-<td><p>Оператор Microsoft Office Communications Server 2007 R2</p></td>
+<td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p>Поддерживается</p></td>
 <td><p>Поддерживается</p></td>
@@ -108,11 +130,31 @@ _**Дата изменения раздела:** 2015-03-09_
 </table>
 
 
-1В Microsoft Lync Server 2010 функция группового чата была доступна благодаря серверу группового чата – стороннему доверенному приложению для Lync Server 2010. Клиенты Lync 2013 не совместимы с сервером групповой беседы Lync Server 2010.
+1In Microsoft Lync Server 2010, функция группового чата была доступна для сервера группового чата, стороннего доверенного приложения для Lync Server 2010. Клиенты Lync 2013 несовместимы с Lync Server 2010, групповой чат.
 
-2Lync Web App 2013 теперь предоставляет все возможности участия в собраниях, включая звук и видео на компьютере, и рассматривается в качестве замены для приложения Участник Lync 2010.
+2Lync веб-приложение 2013 теперь обеспечивает полное участие в собрании, в том числе звуковое сопровождение и видео компьютера, и считается заменой для участника Lync 2010.
 
-3Возможности обмена мгновенными сообщениями и использования сведений о присутствии в Office Communicator 2007 R2 совместимы с Lync Server 2013, однако для возможностей конференц-связи такая совместимость не обеспечивается. Во время миграции с Office Communications Server 2007 R2 для сведений о присутствии и мгновенных сообщений можно использовать Office Communicator 2007 R2, однако для присоединения к собраниям Lync Server 2013 пользователям следует применять Lync Web App 2013.
+3The функции присутствия и обмена мгновенными сообщениями в Office Communicator 2007 R2 совместимы с Lync Server 2013, но возможности конференции не поддерживаются. При переходе с Office Communications Server 2007 R2 подходящими для обеспечения взаимодействия и обмена мгновенными сообщениями является Office Communicator 2007 R2, но пользователи должны использовать Lync Web App 2013, чтобы присоединиться к собраниям Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> Подробные сведения о способности клиентов Lync Server 2013 сосуществовать и взаимодействовать с клиентами предыдущих версий Lync Server и Office Communications Server см. в разделе <a href="lync-server-2013-client-interoperability-in-lync-2013.md">Взаимодействие клиентов в Lync 2013</a> в документации по планированию.
+> Подробные сведения о том, как можно сосуществование клиентов Lync Server 2013 и взаимодействовать с клиентами из более ранних версий Lync Server и Office Communications Server, вы можете найти в разделе взаимодействие с клиентами <A href="lync-server-2013-client-interoperability-in-lync-2013.md">в lync 2013</A> в документации по планированию.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

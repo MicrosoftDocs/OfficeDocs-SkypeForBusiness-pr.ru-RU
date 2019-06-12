@@ -1,31 +1,61 @@
-﻿---
-title: Перенос нескольких сайтов и пулов
-TOCTitle: Перенос нескольких сайтов и пулов
-ms:assetid: 3bf677d4-a5af-4f73-8fad-1abf5b668cc1
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688025(v=OCS.15)
-ms:contentKeyID: 49887950
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Перенос нескольких сайтов и пулов
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating multiple sites and pools
+ms:assetid: 3bf677d4-a5af-4f73-8fad-1abf5b668cc1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688025(v=OCS.15)
+ms:contentKeyID: 49733615
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7412d0ffb1a5d24c2f30b76b987a16903253bfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849015"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Перенос нескольких сайтов и пулов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-08-26_
+# <a name="migrating-multiple-sites-and-pools"></a>Перенос нескольких сайтов и пулов
 
-Lync Server 2013 поддерживает развертывания с несколькими сайтами и пулами. При переносе нескольких пулов из Office Communications Server 2007 R2 в Lync Server 2013 необходимо учитывать следующее.
+</div>
 
-1.  После развертывания пилотного пула Lync Server 2013 нужно определить подмножество пилотных пользователей, которые будут перенесены в пул Lync Server 2013, и методику проверки их работоспособности.
+<div id="mainSection">
 
-2.  После развертывания пограничного сервера в пилотном пуле вам нужно проверить, могут ли внешние пользователи связываться с пулом Lync Server 2013.
+<div id="mainBody">
 
-3.  После переноса федеративных маршрутов с пограничных серверов Office Communications Server 2007 R2 на пограничные серверы Lync Server 2013 вам нужно проверить, могут ли федеративные пользователи связываться с пулом Lync Server 2013.
+<span> </span>
 
-4.  После переноса всех пользователей и других объектов контактов вам нужно убедиться в том, что пул Office Communications Server 2007 R2 пуст.
+_**Тема последнего изменения:** 2012-08-26_
 
-5.  Убедившись в том, что пул Office Communications Server 2007 R2 пуст, вы можете отключить его.
+Lync Server 2013 поддерживает развертывание с несколькими сайтами и несколькими пулами. Процесс миграции нескольких пулов из Office Communications Server 2007 R2 на Lync Server 2013 требует указанных ниже факторов.
+
+1.  После развертывания пула Lync Server 2013 Pilot вы должны определить подмножество пользователей пилотной версии, которые будут перенесены в пул Lync Server 2013, и методологию для проверки функциональных возможностей пользователей.
+
+2.  После развертывания пограничного сервера в пилотном пуле необходимо проверить, могут и внешние пользователи взаимодействовать с пулом Lync Server 2013.
+
+3.  После перевода федеративных маршрутов с Office Communications Server 2007 R2 Edge Server на пробный проект Lync Server 2013 пограничные серверы, вам нужно подтвердить, что Федеративные пользователи смогут взаимодействовать с пулом Lync Server 2013.
+
+4.  После перемещения всех пользователей и объектов контактов, не являющихся пользователями, нужно проверить, что пул Office Communications Server 2007 R2 пуст.
+
+5.  После того как вы убедитесь в том, что пул Office Communications Server 2007 R2 пуст, вы можете деактивировать пул.
     
-    Подробные сведения об отключении пула и серверов Office Communications Server 2007 R2 см. в разделе [Этап 10: ликвидация старых сайтов](phase-10-decommission-legacy-site.md).
+    Подробнее об отключении устаревшего пула и серверов Office Communications Server 2007 R2 вы можете найти в статье [этап 10: списание устаревшего сайта](phase-10-decommission-legacy-site.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

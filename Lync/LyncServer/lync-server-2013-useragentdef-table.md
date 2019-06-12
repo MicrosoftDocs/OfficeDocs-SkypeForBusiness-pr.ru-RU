@@ -1,21 +1,41 @@
-﻿---
-title: Таблица UserAgentDef в Lync Server 2013
-TOCTitle: Таблица UserAgentDef в Lync Server 2013
-ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205100(v=OCS.15)
-ms:contentKeyID: 49310589
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Усеражентдеф'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserAgentDef table
+ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
+ms:contentKeyID: 48184860
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849276"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица UserAgentDef в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="useragentdef-table-in-lync-server-2013"></a>Таблица Усеражентдеф в Lync Server 2013
 
-Таблица UserAgentDef сопоставляет идентификаторы агентов пользователей с описательными именами агентов. Пользовательские агенты — это программные клиенты, используемые для подключения к Microsoft Lync Server 2013. Эта таблица была введена в Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-03-25_
+
+В таблице Усеражентдеф идентификаторы агентов пользователя сопоставлены с описательными именами агента. Агенты пользователей — это клиенты программного обеспечения, используемые для подключения к Microsoft Lync Server 2013. Эта таблица введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -26,9 +46,9 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>UAType</th>
-<th>UAName</th>
-<th>UACategory</th>
+<th>Уатипе</th>
+<th>Уанаме</th>
+<th>Уакатегори</th>
 </tr>
 </thead>
 <tbody>
@@ -48,29 +68,29 @@ _**Дата изменения раздела:** 2015-03-09_
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>No8</p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>шестнадцат</p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
 <tr class="even">
 <td><p>32</p></td>
-<td><p>DVT</p></td>
-<td><p>DVT</p></td>
+<td><p>ДВТ</p></td>
+<td><p>ДВТ</p></td>
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>MM</p></td>
-<td><p>MM</p></td>
+<td><p>ММ</p></td>
+<td><p>ММ</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
 <td><p>MC</p></td>
-<td><p>MM</p></td>
+<td><p>ММ</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
@@ -79,43 +99,43 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>CAS</p></td>
+<td><p>КонференЦинг_аннаунцемент_сервице_ 1.0</p></td>
+<td><p>УСТАРЕВШ</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_1.0</p></td>
-<td><p>CAA</p></td>
+<td><p>КонференЦинг_аттендант_ 1.0</p></td>
+<td><p>Каа</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_1.0</p></td>
-<td><p>CAA</p></td>
+<td><p>Конференце_ауто_аттендант_ 1.0</p></td>
+<td><p>Каа</p></td>
 </tr>
 <tr class="odd">
 <td><p>1024</p></td>
-<td><p>Response_Group_Service</p></td>
-<td><p>RGS</p></td>
+<td><p>Респонсе_грауп_сервице</p></td>
+<td><p>ГРУППЫ ответа</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_1.0</p></td>
-<td><p>CPS</p></td>
+<td><p>Калл_парк_сервице_ 1.0</p></td>
+<td><p>ПОДКЛЮЧЕНИЙ</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
-<td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>AS</p></td>
+<td><p>Респонсе_грауп_сервице Аннаунцемент_сервице</p></td>
+<td><p>ФАЙЛА</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
-<td><p>Microsoft.Rtc.Applications.Ccs</p></td>
-<td><p>CCS</p></td>
+<td><p>Microsoft. RTC. Applications. CCS</p></td>
+<td><p>СЕТЕВ</p></td>
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
-<td><p>CoMo</p></td>
-<td><p>CoMo</p></td>
+<td><p>Комо</p></td>
+<td><p>Комо</p></td>
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
@@ -124,23 +144,23 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 <tr class="odd">
 <td><p>16388</p></td>
-<td><p>InboundRouting</p></td>
-<td><p>InboundRouting</p></td>
+<td><p>Инбаундраутинг</p></td>
+<td><p>Инбаундраутинг</p></td>
 </tr>
 <tr class="even">
 <td><p>16389</p></td>
-<td><p>ComoSvc</p></td>
-<td><p>ComoSvc</p></td>
+<td><p>Комосвк</p></td>
+<td><p>Комосвк</p></td>
 </tr>
 <tr class="odd">
 <td><p>16393</p></td>
-<td><p>MSExchangeUM</p></td>
-<td><p>ExUM</p></td>
+<td><p>Мсексчанжеум</p></td>
+<td><p>Ексум</p></td>
 </tr>
 <tr class="even">
 <td><p>16395</p></td>
-<td><p>ArchivingAgent</p></td>
-<td><p>ARCHAGENT</p></td>
+<td><p>Арчивингажент</p></td>
+<td><p>АРЧАЖЕНТ</p></td>
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
@@ -149,8 +169,8 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
-<td><p>applicationsharing</p></td>
-<td><p>ASMCU</p></td>
+<td><p>аппликатионшаринг</p></td>
+<td><p>АСМКУ</p></td>
 </tr>
 <tr class="odd">
 <td><p>16398</p></td>
@@ -179,23 +199,23 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>16403</p></td>
-<td><p>LyncImm</p></td>
-<td><p>LyncImm</p></td>
+<td><p>ЛинЦимм</p></td>
+<td><p>ЛинЦимм</p></td>
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>PCS</p></td>
-<td><p>PCS</p></td>
+<td><p>КОМПЬЮТЕРАХ</p></td>
+<td><p>КОМПЬЮТЕРАХ</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
-<td><p>LWA</p></td>
-<td><p>LWA</p></td>
+<td><p>ЛВА</p></td>
+<td><p>ЛВА</p></td>
 </tr>
 <tr class="odd">
 <td><p>16406</p></td>
-<td><p>OWA</p></td>
-<td><p>OWA</p></td>
+<td><p>Outlook</p></td>
+<td><p>Outlook</p></td>
 </tr>
 <tr class="even">
 <td><p>16407</p></td>
@@ -209,24 +229,35 @@ _**Дата изменения раздела:** 2015-03-09_
 </tr>
 <tr class="even">
 <td><p>16409</p></td>
-<td><p>IMMCU</p></td>
-<td><p>IMMCU</p></td>
+<td><p>ИММКУ</p></td>
+<td><p>ИММКУ</p></td>
 </tr>
 <tr class="odd">
 <td><p>16410</p></td>
-<td><p>XmppTGW</p></td>
-<td><p>XmppGateway</p></td>
+<td><p>Ксмпптгв</p></td>
+<td><p>Ксмппгатевай</p></td>
 </tr>
 <tr class="even">
 <td><p>32769</p></td>
-<td><p>Gateway</p></td>
-<td><p>Gateway</p></td>
+<td><p>Шлюз</p></td>
+<td><p>Шлюз</p></td>
 </tr>
 <tr class="odd">
 <td><p>32770</p></td>
-<td><p>GatewayMediationServerPair</p></td>
-<td><p>GatewayMediationServerPair</p></td>
+<td><p>Гатеваймедиатионсерверпаир</p></td>
+<td><p>Гатеваймедиатионсерверпаир</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

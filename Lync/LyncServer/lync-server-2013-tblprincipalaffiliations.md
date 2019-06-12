@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalAffiliations'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalAffiliations
 ms:assetid: 45fd8484-5837-44d2-85bb-45c83546607c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558642(v=OCS.15)
-ms:contentKeyID: 49309633
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558642(v=OCS.15)
+ms:contentKeyID: 48183993
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: eb5f6400de1c71b4d11101871b2dadedd232a9ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849535"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalAffiliations в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations в Lync Server 2013
 
-Таблица tblPrincipalAffiliations содержит присоединения субъектов, которые описывают членство в расположениях, включая группы безопасности доменных служб Доменные службы Active Directory, контейнеры Active Directory и домены.
+</div>
 
-### Столбцы
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-12_
+
+ТблпринЦипалаффилиатионс содержит основные сведения о членстве в расположениях, в том числе о группах безопасности доменных служб Active Directory, в контейнерах Active Directory в доменах.
+
+### <a name="columns"></a>Столбцов
 
 <table>
 <colgroup>
@@ -34,30 +54,30 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>principalID</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>Идентификатор присоединенного субъекта.</p></td>
+<td><p>ПринЦипалид</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор присоединенного участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>affiliationID</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>Идентификатор субъекта, представляющего присоединение. Каждый субъект (за исключением типов пользователей системы) также присоединен сам к себе.</p></td>
+<td><p>Аффилиатионид</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор участника, представляющего назначение. Каждый принципал (за исключением системных типов пользователей) также имеет свое Самоназначение.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ключ индекса</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>Индекс. Для присоединений к самому себе значение -1, для других присоединений значение последовательно увеличивается, начиная с 1, в каждом контейнере &lt;principalID, affiliationId&gt;.</p></td>
+<td><p>индекса</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Индекса. Значение для самостоятельных принадлежностей —-1, а для других — для других — в пределах от 1 в каждом &lt;ПринЦипалид, аффилиатионид&gt; сегмент.</p></td>
 </tr>
 <tr class="even">
-<td><p>updatedBy</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>Субъект, выполнивший последнее обновление. Обычно это 1, что означает синхронизацию с Active Directory.</p></td>
+<td><p>Упдатедби</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Основной участник, который обновил Последнее обновление. Обычно это 1, что означает синхронизацию Active Directory.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Ключи
+### <a name="keys"></a>Параметры
 
 <table>
 <colgroup>
@@ -66,23 +86,34 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбцы</th>
+<th>Столбцов</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;principalID, index, affiliationID&gt;</p></td>
+<td><p>&lt;ПринЦипалид, index, Аффилиатионид&gt;</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>principalID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblPrincipal.prinID.</p></td>
+<td><p>ПринЦипалид</p></td>
+<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 <tr class="odd">
-<td><p>affiliationID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblPrincipal.prinID.</p></td>
+<td><p>Аффилиатионид</p></td>
+<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

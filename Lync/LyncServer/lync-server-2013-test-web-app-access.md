@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test Web App access'
+---
+title: 'Lync Server 2013: Проверка доступа к веб-приложению'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test Web App access
 ms:assetid: 17d67ea3-f74d-4952-ac2b-92c0dacc8014
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn767944(v=OCS.15)
-ms:contentKeyID: 62486223
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767944(v=OCS.15)
+ms:contentKeyID: 63969584
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 6d118f019883bd5c0f00295bb92287c9593192a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849417"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test Web App access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="test-web-app-access-in-lync-server-2013"></a>Проверка доступа к веб-приложению в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-07_
 
 
 <table>
@@ -23,79 +43,105 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежемесячно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsWebApp cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксвебапп. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebApp&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsWebApp cmdlet verifies that authenticated users can join Lync Server conferences by using the Lync Web App. When you run the cmdlet, Test-CsWebApp contacts the Web Ticket service to obtain web tickets for the specified users. These tickets effectively act as ‘admission tickets” to the Lync Server conference. If the tickets can be retrieved, and if the users can be authenticated, Test-CsWebApp will then contact Lync Server and attempt to establish separate conferences for instant messaging, application sharing, and data collaboration.
+## <a name="description"></a>Описание
 
-Note that Test-CsWebApp just verifies the APIs and connections used to create these conferences. The cmdlet is designed to verify that Lync Web App could be used to create and join conferences. However,, it does not actually create and conduct a conference.
+Командлет Test-Ксвебапп подтверждает, что пользователи, прошедшие проверку подлинности, могут присоединиться к конференциям Lync Server с помощью Lync Web App. При выполнении командлета Test-Ксвебапп обращается к службе веб-билета, чтобы получить веб-билеты для указанных пользователей. Эти билеты эффективно действуют в конференц-зале Lync Server с помощью билетов на допускную связь. Если вы можете получить билеты, и если пользователи могут проходить проверку подлинности, тест-Ксвебапп будет обращаться к Lync Server и попытаться установить отдельные конференции для обмена мгновенными сообщениями, общего обмена приложениями и совместной работы с данными.
 
-## Running the test
+Обратите внимание, что Test-Ксвебапп только проверяет интерфейсы API и соединения, используемые для создания этих конференций. Этот командлет предназначен для проверки того, что приложение Lync Web App можно использовать для создания и присоединения к конференциям. Тем не менее, в действительности она не создает и не проводит конференции.
 
-The Test-CsWebApp cmdlet can be run using either a pair of preconfigured test accounts or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the fully qualified domain name of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Ксвебапп можно выполнить с помощью пары предварительно настроенных тестовых учетных записей или учетных записей двух пользователей, которые включены в Lync Server. Для выполнения этой проверки с помощью тестовых учетных записей нужно просто указать полное доменное имя для тестируемого пула сервера Lync Server. Например:
 
     Test-CsWebApp -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsWebApp:
+Для выполнения этой проверки с использованием фактических учетных записей пользователей необходимо создать два объекта учетных данных Windows PowerShell (объекты, содержащие имя и пароль учетной записи) для каждой учетной записи. После вызова Test-Ксвебапп вы должны добавить эти объекты учетных данных и адреса SIP для двух учетных записей.
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1 -User2SipAddress "sip:pilar@litwareinc.com" -User2Credential $cred2
 
-For more information, see the help topic for the [Test-CsWebApp](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsWebApp) cmdlet. Note that Test-CsWebApp was deprecated for use on Lync Server 2013.
+Дополнительные сведения можно найти в разделе справки по командлету [Test-ксвебапп](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) . Обратите внимание, что функция Test-Ксвебапп устарела для использования в Lync Server 2013.
 
-## Determining success or failure
+</div>
 
-If Test-CsWebApp can join the users to their conferences, the cmdlet will return the test result Success:
+<div>
 
-Target Fqdn :
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если тест-Ксвебапп может присоединить пользователей к своим конференциям, командлет вернет результат теста "успешно".
 
-Latency : 00:00:00
+Целевое полное доменное имя:
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:00
 
-If the users cannot join the necessary conferences then the test result will be marked as Failure. Typically Test-CsWebApp will also report back a detailed error message and diagnosis:
+Сообщение об ошибке:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если пользователи не могут присоединиться к необходимым конференциям, результат теста будет помечен как сбой. Обычно Test-Ксвебапп также будет сообщать о подробном сообщении об ошибке и диагностике:
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message : No response received for Web-Ticket service
+Результат: сбой
 
-Diagnosis : The HTTP request is unauthorized with client
+Задержка: 00:00:00
 
-authentication scheme 'Ntlm'. The authentication
+Сообщение об ошибке: ни одного ответа не получено для службы веб-билета
 
-header received from the server was 'Negotiate,NTLM'.
+Диагностика: запрос HTTP-запроса не разрешен клиентом
 
-## Reasons why the test might have failed
+Схема проверки подлинности "NTLM". Проверка подлинности
 
-Test-CsWebApp failures typically involve user authentication errors. If Test-CsWebApp fails, you should first verify that the specified users have valid user accounts and are enabled for Lync Server. You can retrieve account information by using a command similar to this:
+заголовку, полученному от сервера, является "Negotiate, NTLM".
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ошибки при тестировании и Ксвебапп обычно включают ошибки проверки подлинности пользователей. Если при выполнении теста-Ксвебапп возникла ошибка, сначала убедитесь в том, что у указанных пользователей есть действительные учетные записи пользователей и они включены для Lync Server. Вы можете получить сведения об учетной записи с помощью следующей команды:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.You should also verify that the passwords that you supplied to the cmdlet are valid.
+Если свойство Enabled не равно true или если команда не выполнена, это означает, что у пользователя нет действительной учетной записи Lync Server. Кроме того, необходимо убедиться, что указанные в командлете пароли действительны.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

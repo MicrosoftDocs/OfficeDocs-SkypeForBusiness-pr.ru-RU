@@ -1,29 +1,63 @@
-﻿---
-title: 'Этап 3: развертывание пилотного пула Lync Server 2013'
-TOCTitle: 'Этап 3: развертывание пилотного пула Lync Server 2013'
-ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204849(v=OCS.15)
-ms:contentKeyID: 49309661
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Этап 3: развертывание пула Lync Server 2013 Pilot'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
+ms:assetid: 49046edd-accf-462d-952e-5983ce373a6c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204849(v=OCS.15)
+ms:contentKeyID: 48184005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e348ea9eb0647ff3fb3b8dd809bdebed98994133
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848963"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Этап 3: развертывание пилотного пула Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-08-28_
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Этап 3: развертывание пула Lync Server 2013 Pilot
 
-В этом разделе описываются действия, необходимые для пилотного развертывания Lync Server 2013, а также ряд ключевых действий по проверке сосуществования двух пулов.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Подготовка Active Directory для Lync Server 2013](prepare-active-directory-for-lync-server-2013.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-08-28_
+
+В этом разделе описаны действия, которые необходимо выполнить, чтобы развернуть пилотное развертывание Lync Server 2013 и несколько шагов проверки, чтобы убедиться в том, что эти два пула являются взаимодействующими.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Подготовка службы каталогов Active Directory для Lync Server 2013](prepare-active-directory-for-lync-server-2013.md)
 
   - [Установка средств администрирования Lync Server](install-lync-server-administration-tools.md)
 
-  - [Развертывание пилотного пула Lync Server 2013](deploy-lync-server-2013-pilot-pool_1.md)
+  - [Развертывание пула Lync Server 2013 Pilot](deploy-lync-server-2013-pilot-pool_1.md)
 
   - [Проверка возможности совместного использования пилотного и старого пула](verify-pilot-pool-coexistence-with-legacy-pool_1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

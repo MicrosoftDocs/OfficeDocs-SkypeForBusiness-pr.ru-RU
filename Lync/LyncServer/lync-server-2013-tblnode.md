@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblNode'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615024(v=OCS.15)
-ms:contentKeyID: 49310723
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)
+ms:contentKeyID: 48184960
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 84bf7cf57f9890093a56deb2e0769b82e92aa0ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849549"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblNode в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tblnode-in-lync-server-2013"></a>tblNode в Lync Server 2013
 
-tblNode содержит дерево объектов (с узлами категорий или комнат чата), которым можно управлять с помощью панели управления Lync Server 2013 и командлетов администрирования.
+</div>
 
-### Столбцы
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-12_
+
+Тблноде включает дерево объектов (с узлами "Категория" или "комната чата") как управляемое на панели управления Lync Server 2013 и административных командлетов.
+
+### <a name="columns"></a>Столбцов
 
 <table>
 <colgroup>
@@ -34,143 +54,143 @@ tblNode содержит дерево объектов (с узлами кате
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>nodeID</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>ИД узла (уникальное число).</p></td>
+<td><p>Нодеид</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор узла (уникальный номер).</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeGuid</p></td>
-<td><p>GUID, not null</p></td>
-<td><p>Глобальный уникальный ИД узла.</p></td>
+<td><p>Нодегуид</p></td>
+<td><p>GUID, а не NULL</p></td>
+<td><p>GUID узла.</p></td>
 </tr>
 <tr class="odd">
 <td><p>parentID</p></td>
 <td><p>целое</p></td>
-<td><p>ИД узла родительского элемента. Корневой узел (с ИД 1) включает себя в качестве родительского элемента.</p></td>
+<td><p>Идентификатор узла родителя. Корневой узел (с ИДЕНТИФИКАТОРом 1) также включает себя как родительский.</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeType</p></td>
-<td><p>bit, not null</p></td>
-<td><p>True, если узел является категорией.</p>
-<p>False, если узел является комнатой чата.</p></td>
+<td><p>Узла</p></td>
+<td><p>bit, NOT NULL</p></td>
+<td><p>Значение true, если узел является категорией.</p>
+<p>Значение false, если узел является комнатой чата.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeName</p></td>
-<td><p>nvarchar (256), не равно null</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Имя узла.</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeDesc</p></td>
-<td><p>nvarchar (256), не равно null</p></td>
+<td><p>Нодедеск</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Описание узла.</p></td>
 </tr>
 <tr class="odd">
-<td><p>invite</p></td>
+<td><p>сообщение</p></td>
 <td><p>бит</p></td>
 <td><p>Для категорий:</p>
 <ul>
-<li><p>True, если приглашения включены.</p></li>
-<li><p>False, если приглашения отключены.</p></li>
+<li><p>Значение true, если приглашения включены.</p></li>
+<li><p>Значение false, если приглашения отключены.</p></li>
 </ul>
 <p>Для комнат:</p>
 <ul>
-<li><p>False, если приглашения отключены (переопределяет родительскую категорию).</p></li>
-<li><p>Null, если настройки приглашений наследуются от родительской категории.</p></li>
+<li><p>Значение false, если приглашения отключены (переопределяет родительскую категорию).</p></li>
+<li><p>Значение null, если параметр приглашения наследуется от родительской категории.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>logged</p></td>
+<td><p>войдет</p></td>
 <td><p>бит</p></td>
 <td><p>Для категорий:</p>
 <ul>
-<li><p>True, если журнал чата включен.</p></li>
-<li><p>False, если журнал чата отключен.</p></li>
+<li><p>Значение true, если история чата включена.</p></li>
+<li><p>Значение false, если ведение журнала чата отключено.</p></li>
 </ul>
 <p>Для комнат:</p>
 <ul>
-<li><p>Null.</p></li>
+<li><p>Значения.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>filePost</p></td>
+<td><p>Филепост</p></td>
 <td><p>бит</p></td>
 <td><p>Для категорий:</p>
 <ul>
-<li><p>True, если передача файлов разрешена.</p></li>
-<li><p>False, если передача файлов запрещена.</p></li>
+<li><p>Значение true, если отправка файлов разрешена.</p></li>
+<li><p>Значение false, если отправка файлов запрещена.</p></li>
 </ul>
 <p>Для комнат:</p>
 <ul>
-<li><p>Null.</p></li>
+<li><p>Значения.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>disabled</p></td>
-<td><p>bit, not null</p></td>
-<td><p>True, если комната чата отключена. Применяется только к комнатам чата. (Для категорий – False.)</p></td>
+<td><p>отключает</p></td>
+<td><p>bit, NOT NULL</p></td>
+<td><p>Значение true, если комната чата отключена. Применимо только к комнатам чата. (Ложь для категорий.)</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>behavior</p></td>
-<td><p>smallint, not null</p></td>
-<td><p>Поведение (поиск в таблице EnumValue):</p>
+<td><p>расширения</p></td>
+<td><p>smallint, NOT NULL</p></td>
+<td><p>Поведение (Поиск в таблице Енумвалуе):</p>
 <ul>
-<li><p>4: Normal (обычные комнаты чата).</p></li>
-<li><p>5: Auditorium (комнаты чата аудитории, участвовать могут только докладчики).</p></li>
+<li><p>4: обычный (обычные комнаты чата).</p></li>
+<li><p>5: Аудиториум (Аудиториум) — комнаты чата только выступающие могут участвовать в программе.</p></li>
 </ul>
-<p>Применяется только для комнат чата.</p></td>
+<p>Применимо только к комнатам чата.</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibility</p></td>
-<td><p>smallint, not null</p></td>
-<td><p>Видимость (поиск в таблице EnumValue):</p>
+<td><p>Отображение</p></td>
+<td><p>smallint, NOT NULL</p></td>
+<td><p>Visibility (Поиск в таблице Енумвалуе):</p>
 <ul>
-<li><p>2: Private</p></li>
-<li><p>3: Scoped</p></li>
-<li><p>6: Open</p></li>
+<li><p>2: частный</p></li>
+<li><p>3: область охвата</p></li>
+<li><p>6: открыть</p></li>
 </ul>
-<p>Применяется только для комнат чата.</p></td>
+<p>Применимо только к комнатам чата.</p></td>
 </tr>
 <tr class="even">
-<td><p>siopID</p></td>
-<td><p>GUID</p></td>
-<td><p>Глобальный уникальный ИД надстройки, если надстройка связана с этой комнатой чата. (Категории не имеют надстроек.)</p>
-<p>Для поиска сведений о надстройках используется таблица SiopWhiteList.</p></td>
+<td><p>Сиопид</p></td>
+<td><p>Глобальный уникальный идентификатор (GUID)</p></td>
+<td><p>GUID надстройки, если надстройка связана с этой комнатой чата. (В категориях нет надстроек.)</p>
+<p>Сведения о надстройке ищутся в таблице Сиопвхителист.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeAddedBy</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>ИД субъекта, который создал этот узел.</p></td>
+<td><p>Нодеаддедби</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор участника, который создал этот узел.</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeAddedOn</p></td>
+<td><p>Нодеаддедон</p></td>
 <td><p>bigint, NOT NULL</p></td>
 <td><p>Метка времени создания узла.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeUpdatedBy</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>ИД субъекта, который выполнил последнее обновление этого узла.</p></td>
+<td><p>Нодеупдатедби</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор участника, который последним обновил этот узел.</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeUpdatedOn</p></td>
+<td><p>Нодеупдатедон</p></td>
 <td><p>bigint, NOT NULL</p></td>
 <td><p>Метка времени последнего обновления этого узла.</p></td>
 </tr>
 <tr class="odd">
-<td><p>purgedOn</p></td>
-<td><p>дата и время</p></td>
-<td><p>Время последней операции очистки (удаление областей из таблицы tblScopedPrincipal и ролей из таблицы tblPrincipalRole) для этого узла. Используется механизмом обновления внутреннего кэша службы чата.</p></td>
+<td><p>Пуржедон</p></td>
+<td><p>datetime</p></td>
+<td><p>Время последней операции очистки (удаления областей из таблицы ТблскопедпринЦипал и ролей из ТблпринЦипалроле таблицы), которые затронули этот узел. Это используется механизмом обновления внутреннего кэша в службе чата.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Ключи
+### <a name="keys"></a>Параметры
 
 <table>
 <colgroup>
@@ -185,25 +205,36 @@ tblNode содержит дерево объектов (с узлами кате
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>nodeID</p></td>
+<td><p>Нодеид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>behavior</p></td>
-<td><p>Внешний ключ с поиском в таблице tblEnumValue.valueID.</p></td>
+<td><p>расширения</p></td>
+<td><p>Внешний ключ с подстановкой в таблице Тбленумвалуе. Валуеид.</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibility</p></td>
-<td><p>Внешний ключ с поиском в таблице tblEnumValue.valueID.</p></td>
+<td><p>Отображение</p></td>
+<td><p>Внешний ключ с подстановкой в таблице Тбленумвалуе. Валуеид.</p></td>
 </tr>
 <tr class="even">
 <td><p>parentID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblNode.nodeID.</p></td>
+<td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодеид.</p></td>
 </tr>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblSiopWhiteList.siopId.</p></td>
+<td><p>Сиопид</p></td>
+<td><p>Внешний ключ с подстановкой в таблице Тблсиопвхителист. Сиопид.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

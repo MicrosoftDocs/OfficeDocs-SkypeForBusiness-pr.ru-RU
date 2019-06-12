@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Validating audio/video conferences'
+---
+title: 'Lync Server 2013: Проверка аудио-и видеоконференций'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Validating audio/video conferences
 ms:assetid: 6c8c422a-d501-42cb-820b-b002f9b2250b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720915(v=OCS.15)
-ms:contentKeyID: 62246667
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720915(v=OCS.15)
+ms:contentKeyID: 63969615
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b0e608f0c765c4dd552645320ec947c7e8a54ac4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849205"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validating audio/video conferences in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Проверка аудио-и видеоконференций в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-05_
 
 
 <table>
@@ -23,134 +43,160 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="odd">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="even">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsAVConference cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксавконференце. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsAVConference cmdlet checks whether two test users can participate in an audio/video (A/V) conference. When the cmdlet runs, the two users are logged on to the system. After they face successfully logged on, the first user creates an A/V conference, and then waits for the second user to join that conference. After a brief exchange of data, the conference is deleted and the two tests users are logged off.
+## <a name="description"></a>Описание
 
-Note that Test-CsAVConference does not conduct an actual A/V conference between the two test users. Instead, the cmdlet verifies that the two users can make all the connections necessary to conduct such a conference.
+Командлет Test-Ксавконференце проверяет, могут ли два тестовых пользователя участвовать в аудио-или видеоконференции (A/V). При запуске командлета два пользователя вошли в систему. После того как они будут успешно вошли в систему, первый пользователь создаст Конференц-связь, а затем ждет, пока второй пользователь присоединится к этой Конференции. После краткого обмена данными Конференция удаляется, а два теста пользователя выводятся из сеанса.
 
-Further examples for this command can be found at [Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference).
+Обратите внимание на то, что Test-Ксавконференце не проводит фактическую конференцию/V между двумя тестовыми пользователями. Вместо этого командлет проверяет, что два пользователя могут выполнять все необходимые подключения для проведения такой конференции.
 
-## Running the test
+Дополнительные примеры для этой команды можно найти на странице [Test-ксавконференце](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).
 
-The Test-CsAVConference cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Ксавконференце можно выполнить с помощью пары предварительно настроенных тестовых учетных записей (см. раздел Настройка тестовых учетных записей для выполнения тестов Lync Server) или учетные записи любых двух пользователей, которые включены в Lync Server. Для выполнения этой проверки с помощью тестовых учетных записей нужно просто указать полное доменное имя для тестируемого пула Lync Server. Например:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when they call Test-CsAVConference:
+Для выполнения этой проверки с использованием фактических учетных записей пользователей необходимо создать два объекта учетных данных Windows PowerShell (объекты, содержащие имя и пароль учетной записи) для каждой учетной записи. После этого вы должны добавить эти объекты учетных данных и адреса SIP для двух учетных записей при вызове Test-Ксавконференце:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference) cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету [Test-ксавконференце](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference) .
 
-## Determining Success or Failure
+</div>
 
-If the specified users can successfully complete an A/V conference, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если указанные пользователи могут успешно выполнить Конференц-связь между собой, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**
 
-Latency : 00:00:02.6841765
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:02.6841765
 
-If the users can not complete the conference, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Ошибки
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если пользователи не могут выполнить конференцию, результат будет отображаться как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Latency : 00:00:00
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error : 404, Not Found
+Результат: сбой
 
-Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,
+Задержка: 00:00:00
 
-Reason=Destination URI either not enabled for SIP or does not
+Ошибка: 404, не найдена
 
-exist.
+Диагностика: ErrorCode = 4005, Source = ATL-CS-001.litwareinc.com,
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Reason = универсальный код ресурса (URI) назначения не включен для SIP либо не
 
-For example, the previous output states that the test failed because at least one of the two user accounts was not valid, either because the account does not exist or because the account has not been enabled for Lync Server. You can verify the existence of the two test accounts, and whether they were enabled for Lync Server, by running a command similar to the following:
+Существует.
+
+Microsoft. RTC. SignalR. Диагностичеадер
+
+Например, предыдущее выходное состояние не прошло проверку, так как по крайней мере одна из двух учетных записей пользователей была недействительной из-за того, что учетная запись не существует или учетная запись не включена для Lync Server. Для проверки существования двух тестовых учетных записей и того, включены ли они в Lync Server, можно выполнить следующую команду:
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-If Test-CsAVConference fails, then you might want to rerun the test, this time including the Verbose parameter:
+Если при выполнении теста-Ксавконференце происходит сбой, может потребоваться повторный запуск теста, в том числе параметр подробно:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included Test-CsAVConference will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in an AV conference. For example, suppose that your test fails and you receive the following Diagnosis:
+При включенном параметре "подробный" Ксавконференце возвращает пошаговые учетные записи для каждого действия, которое он попытался принять, когда вы проверили возможность участия указанных пользователей на Конференции AV. Например, предположим, что тест завершается сбоем и вы получаете следующую диагностику.
 
-ErrorCode=1008,Source=accessproxy.litwareinc.com,Reason=Unable to resolve DNS SRV record
+ErrorCode = 1008, Source = акцесспрокси. плана litwareinc. com, причина — не удалось разрешить DNS-запись SRV
 
-If you rerun the test using the Verbose parameter, the step-by-step information returned will include output similar to this:
+При повторном выполнении теста с помощью параметра подробных данных пошаговые инструкции будут возвращены следующим образом:
 
-VERBOSE: 'Register' activity started.
+ПОДРОБНЫЕ сведения: начато действие "регистрация".
 
-Sending Registration request:
+Отправка запроса на регистрацию:
 
-Target Fqdn = atl-cs-001.litwareinc.com
+Целевое полное доменное имя = atl-cs-001.litwareinc.com
 
-User Sip Address = sip:davidlongmire@litwareinc.com
+SIP адрес пользователя = sip:davidlongmire@litwareinc.com
 
-Registrar Port = 5061.
+Порт регистратора = 5061.
 
-Auth Type 'Trusted' is selected.
+Выбран тип проверки подлинности "Trusted".
 
-'Register' activity started.
+Начато действие "регистрация".
 
-Sending Registration request:
+Отправка запроса на регистрацию:
 
-Target Fqdn = atl-cs-001.litwareinc.com
+Целевое полное доменное имя = atl-cs-001.litwareinc.com
 
-User Sip Address = sip:kenmyer@litwareinc.com
+SIP адрес пользователя = sip:kenmyer@litwareinc.com
 
-Registrar Port = 5061.
+Порт регистратора = 5061.
 
-Auth Type 'Trusted' is selected.
+Выбран тип проверки подлинности "Trusted".
 
-An exception 'The endpoint was unable to register. See the ErrorCode for specific reason.' occurred during Workflow
+Исключение "не удалось зарегистрировать конечную точку". Ознакомьтесь с ErrorCode по конкретной причине. произошла ошибка в рабочем процессе
 
-The last line in that output indicates that the user sip:kenmyer@litwareinc.com was unable to register with Lync Server. That means that you should verify that the SIP address sip:kenmyer@litwareinc.com is valid, and that the associated user is enabled for Lync Server.
+Последняя строка в этом выходных данных указывает на то, что пользователь sip:kenmyer@litwareinc.com не смог зарегистрироваться в Lync Server. Это означает, что необходимо убедиться в том, что адрес SIP sip:kenmyer@litwareinc.com действителен и что связанный пользователь включен для Lync Server.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsAVConference might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой Test-Ксавконференце:
+
+  - Указана недействительная учетная запись пользователя. Для проверки существования учетной записи пользователя можно выполнить следующую команду:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - Учетная запись пользователя верна, но в настоящее время учетная запись не включена для Lync Server. Чтобы убедиться в том, что учетная запись пользователя включена для Lync Server, выполните команду, подобную следующей:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.
+    Если для свойства Enabled задано значение false, это означает, что пользователь в настоящее время не поддерживает Lync Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

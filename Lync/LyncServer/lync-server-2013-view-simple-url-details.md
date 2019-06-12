@@ -1,39 +1,77 @@
-﻿---
-title: Просмотр сведений о простом URL-адресе
-TOCTitle: Просмотр сведений о простом URL-адресе
-ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg521010(v=OCS.15)
-ms:contentKeyID: 49310049
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр данных простого URL-адреса'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View simple URL details
+ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)
+ms:contentKeyID: 48184399
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b9c351ef8d9913ea96cea3412db4ba6159cedb9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849147"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр сведений о простом URL-адресе
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-11_
+# <a name="view-simple-url-details-in-lync-server-2013"></a>Просмотр простых данных URL-адреса в Lync Server 2013
 
-Панель управления Lync Server 2013 можно использовать для просмотра сведений о простых URL-адресах для среды сервера Lync Server 2013. Простые URL-адреса облегчают пользователям присоединение к собраниям и упрощают доступ администраторов к средствам администрирования. Дополнительные сведения см. в разделе [Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+</div>
 
-## Просмотр сведений о простых URL-адресах
+<div id="mainSection">
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или CsViewOnlyAdministrator. Дополнительные сведения о предварительно заданных административных ролях, которые доступны в Lync Server 2013, см. в разделе [Планирование контроля доступа на основе ролей в Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+<div id="mainBody">
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  В левой панели навигации щелкните элемент **Топология**, а затем элемент **Простой URL-адрес**.
+_**Тема последнего изменения:** 2012-10-11_
 
-4.  На странице **Простой URL-адрес** щелкните заголовок столбца, чтобы упорядочить список при необходимости.
+Вы можете использовать панель управления Lync Server 2013 для просмотра простых данных URL-адреса для вашей среды Lync Server 2013. Простые URL-адреса упрощают присоединение к собраниям, а также облегчает администраторам доступ к средствам администрирования. Подробные сведения можно найти [в разделе Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
-5.  Выберите имя, для которого требуется просмотреть сведения о простых URL-адресах, а затем щелкните **Свойства**.
+<div>
 
-6.  Закончив просмотр сведений, нажмите кнопку **Закрыть**.
+## <a name="to-view-simple-url-details"></a>Просмотр простых данных URL-адреса
 
-## См. также
+1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или CsViewOnlyAdministrator. Подробные сведения о стандартных ролях администратора, доступных в Lync Server 2013, можно найти [в разделе Планирование управления доступом на основе ролей в Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-#### Другие ресурсы
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-[Управление топологией Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
+3.  На панели навигации слева выберите пункт **топология** и щелкните **простой URL-адрес**.
+
+4.  На странице **простой URL-адрес** щелкните заголовок столбца, чтобы отсортировать список (при необходимости).
+
+5.  Выберите имя, для которого требуется получить простой URL-адрес, и нажмите кнопку **Свойства**.
+
+6.  Когда вы закончите просмотр сведений, нажмите кнопку **Закрыть**.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Управление топологией Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

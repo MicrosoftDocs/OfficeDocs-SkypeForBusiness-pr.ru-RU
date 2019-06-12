@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица VideoClientEvent'
-TOCTitle: Таблица VideoClientEvent
-ms:assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg399039(v=OCS.15)
-ms:contentKeyID: 49311522
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица VideoClientEvent'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: VideoClientEvent table
+ms:assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399039(v=OCS.15)
+ms:contentKeyID: 48185891
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 79b428a639cee6fb0df04cc969b529c5bbbfb2c9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849178"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица VideoClientEvent в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="videoclientevent-table-in-lync-server-2013"></a>Таблица VideoClientEvent в Lync Server 2013
 
-Каждая запись содержит событие клиента для одной конечной точки в видеозвонке. Обычно один звонок имеет две записи, одну для вызывающей стороны и одну для вызываемой стороны.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-02_
+
+Каждая запись имеет событие клиента для одной конечной точки во время видеозвонка. Обычно один звонок состоит из двух записей: одного для вызывающего и для вызываемого абонента.
 
 
 <table>
@@ -35,43 +55,54 @@ _**Дата изменения раздела:** 2015-03-09_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>дата и время</p></td>
-<td><p>Первичный</p></td>
-<td><p>Указывается в <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p><strong>Конференцедатетиме</strong></p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>На которую ссылается <a href="lync-server-2013-medialine-table.md">Таблица медиалине в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSeq</strong></p></td>
+<td><p><strong>Сессионсек</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Указывается в <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p>Primary</p></td>
+<td><p>На которую ссылается <a href="lync-server-2013-medialine-table.md">Таблица медиалине в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediaLineLabel</strong></p></td>
+<td><p><strong>Медиалинелабел</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Первичный</p></td>
-<td><p>Указывается в <a href="lync-server-2013-medialine-table.md">Таблица MediaLine в Lync Server 2013</a>.</p></td>
+<td><p>Primary</p></td>
+<td><p>На которую ссылается <a href="lync-server-2013-medialine-table.md">Таблица медиалине в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FromCaller</strong></p></td>
+<td><p><strong>Фромкаллер</strong></p></td>
 <td><p>бит</p></td>
-<td><p>Первичный</p></td>
-<td><p>0: данные вызываемого абонента</p>
+<td><p>Primary</p></td>
+<td><p>0: данные вызывающего абонента</p>
 <p>1: данные вызывающего абонента</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
-<td><p></p></td>
+<td><p><strong>Нетворкбандвидсловевентратио</strong></p></td>
+<td></td>
 <td><p> </p></td>
-<td><p>Процентное значение времени, в течение которого событие LowBandwidth в сеансе находилось в состоянии сбоя. Доступной пропускной способности недостаточно для приемлемого качества связи.</p></td>
+<td><p>Процент сеанса, когда событие Ловбандвидс было инициировано для состояния "Bad". Доступная пропускная способность недостаточна для приемлемого голосового интерфейса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>NetworkReceiveQualityEventRatio</strong></p></td>
-<td><p></p></td>
+<td><p><strong>Нетворкрецеивекуалитевентратио</strong></p></td>
+<td></td>
 <td><p> </p></td>
-<td><p>Процентное значение времени, в течение которого событие ReceiveSendQuality в сеансе находилось в состоянии сбоя.</p>
-<p>Низкое качество сетевого подключения с точки зрения уровня дрожания или потери пакетов, что оказывает негативное влияние на качество принимаемого звука.</p></td>
+<td><p>Процент сеанса, когда событие Рецеивесендкуалити было инициировано для состояния "Bad".</p>
+<p>Качество сети в условиях нарушения или потери пакетов является существенным и влияет на качество получаемого звука.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

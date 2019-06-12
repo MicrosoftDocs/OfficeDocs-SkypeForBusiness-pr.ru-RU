@@ -1,51 +1,79 @@
-﻿---
-title: Просмотр параметров конфигурации собрания
-TOCTitle: Просмотр параметров конфигурации собрания
-ms:assetid: d03a4684-9d8b-4728-917d-5b5c91511e2c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721894(v=OCS.15)
-ms:contentKeyID: 49888200
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр параметров конфигурации собраний'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View meeting configuration settings
+ms:assetid: d03a4684-9d8b-4728-917d-5b5c91511e2c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721894(v=OCS.15)
+ms:contentKeyID: 49733828
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b3107045d62b244c7ee89dbb47228bc5dd72583
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849153"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр параметров конфигурации собрания
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="view-meeting-configuration-settings-in-lync-server-2013"></a>Просмотр параметров конфигурации собрания в Lync Server 2013
 
-В панели управления Lync Server 2013 параметры конфигурации собраний используются для управления способами реализации собраний в развертывании. К ним относятся следующие конфигурации собраний:
+</div>
 
-  - Глобальная конфигурация, которая создается по умолчанию при развертывании Lync Server 2013.
+<div id="mainSection">
 
-  - Дополнительные конфигурации на уровне сайта и на уровне пользователя, которые можно создавать и использовать для указания способа реализации собраний для конкретных сайтов или пользователей.
+<div id="mainBody">
 
-## Просмотр параметров конфигурации собраний
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+В панели управления Lync Server 2013 вы можете управлять реализацией собраний в развертывании с помощью параметров настройки собраний. Сюда входят следующие конфигурации собрания:
+
+  - Глобальная конфигурация, создаваемая по умолчанию при развертывании Lync Server 2013.
+
+  - Необязательные конфигурации уровня сайта и уровня пользователя, которые можно создать и использовать для определения способа реализации собраний для конкретных сайтов или пользователей.
+
+<div>
+
+## <a name="to-view-meeting-configuration-settings"></a>Просмотр параметров конфигурации собрания
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На левой панели навигации щелкните **Conferencing** (Конференц-связь), а затем **Meeting Configuration** (Конфигурация собрания).
+3.  На панели навигации слева выберите **Конференц** -связь, а затем — **Конфигурация собрания**.
 
-4.  На странице **Meeting Configuration** (Конфигурация собраний) щелкните конфигурацию собраний, которую вы хотите просмотреть.
+4.  На странице **Конфигурация собрания** (Конфигурация собраний) щелкните конфигурацию собраний, которую требуется просмотреть.
 
-5.  В области **Edit File Filter** (Изменить фильтр файлов) установите флажок **Show Details…** (Показать сведения...).
+5.  В окне " **Изменение фильтра файлов**" выберите **Показать подробности...** флажок.
     
-    Функция **Edit Meeting Configuration - \<policy\>** (Изменить конфигурацию собраний — политика) служит для открытия параметров выбранной политики. Сведения о настройке параметров см. в разделе [Создание или изменение параметров конфигурации собрания в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).
+    Диалоговое окно " ** \<изменение\> конфигурации собрания** ", в котором отображаются параметры выбранной политики. Сведения о настройке параметров можно найти в разделе [Создание или изменение коллекции параметров конфигурации собраний в Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md).
 
-## Просмотр информации о конфигурации собрания с помощью командлетов Lync Server PowerShell
+</div>
 
-Параметры конфигурации собрания также можно просматривать с помощью оболочки Lync Server PowerShell и командлета Get-CsMeetingConfiguration. Этот командлет можно запустить из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Просмотр информации о конфигурации собраний
+## <a name="viewing-meeting-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации собраний с помощью командлетов Windows PowerShell
 
-  - Для просмотра информации обо всех параметрах конфигурации собраний введите следующую команду в Командная консоль Lync Server, а затем нажмите клавишу ВВОД:
+Параметры конфигурации собрания можно просмотреть с помощью Windows PowerShell и командлета Get-Ксмитингконфигуратион. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-view-meeting-configuration-information"></a>Просмотр сведений о настройке собрания
+
+  - Чтобы просмотреть сведения о всех параметрах конфигурации собрания, введите в командной консоли Lync Server указанную ниже команду и нажмите клавишу ВВОД.
     
         Get-CsMeetingConfiguration
     
-    Это приведет к возврату приблизительно такой информации:
+    Команда возвращает примерно следующую информацию:
     
         Identity                        : Global
         PstnCallersBypassLobby          : True
@@ -60,5 +88,19 @@ _**Дата изменения раздела:** 2013-02-23_
         CustomFooterText                :
         AllowConferenceRecording        : True
 
-For more information, see the help topic for the [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration) cmdlet.
+</div>
+
+Дополнительные сведения можно найти в разделе справки по командлету [Get-ксмитингконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

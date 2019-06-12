@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing PSTN phone call'
+---
+title: 'Lync Server 2013: Проверка КОММУТИРУЕМого телефонного звонка'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN phone call
 ms:assetid: dc7d319d-a627-45b6-a978-6111901251e3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn690133(v=OCS.15)
-ms:contentKeyID: 62281114
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690133(v=OCS.15)
+ms:contentKeyID: 63969656
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 641b2f77079fee100d8f3ac85a1a7580d7cf7d84
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849380"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing PSTN phone call in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-pstn-phone-call-in-lync-server-2013"></a>Проверка телефонной связи PSTN в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-05_
 
 
 <table>
@@ -23,101 +43,127 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsRegistration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксрегистратион. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnOutboundCall&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsPstnOutboundCall cmdlet tests the ability of a user to make a call to a phone number located on the PSTN. When you run Test-CsPstnOutboundCall, the cmdlet first attempts to log the test user on to Lync Server. If the logon succeeds, the cmdlet will then try to make a phone call across the PSTN gateway. This phone call will be made using the dial plan, voice policy, and other policies and settings assigned to the test account. When the call is answered, the cmdlet sends dual-tone multi-frequency (DTMF) codes over the network to verify media connectivity.
+## <a name="description"></a>Описание
 
-When conducting its test, Test-CsPstnOutboundCall will make an actual phone call: the target phone will ring and must be answered for the test to succeed. This call must also be manually ended by the administrator.
+Командлет Test-Кспстнаутбаундкалл проверяет способность пользователя совершить звонок на номер телефона, находящийся в КТСОП. При запуске test-Кспстнаутбаундкалл командлет сначала пытается записать тестовый пользователь на сервер Lync Server. Если вход будет выполнен успешно, командлет попытается выполнить телефонный звонок через шлюз PSTN. Этот телефонный звонок будет выполняться с использованием абонентской группы, политики голосовой связи и других политик и параметров, назначенных тестовой учетной записи. При ответе на звонок командлет отправляет Многочастотные коды с несколькими частотами (DTMF) по сети для проверки подключения к носителю.
 
-## Running the test
+При проведении проверки тест-Кспстнаутбаундкалл выполнит фактический телефонный звонок: на целевом телефоне будет звонить, и для успешного завершения теста должен быть дан ответ. Этот звонок также должен завершиться администратором вручную.
 
-The Test-CsPstnOutboundCall cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested and the PSTN phone number being called. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Кспстнаутбаундкалл можно выполнить с помощью предварительно настроенной тестовой учетной записи (см. раздел Настройка тестовых учетных записей для выполнения тестов Lync Server) или учетной записи пользователя, который включен для Lync Server. Для выполнения этой проверки с помощью тестовой учетной записи необходимо указать полное доменное имя тестируемого пула сервера Lync и телефонный номер PSTN. Например:
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219"
 
-To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when you call Test-CsPstnOutboundCall:
+Чтобы выполнить эту проверку с использованием реальной учетной записи пользователя, необходимо сначала создать объект учетных данных Windows PowerShell, содержащий имя учетной записи и пароль. Затем необходимо добавить этот объект учетных данных и адрес SIP, назначенный учетной записи, при вызове Test-Кспстнаутбаундкалл:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall) cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету [Test-кспстнаутбаундкалл](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall) .
 
-## Determining success or failure
+</div>
 
-If the specified user can make the call, and if the call is answered, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если заданный пользователь может позвонить, и при ответе на него будет получено сообщение о том, что свойство результата помечено как **успешное:**
 
-Latency : 00:00:06.8630376
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:06.8630376
 
-If the specified user can't make the call or if the call is not answered, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Ошибки
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если указанный пользователь не может позвонить или звонок не отвечает, результат будет показан как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Latency : 00:00:0987365
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error : 403, Forbidden
+Результат: сбой
 
-Diagnosis : ErrorCode=12001,Source=atl-cs-001.litwareinc.com,Reason=User
+Задержка: 00:00:0987365
 
-Policy does not contain phone route usage
+Ошибка: 403, запрещено
 
-The previous output states that the test failed because the voice policy assigned to the specified user does not include a phone usage. (Phone usages tie voice policies to voice routes. Without both a voice policy and a corresponding voice route you can't make calls over the PSTN.)
+Диагностика: ErrorCode = 12001, Source = ATL-CS-001. плана litwareinc. com, Reason = User
 
-If Test-CsPstnOutboundCall fails then you might want to rerun the test, this time including the Verbose parameter:
+Политика не содержит использование маршрутных номеров
+
+В предыдущем выводе говорится, что тест завершился сбоем, так как политика голосовой связи, назначенная указанному пользователю, не содержит использование телефона. (Использование телефона применяет политики голосовой связи для голосовых маршрутов. Без политики голосовой связи и соответствующего голосового маршрута вы не можете звонить по протоколу PSTN.
+
+Если при выполнении теста-Кспстнаутбаундкалл происходит сбой, может потребоваться повторное выполнение теста, на этот раз включая параметр подробно:
 
     Test-CsPstnOutboundCall -TargetFqdn "atl-cs-001.litwareinc.com" -TargetPstnPhoneNumber "+12065551219" -Verbose
 
-When the Verbose parameter is included, Test-CsPstnOutboundCall will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example, this output indicates that network problems are preventing a connection with the PSTN:
+При включенном параметре "подробный" функция Test-Кспстнаутбаундкалл будет возвращать пошаговые инструкции для каждого действия, которое он пытался войти на сервер Lync Server. Например, эти выходные данные указывают на то, что неполадки в сети не препятствуют подключению к КТСОП.
 
-Establishing Audio Video call to 'sip:+12065551219@litwareinc.com;user=phone'.
+Установка голосового видеозвонка на "SIP: +12065551219@litwareinc.com; user = Phone".
 
-An exception 'A 404 (Not Found) response was received from the network and the operation failed.
+В сети получено исключение "404 (не найдено), и операция завершилась сбоем.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsPstnOutboundCall might fail:
+<div>
 
-  - You specified an invalid user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой Test-Кспстнаутбаундкалл:
+
+  - Вы указали недопустимую учетную запись пользователя. Для проверки существования учетной записи пользователя можно выполнить следующую команду:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - Учетная запись пользователя верна, но в настоящее время учетная запись не включена для Lync Server. Чтобы убедиться в том, что учетная запись пользователя включена для Lync Server, выполните команду, подобную следующей:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False that means that the user is currently not enabled for Lync Server.
+    Если для свойства Enabled задано значение false, это означает, что пользователь в настоящее время не поддерживает Lync Server.
 
-  - The voice policy assigned to the specified user does not have a valid PSTN usage. You can determine the voice policy that is assigned to a user by using a command similar to this:
+  - Политика голосовой связи, назначенная указанному пользователю, не может использоваться в качестве использования КТСОП. Вы можете определить политику голосовой связи, назначенную для пользователя, с помощью следующей команды:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    And then you can determine the PSTN usages (if any) that are assigned to that policy by using a command similar to the following, which retrieves information about the per-user voice policy RedmondVoicePolicy:
+    Затем вы можете определить использование PSTN (если таковые есть), назначенные этой политике, используя следующую команду, которая извлекает сведения о политике голосовой связи для пользователя Редмондвоицеполици:
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

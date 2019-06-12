@@ -1,69 +1,151 @@
-﻿---
-title: Lync Server 2013 Stress and Performance Tool FAQ
+---
+title: Вопросы и ответы по работе с Lync Server 2013 с помощью средств нагрузки и производительности
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Lync Server 2013 Stress and Performance Tool FAQ
 ms:assetid: a5aff705-320c-4916-8094-23046b2a1b18
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945600(v=OCS.15)
-ms:contentKeyID: 52058574
-ms.date: 06/25/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945600(v=OCS.15)
+ms:contentKeyID: 51541426
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ffcfbca3a2cf58e4e7b87619bb78dabbe42b16bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849813"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lync Server 2013 Stress and Performance Tool FAQ
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-24_
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Вопросы и ответы по работе с Lync Server 2013 с помощью средств нагрузки и производительности
 
-## Frequently Asked Questions
+</div>
 
-Here are some frequently asked questions about the Lync Server 2013 Stress and Performance Tool.
+<div id="mainSection">
 
-## Can I run LyncPerfTool.exe in production?
+<div id="mainBody">
 
-We do not recommend this. This tool will impact server performance, security, and user experience.
+<span> </span>
 
-## I am logging on my users for the first time. Why are the servers running at such high load?
+_**Тема последнего изменения:** 2013-02-24_
 
-The first time the users log on, there are additional operations that occur. As a result, the performance on the Microsoft SQL Server Back End Server will be degraded. We recommend that you run a short test that logs on all of the users, and then restart the clients before you measure results. We do not support more than 12 concurrent user logon sessions per second, but this depends on your hardware configuration.
+<div>
 
-## My clients are running out of memory. What should I do?
+## <a name="frequently-asked-questions"></a>Ответы на часто задаваемые вопросы
 
-If your clients are running out of memory, you need to reduce the number of users per computer.
+Ниже приведены ответы на часто задаваемые вопросы о средстве быстрой и высокопроизводительной нагрузки Lync Server 2013.
 
-## My clients are at 100 percent CPU all the time. What should I do?
+<div>
 
-If your clients are running with very high CPU after all the users have logged on, you need to reduce the number of users per computer. High CPU spikes are acceptable, but if it is sustained, you need to reduce the load.
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>Могу ли я запускать Линкперфтул. exe в рабочей среде?
 
-## Can I run the tool on the server itself?
+Мы не рекомендуем использовать эту задачу. Это средство влияет на производительность сервера, безопасность и взаимодействие с пользователем.
 
-No. This scenario is not supported and may fail due to a binary mismatch. Also, because the point is to measure resource consumption on the server, running the tool there would render the measurements meaningless.
+</div>
 
-## Can I run LyncPerfTool.exe on a Virtual Server or on Microsoft Hyper-V Server 2008/2012?
+<div>
 
-Yes.
+## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>Я занимаюсь регистрацией моих пользователей в первый раз. Почему серверы работают с такой высокой загрузкой?
 
-## What does MPOP mean?
+При первом входе пользователя в систему возникают дополнительные операции. В результате производительность серверного сервера Microsoft SQL Server будет снижена. Рекомендуется запустить короткий тест для входа на всех пользователей, а затем перезапустить его перед тем, как оценивать результаты. Мы не поддерживаем более 12 одновременных сеансов входа пользователей в секунду, но это зависит от конфигурации оборудования.
 
-MPOP stands for multiple points of presence. It is meant to simulate the scenario where users are logged on to Lync 2013 from multiple machines. Note that in LyncPerfTool.exe, each endpoint uses the default profile (that is, the profile is not split between the two points of presence).
+</div>
 
-## I started LyncPerfTool.exe but nothing is happening. What’s going on?
+<div>
 
-Check the Total Active Endpoints counter on the clients to see if the users are connecting. If users are not connecting, verify your Lync Server 2013 configuration. This issue usually occurs because the server name, the user prefix, or the password is incorrect. Note that external clients should specify the Access Proxy as the TargetServer value. Verify the port in the configuration file.
+## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Недостаточно памяти для моих клиентов. Что мне делать?
 
-## How do I know something is happening?
+Если на ваших клиентах недостаточно памяти, нужно уменьшить количество пользователей на компьютере.
 
-The various LyncPerfTool performance counters indicate whether or not users are connecting and performing actions. However, an easy way to check is to log on to one of the accounts by using Lync 2013 and performing the action you want.
+</div>
 
-## I have Live Communications Server 2007 R2 Capacity Planning Tools and/or Lync Server 2010 installed. Is that OK?
+<div>
 
-No. There are interoperability issues, and you must uninstall all previous versions of this product.
+## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>У моих клиентов в 100 процентов ЦП все время. Что мне делать?
 
-## Will the Stress and Performance tools set up the CAA Call Information server topology?
+Если ваши клиенты работают с очень высокими ЦП после входа в систему, необходимо уменьшить количество пользователей на компьютере. Высокие выгрузки ЦП приемлемы, но если они постоянны, вам нужно уменьшить нагрузку.
 
-No. The tools only create users, contacts, and distribution lists, and simulate user load.
+</div>
 
-## What is the maximum number of users that the tools support?
+<div>
 
-We have created up to a total of 80,000 users and executed tests totaling 30,000 users, using these tools. We suggest a maximum of 120,000 users, although the technical limitations allow for a higher value, depending on the client and server hardware available.
+## <a name="can-i-run-the-tool-on-the-server-itself"></a>Можно ли запускать средство на самом сервере?
+
+№ Этот сценарий не поддерживается и может завершиться сбоем из-за несоответствия двоичного файла. Кроме того, так как точка предназначена для измерения потребления ресурсов на сервере, при запуске этого средства будут вырисовываться небессмысленные измерения.
+
+</div>
+
+<div>
+
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Можно ли запускать Линкперфтул. exe на виртуальном сервере или на сервере Microsoft Hyper-V 2008/2012?
+
+Да.
+
+</div>
+
+<div>
+
+## <a name="what-does-mpop-mean"></a>Что означает МПОП?
+
+МПОП означает несколько точек присутствия. Она предназначена для моделирования ситуации, когда пользователи входят в состав Lync 2013 с нескольких компьютеров. Обратите внимание, что в Линкперфтул. exe каждая конечная точка использует профиль по умолчанию (то есть профиль не разбивается между двумя точками присутствия).
+
+</div>
+
+<div>
+
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Я начал Линкперфтул. exe, но ничего не происходит. Что происходит?
+
+Установите флажок Общий счетчик активных конечных точек на клиентах, чтобы проверить, подключаются ли пользователи. Если пользователи не подключаются, проверьте конфигурацию Lync Server 2013. Как правило, эта проблема возникает из-за того, что имя сервера, префикс пользователя или пароль неверны. Обратите внимание, что внешние клиенты должны указать прокси-сервер доступа в качестве значения Таржетсервер. Проверьте порт в файле конфигурации.
+
+</div>
+
+<div>
+
+## <a name="how-do-i-know-something-is-happening"></a>Как узнать, что происходит?
+
+Различные счетчики производительности Линкперфтул указывают, нужно ли пользователям подключаться к ним и выполнять действия. Однако простой способ проверки — войти в одну из учетных записей с помощью Lync 2013 и выполнить нужное действие.
+
+</div>
+
+<div>
+
+## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>У меня установлено средство планирования производительности Live Communications Server 2007 R2 и/или Lync Server 2010. Это нормально?
+
+№ Возникли проблемы с совместимостью, и вы должны удалить все предыдущие версии этого продукта.
+
+</div>
+
+<div>
+
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>Настроили ли средства для работы с загрузкой и производительностью топология сервера информации о звонке Каа?
+
+№ Средства создают только пользователи, контакты и списки рассылки, а также имитируют нагрузку пользователей.
+
+</div>
+
+<div>
+
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>Каково максимальное число пользователей, которые поддерживаются средствами?
+
+С помощью этих средств мы создали общее количество пользователей 80 000 и выполнили тестирование с учетом всех пользователей 30 000. Мы рекомендуем использовать не более 120 000 пользователей, хотя в соответствии с техническими ограничениями допускают более высокие значения (в зависимости от того, какое оборудование доступно для клиента и сервера).
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

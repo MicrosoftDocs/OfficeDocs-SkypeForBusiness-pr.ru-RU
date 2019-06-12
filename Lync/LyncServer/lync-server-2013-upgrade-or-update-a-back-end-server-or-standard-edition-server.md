@@ -1,31 +1,53 @@
-﻿---
-title: "Lync Server 2013: обновление внутреннего сервера или сервера Standard Edition"
-TOCTitle: "Lync Server 2013: обновление внутреннего сервера или сервера Standard Edition"
-ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721942(v=OCS.15)
-ms:contentKeyID: 49888272
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Обновление или переход на сервер Standard Edition
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Upgrade or update a Back End Server or Standard Edition server
+ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721942(v=OCS.15)
+ms:contentKeyID: 49733879
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6b9d5ffba604ed5e32109ed5f1a2020b1e083b22
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849318"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Обновление сервера заднего плана или стандартного выпуска сервера в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Обновление или обновление серверного сервера или стандартного выпуска Standard в Lync Server 2013
 
-В данном подразделе описывается установка обновления на внутренний серверEnterprise Edition или сервере Standard Edition.
+</div>
 
-Если во время обновления внутренний сервер отключается хотя бы на 30 минут, пользователи могут перейти в режим устойчивости. После завершения обновления и подключения внутреннего сервера к серверам переднего плана в пуле пользователи снова получают полный набор функциональных возможностей. Если обновление занимает менее 30 минут, оно никак не затронет работу пользователей.
+<div id="mainSection">
 
-## Обновление внутреннего сервера или сервера Standard Edition
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-11-01_
+
+В этой статье объясняется, как установить обновление на обратном сервере Enterprise Edition или стандартном сервере Standard Edition.
+
+Если сервер выходит за частоту не менее 30 минут после его обновления, пользователи могут перейти в режим устойчивости. После завершения обновления и повторного подключения серверов к внешним серверам из пула пользователи будут возвращены в полную функциональность. Если обновление занимает менее 30 минут, оно никак не затронет работу пользователей.
+
+<div>
+
+## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Обновление внутреннего сервера или сервера Standard Edition
 
 1.  Выполните вход на обновляемый сервер в качестве члена роли CsAdministrator.
 
 2.  Загрузите обновление и извлеките его на локальный жесткий диск.
 
-3.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+3.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 4.  Остановите службы Lync Server. В командной строке выполните следующую команду:
     
@@ -35,13 +57,13 @@ _**Дата изменения раздела:** 2012-11-01_
     
         net stop w3svc
 
-6.  Закройте все окна командной консоли Lync Server.
+6.  Закройте все окна команд Lync Server Management Shell.
 
 7.  Установите обновление.
 
-8.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+8.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
-9.  Снова остановите службы Lync Server, чтобы получить сборки –d из глобального кэша сборок. В командной строке выполните следующую команду:
+9.  Снова остановите службы Lync Server, чтобы перехватить сборки глобального кэша сборок (GAC) – d. В командной строке выполните следующую команду:
     
         Stop-CsWindowsService
 
@@ -49,17 +71,29 @@ _**Дата изменения раздела:** 2012-11-01_
     
         net start w3svc
 
-11. Примените изменения, внесенные программой LyncServerUpdateInstaller.exe в базы данных SQL Server, выполнив одно из следующих действий:
+11. Примените изменения, внесенные Линксерверупдатеинсталлер. exe, в базу данных SQL Server, выполнив одно из указанных ниже действий.
     
-      - Если это внутренний серверEnterprise Edition и на нем нет выровненных баз данных, таких как базы данных архивации и мониторинга, введите в командной строке следующую команду:
+      - Если это сервер выпуска Enterprise Edition и на нем нет размещенных на нем баз данных, таких как архивация и мониторинг баз данных, введите в командной строке следующую команду:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - Если это внутренний серверEnterprise Edition и на нем есть выровненные базы данных, введите в командной строке следующую команду:
+      - Если этот сервер выпуска Enterprise Edition и на нем есть размещенные на сервере базы данных, введите в командной строке следующее:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - Если это сервер Standard Edition, введите в командной строке следующую команду:
+      - Если это сервер Standard Edition, введите в командной строке следующее:
         
             Install-CsDatabase -Update -LocalDatabases
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

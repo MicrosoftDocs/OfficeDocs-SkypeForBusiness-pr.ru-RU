@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Unified Contact Store access'
+---
+title: 'Lync Server 2013: тестирование доступа к единому хранилищу контактов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727309(v=OCS.15)
-ms:contentKeyID: 62388625
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
+ms:contentKeyID: 63969621
+ms.date: 05/16/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ef1d8d8930b9e732faeef02c76d722331c726b67
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849361"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Unified Contact Store access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-05-15_
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Тестирование доступа к единому хранилищу контактов в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2015-05-15_
 
 
 <table>
@@ -23,105 +43,135 @@ _**Дата изменения раздела:** 2015-05-15_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsUnifiedContactStore</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксунифиедконтактсторе</strong> . Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The unified contact store introduced in Lync Server 2013 gives administrators the option of storing a user's contacts in Microsoft Exchange Server 2013 instead of in Lync Server. This allows the user to access the same set of contacts in Outlook Web Access in addition to Lync 2013. (Or, you can continue to store contacts in Lync Server. In that case, users will have to maintain two separate sets of contacts: one for use with Outlook and Outlook Web Access, and one for use with Lync 2013.)
+## <a name="description"></a>Описание
 
-You can determine whether or not a user's contacts were moved to the unified contact store by running the **Test-CsUnifiedContactStore** cmdlet. The **Test-CsUnifiedContactStore** cmdlet will take the specified user account, connect to the unified contact store, and attempt to retrieve a contact for the user. If no contacts can be retrieved then the command will fail together with the message "No contacts were received for the user. Verify that contacts exist for the user."
+Единое хранилище контактов, представленное в Lync Server 2013, дает администраторам возможность хранить контакты пользователя в Microsoft Exchange Server 2013, а не в Lync Server. Это позволит пользователю получить доступ к тому же набору контактов в Outlook Web Access в дополнение к Lync 2013. (Или вы можете продолжать хранить контакты в Lync Server. В этом случае пользователям придется поддерживать два отдельных набора контактов: один для использования с Outlook и Outlook Web Access, а второй — для использования в Lync 2013.)
 
-Note that the **Test-CsUnifiedContactStore** cmdlet will fail if the user has successfully migrated to the unified contact store but has no contacts on his or her Contacts list. The specified user must have at least one contact for the **Test-CsUnifiedContactStore** cmdlet to complete successfully.
+Вы можете определить, перенесены ли контакты пользователя в единое хранилище контактов, запустив командлет **Test-ксунифиедконтактсторе** . Командлет **Test-ксунифиедконтактсторе** займет указанную учетную запись пользователя, подключаться к единому хранилищу контактов и пытаться получить контакт для пользователя. Если ни одного контакта не удается получить, команда завершится сбоем вместе с сообщением "не получено ни одного контакта для пользователя". Убедитесь, что у пользователя есть контакты. "
 
-## Running the test
+Обратите внимание, что командлет **Test-ксунифиедконтактсторе** завершает работу со сбоем, если пользователь успешно прошел миграцию в едином банке контактов, но у него нет контактов в своем списке контактов. Для успешного завершения командлета **Test-ксунифиедконтактсторе** указанному пользователю должен быть хотя бы один контакт.
 
-The commands shown in in the following example determine whether contacts for the user litwareinc\\kenmyer can be found in the unified contact store. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credentials object for the user litwareinc\\kenmyer. Note that you must supply the password for this account to create a valid credentials object and to make sure that the **Test-CsUnifiedContactStore** cmdlet can run its check.
+</div>
 
-The second command in the example uses the supplied credentials object ($x) and the SIP address of the user litwareinc\\kenmyer to determine whether his contacts can be found in the unified contact store.
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Команды, показанные в приведенном ниже примере, определяют, могут ли\\контакты пользователя плана litwareinc кенмер быть обнаружены в едином банке контактов. Для этого в первой команде примера используется командлет **Get-Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell для пользователя плана litwareinc\\кенмер. Обратите внимание, что для этой учетной записи необходимо указать пароль, чтобы создать допустимый объект учетных данных и убедиться, что командлет **Test-ксунифиедконтактсторе** может выполнить его проверку.
+
+Во второй команде в примере используется предоставленный объект учетных данных ($x) и адрес SIP пользователя плана litwareinc\\кенмер, чтобы определить, можно ли найти контакты в едином банке контактов.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsUnifiedContactStore -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If access to the contact store is configured correctly, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если доступ к хранилищу контактов настроен правильно, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**
 
-Latency : 00:00:14.9862716
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:14.9862716
 
-If access to the contact store is not configured correctly, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Сообщение об ошибке:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Диагностик
 
-domain name (FQDN). Using default Registrar port number. Exception:
+Если доступ к хранилищу контактов настроен неправильно, результат будет показан в виде **ошибки**, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-System.InvalidOperationException: No matching cluster found in topology.
+Предупреждение: не удалось прочитать номер порта регистратора для заданного полного имени
 
-at
+доменное имя (FQDN). С помощью номера порта регистратора по умолчанию. Ошибка
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+скорость
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Microsoft. RTC. Management. Синсетиктрансактионс. Сипсинсетиктрансактион. Триретри
 
-Result : Failure
+Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Результат: сбой
 
-did not properly respond after a period of time, or
+Задержка: 00:00:00
 
-established connection failed because connected host has
+Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона
 
-failed to respond 10.188.116.96:5061
+не отвечает на запросы в течение определенного периода времени или
 
-Inner Exception:A connection attempt failed because the
+не удалось установить соединение, так как подключенный узел имеет
 
-connected party did not properly respond after a period of
+не удалось ответить на 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Внутреннее исключение: сбой при попытке подключения из-за того, что
 
-has failed to respond 10.188.116.96:5061
+связь с абонентом завершилась неправильно после определенного периода
 
-Diagnosis :
+время или соединение не удалось установить, так как подключенный узел
 
-## Reasons why the test might have failed
+не удалось ответить 10.188.116.96:5061
 
-Here are some common reasons why **Test-CsUnifiedContactStore** might fail:
+Диагностик
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - Connect to the unified contact store failed, and the attempt to retrieve a contact for the user was not possible. There may be network connectivity issues.
+<div>
 
-## См. также
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-#### Другие ресурсы
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксунифиедконтактсторе** :
 
-[New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)  
-[Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
+  - Предоставлено неправильное значение параметра. Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
+
+  - Не удалось подключиться к единому хранилищу контактов, и попытка получить контакт для пользователя невозможна. Возможно, возникли проблемы с подключением к сети.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
+[Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

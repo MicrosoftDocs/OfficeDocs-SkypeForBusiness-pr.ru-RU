@@ -1,49 +1,89 @@
-﻿---
-title: 'Lync Server 2013: проверка репликации схемы'
-TOCTitle: Проверка репликации схемы
-ms:assetid: ad01a7cf-aa79-4648-ba5a-a7a09172db36
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412822(v=OCS.15)
-ms:contentKeyID: 49310833
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: проверка репликации схемы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verifying schema replication
+ms:assetid: ad01a7cf-aa79-4648-ba5a-a7a09172db36
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412822(v=OCS.15)
+ms:contentKeyID: 48185124
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d115738a4f22cb7795c2eb5a00ac642fbe43fc77
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849184"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Проверка репликации схемы в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-29_
+# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Проверка репликации схемы в Lync Server 2013
 
-Прежде чем перейти к подготовке леса, вручную проверьте, был ли реплицирован раздел схемы.
+</div>
 
-## Проверка репликации схемы вручную
+<div id="mainSection">
 
-1.  Выполните вход на контроллер домена с учетной записью члена группы "Администраторы предприятия".
+<div id="mainBody">
 
-2.  Чтобы открыть редактор ADSI, нажмите кнопку **Пуск** , выберите **Администрирование** и затем выберите **Редактирование ADSI** .
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-29_
+
+Перед запуском подготовки леса вручную убедитесь, что Секция схемы реплицирована.
+
+<div>
+
+## <a name="to-manually-verify-schema-replication"></a>Проверка репликации схемы вручную
+
+1.  Войдите в систему на контроллере домена, который является членом группы администраторов предприятия.
+
+2.  Откройте оснастку "Редактирование ADSI", нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — пункт **ADSI Edit**.
+    
+    <div>
     
 
-    > [!TIP]
-    > Для открытия редактора также можно запустить оснастку <STRONG>adsiedit.msc</STRONG> в командной строке.
+    > [!TIP]  
+    > Кроме того, вы можете запустить <STRONG>ADSIEdit. msc</STRONG> из командной строки.
 
+    
+    </div>
 
+3.  В дереве консоли управления (MMC), если он еще не установлен, нажмите кнопку изменить в **ADSI**.
 
-3.  В дереве консоли управления (MMC) выберите **Редактирование ADSI** .
+4.  В меню **Действие** щелкните **Подключиться к**.
 
-4.  В меню **Действие** щелкните **Подключиться к** .
+5.  В диалоговом окне **Параметры подключения** выберите **Схема** в раскрывающемся списке **Выберите известный контекст именования** и затем нажмите кнопку **ОК**.
 
-5.  В диалоговом окне **Параметры подключения** выберите **Схема** в раскрывающемся списке **Выберите известный контекст именования** и затем нажмите кнопку **ОК** .
+6.  В контейнере схемы выполните поиск объекта CN=ms-RTC-SIP-SchemaVersion. Если этот объект существует, а значение атрибута **ранжеуппер** — 1150, а значение атрибута **ранжеловер** — 3, схема была успешно обновлена и реплицирована. Если этот объект не существует или значения атрибутов **ранжеуппер** и **ранжеловер** не заданы, схема не была изменена или не была реплицирована.
 
-6.  В контейнере схемы найдите объект CN=ms-RTC-SIP-SchemaVersion. Если этот объект существует и атрибут **rangeUpper** имеет значение 1150, а атрибут **rangeLower** имеет значение 3, то обновление и репликация схемы успешно завершены. Если этот объект не существует или значения атрибутов **rangeUpper** и **rangeLower** отличаются от указанных выше, то обновление и репликация схемы не выполнены.
+</div>
 
-## См. также
+<div>
 
-#### Задачи
+## <a name="see-also"></a>См. также
+
 
 [Проведение подготовки схемы Active Directory в Lync Server 2013](lync-server-2013-running-schema-preparation.md)  
 
-#### Концепции
 
-[Подготовка схемы Active Directory в Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)
+[Подготовка схемы Active Directory в Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing the dial plan'
+---
+title: 'Lync Server 2013: Проверка абонентской группы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn690130(v=OCS.15)
-ms:contentKeyID: 62281111
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
+ms:contentKeyID: 63969616
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2815248084e7591c11157cde3fb4851722315073
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849378"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing the dial plan in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-the-dial-plan-in-lync-server-2013"></a>Проверка абонентской группы в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-05_
 
 
 <table>
@@ -23,76 +43,102 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialPlan cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксдиалплан. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialPlan&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsDialPlan cmdlet enables you to see the results of applying a dial plan to a given telephone number. Dial plans provide information, such as how normalization rules are applied, required to enable Enterprise Voice users to make telephone calls. Given a dialed number and a dial plan, this cmdlet will verify which normalization rule within the dial plan will be applied and what the translated number will be.
+## <a name="description"></a>Описание
 
-You can use this cmdlet for troubleshooting issues with number translations, or for verifying how to apply rules against certain numbers.
+Командлет Test-Ксдиалплан позволяет видеть результаты применения абонентской группы к указанному номеру телефона. Абонентские группы предоставляют сведения, например, как применяются правила нормализации, необходимые для того, чтобы пользователи корпоративной голосовой связи были звонить по телефону. При наборе номера и абонентской группы этот командлет проверит, какое правило нормализации в абонентской группе будет применено, и что будет переведенный номер.
 
-## Running the test
+Вы можете использовать этот командлет для устранения проблем с преобразованиями чисел или для проверки того, как применять правила к определенным числам.
 
-The Test-CsDialPlan cmdlet requires you to do two things. First, you must obtain an instance of the dial plan being tested; that can be done by using the Get-CsDialPlan cmdlet. Second, you must specify the phone number that has to be normalized. The format that is used for the phone number should match the number as dialed/entered by a user. For example, this command retrieves an instance of the dial plan, RedmondDialPlan, and checks whether the phone number 12065551219 can be normalized:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Ксдиалплан требует выполнения двух действий. Сначала необходимо получить экземпляр тестируемой абонентской группы; Это можно сделать с помощью командлета Get-Ксдиалплан. Во вторых, необходимо указать телефонный номер, который должен быть нормализован. Формат, используемый для номера телефона, должен совпадать с номером, набранным и введенным пользователем. Например, эта команда извлекает экземпляр абонентской группы RedmondDialPlan и проверяет, можно ли использовать номер телефона 12065551219.
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "12065551219" | Format-List
 
-If you have a normalization rule that automatically adds the country code (in this example, 1) and the area code (206), then you might want to check the phone number 5551219, as follows:
+Если у вас есть правило нормализации, которое автоматически добавляет код страны (в этом примере, 1) и код города (206), вам может потребоваться проверить номер телефона 5551219, как показано ниже.
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDialPlan) cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету [Test-ксдиалплан](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) .
 
-## Determining success or failure
+</div>
 
-Test-CsDialPlan differs from many of the Lync Server test cmdlets because it only indirectly indicates whether a test succeeded or failed. When using Test-CsDialPlan you do not receive back output similar to this with the Result clearly labeled:
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Тест-Ксдиалплан отличается от многих командлетов тестирования Lync Server, так как он не только косвенно указывает, успешно ли прошел тест. При использовании команды Test-Ксдиалплан вы не получаете обратные результаты, аналогичные таким образом, что приводит к четкому пометке:
 
-Latency : 00:00:06.8630376
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:06.8630376
 
-Instead, if Test-CsDialPlan succeeds, then you'll receive information about the normalization rule that was able to successfully translate and use the specified phone number:
+Ошибки
 
-TranslatedNumber : +12065551219
+Диагностик
 
-MatchingRule : Description=;Pattern=^(\\d(11))$;Translation=+$1;
+Вместо этого, если Test-Ксдиалплан завершается успешно, вы получите сведения о правиле нормализации, которое могло бы успешно перевести и использовать указанный номер телефона:
 
-Name=Prefix All; IsInternalExtension=False
+Транслатеднумбер: + 12065551219
 
-If Test-CsDialPlan fails (that is, if the dial plan does not have a normalization rule that can translate the specified phone number), you'll just receive “empty” output as follows:
+Матчингруле: описание =; Шаблон = ^ (\\d (11)) $; Перевод = + $1;
 
-TranslatedNumber :
+Name = prefix (префикс); Исинтерналекстенсион = false
 
-MatchingRule :
+Если при выполнении теста-Ксдиалплан возникла ошибка (то есть, если абонентская группа не имеет правила нормализации, которое может перевести указанный номер телефона), вы просто получите "пустой" выходной файл, как описано ниже.
 
-## Reasons why the test might have failed
+Транслатеднумбер:
 
-Here are some common reasons why Test-CsDialPlan might fail:
+Матчингруле:
 
-  - You might have used an incorrect format when specifying the phone number. Dial plans include normalization rules that enable Lync Server to translate the phone numbers dialed or entered by a user. Therefore, your dial plan should have normalization rules that match the numbers users are likely to dial. For example, if users might dial the country code, area code, and then the phone number itself, that means that your dial plan should have a normalization rule to handle phone numbers such as this:
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой Test-Ксдиалплан:
+
+  - Возможно, вы использовали неверный формат при указании номера телефона. Абонентские планы включают правила нормализации, позволяющие серверу Lync Server переводить телефонные номера, набранные или введенные пользователем. Поэтому абонентская группа должна иметь правила нормализации, соответствующие числам, которые пользователи могут набрать. Например, если пользователь может набрать код страны, код города, а затем сам номер телефона, это означает, что абонентская группа должна иметь правило нормализации для обработки телефонных номеров, например:
     
     12065551219
     
-    However, if you enter an incorrect phone number (for example, leaving off the final digit), then Test-CsDialPlan will fail. That’s not because the dial plan is faulty but because you have entered a phone number than can’t be interpreted.
+    Тем не менее, если ввести неправильный номер телефона (например, выход из последней цифры), проверка-Ксдиалплан завершится сбоем. Это не значит, что абонентская группа является неисправной, но из-за того, что вы ввели номер телефона, который не удается интерпретировать.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

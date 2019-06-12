@@ -1,27 +1,47 @@
-﻿---
-title: Проверка адресов
-TOCTitle: Проверка адресов
-ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412808(v=OCS.15)
-ms:contentKeyID: 49310832
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Проверка адресов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Validate addresses
+ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412808(v=OCS.15)
+ms:contentKeyID: 48185108
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 57ae7698a50706ed0076650a657a8ec503ffa6aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849203"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Проверка адресов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-17_
+# <a name="validate-addresses-in-lync-server-2013"></a>Проверка адресов в Lync Server 2013
 
-Перед публикацией базы данных местонахождений нужно проверить новые местонахождения в контрольном справочнике городских адресов, предоставляемом вашей магистралью SIP или поставщиком служб E9-1-1 ТСОП.
+</div>
 
-Дополнительные сведения о поставщиках служб E9-1-1 магистрали SIP см. в разделе [Выбор поставщика услуг E9-1-1 для Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+<div id="mainSection">
 
-Дополнительные сведения о проверке адресов см. в документации Командная консоль Lync Server по следующим командлетам:
+<div id="mainBody">
 
-  - **Get-CsLisServiceProvider**
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-17_
+
+Прежде чем публиковать базу данных местоположений, необходимо проверить новые расположения в соответствии с основным адресом (МСАГ), который поддерживается внутренней магистральной или коммутируемой телефонной сетью (КТСОП) E9-1-1 поставщика услуг.
+
+Подробные сведения о поставщиках услуг E9ных магистральных каналов SIP-1-1 можно найти [в разделе Выбор поставщика услуг E9-1-1 для Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+
+Подробнее об проверке адресов можно найти в документации по оболочке управления Lync Server для следующих командлетов:
+
+  - **Get-Кслиссервицепровидер**
 
   - **Set-CsLisServiceProvider**
 
@@ -31,9 +51,11 @@ _**Дата изменения раздела:** 2012-09-17_
 
   - **Test-CsLisCivicAddress**
 
-## Проверка адресов, хранящихся в базе данных местонахождения
+<div>
 
-1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+## <a name="to-validate-addresses-located-in-the-location-database"></a>Проверка адресов, хранящихся в базе данных местонахождения
+
+1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
 
 2.  Чтобы настроить подключение к поставщику экстренной службы, выполните следующие командлеты.
     
@@ -45,4 +67,16 @@ _**Дата изменения раздела:** 2012-09-17_
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     
     Кроме того, для проверки отдельных адресов вы можете использовать командлет **Test-CsLisCivicAddress**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

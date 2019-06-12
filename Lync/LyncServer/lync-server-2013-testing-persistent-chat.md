@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing persistent chat'
+---
+title: 'Lync Server 2013: Проверка сохраняемого чата'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing persistent chat
 ms:assetid: d351b6f2-bc31-42e0-9e8d-c347713d6b4a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727313(v=OCS.15)
-ms:contentKeyID: 62388629
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727313(v=OCS.15)
+ms:contentKeyID: 63969651
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d4f805984382388fd44904db746d818decb8871a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849384"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing persistent chat in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-persistent-chat-in-lync-server-2013"></a>Проверка сохраняемого чата в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-03_
 
 
 <table>
@@ -23,105 +43,135 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsPersistentChatMessage</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксперсистентчатмессаже</strong> . Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsPersistentChatMessage** cmdlet verifies that a pair of test users can exchange messages using the Persistent Chat service. To do this, the cmdlet logs the two users on to Lync Server 2013, connects the users to a persistent Chat room, exchanges a pair of messages, then exits the chat room and logs off the two users. Note that calls to this cmdlet will fail if you have not created any chat rooms or if the two test user accounts are not assigned a Persistent Chat policy that gives them access to the Persistent Chat service.
+## <a name="description"></a>Описание
 
-## Running the test
+Командлет **Test-ксперсистентчатмессаже** удостоверяется в том, что с помощью службы сохраняемого чата пользователи могут обмениваться сообщениями с другими тестами. Для этого командлет заносит двух пользователей на Lync Server 2013, подключает пользователей к сохраняемой комнате чата, обменивается сообщениями, а затем выходит из комнаты чата и завершает работу двух пользователей. Обратите внимание на то, что если вы не создали комнаты чата или если у двух тестовых учетных записей не назначена политика сохраняемого чата, которая предоставляет им доступ к службе сохраняемого чата, следует отметить, что вызов этого командлета завершится сбоем.
 
-The commands shown in the following example test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then exchange messages using the Persistent Chat service. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman. (Because the logon name, litwareinc\\pilar, was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credentials object is then stored in a variable named $cred1. The second command does the same thing, this time returning a credential object for the Ken Myer account.
+</div>
 
-With the credential objects in hand, the third command determines whether these two users can log on to Lync Server 2013 and exchange messages using Persistent Chat. To perform this task, the **Test-CsPersistentChatMessage** cmdlet is called using the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object that contains the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object that contains the credentials for the other test user).
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Команды, показанные в приведенном ниже примере, проверяют возможность подключения к серверу Lync\\Server 2013 (\\плана litwareinc почтового и плана litwareinc кенмер), а затем обмен сообщениями с помощью службы сохраняемого чата. Для этого в первой команде примера используется командлет **Get-Credential** для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя почтового Вронский. (Поскольку имя для входа, плана litwareinc\\почтового, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи почтового Вронский.) Результирующий объект учетных данных сохраняется в переменной с именем $cred 1. Вторая команда — это то же самое, что возвращает объект учетной записи Кен мер.
+
+Если у вас есть объекты учетных данных, третья команда определяет, могут ли эти два пользователя входить на сервер Lync Server 2013 и обмениваться сообщениями с помощью сохраняемого чата. Для выполнения этой задачи командлет **Test-ксперсистентчатмессаже** вызывается с помощью следующих параметров: таржетфкдн (полное доменное имя пула регистраторов). Сендерсипаддресс (адрес SIP для первого тестового пользователя); Сендеркредентиал (объект Windows PowerShell, который включает в себя учетные данные для этого пользователя); Рецеиверсипаддресс (SIP-адрес для другого тестового пользователя); и Рецеиверкредентиал (объект Windows PowerShell, который включает в себя учетные данные для другого тестового пользователя).
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
     
     Test-CsPersistentChatMessage -TargetFqdn atl-persistentchat-001.litwareinc.com -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $cred1 -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -ReceiverCredential $cred2
 
-## Determining success or failure
+</div>
 
-If the specified user has a valid location policy, then you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если указанный пользователь имеет действующую политику расположения, вы получите вывод, как показано ниже, и свойство Result, помеченное как **успешно**.
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:00
 
-If the specified users can't exchange messages using the Persistent Chat service, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Сообщение об ошибке:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Диагностик
 
-domain name (FQDN). Using default Registrar port number. Exception:
+Если указанные пользователи не могут обмениваться сообщениями с помощью службы "сохраняемый чат", результат будет отображаться как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-System.InvalidOperationException: No matching cluster found in topology.
+Предупреждение: не удалось прочитать номер порта регистратора для заданного полного имени
 
-at
+доменное имя (FQDN). С помощью номера порта регистратора по умолчанию. Ошибка
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+скорость
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Microsoft. RTC. Management. Синсетиктрансактионс. Сипсинсетиктрансактион. Триретри
 
-Result : Failure
+Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Результат: сбой
 
-did not properly respond after a period of time, or
+Задержка: 00:00:00
 
-established connection failed because connected host has
+Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона
 
-failed to respond \[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+не отвечает на запросы в течение определенного периода времени или
 
-Inner Exception:A connection attempt failed because the
+не удалось установить соединение, так как подключенный узел имеет
 
-connected party did not properly respond after a period of
+не удалось ответить \[на 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
 
-time, or established connection failed because connected host
+Внутреннее исключение: сбой при попытке подключения из-за того, что
 
-has failed to respond
+связь с абонентом завершилась неправильно после определенного периода
 
-\[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+время или соединение не удалось установить, так как подключенный узел
 
-Diagnosis :
+не отвечает
 
-## Reasons why the test might have failed
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
 
-Here are some common reasons why **Test-CsPersistentChatMessage** might fail:
+Диагностик
 
-  - An incorrect parameter value was supplied. The required test accounts may not exist or have been correctly created.
+</div>
 
-  - There may have been a network issue causing an unexpected delay which timed out the test.
+<div>
 
-## См. также
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-#### Другие ресурсы
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксперсистентчатмессаже** :
 
-[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy)  
-[New-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPersistentChatPolicy)  
-[Set-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatPolicy)
+  - Предоставлено неправильное значение параметра. Возможно, необходимые проверочные учетные записи не существуют или созданы неправильно.
+
+  - Возможно, возникла проблема с сетью, вызывающая непредвиденную задержку, из-за которой истекло время выполнения теста.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
+[New-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
+[Set-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

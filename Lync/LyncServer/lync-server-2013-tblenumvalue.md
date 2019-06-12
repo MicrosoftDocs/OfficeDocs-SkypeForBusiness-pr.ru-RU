@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumValue'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblEnumValue
 ms:assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615025(v=OCS.15)
-ms:contentKeyID: 49310734
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615025(v=OCS.15)
+ms:contentKeyID: 48185040
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 1758daf16575491960415647e4c9bc4b43920d26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849555"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblEnumValue в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tblenumvalue-in-lync-server-2013"></a>tblEnumValue в Lync Server 2013
 
-tblEnumValue – это встроенная таблица, которая содержит значения отображения и поведения атрибутов, используемых в таблице Node.
+</div>
 
-### Столбцы
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-28_
+
+Тбленумвалуе — это жесткая таблица, содержащая значения видимости и поведения атрибутов, используемых в таблице node.
+
+### <a name="columns"></a>Столбцов
 
 <table>
 <colgroup>
@@ -34,25 +54,25 @@ tblEnumValue – это встроенная таблица, которая со
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>valueID</p></td>
-<td><p>smallint, not null</p></td>
-<td><p>ИД значения.</p></td>
+<td><p>Валуеид</p></td>
+<td><p>smallint, NOT NULL</p></td>
+<td><p>Идентификатор значения.</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>smallint, not null</p></td>
-<td><p>ИД атрибута.</p></td>
+<td><p>smallint, NOT NULL</p></td>
+<td><p>Идентификатор атрибута.</p></td>
 </tr>
 <tr class="odd">
 <td><p>attributeValue</p></td>
-<td><p>nvarchar (256), не равно null</p></td>
+<td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Имя значения.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Ключи
+### <a name="keys"></a>Параметры
 
 <table>
 <colgroup>
@@ -67,18 +87,18 @@ tblEnumValue – это встроенная таблица, которая со
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>valueID</p></td>
+<td><p>Валуеид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblEnumAttribute.attributeID.</p></td>
+<td><p>Внешний ключ с подстановкой в таблице Тбленуматтрибуте. attributeID.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Значения таблицы
+### <a name="table-values"></a>Значения таблицы
 
 <table>
 <colgroup>
@@ -88,7 +108,7 @@ tblEnumValue – это встроенная таблица, которая со
 </colgroup>
 <thead>
 <tr class="header">
-<th>valueID</th>
+<th>Валуеид</th>
 <th>attributeID</th>
 <th>attributeValue</th>
 </tr>
@@ -97,35 +117,49 @@ tblEnumValue – это встроенная таблица, которая со
 <tr class="odd">
 <td><p>2</p></td>
 <td><p>1</p></td>
-<td><p>private</p></td>
+<td><p>закрытые</p></td>
 </tr>
 <tr class="even">
 <td><p>3</p></td>
 <td><p>1</p></td>
-<td><p>scope</p></td>
+<td><p>област</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
 <td><p>2</p></td>
-<td><p>normal</p></td>
+<td><p>нормальный</p></td>
 </tr>
 <tr class="even">
 <td><p>5</p></td>
 <td><p>2</p></td>
-<td><p>auditorium</p></td>
+<td><p>Аудиториум</p></td>
 </tr>
 <tr class="odd">
 <td><p>6</p></td>
 <td><p>1</p></td>
-<td><p>open</p></td>
+<td><p>запуска</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## См. также
+<div>
 
-#### Концепции
+## <a name="see-also"></a>См. также
 
-[tblNode в Lync Server 2013](lync-server-2013-tblnode.md)
+
+[tblNode в Lync Server 2013](lync-server-2013-tblnode.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

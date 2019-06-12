@@ -1,27 +1,65 @@
-﻿---
-title: "Lync Server 2013: просмотр учетных записей пользователей с Lync Server"
-TOCTitle: "Lync Server 2013: просмотр учетных записей пользователей с Lync Server"
-ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687980(v=OCS.15)
-ms:contentKeyID: 49887883
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Просмотр сведений об учетных записях пользователей, включенных для Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing information about user accounts enabled for Lync Server 2013
+ms:assetid: 18309dca-b502-44e5-83e2-e314a827d298
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687980(v=OCS.15)
+ms:contentKeyID: 49733568
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9aad3b0d6f1367227ba8fb0d7d9525969ae071aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849137"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр сведений об учетных записях пользователей, разрешенных для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-18_
+# <a name="viewing-information-about-user-accounts-enabled-for-lync-server-2013"></a>Просмотр сведений об учетных записях пользователей, включенных для Lync Server 2013
 
-Для просмотра настроек и сведений о политике для учетных записей Lync Server 2013 выполните процедуры, описанные в этом разделе.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Поиск пользователей Lync Server](lync-server-2013-search-for-lync-server-users.md)
+<div id="mainBody">
 
-## Связанные разделы
+<span> </span>
 
-[Назначение политик уровня пользователя в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+_**Тема последнего изменения:** 2012-10-18_
+
+Выполните действия, описанные в этом разделе, чтобы просмотреть параметры и сведения о политике для учетных записей пользователей Lync Server 2013.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Поиск пользователей Lync Server в Lync Server 2013](lync-server-2013-search-for-lync-server-users.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Связанные разделы
+
+[Назначение политик для пользователей в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

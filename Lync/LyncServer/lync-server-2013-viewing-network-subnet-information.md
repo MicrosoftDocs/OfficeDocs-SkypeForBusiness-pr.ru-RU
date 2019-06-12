@@ -1,48 +1,82 @@
-﻿---
-title: Просмотр сведений о подсети
-TOCTitle: Просмотр сведений о подсети
-ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688044(v=OCS.15)
-ms:contentKeyID: 49887970
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр сведений о сетевой подсети'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network subnet information
+ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688044(v=OCS.15)
+ms:contentKeyID: 49733636
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a157746e40de8f4793fab24e7e91121779d7602e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849111"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр сведений о подсети
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>Просмотр сведений о сетевой подсети в Lync Server 2013
 
-Можно использовать следующую процедуру для просмотра подсети. На панели управления Lync Server можно создать, изменить или удалить подсеть. Сведения о создании или изменении подсетей см. в разделе [Создание или изменение подсетей](lync-server-2013-create-or-modify-network-subnets.md).
+</div>
 
-## Чтобы просмотреть подсеть
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Вы можете использовать описанную ниже процедуру для просмотра сетевой подсети. С помощью панели управления Lync Server вы можете создавать, изменять и удалять сетевые подсети. Дополнительные сведения о создании и изменении подсетей сети можно найти [в разделе Создание или изменение подсетей сети в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
+
+<div>
+
+## <a name="to-view-a-network-subnet"></a>Просмотр сетевой подсети
 
 1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На левой панели навигации щелкните **Конфигурация сети**, затем **Подсеть**.
+3.  На панели навигации слева выберите пункт **Настройка сети** , а затем — **подсеть**.
 
-4.  На странице **Подсеть** щелкните подсеть, которую следует просмотреть.
+4.  На странице **Subnet** (подсеть) выберите подсеть, которую вы хотите просмотреть.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Одновременно можно просматривать только одну подсеть.
+    > Вы можете просматривать только одну подсеть за один раз.
 
-5.  В меню **Изменить** щелкните **Показать сведения**.
+    
+    </div>
 
-## Просмотр сведений о конфигурации подсети с помощью командлетов Lync Server PowerShell
+5.  В меню **Правка** выберите пункт **Показать подробности..**..
 
-Сведения о подсети можно также просмотреть с помощью Lync Server PowerShell и командлета Get-CsNetworkSubnet. Этот командлет может быть запущен в командной консоли Lync Server 2013 или через удаленный сеанс Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+</div>
 
-## Просмотр сведений о подсети
+<div>
 
-  - Чтобы просмотреть сведения обо всех подсетях, введите следующую команду в командной консоли Командная консоль Lync Server и нажмите клавишу ВВОД:
+## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации сетевой подсети с помощью командлетов Windows PowerShell
+
+Сведения о сетевой подсети можно просмотреть с помощью Windows PowerShell и командлета Get-Кснетворксубнет. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-view-network-subnet-information"></a>Просмотр сведений о сетевой подсети
+
+  - Чтобы просмотреть сведения о всех подсетях, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД.
     
         Get-CsNetworkSubnet
     
-    Будут возвращены сведения, аналогичные приведенным ниже:
+    Команда возвращает примерно следующую информацию:
     
         Identity      : 172.11.15.0
         MaskBits      : 28
@@ -50,12 +84,30 @@ _**Дата изменения раздела:** 2013-02-23_
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-Дополнительные сведения см. в разделе справки по командлету [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet).
+</div>
 
-## См. также
+Дополнительные сведения можно найти в разделе справки по командлету [Get-кснетворксубнет](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) .
 
-#### Задачи
+</div>
 
-[Создание или изменение подсетей](lync-server-2013-create-or-modify-network-subnets.md)  
-[Удаление подсетей](lync-server-2013-deleting-network-subnets.md)
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Создание и изменение подсетей сети в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  
+[Удаление подсетей сети в Lync Server 2013](lync-server-2013-deleting-network-subnets.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

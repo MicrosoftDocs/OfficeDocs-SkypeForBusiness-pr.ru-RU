@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing messaging using XMPP'
+---
+title: 'Lync Server 2013: тестирование сообщений с помощью КСМПП'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing messaging using XMPP
 ms:assetid: ae5305ba-e5fc-4ca0-a805-872b4ebaf981
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727312(v=OCS.15)
-ms:contentKeyID: 62388627
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727312(v=OCS.15)
+ms:contentKeyID: 63969641
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: acd03cdf2a5215c980b788dbaffafc5936fe5b5e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849393"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing messaging using XMPP in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Тестирование сообщений с помощью КСМПП в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-03_
 
 
 <table>
@@ -23,106 +43,136 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsXmppIM</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксксмппим</strong> . Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsXmppIM&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Extensible Messaging and Presence Protocol (XMPP) is a standard communications protocol (based on XML) used for sending messages across the Internet. XMPP was originally named Jabber, and is supported by several Internet messaging and communication applications, such as Google Talk and Facebook Chat. The **Test-CsXmppIM** cmdlet verifies that a user can exchange instant messages with a user on an XMPP network. Note that, for this test to succeed, you must have a valid SIP address for the XMPP user, and that SIP address must be on a network that was configured as an allowed XMPP partner.
+## <a name="description"></a>Описание
 
-## Running the test
+Расширенный протокол обмена сообщениями (КСМПП) является стандартным протоколом связи (на основе XML), который используется для отправки сообщений через Интернет. КСМПП первоначально назывался Жаббер и поддерживается несколькими приложениями для обмена сообщениями в Интернете и общения, например с помощью Google чата и Facebook. Командлет **Test-ксксмппим** подтверждает, что пользователь может обмениваться мгновенными сообщениями с пользователем в сети КСМПП. Обратите внимание, что для успешного завершения этого теста необходимо иметь действительный SIP-адрес для пользователя КСМПП, и этот адрес SIP должен находиться в сети, которая была настроена как разрешенная КСМПП партнер.
 
-The following example verifies the XMPP instant messaging capabilities for the pool atl-cs-001.litwareinc.com. This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can send an XMPP instant message to a user who has the SIP address adelaney@contoso.com.
+</div>
 
-If test users are not defined, then the command will fail because it won't know which user to log on as. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user who the command should use when trying to log on.
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+В следующем примере проверяются возможности обмена мгновенными сообщениями КСМПП для atl-cs-001.litwareinc.com пула. Эта команда будет работать только в том случае, если тестовые пользователи определены для пула atl-cs-001.litwareinc.com. Если это так, команда определит, может ли первый тестовый пользователь отправить мгновенное сообщение КСМПП пользователю с адресом SIP adelaney@contoso.com.
+
+Если тестовые пользователи не заданы, команда завершится сбоем, так как не будет определять, какой пользователь должен войти в систему. Если вы не определили тестовых пользователей для пула, необходимо включить параметр Усерсипаддресс и учетные данные пользователя, который должна использовать команда при попытке входа в систему.
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-The commands shown in the next example test the ability of a specific user (litwareinc\\pilar) to log on to send an XMPP instant message to the user adelaney@contoso.com. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman. (Because the logon name litwareinc\\pilar was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1.
+Команды, показанные в следующем примере, проверяют возможность определенного пользователя (плана litwareinc\\почтового) войти в систему для отправки КСМПП мгновенного сообщения пользователю adelaney@contoso.com. Для этого в первой команде примера используется командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя почтового Вронский. (Поскольку имя для входа в\\плана litwareinc почтового было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи почтового Вронский). Полученный объект учетных данных затем сохраняется в переменной с именем $cred 1.
 
-The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and send the XMPP instant message. To run this task, the **Test-CsXmppIm** cmdlet is called, together with four parameters: TargetFqdn (the FQDN of the Registrar pool); Receiver (the SIP address of the user the message is being addressed to); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).
+Вторая команда проверяет, может ли пользователь войти в atl-cs-001.litwareinc.com пула и отправить мгновенное сообщение КСМПП. Для выполнения этой задачи вызывается командлет **Test-ксксмппим** , вместе с четырьмя параметрами: таржетфкдн (полное доменное имя пула регистраторов). Получатель (адрес SIP пользователя, которому адресовано сообщение); Усеркредентиал (объект Windows PowerShell, который включает в себя учетные данные пользователя для почтового Вронский); и Усерсипаддресс (SIP-адрес, соответствующий предоставленным учетным данным пользователя).
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If XMPP instant messaging is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если КСМПП обмен мгновенными сообщениями правильно настроен, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**
 
-Latency : 00:00:02.5361946
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:02.5361946
 
-If the specified users can't use XMPP instant messaging, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Сообщение об ошибке:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Диагностик
 
-domain name (FQDN). Using default Registrar port number. Exception:
+Если указанные пользователи не могут использовать КСМПП обмен мгновенными сообщениями, результат будет показан как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-System.InvalidOperationException: No matching cluster found in topology.
+Предупреждение: не удалось прочитать номер порта регистратора для заданного полного имени
 
-at
+доменное имя (FQDN). С помощью номера порта регистратора по умолчанию. Ошибка
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+скорость
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Microsoft. RTC. Management. Синсетиктрансактионс. Сипсинсетиктрансактион. Триретри
 
-Result : Failure
+Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Результат: сбой
 
-did not properly respond after a period of time, or
+Задержка: 00:00:00
 
-established connection failed because connected host has
+Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона
 
-failed to respond 10.188.116.96:5061
+не отвечает на запросы в течение определенного периода времени или
 
-Inner Exception:A connection attempt failed because the
+не удалось установить соединение, так как подключенный узел имеет
 
-connected party did not properly respond after a period of
+не удалось ответить на 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Внутреннее исключение: сбой при попытке подключения из-за того, что
 
-has failed to respond 10.188.116.96:5061
+связь с абонентом завершилась неправильно после определенного периода
 
-Diagnosis :
+время или соединение не удалось установить, так как подключенный узел
 
-## Reasons why the test might have failed
+не удалось ответить 10.188.116.96:5061
 
-Here are some common reasons why **Test-CsXmppIM** might fail:
+Диагностик
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if XMPP gateway configuration is misconfigured or not yet deployed.
+<div>
 
-## См. также
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-#### Другие ресурсы
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксксмппим** :
 
-[Set-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsXmppGatewayConfiguration)
+  - Предоставлено неправильное значение параметра. Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
+
+  - Эта команда завершится сбоем, если конфигурация шлюза КСМПП неправильно настроена или еще не развернута.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Set-CsXmppGatewayConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsXmppGatewayConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: "Lync Server 2013: подготовка и развертывание гибридной среды Lync Server"
-TOCTitle: Действия по подготовке и развертыванию гибридной среды Lync Server 2013
-ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205157(v=OCS.15)
-ms:contentKeyID: 49310738
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: действия по подготовке и развертыванию гибридной среды Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Steps to prepare and deploy Lync Server 2013 hybrid environment
+ms:assetid: a50d4f7b-63f4-4663-af63-56ca87e4e3e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205157(v=OCS.15)
+ms:contentKeyID: 48185060
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d239d7a57be1aa96dde1f9ccf30c2965de982017
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849609"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Действия по подготовке и развертыванию гибридной среды Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Действия по подготовке и развертыванию гибридной среды Lync Server 2013
 
-В следующей таблице перечислены действия по подготовке среды к гибридному развертыванию Microsoft Lync Online и Microsoft Office 365.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2016-12-08_
+
+В следующей таблице перечислены шаги, необходимые для подготовки среды для гибридного развертывания в Skype для бизнеса Online и Microsoft Office 365.
 
 
 <table>
@@ -33,58 +53,70 @@ _**Дата изменения раздела:** 2016-12-08_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p>Создание учетной записи клиента для Office 365 и включение Lync Online</p></td>
-<td><p>Чтобы больше узнать о Office 365 и Lync Online, перейдите по ссылке <a href="http://go.microsoft.com/fwlink/p/?linkid=254980">Office 365</a>.</p>
-<p>Чтобы убедиться, что среда готова к использованию Office 365, см. раздел <a href="http://go.microsoft.com/fwlink/p/?linkid=401408">Системные требования</a>.</p>
-<p>90% Более подробные сведения о настройке Office 365 см. на веб-страницах <a href="http://go.microsoft.com/fwlink/p/?linkid=254982">Начало работы с Office 365</a> и <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Настройка Office 365</a>.</p></td>
+<td><p>Узнайте о Office 365 и Lync Online в <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>.</p>
+<p>Чтобы убедиться в том, что ваша среда готова к работе с Office 365, ознакомьтесь с <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">требованиями к системе</a>.</p>
+<p>Подробные сведения о настройке Office 365 можно найти <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">в разделе Начало работы с office 365</a> и <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Настройка Office 365</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
+<td></td>
 <td><p>Добавление домена и проверка прав на владение доменом</p></td>
-<td><p>Домен иногда называют <em>именным доменом</em> . Вам необходимо добавить домен в клиент Office 365 и затем проверить его в Office 365. Эти действия предназначены для проверки прав владения доменом.</p>
-<p>Чтобы добавить домен в клиент Office 365, выполните действия, описанные на веб-странице <a href="http://go.microsoft.com/fwlink/p/?linkid=254983">Добавление домена в Office 365</a>.</p>
-<p>Выполните все шаги, описанные в подразделах, включая подраздел &quot;Изменение записей DNS для служб Office 365&quot;.</p></td>
+<td><p>Данный домен иногда называют <em>именным доменом</em>. Необходимо добавить домен к клиенту Office 365 и затем подтвердить права владения им в Office 365, выполнив следующие действия.</p>
+<p>Чтобы добавить домен в клиент Office 365, выполните действия, описанные в разделе <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Добавление домена в office 365</a>.</p>
+<p>Выполните все действия, описанные в каждом разделе раздела, в том &quot;числе изменить записи DNS для служб Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p>Проверка готовности среды</p></td>
-<td><p>Для развертывания Office 365 можно использовать помощник по настройке Office 365. Дополнительные сведения см. в статье <a href="http://go.microsoft.com/fwlink/p/?linkid=254985">Использование помощника по настройке для определения степени готовности Office 365</a>.</p>
-<p>Подробнее об использовании данного инструмента и развертывании Office 365 см. в <a href="http://go.microsoft.com/fwlink/p/?linkid=257337">руководстве по развертыванию Office 365</a>.</p></td>
+<td><p>Вы можете использовать помощник по установке Office 365, который поможет вам развернуть Office 365. Дополнительные сведения можно найти <a href="https://go.microsoft.com/fwlink/p/?linkid=254985">в разделе Использование помощника по настройке, чтобы определить готовность Office 365</a>.</p>
+<p>Подробнее об использовании этого средства и развертывании Office 365 можно найти в <a href="https://go.microsoft.com/fwlink/p/?linkid=257337">руководстве по развертыванию office 365</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
+<td></td>
 <td><p>Подготовка к синхронизации Active Directory</p></td>
-<td><p>Синхронизация Active Directory обеспечивает непрерывную синхронизацию локальной службы Active Directory и Office 365. Это позволяет не только создавать синхронизированные версии каждой учетной записи пользователя или группы, но и выполнять синхронизацию глобального списка адресов (GAL) между локальной средой сервера Microsoft Exchange Server и Microsoft Exchange Online..</p>
+<td><p>Синхронизация службы каталогов Active Directory позволяет постоянно синхронизировать локальную службу Active Directory с Office 365. Это позволяет создавать синхронизированные версии каждой учетной записи пользователя и группы, а также выполнять синхронизацию глобального списка адресов (GAL) из локальной среды Microsoft Exchange Server с Microsoft Exchange Online.</p>
 <div>
 
-> [!IMPORTANT]
-> Необходимо синхронизировать учетные записи Active Directory для всех пользователей Lync в организации между локальным и сетевым развертываниями Lync, даже если пользователи не перемещаются в Lync Online. Если не синхронизировать всех пользователей, связь между пользователями локального и сетевого развертываний организации может функционировать неправильно.
+> [!IMPORTANT]  
+> Вы должны синхронизировать учетные записи для всех пользователей Lync в вашей организации между локальными и Интернет-развертываниями Lync, даже если пользователи не перемещаются в Lync Online. Если не все пользователи синхронизированы, связь между локальными и сетевыми пользователи в организации может функционировать неправильно.
+
 
 </div>
-<p>Инструкции по подготовке среды к синхронизации Active Directory, включая настройку единого входа, см. на веб-странице <a href="http://go.microsoft.com/fwlink/p/?linkid=254988">План внедрения синхронизации службы каталогов</a>.</p></td>
+<p>Чтобы подготовить среду для синхронизации Active Directory, выполните действия, описанные в разделе <a href="https://go.microsoft.com/fwlink/p/?linkid=254988">схема синхронизации службы каталогов</a>, в том числе Настройка единого входа.</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p>Создание сертификатов для служб федерации Active Directory (AD FS)</p></td>
-<td><p>Необходимо создать сертификаты, которые используются для федерации удостоверений Office 365. Дополнительные сведения см. в разделе «Сертификаты сервера федерации» темы «Планирование и развертывание AD FS для использования с функцией единого входа» статьи <a href="http://go.microsoft.com/fwlink/p/?linkid=285376">Контрольный список: Внедрение и управление единым входом с помощью служб федерации Active Directory</a>.</p></td>
+<td><p>Вам потребуется создать сертификаты, которые будут использоваться для федерации удостоверений с Office 365. Дополнительные сведения можно найти в разделе "сертификаты сервера федерации" плана и развертывания AD FS для использования с одним разделом для единого входа в контрольном <a href="https://go.microsoft.com/fwlink/p/?linkid=285376">списке: использование служб ADFS для реализации единого входа и управления ими</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
-<td><p>Назначение сертификатов Active Directory</p></td>
-<td><p>После создания сертификатов, используемых для федерации удостоверений Office 365, вы должны установить и назначить их.</p></td>
+<td></td>
+<td><p>Назначение сертификатов для AD FS</p></td>
+<td><p>После создания сертификатов, используемых для федерации удостоверений с Office 365, необходимо установить и назначить их.</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p>Перемещение пользователей в Skype для бизнеса Online</p></td>
-<td><p>После завершения подготовки и настройки среды для Skype для бизнеса Online вы можете переместить пользователей в Lync Online.</p>
-<p>Дополнительные сведения см. в разделе <a href="lync-server-2013-move-users-to-lync-online.md">Перемещение пользователей в Lync Online в Lync Server 2013</a>.</p></td>
+<td></td>
+<td><p>Перемещение пилотных пользователей в Skype для бизнеса Online</p></td>
+<td><p>После того как вы закончите процедуру подготовки и настройки среды для Skype для бизнеса Online, вы сможете переместить пилотных пользователей в Lync Online.</p>
+<p>Дополнительные сведения <a href="lync-server-2013-move-users-to-lync-online.md">можно найти в разделе Перемещение пользователей в Lync Online в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p></p></td>
+<td></td>
 <td><p>Администрирование пользователей в гибридном развертывании</p></td>
-<td><p>Более подробные сведения об администрировании пользователей в гибридном развертывании см. в разделе <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Администрирование пользователей в гибридном развертывании Lync Server 2013</a>.</p></td>
+<td><p>Подробнее об администрировании пользователей в гибридном развертывании можно узнать в разделе <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Администрирование пользователей в гибридном развертывании Lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

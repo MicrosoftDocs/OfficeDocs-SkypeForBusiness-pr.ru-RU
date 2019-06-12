@@ -1,28 +1,65 @@
-﻿---
-title: "Lync Server 2013: поддерж. выровненное размещ. серв. для погран. компонентов"
-TOCTitle: Поддерживаемое выровненное размещение серверов для пограничных компонентов
-ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425934(v=OCS.15)
-ms:contentKeyID: 49309597
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддерживаемое выровненное размещение серверов для пограничных компонентов'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported server collocation for edge components
+ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425934(v=OCS.15)
+ms:contentKeyID: 48183978
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e3ad78cc1060c64181a75acefa21e64809e0d7b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849595"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддерживаемое выровненное размещение серверов для пограничных компонентов в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-08_
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Поддерживаемое выровненное размещение серверов для пограничных компонентов в Lync Server 2013
 
-Служба пограничного доступа, служб веб-конференций пограничного сервера, пограничная служба аудио- и видеоданных и служба прокси-сервера XMPP совместно размещаются в сервер. Следующие серверы предоставляют функции, необходимые для доступа внешних пользователей, и их следует развернуть как выделенные серверы:
+</div>
 
-  - сервер
+<div id="mainSection">
 
-  - Директор (необязательно);
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-08_
+
+Служба пограничного доступа, служба Edge для веб-конференций, служба EDGE и служба КСМПП proxy размещаются на пограничных серверах. Следующие серверы предоставляют функции, необходимые для доступа внешних пользователей, и должны развертываться как выделенные серверы:
+
+  - пограничный сервер
+
+  - Режиссер (необязательно)
 
   - Сертификат обратного прокси-сервера
 
-> [!IMPORTANT]
-> Обратный прокси-сервер не должен быть выделенным, если обслуживается только Lync Server 2013. Например, можно предоставить службы для публикации веб-служб Lync Server и одновременно предоставить опубликованный веб-сайт для другого сайта, который совсем не зависит от Lync Server. Если у вас уже есть обратный прокси-сервер в сети периметра для поддержки других служб, его можно использовать для Lync Server 2013.
+<div>
+
+
+> [!IMPORTANT]  
+> Обратный прокси-сервер не требуется специально для обслуживания только сервера Lync Server 2013. Например, вы можете предоставить услуги для публикации веб-служб Lync Server и одновременно предоставить опубликованный веб-сайт для другого веб-сайта, на котором не установлено Lync Server. Если у вас уже есть обратный прокси-сервер в демилитаризованной зоне для поддержки других служб, вы можете использовать его для Lync Server 2013.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

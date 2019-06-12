@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing PSTN peer to peer call'
+---
+title: 'Lync Server 2013: Проверка однорангового соединения PSTN с одноранговым узлом'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn690131(v=OCS.15)
-ms:contentKeyID: 62281112
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
+ms:contentKeyID: 63969622
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849388"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing PSTN peer to peer call in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>Проверка однорангового соединения PSTN с одноранговым подключением в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-05_
 
 
 <table>
@@ -23,102 +43,128 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPstnPeerToPeerCall cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Кспстнпиртопиркалл. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsPstnPeerToPeerCall cmdlet verifies the ability a pair of users has to conduct a peer-to-peer call over the public switched telephone network (PSTN) gateway. When you call Test-CsPstnPeerToPeerCall, the cmdlet will first attempt to log on two test users to Lync Server. Assuming that the logons succeed, the cmdlet will then have user 1 attempt to call user 2 over the PSTN gateway. Test-CsPstnPeerToPeerCall will make this call using the dial plan, voice policy, and other policy and configuration settings assigned to the test user. If the test goes as planned, the cmdlet will verify that user 2 was able to answer the call, and then log off both test accounts from the system.
+## <a name="description"></a>Описание
 
-Test-CsPstnPeerToPeerCall makes an actual phone call, one that verifies that a connection can be made and that also transmits DTMF codes over the network to determine whether media can be sent over the connection. The call is answered by the cmdlet itself, and no manual termination of the call is necessary. (That is, no one must answer and then hang up the phone that was called.)
+Командлет Test-Кспстнпиртопиркалл проверит возможность того, что пользователи смогут выполнить одноранговый Звонок по шлюзу КОММУТИРУЕМой телефонной сети. При вызове Test-Кспстнпиртопиркалл командлет сначала попытается выполнить вход двух тестовых пользователей на Lync Server. Если вход в систему выполнен успешно, командлет получит пользователю 1 попытку позвонить пользователю 2 через шлюз PSTN. Проверка-Кспстнпиртопиркалл сделает этот звонок с помощью абонентской группы, политики голосовой связи и других параметров политики и конфигурации, назначенных тестовому пользователю. Если тест пройдет по плану, командлет проверит, что пользователь 2 смог ответить на звонок, а затем выполнит выход из тестовых учетных записей из системы.
 
-## Running the test
+Test-Кспстнпиртопиркалл делает фактический телефонный звонок, который проверяет, что соединение может быть установлено, а также передает коды DTMF по сети, чтобы определить, может ли мультимедиа быть отправлено по этому подключению. На звонок отвечает сам командлет, и вам не нужно вручную завершать звонок. (Это значит, что никто не должен отвечать на звонки, а затем повесить трубку, которая была вызвана.)
 
-The Test-CsPstnPeerToPeerCall cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Кспстнпиртопиркалл можно выполнить с помощью пары предварительно настроенных тестовых учетных записей (см. раздел Настройка тестовых учетных записей для выполнения тестов Lync Server) или учетные записи любых двух пользователей, которые включены в Lync Server. Для выполнения этой проверки с помощью тестовых учетных записей нужно просто указать полное доменное имя для тестируемого пула Lync Server. Например:
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
-To run this check using actual user accounts, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsPstnPeerToPeerCall:
+Для выполнения этой проверки с использованием фактических учетных записей пользователей необходимо создать два объекта учетных данных Windows PowerShell (объекты, содержащие имя и пароль учетной записи) для каждой учетной записи. После вызова Test-Кспстнпиртопиркалл вы должны добавить эти объекты учетных данных и адреса SIP для двух учетных записей.
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) cmdlet.
+Дополнительные сведения можно найти в справочной документации по командлету [Test-кспстнпиртопиркалл](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) .
 
-## Determining success or failure
+</div>
 
-If the specified users can complete a peer-to-peer call, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если указанные пользователи могут выполнить одноранговый звонок, вы получите вывод, как показано ниже, и свойство Result, помеченное как **успешно.**
 
-Latency : 00:00:06.8630376
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:06.8630376
 
-If the specified users can't complete a peer-to-peer call, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Ошибки
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если указанные пользователи не могут выполнить одноранговый звонок, результат будет показан как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Latency : 00:00:0182361
+Таржетфкдн: atl-cs-001.litwareinc.com
 
-Error : 403, Forbidden
+Результат: сбой
 
-Diagnosis : ErrorCode=12001,Source=atl-cs-001.litwareinc.com,
+Задержка: 00:00:0182361
 
-Reason=User Policy does not contain phone route usage
+Ошибка: 403, запрещено
 
-The previous output states that the test failed because the voice policy assigned to at least one of the specified users does not include a phone usage. (Phone usages tie voice policies to voice routes. Without both a voice policy and a corresponding voice route, you can't make calls over the PSTN.)
+Диагностика: ErrorCode = 12001, Source = ATL-CS-001.litwareinc.com,
 
-If Test-CsPstnPeerToPeerCall fails, then you might want to rerun the test, this time including the Verbose parameter:
+Причина = политика пользователя не содержит использование маршрутных номеров
+
+В предыдущем выводе говорится, что тест завершился сбоем, так как политика голосовой связи, назначенная по крайней мере одному из указанных пользователей, не содержит использование телефона. (Использование телефона применяет политики голосовой связи для голосовых маршрутов. Без политики голосовой связи и соответствующего голосового маршрута вы не сможете звонить по протоколу PSTN.
+
+Если при выполнении теста-Кспстнпиртопиркалл происходит сбой, может потребоваться повторный запуск теста, в том числе параметр подробно:
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsPstnPeerToPeerCall will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example, this output indicates that network problems are preventing a connection with the PSTN:
+При включенном параметре "подробный" функция Test-Кспстнпиртопиркалл будет возвращать пошаговые инструкции для каждого действия, которое он пытался войти на сервер Lync Server. Например, эти выходные данные указывают на то, что неполадки в сети не препятствуют подключению к КТСОП.
 
-Establishing Audio Video call to 'sip:+12065551219@litwareinc.com;user=phone'.
+Установка голосового видеозвонка на "SIP: +12065551219@litwareinc.com; user = Phone".
 
-An exception 'A 404 (Not Found) response was received from the network and the operation failed.
+В сети получено исключение "404 (не найдено), и операция завершилась сбоем.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsPstnPeerToPeerCall might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой Test-Кспстнпиртопиркалл:
+
+  - Указана недействительная учетная запись пользователя. Для проверки существования учетной записи пользователя можно выполнить следующую команду:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - Учетная запись пользователя верна, но в настоящее время учетная запись не включена для Lync Server. Чтобы убедиться в том, что учетная запись пользователя включена для Lync Server, выполните команду, подобную следующей:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Если для свойства Enabled задано значение false, это означает, что пользователь в настоящее время не поддерживает Lync Server.
 
-  - The voice policy assigned to the specified user does not have a valid PSTN usage. You can determine the voice policy that is assigned to a user by using a command similar to this:
+  - Политика голосовой связи, назначенная указанному пользователю, не может использоваться в качестве использования КТСОП. Вы можете определить политику голосовой связи, назначенную для пользователя, с помощью следующей команды:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    And then you can determine the PSTN usages (if any) that are assigned to that policy by using a command similar to the following, which retrieves information about the per-user voice policy RedmondVoicePolicy:
+    Затем вы можете определить использование PSTN (если таковые есть), назначенные этой политике, используя следующую команду, которая извлекает сведения о политике голосовой связи для пользователя Редмондвоицеполици:
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

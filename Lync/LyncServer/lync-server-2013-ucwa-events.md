@@ -1,23 +1,43 @@
-﻿---
-title: События UCWA
-TOCTitle: События UCWA
-ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ945621(v=OCS.15)
-ms:contentKeyID: 52058177
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: события УКВА'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UCWA events
+ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
+ms:contentKeyID: 51541461
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849333"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# События UCWA
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="ucwa-events-in-lync-server-2013"></a>События УКВА в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 использует веб-интерфейс API объединенных коммуникаций (UCWA) для выполнения разных задач от доступа к Microsoft Exchange для поиска контактов до обновления сведений о присутствии для мобильных клиентов.
+Lync Server 2013 использует веб-API единой системы обмена сообщениями (УКВА) в нескольких целях, от доступа к Microsoft Exchange для поиска контактов для обновления сведений о присутствии для мобильных клиентов.
 
 UCWA занесет записи о рабочем поведении с типами событий "Информационный", "Предупреждение" и "Ошибка". В следующей таблице описываются события, которые могут регистрироваться компонентами UCWA.
 
@@ -33,8 +53,8 @@ UCWA занесет записи о рабочем поведении с тип�
 <tr class="header">
 <th>Идентификатор события</th>
 <th>Тип события</th>
-<th>Сводка</th>
-<th>Причина и решение</th>
+<th>Заключение</th>
+<th>Причина и решение проблемы</th>
 </tr>
 </thead>
 <tbody>
@@ -222,4 +242,15 @@ UCWA занесет записи о рабочем поведении с тип�
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

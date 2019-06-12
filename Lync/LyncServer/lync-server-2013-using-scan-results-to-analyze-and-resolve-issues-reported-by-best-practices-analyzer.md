@@ -1,28 +1,69 @@
-﻿---
-title: "Lync Server 2013: анализ/решение проблем из анализатора соотв-я рекомендациям"
-TOCTitle: "Lync Server 2013: анализ/решение проблем из анализатора соотв-я рекомендациям"
-ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg591350(v=OCS.15)
-ms:contentKeyID: 49311226
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: использование результатов сканирования для анализа и устранения проблем, обнаруженных анализатором соответствия рекомендациям'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using scan results to analyze and resolve issues reported by Best Practices Analyzer
+ms:assetid: cf1154a6-4de3-4d14-b99b-73a88014347b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591350(v=OCS.15)
+ms:contentKeyID: 48185581
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2b776cda22d5570417d0de3fd2e055e9bdc4ed4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849216"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Использование результатов поиска для анализирования и решения проблем, обнаруженных анализатором соответствия рекомендациям
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-06-14_
+# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>Использование результатов сканирования для анализа и устранения проблем, обнаруженных анализатором соответствия рекомендациям в Lync Server 2013
 
-При запуске Lync Server 2013, анализатора соответствия рекомендациям в среде Lync Server 2013, это средство использует результаты сканирования для создания отчетов по ошибкам, которые возникают при развертывании. Вы можете использовать анализатор соответствия рекомендациям для определения и устранения определенных ошибок.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-06-14_
+
+При запуске Lync Server 2013, анализатора соответствия рекомендациям в среде Lync Server 2013 средство использует результаты проверки для создания отчетов о проблемах, связанных с развертыванием. Вы можете использовать отчеты, созданные анализатором соответствия рекомендациям, для выявления и устранения определенных проблем.
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013, анализатор соответствия рекомендациям сканирует и формирует отчеты по ошибкам только для компонентов Lync Server 2013. Если развертывание включает компоненты Microsoft Lync Server 2010 или Office Communications Server 2007 R2, используйте предыдущую версию анализатора соответствия рекомендациям для анализа этих компонентов. Более подробные сведения см. в <a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Требования к запуску анализатора соответствия рекомендациям</a>.
+> Lync Server 2013, анализатор соответствия рекомендациям проверяет и сообщает о проблемах только в компонентах Lync Server 2013. Если в развертывании есть компоненты Microsoft Lync Server 2010 или Office Communications Server 2007 R2, для анализа этих компонентов используйте анализатор соответствия рекомендациям предыдущей версии. Дополнительные сведения можно найти <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">в разделе Требования для анализатора соответствия рекомендациям в Lync Server 2013</A>.
 
-## Содержание
 
-  - [Просмотр и работа с отчетами, создаваемыми анализатором соответствия рекомендациям](lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md)
 
-  - [Анализирование и решение проблем, обнаруженных анализатором соответствия рекомендациям](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Просмотр и работа с отчетами, созданными анализатором соответствия рекомендациям в Lync Server 2013](lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md)
+
+  - [Анализ и устранение проблем, определенных анализатором соответствия рекомендациям в Lync Server 2013](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

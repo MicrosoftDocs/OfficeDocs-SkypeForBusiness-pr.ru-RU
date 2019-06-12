@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0484b84daa1bd8604c5f2caf9cb728f8fce25a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219781"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857400"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -50,7 +50,7 @@ ms.locfileid: "32219781"
 <a name="debug-logs"></a>Журналы отладки
 ---------------------------
 
-Это наиболее распространенные журналы, которые требуются при любом обращении в службу поддержки Майкрософт. Отладка производимые журналы Windows и Mac настольных клиентов, а также клиенты на основе браузера. Эти журналы имеют текстовый формат, а читать их следует снизу вверх. Открыть их можно в любом текстовом редакторе. Новые журналы создаются при входе в клиент.
+Это наиболее распространенные журналы, которые требуются при любом обращении в службу поддержки Майкрософт. Журналы отладки создаются клиентами для настольных систем Windows и Mac, а также клиентами на базе браузера. Эти журналы имеют текстовый формат, а читать их следует снизу вверх. Открыть их можно в любом текстовом редакторе. Новые журналы создаются при входе в клиент.
 
 Журналы отладки показывают следующие потоки данных:
 
@@ -86,8 +86,12 @@ ms.locfileid: "32219781"
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%AppData%\Microsoft\Teams\media-Stack\*.etl         |
+|Windows     |%Аппдата%\микрософт\теамс\медиа-стакк\*. blog         |
+|            |%Аппдата%\микрософт\теамс\скилиб\*. blog
+|            |%Аппдата%\микрософт\теамс\медиа-стакк\*. ETL         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
+|            |~/Library/Application Support support/Microsoft/Teams/\*скилиб. blog         |
+
 
 
 <a name="desktop-logs"></a>Рабочие журналы
@@ -105,5 +109,5 @@ Mac OsX:
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%AppData%\Microsoft\Teams\logs.txt         |
+|Windows     |%Аппдата%\микрософт\теамс\логс.ткст         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

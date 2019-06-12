@@ -1,59 +1,105 @@
-﻿---
-title: 'Lync Server 2013: System administration'
+---
+title: 'Lync Server 2013: Системное администрирование'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: System administration
 ms:assetid: 063eb962-b96a-4699-8579-bb7125112df4
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn720318(v=OCS.15)
-ms:contentKeyID: 62222381
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720318(v=OCS.15)
+ms:contentKeyID: 63969577
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d62526daf43308b4ed38538e5ea16e15b271fc9a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849570"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# System administration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="system-administration-in-lync-server-2013"></a>Администрирование системы в Lync Server 2013
 
-System administration includes the day-to-day administrative tasks, both planned and on-demand, that are required to keep an IT system operating smoothly. Typically, system administration tasks are covered by written procedures. These procedures help ensure that the same standard tools and methods are used by all support staff.
+</div>
 
-In a Lync environment, typical system administration tasks include backing up and archiving pools, monitoring logs, creating and managing users, and updating antivirus software.
+<div id="mainSection">
 
-## System troubleshooting
+<div id="mainBody">
 
-An organization must be prepared to deal with unexpected issues and should have a procedure to manage issues from the point at which they are reported until their resolution. Information about how support staff diagnosed an issue should be recorded and used in the future to avoid unnecessarily repeating completed work.
+<span> </span>
 
-## System troubleshooting process
+_**Тема последнего изменения:** 2014-08-18_
 
-The following diagram shows the system troubleshooting process and the interactions with other operations roles.
+Администрирование системы включает повседневные административные задачи, как запланированные, так и по запросу, необходимые для обеспечения бесперебойной работы системы. Обычно задачи по администрированию системы описаны в разделе написаны письменными процедурами. Эти процедуры гарантируют, что одни и те же стандартные средства и методы используются всеми сотрудниками службы поддержки.
 
-**System troubleshooting flowchart**
+В среде Lync типичные задачи по администрированию системы включают резервное копирование и архивирование пулов, наблюдение за журналами, создание пользователей и управление ими, а также обновление антивирусных программ.
 
-![Блок-схема устранения неполадок системы](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Блок-схема устранения неполадок системы")
+<div>
 
-  - **Classify and Prioritize**   This task is typically performed by the service desk. For example, an issue may be grouped as a software issue or a hardware issue. The issue is then routed to the appropriate support team for investigation. The rules for determining the priority of an issue, together with the time to respond and time to resolve, are typically defined in the SLA.
+## <a name="system-troubleshooting"></a>Устранение неполадок системы
 
-  - **Investigate and Diagnose**   The appropriate support team diagnoses the issue and proposes changes to resolve the issue. If the solution is simple and does not require change control, the solution can be applied immediately. If the solution is not easy, a request for change should be raised and the proposed work should be managed by the change management process, frequently under a “fast-track” procedure. Any changes that are made should be recorded using the configuration management process.
+Организация должна быть готова к работе с непредвиденными проблемами и должна содержать процедуры для управления проблемами с того места, на котором они выводятся до их разрешения. Сведения о том, как сотрудникам службы поддержки удалось выявить и использовать в будущем, чтобы избежать ненужной повторной выполненной работы.
 
-  - **Close and Record**   After testing the resolution, the issue should be closed. If there are lessons to be learned from the issue, an entry should be created in the knowledge base.
+</div>
 
-  - **Review and Trend Analysis**   Periodic reviews of recent issues should be performed to identify issue trends. For example, if the users are experiencing frequent issues with slow logons to their Lync sites, network bandwidth issues may be the cause. Issue resolution times and the effect of any outages on system availability should be reviewed and compared with the SLA. The person who liaises with the customer on service issues, such as an account manager, should be informed of any significant issues.
+<div>
 
-## Issue management tools
+## <a name="system-troubleshooting-process"></a>Процесс устранения неполадок системы
 
-Service desk tools enable staff to record, classify, and prioritize new issues. Tools will then provide the workflow processes to manage the issue service request through investigation and diagnosis, often by more than one support team. Tools, which will frequently provide reports about resolution times and historical trends, may also include a knowledge base database, which can be used to search through past issues.
+На приведенной ниже схеме показан процесс устранения неполадок системы и взаимодействие с другими ролями операций.
 
-The Microsoft Knowledge Base is a useful record of support issues that were encountered by Microsoft. For more information, see the Microsoft Support website (<https://go.microsoft.com/fwlink/?linkid=14898>).
+**Блок-схема устранения неполадок системы**
 
-Third-party software typically requires customization to suit the organization’s needs, such as the organization of teams, reporting requirements, and measures required by the SLA.
+![Блок-схема устранения неполадок системы] (images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Блок-схема устранения неполадок системы")
 
-## Centralized vs. decentralized administration
+  - **Классификация и определение приоритетов**   этой задачи обычно выполняется службой обслуживания. Например, неполадка может быть сгруппирована как неполадка программного обеспечения или аппаратная ошибка. Затем эта неполадка перенаправляется в соответствующую службу поддержки. Правила определения приоритета проблемы, а также время реагирования и времени для разрешения, обычно определяются в соглашении об уровне обслуживания.
 
-Roles and responsibilities for performing system administration tasks depend on whether the organization follows a centralized model, a decentralized model, or a combination of both.
+  - **Изучите и выявите**   соответствующую команду поддержки, чтобы решить проблему и предложить изменения, необходимые для устранения этой проблемы. Если решение непростое и не требует управления изменениями, решение можно применить немедленно. Если решение является непростым, должно быть инициировано требование на изменение, и предполагаемые трудозатраты должны управляться процессом управления изменениями, часто под процедурой быстрого отслеживания. Все внесенные изменения следует записать с помощью процесса управления конфигурацией.
 
-  - **Centralized Model**   In a centralized model, one or several administrative groups maintain complete control of the whole Lync Server environment. This administrative model resembles a data center where all administration tasks are performed by a single information technology group. Roles and responsibilities within the team should be defined according to experience and expertise.
+  - **Закрывайте и записывайте записи**   после проверки разрешения, эта неполадка должна быть закрыта. Если у вас возникли уроки, которые следует изучить, нужно создать запись в базе знаний.
 
-  - **Decentralized Model**   Decentralized organizations are located in several geographic locations and have functioning Lync Server servers and teams of administrators in different locations. For example, there may be local administration staff and one or more servers that are running Lync Server 2013 for each country/region. Or, there may be a pool of servers that are running Lync Server 2013 and an administrative team for North America and one for Europe. Sometimes, you may want administrators to be responsible only for their own geographical area and restrict permissions to administer resources in other areas.
+  - ****   Для выявления тенденций проблем должны быть выполнены периодические обзоры проверок и анализ тенденций. Например, если у пользователей часто возникают проблемы с медленным входом на сайты Lync, это может быть вызвано проблемами с пропускной способностью сети. Разрешение вопросов и их влияние на уровень доступности системы должны проверяться и сравниваться с соглашением об уровне обслуживания. Человек, лиаисес с клиентом по вопросам обслуживания (например, диспетчером учетных записей), должен сообщить о каких – либо существенных проблемах.
 
-Lync Server also allows you to delegate specific administrative tasks to specific people or groups by using role-based access control (RBAC). RBAC allows administrators to delegate specific user rights and permissions to other administrators to perform a subset of the administrative tasks possible. By using RBAC, the user’s ability to perform specific administrative tasks depends on the RBAC roles that are assigned to the user. RBAC provides a list of cmdlets that the user can run based on the RBAC roles that the user is a member of.
+</div>
+
+<div>
+
+## <a name="issue-management-tools"></a>Средства управления проблемами
+
+Средства службы поддержки позволяют сотрудникам записывать, классифицировать и назначать приоритеты для новых проблем. После этого инструменты рабочего процесса смогут управлять запросом на обслуживание проблем с помощью исследования и диагностики, часто с помощью более одной команды поддержки. Средства, которые часто предоставляют отчеты о времени разрешения и исторических тенденциях, также могут включать базу данных Knowledge Base, которая может использоваться для поиска в прошлых проблемах.
+
+Microsoft Knowledge Base — это полезная запись проблем поддержки, обнаруженных корпорацией Майкрософт. Дополнительные сведения можно найти на веб-сайте службы поддержки<http://go.microsoft.com/fwlink/?linkid=14898>Майкрософт ().
+
+Стороннее программное обеспечение обычно требует настройки в соответствии с потребностями Организации, такими как Организация групп, требования к отчетности и меры, необходимые для SLA.
+
+</div>
+
+<div>
+
+## <a name="centralized-vs-decentralized-administration"></a>Централизованное или децентрализованное администрирование
+
+Роли и обязанности по выполнению задач системного администрирования зависят от того, следует ли организациям придерживаться централизованной модели, децентрализованной модели или их комбинации.
+
+  - **Централизованная модель**   централизованной модели в одной или нескольких административных группах поддерживается полный контроль над всей средой Lync Server. Эта модель администрирования напоминает центр обработки данных, в котором все задачи администрирования выполняются одной группой информационных технологий. Роли и обязанности в команде должны определяться в соответствии с опытом и опытом.
+
+  - **Децентрализованная модель**   децентрализованные организации размещаются в нескольких географических регионах и работают с серверами Lync Server и Teams в разных расположениях. Например, для каждой страны или региона может быть локальный сотрудник для администрирования и один или несколько серверов с Lync Server 2013. Возможно также, что у вас есть пул серверов с Lync Server 2013 и административная группа для Северной Америки и One для Европы. Иногда вам может потребоваться, чтобы администраторы были ответственными только для своей географической зоны и ограничивают разрешения на администрирование ресурсов в других областях.
+
+Кроме того, Lync Server позволяет делегировать конкретные задачи администрирования определенным пользователям или группам с помощью управления доступом на основе ролей (RBAC). RBAC позволяет администраторам делегировать определенные права и разрешения пользователей другим администраторам для выполнения подмножества возможных задач администрирования. С помощью RBAC пользователи могут выполнять определенные задачи администрирования, зависящие от ролей RBAC, назначенных пользователю. RBAC предоставляет список командлетов, которые пользователь может запускать на основе ролей RBAC, членом которых является пользователь.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

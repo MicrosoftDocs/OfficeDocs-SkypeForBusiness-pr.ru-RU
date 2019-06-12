@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing UCWA conferencing'
+---
+title: 'Lync Server 2013: тестирование конференц-связи по УКВА'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing UCWA conferencing
 ms:assetid: 62b3866a-0759-4b1f-99ec-5a68d6a74f00
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727306(v=OCS.15)
-ms:contentKeyID: 62388623
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727306(v=OCS.15)
+ms:contentKeyID: 63969610
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 9b05b67f6f235cdcf3153149c9bd2373c30815d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849370"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing UCWA conferencing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Проверка конференц-связи УКВА в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-03_
 
 
 <table>
@@ -23,110 +43,140 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsUcwaConference</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета <strong>Test-ксукваконференце</strong> . Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUcwaConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsUcwaConference** cmdlet verifies that a pair of test users can schedule, join, and then conduct an online conference using the Unified Communications Web API (UCWA). To do this, the cmdlet uses the Lync Server web ticket service to authenticate the two test users and register them with Lync Server. The cmdlet then starts a conference using the organizer credentials and invites the participant to join the meeting. After the meeting is joined, the **Test-CsUcwaConference** cmdlet verifies that the users can do such things as exchange instant message and conduct pools, then disconnects the conference and unregisters the two test users. The scheduled conference will also be deleted when the test is finished.
+## <a name="description"></a>Описание
 
-The **Test-CsUcwaConference** cmdlet can also be used to determine whether anonymous users can join online conferences.
+Командлет **Test-ксукваконференце** удостоверяется в том, что с помощью веб-интерфейса единой системы обмена сообщениями (Уква) пользователь может запланировать, присоединиться к Конференции и провести сетевую конференцию. Для этого командлет использует службу веб-билета Lync Server для проверки подлинности двух тестовых пользователей и их регистрации в Lync Server. Затем командлет начнет конференцию с использованием учетных данных организатора и приглашает участника присоединиться к собранию. После присоединения к собранию командлет **Test-ксукваконференце** удостоверяет, что пользователи могут выполнять такие действия, как обмен мгновенными сообщениями и объединением, а затем отключает конференцию и отменяет регистрацию двух тестовых пользователей. Запланированная Конференция также будет удалена после завершения теста.
 
-Note that the **Test-CsUcwaConference** cmdlet should not be run against a Microsoft Lync Server 2010 pool unless UCWA was installed on that pool. If UCWA has not been installed then the call to the **Test-CsUcwaConference** cmdlet will fail.
+Командлет **Test-ксукваконференце** также можно использовать, чтобы определить, могут ли анонимные пользователи присоединиться к онлайн-конференциям.
 
-## Running the test
+Обратите внимание, что командлет **Test-ксукваконференце** не следует запускать для пула Microsoft Lync Server 2010, если Уква не установлен в этом пуле. Если УКВА не установлен, вызов командлета **Test-ксукваконференце** завершится сбоем.
 
-The command shown in Example 1 verifies that a pair of test users can participate in an UCWA conference on the pool atl-cs-001.litwareinc.com. Note that this command will fail if you have not predefined a pair of health monitoring configuration test users for atl-cs-001.litwareinc.com.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Команда, показанная в примере 1, проверяет, может ли пользователь, который входит в состав Конференции УКВА в atl-cs-001.litwareinc.com пула, мог принимать участие в паре тестов. Обратите внимание, что эта команда завершится сбоем, если вы не предatl-CS-001.litwareinc.com пару пользователей теста конфигурации мониторинга работоспособности для.
 
     Test-CsUcwaConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to participate in an UCWA conference. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman. (Because the logon name, litwareinc\\pilar, was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credentials object is then stored in a variable named $cred1. The second command does the same thing, this time returning a credential object for the Ken Myer account.
+Команды, показанные в примере 2, проверяют возможности пары пользователей (плана litwareinc\\почтового и плана litwareinc\\кенмер) для участия в Уква Конференции. Для этого в первой команде примера используется командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя почтового Вронский. (Поскольку имя для входа, плана litwareinc\\почтового, было включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи почтового Вронский.) Результирующий объект учетных данных сохраняется в переменной с именем $cred 1. Вторая команда — это то же самое, что возвращает объект учетной записи Кен мер.
 
-With the two credential objects in hand, the third command in the example determines whether the two users can participate in an UCWA conference. To run this task, the **Test-CsUcwaConference** cmdlet is called, together with the following parameters: TargetFqdn (the FQDN of the Registrar pool); OrganizerSipAddress (the SIP address for the meeting organizer); OrganizerCredential (the Windows PowerShell object that contains the credentials for this same user); ParticipantSipAddress (the SIP address for the other test user); and ParticipantCredential (the Windows PowerShell command-line interface object that contains the credentials for the other user).
+Если у вас есть два объекта учетных данных, третья команда в примере определяет, могут ли два пользователя принимать участие в конференц-связи УКВА. Для выполнения этой задачи вызывается командлет **Test-ксукваконференце** , вместе со следующими параметрами: таржетфкдн (полное доменное имя пула регистраторов). Организерсипаддресс (SIP-адрес организатора собрания); Организеркредентиал (объект Windows PowerShell, который включает в себя учетные данные для этого пользователя); ПартиЦипантсипаддресс (SIP-адрес для другого тестового пользователя); и ПартиЦипанткредентиал (объект интерфейса командной строки Windows PowerShell, который включает в себя учетные данные для другого пользователя).
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
     Test-CsUcwaConference -TargetFqdn atl-cs-001.litwareinc.com -OrganizerSipAddress "sip:pilar@litwareinc.com" -OrganizerCredential $cred1 -ParticipantSipAddress "sip:kenmyer@litwareinc.com" -ParticipantCredential $cred2
 
-## Determining success or failure
+</div>
 
-If conferencing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Target Uri : https:// LyncTest-SE.LyncTest.SelfHost.Corp.
+Если вы правильно настраиваете Конференц-связь, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**
+
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
+
+Конечный URI: https://Линктест-SE. Линктест. Селфхост. Corp.
 
 Microsoft.com:443/CertProv/CertProvisiongService.svc
 
-Result : Success
+Результат: успех
 
-Latency : 00:00:14.9862716
+Задержка: 00:00:14.9862716
 
-Error Message :
+Сообщение об ошибке:
 
-Diagnosis :
+Диагностик
 
-If the specified users can't use conferencing, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Если указанные пользователи не могут использовать конференц-связь, результат будет отображаться как **сбой**, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Предупреждение: не удалось прочитать номер порта регистратора для заданного полного имени
 
-domain name (FQDN). Using default Registrar port number. Exception:
+доменное имя (FQDN). С помощью номера порта регистратора по умолчанию. Ошибка
 
-System.InvalidOperationException: No matching cluster found in topology.
+System. InvalidOperationException: в топологии не обнаружены подходящие кластеры.
 
-at
+скорость
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+Microsoft. RTC. Management. Синсетиктрансактионс. Сипсинсетиктрансактион. Триретри
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+Еверегистрарпортфромтопологи (Int32& Регистрарпортнумбер)
 
-Test-CsUcwaConference : There is no test user assigned for
+Test-Ксукваконференце: нет тестового пользователя, назначенного для
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Verify test user configuration.
+\[LyncTest.SelfHost.Corp.Microsoft.com\]. Проверка конфигурации тестового пользователя.
 
-At line:1 char:1
+В строке: 1 символ: 1
 
-\+ Test-CsUcwaConference -TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
+\+Test-Ксукваконференце-Таржетфкдн "LyncTest.SelfHost.Corp.Microsoft.com"
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\+ CategoryInfo : ResourceUnavailable: (:) \[Test-CsUcwaConference\]
+\+Категоринфо: Ресаурцеунаваилабле: (:) \[Test-ксукваконференце\]
 
 , InvalidOperationException
 
-\+ FullyQualifiedErrorId : NotFoundTestUsers,Microsoft.Rtc.Management.Synth
+\+Фулликуалифиедеррорид: Нотфаундтестусерс, Microsoft. RTC. Management. синтезатор
 
-eticTransactions.TestUcwaConferenceCmdlet
+Етиктрансактионс. Тестукваконференцекмдлет
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why **Test-CsUcwaConference** might fail:
+<div>
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-  - The ability to conduct a conference depends on the conferencing policy that has been assigned to the user who organized the conference (in the case of the **Test-CsUcwaConference** cmdlet, that is the "sender"). If the organizer is not allowed to include collaborative activities in his or her meeting (for example, if his or her conferencing policy has the EnableDataCollaboration property set to False) then the **Test-CsUcwaConference** cmdlet will fail.
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксукваконференце** :
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+  - Предоставлено неправильное значение параметра. Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
 
-## См. также
+  - Возможность проведения Конференции зависит от политики конференц-связи, назначенной пользователю, который организовал конференцию (в случае командлета **Test — ксукваконференце** , который является отправителем). Если организатор не может включать мероприятия для совместной работы на своем собрании (например, если у его политики Конференции задано значение false), командлет **Test-ксукваконференце** завершится сбоем.
 
-#### Другие ресурсы
+  - Эта команда завершается сбоем, если граничный сервер неправильно настроен или еще не развернут.
 
-[Test-CsASConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsASConference)  
-[Test-CsDataConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDataConference)  
-[Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference)
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Test-CsASConference](https://docs.microsoft.com/powershell/module/skype/Test-CsASConference)  
+[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
+[Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

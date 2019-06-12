@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: таблица Application'
-TOCTitle: Таблица Application
-ms:assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425808(v=OCS.15)
-ms:contentKeyID: 49309344
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Application'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Application table
+ms:assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425808(v=OCS.15)
+ms:contentKeyID: 48183757
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b1186453bd1ab10f91a9c76de21f57af47359c24
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849730"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Application в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="application-table-in-lync-server-2013"></a>Таблица Application в Lync Server 2013
 
-В этой таблице хранятся сведения о различных процессах, проходящих в Lync Server 2013 и связанных с маршрутизацией и подключениями.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-28_
+
+В этой таблице хранятся сведения о различных процессах в Lync Server 2013, вовлеченных в маршрутизацию и соединения.
 
 
 <table>
@@ -37,15 +57,26 @@ _**Дата изменения раздела:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
 <td><p>целое</p></td>
-<td><p>Первичный</p></td>
+<td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий это приложение.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Имя</strong></p></td>
+<td><p><strong>Имя</strong>.</p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
-<td><p>Имя серверного компонента.</p></td>
+<td><p>Имя компонента сервера.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

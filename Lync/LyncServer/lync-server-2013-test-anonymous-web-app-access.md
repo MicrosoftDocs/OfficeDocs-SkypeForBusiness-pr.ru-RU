@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Test anonymous Web App access'
+---
+title: 'Lync Server 2013: Проверка анонимного доступа к веб-приложению'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Test anonymous Web App access
 ms:assetid: 92f691cd-e05e-4bab-beb5-251d4b837a19
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn767949(v=OCS.15)
-ms:contentKeyID: 62486228
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767949(v=OCS.15)
+ms:contentKeyID: 63969630
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 701954a872645e80d6aac82cab1fbf5745ad6984
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849477"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test anonymous Web App access in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a>Проверка доступа анонимного веб-приложения в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-06-07_
 
 
 <table>
@@ -23,86 +43,112 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Monthly</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежемесячно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsWebAppAnonymous cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксвебаппанонимаус. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebAppAnonymous&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsWebAppAnonymous cmdlet verifies that an anonymous user can join Lync Server conferences by using the Lync Web App. When you run the cmdlet, Test-CsWebAppAnonymous contacts the Web Ticket service to obtain a web ticket for the anonymous user. If the cmdlet succeeds in obtaining this ticket, Test-CsWebAppAnonymous will then contact Lync Server and attempt to establish separate conferences for instant messaging, application sharing, and data collaboration.
+## <a name="description"></a>Описание
 
-Note that Test-CsWebAppAnonymous only verifies the APIs and connections used to create these conferences. The cmdlet does not actually create and conduct any conferences.
+Командлет Test-Ксвебаппанонимаус подтверждает, что анонимный пользователь может присоединиться к конференциям Lync Server с помощью Lync Web App. При выполнении командлета Test-Ксвебаппанонимаус обращается к службе веб-билета, чтобы получить веб-билет для анонимного пользователя. Если командлету удалось получить этот билет, функция Test-Ксвебаппанонимаус будет обращаться к Lync Server и попытаться установить отдельные конференции для обмена мгновенными сообщениями, общего обмена приложениями и совместной работы с данными.
 
-## Running the test
+Обратите внимание, что Test-Ксвебаппанонимаус только проверяет интерфейсы API и соединения, используемые для создания этих конференций. На самом деле командлеты не создают и не выполняют никакие Конференции.
 
-The Test-CsWebAppAnonymous cmdlet can be run using either a pair of preconfigured test accounts or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the fully qualified domain name of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Командлет Test-Ксвебаппанонимаус можно выполнить с помощью пары предварительно настроенных тестовых учетных записей или учетных записей двух пользователей, которые включены в Lync Server. Для выполнения этой проверки с помощью тестовых учетных записей нужно просто указать полное доменное имя для тестируемого пула сервера Lync Server. Например:
 
     Test-CsWebAppAnonymous -TargetFqdn atl-cs-001.litwareinc.com
 
-To run this check using actual user accounts, you must create two Командная консоль Lync Server credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsWebAppAnonymous:
+Для выполнения этой проверки с использованием фактических учетных записей пользователей необходимо создать два объекта учетных данных командной консоли Lync Server (объекты, содержащие имя и пароль учетной записи) для каждой учетной записи. После вызова Test-Ксвебаппанонимаус вы должны добавить эти объекты учетных данных и адреса SIP для двух учетных записей.
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1
 
-For more information, see the help topic for the Test-CsWebAppAnonymous cmdlet. Note that Test-CsWebAppAnonymous is deprecated for use on Lync Server 2013.
+Дополнительные сведения можно найти в разделе справки по командлету Test-Ксвебаппанонимаус. Обратите внимание, что функция Test-Ксвебаппанонимаус является устаревшей для использования в Lync Server 2013.
 
-## Determining success or failure
+</div>
 
-If Test-CsWebAppAnonymous can join the anonymous user to his or her conferences, the cmdlet will return the test result Success:
+<div>
 
-Target Fqdn :
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если с помощью командлета Test-Ксвебаппанонимаус можно присоединиться к своим собраниям для анонимного пользователя, он вернет результат теста успешно.
 
-Latency : 00:00:00
+Целевое полное доменное имя:
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:00
 
-If the anonymous user can't join the necessary conferences then the test result will be marked as Failure. Typically Test-CsWebAppAnonymous will also report back a detailed error message and diagnosis:
+Сообщение об ошибке:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если анонимный пользователь не может присоединиться к необходимым конференциям, результат теста будет помечен как сбой. Обычно Test-Ксвебаппанонимаус также будет сообщать о подробном сообщении об ошибке и диагностике:
 
-Latency : 00:00:05.9746266
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message : No response received for Web-Ticket service
+Результат: сбой
 
-Diagnosis : The HTTP request is unauthorized with client
+Задержка: 00:00:05.9746266
 
-authentication scheme 'Ntlm'. The authentication
+Сообщение об ошибке: ни одного ответа не получено для службы веб-билета
 
-header received from the server was 'Negotiate,NTLM'.
+Диагностика: запрос HTTP-запроса не разрешен клиентом
 
-## Reasons why the test might have failed
+Схема проверки подлинности "NTLM". Проверка подлинности
 
-Test-CsWebAppAnonymous failures usually revolve around user authentication errors: you must run the test using a valid user account even though the cmdlet is checking the ability of an anonymous user to connect to Lync Server. If Test-CsWebAppAnonymous fails, you should verify that the specified user has valid a Lync Server user account. You can retrieve Lync Server account information by using a command similar to this:
+заголовку, полученному от сервера, является "Negotiate, NTLM".
+
+</div>
+
+<div>
+
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
+
+Ошибки при тестировании-Ксвебаппанонимаус обычно связаны с ошибками проверки подлинности пользователя: необходимо выполнить тест с помощью действительной учетной записи пользователя, несмотря на то, что командлет проверяет возможность подключения анонимного пользователя к Lync Server. Если при выполнении теста-Ксвебаппанонимаус возникает ошибка, убедитесь в том, что указанный пользователь действительно является учетной записью пользователя Lync Server. Вы можете получить сведения об учетной записи Lync Server с помощью следующей команды:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.
+Если свойство Enabled не равно true или если команда не выполнена, это означает, что у пользователя нет действительной учетной записи Lync Server.
 
-You should also verify that the password that you supplied when you run the cmdlet is a valid password.
+Кроме того, необходимо убедиться, что пароль, предоставленный при запуске командлета, является действительным паролем.
 
-Configuration problems with Сервер Office Web Apps can also cause Test-CsWebAppAnonymous to fail; that will often be the case if you receive the following diagnosis:
+Проблемы с конфигурацией на сервере Office Web Apps также могут привести к сбою теста-Ксвебаппанонимаус; Это часто может возникнуть, если вы получаете следующую диагностику:
 
-The HTTP request is unauthorized with client authentication scheme 'Ntlm'. The authentication header received from the server was 'Negotiate,NTLM'.
+Запрос HTTP не разрешен в схеме проверки подлинности клиента "NTLM". Заголовок проверки подлинности, полученный от сервера, — "Negotiate, NTLM".
 
-For more information on diagnosing and resolving Сервер Office Web Apps problems see the blog post [Office Web Apps Server 2013 - machines are always reported as Unhealthy](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).
+Дополнительные сведения о диагностике и устранении проблем с сервером Office Web Apps см. в блоге [сервер Office Web apps 2013 — компьютеры,](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy)на которых выводится сообщение о неработоспособности.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

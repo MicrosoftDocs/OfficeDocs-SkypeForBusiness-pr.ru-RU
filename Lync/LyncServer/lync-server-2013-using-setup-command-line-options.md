@@ -1,25 +1,45 @@
-﻿---
-title: Использование параметров командной строки установки
-TOCTitle: Использование параметров командной строки установки
-ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205129(v=OCS.15)
-ms:contentKeyID: 49310622
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: использование параметров командной строки для настройки'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Setup command-line options
+ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
+ms:contentKeyID: 48184957
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849222"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Использование параметров командной строки установки
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="using-setup-command-line-options-in-lync-server-2013"></a>Использование параметров командной строки программы установки в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-10-03_
 
 Командная строка программы установки используется для выполнения достаточно редких операций в процессе установки Office. Вместо использования параметров командной строки программы установки для установки продукта и настройки компонентов обычно используется центр развертывания Office и файл Config.xml.
 
 Командная строка программы установки Office распознает параметры командной строки, описанные в следующей таблице.
 
-### Параметры командной строки программы установки Office
+### <a name="office-setup-command-line-options"></a>Параметры командной строки программы установки Office
 
 <table>
 <colgroup>
@@ -43,23 +63,33 @@ _**Дата изменения раздела:** 2016-12-08_
 </tr>
 <tr class="odd">
 <td><p>/config [путь]</p></td>
-<td><p>Указывает файл Config.xml, который программа установки использует во время установки. Используйте параметр /config для указания файла Config.xml, настроенного для установок Lync 2013, например: <code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Указывает файл Config.xml, который программа установки использует во время установки. Используйте параметр/config для указания файла config. XML, настроенного для установки Lync 2013, например:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
-<td><p>/modify Lync</p></td>
-<td><p>Используется с модифицированным файлом Config.xml для запуска программы установки в режиме обслуживания и изменения существующей установки Office. Например, можно использовать параметр /modify для добавления или удаления компонентов Lync.</p></td>
+<td><p>/модифи Lync</p></td>
+<td><p>Используется с модифицированным файлом Config.xml для запуска программы установки в режиме обслуживания и изменения существующей установки Office. Например, можно использовать параметр/модифи для добавления и удаления функций Lync.</p></td>
 </tr>
 <tr class="odd">
-<td><p>/repair Lync</p></td>
-<td><p>Запускает программу установки на компьютере пользователя для восстановления Lync.</p></td>
+<td><p>/репаир Lync</p></td>
+<td><p>Запускает программу установки с компьютера пользователя, чтобы восстановить Lync.</p></td>
 </tr>
 <tr class="even">
-<td><p>/uninstall Lync</p></td>
-<td><p>Запускает программу установки для удаления Lync с компьютера пользователя.</p></td>
+<td><p>/Uninstall Lync</p></td>
+<td><p>Запускает программу установки, чтобы удалить Lync с компьютера пользователя.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Дополнительные сведения об использовании параметров командной строки программы установки см. на сайте [http://go.microsoft.com/fwlink/?linkid=267515\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=267515%26clcid=0x419).
+Подробнее об использовании параметров командной строки Setup можно узнать в разделе <http://go.microsoft.com/fwlink/p/?linkid=267515>.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

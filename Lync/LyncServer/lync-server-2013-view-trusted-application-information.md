@@ -1,33 +1,51 @@
-﻿---
-title: Просмотр сведений о доверенных приложениях
-TOCTitle: Просмотр сведений о доверенных приложениях
-ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688103(v=OCS.15)
-ms:contentKeyID: 49888055
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр сведений о доверенных приложениях'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View trusted application information
+ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
+ms:contentKeyID: 49733702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849138"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр сведений о доверенных приложениях
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-30_
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>Просмотр сведений о надежном приложении в Lync Server 2013
 
-Используйте следующую процедуру для просмотра сведений о доверенном приложении командная консоль Lync Server 2013 в Командная консоль Lync Server.
+</div>
 
-## Просмотр сведений о доверенном приложении с помощью командлетов Командная консоль Lync Server
+<div id="mainSection">
 
-Вы можете просмотреть сведения о доверенных приложениях с помощью Командная консоль Lync Server и командлета **Get-CsTrustedApplication**. Его можно выполнить в командная консоль Lync Server 2013 или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainBody">
 
-## Просмотр доверенных приложений
+<span> </span>
 
-  - Для просмотра всех доверенных приложений введите следующую команду в Командная консоль Lync Server и нажмите ВВОД:
+_**Тема последнего изменения:** 2013-02-23_
+
+Вы можете просматривать сведения о доверенных приложениях с помощью Windows PowerShell и командлета **Get-кструстедаппликатион** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-view-trusted-applications"></a>Просмотр надежных приложений
+
+  - Чтобы просмотреть все доверенные приложения, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.
     
         Get-CsConferenceDisclaimer
     
-    Эта команда возвращает сведения, подобные приведенным ниже, для каждого доверенного приложения:
+    Эта команда возвращает данные, подобные приведенным ниже, для каждого надежного приложения.
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -44,6 +62,18 @@ _**Дата изменения раздела:** 2015-03-30_
         EnterpriseVoiceEnabled : True
         ExUmEnabled            : False
         Enabled                : True
+    
+    Подробности можно найти в [статьях Get-кструстедаппликатион](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
-Дополнительные сведения см. в разделе [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

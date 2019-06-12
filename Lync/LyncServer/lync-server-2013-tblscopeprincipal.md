@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblScopePrincipal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblScopePrincipal
 ms:assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg558639(v=OCS.15)
-ms:contentKeyID: 49309582
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558639(v=OCS.15)
+ms:contentKeyID: 48184009
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ece5ae542060835aefa05edb6e08b766293e2ac1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849522"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblScopePrincipal в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tblscopeprincipal-in-lync-server-2013"></a>tblScopePrincipal в Lync Server 2013
 
-tblScopePrincipal содержит области, назначенные узлам.
+</div>
 
-### Столбцы
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2012-09-12_
+
+ТблскопепринЦипал включает области, назначенные узлам.
+
+### <a name="columns"></a>Столбцов
 
 <table>
 <colgroup>
@@ -34,30 +54,30 @@ tblScopePrincipal содержит области, назначенные узл
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>scopeNodeID</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>Код узла, к которой применяется область.</p></td>
+<td><p>Скопенодеид</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор узла, к которому относится область.</p></td>
 </tr>
 <tr class="even">
-<td><p>scopePrinID</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>ИД субъекта.</p></td>
+<td><p>Скопепринид</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор участника.</p></td>
 </tr>
 <tr class="odd">
-<td><p>scopeIsDenied</p></td>
-<td><p>bit, not null</p></td>
-<td><p>Значение true, если тип области – Deny; значение false, если тип области – Allow.</p></td>
+<td><p>Скопеисдениед</p></td>
+<td><p>bit, NOT NULL</p></td>
+<td><p>Значение true, если тип области — Deny; Значение false, если разрешено.</p></td>
 </tr>
 <tr class="even">
-<td><p>scopeUpdatedBy</p></td>
-<td><p>int, не равно null</p></td>
-<td><p>ИД субъекта, который последним обновлял эту запись.</p></td>
+<td><p>Скопеупдатедби</p></td>
+<td><p>int, NOT NULL</p></td>
+<td><p>Идентификатор участника, который последним обновил эту запись.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Ключи
+### <a name="keys"></a>Параметры
 
 <table>
 <colgroup>
@@ -72,17 +92,28 @@ tblScopePrincipal содержит области, назначенные узл
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;scopeNodeID, scopePrinID&gt;</p></td>
+<td><p>&lt;Скопенодеид, Скопепринид&gt;</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>scopeNodeID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblNode.nodeID.</p></td>
+<td><p>Скопенодеид</p></td>
+<td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодеид.</p></td>
 </tr>
 <tr class="odd">
-<td><p>scopePrinID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblPrincipal.prinID.</p></td>
+<td><p>Скопепринид</p></td>
+<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

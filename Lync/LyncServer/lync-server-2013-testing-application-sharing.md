@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing application sharing'
+---
+title: 'Lync Server 2013: тестирование общего доступ к приложениям'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing application sharing
 ms:assetid: 8d21db9b-10d1-4b43-b057-0deb1df1c205
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn727310(v=OCS.15)
-ms:contentKeyID: 62388626
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727310(v=OCS.15)
+ms:contentKeyID: 63969629
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 77a65e2dbea8ca0df01fab37c08f47c8e7d0c5b6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849404"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing application sharing in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="testing-application-sharing-in-lync-server-2013"></a>Тестирование общего обмена приложениями в Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2014-11-01_
 
 
 <table>
@@ -23,101 +43,131 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Расписание проверки</p></td>
+<td><p>Ежедневно</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Средство тестирования</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Командная консоль Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsASConference cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Требуемые разрешения</p></td>
+<td><p>При локальном запуске с помощью командной консоли Lync Server пользователи должны быть членами группы безопасности Рткуниверсалсерверадминс.</p>
+<p>При запуске с помощью удаленного экземпляра Windows PowerShell пользователям должна быть назначена роль RBAC, имеющая разрешение на запуск командлета Test-Ксасконференце. Чтобы просмотреть список всех ролей RBAC, которые могут использовать этот командлет, выполните в командной строке Windows PowerShell следующую команду:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsASConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsASConference** cmdlet verifies that a pair of test users can participate in an online conference that includes application sharing. To do this, the cmdlet registers the two users with Lync Server 2013, and then it uses one of the user accounts to create a new conference that includes applications sharing. The cmdlet then verifies that the second user is able to join that conference.
+## <a name="description"></a>Описание
 
-## Running the test
+Командлет **Test-ксасконференце** удостоверяется в том, что пользователь может принимать участие в собрании по сети, включающего общий доступ к приложениям. Для этого командлет регистрирует двух пользователей с помощью Lync Server 2013, а затем использует одну из учетных записей пользователей для создания новой конференции, которая включает общий доступ к приложениям. Затем командлет проверяет, что второй пользователь может присоединиться к этой Конференции.
 
-The command shown in Example 1 verifies that an Application Sharing conference can be conducted on the pool atl-cs-001.litwareinc.com. This command assumes that you have configured a pair of test users for the specified pool. If no such test users exist, the command will fail.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Выполнение теста
+
+Команда, показанная в примере 1, подтверждает, что Конференция для совместного использования приложений может быть проведена в пуле atl-cs-001.litwareinc.com. В этой команде предполагается, что вы настроили пару тестовых пользователей для указанного пула. Если таких тестовых пользователей не существует, команда завершится сбоем.
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Example 2 tests the ability of the Join Launcher service to participate in an Application Sharing conference on the pool atl-cs-001.litwareinc.com. Note that this command tests only the service itself; you do not need any mobile devices in order to run the command.
+В примере 2 проверяются возможности службы запуска присоединения присоединиться к Конференции для совместного использования приложений в пуле atl-cs-001.litwareinc.com. Обратите внимание, что эта команда проверяет только саму службу. для выполнения команды не требуются мобильные устройства.
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com" -TestJoinLauncher 
 
-The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then conduct an Application Sharing conference. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object containing the name and password of the user Pilar Ackerman. (Because the logon name, litwareinc\\pilar, has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1. The second command does the same thing, this time returning a credential object for the Ken Myer account.
+Команды, показанные в примере 2, проверяют возможности пары пользователей (плана litwareinc\\почтового и плана litwareinc\\кенмер) для входа на сервер Lync Server 2013 и проведения конференции для совместного использования приложений. Для этого в первой команде примера используется командлет Get-Credential для создания объекта учетных данных интерфейса командной строки Windows PowerShell, содержащего имя и пароль пользователя почтового Вронский. (Так как имя для входа,\\плана litwareinc почтового, включено в качестве параметра, в диалоговом окне Запрос учетных данных Windows PowerShell требуется, чтобы администратор введет пароль для учетной записи почтового Вронский.) Полученный объект учетных данных затем сохраняется в переменной с именем $cred 1. Вторая команда — это то же самое, что возвращает объект учетной записи Кен мер.
 
-With the credential objects in hand, the third command determines whether or not these two users can log on to Lync Server 2013 and conduct an Application Sharing conference. To carry out this task, the **Test-CsASConference** cmdlet is called, along with the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object containing the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object containing the credentials for the other test user).
+Если у вас есть объекты учетных данных в руки, третья команда определяет, могут ли эти пользователи войти в Lync Server 2013 и провести Конференц-связь приложения. Для выполнения этой задачи вызывается командлет **Test-ксасконференце** , а также следующие параметры: таржетфкдн (полное доменное имя пула регистраторов). Сендерсипаддресс (адрес SIP для первого тестового пользователя); Сендеркредентиал (объект Windows PowerShell с учетными данными для этого пользователя); Рецеиверсипаддресс (SIP-адрес для другого тестового пользователя); и Рецеиверкредентиал (объект Windows PowerShell, содержащий учетные данные для другого тестового пользователя).
 
     $cred1 = Get-Credential "litwareinc\pilar" 
     $cred2 = Get-Credential "litwareinc\kenmyer" 
     Test-CsASConference -TargetFqdn atl-cs-001.litwareinc.com -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $cred1 -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -ReceiverCredential $cred2
 
-## Determining success or failure
+</div>
 
-If application sharing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Result : Success
+Если вы правильно настроили общий доступ к приложениям, вы получите вывод примерно так, чтобы свойство Result пометило **"успешно".**
 
-Latency : 00:00:01
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message :
+Результат: успех
 
-Diagnosis :
+Задержка: 00:00:01
 
-If the specified users can't share applications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Сообщение об ошибке:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Диагностик
 
-Result : Failure
+Если указанные пользователи не могут предоставлять общий доступ к приложениям, результат будет отображаться как сбой, а дополнительные сведения будут записаны в свойствах Error и диагноз.
 
-Latency : 00:00:00
+Целевое полное доменное имя: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Результат: сбой
 
-did not properly respond after a period of time, or
+Задержка: 00:00:00
 
-established connection failed because connected host has
+Сообщение об ошибке: 10060, не удалось установить соединение из-за того, что подключенная сторона
 
-failed to respond 10.188.116.96:5061
+не отвечает на запросы в течение определенного периода времени или
 
-Inner Exception:A connection attempt failed because the
+не удалось установить соединение, так как подключенный узел имеет
 
-connected party did not properly respond after a period of
+не удалось ответить на 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Внутреннее исключение: сбой при попытке подключения из-за того, что
 
-has failed to respond 10.188.116.96:5061
+связь с абонентом завершилась неправильно после определенного периода
 
-Diagnosis :
+время или соединение не удалось установить, так как подключенный узел
 
-For example, the previous output includes the note “the connected party did not properly respond” That typically indicates a problem with the Edge Server.
+не удалось ответить 10.188.116.96:5061
 
-## Reasons why the test might have failed
+Диагностик
 
-Here are some common reasons why **Test-CsASConference** might fail:
+Например, в предыдущем выводе есть Примечание "подключенная сторона не ответила должным образом", которая обычно указывает на проблему с пограничным сервером.
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the test users were assigned a conferencing policy that prevents them from using application sharing.
+<div>
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+## <a name="reasons-why-the-test-might-have-failed"></a>Причины, по которым может произойти сбой теста
 
-## См. также
+Ниже приведены некоторые распространенные причины, по которым может произойти сбой **Test-ксасконференце** :
 
-#### Другие ресурсы
+  - Предоставлено неправильное значение параметра. Если используется, необязательные параметры необходимо настроить правильно, или тест завершится сбоем. Повторите выполнение команды без дополнительных параметров и проверьте, выполняется ли это успешно.
 
-[Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)  
-[Test-CsDataConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDataConference)
+  - Эта команда завершится сбоем, если пользователям теста была назначена политика конференц-связи, не позволяющая использовать общий доступ к приложениям.
+
+  - Эта команда завершается сбоем, если граничный сервер неправильно настроен или еще не развернут.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>См. также
+
+
+[Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy)  
+[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

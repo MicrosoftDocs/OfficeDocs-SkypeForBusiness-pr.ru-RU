@@ -1,29 +1,63 @@
-﻿---
-title: 'Lync Server 2013: поддержка больших собраний'
-TOCTitle: Поддержка больших собраний
-ms:assetid: 8f0446d5-1ed9-4ea0-bb97-6c062a98a1eb
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205090(v=OCS.15)
-ms:contentKeyID: 49310500
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: поддержка больших собраний'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Support for large meetings
+ms:assetid: 8f0446d5-1ed9-4ea0-bb97-6c062a98a1eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205090(v=OCS.15)
+ms:contentKeyID: 48184820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c98166b42f48e328809960279b9934b87670101b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849604"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Поддержка больших собраний в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-01_
+# <a name="support-for-large-meetings-in-lync-server-2013"></a>Поддержка больших собраний в Lync Server 2013
 
-Lync Server 2013 может поддерживать собрания, в которых принимает участие вплоть до 1000 пользователей, с использованием аудио- и видеоконференций и общего доступа к презентациям PowerPoint. Такая поддержка требует выделенный пул, настроенный для поддержки больших собраний и управляемый таким способом, чтобы гарантировать размещение только одного большого собрания в каждый момент времени.
+</div>
 
-В этом разделе описывается поддержка больших собраний с помощью выделенного пула сервера Lync Server 2013. Рассматриваются рекомендации по масштабированию и требования к реализации для выделенного пула, включая требования к топологии, оборудованию, программному обеспечению и конфигурации. Кроме того, в этом разделе приводится ряд рекомендаций по поддержке больших собраний, сводка методов тестирования и результаты тестирования масштабируемости сервера инженерной группой Lync Server, а также ответы на часто задаваемые вопросы по поддержке больших собраний.
+<div id="mainSection">
 
-## Содержание
+<div id="mainBody">
 
-  - [Обзор масштабируемости конференций в Lync Server 2013](lync-server-2013-conferencing-scalability-overview.md)
+<span> </span>
 
-  - [Поддержка больших собраний с помощью Lync Server 2013](lync-server-2013-supporting-large-meetings.md)
+_**Тема последнего изменения:** 2012-10-01_
 
-  - [Вопросы и ответы по поддержке больших собраний в Lync Server 2013](lync-server-2013-large-meeting-support-faq.md)
+Lync Server 2013 может поддерживать собрания с участием до 1000 участников, использующих голосовые и видеоконференции (A/V), в том числе предоставлять общий доступ к презентациям PowerPoint. Для этого необходимо настроить поддержку больших собраний в выделенном пуле и управлять им таким способом, чтобы одновременно могло проводиться только одно большое собрание.
+
+В этом разделе рассказывается о том, как поддерживать большое количество собраний с помощью выделенного пула Lync Server 2013. Она описывает особенности масштабируемости и требования к реализации для выделенного пула, включая топологию, оборудование, программное обеспечение и требования к конфигурации. Кроме того, он предоставляет набор рекомендаций для поддержки крупных собраний, краткий обзор методов тестирования и результатов тестирования масштабируемости сервера, проводимого командой разработчиков Lync Server, и ответы на часто задаваемые вопросы о поддержке. для крупных собраний.
+
+<div>
+
+## <a name="in-this-section"></a>Содержание
+
+  - [Общие сведения о масштабируемости конференции в Lync Server 2013](lync-server-2013-conferencing-scalability-overview.md)
+
+  - [Поддержка крупных собраний с помощью Lync Server 2013](lync-server-2013-supporting-large-meetings.md)
+
+  - [Дополнительные вопросы и ответы о поддержке собраний для Lync Server 2013](lync-server-2013-large-meeting-support-faq.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

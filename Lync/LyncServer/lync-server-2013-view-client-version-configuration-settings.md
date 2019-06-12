@@ -1,51 +1,100 @@
-﻿---
-title: Просмотр параметров конфигурации версий клиентов
-TOCTitle: Просмотр параметров конфигурации версий клиентов
-ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ923062(v=OCS.15)
-ms:contentKeyID: 52058334
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр параметров конфигурации версии клиента'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View client version configuration settings
+ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923062(v=OCS.15)
+ms:contentKeyID: 50675353
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9db03377f8f2fc880de61639f4eedc5b1c302d21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849175"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр параметров конфигурации версий клиентов
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Просмотр параметров конфигурации клиентской версии в Lync Server 2013
 
-Параметры конфигурации версий клиентов используются для включения и выключения управления версиями. Глобальная конфигурация версий клиентов устанавливается вместе с Lync Server 2013 и используется для включения и отключения управления версиями клиентов в рамках всего развертывания серверов. Когда включена глобальная конфигурация, все имеющиеся политики версий клиентов вступают в силу при попытке пользователей выполнить вход. Параметры конфигурации версий клиентов можно просматривать в управления Lync Server 2013 или командная консоль Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Тема последнего изменения:** 2013-02-23_
+
+Параметры конфигурации используются для включения и отключения управления версиями клиентов. Конфигурация глобальной версии клиента устанавливается вместе с Lync Server 2013 и используется для включения или отключения управления версиями для всего развертывания сервера. Когда включена глобальная конфигурация, при попытке пользователя войти в систему применяются все заданные политики версий клиентов. Вы можете просматривать параметры конфигурации для версии клиента с панели управления Lync Server 2013 или оболочки управления Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> Поскольку анонимные пользователи не связаны с пользователем, сайтом или службой, к ним применяются только политики глобального уровня.
+> Поскольку анонимные пользователи не связаны с пользователями, сайтами или службами, к ним могут применяться только политики глобального уровня.
 
-## Просмотр параметров конфигурации версий клиентов с помощью управления Lync Server
+
+
+</div>
+
+<div>
+
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Просмотр параметров конфигурации клиентской системы с помощью панели управления Lync Server
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой области навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации **Client Version Configuration** (Конфигурация версий клиентов).
+3.  На панели навигации слева выберите пункт **Клиенты**, а затем нажмите кнопку Навигация по **конфигурации версии клиента** .
 
-4.  Дважды щелкните имя конфигурации версий клиентов, которую хотите просмотреть.
+4.  Дважды щелкните имя конфигурации клиентской версии, которую вы хотите просмотреть.
 
-## Просмотр параметров конфигурации версий клиентов с помощью командлетов Windows PowerShell
+</div>
 
-Параметры конфигурации версий клиентов можно просматривать с помощью командлета **Get-CsClientVersionConfiguration**. Этот командлет можно запустить в командная консоль Lync Server 2013 или в рамках удаленного сеанса оболочки Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)..
+<div>
 
-## Просмотр сведений о конфигурации версий клиентов
+## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Просмотр параметров конфигурации клиентской версии с помощью командлетов Windows PowerShell
 
-  - Чтобы просмотреть сведения обо всех параметрах конфигурации версий клиентов, введите в Командная консоль Lync Server следующую команду, а затем нажмите клавишу ВВОД.
+С помощью командлета **Get-ксклиентверсионконфигуратион** можно просмотреть параметры конфигурации клиентской версии. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+
+<div>
+
+## <a name="to-view-client-version-configuration-information"></a>Просмотр сведений о конфигурации клиентской версии
+
+  - Чтобы просмотреть сведения о всех параметрах конфигурации клиента, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.
     
         Get-CsClientVersionConfiguration
     
-    Команда возвращает примерно следующую информацию.
+    Команда возвращает примерно следующую информацию:
     
         Identity      : Global
         DefaultAction : Allow
         DefaultURL    :
         Enabled       : True
 
-Дополнительные сведения см. в разделе справки по командлету [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration).
+</div>
+
+Дополнительные сведения можно найти в разделе справки по командлету [Get-ксклиентверсионконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
