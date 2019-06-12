@@ -1,35 +1,69 @@
-﻿---
-title: Проверка пользовательской репликации выполнена
-TOCTitle: Проверка пользовательской репликации выполнена
-ms:assetid: 199dc9de-b555-468f-a42a-9e92ea6c9053
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204712(v=OCS.15)
-ms:contentKeyID: 49309086
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Проверка выполнения пользовательской репликации
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify user replication has completed
+ms:assetid: 199dc9de-b555-468f-a42a-9e92ea6c9053
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204712(v=OCS.15)
+ms:contentKeyID: 48183524
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 13f4fbd2e0d0236f9dc404ffa84ab2f0ce385e2a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848874"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Проверка пользовательской репликации выполнена
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-28_
+# <a name="verify-user-replication-has-completed"></a><span data-ttu-id="3a258-102">Проверка выполнения пользовательской репликации</span><span class="sxs-lookup"><span data-stu-id="3a258-102">Verify user replication has completed</span></span>
 
-При выполнении командлета **Move-CsLegacyUser** может произойти сбой, вызванных рассинхронизацией данных доменных служб Active Directory (AD DS) и баз данных Lync Server 2013, касающихся пользователей, вследствие неполной начальной репликации. Время, затраченное на успешное выполнение начальной синхронизации Lync Server 2013, зависит от числа контроллеров домена, размещенных в лесу Active Directory, где размещен и пул Lync Server 2013. Начальная синхронизация службы репликации пользователей Lync Server 2013 выполняется при запуске сервера переднего плана Lync Server 2013. После этого синхронизация определяется интервалом репликации пользователей. Выполните следующие действия, чтобы проверить завершение репликации пользователей перед выполнением командлета **Move-CsLegacyUser** .
+</div>
 
-## Проверка завершения репликации пользователей
+<div id="mainSection">
 
-1.  На сервере переднего плана Lync Server 2013 откройте меню **Пуск** и выберите **Выполнить** .
+<div id="mainBody">
 
-2.  Введите **eventvwr.exe** , затем нажмите кнопку **ОК** .
+<span> </span>
 
-3.  В средстве просмотра событий щелкните и разверните пункт **Журналы приложений и служб** , после чего выберите Lync Server.
+<span data-ttu-id="3a258-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="3a258-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-4.  В области **Действия** щелкните пункт **Фильтровать текущий журнал** .
+<span data-ttu-id="3a258-104">При запуске командлета **Move-кслегациусер** может возникнуть сбой из-за сведений о пользователях в доменных службах Active Directory (AD DS) и баз данных Lync Server 2013, так как начальная репликация не завершена.</span><span class="sxs-lookup"><span data-stu-id="3a258-104">When running the **Move-CsLegacyUser** cmdlet, you may experience a failure due to user information between Active Directory Domain Services (AD DS) and the Lync Server 2013 databases being out of sync because the initial replication is incomplete.</span></span> <span data-ttu-id="3a258-105">Время, необходимое для успешного завершения начальной синхронизации службы репликации пользователей Lync Server 2013, зависит от количества контроллеров домена, размещенных в лесу Active Directory, на котором размещается пул Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3a258-105">The time it takes for the successful completion of the Lync Server 2013 User Replicator service's initial synchronization depends on the number of domain controllers that are hosted in the Active Directory forest that hosts the Lync Server 2013 pool.</span></span> <span data-ttu-id="3a258-106">Начальная синхронизация службы репликатора пользователей Lync Server 2013 происходит при первом запуске сервера переднего плана Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3a258-106">The Lync Server 2013 User Replicator service initial synchronization process occurs when the Lync Server 2013 Front End Server is started for the first time.</span></span> <span data-ttu-id="3a258-107">После этого синхронизация будет основана на интервале репликатора пользователей.</span><span class="sxs-lookup"><span data-stu-id="3a258-107">After that, the synchronization is then based on the User Replicator interval.</span></span> <span data-ttu-id="3a258-108">Выполните описанные ниже действия, чтобы убедиться, что репликация пользователей завершилась, прежде чем запускать командлет **Move-кслегациусер** .</span><span class="sxs-lookup"><span data-stu-id="3a258-108">Complete the following steps to verify user replication has completed before running the **Move-CsLegacyUser** cmdlet.</span></span>
 
-5.  В списке **Источники событий** щелкните пункт **LS User Replicator** .
+<div>
 
-6.  В поле **\<Все коды событий\>** введите **30024** , затем нажмите кнопку **ОК** .
+## <a name="to-verify-that-user-replication-has-completed"></a><span data-ttu-id="3a258-109">Проверка завершения репликации пользователя</span><span class="sxs-lookup"><span data-stu-id="3a258-109">To verify that user replication has completed</span></span>
 
-7.  В фильтрованном списке событий перейдите на вкладку **Общие** и найдите запись, указывающую, что репликация пользователей успешно завершена.
+1.  <span data-ttu-id="3a258-110">На сервере переднего плана Lync Server 2013 откройте меню **Пуск** и выберите команду **выполнить**.</span><span class="sxs-lookup"><span data-stu-id="3a258-110">From the Lync Server 2013 Front End server, click the **Start** menu, and then click **Run**.</span></span>
+
+2.  <span data-ttu-id="3a258-111">Введите **eventvwr. exe** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="3a258-111">Enter **eventvwr.exe** and then click **OK**.</span></span>
+
+3.  <span data-ttu-id="3a258-112">В окне просмотра событий щелкните **журналы приложений и служб** , чтобы развернуть его, а затем выберите Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3a258-112">In Event Viewer, click **Applications and Services logs** to expand it, and then select Lync Server.</span></span>
+
+4.  <span data-ttu-id="3a258-113">В области **действия** щелкните **фильтр текущего журнала**.</span><span class="sxs-lookup"><span data-stu-id="3a258-113">In the **Actions** pane click **Filter Current Log**.</span></span>
+
+5.  <span data-ttu-id="3a258-114">В списке **источники событий** выберите пункт **репликатор пользователей Ls**.</span><span class="sxs-lookup"><span data-stu-id="3a258-114">From the **Event sources** list, click **LS User Replicator**.</span></span>
+
+6.  <span data-ttu-id="3a258-115">Во \*\* \<всех кодах\> событий\*\* введите **30024** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="3a258-115">In **\<All Event IDs\>** enter **30024** and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="3a258-116">В списке отфильтрованных событий на вкладке **Общие** найдите запись, в которой указано, что репликация пользователей успешно завершена.</span><span class="sxs-lookup"><span data-stu-id="3a258-116">In the filtered events list, on the **General** tab, look for an entry that states user replication has completed successfully.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

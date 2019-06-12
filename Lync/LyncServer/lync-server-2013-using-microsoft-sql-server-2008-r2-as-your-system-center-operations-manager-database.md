@@ -1,187 +1,237 @@
-﻿---
-title: "Lync Server 2013: исп. Microsoft SQL Server 2008 R2 как БД System Center Operations Manager"
-TOCTitle: "Lync Server 2013: исп. Microsoft SQL Server 2008 R2 как БД System Center Operations Manager"
-ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ687969(v=OCS.15)
-ms:contentKeyID: 49887868
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: использование Microsoft SQL Server 2008 R2 в качестве базы данных System Center Operations Manager'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
+ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
+ms:contentKeyID: 49733555
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 858134b4d7f2a2fbc4e15c14e121ac12679c9ddc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849234"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Использование Microsoft SQL Server 2008 R2 в качестве базы данных System Center Operations Manager
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-07-29_
+# <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a><span data-ttu-id="0b8aa-102">Использование Microsoft SQL Server 2008 R2 в качестве базы данных System Center Operations Manager для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b8aa-102">Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database for Lync Server 2013</span></span>
 
-Чтобы использовать SQL Server 2008 R2 в качестве серверной базы данных, выполните действия, описываемые в этом разделе.
+</div>
 
-## Настройка SQL Server 2008 R2 и служб SQL Server Reporting Services
+<div id="mainSection">
 
-Прежде чем начать установку System Center Operations Manager, необходимо внести два изменения в SQL Server 2008 R2 и конфигурацию служб SQL Server Reporting Services. (Эти изменения необходимы только в том случае, если используется SQL Server 2008 R2 в качестве базы данных Operations Manager.) Сначала выполните на компьютере, на котором будет размещаться база данных Operations Manager, следующие действия:
+<div id="mainBody">
 
-1.  Щелкните **Пуск**, затем **Выполнить**.
+<span> </span>
 
-2.  В диалоговом окне **Запуск программы** введите **C:\\Program Files\\Microsoft SQL Server\\ MSRS10\_50.ARCHINST\\Reporting Services\\ReportServer** и затем нажмите клавишу ENTER.
+<span data-ttu-id="0b8aa-103">_**Тема последнего изменения:** 2013-07-29_</span><span class="sxs-lookup"><span data-stu-id="0b8aa-103">_**Topic Last Modified:** 2013-07-29_</span></span>
 
-3.  В папке **ReportServer** откройте файл **rsreportserver.config** в Блокноте или любом другом текстовом редакторе.
+<span data-ttu-id="0b8aa-104">Чтобы использовать в качестве серверной части базу данных SQL Server 2008 R2, выполните действия, описанные в этой статье.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-104">To use SQL Server 2008 R2 as your back-end database, complete the steps detailed in this topic.</span></span>
 
-4.  Недалеко от начала файла видна последовательность узлов "Add Key". Найдите запись, начинающуюся с выражения **\<Add Key="SecureConnectionLevel"**, и установите значение равным **0**:
+<div>
+
+## <a name="configuring-sql-server-2008-r2-and-sql-server-reporting-services"></a><span data-ttu-id="0b8aa-105">Настройка SQL Server 2008 R2 и служб SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="0b8aa-105">Configuring SQL Server 2008 R2 and SQL Server Reporting Services</span></span>
+
+<span data-ttu-id="0b8aa-106">Прежде чем приступить к установке System Center Operations Manager, вы должны внести два изменения в сервер SQL Server 2008 R2 и настройку служб SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-106">Before you begin installing System Center Operations Manager you must make two changes to your SQL Server 2008 R2 and your SQL Server Reporting Services configuration.</span></span> <span data-ttu-id="0b8aa-107">(Эти изменения необходимы только в том случае, если в качестве базы данных Operations Manager используется SQL Server 2008 R2). Для начала сделайте следующее на компьютере, на котором будет размещена база данных Operations Manager:</span><span class="sxs-lookup"><span data-stu-id="0b8aa-107">(These changes are required only if you are using SQL Server 2008 R2 as your Operations Manager database.) First, do the following on the computer that will host your Operations Manager database:</span></span>
+
+1.  <span data-ttu-id="0b8aa-108">Нажмите кнопку **Пуск** и выберите команду **выполнить**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-108">Click **Start** and then click **Run**.</span></span>
+
+2.  <span data-ttu-id="0b8aa-109">В диалоговом окне **выполнить** введите **C:\\Program Files\\Microsoft SQL Server\\ MSRS10\_50. арчинст\\Reporting\\Services ReportServer** и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-109">In the **Run** dialog box, type **C:\\Program Files\\Microsoft SQL Server\\ MSRS10\_50.ARCHINST\\Reporting Services\\ReportServer** and then press ENTER.</span></span>
+
+3.  <span data-ttu-id="0b8aa-110">В папке **ReportServer** откройте файл **RSReportServer. config** в блокноте или любом другом текстовом редакторе.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-110">In the **ReportServer** folder, open the file **rsreportserver.config** in Notepad or any other text editor.</span></span>
+
+4.  <span data-ttu-id="0b8aa-111">В начале файла будет показан ряд узлов "добавить ключ".</span><span class="sxs-lookup"><span data-stu-id="0b8aa-111">Near the beginning of the file you will see a series of "Add Key" nodes.</span></span> <span data-ttu-id="0b8aa-112">Найдите запись, которая начинается \*\* \<с ключевого слова Add = "секуреконнектионлевел"\*\* , и установите для параметра значение **0**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-112">Find the entry that begins **\<Add Key="SecureConnectionLevel"** and set the value to **0**:</span></span>
     
         <Add Key="SecureConnectionLevel" Value="0"/>
 
-5.  Сохраните файл **rsreportserver.config** и затем закройте текстовый редактор.
+5.  <span data-ttu-id="0b8aa-113">Сохраните файл **RSReportServer. config** и закройте текстовый редактор.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-113">Save the file **rsreportserver.config** and then close your text editor.</span></span>
 
-После обновления файла конфигурации сервера отчетов, необходимо затем назначить правильный сертификат службам SQL Server Reporting Services. Чтобы сделать это, выполните следующие действия:
+<span data-ttu-id="0b8aa-114">После обновления файла конфигурации сервера отчетов необходимо назначить для служб SQL Server Reporting Services правильный сертификат.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-114">After updating the Report Server configuration file you must then assign the correct certificate to SQL Server Reporting Services.</span></span> <span data-ttu-id="0b8aa-115">Для этого выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-115">To do that:</span></span>
 
-1.  Нажмите кнопку **Пуск**, последовательно выберите **Все программы**, **Microsoft SQL Server 2008 R2**, **Средства конфигурации** и **Диспетчер конфигурации служб отчетности**.
+1.  <span data-ttu-id="0b8aa-116">Нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft SQL Server 2008 R2**, выберите пункт **средства настройки**, а затем — **Диспетчер конфигурации служб Reporting Services**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-116">Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Reporting Services Configuration Manager**.</span></span>
 
-2.  В диалоговом окне **Подключение конфигурации служб отчетности** убедитесь, что имя сервера отображается в поле **Имя сервера**. Выберите экземпляр SQL Server, на котором размещается база данных Operations Manager (например, **ARCHINST**), в раскрывающемся списке **Экземпляр сервера отчетов** и затем щелкните **Подключить**.
+2.  <span data-ttu-id="0b8aa-117">В диалоговом окне **Подключение к конфигурации служб Reporting Services** убедитесь в том, что имя сервера отображается в поле **имя сервера** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-117">In the **Reporting Services Configuration Connection** dialog box, make sure that the name of your server appears in the **Server Name** box.</span></span> <span data-ttu-id="0b8aa-118">Выберите экземпляр SQL Server, на котором будет размещена база данных Operations Manager (например, **арчинст**), из раскрывающегося списка **экземпляр сервера отчетов** и нажмите кнопку **подключить**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-118">Select the SQL Server instance that will host your Operations Manager database (for example, **ARCHINST**) from the **Report Server Instance** drop-down list and then click **Connect**.</span></span>
 
-3.  В диспетчере конфигурации служб отчетности щелкните **URL-адрес веб-службы**.
+3.  <span data-ttu-id="0b8aa-119">В диспетчере конфигураций служб Reporting Services щелкните **URL-адрес Web Service**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-119">In Reporting Services Configuration Manager, click **Web Service URL**.</span></span>
 
-4.  На странице **URL-адрес веб-службы** выберите сертификат, который будет использоваться для служб отчетности в раскрывающемся списке **SSL-сертификат**, а затем нажмите кнопку **Применить**. Спустя несколько секунд вы увидите пару URL-адресов, перечисляемых в разделе **URL-адреса веб-служб сервера отчетности**.
+4.  <span data-ttu-id="0b8aa-120">На странице **URL веб-служба** выберите сертификат, который будет использоваться в службах отчетов в раскрывающемся списке **сертификата SSL** , и нажмите кнопку **Применить**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-120">On the **Web Service URL** page, select the certificate to be used for your Reporting Services from the **SSL Certificate** dropdown list and then click **Apply**.</span></span> <span data-ttu-id="0b8aa-121">Через несколько секунд вы увидите пару URL-адресов, которые указаны в разделе **URL — ссылки на службы сервера отчетов**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-121">After a few seconds, you will see a pair of URLs listed under **Report Server Web Service URLs**.</span></span>
 
-5.  Щелкните оба URL-адреса, чтобы убедиться в возможности доступа к службам отчетности SQL-сервера.
+5.  <span data-ttu-id="0b8aa-122">Щелкните оба URL-адреса, чтобы убедиться, что у вас есть доступ к службам SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-122">Click both of the URLs to verify that you can access SQL Server Reporting Services.</span></span>
 
-6.  Закройте диспетчер конфигурации служб отчетности.
+6.  <span data-ttu-id="0b8aa-123">Закройте Диспетчер конфигураций служб Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-123">Close Reporting Services Configuration Manager.</span></span>
 
-## Создание базы данных System Center Operations Manager для использования с SQL Server 2008 R2
+</div>
 
-Если требуется настроить System Center Operations Manager для использования базы данных SQL Server 2008 R2, потребуется "вручную" создать базу данных Operations Manager на компьютере с SQL Server 2008 R2. (Опять же, эти действия не требуется выполнять, если в качестве серверной базы данных используется SQL Server 2005 или SQL Server 2008.)
+<div>
 
-Чтобы вручную создать базу данных Operations Manager, выполните следующие действия:
+## <a name="creating-a-system-center-operations-manager-database-for-use-with-sql-server-2008-r2"></a><span data-ttu-id="0b8aa-124">Создание базы данных System Center Operations Manager для использования с SQL Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="0b8aa-124">Creating a System Center Operations Manager database for use with SQL Server 2008 R2</span></span>
 
-1.  На установочном носителе System Center Operations Manager 2007 R2, в папке SupportTools\\AMD64 дважды щелкните исполняемый файл **DBCreateWizard.exe**.
+<span data-ttu-id="0b8aa-125">Если вы хотите настроить System Center Operations Manager на использование базы данных SQL Server 2008 R2, вам потребуется выполнить вручную создание базы данных Operations Manager на компьютере с SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-125">If you want to configure System Center Operations Manager to use a SQL Server 2008 R2 database, you will need to "manually" create the Operations Manager database on the computer running SQL Server 2008 R2.</span></span> <span data-ttu-id="0b8aa-126">(Опять же, эти действия не требуются, если в качестве серверной базы данных используется SQL Server 2005 или SQL Server 2008.)</span><span class="sxs-lookup"><span data-stu-id="0b8aa-126">(Again, these steps are not required if you are using SQL Server 2005 or SQL Server 2008 as your back-end database.)</span></span>
 
-2.  На странице **Мастер настройки базы данных** нажмите кнопку **Далее**.
+<span data-ttu-id="0b8aa-127">Чтобы вручную создать базу данных Operations Manager, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-127">To manually create an Operations Manager database do the following:</span></span>
 
-3.  На странице **Сведения о базе данных** оставьте все параметры как есть и нажмите кнопку **Далее**
+1.  <span data-ttu-id="0b8aa-128">На странице System Center Operations Manager 2007 R2 с помощью установочного носителя\\в папке суппорттулс AMD64 дважды щелкните **дбкреатевизард. exe**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-128">On the System Center Operations Manager 2007 R2 setup media, in the SupportTools\\AMD64 folder, double-click **DBCreateWizard.exe**.</span></span>
 
-4.  На странице **Конфигурация группы управления** введите имя для своей группы управления (например, **Мониторинг Lync Server**) в поле **Имя группы управления** и нажмите кнопку **Далее**.
+2.  <span data-ttu-id="0b8aa-129">В мастере настройки базы данных на странице **Добро пожаловать в мастер настройки базы данных** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-129">In the Database Configuration Wizard, on the **Welcome to the Database Configuration Wizard** page, click **Next**.</span></span>
 
-5.  На странице **Отчеты об ошибках Operations Manager** нажмите кнопку **Далее**.
+3.  <span data-ttu-id="0b8aa-130">На странице **сведения о базе данных** оставьте все параметры как есть и нажмите кнопку **Далее** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-130">On the **Database Information** page leave all the settings as-is and then click **Next**</span></span>
 
-6.  На странице **Сводка** нажмите кнопку **Готово**.
+4.  <span data-ttu-id="0b8aa-131">На странице **Конфигурация группы управления** введите имя группы управления (например, " **наблюдение за Lync Server**") в поле **имя группы управления** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-131">On the **Management Group Configuration** page type a name for your Management Group (for example, **Lync Server Monitoring**) in the **Management Group name** box and then click **Next**.</span></span>
 
-## Создание хранилища данных System Center Operations Manager для использования с SQL Server 2008 R2
+5.  <span data-ttu-id="0b8aa-132">На странице " **отчеты об ошибках Operations Manager** " нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-132">On the **Operations Manager Error Reports** page click **Next**.</span></span>
 
-Программное обеспечение Microsoft Lync Server 2013 поставляется с тремя новыми отчетами System Center Operations Manager:
+6.  <span data-ttu-id="0b8aa-133">На странице **Сводка** нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-133">On the **Summary** page click **Finish**.</span></span>
 
-  - **Отчет о доступности сквозного сценария**   В этом отчете содержатся данные о доступности / времени работы ключевых служб Lync Server, таких как регистрация или наличие.
+</div>
 
-  - **Отчет о производительности**   С помощью информации счетчика производительности в этом отчете показываются временные характеристики компонентов системы, такие как доступность памяти и загрузка процессора.
+<div>
 
-  - **Отчет о компонентах**   В этом отчете перечисляются расположенные вверху списка генераторы предупреждений, сгруппированные по компонентам Lync Server.
+## <a name="creating-a-system-center-operations-manager-data-warehouse-for-use-with-sql-server-2008-r2"></a><span data-ttu-id="0b8aa-134">Создание хранилища данных System Center Operations Manager для использования с SQL Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="0b8aa-134">Creating a System Center Operations Manager data warehouse for use with SQL Server 2008 R2</span></span>
 
-Чтобы использовать эти новые отчеты, необходимо установить хранилище данных System Center Operations Manager. (Хранилище данных предоставляется для долговременного хранения данных по операциям.) Чтобы использовать хранилище данных с SQL Server 2008 R2, необходимо выполнить на компьютере, на котором размещается база данных SQL Server, следующие действия:
+<span data-ttu-id="0b8aa-135">Microsoft Lync Server 2013 поставляется с тремя новыми отчетами System Center Operations Manager:</span><span class="sxs-lookup"><span data-stu-id="0b8aa-135">Microsoft Lync Server 2013 ships with three new System Center Operations Manager reports:</span></span>
 
-1.  На установочном носителе System Center Operations Manager, в папке Setup\\SupportTools\\AMD64 дважды щелкните исполняемый файл **DBCreateWizard.exe**.
+  - <span data-ttu-id="0b8aa-136">**Отчет о доступности сценария «завершить**   » в этом отчете подробно описана доступность и время работы для основных служб Lync Server, таких как регистрация или присутствие.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-136">**End to End Scenario Availability Report**   This report details the availability/uptime for key Lync Server services such as registration or presence.</span></span>
 
-2.  На странице **Мастер настройки базы данных** нажмите кнопку **Далее**.
+  - <span data-ttu-id="0b8aa-137">**Отчет о емкости**   с использованием данных счетчиков производительности этот отчет показывает тенденции для системных компонентов, таких как доступность памяти и использование процессора.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-137">**Capacity Report**   Using performance counter information, this report shows trends for system components such as memory availability and processor usage.</span></span>
 
-3.  На странице **Сведения о базе данных** выберите вариант **База данных хранилища данных диспетчера операций** в раскрывающемся списке **Тип базы данных**, а затем нажмите кнопку **Далее**.
+  - <span data-ttu-id="0b8aa-138">**Отчет о**   компоненте в этом отчете перечислены Топ генераторов оповещений, сгруппированных по компоненту Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-138">**Component Report**   This report lists the top alert generators grouped by Lync Server component.</span></span>
 
-4.  На странице **Сводка** нажмите кнопку **Готово**.
+<span data-ttu-id="0b8aa-139">Для использования этих новых отчетов необходимо установить хранилище данных System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-139">In order to use these new reports you must install a System Center Operations Manager data warehouse.</span></span> <span data-ttu-id="0b8aa-140">(Хранилище данных обеспечивает долгосрочное хранение данных операций.) Для использования хранилища данных с SQL Server 2008 R2 необходимо выполнить следующие действия на компьютере, на котором размещается база данных SQL Server.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-140">(A data warehouse provides for long-term storage of operations data.) To use a data warehouse with SQL Server 2008 R2 you must carry out the following steps on the computer that hosts your SQL Server database:</span></span>
 
-## Установка консоли System Center Operations Manager
+1.  <span data-ttu-id="0b8aa-141">На носителе с программой установки System Center Operations Manager в папке\\Setup\\Суппорттулс AMD64 дважды щелкните **дбкреатевизард. exe**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-141">On the System Center Operations Manager setup media, in the Setup\\SupportTools\\AMD64 folder, double-click **DBCreateWizard.exe**.</span></span>
 
-Консоль Operations Manager является главным средством, используемым для управления System Center Operations Manager. Прежде чем установить консоль Operations Manager, убедитесь, что уже установлена поддерживаемая версия SQL Server вместе со службами SQL Server Reporting Services. Также рекомендуется запустить диспетчер конфигурации служб отчетности SQL-сервера, чтобы проверить правильность установки и настройки служб отчетности.
+2.  <span data-ttu-id="0b8aa-142">В мастере настройки базы данных на странице **Добро пожаловать в мастер настройки базы данных** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-142">In the Database Configuration Wizard, on the **Welcome to the Database Configuration Wizard** page, click **Next**.</span></span>
 
-Чтобы установить консоль System Center Operations Manager, выполните следующие действия:
+3.  <span data-ttu-id="0b8aa-143">На странице **сведения о базе данных** выберите **базу данных хранилища данных Operations Manager** из раскрывающегося списка **тип базы данных** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-143">On the **Database Information** page, select **Operations Manager Data Warehouse Database** from the **Database Type** dropdown list and then click **Next**.</span></span>
 
-1.  На установочном носителе System Center Operations Manager дважды щелкните исполняемый файл **SetupOM.exe**.
+4.  <span data-ttu-id="0b8aa-144">На странице **Сводка** нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-144">On the **Summary** page click **Finish**.</span></span>
 
-2.  В программе установки System Center Operations Manager 2007 R2 щелкните **Проверка выполнения необходимых условий**.
+</div>
 
-3.  В средстве проверки готовности к установке System Center Operations Manager выберите устанавливаемые компоненты System Center: (**Сервер**, **Консоль** и **PowerShell**) и щелкните **Проверить**. Проверьте отсутствие сообщений о проблемах, связанных с блокировкой, а затем щелкните **Закрыть**. Если сообщается о проблеме блокировки, устраните проблему, а затем щелкните **Проверить**, чтобы снова запустить проверку готовности к установке.
+<div>
 
-4.  В программе установки System Center Operations Manager щелкните **Установить диспетчер операций**.
+## <a name="installing-the-system-center-operations-manager-console"></a><span data-ttu-id="0b8aa-145">Установка консоли System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="0b8aa-145">Installing the System Center Operations Manager console</span></span>
 
-5.  В мастере установки System Center Operations Manager, на странице **Мастер установки System Center Operations Manager** нажмите кнопку **Далее**.
+<span data-ttu-id="0b8aa-146">Консоль Operations Manager — это основное средство, используемое для управления System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-146">The Operations Manager console is the primary tool used to manage System Center Operations Manager.</span></span> <span data-ttu-id="0b8aa-147">Перед установкой консоли Operations Manager убедитесь в том, что вы установили поддерживаемую версию SQL Server и службу SQL Server Reporting Service.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-147">Before you install the Operations Manager console, make sure that you have installed a supported version of SQL Server along with the SQL Server Reporting Service.</span></span> <span data-ttu-id="0b8aa-148">Кроме того, для проверки правильности установки и настройки службы отчетов рекомендуется запустить диспетчер конфигурации служб отчетов SQL Server.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-148">It is also recommended that you run SQL Server's Reporting Services Configuration Manager to verify that the Reporting Service has been correctly installed and configured.</span></span>
 
-6.  На странице **Лицензионное соглашение** выберите настройку **Я принимаю условия лицензионного соглашения** и нажмите кнопку **Далее**.
+<span data-ttu-id="0b8aa-149">Чтобы установить консоль System Center Operations Manager, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-149">To install the System Center Operations Manager console:</span></span>
 
-7.  На странице **Регистрация продукта** введите свое имя в поле **Имя пользователя** и название своей организации в поле **Организация**. Введите свой ключ продукта System Center Operations Manager в поле **Введите свой 25-значный ключ компакт-диска**, а затем нажмите кнопку **Далее**.
+1.  <span data-ttu-id="0b8aa-150">На носителе с программой установки System Center Operations Manager дважды щелкните **сетупом. exe**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-150">On the System Center Operations Manager setup media, double-click **SetupOM.exe**.</span></span>
 
-8.  На странице **Выборочная установка** выберите устанавливаемые компоненты System Center и нажмите кнопку **Далее**. Для установки необходимо выбрать компоненты: **Сервер управления**, **Пользовательские интерфейсы** и **Веб-консоль**. Не следует выбирать и устанавливать компонент **База данных**.
+2.  <span data-ttu-id="0b8aa-151">В программе System Center Operations Manager 2007 R2 нажмите кнопку **проверить необходимые компоненты**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-151">In System Center Operations Manager 2007 R2 Setup, click **Check Prerequisites**.</span></span>
 
-9.  На странице **Экземпляр сервера базы данных SC** проверьте, чтобы имя компьютера, на котором устанавливаются базы данных Operations Manager, отображалось в поле **Сервер базы данных System Center**. Нажмите кнопку **Далее**.
+3.  <span data-ttu-id="0b8aa-152">В средстве просмотра требований System Center Operations Manager выберите компоненты System Center, которые необходимо установить: (**сервер**; **Консоль**; и **PowerShell**), а затем нажмите кнопку **проверить**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-152">In the System Center Operations Manager Prerequisite Viewer, select the System Center components to be installed: (**Server**; **Console**; and **PowerShell**) and then click **Check**.</span></span> <span data-ttu-id="0b8aa-153">Убедитесь, что блокирующие проблемы не обнаружены, и нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-153">Verify that no blocking issues have been reported and then click **Close**.</span></span> <span data-ttu-id="0b8aa-154">Если была обнаружена проблема с блокировкой, исправьте ее и нажмите кнопку **проверить** , чтобы повторно запустить проверку готовности.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-154">If a blocking issue has been reported, correct the problem and then click **Check** to re-run the prerequisite testing.</span></span>
 
-10. На странице **Учетная запись действия сервера управления** выберите настройку **Учетная запись домена или локального компьютера**, а затем введите подходящие значения в поля **Учетная запись пользователя**, **Пароль** и **Домен или локальный компьютер**. Нажмите кнопку **Далее**.
+4.  <span data-ttu-id="0b8aa-155">В программе System Center Operations Manager нажмите кнопку **установить Operations Manager**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-155">In System Center Operations Manager Setup, click **Install Operations Manager**.</span></span>
 
-11. На странице **Учетная запись SDK и службы настройки** выберите вариант **Учетная запись домена или локального компьютера**, а затем введите подходящие значения в поля **Учетная запись пользователя**, **Пароль** и **Домен или локальный компьютер**. Нажмите кнопку **Далее**.
+5.  <span data-ttu-id="0b8aa-156">В мастере настройки System Center Operations Manager на странице **Добро пожаловать на страницу мастера установки System Center Operations Manager** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-156">In the System Center Operations Manager Setup wizard, on the **Welcome to the System Center Operations Manager Setup Wizard** page, click **Next**.</span></span>
 
-12. На странице **Отчеты об ошибках Operations Manager** нажмите кнопку **Далее**.
+6.  <span data-ttu-id="0b8aa-157">На странице **лицензионного соглашения для конечных пользователей** выберите **я принимаю условия лицензионного соглашения** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-157">On the **End-User License Agreement** page, select **I accept the terms in the license agreement** and then click **Next**.</span></span>
 
-13. На странице **Программ по улучшению качества программного обеспечения** нажмите кнопку **Далее**.
+7.  <span data-ttu-id="0b8aa-158">На странице **Регистрация продукта** введите свое имя в поле **имя пользователя** и имя Организации в поле **Организация** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-158">On the **Product Registration** page, type your name in the **User Name** box and name of your organization in the **Organization** box.</span></span> <span data-ttu-id="0b8aa-159">Введите ключ продукта System Center Operations Manager в поле **введите 25-значный ключ** , а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-159">Type your System Center Operations Manager product key in the **Enter your 25 digit CD Key** box and then click **Next**.</span></span>
 
-14. На странице **Все готово к установке программы** нажмите **Установить**.
+8.  <span data-ttu-id="0b8aa-160">На странице **Выборочная установка** выберите параметры System Center, которые нужно установить, и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-160">On the **Custom Setup** page select the System Center options to be installed and then click **Next**.</span></span> <span data-ttu-id="0b8aa-161">Необходимо выбрать **сервер управления**, **пользовательские интерфейсы**и **веб-консоль** для установки.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-161">You should select **Management Server**, **User Interfaces**, and **Web Console** to be installed.</span></span> <span data-ttu-id="0b8aa-162">**Базу данных** не следует выделять и не нужно устанавливать.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-162">**Database** should not be selected and should not be installed.</span></span>
 
-15. На странице **Завершение установки диспетчера операций системного центра** снимите флажки **Резервное копирование ключа шифрования** и **Запуск консоли**, а затем нажмите кнопку **Готово**.
+9.  <span data-ttu-id="0b8aa-163">На странице **экземпляр сервера базы данных SC** убедитесь в том, что имя компьютера, на котором установлены базы данных Operations Manager, отображается в поле **сервер System Center Database Server** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-163">On the **SC Database Server Instance** page, verify that the name of the computer where the Operations Manager databases are installed appears in the **System Center Database Server** box.</span></span> <span data-ttu-id="0b8aa-164">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-164">Click **Next**.</span></span>
 
-16. В программе установки System Center Operations Manager нажмите кнопку **Выход**.
+10. <span data-ttu-id="0b8aa-165">На странице **учетной записи действия сервера управления** выберите **Доменная или локальная учетная запись компьютера** , а затем введите нужные значения в поля **учетная запись пользователя**, **пароль**, **домен или локальный компьютер** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-165">On the **Management Server Action Account** page, select **Domain or Local Computer Account** and then enter the appropriate values in the **User Account**, **Password**, and **Domain or local computer** boxes.</span></span> <span data-ttu-id="0b8aa-166">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-166">Click **Next**.</span></span>
 
-## Установка служб System Center Reporting Services
+11. <span data-ttu-id="0b8aa-167">На странице **SDK и учетной записи службы настройки** выберите **Доменная или локальная учетная запись компьютера** , а затем введите нужные значения в поля **учетная запись пользователя**, **пароль**, **домен или локальный компьютер** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-167">On the **SDK and Config Service Account** page, select **Domain or Local Computer Account** and then enter the appropriate values in the **User Account**, **Password**, and **Domain or local computer** boxes.</span></span> <span data-ttu-id="0b8aa-168">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-168">Click **Next**.</span></span>
 
-После установки и настройки консоли System Center Operations Manager затем необходимо установить службы System Center Reporting Services. Если вы используете SQL Server 2008 R2 в качестве серверной базы данных Operations Manager, то это означает, что сначала необходимо внести временное изменение в группу безопасности, связанную со службами SQL Server Reporting Services. Если вы используете SQL Server 2008 R2, потребуется выполнить следующие действия:
+12. <span data-ttu-id="0b8aa-169">На странице " **отчеты об ошибках Operations Manager** " нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-169">On the **Operations Manager Error Reports** page click **Next**.</span></span>
 
-1.  Щелкните **Пуск**, выберите **Администрирование**, затем **Диспетчер сервера**.
+13. <span data-ttu-id="0b8aa-170">На странице **программы улучшения качества программного** обеспечения нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-170">On the **Customer Experience Improvement Program** page click **Next**.</span></span>
 
-2.  В диспетчере сервера разверните узел **Конфигурация**, затем **Локальные пользователи и группы** и щелкните **Группы**.
+14. <span data-ttu-id="0b8aa-171">На странице **готовность к установке программы** нажмите кнопку **установить**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-171">On the **Ready to Install the Program** page, click **Install**.</span></span>
 
-3.  Найдите следующую группу, где atl-sc-001 представляет имя вашего компьютера, а ARCHINST представляет экземпляр SQL Server для базы данных системного центра: **SQLServerReportServerUser$atl-sc-001$MSRS10\_50.ARCHINST**.
+15. <span data-ttu-id="0b8aa-172">На странице **Завершение установки System Center Operations Manager** снимите флажок Резервное **копирование ключа шифрования** и установите флажки для **консоли** и нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-172">On the **Completing the System Center Operations Manager Setup** page, clear the **Backup Encryption Key** and **Start the console checkboxes** and then click **Finish**.</span></span>
 
-4.  Щелкните группу правой кнопкой мыши и выберите в контекстном меню команду **Переименовать**. Переименуйте группу, удалив **\_50** из имени группы. Пример: **SQLServerReportServerUser$atl-sc-001$MSRS10.ARCHINST**.
+16. <span data-ttu-id="0b8aa-173">В программе System Center Operations Manager щелкните **выход**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-173">In System Center Operations Manager Setup click **Exit**.</span></span>
 
-5.  Закройте диспетчер сервера.
+</div>
 
-Теперь все готово для установки служб System Center Reporting Services. Чтобы сделать это, выполните следующие действия:
+<div>
 
-1.  На установочном носителе System Center Operations Manager 2007 R2 дважды щелкните исполняемый файл **SetupOM.exe**.
+## <a name="installing-system-center-reporting-services"></a><span data-ttu-id="0b8aa-174">Установка служб отчетов System Center</span><span class="sxs-lookup"><span data-stu-id="0b8aa-174">Installing System Center Reporting Services</span></span>
 
-2.  В программе установки System Center Operations Manager 2007 R2 щелкните **Установить службы отчетности диспетчера операций**.
+<span data-ttu-id="0b8aa-175">После установки и настройки консоли System Center Operations Manager необходимо установить System Center Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-175">After installing and configuring the System Center Operations Manager console you must then install System Center Reporting Services.</span></span> <span data-ttu-id="0b8aa-176">Если в качестве серверной базы данных Operations Manager используется SQL Server 2008 R2, это означает, что вы должны сначала внести временное изменение в группу безопасности, связанную со службами SQL Server Reporting Services.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-176">If you are using SQL Server 2008 R2 as your Operations Manager back-end database, that means that you must first make a temporary change to the security group associated with SQL Server Reporting Services.</span></span> <span data-ttu-id="0b8aa-177">Если вы используете SQL Server 2008 R2, необходимо выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="0b8aa-177">If you are using SQL Server 2008 R2, you must do the following:</span></span>
 
-3.  В мастере установки служб отчетности System Center Operations Manager 2007 R2, на странице **Установка служб отчетности диспетчера операций** нажмите кнопку **Далее**.
+1.  <span data-ttu-id="0b8aa-178">Нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — **Диспетчер сервера**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-178">Click **Start**, point to **Administrative Tools**, and then click **Server Manager**.</span></span>
 
-4.  На странице **Лицензионное соглашение** выберите настройку **Я принимаю условия лицензионного соглашения**, а затем нажмите кнопку **Далее**.
+2.  <span data-ttu-id="0b8aa-179">В диспетчере серверов разверните узел **Конфигурация**, разверните раздел **Локальные пользователи и группы**, а затем выберите пункт **группы**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-179">In Server Manager, expand **Configuration**, expand **Local Users and Groups**, and then click **Groups**.</span></span>
 
-5.  На странице **Регистрация продукта** убедитесь, что ваше имя и название вашей организации отображаются в полях **Имя пользователя** и **Организация**, а затем нажмите кнопку **Далее**.
+3.  <span data-ttu-id="0b8aa-180">Найдите следующую группу, в которой ATL-SC-001 представляет имя вашего компьютера и АРЧИНСТ представляет экземпляр SQL Server для базы данных System Center: **склсерверрепортсерверусер $ ATL-SC-001 $ MSRS10\_50. арчинст**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-180">Locate the following group, where atl-sc-001 represents the name of your computer and ARCHINST represents the SQL Server instance for the System Center database: **SQLServerReportServerUser$atl-sc-001$MSRS10\_50.ARCHINST**.</span></span>
 
-6.  На странице **Выборочная установка** щелкните **Сервер отчетности** и выберите настройку **Этот компонент и все зависимые компоненты устанавливаются на локальный диск**. Щелкните **Хранилище данных** и выберите настройку **Этот компонент будет недоступен**, а затем нажмите кнопку **Далее**.
+4.  <span data-ttu-id="0b8aa-181">Щелкните группу правой кнопкой мыши и выберите команду **Переименовать**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-181">Right-click the group and then click **Rename**.</span></span> <span data-ttu-id="0b8aa-182">Переименуйте группу, удалив \*\* \_50\*\* из имени группы.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-182">Rename the group by deleting **\_50** from the group name.</span></span> <span data-ttu-id="0b8aa-183">Например: **склсерверрепортсерверусер $ ATL-SC-001 $ MSRS10. АРЧИНСТ**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-183">For example: **SQLServerReportServerUser$atl-sc-001$MSRS10.ARCHINST**.</span></span>
 
-7.  На странице **Подключение к корневому серверу управления** введите имя корневого сервера управления Operations Manager в поле **Корневой сервер управления** и нажмите кнопку **Далее**.
+5.  <span data-ttu-id="0b8aa-184">Закройте Диспетчер серверов.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-184">Close Server Manager.</span></span>
 
-8.  На странице **Подключение к хранилищу данных Operations Manager** введите экземпляр SQL-сервера, на котором находится хранилище данных, в поле **Экземпляр SQL-сервера**. (Если ваше хранилище данных находится на экземпляре, используемом по умолчанию, тогда просто введите имя сервера; пример: atl-sql-001.) Убедитесь, что имя базы данных **OperationsManagerDW** отображается в поле **Имя**, и что порт **1433** отображается в поле **Порт SQL-сервера**. Нажмите кнопку **Далее**.
+<span data-ttu-id="0b8aa-185">На этом этапе вы можете установить службы отчетов System Center.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-185">At this point you are ready to install System Center Reporting Services.</span></span> <span data-ttu-id="0b8aa-186">Для этого выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="0b8aa-186">To do this:</span></span>
 
-9.  На странице **Экземпляр служб отчетности SQL-сервера** выберите свой сервер служб отчетности SQL-сервера в раскрывающемся списке **Введите сервер служб отчетности SQL-сервера**, а затем нажмите кнопку **Далее**.
+1.  <span data-ttu-id="0b8aa-187">На диске System Center Operations Manager 2007 R2 дважды щелкните **сетупом. exe**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-187">On the System Center Operations Manager 2007 R2 Setup media, double-click **SetupOM.exe**.</span></span>
 
-10. На странице **Учетная запись для записи в хранилище данных** введите имя и пароль пользователя, которому вначале назначаются права записи в хранилище данных, в поля **Учетная запись пользователя** и **Пароль**. Выберите домен пользователя в раскрывающемся списке **Домен** и нажмите кнопку **Далее**.
+2.  <span data-ttu-id="0b8aa-188">В программе System Center Operations Manager 2007 R2 щелкните **установить Отчеты Operations Manager**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-188">In System Center Operations Manager 2007 R2 Setup, click **Install Operations Manager Reporting**.</span></span>
 
-11. На странице **Учетная запись средства считывания данных** введите имя и пароль учетной записи пользователя, используемой при запросах хранилища данных службами отчетности SQL, в поля **Учетная запись пользователя** и **Пароль**. Выберите домен учетной записи в раскрывающемся списке **Домен** и нажмите кнопку **Далее**.
+3.  <span data-ttu-id="0b8aa-189">В мастере настройки отчетов System Center Operations Manager 2007 R2 на странице **Добро пожаловать в отчеты Operations Manager Настройка** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-189">In the System Center Operations Manager 2007 R2 Reporting Setup wizard, on the **Welcome to Operations Manager Reporting Setup** page, click **Next**.</span></span>
 
-12. На странице **Отчеты по рабочим данным** нажмите кнопку **Далее**.
+4.  <span data-ttu-id="0b8aa-190">На странице **лицензионного соглашения для конечных пользователей** установите флажок **я принимаю условия лицензионного соглашения** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-190">On the **End-user License Agreement** page select **I accept the terms of the license agreement** and then click **Next**.</span></span>
 
-13. На странице **Обновление Microsoft** нажмите кнопку **Далее**.
+5.  <span data-ttu-id="0b8aa-191">На странице **Регистрация продукта** убедитесь, что имя и имя вашей организации указаны в полях **имя пользователя** и **Организация** , а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-191">On the **Product Registration** page, ensure that your name and the name of your organization appear in the **User Name** and **Organization** boxes and then click **Next**.</span></span>
 
-14. На странице **Все готово к установке программы** нажмите **Установить**.
+6.  <span data-ttu-id="0b8aa-192">На странице **Выборочная настройка** выберите пункт **сервер отчетов** , а затем — **этот компонент и все зависимые компоненты будут установлены на локальном жестком**диске.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-192">On the **Custom Setup** page, click **Reporting Server** and select **This component, and all dependent components, will be installed on local disk drive**.</span></span> <span data-ttu-id="0b8aa-193">Нажмите кнопку **хранилище данных** и выберите **этот компонент будет**недоступен, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-193">Click **Data Warehouse** and select **This component will not be available**, and then click **Next**.</span></span>
 
-15. На странице **Завершение мастера установки компонентов служб отчетности Operations Manager** нажмите кнопку **Готово**.
+7.  <span data-ttu-id="0b8aa-194">На странице **Подключение к корневому серверу управления** введите имя корневого сервера управления Operations Manager в поле **корневой сервер управления** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-194">On the **Connect to the Root Management Server** page, type the name of your Operations Manager root management server in the **Root Management Server** box and then click **Next**.</span></span>
 
-16. В программе установки System Center Operations Manager 2007 R2 нажмите кнопку **Выход**.
+8.  <span data-ttu-id="0b8aa-195">На странице **Подключение к хранилищу данных Operations Manager** введите экземпляр SQL Server, на котором находится хранилище данных, в поле **экземпляр SQL Server** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-195">On the **Connect to the Operations Manager Data Warehouse** page, type the SQL Server instance where your data warehouse is located in the **SQL Server Instance** box.</span></span> <span data-ttu-id="0b8aa-196">(Если хранилище данных находится в экземпляре по умолчанию, просто введите имя сервера, например ATL-SQL-001.) Убедитесь в том, что имя базы данных **оператионсманажердв** отображается в поле **имя** , а этот порт **1433** отображается в поле Port ( **порт) сервера SQL Server** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-196">(If your data warehouse is located in the Default instance then simply type the server name; for example: atl-sql-001.) Verify that the database name **OperationsManagerDW** appears in the **Name** box, and that port **1433** appears in the **SQL Server port** box.</span></span> <span data-ttu-id="0b8aa-197">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-197">Click **Next**.</span></span>
 
-После того как службы отчетности системного центра установлены, для сброса имени группы безопасности, связанной со службами отчетности SQL Server, используется следующая процедура. Опять же, эту процедуру требуется выполнить только в том случае, если вы используете SQL Server:
+9.  <span data-ttu-id="0b8aa-198">На странице **экземпляра SQL Server Reporting** выберите сервер отчетов SQL Server из раскрывающегося списка **введите сервер служб SQL Server Reporting Services** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-198">On the **SQL Server Reporting Instance** page, select your SQL Server reporting server from the **Enter the SQL Server Reporting Services Server** dropdown list and then click **Next**.</span></span>
 
-1.  Щелкните **Пуск**, выберите **Администрирование**, затем **Диспетчер сервера**.
+10. <span data-ttu-id="0b8aa-199">На странице запись **учетной записи хранилища данных** введите имя и пароль пользователя, которому должны быть первоначально назначены разрешения на запись в хранилище данных в полях **учетная запись пользователя** и **пароль** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-199">On the **Data Warehouse Write Account** page, enter the name and password of the user to be initially assigned write permissions to the data warehouse in the **User Account** and **Password** boxes.</span></span> <span data-ttu-id="0b8aa-200">Выберите домен пользователя из раскрывающегося списка **домен** , а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-200">Select the user's domain from the **Domain** dropdown list and then click **Next**.</span></span>
 
-2.  В диспетчере сервера разверните узел **Конфигурация**, затем **Локальные пользователи и группы** и щелкните **Группы**.
+11. <span data-ttu-id="0b8aa-201">На странице **учетной записи средства чтения данных** введите имя и пароль учетной записи пользователя, которая будет использоваться при запросе службами SQL Reporting Services хранилища данных в полях **учетной записи пользователя** и **пароля** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-201">On the **Data Reader Account** page, enter the name and password of the user account to be used when SQL Reporting Services queries the data warehouse in the **User Account** and **Password** boxes.</span></span> <span data-ttu-id="0b8aa-202">Выберите домен учетной записи из раскрывающегося списка **домена** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-202">Select the account domain from the **Domain** dropdown list and then click **Next**.</span></span>
 
-3.  Найдите следующую группу, где atl-sc-001 представляет имя вашего компьютера, а ARCHINST представляет экземпляр SQL Server для архивирования и мониторинга базы данных: **SQLServerReportServerUser$atl-sc-001$MSRS10.ARCHINST**.
+12. <span data-ttu-id="0b8aa-203">На странице **оперативные отчеты данных** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-203">On the **Operational Data Reports** page, click **Next**.</span></span>
 
-4.  Щелкните группу правой кнопкой мыши и выберите в контекстном меню команду **Переименовать**. Переименуйте группу, добавив **\_50** в конец имени группы, непосредственно перед именем экземпляра SQL Server. Пример: **SQLServerReportServerUser$atl-sc-001$MSRS10\_50.ARCHINST**.
+13. <span data-ttu-id="0b8aa-204">На странице **центра обновления Майкрософт** нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-204">On the **Microsoft Update** page, click **Next**.</span></span>
 
-5.  Закройте диспетчер сервера.
+14. <span data-ttu-id="0b8aa-205">На странице **готовность к установке программы** нажмите кнопку **установить**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-205">On the **Ready to Install the Program** page, click **Install**.</span></span>
 
-Если консоль операций системного центра открыта, необходимо закрыть приложение, а затем перезапустить его. Если этого не сделать, вкладка **Отчетность** не появится в пользовательском интерфейсе консоли операций. Обратите внимание, что после перезапуска консоли операций в первый раз, возможно потребуется подождать несколько минут, прежде чем все отчеты мониторинга появятся на вкладке **Отчетность**.
+15. <span data-ttu-id="0b8aa-206">На странице **Завершение работы мастера настройки компонентов отчетов Operations Manager** нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-206">On the **Completing the Operations Manager Reporting Components Setup Wizard** page, click **Finish**.</span></span>
+
+16. <span data-ttu-id="0b8aa-207">В программе System Center Operations Manager 2007 R2 нажмите кнопку **выход**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-207">In System Center Operations Manager 2007 R2 Setup, click **Exit**.</span></span>
+
+<span data-ttu-id="0b8aa-208">После установки System Center Reporting вы можете сбросить имя группы безопасности, связанной с отчетом SQL Server, с помощью описанной ниже процедуры.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-208">After System Center reporting has been installed you then use the following procedure to reset the name of the security group associated with SQL Server reporting.</span></span> <span data-ttu-id="0b8aa-209">Эта процедура может потребоваться, только если вы используете SQL Server:</span><span class="sxs-lookup"><span data-stu-id="0b8aa-209">Again, this procedure is only required if you are using SQL Server:</span></span>
+
+1.  <span data-ttu-id="0b8aa-210">Нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — **Диспетчер сервера**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-210">Click **Start**, point to **Administrative Tools**, and then click **Server Manager**.</span></span>
+
+2.  <span data-ttu-id="0b8aa-211">В диспетчере серверов разверните узел **Конфигурация**, разверните раздел **Локальные пользователи и группы**, а затем выберите пункт **группы**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-211">In Server Manager, expand **Configuration**, expand **Local Users and Groups**, and then click **Groups**.</span></span>
+
+3.  <span data-ttu-id="0b8aa-212">Найдите следующую группу, в которой ATL-SC-001 представляет имя вашего компьютера и АРЧИНСТ представляет экземпляр SQL Server для баз данных архивации и мониторинга: **склсерверрепортсерверусер $ ATL-SC-001 $ MSRS10. АРЧИНСТ**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-212">Locate the following group, where atl-sc-001 represents the name of your computer and ARCHINST represents the SQL Server instance for the archiving and monitoring databases: **SQLServerReportServerUser$atl-sc-001$MSRS10.ARCHINST**.</span></span>
+
+4.  <span data-ttu-id="0b8aa-213">Щелкните группу правой кнопкой мыши и выберите команду **Переименовать**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-213">Right-click the group and then click **Rename**.</span></span> <span data-ttu-id="0b8aa-214">Переименуйте группу, добавив \*\* \_50\*\* в конец имени группы, прямо перед именем экземпляра SQL Server.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-214">Rename the group by adding **\_50** to the end of the group name, right before the SQL Server instance name.</span></span> <span data-ttu-id="0b8aa-215">Например: **склсерверрепортсерверусер $ ATL-SC-001 $ MSRS10\_50. арчинст**.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-215">For example: **SQLServerReportServerUser$atl-sc-001$MSRS10\_50.ARCHINST**.</span></span>
+
+5.  <span data-ttu-id="0b8aa-216">Закройте Диспетчер серверов.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-216">Close Server Manager.</span></span>
+
+<span data-ttu-id="0b8aa-217">Если открыта консоль Operations Center, необходимо закрыть приложение, а затем перезапустить его. Если этого не сделать, вкладка " **отчеты** " не появится в пользовательском интерфейсе консоли операций.</span><span class="sxs-lookup"><span data-stu-id="0b8aa-217">If the System Center Operations Console is open you will need to close the application and then restart it; if you do not do this the **Reporting** tab will not appear in the Operations Console user interface.</span></span> <span data-ttu-id="0b8aa-218">Обратите внимание, что после первого запуска консоли операций может пройти несколько минут, прежде чем все отчеты наблюдения будут отображены на вкладке **отчеты** .</span><span class="sxs-lookup"><span data-stu-id="0b8aa-218">Note that, after restarting the Operations Console the first time, it could take several minutes before all the Monitoring Reports appear on the **Reporting** tab.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

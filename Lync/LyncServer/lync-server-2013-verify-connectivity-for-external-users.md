@@ -1,45 +1,79 @@
-﻿---
-title: 'Lync Server 2013: проверка соединений для внешних пользователей'
-TOCTitle: Проверка соединений для внешних пользователей
-ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398402(v=OCS.15)
-ms:contentKeyID: 49309888
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: проверка соединений для внешних пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verify connectivity for external users
+ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398402(v=OCS.15)
+ms:contentKeyID: 48184249
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 577ba970e272e2306aae3a587d9ae014ba75ba17
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849191"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Проверка соединений для внешних пользователей в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a><span data-ttu-id="c0783-102">Проверка соединений для внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c0783-102">Verify connectivity for external users in Lync Server 2013</span></span>
 
-Для проверки возможности подключения внешних пользователей необходимо обеспечить подключение пользователей к серверу и порт для пограничной службы доступа.
+</div>
 
-Ценным ресурсом подтверждения конфигурации и возможности подключаться, отправлять и принимать допустимые сообщения для сценариев, необходимых для внешнего доступа пользователей, – это сайт анализатора удаленного подключения ( <https://www.testocsconnectivity.com/> ), который управляется и обслуживается службой технической поддержки Microsoft. Чтобы открыть анализатор удаленного подключения, перейдите на указанный веб-сайт в браузере и следуйте инструкциям по выбору сценария.
+<div id="mainSection">
 
-## Тест подключения внешних пользователей и внешнего доступа
+<div id="mainBody">
 
-Тесты доступа внешних пользователей должны охватывать все типы внешних пользователей, которые поддерживаются в организации, частично или полностью включая приведенные далее.
+<span> </span>
 
-  - Пользователи хотя бы из одного федеративного домена, для которых необходимо проверить обмен мгновенными сообщениями, функцию присутствия, аудио- и видеосвязь и общий доступ к рабочим столам.
+<span data-ttu-id="c0783-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="c0783-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - Пользователи каждого общедоступного поставщика услуг обмена мгновенными сообщениями, поддерживаемого в организации (и для которого была выполнена подготовка).
+<span data-ttu-id="c0783-104">Для проверки подключения внешних пользователей необходимо обеспечить соединение пользователей с сервером и портом службы Edge Access.</span><span class="sxs-lookup"><span data-stu-id="c0783-104">Validating connectivity for external users requires ensuring connectivity from users to the server and port for the Access Edge service.</span></span>
 
-  - Анонимные пользователи.
+<span data-ttu-id="c0783-105">Ценный ресурс для подтверждения вашей конфигурации и возможности подключения, отправки и получения правильных сообщений о сценариях, для которых необходим внешний доступ, — это сайт анализатора удаленных подключений<http://www.testocsconnectivity.com>().</span><span class="sxs-lookup"><span data-stu-id="c0783-105">A valuable resource for confirming your configuration and the ability to connect, send and receive the correct messages for the scenarios that external user access requires is the Remote Connectivity Analyzer site (<http://www.testocsconnectivity.com>).</span></span> <span data-ttu-id="c0783-106">Управление сайтом и его обслуживание поддерживаются службой поддержки Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="c0783-106">The site is managed and maintained by Microsoft Support.</span></span> <span data-ttu-id="c0783-107">Чтобы подключиться к анализатору удаленных подключений, откройте веб-сайт в браузере и следуйте инструкциям по выбору сценария.</span><span class="sxs-lookup"><span data-stu-id="c0783-107">To reach the Remote Connectivity Analyzer, open the Web site in a browser and follow the instructions to select the scenario.</span></span>
 
-  - Пользователи в организации, входящие в Lync удаленно, но без использования VPN.
+<div>
 
-Эти тесты определяют, способен ли ваш пограничный сервер выполнять следующие действия.
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="c0783-108">Проверка подключения внешних пользователей и внешнего доступа</span><span class="sxs-lookup"><span data-stu-id="c0783-108">Test Connectivity of External Users and External access</span></span>
 
-  - Прослушивание необходимых портов с помощью клиента Telnet извне вашей сети.
+<span data-ttu-id="c0783-109">Для проверки внешнего доступа пользователей следует включить все типы внешних пользователей, которые поддерживаются вашей организацией, в том числе любые из указанных ниже элементов.</span><span class="sxs-lookup"><span data-stu-id="c0783-109">Tests for external user access should include each type of external user that your organization supports, including any or all of the following:</span></span>
+
+  - <span data-ttu-id="c0783-110">Пользователи по крайней мере одного федеративного домена и тестировать мгновенные сообщения, сведения о присутствии, а так же и на рабочем столе.</span><span class="sxs-lookup"><span data-stu-id="c0783-110">Users from at least one federated domain, and test IM, presence, A/V and desktop sharing.</span></span>
+
+  - <span data-ttu-id="c0783-111">Пользователи всех общедоступных служб обмена мгновенными сообщениями, поддерживаемых вашей организацией (и для которых завершена подготовка).</span><span class="sxs-lookup"><span data-stu-id="c0783-111">Users of each public IM service provider that your organization supports (and for which provisioning has been completed).</span></span>
+
+  - <span data-ttu-id="c0783-112">Анонимные пользователи.</span><span class="sxs-lookup"><span data-stu-id="c0783-112">Anonymous users.</span></span>
+
+  - <span data-ttu-id="c0783-113">Пользователи в вашей организации, которые вошли в Lync удаленно, но не используют VPN.</span><span class="sxs-lookup"><span data-stu-id="c0783-113">Users within your organization who are logged into Lync remotely, but not using VPN.</span></span>
+
+<span data-ttu-id="c0783-114">Эти тесты определяют, является ли пограничный сервер:</span><span class="sxs-lookup"><span data-stu-id="c0783-114">These tests determine whether your Edge Server is:</span></span>
+
+  - <span data-ttu-id="c0783-115">Прослушивание необходимых портов с помощью клиента Telnet извне вашей сети.</span><span class="sxs-lookup"><span data-stu-id="c0783-115">Listening on the necessary ports by using a telnet client from outside your network.</span></span>
     
-      - Пример: telnet sip.contoso.com 443
+      - <span data-ttu-id="c0783-116">Пример: Telnet sip.contoso.com 443</span><span class="sxs-lookup"><span data-stu-id="c0783-116">Example: telnet sip.contoso.com 443</span></span>
     
-      - Выполнение предыдущего теста в портах, которые используются в пограничном сервере или в пограничном пуле, в зависимости от вашего развертывания.
+      - <span data-ttu-id="c0783-117">Выполните описанные выше действия на портах, которые вы используете на пограничном сервере или в пуле пограничного сервера, в зависимости от вашего развертывания.</span><span class="sxs-lookup"><span data-stu-id="c0783-117">Perform the preceding test on ports you are using on the Edge Server or Edge Server pool depending on your deployment.</span></span>
 
-  - Выполнение точного разрешения внешнего DNS.
+  - <span data-ttu-id="c0783-118">Выполнение точного разрешения внешнего DNS.</span><span class="sxs-lookup"><span data-stu-id="c0783-118">Performing accurate external DNS resolution.</span></span>
     
-      - Извне сети проверьте связь для каждого из внешних полных доменных имен вашего пограничного сервера или пограничного пула. Даже если проверка связи выполнится неудачно, вы увидите IP-адреса, которые можно сравнить с назначенными вами.
+      - <span data-ttu-id="c0783-119">За пределами сети ping для каждого из внешних полных доменных имен в пуле EDGE или EDGE.</span><span class="sxs-lookup"><span data-stu-id="c0783-119">From outside your network ping each of the external FQDN’s of your Edge or Edge pool.</span></span> <span data-ttu-id="c0783-120">Даже если проверка связи не проходит, вы увидите IP-адреса, которые вы можете сравнить с назначенными вами адресами.</span><span class="sxs-lookup"><span data-stu-id="c0783-120">Even if the ping fails you will see the IP addresses, which you can compare to the ones you have assigned.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

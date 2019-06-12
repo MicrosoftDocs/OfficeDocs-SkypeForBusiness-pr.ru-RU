@@ -1,83 +1,164 @@
-﻿---
-title: 'Lync Server 2013: топологии и компоненты для мобильной работы'
-TOCTitle: Топологии и компоненты для мобильной работы
-ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Hh690037(v=OCS.15)
-ms:contentKeyID: 49311034
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: топологии и компоненты для мобильной работы'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Topologies and components for mobility
+ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
+ms:contentKeyID: 48185282
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 537eda14f2587e06bd8a1112f2a6a44299b0b78e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849353"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Топологии и компоненты для мобильной работы в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-17_
+# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a><span data-ttu-id="73183-102">Топологии и компоненты для мобильной работы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73183-102">Topologies and components for mobility in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="73183-103">_**Тема последнего изменения:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="73183-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Чтобы обеспечить поддержку мобильных приложений Lync на мобильных устройствах, Lync Server 2013 включает три службы: Lync Server 2013 Mcx Mobility Service, службу автообнаружения Lync Server 2013 и службу push-уведомлений Lync Server 2013. Накопительное обновление для Lync Server 2013 (февраль 2013 г.) включает дополнительную, расширенную службу для мобильных клиентов Lync 2013. Она обеспечивает поддержку мобильности благодаря использованию веб-API объединенных коммуникаций (UCWA). В этом разделе кратко рассматриваются указанные компоненты и определяются топологии Lync Server 2013, поддерживающие мобильность.
+<span data-ttu-id="73183-104">Для поддержки мобильных приложений Lync на мобильных устройствах Lync Server 2013 предоставляет три службы: Lync Server 2013 МККС Mobility Service, служба автообнаружения для Lync Server 2013 и Служба push-уведомлений Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="73183-104">To support Lync mobile applications on mobile devices, Lync Server 2013 provides three services: Lync Server 2013 Mcx Mobility Service, Lync Server 2013 Autodiscover Service, and Lync Server 2013 Push Notification Service.</span></span> <span data-ttu-id="73183-105">Накопительные обновления для Lync Server 2013: Февраль 2013 добавлены бесплатное, но расширенное обслуживание для мобильных клиентов Lync 2013 — поддержка мобильных устройств с помощью веб-интерфейса единой системы обмена сообщениями или УКВА.</span><span class="sxs-lookup"><span data-stu-id="73183-105">The Cumulative Updates for Lync Server 2013: February 2013 adds a complimentary, but advanced, service for Lync 2013 Mobile clients—mobility support through the use of the Unified Communications Web API, or UCWA.</span></span> <span data-ttu-id="73183-106">В этом разделе кратко описаны эти компоненты и указаны топологии Lync Server 2013, поддерживающие мобильность.</span><span class="sxs-lookup"><span data-stu-id="73183-106">This section briefly describes these components and identifies the Lync Server 2013 topologies that support mobility.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Службы мобильной связи также доступны в гибридных развертываниях. Если все пользователи вашей организации подключены к сети, вам не требуется развертывать службы для поддержки возможностей мобильной связи. Чтобы мобильные пользователи могли выполнять поиск своих сетевых удостоверений, вам потребуется задать параметры службы автообнаружения.
+> <span data-ttu-id="73183-107">Услуги мобильной связи также доступны в гибридных развертываниях.</span><span class="sxs-lookup"><span data-stu-id="73183-107">Mobility services are also available in hybrid deployments.</span></span> <span data-ttu-id="73183-108">Если пользователи подключены к сети, вам не нужно развертывать службы для поддержки мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="73183-108">You are not required to deploy services for supporting mobility if your users are homed online.</span></span> <span data-ttu-id="73183-109">Вам необходимо определить параметр для службы автообнаружения, чтобы позволить мобильным пользователям находить свои сетевые удостоверения.</span><span class="sxs-lookup"><span data-stu-id="73183-109">You do need to define a setting for the Autodiscover Service to enable mobile users to find their online identity.</span></span>
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Если планируется какое-либо подключение внешних пользователей (например, федерация, доступ внешних пользователей или функции мобильности), то необходимо использовать пограничные серверы сервер с серверами Сервер Standard Edition и переднего плана или пулом переднего плана. Серверы Сервер Standard Edition и переднего плана или пул переднего плана не имеют необходимых компонентов для разрешения внешним пользователям доступа к внутреннему или внутреннему развертыванию взаимодействия с внешними пользователями. Для всех сценариев, включающих совместную работу или взаимодействие внешних пользователей с внутренними, в том числе сценариев использования мобильности, необходимо развернуть хотя бы один пограничный сервер сервер и один обратный прокси-сервер.<br /><em>Push-уведомление</em> использует тип федерации со службами Lync Online, в которых размещается система PNCH. Push-уведомление относится к звуковым предупреждениям, предупреждениям на экране (текстовым) и индикаторам событий, которые отправляются приложениями на Apple iPhone, iPad, iPod и Windows Phone, когда мобильное устройство неактивно. PNCH получает push-уведомления от Lync Server. Когда PNCH получает уведомление о сообщении, то перенаправляет уведомление мобильным клиентам через службы Apple Push Notification Services или службы Push-уведомлений Lync Server 2013, в зависимости от того, для какого мобильного клиента сообщение предназначено. Для установки федерации с Lync Online PNCH использует серверы сервер, сертификаты для обеспечения конфиденциальности и проверки подлинности, политики и правильно настроенные записи DNS. Клиенты Lync Mobile на базе Nokia Symbian и Android не используют PNCH. Подробные сведения о планировании и развертывании сервер см. в статьях <a href="lync-server-2013-planning-for-external-user-access.md">Планирование доступа внешних пользователей в Lync Server 2013</a> и <a href="lync-server-2013-deploying-external-user-access.md">Развертывание доступа внешних пользователей в Lync Server 2013</a>.<br />Мобильные клиенты Lync 2013 для устройств Apple, на которых установлено накопительное обновление для Lync Server 2013 (февраль 2013 г.), больше не используют push-уведомления или PNCH. Мобильные клиенты Lync 2013 на основе Windows Phone по-прежнему используют push-уведомления и PNCH.
+> <span data-ttu-id="73183-110">Если вы планируете подключение внешних пользователей (например, Федерация, доступ к внешним пользователям или мобильным функциям), вы должны использовать пограничные серверы с сервером Standard Edition, сервер переднего плана и пул переднего плана.</span><span class="sxs-lookup"><span data-stu-id="73183-110">If you are planning any external user connectivity (for example, federation, external user access, or mobility features), you must use Edge Servers with Standard Edition server and the Front End Server or Front End pool.</span></span> <span data-ttu-id="73183-111">На сервере Standard Edition и на сервере переднего плана или пуле переднего плана отсутствуют необходимые компоненты, чтобы предоставить внешним пользователям доступ к внутреннему развернутому или внутреннему развертыванию для связи с внешними пользователями.</span><span class="sxs-lookup"><span data-stu-id="73183-111">The Standard Edition server and the Front End Server or Front End pool do not have the necessary components to enable external users to access your internal deployment, or for the internal deployment to communicate with your external users.</span></span> <span data-ttu-id="73183-112">Для всех сценариев, в которых есть внешние пользователи, взаимодействующие с внутренними пользователями, в том числе мобильность, необходимо развернуть хотя бы один пограничный сервер и один обратный прокси-сервер.</span><span class="sxs-lookup"><span data-stu-id="73183-112">For all scenarios that include external users collaborating or communicating with internal users, including mobility, you must deploy at least one Edge Server and one reverse proxy.</span></span><BR><span data-ttu-id="73183-113"><EM>Push-уведомление</EM> использует тип Федерации для служб Lync Online, в котором размещается Клиринговый дом push-уведомлений (ПНЧ).</span><span class="sxs-lookup"><span data-stu-id="73183-113"><EM>Push notification</EM> uses a type of federation to the Lync Online services, which hosts the Push Notification Clearing House (PNCH).</span></span> <span data-ttu-id="73183-114">Push-уведомлением называют звуковое оповещение, оповещения на экране (текст) и эмблемы, появляющиеся приложениями на устройствах Apple iPhone, iPad и Windows Phone, если мобильное устройство неактивно.</span><span class="sxs-lookup"><span data-stu-id="73183-114">Push notification refers to the sound alerts, on-screen alerts (text), and badges that are pushed by applications to the Apple iPhone, iPad, and Windows Phone, when the mobile device is inactive.</span></span> <span data-ttu-id="73183-115">ПНЧ получает push-уведомления от сервера Lync Server.</span><span class="sxs-lookup"><span data-stu-id="73183-115">PNCH receives push notifications from Lync Server.</span></span> <span data-ttu-id="73183-116">Когда ПНЧ получает уведомление о сообщении, ПНЧ пересылает уведомление на мобильные клиенты через службы push-уведомлений Apple или Lync Server 2013, в зависимости от мобильного клиента, для которого предназначено сообщение.</span><span class="sxs-lookup"><span data-stu-id="73183-116">When PNCH receives a notification of a message, PNCH forwards a notification to mobile clients through either the Apple Push Notification Services or Lync Server 2013 Push Notification Service, based on the mobile client that the message is intended for.</span></span> <span data-ttu-id="73183-117">ПНЧ — это обязательная служба для мобильных клиентов.</span><span class="sxs-lookup"><span data-stu-id="73183-117">PNCH is a required service for these mobile clients.</span></span> <span data-ttu-id="73183-118">Чтобы включить федерацию в Lync Online, ПНЧ использует пограничные серверы и сертификаты для обеспечения конфиденциальности и проверки подлинности, политик и правильности настройки DNS-записей.</span><span class="sxs-lookup"><span data-stu-id="73183-118">To federate to Lync Online, PNCH uses Edge Servers and certificates to ensure confidentiality and authentication, policies, and correctly configured domain name system (DNS) records.</span></span> <span data-ttu-id="73183-119">Клиенты на платформе Nokia Symbian и Android не используют ПНЧ для Lync Mobile.</span><span class="sxs-lookup"><span data-stu-id="73183-119">Nokia Symbian and Android-based Lync Mobile clients do not use PNCH.</span></span> <span data-ttu-id="73183-120">Сведения о планировании и развертывании пограничных серверов можно найти <A href="lync-server-2013-planning-for-external-user-access.md">в разделе Планирование доступа внешних пользователей в Lync server 2013</A> и <A href="lync-server-2013-deploying-external-user-access.md">развертывание внешних пользователей в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="73183-120">For details about planning and deploying Edge Servers, see <A href="lync-server-2013-planning-for-external-user-access.md">Planning for external user access in Lync Server 2013</A> and <A href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</A>.</span></span><BR><span data-ttu-id="73183-121">Мобильные клиенты Lync 2013 для устройств Apple, представленные в накопительных обновлениях для Lync Server 2013: Февраль 2013, больше не используют push-уведомление или клиринговый номер pushd Notification (ПНЧ).</span><span class="sxs-lookup"><span data-stu-id="73183-121">The Lync 2013 Mobile clients for Apple devices introduced with the Cumulative Updates for Lync Server 2013: February 2013 no longer use push notification or the push notification clearing house (PNCH).</span></span> <span data-ttu-id="73183-122">Мобильные клиенты Lync 2013 на устройстве с Windows Phone все еще используют push-уведомления и (ПНЧ).</span><span class="sxs-lookup"><span data-stu-id="73183-122">Lync 2013 Mobile clients on Windows Phone still use push notification and the (PNCH).</span></span>
 
-## Компоненты, предназначенные для поддержки мобильной связи
 
-Службы, поддерживающие мобильную связь:
 
-  - Веб-API объединенных коммуникаций **Lync Server 2013 (UCWA)** обеспечивает службы для обмена данными в режиме реального времени между мобильными и веб-клиентами в Lync Server 2013. При развертывании накопительного обновления для Lync Server 2013 (февраль 2013 г.) для ролей серверов " переднего плана" и " Директор" программа установки создает виртуальный каталог во внутренних и внешних веб-службах (Ucwa). Веб-компонент, который является частью виртуального каталога Ucwa, принимает вызовы от клиентов, поддерживающих UCWA. Клиентские приложения обмениваются по интерфейсу REST такими данными, как сведения о присутствии, контакты, сообщения VoIP, мгновенные сообщения, видеоконфереции и совместная работа. UCWA использует канал на основе протокола P-GET для отправки событий, таких как входящие звонки, входящие мгновенные сообщения и сообщения для клиентского приложения.
+</div>
+
+<div>
+
+## <a name="mobility-components"></a><span data-ttu-id="73183-123">Мобильные компоненты</span><span class="sxs-lookup"><span data-stu-id="73183-123">Mobility Components</span></span>
+
+<span data-ttu-id="73183-124">Ниже перечислены службы, поддерживающие мобильную связь.</span><span class="sxs-lookup"><span data-stu-id="73183-124">The services that support mobility are as follows:</span></span>
+
+  - <span data-ttu-id="73183-125">**Веб-интерфейс API единой системы обмена сообщениями Lync Server 2013 (Уква)**   предоставляет службы для обмена данными в реальном времени с мобильными и веб-клиентами в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="73183-125">**Lync Server 2013 Unified Communications Web API (UCWA)**   Provides services for real-time communications with mobile and web clients in Lync Server 2013.</span></span> <span data-ttu-id="73183-126">При развертывании накопительных обновлений для Lync Server 2013: Февраль 2013 для сервера переднего плана и режиссера, при установке создается виртуальный каталог во внутренней и внешней веб-службах (Уква).</span><span class="sxs-lookup"><span data-stu-id="73183-126">When you deploy the Cumulative Updates for Lync Server 2013: February 2013 to the Front End Server and Director, the installation creates a virtual directory in the internal and external web services (Ucwa).</span></span> <span data-ttu-id="73183-127">Веб-компонент, который входит в состав виртуального каталога Уква, принимает вызовы от клиентов, поддерживающих УКВА.</span><span class="sxs-lookup"><span data-stu-id="73183-127">A web component that is part of the Ucwa virtual directory accepts calls from UCWA-enabled clients.</span></span> <span data-ttu-id="73183-128">Клиентские приложения обмениваются данными через интерфейс RESTFUL для присутствия, контактов, обмена мгновенными сообщениями, VoIP, видеоконференций и совместной работы.</span><span class="sxs-lookup"><span data-stu-id="73183-128">The client apps communicate over a REST interface for presence, contacts, instant messaging, VoIP, video conferencing, and collaboration.</span></span> <span data-ttu-id="73183-129">УКВА использует канал с интерфейсом P-GET для отправки событий, таких как входящий вызов, входящее сообщение или сообщение, в клиентское приложение.</span><span class="sxs-lookup"><span data-stu-id="73183-129">UCWA uses a P-GET based channel to send events, such as an incoming call, incoming instant message, or a message to the client app.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > <em>REST</em> (Representational State Transfer или передача репрезентативного состояния) представляет собой архитектуру программного обеспечения для распределенных систем, которая широко используется в различных формах и хорошо отвечает требованиям веб-служб в общем.
+    > <span data-ttu-id="73183-130"><EM></EM> Пересылка данных о состоянии остатка и повторного представления — это архитектурный стиль программного обеспечения для распределенных систем, широко применяемый в разных формах, и который хорошо подходит для требований веб-служб в целом.</span><span class="sxs-lookup"><span data-stu-id="73183-130"><EM>REST</EM> or representational state transfer, is a software architectural style for distributed systems that has been widely adopted in many forms and is well suited to the requirements of Web services in general.</span></span>
 
-  - Служба **Lync Server 2013 Mobility Service (Mcx)** поддерживает функции Lync, такие как обмен мгновенными сообщениями, сведения о присутствии и контакты, на мобильных устройствах. Служба Mobility Service устанавливается на каждом сервере переднего плана в каждом пуле, который должен поддерживать функции Lync на мобильных устройствах. При установке Lync Server 2013 новый виртуальный каталог (Mcx) создается на внешнем и внутреннем веб-сайте на серверах с ролью " переднего плана".
     
+    </div>
+
+  - <span data-ttu-id="73183-131">**Служба Lync Server 2013 Mobility Service (МККС)**   эта служба поддерживает функции Lync, такие как обмен мгновенными сообщениями, сведения о присутствии и контакты, на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="73183-131">**Lync Server 2013 Mobility Service (Mcx)**   This service supports Lync functionality, such as instant messaging (IM), presence, and contacts, on mobile devices.</span></span> <span data-ttu-id="73183-132">Служба Mobility Service устанавливается на каждый сервер переднего плана в каждом пуле, поддерживающий функциональность Lync на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="73183-132">The Mobility Service is installed on every Front End Server in each pool that is to support Lync functionality on mobile devices.</span></span> <span data-ttu-id="73183-133">При установке Lync Server 2013 новый виртуальный каталог (МККС) создается как на внутреннем веб-сайте, так и на внешнем веб-сайте на серверах переднего плана.</span><span class="sxs-lookup"><span data-stu-id="73183-133">When you install Lync Server 2013, a new virtual directory (Mcx) is created under both the internal website and the external website on your Front End Servers.</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Lync Server 2013 с накопительным обновлением для Lync Server 2013 (февраль 2013 г.) поддерживает службу Mobility Service (обычно называемую Mcx), представленную в накопительном обновлении для Lync Server 2010 (ноябрь 2011 г.), а также веб-компонент UCWA. Комбинация двух этих служб обеспечивает взаимодействие и возможность для пользователей работать с мобильными клиентами Lync 2010 Mobile и Lync 2013 в среде Lync Server 2013.
+    > <span data-ttu-id="73183-134">Lync Server 2013 с накопительными обновлениями для Lync Server 2013: Февраль 2013 поддерживается как служба Mobility Service, представленная в накопительном обновлении для Lync Server 2010: Ноябрь 2011, которые обычно называют МККС и веб-компонент УКВА.</span><span class="sxs-lookup"><span data-stu-id="73183-134">Lync Server 2013 with the Cumulative Updates for Lync Server 2013: February 2013 supports both the Mobility service introduced in the Cumulative Update for Lync Server 2010: November 2011, commonly known as Mcx, and the UCWA web component.</span></span> <span data-ttu-id="73183-135">Сочетание этих двух служб Mobility Service обеспечивает взаимодействие и использование пользователями Lync 2010 Mobile и Lync 2013 для мобильных клиентов на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="73183-135">The combination of these two mobility services provides interoperability and use by users with Lync 2010 Mobile and Lync 2013 Mobile clients on Lync Server 2013.</span></span>
 
-  - **Служба автообнаружения Lync Server 2013** идентифицирует расположение пользователя и позволяет мобильным устройствам и другим клиентам Lync находить ресурсы, такие как внутренние и внешние URL-адреса веб-служб Lync Server 2013 и URL-адрес службы Mcx или UCWA, независимо от расположения в сети. Служба автоматического обнаружения использует жестко заданные имена узлов (lyncdiscoverinternal для пользователей, расположенных в сети организации, и lyncdiscover для пользователей, расположенных за пределами сети организации) и домен SIP пользователя. Для поддержки клиентских подключений служба использует протокол HTTP или HTTPS.
     
-    Служба автообнаружения устанавливается на всех переднего плана и на всех Директор каждого пула для поддержки функциональных возможностей Lync на мобильных устройствах. При установке службы автообнаружения на внешнем и внутреннем веб-сайтах переднего плана и Директор создается новый виртуальный каталог (Autodiscover).
+    </div>
+
+  - <span data-ttu-id="73183-136">**Служба автообнаружения Lync Server 2013**   . Эта служба определяет расположение пользователя и позволяет мобильным устройствам и другим клиентам Lync находить ресурсы, такие как внутренние и внешние URL-адреса для служб Lync Server 2013, а также URL-адрес МККС или УКВА — независимо от расположения в сети.</span><span class="sxs-lookup"><span data-stu-id="73183-136">**Lync Server 2013 Autodiscover Service**   This service identifies the location of the user and enables mobile devices and other Lync clients to locate resources—such as the internal and external URLs for Lync Server 2013 Web Services, and the URL for the Mcx or UCWA—regardless of network location.</span></span> <span data-ttu-id="73183-137">Автоматическое обнаружение использует жестко закодированные имена узлов (линкдисковеринтернал для пользователей в сети; lyncdiscover для пользователей за пределами сети) и домен SIP пользователя.</span><span class="sxs-lookup"><span data-stu-id="73183-137">Automatic discovery uses hardcoded host names (lyncdiscoverinternal for users inside the network; lyncdiscover for users outside the network) and the SIP domain of the user.</span></span> <span data-ttu-id="73183-138">It supports client connections that use either HTTP or HTTPS.</span><span class="sxs-lookup"><span data-stu-id="73183-138">It supports client connections that use either HTTP or HTTPS.</span></span>
     
+    <span data-ttu-id="73183-139">Служба автообнаружения устанавливается на каждый сервер переднего плана и каждый из режиссеров в каждом пуле, поддерживающих функциональность Lync на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="73183-139">The Autodiscover Service is installed on every Front End Server and on every Director in each pool that is to support Lync functionality on mobile devices.</span></span> <span data-ttu-id="73183-140">При установке службы автообнаружения новый виртуальный каталог (автообнаружения) создается как на внутреннем, так и на внешнем веб-сайте, а также на серверах и режиссерах переднего плана.</span><span class="sxs-lookup"><span data-stu-id="73183-140">When you install the Autodiscover Service, a new virtual directory (Autodiscover) is created under both the internal website and the external website, on both Front End Servers and Directors.</span></span>
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Служба автообнаружения указана в этом разделе, так как она по-прежнему является критическим компонентом при предоставлении служб мобильных клиентов. Роль &quot;Автообнаружение&quot; в Lync Server 2013 была расширена для предоставления служб для всех клиентов. Сведения о планировании развертывания службы автообнаружения см. в статье <a href="lync-server-2013-planning-for-autodiscover.md">Планирование автоопределения в Lync Server 2013</a>.
+    > <span data-ttu-id="73183-141">Здесь указана служба автообнаружения, так как она остается критическим компонентом при предоставлении мобильных клиентских служб.</span><span class="sxs-lookup"><span data-stu-id="73183-141">The Autodiscover Service is listed here because it remains a critical component when providing mobile client services.</span></span> <span data-ttu-id="73183-142">Роль автообнаружения в Lync Server 2013 была расширена для предоставления служб для всех клиентов.</span><span class="sxs-lookup"><span data-stu-id="73183-142">The role of Autodiscover in Lync Server 2013 has been expanded to provide services for all clients.</span></span> <span data-ttu-id="73183-143">Подробные сведения о планировании службы автообнаружения можно найти <A href="lync-server-2013-planning-for-autodiscover.md">в разделе Планирование автообнаружения в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="73183-143">For details about planning for the Autodiscover Service, see <A href="lync-server-2013-planning-for-autodiscover.md">Planning for Autodiscover in Lync Server 2013</A>.</span></span>
 
-  - **Служба push-уведомлений**   – служба, которая расположена в центре обработки данных Lync Online. Если мобильное приложение Lync на поддерживаемом устройстве Apple iOS или Windows Phone неактивно, оно не сможет отвечать на новые события, такие как приглашение к сеансу обмена мгновенными сообщениями, пропущенное мгновенное сообщение, пропущенный звонок или сообщение голосовой почты, поскольку эти устройства не поддерживают мобильные приложения, запущенные в фоновом режиме. В таком случае на мобильное устройство отправляется уведомление, называемое *push-уведомлением*. Служба мобильной связи отправляет уведомление в облачную службу push-уведомлений, которая затем отправляет уведомление в службу Apple Push Notification Service (APNS) (для устройств Apple iOS) или службу push-уведомлений (Майкрософт) (MPNS) (для Windows Phone), которые, в свою очередь, отправляют его на мобильное устройство. Чтобы активировать приложение, пользователю необходимо коснуться уведомления на мобильном устройстве.
     
-    Lync 2010 Mobile на устройствах Apple и Windows Phone использует push-уведомления. Мобильный клиент Lync 2013 для устройств Apple, представленный в накопительном обновлении для Lync Server 2013 (февраль 2013 г.), больше не использует PNCH.
+    </div>
 
-На следующей схеме показано использование службы push-уведомлений в топологии Lync Server 2013, использующей интерфейс UCWA и мобильные клиенты Lync 2013.
+  - <span data-ttu-id="73183-144">**Служба push-уведомлений**   эта служба является облачной службой, которая находится в центре обработки данных Lync Online.</span><span class="sxs-lookup"><span data-stu-id="73183-144">**Push Notification Service**   This service is a cloud-based service that is located in the Lync Online data center.</span></span> <span data-ttu-id="73183-145">Если мобильное приложение Lync на поддерживаемом устройстве Apple iOS или Windows Phone неактивно, оно не может отвечать на новые события, такие как приглашение на обмен мгновенными сообщениями, пропущенные мгновенные сообщения, пропущенные звонки и голосовую почту, так как эти устройства не поддерживаются. Мобильные приложения, работающие в фоновом режиме.</span><span class="sxs-lookup"><span data-stu-id="73183-145">When the Lync mobile application on a supported Apple iOS device or Windows Phone is inactive, it cannot respond to new events, such as a new instant messaging (IM) invitation, a missed instant message, a missed call, or voice mail, because these devices do not support mobile applications running in the background.</span></span> <span data-ttu-id="73183-146">В этих случаях уведомление о новом событии, которое называется Push- *уведомлением*, отправляется на мобильное устройство.</span><span class="sxs-lookup"><span data-stu-id="73183-146">In these cases, a notification of the new event—called a *push notification*—is sent to the mobile device.</span></span> <span data-ttu-id="73183-147">Служба Mobility Service отправляет уведомление в облачную службу push-уведомлений, которая затем отправляет уведомление либо в службу извещающих уведомлений Apple (APNS) (для поддерживаемых устройств Apple iOS), либо в службу push-уведомлений Майкрософт (MPNS). ) (для Windows Phone), который затем отправляет его на мобильное устройство.</span><span class="sxs-lookup"><span data-stu-id="73183-147">The Mobility Service sends the notification to the cloud-based Push Notification Service, which then sends the notification either to the Apple Push Notification Service (APNS) (for supported Apple iOS devices) or to the Microsoft Push Notification Service (MPNS) (for Windows Phone), which then sends it on to the mobile device.</span></span> <span data-ttu-id="73183-148">Затем пользователь может ответить на уведомление на мобильном устройстве, чтобы активировать приложение.</span><span class="sxs-lookup"><span data-stu-id="73183-148">The user can then respond to the notification on the mobile device to activate the application.</span></span>
+    
+    <span data-ttu-id="73183-149">Мобильный телефон Lync 2010 на устройствах Apple и Windows Phone использует push-уведомления.</span><span class="sxs-lookup"><span data-stu-id="73183-149">The Lync 2010 Mobile on Apple and Windows Phone devices use push notifications.</span></span> <span data-ttu-id="73183-150">Мобильная клиентская программа Lync 2013 для устройств Apple, представленная в накопительных обновлениях для Lync Server 2013: Февраль 2013, больше не использует push-уведомление или клиринговый номер принудительного уведомления (ПНЧ).</span><span class="sxs-lookup"><span data-stu-id="73183-150">The Lync 2013 Mobile client for Apple devices introduced with the Cumulative Updates for Lync Server 2013: February 2013 no longer uses push notification or the push notification clearing house (PNCH).</span></span>
 
-![Службы push-уведомлений UCWA](images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "Службы push-уведомлений UCWA")
+<span data-ttu-id="73183-151">На приведенной ниже схеме показано, как служба push-уведомлений попадает в топологию сервера Lync Server 2013, в которой используются мобильные клиенты УКВА и Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="73183-151">The following diagram illustrates how the Push Notification Service fits within a Lync Server 2013 topology that uses UCWA and Lync 2013 Mobile clients.</span></span>
 
-Представленная в накопительном обновлении для Lync Server 2010 (ноябрь 2011 г.) служба Mcx обеспечивает службы для клиентов Lync 2010 Mobile. Следующая схема иллюстрирует применение службы Push-уведомлений к топологии, использующей службу Mcx и клиенты Lync 2010 Mobile.
+<span data-ttu-id="73183-152">![166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae] (images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae")</span><span class="sxs-lookup"><span data-stu-id="73183-152">![166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae](images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae")</span></span>
 
-![Службы push-уведомлений MCX](images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "Службы push-уведомлений MCX")
+<span data-ttu-id="73183-153">Введено в накопительном обновлении для Lync Server 2010: Ноябрь 2011, служба МККС предоставляет услуги для мобильных клиентов Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="73183-153">Introduced in Cumulative Update for Lync Server 2010: November 2011, the Mcx service provides services to Lync 2010 Mobile clients.</span></span> <span data-ttu-id="73183-154">На приведенной ниже схеме показана служба push-уведомлений, применяемая к топологии с помощью мобильных клиентов МККС и Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="73183-154">The following diagram illustrates the Push Notification Service as it applies to a topology using Mcx and Lync 2010 Mobile clients.</span></span>
 
-## Поддерживаемые топологии
+<span data-ttu-id="73183-155">![3081634e-60e7-4348-b24e-bbbf05a90f5f] (images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")</span><span class="sxs-lookup"><span data-stu-id="73183-155">![3081634e-60e7-4348-b24e-bbbf05a90f5f](images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")</span></span>
 
-Применение накопительного обновления для Lync Server 2013 (февраль 2013 г.) включает веб-компоненты UCWA для поддержки мобильности для компонентов мобильных клиентов Lync 2013 в следующих топологиях.
+</div>
 
-  - Lync Server 2013 Standard Edition
+<div>
 
-  - Lync Server 2013 Enterprise Edition
+## <a name="supported-topologies"></a><span data-ttu-id="73183-156">Поддерживаемые топологии</span><span class="sxs-lookup"><span data-stu-id="73183-156">Supported Topologies</span></span>
 
-В качестве сервер можно использовать Lync Server 2010  сервер.
+<span data-ttu-id="73183-157">Применение накопительных обновлений для Lync Server 2013: Февраль 2013 добавляет веб-компоненты УКВА для поддержки мобильных функций мобильных клиентов Lync 2013 в указанных ниже топологиях.</span><span class="sxs-lookup"><span data-stu-id="73183-157">Applying the Cumulative Updates for Lync Server 2013: February 2013 adds the UCWA web components to support mobility for Lync 2013 Mobile client features in the following topologies:</span></span>
 
-Развертывание Lync Server 2013 без накопительного обновления для Lync Server 2013 (февраль 2013 г.) будет использовать службу Mcx Mobility Service и сможет предоставлять службы только для Lync 2010 Mobile.
+  - <span data-ttu-id="73183-158">Lync Server 2013 Standard Edition</span><span class="sxs-lookup"><span data-stu-id="73183-158">Lync Server 2013 Standard Edition</span></span>
+
+  - <span data-ttu-id="73183-159">Lync Server 2013 Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="73183-159">Lync Server 2013 Enterprise Edition</span></span>
+
+<span data-ttu-id="73183-160">Пограничный сервер может быть сервером Lync Server 2010 Edge.</span><span class="sxs-lookup"><span data-stu-id="73183-160">The Edge Server can be a Lync Server 2010 Edge Server.</span></span>
+
+<span data-ttu-id="73183-161">Развертывание Lync Server 2013 без накопительных обновлений для Lync Server 2013: Февраль 2013 использует службу МККС Mobility Service и может предоставлять услуги только для Lync 2010 Mobile.</span><span class="sxs-lookup"><span data-stu-id="73183-161">A Lync Server 2013 deployment without the Cumulative Updates for Lync Server 2013: February 2013 will use the Mcx Mobility Service and can provide services only for Lync 2010 Mobile.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Служба Mobility Service поддерживается на серверах переднего плана, размещаемых совместно с ролью посредник с двумя сетевыми интерфейсами, однако для настройки этих интерфейсов необходимо выполнить определенные действия. Вы должны назначить IP-адреса для конкретного интерфейса, которому будет назначена роль посредник, и IP-адрес сетевого интерфейса, которому будет назначена роль переднего плана. Эти действия выполняются в топологий путем выбора правильного IP-адреса для каждой службы вместо параметра по умолчанию <strong>Использовать все настроенные IP-адреса</strong>.
+> <span data-ttu-id="73183-162">Служба Mobility Service поддерживается на серверах переднего плана, размещенных с помощью роли сервера «исправления» с двумя сетевыми интерфейсами, но для настройки интерфейсов необходимо выполнить соответствующие действия.</span><span class="sxs-lookup"><span data-stu-id="73183-162">The Mobility Service is supported on Front End Servers that is collocated with the Mediation Server role with two network interfaces, but you must take appropriate steps to configure the interfaces.</span></span> <span data-ttu-id="73183-163">Необходимо назначить IP-адреса определенному интерфейсу, который будет взаимодействовать как сервер-посредник, и IP-адрес сетевого интерфейса, который будет взаимодействовать как сервер переднего плана.</span><span class="sxs-lookup"><span data-stu-id="73183-163">You must assign the IP addresses to the specific interface that will communicate as the Mediation Server, and the network interface IP that will communicate as the Front End Server.</span></span> <span data-ttu-id="73183-164">Это можно сделать в построителе топологии путем выбора IP-адреса для каждой службы вместо использования по умолчанию <STRONG>всех настроенных IP-адресов</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="73183-164">You can do this in Topology Builder by selecting the correct IP address for each service, instead of using the default <STRONG>Use all configured IP addresses</STRONG>.</span></span>
 
-## См. также
 
-#### Другие ресурсы
 
-[Планирование доступа внешних пользователей в Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)  
-[Развертывание доступа внешних пользователей в Lync Server 2013](lync-server-2013-deploying-external-user-access.md)  
-[Планирование автоопределения в Lync Server 2013](lync-server-2013-planning-for-autodiscover.md)
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="73183-165">См. также</span><span class="sxs-lookup"><span data-stu-id="73183-165">See Also</span></span>
+
+
+[<span data-ttu-id="73183-166">Планирование доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73183-166">Planning for external user access in Lync Server 2013</span></span>](lync-server-2013-planning-for-external-user-access.md)  
+[<span data-ttu-id="73183-167">Развертывание доступа внешних пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73183-167">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)  
+[<span data-ttu-id="73183-168">Планирование автообнаружения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="73183-168">Planning for Autodiscover in Lync Server 2013</span></span>](lync-server-2013-planning-for-autodiscover.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

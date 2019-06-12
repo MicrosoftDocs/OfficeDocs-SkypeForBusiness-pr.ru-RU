@@ -1,44 +1,84 @@
-﻿---
-title: Удаление ассоциации сервера мониторинга
-TOCTitle: Удаление ассоциации сервера мониторинга
-ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721877(v=OCS.15)
-ms:contentKeyID: 49888180
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Удаление связи с сервером мониторинга
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the Monitoring server association
+ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721877(v=OCS.15)
+ms:contentKeyID: 49733810
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5703153bb1034f1318fbe14ca3583ad5744ffdb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848906"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление ассоциации сервера мониторинга
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-04_
+# <a name="remove-the-monitoring-server-association"></a><span data-ttu-id="ed3fe-102">Удаление связи с сервером мониторинга</span><span class="sxs-lookup"><span data-stu-id="ed3fe-102">Remove the Monitoring server association</span></span>
 
-Для удаления сервера мониторинга необходимо изменить или очистить зависимость в сервере переднего плана, пуле переднего плана, устройстве для обеспечения связи в филиалах и сервере для обеспечения связи в филиалах. Для удаления зависимости изменяются свойства пула переднего плана, сервера переднего плана, устройства для обеспечения связи в филиалах и сервера для обеспечения связи в филиалах. После очистки зависимости и удаления сервера в построителе топологий вы получите уведомление, что соответствующий объект хранилища баз данных в построителе топологий также будет удален.
+</div>
 
-## Удаление связи с сервером мониторинга
+<div id="mainSection">
 
-1.  Откройте сервер переднего плана Lync Server 2013, откройте построитель топологий.
+<div id="mainBody">
 
-2.  Перейдите к узлу Lync Server 2010.
+<span> </span>
 
-3.  В топологий разверните **Пулы переднего плана Enterprise Edition**, **Серверы переднего плана Standard Edition** или **Сайты филиалов** на основе определенного расположения мониторинга.
+<span data-ttu-id="ed3fe-103">_**Тема последнего изменения:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="ed3fe-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-4.  При наличии привязки для обеспечения связи в филиалах разверните **сайты филиалов** , разверните имя сайта филиала, а затем разверните **комплекс Survivable Branch Appliances** .
+<span data-ttu-id="ed3fe-104">Для удаления сервера мониторинга необходимо изменить или снять зависимость на связанном пуле интерфейсов, сервере переднего плана, работающем устройстве филиала и бесперебойном сервере подразделения.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-104">To remove the Monitoring Server, you need to change or clear the dependency on the associated Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server.</span></span> <span data-ttu-id="ed3fe-105">Вы можете изменить свойства пула переднего плана, сервер переднего плана, бесперебойно работающее устройство филиалов и бесперебойный сервер филиала, чтобы удалить зависимость.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-105">You edit the properties of the Front End pool, Front End Server, Survivable Branch Appliance and Survivable Branch Server to remove the dependency.</span></span> <span data-ttu-id="ed3fe-106">После очистки зависимости и удаления сервера в построителе топологии вы будете уведомлены о том, что связанный объект хранилища базы данных в построителе топологии также будет удален.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-106">After you clear the dependency and delete the server in Topology Builder, you are notified that the associated database store object in Topology Builder will also be deleted.</span></span>
+
+<div>
+
+## <a name="to-remove-the-monitoring-server-association"></a><span data-ttu-id="ed3fe-107">Удаление сопоставления сервера мониторинга</span><span class="sxs-lookup"><span data-stu-id="ed3fe-107">To remove the Monitoring Server association</span></span>
+
+1.  <span data-ttu-id="ed3fe-108">Откройте сервер клиентского доступа Lync Server 2013, откройте построитель топологии.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-108">Open the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+
+2.  <span data-ttu-id="ed3fe-109">Перейдите на узел Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-109">Navigate to the Lync Server 2010 node.</span></span>
+
+3.  <span data-ttu-id="ed3fe-110">В построителе топологии разворачивание **пулов переднего плана Enterprise Edition**, **серверов переднего плана Standard Edition**и **сайтов филиалов**в зависимости от того, где определен сервер мониторинга.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-110">In Topology Builder, expand **Enterprise Edition Front End pools**, **Standard Edition Front End Servers**, or **Branch sites**, based on where the Monitoring Server is defined.</span></span>
+
+4.  <span data-ttu-id="ed3fe-111">Если у вас есть связанный сервер филиалов, разверните **сайты филиалов**, разверните имя сайта филиала, а затем разверните **бесперебойно управляемые устройства филиалов**.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-111">If you have Survivable Branch Server associated, expand **Branch sites**, expand the branch site name, and then expand **Survivable Branch Appliances**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > <strong>Комплекс Survivable Branch Appliances</strong> в интерфейсе пользователя применяется и к для обеспечения связи в филиалах, и к для обеспечения связи в филиалах.
+    > <span data-ttu-id="ed3fe-112"><STRONG>Бесперебойно управляемые устройства ветвления</STRONG> в пользовательском интерфейсе применяются как к бесперебойному, так и к бесперебойному устройству филиала.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-112"><STRONG>Survivable Branch Appliances</STRONG> in the user interface applies to both Survivable Branch Server and Survivable Branch Appliance.</span></span>
 
-5.  Правой кнопкой мыши нажмите пул, сервер или устройство, которое связано с мониторинга, затем нажмите **Изменение свойств**.
+    
+    </div>
 
-6.  В окне **изменения свойств** на вкладке **Общие** в разделе **Связи** снимите флажок **Associate Monitoring Server** (Связать сервер мониторинга) и нажмите кнопку **ОК** .
+5.  <span data-ttu-id="ed3fe-113">Щелкните правой кнопкой мыши пул, сервер или устройство, связанные с сервером мониторинга, и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-113">Right-click the pool, server, or device that is associated with the Monitoring Server, and then click **Edit Properties**.</span></span>
 
-7.  Повторите предыдущее действие для всех остальных пулов, серверов или устройств, связанных с сервером мониторинга.
+6.  <span data-ttu-id="ed3fe-114">В диалоговом окне **изменение свойств**в разделе **Общие**в группе **сопоставления**снимите флажок **сопоставить сервер мониторинга** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-114">In **Edit Properties**, under **General**, under **Associations**, clear the **Associate Monitoring Server** check box, and then click **OK**.</span></span>
 
-8.  Нажмите правой кнопкой мыши мониторинга и выберите **Удалить**.
+7.  <span data-ttu-id="ed3fe-115">Повторите предыдущий шаг для любого другого пула, сервера или устройства, связанного с сервером мониторинга.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-115">Repeat the previous step for any other pool, server or device associated with the Monitoring Server.</span></span>
 
-9.  В области **Delete Dependent Stores** (Удалить зависимые хранилища) щелкните **ОК** .
+8.  <span data-ttu-id="ed3fe-116">Щелкните сервер мониторинга правой кнопкой мыши и выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-116">Right-click the Monitoring Server, and then click **Delete**.</span></span>
 
-10. Опубликуйте топологию, проверьте состояние репликации и при необходимости запустите мастер развертывания Lync Server.
+9.  <span data-ttu-id="ed3fe-117">На вкладке **удалить зависимые магазины**нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-117">On **Delete Dependent Stores**, click **OK**.</span></span>
+
+10. <span data-ttu-id="ed3fe-118">Опубликуйте топологию, проверьте состояние репликации и запустите мастер развертывания Lync Server, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="ed3fe-118">Publish the topology, check replication status, and run the Lync Server Deployment Wizard as needed.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

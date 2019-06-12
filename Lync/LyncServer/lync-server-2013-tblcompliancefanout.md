@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceFanout'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceFanout
 ms:assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg615050(v=OCS.15)
-ms:contentKeyID: 49311677
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615050(v=OCS.15)
+ms:contentKeyID: 48185828
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 6edae4c6e37f5abb6714e7c6863c80b7a6e7756b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849552"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblComplianceFanout в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tblcompliancefanout-in-lync-server-2013"></a><span data-ttu-id="4d0ed-102">tblComplianceFanout в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d0ed-102">tblComplianceFanout in Lync Server 2013</span></span>
 
-tblComplianceFanout содержит все серверы, обработавшие событие соответствия.
+</div>
 
-### Столбцы
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="4d0ed-103">_**Тема последнего изменения:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="4d0ed-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="4d0ed-104">Тблкомплианцефанаут включает все серверы, которые обрабатывали событие соответствия требованиям.</span><span class="sxs-lookup"><span data-stu-id="4d0ed-104">tblComplianceFanout contains all servers that processed a compliance event.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="4d0ed-105">Столбцов</span><span class="sxs-lookup"><span data-stu-id="4d0ed-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,27 +47,27 @@ tblComplianceFanout содержит все серверы, обработавш
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбец</th>
-<th>Тип</th>
-<th>Описание</th>
+<th><span data-ttu-id="4d0ed-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="4d0ed-106">Column</span></span></th>
+<th><span data-ttu-id="4d0ed-107">Тип</span><span class="sxs-lookup"><span data-stu-id="4d0ed-107">Type</span></span></th>
+<th><span data-ttu-id="4d0ed-108">Описание</span><span class="sxs-lookup"><span data-stu-id="4d0ed-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>fanoutEventID</p></td>
-<td><p>целое</p></td>
-<td><p>Идентификатор события.</p></td>
+<td><p><span data-ttu-id="4d0ed-109">Фанаутевентид</span><span class="sxs-lookup"><span data-stu-id="4d0ed-109">fanoutEventID</span></span></p></td>
+<td><p><span data-ttu-id="4d0ed-110">целое</span><span class="sxs-lookup"><span data-stu-id="4d0ed-110">int</span></span></p></td>
+<td><p><span data-ttu-id="4d0ed-111">Код события.</span><span class="sxs-lookup"><span data-stu-id="4d0ed-111">Event ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>fanoutServerID</p></td>
-<td><p>целое</p></td>
-<td><p>Идентификатор сервера (в соответствии с таблицей tblServerIdentity.serverID).</p></td>
+<td><p><span data-ttu-id="4d0ed-112">Фанаутсерверид</span><span class="sxs-lookup"><span data-stu-id="4d0ed-112">fanoutServerID</span></span></p></td>
+<td><p><span data-ttu-id="4d0ed-113">целое</span><span class="sxs-lookup"><span data-stu-id="4d0ed-113">int</span></span></p></td>
+<td><p><span data-ttu-id="4d0ed-114">Идентификация сервера (соответствующая таблице Тблсерверидентити. Серверид).</span><span class="sxs-lookup"><span data-stu-id="4d0ed-114">Server identity (corresponding to tblServerIdentity.serverID table).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Ключ
+### <a name="key"></a><span data-ttu-id="4d0ed-115">Ключ</span><span class="sxs-lookup"><span data-stu-id="4d0ed-115">Key</span></span>
 
 <table>
 <colgroup>
@@ -56,15 +76,26 @@ tblComplianceFanout содержит все серверы, обработавш
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбец</th>
-<th>Описание</th>
+<th><span data-ttu-id="4d0ed-116">Столбец</span><span class="sxs-lookup"><span data-stu-id="4d0ed-116">Column</span></span></th>
+<th><span data-ttu-id="4d0ed-117">Описание</span><span class="sxs-lookup"><span data-stu-id="4d0ed-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>fanoutEventID</p></td>
-<td><p>Внешний ключ с поиском в таблице tblComplianceData.cmplEventID.</p></td>
+<td><p><span data-ttu-id="4d0ed-118">Фанаутевентид</span><span class="sxs-lookup"><span data-stu-id="4d0ed-118">fanoutEventID</span></span></p></td>
+<td><p><span data-ttu-id="4d0ed-119">Внешний ключ с подстановкой в таблице Тблкомплианцедата. Кмплевентид.</span><span class="sxs-lookup"><span data-stu-id="4d0ed-119">Foreign key with lookup in tblComplianceData.cmplEventID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

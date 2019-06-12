@@ -1,49 +1,79 @@
-﻿---
-title: "Lync Server 2013: топол. и компон. для серв. пер. плана, обмена мгн. сообщ. и свед. о присутствии"
-TOCTitle: Топология и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии
-ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412996(v=OCS.15)
-ms:contentKeyID: 49311614
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: топология и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Topologies and components for Front End Servers, instant messaging, and presence
+ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412996(v=OCS.15)
+ms:contentKeyID: 48185763
+ms.date: 10/24/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4bc44790fc9584676cdd10305085b23bd5e99299
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849360"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Топология и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a><span data-ttu-id="0b2d6-102">Топология и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b2d6-102">Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>
 
-Для обмена мгновенными сообщениями и сведениями о присутствии требуются только следующие компоненты:
+</div>
 
-  - Серверы переднего плана организации или серверы Standard Edition. Функции обмена мгновенными сообщениями и сведениями о присутствии всегда включены на этих серверах.
+<div id="mainSection">
 
-  - Подсистема балансировки нагрузки, если используется пул Enterprise Editionпереднего плана. Дополнительные сведения см. в разделе [Требования к балансировке нагрузки в Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+<div id="mainBody">
 
-## Планирование развертывания интерфейсных пулов
+<span> </span>
 
-Архитектура пула переднего плана в Lync Server 2013 была изменена, и эти изменения влияют на планирование и обслуживание пулов переднего плана.
+<span data-ttu-id="0b2d6-103">_**Тема последнего изменения:** 2014-10-24_</span><span class="sxs-lookup"><span data-stu-id="0b2d6-103">_**Topic Last Modified:** 2014-10-24_</span></span>
 
-Рекомендуется, чтобы все ваши пулы Enterprise Editionпереднего плана включали в себя хотя бы три сервера переднего плана. В Lync Server архитектура пулов переднего плана использует модель распределенных систем, в которой данные каждого пользователя хранятся на трех серверах переднего плана в пуле. Дополнительные сведения об этой новой архитектуре см. в разделе [Изменения топологии в Lync Server 2013](lync-server-2013-topology-changes.md).
+<span data-ttu-id="0b2d6-104">Для обмена мгновенными сообщениями и сведениями о присутствии требуются только следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="0b2d6-104">The only components required for instant messaging (IM) and presence are:</span></span>
 
-Если вы не хотите развертывать три сервера Enterprise Editionпереднего плана, но хотите обеспечить аварийное восстановление, рекомендуем использовать Lync ServerStandard Edition и создать два пула с сопряженным резервом. Это позволит получить оптимальное решение аварийного восстановления всего с двумя серверами. Дополнительные сведения о топологиях и возможностях аварийного восстановления см. в разделе [Планирование высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - <span data-ttu-id="0b2d6-105">Серверы переднего плана вашей организации или серверы Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-105">Your organization’s Front End Servers or Standard Edition servers.</span></span> <span data-ttu-id="0b2d6-106">Функции обмена мгновенными сообщениями и сведениями о присутствии всегда включены на этих серверах.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-106">IM and presence capabilities are always enabled on these servers.</span></span>
 
-## Планирование управления интерфейсными пулами
+  - <span data-ttu-id="0b2d6-107">Подсистема балансировки нагрузки, если используется интерфейсный пул Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-107">A load balancer, if you have an Enterprise Edition Front End pool.</span></span> <span data-ttu-id="0b2d6-108">Дополнительные сведения можно найти в разделе [требования балансировки нагрузки для Lync Server 2013](lync-server-2013-load-balancing-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-108">For more information, see [Load balancing requirements for Lync Server 2013](lync-server-2013-load-balancing-requirements.md).</span></span>
 
-Для переднего плана следуйте инструкциям, приведенным в данном разделе.
+<div>
 
-## Проверка работоспособности пулов
+## <a name="planning-for-the-deployment-of-front-end-pools"></a><span data-ttu-id="0b2d6-109">Планирование развертывания интерфейсных пулов на стороне сервера</span><span class="sxs-lookup"><span data-stu-id="0b2d6-109">Planning for the Deployment of Front End Pools</span></span>
 
-С новой распределенной моделью для переднего плана для правильного функционирования пула в нем должно работать определенное число серверов. Существует два режима нехватки для пула
+<span data-ttu-id="0b2d6-110">В Lync Server 2013 архитектура пула переднего плана была изменена, и эти изменения повлияют на планирование и обслуживание пулов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-110">In Lync Server 2013, Front End pool architecture has changed, and these changes affect how you should plan and maintain your Front End pools.</span></span>
 
-  - Нехватка кворума на уровне группы маршрутизации, что вызвано недостаточным количеством серверов-реплик для определенной группы маршрутизации. Группа маршрутизации — это агрегирование группы пользователей, размещенных в пуле. Каждая группа маршрутизации имеет три реплики в пуле: одна главная и две дополнительные.
+<span data-ttu-id="0b2d6-111">Рекомендуется, чтобы все пулы переднего плана Enterprise Edition включали не менее трех серверов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-111">We recommend that all your Enterprise Edition Front End pools include at least three Front End Servers.</span></span> <span data-ttu-id="0b2d6-112">В Lync Server архитектура пулов переднего плана использует модель распределенных систем, при этом данные каждого пользователя хранятся на трех серверах переднего плана в пуле.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-112">In Lync Server, the architecture of Front End pools uses a distributed systems model, with each user’s data kept on three Front End servers in the pool.</span></span> <span data-ttu-id="0b2d6-113">Дополнительные сведения об этой новой архитектуре описаны [в разделе изменения топологии в Lync Server 2013](lync-server-2013-topology-changes.md).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-113">For more information about this new architecture, see [Topology changes in Lync Server 2013](lync-server-2013-topology-changes.md).</span></span>
 
-  - Нехватка кворума на уровне пула, что вызвано недостаточным количеством серверов инициализации в пуле.
+<span data-ttu-id="0b2d6-114">Если вы не хотите развертывать три сервера переднего плана Enterprise Edition и хотите восстановить работоспособность, мы рекомендуем использовать Lync Server Standard Edition и создать два пула с Объединенным отношением резервного копирования.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-114">If you do not want to deploy three Enterprise Edition Front End Servers and want disaster recovery, we recommend you use Lync Server Standard Edition and create two pools with a paired backup relationship.</span></span> <span data-ttu-id="0b2d6-115">Это позволит устранить проблемы с аварийным восстановлением только двух серверов.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-115">This will provide a disaster recovery solution with only two servers.</span></span> <span data-ttu-id="0b2d6-116">Дополнительные сведения о топологиях и возможностях восстановления с высокой доступностью и аварийным восстановлением содержатся [в разделе Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-116">For more information, on high availability and disaster recovery topologies and features, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
 
-## Нехватка кворума на уровне группы маршрутизации
+</div>
 
-При первом запуске пула переднего плана необходимо, чтобы 85% серверов были установлены и запущены, как показано в следующей таблице. Если запущено меньшее количество серверов, службы могут зависнуть в состоянии запуска, а пул может вообще не запуститься.
+<div>
+
+## <a name="planning-for-the-management-of-front-end-pools"></a><span data-ttu-id="0b2d6-117">Планирование управления пулами интерфейсов на стороне сервера</span><span class="sxs-lookup"><span data-stu-id="0b2d6-117">Planning for the Management of Front End Pools</span></span>
+
+<span data-ttu-id="0b2d6-118">Для пулов интерфейсов переднего плана следуйте рекомендациям, приведенным в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-118">For Front End pools, follow the guidelines in this section.</span></span>
+
+<div>
+
+## <a name="ensuring-that-pools-are-functional"></a><span data-ttu-id="0b2d6-119">Обеспечение функциональных возможностей пулов</span><span class="sxs-lookup"><span data-stu-id="0b2d6-119">Ensuring That Pools are Functional</span></span>
+
+<span data-ttu-id="0b2d6-120">При использовании новой распределенной модели для пулов интерфейсов с внешним интерфейсом для функционирования пула необходимо, чтобы были запущены определенные числа серверов пула.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-120">With the new distributed model for Front End pools, certain numbers of a pool’s servers must be running for the pool to function.</span></span> <span data-ttu-id="0b2d6-121">Существует два режима потерь для пула</span><span class="sxs-lookup"><span data-stu-id="0b2d6-121">There are two loss modes for a pool</span></span>
+
+  - <span data-ttu-id="0b2d6-122">Нехватка кворума на уровне группы маршрутизации, что вызвано недостаточным количеством серверов-реплик для определенной группы маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-122">Routing Group Level quorum loss, caused by not enough replica servers for a particular routing group.</span></span> <span data-ttu-id="0b2d6-123">Группа маршрутизации — это совокупность набора пользователей, размещенных в пуле.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-123">A routing group is an aggregation of a set of users homed in the pool.</span></span> <span data-ttu-id="0b2d6-124">У каждой группы маршрутизации есть три реплики в пуле: один первичный и два.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-124">Each routing group has three replicas in the pool: one primary and two secondaries.</span></span>
+
+  - <span data-ttu-id="0b2d6-125">Нехватка кворума на уровне пула, что вызвано недостаточным количеством серверов инициализации в пуле.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-125">Pool Level quorum loss, caused when not enough seed servers are running in the pool.</span></span>
+
+<div>
+
+## <a name="routing-group-level-quorum-loss"></a><span data-ttu-id="0b2d6-126">Нехватка кворума на уровне группы маршрутизации</span><span class="sxs-lookup"><span data-stu-id="0b2d6-126">Routing Group Level quorum loss</span></span>
+
+<span data-ttu-id="0b2d6-p107">При первом запуске нового интерфейсного пула необходимо, чтобы 85% серверов были установлены и запущены, как показано в следующей таблице. Если запущено меньшее количество серверов, службы могут зависнуть в состоянии запуска, а пул может вообще не запуститься.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-p107">The first time you start a new Front End pool, it is essential that 85% of the servers are up and running, as shown in the following table. If fewer servers are running, the services might be stuck in the starting state and the pool might not start.</span></span>
 
 
 <table>
@@ -53,67 +83,78 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Общее количество серверов в пуле</th>
-<th>Количество запущенных серверов, которое требуется для первого запуска пула</th>
+<th><span data-ttu-id="0b2d6-129">Общее количество серверов в пуле</span><span class="sxs-lookup"><span data-stu-id="0b2d6-129">Total number of servers in the pool</span></span></th>
+<th><span data-ttu-id="0b2d6-130">Количество запущенных серверов, которое требуется для первого запуска пула</span><span class="sxs-lookup"><span data-stu-id="0b2d6-130">Number of servers that must be running for the pool to be started the first time</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
+<td><p><span data-ttu-id="0b2d6-131">2</span><span class="sxs-lookup"><span data-stu-id="0b2d6-131">2</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-132">1</span><span class="sxs-lookup"><span data-stu-id="0b2d6-132">1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>3</p></td>
+<td><p><span data-ttu-id="0b2d6-133">3</span><span class="sxs-lookup"><span data-stu-id="0b2d6-133">3</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-134">3</span><span class="sxs-lookup"><span data-stu-id="0b2d6-134">3</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>3</p></td>
+<td><p><span data-ttu-id="0b2d6-135">4</span><span class="sxs-lookup"><span data-stu-id="0b2d6-135">4</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-136">3</span><span class="sxs-lookup"><span data-stu-id="0b2d6-136">3</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>4</p></td>
+<td><p><span data-ttu-id="0b2d6-137">5</span><span class="sxs-lookup"><span data-stu-id="0b2d6-137">5</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-138">4</span><span class="sxs-lookup"><span data-stu-id="0b2d6-138">4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>5</p></td>
+<td><p><span data-ttu-id="0b2d6-139">6</span><span class="sxs-lookup"><span data-stu-id="0b2d6-139">6</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-140">5</span><span class="sxs-lookup"><span data-stu-id="0b2d6-140">5</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
-<td><p>5</p></td>
+<td><p><span data-ttu-id="0b2d6-141">7</span><span class="sxs-lookup"><span data-stu-id="0b2d6-141">7</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-142">5</span><span class="sxs-lookup"><span data-stu-id="0b2d6-142">5</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>8</p></td>
-<td><p>6</p></td>
+<td><p><span data-ttu-id="0b2d6-143">No8</span><span class="sxs-lookup"><span data-stu-id="0b2d6-143">8</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-144">6</span><span class="sxs-lookup"><span data-stu-id="0b2d6-144">6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>9</p></td>
-<td><p>7</p></td>
+<td><p><span data-ttu-id="0b2d6-145">@</span><span class="sxs-lookup"><span data-stu-id="0b2d6-145">9</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-146">7</span><span class="sxs-lookup"><span data-stu-id="0b2d6-146">7</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>10</p></td>
-<td><p>8</p></td>
+<td><p><span data-ttu-id="0b2d6-147">5-10</span><span class="sxs-lookup"><span data-stu-id="0b2d6-147">10</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-148">No8</span><span class="sxs-lookup"><span data-stu-id="0b2d6-148">8</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>11</p></td>
-<td><p>9</p></td>
+<td><p><span data-ttu-id="0b2d6-149">11</span><span class="sxs-lookup"><span data-stu-id="0b2d6-149">11</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-150">@</span><span class="sxs-lookup"><span data-stu-id="0b2d6-150">9</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>12</p></td>
-<td><p>10</p></td>
+<td><p><span data-ttu-id="0b2d6-151">12</span><span class="sxs-lookup"><span data-stu-id="0b2d6-151">12</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-152">5-10</span><span class="sxs-lookup"><span data-stu-id="0b2d6-152">10</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-При каждом последующем запуске пула 85% серверов должны быть запущены (как показано на таблице выше). Если невозможно запустить такое количество серверов (однако можно запустить столько серверов, чтобы избежать нехватку кворума на уровне пула), можно воспользоваться командлетом **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** для восстановления пула из нехватку кворума на уровне группы маршрутизации и запуска хода выполнения. Подробнее об использовании данного командлета см. раздел [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
+<span data-ttu-id="0b2d6-153">При каждом последующем запуске пула 85% серверов должны быть запущены (как показано на таблице выше).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-153">Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table).</span></span> <span data-ttu-id="0b2d6-154">Если невозможно запустить такое количество серверов (однако можно запустить столько серверов, чтобы избежать нехватки кворума на уровне пула), можно воспользоваться командлетом **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** для восстановления пула из нехватки кворума на уровне группы маршрутизации и запуска хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-154">If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** cmdlet to enable the pool to recover from this routing group level quorum loss and make progress.</span></span> <span data-ttu-id="0b2d6-155">Дополнительные сведения о том, как использовать этот командлет, можно найти в разделе [Reset-кспулрегистрарстате](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-155">For more information about how to use this cmdlet, see [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Поскольку в Lync Server используется основная база данных SQL в качестве следящего сервера, то, если будет закрыта основная база данных, выполнено переключение на зеркальную копию и сброшено количество серверов переднего плана, перечисленных в таблице выше, то весь пул будет остановлен. Дополнительные сведения см. в статье <a href="http://go.microsoft.com/fwlink/?linkid=393672">Следящий сервер зеркального отображения базы данных</a>.
+> <span data-ttu-id="0b2d6-156">Так как Lync Server использует основную базу данных SQL в качестве следящего сервера, при закрытии базы данных-источника и переходе на зеркальную копию и завершении достаточного количества серверов переднего плана, так как они не работают в соответствии с предыдущей таблицей, весь пул перейдет вниз.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-156">Because Lync Server uses the Primary SQL database as Witness, if you shut down the primary database and switch to the Mirror copy, and shut down enough Front End Servers so that not enough are running according to the preceding table, the entire pool will go down.</span></span> <span data-ttu-id="0b2d6-157">Дополнительные сведения можно найти в разделе <A href="http://go.microsoft.com/fwlink/?linkid=393672">следящий сервер зеркального отображения базы данных</A>.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-157">For more information, see <A href="http://go.microsoft.com/fwlink/?linkid=393672">Database Mirroring Witness</A>.</span></span>
 
-## Нехватка кворума на уровне пула
 
-Для функционирования пула переднего плана не должно быть нехватки кворума на уровне пула. Если число работающих серверов становится ниже указанного в таблице функционального уровня, оставшиеся серверы в пуле остановят все службы Lync Server. Обратите внимание, что числовые данные в следующей таблице приведены при условии, что тыловое серверы запущены в пуле.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="pool-level-quorum-loss"></a><span data-ttu-id="0b2d6-158">Нехватка кворума на уровне пула</span><span class="sxs-lookup"><span data-stu-id="0b2d6-158">Pool-level quorum loss</span></span>
+
+<span data-ttu-id="0b2d6-159">Для пула интерфейсов переднего плана не может быть потеря кворума на уровне пула.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-159">For a Front End pool to function at all, it cannot be in pool-level quorum loss.</span></span> <span data-ttu-id="0b2d6-160">Если число запущенных серверов не ниже, как показано в приведенной ниже таблице, оставшиеся серверы в пуле будут остановлены во всех службах Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-160">If the number of servers running falls below the functional level as shown in the following table, the remaining servers in the pool will stop all Lync Server services.</span></span> <span data-ttu-id="0b2d6-161">Обратите внимание, что в приведенных ниже таблицах предполагается, что сервер в пуле запущен.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-161">Note that the numbers in the following table assume that the Back End Servers in the pool are running.</span></span>
 
 
 <table>
@@ -123,86 +164,118 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Общее число серверов переднего плана в пуле</th>
-<th>Число работающих серверов, требуемое для правильного функционирования пула</th>
+<th><span data-ttu-id="0b2d6-162">Общее количество серверов переднего плана в пуле</span><span class="sxs-lookup"><span data-stu-id="0b2d6-162">Total number of Front End Servers in the pool</span></span></th>
+<th><span data-ttu-id="0b2d6-163">Число работающих серверов, требуемое для правильного функционирования пула</span><span class="sxs-lookup"><span data-stu-id="0b2d6-163">Number of servers that must be running for pool to be functional</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
+<td><p><span data-ttu-id="0b2d6-164">2</span><span class="sxs-lookup"><span data-stu-id="0b2d6-164">2</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-165">1</span><span class="sxs-lookup"><span data-stu-id="0b2d6-165">1</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>3-4</p></td>
-<td><p>Любые 2</p></td>
+<td><p><span data-ttu-id="0b2d6-166">3-4</span><span class="sxs-lookup"><span data-stu-id="0b2d6-166">3-4</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-167">Любые 2</span><span class="sxs-lookup"><span data-stu-id="0b2d6-167">Any 2</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>5-6</p></td>
-<td><p>Любые 3</p></td>
+<td><p><span data-ttu-id="0b2d6-168">5-6</span><span class="sxs-lookup"><span data-stu-id="0b2d6-168">5-6</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-169">Любые 3</span><span class="sxs-lookup"><span data-stu-id="0b2d6-169">Any 3</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
-<td><p>Любые 4</p></td>
+<td><p><span data-ttu-id="0b2d6-170">7</span><span class="sxs-lookup"><span data-stu-id="0b2d6-170">7</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-171">Любые 4</span><span class="sxs-lookup"><span data-stu-id="0b2d6-171">Any 4</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>8-9</p></td>
-<td><p>Любые 4 из первых 7 серверов</p></td>
+<td><p><span data-ttu-id="0b2d6-172">8-9</span><span class="sxs-lookup"><span data-stu-id="0b2d6-172">8-9</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-173">Любые 4 из первых 7 серверов</span><span class="sxs-lookup"><span data-stu-id="0b2d6-173">Any 4 of the first 7 servers</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>10–12</p></td>
-<td><p>Любые 5 из первых 9 серверов</p></td>
+<td><p><span data-ttu-id="0b2d6-174">10–12</span><span class="sxs-lookup"><span data-stu-id="0b2d6-174">10-12</span></span></p></td>
+<td><p><span data-ttu-id="0b2d6-175">Любые 5 из первых 9 серверов</span><span class="sxs-lookup"><span data-stu-id="0b2d6-175">Any 5 of the first 9 servers</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-В таблице выше "первые серверы" — это серверы, открытые первыми в хронологическом порядке при первом запуске пула. Чтобы определить такие серверы, можно воспользоваться командлетом **Get-CsComputer** с параметром **–PoolFqdn**. Данный командлет отобразит серверы в том порядке, в котором они представлены в топологии. Первые серверы в списке и будут "первыми серверами".
+<span data-ttu-id="0b2d6-176">В предыдущей таблице "первые серверы" — это серверы, которые были первыми, в хронологическом порядке, при запуске пула в первый раз.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-176">In the preceding table, the “first servers” are the servers which were brought up first, chronologically, when the pool was started for the first time.</span></span> <span data-ttu-id="0b2d6-177">Чтобы определить эти серверы, можно использовать командлет **Get-кскомпутер** с параметром **– пулфкдн** .</span><span class="sxs-lookup"><span data-stu-id="0b2d6-177">To determine these servers, you can use the **Get-CsComputer** cmdlet with the **–PoolFqdn** option.</span></span> <span data-ttu-id="0b2d6-178">Этот командлет будет показывать серверы в том порядке, в котором они отображаются в топологии, а в верхней части списка — первые серверы.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-178">This cmdlet will show the servers in the order that they appear in the topology, and the ones at the top of the list are the first servers.</span></span>
 
-## Интерфейсные пулы с двумя серверами переднего плана
+</div>
 
-Мы не рекомендуем развертывать интерфейсный пул, содержащий всего два сервера переднего плана. Если вам все же потребуется развернуть такой пул, следуйте приведенным ниже рекомендациям:
+<div>
 
-  - В случае сбоя одного из двух этих серверов переднего плана вам следует как можно быстрее восстановить его работоспособность. Аналогичным образом, в случае обновления одного из двух серверов его также необходимо вернуть в рабочее состояние как можно быстрее.
+## <a name="front-end-pools-with-two-front-end-servers"></a><span data-ttu-id="0b2d6-179">Пулы интерфейсов с двумя серверами переднего плана</span><span class="sxs-lookup"><span data-stu-id="0b2d6-179">Front End Pools with Two Front End Servers</span></span>
 
-  - Если по какой-либо причине требуется отключить оба сервера одновременно, после окончания простоя пула выполните следующие действия:
+<span data-ttu-id="0b2d6-180">Мы не рекомендуем развертывать пул переднего плана, который включает только два сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-180">We do not recommend deploying a Front End pool that contains only two Front End Servers.</span></span> <span data-ttu-id="0b2d6-181">Если вы когда-либо хотите развернуть такой пул, следуйте этим рекомендациям:</span><span class="sxs-lookup"><span data-stu-id="0b2d6-181">If you do ever need to deploy such a pool, follow these guidelines:</span></span>
+
+  - <span data-ttu-id="0b2d6-182">Если один из двух серверов переднего плана отключается, вы должны попытаться выполнить резервное копирование неисправного сервера по мере их появления.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-182">If one of the two Front End Servers goes down, you should try to bring the failed server back up as soon as you can.</span></span> <span data-ttu-id="0b2d6-183">Аналогичным образом, в случае обновления одного из двух серверов его также необходимо вернуть в рабочее состояние как можно быстрее.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-183">Similarly, if you need to upgrade one of the two servers, bring it back online as soon as the upgrade is finished.</span></span>
+
+  - <span data-ttu-id="0b2d6-184">Если по какой-либо причине требуется отключить оба сервера одновременно, после окончания простоя пула выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="0b2d6-184">If for some reason you need to bring both servers down at the same time, do the following when the downtime for the pool is finished:</span></span>
     
-      - Рекомендуется перезагрузить оба сервера переднего плана одновременно.
+      - <span data-ttu-id="0b2d6-185">Рекомендуется перезапускать оба внешних сервера в одно и то же время.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-185">The best practice is to restart both Front End Servers at the same time.</span></span>
     
-      - Если это невозможно, следует включать их в порядке, обратном порядку их отключения.
+      - <span data-ttu-id="0b2d6-186">Если это невозможно, следует включать их в порядке, обратном порядку их отключения.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-186">If the two servers cannot be restarted at the same time, you should bring them back up in the reverse order of the order they went down.</span></span>
     
-      - Если и это невозможно, перед включением пула выполните следующий командлет:
+      - <span data-ttu-id="0b2d6-187">Если вы не можете выполнить резервное копирование в указанном порядке, используйте следующий командлет, прежде чем приступить к восстановлению пула:.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-187">If you cannot bring them back up in that order, then use the following cmdlet before bringing the pool back up:.</span></span>
         
             Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>
 
-## Дополнительные способы проверки работоспособности пулов
+</div>
 
-Для проверки функционирования пулов переднего плана требуется обратить внимание на еще несколько факторов.
+<div>
 
-  - При первом перемещении пользователей в пул обязательно убедитесь, что запущено не менее трех серверов переднего плана.
+## <a name="additional-steps-to-ensure-pools-are-functional"></a><span data-ttu-id="0b2d6-188">Дополнительные действия по обеспечению работоспособности пулов</span><span class="sxs-lookup"><span data-stu-id="0b2d6-188">Additional Steps to Ensure Pools are Functional</span></span>
 
-  - Если вы устанавливаете отношение связывания между данным пулом и другим пулом в целях обеспечения аварийного восстановления, по после этого вам следует убедиться, что данный пул имеет три одновременно работающих сервера переднего плана для правильной синхронизации данных с резервным пулом. Дополнительные сведения о возможностях связывания пулов и аварийного восстановления см. в разделе [Планирование высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+<span data-ttu-id="0b2d6-189">Для проверки функционирования пулов переднего плана требуется обратить внимание на еще несколько факторов.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-189">You should watch for a couple of other factors to ensure that your Front End pools remain functional.</span></span>
 
-## Повышение уровня стабильности обновления пулов
+  - <span data-ttu-id="0b2d6-190">При первом перемещении пользователей в пул убедитесь, что запущены по крайней мере три сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-190">When you move users to the pool for the first time, be sure at least three of the Front End Servers are running.</span></span>
 
-Для обновления или исправления серверов в пуле переднего плана следуйте инструкциям, представленным в разделе [Обновление серверов переднего плана в Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md), а также следующим рекомендациям:
+  - <span data-ttu-id="0b2d6-191">Если вы установили отношение связывания между этим пулом и другим пулом для целей аварийного восстановления, после того как вы установите это отношение, вы должны убедиться, что в этом пуле одновременно работают три сервера переднего плана. данные из пула резервных копий.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-191">If you establish a pairing relationship between this pool and another pool for disaster recovery purposes, then after establishing that relationship you must be sure this pool has three Front End Servers running simultaneously at some time to properly synchronize data with the backup pool.</span></span> <span data-ttu-id="0b2d6-192">Более подробную информацию о функциях связывания и аварийного восстановления пула можно найти [в разделе Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-192">For more information on pool pairing and disaster recovery features, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
 
-  - При переходе с одного домена обновления на другой для выполнения обновлений (следуя инструкциям в разделе [Обновление серверов переднего плана в Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)), воспользуйтесь командлетом **Get-CsPoolUpgradeReadinessState** и проверьте состояние готовности. Можно повысить уровень стабильности обновлений, добавив 20 минут ожидания между каждым доменом обновления после достижения состояния "Готово". Если в течение 20 минут отображается состояние **Не готово**, перезапустите 20-минутный таймер. Кроме того, можно выполнить командлет **Get-CsPoolFabricState** до и после 20-минутного интервала и убедиться, что никакие изменения в основные и дополнительные группы маршрутизации внесены не были.
+</div>
 
-  - Не переходите к следующему домену обновления, если какой-либо из серверов в последнем исправленном домене обновления завис или не перезапустился. Это также актуально, если не запускается любой из серверов в обновлении. Выполните командлет **Get-CsPoolFabricState**, чтобы убедиться, что все группы маршрутизации имеют одну основную и по крайней мере одну дополнительную группу. Это подтвердит наличие службы для всех пользователей.
+</div>
 
-  - Если у некоторых пользователей есть служба, а других — нет, запустите командлет **Get-CsPoolFabricState** с параметром –Verbose для обнаружения групп маршрутизации с отсутствующими репликами. Не перезапускайте весь пул на первом шаге устранения неполадки. Подробнее о данном командлете см. раздел [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
+<div>
 
-  - Убедитесь, что все окна средства просмотра событий или системного монитора закрыты для выполнения установок или удалений в Windows Fabric.
+## <a name="improving-the-reliability-of-pool-upgrades"></a><span data-ttu-id="0b2d6-193">Повышение надежности кластерных обновлений</span><span class="sxs-lookup"><span data-stu-id="0b2d6-193">Improving the Reliability of Pool Upgrades</span></span>
 
-## Изменение конфигурации интерфейсного пула
+<span data-ttu-id="0b2d6-194">Если вам нужно обновить или обновить серверы в пуле переднего плана, выполните действия, указанные в [статье обновление и обновление серверов переднего плана в Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md), и следующие рекомендации.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-194">When you need to upgrade or patch the servers in a Front End pool, follow the workflow shown in [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md), and the following guidelines:</span></span>
 
-При добавлении серверов переднего плана в пул, их удалении из пула и публикации новой топологии следуйте приведенным ниже рекомендациям:
+  - <span data-ttu-id="0b2d6-195">При переходе с одного домена обновления на другой для обновления (после обновления [или обновления серверов переднего плана в Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)) вы будете использовать командлет **Get-кспулупградереадинессстате** и проверяйте состояние готовности.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-195">When you move from one upgrade domain to another for upgrades (following the workflow at [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)), you will use the **Get-CsPoolUpgradeReadinessState** cmdlet and check for Ready state.</span></span> <span data-ttu-id="0b2d6-196">Добавление в течение 20 минут ожидания между каждым доменом обновления после того, как он достигнет значения "Готово", повышает надежность обновлений.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-196">Adding a 20-minute wait between each upgrade domain after it reaches “Ready” will make the upgrades more reliable.</span></span> <span data-ttu-id="0b2d6-197">Если он **не будет готов** в течение 20 минут, перезапустите 20-минутный таймер.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-197">If it becomes **Not Ready** during this 20 minutes, restart the 20-minute timer.</span></span> <span data-ttu-id="0b2d6-198">Кроме того, вы можете запустить командлет **Get-кспулфабрикстате** до и после 20-минутного интервала времени и убедиться в отсутствии изменений в первичных и логических категориях групп маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-198">Also, you can run the **Get-CsPoolFabricState** cmdlet before and after starting the 20-minute interval and make sure there are no changes to the primaries and secondaries of routing groups.</span></span>
 
-  - После публикации новой топологии следует перезапустить каждый сервер переднего плана в пуле. Перезапускайте их по одному.
+  - <span data-ttu-id="0b2d6-199">Не переходите к следующему домену обновления, если один из серверов в последнем домене обновления задерживается или не перезапускается.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-199">Do not move on to the next upgrade domain if any of the servers in the last patched upgrade domain are stuck or not restarted.</span></span> <span data-ttu-id="0b2d6-200">Это также применимо, если не удается запустить какой – либо сервер, на котором находится обновление.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-200">This also applies if any of the servers within an upgrade cannot start.</span></span> <span data-ttu-id="0b2d6-201">Запустите **Get-кспулфабрикстате** , чтобы убедиться, что у всех групп маршрутизации есть основной и хотя бы один вспомогательный. Это подтвердит, есть ли у всех пользователей обслуживание.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-201">Run **Get-CsPoolFabricState** to make sure all of the routing groups have a primary and at least one secondary; this will confirm whether all users have service.</span></span>
 
-  - Если во время изменения конфигурации был отключен весь пул, после публикации новой топологии запустите следующий командлет:
+  - <span data-ttu-id="0b2d6-202">Если у некоторых пользователей есть служба и другие пользователи, запустите **Get-кспулфабрикстате** с параметром – verbose для поиска групп маршрутизации с отсутствующими репликами.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-202">If some users have service and others do not, run **Get-CsPoolFabricState** with the –Verbose option to check for routing groups that have missing replicas.</span></span> <span data-ttu-id="0b2d6-203">Не перезапускайте весь пул как первый шаг для устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-203">Do not restart the entire pool as the first troubleshooting step.</span></span> <span data-ttu-id="0b2d6-204">Дополнительные сведения об этом командлете можно найти в [статьях Get-кспулфабрикстате](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-204">For more information on this cmdlet, see [Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState).</span></span>
+
+  - <span data-ttu-id="0b2d6-205">Убедитесь, что все экземпляры окна просмотра событий или системного монитора закрыты для Windows Fabric (устанавливается или удаляет).</span><span class="sxs-lookup"><span data-stu-id="0b2d6-205">Make sure that all instances of the Event Viewer or Performance Monitor windows are closed for windows fabric installs/uninstalls.</span></span>
+
+</div>
+
+<div>
+
+## <a name="changing-a-front-end-pools-configuration"></a><span data-ttu-id="0b2d6-206">Изменение конфигурации пула переднего плана</span><span class="sxs-lookup"><span data-stu-id="0b2d6-206">Changing a Front End Pool’s Configuration</span></span>
+
+<span data-ttu-id="0b2d6-207">Каждый раз, когда вы добавляете серверы переднего плана в пул или удаляете их из пула, а затем публикуете новую топологию, следуйте этим рекомендациям:</span><span class="sxs-lookup"><span data-stu-id="0b2d6-207">Whenever you add Front End Servers to a pool, or remove them from the pool, and then publish the new topology, follow these guidelines:</span></span>
+
+  - <span data-ttu-id="0b2d6-208">После публикации новой топологии необходимо перезапустить каждый сервер переднего плана в пуле.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-208">After the new topology has been published, you must restart each Front End Server in the pool.</span></span> <span data-ttu-id="0b2d6-209">Перезапускайте их по одному.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-209">Restart them one at a time.</span></span>
+
+  - <span data-ttu-id="0b2d6-210">Если во время изменения конфигурации весь пул был остановлен, после публикации новой топологии запустите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="0b2d6-210">If the entire pool has been down during the configuration change, then run the following cmdlet after the new topology is published:</span></span>
     
         Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset
 
-Если сервер переднего плана ломается и вряд ли будет заменен только через несколько дней или позднее, удалите этот сервер из топологии. Когда новый сервер переднего плана вновь станет доступен, добавьте его в топологию.
+<span data-ttu-id="0b2d6-211">Если сервер переднего плана завершается сбоем и вряд ли будет заменен на несколько дней или больше, удалите сервер из топологии.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-211">If a Front End Server fails and is unlikely to be replaced for a few days or more, remove the server from the topology.</span></span> <span data-ttu-id="0b2d6-212">Добавьте новый сервер переднего плана в топологию, когда он снова станет доступен.</span><span class="sxs-lookup"><span data-stu-id="0b2d6-212">Add the new Front End Server to the topology when it is available again.</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

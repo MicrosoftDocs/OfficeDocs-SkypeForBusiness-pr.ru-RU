@@ -1,52 +1,105 @@
-﻿---
-title: Настройка хранилища для архивации
-TOCTitle: Настройка хранилища для архивации
-ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205392(v=OCS.15)
-ms:contentKeyID: 49311699
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Настройка хранилища для архивации'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up storage for Archiving
+ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205392(v=OCS.15)
+ms:contentKeyID: 48185858
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6728c02e9aa73faceaa8b3e681a5cf9cc4c700cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849685"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Настройка хранилища для архивации
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a><span data-ttu-id="6e741-102">Настройка хранилища для архивации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e741-102">Setting up storage for Archiving in Lync Server 2013</span></span>
 
-Хранилище архивации для Lync Server 2013 включает следующие компоненты.
+</div>
 
-  - **Хранилище данных** ? хранилище данных необходимо для хранения содержимого мгновенных сообщений.
+<div id="mainSection">
 
-  - **Хранилище файлов** ? хранилище файлов необходимо для хранения данных содержимого конференций (собраний) и файлов.
+<div id="mainBody">
 
-## Настройка хранилища данных
+<span> </span>
 
-Требования для настройки хранилища данных для функции архивации в Lync Server 2013 зависят от желаемых условий хранения данных архивации:
+<span data-ttu-id="6e741-103">_**Тема последнего изменения:** 2013-12-17_</span><span class="sxs-lookup"><span data-stu-id="6e741-103">_**Topic Last Modified:** 2013-12-17_</span></span>
 
-  - интеграция функции архивации Lync Server 2013 с развертыванием Exchange для хранения данных архивации в хранилище Exchange;
+<span data-ttu-id="6e741-104">Архивирование хранилища для Lync Server 2013 включает в себя следующее:</span><span class="sxs-lookup"><span data-stu-id="6e741-104">Archiving storage for Lync Server 2013 includes the following:</span></span>
 
-  - настройка отдельных серверов баз данных SQL Server для хранения данных архивации.
+  - <span data-ttu-id="6e741-105">\*\*\*\*   Хранилище данных хранилища данных необходимо для хранения содержимого для обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="6e741-105">**Data storage**   Data storage is required to store IM content.</span></span>
 
-## Настройка хранилищ Exchange для архивации данных
+  - <span data-ttu-id="6e741-106">\*\*\*\* Хранение файлов в хранилище файлов требуется для хранения данных и хранения файлов в конференц-заходе (собраниях).   </span><span class="sxs-lookup"><span data-stu-id="6e741-106">**File storage**   File storage is required to store conferencing (meeting) content data storage and file storage.</span></span>
 
-Чтобы настроить Exchange для хранения архивных данных, в развертывании Exchange должен быть запущен продукт Exchange 2013. Кроме того, почтовые ящики пользователей должны размещаться на сервере Exchange 2013 и находиться в режиме хранения на месте. Дополнительные сведения о настройке Exchange 2013 см. в документации по продукту Exchange.
+<div>
 
-## Настройка серверов баз данных SQL Server для хранения данных архивации
+## <a name="setting-up-data-storage"></a><span data-ttu-id="6e741-107">Настройка хранилища данных</span><span class="sxs-lookup"><span data-stu-id="6e741-107">Setting Up Data Storage</span></span>
 
-Архивация в Lync Server 2013 требует использования программного обеспечения баз данных SQL Server для хранения архивированных данных, если развертывание не интегрировано с Exchange.
+<span data-ttu-id="6e741-108">Требования для настройки хранения данных для архивации в Lync Server 2013 зависят от того, как вы хотите хранить данные для архивации.</span><span class="sxs-lookup"><span data-stu-id="6e741-108">Requirements for setting up data storage for Archiving in Lync Server 2013 depend on how you want to store archiving data:</span></span>
 
-Для баз данных архивации SQL Server необходимо установить SQL Server на компьютер, на котором будет размещаться база данных архивации. Можно использовать тот же экземпляр SQL, который используется для серверной базы данных пула переднего плана. Для повышения производительности необходимо развернуть базу данных архивации на компьютере, который отделен от центрального хранилища управления. Дополнительные сведения о совместном размещении компонентов Lync Server 2013 см. в разделе [Поддерживаемое совместное размещение серверов в Lync Server 2013](lync-server-2013-supported-server-collocation.md) документации по обеспечению поддержки.
+  - <span data-ttu-id="6e741-109">Интеграция сервера Lync Server 2013 архивирование и развертывание Exchange для хранения данных архивации с помощью Exchange Storage.</span><span class="sxs-lookup"><span data-stu-id="6e741-109">Integrate Lync Server 2013 Archiving with your Exchange deployment to store Archiving data using Exchange storage.</span></span>
 
-На каждом сервере базы данных должна выполняться поддерживаемая версия SQL Server. Дополнительные свдения о поддерживаемых версиях см.[Технические требования к архивации в Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) в разделе документации по планированию.
+  - <span data-ttu-id="6e741-110">Настройте отдельные серверы баз данных SQL Server для хранения данных архивации.</span><span class="sxs-lookup"><span data-stu-id="6e741-110">Set up separate SQL Server database servers to store Archiving data.</span></span>
 
-Платформы SQL Server необходимо настроить перед развертыванием и включением архивации. Если учетная запись, которую планируется использовать для публикации топологии, имеет соответствующие права и разрешения администратора, базу данных архивации (LcsLog) можно создать при публикации топологии. Базу данных можно создать и позднее в ходе процедуры установки. Дополнительные сведения о SQL Server см. на веб-сайте SQL Server TechCenter по адресу [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x419).
+<div>
+
+## <a name="setting-up-exchange-storage-for-archiving-data"></a><span data-ttu-id="6e741-111">Настройка хранилища Exchange для архивации данных</span><span class="sxs-lookup"><span data-stu-id="6e741-111">Setting Up Exchange Storage for Archiving Data</span></span>
+
+<span data-ttu-id="6e741-112">Чтобы настроить Exchange для хранения данных архивации, необходимо, чтобы на сервере Exchange Server было установлено приложение Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="6e741-112">Setting up Exchange for storage of Archiving data requires that your Exchange deployment is running Exchange 2013.</span></span> <span data-ttu-id="6e741-113">Кроме того, почтовые ящики пользователей должны располагаться на сервере Exchange 2013, а их почтовые ящики должны быть помещены на хранение на месте.</span><span class="sxs-lookup"><span data-stu-id="6e741-113">Additionally, user mailboxes must be homed on the Exchange 2013 server and their mailboxes must be put on In-Place Hold.</span></span> <span data-ttu-id="6e741-114">Подробные сведения о настройке Exchange 2013 можно найти в документации по продукту Exchange.</span><span class="sxs-lookup"><span data-stu-id="6e741-114">For details about configuring Exchange 2013, see the Exchange product documentation.</span></span>
+
+</div>
+
+<div>
+
+## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a><span data-ttu-id="6e741-115">Настройка серверов базы данных SQL Server для хранения данных архивации</span><span class="sxs-lookup"><span data-stu-id="6e741-115">Setting Up SQL Server Database Servers for Storage of Archiving Data</span></span>
+
+<span data-ttu-id="6e741-116">Для архивации в Lync Server 2013 необходимо, чтобы программа базы данных SQL Server сохранит архивированные данные, если вы не интегрируете развертывание с Exchange.</span><span class="sxs-lookup"><span data-stu-id="6e741-116">Archiving in Lync Server 2013 requires the SQL Server database software to store the archived data, unless you integrate your deployment with Exchange.</span></span>
+
+<span data-ttu-id="6e741-117">Для баз данных архивации SQL Server необходимо установить SQL Server на компьютере, на котором будет размещена база данных архивации.</span><span class="sxs-lookup"><span data-stu-id="6e741-117">For SQL Server archiving databases, you must install SQL Server on the computer that will host the Archiving database.</span></span> <span data-ttu-id="6e741-118">Вы можете использовать тот же экземпляр SQL, который вы используете для серверной базы данных в пуле переднего плана.</span><span class="sxs-lookup"><span data-stu-id="6e741-118">You can use the same SQL instance that you use for the back-end database of a Front End pool.</span></span> <span data-ttu-id="6e741-119">Для оптимальной производительности следует развернуть базу данных архивации на компьютере, отдельном от хранилища центрального управления.</span><span class="sxs-lookup"><span data-stu-id="6e741-119">For best performance, you should deploy the Archiving database on a computer that is separate from the Central Management store.</span></span> <span data-ttu-id="6e741-120">Подробные сведения о размещении компонентов Lync Server 2013 можно найти в разделе Поддерживаемые параметры совместного отображения [серверов в Lync server 2013](lync-server-2013-supported-server-collocation.md) в документации по поддержке.</span><span class="sxs-lookup"><span data-stu-id="6e741-120">For details about collocating Lync Server 2013 components, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
+
+<span data-ttu-id="6e741-121">На каждом сервере базы данных должна быть установлена поддерживаемая версия SQL Server.</span><span class="sxs-lookup"><span data-stu-id="6e741-121">Each database server must be running a supported version of SQL Server.</span></span> <span data-ttu-id="6e741-122">Подробные сведения о поддерживаемых версиях можно найти в статьях [технические требования для архивации в Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="6e741-122">For details about the supported versions, see [Technical requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="6e741-123">Перед развертыванием и включением архивации необходимо настроить платформы SQL Server.</span><span class="sxs-lookup"><span data-stu-id="6e741-123">You must set up the SQL Server platforms prior to deploying and enabling Archiving.</span></span> <span data-ttu-id="6e741-124">Если учетная запись, которую планируется использовать для публикации топологии, имеет соответствующие права и разрешения администратора, базу данных архивации (LcsLog) можно создать при публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="6e741-124">If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology.</span></span> <span data-ttu-id="6e741-125">Кроме того, вы можете создать базу данных позже, в том числе в ходе процедуры установки.</span><span class="sxs-lookup"><span data-stu-id="6e741-125">You can also create the database later, including as part of the installation procedure.</span></span> <span data-ttu-id="6e741-126">Подробные сведения о SQL Server можно найти в центре SQL Server TechCenter [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)по адресу.</span><span class="sxs-lookup"><span data-stu-id="6e741-126">For details about SQL Server, see the SQL Server TechCenter at [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Убедитесь, что тип запуска службы агента сервера SQL Server имеет значение &quot;Автоматически&quot;, а служба агента SQL Server выполняется для экземпляра SQL, который содержит базы данных архивации, чтобы задания архивации обслуживания сервера SQL Server по умолчанию выполнялись на запланированной основе под управлением службы агента сервера SQL Server.
+> <span data-ttu-id="6e741-127">Убедитесь, что тип запуска службы агента SQL Server является автоматическим, и служба агента SQL Server запущена для экземпляра SQL, который удерживает базу данных архивации, чтобы его можно было использовать по умолчанию для задания обслуживания SQL Server для архивации на основе Управление службой агента SQL Server.</span><span class="sxs-lookup"><span data-stu-id="6e741-127">Ensure that the SQL Server Agent Service Startup Type is Automatic and the SQL Server Agent Service is running for the SQL Instance which is holding the Archiving database, so that the Default Archiving SQL Server Maintenance Job can run on its scheduled basis under the control of the SQL Server Agent Service.</span></span>
 
-## Настройка хранилища файлов
 
-Функция архивации использует общю папку Lync Server 2013 , указанную при настройке пула переднего плана или стандартного выпуска сервера. Общую папку, используемую для архивации, нельзя изменить. Дополнительные сведения о поддерживаемых системах хранилищ файлов см. в разделе [Поддержка хранения файлов в Lync Server 2013](lync-server-2013-file-storage-support.md) документации по обеспечению поддержки.
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="setting-up-file-storage"></a><span data-ttu-id="6e741-128">Настройка хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="6e741-128">Setting Up File Storage</span></span>
+
+<span data-ttu-id="6e741-129">При архивации используется общий файловый сервер Lync Server 2013, который вы указали при настройке пула переднего плана или сервера Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="6e741-129">Archiving uses the Lync Server 2013 file share that you specified when you set up your Front End pool or Standard Edition server.</span></span> <span data-ttu-id="6e741-130">Вы не можете изменить общую файловую панель, используемую для архивации.</span><span class="sxs-lookup"><span data-stu-id="6e741-130">You cannot change the file share used for Archiving.</span></span> <span data-ttu-id="6e741-131">Подробные сведения о поддерживаемых системах хранения файлов можно найти [в разделе Поддержка хранения файлов в Lync Server 2013](lync-server-2013-file-storage-support.md) в документации по поддержке.</span><span class="sxs-lookup"><span data-stu-id="6e741-131">For details about supported file storage systems, see [File storage support in Lync Server 2013](lync-server-2013-file-storage-support.md) in the Supportability documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

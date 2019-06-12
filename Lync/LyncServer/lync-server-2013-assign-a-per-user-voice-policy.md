@@ -1,86 +1,76 @@
-﻿---
-title: Назначение политики голосовых служб уровня пользователя
-TOCTitle: Назначение политики голосовых служб уровня пользователя
-ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688155(v=OCS.15)
-ms:contentKeyID: 49888114
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Назначение политики голосовых служб уровня пользователя
+title: 'Lync Server 2013: назначение политики голосовой связи для отдельных пользователей'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user voice policy
+ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)
+ms:contentKeyID: 49733758
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e74bebc202a9e8d9fbc7b925c14bbe030e4c577
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849751"
+---
+# <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a><span data-ttu-id="605f8-102">Назначение политики голосовой связи для пользователя в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="605f8-102">Assign a per-user voice policy in Lync Server 2013</span></span>
 
  
 
-_**Дата изменения раздела:** 2013-02-22_
 
-Глобальная политика голосовой связи и политика уровня сайта автоматически назначаются всем учетным записям Lync Server 2013 с поддержкой корпоративной голосовой связи. Политики голосовой связи также можно назначать отдельным пользователям с помощью панели управления Lync Server 2013 или командная консоль Lync Server 2013. Используйте процедуры, представленные в этом разделе, для явного назначения политик уровня пользователя пользователям Lync Server.
+<span data-ttu-id="605f8-103">Глобальные и высокоуровневые политики на уровне сайта автоматически назначаются всем учетным записям пользователей Lync Server 2013, которые включены для корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="605f8-103">Global and site-level voice policies are automatically assigned to all Lync Server 2013 user accounts that are enabled for Enterprise Voice.</span></span> <span data-ttu-id="605f8-104">Вы также можете назначать политики голосовой связи определенным пользователям с помощью панели управления Lync Server 2013 или командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="605f8-104">You can also assign voice policies to specific users by using either the Lync Server 2013 Control Panel or the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="605f8-105">С помощью процедур, описанных в этом разделе, явным образом назначьте политики для пользователей Lync Server.</span><span class="sxs-lookup"><span data-stu-id="605f8-105">Use the procedures in this topic to explicitly assign per-user policies to Lync Server users.</span></span>
 
-## Назначение политики голосовой связи для пользователя с помощью панели управления Lync Server
+## <a name="to-assign-a-user-specific-voice-policy-using-the-lync-server-control-panel"></a><span data-ttu-id="605f8-106">Назначение особой политики голосовой связи с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="605f8-106">To assign a user-specific voice policy using the Lync Server Control Panel</span></span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
+1.  <span data-ttu-id="605f8-107">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="605f8-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  <span data-ttu-id="605f8-108">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="605f8-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="605f8-109">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="605f8-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  В левой панели навигации щелкните **Пользователи** и выполните поиск учетной записи, которую вы хотите настроить.
+3.  <span data-ttu-id="605f8-110">В левой панели навигации нажмите **Пользователи** и выполните поиск учетной записи, которую вы хотите настроить.</span><span class="sxs-lookup"><span data-stu-id="605f8-110">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
 
-4.  В таблице, в которой перечислены результаты поиска, щелкните учетную запись пользователя, нажмите кнопку **Изменить** и нажмите кнопку **Подробнее**.
+4.  <span data-ttu-id="605f8-111">В таблице с результатами поиска выберите нужную учетную запись, нажмите кнопку **Изменить** и выберите пункт **Показать сведения**.</span><span class="sxs-lookup"><span data-stu-id="605f8-111">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-5.  В окне **Изменение пользователя Lync Server** в разделе **Политика голосовой связи** выберите необходимую политику пользователя.
+5.  <span data-ttu-id="605f8-112">В диалоговом окне **изменение пользователя Lync Server** в разделе **политика голосовой связи**выберите политику пользователей, которую вы хотите применить.</span><span class="sxs-lookup"><span data-stu-id="605f8-112">In **Edit Lync Server User** under **Voice policy**, select the user policy that you want to apply.</span></span>
     
+
     > [!NOTE]  
-    > Настройки <strong>&lt;Автоматические&gt;</strong> применяются к серверу по умолчанию или к настройкам глобальной политики.
+    > <span data-ttu-id="605f8-113">Параметры <STRONG> &lt;автоматической&gt; </STRONG> настройки применяются к параметрам сервера или глобальной политики, используемым по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="605f8-113">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.</span></span>
 
-## Назначение политики голосовой связи уровня пользователя с помощью Командная консоль Lync Server
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
+## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="605f8-114">Назначение политики голосовой почты для пользователей с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="605f8-114">Assigning a Per-User Voice Policy by using Windows PowerShell Cmdlets</span></span>
 
-3.  Чтобы назначить пользователю существующую политику голосовой связи уровня пользователя, выполните следующую команду в командной строке.
-    
-        Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
-    
-    Пример:
-    
-        Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
-    
-    В этом примере пользователю с отображаемым именем Боб Келли назначается политика голосовой связи с именем **VoicePolicyJapan**.
+<span data-ttu-id="605f8-115">Вы можете назначать политики голосовой связи для пользователей с помощью Windows PowerShell и командлета **Grant-ксвоицеполици** .</span><span class="sxs-lookup"><span data-stu-id="605f8-115">You can assign per-user voice policies by using Windows PowerShell and the **Grant-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="605f8-116">Этот командлет можно выполнить из управляющей оболочки Lync Server 2013 или из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="605f8-116">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="605f8-117">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="605f8-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-Дополнительные сведения о назначении политики голосовой связи уровня пользователя и об использовании командлета **Grant-CsVoicePolicy** см. в документации [Командная консоль Lync Server](lync-server-2013-lync-server-management-shell.md).
+## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a><span data-ttu-id="605f8-118">Назначение политики голосовой почты для отдельного пользователя</span><span class="sxs-lookup"><span data-stu-id="605f8-118">To assign a per-user voice policy to a single user</span></span>
 
-## Назначение политики голосовой связи уровня пользователя с помощью командлетов Windows PowerShell
-
-Политики голосовой связи уровня пользователя также можно назначать с помощью Windows PowerShell и командлета **Grant-CsVoicePolicy**. Этот командлет можно выполнить из командная консоль Lync Server 2013 или из удаленного сеанса Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-## Назначение политики голосовой связи уровня пользователя одному пользователю
-
-  - Следующая команда назначает политику голосовой связи уровня пользователя с именем RedmondVoicePolicy пользователю Ken Myer.
+  - <span data-ttu-id="605f8-119">Следующая команда назначает пользовательскую политику голосовой связи "на пользователя", Редмондвоицеполици с пользователем Кен мер.</span><span class="sxs-lookup"><span data-stu-id="605f8-119">The following command assigns the per-user voice policy RedmondVoicePolicy to the user Ken Myer.</span></span>
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## Назначение политики голосовой связи уровня пользователя нескольким пользователям
+## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a><span data-ttu-id="605f8-120">Назначение политики голосовой почты для каждого пользователя нескольким пользователям</span><span class="sxs-lookup"><span data-stu-id="605f8-120">To assign a per-user voice policy to multiple users</span></span>
 
-  - Эта команда назначает политику голосовой связи уровня пользователя с именем FinanceVoicePolicy всем пользователям с учетными записями подразделения Finance в Active Directory. Дополнительные сведения о параметре OU, используемом в этой команде, см. в документации по командлету [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - <span data-ttu-id="605f8-121">Эта команда назначает политику голосовой связи для пользователя Финанцевоицеполици всем пользователям, у которых есть учетные записи в подразделении "Финансы" в Active Directory.</span><span class="sxs-lookup"><span data-stu-id="605f8-121">This command assigns the per-user voice policy FinanceVoicePolicy to all the users who have accounts in the Finance OU in Active Directory.</span></span> <span data-ttu-id="605f8-122">Дополнительные сведения о параметре OU, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="605f8-122">For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## Отмена назначения политики голосовой связи уровня пользователя
+## <a name="to-unassign-a-per-user-voice-policy"></a><span data-ttu-id="605f8-123">Отмена назначения политики голосовой почты для пользователя</span><span class="sxs-lookup"><span data-stu-id="605f8-123">To unassign a per-user voice policy</span></span>
 
-  - Следующая команда отменяет политику голосовой связи уровня пользователя, назначенную пользователю Ken Myer. После отмены политики уровня пользователя к пользователю Ken Myer будет автоматически применяться глобальная политика или локальная политика сайта (если она существует). Политика сайта имеет приоритет над глобальной политикой.
+  - <span data-ttu-id="605f8-124">Следующая команда отменяет назначение любой политики голосовой почты для каждого пользователя, ранее назначенной для Кен мер.</span><span class="sxs-lookup"><span data-stu-id="605f8-124">The following command unassigns any per-user voice policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="605f8-125">После отмены назначения для Кена Майера будет автоматически действовать глобальная политика или локальная политика сайта, если такая существует.</span><span class="sxs-lookup"><span data-stu-id="605f8-125">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="605f8-126">Политика сайта имеет приоритет над глобальной политикой.</span><span class="sxs-lookup"><span data-stu-id="605f8-126">A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения см. в разделе справки по командлету [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
+<span data-ttu-id="605f8-127">Дополнительные сведения можно найти в разделе справки о командлете [Grant-ксвоицеполици](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="605f8-127">For more information, see the help topic for the [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) cmdlet.</span></span>
 
-## См. также
+## <a name="see-also"></a><span data-ttu-id="605f8-128">См. также</span><span class="sxs-lookup"><span data-stu-id="605f8-128">See Also</span></span>
 
-#### Задачи
 
-[Отключение пользователя от корпоративной голосовой связи](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
+[<span data-ttu-id="605f8-129">Отключение пользователя для корпоративного голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="605f8-129">Disable a user for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
 
-#### Другие ресурсы
 
-[Командная консоль Lync Server](lync-server-2013-lync-server-management-shell.md)
+[<span data-ttu-id="605f8-130">командная консоль Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="605f8-130">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
 

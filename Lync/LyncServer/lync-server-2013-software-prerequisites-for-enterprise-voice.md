@@ -1,41 +1,75 @@
-﻿---
-title: "Lync Server 2013: необходимое ПО для корпоративной голосовой связи"
-TOCTitle: Необходимое программное обеспечение для корпоративной голосовой связи
-ms:assetid: 41172119-9631-46c7-9d9f-386d951c650b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425916(v=OCS.15)
-ms:contentKeyID: 49309564
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: необходимое программное обеспечение для корпоративной голосовой связи'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Software prerequisites for Enterprise Voice
+ms:assetid: 41172119-9631-46c7-9d9f-386d951c650b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425916(v=OCS.15)
+ms:contentKeyID: 48183960
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9ac981d7a30a85d25d2dfb376cfa34f812e898bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849652"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Необходимое программное обеспечение для корпоративной голосовой связи в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-03_
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="6e3bf-102">Необходимое программное обеспечение для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e3bf-102">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>
 
-Убедитесь в том, что инфраструктура, в которой вы планируете развертывать корпоративную голосовую связь, соответствует следующим предварительным требованиям к программному обеспечению.
+</div>
 
-  - В сети установлен и функционирует сервер Lync Server 2013 Standard Edition или Enterprise Edition.
+<div id="mainSection">
 
-  - Все пограничные серверы развернуты и работают в сети периметра, включая сервер, на которых выполняется доступа, аудио- и видеоконференций, веб-конференций и обратный прокси-сервер.
+<div id="mainBody">
 
-  - Для интеграции единой системы обмена сообщениями Exchange с Lync Server и предоставления расширенных оповещений и сведений журнала звонков конечным точкам Lync требуется Microsoft Exchange Server 2007 с пакетом обновления 3 (SP3), Microsoft Exchange Server 2010 или Microsoft Exchange Server 2013.
+<span> </span>
 
-  - Создан хотя бы один пользователь, для которого включена поддержка Lync Server.
+<span data-ttu-id="6e3bf-103">_**Тема последнего изменения:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="6e3bf-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-  - Успешно развернуты клиенты и устройства Lync.
+<span data-ttu-id="6e3bf-104">Убедитесь в том, что инфраструктура, в которой вы планируете развернуть корпоративный голос, соответствует следующим требованиям к программному обеспечению.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-104">Verify that the infrastructure in which you intend to deploy Enterprise Voice meets the following software prerequisites:</span></span>
 
-  - топологий установлен на сервере в сети.
+  - <span data-ttu-id="6e3bf-105">Lync Server 2013 Standard Edition или Enterprise Edition установлен и работает в сети.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-105">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
 
-## Дальнейшие действия: проверка выполнения требований к безопасности и конфигурации
+  - <span data-ttu-id="6e3bf-106">Все пограничные серверы развертываются и работают в демилитаризованной зоне, в том числе на пограничные серверы, на которых работает служба EDGE, служба EDGE, служба Edge для веб-конференций и обратный прокси.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-106">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers running Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
 
-Проверив выполнение требований к программному обеспечению, вы можете продолжить подготовку к развертыванию корпоративной голосовой связи с помощью этой документации.
+  - <span data-ttu-id="6e3bf-107">Microsoft Exchange Server 2007 с пакетом обновления 3 (SP3), Microsoft Exchange Server 2010 или Microsoft Exchange Server 2013 требуется для интеграции единой системы обмена сообщениями Exchange с сервером Lync, а также для предоставления подробных уведомлений и ведения журнала звонков Конечные точки Lync.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-107">Either Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013 is required for integrating Exchange Unified Messaging with Lync Server and to provide rich notifications and call log information to the Lync endpoints.</span></span>
 
-1.  Проверьте выполнение требований к безопасности, конфигурации пользователей и оборудованию, как указано в разделе [Необходимые условия для обеспечения безопасности и настройки корпоративной голосовой связи в Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).
+  - <span data-ttu-id="6e3bf-108">У вас есть один или несколько пользователей, которые были созданы и включены для Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-108">One or more users have been created and enabled for Lync Server.</span></span>
 
-2.  Установите сервер-посредник, как указано в разделе [Установка файлов для сервера-посредника в Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), но *только* в том случае, если вы хотите развернуть изолированный сервер-посредник или пул. Это связано с тем, что серверы-посредники устанавливаются в рамках развертывания интерфейсного пула или Сервер Standard Edition, если они размещены вместе.
+  - <span data-ttu-id="6e3bf-109">Клиенты и устройства Lync успешно развернуты.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-109">Lync clients and devices have been successfully deployed.</span></span>
 
-3.  Настройте подключения магистрали, чтобы предоставить пользователям возможность связи с ТСОП, как указано в разделе [Конфигурация магистралей в Lync Server 2013](lync-server-2013-configuring-trunks.md).
+  - <span data-ttu-id="6e3bf-110">Построитель топологии установлен на сервере в сети.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-110">Topology Builder is installed on a server on your network.</span></span>
+
+<div>
+
+## <a name="next-steps-verify-security-and-configuration-prerequisites"></a><span data-ttu-id="6e3bf-111">Дальнейшие действия: Проверка требований к безопасности и конфигурации</span><span class="sxs-lookup"><span data-stu-id="6e3bf-111">Next Steps: Verify Security and Configuration Prerequisites</span></span>
+
+<span data-ttu-id="6e3bf-112">После проверки требований к программному обеспечению для корпоративной голосовой связи вы можете использовать документацию для продолжения подготовки к развертыванию корпоративной голосовой связи:</span><span class="sxs-lookup"><span data-stu-id="6e3bf-112">After verifying software prerequisites for Enterprise Voice, you can use the documentation to continue preparing for deploying Enterprise Voice:</span></span>
+
+1.  <span data-ttu-id="6e3bf-113">Проверьте безопасность, конфигурацию пользователя и оборудование перкуиситес, как описано в разделе [требования к безопасности и конфигурации для корпоративной голосовой связи в Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).</span><span class="sxs-lookup"><span data-stu-id="6e3bf-113">Verify security, user configuration, and hardware perquisites, as described in [Security and configuration prerequisites for Enterprise Voice in Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).</span></span>
+
+2.  <span data-ttu-id="6e3bf-114">Установите сервер-посредник, как описано в разделе [Установка сервера исправлений в Lync server 2013](lync-server-2013-install-the-files-for-mediation-server.md), но *только* в том случае, если вы хотите развернуть изолированный сервер или пул, так как серверы обновлений устанавливаются в рамках пула переднего плана или Процесс развертывания сервера Standard Edition при совместном использовании.</span><span class="sxs-lookup"><span data-stu-id="6e3bf-114">Install the Mediation Server, as described in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), but *only* if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.</span></span>
+
+3.  <span data-ttu-id="6e3bf-115">Настройте магистральные подключения для предоставления доступа к PSTN для пользователей, как описано в разделе [Настройка каналов в Lync Server 2013](lync-server-2013-configuring-trunks.md).</span><span class="sxs-lookup"><span data-stu-id="6e3bf-115">Configure trunk connections to provide PSTN connectivity for users, as described in [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

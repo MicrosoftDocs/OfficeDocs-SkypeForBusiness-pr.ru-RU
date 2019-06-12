@@ -1,47 +1,75 @@
-﻿---
-title: Просмотр сведений о конфигурации магистрали в Lync Server 2013
-TOCTitle: Просмотр сведений о конфигурации магистрали в Lync Server 2013
-ms:assetid: ebe10e14-08c2-4797-9254-9ed89516d5cd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ721927(v=OCS.15)
-ms:contentKeyID: 49888240
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр сведений о конфигурации магистрали'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View trunk configuration information
+ms:assetid: ebe10e14-08c2-4797-9254-9ed89516d5cd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721927(v=OCS.15)
+ms:contentKeyID: 49733862
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: abf496382ed33b95e8de9f387a8623fb0984ed28
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849139"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр сведений о конфигурации магистрали в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-22_
+# <a name="view-trunk-configuration-information-in-lync-server-2013"></a><span data-ttu-id="e64a6-102">Просмотр сведений о магистральной конфигурации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e64a6-102">View trunk configuration information in Lync Server 2013</span></span>
 
-Параметры конфигурации магистрали SIP определяют отношения и и возможности между сервером-посредником и шлюзом ТСОП, IP-УАТС или пограничным контроллером сеансов (SBC) у поставщика услуг. Эти параметры, в частности, определяют следующее:
+</div>
 
-  - следует включать ли обход мультимедиа на магистралях;
+<div id="mainSection">
 
-  - условия, при которых отправляются пакеты протокола RTCP;
+<div id="mainBody">
 
-  - требуется ли использовать шифрование протокола SRTP для каждой магистрали.
+<span> </span>
 
-При установке Microsoft Lync Server 2013 автоматически создается глобальная коллекция параметров конфигурации SIP-магистрали. Кроме того, администраторы могут создать настраиваемые коллекции параметров в области узла или службы (только для службы шлюза ТСОП).
+<span data-ttu-id="e64a6-103">_**Тема последнего изменения:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="e64a6-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-## Просмотр сведений о конфигурации магистрали SIP с помощью панели управления Lync Server
+<span data-ttu-id="e64a6-104">Параметры конфигурации магистральной магистрали SIP определяют связь и возможности между сервером-посредником и шлюзом коммутируемой телефонной сети (PSTN), Интернет-ПРОТОКОЛом (УАТС) или контроллером границ сеанса (SBC) в поставщике услуг.</span><span class="sxs-lookup"><span data-stu-id="e64a6-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="e64a6-105">Эти параметры, в частности, определяют следующее:</span><span class="sxs-lookup"><span data-stu-id="e64a6-105">These settings do such things as specify:</span></span>
 
-1.  В панели управления Lync Server щелкните **Маршрутизация телефонных звонков** и выберите **Конфигурация магистрали**.
+  - <span data-ttu-id="e64a6-106">следует включать ли обход сервера-посредника на магистралях;</span><span class="sxs-lookup"><span data-stu-id="e64a6-106">Whether media bypass should be enabled on the trunks.</span></span>
 
-2.  На вкладке **Конфигурация магистрали** вы увидите список всех коллекций параметров конфигурации магистрали. Для каждой коллекции отображаются значения свойств **Имя**, **Область**, **Состояние** и **Обход мультимедиа** наряду с количеством **использований ТСОП**, **правилами вызывающего номера** и **правилами вызываемого номера**, связанных с коллекцией. Дополнительные сведения о коллекции параметров конфигурации магистрали можно увидеть, щелкнув интересующую вас коллекцию, нажав кнопку **Изменить** и нажав кнопку **Показать подробности**. Обратите внимание, что вы можете просмотреть подробную информацию только для одной коллекции параметров конфигурации магистрали за один раз.
+  - <span data-ttu-id="e64a6-107">Условия, при которых отправляются пакеты протокола управления транспортом в реальном времени (РТКП).</span><span class="sxs-lookup"><span data-stu-id="e64a6-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
 
-## Просмотр сведений о конфигурации магистрали SIP с помощью командлетов Lync Server PowerShell
+  - <span data-ttu-id="e64a6-108">Требуется ли шифрование на всех магистральах в режиме реального времени (SRTP).</span><span class="sxs-lookup"><span data-stu-id="e64a6-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
 
-Параметры конфигурации магистрали SIP также можно просмотреть с помощью Lync Server PowerShell и командлета Get-CsTrunkConfiguration. Этот командлет можно выполнить в командная консоль Lync Server 2013 или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<span data-ttu-id="e64a6-109">При установке Microsoft Lync Server 2013 создается глобальная коллекция параметров конфигурации магистральной магистрали SIP.</span><span class="sxs-lookup"><span data-stu-id="e64a6-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="e64a6-110">Кроме того, администраторы могут создавать пользовательские коллекции настроек на уровне сайта или службы (только для службы шлюза ТСОП).</span><span class="sxs-lookup"><span data-stu-id="e64a6-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span>
 
-## Просмотр сведений о конфигурации магистрали SIP
+<div>
 
-  - Чтобы просмотреть сведения о всех параметрах конфигурации магистрали SIP, введите следующую команду в Командная консоль Lync Server и нажмите ВВОД:
+## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="e64a6-111">Просмотр сведений о настройке магистральной магистрали SIP с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="e64a6-111">To view SIP trunk configuration information by using Lync Server Control Panel</span></span>
+
+1.  <span data-ttu-id="e64a6-112">На панели управления Lync Server щелкните **Маршрутизация голосовой связи** и выберите **Конфигурация магистрали**.</span><span class="sxs-lookup"><span data-stu-id="e64a6-112">In Lync Server Control Panel, click **Voice Routing** and then click **Trunk Configuration**.</span></span>
+
+2.  <span data-ttu-id="e64a6-113">На вкладке **Настройка магистрали** вы увидите список всех параметров конфигурации магистрали. для каждой коллекции вы увидите значения свойств пропускаемых **имен**, **областей**, **состояний**и **мультимедиа** , а также количество **использованных PSTN**, правил для **номерных номеров**и вызываемых **правил номеров** , связанных с коллекцией.</span><span class="sxs-lookup"><span data-stu-id="e64a6-113">On the **Trunk Configuration** tab you will see a list of all your trunk configuration settings collection; for each collection you will see values for the **Name**, **Scope**, **State**, and **Media bypass** properties, along with the number of **PSTN usages**, **Calling number rules**, and **Called number rules** associated with the collection.</span></span> <span data-ttu-id="e64a6-114">Чтобы просмотреть дополнительные сведения о коллекции параметров конфигурации магистрали, щелкните нужную коллекцию, нажмите кнопку **изменить**, а затем выберите команду **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="e64a6-114">To see additional details about a collection of trunk configuration settings, click the collection of interest, click **Edit**, and then click **Show details**.</span></span> <span data-ttu-id="e64a6-115">Обратите внимание на то, что вы можете просматривать подробные сведения только для одной коллекции параметров конфигурации канала за один раз.</span><span class="sxs-lookup"><span data-stu-id="e64a6-115">Note that you can view detailed information only for one collection of trunk configuration settings at a time.</span></span>
+
+</div>
+
+<div>
+
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="e64a6-116">Просмотр сведений о настройке магистральной магистрали SIP с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="e64a6-116">Viewing SIP Trunk Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="e64a6-117">Параметры конфигурации магистральной магистрали SIP можно просмотреть с помощью Lync Server PowerShell и командлета Get-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="e64a6-117">SIP trunk configuration settings can be viewed by using Lync Server PowerShell and the Get-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="e64a6-118">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e64a6-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="e64a6-119">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e64a6-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-sip-trunk-configuration-information"></a><span data-ttu-id="e64a6-120">Просмотр сведений о настройке магистральной магистрали SIP</span><span class="sxs-lookup"><span data-stu-id="e64a6-120">To view SIP trunk configuration information</span></span>
+
+  - <span data-ttu-id="e64a6-121">Чтобы просмотреть сведения о всех параметрах настройки магистральной магистрали SIP, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="e64a6-121">To view information about all your SIP trunk configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsTrunkConfiguration
     
-    Команда возвращает примерно следующую информацию:
+    <span data-ttu-id="e64a6-122">Команда возвращает примерно следующую информацию:</span><span class="sxs-lookup"><span data-stu-id="e64a6-122">That will return information similar to this:</span></span>
     
         Identity                                  : Global
         OutboundTranslationRulesList              : {}
@@ -68,5 +96,19 @@ _**Дата изменения раздела:** 2013-02-22_
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-Дополнительные сведения см. в разделе справки о командлете [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration).
+</div>
+
+<span data-ttu-id="e64a6-123">Дополнительные сведения можно найти в разделе справки по командлету [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="e64a6-123">For more information, see the help topic for the [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,52 +1,105 @@
-﻿---
-title: Обзор веб-конференций в Lync Server 2013
-TOCTitle: Обзор веб-конференций в Lync Server 2013
-ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425913(v=OCS.15)
-ms:contentKeyID: 49309560
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Общие сведения о веб-конференциях Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing overview
+ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)
+ms:contentKeyID: 48183949
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0b85bc97f5737f980c83c992a6a21eaeaca4e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849060"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Обзор веб-конференций в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-30_
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a><span data-ttu-id="66b3d-102">Общие сведения о веб-конференциях в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66b3d-102">Overview of web conferencing in Lync Server 2013</span></span>
 
-Служба веб-конференций позволяет пользователям обмениваться документами, например презентациями PowerPoint, и совместно работать с ними в ходе конференций. Кроме того, пользователи могут использовать весь свой рабочий стол или его часть совместно с другими пользователями в режиме реального времени, благодаря чему создается впечатление, что участники конференции собрались за одним и тем же столом.
+</div>
 
-## Доска и примечания
+<div id="mainSection">
 
-Доска — это пустой холст, который может использоваться для совместной работы с использованием текста, рукописного ввода, рисунков и изображений. Примечания, созданные на досках, отображаются для всех участников собрания. Использование доски упрощает совместную работу, позволяя участникам собрания генерировать и обсуждать идеи, делать заметки и выполнять многие другие действия.
+<div id="mainBody">
 
-## Опрос
+<span> </span>
 
-Функциональная возможность опроса улучшает возможности совместной работы, позволяя докладчикам быстро определять предпочтения участников. Во время сетевых собраний и обсуждений докладчики могут использовать опросы для сбора ответов участников при соблюдении анонимности. Все докладчики могут просматривать результаты, а также скрывать или демонстрировать эти результаты всем участникам.
+<span data-ttu-id="66b3d-103">_**Тема последнего изменения:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="66b3d-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-## Совместный доступ к приложениям и рабочему столу
+<span data-ttu-id="66b3d-104">С помощью веб-конференций пользователи могут делиться документами и работать над ними, например в презентациях PowerPoint, на своих конференциях.</span><span class="sxs-lookup"><span data-stu-id="66b3d-104">With web conferencing, users can share and collaborate on documents, such as PowerPoint presentations, during their conferences.</span></span> <span data-ttu-id="66b3d-105">Кроме того, пользователи могут предоставлять общий доступ к своим рабочим столам и другим пользователям в режиме реального времени, так как они будут выглядеть так, как если бы они были собраны в одной и той же таблице собрания.</span><span class="sxs-lookup"><span data-stu-id="66b3d-105">Additionally, users can share all or part of their desktops with each other in real time, making it seem as though the people in the conference were gathered around the same table in the meeting.</span></span>
 
-Во время конференции можно предоставить общий доступ ко всему рабочему столу, отдельному приложению или отдельному монитору, если на компьютере используется несколько мониторов. Помимо простого просмотра содержимого, другие участники конференции могут запросить управление экраном и, с разрешения пользователя, взаимодействовать с содержимым (включая прокрутку и редактирование).
+<div>
+
+## <a name="whiteboard-and-annotations"></a><span data-ttu-id="66b3d-106">Доска и примечания</span><span class="sxs-lookup"><span data-stu-id="66b3d-106">Whiteboard and Annotations</span></span>
+
+<span data-ttu-id="66b3d-107">Доска – это пустой холст для совместной работы с применением текста, рукописного ввода, рисунков и изображений.</span><span class="sxs-lookup"><span data-stu-id="66b3d-107">A whiteboard is a blank canvas that can be used for collaboration, with text, ink, drawings and images.</span></span> <span data-ttu-id="66b3d-108">Заметки на досках видны всем участникам собрания.</span><span class="sxs-lookup"><span data-stu-id="66b3d-108">Annotations made on whiteboards can be seen by all meeting participants.</span></span> <span data-ttu-id="66b3d-109">Функция доски упрощает совместную работу, позволяя участникам собрания выдвигать и обсуждать идеи, вести записи и т. п.</span><span class="sxs-lookup"><span data-stu-id="66b3d-109">The whiteboard feature enhances collaboration by enabling meeting participants to discuss ideas, brainstorm, take notes, and so on.</span></span>
+
+</div>
+
+<div>
+
+## <a name="polling"></a><span data-ttu-id="66b3d-110">Опрос</span><span class="sxs-lookup"><span data-stu-id="66b3d-110">Polling</span></span>
+
+<span data-ttu-id="66b3d-111">Функция опроса расширяет возможности совместной работы, позволяя докладчикам быстро определять предпочтения участников.</span><span class="sxs-lookup"><span data-stu-id="66b3d-111">The polling feature enhances collaboration by enabling presenters to quickly determine participants’ preferences.</span></span> <span data-ttu-id="66b3d-112">Во время сетевых собраний и обсуждений докладчики могут путем опросов собирать ответы участников с соблюдением анонимности.</span><span class="sxs-lookup"><span data-stu-id="66b3d-112">During online meetings and conversations, presenters can use polling to gather anonymous responses from participants.</span></span> <span data-ttu-id="66b3d-113">Все докладчики могут просматривать результаты, а также скрывать или отображать их для всех участников.</span><span class="sxs-lookup"><span data-stu-id="66b3d-113">All presenters can see the results and can either hide the results or show them to all attendees.</span></span>
+
+</div>
+
+<div>
+
+## <a name="application-sharing-and-desktop-sharing"></a><span data-ttu-id="66b3d-114">Общий доступ к приложениям и общий доступ к рабочему столу</span><span class="sxs-lookup"><span data-stu-id="66b3d-114">Application Sharing and Desktop Sharing</span></span>
+
+<span data-ttu-id="66b3d-115">Во время конференции вы можете предоставить общий доступ ко всему рабочему столу, отдельному приложению или отдельным мониторам в среде с несколькими мониторами.</span><span class="sxs-lookup"><span data-stu-id="66b3d-115">During a conference you can share your entire desktop, an individual application, or individual monitors in a multi-monitor environment.</span></span> <span data-ttu-id="66b3d-116">Помимо просмотра содержимого, другие участники Конференции также могут запрашивать контроль над вашим экраном и, используя разрешение, взаимодействовать с содержимым (в том числе прокруткой и редактированием).</span><span class="sxs-lookup"><span data-stu-id="66b3d-116">Aside from just viewing the content, other participants in the conference can also request control of your screen and, with the permission, interact with the content (including scrolling and editing).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Участники, просматривающие конференцию, также могут брать управление и предоставлять общий доступ к содержимому во время собрания
+> <span data-ttu-id="66b3d-117">Участники, просматривающие конференцию, также могут принимать и приступить к совместному использованию контента во время собрания</span><span class="sxs-lookup"><span data-stu-id="66b3d-117">Participants who are viewing the conference can also take over and start sharing content during the meeting</span></span>
 
-## Совместный доступ к PowerPoint
 
-В Lync 2010 презентации PowerPoint просматривались одним из двух способов. Для пользователей Lync 2010 презентации PowerPoint отображались в формате PowerPoint 97-2003 и просматривались с помощью встроенной копии средства просмотра PowerPoint. Для пользователей Lync Web App презентации PowerPoint преобразовывались в динамические файлы HTML и просматривались с использованием настраиваемых файлов DHTML и Silverlight. Несмотря на общую эффективность такой подход имел ряд ограничений:
 
-  - Средство просмотра PowerPoint (самый удобный способ просмотра презентаций) доступен только на платформе Windows.
+</div>
 
-  - Различные мобильные устройства (включая некоторые наиболее популярные модели мобильных телефонов) не поддерживают Silverlight.
+</div>
 
-  - Подход с использованием средства просмотра PowerPoint и DHTML/Silverlight не поддерживает всех функциональных возможностей последних версий PowerPoint (например, переходы слайдов и встроенное видео).
+<div>
 
-Для устранение этих проблем и повышения эффективности работы пользователей, которые проводят или просматривают презентации PowerPoint, Lync Server 2013 использует веб-приложения Office Web Apps и сервер Сервер Office Web Apps для обработки презентаций PowerPoint. Среди прочих преимуществ данный подход предоставляет следующие преимущества:
+## <a name="powerpoint-sharing"></a><span data-ttu-id="66b3d-118">Общий доступ к PowerPoint</span><span class="sxs-lookup"><span data-stu-id="66b3d-118">PowerPoint Sharing</span></span>
 
-  - Более высокое разрешение и улучшенную поддержку возможностей PowerPoint, таких как анимации, переходы слайдов и встроенное видео.
+<span data-ttu-id="66b3d-119">В Lync 2010 презентации PowerPoint просматриваются одним из двух способов.</span><span class="sxs-lookup"><span data-stu-id="66b3d-119">In Lync 2010 PowerPoint presentations were viewed in one of two ways.</span></span> <span data-ttu-id="66b3d-120">Для пользователей, работающих с Lync 2010, презентации PowerPoint отображались в формате PowerPoint 97-2003 и были просмотрены с помощью встроенной копии средства просмотра PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="66b3d-120">For users running Lync 2010, PowerPoint presentations were displayed using the PowerPoint 97-2003 format and were viewed using an embedded copy of the PowerPoint viewer.</span></span> <span data-ttu-id="66b3d-121">Для пользователей, использующих Lync Web App, презентации PowerPoint преобразованы в динамические HTML-файлы, которые просматриваются с помощью сочетаний этих файлов DHTML и Silverlight.</span><span class="sxs-lookup"><span data-stu-id="66b3d-121">For users running Lync Web App, PowerPoint presentations were converted to dynamic HTML files then viewed using a combination of those customized DHTML files and Silverlight.</span></span> <span data-ttu-id="66b3d-122">Несмотря на это, этот подход имеет некоторые ограничения.</span><span class="sxs-lookup"><span data-stu-id="66b3d-122">Although generally effective, this approach did have some limitations:</span></span>
 
-  - Дополнительные мобильные устройства для доступа к этим презентациям. Это связано с тем, что Lync Server 2013 использует стандарты DHTML и JavaScript для широковещания презентаций PowerPoint, а на настраиваемый DHTML и Silverlight.
+  - <span data-ttu-id="66b3d-123">Встроенное средство просмотра PowerPoint (которое предоставляет оптимальный интерфейс для просмотра) доступно только на платформе Windows.</span><span class="sxs-lookup"><span data-stu-id="66b3d-123">The embedded PowerPoint Viewer (which provided the optimal viewing experience) is only available on the Windows platform.</span></span>
 
-  - Пользователи, имеющие нужные привилегии для прокрутки презентации PowerPoint независимо от фактической презентации. Например, во время доклада Кена Майера Пилар Аккерман может просматривать любые слайды без какого-либо воздействия на презентацию Кена.
+  - <span data-ttu-id="66b3d-124">Многие мобильные устройства (в том числе некоторые популярные мобильные телефоны) не поддерживают Silverlight.</span><span class="sxs-lookup"><span data-stu-id="66b3d-124">Many mobile devices (including some of the more popular mobile phones) do not support Silverlight.</span></span>
+
+  - <span data-ttu-id="66b3d-125">Средство просмотра PowerPoint и DHTML/Silverlight не поддерживают все функции (такие как смена слайдов и внедренное видео), которые находятся в более поздних версиях PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="66b3d-125">The PowerPoint Viewer and the DHTML/Silverlight approach do not support all of the features (such slide transitions and embedded video) that are found in the more recent editions of PowerPoint.</span></span>
+
+<span data-ttu-id="66b3d-126">Для решения этих проблем и для улучшения общего доступа пользователей к презентации PowerPoint и ее просмотра, Lync Server 2013 использует Office Web Apps и сервер Office Web Apps для обработки презентаций PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="66b3d-126">To help address these issues, and to improve the overall experience of users presenting or viewing PowerPoint presentations, Lync Server 2013 employs Office Web Apps and the Office Web Apps Server to handle PowerPoint presentations.</span></span> <span data-ttu-id="66b3d-127">Помимо прочего, этот новый подход дает следующие преимущества:</span><span class="sxs-lookup"><span data-stu-id="66b3d-127">Among other advantages, this new approach enables:</span></span>
+
+  - <span data-ttu-id="66b3d-128">Дисплеи с высоким разрешением и улучшенная поддержка возможностей PowerPoint, например анимаций, переходы слайдов и внедренное видео.</span><span class="sxs-lookup"><span data-stu-id="66b3d-128">Higher-resolution displays and better support for PowerPoint capabilities, such as animations, slide transitions, and embedded video.</span></span>
+
+  - <span data-ttu-id="66b3d-129">Дополнительные мобильные устройства для доступа к презентациям.</span><span class="sxs-lookup"><span data-stu-id="66b3d-129">Additional mobile devices to access these presentations.</span></span> <span data-ttu-id="66b3d-130">Это связано с тем, что в Lync Server 2013 для трансляции презентаций PowerPoint используются стандартные DHTML и JavaScript вместо настройки DHTML и Silverlight.</span><span class="sxs-lookup"><span data-stu-id="66b3d-130">That's because Lync Server 2013 uses standard DHTML and JavaScript to broadcast PowerPoint presentations instead of customized DHTML and Silverlight.</span></span>
+
+  - <span data-ttu-id="66b3d-131">Пользователи с необходимыми правами для прокрутки презентации PowerPoint независимо от самой презентации.</span><span class="sxs-lookup"><span data-stu-id="66b3d-131">Users with the appropriate privileges to scroll through a PowerPoint presentation independent of the presentation itself.</span></span> <span data-ttu-id="66b3d-132">Например, в то время как Кен мер просматривает слайд-шоу, почтового Вронский может просматривать любой слайд, на который она хочет, и без воздействия на презентацию Ken.</span><span class="sxs-lookup"><span data-stu-id="66b3d-132">For example, while Ken Myer is presenting his slide show, Pilar Ackerman can look at any slide she wants to, and without affecting Ken's presentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

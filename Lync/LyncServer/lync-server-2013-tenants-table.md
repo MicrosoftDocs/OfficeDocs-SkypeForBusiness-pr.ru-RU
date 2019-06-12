@@ -1,24 +1,51 @@
-﻿---
-title: 'Lync Server 2013: таблица Tenants'
-TOCTitle: Таблица Tenants
-ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg412950(v=OCS.15)
-ms:contentKeyID: 49311059
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: таблица Tenants'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Tenants table
+ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)
+ms:contentKeyID: 48185309
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a7da863aa2b713f874aba00f5a4f481f45fb79b3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849481"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Таблица Tenants в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-09_
+# <a name="tenants-table-in-lync-server-2013"></a><span data-ttu-id="b1e2a-102">Таблица Tenants в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b1e2a-102">Tenants table in Lync Server 2013</span></span>
 
-Таблица клиентов является вспомогательной таблицей, в которой хранится список различных клиентов. Каждая запись в таблице представляет одного клиента.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b1e2a-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="b1e2a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="b1e2a-104">Таблица "клиенты" — это вспомогательная таблица, в которой хранится список различных клиентов.</span><span class="sxs-lookup"><span data-stu-id="b1e2a-104">The Tenants table is a supporting table that stores a list of the various tenants.</span></span> <span data-ttu-id="b1e2a-105">Каждая запись в таблице представляет собой один клиент.</span><span class="sxs-lookup"><span data-stu-id="b1e2a-105">Each record in the table represents one tenant.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> В локальном развертывании CDR использует встроенный ИД клиента, чтобы показать различные типы проверки подлинности, такие как общедоступное подключение для обмена мгновенными сообщениями, федеративное подключение или анонимное подключение.
+> <span data-ttu-id="b1e2a-106">В локальной среде CDR использует идентификатор клиента сборки для указания другого типа проверки подлинности, например общедоступной службы обмена мгновенными сообщениями, федеративного и анонимного.</span><span class="sxs-lookup"><span data-stu-id="b1e2a-106">In on-premises deployment, CDR uses the build-in Tenant ID to indicate different authentication type, such as public IM connectivity, Federated and Anonymous.</span></span>
+
+
+
+</div>
 
 
 <table>
@@ -30,25 +57,42 @@ _**Дата изменения раздела:** 2015-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбец</th>
-<th>Тип данных</th>
-<th>Ключ/индекс</th>
-<th>Сведения</th>
+<th><span data-ttu-id="b1e2a-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="b1e2a-107">Column</span></span></th>
+<th><span data-ttu-id="b1e2a-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="b1e2a-108">Data Type</span></span></th>
+<th><span data-ttu-id="b1e2a-109">Ключ/индекс</span><span class="sxs-lookup"><span data-stu-id="b1e2a-109">Key/Index</span></span></th>
+<th><span data-ttu-id="b1e2a-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="b1e2a-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>TenantId</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Первичный</p></td>
-<td><p>Уникальное число, определяющее ИД клиента.</p></td>
+<td><p><span data-ttu-id="b1e2a-111"><strong>TenantId</strong></span><span class="sxs-lookup"><span data-stu-id="b1e2a-111"><strong>TenantId</strong></span></span></p></td>
+<td><p><span data-ttu-id="b1e2a-112">целое</span><span class="sxs-lookup"><span data-stu-id="b1e2a-112">int</span></span></p></td>
+<td><p><span data-ttu-id="b1e2a-113">Primary</span><span class="sxs-lookup"><span data-stu-id="b1e2a-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="b1e2a-114">Уникальный номер, идентифицирующий этот идентификатор клиента.</span><span class="sxs-lookup"><span data-stu-id="b1e2a-114">Unique number identifying this Tenant ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantKey</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Allowed values:</p><ul><li><p>00000000-0000-0000-0000-000000000000 – Корпоративное</p></li><li><p>00000000-0000-0000-0000-000000000001 – Федеративное</p></li><li><p>00000000-0000-0000-0000-000000000002 – Анонимное</p></li><li><p>00000000-0000-0000-0000-000000000003 – Общедоступное подключение для обмена мгновенными сообщениями</p></li></ul></td>
+<td><p><span data-ttu-id="b1e2a-115"><strong>Тенанткэй</strong></span><span class="sxs-lookup"><span data-stu-id="b1e2a-115"><strong>TenantKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="b1e2a-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="b1e2a-116">nvarchar(256)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="b1e2a-117">Допустимые значения:</span><span class="sxs-lookup"><span data-stu-id="b1e2a-117">Allowed values:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="b1e2a-118">00000000-0000-0000-0000-000000000000 – предприятие</span><span class="sxs-lookup"><span data-stu-id="b1e2a-118">00000000-0000-0000-0000-000000000000 – Enterprise</span></span></p></li>
+<li><p><span data-ttu-id="b1e2a-119">00000000-0000-0000-0000-000000000001 – Федеративные</span><span class="sxs-lookup"><span data-stu-id="b1e2a-119">00000000-0000-0000-0000-000000000001 – Federated</span></span></p></li>
+<li><p><span data-ttu-id="b1e2a-120">00000000-0000-0000-0000-000000000002 – анонимный</span><span class="sxs-lookup"><span data-stu-id="b1e2a-120">00000000-0000-0000-0000-000000000002 – Anonymous</span></span></p></li>
+<li><p><span data-ttu-id="b1e2a-121">00000000-0000-0000-0000-000000000003 – общедоступная служба обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="b1e2a-121">00000000-0000-0000-0000-000000000003 – Public IM connectivity</span></span></p></li>
+</ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

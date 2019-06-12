@@ -1,125 +1,159 @@
-﻿---
-title: 'Lync Server 2013: Взаимодействие между конечными пользователями Lync и Skype'
-TOCTitle: Взаимодействие между конечными пользователями Lync и Skype
-ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Dn440175(v=OCS.15)
-ms:contentKeyID: 59373666
-ms.date: 12/28/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Взаимодействие между конечными пользователями Lync и Skype'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Lync-Skype connectivity as an end user
+ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)
+ms:contentKeyID: 57793365
+ms.date: 12/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1d2bf4584f3332171942f941cc382d22bb6a8db7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849233"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Взаимодействие между конечными пользователями Lync и Skype в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-27_
+# <a name="using-lync-skype-connectivity-in-lync-server-2013-as-an-end-user"></a><span data-ttu-id="6fc44-102">Взаимодействие между конечными пользователями Lync и Skype в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6fc44-102">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>
 
-Взаимодействие между Lync и Skype позволяет пользователям Skype и Lync добавлять друг друга в списки контактов, обмениваться мгновенными сообщениями и выполнять голосовые вызовы. При добавлении пользователем Skype пользователя Lync в свой список контактов в программе Skype создается запись с универсальным кодом ресурса (URI) протокола SIP добавляемого пользователя Lync. И наоборот, когда пользователь Lync добавляет пользователя Skype в свой список контактов, то в программе пользователя Lync будет создана запись Lync, содержащая учетную запись Microsoft (MSA) добавляемого пользователя Skype, а не имя пользователя Skype.
+</div>
 
-**Что такое учетная запись Microsoft (MSA)?** Чтобы общаться с контактами из Lync, пользователям Skype необходимо выполнять вход в Skype, используя учетную запись Microsoft (прежнее название: Windows Live ID). Учетная запись Microsoft состоит из сочетания адреса электронной почты и пароля. С ее помощью можно входить, например, в хранилище Microsoft OneDrive, Windows Phone, Microsoft Xbox LIVE, а также клиент Microsoft Outlook для обмена сообщениями и совместной работы (и в ранее использовавшиеся интернет-службы Microsoft Hotmail или Windows Live Messenger). Если вы можете войти в эти или другие службы, используя адрес электронной почты и пароль, это означает, что у вас уже имеется учетная запись Microsoft. Дополнительные сведения о создании учетной записи Microsoft см. на странице входа по адресу: [http://go.microsoft.com/fwlink/p/?LinkId=306061](http://go.microsoft.com/fwlink/p/?linkid=306061). Вы можете объединить свою учетную запись Skype с учетной записью Microsoft для единого входа и получения доступа к различным приложениям и службам. После объединения учетных записей пользователь Skype может отправлять запрос контактных данных пользователям Lync.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6fc44-103">_**Тема последнего изменения:** 2016-12-27_</span><span class="sxs-lookup"><span data-stu-id="6fc44-103">_**Topic Last Modified:** 2016-12-27_</span></span>
+
+<span data-ttu-id="6fc44-104">Lync – подключение к Skype позволяет пользователям Skype и пользователям Lync добавлять друг друга в список контактов, обмениваться мгновенными сообщениями и звонить и видеозвонкам.</span><span class="sxs-lookup"><span data-stu-id="6fc44-104">Lync-Skype Connectivity enables Skype users and Lync users to add each other as contacts, exchange instant messages and make audio and video calls.</span></span> <span data-ttu-id="6fc44-105">Когда пользователь Skype добавляет пользователя Lync, пользователь Skype создаст контакт в Skype, содержащий универсальный код ресурса (SIP) для пользователя Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-105">When a Skype user adds a Lync user, a Skype user will create a contact in Skype containing the session initiation protocol (SIP) uniform resource identifier (URI) of the Lync user.</span></span> <span data-ttu-id="6fc44-106">И наоборот, когда пользователь Lync добавляет контакт Skype, пользователь Lync создаст в Lync контакт, который будет содержать учетную запись Майкрософт (MSA) пользователя Skype, а не имя пользователя Skype.</span><span class="sxs-lookup"><span data-stu-id="6fc44-106">Conversely, when a Lync user adds a Skype contact, the Lync user will create a contact in Lync that will contain the Microsoft Account (MSA) of the Skype user, and not the Skype user name.</span></span>
+
+<span data-ttu-id="6fc44-107">**Что такое MSA?**</span><span class="sxs-lookup"><span data-stu-id="6fc44-107">**What is an MSA?**</span></span> <span data-ttu-id="6fc44-108">Чтобы общаться с контактами Lync, пользователи Skype должны войти в Skype с помощью учетной записи Майкрософт (ранее — Windows Live ID).</span><span class="sxs-lookup"><span data-stu-id="6fc44-108">Skype users must sign in to Skype with a Microsoft account (previously called Windows Live ID) in order to communicate with Lync contacts.</span></span><span data-ttu-id="6fc44-109">Учетная запись Майкрософт состоит из комбинации адреса электронной почты и пароля, которую можно также использовать для входа в службы, такие как технология хранения Microsoft OneDrive, Windows Phone, служба игрового приложения Microsoft Xbox LIVE и сообщения Microsoft Outlook. и клиент для совместной работы (и ранее, веб-служба электронной почты Microsoft Hotmail или Windows Live Messenger).</span><span class="sxs-lookup"><span data-stu-id="6fc44-109"> A Microsoft account consists of the combination of an email address and a password, which you can also use to sign in to services such as Microsoft OneDrive storage technology, Windows Phone, Microsoft Xbox LIVE online game service, and Microsoft Outlook messaging and collaboration client (and, previously, Microsoft Hotmail web-based e-mail service or Windows Live Messenger).</span></span><span data-ttu-id="6fc44-110">Если вы используете адрес электронной почты и пароль для входа в эти или другие службы, у вас уже есть учетная запись Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="6fc44-110"> If you use an email address and a password to sign in to these or other services, you already have a Microsoft account.</span></span><span data-ttu-id="6fc44-111">Дополнительные сведения о создании учетной записи Майкрософт можно найти на странице Регистрация в учетной записи [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061)Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="6fc44-111"> For details about creating a Microsoft Account, see the Microsoft account sign-up page at [https://go.microsoft.com/fwlink/p/?LinkId=306061](https://go.microsoft.com/fwlink/p/?linkid=306061).</span></span> <span data-ttu-id="6fc44-112">Вы можете объединить существующую учетную запись Skype с учетной записью Майкрософт для единого входа в систему в различных приложениях и службах.</span><span class="sxs-lookup"><span data-stu-id="6fc44-112">You can merge your existing Skype account with your Microsoft account for single sign-on, across a variety of applications and services.</span></span> <span data-ttu-id="6fc44-113">После того как учетная запись будет объединена, пользователь Skype сможет отправлять запросы на контакт пользователям Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-113">Once the account is merged a Skype user can send a contact request to Lync users.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Чтобы пользователи Lync и Skype смогли полноценно взаимодействовать, должны выполняться перечисленные ниже требования.
-> <ul><li><p>Пользователи Skype должны выполнять вход в клиентскую программу Skype, используя учетную запись Microsoft (MSA).</p></li>
-> <li><p>Администраторы Lync должны предоставить пользователям Lync права открытого обмена мгновенными сообщениями.</p></li>
-> <li><p>При добавлении пользователем Skype контакта Lync слово Lync должно отображаться под именем контакта. Это означает, что был обнаружен универсальный код ресурса (URI) Lync.</p></li>
-> <li><p>Если при добавлении пользователем Skype контакта в Lync поиск для выбранного домена Lync не дает результатов, возможно, процесс подготовки общедоступной системы обмена сообщениями еще не завершен либо не была выполнена настройка домена Lync.</p></li>
-> <li><p>В зависимости от параметров конфиденциальности у пользователей Lync и Skype, мгновенные сообщения и сведения о присутствии могут не передаваться, пока каждый из пользователей не примет новые контакты.</p></li></ul>
+> <span data-ttu-id="6fc44-114">Для того чтобы пользователи Lync и Skype могли полностью взаимодействовать друг с другом, должны быть выполнены следующие требования:</span><span class="sxs-lookup"><span data-stu-id="6fc44-114">In order for Lync and Skype users to fully communicate with each other, the following requirements must be met:</span></span> 
+> <UL>
+> <LI>
+> <P><span data-ttu-id="6fc44-115">Пользователи Skype должны войти в систему своего клиента Skype с помощью учетной записи Майкрософт (MSA).</span><span class="sxs-lookup"><span data-stu-id="6fc44-115">Skype users must be logged into their Skype client with a Microsoft Account (MSA).</span></span></P>
+> <LI>
+> <P><span data-ttu-id="6fc44-116">Пользователи Lync должны быть включены для доступа к общедоступному мгновенному тексту с помощью своего администратора Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-116">Lync users must be enabled for public IM connectivity by their Lync administrator.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="6fc44-117">Когда пользователь Skype добавляет контакт Lync, проверьте, отображается ли слово Lync под именем контакта.</span><span class="sxs-lookup"><span data-stu-id="6fc44-117">When a Skype user adds a Lync contact, verify that the word Lync appears below the contact’s name.</span></span> <span data-ttu-id="6fc44-118">Это указывает на то, что URI Lync найден.</span><span class="sxs-lookup"><span data-stu-id="6fc44-118">This indicates that a Lync URI has been found.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="6fc44-119">Когда пользователь Skype добавляет контакт Lync и возвращаются нулевые результаты поиска для этого домена Lync, процесс подготовки PIC может не завершиться, либо домен Lync еще не настроен.</span><span class="sxs-lookup"><span data-stu-id="6fc44-119">When a Skype user adds a Lync contact and zero search results are returned for that Lync domain, the PIC provisioning process may not have completed, or the Lync domain has not yet been set up.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="6fc44-120">В зависимости от параметров конфиденциальности пользователей Lync и Skype, Обмен мгновенными сообщениями, видео и присутствие может быть недоступен, пока новые контакты не будут приниматься каждым пользователем.</span><span class="sxs-lookup"><span data-stu-id="6fc44-120">Depending on the privacy settings of the Lync and Skype users, IM, video, and presence may not work until the new contacts are accepted by each user.</span></span></P></LI></UL>
 
 
-**Добавление контакта Skype в среду Lync 2013**
 
-1.  В окне Lync выберите пункт **Добавить контакт \> Добавить контакт не из моей организации**.
+</div>
 
-2.  В списке доступных поставщиков контактов выберите **Skype**, как показано ниже.
+<span data-ttu-id="6fc44-121">**Добавление контакта Skype в Lync 2013**</span><span class="sxs-lookup"><span data-stu-id="6fc44-121">**To add a Skype contact to Lync 2013**</span></span>
+
+1.  <span data-ttu-id="6fc44-122">В Lync нажмите кнопку " **Добавить контакт", чтобы добавить контакт не из моей организации**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-122">From Lync, click **Add a Contact, Add a Contact Not in My Organization**.</span></span>
+
+2.  <span data-ttu-id="6fc44-123">В списке доступных поставщиков контактов выберите пункт **Skype**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-123">From the list of available contact providers, select **Skype**.</span></span>
+
+3.  <span data-ttu-id="6fc44-124">В поле **адрес для обмена мгновенными сообщениями** введите учетную запись Майкрософт (MSA) пользователя Skype.</span><span class="sxs-lookup"><span data-stu-id="6fc44-124">In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user.</span></span>
+
+4.  <span data-ttu-id="6fc44-125">В раскрывающемся списке **Добавить в группу контактов** выберите группу контактов, в которую нужно добавить пользователя.</span><span class="sxs-lookup"><span data-stu-id="6fc44-125">In the **Add to contact group** dropdown box, select a contact group to add the user to.</span></span>
+
+5.  <span data-ttu-id="6fc44-126">В раскрывающемся списке **настроить отношение к конфиденциальности** выберите соответствующий параметр контакта и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-126">In the **Set privacy relationship** dropdown box, select the appropriate contact setting and then click **OK**.</span></span>
+
+6.  <span data-ttu-id="6fc44-127">Теперь пользователь появится в Lync как контакт.</span><span class="sxs-lookup"><span data-stu-id="6fc44-127">The user will now appear as a contact in Lync.</span></span> <span data-ttu-id="6fc44-128">Выберите пользователя, щелкните правой кнопкой мыши имя пользователя и выберите команду **просмотреть карточку контакта** , чтобы просмотреть свойства пользователя.</span><span class="sxs-lookup"><span data-stu-id="6fc44-128">Select the user, right-click the user name, and click **See Contact Card** to view the user properties.</span></span> <span data-ttu-id="6fc44-129">Теперь вы можете создать звуковой или видеозвонок с новым пользователем Skype.</span><span class="sxs-lookup"><span data-stu-id="6fc44-129">You can now establish an audio or video call with the newly added Skype user.</span></span>
+
+<span data-ttu-id="6fc44-130">Дополнительные сведения о поддержке контактов можно найти в разделе [Добавление контакта в Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).</span><span class="sxs-lookup"><span data-stu-id="6fc44-130">For additional information on support for contacts, see [Add a contact in Lync](https://support.office.com/en-us/article/add-a-contact-ae55b88d-b9af-48da-bffe-7cc720a5059a).</span></span>
+
+<span data-ttu-id="6fc44-131">Если учетная запись Майкрософт пользователя Skype использует собственное доменное имя, например <strong>Bob@contoso.com</strong> , пользователь Lync может добавить эту учетную запись Майкрософт в Lync двумя способами:</span><span class="sxs-lookup"><span data-stu-id="6fc44-131">When a Skype user’s Microsoft account uses a custom domain name, such as <strong>bob@contoso.com</strong> , a Lync user can add that Microsoft account to Lync in two ways:</span></span>
+
+1.  <span data-ttu-id="6fc44-132">С помощью значка **Добавить контакт** или</span><span class="sxs-lookup"><span data-stu-id="6fc44-132">Use the **Add a Contact** icon, or</span></span>
+
+2.  <span data-ttu-id="6fc44-133">Используйте поле **найти человека или комнату или набрать номер** .</span><span class="sxs-lookup"><span data-stu-id="6fc44-133">Use the **Find someone or a room, or a dial a number** field.</span></span>
+
+<span data-ttu-id="6fc44-134">В каждом экземпляре пользователь Lync должен ввести адрес электронной почты пользователя Skype в следующем формате: <strong>User (доменное имя) @msn. com</strong> .</span><span class="sxs-lookup"><span data-stu-id="6fc44-134">In each instance, the Lync user must enter the Skype user’s email in the following format: <strong>user(domain name)@msn.com</strong> .</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="6fc44-135">Это действие не требуется для учетных записей Майкрософт, в которых используются следующие доменные имена: <STRONG>@live. com, @hotmail. com или @outlook. com</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6fc44-135">This step is not required for Microsoft accounts that use the following domain names: <STRONG>@live.com, @hotmail.com or @outlook.com</STRONG>.</span></span> <span data-ttu-id="6fc44-136">Дополнительные сведения о поддерживаемых доменных именах см. в разделе <A href="https://support.microsoft.com/kb/897567">Поддерживаемые общедоступные домены обмена мгновенными сообщениями</A>.</span><span class="sxs-lookup"><span data-stu-id="6fc44-136">For more information on supported custom domain names, see <A href="https://support.microsoft.com/kb/897567">Supported public IM domains</A>.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="6fc44-137">**Добавление контакта Skype в Lync при использовании собственного имени домена**</span><span class="sxs-lookup"><span data-stu-id="6fc44-137">**To add a Skype contact to Lync when using a custom domain name**</span></span>
+
+1.  <span data-ttu-id="6fc44-138">В Lync нажмите кнопку " **Добавить контакт", чтобы добавить контакт не из моей организации**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-138">From Lync, click **Add a Contact, Add a Contact Not in My Organization**.</span></span>
+
+2.  <span data-ttu-id="6fc44-139">В списке доступных поставщиков контактов выберите пункт **Skype**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-139">From the list of available contact providers, select **Skype**.</span></span>
+
+3.  <span data-ttu-id="6fc44-140">В поле **адрес для обмена мгновенными сообщениями** введите учетную запись Майкрософт (MSA) пользователя Skype в формате <strong>User (доменное имя) @msn. com</strong>.</span><span class="sxs-lookup"><span data-stu-id="6fc44-140">In the **IM Address** field, enter the Microsoft Account (MSA) of the Skype user in the format <strong>user(domain name)@msn.com</strong>.</span></span> <span data-ttu-id="6fc44-141">Итак, для пользователя bob@contoso.com будет введено значение <strong>Bob (contoso. com) @msn. com<strong> .</span><span class="sxs-lookup"><span data-stu-id="6fc44-141">So for user bob@contoso.com, the entry would be <strong>bob(contoso.com)@msn.com<strong> .</span></span>
+
+4.  <span data-ttu-id="6fc44-142">В раскрывающемся списке **Добавить в группу контактов** выберите группу контактов, в которую нужно добавить пользователя.</span><span class="sxs-lookup"><span data-stu-id="6fc44-142">In the **Add to contact group** drop-down list box, select a contact group to add the user to.</span></span>
+
+5.  <span data-ttu-id="6fc44-143">В раскрывающемся списке **задать уровень конфиденциальности** выберите соответствующий параметр контакта и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-143">In the **Set privacy relationship** drop-down list box, select the appropriate contact setting and then click **OK**.</span></span>
+
+6.  <span data-ttu-id="6fc44-144">Пользователь Lync также может использовать поле **найти человека или комнату или набрать номер** в Lync и добавить адрес, похожий на приведенный ниже <strong>пользователь (доменное имя) @msn. com</strong> .</span><span class="sxs-lookup"><span data-stu-id="6fc44-144">A Lync user can also use the **Find someone or a room, or dial a number** field in Lync, and add an address that resembles the following <strong>user(domain name)@msn.com</strong> .</span></span> <span data-ttu-id="6fc44-145">Итак, для учетной записи Microsoft bob@contoso.com элемент будет представлять <strong>Бобу (contoso. com) @msn. com</strong> .</span><span class="sxs-lookup"><span data-stu-id="6fc44-145">So for the bob@contoso.com Microsoft account, the entry would be <strong>bob(contoso.com)@msn.com</strong> .</span></span>
+
+7.  <span data-ttu-id="6fc44-146">Выполните действия 4 и 5, описанные выше, чтобы добавить контакт в группу контактов и выбрать подходящее отношение конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="6fc44-146">Follow steps 4 and 5 earlier in this procedure to add the contact to a contact group and to select the appropriate privacy relationship.</span></span>
+
+<span data-ttu-id="6fc44-147">**Добавление контакта Lync в Skype**</span><span class="sxs-lookup"><span data-stu-id="6fc44-147">**To add a Lync contact to Skype**</span></span>
+
+1.  <span data-ttu-id="6fc44-148">Войдите в Skype.</span><span class="sxs-lookup"><span data-stu-id="6fc44-148">Sign in to Skype.</span></span> <span data-ttu-id="6fc44-149">Пользователь Skype должен войти в Skype с помощью учетной записи Майкрософт (MSA).</span><span class="sxs-lookup"><span data-stu-id="6fc44-149">The Skype user must be logged into their Skype client with a Microsoft Account (MSA).</span></span>
+
+2.  <span data-ttu-id="6fc44-150">Щелкните значок Добавить контакты.</span><span class="sxs-lookup"><span data-stu-id="6fc44-150">Select the Add Contacts icon.</span></span>
+
+3.  <span data-ttu-id="6fc44-151">Введите URI SIP для пользователя Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-151">Enter the SIP URI of the Lync user.</span></span> <span data-ttu-id="6fc44-152">Например, bob@contoso.com.</span><span class="sxs-lookup"><span data-stu-id="6fc44-152">For example, bob@contoso.com.</span></span>
+
+4.  <span data-ttu-id="6fc44-153">Если в результатах поиска найдено совпадение, найдите в списке слово **Lync** под именем пользователя Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-153">When Skype finds the match in the search results, look for the word **Lync** below the Lync user’s name.</span></span> <span data-ttu-id="6fc44-154">Это указывает на то, что Skype успешно размещает URI SIP клиента Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-154">This indicates Skype successfully located the Lync client’s SIP URI.</span></span> <span data-ttu-id="6fc44-155">Щелкните имя.</span><span class="sxs-lookup"><span data-stu-id="6fc44-155">Click the name.</span></span>
+
+5.  <span data-ttu-id="6fc44-156">В правом верхнем углу окна нажмите кнопку Добавить в контакты.</span><span class="sxs-lookup"><span data-stu-id="6fc44-156">In the top right corner of the window, click Add to Contacts.</span></span>
+
+6.  <span data-ttu-id="6fc44-157">Новый контакт будет добавлен в список контактов, но вы увидите вопросительный знак вместо значка состояния, пока он не примет ваш запрос.</span><span class="sxs-lookup"><span data-stu-id="6fc44-157">The new contact is now added to your contact list, but you’ll see a question mark instead of their status icon until they accept your request.</span></span> <span data-ttu-id="6fc44-158">Когда новый контакт примет ваш запрос, вы сможете видеть, когда он находится в сети, инициировать текстовые беседы, а также выполнять голосовые и видеозвонки.</span><span class="sxs-lookup"><span data-stu-id="6fc44-158">When your new contact accepts your request, you will be able to see when they are online, initiate IM conversations, and make audio and video calls.</span></span>
     
-    ![Клиент Lync, показывающий порядок добавления контакта Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Клиент Lync, показывающий порядок добавления контакта Skype")
-
-3.  В поле **Мгн. сообщения** введите учетную запись Microsoft (MSA) пользователя Skype.
-
-4.  В раскрывающемся списке **Добавить в группу контактов** выберите группу контактов, в которую требуется добавить пользователя.
-
-5.  В раскрывающемся списке **Установить уровень конфиденциальности** выберите соответствующее значение для контакта и нажмите кнопку **ОК**.
-
-6.  После этого добавленный пользователь отобразится в списке контактов в среде Lync. Выделите строку добавленного пользователя, щелкните правой кнопкой имя пользователя и выберите пункт **Просмотреть карточку контакта**, чтобы просмотреть свойства данного пользователя. Как показано ниже, можно также выбрать пункт **Звонок**, а затем **Звонок Lync**, чтобы позвонить только что добавленному пользователю Skype.
+    <div>
     
-    ![Клиент Lync начинает звонить контакту с помощью Lync](images/Dn440175.cd7cb21a-87f7-4bfa-b30c-980d4098d226(OCS.15).jpg "Клиент Lync начинает звонить контакту с помощью Lync")
 
-Дополнительные сведения о поддержке контактов см. на странице [Добавление контакта в Lync](http://office.microsoft.com/ru-ru/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx) и [Добавление внешнего контакта в среде Lync](http://office.microsoft.com/ru-ru/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)
+    > [!IMPORTANT]  
+    > <span data-ttu-id="6fc44-159">Администратор Lync Server должен настроить параметры политики пользователя Lync, чтобы разрешить входящие запросы.</span><span class="sxs-lookup"><span data-stu-id="6fc44-159">The Lync Server administrator must configure the Lync user’s policy settings to allow incoming requests.</span></span> <span data-ttu-id="6fc44-160">В противном случае пользователь Lync не будет получать запросы контактных лиц от пользователя Skype.</span><span class="sxs-lookup"><span data-stu-id="6fc44-160">If not, the Lync user will not receive contact requests from the Skype user.</span></span> <span data-ttu-id="6fc44-161">В зависимости от настройки параметров политики пользователя Lync запрос на добавление пользователя Skype появится на вкладке " <STRONG>создать</STRONG> " клиента Lync. Чтобы начать общение с пользователем Skype, пользователь Lync должен добавить пользователя Skype в список "Избранное" или список контактов.</span><span class="sxs-lookup"><span data-stu-id="6fc44-161">Depending on the configuration of the Lync user’s policy settings, the request to add the Skype user will appear on the Lync client’s <STRONG>New</STRONG> tab. To begin communicating with the Skype user, the Lync user must add the Skype user to either the Favorites list or a contact list.</span></span> <span data-ttu-id="6fc44-162">На рисунке ниже показано расположение <STRONG>новой</STRONG> вкладки в клиенте Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-162">The image below shows the location of the <STRONG>New</STRONG> tab in the Lync client.</span></span>
 
-Если в учетной записи Microsoft пользователя Skype указано имя личного домена, например <strong>vladimir@contoso.com</strong>, то пользователь Lync может добавить эту учетную запись Microsoft в среду Lync двумя способами:
-
-1.  щелкнув значок **Добавить контакт** или
-
-2.  введя требуемое значение в поле **Введите имя пользователя, номер комнаты или наберите номер**.
-
-В любом из этих случаев пользователь Lync должен ввести адрес электронной почты пользователя Skype в следующем формате: <strong>пользователь(имя домена)@msn.com</strong>.
-
-> [!IMPORTANT]
-> Это действие не требуется для учетных записей Microsoft, в которых используются следующие имена доменов: <strong>@live.com, @hotmail.com или @outlook.com</strong>. Дополнительные сведения о поддерживаемых именах личных доменов см. на странице <a href="http://support.microsoft.com/kb/897567">Поддерживаемые домены общедоступных систем обмена мгновенными сообщениями</a>.
-
-
-**Добавление контакта Skype в среду Lync при использовании имени личного домена**
-
-1.  В окне Lync выберите пункт **Добавить контакт \> Добавить контакт не из моей организации**.
-
-2.  В списке доступных поставщиков контактов выберите **Skype**, как показано ниже.
     
-    ![Клиент Lync, показывающий порядок добавления контакта Skype](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Клиент Lync, показывающий порядок добавления контакта Skype")
+    </div>
 
-3.  В поле **Мгн. сообщения** введите учетную запись Microsoft (MSA) пользователя Skype в формате <strong>пользователь(имя домена)@msn.com</strong>. Так для пользователя vladimir@contoso.com следует ввести запись <strong>vladimir(contoso.com)@msn.com</strong>, как показано ниже.
-    
-    ![Параметры новых контактов клиента Lync](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Параметры новых контактов клиента Lync")
+<span data-ttu-id="6fc44-163">Пользователи Lync должны настроить оповещения Lync, чтобы убедиться, что запросы, отправленные от пользователя Skype, появятся и могут быть обнаружены пользователем Lync.</span><span class="sxs-lookup"><span data-stu-id="6fc44-163">A Lync user must configure Lync alerts to ensure that requests sent from a Skype user appear and are discoverable by the Lync user.</span></span> <span data-ttu-id="6fc44-164">Чтобы настроить оповещения Lync, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="6fc44-164">To configure Lync alerts, complete the procedure that follows.</span></span>
 
-4.  В раскрывающемся списке **Добавить в группу контактов** выберите группу контактов, в которую требуется добавить выбранного пользователя.
+<span data-ttu-id="6fc44-165">**Настройка оповещений Lync**</span><span class="sxs-lookup"><span data-stu-id="6fc44-165">**To configure Lync Alerts**</span></span>
 
-5.  В раскрывающемся списке **Установить уровень конфиденциальности** выберите соответствующее значение для выбранного контакта и нажмите кнопку **ОК**.
+1.  <span data-ttu-id="6fc44-166">В клиенте Lync щелкните значок " **Параметры** ".</span><span class="sxs-lookup"><span data-stu-id="6fc44-166">From the Lync client, click the **Options** icon.</span></span>
 
-6.  Пользователь Lync может также ввести требуемое значение в поле **Найдите человека или комнату либо наберите номер** в среде Lync и добавить адрес в формате <strong>пользователь(имя домена)@msn.com</strong>. Так для учетной записи Microsoft vladimir@contoso.com следует ввести <strong>vladimir(contoso.com)@msn.com</strong>, как показано ниже.
-    
-    ![Поиск контакта в клиенте Lync](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Поиск контакта в клиенте Lync")
+2.  <span data-ttu-id="6fc44-167">Выберите **оповещения**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-167">Select **Alerts**.</span></span>
 
-7.  Выполните действия 4 и 5 описанной выше процедуры, чтобы добавить контакт в группу контактов и задать соответствующий уровень конфиденциальности.
+3.  <span data-ttu-id="6fc44-168">В разделе **Общие оповещения**установите флажок **уведомлять, когда кто-то добавляет меня в свой список контактов**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-168">Under **General alerts**, check **Tell me when someone adds me to his or her contact list**.</span></span>
 
-**Добавление контакта Lync в среду Skype**
+4.  <span data-ttu-id="6fc44-169">В разделе **Контакты, не использующие Lync**, выберите **Разрешить приглашения, но блокировать все прочие сообщения**.</span><span class="sxs-lookup"><span data-stu-id="6fc44-169">Under **Contacts not using Lync**, select **Allow invites but block all other communications**.</span></span>
 
-1.  Выполните вход в Skype. Пользователь Skype должен выполнить вход в клиентское приложение Skype, используя учетную запись Microsoft (MSA).
-    
-    ![Страница входа в клиент Skype](images/Dn440175.b4fd7c5a-be35-4205-80c7-872863b7a91d(OCS.15).jpg "Страница входа в клиент Skype")
+5.  <span data-ttu-id="6fc44-170">Нажмите кнопку **ОК** , чтобы закрыть окно "Параметры".</span><span class="sxs-lookup"><span data-stu-id="6fc44-170">Click **OK** to close the Options window.</span></span>
 
-2.  Щелкните значок "Добавление контактов".
+</div>
 
-3.  Введите универсальный идентификатор ресурса SIP пользователя Lync. Например, vladimir@contoso.com.
+<span> </span>
 
-4.  Когда Skype выведет результаты поиска, соответствующие поисковому запросу, найдите слово **Lync** под именем пользователя Lync. Это означает, что Skype успешно определил универсальный код ресурса SIP клиента Lync. Щелкните это имя.
-    
-    ![Клиент Skype, показывающий контакт Lync](images/Dn440175.4e690a72-1a54-4442-89cf-0fb45ac5f56a(OCS.15).jpg "Клиент Skype, показывающий контакт Lync")
+</div>
 
-5.  В правом верхнему углу окна выберите команду "Добавить в список контактов".
+</div>
 
-6.  Новый контакт будет добавлен в список контактов, но пока соответствующий пользователь не подтвердит запрос, вместо значка его состояния будет отображаться вопросительный знак. Когда новый контакт одобрит запрос, вы сможете видеть, находится ли он в сети, инициировать текстовые беседы, а также выполнять голосовые вызовы.
-    
-    ![Беседа с помощью мгновенных сообщений клиента Skype с контактом Lync](images/Dn440175.86ca6f81-4db9-45ba-8511-1f7541aaf066(OCS.15).jpg "Беседа с помощью мгновенных сообщений клиента Skype с контактом Lync")
-    
-    > [!IMPORTANT]
-    > Администратор Lync Server должен разрешить входящие запросы в настройках политики для пользователя Lync. В противном случае пользователь Lync не будет получать запросы на добавление в контакты от пользователей Skype. В зависимости от настроек политики для пользователя Lync запрос на добавление пользователя Skype будет отображаться на вкладке <strong>Новые</strong> клиентского приложения Lync. Чтобы начать обмен сообщениями с пользователем Skype, пользователь Lync должен добавить пользователя Skype либо в список &quot;Избранные&quot;, либо в список контактов. На приведенном ниже рисунке показано расположение вкладки <strong>Новые</strong> в интерфейсе клиента Lync.
-    
-    ![Страница новых контактов клиента Lync](images/Dn440175.b1cf8570-1401-47d9-ab14-b04f0d7e8a7a(OCS.15).jpg "Страница новых контактов клиента Lync")
-
-Пользователь Lync должен настроить уведомления Lync таким образом, чтобы запросы от пользователя Skype отображались и легко обнаруживались пользователем Lync. Чтобы настроить уведомления Lync, выполните описанную ниже процедуру.
-
-**Настройка уведомлений Lync**
-
-1.  В окне клиентского приложения Lync щелкните значок **Параметры**.
-
-2.  Выберите пункт **Оповещения**.
-
-3.  В разделе **Общие оповещения** установите флажок **Уведомлять, когда кто-то добавляет меня в свой список контактов**.
-
-4.  В разделе **Контакты, не использующие Lync** установите флажок **Разрешить приглашения, но блокировать все другие сообщения**.
-
-5.  Нажмите кнопку **ОК**, чтобы закрыть окно "Параметры".
-
-![Диалоговое окно параметров клиента Lync, страница уведомлений](images/Dn440175.b36ed67f-f394-4f66-b60a-b74793001bfc(OCS.15).jpg "Диалоговое окно параметров клиента Lync, страница уведомлений")
+</div>
 

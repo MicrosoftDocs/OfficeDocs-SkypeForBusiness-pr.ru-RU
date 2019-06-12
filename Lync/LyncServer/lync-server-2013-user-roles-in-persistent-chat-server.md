@@ -1,54 +1,113 @@
-﻿---
-title: Роли пользователя на сервере сохраняемого сеанса беседы
-TOCTitle: Роли пользователя на сервере сохраняемого сеанса беседы
-ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ676774(v=OCS.15)
-ms:contentKeyID: 49887944
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: роли пользователей на сервере сохраняемого чата'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User roles in Persistent Chat Server
+ms:assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ676774(v=OCS.15)
+ms:contentKeyID: 49361095
+ms.date: 03/19/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 36f84f71ca5253d28d9182acc9279010127ee6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849294"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Роли пользователя на сервере сохраняемого сеанса беседы
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2015-03-19_
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="d10ac-102">Роли пользователей в постоянном сервере чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d10ac-102">User roles in Persistent Chat Server in Lync Server 2013</span></span>
 
-Сервер сохраняемого сеанса беседы поддерживает концепцию разрешенных и запрещенных участников, которая применяется к категориям сохраняемый сеанс беседы и определяет участников, имеющих доступ к комнатам в конкретной категории.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="d10ac-103">_**Тема последнего изменения:** 2015-03-19_</span><span class="sxs-lookup"><span data-stu-id="d10ac-103">_**Topic Last Modified:** 2015-03-19_</span></span>
+
+<span data-ttu-id="d10ac-104">Сервер сохраняемого чата обеспечивает концепцию разрешенных и запрещенных пользователей, которые применяются к постоянным категориям чата и элементам управления, которые могут получать доступ к комнатам в определенной категории.</span><span class="sxs-lookup"><span data-stu-id="d10ac-104">Persistent Chat Server provides the concept of Allowed/Denied members, which applies to Persistent Chat categories and controls who can access rooms in a particular category.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Разрешенные или запрещенные участники в категории отличаются от роли <strong>Участник</strong>, которая применяется к комнате сохраняемый сеанс беседы.<br />Операции поиска возвращают все открытые и закрытые комнаты чата, у которых пользователь, выполняющий поиск, находится в списке разрешенных или запрещенных участников. Секретные комнаты не отображаются, если пользователь, выполняющий поиск, не является участником секретной комнаты. Пользователь может выполнять поиск только комнат, участником которых он или она уже является или может запросить участие.
+> <span data-ttu-id="d10ac-105">Разрешенные и запрещенные пользователи в категории — это не то же, что и роль <STRONG>участника</STRONG> , которая применяется к сохраняемой комнате чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-105">Allowed/Denied members in a Category is not the same as a <STRONG>Member</STRONG> role, which applies to a Persistent Chat room.</span></span><BR><span data-ttu-id="d10ac-106">В области поиска отображаются все открытые и закрытые комнаты чата, в которых пользователь выполняет поиск, в списке разрешенных и запрещенных участников.</span><span class="sxs-lookup"><span data-stu-id="d10ac-106">Searches display all open and closed chat rooms for which the user performing the search is in the Allowed/Denied member list.</span></span> <span data-ttu-id="d10ac-107">Секретные комнаты не отображаются, если пользователь, выполняющий поиск, не является участником секретной комнаты.</span><span class="sxs-lookup"><span data-stu-id="d10ac-107">Secret rooms are not displayed unless the user who performs the search is a member of the secret room.</span></span> <span data-ttu-id="d10ac-108">Пользователь может выполнять поиск только комнат, участником которых он или она уже является или может запросить участие.</span><span class="sxs-lookup"><span data-stu-id="d10ac-108">The user can search only for rooms that he or she is already a member of, or those for which they can request membership.</span></span>
 
-В основе применения разрешенных и запрещенных участников лежат прежде всего ограничения, налагаемые корпоративными стандартами. Например, в банковских и финансовых учреждениях обычно существуют этические ограничения, не позволяющие торговцам и аналитикам передавать другу другу информацию при осуществлении политик и соглашений. Чтобы учесть это требование, администратор может создать категории таким образом, чтобы одна категория позволяла создавать и использовать комнаты торговцам, а другая — аналитикам. При использовании такого ограничения система запрещает добавление пользователя как участника комнаты, если этому препятствует родительская категория.
 
-Ниже описываются четыре роли пользователей сервера сохраняемого сеанса беседы.
 
-  - **Автор**. Пользователь, имеющий разрешение на создание комнат чата. Эти пользователи перечислены в списке "Авторы" определенных категорий: они могут создавать комнаты чата в категории, назначать участников в соответствии с категорией и назначать диспетчеров для управления комнатой. Пользователь, создающий комнату чата, автоматически добавляется в нее как диспетчер.
+</div>
+
+<span data-ttu-id="d10ac-109">Основным обоснованием для разрешения разрешенных и отклоненных членов является «безупречная стенка».</span><span class="sxs-lookup"><span data-stu-id="d10ac-109">The primary rationale for the concept of Allowed/Denied Members is ethical walls.</span></span> <span data-ttu-id="d10ac-110">Например, в банковских и финансовых учреждениях обычно существуют этические ограничения, не позволяющие торговцам и аналитикам передавать друг другу информацию при осуществлении политик и соглашений.</span><span class="sxs-lookup"><span data-stu-id="d10ac-110">For example, it is common in banking and financial institutions to have ethical boundaries that prevent traders and analysts from sharing communications while implementing policies and conventions.</span></span> <span data-ttu-id="d10ac-111">Чтобы учесть это требование, администратор может создать категории таким образом, чтобы одна категория позволяла создавать и использовать комнаты торговцам, а другая — аналитикам.</span><span class="sxs-lookup"><span data-stu-id="d10ac-111">To address this requirement, an administrator can create categories so that one category allows rooms to be created and used by traders, and another category allows rooms to be created and used by analysts.</span></span> <span data-ttu-id="d10ac-112">Благодаря этому ограничению система не может добавить пользователя в комнату в том случае, если родительская Категория ее не допускает.</span><span class="sxs-lookup"><span data-stu-id="d10ac-112">With this constraint is designed into the system prohibits adding a user as a member of the room if the parent category prevents it.</span></span>
+
+<span data-ttu-id="d10ac-113">Ниже указаны четыре роли пользователей, которые представляют собой сохраняемый сервер чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-113">Following are the four user roles Persistent Chat Server:</span></span>
+
+  - <span data-ttu-id="d10ac-114">**Создатель:** Пользователи, у которых есть разрешения на создание комнат чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-114">**Creator:** Users who have permissions to create chat rooms.</span></span> <span data-ttu-id="d10ac-115">Эти пользователи находятся в списке создателей некоторых категорий: они могут создавать комнаты чата в этой категории, а также назначать членство в соответствии с категорией и назначать руководителей для управления комнатой чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-115">These users are in the Creators list of certain categories: they can create chat rooms in that category, and they can also assign membership according to the category, and assign managers to manage the chat room.</span></span> <span data-ttu-id="d10ac-116">Пользователь, который создает комнату чата, автоматически добавляется в качестве руководителя комнаты.</span><span class="sxs-lookup"><span data-stu-id="d10ac-116">The user who creates a chat room is automatically added as a manager of the room.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Роль автора просто дает права для создания комнат чата. При этом автор автоматически переходит в диспетчеры, что позволяет ему настраивать участие, назначать диспетчеров и выполнять прочие функции в создаваемых службах чата.  
-      
-    С помощью этой роли вы можете определять, кто будет создавать комнаты чата в вашей организации, в частности для центрального управления созданием комнат чата, которое обеспечит применение политик и соглашений, и последующей передачи управления комнатами другим пользователям в организации.
+    > <span data-ttu-id="d10ac-p104">Роль автора просто дает права для создания комнат чата. При этом автор автоматически переходит в диспетчеры, что позволяет ему настраивать участие, назначать диспетчеров и выполнять прочие функции в создаваемых службах чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-p104">Being a Creator simply provides rights for creating chat rooms. It is the automatic promotion to Manager that enables the Creator to further refine memberships, managers, and so on, on the created chat services.</span></span>
 
-  - **Диспетчер**. Пользователь, управляющий свойствами комнаты чата. Диспетчеры комнат чата могут изменять список участников (добавлять и удалять участников) и список диспетчеров комнаты чата (добавлять и удалять диспетчеров). Диспетчеры комнат чата могут добавлять себя в список участников и выступающих (для комнат, являющихся аудиторией), чтобы принимать участие в комнате чата. Диспетчеры комнат чата могут также отключать комнаты чата (администраторы могут отправить запрос об отключенных комнатах чата и навсегда удалить их). Диспетчеры могут изменять любые свойства комнаты чата, кроме категории. После создания комнаты чата ее категорию может изменить только администратор сохраняемый сеанс беседы.
     
+    </div>
+    
+    <span data-ttu-id="d10ac-119">С помощью этой роли вы можете определять, кто будет создавать комнаты чата в вашей организации, в частности для центрального управления созданием комнат чата, которое обеспечит применение политик и соглашений, и последующей передачи управления комнатами другим пользователям в организации.</span><span class="sxs-lookup"><span data-stu-id="d10ac-119">This role exists to give you the option of controlling who creates chat rooms in your organization, particularly if you want to centrally manage creating chat rooms to enforce policies and conventions, and subsequently delegate the chat room management to other users in the organization.</span></span>
+
+  - <span data-ttu-id="d10ac-120">**Руководитель:** Пользователи, которые управляют свойствами комнаты чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-120">**Manager:** Users who manage properties of a chat room.</span></span> <span data-ttu-id="d10ac-121">Менеджер комнаты чата может изменить список участников (Добавить и удалить участников), а также изменить список руководителей комнаты чата (Добавление и удаление руководителей).</span><span class="sxs-lookup"><span data-stu-id="d10ac-121">Chat room managers can modify the member list (add and remove members), and modify the chat room managers list (add and remove managers).</span></span> <span data-ttu-id="d10ac-122">Менеджер комнаты чата может добавить себя в список участников или выступающих (для Аудиториум комнат), чтобы они могли участвовать в комнате чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-122">Chat room managers can add themselves to the members or presenters list (for auditorium rooms) so they can participate in the chat room.</span></span> <span data-ttu-id="d10ac-123">Руководители комнаты чата также могут отключить комнаты чата (администраторы могут запрашивать отключенные комнаты чата, а также удалять их окончательно).</span><span class="sxs-lookup"><span data-stu-id="d10ac-123">Chat room managers can also disable chat rooms (administrators can query for disabled chat rooms and can permanently delete them).</span></span> <span data-ttu-id="d10ac-124">Руководители могут изменять все свойства комнаты чата, за исключением категории комнаты чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-124">Managers can change all the properties of a chat room, except the category of the chat room.</span></span> <span data-ttu-id="d10ac-125">После создания комнаты чата только администратор постоянного чата может изменить категорию.</span><span class="sxs-lookup"><span data-stu-id="d10ac-125">Only the Persistent Chat Administrator can change the category after the chat room has been created.</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Если диспетчер является также автором в другой категории, он или она может изменить категорию на ту, в которой имеет полномочия на создание комнат.
+    > <span data-ttu-id="d10ac-126">Если диспетчер является также автором в другой категории, он или она может изменить категорию на ту, в которой имеет полномочия на создание комнат.</span><span class="sxs-lookup"><span data-stu-id="d10ac-126">If the manager is also a Creator in another category, he or she can change the category to one where they are authorized to create rooms.</span></span>
 
-  - **Участник**. Пользователь, являющийся участником комнаты чата. Эти пользователи могут видеть комнаты чата в каталоге (даже секретные), а также подписываться на комнату чата (включая функции метаданных, такие как непрочитанные сообщения, фильтры сообщений со своим именем и фильтры с ключевыми словами) и участвовать в комнате чата (отправлять сообщения, если только комната не является аудиторией, в которой только выступающим разрешено отправлять сообщения, получать содержимое и выполнять поиск). Пользователи, не являющиеся участниками комнаты чата, могут выполнять поиск комнаты чата, если они находятся в списке разрешенных участников категории, но чтобы присоединиться к комнате чата и получить доступ к ее содержимому они должны отправить запрос на предоставление доступа. (В системе нет встроенных запросов и утверждений, это делается с помощью внешних средств: электронной почты, телефона или других средств связи.)
-
-  - **Выступающий**. Пользователь, который может отправлять сообщения в комнату, являющуюся аудиторией.
-
-Описанные ниже роли являются ролями администратора для сервера сохраняемого сеанса беседы:
-
-  - **сохраняемый сеанс беседы Администратор (CsPersistentChatAdministrator)**. Это новая роль управления доступом на основе ролей (RBAC) для администрирования и управления сервером сохраняемого сеанса беседы. Пользователи или группы безопасности с ролью CsPersistentChatAdministrator могут администрировать сервер сохраняемого сеанса беседы с помощью командлетов Windows PowerShell удаленно (то есть с компьютера, не являющегося сервером сохраняемого сеанса беседы). Сервер сохраняемого сеанса беседы проверяет, является ли администратор сохраняемый сеанс беседы участником локальной группы администраторов RTC на сервере сохраняемого сеанса беседыпереднего плана.
     
-    Роль CsPersistentChatAdministrator позволяет управлять комнатами чата (изменять любые свойства, включая участие, диспетчеров, категории, пометку комнат как отключенных), а также создавать категории комнат чата (и управлять ими), определяющие, кто может создавать и использовать эти комнаты. Администраторы могут помечать комнаты чата как отключенные и очищать комнаты чата, которые больше неактивны. На администраторов не распространяются ограничения, применяемые к авторам или разрешенным участникам. Администраторы могут создавать комнаты чата любого типа и добавлять себя в качестве участников в любые комнаты чата. Администраторы могут изменять конфигурацию сохраняемый сеанс беседы и управлять ею (свойства пула, глобальные параметры и настройка соответствия), а также планировать и осуществлять переход с более старого развертывания групповой беседы на сервер сохраняемого сеанса беседыLync Server 2013.
+    </div>
 
-  - **Администратор Lync**. Администратор Lync Server 2013, отвечающий за развертывание в масштабах всей организации.
+  - <span data-ttu-id="d10ac-127">**Элемент:** Пользователи, являющиеся участниками комнаты чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-127">**Member:** Users who are members of a chat room.</span></span> <span data-ttu-id="d10ac-128">Эти пользователи могут просматривать помещения чата в каталог (даже если комната чата конфиденциально), а также подписаться на комнату чата (в том числе параметры метаданных, такие как непрочитанные сообщения, фильтры "эго" и фильтры ключевых слов) и участвовать в комнате чата (может быть опубликована, если только комната не — Это Аудиториум комната, в которой только выступающие могут публиковать, получать содержимое и выполнять поиск.</span><span class="sxs-lookup"><span data-stu-id="d10ac-128">These users can see the chat rooms in the directory (even if the chat room is secret), as well as subscribe to the chat room (including metadata options such as unread messages, ego filters, and keyword filters), and participate in the chat room (can post, unless the room is an auditorium room where only presenters can post, get content, and search).</span></span> <span data-ttu-id="d10ac-129">Пользователи, которые не входят в комнату чата, могут найти комнату чата, если они находятся в списке разрешенных пользователей, но вам нужно запросить доступ к этим комнатам для доступа к содержимому.</span><span class="sxs-lookup"><span data-stu-id="d10ac-129">Users who aren’t members of the chat room can search for the chat room if they are in the Allowed Members list of the category, but need to request access to join these chat rooms to access content.</span></span> <span data-ttu-id="d10ac-130">(Нет запросов или утверждений, встроенных в систему; они выполняются извне по электронной почте, телефоне или другим формам контакта.)</span><span class="sxs-lookup"><span data-stu-id="d10ac-130">(There is no request access or approvals built into the system; these are done externally by email, phone, or other forms of contact.)</span></span>
 
-  - **Операционный менеджер**. Пользователь, отвечающий за управление ежедневными операциями.
+  - <span data-ttu-id="d10ac-131">**Выступающий:** Пользователи, которые могут публиковать в Аудиториум комнате.</span><span class="sxs-lookup"><span data-stu-id="d10ac-131">**Presenter:** Users who can post to an auditorium room.</span></span>
 
-  - **Сторонние разработчики и партнеры**. Сторонние разработчики расширяют возможности системы, в частности предоставляя решение по реализации ограничений для групповых бесед в соответствии с корпоративными стандартами, поддержку соответствия и инструменты для его обеспечения, веб-клиенты и клиенты для мобильных устройств, а также платформу для разработки программ-роботов.
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="d10ac-132">Сервер сохраняемого чата позволяет пользователям создавать и управлять комнатой чата для определенного сайта.</span><span class="sxs-lookup"><span data-stu-id="d10ac-132">Persistent Chat Server lets users create and manage chat room for a specific site.</span></span> <span data-ttu-id="d10ac-133">Тем не менее, пользователи не могут создавать комнаты чата и управлять ими на других сайтах в пределах одной и той же топологии.</span><span class="sxs-lookup"><span data-stu-id="d10ac-133">Users cannot, however, create or manage chat rooms on other sites within the same topology.</span></span> <span data-ttu-id="d10ac-134">Не забудьте указать создатели и руководителей комнаты чата для всех сайтов в Организации.</span><span class="sxs-lookup"><span data-stu-id="d10ac-134">Be sure to specify chat room Creators and Managers for all the sites in your organization.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="d10ac-135">Ниже указаны роли администратора для сохраняемого сервера чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-135">The following roles are administrator roles for Persistent Chat Server:</span></span>
+
+  - <span data-ttu-id="d10ac-136">**Администратор сохраняемого чата (ксперсистентчатадминистратор):** Это новая роль управления доступом на основе ролей (RBAC) для администрирования и управления сохраняемым сервером чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-136">**Persistent Chat Administrator (CsPersistentChatAdministrator):** This is a new Role-Based Access Control (RBAC) role to administer and manage Persistent Chat Server.</span></span> <span data-ttu-id="d10ac-137">Пользователи и группы безопасности, назначенные как Ксперсистентчатадминистратор, смогут администрировать сервер сохраняемого чата с помощью командлетов Windows PowerShell (на компьютере, отличном от сервера сохраняемого чата).</span><span class="sxs-lookup"><span data-stu-id="d10ac-137">Users or security groups designated as CsPersistentChatAdministrator are able administer Persistent Chat Server by using Windows PowerShell cmdlets remotely (that is, from a computer other than the Persistent Chat Server).</span></span> <span data-ttu-id="d10ac-138">Сервер сохраняемого чата проверяет, входит ли администратор сохраняемого чата в локальную группу локального администратора RTC на серверном интерфейсе сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="d10ac-138">Persistent Chat Server checks that the Persistent Chat Administrator is member of the RTC Local administrator local group on the Persistent Chat Server Front End Server.</span></span>
+    
+    <span data-ttu-id="d10ac-139">Роль Ксперсистентчатадминистратор может управлять комнатами чата (изменить все свойства, включая членство, руководителей, категории, помечать помещения в состояние "отключено"), а также создавать и управлять категориями комнат чата, которые определяют, кто может создавать комнаты чатов и получать к ним доступ.</span><span class="sxs-lookup"><span data-stu-id="d10ac-139">The CsPersistentChatAdministrator role can manage chat rooms (modify all properties including membership, managers, categories, mark rooms as disabled), as well as create and manage chat room categories that define who can create and access chat rooms.</span></span> <span data-ttu-id="d10ac-140">Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active.</span><span class="sxs-lookup"><span data-stu-id="d10ac-140">Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active.</span></span> <span data-ttu-id="d10ac-141">Administrators are not subject to the Creators or Allowed Members restrictions.</span><span class="sxs-lookup"><span data-stu-id="d10ac-141">Administrators are not subject to the Creators or Allowed Members restrictions.</span></span> <span data-ttu-id="d10ac-142">Administrators can create any kind of chat room and add themselves as a member to any chat room.</span><span class="sxs-lookup"><span data-stu-id="d10ac-142">Administrators can create any kind of chat room and add themselves as a member to any chat room.</span></span> <span data-ttu-id="d10ac-143">Администраторы могут также изменять и управлять конфигурацией сохраняемого чата (свойствам пула, глобальными параметрами и конфигурацией соответствия требованиям), а также планировать и реализовывать миграцию с более старого сервера группового чата развертывания на Lync Server 2013 сохраняемый чат Server.</span><span class="sxs-lookup"><span data-stu-id="d10ac-143">Administrators can also modify and manage Persistent Chat configuration (pool properties, global settings, and compliance configuration) and can also plan and implement migration from an older Group Chat Server deployment to Lync Server 2013 Persistent Chat Server.</span></span>
+
+  - <span data-ttu-id="d10ac-144">**Администратор Lync:** Общий администратор предприятия для Lync Server 2013, ответственный за развертывание.</span><span class="sxs-lookup"><span data-stu-id="d10ac-144">**Lync Administrator:** Overall enterprise administrator for Lync Server 2013 responsible for deployment.</span></span>
+
+  - <span data-ttu-id="d10ac-145">**Operations Manager:** Пользователь, ответственный за управление повседневными операциями.</span><span class="sxs-lookup"><span data-stu-id="d10ac-145">**Operations Manager:** User responsible for managing day-to-day operations.</span></span>
+
+  - <span data-ttu-id="d10ac-146">**Сторонние разработчики и партнеры:** Сторонние разработчики расширяют систему, в частности, обеспечивая решение для групповых разговоров, поддержку соответствия требованиям и инструменты, веб-и мобильные клиенты, а также платформу для Bot-разработки.</span><span class="sxs-lookup"><span data-stu-id="d10ac-146">**Third-party developers and partners:** Third-party developers extend the system, in particular providing an ethical wall solution for group conversations, compliance support and tools, web/mobile clients, and a framework for Bot development.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

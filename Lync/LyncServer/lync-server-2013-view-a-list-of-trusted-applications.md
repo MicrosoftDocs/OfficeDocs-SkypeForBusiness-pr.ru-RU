@@ -1,45 +1,83 @@
-﻿---
-title: Просмотр списка доверенных приложений
-TOCTitle: Просмотр списка доверенных приложений
-ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182604(v=OCS.15)
-ms:contentKeyID: 49311610
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр списка надежных приложений'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View a list of trusted applications
+ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182604(v=OCS.15)
+ms:contentKeyID: 48185844
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 23866bfbc437d87911a84d065ae7f501c7d80466
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849168"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр списка доверенных приложений
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-21_
+# <a name="view-a-list-of-trusted-applications-in-lync-server-2013"></a><span data-ttu-id="b65ff-102">Просмотр списка надежных приложений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b65ff-102">View a list of trusted applications in Lync Server 2013</span></span>
 
-Панель управления Lync Server 2013 можно использовать для просмотра списка доверенных приложений, развернутых в среде Lync Server 2013. Доверенное приложение — это приложение, основанное на пакете SDK Microsoft Unified Communications Managed API (UCMA) 3.0 Core, с которым установлено отношение доверия сервера Lync Server 2013. В списке ниже приведены сведения об этом отношении доверия.
+</div>
 
-  - Доверенным приложениям не требуется проходить проверку подлинности Lync Server.
+<div id="mainSection">
 
-  - К доверенным приложениям не применяется регулирование Lync Server для транзакций SIP, подключений или исходящих вызовов по протоколу VoIP.
+<div id="mainBody">
 
-  - Доверенные приложения могут олицетворять любого пользователя и присоединиться к конференциям, минуя списки.
+<span> </span>
 
-  - Доверенные приложения устойчивы и надежны.
+<span data-ttu-id="b65ff-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="b65ff-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-В панели управления Lync Server можно видеть имя приложения, пул, в котором оно выполняется, и используемые порты.
+<span data-ttu-id="b65ff-104">Вы можете использовать панель управления Lync Server 2013 для просмотра списка доверенных приложений, развернутых в среде Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b65ff-104">You can use Lync Server 2013 Control Panel to view a list of the trusted applications that you have deployed in your Lync Server 2013 environment.</span></span> <span data-ttu-id="b65ff-105">Надежное приложение — это приложение, основанное на управляемом наборе API Microsoft Unified Communications (УКМА 3,0), который является надежным для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b65ff-105">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Lync Server 2013.</span></span> <span data-ttu-id="b65ff-106">Это отношение доверия представлено в следующем списке.</span><span class="sxs-lookup"><span data-stu-id="b65ff-106">This trust relationship is summarized in the following list:</span></span>
 
-## Просмотр списка доверенных приложений
+  - <span data-ttu-id="b65ff-107">Доверенные приложения не предназначены для проверки подлинности на сервере Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b65ff-107">Trusted applications are not challenged for authentication by Lync Server.</span></span>
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или CsViewOnlyAdministrator. Дополнительные сведения о предварительно заданных административных ролях, которые доступны в Lync Server 2013, см. в разделе [Планирование контроля доступа на основе ролей в Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+  - <span data-ttu-id="b65ff-108">Доверенные приложения не заменяются на Lync Server для транзакций SIP, подключений и исходящих голосовых вызовов по протоколу VoIP.</span><span class="sxs-lookup"><span data-stu-id="b65ff-108">Trusted applications are not throttled by Lync Server for SIP transactions, connections or outgoing Voice over Internet Protocol (VoIP) calls.</span></span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+  - <span data-ttu-id="b65ff-109">Доверенные приложения могут олицетворять любого пользователя и могут присоединиться к конференциям без отображения в списке.</span><span class="sxs-lookup"><span data-stu-id="b65ff-109">Trusted applications can impersonate any user and can join conferences without appearing in rosters.</span></span>
 
-3.  В левой области навигации щелкните элемент **Топология**, а затем **Доверенное приложение**.
+  - <span data-ttu-id="b65ff-110">Доверенные приложения являются высокодоступными и устойчивыми.</span><span class="sxs-lookup"><span data-stu-id="b65ff-110">Trusted applications are highly available and resilient.</span></span>
 
-4.  На странице **Доверенное приложение** щелкните заголовок столбца, чтобы выполнить сортировку приложений (при необходимости).
+<span data-ttu-id="b65ff-111">На панели управления Lync Server вы можете просматривать имена приложений, пула, в которых они выполняются, и используемого ими порта.</span><span class="sxs-lookup"><span data-stu-id="b65ff-111">In Lync Server Control Panel, you can see the name of the applications, the pool where they run, and the port they use.</span></span>
 
-## См. также
+<div>
 
-#### Другие ресурсы
+## <a name="to-view-a-list-of-trusted-applications"></a><span data-ttu-id="b65ff-112">Просмотр списка надежных приложений</span><span class="sxs-lookup"><span data-stu-id="b65ff-112">To view a list of trusted applications</span></span>
 
-[Управление топологией Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
+1.  <span data-ttu-id="b65ff-113">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или CsViewOnlyAdministrator.</span><span class="sxs-lookup"><span data-stu-id="b65ff-113">From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="b65ff-114">Подробные сведения о стандартных ролях администратора, доступных в Lync Server 2013, можно найти [в разделе Планирование управления доступом на основе ролей в Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span><span class="sxs-lookup"><span data-stu-id="b65ff-114">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
+
+2.  <span data-ttu-id="b65ff-115">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b65ff-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b65ff-116">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b65ff-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="b65ff-117">На панели навигации слева щелкните топология \*\*\*\* и выберите пункт **доверенное приложение**.</span><span class="sxs-lookup"><span data-stu-id="b65ff-117">In the left navigation bar, click **Topology** and the click **Trusted Application**.</span></span>
+
+4.  <span data-ttu-id="b65ff-118">На странице **Trusted Application (доверенное приложение** ) щелкните заголовок столбца, чтобы отсортировать приложения, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="b65ff-118">On the **Trusted Application** page, click a column heading to sort the applications, if needed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="b65ff-119">См. также</span><span class="sxs-lookup"><span data-stu-id="b65ff-119">See Also</span></span>
+
+
+[<span data-ttu-id="b65ff-120">Управление топологией Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b65ff-120">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,29 +1,63 @@
-﻿---
-title: "Lync Server 2013: основы топологии, которые нужно знать перед планированием"
-TOCTitle: Основы топологии, которые необходимо знать перед планированием
-ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg398552(v=OCS.15)
-ms:contentKeyID: 49310166
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: основы топологии, которые необходимо знать перед планированием'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Topology basics you must know before planning
+ms:assetid: 7376306b-1b80-4776-9261-aa545abb08c6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398552(v=OCS.15)
+ms:contentKeyID: 48184510
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2076d6db4c2d3702eac6882277595fd81e2572d5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849354"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Основы топологии, которые необходимо знать перед планированием для Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-25_
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a><span data-ttu-id="b23b7-102">Основы топологии, которые необходимо знать перед планированием для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b23b7-102">Topology basics you must know before planning for Lync Server 2013</span></span>
 
-Не нужно быть экспертом по Lync Server, чтобы запускать планирования. В действительности, чтобы получить наиболее полное представление о Lync Server, следует несколько раз запустить планирования, по-разному ответить на вопросы и сравнить результаты.
+</div>
 
-Прежде чем более подробно рассмотреть различные компоненты, необходимо понять следующие основные аспекты топологий Lync Server 2013.
+<div id="mainSection">
 
-## Содержание
+<div id="mainBody">
 
-  - [Сайты Lync Server для Lync Server 2013](lync-server-2013-sites.md)
+<span> </span>
 
-  - [Роли сервера в Lync Server 2013](lync-server-2013-server-roles.md)
+<span data-ttu-id="b23b7-103">_**Тема последнего изменения:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="b23b7-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-  - [Поддержка высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+<span data-ttu-id="b23b7-104">Для запуска средства планирования вам не нужно быть экспертом на сервере Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b23b7-104">You do not have to be an expert on Lync Server to run the Planning Tool.</span></span> <span data-ttu-id="b23b7-105">На самом деле, запускать средство планирования несколько раз, отвечать на вопросы по-другому и сравнивать результаты — это хороший способ изучить Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b23b7-105">In fact, running the Planning Tool multiple times, answering questions differently, and comparing the output is a good way to learn about Lync Server.</span></span>
+
+<span data-ttu-id="b23b7-106">Прежде чем узнать о различных компонентах более глубокой глубины, ознакомьтесь со следующими основными аспектами топологий Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b23b7-106">Before you learn about the various components in more depth, you should understand the following basic aspects of Lync Server 2013 topologies.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="b23b7-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="b23b7-107">In This Section</span></span>
+
+  - [<span data-ttu-id="b23b7-108">Сайты Lync Server для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b23b7-108">Lync Server sites for Lync Server 2013</span></span>](lync-server-2013-sites.md)
+
+  - [<span data-ttu-id="b23b7-109">Роли сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b23b7-109">Server roles in Lync Server 2013</span></span>](lync-server-2013-server-roles.md)
+
+  - [<span data-ttu-id="b23b7-110">Поддержка высокой доступности и аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b23b7-110">High availability and disaster recovery support in Lync Server 2013</span></span>](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

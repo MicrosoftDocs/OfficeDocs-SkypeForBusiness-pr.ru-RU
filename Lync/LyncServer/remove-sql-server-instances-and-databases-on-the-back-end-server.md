@@ -1,29 +1,63 @@
-﻿---
-title: Удаление экземпляров и баз данных SQL Server на сервере заднего плана
-TOCTitle: Удаление экземпляров и баз данных SQL Server на сервере заднего плана
-ms:assetid: 32457df9-7dd9-4fca-9362-ea4de26b0296
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688016(v=OCS.15)
-ms:contentKeyID: 49887936
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Удаление экземпляров и баз данных SQL Server на внутреннем сервере
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove SQL Server instances and databases on the Back End Server
+ms:assetid: 32457df9-7dd9-4fca-9362-ea4de26b0296
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688016(v=OCS.15)
+ms:contentKeyID: 49733606
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1f03a318e81b839d5f92dbaa4ddcc70bbbc8e2e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848908"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Удаление экземпляров и баз данных SQL Server на сервере заднего плана
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a><span data-ttu-id="a016b-102">Удаление экземпляров и баз данных SQL Server на внутреннем сервере</span><span class="sxs-lookup"><span data-stu-id="a016b-102">Remove SQL Server instances and databases on the Back End Server</span></span>
 
-Базы данных и экземпляры Microsoft SQL Server удаляются после удаления зависящих от них серверов с Lync Server 2010 или после настройки в конфигурации серверов с Lync Server 2010 использования другой базы данных. Процедуру, описанную в этом разделе, необходимо выполнить при выводе из эксплуатации текущего сервера SQL Server или при таком изменении конфигурации текущего сервера Lync Server 2010, при котором база данных становится устаревшей или недоступной.
+</div>
 
-Для удаления баз данных или экземпляров сервера архивации или сервера мониторинга необходимо сначала удалить роль сервера. Аналогично, при удалении экземпляров или баз данных пула переднего плана необходимо сначала удалить зависимую роль сервера или изменить ее конфигурацию. Эти процедуры одинаково подходят для баз данных с выровненным размещением и отдельных экземпляров, относящихся к серверам. Выровненное размещение баз данных не влияет на выполнение этих процедур.
+<div id="mainSection">
 
-## Содержание
+<div id="mainBody">
 
-  - [Удаление базы данных SQL Server для пула переднего плана](remove-the-sql-server-database-for-a-front-end-pool.md)
+<span> </span>
 
-  - [Удаление базы данных SQL Server для сервера мониторинга](remove-the-sql-server-database-for-a-monitoring-server.md)
+<span data-ttu-id="a016b-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a016b-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - [Удаление базы данных SQL Server для сервера архивирования](remove-the-sql-server-database-for-an-archiving-server.md)
+<span data-ttu-id="a016b-104">Вы удаляете базы данных и экземпляры Microsoft SQL Server после удаления серверов с Lync Server 2010, которые зависят от них, или после перенастройки серверов с Lync Server 2010 для использования другой базы данных.</span><span class="sxs-lookup"><span data-stu-id="a016b-104">You remove the Microsoft SQL Server databases and instances after you remove the servers running Lync Server 2010 that are dependent on them, or after you reconfigure the servers running Lync Server 2010 to use another database.</span></span> <span data-ttu-id="a016b-105">При отмене текущего SQL Server или изменении конфигурации текущего сервера, на котором работает Lync Server 2010, необходимо выполнить описанные ниже действия, чтобы сделать базы данных устаревшими или недоступными.</span><span class="sxs-lookup"><span data-stu-id="a016b-105">You need to perform the procedure in this topic when you retire the current SQL Server or reconfigure the current server running Lync Server 2010 in such a way that it renders the databases obsolete or unavailable.</span></span>
+
+<span data-ttu-id="a016b-106">Чтобы удалить базы данных или экземпляры сервера архивирования или сервера мониторинга, необходимо сначала удалить роль сервера.</span><span class="sxs-lookup"><span data-stu-id="a016b-106">To remove the databases or instances for the Archiving Server or Monitoring Server, you must first remove the server role.</span></span> <span data-ttu-id="a016b-107">Аналогичным образом для удаления экземпляров или баз данных в пуле переднего плана необходимо сначала удалить или перенастроить роль зависимого сервера.</span><span class="sxs-lookup"><span data-stu-id="a016b-107">Similarly, to remove the instances or databases for Front End pool, you must first remove or reconfigure the dependent server role.</span></span> <span data-ttu-id="a016b-108">Эти процедуры не различаются между выровненными базами данных и отдельными экземплярами серверов.</span><span class="sxs-lookup"><span data-stu-id="a016b-108">These procedures make no distinction between collocated databases or separate instances for servers.</span></span> <span data-ttu-id="a016b-109">Расгруппировка баз данных не влияет на эти процедуры.</span><span class="sxs-lookup"><span data-stu-id="a016b-109">The procedures are unaffected by the collocation of databases.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="a016b-110">Содержание</span><span class="sxs-lookup"><span data-stu-id="a016b-110">In This Section</span></span>
+
+  - [<span data-ttu-id="a016b-111">Удаление базы данных SQL Server для пула переднего плана</span><span class="sxs-lookup"><span data-stu-id="a016b-111">Remove the SQL Server database for a Front End pool</span></span>](remove-the-sql-server-database-for-a-front-end-pool.md)
+
+  - [<span data-ttu-id="a016b-112">Удаление базы данных SQL Server для сервера мониторинга</span><span class="sxs-lookup"><span data-stu-id="a016b-112">Remove the SQL Server database for a Monitoring server</span></span>](remove-the-sql-server-database-for-a-monitoring-server.md)
+
+  - [<span data-ttu-id="a016b-113">Удаление базы данных SQL Server для сервера архивирования</span><span class="sxs-lookup"><span data-stu-id="a016b-113">Remove the SQL Server database for an Archiving server</span></span>](remove-the-sql-server-database-for-an-archiving-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

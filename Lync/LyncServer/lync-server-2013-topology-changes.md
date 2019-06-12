@@ -1,47 +1,85 @@
-﻿---
-title: 'Lync Server 2013: изменения топологии'
-TOCTitle: Изменения топологии
-ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ688153(v=OCS.15)
-ms:contentKeyID: 49888112
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: изменения топологии'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Topology changes
+ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688153(v=OCS.15)
+ms:contentKeyID: 49733756
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3f0ea02d1643a686e16d3d1984e756a48311b421
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849350"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Изменения топологии в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-02_
+# <a name="topology-changes-in-lync-server-2013"></a><span data-ttu-id="4cbca-102">Изменения топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4cbca-102">Topology changes in Lync Server 2013</span></span>
 
-В этом разделе описаны отличия требований и рекомендаций по топологии для Lync Server 2013 от требований и рекомендаций для предыдущих выпусков.
+</div>
 
-## Новая архитектура интерфейсных пулов
+<div id="mainSection">
 
-В Lync Server 2013 архитектура Enterprise Editionпереднего плана изменилась: теперь используется архитектура распределенных систем.
+<div id="mainBody">
 
-В новой архитектуре тыловая база данных больше не является хранилищем данных, работающим в режиме реального времени в пуле. Сведения об отдельных пользователях хранятся на трех серверах переднего плана в пуле. Для каждого пользователя один сервер переднего плана действует как основное хранилище данных, а два других – как реплики. При отказе основного сервера его функции автоматически начинает выполнять один из серверов-реплик.
+<span> </span>
 
-Это происходит в фоновом режиме и администраторам необязательно знать, какие серверы переднего плана являются основными для определенных пользователей. Такое распределенное хранилище данных повышает производительность и масштабируемость пула, а также устраняет единую точку отказа в виде единственного сервера внутренний сервер.
+<span data-ttu-id="4cbca-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="4cbca-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-Тыловой сервер действует как хранилище резервной копии пользовательских данных и данных конференций, а также как основное хранилище других баз данных, таких как база данных группы ответа.
+<span data-ttu-id="4cbca-104">Требования к топологии и рекомендации для Lync Server 2013 отличаются от требований для более ранних выпусков, описанных в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="4cbca-104">Topology requirements and considerations for Lync Server 2013 are different from those for earlier releases, as described in this section.</span></span>
 
-Эти улучшения привели к изменению планирования и обслуживания пулов. Рекомендуется, чтобы все пулы Enterprise Editionпереднего плана содержали как минимум три сервера переднего плана для поддержки полного набора реплик, на которые рассчитана архитектура переднего плана. Кроме того, при добавлении серверов в переднего плана, а также при их удалении или обновлении, необходимо выполнять определенные процедуры. Дополнительные сведения см. в разделе [Топология и компоненты для серверов переднего плана, обмена мгновенными сообщениями и сведениями о присутствии в Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+<div>
 
-## Изменения топологии ролей сервера
+## <a name="new-front-end-pools-architecture"></a><span data-ttu-id="4cbca-105">Новая архитектура пулов интерфейсов на стороне сервера</span><span class="sxs-lookup"><span data-stu-id="4cbca-105">New Front End Pools Architecture</span></span>
 
-Некоторые роли сервера, которые раньше выполнялись на отдельных серверах, теперь объединены в роли сервера переднего плана. Это позволяет сократить расходы на оборудование.
+<span data-ttu-id="4cbca-106">В Lync Server 2013 архитектура высокоинтерфейсных пулов Enterprise Edition изменилась на архитектуру распределенных систем.</span><span class="sxs-lookup"><span data-stu-id="4cbca-106">In Lync Server 2013, the architecture of Enterprise Edition Front End pools has changed to a distributed systems architecture.</span></span>
 
-  - В Lync Server 2013 сервер аудио- и видеоконференций всегда размещается совместно с сервером переднего плана.
+<span data-ttu-id="4cbca-107">В этой новой архитектуре база данных "сервер" больше не является хранилищем данных в режиме реального времени в пуле.</span><span class="sxs-lookup"><span data-stu-id="4cbca-107">With this new architecture, the Back End database is no longer the real-time data store in a pool.</span></span> <span data-ttu-id="4cbca-108">Сведения о конкретном пользователе хранятся на трех серверах переднего плана в пуле.</span><span class="sxs-lookup"><span data-stu-id="4cbca-108">Information about a particular user is kept on three Front End Servers in the pool.</span></span> <span data-ttu-id="4cbca-109">Для каждого пользователя один сервер переднего плана действует как образец для сведений о пользователе, а два других сервера переднего плана служат репликами.</span><span class="sxs-lookup"><span data-stu-id="4cbca-109">For each user, one Front End Server acts as the master for that user’s information, and two other Front End Servers serve as replicas.</span></span> <span data-ttu-id="4cbca-110">Если сервер переднего плана отключается, то другой сервер переднего плана, который послужил репликой, будет автоматически выдвинут на главную роль.</span><span class="sxs-lookup"><span data-stu-id="4cbca-110">If a Front End Server goes down, another Front End Server which served as a replica is automatically promoted to master.</span></span>
 
-  - Интерфейсы мониторинга и архивации теперь размещаются совместно с сервером переднего плана. Для мониторинга и архивации по-прежнему требуются отдельные серверные базы данных, которые могут быть размещены на одном сервере в качестве тыловой базы данных интерфейсного пула или на отдельных тыловых серверах.
+<span data-ttu-id="4cbca-111">Это происходит в фоновом режиме, и администраторам не нужно знать, какие серверы переднего плана являются хозяевами, для которых пользователи.</span><span class="sxs-lookup"><span data-stu-id="4cbca-111">This happens behind the scenes, and administrators do not need to know which Front End Servers are the masters for which users.</span></span> <span data-ttu-id="4cbca-112">Это распределение хранилища данных повышает производительность и масштабируемость пула и устраняет единственную точку сбоя на одном сервере.</span><span class="sxs-lookup"><span data-stu-id="4cbca-112">This distribution of data storage improves performance and scalability within the pool, and eliminates the single point of failure of a single Back End Server.</span></span>
 
-  - сохраняемого сеанса беседы теперь является ролью сервера. В Microsoft Lync Server 2010 сервер групповой беседы был сторонним доверенным приложением для Microsoft Lync Server 2010. В Lync Server 2013 функции сохраняемого сеанса беседы реализованы с помощью трех новых ролей сервера:
+<span data-ttu-id="4cbca-113">Сервер может служить хранилищем резервных копий для данных пользователей и конференций, а также основным хранилищем для других баз данных, таких как база данных группы ответа.</span><span class="sxs-lookup"><span data-stu-id="4cbca-113">The Back End Server serves as backup storage for user and conference data, and is also the primary storage for other databases such as the Response Group database.</span></span>
+
+<span data-ttu-id="4cbca-114">Эти улучшения также означают, как вы планируете и собираетесь управлять пулами.</span><span class="sxs-lookup"><span data-stu-id="4cbca-114">These improvements also mean there are changes in how you plan and maintain your pools.</span></span> <span data-ttu-id="4cbca-115">Для обеспечения полного количества реплик, для которых разработана архитектура пула переднего плана, рекомендуется использовать по крайней мере три внешних сервера в корпоративном выпуске.</span><span class="sxs-lookup"><span data-stu-id="4cbca-115">We recommend that all your Enterprise Edition Front End pools include at least three Front End Servers, to provide the full number of replicas that the Front End pool architecture is designed for.</span></span> <span data-ttu-id="4cbca-116">Кроме того, при добавлении серверов в пул переднего плана, удалении серверов или обновлении серверов необходимо выполнить определенные действия.</span><span class="sxs-lookup"><span data-stu-id="4cbca-116">Additionally, you must follow certain procedures when adding servers to a Front End pool, removing servers from it, or upgrading servers.</span></span> <span data-ttu-id="4cbca-117">Дополнительные сведения можно найти [в разделе топологии и компоненты для серверов переднего плана, обмена мгновенными сообщениями и присутствия в Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span><span class="sxs-lookup"><span data-stu-id="4cbca-117">For more information, see [Topologies and components for Front End Servers, instant messaging, and presence in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).</span></span>
+
+<div>
+
+## <a name="server-role-topology-changes"></a><span data-ttu-id="4cbca-118">Изменения топологии ролей сервера</span><span class="sxs-lookup"><span data-stu-id="4cbca-118">Server Role Topology Changes</span></span>
+
+<span data-ttu-id="4cbca-119">Некоторые роли сервера, которые раньше выполнялись на отдельных серверах, теперь консолидируются в роль сервера переднего плана, что позволяет экономить аппаратные затраты</span><span class="sxs-lookup"><span data-stu-id="4cbca-119">Some server roles that previously ran on separate servers are now consolidated into the Front End Server role, enabling you to save on hardware costs</span></span>
+
+  - <span data-ttu-id="4cbca-120">В Lync Server 2013 сервер конференц-связи с интерфейсом/V всегда размещается на сервере переднего плана.</span><span class="sxs-lookup"><span data-stu-id="4cbca-120">In Lync Server 2013, A/V Conferencing Server is always collocated with Front End Server.</span></span>
+
+  - <span data-ttu-id="4cbca-121">Передний план для обоих мониторов и архивирования теперь всегда размещаются вместе с интерфейсом сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="4cbca-121">The front ends for both Monitoring and Archiving are now always collocated with Front End Server.</span></span> <span data-ttu-id="4cbca-122">Для наблюдения и архивации по-прежнему требуется отдельная серверная база данных, которая может быть размещена на одном сервере с серверной базой данных пула и может находиться на разных серверах.</span><span class="sxs-lookup"><span data-stu-id="4cbca-122">Monitoring and Archiving each still require a separate Back-End Database, which can be collocated on the same server as the Front End Pool’s back-end database, or can be hosted on separate Back-End Servers.</span></span>
+
+  - <span data-ttu-id="4cbca-123">Теперь сохраняемый сервер чата является ролью сервера.</span><span class="sxs-lookup"><span data-stu-id="4cbca-123">Persistent Chat Server is now a server role.</span></span> <span data-ttu-id="4cbca-124">В Microsoft Lync Server 2010 для Microsoft Lync Server 2010 сервер группового чата был сторонним доверенным приложением.</span><span class="sxs-lookup"><span data-stu-id="4cbca-124">In Microsoft Lync Server 2010, Group Chat Server was a third-party trusted application for Microsoft Lync Server 2010.</span></span> <span data-ttu-id="4cbca-125">В Lync Server 2013 функции сервера сохраняемого чата реализованы с помощью трех новых ролей сервера:</span><span class="sxs-lookup"><span data-stu-id="4cbca-125">In Lync Server 2013, Persistent Chat Server functionality is implemented using three new server roles:</span></span>
     
-      - **PersistentChatService :** основные службы сохраняемого сеанса беседы, реализованные в виде роли интерфейса;
+      - <span data-ttu-id="4cbca-126">**Персистентчатсервице:** Основные службы сервера сохраняемого чата, реализованные как роли переднего плана</span><span class="sxs-lookup"><span data-stu-id="4cbca-126">**PersistentChatService:** Main Persistent Chat Server services implemented as a front end role</span></span>
     
-      - **PersistentChatStore :** роль тылового сервера;
+      - <span data-ttu-id="4cbca-127">**Персистентчатсторе:** Роль сервера серверной части</span><span class="sxs-lookup"><span data-stu-id="4cbca-127">**PersistentChatStore:** Back End Server role</span></span>
     
-      - **PersistentChatComplianceStore :** роль тылового сервера для совместимости с сохраняемый сеанс беседы.
+      - <span data-ttu-id="4cbca-128">**Персистентчаткомплианцесторе:** Серверная роль сервера для обеспечения соответствия требованиям сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="4cbca-128">**PersistentChatComplianceStore:** Back End Server role for Persistent Chat Compliance</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

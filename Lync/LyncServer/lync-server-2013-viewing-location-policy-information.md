@@ -1,53 +1,96 @@
-﻿---
-title: Просмотр сведений о политике расположения
-TOCTitle: Просмотр сведений о политике расположения
-ms:assetid: 14e41bcb-ea0a-49c2-99b3-1f61fc34416d
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg520954(v=OCS.15)
-ms:contentKeyID: 49309034
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр сведений о политике расположения'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing location policy information
+ms:assetid: 14e41bcb-ea0a-49c2-99b3-1f61fc34416d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520954(v=OCS.15)
+ms:contentKeyID: 48183489
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 72e932449cc0e5b69fad46056dfda898d463c531
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849133"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр сведений о политике расположения
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-11-01_
+# <a name="viewing-location-policy-information-in-lync-server-2013"></a><span data-ttu-id="1a0c0-102">Просмотр сведений о политике местоположений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a0c0-102">Viewing location policy information in Lync Server 2013</span></span>
 
-В сервере Lync Server 2013 можно использовать политику местонахождения, чтобы применять параметры, относящиеся к функциональности Enhanced 9-1-1 (E9-1-1) и к параметрам местонахождения для пользователей или контактов. Политика местонахождения определяет, доступен ли для пользователя E9-1-1, и если доступен, то каково поведение для экстренных вызовов. Например, с помощью политики местонахождения можно задавать номер, представляющий собой экстренный вызов (такой как 911 в США), указывать, должна ли автоматически уведомляться корпоративная служба безопасности, а также задавать маршрутизацию такого вызова.
+</div>
 
-Политики расположения из группы **Конфигурация сети** можно настроить в панели управления Lync Server 2013. Находясь в панели управления Lync Server, можно просматривать, создавать, изменять и удалять политики расположения. Для просмотра сведений о политиках расположения используется следующая процедура. Сведения о создании и изменении политик расположения см. в разделе [Создание или изменение политики расположения](lync-server-2013-creating-or-modifying-a-location-policy.md).
+<div id="mainSection">
 
-## Чтобы просмотреть сведения о политике расположения
+<div id="mainBody">
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+<span> </span>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="1a0c0-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1a0c0-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-3.  В левой панели навигации последовательно выберите пункты **Конфигурация сети** и **Политика местонахождения**.
+<span data-ttu-id="1a0c0-104">В Lync Server 2013 вы можете использовать политику расположения для применения параметров, которые относятся к расширенным функциям 9-1-1 (E9-1-1), а также к параметрам расположения для пользователей и контактов.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-104">In Lync Server 2013, you can use the location policy to apply settings that relate to Enhanced 9-1-1 (E9-1-1) functionality and to location settings for users or contacts.</span></span> <span data-ttu-id="1a0c0-105">Политика расположения определяет, разрешено ли пользователю E9-1-1, и в каких случаях может происходить вызов экстренной помощи.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-105">The location policy determines whether a user is enabled for E9-1-1, and if so what the behavior is of an emergency call.</span></span> <span data-ttu-id="1a0c0-106">Например, вы можете использовать политику расположения, чтобы определить, какой номер является вызовом экстренной помощи (например, 911 в США), следует ли автоматически уведомлять корпоративную безопасность, а также как перенаправлять этот звонок.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-106">For example, you can use the location policy to define what number constitutes an emergency call (for example, 911 in the United States), whether corporate security should be automatically notified, and how the call should be routed.</span></span>
 
-4.  На странице **Политика местонахождения** выберите нужную политику местонахождения.
+<span data-ttu-id="1a0c0-107">Политики местоположений можно настроить в группе **Конфигурация сети** в Lync Server 2013 панели управления.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-107">You can configure location policies from the **Network Configuration** group in Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="1a0c0-108">На панели управления Lync Server вы можете просматривать, создавать, изменять и удалять политики расположения.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-108">From Lync Server Control Panel you can view, create, modify, or delete location policies.</span></span> <span data-ttu-id="1a0c0-109">Чтобы просмотреть сведения о политиках расположения, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-109">Use the following procedure to view information about location policies.</span></span> <span data-ttu-id="1a0c0-110">Дополнительные сведения о создании и изменении политик расположения можно найти [в разделе Создание и изменение политики расположения в Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span><span class="sxs-lookup"><span data-stu-id="1a0c0-110">For details on creating or modifying location policies, see [Creating or modifying a location policy in Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md).</span></span>
 
-5.  В меню **Правка** выберите пункт **Показать подробности**.
+<div>
+
+## <a name="to-view-information-about-a-location-policy"></a><span data-ttu-id="1a0c0-111">Просмотр сведений о политике расположения</span><span class="sxs-lookup"><span data-stu-id="1a0c0-111">To view information about a location policy</span></span>
+
+1.  <span data-ttu-id="1a0c0-112">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="1a0c0-113">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1a0c0-114">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="1a0c0-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="1a0c0-115">На панели навигации слева выберите пункт **Настройка сети** , а затем — **Политика расположения**.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-115">In the left navigation bar, click **Network Configuration** and then click **Location Policy**.</span></span>
+
+4.  <span data-ttu-id="1a0c0-116">На странице " **Политика расположения** " выберите политику расположения, которую вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-116">On the **Location Policy** page, select the location policy that you want to modify.</span></span>
+
+5.  <span data-ttu-id="1a0c0-117">В меню **Правка** щелкните **Подробнее**.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-117">On the **Edit** menu, click **Show details**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > За один раз можно просмотреть сведения только об одной политике расположения.
+    > <span data-ttu-id="1a0c0-118">Вы можете только просматривать сведения о одной политике размещения.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-118">You can only view information about one location policy at a time.</span></span>
 
-Одна политика, которая называется глобальной, существует по умолчанию, и ее нельзя удалить или переименовать. Однако вы можете изменять глобальную политику. Она будет применяться ко всем пользователям и контактам, пока не будут созданы политики на уровне узла и на уровне пользователя. Политики на уровне пользователя должны применяться к конкретным пользователям.
+    
+    </div>
 
-## См. также
+<span data-ttu-id="1a0c0-119">Отдельная политика, называемая Global, существует по умолчанию и не может быть удалена или переименована.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-119">A single policy, called Global, exists by default and cannot be deleted or renamed.</span></span> <span data-ttu-id="1a0c0-120">Однако вы можете изменить глобальную политику.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-120">However, you can modify the Global policy.</span></span> <span data-ttu-id="1a0c0-121">Эта политика будет применяться ко всем пользователям и контактам, если только вы не создаете политики сайта или политики для пользователей.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-121">This policy will apply to all users and contacts, unless you create site policies or per-user policies.</span></span> <span data-ttu-id="1a0c0-122">Политики для пользователей должны применяться к определенным пользователям.</span><span class="sxs-lookup"><span data-stu-id="1a0c0-122">Per-user policies must be applied to specific users.</span></span>
 
-#### Задачи
+</div>
 
-[Создание или изменение политики расположения](lync-server-2013-creating-or-modifying-a-location-policy.md)  
-[Создание политик расположения в Lync Server 2013](lync-server-2013-create-location-policies.md)  
-[Создание или изменение сетевого сайта в Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)  
+<div>
 
-#### Другие ресурсы
+## <a name="see-also"></a><span data-ttu-id="1a0c0-123">См. также</span><span class="sxs-lookup"><span data-stu-id="1a0c0-123">See Also</span></span>
 
-[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
-[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsLocationPolicy)  
-[Get-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsLocationPolicy)
+
+[<span data-ttu-id="1a0c0-124">Создание и изменение политики расположения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a0c0-124">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)  
+[<span data-ttu-id="1a0c0-125">Создание политик местоположений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a0c0-125">Create location policies in Lync Server 2013</span></span>](lync-server-2013-create-location-policies.md)  
+[<span data-ttu-id="1a0c0-126">Создание или изменение сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a0c0-126">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)  
+
+
+[<span data-ttu-id="1a0c0-127">New-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="1a0c0-127">New-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[<span data-ttu-id="1a0c0-128">Set-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="1a0c0-128">Set-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
+[<span data-ttu-id="1a0c0-129">Remove-Кслокатионполици</span><span class="sxs-lookup"><span data-stu-id="1a0c0-129">Remove-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[<span data-ttu-id="1a0c0-130">Get-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="1a0c0-130">Get-CsLocationPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

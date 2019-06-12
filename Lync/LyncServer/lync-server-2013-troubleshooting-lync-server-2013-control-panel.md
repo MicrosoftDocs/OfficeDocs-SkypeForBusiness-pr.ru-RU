@@ -1,77 +1,139 @@
-﻿---
-title: Устранение неполадок с панелью управления в Lync Server 2013
-TOCTitle: Устранение неполадок с панелью управления в Lync Server 2013
-ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg195689(v=OCS.15)
-ms:contentKeyID: 49309801
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Устранение неполадок с панелью управления Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Troubleshooting Lync Server 2013 Control Panel
+ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195689(v=OCS.15)
+ms:contentKeyID: 48184145
+ms.date: 07/28/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 943f2ab5f0fe808d1bf5e10cf8b451ac1df2575b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849340"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Устранение неполадок с панелью управления в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="troubleshooting-lync-server-2013-control-panel"></a><span data-ttu-id="36f3e-102">Устранение неполадок с панелью управления Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3e-102">Troubleshooting Lync Server 2013 Control Panel</span></span>
 
-В этом разделе содержатся сведения и процедуры, помогающие устранять неполадки доступа к панели управления Lync Server 2013.
+</div>
 
-## Требования к Интернет-браузеру
+<div id="mainSection">
 
-Для панели управления Lync Server требуется установка для браузеров Microsoft Silverlight версии не ниже 4.0.50524.0. Если браузер Silverlight не установлен или имеет более раннюю версию, то следуйте инструкциям в сообщении для установки необходимой версии.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="36f3e-103">_**Тема последнего изменения:** 2016-07-28_</span><span class="sxs-lookup"><span data-stu-id="36f3e-103">_**Topic Last Modified:** 2016-07-28_</span></span>
+
+<span data-ttu-id="36f3e-104">В этом разделе приведены сведения и процедуры, которые помогут вам устранить неполадки при доступе к панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="36f3e-104">This topic provides information and procedures that can help you troubleshoot access to Lync Server 2013 Control Panel.</span></span>
+
+<div>
+
+## <a name="internet-browser-requirements"></a><span data-ttu-id="36f3e-105">Требования к Интернет-браузеру</span><span class="sxs-lookup"><span data-stu-id="36f3e-105">Internet Browser Requirements</span></span>
+
+<span data-ttu-id="36f3e-106">Для работы с панелью управления Lync Server необходимо установить подключаемый модуль Microsoft Silverlight версии 4.0.50524.0 или последней версии.</span><span class="sxs-lookup"><span data-stu-id="36f3e-106">Lync Server Control Panel requires that Microsoft Silverlight browser plug-in version 4.0.50524.0 or latest version is installed.</span></span> <span data-ttu-id="36f3e-107">Если приложение Silverlight не установлено или установлена более ранняя версия, следуйте инструкциям в сообщении, чтобы установить требуемую версию.</span><span class="sxs-lookup"><span data-stu-id="36f3e-107">If Silverlight is not installed or if an earlier version is installed, follow the instructions in the message to install the required version.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Другие требования к программному обеспечению для панели управления Lync Server относятся к операционной системе, в которой может быть установлена панель управления Lync Server и все прочие средства администрирования сервера Lync Server 2013. Подробные сведения см. в разделе <a href="lync-server-2013-server-and-tools-operating-system-support.md">Поддержка сервера и средств в операционной системе в Lync Server 2013</a> документации по поддержке.
+> <span data-ttu-id="36f3e-108">Другие требования к программному обеспечению для панели управления Lync Server относятся к операционной системе, в которой можно установить панель управления Lync Server и другие средства администрирования Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="36f3e-108">Other software requirements for Lync Server Control Panel pertain to the operating system on which Lync Server Control Panel and all other Lync Server 2013 administrative tools can be installed.</span></span> <span data-ttu-id="36f3e-109">Подробности можно найти в разделе <A href="lync-server-2013-server-and-tools-operating-system-support.md">Поддержка серверов и инструментальных средств операционной системы в Lync Server 2013</A> в документации по поддержке.</span><span class="sxs-lookup"><span data-stu-id="36f3e-109">For details, see <A href="lync-server-2013-server-and-tools-operating-system-support.md">Server and tools operating system support in Lync Server 2013</A> in the Supportability documentation.</span></span>
 
-Если ваш Интернет-браузер блокирует установку Silverlight по соображениям безопасности, добавьте URL-адрес, который открывает панель управления Lync Server, в список доверенных сайтов. В параметрах безопасности Internet Explorer убедитесь, что параметр **Запускать элементы ActiveX и подключаемые модуливключен**. Подробные сведения см. на странице [http://go.microsoft.com/fwlink/?linkid=214060\&clcid=0x419](http://go.microsoft.com/fwlink/?linkid=214060%26clcid=0x419). Кроме того, убедитесь, что браузер настроен для использования SSL 3.0.
 
-Если Интернет-браузер настроен для использования прокси-сервера, то убедитесь, что задан обход прокси-сервера для сайтов, которые автоматически определяются как внутренние сайты. Можно также добавить этот адрес в список исключений браузера в параметрах конфигурации прокси-сервера.
 
-## Требования к записи DNS и к сертификату для URL-адреса административного доступа
+</div>
 
-Если для доступа к панели управления Lync Server настроен простой URL-адрес, то должна быть также настроена статическая запись ресурса узла (запись А) службы доменных имен (DNS) и сертификат, необходимый для использования этого URL-адреса административного доступа. Убедитесь, что при изменении этого базового URL-адреса в любое время это изменение отражается в соответствующей записи DNS ив сертификате, и что для регистрации этого изменения командлет *Enable-CsComputer* был выполнен в каждом сервере Директор и сервере переднего плана. Подробные сведения см. в следующих разделах документации по планированию.
+<span data-ttu-id="36f3e-110">Если ваш браузер сети заблокирует установку Silverlight из-за соображений безопасности, добавьте URL-адрес, который открывает панель управления Lync Server в списке надежных сайтов.</span><span class="sxs-lookup"><span data-stu-id="36f3e-110">If your Internet browser blocks installation of Silverlight due to security considerations, add the Uniform Resource Locator (URL) that opens Lync Server Control Panel to the list of trusted sites.</span></span> <span data-ttu-id="36f3e-111">В параметрах безопасности Internet Explorer убедитесь, что для параметра **Запуск элементов ActiveX и подключаемых модулей** задано значение **включено**.</span><span class="sxs-lookup"><span data-stu-id="36f3e-111">In Internet Explorer security settings, ensure that **Run ActiveX controls and plug-ins** is set to **Enabled**.</span></span> <span data-ttu-id="36f3e-112">Подробности можно найти в [http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060)разделе.</span><span class="sxs-lookup"><span data-stu-id="36f3e-112">For details, see [http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060).</span></span> <span data-ttu-id="36f3e-113">Кроме того, убедитесь, что браузер настроен на использование SSL 3,0.</span><span class="sxs-lookup"><span data-stu-id="36f3e-113">Furthermore, ensure that the browser is configured to use SSL 3.0.</span></span>
 
-  - [Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
+<span data-ttu-id="36f3e-114">Если браузер настроен на использование прокси-сервера, убедитесь, что он настроен таким образом, чтобы он обходил прокси-сервер для сайтов, автоматически обнаруживаемых как внутренние сайты.</span><span class="sxs-lookup"><span data-stu-id="36f3e-114">If the Internet browser is configured to use a proxy server, verify that the browser is configured to bypass the proxy server for sites that are automatically detected as internal sites.</span></span> <span data-ttu-id="36f3e-115">Вы также можете добавить адрес в список исключений браузера в параметрах конфигурации прокси-сервера.</span><span class="sxs-lookup"><span data-stu-id="36f3e-115">Or, add the address to the browser's exception list in the proxy server configuration settings.</span></span>
 
-  - [Требования DNS для простых URL-адресов в Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
+</div>
 
-  - [Требования к сертификатам для внутренних серверов в Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)
+<div>
 
-Пошаговые процедуры по настройке URL-адреса административного доступа см. в разделе [Изменить или настроить простые URL-адреса в Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) документации по развертыванию.
+## <a name="dns-record-and-certificate-requirements-for-the-administrative-access-url"></a><span data-ttu-id="36f3e-116">Требования к записям DNS и сертификатам для URL-адреса административного доступа</span><span class="sxs-lookup"><span data-stu-id="36f3e-116">DNS Record and Certificate Requirements for the Administrative Access URL</span></span>
 
-> [!NOTE]  
-> Если на веб-сервере имеется несколько сетевых адаптеров, то необходимо вручную настроить DNS для каждого дополнительного адаптера, чтобы разрешение DNS работало должным образом.
+<span data-ttu-id="36f3e-117">Если вы настроили простой URL-адрес для доступа к панели управления Lync Server, убедитесь, что вы также настроили статическую запись ресурса узла (A) доменных имен (DNS) и сертификат, необходимый для использования URL-адреса для административного доступа.</span><span class="sxs-lookup"><span data-stu-id="36f3e-117">If you configured a simple URL to access Lync Server Control Panel, ensure that you also configured the static Domain Name System (DNS) host (A) resource record and certificate necessary to use that administrative access URL.</span></span> <span data-ttu-id="36f3e-118">Если вы в любой момент измените базовый URL-адрес, убедитесь, что изменения отражаются в соответствующей записи DNS и сертификате, и что вы запускаете *Enable-кскомпутер* для каждого директора и сервера переднего плана для регистрации изменения.</span><span class="sxs-lookup"><span data-stu-id="36f3e-118">If you change the base URL at any time, ensure that the change is reflected in the appropriate DNS record and certificate and that you run the *Enable-CsComputer* on each Director and Front End Server to register the change.</span></span> <span data-ttu-id="36f3e-119">Подробные сведения можно найти в следующих статьях в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="36f3e-119">For details, see the following topics in the Planning documentation:</span></span>
 
-## Требования к службам IIS
+  - [<span data-ttu-id="36f3e-120">Планирование простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3e-120">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)
 
-Панель управления Lync Server является одним из компонентов сервера Lync Server 2013, которому требуются службы Службы IIS. В частности, следует убедиться, что включены функции перенаправления HTTP и проверки подлинности Windows, и что служба веб-публикаций (W3SVC) выполняется.
+  - [<span data-ttu-id="36f3e-121">Требования DNS для простых URL-адресов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3e-121">DNS requirements for simple URLs in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-## Зависимость от службы веб-публикаций (службы Windows)
+  - [<span data-ttu-id="36f3e-122">Требования к сертификатам для внутренних серверов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3e-122">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
 
-Если служба веб-публикаций остановлена, то нельзя получить доступ к панели управления Lync Server. Необходимо перезапустить эту службу с помощью консоли управления (MMC) служб Windows.
+<span data-ttu-id="36f3e-123">Пошаговые инструкции по настройке URL-адреса для административного доступа можно найти [в статье изменение и настройка простых адресов URL в Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="36f3e-123">For step-by-step procedures to configure the administrative access URL, see [Edit or configure simple URLs in Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md) in the Deployment documentation.</span></span>
 
-**Запуск службы веб-публикаций**
+</div>
 
-1.  Войдите в компьютер, на котором установлена служба веб-публикаций как часть служб Службы IIS.
+<div>
 
-2.  Нажмите кнопку **Пуск**, а затем последовательно выберите пункты **Администрирование** и **Службы**.
+## <a name="internet-information-services-iis-requirements"></a><span data-ttu-id="36f3e-124">Требования к службам IIS</span><span class="sxs-lookup"><span data-stu-id="36f3e-124">Internet Information Services (IIS) Requirements</span></span>
 
-3.  Щелкните правой кнопкой мыши **службу веб-публикаций** и выберите команду **Пуск**.
+<span data-ttu-id="36f3e-125">Панель управления Lync Server — это один из компонентов Lync Server 2013, для работы с которым требуются информационные службы Интернета (IIS).</span><span class="sxs-lookup"><span data-stu-id="36f3e-125">Lync Server Control Panel is one of the components of Lync Server 2013 that requires Internet Information Services (IIS).</span></span> <span data-ttu-id="36f3e-126">В частности, убедитесь, что включена функция перенаправления HTTP и проверки подлинности Windows, и что служба веб-публикации (W3SVC) запущена.</span><span class="sxs-lookup"><span data-stu-id="36f3e-126">In particular, ensure that HTTP redirection and Windows authentication features are enabled, and that the World Wide Web Publishing Service (W3SVC) is running.</span></span>
 
-## Режим пула приложений
+<div>
 
-Настройте службы IIS таким образом, чтобы пул приложений CsManagementAppPool использовал учетную запись сетевой службы в качестве удостоверения своей модели процесса.
+## <a name="world-wide-publishing-service-windows-service-dependency"></a><span data-ttu-id="36f3e-127">Зависимость службы публикации в глобальной среде (Windows)</span><span class="sxs-lookup"><span data-stu-id="36f3e-127">World Wide Publishing Service (Windows Service) Dependency</span></span>
 
-## Пользовательские права и разрешения
+<span data-ttu-id="36f3e-128">Когда служба веб-публикации остановлена, вы не можете получить доступ к панели управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="36f3e-128">When the World Wide Web Publishing Service is stopped, you cannot access Lync Server Control Panel.</span></span> <span data-ttu-id="36f3e-129">Вы можете перезапустить службу с помощью консоли управления службами Windows (MMC).</span><span class="sxs-lookup"><span data-stu-id="36f3e-129">You can restart the service by using the Windows Services Microsoft Management Console (MMC).</span></span>
 
-Необходимо входить в панель управления Lync Server либо с помощью учетной записи домена, которая является членом группы CsAdministrator, либо с помощью учетной записи, которой делегированы пользовательские права и разрешения. Нельзя войти в панель управления Lync Server с помощью локальной учетной записи компьютера. Подробные сведения о делегировании административных задач с помощью управления доступом на основе ролей (RBAC) см. в разделе [Планирование контроля доступа на основе ролей в Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) документации по планированию.
+<span data-ttu-id="36f3e-130">**Запуск службы публикации в Интернете**</span><span class="sxs-lookup"><span data-stu-id="36f3e-130">**To start the World Wide Web Publishing Service**</span></span>
 
-При использовании простого URL-адреса для доступа к панели управления Lync Server убедитесь, что веб-серверы добавлены в группы RTCUniversalServerAdmins и RTCUniversalUserAdmins.
+1.  <span data-ttu-id="36f3e-131">Войдите в систему с компьютера, на котором установлена служба веб-публикации, в составе служб Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="36f3e-131">Log on to the computer where the World Wide Web Publishing Service is installed as part of Internet Information Services (IIS).</span></span>
 
-## См. также
+2.  <span data-ttu-id="36f3e-132">Нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — пункт **службы**.</span><span class="sxs-lookup"><span data-stu-id="36f3e-132">Click **Start**, click **Administrative Tools**, and then click **Services**.</span></span>
 
-#### Концепции
+3.  <span data-ttu-id="36f3e-133">Щелкните правой кнопкой мыши **службу публикации**в Интернете и выберите команду **Пуск**.</span><span class="sxs-lookup"><span data-stu-id="36f3e-133">Right-click **World Wide Web Publishing Service**, and then click **Start**.</span></span>
 
-[Средства администрирования Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)
+</div>
+
+<div>
+
+## <a name="application-pool-mode"></a><span data-ttu-id="36f3e-134">Режим пула приложений</span><span class="sxs-lookup"><span data-stu-id="36f3e-134">Application Pool Mode</span></span>
+
+<span data-ttu-id="36f3e-135">Настройте IIS таким образом, чтобы в качестве удостоверения модели процессов в пуле приложений Ксманажементапппул использовалась учетная запись Network Service.</span><span class="sxs-lookup"><span data-stu-id="36f3e-135">Configure IIS so that the CsManagementAppPool application pool uses the Network Service account as its process model identity.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="user-rights-and-permissions"></a><span data-ttu-id="36f3e-136">Права и разрешения пользователей</span><span class="sxs-lookup"><span data-stu-id="36f3e-136">User Rights and Permissions</span></span>
+
+<span data-ttu-id="36f3e-137">Вы должны войти на панель управления Lync Server с помощью учетной записи домена, которая входит в группу Ксадминистратор, или с помощью учетной записи, которой делегированы права и разрешения пользователей.</span><span class="sxs-lookup"><span data-stu-id="36f3e-137">You must sign in to Lync Server Control Panel either by using a domain account that is a member of the CsAdministrator group or by using an account to which you have delegated user rights and permissions.</span></span> <span data-ttu-id="36f3e-138">Вы не можете войти на панель управления Lync Server с помощью учетной записи локального компьютера.</span><span class="sxs-lookup"><span data-stu-id="36f3e-138">You cannot sign in to Lync Server Control Panel by using a local machine account.</span></span> <span data-ttu-id="36f3e-139">Сведения о делегировании административных задач с помощью управления доступом на основе ролей (RBAC) можно найти [в разделе Планирование управления доступом на основе ролей в Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="36f3e-139">For details about delegating administrative tasks through role-based access control (RBAC), see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="36f3e-140">Если вы используете простой URL-адрес для доступа к панели управления Lync Server, убедитесь, что веб-серверы добавлены в группы Рткуниверсалсерверадминс и Рткуниверсалусерадминс.</span><span class="sxs-lookup"><span data-stu-id="36f3e-140">If you use a simple URL to access Lync Server Control Panel, ensure that web servers are added to the RTCUniversalServerAdmins and RTCUniversalUserAdmins groups.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="36f3e-141">См. также</span><span class="sxs-lookup"><span data-stu-id="36f3e-141">See Also</span></span>
+
+
+[<span data-ttu-id="36f3e-142">Средства администрирования Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36f3e-142">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

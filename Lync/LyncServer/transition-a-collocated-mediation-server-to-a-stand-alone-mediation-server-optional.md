@@ -1,53 +1,87 @@
-﻿---
-title: "Перем. совм. размещ. сервера-посредника на автон. сервер-посредник (необяз.)"
-TOCTitle: "Перем. совм. размещ. сервера-посредника на автон. сервер-посредник (необяз.)"
-ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ205026(v=OCS.15)
-ms:contentKeyID: 49310273
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Переход размещенного сервера исправлений на отдельный сервер-посредник (необязательно)
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
+ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)
+ms:contentKeyID: 48184602
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c49b75845bb9a673872c5f08225dd6e1c96b69a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848894"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Перемещение совместно размещенного сервера-посредника на автономный сервер-посредник (необязательно)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a><span data-ttu-id="3606a-102">Переход размещенного сервера исправлений на отдельный сервер-посредник (необязательно)</span><span class="sxs-lookup"><span data-stu-id="3606a-102">Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)</span></span>
 
-Используйте следующую процедуру для переноса сервера-посредника, совместно размещаемого на сервере Standard Edition или в пуле переднего плана, на автономный сервер-посредник для развертывания на одном сайте.
+</div>
 
-## Перенос совместно размещаемого сервера-посредника на автономный сервер-посредник
+<div id="mainSection">
 
-1.  Откройте существующую топологию в окне построителя топологий.
+<div id="mainBody">
 
-2.  В левой области перейдите к узлу **Пулы-посредники** .
+<span> </span>
 
-3.  Щелкните правой кнопкой **Пулы-посредники** и выберите команду **Создать сервер-посредник** .
+<span data-ttu-id="3606a-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="3606a-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-4.  На странице **Определение нового пула-посредника** введите полное доменное имя нового пула-посредника. Также укажите, будет ли этот пул состоять из одного или нескольких серверов, а затем нажмите кнопку **Далее** .
+<span data-ttu-id="3606a-104">Используйте описанную ниже процедуру для перехода на сервер-посредник, размещенный на сервере Standard Edition или в пуле внешних интерфейсов, на отдельный сервер-посредник для развертывания на одном сайте.</span><span class="sxs-lookup"><span data-stu-id="3606a-104">Use the procedure that follows to transition your Mediation Server, collocated on your Standard Edition server or Front End pool, to a stand-alone Mediation Server for a single-site deployment.</span></span>
 
-5.  Выберите пул серверов переднего плана следующего прыжка, в который сервер-посредник будут направлять входящие звонки, а затем нажмите **Далее** .
+<div>
 
-6.  Выберите пограничный пул для использования этим сервером-посредником и нажмите **Далее** .
+## <a name="to-transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server"></a><span data-ttu-id="3606a-105">Перевод размещенного сервера исправлений на отдельный сервер-посредник</span><span class="sxs-lookup"><span data-stu-id="3606a-105">To transition a collocated Mediation Server to a stand-alone Mediation Server</span></span>
 
-7.  На странице **Определение шлюзов ТСОП** свяжите предыдущий шлюз ТСОП с сервером-посредником. Выберите шлюз и нажмите кнопку **Добавить** .
+1.  <span data-ttu-id="3606a-106">Откройте существующую топологию из построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="3606a-106">Open an existing topology from Topology Builder.</span></span>
 
-8.  Нажмите кнопку **Готово** , чтобы закрыть мастер **Определение нового пула-посредника** .
+2.  <span data-ttu-id="3606a-107">На левой панели перейдите к разделу **Пулы проблем**.</span><span class="sxs-lookup"><span data-stu-id="3606a-107">In the left pane, navigate to **Mediation pools**.</span></span>
 
-9.  В окне **Построитель топологий** выберите верхний узел **Lync Server 2013**.
+3.  <span data-ttu-id="3606a-108">Щелкните правой кнопкой **Пулы** и выберите **новый сервер-посредник**.</span><span class="sxs-lookup"><span data-stu-id="3606a-108">Right-click **Mediation pools** and select **New Mediation Server**.</span></span>
 
-10. В области **Действия** выберите команду **Опубликовать топологию** и завершите работу мастера.
+4.  <span data-ttu-id="3606a-109">На странице **Определение нового пула исправлений** укажите полное доменное имя нового пула серверов-исправлений.</span><span class="sxs-lookup"><span data-stu-id="3606a-109">On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool.</span></span> <span data-ttu-id="3606a-110">Кроме того, укажите, будет ли этот пул состоять из одного или нескольких серверов, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="3606a-110">Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.</span></span>
 
-11. Выполните действия, описанные в разделе [Установка файлов для сервера-посредника в Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) документации по развертыванию, чтобы установить файлы на новый сервер-посредник.
+5.  <span data-ttu-id="3606a-111">Выберите пул серверов переднего плана следующего прыжка, на который будет маршрутизироваться входящий звонок, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="3606a-111">Select the next hop Front End server pool to which the new Mediation Server will route inbound calls, and then click **Next**.</span></span>
 
-12. После установки файлов на сервер-посредник вернитесь к построителю топологий и в левой области перейдите к пулу.
+6.  <span data-ttu-id="3606a-112">Выберите пул EDGE, который будет использоваться сервером исправлений, и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="3606a-112">Select the Edge pool to be used by the Mediation Server and then click **Next**.</span></span>
 
-13. Щелкните пул правой кнопкой и выберите команду **Изменить свойства** .
+7.  <span data-ttu-id="3606a-113">На странице **указать шлюзы PSTN** свяжите предыдущий шлюз PSTN с сервером-посредником.</span><span class="sxs-lookup"><span data-stu-id="3606a-113">On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server.</span></span> <span data-ttu-id="3606a-114">Выберите шлюз и нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="3606a-114">Select the gateway and then click **Add**.</span></span>
 
-14. В разделе **Сервер-посредник** снимите флажок **Сервер-посредник с совмещенным расположением включен** и нажмите кнопку **ОК** .
+8.  <span data-ttu-id="3606a-115">Нажмите кнопку **Готово** , чтобы закрыть мастер **определения пула исправлений** .</span><span class="sxs-lookup"><span data-stu-id="3606a-115">Click **Finish** to close the **Define New Mediation Pool** wizard.</span></span>
 
-15. В окне **Построитель топологий** выберите верхний узел **Lync Server 2013**.
+9.  <span data-ttu-id="3606a-116">В **построителе топологии**выберите верхний узел **Lync Server 2013**.</span><span class="sxs-lookup"><span data-stu-id="3606a-116">From **Topology Builder**, select the top node **Lync Server 2013**.</span></span>
 
-16. В меню **Действие** выберите команду **Опубликовать топологию** и завершите работу мастера.
+10. <span data-ttu-id="3606a-117">В области **Actions (действия** ) выберите пункт **топология публикации** и завершите работу мастера.</span><span class="sxs-lookup"><span data-stu-id="3606a-117">From the **Actions** pane, select **Publish Topology** and complete the wizard.</span></span>
+
+11. <span data-ttu-id="3606a-118">Следуйте указаниям, приведенным в статье [Установка сервера исправлений на сервере Lync server 2013](lync-server-2013-install-the-files-for-mediation-server.md) в документации по развертыванию для установки файлов на новый сервер обновлений.</span><span class="sxs-lookup"><span data-stu-id="3606a-118">Follow the steps in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) in the Deployment documentation to install the files on the new Mediation Server.</span></span>
+
+12. <span data-ttu-id="3606a-119">После установки файлов на сервер обновлений вернитесь к построителю топологии и на левой панели перейдите к группе.</span><span class="sxs-lookup"><span data-stu-id="3606a-119">After the files are installed on the Mediation Server, return to Topology Builder, and in the left pane navigate to the pool.</span></span>
+
+13. <span data-ttu-id="3606a-120">Щелкните пул правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="3606a-120">Right-click the pool and select **Edit Properties**.</span></span>
+
+14. <span data-ttu-id="3606a-121">На **сервере исправлений**снимите флажок размещенный **сервер исправлений** с разделом "включен", а затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="3606a-121">Under **Mediation Server**, clear the check box **Collocated Mediation Server enabled** and then click **OK**.</span></span>
+
+15. <span data-ttu-id="3606a-122">В **построителе топологии**выберите верхний узел **Lync Server 2013**.</span><span class="sxs-lookup"><span data-stu-id="3606a-122">From **Topology Builder**, select the top node **Lync Server 2013**.</span></span>
+
+16. <span data-ttu-id="3606a-123">В меню **действия** выберите пункт **топология публикации** и завершите работу мастера.</span><span class="sxs-lookup"><span data-stu-id="3606a-123">From the **Action** menu, select **Publish Topology** and complete the wizard.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,47 +1,81 @@
-﻿---
-title: 'Этап 7: выполнение послемиграционных задач'
-TOCTitle: 'Этап 7: выполнение послемиграционных задач'
-ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/JJ204998(v=OCS.15)
-ms:contentKeyID: 49310134
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Этап 7: необходимые действия после миграции'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 7: Complete post-migration tasks'
+ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204998(v=OCS.15)
+ms:contentKeyID: 48184485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8208f2e42fb05532820d72bb89eb69d0ee2f8c9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34848939"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Этап 7: выполнение послемиграционных задач
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-10-19_
+# <a name="phase-7-complete-post-migration-tasks"></a><span data-ttu-id="d6b38-102">Этап 7: необходимые действия после миграции</span><span class="sxs-lookup"><span data-stu-id="d6b38-102">Phase 7: Complete post-migration tasks</span></span>
 
-Темы этого раздела описывают задачи, которые следует выполнить после завершения перехода на Lync Server 2013.
+</div>
 
-## Содержание
+<div id="mainSection">
 
-  - [Перенос существующих собраний и содержимого собраний](migrate-existing-meetings-and-meeting-content.md)
+<div id="mainBody">
 
-  - [Перенос номеров доступа](migrate-dial-in-access-numbers.md)
+<span> </span>
 
-  - [Перенос параметров приложения парковки вызовов](migrate-call-park-application-settings.md)
+<span data-ttu-id="d6b38-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="d6b38-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - [Перенос групп ответа](migrate-response-groups.md)
+<span data-ttu-id="d6b38-104">В этом разделе описаны задачи, которые необходимо выполнить после перехода на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d6b38-104">The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013.</span></span>
 
-  - [Перенос адресной книги](migrate-address-book.md)
+<div>
 
-  - [Конфигурация страницы присоединения к собранию](configure-the-meeting-join-page.md)
+## <a name="in-this-section"></a><span data-ttu-id="d6b38-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="d6b38-105">In This Section</span></span>
 
-  - [Удаление старых серверов архивирования и мониторинга](remove-legacy-archiving-and-monitoring-servers.md)
+  - [<span data-ttu-id="d6b38-106">Перенос существующих собраний и содержимого собраний</span><span class="sxs-lookup"><span data-stu-id="d6b38-106">Migrate existing meetings and meeting content</span></span>](migrate-existing-meetings-and-meeting-content.md)
 
-  - [Настройка доверенных серверов приложений](configure-trusted-application-servers.md)
+  - [<span data-ttu-id="d6b38-107">Перенос номеров доступа</span><span class="sxs-lookup"><span data-stu-id="d6b38-107">Migrate dial-in access numbers</span></span>](migrate-dial-in-access-numbers.md)
 
-  - [Развертывание клиентов Lync Server 2013](deploy-lync-server-2013-clients.md)
+  - [<span data-ttu-id="d6b38-108">Перенос параметров приложения приостановки звонков</span><span class="sxs-lookup"><span data-stu-id="d6b38-108">Migrate Call Park application settings</span></span>](migrate-call-park-application-settings.md)
 
-  - [Подключение Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="d6b38-109">Перенос групп ответа</span><span class="sxs-lookup"><span data-stu-id="d6b38-109">Migrate response groups</span></span>](migrate-response-groups.md)
 
-  - [Настройка мониторинга SCOM](configure-scom-monitoring.md)
+  - [<span data-ttu-id="d6b38-110">Перенос адресной книги</span><span class="sxs-lookup"><span data-stu-id="d6b38-110">Migrate Address Book</span></span>](migrate-address-book.md)
 
-  - [Перенос телефонов общего пользования](migrate-common-area-phones.md)
+  - [<span data-ttu-id="d6b38-111">Конфигурация страницы присоединения к собранию</span><span class="sxs-lookup"><span data-stu-id="d6b38-111">Configure the meeting join page</span></span>](configure-the-meeting-join-page.md)
 
-  - [Перенос аналоговых устройств](migrate-analog-devices.md)
+  - [<span data-ttu-id="d6b38-112">Удаление старых серверов архивирования и мониторинга</span><span class="sxs-lookup"><span data-stu-id="d6b38-112">Remove legacy Archiving and Monitoring servers</span></span>](remove-legacy-archiving-and-monitoring-servers.md)
+
+  - [<span data-ttu-id="d6b38-113">Настройка доверенных серверов приложений</span><span class="sxs-lookup"><span data-stu-id="d6b38-113">Configure trusted application servers</span></span>](configure-trusted-application-servers.md)
+
+  - [<span data-ttu-id="d6b38-114">Развертывание клиентов Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d6b38-114">Deploy Lync Server 2013 clients</span></span>](deploy-lync-server-2013-clients.md)
+
+  - [<span data-ttu-id="d6b38-115">Подключение Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="d6b38-115">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)
+
+  - [<span data-ttu-id="d6b38-116">Настройка мониторинга SCOM</span><span class="sxs-lookup"><span data-stu-id="d6b38-116">Configure SCOM monitoring</span></span>](configure-scom-monitoring.md)
+
+  - [<span data-ttu-id="d6b38-117">Миграция телефонов общего пользования</span><span class="sxs-lookup"><span data-stu-id="d6b38-117">Migrate Common Area Phones</span></span>](migrate-common-area-phones.md)
+
+  - [<span data-ttu-id="d6b38-118">Перенос аналоговых устройств</span><span class="sxs-lookup"><span data-stu-id="d6b38-118">Migrate analog devices</span></span>](migrate-analog-devices.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

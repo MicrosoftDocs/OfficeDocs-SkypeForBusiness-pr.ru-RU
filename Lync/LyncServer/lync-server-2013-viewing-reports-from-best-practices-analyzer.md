@@ -1,63 +1,97 @@
-﻿---
-title: Просмотр отчетов анализатора соответствия рекомендациям
-TOCTitle: Просмотр отчетов анализатора соответствия рекомендациям
-ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg607690(v=OCS.15)
-ms:contentKeyID: 49310141
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Просмотр отчетов из анализатора соответствия рекомендациям'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing reports from Best Practices Analyzer
+ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
+ms:contentKeyID: 48184465
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849107"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Просмотр отчетов анализатора соответствия рекомендациям
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2012-09-21_
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="3fd6e-102">Просмотр отчетов в анализаторе соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fd6e-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
 
-При использовании анализатор соответствия рекомендациям для проверки вашей среды вы указываете имя проверки. После ее завершения анализатор соответствия рекомендациям сохраняет результаты в отчетах с именем проверки. После завершения сканирования вы можете просмотреть соответствующие отчеты, щелкнув **Просмотреть отчет с рекомендациями для этого сканирования** непосредственно на странице **Сканирование завершено**. Вы также можете просмотреть отчеты этой и предыдущих сканирований позднее. Вы можете просмотреть отчеты на локальном компьютере, на котором проводилась проверка, импортировать результаты сканирования с другого компьютера или экспортировать их для просмотра на другом компьютере с установленным анализатором соответствия рекомендациям.
+</div>
 
-Результаты сканирования представлены в следующих типах отчетов:
+<div id="mainSection">
 
-  - Отчеты в виде списков
+<div id="mainBody">
 
-  - Иерархические отчеты
+<span> </span>
 
-  - Другие отчеты
+<span data-ttu-id="3fd6e-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="3fd6e-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-Эти отчеты содержат ошибки, предупреждения и другую информацию. Дополнительные сведения о каждом типе отчетов и проблемах см. в разделе [Понимание отчетов, созданных анализатором соответствия рекомендациям](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).
+<span data-ttu-id="3fd6e-104">При использовании анализатора соответствия рекомендациям для проверки среды укажите имя для проверки.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-104">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan.</span></span> <span data-ttu-id="3fd6e-105">После того как анализатор соответствия рекомендациям завершит проверку, он сохранит результаты проверки в отчетах и сохранит их под именем проверки.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-105">After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan.</span></span> <span data-ttu-id="3fd6e-106">После завершения сканирования вы можете просмотреть отчеты, созданные для этой проверки, щелкнув **Просмотреть отчет по этим рекомендациям** на странице Проверка **завершенных** проверок.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-106">Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page.</span></span> <span data-ttu-id="3fd6e-107">Кроме того, вы можете просматривать отчеты из этой проверки или предыдущих просмотров позже.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-107">You can also view the reports from that scan or previous scans at a later time.</span></span> <span data-ttu-id="3fd6e-108">Вы можете просматривать отчеты на локальном компьютере, на котором выполнялась проверка, импортировать результаты сканирования с другого компьютера или экспортировать результаты сканирования для просмотра отчетов на другом компьютере, на котором установлен анализатор соответствия рекомендациям.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-108">You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
 
-Используйте следующую процедуру для просмотра результатов сканирования, ранее созданных анализатором соответствия рекомендациям.
+<span data-ttu-id="3fd6e-109">Результаты проверки отображаются в отчетах следующих типов:</span><span class="sxs-lookup"><span data-stu-id="3fd6e-109">Scan results are presented in the following types of reports:</span></span>
 
-## Просмотр отчетов предыдущего сканирования
+  - <span data-ttu-id="3fd6e-110">Список отчетов</span><span class="sxs-lookup"><span data-stu-id="3fd6e-110">List reports</span></span>
 
-1.  Войдите на компьютер с установленным анализатором соответствия рекомендациям с помощью учетной записи, являющейся членом локальной учетной записи пользователя.
+  - <span data-ttu-id="3fd6e-111">Отчеты по дереву</span><span class="sxs-lookup"><span data-stu-id="3fd6e-111">Tree reports</span></span>
+
+  - <span data-ttu-id="3fd6e-112">Другие отчеты</span><span class="sxs-lookup"><span data-stu-id="3fd6e-112">Other reports</span></span>
+
+<span data-ttu-id="3fd6e-113">Эти отчеты включают ошибки, предупреждения и другие сведения.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="3fd6e-114">Подробные сведения о каждом из этих типов отчетов и проблем можно найти в разделе сведения об отчетах, [созданных анализатором соответствия рекомендациям в Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span><span class="sxs-lookup"><span data-stu-id="3fd6e-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
+
+<span data-ttu-id="3fd6e-115">Для просмотра результатов сканирования, созданных анализатором соответствия рекомендациям, выполните описанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
+
+<div>
+
+## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="3fd6e-116">Просмотр отчетов из предыдущей проверки</span><span class="sxs-lookup"><span data-stu-id="3fd6e-116">To view reports from a previous scan</span></span>
+
+1.  <span data-ttu-id="3fd6e-117">Войдите на компьютер, на котором установлен анализатор соответствия рекомендациям, с помощью учетной записи, которая является членом локальной учетной записи пользователя.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
     
     > [!NOTE]  
-    > Результаты сканирования можно просмотреть с помощью учетной записи, входящей в локальную группу &quot;Администраторы&quot;, но вы не можете провести сканирование без соответствующих прав и разрешений пользователя. Дополнительные сведения см. в разделе <a href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Требования для членства в группах и пользовательских прав для анализатора соответствия рекомендациям</a>.
+    > <span data-ttu-id="3fd6e-118">Вы можете просматривать результаты проверки с помощью учетной записи, которая входит в локальную группу администраторов, но вы не можете выполнить проверку, если у вас есть соответствующие права и разрешения.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="3fd6e-119">Подробные сведения можно найти <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">в разделе членство в группах и требования к правам пользователей для анализатора соответствия рекомендациям в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
-2.  В меню **Пуск** щелкните **Все программы**, затем **Microsoft Lync Server 2013** и, наконец, **Анализатор соответствия рекомендациям**.
+2.  <span data-ttu-id="3fd6e-120">Нажмите кнопку **Пуск**, наведите указатель на пункт **все программы**, выберите **Microsoft Lync Server 2013**, а затем — **анализатор соответствия рекомендациям**.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
 
-3.  В окне **приветствия** щелкните **Выбрать результаты сканирования для просмотра**.
+3.  <span data-ttu-id="3fd6e-121">На экране **приветствия** щелкните **выбрать результаты проверки для просмотра**.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
 
-4.  На странице **Выбор результатов сканирования для просмотра** выполните одно из следующих действий.
+4.  <span data-ttu-id="3fd6e-122">На странице **выберите способ сканирования, который нужно просмотреть** , выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
     
-      - Чтобы просмотреть отчеты из списка локально сохраненных результатов сканирования, щелкните имя проверки и нажмите кнопку **Просмотр отчет об этом сканировании**.
+      - <span data-ttu-id="3fd6e-123">Чтобы просмотреть отчеты из списка локально сохраненных результатов сканирования, выберите имя проверки, а затем нажмите кнопку **Просмотр отчета об этом сканировании**.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
         
         > [!NOTE]  
-        > Анализатор соответствия рекомендациям создает список локальных файлов из папки <em>&lt;системный_диск&gt;</em>\Documents and Settings\\<em>&lt;пользователь&gt;</em>\Application Data\Microsoft\RtcBPA.    
-      - Чтобы просмотреть результаты сканирования, сохраненные в другом расположении, нажмите кнопку **Импорт сканирования**, найдите файл с результатами проверки нажмите кнопку **Открыть**.
+        > <span data-ttu-id="3fd6e-124">Анализатор соответствия рекомендациям создает список локальных файлов из папки &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\аппликатион дата\микрософт\рткбпа.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
+    
+      - <span data-ttu-id="3fd6e-125">Чтобы просмотреть отчеты для результатов сканирования, которые хранятся в другом месте, нажмите кнопку **Импорт сканирования**, найдите файл, содержащий результаты проверки, и нажмите кнопку **Открыть**.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
         
         > [!NOTE]  
-        > Если версия анализатора соответствия рекомендациям на этом компьютере не соответствует версии, используемой для сбора данных в импортированном файле, средство на компьютере может проанализировать файл еще раз после его импорта.
+        > <span data-ttu-id="3fd6e-126">Если версия анализатора соответствия рекомендациям на этом компьютере не совпадает с версией, которая использовалась для сбора данных в импортированном файле, средство на компьютере может снова выполнить анализ файла после его импорта.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
 
-5.  На странице **Анализатор соответствия рекомендациям** выполните одно из следующих действий.
+5.  <span data-ttu-id="3fd6e-127">На странице **отчета** советы и рекомендации выполните одно из указанных ниже действий.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-127">On the **View Best Practices Report** page, do one of the following:</span></span>
     
-      - Чтобы просмотреть отчеты в списке, упорядочив их по серверному компоненту, щелкните view reports in a list organized by server component, click **Показать отчеты**, затем щелкните вкладку **Все вопросы** или **Информационные элементы**.
+      - <span data-ttu-id="3fd6e-128">Чтобы просмотреть отчеты в списке, упорядоченном по серверному компоненту, щелкните **список отчетов**, а затем откройте вкладку **все проблемы** или вкладку **информационные элементы** .</span><span class="sxs-lookup"><span data-stu-id="3fd6e-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
     
-      - Чтобы просмотреть отчеты в иерархическом списке, упорядоченном по типам результатов, щелкните **Отчеты по дереву**, затем щелкните вкладку **Подробный отчет** или вкладку **Итоговый отчет**.
+      - <span data-ttu-id="3fd6e-129">Чтобы просмотреть отчеты в виде иерархического списка, упорядоченного по типам результатов, нажмите кнопку **отчеты**по дереву, а затем откройте вкладку **подробное представление** или **представление Сводка** .</span><span class="sxs-lookup"><span data-stu-id="3fd6e-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
     
-      - Чтобы просмотреть другие отчеты, щелкните **Другие отчеты**.
+      - <span data-ttu-id="3fd6e-130">Чтобы просмотреть другие отчеты, выберите пункт **другие отчеты**.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-130">To view other reports, click **Other Reports**.</span></span>
     
     > [!NOTE]  
-    > Дополнительные сведения об отчетах анализатора соответствия рекомендациям и проблемах, которые это средство определяет, см. в разделах <a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Просмотр и работа с отчетами, создаваемыми анализатором соответствия рекомендациям</a> и <a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Анализирование и решение проблем, обнаруженных анализатором соответствия рекомендациям</a>.
+    > <span data-ttu-id="3fd6e-131">Подробные сведения об анализаторах соответствия рекомендациям и проблемах, которые они определяют, приведены <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">в разделе Просмотр и работа с отчетами, созданными анализатором соответствия рекомендациям в Lync Server 2013</A> , а также <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">анализ и устранение проблем, описанных рекомендациями Анализатор в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="3fd6e-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+

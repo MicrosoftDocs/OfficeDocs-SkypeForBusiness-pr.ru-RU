@@ -1,58 +1,95 @@
-﻿---
-title: 'Lync Server 2013: технические требования для проведения конференций'
-TOCTitle: Технические требования для проведения конференций
-ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg425889(v=OCS.15)
-ms:contentKeyID: 49309506
-ms.date: 07/21/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: технические требования для проведения конференций'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for conferencing
+ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
+ms:contentKeyID: 48183923
+ms.date: 06/26/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849503"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Технические требования для проведения конференций в Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2016-12-08_
+# <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="588e5-102">Технические требования для проведения конференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="588e5-102">Technical requirements for conferencing in Lync Server 2013</span></span>
 
-Для системы Lync Server 2013 возможности конференц-связи с телефонным подключением, аудио- и видеоконференций, конференц-связи с обменом мгновенными сообщениями и веб-конференций всегда выполняются на переднего плана.
+</div>
 
-В данном разделе рассматриваются требования к оборудованию и программному обеспечению для этих серверов, а также поддерживаемое выровненное размещение.
+<div id="mainSection">
 
-Конференц-связь с телефонным подключением – это возможность, включающая в себя разнообразные компоненты. Некоторые из них характерны только для конференц-связи с телефонным подключением, другие — для всей корпоративной голосовой связи в целом. В данном разделе описываются требования к компонентам, которые относятся непосредственно к конференц-связи с телефонным подключением. Дополнительные сведения о требованиях к посредник и шлюзу телефонной сети общего пользования (ТСОП) см. в разделах [Компонент сервера-посредника в Lync Server 2013](lync-server-2013-mediation-server-component.md) и [Компоненты и топологии для сервера-посредника в Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) документации по планированию.
+<div id="mainBody">
 
-## Требования к оборудованию
+<span> </span>
 
-Так как веб-конференции и аудио- и видеоконференции совмещены с сервером переднего плана, требования к программному обеспечению на сервере не отличаются от требований к переднего плана. Дополнительные сведения о требованиях к программному обеспечению см. в разделе [Аппаратные серверные платформы для Lync Server 2013](lync-server-2013-server-hardware-platforms.md) документации по поддержке. Приведенные ниже компоненты, которые необходимы для конференц-связи с телефонным подключением, имеют такие же требования к оборудованию, что и переднего плана:
+<span data-ttu-id="588e5-103">_**Тема последнего изменения:** 2014-06-25_</span><span class="sxs-lookup"><span data-stu-id="588e5-103">_**Topic Last Modified:** 2014-06-25_</span></span>
 
-  - приложения
+<span data-ttu-id="588e5-104">Для Lync Server 2013, Конференц-связь с телефонным подключением, Конференции и конференции с возможностью обмена мгновенными сообщениями и веб-конференций всегда работают на серверах переднего плана.</span><span class="sxs-lookup"><span data-stu-id="588e5-104">For Lync Server 2013, dial-in conferencing, A/V conferencing, instant messaging (IM) conferencing and web conferencing capabilities always run on Front End Servers.</span></span>
 
-  - помощника по конференц-связи
+<span data-ttu-id="588e5-105">В этом разделе описаны требования к оборудованию и программному обеспечению для этих серверов, а также поддерживаемое расчисление.</span><span class="sxs-lookup"><span data-stu-id="588e5-105">This section details the hardware and software requirements for these servers, along with the supported collocation.</span></span>
 
-  - объявлений для конференц-связи
+<span data-ttu-id="588e5-106">Конференц-связь с телефонным подключением — это функция, которая включает в себя множество компонентов.</span><span class="sxs-lookup"><span data-stu-id="588e5-106">Dial-in conferencing is a feature that includes a variety of components.</span></span> <span data-ttu-id="588e5-107">Некоторые компоненты относятся к конференц-связи с телефонным подключением, а некоторые – к корпоративным голосовым компонентам.</span><span class="sxs-lookup"><span data-stu-id="588e5-107">Some of the components are specific to dial-in conferencing and some are Enterprise Voice components.</span></span> <span data-ttu-id="588e5-108">В этом разделе описаны требования для компонентов, которые относятся к конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="588e5-108">This section describes the requirements for the components that are specific to dial-in conferencing.</span></span> <span data-ttu-id="588e5-109">Дополнительные сведения о требованиях к шлюзам для сервера-посредников и общественной коммутируемых сетей (PSTN) можно найти [в разделе Сервер-посредника в Lync server 2013](lync-server-2013-mediation-server-component.md) и [компонентах и топологиях для сервера-посредника в Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) на странице планирование. содержатся.</span><span class="sxs-lookup"><span data-stu-id="588e5-109">For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Lync Server 2013](lync-server-2013-mediation-server-component.md) and [Components and topologies for Mediation Server in Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in the Planning documentation.</span></span>
 
-Для серверов переднего плана предъявляются такие же требования к оборудованию, как и для многих других ролей сервера в системе Lync Server 2013; эти требования приведены в следующей таблице.
+<div>
 
-## Требования к программному обеспечению
+## <a name="hardware-requirements"></a><span data-ttu-id="588e5-110">Требования к оборудованию</span><span class="sxs-lookup"><span data-stu-id="588e5-110">Hardware Requirements</span></span>
 
-Так как веб-конференции и аудио- и видеоконференции совмещены с сервером переднего плана, требования к программному обеспечению на сервере не отличаются от требований к переднего плана. Дополнительные сведения о требованиях к программному обеспечению см. в разделе [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) документации по поддержке.
+<span data-ttu-id="588e5-111">Поскольку веб-конференции и конференции/V образныеся на сервере переднего плана, требования к оборудованию сервера такие же, как и для серверов переднего плана.</span><span class="sxs-lookup"><span data-stu-id="588e5-111">Because web conferencing and A/V conferencing are collocated with the Front End Server, the server hardware requirements are the same as for the Front End Servers.</span></span> <span data-ttu-id="588e5-112">Сведения о требованиях к оборудованию можно найти в документации [серверные платформы для Lync server 2013](lync-server-2013-server-hardware-platforms.md) .</span><span class="sxs-lookup"><span data-stu-id="588e5-112">For details about hardware requirements, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span> <span data-ttu-id="588e5-113">Следующие компоненты, необходимые для конференц-связи с телефонным подключением, также имеют те же аппаратные требования, что и сервер переднего плана:</span><span class="sxs-lookup"><span data-stu-id="588e5-113">The following components required for dial-in conferencing also have the same hardware requirements as Front End Servers:</span></span>
 
-Для поддержки веб-конференций Lync Server 2013 также нуждается в веб-приложения Office Web Apps и Сервер Office Web Apps (ранее известный как сервер WAC) для обработки презентаций PowerPoint. Подробные сведения см. в разделе [Настройка интеграции с сервером Office Web Apps и Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - <span data-ttu-id="588e5-114">приложения</span><span class="sxs-lookup"><span data-stu-id="588e5-114">Application service</span></span>
 
-Для конференц-связи с телефонным подключением, приложения, помощника по конференц-связи и оповещения объявлений для конференц-связи предъявляются те же требования к операционной системе, что и для серверов переднего плана. Дополнительные сведения о требованиях к программному обеспечению см. в разделе [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) документации по обеспечению поддержки.
+  - <span data-ttu-id="588e5-115">помощника по конференц-связи</span><span class="sxs-lookup"><span data-stu-id="588e5-115">Conferencing Attendant application</span></span>
 
-помощника по конференц-связи и объявлений для конференц-связи требуют, чтобы на серверах переднего плана был установлен компонент Windows Media Format Runtime. Windows Media Format Runtime необходим для воспроизведения звуковых файлов Windows Media (WMA), используемых для музыки при удержании вызова, записанных имен и запросов. За исключением Windows Server 2012 и Windows Server 2012 R2, компонент Windows Media Format Runtime устанавливается автоматически в составе компонента Windows Desktop Experience при запуске программы установки, однако при этом может потребоваться перезагрузка компьютера. Таким образом, перед запуском программы установки мы рекомендуем установить компонент Windows Desktop Experience, включающий в себя Windows Media Format Runtime. Для Windows Server 2012 и Windows Server 2012 R2 требуется Microsoft Media Foundation.
+  - <span data-ttu-id="588e5-116">приложение оповещения для конференц-связи;</span><span class="sxs-lookup"><span data-stu-id="588e5-116">Conferencing Announcement application</span></span>
 
-## Требования к портам для конференц-связи с телефонным подключением
+<span data-ttu-id="588e5-117">Требования к оборудованию для сервера переднего плана одинаковы для многих других ролей сервера в Lync Server 2013, описанные в таблице ниже.</span><span class="sxs-lookup"><span data-stu-id="588e5-117">The hardware requirements for Front End Server are the same as for many other server roles in Lync Server 2013 are outlined in the following table.</span></span>
 
-В следующей таблице описываются порты, используемые конференц-связью с телефонным подключением. Если вы используете подсистему балансировки нагрузки, убедитесь, что она настроена для портов, используемых любым из приложений, которые выполняются в пуле.
+</div>
 
-Эти порты являются установками по умолчанию, которые можно изменить с помощью командлета **Set-CsApplicationServer**. Сведения об этом командлете см. в документации по командной консоли Командная консоль Lync Server.
+<div>
+
+## <a name="software-requirements"></a><span data-ttu-id="588e5-118">Требования к программному обеспечению</span><span class="sxs-lookup"><span data-stu-id="588e5-118">Software Requirements</span></span>
+
+<span data-ttu-id="588e5-119">Поскольку веб-конференции и конференции/V образныеся на сервере переднего плана, требования к программному обеспечению сервера совпадают с серверами переднего плана.</span><span class="sxs-lookup"><span data-stu-id="588e5-119">Because web conferencing and A/V conferencing are collocated with the Front End Server, the server software requirements are the same as for the Front End Servers.</span></span> <span data-ttu-id="588e5-120">Подробные сведения о требованиях к программному обеспечению можно найти [в разделе Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) в документации по поддержке.</span><span class="sxs-lookup"><span data-stu-id="588e5-120">For details about software requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+
+<span data-ttu-id="588e5-121">Для веб-конференций в Lync Server 2013 также требуется Office Web Apps и сервер Office Web Apps (прежнее название — сервер ВАК) для обработки презентаций PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="588e5-121">For web conferencing, Lync Server 2013 also requires Office Web Apps and the Office Web Apps Server (formerly known as WAC Server) to handle PowerPoint presentations.</span></span> <span data-ttu-id="588e5-122">Подробности можно найти [в разделе Настройка интеграции с Office Web Apps Server и Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span><span class="sxs-lookup"><span data-stu-id="588e5-122">For details, see [Configuring integration with Office Web Apps Server and Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span></span>
+
+<span data-ttu-id="588e5-123">Для конференц-связи с телефонным подключением службы приложений, приложения для участников Конференции и объявления конференций имеют те же требования к операционной системе, что и серверы переднего плана.</span><span class="sxs-lookup"><span data-stu-id="588e5-123">For dial-in conferencing, Application service, Conferencing Attendant application, and Conferencing Announcement application have the same operating system requirements as Front End Servers.</span></span> <span data-ttu-id="588e5-124">Подробные сведения о требованиях к программному обеспечению можно найти [в разделе Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) в документации по поддержке.</span><span class="sxs-lookup"><span data-stu-id="588e5-124">For details about software requirements, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+
+<span data-ttu-id="588e5-125">Приложение для рекламы в конференц-связи с приложениями и конференц-связь требуется, чтобы на серверах переднего плана была установлена среда выполнения формата Windows Media Format.</span><span class="sxs-lookup"><span data-stu-id="588e5-125">Conferencing Attendant application and Conferencing Announcement application require that Windows Media Format Runtime is installed on Front End Servers.</span></span> <span data-ttu-id="588e5-126">Среда выполнения формата Windows Media требуется для воспроизведения WMA-файлов, которые используются для музыки на удержании, записанных имен и запросов.</span><span class="sxs-lookup"><span data-stu-id="588e5-126">The Windows Media Format Runtime is required to play Windows Media audio (WMA) files that are used for music on hold, recorded names, and prompts.</span></span> <span data-ttu-id="588e5-127">За исключением Windows Server 2012 и Windows Server 2012 R2, среда выполнения формата Windows Media устанавливается автоматически как часть рабочего стола Windows при запуске программы установки, но вам может потребоваться перезагрузить компьютер.</span><span class="sxs-lookup"><span data-stu-id="588e5-127">Except for Windows Server 2012 and Windows Server 2012 R2, the Windows Media Format Runtime is installed automatically as part of the Windows Desktop Experience when you run Setup, but you might need to restart the computer.</span></span> <span data-ttu-id="588e5-128">Поэтому мы рекомендуем установить в качестве части рабочего стола Windows, которая включает в себя среду выполнения формата Windows Media, прежде чем запускать программу установки.</span><span class="sxs-lookup"><span data-stu-id="588e5-128">Therefore, we recommend that you install as part of the Windows Desktop Experience, which includes Windows Media Format Runtime before you run Setup.</span></span> <span data-ttu-id="588e5-129">Для Windows Server 2012 и Windows Server 2012 R2 требуется Microsoft Media Foundation.</span><span class="sxs-lookup"><span data-stu-id="588e5-129">Windows Server 2012 and Windows Server 2012 R2 requires Microsoft Media Foundation.</span></span>
+
+</div>
+
+<div>
+
+## <a name="port-requirements-for-dial-in-conferencing"></a><span data-ttu-id="588e5-130">Требования к портам для конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="588e5-130">Port Requirements for dial-in conferencing</span></span>
+
+<span data-ttu-id="588e5-131">В таблице ниже описаны порты, которые используются в конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="588e5-131">The following table describes the ports that are used by dial-in conferencing.</span></span> <span data-ttu-id="588e5-132">Если вы используете подсистему балансировки нагрузки, убедитесь в том, что подсистема балансировки нагрузки настроена для портов, используемых приложениями, которые будут выполняться в пуле.</span><span class="sxs-lookup"><span data-stu-id="588e5-132">If you use a load balancer, ensure that the load balancer is configured for the ports used by any applications that will run in the pool.</span></span>
+
+<span data-ttu-id="588e5-133">Эти порты являются установками по умолчанию, которые можно изменить с помощью командлета **Set-CsApplicationServer**.</span><span class="sxs-lookup"><span data-stu-id="588e5-133">These ports are default settings that you can change by using the **Set-CsApplicationServer** cmdlet.</span></span> <span data-ttu-id="588e5-134">Подробные сведения об этом командлете можно найти в документации по оболочке Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="588e5-134">For details about this cmdlet, see the Lync Server Management Shell documentation.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Все экземпляры одного приложения в пуле используют один прослушивающий порт SIP.
+> <span data-ttu-id="588e5-135">Все экземпляры одного и того же приложения в пуле используют один и тот же прослушивающий порт SIP.</span><span class="sxs-lookup"><span data-stu-id="588e5-135">All instances of the same application in a pool use the same SIP listening port.</span></span>
 
-### Порты, используемые для конференц-связи с телефонным подключением
+
+
+</div>
+
+### <a name="ports-used-by-dial-in-conferencing"></a><span data-ttu-id="588e5-136">Порты, используемые в конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="588e5-136">Ports used by dial-in conferencing</span></span>
 
 <table>
 <colgroup>
@@ -61,37 +98,52 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Номер порта</th>
-<th>Описание</th>
+<th><span data-ttu-id="588e5-137">Номер порта</span><span class="sxs-lookup"><span data-stu-id="588e5-137">Port number</span></span></th>
+<th><span data-ttu-id="588e5-138">Описание</span><span class="sxs-lookup"><span data-stu-id="588e5-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>5072</p></td>
-<td><p>Используется помощника по конференц-связи для запросов прослушивания SIP</p></td>
+<td><p><span data-ttu-id="588e5-139">5072</span><span class="sxs-lookup"><span data-stu-id="588e5-139">5072</span></span></p></td>
+<td><p><span data-ttu-id="588e5-140">Используется приложением-помощником по конференциям для запросов прослушивания SIP</span><span class="sxs-lookup"><span data-stu-id="588e5-140">Used by Conferencing Attendant application for SIP listening requests</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>5073</p></td>
-<td><p>Используется объявлений для конференц-связи для запросов прослушивания SIP</p></td>
+<td><p><span data-ttu-id="588e5-141">5073</span><span class="sxs-lookup"><span data-stu-id="588e5-141">5073</span></span></p></td>
+<td><p><span data-ttu-id="588e5-142">Используется приложением объявления конференций для запросов прослушивания SIP</span><span class="sxs-lookup"><span data-stu-id="588e5-142">Used by Conferencing Announcement application for SIP listening requests</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Поддерживаемые клиенты для конференц-связи с телефонным подключением
+</div>
 
-Вы можете использовать следующие клиенты для планирования локальных конференций, поддерживающих доступ с телефонным подключением:
+<div>
 
-  - надстройка собраний по сети для Lync 2013 (устанавливается автоматически при установке Lync 2013 или Участник)
+## <a name="supported-clients-for-dial-in-conferencing"></a><span data-ttu-id="588e5-143">Поддерживаемые клиенты для конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="588e5-143">Supported Clients for Dial-In Conferencing</span></span>
 
-## Требования параметров доступа к конференц-связи с телефонным подключением
+<span data-ttu-id="588e5-144">Вы можете использовать следующий клиент для планирования локальных конференций, поддерживающих доступ к телефонным подключениям:</span><span class="sxs-lookup"><span data-stu-id="588e5-144">You can use the following client to schedule on-premises conferences that support dial-in access:</span></span>
 
-Средство параметров доступа к конференц-связи с телефонным подключением поддерживает сочетания операционной системы и веб-браузера, перечисленные в следующей таблице.
+  - <span data-ttu-id="588e5-145">Надстройка "собрание по сети" для Lync 2013 (устанавливается автоматически при установке Lync 2013 или участник)</span><span class="sxs-lookup"><span data-stu-id="588e5-145">Online Meeting Add-in for Lync 2013 (installed automatically when you install Lync 2013 or Attendee)</span></span>
+
+</div>
+
+<div>
+
+## <a name="dial-in-conferencing-settings-page-requirements"></a><span data-ttu-id="588e5-146">Требования к странице параметров конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="588e5-146">Dial-in Conferencing Settings page Requirements</span></span>
+
+<span data-ttu-id="588e5-147">Страница параметров конференц-связи с телефонным подключением поддерживает комбинации операционных систем и веб-браузеров, описанные в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="588e5-147">The Dial-in Conferencing Settings page supports the combinations of operating systems and web browsers described in the following table.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> 32-разрядные и 64-разрядные версии операционных систем поддерживаются.
+> <span data-ttu-id="588e5-148">поддерживаются 32-разрядные и 64-разрядные версии операционной системы.</span><span class="sxs-lookup"><span data-stu-id="588e5-148">32-bit and 64-bit versions of the operating systems are supported.</span></span>
 
-### Поддерживаемые операционные системы и веб-браузеры
+
+
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a><span data-ttu-id="588e5-149">Поддерживаемые операционные системы и веб-браузеры</span><span class="sxs-lookup"><span data-stu-id="588e5-149">Supported Operating Systems and Web Browsers</span></span>
 
 <table>
 <colgroup>
@@ -100,16 +152,16 @@ _**Дата изменения раздела:** 2016-12-08_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Операционная система</th>
-<th>Веб-браузер</th>
+<th><span data-ttu-id="588e5-150">Операционная система</span><span class="sxs-lookup"><span data-stu-id="588e5-150">Operating system</span></span></th>
+<th><span data-ttu-id="588e5-151">Веб-браузер</span><span class="sxs-lookup"><span data-stu-id="588e5-151">Web browser</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Windows 7</p></td>
-<td><p>Internet Explorer 9</p>
-<p>Internet Explorer 8</p>
-<p>Firefox</p></td>
+<td><p><span data-ttu-id="588e5-152">Windows 7</span><span class="sxs-lookup"><span data-stu-id="588e5-152">Windows 7</span></span></p></td>
+<td><p><span data-ttu-id="588e5-153">Internet Explorer 9</span><span class="sxs-lookup"><span data-stu-id="588e5-153">Internet Explorer 9</span></span></p>
+<p><span data-ttu-id="588e5-154">Internet Explorer 8</span><span class="sxs-lookup"><span data-stu-id="588e5-154">Internet Explorer 8</span></span></p>
+<p><span data-ttu-id="588e5-155">Браузере</span><span class="sxs-lookup"><span data-stu-id="588e5-155">Firefox</span></span></p></td>
 </tr>
 <tr class="even">
 <td> </td>
@@ -120,37 +172,57 @@ _**Дата изменения раздела:** 2016-12-08_
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2</p></td>
-<td><p>Internet Explorer 9</p>
-<p>Internet Explorer 8</p>
-<p>Internet Explorer 7</p></td>
+<td><p><span data-ttu-id="588e5-156">Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="588e5-156">Windows Server 2008 R2</span></span></p></td>
+<td><p><span data-ttu-id="588e5-157">Internet Explorer 9</span><span class="sxs-lookup"><span data-stu-id="588e5-157">Internet Explorer 9</span></span></p>
+<p><span data-ttu-id="588e5-158">Internet Explorer 8</span><span class="sxs-lookup"><span data-stu-id="588e5-158">Internet Explorer 8</span></span></p>
+<p><span data-ttu-id="588e5-159">Internet Explorer 7</span><span class="sxs-lookup"><span data-stu-id="588e5-159">Internet Explorer 7</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Mac OS</p></td>
-<td><p>Firefox</p>
-<p>Safari</p></td>
+<td><p><span data-ttu-id="588e5-160">Mac OS</span><span class="sxs-lookup"><span data-stu-id="588e5-160">Mac OS</span></span></p></td>
+<td><p><span data-ttu-id="588e5-161">Браузере</span><span class="sxs-lookup"><span data-stu-id="588e5-161">Firefox</span></span></p>
+<p><span data-ttu-id="588e5-162">Обозревателе</span><span class="sxs-lookup"><span data-stu-id="588e5-162">Safari</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Требования звуковым файлам для конференц-связи с телефонным подключением
+</div>
 
-Система Lync Server 2013 не поддерживает настройку голосовых приглашений и музыки для конференц-связи с телефонным подключением. Однако в случае острой потребности в изменении звуковых файлов по умолчанию см. статью базы знаний Майкрософт 961177 [Настройка голосовых приглашений или музыкальных файлов для конференц-связи с телефонным подключением в Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+<div>
 
-Также можно воспользоваться служебной программой для управления [Microsoft Lync Server Conferencing Attendant Custom Voice Prompts](http://go.microsoft.com/fwlink/p/?linkid=396880), которая позволяет администраторам заменять стандартные голосовые приглашения, используемые при присоединении вызывающего абонента к собранию Lync, на настраиваемые приглашения с целью предоставления разных вариантов для присоединения к собранию. Настраиваемые голосовые приглашения можно установить на сервер, на котором выполняется Lync Server 2010 или Lync Server 2013, с версией Enterprise или Standard Edition.
+## <a name="audio-file-requirements-for-dial-in-conferencing"></a><span data-ttu-id="588e5-163">Требования к звуковым файлам для конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="588e5-163">Audio File Requirements for dial-in conferencing</span></span>
 
-Помощник помощника по конференц-связи и объявлений для конференц-связи предъявляют следующие требования к файлам музыки при удержании, записанных имен и звуковых приглашений:
+<span data-ttu-id="588e5-164">Lync Server 2013 не поддерживает настройку голосовых запросов и музыки для конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="588e5-164">Lync Server 2013 does not support customization of voice prompts and music for dial-in conferencing.</span></span> <span data-ttu-id="588e5-165">Тем не менее, если вам необходимо изменить аудиофайлы по умолчанию, ознакомьтесь со статьей Microsoft Knowledge Base 961177, [Настройка голосовых запросов и музыкальных файлов для голосовой связи с телефонным подключением в Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).</span><span class="sxs-lookup"><span data-stu-id="588e5-165">However, if you have a strong business need that requires you to change the default audio files, see Microsoft Knowledge Base article 961177, [How to customize voice prompts or music files for dial-in audio conferencing in Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).</span></span>
 
-  - Формат файлов WMA (Windows Media Audio)
+<span data-ttu-id="588e5-166">Вы также можете использовать служебную программу помощника по [конференциям Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , которая позволяет администраторам заменить голосовые запросы, используемые по умолчанию при присоединении к собранию Lync с помощью настраиваемых запросов для предоставления различные возможности ввода собраний.</span><span class="sxs-lookup"><span data-stu-id="588e5-166">You can also use the [Microsoft Lync Server Conferencing Attendant Custom Voice Prompts](http://go.microsoft.com/fwlink/p/?linkid=396880) management utility, which enables administrators to replace the default voice prompts used when a phone caller joins a Lync meeting with custom prompts to provide a different meeting entry experience.</span></span> <span data-ttu-id="588e5-167">Пользовательские голосовые подсказки можно установить на сервер, на котором установлен Lync Server 2010 или Lync Server 2013 либо Enterprise, либо Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="588e5-167">The custom voice prompts can be installed on a server that is running Lync Server 2010 or Lync Server 2013, either Enterprise or Standard Edition.</span></span>
 
-  - Моно 16 бит
+<span data-ttu-id="588e5-168">Участие в программе для конференц-связи с приложениями и конференциями для музыки на удержании, записанных именах и файлах звуковых файлов не имеет приведенных ниже требований.</span><span class="sxs-lookup"><span data-stu-id="588e5-168">Conferencing Attendant application and Conferencing Announcement application have the following requirements for music on hold, recorded name, and audio prompt files:</span></span>
 
-  - 48 Кбит/с, 2 прохода, CBR (постоянная скорость)
+  - <span data-ttu-id="588e5-169">Формат файлов WMA (Windows Media Audio)</span><span class="sxs-lookup"><span data-stu-id="588e5-169">Windows Media Audio (WMA) file format</span></span>
 
-  - Уровень речи на -24 дБ
+  - <span data-ttu-id="588e5-170">Моно 16 бит</span><span class="sxs-lookup"><span data-stu-id="588e5-170">16-bit mono</span></span>
 
-## Требования к пользователям для конференц-связи с телефонным подключением
+  - <span data-ttu-id="588e5-171">48 Кбит/с, 2 прохода, CBR (постоянная скорость)</span><span class="sxs-lookup"><span data-stu-id="588e5-171">48 kbps 2-pass CBR (constant bit rate)</span></span>
 
-Учетным записям пользователей конференц-связи с телефонным подключением должны быть уникальные номера телефонов или добавочные номера. Благодаря этому требованию становится возможным выполнять проверку подлинности во время телефонного подключения. Корпоративные пользователи (то есть те, которые имеют учетные данные доменных служб Доменные службы Active Directory и учетные записи Lync Server в вашей организации) вводят свой номер телефона (или добавочный номер) и персональный идентификационный номер (ПИН-код), чтобы выполнить телефонное подключение к конференциям в качестве пользователя, прошедшего проверку.
+  - <span data-ttu-id="588e5-172">Уровень речи на -24 дБ</span><span class="sxs-lookup"><span data-stu-id="588e5-172">Speech level at -24DB</span></span>
+
+</div>
+
+<div>
+
+## <a name="user-requirements-for-dial-in-conferencing"></a><span data-ttu-id="588e5-173">Требования пользователей к конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="588e5-173">User Requirements for Dial-In Conferencing</span></span>
+
+<span data-ttu-id="588e5-174">Учетным записям пользователей конференц-связи с телефонным подключением должны быть назначены уникальные номера телефонов или добавочные номера.</span><span class="sxs-lookup"><span data-stu-id="588e5-174">Dial-in conferencing users must have a unique phone number or extension assigned to their account.</span></span> <span data-ttu-id="588e5-175">Это необходимо для проверки подлинности во время конференц-связи с телефонным подключением.</span><span class="sxs-lookup"><span data-stu-id="588e5-175">This requirement supports authentication during dial-in conferencing.</span></span> <span data-ttu-id="588e5-176">Корпоративные пользователи (то есть пользователи, у которых есть учетные данные доменных служб Active Directory и учетные записи Lync Server в вашей организации) вводят номер телефона (или расширение) и персональный идентификационный номер (ПИН-код) для подключения к конференциям в виде пользователь, прошедший проверку подлинности.</span><span class="sxs-lookup"><span data-stu-id="588e5-176">Enterprise users (that is, users who have Active Directory Domain Services credentials and Lync Server accounts within your organization) enter their phone number (or extension) and a personal identification number (PIN) to dial in to conferences as an authenticated user.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

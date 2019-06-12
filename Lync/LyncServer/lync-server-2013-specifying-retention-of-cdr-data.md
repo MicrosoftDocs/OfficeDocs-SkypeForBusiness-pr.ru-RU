@@ -1,66 +1,123 @@
-﻿---
-title: Указание способа хранения данных CDR
-TOCTitle: Указание способа хранения данных CDR
-ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-ms:mtpsurl: https://technet.microsoft.com/ru-ru/library/Gg182581(v=OCS.15)
-ms:contentKeyID: 49311041
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: указание хранения данных CDR'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Specifying retention of CDR data
+ms:assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182581(v=OCS.15)
+ms:contentKeyID: 48185299
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ae725c58f3b93c7e3b267eec105571f8bbf882ce
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849642"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Указание способа хранения данных CDR
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Дата изменения раздела:** 2013-02-23_
+# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a><span data-ttu-id="656f6-102">Определение хранения данных CDR в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="656f6-102">Specifying retention of CDR data in Lync Server 2013</span></span>
 
-По умолчанию данные регистрации вызовов (CDR) удаляются по прошествии 60 дней. Можно использовать параметры на странице **Регистрация вызовов**, чтобы задать хранение данных в течение большего или меньшего времени. Если отключить CDR, то данные, которые были записаны до включения CDR, также будут удаляться.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="656f6-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="656f6-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="656f6-p101">По умолчанию данные регистрации вызовов (CDR) удаляются по прошествии 60 дней. Можно использовать параметры на странице **Регистрация вызовов**, чтобы задать хранение данных в течение большего или меньшего времени. Если отключить CDR, то данные, которые были записаны до включения CDR, также будут удаляться.</span><span class="sxs-lookup"><span data-stu-id="656f6-p101">By default, call detail recording (CDR) data is purged after 60 days. You can use the settings on the **Call Detail Recording** page to retain the data for a longer or shorter period of time. If you disable CDR, data that was captured before CDR was enabled will also be subject to purging.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Необходимо настроить CDR и качество взаимодействия (QoE) для хранения данных в течении одинакового числа дней. Каждый звонок в отчетах CDR, доступных на веб-странице отчетов сервера мониторинга, включает сведения CDR и качества взаимодействия. Если время для удаления данных CDR и качества взаимодействия отличается, некоторые звонки могут содержать только данные CDR, а другие могут содержать только данные качества взаимодействия.
+> <span data-ttu-id="656f6-p102">Необходимо настроить CDR и качество взаимодействия (QoE) для хранения данных в течении одинакового числа дней. Каждый звонок в отчетах CDR, доступных на веб-странице отчетов сервера мониторинга, включает сведения CDR и качества взаимодействия. Если время для удаления данных CDR и качества взаимодействия отличается, некоторые звонки могут содержать только данные CDR, а другие могут содержать только данные качества взаимодействия.</span><span class="sxs-lookup"><span data-stu-id="656f6-p102">You should configure CDR and Quality of Experience (QoE) to retain data for the same number of days. Each call in the call detail reports (CDRs), available from the Monitoring Server Reports webpage, includes CDR and QoE information. If the purging duration for CDR and QoE is different, some calls might only include CDR data, while other may only include QoE data.</span></span>
 
-Для настройки параметров очистки данных CDR используется следующая процедура.
 
-## Настройка хранения данных CDR
 
-1.  Войдите на любой компьютер, подключенный к сети, где развернут Lync Server 2013, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsServerAdministrator или CsAdministrator.
+</div>
 
-2.  Откройте окно браузера и введите URL-адрес для администрирования, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных методах, которые можно использовать для запуска панели управления Lync Server см. в разделе [Открытие средств администрирования Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="656f6-110">Для настройки параметров очистки данных CDR используется следующая процедура.</span><span class="sxs-lookup"><span data-stu-id="656f6-110">Use the following procedures to configure purge settings for CDR data.</span></span>
 
-3.  В левой панели навигации щелкните **Мониторинг и архивирование**, а затем — **Регистрация вызовов**.
+<div>
 
-4.  На странице **Регистрация вызовов** в таблице щелкните необходимый сайт, щелкните **Правка**, а затем — **Показать подробности**.
+## <a name="to-specify-retention-of-cdr-data"></a><span data-ttu-id="656f6-111">Настройка хранения данных CDR</span><span class="sxs-lookup"><span data-stu-id="656f6-111">To specify retention of CDR data</span></span>
 
-5.  Чтобы включить удаление, выберите параметр **Enable Purging of CDRs** (Включить очистку CDR).
+1.  <span data-ttu-id="656f6-112">Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="656f6-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-6.  В параметре **Keep call detail recordings CDRs for maximum duration (days):** (Сохранять CDR не более (дней)) выберите максимальное число дней, в течение которых должны храниться данные регистрации вызовов.
+2.  <span data-ttu-id="656f6-113">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="656f6-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="656f6-114">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="656f6-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-7.  В параметре **Хранить сведения отчетов об ошибках максимум в течение (дней):** выберите максимальное число дней, в течение которых должны храниться данные отчетов об ошибках.
+3.  <span data-ttu-id="656f6-115">В левой панели навигации щелкните **Мониторинг и архивирование**, а затем — **Регистрация вызовов**.</span><span class="sxs-lookup"><span data-stu-id="656f6-115">In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.</span></span>
 
-8.  Нажмите кнопку **Зафиксировать**.
+4.  <span data-ttu-id="656f6-116">На странице **Регистрация вызовов** в таблице щелкните необходимый сайт, щелкните **Правка**, а затем — **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="656f6-116">On the **Call Detail Recording** page, click the appropriate site in the table, click **Edit**, and then click **Show Details**.</span></span>
 
-## Задание параметров хранения CDR с помощью командлетов командной консоли Командная консоль Lync Server
+5.  <span data-ttu-id="656f6-117">Чтобы включить удаление, выберите параметр **Enable Purging of CDRs** (Включить очистку CDR).</span><span class="sxs-lookup"><span data-stu-id="656f6-117">To turn on purging, select **Enable purging of CDRs**.</span></span>
 
-Параметры хранения CDR можно создать с помощью Windows PowerShell и командлета Set-CsCdrConfiguration. Этот командлет можно выполнить из командной консоли командная консоль Lync Server 2013 или в удаленном сеансе Windows PowerShell. Дополнительные сведения об использовании Windows PowerShell в удаленном режиме для подключения к Lync Server см. статью блога Lync Server Windows PowerShell "Краткое руководство: управление Microsoft Lync Server 2010 в удаленном режиме с помощью PowerShell" по адресу [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+6.  <span data-ttu-id="656f6-118">В параметре **Keep call detail recordings CDRs for maximum duration (days):** (Сохранять CDR не более (дней)) выберите максимальное число дней, в течение которых должны храниться данные регистрации вызовов.</span><span class="sxs-lookup"><span data-stu-id="656f6-118">In **Keep CDRs for maximum duration (days):** select the maximum number of days that call detail recordings should be retained.</span></span>
 
-## Задание параметров хранения CDR для конкретного расположения
+7.  <span data-ttu-id="656f6-119">В параметре **Хранить сведения отчетов об ошибках максимум в течение (дней):** выберите максимальное число дней, в течение которых должны храниться данные отчетов об ошибках.</span><span class="sxs-lookup"><span data-stu-id="656f6-119">In **Keep error report data for maximum duration (days):** select the maximum number of days that error reports should be retained.</span></span>
 
-  - Эта команда позволяет очищать данные CDR для сайта Redmond и настраивает сайт для обслуживания данных CDR и данных отчетов об ошибках в течение 20 дней.
+8.  <span data-ttu-id="656f6-120">Щелкните **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="656f6-120">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="656f6-121">Указание хранения CDR с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="656f6-121">Specifying CDR Retention by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="656f6-122">Вы можете создать параметры хранения CDR с помощью Windows PowerShell и командлета Set-Кскдрконфигуратион.</span><span class="sxs-lookup"><span data-stu-id="656f6-122">You can create CDR retention settings by using Windows PowerShell and the Set-CsCdrConfiguration cmdlet.</span></span> <span data-ttu-id="656f6-123">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="656f6-123">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="656f6-124">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="656f6-124">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-specify-cdr-retention-for-a-specific-location"></a><span data-ttu-id="656f6-125">Задание параметров хранения CDR для конкретного расположения</span><span class="sxs-lookup"><span data-stu-id="656f6-125">To specify CDR retention for a specific location</span></span>
+
+  - <span data-ttu-id="656f6-126">Эта команда позволяет очищать данные CDR для сайта Redmond и настраивает сайт для обслуживания данных CDR и данных отчетов об ошибках в течение 20 дней.</span><span class="sxs-lookup"><span data-stu-id="656f6-126">This command enables purging of CDR data for the Redmond site, and configures the site to maintain both CDR data and error reports data for 20 days.</span></span>
     
         Set-CsCdrConfiguration -Identity "site:Redmond" -EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-## Задание параметров хранения CDR для нескольких расположений
+</div>
 
-  - Эта команда настраивает параметры хранения CDR для всех параметров конфигурации CDR, используемых в организации.
+<div>
+
+## <a name="to-specify-cdr-retention-for-multiple-locations"></a><span data-ttu-id="656f6-127">Задание параметров хранения CDR для нескольких расположений</span><span class="sxs-lookup"><span data-stu-id="656f6-127">To specify CDR retention for multiple locations</span></span>
+
+  - <span data-ttu-id="656f6-128">Эта команда настраивает параметры хранения CDR для всех параметров конфигурации CDR, используемых в организации.</span><span class="sxs-lookup"><span data-stu-id="656f6-128">This command configures CDR retention for all the CDR configuration settings in use in an organization.</span></span>
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-Дополнительные сведения см. в разделе справки для командлета [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
+</div>
 
-## См. также
+<span data-ttu-id="656f6-129">Дополнительные сведения можно найти в разделе справки по командлету [Set-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="656f6-129">For more information, see the help topic for the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet.</span></span>
 
-#### Другие ресурсы
+</div>
 
-[Регистрация вызовов (CDR) в Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="656f6-130">См. также</span><span class="sxs-lookup"><span data-stu-id="656f6-130">See Also</span></span>
+
+
+[<span data-ttu-id="656f6-131">Запись сведений о звонке (CDR) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="656f6-131">Call detail recording (CDR) in Lync Server 2013</span></span>](lync-server-2013-call-detail-recording-cdr.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
