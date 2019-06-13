@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: В этой статье описано, как отслеживать и устранять проблемы с настройкой прямой маршрутизации.
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290410"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915158"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Отслеживание и устранение неполадок прямой маршрутизации
 
@@ -46,7 +46,7 @@ ms.locfileid: "34290410"
 
 ![Пример настройки параметров SIP](media/sip-options-config-example.png)
 
-Когда пользователь выполняет звонок на номер + 1 425 \<любой семь Дигитс_гт_, прямая маршрутизация оценивает маршрут. В Route: sbc1.contoso.com и sbc2.contoso.com есть две SBCs. В маршруте есть одинаковый приоритет для обоих SBCs. Перед тем как выбрать объект SBC, механизм маршрутизации оценивает работоспособность SBCs на основе того, когда SBC отправляет параметры SIP в прошлый раз. 
+Когда пользователь выполняет звонок на номер + 1 425 \<в любой семь цифр>, прямая маршрутизация оценивает маршрут. В Route: sbc1.contoso.com и sbc2.contoso.com есть две SBCs. В маршруте есть одинаковый приоритет для обоих SBCs. Перед тем как выбрать объект SBC, механизм маршрутизации оценивает работоспособность SBCs на основе того, когда SBC отправляет параметры SIP в прошлый раз. 
 
 SBC считается работоспособным, если статистика на момент отправки звонка показывает, что SBC отправляет параметры в обычном диапазоне.  
 
