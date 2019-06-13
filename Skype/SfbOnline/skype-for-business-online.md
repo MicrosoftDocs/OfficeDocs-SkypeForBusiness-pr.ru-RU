@@ -56,7 +56,7 @@ ms.locfileid: "32238112"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re здесь, чтобы помочь</h3>
+                        <h3>Мы&#39;здесь, чтобы помочь</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ ms.locfileid: "32238112"
 
 ---
 
-<h2>What& #39; новым возможностям</h2>
+<h2>Новые возможности&#39;s</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,7 +134,7 @@ ms.locfileid: "32238112"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Статьи</h3>
+                        <h3>Следующим</h3>
                         <p><a 
                         href="/microsoftteams/setting-up-your-phone-system">Настройка телефонной системы в вашей организации</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Сторонняя интеграция с Аудиоконференциями</a></p>
@@ -182,7 +182,7 @@ ms.locfileid: "32238112"
 
 ---
 
-<h2>Основные статьи</h2>
+<h2>Популярные статьи</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -238,7 +238,7 @@ ms.locfileid: "32238112"
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s получение с телефонной системой в Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">В этой статье&#39;, что можно получить с помощью телефонной системы в Office 365</a></p>
                </div>
                 </div>
             </div>

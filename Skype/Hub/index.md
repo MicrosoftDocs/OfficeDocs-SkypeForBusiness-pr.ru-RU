@@ -55,7 +55,7 @@ ms.locfileid: "33905697"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Гибридные решения</h3>
-                                                    <p>Найдите сведения о планировании Скайп для бизнеса гибридного развертывания.</p>
+                                                    <p>Ознакомьтесь со сведениями о планировании гибридного развертывания Skype для бизнеса.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ ms.locfileid: "33905697"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
-                                                    <p>Найдите рекомендации и средства для изучения оптимальную путь к группам.</p>
+                                                    <p>В этой статье приведены рекомендации и инструменты, позволяющие узнать оптимальный путь к Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ ms.locfileid: "33905697"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Конечные пользователи</h3>
-                                                    <p>Поиск справки, обучению и техническую поддержку Скайп для бизнес-пользователи на <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Ознакомьтесь со справкой, обучением и технической поддержкой пользователей Skype для бизнеса в <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.Office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
