@@ -37,7 +37,7 @@
 ### [Обзор](deploy-apps-microsoft-teams-landing-page.md)
 ### [Разрешения и рекомендации для приложений](app-permissions.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
-### [Добавление ботов для приватных чатов и каналов в Teams](add-bots.md)
+### [Добавление ботов для личных чатов, групповых чатов и каналов в Teams](add-bots.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
 ### [Публикация в каталог приложений клиента Teams](tenant-apps-catalog-teams.md)
