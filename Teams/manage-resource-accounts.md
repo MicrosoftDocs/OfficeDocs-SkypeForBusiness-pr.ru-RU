@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Сведения об управлении учетными записями ресурсов в Microsoft Teams
-ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 58d3df08b871dcdcffd9e5d0f331870bb519d5e7
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548241"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957551"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -167,6 +167,22 @@ Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -Telephone
 ```
 
 После этого вы можете удалить учетную запись ресурса на портале администрирования Office 365 на вкладке Пользователи.
+
+## <a name="troubleshooting"></a>Поиск и устранение неполадок
+
+На случай, если вы не видите номер телефона, назначенный учетной записи ресурса в центре администрирования Teams, и вы не можете назначить этот номер, пожалуйста, проверьте следующее:
+
+``` Powershell
+Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
+```
+
+Если атрибут "Отдел" отображает конечную точку приложения Skype для бизнеса, запустите следующий командлет:
+
+``` Powershell
+Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+```
+> [!NOTE]
+> После запуска кмлдет обновите веб-страницу центра администрирования Teams, и вы сможете правильно назначить номер.
 
 ## <a name="related-information"></a>Дополнительные сведения
 

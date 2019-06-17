@@ -20,17 +20,17 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
-ms.openlocfilehash: f7cfe83d77ce9d182eca0d28a0c2c37da5cccb16
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 884934360c8d3a627e68486189acc398c22b68f2
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494219"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002839"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
 > [!Note]
-> Для получения информации об идентификаторе конференции в Microsoft Teams перейдите в [Просмотр и сброс идентификатора конференции, присвоенного пользователю в Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
+> Сведения об идентификаторах конференций пользователей в Microsoft Teams можно найти в разделе [Просмотр и сброс идентификатора конференц-связи, назначенного пользователю в Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
 
 A conferencing ID is automatically assigned to a Skype for Business user when they are set up for Audio Conferencing in Office 365 and use Microsoft as the audio conferencing provider. The conference ID assigned is sent in the meeting invite when the meeting is scheduled. Each meeting that a user schedules will get assigned a unique conference ID.
 

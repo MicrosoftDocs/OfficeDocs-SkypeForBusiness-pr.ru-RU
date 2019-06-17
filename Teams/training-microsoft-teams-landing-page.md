@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb60e7908a604e680682e7b12c75328410794879
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548344"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957543"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -133,6 +133,19 @@ ms.locfileid: "34548344"
                     <div class="cardText">
                         <h3>Общие сведения о командной работе в Microsoft 365</h3>
                         <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Узнайте об инструментах Microsoft 365, повышающих эффективность командной работы всех сотрудников независимо от того, где они находятся и как подключаются к вашей организации.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    </li>
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Сертификат Microsoft 365: помощник администратора командной работы</h3>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Администраторы командной работы Microsoft 365 настраивают и разворачивают рабочие нагрузки Office 365, например SharePoint (в сетевой, локальной и гибридной среде), OneDrive и Teams, а также управляют ими. </a></p>
                     </div>
                 </div>
             </div>

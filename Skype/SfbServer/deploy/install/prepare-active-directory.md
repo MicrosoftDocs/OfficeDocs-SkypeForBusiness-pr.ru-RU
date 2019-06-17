@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Аннотация: сведения о том, как подготовить домен Active Directory к установке Skype для бизнеса Server. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 304887bdd6096b70c8d4d7b50f404f144f869859
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306600"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002847"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Подготовка службы каталогов Active Directory для Skype для бизнеса Server
  
@@ -169,7 +169,7 @@ Skype для бизнеса Server тесно интегрирован с дом
   
 11. Выйдите из системы, а затем снова войдите в Windows, чтобы обновить маркер безопасности с помощью новой группы безопасности Skype для бизнеса Server, а затем снова откройте мастер развертывания.
     
-12. Убедитесь в том, что в качестве подтверждения успешного завершения рядом с пунктом **подготовка Active Director** стоит зелена галочка, как показано на рисунке.
+12. Убедитесь, что рядом с полем **Подготовка Active Directory** для подтверждения успешности отображается зеленая галочка, как показано на рисунке.
     
      ![Подготовка Active Directory выполнена.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   

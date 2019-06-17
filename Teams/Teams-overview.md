@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 04/18/2019
+ms.date: 06/18/2019
 ms.reviewer: LolaJ
 description: Найдите подходящий способ развертывания Microsoft Teams в вашей организации. Сведения об инфраструктуре Teams и использовании Teams вместе с Office 365.
 localization_priority: Priority
@@ -15,21 +15,29 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
-ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
+ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100867"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957478"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
 
-Если вы раньше не работали с Teams и хотите узнать больше, ознакомьтесь с информацией ниже.
+Если вы раньше не работали с Teams и хотите узнать больше, ознакомьтесь с информацией ниже. Посмотрите короткое видео [Что такое Microsoft Teams](https://youtu.be/s3aQV3T0D6c). 
 
-## <a name="overview-of-teams"></a>Обзор Teams
+Если вы ищете справку по Teams для конечного пользователя, щелкните элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams). Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
-Если вы не знакомы с Teams, посмотрите короткое видео [Что такое Microsoft Teams](https://youtu.be/s3aQV3T0D6c). В основе Teams лежат группы Office 365 и Office Graph. Teams обеспечивает столь же высокий корпоративный уровень безопасности, соответствия требованиям и контроля, что и остальные инструменты Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+## <a name="teams-architecture"></a>Архитектура Teams
+
+В основе Teams лежат группы Office 365 и Microsoft Graph. Teams обеспечивает столь же высокий корпоративный уровень безопасности, соответствия требованиям и контроля, что и остальные инструменты Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). 
+
+Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+[![Эскиз плаката логической архитектуры Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
+
+
 
 При создании команды создаются следующие объекты:
 - Новая группа [Office 365](office-365-groups.md)
@@ -40,25 +48,26 @@ ms.locfileid: "34100867"
 
 При создании команды из уже существующей группы, ее участники, сайт, почтовый ящик и записная книжка переносятся в Teams. Дополнительные сведения см. на плакате [Группы в Microsoft 365 для ИТ-архитекторов](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Воспользуйтесь [командами организации](create-an-org-wide-team.md) — особыми группами, которые включают всех пользователей компании и синхронизируют присоединяющихся и исключаемых участников с Active Directory. 
+[![Эскиз инфографики групп](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
 Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
 
-![Настольное и мобильное приложения Teams](media/teams-overview-hub.png)
+> [!TIP]
+> Для подробного обзора архитектуры Teams посмотрите видео на канале [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
 
 
-## <a name="managing-teams"></a>Управления группами
+## <a name="managing-teams"></a>Управления Teams
 
 Как администратор вы будете управлять Teams через Центр администрирования Microsoft Teams. Дополнительные сведения:
 - [Управление Teams с ролями администратора](using-admin-roles.md)
-- [Управление Teams в Центре администрирования Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
-- [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](manage-teams-in-modern-portal.md)
+- [Управление Teams в Центре администрирования Teams](manage-teams-skypeforbusiness-admin-center.md).
+- [Управление Teams при переходе на новую версию Центра администрирования Teams](manage-teams-in-modern-portal.md)
 - [Управление функциями Teams в организации Office 365](enable-features-office-365.md)
 
 Узнать о новых возможностях Teams и других продуктов и служб Office 365 в вашей организации можно в [Центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) и [Стратегии развития Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Вы будете получать оповещения о новых и обновленных функциях, планируемых изменениях и возможных проблемах, чтобы знать о них и быть готовыми заранее. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Переход со Skype для бизнеса на Teams
-Teams — основной клиент интеллектуальных коммуникаций в Office 365, который со временем заменит Skype для бизнеса Online. Дополнительные сведения о новых функциях в Teams см. в статье [Стратегия развития Microsoft 365](http://aka.ms/O365Roadmap). В дополнение к функциям сохраняемого чата и обмена сообщениями Teams предлагает комплексные возможности для звонков и собраний с полностью интегрированными средствами голосовой и видеосвязи. Читайте об этом в статье [Teams Is Now a Complete Meeting and Calling Solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) (Теперь Teams — это полноценное решение для звонков и собраний) в блоге Microsoft Teams.
+Teams — основной клиент интеллектуальных коммуникаций в Office 365, который со временем заменит Skype для бизнеса Online. Для отслеживания новых функций в Teams см. [стратегию развития Microsoft 365](http://aka.ms/O365Roadmap). В дополнение к функциям сохраняемого чата и обмена сообщениями Teams предлагает комплексные возможности для звонков и собраний с полностью интегрированными средствами голосовой и видеосвязи. Читайте об этом в статье [Teams Is Now a Complete Meeting and Calling Solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) (Теперь Teams — это полноценное решение для звонков и собраний) в блоге Microsoft Teams.
 
 Если вы пользуетесь Skype для бизнеса и готовы перейти на Teams или пользуетесь Skype для бизнеса и Teams одновременно и готовы перейти на Teams полностью, мы предложим инструменты, советы и рекомендации, которые помогут успешно выполнить переход. Дополнительные сведения см. в статье [Переход на Teams](journey-skypeforbusiness-teams.md).
 
@@ -85,9 +94,9 @@ Teams — основной клиент интеллектуальных ком
 
 ## <a name="teams-known-issues"></a>Известные проблемы Teams
 
-См. раздел [Известные проблемы Microsoft Teams](Known-issues.md)
+См. статью [Известные проблемы Teams](Known-issues.md).
 
 ## <a name="teams-client-release-notes"></a>Заметки о выпуске клиента Teams
 
-См. раздел [Новые возможности Microsoft Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+См. статью [Новые возможности Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
