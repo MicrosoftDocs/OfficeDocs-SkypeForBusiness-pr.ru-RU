@@ -309,11 +309,15 @@
 ### [Краткое руководство по началу работы. Настройка планов звонков](configuring-teams-calling-quickstartguide.md)
 
 ## Прямая маршрутизация телефонной системы
+
 ### [Обзор](direct-routing-landing-page.md)
 ### [Планирование прямой маршрутизации](direct-routing-plan.md)
 ### [Настройка прямой маршрутизации](direct-routing-configure.md)
 ### [Переход на прямую маршрутизацию](direct-routing-migrating.md)
-### [Отслеживание и устранение неполадок прямой маршрутизации](direct-routing-monitor-and-troubleshoot.md)
+
+### Отслеживание и устранение неполадок прямой маршрутизации
+#### [Обзор](direct-routing-monitor-and-troubleshoot.md)
+#### [Панель мониторинга работоспособности](direct-routing-health-dashboard.md)
 ### [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 ### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
