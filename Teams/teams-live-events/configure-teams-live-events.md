@@ -16,12 +16,12 @@ description: Сведения о том, как управлять параме�
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 83d7e43e75b71eefdb4a95f26c14c27956e763f9
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548647"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013039"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Дополнительные сведения можно найти в разделе [Set-кстеамсмитингброадкастконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]
-> Если вы планируете создавать события Live, использующие внешние кодировщики, вам также потребуется [настроить поставщик екдн с помощью Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
+> Если вы планируете создавать события Live с помощью внешнего приложения или устройства, вам также потребуется [настроить поставщик екдн с помощью Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Статьи по теме
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
