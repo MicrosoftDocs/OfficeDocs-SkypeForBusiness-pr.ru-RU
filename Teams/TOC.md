@@ -90,8 +90,7 @@
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
-## [Управление параметрами собраний](meeting-settings-in-teams.md)
-## [Настройка приглашений на собрания](customize-meeting-invitations.md)
+## [Управление параметрами собраний](meeting-settings-in-teams.md
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
