@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Ознакомьтесь с этой статьей, чтобы узнать о том, как развертываются комнаты Microsoft Teams при больших масштабах развертывания.
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305445"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062373"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Развертывание комнат Microsoft Teams с помощью System Center Configuration Manager
 
@@ -129,6 +129,9 @@ ms.locfileid: "34305445"
 > Вы можете создать загрузочный USB-носитель для запуска развертываний на основе последовательности задач Configuration Manager для сред без поддержки PXE. Загрузочный носитель включает только загрузочный образ, необязательные команды предзапуска и их обязательные файлы, а также двоичные данные Configuration Manager для поддержки загрузки в Windows PE и подключения к Configuration Manager для оставшейся части процесса развертывания. Дополнительные сведения [можно найти в разделе Создание загрузочного носителя](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Создание пакетов Configuration Manager
+
+> [!IMPORTANT]
+> Обязательная версия операционной системы для каждой версии установщика SRS меняется при каждом выпуске MSI-файла. Чтобы определить самую подходящее версию операционной системы для данного MSI-файла, запустите сценарий настройки консоли один раз. Дополнительные сведения можно найти в разделе [развертывание комнат Microsoft Teams с помощью System Center Configuration Manager](room-systems-scale.md).
 
 Для развертывания и настройки единиц измерения в Microsoft Teams Configuration Manager требуется несколько пакетов.
 

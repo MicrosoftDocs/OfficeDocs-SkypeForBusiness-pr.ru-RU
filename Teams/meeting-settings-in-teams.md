@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Сведения о том, как управлять параметрами собраний Teams, которые пользователи расписаний в вашей организации.
-ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433153"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062389"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -49,8 +49,10 @@ ms.locfileid: "34433153"
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Советы по созданию логотипа для приглашений на собрания  
 
 1. Создание изображения, которое имеет размер не более 188 пикселей в ширину и на 30 пикселей в высоту (он очень мелкий).
-2. Сохраните изображение в формате JPG.
+2. Сохраните изображение в формате JPG или PNG.
 3. Храните изображение в централизованном расположении, доступном для всех пользователей организации, например в сетевой папке.
+
+    Теперь вы можете добавить его в приглашения на собрание. Ознакомьтесь со статьей ниже.
 
 ### <a name="customize-your-meeting-invitations"></a>Настройка приглашений на собрания
 

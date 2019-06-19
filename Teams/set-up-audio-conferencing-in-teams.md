@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432819"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062421"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка аудиоконференций для Microsoft Teams
 
@@ -121,7 +121,7 @@ ms.locfileid: "34432819"
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Шаг 8. Настройка приглашений на собрания (необязательно)
 <a name="__top"> </a>
  
-Настроенные для пользователя телефонные номера будут автоматически добавляться к приглашениям на собрания, которые отправляются участникам. Тем не менее, при желании, вы можете добавить свои собственные справочные и официальные ссылки, текстовое сообщение и небольшой логотип компании. Дополнительные сведения: [Настройка приглашений на собрания](customize-meeting-invitations.md).
+Настроенные для пользователя телефонные номера будут автоматически добавляться к приглашениям на собрания, которые отправляются участникам. Тем не менее, при желании, вы можете добавить свои собственные справочные и официальные ссылки, текстовое сообщение и небольшой логотип компании. Дополнительные сведения: [Настройка приглашений на собрания](meeting-settings-in-teams.md#customize-meeting-invitations).
    
 ## <a name="related-topics"></a>Связанные разделы
 

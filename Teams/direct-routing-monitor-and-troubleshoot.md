@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: В этой статье описано, как отслеживать и устранять проблемы с настройкой прямой маршрутизации.
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915158"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062381"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Отслеживание и устранение неполадок прямой маршрутизации
 
@@ -66,6 +66,8 @@ SBC считается работоспособным, если статисти
 Понижение роли означает, что SBC не будет применяться первыми. Например, у нас есть sbc1.contoso.com и sbc2.contoso.com с одинаковым приоритетом.  
 
 Если sbc1.contoso.com не отправляет параметры SIP в обычном интервале, как описано выше, это понизить уровень. Затем sbc2.contoso.com пытается позвонить. Если sbc2. contoso. Con не может допустить звонок, то sbc1.contoso.com (понижение роли) предпринимается повторно, пока не будет создан сбой. 
+
+Если две (или более) SBCs в одном маршруте конЦидеред исправен и Equals, функция Фишер-Ятес переключается в случайном порядке для диструбуте вызовов между SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Наблюдение за анализом качества связи на информационной панели и в журналах SBC 
  

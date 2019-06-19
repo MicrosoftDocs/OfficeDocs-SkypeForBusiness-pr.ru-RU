@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667375"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062211"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -32,6 +32,8 @@ ms.locfileid: "34667375"
 - [Ошибка Import-Module, вызванная политикой выполнения Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
 - [Ошибка Import-Module, вызванная неправильной версией Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+    
+- [Сбой современной проверки подлинности при отключенной базовой проверке подлинности WinRM](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
     
 - [Не удалось подключиться к серверу Live ID](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -69,6 +71,13 @@ ms.locfileid: "34667375"
 
 - **Разрешение**: единственный способ устранить эту проблему — установить Windows PowerShell 3,0, которая доступна в центре загрузки Майкрософт по адресу [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595).
   
+## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Сбой современной проверки подлинности при отключенной базовой проверке подлинности WinRM
+<a name="BKMKWinRMBasicAuth"> </a>
+
+В последней версии модуля Skype для бизнеса Online используется современная проверка подлинности, но основной клиент службы удаленного управления Windows (WinRM) должен быть настроен для выполнения обычной проверки подлинности.  Современная проверка подлинности использует маркеры носителя, которые обычно передаются в заголовке *authorization: Bearer* . Оболочка Windows PowerShell, на основе которой построены оболочки Skype для бизнеса PowerShell, не допускает манипуляций с этим заголовком.  Вместо этого Skype для бизнеса PowerShell использует заголовок *authorization: Basic* для передачи маркера носителя.
+
+Сведения о том, как включить WinRM для обычной проверки подлинности, можно найти в разделе [Загрузка и установка Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) .
+
 ## <a name="failed-to-connect-to-live-id-server"></a>Не удалось подключиться к серверу Live ID
 <a name="BKMKFailedConnect"> </a>
 
