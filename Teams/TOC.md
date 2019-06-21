@@ -639,10 +639,11 @@
 ### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [Teams для сферы здравоохранения](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## Teams для сферы здравоохранения
 ### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Установка представителя в подписи к статусу](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Интеграция электронных историй болезни в Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Характеристики интерфейса DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Характеристики интерфейса STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
