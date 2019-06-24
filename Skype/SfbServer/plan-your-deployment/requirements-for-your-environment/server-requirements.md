@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Аннотация: Подготовьте серверы Skype для бизнеса Server 2015 с помощью этой темы. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
-ms.openlocfilehash: af739cd01fcb2071ad271d7932483d1bf37e2bf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296821"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134263"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ ms.locfileid: "34296821"
   
 |||
 |:-----|:-----|
-|Windows Server 2016 (для этого вам понадобится накопительный пакет обновления 5 или более поздней версии Skype для бизнеса). Дополнительные сведения о проверке [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)  <br/> ||
+|Windows Server 2019 (для этого вам понадобится накопительное обновление Skype для бизнеса 9 или более поздней версии). <br/> |Windows Server 2016 (для этого вам понадобится накопительный пакет обновления 5 или более поздней версии Skype для бизнеса). Дополнительные сведения о проверке [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)  <br/> ||
 |Windows Server 2012 R2 Datacenter OS с установленными всеми необходимыми обновлениями.  <br/> |Windows Server 2012 R2 Standard OS с установленными всеми необходимыми обновлениями.  <br/> |
 |ОПЕРАЦИОННАЯ система Windows Server 2012 Datacenter с установленными всеми необходимыми обновлениями.  <br/> |Windows Server 2012 Standard OS с установленными всеми необходимыми обновлениями.  <br/> |
    
@@ -92,10 +92,10 @@ ms.locfileid: "34296821"
   
 Skype для бизнеса Server 2015 Enterprise Edition немного сложнее, но поддерживаемый список ниже (все, что является 64-битным выпуском, вы увидите, что не используйте 32-разрядные выпуски):
   
-|||||
+||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2017 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления. <br/> |Microsoft SQL Server 2016 Enterprise (64-разрядная версия) с пакетом обновления 1 (SP1) или более поздней версии, и вы должны запуститься с накопительным обновлением для Skype для бизнеса 7 или более поздними версиями ([загрузить накопительное обновление Skype для бизнеса](https://support.microsoft.com/en-us/help/3061064))  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit Edition) и вы должны использовать накопительный пакет обновления 6 или более поздней версии ([Загрузите накопительное обновление 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.  <br/> |
-|Microsoft SQL Server 2017 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления. <br/> |Microsoft SQL Server 2016 Standard (64-bit Edition) с пакетом обновления 1 (SP1) или более поздней версии, и вы должны работать с накопительным обновлением для Skype для бизнеса 7 или более поздней версии ([Загрузите накопительное обновление Skype для](https://support.microsoft.com/en-us/help/3061064)бизнеса).  <br/> |Microsoft SQL Server 2014 Standard (64-bit Edition) и вы должны использовать накопительный пакет обновления 6 или более поздней версии ([Загрузите накопительное обновление 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.  <br/> |
+|Microsoft SQL Server 2019 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления. <br/> |Microsoft SQL Server 2017 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления. <br/> |Microsoft SQL Server 2016 Enterprise (64-разрядная версия) с пакетом обновления 1 (SP1) или более поздней версии, и вы должны запуститься с накопительным обновлением для Skype для бизнеса 7 или более поздними версиями ([загрузить накопительное обновление Skype для бизнеса](https://support.microsoft.com/en-us/help/3061064))  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit Edition) и вы должны использовать накопительный пакет обновления 6 или более поздней версии ([Загрузите накопительное обновление 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.  <br/> |
+|Microsoft SQL Server 2019 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления. <br/> |Microsoft SQL Server 2017 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления. <br/> |Microsoft SQL Server 2016 Standard (64-bit Edition) с пакетом обновления 1 (SP1) или более поздней версии, и вы должны работать с накопительным обновлением для Skype для бизнеса 7 или более поздней версии ([Загрузите накопительное обновление Skype для](https://support.microsoft.com/en-us/help/3061064)бизнеса).  <br/> |Microsoft SQL Server 2014 Standard (64-bit Edition) и вы должны использовать накопительный пакет обновления 6 или более поздней версии ([Загрузите накопительное обновление 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.  <br/> |
    
 Если вы не видите версию SQL Server, которую вы хотите использовать, вы не сможете использовать ее.
   
@@ -134,6 +134,8 @@ Microsoft Message Queuing не требуется.
   
 Два узла:
   
+- Microsoft SQL Server 2019 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.
+
 - Microsoft SQL Server 2017 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.
 
 - Microsoft SQL Server 2016 Standard (64-bit Edition) с пакетом обновления 1 (SP1) или более поздней версии. Рекомендуем работать с последним пакетом обновления.
@@ -143,6 +145,8 @@ Microsoft Message Queuing не требуется.
 -  Microsoft SQL Server 2012 Standard (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.
 
 16 узлов:
+
+- Microsoft SQL Server 2019 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.
 
 - Microsoft SQL Server 2017 Enterprise (64-bit Edition) и мы рекомендуем работать с последним пакетом обновления.
 
