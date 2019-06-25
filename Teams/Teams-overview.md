@@ -15,29 +15,30 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957478"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133862"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
 
-Если вы раньше не работали с Teams и хотите узнать больше, ознакомьтесь с информацией ниже. Посмотрите короткое видео [Что такое Microsoft Teams](https://youtu.be/s3aQV3T0D6c). 
+Если вы ищете справку по Teams для пользователей, выберите элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams). Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
-Если вы ищете справку по Teams для конечного пользователя, щелкните элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams). Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
+
+
+Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите, наше короткое видео "Добро пожаловать в Teams".
+
+> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+
 
 ## <a name="teams-architecture"></a>Архитектура Teams
 
 В основе Teams лежат группы Office 365 и Microsoft Graph. Teams обеспечивает столь же высокий корпоративный уровень безопасности, соответствия требованиям и контроля, что и остальные инструменты Office 365. Teams использует удостоверения, хранящиеся в Azure Active Directory (Azure AD). 
 
-Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
-
-[![Эскиз плаката логической архитектуры Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
-
-
+Чтобы увидеть, где находится Teams в контексте Microsoft 365, ознакомьтесь с плакатом по архитектуре: [Teams в составе Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
 При создании команды создаются следующие объекты:
 - Новая группа [Office 365](office-365-groups.md)
@@ -47,8 +48,6 @@ ms.locfileid: "34957478"
 - Привязки к другим приложениям Office 365, таким как Планировщик и Power BI
 
 При создании команды из уже существующей группы, ее участники, сайт, почтовый ящик и записная книжка переносятся в Teams. Дополнительные сведения см. на плакате [Группы в Microsoft 365 для ИТ-архитекторов](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
-
-[![Эскиз инфографики групп](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
 Чтобы настроить и расширить возможности Teams, добавляйте сторонние приложения с помощью [приложений, ботов и соединителей](deploy-apps-microsoft-teams-landing-page.md). Teams позволяет вам включить в команду или канал пользователей, не являющихся сотрудниками вашей организации, [добавив их в качестве гостей](guest-access.md). Будучи частью Office 365, приложение Teams представляет собой мощную [платформу для разработки](https://docs.microsoft.com/microsoftteams/platform), которая позволяет создать настоящий центр командной работы для вашей организации. 
 

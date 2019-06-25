@@ -10,12 +10,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6893dbda1c8f9ecf61319d19a24b896ff67de20b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 708dc90d28944a050624e83af5f0c5fe48f6eeeb
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834576"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -141,7 +141,7 @@ _**Тема последнего изменения:** 2016-06-13_
                   -MissedCallOption <Option> -MissedCallForwardTarget
                   <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     
-    В следующем примере задается, что пропущенные звонки будут переадресованы пользователю `sla_forward_number`с именем. `-MissedCallOption` Допустимые параметры для параметра `Forward`:, `BusySignal`или. `Disconnect` Если выбрать `Forward`, необходимо также указать `-MissedCallForwardTarget `параметр, указав в качестве целевого номера пользователя или номер телефона.
+    В следующем примере задается, что пропущенные звонки будут переадресованы пользователю `sla_forward_number`с именем. `-MissedCallOption` Допустимые параметры для параметра `Forward`:, `BusySignal`или. `Disconnect` Если выбрать `Forward`, необходимо также указать `-MissedCallForwardTarget` параметр, указав в качестве целевого номера пользователя или номер телефона.
     
         Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
                   Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
