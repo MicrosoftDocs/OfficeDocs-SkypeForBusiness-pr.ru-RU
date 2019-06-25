@@ -27,7 +27,6 @@
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Присутствие](presence-admins.md)
-## [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 
 
@@ -70,7 +69,7 @@
 ### [Массовое изменение параметров пользователей Teams](edit-user-settings-in-bulk.md)
 ### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Общение с пользователями Teams из других организаций](let-your-teams-users-communicate-with-other-people.md)
+### [Управление внешним доступом](manage-external-access.md)
 ### [Использование встроенного перевода сообщений](inline-message-translation-teams.md)
 ### [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
 
@@ -643,7 +642,7 @@
 ### [Начало работы с Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Установка представителя в подписи к статусу](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Интеграция электронных историй болезни в Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Характеристики интерфейса DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Характеристики интерфейса STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
