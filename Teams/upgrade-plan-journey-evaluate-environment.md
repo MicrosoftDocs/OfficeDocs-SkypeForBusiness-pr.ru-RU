@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca5d06bc4f7947a55c1867c9fab68810713059e
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4193c6de078b196c2d34ffe098f542918d0059ad
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494612"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198487"
 ---
 ![Обновление схемы поездки с акцентом на этапе технической подготовки] (media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
@@ -138,15 +138,12 @@ ms.locfileid: "34494612"
 > | Как будут (или как это сделать) пользователи в области для миграции <br>доступ к Teams, когда они находятся в Office? <br/>Выберите все подходящую силу. | <input type="checkbox">Маршрутизируемое подключение NAT <br/> <input type="checkbox">Прокси-сервер <br/> <input type="checkbox">Общедоступный Wi-Fi <br/> <input type="checkbox">Управляемый (не общедоступный) Wi-Fi <br/> <input type="checkbox">ExpressRoute (пиринг Майкрософт) ||
 > | Если доступ к Office 365 осуществляется через прокси-сервер, есть ли у вас <br>как обойти прокси-сервер? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 > | Используется ли сейчас ExpressRoute? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет <br/> <input type="checkbox">Нет, но запланировано | |
-> | Выполнили ли вы оценку готовности к сети? <br/>Дополнительные сведения можно найти в разделе [Оценка готовности сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Выполнили ли вы оценку готовности к сети? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 > | Пользователи должны использовать VPN при подключении к <br>корпоративные ресурсы удаленно? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 > | При использовании VPN можно исключить трафик группы из <br>VPN для доступа к службам Office 365 напрямую? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 > | Поддерживает ли ваша сеть качество обслуживания (QoS)? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 > | Можно назначать приоритеты для звуковых и видеофайлов в Teams <br>для обеспечения высокого качества работы? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 > | Все расположения в регионе имеют интернет-выхода, <br>или это Интернет-выхода, централизованно для всего региона? | <input type="checkbox">Региональный доступ к Интернету <br/> <input type="checkbox">Централизованный доступ к Интернету | |
-
-> [!TIP]
-> Чтобы вычислить пропускную способность и другие требования к сети для облачного развертывания в облаке, в зависимости от сведений о вашей организации и предполагаемого использования посетите [планировщик сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) в [мядвисор](https://myadvisor.fasttrack.microsoft.com/).
 
 ## <a name="endpoints"></a>Конечные точки
 

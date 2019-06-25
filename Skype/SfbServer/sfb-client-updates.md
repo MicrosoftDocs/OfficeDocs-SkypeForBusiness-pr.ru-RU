@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Ссылки для ИТ-специалистов на сведения о последних обновлениях бессрочных лицензий для клиентов Skype для бизнеса 2016, Skype для бизнеса 2015 и Lync 2013
-ms.openlocfilehash: 2de8e4a1b27388e6951aa1fb3cf0380b6173fa45
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ee633bf9aa35d79c6db83371a47a948da6e6bd3
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294567"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204023"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Последние обновления версий Skype для бизнеса, в которых используется установщик Windows (MSI)
 
@@ -42,6 +42,8 @@ ms.locfileid: "34294567"
 
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:---  |:---  |:---  |
+|Обновление для Skype для бизнеса 2016 |[KB 4464576](https://support.microsoft.com/kb/4464576) | Июнь 2019|
+|Обновление для Skype для бизнеса 2016 |[KB 4464532](https://support.microsoft.com/kb/4464532) | 2019 мая|
 |Обновление для Skype для бизнеса 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | Апрель 2019|
 |Обновление для Skype для бизнеса 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | Март 2019|
 |Обновление для Skype для бизнеса 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | Февраль 2019 г.|

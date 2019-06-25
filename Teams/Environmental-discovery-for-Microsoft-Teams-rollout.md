@@ -1,12 +1,12 @@
 ---
-title: Группами Майкрософт |  Оценка среды | Внедрения обнаружения
+title: Microsoft Teams |  Оценка среды | Внедрение, обнаружение
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Порядок выполнения подробные окружающей среды обнаружения во время планирования поездке из Скайп для бизнеса для групп Майкрософт.
+description: Как выполнить подробное обнаружение окружающей среды, как вы планируете путешествие из Skype для бизнеса в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,36 +14,36 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65da6bfa0ec87534d39e1665079f991e8c92aaa9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6af082de468623150b1f66aa05767eaa8091cb14
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32181430"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198303"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды развертывания групп Майкрософт
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды для выпуска Microsoft Teams
 ===================================================
 
-Обнаружение — это один из очень во-первых, ключевые действия, которые предпринять при планировании для поездке группам Microsoft.
+Обнаружение — это один из самых первых, ключевых шагов, которые вы собираетесь планировать в Microsoft Teams.
 
-Выполнение подробного обнаружения среды, чтобы лучше понять текущего состояния и Показать возникли проблемы или — дополнительную — возможные препятствием для выполнения процесса развертывания групп.
+Вы выполняете подробное обнаружение среды, чтобы лучше понять ее текущее состояние и выявить все проблемы или (даже еще дальше), которые могут быть заблокированы для выполнения выпуска Teams.
 
 <a name="discovery-questionnaire"></a>Вопросник для анализа
 =======================
 
-Пример анкеты ниже описывается ряд вопросов, чтобы убедиться в том, что ваша организация готова для успешного развертывания аудио конференц-связи и телефонной системой с возможностями вызов планы в группах.
+В приведенном ниже примере анкеты вы можете узнать, как убедиться, что ваша организация готова к успешному развертыванию голосовой конференции и телефонной системы с возможностями планов звонков в Teams.
 
-Все вопросы, связанные с вашей существующей инфраструктуре совместной работы и клиента Office 365, сети, конечные точки, операций и внедрения и проверки готовности к являются частью анкеты обнаружения окружающей среды.
+Все, что связано с существующей инфраструктурой совместной работы и клиентами Office 365, сетевыми, конечными точками, операциями, а также внедрением и готовностьм, входят в состав анкеты для обнаружения окружающей среды.
 
-Анкеты делится на несколько разделов, чтобы подтвердить готовность своей организации для развертывания группы в несколько основных областей. Работа с рабочую группу проекта запрошенные сведения с подробности минимально необходимое для облегчения планирования действий.
+Анкета делится на несколько разделов, чтобы подтвердить готовность Организации к развертыванию Teams в нескольких основных областях. Вы можете работать с вашей командой проекта, чтобы предоставить запрашиваемые сведения как можно более детально, чтобы упростить планирование.
 
 > [!TIP]
-> Можно начать, скопировав анкеты в документе Microsoft Word. Попробуйте ответить на все вопросы и записать все сведения, при перемещении по.
+> Вы можете начать с копирования анкеты в документ Microsoft Word. Попробуйте ответить на все вопросы и захватить все детали по мере их перемещения.
 
-<a name="project-team"></a>Группы проекта
+<a name="project-team"></a>Группа проекта
 ---
 
-Capture подробные сведения о ключевых заинтересованных лиц проекта развертывания групп. Обратите внимание, что человек воспроизвести несколько ролей в проекте.
+Запишите подробные сведения о ключевых заинтересованных лицах проекта выпуска Teams. Обратите внимание, что один человек может играть несколько ролей в рамках проекта.
 
 > | Должность | Имя, адрес электронной почты, номер телефона | Расположение, часовой пояс | Комментарии |
 > |---|---|---|---|
@@ -62,141 +62,138 @@ Capture подробные сведения о ключевых заинтере
 > | Владелец службы | | | |
 > | Руководитель по обслуживанию помещений | | | |
 > | Руководитель команды по работе с видео | | | |
-> | Ведущие сотрудники подразделений | | | |
+> | Руководители филиалов | | | |
 
-<a name="office-365-tenant-details"></a>Сведения о клиента Office 365
+<a name="office-365-tenant-details"></a>Сведения о клиенте Office 365
 ---
 
-Мы настоятельно рекомендуем, что у вас есть active клиента Office 365 при работе с этой анкеты. Еще не активирован или еще не настроен клиента Office 365, в статье [Планирование настройки Office 365 для бизнеса](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+Мы настоятельно рекомендуем, чтобы у вас был активный клиент Office 365 при работе с этой анкетой. Если вы еще не активировали клиент Office 365 и не настроили его, ознакомьтесь [с Разпланированием настройки Office 365 для бизнеса](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Используйте следующую таблицу для записи сведений о клиента Office 365.
+В следующей таблице собраны сведения о клиенте Office 365.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Обратите внимание, клиент рабочей Office 365 <br>имя и идентификатор в столбце ответов <br/>Если имеется более одного клиента <br>связанный с вашей организации <br>Обратите внимание, все идентификаторы. | Имя клиента: <br/>Идентификатор клиента:| |
-> | Какие регионов развернуты клиенты?| | |
-> | Являются этих клиентов Office 365 сред или <br>Выделенные? | <input type="checkbox">Сред<br/> <input type="checkbox">Выделенные | |
-> | Какие продукты Microsoft Online вы используете сейчас? <br/>Обратите внимание на число пользователей, включенных в каждый <br>службы в столбце примечания. | <input type="checkbox">Группами Майкрософт <br/> <input type="checkbox">Скайп для бизнеса <br>&nbsp; &nbsp; &nbsp;В Интернете <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive для бизнеса <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Другие| |
-> | К какому уровню лицензии включен для Скайп для <br>Бизнес-пользователи Online? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 | Число пользователей <br>для каждого SKU: |
-> | Что такое текущего леса Active Directory <br>функциональный уровень в среде? <br/>При наличии более одного леса, запишите подробные сведения <br>в столбце примечания. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 г. <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
-> | Что вы используете для каталога <br>Синхронизация сегодня? |<input type="checkbox">Без синхронизации (только облако) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Подключения <br/> <input type="checkbox">Другие (указание в <br>&nbsp;&nbsp; &nbsp;Столбца комментарии.)| |
-> | Развернуто ли сейчас федеративное удостоверение <br/>(Служб федерации active Directory или <br>сторонних производителей) | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Если вы используете федеративных удостоверений, что такое <br>Инфраструктура федерации? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Службы федерации Active Directory Windows 2012 г. <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Федерация сторонних производителей <br>&nbsp;&nbsp; &nbsp;шлюза <br>&nbsp;&nbsp; &nbsp;(Обратите внимание на то подробных сведений в <br>&nbsp;&nbsp; &nbsp;Столбца комментарии.) | |
-> | Если в настоящее время Ведение active Office 365 <br>клиентов, — это SMTP или SIP-домена из вашего <br>конечных пользователей, связанных с клиента? | <input type="checkbox">Н/д – нет Office 365 <br>&nbsp;&nbsp; &nbsp;клиента на месте <br/> <input type="checkbox">Нет, пользователей SMTP или SIP <br>&nbsp;&nbsp; &nbsp;домена, не сопоставленный <br>&nbsp;&nbsp; &nbsp;с любого клиентами в <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Да, пользователей SMTP или SIP <br>&nbsp;&nbsp; &nbsp;связан домена <br>&nbsp;&nbsp; &nbsp;с существующего клиента <br>&nbsp;&nbsp; &nbsp;в Office 365 | |
-> | UPN пользователя соответствует основной SMTP-адрес? | <input type="checkbox">Да <br/> <input type="checkbox">Нет <br/> <input type="checkbox">Несогласованно | |
+> | Примечание к рабочему клиенту Office 365 <br>имя и идентификатор в столбце Answer (ответ) <br/>Если у вас больше одного клиента <br>связанных с вашей организацией, <br>Запишите все идентификаторы. | Имя клиента: <br/>Идентификатор клиента:| |
+> | В каких регионах развернутые клиенты?| | |
+> | Клиенты Office 365, многоклиентские или <br>Балансировщика? | <input type="checkbox">Многоклиентский<br/> <input type="checkbox">Балансировщика | |
+> | Какие продукты Microsoft Online вы используете сейчас? <br/>Обратите внимание на количество пользователей, включенных для каждого из них. <br>"служба" в столбце "Примечания". | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype для бизнеса <br>&nbsp; &nbsp; &nbsp;В Интернете <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive для бизнеса <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Другие| |
+> | Какой уровень лицензирования включен для Skype для <br>Пользователи из сферы бизнеса Online? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 | Количество пользователей <br>для каждого SKU выполните указанные ниже действия. |
+> | Что такое текущий лес Active Directory <br>функциональный уровень в среде? <br/>Если у вас несколько лесов, обратите внимание на эти сведения <br>в столбце Примечания. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
+> | Что вы используете для работы с каталогом <br>Синхронизация сегодня |<input type="checkbox">Нет синхронизации (только в облаке) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Подключение <br/> <input type="checkbox">Другое (укажите в поле <br>&nbsp;&nbsp; &nbsp;| |
+> | Развернуто ли сейчас федеративное удостоверение <br/>(Службы федерации Active Directory или <br>третьих сторон) | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Если вы используете федеративное удостоверение, что такое <br>инфраструктура Федерации? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Сторонняя Федерация <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; (Обратите внимание на &nbsp;сведения в <br>&nbsp;&nbsp; &nbsp; | |
+> | Если в настоящее время поддерживается активный Office 365 <br>Клиент — домен SMTP/SIP для вашего <br>Целевые пользователи, связанные с клиентом? | <input type="checkbox">Н/д – без Office 365 <br>&nbsp;&nbsp; &nbsp;расположении <br/> <input type="checkbox">Нет, SMTP и SIP пользователя <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Да, SMTP и SIP пользователя <br>&nbsp;&nbsp; &nbsp;домен сопоставлен <br>&nbsp;&nbsp; &nbsp; <br>&nbsp;&nbsp; &nbsp; | |
+> | Совпадают ли UPN пользователей с основным SMTP-адресом? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет <br/> <input type="checkbox">Нестабильно | |
 
-<a name="existing-collaboration-platform-summary"></a>Существующие сводки платформу совместной работы
+<a name="existing-collaboration-platform-summary"></a>Существующая общая платформа для совместной работы
 ---
 
-Используйте следующую таблицу для записи сведений о существующего развертывания платформу совместной работы.
+В следующей таблице собраны сведения о существующем развертывании платформы совместной работы.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Развернута ли система Microsoft Teams? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Развернута ли система Skype для бизнеса? <br/>Для локального и гибридного развертываний, убедитесь, что <br>Обратите внимание, версии и накопительным пакетом обновления (CU) <br>сведения в столбце примечания. | <input type="checkbox">Да, Office 365 <br/> <input type="checkbox">Да, гибридное (с Office 365) <br/> <input type="checkbox">Да, локальные <br/> <input type="checkbox">Да, через Интернет, выделенного <br>&nbsp;&nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox">Да, размещенная среда, выделенные <br>&nbsp;&nbsp; &nbsp;(третья сторона) <br/> <input type="checkbox">Да, размещенной на серверах общих (третья сторона) <br/> <input type="checkbox">Нет, другие | |
-> | Развернута ли система Microsoft Exchange? <br/>Для локального и гибридного развертываний, убедитесь, что <br>Обратите внимание, версии и текущую подробных сведений в комментарии <br>столбец. | <input type="checkbox">Да, Office 365 <br/> <input type="checkbox">Да, гибридное (с Office 365) <br/> <input type="checkbox">Да, локальные <br/> <input type="checkbox">Да, через Интернет, выделенного <br>&nbsp;&nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox">Да, размещенная среда, выделенные <br>&nbsp;&nbsp; &nbsp;(третья сторона) <br/> <input type="checkbox">Да, размещенная среда, общих <br>&nbsp;&nbsp; &nbsp;(третья сторона) <br/> <input type="checkbox">Нет, другие | |
-> | Развернута ли система SharePoint? <br/>Для локального и гибридного развертываний, убедитесь, что <br>Обратите внимание, версии и текущую подробных сведений в комментарии <br>столбец. | <input type="checkbox">Да, Office 365 <br/> <input type="checkbox">Да, гибридное (с Office 365) <br/> <input type="checkbox">Да, локальные <br/> <input type="checkbox">Да, через Интернет, выделенного <br>&nbsp;&nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox">Да, размещенная среда, выделенные <br>&nbsp;&nbsp; &nbsp;(третья сторона) <br/> <input type="checkbox">Да, размещенная среда, общих <br>&nbsp;&nbsp; &nbsp;(третья сторона) <br/> <input type="checkbox">Нет, другие | |
-> | Такое Office 365 OneDrive для бизнеса развертывания? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | У вас есть другой платформы сторонних производителей развернут <br>и сегодня используется? Если это так, обратите внимание на число пользователей <br>Эти платформы и сведений об использовании в комментариях <br>столбец. | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">Временной резерв <br/> <input type="checkbox">Другие (указать в комментариях <br>&nbsp;&nbsp; &nbsp;столбца.) | Число пользователей: <br/>Сведения о:|
-> | Если планируется переместить пользователей из этих сторонних производителей <br>Платформа для групп? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Что такое текущее решение телефонии и конференций <br>пользователей, которые находятся в области действия этой инициативы? | | |
-> | У вас есть [SBC для поддержки прямой маршрутизации](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) развернуты для вашего офисов, которые находятся в области действия этой инициативы? <br>Если Да, запишите подробные сведения в столбце примечания.| <input type="checkbox">Да <br/> <input type="checkbox">Нет ||
+> | Развернута ли система Microsoft Teams? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Развернута ли система Skype для бизнеса? <br/>Для локальных и гибридных развертываний убедитесь, что <br>Обратите внимание на версию и накопительное обновление (SP1). <br>сведения в столбце "Примечания". | <input type="checkbox">Да, Office 365 <br/> <input type="checkbox">Да, гибридная (с Office 365) <br/> <input type="checkbox">Да, в локальной среде <br/> <input type="checkbox">Да, в сети, выделено <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Да, размещено, выделено <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">"Да", "размещено", "общий" (третью сторона) <br/> <input type="checkbox">Нет, другие | |
+> | Развернута ли система Microsoft Exchange? <br/>Для локальных и гибридных развертываний убедитесь, что <br>Вы запомните сведения о версии и SP1 в примечаниях. <br>столбца. | <input type="checkbox">Да, Office 365 <br/> <input type="checkbox">Да, гибридная (с Office 365) <br/> <input type="checkbox">Да, в локальной среде <br/> <input type="checkbox">Да, в сети, выделено <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Да, размещено, выделено <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">"Да", "размещено", "Общие" <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Нет, другие | |
+> | Развернута ли система SharePoint? <br/>Для локальных и гибридных развертываний убедитесь, что <br>Вы запомните сведения о версии и SP1 в примечаниях. <br>столбца. | <input type="checkbox">Да, Office 365 <br/> <input type="checkbox">Да, гибридная (с Office 365) <br/> <input type="checkbox">Да, в локальной среде <br/> <input type="checkbox">Да, в сети, выделено <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Да, размещено, выделено <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">"Да", "размещено", "Общие" <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Нет, другие | |
+> | Развернут ли Office 365 OneDrive для бизнеса? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Развернуты ли другие платформы сторонних разработчиков <br>и используете сегодня? Если да, обратите внимание на количество пользователей <br>Эти платформы и сведения об использовании в примечаниях <br>столбца. | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">Имеющие <br/> <input type="checkbox">Другие (укажите в комментариях <br>&nbsp;&nbsp; &nbsp; | Количество пользователей: <br/>Сведения|
+> | Вы планируете переместить пользователей из этих сторонних <br>платформах для Teams? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Что такое текущее решение для телефонной связи и конференций <br>пользователей, которые находятся в области действия данной инициативы? | | |
+> | У вас есть [SBC, который поддерживает прямую маршрутизацию](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) , развернутую для Ваших офисов в рамках этой инициативы? <br>Если да, обратите внимание на сведения в столбце Примечания.| <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет ||
 
-<a name="collaboration-platform-deployment-details"></a>Сведения о развертывании платформу совместной работы
+<a name="collaboration-platform-deployment-details"></a>Сведения о развертывании платформы совместной работы
 ---
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (при наличии)
 
-Если это возможно, запись дополнительных сведений о развертывании группы с помощью образца таблицы ниже. Если еще не развернут групп, перейдите в этом разделе.
+Если применимо, запишите сведения о развертывании Teams с помощью примера в приведенной ниже таблице. Если вы еще не развернули команды, пропустите этот раздел.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Каким группам пользователей доступна система Teams? | <input type="checkbox">Все пользователи в организации <br/> <input type="checkbox">Конкретных пользователей/групп пользователей <br>&nbsp;&nbsp; &nbsp;(Укажите в столбце примечания) ||
-> | Какие функции группами и модальности используются? | <input type="checkbox">На основе канала бесед <br/> <input type="checkbox">Частной беседы <br/> <input type="checkbox">Доступ в качестве гостя <br/> <input type="checkbox">Канал собраний <br/> <input type="checkbox">Закрытый собраний <br/> <input type="checkbox">Закрытый вызова <br/> <input type="checkbox">Динамическая сеть канала meetup <br/> <input type="checkbox">Видео в собраниях <br/> <input type="checkbox">Совместное использование в собраниях экрана <br/> <input type="checkbox">Аудиоконференции <br/><input type="checkbox">Приложения (приложения)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"> Вкладок<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Программы-роботы <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Соединители<br><input type="checkbox">Интеграция хранения настраиваемых облако <br>&nbsp;&nbsp; &nbsp; (Поле, общего банка данных, ShareFile, Google диск) <br/> <input type="checkbox">Интеграция электронной почты канала <br/> <input type="checkbox">Другое (укажите в столбце примечания). | |
-> | Какие приложения вы развертывания для группы? | | |
-> | Блокировали ли вы какие-то конкретные возможности Teams? <br/>Если Да, запишите подробные сведения в столбце примечания. | <input type="checkbox">Да <br/> <input type="checkbox">Нет ||
-> | Какие используются клиенты Teams? | <input type="checkbox">Web <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Mac <br/> <input type="checkbox">операций ввода-вывода <br/> <input type="checkbox">Android (en) <br/> <input type="checkbox">Windows Mobile | |
-> | Кому разрешено создавать команды? | <input type="checkbox">Всем пользователям в организации <br>&nbsp;&nbsp; &nbsp;(Значение по умолчанию) <br/> <input type="checkbox">Конкретные пользователи <br>&nbsp;&nbsp; &nbsp;(Укажите в столбце примечания). | |
-> | Используете ли вы в Teams функции обеспечения безопасности и соответствия требованиям? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
+> | Каким группам пользователей доступна система Teams? | <input type="checkbox">Все пользователи в Организации <br/> <input type="checkbox">Конкретные пользователи и группы пользователей <br>&nbsp;&nbsp; (Укажите в столбце "Примечания &nbsp;") ||
+> | Какие функции Teams и модальностей используются? | <input type="checkbox">Беседы на основе канала <br/> <input type="checkbox">Закрытый чат <br/> <input type="checkbox">Гостевой доступ <br/> <input type="checkbox">Собрания канала <br/> <input type="checkbox">Личные собрания <br/> <input type="checkbox">Частный Звонок <br/> <input type="checkbox">Рекламный канал обсудим <br/> <input type="checkbox">Видео о собраниях <br/> <input type="checkbox">Демонстрация экрана в собраниях <br/> <input type="checkbox">Голосовые конференции <br/><input type="checkbox">Приложения (приложения)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Ботов &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Интеграция настраиваемого облачного хранилища <br>&nbsp;&nbsp; (Box, Dropbox, шарефиле, Google &nbsp; диск) <br/> <input type="checkbox">Интеграция с электронной почтой канала <br/> <input type="checkbox">Другие (укажите в столбце Примечания). | |
+> | Какие приложения вы развернули в Teams? | | |
+> | Блокировали ли вы какие-то конкретные возможности Teams? <br/>Если да, обратите внимание на сведения в столбце Примечания. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет ||
+> | Какие используются клиенты Teams? | <input type="checkbox">Сайта <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Макинтоша <br/> <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Windows Mobile | |
+> | Кому разрешено создавать команды? | <input type="checkbox">Все пользователи в Организации <br>&nbsp;&nbsp; (Это значение по умолчанию &nbsp;) <br/> <input type="checkbox">Определенные пользователи <br>&nbsp;&nbsp; (Укажите в столбце Примечания &nbsp;.) | |
+> | Используете ли вы в Teams функции обеспечения безопасности и соответствия требованиям? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 
 ### <a name="skype-for-business-online-if-applicable"></a>Skype для бизнеса Online (при наличии)
 
-Если это возможно, запись сведений о вашей Скайп для бизнеса в Интернет развертывания с помощью образца таблицы ниже. Если для бизнеса в Интернет развертывания еще не развернут Скайп, перейдите в этом разделе.
+Если применимо, запишите сведения о развертывании Skype для бизнеса Online с помощью примера в таблице ниже. Если вы еще не развернули развертывание Skype для бизнеса Online, пропустите этот раздел.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Какие типы пользователей, включены для Скайп <br>для бизнеса в Интернете? | <input type="checkbox">Все пользователи в организации <br/> <input type="checkbox">Конкретных пользователей/групп пользователей <br>&nbsp;&nbsp; &nbsp;(Укажите в столбце примечания) | |
-> | Какие модальностей и функции в настоящий момент <br>используется сегодня? | <input type="checkbox">Обмен мгновенными сообщениями и присутствия (обмен мгновенными Сообщениями/P)<br/> <input type="checkbox">Конференц-связи <br/> <input type="checkbox">Федерации <br/> <input type="checkbox">Запись собрания <br/> <input type="checkbox">Конференц-связи Microsoft звука <br/> <input type="checkbox">Аудиоконференции сторонних производителей <br>&nbsp;&nbsp; &nbsp;(Запишите подробные сведения в столбце примечания). <br/> <input type="checkbox">Тарифные планы (ранее — PSTN вызов) <br/> <input type="checkbox">Организационные автосекретари <br/> <input type="checkbox">Вызов очередей | |
-> | Вы специально заблокирован для любого Скайп <br>Business возможностей в Интернете? <br>Если Да, запишите подробные сведения в столбце примечания. | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Какой метод — это с помощью или планируется использовать для <br>подключение к телефонной системой (ранее — облако УАТС) <br>ТСОП? <br/>Выберите все подходящие варианты. | <input type="checkbox">Тарифные планы (ранее — PSTN вызов) <br/> <input type="checkbox">Подключение к ТСОП в локальной (использование существующих <br>&nbsp;&nbsp; &nbsp;Скайп для бизнеса 2015 или Lync Server 2013 <br>&nbsp;&nbsp; &nbsp;развертывания) <br/> <input type="checkbox">Подключение к локальной ТСОП (с помощью соединителя облако) | |
-> | Есть ли у вас телефонные номера, перенесенные в Майкрософт <br/>Это применимо для вызова планы и звука <br>Функции конференц-связи. | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
+> | Какие типы пользователей разрешены для Skype <br>для бизнеса Online? | <input type="checkbox">Все пользователи в Организации <br/> <input type="checkbox">Конкретные пользователи и группы пользователей <br>&nbsp;&nbsp; (Укажите в столбце "Примечания &nbsp;") | |
+> | Что в настоящее время модальностей и компоненты <br>используете сегодня? | <input type="checkbox">Обмен мгновенными сообщениями и присутствие (IM/P)<br/> <input type="checkbox">Невероятно <br/> <input type="checkbox">Федеративные <br/> <input type="checkbox">Запись собрания <br/> <input type="checkbox">Голосовая конференция Майкрософт <br/> <input type="checkbox">Голосовой Конференц-связь третьих лиц <br>&nbsp;&nbsp; (Обратите внимание на сведения в столбце Примечания &nbsp;.) <br/> <input type="checkbox">Планы звонков (ранее КОММУТИРУЕМых звонков) <br/> <input type="checkbox">Автоматические ассистенты Организации <br/> <input type="checkbox">Очереди звонков | |
+> | Вы специально заблокировали любые Skype для <br>Возможности для бизнеса Online <br>Если да, обратите внимание на сведения в столбце Примечания. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Какой метод вы используете или планируете использовать для <br>Подключите телефонную систему (прежнее название — облачная УАТС) <br>сеть PSTN? <br/>Выберите все подходящую силу. | <input type="checkbox">Планы звонков (ранее КОММУТИРУЕМых звонков) <br/> <input type="checkbox">Локальная сеть PSTN (использование существующих <br>&nbsp;&nbsp; Skype для бизнеса 2015 или Lync &nbsp;Server 2013 <br>&nbsp;&nbsp; &nbsp;развертывание) <br/> <input type="checkbox">Локальная сеть PSTN (использование облачного соединителя) | |
+> | Есть ли у вас телефонные номера, перенесенные в Майкрософт <br/>Это применимо к тарифным планам и звуку <br>Функции Конференции. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 
-### <a name="skype-for-business-on-premises-if-applicable"></a>Скайп для бизнеса в локальной (если применимо)
+### <a name="skype-for-business-on-premises-if-applicable"></a>Локальная среда Skype для бизнеса (если применимо)
 
-Если это возможно, запись сведений о вашей Скайп по развертыванию с помощью образца таблицы ниже. Если для бизнеса в локальной еще не развернут Скайп, перейдите в этом разделе.
+Если применимо, запишите сведения о развертывании Skype для бизнеса с помощью примера в приведенной ниже таблице. Если вы еще не развернули локальную версию Skype для бизнеса, пропустите этот раздел.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Какие версии Lync или Скайп для бизнеса в настоящее время <br>Существуют развертываются локально? | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Скайп для Business Server 2015 <br/> <input type="checkbox">Скайп для Business Server 2019 <br/><input type="checkbox">Скайп облаке соединитель для выпуска для бизнеса | |
-> | Настроено ли гибридное подключение со Skype для бизнеса Online? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Эта среда размещенных и управляется сторонних производителей? <br/>Если Да, запишите подробные сведения в столбце примечания. | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Функции и модальности Каковы в настоящее время используется <br>прямо сейчас? | <input type="checkbox">Обмен мгновенными сообщениями и присутствия (обмен мгновенными Сообщениями/P) <br/> <input type="checkbox">Конференц-связи <br/> <input type="checkbox">Федерации <br/> <input type="checkbox">Запись собрания <br/> <input type="checkbox">Сохраняемый чат и групп чата <br/> <input type="checkbox">Конференц-связи Microsoft звука <br>&nbsp;&nbsp; &nbsp;(ранее — абонентской группы в конференц-связи) в вашей <br>&nbsp;&nbsp; &nbsp;локальной Lync Server или <br>&nbsp;&nbsp; &nbsp;Скайп по развертыванию <br/> <input type="checkbox">Аудиоконференции сторонних производителей <br>&nbsp;&nbsp; &nbsp;(Обратите внимание, Дополнительные сведения в столбце примечания) <br/> <input type="checkbox">Корпоративной голосовой связи используются локальные ТСОП <br>&nbsp;&nbsp; &nbsp;подключения <br/> <input type="checkbox">Тарифные планы (ранее — PSTN вызова) с помощью <br>&nbsp;&nbsp; &nbsp;Гибридное развертывание с Скайп для бизнеса в Интернете | |
-> | Какие у вас развернуты версии пограничного сервера? | <input type="checkbox">Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Скайп для Business Server 2015 <br/> <input type="checkbox">Скайп для Business Server 2019| |
-> | У вас Lync или Скайп для развертывания пограничного сервера Business <br>в нескольких центрах обработки данных? <br/>Если Да, запишите подробные сведения в столбце примечания. | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Выберите службы, которые сегодня предоставляет вашей роли пограничного сервера. | <input type="checkbox">Доступ внешних пользователей (корпоративные пользователи). <br/> <input type="checkbox">Доступ удаленных пользователей (анонимных внешний <br>&nbsp;&nbsp; &nbsp;участникам собрания) <br/> <input type="checkbox">Федерации <br/> <input type="checkbox">Ретрансляция мультимедиа | |
-> | Какой из следующих голосовой связи, функции для звонков вы <br>в настоящее время имеют зависимости от? <br/>Обратите внимание, любые дополнительные зависимости в комментариях <br>столбец. | <input type="checkbox">Параметры «занят» <br/> <input type="checkbox">Парковка вызовов <br/> <input type="checkbox">Вызов раскладки или раскладки групповой звонок <br/> <input type="checkbox">Телефонов общего пользования или «горячего desking» <br/> <input type="checkbox">Сервисные группы или группы ответа <br/> <input type="checkbox">Внешний вид общей строки <br/> <input type="checkbox">Частная линия <br/> <input type="checkbox">Голосовая почта <br/> <input type="checkbox">Вызов с рабочего телефона <br/> <input type="checkbox">EMERGENCY или сведения о чисел <br>&nbsp;&nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox">Расширение набора номера <br/> <input type="checkbox">Автосекретарь <br/> <input type="checkbox">Абонентский доступ <br/> <input type="checkbox">Аналоговых устройств <br/> <input type="checkbox">Факс <br/> <input type="checkbox">Режим маски идентификатор звонящего или изменения <br/> <input type="checkbox">Маршрутизация на основе расположения <br/> <input type="checkbox">Маршрутизация по принципу наименьшей стоимости <br/> <input type="checkbox">Телефоны лифта | |
+> | Какие версии Lync и Skype для бизнеса в настоящее время <br>развернуты в локальной среде? | <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype для бизнеса Server 2015 <br/> <input type="checkbox">Skype для бизнеса Server 2019 <br/><input type="checkbox">Skype для бизнеса Cloud Connector Edition | |
+> | Настроено ли гибридное подключение со Skype для бизнеса Online? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Размещается ли эта среда и управляется третьими лицами? <br/>Если да, обратите внимание на сведения в столбце Примечания. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Какие модальностей и функции в настоящее время используются <br>современного? | <input type="checkbox">Обмен мгновенными сообщениями и присутствие (IM/P) <br/> <input type="checkbox">Невероятно <br/> <input type="checkbox">Федеративные <br/> <input type="checkbox">Запись собрания <br/> <input type="checkbox">Сохраняемый чат или групповой чат <br/> <input type="checkbox">Голосовая конференция Майкрософт <br>&nbsp;&nbsp; (ранее в конференц-связи) &nbsp;на вашем <br>&nbsp;&nbsp; &nbsp;Server или <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Голосовой Конференц-связь третьих лиц <br>&nbsp;&nbsp; (Обратите внимание на сведения в столбце Примечания &nbsp;). <br/> <input type="checkbox">Корпоративная голосовая связь с использованием локальной сети PSTN <br>&nbsp;&nbsp; &nbsp;подключение <br/> <input type="checkbox">Планы звонков (ранее КОММУТИРУЕМых звонков) через <br>&nbsp;&nbsp; Гибридная работа в Skype для &nbsp;бизнеса Online | |
+> | Какие у вас развернуты версии пограничного сервера? | <input type="checkbox">Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype для бизнеса Server 2015 <br/> <input type="checkbox">Skype для бизнеса Server 2019| |
+> | Развертывание Lync или Skype для бизнеса Edge <br>в более чем один центр обработки данных? <br/>Если да, обратите внимание на сведения в столбце Примечания. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Выберите службы, которые ваша роль пограничного пользователя предоставляет сегодня. | <input type="checkbox">Внешний доступ для пользователей (корпоративные пользователи) <br/> <input type="checkbox">Удаленный доступ пользователя (анонимный внешний <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Федеративные <br/> <input type="checkbox">Ретрансляция мультимедиа | |
+> | Какие из приведенных ниже функций голосовой связи можно использовать для звонков <br>Сейчас есть зависимости? <br/>Запишите все дополнительные зависимости в примечаниях. <br>столбца. | <input type="checkbox">Параметры занятости <br/> <input type="checkbox">Метод парковки <br/> <input type="checkbox">Отправка звонка или группового звонка <br/> <input type="checkbox">Обычные телефоны или "горячий стационарный" <br/> <input type="checkbox">Группы ответа или группы слежения <br/> <input type="checkbox">Вид общей линии <br/> <input type="checkbox">Частная линия <br/> <input type="checkbox">Голосовую почту <br/> <input type="checkbox">Звонок с помощью рабочих <br/> <input type="checkbox">Экстренные и информационные номера <br>&nbsp;&nbsp; (911, 811, &nbsp;411) <br/> <input type="checkbox">Добавочный набор номера <br/> <input type="checkbox">Автоматический секретарь <br/> <input type="checkbox">Абонентский доступ <br/> <input type="checkbox">Аналоговые устройства <br/> <input type="checkbox">Сообщений <br/> <input type="checkbox">Маскирование и изменение идентификатора вызывающего абонента <br/> <input type="checkbox">Маршрутизация на основе местоположения <br/> <input type="checkbox">Маршрутизация наименее затрат <br/> <input type="checkbox">Подъемные телефоны | |
 
-<a name="networking-and-access-to-office-365-services"></a>Сети и доступ к службам Office 365
+<a name="networking-and-access-to-office-365-services"></a>Работа с сетями и доступ к службам Office 365
 ---
 
-Используйте следующую таблицу для записи сведений о сети вашей организации и как они (или будет), подключенных к службам Office 365.
+В таблице ниже приведены сведения о том, как получить доступ к данным о сети организации, а также о том, как ваши пользователи будут подключены к службам Office 365.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Как (или как будет) пользователи в области действия для миграции <br>доступ к группам, находясь в офисе? <br/>Выберите все подходящие варианты. | <input type="checkbox">Подключение с маршрутизацией преобразования сетевых адресов <br/> <input type="checkbox">Прокси-сервер <br/> <input type="checkbox">Общедоступный Wi-Fi <br/> <input type="checkbox">Управляемые (не для общих) Wi-Fi <br/> <input type="checkbox">ExpressRoute (Microsoft авторами) ||
-> | Если доступ к Office 365 через прокси-сервер, существует ли <br>никаких уведомлений для обхода прокси-сервера? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Используется ли сейчас ExpressRoute? | <input type="checkbox">Да <br/> <input type="checkbox">Нет <br/> <input type="checkbox">Нет, но является планируемый | |
-> | Была выполнена оценка готовности сети? <br/>Для получения дополнительных сведений см [Оценки готовности сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Пользователей, необходимо выполнить для использования виртуальной частной сети при подключении к <br>корпоративные ресурсы удаленно? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | При использовании VPN трафик команды исключаются из <br>VPN-Подключение прямой доступ к службам Office 365? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Поддерживает ли ваша сеть качество обслуживания (QoS)? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Можно приоритеты для трафика аудио- и видеоконференций групп <br>диск высокое качество взаимодействия? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Должны ли все расположения в области исходящего трафика Интернета <br>или для всей области централизовано исходящего трафика Интернета? | <input type="checkbox">Региональные доступ к Интернету <br/> <input type="checkbox">Централизованный доступ к Интернету | |
-
-> [!TIP]
-> Вычислите объем пропускной способности и другие требования к сети для голосовой почты облачных развертывания, в зависимости от сведений о вашей организации и Оценка использования посетите [Планировщик работы сети](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) в [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
+> | Как будут (или как это сделать) пользователи в области для миграции <br>доступ к Teams, когда они находятся в Office? <br/>Выберите все подходящую силу. | <input type="checkbox">Маршрутизируемое подключение NAT <br/> <input type="checkbox">Прокси-сервер <br/> <input type="checkbox">Общедоступный Wi-Fi <br/> <input type="checkbox">Управляемый (не общедоступный) Wi-Fi <br/> <input type="checkbox">ExpressRoute (пиринг Майкрософт) ||
+> | Если доступ к Office 365 осуществляется через прокси-сервер, есть ли у вас <br>как обойти прокси-сервер? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Используется ли сейчас ExpressRoute? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет <br/> <input type="checkbox">Нет, но запланировано | |
+> | Выполнили ли вы оценку готовности к сети? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Пользователи должны использовать VPN при подключении к <br>корпоративные ресурсы удаленно? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | При использовании VPN можно исключить трафик группы из <br>VPN для доступа к службам Office 365 напрямую? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Поддерживает ли ваша сеть качество обслуживания (QoS)? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Можно назначать приоритеты для звуковых и видеофайлов в Teams <br>для обеспечения высокого качества работы? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Все расположения в регионе имеют интернет-выхода, <br>или это Интернет-выхода, централизованно для всего региона? | <input type="checkbox">Региональный доступ к Интернету <br/> <input type="checkbox">Централизованный доступ к Интернету | |
 
 <a name="endpoints"></a>Конечные точки
 ---
 
-Используйте следующую таблицу для записи сведений о клиентами и конечными точками использования.
+Чтобы получить сведения о клиентах и конечных точках, используйте следующую таблицу.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (задать версию в столбце примечания). <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
-> | Развертывание версии системы Microsoft Office <br>для этих устройств? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office для Mac 2011 г. <br/> <input type="checkbox">Office для Mac 2016 <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
-> | Какие технологии развертывания Office уже используется <br>в вашей организации? | <input type="checkbox">MSI <br/> <input type="checkbox">Click-to-Run | |
-> | Что такое разрешенных и поддерживаемых мобильных устройств <br>Платформа используется? <br/>Выберите все подходящие варианты. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">операций ввода-вывода <br/> <input type="checkbox">Android (en) <br/> <input type="checkbox">Другие (запишите подробные сведения в столбце примечания). | |
-> | В какой форме предоставляются мобильные устройства <br/>Выберите все подходящие варианты. | <input type="checkbox">Корпоративный устройств <br/> <input type="checkbox">Использование собственного устройства | |
-> | Какие устройства ли пользователи в настоящее время используется для доступа к <br>службы голосовой связи и конференц-связи <br>(мобильные телефоны, гарнитуры, телефоны, видео)? | | |
+> | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (укажите версию в столбце "Примечания"). <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
+> | Какая версия Microsoft Office развернута <br>на эти устройства? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office для Mac 2011 <br/> <input type="checkbox">Office для Mac 2016 <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
+> | Какая технология развертывания Office используется <br>в вашей организации? | <input type="checkbox">УСТАНОВЩИКА <br/> <input type="checkbox">"Нажми и работай" | |
+> | Каковы разрешенные и поддерживаемые мобильные устройства <br>используются платформы? <br/>Выберите все подходящую силу. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
+> | В какой форме предоставляются мобильные устройства <br/>Выберите все подходящую силу. | <input type="checkbox">Корпоративные устройства <br/> <input type="checkbox">Перевод собственного устройства | |
+> | Устройства, используемые в настоящее время для доступа пользователей <br>Услуги голосовой связи и конференций <br>(трубки, гарнитуры, телефоны, видео) | | |
 
 <a name="operations"></a>Операции
 ---
 
-Используйте следующую таблицу для записи сведений о особенностей вашей среде.
+Ниже приведена таблица, в которой собраны сведения о рабочих аспектах среды.
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Что такое для Lync Server, модель операции <br>Скайп для развертывания Office 365 или Business Server <br>прямо сейчас? | | |
-> | Можно структурировать текущее расположение поддержки <br>Lync Server Скайп Business Server или Office 365? | | |
-> | При развертывании в нескольких странах или регионах <br>каждой страны или региона имеет свой собственный ИТ и телефонной связи <br>персонала для работы с, или это управляемые централизованно? | <input type="checkbox">Региональные операции и поддержка <br/> <input type="checkbox">Централизованная операции и поддержка | |
-> | Используете ли вы систему обеспечения качества связи Call Quality Methodology? | <input type="checkbox">Да <br/> <input type="checkbox">Нет | |
-> | Назначен физическим или группы <br>Качество Champion роли для платформа для совместной работы <br>используется? | <input type="checkbox">Да <br/> <input type="checkbox">Нет ||
-> | Как контролировать Lync Server, Скайп для <br>Business Server или Office 365 развертывания? | | |
-> | Испытываете ли вы проблемы с качеством звонков? | <input type="checkbox">Да<br/> <input type="checkbox">Нет | |
-> | Как и когда вы предоставляете учебного курса, чтобы вашей <br>Служба технической поддержки на новые службы и возможности? | | |
+> | Какова модель операций для вашего сервера Lync, <br>Skype для бизнеса Server или развертывание Office 365 <br>современного? | | |
+> | Вы можете структурировать текущее расположение для поддержки <br>Lync Server, Skype для бизнеса Server или Office 365? | | |
+> | Если вы развертываете в нескольких странах или регионах, <br>у каждой страны или региона есть своя собственная и телефонная связь <br>персонал для работы или будет централизованно управлять? | <input type="checkbox">Региональные операции и поддержка <br/> <input type="checkbox">Централизованные операции и поддержка | |
+> | Используете ли вы систему обеспечения качества связи Call Quality Methodology? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
+> | Вы назначили отдельного пользователя или группу <br>Роль лидера качества для платформы совместной работы <br>используется? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет ||
+> | Как отслеживать сервер Lync, Skype для <br>Бизнес-сервер или развертывание Office 365? | | |
+> | Испытываете ли вы проблемы с качеством звонков? | <input type="checkbox">Кнопки<br/> <input type="checkbox">Нет | |
+> | Как и когда вы предоставляете обучение <br>Служба поддержки по новым услугам и возможностям? | | |
 
-<a name="adoption-and-readiness"></a>Подготовка и внедрения
+<a name="adoption-and-readiness"></a>Внедрение и готовность
 ---
 
 Укажите в следующей таблице сведения о принятии системы персоналом и готовности вашей организации к ее использованию.
@@ -204,10 +201,10 @@ Capture подробные сведения о ключевых заинтере
 >
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Что такое текущего активного использования <br>Скайп для бизнеса? | **__** % всего активных пользователей и пользователей с включенной поддержкой | |
-> | Использовании вашей организации <br>Скайп для бизнеса? | Личные беседы <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Обмена мгновенными Сообщениями <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Вызова <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Общего доступа<br> Собрания <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Конференц-связи<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Общего доступа<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Вызова | |
-> | Есть ли у вашей организации внедрения пользователя <br>Управление изменениями рабочая группа и? | <input type="checkbox">Да<br/> <input type="checkbox">Нет | |
-> | Как вы в настоящее время успеха меру для технологии <br>развертывания как Скайп для бизнеса? | | |
-> | Какой процент базы пользователей вы сказали имеет <br>применяет Скайп для бизнеса? | | |
-> | Каково мнение пользователей о Skype для бизнеса? | <input type="checkbox">Хороший <br/> <input type="checkbox">Neutral <br/> <input type="checkbox">Недопустимый | |
-> | Следующие рекомендации, описывающего выгрузка данных <br>стратегия для вашей Скайп для бизнеса <br>развертывание? | <input type="checkbox">Широкой аудитории: электронной почты кампании с <br>&nbsp;&nbsp; &nbsp;ссылки на обучение <br/> <input type="checkbox">Расширенное: Широкой аудитории, а также различные <br>&nbsp;&nbsp; &nbsp;сведения о кампаний (плакаты, <br>&nbsp;&nbsp; &nbsp;событий, чемпионатов) и учебные курсы <br>&nbsp;&nbsp; &nbsp;(видеозаписи, руководства для пользователей, в лицо) <br/> <input type="checkbox">Настроенные: Развернут, а также нацелено <br>&nbsp;&nbsp; &nbsp;системы обмена сообщениями и обучающие материалы по пользователя <br/> <input type="checkbox">Другие <br>&nbsp;&nbsp; &nbsp;(Запишите подробные сведения в столбце примечания). | |
+> | Каково текущее активное использование <br>Skype для бизнеса? | Общее количество активных пользователей **__** % и включенных пользователей | |
+> | Как ваша организация использует <br>Skype для бизнеса? | Личные беседы <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> сообщениями <br>&nbsp;&nbsp; Звонки &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; Общий <input type="checkbox"> доступ<br> Собрания <br>&nbsp;&nbsp; Конференции &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; &nbsp; Общий <input type="checkbox"> доступ<br>&nbsp;&nbsp; Звонки &nbsp; <input type="checkbox"> | |
+> | В вашей организации есть внедрение пользователей <br>и изменить группу управления? | <input type="checkbox">Кнопки<br/> <input type="checkbox">Нет | |
+> | Как в настоящее время вы измеряете успешность технологии <br>разработано как Skype для бизнеса? | | |
+> | Какой процент от вашей пользовательской базы <br>принял (-а) Skype для бизнеса? | | |
+> | Каково мнение пользователей о Skype для бизнеса? | <input type="checkbox">Правильного <br/> <input type="checkbox">Нейтрал <br/> <input type="checkbox">Сбой | |
+> | Какое из приведенных ниже значений лучше описывает выпуск <br>стратегия, используемая в Skype для бизнеса <br>среде? | <input type="checkbox">Широкий доступ: кампания по электронной почте с <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Развернуто: широкий доступ плюс широкий спектр <br>&nbsp;&nbsp; число кампаний о осведомленности (плакатов &nbsp;, <br>&nbsp;&nbsp; события, лидерамиы) &nbsp;и обучение <br>&nbsp;&nbsp; (видео, руководства пользователя, в личном &nbsp;) <br/> <input type="checkbox">Адаптированные: развернутые, и целевые <br>&nbsp;&nbsp; обмен сообщениями и обучение по &nbsp;персонажам <br/> <input type="checkbox">Другие <br>&nbsp;&nbsp; (Обратите внимание на сведения в столбце Примечания &nbsp;.) | |

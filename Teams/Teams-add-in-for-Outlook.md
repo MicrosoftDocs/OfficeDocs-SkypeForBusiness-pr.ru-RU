@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 51d28bc5806aebdad1bb83bb08945f45d505cde9
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694749"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203936"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -32,7 +32,7 @@ ms.locfileid: "34694749"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Надстройка для собраний Teams в Outlook для Windows
 
-Надстройка "Собрание Teams" автоматически устанавливается для пользователей Windows, на компьютерах которых есть Microsoft Teams и Office 2013 либо Office 2016. Надстройка "Собрание Teams" отображается в ленте "Календарь Outlook".
+Надстройка для собраний Teams автоматически устанавливается для пользователей, у которых установлен Microsoft Teams и Office 2010, Office 2013 или Office 2016 на компьютере с Windows. Надстройка "Собрание Teams" отображается в ленте "Календарь Outlook".
 
 ![Снимок экрана: надстройка "собрание Teams" на ленте Outlook](media/Teams-add-in-for-Outlook.png)
 

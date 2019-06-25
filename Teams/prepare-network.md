@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330b62bc98d4a45d8d6902707dd2ebb9fd031913
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548280"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198423"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Подготовка сети организации к использованию Microsoft Teams
 
@@ -118,7 +118,7 @@ The content you will find below can be used as supplemental background informati
 |  |  |  |
 |---------|---------|---------|
 |![Значок, представляющий точку принятия решения](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Точка принятия решений         |Были ли вы оценены возможности сети для поддержки мультимедиа в реальном времени?<br></br>Если ваша сеть не была правильно оценена или вы знаете, что она не поддерживает носители в реальном времени, отключите функцию демонстрации видео и экрана, чтобы снизить влияние на работу сети и плохое взаимодействие с другими участниками команды.         |
-|![Значок, представляющий следующие шаги](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Дальнейшие действия         |Качество сети неизвестно: следуйте рекомендациям по [оценке готовности](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) сети, чтобы определить, готова ли ваша сеть к использованию мультимедиа в режиме реального времени.<br></br>Качество сети плохое: выполните действия по устранению неполадок сети, чтобы обеспечить правильную среду для высококачественного мультимедиа в режиме реального времени.<br></br>Удовлетворительная сеть: Убедитесь, что все IP-адреса и порты правильно доступны.           |
+|![Значок, представляющий следующие шаги](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Дальнейшие действия         |Качество сети неизвестно: Проведите оценку готовности сети, чтобы определить, готова ли ваша сеть к работе с мультимедиа в реальном времени.<br></br>Качество сети плохое: выполните действия по устранению неполадок сети, чтобы обеспечить правильную среду для высококачественного мультимедиа в режиме реального времени.<br></br>Удовлетворительная сеть: Убедитесь, что все IP-адреса и порты правильно доступны.           |
 
 ## <a name="related-topics"></a>Связанные разделы
 
