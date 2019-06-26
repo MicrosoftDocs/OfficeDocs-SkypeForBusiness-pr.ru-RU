@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Сведения о распространенных причинах ошибок входа в Skype для бизнеса Online и пошаговые инструкции по устранению этих проблем. '
-ms.openlocfilehash: 25f6c08392823c35e4bb5d53ac523c1efeddf958
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285037"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221494"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение проблем со входом в Skype для бизнеса Online для администраторов
 
@@ -50,7 +50,7 @@ ms.locfileid: "34285037"
 > 
 > [Использование руководства по устранению неполадок службы технической поддержки корпорации Майкрософт](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
 > 
-> [Сбор дополнительных сведений и обращение за помощью ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+> [Сбор дополнительных сведений и обращение за помощью](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Проверка распространенных причин ошибок входа в Skype для бизнеса Online
 <a name="toc323194094"> </a>
