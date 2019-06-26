@@ -16,17 +16,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748390"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221670"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
-
-## <a name="guest-access-overview"></a>Обзор гостевого доступа
 
 Гостевой доступ — это функция, о которой особенно часто просили наши клиенты. Вы можете отслеживать наш ход работы над гостевым доступом и сообщать свое мнение.
 
@@ -34,6 +32,8 @@ ms.locfileid: "34748390"
 - Узнавайте о новых и усовершенствованных функциях из [Стратегии развития Teams](https://aka.ms/teamsroadmap).
 - Сообщите, какие функции нужны вам, на сайте [UserVoice, посвященном Teams](https://aka.ms/TeamsUserVoice).
 - Поделитесь своим опытом в разделе комментариев ниже.
+
+## <a name="guest-access-overview"></a>Обзор гостевого доступа
 
 Гостевой доступ позволяет командам в вашей организации взаимодействовать с людьми, находящимися за пределами организации, предоставляя им доступ к существующим командам и каналам одного или нескольких клиентов. Любой пользователь с корпоративной или потребительской учетной записью Outlook, Gmail или других служб может участвовать в Teams в качестве гостя с полным доступом к командным чатам, собраниям и файлам.
 
@@ -59,7 +59,7 @@ ms.locfileid: "34748390"
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Дополнительные сведения
-    
+
 [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Гостевой доступ в Группах Office 365](https://support.office.com/ru-RU/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 

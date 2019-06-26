@@ -3,7 +3,7 @@ title: Известные проблемы для Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/10/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131434"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222079"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -216,6 +216,10 @@ ms.locfileid: "35131434"
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
 |Отличия интерфейса мобильного клиента Teams.  <br/> |В мобильном клиенте команды указаны в алфавитном порядке, а свертывание каналов недоступно.  <br/> |Обходной путь отсутствует.  <br/> |13.03.2017  <br/>|
+
+|**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
+|:-----|:-----|:-----|:-----|
+|Проблемы, которые могут возникать при использовании бета-версии iOS 13  <br/> |1. Не отправляются уведомления Teams.  Это относится к чатам, упоминаниям и звонкам.  2. Предварительный просмотр файла не поддерживается в бета-сборке.  <br/> |В настоящий момент решения этих проблем не существует.  Мы работаем с разработчиками Apple над исправлением этих проблем.  <br/> | 25.06.19  <br/>|
 
 
 ## <a name="people"></a>Люди

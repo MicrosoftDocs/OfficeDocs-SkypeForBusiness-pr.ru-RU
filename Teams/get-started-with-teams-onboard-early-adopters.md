@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245693"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221211"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение первых пользователей к Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "32245693"
 3. Запустите Teams после завершения установки.
 
 > [!NOTE]
-> Позднее, если вы планируете провести более формальное и массовое развертывание Teams в рамках всей организации, просмотрите видео [настольный клиент Teams для Windows](http://aka.ms/teams-clients), чтобы ознакомиться с процессом планирования и развертывания. 
+> Позднее, если вы планируете провести более формальное и массовое развертывание Teams в рамках всей организации, просмотрите видео [настольный клиент Teams для Windows](https://aka.ms/teams-clients), чтобы ознакомиться с процессом планирования и развертывания. 
 
 #### <a name="teams-for-mac"></a>Teams для Mac 
 Самый простой способ установки настольного клиента Mac:

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133862"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221985"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -29,7 +29,7 @@ ms.locfileid: "35133862"
 
 
 
-Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите, наше короткое видео "Добро пожаловать в Teams".
+Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите наше короткое видео "Добро пожаловать в Teams" (55 секунд).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
@@ -66,7 +66,7 @@ ms.locfileid: "35133862"
 Узнать о новых возможностях Teams и других продуктов и служб Office 365 в вашей организации можно в [Центре сообщений](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) и [Стратегии развития Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Вы будете получать оповещения о новых и обновленных функциях, планируемых изменениях и возможных проблемах, чтобы знать о них и быть готовыми заранее. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Переход со Skype для бизнеса на Teams
-Teams — основной клиент интеллектуальных коммуникаций в Office 365, который со временем заменит Skype для бизнеса Online. Для отслеживания новых функций в Teams см. [стратегию развития Microsoft 365](http://aka.ms/O365Roadmap). В дополнение к функциям сохраняемого чата и обмена сообщениями Teams предлагает комплексные возможности для звонков и собраний с полностью интегрированными средствами голосовой и видеосвязи. Читайте об этом в статье [Teams Is Now a Complete Meeting and Calling Solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) (Теперь Teams — это полноценное решение для звонков и собраний) в блоге Microsoft Teams.
+Teams — основной клиент интеллектуальных коммуникаций в Office 365, который со временем заменит Skype для бизнеса Online. Для отслеживания новых функций в Teams см. [стратегию развития Microsoft 365](https://aka.ms/O365Roadmap). В дополнение к функциям сохраняемого чата и обмена сообщениями Teams предлагает комплексные возможности для звонков и собраний с полностью интегрированными средствами голосовой и видеосвязи. Читайте об этом в статье [Teams Is Now a Complete Meeting and Calling Solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) (Теперь Teams — это полноценное решение для звонков и собраний) в блоге Microsoft Teams.
 
 Если вы пользуетесь Skype для бизнеса и готовы перейти на Teams или пользуетесь Skype для бизнеса и Teams одновременно и готовы перейти на Teams полностью, мы предложим инструменты, советы и рекомендации, которые помогут успешно выполнить переход. Дополнительные сведения см. в статье [Переход на Teams](journey-skypeforbusiness-teams.md).
 
