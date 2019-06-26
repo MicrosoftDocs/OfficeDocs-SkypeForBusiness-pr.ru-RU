@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198279"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222040"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Реализация качества обслуживания (QoS) в Microsoft Teams
 
@@ -180,9 +180,9 @@ _Рекомендуемые начальные диапазоны портов_
 
 3. Остановить запись.
 
-4. В поле **Фильтр отображения** используйте IP-адрес источника компьютера, который сделал звонок, а затем уточните фильтр, ОПРЕДЕЛИВ значение DSCP 46 (Hex 0xb8) в качестве условий поиска, как показано в следующем примере:
+4. В поле **Фильтр отображения** используйте IP-адрес источника компьютера, который сделал звонок, а затем уточните фильтр, ОПРЕДЕЛИВ значение DSCP 46 (Hex 0x2e) в качестве условий поиска, как показано в следующем примере:
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source = = "192.168.137.201" и IPv4. Дифферентиатедсервицесфиелд = = 0x2E
 
     ![Фильтры снимков экрана в диалоговом окне "фильтр отображения".] (media/Qos-in-Teams-Image4.png "Диалоговое окно «Фильтр отображения» в сетевом мониторе, в котором показаны применяемые фильтры.")
 

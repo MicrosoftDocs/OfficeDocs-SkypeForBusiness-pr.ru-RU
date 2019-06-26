@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Сведения о том, как развертывать комнаты Microsoft Teams с помощью Exchange Online, читайте в этой статье.
-ms.openlocfilehash: 86290bdc8b198af5e4d41b8b90bd588ade5494a5
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 74cff1934e47cc8f4a621ad380bfb8e48f311666
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591706"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221373"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание комнаты Microsoft Teams с Exchange Online
 
@@ -33,7 +33,10 @@ ms.locfileid: "34591706"
 
 Перед развертыванием комнат Microsoft Teams в Exchange Online убедитесь, что вы удовлетворены требованиями. Дополнительные сведения можно найти в разделе [требования к комнатам Microsoft Teams](requirements.md).
   
-Чтобы развернуть комнаты Microsoft Teams в Exchange Online, выполните указанные ниже действия. Убедитесь в том, что у вас есть необходимые разрешения для выполнения соответствующих командлетов.
+Чтобы развернуть комнаты Microsoft Teams в Exchange Online, выполните указанные ниже действия. Убедитесь в том, что у вас есть необходимые разрешения для выполнения соответствующих командлетов. 
+
+   > [!NOTE]
+   >  [Модуль Azure Active Directory для командлетов Windows PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) в этом разделе (например, Set-MsolUser) был протестирован в настройке учетных записей для устройств Microsoft Teams. Возможно, другие командлеты работают, но они не тестировались в этом конкретном сценарии.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Создание учетной записи и настройка свойств Exchange
 

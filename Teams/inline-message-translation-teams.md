@@ -1,9 +1,9 @@
 ---
-title: Использование встроенного перевода сообщений в Microsoft Teams
+title: Включение встроенного перевода сообщений в Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/30/2018
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,33 +18,32 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58e6fb04dd015e939125b75d604fe9692a32c0e2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dfd0582837b2e9c9859b44292255e5e42a2f35a4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222327"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222071"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a>Использование встроенного перевода сообщений в Microsoft Teams 
+<a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Включение встроенного перевода сообщений в Microsoft Teams 
 =================================================
 
 Встроенный перевод сообщений — это новая функция Microsoft Teams, позволяющая пользователям автоматически переводить сообщения Teams на [язык](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194), указанный в персональных настройках языка для Office 365.
 
-Встроенный перевод сообщений развертывается для вашей организации по умолчанию. Если требуется разрешить пользователям использовать этот компонент в клиенте групп, необходимо включить этот параметр.
+Встроенный перевод сообщений развертывается для вашей организации по умолчанию. Если вы хотите разрешить пользователям использовать эту функцию в клиенте Teams, необходимо включить этот параметр.
 
 > [!NOTE]
->В этом выгрузка данных исключается из подписки Office 365 в нашем в среде Office 365 облако сообщества госучреждений и Германия Office 365.
+>Этот выпуск исключен из подписок на Office 365 в облаке сообщества Office 365 для государственных организаций и Office 365 для Германии.
 
-## <a name="enable-by-using-powershell"></a>Включить с помощью PowerShell
+## <a name="use-powershell-to-turn-on-inline-message-translation"></a>Включение встроенного перевода сообщений с помощью PowerShell
 
-Встроенное средство перевода сообщения можно включить с помощью политики обмена сообщениями.
+Чтобы включить перевод встроенных сообщений, можно использовать политику сообщений.
 
-1. Включите политику с помощью командлета [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
-2. Политики занимает несколько минут, чтобы применить. Пользователям необходимо выйти и снова выполнить вход в группы.
+Включите политику с помощью командлета [Set-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) . Для применения политики требуется несколько минут. Пользователям может потребоваться выйти из Teams и войти в нее снова.
 
-## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Включить с помощью центра администрирования группами Майкрософт
+## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a>Включение встроенного перевода сообщений с помощью центра администрирования Microsoft Teams
 
-**Центр администрирования группами Майкрософт**выберите **Политики обмена сообщениями** в левой панели, затем либо создать новую политику или изменить существующую политику и установить для параметра **Разрешить пользователям включать поддержку для перевода сообщений** **на**.
+В **центре администрирования Microsoft Teams**выберите **политики обмена сообщениями** в левой области навигации, а затем создайте новую политику или измените существующую, а затем установите для параметра **Разрешить пользователей перевод сообщений** **на вкл**.
 
 > [!NOTE]
->Перевод выполняется службой и доставлено клиенту не оказывает влияния на содержимое, записываемые в записях соответствия требованиям. Чтобы узнать больше о перевода, обратитесь к разделу [возможности Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
+> Служба выполняет перевод и доставляет его клиенту без воздействия на содержимое, захваченное в записях соответствия требованиям. Чтобы узнать больше о переводе, ознакомьтесь со статьей [Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).

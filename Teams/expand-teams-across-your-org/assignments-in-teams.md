@@ -15,12 +15,12 @@ description: Сведения о том, как управлять задани�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131522"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221259"
 ---
 # <a name="assignments-in-teams-for-education"></a>Задания в Teams для образовательных учреждений
 
@@ -66,7 +66,7 @@ ms.locfileid: "35131522"
 Вот несколько инструкций, которые помогут вам получить эти сведения.
 
 Турнитинапиурл — адрес узла консоли администрирования.
-Образом. HTTPS:[]()//Your-tenant-Name.turnitin.com
+Образом. `https://your-tenant-name.turnitin.com`
 
 На консоли администрирования вы можете создать интеграцию и ключ API, связанный с интеграцией.
 

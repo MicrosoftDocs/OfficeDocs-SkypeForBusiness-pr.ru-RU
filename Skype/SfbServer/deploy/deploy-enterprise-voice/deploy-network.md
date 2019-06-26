@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создавайте и изменяйте сетевые регионы, сетевые сайты и свяжите сетевые подсети в Skype для бизнеса Server. Все они используются для расширенных функций голосовой связи для предприятий: обход мультимедиа, управление допуском звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291202"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221485"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание регионов сети, сайтов и подсетей в Skype для бизнеса
 
 Создавайте и изменяйте сетевые регионы, сетевые сайты и свяжите сетевые подсети в Skype для бизнеса Server. Все они используются для расширенных функций голосовой связи для предприятий: обход мультимедиа, управление допуском звонков и маршрутизация на основе местоположения.
 
-В расширенные функции корпоративной голосовой связи входят: [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Данные функции требуются для создания сетевых областей, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Дополнительные сведения об условиях см. в разделе [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Расширенная функция голосовой связи — [Управление допуском звонков](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [обход мультимедиа](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [Маршрутизация на основе местоположения](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)и [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Данные функции требуются для создания сетевых областей, сетевых сайтов и подсетей. Например, для всех этих функций требуется, чтобы каждая подсеть в топологии была связана с определенным сетевым сайтом, а каждый сетевой сайт должен быть связан с сетевой областью. Подробнее об этих терминах можно узнать в разделе [Параметры сети для дополнительных функций корпоративного голосовой связи в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 На контроль допуска звонков и E9-1-1 распространяются дополнительные требования относительно конфигурации для сетевых сайтов:
 

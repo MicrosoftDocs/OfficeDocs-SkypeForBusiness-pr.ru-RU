@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870e939602f5d954bfce64bc1f10d08838fc7c15
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d36116cad009e7207ff4bbfc5d5617e0a3eff434
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667411"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221068"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Обзор обеспечения безопасности и соответствия в Microsoft Teams
 ======================================================
@@ -130,7 +130,7 @@ Teams также принудительно применяет двухфакт�
 
 Для получения дополнительных сведений о Кель данных в Канаде для Teams, читайте в блоге Варун Сагар, [Microsoft Teams запускает в скором времени данные в Канаде, Кель, Австралии и Японии](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Чтобы узнать больше о запуске Австралии и Японии данных Кель для Teams, читайте в блоге Варун Сагар, [Microsoft Teams выпустит данные для Австралии и Японии Кель ](https://go.microsoft.com/fwlink/?linkid=867773). 
+Чтобы узнать больше о запуске Австралии и Японии данных Кель для Teams, читайте в блоге Варун Сагар, [Microsoft Teams выпустит данные для Австралии и Японии Кель](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Чтобы узнать больше о запуске Франции Data Кель для Teams, читайте в блоге Варун Сагар, в Microsoft Teams выводятся [данные для Франции Кель](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466).
 

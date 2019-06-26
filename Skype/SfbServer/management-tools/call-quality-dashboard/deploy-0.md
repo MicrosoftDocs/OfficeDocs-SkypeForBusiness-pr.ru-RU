@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Сводка: сведения о процессе развертывания для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 3cc3b81180453454f8615d31f57911c0958553c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274844"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221568"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Развертывание панели мониторинга качества звонков для Skype для бизнеса Server
  
@@ -140,7 +140,7 @@ ms.locfileid: "34274844"
 Главная страница портала доступна через `http://<machinename>/CQD`. 
 ## <a name="managing-user-access-for-the-portal"></a>Управление доступом пользователей к порталу
 
-Для управления авторизацией пользователей на портале рекомендуется использовать URL-авторизацию, которая была представлена в IIS 7,0. Дополнительные сведения о безопасности IIS можно найти в разделе [сведения об авторизации URL-адреса iis 7,0 ](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
+Для управления авторизацией пользователей на портале рекомендуется использовать URL-авторизацию, которая была представлена в IIS 7,0. Дополнительные сведения о безопасности IIS можно найти в разделе [сведения об авторизации URL-адреса iis 7,0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
   
 Любой веб-сайт или веб-приложение наследуют авторизацию URL-адреса по умолчанию, настроенную для всей службы IIS (обычно это разрешено для всех пользователей). Если доступ к порталу должен быть более строгим, администраторы могут предоставить доступ к определенной группе пользователей, изменив "правила авторизации".
   
@@ -233,7 +233,7 @@ ms.locfileid: "34274844"
   
 1. Настройка уровня Secure Sockets Layer в службах IIS: [Настройка уровня защищенных сокетов в службах IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). После этого замените `http` на `https`.
     
-2. Инструкции по включению TLS в подключениях SQL Server приведены [в разделе Включение шифрования SSL для экземпляра SQL Server с помощью консоли управления (Майкрософт ](https://support.microsoft.com/en-us/kb/316898/)).
+2. Инструкции по включению TLS в подключениях SQL Server приведены [в разделе Включение шифрования SSL для экземпляра SQL Server с помощью консоли управления (Майкрософт](https://support.microsoft.com/en-us/kb/316898/)).
     
 ## <a name="cube-sync-fails"></a>Не удается выполнить синхронизацию Куба
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681820"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221860"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -119,9 +119,9 @@ ms.locfileid: "34681820"
 |[Средства набора ресурсов Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |Январь 2014 г. |
 |[Средство тестирования нагрузки и производительности Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |Март 2013 г. |
 |[Средство просмотра заархивированного содержимого досок Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |Февраль 2013 г. |
-|[Подключаемый модуль инфраструктуры виртуальных рабочих столов (VDI) для Lync 2013 (32-разрядный) ](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |Октябрь 2012 г. |
-|[Подключаемый модуль инфраструктуры виртуальных рабочих столов (VDI) для Lync 2013 (32-разрядный) ](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |Октябрь 2012 г. |
-|[Новый набор элементов Visio для Office ](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |Июль 2016 г. |
+|[Подключаемый модуль Lync VDI 2013 (32-разр.)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |Октябрь 2012 г. |
+|[Подключаемый модуль Lync VDI 2013 (64-разр.)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |Октябрь 2012 г. |
+|[Новый набор элементов Office Visio](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |Июль 2016 г. |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Доступная для скачивания документация по Lync 2013
 
@@ -180,25 +180,25 @@ ms.locfileid: "34681820"
 |Имя пакета и ссылка|Дата выпуска|
 |:--- |:--- |
 |[Обмен мгновенными сообщениями с экспертом по Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|Март 2012 г. |
-|[Анализатор соответствия рекомендациям Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Февраль 2011 г. |
-|[Калькулятор емкости Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Февраль 2012 г. |
-|[Планировщик Lync Server 2010 ](https://www.microsoft.com/download/en/details.aspx?id=19711)|Февраль 2011 г. |
-|[Средства набора ресурсов Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|Май 2012 г. |
-|[Средство тестирования нагрузки и производительности Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|Март 2011 г. |
-|[Набор элементов Visio для Lync Server2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Февраль 2011 г. |
-|[Веб-планировщик Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|Апрель 2011 г. |
+|[Анализатор соответствия рекомендациям для Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Февраль 2011 г. |
+|[Калькулятор Lync Server 2010 Capacity](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Февраль 2012 г. |
+|[Средство планирования Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=19711)|Февраль 2011 г. |
+|[Инструменты пакета ресурсов Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|Май 2012 г. |
+|[Инструмент для Lync Server 2010, погрузка и производительности](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|Март 2011 г. |
+|[Набор элементов Lync Server 2010 Visio](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Февраль 2011 г. |
+|[Веб-планировщик Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|Апрель 2011 г. |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Доступная для скачивания документация по Lync 2010
 
 Имя пакета и ссылка|Дата выпуска|
 |:--- |:--- |
-|[Файл справки с документацией по Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Март 2012 г. |
-|[Страница приветствия Lync Server 2010 ](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Октябрь 2012 г. |
-|[Обмен мгновенными сообщениями с экспертом по документации Microsoft Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Март 2012 г. |
-|[Заметки о выпуске Lync 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|Январь 2011 г. |
-|[Заметки о выпуске Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Январь 2011 г. |
-|[Файл сведений для планировщика Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Январь 2011 г. |
-|[Схемы эталонной архитектуры пограничного сервера Lync Server 2010 ](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|Март 2011 г. |
+|[Файл справки по документации для Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Март 2012 г. |
+|[Начальная страница Lync Server 2010](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Октябрь 2012 г. |
+|[Обмен мгновенными сообщениями эксперта по Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Март 2012 г. |
+|[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3). aspx)|Январь 2011 г. |
+|[Заметки о выпуске Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Январь 2011 г. |
+|[Файл сведений о средстве планирования Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Январь 2011 г. |
+|[Схема архитектуры ссылок на сервер Lync Server 2010 Edge Server](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|Март 2011 г. |
 
 ### <a name="resource-kit-technical-reference"></a>Набор ресурсов (технический справочник)
 
@@ -208,9 +208,9 @@ ms.locfileid: "34681820"
 
 Имя пакета и ссылка|Дата выпуска|
 |:--- |:--- |
-|[Групповой чат Lync Server 2010 ](https://www.microsoft.com/download/en/details.aspx?id=12480) |Ноябрь 2010 г. |
-|[Средство администрирования группового чата Lync Server 2010 ](https://www.microsoft.com/download/en/details.aspx?id=3610) |Ноябрь 2010 г. |
-|[Групповой чат Lync 2010 ](https://www.microsoft.com/download/en/details.aspx?id=2651) |Ноябрь 2010 г. |
+|[Lync Server 2010 Group Chat](https://www.microsoft.com/download/en/details.aspx?id=12480) |Ноябрь 2010 г. |
+|[Lync Server 2010 — средство администрирования для группового чата](https://www.microsoft.com/download/en/details.aspx?id=3610) |Ноябрь 2010 г. |
+|[Lync 2010 Group Chat](https://www.microsoft.com/download/en/details.aspx?id=2651) |Ноябрь 2010 г. |
 
 ### <a name="trial-software"></a>Пробная версия программного обеспечения
 

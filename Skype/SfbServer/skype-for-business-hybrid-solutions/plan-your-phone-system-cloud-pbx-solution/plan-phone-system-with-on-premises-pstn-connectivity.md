@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о планировании телефонной системы в Office 365 (облачная УАТС) с локальной связью по протоколу КТСОП.
-ms.openlocfilehash: 7b24c0de8eab663dea771948b066a0752fe943ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287022"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221045"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системы в Office 365 с использованием локальной сети PSTN в Skype для бизнеса Server
 
@@ -110,7 +110,7 @@ ms.locfileid: "34287022"
 
     Если вы используете Lync Server 2013, ознакомьтесь со из [гибридной среды Lync server 2013](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
-- **(Рекомендуется) службы федерации Active Directory (AD FS)** Мы рекомендуем развернуть AD FS для поддержки единого входа. Дополнительные сведения можно найти в разделе [службы федерации Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
+- **Рекомендуется Службы федерации Active Directory (AD FS).** Рекомендуется развернуть службы AD FS для поддержки единого входа в систему. Дополнительные сведения можно найти в разделе [службы федерации Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
 Сведения о том, как развертывать телефонную систему в Office 365, приведены в разделе [Включение пользователей телефонной системы в office 365 с локальной связью по протоколу PSTN в Skype для бизнеса Server](enable-users-for-phone-system.md).
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: В этой статье рассказывается о требованиях к оборудованию, программному обеспечению и инфраструктуре для работы Skype для бизнеса на компьютере Mac.
-ms.openlocfilehash: 690e2a568c71d4af98b7d2bf9b9cc2e9919d99e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: aca2329fa3e7d42dfd1aaf47e4c069773c7206f0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277337"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221718"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Клиентские требования Skype для бизнеса для Mac
  
@@ -38,9 +38,9 @@ ms.locfileid: "34277337"
 
 Skype для бизнеса Server 2015 также поддерживает следующие устаревшие клиенты на компьютерах с операционной системой Mac OS 10.5.8 или более поздней версии или пакетом обновления (ОС для Mac OS 10,9 в настоящее время не поддерживается). Подробные сведения о поддерживаемых функциях можно найти в разделе [Сравнение функций клиента для настольных компьютеров для Skype для бизнеса](desktop-feature-comparison.md).
   
-- Microsoft Lync для Mac 2011 (см. Руководство по развертыванию Lync для 2011 Mac)
+- Microsoft Lync для Mac 2011 (см. [руководство по развертыванию Lync для 2011 Mac](https://go.microsoft.com/fwlink/p/?LinkId=268786))
     
-- Microsoft Communicator для Mac 2011 (см. Руководство по развертыванию Communicator для 2011 Mac)
+- Microsoft Communicator для Mac 2011 (см. [руководство по развертыванию Communicator для 2011 Mac](https://go.microsoft.com/fwlink/p/?LinkId=268787))
  
 Эти клиенты не поддерживаются в Skype для бизнеса Server 2019.
    
