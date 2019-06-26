@@ -19,14 +19,14 @@
 # Чат, команды, каналы и приложения
 ## [Планирование развертывания](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Обзор команд и каналов](teams-channels-overview.md)
-## [Назначение владельцев и участников команд в Microsoft Teams](assign-roles-permissions.md)
+## [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
+## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Управление обнаружением закрытых команд в Teams](manage-discovery-of-private-teams.md)
 ## [Общий доступ к файлам в Teams](sharing-files-in-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
-## [Общие сведения о динамическом членстве в командах](dynamic-memberships.md)
-## [Присутствие](presence-admins.md)
+## [Присутствие пользователей в Teams](presence-admins.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 
 
@@ -45,7 +45,7 @@
 
 
 ## Гостевой доступ
-### [Обзор](guest-access.md)
+### [О гостевом доступе](guest-access.md)
 ### [Присоединение гостя к команде](guest-joins.md)
 ### [Взаимодействие с гостями](guest-experience.md)
 ### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
