@@ -15,17 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221662"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253697"
 ---
 <a name="teams-guest-access-checklist"></a>Контрольный список для гостевого доступа к Teams
 ==========================================
 
 С помощью этого контрольного списка вы можете включить и настроить функцию гостевой доступа в Microsoft Teams в соответствии с настройками вашей организации.
+
+> [!NOTE] 
+> Для ограничений совместной работы ознакомьтесь с разрешениями для [внешней совместной работы и управления пользователями, которые могут приглашать гостей](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## <a name="understand-the-limitations-for-guests"></a>Общие сведения об ограничениях гостей
 
@@ -46,6 +49,9 @@ ms.locfileid: "35221662"
 ### <a name="guest-access-vs-external-access-federation"></a>Гостевой доступ и внешний доступ (Федерация)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+> [!NOTE] 
+> В настоящее время в Microsoft Teams не поддерживается роль участника гостя. По крайней мере для переключателя "участники могут пригласить" необходимо установить значение "Да" для гостевого доступа к работе в Microsoft Teams. Если вы настроили "нет", а затем включите гостевой доступ в группах Office 365 и Microsoft Teams, администраторы могут управлять приглашениями гостей в каталог. После того как гости находятся в каталоге, они могут быть добавлены в Teams участниками, которые являются владельцами групп.
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Если гости видят ошибки лицензий
 
