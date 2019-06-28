@@ -338,10 +338,12 @@
 ### [Типы телефонных номеров, используемые для плана звонков](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Получение номеров телефонов для пользователей](getting-phone-numbers-for-your-users.md)
 ### [Предоставляемое количество номеров телефонов](how-many-phone-numbers-can-you-get.md)
+### [Поиск номеров телефонов пользователей](search-for-phone-numbers-for-users.md)
+### [Просмотр списка телефонных номеров в организации](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Назначение, изменение и удаление номера телефона пользователя](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Получение номеров телефонов служб](getting-service-phone-numbers.md)
 ### [Перенос телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md)
-### [Общие вопросы по передаче номеров](transferring-phone-numbers-common-questions.md)
+### [Общие вопросы о переносе телефонных номеров](transferring-phone-numbers-common-questions.md)
 
 ## Маршрутизация вызовов
 ### [Что такое абонентские группы?](what-are-dial-plans.md)
