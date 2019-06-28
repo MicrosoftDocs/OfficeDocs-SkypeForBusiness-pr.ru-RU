@@ -3,7 +3,6 @@ title: Управление обнаружением закрытых коман
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,16 +16,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять возможностью обнаружения конфиденциальных команд пользователями Microsoft Teams с помощью предложений в галерее группы и в результатах поиска.
-ms.openlocfilehash: c938830f4f59345863d3f84570b387f07f4b08fc
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221234"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347878"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Управление обнаружением закрытых команд в Microsoft Teams
 
-> [!INCLUDE [preview feature](includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Администраторы и владельцы групп могут определять, могут ли быть обнаружены частные команды для пользователей Microsoft Teams в вашей организации. Если частная группа является обнаруживаемой, она отображается в результатах поиска и включается в предложения коллекции групп наряду с общедоступными группами в Teams. Благодаря этому пользователи смогут легко находить и находить закрытые группы, к которым они хотят присоединиться. Пользователи могут попросить присоединиться к закрытой команде, а владелец команды может утвердить или отклонить запрос.
 
@@ -64,7 +63,7 @@ ms.locfileid: "35221234"
 
 ![Снимок экрана с параметрами обнаружения для существующих закрытых команд](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>Использование PowerShell (ожидается в ближайшее время)
+### <a name="using-powershell"></a>Использование PowerShell
 
 С помощью командлета **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** вы можете отключить или включить параметр обнаружения для существующей закрытой команды. Вот пример того, как сделать команду обнаруживаемой.
 ```
@@ -80,7 +79,7 @@ ms.locfileid: "35221234"
 
 По умолчанию для **алловприватетеамдисковери** установлено **значение true** для всех пользователей в Организации.
 
-В этом примере мы создаем политику с именем Вендорполици, которая не позволяет пользователям обнаруживать закрытые команды, которые были доступны для обнаружения, а затем назначает политику пользователю с именем vendoruser1. 
+В этом примере мы создаем политику с именем Вендорполици, которая не позволяет пользователям обнаруживать закрытые команды, которые были доступны для обнаружения, а затем назначает политику пользователю с именем vendoruser1.
 ```
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy

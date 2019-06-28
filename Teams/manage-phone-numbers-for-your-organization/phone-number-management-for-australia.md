@@ -13,26 +13,25 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в Австралии для Skype для бизнеса Online и Microsoft Teams.
-ms.openlocfilehash: d70fcddf777aa08c71d366431eb033940668816a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Австралии для Microsoft Teams.
+ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302716"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35348005"
 ---
 # <a name="phone-number-management-for-australia"></a>Управление номерами телефонов в Австралии
 В Австралии мы имеем партнерские отношения с Telstra для покупки и подготовки тарифных планов. Telstra  будет продавать  тарифные планы и обеспечивать поддержку управления телефонных номеров как для пользователей, так и служебных номеров автосекретарей и очередей звонков. Тем не менее номера службы и лицензий для аудиоконференции будут по-прежнему продаваться и управляться Office 365.
 
 Для получения дополнительных сведений см. [вызов Telstra для Office 365](https://aka.ms/TelstraVoicePlan).
 
-В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в Австралии для Skype для бизнеса Online и Microsoft Teams.
+Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Австралии для Microsoft Teams.
 
 Дополнительные сведения можно найти [в разделе Управление номерами телефонов для Организации](manage-phone-numbers-for-your-organization.md).
   
