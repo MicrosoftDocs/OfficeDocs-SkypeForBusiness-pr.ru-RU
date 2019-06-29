@@ -740,6 +740,7 @@
 ### [Телефоны для Teams](phones-for-teams.md)
 ### [USB-устройства для аудио и видео](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Комнатные устройства и решения для проведения собраний](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [IP-телефоны, сертифицированные для Microsoft Teams](teams-ip-phones.md)
 ### [Телефоны для приложения Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## Безопасность и соответствие требованиям
@@ -758,7 +759,7 @@
 #### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
 ### [Расположение данных в Teams](location-of-data-in-teams.md)
 ### [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](accessibility-solutions-in-france.md)
 ###  [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Рекомендации по сбору данных](data-collection-practices.md)

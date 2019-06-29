@@ -100,10 +100,10 @@
 ##### [Настройка голосовой почты в облаке](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Автосекретари в облаке
 ##### [Планирование автосекретарей в облаке](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
-##### [Настройка автосекретарей в облаке](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+##### [Настройка учетных записей ресурсов](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 #### Очереди звонков в облаке
 ##### [Планирование очередей звонков в облаке](../../SfbHybrid/hybrid/plan-call-queue.md)
-##### [Настройка очередей звонков в облаке](../../SfbHybrid/hybrid/configure-call-queue.md)
+##### [Настройка учетных записей ресурсов](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 ### [Планирование интеграции Skype для бизнеса и Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Единая система обмена сообщениями](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Обзор развертывания](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
