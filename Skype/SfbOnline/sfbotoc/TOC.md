@@ -306,7 +306,7 @@
 
 ## Юридическая и нормативная информация
 ### [Декларация о соответствии специальных возможностей Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Решения для специальных возможностей в Skype для бизнеса Online во Франции](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Решения для специальных возможностей в Skype для бизнеса Online во Франции](/microsoftteams/accessibility-solutions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [IP-ретрансляция в Канаде — регистрация](../legal-and-regulatory/ip-relay-canada-email-signup.md)
 ### [IP-ретрансляция в Канаде — руководство пользователя](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Льготный период обратных звонков](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
