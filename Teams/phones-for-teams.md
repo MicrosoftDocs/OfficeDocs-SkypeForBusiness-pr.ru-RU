@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: В этой статье описывается список телефонов, сертифицированных для Microsoft Teams, и функции, поддерживаемые на телефонах, сертифицированных для Microsoft Teams.
-ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304444"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394565"
 ---
 # <a name="phones-for-microsoft-teams"></a>Телефоны для Microsoft Teams
 
@@ -29,7 +29,7 @@ Microsoft Teams поддерживает портфель стационарны
 
 ## <a name="teams-certified-ip-phones"></a>Сертифицированные IP-телефоны для Teams
 
-Для обеспечения высококачественной и надежной работы Microsoft Teams на телефонах мы работаем и активно работаете с Yealink, Крестрон, Polycom и AudioCodes, чтобы разработать и сертифицировать широкий ассортимент стационарных телефонов и звуковых устройств конференц-зала. [В настоящее время вы видите IP-телефоны](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) , сертифицированные для текущих поддерживаемых устройств.
+Для обеспечения высококачественной и надежной работы Microsoft Teams на телефонах мы работаем и активно работаете с Yealink, Крестрон, Polycom и AudioCodes, чтобы разработать и сертифицировать широкий ассортимент стационарных телефонов и звуковых устройств конференц-зала. [В настоящее время вы видите IP-телефоны](teams-ip-phones.md#currently-certified-ip-phones) , сертифицированные для текущих поддерживаемых устройств.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Настройка компонента Microsoft Teams phones
 
@@ -68,27 +68,27 @@ Microsoft Teams поддерживает портфель стационарны
 
 **Вход пользователя с учетными данными**
 
-![Вход с учетными данными](media/sign-in-with-credentials.png)
+![Снимок экрана со входом с учетными данными](media/sign-in-with-credentials.png)
 
 **Вход пользователя с помощью ПК или смартфона**
 
-![Вход с помощью другого устройства](media/sign-in-with-device.jpg)
+![Снимок экрана, на котором осуществляется вход с помощью другого устройства](media/sign-in-with-device.jpg)
 
 ## <a name="personalshared-mode"></a>Персональный/общий режим
 
 После успешного входа пользователь может выбрать, будет ли устройство использоваться для личного использования или в общей комнате конференц-связи.
 
-![Параметр личных или общих учетных записей](media/personal-vs-shared-mode.jpg)
+![Снимок экрана с параметром "личные или общие учетные записи"](media/personal-vs-shared-mode.jpg)
 
 Взаимодействие с телефонным подключением в Teams оптимизируется в соответствии с выбором пользователя.
 
 **Персональный режим**
 
-![Учетная запись в личном режиме](media/personal-mode.png)
+![Снимок экрана с учетной записью в личном режиме](media/personal-mode.png)
 
 **Режим общего доступа**
 
-![Учетная запись в общем режиме](media/shared-mode.png)
+![Снимок экрана учетной записи в режиме общего доступа](media/shared-mode.png)
 
 ## <a name="calling-experience"></a>Работа с телефонным подключением
 
@@ -96,11 +96,11 @@ Microsoft Teams поддерживает портфель стационарны
 
 **Экранная панель набора номера**
 
-![Экранная панель набора номера](media/on-screen-dial-pad.png)
+![Снимок экрана: экранная панель набора номера](media/on-screen-dial-pad.png)
 
 **Экран звонка**
 
-![Окно вызывающего абонента](media/calling-screen.png)
+![Снимок экрана с вызывающим экраном](media/calling-screen.png)
 
 ## <a name="meeting-experience"></a>Работа с собраниями
 
@@ -108,24 +108,24 @@ Microsoft Teams поддерживает портфель стационарны
 
 **Представление календаря**
 
-![Собрания в представлении календаря](media/calendar-view.png)
+![Снимок экрана с собранием в представлении календаря](media/calendar-view.png)
 
 **Представление "присоединение к собранию"**
 
-![Собрание в представлении «соединение»](media/meeting-join-view.png)
+![Снимок экрана собрания в представлении «соединение»](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>Голосовая почта
 
 Пользователь Microsoft Teams может получить доступ к голосовой почте при переходе на вкладку " **Голосовая почта** ".
 
-![Вкладка "Голосовая почта"](media/voicemail-tab.png)
+![Снимок экрана с вкладкой "Голосовая почта"](media/voicemail-tab.png)
 
 ## <a name="user-sign-out"></a>Выход пользователя
 
 Вы можете выбрать выход с помощью команды "выход" в левом **** верхнем меню телефона.
 
-![Выход из Teams](media/teams-sign-out.png)
+![Снимок экрана с выходом из Teams](media/teams-sign-out.png)
 
 ## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Поиск версии встроенного по на мобильном устройстве
 
@@ -133,11 +133,11 @@ Microsoft Teams поддерживает портфель стационарны
 
 **Страница входа в Teams**
 
-![Страница входа в Teams](media/teams-sign-in-page.jpg)
+![Снимок экрана: страница входа в Teams](media/teams-sign-in-page.jpg)
 
 **Страница параметров**
 
-![Страница параметров Teams](media/teams-settings-page.jpg)
+![Снимок экрана со страницей параметров Teams](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>Требуемые лицензии
 
@@ -149,4 +149,4 @@ Microsoft Teams поддерживает портфель стационарны
 
 [Teams Marketplace](http://office.com/teamsdevices)
 
-[IP-телефоны, сертифицированные для Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[IP-телефоны, сертифицированные для Microsoft Teams](teams-ip-phones.md)

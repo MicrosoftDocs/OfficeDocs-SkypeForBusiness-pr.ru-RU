@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается, как настроить обход мультимедиа с прямой маршрутизацией телефонной системы.
-ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290455"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394573"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Настройка обхода сервера-посредника с прямой маршрутизацией
 
@@ -30,7 +29,7 @@ ms.locfileid: "34290455"
 
 1.  Убедитесь в том, что вендором, используемым для выбора вашего сеанса связи (SBC), поддерживается обход мультимедиа, и инструкции по настройке параметров "пропустить" для SBC. Ознакомьтесь со статьей "сертификация", чтобы узнать о том, какие из них поддерживают обход мультимедиа, а также о каких-либо инструкциях.
 
-2.  Необходимо включить обход мультимедиа на магистральной сети с помощью следующей команды: **Set-ксонлинепстнгатевай-Identity _лт_сбк_фкдн_гт_-медиабипасс $true**.
+2.  Необходимо включить обход мультимедиа на магистральной сети с помощью следующей команды: **Set-ксонлинепстнгатевай-Identity <сбк_фкдн>-медиабипасс $true**.
 
 3.  Убедитесь в том, что нужные порты открыты. 
 

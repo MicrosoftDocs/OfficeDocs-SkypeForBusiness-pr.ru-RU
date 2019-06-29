@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Научитесь настраивать и тестировать облачные автосекретарей для эффективной обработки звонков в вашей организации.
-ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
+ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432898"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394615"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -37,22 +37,20 @@ ms.locfileid: "34432898"
 > [!NOTE]
 > Эта статья относится как в Microsoft Teams, так и в Skype для бизнеса Online.
 
-
-
 ## <a name="step-1---get-started"></a>Этап 1: Приступая к работе
 
 - Для связи с учетной записью ресурса необходимо наличие автосекретаря. Дополнительные сведения об учетных записях ресурсов содержатся [в разделе Управление учетными записями ресурсов в Teams](manage-resource-accounts.md) .
 - Если вы планируете назначить прямой номер маршрутизации, вы должны получить и назначить следующие лицензии для учетных записей \(ресурсов Office 365 Enterprise E1, E3 или ресурса1 с помощью надстройки телефонной системы.\)
-- Если вы назначаете номер службы Microsoft, вы должны получить и назначить следующие лицензии для учетной записи \(ресурсов Office 365 Enterprise E1, E3 или ресурса1, с помощью надстройки телефонной системы и плана\)звонков.
+- Если вы назначаете номер службы Microsoft, вы должны получить и назначить следующие лицензии для учетной записи \(ресурсов Office 365 Enterprise E1, E3 или ресурса1 с помощью надстройки телефонной системы.\)
 
-> [!NOTE] 
+> [!NOTE]
 > Корпорация Майкрософт работает над моделью лицензирования бесплатных приложений (например, для автоматических автосекретарей и очередей звонков), поэтому теперь вам нужно использовать модель лицензирования пользователей.
 
 > [!CAUTION]
 > Для получения и использования бесплатных телефонных номеров необходимо настроить кредиты на связь. Что нужно сделать, чтобы узнать [, что такое](what-are-communications-credits.md) баллы в общении? и [настроить для Организации кредиты на связь](set-up-communications-credits-for-your-organization.md).
 
 > [!TIP]
-> Чтобы перенаправить вызовы на оператора или параметр меню, который является сетевым пользователем с лицензией на **телефонную систему** , вам потребуется включить их для корпоративной голосовой связи или назначить планы звонков в Office 365 для них. В разделе [Назначение лицензий на Skype для бизнеса](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) или [Назначение лицензий Microsoft Teams](assign-teams-licenses.md). Вы также можете использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Чтобы перенаправить звонки на оператора или параметр меню, который является сетевым пользователем с лицензией на **телефонную систему** , вам потребуется включить их для корпоративной голосовой связи. В разделе [Назначение лицензий на Skype для бизнеса](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) или [Назначение лицензий Microsoft Teams](assign-teams-licenses.md). Вы также можете использовать Windows PowerShell. Например, выполните указанные ниже действия.`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Шаг 2. Создание нового автосекретаря
 
@@ -211,7 +209,7 @@ ms.locfileid: "34432898"
   - **Сотрудник компании**, имеющий лицензию на**телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите сотрудника **в компании** и настройте для него звонки, переадресованные непосредственно в голосовую почту.
 
     > [!Note]
-    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. 
+    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013.
     - Другой **Автоматический секретарь**
 
        Вы можете использовать существующий автоматический секретарь для создания второго уровня параметров меню, содержащих подменю. Эти функции называются вложенными автосекретарями. Чтобы отправить звонок во вложенный автоматический секретарь, выберите сотрудника **в компании** и назначьте учетную запись ресурса, в которой уже есть соответствующий автоматический секретарь, или в том случае, если вы хотите связать его с автосекретарем после того, как вы закончите создавать этот автоматический секретарь.
@@ -226,7 +224,6 @@ ms.locfileid: "34432898"
 ![Значок числа 5, на котором показана ссылка на выноску на предыдущем снимке экрана](media/sfbcallout5.png)
 
 **Вызов по имени** Выбор этого параметра позволяет вызывающим абонентам выполнить поиск сотрудников организации, используя функцию поиска в каталоге. Вы можете выбрать, каких пользователей можно вызвать, используя функцию "Вызов по имени", а каких — нет, настроив эти параметры на странице **Область вызова.**. Используя функцию "Вызов по имени", можно найти любого онлайн-пользователя с лицензией на**телефонную систему**или локального пользователя, использующего Skype для бизнеса Server 2015 или Lync Server 2013.
-
 
 * * *
 
@@ -278,7 +275,7 @@ ms.locfileid: "34432898"
   - **Сотрудник компании**, имеющий лицензию на **телефонную систему**и возможность подключения по корпоративной голосовой связи или планы звонков в Office 365. Ее можно настроить так, что звонки вызывающего абонента будут отправляться в голосовую почту. Для этого выберите сотрудника **в своей компании**и настройте для него звонки, переадресованные непосредственно в голосовую почту.
 
     > [!Note]
-    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013. 
+    > **Сотрудник компании** может быть онлайн-пользователем или пользователем, находящимся на территории локального предприятия и использующим Skype для бизнеса Server 2015 или Lync Server 2013.
 
   - **Очередь звонков** для передачи звонка в уже установленную очередь звонков.
   - Другой **Автоматический секретарь**для создания второго уровня параметров меню, содержащих подменю. Эти функции называются вложенными автосекретарями.
@@ -321,31 +318,27 @@ ms.locfileid: "34432898"
 
 Вы также можете быстро выполнить тестовый вызов для автосекретаря с помощью кнопки **тест** на панели действий.
 
-## <a name="want-to-know-more"></a>Дополнительные сведения
+## <a name="auto-attendant-cmdlets"></a>Командлеты для работы с автосекретарями
 
-Можно также использовать Windows PowerShell для создания и настройки автосекретарей.
-
-### <a name="auto-attendant-cmdlets"></a>Командлеты для работы с автосекретарями
-
-Далее перечислены командлеты, необходимые для управления автосекретарем.
+Можно также использовать Windows PowerShell для создания и настройки автосекретарей. Ниже приведены командлеты, необходимые для управления автосекретарем.
 
 - [New-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
-- [Get-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [New-Ксаутоаттендантмену](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [New-Ксонлинеаудиофиле](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [New-Ксаутоаттенданткаллфлов](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Set-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [Get-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [Get-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [Remove-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [New-Ксаутоаттендантмену](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [New-Ксонлинеаудиофиле](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [New-Ксаутоаттенданткаллфлов](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [Export-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [Get-Ксаутоаттендантсуппортедтимезоне](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
 - [New-КсаутоаттенданткаллхандлингассоЦиатион](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
 - [Get-Ксаутоаттендантсуппортедлангуаже](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [New-Ксаутоаттенданткаллаблинтити](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Import-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [New-Ксаутоаттенданткаллаблинтити](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Дополнительные сведения о Windows PowerShell
 
