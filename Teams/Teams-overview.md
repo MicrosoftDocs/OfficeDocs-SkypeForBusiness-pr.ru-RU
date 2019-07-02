@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: c4b0b404fae8d9142333bed60de80697e350b4ab
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221985"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417926"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
@@ -68,7 +68,7 @@ ms.locfileid: "35221985"
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Переход со Skype для бизнеса на Teams
 Teams — основной клиент интеллектуальных коммуникаций в Office 365, который со временем заменит Skype для бизнеса Online. Для отслеживания новых функций в Teams см. [стратегию развития Microsoft 365](https://aka.ms/O365Roadmap). В дополнение к функциям сохраняемого чата и обмена сообщениями Teams предлагает комплексные возможности для звонков и собраний с полностью интегрированными средствами голосовой и видеосвязи. Читайте об этом в статье [Teams Is Now a Complete Meeting and Calling Solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) (Теперь Teams — это полноценное решение для звонков и собраний) в блоге Microsoft Teams.
 
-Если вы пользуетесь Skype для бизнеса и готовы перейти на Teams или пользуетесь Skype для бизнеса и Teams одновременно и готовы перейти на Teams полностью, мы предложим инструменты, советы и рекомендации, которые помогут успешно выполнить переход. Дополнительные сведения см. в статье [Переход на Teams](journey-skypeforbusiness-teams.md).
+Если вы пользуетесь Skype для бизнеса и готовы перейти на Teams или пользуетесь Skype для бизнеса и Teams одновременно и готовы перейти на Teams полностью, мы предложим инструменты, советы и рекомендации, которые помогут успешно выполнить переход. Дополнительные сведения см. в статье [Переход на Teams](upgrade-start-here.md).
 
 ## <a name="teamwork-and-office-365"></a>Office 365 и командная работа
 Каждая команда имеет свои особенности, и единого подхода к совместной работе не существует. Office 365 позволяет вам удовлетворить уникальные потребности любой команды и предоставить пользователям больше возможностей для общения, сотрудничества и улучшения результатов за счет удобных специализированных приложений. 

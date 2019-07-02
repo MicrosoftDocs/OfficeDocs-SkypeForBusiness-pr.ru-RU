@@ -89,7 +89,7 @@
 ## [Планирование развертывания](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Руководство. Собрания в Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Управление политиками собрания](meeting-policies-in-teams.md)
-## [Управление параметрами собраний](meeting-settings-in-teams.md
+## [Управление параметрами собраний](meeting-settings-in-teams.md)
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -332,6 +332,7 @@
 
 ### Техническая справка по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
+#### [Коды стран для путей к носителям](direct-routing-country-codes.md)
 
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -630,7 +631,8 @@
 # 
 # 
 
-# [Использование Teams во всей организации](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# Руководство для отраслей и государственных организаций
+## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,16 +668,45 @@
 
 <!-- ============================================================ -->
 
-# 
-# 
+# Руководство для малого и среднего бизнеса
+## [Шаблоны Teams для малого и среднего бизнеса](smb-templates.md)
+#    
+#    
 
 <!-- ============================================================ -->
 
+# Безопасность и соответствие требованиям
+## [Обзор](security-compliance-overview.md)
+## [Информационные барьеры в Teams](information-barriers-in-teams.md)
+## [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
+## [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
+## [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
+## [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
+## [Поиск событий Teams в журнале аудита](audit-log-events.md)
+## [Поиск контента в Teams](content-search.md)
+## [Политики управления приложениями AppLocker в Teams](applocker-in-teams.md)
+## Политики хранения в Teams
+### [Обзор](retention-policies.md)
+### [Вопросы и ответы по политикам хранения](retention-policies-FAQ.md)
+### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
+## [Расположение данных в Teams](location-of-data-in-teams.md)
+## [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](accessibility-solutions-in-france.md)
+##  [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [Рекомендации по сбору данных](data-collection-practices.md)
+## [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+#       
+#        
 # [Обучение](training-microsoft-teams-landing-page.md)
 ## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
 ## [Обучение конечных пользователей для работы с Teams](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # Справочные материалы
@@ -743,27 +774,6 @@
 ### [IP-телефоны, сертифицированные для Microsoft Teams](teams-ip-phones.md)
 ### [Телефоны для приложения Skype для бизнеса Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Безопасность и соответствие требованиям
-### [Обзор](security-compliance-overview.md)
-### [Информационные барьеры в Teams](information-barriers-in-teams.md)
-### [Обнаружение электронных данных в Teams](ediscovery-investigation.md)
-### [Модели удостоверений и проверка подлинности в Microsoft Teams](identify-models-authentication.md)
-### [Вход в Teams с современной проверкой подлинности](sign-in-teams.md)
-### [Помещение пользователя или команды Teams на удержание по юридическим причинам](legal-hold.md)
-### [Поиск событий Teams в журнале аудита](audit-log-events.md)
-### [Поиск контента в Teams](content-search.md)
-### [Политики управления приложениями AppLocker в Teams](applocker-in-teams.md)
-### Политики хранения в Teams
-#### [Обзор](retention-policies.md)
-#### [Вопросы и ответы по политикам хранения](retention-policies-FAQ.md)
-#### [Известные проблемы с политиками хранения](retention-policies-known-issues.md)
-### [Расположение данных в Teams](location-of-data-in-teams.md)
-### [Объявление о соответствии требованиям в отношении специальных возможностей во Франции для Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Решения со специальными возможностями для Skype для бизнеса Online и Microsoft Teams](accessibility-solutions-in-france.md)
-###  [Планы звонков в Office 365 — нормы и правила для Соединенного Королевства](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Планы звонков в Office 365 — процедура подачи претензий для Соединенного Королевства](complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Рекомендации по сбору данных](data-collection-practices.md)
-### [Условия для экстренных вызовов](emergency-calling-terms-and-conditions.md)
 
 
 ## Устранение неполадок и поддержка
