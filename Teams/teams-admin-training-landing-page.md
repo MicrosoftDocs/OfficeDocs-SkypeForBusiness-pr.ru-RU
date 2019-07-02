@@ -1,7 +1,7 @@
 ---
 title: Обучение ИТ-администратора для работы с Microsoft Teams
 ms.reviewer: ''
-description: Начало обучения, вам нужно управлять группами Майкрософт в вашей организации
+description: Учебный курс по управлению Microsoft Teams в Организации
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896244"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417840"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
-Узнайте, как управлять группами для вашей организации.
+Сведения о том, как управлять группами в Организации.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ ms.locfileid: "33896244"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW: Пройти обучение под руководством для групп</h3>
+                        <h3>НОВЫЕ возможности учебного засветов для преподавателей в Teams</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ ms.locfileid: "33896244"
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -134,7 +134,7 @@ ms.locfileid: "33896244"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Статьи</h3>
+                        <h3>Следующим</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Настройка телефонной системы в вашей организации</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Сторонняя интеграция с Аудиоконференциями</a></p>

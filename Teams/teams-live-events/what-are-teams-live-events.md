@@ -14,12 +14,12 @@ description: В этой статье рассказывается о том, к
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394541"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420054"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -77,7 +77,7 @@ Teams предоставляет возможность организаторо
 ![Снимок экрана, демонстрирующий взаимодействие с участником Live Events] (../media/teams-live-events-attendee.png "Снимок экрана, демонстрирующий взаимодействие с участником Live Events")
 
 ### <a name="live-event-usage-report"></a>Отчет об использовании событий в реальном времени 
-Администраторы клиентов могут просматривать анализ использования в режиме реального времени для событий Live в центре администрирования Microsoft Teams.  В отчете об использовании событий в реальном времени показаны общие сведения о мероприятиях, которые хранятся в Организации.  Администраторы могут просматривать сведения об использовании событий, в том числе состояние события, время начала, представления и тип производства.  
+Администраторы клиентов могут просматривать анализ использования в режиме реального времени для событий Live в центре администрирования Microsoft Teams.  В [отчете об использовании событий в реальном времени](../teams-analytics-and-reports/teams-live-event-usage-report.md) показаны общие сведения о мероприятиях, которые хранятся в Организации.  Администраторы могут просматривать сведения об использовании событий, в том числе состояние события, время начала, представления и тип производства.  
 
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к разделу [планирование событий Teams в реальном времени](plan-for-teams-live-events.md).

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: d87d21c7b0111b4825f01b71a266e209edc2bccc
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203995"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418219"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -53,24 +53,28 @@ ms.locfileid: "35203995"
 
 - Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний. 
 
-  - [Logitech Смартдокк](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+  - [Logitech Смартдокк](https://www.logitech.com/product/smartdock)
 
   - [Набор исправлений крестрон](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
   - [Серия Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
-**Поддерживаемые консоли**
+**Другие поддерживаемые консольные комнаты Microsoft Teams**
 
-|консоль;|Воздуш|ДОСТУПНОЙ|Диск|Версия встроенного по|
-|:-----|:-----|:-----|:-----|:----|
-|[Крестрон Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 Гбайт |ГБ|1.0.16.490|
-|[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 Гбайт  |ГБ  | |
-|[HP топовый сектор G2, готовая к работе с комнатами Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Основные i5 |8 Гбайт |ГБ | |
-|[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 Гбайт  |ГБ  |  |
-|[Сенсор касания Logitech для помещения на видеоконференцию в видео](https://www.logitech.com/en-us/product/tap) |Основные i5  |8 Гбайт  |240GB  |  |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 Гбайт|ГБ|Аудио-92.10.0.15</br>Видео-92.10.0.15|
-|
+|консоль;|Воздуш|ДОСТУПНОЙ|Диск|
+|:-----|:-----|:-----|:-----|
+|[Крестрон Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 Гбайт |ГБ|
+|[Крестрон Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|8 Гбайт |ГБ |
+[Крестрон Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Гбайт |ГБ|
+|[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 Гбайт  |ГБ  | 
+|[HP топовый сектор G2, готовая к работе с комнатами Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Основные i5 |8 Гбайт |ГБ | 
+|[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 Гбайт  |ГБ  |  
+|[Нажмите клавишу Logitech + Нук](https://www.logitech.com/en-us/product/tap?crid=1691)|Основные i5|8 Гбайт |ГБ |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 Гбайт|ГБ|
+|[Сенсор касания Logitech для помещения на видеоконференцию в видео](https://www.logitech.com/en-us/product/tap) |Основные i5  |8 Гбайт  |240GB  |  
+|||||
+
 > [!NOTE]
 > Базовые процессоры M3 не поддерживаются.
 

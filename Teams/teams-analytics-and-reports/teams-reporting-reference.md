@@ -3,7 +3,6 @@ title: Аналитика и отчеты Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +16,12 @@ MS.collection:
 description: Сведения об отчетах о командах, доступных в центре администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253796"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420038"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Аналитика и отчеты Microsoft Teams
 
@@ -46,6 +45,7 @@ ms.locfileid: "35253796"
 |[Отчет об использовании Teams](teams-usage-report.md)  |  Активные пользователи<br/>Активные пользователи в Teams и каналах<br/>Активные каналы<br/>Ошибка<br/>Параметры конфиденциальности для Teams<br/>Гости в команде   |
 |[Отчет по активности пользователей Teams](user-activity-report.md)  |  1:1 вызывает пользователя, который участвовал в<br/>Сообщения, которые пользователь опубликовал в чате группы<br/>Сообщения, опубликованные пользователем в частном чате<br/>Дата последнего действия пользователя     |
 |[Отчет об использовании устройств в Teams](device-usage-report.md)   |  Инструкции для пользователей Windows<br/>Пользователи Mac<br/>Пользователи iOS<br/>Пользователи телефонов с Android     |
+|[Отчет об использовании событий команды Live](teams-live-event-usage-report.md)   |  Общее количество просмотров<br>Время начала<br>Состояние события<br>Инициатор<br>Выступающего<br>Закончен<br>Параметр записи<br>Тип производства    |
 
 > [!NOTE]
 > В отчетах о командах отображаются данные для активных пользователей и активных команд. Например, если пользователь в вашей организации не активен в Teams в течение определенного диапазона дат, данные для этого пользователя не включаются в отчет.

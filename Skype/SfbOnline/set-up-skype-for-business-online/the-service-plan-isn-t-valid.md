@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Просмотр места назначения действующего плана обслуживания для пользователя после недействительной ошибки в плане обслуживания Skype для бизнеса Online. '
-ms.openlocfilehash: bae00d6d7646abb82931f9293444e7c86fc5a59a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 896ac04909e9b00ada8e18e6a83f7fa9096f7455
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285067"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411545"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>План обслуживания Skype для бизнеса Online пользователя недействителен
 
 К сожалению, план обслуживания Skype для бизнеса Online, назначенный этому пользователю, не распознан или является недопустимым.
   
-Перейдите в раздел > **Активные пользователи** **центра администрирования Office 365**и назначьте ему допустимый план обслуживания.
+Перейдите в *центр администрирования Microsoft 365** > **Активные пользователи** и назначьте допустимый план обслуживания для этого пользователя.
 
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

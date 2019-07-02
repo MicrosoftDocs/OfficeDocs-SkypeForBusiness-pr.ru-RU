@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы получить сведения о том, как использовать мастер развертывания Skype для бизнеса Server для установки компонентов и служб Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 6c30ba33f1ff22b5088080048210c7dcb862cb3b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2b19599ff3523a1b96a2349d62c948ed3fe72d7b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273806"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418162"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Установка компонентов для сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34273806"
 Прежде чем устанавливать компоненты сохраняемого чата, убедитесь, что вы уже установили необходимые оборудование и программное обеспечение и создали подходящую топологию для поддержки сервера сохраняемого чата. Подробные сведения о планировании и требованиях можно найти в разделе [требования к среде Skype для бизнеса](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) и [Планирование постоянного сервера чата в Skype для бизнеса Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Сведения о том, как обновлять и публиковать топологию, чтобы включить сохраняемый сервер чата, приведены в разделе [Добавление сохраняемого сервера чата в топологию 2015 в Skype для бизнеса Server](add-persistent-chat-server.md).
   
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [путешествие из Skype для бизнеса в Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
 
 ## <a name="install-and-start-services"></a>Установка и запуск служб
 

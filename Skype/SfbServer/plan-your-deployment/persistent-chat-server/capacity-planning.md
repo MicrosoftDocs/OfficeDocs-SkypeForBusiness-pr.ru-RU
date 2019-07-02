@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы узнать о планировании мощности для постоянного сервера чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: b303a0d6cd0e518ed1619d53f8fc7bc1b5101903
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297122"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418493"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование емкости для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -29,7 +29,7 @@ ms.locfileid: "34297122"
 Перед тем как начать читать эту статью, пожалуйста, ознакомьтесь с топологиями сохраняемого чата. Более подробные сведения см. в статье [Plan Persistent Chat Server topology](topology.md).
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [путешествие из Skype для бизнеса в Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Планирование мощности сервера сохраняемого чата
 

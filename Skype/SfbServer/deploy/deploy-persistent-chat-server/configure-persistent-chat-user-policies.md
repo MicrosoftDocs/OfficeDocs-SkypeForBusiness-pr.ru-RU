@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться создавать начальные политики пользователей для постоянного сервера чата в Skype для бизнеса Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.'
-ms.openlocfilehash: 7c73b34f418946dda76302c0ee2abb18125e6f07
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f2a55f3a411fc3020ebe9af57d456f00dd74ef4
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273856"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418126"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Настройка пользовательских политик сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -35,7 +35,7 @@ ms.locfileid: "34273856"
 - Применение политики к пользователю или группе пользователей
     
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [путешествие из Skype для бизнеса в Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015.
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015.
 
 ## <a name="configure-the-global-policy"></a>Настройка глобальной политики
 

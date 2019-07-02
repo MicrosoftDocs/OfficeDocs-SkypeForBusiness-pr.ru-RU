@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: эти функции удалены из Skype для бизнеса Server 2019.'
-ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278114"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418363"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Что не рекомендуется использовать в Skype для бизнеса Server 2019
 
@@ -35,7 +35,7 @@ Skype для бизнеса Server 2015 и его предшественники
 
 Сервер сохраняемого чата — это необязательная роль, которая позволяет нескольким пользователям в Организации принимать участие в беседах в чате, которые сохраняются с течением времени. В Skype для бизнеса Server 2019 нельзя разворачивать сохраняемый чат. Эта роль сервера удаляется из построителя топологии и из кода. 
 
-Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [путешествие из Skype для бизнеса в Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams).
+Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Зеркальное отображение SQL для сервера Skype для бизнеса Server
 
