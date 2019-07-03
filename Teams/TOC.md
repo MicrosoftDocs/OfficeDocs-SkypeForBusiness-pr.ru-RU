@@ -97,6 +97,7 @@
 ## [Настройка совместного доступа к рабочему столу в Teams](configure-desktop-sharing.md)
 ## [Запись собрания Teams в облаке](cloud-recording.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
+## [Настройка функции "Позвонить мне" для пользователей](set-up-the-call-me-feature-for-your-users.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Комнаты Microsoft Teams](room-systems/index.md)
 ## [Управление Доской в Teams](manage-whiteboard.md)
