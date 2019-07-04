@@ -68,6 +68,7 @@
 ### [Назначение владельцев и участников команд в Teams](assign-roles-permissions.md)
 ### [Массовое изменение параметров пользователей Teams](edit-user-settings-in-bulk.md)
 ### [Управление политиками настройки приложений в Teams](teams-app-setup-policies.md)
+### [Управление политиками отзывов в Teams](manage-feedback-policies-in-teams.md)
 ### [Настройка приложения собраний Skype для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Управление внешним доступом](manage-external-access.md)
 ### [Использование встроенного перевода сообщений](inline-message-translation-teams.md)
@@ -717,6 +718,7 @@
 ## Подготовка к развертыванию Teams
 ### [Проверка готовности среды для Teams](environment-readiness.md).
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
+### [Использование планировщика сети для Teams](network-planner.md)
 ### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
 ### [Ограничения и спецификации для Teams](limits-specifications-teams.md)
 ### [Планирование использования групп Office 365 при создании команд в Teams](plan-office-365-groups.md)
