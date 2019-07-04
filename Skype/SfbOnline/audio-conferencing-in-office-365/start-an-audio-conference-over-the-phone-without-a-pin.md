@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как разрешить или запретить анонимным абонентам присоединяться к собранию с помощью центра администрирования Skype for Business admin или путем использования сценария PowerShell. '
-ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 146a23c35bca8e313f193dbd1407990fc8c6a788
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302773"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535869"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Начало аудиоконференции по телефону без PIN-кода в Skype для бизнеса Online
 
@@ -65,13 +65,13 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 - Если вы хотите сбросить PIN-код, посмотрите ссылку [Сброс ПИН-кода голосовой](reset-the-audio-conferencing-pin.md)связи.
     
-- Если анонимный доступ или не требуется ПИН-код для начала собрания, включается:
+- Если анонимный доступ или не требуется ПИН-код для начала собрания, это значение отключено:
     
   - Если собрание еще не началось (в собрании пока нет ни одного участника): абоненту будет предложено выбрать его, если он является организатором. Если он говорит Да, ему будет предложено ввести ПИН-код, и после ввода PIN-кода собрание начнется, и пользователь присоединится к собранию.
     
   - Если собрание уже началось (кто-либо присоединился): абонент не получит сообщения с вопросом, является ли он организатором. Кроме того, PIN-код запрашиваться не будет. Собрание уже началось, и пользователь присоединится к нему.
     
-- Если анонимный доступ или не требуется ПИН-код для начала собрания, это значение отключено:
+- Если анонимный доступ или не требуется ПИН-код для начала собрания, включается:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
