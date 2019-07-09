@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте о том, как получить новые, перенести и переносить существующие номера в Teams, а также как показать изменения пользователей. '
-ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347926"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588217"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -64,7 +64,7 @@ ms.locfileid: "35347926"
   
 - Если для пользователей требуется 999 или меньше номеров телефонов, вы можете использовать портал старой версии в центре администрирования Microsoft Teams. Выполните действия, описанные в статье [Передача номеров телефонов в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) для переноса телефонных номеров в Teams.
     
-- Если требуется более 999 номеров телефонов, см. [Отправка пользовательского запроса на обслуживание](/skypeforbusiness/manually-submit-a-custom-service-request) для подтверждения запроса на обслуживание или заказа на перенос всех номеров в Office 365.
+- Если вам нужно перенести более 999 номеров телефонов, ознакомьтесь со статьей [Управление запросами на обслуживание в Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) , чтобы отправить запрос на обслуживание по номеру или заказать все номера телефонов, перенесенные в Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Отображение телефонных номеров для организации
 

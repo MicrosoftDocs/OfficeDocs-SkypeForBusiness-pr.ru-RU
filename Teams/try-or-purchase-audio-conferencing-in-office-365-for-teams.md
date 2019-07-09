@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: cf7455a42d19d82ff4d82c4434b8e97962433131
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298214"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588193"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 
@@ -77,7 +77,7 @@ ms.locfileid: "34298214"
 
 Если вы назначаете **** лицензию на голосовую конференцию для пользователей в вашей организации, у которых нет Skype для бизнеса, интегрированной с сторонним поставщиком видеоконференций, все они будут настроены и готовы к работе. (Нет необходимости в настройке их поставщика аудиоконференций.)
 
-Если у вас есть пользователи, которым разрешено пользоваться сторонним поставщиком видеоконференций, необходимо изменить поставщика этих пользователей на Microsoft. Чтобы изменить поставщика для пользователя, ознакомьтесь с разрешениями [назначение Microsoft в качестве поставщика](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)видеоконференций.
+Если у вас есть пользователи, которым разрешено пользоваться сторонним поставщиком видеоконференций, необходимо изменить поставщика этих пользователей на Microsoft. Чтобы изменить поставщика для пользователя, ознакомьтесь с разрешениями [назначение Microsoft в качестве поставщика](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)видеоконференций.
 
 ## <a name="step-3-other-admin-tasks"></a>Шаг 3: другие задачи администратора
 

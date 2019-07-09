@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116019"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588153"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -83,7 +83,9 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > 1. Мы настоятельно рекомендуем задать максимальное количество вызовов в SBC, используя сведения, которые можно найти в документации по SBC. Это ограничение инициирует уведомление, если объект SBC находится на уровне емкости.
   > 2. Вы можете присвоить значение SBC только в том случае, если доменная часть своего полного доменного имени соответствует одному из \*доменов, зарегистрированных в вашем клиенте, за исключением onmicrosoft.com. Использование \*доменных имен onmicrosoft.com не поддерживается для полного доменного имени SBC. Например, если у вас есть два доменных имен:<br/><br/>
   > **contoso**. com<br/>**contoso**. onmicrosoft.com<br/><br/>
-  > Для имени SBC можно использовать имя sbc.contoso.com. При попытке связывания SBC с именем SBC. contoso. ABC система не позволит вам, так как домен не принадлежит этому клиенту.
+  > Для имени SBC можно использовать имя sbc.contoso.com. При попытке связывания SBC с именем SBC. contoso. ABC система не позволит вам, так как домен не принадлежит этому клиенту.<br/>
+  > Помимо домена, зарегистрированного в клиенте, важно, чтобы пользователь с этим доменом и назначенной лицензией E3 или водо. В противном случае появится следующее сообщение об ошибке:<br/>
+  `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
