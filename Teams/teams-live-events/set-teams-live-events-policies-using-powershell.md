@@ -1,9 +1,9 @@
 ---
 title: Настройка политик трансляции Microsoft Teams с помощью PowerShell
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,12 +15,12 @@ MS.collection:
 description: Примеры использования PowerShell для задания политик в Teams, чтобы управлять тем, кто может хранить события в сети в вашей организации, и функциональные возможности, доступные в создаваемых ими событиях.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 825fe7e7e80b2653d35c8b0752124b50386395d6
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012976"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602265"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Настройка политик трансляции Microsoft Teams с помощью PowerShell
 
@@ -129,11 +129,11 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Настройка транскрипции и перевода в Live Events (скоро)
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>Настройка живых подписей и субтитров в Live Events
 > [!NOTE]
 > Этот параметр применяется только к событиям, созданным в Teams. 
 
-Настройте глобальную политику включения транскрипции и перевода для участников события:
+Настройте глобальную политику на включение субтитров и субтитров (транскрипция) для участников события:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
