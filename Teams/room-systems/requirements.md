@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 06e6a5c7c601ae4aa4c0411844aaa368aeacea74
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418219"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614254"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -73,6 +73,7 @@ ms.locfileid: "35418219"
 |[Нажмите клавишу Logitech + Нук](https://www.logitech.com/en-us/product/tap?crid=1691)|Основные i5|8 Гбайт |ГБ |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 Гбайт|ГБ|
 |[Сенсор касания Logitech для помещения на видеоконференцию в видео](https://www.logitech.com/en-us/product/tap) |Основные i5  |8 Гбайт  |240GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Основные i5|8 Гбайт |ГБ |
 |||||
 
 > [!NOTE]

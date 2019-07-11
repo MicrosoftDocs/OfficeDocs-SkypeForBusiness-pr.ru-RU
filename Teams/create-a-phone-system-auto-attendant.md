@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394615"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614270"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -42,9 +42,6 @@ ms.locfileid: "35394615"
 - Для связи с учетной записью ресурса необходимо наличие автосекретаря. Дополнительные сведения об учетных записях ресурсов содержатся [в разделе Управление учетными записями ресурсов в Teams](manage-resource-accounts.md) .
 - Если вы планируете назначить прямой номер маршрутизации, вы должны получить и назначить следующие лицензии для учетных записей \(ресурсов Office 365 Enterprise E1, E3 или ресурса1 с помощью надстройки телефонной системы.\)
 - Если вы назначаете номер службы Microsoft, вы должны получить и назначить следующие лицензии для учетной записи \(ресурсов Office 365 Enterprise E1, E3 или ресурса1 с помощью надстройки телефонной системы.\)
-
-> [!NOTE]
-> Корпорация Майкрософт работает над моделью лицензирования бесплатных приложений (например, для автоматических автосекретарей и очередей звонков), поэтому теперь вам нужно использовать модель лицензирования пользователей.
 
 > [!CAUTION]
 > Для получения и использования бесплатных телефонных номеров необходимо настроить кредиты на связь. Что нужно сделать, чтобы узнать [, что такое](what-are-communications-credits.md) баллы в общении? и [настроить для Организации кредиты на связь](set-up-communications-credits-for-your-organization.md).
@@ -324,14 +321,14 @@ ms.locfileid: "35394615"
 
 - [New-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
 - [Set-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
-- [Get-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [Get-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)
 - [Get-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
 - [Remove-Ксаутоаттендант](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
 - [New-Ксаутоаттендантмену](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
 - [New-Ксонлинеаудиофиле](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
 - [New-Ксаутоаттенданткаллфлов](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
-- [Export-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [Export-Ксаутоаттендансолидайс](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange?view=skype-ps)
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [Get-Ксаутоаттендантсуппортедтимезоне](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)

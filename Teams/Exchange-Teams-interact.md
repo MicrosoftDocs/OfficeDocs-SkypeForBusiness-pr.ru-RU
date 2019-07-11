@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591657"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614207"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -63,6 +63,9 @@ Microsoft Teams работает с несколькими службами Offi
 
 - Чтобы Microsoft Teams работала в локальной среде Exchange, необходимо настроить новый протокол проверки подлинности OAuth Exchange, как описано в разделе [Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
+> [!NOTE]
+>Для интеграции с локальным сервером Exchange и интеграцией Teams необходимо назначить требуемую лицензию для пользователя, который синхронизирует синхронизация с AAD.
+
 ## <a name="additional-considerations"></a>Дополнительные сведения
 
 Ниже приведены некоторые дополнительные моменты, которые необходимо учитывать при реализации Microsoft Teams в Организации.
@@ -73,7 +76,7 @@ Microsoft Teams работает с несколькими службами Offi
 
 - Если в вашей организации есть требования соответствия требованиям, чтобы убедиться в том, что все обсуждения собраний являются обнаруживаемыми, вы должны отключить закрытые собрания, если у организатора есть локальный почтовый ящик Exchange.
 
-- В гибридном развертывании Exchange содержимое из сообщений чата будет доступно для поиска вне зависимости от того, есть ли у участников беседы почтовый ящик на основе облака или локальный почтовый ящик. Дополнительные сведения можно найти в статье Просмотр почтовых [ящиков в облаке для локальных пользователей в Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Чтобы узнать о поиске содержимого в Teams, прочитайте [область поиска в центре безопасности Office 365 для _амп_ на соответствие требованиям](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- В гибридном развертывании Exchange содержимое из сообщений чата будет доступно для поиска вне зависимости от того, есть ли у участников беседы почтовый ящик на основе облака или локальный почтовый ящик. Дополнительные сведения можно найти в статье Просмотр почтовых [ящиков в облаке для локальных пользователей в Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Чтобы узнать о поиске содержимого в Teams, прочитайте [область поиска в центре безопасности & Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 > [!TIP]
 > Сведения о том, как использовать Azure AD Connect для синхронизации с Azure Active Directory, можно найти [в разделе Интеграция локальных удостоверений с Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
