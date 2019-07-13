@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения о том, как настроить телефонную систему (облачную УАТС) для своей организации. '
-ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588177"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643165"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Настройка телефонной системы в организации
 
@@ -224,7 +224,8 @@ ms.locfileid: "35588177"
 
 Автосекретарь позволяет людям, которые могут позвонить в организацию, и переходить в систему меню, чтобы получить их в нужный отдел, очередь звонков, человека или оператор. Вы можете создать автосекретарь для своей организации с помощью центра администрирования Skype для бизнеса.
 
-Чтобы создать новый автосекретарь, в центре администрирования Skype для бизнеса выберите команду автосекретарь для **маршрутизации звонков** > ****, нажмите кнопку **Добавить**и следуйте инструкциям для каждой страницы в разделе Настройка автосекретаря облачной службы в **действии 2** . [ ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Чтобы создать новый автосекретарь, в центре администрирования Skype для бизнеса выберите пункт автосекретарь для **маршрутизации звонков** > ****, нажмите кнопку **Добавить**и следуйте инструкциям для каждой страницы на **этапе 2** [создания автоматического секретаря облачной службы. ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+
 
 **Дополнительные сведения о автосекретарях в облаке можно найти [в разделе Настройка автосекретаря в облаке](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 

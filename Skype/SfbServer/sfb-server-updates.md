@@ -10,19 +10,26 @@ ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: Централизованный поиск обновлений Skype для бизнеса Server 2015 и Lync 2013, а также управление ими. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: Найдите и управляйте обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
+ms.openlocfilehash: dcc267be9c7a77ea0a472941ff298d993c08ae7c
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221860"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638583"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
-Найдите и управляйте обновлениями для [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
+Найдите и управляйте обновлениями для [Skype для бизнеса server 2019](#skype-for-business-server-2019-update-history), [Skype для бизнеса Server 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)и [Lync Server 2010](#lync-server-2010-update-history) в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
 
 Последние обновления для Skype для бизнеса Online и Office 365 можно найти в разделе [план Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
+
+## <a name="skype-for-business-server-2019-update-history"></a>Журнал обновлений Skype для бизнеса Server 2019
+
+|Имя пакета|Номер статьи базы знаний|Дата выпуска|
+|:--- |:--- |:--- |
+|Накопительное обновление 1 для Skype для Business Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 июля |
+| | | |
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Журнал обновлений Skype для бизнеса Server 2015
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения о том, что может делать система с телефонной системой. '
-ms.openlocfilehash: 60978b76eb6bf986c5db0b1a8ee04de1c5516c73
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548958"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643141"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Что такое телефонная система в Office 365?
 
@@ -41,9 +41,9 @@ ms.locfileid: "34548958"
   
 - Приобретая план звонков (внутренние или внутренние и международные) для Office 365. Просмотр [планов телефонной системы и звонков](calling-plan-landing-page.md)
     
-- Используя локальную сеть PSTN, в которой программное обеспечение в локальной сети подключается к существующей инфраструктуре телефонной связи. Проучите [планирование телефонной системы](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Схема, описывающая предложения облачной АТС](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- Используя локальную сеть PSTN, в которой программное обеспечение в локальной сети подключается к существующей инфраструктуре телефонной связи. Ознакомьтесь с [решениями телефонной связи Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## <a name="more-about-calling-plans"></a>Дополнительные сведения о тарифных планах
 
