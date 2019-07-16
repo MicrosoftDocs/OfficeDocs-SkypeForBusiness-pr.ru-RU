@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Скачивание, установка и использование Windows PowerShell 5,1 для создания удаленного сеанса PowerShell, который подключается к Skype для бизнеса Online.
-ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285117"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701559"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5,1
 
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> При выполнении предыдущей команды может появиться следующее сообщение об ошибке: _Гт_ *Set-ExecutionPolicy: доступ к\\реестру кэй'хкэй_локал_мачине программного обеспечения\\Microsoft\\PowerShell\\1 шеллидс\\\\Микрсофт. PowerShell запрещен.* Это сообщение об ошибке обычно появляется, если вы не используете PowerShell с учетными данными администратора. Чтобы исправить эту ошибку, закройте сеанс PowerShell и запустите новый сеанс от имени администратора.
+> При выполнении предыдущей команды может появиться следующее сообщение об ошибке: > *Set-ExecutionPolicy: доступ к\\реестру кэй'хкэй_локал_мачине программного обеспечения\\Microsoft\\PowerShell\\1 шеллидс\\\\Микрсофт. PowerShell запрещен.* Это сообщение об ошибке обычно появляется, если вы не используете PowerShell с учетными данными администратора. Чтобы исправить эту ошибку, закройте сеанс PowerShell и запустите новый сеанс от имени администратора.
  
 Чтобы проверить правильность настройки политики выполнения, в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
   
@@ -93,7 +93,7 @@ Get-ExecutionPolicy
 
 Если вы не знаете свою версию Windows или не уверены, установлен ли у вас пакет обновления 1 для Windows 7, откройте меню **Пуск**, щелкните правой кнопкой мыши пункт **Компьютер** и выберите пункт **Свойства**. Нужная информация будет представлена в диалоговом окне "Система".
   
-Чтобы установить среду Windows Management Framework 5,1, выполните действия, описанные в разделе [Установка и настройка WMF 5,1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
+Чтобы установить среду Windows Management Framework 5,1, выполните действия, описанные в разделе [Установка и настройка WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
   
 После перезагрузки проверьте работоспособность Windows PowerShell и возможность запуска этого приложения от имени администратора. Для этого выполните следующие действия:
   

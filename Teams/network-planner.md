@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2c2c7242c594d67af131d3a15224ddf16419c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35214825"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701569"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Использование планировщика сети для Microsoft Teams
 
@@ -36,6 +36,8 @@ ms.locfileid: "35214825"
     > Рекомендованные персонажи были разработаны на основе данных из рабочих групп, наиболее подходящих для использования, и типичных шаблонов использования. Однако вы можете создать до трех специальных персонажей в дополнение к трем рекомендованным персонажам.
 
 - Создание отчетов и вычисление требований к пропускной способности для использования в Teams.
+
+Для использования планировщика сети вы должны быть глобальным администратором, администратором службы Teams или администратором для связи с Team.
 
 ## <a name="create-a-custom-persona"></a>Создание собственного персонажа
 
@@ -95,3 +97,7 @@ ms.locfileid: "35214825"
     - Дополнительное представление показывает общую пропускную способность, необходимую для рекомендаций.
 
 4. Нажмите кнопку **Сохранить**. Отчет будет доступен в списке "отчеты" для последующего просмотра.
+
+## <a name="example-scenario"></a>Пример сценария
+
+Пример использования планировщика сети для настройки плана сети и создания отчета с помощью описанных ниже действий можно скачать в PowerPoint из набора слайдов " [планировщик сети](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) " (только на английском языке).
