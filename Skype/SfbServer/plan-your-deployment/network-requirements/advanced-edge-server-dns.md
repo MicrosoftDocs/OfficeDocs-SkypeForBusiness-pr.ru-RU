@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: сценарии проверки для параметров развертывания в Skype для бизнеса Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297073"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758944"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Улучшенное планирование DNS для Microsoft Edge Server для сервера Skype для бизнеса
  
@@ -112,7 +112,7 @@ This presents some challenges. Самое важное — DNS с разделе
     
 - Все интерфейсы внутренней стороны Skype для бизнеса Server в демилитаризованной зоне используют эту внутреннюю зону DNS для разрешения запросов в contoso.com.
     
-- Все серверы, на которых работает Skype для бизнеса, и клиенты, использующие Skype для бизнеса Server в корпоративной сети, наведите на внутренние DNS-серверы разрешение запросов в contoso.com или используют файл host на каждом пограничном сервере, а также список A и AAAA (если вы используете IPv6-адресация) — записи для сервера следующего прыжка (специально для директоров, а также для пула пула внешних интерфейсов или сервера Standard Edition).
+- Все серверы, на которых работает Skype для бизнеса Server, и клиенты, использующие Skype для бизнеса Server в корпоративной сети, наведите на внутренние DNS-серверы разрешение запросов в contoso.com или используйте файл host на каждом пограничном сервере, а также список A и AAAA (если вы используете IPv6-адресация) — записи для сервера следующего прыжка (специально для директоров, а также для пула пула внешних интерфейсов или сервера Standard Edition).
     
 ### <a name="external-dns"></a>Внешняя DNS
 

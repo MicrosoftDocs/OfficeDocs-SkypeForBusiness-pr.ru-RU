@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Процесс проверки сосуществования пилотного пула с помощью устаревшего пула.
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280655"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758906"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Проверка возможности совместного использования пилотного и старого пула
 
@@ -65,7 +65,7 @@ ms.locfileid: "34280655"
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Не пытайтесь открыть топологию в построителе устаревших топологий
 <a name="sectionSection2"> </a>
 
-Если вы попытаетесь открыть топологию с помощью устаревшей построителя топологии, вам будет выдано следующее сообщение об ошибке. Топологию можно просмотреть только с помощью построителя топологии Skype для Business Server 2019. Для создания пулов как в Skype для бизнеса Server 2019, так и в устаревшей версии, необходимо использовать построитель топологии Skype для бизнеса Server 2019.
+Топологию можно просмотреть только с помощью построителя топологии Skype для Business Server 2019. Для создания пулов как в Skype для бизнеса Server 2019, так и в устаревшей версии, необходимо использовать построитель топологии Skype для бизнеса Server 2019.
 
   
 

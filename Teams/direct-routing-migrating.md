@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, что необходимо для перехода на прямую маршрутизацию с точки зрения конфигурации в Skype для бизнеса Online и Teams.
-ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290425"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35759010"
 ---
 # <a name="migrate-to-direct-routing"></a>Переход на прямую маршрутизацию
 
@@ -72,7 +72,7 @@ ms.locfileid: "34290425"
 - [Get-Ксонлинелислокатион](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-Рекомендуется удалить сведения о плане лицензирования превиаусликконфигуред следующим образом:
+Рекомендуется удалить ранее настроенные сведения о плане лицензирования, как описано ниже.
  
 ```
 $companyname = “contoso” 
