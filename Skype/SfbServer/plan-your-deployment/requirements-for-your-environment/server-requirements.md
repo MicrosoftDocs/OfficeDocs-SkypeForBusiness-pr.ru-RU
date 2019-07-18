@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Аннотация: Подготовьте серверы Skype для бизнеса Server 2015 с помощью этой темы. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
-ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 34e00f3b53dbec6699b7cc5980f7c608cf5e883b
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758951"
+ms.locfileid: "35768049"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -88,6 +88,7 @@ ms.locfileid: "35758951"
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>Внутренние базы данных, которые будут работать с Skype для бизнеса Server 2015
 <a name="DBs"> </a>
 
+
 При установке Skype для Business Server 2015 Standard Edition также будет автоматически установлен SQL Server 2014 Express (64-bit Edition).
   
 Skype для бизнеса Server 2015 Enterprise Edition немного сложнее, но поддерживаемый список ниже (все, что является 64-битным выпуском, вы увидите, что не используйте 32-разрядные выпуски):
@@ -99,8 +100,9 @@ Skype для бизнеса Server 2015 Enterprise Edition немного сло
    
 Если вы не видите версию SQL Server, которую вы хотите использовать, вы не сможете использовать ее.
   
-> [!NOTE]
-> Кроме того, необходимо установить службы SQL Server Reporting Services для роли сервера мониторинга.
+- Кроме того, необходимо установить службы SQL Server Reporting Services для роли сервера мониторинга.
+- Для надежной серверной части SQL соединение с клиентским интерфейсом Skype для бизнеса должно быть локальным, а не через высокоскоростной канал. 
+- Совместное использование SQL задних концов между двумя или более пулами не поддерживается.
 
 ### <a name="microsoft-exchange-storage"></a>Хранилище Microsoft Exchange
 Meeting content files, such as PowerPoint presentations, are archived as attachments. Если вы хотите сохранить архивные данные в Skype для бизнеса с данными о соответствии требованиям Exchange, необходимо использовать Exchange для развертывания Exchange и гарантировать, что максимальный размер хранилища будет поддерживать хранение файлов содержимого собраний. Перед развертыванием и включением архивации с помощью параметра интеграции Microsoft Exchange необходимо выполнить развертывание Exchange. 
