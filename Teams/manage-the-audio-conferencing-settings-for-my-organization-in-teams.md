@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: b8a93b9f6ad47b4b1f4203e4611331bfe3c13b59
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343916"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793198"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "34343916"
 4. На странице **Лицензии на продукты** включите **Аудиоконференции** и нажмите кнопку **Сохранить**. Дополнительные сведения о лицензировании можно найти в разделе [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
-> После назначения лицензии Майкрософт может сначала не отображаться в списке как поставщик услуг аудиоконференций. В таком случае выйдите из Центра администрирования Office 365 или нажмите клавиши CTRL+F5 для обновления окна браузера. 
+> После назначения лицензии Майкрософт может сначала не отображаться в списке как поставщик услуг аудиоконференций. Если это случится, выйдите из центра администрирования или нажмите клавиши CTRL + F5, чтобы обновить окно браузера. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включение или отключение отправки сообщений пользователям аудиоконференций
 

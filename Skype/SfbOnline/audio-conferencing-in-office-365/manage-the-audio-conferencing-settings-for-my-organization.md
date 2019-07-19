@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'В статье Skype для бизнеса Online вы можете назначать лицензии для конференц-связи с телефонным подключением и ИДЕНТИФИКАТОРом конференции для пользователя и многих других параметров конференц-связи с телефонным подключением. '
-ms.openlocfilehash: aef115d2882a368e085880a66332dc7d22e4ff04
-ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
+ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35638567"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792321"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Управление параметрами аудиоконференций организации в Skype для бизнеса Online
 
@@ -38,13 +38,13 @@ ms.locfileid: "35638567"
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии на аудиоконференцию
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Вы не можете назначать лицензии с помощью **центра администрирования Skype для бизнеса**. Необходимо использовать центр администрирования Microsoft 365. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Назначение лицензии для пользователя**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. В левой области навигации **центра администрирования Office 365**перейдите в раздел **Пользователи** > :**Активные**пользователи, а затем выберите пользователя или пользователей из списка доступных пользователей.
+2. На панели навигации в центре администрирования перейдите в раздел**Активные пользователи** **пользователей** > и выберите пользователя или пользователей из списка доступных пользователей.
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -54,7 +54,7 @@ ms.locfileid: "35638567"
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.
+> После назначения лицензии Майкрософт может не отображаться в списке в качестве поставщика видеоконференций. Если это случится, выйдите из центра администрирования или нажмите клавиши CTRL + F5, чтобы обновить окно браузера.
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включение и отключение электронных писем, отправляемых пользователям голосовой конференции
 
@@ -62,7 +62,7 @@ ms.locfileid: "35638567"
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса** и на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
 3. На странице **Параметры моста Microsoft** поставьте или снимите флажок **Автоматически отправлять сообщения пользователям при изменении их параметров аудиоконференций**.
 
@@ -111,7 +111,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. На панели навигации слева в **центре администрирования Skype для бизнеса** перейдите к секции **Аудиоконференции** и на панели действий в области**Идентификатор конференции** нажмите на кнопку **Сброс**.
 
@@ -129,7 +129,7 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса** и на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
 3. Нажмите кнопку **Пользователи**, а затем выберите пользователя, для которого вы хотите сбросить PIN-код.
 
@@ -143,7 +143,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса** и на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
 3. Нажмите кнопку **Пользователи**, а затем выберите пользователя, для которого вы хотите сбросить PIN-код.
 
@@ -158,7 +158,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
 
@@ -176,7 +176,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите к **центру администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
 
@@ -196,7 +196,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите к **центру администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
 
@@ -210,7 +210,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса** и на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в центр администрирования > **Skype для бизнеса** и на панели навигации слева выберите пункт **Голосовая конференция**.
 
 3. На странице **Параметры моста Microsoft** поставьте или снимите флажок **Автоматически отправлять сообщения пользователям при изменении их параметров аудиоконференций**.
 
@@ -227,7 +227,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. В **центре администрирования Skype для бизнеса**на панели навигации слева выберите пункт "звуковые **конференции**", а затем — **Microsoft Bridge**.
 
@@ -241,7 +241,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
@@ -259,7 +259,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел " **звуковые конференции**> и нажмите **пользователей**.
 
@@ -320,7 +320,7 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования, например при изменении параметров для нескольких пользователей одновременно. Learn about these advantages in the following topics:
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

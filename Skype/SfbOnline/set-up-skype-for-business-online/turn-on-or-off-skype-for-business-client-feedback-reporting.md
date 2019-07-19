@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Пользователи Skype для бизнеса могут использовать встроенное средство обратной связи в Skype для бизнеса, чтобы пользователи могли сообщать о проблемах и получать отзывы прямо в Microsoft о своих впечатлениях.
-ms.openlocfilehash: a15ef9f8c29b98dc4012800716380e6979d2874e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d7d80110be63b60fcfa1581c806d01ab0f056077
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221817"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792670"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Включение и выключение отчетов и отзывов клиентов в Skype для бизнеса
 
@@ -87,7 +87,7 @@ ms.locfileid: "35221817"
     
   - [Шесть причин, по которым вам может потребоваться использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

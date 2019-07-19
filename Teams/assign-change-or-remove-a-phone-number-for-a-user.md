@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Здесь вы узнаете, как назначить, изменить или удалить номер рабочего телефона для пользователей Teams, чтобы внешние компании и клиенты могли звонить через Skype.
-ms.openlocfilehash: 4536beb4e5dc11e579f2a6ef016e0c3f94e426a6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: ccc8e723b1f4915781c47d416fa05d4cfb9c871d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347949"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792932"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 
@@ -38,7 +38,7 @@ ms.locfileid: "35347949"
 Чтобы узнать, как получить планы звонков в Teams и оценить их стоимость, ознакомьтесь [со статьей лицензирование надстроек для Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Один из способов узнать, назначено ли пользователю лицензия, — перейти в центр администрирования Microsoft Teams > **пользователей**. Если назначена лицензия, она будет показана на странице.  Вы также можете использовать центр администрирования Office 365.
+> Один из способов узнать, назначено ли пользователю лицензия, — перейти в центр администрирования Microsoft Teams > **пользователей**. Если назначена лицензия, она будет показана на странице.  Вы также можете использовать центр администрирования Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Назначение пользователю номера телефона
  

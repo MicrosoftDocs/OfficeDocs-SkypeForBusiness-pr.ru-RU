@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29506a30f20056b422b7780896d5661326986e0
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198662"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793276"
 ---
 # <a name="quality-of-experience-review-guide"></a>Руководство по анализу качества взаимодействия
 
@@ -74,7 +74,7 @@ _На рисунке 1 описываются основные рабочие о
 
 Кроме того, вы можете назначить следующую роль учетной записи пользователя Office 365, чтобы предоставить доступ к функциям отчетов только.
 
--   **Читатель отчетов:** Можно просматривать все [отчеты об активности](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) в центре администрирования Office 365, любые отчеты из [пакета содержимого для оценки внедрения Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)и отчеты CQD.
+-   **Читатель отчетов:** Можно просматривать все [отчеты об активности](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) в центре администрирования, любые отчеты из [пакета содержимого для оценки внедрения Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)и отчеты CQD.
 
 ## <a name="what-is-quality"></a>Что такое качество?
 

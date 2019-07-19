@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Включение и отключение записи звука и видео, а также сведения о том, что не включено в записную видеоконференции. '
-ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494084"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792603"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Разрешение записи аудио- и видеоконференций
 
@@ -32,7 +32,7 @@ ms.locfileid: "34494084"
 
 ![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
-1. Откройте > **Skype для бизнеса**в **центре администрирования Office 365**и выберите пункт **Пользователи**.
+1. Откройте центр администрирования > **Skype для бизнеса**и выберите пункт **Пользователи**.
     
 2. На странице **Пользователи** выберите пользователя или пользователей из списка и нажмите кнопку **изменить**.
     

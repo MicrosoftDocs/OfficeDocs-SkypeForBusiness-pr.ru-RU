@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как определить входящие номера конференц-связи в Skype для бизнеса Online. '
-ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299052"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792448"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Просмотр списка номеров для аудиоконференций в Skype для бизнеса Online
 
@@ -53,7 +53,7 @@ If there is only one phone number available in your organization, it will be use
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
     
 3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел видеоконференции **** > **Microsoft Bridge**, а затем:
     
@@ -75,7 +75,7 @@ If there is only one phone number available in your organization, it will be use
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

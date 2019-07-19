@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензиях надстроек, функциях и о том, как приобрести планы Office 365 корпоративный (E1, E3, и E4). '
-ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290059"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792885"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 корпоративный (E1, E3 и E4)
 
@@ -44,7 +44,7 @@ ms.locfileid: "34290059"
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Клиенты с планами E1 и E3: как просмотреть цены и приобрести дополнительные лицензии
 <a name="bkmk_buypremium"> </a>
 
-1. Войдите в Центр администрирования Office 365.
+1. Войдите в центр администрирования.
 
 2. Перейдите в раздел **Выставление счетов** > **Подписки** > **Дополнения** > **Купить дополнения**.
 
@@ -59,14 +59,14 @@ ms.locfileid: "34290059"
 
 1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
-2. Войдите в Центр администрирования Office 365 и перейдите в раздел **Выставление счетов** > **Подписки** > **Надстройки**.
+2. Войдите в центр администрирования и перейдите в раздел надстройки**подписки** > **** на **выставление счетов** > .
 
     После этого появится возможность просмотреть цены и приобрести надстройки **телефонной системы** и **аудиоконференции**.
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Почему я не вижу команду для приобретения надстроек?
 <a name="bkmk_how"> </a>
 
-В некоторых случаях возможность приобретения надстроек Skype для бизнеса в центре администрирования Office 365 не отображается.
+В некоторых случаях возможность приобретения надстроек Skype для бизнеса в центре администрирования Microsoft 365 не отображается.
 
 - **Вы приобрели Office 365 бизнес премиум через GoDaddy**. В этом случае вы не сможете купить надстройки Skype для бизнеса. Необходимо переключиться на план E3 (который не продается через GoDaddy), после чего вы сможете их приобрести. [Обратитесь в службу поддержки для бизнес-продуктов — Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Узнайте о лицензиях на надстройки, о возможностях, которые потребуются вместе с каждой лицензией, о том, как их приобрести для вашего продукта и как использовать существующую несущую. Вы можете получить сведения о ценах и планах для Office 365, кредитов связи и планов звонков.
-ms.openlocfilehash: 19dc2b9714d3a2c5881b68d880891c8155b32fc1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298581"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793074"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -74,7 +74,7 @@ ms.locfileid: "34298581"
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Просмотр цен и приобретение лицензий на надстройки
 <a name="bkmk_how"> </a>
 
- **После покупки плана Office 365 вы сможете просмотреть цены и приобрести дополнительные лицензии в Центр администрирования Office 365**.
+ **После покупки плана Office 365 вы можете просматривать цены и покупать надстройки в центре администрирования**.
 
 В зависимости от требуемых дополнительных лицензий рекомендуется [сравнить их выгодность](https://go.microsoft.com/fwlink/?linkid=844053) и перейти на план, в который уже входят эти функции.
 

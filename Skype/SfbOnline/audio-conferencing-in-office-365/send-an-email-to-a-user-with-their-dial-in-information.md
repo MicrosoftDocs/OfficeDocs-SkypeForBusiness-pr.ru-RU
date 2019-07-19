@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Отправляйте своим пользователям сообщения электронной почты с информацией для участия в аудиоконференциях в Skype для бизнеса Online.
-ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302100"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792271"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправка электронного письма пользователю со сведениями о голосовой конференции в Skype для бизнеса Online
 
@@ -56,7 +56,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса**и на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**, а затем на панели навигации слева выберите пункт **звуковые конференции**.
     
 3. Нажмите кнопку **Пользователи**, а затем выберите пользователя.
     
@@ -110,7 +110,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах: 
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics: 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

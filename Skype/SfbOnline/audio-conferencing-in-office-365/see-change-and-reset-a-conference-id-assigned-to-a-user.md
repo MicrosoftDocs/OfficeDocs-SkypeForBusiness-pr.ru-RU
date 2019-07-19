@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как присвоить пользователю идентификатор конференции для Skype для бизнеса Online и какими должны быть параметры для установки идентификатора конференции. '
-ms.openlocfilehash: 884934360c8d3a627e68486189acc398c22b68f2
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35002839"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793007"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Просмотр и сброс идентификатора конференции, присвоенного пользователю в Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. В **Центре администрирования Skype для бизнеса**> **Аудиоконференции** > **Пользователи**, выберите пользователя, которому необходим идентификатор конференции.
 
@@ -79,7 +79,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
 3. **** В > **** центре>  **администрирования Skype для бизнеса**, в разделе " **идентификатор конференции**", в области "действия" нажмите кнопку **Сброс**.
 
@@ -113,7 +113,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics:
 
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'В этой статье описано, как сбросить идентификатор конференции пользователя в Skype для бизнеса Online и получить ссылки на обновления и средства миграции для собраний. '
-ms.openlocfilehash: dd6d97400f5fdde9d1821f2843f1b48060b5886e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0e214444b80f6562c733526acbb6f87c66e46922
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299109"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792108"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Сброс идентификатора конференции для пользователя в Skype для бизнеса Online
 
@@ -75,7 +75,7 @@ ms.locfileid: "34299109"
     
   - [Шесть причин использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только Центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

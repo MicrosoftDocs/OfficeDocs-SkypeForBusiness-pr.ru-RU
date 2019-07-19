@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Сведения о том, как включать и отключать уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих, голосовых сообщениях и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494056"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792128"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 
@@ -39,7 +39,7 @@ ms.locfileid: "34494056"
 
 1. Войдите в Office 365.
     
-2. Перейдите в **Центр администрирования Office 365** > **Skype для бизнеса**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**.
     
 3. Перейдите к разделу**Общие** **Организации** > . 
     

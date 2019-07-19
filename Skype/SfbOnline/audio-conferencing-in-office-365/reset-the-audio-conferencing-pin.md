@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте о том, что нужно знать о контактах и о том, как сбросить их в Skype для бизнеса Online. '
-ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299089"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792281"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
 
@@ -40,7 +40,7 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
-2.  > Перейдите в **центр администрирования Office 365**в**Skype для бизнеса**и на панели навигации слева выберите пункт **звуковые конференции**.
+2. Перейдите в центр администрирования > **Skype для бизнеса**, а затем на панели навигации слева выберите пункт **звуковые конференции**.
     
 3. Щелкните **Пользователи**, выберите пользователя, для которого вы хотите сбросить PIN-код.
     
@@ -91,7 +91,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell имеет множество преимуществ в скорости, простоте и эффективности работы по сравнению с использованием только центра администрирования Office 365, например при внесении изменений для множества пользователей одновременно. Подробнее об этих преимуществах можно узнать в следующих разделах:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Learn about these advantages in the following topics:
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

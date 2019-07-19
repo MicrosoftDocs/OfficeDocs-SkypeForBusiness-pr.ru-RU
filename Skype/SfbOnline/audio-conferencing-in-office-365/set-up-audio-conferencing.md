@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494199"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792176"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Настройка голосовой конференции в Skype для бизнеса
 
@@ -94,7 +94,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 
 ![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**:
 
-1. Перейдите на**портал**администрирования **центра администрирования Office 365** > **** > **Teams** > Center.
+1. Перейдите в центр администрирования > портал **** > **групп** > ****, наследуемых центром администрирования.
 2. Выберите мост для **звуковых конференций** > **Microsoft**. 
 3. Выберите номер телефона для моста конференц-связи, нажмите кнопку **задать языки**и выберите язык по умолчанию.
 

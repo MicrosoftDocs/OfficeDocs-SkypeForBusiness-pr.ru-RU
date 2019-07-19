@@ -12,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Чтобы открыть мастер Office Online, щелкните Серверы Office Web Apps правой кнопкой мыши и выберите пункт Определение нового сервера Office Web Apps.
-ms.openlocfilehash: 1c6d93873094c7eec725d4093134541fa4d17f28
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Щелкните правой кнопкой мыши серверы Office Web Apps и выберите пункт Создать сервер Office Web Apps, чтобы открыть мастер.
+ms.openlocfilehash: ebaa4405d0b6f7f29447c43cbd5bcd8f36d21e8d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289989"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792661"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Узел области серверов Office Web Apps
 
-Чтобы открыть мастер Office Online, щелкните **Серверы Office Web Apps** правой кнопкой мыши и выберите пункт **Определение нового сервера Office Web Apps**.
+Щелкните правой кнопкой мыши **серверы Office Web Apps** и выберите пункт **создать сервер Office Web Apps** , чтобы открыть мастер.
 
 ![Узел области серверов Office Web Apps](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: 6b68931bbedc80bcd8209e366de8201e4b93c98d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221645"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793237"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -36,7 +36,7 @@ ms.locfileid: "35221645"
 
 1. Войдите в систему с помощью учетной записи глобального администратора Office 365 или учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)администратора Skype для бизнеса по адресу.
     
-2. В центре администрирования Office 365 перейдите в раздел **центры** > администрирования**Teams**.
+2. В центре администрирования перейдите в раздел **центры** > администрирования**Teams**.
     
 3. В **центре администрирования Teams**перейдите к старым собраниям по**сети** > **** с помощью **портала** > и выберите **Включить трансляцию собраний Skype**.
     

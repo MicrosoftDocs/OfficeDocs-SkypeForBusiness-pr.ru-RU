@@ -16,12 +16,12 @@ MS.collection:
 description: Узнайте, как использовать отчеты об активности, чтобы увидеть, как пользователи в вашей организации используют Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85184f1de59338282ddd676009f000794b1b4b07
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 18076fd3aeb47e0afadaf7eb1917369a1a55ea3b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548679"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792825"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Использование отчетов об активности в Microsoft Teams 
 ========================================
@@ -45,7 +45,7 @@ ms.locfileid: "34548679"
 
 С помощью отчета о действиях пользователей в Teams вы получаете представление о наиболее распространенных действиях, выполняемых пользователями в Teams. Сюда входит количество людей, участвующих в чате в канале, количество контактов через личное сообщение чата, а также количество входящих звонков и собраний. Вы можете просматривать эти сведения для всей Организации, а также для каждого отдельного пользователя.
 
-![Снимок экрана: отчет о действиях пользователей в центре администрирования Office 365.](media/teams-user-activity-report.png)
+![Снимок экрана: отчет о действиях пользователей в центре администрирования.](media/teams-user-activity-report.png)
 
 #### <a name="interpret-the-microsoft-teams-user-activity-report"></a>Анализ отчета об активности пользователей Microsoft Teams
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться настраивать интеграцию между сервером Office Web Apps и Skype для бизнеса Server для включения презентаций PowerPoint для веб-конференций.'
-ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be69b24b2ae64763b1f9b0d324b812b60f69434
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289113"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793291"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с Office Web Apps Server в Skype для бизнеса Server
  
@@ -50,7 +50,7 @@ Skype для бизнеса Server использует сервер Office Web 
     
    - Если сервер Office Web Apps развернут за пределами внутреннего брандмауэра, выберите режим **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**.
     
-7. В диалоговом окне **Определение нового сервера Office Web Apps** нажмите кнопку **ОК**, затем нажмите кнопку **ОК** в диалоговом окне **Изменение свойств**. URL-адрес для обнаружения Office Online будет отображаться как одна из связей пула.
+7. В диалоговом окне **Определение нового сервера Office Web Apps** нажмите кнопку **ОК**, затем нажмите кнопку **ОК** в диалоговом окне **Изменение свойств**. После этого URL-адрес обнаружения будет указан как одно из сопоставлений пула.
     
 Затем необходимо повторить этот процесс для каждого пула, который необходимо связать с сервером Office Web Apps.
   

@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: e7a5eb07f21f889da545fd2270789d3bd34ed42b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494239"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793347"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Настройка присутствия в Skype для бизнеса Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "34494239"
 
 ![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
 
-1. Откройте **центр администрирования Office 365 в центре** > **** > администрирования**Skype для бизнеса**.
+1. Перейдите в центр администрирования > >  **"центр администрирования"** в**Skype для бизнеса**.
 
 2. В **центре администрирования Skype для бизнеса**выберите пункт **Организация**.
 

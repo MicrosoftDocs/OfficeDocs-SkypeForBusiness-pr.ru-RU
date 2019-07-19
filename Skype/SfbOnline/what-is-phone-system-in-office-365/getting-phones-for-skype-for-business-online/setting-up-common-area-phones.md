@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для стационарных телефонов с областями.
-ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493860"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792458"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -49,7 +49,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 Вам потребуется выполнить следующие шаги:
 
 ### <a name="step-1---buy-the-licenses"></a>Шаг 1. Приобретение лицензий
-1. В Центре администрирования Office 365 перейдите в **Выставление счетов** > **Приобретение услуг** и добавьте **Другие планы**.
+1. В центре администрирования перейдите в раздел**услуги**по **выставлению счетов** > и добавьте **другие планы**.
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Нажмите на **Телефон общего пользования** > **Купить**, на странице **Оформление заказа** нажмите кнопку **Купить**.
@@ -61,7 +61,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 Дополнительные сведения о лицензиях можно найти в [статье Лицензирование надстроек Skype для бизнеса и Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Шаг 2. Создание новой учетной записи пользователя для телефона и назначение лицензии
-1. В центре администрирования Office 365 перейдите в раздел **Пользователи** > **Активные пользователи** > **Добавление пользователя**.
+1. В центре администрирования перейдите в раздел **Пользователи** > , которые являются**активными** > , чтобы**Добавить пользователя**.
 2. В поле **Имя пользователя** укажите, например, "Основная", а в графе для фамилии — "Приемная".
 3. В поле **Отображаемое имя**, если оно не заполнилось автоматически, укажите, например, "Главная Приемная".
 4. В поле**Имя пользователя** укажите, например, "MainReception" или "Mainlobby".
@@ -83,7 +83,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 ![Значок, показывающий логотип](../../images/sfb-logo-30x30.png) Skype для бизнеса, назначает пользователю телефонный номер с помощью **центра администрирования Skype для бизнеса** .
 
-1. В центре администрирования Office 365 _гт_ **центр** > администрирования**Skype для бизнеса**.
+1. В центре администрирования > >  **"центр администрирования"** в**Skype для бизнеса**.
 2. Далее: **Центр администрирования Skype для бизнеса** >  **Голосовая связь** > **Номера телефонов**.
 3. Выберите номер телефона из списка и нажмите **Назначить**.
 4. На странице **Назначить** в поле **Пользователь голосовой связи** введите имя пользователя телефона, а затем выберите пользователя в выпадающем списке **Выбор пользователя голосовой связи**.

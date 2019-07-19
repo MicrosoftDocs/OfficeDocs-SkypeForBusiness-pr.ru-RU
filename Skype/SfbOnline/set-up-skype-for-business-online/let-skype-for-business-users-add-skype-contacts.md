@@ -19,12 +19,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Узнайте, как разрешить людям, которые пользуются Skype для бизнеса, общаться с пользователями Skype для бизнеса за пределами Организации и добавлять их в список контактов. '
-ms.openlocfilehash: afe1cb7f465a2a2e43056d01e7512f6f46c0f587
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3ba92977fa45686a900a78cfcf231a3c0985a933
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494162"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792147"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Разрешение на добавление контактов Skype пользователям Skype для бизнеса
 
@@ -36,7 +36,7 @@ ms.locfileid: "34494162"
   
 1. Войдите в систему с помощью учетной записи администратора [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage)Office 365 по адресу.
     
-2. В центре администрирования Office 365 перейдите в раздел **центры** > администрирования**Skype для бизнеса**. 
+2. В центре администрирования перейдите в раздел >  **"центры администрирования"****Skype для бизнеса**. 
     
     ![Выберите центр администрирования Skype для бизнеса.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
