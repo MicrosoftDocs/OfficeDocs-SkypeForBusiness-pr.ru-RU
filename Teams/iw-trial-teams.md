@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 6b27cbe49cef8f523504b6a308c6b55f2bd39d12
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548161"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793284"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -39,7 +39,7 @@ Microsoft Teams — отличный инструмент совместной �
 - Forms
 - Планировщик (Майкрософт)
 - Microsoft Teams (Teams1, Teams IW)
-- Office Online
+- Office 
 - PowerApps для Office 365 (план 1)
 - Базовая подписка на SharePoint Online
 - Stream
