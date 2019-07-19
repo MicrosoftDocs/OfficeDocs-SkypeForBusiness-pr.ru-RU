@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e0c17089416315500baba4b42950008ab54946e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218040"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768142"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Приложения, боты и соединители в Microsoft Teams
 
@@ -94,6 +94,15 @@ ms.locfileid: "32218040"
 | Задайте себе вопрос | Действие |
 |--------------|--------|
 | <br>Кому требуется просмотр отчетов об активности, и есть ли у них разрешение на просмотр отчетов? |<ul><li>Если вы не хотите передавать пользователю роль администратора, вы можете [назначить ему роль с правами чтения отчетов](teams-activity-reports.md#reports-reader-role).</li><li>См. статьи [Роли и разрешения](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) и [Просмотр и назначение ролей](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) для получения информации и о назначении ролей администратора в Azure Active Directory.</li></ul> |
+|||
+
+### <a name="app-templates"></a>Шаблоны приложений
+
+Шаблоны приложений — это готовые использованию в рабочей среде приложения для Microsoft Teams, которые поддерживаются сообществом, имеют открытый исходный код и доступны в GitHub. В каждом из шаблонов приведены подробные инструкции по развертыванию и установке приложения для вашей организации, что позволяет получить готовое для установки приложение, с которым можно сразу начать работать. Кроме того, вы получаете полный исходный код, который вы можете изучить максимально подробно или создать свое ответвление и изменить его для своих конкретных нужд.
+
+| Задайте себе вопрос | Действие |
+|--------------|--------|
+| Нужно ли мне установить какие-нибудь шаблоны приложений Teams, например, Icebreaker? |Дополнительные сведения см. в статье [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 
