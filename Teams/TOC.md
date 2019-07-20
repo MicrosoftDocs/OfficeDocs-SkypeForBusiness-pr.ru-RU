@@ -24,6 +24,7 @@
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Управление обнаружением закрытых команд в Teams](manage-discovery-of-private-teams.md)
+## [Настройка модерации канала в Teams](manage-channel-moderation-in-teams.md)
 ## [Общий доступ к файлам в Teams](sharing-files-in-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
@@ -758,6 +759,7 @@
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
 ### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
+### [Лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
 
 
 ## Взаимодействие с Office 365
