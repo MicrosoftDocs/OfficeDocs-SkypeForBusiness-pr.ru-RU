@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652748"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804763"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -117,3 +117,4 @@ ms.locfileid: "34652748"
 
 - [Включение функции совместной работы с Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Специалист по внедрению служб (Майкрософт)](https://aka.ms/AdoptionCert)
+- [Teams в течение 30 интерактивного обучения](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
