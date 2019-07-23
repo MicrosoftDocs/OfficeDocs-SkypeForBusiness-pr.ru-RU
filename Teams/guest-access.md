@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 4af2c6870cb636703ae35a9d3c7c5c19bd2f3105
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221670"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804686"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ ms.locfileid: "35221670"
 
 Гостевой доступ позволяет командам в вашей организации взаимодействовать с людьми, находящимися за пределами организации, предоставляя им доступ к существующим командам и каналам одного или нескольких клиентов. Любой пользователь с корпоративной или потребительской учетной записью Outlook, Gmail или других служб может участвовать в Teams в качестве гостя с полным доступом к командным чатам, собраниям и файлам.
 
-Функция гостевого доступа включена во все подписки Office 365 бизнес премиум, Office 365 корпоративный и Office 365 для образования и не требует дополнительного лицензирования. На одного лицензированного пользователя в клиенте может приходиться до 5 гостей. Дополнительные сведения о лицензировании см. в статье [Руководство по лицензированию службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/ru-RU/azure/active-directory/b2b/licensing-guidance). 
+Гостевой доступ предоставляется вместе со многими вариантами подписки на Office 365 без дополнительных условий лицензирования. Дополнительные сведения о лицензировании см. в статье [Руководство по лицензированию службы совместной работы Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 Гостевой доступ в Microsoft Teams настраивается на уровне клиента и по умолчанию отключен. На гостевой доступ распространяются ограничения служб Azure AD и Office 365.
 
