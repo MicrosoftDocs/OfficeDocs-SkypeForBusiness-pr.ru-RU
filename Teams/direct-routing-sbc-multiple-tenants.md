@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062397"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821072"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -114,7 +114,7 @@ ms.locfileid: "35062397"
 1.  В центре администрирования Microsoft 365 перейдите в раздел**домены** >  **настройки** > **Добавить домен**.
 2.  В поле **введите домен, которым вы владеете** , введите полное доменное имя базового домена. В приведенном ниже примере базовым доменом является *Customers.adatum.biz*.
 
-    ! [Снимок экрана, на котором показана страница добавления домена]] (Media/Direct-Routing-2-SBC-Add-Domain. png)
+    ![Снимок экрана, на котором показана страница "Добавление домена"](media/direct-routing-2-sbc-add-domain.png)
 
 3. Нажмите кнопку **Далее**.
 4. В примере клиент уже имеет adatum.biz в качестве проверенного доменного имени. Мастер не запрашивает дополнительной проверки, так как customers.adatum.biz является поддоменом для уже зарегистрированного имени. Однако если вы добавите полное доменное имя, которое еще не прошло проверку, вам нужно будет пройти процесс проверки. Процесс проверки [описан ниже](#add-a-subdomain-to-the-customer-tenant-and-verify-it).

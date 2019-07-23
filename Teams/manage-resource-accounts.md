@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Сведения об управлении учетными записями ресурсов в Microsoft Teams
-ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818218"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821064"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Управление учетными записями ресурсов в Microsoft Teams
 
@@ -213,16 +213,16 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
 
    [Планирование автосекретарей в облаке](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [Планирование очередей звонков в облаке](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [Планирование очередей звонков в облаке](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Настройка локальных учетных записей ресурсов](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Настройка локальных учетных записей ресурсов](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Для реализаций в Teams или Skype для бизнеса Online:
 
    [Что представляют собой облачные автосекретари?](what-are-phone-system-auto-attendants.md)
 
-   [Настройка облачного автосекретаря](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [Пример для малого бизнеса: настройка автосекретаря](/microsoftteams/tutorial-org-aa)
 

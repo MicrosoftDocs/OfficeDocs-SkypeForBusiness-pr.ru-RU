@@ -1,5 +1,5 @@
 ---
-title: Совместное использование файлов в группах Майкрософт
+title: Совместное использование файлов в Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,59 +8,60 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Группами Майкрософт использует параметры из OneDrive и SharePoint для управления общего доступа.
+description: Microsoft Teams использует параметры из OneDrive и SharePoint для управления демонстрацией.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f4ee036c951197e697c1f74bffb5c079d85bc3
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 8ddb342af669f710bfd9d05c8b21290ebc6e0451
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835077"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821054"
 ---
-# <a name="sharing-files-in-microsoft-teams"></a>Совместное использование файлов в группах Майкрософт
+# <a name="sharing-files-in-microsoft-teams"></a>Совместное использование файлов в Microsoft Teams
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
 
-Файл, общий доступ к функции в группах пользователям, общий доступ к содержимому с другими группами пользователей в своей организации. Совместное использование в группах основано на параметров, настроенных в SharePoint и OneDrive, поэтому все, что можно настроить для SharePoint и OneDrive будет управлять также совместное использование в группах.
+Функции общего доступа к файлам в Teams позволяют пользователям предоставлять общий доступ к содержимому другим пользователям Teams в своей организации. Общий доступ в Teams основывается на параметрах, настроенных в SharePoint и OneDrive, поэтому все, что вы настроили для SharePoint и OneDrive, также будет управлять предоставлением общего доступ в Teams.
+![Схема, показывающая, как работает общий доступ к файлам в OneDrive для бизнеса и SharePoint](media/sharing-files-in-teams-image1.png)
 
-Совместное использование групп позволяет пользователям выполните следующее:
+Совместное использование команд позволяет пользователям выполнять указанные ниже действия.
 
-- Общий доступ к файлам из службы OneDrive.
+- Предоставление общего доступа к файлам в OneDrive.
 
-- Установка разрешений для файлов, которые требуется использовать совместно с другими пользователями.
+- Настройка разрешений для файлов, к которым они нужны другим пользователям.
 
-- Совместное использование файлов по группам.
+- Предоставление общего доступа к файлам в разных командах.
 
-- Совместное использование файлов из их список недавно использовавшихся файлов (обычно это файлы, пользователи наиболее заинтересованы в общий доступ к).
+- Предоставление общего доступа к файлам из списка недавно использовавшихся файлов (как правило, это файлы, которые наиболее интересны пользователям).
 
-- При щелчке по имени файла, чтобы открыть файл всегда оставаться внутри групп.
+- Оставайтесь в Teams, когда они щелкают имя файла, чтобы открыть файл.
 
-Группы сокращает длинные URL-адреса SharePoint и веб-браузере URL-адреса, который указывает на файл. Команды использует имя файла для ссылки на файл. Кроме того параметр **получения ссылки** был изменен в **ссылке** во избежание путаницы, пользователи могут иметь о предоставление другим пользователям доступа в файл.
+Teams сокращает длинные URL-адреса SharePoint и URL-адреса браузера, указывающие на файл. Teams использует только имя файла для связи с файлом. Кроме того, параметр " **получить ссылку** " изменился для **копирования ссылки** , чтобы избежать путаницы с тем, что пользователи могут получить доступ к файлу другим пользователям.
 
-## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>Настройка общего доступа к в OneDrive и SharePoint
+## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>Настройка общего доступ в OneDrive и SharePoint
 
-Дополнительные сведения о совместном использовании файлов в OneDrive и SharePoint в том числе о настройке общего доступа и включить общий доступ и отключает см
+Дополнительные сведения об общем доступе к файлам в OneDrive и SharePoint, в том числе о том, как настроить общий доступ и как включить или отключить общий доступ, можно найти в следующих статьях:
 
-- [Обзор внешнего совместного доступа](https://docs.microsoft.com/sharepoint/external-sharing-overview) — описывает, что произойдет, если пользователей работают, в зависимости от того, что они совместно используют и с кем.
+- [Общие сведения о внешнем общем доступе](https://docs.microsoft.com/sharepoint/external-sharing-overview) : в зависимости от того, к чему они предоставлены, и с кем они поделились.
 
-- [Включить внешний общий доступ к включено или отключено](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) - описывается как глобальный и Администраторы SharePoint могут изменять параметры уровня организации общего доступа для SharePoint и OneDrive.
+- [Включение и отключение функции внешнего совместного использования](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) : сведения о том, как глобальные и администраторы SharePoint могут изменять параметры общего предоставления на уровне Организации для SharePoint и OneDrive.
 
-- Описывает [Изменение внешнего общего доступа для сайта](https://docs.microsoft.com/sharepoint/change-external-sharing-site) — как глобальный и Администраторы SharePoint можно включить внешний общий доступ к включено или отключено для сайта.
+- [Изменить внешний общий доступ для сайта](https://docs.microsoft.com/sharepoint/change-external-sharing-site) — описывает, как глобальные и администраторы SharePoint могут включать и отключать внешний общий доступ для сайта.
 
-- [Измените тип связи по умолчанию, когда пользователи получают ссылки для общего доступа к](https://docs.microsoft.com/sharepoint/change-default-sharing-link) - описывается, как задать тип связи по умолчанию, чтобы он стал более жесткие.
+- [Изменение типа ссылки по умолчанию, когда пользователи получают ссылки для общего доступа](https://docs.microsoft.com/sharepoint/change-default-sharing-link) : в этой статье описано, как задать тип ссылки по умолчанию, чтобы сделать его более строгим.
 
 ## <a name="more-information"></a>Дополнительные сведения
 
 - [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](sharepoint-onedrive-interact.md)
 
-- [SharePoint и рабочих групп: эффективная совместная работа](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+- [SharePoint и teams: Улучшенная совместная](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)работа.
 
-- [Совместное использование папки и файлы OneDrive](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
+- [Общий доступ к файлам и папкам OneDrive](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 
-- [Совместное использование файлов SharePoint или папки](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
+- [Предоставление общего доступа к файлам и папкам SharePoint](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
 
