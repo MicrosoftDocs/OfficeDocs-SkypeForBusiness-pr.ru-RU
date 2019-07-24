@@ -484,6 +484,8 @@
 ### [Учетные записи пользователей](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Настройка свойств](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Управление службами](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Резервное копирование данных RGS](../backup-rgs-data.md)
+### [Использование SEFAUtil](../sefautil-functionality.md)
 ## [Средства управления](../management-tools-2019.md)
 ### [Панель мониторинга качества звонков в Skype для бизнеса Server](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [Планирование панели мониторинга качества звонков](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
