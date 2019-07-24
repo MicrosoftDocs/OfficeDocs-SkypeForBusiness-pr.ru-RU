@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этой статье описано, как настраивать диапазоны портов для клиентов и настраивать политики качества обслуживания в Skype для бизнеса Server для клиентов, работающих под управлением Windows 10.
-ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204016"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841471"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Настройка диапазонов портов и политики качества обслуживания для клиентов в Skype для бизнеса Server
 
@@ -221,7 +221,7 @@ ms.locfileid: "35204016"
 
 Новые политики, созданные вами, вступят в силу только после обновления групповой политики на клиентских компьютерах. Хотя групповая политика периодически обновляется сама, вы можете обновить ее принудительно, запустив на каждом нужном компьютере следующую команду.
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 Команду можно выполнить в любом командном окне, запущенном от имени администратора. Чтобы открыть такое окно с правами администратора, в меню **Пуск** правой кнопкой мыши щелкните **Командная строка** и выберите пункт **Запуск от имени администратора**.
 
