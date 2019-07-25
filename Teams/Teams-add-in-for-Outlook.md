@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc685ac4a283d9db1d99b6d766026c5240b2431
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d4d2cb57738083b299a9f43786bdf28f86741a99
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222024"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861679"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -122,6 +122,8 @@ ms.locfileid: "35222024"
 - Перезапустите клиент Outlook для настольных систем. (Убедитесь, что Outlook не работает в режиме администратора.)
 - Убедитесь в том, что имя учетной записи пользователя, выполнившего вход, не содержит пробелы. (Это известная проблема, которая будет устранена в следующем обновлении.)
 - Убедитесь, что включен единый вход (SSO).
+
+Если администратор настроил Microsoft Exchange для [управления доступом к веб-серверу Exchange (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представителю не удастся запланировать собрание Teams от имени начальника. Решение для этой конфигурации находится на стадии разработки и будет выпущено в будущем. 
 
 Общие указания по отключению надстроек: [Просмотр и установка надстроек, а также управление ими в приложениях Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

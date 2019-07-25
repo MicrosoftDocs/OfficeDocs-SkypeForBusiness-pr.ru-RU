@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: В этой статье объясняется, что нужно учитывать при планировании развертывания комнат Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198654"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851548"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Планирование комнат Microsoft Teams
 
@@ -51,12 +51,13 @@ ms.locfileid: "35198654"
 
 Обычно комплекты и интегрированные устройства включают предустановленное программное обеспечение, а если вы приобрели для систем Surface Pro Поддерживаемые компоненты по отдельности, вам потребуется установить программное обеспечение. Инструкции можно найти [в статье об установке программного обеспечения на устройствах](room-systems-scale.md). 
 
-Вы можете развертывать комнаты Microsoft Teams в Microsoft Teams, Skype для бизнеса Online или гибридных или локальных развертываниях Skype для бизнеса.  Сведения о необходимых лицензиях см. в разделе [Лицензирование комнат Microsoft Teams](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) .
+Вы можете развертывать комнаты Microsoft Teams в Microsoft Teams, Skype для бизнеса Online или гибридных или локальных развертываниях Skype для бизнеса.  Ознакомьтесь со сведениями о необходимых лицензиях на странице " [собрание Teams](skype-room-systems-v2.md) ".
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Будут ли развернуты комнаты Microsoft Teams в вашей организации? </li><li>Как вы будете подставлять системы комнат Microsoft Teams (в комплекте, в виде отдельных компонентов или в виде интегрированного модуля)?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Дальнейшие действия | <ul><li>Определите, кто будет пополнить основные действия в рамках вашего развертывания.</li><li>Изучите созданные вами помещения для собраний (и запланируйте настройку), чтобы понять, где вы хотите развернуть комнаты Microsoft Teams и периферийные устройства, которые будут использоваться для размера комнаты.</li></ul> |
+| | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Определение пользователей, которые будут предпринимать основные действия в рамках развертывания
 

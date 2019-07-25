@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 31a4314b1666810dbd9dbdee398efc8631eac02e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298736"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861844"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Настройка кредитов на связь для организации
 
@@ -35,7 +35,7 @@ ms.locfileid: "34298736"
 > [!NOTE]
 > Для получения сведений о стоимости [ознакомьтесь с тарифами здесь](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
-## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>Шаг 1. Назначение пользователям лицензий на планы звонков и аудиоконференций
+## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Шаг 1: Назначение лицензий на голосовую конференцию или план звонков для пользователей
 
 При регистрации вы получаете определенное количество минут, которое зависит от страны/региона. Вы можете просмотреть количество минут, в которых вы сможете найти страну или регион. [](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) После использования всех этих минут звонки отключаются. Во избежание такой ситуации следует настроить кредиты на связь.
   
