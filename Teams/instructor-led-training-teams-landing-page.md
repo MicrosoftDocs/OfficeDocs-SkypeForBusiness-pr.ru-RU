@@ -13,12 +13,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 828bd8195a00fc54c9c20ffa45cf72cebfb92002
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: a1a5cf0f588e04c556ba1deb1347e5f4eda66f2c
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804851"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861858"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -36,7 +36,7 @@ ms.locfileid: "35804851"
                                 </div>
                             </li>
                             <li>
-                                <a href="https://microsoftteams.eventbuilder.com/This%20is%20Teams">
+                                <a href="https://microsoftteams.eventbuilder.com/This%20is%20Teams"target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -55,7 +55,7 @@ ms.locfileid: "35804851"
                                 </a>
                             </li>
                             <li>
-                                <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">
+                                <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -74,7 +74,7 @@ ms.locfileid: "35804851"
                                 </a>
                             </li>
                             <li>
-                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -93,7 +93,7 @@ ms.locfileid: "35804851"
                             </a>
                         </li>
                         <li>
-                            <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -104,7 +104,7 @@ ms.locfileid: "35804851"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Организация перехода со Skype для бизнеса на Teams</h3>
-                                                <p>Планирование и реализация успешного перехода на Teams (Аудитория: ИТ-специалисты, менеджеры по внедрению изменений)</p>
+                                                <p>Планирование и реализация успешного перехода на Teams. (Аудитория: ИТ-специалисты, руководители по внедрению изменений)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@ ms.locfileid: "35804851"
                             </a>
                         </li>
                             <li>
-                            <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams">
+                            <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -131,7 +131,7 @@ ms.locfileid: "35804851"
                             </a>
                         </li>
                         <li>
-                            <a href="https://aka.ms/TeamsEduWebinars">
+                            <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -150,7 +150,7 @@ ms.locfileid: "35804851"
                             </a>
                         </li> 
                         <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -169,7 +169,7 @@ ms.locfileid: "35804851"
                             </a>
                         </li>
                         <li> 
-                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -180,7 +180,7 @@ ms.locfileid: "35804851"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Teams для сотрудников без компьютеров</h3>
-                                                <p>Сведения о новых возможности в Teams для сотрудников без компьютера. (Аудитория: конечные пользователи)</p>
+                                                <p>Сведения о возможностях в Teams для сотрудников без компьютера. (Аудитория: конечные пользователи)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -188,7 +188,7 @@ ms.locfileid: "35804851"
                             </a>
                         </li>
                         <li> 
-                            <a href="https://aka.ms/TeamsForGov">
+                            <a href="https://aka.ms/TeamsForGov"target="_blank">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
