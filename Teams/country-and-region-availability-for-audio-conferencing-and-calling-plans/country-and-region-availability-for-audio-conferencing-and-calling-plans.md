@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: d167a7d1072377b3eb8fab9d1958a46381500022
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
+ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330894"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "35908229"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -126,7 +126,7 @@ ms.locfileid: "34330894"
 > - [Венесуэла](availability-in-venezuela.md)
 > - [Вьетнам](availability-in-vietnam.md)
 
-**Если вы ищете электронную таблицу со всеми странами и областями, скачайте и сохраните [электронную таблицу доступности для страны или региона](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**.
+**Если вы ищете электронную таблицу со всеми странами и областями, скачайте и сохраните [электронную таблицу доступности для страны или региона](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)**.
 
 ***
 
