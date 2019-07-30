@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821072"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925483"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -58,6 +58,7 @@ ms.locfileid: "35821072"
 
 - **AudioCodes:** [Заметки о настройке прямой маршрутизации](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams): Настройка сценария размещения SBC, описанного в разделе Подключение AudioCodesого SBC к Microsoft Teams, Настройка модели хостинга для маршрутизации. 
 - **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs-канал ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Teams [: Настройка направляющих для ОДНОнаправленных SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Системы TE (аниноде):**  Пожалуйста, зарегистрируйте на [странице сообщества TE](https://community.te-systems.de/) , чтобы получить документацию и примеры того, как настроить SBC аниноде для нескольких клиентов.
 
 > [!NOTE]
 > Обратите внимание на то, как настроить заголовок "Contact". Заголовок контакта используется для поиска клиента клиента на входящем сообщении INVITE. 

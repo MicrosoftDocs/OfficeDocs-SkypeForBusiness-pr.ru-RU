@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается, как запланировать обход мультимедиа с прямой маршрутизацией телефонной системы.
-ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: 15a93a0b447f30af4387ec86fb5a8af2a6151bf7
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768174"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925507"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Планирование обхода сервера-посредника с прямой маршрутизацией
 
@@ -276,9 +276,10 @@ UDP/SRTP | Процессор мультимедиа | БАЙТОВ | 49 152 –
 
 Сведения о том, как настроить две магистральные линии на одном SBC, можно найти в документации, предоставленной вашим поставщиком SBC.
 
-- AudioCodes
-- Вариантов
-- Системы TE (Аниноде)   
+ - [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Документация по развертыванию Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Документация по развертыванию связи с лентой](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Документация по развертыванию системы TE (аниноде)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Конечные точки клиента, поддерживаемые при обходе мультимедиа
 

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588153"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925499"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -34,7 +34,9 @@ ms.locfileid: "35588153"
 Мы рекомендуем убедиться, что ваш SBC уже настроен так, как рекомендовано вашим поставщиком SBC. 
 
 - [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Документация по развертыванию Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Документация по развертыванию связи с лентой](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Документация по развертыванию системы TE (аниноде)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 Вы можете настроить телефонную систему Microsoft и разрешить пользователям использовать прямую маршрутизацию, а затем настроить Microsoft Teams в качестве основного клиента, выполнив следующие действия: 
 

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Корпорация Майкрософт сотрудничает с рядом поставщиков SBC и сертифицирует их контроллеры для работы с прямой маршрутизацией.
-ms.openlocfilehash: 7eabb32c1dbe569bd1838d190af6151e645dae5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 73a9d24a507bd5d0c8448f444225f7dfe8943dde
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290479"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925491"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -44,12 +44,13 @@ ms.locfileid: "34290479"
 
 |                                                       Поставщик                                                        |       ПРОИЗВЕД       | Без обхода сервера-посредника | Обход сервера-посредника | Версия ПО |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20A.250.003   |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20 а. 250   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 а. 250   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20 а. 250   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 а. 250   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20 а. 250  |
+|                                                                                                                     | Одномедианый SBC 9000  |     &#10004;     |   &#10004;     |  7.20 а. 250   |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 а. 250 |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
@@ -67,4 +68,4 @@ ms.locfileid: "34290479"
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
 
-Чтобы оставить отзыв о продукте Microsoft Teams, например поделиться идеями новых функций, зайдите на портал [UserVoice](https://microsoftteams.uservoice.com).
+Чтобы придать нам отзыв о новых возможностях, например идеи по новым функциям, пожалуйста, ознакомьтесь с разрешениями, предоставленными основной версией сертификата [UserVoice](https://microsoftteams.uservoice.com) . Это означает, что поддерживается микропрограмма с любым числом в микропрограмме SBC, следующей за основной версией.

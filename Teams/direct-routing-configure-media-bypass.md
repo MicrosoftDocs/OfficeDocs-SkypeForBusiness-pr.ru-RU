@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается, как настроить обход мультимедиа с прямой маршрутизацией телефонной системы.
-ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 47b537a9feff22a24b97fa5c54669359992b8a31
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394573"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925475"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Настройка обхода сервера-посредника с прямой маршрутизацией
 
@@ -48,9 +48,10 @@ ms.locfileid: "35394573"
 
 Инструкции по настройке магистральных каналов и выполнению миграции можно найти в документации, предоставленной поставщиком SBC.
 
-- AudioCodes
-- Вариантов
-- Системы TE (Аниноде)    
+- [Документация по развертыванию AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Документация по развертыванию Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Документация по развертыванию связи с лентой](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Документация по развертыванию системы TE (аниноде)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 Список контроллеров границ сеансов (SBCs), сертифицированных для прямой маршрутизации, можно найти в разделе [список контроллеров границами сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md).
 
