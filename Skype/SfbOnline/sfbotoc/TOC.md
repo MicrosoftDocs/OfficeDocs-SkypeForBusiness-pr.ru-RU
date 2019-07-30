@@ -298,7 +298,7 @@
 
 ## [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 ### [Диагностика проблем подключения с помощью модуля Skype для бизнеса Online Connector](../set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
-### [Загрузка и установка Windows PowerShell 3.0](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md)
+### [Загрузка и установка Windows PowerShell 5.1](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md)
 ### [Загрузка и установка модуля Skype для бизнеса Online Connector](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
 ### [Управление единой системой обмена сообщениями Exchange и размещенной голосовой почтой](../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
 ### [Управление учетными записями пользователей](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
