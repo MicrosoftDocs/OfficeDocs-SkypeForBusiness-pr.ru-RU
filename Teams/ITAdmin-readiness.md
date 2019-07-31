@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 5e03889c4bdc4ae7c1b34538cba28cc73da9b8a9
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804763"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934488"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -108,7 +108,6 @@ ms.locfileid: "35804763"
 
 <h2>Материалов</h2>
 
-- [Руководство. Переход со Skype для бизнеса на Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
 - [Руководство. Аудиоконференции в Teams](tutorial-audio-conferencing.yml)
 - [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
@@ -117,4 +116,3 @@ ms.locfileid: "35804763"
 
 - [Включение функции совместной работы с Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Специалист по внедрению служб (Майкрософт)](https://aka.ms/AdoptionCert)
-- [Teams в течение 30 интерактивного обучения](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
