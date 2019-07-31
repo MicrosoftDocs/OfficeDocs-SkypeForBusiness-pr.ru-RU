@@ -3,7 +3,6 @@ title: Схема перехода
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432978"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934568"
 ---
 # <a name="about-the-upgrade-framework"></a>Схема перехода
 
@@ -125,5 +124,4 @@ ms.locfileid: "34432978"
 > Наши материалы по обновлению постоянно развиваются. Обязательно ознакомьтесь со статьей для последних руководств и ознакомьтесь с блогом [Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Если вы являетесь администратором в вашем клиенте Office 365, вы можете увидеть параметры обновления в командлете PowerShell или в центре администрирования Microsoft Teams. Однако наличие таких возможностей не означает, что организация готова к переходу. Для оптимального взаимодействия с пользователем убедитесь, что Teams отвечает требованиям для совместной работы и связи, проверяет, готова ли сеть для поддержки Teams, и реализуйте план готовности пользователей перед обновлением пользователей до Teams.
- 
+> Skype для бизнеса Online будет прекращен до 31 июля 2021 г., после чего он больше не будет доступен или поддерживаться. Чтобы повысить эффективность реализации льготы и убедиться в том, что в вашей организации установлено правильное время для внедрения вашего обновления, мы рекомендуем начать путешествие в Microsoft Teams уже сегодня. Помните о том, что успешное обновление ориентировано на техническую и пользовательскую готовность, поэтому не забудьте использовать руководство для навигации в Microsoft Teams.

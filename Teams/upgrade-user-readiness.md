@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344116"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934496"
 ---
 ![Этапы путешествия по обновлению, выделение стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
 
@@ -47,7 +47,7 @@ ms.locfileid: "34344116"
 <table>
 <tbody>
 <tr><th>Какие коммуникационные каналы вы будете использовать?</th><th>Какие обучающие каналы будут использоваться?</th><th>Какие каналы поддержки будут использоваться?</th></tr>
-<tr><td><ul><li>Email<br><strong>Совет.</strong> Для настройки кампании по электронной почте используйте наш пример пилотного, сосуществования и обновления электронной почты.</li><li>Плакаты и цифровая подпись</li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Группы и каналы</li><li>Гамификатион</li></ul></td><td><ul><li>Опубликованные корпорацией Майкрософт статьи и видеоролики в Интернете</li><li>Ресурсам<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Обучение работе с видео в Teams</a></li></ul></li><li>Помощник по продукту (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельное обслуживание (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл обратной связи (опросы, оценки)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Совет.</strong> Для настройки кампании по электронной почте используйте наш пример пилотного, сосуществования и обновления электронной почты.</li><li>Плакаты и цифровая подпись</li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Группы и каналы</li><li>Гамификатион</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Обучение под руководством инструктора (Майкрософт)</a></li><li>Опубликованные корпорацией Майкрософт статьи и видеоролики в Интернете</li><li>Ресурсам<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Обучение работе с видео в Teams</a></li></ul></li><li>Помощник по продукту (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельное обслуживание (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл обратной связи (опросы, оценки)</li></ul></td></tr>
 </tbody>
 </table>
 </div>
