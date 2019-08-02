@@ -76,7 +76,7 @@
 ### [Использование встроенного перевода сообщений](inline-message-translation-teams.md)
 ### [Область поиска в каталоге Microsoft Teams](teams-scoped-directory-search.md)
 
-### Аналитика команд и отчеты в Центре администрирования Microsoft Teams
+### Аналитика и отчеты в центре администрирования Teams 
 #### [Обзор](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Отчет об использовании Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Отчет по активности пользователей Teams](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +626,6 @@
 ### [Мониторинг качества](upgrade-monitor-quality.md)
 ### [Улучшение службы](upgrade-enhance-my-service.md)
 
-## [Руководство. Переход со Skype для бизнеса на Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Вопросы и ответы](FAQ-journey.md)
 ## Дополнительная информация
 ### [Миграция и взаимодействие со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
