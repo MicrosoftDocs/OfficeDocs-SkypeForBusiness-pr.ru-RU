@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 088b684608d4b53cc90373bb018055da24cb2b3c
+ms.sourcegitcommit: 2e47053604211e4387d76ffa9ec61db4c08650fb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804843"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "36045324"
 ---
 # <a name="microsoft-teams-training"></a>Обучение работе с Microsoft Teams
 
@@ -93,28 +93,6 @@ ms.locfileid: "35804843"
 Регулярно проверяйте обновления этого списка, чтобы всегда знать о последних интересных и важных учебных курсах по Teams.
 <ul class="panelContent cardsW">
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams за 30 дней</h3>
-                         <p><a href="https://docs.microsoft.com/microsoftteams/teams-in-30-interactive-training">Интерактивные семинары в прямой трансляции помогут вам освоить Teams всего за 30 дней. </a></p>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Переход со Skype для бизнеса на Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Руководство. Переход со Skype для бизнеса на Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
