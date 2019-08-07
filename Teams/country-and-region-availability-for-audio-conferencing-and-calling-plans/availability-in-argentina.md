@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Аргентина.
-ms.openlocfilehash: 652fd1b734765243ac606507a08c23ce4e900294
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0084e540de60bae8a14372254f19a1347c15f3ac
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283348"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34332261"
 ---
 # <a name="availability-in-argentina"></a>Доступность в Аргентине
 
@@ -43,7 +43,7 @@ ms.locfileid: "34283348"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li>Буэнос-Айрес</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li>Буэнос-Айрес</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты на связь <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -71,7 +71,7 @@ ms.locfileid: "34283348"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатно бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -83,7 +83,7 @@ ms.locfileid: "34283348"
   
 ## <a name="related-topics"></a>См. также:
 
-[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

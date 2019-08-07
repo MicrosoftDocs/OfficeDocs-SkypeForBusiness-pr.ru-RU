@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: Узнайте, какие страны и регионы имеют телефонные номера для конференц-связи и как они автоматически назначаются.
 ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35792312"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Номера телефонов для аудиоконференций в приложении Skype для бизнеса Online

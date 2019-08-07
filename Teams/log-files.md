@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: ed1a78bc7ddd13a3fceb76d89b26e3e2282a7a8e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206951"
+ms.locfileid: "36212615"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================
@@ -86,11 +86,11 @@ ms.locfileid: "36206951"
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%Аппдата%\микрософт\теамс\медиа-стакк\*. blog         |
-|            |%Аппдата%\микрософт\теамс\скилиб\*. blog
-|            |%Аппдата%\микрософт\теамс\медиа-стакк\*. ETL         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/Application Support support/Microsoft/Teams/\*скилиб. blog         |
+|Windows     |%Аппдата%\микрософт\теамс\медиа-стакк\\*. blog         |
+|            |%Аппдата%\микрософт\теамс\скилиб\\*. blog
+|            |%Аппдата%\микрософт\теамс\медиа-стакк\\*. ETL         |
+|Mac OSX     |~/Library/Application Support support/Microsoft/Teams/медиа-стакк/*. blog         |
+|            |~/Library/Application Support support/Microsoft/Teams/скилиб/*. blog         |
 
 
 
@@ -109,5 +109,5 @@ Mac OsX:
 
 |Клиент |Расположение |
 |---------|---------|
-|Windows     |%Аппдата%\микрософт\теамс\логс.ткст         |
+|Windows     |%аппдата%\микрософт\теамс\логс.ткст         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344627"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433481"
 ---
-![Этапы путешествия по обновлению, с акцентом на сбор заинтересованных лиц проекта] (media/upgrade-banner-stakeholders.png "Этапы путешествия по обновлению, с акцентом на сбор заинтересованных лиц проекта")
+![Иллюстрация состояния заинтересованного пути обновления] (media/upgrade-banner-stakeholders.png "Этапы путешествия по обновлению, с акцентом на сбор заинтересованных лиц проекта")
 
 Эта статья относится к этапу заинтересованных лиц проекта, а также к первому и наиболее существенному действию, которое вы выполнили для успеха проекта.
 

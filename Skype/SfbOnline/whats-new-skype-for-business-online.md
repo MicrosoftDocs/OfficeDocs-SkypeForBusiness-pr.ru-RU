@@ -1,5 +1,5 @@
 ---
-title: Новые возможности в Скайп для бизнеса в Интернет.
+title: Новые возможности Skype для бизнеса Online.
 ms.reviewer: ''
 description: Добавить краткое описание
 services: skype-for-business-online-admin
@@ -15,13 +15,13 @@ ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
 ms.openlocfilehash: c06dcc373b2029bac39af25a72429877c4bbd833
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "33911349"
 ---
-# <a name="whats-new-in-skype-for-business-online"></a>Новые возможности Скайп для бизнеса в Интернет
+# <a name="whats-new-in-skype-for-business-online"></a>Новые возможности Skype для бизнеса Online
 
 Узнайте, что нового в Skype для бизнеса Online.
 
@@ -36,7 +36,7 @@ ms.locfileid: "33911349"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Статьи</h3>
+                        <h3>Следующим</h3>
                         <p><a href=" ">Имя ссылки</a></p>
                     </div>
                 </div>

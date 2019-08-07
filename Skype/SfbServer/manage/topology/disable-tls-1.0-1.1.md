@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: подготовка и реализация отключения TLS 1,0 и 1,1 в среде.'
 ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34275243"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015
@@ -451,7 +451,7 @@ Windows Registry Editor Version 5.00
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Проверка правильности функционирования рабочих нагрузок
 
-После отключения протоколов TLS 1,0 и 1,1 в среде убедитесь, что все основные рабочие нагрузки работают должным образом, такие как _Амп_ присутствия, P2P, звонки, корпоративный голос и т. д.
+После отключения протоколов TLS 1,0 и 1,1 в среде убедитесь, что все основные рабочие нагрузки работают должным образом, например мгновенные сообщения & присутствии, звонки P2P, корпоративный голос и т. д.
 
 **Только проверка подлинности TLS 1,2**
 
@@ -480,8 +480,8 @@ Windows Registry Editor Version 5.00
 
 **Вариант 2:** Предварительная установка локальных экземпляров SQL (РТКЛОКАЛ и ЛИНКЛОКАЛ)
 
-1. Скачайте и скопируйте SQL Express 2014 с пакетом обновления 2 (SQLEXPR_x64. exe) в локальную папку на FE. Пусть, скажем, путь к папке _Лт_скл_фолдер_пас_гт_.
-2. Запустите PowerShell или командную команду и перейдите в _Лт_скл_фолдер_пас_гт_.
+1. Скачайте и скопируйте SQL Express 2014 с пакетом обновления 2 (SQLEXPR_x64. exe) в локальную папку на FE. Пусть, например, путь к папке <SQL_FOLDER_PATH>.
+2. Запустите PowerShell или командную команду и перейдите в раздел <SQL_FOLDER_PATH>.
 3. Создайте экземпляр SQL РТКЛОКАЛ, выполнив команду ниже. Дождитесь завершения работы SQLEXPR_x64. exe, прежде чем продолжить.
 
     SQLEXPR_x64. exe/Q/ИАКЦЕПТСКЛСЕРВЕРЛИЦЕНСЕТЕРМС/УПДАТИНАБЛЕД = 0/ХИДЕКОНСОЛЕ/АКТИОН = Install/ФЕАТУРЕС = Скленгине, Tools/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "NT AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "Builtin" Администраторы "/БРОВСЕРСВКСТАРТУПТИПЕ =" Automatic "/АГТСВКАККАУНТ =" Нтаусорити\нетворксервице "/СКЛСВКСТАРТУПТИПЕ = automati
