@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Сводка: Настройка единой системы обмена сообщениями Exchange Server для голосовой почты в Skype для бизнеса Server.'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278187"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238010"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Настройка единой системы обмена сообщениями Exchange Server для голосовой почты Skype для бизнеса Server
  
@@ -153,7 +153,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 - Создает группу слежения UM для каждого IP-шлюза UM. Идентификатор пилотной программы для каждой из групп слежения определяет абонентскую группу UM, которая используется в пуле интерфейсов SIP в Skype для бизнеса Server или стандартном сервере Standard Edition, связанном с IP-шлюзом UM.
 - Предоставление доступа к Skype для бизнеса Server для чтения объектов контейнеров Active Directory UM, таких как абонентские группы единой системы обмена сообщениями, автосекретарей, IP-шлюзы UM и групп слежения UM.
   > [!IMPORTANT]
-  > Каждый лес UM должен быть настроен для доверия к лесу, в котором развернута Skype для бизнеса Server, и в лесу, в котором развернута Skype для бизнеса Server 2013, необходимо настроить для доверия к каждому лесу UM. Если в нескольких лесах установлено приложение Exchange UM, для каждого из них необходимо выполнить интеграцию с Exchange Server, а также указать домен Skype для бизнеса Server. Например, Ексчукутил. ps1 — Forest: _Лт_линк-Domain-Controller — Фкдн_гт_. 
+  > Каждый лес UM должен быть настроен для доверия к лесу, в котором развернута Skype для бизнеса Server, и в лесу, в котором развернута Skype для бизнеса Server 2013, необходимо настроить для доверия к каждому лесу UM. Если в нескольких лесах установлено приложение Exchange UM, для каждого из них необходимо выполнить интеграцию с Exchange Server, а также указать домен Skype для бизнеса Server. Например, Ексчукутил. ps1 — Forest: <Lync — Domain-Controller — FQDN>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Использование оболочки для запуска сценария Ексчукутил. ps1
 
@@ -164,7 +164,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 > Чтобы запустить сценарий, необходимо иметь разрешения роли управления организацией Exchange или быть членом группы безопасности администраторов организации Exchange. 
 
 1. Откройте консоль управления Exchange.
-2. В командной строке C:\Windows\System32 введите **CD \<Drive леттер_гт_: \Program филес\микрософт\ексчанже Server\V15\Scripts>. Ексчукутил. ps1**и нажмите клавишу ВВОД.
+2. В командной строке C:\Windows\System32 введите **букву \<компакт-диска>: \program филес\микрософт\ексчанже Server\V15\Scripts>. Ексчукутил. ps1**и нажмите клавишу ВВОД.
 
 #### <a name="how-do-you-know-this-worked"></a>Как узнать, что это сработало?
 
@@ -189,7 +189,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 **Чтобы загрузить сертификат ЦС, выполните указанные ниже действия.**
 
-1. На сервере с Exchange UM нажмите кнопку **Пуск**, выберите команду **выполнить**, введите **http://\<имя центра сертификации сервер_гт_/certsrv**и нажмите кнопку **ОК**.
+1. На сервере с Exchange UM нажмите кнопку **Пуск**, выберите команду **выполнить**, введите **http://\<имя сервера центра сертификации>/certsrv**и нажмите кнопку **ОК**.
 2. В разделе Выберите задачу нажмите **загрузить сертификат ЦС, цепочку сертификатов или CRL**.
 3. В разделе **Загрузка сертификата ЦС, цепочки сертификатов или CRL**выберите **метод кодирования для базового 64**, а затем нажмите кнопку**загрузить сертификат ЦС**.
    > [!NOTE]

@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Обеспечение готовности Организации и пользователей для Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b1fcbd95d58dd53eb2f8e4289563ab403f73e29
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 716e5342d29bca21ea2963a28244ae6d766c0392
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548495"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236443"
 ---
 ![Обновление схемы поездки с акцентом на этапе готовности пользователя] (media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
 
@@ -64,7 +65,7 @@ ms.locfileid: "34548495"
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
 
-| Ранние последователи | Информирование пользователей | Лаггардс |
+| Ранние последователи | Информирование пользователей | лаггардс |
 |----|----|---|
 | Эти пользователи запрашивают решение, прежде чем оно будет доступно. | Эти пользователи применяют решение, как только будет продемонстрировано его значение. | Эти пользователи отклоняют решение, даже если они были отправлены в изменения. |
 

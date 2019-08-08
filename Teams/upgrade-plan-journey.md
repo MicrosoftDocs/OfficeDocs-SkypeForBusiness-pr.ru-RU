@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Планирование обновления путем включения заинтересованных лиц в первую очередь и определения области проекта.
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934560"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236063"
 ---
 ![Схема путешествия по обновлению Teams] (media/upgrade-banner-main.png "Убедитесь в том, что проект успешно настроен на успех с помощью правой команды проекта. Определение области охвата проекта, целей и временной шкалы. Подтвердите как техническую, так и готовность пользователей. Выполните план выпуска. Ведение импульсов для максимального увеличения результатов.")
 

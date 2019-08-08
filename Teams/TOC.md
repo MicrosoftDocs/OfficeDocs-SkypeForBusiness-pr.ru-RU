@@ -644,7 +644,6 @@
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [В Microsoft Teams вскоре появятся возможности для сотрудников без компьютеров](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Запуск отчета для отображения активного использования StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)

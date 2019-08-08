@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: В этой статье рассказывается о том, как поддерживать широкие возможности включения масштабирования для групп в Организации.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0c97572004184eac1d480aec8df2b227654c9dad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494093"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237842"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Внедрение Microsoft Teams. Этап 3 — масштабирование
 
@@ -35,6 +35,6 @@ ms.locfileid: "34494093"
 5. Проектирование и запуск обучающей программы.
 6. Общие сведения о средствах создания отчетов.
 7. Подготовьтесь к текущему бизнес-задействованию.
-8. Подготовка к текущим проверкам работоспособности служб _Амп_.
+8. Подготовка к выполнению текущих проверок работоспособности служб &.
 
 ![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [Определение результатов и успехов](teams-adoption-define-outcomes.md)

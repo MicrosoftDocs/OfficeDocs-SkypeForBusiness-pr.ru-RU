@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: В этой статье рассказывается о том, как настроить существующую установку Skype для бизнеса Server для использования службы Mobility Service, благодаря чему ваши мобильные устройства смогут пользоваться мобильными функциями Skype для бизнеса Server.
-ms.openlocfilehash: 35b9ca6a69dc5add9331aa5399a59a572bdf6906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 910e23e8aec18d36c3a7e4bda9e97828fb498802
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303556"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234578"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Развертывание и Настройка мобильных устройств для Skype для бизнеса Server  
  
@@ -307,7 +307,7 @@ TMG больше не предлагается корпорацией Майкр
     
    - Для внешнего доступа необходимо выбрать **SSL**.
     
-   - Вам потребуется опубликовать путь для **внутренней публикации**и ввести полное доменное имя для внешних веб-служб в подсистеме балансировки нагрузки пула (или полное доменное имя для подсистемы балансировки нагрузки пула, если таковой имеется). в качестве примера вы можете сфб_ pool01. contoso. local.
+   - Вам потребуется опубликовать путь для **внутренней публикации**и ввести полное доменное имя для внешних веб-служб в подсистеме балансировки нагрузки пула (или полное доменное имя для подсистемы балансировки нагрузки пула, если таковой имеется). в качестве примера вы можете sfb_ pool01. contoso. local.
     
    - Введите ** / *** в качестве пути, который нужно опубликовать, но вы также должны переадресовать **исходный заголовок узла**.
     

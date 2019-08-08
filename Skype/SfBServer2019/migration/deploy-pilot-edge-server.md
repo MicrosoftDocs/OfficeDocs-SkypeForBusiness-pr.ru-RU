@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В этом разделе описываются параметры конфигурации, которые следует знать перед развертыванием пограничного сервера Skype для бизнеса Server 2019. Процессы развертывания и настройки в Skype для бизнеса Server 2019 очень похожи на Skype для бизнеса Server 2015. В этом разделе выделены только ключевые моменты, которые следует принимать во время развертывания пилотного пула. Подробные инструкции можно найти в статье Развертывание внешних пользователей Access в Skype для бизнеса Server 2019 в документации по развертыванию, в котором описан процесс развертывания, а также сведения о конфигурации для доступа внешних пользователей.
-ms.openlocfilehash: f692eb5ad4a24b47a8bab7a56be218eab04af7dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280919"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238390"
 ---
 # <a name="deploy-pilot-edge-server"></a>Развертывание пилотного пограничного сервера
 

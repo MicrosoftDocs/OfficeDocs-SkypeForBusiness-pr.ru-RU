@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Каждое работающее устройство филиала (СБА) связано с пулом переднего плана, который выступает в качестве регистратора резервных копий для СБА. Когда пул переднего плана переносится в Skype для бизнеса Server 2019, СБА должен быть связан с пулом переднего плана при обновлении пула, после того как пул будет перенесен в Skype для бизнеса Server 2019, СБА может быть повторно связан с обновленным интерфейсом E. пул ND. Это связано с тем, что удаление СБА из старой топологии в построителе топологии и добавление СБА в топологию 2019 в Skype для бизнеса Server. Пользователи, размещенные на устаревшем СБА, должны сначала переместиться в другой пул переднего плана, прежде чем удалять СБА из топологии. После добавления СБА в топологию Skype для бизнеса Server 2019 эти пользователи могут затем возвращаться в СБА. Эти действия описаны ниже.
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275547"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239286"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Подключение Survivable Branch Appliance
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Для миграции номеров доступа для телефонного подключения в Skype для бизнеса Server 2019 необходимо запустить командлет Move-Ксаппликатионендпоинт, чтобы перенести объекты контакта. В течение срока сосуществования устаревшей установки и Skype для бизнеса Server 2019 номера доступа для телефонного подключения, созданные в Skype для бизнеса Server 2019, будут вести себя так же, как и номера доступа для телефонного подключения, которые вы создаете в предыдущей установке, как описано в этой секци.
-ms.openlocfilehash: 83cf8b75bcf9a8d4794ae0f95962f3627d8592c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280814"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238048"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Перенос номеров доступа
 

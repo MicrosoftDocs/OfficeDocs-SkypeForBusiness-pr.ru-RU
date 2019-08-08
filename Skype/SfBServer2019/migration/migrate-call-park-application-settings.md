@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Миграция приложения на приостановке звонков включает в себя подготовку пула приложений Skype для бизнеса Server 2019 со всеми пользовательскими музыкальными файлами, загруженными в устаревшей версии, восстанавливая параметры уровня обслуживания и нацеливание всех орбиты на весь занятие Пул 2019 в Skype для бизнеса Server. Если настроенные на хранение файлы хранятся в пуле, эти файлы необходимо скопировать в новый пул 2019 в Skype для бизнеса Server. Кроме того, рекомендуется создать резервную копию всех настроенных файлов для сохранения музыки на удержании в другой точке назначения, чтобы сохранить отдельные резервные копии всех настроенных музыкальных файлов, которые были отправлены для приостановки звонков. Настроенные на хранение музыкальные файлы для приложения для приостановки звонков хранятся в хранилище файлов пула. Чтобы скопировать звуковые файлы из хранилища файлов пула в хранилище файлов Skype для бизнеса Server 2019, используйте команду xcopy со следующими параметрами:'
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280833"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238034"
 ---
 # <a name="migrate-call-park-application-settings"></a>Перенос параметров приложения приостановки звонков
 

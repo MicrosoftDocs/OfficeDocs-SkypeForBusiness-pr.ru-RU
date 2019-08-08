@@ -4,22 +4,23 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Сведения о взаимодействии Microsoft Teams и различных установок Exchange при использовании некоторых функций, таких как создание команд и присоединение к ним, создание каналов и т. д.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: d89d9ed514eb5246911fe88d5fadc1af79caff1b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35614207"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245085"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 

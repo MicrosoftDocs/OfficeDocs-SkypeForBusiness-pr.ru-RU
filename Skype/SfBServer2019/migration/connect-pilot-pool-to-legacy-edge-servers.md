@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После развертывания Skype для бизнеса Server 2019 необходимо настроить маршрут Федерации для вашего сайта. Чтобы использовать федеративный маршрут, который используется в устаревшем экземпляре, необходимо настроить Skype для Business Server 2019 на использование этого маршрута.
-ms.openlocfilehash: 20aacda86c6c49b319859d6f1c175ce6258caddb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a5a65e1488d5a119e3d11affbbaa9995a06626e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288630"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239226"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Подключение пилотного пула к старым пограничным серверам
 

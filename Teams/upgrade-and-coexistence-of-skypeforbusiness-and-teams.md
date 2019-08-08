@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen, bjwhalen
 description: Подробные сведения о возможностях и режимах косуществования в Skype для бизнеса и Microsoft Teams, а затем переход к Teams из Skype для бизнеса с помощью примеров сценариев.
 localization_priority: Normal
@@ -13,17 +14,17 @@ ms.custom: Teams-upgrade-guidance
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934401"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236170"
 ---
 ![Обновление схемы поездки, акцент на развертывании и реализации] (media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 

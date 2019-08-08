@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Планирование общения, обучения и поддержки пользователей в рамках пилотного, встроенного и переходного на Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934496"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235923"
 ---
 ![Этапы путешествия по обновлению, выделение стадии подготовки пользователей] (media/upgrade-banner-user-readiness.png "Этапы путешествия по обновлению с акцентом на этапе готовности пользователей")
 
@@ -47,7 +48,7 @@ ms.locfileid: "35934496"
 <table>
 <tbody>
 <tr><th>Какие коммуникационные каналы вы будете использовать?</th><th>Какие обучающие каналы будут использоваться?</th><th>Какие каналы поддержки будут использоваться?</th></tr>
-<tr><td><ul><li>Email<br><strong>Совет.</strong> Для настройки кампании по электронной почте используйте наш пример пилотного, сосуществования и обновления электронной почты.</li><li>Плакаты и цифровая подпись</li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Группы и каналы</li><li>Гамификатион</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Обучение под руководством инструктора (Майкрософт)</a></li><li>Опубликованные корпорацией Майкрософт статьи и видеоролики в Интернете</li><li>Ресурсам<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Обучение работе с видео в Teams</a></li></ul></li><li>Помощник по продукту (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельное обслуживание (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл обратной связи (опросы, оценки)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Совет.</strong> Для настройки кампании по электронной почте используйте наш пример пилотного, сосуществования и обновления электронной почты.</li><li>Плакаты и цифровая подпись</li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Группы и каналы</li><li>гамификатион</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Обучение под руководством инструктора (Майкрософт)</a></li><li>Опубликованные корпорацией Майкрософт статьи и видеоролики в Интернете</li><li>Ресурсам<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Обучение работе с видео в Teams</a></li></ul></li><li>Помощник по продукту (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельное обслуживание (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл обратной связи (опросы, оценки)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

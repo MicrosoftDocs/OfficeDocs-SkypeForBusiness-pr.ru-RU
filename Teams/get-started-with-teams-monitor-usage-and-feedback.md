@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: lolaj
 description: Узнайте о доступных возможностях создания отчетов, чтобы понять, как пользователи используют Microsoft Teams и собрать отзывы о впечатлениях пользователей.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4eaf68a2402281a32e10132b46ab461d1fed23
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ae59765eabf25ee608b897e1468df30b1fa49450
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548225"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245896"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Мониторинг использования и обратная связь в Microsoft Teams
 Очень важно знать, как пользователи применяют Teams и оценить их впечатления от работы с Teams. Отчеты об использовании помогут вам лучше понять характер использования, а наряду с отзывам пользователей, позволяют получить ценную информации, что поможет вам выполнить широкое развертывание, а также определить приоритетные области для обучения и взаимодействия.

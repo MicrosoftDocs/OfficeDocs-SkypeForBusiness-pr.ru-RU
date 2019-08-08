@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Прикрепите заинтересованных лиц к обновлению в соответствии с группой проекта.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: e248d0cc92cea65fe8eb3b4a2c05f70b4c11c124
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34433481"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236463"
 ---
 ![Иллюстрация состояния заинтересованного пути обновления] (media/upgrade-banner-stakeholders.png "Этапы путешествия по обновлению, с акцентом на сбор заинтересованных лиц проекта")
 

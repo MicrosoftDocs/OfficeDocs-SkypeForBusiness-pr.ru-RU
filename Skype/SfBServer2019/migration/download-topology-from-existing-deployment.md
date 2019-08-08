@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: При создании пула 2019 в Skype для бизнеса Server вы будете использовать центральное хранилище, связанное с установленной устаревшей установкой. Когда вы запускаете построитель топологии при первом использовании и последующих сеансах редактирования, вам будет предложено указать расположение, в которое построитель топологии должен загрузить текущий документ конфигурации. Так как вы уже определили топологию и установили хранилище Central Management, необходимо выбрать загрузку топологии из существующего развертывания. Построитель топологии будет считывать базу данных и получать текущее определение.
-ms.openlocfilehash: 67317f9acf477d6b6decd42433844ef088d27021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33dc190bae5bd5d983d13932b4a9933fe5f74976
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280859"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238124"
 ---
 # <a name="download-topology-from-existing-deployment"></a>загрузка топологии из существующего развертывания;
 

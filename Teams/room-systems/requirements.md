@@ -11,20 +11,20 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 7e78c2f33a52d5848b8b996c65fefbeabdab4c3e
-ms.sourcegitcommit: dcc5c09e6b891fe44c9d2cf384fe7ef678e7768c
+ms.openlocfilehash: a964511cbb0df2cd4d6843589423e1b7cbe88cd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "35911962"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243359"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
 В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams. 
 
-Развертывание будет включать создание учетной записи, как описано в разделе [развертывание комнат Microsoft Teams](room-systems-v2.md) и Настройка консоли собраний, как описано в разделе [Настройка консоли Microsoft Teams](console.md). 
+Развертывание включает создание учетных записей, как описано в разделе [развертывание комнат Microsoft Teams](room-systems-v2.md) и настройка консолей собраний, как описано в разделе [Настройка консоли Microsoft Teams](console.md).
 
-Кроме того, вам может потребоваться обратиться к следующим разделам:
+Кроме того, вы можете обратиться к следующим разделам:
 
 - [Лицензирование надстройки Skype для бизнеса](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Варианты лицензирования, основанные на вашем плане: комнаты Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -33,13 +33,13 @@ ms.locfileid: "35911962"
 > Комнаты Microsoft Teams предназначены для использования в Microsoft Teams, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015 или Skype для бизнеса Online. <br><br>На более ранних платформах, таких как Lync Server 2013, не предполагается работать с комнатами Microsoft Teams.
 
 > [!NOTE]
-> При использовании локального сервера Exchange для работы комнат в Microsoft Teams требуется использование Exchange Server 2013 с пакетом обновления 1 (SP1) или более поздней версии.
+> Если у вас есть локальный сервер Exchange Server, в помещениях Microsoft Teams требуется использование Exchange Server 2013 с пакетом обновления 1 (SP1) или более поздней версии.
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
 
-Комнаты Microsoft Teams могут масштабироваться до разных размеров комнаты на различных устройствах, в зависимости от того, как аудио-и видеоподсистемы. Оборудование, указанное в этой статье, поддерживает режимы собраний Skype и Teams.  Аудио-и видеопериферийные устройства подключаются к комнатам Microsoft Teams через подключение через USB или HDMI на закрепленном устройстве. Кроме того, вам потребуется следующее.
+Комнаты Microsoft Teams масштабируются до разных размеров комнаты в зависимости от аудио-и видеоподсистем. Оборудование, указанное в этой статье, поддерживает режимы собраний Skype и Teams. Аудио-и видеопериферийные устройства подключаются к комнатам Microsoft Teams через подключение через USB или HDMI на закрепленном устройстве. Кроме того, вам потребуется следующее.
 
-- 32-разрядный диск USB, который вы будете настраивать как загружаемый установочный носитель Windows для Windows 10 Корпоративная. 
+- Диск USB, который вы настраиваете как загружаемый установочный носитель Windows для Windows 10 Корпоративная.
 
 - Один из следующих планшетов или консолей:
 
@@ -47,11 +47,11 @@ ms.locfileid: "35911962"
 
 |Планшете|Воздуш|ДОСТУПНОЙ|Диск|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6          |Основные i5  |16 ГБ или 8 ГБ |128 ГБ или больше  |
-|Surface Pro (5-го поколения)  |Основные i5  |8 ГБ или 4 ГБ  |128 ГБ или больше  |
-|Surface Pro 4          |Основные i5  |8 ГБ или 4 ГБ  |128 ГБ или больше  |
+|Surface Pro 6| |Основные i5||16 ГБ или 8 ГБ |128 ГБ или больше |
+|Surface Pro (пятое Gen) |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
+|Surface Pro 4 |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
 
-- Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний. 
+- Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний.
 
   - [Logitech Смартдокк](https://www.logitech.com/product/smartdock)
 
@@ -64,15 +64,18 @@ ms.locfileid: "35911962"
 
 |консоль;|Воздуш|ДОСТУПНОЙ|Диск|
 |:-----|:-----|:-----|:-----|
-|[Крестрон Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 Гбайт |ГБ |
-[Крестрон Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Гбайт |ГБ|
-|[Крестрон Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Гбайт|ГБ|
-|[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5  |8 Гбайт  |ГБ  | 
-|[HP топовый сектор G2, готовая к работе с комнатами Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Основные i5 |8 Гбайт |ГБ | 
-|[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5  |8 Гбайт  |ГБ  |  
-|[Нажмите кнопку Logitech](https://www.logitech.com/en-us/product/microsoft-rooms)|Основные i5|8 Гбайт |ГБ |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 Гбайт|ГБ|
-|[Yealink MVC500](https://www.yealink.com/products_126.html)|Основные i5|8 Гбайт |ГБ |
+|[Крестрон Flex UC-M130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Основные i5|8 ГБ |128 ГБ |
+|[Крестрон Flex UC-B130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Основные i5|8 ГБ |128 ГБ |
+|[Крестрон Flex UC-B140-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Основные i5|8 ГБ |128 ГБ |
+|[Крестрон Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 ГБ |128 ГБ |
+[Крестрон Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 ГБ |128 ГБ|
+|[Крестрон Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 ГБ|128 ГБ|
+|[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5 |8 ГБ |128 ГБ | 
+|[HP топовый сектор G2, готовая к работе с комнатами Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Основные i5 |8 ГБ |128 ГБ | 
+|[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5 |8 ГБ |128 ГБ | 
+|[Нажмите кнопку Logitech](https://www.logitech.com/en-us/product/microsoft-rooms)|Основные i5|8 ГБ |128 ГБ |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 ГБ|128 ГБ|
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Основные i5|8 ГБ |128 ГБ |
 |||||
 
 > [!NOTE]
@@ -84,35 +87,35 @@ ms.locfileid: "35911962"
 |:-----|:-----|
 |[Logitech вечеринку](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam) <br/> |1.2.4 |
 |[Logitech Брио](https://www.logitech.com/en-us/product/brio) <br/> |v240|
-|[Logitech обсудим](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Аудио-1.0.172  <br/> Видео-1.0.156  <br/> |
-|[Logitech Конференцекам Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Группа Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech обсудим](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Звук — 1.0.172 <br/> Видео — 1.0.156 <br/> |
+|[Logitech Конференцекам Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0 <br/> 1.1.684 <br/> |
+|[Группа Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778 <br/> |
 |[Logitech 930E](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech ПТЗ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> |  1.1.219 <br/> |
 |[Logitech ПТЗ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom Еаглие IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
+|[Polycom Еаглие IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0 <br/> |
 |[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
 |[Директор Polycom Еагле глаз II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom тройкой 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
-|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
-|[Сеннхеисер SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0 <br/> |
+|[Сеннхеисер SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15 <br/> |
 |[Сеннхеисер SP30](https://en-us.sennheiser.com/sp-30) <br/> |2.1.52 <br/>|
-|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
-|[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
-|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
-|[Спикерфон Yamaha ИВК-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
+|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0 <br/> |
+|[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0 <br/> |
+|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23 <br/> |
+|[Спикерфон Yamaha ИВК-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c <br/> |
 
 - **Медиаприставок USB**:
 
-  - Порты USB на стыковочных планшетах совместимы с USB 3,0. Вы можете использовать средство продления USB 2. x, но при этом вы сможете ограничить скорость USB 2. x на дальнем конце и сделать это не рекомендуется для периферийных устройств USB 3,0.
+  - Порты USB на стыковочных планшетах совместимы с USB 3,0. Вы можете использовать средство продления USB 2. x, но при этом вы сможете ограничивать вас скоростью USB 2. x на дальнем конце, и это не рекомендуется для периферийных устройств USB 3,0.
 
   - Средство продления должно соблюсти спецификации USB 2,0 или более поздней версии.
 
-  - Стыковочные планшеты поддерживают по крайней мере два этапа расширения внешнего USB-концентратора. Если вы хотите, чтобы вы могли подключаться к более чем двум концентраторам USB, вам нужно будет обратиться к производителю Dock, чтобы убедиться в том, что это поддерживается.
+  - Стыковочные планшеты поддерживают по крайней мере два этапа расширения внешнего USB-концентратора. Если вы хотите, чтобы вы подключались к более чем двум концентраторам USB, обратитесь к производителю Dock, чтобы убедиться, что эта функция поддерживается.
 
 - Проводное подключение к гигабитной GbE в комнате. Кабель Ethernet соответствующей длины.
 
-- До двух дисплеев в 1080p с подключением HDMI. Кабели HDMI для правильной длины.
+- До 2 1080-p дисплеев с подключением HDMI. Кабели HDMI для правильной длины.
 
 > [!NOTE]
 > Бытовой телевизор, используемый в качестве центрального дисплея, должен поддерживать функцию управления бытовой электронной техникой (CEC) стандарта HDMI для автоматического переключения на активный источник видеосигнала из режима ожидания. Эту функцию поддерживают не все телевизоры. 
@@ -124,33 +127,33 @@ ms.locfileid: "35911962"
 
 **Microsoft Teams — комнаты, сертифицированные звуковыми устройствами**
 
-|Тип комнаты|Количество людей|Рекомендованное максимальное расстояние от микрофона до выступающего|Устройство для максимального размера комнаты|Комментарии|
+|Тип комнаты|Количество людей|Рекомендуемая максимальная дистанция между микрофоном и динамиком|Устройство для максимального размера комнаты|Комментарии|
 |:-----|:-----|:-----|:-----|:-----|
-|**Фокус-комната** <br/> 10 ' x 9 '  <br/> |2-4  <br/> |1.5m   <br/> |Logitech Connect  <br/> |Устройства Logitech Connect включают камеру, поэтому ее следует размещать на лицевой стороне комнаты (не в центре таблицы), чтобы захватывать участников локального собрания.  <br/> |
-|**Небольшая** <br/> 16 ' x 16 '  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Для комнат большего размера громкости воспроизведения может быть недостаточно.  <br/> |
-|**Средняя** <br/> 18 ' x 20 '  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech обсудим  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Спикерфон Yamaha ИВК-1000MS  <br/> |Камера Logitech обсудим включает камеру, поэтому ее нужно расположить на лицевой стороне комнаты (не в центре таблицы, в которой будут записаны локальные участники собрания).  <br/> Как правило, в помещениях с длинными прямоугольными таблицами или в форме с u-ю заполнение может принести пользу дополнительные Микрофоны спутниковой связи.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
-|**Большая** <br/> 15 ' x 32 '  <br/> |12-16  <br/> |3 м  <br/> Здесь также учитывается расстояние до каждого дополнительного микрофона, подключенного к звуковому устройству.   <br/> |Logitech Group + Спутниковое микрофонами  <br/> Polycom тройкой + Спутниковое микрофонами  <br/> Polycom CX5100 + Спутниковое микрофонами  <br/> Sennheiser SP 220 MS  <br/> Спикерфон Yamaha ИВК-1000MS + Спутниковое микрофонами  <br/> |Все звуковые устройства, указанные в этой строке, поддерживают подключение дополнительных микрофонов.  <br/> Устройство CX5100 оснащено встроенной камерой с круговым обзором, что позволяет размещать его в центре стола.  <br/> Устройство SP 220 MS должно подключаться последовательно.  <br/> |
+|**Фокус-комната** <br/> 10 ' x 9 ' <br/> |2 – 4 <br/> |1,5 м <br/> |Logitech Connect <br/> |Устройства Logitech Connect включают камеру, поэтому ее следует размещать на лицевой стороне комнаты (не в центре таблицы), чтобы захватывать участников локального собрания. <br/> |
+|**Небольшая** <br/> 16 ' x 16 ' <br/> |4 – 6 <br/> |2,0 м <br/> |Jabra 510 <br/> Sennheiser SP20 <br/> |Для комнат большего размера громкости воспроизведения может быть недостаточно. <br/> |
+|**Средняя** <br/> 18 ' x 20 ' <br/> |6 – 12 <br/> |2,4 м <br/> |Jabra 710 <br/> Jabra 810 <br/> Logitech обсудим <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Спикерфон Yamaha ИВК-1000MS <br/> |Камера Logitech обсудим включает камеру, поэтому ее нужно расположить на лицевой стороне комнаты (не в центре таблицы, в которой будут записаны локальные участники собрания). <br/> Как правило, в помещениях с длинными прямоугольными таблицами или на u-образной форме могут выиграть высоковыгодные Микрофоны спутниковой связи. <br/> Устройство SP 220 MS должно подключаться последовательно. <br/> |
+|**Большая** <br/> 15 ' x 32 ' <br/> |12 – 16 <br/> |3 м <br/> Это расстояние также распространяется на область, подпадающую под каждый вспомогательный микрофон, подключенный к звуковому устройству. <br/> |Logitech Group + Спутниковое микрофонами <br/> Polycom тройкой + Спутниковое микрофонами <br/> Polycom CX5100 + Спутниковое микрофонами <br/> Sennheiser SP 220 MS <br/> Спикерфон Yamaha ИВК-1000MS + Спутниковое микрофонами <br/> |Все звуковые устройства, указанные в этой строке, поддерживают подключение дополнительных микрофонов. <br/> CX5100 включает встроенную камеру с 360-градусами, позволяющую расположить устройство в центре таблицы. <br/> Устройство SP 220 MS должно подключаться последовательно. <br/> |
 
 **Карты Microsoft Teams, сертифицированные для видеооборудования**
 
 |Тип комнаты|Количество людей|Устройство по оптимальному размеру комнаты|Комментарии|
 |:-----|:-----|:-----|:-----|
-|**Фокус-комната** <br/> 10 ' x 9 '  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech обсудим  <br/> Polycom CX5100   <br/> ||
-|**Небольшая** <br/> 16 ' x 16 '  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech обсудим  <br/> Logitech Брио  <br/> Logitech ПТЗ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Технология Logitech ПТЗ Pro часто объединяется с группой Logitech  <br/> |
-|**Средняя** <br/> 18 ' x 20 '  <br/> |6-12  <br/> |Logitech обсудим  <br/> Logitech Брио  <br/> Logitech ПТЗ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
-|**Большая** <br/> 15 ' x 32 '  <br/> |12-16  <br/> |Logitech ПТЗ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Фокус-комната** <br/> 10 ' x 9 ' <br/> |2 – 4 <br/> |Logitech Connect <br/> Logitech обсудим <br/> Polycom CX5100  <br/> ||
+|**Небольшая** <br/> 16 ' x 16 ' <br/> |4 – 6 <br/> |Logitech C930e <br/> Logitech обсудим <br/> Logitech Брио <br/> Logitech ПТЗ Pro <br/> Polycom MSR <br/> Polycom CX5100  <br/> |Технология Logitech ПТЗ Pro часто объединяется с группой Logitech <br/> |
+|**Средняя** <br/> 18 ' x 20 ' <br/> |6 – 12 <br/> |Logitech обсудим <br/> Logitech Брио <br/> Logitech ПТЗ Pro <br/> Polycom MSR <br/> Polycom CX5100  <br/> ||
+|**Большая** <br/> 15 ' x 32 ' <br/> |12 – 16 <br/> |Logitech ПТЗ Pro <br/> Polycom MSR <br/> Polycom CX5100  <br/> ||
 
  > [!NOTE]
  > Для разрешения экрана в качестве внешнего дисплея должно быть установлено значение "не больше 1920x1080p".
 
 ## <a name="required-software-downloads"></a>Загрузка необходимого программного обеспечения
 
-Чтобы создать собственный образ комнат Microsoft Teams, следуйте инструкциям в разделе [Настройка консоли Microsoft Teams](console.md). Эти инструкции помогут вам загрузить все необходимое программное обеспечение для процесса установки. 
+Чтобы создать собственный образ комнат Microsoft Teams, следуйте инструкциям в разделе [Настройка консоли Microsoft Teams](console.md). Эти инструкции помогут вам загрузить все необходимое программное обеспечение для процесса установки.
 
 > [!NOTE]
 > ИТ-специалистам потребуется доступ к ISO-файлам Windows 10 для корпоративных лицензий по их корпоративному лицензионному соглашению.
 
-Кроме того, вам, возможно, понадобится копия [скиперумпровисионингскрипт. ps1](https://go.microsoft.com/fwlink/?linkid=870105), которую можно использовать для подготовки учетных записей комнат Microsoft Teams.
+[Скиперумпровисионингскрипт. ps1](https://go.microsoft.com/fwlink/?linkid=870105) — это необязательная Загрузка, которую можно использовать для подготовки учетных записей комнат Microsoft Teams.
 
 ## <a name="see-also"></a>См. также
 [Просмотреть все пакеты](https://products.office.com/en-us/microsoft-teams/across-devices/devices)

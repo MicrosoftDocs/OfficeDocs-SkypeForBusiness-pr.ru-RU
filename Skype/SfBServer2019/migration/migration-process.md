@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Рекомендуемая и поддерживаемая процедура миграции в Skype для бизнеса Server 2019 является параллельной миграцией. В этой статье описаны причины, по которым следует использовать параллельную миграцию, а также сведения о проверке сосуществования.
-ms.openlocfilehash: 179ad56dcf4c31abe8b94fb7131dd27dc68bfd96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ef8a70aa436663b7ff88723800375eeef620b6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298157"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237781"
 ---
 # <a name="migration-process"></a>Процесс миграции
 

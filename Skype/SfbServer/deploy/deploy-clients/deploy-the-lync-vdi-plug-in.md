@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: В этом разделе обсуждаются процедуры развертывания Skype для бизнеса при подключении к удаленному виртуальному рабочему столу.
-ms.openlocfilehash: a3955ac3634dbf52b47b70482772e7302876bf1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8892bf8b8772bdb301f914bca134d61e67ea934b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288756"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234407"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Развертывание плагина Lync VDI с помощью Skype для бизнеса Server
  

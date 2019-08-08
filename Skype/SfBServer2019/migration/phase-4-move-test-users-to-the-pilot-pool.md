@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Вы можете переместить одного пользователя или группы пользователей на новое развертывание Microsoft Skype для бизнеса Server 2019 с помощью следующих двух способов: панель управления Skype для бизнеса Server и консоль управления Skype для бизнеса Server. В этом разделе описаны задачи, которые необходимо выполнить во время пилотного развертывания, а также до перемещения развертывания Skype для бизнеса Server 2019 из пилотного развертывания в развертывание на рабочем уровне.'
-ms.openlocfilehash: ae9c2de289759ae3e57dfd8337dd7cc4171aba61
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc8caa1e6553f03dff420a24487e12fa306bc85d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273933"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244418"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Этап 4: перемещение тестовых пользователей в пилотный пул
 

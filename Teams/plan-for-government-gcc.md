@@ -7,21 +7,22 @@ ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
+audience: admin
 description: Руководство для ИТ-специалистов по развертыванию Office 365 в сущностях, которые обрабатывают данные, подлежащие регулированию за правительство США
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 613110b1e57708ae0b26cfc0e105baa3856f8295
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588161"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237675"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных организаций (Microsoft 365) — развертывание GCC
 

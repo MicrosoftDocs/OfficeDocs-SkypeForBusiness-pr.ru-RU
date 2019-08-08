@@ -5,17 +5,17 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: В следующих разделах приведены рекомендации по обновлению DNS-записей, перемещению сервера управления контентом, удалению пулов и отключению серверов и пулов из устаревшего развертывания. Не все процедуры, перечисленные в этом разделе, являются обязательными. Ознакомьтесь с документацией и определите, какую процедуру списания использовать.
-ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273877"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236998"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Этап 8: ликвидация старых пулов
 

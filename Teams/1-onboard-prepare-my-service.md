@@ -3,6 +3,7 @@ title: Подготовка к развертыванию облачной го�
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Используйте контрольные списки для подготовки Office 365 для Teams и настройки основных возможностей, сети и облачных голосовых нагрузок для Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29d51d2e92659b7fbae9eb86863a2e4f205a061
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198550"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236200"
 ---
 # <a name="prepare-my-service"></a>Подготовка службы
 

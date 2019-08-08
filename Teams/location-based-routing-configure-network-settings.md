@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Узнайте, как создать и настроить областей сети, сайты и подсети для маршрутизации на основе расположения для прямой маршрутизации.
+description: Сведения о том, как создавать и настраивать регионы сети, сайты и подсети для маршрутизации на основе местоположения для прямой маршрутизации.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,76 +17,76 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f6f6f1e74cc50b37ade03e97106d2befe36a6dd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222365"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245110"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Настройка параметров сети для маршрутизации на основе расположения
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Если вы еще не сделано, чтение, чтобы просмотреть другие действия по [Plan Location-Based маршрутизации для непосредственного](location-based-routing-plan.md) необходимо выполнить перед настройкой параметров сети для маршрутизации на основе местоположения.
+Если вы еще не сделали этого, прочтите [маршрут на основе местоположения для прямой маршрутизации](location-based-routing-plan.md) , чтобы просмотреть другие действия, которые необходимо выполнить перед настройкой сетевых параметров для маршрутизации на основе местоположения.
 
-В этой статье описывается настройка параметров сети для маршрутизации на основе местоположения. После развертывания прямой маршрутизации телефонной системы в вашей организации, следующие действия, чтобы создать и настроить областей сети, сетевых сайтов и подсетей. Чтобы выполнить действия, описанные в этой статье, вам потребуются некоторые навыки работы с помощью командлетов PowerShell. Для получения дополнительных сведений см [Команды PowerShell](teams-powershell-overview.md).
+В этой статье описано, как настроить параметры сети для маршрутизации на основе местоположения. После развертывания прямой маршрутизации для телефонной системы в Организации следует создать и настроить регионы сети, сетевые сайты и сетевые подсети. Для выполнения действий, описанных в этой статье, вам потребуется ознакомиться с командлетами PowerShell. Дополнительные сведения можно найти в разделе [Общие сведения о Teams PowerShell](teams-powershell-overview.md).
 
-## <a name="define-network-regions"></a>Определение областей сети
- Область сети соединения различные части сети через несколько географических областей. Командлет [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) используется для определения области сети. Обратите внимание, что параметр RegionID логическое имя, который представляет географический регион и имеет не зависимости или ограничения и CentralSite &lt;веб-сайтов идентификатор&gt; это необязательный параметр. 
+## <a name="define-network-regions"></a>Определение регионов сети
+ Сетевой регион соединяет различные части сети в нескольких географических регионах. Используйте командлет [New-кстенантнетворкрегион](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) , чтобы определить регионы сети. Обратите внимание, что параметр Регионид является логическим именем, которое представляет собой географию области и не имеет зависимостей или ограничений и &lt;не является&gt; обязательным параметром идентификатора сайта централсите. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
-В этом примере мы Создание области сети с именем Индия. 
+В этом примере мы создаем сетевой регион с именем Индии. 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-## <a name="define-network-sites"></a>Определение сетевых узлов
+## <a name="define-network-sites"></a>Определение сетевых сайтов
 
-Используйте командлет [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) определение сетевых узлов. 
+С помощью командлета [New-кстенантнетворксите](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) можно определять сетевые сайты. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
-В этом примере мы создадим два новых сетевых узлов, Delhi и Hyderabad в области Индия. 
+В этом примере мы создаем в регионе Индии две новые сетевые сайты, Делхи и Хидерабад. 
 ```
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
 ```
-В следующей таблице показаны сетевых узлов, определенных в этом примере. 
+В следующей таблице показаны сетевые сайты, определенные в этом примере. 
 
-||Узел 1 |Узел 2 |
+||Сайт 1 |Сайт 2 |
 |---------|---------|---------|
-|Идентификатор сайта    |    Узел 1 (Delhi)     |  Узел 2 (Hyderabad)       |
-|КОД региона  |     Область 1 (Индия)    |   Область 1 (Индия)      |
+|Идентификатор сайта    |    Сайт 1 (Делхи)     |  Сайт 2 (Хидерабад)       |
+|КОД региона  |     Регион 1 (Индия)    |   Регион 1 (Индия)      |
 
-## <a name="define-network-subnets"></a>Определение подсетей
+## <a name="define-network-subnets"></a>Определение подсетей сети
 
-Командлет [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) для определения подсетей и связывать их с сетевыми узлами. Каждый внутренней подсети может быть связано только с одного сайта. 
+С помощью командлета [New-кстенантнетворксубнет](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) можно определять сетевые подсети и связывать их с сетевыми сайтами. Каждая внутренняя подсеть может быть связана только с одним сайтом. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-В этом примере мы создадим связь между подсетью 192.168.0.0 и сетевым узлом Delhi и подсети 192.168.1.0 и Hyderabad сетевого узла.
+В этом примере мы создаем связь между подсетью 192.168.0.0 и сетевым сайтом Делхи и между подсетью 2001:4898: E8:25:844E: 926f: 85ad: dd8e и на сайте Хидерабад Network.
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad" 
+New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
 ```
-В следующей таблице показаны подсетей, определенных в этом примере. 
+В приведенной ниже таблице указаны подсети, определенные в этом примере. 
 
-||Узел 1 |Узел 2 |
+||Сайт 1 |Сайт 2 |
 |---------|---------|---------|
-|Идентификатор подсети   |    192.168.0.0     |  192.168.1.0     |
-|Маска  |     24    |   24      |
-|Идентификатор сайта  | Сайт (Delhi) | Узел 2 (Hyderabad) |
+|КОД подсети   |    172.16.0.0     |  2001:4898: E8:25:844E: 926f: 85ad: dd8e     |
+|Маски  |     24    |   120      |
+|Идентификатор сайта  | Сайт (Делхи) | Сайт 2 (Хидерабад) |
 
-Для нескольких подсетей можно импортировать в CSV-файл, используя следующий сценарий.
+Если вы используете несколько подсетей, вы можете импортировать CSV-файл с помощью такого сценария, как описано ниже.
 ```
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
-В этом примере CSV-файл выглядит примерно следующим образом:
+В этом примере CSV-файл выглядит примерно так:
 ```
 Identity, Mask, SiteID 
 172.11.12.0, 24, Redmond 
@@ -93,18 +94,18 @@ Identity, Mask, SiteID
 172.11.14.0, 25, Vancouver 
 172.11.15.0, 28, Paris
 ```
-## <a name="define-external-subnets"></a>Определить внешние подсети
-Командлет [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) для определения внешние подсети и назначить их к клиенту. Можно определить неограниченное число подсети для клиента. 
+## <a name="define-external-subnets"></a>Определение внешних подсетей
+С помощью командлета [New-кстенанттрустедипаддресс](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) можно определять внешние подсети и назначать их клиентам. Вы можете определить неограниченное количество подсетей для клиента. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Например:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>Дальнейшие действия
-Перейдите на [Включение зависимостью от расположения маршрутизации для непосредственного](location-based-routing-enable.md).
+Перейдите к разделу [Включение маршрутизации на основе местоположения для прямой маршрутизации](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Статьи по теме
 - [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)

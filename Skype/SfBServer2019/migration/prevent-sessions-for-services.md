@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Вы можете использовать панель управления "старые" для предотвращения новых сеансов для всех устаревших служб, запущенных на конкретном компьютере, или для предотвращения новых сеансов для определенной устаревшей службы.
-ms.openlocfilehash: 4728f68c8f7b9392b99a6a49eefe699fa48a4d47
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 978c97bd7f610e6b40d467b80f5df8483b6d370f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301218"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244367"
 ---
 # <a name="prevent-sessions-for-services"></a>Запрет сеансов для служб
 

@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Создайте план, который поможет вам придать пользователям возможность определить цели, понять, что такое приемлемо, и предоставить обучение и поддержку.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491a3cb7bd1a3b240e88bf90a721678aaaae1410
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548392"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245847"
 ---
 # <a name="prepare-my-users"></a>Подготовка пользователей
 
@@ -153,5 +154,5 @@ ms.locfileid: "34548392"
 
 <table>
 <tr><th>Обращений</th><th>Обучение</th><th>Поддержка</th></tr>
-<tr><td><ul><li>Настройка&mdash; <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">шаблонов электронной почты</a> в электронной почте</li><li>Плакаты и цифровая подпись </li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Команды и каналы</li><li>Гамификатион</li></ul></td><td><ul><li>Статьи и видеоролики от Майкрософт:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Обучение работе с видео в Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Собрания и звонки</a></li></li></ul><li>Помощь в работе (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельная помощь (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл&mdash;обратной связи ознакомьтесь с <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">образцом опросов пользователей</a></li></td></tr>
+<tr><td><ul><li>Настройка&mdash; <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">шаблонов электронной почты</a> в электронной почте</li><li>Плакаты и цифровая подпись </li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Команды и каналы</li><li>гамификатион</li></ul></td><td><ul><li>Статьи и видеоролики от Майкрософт:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Обучение работе с видео в Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Собрания и звонки</a></li></li></ul><li>Помощь в работе (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельная помощь (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл&mdash;обратной связи ознакомьтесь с <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">образцом опросов пользователей</a></li></td></tr>
 </table>

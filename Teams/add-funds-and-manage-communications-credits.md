@@ -7,12 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Узнайте о том, как платить за звонки в Skype для бизнеса (использование PSTN) и просмотреть планы, чтобы обеспечить пользователям непрерывный доступ к телефонным системам. '
-ms.openlocfilehash: 93fb828f434c07b32852711772b6c16613415749
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278322"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239339"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Пополнение средств и управление кредитами на связь
 

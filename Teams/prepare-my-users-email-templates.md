@@ -7,36 +7,37 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Использование шаблонов для отправки по электронной почте пользователям, как реализовать возможности голосовой связи облака в группы или Скайп для бизнеса.
+audience: admin
+description: Шаблоны используются для отправки сообщений пользователям при реализации возможностей голосовой связи в Teams или Skype для бизнеса.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85a4dbbbfa49642000c3badc6faaa15f18887d8f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898662"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237202"
 ---
-# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Упростить пользователя внедрения новых online телефонной системы
+# <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Упрощение адаптации пользователей к новой телефонной системе
 
-Телефон может быть жизни пользователя. Переключение из системы традиционного телефона online телефонной системы представляет значительные изменения, как на работу пользователей и может отрицательно сказаться на производительности. Выделить время для оповещения, руководство и поддержка пользователей с помощью это изменение может помочь обеспечить положительное пользовательского интерфейса и максимального использования инвестиций.
+Телефон может быть жизненным циклом пользователя. Переход с обычной телефонной системы на онлайновый позволяет значительно изменить способ работы пользователей и может негативно сказаться на производительности. Затратив время для информирования, руководства и поддержки пользователей благодаря этим изменениям, вы сможете добиться положительного взаимодействия с пользователем и добиться максимально возможной окупаемости инвестиций.
 
-Эта статья содержит шаблоны настраиваемый электронной почты для оповещения пользователей о своей новой телефонной системой. Настройка и отправка соответствующие сообщения электронной почты для выравнивания с выполнением развертывания определенного голосовой связи. Мы использовали скобки для указания разделах легко личной настройки, но рекомендуется добавлять организационные системы обмена сообщениями, чтобы сделать извещение наиболее важные для пользователей. Если это применимо для вашего развертывания, замените все ссылки на «Команды» «Скайп для предприятия».
+В этой статье содержатся настраиваемые шаблоны электронной почты, помогающие информировать пользователей о новой телефонной системе. Настройте и отправьте нужные сообщения электронной почты в соответствии с конкретными развернутыми голосами. Мы использовали скобки, чтобы обозначить разделы для упрощения персонализации, но мы рекомендуем вам добавить специальную систему обмена сообщениями, чтобы сделать извещение более подходящим для ваших пользователей. Если это применимо для вашего развертывания, замените все ссылки на "Teams" на "Skype для бизнеса".
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Отправьте номер 1: Отправка три недели до запуска
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Номер электронной почты 1: отправить три недели перед запуском
 
-Тема:
+Строка темы:
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Текст сообщений электронной почты:
+Текст сообщения:
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -93,15 +94,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>Отправьте номер 2: отправить за неделю до запуска
+## <a name="email-number-2-send-one-week-before-launch"></a>Номер электронной почты 2: Отправка одной недели перед запуском
 
-Тема:
+Строка темы:
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Текст сообщений электронной почты:
+Текст сообщения:
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -137,15 +138,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Отправьте номер 3: отправить в день запуска
+## <a name="email-number-3-send-on-launch-day"></a>Номер электронной почты 3: отправить на день запуска
 
-Тема:
+Строка темы:
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Текст сообщений электронной почты:
+Текст сообщения:
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -174,15 +175,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Отправьте номер 4: Отправка две недели после запуска
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Электронная почта номер 4: отправка двух недель после запуска
 
-Тема:
+Строка темы:
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Текст сообщений электронной почты:
+Текст сообщения:
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

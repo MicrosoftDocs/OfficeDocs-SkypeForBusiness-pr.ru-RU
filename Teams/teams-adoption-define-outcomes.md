@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: В этой статье объясняется, как измерять результаты и успешно выполнять широкие возможности включения и изменения в коллективе.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad55031c06f114a8037715dff859d54f41b05a8c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548910"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242408"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Результаты и критерии успеха внедрения Microsoft Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "34548910"
  
 Как правило, вы должны представить эти показатели статистической обработки, чтобы создать для вашей компании частное поддействием следующим образом:
 
-![Материальные меры, разделенные на отдельные тональность, равное Change частного](media/teams-adoption-change-quotient.png)
+![Материальные меры, разделенные отдельным тональность = изменить частное](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>Выбор стратегии включения службы
 
