@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Пользователь может явным образом задать в сообщении о состоянии другого пользователя в качестве делегата.
-ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: cc9895ec639589ec260a03b0a1828ccf2a4eb9b1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131506"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232351"
 ---
 # <a name="message-delegation"></a>Делегирование сообщений
 
@@ -42,7 +42,7 @@ ms.locfileid: "35131506"
 
 |Режим совместного существования | Ожидаемое поведение|
 |---|---|
-|Теамсонли |Пользователи могут устанавливать заметки только из Teams. <br> В Teams & SfB отображается Примечание для пользователей Teams. |
+|теамсонли |Пользователи могут устанавливать заметки только из Teams. <br> В Teams & SfB отображается Примечание для пользователей Teams. |
 |Блоки | Заметки пользователя в Teams видны только в Teams. <br> Примечание пользователя, установленное в SfB, видимо только в SfB |
 |Режимы SfB * | Пользователи могут устанавливать заметку только из SfB. <br> SfB Примечание пользователя отображается в SfB & Teams.  |
 |||

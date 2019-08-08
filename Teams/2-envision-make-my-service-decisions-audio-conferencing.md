@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Сведения о собраниях, лицензировании и доступности, настройке параметров моста конференц-связи, получении и переносе номеров телефонов, а также о выборе абонентских тарифов клиента.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7c36904aadf19802511979fa5e069b3c91035e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d0155788ef4ba99a350be0043847edd5e705b75b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330598"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240577"
 ---
 # <a name="make-my-service-decisions"></a>Принятие моих решений на обслуживание
 
@@ -355,7 +356,7 @@ Teams позволяет пользователям планировать и п
 > ||**AU-TollFree**<br>_Нормализация бесплатного номера для Австралии_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>False|
 > ||**AU-Service**<br>_Нормализация номера службы для Австралии_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 > |**SG-Singapore-OMB**<br>_OMB в Сингапуре, абонентская группа SG_|**SG-OMB-Internal**<br>_Внутренний номер (x8000 x8999) для ОМБ Office, Сингапур_|^ (8-d{3}) $<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_Нормализация бесплатного номера для Сингапура_|^ (1?800 \ d{7}) \d * $<br>+65$1<br>False|
+> ||**SG-TollFree**<br>_Нормализация бесплатного номера для Сингапура_|^ (1? 800-d{7}) \d * $<br>+65$1<br>False|
 > ||**SG-Service**<br>_Нормализация номера службы для Сингапура_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>False|
 > |**FR-Paris-Issy-39qdPR**<br>_Абонентская группа 39 quai du Président Roosevelt Issy-les-Moulineaux, Франция_|**FR-39qdPR-Internal**<br>_Внутренний номер (x7000 x7999) для 39 Куаи du Прéсидент Русевелт Office, Исси-Les-Маулинеаукс, Франция_|^ (7 \ d{3}) $<br>+3319999$1<br>True|
 > ||**FR-TollFree**<br>_Нормализация бесплатного номера для Франции_|^ 0? (80-d{7}) \d * $<br>+33$1<br>False|

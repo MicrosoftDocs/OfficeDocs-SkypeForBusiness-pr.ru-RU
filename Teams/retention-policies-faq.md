@@ -7,70 +7,71 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: Часто задаваемые вопросы о политиках хранения в группах Майкрософт.
+audience: admin
+description: Ответы на часто задаваемые вопросы о политиках хранения в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14e398908a13e621d739a5a923b52588551506f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205106"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243557"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Политики хранения Microsoft Teams: вопросы и ответы
 
-### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Какие типы политики можно настроить в политики хранения и как они работают?
+### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Какие типы политик можно настроить в политиках хранения и как они работают?
 
-В центре соответствия требованиям & безопасности при настройке политику хранения для группы или любой другой рабочей нагрузки, можно выполнить настройку два основных типа политик: 
-- Сохранение: Эти политики убедитесь, что данных сохраняется для заданного периода времени, независимо от того, что происходит в средствах конечного пользователя. Они убедитесь, что данные сохраняются в целях соответствия требованиям, и доступные возможности обнаружения электронных данных до этого времени истечения срока действия. По истечении времени вашей политике можно указать, следует ли ничего не делать, или удалить данные. В группах при создании политики хранения для 7 лет даже в том случае, если конечный пользователь удаляет сообщения, помещенные групп, эти сообщения по-прежнему сохраняются для обнаружения электронных данных для 7 лет.
-- Удаления: Эти политики убедитесь, что данные не ответственности для вашей организации. После указанного срока данных удаляется из всех соответствующих хранилища в группах. 
+В центре безопасности &, когда вы настраиваете политику хранения, для Teams или для любой другой рабочей нагрузки, вы можете настроить два основных типа политик: 
+- Сохранение: эти политики гарантируют, что данные будут сохраняться в течение определенного периода времени, независимо от того, что происходит в средствах конечного пользователя. Они гарантируют, что данные будут сохранены в соответствии с причинами соответствия требованиям, и они будут доступны в eDiscovery до истечения этого времени. По истечении этого времени политика может указать, нужно ли ничего делать или удалить данные. В Teams, если вы создаете политику сохранения в течение 7 лет, даже если конечные пользователи удаляют сообщения команды, эти сообщения по-прежнему сохраняются для обнаружения электронных данных в течение 7 лет.
+- Удаление: эти политики гарантируют, что данные не являются ответственностью для вашей организации. После указанной длительности данные удаляются из всего необходимого хранилища в Teams. 
 
-### <a name="can-we-include-teams-in-org-wide-policies"></a>Мы включают группами в масштабе организации политики 
+### <a name="can-we-include-teams-in-org-wide-policies"></a>Могут ли мы включать команды в политики Организации? 
 
-Нет, не в настоящее время. Необходимо создать отдельные политики для группы чата и канала сообщений, с помощью строки расположение группы или эти командлеты групп: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Эти командлеты get и задать также версий.
+Нет, в настоящее время нет. Вы должны создать конкретные политики для сообщений в чате и каналах команд с помощью строки расположения Teams или следующих командлетов teams: [New-теамсретентионкомплианцеполици](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-теамскомплианцеретентионруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Эти командлеты также получают и устанавливают версии.
 
-### <a name="are-these-retention-policies-retroactive"></a>Существуют следующие политики хранения имеет обратной силы? 
+### <a name="are-these-retention-policies-retroactive"></a>Неотложными ли эти политики хранения? 
 
-Да, эти атрибуты. При создании политики хранения для удаления данных возрастом более 60 дней, он удалит групп данных, созданных более 60 дней назад. 
+Да, это не так. Если вы создаете политику хранения для удаления данных старше 60 дней, она удалит данные группы, созданные более 60 дней назад. 
 
-### <a name="what-is-the-default-retention-policy"></a>Что такое политика хранения по умолчанию? 
+### <a name="what-is-the-default-retention-policy"></a>Какова политика хранения по умолчанию? 
 
-По умолчанию группы чата, канала и файлы данных, сохраняются навсегда. Можно удалять что-то, но в случае отсутствия политики хранения данных групп всегда архивируются в почтовых ящиков Exchange online (пользователей и групп) и остается обнаружения электронных данных. 
+По умолчанию данные чата, каналы и файлов в Teams сохраняются постоянно. Пользователь может удалить что-либо, но в случае отсутствия политик хранения данные Teams всегда архивируются в почтовые ящики Exchange Online (пользователи и группы) и остаются там для обнаружения электронных данных. 
 
-### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Можно распределять наборы пользователей или групп в политике 
+### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Можно ли назначить набор пользователей или групп в политике? 
 
-Да, это сделать. В мастере создания политики на шаге расположения можно включения или исключения (**сообщения канала команд**) группы или пользователи (**группы чата**) и создание политики для вашей организации. 
+Да, это нужно сделать. В мастере создания политики на этапе расположений вы можете включить или исключить команды (**сообщения канала группы**) или пользователей (Teams**Chat**) и создать целевые политики для Организации. 
 
-### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>Что такое основное различие между с помощью строки расположение группы почтовых ящиков и групп канала сообщения расположение строки в политики хранения 
+### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>В чем заключается основное различие между строкой расположение группового почтового ящика и сообщениями канала группы в политиках хранения? 
 
-Если вы используете строк расположение почтового ящика пользователя и почтового ящика группы для Exchange Online, групп данные будут удалены из определенных почтовых ящиков. Тем не менее удаляются данные из почтового ящика. Он не удаляет данных других групп, таких как службы бесед. Мы рекомендуем использовать политики хранения групп для правильного управления все данные команды. Политики хранения группы удаляет данные, группы из всех службы чата расположений — почтовые ящики, хранения, группам клиентов. 
+Если вы используете строки группового почтового ящика и местоположения почтового ящика пользователя для Exchange Online, данные Teams удаляются из указанных почтовых ящиков. Тем не менее, данные удаляются только из почтового ящика. В нем не удаляются другие данные Teams, например служба чатов. Для правильного управления всеми группами данных рекомендуется использовать политики хранения Teams. Политика хранения Teams удаляет данные групп из всех местоположений хранилища: почтовые ящики, служба чата, клиенты Teams. 
 
-Примечание: Запуск компонента политик хранения для групп следит за тем, что только политики групп удаление групп элементов, хранятся в расположениях почтовых ящиков Exchange (пользователя или группы). Другие настройки политики почтовых ящиков не могут повлиять на групп элементов. В прошлом, но была устранена с выпуском компонент политики хранения. 
+Примечание. Запуск функции политик хранения для Teams гарантирует, что только политики Teams удаляют элементы Teams, хранящиеся в расположениях почтового ящика Exchange (пользователь или группа). Настройка других политик в почтовых ящиках не может повлиять на элементы Teams. Это было верно в прошлом, но было устранено с помощью функции "политики хранения". 
 
-### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>Что происходит с Скайп для бизнеса в Интернет и рабочих групп взаимодействия чаты — они влияет на политики хранения?
+### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>Что происходит с обсуждениями в Skype для бизнеса Online и Teams, – они влияют на политики хранения?
 
-Да, Скайп для бизнеса в Интернет и группами взаимодействия чаты работает так же, как. После Скайп для бизнеса беседа переходит в группы, он становится сообщения в потоке чата групп и получает ingested в соответствующий почтовый ящик. Так же поток works – политики удаления группы приведет к удалению этих сообщений из потока команд. Тем не менее если журнал бесед для включено Скайп для бизнеса в Интернет и из Скайп для бизнеса в Интернет на стороне клиента тем, сохраняются в почтовый ящик, эти данные чата не обрабатывается политику хранения групп.
+Да, Skype для бизнеса Online и беседы по взаимодействию в Teams работают одинаковым образом. После того как чат Skype для бизнеса Online поступает в Teams, он становится сообщением в потоке чата в Teams и получается из соответствующего почтового ящика. Так что один и тот же поток работает — политики удаления Teams будут удалять эти сообщения из потока команд. Тем не менее, если в Skype для бизнеса Online включена История бесед и на клиенте Skype для бизнеса Online они сохраняются в почтовом ящике, эти данные чата не обрабатываются политикой хранения в Teams.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Можно делать их по безопасности & командлеты центре соответствия требованиям? Что следует использовать? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Можно ли сделать это с помощью командлетов центра безопасности & соответствия требованиям? Что следует использовать? 
 
-Абсолютно. Можно создать политики хранения групп с помощью [& безопасности командлеты Powershell центр соответствия требованиям]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Помните, что эти не командлеты Exchange Online. Ниже перечислены командлеты, которые мы создали для групп. Они следуйте существующей Номенклатурный и стиль хранения командлеты, доступные на сегодняшний день & безопасности центре соответствия требованиям.
+Позиционирование. Вы можете создавать политики хранения команд с помощью [командлетов PowerShell центра безопасности &]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Помните о том, что это не командлеты Exchange Online. Ниже указаны командлеты, созданные для Teams. Они поддерживайте существующую номенклатуру и стиль из командлетов хранения, доступных сегодня в центре безопасности & соответствия требованиям.
 
-|Политики|Правила|
+|Policy|Условия|
 |---|---|
-|[Новый TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [Новый TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[SET-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [SET-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[New-Теамсретентионкомплианцеполици](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-Теамсретентионкомплианцеруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-Теамсретентионкомплианцеполици](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-Теамсретентионкомплианцеруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[Set-Теамсретентионкомплианцеполици](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-Теамсретентионкомплианцеруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[Remove-Теамсретентионкомплианцеполици](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-Теамсретентионкомплианцеруле](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
-### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>При наличии нескольких политик хранения для групп с различной длительности, какой из них wins?
+### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>Если вы используете несколько политик хранения для Teams с различной длительностью, один из которых является WINS?
 
-Мы следуйте [принципы политики хранения](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423), и мы рекомендуем выполнить слишком. Ответ — это: 
--   Сохранение всегда wins через удаления
--   Всегда длительный период хранения wins
--   Явное включение wins через неявных включения с точки зрения расположения
--   Минимальная удаления периода wins
+Мы выполняйте [принципы политик хранения](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423), и мы рекомендуем вам. Короткий ответ: 
+-   Сохранение всегда при удалении WINS
+-   Наиболее продолжительный период хранения всегда WINS
+-   Явное включение WINS для неявного включения в положениях местоположений
+-   Самый короткий период удаления (WINS)

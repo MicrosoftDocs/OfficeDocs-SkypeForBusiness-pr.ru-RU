@@ -6,23 +6,24 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Сведения о различных командах, каналах и приложениях, адаптированных под самые разнообразные направления деятельности, например финансы, планирование мероприятий, продажи и многое другое.
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04a7366c9b4f09fa9c06b7d7f4cd40a24892f840
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: cab50101f23b9d687d744031c14412b5a65a5dad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35804678"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237155"
 ---
 > [!NOTE]
 > Изучите следующие сведения, чтобы ознакомиться с чатами, командами, каналами и приложениями в Teams. Затем перейдите в раздел " [чат", "группы", "каналы" & "приложения" в Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , чтобы просмотреть список решений, важных для выпуска групп.

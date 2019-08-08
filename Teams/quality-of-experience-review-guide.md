@@ -7,20 +7,21 @@ ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Руководство по анализу производительности мультимедиа в режиме реального времени для Microsoft Teams с помощью панели мониторинга качества звонков (CQD).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793276"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243735"
 ---
 # <a name="quality-of-experience-review-guide"></a>Руководство по анализу качества взаимодействия
 
@@ -637,17 +638,17 @@ _Таблица 5: создание структуры файла_
 | Имя столбца        | Тип данных | Пример                   | Рекомендации    |
 |--------------------|-----------|---------------------------|-------------|
 | Сеть            | String    | 192.168.1.0               | Обязательно    |
-| Нетворкнаме        | String    | США/Сиэтл/Сиэтл (SEA-1) | Обязательно\*  |
+| нетворкнаме        | String    | США/Сиэтл/Сиэтл (SEA-1) | Обязательно\*  |
 | NetworkRange       | Число    | 26                        | Обязательно    |
 | BuildingName       | String    | СИЭТЛ — МОРСКОЙ ВОЛНЫ (1 – 7)             | Обязательно\*  |
-| Овнершиптипе      | String    | Contoso                   | Необязательно     |
-| Буилдингтипе       | String    | Прекращение ИТ            | Необязательно     |
+| овнершиптипе      | String    | Contoso                   | Необязательно     |
+| буилдингтипе       | String    | Прекращение ИТ            | Необязательно     |
 | BuildingOfficeType | String    | Техника               | Необязательно     |
 | City               | String    | Сиэтл                   | Рекомендуется |
 | ZipCode            | String    | 98001                     | Рекомендуется |
 | Страну            | String    | Американские                        | Рекомендуется |
 | State              | String    | Красноярский край                        | Рекомендуется |
-| Region             | String    | МСУС                      | Рекомендуется |
+| Region             | String    | мсус                      | Рекомендуется |
 | InsideCorp         | Bool      | 1                         | Обязательно    |
 | ExpressRoute       | Bool      | до                         | Обязательно    |
 

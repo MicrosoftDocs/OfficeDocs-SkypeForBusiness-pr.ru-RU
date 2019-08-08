@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы получить сведения о том, как создать учетную запись администратора сервера чата, чтобы включить начальную настройку и управление службами сохраняемого чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: b0edd3e1f10bf040be18242bfa600bb694169257
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 3692169a65d73c3951ce58e77b132a4f118c54e9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418145"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239773"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Создание администратора сохраняемого чата в Skype для бизнеса Server 2015
  

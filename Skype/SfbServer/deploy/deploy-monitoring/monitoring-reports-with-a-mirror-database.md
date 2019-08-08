@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Сводка: сведения о том, как связать отчеты мониторинга с зеркальной базой данных, используемой в Skype для бизнеса Server.'
-ms.openlocfilehash: 0727a278b87edd0b3666b04d169dcd3460c8215c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 522ed5f9bd6e437a83e9cb3575ca92c0bd049e44
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273968"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239890"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Связывание отчетов мониторинга с зеркальной базой данных в Skype для бизнеса Server 
  
@@ -41,7 +41,7 @@ ms.locfileid: "34273968"
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Выполнив переход на главную страницу службы Reporting Services, щелкните ссылку **ServerReports**, затем - **Reports_Content**. Откроется страница **репортс_контент** для отчетов мониторинга сервера Skype для бизнеса Server.
+2. Выполнив переход на главную страницу службы Reporting Services, щелкните ссылку **ServerReports**, затем - **Reports_Content**. Откроется страница **Reports_Content** для отчетов мониторинга сервера Skype для бизнеса Server.
     
 3. На странице **Reports_Content** выберите источник данных **CDRDB**.
     

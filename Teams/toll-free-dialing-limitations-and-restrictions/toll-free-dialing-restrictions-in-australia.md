@@ -1,4 +1,5 @@
 ---
+title: Бесплатный набор ограничений на звонки в Австралии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 7201b2fd540d5703aa6f051cceb99677245d768c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330574"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241837"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Бесплатный набор ограничений на звонки в Австралии
 

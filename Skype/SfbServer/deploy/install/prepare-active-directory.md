@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Аннотация: сведения о том, как подготовить домен Active Directory к установке Skype для бизнеса Server. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 85bd8d45cee1144ef355f0a9b0491d24529d6ff3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35002847"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245289"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Подготовка службы каталогов Active Directory для Skype для бизнеса Server
  
@@ -97,7 +97,7 @@ Skype для бизнеса Server тесно интегрирован с дом
     
     h. Введите команду Get-Ксадфорест и нажмите клавишу **Ввод**.
     
-    думаю. Если результат — **лк_форестсеттингс_стате_реади**, лес успешно подготовлен, как показано на рисунке.
+    думаю. Если результат — **LC_FORESTSETTINGS_STATE_READY**, лес успешно подготовлен, как показано на рисунке.
     
      ![Проверка репликации леса.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
@@ -147,7 +147,7 @@ Skype для бизнеса Server тесно интегрирован с дом
     > [!NOTE]
     > Параметр GlobalSettingsDomainController позволяет указать, где хранятся глобальные параметры. Если параметры хранятся в контейнере System (это обычная ситуация при обновлении развертываний, когда глобальные параметры не переносятся в контейнер Configuration), определите контроллер домена в корне леса AD DS. Если глобальные параметры хранятся в контейнере Configuration (это обычная ситуация для новых развертываний или обновленных развертываний, в которых параметры перенесены в контейнер Configuration), определите любой контроллер домена в лесу. Если не указать этот параметр, командлет будет считать, что параметры хранятся в контейнере Configuration, и будет ссылаться на любой контроллер домена в Active Directory. 
   
-    в. Если результат — **лк_домаинсеттингс_стате_реади**, то домен успешно реплицирован.
+    в. Если результат — **LC_DOMAINSETTINGS_STATE_READY**, то домен успешно реплицирован.
     
 10. **Шаг 7. Добавление пользователей для предоставления административного доступа к панели управления Skype для бизнеса Server**
     

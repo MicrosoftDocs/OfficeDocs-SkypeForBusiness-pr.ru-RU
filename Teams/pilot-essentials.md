@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Руководство по запуску проекта Microsoft Teams для ознакомления со всеми участниками вашей организации, когда вы продолжаете использовать Skype для бизнеса
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824b14ba49391720305778e676bb47850d836196
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433185"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237443"
 ---
 ![Обновление схемы поездки, выделение развертывания и реализация] (media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 

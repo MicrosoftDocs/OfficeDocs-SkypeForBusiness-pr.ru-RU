@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Сводка: Настройка магистрали без включения функции обхода мультимедиа для Skype для бизнеса Server.'
-ms.openlocfilehash: 1e81f0d700d6dff90eb0bb0f6f61a8810f14bd97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289092"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233666"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Настройка магистрали без пропуска мультимедиа в Skype для бизнеса Server
 
@@ -46,7 +46,7 @@ ms.locfileid: "34289092"
    - **Магистраль пула**: выберите имя канала, к которому будет применена эта конфигурация магистральной магистрали в поле **Выбор службы** , и нажмите кнопку **ОК**. Этот магистраль может быть корневой магистралью или любыми дополнительными магистральными органами, определенными в построителе топологии. Обратите внимание, что магистрали, для которых уже создана конфигурация, не отображаются в разделе **Выбор службы**.
 
      > [!NOTE]
-     > Выбранную область конфигурации магистрали нельзя изменить. _Гт_ поле " **имя** " предварительно заполнено именем сайта или службы, связанного с магистральной конфигурацией, и не может быть изменено.
+     > Выбранную область конфигурации магистрали нельзя изменить. > поле **Name** предварительно заполняется именем сайта или службы, связанного с конфигурацией магистрали, и не может быть изменено.
 
 4. Выберите один из описанных ниже вариантов для **Уровня поддержки шифрования**.
 

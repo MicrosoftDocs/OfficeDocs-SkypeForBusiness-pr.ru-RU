@@ -6,20 +6,21 @@ manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Настройка политики собраний для предоставления пользователям возможности совместного доступа к рабочему столу в чате и собраниях Teams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433241"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236937"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Совместный доступ к рабочему столу в Microsoft Teams
 ============================================
@@ -63,11 +64,11 @@ ms.locfileid: "34433241"
 Вы также можете использовать командлет [Set-кстеамсмитингполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) , чтобы управлять общим доступом к рабочему столу. Задайте следующие параметры:
 
 - Описание
-- Скриншарингмоде
-- АлловпартиЦипантгиверекуестконтрол
-- АлловекстерналпартиЦипантгиверекуестконтрол
-- Алловповерпоинтшаринг
-- Алловвхитебоард
+- скриншарингмоде
+- алловпартиЦипантгиверекуестконтрол
+- алловекстерналпартиЦипантгиверекуестконтрол
+- алловповерпоинтшаринг
+- алловвхитебоард
 - AllowSharedNotes
 
 Дополнительные [сведения об использовании командлета кстеамсмитингполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).

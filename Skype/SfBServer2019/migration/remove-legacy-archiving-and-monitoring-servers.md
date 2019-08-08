@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Если ваше развертывание содержало сервер архивирования или сервер мониторинга, после перехода на Skype для бизнеса Server 2019 эти серверы можно будет удалить из устаревшей среды, при этом все пользователи удаляются из других устаревших пулов. Сервер архивирования или сервер мониторинга можно удалить в любой последовательности. Ключевое требование состоит в том, что все пользователи удалены из всех оставшихся устаревших пулов.
-ms.openlocfilehash: 918e04bb42853f0203ae8a2a56db5e640985af99
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06d6287438e4b470017b00601b1e2ab472bea9b6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301127"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244230"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Удаление старых серверов архивирования и мониторинга
 

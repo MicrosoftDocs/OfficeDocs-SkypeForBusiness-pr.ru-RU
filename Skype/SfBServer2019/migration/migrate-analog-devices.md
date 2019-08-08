@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype для бизнеса Server обеспечивает поддержку аналоговых устройств. В частности, поддерживаются аналоговые устройства аналогового и аналогового факсимильного аппарата. Вы можете настроить полные шлюзы для поддержки использования аналоговых устройств в среде Skype для бизнеса Server. После перехода на Skype для бизнеса Server 2019 необходимо также перенести объекты контактов, связанные с аналоговыми устройствами. С помощью командной консоли Skype для бизнеса Server вы можете сначала получить все объекты контактов, связанные с аналоговыми устройствами, а затем переместить эти объекты в пул Skype для бизнеса Server 2019.
-ms.openlocfilehash: a822f8f73ad839654d266182172ef8e30d5d28e8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 486c49c0ace00b798520ebae939c0c2070a99783
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280845"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238041"
 ---
 # <a name="migrate-analog-devices"></a>Перенос аналоговых устройств
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Для успешного выполнения этой процедуры необходимо войти на сервер или домен в группу администраторов домена или в группу пользователей Днсадминс.
-ms.openlocfilehash: bf9f9c3f16ceb2ee35cda8e833d468e202d5653c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307058"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241160"
 ---
 # <a name="update-dns-srv-records"></a>Обновление записей DNS SRV
 
@@ -28,7 +28,7 @@ ms.locfileid: "34307058"
     
 2. В дереве консоли для вашего домена SIP разверните раздел **зоны прямого просмотра**, РАЗВЕРНИТЕ домен SIP, в котором установлен Skype для Business Server 2019, и перейдите к параметру " **_tcp** ". 
     
-3. На правой панели щелкните правой кнопкой мыши **_сипинтерналтлс** и выберите пункт **свойства**.
+3. На правой панели щелкните правой кнопкой мыши **_sipinternaltls** и выберите пункт **свойства**.
     
 4. В **узле, предлагающем эту службу**, обновите полное доменное имя узла, чтобы оно указывало на пул 2019 в Skype для бизнеса Server.
     

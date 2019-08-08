@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: ritikag
@@ -16,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0858373bebabdb9df6c8a00463ac5a3db1834843
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3ea69be9ba6098e4b4fb5d6fb8006dbcaa33a2cd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792137"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240872"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Управление доступом пользователей к Microsoft Teams
 =====================================
@@ -52,7 +53,7 @@ ms.locfileid: "35792137"
 > [!IMPORTANT]
 > New-Мсоллиценсеоптионс включит все службы, которые ранее были отключены, если в пользовательском сценарии не експликтитли идентитиед. Например, если вы хотите выйти из аддитоналли Exchange & Sway при отключении Teams, вам потребуется инлкуде этот сценарий или оба сервера Exchange & Sway будут включены для указанных вами пользователей. Если вы хотите использовать графический интерфейс для управления этими функциями, ознакомьтесь со следующей статье: [средство для создания отчетов и управления лицензиями Office 365-Назначение лицензий на удаление для массовой рассылки](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
-Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. Для GCC имя плана обслуживания — ТЕАМС_ГОВ. Для GCC High имя плана обслуживания — ТЕАМС_ГКЧИГХ. В целях DoD имя плана обслуживания — ТЕАМС_ДОД (Дополнительные сведения можно найти в разделе [Отключение доступа к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
+Включение и отключение в PowerShell лицензии на рабочую нагрузку Microsoft Teams выполняются точно так же, как и для других нагрузок. План обслуживания для Microsof Teams называется TEAMS1. Для GCC имя плана обслуживания — TEAMS_GOV. Для GCC High имя плана обслуживания — TEAMS_GCCHIGH. В целях DoD имя плана обслуживания — TEAMS_DOD (Дополнительные сведения можно найти в разделе [Отключение доступа к службам с помощью Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
 
 **Пример:** Ниже приведен краткий пример того, как отключить группы для всех пользователей определенного типа лицензии. Сначала выполните эту операцию, а затем отдельно активируйте лицензии для каждого пользователя, которому нужен доступ в рамках пилотной программы.
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,16 +16,16 @@ search.appverid: MET150
 description: Главная страница для развертывания облачной голосовой связи в Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185326"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236983"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Облачная голосовая связь в Microsoft Teams
 
-Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Возможно, вы развернули [собрания _амп_ конференции](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы можете добавлять возможности облачных голосовых возможностей для пользователей. 
+Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Возможно, вы развернули [собрания & конференции](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы можете добавлять возможности облачных голосовых возможностей для пользователей. 
 
 Облачный голосовой звонок обеспечивает возможности обмена данными в частной ветви (АТС) и параметры для подключения к телефонной сети с открытым коммутируемым подключением (КТСОП).
 
@@ -99,7 +100,7 @@ ms.locfileid: "34185326"
 
 |Задайте себе вопрос|Действие |
 |:------------|:-------|
-|Нужно ли маскировать или отключать идентификатор вызывающего абонента? | Чтобы изменить или заблокировать идентификатор вызывающего абонента, обратитесь к разделу [Установка идентификатора вызывающего абонента для пользователя](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Нужно ли маскировать или отключать идентификатор вызывающего абонента? | Чтобы изменить или заблокировать идентификатор вызывающего абонента, обратитесь к разделу [Установка идентификатора вызывающего абонента для пользователя](set-the-caller-id-for-a-user.md). |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Номера телефонов от корпорации Майкрософт

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Вы можете проверить репликацию сведений о конфигурации на пограничном сервере, запустив командлет Skype для Business Server 2019 Get-Ксманажементсторерепликатионстатус на внутреннем компьютере, на котором находится хранилище Центрального управления, или на любом компьютер, подключенный к домену, на котором установлен компонент «основные компоненты» для Skype для Business Server 2019 (Окскоре. msi).
-ms.openlocfilehash: 0ea966652972a97dac3e807cef42ddeaa5136322
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5beb3c80bbc4c2f9a73fe68b9d99d7752598c680
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307037"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240940"
 ---
 # <a name="verify-configuration-settings"></a>Проверка параметров настройки
 

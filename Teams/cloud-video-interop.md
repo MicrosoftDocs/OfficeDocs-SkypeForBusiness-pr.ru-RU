@@ -5,21 +5,22 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: Облачное видеовзаимодействие включает сторонние устройства для собраний, которые могут присоединиться к собраниям Microsoft Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549021"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237075"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Взаимодействие Microsoft Teams с облачными видеослужбами
 
@@ -47,9 +48,9 @@ ms.locfileid: "34549021"
 
 |Сотрудничать|Решение для партнеров|
 |----|---|
-|![Логотип для Polycom Реалконнект](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Служба Реалконнект Polycom</a> |
-|![Логотип для Пексип бесконечности](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Пексип бесконечности для Microsoft Teams</a> | 
-|![Логотип для шлюза Блуежеанс](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Шлюз Блуежеанс для Microsoft Teams</a> |
+|![Логотип, обозначающий Polycom Реалконнект](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Служба Реалконнект Polycom</a> |
+|![Логотип, представляющий бесконечную Пексип](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Пексип бесконечности для Microsoft Teams</a> | 
+|![Эмблема, представляющая шлюз Блуежеанс](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Шлюз Блуежеанс для Microsoft Teams</a> |
 
 ### <a name="cloud-video-interop-overview"></a>Общие сведения о облачном взаимодействии
 

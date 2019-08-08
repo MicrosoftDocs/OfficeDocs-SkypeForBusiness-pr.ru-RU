@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После перемещения пользователей в пулы Skype для бизнеса Server 2019 вы можете выполнять миграцию групп ответа. Миграция групп ответа включает в себя копирование групп агента, очередей, рабочих процессов, звуковых файлов и перемещение контактных данных группы ответа из устаревшего развертывания в пул Skype для бизнеса Server 2019. После миграции устаревших групп ответов звонки в группы ответа обрабатываются приложением группы ответа в пуле 2019 в Skype для бизнеса Server. Вызовы групп ответа больше не обрабатываются пулом устаревших версий.
-ms.openlocfilehash: cba50526748ca15c04513013e484b0e279410c1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298206"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237972"
 ---
 # <a name="migrate-response-groups"></a>Перенос групп ответа
 

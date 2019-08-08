@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Использование проверенной платформы успеха для модернизации Организации в отношении того, что из Skype для бизнеса в Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934568"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236413"
 ---
 # <a name="about-the-upgrade-framework"></a>Схема перехода
 

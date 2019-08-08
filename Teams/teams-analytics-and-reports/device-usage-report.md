@@ -10,18 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Узнайте, как с помощью отчета об использовании устройств Teams в центре администрирования Microsoft Teams просмотреть, как пользователи в вашей организации подключаются к Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86d8e2dc145aa8538326b42f5110de69542e8453
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 2acdf94ff3c6eb0a8c3df36059c6b7e51af7e805
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420014"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245001"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Отчет об использовании устройств с Microsoft Teams
 

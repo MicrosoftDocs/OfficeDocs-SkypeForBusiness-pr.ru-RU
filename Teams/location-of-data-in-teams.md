@@ -5,29 +5,35 @@ ms.author: lolaj
 manager: serdars
 ms.date: 05/09/2019
 ms.topic: reference
+audience: admin
 ms.service: msteams
 ms.reviewer: anach
 description: Сведения о том, где хранятся данные в Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 832fa044379698eae3531c8b340dbd36f922198c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667476"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242108"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Расположение данных в Microsoft Teams
 
-Данные Teams располагаются в географическом регионе, связанном с клиентом Office 365. В настоящее время Teams поддерживает регионы "Австралия", "Канада", "США", "французский, Великобритания, Америки, APAC и региона". 
+Данные Teams располагаются в географическом регионе, связанном с клиентом Office 365. В настоящее время Teams поддерживает регионы "Австралия", "Канада", "США", "Япония", "Великобритания", "Южная Корея", "Америки", "APAC" и "EMEA". 
 
 > [!IMPORTANT]
-> В настоящее время команды предоставляют Кель данных в Австралии, Канаде, Франции, Индии, Японии и Великобритании только для новых клиентов. Новым считается любой клиент, ни один пользователь которого еще ни разу не входил в Teams. Существующие клиенты из Австралии, Индии и Японии продолжат хранение данных Teams в APAC регионе. Существующие клиенты в Канаде продолжат хранение данных в Америки. У существующих клиентов в Франции и в Великобритании будут храниться данные в регионе EMEA.
+> В настоящее время в Teams поддерживается только Кель данных в Австралии, Канаде, Франции, Индии, Японии, Великобритании, Южной Корее и Южной Африке только для новых клиентов.
+> Новым считается любой клиент, ни один пользователь которого еще ни разу не входил в Teams. Существующие клиенты из Австралии, Индии, Японии и Южной Корея продолжат хранение данных Teams в APAC регионе. Существующие клиенты в Канаде продолжат хранение данных в Америки. У существующих клиентов в Франции, Великобритании и Южной Африке будут храниться данные в регионе EMEA.
+
+Дополнительные сведения о Кельх данных Южной африканского разноски для Teams можно найти в блоге Варун Сагар, в Microsoft Teams будут выпуски [данные Южной африкан Кель](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611).
+
+Дополнительные сведения о Кель данных для Южной корейского языка в Teams поставляются в блоге Варун Сагар, поэтому [Microsoft Teams запускает Южно-корейские данные](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171), которые Кель.
 
 Чтобы узнать больше о том, как запускать Индии и Великобритания Data Кель для Teams, читайте в блоге Ансуман Ачаря, [Microsoft Teams запускает Кель данных в Индии, а другие жеос —](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827)в ближайшее время. 
 

@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о запуске, эксперименте и включении фаз внедрения Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02fc59d7f770d6c4070f67370533e30e4b657c98
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 168799878ff5f2a9ec1662c905f480854130bb45
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548783"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242287"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Начало работы с внедрением Microsoft Teams
 
