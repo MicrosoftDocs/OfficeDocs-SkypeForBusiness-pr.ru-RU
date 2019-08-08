@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/08/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
@@ -13,18 +14,18 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5369206deda7a9d4c9e17a87406f208383927f05
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221955"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232957"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 ======================================================
@@ -44,36 +45,36 @@ ms.locfileid: "35221955"
 
 |Раздел "Teams" в центре администрирования Microsoft 365  |Имя параметра (уровень клиента)  |Политика центра администрирования Microsoft Teams   |Level (уровень): клиент или пользователь   |
 |---------|---------|---------|---------|
-|Общий     |Показать организационную диаграмму в личном профиле        |  [Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиента       |
-|Общий     |Использование Skype для бизнеса для получателей, не имеющих групп         |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Интеграция с электронной почтой     |Разрешение пользователям отправлять сообщения электронной почты по каналам         |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Интеграция с электронной почтой     |Список разрешенных отправителей         |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиента         |
-|Настраиваемое облачное хранилище     |Полем         |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |Данных        |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |Google диск        |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Настраиваемое облачное хранилище     |Шарефиле        |[Теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Общий     |Показать организационную диаграмму в личном профиле        |  [теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиента       |
+|Общий     |Использование Skype для бизнеса для получателей, не имеющих групп         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Интеграция с электронной почтой     |Разрешение пользователям отправлять сообщения электронной почты по каналам         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Интеграция с электронной почтой     |Список разрешенных отправителей         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиента         |
+|Настраиваемое облачное хранилище     |Полем         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Настраиваемое облачное хранилище     |Данных        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Настраиваемое облачное хранилище     |Google диск        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Настраиваемое облачное хранилище     |шарефиле        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
 |Параметры по типу пользователя и лицензии     |Включение и отключение Microsoft Teams для всех пользователей          |Устаревший<sup>1</sup>        |         |
 |Команды и каналы     |         |Перенаправляет Управление группами Azure Active Directory (то же, что и текущий интерфейс).              |Пользователь         |
 |Команды и каналы     |         |Перенаправление на управление группами AAD (то же, что и текущий интерфейс).             |Пользователь          |
 |Приложения|Включение новых внешних приложений по умолчанию|Параметры приложения в масштабе Организации|Клиента|
 |Приложения|Разрешить внешние приложения|Параметры приложения в масштабе Организации|Клиента|
-|Приложения|Разрешение неопубликованных приложений для внешних приложений<sup>2</sup>|[Теамсаппсетупполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
-|Приложения|Приложения по умолчанию<sup>3</sup>|Теамсапппермиссионполици|Пользователь|
-|Приложения|Внешние приложения<sup>3</sup>|Теамсапппермиссионполици|Пользователь|
-|Звонки и собрания     |Разрешить планирование для частных собраний         |[Теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить рекламный канал обсудим         |[Теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить планирование для собраний канала         |[Теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешение видеороликов в собраниях         |[Теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешение демонстрации экрана в собраниях         |[Теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить частный Звонок         |[Теамскаллингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
-|Обмен сообщениями     |Включение GIF, чтобы пользователи могли добавлять в беседы GIF-файлы         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Рейтинг контента         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Включение мемов, которые пользователи могут редактировать и добавлять в беседы         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Включение поддержки наклеек, которые пользователи могут редактировать и добавлять в беседы         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Разрешить владельцам удалять все сообщения         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Предоставление пользователям разрешения на редактирование собственных сообщений         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Разрешение пользователям удалять собственные сообщения         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
-|Обмен сообщениями     |Позволяет пользователям в закрытом чате         |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Приложения|Разрешение неопубликованных приложений для внешних приложений<sup>2</sup>|[теамсаппсетупполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
+|Приложения|Приложения по умолчанию<sup>3</sup>|теамсапппермиссионполици|Пользователь|
+|Приложения|Внешние приложения<sup>3</sup>|теамсапппермиссионполици|Пользователь|
+|Звонки и собрания     |Разрешить планирование для частных собраний         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить рекламный канал обсудим         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить планирование для собраний канала         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешение видеороликов в собраниях         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешение демонстрации экрана в собраниях         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
+|Звонки и собрания     |Разрешить частный Звонок         |[теамскаллингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
+|Обмен сообщениями     |Включение GIF, чтобы пользователи могли добавлять в беседы GIF-файлы         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Рейтинг контента         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Включение мемов, которые пользователи могут редактировать и добавлять в беседы         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Включение поддержки наклеек, которые пользователи могут редактировать и добавлять в беседы         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Разрешить владельцам удалять все сообщения         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Предоставление пользователям разрешения на редактирование собственных сообщений         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Разрешение пользователям удалять собственные сообщения         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
+|Обмен сообщениями     |Позволяет пользователям в закрытом чате         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 
 <sup>1</sup> устарело для гостя. Теперь можно управлять включением и отключением гостя в центре администрирования Microsoft Teams. В ближайшее время вы не сможете включать и отключать группы для бизнеса Enterprise, edu Student и edu. Для этого необходимо назначить лицензии в центре администрирования Microsoft 365. Ознакомьтесь со сведениями о том [, как управлять доступом пользователей к Microsoft Teams](user-access.md).
 <br><br>
@@ -121,24 +122,24 @@ ms.locfileid: "35221955"
 
 |Раздел "Teams" в центре администрирования Microsoft 365  |Имя параметра (уровень клиента)  |Политика центра администрирования Microsoft Teams   |Level (уровень): клиент или пользователь   |
 |---------|---------|---------|---------|  
-| Обмен сообщениями  |Владельцы могут удалять отправленные сообщения |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Пользователи могут удалять отправленные сообщения |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями  | Пользователи могут редактировать отправленные сообщения |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Пользователь|
-| Обмен сообщениями | Разрешить пользователям общаться |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Использование Giphy в беседах | [Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Оценка содержимого GIF | [Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Использование мемов в беседах  |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Использование наклеек в беседах |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями  |Владельцы могут удалять отправленные сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями | Пользователи могут удалять отправленные сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями  | Пользователи могут редактировать отправленные сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Пользователь|
+| Обмен сообщениями | Разрешить пользователям общаться |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями | Использование Giphy в беседах | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями | Оценка содержимого GIF | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями | Использование мемов в беседах  |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+| Обмен сообщениями | Использование наклеек в беседах |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
 
 Кроме того, ниже указаны параметры, доступные только в центре администрирования Microsoft Teams.
 
 |Имя параметра | Политика центра администрирования Microsoft Teams | Level (уровень): клиент или пользователь
 |-------------|-------------------------------------|---------|
-|Разрешить предварительный просмотр URL-адресов | [Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Разрешение пользователям удалять пользователей из группового чата |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Разрешить иммерсивное средство чтения для просмотра сообщений |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
-|Разрешить пользователям переводить сообщения |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
-|Уведомления о прочтении | [Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Пользователи могут отправлять уведомления о приоритетах | [Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Создание голосовых сообщений |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
-|На мобильных устройствах отображение избранных каналов над последними чатами |[Теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
+|Разрешить предварительный просмотр URL-адресов | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+|Разрешение пользователям удалять пользователей из группового чата |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+|Разрешить иммерсивное средство чтения для просмотра сообщений |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
+|Разрешить пользователям переводить сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
+|Уведомления о прочтении | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+|Пользователи могут отправлять уведомления о приоритетах | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
+|Создание голосовых сообщений |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
+|На мобильных устройствах отображение избранных каналов над последними чатами |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Пользователь |

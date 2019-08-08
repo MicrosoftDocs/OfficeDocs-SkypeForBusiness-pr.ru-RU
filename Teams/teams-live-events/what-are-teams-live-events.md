@@ -5,21 +5,22 @@ ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 description: В этой статье рассказывается о том, как в реальном времени пользователи могут широковещательно передавать видео и содержимое в крупные сетевые аудитории в Teams, Yammer и в потоке.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bbcb38e95a2ed44d022a4412e035238fea6282c
-ms.sourcegitcommit: 8052c2a6a29d65dcb8a6fa8baacb5568d798b0fa
+ms.openlocfilehash: afb477c4abe6ef2de5971c9c8278b1e4b4fd622c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35756924"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234168"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -71,7 +72,7 @@ Teams предоставляет возможность организаторо
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Корпоративная сеть доставки содержимого (Екдн)
 Цель Екдн заключается в том, чтобы принимать видео из Интернета и распространять содержимое по всему предприятию, не влияя на производительность сети. Вы можете использовать одного из следующих сертифицированных партнеров Екдн, чтобы оптимизировать работу сети для событий Live, которые хранятся в вашей организации:
 - [Куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Коллективе](http://www.kollective.com)
+- [коллективе](http://www.kollective.com)
 - [Снижение](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участником 
