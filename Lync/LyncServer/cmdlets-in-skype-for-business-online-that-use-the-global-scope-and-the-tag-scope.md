@@ -3,6 +3,7 @@ title: Командлеты в Skype для бизнеса Online, исполь�
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Cmdlets that use the global scope and the tag scope
 ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51327b98be69f92736c1c8523c97b4de6463273b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b274469f16ebb10338504afb2855e1c92774e545
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841094"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233101"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Командлеты в Skype для бизнеса Online, использующие глобальную область и область тегов
 

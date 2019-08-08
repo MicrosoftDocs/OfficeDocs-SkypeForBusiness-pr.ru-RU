@@ -3,6 +3,7 @@ title: Командлеты в Skype для бизнеса Online, исполь�
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Cmdlets that use only the global scope
 ms:assetid: 0ffd3bc9-a6a1-4c2e-8d52-e599acc49d2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362771(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af9bb88fc4dbe3b7814d1f2f69d711527a769a3b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 210e9116152ebe071ec81d2e0d48ff31b7c20a60
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841099"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233108"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Командлеты в Skype для бизнеса Online, использующие только глобальную область
 
