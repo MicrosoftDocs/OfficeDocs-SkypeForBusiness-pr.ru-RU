@@ -3,6 +3,7 @@ title: Настройка клиентов для миграции
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure clients for migration
 ms:assetid: ca796a3d-9705-43a5-a6c4-09da9923b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205263(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4dcabfc1e0614cc09083cc4d23bedeeab56e48d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0ec5c462489036a3b77be2fb104877ac32a22770
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841084"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +24,7 @@ ms.locfileid: "34841084"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a><span data-ttu-id="92220-102">Настройка клиентов для миграции</span><span class="sxs-lookup"><span data-stu-id="92220-102">Configure clients for migration</span></span>
+# <a name="configure-clients-for-migration"></a><span data-ttu-id="b8e56-102">Настройка клиентов для миграции</span><span class="sxs-lookup"><span data-stu-id="b8e56-102">Configure clients for migration</span></span>
 
 </div>
 
@@ -33,30 +34,30 @@ ms.locfileid: "34841084"
 
 <span> </span>
 
-<span data-ttu-id="92220-103">_**Тема последнего изменения:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="92220-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="b8e56-103">_**Тема последнего изменения:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="b8e56-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="92220-104">В этой статье описаны рекомендованные этапы развертывания клиента перед переходом на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="92220-104">This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013.</span></span> <span data-ttu-id="92220-105">Эти изменения конфигурации следует вносить в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="92220-105">These configuration changes should be made on Lync Server 2010.</span></span>
+<span data-ttu-id="b8e56-104">В этой статье описаны рекомендованные этапы развертывания клиента перед переходом на Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b8e56-104">This topic contains the recommended client deployment steps you should take before migrating to Lync Server 2013.</span></span> <span data-ttu-id="b8e56-105">Эти изменения конфигурации следует вносить в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="b8e56-105">These configuration changes should be made on Lync Server 2010.</span></span>
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a><span data-ttu-id="92220-106">Настройка клиентов перед миграцией</span><span class="sxs-lookup"><span data-stu-id="92220-106">To configure clients before migration</span></span>
+## <a name="to-configure-clients-before-migration"></a><span data-ttu-id="b8e56-106">Настройка клиентов перед миграцией</span><span class="sxs-lookup"><span data-stu-id="b8e56-106">To configure clients before migration</span></span>
 
-1.  <span data-ttu-id="92220-107">Развертывание последних обновлений сервера, клиента и устройств (исправлений) для Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="92220-107">Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010.</span></span> <span data-ttu-id="92220-108">Последние сведения о Lync Server 2010 можно найти в разделе Обновление центра ресурсов для Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span><span class="sxs-lookup"><span data-stu-id="92220-108">For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
+1.  <span data-ttu-id="b8e56-107">Развертывание последних обновлений сервера, клиента и устройств (исправлений) для Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="b8e56-107">Deploy the most recent server, client, and device updates (hotfixes) for Lync Server 2010.</span></span> <span data-ttu-id="b8e56-108">Последние сведения о Lync Server 2010 можно найти в разделе Обновление центра ресурсов для Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span><span class="sxs-lookup"><span data-stu-id="b8e56-108">For the most up-to-date information about Lync Server 2010, see Updates Resource Center for Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
 
-2.  <span data-ttu-id="92220-109">На Lync Server 2010 используйте фильтрацию по версиям клиента, чтобы разрешить только клиентам с установленными текущими обновлениями.</span><span class="sxs-lookup"><span data-stu-id="92220-109">On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.</span></span>
+2.  <span data-ttu-id="b8e56-109">На Lync Server 2010 используйте фильтрацию по версиям клиента, чтобы разрешить только клиентам с установленными текущими обновлениями.</span><span class="sxs-lookup"><span data-stu-id="b8e56-109">On Lync Server 2010, use Client Version Filtering to only allow clients with the most current updates installed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="92220-110">См. также</span><span class="sxs-lookup"><span data-stu-id="92220-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b8e56-110">См. также</span><span class="sxs-lookup"><span data-stu-id="b8e56-110">See Also</span></span>
 
 
-[<span data-ttu-id="92220-111">Новые и измененные параметры для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="92220-111">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
-[<span data-ttu-id="92220-112">Взаимодействие клиентов в Lync 2013</span><span class="sxs-lookup"><span data-stu-id="92220-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)  
+[<span data-ttu-id="b8e56-111">Новые и измененные параметры для Lync 2013</span><span class="sxs-lookup"><span data-stu-id="b8e56-111">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
+[<span data-ttu-id="b8e56-112">Взаимодействие клиентов в Lync 2013</span><span class="sxs-lookup"><span data-stu-id="b8e56-112">Client interoperability in Lync 2013</span></span>](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 
-[<span data-ttu-id="92220-113">Планирование для клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92220-113">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)  
+[<span data-ttu-id="b8e56-113">Планирование для клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e56-113">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)  
   
 
 </div>
