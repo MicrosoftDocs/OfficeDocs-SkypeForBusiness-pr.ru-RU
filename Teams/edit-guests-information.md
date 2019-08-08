@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 11/26/2017
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,20 +15,20 @@ search.appverid: MET150
 description: Вы можете узнать, как администратор может изменять информацию о гостевых пользователях на портале Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e0955c6f3ec5efe8192e9e3927ca92655b5f494
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cddb34306e87c461aa9dca19e09347e18cb0ca13
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33927954"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234961"
 ---
-<a name="edit-guest-user-information"></a><span data-ttu-id="6cb9f-103">Изменение сведений о гостевых пользователях</span><span class="sxs-lookup"><span data-stu-id="6cb9f-103">Edit guest user information</span></span>
+<a name="edit-guest-user-information"></a><span data-ttu-id="82d6f-103">Изменение сведений о гостевых пользователях</span><span class="sxs-lookup"><span data-stu-id="82d6f-103">Edit guest user information</span></span>
 ===========================
 
-<span data-ttu-id="6cb9f-104">Чтобы изменить гостевые учетные записи (например, отображаемое имя или фотографию в профиле), перейдите на портал Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="6cb9f-104">To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal.</span></span> <span data-ttu-id="6cb9f-105">Дополнительные сведения см. в статье [Общие сведения об удостоверении Office 365 и Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span><span class="sxs-lookup"><span data-stu-id="6cb9f-105">For more information, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span></span>
+<span data-ttu-id="82d6f-104">Чтобы изменить гостевые учетные записи (например, отображаемое имя или фотографию в профиле), перейдите на портал Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="82d6f-104">To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal.</span></span> <span data-ttu-id="82d6f-105">Дополнительные сведения см. в статье [Общие сведения об удостоверении Office 365 и Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span><span class="sxs-lookup"><span data-stu-id="82d6f-105">For more information, see [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span></span>
 
-<span data-ttu-id="6cb9f-106">На данный момент не могут изменять гостевой сведения из центра администрирования группами Майкрософт, Центр администрирования Microsoft 365 или центра администрирования Exchange.</span><span class="sxs-lookup"><span data-stu-id="6cb9f-106">Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.</span></span>
+<span data-ttu-id="82d6f-106">В настоящее время вы не можете изменить гостевые сведения в центре администрирования Microsoft Teams, центре администрирования Microsoft 365 или в центре администрирования Exchange.</span><span class="sxs-lookup"><span data-stu-id="82d6f-106">Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.</span></span>
 
-## <a name="guest-access-vs-external-access-federation"></a><span data-ttu-id="6cb9f-107">Доступ в качестве гостя и внешнего доступа (федерации)</span><span class="sxs-lookup"><span data-stu-id="6cb9f-107">Guest access vs. external access (federation)</span></span>
+## <a name="guest-access-vs-external-access-federation"></a><span data-ttu-id="82d6f-107">Гостевой доступ и внешний доступ (Федерация)</span><span class="sxs-lookup"><span data-stu-id="82d6f-107">Guest access vs. external access (federation)</span></span>
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

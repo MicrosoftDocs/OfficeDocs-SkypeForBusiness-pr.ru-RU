@@ -6,31 +6,32 @@ manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
-description: Используйте этот сценарий PowerShell для создания политики обмена сообщениями в группах и назначать пользователей в вашей организации.
+audience: admin
+description: Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Teams и назначения ее пользователям в своей организации.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d65deff9f424fad8fed11d7b10cbe40ced387161
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1fd414c960406418e9189a68e219b6a08bb7a939
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205076"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243102"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="7abcb-103">Пример сценария PowerShell — создание и назначение политики обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="7abcb-103">PowerShell script sample - Create and assign a messaging policy</span></span>
+<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="66cb1-103">Пример сценария PowerShell — создание и назначение политики обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="66cb1-103">PowerShell script sample - Create and assign a messaging policy</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="7abcb-104">Используйте этот сценарий PowerShell для создания политики обмена сообщениями в группами Майкрософт и ее назначение пользователям.</span><span class="sxs-lookup"><span data-stu-id="7abcb-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
+<span data-ttu-id="66cb1-104">Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Microsoft Teams и назначения ее пользователям.</span><span class="sxs-lookup"><span data-stu-id="66cb1-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
 
-<span data-ttu-id="7abcb-105">Дополнительные сведения об использовании этого скрипта PowerShell [Quick start - команды для образовательных заведений](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)см.</span><span class="sxs-lookup"><span data-stu-id="7abcb-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
+<span data-ttu-id="66cb1-105">Дополнительные сведения об использовании этого сценария PowerShell можно найти в [кратком разделе Начало — группы для образовательных учреждений](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span><span class="sxs-lookup"><span data-stu-id="66cb1-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
 
-<span data-ttu-id="7abcb-106">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="7abcb-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="66cb1-106">Если вы новичок в PowerShell и вам требуется помощь, см. раздел [Общие сведения об Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="66cb1-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="7abcb-107">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="7abcb-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="66cb1-107">Пример сценария</span><span class="sxs-lookup"><span data-stu-id="66cb1-107">Sample script</span></span>
 
 ````powershell
 <#

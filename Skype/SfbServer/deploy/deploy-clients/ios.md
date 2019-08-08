@@ -5,68 +5,68 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Сводка: Установка и тестирование приложения Skype для бизнеса для iOS.'
-ms.openlocfilehash: 6d2bb63e5005a4e4888017a1dc450db9eaa368ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5bf40e3ed12b5d04c4be6d4b8bf96e8641838153
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293594"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234423"
 ---
-# <a name="install-and-test-skype-for-business-for-ios"></a><span data-ttu-id="bd540-103">Install and test Skype for Business for iOS</span><span class="sxs-lookup"><span data-stu-id="bd540-103">Install and test Skype for Business for iOS</span></span>
+# <a name="install-and-test-skype-for-business-for-ios"></a><span data-ttu-id="5a927-103">Install and test Skype for Business for iOS</span><span class="sxs-lookup"><span data-stu-id="5a927-103">Install and test Skype for Business for iOS</span></span>
  
-<span data-ttu-id="bd540-104">**Сводка:** Установка и тестирование приложения Skype для бизнеса для iOS.</span><span class="sxs-lookup"><span data-stu-id="bd540-104">**Summary:** How to install and test the Skype for Business for iOS app.</span></span>
+<span data-ttu-id="5a927-104">**Сводка:** Установка и тестирование приложения Skype для бизнеса для iOS.</span><span class="sxs-lookup"><span data-stu-id="5a927-104">**Summary:** How to install and test the Skype for Business for iOS app.</span></span>
   
-<span data-ttu-id="bd540-105">Приложение Skype для бизнеса для iOS предоставляет Skype для бизнеса, Обмен мгновенными сообщениями, голосовые и видеозвонки на устройства с iOS.</span><span class="sxs-lookup"><span data-stu-id="bd540-105">The Skype for Business for iOS app brings Skype for Business presence, instant messaging (IM), and voice and video calling to iOS devices.</span></span> <span data-ttu-id="bd540-106">Пользователи Lync 2013 в зависимости от назначенных им параметров получают обновленное приложение автоматически или обновляют его вручную при появлении соответствующего запроса.</span><span class="sxs-lookup"><span data-stu-id="bd540-106">Users with Lync 2013 will either get the updated app automatically or be prompted to update it manually, depending on their user settings.</span></span> <span data-ttu-id="bd540-107">Новые пользователи могут загрузить его в магазине Apple App Store.</span><span class="sxs-lookup"><span data-stu-id="bd540-107">New users can download it from the Apple App Store.</span></span> <span data-ttu-id="bd540-108">Приложение Skype для бизнеса для iOS доступно только в версиях iOS 8,0 и более поздних.</span><span class="sxs-lookup"><span data-stu-id="bd540-108">The Skype for Business for iOS app is only available on iOS versions 8.0 and later.</span></span>
+<span data-ttu-id="5a927-105">Приложение Skype для бизнеса для iOS предоставляет Skype для бизнеса, Обмен мгновенными сообщениями, голосовые и видеозвонки на устройства с iOS.</span><span class="sxs-lookup"><span data-stu-id="5a927-105">The Skype for Business for iOS app brings Skype for Business presence, instant messaging (IM), and voice and video calling to iOS devices.</span></span> <span data-ttu-id="5a927-106">Пользователи Lync 2013 в зависимости от назначенных им параметров получают обновленное приложение автоматически или обновляют его вручную при появлении соответствующего запроса.</span><span class="sxs-lookup"><span data-stu-id="5a927-106">Users with Lync 2013 will either get the updated app automatically or be prompted to update it manually, depending on their user settings.</span></span> <span data-ttu-id="5a927-107">Новые пользователи могут загрузить его в магазине Apple App Store.</span><span class="sxs-lookup"><span data-stu-id="5a927-107">New users can download it from the Apple App Store.</span></span> <span data-ttu-id="5a927-108">Приложение Skype для бизнеса для iOS доступно только в версиях iOS 8,0 и более поздних.</span><span class="sxs-lookup"><span data-stu-id="5a927-108">The Skype for Business for iOS app is only available on iOS versions 8.0 and later.</span></span>
   
-## <a name="installing-skype-for-business-for-ios"></a><span data-ttu-id="bd540-109">Установка Skype для бизнеса для iOS</span><span class="sxs-lookup"><span data-stu-id="bd540-109">Installing Skype for Business for iOS</span></span>
+## <a name="installing-skype-for-business-for-ios"></a><span data-ttu-id="5a927-109">Установка Skype для бизнеса для iOS</span><span class="sxs-lookup"><span data-stu-id="5a927-109">Installing Skype for Business for iOS</span></span>
 
-1. <span data-ttu-id="bd540-110">На устройстве с iOS откройте **Приложение App Store**и выполните поиск по запросу **Skype для бизнеса для iOS**.</span><span class="sxs-lookup"><span data-stu-id="bd540-110">From your iOS device, tap **App Store**, and search for **Skype for Business for iOS**.</span></span>
+1. <span data-ttu-id="5a927-110">На устройстве с iOS откройте **Приложение App Store**и выполните поиск по запросу **Skype для бизнеса для iOS**.</span><span class="sxs-lookup"><span data-stu-id="5a927-110">From your iOS device, tap **App Store**, and search for **Skype for Business for iOS**.</span></span>
     
-2. <span data-ttu-id="bd540-111">Нажмите **загрузить** > **Open (открыть**).</span><span class="sxs-lookup"><span data-stu-id="bd540-111">Tap **Download** > **Open**.</span></span> 
+2. <span data-ttu-id="5a927-111">Нажмите **загрузить** > **Open (открыть**).</span><span class="sxs-lookup"><span data-stu-id="5a927-111">Tap **Download** > **Open**.</span></span> 
     
-3. <span data-ttu-id="bd540-112">Войдите в приложение.</span><span class="sxs-lookup"><span data-stu-id="bd540-112">Sign in to the app.</span></span>
+3. <span data-ttu-id="5a927-112">Войдите в приложение.</span><span class="sxs-lookup"><span data-stu-id="5a927-112">Sign in to the app.</span></span>
     
-## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="bd540-113">Проверка установки мобильного клиента</span><span class="sxs-lookup"><span data-stu-id="bd540-113">Verifying mobile client installation</span></span>
+## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="5a927-113">Проверка установки мобильного клиента</span><span class="sxs-lookup"><span data-stu-id="5a927-113">Verifying mobile client installation</span></span>
 
-<span data-ttu-id="bd540-114">Войдя в систему, выполните следующие проверки правильности работы установленной версии Skype для бизнеса на устройстве с iOS.</span><span class="sxs-lookup"><span data-stu-id="bd540-114">After you sign in successfully, use the following tests to verify that your Skype for Business installation is working correctly on your iOS device.</span></span> 
+<span data-ttu-id="5a927-114">Войдя в систему, выполните следующие проверки правильности работы установленной версии Skype для бизнеса на устройстве с iOS.</span><span class="sxs-lookup"><span data-stu-id="5a927-114">After you sign in successfully, use the following tests to verify that your Skype for Business installation is working correctly on your iOS device.</span></span> 
   
-### <a name="search-for-a-contact-in-the-corporate-directory"></a><span data-ttu-id="bd540-115">Поиск контакта в корпоративном каталоге</span><span class="sxs-lookup"><span data-stu-id="bd540-115">Search for a contact in the corporate directory</span></span>
+### <a name="search-for-a-contact-in-the-corporate-directory"></a><span data-ttu-id="5a927-115">Поиск контакта в корпоративном каталоге</span><span class="sxs-lookup"><span data-stu-id="5a927-115">Search for a contact in the corporate directory</span></span>
 
-1. <span data-ttu-id="bd540-116">В списке контактов коснитесь внутри строки поиска в верхней части экрана и начните ввод имени контакта, присутствующего в глобальном списке адресов (GAL).</span><span class="sxs-lookup"><span data-stu-id="bd540-116">In the Contacts list, tap inside the search bar at the top, and begin typing the name of a contact that exists only in the global address list (GAL).</span></span> 
+1. <span data-ttu-id="5a927-116">В списке контактов коснитесь внутри строки поиска в верхней части экрана и начните ввод имени контакта, присутствующего в глобальном списке адресов (GAL).</span><span class="sxs-lookup"><span data-stu-id="5a927-116">In the Contacts list, tap inside the search bar at the top, and begin typing the name of a contact that exists only in the global address list (GAL).</span></span> 
     
-2. <span data-ttu-id="bd540-117">Убедитесь, что имя контакта отображается в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="bd540-117">Verify that the contact name appears in the search results.</span></span> 
+2. <span data-ttu-id="5a927-117">Убедитесь, что имя контакта отображается в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="5a927-117">Verify that the contact name appears in the search results.</span></span> 
     
-### <a name="test-instant-messaging-and-presence"></a><span data-ttu-id="bd540-118">Проверка функций обмена мгновенными сообщениями и сведений о присутствии</span><span class="sxs-lookup"><span data-stu-id="bd540-118">Test instant messaging and presence</span></span>
+### <a name="test-instant-messaging-and-presence"></a><span data-ttu-id="5a927-118">Проверка функций обмена мгновенными сообщениями и сведений о присутствии</span><span class="sxs-lookup"><span data-stu-id="5a927-118">Test instant messaging and presence</span></span>
 
-1. <span data-ttu-id="bd540-119">В списке контактов выберите контакт.</span><span class="sxs-lookup"><span data-stu-id="bd540-119">In the Contacts list, tap a contact.</span></span> 
+1. <span data-ttu-id="5a927-119">В списке контактов выберите контакт.</span><span class="sxs-lookup"><span data-stu-id="5a927-119">In the Contacts list, tap a contact.</span></span> 
     
-2. <span data-ttu-id="bd540-120">Убедитесь, что окно программы обмена мгновенными сообщениями открывается и вы можете ввести и отправить сообщение.</span><span class="sxs-lookup"><span data-stu-id="bd540-120">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span> 
+2. <span data-ttu-id="5a927-120">Убедитесь, что окно программы обмена мгновенными сообщениями открывается и вы можете ввести и отправить сообщение.</span><span class="sxs-lookup"><span data-stu-id="5a927-120">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span> 
     
-### <a name="test-dial-out-conferencing"></a><span data-ttu-id="bd540-121">Проверка конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="bd540-121">Test dial-out conferencing</span></span>
+### <a name="test-dial-out-conferencing"></a><span data-ttu-id="5a927-121">Проверка конференц-связи с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="5a927-121">Test dial-out conferencing</span></span>
 
-1. <span data-ttu-id="bd540-122">В Outlook Запланируйте собрание Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="bd540-122">In Outlook, schedule a Skype for Business meeting.</span></span> 
+1. <span data-ttu-id="5a927-122">В Outlook Запланируйте собрание Skype для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="5a927-122">In Outlook, schedule a Skype for Business meeting.</span></span> 
     
-2. <span data-ttu-id="bd540-123">На мобильном устройстве откройте приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="bd540-123">On the mobile device, open the meeting invitation.</span></span> 
+2. <span data-ttu-id="5a927-123">На мобильном устройстве откройте приглашение на собрание.</span><span class="sxs-lookup"><span data-stu-id="5a927-123">On the mobile device, open the meeting invitation.</span></span> 
     
-3. <span data-ttu-id="bd540-124">Нажмите кнопку **Присоединиться к собранию**.</span><span class="sxs-lookup"><span data-stu-id="bd540-124">Click the **Join Meeting** button.</span></span>
+3. <span data-ttu-id="5a927-124">Нажмите кнопку **Присоединиться к собранию**.</span><span class="sxs-lookup"><span data-stu-id="5a927-124">Click the **Join Meeting** button.</span></span>
     
-4. <span data-ttu-id="bd540-125">Ответьте на звонок от службы конференц-связи и убедитесь, что вы подключены к звуковому каналу собрания.</span><span class="sxs-lookup"><span data-stu-id="bd540-125">Answer the call from the conference service and verify that you are connected to the meeting audio.</span></span> 
+4. <span data-ttu-id="5a927-125">Ответьте на звонок от службы конференц-связи и убедитесь, что вы подключены к звуковому каналу собрания.</span><span class="sxs-lookup"><span data-stu-id="5a927-125">Answer the call from the conference service and verify that you are connected to the meeting audio.</span></span> 
     
-### <a name="test-push-notifications"></a><span data-ttu-id="bd540-126">Проверка push-уведомлений</span><span class="sxs-lookup"><span data-stu-id="bd540-126">Test push notifications</span></span>
+### <a name="test-push-notifications"></a><span data-ttu-id="5a927-126">Проверка push-уведомлений</span><span class="sxs-lookup"><span data-stu-id="5a927-126">Test push notifications</span></span>
 
-1. <span data-ttu-id="bd540-127">На мобильном устройстве "а" Войдите в Skype для бизнеса с учетной записью пользователя A.</span><span class="sxs-lookup"><span data-stu-id="bd540-127">On user A's mobile device, sign in to Skype for Business with user A's account.</span></span> 
+1. <span data-ttu-id="5a927-127">На мобильном устройстве "а" Войдите в Skype для бизнеса с учетной записью пользователя A.</span><span class="sxs-lookup"><span data-stu-id="5a927-127">On user A's mobile device, sign in to Skype for Business with user A's account.</span></span> 
     
-2. <span data-ttu-id="bd540-128">Откройте другое приложение на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="bd540-128">Open another application on the mobile device.</span></span> 
+2. <span data-ttu-id="5a927-128">Откройте другое приложение на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="5a927-128">Open another application on the mobile device.</span></span> 
     
-3. <span data-ttu-id="bd540-129">На другом клиенте Войдите в Skype для бизнеса с учетной записью пользователя B.</span><span class="sxs-lookup"><span data-stu-id="bd540-129">On a different client, sign in to Skype for Business with user B's account.</span></span> 
+3. <span data-ttu-id="5a927-129">На другом клиенте Войдите в Skype для бизнеса с учетной записью пользователя B.</span><span class="sxs-lookup"><span data-stu-id="5a927-129">On a different client, sign in to Skype for Business with user B's account.</span></span> 
     
-4. <span data-ttu-id="bd540-130">Отправьте мгновенное сообщение от пользователя Б пользователю А.</span><span class="sxs-lookup"><span data-stu-id="bd540-130">Send an IM from user B to user A.</span></span> 
+4. <span data-ttu-id="5a927-130">Отправьте мгновенное сообщение от пользователя Б пользователю А.</span><span class="sxs-lookup"><span data-stu-id="5a927-130">Send an IM from user B to user A.</span></span> 
     
-5. <span data-ttu-id="bd540-131">Убедитесь, что уведомление о мгновенных сообщениях появляется на мобильном устройстве "на пользователя".</span><span class="sxs-lookup"><span data-stu-id="bd540-131">Verify that the IM notification appears on user A's mobile device.</span></span> 
+5. <span data-ttu-id="5a927-131">Убедитесь, что уведомление о мгновенных сообщениях появляется на мобильном устройстве "на пользователя".</span><span class="sxs-lookup"><span data-stu-id="5a927-131">Verify that the IM notification appears on user A's mobile device.</span></span> 
     
 

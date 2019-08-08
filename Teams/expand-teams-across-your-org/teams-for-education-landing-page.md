@@ -1,11 +1,12 @@
 ---
 title: Teams для образовательных учреждений
-description: Используйте следующие ресурсы для получения максимально эффективному использованию групп внутри организации.
+description: Используйте эти ресурсы, чтобы максимально эффективно использовать группы в разных организациях.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -13,16 +14,16 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20e186ac9ab0dc98dda503738160f09c4f55b07
-ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
+ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33472558"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235363"
 ---
 # <a name="teams-for-education"></a>Teams для образовательных учреждений
 
-С командами преподавателей и факультета можно создать совместных аудиторий, подключения в сообществах профессионального обучения и взаимодействовать с преподавателей и учащихся. Используйте ресурсы admin здесь помогут вам успешно развертывания, внедрение и управление группами в школе или учебное заведение. 
+С помощью Teams, преподавателей и преподавателей можно создавать коллективы для совместной работы, подключаться к ним в профессиональном сообществах и общаться с студентами и преподавателями. Ниже приведены ресурсы для администраторов, которые помогут вам успешно развертывать и принимать команды и управлять ими в вашем учебном заведении или учебных заведениях. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -32,7 +33,7 @@ ms.locfileid: "33472558"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="arrow" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,11 +51,11 @@ ms.locfileid: "33472558"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Назначения в группах для образовательных заведений</h3>
+                        <h3>Задания в Teams для образовательных учреждений</h3>
                     </div>
                 </div>
             </div>
@@ -68,11 +69,11 @@ ms.locfileid: "33472558"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ресурсы для групп для образовательных учреждений "Администраторы"</h3>
+                        <h3>Ресурсы Teams для администраторов для образования</h3>
                     </div>
                 </div>
             </div>
@@ -85,11 +86,11 @@ ms.locfileid: "33472558"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Управление вопросы и ответы для групп для образовательных учреждений "Администраторы"</h3>
+                        <h3>Вопросы и ответы по управлению для администраторов Teams для образовательных учреждений</h3>
                     </div>
                 </div>
             </div>
