@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240811"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271439"
 ---
 # <a name="make-my-service-decisions"></a>Принятие моих решений на обслуживание
 
@@ -191,7 +191,7 @@ SBCs требуется двунаправленное соединение дл
 
 Необходимо определить конкретные номера портов для каждого SBC для сигналов SIP и мультимедиа, а также настроить брандмауэры так, чтобы они разработали двунаправленный трафик для этих портов и соответствующих им IP-адресов.
 
-Дополнительные сведения можно найти в разделе [сигнализация SIP: полные доменные имена и порты брандмауэра](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) и [мультимедийный трафик: диапазоны портов](direct-routing-plan.md#media-traffic-port-ranges).
+Дополнительные сведения можно найти в разделе [сигнализация SIP: полные доменные имена](direct-routing-plan.md#sip-signaling-fqdns) и [трафик мультимедиа: диапазоны портов](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]

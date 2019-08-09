@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 83cd25ed9f675f04f090255cbc387275c0dee90d
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244118"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253920"
 ---
 <a name="teams-guest-access-checklist"></a>Контрольный список для гостевого доступа к Teams
 ==========================================
@@ -82,8 +82,9 @@ ms.locfileid: "36244118"
    
    - **Гости могут пригласить**гостей: чтобы разрешить гостям присоединиться к другим гостям, установите для этого параметра значение **Да**.
    - **Включить одноразовый секретный код электронной почты для гостей (Предварительная версия)**: Дополнительные сведения о функции одноразового секретного кода можно найти в статье [Проверка подлинности по электронной почте (Предварительная версия)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
-   - **Ограничения для совместной работы**: Дополнительные сведения о том, как разрешить или заблокировать приглашения для конкретных доменов, можно найти в статье [разрешение и запрет на доступ к отдельным организациям для пользователей B2B](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
+   - **Ограничения для совместной работы**: Дополнительные сведения о том, как разрешить или заблокировать приглашения для конкретных доменов, можно найти в статье [разрешение и запрет на доступ к отдельным организациям для пользователей B2B](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
+    
 ## <a name="-step-2-configure-office-365-groups"></a>□ Step 2: Настройка групп Office 365
 
 1. В центре администрирования Microsoft 365 перейдите в раздел службы **настройки** > **&** > **группы Office 365**.

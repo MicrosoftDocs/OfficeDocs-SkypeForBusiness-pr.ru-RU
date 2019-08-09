@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Настройте учетную запись ресурса для Skype для бизнеса Server 2019.
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207160"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253958"
 ---
 # <a name="configure-resource-accounts"></a>Настройка учетных записей ресурсов
 
@@ -31,7 +31,7 @@ ms.locfileid: "36207160"
 Если для автосекретаря телефонной системы или очереди вызовов потребуется номер службы, в следующей последовательности могут выполняться различные зависимости:
 
 1. Получение номера службы
-2. Получение бесплатной телефонной системы или [](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) лицензии на платную телефонную систему для использования с учетной записью ресурса.
+2. Получение бесплатной телефонной системы или [](/MicrosoftTeams/teams-add-on-licensing/virtual-user) лицензии на платную телефонную систему для использования с учетной записью ресурса.
 3. Создайте учетную запись ресурса. Для автосекретаря или очереди вызовов требуется соответствующая учетная запись ресурса.
 4. Дождитесь синхронизации Active Directory между Интернетом и локальным.
 5. Назначьте лицензии на телефонную систему учетной записи ресурса.

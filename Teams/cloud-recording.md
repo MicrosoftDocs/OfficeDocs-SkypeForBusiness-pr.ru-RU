@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Практическое руководство по развертыванию функций облачной голосовой связи в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237034"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271405"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Запись собрания Teams в облаке
 
@@ -32,7 +32,7 @@ ms.locfileid: "36237034"
 Для заносимых собраний пользователей Teams необходимо включить Microsoft Stream для клиента. Кроме того, для организатора собрания и человека, инициирующего запись, необходимы следующие предварительные требования:
 
 - У пользователя есть Office 365 E1, E3, в ячейках, a1, A3, A5, M365 Business или Business Premium
-- Пользователь должен быть лицензирован для Microsoft Stream
+- Пользователь должен быть лицензирован для Microsoft Stream<sup>1</sup> 
 - У пользователя есть разрешения на отправку видео из Microsoft Stream
 - Пользователь был в соответствии с рекомендациями компании, если он настроен администратором
 - У пользователя есть достаточно места для сохранения записей в Microsoft Stream.
@@ -41,6 +41,8 @@ ms.locfileid: "36237034"
 
 > [!NOTE]
 > Кроме того, чтобы разрешить пользователю, запускающему запись, указать, нужно ли автоматически затем переносите запись, параметр Теамсмитингполици-Алловтранскриптион пользователя должен иметь значение true.
+
+<sup>1</sup> Пользователь должен быть лицензирован для отправки и скачивания собраний в Microsoft Stream, но ему не требуется лицензия на запись собрания. Если вы хотите запретить пользователю запись собрания Microsoft Teams, вы должны предоставить Теамсмитингполици, у которого Алловклаудрекординг установлен на $False.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Настройка записи облачных собраний Teams для пользователей в Организации
 

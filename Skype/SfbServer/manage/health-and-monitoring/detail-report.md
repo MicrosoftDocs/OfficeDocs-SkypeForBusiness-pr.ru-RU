@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Сводка: сведения об отчете "сведения о конференции", используемом в Skype для бизнеса Server.'
-ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305789"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271403"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Детальный отчет о конференциях в Skype для бизнеса Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "34305789"
 
 - [User Activity Report](call-diagnostic-reports-per-user.md) (щелкнув метрику URI конференции)
 
-В отчете сведения о конференции вы можете получить доступ к [репозиторию диагностики](diagnostic-report.md) , щелкнув метрику диагностического отчета (подробности).
+Из подробного отчета по конференции вы можете получить доступ к [Diagnostic Report](diagnostic-report.md), щелкнув метрику диагностического отчета (сведений).
 
 ## <a name="filters"></a>Фильтры
 
