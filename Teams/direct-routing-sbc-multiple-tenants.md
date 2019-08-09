@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36254024"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271461"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -57,6 +57,7 @@ ms.locfileid: "36254024"
 Подробное описание процедуры развертывания и настройки SBCs для сценария размещения SBC можно найти в документации поставщика SBC.
 
 - **AudioCodes:** [Заметки о настройке прямой маршрутизации](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams): Настройка сценария размещения SBC, описанного в разделе Подключение AudioCodesого SBC к Microsoft Teams, Настройка модели хостинга для маршрутизации. 
+- **Oracle:** [Заметки о настройке прямой маршрутизации](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html). Конфигурация сценария размещения SBC описана в разделе "Microsoft". 
 - **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs-канал ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Teams [: Настройка направляющих для ОДНОнаправленных SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **Системы TE (аниноде):**  Пожалуйста, зарегистрируйте на [странице сообщества TE](https://community.te-systems.de/) , чтобы получить документацию и примеры того, как настроить SBC аниноде для нескольких клиентов.
 
