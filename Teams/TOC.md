@@ -1,9 +1,7 @@
 <!-- ============================================================ -->
 # [Добро пожаловать в Teams](teams-overview.md)
 # [Способ развертывания Teams](How-to-roll-out-teams.md)
-# [Плакаты: архитектура и решения для телефонии Teams](teams-architecture-solutions-posters.md)
-#       
-#        
+# [Плакаты: архитектура и решения для телефонии Teams](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -672,6 +670,7 @@
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC](plan-for-government-gcc.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — GCC High](plan-for-government-gcc-high.md)
 ### [Планирование развертываний Microsoft 365 для государственных организаций — DoD](plan-for-government-dod.md)
+### [Аудиоконференции с прямой маршрутизацией для GCC High и DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 <!-- ============================================================ -->
 
