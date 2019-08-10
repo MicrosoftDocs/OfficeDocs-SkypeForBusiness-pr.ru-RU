@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237056"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286260"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия Microsoft Teams с облачными видеослужбами
 
-После [выбора вашего партнера по облачной](cloud-video-interop.md)видеосвязи вы должны будете планировать развертывание, настроить сведения о подготовке и ключ клиента партнера и согласие на работу с приложением для видеосвязи в Организации. На приведенной ниже схеме описан процесс. 
+После [выбора партнеров](cloud-video-interop.md)по облачной видеосвязи вам потребуется планирование развертывания, Настройка с помощью сведений о подготовке и ключа клиента-партнера, а также согласие на работу с приложением для видеосвязи в Организации. На приведенной ниже схеме описан процесс. 
 
 ![Развертывание Кви в Организации](media/deploying-cvi.png)
 
