@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Сводка: Настройка требований, не относящихся к серверу, для Skype для бизнеса Server 2015. Перед развертыванием вам потребуется настроить множество компонентов, включая Active Directory, DNS, сертификаты и файловые ресурсы.'
-ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253927"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393375"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -55,7 +55,7 @@ ms.locfileid: "36253927"
 
 Ниже приведен список допустимых ОС для контроллеров доменов:
 
-- Windows Server 2019
+- Windows Server 2019 (у вас должен быть накопительный пакет обновления 5 (SP5) для Skype для бизнеса Server 2015 или более поздней версии)
   
 - Windows Server 2016
     
@@ -69,7 +69,7 @@ ms.locfileid: "36253927"
     
 Теперь функциональный уровень домена, в котором вы разворачиваете Skype для бизнеса Server 2015, а также режим работы леса для любого леса, на который вы разворачиваете Skype для бизнеса Server 2015, должен быть одним из следующих:
 
-- Windows Server 2019
+- Windows Server 2019 (у вас должен быть накопительный пакет обновления 5 (SP5) для Skype для бизнеса Server 2015 или более поздней версии)
   
 - Windows Server 2016
     

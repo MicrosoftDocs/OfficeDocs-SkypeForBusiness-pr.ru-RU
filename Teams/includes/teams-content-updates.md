@@ -3,38 +3,6 @@
 
 
 
-## <a name="week-of-july-01-2019"></a>Неделя 01 июля 2019 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 7/1/2019 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | Изменено |
-| 7/1/2019 | [Перемещение групп StaffHub в приложение "Смены" в Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | Изменено |
-| 7/1/2019 | [Управление группами с помощью ролей администратора Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Изменено |
-| 7/1/2019 | [Как выполнить развертывание Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | Изменено |
-| 7/1/2019 | Переход со Skype для бизнеса Online на Microsoft Teams | Удалено |
-| 7/1/2019 | [Знакомство с Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
-| 7/1/2019 | [Описание перехода со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/tutorial-journey-skypeforbusiness-to-teams) | Изменено |
-| 7/1/2019 | [Добавление гостя в команду](/MicrosoftTeams/add-guests) | Изменено |
-| 7/1/2019 | [Информационные барьеры в предварительной версии Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 7/1/2019 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/teams-admin-training-landing-page) | Изменено |
-| 7/1/2019 | [Отчет об использовании устройств с Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | Изменено |
-| 7/1/2019 | [Аналитика и отчеты Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Изменено |
-| 7/1/2019 | [Отчет об использовании Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Изменено |
-| 7/1/2019 | [Отчет о действиях пользователей Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Изменено |
-| 7/1/2019 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
-| 7/3/2019 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
-| 7/3/2019 | [Процесс обновления Teams](/MicrosoftTeams/teams-client-update) | Изменено |
-| 7/3/2019 | [Переход на Microsoft Teams со Skype для бизнеса \| Режимы, сосуществование](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Изменено |
-| 7/3/2019 | [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 7/3/2019 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 7/3/2019 | [Установка Microsoft Teams с помощью MSI (через SCCM)](/MicrosoftTeams/msi-deployment) | Изменено |
-| 7/3/2019 | [Что представляют собой облачные автосекретари?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | Изменено |
-| 7/3/2019 | [Доступность в Японии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | Изменено |
-| 7/3/2019 | [Управление номерами телефонов в Австралии](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | Изменено |
-| 7/3/2019 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
-
-
 ## <a name="week-of-july-08-2019"></a>Неделя 8 июля 2019 г.
 
 
@@ -52,7 +20,7 @@
 | 7/8/2019 | [Настройка телефонной системы в организации](/MicrosoftTeams/setting-up-your-phone-system) | Изменено |
 | 7/8/2019 | [Обновления Teams](/MicrosoftTeams/teams-client-update) | Изменено |
 | 7/8/2019 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
-| 7/8/2019 | [Сведения о режиме "Только Teams"](/MicrosoftTeams/teams-only-mode-considerations) | изменено |
+| 7/8/2019 | [Сведения о режиме "Только Teams"](/MicrosoftTeams/teams-only-mode-considerations) | Изменено |
 | 7/8/2019 | [Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams). | Изменено |
 | 7/9/2019 | [Доступность в Японии](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | Изменено |
 | 7/9/2019 | [Управление номерами телефонов для организации](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Изменено |
@@ -60,7 +28,7 @@
 | 7/9/2019 | [Настройка параметров трансляции в Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Изменено |
 | 7/9/2019 | [Планирование трансляций в Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Изменено |
 | 7/9/2019 | [Настройка политик трансляции Microsoft Teams с помощью PowerShell](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | Изменено |
-| 7/9/2019 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | изменено |
+| 7/9/2019 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
 | 7/9/2019 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
 | 7/9/2019 | [Что такое телефонная система в Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | Изменено |
 | 7/10/2019 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
@@ -86,7 +54,7 @@
 |------|------------|--------|
 | 7/15/2019 | [Использование планировщика сети для Microsoft Teams](/MicrosoftTeams/network-planner) | Изменено |
 | 7/16/2019 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
-| 7/16/2019 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Изменено |
+| 7/16/2019 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | изменено |
 | 7/16/2019 | [Переход на прямую маршрутизацию](/MicrosoftTeams/direct-routing-migrating) | Изменено |
 | 7/16/2019 | [Обзор обеспечения безопасности и соответствия в Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | Изменено |
 | 7/17/2019 | [Приложения, боты и соединители в Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | Изменено |
@@ -196,3 +164,66 @@
 | 8/2/2019 | [Управление политиками разрешений для приложений в Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Изменено |
 | 8/2/2019 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
 | 8/2/2019 | [Управление пользовательскими политиками и параметрами приложений в Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | Изменено |
+
+
+## <a name="week-of-august-05-2019"></a>Неделя 5 августа 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 8/5/2019 | [Качество обслуживания в Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Изменено |
+| 8/5/2019 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 8/5/2019 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 8/5/2019 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
+| 8/5/2019 | [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | изменено |
+| 8/5/2019 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 8/5/2019 | [Развертывание комнаты Microsoft Teams в локальной среде Exchange](/MicrosoftTeams/room-systems/with-exchange-on-premises) | Изменено |
+| 8/6/2019 | [Использование файлов журналов для устранения неполадок в Microsoft Teams](/MicrosoftTeams/log-files) | Изменено |
+| 8/6/2019 | [Телефонная система — лицензии виртуальных пользователей](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | Изменено |
+| 8/6/2019 | [Руководство по работе с Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | Изменено |
+| 8/6/2019 | [Microsoft Teams: определение успеха касательно компонента "Аудиоконференции"](/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) | Изменено |
+| 8/6/2019 | [Определение критериев успеха для аудиоконференций, телефонной системы с планами звонков или прямой маршрутизации телефонной системы — Microsoft Teams](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | Изменено |
+| 8/6/2019 | [Microsoft Teams: определение успеха касательно облачной УАТС с тарифными планами](/MicrosoftTeams/1-envision-define-my-success-phone-system) | Изменено |
+| 8/6/2019 | [Подготовка к развертыванию облачной голосовой службы Microsoft Teams](/MicrosoftTeams/1-onboard-prepare-my-service) | Изменено |
+| 8/6/2019 | [Расширение возможностей службы Microsoft Teams](/MicrosoftTeams/2-drive-value-enhance-my-service) | Изменено |
+| 8/6/2019 | [Принятие решений по службе аудиоконференций — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-audio-conferencing) | Изменено |
+| 8/6/2019 | [Принятие решений по службе прямой маршрутизации телефонной системы — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | Изменено |
+| 8/6/2019 | [Принятие решений по службе телефонной системы с планами звонков — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system) | Изменено |
+| 8/6/2019 | [Подготовка пользователей к работе с Microsoft Teams](/MicrosoftTeams/2-onboard-prepare-my-users) | Изменено |
+| 8/6/2019 | [Оценка среды для рабочих нагрузок облачной голосовой службы Microsoft Teams](/MicrosoftTeams/3-envision-evaluate-my-environment) | Изменено |
+| 8/6/2019 | [Развертывание облачной голосовой службы Microsoft Teams](/MicrosoftTeams/3-onboard-deploy-my-service) | Изменено |
+| 8/6/2019 | [Планирование управления службами Microsoft Teams](/MicrosoftTeams/4-envision-plan-my-service-management) | Изменено |
+| 8/6/2019 | [Планирование работы пользователей в Microsoft Teams](/MicrosoftTeams/5-envision-plan-my-users-experience) | Изменено |
+| 8/6/2019 | [Документирование плана по достижению успеха в Microsoft Teams](/MicrosoftTeams/6-envision-document-my-success-plan) | Изменено |
+| 8/6/2019 | [Microsoft Teams \| Оценка среды \| Внедрение, знакомство](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | Изменено |
+| 8/6/2019 | [Взаимодействие Microsoft Teams и Exchange](/MicrosoftTeams/exchange-teams-interact) | Изменено |
+| 8/6/2019 | [Настройка гибридной организации Exchange для работы с Microsoft Teams](/MicrosoftTeams/exchange-hybrid-organization) | Изменено |
+| 8/6/2019 | [Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
+| 8/6/2019 | [Как выполнить развертывание Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | Изменено |
+| 8/6/2019 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
+| 8/6/2019 | [Известные проблемы для Microsoft Teams](/MicrosoftTeams/known-issues) | Изменено |
+| 8/6/2019 | [Техническая документация по Microsoft Teams](/MicrosoftTeams/microsoft-teams) | Изменено |
+| 8/7/2019 | ["Смены" для Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | Изменено |
+| 8/7/2019 | [Заметки о выпуске](/MicrosoftTeams/room-systems/srs2-release-note) | Изменено |
+| 8/7/2019 | [Перемещение групп StaffHub в приложение "Смены" в Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | Изменено |
+| 8/7/2019 | [Вопросы и ответы: обновление с Skype для бизнеса на Microsoft Teams](/MicrosoftTeams/faq-journey) | Изменено |
+| 8/7/2019 | [Управление устройствами в Microsoft Teams с помощью монитора Azure](/MicrosoftTeams/room-systems/azure-monitor-manage) | Изменено |
+| 8/7/2019 | [Известные проблемы](/MicrosoftTeams/room-systems/known-issues) | Изменено |
+| 8/7/2019 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | Изменено |
+| 8/7/2019 | [Поддержка версий](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | Изменено |
+| 8/7/2019 | [Управление обновлениями Windows для комнат Microsoft Teams](/MicrosoftTeams/room-systems/updates) | Изменено |
+| 8/7/2019 | [Управление политиками обратной связи в Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Изменено |
+| 8/8/2019 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
+| 8/8/2019 | [Настройка множества клиентов в пограничном контроллере сеансов](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | изменено |
+| 8/8/2019 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
+| 8/8/2019 | [Инструменты и семинары — планирование, развертывание и внедрение Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | Изменено |
+| 8/8/2019 | [Запись собрания Teams в облаке](/MicrosoftTeams/cloud-recording) | Изменено |
+| 8/8/2019 | [Планирование обхода сервера-посредника с прямой маршрутизацией](/MicrosoftTeams/direct-routing-plan-media-bypass) | Изменено |
+| 8/8/2019 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
+| 8/8/2019 | [Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Изменено |
+| 8/8/2019 | [Принятие решений по службе прямой маршрутизации телефонной системы — Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | Изменено |
+| 8/9/2019 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
+| 8/9/2019 | [Подготовка сети организации к использованию Microsoft Teams](/MicrosoftTeams/prepare-network) | Изменено |
+| 8/9/2019 | [Настройка взаимодействия Microsoft Teams с облачными видеослужбами](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | Изменено |
+| 8/9/2019 | [Teams для государственных организаций](/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page) | Изменено |
+| 8/9/2019 | [Управление командами в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Изменено |

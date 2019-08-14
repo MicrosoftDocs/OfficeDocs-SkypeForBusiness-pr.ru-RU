@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237675"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393442"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных организаций (Microsoft 365) — развертывание GCC
 
@@ -98,9 +98,9 @@ Microsoft 365 государственных учреждений – GCC обе
 | | Предоставление общего доступ к файлам и управление ими | Доступно |
 | | Подключение из комнаты для конференций | Доступно |
 | | Анонимное соединение | Доступно |
-| | Запись в облаке | В списке невыполненной работы правительственных учреждений |
+| | Запись в облаке | Доступно |
 | | Заметки к собранию | Доступно |
-| | Широковещательные собрания | В списке невыполненной работы правительственных учреждений |
+| | События в реальном времени | Доступно |
 | | Федеративные собрания | Доступно |
 | | Поддержка Surface HUB | Недоступно |
 | Звонки | Контакты | Доступно |
