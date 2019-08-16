@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288565"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427947"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -80,7 +80,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |net accounts /maxpwage:unlimited  <br/> Или аналогичный способ отключения срока действия пароля в локальной учетной записи. Невыполнение этого действия приводит к тому, что учетной записи Skype не удается войти в систему с нарушением пароля. Обратите внимание, что это влияет на все локальные учетные записи на компьютере, поэтому при установке этого флажка также может возникнуть срок действия административной учетной записи в поле.  <br/> |Позволяет учетной записи Skype всегда выполнять вход.  <br/> |
    
 Передача файлов с помощью групповых политик рассматривается в разделе [Настройка элемента файла](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
+
+> [!NOTE]
+> Если приложение Microsoft Teams для комнат совместимо со следующей версией операционной системы Windows 10, устройство автоматически обновляется до следующей версии с помощью центра обновления Windows. Приложение Microsoft Teams не следует обновлять до следующего выпуска Windows 10 вручную или с помощью групповой политики "включение Windows Update для бизнеса (ВУФБ)" выберите уровень готовности Windows для обновлений, которые вы хотите получать "и" выберите при предварительных сборках и Обновления компонентов получены с помощью GPO. Устройство, для которого включены эти групповые политики, известно о проблемах, возникающих при обновлении операционной системы Windows 10 с помощью приложения Microsoft Teams помещений.
+
 ## <a name="remote-management-using-powershell"></a>Удаленное управление с помощью PowerShell
 <a name="RemotePS"> </a>
 

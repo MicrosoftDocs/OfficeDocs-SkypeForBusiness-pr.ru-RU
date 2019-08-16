@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: В этой статье объясняется, что нужно учитывать при планировании развертывания комнат Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
-ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35851548"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428024"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Планирование комнат Microsoft Teams
 
@@ -100,7 +100,7 @@ _Пример инвентаризации для помещения на соб
 
 | Сайт  | Название комнаты | Тип комнаты | Количество пользователей  | В области? | Текущие возможности комнаты       | Будущие возможности комнаты     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| HQ — Москва | Курие         | Средняя        | 6&ndash;12                  | Да          | Динамика                        | 1 экран, аудио и видео, а также презентация<br>КОММУТИРУЕМый доступ |
+| HQ — Москва | курие         | Средняя        | 6&ndash;12                  | Да          | Динамика                        | 1 экран, аудио и видео, а также презентация<br>КОММУТИРУЕМый доступ |
 | Сидней главного офиса | Хилл          | Большая         | 12&ndash;16                 | Да          | Устаревший антивирусный модуль, 1 экран и Камера | 2 экрана, аудио и видео, а также презентация<br>КОММУТИРУЕМый доступ |
 
 ## <a name="device-selection"></a>Выбор устройства 

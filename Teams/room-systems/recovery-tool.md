@@ -7,16 +7,16 @@ ms.reviewer: davgroom
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: В этой статье рассказывается о том, как использовать средство восстановления для комнат Microsoft Teams, которое можно использовать для выхода из системы, в которой она находится в поддерживаемом состоянии.
-ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305486"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427991"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Используйте средство восстановления приложения "Комнаты Microsoft Teams"
  
@@ -33,7 +33,7 @@ ms.locfileid: "34305486"
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Проверка версии Windows 
 
-1. Войдите в учетную запись администратора, перейдя в **Сеттингс_гт_ Windows сеттинг_гт_ для входа** в систему с устройства с комнатой Microsoft Teams. Этот параметр открывает экран входа.
+1. Войдите в учетную запись администратора, перейдя в **параметры> параметр Windows> "Администратор"** с устройства Microsoft Teams. Этот параметр открывает экран входа.
 2. Войдите в учетную запись администратора, `admin` используя учетную запись администратора по умолчанию с паролем. `sfb`
 3. В меню "Пуск" введите текст `winver.exe` в поле поиска и нажмите **выполнить команду* .
 4. Обратите внимание на число после "Version" на второй строке области сведений.

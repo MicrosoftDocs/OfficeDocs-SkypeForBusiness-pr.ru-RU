@@ -3,7 +3,7 @@ title: Планирование трансляций в Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Узнайте о факторах, которые необходимо учитывать перед настройкой событий Live Events в Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243663"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429996"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Планирование трансляций в Microsoft Teams
 
@@ -43,7 +43,10 @@ ms.locfileid: "36243663"
 - **Для событий, созданных в Teams**  Пользователю должна быть назначена лицензия Teams.
 - **Для событий, вызванных внешним приложением или устройством** Пользователю должна быть назначена лицензия на поток.
 
-Дополнительные сведения о лицензировании можно найти в разделе [Лицензирование надстроек Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> [!NOTE]
+> Теперь вы можете использовать мероприятия Teams Live для организаций с облаком (GCC) для США.
+
+Дополнительные сведения о лицензировании можно найти [в разделе Лицензирование надстроек Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 У пользователя должны быть:
 - Личное планирование собраний в Teams поддерживается (*параметр теамсмитингполици-алловприватемитингсчедулинг = true*).
