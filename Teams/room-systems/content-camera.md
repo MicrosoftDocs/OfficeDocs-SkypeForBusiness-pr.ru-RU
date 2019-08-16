@@ -10,18 +10,18 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: В этой статье объясняется, как удаленно управлять параметрами по умолчанию, используемыми устройством Microsoft Teams, в том числе с применением настраиваемой темы.
-ms.openlocfilehash: 70a45e7c5ec18a3f1383e9f9fb7ef1dd5e9cb657
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: ee4e674ff3d518e9f70ff17926bebf99eef65552
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428131"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436369"
 ---
 # <a name="content-cameras"></a>Камеры содержимого
 
 Теперь вы можете использовать камеру для содержимого с помощью системы комнаты Microsoft Teams. Передача содержимого с помощью специального программного обеспечения для обработки изображений и доски позволяет выступающему рисовать на аналоговой доске и делиться контентом с удаленными участниками.
 
-Посмотрите видео о том [, как вы в одном приложении, в помещениях Microsoft Teams](https://youtu.be/1XvgH2rNpmk?t=350) для примера функций для работы с камерой содержимого.
+Посмотрите видео о том [, как вы в одном приложении, в помещениях Microsoft Teams, в которых](https://www.youtube.com/watch?v=1XvgH2rNpmk) показан пример функций для работы с камерой содержимого.
 
 ## <a name="set-up-a-content-camera"></a>Настройка камеры с содержимым
 
