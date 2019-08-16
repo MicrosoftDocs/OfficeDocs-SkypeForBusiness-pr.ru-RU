@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240843"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436358"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
-Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Теперь можно добавить рабочую нагрузку собрания, включая [аудиоконференции](deploy-audio-conferencing-teams-landing-page.md), видео и общий доступ. Выполните описанные ниже действия. 
+Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Теперь можно добавить рабочую нагрузку собрания, включая [аудиоконференции](deploy-audio-conferencing-teams-landing-page.md), видео и общий доступ. Ниже описано, как это сделать. 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>Решения по развертыванию собраний и конференций
+## <a name="meetings-and-conferencing-deployment-decisions"></a>Решения по развертыванию собраний и конференций
 
 В Teams реализованы прекрасные встроенные возможности для вашей организации, и большинство организаций обнаружат, что параметры по умолчанию прекрасно им подходят. Эта статья поможет вам решить, следует ли изменить какие-либо параметры по умолчанию, руководствуясь профилем вашей организации и потребностями бизнеса, а затем поможет вам внести любое изменение. Мы разделили параметры на две группы, начиная с набора основных [изменений, которые вы, скорее всего, внесете](#core-deployment-decisions). Вторая группа включает в себя [дополнительные параметры](#additional-deployment-decisions), которые вы можете захотеть настроить, с учетом потребностей вашей организации.
 
@@ -36,7 +36,7 @@ ms.locfileid: "36240843"
 > Ознакомьтесь с сессией ниже, чтобы узнать больше о собраниях: [Общие сведения о собраниях в Microsoft Teams для ИТ-специалистов](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings--conferencing-prerequisites"></a>Предварительные требования к собраниям и конференциям 
+## <a name="meetings-and-conferencing-prerequisites"></a>Предварительные требования к собраниям и конференциям 
 
 Перед масштабированием развёртывания собрания в пределах всей организации, выделите время, чтобы проверить и убедиться, что пользователю будут предоставлены наилучшие возможности. Ознакомьтесь со следующей информацией и внесите необходимые изменения в вашу среду.
 
