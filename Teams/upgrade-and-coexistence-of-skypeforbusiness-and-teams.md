@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d3c2b53767cb9bbaff3cbe4f2aeacea36fcc01d2
+ms.sourcegitcommit: f053b3a51a89751453101978e265efefcb30849c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236170"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36437491"
 ---
-![Обновление схемы поездки, акцент на развертывании и реализации] (media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
+![Обновление схемы поездки с акцентом на этапе определения проекта] (media/upgrade-banner-project-definition.png "Этапы путешествия по обновлению с акцентом на стадии определения проекта")
 
-Эта статья является частью стадии развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
+Эта статья входит в стадию определения проекта для вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
 
 - [Вовлеченные заинтересованные лица в проект](upgrade-enlist-stakeholders.md)
 - [Определение области охвата проекта](https://aka.ms/SkypetoTeams-Scope)
