@@ -645,46 +645,31 @@
 
 # Гибридное подключение 
 
-## 
-  [Планирование гибридного подключения](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Планирование гибридного подключения](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Настройка гибридного подключения
-### 
-  [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### 
-  [Настройка Azure AD Connect для гибридной среды](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### 
-  [Настройка гибридного развертывания Skype для бизнеса](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Настройка Azure AD Connect для гибридной среды](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Настройка гибридного развертывания Skype для бизнеса](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## Перемещение пользователей между локальной средой и облаком
-### 
-  [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### 
-  [Перемещение пользователей из локальной среды в Teams](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### 
-  [Перемещение пользователей из локальной среды в Skype для бизнеса Online](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### 
-  [Перемещение пользователей из облака в локальную среду](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Перемещение пользователей из локальной среды в Teams](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Перемещение пользователей из локальной среды в Skype для бизнеса Online](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Перемещение пользователей из облака в локальную среду](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### 
-  [Управление миграцией собраний](https://docs.microsoft.com/ru-RU/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Управление миграцией собраний](https://docs.microsoft.com/ru-RU/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## 
-  [Отключение гибридного развертывания для завершения миграции в облако](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [Отключение гибридного развертывания для завершения миграции в облако](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## 
-  [Развертывание топологии леса ресурсов](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [Развертывание топологии леса ресурсов](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Консолидация облачных хранилищ для Teams и Skype для бизнеса Online
-### 
-  [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation)
-### 
-  [Обновление пограничного сертификата](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### 
-  [Обновление AAD Connect для включения нескольких лесов](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Обновление пограничного сертификата](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Обновление AAD Connect для включения нескольких лесов](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## 
-  [Интеграция с Exchange и SharePoint](https://docs.microsoft.com/ru-RU/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Интеграция с Exchange и SharePoint](https://docs.microsoft.com/ru-RU/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
 
 #       

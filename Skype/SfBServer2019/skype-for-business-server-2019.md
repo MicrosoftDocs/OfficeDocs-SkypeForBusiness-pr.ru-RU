@@ -11,10 +11,10 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 'Сводка: Ознакомьтесь с этими ссылками, чтобы ознакомиться со сведениями о том, как внедрить Skype для бизнеса Server 2019.'
+description: Сводка. По следующим ссылкам приводятся сведения о внедрении Skype для бизнеса Server 2019.
 ms.openlocfilehash: 3bb946285b5bd85722aa1983cbbc7e87dbb72506
 ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 05/20/2019
 ms.locfileid: "34283908"
@@ -89,7 +89,7 @@ ms.locfileid: "34283908"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Upgrade</h3>
+                        <h3>Обновление</h3>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@ ms.locfileid: "34283908"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Загрузите сейчас!</h3>
+                        <h3>Скачать!</h3>
                     </div>
                 </div>
             </div>
@@ -201,12 +201,12 @@ ms.locfileid: "34283908"
 </ul>
 -->
 
-### <a name="featured-articles"></a>Популярные статьи
+### <a name="featured-articles"></a>Рекомендуемые статьи
 
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Перед началом работы** <br>[Требования к системе](plan/system-requirements.md) <br>[Требования к сети](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Установка** <br>[Установка Skype для бизнеса Server](../SfbServer/deploy/install/install.md) <br> [Переход на Skype для бизнеса 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Корпоративная голосовая связь**<br>[Планирование](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Развертывание](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **Новые возможности**<br>[Новые возможности](whats-new.md)                                                                                                                                         | **Гибридные решения**<br>[Планирование гибридного подключения](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Предыдущие выпуски**<br/>  [Документация по Skype для бизнеса Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Документация по Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **Перед началом работы** <br>[Требования к системе](plan/system-requirements.md) <br>[Требования к сети](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Установка** <br>[Установка Skype для бизнеса Server](../SfbServer/deploy/install/install.md) <br> [Миграция на Skype для бизнеса 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Корпоративная голосовая связь**<br>[Планирование](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Развертывание](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **Новые функции**<br>[Новые возможности](whats-new.md)                                                                                                                                         | **Гибридные решения**<br>[Планирование гибридного подключения](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Предыдущие выпуски**<br/>  [Документация Skype для бизнеса Server 2015](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Документация Lync Server 2013](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *
