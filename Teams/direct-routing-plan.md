@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271428"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464583"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -87,8 +87,11 @@ IP-адреса и порты брандмауэра для носителей M
 Пользователям прямой маршрутизации должны быть назначены следующие лицензии в Office 365: 
 
 - Телефонная система Майкрософт 
-- Microsoft Teams 
+- Microsoft Teams + Skype для бизнеса (план 2), включенный в SKU лицензирования
 - Голосовая конференция Майкрософт 
+
+> [!NOTE]
+> План Skype для бизнеса не должен быть удален из любого SKU лицензирования, где он включен. 
 
 
 > [!IMPORTANT]

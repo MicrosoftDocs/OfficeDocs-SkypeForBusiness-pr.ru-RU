@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
-ms.openlocfilehash: 8d68cb75a053d7eb165383154514ca6ff8d1a941
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244327"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464658"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Настройка использования фотографий высокого разрешения в Skype для бизнеса Server
  
@@ -56,7 +56,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 Чтобы убедиться в том, что новая фотография назначена учетной записи пользователя, Кен мер может войти в Skype для бизнеса, выбрать **Параметры**, а затем выбрать **мою фотографию**. В качестве личной фотографии пользователя Ken Myer должна отобразиться новая фотография. Администратор может проверить фотографию любого пользователя, введя в адресной строке Internet Explorer URL-адрес, подобный показанному ниже.
   
 ```
-https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&amp;size=HR648x648
+https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
 Если администратор может просмотреть фотографию с помощью Internet Explorer, но пользователь не может просмотреть ее фотографию в Skype для бизнеса, возможно, возникла проблема с подключением к веб-службам Exchange или службе автообнаружения Exchange.

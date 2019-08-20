@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 179276a049a30f1d049521cc3b4db326b988667c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9ce0d1acec923d09591e8f81b3f500ee9a910f5c
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246183"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464669"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
@@ -31,40 +31,29 @@ ms.locfileid: "36246183"
 
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
-1. Скачайте [модуль PowerShell StaffHub](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
-2. Откройте Windows PowerShell 3,0 или более поздней версии в качестве администратора. Для этого нажмите кнопку **Пуск**, введите **Windows PowerShell**, щелкните правой кнопкой мыши **Windows PowerShell**, а затем выберите команду **Запуск от имени администратора**.
+1. Откройте Windows PowerShell 3,0 или более поздней версии в качестве администратора. Для этого нажмите кнопку **Пуск**, введите **Windows PowerShell**, щелкните правой кнопкой мыши **Windows PowerShell**, а затем выберите команду **Запуск от имени администратора**.
     > [!NOTE]
     > Чтобы получить последнюю версию Windows PowerShell, ознакомьтесь со статьей [Установка Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
-3. Выполните следующее:
+2. Чтобы установить текущую стабильную версию модуля PowerShell StaffHub, выполните указанные ниже действия.
 
     ```
-    $ENV:PSModulePath
+    Install-Module -Name MicrosoftStaffHub
     ```
     
+    Эту команду можно выполнить, только если вам нужно установить последнюю версию, которая может быть более стабильной, чем текущая стабильная версия:`Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
 
-4. Проверьте путь к папке в выходных данных и убедитесь в том, что все папки в пути существуют на компьютере, прежде чем переходить к следующему шагу. Если папки отсутствуют, создайте их.
-5. Чтобы разрешить установку модуля PowerShell StaffHub, выполните следующие действия:
+     > [!NOTE]
+     > Если при установке последней версии появляется сообщение об ошибке, вы можете выполнить следующие действия:`Install-Module PowershellGet -Force`
 
-    ```
-    Set-ExecutionPolicy RemoteSigned
-    ```
-
-6. Выполните указанные ниже действия, &lt;где&gt; путь — это путь в выходных данных, начиная с шага 2. Например, путь может выглядеть так, как C:\Users\User1\Documents\WindowsPowerShell\Modules.
-
-    Не забудьте выполнить каждую команду отдельно.
+3. Вы можете увидеть сообщение с предупреждением:
 
     ```
-    Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
-    Install-Module -Name PackageManagement -Force  -AllowClobber
-    Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
     ```
-7. Выйдите из Windows PowerShell.
-8. Откройте Windows PowerShell 3,0 или более поздней версии в качестве глобального администратора, а затем выполните указанные ниже действия.
 
-    ```
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
-    ```
+Введите `Y` текст и `Enter`нажмите кнопку.
+ 
+4. Выйдите из Windows PowerShell.
 
 ## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Подключение к модулю PowerShell Microsoft StaffHub
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Узнайте, что нужно знать, прежде чем переносить номера телефонов в Teams и как создать порядок портов для их передачи.
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347796"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464572"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Передача номеров телефонов в Office 365
 
@@ -39,7 +39,7 @@ ms.locfileid: "35347796"
   > [!NOTE]
   > Заказы на перенос номеров телефонов только обрабатываются в рабочие дни в США, но не в праздничные дни или выходные дни.
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>Создание заказа на перенос номера и перенос телефонных номеров в Teams
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Создание заказа на перенос номера и перенос телефонных номеров в Teams
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
