@@ -14,14 +14,16 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9db6048a9d92144506e9ddf9b75e32b47da62ec
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fb2f18cfb420c8bfa973f205541ec69e04a644c6
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239211"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483160"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
