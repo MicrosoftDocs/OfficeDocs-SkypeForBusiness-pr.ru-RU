@@ -11,74 +11,78 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1keywords:
+- ms.teamsadmincenter.assignments.overview
+- ms.teamsadmincenter.assignments.tooltip.emaildigest
+- ms.teamsadmincenter.assignments.tooltip.makecode
+- ms.teamsadmincenter.assignments.tooltip.turnitin
 description: Сведения о том, как управлять заданиями в центре администрирования Microsoft Teams в Teams для образовательных учреждений.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71417ccfc3387f030433a6b923e7fd21f32cd854
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232329"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483983"
 ---
-# <a name="assignments-in-teams-for-education"></a><span data-ttu-id="a87f1-103">Задания в Teams для образовательных учреждений</span><span class="sxs-lookup"><span data-stu-id="a87f1-103">Assignments in Teams for Education</span></span>
+# <a name="assignments-in-teams-for-education"></a><span data-ttu-id="bc69c-103">Задания в Teams для образовательных учреждений</span><span class="sxs-lookup"><span data-stu-id="bc69c-103">Assignments in Teams for Education</span></span>
 
-<span data-ttu-id="a87f1-104">Назначения — это задачи или единицы работы, назначенные студенту или участнику команды в классе в рамках изучения.</span><span class="sxs-lookup"><span data-stu-id="a87f1-104">Assignments are tasks or units of work assigned to a student or team member in a class as part of their study.</span></span> <span data-ttu-id="a87f1-105">Вы можете создавать задания в рамках класса Teams.</span><span class="sxs-lookup"><span data-stu-id="a87f1-105">You can create assignments within your Teams class.</span></span>
+<span data-ttu-id="bc69c-104">Назначения — это задачи или единицы работы, назначенные студенту или участнику команды в классе в рамках изучения.</span><span class="sxs-lookup"><span data-stu-id="bc69c-104">Assignments are tasks or units of work assigned to a student or team member in a class as part of their study.</span></span> <span data-ttu-id="bc69c-105">Вы можете создавать задания в рамках класса Teams.</span><span class="sxs-lookup"><span data-stu-id="bc69c-105">You can create assignments within your Teams class.</span></span>
 
-[<span data-ttu-id="a87f1-106">Дополнительные сведения о назначениях</span><span class="sxs-lookup"><span data-stu-id="a87f1-106">Learn more about Assignments</span></span>](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[<span data-ttu-id="bc69c-106">Дополнительные сведения о назначениях</span><span class="sxs-lookup"><span data-stu-id="bc69c-106">Learn more about Assignments</span></span>](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
-## <a name="assignments-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="a87f1-107">Назначения в центре администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a87f1-107">Assignments in the Microsoft Teams admin center</span></span>
+## <a name="assignments-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="bc69c-107">Назначения в центре администрирования Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bc69c-107">Assignments in the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="a87f1-108">С помощью параметров администратора в центре администрирования Microsoft Teams вы можете включать и отключать указанные ниже функции, чтобы быть доступными для учащихся и преподавателей в Организации.</span><span class="sxs-lookup"><span data-stu-id="a87f1-108">With the admin settings in Microsoft Teams admin center you can turn the following features on or off to be available for students and teachers within your organization.</span></span> <span data-ttu-id="a87f1-109">Ниже указаны параметры, связанные с назначениями.</span><span class="sxs-lookup"><span data-stu-id="a87f1-109">The following are settings related to Assignments:</span></span>
+<span data-ttu-id="bc69c-108">С помощью параметров администратора в центре администрирования Microsoft Teams вы можете включать и отключать указанные ниже функции, чтобы быть доступными для учащихся и преподавателей в Организации.</span><span class="sxs-lookup"><span data-stu-id="bc69c-108">With the admin settings in Microsoft Teams admin center you can turn the following features on or off to be available for students and teachers within your organization.</span></span> <span data-ttu-id="bc69c-109">Ниже указаны параметры, связанные с назначениями.</span><span class="sxs-lookup"><span data-stu-id="bc69c-109">The following are settings related to Assignments:</span></span>
 
-<span data-ttu-id="a87f1-110"><a name="#bkemaildigest"> </a></span><span class="sxs-lookup"><span data-stu-id="a87f1-110"></span></span>
-### <a name="weekly-guardian-email-digest"></a><span data-ttu-id="a87f1-111">Еженедельная сводка по электронной почте опекунов</span><span class="sxs-lookup"><span data-stu-id="a87f1-111">Weekly guardian email digest</span></span>
+<span data-ttu-id="bc69c-110"><a name="#bkemaildigest"> </a></span><span class="sxs-lookup"><span data-stu-id="bc69c-110"></span></span>
+### <a name="weekly-guardian-email-digest"></a><span data-ttu-id="bc69c-111">Еженедельная сводка по электронной почте опекунов</span><span class="sxs-lookup"><span data-stu-id="bc69c-111">Weekly guardian email digest</span></span>
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-<span data-ttu-id="a87f1-112">Сообщения в опекунах — это еженедельные сообщения, отправляемые в родителей и опекунах учащихся.</span><span class="sxs-lookup"><span data-stu-id="a87f1-112">Guardian emails are weekly emails sent to students' parents or guardians.</span></span> <span data-ttu-id="a87f1-113">В сообщениях электронной почты будут содержаться сведения о назначениях за предыдущую неделю и за неделю, и они будут отправлены по выходным.</span><span class="sxs-lookup"><span data-stu-id="a87f1-113">The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend.</span></span> <span data-ttu-id="a87f1-114">Сообщения электронной почты необходимо обновлять администраторами с помощью функции School Data Sync.</span><span class="sxs-lookup"><span data-stu-id="a87f1-114">The emails need to be updated by the admins using the School Data Sync feature.</span></span>
+<span data-ttu-id="bc69c-112">Сообщения в опекунах — это еженедельные сообщения, отправляемые в родителей и опекунах учащихся.</span><span class="sxs-lookup"><span data-stu-id="bc69c-112">Guardian emails are weekly emails sent to students' parents or guardians.</span></span> <span data-ttu-id="bc69c-113">В сообщениях электронной почты будут содержаться сведения о назначениях за предыдущую неделю и за неделю, и они будут отправлены по выходным.</span><span class="sxs-lookup"><span data-stu-id="bc69c-113">The emails will contain information about assignments from the previous week and for the upcoming week, and will be sent over the weekend.</span></span> <span data-ttu-id="bc69c-114">Сообщения электронной почты необходимо обновлять администраторами с помощью функции School Data Sync.</span><span class="sxs-lookup"><span data-stu-id="bc69c-114">The emails need to be updated by the admins using the School Data Sync feature.</span></span>
 
-<span data-ttu-id="a87f1-115">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="a87f1-115">This setting is off by default.</span></span>
+<span data-ttu-id="bc69c-115">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="bc69c-115">This setting is off by default.</span></span>
 
-<span data-ttu-id="a87f1-116"><a name="bkmakecode"> </a></span><span class="sxs-lookup"><span data-stu-id="a87f1-116"></span></span>
-### <a name="makecode"></a><span data-ttu-id="a87f1-117">макекоде</span><span class="sxs-lookup"><span data-stu-id="a87f1-117">MakeCode</span></span>
-<span data-ttu-id="a87f1-118">Макекоде — это основанная на блоках платформа кодирования, которая обеспечивает для всех учащихся вычислительные системы.</span><span class="sxs-lookup"><span data-stu-id="a87f1-118">MakeCode is a block-based coding platform that brings computer science to life for all students.</span></span> 
+<span data-ttu-id="bc69c-116"><a name="bkmakecode"> </a></span><span class="sxs-lookup"><span data-stu-id="bc69c-116"></span></span>
+### <a name="makecode"></a><span data-ttu-id="bc69c-117">макекоде</span><span class="sxs-lookup"><span data-stu-id="bc69c-117">MakeCode</span></span>
+<span data-ttu-id="bc69c-118">Макекоде — это основанная на блоках платформа кодирования, которая обеспечивает для всех учащихся вычислительные системы.</span><span class="sxs-lookup"><span data-stu-id="bc69c-118">MakeCode is a block-based coding platform that brings computer science to life for all students.</span></span> 
 
-<span data-ttu-id="a87f1-119">Это сторонний продукт или услуга, которым подпадают свои условия и правила конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="a87f1-119">This is a third party product or service that is subject to its own terms and privacy policy.</span></span> <span data-ttu-id="a87f1-120">Вы несете ответственность за использование любых продуктов и услуг, предоставляемых третьими лицами.</span><span class="sxs-lookup"><span data-stu-id="a87f1-120">You are responsible for your use of any third party products and services.</span></span>
+<span data-ttu-id="bc69c-119">Это сторонний продукт или услуга, которым подпадают свои условия и правила конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="bc69c-119">This is a third party product or service that is subject to its own terms and privacy policy.</span></span> <span data-ttu-id="bc69c-120">Вы несете ответственность за использование любых продуктов и услуг, предоставляемых третьими лицами.</span><span class="sxs-lookup"><span data-stu-id="bc69c-120">You are responsible for your use of any third party products and services.</span></span>
 
-<span data-ttu-id="a87f1-121">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="a87f1-121">This setting is off by default.</span></span>
+<span data-ttu-id="bc69c-121">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="bc69c-121">This setting is off by default.</span></span>
 
-[<span data-ttu-id="a87f1-122">Дополнительные сведения о Макекоде</span><span class="sxs-lookup"><span data-stu-id="a87f1-122">Learn more about MakeCode</span></span>](https://www.microsoft.com/makecode)
+[<span data-ttu-id="bc69c-122">Дополнительные сведения о Макекоде</span><span class="sxs-lookup"><span data-stu-id="bc69c-122">Learn more about MakeCode</span></span>](https://www.microsoft.com/makecode)
 
-<span data-ttu-id="a87f1-123"><a name="#turnitin"> </a></span><span class="sxs-lookup"><span data-stu-id="a87f1-123"></span></span>
-### <a name="turnitin"></a><span data-ttu-id="a87f1-124">турнитин</span><span class="sxs-lookup"><span data-stu-id="a87f1-124">Turnitin</span></span>
+<span data-ttu-id="bc69c-123"><a name="#turnitin"> </a></span><span class="sxs-lookup"><span data-stu-id="bc69c-123"></span></span>
+### <a name="turnitin"></a><span data-ttu-id="bc69c-124">турнитин</span><span class="sxs-lookup"><span data-stu-id="bc69c-124">Turnitin</span></span>
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-<span data-ttu-id="a87f1-125">Турнитин — это служба обнаружения плагиарисм.</span><span class="sxs-lookup"><span data-stu-id="a87f1-125">Turnitin is a plagiarism detection service.</span></span> <span data-ttu-id="a87f1-126">Это сторонний продукт или услуга, которым подпадают свои условия и правила конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="a87f1-126">This is a third party product or service that is subject to its own terms and privacy policy.</span></span> <span data-ttu-id="a87f1-127">Вы несете ответственность за использование любых продуктов и услуг, предоставляемых третьими лицами.</span><span class="sxs-lookup"><span data-stu-id="a87f1-127">You are responsible for your use of any third party products and services.</span></span>
+<span data-ttu-id="bc69c-125">Турнитин — это служба обнаружения плагиарисм.</span><span class="sxs-lookup"><span data-stu-id="bc69c-125">Turnitin is a plagiarism detection service.</span></span> <span data-ttu-id="bc69c-126">Это сторонний продукт или услуга, которым подпадают свои условия и правила конфиденциальности.</span><span class="sxs-lookup"><span data-stu-id="bc69c-126">This is a third party product or service that is subject to its own terms and privacy policy.</span></span> <span data-ttu-id="bc69c-127">Вы несете ответственность за использование любых продуктов и услуг, предоставляемых третьими лицами.</span><span class="sxs-lookup"><span data-stu-id="bc69c-127">You are responsible for your use of any third party products and services.</span></span>
 
-<span data-ttu-id="a87f1-128">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="a87f1-128">This setting is off by default.</span></span>
+<span data-ttu-id="bc69c-128">Этот параметр по умолчанию отключен.</span><span class="sxs-lookup"><span data-stu-id="bc69c-128">This setting is off by default.</span></span>
 
-<span data-ttu-id="a87f1-129">Чтобы успешно включить Турнитин для вашей организации, у вас должна быть уже подписка на Турнитин.</span><span class="sxs-lookup"><span data-stu-id="a87f1-129">In order to successfully enable Turnitin for your organization, you will need to already have a Turnitin subscription.</span></span> <span data-ttu-id="a87f1-130">Вам потребуется ввести следующие дополнительные сведения, которые можно найти на консоли администрирования Турнитин:</span><span class="sxs-lookup"><span data-stu-id="a87f1-130">You will need to input the following additional information, which can be found in your Turnitin admin console:</span></span>
+<span data-ttu-id="bc69c-129">Чтобы успешно включить Турнитин для вашей организации, у вас должна быть уже подписка на Турнитин.</span><span class="sxs-lookup"><span data-stu-id="bc69c-129">In order to successfully enable Turnitin for your organization, you will need to already have a Turnitin subscription.</span></span> <span data-ttu-id="bc69c-130">Вам потребуется ввести следующие дополнительные сведения, которые можно найти на консоли администрирования Турнитин:</span><span class="sxs-lookup"><span data-stu-id="bc69c-130">You will need to input the following additional information, which can be found in your Turnitin admin console:</span></span>
 
-  * <span data-ttu-id="a87f1-131">_Турнитинапикэй_: идентификатор GUID 32, который находится на консоли администрирования в разделе Интеграция.</span><span class="sxs-lookup"><span data-stu-id="a87f1-131">_TurnitinApiKey_: This is a 32-character GUID found in the admin console under Integrations.</span></span>
-  * <span data-ttu-id="a87f1-132">_Турнитинапиурл_: URL-адрес вашей консоли администратора турнитин.</span><span class="sxs-lookup"><span data-stu-id="a87f1-132">_TurnitinApiUrl_: This is the HTTPS URL of your Turnitin admin console.</span></span>
+  * <span data-ttu-id="bc69c-131">_Турнитинапикэй_: идентификатор GUID 32, который находится на консоли администрирования в разделе Интеграция.</span><span class="sxs-lookup"><span data-stu-id="bc69c-131">_TurnitinApiKey_: This is a 32-character GUID found in the admin console under Integrations.</span></span>
+  * <span data-ttu-id="bc69c-132">_Турнитинапиурл_: URL-адрес вашей консоли администратора турнитин.</span><span class="sxs-lookup"><span data-stu-id="bc69c-132">_TurnitinApiUrl_: This is the HTTPS URL of your Turnitin admin console.</span></span>
 
-<span data-ttu-id="a87f1-133">Вот несколько инструкций, которые помогут вам получить эти сведения.</span><span class="sxs-lookup"><span data-stu-id="a87f1-133">Here are some instructions to help you obtain this information.</span></span>
+<span data-ttu-id="bc69c-133">Вот несколько инструкций, которые помогут вам получить эти сведения.</span><span class="sxs-lookup"><span data-stu-id="bc69c-133">Here are some instructions to help you obtain this information.</span></span>
 
-<span data-ttu-id="a87f1-134">Турнитинапиурл — адрес узла консоли администрирования.</span><span class="sxs-lookup"><span data-stu-id="a87f1-134">The TurnitinApiUrl is the host address of your admin console.</span></span>
-<span data-ttu-id="a87f1-135">Образом.</span><span class="sxs-lookup"><span data-stu-id="a87f1-135">Example.</span></span> `https://your-tenant-name.turnitin.com`
+<span data-ttu-id="bc69c-134">Турнитинапиурл — адрес узла консоли администрирования.</span><span class="sxs-lookup"><span data-stu-id="bc69c-134">The TurnitinApiUrl is the host address of your admin console.</span></span>
+<span data-ttu-id="bc69c-135">Образом.</span><span class="sxs-lookup"><span data-stu-id="bc69c-135">Example.</span></span> `https://your-tenant-name.turnitin.com`
 
-<span data-ttu-id="a87f1-136">На консоли администрирования вы можете создать интеграцию и ключ API, связанный с интеграцией.</span><span class="sxs-lookup"><span data-stu-id="a87f1-136">The admin console is where you can create an integration and an API key associated with the integration.</span></span>
+<span data-ttu-id="bc69c-136">На консоли администрирования вы можете создать интеграцию и ключ API, связанный с интеграцией.</span><span class="sxs-lookup"><span data-stu-id="bc69c-136">The admin console is where you can create an integration and an API key associated with the integration.</span></span>
 
-<span data-ttu-id="a87f1-137">В меню сбоку выберите пункт **Интеграция** , а затем — пункт **добавить интеграцию** и присвойте имя интеграции.</span><span class="sxs-lookup"><span data-stu-id="a87f1-137">Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.</span></span>
-<span data-ttu-id="a87f1-138">![Снимок экрана, демонстрирующий Добавление новой интеграции](./educationImages/Assignments_mopo_turnitin2.png)</span><span class="sxs-lookup"><span data-stu-id="a87f1-138">![Screen shot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)</span></span>
+<span data-ttu-id="bc69c-137">В меню сбоку выберите пункт **Интеграция** , а затем — пункт **добавить интеграцию** и присвойте имя интеграции.</span><span class="sxs-lookup"><span data-stu-id="bc69c-137">Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.</span></span>
+<span data-ttu-id="bc69c-138">![Снимок экрана, демонстрирующий Добавление новой интеграции](./educationImages/Assignments_mopo_turnitin2.png)</span><span class="sxs-lookup"><span data-stu-id="bc69c-138">![Screen shot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)</span></span>
 
-<span data-ttu-id="a87f1-139">Турнитинапикэй будет предоставлен вам после того, как вы подпишитесь на запросы.</span><span class="sxs-lookup"><span data-stu-id="a87f1-139">The TurnitinApiKey will be given to you after you follow the prompts.</span></span> <span data-ttu-id="a87f1-140">Скопируйте ключ API и вставьте его в центр администрирования Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="a87f1-140">Copy the API key and paste it into the Microsoft Teams admin center.</span></span>  <span data-ttu-id="a87f1-141">Это единственный момент, когда вы можете просмотреть ключ.</span><span class="sxs-lookup"><span data-stu-id="a87f1-141">This is the only time you can view the key.</span></span>
-<span data-ttu-id="a87f1-142">![Снимок экрана, на котором показано, как скопировать ключ API](./educationImages/Assignments_mopo_turnitin3.png)</span><span class="sxs-lookup"><span data-stu-id="a87f1-142">![Screen shot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)</span></span>
+<span data-ttu-id="bc69c-139">Турнитинапикэй будет предоставлен вам после того, как вы подпишитесь на запросы.</span><span class="sxs-lookup"><span data-stu-id="bc69c-139">The TurnitinApiKey will be given to you after you follow the prompts.</span></span> <span data-ttu-id="bc69c-140">Скопируйте ключ API и вставьте его в центр администрирования Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="bc69c-140">Copy the API key and paste it into the Microsoft Teams admin center.</span></span>  <span data-ttu-id="bc69c-141">Это единственный момент, когда вы можете просмотреть ключ.</span><span class="sxs-lookup"><span data-stu-id="bc69c-141">This is the only time you can view the key.</span></span>
+<span data-ttu-id="bc69c-142">![Снимок экрана, на котором показано, как скопировать ключ API](./educationImages/Assignments_mopo_turnitin3.png)</span><span class="sxs-lookup"><span data-stu-id="bc69c-142">![Screen shot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)</span></span>
 
-<span data-ttu-id="a87f1-143">При нажатии кнопки " **сохранить** " в центре администрирования с этим параметром эти параметры вступят в силу до 24 часов.</span><span class="sxs-lookup"><span data-stu-id="a87f1-143">Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.</span></span>
+<span data-ttu-id="bc69c-143">При нажатии кнопки " **сохранить** " в центре администрирования с этим параметром эти параметры вступят в силу до 24 часов.</span><span class="sxs-lookup"><span data-stu-id="bc69c-143">Upon clicking the **Save** button in the admin center for this setting, please allow up to 24 hours for these settings to take effect.</span></span>
 
-[<span data-ttu-id="a87f1-144">Дополнительные сведения о интеграции между Турнитин и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a87f1-144">Learn more about the integration between Turnitin and Microsoft Teams</span></span>](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
+[<span data-ttu-id="bc69c-144">Дополнительные сведения о интеграции между Турнитин и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bc69c-144">Learn more about the integration between Turnitin and Microsoft Teams</span></span>](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
 
-[<span data-ttu-id="a87f1-145">Дополнительные сведения о Турнитин</span><span class="sxs-lookup"><span data-stu-id="a87f1-145">Learn more about Turnitin</span></span>](https://www.turnitin.com/)
+[<span data-ttu-id="bc69c-145">Дополнительные сведения о Турнитин</span><span class="sxs-lookup"><span data-stu-id="bc69c-145">Learn more about Turnitin</span></span>](https://www.turnitin.com/)
