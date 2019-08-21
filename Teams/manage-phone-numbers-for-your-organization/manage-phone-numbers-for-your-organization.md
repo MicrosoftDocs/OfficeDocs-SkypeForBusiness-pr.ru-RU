@@ -18,17 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.voice.phonenumbers.overview
+- ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: Узнайте, как получить номера телефонов для Microsoft Teams для Организации и управлять ими.
-ms.openlocfilehash: 4260e87a5efe16d3b59053e672be3a348e8a5bdf
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347862"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483694"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Управление номерами телефонов организации
 
@@ -51,6 +53,7 @@ ms.locfileid: "35347862"
 > - [Франция](phone-number-management-for-france.md)
 > - [Германия](phone-number-management-for-germany.md)
 > - [Ирландия](phone-number-management-for-ireland.md)
+> - [Япония](phone-number-management-for-japan.md)
 > - [Нидерланды](phone-number-management-for-the-netherlands.md)
 > - [Испания](phone-number-management-for-spain.md)
 > - [Соединенное Королевство](phone-number-management-for-the-u-k.md)
@@ -79,7 +82,8 @@ ms.locfileid: "35347862"
 
 Если вам по-прежнему нужна помощь, сообщите нам, как это можно сделать. Отправляя ваш запрос помощи, включите сведения об ИД (идентификаторе вашей организации), доменах, типах телефонных номеров, с которыми вам требуется помощь, сколько номеров телефонов вам нужно, сведения о доверенном лице (доверителе учетной записи) и другие важные сведения о вашей проблеме.
 - Для получения справки о телефонных номерах в США, [отправьте запрос](mailto:ptn@microsoft.com).
-- Для получения справки о телефонных номерах за пределами США, [отправьте запрос](mailto:ptneu@microsoft.com).
+- Чтобы получить справку по номерам телефонов в Европе, [отправьте свой запрос](mailto:ptneu@microsoft.com).
+- Чтобы получить справку по номеру телефона в Азии, [отправьте свой запрос](mailto:ptnapac@microsoft.com).
 
 #### <a name="additional-resources"></a>Дополнительные ресурсы
 

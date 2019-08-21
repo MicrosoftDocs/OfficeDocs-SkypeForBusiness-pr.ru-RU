@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 ms.custom:
 - Calling Plans
 description: Число номеров телефонов, которые вы можете получить для организации, превышает назначенное число лицензий. Но это зависит от типов приобретенных и назначенных номеров и лицензий. Вы можете выбрать другие типы телефонных номеров, используемые для абонентов, чтобы узнать о различных телефонных номерах, используемых в Microsoft Teams.
-ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 33296e8b5be6137dd64d129dc3b5788576b3ee31
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347918"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483997"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Предоставляемое количество номеров телефонов
 

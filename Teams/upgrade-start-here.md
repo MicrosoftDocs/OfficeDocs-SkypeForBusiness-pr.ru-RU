@@ -14,18 +14,30 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
+- ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
+- ms.teamsadmincenter.dashboard.widget.upgrade.planning
+- ms.teamsadmincenter.dashboard.widget.upgrade.pause
+- ms.teamsadmincenter.dashboard.widget.upgrade.rolledback
+- ms.teamsadmincenter.users.teamsupgradestatuscolumn
+- ms.teamsadmincenter.users.teamsupgradepage
+- ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
+- ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 102572c8ef25ff93ca66a92c94e4ff244918ad31
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236052"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483950"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Начало перехода на Microsoft Teams
 
 Поздравляем с переходом от Skype для бизнеса в Microsoft Teams. Если вы только начинаете работать с Teams, вы уже используете Teams вместе со Skype для бизнеса или готовы к обновлению, мы хотели бы убедиться, что у вас есть все, что нужно для навигации в Teams по успешному пути.
+
+Независимо от того, выполняется ли переход с Skype для бизнеса Online на Teams или из локальной среды Skype для бизнеса в Teams, инфраструктура обновления поможет вам пройти процесс в соответствии с бизнес-сценарием.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Зачем нужно переходить на Microsoft Teams?
 
