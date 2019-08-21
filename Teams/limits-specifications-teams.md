@@ -15,18 +15,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436317"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473333"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
 В этой статье описаны некоторые ограничения, спецификации и другие требования, которые применяются к Teams.
 
-## <a name="teams-and-channels"></a>Команды и каналы 
+## <a name="teams-and-channels"></a>Команды и каналы
 
 |Функция    | Максимальный предел |
 |-----------|---------------|
@@ -113,6 +113,17 @@ ms.locfileid: "36436317"
 > Размер сообщения, вложенные файлы и ограничения встроенных изображений одинаковы для всех лицензий на Office 365.
 
 Дополнительные сведения можно найти в разделе [ограничения Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+
+## <a name="contacts"></a>Контакты
+
+В Teams используются следующие контакты:
+
+- Контакты в службе каталогов Active Directory вашей организации
+- Контакты, добавленные в папку пользователя Outlook по умолчанию
+
+Пользователи Teams могут общаться с любыми участниками своей организации в службе каталогов Active Directory и добавлять в них в **Skype**  >  и в свои списки контактов пользователей, **** > **** которые имеют доступ к контактам. **Контакты**.
+
+Пользователи Teams также могут добавить человека, которого нет в службе каталогов Active Directory вашей организации, в**список** **звонков** > .
 
 ## <a name="browsers"></a>Конеч
 
