@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288206"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493086"
 ---
 # <a name="what-are-communications-credits"></a>Что такое кредиты на связь?
 
@@ -75,6 +75,9 @@ ms.locfileid: "34288206"
 У каждой организации свой объем планов звонков и тарифы. Эти сведения по использованию можно получить у текущего поставщика услуг. В организациях, использующих Skype для бизнеса в качестве поставщика услуг, вы можете получить данные об использовании, просмотрев их в**отчетах**  >  **центра администрирования Microsoft 365**или в отчетах >  **центра администрирования Skype для бизнеса**.** **Сведения об **использовании КТСОП.**  > 
   
 При настройке кредитов на связь нужно проанализировать объем звонков в своей организации, чтобы определить сумму пополнения счета. Сведения о звонках можно получить в отчете **Сведения об использовании ТСОП**. Записи по звонкам из этого отчета можно экспортировать в Excel для хранения или создания настраиваемых отчетов.
+
+> [!NOTE]
+> Для платных тарифных номеров также используются кредиты на связь. Вызывающий абонент оплачивает расходы.
   
 ## <a name="recommended-funding-amounts"></a>Рекомендованные суммы платежа
 

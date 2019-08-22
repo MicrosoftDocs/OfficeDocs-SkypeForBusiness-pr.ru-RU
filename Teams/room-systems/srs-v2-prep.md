@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: В этой статье объясняется подготовка инфраструктуры к развертыванию комнат Microsoft Teams.
-ms.openlocfilehash: 1450752b14e509e86f6d2cf0c56ce9693e86265a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427856"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493091"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -61,6 +61,9 @@ ms.locfileid: "36427856"
 
 > [!IMPORTANT]
 > Для обеспечения достаточной пропускной способности используйте проводное сетевое подключение стандарта 1 Гбит/с. 
+
+> [!NOTE]
+> Обновления программного обеспечения для комнат Microsoft Teams автоматически загружаются из Microsoft Store для бизнеса. Ознакомьтесь с [требованиями для Microsoft Store для бизнеса и образовательных учреждений](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) , чтобы убедиться в том, что консоль комнаты сможет получить доступ к магазину и ее обновлению самостоятельно.
   
 ### <a name="certificates"></a>Сертификаты
 
@@ -169,3 +172,5 @@ ms.locfileid: "36427856"
 [Настройка консоли Microsoft Teams](console.md)
   
 [Управление приложением "Комнаты Microsoft Teams"](skype-room-systems-v2.md)
+
+[Необходимые условия для бизнеса и образовательных учреждений в Microsoft Store](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
