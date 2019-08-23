@@ -1,0 +1,1 @@
+Еще не видите эту функцию в центре администрирования Microsoft Teams? Ее развертывание идет постепенно, и в вашей организации она, возможно, пока недоступна. Для отслеживания предстоящих функций в Teams см. [стратегию развития Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
