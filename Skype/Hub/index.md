@@ -9,7 +9,7 @@ author: kenwith
 description: Skype для бизнеса
 ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
 ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/02/2019
 ms.locfileid: "35418379"
@@ -55,7 +55,7 @@ ms.locfileid: "35418379"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Гибридные решения</h3>
-                                                    <p>Ознакомьтесь со сведениями о планировании гибридного развертывания Skype для бизнеса.</p>
+                                                    <p>В этой статье приводятся сведения о планировании гибридного развертывания Skype для бизнеса.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@ ms.locfileid: "35418379"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Microsoft Teams</h3>
-                                                    <p>Получите планирование, рекомендации и практические рекомендации, необходимые для успешного развертывания Microsoft Teams.</p>
+                                                    <p>Планирование, инструкции и практические рекомендации для успешного внедрения Microsoft Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,7 +130,7 @@ ms.locfileid: "35418379"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Переход со Skype для бизнеса на Microsoft Teams</h3>
-                                                    <p>В этой статье приведены рекомендации и инструменты, позволяющие узнать оптимальный путь к Teams.</p>
+                                                    <p>Рекомендации и средства для оптимального перехода на Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -183,8 +183,8 @@ ms.locfileid: "35418379"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Конечные пользователи</h3>
-                                                    <p>Ознакомьтесь со справкой, обучением и технической поддержкой пользователей Skype для бизнеса в <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.Office.com</a>.</p>
+                                                    <h3>Пользователи</h3>
+                                                    <p>Справка, обучение и техническая поддержка для пользователей Skype для бизнеса на сайте <a href='https://support.office.com/ru-RU/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
