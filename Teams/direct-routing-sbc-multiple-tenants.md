@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493130"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645315"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -84,7 +84,8 @@ ms.locfileid: "36493130"
 
 ![Схема, показывающая требования к доменам и заголовку контакта](media/direct-routing-1-sbc-requirements.png)
 
-Для использования SBC требуется сертификат для проверки подлинности подключений. Для сценария размещения SBC-оператора необходимо запросить сертификат в сети SAN * \*. base_domain (например \*, Customers.adatum.biz)*. Этот сертификат можно использовать для проверки подлинности подключений к нескольким клиентам, обслуживаемым одним SBC.
+Для использования SBC требуется сертификат для проверки подлинности подключений. Для сценария размещения SBC-оператора необходимо запросить сертификат в сети SAN * \*. base_domain (например, \*. Customers.adatum.biz)*. Этот сертификат можно использовать для проверки подлинности подключений к нескольким клиентам, обслуживаемым одним SBC.
+
 
 В приведенной ниже таблице показан пример одной конфигурации.
 
@@ -98,6 +99,9 @@ ms.locfileid: "36493130"
 ||         |         |         |         |         |
 
 Чтобы настроить базовые и дочерние домены, выполните действия, описанные ниже. В этом примере мы назначением базового доменного имени (customers.adatum.biz) и поддоменом для одного клиента (sbc1.customers.adatum.biz в клиенте Woodgrove Bank).
+
+> [!NOTE]
+> Используйте sbcX.customers.adatum.biz, чтобы включить голосовую связь в клиенте перевозчика.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Регистрация базового доменного имени в клиенте перевозчика
 
