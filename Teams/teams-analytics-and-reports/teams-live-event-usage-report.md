@@ -15,18 +15,16 @@ ms.collection:
 description: Узнайте, как использовать отчет об использовании событий Teams Live в центре администрирования Microsoft Teams, чтобы получить общие сведения о мероприятиях Teams Live в Организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239810"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667069"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Отчет об использовании событий в Microsoft Teams Live
 
 В отчете об использовании событий Teams в центре администрирования Microsoft Teams отображаются сведения о действиях для событий в реальном времени, хранящихся в вашей организации. Вы можете просматривать сведения об использовании, включая состояние события, время начала, представления и тип производства для каждого события. Вы можете получить представление о тенденциях использования и узнать, кто из ваших расписаний Организации, представляет и создает мероприятия в реальном времени. 
-
-![Снимок экрана с отчетом об использовании событий Teams Live в центре администрирования Microsoft Teams] (../media/teams-live-event-usage-report.png "Снимок экрана с отчетом об использовании Teams в центре администрирования")
 
 ## <a name="view-the-report"></a>Просмотр отчета
 
@@ -35,9 +33,9 @@ ms.locfileid: "36239810"
 3. Необязательно В разделе **Организатор**вы можете выбрать отображение только событий, упорядоченных конкретным пользователем.
 4. Нажмите кнопку **выполнить отчет**.  
 
-## <a name="interpret-the-report"></a>Толкование отчета
+    ![Снимок экрана с отчетом об использовании событий Teams Live в центре администрирования Teams с выносками] (../media/teams-live-event-usage-report-with-callouts.png "Снимок экрана с отчетом об использовании событий Teams Live в центре администрирования Teams с выносками")
 
-![Снимок экрана с отчетом об использовании событий Teams Live в центре администрирования Microsoft Teams] (../media/teams-live-event-usage-report-with-callouts.png "Снимок экрана с отчетом об использовании событий Teams Live в центре администрирования с нумерованными выносками")
+## <a name="interpret-the-report"></a>Толкование отчета
 
 |Выноска |Описание  |
 |--------|-------------|
@@ -56,5 +54,6 @@ ms.locfileid: "36239810"
 Если в вашей организации разрешены [куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/) Екдн или [коллективе](https://kollective.com) екдн, вы можете получить дополнительные сведения об аналитических участниках, щелкнув ссылку "партнер".
 
 ## <a name="related-topics"></a>Статьи по теме
+
 - [Аналитика и отчеты Teams](teams-reporting-reference.md)
 - [Что такое прямые трансляции Teams?](../teams-live-events/what-are-teams-live-events.md)
