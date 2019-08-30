@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams.
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483319"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675410"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -173,7 +173,11 @@ ms.locfileid: "36483319"
 - Группа безопасности
 - Список рассылки
 
-Выбранные агенты звонков должны **** быть подключены к сети с помощью лицензии на **телефонную систему** , а также с включенным корпоративным голосом **или** абонентским планом.
+Выбранные агенты звонков должны быть одним из следующих: 
+
+- Пользователи в сети с лицензией на телефонную систему и включенной корпоративной голосовой связью 
+- Пользователи в сети с помощью тарифного плана
+- Локальные пользователи сервера Skype для бизнеса
 
   > [!NOTE]
   > Это также применимо, если вы хотите перенаправить звонки на пользователей в вашей организации, которые находятся в сети. Эти люди должны иметь лицензию на **телефонную систему** , а также включить поддержку голосовой связи в рамках Skype **или** получить план звонков. Дополнительные сведения можно найти в статье [Назначение лицензий Skype для бизнеса](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [Назначение лицензий на Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses), а также [для каких абонентов](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
