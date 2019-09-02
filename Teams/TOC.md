@@ -603,6 +603,7 @@
 ### [Определение области проекта](upgrade-define-project-scope.md)
 ### [Общие сведения о сосуществовании и взаимодействии](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ### [Выбор процедуры обновления](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Вначале собрания](meetings-first.md)
 
 ## Подготовка среды для Teams
 ### [Обзор технической готовности](upgrade-prepare-environment.md)
