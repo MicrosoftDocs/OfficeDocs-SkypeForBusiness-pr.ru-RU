@@ -51,9 +51,7 @@ ms.locfileid: "36436358"
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-|Готова ли моя сеть к развертыванию собраний в Teams? | Чтобы убедиться, что ваша сеть готова, ознакомьтесь со следующими материалами:<ul><li>
-  [Подготовка сети организации к использованию Microsoft Teams](https://docs.microsoft.com/ru-RU/MicrosoftTeams/prepare-network)</li><li>
-  [URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/ru-RU/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Готова ли моя сеть к развертыванию собраний в Teams? | Чтобы убедиться, что ваша сеть готова, ознакомьтесь со следующими материалами:<ul><li>[Подготовка сети организации к использованию Microsoft Teams](https://docs.microsoft.com/ru-RU/MicrosoftTeams/prepare-network)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/ru-RU/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Основные решения по развертыванию

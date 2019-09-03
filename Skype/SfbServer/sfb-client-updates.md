@@ -53,8 +53,7 @@ ms.locfileid: "35204023"
 |Обновление для Skype для бизнеса 2016 |[4092445 КБ](https://support.microsoft.com/kb/4092445/) | Октябрь 2018 г.|
 |Обновление для Skype для бизнеса 2016 |[4032255 КБ](https://support.microsoft.com/kb/4032255/) | Август 2018 г.|
 |Обновление для системы безопасности для Skype для бизнеса 2016 |[Статья базы знаний 4022221](https://support.microsoft.com/kb/4022221) | Июль 2018 г. |
-|Обновление для Skype для бизнеса 2016 |
-  [Статья базы знаний 4022155](https://support.microsoft.com/ru-RU/help/4022155) | Июнь 2018 г.|
+|Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4022155](https://support.microsoft.com/ru-RU/help/4022155) | Июнь 2018 г.|
 |Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4018367](https://support.microsoft.com/kb/4018367) | Май 2018 г.|
 |Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4018323](https://support.microsoft.com/kb/4018323) | Апрель 2018 г.|
 |Обновление для Skype для бизнеса 2016 |[Статья базы знаний 4011725](https://support.microsoft.com/kb/4011725) | Март 2018 г.|
@@ -219,16 +218,13 @@ ms.locfileid: "35204023"
 
 | Название пакета                                                                                                       | Номер статьи в базе знаний                                                      | Дата выпуска |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
-| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                             | 
-  [Статья базы знаний 4019527](https://support.microsoft.com/ru-RU/help/4019527) | Апрель 2017 г.   |
-| Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов HP 4110 и HP 4120                              | 
-  [Статья базы знаний 4019528](https://support.microsoft.com/ru-RU/help/4019528) | Апрель 2017 г.   |
-| Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000 | 
-  [Статья базы знаний 4019529](https://support.microsoft.com/ru-RU/help/4019529) | Апрель 2017 г.   |
-| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                            | [Статья базы знаний 3050585](https://support.microsoft.com/en-us/kb/3050585)   | Май 2015 г.     |
-| Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120                                        | [Статья базы знаний 3050587](https://support.microsoft.com/en-us/kb/3050587)   | Май 2015 г.     |
-| Накопительный пакет обновления для Lync Phone Edition для Polycom CX500, Polycom CX600 и Polycom CX3000                      | [Статья базы знаний 3050588](https://support.microsoft.com/en-us/kb/3050588)   | Май 2015 г.     |
-| Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX700 и LG-Nortel IP Phone 8540                  | [Статья базы знаний 3050590](https://support.microsoft.com/en-us/kb/3050590)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                             | [Статья базы знаний 4019527](https://support.microsoft.com/ru-RU/help/4019527) | Апрель 2017 г.   |
+| Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов HP 4110 и HP 4120                              | [Статья базы знаний 4019528](https://support.microsoft.com/ru-RU/help/4019528) | Апрель 2017 г.   |
+| Накопительный пакет обновления для Microsoft Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000 | [Статья базы знаний 4019529](https://support.microsoft.com/ru-RU/help/4019529) | Апрель 2017 г.   |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                            | [Статья базы знаний 3050585](https://support.microsoft.com/ru-RU/kb/3050585)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120                                        | [Статья базы знаний 3050587](https://support.microsoft.com/ru-RU/kb/3050587)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для Polycom CX500, Polycom CX600 и Polycom CX3000                      | [Статья базы знаний 3050588](https://support.microsoft.com/ru-RU/kb/3050588)   | Май 2015 г.     |
+| Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX700 и LG-Nortel IP Phone 8540                  | [Статья базы знаний 3050590](https://support.microsoft.com/ru-RU/kb/3050590)   | Май 2015 г.     |
 | Накопительный пакет обновления для Lync Phone Edition для телефонов Aastra 6721ip и Aastra 6725ip                            | [Статья базы знаний 2954032](https://support.microsoft.com/kb/2954032)         | Апрель 2014 г.   |
 | Накопительный пакет обновления для Lync Phone Edition для телефонов HP 4110 и HP 4120                                        | [Статья базы знаний 2954033](https://support.microsoft.com/kb/2954033)         | Апрель 2014 г.   |
 | Накопительный пакет обновления для Lync Phone Edition для телефонов Polycom CX500, Polycom CX600 и Polycom CX3000           | [Статья базы знаний 2954034](https://support.microsoft.com/kb/2954034)         | Апрель 2014 г.   |

@@ -169,5 +169,4 @@ Skype для бизнеса на Mac работает на компьютера�
 
 [Развертывание веб-клиентов, доступных для загрузки, в Skype для бизнеса Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-
-  [Поддерживаемые платформы приложения "Собрания Skype"](https://support.office.com/ru-RU/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Поддерживаемые платформы приложения "Собрания Skype"](https://support.office.com/ru-RU/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

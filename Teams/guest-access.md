@@ -62,6 +62,5 @@ ms.locfileid: "36244084"
 ## <a name="more-information"></a>Дополнительные сведения
 
 [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-
-  [Гостевой доступ в группах Office 365](https://support.office.com/ru-RU/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Гостевой доступ в группах Office 365](https://support.office.com/ru-RU/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
