@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка проверки подлинности OAuth между Exchange на локальном и Skype для бизнеса Online включает возможности интеграции Skype для бизнеса и Exchange, описанные в разделе Поддержка функций.
-ms.openlocfilehash: 3c896e8b430276e5bb48bc425425292a382a1021
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244223"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715811"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Настройка интеграции и OAuth между Skype для бизнеса Online и Exchange Server 
 
@@ -142,7 +142,7 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 2. Убедитесь в том, что в папке "Журнал бесед" Outlook отображается журнал бесед для мобильных клиентов.
 
-3. Убедитесь, что архивированные сообщения в чате помещены в почтовый ящик пользователя в локальной папке очистки с помощью [евседитор](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
+3. Убедитесь в том, что архивированные сообщения в чате хранятся в локальном почтовом ящике пользователя в папке очистки с помощью [евседитор](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
 Кроме того, Взгляните на трафик. Трафик в подтверждении OAuth является весьма отличительным (и не рассматривается как обычная проверка подлинности), особенно вокруг сфер, где вы начнете просматривать трафик поставщика, выглядящий следующим образом: 00000004-0000-0ff1-ce00-000000000000 @ (иногда с a/Before знак "@") в токенах, которые передаются. Вы не увидите имя пользователя или пароль, который является точкой OAuth. Но вы увидите, что в этом случае это "4" — Skype для бизнеса — и сфера подписки.
 

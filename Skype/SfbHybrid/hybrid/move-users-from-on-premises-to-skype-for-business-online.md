@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сведения о том, как перемещать пользователей в Skype для бизнеса Online.
-ms.openlocfilehash: 90d225eb725690566f23b73b3626cbcf1f42c8c7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36160723"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715897"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Перемещение пользователей из локальной сети в Skype для бизнеса Online
 
@@ -31,7 +31,7 @@ ms.locfileid: "36160723"
  
 ## <a name="move-users-with-move-csuser"></a>Перемещение пользователей с помощью Move — CsUser 
 
-Move-CsUser доступен из локального окна PowerShell для командной консоли Skype для бизнеса. У вас должны быть достаточные права как в локальной среде, так и в клиенте Office 365, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Можно использовать одну учетную запись с правами в обеих средах или можно запустить локальное окно командной консоли Skype для бизнеса Server с локальными учетными данными и использовать `-Credential` параметр для указания учетных данных для Office 365 Учетная запись с необходимым административной ролью Office 365.
+Move-CsUser доступен из локального окна PowerShell для командной консоли Skype для бизнеса. У вас должны быть достаточные права как в локальной среде, так и в клиенте Office 365, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Вы можете использовать одну учетную запись с правами в обеих средах или можно запустить локальное окно командной консоли Skype для бизнеса Server с локальными учетными данными и использовать `-Credential` параметр для указания учетных данных для Office 365 Учетная запись с необходимым административной ролью Office 365.
 
 Чтобы переместить пользователя в Интернет с помощью Move-CsUser:
 
