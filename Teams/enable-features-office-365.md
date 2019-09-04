@@ -20,18 +20,18 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
-ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
+ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "36699376"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715930"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Параметры приложений Teams в Центре администрирования Microsoft Teams
 
-Вы управляете приложениями для организации в разделе **Приложения Teams** в Центре администрирования Microsoft Teams. Например, вы можете задать политики, чтобы определять, какие приложения будут доступны на уровне организации или для конкретных пользователей Teams, а также настроить Teams, закрепив наиболее важные приложения для пользователей.
+Вы управляете приложениями для организации в разделе **Приложения Teams** в [Центре администрирования Microsoft Teams](https://admin.teams.microsoft.com). Например, вы можете задать политики, чтобы определять, какие приложения будут доступны на уровне организации или для конкретных пользователей Teams, а также настроить Teams, закрепив наиболее важные приложения для пользователей.
 
 Дополнительные сведения см. в статье [Параметры администратора для приложений в Teams](admin-settings.md).  
 
