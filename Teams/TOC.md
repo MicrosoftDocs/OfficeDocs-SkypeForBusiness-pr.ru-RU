@@ -691,6 +691,7 @@
 ### [Запуск отчета для отображения активного использования StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Планирование перемещения групп StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Пример общения по электронной почте с пользователями](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [Управление приложением "Смены" для организации в Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams для сферы здравоохранения
