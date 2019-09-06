@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье рассказывается, как развернуть управление устройствами в Microsoft Teams с помощью монитора Azure.
-ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428104"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774688"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Развертывание управления комнатами Microsoft Teams с помощью монитора Azure
 
@@ -34,13 +34,13 @@ ms.locfileid: "36428104"
 В общих чертах вам необходимо выполнить следующие задачи.
 
 
-1.  [Проверка конфигурации Analytics log](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [Настройка тестовых устройств для настройки службы управления журналом](azure-monitor-deploy.md#configure_test_devices)
-3.  [Сопоставление настраиваемых полей](azure-monitor-deploy.md#Custom_fields)
-4.  [Определение представлений комнат Microsoft Teams в службе анализа журналов](azure-monitor-deploy.md#Define_Views)
-5.  [Определение оповещений](azure-monitor-deploy.md#Alerts)
-6.  [Настройка наблюдения для всех устройств](azure-monitor-deploy.md#configure_all_devices)
-7.  [Настройка дополнительных решений для монитора Azure](azure-monitor-deploy.md#Solutions)
+1. [Проверка конфигурации Analytics log](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [Настройка тестовых устройств для настройки службы управления журналом](azure-monitor-deploy.md#configure_test_devices)
+3. [Сопоставление настраиваемых полей](azure-monitor-deploy.md#Custom_fields)
+4. [Определение представлений комнат Microsoft Teams в службе анализа журналов](azure-monitor-deploy.md#Define_Views)
+5. [Определение оповещений](azure-monitor-deploy.md#Alerts)
+6. [Настройка наблюдения для всех устройств](azure-monitor-deploy.md#configure_all_devices)
+7. [Настройка дополнительных решений для монитора Azure](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > Несмотря на то, что в минимальной конфигурации служба Azure log Analytics может отслеживать компьютер под управлением операционной системы Windows, по-прежнему некоторые комнаты Microsoft Teams — конкретные действия, которые необходимо выполнить, прежде чем приступить к развертыванию агентов для всех Microsoft Teams. Устройства комнаты.

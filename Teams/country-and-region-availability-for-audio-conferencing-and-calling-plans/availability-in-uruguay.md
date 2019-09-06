@@ -3,7 +3,7 @@ title: Доступность в Уругвае
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 5ce55c31-59da-4649-9021-ea9e78cfd9ed
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для работы с помощью Уругвай.
-ms.openlocfilehash: ddc843f1ac45c629cfa3d20e494124f787726532
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6e552f46b1cbf6ce8dce55c9da903b0a741eae08
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330918"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775362"
 ---
 # <a name="availability-in-uruguay"></a>Доступность в Уругвае
 
@@ -67,8 +67,8 @@ ms.locfileid: "34330918"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
-|Доступны ли платные номера?  <br/> |Нет  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Монтевидео ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

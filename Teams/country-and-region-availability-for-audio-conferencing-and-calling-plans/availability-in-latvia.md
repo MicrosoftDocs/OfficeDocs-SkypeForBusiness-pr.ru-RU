@@ -3,7 +3,7 @@ title: Доступность в Латвии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Латвии.
-ms.openlocfilehash: 27eafcd181aebc1b767c90f94eda0e39ccf8cc13
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3c3b933e7dcbbf8ceee8a3863cb9303720468ec0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331654"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775404"
 ---
 # <a name="availability-in-latvia"></a>Доступность в Латвии
 
@@ -67,9 +67,9 @@ ms.locfileid: "34331654"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Алуксне  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |РИИГА ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
+|Доступны ли бесплатные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

@@ -2,7 +2,7 @@
 title: Обслуживание и эксплуатация комнат Microsoft Teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 14f4fb23868cc3e4247c700d15851511310db471
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427947"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775234"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -198,7 +198,7 @@ Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rige
 
 1. Повесьте все текущие звонки и вернитесь на начальный экран.
     
-2. Щелкните значок шестеренки и выбери меню (параметры: **Параметры**, **Специальные возможности**и перезагрузка **устройства** ).
+2. Щелкните значок шестеренки и выбери меню (параметры: **Параметры**, **Специальные возможности**и **Перезагрузка устройства** ).
     
 3. Выберите **Параметры**.
     

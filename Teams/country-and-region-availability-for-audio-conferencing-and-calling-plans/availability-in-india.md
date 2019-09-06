@@ -3,7 +3,7 @@ title: Доступность в Индии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индии.
-ms.openlocfilehash: 7a7afac460f8b74a7386293cca75d1f8720a20f6
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: fdb9c6ee9abdb68b605743dbfe77bb594fa68ad0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331798"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775426"
 ---
 # <a name="availability-in-india"></a>Доступность в Индии
 
@@ -43,7 +43,7 @@ ms.locfileid: "34331798"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Мумбай</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Ченнай<li> Мумбай</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -67,11 +67,11 @@ ms.locfileid: "34331798"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Мумбай  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |<ul><li>Ченнай <li>Мумбай<li>Другие города [по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Обратите внимание, что в Индии номера услуг можно использовать только для голосовой конференции. Таким образом, если вы хотите получить бесплатные и платные телефонные номера для голосовой конференции, ознакомьтесь со статьей [получение телефонных номеров служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

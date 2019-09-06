@@ -2,7 +2,7 @@
 title: Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации
 ms.author: jambirk
 author: jambirk
-ms.reviewer: gregbari
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: В этой статье объясняется, как удаленно управлять параметрами по умолчанию, используемыми устройством Microsoft Teams, в том числе с применением настраиваемой темы.
-ms.openlocfilehash: 4161474f02959b091db6584f1aeed72646028e6d
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645293"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774569"
 ---
 # <a name="content-cameras"></a>Камеры содержимого
 
@@ -75,7 +75,7 @@ ms.locfileid: "36645293"
 
 ## <a name="supported-cameras"></a>Поддерживаемые камеры
 
-Чтобы узнать, можно ли использовать камеру в качестве камеры для передачи данных, ознакомьтесь с [сертифицированными версиями встроенного по для USB-устройств и](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals)видеоадаптеров.
+Чтобы узнать, можно ли использовать камеру в качестве камеры для передачи данных, ознакомьтесь с [сертифицированными версиями встроенного по для USB-устройств и видеоадаптеров](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
 Кроме того, вы также можете обратиться к магазинам Microsoft Teams на рынке, которые поддерживают пакеты для видеокамеры по адресу [AKA.MS/teamsdevices](https://aka.ms/teamsdevices).
 
@@ -83,7 +83,7 @@ ms.locfileid: "36645293"
 
 После того как камера будет установлена в комнате, настройте ее на консоли комнаты Microsoft Teams.
 
-1. Щелкните **** ![значок](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)параметры параметров, войдите в систему как администратор и выберите пункт **Параметры устройства**.
+1. Щелкните **значок** ![](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)параметры параметров, войдите в систему как администратор и выберите пункт **Параметры устройства**.
 2. В разделе **Камера по умолчанию** выберите камеру для содержимого и убедитесь, что выбран параметр **Улучшенное содержимое** .
 3. Необязательно Если камера была установлена сверху вниз, так как камера была подключена к потолоку, установите флажок **повернуть содержимое камеры 180 °** .
 4. Нажмите кнопку **сохранить и выйти**.

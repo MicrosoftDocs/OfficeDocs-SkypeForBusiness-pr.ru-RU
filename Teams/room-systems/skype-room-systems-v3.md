@@ -2,7 +2,7 @@
 title: Общие сведения об управлении комнатами Microsoft Teams
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Общие сведения об управлении комнатами Microsoft Teams.
-ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427878"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775099"
 ---
-# <a name="management-overview"></a>Обзор управления 
+# <a name="management-overview"></a>Обзор управления
 
 Важно, чтобы вы разработали и выполняли текущее обслуживание и операции, чтобы убедиться в том, что системы комнат Microsoft Teams доступны для ваших пользователей, и обеспечьте удобное взаимодействие с пользователями. 
 
@@ -27,14 +27,12 @@ ms.locfileid: "36427878"
 
 Наблюдение за системами комнат Microsoft Teams состоит из двух ключевых действий:
 
--  Мониторинг устройства, приложения и периферийных устройств
-
--  Мониторинг качества и надежности (CQD)
+- Мониторинг устройства, приложения и периферийных устройств
+- Мониторинг качества и надежности (CQD)
 
 ### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Microsoft Teams — комнаты, мониторинг устройства, приложения и периферийных устройств
 
 Чтобы убедиться в том, что пользователи смогут использовать единицы комнат Microsoft Teams, они должны быть включены, подключены к сети с помощью приложения Microsoft Teams и быть подключены к работающим периферийным устройствам. 
-
 
 Сведения о состоянии приложения Microsoft Teams комнаты, а также подключенных периферийных устройств записываются в журнал событий Windows с помощью приложения комнаты Microsoft Teams и задокументированы в разделе [Знакомство с записями в журнале](azure-monitor-manage.md#understand-the-log-entries). 
 
@@ -43,7 +41,7 @@ ms.locfileid: "36427878"
 |HKLM\SOFTWARE\Microsoft\Windows Нт\куррентверсион\винлогон Аутоадминлогон = (DWORD) 1  <br/> |Включает комнаты Microsoft Teams для загрузки  <br/> |
 |Управление питанием\> в сети переменного тока, отключение экрана через 10 минут  <br/> Управление питанием\> — вкл., не переводит систему в спящий режим  <br/> |Позволяет комнатам Microsoft Teams отключить подключенные дисплеи и автоматически выключаться из спящего режима  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Или аналогичный способ отключения срока действия пароля в локальной учетной записи. Невыполнение этого действия приводит к тому, что учетной записи Skype не удается войти в систему с нарушением пароля. Обратите внимание, что это влияет на все локальные учетные записи на компьютере, поэтому при установке этого флажка также может возникнуть срок действия административной учетной записи в поле.  <br/> |Позволяет учетной записи Skype всегда выполнять вход.  <br/> |
-   
+
 Передача файлов с помощью групповых политик рассматривается в разделе [Настройка элемента файла](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Удаленное управление с помощью PowerShell

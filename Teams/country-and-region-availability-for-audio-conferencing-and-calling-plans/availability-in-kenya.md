@@ -3,7 +3,7 @@ title: Доступность в Кении
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 4ec0cc20-1bcd-4596-a220-f7b363d95055
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Кения.
-ms.openlocfilehash: 1944e23ed179b94d5ff74203b38f6a91b209d9c9
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 2c59aeac4f48c9b36a0bf07ae3c4eb5a829814db
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331662"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775415"
 ---
 # <a name="availability-in-kenya"></a>Доступность в Кении
 
@@ -67,8 +67,8 @@ ms.locfileid: "34331662"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
-|Доступны ли платные номера?  <br/> |Нет  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Найроби ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

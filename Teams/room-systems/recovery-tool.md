@@ -3,7 +3,7 @@ title: Используйте средство восстановления пр
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: В этой статье рассказывается о том, как использовать средство восстановления для комнат Microsoft Teams, которое можно использовать для выхода из системы, в которой она находится в поддерживаемом состоянии.
-ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: aded92fac90f20246444419bff19415922175856
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427991"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775209"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Используйте средство восстановления приложения "Комнаты Microsoft Teams"
  
@@ -39,7 +39,7 @@ ms.locfileid: "36427991"
 4. Обратите внимание на число после "Version" на второй строке области сведений.
 
 >[!NOTE]
->Если отображается версия 1607 или более ранней версии, выполните действия, описанные в статье <a href="#Windows-up">Обновление Windows перед восстановлением</a> , прежде чем припроцединг к выполнению действий по <a href="#Perform">восстановлению</a> . Если указанная версия больше 1607, выполните действия, описанные в разделе <a href="#Perform">выполнение восстановления</a>.
+>Если отображается версия 1607 или более ранней версии, выполните действия, описанные в статье <a href="#Windows-up">Обновление Windows перед восстановлением</a> , прежде чем припроцединг к <a href="#Perform">выполнению действий по восстановлению</a> . Если указанная версия больше 1607, выполните действия, описанные в разделе <a href="#Perform">выполнение восстановления</a>.
 
 <a name="Windows-up"> </a>
 ## <a name="update-windows-before-recovery-if-needed"></a>Обновление Windows перед восстановлением (при необходимости)

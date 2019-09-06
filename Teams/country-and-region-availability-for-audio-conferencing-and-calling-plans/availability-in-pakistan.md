@@ -3,7 +3,7 @@ title: Доступность в Пакистане
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Пакистан.
-ms.openlocfilehash: 29d925bc24f07e9a907b004eb59b8e59e42254fa
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: faa9114fd080b05045bc26c4ff13f8ecc9301893
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331470"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775492"
 ---
 # <a name="availability-in-pakistan"></a>Доступность в Пакистане
 
@@ -71,7 +71,7 @@ ms.locfileid: "34331470"
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Обратите внимание, что в Пакистан вы можете использовать номера услуг только для голосовой конференции. Таким образом, если вы хотите получить бесплатный и бесплатный номер для голосовой конференции, ознакомьтесь со статьей [получение телефонных номеров служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

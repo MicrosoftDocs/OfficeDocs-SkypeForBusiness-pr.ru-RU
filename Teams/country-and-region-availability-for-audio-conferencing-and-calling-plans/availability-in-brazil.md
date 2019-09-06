@@ -3,7 +3,7 @@ title: Доступность в Бразилии
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бразилии.
-ms.openlocfilehash: 7d9f4509cb81df78ef780fffdb3145e7ec825f3a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 670b81d973fc47831574a90ec0ab05855cc2685f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332158"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774602"
 ---
 # <a name="availability-in-brazil"></a>Доступность в Бразилии
 
@@ -67,7 +67,7 @@ ms.locfileid: "34332158"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> | <ul><li>Рио-де-Жанейро <li>  Сан-Паулу </ul> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | <ul><li>Рио-де-Жанейро <li>  Сан-Паулу <li>Другие города [по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    

@@ -3,7 +3,7 @@ title: Лицензии комнаты Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о возможностях, доступных в комнатах Microsoft Teams. '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859730"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775066"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Обновление лицензий для собрания Teams 
+# <a name="teams-meeting-room-licensing-update"></a>Обновление лицензий для собрания Teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Решения для лицензирования для общих Коммуникационнох устройств
 
@@ -43,7 +43,7 @@ ms.locfileid: "34859730"
 |Аудиоконференции|&#x2714; &SUP1;|
 |Microsoft Intune|&#x2714;|  
 |Доступность в разных странах мира | &#x2714; &sup2;|
-|Доступность канала | EA, EAS, CSP, <br>Прямой веб-сайт |
+|Доступность канала | EA, EAS, CSP, <br/>Прямой веб-сайт |
 | | | |
 
 &SUP1; Доступность и включенные минуты могут варьироваться в зависимости от региона. Чтобы проверить доступность службы, ознакомьтесь со [сведениями о доступности страны и региона для голосовой конференции и планов звонков](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Плата за потребление может взиматься за дополнительные услуги, такие как бесплатный, Международный протокол для внутренних планов и т. д. Пользователи могут отключить эти функции, чтобы избежать дополнительной оплаты.  
@@ -71,4 +71,4 @@ ms.locfileid: "34859730"
 > [!NOTE]
 > Если у вас есть лицензии, назначенные для систем комнат, они будут продолжать работать без перерывов. Если срок действия существующих лицензий истек, вы должны перейти к использованию нового SKU для комнаты собраний.  
 
- **Используйте подправную версию Windows 10**: для пользователей, которые хотят развертывать образы Windows 10 на своих устройствах, ознакомьтесь с разстройкой [консоли Microsoft Teams](https://docs.microsoft.com/microsoftteams/room-systems/console). Вы можете получить копию в [центре обслуживания для корпоративного лицензирования](https://www.microsoft.com/Licensing/servicecenter/).
+ **Используйте подправную версию Windows 10**: для пользователей, которые хотят развертывать образы Windows 10 на своих устройствах, ознакомьтесь с [разстройкой консоли Microsoft Teams](https://docs.microsoft.com/microsoftteams/room-systems/console). Вы можете получить копию в [центре обслуживания для корпоративного лицензирования](https://www.microsoft.com/Licensing/servicecenter/).

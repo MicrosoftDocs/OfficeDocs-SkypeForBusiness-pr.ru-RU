@@ -3,7 +3,7 @@ title: Доступность в Китае
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 30fde7fa-fb2b-4e73-8217-bdd41bd38567
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Китая.
-ms.openlocfilehash: 259118889d9d15be3c1974753c250bfe3b40781b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 394e07327b04634e9edd67f71c77dcc05ac0c226
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332062"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775459"
 ---
 # <a name="availability-in-china"></a>Доступность в Китае
 
@@ -43,7 +43,7 @@ ms.locfileid: "34332062"
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Пекин</ul> Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Не является географическим. Номера телефонов не привязаны к конкретному городу или местоположению. <br/>  Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Доступно  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -69,7 +69,7 @@ ms.locfileid: "34332062"
 |:-----|:-----|
 |Для каких столиц или крупных городов можно получить платные номера?  <br/> |Пекин  <br/> |
 |Доступны ли платные номера?  <br/> |Да  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
+|Доступны ли бесплатные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

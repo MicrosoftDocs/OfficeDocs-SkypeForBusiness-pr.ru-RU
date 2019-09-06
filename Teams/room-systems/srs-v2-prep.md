@@ -2,7 +2,7 @@
 title: Подготовка среды
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: В этой статье объясняется подготовка инфраструктуры к развертыванию комнат Microsoft Teams.
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493091"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775061"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -28,22 +28,17 @@ ms.locfileid: "36493091"
 2. Проверьте наличие рабочего подключения к сети или Интернету, которое будет использовать устройство.  
     
    - Он должен быть в состоянии получать IP-адреса с помощью DHCP. (В помещениях Microsoft Teams нельзя настроить статический IP-адрес при первом запуске устройства, но после этого можно настроить на устройстве или на вышестоящем коммутаторе, а также на маршрутизаторе.)
-    
    - Эти порты должны быть открыты (в дополнение к открытию обычных портов для мультимедиа):
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - Если в вашей сети работает прокси-сервер, вам также потребуются его адрес и данные скрипта.
     
      > [!NOTE]
-     > Приложение "Комнаты Microsoft Teams" не поддерживают вход HDCP, так как он вызывает проблемы с приемом данных по HDMI (видео, звук). Убедитесь, что в коммутаторах, подключенных к приложению "Комнаты Microsoft Teams", не используется HDCP. 
+     > Приложение "Комнаты Microsoft Teams" не поддерживают вход HDCP, так как он вызывает проблемы с приемом данных по HDMI (видео, звук). Убедитесь, что в коммутаторах, подключенных к приложению "Комнаты Microsoft Teams", не используется HDCP.
   
-3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы обеспечить сбор данных, необходимо добавить следующие сайты в белый список.
-    
+3. Корпорация Майкрософт осуществляет сбор данных с целью улучшения своих продуктов. Чтобы разрешить сбор данных в корпорацию Майкрософт, добавление следующие сайты:
+
    - Конечная точка клиента телеметрии:https://vortex.data.microsoft.com/
-    
    - Конечная точка параметров телеметрии:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Создание тестовой учетной записи устройства
@@ -90,13 +85,13 @@ ms.locfileid: "36493091"
  
 8. Откройте клавишу Skype и перейдите к параметрам HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet и убедитесь в том, что эти параметры введены. 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     Если параметр ProxyServer не существует, его может потребоваться добавить в качестве строкового параметра. Замените xx.xx.xx.xx:8080 на IP-адрес или имя узла и порт вашего прокси-сервера.
     
@@ -123,7 +118,7 @@ ms.locfileid: "36493091"
 |Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 |Советы клиента Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > Шаблон для contoso.com и broadcast.skype.com представляет собой длинный список узлов, которые используются исключительно для Office 365. 
   

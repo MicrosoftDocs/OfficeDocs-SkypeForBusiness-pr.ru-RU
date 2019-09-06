@@ -3,7 +3,7 @@ title: Доступность в Гондурасе
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гондурас.
-ms.openlocfilehash: 7bb9d48b9f988b66fdc1d547f6776d70d63bd7a1
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: dac59b3afa79252a9a91b48904935a225c4f55fa
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331838"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774421"
 ---
 # <a name="availability-in-honduras"></a>Доступность в Гондурасе
 
@@ -67,9 +67,9 @@ ms.locfileid: "34331838"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
-|Доступны ли платные номера?  <br/> |Нет  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |ТегуЦигалпа ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

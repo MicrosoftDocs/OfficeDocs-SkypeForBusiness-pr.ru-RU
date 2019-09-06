@@ -3,7 +3,7 @@ title: Доступность в Индонезии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Индонезия.
-ms.openlocfilehash: 8b0bd4f5a1ffc0a7f76c954677e14d9315a1fbe8
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 027f8c9c70ef97665584f80714befe0a39899df5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331750"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774432"
 ---
 # <a name="availability-in-indonesia"></a>Доступность в Индонезии
 
@@ -67,7 +67,7 @@ ms.locfileid: "34331750"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Жакарта ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |Доступны ли платные номера?  <br/> |Нет  <br/> |
 |Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
