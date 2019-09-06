@@ -3,7 +3,6 @@ title: Планирование развертываний Microsoft 365 для 
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393442"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767127"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных организаций (Microsoft 365) — развертывание GCC
 
@@ -158,11 +157,11 @@ Microsoft 365 государственных учреждений – GCC обе
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Шаг 6. Развертывание команд для совместной работы
 
-После того как вы перейдете на веб-приложение Microsoft 365 для государственных учреждений – GCC, вы можете воспользоваться стандартным подходом к развертыванию [FastTrack](https://www.microsoft.com/fasttrack) и выбранного партнера к службе.
+После того как вы перейдете на веб-приложение Microsoft 365 для государственных организаций (GCC), следуйте рекомендациям, описанным в разделе Развертывание [Microsoft Teams](How-to-roll-out-teams.md). Не забудьте принять участие в команде внедрения и управления изменениями и Teams лидерами.
 
-Когда все будет готово, развертывайте группы, чтобы [обеспечить совместную работу внутри Организации с помощью команд и каналов](teams-overview.md). Не забудьте принять участие в команде внедрения и управления изменениями или Teams лидерами.
+Вы также можете работать с [FastTrack](https://www.microsoft.com/fasttrack) или выбранным партнером, чтобы присвоить ему услуги.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Шаг 7. Развертывание команд для собраний и голосовых сообщений
 
-Это также очень выгодно для использования Teams с более широкой группой заинтересованных лиц, чтобы начать планирование собраний и [функций голосовой связи](cloud-voice-deployment.md)в облаке.
+Это также очень выгодно для использования Teams с более широкой группой заинтересованных лиц, чтобы начать планирование собраний и [функций голосовой связи в облаке](cloud-voice-deployment.md).
 

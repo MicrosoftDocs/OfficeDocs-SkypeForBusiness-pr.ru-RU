@@ -7,22 +7,22 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/29/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dba49502056149b7dda3d4533f8186f074fd804
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: baa5e58ab8614db2d5e5c80a01dc594c31308c31
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232243"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767170"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Использование Microsoft Teams во всей организации
 
-<br>
+Эти ресурсы посвящены стандартным рекомендациям по развертыванию Teams и предназначены для того, чтобы максимально эффективно использовать группы для конкретных типов организаций. Если вы еще не развернули команды, ознакомьтесь с рекомендуемыми путями для Teams, [чтобы развернуть Microsoft Teams](../How-to-roll-out-teams.md).
+
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">

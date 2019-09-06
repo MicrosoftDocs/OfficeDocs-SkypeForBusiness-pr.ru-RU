@@ -3,7 +3,6 @@ title: Планирование развертываний Microsoft 365 для
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 247f0209c66a5d6ea1e39e938498eb0f75f9fdab
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237710"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767187"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Планирование развертывания Microsoft 365 для государственных организаций (DoD)
 
@@ -153,6 +152,6 @@ ms.locfileid: "36237710"
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Шаг 6. Развертывание команд для совместной работы
 
-После того как вы перейдете на веб-сервер Microsoft 365 для государственных организаций, вы можете воспользоваться стандартным подходом к развертыванию [FastTrack](https://www.microsoft.com/fasttrack) и выбранного партнера для работы со службой.
+После того как вы перейдете на веб-контроллер Microsoft 365 правительством (DoD), следуйте рекомендациям, описанным в разделе Развертывание [Microsoft Teams](How-to-roll-out-teams.md). Не забудьте принять участие в команде внедрения и управления изменениями и Teams лидерами.
 
-Когда все будет готово, развертывайте группы, чтобы [обеспечить совместную работу внутри Организации с помощью команд и каналов](teams-overview.md). Не забудьте принять участие в команде внедрения и управления изменениями или Teams лидерами.
+Вы также можете работать с [FastTrack](https://www.microsoft.com/fasttrack) или выбранным партнером, чтобы присвоить ему услуги.
