@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Найдите и управляйте обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766964"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790816"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -30,6 +30,16 @@ ms.locfileid: "36766964"
 |:--- |:--- |:--- |
 |Накопительное обновление 1 для Skype для Business Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 июля |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019 Tools
+
+|Имя пакета и ссылка|Дата выпуска|
+|:--- |:--- |
+|[ПАКЕТ SDK ДЛЯ УКМА 6,0](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  Июнь 2019       |
+|[Управляемый API единой системы обмена данными 5,0 среды выполнения](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Июнь 2018 г.        |
+|[Skype для бизнеса Server 2019, пакет управления](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Июнь 2018 г.        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Журнал обновлений Skype для бизнеса Server 2015
 
@@ -54,7 +64,14 @@ ms.locfileid: "36766964"
 |Накопительный пакет обновления для Skype для бизнеса Server 2015, сервер переднего плана и пограничный сервер|[KB 3061059](https://support.microsoft.com/kb/3061059) |Июнь 2015 г. |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>Skype для бизнеса Server 2015 Tools
+
+|Имя пакета и ссылка|Дата выпуска|
+|:--- |:--- |
+|[ПАКЕТ SDK ДЛЯ УКМА 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Май 2015 г.       |
+|[Управляемый API единой системы обмена данными 5,0 среды выполнения](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   Май 2015 г.      |
+|[Skype для бизнеса Server 2015, пакет управления](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  Июнь 2019       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Журнал обновлений Lync Server 2013
 
