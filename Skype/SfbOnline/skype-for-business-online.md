@@ -17,7 +17,7 @@ ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
 ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/06/2019
 ms.locfileid: "35418341"
@@ -56,7 +56,7 @@ ms.locfileid: "35418341"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Мы&#39;здесь, чтобы помочь</h3>
+                        <h3>Мы с радостью ответим на ваши вопросы</h3>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@ ms.locfileid: "35418341"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Устранение неполадок в Skype для бизнеса Online</h3>
+                        <h3>Устранение проблем со Skype для бизнеса Online</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ ms.locfileid: "35418341"
 
 ---
 
-<h2>Новые возможности&#39;s</h2>
+<h2>Новые возможности</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,9 +134,9 @@ ms.locfileid: "35418341"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Следующим</h3>
+                        <h3>Статьи</h3>
                         <p><a 
-                        href="/microsoftteams/setting-up-your-phone-system">Настройка телефонной системы в вашей организации</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">Настройка телефонной системы в организации</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Сторонняя интеграция с Аудиоконференциями</a></p>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ ms.locfileid: "35418341"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Новые возможности</h3>
+                        <h3>Новые функции</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Планы звонков в Канаде (общедоступная версия)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Планы звонков в Австралии (только предварительная версия)</a></p>
                     </div>
@@ -182,7 +182,7 @@ ms.locfileid: "35418341"
 
 ---
 
-<h2>Популярные статьи</h2>
+<h2>Подборка статей</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -190,7 +190,7 @@ ms.locfileid: "35418341"
                 <div class="card">
                     <div class="cardText">
                         <h3>Аудиоконференции</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Аудиоконференции в Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Общие вопросы по аудиоконференциям</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Аудиоконференции в Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Управление настройками аудиоконференции для организации</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Общие вопросы об аудиоконференциях</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Сравнение поставщиков аудиоконференций</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Проверка доступности аудиоконференции в стране или регионе</a></p>
                     </div>
                 </div>
             </div>
@@ -201,8 +201,8 @@ ms.locfileid: "35418341"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Настройка</h3>
-                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Настройка Skype для бизнеса Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Разрешение пользователям на связь с внешними пользователями Skype для бизнеса</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</a></p>
+                        <h3>Настроить</h3>
+                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Настройка Skype для бизнеса Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Разрешение пользователям связываться с внешними пользователями Skype для бизнеса</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Разрешение на добавление контактов Skype пользователям Skype для бизнеса</a></p>
                      </div>
                 </div>
             </div>
@@ -238,7 +238,7 @@ ms.locfileid: "35418341"
                 <div class="card">
                     <div class="cardText">
                         <h3>Телефонная система</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">В этой статье&#39;, что можно получить с помощью телефонной системы в Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Что такое телефонная система в Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Возможности телефонной системы в Office 365</a></p>
                </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ ms.locfileid: "35418341"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Улучшение качества звонков и видео</h3>
+                        <h3>Улучшите качество звонков и видео</h3>
                         <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Устранение проблем с соединением в Skype для бизнеса</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Устранение проблем со звуком и видео в Skype для бизнеса</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Настройка производительности Skype для бизнеса Online</a></p>
                     </div>
                 </div>
