@@ -643,7 +643,7 @@
 ### [Мониторинг качества](upgrade-monitor-quality.md)
 ### [Улучшение службы](upgrade-enhance-my-service.md)
 
-
+## [Прекращение поддержки Skype для бизнеса Online](skype-for-business-online-retirement.md)
 ## [Вопросы и ответы](FAQ-journey.md)
 
 ## Дополнительные сведения о сосуществовании
