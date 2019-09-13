@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: развертывание приложения Skype для бизнеса Web App и собраний Skype, которое используется в Skype для бизнеса.'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234397"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972880"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание загружаемых веб-клиентов в Skype для бизнеса Server
 
@@ -133,13 +133,17 @@ Skype для бизнеса Web App — это веб-клиент служб II
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Сведения, отправляемые в корпорацию Майкрософт, строго соответствуют рекомендациям по [сбору данных в Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Сведения, отправляемые в корпорацию Майкрософт, строго соответствуют [рекомендациям по сбору данных в Skype для бизнеса](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Установите время ожидания перед переходом на локальное веб-приложение Skype для бизнеса, если сеть CDN недоступна. По умолчанию установлено значение 6 с. Если установлено значение 0, никакого времени ожидания не будет.
 
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> Благодаря Митингуксусекдн в Skype для бизнеса Server 2015 накопительного обновления 5 значение по умолчанию равно false. Это приводит к тому, что клиент Skype для бизнеса для Mac не может присоединиться к собраниям, не являющимся федеративных партнерами, в качестве гостя, даже если администратор Skype для бизнеса установил для Митингуксусекдн значение true. Для этого в Skype для бизнеса Server 2015 должен быть установлен накопительный пакет обновления 7, 6.0.9319.534 или более поздней версии. [В разделе Включение собраний Skype можно заменить приложение Skype для бизнеса Web App в Skype для бизнеса Server 2015](https://support.microsoft.com/kb/4132312).
+
 
 ## <a name="see-also"></a>См. также
 <a name="SMA_Enable"> </a>
