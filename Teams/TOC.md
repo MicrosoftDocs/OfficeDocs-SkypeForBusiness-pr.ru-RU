@@ -27,6 +27,7 @@
 ## [Общий доступ к файлам в Teams](sharing-files-in-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
+## [Просмотр аналитики командной и межкомандной работы в Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 
 
@@ -291,6 +292,7 @@
 #### [Языки для приветствий и сообщений голосовой почты](languages-for-voicemail-greetings-and-messages.md)
 ### Идентификатор звонящего
 #### [Как можно использовать идентификатор звонящего в организации](how-can-caller-id-be-used-in-your-organization.md)
+#### [Управление политиками идентификации звонящего](caller-id-policies.md)
 #### [Настройка идентификатора звонящего для пользователя](set-the-caller-id-for-a-user.md)
 #### [Дополнительные сведения об ИД линии вызова и имени вызывающей стороны](more-about-calling-line-id-and-calling-party-name.md)
 ### Автосекретари и очереди вызовов 
@@ -304,7 +306,6 @@
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
-### [Политика идентификации звонящего](caller-id-policies.md)
 ### [Распределенная линия](shared-line-appearance.md)
 ### [Общие сведения о способах блокирования пользователями звонков по ТСОП в клиентах Teams](block-pstn-calls-on-Teams-clients.md)
 
