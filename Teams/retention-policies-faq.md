@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: prvijay
 audience: admin
 description: Ответы на часто задаваемые вопросы о политиках хранения в Microsoft Teams.
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243557"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018794"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Политики хранения Microsoft Teams: вопросы и ответы
 
@@ -45,7 +45,7 @@ ms.locfileid: "36243557"
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Можно ли назначить набор пользователей или групп в политике? 
 
-Да, это нужно сделать. В мастере создания политики на этапе расположений вы можете включить или исключить команды (**сообщения канала группы**) или пользователей (Teams**Chat**) и создать целевые политики для Организации. 
+Да, это нужно сделать. В мастере создания политики на этапе расположений вы можете включить или исключить команды (**сообщения канала группы**) или пользователей (**Teams Chat**) и создать целевые политики для Организации. 
 
 ### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>В чем заключается основное различие между строкой расположение группового почтового ящика и сообщениями канала группы в политиках хранения? 
 

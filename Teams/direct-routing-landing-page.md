@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: Главная страница для прямой маршрутизации
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 965fb26aee3d83550740e2ae7f855559fd9cdb79
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484063"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018805"
 ---
 # <a name="phone-system-direct-routing"></a>Прямая маршрутизация телефонной системы
 
@@ -75,13 +75,13 @@ ms.locfileid: "36484063"
 | Пользователи, которым будут назначены политики голосовой маршрутизации, определяемые мной | В этом разделе приведены примеры [настройки голосовой маршрутизации](direct-routing-configure.md#configure-voice-routing). |
 |||
 
-### <a name="calling-and-interop-policies"></a>Политики вызовов и взаимодействия
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Обеспечение приема входящих звонков в клиенте Teams с помощью Теамсупградеполици
 
-Прямая маршрутизация поддерживается только в Microsoft Teams. Для того чтобы звонить или принимать звонки PSTN через прямую маршрутизацию, необходимо настроить необходимые политики для обеспечения приема входящих звонков в Teams. Вы можете настроить пользователей так, чтобы они были настроены как предпочтительные клиенты для звонков, либо настроив режим "только для Teams", либо настраивая команды в качестве предпочтительного клиента, назначив Теамскаллингполици и Теамсинтеропполици.
+Прямая маршрутизация поддерживается только в Microsoft Teams. Чтобы принимать звонки PSTN через прямую маршрутизацию, вам нужно настроить Теамсупградеполици для обеспечения приема входящих звонков в Teams. Пользователи должны находиться в режиме "только для Teams", который можно сделать, назначив им экземпляр "Упградетотеамс" для Теамсупградеполици. 
 
 |Задайте себе вопрос|Действие |
 |:------------|:-------|
-|Как настроить группы в качестве предпочтительного клиента для звонков? | Дополнительные сведения можно найти [в разделе Настройка Microsoft Teams в качестве предпочтительного телефонного клиента для пользователей](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|Что означает режим "только для Teams"? | Дополнительные сведения можно найти [в статье Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Дополнительные рекомендации по развертыванию
