@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40d8ae4f56fcbfe7d9e82855f7c3f7eaa406effa
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
+ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483179"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028254"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -45,10 +45,13 @@ ms.locfileid: "36483179"
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 
 > [!NOTE]
-> Продукт Microsoft Teams также доступен для некоммерческих организаций. Группа разработчиков Skype для США (GCC) будет готова к развертыванию 17 июля, и они будут доступны всем подходящим клиентам до конца 2018 августа. Мы работаем над тем, чтобы вы могли перевести Microsoft Teams в другие государственные облака США (GCC High и DoD) в ближайшее время. Ознакомьтесь с дополнительными сведениями в [](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)блоге Microsoft Teams.
+> Продукт Microsoft Teams также доступен для некоммерческих организаций. Группа разработчиков Skype для США (GCC) будет готова к развертыванию 17 июля, и они будут доступны всем подходящим клиентам до конца 2018 августа. Мы работаем над тем, чтобы вы могли перевести Microsoft Teams в другие государственные облака США (GCC High и DoD) в ближайшее время. Ознакомьтесь с дополнительными сведениями в [блоге Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)Teams.
 
 > [!NOTE]
 > Начиная с 1 октября 2018, новые пользователи Office 365 с 500 или меньшими рабочими местами будут подключены к Teams и не смогут получить доступ к Skype для бизнеса Online. Клиенты, которые уже используют Skype для бизнеса Online, смогут продолжать это (в том числе подготовка новых пользователей) до тех пор, пока они не переходят в Teams. Дополнительные сведения можно найти в [статье Microsoft Teams, которая теперь является основным клиентом для собраний и звонков в Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+
+> [!NOTE]
+> Если Skype для бизнеса Online указан в разделе приложения для выбранной лицензии, не удаляйте его. Если он указан и удаляется, Настройка пользователя Teams не будет выполнена успешно. 
         
 В терминах основных функциональных возможностей Teams не существует различий между подпиской на Office 365. Но от уровня подписки зависят возможности по обеспечению соответствия. Дополнительные сведения: [Обзор обеспечения безопасности и соответствия в Teams.](security-compliance-overview.md) Подробный список функций, доступных в каждой подписке, можно найти в [описании службы платформы Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
