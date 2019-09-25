@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233287"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142049"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "36233287"
 
 Если вы занимаетесь малым предприятием из одной или двух групп StaffHub или крупного предприятия с сотнями StaffHub Teams, здесь вы найдете инструкции для администраторов, которые помогут вам успешно выполнить переход в Teams.
 
-Для выполнения действий, описанных в этой статье, необходимо быть глобальным администратором. Если вы еще не сделали этого, ознакомьтесь с разделами " [вопросы и](microsoft-staffhub-to-be-retired.md) ответы" в StaffHub о выбытиех для получения ответов на любые возникающие вопросы.
+Для выполнения действий, описанных в этой статье, необходимо быть глобальным администратором. Если вы еще не сделали этого, ознакомьтесь с разделами " [вопросы и ответы" в StaffHub о выбытиех](microsoft-staffhub-to-be-retired.md) для получения ответов на любые возникающие вопросы.
 
 ## <a name="what-you-need-to-know-about-the-move-to-teams"></a>Что нужно знать о переходе в Teams
 
@@ -88,9 +88,11 @@ ms.locfileid: "36233287"
 > [!NOTE]
 > Если в вашей организации используется Skype для бизнеса, и вы не готовы переместить всех пользователей в Teams, вы можете включить команды для сотрудников Firstline, которые смогут запускать команды вместе со Skype для бизнеса. В режиме совместного существования под названием *острова*все клиентские приложения работают как отдельные решения. Дополнительные сведения можно найти в статье [понимание групп, а также взаимодействие и совместимость Skype для бизнеса](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="install-the-staffhub-powershell-module"></a>Установка модуля StaffHub PowerShell
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>Установка предварительной версии модуля PowerShell StaffHub
 
-[Установите модуль PowerShell StaffHub](install-the-staffhub-powershell-module.md), если вы еще не сделали этого. 
+Установите предварительную [версию модуля PowerShell StaffHub](install-the-staffhub-powershell-module.md), если вы еще не сделали этого. 
+
+Для перемещения групп StaffHub в Teams необходимо установить предварительную версию модуля.
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>Связывание учетной записи Azure AD с участниками группы StaffHub, у которых нет одной
 
@@ -157,7 +159,7 @@ Teams включает встроенную политику настройки 
 
 Определите лидерами между пилотными группами и закрепите их, чтобы упростить еванжелизе смены. Лидерами Teams – это то, что они делают, и делитесь своими опытом для предоставления поддержки и руководств для участников группы. Командные лидерами могут быть владельцами группы или руководителями.
 
-Команда лидерами должна обеспечивать настройку для участников группы, выделять время для [получения клиентов](../../get-clients.md)Teams, входить в Teams и проверять расписания в сменах и начинать общение друг с другом. Пользователи, уже знакомые с StaffHub, будут быстро выполняться в сменах. Вы также можете навести на [](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) них указатель мыши, чтобы получить дополнительную помощь.
+Команда лидерами должна обеспечивать настройку для участников группы, выделять время для [получения клиентов](../../get-clients.md)Teams, входить в Teams и проверять расписания в сменах и начинать общение друг с другом. Пользователи, уже знакомые с StaffHub, будут быстро выполняться в сменах. Вы также можете навести на них указатель мыши [, чтобы получить дополнительную помощь.](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 
 ### <a name="move-a-staffhub-team"></a>Перемещение команды StaffHub
 

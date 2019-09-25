@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: В этой статье объясняется, как удаленно управлять параметрами по умолчанию, используемыми устройством Microsoft Teams, в том числе с применением настраиваемой темы.
-ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774569"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142068"
 ---
 # <a name="content-cameras"></a>Камеры содержимого
 
@@ -97,3 +97,7 @@ ms.locfileid: "36774569"
 [Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации](xml-config-file.md)
 
 [Требования к комнатам Microsoft Teams](requirements.md)
+
+> [!NOTE]
+> Некоторые устройства в Microsoft Teams с установленными на нем консолями Microsoft Surface Pro (например, Logitech Смартдокк и Крестрон SR) пока не поддерживают информационную камеру. Поддержка этих устройств будет добавлена позже в CY2019. 
+>

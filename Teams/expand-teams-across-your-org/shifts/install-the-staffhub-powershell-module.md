@@ -8,50 +8,44 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Сведения о том, как установить и подключить модуль Microsoft StaffHub PowerShell.
+description: Сведения о том, как установить и подключиться к предварительной версии модуля Microsoft StaffHub PowerShell.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ce0d1acec923d09591e8f81b3f500ee9a910f5c
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 80f8f586d8a2a41d0d716e0821eb1f6d8d4bcbee
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464669"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142038"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
 > [!IMPORTANT]
 > Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
-Выполните действия, описанные в этой статье, чтобы установить и подключить модуль Microsoft StaffHub PowerShell. Это необходимо для управления StaffHub с помощью PowerShell, а также для перемещения команд StaffHub в Microsoft Teams.
+Выполните действия, описанные в этой статье, чтобы установить и подключиться к предварительной версии модуля Microsoft StaffHub PowerShell. Это необходимо для того, чтобы [переместить StaffHub Teams в Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
-## <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
+## <a name="install-the-prerelease-version-of-the-microsoft-staffhub-powershell-module"></a>Установка предварительной версии модуля PowerShell Microsoft StaffHub
 
 1. Откройте Windows PowerShell 3,0 или более поздней версии в качестве администратора. Для этого нажмите кнопку **Пуск**, введите **Windows PowerShell**, щелкните правой кнопкой мыши **Windows PowerShell**, а затем выберите команду **Запуск от имени администратора**.
     > [!NOTE]
     > Чтобы получить последнюю версию Windows PowerShell, ознакомьтесь со статьей [Установка Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
-2. Чтобы установить текущую стабильную версию модуля PowerShell StaffHub, выполните указанные ниже действия.
+2. Чтобы установить предварительную версию модуля PowerShell StaffHub, выполните указанные ниже действия.
 
     ```
-    Install-Module -Name MicrosoftStaffHub
+    Install-Module -Name MicrosoftStaffHub -AllowPrerelease
     ```
-    
-    Эту команду можно выполнить, только если вам нужно установить последнюю версию, которая может быть более стабильной, чем текущая стабильная версия:`Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
-
-     > [!NOTE]
-     > Если при установке последней версии появляется сообщение об ошибке, вы можете выполнить следующие действия:`Install-Module PowershellGet -Force`
-
 3. Вы можете увидеть сообщение с предупреждением:
 
     ```
     Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
     ```
 
-Введите `Y` текст и `Enter`нажмите кнопку.
+    Введите `Y`текст и нажмите кнопку `Enter`.
  
 4. Выйдите из Windows PowerShell.
 
