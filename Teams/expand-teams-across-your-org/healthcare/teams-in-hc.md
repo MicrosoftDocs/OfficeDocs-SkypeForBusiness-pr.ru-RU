@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с Teams для организаций в сфере здравоохранения
-ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 5fe896db8acf690fbb71b1b6ecf0fcd571d903c5
+ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767159"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37159734"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Начало работы с Teams для организаций в сфере здравоохранения
 
@@ -30,7 +30,7 @@ Microsoft Teams предоставляет ряд функций, полезны
 - Интеграция с электронными записями в здравоохранение (ехр) 
 - Интеграция рабочих систем Firstline 
 
-Содержимое этого раздела строится на базовых возможностях Teams, таких как собрания, звонки и сообщения, и предполагает, что вы уже развернули команды, развернутые в вашей организации. Если вы еще не выполнили развертывание групп, начните с ознакомления с [развертыванием Microsoft Teams](../../How-to-roll-out-teams.md).
+Содержимое этого раздела — основные возможности Teams, такие как собрания, звонки и обмен сообщениями, и предполагается, что вы уже развернули команды в своей организации. Если вы еще не выполнили развертывание групп, начните с ознакомления с [развертыванием Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Координация координирования — приложение Microsoft Teams пациентов
 
