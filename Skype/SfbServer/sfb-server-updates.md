@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Найдите и управляйте обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018650"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275525"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -26,9 +26,12 @@ ms.locfileid: "37018650"
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Журнал обновлений Skype для бизнеса Server 2019
 
+KB 4470124 является эталонной версией KB для Skype для бизнеса Server 2019, в которой есть весь архивный список всех опубликованных обновлений и исправлений. 
+
 |Имя пакета|Номер статьи базы знаний|Дата выпуска|
 |:--- |:--- |:--- |
 |Накопительное обновление 1 для Skype для Business Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 июля |
+|Накопительный пакет обновления 1 (SP1) для Skype для бизнеса Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Skype для бизнеса Server 2019 Tools

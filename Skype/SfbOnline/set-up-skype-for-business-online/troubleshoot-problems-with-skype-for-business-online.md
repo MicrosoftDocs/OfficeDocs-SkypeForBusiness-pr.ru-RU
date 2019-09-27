@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285057"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275517"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Устранение проблем со Skype для бизнеса Online
 
@@ -31,7 +31,7 @@ ms.locfileid: "34285057"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Устранение проблем, возникающих при администрировании Skype для бизнеса Online
 
-Вы можете получить ответы на все вопросы, касающиеся Skype для бизнеса Online, проследите, чтобы найти наиболее [распространенные причины ошибок входа в Skype для бизнеса Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Эта статья базы знаний также включает множество ресурсов по устранению неполадок и справочников по кодам ошибок: [Устранение неполадок при входе в Skype для бизнеса Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Вы можете получить ответы на все вопросы, касающиеся Skype для бизнеса Online, в статье [Проверка распространенных причин ошибок входа в Skype для бизнеса Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). В следующей статье базы знаний также приводится множество ресурсов по устранению неполадок и ссылки на коды ошибок: [Устранение неполадок при входе в Skype для бизнеса Online для администраторов](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
 
 Сведения о проблемах конференц-связи с телефонным подключением см. в статье [Известные проблемы аудиоконференций и устранение неполадок](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
