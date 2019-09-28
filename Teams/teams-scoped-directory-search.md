@@ -18,18 +18,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068a37af62ea31c53caed8c9dc22feec6fd60ec6
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614263"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305803"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Область поиска в каталоге Microsoft Teams
 
 Microsoft Teams Search для каталогов позволяет организациям создавать виртуальные границы, которые определяют, как пользователи могут находить и взаимодействовать с другими пользователями в своей организации. 
 
 Microsoft Teams позволяет организациям предоставлять своим пользователям пользовательские представления каталога. Для поддержки этих настраиваемых представлений в Microsoft Teams используются [политики адресной книги Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) . После включения политик результаты поиска других пользователей (например, для инициирования чата или добавления участников в группу) будут ограничены в соответствии с настроенными политиками. Пользователи не смогут искать и находить группы, когда действует область поиска. 
+
+> [!NOTE]
+> В гибридных средах Exchange Эта функция работает только с почтовыми ящиками Exchange Online, а не с локальными почтовыми ящиками.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Когда следует использовать поиск в каталоге с областью?
 
@@ -49,7 +52,7 @@ Microsoft Teams позволяет организациям предоставл
 
 2. В центре администрирования Microsoft Teams выберите > **параметры групп** **на уровне Организации**.
 
-3. В разделе **Поиск**рядом с **областью поиска в каталоге в Teams с помощью политики адресной книги Exchange (АПБ)** включите **** переключатель.
+3. В разделе **Поиск**рядом с **областью поиска в каталоге в Teams с помощью политики адресной книги Exchange (АПБ)** включите **переключатель.**
 
     ![Поиск в каталоге с областью в центре администрирования Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 

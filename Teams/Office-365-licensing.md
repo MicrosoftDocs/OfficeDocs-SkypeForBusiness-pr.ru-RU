@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
-ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
+ms.openlocfilehash: a4bfa488500d6bd0fcea3c64e0d463003756d89c
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028254"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305640"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Лицензирование Office 365 для Microsoft Teams
 ========================================
@@ -48,7 +48,7 @@ ms.locfileid: "37028254"
 > Продукт Microsoft Teams также доступен для некоммерческих организаций. Группа разработчиков Skype для США (GCC) будет готова к развертыванию 17 июля, и они будут доступны всем подходящим клиентам до конца 2018 августа. Мы работаем над тем, чтобы вы могли перевести Microsoft Teams в другие государственные облака США (GCC High и DoD) в ближайшее время. Ознакомьтесь с дополнительными сведениями в [блоге Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976)Teams.
 
 > [!NOTE]
-> Начиная с 1 октября 2018, новые пользователи Office 365 с 500 или меньшими рабочими местами будут подключены к Teams и не смогут получить доступ к Skype для бизнеса Online. Клиенты, которые уже используют Skype для бизнеса Online, смогут продолжать это (в том числе подготовка новых пользователей) до тех пор, пока они не переходят в Teams. Дополнительные сведения можно найти в [статье Microsoft Teams, которая теперь является основным клиентом для собраний и звонков в Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> Начиная с 2019 августа, все новые клиенты Office 365 будут подключены к Teams и не смогут получить доступ к Skype для бизнеса Online. Клиенты, которые уже используют Skype для бизнеса Online, смогут продолжать это (в том числе подготовка новых пользователей) до тех пор, пока они не переходят в Teams. Дополнительные сведения можно найти в [статье Microsoft Teams, которая теперь является основным клиентом для собраний и звонков в Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 > [!NOTE]
 > Если Skype для бизнеса Online указан в разделе приложения для выбранной лицензии, не удаляйте его. Если он указан и удаляется, Настройка пользователя Teams не будет выполнена успешно. 
