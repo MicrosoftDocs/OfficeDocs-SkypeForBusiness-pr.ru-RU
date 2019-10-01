@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Сводка: сведения о панели мониторинга качества связи, которая является средством создания отчетов для Skype для бизнеса Server.'
-ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 86c8ef07a583526e3b5a40d69a795bbab8ec7879
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274851"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328388"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Панель мониторинга качества звонков в Skype для бизнеса Server
  
@@ -27,11 +27,6 @@ ms.locfileid: "34274851"
 В этот раздел включены следующие темы, которые необходимо проверить перед развертыванием панели мониторинга качества связи.
   
 - [Планирование панели мониторинга качества звонков в Skype для бизнеса Server](plan.md)
-    
 - [Развертывание панели мониторинга качества звонков для Skype для бизнеса Server](deploy-0.md)
-    
 - [Использование панели мониторинга качества звонков для Skype для бизнеса Server](use.md)
-    
 - [Разработка панели мониторинга качества звонков для Skype для бизнеса Server](develop.md)
-    
-

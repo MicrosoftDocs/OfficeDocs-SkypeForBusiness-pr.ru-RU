@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Узнайте, как качество потока классифицируется в панели мониторинга качества звонка для команд Microsoft и Skype для бизнеса Online.
-ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298634"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328335"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Классификация потоков в Панели мониторинга качества звонка
 
@@ -33,77 +33,80 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 
 ## <a name="classifier-definitions"></a>Определения классификатора
 
-Streams in CQD are classified as good, poor, or unclassified based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables below. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a poor classification. See [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information on these dimensions.
+Потоки в CQD классифицируются как _качественные_, _плохие_или _Неклассифицированные_ на основе значений доступных метрик качества ключа. В приведенных ниже таблицах показаны показатели и условия, используемые для классификации потока. Для понимания того, какая метрика несет ответственность за _некачественную_ классификацию, можно использовать измерения "плохо в CQD". Дополнительные сведения об этих измерениях можно найти [в разделе измерения и меры, доступные в панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Звуковой классификатор
 
-Звуковой поток считается плохим, если выполняется одно или несколько из следующих условий:
+Если выполняется одно или несколько из указанных ниже условий, звуковые потоки помечаются как _некачественные_.
 
-|**Показатель**|**Условие**|**Пояснение**|
+|Показатель|Условие|Пояснение|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
-|Round Trip|>500|Среднее время кругового пути при распространении по сети, вычисляемое в миллисекундах в соответствии со стандартом RFC3550.|
+|Audio Degradation Avg|> 1,0|Среднее ухудшение средней экспертной оценки разборчивости речи для потока. Сколько потерь сети и колебаний влияют на качество полученного звука.|
+|Round Trip|>500|Среднее время распространения сети для кругового приема, вычисленное в миллисекундах. Подробные сведения можно найти в [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Средний коэффициент потерь пакетов для потока.|
 |Искажение|> 30|Среднее дрожание для потока в миллисекундах.|
 |Ratio Concealed Samples Avg|> 0,07|Среднее соотношение количества звуковых кадров с видимыми выборками, созданными при воспроизведении потерь пакетов на общее количество звуковых кадров.|
+||||
 
 ### <a name="video-classifier"></a>Видео классификатор
 
-Видеопоток помечен как хороший или плохой на основе значения первой доступной метрики в следующем порядке:
+Видеопоток помечается как _хорошее_ или _низкое_ в зависимости от значения первой доступной метрики в указанном ниже порядке.
 
-|**Этап #**|**Показатель**|**Условие**|**Классификация, если условие верно**|**Классификация, если условие ложно**|**Классификация, если метрика недоступна**|**Пояснение**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|_Гт_ 50% |Poor|Good|Перейти к шагу 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|<7|Poor|Good|Перейти к шагу 3|Среднее число кадров в секунду, принимаемых для видеопотока, вычисленное за период сеанса.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Доля потерь пакетов после применения FEC к собранию по всем видеопотокам и кодекам.|
+|Этап #|Показатель|Условие |Классификация, если условие верно |Классификация, если условие ложно |Классификация, если метрика недоступна |Пояснение |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Перейти к шагу 2|Средний процент потери видеокадров, отображаемый пользователю. В среднем учитываются кадры, восстановленные из потери сети.|
+|2|Video Frame Rate Avg|<7|_Poor_|_Good_|Перейти к шагу 3|Среднее число кадров в секунду, принимаемых для видеопотока, вычисленное за период сеанса.|
+|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Доля потерь пакетов после применения FEC к собранию по всем видеопотокам и кодекам.|
+|  |  |  |  |  |  |  |
 
 ### <a name="vbss-classifier"></a>VBSS классификатор
 
-VBSS поток помечен как хороший или плохой на основе значения первой доступной метрики в следующем порядке:
+Поток VBSS помечается как _хорошее_ или _низкое_ в зависимости от значения первой доступной метрики в указанном ниже порядке.
 
-|**Этап #**|**Показатель**|**Условие**|**Классификация, если условие верно**|**Классификация, если условие ложно**|**Классификация, если метрика недоступна**|**Пояснение**|
+|Этап # |Показатель |Условие |Классификация, если условие верно |Классификация, если условие ложно |Классификация, если метрика недоступна |Пояснение |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|_Гт_ 50% |Poor|Good|Перейти к шагу 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 2|Poor|Good|Перейти к шагу 3|Среднее число кадров в секунду, принимаемых для видеопотока, вычисленное за период сеанса.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Доля потерь пакетов после применения FEC к собранию по всем видеопотокам и кодекам.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Перейти к шагу 2|Средний процент потери видеокадров, отображаемый пользователю. В среднем учитываются кадры, восстановленные из потери сети.|
+|2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Перейти к шагу 3|Среднее число кадров в секунду, принимаемых для видеопотока, вычисленное за период сеанса.|
+|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Доля потерь пакетов после применения FEC к собранию по всем видеопотокам и кодекам.|
+| |  | | | |  ||
 
 ### <a name="application-sharing-classifier"></a>Классификатор совместного использования приложений
 
-Звуковой поток помечается плохим, если выполняется одно или несколько из следующих условий:
+Поток общего обмена приложениями помечается как _неудовлетворительное_ , если выполняются одно или несколько из указанных ниже условий.
 
-
-| **Показатель**                                     | **Условие** | **Пояснение**                                                                                                                                                                                                        |
-|:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | _Гт_ 400         | Средняя задержка в миллисекундах при обработке фрагментов в стеке RDP на сервере конференции.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Средняя односторонняя задержка между конечными точками в секундах для потоков общего обмена приложениями.                                                                                                                       |
+| Показатель     | Условие | Пояснение |
+|:---        |:---       | :--- |
+| Spoiled Tile Percent Total | > 36 | Процент плиток, которые отбрасываются, а не отправлены удаленному узлу (например, из MCU в средство просмотра). Отброшенные (или spoiled) плитки могут возникать из-за ограничений для пропускной способности между клиентом и сервером. |
+| AppSharing RDP Tile Processing Latency Average | > 400 | Средняя задержка в миллисекундах при обработке фрагментов в стеке RDP на сервере конференции. |
+| AppSharing Relative OneWay Average | > 1,75 | Средняя односторонняя задержка между конечными точками в секундах для потоков общего обмена приложениями. |
+| | | |
 
 ## <a name="unclassified-streams"></a>Неклассифицированные потоки
 
-В ПМКЗ поток помечен как неклассифицированный при сбое соединения ICE или когда все метрики, необходимые для вычисления классификации потока, не сообщаются.
+В CQD поток помечается как _неклассифицированный_ при сбое подключения к интерактивному подключению (ICE), а также при отсутствии отчета о всех метриках, необходимых для вычисления классификации потока.
 
-To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream will be marked as unclassified.
+Чтобы проверить сбои подключения ICE, изучите размеры «First Connectivity Ice» и «Second Connectivity Ice» для значения «FAILED». Если какое-либо из значений указывает на сбой, поток помечается как _неклассифицированный_.
 
-If ICE connectivity succeeded for an unclassified stream, the stream is likely considered unclassified because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
+Если подключение по протоколу ICE успешно установлено для _неклассифицированного_ потока, поток скорее считается _неклассифицированным_ , так как метрики потока ключей не были включены в отчеты. Есть несколько причин, по которым эти показатели могут не сообщаться:
 
-- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g., because some third-party endpoints may not send QoE) or was not able to be sent (e.g., because of a network outage), CQD is unable to classify the stream.
-
-> [!TIP]
-> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
-
-- **Short calls** - Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
+- **Отчеты QoE не получены** — метрики, используемые для классификации, включаются в отчет QoE, отправленный по завершении звонка. Если этот отчет не создается (например, так как некоторые конечные точки сторонних разработчиков не отправляют QoE) или не могут быть отправлены (например, из-за сбоя сети), CQD не может классифицировать поток.
 
 > [!TIP]
-> The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+> Измерение «QoE Record Available» может использоваться для определения того, был ли получен отчет QoE для потока. Обратите внимание, что это измерение будет иметь значение «True», если отчет QoE был получен от любой конечной точки. Отчет о QoE с обеих конечных точек требуется для наиболее точной отчетности показателей.
 
-- **Low packet utilization** - Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
-    - A common low packet utilization scenario occurs when a user joins a meeting to listen to the presenter but never speaks (likely muting the microphone for most of the call). In such a scenario, one audio stream will have high packet utilization (inbound to the client) while the other will have little to no packet utilization (outbound from the client). In this scenario, the duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server will be extremely low due to the microphone being muted, resulting in an unclassified stream.
+- **Короткие звонки** — в коротких звонках могут быть недостаточно операций мультимедиа для вычисления метрик потока ключей. Без этих показателей CQD не может классифицировать поток.
+
+> [!TIP]
+> Для определения продолжительности потока можно использовать размеры «Длительность (секунды)», «Длительность (минуты)», «Длительность 5 секунд или меньше» и «Длительность 60 секунд или более». Измерение «Средняя продолжительность звонка» также может использоваться для вычисления средней продолжительности для набора потоков.
+
+- **Низкое использование пакетов** (например, "короткий Звонок") для вычисления метрик потоков ключей требуется достаточное использование пакетов. Без этих показателей CQD не может классифицировать поток.
+  - Если участник присоединяется к собранию для прослушивания выступающего, но не говорит (микрофон для большинства звонков), происходит обычное использование слабого сценария. В этом случае поток звука, входящий на клиент, имеет высокое использование пакетов, в то время как поток звука, исходящий от клиента, имеет небольшое количество ресурсов. Продолжительность потока может быть не более часа, но при этом загрузка пакетов с клиента на сервер мала, так как микрофон был отключен и _Неклассифицированные_ результаты потока.
 
 > [!TIP]
 > Измерение «Утилизация пакета» и измерение «Среднее использование пакета» могут использоваться для определения активности пакета в потоке.
 
-
 ## <a name="related-topics"></a>Связанные разделы
+
 [Включение и использование панели мониторинга качества звонков (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Измерения и меры на панели мониторинга качества звонков](dimensions-and-measures-available-in-call-quality-dashboard.md)

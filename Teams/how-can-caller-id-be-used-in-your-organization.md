@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: 31948a8361d8ae5a15ce84549d982d0c7f9adf1b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f5357ae8c19182329a7c82651ac74a6727228d03
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484041"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328314"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор звонящего в организации
 
@@ -65,7 +65,7 @@ ms.locfileid: "36484041"
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Конечные пользователи могут установить для идентификатора вызывающего абонента значение **anonymous** с помощью вкладки " **Параметры** " в классическом клиенте Skype **** для бизнеса, выберите команду " **Скрыть мой номер телефона" и сведения о профиле для всех звонков. **.
+Конечные пользователи могут установить для идентификатора вызывающего абонента значение **anonymous** с помощью вкладки " **Параметры** " в классическом клиенте Skype для бизнеса **, выберите команду** " **Скрыть мой номер телефона" и сведения о профиле для всех звонков. **.
   
 ||||
 |:-----|:-----|:-----|
@@ -78,7 +78,9 @@ The EnableUserOverride attribute enables single or multiple users to change thei
    
 ## <a name="inbound-caller-id"></a>Идентификация звонящего абонента
 
-The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
+Телефонная система отображает вызываемый ИДЕНТИФИКАЦИОНный номер внешнего номера, если номер связан с пользователем в Azure AD. Если номер телефона не входит в Azure AD, выводится отображаемое имя Telco, если оно доступно.
+
+Атрибут BlockIncomingCallerID обеспечивает блокирование идентификатора абонента на входящие вызовы в сети ТСОП. Можно задать этот атрибут, но он не доступен вашим пользователям на странице параметров пользователей. И в настоящее время он доступен только при возможности подключения к сети ТСОП.
   
 Чтобы задать идентификатор вызывающего абонента, см. [Назначение идентификатора абонента пользователю](/microsoftteams/set-the-caller-id-for-a-user).
   

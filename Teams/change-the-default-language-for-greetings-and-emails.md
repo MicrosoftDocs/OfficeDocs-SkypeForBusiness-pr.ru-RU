@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Сведения о настройке Skype для бизнеса с целью использования другого языка для записи приветствия голосовой почты по умолчанию. '
-ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: 'В этой статье объясняется, как настроить Skype для бизнеса, чтобы использовать другой язык для приветствия голосовой почты, используемого по умолчанию в вашей организации. '
+ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494572"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328346"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Изменение языка по умолчанию для приветствий и электронных писем
 
@@ -41,9 +41,9 @@ ms.locfileid: "34494572"
     > [!NOTE]
     > Пользователи могут изменить для себя язык приветствий в своих параметрах после входа в систему. 
   
-- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **Вам требуется записывать исходящие сообщения голосовой почты?** См. статью [Проверка голосовой почты и параметров в Skype для бизнеса](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Для Microsoft teams: пользователи могут менять параметры голосовой почты из [параметров настольного клиента Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) .
 
-- **Вы хотите изменить язык приглашения голосовой почты?** Перейдите в [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) раздел **язык запросов**и выберите новый язык.
+- **Вы хотите изменить язык приглашения голосовой почты?** Для Skype для бизнеса — [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) выберите новый язык в разделе **язык запросов**. Для Microsoft teams: пользователи могут менять параметры голосовой почты из [параметров настольного клиента Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) .
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Изменение языка системы сразу для всех пользователей организации
 
@@ -51,11 +51,11 @@ ms.locfileid: "34494572"
     
 2. В центре администрирования Microsoft 365 выберите " **Параметры** > **профиля организации**". 
     
-     ![Снимок экрана, на котором показано, как выбрать параметры, а затем "профиль организации".](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Снимок экрана, на котором показано, как выбрать параметры, а затем — профиль организации.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Выберите элемент **Изменить**.
     
-    ![Снимок экрана, на котором показан параметр "Изменить".](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Снимок экрана: параметр "Изменить".](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Выберите язык из списка **Предпочитаемый язык** для всех пользователей в организации.
     
