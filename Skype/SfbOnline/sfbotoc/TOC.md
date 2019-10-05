@@ -123,10 +123,6 @@
 
 ## [Телефонная система и тарифные планы](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Известные проблемы планов звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
-### [Добавление, изменение и удаление расположения экстренного реагирования для организации](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [Добавление, изменение и удаление адреса экстренного реагирования для организации](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
-### [Назначение и изменение адреса экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Назначение и изменение расположения экстренного реагирования для пользователя](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Создание и использование абонентских групп](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Получение планов звонков в Office 365](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Как можно использовать идентификатор звонящего в организации](/microsoftteams/how-can-caller-id-be-used-in-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
