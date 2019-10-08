@@ -361,16 +361,22 @@
 ## Маршрутизация вызовов
 ### [Что такое абонентские группы?](what-are-dial-plans.md)
 ### [Создание и использование абонентских групп](create-and-manage-dial-plans.md)
+### [Добавление и обновление наклеек для отчетов](learn-more-about-site-upload.md)
 ## Экстренные вызовы
-### [Что такое расположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
-### [Добавление, изменение и удаление адреса экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Добавление, изменение и удаление расположения экстренного реагирования для организации](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Назначение и изменение адреса экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Назначение и изменение расположения экстренного реагирования для пользователя](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Наклейки для экстренных вызовов](emergency-calling-labels.md)
+### [Планирование и настройка динамических экстренных вызовов](configure-dynamic-emergency-calling.md)
+### Управление адресами для экстренного реагирования
+#### [Что такое расположения для экстренного реагирования, места для них и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)
+#### [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
+#### [Назначение или изменение расположения для экстренного реагирования для пользователя](assign-change-emergency-location-user.md)
+#### [Назначение или изменение места для расположения для экстренного реагирования для пользователя](assign-change-emergency-place-user.md)
+#### [Наклейки для экстренных вызовов](emergency-calling-labels.md)
+### [Управление политиками экстренных вызовов](manage-emergency-calling-policies.md)
+### [Управление политиками маршрутизации экстренных вызовов](manage-emergency-call-routing-policies.md)
 
 
-## Справочные материалы
+
+## Справочник
 ### Доступность планов звонков в различных странах и регионах
 
 #### [Обзор](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -660,7 +666,7 @@
 
 # Гибридное подключение 
 
-## [Планирование гибридного подключения](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Планирование гибридного подключения](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Настройка гибридного подключения
 ### [Обзор](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
@@ -673,7 +679,7 @@
 ### [Перемещение пользователей из локальной среды в Skype для бизнеса Online](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Перемещение пользователей из облака в локальную среду](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Управление миграцией собраний](https://docs.microsoft.com/ru-RU/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Управление миграцией собраний](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
 ## [Отключение гибридного развертывания для завершения миграции в облако](https://docs.microsoft.com/ru-RU/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -698,6 +704,7 @@
 # Руководство для отраслей и государственных организаций
 ## [Обзор](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Начало работы с шаблонами Teams](get-started-with-teams-templates.md)
+## [Краткое руководство для сотрудников без компьютеров](firstline-workers-quickstart.yml)
 ## ["Смены" для Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Прекращение поддержки Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Установка модуля Microsoft StaffHub PowerShell](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
