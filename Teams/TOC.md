@@ -85,6 +85,7 @@
 #### [Отчет по активности пользователей Teams](teams-analytics-and-reports/user-activity-report.md)
 #### [Отчет об использовании устройств в Teams](teams-analytics-and-reports/device-usage-report.md)
 #### [Отчет о заблокированных пользователях ТСОП](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Отчет о пулах минут, затраченных по ТСОП](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [Отчет об использовании ТСОП](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Отчет об использовании трансляций в Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Отчеты об активности Teams в Центре администрирования Microsoft 365](teams-activity-reports.md)

@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Сведения о бесплатных лицензиях на виртуальные пользователи.
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447915"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435129"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Телефонная система – лицензия виртуальных пользователей 
 
@@ -51,8 +51,11 @@ ms.locfileid: "36447915"
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Как приобрести телефонную систему — лицензии виртуальных пользователей 
 
+> [!NOTE] 
+> При выполнении этих инструкций отключите режим предварительного просмотра, чтобы приобрести лицензию для телефонной системы.
+
 1. Войдите в центр администрирования Microsoft 365.
-2. Перейти к подпискам на дополнительные**услуги** > **по** **выставлению счетов** > 
+2. Перейти к**подпискам на дополнительные** **услуги** > по **выставлению счетов** > 
 3. Прокрутите страницу до конца, чтобы найти лицензию **"телефонная система — виртуальный пользователь"** . Нажмите кнопку **Купить сейчас**.
 
 > [!WARNING]

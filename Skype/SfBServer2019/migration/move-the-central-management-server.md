@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После перехода на Skype для бизнеса Server 2019 необходимо переместить центральный сервер управления на сервер или в пул Skype для бизнеса Server 2019, прежде чем можно будет удалить старый сервер.
-ms.openlocfilehash: 7ba82a3748a98e2f1bc25cd7c48eceabdf76ac19
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244507"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434943"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Перемещение устаревшего центрального сервера управления в Skype для бизнеса Server 2019
 
@@ -40,7 +40,7 @@ ms.locfileid: "36244507"
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
-4. Убедитесь в том, что **запущена**служба клиентской службы **Skype для бизнеса Server** .
+4. Убедитесь в том, что **запущена**служба **клиентской службы Skype для бизнеса Server** .
     
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>Подготовка сервера переднего плана Standard Edition к выпуску
 
@@ -61,13 +61,13 @@ ms.locfileid: "36244507"
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
-6. Убедитесь в том, что **запущена**служба клиентской службы **Skype для бизнеса Server** .
+6. Убедитесь в том, что **запущена**служба **клиентской службы Skype для бизнеса Server** .
     
 ## <a name="to-move-the-legacy-installs-central-management-server-to-skype-for-business-server-2019"></a>Перемещение устаревшего сервера центра администрирования в Skype для бизнеса Server 2019
 
 1. На сервере 2019 Skype для бизнеса Server, который будет основным сервером управления, войдите в систему с компьютера, на котором установлена командная консоль Skype для Business Server, в качестве участника группы **рткуниверсалсерверадминс** . Кроме того, необходимо иметь права и разрешения администратора базы данных SQL Server. 
     
-2. Откройте консоль управления Skype для бизнеса Server.
+2. Откройте командную консоль управления Skype для бизнеса Server (Запуск от имени администратора).
     
 3. В командной консоли Skype для бизнеса Server введите: 
     

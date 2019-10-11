@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте о возможностях, доступности и планировании и настройке телефонной системы (облачной УАТС) для бизнеса. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328368"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434868"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Возможности телефонной системы в Office 365
 
@@ -35,7 +35,7 @@ ms.locfileid: "37328368"
   
 С помощью надстройки телефонной системы вы можете использовать Skype для бизнеса для выполнения основных задач, таких как совершение и прием звонков, передача звонков, выключение и отключение звука, практически везде, где есть доступ к Интернету. Он доступен по всему миру! 
   
-Дополнительные сведения можно найти в разделе [цены для телефонной системы](https://products.office.com/skype-for-business/cloud-pbx#requirements).
+Дополнительные сведения можно найти в разделе [цены для телефонной системы](https://products.office.com/microsoft-teams/voice-calling#requirements).
   
 ## <a name="phone-system-in-office-365-features"></a>Телефонная система в компонентах Office 365
 
@@ -80,7 +80,7 @@ ms.locfileid: "37328368"
     
 В этой статье приведены сведения о планировании и настройке телефонной системы в бизнесе.
 
-- [Телефонная система с тарифными планами](calling-plan-landing-page.md)
+- [Телефонная система с планами звонков](calling-plan-landing-page.md)
 
 - [Настройка планов звонков](set-up-calling-plans.md): в этой статье приведены пошаговые инструкции по настройке номеров телефонов и перенос существующих номеров телефонов в Skype для бизнеса.
     

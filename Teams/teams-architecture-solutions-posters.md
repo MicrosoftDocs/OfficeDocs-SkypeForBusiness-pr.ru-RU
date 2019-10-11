@@ -15,12 +15,12 @@ appliesto:
 search.appverid:
 - MET150
 description: 'Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях телефонии для Teams. '
-ms.openlocfilehash: 83ec3b36e3eaa0cdf83b4c5cb69791307febf7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3abd05e4a83f77708f7a392a3e005586e5381f4
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243920"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435232"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
 
@@ -42,8 +42,8 @@ ms.locfileid: "36243920"
 
 Корпорация Майкрософт поддерживает несколько вариантов начала работы с Teams в облаке Майкрософт. Этот плакат поможет вам определить, какие решения Майкрософт для телефонии (телефонная система в облаке или локальная корпоративная голосовая связь) оптимальны для пользователей в вашей организации, а также как организация может подключаться к телефонной сети общего пользования (ТСОП).
 
-[![Эскиз плаката решений Майкрософт для телефонии](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) <br/>
-[PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
+[![Эскиз плаката решений Майкрософт для телефонии](https://docs.microsoft.com/office365/enterprise/media/microsoft-telephony-solutions-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.pdf) <br/>
+[PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-19.vsdx) 
 
 Дополнительные сведения см. в статье [Решения Майкрософт для телефонии](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
   

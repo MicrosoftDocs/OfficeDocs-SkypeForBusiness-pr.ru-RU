@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
-ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 или Exchange Online и Skype для бизнеса Server.'
+ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464658"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434914"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Настройка использования фотографий высокого разрешения в Skype для бизнеса Server
  
-**Сводка:** Настройте использование фотографий высокого разрешения в Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
+**Сводка:** Настройте использование фотографий высокого разрешения в Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 или Exchange Online и Skype для бизнеса Server.
   
-В Skype для бизнеса Server фотографии могут храниться в почтовом ящике Exchange Server 2016 или Exchange Server 2013, что позволяет создавать фотографии размером до 648 пикселей на 648 пикселей. Кроме того, Exchange Server может автоматически менять размер этих фотографий, чтобы использовать их в разных продуктах при необходимости. Как правило, используются фотографии трех размеров и разрешений, которые перечислены ниже.
+В Skype для бизнеса Server фотографии могут храниться на сервере Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 или почтовом ящике Exchange Online, что позволяет использовать фотографии размером до 648 пикселей на 648 пикселей. Кроме того, Exchange Server может автоматически менять размер этих фотографий, чтобы использовать их в разных продуктах при необходимости. Как правило, используются фотографии трех размеров и разрешений, которые перечислены ниже.
   
 - Размер 64 x 64 пикселя используется для атрибута thumbnailPhoto в Active Directory. Если вы отправите фотографию на сервер Exchange Server, Exchange автоматически создаст 64 пикселей на версии 64 пикселей этой фотографии и обновите атрибут Фотоэскиз пользователя. Однако обратите внимание на то, что обратное неверно: Если вы вручную обновите атрибут Фотоэскиз в Active Directory, то фотография в почтовом ящике Exchange пользователя не будет обновляться автоматически.
     

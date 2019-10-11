@@ -14,12 +14,12 @@ ms.collection:
 description: Сведения об использовании элементов управления PowerShell для управления Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20e85b2f45977a0a78d0d358c2e8aaa01b9257e4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 75bb6a982db4ab3986a423cf958ad8e81105380c
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235135"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439587"
 ---
 # <a name="teams-powershell-overview"></a>Обзор PowerShell в Teams
 
@@ -80,6 +80,9 @@ Microsoft Teams имеет широкий набор инструментов д
 
 Командлеты для управления политиками находятся в [модуле командлетов Skype для бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
+> [!NOTE]
+> После подключения к Skype для бизнеса Online командлеты будут доступны в сеансе PowerShell. Дополнительные сведения можно найти в разделе [Управление Skype для бизнеса Online в Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
+
 Политика — это группа параметров, которые могут быть применены к отдельным пользователям. У каждого типа политики есть собственный набор командлетов для создания, просмотра, удаления и обновления политик, а затем назначения этих политик пользователям. Общая структура:
 
 - ПОЛУЧИТЬ команды (например, ``Get-CsTeamsMeetingPolicy``): возврат документов политики, которые будут доступны для назначения в вашей организации, и политики, созданные корпорацией Майкрософт, и созданные вами пользовательские политики.
@@ -118,7 +121,7 @@ Microsoft Teams имеет широкий набор инструментов д
 
 ## <a name="other-powershell-tools"></a>Другие средства PowerShell
 
-Подробная информация о том, как использовать все элементы управления PowerShell для управления Microsoft Teams и Skype для бизнеса, включая подробное описание параметров каждой политики, в справочнике по [командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) и [Skype для Ссылка на бизнес-командлеты](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Подробная информация о том, как использовать все элементы управления PowerShell для управления Microsoft Teams и Skype для бизнеса, включая подробное описание параметров каждой политики, в [справочнике по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) и [Skype для Ссылка на бизнес-командлеты](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
