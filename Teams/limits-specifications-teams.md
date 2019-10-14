@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b74226825203937a243de9ebecb550113ff21c
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: aac62fd6549e90214834e1620bc0eb08a83936c7
+ms.sourcegitcommit: 74f8ed97eef1e4c78b829586b14d2a185b522b33
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434828"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453535"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "37434828"
 |Функция    | Максимальный предел |
 |-----------|---------------|
 |Количество команд, которые может создавать пользователь | Применяется ограничение в 250 объектов&sup1;         |
-|Количество групп, участником которых может быть пользователь|1 000|
+|Количество групп, в которые может входить пользователь|1 000|
 |Количество участников в команде | 5 000       |
 |Количество команд для всей организации, разрешенное в клиенте | 5     |
 |Количество участников в [команде для всей организации](create-an-org-wide-team.md) | 5 000       |
