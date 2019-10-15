@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Сведения о настройке интеграции Cloud Connector с клиентом Office 365.
-ms.openlocfilehash: 1742fbadec95eb72e46fb6cc46f006e1baeaf8f1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287617"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508814"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Настройка интеграции Cloud Connector с клиентом Office 365
  
@@ -112,7 +112,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   ```
 
     > [!NOTE]
-    > Удостоверение (Identity) пользователя можно также задать по его адресу SIP, имени участника-пользователя (UPN), имени домена и имени пользователя (домен\имя_пользователя) и по отображаемому имени Active Directory (Bob Kelly).  
+    > Удостоверение пользователя можно указать с помощью SIP-адреса пользователя, имени участника-пользователя (UPN) или отображаемого имени Active Directory пользователя (например, "Bob Юлия"). Символ "звездочка" (\*) можно также использовать с отображаемым именем в качестве удостоверения пользователя. Например, удостоверение "\*Смит" возвращает всех пользователей с отображаемым именем, которое оканчивается строковым значением Смит.
   
 Чтобы убедиться, что пользователи добавлены и включены, можно выполнить следующий сценарий.
   
@@ -169,7 +169,7 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     
     Обратите внимание на то, что назначение лицензий требуется только для распространения пользователя в каталог Skype для бизнеса Online. Назначьте вам лицензии на Office 365 (например, в г.) учетной записи, которую вы создали, а затем убедитесь в том, что учетные записи пользователей были правильно настроены в каталоге Skype для бизнеса Online, запустив следующий командлет, а затем удаляйте Лицензия из этой учетной записи.
     ```
-   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. Запустите сеанс Azure Active Directory для RAS с помощью глобальной или учетной записи администратора пользователя, а затем выполните следующий командлет, чтобы задать для подразделения учетную запись пользователя Azure AD, настроенную на шаге 1, на "Хибридмедиатионсервер":

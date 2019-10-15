@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Сведения о создании абонентских групп звонков (абонентские группы звонков по ТСОП) в Office 365 и о управлении ими. '
-ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221924"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508793"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
@@ -43,7 +43,7 @@ ms.locfileid: "35221924"
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Restart your computer when you are prompted.
+3. Если у вас нет версии 3,0 или более новой, вам нужно скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Перезагрузите компьютер после появления соответствующего запроса.
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
@@ -126,7 +126,7 @@ ms.locfileid: "35221924"
 - Для проверки действующих параметров абонентской группы запустите следующую команду:
     
   ```
-  Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
     Другие примеры и параметры см. в разделе [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
