@@ -346,6 +346,7 @@
 ### Техническая справка по прямой маршрутизации
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Коды стран для путей к носителям](direct-routing-country-codes.md)
+#### [Скрипт PowerShell для проверки подключений пограничного контроллера сеансов](sip-tester-powershell-script.md)
 
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
