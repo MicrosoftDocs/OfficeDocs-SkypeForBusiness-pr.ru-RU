@@ -8,8 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
+- M365-voice
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье рассказывается о том, как использовать голосовую конференцию с прямой маршрутизацией в ГКЧ и по требованию.
-ms.openlocfilehash: 54458087b508c607b797cf7e7e877a8a793d8ed8
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36272245"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516737"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Голосовые конференции с прямой маршрутизацией для GCC High и DoD
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Аудиоконференции с прямой маршрутизацией для GCC High и DoD
 
 Голосовые конференции с прямой маршрутизацией на GCC High и DoD позволяют участникам присоединяться к собраниям Teams в рамках высокоскоростной или неопределенной Организации с помощью телефонного устройства. Участники собрания могут предпочесть использовать телефонное устройство для присоединения к собраниям Teams в сценариях, например при ограниченном подключении к Интернету или в том случае, если пользователи находятся в дороге, но у вас нет доступа к Teams. Участники могут присоединиться к собраниям с помощью набора номера для телефонного номера в вашей организации или с помощью собрания на телефонное устройство.
 
@@ -90,7 +90,7 @@ ms.locfileid: "36272245"
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Шаг 4: назначение голосовой конференции с прямой маршрутизацией для лицензий на самые высокие или нелицензионные лицензии на GCC
 
-Чтобы назначить голосовой конференции с прямой маршрутизацией для лицензий на самые высокие или нелицензионные лицензии GCC, ознакомьтесь с разрешениями [Назначение лицензий пользователям в Office 365 для бизнеса](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Чтобы назначить голосовой конференции с прямой маршрутизацией для лицензий на самые высокие или нелицензионные лицензии GCC, ознакомьтесь с [разрешениями Назначение лицензий пользователям в Office 365 для бизнеса](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Шаг 5: (необязательно) Просмотр списка номеров голосовой конференции в Teams
 
@@ -102,11 +102,11 @@ ms.locfileid: "36272245"
 
 ### <a name="step-7-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Шаг 7: (необязательно) изменение параметров моста голосовой связи в Организации
 
-Сведения о том, как изменить параметры моста голосовой конференц-связи в вашей [](change-the-settings-for-an-audio-conferencing-bridge.md) Организации, см.
+Сведения о том, как [изменить параметры моста](change-the-settings-for-an-audio-conferencing-bridge.md) голосовой конференц-связи в вашей организации, см.
 
 ### <a name="step-8-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Шаг 8: (необязательно) задайте номера телефонов, которые включаются в приглашения на собрания пользователей в вашей организации.
 
-Чтобы изменить набор телефонных номеров, включенных в приглашения на собрание пользователей, обратитесь к разделу [Настройка номеров телефонов](set-the-phone-numbers-included-on-invites-in-teams.md) , включенных в приглашения в Microsoft Teams.
+Чтобы изменить набор телефонных номеров, включенных в приглашения на собрание пользователей, обратитесь к разделу [Настройка номеров телефонов, включенных в приглашения в Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) .
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Возможности голосовой связи не поддерживаются в голосовой конференции с прямой маршрутизацией для более высокого и невысокой четкости
 

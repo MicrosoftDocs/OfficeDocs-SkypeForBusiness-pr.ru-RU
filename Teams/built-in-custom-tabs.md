@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8fb0fcd1fab0fc51319b72d5557caac836bcb51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236904"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516439"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -48,7 +47,7 @@ ms.locfileid: "36236904"
 
 - Чтобы добавить веб-сайт, URL-адрес должен начинаться с префикса **HTTPS** , чтобы данные, которыми он является, оставались безопасными.
 
-- Подробные инструкции предоставляются, когда участник группы пытается добавить настраиваемую вкладку в канал или чат. При добавлении настраиваемой вкладки в канал создается беседа с помощью **клавиши TAB** , которая позволяет участникам группы сосредоточиться на обсуждениях содержимого.
+- Подробные инструкции предоставляются, когда участник группы пытается добавить настраиваемую вкладку в канал или чат. При добавлении настраиваемой вкладки в канал создается **беседа с помощью клавиши TAB** , которая позволяет участникам группы сосредоточиться на обсуждениях содержимого.
 
     ![Снимок экрана: настраиваемая вкладка с диалоговым окном "разговор" справа](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 

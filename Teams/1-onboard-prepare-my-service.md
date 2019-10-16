@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Используйте контрольные списки для подготовки Office 365 для Teams и настройки основных возможностей, сети и облачных голосовых нагрузок для Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236200"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516498"
 ---
 # <a name="prepare-my-service"></a>Подготовка службы
 
@@ -140,7 +140,7 @@ ms.locfileid: "36236200"
 
 -   Указан и настроен список выделенных и общих звуковых конференций с использованием языковых и других параметров.
 
--   [Кредиты на связь](what-are-communications-credits.md) для вашей организации (если это необходимо) настроено (при необходимости).
+-   Для Организации были настроены [кредиты на связь](what-are-communications-credits.md) (при необходимости).
 
 -   Параметры моста конференц-связи с голосовой связью заданы и настроены (уведомление о длине, ввод-вывод, Настройка уведомлений о включении).
 
@@ -158,7 +158,7 @@ ms.locfileid: "36236200"
 
 -   Номера телефонов, которые должны быть назначены пользователям, были приобретены или перенесены в корпорацию Майкрософт и доступны на портале клиента.
 
--   [Кредиты на связь](what-are-communications-credits.md) для вашей организации (если это необходимо) настроено (при необходимости).
+-   Для Организации были настроены [кредиты на связь](what-are-communications-credits.md) (при необходимости).
 
 -   Политики пользователей клиента и параметры телефонной группы, поддерживающие сценарии планов вызовов, определены, настроены и применены.
 

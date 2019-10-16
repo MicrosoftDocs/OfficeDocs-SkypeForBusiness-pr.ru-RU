@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Узнайте о поиске контента в Microsoft Teams, а также о том, как выполнять поиск по каналам связи в Exchange, отправлять файлы и изменения из SharePoint и вносить изменения в OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7fe2528ab4f508af7840d820b54919d5b3a5faee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 66621d7c5a2c7110045b1a378a0dcc1df4ccc510
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236421"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516455"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
@@ -28,7 +27,7 @@ ms.locfileid: "36236421"
 
 Подробнее читайте [в статье Поиск содержимого в Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-Например, с помощью **поиска** по содержимому на веб-сайте SharePoint specs and specs можно выполнять поиск в беседах по каналам команд из Exchange, отправка файлов и изменения из SharePoint Online и OneNote. внесение.
+Например, с помощью **поиска по содержимому** на веб-сайте SharePoint specs and specs можно выполнять поиск в беседах по каналам команд из Exchange, отправка файлов и изменения из SharePoint Online и OneNote. внесение.
 
 Вы также можете добавить условия запроса для **Поиска контента**, чтобы сузить возвращаемые результаты. В приведенном выше примере вы можете найти содержимое, в котором использовались ключевые слова "**новые спецификации фабрики"** .
 

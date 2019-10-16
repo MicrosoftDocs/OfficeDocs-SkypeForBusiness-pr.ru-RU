@@ -11,9 +11,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Ниже перечислены некоторые популярные вопросы, которые мы получаем от наших пользователей, которые хотят использовать голосовую конференцию.
-ms.openlocfilehash: fe98ac1bab2dfe61f9e511ad9ff14519792bcb36
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241865"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516992"
 ---
 # <a name="audio-conferencing-common-questions"></a>Общие вопросы об аудиоконференциях
 
@@ -91,11 +90,11 @@ ms.locfileid: "36241865"
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Почему пользователи начала получать сообщения электронной почты со сведениями о голосовой конференции?
 
-Мы добавили новую функцию, которая позволяет администратору отправлять [](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)и обновлять информационные и контактные данные голосовой связи в сообщении электронной почты. Дополнительные сведения о том, как отключить его, можно найти в [статье Включение и отключение отправки сообщений при изменении параметров голосовой конференции в Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) , [Включение и отключение отправки сообщений при изменении параметров голосовой конференции в Skype для бизнеса В сети](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Мы добавили новую функцию, которая позволяет [администратору](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)отправлять и обновлять информационные и контактные данные голосовой связи в сообщении электронной почты. Дополнительные сведения о том, как отключить его, можно найти в [статье Включение и отключение отправки сообщений при изменении параметров голосовой конференции в Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) , [Включение и отключение отправки сообщений при изменении параметров голосовой конференции в Skype для бизнеса В сети](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Можно ли использовать голосовые конференции для пользователей, которые являются частью локального развертывания Skype для бизнеса Server?
 
-Мы не слишком рады. Однако вы можете продолжать использовать голосовую конференцию, которая доступна в Skype для бизнеса Server, и шлюз PSTN для локальных пользователей. 
+С [собраниями в первую очередь](meetings-first.md)пользователи Skype для бизнеса Server могут получить доступ к собраниям Teams и голосовой конференции Teams. 
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Может ли пользователь получить личный идентификатор конференции?
 
@@ -114,7 +113,7 @@ ms.locfileid: "36241865"
 Пользователи Skype для бизнеса или Microsoft Teams могут найти назначенный им идентификатор конференции, запланируя собрание в Outlook и Outlook в Интернете. Кроме того, пользователи могут найти идентификатор конференции в сообщении электронной почты, которое будет отправляться после настройки.
   
 > [!NOTE]
-> Пользователи не смогут сбросить идентификатор конференции. Идентификатор конференции может быть сброшен только вами, администратором для [](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)Организации. 
+> Пользователи не смогут сбросить идентификатор конференции. Идентификатор конференции может быть сброшен только вами, [администратором](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)для Организации. 
   
 Мы работаем над решением, которое позволит пользователям получать доступ и сбрасывать идентификатор конференции без помощи администратора организации.
   
@@ -135,7 +134,7 @@ ms.locfileid: "36241865"
     
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Может ли участник звонить по международным телефонным номерам, когда они находятся в собрании Skype для бизнеса или Microsoft Teams?
 
-Да, участники могут звонить на международную линию и пригласить других абонентов на собрание Skype для бизнеса или Microsoft Teams. Ознакомьтесь с разбираемым [набором из собрания Microsoft Teams, чтобы другие люди могли](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) присоединиться к ней и [звонить из собрания Skype для бизнеса Online, чтобы другие люди могли](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)присоединиться к ней.
+Да, участники могут звонить на международную линию и пригласить других абонентов на собрание Skype для бизнеса или Microsoft Teams. Ознакомьтесь с [разбираемым набором из собрания Microsoft Teams, чтобы другие люди могли присоединиться к ней](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) и [звонить из собрания Skype для бизнеса Online, чтобы другие люди могли присоединиться к ней](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Как в Skype для бизнеса или Microsoft Teams вы планируете собрание с помощью сведений о собраниях голосовой конференции?
 

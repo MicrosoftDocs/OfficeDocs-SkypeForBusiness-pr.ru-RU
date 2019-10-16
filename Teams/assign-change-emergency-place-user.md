@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: Здесь вы узнаете, как назначить или изменить место расположения для экстренного реагирования для пользователей в вашей организации.
-ms.openlocfilehash: 612d93f8d24678c28485ed0f5be190ce37465f18
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396532"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515844"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Назначение или изменение местоположения для экстренного реагирования для пользователя
 
@@ -43,9 +42,9 @@ ms.locfileid: "37396532"
     
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Что такое места для экстренного реагирования, места и маршрут звонков?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Добавление, изменение и удаление расположения экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)
-- [Добавление, изменение и удаление Места для экстренной связи в Организации](add-change-remove-emergency-place-organization.md)
+- [Что такое расположения для экстренного реагирования, места для них и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)
+- [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 - [Назначение или изменение расположения для экстренного реагирования для пользователя](assign-change-emergency-location-user.md)
 - [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)

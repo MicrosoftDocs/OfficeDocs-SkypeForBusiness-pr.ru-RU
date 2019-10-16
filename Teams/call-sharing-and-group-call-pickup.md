@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Предоставление общего доступа к собранию и групповая связь позволяет пользователям предоставлять общий доступ к входящим звонкам с коллегами, чтобы можно было получать вызовы, когда пользователь недоступен.
-ms.openlocfilehash: 23850f71986530a504cd6005142e3f5e89c3a54e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 0f61039fc2027da83472f042c723a43d249da080
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483280"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517022"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Общие звонки и ответ на групповые звонки в Microsoft Teams
 
@@ -38,7 +37,7 @@ ms.locfileid: "36483280"
 Чтобы поделиться звонками с другими людьми, пользователь создаст группу звонков и добавит пользователей, которым нужно предоставить доступ к своим звонкам. Затем вы выбираете параметр Одновременный звонок или переадресация. Подробные сведения о [переадресации звонков и одновременные звонки в Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) см.
 
 > [!IMPORTANT]
-> Пользователи, владелец группы звонков и члены группы звонков должны находиться в режиме развертывания только Teams. Подробнее о режимах развертывания Teams можно узнать в разделе Общие сведения о сосуществовании [и взаимодействии Microsoft Teams и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Пользователи, владелец группы звонков и члены группы звонков должны находиться в режиме развертывания только Teams. Подробнее о режимах развертывания Teams можно узнать в разделе Общие сведения о [сосуществовании и взаимодействии Microsoft Teams и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Требуется лицензия
 

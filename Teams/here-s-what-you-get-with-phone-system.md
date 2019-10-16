@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Узнайте о возможностях, доступности и планировании и настройке телефонной системы (облачной УАТС) для бизнеса. '
-ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 85b60b07dda2283fb91665834c7f6cd4187454cd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434868"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516868"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Возможности телефонной системы в Office 365
 
@@ -84,7 +84,7 @@ ms.locfileid: "37434868"
 
 - [Настройка планов звонков](set-up-calling-plans.md): в этой статье приведены пошаговые инструкции по настройке номеров телефонов и перенос существующих номеров телефонов в Skype для бизнеса.
     
-- [Решения для телефонной связи (Майкрософт](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)): в этой статье описаны все варианты развертывания. Кроме того, он содержит сведения о планировании всего облачного решения. 
+- [Решения для телефонной связи (Майкрософт](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)): в этой статье описаны все варианты развертывания. Кроме того, он содержит сведения о планировании всего облачного решения. 
     
 - [Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Узнайте, какие лицензии нужно приобрести для получения телефонной системы в Office 365.
     
@@ -100,7 +100,17 @@ ms.locfileid: "37434868"
 |:-----|:-----|:-----|
 |**Клиенты с богатыми возможностями** <br/> |**Мобильные клиенты** <br/> |**IP-телефоны** <br/> |
 | Работает со всеми поддерживаемыми клиентами PC и Mac в Office 365. <br/> [Установка Skype для бизнеса](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Настройка Lync для Mac 2011 для Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | У нас есть клиенты Skype для бизнеса: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Выбирайте большое количество стационарных телефонов, совместимых со Skype для бизнеса. Узнайте о том, как [получить телефоны в Skype для бизнеса Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
-   
+
+## <a name="availability-in-gcc-high-and-dod-clouds"></a>Доступность в высокоскоростных и некачественных облаках GCC
+<a name="bkmk_setup"> </a>
+
+Перечисленные ниже возможности пока недоступны для облаков High и DoD. 
+- [Параметры звонка для вспомогательного звонка, голосовой почты и расширенного делегирования](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- [Передача на голосовую почту "средний Звонок"](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- Звонок на номер телефона из строки поиска
+- Музыка при удержании
+- Обратный просмотр номера AAD
+
 ## <a name="related-topics"></a>См. также:
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 

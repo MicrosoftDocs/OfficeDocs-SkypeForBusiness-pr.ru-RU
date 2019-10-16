@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Фаурнир des експéриенцес доступ à Таус EST Au кœур De La миссии de Microsoft, Куи состоять из à перметтре à чакуе персонне à чакуе организация де ла планèте д'аккомплир davantage. Microsoft Оффре, что Номбре de фонктионналитéс д'акцессибилитé бетонирование Skype Ентреприсе et Microsoft Teams Куи с'инскривент данс, Селезнев, фавеур и l'accessibilité.
-ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239475"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516846"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Решения для специальных возможностей в Skype для бизнеса Online и Microsoft Teams в Франции
 

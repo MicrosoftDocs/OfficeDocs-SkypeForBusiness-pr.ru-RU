@@ -9,9 +9,8 @@ ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 search.appverid: MET150
 audience: admin
 appliesto:
@@ -21,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 87ce2422fd4d14b5b9e2c90921b0fe84630f2887
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235752"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517047"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Аудиоконференции в Office 365
 Голосовые конференции в Office 365 дают пользователям возможность звонить на собрания с телефонов. Голосовые конференции допускают до 250 мобильных участников.
@@ -43,7 +42,7 @@ ms.locfileid: "36235752"
 
 Вам нужно только настроить аудиоконференции для пользователей, планирующих или проводящих собрания. Присоединяющимся к собранию по телефону участникам не требуются какие-либо назначенные им лицензии или другие настройки.
 
-После того как участники будут присоединены к собранию, они также смогут звонить и приглашать других абонентов на собрание Skype для бизнеса или Microsoft Teams. Ознакомьтесь с разбираемым [звонком из собрания Teams, чтобы другие люди могли](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) присоединиться к собранию и [звонить из собрания Skype для бизнеса, чтобы другие люди могли](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)присоединиться к ней.
+После того как участники будут присоединены к собранию, они также смогут звонить и приглашать других абонентов на собрание Skype для бизнеса или Microsoft Teams. Ознакомьтесь с [разбираемым звонком из собрания Teams, чтобы другие люди могли присоединиться](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) к [собранию и звонить из собрания Skype для бизнеса, чтобы другие люди могли присоединиться к ней](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Каковы затраты на это?
 Сведения о ценах можно найти в статье [цены для голосовой конференции](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
@@ -85,7 +84,7 @@ ms.locfileid: "36235752"
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>Как получить выделенные телефонные номера?
 Специальные номера телефонов — это номера служб, которые можно получить и назначить вашей организации. Вы можете получить доступ к мостам для моста конференц-связи с помощью специальных платных и бесплатных телефонных номеров одним из трех способов:
 
-- **Используйте центр администрирования Skype для бизнеса.** В некоторых странах и регионах вы можете получать номера для мостов конференций с помощью центра администрирования Skype для бизнеса. Смотрите раздел Знакомство с [телефонными номерами служб](/microsoftteams/getting-service-phone-numbers).
+- **Используйте центр администрирования Skype для бизнеса.** В некоторых странах и регионах вы можете получать номера для мостов конференций с помощью центра администрирования Skype для бизнеса. Смотрите раздел [Знакомство с телефонными номерами служб](/microsoftteams/getting-service-phone-numbers).
     
 - **Портируйте номера, которые у вас уже есть.** Вы можете перенести существующие номера из текущего поставщика услуг или оператора телефона в Office 365. Для получения дополнительных полезных сведений о том, как это сделать, см. статью [Перемещение телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление телефонными номерами вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
   

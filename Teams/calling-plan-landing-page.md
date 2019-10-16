@@ -8,22 +8,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Целевая страница плана звонков
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83e2516ac9fd142c6cb965539ff22c4900811888
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237177"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517003"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>Какой тарифный план вам нужно? 
+# <a name="which-calling-plan-is-right-for-you"></a>Какой план звонков подходит для вас? 
 
 Вы выполнили [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Возможно, вы развернули [собрания & конференции](deploy-meetings-microsoft-teams-landing-page.md). Теперь вы можете добавить облачные рабочие нагрузки, и вы решили использовать телефонную систему Microsoft с планом звонков для подключения к телефонной сети общего пользования (PSTN). 
 

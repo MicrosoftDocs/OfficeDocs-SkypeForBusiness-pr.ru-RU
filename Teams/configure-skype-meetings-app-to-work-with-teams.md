@@ -1,5 +1,5 @@
 ---
-title: Настройка приложения собраний Skype для работы с Teams
+title: Настройка приложения "Собрания Skype" для работы с Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Администраторы могут использовать центр администрирования Microsoft Teams для настройки приложения "собрания Skype" для работы с Teams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236866"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516926"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка приложения собраний Skype для работы с Teams
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка приложения "Собрания Skype" для работы с Teams
 ===================================================
 
 После того как пользователь будет обновлен до Microsoft Teams, администраторы могут использовать центр администрирования Microsoft Teams для выбора предпочтительного приложения, которое пользователи будут использовать для присоединения к собраниям в Skype для бизнеса.
@@ -31,7 +30,7 @@ ms.locfileid: "36236866"
 
 1. Войдите в центр администрирования Microsoft Teams.
 2. На левой панели в разделе **Параметры организации**выберите **Обновление Teams**.
-3. На странице "обновление Teams" в разделе " **настройки приложения**" выберите **приложение "собрания Skype** " из **предпочтительного приложения для пользователей, чтобы присоединиться к** раскрывающимся спискам собраний Skype для бизнеса.
+3. На странице "обновление Teams" в разделе " **настройки приложения**" выберите **приложение "собрания Skype** " из **предпочтительного приложения для пользователей, чтобы присоединиться к раскрывающимся спискам собраний Skype для бизнеса** .
 
     ![Выбор предпочитаемого приложения для присоединения к собраниям в Skype для бизнеса](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 

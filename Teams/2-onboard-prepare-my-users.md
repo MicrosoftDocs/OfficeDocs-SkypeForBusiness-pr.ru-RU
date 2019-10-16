@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Создайте план, который поможет вам придать пользователям возможность определить цели, понять, что такое приемлемо, и предоставить обучение и поддержку.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245847"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516275"
 ---
 # <a name="prepare-my-users"></a>Подготовка пользователей
 
@@ -46,7 +46,7 @@ ms.locfileid: "36245847"
 
 На приведенном ниже рисунке показан пример заявления с представлением "концепция-значение" для клиента, который выполняет обновление из Skype для бизнеса в Teams.
 
-![Таблица из двух столбцов, отображающая представление и значение] (media/prepare-my-users-new-image1.png "Таблица из двух столбцов с видением – зачем это делать? (уровень организации) слева и \"стоимость\" — что это такое? (уровень пользователя) справа")
+![Таблица из двух столбцов, на которой показана концепция и таблица значений]из(media/prepare-my-users-new-image1.png "двух столбцов с видением: почему мы делаем это? (уровень организации) слева и \"стоимость\" — что это такое? (уровень пользователя) справа")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Точки принятия решений</td><td><ul><li>Хотите ли вы, чтобы ваши пользователи могли получить доступ к преимуществам и выгодным тарифам для этого нового решения?</li></ul></td></tr>
@@ -84,7 +84,7 @@ ms.locfileid: "36245847"
 
 | **Тип ученого текста**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
-| ** С помощью самомотивации вы сможете найти ресурсы, а также узнать, как это сделать.                         |       |
+| С помощью *самомотивации* вы сможете найти ресурсы, а также узнать, как это сделать.                         |       |
 | *Участники* групп и интерактивные учебные курсы. они будут идти вместе с коллегами. |       |
 | Для *хандхолдинг* поиска требуется "белый Глове" или "односторонняя".                   |       |
 
@@ -126,7 +126,7 @@ ms.locfileid: "36245847"
 
 На приведенном ниже рисунке показан пример таблицы "пользователь".
 
-![Таблица "значения" со сведениями о пользователе] (media/prepare-my-users-image2.png "Таблица с описанием пользователей с общими ролями, зависимостями и взаимодействием решений и совместной работы. Сотрудник руководителя выделяет сведения о профиле (день в жизни), а также возможности, устройства и обучающие материалы для руководящего бизнеса.")
+![Таблица "значения" со списком "сведения о пользователе]"(media/prepare-my-users-image2.png ", в котором перечислены пользователи с общими ролями, а также зависимости решений для взаимодействия и совместной работы. Сотрудник руководителя выделяет сведения о профиле (день в жизни), а также возможности, устройства и обучающие материалы для руководящего бизнеса.")
 
 Для каждого варианта использования обсудите с командой проекта следующее:
 
@@ -154,5 +154,5 @@ ms.locfileid: "36245847"
 
 <table>
 <tr><th>Обращений</th><th>Обучение</th><th>Поддержка</th></tr>
-<tr><td><ul><li>Настройка&mdash; <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">шаблонов электронной почты</a> в электронной почте</li><li>Плакаты и цифровая подпись </li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Команды и каналы</li><li>гамификатион</li></ul></td><td><ul><li>Статьи и видеоролики от Майкрософт:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Обучение работе с видео в Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Собрания и звонки</a></li></li></ul><li>Помощь в работе (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельная помощь (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл&mdash;обратной связи ознакомьтесь с <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">образцом опросов пользователей</a></li></td></tr>
+<tr><td><ul><li>Настройка&mdash; <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">шаблонов электронной почты</a> в электронной почте</li><li>Плакаты и цифровая подпись </li><li>События запуска</li><li>Руководители отдела</li><li>Лидеры</li><li>Группы и каналы</li><li>гамификатион</li></ul></td><td><ul><li>Статьи и видеоролики от Майкрософт:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Переход на Teams из Skype для бизнеса</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Обучение работе с видео в Teams</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Собрания и звонки</a></li></li></ul><li>Помощь в работе (Справка)</li><li>Группа обучения для дома</li><li>Группа обучения для партнеров</li></ul></td><td><ul><li>Служба поддержки для дома</li><li>Служба поддержки внешнего источника</li><li>Самостоятельная помощь (сайт интрасети)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Интерактивная справка и инструкции</a></li><li>Пошаговые инструкции для пол и лидерами</li><li>Цикл&mdash;обратной связи ознакомьтесь с <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">образцом опросов пользователей</a></li></td></tr>
 </table>

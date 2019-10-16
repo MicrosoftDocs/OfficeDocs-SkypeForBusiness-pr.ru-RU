@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
 description: Сведения о том, как включить клиентские приложения Teams для настольных систем с политиками управления приложениями AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d87eb5328f5200479f719dc22d9244c46af8944
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eb12012c0775d98c7d1b08b61c6c0deba83a4d5f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244946"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516777"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Политики управления приложениями AppLocker в Microsoft Teams
 

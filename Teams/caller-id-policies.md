@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики идентификации вызывающего абонента в Microsoft Teams для изменения или блокировки идентификатора вызывающего абонента для пользователей Teams в Организации.
-ms.openlocfilehash: 95771336e71e56752483519cd089b1c755ec11d3
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622099"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517011"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Управление политиками идентификации вызывающего абонента в Microsoft Teams
 
@@ -40,7 +39,7 @@ ms.locfileid: "36622099"
 
 1. В левой области навигации центра администрирования Microsoft Teams перейдите на вкладку идентификаторы **голосового** > **вызывающего абонента**.
 2. Нажмите **Добавить**.
-![Снимок экрана с новой страницей политики идентификации вызывающего абонента в центре администрирования](media/caller-id-policies-add-policy.png)
+![Снимок экрана с новой страницей политики идентификации звонящего в центре администрирования](media/caller-id-policies-add-policy.png)
 3. Введите имя и описание политики.
 4. В этой статье выберите нужные параметры.
 
@@ -80,7 +79,7 @@ ms.locfileid: "36622099"
 
 Кроме того, вы можете сделать следующее:
 
-1. Перейдите в раздел политики идентификаторов**голосового** > **вызова** >  **центра администрирования Microsoft Teams**.
+1. Перейдите в раздел**политики идентификаторов** > **голосового** > вызова **центра администрирования Microsoft Teams**.
 2. Выберите политику, щелкнув слева от имени политики.
 3. Выберите **Управление пользователями**.
 4. В области **Управление пользователями** найдите пользователя по отображаемому имени или по имени пользователя, выберите имя и нажмите кнопку **Добавить**. Повторите этот шаг для каждого пользователя, которого вы хотите добавить.

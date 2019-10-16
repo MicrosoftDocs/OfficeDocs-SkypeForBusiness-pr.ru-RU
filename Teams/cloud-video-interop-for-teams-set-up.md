@@ -11,20 +11,20 @@ ms.reviewer: srividhc
 description: В этой статье объясняется, как спланировать и настроить облачную видеосвязь для пользователей в вашей организации.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286260"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516665"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Настройка взаимодействия Microsoft Teams с облачными видеослужбами
 
-После [выбора партнеров](cloud-video-interop.md)по облачной видеосвязи вам потребуется планирование развертывания, Настройка с помощью сведений о подготовке и ключа клиента-партнера, а также согласие на работу с приложением для видеосвязи в Организации. На приведенной ниже схеме описан процесс. 
+После [выбора партнеров по облачной](cloud-video-interop.md)видеосвязи вам потребуется планирование развертывания, Настройка с помощью сведений о подготовке и ключа клиента-партнера, а также согласие на работу с приложением для видеосвязи в Организации. На приведенной ниже схеме описан процесс. 
 
 ![Развертывание Кви в Организации](media/deploying-cvi.png)
 

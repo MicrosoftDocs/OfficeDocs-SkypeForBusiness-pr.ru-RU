@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Настройка динамического вызова экстренной помощи
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006f131183fe75b8246f0d2fa2d0ae28575e9e1d
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b166c93bb213fab6e8025a1837ef67baa65c884
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396536"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516934"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling-for-calling-plans"></a>Планирование и Настройка динамического вызова экстренной помощи в планах звонков
 Динамическое обращение в службу экстренной помощи в планах звонков в Microsoft обеспечивает возможность настройки и маршрутизации экстренных вызовов в зависимости от текущего расположения клиента Teams.  Возможность автоматической маршрутизации к соответствующей точке ответа на общедоступную безопасность (ПСАП) или уведомлению сотрудников службы безопасности в зависимости от страны использования пользователя Teams.  

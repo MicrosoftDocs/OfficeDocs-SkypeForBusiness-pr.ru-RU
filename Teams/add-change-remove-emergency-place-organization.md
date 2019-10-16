@@ -1,5 +1,5 @@
 ---
-title: Добавление, изменение и удаление Места для экстренной связи в Организации
+title: Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -9,22 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: 'Сведения о том, как добавлять, изменять и удалять место для экстренных случаев для Организации в центре администрирования Microsoft Teams. '
-ms.openlocfilehash: c4b1cc7d3b133032bee471826f8606b600c0ce62
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b297d2c9253919c0ffa780bb8f035c273852036
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396544"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516824"
 ---
-# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление Места для экстренной связи в Организации
+# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Добавление, изменение и удаление места для расположения для экстренного реагирования для организации
 
 В зависимости от количества физических местоположений в вашей организации вы можете добавить места для зданий, полs и офисов, чтобы создать более конкретное место для экстренных случаев. Посмотрите, [что такое места для экстренного реагирования, места и маршрутизация звонков](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) . Дополнительные сведения.
   
@@ -52,6 +51,6 @@ ms.locfileid: "37396544"
     
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Добавление, изменение и удаление Места для экстренной связи в Организации](add-change-remove-emergency-place-organization.md)
+- [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 - [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)

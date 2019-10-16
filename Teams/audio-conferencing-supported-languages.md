@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Поиск языка конференц-связи с телефонным подключением для каждой страны или региона и назначенного идентификатора языка и региональных параметров (EN-US, da-DK, de-DE и т. д.)
-ms.openlocfilehash: 9a34afb138491f28458b80474600daebbd767696
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b49b5e942229244d2a37fb632badcb580f98ca61
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283518"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515762"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Поддерживаемые языки аудиоконференций
 

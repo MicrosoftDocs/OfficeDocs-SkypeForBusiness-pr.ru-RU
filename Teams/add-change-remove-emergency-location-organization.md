@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: 'Сведения о том, как добавить, изменить или удалить расположение для экстренного реагирования для вашей организации в центре администрирования Microsoft Teams. '
-ms.openlocfilehash: e0befb48ce5cc6c896db89d7defbde94d01c9278
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396537"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516832"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Добавление, изменение и удаление местоположения организации для экстренного реагирования
 
@@ -62,6 +61,6 @@ ms.locfileid: "37396537"
 ## <a name="related-topics"></a>Статьи по теме
 
 -[Что такое места для экстренного реагирования, места и маршрут звонков?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Добавление, изменение и удаление Места для экстренной связи в Организации](add-change-remove-emergency-place-organization.md)
+- [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 - [Управление номерами телефонов организации](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Условия и положения, распространяющиеся на экстренные вызовы](/microsoftteams/emergency-calling-terms-and-conditions)

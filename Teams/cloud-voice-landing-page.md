@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Главная страница для развертывания облачной голосовой связи в Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92e32950526f12c5da1856ce390ee3e532892681
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483872"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515836"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Облачная голосовая связь в Microsoft Teams
 
@@ -42,7 +41,7 @@ ms.locfileid: "36483872"
 В следующих статьях содержатся дополнительные сведения о развертывании и использовании облачных функций голосовой связи в Teams.
 
 - [Телефонная система Office 365](what-is-phone-system-in-office-365.md)
-- [Телефонная система с тарифными планами](calling-plan-landing-page.md)
+- [Телефонная система с планами звонков](calling-plan-landing-page.md)
 - [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 - [Развертывание облачной системы голосовой связи](cloud-voice-deployment.md)
 - [Решения Майкрософт для телефонии](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
@@ -70,7 +69,7 @@ ms.locfileid: "36483872"
 
 |Задайте себе вопрос|Действие |
 | :------------|:-------|
-| Я хочу использовать план звонков Microsoft в качестве несущей для телефонной связи? | Дополнительные сведения можно найти [в разделе телефонная система с](calling-plan-landing-page.md)тарифными планами.|
+| Я хочу использовать план звонков Microsoft в качестве несущей для телефонной связи? | Дополнительные сведения можно найти [в разделе телефонная система с тарифными планами](calling-plan-landing-page.md).|
 | Нужно ли использовать собственную телефонную салазку? | Дополнительные сведения можно найти [в разделе телефонная система с прямым маршрутом](direct-routing-landing-page.md).
 |||
 
@@ -92,7 +91,7 @@ ms.locfileid: "36483872"
 
 |Задайте себе вопрос|Действие |
 |:------------|:-------|
-| Вы хотите включить облачную голосовую почту? | Инструкции по настройке голосовой почты можно найти в разделе [Настройка голосовой почты](set-up-phone-system-voicemail.md)в облаке.
+| Вы хотите включить облачную голосовую почту? | Инструкции по настройке голосовой почты можно найти в разделе [Настройка голосовой почты в облаке](set-up-phone-system-voicemail.md).
 | Нужно ли включить функцию транскрипции голосовой почты для некоторых или всех пользователей? | Сведения о том, как отключить транскрипцию голосовой почты, можно найти [в разделе Настройка политик голосовой почты в Организации](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
@@ -143,7 +142,7 @@ ms.locfileid: "36483872"
 
 |Задайте себе вопрос|Действие |
 |:------------|:-------|
-| Требуются ли для моей организации автосекретаря? | Дополнительные сведения можно найти в разделе [что такое автоматические](what-are-phone-system-auto-attendants.md) автосекретарей и [настроить облачный автоматический секретарь](create-a-phone-system-auto-attendant.md). |
+| Требуются ли для моей организации автосекретаря? | Дополнительные сведения можно найти в разделе [что такое автоматические автосекретарей](what-are-phone-system-auto-attendants.md) и [настроить облачный автоматический секретарь](create-a-phone-system-auto-attendant.md). |
 
 ### <a name="devices"></a>Устройства
 

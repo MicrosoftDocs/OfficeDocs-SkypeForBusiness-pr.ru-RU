@@ -9,7 +9,6 @@ ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ebe95fcfb5982c3dd2a615fe46c80e091a181783
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ece2fcc6190ba800ba927147f4746a4fc0f2fd0
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283428"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515855"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Планы звонков в Office 365 — нормы и правила для Соединенного Королевства
 
@@ -115,7 +114,7 @@ Skype для бизнеса передает звонок в службы пла
 
 Эти программы, схожие по поведению с компьютерными вирусами, загружаются на ваш компьютер и могут устанавливать соединения со службами платных номеров без вашего ведома или согласия. Чтобы защитить свой компьютер, будьте внимательны при щелчке по ссылке или всплывающему окну, а также при загрузке содержимого из неизвестных источников. Если вы хотите запретить доступ ко всем или некоторым службам платных номеров из соображений безопасности или экономии, свяжитесь с нами по телефону или электронной почте. Кроме того, мы рекомендуем загрузить и регулярно обновлять необходимое программное обеспечение для защиты компьютера. Если вы считаете, что стали жертвой программы набора номера через Интернет, свяжитесь с нами по телефону или электронной почте.
 
-### <a name="phonepayplus"></a>Фонепайплус
+### <a name="phonepayplus"></a>фонепайплус
 
 Все Поставщики услуг обязаны пройти регистрацию в независимой организации PhonepayPlus, которая имеет соответствующую лицензию Управления по делам радио, телевидения и предприятий связи Великобритании. PhonepayPlus осуществляет регулирование рынка служб платных номеров, а также расследование подаваемых клиентами претензий. Все Поставщики услуг обязаны соблюдать действующие нормы и правила PhonepayPlus, которые опубликованы по адресу [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). В случае нарушения этих норм и правил со стороны Поставщика услуг организация PhonepayPlus имеет право:
 
