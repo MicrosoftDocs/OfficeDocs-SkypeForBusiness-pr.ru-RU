@@ -20,12 +20,12 @@ description: Сведения о том, как управлять задани�
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483983"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547283"
 ---
 # <a name="assignments-in-teams-for-education"></a>Задания в Teams для образовательных учреждений
 
@@ -83,6 +83,4 @@ ms.locfileid: "36483983"
 
 При нажатии кнопки " **сохранить** " в центре администрирования с этим параметром эти параметры вступят в силу до 24 часов.
 
-[Дополнительные сведения о интеграции между Турнитин и Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Дополнительные сведения о Турнитин](https://www.turnitin.com/)
+Готовы приступить к работе с интеграцией Турнитин в Teams? Подпишитесь на [программу раннего доступа](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

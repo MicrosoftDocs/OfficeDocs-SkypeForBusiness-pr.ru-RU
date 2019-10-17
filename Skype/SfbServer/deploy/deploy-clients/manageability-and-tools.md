@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: В этом разделе описываются возможности инструментов управления для Системы комнат Skype.
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775330"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547262"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Возможности управления и инструменты для системы комнат Skype
  
@@ -29,9 +29,6 @@ ms.locfileid: "36775330"
   
 - [Развертывание веб-портала администрирования SRS v1 в Skype для бизнеса Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-С помощью System Center Operations Manager (SCOM) можно наблюдать за системой комнаты Skype, загружая [пакет управления комнатой Skype](https://www.microsoft.com/download/details.aspx?id=42320) и устанавливая его на сервер SCOM. Вы можете использовать SCOM для настройки оповещений, контроля за работоспособностью системы помещения в Skype, создания отчетов о времени работы и многого другого. Система комнат Skype поставляется с предварительно установленным агентом мониторинга, который можно настроить так, чтобы он указывал на сервер SCOM. Ознакомьтесь с руководством по установке, предоставленным производителем системы для помещения в Skype, чтобы узнать, как настроить агент мониторинга в системе комнат Skype.
   
 ## <a name="exchange-checklist"></a>Контрольный список Exchange
 
