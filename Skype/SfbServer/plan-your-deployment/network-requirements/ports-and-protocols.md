@@ -32,7 +32,7 @@ ms.locfileid: "34297024"
   
 Информацию, доступную в этих таблицах на схеме, также можно получить, просмотрев плакат с рабочими нагрузками, ссылка на который содержится в статье [Технические схемы для Skype для бизнеса Server 2015](../../technical-diagrams.md).
 > [!NOTE]
-> - Если вы внедряете Skype для бизнеса Online (O365), см. статью [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/ru-RU/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). При создании гибридной среды необходимо воспользоваться этим разделом, а также статьей [Планирование гибридного подключения](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> - Если вы внедряете Skype для бизнеса Online (O365), см. статью [URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). При создании гибридной среды необходимо воспользоваться этим разделом, а также статьей [Планирование гибридного подключения](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Можно применять аппаратные или программные брандмауэры, не требуется использовать какие-либо определенные модели или версии. Важно лишь добавить необходимые порты в список разрешений, чтобы брандмауэр не препятствовал работе Skype для бизнеса Server.
   
 ## <a name="port-and-protocol-details"></a>Сведения о портах и протоколах
