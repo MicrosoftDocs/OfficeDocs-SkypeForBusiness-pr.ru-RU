@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 3fdb6994a1ae831ff37eb0e6ba3c17168686a4c7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715930"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568412"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -106,7 +105,7 @@ Microsoft Teams позволяет организациям назначать 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Как узнать, какие функции доступны?
 
-Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/ru-RU/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Сведения о новых функциях Teams см. на странице [Стратегия развития Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Для получения дополнительных сведений о новых и планируемых функциях Teams см. страницу [Новые возможности](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) и [блог Tech Community, посвященный Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Дополнительные сведения
 

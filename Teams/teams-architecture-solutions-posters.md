@@ -8,19 +8,18 @@ ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 search.appverid:
 - MET150
 description: 'Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях телефонии для Teams. '
-ms.openlocfilehash: c3abd05e4a83f77708f7a392a3e005586e5381f4
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 88fcb0e06fe642541421f0ba03c65b50bf9938ba
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435232"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570285"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
 
