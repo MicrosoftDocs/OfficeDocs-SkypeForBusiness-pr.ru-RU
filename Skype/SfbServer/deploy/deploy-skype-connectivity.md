@@ -83,7 +83,7 @@ ms.locfileid: "36464604"
   
 - [Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
-- [Рекомендации при невозможности обмена мгновенными сообщениями с внешними пользователями Skype для бизнеса или Skype](https://support.office.com/ru-RU/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Рекомендации при невозможности обмена мгновенными сообщениями с внешними пользователями Skype для бизнеса или Skype](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
 - [Добавление контакта в Skype для бизнеса](https://support.office.com/ru-RU/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
   
