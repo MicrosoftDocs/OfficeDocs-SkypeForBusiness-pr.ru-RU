@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Сведения о том, как установить и подключиться к предварительной версии модуля Microsoft StaffHub PowerShell.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f8f586d8a2a41d0d716e0821eb1f6d8d4bcbee
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: aa7f84342b2d4ae16cf801be513e1ae9d6440802
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142038"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569214"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
 > [!IMPORTANT]
-> Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
+> Вступление в силу 31 декабря 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 31 декабря 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
 Выполните действия, описанные в этой статье, чтобы установить и подключиться к предварительной версии модуля Microsoft StaffHub PowerShell. Это необходимо для того, чтобы [переместить StaffHub Teams в Teams](move-staffhub-teams-to-shifts-in-teams.md).
 

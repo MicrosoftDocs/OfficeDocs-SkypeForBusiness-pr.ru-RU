@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Узнайте, как использовать отчет об активности пользователей Teams в центре администрирования Microsoft Teams, чтобы увидеть, как пользователи в организации используют команды.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439565"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571382"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Отчет о действиях пользователей Microsoft Teams
 
@@ -31,7 +30,7 @@ ms.locfileid: "37439565"
 1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **активность пользователей Teams**.
 2. Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.
 
-    ![Снимок экрана: отчет об активности пользователей Teams в центре администрирования с выносками]:(../media/teams-reports-user-activity-with-callouts.png "снимок экрана: отчет о действиях пользователей Teams в центре администрирования Teams с выносками")
+    ![Снимок экрана: отчет об активности пользователей Teams в центре администрирования Teams с выносками](../media/teams-reports-user-activity-with-callouts.png "Снимок экрана: отчет об активности пользователей Teams в центре администрирования Teams с выносками")
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 

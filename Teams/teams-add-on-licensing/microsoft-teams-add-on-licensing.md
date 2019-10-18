@@ -9,7 +9,6 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Узнайте о лицензиях на надстройки, о возможностях, которые потребуются вместе с каждой лицензией, о том, как их приобрести для вашего продукта и как использовать существующую несущую. Вы можете получить сведения о ценах и планах для Office 365, кредитов связи и планов звонков.
-ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242745"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571206"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
 
@@ -87,7 +86,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 --->
 Если используются автономные средства связи через ТСОП для гибридных пользователей, необходимо назначить лицензию  *только*  лицензию **телефонной системы**. Назначать план звонков **НЕ НУЖНО**.
 
-Подробную документацию по планированию развертывания, включая телефонную систему с использованием локальной сети PSTN, можно найти в разделе решения для телефонной связи ( [Майкрософт](https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions)).
+Подробную документацию по планированию развертывания, включая телефонную систему с использованием локальной сети PSTN, можно найти в разделе [решения для телефонной](https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions)связи (Майкрософт).
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->

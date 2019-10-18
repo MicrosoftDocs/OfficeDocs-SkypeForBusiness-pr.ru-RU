@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Ниже приведены ответы на часто задаваемые вопросы о передаче номеров телефонов в Teams. После проверки ответов вы должны будете подготовиться к созданию заказа на перенос и переносе телефонных номеров. Инструкции можно найти в разделе Перенос номеров телефонов в Office 365.
-ms.openlocfilehash: 4e4a908594f9efdd80094af58dfdde6bc1e58e90
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: a75112170454def65ebcfe333d5e05e2b0dbfa46
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347772"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571506"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Общие вопросы о переносе телефонных номеров
 
@@ -165,7 +164,7 @@ ms.locfileid: "35347772"
 ## <a name="can-you-transfer-or-port-out-numbers"></a>Можете ли вы передавать и переносить номера?
 <a name="bkmk_type_1"> </a>
 
-Для передачи или ** переноса номеров телефонов из Teams другому поставщику услуг телефонной связи или перевозчику необходимо настроить ПИН-код. После того как вы настроили ПИН-код, вам нужно его включить при запросе на перенос номера телефона. Сведения о том, как настроить ПИН-код, можно найти в разделе [Настройка ПИН-кода для передачи номеров новому поставщику услуг](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+Для *передачи или переноса* номеров телефонов из Teams другому поставщику услуг телефонной связи или перевозчику необходимо настроить ПИН-код. После того как вы настроили ПИН-код, вам нужно его включить при запросе на перенос номера телефона. Сведения о том, как настроить ПИН-код, можно найти в разделе [Настройка ПИН-кода для передачи номеров новому поставщику услуг](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

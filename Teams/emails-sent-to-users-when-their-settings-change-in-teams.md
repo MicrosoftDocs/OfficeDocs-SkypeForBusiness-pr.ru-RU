@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, какая информация автоматически передается пользователям по электронной почте при изменении их настроек конференц-связи с телефонным подключением в Microsoft Teams. '
-ms.openlocfilehash: 575b2a77f216942213fa10caf5d95761e067ef1d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 47cd5812ab1abda51deca8b50d13765badc982e1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344164"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571883"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Сообщения электронной почты, отправляемые пользователям при изменении их настроек в Microsoft Teams
 
@@ -35,7 +34,7 @@ ms.locfileid: "34344164"
 
 - **Им назначена лицензия аудиоконференций, или поставщик услуг аудиоконференций изменен на Майкрософт.**
 
-     Это сообщение содержит идентификатор конференции, телефонный номер конференц-связи по умолчанию для собраний, ПИН-код аудиоконференций для пользователя, а также инструкции и ссылку для использования средства обновления собраний Skype для бизнеса Online, которое применяется для обновления существующих собраний пользователя. В разделе [Назначение лицензий Microsoft Teams](assign-teams-licenses.md) или [назначение Microsoft в качестве поставщика](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)видеоконференций.
+     Это сообщение содержит идентификатор конференции, телефонный номер конференц-связи по умолчанию для собраний, ПИН-код аудиоконференций для пользователя, а также инструкции и ссылку для использования средства обновления собраний Skype для бизнеса Online, которое применяется для обновления существующих собраний пользователя. В разделе [Назначение лицензий Microsoft Teams](assign-teams-licenses.md) или [назначение Microsoft в качестве поставщика видеоконференций](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
     > [!NOTE]
     > Если в вашей организации разрешены динамические идентификаторы конференции, все запланированные пользователем собрания будут иметь уникальные идентификаторы конференции. Вы можете настроить [динамические идентификаторы аудиоконференций в своей организации](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 

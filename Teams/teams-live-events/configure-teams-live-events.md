@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Сведения о том, как управлять параметрами для событий Teams, которые хранятся в Организации.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243706"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570194"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -30,7 +29,7 @@ ms.locfileid: "36243706"
 
 Эти параметры можно легко настроить в центре администрирования Microsoft Teams. На панели навигации слева перейдите к параметрам **собраний** > **Live Events**. 
 
-![Снимок экрана с параметрами команд Live Events] (../media/teams-live-events-settings.png "Снимок экрана с параметрами команд Live Events, которые можно настроить в центре администрирования Microsoft Teams") 
+![Снимок экрана с параметрами команд Live Events](../media/teams-live-events-settings.png "Снимок экрана с параметрами команд Live Events, которые можно настроить в центре администрирования Microsoft Teams") 
 
 ## <a name="set-up-event-support-url"></a>Настройка URL-адреса службы поддержки событий
 
@@ -41,7 +40,7 @@ ms.locfileid: "36243706"
 1. На панели навигации слева перейдите к параметрам **собраний** > **Live Event**.
 2. В разделе **URL-адрес службы поддержки**введите URL-адрес своей организации. 
 
-    ![URL-адрес службы поддержки для событий Live в центре администрирования] (../media/teams-live-events-settings-supporturl.png "Снимок экрана с параметром \"URL-адрес поддержки\" для событий Teams в реальном времени")
+    ![URL-адрес службы поддержки для событий Live в центре администрирования](../media/teams-live-events-settings-supporturl.png "Снимок экрана с параметром "URL-адрес поддержки" для событий Teams в реальном времени")
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
 Выполните следующее:
@@ -58,7 +57,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 1. На панели навигации слева перейдите к параметрам **собраний** > **Live Event**.
 2. В разделе **сторонние поставщики средств распространения видео**выполните указанные ниже действия. 
 
-    ![Параметры стороннего поставщика услуг распространения видео в центре администрирования] (../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры стороннего поставщика услуг распространения видео для событий Live")
+    ![Параметры стороннего поставщика услуг распространения видео в центре администрирования](../media/teams-live-events-settings-distribution-provider.png "Снимок экрана: параметры стороннего поставщика услуг распространения видео для событий Live")
 
     - **Использование стороннего поставщика услуг дистрибуции** Включите этот параметр, чтобы включить стороннего поставщика услуг для рассылки видео.
     - **Имя поставщика Sdn** Выберите поставщика, который вы используете.

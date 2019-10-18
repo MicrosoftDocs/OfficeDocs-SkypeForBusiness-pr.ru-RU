@@ -11,18 +11,16 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: В этой статье описано, как teams использует потоки Office 365 в различных топологиях.
-ms.openlocfilehash: d98f789017c0f5388a0adebd382d947e716d7fc9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 91be46f556419dfd1ba8c52a99b8f06a19c63542
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239357"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573416"
 ---
 # <a name="microsoft-teams-call-flows"></a>Потоки звонков Microsoft Teams
 
@@ -68,7 +66,7 @@ ms.locfileid: "36239357"
 
 ### <a name="connectivity-to-office-365"></a>Подключение к Office 365
 
-Для работы Teams требуется [Подключение к Интернету](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). URL-адреса и диапазоны IP-адресов для конечных точек указаны в списке URL-адресов и диапазонов адресов для [Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Примечание: Откройте для себя подключение к портам TCP 80 и 443, а для UDP-портов 3478 — 3481.) Кроме того, у Teams есть зависимость от Skype для бизнеса Online, который также должен быть подключен к Интернету.
+Для работы Teams требуется [Подключение к Интернету](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). URL-адреса и диапазоны IP-адресов для конечных точек указаны в списке URL-адресов [и диапазонов адресов для Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Примечание: Откройте для себя подключение к портам TCP 80 и 443, а для UDP-портов 3478 — 3481.) Кроме того, у Teams есть зависимость от Skype для бизнеса Online, который также должен быть подключен к Интернету.
 
 Потоки мультимедиа в Teams реализованы по стандартным процедурам IETF (для установления интерактивной связи).
 
@@ -115,7 +113,7 @@ ms.locfileid: "36239357"
 
 Дополнительные сведения о следующих необязательных топологиях можно найти ниже в этой статье.
 
-- Локальное развертывание Skype для бизнеса описано в гибридной **топологии Teams**.
+- Локальное развертывание Skype для бизнеса описано в **гибридной топологии Teams**.
 - Прямая маршрутизация телефонной системы (для подключения PSTN) описана в разделе **Teams с прямой топологией маршрутизации**.
 - Экспресс – маршрут описан в разделе **Teams с оптимизацией Express Route**.
 

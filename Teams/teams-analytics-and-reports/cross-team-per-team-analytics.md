@@ -1,5 +1,5 @@
 ---
-title: Просмотр различных групп и аналитических аналитик в Teams
+title: Просмотр аналитики командной и межкомандной работы в Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,19 +10,18 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Узнайте о том, как перегруппировать Analytics и в Team Analytics для групп, чтобы пользователи могли видеть данные об использовании для групп, участником которых они являются.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978773"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569705"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Просмотр различных групп и аналитических аналитик в Teams
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Просмотр аналитики командной и межкомандной работы в Teams
 
 В Microsoft Teams пользователи могут просматривать Analytics для Teams, которые они являются участниками или владельцами. Эта информация дает пользователям представление о шаблонах использования и действиях в их группах. Они могут просматривать данные, такие как количество активных пользователей, гостей и сообщений в каждой команде.
 

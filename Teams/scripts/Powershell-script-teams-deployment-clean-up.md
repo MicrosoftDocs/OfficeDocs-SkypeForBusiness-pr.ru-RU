@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 description: Вы можете использовать этот сценарий, чтобы очистить Microsoft Teams на целевых компьютерах или для конкретных пользователей.
 localization_priority: Normal
-ms.openlocfilehash: aa5ba0c6e94510449e1afd9c2fc03524c1846f9c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6e543e31dd926075d83ad0ccf7187ac602ba8065
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242878"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568088"
 ---
 <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Пример сценария PowerShell — очистка развертывания Microsoft Teams
 -------------------------------------------------------------------------

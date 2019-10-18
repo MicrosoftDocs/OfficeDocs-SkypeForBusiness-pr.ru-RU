@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: cb60f6985a00c842f8db6cd47d47fb66d43564a0
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d3b784404b59aefb08d2c17fbf4260483f55923e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329886"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572633"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Ограничения набора бесплатных номеров в Соединенном Королевстве
 

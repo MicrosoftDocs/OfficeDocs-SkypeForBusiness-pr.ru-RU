@@ -9,8 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут определять доступные пользователям типы аудиоконференций и вызовов конечных пользователей по ТСОП.
-ms.openlocfilehash: eb54a1c3cefb934c3523d915ab83b9e47b337d8b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34379256"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573335"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Политики ограничений для исходящих звонков аудиоконференций и пользовательских звонков по ТСОП
 
@@ -58,7 +57,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Нажмите кнопку **Сохранить**. 
 
-![SFB-Logo-30x30. png](media/sfb-logo-30x30.png) **с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 1.  В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел**Пользователи** **голосовой конференции** > и выберите пользователя из списка доступных пользователей.
 

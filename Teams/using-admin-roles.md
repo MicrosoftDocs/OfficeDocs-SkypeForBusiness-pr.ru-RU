@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1keywords:
 - ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
 - ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
@@ -19,12 +18,12 @@ ms.reviewer: islubin
 description: В этой статье описано, как использовать различные административные роли для управления группами.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0bc064e6f01b215f4af53a3e7cb51f2b529cd4a
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 89463b2bc36dc1886fdf595105290d67dcd10d66
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483884"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568593"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Управление группами с помощью ролей администратора Microsoft Teams
 

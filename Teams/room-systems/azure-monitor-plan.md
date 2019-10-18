@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: В этой статье рассказывается о том, как использовать монитор Azure для управления устройствами в Microsoft Teams, а также в реализации Skype для бизнеса или рабочих групп.
-ms.openlocfilehash: bdd028417ff8234a10173de7b5512faff8455629
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428093"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569922"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Планирование управления комнатами в Microsoft Teams с помощью монитора Azure
  
@@ -44,7 +45,7 @@ ms.locfileid: "36428093"
   
 ### <a name="related-tasks"></a>Связанные задачи
 
-1. После того как вы подписались на службу Azure Monitoring log, создайте пользовательские поля (как описано в разделе [соответствие настраиваемых полей](azure-monitor-deploy.md#Custom_fields)), необходимые для анализа данных, которые будут отправляться из консолей Microsoft Teams. Сюда входит понимание схемы JSON, описанной в разделе [Общие сведения](azure-monitor-manage.md#understand-the-log-entries)о журнальных записях.
+1. После того как вы подписались на службу Azure Monitoring log, создайте пользовательские поля (как описано в разделе [соответствие настраиваемых полей](azure-monitor-deploy.md#Custom_fields)), необходимые для анализа данных, которые будут отправляться из консолей Microsoft Teams. Сюда входит понимание схемы JSON, описанной в разделе [Общие сведения о журнальных записях](azure-monitor-manage.md#understand-the-log-entries).
     
 2. Разработайте представление для управления комнатами Microsoft Teams в службе анализа журналов. Вы можете либо [создать панель мониторинга Microsoft Teams, используя метод импорта,](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) либо [создать панель мониторинга Microsoft Teams на панели управления комнат вручную](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
     

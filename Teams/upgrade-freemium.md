@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881437654744ef1d314f239ee98b7119e774cd00
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fd0de5ba0901b77ef42e40ca0b18228d5d78e6fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236402"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568491"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Бесплатный перевод Microsoft Teams на версию по подписке Office 365
 ======================================================
@@ -53,7 +52,7 @@ ms.locfileid: "36236402"
 - OneDrive, SharePoint, Planner, Yammer и другие службы Office 365
 - 1 ТБ места на пользователя
 - Запланированные собрания
-- Голосовые конференции
+- Аудиоконференции
 - Улучшенные функции безопасности и соответствия требованиям, в том числе многофакторная проверка подлинности, единый вход, а также расширенный аудит и создание отчетов.
 - Административные элементы управления и возможности поддержки, включая 24 x 7 телефонов и веб-поддержку, средства администрирования для управления пользователями и приложениями, отчеты об использовании служб Office 365, соглашения на уровне обслуживания, а также настраиваемые параметры и политики пользователей.
 
@@ -93,7 +92,7 @@ ms.locfileid: "36236402"
 ## <a name="more-information"></a>Дополнительные сведения
 
 - Дополнительные сведения о версиях Teams и их возможностях можно найти в статье [Сравнение планов групп](https://products.office.com/microsoft-teams/free).
-- Дополнительные сведения о переходе на полную версию Teams можно найти в разделе Обновление в Teams с помощью [бесплатных](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)команд.
-- Дополнительные задачи администрирования, связанные с обновлением пользователей, в том числе добавление пользовательских лицензий, изменение имен пользователей и назначение временных паролей, приведены в разделе администраторам, [которые могут обновлять из Teams бесплатно до платной подписки](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
+- Дополнительные сведения о [переходе](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)на полную версию Teams можно найти в разделе Обновление в Teams с помощью бесплатных команд.
+- Дополнительные задачи администрирования, связанные с обновлением пользователей, в том числе добавление пользовательских лицензий, изменение имен пользователей и назначение временных паролей, приведены [в разделе администраторам, которые могут обновлять из Teams бесплатно до платной подписки](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
 - Дополнительные сведения об управлении группами в Организации можно найти в разделе [Управление бесплатной версией Microsoft Teams](manage-freemium.md).
 

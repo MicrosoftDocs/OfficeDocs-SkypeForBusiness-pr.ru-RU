@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Узнайте о политиках настройки приложений в Microsoft Teams и о том, как их использовать для закрепления приложений для настройки групп для пользователей в Организации.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790913"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570296"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 

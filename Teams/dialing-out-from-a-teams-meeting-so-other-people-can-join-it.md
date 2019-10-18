@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как организаторы собрания могут совершать обратные звонки другим людям через Teams и что для этого нужно.
-ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548926"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571784"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Обратные звонки из собрания Microsoft Teams, позволяющие другим людям присоединиться к нему
 
@@ -44,7 +44,7 @@ ms.locfileid: "34548926"
 Вот как можно сделать исходящие звонки.
 
  **Действие 1:** На собрании используйте ![снимок экрана " **Добавить** пользователей" в разделе "добавить](media/add-people-button.png) пользователей", чтобы звонить по номеру телефона.
- **Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле **пригласить кого** -либо или набрать номер.
+ **Шаг 2.** Введите полный номер телефона, включая код страны или региона, в поле **пригласить кого-либо или набрать номер** .
   
 ![Снимок экрана: диалоговое окно "пригласить кого-либо или набрать номер"](media/invite-someone-box.png)
     

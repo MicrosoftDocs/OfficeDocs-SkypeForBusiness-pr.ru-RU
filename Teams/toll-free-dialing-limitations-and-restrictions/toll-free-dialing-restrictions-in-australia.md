@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f518e548c39b574a76350dd241c9672b940c0703
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241837"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570062"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Бесплатный набор ограничений на звонки в Австралии
 

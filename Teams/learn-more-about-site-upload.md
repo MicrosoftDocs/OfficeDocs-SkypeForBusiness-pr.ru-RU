@@ -1,5 +1,5 @@
 ---
-title: Добавление и обновление меток отчетов
+title: Добавление и обновление наклеек для отчетов
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Сведения о том, как отправить текстовый файл, содержащий список физических расположений и связанных с ними подсетей, которые можно использовать в качестве меток отчетности для аналитики звонков и отчетов панели мониторинга качества звонков.
 ms.custom:
@@ -21,14 +20,14 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396436"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572040"
 ---
-<a name="add-and-update-reporting-labels"></a>Добавление и обновление меток отчетов
+<a name="add-and-update-reporting-labels"></a>Добавление и обновление наклеек для отчетов
 ============================
 
 Метки отчетов используются в Организации для указания физического расположения офисов, зданий и организационных сайтов. Страница "метки отчетов" в центре администрирования Microsoft Teams позволяет предоставить текстовый файл (CSV или TSV), содержащий список физических местоположений и связанных с ними подсетей. Этот файл используется аналитикой звонков и цифровой панелью качества звонков для создания отчетов. Когда вы загружаете сопоставление подсети, отчеты, предоставляемые этими службами, также будут содержать названия местоположений, что облегчает понимание и использование отчетов для исправление потенциальных проблем.

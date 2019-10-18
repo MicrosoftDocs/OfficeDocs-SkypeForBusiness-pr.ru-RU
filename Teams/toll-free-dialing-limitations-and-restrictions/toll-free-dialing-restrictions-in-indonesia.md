@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 1a30cad8469837a392509b0c263cbbe54dd9969f
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: ef43e1e818f7d57190d493344118d9f914a52485
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334953"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573188"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Ограничения набора бесплатных номеров в Индонезии
 

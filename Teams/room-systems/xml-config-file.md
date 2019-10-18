@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: В этой статье объясняется, как удаленно управлять параметрами по умолчанию, используемыми устройством Microsoft Teams, в том числе с применением настраиваемой темы.
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774917"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573466"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации
 
@@ -131,7 +132,7 @@ ms.locfileid: "36774917"
 
 Файл изображения темы должен быть помещен в`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` папку. Введите имя файла и расширение в переменной \<кустомсемеимажеурл.\>
   
-Файл изображения должен располагаться в точности 3840X1080 пикселей и иметь один из следующих форматов файлов: JPG, JPEG, PNG и BMP. Если в вашей организации требуется настраиваемое изображение, в конструкторе графики можно использовать [шаблон Photoshop с пользовательскими темами](https://go.microsoft.com/fwlink/?linkid=870441). В нем содержится дополнительная информация о том, где следует размещать различные элементы в изображении темы и какие области появляются на консолях и экранах.
+Файл изображения должен располагаться в точности 3840X1080 пикселей и иметь один из следующих форматов файлов: JPG, JPEG, PNG и BMP. Если в вашей организации требуется настраиваемое изображение, в конструкторе графики можно использовать [шаблон Photoshop с пользовательскими темами](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd). Он содержит подробные сведения о том, где различные элементы пользовательского интерфейса относятся к оставшейся части изображения темы, а также о том, какие области отображаются на консоли и на экране.
   
 Изображение темы будет распознаваться только после того, как XML-файл конфигурации обновится при запуске устройства. После обработки и удаления нового XML-файла графический файл темы удаляется из каталога.
   

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330518"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571655"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Ограничения и запреты для бесплатных номеров
 
@@ -61,7 +60,7 @@ ms.locfileid: "34330518"
 > - [Франция](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [Германия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [Гондурас](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [Гонконг](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [Гонконг, САР](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [Венгрия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [Индия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [Индонезия](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)

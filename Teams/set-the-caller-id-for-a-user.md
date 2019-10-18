@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 64ab051449357476d5e6421723d393622899263a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 10027fa5b1456bd744f14bae763939b395862d4b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793132"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571297"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -68,7 +67,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     
 2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
     
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Restart your computer when you are prompted.
+3. Если у вас нет версии 3,0 или более новой, вам нужно скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Перезагрузите компьютер после появления соответствующего запроса.
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
@@ -112,7 +111,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
   > [!NOTE]  
   > Во всех случаях поле «Номер службы» не должно содержать начальный символ «+».
 
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [новых](https://technet.microsoft.com/en-us/library/mt793855.aspx)возкскаллинглинеидентитих.
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [новых Возкскаллинглинеидентитих](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
 - Чтобы применить новую политику, созданную для Иван мрамора, выполните указанные ниже действия.
     
@@ -159,7 +158,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Шесть причин, по которым вам может потребоваться использовать Windows PowerShell для управления Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

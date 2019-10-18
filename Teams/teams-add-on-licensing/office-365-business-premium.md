@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 бизнес премиум '
+title: 'Office 365 бизнес премиум '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,14 +17,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях и возможностях надстроек, а также о том, как приобрести планы Office 365 Business Premium. '
-ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
-ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
+ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040740"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571330"
 ---
-# <a name="office-365-business-premium"></a>Office 365 бизнес премиум
+# <a name="office-365-business-premium"></a>Office 365 бизнес премиум
 
 Если у вас есть [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Microsoft Teams, чтобы звонить другим людям из вашей компании, которые входят в вашу подписку. Например, если у вашей организации есть 10 человек, вы можете использовать Teams для звонков и обмена мгновенными сообщениями.
 

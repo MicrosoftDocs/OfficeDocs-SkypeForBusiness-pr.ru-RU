@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Сведения о том, какие страны и регионы имеют номера конференц-связи с телефонным подключением и как они назначаются автоматически.
-ms.openlocfilehash: e5644ab613fec588a901691632d27ebf25e9e80a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299471"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573324"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Телефонные номера для аудиоконференций в Microsoft Teams
 
-При настройке **аудиоконференций** для Microsoft Teams номера телефонного подключения автоматически назначаются вашей организации. Чтобы просмотреть номера телефонов, назначенные вашему мосту для голосовой связи, в центре администрирования Microsoft Teams перейдите в раздел **** > **мосты конференций**для собраний. Дополнительные сведения можно [найти в разделе Просмотр списка номеров голосовой Конференц-](see-a-list-of-audio-conferencing-numbers-in-teams.md)связи.
+При настройке **аудиоконференций** для Microsoft Teams номера телефонного подключения автоматически назначаются вашей организации. Чтобы просмотреть номера телефонов, назначенные вашему мосту для голосовой связи, в центре администрирования Microsoft Teams перейдите в раздел**мосты конференций**для **собраний** > . Дополнительные сведения можно [найти в разделе Просмотр списка номеров голосовой Конференц-](see-a-list-of-audio-conferencing-numbers-in-teams.md)связи.
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Покрытие и цены для аудиоконференций

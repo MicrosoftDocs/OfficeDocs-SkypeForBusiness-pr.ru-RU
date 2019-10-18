@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Получите рекомендации по планированию перемещения StaffHub Teams на смену в Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715919"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569675"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Планирование перемещения StaffHub Teams на смену в Microsoft Teams
 
 > [!IMPORTANT]
-> Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> Вступление в силу 31 декабря 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 31 декабря 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
 
 Переход с StaffHub на Teams начнется, когда вы начнете планирование изменения. Для обеспечения успеха перемещения в Teams мы создали образец временной шкалы, демонстрирующий типичный план перехода. Пример структуры временной шкалы планируют действия для подготовки к перемещению и переход от StaffHub Teams Организации к Teams.
 

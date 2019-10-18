@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Японии для Microsoft Teams.
-ms.openlocfilehash: 36a1351818e6c8c1a5a6ec663873788980817d29
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: c3e8692b4095843d17352c13509deaa701aa6e54
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35606536"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573133"
 ---
 # <a name="phone-number-management-for-japan"></a>Управление номерами телефонов для Японии
 
@@ -33,7 +32,7 @@ ms.locfileid: "35606536"
 
 В Японии мы соработали с SoftBank для приобретения и подготовки планов звонков для клиентов с адресом выставления счетов в Японии. SoftBank продавал абонентские планы, предоставит номера пользователей для Японии, а также предоставляет поддержку для управления телефонными номерами, но и номера услуг и лицензии для голосовой конференции, автосекретарей и очередей звонков.  будет по-прежнему продаваться и управляться Office 365.
 
-Дополнительные сведения о вызове [Softbank для Office 365](https://aka.ms/SoftBankVoicePlan).
+Дополнительные сведения о [вызове Softbank для Office 365](https://aka.ms/SoftBankVoicePlan).
 
 Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Японии для Microsoft Teams.
 
