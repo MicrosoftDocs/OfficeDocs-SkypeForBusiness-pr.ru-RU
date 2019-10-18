@@ -184,7 +184,7 @@ ms.locfileid: "35418379"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Пользователи</h3>
-                                                    <p>Справка, обучение и техническая поддержка для пользователей Skype для бизнеса на сайте <a href='https://support.office.com/ru-RU/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Справка, обучение и техническая поддержка для пользователей Skype для бизнеса на сайте <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
