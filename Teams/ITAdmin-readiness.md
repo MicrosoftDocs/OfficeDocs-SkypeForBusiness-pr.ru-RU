@@ -1,5 +1,5 @@
 ---
-title: Обучение администратора для работы с Microsoft Teams
+title: Обучение ИТ-администратора для работы с Microsoft Teams
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -10,25 +10,24 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-description: Учебные видеоролики, презентации PowerPoint, учебные материалы и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
+description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67adf55badb30504ba55ed814c735de89fb9dc6b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483225"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563881"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Обучение администратора для работы с Microsoft Teams
+# <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
 
-Учебные материалы помогут вам повысить свой уровень информированности о Teams, обучать других пользователей или запускать семинары. Заглядывайте сюда время от времени, чтобы не пропустить новую информацию. 
+Используйте учебные материалы для самостоятельного изучения групп, обучения других пользователей и проведения семинаров. Регулярно проверяйте новое содержимое. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -42,7 +41,7 @@ ms.locfileid: "36483225"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Быстро начать работу с помощью нескольких групп и каналов</h3>
+                        <h3>Быстро приступите к работе с несколькими группами и каналами</h3>
                     </div>
                 </div>
             </div>
@@ -60,7 +59,7 @@ ms.locfileid: "36483225"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ознакомиться c видео с передовыми методами и инструкциями на канале “Coffee in the Cloud” в YouTube.</h3>
+                        <h3>Просмотр рекомендаций и видеороликов в кафе в канале облака на YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -78,7 +77,7 @@ ms.locfileid: "36483225"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Получить учебные ресурсы для ваших пользователей</h3>
+                        <h3>Обучение пользователей</h3>
                     </div>
                 </div>
             </div>
@@ -90,32 +89,33 @@ ms.locfileid: "36483225"
 
 <h2>Техническое обучение</h2>
 
-| Модуль | Видео | Презентация PowerPoint |
+| Модуль | Видеосвязь | Набор слайдов PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| Основы - Ключевые компоненты | [Видео](https://aka.ms/teams-foundations) | [Презентация](https://aka.ms/teams-foundations-deck) |
-| Клиент рабочего стола Windows | [Видео](https://aka.ms/teams-clients) | [Презентация](https://aka.ms/teams-clients-deck) |
-| Распоряжение, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Презентация](https://aka.ms/teams-governance-deck) |
-| Безопасность и соответствие требованиям | [Видео](https://aka.ms/teams-security-compliance) | [Презентация](https://aka.ms/teams-security-compliance-deck) |
-| Планирование сети | [Видео](https://aka.ms/teams-networking) | [Презентация](https://aka.ms/teams-networking-deck) |
-| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Презентация](https://aka.ms/teams-quality-deck) |
-| Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Презентация](https://aka.ms/teams-meetings-intro-deck) |
-| Трансляции | [Видео](https://aka.ms/teams-live-events-session) | [Презентация](https://aka.ms/teams-live-events-deck) |
-| Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Презентация](https://aka.ms/teams-phone-system-deck) |
-| Прямая маршрутизация | [Видео](https://aka.ms/teams-direct-routing) | [Презентация](https://aka.ms/teams-direct-routing-deck) |
-| Переход со Skype для бизнеса на Teams | [Видео 1: Общие сведения о переходе](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: Планирование перехода](https://aka.ms/teams-upgrade-plan)</br>[Видео3: Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: Интерфейс администратора](https://aka.ms/teams-upgrade-admin) | [Презентация](https://aka.ms/teams-upgrade-deck)|
+| Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
+| Классическое приложение Windows | [Видео](https://aka.ms/teams-clients) | [Крытий](https://aka.ms/teams-clients-deck) |
+| Руководство, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Крытий](https://aka.ms/teams-governance-deck) |
+| Соответствие & безопасности | [Видео](https://aka.ms/teams-security-compliance) | [Крытий](https://aka.ms/teams-security-compliance-deck) |
+| Сетевое планирование | [Видео](https://aka.ms/teams-networking) | [Крытий](https://aka.ms/teams-networking-deck) |
+| Обзор качества звонка | [Видео](https://aka.ms/teams-quality) | [Крытий](https://aka.ms/teams-quality-deck) |
+| Общие сведения о собраниях | [Видео](https://aka.ms/teams-meetings-intro) | [Крытий](https://aka.ms/teams-meetings-intro-deck) |
+| Журналы мультимедиа |[Видео](https://aka.ms/media-in-teams)  | [Крытий](https://aka.ms/media-in-teams-deck)|
+| События в реальном времени | [Видео](https://aka.ms/teams-live-events-session) | [Крытий](https://aka.ms/teams-live-events-deck) |
+| Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Крытий](https://aka.ms/teams-phone-system-deck) |
+| Прямая маршрутизация | [Видео](https://aka.ms/teams-direct-routing) | [Крытий](https://aka.ms/teams-direct-routing-deck) |
+| Переход со Skype для бизнеса на Teams | [Видеоролик 1: введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2: планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видеоролик 3: сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4: взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Крытий](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Краткие руководства по началу работы</h2>
 
-- [Начало работы: Teams для образовательных учреждений](teams-quick-start-edu.yml)
-- [Начало работы: Настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
+- [Краткое руководство: группы для администраторов для образования](teams-quick-start-edu.yml)
+- [Краткое руководство: Настройка планов звонков в Teams](configuring-teams-calling-quickstartguide.md)
 
-<h2>Учебники</h2>
+<h2>Материалов</h2>
 
 - [Руководство. Собрания в Teams](tutorial-meetings-in-teams.yml)
 - [Руководство. Аудиоконференции в Teams](tutorial-audio-conferencing.yml)
-- [Руководство. Общие сведения о звонках в Teams](tutorial-calling-in-teams.yml)
+- [Учебное руководство. Общие сведения о звонках в Microsoft Teams](tutorial-calling-in-teams.yml)
 
 <h2>Курсы</h2>
 
-- [Организация командной работы с помощью Microsoft Teams](https://aka.ms/edx-cld267x-about)
-- [Специалист по внедрению служб Microsoft](https://aka.ms/AdoptionCert)
+- [Включение функции совместной работы с Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Специалист по внедрению служб (Майкрософт)](https://aka.ms/AdoptionCert)

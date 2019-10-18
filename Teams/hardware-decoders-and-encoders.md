@@ -1,5 +1,5 @@
 ---
-title: Рекомендации по аппаратному декодеру и драйверам кодировщика
+title: Рекомендации по драйверам аппаратного декодера и кодировщика
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,8 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: Список сочетаний операционной системы, модели и драйверов, для которых не включена аппаратное ускорение из-за проблем с драйверами.
@@ -18,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242198"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570767"
 ---
-# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Рекомендации по аппаратному декодеру и драйверам кодировщика
+# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Рекомендации по драйверам аппаратного декодера и кодировщика
 
 Корпорация Майкрософт поддерживает все декодеры и кодировщики, кроме описанных в этой статье.
 

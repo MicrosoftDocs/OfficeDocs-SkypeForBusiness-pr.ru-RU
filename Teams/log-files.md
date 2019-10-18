@@ -9,18 +9,17 @@ audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Сведения о журналах отладки, мультимедиа и рабочих журналах, создаваемых Microsoft Teams, их расположении и роли при устранении неполадок.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6af503206118b03d9d86fdaf2491e92c69cf9716
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ba40d1d3694666f8fd0b4612ffe53c49808f7297
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244728"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564926"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Использование файлов журналов для устранения неполадок в Microsoft Teams
 =================================================

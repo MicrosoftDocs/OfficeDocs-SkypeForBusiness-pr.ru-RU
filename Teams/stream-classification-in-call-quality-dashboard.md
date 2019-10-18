@@ -8,8 +8,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Узнайте, как качество потока классифицируется в панели мониторинга качества звонка для команд Microsoft и Skype для бизнеса Online.
-ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328335"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569999"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Классификация потоков в Панели мониторинга качества звонка
 
@@ -41,7 +40,7 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 
 |Показатель|Условие|Пояснение|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Среднее ухудшение средней экспертной оценки разборчивости речи для потока. Сколько потерь сети и колебаний влияют на качество полученного звука.|
+|Audio Degradation Avg|> 1,0|Средняя сеть — это снижение очков для потока. Сколько потерь сети и колебаний влияют на качество полученного звука.|
 |Round Trip|>500|Среднее время распространения сети для кругового приема, вычисленное в миллисекундах. Подробные сведения можно найти в [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Средний коэффициент потерь пакетов для потока.|
 |Искажение|> 30|Среднее дрожание для потока в миллисекундах.|

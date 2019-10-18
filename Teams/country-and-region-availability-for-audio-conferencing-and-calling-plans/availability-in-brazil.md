@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бразилии.
-ms.openlocfilehash: 670b81d973fc47831574a90ec0ab05855cc2685f
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 0a2c435b155a8cdca39a934d97b1a6f003354948
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774602"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571088"
 ---
 # <a name="availability-in-brazil"></a>Доступность в Бразилии
 

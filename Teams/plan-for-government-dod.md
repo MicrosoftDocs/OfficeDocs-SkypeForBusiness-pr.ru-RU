@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435221"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573299"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Планирование развертывания Microsoft 365 для государственных организаций (DoD)
 
@@ -50,7 +49,7 @@ ms.locfileid: "37435221"
 
 |    |     |
 |-----------|------------|
-| ![Значок, который описывает точки принятия решений](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Решите, подходит ли компания Microsoft 365 для государственных организаций по требованию для вашей организации.</li><li>Убедитесь, что ваша организация соответствует требованиям к приемлемости.</li></ul> |
+| ![Значок, изображающий точки принятия решений](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Решите, подходит ли компания Microsoft 365 для государственных организаций по требованию для вашей организации.</li><li>Убедитесь, что ваша организация соответствует требованиям к приемлемости.</li></ul> |
 
 > [!Note]
 > Microsoft 365, правительство — DoD – это только в США. Пользователи, не связанные с правительством США, могут выбрать один из нескольких [планов Office 365 для государственных учреждений](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -80,7 +79,7 @@ ms.locfileid: "37435221"
 | | Единая система присутствия (Skype для бизнеса и Teams) | В списке невыполненной работы правительственных учреждений |
 | Ленты | Веб-канала | Доступно |
 |  | Мои действия | Доступно |
-| Chat | Диалога | Доступно |
+| Чат | Диалога | Доступно |
 | | Файлы | Доступно |
 | | Организационная диаграмма | Доступно |
 | | Ленты | Доступно |

@@ -8,15 +8,16 @@ audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: В этой статье рассказывается о том, как переносить системные устройства комнат Lync для использования программного обеспечения Microsoft Teams.
-ms.openlocfilehash: c98d2081c29967c033d705082b4ebbffbd42b3ea
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427963"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573664"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Миграция устройств из системы комнаты Lync (ЛРС) в комнаты Microsoft Teams
 
@@ -24,7 +25,7 @@ ms.locfileid: "36427963"
 
 Программы Microsoft Teams работают с Microsoft Teams в дополнение к Skype для бизнеса Server и Интернет-службам для собраний и звонков по всем поддерживаемым устройствам Microsoft Teams.
 
-Существующие устройства продолжают работать после завершения поддержки программного обеспечения для системы комнат Skype v1. **** Тем не менее, если это программное обеспечение обнаружено в программной ошибке, требующей от корпорации Майкрософт устранения исправлений, она не будет поддерживаться. SRS v1 использует TLS 1.0/1,1, который будет использоваться корпорацией Майкрософт в будущем. Вы можете узнать больше о том, как [подготовиться к использованию протокола TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Комнаты Microsoft Teams — это добавление поддержки TLS 1,2 и продолжение работы после 31 октября 2018 г. Пользователи Skype для бизнеса с локальной версией не должны отключать TLS 1.0/1.1, пока в Microsoft Teams не будет объявлено о поддержке TLS 1,2, независимо от того, какие общие правила рекомендуются для использования TLS 1.0/1.1.
+Существующие **устройства** продолжают работать после завершения поддержки программного обеспечения для системы комнат Skype v1. Тем не менее, если это программное обеспечение обнаружено в программной ошибке, требующей от корпорации Майкрософт устранения исправлений, она не будет поддерживаться. SRS v1 использует TLS 1.0/1,1, который будет использоваться корпорацией Майкрософт в будущем. Вы можете узнать больше о том, как [подготовиться к использованию протокола TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Комнаты Microsoft Teams — это добавление поддержки TLS 1,2 и продолжение работы после 31 октября 2018 г. Пользователи Skype для бизнеса с локальной версией не должны отключать TLS 1.0/1.1, пока в Microsoft Teams не будет объявлено о поддержке TLS 1,2, независимо от того, какие общие правила рекомендуются для использования TLS 1.0/1.1.
 
 ## <a name="which-devices-are-affected"></a>Какие устройства затронуты?
 
@@ -41,11 +42,11 @@ ms.locfileid: "36427963"
 
 ### <a name="crestron-hardware-trade-in-program"></a>Программа крестрон оборудования
 
-Крестрон предоставит обновление [системы КРЕСТРОН SR](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) или эквивалент для всех пользователей системы, не являющихся крестрон, например Smart или Polycom ЛРС. Просмотреть подробные сведения об этой [](https://support.crestron.com/app/answers/answer_view/a_id/1000220) программе или <!-- For details, -->[Электронная почта](mailto:lrsupgrade@crestron.com) Поддержка крестрон ЛРС.  
+Крестрон предоставит обновление [системы КРЕСТРОН SR](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) или эквивалент для всех пользователей системы, не являющихся крестрон, например Smart или Polycom ЛРС. Просмотреть подробные сведения об этой [программе или](https://support.crestron.com/app/answers/answer_view/a_id/1000220) <!-- For details, -->[Электронная почта](mailto:lrsupgrade@crestron.com) Поддержка крестрон ЛРС.  
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Крестрон RL2 переход к комнатам Microsoft Teams
 
-Существующие Крестрон RL2 (также называемые Крестрон RL200) пользователи могут получить комплект обновления, чтобы обновить текущую RL2 до RL3 с минимальной стоимостью на устройство. Ознакомьтесь с подробными сведениями об этой программе. [](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
+Существующие Крестрон RL2 (также называемые Крестрон RL200) пользователи могут получить комплект обновления, чтобы обновить текущую RL2 до RL3 с минимальной стоимостью на устройство. Ознакомьтесь с подробными сведениями об [этой программе.](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
 
 ### <a name="smart-room-systems-upgrade"></a>Обновление системы SMART Room
 
@@ -54,7 +55,7 @@ ms.locfileid: "36427963"
 
 ## <a name="what-should-you-do"></a>Что нужно сделать?
 
-Мы рекомендуем вам запланировать обновление системных устройств Lync для комнат Microsoft Teams до устаревшей версии TLS 1.0/1.1 с помощью вариантов обновления, описанных выше. Кроме того, вы можете заменить существующие устройства новыми устройствами, сертифицированными для комнат Microsoft Teams. Ознакомьтесь [](https://aka.ms/roomdevices) со сведениями о комнатах, а также ознакомьтесь с [требованиями к комнатам Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
+Мы рекомендуем вам запланировать обновление системных устройств Lync для комнат Microsoft Teams до устаревшей версии TLS 1.0/1.1 с помощью вариантов обновления, описанных выше. Кроме того, вы можете заменить существующие устройства новыми устройствами, сертифицированными для комнат Microsoft Teams. Ознакомьтесь со сведениями о [комнатах](https://aka.ms/roomdevices) , а также ознакомьтесь с [требованиями к комнатам Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
 > [!NOTE]
 > Функции сенсорного ввода и доски пока не поддерживаются в комнатах Microsoft Teams. Поддержка сенсорного ввода и доски в настоящее время запланирована для комнат Microsoft Teams и будет добавлена в 2019.

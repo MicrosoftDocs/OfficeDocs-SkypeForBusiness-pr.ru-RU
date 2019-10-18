@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Узнайте о том, как использовать отчет о заблокированных пользователях PSTN в центре администрирования Microsoft Teams, чтобы получить обзор пользователей Teams в вашей организации, которым запрещено совершать звонки PSTN.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7bfff166eec388247b65760c3338cb892984f3
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131679"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564899"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Отчет о заблокированных пользователях в Microsoft Teams КТСОП
 
@@ -30,7 +29,7 @@ ms.locfileid: "37131679"
 
 В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите пункт **Заблокированные пользователи PSTN**и нажмите кнопку **выполнить отчет**.
 
-![Снимок экрана: отчет о заблокированных пользователях PSTN в центре администрирования] (../media/teams-reports-pstn-blocked-users-with-callouts.png "Снимок экрана: отчет о заблокированных пользователях PSTN в центре администрирования Microsoft Teams с пронумерованными выносками")
+![Снимок экрана: отчет о заблокированных пользователях PSTN в центре администрирования](../media/teams-reports-pstn-blocked-users-with-callouts.png "Снимок экрана: отчет о заблокированных пользователях PSTN в центре администрирования Microsoft Teams с пронумерованными выносками")
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 

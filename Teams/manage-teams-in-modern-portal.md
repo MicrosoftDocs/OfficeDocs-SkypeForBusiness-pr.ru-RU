@@ -1,5 +1,5 @@
 ---
-title: Управление командами в Центре администрирования Microsoft Teams
+title: Управление группами в центре администрирования Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,18 +13,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8937827cb5e3fa80e9ebae93d9958be2cf0f38
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286245"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571938"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление командами в Центре администрирования Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление группами в центре администрирования Microsoft Teams
 ==========================================
 
 ## <a name="overview"></a>Обзор
@@ -34,13 +33,13 @@ ms.locfileid: "36286245"
 - Глобальный администратор
 - Администратор служб Teams
 
-Дополнительные сведения о ролях администратора в Teams можно найти в разделе [Использование ролей администратора Microsoft Teams для управления группами](using-admin-roles.md), а также Узнайте больше о том, как использовать командлеты PowerShell для управления группами в справочнике по [командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
+Дополнительные сведения о ролях администратора в Teams можно найти в разделе [Использование ролей администратора Microsoft Teams для управления группами](using-admin-roles.md), а также Узнайте больше о том, как использовать командлеты PowerShell для управления группами в [справочнике по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
 В этой статье приводятся общие сведения о средствах управления для Teams в центре администрирования Microsoft Teams.
 
 ## <a name="teams-overview-grid"></a>Сетка обзора групп
 
-Средства управления для Teams находятся под **** узлом Teams в центре администрирования Microsoft Teams. (В центре администрирования выберите **команды** > **Управление группами**.) Каждая команда помещается в группу Office 365, а этот узел предоставляет представление групп, которые были включены в Microsoft Teams в вашей организации.
+Средства управления для Teams находятся под узлом **Teams** в центре администрирования Microsoft Teams. (В центре администрирования выберите **команды** > **Управление группами**.) Каждая команда помещается в группу Office 365, а этот узел предоставляет представление групп, которые были включены в Microsoft Teams в вашей организации.
 
 ![Снимок экрана: сетка обзора групп](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -117,7 +116,7 @@ ms.locfileid: "36286245"
 
 Замените **{groupId}** в запросе на вопрос фактического сервера, который можно получить с помощью PowerShell для Exchange Online, с помощью командлета **[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)** , как атрибут "**ExternalDirectoryObjectId**".
 
-1. [Проводник](https://developer.microsoft.com/en-us/graph/graph-explorer)по диаграммам Access.
+1. [Проводник по диаграммам](https://developer.microsoft.com/en-us/graph/graph-explorer)Access.
 
 2. Войдите в проводник диаграмм в меню слева.
 

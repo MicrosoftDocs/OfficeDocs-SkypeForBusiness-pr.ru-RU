@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7cb0e76771563305ce98445818c77364b0849845
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793198"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570579"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
@@ -148,7 +147,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 5. Нажмите кнопку **Сохранить**.
 
     
-Ознакомьтесь [с разрешениями изменение параметров для моста](change-the-settings-for-an-audio-conferencing-bridge.md)видеоконференций.
+Ознакомьтесь [с разрешениями изменение параметров для моста видеоконференций](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Установка длины ПИН-кода для собраний**
 
@@ -161,7 +160,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     ПИН-код должен включать в себя от 4 до 12 цифр. The default is 5.
 
     
-Ознакомьтесь [с разрешениями изменение параметров для моста](change-the-settings-for-an-audio-conferencing-bridge.md)видеоконференций.
+Ознакомьтесь [с разрешениями изменение параметров для моста видеоконференций](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Включение и отключение отправки электронной почты пользователям с аудио**
 
@@ -169,7 +168,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 2. В верхней части страницы **мосты** выберите пункт **Параметры моста**. 
 
-3. В области **Параметры моста** включите или отключите автоматическую **отправку сообщений пользователям при изменении параметров голосовой конференции**.
+3. В области **Параметры моста** включите или отключите **автоматическую отправку сообщений пользователям при изменении параметров голосовой конференции**.
 
 4. Нажмите кнопку **Сохранить**. 
  

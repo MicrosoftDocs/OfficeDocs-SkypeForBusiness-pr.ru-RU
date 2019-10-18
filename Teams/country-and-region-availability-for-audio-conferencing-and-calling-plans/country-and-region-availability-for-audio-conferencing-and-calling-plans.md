@@ -11,7 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774657"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573089"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -74,7 +74,7 @@ ms.locfileid: "36774657"
 > - [Гана](availability-in-ghana.md)
 > - [Греция](availability-in-greece.md)
 > - [Гондурас](availability-in-honduras.md)
-> - [Гонконг](availability-in-hong-kong.md)
+> - [Гонконг, САР](availability-in-hong-kong.md)
 > - [Венгрия](availability-in-hungary.md)
 > - [Индия](availability-in-india.md)
 > - [Индонезия](availability-in-indonesia.md)
@@ -89,7 +89,7 @@ ms.locfileid: "36774657"
 > - [Латвия](availability-in-latvia.md)
 > - [Литва](availability-in-lithuania.md)
 > - [Люксембург](availability-in-luxembourg.md)
-> - [Македония](availability-in-macedonia.md)
+> - [Северная Македония](availability-in-macedonia.md)
 > - [Малайзия](availability-in-malaysia.md)
 > - [Мальта](availability-in-malta.md)
 > - [Мексика](availability-in-mexico.md)

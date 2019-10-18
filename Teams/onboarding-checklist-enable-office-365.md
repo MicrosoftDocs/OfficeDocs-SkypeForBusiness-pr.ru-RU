@@ -11,17 +11,14 @@ audience: admin
 description: Следуйте задачам списка дел и действиям в этом контрольном списке при настройке Office 365 для Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53d20128607a44a0c8a6a9ef520c2a3808e0d495
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c102a09e8c0249b9919769b6714b2382c33ccc30
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238398"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567853"
 ---
 # <a name="enable-office-365"></a>Активация Office 365
  

@@ -7,7 +7,8 @@ ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: 887393825d2894f97afa6f811455e349fd91d877
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427595"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570205"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -56,13 +57,13 @@ ms.locfileid: "36427595"
 
 Чтобы определить версию встроенного по устройства на мобильном устройстве, ознакомьтесь со сведениями [о том, как найти версию микропрограммы на мобильном](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) устройстве.
 
-Лицензии Microsoft Teams можно приобрести в составе подписок на [Office 365](/MicrosoftTeams/Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
+Лицензии Microsoft Teams можно приобрести в составе [подписок на Office 365](/MicrosoftTeams/Office-365-licensing.md). Чтобы узнать больше о необходимых лицензиях на использование Microsoft Teams на телефонах, ознакомьтесь со статьей доступные [лицензии на телефонную систему](https://products.office.com/microsoft-teams/voice-calling).
 
 Дополнительные сведения о [том, как получить доступ к Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b) , можно узнать в разделе Получение доступа к Teams
 
 * * *
 
-Если вы хотите присоединиться к программе для сертификации, Узнайте [о том, как](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) присоединиться к ней, чтобы узнать о требованиях и доступных программах.
+Если вы хотите присоединиться к программе для сертификации, Узнайте [о том, как присоединиться](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) к ней, чтобы узнать о требованиях и доступных программах.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ce20d72ff7d4d797c8e0689472cd483c5f06036b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588193"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571495"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 
@@ -75,9 +74,9 @@ ms.locfileid: "35588193"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Шаг 2: задать поставщика аудиоконференций для людей, проводящих или планирующих собрания
 
-Если вы назначаете **** лицензию на голосовую конференцию для пользователей в вашей организации, у которых нет Skype для бизнеса, интегрированной с сторонним поставщиком видеоконференций, все они будут настроены и готовы к работе. (Нет необходимости в настройке их поставщика аудиоконференций.)
+Если вы назначаете лицензию на **голосовую конференцию** для пользователей в вашей организации, у которых нет Skype для бизнеса, интегрированной с сторонним поставщиком видеоконференций, все они будут настроены и готовы к работе. (Нет необходимости в настройке их поставщика аудиоконференций.)
 
-Если у вас есть пользователи, которым разрешено пользоваться сторонним поставщиком видеоконференций, необходимо изменить поставщика этих пользователей на Microsoft. Чтобы изменить поставщика для пользователя, ознакомьтесь с разрешениями [назначение Microsoft в качестве поставщика](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)видеоконференций.
+Если у вас есть пользователи, которым разрешено пользоваться сторонним поставщиком видеоконференций, необходимо изменить поставщика этих пользователей на Microsoft. Чтобы изменить поставщика для пользователя, ознакомьтесь с [разрешениями назначение Microsoft в качестве поставщика видеоконференций](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## <a name="step-3-other-admin-tasks"></a>Шаг 3: другие задачи администратора
 

@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Используйте этот шаблон электронной почты, чтобы общаться с пользователями в Организации о переходе с Microsoft StaffHub на Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebe9db78b1f210d1ebf96ca4bbd2552372a6a1cf
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36716132"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569656"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>Пример электронной почты пользователей, StaffHub в Teams
 
 > [!IMPORTANT]
-> Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> Вступление в силу 31 декабря 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 31 декабря 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
 
 Чтобы вы могли успешно переходить от StaffHub в Teams, мы создали шаблон сообщения электронной почты, который вы можете использовать для обмена изменениями пользователей в вашей организации. Используйте эту возможность в рамках своей стратегии, чтобы пользователи могли узнать о сменах и переходе к Teams и упростить внедрение в рамках Организации.
 
@@ -58,5 +58,5 @@ ms.locfileid: "36716132"
 
 ## <a name="related-topics"></a>Статьи по теме
 
-- [Планирование перемещения групп StaffHub на смену в Teams](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+- [Планирование перемещения групп StaffHub в приложение "Смены" в Teams](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 - [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](move-staffhub-teams-to-shifts-in-teams.md)

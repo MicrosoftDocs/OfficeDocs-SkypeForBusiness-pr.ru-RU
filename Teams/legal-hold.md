@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Сведения о помещении пользователя или команды Microsoft Teams на удержание по юридическим причинам с помощью Центра безопасности и соответствия требованиям, а также о том, что именно требуется удерживать в зависимости от требований к данным.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 097161fee62e4d0c0339cc5b6bbc2399e86ac959
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe6418162d95ebfb14665e004c3aeb508c3baaf4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244872"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564989"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Помещение пользователя или команды Microsoft Teams на удержание по юридическим причинам
 ==================================================

@@ -12,21 +12,20 @@ ms.reviewer: ''
 description: Вход в Microsoft Teams с использованием современной проверки подлинности.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242513"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563124"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход в Microsoft Teams с современной проверкой подлинности
 ==========================
 
-В Microsoft Teams используется современная проверка подлинности для обеспечения простой и безопасной работы входа. Чтобы узнать, как пользователи входят в Teams, прочтите раздел [Вход](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)в Teams.
+В Microsoft Teams используется современная проверка подлинности для обеспечения простой и безопасной работы входа. Чтобы узнать, как пользователи входят в Teams, прочтите раздел [Вход в Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ## <a name="how-modern-authentication-works"></a>Принцип работы современной проверки подлинности
 

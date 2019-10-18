@@ -9,18 +9,17 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Рекомендуется проверять работоспособность службы Teams, а также других компонентов Office 365, например Exchange, SharePoint и OneDrive для бизнеса.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 975a004908f0db780fdcee1bccc5fcb3fb685676
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27eefe990ceb1ccad42779cf99cc0d921eea5618
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242734"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37566066"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Проверка работоспособности службы для Microsoft Teams
 ===========================================

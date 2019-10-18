@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: В этой статье объясняется подготовка инфраструктуры к развертыванию комнат Microsoft Teams.
-ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: ada7a7f018d5fb3882a686505488998763c33faf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775061"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573554"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -116,7 +117,7 @@ ms.locfileid: "36775061"
 |Видео  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
 |Совместный доступ к рабочему столу  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50,000-59,999  <br/> |
 |Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
+|Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 |Советы клиента Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 
 > [!NOTE]

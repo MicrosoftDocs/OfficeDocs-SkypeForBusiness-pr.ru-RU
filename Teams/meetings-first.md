@@ -12,26 +12,25 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68ae38caa6671b3b5b46d8f295947bdbd9527379
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675542"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564907"
 ---
-# <a name="meetings-first"></a>Собрания в первую очередь
+# <a name="meetings-first"></a>Вначале собрания
 
-"Собрания сначала предназначены для организаций, использующих Skype для бизнеса Server, и оптимизированы для организации корпоративной голосовой связи, которые хотят быстрее приступить к работе с собраниями Teams. Для этих организаций собрания сначала — это альтернативный режим для **** использования в качестве приоритета для собраний Teams.
+"Собрания сначала предназначены для организаций, использующих Skype для бизнеса Server, и оптимизированы для организации корпоративной голосовой связи, которые хотят быстрее приступить к работе с собраниями Teams. Для этих организаций собрания сначала — это альтернативный **режим для использования в качестве** приоритета для собраний Teams.
 
 ## <a name="what-is-meetings-first"></a>Что такое собрания?
 
 Сначала собрания основаны на режиме сосуществования **сфбвистеамсколлабандмитингс** . Собрания сначала не являются продуктом или функцией — это конфигурация, которая использует возможности и функции Teams и Skype для бизнеса для обеспечения уникального соотношения сосуществования.
 
-В собраниях сначала пользователи создают собрание в Teams, в то время как Skype для бизнеса используется для общения, звонков и присутствия. В модальностей между группами и Skype для бизнеса нет перекрытия. Чат, Звонок и присутствие находятся в Skype для бизнеса и выключены в Teams. Это позволяет использовать уникальные сценарии для совместной работы в Skype для бизнеса и Teams, которые улучшают взаимодействие с пользователем во время сосуществования, а также **** сценарии взаимодействия с пользователями Teams.
+В собраниях сначала пользователи создают собрание в Teams, в то время как Skype для бизнеса используется для общения, звонков и присутствия. В модальностей между группами и Skype для бизнеса нет перекрытия. Чат, Звонок и присутствие находятся в Skype для бизнеса и выключены в Teams. Это позволяет использовать уникальные сценарии для совместной работы в Skype для бизнеса и Teams, которые улучшают взаимодействие с пользователем во время сосуществования, а также сценарии взаимодействия с пользователями **Teams** .
 
 ![Снимок экрана с улучшенной совместной ситуацией в Teams и Skype для бизнеса](media/meetings-first-meeting-in-meeting.png)
 
@@ -55,7 +54,7 @@ ms.locfileid: "36675542"
 - [Подготовка пользователей Skype для бизнеса Server (локально)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) с помощью [голосовой конференции Teams](tutorial-audio-conferencing.yml).
 - [Служба миграции собраний](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): собрания, упорядоченные от пользователя, будут перенесены в облако и преобразованы в собрания Teams, так как пользователь будет выдвинут на собрания (требуется Exchange Online).
 - Упрощенное взаимодействие пользователей в Teams, упорядочение по центру собраний Teams и команд и каналов (и, при необходимости, могут быть скрыты с помощью [политики разрешений приложений](teams-app-permission-policies.md)); [Частный чат, звонки и самообнаружение](teams-client-experience-and-conformance-to-coexistence-modes.md) не отображаются в собраниях, обеспечивая развертывание и внедрение, чтобы полностью сосредоточиться на собраниях.
-- [Коллективная работа](tutorial-meetings-in-teams.yml)в собрании.
+- [Коллективная работа в собрании](tutorial-meetings-in-teams.yml).
 - "Совместная работа" в Teams и Skype для бизнеса: 
   - Автоматическое удержание: в ходе собрания в Teams при звонке в Skype для бизнеса собрание Teams будет размещаться на удержании, и наоборот. Таким образом пользователи не смогут переслышать свои частные звонки участникам собрания.
     ![Снимок экрана с улучшенной совместной ситуацией в Teams и Skype для бизнеса](media/meetings-first-better-together-hold.png)
@@ -92,8 +91,8 @@ ms.locfileid: "36675542"
 - Выполните действия, описанные в разделе [собрания и конференции для Microsoft Teams](deploy-meetings-microsoft-teams-landing-page.md), в частности.
 - [Оцените свою среду](3-envision-evaluate-my-environment.md).
 - [Подготовьте сеть Организации для Microsoft Teams](prepare-network.md).
-- Обновите места для собраний с помощью групповых [устройств и решений](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)для собраний, а также используйте [облачное Видеовзаимодействие для Microsoft Teams](cloud-video-interop.md) , чтобы включить существующие сторонние комнаты и устройства для присоединения к собраниям Teams.
-- Обеспечьте пользователей сертифицированным [USB-звуком и](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)видеоустройствам.
+- Обновите места для собраний с помощью групповых [устройств и решений для собраний](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json), а также используйте [облачное Видеовзаимодействие для Microsoft Teams](cloud-video-interop.md) , чтобы включить существующие сторонние комнаты и устройства для присоединения к собраниям Teams.
+- Обеспечьте пользователей [сертифицированным USB-звуком и видеоустройствам](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 - Подготовьтесь к [распознаванию диска и внедрению для собраний Teams](adopt-microsoft-teams-landing-page.md).
 - [Планирование управления услугами](4-envision-plan-my-service-management.md).
 - Ознакомьтесь с отчетами аналитических средств с богатыми возможностями для [устранения некачественной связи](use-call-analytics-to-troubleshoot-poor-call-quality.md).
@@ -116,6 +115,6 @@ ms.locfileid: "36675542"
 
 ## <a name="related-links"></a>Дополнительные ссылки
 
-После ознакомления с этой статьей, возможно, вам будет удобнее [выбрать свое путешествие](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)к обновлению, [руководство по переходу](migration-interop-guidance-for-teams-with-skype.md)на другую информацию о взаимодействии и сосуществование [в Skype для бизнеса](coexistence-chat-calls-presence.md) .
+После ознакомления с этой статьей, возможно, вам будет удобнее [выбрать свое путешествие к обновлению](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [руководство по переходу](migration-interop-guidance-for-teams-with-skype.md)на другую информацию о взаимодействии и [сосуществование в Skype для бизнеса](coexistence-chat-calls-presence.md) .
 
 

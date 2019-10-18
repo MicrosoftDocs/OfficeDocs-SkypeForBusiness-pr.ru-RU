@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Узнайте о том, как использовать отчет об использовании PSTN в центре администрирования Microsoft Teams, чтобы получить обзор использования телефонной и голосовой конференции в Организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3674759844cc268fc503f4f617e0d18d16914593
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 89d33f15401d25767c905f16e38d93744d7929c3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131687"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570568"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Отчет об использовании Microsoft Teams PSTN
 
@@ -37,7 +36,7 @@ ms.locfileid: "37131687"
 
 ### <a name="calling-plans"></a>Планы звонков
 
-![Снимок экрана: отчет об использовании "планы звонков по тарифам" в центре администрирования] (../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Снимок экрана: отчет об использовании PSTN в центре администрирования Microsoft Teams с пронумерованными выносками")
+![Снимок экрана: отчет об использовании "планы звонков по тарифам" в центре администрирования](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Снимок экрана: отчет об использовании PSTN в центре администрирования Microsoft Teams с пронумерованными выносками")
 
 |Выноска |Описание  |
 |--------|-------------|
@@ -52,7 +51,7 @@ ms.locfileid: "37131687"
 
 ### <a name="direct-routing"></a>Прямая маршрутизация
 
-![Снимок экрана: отчет об использовании PSTN в центре администрирования (с прямым маршрутом)] (../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Снимок экрана: отчет об использовании PSTN по прямой маршрутизации в центре администрирования Microsoft Teams с пронумерованными выносками")
+![Снимок экрана: отчет об использовании PSTN в центре администрирования (с прямым маршрутом)](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Снимок экрана: отчет об использовании PSTN по прямой маршрутизации в центре администрирования Microsoft Teams с пронумерованными выносками")
 
 |Выноска |Описание  |
 |--------|-------------|

@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
-ms.openlocfilehash: e99892ad42a8e7340558b8f0db7daa1da025777a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 7a8f8c677d8f8b917100360189585b7fd82bb07e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344261"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571308"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
 
@@ -46,7 +45,7 @@ ms.locfileid: "34344261"
 
 1. На панели навигации слева перейдите в раздел **Собрания** > **Мосты конференц-связи**.
 
-2. Выберите в **** списке выделенный номер телефона для голосовой связи, а затем в верхней части страницы нажмите кнопку **изменить**. Изменить языки выделенных номеров для голосовой конференции можно только. Параметр **изменить** отображается только в том случае, если выбран специальный номер голосовой конференции.
+2. Выберите в списке **выделенный** номер телефона для голосовой связи, а затем в верхней части страницы нажмите кнопку **изменить**. Изменить языки выделенных номеров для голосовой конференции можно только. Параметр **изменить** отображается только в том случае, если выбран специальный номер голосовой конференции.
 
 3. В области справа выберите нужный язык по умолчанию и другие языки. 
  
@@ -66,7 +65,7 @@ ms.locfileid: "34344261"
     
 ## <a name="want-to-use-windows-powershell"></a>Хотите использовать Windows PowerShell?
 
-Дополнительные сведения см. в справочнике по [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
+Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
   
 ## <a name="related-topics"></a>Статьи по теме
 

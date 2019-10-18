@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131651"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572139"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -56,8 +55,8 @@ ms.locfileid: "37131651"
 
 Подробное описание процедуры развертывания и настройки SBCs для сценария размещения SBC можно найти в документации поставщика SBC.
 
-- **AudioCodes:** [Заметки о настройке прямой маршрутизации](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams): Настройка сценария размещения SBC, описанного в разделе Подключение AudioCodesого SBC к Microsoft Teams, Настройка модели хостинга для маршрутизации. 
-- **Oracle:** [Заметки о настройке прямой маршрутизации](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html). Конфигурация сценария размещения SBC описана в разделе "Microsoft". 
+- **AudioCodes:** [заметки о настройке прямого маршрутизатора](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), конфигурация сценария размещения SBC, описанного в разделе "подключение AudioCodes SBC к Microsoft Teams, Конфигурация модели хостинга для маршрутизации". 
+- **Oracle:** [заметки о настройке прямого](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)направления, конфигурация сценария размещения SBC описана в разделе "Microsoft". 
 - **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs-канал ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Teams [: Настройка направляющих для ОДНОнаправленных SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **Системы TE (аниноде):**  Пожалуйста, зарегистрируйте на [странице сообщества TE](https://community.te-systems.de/) , чтобы получить документацию и примеры того, как настроить SBC аниноде для нескольких клиентов.
 

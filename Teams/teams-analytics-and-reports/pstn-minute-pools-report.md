@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Узнайте, как использовать в центре администрирования Microsoft Teams отчет пула групп по протоколу PSTN, чтобы узнать количество минут, потраченных в течение текущего месяца Организации.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 900d847b5b0978ca2bfdccd4788a828a32f2ee3b
-ms.sourcegitcommit: 3ce40094a58509b69376b941b151c9d1c8538654
+ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428347"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568390"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Отчет о пулах минут Microsoft Teams КТСОП
 
@@ -30,7 +29,7 @@ ms.locfileid: "37428347"
 
 В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Пулы PSTN минут**и нажмите кнопку **выполнить отчет**.
 
-![Снимок экрана: отчет о пулах для групповых минут в центре администрирования]на(../media/teams-reports-pstn-minute-pools-with-callouts.png "снимке экрана в центре администрирования Microsoft Teams с нумерованными вызываемыми") группами
+![Снимок экрана: отчет о пулах для групповых минут в центре администрирования](../media/teams-reports-pstn-minute-pools-with-callouts.png "Снимок экрана: отчет о пулах для групповых минут в центре администрирования Microsoft Teams с пронумерованными выносками")
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 

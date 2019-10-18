@@ -12,16 +12,16 @@ search.appverid: MET150
 description: Вы можете узнать о функциях Microsoft Teams, доступных гостевым пользователям.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434661"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563477"
 ---
 <a name="what-the-guest-experience-is-like"></a>Взаимодействие с гостями
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "37434661"
     
 Все участники команды видят в беседе канала сообщение о том, что владелец добавил гостя с определенным именем. Любой участник команды может легко определить, кто именно является гостем. Как показано на приведенном ниже снимке примера команды, баннер указывает на то, что в этой группе есть гости, а рядом с именем каждого гостя появится метка "(гость)".
     
-Снимок экрана, на котором показан снимок экрана с ![уведомлением "гость" гостевых пользователей](media/guest-experience-image2.png "— это часть маркетингового канала для базы данных \"Борей\" с уведомлением в верхнем заголовке, в котором говорится о том, что у группы есть гости и пользователи, являющиеся гостями слово \"гость\" рядом с именем.")
+![Снимок экрана: гостевые пользователи с уведомлением о рекламе](media/guest-experience-image2.png "Снимок экрана: фрагмент маркетингового канала для базы данных "Борей" с уведомлением в верхнем заголовке, в котором говорится о том, что у группы есть гости и пользователи, являющиеся гостями, обозначены ссылкой на "гость", рядом с именем пользователя.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Сравнение возможностей участников группы и гостей
 
@@ -92,7 +92,7 @@ ms.locfileid: "37434661"
 > [!NOTE]
 > Администраторы Office 365 управляют доступными гостям функциями. 
  
-## <a name="guest-access-vs-external-access-federation"></a>Гостевой доступ и внешний доступ (Федерация)
+## <a name="guest-access-vs-external-access-federation"></a>Сравнение гостевого и внешнего доступа (федерация)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  

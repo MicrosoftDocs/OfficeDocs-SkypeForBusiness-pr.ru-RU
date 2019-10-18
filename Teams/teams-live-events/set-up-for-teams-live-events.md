@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: В этой статье описано, как настроить функцию Live для событий в Teams, в том числе подготовку сети, назначение лицензий, использование политик для включения функций Live Event и планирование пользователей, а также настройка стороннего поставщика услуг распространения.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047075"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570161"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Подготовка к трансляциям в Microsoft Teams
 
@@ -53,7 +52,7 @@ ms.locfileid: "37047075"
 
     Ниже перечислены параметры, которые можно изменить в соответствии с потребностями Организации.
 
-    ![Снимок экрана с параметрами политики живых событий](../media/teams-live-events-policies.png "снимок экрана с параметрами политики Live Events в центре администрирования Microsoft Teams") 
+    ![Снимок экрана с параметрами политики Live Events](../media/teams-live-events-policies.png "Снимок экрана с параметрами политики Live Events в центре администрирования Microsoft Teams") 
 
 |Параметр  |Описание  |
 |---------|---------|

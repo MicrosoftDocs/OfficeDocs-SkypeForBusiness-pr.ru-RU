@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в Канаде для Microsoft Teams.
-ms.openlocfilehash: 833d0e494474c16114373501b0a23883847cc9f3
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 667dfd3b68c1317e086c7c790732b7a90da074d5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347854"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573155"
 ---
 # <a name="phone-number-management-for-canada"></a>Управление номерами телефонов в Канаде
 

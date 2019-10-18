@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается о том, как обрабатывать переходные запросы на магистральные линии по исходящим звонкам из Teams на контроллер границ сеансов (SBC).
-ms.openlocfilehash: e9efcfba696886c0fc4885778b79832956ccb893
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a5462de971fed32a0618800b257b9c6e37b462af
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290365"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572128"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Отработка отказа канала связи при исходящих звонках
 
@@ -33,7 +32,7 @@ ms.locfileid: "34290365"
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Отработка отказа определенных кодов SIP, полученных от контроллера границ сеанса (SBC)
 
-Если прямая маршрутизация получает коды ошибок SIP 4xx или 6xx в ответ на исходящий приглашение, вызов считается завершенным по умолчанию. "Исходящие" — вызов из клиента Teams в коммутируемую телефонную сеть общего пользования (PSTN) с потоком трафика: клиент Teams-_Гт_ Direct Routing-_Гт_ SBC-_Гт_ телефонная сеть.
+Если прямая маршрутизация получает коды ошибок SIP 4xx или 6xx в ответ на исходящий приглашение, вызов считается завершенным по умолчанию. "Исходящие" — вызов из клиента Teams в коммутируемую телефонную сеть общего пользования (КТСОП) с потоком трафика: клиент Teams — > прямая маршрутизация — > SBC > телефонной сети.
 
 Список кодов SIP можно найти в [RFC по протоколу SIP](https://tools.ietf.org/html/rfc3261).
 
@@ -44,12 +43,12 @@ ms.locfileid: "34290365"
 На приведенной ниже схеме, когда пользователь выполняет звонок на номер телефона, в маршруте есть два типа SBCs, которые могут привести к появлении этого звонка. Первоначально для звонка SBC1.contoso.com выбрано, но SBC1.contoso.com не может подключиться к сети ОКТС из-за проблемы с сетью.
 По умолчанию в данный момент звонок будет завершен. 
  
-![Показывает, что SBC не может достичь КТСОП из-за сетевой неполадки](media/direct-routing-failover-response-codes1.png)
+![Схема, показывающая, что SBC не может достичь КТСОП из-за ошибки сети](media/direct-routing-failover-response-codes1.png)
 
 Но в маршруте есть еще один SBC, который потенциально может допустить звонок.
 Если вы настроили `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`параметр, второй одноранговый элемент SBC будет пытаться получить SBC2.contoso.com на следующей схеме:
 
-![Показывает маршрут к второму SBC](media/direct-routing-failover-response-codes2.png)
+![Схема, показывающая маршрут к второму SBC](media/direct-routing-failover-response-codes2.png)
 
 Установка параметра-Фаиловерреспонсекодес и указание кода помогает настроить маршрутизацию и избежать потенциальных проблем, когда SBC не может вызвать из-за сети или других проблем.
 

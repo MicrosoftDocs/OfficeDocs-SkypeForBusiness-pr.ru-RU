@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494708"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571242"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 
@@ -58,15 +57,15 @@ ms.locfileid: "34494708"
 
 **Добавление адреса для экстренного реагирования для Организации**
 
-![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-В центре администрирования Skype для бизнеса перейдите в раздел**места** >  **голосовой связи** > для экстренной помощи**Добавить новый адрес**. Подробные сведения о том, как [Добавить или удалить, и адрес для экстренного реагирования в своей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) :
+В центре администрирования Skype для бизнеса перейдите в раздел места >  **голосовой связи** > для**экстренной**помощи**Добавить новый адрес**. Подробные сведения о том, как [Добавить или удалить, и адрес для экстренного реагирования в своей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) :
 
 **Добавление расположения для экстренного реагирования для Организации** 
 
-![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-В центре администрирования Skype для бизнеса перейдите в раздел**места** >  **голосовой связи** > для экстренной помощи**Добавить новый адрес**. Дополнительные сведения можно найти в разделе [Добавление, изменение и удаление расположения для экстренного реагирования для вашей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
+В центре администрирования Skype для бизнеса перейдите в раздел места >  **голосовой связи** > для**экстренной**помощи**Добавить новый адрес**. Дополнительные сведения можно найти в разделе [Добавление, изменение и удаление расположения для экстренного реагирования для вашей организации](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Шаг 5: назначение пользователю адреса для экстренного реагирования и номера телефона
@@ -74,16 +73,16 @@ ms.locfileid: "34494708"
 
 **Добавление адреса для экстренного реагирования для пользователя** 
 
-![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-В центре администрирования Skype для бизнеса перейдите на голосовую **** > почту**Пользователи** > службы**экстренного поиска** > **назначьте номер** > **изменить расположение**. Дополнительные сведения: [назначение или изменение адреса для экстренного реагирования для пользователя](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
+В центре администрирования Skype для бизнеса перейдите на **голосовую** > почту**Пользователи** > службы**экстренного поиска** > **назначьте номер** > **изменить расположение**. Дополнительные сведения: [назначение или изменение адреса для экстренного реагирования для пользователя](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
    > [!NOTE]
    > Вы также можете назначить адрес для экстренного реагирования при назначении номера телефона.
 
 **Назначение пользователю номера телефона**
 
-![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 В центре администрирования Skype для бизнеса перейдите в раздел Пользователи **** > **** > голосовой голосовой связи**Назначение номера** > **изменить расположение**. Дополнительные сведения [можно найти в разделе Назначение, изменение и удаление номера телефона для пользователя](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 

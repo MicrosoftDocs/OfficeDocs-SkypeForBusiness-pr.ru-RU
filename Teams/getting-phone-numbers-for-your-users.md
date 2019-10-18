@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Узнайте о том, как получить новые, перенести и переносить существующие номера в Teams, а также как показать изменения пользователей. '
-ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588217"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572095"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -46,7 +45,7 @@ ms.locfileid: "35588217"
 
 ![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
     
-1. На панели навигации слева перейдите к **** > **номерам абонентов**и нажмите кнопку **получить новые номера**.
+1. На панели навигации слева **перейдите к** > **номерам абонентов**и нажмите кнопку **получить новые номера**.
 2. Введите имя заказа и, если хотите, добавьте описание.
 3. На странице Расположение и количество выполните указанные ниже действия.
     1. В разделе **страна или регион**выберите страну или регион.
@@ -70,7 +69,7 @@ ms.locfileid: "35588217"
 
 ![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams** 
 
-На панели навигации слева перейдите к **** > **номерам абонентов** , чтобы просмотреть номера для вашей организации, в том числе сведения о местоположении, тип номера и информацию о состоянии.
+На панели навигации слева перейдите к > **номерам абонентов** **, чтобы просмотреть**номера для вашей организации, в том числе сведения о местоположении, тип номера и информацию о состоянии.
   
 ## <a name="what-else-do-you-need-to-know-about-users-phone-numbers"></a>Что еще нужно знать о номерах телефонов пользователя?
     

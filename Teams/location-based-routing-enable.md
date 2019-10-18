@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Сведения о том, как включить маршрутизацию на основе местоположения для прямой маршрутизации.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245132"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572026"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
@@ -93,7 +91,7 @@ ms.locfileid: "36245132"
     ||Сайт 1 (Делхи)  |Сайт 2 (Хидерабад)  |
     |---------|---------|---------|
 |Имя сайта    |Сайт 1 (Делхи)    |Сайт 2 (Хидерабад)   
-    |енаблелокатионбаседраутинг    |True    |True    |
+    |енаблелокатионбаседраутинг    |Верно    |Верно    |
     |Подсети     |Подсеть 1 (Делхи)     |Подсеть 2 (Хидерабад)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе местоположения для шлюзов
@@ -143,8 +141,8 @@ ms.locfileid: "36245132"
 
     ||гатевайсителбренаблед   |нетворкситеид  |
     |---------|---------|---------|
-    |Пстнгатевай: шлюз 1 DEL-GW    |    True     |   Сайт 1 (Делхи)      |
-    |Пстнгатевай: шлюз 2 ХИД-GW     |   True      |      Сайт 2 (Хидерабад)   |
+    |Пстнгатевай: шлюз 1 DEL-GW    |    Верно     |   Сайт 1 (Делхи)      |
+    |Пстнгатевай: шлюз 2 ХИД-GW     |   Верно      |      Сайт 2 (Хидерабад)   |
     |Пстнгатевай: Gateway 3 Delete-УАТС    |    False     |     Сайт 1 (Делхи)    |
     |Пстнгатевай: шлюз 4 ХИД-УАТС    |    False     |    Сайт 2 (Хидерабад)     |
 

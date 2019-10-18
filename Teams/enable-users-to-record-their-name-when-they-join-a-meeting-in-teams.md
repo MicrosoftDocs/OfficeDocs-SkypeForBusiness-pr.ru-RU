@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как разрешить или запретить пользователям записывать свои имена при присоединении к собранию в Microsoft Teams.
-ms.openlocfilehash: 44ae945b8ea17b68652e03ab3cb072e5491c5497
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20888f206e3ffbca72227ff1b9cd5d5f624101f3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344124"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573056"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Предоставление пользователям возможности записи собственного имени при присоединении к собранию в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "34344124"
 
 3. Включение и отключение **уведомлений о вводе и завершении собрания**.
 
-4. Если вы хотите включить уведомления, выберите **имена или номера телефонов** в разделе **тип извещения вход/выход**, а затем снова включите команду **Ask, чтобы записать свое имя, прежде чем** присоединиться к собранию.
+4. Если вы хотите включить уведомления, выберите **имена или номера телефонов** в разделе **тип извещения вход/выход**, а затем снова включите команду **Ask, чтобы записать свое имя, прежде чем присоединиться к собранию.**
 
 6. Нажмите кнопку **Сохранить**.
     

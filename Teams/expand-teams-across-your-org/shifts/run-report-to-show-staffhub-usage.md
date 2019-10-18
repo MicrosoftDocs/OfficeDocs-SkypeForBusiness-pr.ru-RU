@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Сведения о том, как запустить отчет, чтобы получить список активных пользователей StaffHub в вашей организации.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb337fdb79c0977f4bcacd782d6705947b5b8466
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235390"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569667"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>Запуск отчета для отображения активного использования StaffHub
 
 > [!IMPORTANT]
-> Начиная с 1 октября 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 1 октября 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
+> Вступление в силу 31 декабря 2019 г. Корпорация Microsoft StaffHub будет прекращена. Мы создаем возможности StaffHub в Microsoft Teams. Сегодня команды включают в себя приложение смен для управления планированием и дополнительные возможности, которые будут вычислены с течением времени. StaffHub перестанет работать для всех пользователей 31 декабря 2019 г. Каждый, кто пытается открыть StaffHub, будет показывать сообщение, направленное на загрузку групп. Дополнительные сведения можно найти в [статье Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
 
 Выполните действия, описанные в этой статье, чтобы запустить отчет, чтобы получить список активных пользователей StaffHub в вашей организации. Эта информация может пригодиться, когда вы готовитесь к [перемещению StaffHubных групп в Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md). В отчете вы узнаете, какие пользователи должны быть включены в вашу связь при переходе с StaffHub на Teams.
 

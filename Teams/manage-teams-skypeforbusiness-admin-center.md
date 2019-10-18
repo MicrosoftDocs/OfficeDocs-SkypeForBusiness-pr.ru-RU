@@ -15,17 +15,16 @@ ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5369206deda7a9d4c9e17a87406f208383927f05
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232957"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564787"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 ======================================================
@@ -54,8 +53,8 @@ ms.locfileid: "36232957"
 |Настраиваемое облачное хранилище     |Google диск        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
 |Настраиваемое облачное хранилище     |шарефиле        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
 |Параметры по типу пользователя и лицензии     |Включение и отключение Microsoft Teams для всех пользователей          |Устаревший<sup>1</sup>        |         |
-|Команды и каналы     |         |Перенаправляет Управление группами Azure Active Directory (то же, что и текущий интерфейс).              |Пользователь         |
-|Команды и каналы     |         |Перенаправление на управление группами AAD (то же, что и текущий интерфейс).             |Пользователь          |
+|Группы и каналы     |         |Перенаправляет Управление группами Azure Active Directory (то же, что и текущий интерфейс).              |Пользователь         |
+|Группы и каналы     |         |Перенаправление на управление группами AAD (то же, что и текущий интерфейс).             |Пользователь          |
 |Приложения|Включение новых внешних приложений по умолчанию|Параметры приложения в масштабе Организации|Клиента|
 |Приложения|Разрешить внешние приложения|Параметры приложения в масштабе Организации|Клиента|
 |Приложения|Разрешение неопубликованных приложений для внешних приложений<sup>2</sup>|[теамсаппсетупполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
@@ -66,7 +65,7 @@ ms.locfileid: "36232957"
 |Звонки и собрания     |Разрешить планирование для собраний канала         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
 |Звонки и собрания     |Разрешение видеороликов в собраниях         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
 |Звонки и собрания     |Разрешение демонстрации экрана в собраниях         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
-|Звонки и собрания     |Разрешить частный Звонок         |[теамскаллингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
+|Звонки и собрания     |Разрешить частный Звонок         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Пользователь          |
 |Обмен сообщениями     |Включение GIF, чтобы пользователи могли добавлять в беседы GIF-файлы         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 |Обмен сообщениями     |Рейтинг контента         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
 |Обмен сообщениями     |Включение мемов, которые пользователи могут редактировать и добавлять в беседы         |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Пользователь         |
@@ -103,7 +102,7 @@ ms.locfileid: "36232957"
 |Параметры Teams   |    X    |      |       |
 |Параметры внешнего доступа     |    X    |      |       |
 |Управление пользователями    |         |         |    X     |    
-|Голосовые конференции     |    X     |    X     |         |
+|Аудиоконференции     |    X     |    X     |         |
 |Планы звонков     |         |    X     |         |
 |Телефонная система    |         |     X    |         |
 |Управление телефонными номерами     |         |   X      |         |

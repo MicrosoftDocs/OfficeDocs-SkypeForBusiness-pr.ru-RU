@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: 0ffcb07a649c8fc82b3c5a6139f9692263961ef2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 831bfc30feccca06fbfa9414e92d6dc5a957cb40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494660"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569557"
 ---
 # <a name="getting-service-phone-numbers"></a>Получение номеров телефонов служб
 
@@ -46,16 +45,16 @@ In addition to getting phone numbers for your users from Office 365, you can sea
   
 ## <a name="get-new-service-numbers"></a>Получение новых номеров служб
 
-![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](media/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
 2. Перейдите в раздел " >  **центр администрирования"****и** > **старый администратор**Skype.
     
-3. На левой панели навигации выберите **** > **номера** > телефонов,**Введите новый номер**, а затем нажмите кнопку **новые номера служб**.
+3. **На левой** > панели навигации выберите**номера** > телефонов,**Введите новый номер**, а затем нажмите кнопку **новые номера служб**.
     
     > [!IMPORTANT] 
-    > Для просмотра параметров **голоса** на левой панели навигации в центре администрирования Skype для бизнеса вы должны сначала приобрести хотя бы одну **лицензию**на корпоративную, одну лицензию на надстройку **** или лицензию для **голосовой конференции** .
+    > Для просмотра параметров **голоса** на левой панели навигации в центре администрирования Skype для бизнеса вы должны сначала приобрести хотя бы одну **лицензию на корпоративную** **, одну лицензию** на надстройку или лицензию для **голосовой конференции** .
     
 4. На странице **Добавление новых номеров служб** выберите один из указанных ниже вариантов.
     

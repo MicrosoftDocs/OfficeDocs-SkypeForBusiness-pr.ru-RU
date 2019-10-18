@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Узнайте, как получить общее представление о действиях с Teams в своей организации при помощи отчета об использовании в центре администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439576"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570976"
 ---
 # <a name="microsoft-teams-usage-report"></a>Отчет об использовании Microsoft Teams
 
@@ -31,7 +30,7 @@ ms.locfileid: "37439576"
 1. В левой области навигации центра администрирования Microsoft Teams выберите пункт **Analytics & отчеты** > **об использовании**. На вкладке **Просмотр отчетов** в группе **отчет**выберите **Использование Teams**.
 2. Выберите диапазон в поле **Диапазон дат**, а затем нажмите кнопку **Запустить отчет**.
 
-    ![Снимок экрана: отчет об использовании Teams в центре администрирования Teams с вызываемым](../media/teams-reports-teams-usage-with-callouts.png "снимком экрана с отчетами об использовании Teams в центре администрирования Teams с выносками")
+    ![Снимок экрана: отчет об использовании Teams в центре администрирования Teams с выносками](../media/teams-reports-teams-usage-with-callouts.png "Снимок экрана: отчет об использовании Teams в центре администрирования Teams с выносками")
 
 ## <a name="interpret-the-report"></a>Толкование отчета
 
