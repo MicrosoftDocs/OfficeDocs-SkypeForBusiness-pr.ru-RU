@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484020"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570728"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Тренинг под руководством инструктора по Microsoft Teams</h1>
-Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия предназначены для подготовки к работе с Teams.Если вы являетесь лицом, принимающим решения в бизнесе, администратором, ИТ-специалистом или конечным пользователем, вы найдете занятия, которые вам подойдут. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. Дополнительные возможности обучения, том числе доступные по требованию версии для интерактивного обучения, см. в статье <a href="https://docs.microsoft.com/microsoftteams/enduser-training">Обучение конечных пользователей по требованию</a>.<br><br>Выберите учебное занятие, чтобы зарегистрироваться.
+Размещенные на серверах Майкрософт бесплатные, интерактивные учебные занятия предназначены для подготовки к работе с Teams.Если вы являетесь лицом, принимающим решения в бизнесе, администратором, ИТ-специалистом или конечным пользователем, вы найдете занятия, которые вам подойдут. Присоединяйтесь к нам, чтобы увидеть Teams в действии, получить ответы на вопросы и взаимодействовать с нашими преподавателями в режиме реального времени. Чтобы просматривать наши учебные занятия в своем ритме, ознакомьтесь с <a href="https://aka.ms/TeamsOnDemand">обучением конечных пользователей по запросу</a>.<br><br>Выберите учебное занятие, чтобы зарегистрироваться.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -145,7 +144,7 @@ ms.locfileid: "36484020"
                     <div class="cardText">
                         <h3>Teams для государственных организаций США (GCC)</h3>
                         <p>Присоединяйтесь к интерактивному обзору Teams в Office 365 GCC, в котором демонстрируются рекомендации по совместной работе.</p>
-                    <p><i>Аудитория: ИТ-специалисты, конечные пользователи</i></p>
+                    <p><i>Аудитория: все</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ ms.locfileid: "36484020"
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams для сотрудников без компьютеров</h3>
-                        <p>Сведения о возможностях в Teams для сотрудников без компьютеров.</p>
+                        <h3>Узнайте, как использовать приложения в Teams</h3>
+                        <p>Узнайте, как улучшить командную работу с приложениями.</p>
                         <p><i>Аудитория: конечные пользователи</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ ms.locfileid: "36484020"
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams для сотрудников без компьютеров</h3>
+                        <p>Сведения о возможностях в Teams для сотрудников без компьютеров.</p>
+                        <p><i>Аудитория: конечные пользователи</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>
