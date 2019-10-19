@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Сводка. В этой статье описывается подготовка серверов Skype для бизнеса Server 2019 и инфраструктуры домена. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации со сведениями о сертификатах DNS, файловых ресурсах и Active Directory помогут выполнить установку и развертывание фермы серверов.
-ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838029"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37434857"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Требования к системе для Skype для бизнеса Server 2019
  
@@ -106,6 +106,9 @@ ms.locfileid: "36838029"
 <a name="Software"> </a>
 
 Чтобы установить или настроить сервер, на котором работает Skype для бизнеса Server 2019, необходимо выполнить следующие действия. Здесь также приводятся дополнительные требования для определенных ролей сервера.
+
+> [!IMPORTANT]
+> Skype для бизнеса 2019 поддерживает .Net Framework 4.8. 
   
  **Все серверы:**
   
