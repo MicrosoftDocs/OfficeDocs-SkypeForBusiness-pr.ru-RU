@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Сводка: Настройка инфраструктуры 2015 в Skype для бизнеса Server для работы с System Center Operations Manager.'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790896"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824552"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Управление Skype для бизнеса Server 2015 с помощью пакета управления SCOM
  
@@ -85,7 +85,7 @@ ms.locfileid: "36790896"
 
 Ниже описаны новые возможности пакетов управления для Skype для бизнеса Server 2015.
 
-- **Изменения в [обновлении за июнь 2019](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Некоторые оповещения содержат удаленные специальные символы. В некоторых случаях специальные символы конфликтуют с функцией уведомлений канала команд SCOM.
+- **Изменения в [обновлении за Сентябрь 2019](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Некоторые оповещения содержат удаленные специальные символы. В некоторых случаях специальные символы конфликтуют с функцией уведомлений канала команд SCOM.
 
 - **Автоматическое обнаружение для входа клиента** Клиентские приложения, которые входят в Skype для бизнеса Server 2015, часто автоматически обнаруживают сервер для входа. Теперь искусственные транзакции поддерживают проверку правильности настройки автоматического обнаружения.
     

@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Сведения о том, как включить QoS для устройств, используемых в вашей организации, которые используют операционную систему, отличную от Windows.
-ms.openlocfilehash: adb879d2319c5eeeb84578907ce57a3a408d9a13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 956fff0e7fc69b1950e35261c02f9f44977510ce
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279412"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341945"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Включение QoS в Skype для бизнеса Server для устройств, не основанных на Windows
 
@@ -65,5 +65,9 @@ ms.locfileid: "34279412"
 Это позволяет реализовать качество обслуживания для некоторых частей сети (например, на сайте Redmond), не отключая качество обслуживания для других частей сети.
 
 Вы можете включать и отключать QoS только с помощью Windows PowerShell. Эти параметры недоступны на панели управления сервера Skype для бизнеса.
+
+> [!NOTE]
+> Клиенты Skype для бизнеса для iOS версии 6,17 и более поздних версий теперь поддерживают QoS.  Эта возможность QoS применима только к клиентам Skype для бизнеса и устройствам IP-телефонов, которые зарегистрированы непосредственно на внутреннем сервере Skype для бизнеса или в пуле Lync в управляемых сетях. Качество обслуживания неприменимо для трафика, передаваемого через Интернет.
+
 
 

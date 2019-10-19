@@ -19,10 +19,10 @@ ms.custom:
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
 ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37570205"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
@@ -43,14 +43,14 @@ ms.locfileid: "37570205"
 
 |Модель телефона|Версия встроенного по|Дата выпуска |
 |:---|:---|:---|
-|AudioCodes C450HD | C450HD_TEAMS_ 0.225 | Март 2019|
-|Крестрон M100|2.3875.00068|Декабрь 2018 г.|
-|Крестрон Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |2019 января|
-|Поли тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019|
-|Yealink VP59 | 91.15.0.16 |Июнь 2019|
-|Yealink T55 | 58.15.0.36 |2019 мая|
-|Yealink CP 960 |73.15.0.20|Декабрь 2018 г.|
-|Yealink T58 & T56 |58.15.0.20|Декабрь 2018 г.|
+|AudioCodes C450HD | C450HD_TEAMS_ 0.225 | Март 2019 г.|
+|Крестрон M100|2.3875.00068|Декабрь 2018 г.|
+|Крестрон Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
+|Поли тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
+|Yealink VP59 | 91.15.0.16 |Июнь 2019 г.|
+|Yealink T55 | 58.15.0.36 |Май 2019 г.|
+|Yealink CP 960 |73.15.0.20|Декабрь 2018 г.|
+|Yealink T58 & T56 |58.15.0.20|Декабрь 2018 г.|
 ||||
 
 Сведения о функциях, поддерживаемых данными устройствами, можно найти в разделе [Microsoft Teams phones Set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) .

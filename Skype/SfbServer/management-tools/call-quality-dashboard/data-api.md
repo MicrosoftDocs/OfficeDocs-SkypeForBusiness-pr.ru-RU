@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Сводка: сведения о API сроку оставшемуся для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: f74f581a3d46ba7cf75daf92df5ade16dab510d0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Сводка: сведения об API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
+ms.openlocfilehash: 016cc1be9f5cd5506f8ee7d8ddbe2765e0015ffd
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274802"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36571923"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API данных для панели мониторинга качества звонков (CQD) в Skype для бизнеса Server
  
-**Сводка:** Сведения о API сроку оставшемуся для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.
+**Сводка:** Сведения об API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.
   
 API данных обеспечивает программный доступ к панели мониторинга качества звонков для Skype для бизнеса Server.
   

@@ -20,10 +20,10 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37564787"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
@@ -46,8 +46,8 @@ ms.locfileid: "37564787"
 |---------|---------|---------|---------|
 |Общий     |Показать организационную диаграмму в личном профиле        |  [теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Клиента       |
 |Общий     |Использование Skype для бизнеса для получателей, не имеющих групп         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Интеграция с электронной почтой     |Разрешение пользователям отправлять сообщения электронной почты по каналам         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
-|Интеграция с электронной почтой     |Список разрешенных отправителей         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиента         |
+|Интеграция электронной почты     |Разрешение пользователям отправлять сообщения электронной почты по каналам         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
+|Интеграция электронной почты     |Список разрешенных отправителей         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Клиента         |
 |Настраиваемое облачное хранилище     |Полем         |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
 |Настраиваемое облачное хранилище     |Данных        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |
 |Настраиваемое облачное хранилище     |Google диск        |[теамсклиентконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Клиента         |

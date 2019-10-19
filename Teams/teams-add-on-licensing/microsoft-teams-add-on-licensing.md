@@ -19,10 +19,10 @@ ms.custom:
 - LIL_Placement
 description: Узнайте о лицензиях на надстройки, о возможностях, которые потребуются вместе с каждой лицензией, о том, как их приобрести для вашего продукта и как использовать существующую несущую. Вы можете получить сведения о ценах и планах для Office 365, кредитов связи и планов звонков.
 ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571206"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Лицензирование надстроек Microsoft Teams
@@ -56,7 +56,7 @@ ms.locfileid: "37571206"
 |**Планы звонков** <br/> |Звонки другим пользователям Teams будут свободны, но если вы хотите, чтобы ваши пользователи могли звонить на любые телефонные номера за пределами вашей организации, получите [план звонков](../calling-plans-for-office-365.md). У Office 365 существуют тарифные планы для местных либо тарифные планы для местных и международных звонков.  <br/> Если вы ищете, сколько ИТ стоимость, ознакомьтесь с раздел [цены на план звонков](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
 |**Комнаты Microsoft Teams** <br/> |Это не надстройка, но функция, с помощью которой можно обмениваться видео, аудио-и видеоматериалами в конференц-залах. Просмотр [комнат Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
-[] Хотите узнать больше о параметрах надстроек? [Обратитесь в службу поддержки для бизнес-продуктов — Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+[] Хотите узнать больше о параметрах надстроек? [Обратитесь в службу поддержки продуктов для бизнеса — справку для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="license-options-based-on-your-plan"></a>Параметры лицензии вашего Тарифного плана 
 

@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания. Предела устройства (то есть все существующие звонки будут выполнены, но новые звонки отвергаются).
-ms.openlocfilehash: be57261b35cf5b5e6e8118c2a751eee1c8b5f2a7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания. Управляющее устройство немедленно останавливает все службы, заканчивая всеми текущими звонками и отклоняет любые новые звонки.
+ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287442"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34740060"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
- 
-Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания. Устройство "застоко" — это значит, что все существующие звонки будут выполнены, но новые звонки будут отвергнуты. 
+
+Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания. Управляющее устройство немедленно останавливает все службы, заканчивая всеми текущими звонками и отклоняет любые новые звонки.
   
 ```
 Enter-CcUpdate

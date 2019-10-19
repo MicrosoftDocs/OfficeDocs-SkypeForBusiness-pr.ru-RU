@@ -19,10 +19,10 @@ ms.custom:
 - PowerShell
 description: Узнайте о требованиях для удаленного управления Skype для бизнеса Online с помощью Windows PowerShell, включая поддерживаемые операционные системы.
 ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36645158"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Настройка компьютера для Windows PowerShell
@@ -55,7 +55,7 @@ ms.locfileid: "36645158"
   
 - [Скачайте и установите модуль соединителя Skype для бизнеса Online](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Скачивание и установка Windows PowerShell 5,1](download-and-install-windows-powershell-5-1.md)
+- [Загрузка и установка Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
 - [Управление Skype для бизнеса Online в Office 365 PowerShell](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
     

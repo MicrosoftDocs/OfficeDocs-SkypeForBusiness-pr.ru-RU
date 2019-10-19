@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37396425"
 ---
-![Обновите схему поездки, выделяя этапы развертывания и реализации](media/upgrade-banner-deployment.png "поездки на обновление, акцентя на этапе развертывания и реализации") .
+![Обновление схемы поездки, акцент на развертывании и реализации](media/upgrade-banner-deployment.png "Этапы поездки на обновление, акцент на этапе развертывания и реализации")
 
 Эта статья является частью стадии развертывания и внедрения вашего путешествия по обновлению. Перед продолжением убедитесь, что выполнены следующие действия:
 
