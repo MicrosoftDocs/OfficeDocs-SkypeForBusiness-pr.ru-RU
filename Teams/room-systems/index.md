@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Важные вопросы планирования для развертывания комнат Microsoft Teams, а также развертывания и управления системой.
 ms.openlocfilehash: fb628ba4011a7f738d7082ae8281aa990a82b66b
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36428049"
 ---
 <h2>Комнаты Microsoft Teams</h2>
@@ -111,4 +111,4 @@ ms.locfileid: "36428049"
 Эти статьи предназначены для пользователей с планированием, развертыванием и управлением этими устройствами, а не для пользователей системы. Пользователи могут больше заинтересовать [веб-Справка](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)по комнатам Microsoft Teams.
 
 > [!NOTE]
-> [Система помещения Skype](../room-systems/lrs-migration.md) (ранее — система комнат Lync) и комнаты Microsoft Teams являются различными продуктами с разными зависимостями и процедурами развертывания.
+> [Система комнат Skype](../room-systems/lrs-migration.md) (ранее — система комнат Lync) и комнаты Microsoft Teams — это различные продукты с разными зависимостями и процедурами развертывания.
