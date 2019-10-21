@@ -347,6 +347,7 @@
 #### [Отработка отказа канала связи при исходящих звонках](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Коды стран для путей к носителям](direct-routing-country-codes.md)
 #### [Скрипт PowerShell для проверки подключений пограничного контроллера сеансов](sip-tester-powershell-script.md)
+#### [Управление уведомлениями о звонках](direct-routing-call-notifications.md)
 
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -809,7 +810,8 @@
 ### [Рекомендации по драйверам аппаратного декодера и кодировщика](hardware-decoders-and-encoders.md)
 ### [Установка Teams с помощью MSI](msi-deployment.md)
 ### [Включение Teams в организации](Office-365-set-up.md)
-### [URL-адреса и диапазоны IP-адресов Office 365](office-365-urls-ip-address-ranges.md)
+### [Файлы и папки Teams, которые должны быть исключены из проверки на вирусы](teams-files-folders-antivirus-perf.md)
+### [URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
 ### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
 ### [Обновления клиента Teams](teams-client-update.md)
