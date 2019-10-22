@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5dc1dcdb679ff9629d5b2da495865b724e1401d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566522"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615984"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -98,6 +98,7 @@ ms.locfileid: "37566522"
 |Функция     | Максимальный предел |
 |------------|---------------|
 |Количество пользователей в собрании  | 250    |
+|Максимальный размер файла PowerPoint | 2 ГБ|
 
 ## <a name="teams-live-events"></a>Трансляции Teams
 
