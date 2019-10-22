@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по внедрению голосовой почты в облаке для пользователей, размещенных в Skype для бизнеса Server.
-ms.openlocfilehash: 99fc250ff4c01a0b51e784c165edb99cbb867b3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160706"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616081"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Настройка облачной службы голосовой почты для локальных пользователей
 
@@ -59,7 +59,7 @@ ms.locfileid: "36160706"
 
 - **ProxyFQDN** указывает полное доменное имя (FQDN) прокси-сервера, используемого поставщиком услуг хостинга; Например, proxyserver.contoso.com. Чтобы получить эту информацию, обратитесь к своему поставщику услуг размещения. Это значение нельзя изменить. Если поставщик услуг хостинга изменяет свой прокси-сервер, необходимо удалить и повторно создать запись для этого поставщика.
 
-- **** Параметр "..." указывает, входит ли прокси-сервер, используемый поставщиком услуг хостинга, в вашу топологию Skype для бизнеса Server. Для этого параметра должно быть задано значение false.
+- Параметр "... **" указывает,** входит ли прокси-сервер, используемый поставщиком услуг хостинга, в вашу топологию Skype для бизнеса Server. Для этого параметра должно быть задано значение false.
 
 Например, в командной консоли Skype для бизнеса следующий командлет настраивает облачную голосовую почту в качестве поставщика услуг хранения:
 
@@ -75,16 +75,16 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 Чтобы изменить глобальную политику, выполните следующую команду в командной консоли Skype для бизнеса Server после обновления вашей организации и TenantID:
 
 ```
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -TenantID “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
 - **Destination** указывает полное доменное имя (FQDN) размещенной облачной службы голосовой почты. Это значение должно быть равно **exap.UM.Outlook.com**.
 
-- **Organization** — это домен по умолчанию, назначенный вашему клиенту. Вы можете получить эту информацию, дополнив вход администратора клиента в office.com, выберите приложение центра администрирования, перейдите к разделу **Настройка** слева и нажмите кнопку домены. **** Пример: mytenant.onmicrosoft.com.
+- **Organization** — это домен по умолчанию, назначенный вашему клиенту. Вы можете получить эту информацию, дополнив вход администратора клиента в office.com, выберите приложение центра администрирования, перейдите к разделу **Настройка** слева и нажмите кнопку **домены**. Пример: mytenant.onmicrosoft.com.
 
     Имя организации также является именем домена по умолчанию в Office 365.
 
-- **TenantID** используется для идентификации клиента в Office 365. Для получения дополнительных сведений обратитесь [к разделу Find Your ID клиента Office 365](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- **Клиент** используется для идентификации клиента в Office 365. Для получения дополнительных сведений обратитесь [к разделу Find Your ID клиента Office 365](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Чтобы убедиться, что политика размещенной голосовой почты успешно создана, выполните следующую команду:
 

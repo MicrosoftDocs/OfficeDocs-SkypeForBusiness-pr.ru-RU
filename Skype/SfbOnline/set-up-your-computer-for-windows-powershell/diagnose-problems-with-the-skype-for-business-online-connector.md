@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062211"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615975"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -49,12 +49,19 @@ ms.locfileid: "35062211"
 
 - [Превышено максимальное число параллельных оболочек для этого клиента в Skype для бизнеса Online](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
+
+> [!IMPORTANT]
+> По умолчанию сеансы PowerShell превышены по истечении времени (60 минут). Для повторного подключения вам нужно закрыть сеанс и запустить новый сеанс PowerShell. Недавно запущена новая версия [Skype для бизнеса Online, модуль Windows PowerShell (2046,123 — опубликовано 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), включающая новый командлет **Enable-Ксонлинесессионфорреконнектион** , который позволяет уменьшить минуты 60. Ошибка времени ожидания.
+> Сеанс PowerShell повторно подключается к серверу и проходит проверку подлинности, позволяя его использовать без запуска нового экземпляра для повторного подключения.
+
+
+
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Ошибка Import-Module, вызванная политикой выполнения Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
 Политика выполнения PowerShell помогает определить, какие файлы конфигурации можно загрузить в консоль PowerShell и какие сценарии пользователь может запустить из этой консоли. Как минимум Модуль соединителя Skype для бизнеса Online невозможно импортировать, если политика выполнения имеет значение RemoteSigned. Если это не так, вы получите следующее сообщение об ошибке при попытке импортировать модуль:
   
-- **Ошибка**: <em>Import-Module: файл C:\\Program\\Files файлы\\. Общие файлы Microsoft\\Lync\\Server\\2013 modules линконлинеконнектор линконлинеконнекторстартуп. PSM1 невозможно загрузить, так как выполняется сценарии отключены в этой системе. Дополнительные сведения можно найти в https://go.microsoft.com/fwlink/?LinkID=135170разделе абаут_ексекутион_полиЦиес.</em>
+- **Ошибка**: <em>Import-Module: файл C:\\Program\\Files файлы\\. Общие файлы Microsoft\\Lync\\Server\\2013 modules линконлинеконнектор линконлинеконнекторстартуп. PSM1 невозможно загрузить, так как выполняется сценарии отключены в этой системе. Дополнительные сведения можно найти в https://go.microsoft.com/fwlink/?LinkID=135170разделе about_Execution_Policies.</em>
 
 - **Разрешение** Чтобы устранить эту проблему, запустите PowerShell с правами администратора, а затем выполните следующую команду:
     ```
@@ -105,7 +112,7 @@ ms.locfileid: "35062211"
 
 - **Ошибка**: *Get-Ксвебтиккет: не удается загрузить модуль Live ID. Убедитесь, что у вас установлена правильная версия помощника по входу Live ID.*
 
-- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на веб-сайте помощника по входу в [Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на [веб-сайте помощника по входу в Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>
