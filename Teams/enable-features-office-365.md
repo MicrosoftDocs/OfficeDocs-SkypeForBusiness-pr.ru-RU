@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715930"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616080"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -98,11 +97,22 @@ Microsoft Teams позволяет организациям назначать 
 Эти параметры можно использовать для настройки перехода пользователей со Skype для бизнеса на Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Режим сосуществования
-Можно указать следующий режим сосуществования: **Только Teams**, **Острова** (сосуществование Teams и Skype для бизнеса) или **Только Skype для бизнеса**. Выбранный режим определяет маршрутизацию входящих звонков и чатов, а также приложение, используемое для инициации чатов и звонков или для планирования собраний. Дополнительные сведения см. в статье о [сосуществовании и взаимодействии Microsoft Teams и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Вы можете указать режим сосуществования: 
+
+- **Только Teams**
+- **Острова** (сосуществование Teams и Skype для бизнеса)
+- **Только Skype для бизнеса**
+- **Совместная работа между пользователями Teams и Skype для бизнеса** (пользователи принимают звонки и чаты, а также планируют собрания в Skype для бизнеса, но используют Teams для совместной работы в группах)
+- **Skype для бизнеса с совместной работой и собраниями в Teams** (пользователи принимают звонки и чаты в Skype для бизнеса, но используют Teams для совместной работы в группах и планирования собраний)
+
+Выбранный режим определяет маршрутизацию входящих звонков и чатов, а также приложение, используемое для инициации чатов и звонков или для планирования собраний. Дополнительные сведения см. в статье о [сосуществовании и взаимодействии Microsoft Teams и Skype для бизнеса](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Настройки приложений
 
 Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/ru-RU/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
+
+Также можно выбрать параметр "Скачать приложение Teams в фоновом режиме для пользователей Skype для бизнеса".  По умолчанию этот параметр включен. Этот параметр обеспечивает скачивание приложения Teams в фоновом режиме для пользователей приложения Skype для бизнеса на ПК с Windows. Это происходит, если у пользователя установлен режим сосуществования "Только Teams" или если в приложении Skype для бизнеса включено уведомление о необходимости перехода. 
+
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Как узнать, какие функции доступны?
 
