@@ -28,6 +28,7 @@
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
 ## [Присутствие пользователей в Teams](presence-admins.md)
 ## [Просмотр аналитики командной и межкомандной работы в Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Окончание и продление срока действия команды](team-expiration-renewal.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
 
 
