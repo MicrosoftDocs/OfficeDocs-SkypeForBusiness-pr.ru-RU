@@ -16,17 +16,16 @@ f1keywords:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b79821dd3a4e36b2a57ec73e0914027cd17da71
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349209"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "37564435"
 ---
 > [!NOTE]
 > Изучите следующие сведения, чтобы ознакомиться с чатами, командами, каналами и приложениями в Teams. Затем перейдите к статье [Чат, команды, каналы и приложения в Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md), чтобы просмотреть список важных решений при развертывании Teams.
