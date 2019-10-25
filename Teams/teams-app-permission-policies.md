@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570307"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664981"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "37570307"
 
 1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел > **политики разрешений**для **приложений Teams**.
 2. Выберите **параметр "Параметры организации**". Затем вы можете настроить нужные параметры на панели. 
-    ![Снимок экрана: политика разрешений для новой версии приложения](media/app-permission-policies-org-wide-settings.png)
+    ![Снимок экрана: параметры приложения в масштабах Организации](media/app-permission-policies-org-wide-settings.png)
 3. В **приложениях сторонних разработчиков**отключите или включите эти параметры для управления доступом к сторонним приложениям.
 
     - **Разрешать сторонние или пользовательские приложения в Teams**: это определяет, могут ли пользователи использовать сторонние или пользовательские приложения.
