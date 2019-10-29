@@ -47,21 +47,30 @@
 ### [Шаблоны приложений для Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Настройка приложения "Собрания Skype" для работы с Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
+## Общение с внешними пользователями
+### [Общение с пользователями из других организаций](communicate-with-users-from-other-organizations.md)
 
-## Гостевой доступ
-### [О гостевом доступе](guest-access.md)
-### [Присоединение гостя к команде](guest-joins.md)
-### [Взаимодействие с гостями](guest-experience.md)
-### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
-### [Включение и отключение гостевого доступа в Teams](set-up-guests.md)
-### [Управление гостевым доступом в Teams](manage-guests.md)
-### [Добавление гостя в команду](add-guests.md)
-### [Просмотр гостевых пользователей в команде](view-guests.md)
-### [Изменение сведений о гостевых пользователях](edit-guests-information.md)
-### [Использование PowerShell для управления гостевым доступом в команде](guest-access-PowerShell.md)
-### [Контрольный список гостевого доступа](guest-access-checklist.md)
+### Внешний доступ (федерация)
+#### [Управление внешним доступом](manage-external-access.md)
+#### [Встроенный чат Teams для внешних пользователей](native-chat-for-external-users.md)
 
-## [Внешний доступ (федерация)](manage-external-access.md)
+
+### Гостевой доступ
+#### [О гостевом доступе](guest-access.md)
+#### [Контрольный список гостевого доступа](guest-access-checklist.md)
+#### [Присоединение гостя к команде](guest-joins.md)
+#### [Взаимодействие с гостями](guest-experience.md)
+#### [Авторизация гостевого доступа в Teams](teams-dependencies.md)
+#### [Включение и отключение гостевого доступа в Teams](set-up-guests.md)
+#### [Управление гостевым доступом в Teams](manage-guests.md)
+#### [Добавление гостя в команду](add-guests.md)
+#### [Просмотр гостевых пользователей в команде](view-guests.md)
+#### [Изменение сведений о гостевых пользователях](edit-guests-information.md)
+#### [Управление гостевым доступом с помощью PowerShell](guest-access-PowerShell.md)
+#### [Устранение неполадок гостевого доступа](troubleshoot-guest-access.md)
+
+
+
 
 ## Управление Teams
 ### [Роли администратора](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Начало работы с безопасным обменом сообщениями для организаций в сфере здравоохранения](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Делегирование сообщений](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Интеграция электронных историй болезни в Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [Характеристики интерфейса DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [Характеристики интерфейса STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [Обзор приложения для пациентов](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [Интеграция электронных историй болезни в Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [Характеристики интерфейса DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [Характеристики интерфейса STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [Журналы аудита приложения для пациентов](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
