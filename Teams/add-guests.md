@@ -4,7 +4,6 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 audience: ITPro
-ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.collection:
@@ -16,12 +15,12 @@ localization_priority: Priority
 description: Вы можете узнать о доступных администратору средствах для добавления новых гостевых пользователей в организацию, включая классический и веб-клиент Microsoft Teams, а также портал для совместной работы Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b23ee82e90dea1bc302f14f305274d3ba64d471
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 78f495b10e953a8e416c8cadd755a098c8c948a7
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516122"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753254"
 ---
 <a name="add-a-guest-to-a-team"></a>Добавление гостя в команду
 =====================
@@ -31,7 +30,7 @@ ms.locfileid: "37516122"
 Любой человек с учетной записью электронной почты для организации или пользователя, такой как Outlook, Gmail или другой, может участвовать в Teams в качестве гостя.
 
 Являясь администратором, вы можете добавить нового гостевого пользователя в организацию несколькими способами.
-- Владельцы команды или являющиеся ими глобальные администраторы могут добавить гостя в команду с помощью классического или веб-клиента Microsoft Teams. Дополнительные сведения см. в статье [Добавление гостей в команду](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+- Глобальные администраторы или администраторы Teams, а также владельцы команд могут добавлять гостей в команду из клиентов Teams или Центра администрирования Teams. Дополнительные сведения см. в статье [Добавление гостей в команду](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Если гостевой доступ еще не настроен, выполните действия, указанные в статье [Контрольный список гостевого доступа](guest-access-checklist.md).
 
 > [!NOTE] 
 > Это не применяется, если включен параметр **Администраторы и пользователи с ролью приглашающего гостей могут приглашать**, так как роль приглашающего гостей не поддерживается в Teams.
@@ -47,9 +46,6 @@ ms.locfileid: "37516122"
 
 Вы можете отслеживать добавление гостей в Azure AD или Центре безопасности и соответствия требованиям Office 365. Добавление гостя в Microsoft Teams проходит аудит и регистрируется в журнале администрирования групп Azure AD в виде записи "Added member to group" (Добавление участника в группу). Дополнительные сведения см. в статьях [Аудит и отчеты для пользователя службы совместной работы B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) и [Поиск журнала аудита в Центре безопасности &amp;и соответствия требованиям Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
-## <a name="guest-access-vs-external-access-federation"></a>Сравнение гостевого и внешнего доступа (федерация)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Дополнительные сведения
 
