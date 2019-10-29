@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [Облако видеовзаимодействия](cloud-video-interop.md)
 
 ## Прямые трансляции
@@ -660,15 +654,16 @@
 ## [Прекращение поддержки Skype для бизнеса Online](skype-for-business-online-retirement.md)
 ## [Вопросы и ответы](FAQ-journey.md)
 
-## Дополнительные сведения о сосуществовании
+## Техническая библиотека
+### [Руководство по обновлению для ИТ-администраторов](upgrade-to-teams-on-prem-overview.md)
 ### [Миграция и взаимодействие со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md)
 ### [Сосуществование со Skype для бизнеса](coexistence-chat-calls-presence.md)
 ### [Взаимодействие с клиентом Teams и соответствие режимам сосуществования](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # Гибридное подключение 
 
 ## [Планирование гибридного подключения](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
