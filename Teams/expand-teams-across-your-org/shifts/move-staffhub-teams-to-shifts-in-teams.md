@@ -2,7 +2,7 @@
 title: Перемещение групп StaffHub в приложение "Смены" в Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569686"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775088"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
@@ -105,21 +105,33 @@ ms.locfileid: "37569686"
 - Владелец команды добавил пользователя, у которого нет учетной записи Azure AD.
 - Владелец команды пригласил пользователя в группу StaffHub, и этот пользователь не пригласится на приглашение.
 
-Эти пользователи имеют неактивные учетные записи и показывают состояние пользователя "неизвестно", "приглашены" или "Инвитережектед". Вы можете связать учетную запись Azure AD для этих пользователей.  Выполните описанные ниже действия.
+Эти пользователи имеют неактивные учетные записи и показывают состояние пользователя "неизвестно", "приглашены" или "Инвитережектед". Вы можете связать учетную запись Azure AD для этих пользователей.  Ниже описано, как это сделать.
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>Получение списка всех неактивных учетных записей в StaffHub Teams
 
-Выполните указанные ниже действия, чтобы получить список всех неактивных учетных записей в StaffHub Teams и экспортировать список в CSV-файл.
+Выполните следующую последовательность команд, чтобы получить список всех неактивных учетных записей в StaffHub Teams и экспортировать список в CSV-файл. Каждая команда должна выполняться отдельно.
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>Связывание учетной записи
@@ -255,6 +267,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -295,6 +308,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -322,7 +336,9 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 

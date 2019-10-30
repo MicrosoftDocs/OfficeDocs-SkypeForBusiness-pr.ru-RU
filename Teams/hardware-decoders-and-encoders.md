@@ -16,13 +16,13 @@ description: Список сочетаний операционной систе
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
-- MicrOperating systemoft Teams
-ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+- Microsoft Teams
+ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570767"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772602"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Рекомендации по драйверам аппаратного декодера и кодировщика
 
@@ -47,9 +47,9 @@ ms.locfileid: "37570767"
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | 0x1916 |[10.18.15.4293] |
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | весь |[10.18.15.4281] |
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | весь |[20.19.15.4390]-[20.19.15.4444] |
-|Windows 10 | весь | [21.20.16.4541] |
-|Windows 10 | весь | [22.20.16.4811] |
-|Windows 10 | весь | [24.20.100.6293] |
+|Windows 10 | весь | [21.20.16.4541] |
+|Windows 10 | весь | [22.20.16.4811] |
+|Windows 10 | весь | [24.20.100.6293] |
 
 ## <a name="hardware-decoder-driver-recommendations---nvidia"></a>Рекомендации по драйверам аппаратного декодера — NVIDIA
 
@@ -70,8 +70,8 @@ ms.locfileid: "37570767"
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | 0x0A2B | [0.0.0.0]-[9.18.13.282] |
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | 0x087D | [9.18.13.697] |
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | 0x1040 |[0.0.0.0]-[9.18.13.1106] |
-|Windows 10 | весь | [10.18.13.5891]-[10.18.13.6881] |
-|Windows 10 | весь | [21.21.13.6909]; [21.21.13.7570] |
+|Windows 10 | весь | [10.18.13.5891]-[10.18.13.6881] |
+|Windows 10 | весь | [21.21.13.6909]; [21.21.13.7570] |
 |Windows 7 | весь | [21, 21, 13, 4201] |
 
 ## <a name="hardware-decoder-driver-recommendations---amd"></a>Рекомендации по драйверам аппаратного декодера — AMD

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4801545455b9f3d3762ae5b3d3fcce1ffe71eed4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245154"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772403"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Обнаружение окружающей среды для выпуска Microsoft Teams
 ===================================================
@@ -116,7 +116,7 @@ ms.locfileid: "36245154"
 > | Какие функции Teams и модальностей используются? | <input type="checkbox">Беседы на основе канала <br/> <input type="checkbox">Закрытый чат <br/> <input type="checkbox">Гостевой доступ <br/> <input type="checkbox">Собрания канала <br/> <input type="checkbox">Личные собрания <br/> <input type="checkbox">Частный Звонок <br/> <input type="checkbox">Рекламный канал обсудим <br/> <input type="checkbox">Видео о собраниях <br/> <input type="checkbox">Демонстрация экрана в собраниях <br/> <input type="checkbox">Голосовые конференции <br/><input type="checkbox">Приложения (приложения)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"><br>&nbsp;&nbsp; Ботов &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Интеграция настраиваемого облачного хранилища <br>&nbsp;&nbsp; (Box, Dropbox, шарефиле, Google &nbsp; диск) <br/> <input type="checkbox">Интеграция с электронной почтой канала <br/> <input type="checkbox">Другие (укажите в столбце Примечания). | |
 > | Какие приложения вы развернули в Teams? | | |
 > | Блокировали ли вы какие-то конкретные возможности Teams? <br/>Если да, обратите внимание на сведения в столбце Примечания. | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет ||
-> | Какие используются клиенты Teams? | <input type="checkbox">Сайта <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Макинтоша <br/> <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Windows Mobile | |
+> | Какие используются клиенты Teams? | <input type="checkbox">Сайта <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Макинтоша <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Windows Mobile | |
 > | Кому разрешено создавать команды? | <input type="checkbox">Все пользователи в Организации <br>&nbsp;&nbsp; (Это значение по умолчанию &nbsp;) <br/> <input type="checkbox">Определенные пользователи <br>&nbsp;&nbsp; (Укажите в столбце Примечания &nbsp;.) | |
 > | Используете ли вы в Teams функции обеспечения безопасности и соответствия требованиям? | <input type="checkbox">Кнопки <br/> <input type="checkbox">Нет | |
 
@@ -171,7 +171,7 @@ ms.locfileid: "36245154"
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (укажите версию в столбце "Примечания"). <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
+> | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (укажите версию в столбце "Примечания"). <br/> <input type="checkbox">Linux (укажите распределение в столбце Примечания). <br/><input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
 > | Какая версия Microsoft Office развернута <br>на эти устройства? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office для Mac 2011 <br/> <input type="checkbox">Office для Mac 2016 <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
 > | Какая технология развертывания Office используется <br>в вашей организации? | <input type="checkbox">УСТАНОВЩИКА <br/> <input type="checkbox">"Нажми и работай" | |
 > | Каковы разрешенные и поддерживаемые мобильные устройства <br>используются платформы? <br/>Выберите все подходящую силу. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |

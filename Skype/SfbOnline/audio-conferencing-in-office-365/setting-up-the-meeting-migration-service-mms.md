@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Служба миграции собраний (MMS) — это служба, которая запускается в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: cd7796b600486b672318ecbd67b50ee6d68f43e4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Служба миграции собраний (MMS) — это служба, которая запускается в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. MMS предназначен для предотвращения необходимости запуска средства миграции собраний для обновления собраний Skype для бизнеса и Microsoft Teams.
+ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306293"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772283"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Использование службы миграции собраний (MMS)
 
@@ -94,11 +94,11 @@ ms.locfileid: "34306293"
 В следующих случаях MMS обновит существующие собрания Skype для бизнеса и Microsoft Teams, чтобы добавить, удалить или изменить координаты телефонного подключения.
 
 - Если вы назначаете или удаляете лицензию на службу Microsoft Audio Конференц-связь с пользователем, и этот пользователь не включен для стороннего поставщика голосовой связи.
-- При смене поставщика видеоконференций у другого поставщика в Microsoft при условии, что ему назначена лицензия Microsoft Audio для Конференции. Дополнительные сведения можно найти [в разделе Назначение Microsoft поставщиком звуковых конференций](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Также обратите внимание на то, что поддержка сторонних поставщиков видеоконференций [ACP] запланирована на окончание срока действия 1 апреля 2019, как [было объявлено ранее](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
+- При смене поставщика видеоконференций у другого поставщика в Microsoft при условии, что ему назначена лицензия Microsoft Audio для Конференции. Дополнительные сведения можно найти [в разделе Назначение Microsoft поставщиком звуковых конференций](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Также обратите внимание на то, что поддержка сторонних поставщиков видеоконференций [ACP] запланирована на окончание срока действия 1 апреля 2019, как [было объявлено ранее](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - При включении или отключении голосовой конференции для пользователя.
 - При изменении или сбросе идентификатора конференции для пользователя, настроенного на использование общедоступных собраний.
 - При переключении пользователя на новый мост аудиоконференции.
-- Когда номер телефона из моста голосовой конференции не назначен. Это сложный сценарий, в котором требуется выполнить дополнительные действия. Дополнительные сведения можно найти [в разделе изменение номеров телефонов для вашего моста звуковых конференций](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+- Когда номер телефона из моста голосовой конференции не назначен. Это сложный сценарий, в котором требуется выполнить дополнительные действия. Дополнительные сведения можно найти [в разделе изменение номеров телефонов для вашего моста звуковых конференций](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
 Не все изменения в параметрах аудиоконференции для пользователя приводят к запуску MMS. В частности, MMS не будет обновлять собрания в двух следующих случаях:
 
@@ -174,7 +174,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 1. Определите пользователей, которых затронул сбой. Для получения списка пользователей, которых затронул сбой, и возникших ошибок выполните следующую команду:
 
     ```
-    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table Identity, LastMessage
+    Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. Для каждого затронутого пользователя запустите средство миграции собраний, чтобы вручную переносить их собрания.
 
@@ -212,4 +212,4 @@ Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings 
 
 [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Перемещение пользователей между локальным и облаком](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Перемещение пользователей между локальной средой и облаком](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)

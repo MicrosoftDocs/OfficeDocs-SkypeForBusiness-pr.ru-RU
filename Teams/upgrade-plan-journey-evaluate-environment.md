@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236107"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772323"
 ---
-![Обновление схемы поездки с акцентом на этапе технической подготовки] (media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
+![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
 Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
 
@@ -49,7 +49,7 @@ ms.locfileid: "36236107"
 
 ## <a name="project-team"></a>Группа проекта
 
-Убедитесь, что вы активировали нужных пользователей для своей группы проекта. Проверьте шаги, выполненные в разделе "прикрепить [проект стакекхолдерс](upgrade-enlist-stakeholders.md).
+Убедитесь, что вы активировали нужных пользователей для своей группы проекта. Проверьте шаги, выполненные в разделе " [прикрепить проект стакекхолдерс](upgrade-enlist-stakeholders.md).
 
 ## <a name="office-365-tenant-details"></a>Сведения о клиенте Office 365
 
@@ -152,7 +152,7 @@ ms.locfileid: "36236107"
 
 > | Вопрос | Ответ | Комментарии |
 > |---|---|---|
-> | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (укажите версию в столбце "Примечания"). <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
+> | Какие операционные системы для настольных компьютеров вы сейчас используете? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (укажите версию в столбце "Примечания"). <br/> <input type="checkbox">Linux (укажите распределение в столбце Примечания). <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
 > | Какая версия Microsoft Office развернута <br>на эти устройства? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office для Mac 2011 <br/> <input type="checkbox">Office для Mac 2016 <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
 > | Какая технология развертывания Office используется <br>в вашей организации? | <input type="checkbox">УСТАНОВЩИКА <br/> <input type="checkbox">"Нажми и работай" | |
 > | Каковы разрешенные и поддерживаемые мобильные устройства <br>используются платформы? <br/>Выберите все подходящую силу. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">Ввода <br/> <input type="checkbox">ОС <br/> <input type="checkbox">Другие (Обратите внимание на сведения в столбце Примечания). | |
@@ -191,7 +191,7 @@ ms.locfileid: "36236107"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Точка принятия решений</td><td><ul><li>Кто будет отвечать за выполнение оценки среды?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Следующий шаг</td><td><ul><li>Задокументируйте результаты оценки среды.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Следующее действие</td><td><ul><li>Задокументируйте результаты оценки среды.</li></ul></td></tr>
 </table>
 
 После оценки среды переходите к следующему шагу: [Подготовка сети](upgrade-prepare-environment-prepare-network.md).

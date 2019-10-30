@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570117"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772342"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Область поиска в каталоге Microsoft Teams
 
@@ -56,4 +56,5 @@ Microsoft Teams позволяет организациям предоставл
     ![Поиск в каталоге с областью в центре администрирования Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> Для репликации этого изменения может потребоваться до 24 часов.

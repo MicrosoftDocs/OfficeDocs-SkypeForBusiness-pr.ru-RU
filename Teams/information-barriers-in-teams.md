@@ -3,7 +3,6 @@ title: Информационные барьеры в Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,12 +13,12 @@ ms.reviewer: vikramju
 description: Узнайте о барьерах информации и о том, как они влияют на Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd9ac22a45d0e76e8f2d31c3d11be726148b3863
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b38a21e9e18bb94809a8c42fba33ab273cfb004
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572073"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772592"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Информационные барьеры в Microsoft Teams
 
@@ -65,6 +64,7 @@ ms.locfileid: "37572073"
 - **Пользователь может присоединиться к собранию** — когда пользователь приглашается присоединиться к собранию, политика пользователя оценивается по политикам других участников группы, и если возникает нарушение, пользователь не может присоединиться к собранию.
 - **Экран, совместно используемый несколькими пользователями** (каждый раз, когда на экране размещается несколько пользователей), необходимо оценивать экран, чтобы убедиться в том, что они не нарушают политики барьера информационных ресурсов других пользователей. Если нарушена политика информационных барьеров, демонстрация экрана не разрешается.
 - **Пользователь помещает телефонный звонок (VoIP) в Teams** – любое время, когда пользователь может инициировать голосовой звонок другому пользователю или группе пользователей, этот вызов оценивается, чтобы убедиться, что он не нарушает политики барьера информации других участников группы. Если возникнут нарушения, голосовой звонок блокируется.
+- **Гостевые пользователи в Teams** – политики барьера данных также применяются к гостевой машине в Teams. Если гостевые пользователи должны быть обнаружены в глобальном списке адресов своей организации, ознакомьтесь со статьей [Управление гостевым доступом в группах Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). После того как гостевые пользователи будут обнаруживаемыми, вы можете [определить политики барьера информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Что происходит с существующими потоками чата при изменении политики?
 
@@ -117,4 +117,4 @@ ms.locfileid: "37572073"
 
 - Сведения о том, как настроить политики барьера информации, приведены в разделе [Определение политик для барьеров информации](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
-- Сведения о том, как изменить или удалить политики барьера данных, можно найти в разделе [изменение и удаление политик барьера данных](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)
+- Сведения о том, как изменить или удалить политики барьера данных, можно найти в разделе [изменение и удаление политик барьера данных](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
