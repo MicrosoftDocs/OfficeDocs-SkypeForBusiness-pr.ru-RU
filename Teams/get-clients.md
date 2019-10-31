@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772363"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886432"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 ===========================
@@ -104,11 +104,12 @@ ms.locfileid: "37772363"
 
 Пользователи Linux могут устанавливать команды с помощью пакета `.deb` Debian или пакета `.rpm`Red Hat. 
 
-[!NOTE] Клиент Teams для Linux доступен в ограниченном предварительном просмотре. Отправлять ошибки с `Report a Problem` помощью клиента. Известные проблемы можно найти в разделе [Известные проблемы](Known-issues.md).
+> [!NOTE] 
+> Клиент Teams для Linux доступен в ограниченном предварительном просмотре. Отправлять ошибки с `Report a Problem` помощью клиента. Известные проблемы можно найти в разделе [Известные проблемы](Known-issues.md).
 
 #### <a name="install-teams-using-deb-package"></a>Установка Teams с помощью пакета DEB
 
-1. Скачайте пакет https://aka.ms/getteams.
+1. Скачайте пакет https://aka.ms/getteams. (Предварительная версия клиента Linux ограничена, и он будет запущен в ближайшее время. Если вы не видите клиент Linux на странице Загружаемые файлы, он пока еще не запущен.)
 2. Установите одно из указанных ниже действий.  
     - Откройте пакет с помощью средства программного обеспечения Ubuntu и перейдите к самостоятельному процессу установки Linux.
     - Или, если вы любите контакт, введите:`sudo apt install **teams download file**`
@@ -117,7 +118,7 @@ ms.locfileid: "37772363"
 
 #### <a name="install-teams-using-rpm-package"></a>Установка Teams с помощью пакета RPM
 
-1. Скачайте пакет https://aka.ms/getteams.
+1. Скачайте пакет https://aka.ms/getteams. (Предварительная версия клиента Linux ограничена, и он будет запущен в ближайшее время. Если вы не видите клиент Linux на странице Загружаемые файлы, он пока еще не запущен.)
 2. Установите одно из указанных ниже действий.
     - Откройте пакет с помощью средства управления пакетами Red Hat и перейдите в раздел Руководство по установке приложений для Linux.
     - Или, если вы любите контакт, введите:`sudo yum install **teams download file**`

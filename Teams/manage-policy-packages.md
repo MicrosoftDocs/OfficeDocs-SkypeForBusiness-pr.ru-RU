@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать пакеты политик и управлять ими в Microsoft Teams.
-ms.openlocfilehash: 1caa1606f330b92507342140efbfc144def8c547
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d9e18f662f96d4021cf4878ba5130decb40bb9e4
+ms.sourcegitcommit: b6e17a6690011917c8fc14e98a49af654441a204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571949"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37889858"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Управление пакетами политик в Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "37571949"
 Каждой отдельной политике назначается имя пакета политики, что позволяет легко определять политики, связанные с пакетом политики.
 Например, если вы назначаете пакету политики Education_Teacher для преподавателей в учебном заведении, для каждой политики в пакете создается политика с именем Education_Teacher.
 
-![Снимок экрана с пакетом политики Education_Teacher](media/policy-packages-education_teacher.png)
+![Снимок экрана: пакет политики Education_Teacher](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>Использование пакетов политик
 
