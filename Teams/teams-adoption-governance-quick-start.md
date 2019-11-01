@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a196fd3de81cf5e68a5fdaf389b3acad9465ef7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ae71be1cfed86597f70b6ed7bfec08b42a2ce256
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242320"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913032"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Краткое руководство по управлению Microsoft Teams
 
@@ -31,6 +31,8 @@ ms.locfileid: "36242320"
 - Какая заинтересованная лица из предыдущей оценки является хорошим кандидатом на участие в этом ограниченном бизнесе?
 - Есть ли у вас (или несколько групп пользователей) варианты использования, которые были бы хорошим кандидатами на этот этап?  
 - Есть ли у них достаточно важных сотрудников своей организации, чтобы они были более ранними, и они получили осмысленный и регулярный отзыв? 
+
+Чтобы узнать больше, читайте [план для управления в Teams](plan-teams-governance.md) и [Планируйте управление жизненным циклом в Teams](plan-teams-lifecycle.md).
 
 ## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Значок, представляющий точку принятия решения](media/teams-adoption-decision-icon.png)Приняв
 
