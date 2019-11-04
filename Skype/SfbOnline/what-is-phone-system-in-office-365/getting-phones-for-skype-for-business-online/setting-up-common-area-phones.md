@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Ознакомьтесь с инструкциями по развертыванию, чтобы получить подходящую версию встроенного по, при необходимости обновите ее, назначьте лицензии и настройте параметры для стационарных телефонов с областями.
-ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792458"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924900"
 ---
 # <a name="set-up-common-area-phones"></a>Настройка телефонов общего пользования
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -37,8 +37,8 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 - Найти и приобрести одобренные телефоны (вы можете просмотреть их список[здесь](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
   - **Polycom VVX phones**: перейдите в раздел **Параметры** > **** > **** > **приложения** > Platform**Main**.
-  - **Yealinkные телефоны**: переход **** к состоянию на главном экране телефона.
-  - **AudioCodes телефоны**: переход в **меню** > "**состояние** > **** устройства" на начальном экране.
+  - **Yealinkные телефоны**: переход к **состоянию** на главном экране телефона.
+  - **AudioCodes телефоны**: переход в **меню** > "**состояние** > устройства **" на** начальном экране.
   - **Lync Phone Edition (LPE)**: выберите **пункт** > "**сведения о системе** " на начальном экране.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
@@ -97,7 +97,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 Узнайте больше в статье [Получение телефонных номеров для ваших пользователей](/microsoftteams/getting-phone-numbers-for-your-users).
 
-При необходимости номера телефонов других операторов можно "*портировать*" или передать в Office 365. Посмотрите, [перенесите номера телефонов в Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+При необходимости номера телефонов других операторов можно "*портировать*" или передать в Office 365. Посмотрите, [перенесите номера телефонов в Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Шаг 4. Настройка телефона
 
@@ -140,7 +140,7 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 > Сайт подготовки CAP заявляет о сбросе пароля учетной записи CAP на случайный пароль. Обратите внимание, что учетная запись, на которую ссылается CAP, представляет собой учетную запись Azure Active Directory (AAD). Если вы создали учетную запись только в AAD, процесс не будет сложным. Если вы синхронизируете локальную службу Active Directory с AAD и используете сторонние IDP или ADFS, инициализация закрепления завершается сбоем. В этом случае необходимо использовать учетную запись Office 365 или Azure Active Directory только (например, учетную запись с доменом **onmicrosoft.com** ), чтобы подготовиться к работе.
 
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 
 - Узнайте больше о доступных телефонах в статье [Развертывание телефонов Skype для бизнеса Online](deploying-skype-for-business-online-phones.md).
 - [Телефоны, поддерживаемые в Skype для бизнеса Online](getting-phones-for-skype-for-business-online.md)

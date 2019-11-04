@@ -18,10 +18,10 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Узнайте о политиках обмена сообщениями и о том, как их можно использовать для управления сообщениями в чате в Teams.
 ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569280"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Управление политиками обмена сообщениями в Teams
@@ -98,5 +98,5 @@ ms.locfileid: "37569280"
 - **На мобильных устройствах отображение избранных каналов над последними чатами** Включите этот параметр, чтобы переместить избранные каналы в верхнюю часть экрана мобильного устройства, чтобы пользователь не проходил для их поиска. 
 - **Разрешение пользователям удалять пользователей из группового чата** Включите этот параметр, чтобы разрешить пользователю удалять других пользователей из группового чата. Благодаря этой функции вы сможете продолжить чат с небольшим количеством пользователей, не теряя историю чата.
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 [Политики собраний в Teams](meeting-policies-in-teams.md)

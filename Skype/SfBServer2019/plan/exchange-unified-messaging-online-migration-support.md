@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: Корпорация Майкрософт отключают службу единой системы обмена сообщениями Exchange Online (Ексчумо) до 2020 февраля. В этой статье приводятся сведения о том, какие уязвимые пользователи должны знать и как планировать бесперебойную деятельность.
 ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37616092"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Поддержка сетевой единой системы обмена сообщениями Exchange

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571242"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925320"
 ---
 # <a name="set-up-calling-plans"></a>Настройка планов звонков
 
@@ -48,7 +48,7 @@ ms.locfileid: "37571242"
 
 - **Используйте центр администрирования Skype для бизнеса.** В некоторых странах или регионах можно получить номера для ваших пользователей с помощью Центра администрирования Skype для бизнеса. См. статью [Получение телефонных номеров для ваших пользователей](/microsoftteams/getting-phone-numbers-for-your-users).
     
-- **Портируйте номера, которые у вас уже есть.** Вы можете перенести существующие номера из текущего поставщика услуг или оператора телефона в Office 365. Для получения дополнительных полезных сведений о том, как это сделать, см. статью [Перемещение телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление телефонными номерами вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+- **Портируйте номера, которые у вас уже есть.** Вы можете перенести существующие номера из текущего поставщика услуг или оператора телефона в Office 365. Дополнительные сведения о том, как это сделать, можно найти в разделе [Перенос номеров телефонов для групп](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) или [Управление телефонными номерами в Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
 - **Используйте форму запроса для новых номеров.** Иногда (в зависимости от страны или региона) вы не сможете получить новые телефонные номера с помощью центра администрирования Skype для бизнеса, или вам понадобятся конкретные номера телефонов или коды города. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 

@@ -3,7 +3,6 @@ title: Совместное использование файлов в Microsoft
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -15,19 +14,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9eee925a61352ef23b9f7c62fbe6fd58df5122
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568693"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931797"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Совместное использование файлов в Microsoft Teams
 
-> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
-
 Функции общего доступа к файлам в Teams позволяют пользователям предоставлять общий доступ к содержимому другим пользователям Teams в своей организации. Общий доступ в Teams основывается на параметрах, настроенных в SharePoint и OneDrive, поэтому все, что вы настроили для SharePoint и OneDrive, также будет управлять предоставлением общего доступ в Teams.
-![Схема, показывающая, как работает общий доступ к файлам в OneDrive для бизнеса и SharePoint](media/sharing-files-in-teams-image1.png)
+
+![Диаграмма, показывающая совместную работу групп, SharePoint и OneDrive](media/sharing-files-in-teams-image1.png)
 
 Совместное использование команд позволяет пользователям выполнять указанные ниже действия.
 

@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Получите рекомендации по переносу номеров телефонов в Microsoft Teams.
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886970"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925200"
 ---
 # <a name="more-information-about-porting"></a>Дополнительные сведения о переносе
 
 Здесь вы найдете дополнительные сведения о переносе телефонных номеров в Microsoft Teams.
 
-Полные пошаговые инструкции можно найти в разделе Перенос номеров телефонов в Teams.
+Полные пошаговые инструкции можно найти [в разделе Перенос номеров телефонов в Teams](transfer-phone-numbers-to-teams.md).
 
 Если вам нужна помощь или вам нужно получить дополнительные номера телефонов, обратитесь к [справочной службе сети PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
@@ -106,11 +106,11 @@ ms.locfileid: "37886970"
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>Как посмотреть состояние заказа на перенос?
 
-Видите состояние заказов на перенос номеров?
+Видите [состояние заказов на перенос номеров?](port-order-status.md)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-- Что такое номер порта?
+- [Что такое номер порта?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)

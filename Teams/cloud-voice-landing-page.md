@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Главная страница для развертывания облачной голосовой связи в Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515836"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925580"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Облачная голосовая связь в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "37515836"
 - [Телефонная система с планами звонков](calling-plan-landing-page.md)
 - [Прямая маршрутизация телефонной системы](direct-routing-landing-page.md)
 - [Развертывание облачной системы голосовой связи](cloud-voice-deployment.md)
-- [Решения Майкрософт для телефонии](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Решения Майкрософт для телефонии](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Чтобы узнать больше о телефонной системе, просмотрите следующий сеанс: [Введение в телефонную систему в Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
@@ -112,7 +112,7 @@ ms.locfileid: "37515836"
 | :------------|:-------|
 | В каких расположениях пользователей должны быть введены новые номера телефонов из Microsoft? | Сведения о том, как получить телефонные номера, можно найти в разделе [Управление номерами телефонов для Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) и [сбор телефонных номеров для пользователей](getting-phone-numbers-for-your-users.md). 
 | Какой тип номера телефона (подписчика или службы) нужен? | Чтобы выбрать нужный тип номера телефона, ознакомьтесь с разрешениями, [используемыми для планов звонков, на разных видах номеров](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-Как перенести существующие номера телефонов в Office 365?|Дополнительные сведения можно найти [в разделе Передача номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
+Как перенести существующие номера телефонов в Teams?|Дополнительные сведения можно найти [в разделе Перенос номеров телефонов в Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 |||
 
 ### <a name="dial-plans"></a>Абонентские группы
@@ -134,7 +134,7 @@ ms.locfileid: "37515836"
 
 |Задайте себе вопрос|Действие |
 |:------------|:-------|
-| Требуются ли в организации очереди звонков? | Дополнительные сведения можно найти [в разделе Создание очереди облачных звонков](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) и [Настройка телефонной системы](setting-up-your-phone-system.md). |
+| Требуются ли в организации очереди звонков? | Дополнительные сведения можно найти [в разделе Создание очереди облачных звонков](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) и [Настройка телефонной системы](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Автосекретари
 
@@ -149,8 +149,8 @@ ms.locfileid: "37515836"
 Дополнительные сведения о поддерживаемых устройствах можно найти в следующих статьях:
 
 - [Управление устройствами в Microsoft Teams](device-management.md)
-- [IP-телефоны](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [USB-устройства для аудио и видео](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Интеллектуальная связь для устройств](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [IP-телефоны](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [USB-устройства для аудио и видео](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Интеллектуальная связь для устройств](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

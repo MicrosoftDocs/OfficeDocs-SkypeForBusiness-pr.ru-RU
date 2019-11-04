@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.collection: ''
 description: Инструкции по внедрению голосовой почты в облаке для пользователей, размещенных в Skype для бизнеса Server.
 ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37616081"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Настройка облачной службы голосовой почты для локальных пользователей
 
-## <a name="overview"></a>Обзор 
+## <a name="overview"></a>Общие сведения 
 В этой статье описано, как настроить облачную службу голосовой почты Майкрософт для локальных пользователей Skype для бизнеса.  
 
 В этой статье предполагается, что вы уже развернули Skype для бизнеса Server в поддерживаемой топологии и удовлетворены предварительные требования для настройки гибридного подключения.

@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams.
-ms.openlocfilehash: f3eb106c0acb9c79d60f45cc11770f26e3e59a1e
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516698"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925100"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -105,7 +105,7 @@ ms.locfileid: "37516698"
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Этап 2: сбор и передача платных и бесплатных телефонных номеров услуги
 
-Прежде чем вы сможете создавать и настраивать очереди звонков, вам нужно получить или переадресовать существующие платные или бесплатные номера сервисных услуг. После получения платных и бесплатных телефонных номеров, они**** > будут отображаться в **центре** > администрирования Microsoft Teams в Интернете для**голосовой связи** > с**другими абонентами, а** **тип номера** будет указан в списке как **Service (бесплатно)**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
+Прежде чем вы сможете создавать и настраивать очереди звонков, вам нужно получить или переадресовать существующие платные или бесплатные номера сервисных услуг. После получения платных и бесплатных телефонных номеров, они**** > будут отображаться в **центре** > администрирования Microsoft Teams в Интернете для**голосовой связи** > с**другими абонентами, а** **тип номера** будет указан в списке как **Service (бесплатно)**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 > [!NOTE]
 > За пределами США нельзя использовать центр администрирования Microsoft Teams для получения номеров служб. Чтобы узнать, как сделать это из за пределами США, перейдите в раздел [Управление телефонными номерами в Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
@@ -313,15 +313,15 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Шесть причин использовать Windows PowerShell для управления Office 365](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell обладает многими преимуществами для быстрого, простоты и продуктивности в центре администрирования Microsoft Teams, например при одновременном изменении параметров для нескольких пользователей. Подробнее об этих преимуществах можно узнать в следующих разделах:
 
-  - [Управление Office 365 с помощью Windows PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Управление Office 365 с помощью Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
-  - [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 

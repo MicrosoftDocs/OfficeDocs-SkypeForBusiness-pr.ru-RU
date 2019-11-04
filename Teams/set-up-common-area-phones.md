@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571597"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925310"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]
@@ -61,7 +61,7 @@ ms.locfileid: "37571597"
 |Skype для бизнеса |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
 |Телефонные системы |    &#x2714; |
-|Аудиоконференции |       &#x2718; &SUP1;  |
+|Аудиоконференция |       &#x2718; &SUP1;  |
 |Microsoft Intune |        &#x2718; &sup2; |
 |Доступность в разных странах мира |    &#x2714; |
 |Доступность канала |    EA, EAS, CSP, GCC, ИС, Web Direct  |
@@ -114,6 +114,6 @@ ms.locfileid: "37571597"
 
 Дополнительные сведения можно найти [в разделе Знакомство с телефонными номерами пользователей](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Вы также можете использовать свой номер телефона, на котором есть другой перевозчик и "порт", или передать его в Office 365. Посмотрите [, как передавать номера телефонов в Office 365](transfer-phone-numbers-to-office-365.md).
+Вы также можете использовать свой номер телефона, на котором есть другой перевозчик и "порт", или передать его в Office 365. Посмотрите [, как передавать номера телефонов в Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 

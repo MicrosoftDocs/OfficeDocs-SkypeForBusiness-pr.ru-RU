@@ -15,10 +15,10 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype для бизнеса Server 2015 включает в себя меры по восстановлению после аварии, позволяя связывать пулы интерфейсов, расположенные в двух центрах обработки данных.
 ms.openlocfilehash: bb89116d1cedf4eea5e888c0b8021b009688324f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "34274256"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)

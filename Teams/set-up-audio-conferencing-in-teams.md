@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571264"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925370"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка голосовой конференции в Microsoft Teams
 
@@ -65,7 +65,7 @@ ms.locfileid: "37571264"
   
 - **Используйте центр администрирования Microsoft Teams**. В некоторых странах и регионах вы можете получать номера служб для мостов конференц-связи с помощью центра администрирования Microsoft Teams. Смотрите раздел [Знакомство с телефонными номерами служб](/microsoftteams/getting-service-phone-numbers).
     
-- **Перенос существующих номеров служб**. Перенос существующих номеров из текущего поставщика услуг или оператора телефонного номера в Office 365. Для получения дополнительных сведений о том, как это сделать, см. статью [Передача телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+- **Перенос существующих номеров служб**. Перенос существующих номеров из текущего поставщика услуг или оператора телефонного номера в Office 365. Чтобы получить дополнительные сведения о [переносе номеров телефонов](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) для Организации, вы можете просмотреть их в Teams или [управлять телефонными номерами](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
 - **Используйте форму запроса для новых номеров**. Иногда (в зависимости от страны или региона) вы не сможете получить новые номера служб, используя центр администрирования Microsoft Teams, или вам понадобятся конкретные номера телефонов или коды города. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
     

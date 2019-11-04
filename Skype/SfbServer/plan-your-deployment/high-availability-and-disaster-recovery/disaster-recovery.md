@@ -12,10 +12,10 @@ ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: При аварийном восстановлении в Skype для бизнеса Server есть Связывание пула с переходом на другой ресурс в случае, если один из них отключен.
 ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37341935"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Внешнее аварийное восстановление пула в Skype для бизнеса Server

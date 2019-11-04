@@ -20,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37517047"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925600"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Аудиоконференции в Office 365
 Голосовые конференции в Office 365 дают пользователям возможность звонить на собрания с телефонов. Голосовые конференции допускают до 250 мобильных участников.
@@ -86,7 +86,7 @@ ms.locfileid: "37517047"
 
 - **Используйте центр администрирования Skype для бизнеса.** В некоторых странах и регионах вы можете получать номера для мостов конференций с помощью центра администрирования Skype для бизнеса. Смотрите раздел [Знакомство с телефонными номерами служб](/microsoftteams/getting-service-phone-numbers).
     
-- **Портируйте номера, которые у вас уже есть.** Вы можете перенести существующие номера из текущего поставщика услуг или оператора телефона в Office 365. Для получения дополнительных полезных сведений о том, как это сделать, см. статью [Перемещение телефонных номеров в Office 365](transfer-phone-numbers-to-office-365.md) или [Управление телефонными номерами вашей организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+- **Портируйте номера, которые у вас уже есть.** Вы можете перенести существующие номера из текущего поставщика услуг или оператора телефона в Office 365. Дополнительные сведения о том, как это сделать, можно найти в разделе [Перенос номеров телефонов для групп](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) или [Управление телефонными номерами в Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
 - **Используйте форму запроса для новых номеров.** Иногда (в зависимости от страны или региона) вы не сможете получить новые телефонные номера с помощью центра администрирования Skype для бизнеса, или вам понадобятся конкретные номера телефонов или коды города. В таких случаях необходимо скачать соответствующую форму, заполнить ее и отправить в нашу службу поддержки. Для получения дополнительных сведений см. статью [Управление номерами телефонов организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

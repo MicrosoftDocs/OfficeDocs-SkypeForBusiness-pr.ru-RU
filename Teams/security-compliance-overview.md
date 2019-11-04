@@ -18,10 +18,10 @@ f1keywords:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37568058"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Обзор обеспечения безопасности и соответствия в Microsoft Teams
@@ -162,6 +162,6 @@ Microsoft Teams поддерживается отдельно как облач�
 
 Ознакомьтесь с дополнительными сведениями о доверительных отношениях и связанными с безопасностью в [центре управления безопасностью Майкрософт](https://microsoft.com/trustcenter). Команды в центре управления безопасностью должны следовать тем же рекомендациям и принципам.
 
-<a name="related-topics"></a>Статьи по теме
+<a name="related-topics"></a>См. также
 ----------------------
 [Безопасные ссылки на Office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)
