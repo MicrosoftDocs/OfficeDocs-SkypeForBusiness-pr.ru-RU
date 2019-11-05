@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fa78681bbad0fb5b4c46a2ac424f3be01e9a857
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
+ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972290"
+ms.locfileid: "37973218"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>Как подготовить пользователей к использованию корпоративной голосовой связи?
 
@@ -32,7 +32,7 @@ ms.locfileid: "37972290"
 
 Для компьютеров с Windows и Mac скачать Teams можно на сайте https://teams.microsoft.com/downloads. Если пользователь применяет Windows 10 в режиме S, он может установить Teams из Магазина Windows.
 Для телефонов с Android и iPhone приложение можно установить, выполнив поиск Microsoft Teams в Google Play и Apple App Store. Обратите внимание, что на телефонах должна использоваться система Android 4.4 и более поздней версии или iOS 10.0 и более поздней версии.
-Чтобы использовать Teams в Интернете, вам потребуется использовать поддерживаемый браузер. Список поддерживаемых браузеров см. [в разделе "Веб-клиент" статьи "Работа с клиентами для Microsoft Teams"](../get-clients#web-client).
+Чтобы использовать Teams в Интернете, вам потребуется использовать поддерживаемый браузер. Список поддерживаемых браузеров см. [в разделе "Веб-клиент" статьи "Работа с клиентами для Microsoft Teams"](../get-clients.md#web-client).
 
 ## <a name="devices-for-microsoft-teams"></a>Устройства для Microsoft Teams
 
