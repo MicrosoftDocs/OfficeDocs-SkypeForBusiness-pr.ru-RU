@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Узнайте о барьерах информации и о том, как они влияют на Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931807"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968260"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Информационные барьеры в Microsoft Teams
 
@@ -27,7 +27,8 @@ ms.locfileid: "37931807"
 > [!NOTE]
 > - Группы барьера для данных нельзя создавать на разных клиентах.
 > - Использование ботов для добавления пользователей не поддерживается в версии 1.
-> - Новое: поддержка контрольных барьеров для сайта SharePoint, подключенного к Teams, теперь находится в частном предварительной версии. Нажмите [здесь](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) , чтобы принять участие в частном просмотре. .
+> - Закрытые каналы соответствуют настройкам для заданных политик барьера.
+> - Новое: поддержка контрольных барьеров для сайта SharePoint, подключенного к Teams, теперь находится в частном предварительной версии. Щелкните [здесь](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) , чтобы принять участие в частном просмотре.
 
 Политики барьера информации также предотвращают подстановки и обнаружение. Это означает, что при попытке общения с абонентом, с которым вы не хотите общаться, вы не увидите этого пользователя в средстве выбора людей.
 

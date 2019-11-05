@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569977"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968310"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Политики хранения Microsoft Teams: вопросы и ответы
+
+> [!NOTE]
+> Мы пока не поддерживаем конфигурацию для хранения сообщений частных каналов. Поддерживается хранение файлов, общих для частных каналов.
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Какие типы политик можно настроить в политиках хранения и как они работают?
 
@@ -40,7 +43,7 @@ ms.locfileid: "37569977"
 
 ### <a name="what-is-the-default-retention-policy"></a>Какова политика хранения по умолчанию? 
 
-По умолчанию данные чата, каналы и файлов в Teams сохраняются постоянно. Пользователь может удалить что-либо, но в случае отсутствия политик хранения данные Teams всегда архивируются в почтовые ящики Exchange Online (пользователи и группы) и остаются там для обнаружения электронных данных. 
+По умолчанию данные чата, каналы и файлов в Teams сохраняются постоянно.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Можно ли назначить набор пользователей или групп в политике? 
 

@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570139"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968280"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Управление политиками Teams в Microsoft Teams
 
@@ -43,11 +43,11 @@ ms.locfileid: "37570139"
 2. Нажмите **Добавить**.
 3. Введите имя и описание политики.
 
-    ![Снимок экрана с параметрами политики Teams](media/teams-policies.png)
+    ![Снимок экрана: параметры политики Teams](media/teams-policies.png)
 4. Выберите нужные параметры.
 
-- [**Откройте для себя закрытые команды**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): Включите этот параметр, чтобы разрешить пользователям находить частные команды в результатах поиска и коллекции групп.
-- [**Создание частных каналов**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): Включите этот параметр, чтобы разрешить пользователям создавать закрытые каналы.
+- **Откройте для себя закрытые команды**:<a name="discoverteams"> </a> включите этот параметр, чтобы разрешить пользователям находить частные команды в результатах поиска и коллекции групп.
+- **Создание частных каналов**: <a name="createchannels"> </a>включите этот параметр, чтобы разрешить пользователям создавать закрытые каналы.
 
 5. Нажмите кнопку **Сохранить**.
 
@@ -105,3 +105,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 ## <a name="related-topics"></a>См. также
 
 - [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
+- [Личные каналы в Teams](private-channels.md)

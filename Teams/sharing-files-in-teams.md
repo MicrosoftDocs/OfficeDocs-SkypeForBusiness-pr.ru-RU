@@ -14,14 +14,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: 4114444da68e7a18fe66f7d32e3f64ab98a0b00b
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931797"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962083"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Совместное использование файлов в Microsoft Teams
+
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 Функции общего доступа к файлам в Teams позволяют пользователям предоставлять общий доступ к содержимому другим пользователям Teams в своей организации. Общий доступ в Teams основывается на параметрах, настроенных в SharePoint и OneDrive, поэтому все, что вы настроили для SharePoint и OneDrive, также будет управлять предоставлением общего доступ в Teams.
 

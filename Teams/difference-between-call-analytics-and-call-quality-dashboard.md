@@ -21,11 +21,11 @@ ms.custom:
 - Reporting
 description: Узнайте о средстве аналитики звонков и панели мониторинга качества звонков, а также о том, как их использовать для мониторинга и устранения проблем с качеством связи.
 ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571773"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972470"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Аналитика звонков и панель мониторинга качества звонков
 
@@ -95,7 +95,7 @@ Microsoft Teams и Skype для бизнеса предоставляют два
 
 Дополнительные сведения о CQD можно найти в разделе [Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online](turning-on-and-using-call-quality-dashboard.md) и [измерений и мер, доступных в панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Видео: обзор качества звонка](https://aka.ms/teams-quality)
 
