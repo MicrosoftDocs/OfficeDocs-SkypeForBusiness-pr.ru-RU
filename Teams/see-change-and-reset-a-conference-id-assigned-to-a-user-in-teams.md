@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как назначить идентификатор конференции пользователю в Microsoft Teams и какими должны быть его параметры. '
 ms.openlocfilehash: d134a3664a6cee588d08f3d1a33bc6018d97a1fa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571341"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Просмотр и сброс назначенного пользователю идентификатора конференции в Microsoft Teams
@@ -97,5 +97,5 @@ Windows PowerShell дает возможность управлять польз
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

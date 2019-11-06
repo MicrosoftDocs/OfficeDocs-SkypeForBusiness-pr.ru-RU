@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772353"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979712"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "37772353"
 |Жесткий диск    | 3,0 ГБ свободного места на диске        |
 |Display    |   разрешение экрана 1024 x 768 |
 |Графическое оборудование |  Не менее 128 МБАЙТ графической памяти
-|Операционная система  | Дистрибутив Linux, способ установки DEB, привязки или RPM. |
+|Операционная система  | Дистрибутив Linux, способ установки DEB и RPM. |
 |Видеосвязь    |  Видеокамера USB 2,0       |
 |Устройства    |   Стандартная камера для портативного компьютера, микрофон и динамики    | 
 |Голосовая связь    |  Совместимые микрофон и динамики, гарнитура с микрофоном или эквивалентное устройство       |
@@ -88,7 +88,7 @@ ms.locfileid: "37772353"
 
 Требования для работы Teams в виртуализованной среде см. в разделе [Teams для виртуализованной инфраструктуры для настольных систем](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 - [Получение приложений Teams](get-clients.md)
 - [Microsoft Teams для мобильных устройств](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Установка приложения Microsoft Teams с помощью MSI](msi-deployment.md)

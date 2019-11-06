@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как включить или отключить в Skype отправку сообщений пользователям при изменении таких настроек, как ПИН-код или номер по умолчанию для конференц-связи в Microsoft Teams. '
 ms.openlocfilehash: 906781f79f10500fc8808a579abe9707f0f736ac
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37573067"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Включение и отключение отправки сообщений электронной почты при изменении настроек аудиоконференций в Microsoft Teams

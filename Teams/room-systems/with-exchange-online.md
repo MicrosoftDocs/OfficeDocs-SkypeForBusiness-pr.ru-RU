@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Сведения о том, как развертывать комнаты Microsoft Teams с помощью Exchange Online, читайте в этой статье.
-ms.openlocfilehash: 25542c5165940b4595345a0c37d7588a90829c78
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573499"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979792"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание комнаты Microsoft Teams с Exchange Online
 
@@ -86,10 +86,10 @@ Import-PSSession $Session -DisableNameChecking
 
 ### <a name="assign-an-office-365-license"></a>Назначение лицензии Office 365
 
-1. Сначала подключитесь к Azure AD, чтобы применить некоторые параметры учетной записи. Для подключения можно использовать следующий командлет. Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Сначала подключитесь к Azure AD, чтобы применить некоторые параметры учетной записи. Для подключения можно использовать следующий командлет. Подробнее об Active Directory можно узнать в [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
+   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred
@@ -132,7 +132,7 @@ Import-PSSession $Session -DisableNameChecking
     Если вы не знаете, какое значение использовать для параметра Регистрарпул в вашей среде, вы можете получить значение из существующего пользователя Skype для бизнеса Server с помощью этой команды.
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Назначение лицензии Skype для бизнеса Server для учетной записи комнат Microsoft Teams

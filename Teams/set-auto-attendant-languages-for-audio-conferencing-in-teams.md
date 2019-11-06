@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: Сведения о том, как выбрать языки автосекретаря аудиоконференций для номера аудиоконференций в Microsoft Teams.
 ms.openlocfilehash: 7a8f8c677d8f8b917100360189585b7fd82bb07e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571308"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Установка языков автосекретаря для аудиоконференций в Microsoft Teams
@@ -67,7 +67,7 @@ ms.locfileid: "37571308"
 
 Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

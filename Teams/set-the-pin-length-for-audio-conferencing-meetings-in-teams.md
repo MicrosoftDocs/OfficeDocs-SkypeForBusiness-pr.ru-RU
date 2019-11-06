@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: Узнайте о параметрах длины и требований ПИН-кода и Узнайте, как установить продолжительность собраний в Microsoft Teams.
 ms.openlocfilehash: 50c6ffe31e673dc7573ebb27f0eeb2ca78a30918
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571275"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Установка длины ПИН-кода для собраний аудиоконференций в Microsoft Teams
@@ -72,4 +72,4 @@ Windows PowerShell дает возможность управлять польз
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

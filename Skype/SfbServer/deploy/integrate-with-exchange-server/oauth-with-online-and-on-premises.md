@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка проверки подлинности OAuth между Exchange на локальном и Skype для бизнеса Online включает возможности интеграции Skype для бизнеса и Exchange, описанные в разделе Поддержка функций.
-ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715811"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979782"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Настройка интеграции и OAuth между Skype для бизнеса Online и Exchange Server 
 
@@ -41,7 +41,7 @@ ms.locfileid: "36715811"
 
 Выполните действия, описанные в приведенной ниже статье.
 
-[Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Действие 2: создание учетной записи пользователя для приложения-партнера Skype для бизнеса Online
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 В Exchange PowerShell в локальной организации Exchange выполните созданный сценарий PowerShell. Например: .\ExportAuthCert.ps1
 
-### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Шаг 6. Отправьте локальный сертификат авторизации в Azure Active Directory ACS
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Шаг 5: отправка локального сертификата авторизации в Azure Active Directory ACS
 
 Далее, используя Windows PowerShell, отправьте локальный сертификат авторизации, экспортированный на предыдущем шаге, в службу управления доступом Azure Active Directory (ACS). Перед выполнением этого действия необходимо установить командлеты модуля Azure Active Directory Module для Windows PowerShell. Если он не установлен, перейдите в раздел [https://aka.ms/aadposh](https://aka.ms/aadposh) для установки модуля Azure Active Directory для Windows PowerShell. После установки модуля Azure Active Directory для Windows PowerShell выполните следующие действия.
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 4. После запуска сценария появится диалоговое окно для ввода учетных данных. Введите данные учетной записи администратора клиента вашей организации Microsoft Online Azure AD. После выполнения сценария оставьте сеанс работы Windows PowerShell для Azure AD открытым. Он будет использоваться для запуска сценария PowerShell на следующем шаге.
 
-### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 7: Проверка того, что сертификат передан участникам службы Skype для бизнеса
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 6: Проверка того, что сертификат передан участникам службы Skype для бизнеса
 1. В PowerShell, который был открыт и прошел проверку подлинности в Azure Active Directory, выполните указанные ниже действия.
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -150,6 +150,6 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Ниже приведен [Пример настройки одного из них](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), но вы можете использовать любой сетевой инструмент трассировки, который вы хотите предпринять.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-[Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Настройка проверки подлинности OAuth между организациями Exchange и Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

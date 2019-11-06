@@ -22,10 +22,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Получите инструкции по изменению параметров для моста конференц-связи, который используется для запроса вызывающих абонентов и сбора имен и контактов для собраний организаторов, если они не пользуются приложениями Skype для бизнеса или Microsoft Teams. '
 ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37516956"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение настроек для моста аудиоконференций
@@ -131,7 +131,7 @@ ms.locfileid: "37516956"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Настройка аудиоконференций для Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

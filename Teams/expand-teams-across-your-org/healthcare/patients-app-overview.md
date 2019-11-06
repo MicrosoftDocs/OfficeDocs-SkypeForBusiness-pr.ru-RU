@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Приложение пациентов для администраторов Teams
-ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: 7f451f212bdb289d19588a2b908394d7673ee69f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885503"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38001332"
 ---
 # <a name="patients-app-overview"></a>Обзор приложения для пациентов
 
@@ -40,7 +40,7 @@ ms.locfileid: "37885503"
 
 Сведения о том, как подготовить среду к использованию приложения ЕМР Mode пациентов, можно найти [в статье интеграция электронных записей в здравоохранение в Microsoft Teams](patients-app.md). Кроме того, чтобы включить приложение пациентов для Организации, вам понадобится просмотреть [политики настройки приложений в Microsoft Teams](../../teams-app-setup-policies.md) .
 
-<!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
+Сведения о том, как пользователи могут получить доступ к группе пациентов или управлять ею, можно найти в [статьях начало работы с Microsoft Teams пациентов](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393) 
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
@@ -68,6 +68,6 @@ ms.locfileid: "37885503"
 Да, есть. Каждое действие в пользовательском интерфейсе, выполненное пользователем Microsoft Teams в приложении пациентов, подлежит аудиту и доступно в центре безопасности и соответствия требованиям. Сведения в этой статье описаны [ниже](patients-audit.md) .
 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Интеграция электронных историй болезни в Microsoft Teams](patients-app.md)

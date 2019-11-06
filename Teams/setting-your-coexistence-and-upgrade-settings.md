@@ -16,10 +16,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571528"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка сосуществования и обновления
@@ -67,7 +67,7 @@ ms.locfileid: "37571528"
 4. Если вы выбрали **режим совместного существования** , отличный от **параметров в масштабе организации**, вы можете включить уведомления в приложении Skype для бизнеса, которое будет вскоре переходить на Teams. Вы можете включить это уведомление для пользователя, включив параметр **уведомлять пользователя Skype для бизнеса** .
 5. После внесения изменений нажмите кнопку **сохранить** .
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 [Планирование поездки](upgrade-plan-journey.md)
 
 [Общие сведения о межсуществовании и обновлении для Skype для бизнеса и рабочих групп](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
