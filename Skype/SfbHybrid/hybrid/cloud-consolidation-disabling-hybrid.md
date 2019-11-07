@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этом приложении содержатся подробные инструкции по отключению гибридной среды в составе облачной консолидации для Teams и Skype для бизнеса.
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962061"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010582"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Отключение гибридной среды для завершения миграции в облако
 
@@ -48,7 +48,7 @@ ms.locfileid: "37962061"
     |Тип записи|Имя|TTL (Срок жизни)|Value (Значение)|
     |---|---|---|---|
     |SRV|_sipfederationtls. _tcp|3600|100 1 5061 sipfed. Online. Lync. <span>com-|
-    |SRV|_sip._tls|3600|100 1 443 sipdir. Online. Lync. <span>com-|
+    |SRV|_sip. _tls|3600|100 1 443 sipdir. Online. Lync. <span>com-|
     |CNAME| lyncdiscover|   3600|   webdir. Online. Lync. <span>com-|
     |CNAME| sip|    3600|   sipdir. Online. Lync. <span>com-|
     |CNAME| Согласно|   3600|   webdir. Online. Lync. <span>com-|
@@ -62,8 +62,7 @@ ms.locfileid: "37962061"
     ```
  
 3.  *Отключение возможности локального подключения к Office 365.*  
-Приведенная ниже команда должна быть выполнена из локального окна PowerShell.  Если вы ранее импортировали сеанс Skype для бизнеса Online, запустите новый сеанс PowerShell для Skype для бизнеса следующим образом:
-
+Приведенная ниже команда должна быть выполнена из локального окна PowerShell:
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,13 +71,13 @@ ms.locfileid: "37962061"
 
 Администраторы могут управлять пользователями, которые ранее были перемещены с локального сервера Skype для бизнеса в облако, даже после того, как локальное развертывание будет списано. Существует два варианта:
 
-- У пользователя не было значения для локальной организации lineURI перед перемещением. 
+- У пользователя не было значения для локальной организации LineURI перед перемещением. 
 
   В этом случае вы можете изменить LineURI с помощью параметров-Онпремлинеури в [командлете Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) в модуле PowerShell Skype для бизнеса Online.
 
-- Пользователь lineURI локально до перемещения (предположительно, так как пользователь включил поддержку корпоративной голосовой связи). 
+- Пользователь LineURI локально до перемещения (предположительно, так как пользователь включил поддержку корпоративной голосовой связи). 
 
-  Если вы хотите изменить lineURI, это необходимо сделать в локальной службе Active Directory и приступать к Azure AD. Для этого не требуется локальная среда Skype для бизнеса Server. Вместо этого этот атрибут, msRTCSIP, можно редактировать непосредственно в локальной службе Active Directory с помощью оснастки MMC "пользователи и компьютеры Active Directory" либо с помощью PowerShell. Если вы используете оснастку консоли управления (MMC), откройте страницу свойств пользователя, перейдите на вкладку Редактор атрибутов и найдите msRTCSIP-Line.
+  Если вы хотите изменить LineURI, это необходимо сделать в локальной службе Active Directory и приступать к Azure AD. Для этого не требуется локальная среда Skype для бизнеса Server. Вместо этого этот атрибут, msRTCSIP, можно редактировать непосредственно в локальной службе Active Directory с помощью оснастки MMC "пользователи и компьютеры Active Directory" либо с помощью PowerShell. Если вы используете оснастку консоли управления (MMC), откройте страницу свойств пользователя, перейдите на вкладку Редактор атрибутов и найдите msRTCSIP-Line.
 
   ![Средство "пользователи и компьютеры Active Directory"](../media/disable-hybrid-1.png)
 
