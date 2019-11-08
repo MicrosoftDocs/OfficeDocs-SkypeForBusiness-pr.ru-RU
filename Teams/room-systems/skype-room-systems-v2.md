@@ -20,25 +20,25 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о возможностях, доступных в комнатах Microsoft Teams. '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573576"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038738"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Обновление лицензий для собрания Teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Решения для лицензирования для общих Коммуникационнох устройств
 
-Корпорация Майкрософт выделила SKU для собраний и звоните по отдельным устройствам для устройств на конференц-зале (например, комнат Microsoft Teams и Microsoft Surface HUB).
+Корпорация Майкрософт выделила SKU для собраний и звонков по каждому устройству для помещения на собрание (например, комнаты Microsoft Teams и Microsoft Surface HUB).
 
 ||Microsoft Room SKU |  
 |:--- |:---: |
 |Skype для бизнеса |&#x2714;|
 |Microsoft Teams|  &#x2714;|
 |Телефонные системы|  &#x2714;|
-|Аудиоконференции|&#x2714; &SUP1;|
+|Аудиоконференция|&#x2714; &SUP1;|
 |Microsoft Intune|&#x2714;|  
 |Доступность в разных странах мира | &#x2714; &sup2;|
 |Доступность канала | EA, EAS, CSP, <br/>Прямой веб-сайт |
@@ -60,8 +60,8 @@ ms.locfileid: "37573576"
 |  | У вас есть Microsoft Teams или Skype для бизнеса Online <br/> Что необходимо приобрести   |У вас установлен Skype для бизнеса Server 2015/2019 (локальный или гибридный). <br/> Что необходимо приобрести|
 |:-----|:-----|:-----|
 |Присоединение к запланированному собранию  | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  |
-|Создание незапланированного собрания | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
-|Создание незапланированного собрания и звонки на номера телефонов из собрания |  SKU комнаты для собраний |Skype для бизнеса Клиентская лицензия Standard  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
+|Инициация нерегламентированного собрания | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
+|Создание нерегламентированного собрания и выход из собрания на номера телефонов |  SKU комнаты для собраний |Skype для бизнеса Клиентская лицензия Standard  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
 |Придайте комнате номер телефона и совершайте или получайте звонки из комнаты либо присоединитесь к звуковой конференции с помощью номера телефона.  | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Skype для бизнеса Клиентская лицензия Server Plus  |
 |Управление устройством с комнатой в Microsoft Intune |SKU комнаты для собраний  |Подписка на Microsoft Intune в [локальной системе MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
 | |||

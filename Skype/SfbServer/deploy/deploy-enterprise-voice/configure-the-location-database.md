@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Настройте, заполните и опубликуйте базу данных расположения E9-1-1 в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 36ddd57e39b51171581c0c6316f165f44879e3f9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233689"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038708"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Настройка базы данных местоположений в Skype для бизнеса Server
  
@@ -49,7 +49,7 @@ ms.locfileid: "36233689"
 |:-----|:-----|
 |**Точка беспроводного доступа** <br/> |\<BSSID\>,\<Описание\>,\<расположение\>,\<CompanyName\>,\<хаусенумбер\>,\<хаусенумберсуффикс\>,\<преднаправленный\>,...  <br/> ... \<Стритнаме\>,\<стритсуффикс\>,\<\>i Direction\<, City\>,\<штат\>,\<PostalCode\>, страна\<\>  <br/> |
 |**Subnet** <br/> |\<\>Подсеть\<,\>Описание\<,\>расположение\<,\>CompanyName\<,\>хаусенумбер\<,\>хаусенумберсуффикс\<, преднаправленный\>,...  <br/> ... \<Стритнаме\>,\<стритсуффикс\>,\<\>i Direction\<, City\>,\<штат\>,\<PostalCode\>, страна\<\>  <br/> |
-|**Порт** <br/> |\<Чассисид\>,\<портидсубтипе\>,\<Портид\>,\<Описание\>,\<расположение\>,\<CompanyName\>,\<хаусенумбер\>,\< Хаусенумберсуффикс\>,...  <br/> ... \<Преднаправленный\>,\<стритнаме\>,\<стритсуффикс\>,\<\>двусторонний\<, город\>,\<штат\>,\<индекс,\>\< Страну\>  <br/> |
+|**Порт** <br/> |\<Чассисид\>,\<портидсубтипе\>,\<Портид\>,\<Описание\>,\<расположение\>,\<CompanyName\>,\<хаусенумбер\>,\<хаусенумберсуффикс\>,...  <br/> ... \<Преднаправленный\>,\<стритнаме\>,\<стритсуффикс\>,\<\>двусторонний\<, город\>,\<штат\>,\<PostalCode\>, страна\<\>  <br/> |
 |**Коммутатор** <br/> |\<Чассисид\>,\<Описание\>,\<расположение\>,\<CompanyName\>,\<хаусенумбер\>,\<хаусенумберсуффикс\>,\<преднаправленный\>,...  <br/> ... \<Стритнаме\>,\<стритсуффикс\>,\<\>i Direction\<, City\>,\<штат\>,\<PostalCode\>, страна\<\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Добавление элементов сети в базу данных расположений
@@ -89,7 +89,7 @@ ms.locfileid: "36233689"
 3. Выполните следующий командлет, чтобы добавить расположения коммутаторов в базу данных расположений.
     
    ```
-   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    Вы также можете запустить следующие командлеты и использовать файл "switches.csv" для массового обновления расположений коммутаторов.
