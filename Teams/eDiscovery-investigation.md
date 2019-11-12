@@ -8,17 +8,18 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Сведения о том, когда требуется обнаружение электронных данных, например при передаче всей информации, хранящейся в электронной форме, для судебных разбирательств.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dac8bd72eaac581022431c3786b0f7487d137c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968050"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231120"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Обнаружение электронных данных в Microsoft Teams
 ============================

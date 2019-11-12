@@ -15,15 +15,16 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Сводка: сведения о интеграции Skype для бизнеса Server 2015 с Exchange и SharePoint.'
-ms.openlocfilehash: fa4e6d93dd1538dbeafdb05998c4f57482e0f4f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294315"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231150"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Интеграция с Exchange и SharePoint
 
@@ -40,7 +41,7 @@ ms.locfileid: "34294315"
 
 |**Функция**|**Примечания**|
 |:-----|:-----|
-|Обмен мгновенными сообщениями и присутствие в Outlook  <br/> |Дополнительные сведения можно найти в разделе [Обмен сообщениями и](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx)сведения о присутствии.  <br/> |
+|Обмен мгновенными сообщениями и присутствие в Outlook  <br/> |Дополнительные сведения можно найти в разделе [Обмен сообщениями и сведения о присутствии](https://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
 |Планирование собраний по сети и присоединение к ним с помощью Outlook  <br/> |Дополнительные сведения можно найти в разделе [интеграция Skype для бизнеса Server 2015 с сервером Exchange Server](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Обмен мгновенными сообщениями и присутствие в Outlook Web App  <br/> |Дополнительные сведения можно найти [в разделе Настройка гибридной среды в Skype для бизнеса Server 2015](../manage/authentication/configure-a-hybrid-environment.md).  <br/> |
 |Планирование и присоединение к собранию по сети с помощью Outlook Web App  <br/> ||
@@ -73,7 +74,7 @@ ms.locfileid: "34294315"
 |Журнал посещенных бесед и журналы звонков записываются в почтовый ящик Exchange пользователя.  <br/> ||
 |Архивация содержимого (мгновенных сообщений и собраний) в Exchange  <br/> |Дополнительные сведения можно найти в разделе [Контрольный список развертывания для архивации](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Поиск заархивированного содержимого  <br/> |Дополнительные сведения можно найти в разделе [Настройка Exchange для центра обнаружения электронных данных в SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
-|Голосовая почта  <br/> |Дополнительные сведения можно найти [в разделе Предоставление пользователям Lync Server 2013 голосовой почты в размещенной UM единой системе](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)обмена сообщениями.  <br/> |
+|Голосовая почта  <br/> |Дополнительные сведения можно найти [в разделе Предоставление пользователям Lync Server 2013 голосовой почты в размещенной UM единой системе обмена сообщениями](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
 
  **Skype для бизнеса Online и Exchange в локальной среде**
 

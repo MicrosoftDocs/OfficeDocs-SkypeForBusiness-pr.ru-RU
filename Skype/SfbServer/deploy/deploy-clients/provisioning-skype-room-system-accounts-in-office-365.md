@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: В этом разделе описывается выделение учетных записей системы комнат Skype в Office 365.
-ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775393"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231270"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Предоставление учетных записей системы комнат Skype в Office 365
  
@@ -91,7 +91,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Назначение лицензии Skype для бизнеса Online
 
-Теперь вы можете назначить лицензию Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3) с помощью административного портала Office 365, как описано в разделе [назначение и удаление лицензий для office 365 для бизнеса](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) или в [надстройке Skype для бизнеса Лицензирование](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Теперь вы можете назначить лицензию Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3) с помощью административного портала Office 365, как описано в разделе [назначение и удаление лицензий для office 365 для бизнеса](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) или в [лицензии на надстройку Skype для бизнеса](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 После назначения лицензии Skype для бизнеса Online вы сможете войти в систему и подтвердить, что она активна с помощью любого клиента Skype для бизнеса.
   
@@ -119,7 +119,9 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-  
+>[!NOTE] 
+>Многофакторная проверка подлинности (MFA) не поддерживается для учетных записей системы комнаты Skype. 
+
 ## <a name="password-expiration"></a>Срок действия пароля
 
 В Office 365 политика истечения срока действия паролей по умолчанию для всех учетных записей пользователей составляет 90 дня, если вы не настроили другую политику срока действия паролей. Для системных учетных записей комнаты Skype вы можете выбрать пароль, который не может быть указан, выполнив указанные ниже действия.
