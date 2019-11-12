@@ -8,61 +8,62 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Узнайте о поиске контента в Microsoft Teams, а также о том, как выполнять поиск по каналам связи в Exchange, отправлять файлы и изменения из SharePoint и вносить изменения в OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968290"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231160"
 ---
-<a name="use-content-search-in-microsoft-teams"></a><span data-ttu-id="c962b-103">Поиск контента в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c962b-103">Use Content Search in Microsoft Teams</span></span>
+<a name="use-content-search-in-microsoft-teams"></a><span data-ttu-id="66188-103">Поиск контента в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="66188-103">Use Content Search in Microsoft Teams</span></span>
 =====================================
 
 > [!NOTE]
-> <span data-ttu-id="c962b-104">Поиск контента сообщений и файлов в [закрытых каналах](private-channels.md) отличается от работы со стандартными каналами.</span><span class="sxs-lookup"><span data-stu-id="c962b-104">Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels.</span></span> <span data-ttu-id="c962b-105">Дополнительные сведения можно найти в разделе [Поиск контента в частных каналах](#content-search-of-private-channels).</span><span class="sxs-lookup"><span data-stu-id="c962b-105">To learn more, see [Content search of private channels](#content-search-of-private-channels).</span></span>
+> <span data-ttu-id="66188-104">Поиск контента сообщений и файлов в [закрытых каналах](private-channels.md) отличается от работы со стандартными каналами.</span><span class="sxs-lookup"><span data-stu-id="66188-104">Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels.</span></span> <span data-ttu-id="66188-105">Дополнительные сведения можно найти в разделе [Поиск контента в частных каналах](#content-search-of-private-channels).</span><span class="sxs-lookup"><span data-stu-id="66188-105">To learn more, see [Content search of private channels](#content-search-of-private-channels).</span></span>
 
-<span data-ttu-id="c962b-106">Поиск контента позволяет запрашивать сведения о Microsoft Teams, попадающее в Exchange, SharePoint Online и OneDrive для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="c962b-106">Content Search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.</span></span>
+<span data-ttu-id="66188-106">Поиск контента позволяет запрашивать сведения о Microsoft Teams, попадающее в Exchange, SharePoint Online и OneDrive для бизнеса.</span><span class="sxs-lookup"><span data-stu-id="66188-106">Content Search provides a way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.</span></span>
 
-<span data-ttu-id="c962b-107">Подробнее читайте [в статье Поиск содержимого в Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).</span><span class="sxs-lookup"><span data-stu-id="c962b-107">To learn more, read [Content Search in Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).</span></span>
+<span data-ttu-id="66188-107">Подробнее читайте [в статье Поиск содержимого в Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).</span><span class="sxs-lookup"><span data-stu-id="66188-107">To learn more, read [Content Search in Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).</span></span>
 
-<span data-ttu-id="c962b-108">Например, с помощью **поиска по содержимому** на веб-сайте SharePoint specs and specs можно выполнять поиск по стандартным каналам связи с Exchange, отправка файлов и изменения из SharePoint Online. изменения в OneNote.</span><span class="sxs-lookup"><span data-stu-id="c962b-108">For example, using **Content Search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.</span></span>
+<span data-ttu-id="66188-108">Например, с помощью **поиска по содержимому** на веб-сайте SharePoint specs and specs можно выполнять поиск по стандартным каналам связи в Exchange, отправлять файлы и изменения из SharePoint Online и вносить изменения в OneNote.</span><span class="sxs-lookup"><span data-stu-id="66188-108">For example, using **Content Search** against your Manufacturing Specs mailbox and Manufacturing Specs SharePoint site, you can search against Teams standard channel conversations from Exchange, file uploads and modifications from SharePoint Online, and OneNote changes.</span></span>
 
-<span data-ttu-id="c962b-109">Вы также можете добавить условия запроса для **Поиска контента**, чтобы сузить возвращаемые результаты.</span><span class="sxs-lookup"><span data-stu-id="c962b-109">You can also add query criteria to the **Content Search** to narrow the results returned.</span></span> <span data-ttu-id="c962b-110">В приведенном выше примере вы можете найти содержимое, в котором использовались ключевые слова "**новые спецификации фабрики"** .</span><span class="sxs-lookup"><span data-stu-id="c962b-110">In the above example, you can look for content where the keywords “**New Factory Specs”** were used.</span></span>
+<span data-ttu-id="66188-109">Вы также можете добавить условия запроса для **Поиска контента**, чтобы сузить возвращаемые результаты.</span><span class="sxs-lookup"><span data-stu-id="66188-109">You can also add query criteria to the **Content Search** to narrow the results returned.</span></span> <span data-ttu-id="66188-110">В приведенном выше примере вы можете найти содержимое, в котором использовались ключевые слова "**новые спецификации фабрики"** .</span><span class="sxs-lookup"><span data-stu-id="66188-110">In the above example, you can look for content where the keywords “**New Factory Specs”** were used.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="c962b-111">После добавления условий поиска вы можете экспортировать отчет или данные на компьютер для анализа.</span><span class="sxs-lookup"><span data-stu-id="c962b-111">After adding search conditions, you can export a report or the data to your computer for analysis.</span></span>
+> <span data-ttu-id="66188-111">После добавления условий поиска вы можете экспортировать отчет или данные на компьютер для анализа.</span><span class="sxs-lookup"><span data-stu-id="66188-111">After adding search conditions, you can export a report or the data to your computer for analysis.</span></span>
 
-## <a name="content-search-of-private-channels"></a><span data-ttu-id="c962b-112">Поиск контента в частных каналах</span><span class="sxs-lookup"><span data-stu-id="c962b-112">Content search of private channels</span></span>
+## <a name="content-search-of-private-channels"></a><span data-ttu-id="66188-112">Поиск контента в частных каналах</span><span class="sxs-lookup"><span data-stu-id="66188-112">Content search of private channels</span></span>
 
-<span data-ttu-id="c962b-113">Записи для сообщений, отправленных в частном канале, доставляются в почтовый ящик всех участников личного канала, а не в почтовом ящике группы.</span><span class="sxs-lookup"><span data-stu-id="c962b-113">Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox.</span></span> <span data-ttu-id="c962b-114">Заголовки записей форматируются для обозначения закрытого канала, с которого они были отправлены.</span><span class="sxs-lookup"><span data-stu-id="c962b-114">The titles of the records are formatted to indicate which private channel they were sent from.</span></span>
+<span data-ttu-id="66188-113">Записи для сообщений, отправленных в частном канале, доставляются в почтовый ящик всех участников личного канала, а не в почтовом ящике группы.</span><span class="sxs-lookup"><span data-stu-id="66188-113">Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox.</span></span> <span data-ttu-id="66188-114">Заголовки записей форматируются для обозначения закрытого канала, с которого они были отправлены.</span><span class="sxs-lookup"><span data-stu-id="66188-114">The titles of the records are formatted to indicate which private channel they were sent from.</span></span>
 
-<span data-ttu-id="c962b-115">Поскольку каждый частный канал имеет собственную коллекцию сайтов SharePoint, отделенную от родительского сайта группы, файлы в частном канале управляются независимо от родительской команды.</span><span class="sxs-lookup"><span data-stu-id="c962b-115">Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.</span></span>
+<span data-ttu-id="66188-115">Поскольку каждый частный канал имеет собственную коллекцию сайтов SharePoint, отделенную от родительского сайта группы, файлы в частном канале управляются независимо от родительской команды.</span><span class="sxs-lookup"><span data-stu-id="66188-115">Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.</span></span>
 
-<span data-ttu-id="c962b-116">Команды не поддерживают поиск контента в одном канале, поэтому для всей команды нужно выполнить поиск.</span><span class="sxs-lookup"><span data-stu-id="c962b-116">Teams doesn't support content search of a single channel, so the whole team must be searched.</span></span> <span data-ttu-id="c962b-117">Чтобы выполнить поиск контента в частном канале, выполните поиск по команде, в семействе веб-сайтов, связанном с частным каналом (для включения файлов), и почтовых ящиков участников личного канала (для включения сообщений).</span><span class="sxs-lookup"><span data-stu-id="c962b-117">To perform a content search of a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).</span></span>
+<span data-ttu-id="66188-116">Команды не поддерживают поиск контента в одном канале, поэтому для всей команды нужно выполнить поиск.</span><span class="sxs-lookup"><span data-stu-id="66188-116">Teams doesn't support content search of a single channel, so the whole team must be searched.</span></span> <span data-ttu-id="66188-117">Чтобы выполнить поиск контента в частном канале, выполните поиск по команде, в семействе веб-сайтов, связанном с частным каналом (для включения файлов), и почтовых ящиков участников личного канала (для включения сообщений).</span><span class="sxs-lookup"><span data-stu-id="66188-117">To perform a content search of a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).</span></span>
 
-<span data-ttu-id="c962b-118">Выполните указанные ниже действия, чтобы определить файлы и сообщения в частном канале, чтобы включить в поиск контента.</span><span class="sxs-lookup"><span data-stu-id="c962b-118">Use the following steps to identify files and messages in a private channel to include in  your content search.</span></span>
+<span data-ttu-id="66188-118">Выполните указанные ниже действия, чтобы определить файлы и сообщения в частном канале, чтобы включить в поиск контента.</span><span class="sxs-lookup"><span data-stu-id="66188-118">Use the following steps to identify files and messages in a private channel to include in  your content search.</span></span>
 
-### <a name="include-private-channel-files-in-a-content-search"></a><span data-ttu-id="c962b-119">Включение файлов закрытого канала в поиск контента</span><span class="sxs-lookup"><span data-stu-id="c962b-119">Include private channel files in a content search</span></span>
+### <a name="include-private-channel-files-in-a-content-search"></a><span data-ttu-id="66188-119">Включение файлов закрытого канала в поиск контента</span><span class="sxs-lookup"><span data-stu-id="66188-119">Include private channel files in a content search</span></span>
 
-<span data-ttu-id="c962b-120">Перед выполнением этих действий установите [командную консоль SharePoint Online и подключитесь к SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span><span class="sxs-lookup"><span data-stu-id="c962b-120">Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span></span>
+<span data-ttu-id="66188-120">Перед выполнением этих действий установите [командную консоль SharePoint Online и подключитесь к SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span><span class="sxs-lookup"><span data-stu-id="66188-120">Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span></span>
 
-1. <span data-ttu-id="c962b-121">Выполните указанные ниже действия, чтобы получить список всех семейств веб-сайтов SharePoint, связанных с частными каналами в команде.</span><span class="sxs-lookup"><span data-stu-id="c962b-121">Run the following to get a list of all SharePoint site collections associated with private channels in the team.</span></span>
+1. <span data-ttu-id="66188-121">Выполните указанные ниже действия, чтобы получить список всех семейств веб-сайтов SharePoint, связанных с частными каналами в команде.</span><span class="sxs-lookup"><span data-stu-id="66188-121">Run the following to get a list of all SharePoint site collections associated with private channels in the team.</span></span>
 
     ```
     Get-SPOSite
     ```
-2. <span data-ttu-id="c962b-122">Запустите следующий сценарий PowerShell, чтобы получить список всех URL-адресов семейств веб-сайтов SharePoint, связанных с частными каналами в команде и ИДЕНТИФИКАТОРом родительской группы групп.</span><span class="sxs-lookup"><span data-stu-id="c962b-122">Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.</span></span>
+2. <span data-ttu-id="66188-122">Запустите следующий сценарий PowerShell, чтобы получить список всех URL-адресов семейств веб-сайтов SharePoint, связанных с частными каналами в команде и ИДЕНТИФИКАТОРом родительской группы групп.</span><span class="sxs-lookup"><span data-stu-id="66188-122">Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.</span></span>
 
     ```
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
-3. <span data-ttu-id="c962b-123">Для каждого кода группы или группы выполните следующий сценарий PowerShell для идентификации всех соответствующих сайтов закрытого канала.</span><span class="sxs-lookup"><span data-stu-id="c962b-123">For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.</span></span>
+3. <span data-ttu-id="66188-123">Для каждого кода группы или группы выполните следующий сценарий PowerShell для идентификации всех соответствующих сайтов закрытого канала.</span><span class="sxs-lookup"><span data-stu-id="66188-123">For each team or group ID, run the following PowerShell script to identify all relevant private channel sites.</span></span>
 
     ```
     $sites = get-sposite -template "teamchannel#0"
@@ -70,22 +71,22 @@ ms.locfileid: "37968290"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-### <a name="include-private-channel-messages-in-a-content-search"></a><span data-ttu-id="c962b-124">Включение сообщений личного канала в поиск контента</span><span class="sxs-lookup"><span data-stu-id="c962b-124">Include private channel messages in a content search</span></span>
+### <a name="include-private-channel-messages-in-a-content-search"></a><span data-ttu-id="66188-124">Включение сообщений личного канала в поиск контента</span><span class="sxs-lookup"><span data-stu-id="66188-124">Include private channel messages in a content search</span></span>
 
-<span data-ttu-id="c962b-125">Перед выполнением этих действий убедитесь в том, что у вас установлена [новейшая версия модуля Teams PowerShell](teams-powershell-overview.md) .</span><span class="sxs-lookup"><span data-stu-id="c962b-125">Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.</span></span>
+<span data-ttu-id="66188-125">Перед выполнением этих действий убедитесь в том, что у вас установлена [новейшая версия модуля Teams PowerShell](teams-powershell-overview.md) .</span><span class="sxs-lookup"><span data-stu-id="66188-125">Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.</span></span>
 
-1. <span data-ttu-id="c962b-126">Выполните указанные ниже действия, чтобы получить список частных каналов в команде.</span><span class="sxs-lookup"><span data-stu-id="c962b-126">Run the following to get a list of private channels in the team.</span></span>
+1. <span data-ttu-id="66188-126">Выполните указанные ниже действия, чтобы получить список частных каналов в команде.</span><span class="sxs-lookup"><span data-stu-id="66188-126">Run the following to get a list of private channels in the team.</span></span>
 
     ```
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
-2. <span data-ttu-id="c962b-127">Выполните указанные ниже действия, чтобы получить список участников личного канала.</span><span class="sxs-lookup"><span data-stu-id="c962b-127">Run the following to get a list of private channel members.</span></span>
+2. <span data-ttu-id="66188-127">Выполните указанные ниже действия, чтобы получить список участников личного канала.</span><span class="sxs-lookup"><span data-stu-id="66188-127">Run the following to get a list of private channel members.</span></span>
 
     ```
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
-3. <span data-ttu-id="c962b-128">Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.</span><span class="sxs-lookup"><span data-stu-id="c962b-128">Include the mailboxes of all members from each private channel in the team as part of your content search query.</span></span>
+3. <span data-ttu-id="66188-128">Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.</span><span class="sxs-lookup"><span data-stu-id="66188-128">Include the mailboxes of all members from each private channel in the team as part of your content search query.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="c962b-129">См. также</span><span class="sxs-lookup"><span data-stu-id="c962b-129">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="66188-129">См. также</span><span class="sxs-lookup"><span data-stu-id="66188-129">Related topics</span></span>
 
-- [<span data-ttu-id="c962b-130">варианты обнаружения электронных данных в центре безопасности & Office 365</span><span class="sxs-lookup"><span data-stu-id="c962b-130">eDiscovery cases in the Office 365 Security & Compliance Center</span></span>](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [<span data-ttu-id="66188-130">варианты обнаружения электронных данных в центре безопасности & Office 365</span><span class="sxs-lookup"><span data-stu-id="66188-130">eDiscovery cases in the Office 365 Security & Compliance Center</span></span>](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
