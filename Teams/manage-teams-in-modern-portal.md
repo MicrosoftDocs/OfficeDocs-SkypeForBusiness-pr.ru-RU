@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571938"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290939"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление группами в центре администрирования Microsoft Teams
 ==========================================
 
 ## <a name="overview"></a>Обзор
+
+В этой статье приводятся общие сведения о средствах управления для Teams в центре администрирования Microsoft Teams. Начните с просмотра этого короткого видео (3 минуты):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 Администратору может потребоваться просмотреть или изменить команды, настроенные для совместной работы Организации, или выполнить действия по исправлению, например назначение владельцев для групп без владельца. Вы можете управлять командами, используемыми в вашей организации, с помощью обоих модулей Microsoft Teams PowerShell и центра администрирования Microsoft Teams. Для обеспечения полного доступа к возможностям администрирования с помощью этих двух наборов инструментов необходимо убедиться в том, что вы назначили одну из следующих ролей:
 
@@ -35,7 +39,7 @@ ms.locfileid: "37571938"
 
 Дополнительные сведения о ролях администратора в Teams можно найти в разделе [Использование ролей администратора Microsoft Teams для управления группами](using-admin-roles.md), а также Узнайте больше о том, как использовать командлеты PowerShell для управления группами в [справочнике по командлетам Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
-В этой статье приводятся общие сведения о средствах управления для Teams в центре администрирования Microsoft Teams.
+
 
 ## <a name="teams-overview-grid"></a>Сетка обзора групп
 
@@ -69,7 +73,7 @@ ms.locfileid: "37571938"
 
 ### <a name="archive"></a>Архивация
 
-Вы можете архивировать группу. Архивация команды размещает группу в режиме "только для чтения" в Teams. Администраторы могут архивировать и отменять архивацию групп от имени вашей организации в центре администрирования. 
+Вы можете архивировать группу. Архивация команды размещает группу в режиме "только для чтения" в Teams. Администраторы могут архивировать и отменять архивацию команд от имени вашей организации в центре администрирования. 
 
 ### <a name="delete"></a>Удаление
 
@@ -87,7 +91,7 @@ ms.locfileid: "37571938"
 - Добавление и удаление каналов (Обратите внимание на то, что вы не можете удалить канал "Общие").
 - Изменение параметров группы и группы.
  
-![Снимок экрана, на котором показан пример профиля группы](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Снимок экрана: пример профиля группы](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Внесение изменений в Teams
 
@@ -116,7 +120,7 @@ ms.locfileid: "37571938"
 
 Замените **{groupId}** в запросе на вопрос фактического сервера, который можно получить с помощью PowerShell для Exchange Online, с помощью командлета **[Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)** , как атрибут "**ExternalDirectoryObjectId**".
 
-1. [Проводник по диаграммам](https://developer.microsoft.com/en-us/graph/graph-explorer)Access.
+1. [Проводник по диаграммам](https://developer.microsoft.com/graph/graph-explorer)Access.
 
 2. Войдите в проводник диаграмм в меню слева.
 
