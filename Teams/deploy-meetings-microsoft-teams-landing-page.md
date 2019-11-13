@@ -6,26 +6,28 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 4b0375a2710337e3c95755bdd2676bf730e26bad
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436358"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290969"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Собрания и конференции в Microsoft Teams
 
-Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Теперь можно добавить рабочую нагрузку собрания, включая [аудиоконференции](deploy-audio-conferencing-teams-landing-page.md), видео и общий доступ. Ниже описано, как это сделать. 
+Вы выполнили задачу [Начало работы](get-started-with-teams-quick-start.md). Вы развернули Teams с [чатом, командами, каналами и приложениями](deploy-chat-teams-channels-microsoft-teams-landing-page.md) в пределах всей организации. Теперь можно добавить рабочую нагрузку собрания, включая [аудиоконференции](deploy-audio-conferencing-teams-landing-page.md), видео и общий доступ. В этой статье описано, как развернуть собрания и аудиоконференции. Начните с просмотра видео о собраниях, конференциях и устройствах Teams (3:28 мин):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
+
+*Новые возможности за ноябрь 2019 г.* Теперь можно [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams с собраниями и конференциями. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть собрания и конференции в Teams.
 
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Решения по развертыванию собраний и конференций
@@ -51,7 +53,7 @@ ms.locfileid: "36436358"
 
 | Задайте себе вопрос | Действие |
 |--------------|--------|
-|Готова ли моя сеть к развертыванию собраний в Teams? | Чтобы убедиться, что ваша сеть готова, ознакомьтесь со следующими материалами:<ul><li>[Подготовка сети организации к использованию Microsoft Teams](https://docs.microsoft.com/ru-RU/MicrosoftTeams/prepare-network)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/ru-RU/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Готова ли моя сеть к развертыванию собраний в Teams? | Чтобы убедиться, что ваша сеть готова, ознакомьтесь со следующими материалами:<ul><li>[Подготовка сети организации к использованию Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Основные решения по развертыванию

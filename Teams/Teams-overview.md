@@ -16,21 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566999"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290849"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
 
 Если вы ищете справку по Teams для пользователей, выберите элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams). Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
-Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите наше короткое видео "Добро пожаловать в Teams" (55 секунд).
+Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите наше короткое видео [Добро пожаловать в Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (55 секунд).
 
-> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+Не пропустите наше видео "Добро пожаловать в Teams" для администраторов Teams (чуть больше 3 минут):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 ## <a name="teams-architecture"></a>Архитектура Teams
 

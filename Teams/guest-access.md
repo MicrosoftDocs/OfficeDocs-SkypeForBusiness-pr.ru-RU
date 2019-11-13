@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a0bba0c8893ee706061b989f95d4e22619fa4f9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753284"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290859"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -75,6 +75,7 @@ ms.locfileid: "37753284"
 - Поиск команды
 - Отправка файлов в приватный чат
 - Гости по-прежнему могут искать и находить пользователей (за пределами команды), если они знают полный идентификатор электронной почты пользователя. Чтобы заблокировать эту возможность, ИТ-администраторы могут использовать шаблоны, например [поиск в области каталога](teams-scoped-directory-search.md), чтобы ограничить гостей их собственным виртуальным глобальным списком адресов (GAL).
+- В настоящее время Teams поддерживает гостевых пользователей только с состояниями 1 и 2 [согласно определению Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
 Полный список возможностей, доступных и недоступных для гостей в Teams, см. в таблице [сравнения возможностей участников команд и гостей](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Дополнительные сведения о гостевом доступе на уровне Office 365 см. в статье [Добавление гостей в группы Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
