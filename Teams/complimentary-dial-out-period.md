@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Пользователи могут использовать план звонков Office 365 и голосовую конференцию Office 365 в соответствии с условиями использования служб Skype для бизнеса Online и Microsoft Teams PSTN и соглашения о корпоративном лицензировании клиентов.
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516901"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311234"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Бесплатный период исходящих звонков для аудиоконференций
 
@@ -37,6 +37,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### <a name="end-of-complimentary-dial-out-period"></a>Окончание срока действия звонка
 
 Начиная с 1 декабря 2019 г., Бесплатная возможность исходящих звонков будет прекращена. Для получения дополнительных сведений ознакомьтесь [с разрешениями на голосовую подписку на видеоконференцию и позвоните мне по адресу](audio-conferencing-subscription-dial-out.md) . 
+
+Это изменение не будет выполняться для стран, в которых доступна подписка на голосовую подписку, но в настоящее время мы не предоставляем возможность настраивать кредиты на связь. Эти страны относятся к России, Южной Корее и Тайваня.
 
 ### <a name="complimentary-dial-out-period-details"></a>Дополнительные сведения о периоде исходящего звонка
 
