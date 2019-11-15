@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563324"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626985"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -36,9 +35,11 @@ ms.locfileid: "37563324"
 ![Снимок экрана: надстройка "собрание Teams" на ленте Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Для выполнения программы regsvr32. exe на компьютере должны быть установлены разрешения пользователей на выполнение файла, предназначенного для проведения собраний Teams.
 > - Если надстройка "Собрание Teams" не отображается, попросите пользователей закрыть Outlook и Microsoft Teams, затем перезапустить клиент Microsoft Teams, войти в него и перезапустить клиент Outlook (именно в таком порядке).
 > - Пользователи Windows 7 должны установить [Обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) в Windows для надстройки "собрание Teams" для работы.
-> - Если вы используете установку Office Outlook из Microsoft Store, надстройка "собрания Teams" не поддерживается. Пользователям, которым требуется эта надстройка, рекомендуется установить версию Office "нажми и работай", как описано в разделе " [Office для Windows 10" в режиме S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) . 
+> - Если вы используете установку Office Outlook из Microsoft Store, надстройка для собраний Teams не поддерживается. Пользователям, которым требуется эта надстройка, рекомендуется установить версию Office "нажми и работай", как описано в разделе " [Office для Windows 10" в режиме S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Надстройка для собраний Teams в Outlook для Mac
 
@@ -102,7 +103,7 @@ ms.locfileid: "37563324"
 | Только Skype для бизнеса | Skype для бизнеса |
 | Skype для бизнеса с совместная работа в Teams | Skype для бизнеса |
 | Skype для бизнеса с совместной работой и собраниями в Teams | Teams |
-| Только для Teams | Teams |
+| Только Teams | Teams |
 
 ## <a name="other-considerations"></a>Другие особенности
 
@@ -123,7 +124,7 @@ ms.locfileid: "37563324"
 - Убедитесь в том, что имя учетной записи пользователя, выполнившего вход, не содержит пробелы. (Это известная проблема, которая будет устранена в следующем обновлении.)
 - Убедитесь, что включен единый вход (SSO).
 
-Если администратор настроил Microsoft Exchange для [управления доступом к веб-серверу Exchange (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представителю не удастся запланировать собрание Teams от имени начальника. Решение для этой конфигурации находится на стадии разработки и будет выпущено в будущем. 
+Если администратор настроил Microsoft Exchange для [управления доступом к веб-серверу Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), представителю не удастся запланировать собрание Teams от имени начальника. Решение для этой конфигурации находится на стадии разработки и будет выпущено в будущем. 
 
 Общие указания по отключению надстроек: [Просмотр и установка надстроек, а также управление ими в приложениях Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

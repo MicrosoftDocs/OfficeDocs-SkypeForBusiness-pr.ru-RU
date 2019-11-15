@@ -17,14 +17,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979712"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638709"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
+
+Все требования, описанные в следующих разделах, относятся как к классическому, так и к веб-приложению Teams.
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Требования к оборудованию для классического приложения Teams на компьютере с Windows
 
@@ -88,7 +90,7 @@ ms.locfileid: "37979712"
 
 Требования для работы Teams в виртуализованной среде см. в разделе [Teams для виртуализованной инфраструктуры для настольных систем](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Статьи по теме
 - [Получение приложений Teams](get-clients.md)
 - [Microsoft Teams для мобильных устройств](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Установка приложения Microsoft Teams с помощью MSI](msi-deployment.md)

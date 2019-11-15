@@ -16,21 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 8e0e96b05aff2d1c0e54bf6f1edb33f9b91aad6d
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290939"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627035"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Управление группами в центре администрирования Microsoft Teams
 ==========================================
 
 ## <a name="overview"></a>Обзор
 
-В этой статье приводятся общие сведения о средствах управления для Teams в центре администрирования Microsoft Teams. Начните с просмотра этого короткого видео (3 минуты):
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+В этой статье приводятся общие сведения о средствах управления для Teams в центре администрирования Microsoft Teams.
 
 Администратору может потребоваться просмотреть или изменить команды, настроенные для совместной работы Организации, или выполнить действия по исправлению, например назначение владельцев для групп без владельца. Вы можете управлять командами, используемыми в вашей организации, с помощью обоих модулей Microsoft Teams PowerShell и центра администрирования Microsoft Teams. Для обеспечения полного доступа к возможностям администрирования с помощью этих двух наборов инструментов необходимо убедиться в том, что вы назначили одну из следующих ролей:
 

@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570150"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638839"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -73,7 +73,7 @@ Teams предоставляет возможность организаторо
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Корпоративная сеть доставки содержимого (Екдн)
 Цель Екдн заключается в том, чтобы принимать видео из Интернета и распространять содержимое по всему предприятию, не влияя на производительность сети. Вы можете использовать одного из следующих сертифицированных партнеров Екдн, чтобы оптимизировать работу сети для событий Live, которые хранятся в вашей организации:
 - [Куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [коллективе](http://www.kollective.com)
+- [коллективе](https://kollective.com/microsoft-pilot/)
 - [Снижение](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участником 
