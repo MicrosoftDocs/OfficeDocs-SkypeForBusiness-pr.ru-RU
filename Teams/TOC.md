@@ -25,6 +25,7 @@
 ## [Рекомендации по работе с командами в Teams](best-practices-organizing.md)
 ## [Создание команды для всей организации в Teams](create-an-org-wide-team.md)
 ## [Управление командами и политиками каналов](teams-policies.md)
+## [Метки конфиденциальности для Teams](sensitivity-labels.md)
 ## [Управление обнаружением приватных команд в Teams](manage-discovery-of-private-teams.md)
 ## [Настройка модерации канала в Teams](manage-channel-moderation-in-teams.md)
 ## [Управление политиками обмена сообщениями](messaging-policies-in-teams.md)
@@ -772,6 +773,7 @@
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Ресурсы Teams для образовательных учреждений (администраторы)](resources-teams-edu.md)
+### [Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
 ### [Управление решениями Майкрософт для образования: вопросы и ответы для администраторов](plan-teams-governance-edu.md)
 ### [Установка интеграции Moodle](install-moodle-integration.md)
 
