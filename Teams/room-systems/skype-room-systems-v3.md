@@ -1,7 +1,7 @@
 ---
 title: Общие сведения об управлении комнатами Microsoft Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
@@ -13,12 +13,12 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Общие сведения об управлении комнатами Microsoft Teams.
-ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cff0b300dc6cc9f3c15e21163554571d49e6540c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573565"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675817"
 ---
 # <a name="management-overview"></a>Обзор управления
 
@@ -43,7 +43,7 @@ ms.locfileid: "37573565"
 |Управление питанием\> в сети переменного тока, отключение экрана через 10 минут  <br/> Управление питанием\> — вкл., не переводит систему в спящий режим  <br/> |Позволяет комнатам Microsoft Teams отключить подключенные дисплеи и автоматически выключаться из спящего режима  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Или аналогичный способ отключения срока действия пароля в локальной учетной записи. Невыполнение этого действия приводит к тому, что учетной записи Skype не удается войти в систему с нарушением пароля. Обратите внимание, что это влияет на все локальные учетные записи на компьютере, поэтому при установке этого флажка также может возникнуть срок действия административной учетной записи в поле.  <br/> |Позволяет учетной записи Skype всегда выполнять вход.  <br/> |
 
-Передача файлов с помощью групповых политик рассматривается в разделе [Настройка элемента файла](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+Передача файлов с помощью групповых политик рассматривается в разделе [Настройка элемента файла](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Удаленное управление с помощью PowerShell
 <a name="RemotePS"> </a>
@@ -83,7 +83,7 @@ ms.locfileid: "37573565"
 
 ## <a name="see-also"></a>См. также
 
-[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Планирование комнат Microsoft Teams](skype-room-systems-v2-0.md)
 

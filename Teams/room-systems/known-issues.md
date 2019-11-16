@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: В этой статье рассматриваются известные проблемы приложения "Комнаты Microsoft Teams", упорядоченные по функциональным областям.
-ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d740cce8960e16e04fffc55bf96b46e3128a0c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571393"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675433"
 ---
 # <a name="known-issues"></a>Известные проблемы 
  
@@ -37,14 +37,14 @@ ms.locfileid: "37571393"
 
 | Название проблемы |  Поведение \/ симптом | Известное временное решение | Статья базы знаний |
 |  ---        |      ---             |   ---            | --- |
-|Отсутствует виртуальная клавиатура   | Не отображается виртуальная клавиатура, когда нужно ввести сведения в приложении "Комнаты Microsoft Teams". Эта проблема возникает после установки обновления Windows 10 Creators Update (версия 1703) на устройство Surface Pro 4, на котором запущено приложение "Комнаты Microsoft Teams". | Чтобы обойти эту проблему, откройте виртуальную клавиатуру вручную. Для этого выполните следующие действия:<br><br> **1.** Коснитесь и удерживайте панель задач, а затем нажмите кнопку **Показать сенсорную клавиатуру**. В правой части панели задач должен появиться значок клавиатуры. <br><br> **2.** Коснитесь значка клавиатуры, чтобы открыть виртуальную клавиатуру. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Отсутствует виртуальная клавиатура   | Не отображается виртуальная клавиатура, когда нужно ввести сведения в приложении "Комнаты Microsoft Teams". Эта проблема возникает после установки обновления Windows 10 Creators Update (версия 1703) на устройство Surface Pro 4, на котором запущено приложение "Комнаты Microsoft Teams". | Чтобы обойти эту проблему, откройте виртуальную клавиатуру вручную. Для этого выполните следующие действия:<br><br> **1.** Коснитесь и удерживайте панель задач, а затем нажмите кнопку **Показать сенсорную клавиатуру**. В правой части панели задач должен появиться значок клавиатуры. <br><br> **2.** Коснитесь значка клавиатуры, чтобы открыть виртуальную клавиатуру. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Оборудование
 
 | Название проблемы |  Поведение \/ симптом | Известное временное решение | Статья базы знаний |
 |  ---        |      ---             |   ---            |   --- |
-| Мониторы не обнаружены | При запуске приложения "Комнаты Microsoft Teams" на устройстве Surface Pro (модели 2017) не обнаруживаются мониторы. |  Удерживайте нажатой кнопку питания Surface Pro в течение 20 секунд или дольше. В результате устройство перезагрузится и очистит графический кэш. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| Мониторы не обнаружены | При запуске приложения "Комнаты Microsoft Teams" на устройстве Surface Pro (модели 2017) не обнаруживаются мониторы. |  Удерживайте нажатой кнопку питания Surface Pro в течение 20 секунд или дольше. В результате устройство перезагрузится и очистит графический кэш. |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>Ограничения и ожидаемое поведение
@@ -75,6 +75,6 @@ ms.locfileid: "37571393"
 <a name="See"> </a>  
 ## <a name="see-also"></a>См. также
 
-[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Управление приложением "Комнаты Microsoft Teams"](skype-room-systems-v2.md)

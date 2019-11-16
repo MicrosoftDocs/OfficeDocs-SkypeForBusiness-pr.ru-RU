@@ -1,7 +1,7 @@
 ---
 title: Планирование управления комнатами в Microsoft Teams с помощью монитора Azure
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: В этой статье рассказывается о том, как использовать монитор Azure для управления устройствами в Microsoft Teams, а также в реализации Skype для бизнеса или рабочих групп.
-ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1e5c41866b02a74bee06b472623919f955691dd9
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569922"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675787"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Планирование управления комнатами в Microsoft Teams с помощью монитора Azure
  
@@ -25,7 +25,7 @@ ms.locfileid: "37569922"
   
 [Монитор Azure](https://docs.microsoft.com/azure/azure-monitor/overview) — это набор служб управления, разработанных в облаке с начала. Вместо того, чтобы развертывать локальные ресурсы и управлять ими, компоненты монитора Azure полностью размещаются в Azure. Настройка минимальна, и вы можете работать буквально в течение минут. С помощью некоторых параметров настройки можно управлять системами конференц-связи Microsoft Teams, обеспечивая уведомления о работоспособности системы или сбоях для отдельных систем помещения, а также может значительно увеличить масштаб для управления тысячами Microsoft Teams. Комнаты для конференц-связи.
   
-В этой статье приводятся рекомендации о требованиях, проектировании, архитектуре и реализации, необходимые для реализации управления с помощью монитора Azure на основе Microsoft Teams, а также ссылки на подробные статьи с подробными сведениями о реализация монитора Azure для комнат Microsoft Teams и важные справочные сведения для текущего мониторинга комнат комнат Microsoft Teams. 
+В этой статье приводятся рекомендации по обеспечению требований, проектированию, архитектуре и внедрению, необходимые для реализации управления с помощью мониторов Azure на основе Microsoft Teams, а также ссылки на подробные статьи о внедрении монитора Azure для комнат Microsoft Teams и важные справочные сведения для постоянного мониторинга комнат Microsoft Teams. 
   
 ## <a name="functional-overview"></a>Функциональный обзор
 

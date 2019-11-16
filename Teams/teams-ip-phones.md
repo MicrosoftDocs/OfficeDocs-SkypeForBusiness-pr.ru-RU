@@ -1,7 +1,7 @@
 ---
 title: Телефоны и устройства для групп
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dvank, kponnus
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570205"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675827"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -43,7 +43,8 @@ ms.locfileid: "37570205"
 
 |Модель телефона|Версия встроенного по|Дата выпуска |
 |:---|:---|:---|
-|AudioCodes C450HD | C450HD_TEAMS_ 0.225 | Март 2019 г.|
+|AudioCodes C450HD | C450HD_TEAMS_0.225 | Март 2019 г.|
+|AudioCodes C448HD (только режим CAP) | C450HD_TEAMS_0.225 | Март 2019 г.|
 |Крестрон M100|2.3875.00068|Декабрь 2018 г.|
 |Крестрон Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
 |Поли тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
@@ -51,7 +52,7 @@ ms.locfileid: "37570205"
 |Yealink T55 | 58.15.0.36 |Май 2019 г.|
 |Yealink CP 960 |73.15.0.20|Декабрь 2018 г.|
 |Yealink T58 & T56 |58.15.0.20|Декабрь 2018 г.|
-||||
+
 
 Сведения о функциях, поддерживаемых данными устройствами, можно найти в разделе [Microsoft Teams phones Set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) .
 
@@ -63,10 +64,10 @@ ms.locfileid: "37570205"
 
 * * *
 
-Если вы хотите присоединиться к программе для сертификации, Узнайте [о том, как присоединиться](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) к ней, чтобы узнать о требованиях и доступных программах.
+Если вы хотите присоединиться к программе для сертификации, Узнайте [о том, как присоединиться](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) к ней, чтобы узнать о требованиях и доступных программах.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 Узнайте больше о [программах для сертификации Skype для бизнеса и Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
-[Ознакомьтесь с телефонами Microsoft Teams и сертифицированными устройствами.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Ознакомьтесь с телефонами Microsoft Teams и сертифицированными устройствами.](https://products.office.com/microsoft-teams/across-devices/devices)

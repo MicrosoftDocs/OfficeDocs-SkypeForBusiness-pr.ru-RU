@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
+ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638709"
+ms.locfileid: "38670196"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
 
@@ -71,6 +71,14 @@ ms.locfileid: "38638709"
 |Устройства    |   Стандартная камера для портативного компьютера, микрофон и динамики    | 
 |Голосовая связь    |  Совместимые микрофон и динамики, гарнитура с микрофоном или эквивалентное устройство       |
 |Видеозвонки и собрания | Для улучшения качества видеосвязи и онлайн-собраний рекомендуется использовать компьютер с процессором 2,0 ГГц и 4,0 ГБ ОЗУ (или более поздней). Необязательное размытие фонового видео требует процессора с поддержкой расширенных векторных расширений 2 (AVX2), которые поддерживаются на большинстве устройств с ОС 2013 и более поздних версий. Ознакомьтесь с [рекомендациями по аппаратному декодеру и драйвером кодировщика](hardware-decoders-and-encoders.md) для списка неподдерживаемых декодеров и кодировщиков.
+|Поддерживаемые дистрибутивы Linux | Ubuntu 16,04 ЛТС *, 18,04 ЛТС, Fedora 30 Workstation, РХЕЛ 8 рабочих станций, Центос 8
+
+* Необходимые условия для установки на Ubuntu 16,04 ЛТС, добавляющего хранилище с более поздними версиями либк + + (и компилятора и т. д.) и обновления либк + +:
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Требования к оборудованию для приложения Teams на мобильных устройствах
 

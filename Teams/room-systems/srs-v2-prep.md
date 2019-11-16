@@ -13,12 +13,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: В этой статье объясняется подготовка инфраструктуры к развертыванию комнат Microsoft Teams.
-ms.openlocfilehash: ada7a7f018d5fb3882a686505488998763c33faf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7bc3b7791edf88fd6882b67cdaa7d9b65e87741
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573554"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675807"
 ---
 # <a name="prepare-your-environment"></a>Подготовка среды
 
@@ -53,7 +53,7 @@ ms.locfileid: "37573554"
 - Доступ к экземпляру Active Directory или Azure Active Directory (Azure AD), а также серверам Microsoft Exchange и Skype для бизнеса.
 - Доступ к серверу, предоставляющему IP-адреса через DHCP. Комнаты Microsoft Teams нельзя настроить со статическим IP-адресом.
 - Доступ к HTTP-портам 80 и 443.
-- Порты TCP и UDP, настроенные в соответствии с [требованиями к портам и протоколам для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) в рамках локальных реализаций Skype для бизнеса Server или URL-адреса [Office 365 и диапазоны IP-адресов](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для Microsoft Teams или Skype для бизнеса Online. реализации.
+- Порты TCP и UDP, настроенные в соответствии с [требованиями к портам и протоколам для серверов](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) в рамках локальных реализаций Skype для бизнеса Server, или URL-адреса [Office 365 и диапазоны IP-адресов](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) для реализации Microsoft Teams или Skype для бизнеса Online.
 
 > [!IMPORTANT]
 > Для обеспечения достаточной пропускной способности используйте проводное сетевое подключение стандарта 1 Гбит/с. 
@@ -75,7 +75,7 @@ ms.locfileid: "37573554"
 Комнаты Microsoft Teams разработаны для наследования параметров прокси из операционной системы Windows. Для доступа к параметрам ОС Windows выполните следующие действия.
   
 1. В пользовательском интерфейсе комнаты Microsoft Teams щелкните значок шестеренки "Параметры", в котором вам будет предложено ввести пароль локального администратора на устройстве (пароль по умолчанию — **SFB**).
-2. Коснитесь значка " **Параметры** ", а затем коснитесь кнопки " **Перейти к Windows** ", а затем коснитесь кнопки " **Перейти к** администратору", а затем нажмите кнопку " **Администратор** " (если компьютер подключен к домену выберите **другого пользователя,** а затем используйте .\админ как имя пользователя).
+2. Коснитесь значка " **Параметры** ", а затем коснитесь кнопки " **Перейти** к", а затем коснитесь кнопки " **Перейти к** администратору", а затем нажмите кнопку " **Администратор** " (если компьютер подключен к домену выберите **другого пользователя,** а затем используйте .\админ в качестве имени пользователя).
 3. В левом нижнем углу окна Поиск в поле **поиска** введите в Regedit (длинные нажмите экран или щелкните правой кнопкой мыши и выберите команду **Запуск от имени администратора**).
 4. Щелкните папку HKEY_USERS (вы увидите список идентификаторов SID пользователей компьютера) и убедитесь в том, что выбрана корневая папка HKEY_USERS.
        
@@ -84,7 +84,7 @@ ms.locfileid: "37573554"
 
 7. Вам будет предложено ввести имя для нового куста. Введите Skype (теперь вы должны увидеть параметры реестра для пользователя Skype).
  
-8. Откройте клавишу Skype и перейдите к параметрам HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet и убедитесь в том, что эти параметры введены. 
+8. Откройте клавишу Skype и перейдите к HKEY_USERS параметры \Скипе\софтваре\микрософт\виндовс\куррентверсион\интернет и убедитесь, что эти параметры введены. 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -108,16 +108,16 @@ ms.locfileid: "37573554"
 
 |Назначение|Источник учетных данных|Исходный порт|Конечный порт|Сеть доставки содержимого|ExpressRoute для Office 365|Конечный IP-адрес|Конечный порт|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Проверка подлинности и удостоверение в  <br/> |Сведения о [проверке подлинности и удостоверении Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Портал и общие службы  <br/> |Просмотр [портала Office 365 и общего доступа](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
-|Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |Протокол TCP 443  <br/> |
-|Веб-конференции по каналам PSOM  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Скачанные по протоколу HTTPS данные  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Звук  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50,000-50019  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
-|Видео  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
-|Совместный доступ к рабочему столу  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50,000-59,999  <br/> |
-|Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
+|Проверка подлинности и удостоверение в  <br/> |Сведения о [проверке подлинности и удостоверении Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Портал и общие службы  <br/> |Просмотр [портала Office 365 и общего доступа](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|Сигнализация SIP  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |Протокол TCP 443  <br/> |
+|Веб-конференции по каналам PSOM  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|Скачанные по протоколу HTTPS данные  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|Звук  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50,000-50019  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
+|Видео  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50,000-59,999  <br/> |
+|Совместный доступ к рабочему столу  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50,000-59,999  <br/> |
+|Push-уведомления Lync Mobile для Lync Mobile 2010 на устройствах iOS. Для мобильных устройств с Android, Nokia Symbian или Windows Phone не требуется.  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |\*. contoso.com  <br/> |Нет  <br/> |Да  <br/> |[Диапазоны IP-адресов Skype для бизнеса](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Телеметрия Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 |Советы клиента Skype  <br/> |Клиентский компьютер или выполнивший вход пользователь  <br/> |Временные порты  <br/> |quicktips.skypeforbusiness.com  <br/> |Нет  <br/> |Нет  <br/> |Н/Д  <br/> |TCP 443  <br/> |
 
 > [!NOTE]

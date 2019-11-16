@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 20575670fb9c462fd9cfa7bb0b424b8fcde4c68c
-ms.sourcegitcommit: 4ddd2323ca4902ac68f01c90abbf21ee1d4da160
+ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38303183"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675373"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -62,16 +62,16 @@ ms.locfileid: "38303183"
 
   |консоль;|Воздуш|ДОСТУПНОЙ|Диск|
   |:-----|:-----|:-----|:-----|
-  |[Крестрон Flex UC-M130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Основные i5|8 ГБ |128 ГБ |
-  |[Крестрон Flex UC-B130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Основные i5|8 ГБ |128 ГБ |
-  |[Крестрон Flex UC-B140-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Основные i5|8 ГБ |128 ГБ |
-  |[Крестрон Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 ГБ |128 ГБ |
-  [Крестрон Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 ГБ |128 ГБ|
-  |[Крестрон Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 ГБ|128 ГБ|
+  |[Крестрон Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Основные i5|8 ГБ |128 ГБ |
+  |[Крестрон Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Основные i5|8 ГБ |128 ГБ |
+  |[Крестрон Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Основные i5|8 ГБ |128 ГБ |
+  |[Крестрон Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 ГБ |128 ГБ |
+  [Крестрон Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 ГБ |128 ГБ|
+  |[Крестрон Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 ГБ|128 ГБ|
   |[HP топовый Slice для комнат собраний G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Основные i5 |8 ГБ |128 ГБ |
   |[HP топовый сектор G2, готовая к работе с комнатами Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Основные i5 |8 ГБ |128 ГБ |
   |[Адаптер Lenovo Синксмарт Hub 500](https://www3.lenovo.com/us/en/hub500) |Основные i5 |8 ГБ |128 ГБ |
-  |[Нажмите кнопку Logitech](https://www.logitech.com/en-us/product/microsoft-rooms)|Основные i5|8 ГБ |128 ГБ |
+  |[Нажмите кнопку Logitech](https://www.logitech.com/product/microsoft-rooms)|Основные i5|8 ГБ |128 ГБ |
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Основные i5|8 ГБ|128 ГБ|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Основные i5|8 ГБ |128 ГБ |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Основные i5|8 ГБ |128 ГБ |
@@ -87,15 +87,15 @@ ms.locfileid: "38303183"
 
 |Периферийные устройства комнат Microsoft Teams|Сертифицированная версия встроенного по | Камера поддерживает использование содержимого камерой|
 |:--- |:--- | :--- |
-|[Крестрон Худдли IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
-|[Logitech Брио](https://www.logitech.com/en-us/product/brio)   |V 2.2.50| &#x2714; |
-|[Logitech 930E](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
-|[Logitech вечеринку](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech обсудим](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Звук — 1.0.172 <br/> Видео — 1.0.156  |
-|[Logitech Конференцекам Connect](http://www.logitech.com/en-us/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Группа Logitech](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   |
-|[Logitech ПТЗ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro)   |  1.1.219   |
-|[Logitech ПТЗ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2)   |
+|[Крестрон Худдли IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
+|[Logitech Брио](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
+|[Logitech 930E](http://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech вечеринку](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech обсудим](http://www.logitech.com/product/meetup-conferencecam)   |Звук — 1.0.172 <br/> Видео — 1.0.156  |
+|[Logitech Конференцекам Connect](http://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Группа Logitech](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech ПТЗ Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   |  1.1.219   |
+|[Logitech ПТЗ Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Polycom Еаглие IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Директор Polycom Еагле глаз II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
@@ -161,7 +161,7 @@ ms.locfileid: "38303183"
 
 ## <a name="see-also"></a>См. также
 
-[Просмотреть все пакеты](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
+[Просмотреть все пакеты](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Планирование комнат Microsoft Teams](skype-room-systems-v2-0.md)
 
@@ -171,4 +171,4 @@ ms.locfileid: "38303183"
 
 [Управление приложением "Комнаты Microsoft Teams"](skype-room-systems-v2.md)
 
-[Лицензирование надстройки Skype для бизнеса](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
+[Лицензирование надстройки Skype для бизнеса](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

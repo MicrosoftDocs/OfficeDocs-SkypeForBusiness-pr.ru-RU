@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: В этой статье рассказывается о накопительных улучшениях в комнатах Microsoft Teams.
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573532"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676117"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -225,7 +225,7 @@ Introduced in this update:
 Представлено в этом обновлении:
 
 - Поддержка Polycomного устройства для подкрепления [серии MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
-- Поддержка по [Logitech Брио](https://www.logitech.com/en-us/product/brio)
+- Поддержка по [Logitech Брио](https://www.logitech.com/product/brio)
 - В этой статье описан способ устранения проблемы, при которой экраны (консольные и передние места) не могут перейти в режим сна при отсутствии активности в комнате
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
@@ -297,7 +297,7 @@ Introduced in this update:
 <a name="See"> </a> 
 ## <a name="see-also"></a>См. также
 
-[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Справка по приложению "Комнаты Microsoft Teams"](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Подготовка среды](srs-v2-prep.md)
 
