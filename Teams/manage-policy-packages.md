@@ -3,7 +3,7 @@ title: Управление пакетами политик в Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать пакеты политик и управлять ими в Microsoft Teams.
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972440"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679833"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Управление пакетами политик в Microsoft Teams
 
@@ -41,12 +41,13 @@ ms.locfileid: "37972440"
 |Пакет Education_PrimaryStudent    |Создает набор политик и параметров политики, которые применяются к основным учащимся.|
 |Пакет Education_SecondaryStudent    |Создает набор политик и параметров политики, которые применяются к дополнительным учащимся.         |
 |Пакет Education_HigherEducationStudent    |Создает набор политик и параметров политики, которые применяются для более производительных учебных учащихся.|
+|Пакет SmallMediumBusiness_BusinessVoice    |Создание политики настройки приложения, включающей приложения для голосового интерфейса для бизнеса.|
 
 > [!NOTE]
 > В будущих выпусках Teams мы добавим дополнительные пакеты политик, поэтому ознакомьтесь с самыми актуальными сведениями.  
 
 Каждой отдельной политике назначается имя пакета политики, что позволяет легко определять политики, связанные с пакетом политики.
-Например, если вы назначаете пакету политики Education_Teacher для преподавателей в учебном заведении, для каждой политики в пакете создается политика с именем Education_Teacher.
+Например, когда вы назначаете пакету политики Education_Teacher для преподавателей в учебном заведении, для каждой политики в пакете создается политика с именем Education_Teacher.
 
 ![Снимок экрана: пакет политики Education_Teacher](media/policy-packages-education_teacher.png)
 
@@ -101,3 +102,7 @@ ms.locfileid: "37972440"
 **При назначении пакета политики появляется сообщение об ошибке**
 
 Это может произойти, если одна или несколько политик в пакете не были успешно созданы или применены. Переназначение пакета политики пользователям. Повторное выполнение операции обычно решает эту проблему.
+
+## <a name="related-topics"></a>Статьи по теме
+
+[Пакеты политик Microsoft Teams для администраторов образовательных учреждений](policy-packages-edu.md)
