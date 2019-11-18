@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973218"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653545"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>Как подготовить пользователей к использованию корпоративной голосовой связи?
 
@@ -51,7 +51,7 @@ ms.locfileid: "37973218"
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>Настройка приветствия голосовой почты и других функций корпоративной голосовой связи
 
-Как и в обычных телефонах, вы можете настроить приветствие голосовой почты, переадресацию звонков, выбрать мелодии звонка и т. д. Все, что могут настраивать пользователи, доступно в приложении Teams в разделе **Настройки**. Справку по настройке этих функций можно получить в статье [Управление параметрами звонков в Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Как и в обычных телефонах, вы можете настроить приветствие голосовой почты, переадресацию звонков, выбрать мелодии звонка и т. д. Все доступные пользователям настройки находятся в приложении Teams: достаточно щелкнуть изображение профиля в правом верхнем углу окна Teams, затем выбрать **Параметры** > **Звонки**. Справку по настройке этих функций можно получить в статье [Управление параметрами звонков в Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Сведения о возможностях Microsoft Teams и корпоративной голосовой связи
 
