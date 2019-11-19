@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675373"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696819"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
-В этой статье приводятся сведения о требованиях для поддержки комнат Microsoft Teams.
+Комнаты Microsoft Teams масштабируются до разных размеров комнаты с помощью широкого спектра сертифицированных звуковых и видеоустройств в зависимости от размера и использования комнаты. Выбирая подходящее базовое устройство и консоль в сочетании с микрофонами, динамиками, камерами и выпусками, подходящими для сферы, вы можете развернуть комнаты Microsoft Teams в пробелах любого размера из очень мелких худдленых пробелов до очень больших пространств для конференц-связи. и боардрумс.  Полный набор всех доступных сертифицированных звуковых и видеоаппаратных устройств, которые можно использовать для настройки комнаты, находится на странице [демонстрация устройства](https://products.office.com/microsoft-teams/across-devices).
+
+В этой статье приведены сведения о требованиях к развертыванию и конфигурации устройств для поддержки комнат Microsoft Teams.
 
 Развертывание включает создание учетных записей, как описано в разделе [развертывание комнат Microsoft Teams](room-systems-v2.md) и настройка консолей собраний, как описано в разделе [Настройка консоли Microsoft Teams](console.md).
 
@@ -31,34 +33,18 @@ ms.locfileid: "38675373"
 - [Варианты лицензирования, основанные на вашем плане: комнаты Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Комнаты Microsoft Teams предназначены для использования в Microsoft Teams, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015 или Skype для бизнеса Online.
+> Комнаты Microsoft Teams Войдите в Microsoft Teams, Skype для бизнеса Server 2019, Skype для бизнеса Server 2015 или Skype для бизнеса Online и могут присоединиться к собраниям, размещенным в любой из этих служб.
 >
-> На более ранних платформах, таких как Lync Server 2013, не предполагается работать с комнатами Microsoft Teams. Комнаты Microsoft Teams не поддерживаются в Office 365, предоставляемой 21Vianet, или в средах GCC, GCC-High или DoD.
+> Комнаты в Microsoft Teams не поддерживаются в более ранних платформах, таких как Lync Server 2013. Комнаты Microsoft Teams не поддерживаются в Office 365, предоставляемой 21Vianet, или в средах с функцией GCC-High или DoD.
 >
 > Если у вас есть локальный сервер Exchange Server, в помещениях Microsoft Teams требуется использование Exchange Server 2013 с пакетом обновления 1 (SP1) или более поздней версии.
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
+Аппаратное развертывание включает в себя набор из системы комнаты Microsoft Teams, в сочетании с сертифицированными аудио-и видеосоединениями, а также устройство для совместной интеграции этих устройств.  Эти параметры описаны здесь.
 
-Комнаты Microsoft Teams масштабируются до разных размеров комнаты с помощью различных звуковых и видеоустройств, исходя из размера комнаты. Оборудование, указанное в этой статье, поддерживает режимы собраний Skype и Teams. Аудио-и видеопериферийные устройства подключаются к комнатам Microsoft Teams через подключение через USB или HDMI на закрепленном устройстве. Кроме того, вам понадобятся:
+**Поддерживаемые системы комнат Microsoft Teams**
 
-- USB-диск с 32 ГБ или более большим объемом, который вы настраиваете как загружаемый установочный носитель Windows для Windows 10 Корпоративная.
-- Один из следующих планшетов или консолей:
-
-  **Поддерживаемые Планшетные ПК**
-
-  |Планшете|Воздуш|ДОСТУПНОЙ|Диск|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| Основные i5 |16 ГБ или 8 ГБ |128 ГБ или больше |
-  |Surface Pro </br>(пятое Gen) |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
-  |Surface Pro 4 |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
-
-- Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний.
-
-  - [Logitech Смартдокк](https://www.logitech.com/product/smartdock)
-  - [Набор исправлений крестрон](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Серия Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **Другие поддерживаемые консольные комнаты Microsoft Teams**
+Все текущие устройства и наборы комнат Microsoft Teams доступны в [демонстрации продуктов для системы помещений](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |консоль;|Воздуш|ДОСТУПНОЙ|Диск|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ ms.locfileid: "38675373"
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Основные i5|8 ГБ |128 ГБ |
   ||||||
 
-
 > [!NOTE]
-> Базовые процессоры M3 не поддерживаются.
+> - Базовые процессоры M3 не поддерживаются.
+> - Вам понадобится USB-накопитель емкостью 32 ГБ или больше, настроенный как загружаемый установочный носитель Windows для Windows 10 Корпоративная.
+
+**Поддерживаемые планшеты Surface Pro для системы закрепляемого типа**
+
+  |Планшете|Воздуш|ДОСТУПНОЙ|Диск|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Основные i5 |16 ГБ или 8 ГБ |128 ГБ или больше |
+  |Surface Pro </br>(пятое Gen) |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
+  |Surface Pro 4 |Основные i5 |8 ГБ или 4 ГБ |128 ГБ или больше |
+
+- Один из следующих вариантов стыковочных станций для обеспечения защиты планшета в таблице комнат для собраний.
+
+  - [Logitech Смартдокк](https://www.logitech.com/product/smartdock)
+  - [Набор исправлений крестрон](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Серия Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Сертифицированные версии микропрограмм для звуковых и видеоустройств USB
 
-Эти устройства доступны по адресу [AKA.MS/teamsdevices](https://aka.ms/teamsdevices).
+Эти устройства доступны на странице " [Обзор продуктов](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) " в комнате и [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
 |Периферийные устройства комнат Microsoft Teams|Сертифицированная версия встроенного по | Камера поддерживает использование содержимого камерой|
 |:--- |:--- | :--- |
