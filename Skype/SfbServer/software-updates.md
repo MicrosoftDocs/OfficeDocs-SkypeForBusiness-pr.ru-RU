@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Поиск обновлений Skype для бизнеса Server или Lync 2013, а также управление ими. Чтобы получить дополнительные сведения об обновлениях и скачать их, воспользуйтесь ссылками.
-ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
-ms.translationtype: HT
+ms.openlocfilehash: 858ea89d70e52a78e1750c2036a229deef828f13
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38311224"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746442"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Загрузки и обновления Skype для бизнеса
 
@@ -24,9 +24,9 @@ ms.locfileid: "38311224"
 
 - [Обновления клиентов Skype для бизнеса](sfb-client-updates.md) со следующими разделами:
     - [Обновления клиентов Skype для бизнеса 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Обновления клиентов Skype для бизнеса 2015](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Обновления клиентов Skype для бизнеса 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Обновления клиентов Skype для бизнеса на Mac](sfb-client-updates.md)
-    - [Обновления клиентов Lync 2013](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Обновления клиентов Lync 2013](sfb-client-updates.md)
         - [Обновления Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
         - [Клиенты Lync Phone Edition в Центре загрузки](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Пробная версия программного обеспечения Lync Basic 2013](sfb-client-updates.md)

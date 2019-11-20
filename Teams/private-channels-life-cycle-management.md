@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077412"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714485"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
 Здесь вы найдете рекомендации, которые необходимо выполнить для управления жизненным циклом [личных каналов](private-channels.md) в Организации.
 
 > [!IMPORTANT]
-> Если вы используете инструкции PowerShell, описанные в этой статье, для управления личными каналами, необходимо установить и использовать последнюю версию модуля Teams PowerShell из коллекции тестов PowerShell. Инструкции, описанные в этой статье, описаны в [статье Установка последней версии модуля PowerShell для Teams из коллекции тестов PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). Самая свежая доступная версия модуля PowerShell Teams (в настоящее время — [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) не поддерживает управление личными каналами.
+> Если вы используете инструкции PowerShell, описанные в этой статье, для управления личными каналами, необходимо установить и использовать последнюю версию модуля Teams PowerShell из коллекции тестов PowerShell. Инструкции, описанные в этой статье, описаны в [статье Установка последней версии модуля PowerShell для Teams из коллекции тестов PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). Самая свежая доступная версия модуля PowerShell Teams (в настоящее время [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) не поддерживает управление личными каналами.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Определение возможности создания личных каналов участниками группы
 
@@ -292,7 +292,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Установка новейшего модуля PowerShell для Teams из коллекции тестов PowerShell
 
-Самая свежая доступная версия модуля PowerShell Teams (в настоящее время — [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) не поддерживает управление личными каналами. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell Teams с поддержкой частных каналов (в настоящее время 1.0.18) из коллекции тестов PowerShell.
+Самая свежая доступная версия модуля PowerShell Teams (в настоящее время [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) не поддерживает управление личными каналами. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell Teams с поддержкой частных каналов (в настоящее время 1.0.18) из коллекции тестов PowerShell.
 
 > [!NOTE]
 > Не устанавливайте модуль PowerShell Teams из коллекции тестов PowerShell рядом с версией модуля из общедоступной галереи PowerShell. Выполните эти действия, чтобы сначала удалить модуль Teams PowerShell из общедоступной коллекции PowerShell, а затем установить последнюю версию модуля из коллекции тестов PowerShell.
@@ -342,7 +342,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
 - [Использование API Microsoft Graph для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
