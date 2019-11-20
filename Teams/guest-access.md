@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290859"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746292"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 ======================================
@@ -79,9 +79,6 @@ ms.locfileid: "38290859"
 
 Полный список возможностей, доступных и недоступных для гостей в Teams, см. в таблице [сравнения возможностей участников команд и гостей](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Дополнительные сведения о гостевом доступе на уровне Office 365 см. в статье [Добавление гостей в группы Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-## <a name="how-does-external-access-federation-compare-to-guest-access"></a>Чем внешний доступ (федерация) отличается от гостевого доступа?
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Дополнительные сведения
 
