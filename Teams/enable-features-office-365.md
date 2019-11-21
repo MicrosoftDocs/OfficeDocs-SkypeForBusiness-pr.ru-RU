@@ -19,12 +19,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 024ee4b0a75f2563eb281518ac098d12aaea3337
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37616080"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753366"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Управление параметрами Microsoft Teams в организации
 
@@ -110,6 +110,11 @@ Microsoft Teams позволяет организациям назначать 
 #### <a name="app-preferences"></a>Настройки приложений
 
 Здесь вы можете выбрать приложение, в котором пользователи будут присоединяться к собраниям Skype для бизнеса (Skype для бизнеса или [приложение "Собрания Скайпа"](https://support.office.com/ru-RU/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Этот параметр не зависит от настройки режима сосуществования.
+
+
+#### <a name="network-planner"></a>Планировщик сети
+
+С помощью планировщика сети вы можете определить и упорядочить сетевые требования для подключения пользователей Teams в организации.  Узнайте, как [использовать планировщик сети для Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
 Также можно выбрать параметр "Скачать приложение Teams в фоновом режиме для пользователей Skype для бизнеса".  По умолчанию этот параметр включен. Этот параметр обеспечивает скачивание приложения Teams в фоновом режиме для пользователей приложения Skype для бизнеса на ПК с Windows. Это происходит, если у пользователя установлен режим сосуществования "Только Teams" или если в приложении Skype для бизнеса включено уведомление о необходимости перехода. 
 
