@@ -33,6 +33,7 @@
 ## [Просмотр аналитики командной и межкомандной работы в Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Окончание и продление срока действия команды](team-expiration-renewal.md)
 ## [Архивация или удаление команды](archive-or-delete-a-team.md)
+## [Миграция из Slack в Teams](migrate-slack-to-teams.md)
 
 
 
