@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968310"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793505"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Политики хранения Microsoft Teams: вопросы и ответы
 
@@ -44,6 +44,10 @@ ms.locfileid: "37968310"
 ### <a name="what-is-the-default-retention-policy"></a>Какова политика хранения по умолчанию? 
 
 По умолчанию данные чата, каналы и файлов в Teams сохраняются постоянно.
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>Какое лицензирование требуется для политик хранения?
+
+Минимальные требования к лицензированию для политик хранения — Office 365 E3. Для получения дополнительных сведений о лицензировании ознакомьтесь со статьей [Лицензирование Office 365 для Teams](office-365-licensing.md).
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Можно ли назначить набор пользователей или групп в политике? 
 
