@@ -821,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [Обучение](training-microsoft-teams-landing-page.md)
 ## [Учебные курсы с инструктором для Teams](instructor-led-training-teams-landing-page.md)
 ## [Обучение ИТ-администратора для работы с Teams](itadmin-readiness.md)
@@ -836,6 +836,7 @@
 ## Подготовка к развертыванию Teams
 ### [Проверка готовности среды для Teams](environment-readiness.md).
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
+### [Развертывание Teams с помощью Помощника по Teams](use-advisor-teams-roll-out.md)
 ### [Использование планировщика сети для Teams](network-planner.md)
 ### [Пошаговое руководство по работе с планировщиком сети](tutorial-network-planner-example.yml)
 ### [Прокси-серверы для Teams или Skype для бизнеса Online](proxy-servers-for-skype-for-business-online.md)
