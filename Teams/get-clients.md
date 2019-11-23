@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c897a0833510689e8bd1100db5fdd3803d5fdc92
-ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
+ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753376"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209095"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -36,7 +36,7 @@ ms.locfileid: "38753376"
 
 ## <a name="desktop-client"></a>Классический клиент
 
-> [!Tip]
+> [!TIP]
 > Просмотрите следующий сеанс, чтобы узнать о преимуществах классического клиента для Windows, его планировании и развертывании: [Классический клиент Teams для Windows](https://aka.ms/teams-clients)
 
 Классический клиент Microsoft Teams представляет собой автономное приложение, а также [входит в состав Office 365 профессиональный плюс](https://docs.microsoft.com/deployoffice/teams-install). Teams поддерживается для Windows (7 +), 32-bit и 64-bit Versions, macOS (10.10 +) и Linux (in `.deb` и `.rpm` formats). В Windows для Teams требуется платформа .NET Framework 4.5 или более поздней версии; установщик Teams предложит установить ее, если она отсутствует. В Linux диспетчеры пакетов, такие как Апт и Юм, будут пытаться установить любые требования. Однако в противном случае вам потребуется установить любые требования, предъявляемые перед установкой Teams в Linux.
@@ -171,10 +171,9 @@ ms.locfileid: "38753376"
 
 Этот пример скрипта, который нужно запускать на клиентских компьютерах в контексте учетной записи администратора с повышенными правами, создает правило входящих подключений брандмауэра для каждой папки пользователя, находящейся в c:\users. Если Teams обнаруживает это правило, блокируется запрос для пользователей на создание правил брандмауэра, когда пользователи выполняют первый звонок из Teams. 
 
-```
-
+```powershell
 <#
-.Synopsis
+.SYNOPSIS
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
@@ -186,15 +185,11 @@ ms.locfileid: "38753376"
 #Requires -Version 3
 
 $users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
-if ($users.Length -gt 0)
-{
-    foreach ($user in $users)
-    {
+if ($null -ne $users) {
+    foreach ($user in $users) {
         $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
-        if (Test-Path $progPath)
-        {
-            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue))
-            {
+        if (Test-Path $progPath) {
+            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue)) {
                 $ruleName = "Teams.exe for user $($user.Name)"
                 "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
                 Clear-Variable ruleName
@@ -203,5 +198,4 @@ if ($users.Length -gt 0)
         Clear-Variable progPath
     }
 }
-
 ```

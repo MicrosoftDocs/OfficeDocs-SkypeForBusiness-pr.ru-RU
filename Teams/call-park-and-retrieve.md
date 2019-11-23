@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Используйте функцию парковки и получите звонок на удержание в службе Teams в облаке.
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517033"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209185"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Парковка и восстановление звонков в Microsoft Teams
 
@@ -99,7 +99,7 @@ ms.locfileid: "37517033"
 Если пользователь попытается получить вызов и не прошел его, проверьте следующее:
 
 - Убедитесь в том, что пользователь использует клиент Teams или устройство или телефон с поддержкой Teams.
-- Группирование — пользователь является членом группы "парковки".
+- Группировка — пользователь является членом группы "парковки звонков", на основе которой назначена та же политика приостановки вызова для групп. 
 - Режим острова: метод парковки и извлечение недоступен в режиме островов Teams.
 - Звонок уже получен или прерван.
 

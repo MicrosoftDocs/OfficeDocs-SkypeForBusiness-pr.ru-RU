@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516439"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209115"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -53,9 +53,9 @@ ms.locfileid: "37516439"
 
 ## <a name="develop-custom-tabs"></a>Разработка настраиваемых вкладок
 
-Помимо встроенных вкладок, вы можете проектировать и разрабатывать собственные вкладки для интеграции с группами или делиться ими с другими участниками сообщества. Вы можете [управлять доступом к настраиваемой вкладке](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) , настроив соответствующие группы Office 365.
+Помимо встроенных вкладок, вы можете проектировать и разрабатывать собственные вкладки для интеграции с группами или делиться ими с другими участниками сообщества. Вы можете [управлять доступом к настраиваемой вкладке](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) , настроив соответствующие группы Office 365.
 
-В сети разработчика Майкрософт представлены [образцы вкладок](https://go.microsoft.com/fwlink/?linkid=855787) , разработанные корпорацией Майкрософт, которые можно скачать, и [подробные инструкции](https://go.microsoft.com/fwlink/?linkid=855786) по проектированию и созданию собственных вкладок.
+В сети разработчика Майкрософт представлены [образцы вкладок](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) , разработанные корпорацией Майкрософт, которые можно скачать, и [подробные инструкции](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) по проектированию и созданию собственных вкладок.
 
 ![Снимок экрана с примером настраиваемой вкладки в Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 
