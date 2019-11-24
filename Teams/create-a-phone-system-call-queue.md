@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams.
-ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37972500"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211997"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 
@@ -105,7 +105,7 @@ ms.locfileid: "37972500"
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Этап 2: сбор и передача платных и бесплатных телефонных номеров услуги
 
-Прежде чем вы сможете создавать и настраивать очереди звонков, вам нужно получить или переадресовать существующие платные или бесплатные номера сервисных услуг. После получения платных и бесплатных телефонных номеров, они**** > будут отображаться в **центре** > администрирования Microsoft Teams в Интернете для**голосовой связи** > с**другими абонентами, а** **тип номера** будет указан в списке как **Service (бесплатно)**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Прежде чем вы сможете создавать и настраивать очереди звонков, вам нужно получить или переадресовать существующие платные или бесплатные номера сервисных услуг. После получения платных и бесплатных телефонных номеров > в **центре** > администрирования Microsoft Teams выводятся номера**голосовых** > **телефонов**,**добавленные** >, а **тип номера** будет указан в списке как **услуга (бесплатно)**. Чтобы получить номера услуг, ознакомьтесь со статьей [получение телефонных номеров служб](getting-service-phone-numbers.md) или перенесите существующий номер Услуги в разделе [Перенос номеров телефонов в Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 > [!NOTE]
 > За пределами США нельзя использовать центр администрирования Microsoft Teams для получения номеров служб. Чтобы узнать, как сделать это из за пределами США, перейдите в раздел [Управление телефонными номерами в Организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
@@ -222,6 +222,10 @@ ms.locfileid: "37972500"
 
     > [!NOTE]
     > Агенты, использующие приложения или конечные точки, отличные от Skype для бизнеса, могут получить доступ к параметрам отказов [https://aka.ms/cqsettings](https://aka.ms/cqsettings)на портале параметров пользователя.
+    >
+    > Если агенты находятся в настольных клиентах Microsoft Teams, они могут отказаться от использования параметров звонка. 
+
+![снимок экрана: параметры вызова для выхода из отказа](media/create-a-phone-system-call-queue-image1.png)
 
 ![Значок числа 2 с ссылкой на выноску в предыдущем](media/sfbcallout2.png)
 **параметре оповещения агента** снимка экрана
@@ -321,7 +325,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
   - [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Статьи по теме
 
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
