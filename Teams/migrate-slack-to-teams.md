@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 ms.custom: ''
 description: Полное руководство по переносу данных из Slack в Microsoft Teams.
-ms.openlocfilehash: c723df62c3b8811b8d520c66d81e59aa5f96c3bb
-ms.sourcegitcommit: 1d230336c0ab48a2914906dc8f4b6b3d996f46fb
+ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/21/2019
-ms.locfileid: "38756813"
+ms.locfileid: "38793475"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Перенос данных из Slack в Microsoft Teams
 
