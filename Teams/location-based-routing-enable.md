@@ -3,7 +3,6 @@ title: Включение функции "Маршрутизация на осн
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 ms.service: msteams
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572026"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615799"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
@@ -47,7 +46,7 @@ ms.locfileid: "37572026"
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. С помощью командлета [New-ксонлиневоицераутингполици](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) можно создать политику маршрутизации голосовой связи, связывающую пользователя с использованием соответствующих ресурсов PSTN.
+2. С помощью командлета [New-ксонлиневоицераутингполици](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) можно создать политику маршрутизации голосовой связи, связывающую пользователя с использованием соответствующих ресурсов PSTN.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -161,7 +160,6 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
-### <a name="related-topics"></a>Статьи по теме
-- [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
-- [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
-- [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)
+## <a name="related-topics"></a>См. также
+
+- [Параметры сети для функций голосовой связи в облаке в Teams](cloud-voice-network-settings.md)

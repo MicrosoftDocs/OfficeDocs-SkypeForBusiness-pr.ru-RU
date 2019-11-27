@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики маршрутизации вызова экстренной помощи и управлять ими для динамического компонента E911 в Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570656"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615809"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Управление политиками маршрутизации вызова экстренной помощи в Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "37570656"
 
 Если вы развернули прямую маршрутизацию телефонной системы в своей организации, вы можете настроить номера для экстренного реагирования с помощью политик маршрутизации вызовов экстренной помощи в Microsoft Teams и указать, как будут маршрутизироваться экстренные вызовы. Политика маршрутизации вызова экстренной помощи определяет, включены ли расширенные службы экстренных служб для пользователей, которым назначена политика, номера, используемые для звонков в экстренные службы (например, 911 в США), и способы маршрутизации вызовов служб экстренной помощи.
 
-Для управления политиками маршрутизации вызовов экстренной помощи следует перейти к**политикам** **голосовой связи** > в центре администрирования Microsoft Teams или с помощью Windows PowerShell. Политики можно назначить для пользователей и [сайтов сети](location-based-routing-terminology.md).
+Для управления политиками маршрутизации вызовов экстренной помощи следует перейти к**политикам** **голосовой связи** > в центре администрирования Microsoft Teams или с помощью Windows PowerShell. Политики можно назначить для пользователей и [сайтов сети](cloud-voice-network-settings.md).
 
 Пользователи могут использовать глобальную политику (по умолчанию на уровне Организации) или создавать и назначать пользовательские политики. Пользователи будут автоматически получать глобальную политику, если вы не создадите и не назначаете пользовательскую политику. Имейте в виду, что вы можете изменять параметры глобальной политики, но переименовывать и удалять их нельзя. Для сетевых сайтов можно создавать и назначать пользовательские политики.
 
@@ -128,7 +128,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Управление политиками вызова экстренной помощи в Teams](manage-emergency-calling-policies.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
