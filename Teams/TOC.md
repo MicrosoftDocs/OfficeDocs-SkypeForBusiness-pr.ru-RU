@@ -115,6 +115,7 @@
 ## [Электронные письма, отправляемые пользователям при изменении параметров](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Разрешение пользователям записывать свои имена при присоединении к собранию](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Включение и отключение объявлений о входе и выходе в собраниях](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Собрания Teams в неподдерживаемых браузерах](unsupported-browsers.md)
 ## [Настройка совместного доступа к рабочему столу в Teams](configure-desktop-sharing.md)
 ## [Запись собрания Teams в облаке](cloud-recording.md)
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [Настройка множества клиентов в пограничном контроллере сеансов](direct-routing-sbc-multiple-tenants.md)
 ### [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](direct-routing-border-controllers.md)
 ### Маршрутизация на основе расположения
-#### [Терминология маршрутизации на основе расположения](location-based-routing-terminology.md)
 #### [Планирование маршрутизации на основе расположения для прямой маршрутизации](location-based-routing-plan.md)
 #### [Настройка параметров сети для маршрутизации на основе расположения](location-based-routing-configure-network-settings.md)
 #### [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [Что такое абонентские группы?](what-are-dial-plans.md)
 ### [Создание и использование абонентских групп](create-and-manage-dial-plans.md)
 ### [Добавление и обновление наклеек для отчетов](learn-more-about-site-upload.md)
+
+## Параметры сети и топология
+### [Параметры сети для функций голосовой связи в облаке](cloud-voice-network-settings.md)
+### [Управление топологией сети для функций голосовой связи в облаке](manage-your-network-topology.md)
+
 ## Экстренные вызовы
-### [Планирование и настройка динамических экстренных вызовов](configure-dynamic-emergency-calling.md)
+### [Обзор](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Настройка динамических экстренных вызовов](configure-dynamic-emergency-calling.md)
 ### Управление адресами для экстренного реагирования
-#### [Что такое расположения для экстренного реагирования, места для них и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)
 #### [Добавление, изменение и удаление места для расположения для экстренного реагирования для организации](add-change-remove-emergency-place-organization.md)
 #### [Назначение или изменение расположения для экстренного реагирования для пользователя](assign-change-emergency-location-user.md)
