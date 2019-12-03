@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описано, как настроить консоль Microsoft Teams и ее периферийные устройства.
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675777"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665442"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Настройка консоли Microsoft Teams
 
@@ -45,6 +45,9 @@ ms.locfileid: "38675777"
 
 > [!NOTE]
 > Ниже описана процедура создания установочного носителя для новых устройств с помощью Microsoft Teams. Существующие устройства по умолчанию обновляются автоматически с помощью центра обновления Windows и магазина Windows.
+
+> [!IMPORTANT]
+> Компьютер с Windows 10, который использовался для создания установочного носителя Microsoft Teams, должен находиться в той же или более поздней версии Windows, что и целевой установочный носитель.
   
 1. Скачайте [сценарий креатесрсмедиа. ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Запустите сценарий CreateSrsMedia.ps1 из командной строки с повышенными привилегиями на компьютере с ОС Windows 10.
