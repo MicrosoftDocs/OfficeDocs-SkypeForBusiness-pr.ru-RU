@@ -3,7 +3,6 @@ title: Управление Teams при переходе на новую вер
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37564787"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679249"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams
 ======================================================
@@ -57,7 +56,7 @@ ms.locfileid: "37564787"
 |Группы и каналы     |         |Перенаправление на управление группами AAD (то же, что и текущий интерфейс).             |Пользователь          |
 |Приложения|Включение новых внешних приложений по умолчанию|Параметры приложения в масштабе Организации|Клиента|
 |Приложения|Разрешить внешние приложения|Параметры приложения в масштабе Организации|Клиента|
-|Приложения|Разрешение неопубликованных приложений для внешних приложений<sup>2</sup>|[теамсаппсетупполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
+|Приложения|Разрешение неопубликованных приложений для внешних приложений<sup>2</sup>|[теамсаппсетупполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Пользователь|
 |Приложения|Приложения по умолчанию<sup>3</sup>|теамсапппермиссионполици|Пользователь|
 |Приложения|Внешние приложения<sup>3</sup>|теамсапппермиссионполици|Пользователь|
 |Звонки и собрания     |Разрешить планирование для частных собраний         |[теамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Пользователь          |
@@ -79,7 +78,7 @@ ms.locfileid: "37564787"
 <br><br>
 <sup>2</sup> для корпоративных пользователей делятся следующим образом:
 
-- Разрешите пользователям неопубликованного приложения, которыми можно управлять на уровне пользователей в [теамсаппсетупполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Разрешите пользователям неопубликованного приложения, которыми можно управлять на уровне пользователей в [теамсаппсетупполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Разрешить пользователям в клиенте взаимодействовать с пользовательскими приложениями, которыми можно управлять на уровне клиента в параметрах приложения в масштабах Организации.
  
 <sup>3</sup> приложения по умолчанию и внешние приложения можно включить и отключить на уровне пользователя в теамсапппермиссионполици. Кроме того, приложения могут быть заблокированы на уровне клиента в параметрах приложения в масштабе организации, которые переопределяют параметры любого пользователя и на уровне клиента. 
@@ -113,32 +112,3 @@ ms.locfileid: "37564787"
 ## <a name="manage-settings-after-the-migration"></a>Управление параметрами после миграции
 
 Когда миграция этих параметров будет завершена, они будут отключены в центре администрирования Office 365 и центре администрирования Skype для бизнеса, и они смогут управляться в новом центре администрирования Microsoft Teams.
-
-
-## <a name="edu-migration-june-july-2019"></a>Миграция EDU за июнь 2019
-
-В течение июня и июль 2019 оставшиеся клиенты EDU будут перенесены из старого интерфейса администратора (в центре администрирования Microsoft 365) в центр администрирования Teams. Просмотрите центр сообщений (в центре администрирования Microsoft 365), чтобы узнать, когда вы будете перенесены. Ниже приведены сведения, которые вы увидите после миграции.
-
-|Раздел "Teams" в центре администрирования Microsoft 365  |Имя параметра (уровень клиента)  |Политика центра администрирования Microsoft Teams   |Level (уровень): клиент или пользователь   |
-|---------|---------|---------|---------|  
-| Обмен сообщениями  |Владельцы могут удалять отправленные сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Пользователи могут удалять отправленные сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями  | Пользователи могут редактировать отправленные сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Пользователь|
-| Обмен сообщениями | Разрешить пользователям общаться |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Использование Giphy в беседах | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Оценка содержимого GIF | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Использование мемов в беседах  |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-| Обмен сообщениями | Использование наклеек в беседах |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-
-Кроме того, ниже указаны параметры, доступные только в центре администрирования Microsoft Teams.
-
-|Имя параметра | Политика центра администрирования Microsoft Teams | Level (уровень): клиент или пользователь
-|-------------|-------------------------------------|---------|
-|Разрешить предварительный просмотр URL-адресов | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Разрешение пользователям удалять пользователей из группового чата |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Разрешить иммерсивное средство чтения для просмотра сообщений |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
-|Разрешить пользователям переводить сообщения |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
-|Уведомления о прочтении | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Пользователи могут отправлять уведомления о приоритетах | [теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Пользователь |
-|Создание голосовых сообщений |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Пользователь |
-|На мобильных устройствах отображение избранных каналов над последними чатами |[теамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Пользователь |

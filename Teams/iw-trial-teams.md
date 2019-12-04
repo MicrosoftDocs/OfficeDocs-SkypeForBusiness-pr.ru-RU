@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572051"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679309"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
 
-Microsoft Teams — отличный инструмент совместной работы для организации. Он позволяет пользователям и командам вести обсуждение, внедрять нововведения и делиться идеями, используя возможности Office 365. Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации. 
+Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации. 
 
 > [!IMPORTANT]
 > Предложение Microsoft Teams Commercial Cloud Trial обновлено с добавлением планов обслуживания для расширения возможностей Teams. Его владельцем теперь является администратор выставления счетов, который управляет им. Это упрощает управление пробным предложением и обеспечивает соответствие со всеми остальными предложениями Microsoft 365. 

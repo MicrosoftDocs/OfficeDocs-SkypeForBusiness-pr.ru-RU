@@ -20,19 +20,19 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 9d700ae83dd62c8308e7a792acd2d97c999649fa
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8a4d7b60485f9411faeb46f8745735039f4dd21b
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570249"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679319"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
 > [!NOTE]
 > Для использования App Studio ознакомьтесь [со статьей начало работы на платформе Microsoft Teams с C#/.нет и App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) Последнее действие пока недоступно, поэтому вам потребуется скачать его и установить старый способ [отправки пакета приложения в Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-Администраторы могут использовать пользовательские политики и параметры приложений для управления тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams. Администраторы определяют, какие пользователи могут отправлять пользовательские приложения, а также администраторы и владельцы групп, позволяющие определять, разрешено ли добавлять в них приложения специальные группы.  
+Администраторы могут использовать пользовательские политики и параметры приложений для управления тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams. Администраторы определяют, какие пользователи могут отправлять пользовательские приложения, а также администраторы и владельцы групп, позволяющие определять, разрешено ли добавлять в них приложения специальные группы.  После изменения политики настраиваемых приложений для вступления изменений в силу может потребоваться до 24 часов.
 
 ## <a name="overview-of-custom-apps"></a>Общие сведения о настраиваемых приложениях
 
@@ -103,7 +103,7 @@ ms.locfileid: "37570249"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Настройка параметров настраиваемого приложения на уровне Организации
 
-1. В левой области навигации центра администрирования Microsoft Teams перейдите в раздел > **политики разрешений**для **приложений Teams**.
+1. В левой области навигации [центра администрирования Microsoft Teams](https://admin.teams.microsoft.com/)перейдите в раздел > **политики разрешений**для **приложений Teams**.
 2. Выберите **Параметры приложения в масштабах всей Организации**.
 3. В разделе **пользовательские приложения**включите или отключите **параметр Разрешить взаимодействие с пользовательскими приложениями**.
 
