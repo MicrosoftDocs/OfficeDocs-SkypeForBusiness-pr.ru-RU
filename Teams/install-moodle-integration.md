@@ -11,15 +11,16 @@ search.appverid: MET150
 description: Узнайте, как установить и настроить приложение интеграции Moodle для Microsoft Teams.
 keywords: Подключаемый модуль интеграции приложения Moodle для Teams
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b712a6261a73472b6f134e3b38359f30e489cce
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245384"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37572062"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Интеграция Moodle с Microsoft Teams 
 

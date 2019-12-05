@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
+ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209095"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831602"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -102,6 +102,11 @@ ms.locfileid: "39209095"
 ### <a name="linux"></a>Linux
 
 Пользователи смогут устанавливать собственные пакеты Linux в `.deb` и `.rpm` форматах.
+При установке пакета DEB или RPM будет автоматически установлена база данных пакетов.
+- DEB`https://packages.microsoft.com/repos/ms-teams stable main`
+- ОБОРОТ`https://packages.microsoft.com/yumrepos/ms-teams` 
+
+Ключ подписи, позволяющий включить автоматическое обновление с помощью диспетчера пакетов системы, устанавливается автоматически. Однако ее также можно найти по адресу (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams ежемесячно обновляется, и если репозиторий установлен правильно, диспетчер пакетов системы должен обрабатывать автоматическое обновление таким же образом, как и другие пакеты в системе.
 
 > [!NOTE] 
 > Клиент Teams для Linux доступен в ограниченном предварительном просмотре. Отправлять ошибки с `Report a Problem` помощью клиента. Известные проблемы можно найти в разделе [Известные проблемы](Known-issues.md).

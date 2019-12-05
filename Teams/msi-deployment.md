@@ -11,16 +11,15 @@ description: Администраторы могут использовать MS
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2354c28916af3c1c0be47848ee7bd2a72bf278
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 0b80b82a89fc162e33263c784480f619dcd5cf32
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238668"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37567962"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Установка Microsoft Teams с помощью MSI
 =================================

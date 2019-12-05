@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Найдите и управляйте обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714135"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837511"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -30,6 +30,7 @@ KB 4470124 является эталонной версией KB для Skype д
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительное обновление 2 для Skype для Business Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Декабрь 2019 г. |
 |Накопительный пакет обновления 1 (SP1) для Skype для бизнеса Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Сентябрь 2019 г. |
 |Накопительное обновление 1 для Skype для Business Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 июля |
 | | | |
@@ -131,7 +132,7 @@ KB 4470124 является эталонной версией KB для Skype д
 
 Имя пакета и ссылка|Дата выпуска|
 |:--- |:--- |
-|[Тестовый выпуск — Lync Server 2013 — часть 1 из 3](https://www.microsoft.com/en-us/download/details.aspx?id=40266) |Сентябрь 2013 г. |
+|[Тестовый выпуск — Lync Server 2013 — часть 1 из 3](https://www.microsoft.com/en-us/download/details.aspx?id=40266) |Сентябрь 2013 г. |
 |[Тестовый выпуск — Lync Server 2013 — часть 2 из 3](https://www.microsoft.com/en-us/download/details.aspx?id=40267) |Сентябрь 2013 г. |
 |[Тестовый выпуск — Lync Server 2013 — часть 3 из 3](https://www.microsoft.com/en-us/download/details.aspx?id=40265) |Сентябрь 2013 г. |
 
@@ -142,7 +143,7 @@ KB 4470124 является эталонной версией KB для Skype д
 |[Lync Connectivity Analyzer (32-разрядный), поддержка прекращена](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Июнь 2017 г. |
 |[Lync Connectivity Analyzer (64-разрядный), поддержка прекращена](https://blogs.technet.microsoft.com/nexthop/2017/06/13/retirement-of-the-lync-connectivity-analyzer-tool/) |Июнь 2017 г. |
 |[Анализатор соответствия рекомендациям Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35455) |Октябрь 2012 г. |
-|[Калькулятор емкости Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36828) |Июль 2013 г. |
+|[Калькулятор емкости Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36828) |Июль 2013 г. |
 |[Средства отладки Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35453) |Январь 2014 г. |
 |[Пакет управления Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35842) |Май 2016 г. |
 |[Набор ресурсов сохраняемого чата Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36827) |Июль 2013 г. |

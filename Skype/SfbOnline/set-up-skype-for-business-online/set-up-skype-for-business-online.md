@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Узнайте, как настроить домен, пользователей, обмен мгновенными сообщениями и сетевой статус вашей организации, чтобы установить Skype для бизнеса. Кроме того, вы можете узнать о настройке аудиоконференций, телефонной системы, планов звонков и трансляции собраний Skype. '
-ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
-ms.translationtype: HT
+ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792623"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746322"
 ---
 # <a name="set-up-skype-for-business-online"></a>Настройка Skype для бизнеса Online
 
@@ -59,9 +59,7 @@ Skype для бизнеса Online входит в набор служб Office 
 
     ![Пример приветственного сообщения, которое вы получили после регистрации для работы в Skype для бизнеса Online. Оно содержит ваш ИД пользователя Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Войдите в центр администрирования и введите свой ИД пользователя Office 365 и пароль. Выполнив вход в систему, вы увидите Центр администрирования Microsoft 365:
-
-    ![Примерный внешний вид центра администрирования при наличии у вас плана Skype для бизнеса Online.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. Войдите в [центр администрирования](https://admin.microsoft.com) и введите свой идентификатор пользователя Office 365 и пароль. 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. Настройка домена и пользователей
 <a name="bkmk_users"> </a>

@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675343"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842481"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -49,10 +49,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Сброс комнат Microsoft Teams (Восстановление заводских настроек)
 <a name="Reset"> </a>
 
-Если комнаты Microsoft Teams не работают, может помочь выполнение заводского сброса. Это можно сделать в приложении "Параметры" на вкладке " **Восстановление** ". в разделе **Восстановление компьютера**нажмите кнопку Начало **работы**, а затем **удалите все**. Для сброса устройства следуйте дальнейшим инструкциям.
-  
+Если комнаты Microsoft Teams не работают, может помочь выполнение заводского сброса. Для этого воспользуйтесь [средством восстановления комнаты Microsoft Teams](recovery-tool.md) и следуйте инструкциям по восстановлению фабрики.
+
 > [!NOTE]
-> Существует известная неполадка, из-за которой комнаты Microsoft Teams могут стать недоступными, если в процессе сброса Windows будет выбран параметр **хранить мои файлы, удаляя приложения и параметры, но при этом сохраняются настройки личных файлов** . _Не_ используйте этот параметр.
+> Существует известная неполадка, из-за которой комнаты Microsoft Teams могут стать недоступными, если в процессе сброса Windows будет выбран параметр **хранить мои файлы, удаляя приложения и параметры, но при этом сохраняются настройки личных файлов** . *Не* используйте этот параметр.
   
 ## <a name="supported-remote-options"></a>Поддерживаемые параметры удаленной работы
 <a name="RemoteOptions"> </a>
