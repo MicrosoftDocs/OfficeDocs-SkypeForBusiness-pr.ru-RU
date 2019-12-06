@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516654"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871725"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Создание команды для всей организации в Microsoft Teams
 
@@ -81,3 +81,7 @@ ms.locfileid: "37516654"
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Можно ли преобразовать существующую команду в группу на уровне Организации?
 
 Глобальные администраторы могут преобразовать существующую команду в группу на уровне Организации, изменив ее в клиенте Teams. Перейдите к названию группы, щелкните **Дополнительные параметры** > **изменить группу**.
+
+## <a name="see-also"></a>См. также
+
+Просмотрите видео о том [, как создавать группы на уровне компании в Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

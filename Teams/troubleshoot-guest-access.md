@@ -15,18 +15,18 @@ description: Узнайте, как устранить неполадки с г�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311264"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871735"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Устранение неполадок с гостевым доступом в Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
-> Чтобы изменения вступили в силу, возможно, потребуется подождать не более 24 часов. 
+> Чтобы изменения вступили в силу, возможно, потребуется подождать до 24 часов. 
 
 
 - Для проверки текущих проблем с доступом к гостевой службе в Teams перейдите в раздел [Устранение неполадок команды Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
