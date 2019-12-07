@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679309"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871695"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
@@ -27,7 +27,7 @@ ms.locfileid: "39679309"
 Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации. 
 
 > [!IMPORTANT]
-> Предложение Microsoft Teams Commercial Cloud Trial обновлено с добавлением планов обслуживания для расширения возможностей Teams. Его владельцем теперь является администратор выставления счетов, который управляет им. Это упрощает управление пробным предложением и обеспечивает соответствие со всеми остальными предложениями Microsoft 365. 
+> Пробное предложение Microsoft Teams Commercial Cloud Trial будет заменено на Microsoft Teams Exploratory с января 2020 г. Дополнительные сведения об этом новом предложении см. в статье [Управление лицензией Teams Exploratory](teams-exploratory.md).
 
 ## <a name="whats-in-the-offer"></a>Содержимое предложения
 
