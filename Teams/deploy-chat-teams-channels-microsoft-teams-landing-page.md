@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290959"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886255"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 
@@ -31,7 +31,9 @@ ms.locfileid: "38290959"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*Новые возможности за ноябрь 2019 г.* Теперь можно [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть Teams.
+*Новые возможности за ноябрь 2019 г.*
+ - Теперь вы можете [использовать помощника по Teams (предварительная версия) для развертывания Microsoft Teams](use-advisor-teams-roll-out.md). Помощник по Teams (предварительная версия) поможет вам выполнить все необходимые действия для развертывания Teams. Он оценивает вашу среду Office 365 и определяет самые распространенные конфигурации, которые может потребоваться обновить или изменить, чтобы успешно развернуть Teams.
+ - [YouTube-канал "Основы Microsoft Teams для ИТ-специалистов"](https://aka.ms/MicrosoftTeamsforIT), включая короткие (8–10 минут) видео, демонстрирующие развертывание и настройку приложения Teams, а также управление им.
 
 > [!TIP]
 > Мы рекомендуем включить ваши избранные приложения, например Планировщик, в схему первоначального развертывания Teams. Добавьте другие [приложения, боты и соединители](deploy-apps-microsoft-teams-landing-page.md) по мере внедрения Teams.
