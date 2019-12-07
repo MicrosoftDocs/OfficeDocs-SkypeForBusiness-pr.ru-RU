@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563881"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886186"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -91,6 +90,7 @@ ms.locfileid: "37563881"
 
 | Модуль | Видеосвязь | Набор слайдов PowerPoint |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft механики — основные компоненты в канале YouTube для ИТ-отделов](https://aka.ms/MicrosoftTeamsforIT) | [Видео: основные компоненты для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -специалистов (10:13 мин)<br>[Видео: развертывание & Настройка групп — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  ||
 | Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
 | Классическое приложение Windows | [Видео](https://aka.ms/teams-clients) | [Крытий](https://aka.ms/teams-clients-deck) |
 | Руководство, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Крытий](https://aka.ms/teams-governance-deck) |

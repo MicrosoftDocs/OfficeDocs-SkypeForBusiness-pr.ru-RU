@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837590"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890611"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -51,6 +51,14 @@ Teams в виртуализованной среде поддерживает н
 Классическое приложение Teams было проверено ведущими поставщиками решений для виртуализации. С несколькими поставщиками рынка мы рекомендуем вам обратиться к своему поставщику решений по виртуализации для обеспечения соблюдения минимальных требований.
   
 В настоящее время команды в VDI с оптимизацией аудио-и видеофайлов (AV) – это сертификация Citrix. Ознакомьтесь со сведениями, приведенными в этом разделе, чтобы убедиться, что требования Citrix и Team выполняются для правильной работы.
+
+### <a name="partners-certified-for-teams"></a>Партнеры, сертифицированные для Teams
+
+У следующих партнеров есть решения инфраструктуры виртуальных рабочих столов для Teams.
+
+|Сотрудничать|Решение для партнеров|
+|----|---|
+|![Эмблема, представляющая Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Виртуальные приложения и настольные компьютеры Citrix</a> |
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Требования для виртуальных приложений и настольных компьютеров Citrix
 
@@ -120,8 +128,8 @@ Office 365 профессиональный плюс не поддерживае
 
 1. Скачайте пакет MSI для Teams, соответствующий операционной системе VDI, с помощью одной из указанных ниже ссылок.
 
-    - [32-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [64-разрядная версия](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [32-разрядная версия](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [64-разрядная версия](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
     Минимальной версией классического приложения Teams, которая требуется, является версия 1.2.00.31357.
 

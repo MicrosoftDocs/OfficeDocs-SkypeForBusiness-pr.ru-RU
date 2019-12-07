@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Служба миграции собраний (MMS) — это служба, которая запускается в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. MMS предназначен для предотвращения необходимости запуска средства миграции собраний для обновления собраний Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772283"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890533"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Использование службы миграции собраний (MMS)
 
@@ -128,7 +128,7 @@ ms.locfileid: "37772283"
 **Саурцемитингтипе:**
 - Использование `SourceMeetingType SfB` показывает, что нужно обновить только собрания Skype для бизнеса (локально или в сети).
 - Использование `SourceMeetingType Teams` указывает на то, что только собрания Teams будут обновляться.
-- Использование `SourceMeetingType All` указывает на то, что оба Skype для собраний и собраний Teams должны быть обновлены. Это значение по умолчанию для Саурцемитингтипе.
+- Использование `SourceMeetingType All` указывает на то, что вы должны обновить как собрания Skype для бизнеса, так и собрания Teams. Это значение по умолчанию для Саурцемитингтипе.
     
 
 В приведенном ниже примере показано, как инициировать миграцию ashaw@contoso.com для пользователя, чтобы все собрания были перенесены в teams:
