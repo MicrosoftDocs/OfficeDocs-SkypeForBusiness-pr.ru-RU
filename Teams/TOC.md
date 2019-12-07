@@ -880,6 +880,7 @@
 ##### [Office 365 корпоративный E5 без аудиоконференции](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [Государственные, образовательные и некоммерческие организации](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Управление предложением пробной коммерческой версии Teams](iw-trial-teams.md)
+### [Управление предложением Teams Exploratory](teams-exploratory.md)
 ### [Бесплатный перевод Teams на версию по подписке Office 365](upgrade-freemium.md)
 ### [Лицензирование политик обмена сообщениями](teams-add-on-licensing/pri-message.md)
 ### [Лицензия виртуального пользователя](teams-add-on-licensing/virtual-user.md)
