@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: подготовка и реализация отключения TLS 1,0 и 1,1 в среде.'
-ms.openlocfilehash: ce158aeaa84e00367b265404fe3d3407606f4759
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077442"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919313"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015
 
@@ -140,11 +140,11 @@ PIC (общедоступная служба обмена мгновенными
 - Skype для бизнеса Server 2015 CU9 6.0.9319.548 (Май 2019) или более позднюю версию
 - [.NET Framework 4,7](https://www.microsoft.com/download/details.aspx?id=55167) или более новая версия с включенной счусестронгкрипто в реестре (приведенной ниже).
 - SQL должен быть обновлен на всех серверах Skype для бизнеса 2015 и на всех концах. Сначала обновите SQL для пула Enterprise Edition, а затем соответствующие Фес. 
-    - SQL Server 2014 с пакетом обновления 1 + CU5 ([ссылка](https://support.microsoft.com/help/3130926)) или выше/sql Server 2012 2 + CU16 или выше/sql Server 2014 RTM + CU12 ([Link](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)) или выше/SQL Server 2014 SP2
-     - Собственный клиент SQL Server для SQL Server 2012 ([ссылка](https://www.microsoft.com/download/details.aspx?id=50402))
-     - Драйвер Microsoft ODBC 11 для SQL Server ([ссылка](https://www.microsoft.com/download/details.aspx?id=36434)) или более позднюю версию
-     - Общие управляющие объекты для SQL Server 2014 с пакетом обновления 2 (SP2) ([ссылка](https://www.microsoft.com/download/details.aspx?id=42295))
-     - Склсисклртипес для SQL Server 2014 с пакетом обновления 2 (SP2) ([ссылка](https://www.microsoft.com/download/details.aspx?id=42295))
+    - [SQL server 2014 с пакетом обновления 1](https://support.microsoft.com/help/3130926)(или выше/sql Server 2012 SP2 + CU16 или выше/ [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)или выше/SQL Server 2014 SP2)
+     - [Клиент SQL Server Native для SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=50402)
+     - [Драйвер Microsoft ODBC 11 для SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)(или выше)
+     - [Общие управляющие объекты для SQL Server 2014 с пакетом обновления 2 (SP2)](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [Склсисклртипес для SQL Server 2014 с пакетом обновления 2 (SP2)](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>Основные действия по установке предварительных требований в рекомендованном порядке операций
 

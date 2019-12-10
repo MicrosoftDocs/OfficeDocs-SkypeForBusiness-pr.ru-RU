@@ -123,7 +123,6 @@
 
 ## [Телефонная система и тарифные планы](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Известные проблемы планов звонков](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
-### [Создание и использование абонентских групп](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Получение планов звонков в Office 365](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Как можно использовать идентификатор звонящего в организации](/microsoftteams/how-can-caller-id-be-used-in-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Предоставляемое количество номеров телефонов](/microsoftteams/how-many-phone-numbers-can-you-get?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
@@ -194,7 +193,6 @@
 #### [Вьетнам](/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ### [Что такое местоположения для экстренного реагирования, адреса для экстренного реагирования и маршрутизация экстренных вызовов?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Что такое абонентские группы?](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Телефонная система Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Телефоны, поддерживаемые в Skype для бизнеса Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)

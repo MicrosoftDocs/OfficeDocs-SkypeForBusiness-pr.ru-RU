@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Используйте помощник по Teams (предварительная версия) для планирования и выполнения развертывания Microsoft Teams.
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209195"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909475"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Использование помощника по Teams для развертывания Microsoft Teams
 
@@ -35,6 +35,8 @@ ms.locfileid: "39209195"
 
 > [!IMPORTANT]
 > Помощник по Teams недоступен для развертываний Microsoft 365 для государственных организаций — GCC High или DoD.
+
+Ознакомьтесь с помощником по Teams, просмотрев видеоролик [Введение в развертывание и настройку Teams](https://youtu.be/o2mlsUubIO4?t=44) (помощник по Teams рассматривается с 0:50 до 3:15).
 
 ## <a name="using-advisor-for-teams-preview"></a>Использование помощника по Teams (предварительная версия)
 
