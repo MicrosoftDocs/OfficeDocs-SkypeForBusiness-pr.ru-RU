@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
-ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
+ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38670196"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966712"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
 
@@ -71,14 +71,8 @@ ms.locfileid: "38670196"
 |Устройства    |   Стандартная камера для портативного компьютера, микрофон и динамики    | 
 |Голосовая связь    |  Совместимые микрофон и динамики, гарнитура с микрофоном или эквивалентное устройство       |
 |Видеозвонки и собрания | Для улучшения качества видеосвязи и онлайн-собраний рекомендуется использовать компьютер с процессором 2,0 ГГц и 4,0 ГБ ОЗУ (или более поздней). Необязательное размытие фонового видео требует процессора с поддержкой расширенных векторных расширений 2 (AVX2), которые поддерживаются на большинстве устройств с ОС 2013 и более поздних версий. Ознакомьтесь с [рекомендациями по аппаратному декодеру и драйвером кодировщика](hardware-decoders-and-encoders.md) для списка неподдерживаемых декодеров и кодировщиков.
-|Поддерживаемые дистрибутивы Linux | Ubuntu 16,04 ЛТС *, 18,04 ЛТС, Fedora 30 Workstation, РХЕЛ 8 рабочих станций, Центос 8
+|Поддерживаемые дистрибутивы Linux | Ubuntu 16,04 ЛТС, 18,04 ЛТС, Fedora 30 Workstation, РХЕЛ 8 рабочих станций, Центос 8
 
-* Необходимые условия для установки на Ubuntu 16,04 ЛТС, добавляющего хранилище с более поздними версиями либк + + (и компилятора и т. д.) и обновления либк + +:
-```
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get upgrade
-```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Требования к оборудованию для приложения Teams на мобильных устройствах
 
@@ -98,7 +92,7 @@ sudo apt-get upgrade
 
 Требования для работы Teams в виртуализованной среде см. в разделе [Teams для виртуализованной инфраструктуры для настольных систем](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 - [Получение приложений Teams](get-clients.md)
 - [Microsoft Teams для мобильных устройств](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Установка приложения Microsoft Teams с помощью MSI](msi-deployment.md)

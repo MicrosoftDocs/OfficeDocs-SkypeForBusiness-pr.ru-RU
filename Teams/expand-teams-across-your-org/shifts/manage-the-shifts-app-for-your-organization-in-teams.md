@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568723"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961614"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -37,9 +37,7 @@ ms.locfileid: "37568723"
 
 ## <a name="availability-of-shifts"></a>Доступность смен
 
-Смены доступны во всех подписках на Office 365, включающих группы, с несколькими исключениями. Исключениями являются сообщество США (GCC) и бесплатные команды. Смена недоступна в Office 365 для государственных организаций (США) и в рабочих группах бесплатных предложений.
-
-Чтобы узнать больше о лицензировании для Teams, включая список подписок на Office 365, включающих команды, ознакомьтесь со статьей [Лицензирование office 365 для Teams](../../Office-365-licensing.md).
+Смены доступны во всех SKU предприятий, где доступны команды.
 
 ## <a name="location-of-shifts-data"></a>Местоположение смен данных
 
@@ -102,5 +100,5 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWo
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 - [Справка по сменам для Firstline работников](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

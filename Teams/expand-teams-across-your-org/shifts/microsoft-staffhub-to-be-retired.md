@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568712"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961604"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Прекращение поддержки Microsoft StaffHub
 
@@ -64,14 +64,7 @@ Microsoft StaffHub перестанет работать для всех пол�
 
 #### <a name="which-plans-is-shifts-available-in"></a>В каких планах доступны сменные планы?
 
-Смена осуществляется в рамках групп в следующих планах без дополнительных затрат.
-
-- Office 365 бизнес премиум 
-- Office 365 Enterprise F1, E1, E3, г.
-- Office 365 для образовательных учреждений
-- Microsoft 365 F1, E1, E3, клавиша f
-
-Дополнительные сведения можно найти в разделе [доступность смен](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Смены доступны во всех SKU предприятий, где доступны команды.
 
 #### <a name="how-do-i-get-shifts"></a>Как получить смену? 
 

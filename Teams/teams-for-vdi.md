@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890611"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966782"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams для инфраструктуры виртуальных рабочих столов
 
@@ -131,7 +131,7 @@ Office 365 профессиональный плюс не поддерживае
     - [32-разрядная версия](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
     - [64-разрядная версия](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    Минимальной версией классического приложения Teams, которая требуется, является версия 1.2.00.31357.
+    Минимальной версией классического приложения Teams, которая требуется, является версия 1.2.00.31357. (Удержание PSTN не поддерживается в более ранних версиях)
 
 2. Установите MSI на виртуальной машине VDI, выполнив одну из следующих команд:
 
@@ -358,7 +358,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 
 Сведения о том, как устранять неполадки вда и кВА, можно найти на [веб-сайте Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Установка Microsoft Teams с помощью MSI](msi-deployment.md)
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
