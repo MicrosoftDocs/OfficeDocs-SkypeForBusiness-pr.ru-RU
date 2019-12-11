@@ -15,12 +15,12 @@ description: Узнайте, как общаться с пользователя
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665452"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966772"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Общение с пользователями из других организаций в Microsoft Teams
 ======================================================
@@ -84,9 +84,9 @@ ms.locfileid: "39665452"
 <sup>1</sup> Если пользователь добавлен в качестве гостя и выполнил вход в качестве гостя для гостевого клиента.<br>
 <sup>2</sup> Только по электронной почте или по протоколу SIP.<br>
 <sup>3</sup> Внешний (федеративный) чат — только 1:1.<br>
-<sup>4</sup> Поддерживается для приватных чатов только между пользователями Teams из разных организаций. *Это функция предварительной версии или раннего выпуска.*
+<sup>4</sup> Поддерживается для приватных чатов только между пользователями Teams из разных организаций. 
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Внешний доступ в Teams](manage-external-access.md)
 
