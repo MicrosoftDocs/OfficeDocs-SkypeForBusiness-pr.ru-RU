@@ -42,7 +42,6 @@
 ### [Обзор](deploy-apps-microsoft-teams-landing-page.md)
 ### [Разрешения и рекомендации для приложений](app-permissions.md)
 ### [Параметры администратора для приложений в Teams](admin-settings.md)
-### [Добавление ботов для личных чатов, групповых чатов и каналов в Teams](add-bots.md)
 ### [Использование встроенных и настраиваемых вкладок](built-in-custom-tabs.md)
 ### [Использование Office 365 и настраиваемых соединителей](Office-365-custom-connectors.md)
 ### [Управление бизнес-приложениями](manage-your-lob-apps.md)
@@ -866,6 +865,7 @@
 ### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
 ### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
 ### [Обновления клиента Teams](teams-client-update.md)
+### [Устранение неполадок при установке и обновлении](troubleshoot-installation.md)
 
 ## Лицензирование
 ### [Управление доступом пользователей к Teams](user-access.md)
