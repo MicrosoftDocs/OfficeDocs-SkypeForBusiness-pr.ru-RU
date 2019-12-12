@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
+ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664981"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39984539"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -130,7 +130,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Назначьте всем пользователям в группе определенную политику разрешений приложения. В этом примере это политика разрешений на управление персоналом.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
@@ -174,5 +174,5 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 Политики разрешений для приложений, назначенные конкретным пользователям, если приложение с возможностью Bot или соединителей разрешено и затем заблокировано, и если это приложение разрешено только для некоторых пользователей в общем контексте, участники группового чата или канала, у которых нет разрешения на доступ к этому приложению  Вы можете просматривать историю сообщений и сообщения, которые были отправлены роботом или соединителем, но не могут взаимодействовать с ним.
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>См. также
 - [Параметры администратора для приложений в Teams](admin-settings.md)
