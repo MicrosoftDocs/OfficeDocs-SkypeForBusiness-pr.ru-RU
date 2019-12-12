@@ -353,6 +353,7 @@
 #### [Коды стран для путей к носителям](direct-routing-country-codes.md)
 #### [Скрипт PowerShell для проверки подключений пограничного контроллера сеансов](sip-tester-powershell-script.md)
 #### [Управление уведомлениями о звонках](direct-routing-call-notifications.md)
+#### [Настройка бота переключения на удерживаемого абонента](direct-routing-ringback-bot.md)
 
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
