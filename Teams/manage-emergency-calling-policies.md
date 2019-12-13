@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Сведения о том, как использовать и управлять политиками вызова службы экстренной помощи для функции динамического E911 в Microsoft Teams.
+description: Сведения об использовании политик вызова экстренной помощи и управлении ими в Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: d6dc6f58085fedadf25f80272bc55dcc7723db19
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615749"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998797"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Управление политиками вызова экстренной помощи в Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Если в вашей организации используются планы звонков или прямая маршрутизация на телефонную систему, вы можете использовать политики вызова экстренной помощи в Microsoft Teams, чтобы определить, что происходит, когда пользователь Teams в организации осуществляет вызов экстренной помощи. Вы можете настроить пользователей, которые должны уведомлять и как они уведомляются, когда пользователь, которому назначена эта политика, вызывает экстренные службы. Например, вы можете настроить параметры политики, чтобы автоматически уведомлять службу безопасности Организации и принимать их в экстренных звонках.  
 
@@ -110,7 +108,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Назначьте всем пользователям в группе определенную политику групп. В этом примере выполняется операция политики маршрутизации вызова экстренной помощи.
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики идентификации вызывающего абонента в Microsoft Teams для изменения или блокировки идентификатора вызывающего абонента для пользователей Teams в Организации.
-ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919373"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998827"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Управление политиками идентификации вызывающего абонента в Microsoft Teams
 
@@ -104,11 +104,11 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Назначьте для всех пользователей в группе определенную политику идентификации вызывающего абонента. В этом примере это поддержка политики идентификации вызывающего абонента.
 ```
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>См. также
 
 - [New-Кскаллинглинеидентити](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 

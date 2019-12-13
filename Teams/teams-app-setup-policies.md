@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Узнайте о политиках настройки приложений в Microsoft Teams и о том, как их использовать для закрепления приложений для настройки групп для пользователей в Организации.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570296"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998857"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "37570296"
 
 |Настольный клиент Teams  |Клиент Teams для мобильных устройств |
 |---------|---------|
-|![Снимок экрана, на котором показан Настольный клиент Teams](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Снимок экрана, показывающий клиент Teams Mobile](media/app-setup-policies-mobile-app-bar.png)      |
+|![Снимок экрана: классическое приложение Teams](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Снимок экрана, показывающий клиент Teams Mobile](media/app-setup-policies-mobile-app-bar.png)      |
 
 Управление политиками настройки приложений осуществляется в центре администрирования Microsoft Teams. Вы можете использовать глобальную политику (по умолчанию на уровне Организации) или создавать пользовательские политики и назначать их пользователям. Пользователи в вашей организации автоматически получат глобальную политику, если вы не создадите и не назначаете пользовательскую политику.
 
@@ -60,7 +60,7 @@ ms.locfileid: "37570296"
 
 6. Расположите приложения в том порядке, в котором они должны отображаться в Teams, а затем нажмите кнопку **сохранить**.
 
-    ![Снимок экрана, на котором показан раздел "закрепленные приложения"](media/app-setup-policies-new-policy-setup.png)
+    ![Снимок экрана: раздел "закрепленные приложения"](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>Изменение политики настройки приложения
 
@@ -110,7 +110,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Назначьте для всех пользователей в группе определенную политику настройки приложения. В этом примере политика настройки приложения для работы с персоналом.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
@@ -121,7 +121,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Какие встроенные политики настройки приложений входят в центр администрирования Microsoft Teams?
 
 - **Global (по умолчанию на уровне Организации)**: Эта политика по умолчанию применяется ко всем пользователям в Организации, если не назначена другая политика. Измените глобальную политику, чтобы закрепить приложения, наиболее важные для ваших пользователей.
-- **Фирстлиневоркер**: Эта политика предназначена для Firstline работников. Вы можете назначить его сотрудникам Организации в FIRSTLINE. Важно знать, что, например, пользовательские политики, которые вы создаете, вам необходимо назначить пользователю политику для активации параметров. Дополнительные сведения можно найти в разделе [Назначение пользователю политики настройки настраиваемого приложения для пользователей](#assign-a-custom-app-setup-policy-to-users) , описанных в этой статье.
+- **Фирстлиневоркер**: этот параметр применяется для первой строки работников. Вы можете назначить его для первой строки сотрудникам Организации. Важно знать, что, например, пользовательские политики, которые вы создаете, вам необходимо назначить пользователю политику для активации параметров. Дополнительные сведения можно найти в разделе [Назначение пользователю политики настройки настраиваемого приложения для пользователей](#assign-a-custom-app-setup-policy-to-users) , описанных в этой статье.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Почему не удается найти приложение в области "добавить закрепленные приложения"?
 
@@ -152,7 +152,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 |Настольный клиент Teams |Клиент Teams для мобильных устройств |
 |---------|---------|
 |На панели приложения на боковой стороне Teams нажмите **... Другие приложения**.| На панели приложения в нижней части Teams проведите пальцем вверх.|
-|![Снимок экрана, на котором показаны другие приложения в классическом клиенте Teams](media/app-setup-policies-desktop-more-apps.png)<br>   |![Снимок экрана, показывающий больше приложений в мобильном клиенте Teams](media/app-setup-policies-mobile-more-apps.png)  
+|![Снимок экрана: другие приложения в классическом клиенте Teams](media/app-setup-policies-desktop-more-apps.png)<br>   |![Снимок экрана: другие приложения в мобильном клиенте Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Что нужно знать о работе с мобильными устройствами в Teams?
 
@@ -170,6 +170,6 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 Перед отправкой приложения убедитесь, что соблюдены правила для логотипов. Дополнительные сведения можно найти в разделе [Контрольный список для отправки на панель мониторинга продавцов](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>См. также
 - [Параметры администратора для приложений в Teams](admin-settings.md)
 - [Публикация приложения в каталоге приложений клиентов в клиенте Teams](tenant-apps-catalog-teams.md)

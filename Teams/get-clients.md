@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919151"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002243"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -110,7 +110,7 @@ ms.locfileid: "39919151"
 
 > [!NOTE] 
 > Если обнаружена ошибка, отправьте ее с помощью `Report a Problem` клиента. Известные проблемы можно найти в разделе [Известные проблемы](Known-issues.md).
-> Для поддержки Teams для Linux вы можете использовать (канал поддержки форума Linux в Microsoft Q&A) [https://docs.microsoft.com/answers/topics/teams.html]. Не забудьте использовать `teams-linux` тег при отправке вопросов. 
+> Для поддержки Teams для Linux вы можете использовать [канал поддержки форумов Linux в Microsoft Q&A](https://docs.microsoft.com/answers/topics/teams.html). Не забудьте использовать `teams-linux` тег при отправке вопросов. 
 
 #### <a name="install-teams-using-deb-package"></a>Установка Teams с помощью пакета DEB
 

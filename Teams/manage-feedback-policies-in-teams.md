@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте, как использовать политики обратной связи для управления тем, могут ли пользователи Teams в организации отправлять отзывы о Teams в Майкрософт.
-ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570637"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998837"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Управление политиками обратной связи в Microsoft Teams
 
@@ -32,13 +32,13 @@ ms.locfileid: "37570637"
 
 Пользователи могут **отправлять свои комментарии** > и предложения в Teams, чтобы получить**отзыв** в Teams. Данные, отправляемые через **обратную связь** , рассматриваются как "данные поддержки" в соответствии с соглашением Office 365, в том числе данные, которые в противном случае будут считаться "данными клиента" или "личными данными".
 
-![Снимок экрана с параметром предоставления отзывов в Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Снимок экрана: команда "Отправить отзыв" в Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Опрос**
 
 Пользователи также могут оценить свое взаимодействие с помощью Teams и отправить нам информацию о рейтинге. Этот всплывающий опрос отображается для пользователей с временем по времени в Teams. Если пользователь щелкнет в уведомлении уведомление о **предоставлении обратной связи** , для него будет отображаться опрос.
 
-![Снимок экрана с уведомлением и формой опроса в Teams](media/manage-feedback-policies-in-teams-survey.png)
+![Снимок экрана: уведомление и форма для опроса в Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Укажите, могут ли пользователи отправлять отзывы о Teams в корпорацию Майкрософт.
 
@@ -48,7 +48,7 @@ ms.locfileid: "37570637"
 
 Например, вы хотите, чтобы все пользователи в вашей организации могли отправлять **Отзывы и предложения, за** исключением новых сотрудников в ходе обучения. В этом сценарии вы создаете собственную политику для отключения обоих функций и назначения их новым сотрудникам. Все остальные пользователи в вашей организации получают глобальную политику с включенной функциональностью.  
 
-Вы можете использовать командлет **New-кстеамсфидбаккполици** , *который можно [найти здесь](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, чтобы создать настраиваемую политику и командлет **Grant-кстеамсфидбаккполици** , чтобы назначить их одному или нескольким пользователям или группам пользователей, таким как группа безопасности или Группа рассылки.
+Вы можете использовать командлет **New-кстеамсфидбаккполици** , *который можно [найти здесь](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, чтобы создать настраиваемую политику и командлет **Grant-кстеамсфидбаккполици** , чтобы назначить их одному или нескольким пользователям или группам пользователей, таким как группа безопасности или группа рассылки.
 
 Чтобы отключить и включить функции, задайте указанные ниже параметры.
 
@@ -88,10 +88,10 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Назначьте для всех пользователей в группе определенную политику обратной связи. В этом примере это новая политика обратной связи для приема на работу.
 ```
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
