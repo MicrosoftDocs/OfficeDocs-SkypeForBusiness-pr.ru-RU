@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002303"
+ms.locfileid: "40020073"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -105,7 +105,7 @@ Enabled               : True
 </pre>
 В процессе связывания можно настроить дополнительные параметры. Однако в предыдущем примере показаны только минимально необходимые параметры. 
  
-В таблице ниже перечислены дополнительные параметры, которые можно использовать при настройке параметров для`New-CsOnlinePstnGateway`
+В таблице ниже приведены дополнительные параметры, которые можно использовать при настройке параметров ```New-CsOnlinePstnGateway```.
 
 |Обязательно?|Имя|Описание|По умолчанию|Возможные значения|Тип и ограничения|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -130,7 +130,7 @@ Enabled               : True
 
 После связывания SBC убедитесь, что SBC представлен в списке парных SBCs, выполнив следующую команду в удаленном сеансе PowerShell.`Get-CSOnlinePSTNGateway`
 
-Попарный шлюз должен отображаться в списке, как показано в приведенном ниже примере, и убедитесь, что параметр *Enabled* отображает значение **Истина**. Ведите
+Попарный шлюз должен отображаться в списке, как показано в приведенном ниже примере, и убедитесь, что параметр **Enabled** отображает значение **true**. Ведите
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -293,10 +293,11 @@ Get-CSOnlinePSTNUsage
 ``` 
 Возвращающий список имен, которые могут быть усечены:
 ```
-  Identity  : Global
-  Usage     : {testusage, US and Canada, International, karlUsage. . .}
+Identity    : Global
+Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
-В примере ниже показано, как можно просмотреть результаты выполнения команды `(Get-CSOnlinePSTNUsage).usage` PowerShell для отображения полных имен (не усеченных). 
+В примере ниже показано, как можно просмотреть результаты выполнения команды `(Get-CSOnlinePSTNUsage).usage` PowerShell для отображения полных имен (не усеченных).
+
 <pre>
  testusage
  US and Canada
@@ -313,20 +314,20 @@ Get-CSOnlinePSTNUsage
 
 Чтобы создать маршрут "Redmond 1", введите:
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
-  (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-  ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
 
 Возвращаемое значение.
 <pre>
 Identity                : Redmond 1
-Priority            : 1
-Description         :
-NumberPattern       : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages    : {US and Canada}
+Priority                : 1
+Description             :
+NumberPattern           : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages        : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
-Name            : Redmond 1
+Name                    : Redmond 1
 </pre>
 Чтобы создать маршрут на 2 Redmond, введите:
 
@@ -347,14 +348,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 В некоторых случаях необходимо перенаправлять все вызовы на один и тот же SBC; Пожалуйста, используйте-Нумберпаттерн ". *"
 
-- Перенаправлять все вызовы в один и тот же SBC
+Перенаправлять все вызовы в один и тот же SBC.
 
-    ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
-     -OnlinePstnGatewayList sbc1.contoso.biz
-    ```
+```
+Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
+```
 
-Проверьте, правильно ли вы настроили маршрут, выполнив команду `Get-CSOnlineVoiceRoute` PowerShell, используя указанные ниже параметры. 
+Проверьте, правильно ли вы настроили маршрут, выполнив команду `Get-CSOnlineVoiceRoute` PowerShell, используя указанные ниже параметры.
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -398,7 +398,7 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 Результат показан в этом примере:
 
 <pre>
-Identity        : Tag:US only
+Identity            : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
@@ -406,20 +406,23 @@ RouteType           : BYOT
 
 **Шаг 4:** Предоставьте пользователю Спенцер низкий уровень политики голосовой маршрутизации с помощью PowerShell.
 
-- В сеансе PowerShell в Skype для бизнеса Online введите:
+В сеансе PowerShell в Skype для бизнеса Online введите:
 
-    ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
+```
 
-- Чтобы проверить назначение политики, введите следующую команду:
+Чтобы проверить назначение политики, введите следующую команду:
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
+
 Возвращаемое значение.
 <pre>
-    OnlineVoiceRoutingPolicy
-    ---------------------
-    US Only
+OnlineVoiceRoutingPolicy
+---------------------
+US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Создание политики голосовой маршрутизации с несколькими использованием PSTN
@@ -461,68 +464,76 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 Действия по созданию использования PSTN "международные", Голосовые маршруты "Международная", "политика маршрутизации голосовой связи", "нет ограничений", а затем назначение ее пользователю "John лесу".
 
 
-1. Сначала необходимо создать использование КТСОП "Международная". В удаленном сеансе PowerShell в Skype для бизнеса Online введите:
+**Действие 1**: Создайте использование КТСОП "Международная". 
 
-   ```
-   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
-   ```
+В удаленном сеансе PowerShell в Skype для бизнеса Online введите:
 
-2. Затем создайте новый голосовой маршрут "Международная".
+```
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+```
 
-   ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-   ```
-   Возвращаемое значение.
+**Действие 2**: Создайте новый голосовой маршрут "Международная".
 
-   <pre>
-   Identity                  : International 
-   Priority                      : 5
-   Description                   : 
-   NumberPattern                 : .*
-   OnlinePstnUsages          : {International} 
-   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-   Name                            : International
-   </pre>
-3. Затем создайте политику маршрутизации голосовой связи "без ограничений". Использование PSTN "Redmond 1" и "Redmond" используются в этой политике маршрутизации голосовой связи для сохранения особой обработки звонков на номера "+ 1 425 XXX XX XX" и "+ 1 206 XXX XX XX" как локальных, так и локальных звонков.
+```
+New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+```
+Возвращаемое значение.
+
+<pre>
+Identity                  : International
+Priority                  : 5
+Description               :
+NumberPattern             : .*
+OnlinePstnUsages          : {International}
+OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                      : International
+</pre>
+
+**Шаг 3**: Создание политики маршрутизации голосовой связи "без ограничений". 
+
+Использование PSTN "Redmond 1" и "Redmond" используются в этой политике маршрутизации голосовой связи для сохранения особой обработки звонков на номера "+ 1 425 XXX XX XX" и "+ 1 206 XXX XX XX" как локальных, так и локальных звонков.
 
    ```
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
-    Обратите внимание на порядок использования PSTN:
+Обратите внимание на порядок использования PSTN:
 
-    a) Если вы вызываете число "+ 1 425 XXX XX XX" с использованием описанных ниже способов, вызов проходит по маршруту, заданному в разделе "США и Канада", и применяется специальная логика маршрутизации. Таким образом, вызов пересылается сначала с помощью sbc1.contoso.biz и sbc2.contoso.biz, а затем sbc3.contoso.biz и sbc4.contoso.biz в качестве маршрутов резервного копирования. 
+a) Если вы вызываете число "+ 1 425 XXX XX XX" с использованием описанных ниже способов, вызов проходит по маршруту, заданному в разделе "США и Канада", и применяется специальная логика маршрутизации. Таким образом, вызов пересылается сначала с помощью sbc1.contoso.biz и sbc2.contoso.biz, а затем sbc3.contoso.biz и sbc4.contoso.biz в качестве маршрутов резервного копирования.
 
-    б)  Если "Международная" использование PSTN перед "US и Канада", то звонки в + 1 425 XXX XX XX пересылаются в sbc2.contoso.biz и sbc5.contoso.biz как часть логики маршрутизации. Введите команду:
+б) Если "Международная" использование PSTN перед "US и Канада", то звонки в + 1 425 XXX XX XX пересылаются в sbc2.contoso.biz и sbc5.contoso.biz как часть логики маршрутизации. Введите команду:
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+```
 
-   Который возвращает
-
-  <pre>
-   Identity     : International 
-   OnlinePstnUsages     : {US and Canada, International}     
-   Description      :  
-   RouteType        : BYOT
-  </pre>
-
-4. Назначьте политику маршрутизации голосовой связи пользователю John лесу с помощью следующей команды.
-
-   ```
-   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-   ```
-
-   Затем проверьте назначение с помощью команды: 
-
-   ```
-   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
-   ```
-   Возвращаемое значение.
+Который возвращает
 
 <pre>
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    No Restrictions
+Identity              : International 
+OnlinePstnUsages : {US and Canada, International}    
+Description      :  
+RouteType             : BYOT
+</pre>
+
+**Действие 4**: назначьте политику маршрутизации голосовой связи пользователю John лесу с помощью следующей команды.
+
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
+
+Затем проверьте назначение с помощью команды: 
+
+```
+Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
+```
+
+Возвращаемое значение.
+
+<pre>
+OnlineVoiceRoutingPolicy
+------------------------
+No Restrictions
 </pre>
 
 Результат заключается в том, что политика голосовой связи, примененная к вызовам Джон лесу, не ограничена, и она будет соответствовать логике маршрутизации звонков, доступной для США, Канады и международных звонков.
@@ -531,11 +542,90 @@ Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 
 Для прямой маршрутизации необходимо, чтобы пользователи были в режиме "только Teams", чтобы обеспечить поступление входящих звонков в клиенте Teams. Чтобы перевести пользователей в режиме "только Teams", назначьте им экземпляр "Упградетотеамс" для Теамсупградеполици. Если в вашей организации используется Skype для бизнеса Server или Skype для бизнеса Online, ознакомьтесь со статьей взаимодействие между Skype и Teams, а также [руководство по переходу и взаимодействию для организаций, использующих Teams вместе с Skype для бизнеса](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
-
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Настройка отправки звонков непосредственно в голосовую почту
 
 Прямая маршрутизация позволяет прекратить звонок пользователю и отправить его прямо на голосовую почту пользователей. Если вы хотите отправить звонок прямо в голосовую почту, прикрепите непрозрачность = App: голосовой почте к заголовку URI запроса. Например, "SIP: user@yourdomain. com; непрозрачный = App: голосовой почты".
 В этом случае пользователь Teams не получит уведомление о звонке, Звонок будет подключен непосредственно к голосовой почте пользователя.
+
+## <a name="translate-caller-and-callee-numbers-for-outbound-and-inbound-calls-to-an-alternate-format"></a>Перевод номеров вызывающего и вызываемого абонента для исходящих и входящих звонков в альтернативный формат
+
+Иногда администраторы могут изменить номер вызываемого или вызывающего абонента для исходящих и/или входящих звонков на основе созданных вами шаблонов, чтобы обеспечить взаимодействие с помощью SBCs. Вы можете настроить правила преобразования чисел, чтобы перевести вызываемый или вызывающий номер абонента в альтернативный формат. Вы можете использовать политику для перевода указанных ниже чисел.
+
+- Входящие звонки: звонки из конечной точки PSTN (вызывающего абонента) клиенту Teams (вызываемый абонент).
+- Исходящие звонки: звонки из клиента Teams (вызывающего абонента) в конечную точку PSTN (вызываемый).
+
+Политика применяется на уровне SBC. Вы можете назначить для SBC несколько правил перевода, которые применяются в том порядке, в котором они отображаются при их перечислении в PowerShell. Вы также можете изменить порядок правил в политике.
+
+Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты New-Теамстранслатионруле, Set-Теамстранслатионруле, Get-Теамстранслатионруле и Remove-Теамстранслатионруле.
+
+Чтобы назначить, настроить и перечислить правила управления числом для SBCs, используйте командлеты [New-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) вместе ```InboundTeamsNumberTranslationRules```с ```InboundPSTNNumberTranslationRules```параметрами ```OutboundTeamsNumberTranslationRules```, ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```,,,, и ```OutboundPSTNNumberTranslationRulesList``` .
+
+### <a name="examples"></a>Примеры
+
+#### <a name="example-sbc-configuration"></a>Пример настройки SBC
+
+В сценариях примера мы выпустили ```New-CsOnlinePSTNGateway``` командлет для создания следующей конфигурации SBC.
+
+```
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+```
+
+Правила трансляции, назначенные SBC, описаны в таблице ниже.
+
+|Имя  |Шаблон |Преобразование  |
+|---------|---------|---------|
+|AddPlus1     |^ (\d{10}) $          |+1$1          |
+|AddE164SeattleAreaCode      |^ (\d{4}) $          | + 1206555 $1         |
+|аддсеаттлеареакоде    |^ (\d{4}) $          | 425555 $1         |
+|StripPlus1    |^ + 1 (\d{10}) $          | $1         |
+
+В приведенных ниже примерах сценариев есть два пользователя: Алиса и Боб. Алиса — это пользователь Teams, а его номер — + 1 206 555 0100. Боб — это пользователь PSTN, а его номер — + 1 425 555 0100.
+
+#### <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Пример 1: входящий звонок на 10-значный номер
+
+Боб вызывает Алиса, используя не-E. 164 число из десяти цифр. Боб набирает номер 2065550100, чтобы связаться с Алисой.
+SBC использует 2065550100 в Рекуестури, а к заголовкам и 4255550100м в заголовке From.
+
+|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|---------|---------|---------|---------|
+|рекуестури  |ПРИГЛАСИТЬ sip:2065550100@sbc.contoso.com|ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com|Инбаундтеамснумбертранслатионрулеслист "AddPlus1"|
+|Кому    |Кому: \<SIP:2065550100@sbc.contoso.com>|Кому: \<SIP:+12065550100@sbc.contoso.com>|Инбаундтеамснумбертранлатионрулеслист "AddPlus1"|
+|От   |ОТ: \<SIP:4255550100@sbc.contoso.com>|ОТ: \<SIP:+14255550100@sbc.contoso.com>|Инбаундпстннумбертранслатионрулеслист "AddPlus1"|
+
+#### <a name="example-2-inbound-call-to-a-four-digit-number"></a>Пример 2: входящий звонок на четырехзначный номер
+
+Боб вызывает Алиса, используя четырехзначный номер. Боб набирает номер 0100, чтобы связаться с Алисой.
+SBC использует 0100 в Рекуестури, а к заголовкам и 4255550100м в заголовке From.
+
+|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|---------|---------|---------|---------|
+|рекуестури  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:+12065550100@sbc.contoso.com           |Инбаундтеамснумбертранлатионрулеслист "AddE164SeattleAreaCode"        |
+|Кому    |Кому: \<SIP:0100@sbc.contoso.com>|Кому: \<SIP:+12065550100@sbc.contoso.com>|Инбаундтеамснумбертранлатионрулеслист "AddE164SeattleAreaCode"         |
+|От   |ОТ: \<SIP:4255550100@sbc.contoso.com>|ОТ: \<SIP:+14255550100@sbc.contoso.com>|Инбаундпстннумбертранлатионрулеслист "AddPlus1"        |
+
+#### <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Пример 3: исходящий звонок с использованием 10-значного номера, отличного от числа E. 164.
+
+Алиса звонит Бобу по 10-значным числам. Алиса набирает номер 425 555 0100, чтобы связаться с Бобом.
+SBC настроен на использование не-E. 164 десяти-значных номеров для пользователей Teams и КТСОП.
+
+В этом сценарии абонентская группа преобразует номер перед отправкой в интерфейс Direct Routing. Когда Алиса вводит 425 555 0100 в клиенте Teams, номер преобразуется в + 14255550100 с помощью абонентской группы "страны". Результирующие числа — это совокупная нормализация правил абонентской группы и переводов групп. Правила перевода команды удаляют "+ 1", добавленный абонентской панелью.
+
+|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|---------|---------|---------|---------|
+|рекуестури  |ПРИГЛАСИТЬ sip:+14255550100@sbc.contoso.com          |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |Аутбаундпстннумбертранлатионрулеслист "StripPlus1"         |
+|Кому    |Кому: \<SIP:+14255550100@sbc.contoso.com>|Кому: \<SIP:4255555555@sbc.contoso.com>|Аутбаундпстннумбертранлатионрулеслист "StripPlus1"       |
+|От   |ОТ: \<SIP:+12065550100@sbc.contoso.com>|ОТ: \<SIP:2065550100@sbc.contoso.com>|Аутбаундтеамснумбертранлатионрулеслист "StripPlus1"         |
+
+#### <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Пример 4: исходящий звонок, использующий 4-значный номер, отличный от E. 164.
+
+Алиса звонит Бобу, используя четырехзначный номер. Алиса использует 0100 для доступа к Бобу из звонков или с помощью контакта.
+SBC настроен на использование не-E. 164 4-значных номеров для пользователей Teams и десяти-значных номеров для пользователей PSTN. Абонентская группа не применяется в этом сценарии.
+
+|Верхнюю  |Исходный текст |Переведенный верхний колонтитул |Примененные параметр и правило  |
+|---------|---------|---------|---------|
+|рекуестури  |ПРИГЛАСИТЬ sip:0100@sbc.contoso.com           |ПРИГЛАСИТЬ sip:4255550100@sbc.contoso.com       |Инбаундтеамснумбертранлатионрулеслист "Аддсеаттлеареакоде"         |
+|Кому    |Кому: \<SIP:0100@sbc.contoso.com>|Кому: \<SIP:4255555555@sbc.contoso.com>|Инбаундтеамснумбертранлатионрулеслист "Аддсеаттлеареакоде"       |
+|От   |ОТ: \<SIP:+12065550100@sbc.contoso.com>|ОТ: \<SIP:2065550100@sbc.contoso.com>| Инбаундпстннумбертранлатионрулеслист "StripPlus1" |
 
 ## <a name="see-also"></a>См. также
 
