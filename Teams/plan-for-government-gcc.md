@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e4228210fa7b6d9518fa060b2bdd555f434ed6f2
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573277"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069310"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Планирование для государственных организаций (Microsoft 365) — развертывание GCC
 
@@ -78,7 +78,7 @@ Microsoft 365 государственных учреждений – GCC обе
 | | Единая система присутствия (Skype для бизнеса и Teams) | Доступно |
 | Ленты | Веб-канала | Доступно |
 |  | Мои действия | Доступно |
-| Чат | Диалога | Доступно |
+| Chat | Диалога | Доступно |
 | | Файлы | Доступно |
 | | Организационная диаграмма | Доступно |
 | | Ленты | Доступно |
@@ -100,7 +100,7 @@ Microsoft 365 государственных учреждений – GCC обе
 | | Заметки к собранию | Доступно |
 | | События в реальном времени | Доступно |
 | | Федеративные собрания | Доступно |
-| | Поддержка Surface HUB | Недоступно |
+| | Поддержка Surface HUB | Доступно |
 | Звонки | Контакты | Доступно |
 | | Темпоральной | Доступно |
 | | Голосовая почта | Доступно |

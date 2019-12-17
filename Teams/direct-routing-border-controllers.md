@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Корпорация Майкрософт сотрудничает с рядом поставщиков SBC и сертифицирует их контроллеры для работы с прямой маршрутизацией.
-ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 529b0b550d60123a94b36944e8f1831acb09839a
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572249"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069430"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -41,30 +41,30 @@ ms.locfileid: "37572249"
 [Дополнительные сведения о прямой маршрутизации](https://aka.ms/dr). Если у вас есть вопросы по программе сертификации SBC для прямой маршрутизации, напишите нам по адресу drsbccertification@microsoft.com
 
 
-|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Без обхода сервера-посредника | Обход сервера-посредника | Версия ПО |
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
+|                                                       Поставщик                                                        |       ПРОИЗВЕД       | Без обхода сервера-посредника | Обход сервера-посредника | Версия ПО | Ваидатед с поставщиками E911 | Возможность Елин
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20 а. 250   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 а. 250   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20 а. 250   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 а. 250   |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20 а. 250  |
-|                                                                                                                     | Одномедианый SBC 9000  |     &#10004;     |   &#10004;     |  7.20 а. 250   |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 а. 250 |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      V8.0.1     |
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     V8.0.1     |
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      V8.0.1    |
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 а. 250   |    |    |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20 а. 250   |     |    |    
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 а. 250   |     |    |    
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20 а. 250  |    |    |    
+|                                                                                                                     | Одномедианый SBC 9000  |     &#10004;     |   &#10004;     |  7.20 а. 250   |    |    |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 а. 250 |    |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |  Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  | Нет   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |  Интрадо ЕРС <br>Интрадо ЕГВ    |Нет|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  |  Нет  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |   Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      V8.0.1     |     |    |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     V8.0.1     |    |    |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      V8.0.1    |     |    |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |        |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |     |    |    
 
 Чтобы придать нам отзыв о новых возможностях, например идеи по новым функциям, пожалуйста, ознакомьтесь с разрешениями, предоставленными основной версией сертификата [UserVoice](https://microsoftteams.uservoice.com) . Это означает, что поддерживается микропрограмма с любым числом в микропрограмме SBC, следующей за основной версией.

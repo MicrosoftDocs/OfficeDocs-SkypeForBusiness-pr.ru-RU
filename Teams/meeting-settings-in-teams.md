@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Сведения о том, как управлять параметрами собраний Teams, которые пользователи расписаний в вашей организации.
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746452"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069460"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "38746452"
 
 1. Создание изображения, которое имеет размер не более 188 пикселей в ширину и на 30 пикселей в высоту (он очень мелкий).
 2. Сохраните изображение в формате JPG или PNG.
-3. Храните изображение в централизованном расположении, доступном для всех пользователей организации, например в сетевой папке.
+3. Храните изображение в том месте, доступном для всех участников, например на общедоступном веб-сайте.
 
     Теперь вы можете добавить его в приглашения на собрание. Ознакомьтесь со статьей ниже.
 
