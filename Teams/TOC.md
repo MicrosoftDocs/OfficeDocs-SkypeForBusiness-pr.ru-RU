@@ -289,21 +289,26 @@
 
 
 # Голосовая связь в облаке 
+
 ## [Планирование развертывания](cloud-voice-landing-page.md)
+
 ## Телефонная система
 ### [Что такое телефонная система?](what-is-phone-system-in-office-365.md)
 ### [Возможности телефонной системы](here-s-what-you-get-with-phone-system.md)
 ### [Настройка телефонной системы](setting-up-your-phone-system.md)
 ### [Настройка телефонов общего пользования](set-up-common-area-phones.md)
+
 ### Голосовая почта
 #### [Настройка облачной голосовой почты](set-up-phone-system-voicemail.md)
 #### [Изменение языка по умолчанию для голосовой почты](change-the-default-language-for-greetings-and-emails.md)
 #### [Языки для приветствий и сообщений голосовой почты](languages-for-voicemail-greetings-and-messages.md)
+
 ### Идентификатор звонящего
 #### [Как можно использовать идентификатор звонящего в организации](how-can-caller-id-be-used-in-your-organization.md)
 #### [Управление политиками идентификации звонящего](caller-id-policies.md)
 #### [Настройка идентификатора звонящего для пользователя](set-the-caller-id-for-a-user.md)
 #### [Дополнительные сведения об ИД линии вызова и имени вызывающей стороны](more-about-calling-line-id-and-calling-party-name.md)
+
 ### Автосекретари и очереди вызовов 
 #### [Что представляют собой облачные автосекретари](what-are-phone-system-auto-attendants.md)
 #### [Настройка облачного автосекретаря](create-a-phone-system-auto-attendant.md)
@@ -312,6 +317,7 @@
 #### [Управление учетными записями ресурсов в Microsoft Teams](manage-resource-accounts.md)
 #### [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)
 #### [Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams](answer-auto-attendant-and-call-queue-calls.md)
+
 ### [Приостановка и восстановление звонка](call-park-and-retrieve.md)
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
@@ -353,7 +359,12 @@
 #### [Коды стран для путей к носителям](direct-routing-country-codes.md)
 #### [Скрипт PowerShell для проверки подключений пограничного контроллера сеансов](sip-tester-powershell-script.md)
 #### [Управление уведомлениями о звонках](direct-routing-call-notifications.md)
+#### Протоколы
+##### [Определения и стандарты RFC](direct-routing-protocols.md)
+##### [Протокол SIP](direct-routing-protocols-SIP.md)
+##### [Протоколы мультимедиа](direct-routing-protocols-media.md)
 #### [Настройка бота переключения на удерживаемого абонента](direct-routing-ringback-bot.md)
+
 
 ## Номера телефонов
 ### [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
