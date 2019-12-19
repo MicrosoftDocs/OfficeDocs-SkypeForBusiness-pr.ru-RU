@@ -1,11 +1,10 @@
 ---
-title: Доступность в Эль-Сальвадоре
-ms.author: crowe
-author: CarolynRowe
+title: Доступность в Барбадос
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
-ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,34 +22,34 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Эль-Сальвадора.
-ms.openlocfilehash: ee73a0ed7a49d87e84fb9df0c6dcfcb25c90192a
+description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Барбадосов.
+ms.openlocfilehash: 396685b525b6fc4d1214e54b4dfa2f356bb9ac00
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741363"
+ms.locfileid: "40741663"
 ---
-# <a name="availability-in-el-salvador"></a>Доступность в Эль-Сальвадоре
+# <a name="availability-in-barbados"></a>Доступность в Барбадос
 
 [Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Эль-Сальвадора.
+Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Барбадосов.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md)  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты на связь <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение телефонной системы?  <br/> |Да  <br/> |
-| Автосекретари <br/> |Доступно  <br/> |
+|Автосекретари <br/> |Доступно  <br/> |
 |Очередь звонков  <br/> |Доступно  <br/> |
 |Голосовая почта  <br/> |Доступно  <br/> |
    
@@ -62,15 +61,15 @@ ms.locfileid: "40741363"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
+## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Сан-Сальвадор  <br/> |
-|Доступны ли платные номера?  <br/> |Да  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Неприменимо <br/> |
+|Доступны ли платные номера?  <br/> |Нет <br/> |
+|Доступны ли бесплатно бесплатные номера? <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
@@ -85,5 +84,4 @@ ms.locfileid: "40741363"
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
 

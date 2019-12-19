@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Сведения о том, как управлять параметрами политики собраний в Teams.
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564970"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744873"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Управление политиками собраний в Teams
 
@@ -95,7 +95,7 @@ ms.locfileid: "37564970"
 ## <a name="meeting-policy-settings---general"></a>Параметры политики собраний — общие
 
 - [Разрешить собрание прямо сейчас в каналах](#allow-meet-now-in-channels)
-- [Разрешить закрытые собрания сейчас (ожидается в ближайшее время)](#allow-private-meet-now-coming-soon)
+- [Разрешить закрытые собрания сейчас](#allow-private-meet-now)
 - [Разрешение надстройки для Outlook](#allow-the-outlook-add-in)
 - [Разрешить планирование собраний на канале](#allow-channel-meeting-scheduling)
 - [Разрешить планирование личных собраний](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ ms.locfileid: "37564970"
 
 ![Снимок экрана: значок "начать собрание" под сообщением](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>Разрешить закрытые собрания сейчас (ожидается в ближайшее время)
+### <a name="allow-private-meet-now"></a>Разрешить закрытые собрания сейчас
 
 Это политика для каждого пользователя, которая применяется до начала собрания. Этот параметр определяет, может ли пользователь запустить прямое личное собрание.  
 
@@ -388,7 +388,5 @@ ms.locfileid: "37564970"
 |   | Все пользователи в Организации и федеративных организациях      | Ожидание в зале ожидания         |
 
 
-[Полная статья](meeting-policies-in-teams.md)
-
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Политики обмена сообщениями в Teams](messaging-policies-in-teams.md)

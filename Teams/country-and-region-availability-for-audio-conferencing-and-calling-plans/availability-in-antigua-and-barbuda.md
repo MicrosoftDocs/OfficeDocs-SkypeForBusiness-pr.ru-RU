@@ -1,11 +1,10 @@
 ---
-title: Доступность в Белизе
-author: CarolynRowe
-ms.author: crowe
+title: Доступность на Антигуа и Барбуда
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
-ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,27 +22,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для компании Белиз.
-ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Барбуда.
+ms.openlocfilehash: 78954a6f1b118118affde08fbc94b4b2cfb19d9d
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741353"
+ms.locfileid: "40741657"
 ---
-# <a name="availability-in-belize"></a>Доступность в Белизе
+# <a name="availability-in-antigua-and-barbuda"></a>Доступность на Антигуа и Барбуда
 
-[Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.
+[Найдите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)или ознакомьтесь с дополнительными сведениями о доступности стран и регионов для голосовой конференции и планов звонков.
 
-Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для компании Белиз.
+Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Антигуа и Барбуда.
   
 ## <a name="audio-conferencing"></a>Аудиоконференции
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
 |Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md) <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
-|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> | Нет |
+|Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты на связь <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
 
@@ -62,15 +61,15 @@ ms.locfileid: "40741353"
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
+## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |Неприменимо  <br/> |
-|Доступны ли платные номера?  <br/> |Нет  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Неприменимо |
+|Доступны ли платные номера?  <br/> |Нет <br/> |
+|Доступны ли бесплатно бесплатные номера?  <br/> |Да  <br/> |
    
- Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Кредиты на связь
 

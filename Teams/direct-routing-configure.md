@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020073"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741383"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -556,7 +556,7 @@ No Restrictions
 
 Политика применяется на уровне SBC. Вы можете назначить для SBC несколько правил перевода, которые применяются в том порядке, в котором они отображаются при их перечислении в PowerShell. Вы также можете изменить порядок правил в политике.
 
-Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты New-Теамстранслатионруле, Set-Теамстранслатионруле, Get-Теамстранслатионруле и Remove-Теамстранслатионруле.
+Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты New-Кстеамстранслатионруле, Set-Кстеамстранслатионруле, Get-Кстеамстранслатионруле и Remove-Кстеамстранслатионруле.
 
 Чтобы назначить, настроить и перечислить правила управления числом для SBCs, используйте командлеты [New-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) вместе ```InboundTeamsNumberTranslationRules```с ```InboundPSTNNumberTranslationRules```параметрами ```OutboundTeamsNumberTranslationRules```, ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```,,,, и ```OutboundPSTNNumberTranslationRulesList``` .
 

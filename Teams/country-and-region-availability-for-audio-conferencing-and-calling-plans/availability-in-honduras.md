@@ -3,7 +3,7 @@ title: Доступность в Гондурасе
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гондурас.
-ms.openlocfilehash: 0b02b165fbce211a6b9d92e59ecf2bf67a256aa5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 666e162de569aefb163a137e30926cf5b30a6a38
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568434"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741103"
 ---
 # <a name="availability-in-honduras"></a>Доступность в Гондурасе
 
@@ -41,7 +41,7 @@ ms.locfileid: "37568434"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
@@ -66,9 +66,9 @@ ms.locfileid: "37568434"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> |ТегуЦигалпа ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> |тегуЦигалпа <br/> |
+|Доступны ли платные номера?  <br/> |Да <br/> |
+|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -76,7 +76,7 @@ ms.locfileid: "37568434"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
+|Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   

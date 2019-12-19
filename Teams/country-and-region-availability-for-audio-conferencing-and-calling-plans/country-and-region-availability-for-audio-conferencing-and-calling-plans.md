@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573089"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741393"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -39,21 +39,26 @@ ms.locfileid: "37573089"
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Выберите свою страну или регион, чтобы узнать, какие возможности доступны в вашей организации
 
 > [!div class="op_single_selector"]
-> - [Алжир](availability-in-algeria.md)    
+> - [Алжир](availability-in-algeria.md)
+> - [Атнтигуа и Барбуда](availability-in-antigua-and-barbuda.md)
 > - [Аргентина](availability-in-argentina.md)
 > - [Австралия](availability-in-australia.md)
 > - [Австрия](availability-in-austria.md)
+> - [Багамы](availability-in-the-bahamas.md)
 > - [Бахрейн](availability-in-bahrain.md)
+> - [Барбадос](availability-in-barbados.md)
 > - [Беларусь](availability-in-belarus.md)
 > - [Бельгия](availability-in-belgium.md)
 > - [Белиз](availability-in-belize.md)
 > - [Бенин](availability-in-benin.md)
+> - [Бермудские острова](availability-in-bermuda.md)
 > - [Босния и Герцеговина](availability-in-bosniaherzegovina.md)
 > - [Бразилия](availability-in-brazil.md)
 > - [Бруней](availability-in-brunei.md)
 > - [Болгария](availability-in-bulgaria.md)
 > - [Камбоджа](availability-in-cambodia.md)
 > - [Канада](availability-in-canada.md)
+> - [Cayman Islands](availability-in-the-cayman-islands.md)
 > - [Чили](availability-in-chile.md)
 > - [Китай](availability-in-china.md)
 > - [Колумбия](availability-in-colombia.md)
@@ -62,6 +67,7 @@ ms.locfileid: "37573089"
 > - [Кипр](availability-in-cyprus.md)
 > - [Чешская Республика](availability-in-the-czech-republic.md)
 > - [Дания](availability-in-denmark.md)
+> - [Доминика](availability-in-dominica.md)
 > - [Доминиканская Республика](availability-in-the-dominican-republic.md)
 > - [Эквадор](availability-in-ecuador.md)
 > - [Египет](availability-in-egypt.md)
@@ -73,6 +79,8 @@ ms.locfileid: "37573089"
 > - [Германия](availability-in-germany.md)
 > - [Гана](availability-in-ghana.md)
 > - [Греция](availability-in-greece.md)
+> - [Гренада](availability-in-grenada.md)
+> - [Гуам](availability-in-guam.md)
 > - [Гондурас](availability-in-honduras.md)
 > - [Гонконг, САР](availability-in-hong-kong.md)
 > - [Венгрия](availability-in-hungary.md)
@@ -81,6 +89,7 @@ ms.locfileid: "37573089"
 > - [Ирландия](availability-in-ireland.md)
 > - [Израиль](availability-in-israel.md)
 > - [Италия](availability-in-italy.md)
+> - [Ямайка](availability-in-jamaica.md)
 > - [Япония](availability-in-japan.md)
 > - [Иордания](availability-in-jordan.md)
 > - [Казахстан](availability-in-kazakhstan.md)
@@ -112,6 +121,8 @@ ms.locfileid: "37573089"
 > - [Катар](availability-in-qatar.md)
 > - [Румыния](availability-in-romania.md)
 > - [Россия](availability-in-russia.md)
+> - [Сент-Китс и Невис](availability-in-saint-kitts-and-nevis.md)
+> - [Сент-Люсия](availability-in-saint-lucia.md)
 > - [Саудовская Аравия](availability-in-saudi-arabia.md)
 > - [Сербия](availability-in-serbia.md)
 > - [Сингапур](availability-in-singapore.md)
@@ -136,7 +147,7 @@ ms.locfileid: "37573089"
 > - [Венесуэла](availability-in-venezuela.md)
 > - [Вьетнам](availability-in-vietnam.md)
 
-**Если вы ищете электронную таблицу со всеми странами и областями, скачайте и сохраните [электронную таблицу доступности для страны или региона](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**.
+**Если вы ищете электронную таблицу со всеми странами и областями, скачайте и сохраните [электронную таблицу доступности для страны или региона](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -188,7 +199,7 @@ ms.locfileid: "37573089"
 Для получения сведений о лицензировании см. также статью [Phone System and Calling Plans licensing (Лицензирование телефонной системы и планов звонков)](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> Страна или регион основываются на местоположении лицензии пользователя > в **центре администрирования Microsoft 365**, а **не** на адрес выставления счета, указанный в**** **профиле организации** в **администраторе Microsoft 365. в центре**. 
+> Страна или регион зависят от того, где находится > лицензия пользователя в **центре администрирования Microsoft 365**, а **не** на адрес выставления**счета, указанный** в разделе **профиль организации** в **центре администрирования Microsoft 365**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Платные и бесплатные номера телефона для таких служб
 

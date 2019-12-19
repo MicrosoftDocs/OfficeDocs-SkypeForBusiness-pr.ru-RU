@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP-адрес и телефоны конференций, сертифицированные для Microsoft Teams
-ms.openlocfilehash: 331c84e9a62b64a1fab33676c296c65f045b53ae
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: bf14bed7846b8c1b3dea1d79f3ecae99706dc034
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675827"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744853"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>IP-телефоны, сертифицированные для Microsoft Teams
 
@@ -48,6 +48,7 @@ ms.locfileid: "38675827"
 |Крестрон M100|2.3875.00068|Декабрь 2018 г.|
 |Крестрон Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Январь 2019 г.|
 |Поли тройкой 8500/8800 (только в режиме общего доступа)| 5.9.0.10869|Июнь 2019 г.|
+|Поли CCX500 | 1.0.0.2535| Декабрь 2019 г.|
 |Yealink VP59 | 91.15.0.16 |Июнь 2019 г.|
 |Yealink T55 | 58.15.0.36 |Май 2019 г.|
 |Yealink CP 960 |73.15.0.20|Декабрь 2018 г.|
