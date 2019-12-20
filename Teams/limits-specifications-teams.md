@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679239"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823914"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -101,6 +101,18 @@ ms.locfileid: "39679239"
 |------------|---------------|
 |Количество пользователей в собрании  | 250    |
 |Максимальный размер файла PowerPoint | 2 ГБ|
+
+### <a name="meeting-expiration"></a>Окончание срока действия собрания
+
+|Тип собрания  |Срок действия собрания  |При каждом начале или обновлении собрания срок действия продлевается на указанный период  |
+|---------|---------|---------|
+|Незапланированные собрания     |Время начала + 8 часов         |Н/Д         |
+|Обычное без времени окончания     |Время начала + 60 дней         | 60 дней        |
+|Обычное со временем окончания     |Время окончания + 60 дней         |60 дней         |
+|Повторяющееся без времени окончания     |Время начала + 60 дней         |60 дней         |
+|Повторяющееся со временем окончания     |Время окончания последнего повторения + 60 дней         |60 дней         |
+
+
 
 ## <a name="teams-live-events"></a>Трансляции Teams
 
