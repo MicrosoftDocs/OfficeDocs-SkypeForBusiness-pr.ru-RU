@@ -19,10 +19,10 @@ description: В этой статье описано, как использов�
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 97288109f7998a8d29520169e229a5546da94bc5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
+ms.lasthandoff: 12/20/2019
 ms.locfileid: "37616061"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Управление группами с помощью ролей администратора Microsoft Teams
@@ -71,7 +71,7 @@ ms.locfileid: "37616061"
    в. С помощью **Get-Module** можно указать имя импортированного сеанса (оно будет сгенерировано случайным образом).<br>
 3. Для идентификации всех доступных командлетов используйте **команду Get-Command-** <*Name, расположенную выше*>
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 
 - [Общие сведения о Microsoft Teams PowerShell](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
