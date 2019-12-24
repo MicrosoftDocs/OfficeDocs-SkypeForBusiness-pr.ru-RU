@@ -3,61 +3,6 @@
 
 
 
-## <a name="week-of-november-11-2019"></a>Неделя 11 ноября 2019 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 11/11/2019 | [Взаимодействие SharePoint Online и OneDrive для бизнеса с Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | Изменено |
-| 11/11/2019 | [Авторизация гостевого доступа в Microsoft Teams](/MicrosoftTeams/teams-dependencies) | Изменено |
-| 11/11/2019 | [Поиск контента в Microsoft Teams](/MicrosoftTeams/content-search) | Изменено |
-| 11/11/2019 | [Обнаружение электронных данных в Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | Изменено |
-| 11/11/2019 | [Перемещение групп StaffHub в приложение "Смены" в Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | Изменено |
-| 11/11/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 11/11/2019 | [Взаимодействие с Teams в клиентах Office 365 OneDrive и SharePoint Online с поддержкой нескольких регионов](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | Изменено |
-| 11/12/2019 | [Знакомство с Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
-| 11/12/2019 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
-| 11/12/2019 | [Собрания и конференции в Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Изменено |
-| 11/12/2019 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 11/12/2019 | [Управление командами в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Изменено |
-| 11/12/2019 | [Руководство по анализу процедуры обеспечения качества для Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | Изменено |
-| 11/12/2019 | [Лицензии комнаты Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | Изменено |
-| 11/12/2019 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | Изменено |
-| 11/13/2019 | [Политики управления приложениями AppLocker в Microsoft Teams](/MicrosoftTeams/applocker-in-teams) | Изменено |
-| 11/13/2019 | [Преимущество подписки с аудиоконференциями "Обратный звонок"/"Позвонить мне на номер"](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | Изменено |
-| 11/13/2019 | [Льготный период обратных звонков](/MicrosoftTeams/complimentary-dial-out-period) | Изменено |
-| 11/13/2019 | [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
-| 11/13/2019 | [Устранение неполадок с гостевым доступом в Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | Изменено |
-| 11/14/2019 | [Использование надстройки собраний Microsoft Teams в Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Изменено |
-| 11/14/2019 | [Управление командами в Центре администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Изменено |
-| 11/14/2019 | [Аппаратные требования для приложения Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
-| 11/14/2019 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
-| 11/14/2019 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
-| 11/14/2019 | [Проверка подключения к Интернету](/MicrosoftTeams/business-voice/get-ready-internet) | Изменено |
-| 11/14/2019 | [Как подготовить пользователей к использованию корпоративной голосовой связи Microsoft 365?](/MicrosoftTeams/business-voice/prepare-users) | Изменено |
-| 11/14/2019 | [Настройка корпоративной голосовой связи с помощью мастера начальной настройки](/MicrosoftTeams/business-voice/use-getting-started-wizard) | Изменено |
-| 11/15/2019 | [Аппаратные требования для приложения Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Изменено |
-| 11/15/2019 | [Управление пакетами политик в Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Изменено |
-| 11/15/2019 | [Телефоны для Microsoft Teams](/MicrosoftTeams/phones-for-teams) | Изменено |
-| 11/15/2019 | [Планирование управления комнатами в Microsoft Teams с помощью монитора Azure](/MicrosoftTeams/room-systems/azure-monitor-plan) | Изменено |
-| 11/15/2019 | [Настройка консоли Microsoft Teams](/MicrosoftTeams/room-systems/console) | Изменено |
-| 11/15/2019 | [Удаленное управление параметрами консоли Microsoft Teams с помощью XML-файла конфигурации](/MicrosoftTeams/room-systems/content-camera) | Изменено |
-| 11/15/2019 | [Вопросы присоединения к домену системы комнаты Skype](/MicrosoftTeams/room-systems/domain-joining-considerations) | Изменено |
-| 11/15/2019 | [Известные проблемы](/MicrosoftTeams/room-systems/known-issues) | Изменено |
-| 11/15/2019 | [Миграция системных устройств Lync в комнаты Microsoft Teams](/MicrosoftTeams/room-systems/lrs-migration) | Изменено |
-| 11/15/2019 | [Используйте средство восстановления приложения "Комнаты Microsoft Teams"](/MicrosoftTeams/room-systems/recovery-tool) | Изменено |
-| 11/15/2019 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | Изменено |
-| 11/15/2019 | [Обслуживание и эксплуатация комнат Microsoft Teams](/MicrosoftTeams/room-systems/room-systems-v2-operations) | Изменено |
-| 11/15/2019 | [Общие сведения об управлении комнатами Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v3) | Изменено |
-| 11/15/2019 | [Подготовка среды](/MicrosoftTeams/room-systems/srs-v2-prep) | Изменено |
-| 11/15/2019 | [Поддержка версий](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | Изменено |
-| 11/15/2019 | [Заметки о выпуске](/MicrosoftTeams/room-systems/srs2-release-note) | Изменено |
-| 11/15/2019 | [Управление обновлениями Windows для комнат Microsoft Teams](/MicrosoftTeams/room-systems/updates) | Изменено |
-| 11/15/2019 | [Развертывание комнаты Microsoft Teams в локальной среде Exchange](/MicrosoftTeams/room-systems/with-exchange-on-premises) | Изменено |
-| 11/15/2019 | [Развертывание комнаты Microsoft Teams с Office 365](/MicrosoftTeams/room-systems/with-office-365) | Изменено |
-| 11/15/2019 | [Телефоны и устройства для групп](/MicrosoftTeams/teams-ip-phones) | Изменено |
-
-
 ## <a name="week-of-november-18-2019"></a>Неделя 18 ноября 2019 г.
 
 
@@ -132,7 +77,7 @@
 | 12/3/2019 | [Контрольный список для гостевого доступа в Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | Изменено |
 | 12/3/2019 | [Пробное предложение Microsoft Teams Commercial Cloud Trial](/MicrosoftTeams/iw-trial-teams) | Изменено |
 | 12/3/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
-| 12/3/2019 | [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Изменено |
+| 12/3/2019 | [Управление Teams при переходе на новую версию Центра администрирования Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | изменено |
 | 12/3/2019 | [Управление пользовательскими политиками и параметрами приложений в Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | Изменено |
 | 12/4/2019 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
 | 12/4/2019 | [Коды стран прямой маршрутизации](/MicrosoftTeams/direct-routing-country-codes) | Изменено |
@@ -196,3 +141,35 @@
 | 12/13/2019 | [Личные каналы в Microsoft Teams](/MicrosoftTeams/private-channels) | Изменено |
 | 12/13/2019 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
 | 12/13/2019 | [Использование помощника для Teams (предварительная версия) для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
+
+
+## <a name="week-of-december-16-2019"></a>Неделя с 16 декабря 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 12/16/2019 | [Настройка облачного автосекретаря](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 12/16/2019 | [Планирование работы пользователей в Microsoft Teams](/MicrosoftTeams/5-envision-plan-my-users-experience) | Изменено |
+| 12/16/2019 | [Создание и использование абонентских групп](/MicrosoftTeams/create-and-manage-dial-plans) | Изменено |
+| 12/16/2019 | [Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации](/MicrosoftTeams/direct-routing-border-controllers) | Изменено |
+| 12/16/2019 | [Обнаружение электронных данных в Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | Изменено |
+| 12/16/2019 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
+| 12/16/2019 | [Потоки звонков Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | Изменено |
+| 12/16/2019 | [Планирование развертываний Microsoft 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | Изменено |
+| 12/16/2019 | [Заметки о выпуске](/MicrosoftTeams/room-systems/srs2-release-note) | Изменено |
+| 12/16/2019 | [Настройка сосуществования и обновления](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | изменено |
+| 12/16/2019 | [Просмотр аналитики командной и межкомандной работы в Teams](/MicrosoftTeams/teams-analytics-and-reports/cross-team-per-team-analytics) | Изменено |
+| 12/16/2019 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
+| 12/16/2019 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |
+| 12/16/2019 | [Что такое телефонная система в Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | Изменено |
+| 12/17/2019 | [Качество обслуживания в клиентах Microsoft Teams](/MicrosoftTeams/qos-in-teams-clients) | Изменено |
+| 12/18/2019 | [Доступность в Белизе](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | Изменено |
+| 12/18/2019 | [Доступность в Камбоджа](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia) | Изменено |
+| 12/18/2019 | [Доступность в Эль-Сальвадоре](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | Изменено |
+| 12/18/2019 | [Доступность в Гондурасе](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | Изменено |
+| 12/18/2019 | [Доступность аудиоконференций и планов звонков в различных странах и регионах](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Изменено |
+| 12/18/2019 | [Настройка прямой маршрутизации](/MicrosoftTeams/direct-routing-configure) | Изменено |
+| 12/18/2019 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
+| 12/18/2019 | [Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Изменено |
+| 12/18/2019 | [Телефоны и устройства для групп](/MicrosoftTeams/teams-ip-phones) | Изменено |
+| 12/19/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
