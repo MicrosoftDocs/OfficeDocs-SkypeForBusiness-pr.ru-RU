@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Узнайте о политиках настройки приложений в Microsoft Teams и о том, как их использовать для закрепления приложений для настройки групп для пользователей в Организации.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998857"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910047"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Управление политиками настройки приложений в Microsoft Teams
 
@@ -168,7 +168,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Моя организация создала приложение Teams и опубликовала ее в Аппсаурце или каталоге приложений клиента, но значок приложения отображается не так, как ожидалось, когда приложение закреплено на панели приложения в Teams. Как это исправить? 
 
-Перед отправкой приложения убедитесь, что соблюдены правила для логотипов. Дополнительные сведения можно найти в разделе [Контрольный список для отправки на панель мониторинга продавцов](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
+Перед отправкой приложения убедитесь, что соблюдены правила для логотипов. Дополнительные сведения можно найти в разделе [Контрольный список для отправки на панель мониторинга продавцов](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
  ## <a name="related-topics"></a>См. также
 - [Параметры администратора для приложений в Teams](admin-settings.md)

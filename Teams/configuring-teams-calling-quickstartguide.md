@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516482"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910007"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Краткое руководство по началу работы. Настройка планов звонков в Microsoft Teams
 ==============================================================
@@ -44,12 +44,12 @@ ms.locfileid: "37516482"
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Предварительные требования для включения **панели набора номера** в Teams
 Чтобы включить и использовать в Teams вкладку для **набора номера** , вы должны будете подготавливать пользователей для звонков на телефонную систему и планы звонков. Сведения о том, как настроить планы звонков, читайте в статье [Настройка планов звонков](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
-
+Кроме того, только для пользователей Teams необходимо убедиться в том, что в политике вызова Teams включена поддержка закрытого вызова. Дополнительные сведения [можно найти в разделе Управление группами на переходе в новый центр администрирования Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center) .
 > [!NOTE]
 > Вы также можете использовать прямую маршрутизацию, чтобы предоставить пользователям возможность звонить и принимать звонки по КТСОП. Чтобы научиться настраивать прямую переадресацию, прочтите параметр [настроить прямую маршрутизацию](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Использование Теамсупградеполици для управления тем, где наземный Звонок
-Для управления входящими звонками (и сеансами) в Teams или Skype для бизнеса администраторы используют Теамсупградеполици, используя либо [центр администрирования Microsoft Teams](https://aka.ms/teamsadmincenter) , либо удаленный сеанс Windows PowerShell с помощью [Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype) . Командлеты.
+Чтобы указать, будут ли входящие звонки (и разговоры) на землю в Teams или Skype для бизнеса, администраторы используют Теамсупградеполици, используя либо [центр администрирования Microsoft Teams](https://aka.ms/teamsadmincenter) , либо удаленный сеанс Windows PowerShell с помощью командлетов [Skype для бизнеса](https://docs.microsoft.com/powershell/module/skype) .
 
 
 Настройка по умолчанию Теамсупградеполици — это режим "острова", который предназначен для того, чтобы гарантировать, что существующие бизнес-процессы не прерываются при развертывании Teams. По умолчанию звонки по протоколу VoIP, КТСОП и Федеративные пользователи по-прежнему будут перенаправляться в Skype для бизнеса, пока вы не обновите политику, чтобы включить входящие звонки в Teams.  Если получатели находятся в режиме острова, сделайте следующее:

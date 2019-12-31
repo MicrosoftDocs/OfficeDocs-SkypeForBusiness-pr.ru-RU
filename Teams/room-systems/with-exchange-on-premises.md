@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в гибридной среде с локальным сервером Exchange.
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675413"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910057"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
@@ -44,11 +44,11 @@ ms.locfileid: "38675413"
 
   - Вам потребуется Skype для бизнеса Online (план 2) или более позднюю версию в плане Office 365. План должен поддерживать функции конференц-связи.
   
-  - - Если вам нужна Корпоративная голосовая связь (PSTN-телефония) с помощью поставщиков услуг телефонии для комнат Microsoft Teams, которым нужен Skype для бизнеса Online (план 3).
+  - Если вам нужна Корпоративная голосовая связь (PSTN-телефония) с помощью поставщиков услуг телефонии для комнат Microsoft Teams, которым нужен Skype для бизнеса Online (план 3).
   
-  - - Ваши пользователи клиента должны иметь почтовые ящики Exchange.
+  - Ваши пользователи клиента должны иметь почтовые ящики Exchange.
   
-  - - Для вашей учетной записи Microsoft Team комнат требуется лицензия Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3), но для нее не требуется лицензия на Exchange Online.
+  - Для вашей учетной записи Microsoft Team комнат требуется лицензия Skype для бизнеса Online (план 2) или Skype для бизнеса Online (план 3), но для нее не требуется лицензия на Exchange Online.
 
 - Назначьте лицензию Skype для бизнеса Server учетной записи комнат Microsoft Teams.
 
@@ -144,9 +144,9 @@ Skype для бизнеса Online PowerShell используется для у
 
 2. Получите SIP Address для учетной записи:
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. Чтобы включить учетную запись комнаты Microsoft Teams, выполните следующую команду:
 

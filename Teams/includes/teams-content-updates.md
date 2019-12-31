@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-november-18-2019"></a>Неделя 18 ноября 2019 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 11/18/2019 | [Информационные барьеры в Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Изменено |
-| 11/18/2019 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | Изменено |
-| 11/18/2019 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 11/18/2019 | [Начало работы с шаблонами Teams для организаций в сфере здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | Изменено |
-| 11/18/2019 | [Лицензии комнаты Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | Изменено |
-| 11/19/2019 | [Присутствие пользователей в Teams](/MicrosoftTeams/presence-admins) | Изменено |
-| 11/19/2019 | [Управление жизненным циклом частных каналов в Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | Изменено |
-| 11/19/2019 | [Лицензии комнаты Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | Изменено |
-| 11/19/2019 | [Настройка кредитов на связь для организации](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | Изменено |
-| 11/19/2019 | [Гостевой доступ в Microsoft Teams](/MicrosoftTeams/guest-access) | Изменено |
-| 11/19/2019 | [Управление параметрами собрания](/MicrosoftTeams/meeting-settings-in-teams) | Изменено |
-| 11/20/2019 | [Общение с пользователями из других организаций в Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | Изменено |
-| 11/20/2019 | [Управление параметрами Microsoft Teams в организации](/MicrosoftTeams/enable-features-office-365) | Изменено |
-| 11/20/2019 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 11/20/2019 | [Модели удостоверений и проверка подлинности в Microsoft Teams](/MicrosoftTeams/identify-models-authentication) | Изменено |
-| 11/20/2019 | [Функция Shared Line Appearance в Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | Изменено |
-| 11/21/2019 | [Поиск событий Microsoft Teams в журнале аудита](/MicrosoftTeams/audit-log-events) | Изменено |
-| 11/21/2019 | [Перенос данных из Slack в Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Изменено |
-| 11/21/2019 | [Использование планировщика сети для Microsoft Teams](/MicrosoftTeams/network-planner) | Изменено |
-| 11/21/2019 | [Политики хранения Microsoft Teams: вопросы и ответы](/MicrosoftTeams/retention-policies-faq) | Изменено |
-| 11/21/2019 | [Политики хранения в Microsoft Teams](/MicrosoftTeams/retention-policies) | Изменено |
-| 11/21/2019 | [Поддержка версий](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | Изменено |
-| 11/21/2019 | [Обзор команд и каналов в Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | Изменено |
-| 11/21/2019 | [Публикация приложений в каталоге приложений Microsoft Teams для клиентов](/MicrosoftTeams/tenant-apps-catalog-teams) | Изменено |
-| 11/22/2019 | [Знакомство с Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
-| 11/22/2019 | [Встроенные и настраиваемые вкладки в Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | Изменено |
-| 11/22/2019 | [Парковка и восстановление звонков в Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Изменено |
-| 11/22/2019 | [Создание очереди вызовов](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
-| 11/22/2019 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/device-management) | Изменено |
-| 11/22/2019 | [Работа с клиентами для Microsoft Teams](/MicrosoftTeams/get-clients) | Изменено |
-| 11/22/2019 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
-| 11/22/2019 | [Использование помощника для Teams (предварительная версия) для развертывания Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Изменено |
-| 11/22/2019 | [Управление доступом пользователей к Microsoft Teams](/MicrosoftTeams/user-access) | Изменено |
-
-
 ## <a name="week-of-november-25-2019"></a>Неделя с 25 ноября 2019 г.
 
 
@@ -55,7 +15,7 @@
 | 11/26/2019 | [Настройка динамических экстренных вызовов](/MicrosoftTeams/configure-dynamic-emergency-calling) | Изменено |
 | 11/26/2019 | [Настройка параметров сети для маршрутизации на основе расположения](/MicrosoftTeams/location-based-routing-configure-network-settings) | Изменено |
 | 11/26/2019 | [Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации](/MicrosoftTeams/location-based-routing-enable) | Изменено |
-| 11/26/2019 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | изменено |
+| 11/26/2019 | [Планирование маршрутизации на основе расположения для прямой маршрутизации](/MicrosoftTeams/location-based-routing-plan) | Изменено |
 | 11/26/2019 | Терминология маршрутизации на основе расположения | Удалено |
 | 11/26/2019 | [Управление политиками маршрутизации вызова экстренной помощи в Microsoft Teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
 | 11/26/2019 | [Управление политиками вызова экстренной помощи в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
@@ -91,7 +51,7 @@
 | 12/6/2019 | [Обучение администратора для работы с Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Изменено |
 | 12/6/2019 | [Знакомство с Microsoft Teams](/MicrosoftTeams/teams-overview) | Изменено |
 | 12/6/2019 | [Чат, команды, каналы и приложения в Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Изменено |
-| 12/6/2019 | [Обучение работе с Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | Изменено |
+| 12/6/2019 | [Обучение работе с Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | изменено |
 | 12/6/2019 | [Требования к комнатам Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | Изменено |
 | 12/6/2019 | [Teams для инфраструктуры виртуальных рабочих столов](/MicrosoftTeams/teams-for-vdi) | Изменено |
 
@@ -128,7 +88,7 @@
 | 12/12/2019 | [Управление политиками маршрутизации вызова экстренной помощи в Microsoft Teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | Изменено |
 | 12/12/2019 | [Управление политиками вызова экстренной помощи в Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Изменено |
 | 12/12/2019 | [Управление политиками обратной связи в Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Изменено |
-| 12/12/2019 | [Установка Microsoft Teams с помощью MSI (через SCCM)](/MicrosoftTeams/msi-deployment) | изменено |
+| 12/12/2019 | [Установка Microsoft Teams с помощью MSI (через SCCM)](/MicrosoftTeams/msi-deployment) | Изменено |
 | 12/12/2019 | [Метки чувствительности для Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Изменено |
 | 12/12/2019 | [Управление политиками настройки приложений в Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Изменено |
 | 12/12/2019 | [Управление политиками Teams в Microsoft Teams](/MicrosoftTeams/teams-policies) | Изменено |
@@ -172,4 +132,12 @@
 | 12/18/2019 | [Управление политиками собрания](/MicrosoftTeams/meeting-policies-in-teams) | Изменено |
 | 12/18/2019 | [Планирование развертываний Microsoft Office 365 для государственных организаций (GCC) — Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | Изменено |
 | 12/18/2019 | [Телефоны и устройства для групп](/MicrosoftTeams/teams-ip-phones) | Изменено |
-| 12/19/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Изменено |
+| 12/19/2019 | [Ограничения и спецификации для Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | изменено |
+
+
+## <a name="week-of-december-23-2019"></a>Неделя с 23 декабря 2019 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 12/27/2019 | [Что такое абонентские группы?](/MicrosoftTeams/what-are-dial-plans) | Изменено |
