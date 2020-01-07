@@ -1,6 +1,5 @@
 ---
 title: Страны и регионы, для которых доступны аудиоконференции и планы звонков
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Можно выбрать страну или регион, чтобы узнать о доступности для них аудиоконференций, телефонной системы, планов звонков, кредитов на связь, а также платных и бесплатных номеров телефонов.
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741393"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952442"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Страны и регионы, для которых доступны аудиоконференции и планы звонков
 
@@ -40,7 +39,7 @@ ms.locfileid: "40741393"
 
 > [!div class="op_single_selector"]
 > - [Алжир](availability-in-algeria.md)
-> - [Атнтигуа и Барбуда](availability-in-antigua-and-barbuda.md)
+> - [Антигуа и Барбуда](availability-in-antigua-and-barbuda.md)
 > - [Аргентина](availability-in-argentina.md)
 > - [Австралия](availability-in-australia.md)
 > - [Австрия](availability-in-austria.md)
@@ -51,14 +50,14 @@ ms.locfileid: "40741393"
 > - [Бельгия](availability-in-belgium.md)
 > - [Белиз](availability-in-belize.md)
 > - [Бенин](availability-in-benin.md)
-> - [Бермудские острова](availability-in-bermuda.md)
+> - [Бермуды](availability-in-bermuda.md)
 > - [Босния и Герцеговина](availability-in-bosniaherzegovina.md)
 > - [Бразилия](availability-in-brazil.md)
 > - [Бруней](availability-in-brunei.md)
 > - [Болгария](availability-in-bulgaria.md)
 > - [Камбоджа](availability-in-cambodia.md)
 > - [Канада](availability-in-canada.md)
-> - [Cayman Islands](availability-in-the-cayman-islands.md)
+> - [Острова Кайман](availability-in-the-cayman-islands.md)
 > - [Чили](availability-in-chile.md)
 > - [Китай](availability-in-china.md)
 > - [Колумбия](availability-in-colombia.md)
@@ -147,7 +146,7 @@ ms.locfileid: "40741393"
 > - [Венесуэла](availability-in-venezuela.md)
 > - [Вьетнам](availability-in-vietnam.md)
 
-**Если вы ищете электронную таблицу со всеми странами и областями, скачайте и сохраните [электронную таблицу доступности для страны или региона](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**.
+**Если вы ищете электронную таблицу со всеми странами и областями, скачайте и сохраните [электронную таблицу доступности для страны или региона](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**.
 
 ***
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
-ms.openlocfilehash: cd8cd966fddd69f0c1908cbcccecc00272df3ca7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef03d1d0d356c6432b2107dcd668e4b53e1b72cb
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569534"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952412"
 ---
 # <a name="availability-in-saudi-arabia"></a>Доступность в Саудовской Аравии
 
@@ -41,7 +41,7 @@ ms.locfileid: "37569534"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
@@ -66,9 +66,9 @@ ms.locfileid: "37569534"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?  <br/> | Рийадх ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|Доступны ли бесплатные номера?  <br/> |Да  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?  <br/> | рийадх  <br/> |
+|Доступны ли платные номера?  <br/> |Да  <br/> |
+|Доступны ли бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -76,7 +76,7 @@ ms.locfileid: "37569534"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
+|Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   
@@ -85,6 +85,3 @@ ms.locfileid: "37569534"
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Страны и регионы, для которых доступны аудиоконференции и планы звонков](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-  
- 

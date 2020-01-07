@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Посмотрите, какие проблемы имеют специальные символы в именах политик и что можно сделать для их исправления.
-ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568660"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952762"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Каковы ограничения для специальных знаков в политиках Teams?
 
@@ -40,7 +40,7 @@ ms.locfileid: "37568660"
 
 **Шаг 1: Создание удаленного подключения с помощью PowerShell.** 
  [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , если вы еще не сделали этого.
-```
+```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
@@ -53,7 +53,7 @@ ms.locfileid: "37568660"
 > [!NOTE]
 > Этот пример предназначен для политики [обмена сообщениями](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  Эти шаги будут одинаковыми для других типов политик, но необходимо использовать правильный командлет. 
 
-  ```
+  ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
@@ -64,11 +64,11 @@ ms.locfileid: "37568660"
 
 При выполнении этой команды будет создана новая политика, но вам потребуется добавить правильные параметры, просмотрев параметр [Set-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , а затем запустить его:
 
-  ```
+  ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
 **Шаг 4: назначение политики.**
- ```
+ ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 Дополнительные сведения об этом командлете: [Grant-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
@@ -76,14 +76,14 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
 **Шаг 5 — Удаление старой политики.**
 
 Старая политика будет удалена с использованием специальных символов.
-  ```
+  ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 Для получения дополнительных сведений о данном командлете, щелкните ссылку [Remove-кстеамсмессагингполици](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
 Если эта команда выполнена успешно, все готово. Если команда выше возвращает сообщение об ошибке, это связано с тем, что старая политика назначается пользователям, поэтому для удаления всех назначенных пользователей из политики необходимо выполнить указанные ниже действия.
 
-```
+```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Сведения по управлению с помощью Windows PowerShell

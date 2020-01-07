@@ -3,7 +3,7 @@ title: Доступность в Грузии
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: dda0070b-16ec-43ca-ac81-e390aea630d2
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Джорджия.
-ms.openlocfilehash: c6745aac2f50e16d973f925e0b0da59744af7324
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fa419a70674852e47e70bba2da5e922339b3dd33
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572915"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952782"
 ---
 # <a name="availability-in-georgia"></a>Доступность в Грузии
 
@@ -41,8 +41,8 @@ ms.locfileid: "37572915"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
-|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Да, для:<br/><ul><li> Тбилиси</ul>Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
 ## <a name="phone-system"></a>Телефонная система
@@ -76,7 +76,7 @@ ms.locfileid: "37572915"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
+|Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   

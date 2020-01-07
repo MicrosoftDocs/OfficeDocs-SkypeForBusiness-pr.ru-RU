@@ -31,12 +31,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: c8d460f4ad94adaccce9fb84b12e37ab5adc0cc6
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218036"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952752"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Развертывание комнат Microsoft Teams с помощью System Center Configuration Manager
 
@@ -299,7 +299,7 @@ Configuration Manager требует, чтобы файлы исходного �
 1.  В папке **пакета SRS v2-Set-срскомпутернаме** создайте новое HTML-приложение с именем **Сет-срскомпутернаме. hta** .
 
 2.  Скопируйте приведенный ниже сценарий в файл **Сет-срскомпутернаме. hta** . Кроме того, вы можете загрузить файл Сет-срскомпутернаме. hta [отсюда](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
-    ```
+    ```HTML
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -409,7 +409,7 @@ Configuration Manager требует, чтобы файлы исходного �
 1. В папке **пакета SRS v2 – Sysprep** создайте новый XML-файл с именем **Unattend. XML** .
 
 2. Скопируйте приведенный ниже текст в файл **Unattend. XML** . Кроме того, вы можете загрузить файл Unattend. XML [отсюда](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
-   ```
+   ```XML
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
    <settings pass="specialize">

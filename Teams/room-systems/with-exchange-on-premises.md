@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: В этой статье приведены сведения о том, как развертывать комнаты Microsoft Teams в гибридной среде с локальным сервером Exchange.
-ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 62840e0a28ee1eba2a9b5a94f976f169eab628da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910057"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952722"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Развертывание комнаты Microsoft Teams в локальной среде Exchange
 
@@ -71,7 +71,7 @@ ms.locfileid: "40910057"
 
 2. В Exchange PowerShell можно создать почтовый ящик для учетной записи (почтовый ящик — включение учетной записи), выполнив следующую команду:
 
-   ``` Powershell
+   ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "40910057"
 
    Этот пример настраивает эти параметры в почтовом ящике комнаты с именем Project-Рижел-01.
 
-   ``` PowerShell
+   ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 

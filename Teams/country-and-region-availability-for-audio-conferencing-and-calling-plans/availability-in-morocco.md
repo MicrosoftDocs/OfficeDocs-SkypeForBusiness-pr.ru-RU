@@ -3,7 +3,7 @@ title: Доступность в Марокко
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные в Марокко.
-ms.openlocfilehash: 0287bf37364e82227ed9fe7b459d889d1f1ae456
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ac89283080c66fbcf3d89541fff93e67750dbd34
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571044"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952422"
 ---
 # <a name="availability-in-morocco"></a>Доступность в Марокко
 
@@ -40,7 +40,7 @@ ms.locfileid: "37571044"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> | Требуются кредиты на связь <br/> |
    
@@ -65,8 +65,8 @@ ms.locfileid: "37571044"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Для каких столиц или крупных городов можно получить платные номера?   | Êàñàáëàíêà ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Доступны ли платные номера?  <br/> |Да ([по запросу](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Для каких столиц или крупных городов можно получить платные номера?   | Êàñàáëàíêà  <br/> |
+|Доступны ли платные номера?  <br/> |Да <br/> |
 |Доступны ли бесплатно бесплатные номера?  <br/> |Нет  <br/> |
    
  Если вы хотите получить платные и бесплатные телефонные номера для голосовой конференции, автосекретарей и очередей звонков, ознакомьтесь со статьей [получение служебных номеров для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -75,7 +75,7 @@ ms.locfileid: "37571044"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
+|Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   

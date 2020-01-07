@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 10027fa5b1456bd744f14bae763939b395862d4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2bee659567f3863b94fe97d408a78f40613d65df
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571297"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952472"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Настройка идентификатора абонента для пользователя
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -71,7 +71,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     
 4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
-    Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Запуск сеанса Windows PowerShell**
     
@@ -82,72 +82,72 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
    > [!NOTE]
    > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
    > 
-   ```
+   ```PowerShell
     Import-Module -Name SkypeOnlineConnector
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Просмотр всех настроек политики идентификатора абонента в организации
 
 - Чтобы просмотреть все параметры политики идентификации вызывающего абонента в Организации, выполните следующие действия:
 
-  ```
+  ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Get-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793856.aspx).
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Get-кскаллинглинеидентити](https://technet.microsoft.com/library/mt793856.aspx).
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Создание политики идентификатора абонента для организации
 
 
 - Чтобы создать политику идентификации вызывающего абонента, которая устанавливает анонимный идентификатор вызывающего абонента, выполните следующие действия:
     
-  ```
+  ```PowerShell
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
   > [!NOTE]  
   > Во всех случаях поле «Номер службы» не должно содержать начальный символ «+».
 
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [новых Возкскаллинглинеидентитих](https://technet.microsoft.com/en-us/library/mt793855.aspx).
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [новых Возкскаллинглинеидентитих](https://technet.microsoft.com/library/mt793855.aspx).
     
 - Чтобы применить новую политику, созданную для Иван мрамора, выполните указанные ниже действия.
     
-  ```
+  ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
+  Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx).
     
-Если вы уже создали политику, вы можете использовать командлет [Set-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793854.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793857.aspx) , чтобы применить параметры к вашим пользователям.
+Если вы уже создали политику, вы можете использовать командлет [Set-кскаллинглинеидентити](https://technet.microsoft.com/library/mt793854.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-кскаллинглинеидентити](https://technet.microsoft.com/library/mt793857.aspx) , чтобы применить параметры к вашим пользователям.
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Блокировка идентификатора входящего абонента
 
 - Чтобы заблокировать входящий идентификатор вызывающего абонента, выполните следующие действия:
     
-  ```
+  ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Set-кскаллинглинеидентити](https://technet.microsoft.com/en-us/library/mt793854.aspx).
+  Ознакомьтесь с дополнительными примерами и подробными сведениями о [Set-кскаллинглинеидентити](https://technet.microsoft.com/library/mt793854.aspx).
     
 - Чтобы применить параметр политики, созданный для пользователя в Организации, выполните следующие действия:
     
-  ```
+  ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793857.aspx).
+    Дополнительные сведения о командлете [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx).
     
 ### <a name="remove-a-caller-id-policy"></a>Удаление политики идентификатора абонента
 
 Чтобы удалить политику организации, запустите следующую команду:
   
-```
+```PowerShell
 Remove-CsCallingLineIdentity -Identity "My Caller ID Policy"
 ```
 Чтобы удалить политику пользователя, запустите следующую команду:
   
-```
+```PowerShell
 Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $null
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Хотите узнать больше о Windows PowerShell?

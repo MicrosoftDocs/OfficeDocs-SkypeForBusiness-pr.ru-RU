@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять жизненным циклом личных каналов в Организации.
-ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 263f25e283670b0ab8cc0337c0936eee23f43c61
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714485"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952892"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Управление жизненным циклом частных каналов в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "38714485"
 
 Администраторы могут использовать Graph API для управления тем, могут ли участники создавать закрытые каналы в конкретных командах. Ниже приведен пример.
 
-```
+```Graph API
 PATCH /teams/<team_id>
 {"memberSettings": 
   {
@@ -65,13 +65,13 @@ PATCH /teams/<team_id>
 
 ### <a name="using-powershell"></a>Использование PowerShell
 
-```
+```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>Использование Graph API
 
-```
+```Graph API
 POST /teams/{id}/channels
 { "membershipType": "Private",
   "displayName": "<Channel_Name>",
@@ -86,7 +86,7 @@ POST /teams/{id}/channels
 
 Для архивации и аудита может потребоваться просмотреть список всех сообщений и ответов, опубликованных в частном канале.  Ниже показано, как использовать Graph API.
 
-```
+```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 1. Установите [консоль управления SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) и подключитесь к ней с помощью учетной записи администратора.
 2. Запустите следующую команду, где &lt;Group_id&gt; — идентификатор группы. (Идентификатор группы можно легко найти в ссылке на команду.)
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
@@ -118,13 +118,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **Запрос**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Response (Ответ)**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -148,13 +148,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **Запрос**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Response (Ответ)**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -187,13 +187,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **Запрос**
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
     ```
     
     **Response (Ответ)**
 
-    ```
+    ```PowerShell
     HTTP/1.1 200 OK Content-type: application/json
     Content-length:
     {
@@ -213,7 +213,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 3. Повышение роли участника до владельца.
 
-    ```
+    ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
@@ -225,13 +225,13 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **Запрос**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
     **Response (Ответ)**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
@@ -261,7 +261,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **Запрос**
 
-    ```
+    ```Graph API
     PATCH 
     https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
       
@@ -273,7 +273,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     **Response (Ответ)**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
 
@@ -301,26 +301,26 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 2. Начните новый экземпляр модуля Windows PowerShell.
 3. Выполните указанные ниже действия, чтобы удалить модуль PowerShell Teams из общедоступной галереи PowerShell.
 
-    ```
+    ```PowerShell
     Uninstall-Module -Name MicrosoftTeams
     ```
 
 4. Закройте все существующие сеансы PowerShell.
 5. Запустите модуль Windows PowerShell еще раз, а затем выполните указанные ниже действия, чтобы зарегистрировать библиотеку тестов PowerShell в качестве надежного источника.
 
-    ```
+    ```PowerShell
     Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
     ```
 
 6. Выполните указанные ниже действия, чтобы установить последнюю версию модуля PowerShell для Teams из коллекции тестов PowerShell.
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
 7. Выполните указанные ниже действия, чтобы убедиться в том, что новейшая версия модуля Teams PowerShell из коллекции тестов PowerShell успешно установлена.
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
@@ -332,17 +332,17 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 2. Начните новый экземпляр модуля Windows PowerShell.
 3. Выполните указанные ниже действия, чтобы обновить текущую установленную версию модуля PowerShell Teams из коллекции тестов PowerShell.
 
-    ```
+    ```PowerShell
     Update-Module -Name MicrosoftTeams -Force
     ```
 
 4. Выполните указанные ниже действия, чтобы убедиться в том, что новейшая версия модуля Teams PowerShell из коллекции тестов PowerShell успешно установлена.
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)
 - [Использование API Microsoft Graph для работы с Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)

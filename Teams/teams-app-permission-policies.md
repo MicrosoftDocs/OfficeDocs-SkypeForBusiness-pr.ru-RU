@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
-ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
+ms.openlocfilehash: bc541b3b1bc7c7aba723d7573224679b5900a550
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39984539"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952832"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -121,15 +121,15 @@ ms.locfileid: "39984539"
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить Граупобжектид определенной группы.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 Получение участников указанной группы.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Назначьте всем пользователям в группе определенную политику разрешений приложения. В этом примере это политика разрешений на управление персоналом.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.

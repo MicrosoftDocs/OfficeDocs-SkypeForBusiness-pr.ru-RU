@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: В этой статье рассказывается, как развернуть управление устройствами в Microsoft Teams с помощью монитора Azure.
-ms.openlocfilehash: a7a71fa9fa87bd8cfb424234d6ffcedf46039115
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: e428b54f1a91c8443000dafa3270d2283dc1d029
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218046"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952792"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Управление :::no-loc text="Microsoft Teams Rooms"::: развертыванием с помощью:::no-loc text="Azure Monitor":::
 
@@ -449,7 +449,7 @@ ms.locfileid: "39218046"
 
 7.  :::no-loc text="Microsoft Teams Rooms":::устройства должны устанавливать и настраивать :::no-loc text="Microsoft Monitoring"::: агент со второй перезагрузкой.
 
-```
+```PowerShell
 # Install-MMAgent.ps1
 <#
 Date:        04/20/2018

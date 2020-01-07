@@ -3,7 +3,7 @@ title: Доступность в Молдове
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 9143517690dc1c06ff4d2fd16d36ca57ce245e11
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f59b511498f43e459f9d5d9b920b852f8af4d5e9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571066"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952432"
 ---
 # <a name="availability-in-moldova"></a>Доступность в Молдове
 
@@ -40,7 +40,7 @@ ms.locfileid: "37571066"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступно ли приобретение аудиоконференций?  <br/> |Нет  <br/> |
+|Доступно ли приобретение аудиоконференций?  <br/> |Да, [Оплата за минуту](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Назначаются ли номера телефонов для аудиоконференций автоматически?  <br/> |Нет  <br/> |
 |Возможность получить обратный звонок с функцией "Звонок на мой номер"  <br/> |Требуются кредиты на связь  <br/> |
    
@@ -75,7 +75,7 @@ ms.locfileid: "37571066"
 
 |**Функция**|**Сведения**|
 |:-----|:-----|
-|Доступны ли кредиты на связь?  <br/> |Нет  <br/> |
+|Доступны ли кредиты на связь?  <br/> |Да  <br/> |
    
 Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).
   

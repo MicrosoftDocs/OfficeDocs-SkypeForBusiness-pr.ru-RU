@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: В этой статье описано, как настроить консоль Microsoft Teams и ее периферийные устройства.
-ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 2c88dc5ba754e907ab32b41ea1731dc6f367d5a9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665442"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952742"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Настройка консоли Microsoft Teams
 
@@ -133,7 +133,7 @@ ms.locfileid: "39665442"
 11. Запустите командную строку с повышенными привилегиями.
     
 12. Выполните следующую команду.  
-    ```
+    ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
@@ -190,7 +190,7 @@ ms.locfileid: "39665442"
     
 3. Выполните следующую команду.
     
-   ```
+   ```PowerShell
    certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
    ```
 
@@ -207,13 +207,13 @@ ms.locfileid: "39665442"
     
 3. Введите следующую команду в PowerShell:
     
-   ```
+   ```PowerShell
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
 Например, если полное доменное имя — redmond.corp.microsoft.com и вы хотите, чтобы консоли Microsoft Teams могли находиться в подразделении "ресурсы Microsoft Teams", который является дочерним элементом для OU "Resources", команда будет:
   
-```
+```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 

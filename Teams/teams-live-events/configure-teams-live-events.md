@@ -16,12 +16,12 @@ description: Сведения о том, как управлять параме�
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6ad9d97c6d4dd6b7eb370bda026dbee3e33f2a32
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570194"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952842"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "37570194"
 
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
 Выполните следующее:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
 Дополнительные сведения можно найти в разделе [Set-кстеамсмитингброадкастконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
@@ -68,11 +68,11 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 Получите идентификатор лицензии или токен API и шаблон API из контакта поставщика, а затем выполните одно из указанных ниже действий в зависимости от используемого поставщика.
 
 **Куст** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 **коллективе** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 Дополнительные сведения можно найти в разделе [Set-кстеамсмитингброадкастконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
@@ -80,7 +80,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 > [!NOTE]
 > Если вы планируете создавать события Live с помощью внешнего приложения или устройства, вам также потребуется [настроить поставщик екдн с помощью Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
 - [Планирование прямых трансляций Teams](plan-for-teams-live-events.md)
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)

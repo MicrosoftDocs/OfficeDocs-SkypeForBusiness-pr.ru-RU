@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 4e1c554d5ae21d845fed9a543875feb631e0e264
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842481"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952732"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -32,7 +32,7 @@ ms.locfileid: "39842481"
 
 Для сбора журналов необходимо вызвать сценарий сбора журналов, который поставляется с приложением Microsoft Teams комнаты. В режиме администрирования запустите командную строку с повышенными привилегиями и выполните следующую команду.
   
-```
+```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
@@ -116,7 +116,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
     
 Получение подключенных устройств
   
-```
+```PowerShell
 invoke-command {Write-Host "VIDEO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Image"} | Format-Table Name,Status,Present; Write-Host "AUDIO DEVICES:" 
 gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Media"} | Format-Table Name,Status,Present; Write-Host "DISPLAY DEVICES:" 
@@ -125,26 +125,26 @@ gwmi -Class Win32_PnPEntity | where {$_.PNPClass -eq "Monitor"} | Format-Table N
 
 получение состояния приложений;
   
-```
+```PowerShell
 invoke-command { $package = get-appxpackage -User Skype -Name Microsoft.SkypeRoomSystem; if ($package -eq $null) {Write-host "SkypeRoomSystems not installed."} else {write-host "SkypeRoomSystem Version : " $package.Version}; $process = Get-Process -Name "Microsoft.SkypeRoomSystem" -ErrorAction SilentlyContinue; if ($process -eq $null) {write-host "App not running."} else {$process | format-list StartTime,Responding}}  -ComputerName <Device fqdn>
 ```
 
 получение сведений о системе;
   
-```
+```PowerShell
 invoke-command {gwmi -Class Win32_ComputerSystem | Format-List PartOfDomain,Domain,Workgroup,Manufacturer,Model
 gwmi -Class Win32_Bios | Format-List SerialNumber,SMBIOSBIOSVersion} -ComputerName <Device fqdn>
 ```
 
 перезагрузка системы;
   
-```
+```PowerShell
 invoke-command { Shutdown /r /t 0 } -ComputerName <Device fqdn>
 ```
 
 получение журналов.
   
-```
+```PowerShell
 $targetDevice = "<Device fqdn> "
 $logFile = invoke-command {$output = Powershell.exe -ExecutionPolicy Bypass -File C:\Rigel\x64\Scripts\Provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 Get-ChildItem -Path C:\Rigel\*.zip | Sort-Object -Descending -Property LastWriteTime | Select-Object -First 1} -ComputerName $targetDevice
@@ -154,7 +154,7 @@ Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-
 
 Отправка XML-файла конфигурации (или рисунка темы)
   
-```
+```XML
 $movefile = "<path>";
 $targetDevice = "\\<Device fqdn> \Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState\SkypeSettings.xml"; 
 Copy-Item $movefile $targetDevice 
@@ -174,7 +174,7 @@ Copy-Item $movefile $targetDevice
 1. Извлеките пакет из [MSI](https://go.microsoft.com/fwlink/?linkid=851168) -файла установки в папку, к которой можно получить доступ на устройстве.
 2. Запустите следующий сценарий, нацеленный на устройства Microsoft Teams комнаты, \<и\> измените его на общий доступ к устройствам.
     
-```
+```PowerShell
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
 ```
 
