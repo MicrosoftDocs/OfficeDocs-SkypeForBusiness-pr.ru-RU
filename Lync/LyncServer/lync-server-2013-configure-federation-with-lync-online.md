@@ -10,12 +10,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d690b21614ec416d82834761772cee05ee16f26e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee7cf175e2ca46a54f3c6505fe5f94b69120763
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841369"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +23,7 @@ ms.locfileid: "34841369"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a><span data-ttu-id="f1a9f-102">Настройка Федерации Lync Server 2013 с помощью Lync Online</span><span class="sxs-lookup"><span data-stu-id="f1a9f-102">Configure federation of Lync Server 2013 with Lync Online</span></span>
+# <a name="configure-federation-of-lync-server-2013-with-lync-online"></a><span data-ttu-id="89a3c-102">Настройка Федерации Lync Server 2013 с помощью Lync Online</span><span class="sxs-lookup"><span data-stu-id="89a3c-102">Configure federation of Lync Server 2013 with Lync Online</span></span>
 
 </div>
 
@@ -33,23 +33,23 @@ ms.locfileid: "34841369"
 
 <span> </span>
 
-<span data-ttu-id="f1a9f-103">_**Тема последнего изменения:** 2016-08-15_</span><span class="sxs-lookup"><span data-stu-id="f1a9f-103">_**Topic Last Modified:** 2016-08-15_</span></span>
+<span data-ttu-id="89a3c-103">_**Тема последнего изменения:** 2016-08-15_</span><span class="sxs-lookup"><span data-stu-id="89a3c-103">_**Topic Last Modified:** 2016-08-15_</span></span>
 
-<span data-ttu-id="f1a9f-104">Выполните действия, описанные в этом разделе, чтобы настроить взаимодействие между локальным развертыванием и Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="f1a9f-104">Follow the steps in this section to configure interoperability between your on-premises deployment and Skype for Business Online.</span></span>
+<span data-ttu-id="89a3c-104">Выполните действия, описанные в этом разделе, чтобы настроить взаимодействие между локальным развертыванием и Skype для бизнеса Online.</span><span class="sxs-lookup"><span data-stu-id="89a3c-104">Follow the steps in this section to configure interoperability between your on-premises deployment and Skype for Business Online.</span></span>
 
 <span id="a"></span>
 
 <div>
 
-## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a><span data-ttu-id="f1a9f-105">Настройка локальной службы Edge для Федерации с помощью Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="f1a9f-105">Configure Your On-Premises Edge Service for Federation with Skype for Business Online</span></span>
+## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a><span data-ttu-id="89a3c-105">Настройка локальной службы Edge для Федерации с помощью Skype для бизнеса Online</span><span class="sxs-lookup"><span data-stu-id="89a3c-105">Configure Your On-Premises Edge Service for Federation with Skype for Business Online</span></span>
 
-<span data-ttu-id="f1a9f-106">Благодаря интеграции пользователи в локальном развертывании могут взаимодействовать с пользователями Office 365 в Организации.</span><span class="sxs-lookup"><span data-stu-id="f1a9f-106">Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization.</span></span> <span data-ttu-id="f1a9f-107">Чтобы настроить федерацию, выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="f1a9f-107">To configure federation, run the following cmdlets:</span></span>
+<span data-ttu-id="89a3c-106">Благодаря интеграции пользователи в локальном развертывании могут взаимодействовать с пользователями Office 365 в Организации.</span><span class="sxs-lookup"><span data-stu-id="89a3c-106">Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization.</span></span> <span data-ttu-id="89a3c-107">Чтобы настроить федерацию, выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="89a3c-107">To configure federation, run the following cmdlets:</span></span>
 
-   ```
+   ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
    ```
 
-   ```
+   ```powershell
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
    ```
 
@@ -59,48 +59,48 @@ ms.locfileid: "34841369"
 
 <div>
 
-## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a><span data-ttu-id="f1a9f-108">Настройка клиента Skype для бизнеса Online для общего адресного пространства SIP</span><span class="sxs-lookup"><span data-stu-id="f1a9f-108">Configure Your Skype for Business Online Tenant for a Shared SIP Address Space</span></span>
+## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a><span data-ttu-id="89a3c-108">Настройка клиента Skype для бизнеса Online для общего адресного пространства SIP</span><span class="sxs-lookup"><span data-stu-id="89a3c-108">Configure Your Skype for Business Online Tenant for a Shared SIP Address Space</span></span>
 
-<span data-ttu-id="f1a9f-109">Адрес по протоколу SIP – это уникальный идентификатор каждого пользователя в сети, подобный номеру телефона или адресу электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f1a9f-109">A Session Initiation Protocol (SIP) address is a unique identifier for each user on a network, similar to a phone number or an email address.</span></span> <span data-ttu-id="f1a9f-110">Прежде чем приступить к перемещению пользователей Lync из локальной сети в Skype для бизнеса Online, необходимо настроить клиент Office 365 таким же, чтобы он предоставил доступ к адресному пространству SIP с локальным развертыванием.</span><span class="sxs-lookup"><span data-stu-id="f1a9f-110">Before you try to move Lync users from on-premises to Skype for Business Online, you’ll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment.</span></span> <span data-ttu-id="f1a9f-111">Если оно не настроено, может отображаться следующее сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="f1a9f-111">If this is not configured, you may see the following error message:</span></span>
+<span data-ttu-id="89a3c-109">Адрес по протоколу SIP – это уникальный идентификатор каждого пользователя в сети, подобный номеру телефона или адресу электронной почты.</span><span class="sxs-lookup"><span data-stu-id="89a3c-109">A Session Initiation Protocol (SIP) address is a unique identifier for each user on a network, similar to a phone number or an email address.</span></span> <span data-ttu-id="89a3c-110">Прежде чем приступить к перемещению пользователей Lync из локальной сети в Skype для бизнеса Online, необходимо настроить клиент Office 365 таким же, чтобы он предоставил доступ к адресному пространству SIP с локальным развертыванием.</span><span class="sxs-lookup"><span data-stu-id="89a3c-110">Before you try to move Lync users from on-premises to Skype for Business Online, you’ll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment.</span></span> <span data-ttu-id="89a3c-111">Если оно не настроено, может отображаться следующее сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="89a3c-111">If this is not configured, you may see the following error message:</span></span>
 
-<span data-ttu-id="f1a9f-112">Move-CsUser : HostedMigration fault: Error=(510), Description=(Клиентскому приложению этого пользователя не разрешено обращение к общему адресному пространству SIP.)</span><span class="sxs-lookup"><span data-stu-id="f1a9f-112">Move-CsUser : HostedMigration fault: Error=(510), Description=(This user’s tenant is not enabled for shared sip address space.)</span></span>
+<span data-ttu-id="89a3c-112">Move-CsUser : HostedMigration fault: Error=(510), Description=(Клиентскому приложению этого пользователя не разрешено обращение к общему адресному пространству SIP.)</span><span class="sxs-lookup"><span data-stu-id="89a3c-112">Move-CsUser : HostedMigration fault: Error=(510), Description=(This user’s tenant is not enabled for shared sip address space.)</span></span>
 
-<span data-ttu-id="f1a9f-113">Чтобы настроить общее адресное пространство SIP, установите удаленный сеанс PowerShell в Skype для бизнеса Online, а затем выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="f1a9f-113">To configure a shared SIP address space, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:</span></span>
+<span data-ttu-id="89a3c-113">Чтобы настроить общее адресное пространство SIP, установите удаленный сеанс PowerShell в Skype для бизнеса Online, а затем выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="89a3c-113">To configure a shared SIP address space, establish a remote PowerShell session with Skype for Business Online, and then run the following cmdlet:</span></span>
+```powershell
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
+<span data-ttu-id="89a3c-114">Чтобы установить удаленный сеанс PowerShell в Skype для бизнеса Online, необходимо сначала установить модуль Skype для бизнеса Online для Windows PowerShell, который вы можете найти ниже [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span><span class="sxs-lookup"><span data-stu-id="89a3c-114">To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
 
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+<span data-ttu-id="89a3c-115">После установки модуля можно запустить удаленный сеанс с помощью следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="89a3c-115">After you install the module, you can establish a remote session with the following cmdlets:</span></span>
 
-<span data-ttu-id="f1a9f-114">Чтобы установить удаленный сеанс PowerShell в Skype для бизнеса Online, необходимо сначала установить модуль Skype для бизнеса Online для Windows PowerShell, который вы можете найти ниже [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span><span class="sxs-lookup"><span data-stu-id="f1a9f-114">To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online module for Windows PowerShell, which you can get here: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).</span></span>
-
-<span data-ttu-id="f1a9f-115">После установки модуля можно запустить удаленный сеанс с помощью следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="f1a9f-115">After you install the module, you can establish a remote session with the following cmdlets:</span></span>
-
-   ```
+   ```powershell
     Import-Module LyncOnlineConnector
    ```
 
-   ```
+   ```powershell
     $cred = Get-Credential
    ``` 
 
-   ```
+   ```powershell
     $CSSession = New-CsOnlineSession -Credential $cred
    ```
 
-   ```
+   ```powershell
     Import-PSSession $CSSession -AllowClobber
    ```
 
-<span data-ttu-id="f1a9f-116">Дополнительные сведения о том, как установить удаленный сеанс PowerShell в Skype для бизнеса Online, можно найти [в разделе Подключение к Skype для бизнеса Online с помощью Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="f1a9f-116">For more information about how to establish a remote PowerShell session with Skype for Business Online, see [Connecting to Skype for Business Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+<span data-ttu-id="89a3c-116">Дополнительные сведения о том, как установить удаленный сеанс PowerShell в Skype для бизнеса Online, можно найти [в разделе Подключение к Skype для бизнеса Online с помощью Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="89a3c-116">For more information about how to establish a remote PowerShell session with Skype for Business Online, see [Connecting to Skype for Business Online by using Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
-<span data-ttu-id="f1a9f-117">Дополнительные сведения об использовании модуля PowerShell Skype для бизнеса Online можно найти в разделе [Использование Windows PowerShell для управления Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="f1a9f-117">For more information about using the Skype for Business Online PowerShell module, see [Using Windows PowerShell to manage Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
+<span data-ttu-id="89a3c-117">Дополнительные сведения об использовании модуля PowerShell Skype для бизнеса Online можно найти в разделе [Использование Windows PowerShell для управления Skype для бизнеса Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span><span class="sxs-lookup"><span data-stu-id="89a3c-117">For more information about using the Skype for Business Online PowerShell module, see [Using Windows PowerShell to manage Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f1a9f-118">См. также</span><span class="sxs-lookup"><span data-stu-id="f1a9f-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="89a3c-118">См. также</span><span class="sxs-lookup"><span data-stu-id="89a3c-118">See Also</span></span>
 
 
-[<span data-ttu-id="f1a9f-119">New-Кшостингпровидер</span><span class="sxs-lookup"><span data-stu-id="f1a9f-119">New-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)  
+[<span data-ttu-id="89a3c-119">New-Кшостингпровидер</span><span class="sxs-lookup"><span data-stu-id="89a3c-119">New-CsHostingProvider</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider)  
   
 
 </div>
