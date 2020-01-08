@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'В статье Skype для бизнеса Online вы можете назначать лицензии для конференц-связи с телефонным подключением и ИДЕНТИФИКАТОРом конференции для пользователя и многих других параметров конференц-связи с телефонным подключением. '
-ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f5597ae2b857569b7890d81577e4fd4252da5106
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792321"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962707"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Управление параметрами аудиоконференций организации в Skype для бизнеса Online
 
@@ -38,7 +38,7 @@ ms.locfileid: "35792321"
 ## <a name="assign-an-audio-conferencing-license"></a>Назначение лицензии на аудиоконференцию
 
 > [!NOTE]
-> Вы не можете назначать лицензии с помощью **центра администрирования Skype для бизнеса**. Необходимо использовать центр администрирования Microsoft 365. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Вы не можете назначать лицензии с помощью **центра администрирования Skype для бизнеса**. Необходимо использовать центр администрирования Microsoft 365. Смотрите раздел [Назначение лицензий Skype для бизнеса](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Назначение лицензии для пользователя**
 
@@ -58,7 +58,7 @@ ms.locfileid: "35792321"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Включение и отключение электронных писем, отправляемых пользователям голосовой конференции
 
-![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
 
@@ -79,7 +79,7 @@ ms.locfileid: "35792321"
 
 - You can also use the Windows PowerShell and run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
@@ -97,7 +97,7 @@ You can make changes to the email that is automatically sent to your users, incl
 
 Если вы хотите изменить адрес электронной почты, вам нужно убедиться, что политика входящих сообщений организации позволяет получать письма, отправленные с настроенного адреса электронной почты.
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -178,7 +178,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
+3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста** **видеоконференций** > Microsoft.
 
 4. В разделе **Присоединение к собранию**выберите указанные ниже действия.
 
@@ -190,7 +190,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 5. См. статью **Изменение параметров моста аудиоконференций**.
     
-Ознакомьтесь [с разрешениями изменение параметров для моста](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)видеоконференций.
+Ознакомьтесь [с разрешениями изменение параметров для моста видеоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
   
  **Установка длины ПИН-кода для собраний**
 
@@ -198,13 +198,13 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
+3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста** **видеоконференций** > Microsoft.
 
 4. В разделе **Безопасность**введите нужное количество цифр для ПИН-кода в списке **длина ПИН** -кода и нажмите кнопку **сохранить**.
 
     The PIN must be between 4 and 12 digits. The default is 5.
     
-Ознакомьтесь [с разрешениями изменение параметров для моста](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)видеоконференций.
+Ознакомьтесь [с разрешениями изменение параметров для моста видеоконференций](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
   
  **Включение и отключение отправки электронной почты пользователям с аудио**
 
@@ -229,7 +229,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
 
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева выберите пункт "звуковые **конференции**", а затем — **Microsoft Bridge**.
+3. В **центре администрирования Skype для бизнеса**на панели навигации слева выберите пункт " **звуковые конференции**", а затем — **Microsoft Bridge**.
 
 4. Выберите номер телефона в списке, нажмите кнопку **задать языки** на панели действий, а затем на странице Set Languages ( **настроить языки** ) нажмите кнопку использовать **основной язык** , чтобы просмотреть полный список поддерживаемых языков.
 
@@ -274,42 +274,42 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 Ниже указаны параметры на уровне Организации.
 
 - **Настройка уведомлений о входе и выходе** Значением по умолчанию является _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
   ```
 
 - **Настройка записи имени** Значением по умолчанию является _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
 - **Настройка длины ПИН-кода** Значение по умолчанию равно 5.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
 - **Настройка с телефона только для собраний с телефонным подключением** Значением по умолчанию является _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
 - **Настройки отправки сообщений пользователям** Значением по умолчанию является _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
 - **Настройка отправки сообщений с другой учетной записи** Значением по умолчанию является _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
 - **Настройка адреса отправителя в сообщениях, отправляемых пользователям** Значением по умолчанию является _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
 - **Настройка имени, отображаемого в сообщениях, отправляемых пользователям** Значением по умолчанию является _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
@@ -320,7 +320,7 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования, например при изменении параметров для нескольких пользователей одновременно. Learn about these advantages in the following topics:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности с помощью центра администрирования, например при изменении параметров для нескольких пользователей одновременно. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
 
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -330,7 +330,7 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 
     Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Управление настройками аудиоконференции для пользователя](manage-the-audio-conferencing-settings-for-a-user.md)
 

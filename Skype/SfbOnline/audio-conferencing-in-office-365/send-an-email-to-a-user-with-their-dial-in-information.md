@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Отправляйте своим пользователям сообщения электронной почты с информацией для участия в аудиоконференциях в Skype для бизнеса Online.
-ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 08e1f67f042d9497854f6d96643ff41e9bf528ed
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792271"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962577"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Отправка электронного письма пользователю со сведениями о голосовой конференции в Skype для бизнеса Online
 
@@ -63,7 +63,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
 4. На панели действий щелкните **Отправить информацию о конференции по электронной почте**.
     
 > [!TIP]
-> Кроме того, вы можете отправлять электронную почту пользователю с помощью параметров конференц-связи, изменив свойства пользователя и **** > выбрав команду**отправить сведения о конференции по электронной почте**. 
+> Кроме того, вы можете отправлять электронную почту пользователю с помощью параметров конференц-связи, изменив свойства пользователя и **выбрав команду** > **отправить сведения о конференции по электронной почте**. 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Что еще необходимо знать о таких сообщениях?
 
@@ -100,7 +100,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     
     Чтобы отправить пользователю сообщение электронной почты со сведениями о голосовой конференции, выполните указанные ниже действия.
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
@@ -110,7 +110,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics: 
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Ознакомьтесь с этими преимуществами в указанных ниже разделах. 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -121,6 +121,6 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

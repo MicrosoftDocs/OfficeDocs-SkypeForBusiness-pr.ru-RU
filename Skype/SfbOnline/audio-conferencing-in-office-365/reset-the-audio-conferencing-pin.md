@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте о том, что нужно знать о контактах и о том, как сбросить их в Skype для бизнеса Online. '
-ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792281"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962697"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Сброс ПИН-кода голосовой конференции в Skype для бизнеса Online
 
@@ -81,7 +81,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Чтобы задать ПИН-код для Amos Marble, выполните следующую команду:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
@@ -91,7 +91,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Learn about these advantages in the following topics:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -102,6 +102,6 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Сброс идентификатора конференции для пользователя](reset-a-conference-id-for-a-user.md)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010632"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963087"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Переход с Skype для бизнеса на Teams &mdash; для ИТ-администраторов
 
@@ -148,25 +148,25 @@ ms.locfileid: "38010632"
 
 В отличие от других политик, нельзя создавать новые экземпляры Теамсупградеполици в Office 365. Все существующие экземпляры встроены в службу.  (Обратите внимание, что Mode является свойством в Теамсупградеполици, а не именем экземпляра политики.) В некоторых случаях имя экземпляра политики является таким же, как и в случае с режимом. В частности, чтобы назначить пользователю режим Теамсонли, необходимо предоставить этому пользователю экземпляр "Упградетотеамс" Теамсупградеполици. Чтобы просмотреть список всех экземпляров, вы можете выполнить следующую команду:
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 Чтобы обновить пользователя Online до режима Теамсонли, назначьте экземпляр "Упградетотеамс": 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 Чтобы обновить локальный пользователь Skype для бизнеса до режима Теамсонли, воспользуйтесь функцией Move-CsUser в локальном наборе инструментов.
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 Чтобы изменить режим для всех пользователей в клиенте, за исключением тех, у которых есть явное разрешение пользователя (приоритет), выполните следующую команду:
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -185,13 +185,13 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 Если пользователи находятся в локальной среде Skype для бизнеса Server, вам потребуется использовать локальный набор инструментов, и вам понадобится Skype для бизнеса Server 2019 или обновления HF1 для Skype для бизнеса Server 2015. В локальном окне PowerShell создайте новый экземпляр Теамсупградеполици с Нотифисфбусерс = true:
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 Затем в том же локальном окне PowerShell Назначьте новую политику для нужных пользователей:
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -249,7 +249,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. Установите для уровня клиента по умолчанию режим Сфбвистеамсколлаб, как описано ниже.
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -257,13 +257,13 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    - Если пользователь уже подключен к сети:
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - Если пользователь является локальным:
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -290,7 +290,7 @@ Notes
 
 2. Для каждого активного пользователя Teams, найденного на этапе 1, назначьте режим "острова" в удаленной оболочке PowerShell. Это позволяет перейти к следующему этапу и гарантировать, что вы не измените пользовательский интерфейс.  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -298,7 +298,7 @@ Notes
 
 3. Установите для параметра политики на уровне клиента значение Сфбвистеамсколлаб:
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -306,13 +306,13 @@ Notes
 
    Для пользователей, размещенных в Skype для бизнеса Online:  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    Для пользователей, размещенных в локальной среде Skype для бизнеса Server, выполните указанные ниже действия.  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -438,7 +438,7 @@ Notes
 
 - Если существующему пользователю Теамсонли или Skype для бизнеса Online назначена лицензия на телефонную систему, по умолчанию для EV включена не задано значение "true".  Это происходит также в том случае, если локальный пользователь перемещается в облако до назначения лицензии на телефонную систему. В любом случае администратор должен указать следующий командлет: 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 

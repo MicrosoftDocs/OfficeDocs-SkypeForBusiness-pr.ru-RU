@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221512"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962887"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Переключение между пользовательскими интерфейсами клиентов Skype для бизнеса и Lync
 
@@ -43,7 +43,7 @@ ms.locfileid: "35221512"
 > [!IMPORTANT]
 > Параметр политики  _Global_ для переключения пользовательского интерфейса не применяется, если пользователь уже применил настраиваемую политику. Чтобы изменить пользовательский интерфейс, необходимо выполнить следующую команду для каждого пользователя, применившего настраиваемую политику:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -52,7 +52,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 Чтобы включить клиент Skype для бизнеса для всех пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
@@ -62,7 +62,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
   
 Чтобы включить клиент Skype для бизнеса (Lync) для всех пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду: 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -72,7 +72,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
   
 Чтобы включить клиент Skype для бизнеса для одного пользователя в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -82,7 +82,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 Чтобы включить клиент Skype для бизнеса (Lync) для одного пользователя в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -93,7 +93,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 Чтобы включить клиент Skype для бизнеса для нескольких пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -101,7 +101,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Чтобы включить клиент Skype для бизнеса (Lync) для нескольких пользователя в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -109,13 +109,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Чтобы включить клиент Skype для бизнеса для группы пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 Чтобы включить клиент Skype для бизнеса (Lync) для группы пользователей в вашей организации, откройте Remote PowerShell и введите следующую команду:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -172,7 +172,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
 ## <a name="first-launch-client-behaviors"></a>Режим работы клиента при первом запуске
 
-По умолчанию при первом запуске Skype для бизнеса они всегда будут видеть пользовательский интерфейс Skype для бизнеса, даже если вы выбрали клиент Lync, задав для политики клиента значение взаимодействие с клиентом Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`), как описано ниже. заранее. Через несколько минут пользователям будет предложено переключиться в режим Lync.
+По умолчанию при первом запуске Skype для бизнеса они всегда будут видеть пользовательский интерфейс Skype для бизнеса, даже если вы выбрали клиентскую политику для клиента Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) в соответствии с описанными выше возможностями. Через несколько минут пользователям будет предложено переключиться в режим Lync.
   
 Чтобы отобразить интерфейс Lync при первом запуске клиента Skype для бизнеса, выполните следующие действия до того, как клиент будет запущен в первый раз после обновления.
   
@@ -186,7 +186,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
     
     Строка должна выглядеть следующим образом:
     
-    [Программа\\\\HKEY_CURRENT_USER Microsoft\\Office\\Lync]
+    [\\HKEY_CURRENT_USERное\\программное обеспечение Microsoft\\Office\\Lync]
     
     "Каншарепптинколлаб" = DWORD: 00000001
     
@@ -214,7 +214,7 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
   
 В строке **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** создайте новое **значение DWORD (32-разрядное)**. **Имя значения** должно быть **TutorialFeatureEnabled**. Для **данных значения** задайте **0**.
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
