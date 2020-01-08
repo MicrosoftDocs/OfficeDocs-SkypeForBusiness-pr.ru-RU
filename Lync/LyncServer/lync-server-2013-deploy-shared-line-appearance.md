@@ -10,12 +10,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 708dc90d28944a050624e83af5f0c5fe48f6eeeb
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: da81073fc239822a682f926e1b782c8555153bf6
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221319"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -48,23 +48,23 @@ _**Тема последнего изменения:** 2016-06-13_
 1.  После того как Lync Server 2013, Накопительное обновление от апреля 2016 развернуто, приложение SLA по умолчанию отключено. Чтобы включить приложение, выполните указанные ниже действия.
     
     1.  Зарегистрировать SLA в качестве серверного приложения, запустив следующую команду для каждого пула:
-        
-            New-CsServerApplication -Identity
-                            'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-                            http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
-                            $true -Priority (Get-CsServerApplication -Identity
-                            'Service:Registrar:%FQDN%/UserServices').Priority 
-        
+        ```powershell
+        New-CsServerApplication -Identity
+                        'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
+                        http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
+                        $true -Priority (Get-CsServerApplication -Identity
+                        'Service:Registrar:%FQDN%/UserServices').Priority 
+        ```
         где %FQDN% — полное доменное имя пула.
     
     2.  Запустить следующую команду для обновления ролей RBAC для командлетов SLA:
-        
-            Update-CsAdminRole 
-    
+        ```powershell
+        Update-CsAdminRole 
+        ```
     3.  Перезагрузить все серверы переднего плана (служба RTCSRV) во всех пулах, в которых установлено и включено приложение SLA:
         
-        ``` 
-         Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
+        ```powershell 
+        Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
                         
         ```
 
@@ -75,21 +75,21 @@ _**Тема последнего изменения:** 2016-06-13_
 ## <a name="create-an-sla-group-and-add-users-to-it"></a>Создать группу SLA и добавить в нее пользователей
 
 1.  Создать группу SLA можно с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration):
-    
-        Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-                  -MaxNumberOfCalls <Number> -BusyOption
-                  <BusyOnBusy|Voicemail|Forward> [-Target
-                  <TargetUserOrPhoneNumber>]
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity <IdentityOfGroup>
+                -MaxNumberOfCalls <Number> -BusyOption
+                <BusyOnBusy|Voicemail|Forward> [-Target
+                <TargetUserOrPhoneNumber>]
+    ```
     Командлет Set-CsSlaConfiguration отмечает SLAGroup1 учетной записи корпоративной голосовой связи в качестве объекта SLA, а номер SLAGroup1 становится номером группы SLA. Все вызовы в SLAGroup1 будут направлены всей группе SLA.
     
     В следующем примере группа SLA создается для существующего пользователя корпоративной голосовой связи, SLAGroup1. Номер, назначенный для SLAGroup1, используется в качестве магистрального номера SLA.
     
     Команда устанавливает максимальное количество одновременных звонков для новой группы SLA: 3. Четвертый и последующие вызовы будут получать сигнал "занято".
-    
-        Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
-                  -BusyOption BusyOnBusy
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
+                -BusyOption BusyOnBusy
+    ```
     Set-CsSlaConfiguration можно использовать для создания новой группы SLA или изменения существующей.
     
     <div>
@@ -102,15 +102,15 @@ _**Тема последнего изменения:** 2016-06-13_
     </div>
 
 2.  Добавление делегатов в группы выполняется с помощью командлета [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates):
-    
-        Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-                  <NameOfDelegate@domain>
-    
+    ```powershell
+    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
+              <NameOfDelegate@domain>
+    ```
     The following example adds a user to the SLA group. Каждый пользователь, добавленный в группу, должен быть допустимым корпоративным пользователям с поддержкой голосовой связи:
-    
-        Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
-                  sip:SLA_Delegate1@contoso.com
-    
+    ```powershell
+    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
+              sip:SLA_Delegate1@contoso.com
+    ```
     Повторите командлет для каждого пользователя, которого необходимо добавить в группу. Пользователи могут принадлежать только одной группе SLA.
 
 </div>
@@ -120,15 +120,15 @@ _**Тема последнего изменения:** 2016-06-13_
 ## <a name="configure-the-sla-group-busy-option"></a>Настройка опции "Занято" для группы SLA
 
 1.  Настроить опцию "Занято" для группы SLA можно с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration):
-    
-        Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-                  -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity <IdentityOfGroup>
+              -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
+    ```
     В следующем примере настраивается переадресация вызовов, превышающих максимальное количество одновременных вызовов, на телефонный номер 202-555-1234. Конечный объект может быть пользователем в вашей организации вместо номера телефона; в этом случае синтаксис для абонента, получающего переадресованные звонки, такой же, как и при указании делегата `sip:<NameofDelegate@domain>`:. Другой возможный параметр `BusyOption` `Voicemail`:
-    
-        Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
-                  -Target tel:+2025551234]
-
+    ```powershell
+    Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
+              -Target tel:+2025551234]
+    ```
 </div>
 
 <div>
@@ -136,17 +136,17 @@ _**Тема последнего изменения:** 2016-06-13_
 ## <a name="configure-the-sla-group-missed-call-option"></a>Настройка опции "Пропущенный вызов" для группы SLA
 
 1.  Настроить опцию "Пропущенный вызов" для группы SLA можно с помощью командлета [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration):
-    
-        Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
-                  -MissedCallOption <Option> -MissedCallForwardTarget
-                  <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
+              -MissedCallOption <Option> -MissedCallForwardTarget
+              <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+    ```
     В следующем примере задается, что пропущенные звонки будут переадресованы пользователю `sla_forward_number`с именем. `-MissedCallOption` Допустимые параметры для параметра `Forward`:, `BusySignal`или. `Disconnect` Если выбрать `Forward`, необходимо также указать `-MissedCallForwardTarget` параметр, указав в качестве целевого номера пользователя или номер телефона.
-    
-        Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
-                  Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
-            -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
-
+    ```powershell
+    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
+              Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
+        -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
+    ```
 </div>
 
 <div>
@@ -154,15 +154,15 @@ _**Тема последнего изменения:** 2016-06-13_
 ## <a name="remove-a-delegate-from-a-group"></a>Удаление делегата из группы
 
 1.  Удалить делегата из группы можно с помощью командлета [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates):
-    
-        Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-                  <NameOfDelegate@domain>
-    
+    ```powershell
+    Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
+              <NameOfDelegate@domain>
+    ```
     Например:
-    
-        Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
-                  sip:SLA_Delegate3@contoso.com
-
+    ```powershell
+    Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
+              sip:SLA_Delegate3@contoso.com
+    ```
 </div>
 
 <div>
@@ -171,15 +171,15 @@ _**Тема последнего изменения:** 2016-06-13_
 
 1.  Удалить группу SLA можно с помощью командлета [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps).
     
-    ``` 
+    ```powershell
     Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
               
     ```
     
     Например:
-    
-        Remove-CsSlaConfiguration -Identity SLAGroup1 
-
+    ```powershell
+    Remove-CsSlaConfiguration -Identity SLAGroup1 
+    ```
 </div>
 
 </div>

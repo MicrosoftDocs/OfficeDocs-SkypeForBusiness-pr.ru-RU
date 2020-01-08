@@ -10,12 +10,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,15 +57,15 @@ _**Тема последнего изменения:** 2013-02-24_
     
 
     > [!WARNING]  
-    > Если для параметра безопасности задано значение " <STRONG>SIP secures</STRONG> ", для которого требуется шифрование только за трафик SIP, как было рекомендовано, обратите внимание на то, что этот параметр безопасности для абонентской группы недостаточен, если пул переднего плана настроен таким образом, что требуется шифрование. для пула требуется шифрование на трафиках SIP и RTP. Если параметры безопасности для абонентской группы и пула несовместимы, все звонки на Exchange UM из пула переднего плана будут завершаться сбоем, что приведет к ошибке, указывающей на то, что у вас есть несовместимый параметр безопасности.
+    > Если для параметра безопасности задано значение " <STRONG>SIP secures</STRONG> ", для которого требуется шифрование только за трафик SIP, как было рекомендовано, обратите внимание на то, что этот параметр безопасности для абонентской группы недостаточен, если для пула переднего плана задано шифрование, что означает, что для пула требуется шифрование для трафика SIP и RTP. Если параметры безопасности для абонентской группы и пула несовместимы, все звонки на Exchange UM из пула переднего плана будут завершаться сбоем, что приведет к ошибке, указывающей на то, что у вас есть несовместимый параметр безопасности.
 
     
     </div>
     
     Если вы используете консоль управления Exchange, введите:
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     Для получения дополнительных сведений см.:
     
       - В Office Communications Server 2007 вы можете ознакомиться с разрешениями "Создание абонентской группы SIP для единой [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) системы обмена сообщениями" и "New-Умдиалплан: [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)Exchange 2007".
@@ -85,7 +85,7 @@ _**Тема последнего изменения:** 2013-02-24_
 
 2.  Чтобы получить полное доменное имя (FQDN) для каждой абонентской группы единой системы обмена сообщениями, выполните следующий командлет:
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
@@ -103,7 +103,7 @@ _**Тема последнего изменения:** 2013-02-24_
     
 
     > [!NOTE]  
-    > Имена абонентской группы Lync Server должны совпадать с именами абонентских групп UM только в том случае, если абонентская группа UM <EM></EM> работает в более ранней версии Exchange, чем Exchange 2010 с пакетом обновления 1.
+    > Имена абонентской группы Lync Server должны совпадать с именами абонентских групп UM только в том случае, если абонентская группа UM работает в более <EM>ранней</EM> версии Exchange, чем Exchange 2010 с пакетом обновления 1.
 
     
     </div>
@@ -119,12 +119,12 @@ _**Тема последнего изменения:** 2013-02-24_
         Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".
     
       - Если вы используете командную консоль Exchange, выполните указанные ниже действия для каждого из серверов Exchange UM.
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -135,13 +135,13 @@ _**Тема последнего изменения:** 2013-02-24_
     </div>
 
 5.  Перейдите к \<разделу\>\\сценарии установки Exchange, а затем, если Exchange развернут в одном лесе, введите:
-    
-        exchucutil.ps1
-    
+    ```console
+    exchucutil.ps1
+    ```
     Если Exchange развернут в нескольких лесах, введите:
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     где полное доменное имя леса определяет лес, в котором развернут Lync Server.
     
     Если у вас есть одна или несколько абонентских групп UM, которые связаны с несколькими IP-шлюзами, перейдите к действию 6. Если абонентские группы связаны только с одним IP-шлюзом, пропустите шаг 6.
@@ -176,9 +176,9 @@ _**Тема последнего изменения:** 2013-02-24_
     </div>
     
       - Если вы используете консоль управления Exchange, отключите каждый шлюз IP, выполнив следующую команду:
-        
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
         Инструкции для Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)разделе "Set-Умипгатевай: Exchange 2007 Help".
         
         Инструкции для Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)разделе "Set-Умипгатевай: Exchange 2010 Help".
@@ -205,8 +205,9 @@ _**Тема последнего изменения:** 2013-02-24_
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     Для получения дополнительных сведений см.:
     
       - Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)статье "New-Умаутоаттендант: Exchange 2007".
@@ -226,8 +227,9 @@ _**Тема последнего изменения:** 2013-02-24_
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     Для получения дополнительных сведений см.:
     
       - Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)статье "Enable-Уммаилбокс: Exchange 2007 Help".

@@ -10,12 +10,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eef2e96b1e58bb9a92b2dc9748624d38f605965f
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834551"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,24 +69,24 @@ _**Тема последнего изменения:** 2013-12-03_
 2.  Создайте сертификаты для служб федерации Active Directory. Для получения дополнительных сведений ознакомьтесь с разделом "сертификаты серверов федерации" плана и развертывания AD FS для использования с темой единого входа [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
 
 3.  В интерфейсе командной строки Windows PowerShell выполните следующую команду:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Установите партнерство, выполнив следующую команду:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 5.  Настройте следующие правила проверяющей стороны:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 
@@ -101,9 +101,9 @@ _**Тема последнего изменения:** 2013-12-03_
 ## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a>На устройстве с приложением Lync из магазина не задана точная дата и время.
 
 Время, установленное на устройстве, должно быть синхронизировано с параметром Time (время) на сервере. Это особенно важно для устройств, таких как Microsoft Surface и других устройств под управлением Windows RT, которые не подключены к домену. Чтобы автоматически настроить время на этих устройствах с сервера времени, выполните в командной строке с повышенными привилегиями на устройстве следующую команду:
-
-    w32tm /resync
-
+```console
+w32tm /resync
+```
 </div>
 
 <div>
@@ -127,9 +127,9 @@ _**Тема последнего изменения:** 2013-12-03_
     1.  Откройте командную консоль Lync Server.
     
     2.  Выполните следующую команду.
-        
-            Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
-
+        ```powershell
+        Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
+        ```
 </div>
 
 <div>

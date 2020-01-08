@@ -10,12 +10,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c706f9fdd8932456a9f1617e55dc9231dbd6a84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb755f7e7b814d4ca643bd04ddfc0241b4d96d60
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841754"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +49,23 @@ _**Тема последнего изменения:** 2017-04-18_
 
 3.  В командной строке выполните следующие две команды:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
        ```          
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
     Например:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
        ```
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
@@ -73,15 +73,16 @@ _**Тема последнего изменения:** 2017-04-18_
     
 
     > [!NOTE]  
-    > Параметр UserAccount необходимо указать с помощью формата домен \ пользователь. Формат "пользовательский @ домен. расширение" не поддерживается для ссылок на объекты компьютера, созданные для проверки подлинности Kerberos.
+    > Параметр UserAccount необходимо указать с помощью формата домен \ пользователь. Формат User@Domain. расширение не поддерживается для ссылок на объекты компьютера, созданные для проверки подлинности Kerberos.
 
     
     </div>
 
 4.  **Необязательно**: возможно, вы настроили для своих веб-служб полное доменное имя (FQDN), как и в случае [изменения URL — в Lync Server 2013](lync-server-2013-change-the-web-services-url.md). В этом случае вам потребуется также добавить SPN для этого полного доменного имени. Например, если полное доменное имя — WebService. contoso. local, вы можете выполнить следующие действия:
     
-        setspn -S http/webservices.contoso.local kerbauth
-
+    ```console
+    setspn -S http/webservices.contoso.local kerbauth
+    ```
 5.     
     <div class="">
     

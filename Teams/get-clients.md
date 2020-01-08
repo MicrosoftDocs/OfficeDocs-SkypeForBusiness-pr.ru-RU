@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002243"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970977"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -144,9 +144,9 @@ ms.locfileid: "40002243"
 
 Для мобильных приложений Microsoft Teams поддерживаются следующие мобильные платформы:
 
--   **Android**: 5,0 или более поздней версии
+-   **Android**: поддержка ограничена последними основными версиями Android. Если выпущена новая старшая версия Android, официально поддерживаются новая версия и три предыдущие версии.
 
--   **iOS**: 10.0 или более поздней версии
+-   **iOS**: поддержка ограничена двумя последними основными версиями iOS. При выпуске новой основной версии iOS официально поддерживаются новая версия iOS и Предыдущая версия.
 
 > [!NOTE]
 > Мобильная версия должна быть общедоступной, чтобы приложение Teams работало правильно.

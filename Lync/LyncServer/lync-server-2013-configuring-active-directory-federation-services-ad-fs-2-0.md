@@ -10,12 +10,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924f9c1b6e7fe64186eeee6a34364417d497866b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a88fb9db7109bdd2a2938f8f9624b4fd0f369fd9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841295"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,13 +57,13 @@ _**Тема последнего изменения:** 2013-07-03_
 2.  Запустите Windows PowerShell.
 
 3.  Введите в командной строке Windows PowerShell следующую команду:
-    
-        add-pssnapin Microsoft.Adfs.PowerShell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.PowerShell
+    ```
 4.  Установите связь с каждым сервером Lync Server 2013 с накопительными обновлениями для Lync Server 2013: Июль 2013 режиссер, корпоративный пул и сервер Standard Edition, для которых будет включена пассивная проверка подлинности, выполнив указанную ниже команду, заменив имя сервера, относящееся к развертыванию.
-    
-        Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  Запустите консоль управления AD FS 2.0 в меню "Средства администрирования".
 
 6.  Разверните элемент \> **доверия проверяющей стороны** **отношений доверия** .
@@ -72,22 +72,22 @@ _**Тема последнего изменения:** 2013-07-03_
 
 8.  С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения авторизации:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
 9.  С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения преобразования:
     
-       ```
+       ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 

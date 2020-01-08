@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сведения о том, как перемещать пользователей в Skype для бизнеса Online.
-ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: ddf25614afae48ef647dc325e53ccbab8ac2e5d0
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715897"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963027"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Перемещение пользователей из локальной сети в Skype для бизнеса Online
 
@@ -31,21 +31,21 @@ ms.locfileid: "36715897"
  
 ## <a name="move-users-with-move-csuser"></a>Перемещение пользователей с помощью Move — CsUser 
 
-Move-CsUser доступен из локального окна PowerShell для командной консоли Skype для бизнеса. У вас должны быть достаточные права как в локальной среде, так и в клиенте Office 365, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Вы можете использовать одну учетную запись с правами в обеих средах или можно запустить локальное окно командной консоли Skype для бизнеса Server с локальными учетными данными и использовать `-Credential` параметр для указания учетных данных для Office 365 Учетная запись с необходимым административной ролью Office 365.
+Move-CsUser доступен из локального окна PowerShell для командной консоли Skype для бизнеса. У вас должны быть достаточные права как в локальной среде, так и в клиенте Office 365, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Можно использовать одну учетную запись с правами в обеих средах или можно запустить локальное окно командной консоли Skype для бизнеса Server с локальными учетными данными и использовать `-Credential` параметр для указания учетных данных для учетной записи Office 365 с необходимой административной ролью Office 365.
 
 Чтобы переместить пользователя в Интернет с помощью Move-CsUser:
 
 - Укажите пользователя для перемещения с помощью параметра Identity.
 - Укажите параметр-target со значением "sipfed. Online. Lync. <span>com ".
 - Если у вас нет одной учетной записи с достаточными разрешениями в локальной среде и Office 365, используйте параметр – Credential для предоставления учетной записи с достаточными разрешениями в Office 365.
-- Если учетная запись с разрешениями в Office 365 не заканчивается "on. Microsoft. <span>com ", то необходимо указать параметр-хостедмигратионоверридеурл с правильным значением, как описано в разделе обязательные [административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Если учетная запись с разрешениями в Office 365 не заканчивается "on. Microsoft. <span>com ", то необходимо указать параметр-хостедмигратионоверридеурл с правильным значением, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
  > [!NOTE]
  > Необходимо определить правильное значение Хостедмигратионоверридеурл для клиента. эту возможность можно легко выполнить, перейдя к устаревшему центру администрирования Skype для бизнеса. Определение префикса — XXXXXXX.online.lync.com и добавление/HostedMigration/hostedmigrationservice.svc. Пример: https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc после определения значения используйте его для переменной $URL, как показано ниже.
 
 Для перемещения пользователя в Skype для бизнеса Online можно использовать следующую последовательность командлетов, и предполагается, что учетные данные Office 365 являются отдельной учетной записью и предоставляются в качестве входных данных для приглашения Get-Credential.
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
@@ -62,9 +62,9 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 4. Выберите пользователей, а затем в раскрывающемся списке **действий** над списком выберите **переместить выбранных пользователей в Skype для бизнеса Online**.
 5. В мастере нажмите кнопку **Далее**.
 6. При появлении соответствующего запроса войдите в Office 365, используя учетную запись, которая оканчивается на. onmicrosoft.com и обладает достаточными разрешениями.
-7. Нажмите кнопку **Далее**, а **** затем еще раз, чтобы переместить пользователя.
+7. Нажмите кнопку **Далее**, а **затем еще раз,** чтобы переместить пользователя.
 8. Обратите внимание на то, что сообщения о состоянии Success или Failure представлены в верхней части главного приложения панели управления, а не в мастере.
 
 ## <a name="see-also"></a>См. также
 
-[Move — CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move — CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
