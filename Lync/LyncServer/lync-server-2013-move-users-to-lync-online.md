@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826663"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,15 +53,15 @@ _**Тема последнего изменения:** 2014-05-29_
 
 Чтобы переместить локального пользователя в клиент Lync Online, выполните в командной консоли Lync Server следующие командлеты с помощью учетных данных администратора для вашего клиента Microsoft Office 365. Замените "username@contoso.com" на информацию о перемещаемом пользователе.
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-Формат URL-адреса, заданный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, на котором запущена служба размещенной миграции, в следующем формате:\<HTTPS://FQDN\>Pool/хостедмигратион/ Хостедмигратионсервице. svc.
+Формат URL-адреса, заданный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, на котором запущена служба размещенной миграции, в следующем формате:\<HTTPS://FQDN\>Pool/хостедмигратион/хостедмигратионсервице.СВК.
 
 URL-адрес службы миграции с размещением можно определить по URL-адресу панели управления Lync Online для учетной записи клиента Office 365.
 

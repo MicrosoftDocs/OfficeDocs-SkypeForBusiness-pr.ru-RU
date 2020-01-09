@@ -10,12 +10,12 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0d58c79fcd66229ffda43fa60ab99cedc308ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 653becc1cc22abc8b3c04e0ab3d2a2d1260a98d9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849459"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -150,7 +150,7 @@ Test-Ксмккспушнотификатион: ответ 504 (время ож
 
 Сообщение "запрос push-уведомлений отвергнуто" обычно происходит, если включена фильтрация URL-адресов и вы блокируете префиксы http: и HTTPS:. Вы можете определить, какие префиксы блокируются, с помощью команды, подобной приведенной ниже:
 
-``` 
+```PowerShell 
  (Get-CsImFilterConfiguration -Identity Global).Prefixes
 ```
 

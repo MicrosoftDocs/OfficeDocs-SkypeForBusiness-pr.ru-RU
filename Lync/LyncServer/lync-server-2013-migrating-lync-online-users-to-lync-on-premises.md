@@ -10,12 +10,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d33888069b00eaf8a4d743f1e6ed3937d7a442bc
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 47fb8d24a2bb112ab07d35097414141b9eaaa606
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857493"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,17 +51,17 @@ _**Тема последнего изменения:** 2015-11-13_
 
 1.  Сначала убедитесь в том, что ваша организация настроена для гибридного развертывания.
     
-      - Установите средство синхронизации Azure Active Directory. Дополнительные сведения можно найти в <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>разделе.
+      - Установите средство синхронизации Azure Active Directory. Дополнительные сведения см. в статье <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
       - Чтобы разрешить пользователям использовать единый вход для Lync Online, установите службы <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>федерации Active Directory.
     
       - В локальной среде Lync Server Management Shell введите следующие командлеты, чтобы создать поставщика услуг размещения для Lync Online:
         
-           ```
+           ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
            ```
         
-           ```
+           ```PowerShell
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
@@ -127,11 +127,11 @@ _**Тема последнего изменения:** 2015-11-13_
     
     Чтобы переместить одного пользователя, введите следующее:
     
-       ```
+       ```PowerShell
        $cred = Get-Credential
        ```
     
-       ```
+       ```PowerShell
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
@@ -139,7 +139,7 @@ _**Тема последнего изменения:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Формат URL-адреса, заданный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, на котором запущена служба размещенной миграции, в следующем формате *:\<HTTPS://FQDN\>Pool/хостедмигратион/ Хостедмигратионсервице. svc*.
+    Формат URL-адреса, заданный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, на котором запущена служба размещенной миграции, в следующем формате *:\<HTTPS://FQDN\>Pool/хостедмигратион/хостедмигратионсервице.СВК*.
     
     URL-адрес службы миграции с размещением можно определить по URL-адресу панели управления Lync Online для учетной записи клиента Office 365.
     
@@ -171,7 +171,7 @@ _**Тема последнего изменения:** 2015-11-13_
     
 
     > [!NOTE]  
-    > По умолчанию максимальный размер файлов журналов транзакций базы данных rtcxds составляет 16 ГБ. Это может оказаться недостаточным для одновременного перемещения большого количества пользователей, особенно если включено зеркальное отображение. Во избежание такой ситуации можно увеличить размер файлов или регулярно создавать резервные копии файлов журналов. Дополнительные сведения можно найти в <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>разделе.
+    > По умолчанию максимальный размер файлов журналов транзакций базы данных rtcxds составляет 16 ГБ. Это может оказаться недостаточным для одновременного перемещения большого количества пользователей, особенно если включено зеркальное отображение. Во избежание такой ситуации можно увеличить размер файлов или регулярно создавать резервные копии файлов журналов. Дополнительные сведения см. в статье <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
 
     
     </div>
@@ -214,8 +214,8 @@ _**Тема последнего изменения:** 2015-11-13_
     <tr class="odd">
     <td><p>msRTCSIP-UserEnabled</p></td>
     <td><p>Включено</p></td>
-    <td><p>True</p></td>
-    <td><p>True</p></td>
+    <td><p>Верно</p></td>
+    <td><p>Верно</p></td>
     </tr>
     </tbody>
     </table>

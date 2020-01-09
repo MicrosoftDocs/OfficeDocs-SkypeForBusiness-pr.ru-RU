@@ -11,12 +11,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eff2c1dd75258451002a41e0f284c4ad05c9728
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9d234d959f434e9e2b96850add488ecd4eac952c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235059"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -36,7 +36,7 @@ ms.locfileid: "36235059"
 
 _**Тема последнего изменения:** 2012-10-20_
 
-*Маршрут* к межсетевому региону определяет маршрут между парой областей сети. Для каждой пары областей сети в развертывании средства управления допуском звонков требуется маршрут сетевого региона. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
+*Маршрут к межсетевому региону* определяет маршрут между парой областей сети. Для каждой пары областей сети в развертывании средства управления допуском звонков требуется маршрут сетевого региона. Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.
 
 Несмотря на то, что ссылки на области устанавливают ограничения пропускной способности для подключений между регионами, межрегионовый маршрут определяет связанный путь, по которому будет проходить соединение из одной области в другую.
 
@@ -60,15 +60,15 @@ _**Тема последнего изменения:** 2012-10-20_
 
 2.  Выполните командлет **New-CsNetworkInterRegionRoute**, чтобы определить необходимые маршруты. Например, выполните командлет:
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
        ```
     
