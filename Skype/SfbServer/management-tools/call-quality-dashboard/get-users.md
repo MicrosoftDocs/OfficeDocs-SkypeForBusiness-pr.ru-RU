@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Сводка: сведения о команде Get Users, которая входит в состав службы пользователей. Служба User входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cf2248035c780c2efce6b1f4539a39cd2a5829a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274648"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992616"
 ---
 # <a name="get-users"></a>Получение пользователей
  
@@ -49,7 +49,7 @@ ms.locfileid: "34274648"
 > [!NOTE]
 > Возвращается массив объектов пользователя. Сведения об объекте User можно найти в статьях получение пользователя. 
   
-```
+```json
 [{
 "userId": 0,
 "loginName": "system",

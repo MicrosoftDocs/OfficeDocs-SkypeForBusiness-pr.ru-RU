@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Скачайте, установите и используйте Windows PowerShell 5.1, чтобы создать удаленный сеанс PowerShell, соединяющийся с приложением Skype для бизнеса Online.
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
-ms.translationtype: HT
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701559"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992959"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5.1
 
@@ -36,7 +36,7 @@ ms.locfileid: "35701559"
     
 2. В консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "35701559"
 3. Если появится диалоговое окно **Контроль учетных записей**, нажмите кнопку **Да**, чтобы разрешить запуск PowerShell с правами администратора.
     
 После запуска PowerShell необходимо разрешить работу с удаленными сценариями в политике выполнения. Для этого в консоли PowerShell введите следующую команду и нажмите клавишу ВВОД:
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
@@ -75,7 +75,7 @@ Set-ExecutionPolicy RemoteSigned -Force
  
 Чтобы проверить правильность настройки политики выполнения, в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Get-ExecutionPolicy
     
 В появившейся консоли PowerShell необходимо убедиться, что служба WinRM запущена и правильно настроена. Для этого в командной строке PowerShell введите следующую команду и нажмите клавишу ВВОД:
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 Если в столбце состояния не указано, что служба WinRM запущена, запустите ее. Для этого введите следующую команду и нажмите клавишу ВВОД:
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 После запуска службы WinRM введите следующую команду, чтобы убедиться, что используется базовая проверка подлинности:
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

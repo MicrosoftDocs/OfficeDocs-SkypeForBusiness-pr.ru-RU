@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Сводка: Ознакомьтесь с учебными материалами и примерами разработки для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e650047fefb865f7fe9af84f93a5f57e7bbf086
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274830"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992866"
 ---
 # <a name="cqd-development-samples"></a>Примеры разработки CQD
 
@@ -64,7 +64,7 @@ CQD обеспечивает быстрый и удобный доступ к с
 
 Для этого необходимо отправить в службу данных вызов с надлежащими параметрами и вывести результаты запроса в таблице HTML. Ниже приведен образец кода JavaScript.
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -132,7 +132,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 При внедрении кода JavaScript в страницу HTML на этой странице отображается отчет, подобный показанному на рисунке. Ниже код HTML показан полностью:
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -203,7 +203,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 В качестве примера рассмотрим приведенный ниже код. Он содержит блок, который служит простым образцом отправки в службу репозитория запроса на получение содержимого элемента из репозитория по идентификатору этого элемента. Следующий фрагмент кода (метод processReportSetData) обеспечивает отправку вызовов AJAX для получения определения каждого отчета из данного набора. Дополнительные сведения об API репозитория, а также о функциях-элементах можно найти в разделе [Получение элементов](get-items.md). 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 2. Обновите фильтры. Данные JSON для фильтров в примере 1 имеют один фильтр, заданный для измерения `[StartDate].[Month]`. Поскольку фильтры являются массивом JSON, к списку фильтров можно добавлять дополнительные измерения. Например, чтобы получить доступ к серверу-клиенту внутри проводной связи для "Куррентмонс", должны быть доступны следующие фильтры:
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -347,7 +347,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   Здесь размерность `[Scenarios].[ScenarioPair]` задается равным `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. `[Scenario.][ScenarioPair]` Это специальное измерение, созданное для упрощения создания отчета. У него есть шесть значений, `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`соответствующих. Таким образом, для определения не требуется сочетание шести фильтров: достаточно одного фильтра. В нашем примере значение `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` переводится в сценарий, в котором первый сервер, второй — не сервер, первый — внутри, второй — внутри, тип первого соединения — проводное соединение, а второй — с проводной связью, который является точным определением типа " Сервер-клиент-внутри проводной сети.
+   Здесь размерность `[Scenarios].[ScenarioPair]` задается равным `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. `[Scenario.][ScenarioPair]` Это специальное измерение, созданное для упрощения создания отчета. У него есть шесть значений, `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`соответствующих. Таким образом, для определения не требуется сочетание шести фильтров: достаточно одного фильтра. В нашем примере значение `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` преобразуется в сценарий, в котором первый сервер, второй — это не сервер, первый — внутри, второй — внутри, тип первого соединения — проводное соединение, а второй — с проводной связью, то есть точное определение "сервер-клиент-внутри проводной".
 
 3. Создайте по одному фильтру для каждого сценария. В системе показателей на рисунке каждая строка представляет отдельный сценарий, для которого задается отдельный фильтр (измерения и показатели являются общими для всех сценариев). 
 
@@ -360,7 +360,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 Код HTML для примера 3 (образец системы показателей):
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

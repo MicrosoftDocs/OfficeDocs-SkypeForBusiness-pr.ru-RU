@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Сводка: сведения об отчете о списке отказов в Skype для бизнеса Server.'
-ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0ba76974d99b123c99e3df40a6850736423ab73
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305761"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992826"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Отчет о списке отказов в Skype для бизнеса Server 
  
@@ -53,7 +53,7 @@ Internal server error creating media for user (Внутренняя ошибка
   
 Важно отметить, что отчет по списку ошибок не предоставляет прямой способ получения списка всех пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, или способ определения пользователей, которые наиболее часто участвовали в сеансах, закончившихся с ошибками. (В одном случае у отчета "список отказов" нет возможностей фильтрации.) Однако если вы экспортируете данные, а затем преобразуете их в файл с разделителями-запятыми, вы можете использовать Windows PowerShell для поиска ответов на такие вопросы, как, например,. Предположим, что вы сохранили данные в CSV-файле C:\Data\Failure_List.csv. Чтобы получить список пользователей, принимавших участие в хотя бы одном сеансе, закончившемся с ошибкой, используйте следующие команды: 
   
-```
+```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
@@ -72,7 +72,7 @@ $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
 Следующие команды возвращают общее число сеансов каждого пользователя, завершившихся с ошибкой:
   
-```
+```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
 $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 ```
@@ -99,7 +99,7 @@ Count    Name
   
 **Показатели отчета Failure List (Список ошибок)**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**|
+|**Имя**|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Время создания отчета** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Запрос** <br/> |Нет  <br/> |Тип запроса SIP, завершившегося с ошибкой. Например, INVITE или BYE.  <br/> |

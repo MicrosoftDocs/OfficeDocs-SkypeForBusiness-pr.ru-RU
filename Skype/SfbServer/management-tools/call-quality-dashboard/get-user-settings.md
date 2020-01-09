@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Сводка: сведения о команде "получить параметры пользователя", которая входит в состав службы параметров пользователя. Служба параметров пользователя входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 8d1bb1da9e9a186cbc10f0c8ba36275348bb7267
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42934496b8b65132a67d4012d81d7b8997859726
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274620"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992636"
 ---
 # <a name="get-user-settings"></a>Получение параметров пользователя
  
@@ -49,7 +49,7 @@ ms.locfileid: "34274620"
   
   **Тело ответа** — ниже показан пример полезных данных ответа в JSON.
   
-```
+```json
 [{
 "userId": 6,
 "key": "ShowDescriptions",

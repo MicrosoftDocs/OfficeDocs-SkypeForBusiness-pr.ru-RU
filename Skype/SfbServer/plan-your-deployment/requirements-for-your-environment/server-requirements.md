@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Сводка: в данном разделе описывается подготовка серверов Skype для бизнеса Server 2015. Представленная здесь информация об оборудовании, ОС, базах данных, программном обеспечении, а также все системные требования и рекомендации помогут выполнить установку и развертывание фермы серверов.'
-ms.openlocfilehash: 3ca52a6d7a61a3f6b06985bf507461fe9285e337
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
-ms.translationtype: HT
+ms.openlocfilehash: a028ce7265718c0ce14b103bca8dcdb416e72885
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626995"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989284"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Требования к серверу для Skype для бизнеса Server 2015
  
@@ -199,7 +199,7 @@ Skype для бизнеса Server 2015 Enterprise Edition — немного 
 
 В качестве помощи в установке приведем ниже пример сценария Windows PowerShell для автоматического запуска:
 
-```
+```PowerShell
 Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Dir-Browsing, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, BITS, Desktop-Experience, Telnet-Client
 ```
 
@@ -256,7 +256,7 @@ IIS, с выбранными следующими модулями:
   
 Кроме того, для него приводится фрагмент кода Windows PowerShell ниже:
   
-```
+```PowerShell
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client
 ```
 

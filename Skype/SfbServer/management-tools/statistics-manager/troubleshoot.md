@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы устранить неполадки при развертывании диспетчера статистики для Skype для бизнеса Server.'
-ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d9ea061453998f2df01cd2ec31e792600697ee1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299697"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992516"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Устранение проблем диспетчера статистики в Skype для бизнеса Server
  
@@ -39,13 +39,13 @@ ms.locfileid: "34299697"
     
     Агент выполняется внутри объекта задания Windows, чтобы автоматически ограничить занимаемый объем памяти. Если агент не запускается, а эти записи о событиях присутствуют в журнале событий, объект задания не может быть создан на сервере. Чтобы обойти эту проблему, может снять верхнее ограничение для памяти, изменив значение в файле конфигурации.
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
     Выполните поиск по слову "Макспроцессмеморимб" и измените значение на "0", как показано ниже.
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 

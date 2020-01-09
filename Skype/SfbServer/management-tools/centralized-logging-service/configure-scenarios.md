@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Сводка: сведения о том, как создавать, изменять и удалять сценарии централизованной службы ведения журналов в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 89aa0c37dfb13f7614067b64e37ee9c9fb376331
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a6ce9a760255275c3ad265cdd6c58fa964f8e43
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274438"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991604"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Настройка сценариев для централизованной службы ведения журналов в Skype для бизнеса Server 2015
  
@@ -30,13 +30,13 @@ ms.locfileid: "34274438"
   
 Для запуска функций централизованной службы ведения журналов с помощью командной консоли Skype для бизнеса Server вы должны быть членами либо группами безопасности Ксадминистратор, либо Кссерверадминистратор для управления доступом на основе ролей (RBAC) или настраиваемой роли RBAC, которая один из этих двух групп. Чтобы возвратить список всех ролей RBAC, которым назначен этот командлет, включая любые пользовательские роли RBAC, созданные пользователем, выполните следующую команду в командной консоли управления Skype для бизнеса Server или Windows PowerShell.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Например:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -46,7 +46,7 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
   
 - **Поставщики услуг** Если вы знакомы с Окслогжер, поставщики — это компоненты, которые вы указываете, чтобы сообщить Окслогжер о том, что ядро трассировки должно собирать журналы. Поставщики — это те же компоненты, а во многих случаях их имя совпадает с компонентами в OCSLogger. Если вы не знакомы с Окслогжер, поставщики являются компонентами, специфичными для серверной роли, из которой Служба централизованного ведения журналов может собирать журналы. Подробные сведения о настройке поставщиков можно найти в разделе [Настройка служб централизованного ведения журналов в Skype для бизнеса Server 2015](configure-providers.md).
     
-- **Identity** (идентификация) Параметр-Identity задает область и имя сценария. Например, вы можете задать область "Global" и определить сценарий с помощью "Лисссервицесценарио". При объединении двух данных вы определяете удостоверение (например, "Global/Лисссервицесценарио").
+- **Identity (идентификация** ) Параметр-Identity задает область и имя сценария. Например, вы можете задать область "Global" и определить сценарий с помощью "Лисссервицесценарио". При объединении двух данных вы определяете удостоверение (например, "Global/Лисссервицесценарио").
     
     При необходимости можно использовать параметры-Name и-Parent. Параметр Name задается для уникальной идентификации сценария. Если используется параметр Name, необходимо также использовать параметр Parent, чтобы добавить сценарий в глобальную область или область узла. 
     
@@ -63,19 +63,19 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
     
     Чтобы создать сценарий с помощью заданных параметров, введите следующую команду:
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
    ```
 
     Например:
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
     Альтернативный формат: с помощью параметров-Name и-Parent.
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
    ```
 
@@ -85,7 +85,7 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
     
 2. You are limited to two scenarios per scope. However, you are not limited to a set number of providers. In this example, assume that we have created three providers, and you want to assign all three to the scenario you are defining. The provider variable names are LyssProvider, ABServerProvider, and SIPStackProvider. Чтобы определить сценарий и назначить ему несколько поставщиков, введите следующую команду в командной консоли управления Skype для бизнеса Server или Windows PowerShell.
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
@@ -98,31 +98,31 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
     
 2. Можно использовать не больше двух сценариев для области действия. Вы можете изменить выполняемые сценарии в любое время даже во время сеанса ведения журналов. Если переопределить выполняемые сценарии, текущий сеанс перестанет использовать удаленный сценарий и начнет применять новый сценарий. Однако данные ведения журналов, полученные с помощью удаленного сценария, останутся в полученных журналах. Чтобы определить новый сценарий, сделайте следующее (то есть, предполагается добавление уже определенного поставщика с именем "S4Provider"):
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
    ```
 
     Например:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
    ```
 
     Если вы хотите заменить поставщики, определить один поставщика или разделенный запятыми список поставщиков, чтобы заменить текущий набор. Если вы хотите только заменить один из нескольких поставщиков, добавьте текущие поставщики с новыми поставщиками, чтобы создать новый набор поставщиков, который содержит новые и существующие поставщики. Чтобы заменить все поставщики новым набором, введите следующую команду:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
    ```
 
     Например, чтобы заменить текущий набор из $LyssProvider, $ABServerProvider и $SIPStackProvider на $LyssServiceProvider, выполните следующую команду:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
    ```
 
     Чтобы заменить только поставщик $LyssProvider из текущего набора $LyssProvider, $ABServerProvider и $SIPStackProvider на $LyssServiceProvider, введите следующую команду:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
    ```
 
@@ -132,13 +132,13 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
     
 2. Если вы хотите удалить сценарий, определенный ранее, введите следующую команду:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <name of scope and scenario>
    ```
 
     Например, чтобы удалить заданный сценарий site:Redmond/LyssServiceScenario:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
@@ -152,7 +152,7 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
   
 2. В Windows PowerShell введите:
     
-   ```
+   ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
@@ -161,7 +161,7 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
   
 3. Чтобы выгрузить модули, введите:
     
-   ```
+   ```PowerShell
    Remove-Module ClsController
    ```
 
@@ -174,7 +174,7 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
     
 2. В Windows PowerShell введите:
     
-   ```
+   ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
@@ -183,19 +183,19 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
   
 3. Чтобы удалить поставщика из сценария AlwaysOn, введите:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
    ```
 
    Например:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
    ```
 
    Параметры ScenarioName и ProviderName являются позиционными (т. е. их необходимо задать в ожидаемой позиции в командной строке). Имя параметра необязательно явно определять, если имя сценария находится во второй позиции, а поставщик — в третьей позиции относительно первой позиции имени командлета. Используя эту информацию, предыдущая команда вводится следующим образом:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
@@ -207,20 +207,20 @@ The remainder of this topic focuses on how to define a scenario, modify a scenar
     
 2. Чтобы добавить поставщик в сценарий AlwaysOn, введите:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
    ```
 
     Например:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    Значением -Loglevel может быть Fatal, Error, Warning, Info, Verbose, Debug или All. Флагами могут быть любые флаги, поддерживаемые поставщиком (например, ТФ_КОМПОНЕНТ, ТФ_ДИАГ. -Флаги также могут иметь значение "все"
+    Значением -Loglevel может быть Fatal, Error, Warning, Info, Verbose, Debug или All. Флагами могут быть любые флаги, поддерживаемые поставщиком, например TF_COMPONENT, TF_DIAG. -Флаги также могут иметь значение "все"
     
    Предыдущий пример также можно ввести, используя позиционность командлета. Например, чтобы добавить поставщик ChatServer в сценарий AlwaysOn, введите:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
    ```

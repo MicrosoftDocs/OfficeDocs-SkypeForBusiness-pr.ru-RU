@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 'Сводка: сведения о том, как удалить настройки качества взаимодействия (QoE) в Skype для бизнеса Server.'
-ms.openlocfilehash: 4b521afd85a97550b27f320b9e49c5439e431681
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 134ebe39f41ca051db4ff79eafb094dcc929b5e8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305803"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992426"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации качества обслуживания в Skype для бизнеса Server
  
@@ -49,7 +49,7 @@ ms.locfileid: "34305803"
 
  Эта команда удаляет параметры конфигурации качества взаимодействия, примененные к сайту Redmond:
     
-  ```
+  ```PowerShell
   Remove-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -57,7 +57,7 @@ ms.locfileid: "34305803"
 
  Эта команда удаляет все параметры конфигурации качества взаимодействия, примененные на уровне сайта:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration -Filter "site:*" | Remove-CsQoEConfiguration
   ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "34305803"
 
  Эта команда удаляет все параметры конфигурации качества взаимодействия с отключенным наблюдением за качеством взаимодействия:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 

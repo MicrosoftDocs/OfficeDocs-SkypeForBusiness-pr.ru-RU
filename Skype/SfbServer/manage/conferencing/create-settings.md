@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Сводка: сведения о том, как создавать параметры конфигурации собраний в Skype для бизнеса Server.'
-ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293846"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991884"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации собраний в Skype для бизнеса Server
  
@@ -69,7 +69,7 @@ ms.locfileid: "34293846"
   
 Следующая команда создает новый набор параметров конфигурации собрания для сайта Redmond:
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
@@ -77,13 +77,13 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
   
 Для создания настроек, использующих разные значения свойств, просто добавьте соответствующий параметр и значение параметра. Например, чтобы создать коллекцию параметров конфигурации собраний, которые по умолчанию допускают выступление всех участников на собрании, используйте следующую команду:
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
 Многочисленные значения свойств можно задать путем включения различных параметров. Например, следующая команда допускает выступление любого участника на собрании, а также переводит пользователей ТСОП в зал ожидания до их официального допуска к участию в собрании:
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 

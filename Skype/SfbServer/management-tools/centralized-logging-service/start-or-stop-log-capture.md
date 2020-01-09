@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Сводка: сведения о том, как запустить или остановить сеанс записи журнала службы ведения журналов в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 49c36620cd58bf113ad1ce7823fcc438d88d8724
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4da74e05a1eb6f6945f44c0c045c2292e7acca7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274389"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991444"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Запуск или остановка записи журналов CLS в Skype для бизнеса Server 2015
  
@@ -37,13 +37,13 @@ To capture the right information, you need to make sure you use the right scenar
     
 2. Начните ведение журнала с помощью централизованной службы ведения журналов, введя следующее:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario <name of scenario>
    ```
 
     Например для запуска сценария **AlwaysOn** введите:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario AlwaysOn
    ```
 
@@ -59,7 +59,7 @@ To capture the right information, you need to make sure you use the right scenar
   
 4. Чтобы выполнить другой сценарий, используйте командлет **Start-CsClsLogging** с именем выполняемого дополнительного сценария (например, сценария **Authentication**):
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario Authentication
    ```
 
@@ -74,7 +74,7 @@ To capture the right information, you need to make sure you use the right scenar
     
     Пусть нужно запустить сеанс ведения журнала с помощью сценария UserReplicator для пула "pool01.contoso.net". При этом длительность сеанса ведения журнала определяется равной 8 часам. Для этого введите следующую команду:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
    ```
 
@@ -96,13 +96,13 @@ To capture the right information, you need to make sure you use the right scenar
   
 Для управления централизованными функциями ведения журналов с помощью командной консоли Skype для бизнеса Server вы должны быть членами либо группами безопасности Ксадминистратор или Кссерверадминистратор, либо настраиваемой роли RBAC. содержащая одну из этих двух групп. Чтобы возвратить список всех ролей RBAC, которым был назначен этот командлет (включая любые пользовательские роли RBAC, созданные пользователем), выполните следующую команду в командной консоли управления Skype для бизнеса Server или Windows PowerShell.
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Например:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -115,7 +115,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Запросите службу централизованного ведения журналов, чтобы узнать, какие сценарии в настоящее время выполняются, введя следующее:
     
-   ```
+   ```PowerShell
    Show-CsClsLogging
    ```
 
@@ -125,12 +125,12 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Чтобы остановить выполняемый в данный момент сеанс ведения журнала, введите:
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
    ```
    Например:
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
    ```
 

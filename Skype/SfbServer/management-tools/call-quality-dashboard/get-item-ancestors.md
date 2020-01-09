@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Сводка: сведения о операции "получение предков элементов", которая является частью службы номенклатур. Служба item входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 77fb5f46ada278bcb172a51620317182fe5d61b0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82ae699cab0bf812f281fc2f2ad54323bcf8f7f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274732"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992686"
 ---
 # <a name="get-item-ancestors"></a>Получить родительских элементов
  
@@ -47,7 +47,7 @@ ms.locfileid: "34274732"
   
  **Тело ответа** — ниже показан пример полезных данных ответа в JSON.
   
-```
+```json
 [{
 "item1": 1653,
 "item2": 0,

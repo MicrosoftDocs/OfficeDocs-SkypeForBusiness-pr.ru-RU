@@ -1,5 +1,5 @@
 ---
-title: Настройка динамического вызова экстренной помощи
+title: Настройка динамических экстренных вызовов
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,15 +11,15 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: Настройка динамического вызова экстренной помощи
+description: Настройка динамических экстренных вызовов
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615859"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992094"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Планирование и настройка динамических экстренных вызовов 
 
@@ -164,25 +164,25 @@ ms.locfileid: "39615859"
 
 Например, чтобы включить определенного пользователя в уведомление на службу безопасности, используйте следующую команду:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 Чтобы назначить политику "Contoso срочного вызова 1" для сайта 1, используйте следующую команду:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 Чтобы включить для вызова экстренной помощи определенного пользователя, выполните следующую команду:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 Чтобы назначить политику "Маршрутизация экстренных вызовов в Нью-Йорке" для сайта 1, выполните следующую команду:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -204,5 +204,5 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 - [Управление политиками маршрутизации для экстренных вызовов](manage-emergency-call-routing-policies.md)
 - [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)
 - [Назначение или изменение местоположения для экстренного реагирования для пользователя](assign-change-emergency-location-user.md)
-- [Сетевые параметры для функций голосовой связи в облаке](cloud-voice-network-settings.md)
+- [Параметры сети для функций голосовой связи в облаке](cloud-voice-network-settings.md)
 - [Управление топологией сети для функций голосовой связи в облаке](manage-your-network-topology.md)

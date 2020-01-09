@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Настройка тестовых учетных записей пользователей и узлов-наблюдателей для виртуальных транзакций в Skype для бизнеса Server.'
-ms.openlocfilehash: 0da038f90538cce62f2e811471a2ebc8ba685fb2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 991b78a4581d616e79aaa4f096a76aad8636b632
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284069"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989034"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Настройка тестовых пользователей узла-наблюдателя и параметров
  
@@ -35,7 +35,7 @@ ms.locfileid: "34284069"
   
 If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. You should assign at least three test users for each pool that you want to test. При использовании метода проверки подлинности согласования необходимо также использовать командлет Set-Кстестусеркредентиал и командную консоль управления Skype для бизнеса, чтобы включить эти тестовые учетные записи для работы с искусственными транзакциями. Для этого выполните следующую команду (в этой статье предполагается, что созданы три учетные записи пользователей Active Directory и что эти учетные записи включены для Skype для бизнеса Server):
   
-```
+```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
@@ -45,7 +45,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "li
   
 Чтобы убедиться в том, что тестовые учетные данные были созданы, выполните эти команды в командной консоли управления Skype для бизнеса Server.
   
-```
+```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
@@ -61,7 +61,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 
 Создав тестовых пользователей, вы можете создать узел-наблюдатель с помощью следующей команды.
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 ```
 
@@ -69,7 +69,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
   
 Чтобы проверить правильность настройки автоматического обнаружения целевого пула для входа в систему вместо непосредственного определения пула, используйте следующие действия:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 ```
 
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 Если вы хотите включить тест ТСОП, проверяющий подключение к телефонной сети общего пользования, вам потребуется произвести дополнительную настройку узла-наблюдателя. Во-первых, вам нужно связать тестовых пользователей с типом теста ТСОП, выполнив следующую команду командной консоли Skype для бизнеса Server.
   
-```
+```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
 ```
 
@@ -86,7 +86,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
   
 Затем можно использовать командлет **New-ксватчернодеконфигуратион** , чтобы связать тип теста (хранящийся в переменной $pstnTest) с пулом сервера Skype для бизнеса. Например, следующая команда создает конфигурацию узла-наблюдателя для пула atl-cs-001.litwareinc.com, добавляет трех тестовых пользователей, созданных ранее, а также тест ТСОП.
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
@@ -146,13 +146,13 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 После настройки узла-наблюдателя вы можете добавлять искусственные транзакции на узел-наблюдатель или удалять их с узла-наблюдателя с помощью командлета Set-CsWatcherNodeConfiguration. Например, чтобы добавить тест PersistentChatMessage на узел-наблюдатель, используйте следующую команду с методом Add.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
 При указании нескольких тестов используйте запятые. Пример:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
@@ -164,13 +164,13 @@ Set-CsWatcherNodeConfiguration : Существует повторяющаяся
   
 Чтобы удалить искусственную транзакцию с узла-наблюдателя, используйте метод Remove. Например, следующая команда удаляет тест ABWQ с узла-наблюдателя.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
 С помощью метода Replace вы можете заменить все тесты, включенные в настоящий момент, на один или несколько новых тестов. Например, если вы хотите, чтобы узел-наблюдатель только выполнял тест IM, вы можете использовать следующую команду.
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
@@ -180,7 +180,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Re
 
 Чтобы просмотреть тесты, назначенные узлу-наблюдателю, используйте следующую команду.
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
@@ -190,13 +190,13 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 > [!TIP]
 > Чтобы просмотреть искусственные транзакции в алфавитном порядке, используйте следующую команду. 
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
 Чтобы проверить, был ли создан узел-наблюдатель, введите в командную консоль Skype для бизнеса Server следующую команду.
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -204,7 +204,7 @@ Get-CsWatcherNodeConfiguration
   
 Идентификация: atl-cs-001.litwareinc.com Тестусерс: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} Таржетфкдн: atl-cs-001.litwareinc.com номер_порта: 5061To убедитесь, что узел наблюдателя настроен правильно, введите следующую команду в командной консоли управления Skype для бизнеса Server:
   
-```
+```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
@@ -227,20 +227,20 @@ Test-CsWatcherNodeConfiguration
   
 По умолчанию узлы-наблюдатели периодически запускают все включенные искусственные транзакции. Однако иногда может потребоваться приостановка выполнения транзакций. Например, если узел-наблюдатель временно отключился от сети, у него больше нет причин запускать искусственные транзакции. Без сетевого подключения эти транзакции завершатся со сбоем. Для временного отключения узла-наблюдателя выполните команду, идентичную команде из командной консоли Skype для бизнеса Server:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
 Эта команда приведет к отключению выполнения искусственных транзакций на узле-наблюдателе atl watcher 001.litwareinc.com. Чтобы возобновить выполнение искусственных транзакций, снова задайте для свойства Enabled значение True ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
 > Свойство Enabled может использоваться для включения или отключения узлов-наблюдателей. Если нет необходимости временно удалять узел-наблюдатель, используйте командлет **Remove-CsWatcherNodeConfiguration**:
   
-```
+```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
@@ -248,13 +248,13 @@ Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
   
 По умолчанию узлы-наблюдатели используют при проведении тестов внешние URL-адреса. Однако узлы-наблюдатели можно настроить для использования внутренних URL-адресов организации. Это позволит администраторам проверить доступ к URL-адресам тех пользователей, которые находятся внутри сети периметра. Чтобы настроить узел-наблюдатель для использования внутренних URL-адресов вместо внешних URL-адресов, задайте для свойства UseInternalWebURls значение True ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
 Сброс этого свойства до значения по умолчанию False ($False) приведет к повторному использованию наблюдателем внешних URL-адресов:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 ```
 
@@ -271,7 +271,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
     
 2. В окне консоли введите следующую команду и нажмите клавишу ВВОД: 
     
-```
+```PowerShell
 bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 ```
 
@@ -297,7 +297,7 @@ BITSAdmin является устаревшей, доступность для �
   
 Искусственную транзакцию сохраняемого чата можно использовать для настройки следующего канала: 
   
-```
+```PowerShell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -336,13 +336,13 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
     
 После того как эти условия будут выполнены, вы можете выполнить следующий командлет Windows PowerShell для миграции списка контактов тестовых пользователей в Exchange:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
 Перенос списков контактов тестового пользователя в Exchange может занять некоторое время. Для наблюдения за ходом выполнения миграции одна и та же Командная строка может выполняться без флага-Setup.
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
@@ -354,14 +354,14 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
   
 Чтобы включить искусственную транзакцию XMPP, необходимо предоставить параметр XmppTestReceiverMailAddress, используя учетную запись пользователя в домене XMPP с поддержкой маршрутизации. Пример:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
 В этом примере для маршрутизации сообщений для litwareinc.com на шлюз КСМПП необходимо наличие правила Skype для бизнеса сервера.
 
 > [!NOTE]
-> Шлюзы и прокси-серверы КСМПП были доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Более подробную информацию вы видите в разделе [перевод КСМПП Федерации](../migration/migrating-xmpp-federation.md) .
+> Шлюзы и прокси-серверы КСМПП были доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Дополнительные сведения см. в статье [Перенос федерации XMPP](../migration/migrating-xmpp-federation.md).
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Искусственная транзакция сервера видеовзаимодействия
 
@@ -415,7 +415,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
   
 Чтобы извлечь информацию об устранении неполадки, укажите параметр OutLoggerVariable с последующим именем переменной по своему выбору:
   
-```
+```PowerShell
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
@@ -426,13 +426,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
   
 Целевое полное доменное имя: atl-cs-001.litwareinc.com: задержка сбоя: 00:00:00 сообщение об ошибке: у этого компьютера нет назначенных сертификатов. Диагностика: вы можете получить доступ к значительно более подробным сведениям об этой ошибке, чем сообщение об ошибке, показанное здесь. Для получения доступа к этой информации в формате HTML используйте команду, аналогичную этой, чтобы сохранить данные, хранящиеся в переменной RegistrationTest, в файл HTML:
   
-```
+```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
 Можно также использовать метод ToXML() для сохранения данных в файл XML:
   
-```
+```PowerShell
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 

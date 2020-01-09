@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Сводка: сведения о том, как управлять данными записи сведений о вызовах (CDR) для Skype для бизнеса Server.'
-ms.openlocfilehash: a775098a4c41bccca42fe1d95c5f1dbf0d22f2bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec24b5b1901bec053417c3a938c688cd4692f1c9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279734"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991724"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Настройка хранения данных CDR в Skype для бизнеса Server
  
@@ -54,7 +54,7 @@ ms.locfileid: "34279734"
 
 - Эта команда позволяет очищать данные CDR для сайта Redmond и настраивает сайт для обслуживания данных CDR и данных отчетов об ошибках в течение 20 дней.
     
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
@@ -62,7 +62,7 @@ ms.locfileid: "34279734"
 
 - Эта команда настраивает параметры хранения CDR для всех параметров конфигурации CDR, используемых в организации.
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 267580b8a78ce0c0002e6830ba06cc4ae031e42c
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 38f6195a6c8e0c2a5f963d476e26abeb46f6ff4f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667385"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991324"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -53,10 +53,10 @@ ms.locfileid: "34667385"
 
 Политика выполнения PowerShell помогает определить, какие файлы конфигурации можно загрузить в консоль PowerShell и какие сценарии пользователь может запустить из этой консоли. Как минимум Модуль соединителя Skype для бизнеса Online невозможно импортировать, если политика выполнения имеет значение RemoteSigned. Если это не так, вы получите следующее сообщение об ошибке при попытке импортировать модуль:
   
-- **Ошибка**: <em>Import-Module: файл C:\\Program\\Files файлы\\. Общие файлы Microsoft\\Lync\\Server\\2013 modules линконлинеконнектор линконлинеконнекторстартуп. PSM1 невозможно загрузить, так как выполняется сценарии отключены в этой системе. Дополнительные сведения можно найти в https://go.microsoft.com/fwlink/?LinkID=135170разделе абаут_ексекутион_полиЦиес.</em>
+- **Ошибка**: <em>Import-Module: файл C:\\\\Program Files.\\общие файлы Microsoft Lync\\Server\\2013\\modules линконлинеконнектор линконлинеконнекторстартуп. PSM1 невозможно загрузить, так как в этой системе отключены запущенные сценарии. Дополнительные сведения можно найти в https://go.microsoft.com/fwlink/?LinkID=135170разделе about_Execution_Policies.</em>
 
 - **Решение**: чтобы устранить эту проблему, запустите PowerShell с правами администратора, а затем выполните следующую команду:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Сведения о политике выполнения см. в разделе [Сведения о политиках выполнения](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -78,11 +78,11 @@ ms.locfileid: "34667385"
   - **Ошибка**: *Get-Ксвебтиккет: не удалось подключиться к серверам Live ID. Убедитесь, что прокси-сервер включен или компьютер имеет сетевое подключение к серверам Live ID.*
 
 - **Решение**: часто эта ошибка означает, что помощник по входу в Microsoft Online Services не запущен. Вы можете проверить состояние этой службы, запустив следующую команду из командной строки PowerShell: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Если служба не запущена, запустите ее с помощью следующей команды:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 
@@ -97,7 +97,7 @@ ms.locfileid: "34667385"
 
 - **Ошибка**: *Get-Ксвебтиккет: не удается загрузить модуль Live ID. Убедитесь, что у вас установлена правильная версия помощника по входу Live ID.*
 
-- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на веб-сайте помощника по входу в [Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Разрешение**: помощник по входу в Microsoft Online Services доступен в центре загрузки Майкрософт на [веб-сайте помощника по входу в Microsoft Online Services для специалистов по RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>Произошел сбой входа для пользователя
 <a name="BKMKLogonFailed"> </a>
@@ -145,7 +145,7 @@ ms.locfileid: "34667385"
 
 - **Разрешение**: единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

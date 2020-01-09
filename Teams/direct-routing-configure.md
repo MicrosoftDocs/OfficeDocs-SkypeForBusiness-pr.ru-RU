@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741383"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992596"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -57,7 +57,7 @@ ms.locfileid: "40741383"
  
 После установки удаленного сеанса PowerShell убедитесь, что вы видите команды для управления SBC. Чтобы проверить команды, введите (или скопируйте или вставьте) в сеансе PowerShell следующую команду и нажмите клавишу ВВОД: 
 
-```
+```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
@@ -77,7 +77,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 Чтобы связать SBC с клиентом, в сеансе PowerShell введите следующую команду и нажмите клавишу ВВОД: 
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
@@ -88,7 +88,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > Помимо домена, зарегистрированного в клиенте, важно, чтобы пользователь с этим доменом и назначенной лицензией E3 или водо. В противном случае появится следующее сообщение об ошибке:<br/>
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
-```
+```PowerShell
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
 ```
 Дает
@@ -132,7 +132,7 @@ Enabled               : True
 
 Попарный шлюз должен отображаться в списке, как показано в приведенном ниже примере, и убедитесь, что параметр **Enabled** отображает значение **true**. Ведите
 
-```
+```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 Возвращаемое значение.
@@ -193,7 +193,7 @@ Enabled               : True
 1. Подключитесь к удаленной оболочке PowerShell.
 2. Выдайте команду: 
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 ``` 
 
@@ -206,13 +206,13 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 1. Подключитесь к удаленному сеансу PowerShell. 
 2. Введите команду: 
  
-```
+```PowerShell
 Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
 ```
 
 Например, чтобы добавить номер телефона пользователя "Спенцер Low", введите следующее: 
 
-```
+```PowerShell
 Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
@@ -283,16 +283,16 @@ SBCs можно назначить активными и архивироват�
 
 В удаленном сеансе PowerShell в Skype для бизнеса введите:
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
 Убедитесь в том, что использование было создано путем ввода: 
-```
+```PowerShell
 Get-CSOnlinePSTNUsage
 ``` 
 Возвращающий список имен, которые могут быть усечены:
-```
+```output
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -314,7 +314,7 @@ Usage       : {testusage, US and Canada, International, karlUsage. . .}
 
 Чтобы создать маршрут "Redmond 1", введите:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
@@ -331,14 +331,14 @@ Name                    : Redmond 1
 </pre>
 Чтобы создать маршрут на 2 Redmond, введите:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
 Чтобы создать другой маршрут + 1, введите:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
@@ -350,13 +350,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 Перенаправлять все вызовы в один и тот же SBC.
 
-```
+```PowerShell
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
 Проверьте, правильно ли вы настроили маршрут, выполнив команду `Get-CSOnlineVoiceRoute` PowerShell, используя указанные ниже параметры.
 
-```
+```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Что должно вернуть:
@@ -391,7 +391,7 @@ Name            : Other +1
 
 В сеансе PowerShell в Skype для бизнеса Online введите:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -408,13 +408,13 @@ RouteType           : BYOT
 
 В сеансе PowerShell в Skype для бизнеса Online введите:
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
 ```
 
 Чтобы проверить назначение политики, введите следующую команду:
 
-```
+```PowerShell
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
 
@@ -468,13 +468,13 @@ US Only
 
 В удаленном сеансе PowerShell в Skype для бизнеса Online введите:
 
-```
+```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
 **Действие 2**: Создайте новый голосовой маршрут "Международная".
 
-```
+```PowerShell
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
 ```
 Возвращаемое значение.
@@ -493,7 +493,7 @@ Name                      : International
 
 Использование PSTN "Redmond 1" и "Redmond" используются в этой политике маршрутизации голосовой связи для сохранения особой обработки звонков на номера "+ 1 425 XXX XX XX" и "+ 1 206 XXX XX XX" как локальных, так и локальных звонков.
 
-   ```
+   ```PowerShell
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
@@ -503,7 +503,7 @@ a) Если вы вызываете число "+ 1 425 XXX XX XX" с испол
 
 б) Если "Международная" использование PSTN перед "US и Канада", то звонки в + 1 425 XXX XX XX пересылаются в sbc2.contoso.biz и sbc5.contoso.biz как часть логики маршрутизации. Введите команду:
 
-```
+```PowerShell
 New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
 ```
 
@@ -518,13 +518,13 @@ RouteType             : BYOT
 
 **Действие 4**: назначьте политику маршрутизации голосовой связи пользователю John лесу с помощью следующей команды.
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
 ```
 
 Затем проверьте назначение с помощью команды: 
 
-```
+```PowerShell
 Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
 ```
 
@@ -566,7 +566,7 @@ No Restrictions
 
 В сценариях примера мы выпустили ```New-CsOnlinePSTNGateway``` командлет для создания следующей конфигурации SBC.
 
-```
+```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 

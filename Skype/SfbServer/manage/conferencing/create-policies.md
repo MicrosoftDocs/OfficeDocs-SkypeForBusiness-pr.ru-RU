@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Сводка: сведения о создании политик конференц-связи в Skype для бизнеса Server.'
-ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 078c80af0304c796bd3935200764a9ce6e13585b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304014"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991894"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Создание политик конференц-связи в Skype для бизнеса Server
  
@@ -120,7 +120,7 @@ ms.locfileid: "34304014"
   
 В следующем примере создается новая политика конференц-связи с удостоверением СалесконференЦингполици. В этой политике будут использованы все значения по умолчанию, кроме одного: MaxMeetingSize. В этом примере максимальное количество участников будет 50 вместо значения по умолчанию — 250.
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

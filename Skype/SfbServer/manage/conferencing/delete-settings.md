@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Сводка: сведения о том, как удалить параметры конфигурации собрания в Skype для бизнеса Server.'
-ms.openlocfilehash: a728f1c1de3470cf505163c5cb25996c190e9026
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cbf63ba635077dd61599d4bc84a740906b662a6c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306477"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991864"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Удаление параметров конфигурации собрания в Skype для бизнеса Server
  
@@ -41,13 +41,13 @@ ms.locfileid: "34306477"
   
 Следующая команда удаляет параметры конфигурации собраний в сайте Redmond:
   
-```
+```PowerShell
 Remove-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
 Следующая команда удаляет все параметры конфигурации собрания, примененные к области сайта:
   
-```
+```PowerShell
 Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 ```
 

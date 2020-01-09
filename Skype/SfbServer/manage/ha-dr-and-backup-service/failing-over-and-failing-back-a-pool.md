@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 2848261164ac568d3db4dd05160b7e50ec3981d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2a1970df43aa2fb7becb03319ee6ff5934afe0a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303892"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991804"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Отказ от резервного копирования пула в Skype для бизнеса Server и отказ от него 
 
@@ -102,8 +102,8 @@ ms.locfileid: "34303892"
 6.  Установите хранилище Central Management на сервере заднего резервного\_пула.
     
       - Сначала выполните следующую команду:
-        
-        ``` 
+        ```PowerShell
+         
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
@@ -158,7 +158,7 @@ ms.locfileid: "34303892"
 
 Если пул пограничного пула, на котором настроена веб-сервер Skype для бизнеса Server, не работает, необходимо изменить Федерацию так, чтобы он использовал другой пул Edge для работы Федерации.
 
-1.  На сервере переднего плана откройте окно Построитель топологии. Разверните **** узел пограничного пула и щелкните правой кнопкой мыши граничный сервер пограничного сервера или пул пограничного сервера, настроенный на данный момент для Федерации. Нажмите кнопку **изменить свойства**.
+1.  На сервере переднего плана откройте окно Построитель топологии. Разверните узел **пограничного**пула и щелкните правой кнопкой мыши граничный сервер пограничного сервера или пул пограничного сервера, настроенный на данный момент для Федерации. Нажмите кнопку **изменить свойства**.
 
 2.  В диалоговом окне **изменение свойств** в разделе **Общие**снимите флажок **включить федерацию для этого пограничного пула (порт 5061)**. Нажмите кнопку **ОК**.
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Сводка: сведения о том, как присвоить пользователям приглашения на Конференц-связь с телефонным подключением в Skype для бизнеса Server.'
-ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280308"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992836"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Отправка приветственного сообщения пользователям с телефонным подключением в Skype для бизнеса Server
  
@@ -39,7 +39,7 @@ ms.locfileid: "34280308"
     
 3. Выполните следующую команду в командной строке:
     
-   ```
+   ```PowerShell
    Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
    -From <email address of sender> [-Subject <subject for email message>]
    [-UserEmailAddress <destination email address>]
@@ -58,14 +58,14 @@ ms.locfileid: "34280308"
     
 В следующем примере создается новый ПИН‑код, после чего отправляется приветственное сообщение электронной почты от Марко Бобу. Текст формируется на основе шаблона по умолчанию, а сообщение создается в формате HTML. По умолчанию задается тема "Добро пожаловать на конференцию с телефонным подключением".
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
 В следующем примере для Боба вместо ранее назначенного ему ПИН‑кода принудительно задается новый ПИН‑код со значением "383042650", после чего отправляется приветственное сообщение электронной почты от Марко Бобу. Поскольку задан параметр Credential, пользователю, выполняющему команду, предлагается ввести пароль. Сообщение передается по протоколу SSL.
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
 -Pin "383042650" -Force

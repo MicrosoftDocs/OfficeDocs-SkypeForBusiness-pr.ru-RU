@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Используйте Windows PowerShell и командлеты Get-Кстенант и Get-Кстенантлиценсингконфигуратион для получения сведений о клиенте Skype для бизнеса Online.
-ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284693"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989234"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Управление организациями Skype для бизнеса Online
 
@@ -33,13 +33,13 @@ ms.locfileid: "34284693"
 
 Чтобы получить сведения о клиенте Skype для бизнеса Online, вызовите командлет [Get-кстенант](https://go.microsoft.com/fwlink/p/?linkid=849599) без дополнительных параметров.
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
 Чтобы возвратить только имя и идентификатор клиента, используйте эту команду.
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
@@ -47,7 +47,7 @@ Get-CsTenant | Select-Object Name, TenantID
   
 Чтобы найти сведения о том, доступны ли сведения о лицензировании для указанного клиента в центре администрирования Skype для бизнеса Online, используйте командлет [Get-кстенантлиценсингконфигуратион](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

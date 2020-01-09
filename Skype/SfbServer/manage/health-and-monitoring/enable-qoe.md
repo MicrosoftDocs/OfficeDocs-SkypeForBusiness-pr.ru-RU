@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Сводка: сведения о том, как включить качество взаимодействия (QoE) в Skype для бизнеса Server.'
-ms.openlocfilehash: 90110c5664e80ac1d4f9d382c20e0fd58d9ce134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a05266ed88b9d476ca787f1d32b91727e90475c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305712"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992939"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Обеспечение качества взаимодействия в Skype для бизнеса Server
 
@@ -46,7 +46,7 @@ ms.locfileid: "34305712"
 
  Чтобы включить службу качества взаимодействия, установите параметр EnableQoE в значение True ($True).
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
   ```
 
@@ -54,7 +54,7 @@ ms.locfileid: "34305712"
 
  Чтобы отключить службу качества взаимодействия, установите параметр EnableQoE в значение False ($False). При этом мониторинг не будет удален. Он приостановит сбор и хранение данных качества взаимодействия.
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -62,7 +62,7 @@ ms.locfileid: "34305712"
 
  Следующая команда включает службу качества взаимодействия для всех параметров конфигурации качества взаимодействия, используемых в текущий момент в организации.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 

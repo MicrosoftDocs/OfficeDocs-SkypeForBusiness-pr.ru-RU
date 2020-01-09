@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: В этой статье рассказывается о том, как использовать голосовую конференцию с прямой маршрутизацией в ГКЧ и по требованию.
-ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516737"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992899"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Аудиоконференции с прямой маршрутизацией для GCC High и DoD
 
@@ -64,12 +64,12 @@ ms.locfileid: "37516737"
 
 С помощью командлета PowerShell New-Кшибридтелефоненумбер можно определять номера служебных служб в клиенте, которые можно использовать для маршрутизации звонков к службе голосовой связи через прямую маршрутизацию. 
 
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 Например:
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
   ```
 
@@ -77,13 +77,13 @@ ms.locfileid: "37516737"
 
 С помощью командлета PowerShell Register-csOnlineDialInConferencingServiceNumber вы можете назначить номера телефонов служб для моста голосовой связи в вашей организации.
 
-  ```
+  ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
 Вы можете просмотреть идентификатор своего моста звуковых конференций с помощью Get-КсонлинедиалинконференЦингбридже. Например:
 
-  ```
+  ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```

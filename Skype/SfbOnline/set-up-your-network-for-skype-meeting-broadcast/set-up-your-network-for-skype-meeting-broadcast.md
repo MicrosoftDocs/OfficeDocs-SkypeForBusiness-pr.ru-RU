@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Узнайте о функциях трансляции собраний Skype в Skype для бизнеса Online, которая позволяет планировать, создавать и транслировать собрания или события для больших Интернет-пользователей до 10 000 участников.
-ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792923"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990984"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для трансляции собраний Skype
 
@@ -61,27 +61,27 @@ ms.locfileid: "35792923"
 
 - В **меню "Пуск**" щелкните правой кнопкой мыши **Windows PowerShell** и выберите пункт **Запуск от имени администратора**. В окне **Windows PowerShell** введите каждую строку и нажмите клавишу ВВОД.
 
-  ```
+  ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $s = New-CsEdgeDomainPattern -Domain "emeameetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $t = New-CsEdgeDomainPattern -Domain "apacmeetings.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $n = New-CsEdgeDomainPattern -Domain "resources.lync.com"
   ```
 
-  ```
+  ```PowerShell
   $newAllowList = New-CsEdgeAllowList -AllowedDomain $r,$s,$t,$n
   ```
 
-  ```
+  ```PowerShell
   Set-CsTenantFederationConfiguration -AllowedDomains $newAllowList
   ```
 
@@ -89,17 +89,17 @@ ms.locfileid: "35792923"
 
 На втором этапе процесса настройки нужно добавить необходимые домены, а затем добавить IP-адреса и URL-адреса, необходимые для работы трансляции собраний Skype.
 
-- **Добавьте нужные URL-адреса конечных точек Skype для бизнеса Online и IP-адреса, чтобы увидеть, какие из них являются обязательными** . [здесь](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo).
+- **Добавьте нужные URL-адреса конечных точек Skype для бизнеса Online и IP-адреса, чтобы увидеть, какие из них вам нужны** [.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Настройка трансляции собраний Skype в гибридных развертываниях и организациях
 
 Если у вас есть организация Skype для бизнеса Online и локальное развертывание Lync Server 2010, Microsoft Lync Server 2013 и Skype для бизнеса Server 2015 и у них есть другие пользователи в сети и локально, необходимо выполнить другие действия по настройке, описанные в этой статье. Помимо описанных выше, чтобы предоставить локальной организации возможность общения с Skype для бизнеса Online и разрешить всем пользователям присоединиться к трансляции собраний Skype. Чтобы узнать о требованиях, ознакомьтесь с разрешениями [Настройка локального развертывания для трансляции собраний Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Включение трансляции собрания Skype](enable-skype-meeting-broadcast.md)
 
-[URL-адреса и диапазоны IP-адресов Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[URL-адреса и диапазоны IP-адресов для Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [Настройка Skype для бизнеса Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

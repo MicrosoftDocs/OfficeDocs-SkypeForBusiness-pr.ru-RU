@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Сводка: Научитесь назначать политики конференций в Skype для бизнеса Server.'
-ms.openlocfilehash: acd74262b51000a3f4af5668fb3c9271a8c0978d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5e88e14c9516785cb3c45b5682bac13865b20ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289029"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991914"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Назначение политик конференц-связи в Skype для бизнеса Server
  
@@ -27,13 +27,13 @@ ms.locfileid: "34289029"
 
 В примере ниже клиентская политика SalesConferencingPolicy назначается пользователю с идентификатором "Ken Myer".
   
-```
+```PowerShell
 Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPolicy
 ```
 
 В следующем примере политика конференций FinanceConferencingPolicy назначается всем пользователям, имеющим учетные записи в подразделении Finance (Финансы). Чтобы назначить одну политику всем пользователям в указанном подразделении, сначала вызывается командлет Get-CsUser, который извлекает все учетные записи в этом подразделении. После извлечения учетных записей пользователей они передаются командлету Grant-CsConferencingPolicy, который назначает политику FinanceConferencingPolicy каждому элементу в коллекции.
   
-```
+```PowerShell
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 

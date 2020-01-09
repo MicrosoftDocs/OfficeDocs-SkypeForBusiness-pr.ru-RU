@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Сводка: блокирование и разблокирование ПИН-кода конференц-связи с телефонным подключением пользователя для Skype для бизнеса Server.'
-ms.openlocfilehash: 600ddcb507c7cb0074a651580c684590fa283602
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbf082fd85780972387cf014573e22996a9edcf0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294283"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992316"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Блокировка и Разблокировка PIN-кода пользователя в Skype для бизнеса Server
  
@@ -94,7 +94,7 @@ ms.locfileid: "34294283"
 
 - Чтобы заблокировать закрепление пользователя, используйте командлет Lock-Ксклиентпин. Пример:
     
-  ```
+  ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
   ```
 
@@ -102,7 +102,7 @@ ms.locfileid: "34294283"
 
 - Чтобы разблокировать закрепление пользователя, используйте командлет Unlock-Ксклиентпин. Например:
     
-  ```
+  ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 

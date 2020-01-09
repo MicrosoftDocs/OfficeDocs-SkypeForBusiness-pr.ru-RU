@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Миграция приложения на приостановке звонков включает в себя подготовку пула приложений Skype для бизнеса Server 2019 со всеми пользовательскими музыкальными файлами, загруженными в устаревшей версии, восстанавливая параметры уровня обслуживания и нацеливание всех орбиты на весь занятие Пул 2019 в Skype для бизнеса Server. Если настроенные на хранение файлы хранятся в пуле, эти файлы необходимо скопировать в новый пул 2019 в Skype для бизнеса Server. Кроме того, рекомендуется создать резервную копию всех настроенных файлов для сохранения музыки на удержании в другой точке назначения, чтобы сохранить отдельные резервные копии всех настроенных музыкальных файлов, которые были отправлены для приостановки звонков. Настроенные на хранение музыкальные файлы для приложения для приостановки звонков хранятся в хранилище файлов пула. Чтобы скопировать звуковые файлы из хранилища файлов пула в хранилище файлов Skype для бизнеса Server 2019, используйте команду xcopy со следующими параметрами:'
-ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0435144fc647a08d8252f35d8449d1e7daa62d68
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238034"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991164"
 ---
 # <a name="migrate-call-park-application-settings"></a>Перенос параметров приложения приостановки звонков
 
@@ -41,7 +41,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
     > [!NOTE]
     > Если параметры приложения для приостановки звонков в Skype для бизнеса Server 2019 идентичны параметрам прежних версий, этот шаг можно пропустить. Если параметры приложения парковки на приостановке в среде для Skype для бизнеса Server 2019 и устаревшие среды отличаются, для обновления этих изменений используйте командлет ниже в качестве шаблона. 
 
-   ```
+   ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
@@ -57,7 +57,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 
 4. Для каждого диапазона на расстоянии по орбите, назначенного устаревшему пулу, измените **полное доменное имя** в параметрах конечного сервера и выберите пул 2019 Skype для бизнеса Server, который будет обрабатывать запросы на остановку звонков. 
 
-5. Нажмите **** кнопку Сохранить, чтобы сохранить изменения. 
+5. Нажмите **кнопку Сохранить,** чтобы сохранить изменения. 
 
 ## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Переназначение всех диапазонов на орбиту на приостановку работы с помощью командной консоли Skype для бизнеса Server
 
@@ -65,7 +65,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 
 2. В командной строке введите следующую команду:
 
-   ```
+   ```PowerShell
    Get-CsCallParkOrbit
    ```
 
@@ -73,7 +73,7 @@ Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServ
 
     Чтобы переназначить диапазон орбиты на приостановку на начало в Skype для бизнеса Server 2019, в командной строке введите следующую команду:
 
-   ```
+   ```PowerShell
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 

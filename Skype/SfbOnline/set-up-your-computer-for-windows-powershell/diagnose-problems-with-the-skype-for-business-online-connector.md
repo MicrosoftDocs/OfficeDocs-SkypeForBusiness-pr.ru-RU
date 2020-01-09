@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615975"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991314"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Диагностика проблем подключения с помощью соединителя Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ ms.locfileid: "37615975"
     
 
 > [!IMPORTANT]
-> По умолчанию сеансы PowerShell превышены по истечении времени (60 минут). Для повторного подключения вам нужно закрыть сеанс и запустить новый сеанс PowerShell. Недавно запущена новая версия [Skype для бизнеса Online, модуль Windows PowerShell (2046,123 — опубликовано 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), включающая новый командлет **Enable-Ксонлинесессионфорреконнектион** , который позволяет уменьшить минуты 60. Ошибка времени ожидания.
+> По умолчанию сеансы PowerShell превышены по истечении времени (60 минут). Для повторного подключения вам нужно закрыть сеанс и запустить новый сеанс PowerShell. Новая версия [Skype для бизнеса Online, модуль Windows PowerShell (2046,123-опубликованные 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), была недавно запущена, в которую входит новый командлет **Enable-ксонлинесессионфорреконнектион** , который позволяет устранить проблемы с истечением времени истечения срока действия 60 минут.
 > Сеанс PowerShell повторно подключается к серверу и проходит проверку подлинности, позволяя его использовать без запуска нового экземпляра для повторного подключения.
 
 
@@ -61,10 +61,10 @@ ms.locfileid: "37615975"
 
 Политика выполнения PowerShell помогает определить, какие файлы конфигурации можно загрузить в консоль PowerShell и какие сценарии пользователь может запустить из этой консоли. Как минимум Модуль соединителя Skype для бизнеса Online невозможно импортировать, если политика выполнения имеет значение RemoteSigned. Если это не так, вы получите следующее сообщение об ошибке при попытке импортировать модуль:
   
-- **Ошибка**: <em>Import-Module: файл C:\\Program\\Files файлы\\. Общие файлы Microsoft\\Lync\\Server\\2013 modules линконлинеконнектор линконлинеконнекторстартуп. PSM1 невозможно загрузить, так как выполняется сценарии отключены в этой системе. Дополнительные сведения можно найти в https://go.microsoft.com/fwlink/?LinkID=135170разделе about_Execution_Policies.</em>
+- **Ошибка**: <em>Import-Module: файл C:\\\\Program Files.\\общие файлы Microsoft Lync\\Server\\2013\\modules линконлинеконнектор линконлинеконнекторстартуп. PSM1 невозможно загрузить, так как в этой системе отключены запущенные сценарии. Дополнительные сведения можно найти в https://go.microsoft.com/fwlink/?LinkID=135170разделе about_Execution_Policies.</em>
 
 - **Разрешение** Чтобы устранить эту проблему, запустите PowerShell с правами администратора, а затем выполните следующую команду:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Сведения о политике выполнения см. в разделе [Сведения о политиках выполнения](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -93,11 +93,11 @@ ms.locfileid: "37615975"
   - **Ошибка**: *Get-Ксвебтиккет: не удалось подключиться к серверам Live ID. Убедитесь, что прокси-сервер включен или компьютер имеет сетевое подключение к серверам Live ID.*
 
 - **Решение**: часто эта ошибка означает, что помощник по входу в Microsoft Online Services не запущен. Вы можете проверить состояние этой службы, запустив следующую команду из командной строки PowerShell: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Если служба не запущена, запустите ее с помощью следующей команды:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 
@@ -160,7 +160,7 @@ ms.locfileid: "37615975"
 
 - **Разрешение**: единственный способ устранить эту проблему — закрыть одно или несколько из предыдущих подключений. По окончании работы с Skype для бизнеса online рекомендуется использовать командлет **Remove-PSSession**, чтобы завершить сеанс. Это поможет предотвратить проблему.  
  
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Настройка компьютера для управления Skype для бизнеса Online с помощью Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

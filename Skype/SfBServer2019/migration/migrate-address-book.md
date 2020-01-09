@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: В общем случае адресная книга переносится вместе с оставшейся частью вашей топологии. Однако вам может потребоваться выполнить некоторые действия после миграции, если в устаревшей среде были настроены указанные ниже компоненты.
-ms.openlocfilehash: 4a3a85715b73c3a6b5996ba677b0647c87a8db1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238055"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990104"
 ---
 # <a name="migrate-address-book"></a>Перенос адресной книги
 
@@ -34,16 +34,16 @@ ms.locfileid: "36238055"
 
  **Для Усенормализатионрулес задано значение false**
 
-Если задать для **усенормализатионрулес** значение false, чтобы пользователи могли использовать номера телефонов, определенные в доменных службах Active Directory, не имея в Skype для бизнеса Server 2019 правила нормализации, необходимо задать **для параметра **Для параметров усенормализатионрулес и **Игнореженерикрулес** значение true. Выполните действия, описанные ниже в этом разделе, чтобы установить для этих параметров значение true. 
+Если задать для **усенормализатионрулес** значение false, чтобы пользователи могли использовать номера телефонов, определенные в доменных службах Active Directory, не имея в Skype для бизнеса Server 2019 применение правил нормализации, необходимо задать для параметров **Усенормализатионрулес** и **игнореженерикрулес** значение true. Выполните действия, описанные ниже в этом разделе, чтобы установить для этих параметров значение true. 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>Миграция настроенных правил нормализации в адресной книге
 
 1. Найдите файл Company_Phone_Number_Normalization_Rules. txt в корне общей папки адресной книги и скопируйте его в корневой каталог общей папки адресной книги в корпоративном пуле Skype для бизнеса Server 2019.
 
     > [!NOTE]
-    > Примеры правил нормализации адресных книг установлены в каталог файлов веб-компонентов ABS. Путь — это **$installedDriveLetter: \Program Files\Microsoft Компонентс\аддресс Book Филес\филес\ Sample_Company_Phone_Number_Normalization_Rules. txt в Skype для бизнеса Server 2019**. Этот файл можно скопировать и переименовать как **Company_Phone_Number_Normalization_Rules. txt** в корневой каталог общей папки адресной книги. Например, адресная книга, доступная в **$serverX**, будет выглядеть примерно так: ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
+    > Примеры правил нормализации адресных книг установлены в каталог файлов веб-компонентов ABS. Путь — это **$installedDriveLetter: \Program Files\Microsoft Skype для бизнеса Server 2019 \ Web Компонентс\аддресс Book филес\филес\ Sample_Company_Phone_Number_Normalization_Rules. txt**. Этот файл можно скопировать и переименовать как **Company_Phone_Number_Normalization_Rules. txt** в корневой каталог общей папки адресной книги. Например, адресная книга, доступная в **$serverX**, будет выглядеть примерно так: ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
 
-2. Откройте файл Company_Phone_Number_Normalization_Rules. txt с помощью текстового редактора (например, блокнота).
+2. Откройте файл Company_Phone_Number_Normalization_Rules. txt с помощью текстового редактора, например Блокнота.
 
 3. Некоторые типы записей не будут правильно работать в Skype для бизнеса Server 2019. Просмотрите файл на предмет типов записей, описанных в этом шаге, внесите необходимые изменения и сохраните изменения в общей папке адресной книги в вашем пилотном пуле.
 
@@ -67,13 +67,13 @@ ms.locfileid: "36238055"
 
    - Если в развертывании есть только Skype для бизнеса Server 2019, выполните следующий командлет на глобальном уровне, чтобы изменить значения **усенормализатионрулес** и **игнореженерикрулес** на true: 
 
-   ```
+   ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
    - Если в развертывании есть сочетание Skype для бизнеса Server 2019 и устаревшая установка, запустите следующий командлет и назначьте его каждому из пулов Skype для Business Server 2019 в топологии.
 
-   ```
+   ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
@@ -85,7 +85,7 @@ ms.locfileid: "36238055"
 
 6. Выполните следующий командлет на каждом пуле 2019 для Business Server в среде Skype.
 
-   ```
+   ```PowerShell
    Update-CsAddressBook
    ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Сводка: сведения о том, как управлять политиками ПИН для конференц-связи с телефонным подключением в Skype для бизнеса Server.'
-ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280357"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992296"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Управление политиками ПИН для конференц-связи с телефонным подключением в Skype для бизнеса Server
  
@@ -47,7 +47,7 @@ ms.locfileid: "34280357"
 
 Для просмотра сведений о политиках ПИН-кодов используйте командлет **Get-CsPinPolicy**. Например, следующая команда возвращает сведения об одной политике ПИН-кода с идентификатором site:Redmond:
   
-```
+```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
@@ -92,7 +92,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 Следующая команда изменяет значение свойства MinPasswordLength для всех политик ПИН-кодов, настроенных для использования в организации. При этом команда сначала вызывает командлет **Get-CsPinPolicy** без каких-либо параметров для получения набора существующих политик ПИН-кодов. Этот набор затем передается в командлет **Set-CsPinPolicy**, который изменяет значение свойства MinPasswordLength для каждой политики в наборе.
   
-```
+```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
@@ -143,7 +143,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 Следующая команда создает новую политику ПИН-кодов с идентификатором site:Redmond. Эта команда включает только один дополнительный параметр, MinPasswordLength, который используется для установки свойства MinPasswordLength в значение 7. Все остальные свойства политики будут настраиваться с использованием значений по умолчанию.
   
-```
+```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
@@ -173,7 +173,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 Следующая команда изменяет политику ПИН-кода, назначенную сайту Redmond. В этом случае команда изменяет значение свойства MinPasswordLength на 10; это означает, что новые ПИН-коды должны содержать по крайней мере 10 цифр:
   
-```
+```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
@@ -199,7 +199,7 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 Следующая команда удаляет все политики ПИН-кодов, которые настроены в области сайта. Для этого используется командлет **Get-CsPinPolicy** с параметром Filter, чтобы получить коллекцию всех политик, свойство Identity которых начинается с "site:". Эта коллекция затем передается командлету **Remove-CsPinPolicy**, который удаляет все политики в коллекции:
   
-```
+```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 

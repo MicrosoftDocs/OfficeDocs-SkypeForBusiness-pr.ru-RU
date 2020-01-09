@@ -11,19 +11,19 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Сводка: назначьте сертификат проверки подлинности серверов на сервер для Skype для бизнеса Server.'
-ms.openlocfilehash: 7198c103a771029ec93e589169fafb652f5d8842
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0332ba66c1cad69470b0007c4d9524a3025e0be7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278351"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991774"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Назначение сертификата для проверки подлинности серверов и серверов в Skype для бизнеса Server
 **Сводка:** Назначьте сертификат для проверки подлинности серверов и серверов для Skype для бизнеса Server.
   
 Чтобы определить, назначен ли сертификат проверки подлинности сервера серверу Skype для бизнеса Server, выполните следующую команду в командной консоли управления Skype для бизнеса Server:
   
-```
+```PowerShell
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
@@ -31,7 +31,7 @@ Get-CsCertificate -Type OAuthTokenIssuer
   
 При отсутствии сертификата, позволяющего проверять подлинность между серверами, можно получить новый сертификат, импортировать его и затем применять для проверки подлинности между серверами. После запроса и получения нового сертификата вы можете войти на любой из своих серверов переднего плана и с помощью команды Windows PowerShell, аналогичной этой, для импорта и назначения этого сертификата.
   
-```
+```PowerShell
 Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 ```
 
@@ -39,7 +39,7 @@ Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificat
   
 Можно также задать в качестве сертификата проверки подлинности между серверами существующий сертификат. (Как отмечено, сертификат по умолчанию можно использовать в качестве сертификата для проверки подлинности сервера и сервера.) В следующей паре команд Windows PowerShell извлекается значение свойства Thumbprint сертификата по умолчанию, а затем используйте это значение, чтобы сделать сертификат по умолчанию сертификатом проверки подлинности сервера и сервера.
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
@@ -50,7 +50,7 @@ Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
   
 Можно также воспользоваться командлетом Set-CsCertificate, чтобы "накатить" новый сертификат. "Накат" означает, что новый сертификат станет текущим сертификатом OAuthTokenIssuer в некоторый определенный момент времени. Например, следующая команда извлекает сертификат по умолчанию и затем делает так, что он становится текущим сертификатом OAuthTokenIssuer 1 июля 2015 г.:
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```
@@ -68,7 +68,7 @@ Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -Effect
     
 2. В мастере развертывания нажмите кнопку **Установка или обновление системы Skype для бизнеса Server**.
     
-3. На странице Skype для бизнеса Server нажмите кнопку **выполнить** под заголовком **Шаг 3: запрос, установка и назначение сертификатов**. (Примечание. Если вы уже установили сертификаты на этом компьютере, нажмите кнопку " **выполнить** ", чтобы **** пометить ее.)
+3. На странице Skype для бизнеса Server нажмите кнопку **выполнить** под заголовком **Шаг 3: запрос, установка и назначение сертификатов**. (Примечание. Если вы уже установили сертификаты на этом компьютере, нажмите кнопку " **выполнить** ", чтобы пометить **ее.)**
     
 4. В мастере сертификатов выберите сертификат **OAuthTokenIssuer**, затем нажмите кнопку **Назначить**.
     

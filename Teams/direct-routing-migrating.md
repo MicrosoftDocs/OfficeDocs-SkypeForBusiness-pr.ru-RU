@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Узнайте, что необходимо для перехода на прямую маршрутизацию применительно к Skype для бизнеса Online и настройке Teams.
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871715"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992586"
 ---
 # <a name="migrate-to-direct-routing"></a>Переход на прямую маршрутизацию
 
@@ -86,7 +86,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Рекомендуется удалить сведения о ранее настроенной маршрутизации голосовй связи, как указано ниже: 
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > Если настроена Глобальная Ксвоицераутингполици, рекомендуется удалить все использование PSTN, связанные с этой глобальной политикой. 
@@ -101,7 +101,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Рекомендуется удалить сведения о ранее настроенной маршрутизации голосовй связи, как указано ниже: 
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

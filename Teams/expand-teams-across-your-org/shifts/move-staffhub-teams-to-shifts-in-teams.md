@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 4a14c7cbca85be266347cd6777ea1108cc63d065
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231260"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992846"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Перемещайте Microsoft StaffHub Teams по сменам в Microsoft Teams
 
@@ -112,7 +112,7 @@ ms.locfileid: "38231260"
 
 Выполните следующую последовательность команд, чтобы получить список всех неактивных учетных записей в StaffHub Teams и экспортировать список в CSV-файл. Каждая команда должна выполняться отдельно.
 
-```
+```PowerShell
 $InvitedUsersObject = @()
 
 $StaffHubTeams = Get-StaffHubTeamsForTenant
@@ -190,18 +190,18 @@ Teams включает встроенную политику настройки 
 
 Чтобы переместить группу StaffHub, выполните указанные ниже действия.
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
 Образом
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 Ниже приведен пример ответа, который вы получаете, когда вы отправляете запрос на перемещение группы StaffHub в Teams.
 
-```
+```output
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -209,18 +209,18 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c070847
 
 Чтобы проверить состояние запроса на перемещение, выполните указанные ниже действия.
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
 Образом
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 ```
 
 Ниже приведен пример ответа, который вы получаете при выполнении перемещения.
 
-```
+```output
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -240,13 +240,13 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a
 
 С помощью командлета [Connect-пнпонлине](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) подключитесь к сайту группы SharePoint Online.
 
-```
+```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
 Для каждого файла, который вы хотите переместить из StaffHub в Teams, используйте командлет [Move-пнпфиле](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) , чтобы переместить файл.
 
-```
+```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
 ```
 
@@ -266,7 +266,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 
 Выполните указанные ниже действия, чтобы получить список всех групп StaffHub в вашей организации.
 
-```
+```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
@@ -274,7 +274,7 @@ $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 
 Затем выполните указанные ниже действия, чтобы переместить все команды.
 
-```
+```PowerShell
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -282,7 +282,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 Для любой команды, которая уже была перемещена в Teams или уже существует в Teams, идентификатором jobId будет "null", так как задание не нужно отправлять для перемещения этой команды.
 
-```
+```output
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
@@ -293,7 +293,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 
 Выполните указанные ниже действия, чтобы получить список всех идентификаторов участников группы StaffHub в вашей организации.
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
@@ -307,7 +307,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 
 Создав CSV-файл, выполните указанные ниже действия, чтобы переместить указанные в CSV-файл команды.
 
-```
+```PowerShell
 $StaffHubTeams = Import-Csv .\teams.csv
 
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
@@ -317,7 +317,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 Выполните указанные ниже действия, чтобы получить список всех команд в сменах в вашей организации. 
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
@@ -335,7 +335,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 Чтобы получить дополнительные сведения об ошибках, возникающих при попытке переместить группу, выполните указанные ниже действия.
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <TeamId>
 
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
@@ -347,7 +347,7 @@ $res.Status
 
 Если возвращено значение "сбой", выполните указанные ниже действия, чтобы получить дополнительные сведения об ошибке.
 
-```
+```PowerShell
 $res.Result.Error.Innererror
 ```
 
@@ -367,7 +367,7 @@ $res.Result.Error.Innererror
 
 Выполните следующую команду, чтобы добавить общую папку в SharePoint, а затем повторите попытку.
 
-  ```
+  ```PowerShell
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 

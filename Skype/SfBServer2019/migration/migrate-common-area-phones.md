@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Обычные телефоны — это IP-телефоны, которые чаще всего находятся в общей рабочей области или в общей области, например в зале ожидания, кухни или фабрики. Для поддержки функций объединенных коммуникаций в Skype для бизнеса Server не нужно подключаться к компьютеру с помощью обычных телефонов. После миграции развертывания на Skype для бизнеса Server 2019 необходимо также перенести объекты контактов, связанные с устаревшим стандартным телефонным пространством. С помощью командной консоли Skype для бизнеса Server вы сначала получите все объекты контактов, связанные с устаревшими телефонными устройствами, а затем переместите эти объекты в пул Skype для бизнеса Server 2019.
-ms.openlocfilehash: 123f0a73da65e7d661541c6c4bec65481bf12f0c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f268c22f1d1132b3b5b8c1c1676e5b3a0182cf3f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238027"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991154"
 ---
 # <a name="migrate-common-area-phones"></a>Миграция телефонов общего пользования
 
@@ -26,13 +26,13 @@ ms.locfileid: "36238027"
     
 2. В командной строке введите следующую команду:
     
-   ```
+   ```PowerShell
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
    ```
 
 3. Чтобы убедиться в том, что все объекты контакта были перемещены в пул Skype для бизнеса Server 2019, в командной консоли управления Skype для бизнеса Server введите следующую команду:
     
-   ```
+   ```PowerShell
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 

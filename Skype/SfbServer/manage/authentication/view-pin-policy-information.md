@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Сводка: Просмотр сведений о политике PIN-кода пользователя в Skype для бизнеса Server.'
-ms.openlocfilehash: 5f6269b766748d5027c0a8182dd027754cd5cc00
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c61c55f97abc661558089c1d26ee4f5537fcf36b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297591"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991954"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Просмотр сведений о политике контактов в Skype для бизнеса Server
  
@@ -44,7 +44,7 @@ ms.locfileid: "34297591"
 
 Чтобы просмотреть сведения обо всех политиках для ПИН-кода, введите в командной консоли Skype для Business Server указанную ниже команду и нажмите клавишу ВВОД.
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy
   ```
 

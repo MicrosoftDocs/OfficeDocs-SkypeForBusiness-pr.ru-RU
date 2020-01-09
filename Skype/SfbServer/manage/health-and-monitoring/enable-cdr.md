@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Сводка: сведения о том, как включить запись сведений о звонке (CDR) в Skype для бизнеса Server.'
-ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767061"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992949"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Включение записи сведений о звонках в Skype для бизнеса Server
 
@@ -49,7 +49,7 @@ ms.locfileid: "36767061"
 
  Чтобы отключить CDR, задайте для параметра EnableCDR значение True ($True).
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -57,7 +57,7 @@ ms.locfileid: "36767061"
 
  Чтобы отключить CDR, задайте для параметра EnableCDR значение False ($False). Отключение CDR не приводит к удалению мониторинга. Оно приостанавливает сбор и сохранение данных CDR.
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "36767061"
 
  Эта команда включает CDR для всех параметров конфигурации CDR, используемых в настоящее время в организации.
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

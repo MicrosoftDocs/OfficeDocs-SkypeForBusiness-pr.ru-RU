@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Сводка: Настройка двухфакторной проверки подлинности в Skype для бизнеса Server.'
-ms.openlocfilehash: 91a8929b89a584b116f1c7ec9313daa2fe679fd0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 768ee9c2697523eff6922f20fd610554e32c1f7c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283842"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992336"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Настройка двухфакторной проверки подлинности в Skype для бизнеса Server
 
@@ -78,7 +78,7 @@ ms.locfileid: "34283842"
 
 5. Откройте консоль управления TPM, выполнив следующую команду:
 
-  ```
+  ```console
   Tpm.msc
   ```
 
@@ -91,7 +91,7 @@ ms.locfileid: "34283842"
 
 8. Создайте новую виртуальную смарт-карту, введя в командную строку следующую команду:
 
-  ```
+  ```console
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
@@ -100,7 +100,7 @@ ms.locfileid: "34283842"
 
 9. Откройте консоль управления компьютером, введя в командную строку следующую команду:
 
-  ```
+  ```console
   CompMgmt.msc
   ```
 
@@ -177,7 +177,7 @@ ms.locfileid: "34283842"
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>Настройка служб федерации Active Directory (AD FS 2.0)
 
-В этом разделе рассматривается настройка служб федерации Active Directory (AD FS 2.0) для поддержки многофакторной проверки подлинности. Сведения о том, как установить AD FS 2,0, можно найти в статье пошаговые инструкции для [AD fs 2,0 и инструкции](https://go.microsoft.com/fwlink/p/?LinkId=313374).
+В этом разделе рассматривается настройка служб федерации Active Directory (AD FS 2.0) для поддержки многофакторной проверки подлинности. Сведения о том, как установить AD FS 2,0, можно найти в [статье пошаговые инструкции для AD fs 2,0 и инструкции](https://go.microsoft.com/fwlink/p/?LinkId=313374).
 
 > [!NOTE]
 > При установке AD FS 2.0 не добавляйте роль службы федерации Active Directory с помощью диспетчера серверов Windows. Вместо этого загрузите и установите [пакет служб федерации Active Directory 2,0 RTW](https://go.microsoft.com/fwlink/p/?LinkId=313375).
@@ -190,13 +190,13 @@ ms.locfileid: "34283842"
 
 3. Введите в командной строке Windows PowerShell следующую команду:
 
-  ```
+  ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
   ```
 
 4. Установите партнерское отношение с каждым сервером, на котором будет разрешена пассивная проверка подлинности; для этого выполните следующую команду, указав имя сервера в конкретном развертывании:
 
-  ```
+  ```PowerShell
   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -208,22 +208,22 @@ ms.locfileid: "34283842"
 
 8. С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения авторизации:
 
-  ```
+  ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
 9. С помощью Windows PowerShell и следующих команд создайте и назначьте для отношения доверия с проверяющей стороны правило утверждения преобразования:
 
-  ```
+  ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
@@ -241,7 +241,7 @@ ms.locfileid: "34283842"
 
 - Проверка подлинности клиента по протоколу TLS
 
-На основе проверки подлинности по формам можно разработать веб-страницу, где подлинность пользователей будет проверяться по имени и паролю или по смарт-карте и PIN‑коду. В этой статье рассматривается преимущественно реализация проверки подлинности клиента по протоколу TLS с помощью AD FS 2.0. Дополнительные сведения о типах проверки подлинности AD FS 2,0 можно найти в статье [AD fs 2,0: как изменить тип локальной проверки](https://go.microsoft.com/fwlink/p/?LinkId=313384)подлинности.
+На основе проверки подлинности по формам можно разработать веб-страницу, где подлинность пользователей будет проверяться по имени и паролю или по смарт-карте и PIN‑коду. В этой статье рассматривается преимущественно реализация проверки подлинности клиента по протоколу TLS с помощью AD FS 2.0. Дополнительные сведения о типах проверки подлинности AD FS 2,0 можно найти в статье [AD fs 2,0: как изменить тип локальной проверки подлинности](https://go.microsoft.com/fwlink/p/?LinkId=313384).
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>Настройка AD FS 2.0 для поддержки проверки подлинности клиента
 
@@ -269,7 +269,7 @@ ms.locfileid: "34283842"
 
 11. Перезапустите службу IIS, выполнив следующую команду:
 
-  ```
+  ```console
   IISReset /Restart /NoForce
   ```
 
@@ -292,7 +292,7 @@ ms.locfileid: "34283842"
 
 3. В командной строке консоли управления Skype для бизнеса Server создайте новую конфигурацию веб-службы для каждого режиссера, корпоративного пула и сервера Standard Edition, для которых будет включена пассивная проверка подлинности, выполнив следующую команду:
 
-  ```
+  ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -301,19 +301,19 @@ ms.locfileid: "34283842"
 
 4. Проверьте правильность значений UseWsFedPassiveAuth и WsFedPassiveMetadataUri, выполнив следующую команду:
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
 5. Для клиентов пассивная проверка подлинности является наименее предпочтительным способом проверки подлинности WebTicket. Для всех режиссеров, корпоративных пулов и серверов Standard Edition, для которых будет включена пассивная проверка подлинности, для веб-служб Skype для бизнеса необходимо отключить все другие типы проверки подлинности, выполнив следующий командлет:
 
-  ```
+  ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
 6. Убедитесь в том, что все остальные типы проверки подлинности успешно отключены, выполнив следующую команду:
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
   ```
 
@@ -327,17 +327,17 @@ ms.locfileid: "34283842"
 
 1. В командной строке консоли управления Skype для бизнеса Server создайте новую конфигурацию прокси-сервера для каждого пула Edge для Skype для Business Server, корпоративного пула и стандартного выпуска, которые будут включены для пассивной проверки подлинности, выполнив указанные ниже действия. команды
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. Убедитесь, что все остальные типы проверки подлинности прокси-сервера успешно отключены, выполнив следующую команду:
 
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 

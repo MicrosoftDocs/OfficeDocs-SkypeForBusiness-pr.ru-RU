@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Сводка: сведения о том, как установить обновление или исправление на сервер с обратной стороны в Skype для бизнеса Server.'
-ms.openlocfilehash: b8a0280577147e37c52ab11aa3061541bae27610
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a88224c508426d16217adb87693515314b03e40f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275124"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991504"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Исправление или обновление сервера обратного или стандартного выпуска Standard в Skype для бизнеса Server
  
@@ -35,13 +35,13 @@ ms.locfileid: "34275124"
     
 4. Остановите службы Skype для бизнеса Server. В командной строке выполните следующую команду:
     
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     ```
 
 5. Остановите службу Интернета. В командной строке выполните следующую команду:
     
-    ```
+    ```PowerShell
     net stop w3svc
    ```
 
@@ -53,13 +53,13 @@ ms.locfileid: "34275124"
     
 9. Остановите службы Skype для бизнеса Server, чтобы перехватить сборки d глобального кэша сборок (GAC). В командной строке выполните следующую команду:
     
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     ```
 
 10. Перезапустите службу Интернета. В командной строке выполните следующую команду:
     
-    ```
+    ```PowerShell
     net start w3svc
     ```
 
@@ -67,19 +67,19 @@ ms.locfileid: "34275124"
     
     - Если это сервер выпуска Enterprise Edition и на нем нет размещенных на нем баз данных, таких как архивация и мониторинг баз данных, введите в командной строке следующую команду:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
     - Если этот сервер выпуска Enterprise Edition и на нем есть размещенные на сервере базы данных, введите в командной строке следующее:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
     - Если это сервер Standard Edition, введите в командной строке следующее:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -LocalDatabases
 
     ```

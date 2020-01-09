@@ -11,21 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Сводка: сведения о том, как управлять сохраняемым сервером в режиме высокой доступности и аварийным восстановлением в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418707"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991984"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление высокой доступностью и аварийным восстановлением для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
 **Сводка:** Сведения о том, как управлять сохраняемым сервером в режиме высокой доступности и аварийным восстановлением в Skype для бизнеса Server 2015.
   
-В этой статье описано, как переключиться на сохраняемый сервер чата и вернуть этот отказ. Перед тем как читать этот раздел, не забудьте прочитать [план для обеспечения высокой доступности и аварийного восстановления для постоянного сервера чата в Skype для бизнеса server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) и [Настройте режим высокой доступности и аварийного восстановления для постоянного сервера чата в Skype для Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+В этой статье описано, как переключиться на сохраняемый сервер чата и вернуть этот отказ. Перед тем как читать этот раздел, не забудьте прочитать [план для обеспечения высокой доступности и аварийного восстановления для постоянного сервера чата в Skype для бизнеса server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) и [Настройте режим высокой доступности и аварийного восстановления для постоянного сервера чата в Skype для бизнеса Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Переключение на сохраняемый сервер чата
 
@@ -55,7 +55,7 @@ ms.locfileid: "35418707"
     
    - Используйте следующую команду для сброса доставки журналов:
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -133,7 +133,7 @@ ms.locfileid: "35418707"
     
    - В поле **Имя** оставьте имя резервного набора данных по умолчанию или введите другое имя.
     
-   -  * \<\> Необязательный*  В поле **Описание**введите описание набора резервных копий.
+   -  * \<Необязательный\> *  В поле **Описание**введите описание набора резервных копий.
     
    - Удалите расположение резервной копии по умолчанию из списка назначений.
     
@@ -170,7 +170,7 @@ ms.locfileid: "35418707"
   
 Чтобы восстановить обычное состояние пула, выполните следующую команду Windows PowerShell:
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

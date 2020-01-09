@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Сведения о том, когда требуется обнаружение электронных данных, например при передаче всей информации, хранящейся в электронной форме, для судебных разбирательств.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 43105db9a4e12d658bf5cf2e9c2c8897fdc918e3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069190"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989794"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Обнаружение электронных данных в Microsoft Teams
 ============================
@@ -67,18 +67,18 @@ ms.locfileid: "40069190"
 
 1. Выполните указанные ниже действия, чтобы получить список всех семейств веб-сайтов SharePoint, связанных с частными каналами в команде.
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. Запустите следующий сценарий PowerShell, чтобы получить список всех URL-адресов семейств веб-сайтов SharePoint, связанных с частными каналами в команде и ИДЕНТИФИКАТОРом родительской группы групп.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. Для каждой команды или идентификатора группы выполните следующий сценарий PowerShell для идентификации всех соответствующих сайтов личного канала, где $groupID является ИДЕНТИФИКАТОРом группы для группы.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -90,12 +90,12 @@ ms.locfileid: "40069190"
 
 1. Выполните указанные ниже действия, чтобы получить список частных каналов в команде.
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. Выполните указанные ниже действия, чтобы получить список участников личного канала.
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. Добавьте в запрос поиска eDiscovery почтовые ящики всех участников группы из любого закрытого канала.

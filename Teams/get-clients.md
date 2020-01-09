@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970977"
+ms.locfileid: "40990854"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Работа с клиентами для Microsoft Teams 
 
@@ -114,7 +114,7 @@ ms.locfileid: "40970977"
 
 #### <a name="install-teams-using-deb-package"></a>Установка Teams с помощью пакета DEB
 
-1. Скачайте пакет https://aka.ms/getteams. (Предварительная версия клиента Linux ограничена, и он будет запущен в ближайшее время. Если вы не видите клиент Linux на странице Загружаемые файлы, он пока еще не запущен.)
+1. Скачайте пакет https://aka.ms/getteams.
 2. Установите одно из указанных ниже действий.  
     - Откройте средство для управления пакетом и пройдите по установке самоуправляемого приложения для Linux.
     - Или, если вы любите контакт, введите:`sudo apt install **teams download file**`
@@ -123,12 +123,50 @@ ms.locfileid: "40970977"
 
 #### <a name="install-teams-using-rpm-package"></a>Установка Teams с помощью пакета RPM
 
-1. Скачайте пакет https://aka.ms/getteams. (Предварительная версия клиента Linux ограничена, и он будет запущен в ближайшее время. Если вы не видите клиент Linux на странице Загружаемые файлы, он пока еще не запущен.)
+1. Скачайте пакет https://aka.ms/getteams.
 2. Установите одно из указанных ниже действий.
     - Откройте средство для управления пакетом и пройдите по установке самоуправляемого приложения для Linux.
     - Или, если вы любите контакт, введите:`sudo yum install **teams download file**`
 
 Вы можете запускать команды с помощью действий или через терминал, `Teams`вводя текст.
+
+#### <a name="install-manually-from-the-command-line"></a>Установка вручную из командной строки
+
+Установка вручную в Debian и Ubuntu:
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+ 
+sudo apt update
+sudo apt install teams
+```
+
+Установка вручную на основе РХЕЛ, Fedora и Центос для дистрибутивов:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
+ 
+sudo dnf check-update
+sudo dnf install teams
+```
+
+Атернативели, чтобы использовать Юм вместо ДНФ:
+```
+yum check-update
+sudo yum install teams
+```
+
+Установка вручную в дистрибутивах на базе openSUSE:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
+ 
+sudo zypper refresh
+sudo zypper install teams
+```
 
 ## <a name="web-client"></a>Веб-клиент 
 

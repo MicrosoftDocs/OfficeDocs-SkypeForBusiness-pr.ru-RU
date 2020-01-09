@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Сводка: сведения о том, как использовать запись сведений о звонке (CDR) в Skype для бизнеса Server.'
-ms.openlocfilehash: e0aed0c26672b83cb223ba763eb6224025d68118
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 976f61ac98cb02a0cd69750a581bfa5190156ff7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279650"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991684"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Просмотр сведений о конфигурации CDR в Skype для бизнеса Server
  
@@ -39,7 +39,7 @@ ms.locfileid: "34279650"
 
 - Чтобы просмотреть сведения о всех параметрах конфигурации CDR, введите в командной консоли Skype для Business Server указанную ниже команду и нажмите клавишу ВВОД.
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration
   ```
 

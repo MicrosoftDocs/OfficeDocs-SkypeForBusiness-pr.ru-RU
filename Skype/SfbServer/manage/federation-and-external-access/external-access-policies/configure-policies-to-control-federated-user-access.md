@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Если вы настраиваете политики для поддержки взаимодействия с федеративными партнерами, политики применяются к пользователям федеративных доменов. '
-ms.openlocfilehash: 00552dfd6e2cb92d1bd50cb851bfb8324122c5ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280168"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991764"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Настройка политик для управления доступом федеративных пользователей в Skype для бизнеса Server
 
@@ -69,7 +69,7 @@ ms.locfileid: "34280168"
 
 3.  В командной консоли Skype для бизнеса Server введите следующую команду:
     
-    ```
+    ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
     ```
        
@@ -86,13 +86,13 @@ ms.locfileid: "34280168"
 
 3.  В командной консоли Skype для бизнеса Server введите следующую команду:
     
-    ```
+    ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     ```
     
     Ниже приведен пример создания новой политики сайта.
     
-    ```
+    ```PowerShell
     New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
 

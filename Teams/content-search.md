@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Узнайте о поиске контента в Microsoft Teams, а также о том, как выполнять поиск по каналам связи в Exchange, отправлять файлы и изменения из SharePoint и вносить изменения в OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231160"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991084"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Поиск контента в Microsoft Teams
 =====================================
@@ -54,18 +54,18 @@ ms.locfileid: "38231160"
 
 1. Выполните указанные ниже действия, чтобы получить список всех семейств веб-сайтов SharePoint, связанных с частными каналами в команде.
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. Запустите следующий сценарий PowerShell, чтобы получить список всех URL-адресов семейств веб-сайтов SharePoint, связанных с частными каналами в команде и ИДЕНТИФИКАТОРом родительской группы групп.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. Для каждого кода группы или группы выполните следующий сценарий PowerShell для идентификации всех соответствующих сайтов закрытого канала.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -77,12 +77,12 @@ ms.locfileid: "38231160"
 
 1. Выполните указанные ниже действия, чтобы получить список частных каналов в команде.
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. Выполните указанные ниже действия, чтобы получить список участников личного канала.
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. Включите в поисковый запрос содержимого почтовые ящики всех участников группы из любого закрытого канала.

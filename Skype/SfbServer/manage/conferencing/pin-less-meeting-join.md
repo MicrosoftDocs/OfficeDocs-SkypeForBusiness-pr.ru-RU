@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Сводка: сведения о том, как настроить параметр присоединения к собранию без контактов в Skype для бизнеса Server.'
-ms.openlocfilehash: ecd1d2bf184dd6b9e1ff78e16c2ca1eb8da73ef9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b8ad452f54785a916ac70acd468458215135934
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280385"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991794"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Настройка присоединения к собранию без ПИН-кода в Skype для бизнеса Server
  
@@ -45,19 +45,19 @@ ms.locfileid: "34280385"
 
 Чтобы включить присоединение к собранию без контактов для пользователей, используйте командлет [Set-ксдиалинконференЦингконфигуратион](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) с параметром аллованонимауспстнактиватион, как описано ниже.
   
-```
+```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
 ```
 
 Например, следующая команда включает присоединение к собранию без ПИН-кода для сайта Redmond:
   
-```
+```PowerShell
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
 Когда присоединение к собранию без ПИН-кода включено, в целях безопасности можно запретить анонимным пользователям присоединяться к собранию обратным звонком. Для этого политику конференц-связи следует настроить следующим образом.
   
-```
+```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 

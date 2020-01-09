@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: В этой статье рассказывается о том, как прямая маршрутизация Microsoft Phone System позволяет подключить поддерживаемый клиентский контроллер границ (SBC) к телефонной системе Microsoft.
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257478"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995119"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -116,6 +116,14 @@ IP-адреса и порты брандмауэра для носителей M
 Дополнительные сведения о лицензировании телефонной системы можно найти в [статьях получение максимально возможного из Office с помощью параметров плана office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) и [Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
 Дополнительные сведения о лицензировании телефонной системы можно найти [в разделе Лицензирование надстроек Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+
+## <a name="supported-end-points"></a>Конечные точки, Поддерживаемые 
+
+Вы можете использовать как конечную точку.
+- Любые команды клеинтг. 
+- Общие телефоны, Плесе см. [в разделе Настройка лицензий на общие телефонные номера для Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones). Примечание. вам не требуется лицензия на план звонков, если вы настраиваете обычный телефон с прямой маршрутизацией.
+- 3PIP Телефоны Skype для бизнеса. Ознакомьтесь со статьей [Поддержка телефонов Skype для бизнеса (3PIP) в Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
 
 ## <a name="sbc-domain-names"></a>Доменные имена SBC
 

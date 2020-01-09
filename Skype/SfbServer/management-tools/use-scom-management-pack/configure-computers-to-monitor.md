@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Сводка: Установите на компьютере с операционной системой Skype для Business Server 2015 файлы агента Operations Manager и настройте компьютер так, чтобы он действовал как прокси System Center.'
-ms.openlocfilehash: 15a1be4473295f448b0498072aacdee03af88d06
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5279924c29e8dba11882ca7d172c06894a7808b8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277694"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992476"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Настройка компьютеров Skype для бизнеса Server для мониторинга
 
@@ -44,7 +44,7 @@ ms.locfileid: "34277694"
 
 5. На странице "Конфигурация группы управления" выберите **Указать сведения о группе управления** и нажмите кнопку **Далее**.
 
-6. На странице Конфигурация группы управления введите имя группы управления Operations Manager в поле **имя группы управления** , а затем введите имя узла сервера Operations Manager (например, ATL-SCOM-001) на **сервере управления. **поле. Если номер порта, используемый программой Operations Manager, изменен, введите новый номер порта в поле **Порт сервера управления**. В противном случае оставьте для порта значение по умолчанию 5723, затем нажмите кнопку **Далее**.
+6. На странице Конфигурация группы управления введите имя группы управления Operations Manager в поле **имя группы управления** , а затем введите имя узла сервера Operations Manager (например, ATL-SCOM-001) в поле **сервер управления** . Если номер порта, используемый программой Operations Manager, изменен, введите новый номер порта в поле **Порт сервера управления**. В противном случае оставьте для порта значение по умолчанию 5723, затем нажмите кнопку **Далее**.
 
 7. На странице "Учетная запись действий агента" выберите **Локальная система** и нажмите кнопку **Далее**.
 
@@ -57,7 +57,7 @@ ms.locfileid: "34277694"
 11. Нажмите кнопку **Выход**.
 
 Чтобы проверить, создан ли агент System Center 2012, нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **System Center Operations Manager 2012**, а затем — команду **Operations 2012 Manager Shell**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+```PowerShell
 Get-SCOMAgent
 ```
 

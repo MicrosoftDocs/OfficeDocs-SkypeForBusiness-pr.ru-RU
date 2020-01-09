@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Сводка: Настройка приложения для локального партнера в Skype для бизнеса Server.'
-ms.openlocfilehash: 9cd6272b164a6c7fa42430905127b38c5acbc7be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8f735de5c988dfea0da1adacdc4a77200d3a663d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285521"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992346"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Настройка приложения для локального партнера в Skype для бизнеса Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "34285521"
   
 После назначения сертификата Оаустокениссуер вы должны настроить партнерские приложения Skype для бизнеса Server. (В соответствии с инструкциями, описанными в разделе Настройка сервера Microsoft Exchange Server 2013 и SharePoint для использования в качестве партнерских приложений, которые являются необязательными.) Чтобы настроить локальное приложение партнера, необходимо скопировать следующий сценарий Windows PowerShell и вставить его в Блокнот (или любой другой текстовый редактор).
   
-```
+```PowerShell
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
    {
        Remove-CsPartnerApplication app
@@ -76,19 +76,19 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
   
 Если посмотреть на последнюю строку скрипта, можно заметить, что командлет Set-CsOAuthConfiguration вызывается помощью следующего синтаксиса:
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
 Поскольку параметр Realm не использовался при вызове Set-CsOAuthConfiguration, область устанавливается автоматически как полное доменное имя организации (например, litwareinc.com). Если имя области отличается от имени организации, нужно указать имя области, например:
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
 После внесения этих изменений вы можете выполнить сценарий и настроить оба сервера Exchange 2013 и SharePoint как партнерские приложения, запустив файл сценария в командной консоли Skype для бизнеса Server. Например:
   
-```
+```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
@@ -96,7 +96,7 @@ C:\Scripts\ServerToServerAuth.ps1
   
 При выполнении этого скрипта может отображаться сообщение об ошибке, похожее на следующее:
   
-```
+```PowerShell
 New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Exception setting "MetadataUrl": "The metadata document could not be downloaded from the URL in the MetadataUrl parameter or downloaded data is not a valid metadata document."
 ```
 
@@ -106,7 +106,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
   
 Чтобы настроить приложение Skype для бизнеса Server в качестве партнера для Exchange, откройте командную консоль Exchange и выполните команду, подобную следующей.
   
-```
+```PowerShell
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"
 ```
 

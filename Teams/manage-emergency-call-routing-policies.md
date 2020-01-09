@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики маршрутизации вызовов экстренного реагирования и управлять ими в Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998807"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992716"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Управление политиками маршрутизации вызова экстренной помощи в Microsoft Teams
 
@@ -105,15 +105,15 @@ ms.locfileid: "39998807"
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить Граупобжектид определенной группы.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso HR"
 ```
 Получение участников указанной группы.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Назначьте всем пользователям в группе определенную политику групп. В данном примере это политика маршрутизации для экстренных вызовов.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
@@ -124,7 +124,7 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergenc
 
 В этом примере показано, как назначить на сайт site1 политику с именем политики маршрутизации для вызова экстренной помощи.
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 

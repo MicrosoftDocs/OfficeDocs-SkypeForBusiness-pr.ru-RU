@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: Сводка. сведения о том, как управлять номерами доступа для конференц-связи с телефонным подключением в Skype для бизнеса Server.
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289036"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991924"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Управление номерами доступа для конференц-связи с телефонным подключением в Skype для бизнеса Server
  
@@ -47,7 +47,7 @@ ms.locfileid: "34289036"
   
 Следующая команда возвращает коллекцию всех номеров доступа конференц-связи с телефонным подключением, настроенных для использования в Организации. 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Regions            : {US}
   
 Приведенная ниже команда изменяет значение свойства DisplayName для номера доступа к конференц-связи с телефонным подключением с идентификатором sip:RedmondDialIn@litwareinc.com. В этом примере в качестве отображаемого имени задается "Redmond Dial-In Access Number" (Номер для телефонного подключения в г. Редмонд).
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 Команда, показанная в следующем примере, изменяет номер доступа к конференц-связи с телефонным подключением с идентификатором sip:RedmondDialIn@litwareinc.com, добавляя города Redmond (Редмонд) и Seattle (Сиэтл). Для указания городов используется параметр Regions и названия городов (два строковых значения, разделенных запятыми). Обратите внимание, что эта команда завершится с ошибкой, если города Redmond (Редмонд) и Seattle (Сиэтл) не определены в абонентских группах.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 Приведенная ниже команда служит для удаления номера доступа к конференц-связи с телефонным подключением с идентификатором sip:RedmondDialInAccess@litwareinc.com:
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 Следующая команда служит для удаления всех номеров доступа к конференц-связи с телефонным подключением, связанных с регионом "Северо-запад":
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 Следующая команда служит для удаления всех номеров доступа к конференц-связи с телефонным подключением, для которых итальянский — основной язык:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

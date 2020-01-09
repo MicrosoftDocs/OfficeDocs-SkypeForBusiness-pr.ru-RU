@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Сводка: сведения о операции получения элемента, которая входит в состав службы номенклатур. Служба item входит в API репозитория для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: bfd5015603ac73fb48c4e30635cf8ae0fb14bf13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 208ad3d1852ab58b7fcd0d01eeb440097328f733
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274718"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992676"
 ---
 # <a name="get-item"></a>Получение элемента
  
@@ -46,7 +46,7 @@ ms.locfileid: "34274718"
   
  **Тело ответа** — ниже показан пример полезных данных ответа в JSON.
   
-```
+```json
 {
 "itemId": 1652,
 "userId": 0,

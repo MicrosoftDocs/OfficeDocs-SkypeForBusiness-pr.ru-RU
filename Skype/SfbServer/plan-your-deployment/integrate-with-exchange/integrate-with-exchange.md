@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Аннотация: Ознакомьтесь с этой статьей для получения сведений о том, как интегрировать Skype для бизнеса Server с Exchange Server 2016 или Exchange Server 2013.'
-ms.openlocfilehash: f62ad2475fe17668e82b06b1b4a0f19b6a2ee7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 54a079a550b1c915d9ffc124b1608a3fd3f2a5ef
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297402"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991484"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Планирование интеграции Skype для бизнеса и Exchange
  
@@ -50,7 +50,7 @@ ms.locfileid: "34297402"
     
 Для интеграции Skype для бизнеса Server и Exchange Server необходимо настроить службу автообнаружения. Вы можете проверить, настроена ли служба автообнаружения, выполнив следующую команду в командной консоли Exchange Server Management Shell и проверив значение свойства Аутодисковерсервицеинтерналури:
   
-```
+```PowerShell
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
 ```
 
@@ -58,15 +58,15 @@ Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Fo
   
 URI автообнаружения можно назначить с помощью следующей команды:
   
-```
+```PowerShell
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
 Подробные сведения о службе автообнаружения можно найти в статьях [Служба автообнаружения](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-После настройки службы автообнаружения вы должны изменить параметры конфигурации OAuth для сервера Skype для бизнеса Server; Это гарантирует, что Skype для бизнеса Server знает, где найти службу автообнаружения. Чтобы изменить параметры конфигурации OAuth в Skype для бизнеса Server, выполните следующую команду в командной консоли управления Skype для бизнеса Server. При выполнении этой команды убедитесь, что вы указали универсальный код ресурса (URI) для службы автообнаружения, запущенной на сервере Exchange, и что вы используете функцию **автообнаружения. svc** , чтобы указать расположение службы вместо **автообнаружения. XML** (указывающий на XML-файл). используется службой):
+После настройки службы автообнаружения вы должны изменить параметры конфигурации OAuth для сервера Skype для бизнеса Server; Это гарантирует, что Skype для бизнеса Server знает, где найти службу автообнаружения. Чтобы изменить параметры конфигурации OAuth в Skype для бизнеса Server, выполните следующую команду в командной консоли управления Skype для бизнеса Server. При выполнении этой команды убедитесь, что вы указали универсальный код ресурса (URI) для службы автообнаружения, запущенной на сервере Exchange, и что вы используете функцию **автообнаружения. svc** , чтобы указать расположение службы вместо **автообнаружения. XML** (указывающий на XML-файл, используемый службой):
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
 ```
 
@@ -81,7 +81,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 Помимо настройки службы автообнаружения, необходимо также создать DNS-запись для службы, указывающей на сервер Exchange. Например, если служба автообнаружения находится на autodiscover.litwareinc.com, вам потребуется создать запись DNS для autodiscover.litwareinc.com, которая разрешается в полное доменное имя сервера Exchange (например, atl-exchange-001.litwareinc.com).
   
-Если вы используете Skype для бизнеса Server в Exchange Online, выполните указанные ниже действия, чтобы [настроить интеграцию между локальными приложениями Skype для бизнеса Server и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), в противном случае ознакомьтесь со статьей [интеграция Skype для бизнеса Server с Exchange Server (сервер](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)).
+Если вы используете Skype для бизнеса Server в Exchange Online, выполните указанные ниже действия для [настройки интеграции между локальными приложениями Skype для бизнеса Server и Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), в противном случае ознакомьтесь со статьей [интеграция Skype для бизнеса Server и Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Поддержка функций
 <a name="feature_support"> </a>
@@ -119,7 +119,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 [Настройка подключения по протоколу OAuth между Skype для бизнеса Online и локальной системой Exchange](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
 
-[Интеграция сервера Skype для бизнеса с сервером Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
+[Интеграция Skype для бизнеса Server с Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 [Интеграция Exchange Server 2013 с Lync Server 2013, Skype для бизнеса Online или Lync Server 2013 гибридное развертывание](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: Сводка. Узнайте, как оценить возможности моего звонка в Skype для бизнеса Server.
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279860"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991744"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Оцените мой звонок в Skype для бизнеса Server
 
@@ -51,7 +51,7 @@ ms.locfileid: "34279860"
 
 Никаких действий, необходимых для включения базового компонента, не требуется, но если вы хотите включить пользовательскую обратную связь, вам нужно будет включать ее отдельно. Следующий командлет Windows PowerShell — это пример включения настраиваемой обратной связи с конечным пользователем и изменения интервала с 10 до 80%.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -77,34 +77,34 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 |стр  <br/> | Размытое изображение <br/> |
 |24  <br/> | Блеклые цвета <br/> |
 |24  <br/> | Затемненное видео <br/> |
-|101  <br/> |Аудио_силентлокал  <br/> |
-|102  <br/> |Аудио_силентремоте  <br/> |
-|103  <br/> |Аудио_ечо  <br/> |
-|104  <br/> |Аудио_баккграундноисе  <br/> |
-|105  <br/> |Аудио_ловсаунд  <br/> |
-|106  <br/> |Аудио_дроппед  <br/> |
-|107  <br/> |Аудио_дистортедспич  <br/> |
-|108  <br/> |Аудио_интерруптед  <br/> |
-|109  <br/> |Аудио_осер  <br/> |
-|201  <br/> |Видео_нолокалвидео  <br/> |
-|202  <br/> |Видео_норемотевидео  <br/> |
-|203  <br/> |Видео_ловкуалити  <br/> |
-|204  <br/> |Видео_фрозенвидео  <br/> |
-|205  <br/> |Видео_стоппедунекспектедли  <br/> |
-|206  <br/> |Видео_дарквидео  <br/> |
-|207  <br/> |Видео_ноаудиосинк  <br/> |
-|208  <br/> |Видео_осер  <br/> |
-|301  <br/> |Пстн_диалпад  <br/> |
-|401  <br/> |Сс_ноконтентлокал  <br/> |
-|402  <br/> |Сс_ноконтентремоте  <br/> |
-|403  <br/> |Сс_кантпресент  <br/> |
-|404  <br/> |Сс_ловкуалити  <br/> |
-|405  <br/> |Сс_фризинг  <br/> |
-|406  <br/> |Сс_стоппедунекспектедли  <br/> |
-|407  <br/> |Сс_ларжеделай  <br/> |
-|408  <br/> |Сс_осер  <br/> |
-|501  <br/> |Релиабилти_жоин  <br/> |
-|502  <br/> |Релиабилти_инвите  <br/> |
+|101  <br/> |Audio_SilentLocal  <br/> |
+|102  <br/> |Audio_SilentRemote  <br/> |
+|103  <br/> |Audio_Echo  <br/> |
+|104  <br/> |Audio_BackgroundNoise  <br/> |
+|105  <br/> |Audio_LowSound  <br/> |
+|106  <br/> |Audio_Dropped  <br/> |
+|107  <br/> |Audio_DistortedSpeech  <br/> |
+|108  <br/> |Audio_Interrupted  <br/> |
+|109  <br/> |Audio_Other  <br/> |
+|201  <br/> |Video_NoLocalVideo  <br/> |
+|202  <br/> |Video_NoRemoteVideo  <br/> |
+|203  <br/> |Video_LowQuality  <br/> |
+|204  <br/> |Video_FrozenVideo  <br/> |
+|205  <br/> |Video_StoppedUnexpectedly  <br/> |
+|206  <br/> |Video_DarkVideo  <br/> |
+|207  <br/> |Video_NoAudioSync  <br/> |
+|208  <br/> |Video_Other  <br/> |
+|301  <br/> |Pstn_DialPad  <br/> |
+|401  <br/> |SS_NoContentLocal  <br/> |
+|402  <br/> |SS_NoContentRemote  <br/> |
+|403  <br/> |SS_CantPresent  <br/> |
+|404  <br/> |SS_LowQuality  <br/> |
+|405  <br/> |SS_Freezing  <br/> |
+|406  <br/> |SS_StoppedUnexpectedly  <br/> |
+|407  <br/> |SS_LargeDelay  <br/> |
+|408  <br/> |SS_Other  <br/> |
+|501  <br/> |Reliabilty_Join  <br/> |
+|502  <br/> |Reliabilty_Invite  <br/> |
 
  **[Коеметрикс]. [dbo]. [Каллкуалитифидбакк]** В этой таблице содержатся результаты опроса от "звезды" голосования и отзывов пользователей, если они включены.
 
@@ -114,7 +114,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 
  **Аудио**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **Видео**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 Последние клиенты Skype для бизнеса сообщают о новых кодах маркеров проблем\> (100), которые могут отсутствовать в [коеметрикс]. [dbo]. Таблица [Каллкуалитифидбакктокендеф]. Чтобы обновить таблицу базы данных с помощью последних определений маркеров, в базе данных мониторинга с помощью Microsoft SQL Server Management Studio можно выполнить указанную ниже команду SQL. Эта команда заменит все записи в элементе [Коеметрикс]. [dbo]. Таблица [Каллкуалитифидбакктокендеф].
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

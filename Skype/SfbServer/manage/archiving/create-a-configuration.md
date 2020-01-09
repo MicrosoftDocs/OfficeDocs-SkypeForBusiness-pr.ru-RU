@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Сводка: сведения о том, как создать конфигурацию архивации для Skype для бизнеса Server.'
-ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2a139e7321542e3b13259ebc2ec1e4ba731caf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286220"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992746"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Создание конфигурации архивации в Skype для бизнеса Server
 
@@ -65,7 +65,7 @@ ms.locfileid: "34286220"
   
 Следующая команда создает новую коллекцию параметров конфигурации архивации для сайта Redmond:
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
@@ -73,13 +73,13 @@ New-CsArchivingConfiguration -Identity "site:Redmond"
   
 Чтобы создать параметры, использующие разные значения свойств, просто укажите соответствующий параметр и его значение. В примере ниже представлено создание коллекции настроек параметров конфигурации, которые по умолчанию позволяют выполнять архивирование только сеансов обмена мгновенными сообщениями:
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 ```
 
 Чтобы изменить несколько значений свойств, можно включить несколько параметров. Например, следующая команда настраивает новые параметры для архивации сеансов обмена мгновенными сообщениями и для блокирования обмена мгновенными сообщениями при недоступности службы архивации:
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 

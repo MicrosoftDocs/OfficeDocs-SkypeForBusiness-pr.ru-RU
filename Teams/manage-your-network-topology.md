@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как настроить параметры сети для функций голосовой связи в облаке в Microsoft Teams.
-ms.openlocfilehash: 72fb40b31b7881f550800bad5a2d2fca304431ae
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 87cdf39e03999a9e249b7ec40af7ea2ad8612e69
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615899"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991644"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Управление топологией сети для облачных функций голосовой связи в Microsoft Teams
 
@@ -84,12 +84,12 @@ ms.locfileid: "39615899"
 
  Используйте командлет [New-кстенантнетворкрегион](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) , чтобы определить регионы сети. Обратите внимание, что параметр Регионид является логическим именем, которое представляет собой географию области и не имеет зависимостей или ограничений и &lt;не является&gt; обязательным параметром идентификатора сайта централсите.
 
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 В этом примере мы создаем сетевой регион с именем Индии.
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
@@ -99,11 +99,11 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 С помощью командлета [New-кстенантнетворксите](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) можно определять сетевые сайты. Каждый сетевой сайт должен быть связан с сетевым регионом.
 
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 В этом примере мы создаем в регионе Индии две новые сетевые сайты, Делхи и Хидерабад.
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
@@ -120,13 +120,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 С помощью командлета [New-кстенантнетворксубнет](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) можно определять сетевые подсети и связывать их с сетевыми сайтами. Каждая сетевая подсеть может быть связана только с одним сайтом.
 
-```
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 В этом примере мы создаем связь между подсетью 192.168.0.0 и сетевым сайтом Делхи и между подсетью 2001:4898: E8:25:844E: 926f: 85ad: dd8e и на сайте Хидерабад Network.
-```
 
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
 
@@ -140,11 +140,11 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |Идентификатор сайта  | Сайт (Делхи) | Сайт 2 (Хидерабад) |
 
 Если вы используете несколько подсетей, вы можете импортировать CSV-файл с помощью такого сценария, как описано ниже.
-```
+```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 В этом примере CSV-файл выглядит примерно так:
-```
+```output
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -157,11 +157,11 @@ Identity, Mask, SiteID
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Определение внешних подсетей (внешние доверенные IP-адреса)
 
 С помощью командлета [New-кстенанттрустедипаддресс](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) можно определять внешние подсети и назначать их клиентам. Вы можете определить неограниченное количество внешних подсетей для клиента.
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Например:
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 

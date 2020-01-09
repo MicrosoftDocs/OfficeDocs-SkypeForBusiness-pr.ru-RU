@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Прежде чем сотрудники вашей организации смогут использовать трансляцию собраний Skype, необходимо включить ее. Для этого вам нужно знать, как использовать Windows PowerShell. Если вы не знаете Windows PowerShell, вы можете сделать это с помощью партнера Майкрософт.
-ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: edf9c372a98da9e09d7e9040c6d035e389c8b1ec
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793237"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989144"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Включение трансляции собрания Skype
 
@@ -32,13 +32,13 @@ ms.locfileid: "35793237"
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Включение трансляции собраний Skype с помощью центра администрирования Skype для бизнеса
 
-![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 1. Войдите в систему с помощью учетной записи глобального администратора Office 365 или учетной записи [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)администратора Skype для бизнеса по адресу.
     
 2. В центре администрирования перейдите в раздел **центры** > администрирования**Teams**.
     
-3. В **центре администрирования Teams**перейдите к старым собраниям по**сети** > **** с помощью **портала** > и выберите **Включить трансляцию собраний Skype**.
+3. В **центре администрирования Teams**перейдите к старым**собраниям**по**сети** > с помощью **портала** > и выберите **Включить трансляцию собраний Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Включение трансляции собраний Skype с помощью PowerShell
 
@@ -56,7 +56,7 @@ ms.locfileid: "35793237"
     
 7. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
     
-   ```
+   ```PowerShell
    $Credential = get-credential
    $O365Session = New-CsOnlineSession -Credential $credential
    Import-PSSession $O365Session
@@ -64,7 +64,7 @@ ms.locfileid: "35793237"
 
 8. Подтвердите текущую конфигурацию трансляции собраний Skype, выполнив следующие действия:
     
-   ```
+   ```PowerShell
    Get-CsBroadcastMeetingConfiguration
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "35793237"
   
 9. Включите трансляцию собраний Skype для своей организации, выполнив следующие действия:
     
-   ```
+   ```PowerShell
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "35793237"
   
 Чтобы пропустить этот шаг и добавить еще один бизнес в Федерацию, ознакомьтесь с разделом [Разрешить пользователям связываться с внешними пользователями Skype для бизнеса](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

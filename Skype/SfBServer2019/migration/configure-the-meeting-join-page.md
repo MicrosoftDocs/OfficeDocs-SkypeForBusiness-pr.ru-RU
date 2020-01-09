@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Когда пользователь щелкает ссылку на собрание в приглашении на собрание, страница присоединения к собранию определяет, какой клиент уже установлен на компьютере пользователя. Если клиент уже установлен, этот клиент открывает и присоединяется к собранию. Если клиент не установлен, по умолчанию откроется веб-приложение.
-ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239328"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989564"
 ---
 # <a name="configure-the-meeting-join-page"></a>Конфигурация страницы присоединения к собранию
 
@@ -35,7 +35,7 @@ ms.locfileid: "36239328"
     
 2. Выполнить следующий командлет: 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
@@ -43,7 +43,7 @@ ms.locfileid: "36239328"
     
 3. Выполните следующую команду, указав для параметров значение истина или ложь, в зависимости от вашего предпочтения (Дополнительные сведения о параметрах этого командлета можно найти в документации по консоли [управления в Skype для бизнеса Server](../../SfbServer/manage/management-shell.md) ).
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 

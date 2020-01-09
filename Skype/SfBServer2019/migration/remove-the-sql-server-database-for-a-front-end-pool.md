@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После удаления пула переднего плана или повторной настройки пула для использования другой базы данных вы можете удалить базы данных SQL Server, на которых размещены данные пула. Используйте описанные ниже процедуры для удаления определений из построителя топологии и удаления файлов базы данных и журнала с сервера базы данных.
-ms.openlocfilehash: d22a90401bdfa4a2897a18805e8b9c588892c5fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f26cf1f93abb8538c068a4ab2d6f81c9c36d759d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241565"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989094"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Удаление базы данных SQL Server для пула переднего плана
 
@@ -36,7 +36,7 @@ ms.locfileid: "36241565"
     
 3. Чтобы удалить базу данных из хранилища пользователей пула, введите:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
@@ -44,7 +44,7 @@ ms.locfileid: "36241565"
     
 4. Чтобы удалить базу данных из хранилища приложений пула, введите:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Сведения о том, как создавать абонентские группы и управлять ими (абонентские группы для звонков по коммутируемой телефонной связи) и как управлять ими.
-ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069440"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991664"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 
@@ -92,7 +92,7 @@ ms.locfileid: "40069440"
     > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
   
 
-    ```
+    ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -107,7 +107,7 @@ ms.locfileid: "40069440"
 
 - Чтобы создать новую абонентскую группу, выполните:
     
-  ```
+  ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
@@ -115,7 +115,7 @@ ms.locfileid: "40069440"
     
 - Чтобы изменить параметры существующей абонентской группы, выполните:
     
-  ```
+  ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
@@ -124,7 +124,7 @@ ms.locfileid: "40069440"
     
 - Чтобы добавить пользователей в абонентскую группу, запустите следующую команду:
     
-  ```
+  ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
@@ -132,7 +132,7 @@ ms.locfileid: "40069440"
     
 - Чтобы просмотреть параметры абонентской группы, запустите следующую команду:
     
-  ```
+  ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
@@ -140,7 +140,7 @@ ms.locfileid: "40069440"
     
 - Чтобы удалить абонентскую группу, запустите следующую команду:
     
-  ```
+  ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
@@ -148,7 +148,7 @@ ms.locfileid: "40069440"
     
 - Чтобы просмотреть параметры действующей абонентской группы, запустите следующую команду:
     
-  ```
+  ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
@@ -156,7 +156,7 @@ ms.locfileid: "40069440"
     
 - Для проверки действующих параметров абонентской группы запустите следующую команду:
     
-  ```
+  ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
@@ -165,7 +165,7 @@ ms.locfileid: "40069440"
 #### <a name="using-a-powershell-script"></a>С помощью скрипта PowerShell
 
 Запустите этот параметр, чтобы удалить правило нормализации, связанное с абонентской планом клиента, не требуя сначала удалить абонентскую группу.
-```
+```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
@@ -173,19 +173,19 @@ $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
 Запустите эту команду для добавления следующего правила нормализации к существующему клиенту абонентской группы с именем RedmondDialPlan.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 Запустите эту команду для удаления следующего правила нормализации из существующего клиента абонентской группы с именем RedmondDialPlan.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Запустите следующую команду, когда вы хотите также проверить существующие правила нормализации, определить, какое из них нужно удалить, а затем использовать его индекс для удаления. Массив правил нормализации начинается с индекса 0. Если мы хотим удалить з-х цифровое правило нормализации, индекс будет 1.
   
-```
+```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
@@ -205,12 +205,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 
 Запустите эту команду для поиска всех пользователей, которым была присвоена абонентская группа клиента RedmondDialPlan.
   
-```
+```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
 Запустите этот элемент, чтобы удалить все назначенные Тенантдиалплан от всех пользователей, у которых есть Хостингпровидер из sipfed.online.lync.com.
-```
+```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
@@ -218,7 +218,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Gr
   
 Запустите эту команду для сохранения локальной абонентской группы в XML-файл.
   
-```
+```PowerShell
 $DPName = "OPDP1"
 $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
@@ -226,7 +226,7 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
 
 Запустите эту команду для создания новой абонентской группы клиента.
   
-```
+```PowerShell
 $DPFileName = "dialplan.xml"
 $dp = Import-Clixml $DPFileName
 $NormRules = @()

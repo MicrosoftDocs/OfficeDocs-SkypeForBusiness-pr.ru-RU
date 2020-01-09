@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: Настройка основного сервера управления, установка System Center Operations Manager и импорт пакетов управления для Skype для бизнеса Server 2019.'
-ms.openlocfilehash: 316931aff5379de10b0301cc65e94443ed0f7675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5835f0638231cff6176aa7377d6f7c60e81b6f7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284041"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989074"
 ---
 # <a name="configure-the-primary-management-server"></a>Настройка основного сервера управления
 
@@ -55,12 +55,12 @@ ms.locfileid: "34284041"
 
 Вы можете расширять возможности System Center Operations Manager, устанавливая пакеты управления (программное обеспечение, которое определяет, какие элементы отслеживает диспетчер операций System Center Operations Manager), как эти элементы должны отслеживаться и как будут запускаться оповещения. отчета. Skype для бизнеса Server 2019 включает два пакета управления System Center Operations Manager, которые предоставляют следующие возможности:
 
-- **Пакет управления компонентом и пользовательским интерфейсом** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) отслеживает проблемы в Skype для бизнеса, записанные в журналах событий, регистрируются счетчиками производительности или записываются в записи сведений о вызовах (Кдрс) или в базы данных качества взаимодействия (QoE). Для устранения критических проблем можно настроить System Center Operations Manager для немедленного уведомления администраторов по электронной почте, мгновенным сообщениям или SMS-сообщениям. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
+- **Пакет управления компонентом и пользовательским** интерфейсом (Microsoft.ls.2019.Monitoring.ComponentAndUser.MP) отслеживает проблемы в Skype для бизнеса Server, записанные счетчиками производительности, которые регистрируются в журналах событий или регистрируются в записях сведений о вызовах (кдрс) или в базах данных качества взаимодействия (QoE). Для устранения критических проблем можно настроить System Center Operations Manager для немедленного уведомления администраторов по электронной почте, мгновенным сообщениям или SMS-сообщениям. (SMS, or Short Message Service, is the technology used to send text messages from one mobile device to another.)
 
     > [!NOTE]
     >  Дополнительные сведения о настройке уведомлений Operations Manager: [Настройка уведомлений](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **Активный пакет управления мониторингом** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) заблаговременно проверяют ключевые компоненты сервера Skype для бизнеса, например вход в систему, Обмен мгновенными сообщениями и звонки на телефон, находящийся в коммутируемой телефонной сети с открытым подключением (КТСОП). ). Такая проверка выполняется с помощью командлетов искусственных транзакций Skype для бизнеса Server. Например, командлет **Test-CsIM** позволяет смоделировать сеанс обмена мгновенными сообщениями между двумя тестовыми пользователями. В случае сбоя при моделировании сеанса формируется оповещение.
+- **Активный пакет управления мониторингом** (Microsoft.ls.2019.Monitoring.ActiveMonitoring.MP) проверит ключевые компоненты сервера Skype для бизнеса, например вход в систему, Обмен мгновенными сообщениями и звонки на телефон, находящийся в телефонной сети общего пользования (PSTN). Такая проверка выполняется с помощью командлетов искусственных транзакций Skype для бизнеса Server. Например, командлет **Test-CsIM** позволяет смоделировать сеанс обмена мгновенными сообщениями между двумя тестовыми пользователями. В случае сбоя при моделировании сеанса формируется оповещение.
 
 Одним из важнейших этапов является импорт пакетов управления. Если они не импортированы, в Skype для бизнеса Server невозможно наблюдать за событиями и выполнять искусственные транзакции с помощью Operations Manager.
 
@@ -101,12 +101,12 @@ ms.locfileid: "34284041"
 
 2. В командной строке Operations Manager введите указанную ниже команду, используя фактический путь к копии файла Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp, и нажмите клавишу ВВОД.
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"
    ```
 
 3. После импорта первого пакета управления повторите процесс, указав путь к копии файла Microsoft.LS.2019.Monitoring.ComponentAndUser.mp:
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ComponentAndUser.mp"
    ```

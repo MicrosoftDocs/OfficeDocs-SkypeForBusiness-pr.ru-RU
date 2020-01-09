@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Сводка. сведения о том, как добавлять, удалять, исправлять и обновлять серверы переднего плана в Skype для бизнеса Server.
-ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275159"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991534"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Управление серверами переднего плана в Skype для бизнеса Server
  
@@ -37,7 +37,7 @@ ms.locfileid: "34275159"
 
 1. Если удаляются все серверы переднего плана, сначала необходимо остановить новые подключения к этим серверам. Для этого вы можете использовать следующий командлет:
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -53,7 +53,7 @@ ms.locfileid: "34275159"
   
 4. Если вы изменили число серверов в пуле переднего плана одним из указанных ниже способов, выполните сброс пула, введя следующий командлет: Reset-Кспулрегистрарстате-Ресеттипе Фуллресет-Пулфкдн 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -67,7 +67,7 @@ ms.locfileid: "34275159"
     
 5. Перезапустите пул с помощью следующего командлета
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -79,19 +79,19 @@ ms.locfileid: "34275159"
 
 1. Введите следующий командлет:
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      Если при выполнении этого командлета отображаются сведения об отсутствующих репликах, перед применением исправлений выполните следующий командлет для восстановления пула.
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. На первом сервере, где требуется внести исправления, выполните следующий командлет:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -101,7 +101,7 @@ ms.locfileid: "34275159"
     
 4. На обновленном сервере выполните следующий командлет:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Аннотация: Изучите этот раздел, планируя службу мониторинга в Skype для бизнеса Server.'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297283"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991784"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Планирование мониторинга в Skype для бизнеса Server
 
@@ -80,7 +80,7 @@ ms.locfileid: "34297283"
 
 Кроме того, необходимо учитывать, что Skype для бизнеса Server поддерживает использование зеркальных баз данных. «Зеркалирование баз данных» предоставляет возможность одновременно поддерживать две копии базы данных, причем эти базы данных размещаются на разных серверах. При каждой записи сведений в основную базу данных эти же самые данные также записываются в зеркальную базу данных. Если база данных-источник завершится сбоем или станет недоступна, вы можете выполнить команду "переключиться" на зеркальную базу данных с помощью простой команды Skype для бизнеса Server PowerShell. Пример:
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 

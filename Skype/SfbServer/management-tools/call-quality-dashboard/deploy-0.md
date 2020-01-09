@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Сводка: сведения о процессе развертывания для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: aa7f5d81fd9778e148dcf64f84c757676bd1df2d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221568"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992696"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Развертывание панели мониторинга качества звонков для Skype для бизнеса Server
  
@@ -83,7 +83,7 @@ ms.locfileid: "35221568"
   
    - **Каталог файла раздела:** Путь к разделу, в который нужно поместить разделы из архивной базы данных QoE. Это должно быть на диске (HDD3 в рекомендуемой конфигурации оборудования) отдельно от диска ОС и файлов журнала базы данных SQL. Обратите внимание, что поскольку имена файлов Исправлены в установке, чтобы избежать возможного конфликта, рекомендуется использовать пустой каталог без файлов.
     
-   - **Имя &amp; пользователя задания агента SQL Server — пароль:** Имя учетной записи службы домена и пароль (маска), которые будут использоваться для запуска задания "QoE Archive Data" агента SQL Server (который запускает хранимую процедуру для получения данных из QoE метрик данных в архивную базу данных, поэтому эта учетная запись должна иметь доступ на чтение к QoE метрики,  как указано в разделе "учетные записи". У этой учетной записи также должно быть имя для входа в экземпляре SQL Server Archive QoE.
+   - **Имя &amp; пользователя задания агента SQL Server — пароль:** Имя учетной записи службы домена и пароль (маска), которые будут использоваться для запуска задания "QoE Archive Data" агента SQL Server (который запускает хранимую процедуру для получения данных из QoE метрик данных в архивную базу данных, поэтому эта учетная запись должна иметь доступ на чтение к QoE метрики, как указано в разделе "учетные записи". У этой учетной записи также должно быть имя для входа в экземпляре SQL Server Archive QoE.
     
      > [!NOTE]
      > Учетная запись, в которой выполняется экземпляр SQL Server, например NT СЕРВИЦЕ\МССКЛСЕРВЕР, должна иметь доступ к каталогам, указанным выше, для успешной установки. Дополнительные сведения можно найти в разделе [Настройка разрешений файловой системы для доступа к ядру СУБД](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
@@ -159,7 +159,7 @@ ms.locfileid: "35221568"
   
 Сведения о конфигурации хранятся в файле Web. config, расположенном в физическом каталоге портала.
   
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -282,7 +282,7 @@ ms.locfileid: "35221568"
     
   **Пример синтаксиса SQL**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingType]
 ([BuildingTypeId],
@@ -313,7 +313,7 @@ VALUES
     
   **Пример синтаксиса SQL**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
@@ -343,7 +343,7 @@ VALUES
     
   **Пример синтаксиса SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
 ( [NetworkName]
 ,[NetworkType]
@@ -365,7 +365,7 @@ VALUES
   
  **Пример синтаксиса SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBuilding] 
 ( [BuildingKey]
 ,[BuildingName]
@@ -390,7 +390,7 @@ VALUES
   
  **Пример синтаксиса SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
 ,[NetworkNameID]
@@ -410,7 +410,7 @@ VALUES
   
  **Пример синтаксиса SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBssid]
 ([Ap],
 [Bss],
@@ -427,7 +427,7 @@ VALUES
 |**Как показано в CQD**|**Таблица Ккдбссид**|**Примеры входных данных**|
 |:-----|:-----|:-----|
 |Ннаме AP  <br/> |ПРОФИЛЯ  <br/> |AP1  <br/> |
-|Ббссид  <br/> |BSS  <br/> |00-00-00-00-00-00 (необходимо использовать фформат с разделителями)  <br/> |
+|ббссид  <br/> |BSS  <br/> |00-00-00-00-00-00 (необходимо использовать фформат с разделителями)  <br/> |
 |Контроллер  <br/> |Building  <br/> |Аруба AP 7  <br/> |
 |Device  <br/> |ess  <br/> |Controller1  <br/> |
 |Переключатель  <br/> |phy  <br/> |бгн  <br/> |

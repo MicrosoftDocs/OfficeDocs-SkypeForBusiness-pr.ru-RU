@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 'Сводка: удаление ПИН-кода конференц-связи с телефонным подключением пользователя для Skype для бизнеса Server.'
-ms.openlocfilehash: 2f42531480ac4099d574a21a96f1954abc70d1d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfdb14ad8107c8d3450e6d50245831f723ca1153
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283783"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992326"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Удаление политики ПИН-кода в Skype для бизнеса Server
  
@@ -49,7 +49,7 @@ ms.locfileid: "34283783"
 
 - Эта команда удаляет политику ПИН-кода с идентификатором RedmondPinPolicy:
     
-  ```
+  ```PowerShell
   Remove-CsPinPolicy -Identity "RedmondPinPolicy"
   ```
 
@@ -57,7 +57,7 @@ ms.locfileid: "34283783"
 
 - Эта команда удаляет все политики ПИН-кода, настроенные в области действия сайта:
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
@@ -65,7 +65,7 @@ ms.locfileid: "34283783"
 
 - А эта команда удаляет все политики ПИН-кодов, допускающие использование общих шаблонов:
     
-  ```
+  ```PowerShell
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 

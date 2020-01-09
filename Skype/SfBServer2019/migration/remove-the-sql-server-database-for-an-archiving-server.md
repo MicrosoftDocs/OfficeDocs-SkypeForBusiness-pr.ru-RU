@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: После удаления сервера архивации можно удалить базы данных SQL Server, на которых размещены данные пула. Используйте описанные ниже процедуры для удаления определений из построителя топологии и удаления файлов базы данных и журнала с сервера базы данных.
-ms.openlocfilehash: ab76c8ebc629206827be0a4c0a5477eff54a0923
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 149342f49fded4af294f76028140a9f76f190ed1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241558"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989004"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Удаление базы данных SQL Server для сервера архивирования
 
@@ -36,7 +36,7 @@ ms.locfileid: "36241558"
     
 3. В командной строке введите следующую команду:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

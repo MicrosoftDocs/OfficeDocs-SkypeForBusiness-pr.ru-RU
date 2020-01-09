@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять возможностью обнаружения конфиденциальных команд пользователями Microsoft Teams с помощью предложений в галерее группы и в результатах поиска.
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572004"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992014"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Управление обнаружением закрытых команд в Microsoft Teams
 
@@ -65,7 +65,7 @@ ms.locfileid: "37572004"
 ### <a name="using-powershell"></a>Использование PowerShell
 
 С помощью командлета **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** вы можете отключить или включить параметр обнаружения для существующей закрытой команды. Вот пример того, как сделать команду обнаруживаемой.
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 Вы можете использовать этот командлет в сценарии, чтобы настроить параметр обнаружения для существующих закрытых групп в массовом режиме.
@@ -79,7 +79,7 @@ ms.locfileid: "37572004"
 По умолчанию для **алловприватетеамдисковери** установлено **значение true** для всех пользователей в Организации.
 
 В этом примере мы создаем политику с именем Вендорполици, которая не позволяет пользователям обнаруживать закрытые команды, которые были доступны для обнаружения, а затем назначает политику пользователю с именем vendoruser1.
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```
@@ -87,5 +87,5 @@ ms.locfileid: "37572004"
 > [!NOTE]
 > Закрытые команды, которые не могут быть обнаружены, никогда не отображаются в результатах поиска и предложениях, независимо от параметра политики. Например, если отключить параметр обнаружения для закрытой команды, пользователи не смогут найти команду, даже если параметр **алловприватетеамдисковери** имеет значение **true** в параметре политики для этих пользователей.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 - [Обзор PowerShell в Teams](teams-powershell-overview.md)

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: Сводка. сведения о том, как блокировать сеансы обмена мгновенными сообщениями и конференц-связи в случае сбоя в работе Skype для бизнеса Server.
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286241"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992756"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Настройка параметров архивации для обработки отказов в Skype для бизнеса Server
 
@@ -45,13 +45,13 @@ ms.locfileid: "34286241"
   
 Например, следующая команда отключает связь в случае сбоя архивации.
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 При выполнении следующей команды связь после сбоя архивации разрешается:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

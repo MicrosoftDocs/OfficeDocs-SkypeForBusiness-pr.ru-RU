@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Сводка: сведения о том, как удалить конфигурацию архивации в Skype для бизнеса Server.'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286199"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992376"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Удаление конфигурации архивации в Skype для бизнеса Server
 
@@ -46,25 +46,25 @@ ms.locfileid: "34286199"
   
 Например, следующая команда удаляет параметры конфигурации архивирования, которые применены к сайту Redmond. При удалении политики, настроенной на уровне сайта, пользователи, которые раньше управлялись политикой сайта, автоматически станут управляться глобальной политикой архивирования.
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 Следующая команда удаляет все параметры конфигурации архивирования, применяемые на уровне службы.
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 Эта команда удаляет все параметры конфигурации архивирования, в которых отключена служба архивации Exchange.
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 Для сброса глобальных параметров до значений по умолчанию можно также использовать командлет **Remove-CsArchivingConfiguration**. Например, предположим, что на глобальном уровне включена архивация сеанса обмена мгновенными сообщениями; следующая команда выполнит сброс значений до значения по умолчанию "Нет", что приведет к отключению архивации на глобальном уровне:
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 

@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Перед списанием пула необходимо выполнить описанные ниже действия для каждой из каталогов конференций в пуле старого.
-ms.openlocfilehash: cc989e752e69db31f338b493c403b8b8d4c252cc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237739"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988944"
 ---
 # <a name="move-conference-directories"></a>Перемещение каталогов конференций
 
@@ -26,13 +26,13 @@ ms.locfileid: "36237739"
     
 2. Чтобы получить удостоверение каталогов конференции в Организации, выполните следующую команду:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory
    ```
 
     Предыдущая команда возвращает все каталоги конференций в Организации. По этой причине вам может потребоваться ограничить результаты для пула. Например, если вы собираетесь списать пул с полным доменным именем (FQDN) pool01.contoso.net, используйте эту команду, чтобы ограничить возвращаемые данные каталогам конференций из этого пула.
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
@@ -40,19 +40,19 @@ ms.locfileid: "36237739"
     
 3. Чтобы переместить каталоги конференций, выполните для каждой из каталогов конференций в пуле следующую команду:
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
     Например, чтобы переместить каталог конференций 3, используйте эту команду, указав в качестве Таржетпул пул 2019 в Skype для бизнеса Server.
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
     Если вы хотите переместить все каталоги конференций в пуле, выполните команду, подобную следующей:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 

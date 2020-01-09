@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать политики идентификации вызывающего абонента в Microsoft Teams для изменения или блокировки идентификатора вызывающего абонента для пользователей Teams в Организации.
-ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: aed6e3cbe2053ddc16b049608247f56705626249
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998827"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992889"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Управление политиками идентификации вызывающего абонента в Microsoft Teams
 
@@ -95,15 +95,15 @@ ms.locfileid: "39998827"
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить Граупобжектид определенной группы.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Support"
 ```
 Получение участников указанной группы.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Назначьте для всех пользователей в группе определенную политику идентификации вызывающего абонента. В этом примере это поддержка политики идентификации вызывающего абонента.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Сводка: сведения о создании новой политики архивации для Skype для бизнеса Server.'
-ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8542c31050cf4ca9383c22b39c83b28309d3ea32
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299974"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992736"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Создание новой политики архивации в Skype для бизнеса Server
 
@@ -62,7 +62,7 @@ ms.locfileid: "34299974"
 
 Данная команда создает новую политику архивации для сайта Redmond:
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
@@ -70,7 +70,7 @@ New-CsArchivingPolicy -Identity "site:Redmond"
 
 Чтобы создать новую политику архивации на уровне индивидуальных пользователей, просто укажите уникальное удостоверение при создании политики.
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
@@ -78,7 +78,7 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 
 Так как никакие параметры (кроме обязательного параметра Identity) не были указаны в приведенных ранее командах, новые политики будут использовать значения по умолчанию для всех своих свойств. Чтобы создать политики, использующие другие значения свойств, просто включите соответствующий параметр и его значение. Например, следующая команда создает политику архивации, позволяющую выполнять архивирование внутренних сеансов обмена мгновенными сообщениями. 
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
@@ -86,6 +86,6 @@ New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 
 Несколько значений свойств могут быть изменены путем включения нескольких параметров. Например, данная команда настраивает новую политику для архивации внутренних и внешних сеансов обмена мгновенными сообщениями:
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 ```

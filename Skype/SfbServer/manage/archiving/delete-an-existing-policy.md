@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Сводка: Удаление политики архивации в Skype для бизнеса Server.'
-ms.openlocfilehash: 04ea9db10a2f95ba5010471f262d58c269c173d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08b76996b3d54e8be07e731faae87dce0470cc1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278414"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992366"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Удаление существующей политики архивации в Skype для бизнеса Server
 
@@ -41,19 +41,19 @@ ms.locfileid: "34278414"
   
 Например, следующая команда удаляет политику с идентификатором site:Redmond. При удалении политики, настроенной на уровне сайта, пользователи, которые раньше управлялись политикой сайта, автоматически станут управляться глобальной политикой архивирования.
   
-```
+```PowerShell
 Remove-CsArchivingPolicy -Identity site:Redmond
 ```
 
 Данная команда удаляет все политики архивации, примененные на уровне пользователей:
   
-```
+```PowerShell
 Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 ```
 
 Данная команда удаляет все политики архивации, в которых отключена внутренняя архивация:
   
-```
+```PowerShell
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 

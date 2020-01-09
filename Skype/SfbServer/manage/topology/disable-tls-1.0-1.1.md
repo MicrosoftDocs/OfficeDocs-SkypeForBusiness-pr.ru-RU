@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Сводка: подготовка и реализация отключения TLS 1,0 и 1,1 в среде.'
-ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f10bd213be62b2d1dfa705e8ec8e0cc762706ee6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919313"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991554"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Отключение TLS 1.0/1.1 в Skype для бизнеса Server 2015
 
@@ -193,7 +193,7 @@ PIC (общедоступная служба обмена мгновенными
 
 Скопируйте и вставьте в блокнот следующий тест, а затем переименуйте Тлспререк. reg или выберите нужное имя, а затем выполните импорт.
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
@@ -245,7 +245,7 @@ Windows Registry Editor Version 5.00
 
 Скопируйте приведенный ниже текст в файл "Блокнот" и переименуйте его в **тлсдисабле. reg**:
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00010002]

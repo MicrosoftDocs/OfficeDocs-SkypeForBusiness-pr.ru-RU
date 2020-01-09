@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Сводка: сведения о выполнении операции запроса, которая входит в API данных для панели мониторинга качества звонков. Панель мониторинга качества звонков — это средство для Skype для бизнеса Server.'
-ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d31ea4c597ea3353fdd5da3e863938aababe819
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274564"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991404"
 ---
 # <a name="run-query"></a>Выполнение запроса
 
@@ -39,7 +39,7 @@ ms.locfileid: "34274564"
 
  **Тело запроса** — образец полезных данных запроса в JSON. Она включает измерения, фильтры и измерения, необходимые для запроса.
 
-```
+```json
 {
 "Filters": [{
 "DataModelName": "[StartDate].[Month]",
@@ -88,7 +88,7 @@ ms.locfileid: "34274564"
 
  **Тело ответа** — ниже показан пример полезных данных ответа в JSON. Она содержит таблицу данных, содержащую данные, также содержит метаданные, которые показывают время выполнения запроса и сведения о том, находятся ли данные из кэша.
 
-```
+```json
 {
 "ExecutionTime": "00:00:00.2102630",
 "DataResult": [["September 2014",

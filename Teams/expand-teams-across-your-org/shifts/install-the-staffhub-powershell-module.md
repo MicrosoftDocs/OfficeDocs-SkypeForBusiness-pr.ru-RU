@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80290e6b8a1ce4de834a000148d60b2c5ef89d
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: 122a704df184619591f121f088162a045733cf4b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775078"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992134"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Установка модуля Microsoft StaffHub PowerShell
 
@@ -37,40 +37,41 @@ ms.locfileid: "37775078"
     > Чтобы получить последнюю версию Windows PowerShell, ознакомьтесь со статьей [Установка Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell).
 3. Выполните следующее:
 
-    ```
+    ```PowerShell
     $ENV:PSModulePath
     ```
 4. Проверьте путь к папке в выходных данных и убедитесь в том, что все папки в пути существуют на компьютере, прежде чем переходить к следующему шагу. Если папки отсутствуют, создайте их.
 5. Чтобы разрешить установку модуля PowerShell StaffHub, выполните следующие действия:
 
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
 6. Выполните указанные ниже действия, &lt;где&gt; путь — это путь в выходных данных, начиная с шага 3. Например, путь может выглядеть так, как C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     Не забудьте выполнить каждую команду отдельно.
 
-    ```
+    ```PowerShell
     Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     ```
 7. Выйдите из Windows PowerShell.
 8. Откройте Windows PowerShell 3,0 или более поздней версии в качестве глобального администратора, а затем выполните указанные ниже действия.
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftStaffHub
-
-## Connect to the Microsoft StaffHub PowerShell module
-
-1. Run the following:
-
     ```
+
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Подключение к модулю PowerShell Microsoft StaffHub
+
+1. Выполните следующее:
+
+    ```PowerShell
     Connect-StaffHub
     ```
 
-2. When you're prompted, log in as a global admin.
+2. После появления соответствующего запроса войдите в систему как глобальный администратор.
 
-## Related topics
+## <a name="related-topics"></a>См. также
 
-- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
-- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Справочник по Microsoft StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [Перемещение групп Microsoft StaffHub в приложение "Смены" в Teams](move-staffhub-teams-to-shifts-in-teams.md)

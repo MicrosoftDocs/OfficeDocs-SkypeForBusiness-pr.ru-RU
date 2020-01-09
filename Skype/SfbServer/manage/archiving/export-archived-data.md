@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: 'Общие сведения: экспорт архивных данных для Skype для бизнеса Server.'
-ms.openlocfilehash: 6914b4c32c22165b551bb56ece8d7b3b9c21fdbe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d48441290eda49ad6b7fecd63d15d74b25148fe
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286139"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991574"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>Экспорт архивных данных в Skype для бизнеса Server
 
@@ -31,13 +31,13 @@ ms.locfileid: "34286139"
   
 Следующая команда экспортирует все данные atl-sql-001.contoso.com, архивированные с 1 июня 2012 г. Файл результатов будет сохранен в папке C:\ArchivingExports.
   
-```
+```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
 Следующая команда экспортирует архивированные данные для одного пользователя: kenmyer@contoso.com. Это можно сделать, добавив параметр Усерури, а затем — адрес SIP пользователя. Например: 
   
-```
+```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"
 ```
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Сводка: сведения о том, как извлекать, обновлять и создавать параметры конфигурации для централизованной службы ведения журналов в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: e6c1f9c893d0b5e745e558ed37570429689259d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20f62a5568bef6f11eab35e13fa4e4f7adf8102e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274431"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991464"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Управление параметрами конфигурации централизованной службы ведения журналов в Skype для бизнеса Server 2015
 
@@ -28,9 +28,9 @@ ms.locfileid: "34274431"
 > [!IMPORTANT]
 >  Не все командлеты Windows PowerShell, указанные для централизованной службы ведения журналов, предназначены для использования с локальными развертываниями в Skype для бизнеса Server 2015. Несмотря на то, что они могут работать, следующие командлеты не предназначены для работы с локальными развертываниями в Skype для бизнеса Server 2015.
 
--  **Командлеты ксклсрегион:** [Get-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps), [New-Ксклсрегион](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)и Remove [-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
+-  **Командлеты ксклсрегион:** [Get-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps), [New-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)и [Remove-ксклсрегион](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
 -  **Командлеты ксклссеарчтерм:** [Get-ксклссеарчтерм](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) и [Set-ксклссеарчтерм](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
--  **Командлеты ксклссекуритиграуп:** [Get-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps), [New-Ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)и Remove [-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
+-  **Командлеты ксклссекуритиграуп:** [Get-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps), [New-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)и [Remove-ксклссекуритиграуп](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
 Параметры, определенные в этих командлетах, не мешают или не вызывают какое-либо неотрицательное поведение, но они предназначены для работы с Microsoft Office 365 и не будут давать ожидаемые результаты в локальных развертываниях. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
 
@@ -38,20 +38,20 @@ ms.locfileid: "34274431"
 
 Чтобы настроить централизованную службу ведения журналов с помощью командной консоли Skype для бизнеса Server, необходимо быть членом либо в Ксадминистратор, либо в группах безопасности управления доступом на основе ролей Кссерверадминистратор (RBAC) или настраиваемой роли RBAC, которая один из этих двух групп. Чтобы возвратить список всех ролей RBAC, которым был назначен этот командлет (включая любые пользовательские роли RBAC, созданные пользователем), выполните следующую команду в командной консоли управления Skype для бизнеса Server или Windows PowerShell.
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
 Например:
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
 > Существуют фундаментальные различия между командами командной строки, которые можно выполнять в Windows PowerShell или Клсконтроллер. Windows PowerShell предоставляет богатый способ настройки и определения сценариев, а также повторно использовать эти сценарии для сценариев устранения неполадок. While CLSController does provide a fast and efficient way to issue commands and get results, the command set for CLSController is limited by the finite commands that you have available from the command line. В отличие от командлетов Windows PowerShell, Клсконтроллер не может определять новые сценарии, управлять областью на сайте или глобальном уровне и многие другие ограничения набора команд, которые не могут быть настроены динамически. Несмотря на то, что Клсконтроллер предоставляет средства для быстрого выполнения, Windows PowerShell предоставляет средства для продления функций централизованной службы ведения журналов, помимо возможностей, возможных для Клсконтроллер.
 
-В ходе выполнения поиска может быть определена отдельная область компьютера [: ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), Stop- [ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) и [Update-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) командой с параметром-Computers. Параметр-Computers принимает список полных доменных имен (FQDN) для целевого компьютера, разделенный запятыми.
+В ходе выполнения команды [Поиск — ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Показать-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps) [ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) и [Update-ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) может быть определена отдельная область компьютера с помощью параметра-Computers. Параметр-Computers принимает список полных доменных имен (FQDN) для целевого компьютера, разделенный запятыми.
 
 > [!TIP]
 > Вы также можете определить пулы и список разделенных запятыми пулов, для которых нужно выполнить команды ведения журнала.
@@ -67,7 +67,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
@@ -81,7 +81,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -LocalStore
    ```
 
@@ -92,13 +92,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
    ```
 
     Например для получения сценариев, определенных в глобальной области, выполните следующую команду.
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
@@ -109,13 +109,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    Например:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
    ```
 
@@ -126,13 +126,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    Например:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
    ```
 
@@ -146,7 +146,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
    ```
 
@@ -155,7 +155,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 Например для создания новой конфигурации, которая определяет сетевую папку для файлов кэша, а также период и размер переключения для файлов журнала, введите следующую команду:
 
-  ```
+  ```PowerShell
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
@@ -166,13 +166,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 2. Введите следующую команду в командной строке:
 
-   ```
+   ```PowerShell
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
 Например, чтобы удалить созданную конфигурацию централизованной службы ведения журналов, чтобы продлить время переключения на файл журнала, измените размер файла журнала продолжения и установите для него расположение кэша файлов журнала, выполнив указанные ниже действия.
 
-  ```
+  ```PowerShell
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 

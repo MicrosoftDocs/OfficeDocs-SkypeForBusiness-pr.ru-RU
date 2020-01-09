@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 48fbd1477194b7523b65ec527686b7304f0c37b2
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615799"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992024"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Включение функции "Маршрутизация на основе расположения" для прямой маршрутизации
 
@@ -39,16 +39,16 @@ ms.locfileid: "39615799"
 
 1. Используйте командлет [Set-ксонлинепстнусаже](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) , чтобы настроить использование КТСОП. Для нескольких использований Разделяйте каждое использование запятыми.
 
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
     Например:
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
 2. С помощью командлета [New-ксонлиневоицераутингполици](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) можно создать политику маршрутизации голосовой связи, связывающую пользователя с использованием соответствующих ресурсов PSTN.
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
@@ -58,7 +58,7 @@ ms.locfileid: "39615799"
 
     В этом примере мы создадим две новые политики голосовой маршрутизации и назначаем им использование PSTN. 
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
@@ -70,18 +70,18 @@ ms.locfileid: "39615799"
     |Использование сети PSTN  |Междугородные звонки  |Междугородный, локальный, внутренний  |
 
 3. С помощью командлета [Grant-ксонлиневоицераутингполици](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) можно связать политики голосовой маршрутизации через Интернет с пользователями, которым требуются ограничения маршрутизации.
-    ```
+    ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>Включение маршрутизации на основе местоположения для сетевых сайтов
 1.  Используйте командлет [Set-кстенантнетворксите](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) , чтобы включить маршрутизацию на основе местоположения и связать политики голосовой маршрутизации с сетевыми сайтами, которые должны применять ограничения маршрутизации.
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     В этом примере включается маршрутизация на основе местоположения для сайта Делхи и сайта Хидерабад. 
 
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
@@ -96,13 +96,13 @@ ms.locfileid: "39615799"
 ## <a name="enable-location-based-routing-for-gateways"></a>Включение маршрутизации на основе местоположения для шлюзов
 1. Используйте командлет [New-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) для создания конфигурации шлюза для каждого шлюза или сайта сети. 
 
-    ```
+    ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
     Если несколько шлюзов связаны с системой (например, Gateway или УАТС), измените каждый из них, чтобы включить ограничения маршрутизации на основе местоположения. 
 
     В этом примере мы создадим одну конфигурацию шлюза для каждого шлюза. 
-    ```
+    ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Дополнительные сведения можно найти в разделе [Настройка прямого маршрута](direct-routing-configure.md).
@@ -111,18 +111,18 @@ ms.locfileid: "39615799"
 
     Включите возможность маршрутизации на основе местоположения для шлюзов, которые направляют звонки на шлюзы PSTN, которые направляют звонки в КТСОП и связывают сетевой сайт, на котором расположен шлюз.
 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
     В этом примере включена маршрутизация на основе местоположения для каждого шлюза, связанного с шлюзами PSTN на сайтах Делхи и Хидерабад. 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
     Не включайте маршрутизацию на основе местоположения для шлюзов, не направлять звонки в КТСОП. Однако вы по-прежнему должны ассоциировать шлюз с сетевым сайтом, на котором находится система. Это связано с тем, что для звонков по протоколу PSTN должны применяться ограничения на маршрутизацию на основе местоположения, связанные с конечными точками, которые подключены через этот шлюз. В этом примере маршрутизация на основе местоположения не включена для каждого шлюза, связанного с системами УАТС на сайтах Делхи и Хидерабад.
 
-    ```
+    ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
  
     Identity: sbc.contoso.com 
@@ -151,12 +151,12 @@ ms.locfileid: "39615799"
 
 Используйте командлет [Grant-кстеамскаллингполици](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) , чтобы включить маршрутизацию на основе местоположения, запретив бесплатный звонок без поддержки КТСОП.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 В этом примере мы постараемся отключить платный звонок в политики User1's звонков. 
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 

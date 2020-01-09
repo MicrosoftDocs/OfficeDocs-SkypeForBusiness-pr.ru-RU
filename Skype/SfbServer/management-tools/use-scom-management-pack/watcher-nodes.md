@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Сводка: Установка и настройка узлов-наблюдателей для виртуальных транзакций в Skype для бизнеса Server.'
-ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221520"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992446"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Установка и настройка узлов-наблюдателей
  
@@ -58,7 +58,7 @@ For details about the process for adding other synthetic transactions to a watch
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Проверяет, могут ли пользователи обмениваться сообщениями с помощью службы сохраняемого чата.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Проверяет, чтобы пользователи могут присоединяться к конференциям через веб.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Проверяет возможность доступа к контактам пользователя посредством единого хранилища контактов. Единое хранилище контактов позволяет пользователям поддерживать один набор контактов, доступ к которому можно получить с помощью Skype для бизнеса Server 2015, клиента для обмена сообщениями и совместной работы с Outlook, а также Outlook Web Access.  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |Проверяет возможность отправки мгновенного сообщения через шлюз XMPP.  <br/> Шлюзы и прокси-серверы КСМПП доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019.  |
+|Test-CsXmppIM (XmppIM)  <br/> |Проверяет возможность отправки мгновенного сообщения через шлюз XMPP.  <br/> Прокси-серверы и шлюзы XMPP доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019.  |
 
 Для использования System Center Operations Manager не нужно устанавливать узлы наблюдателей. Если вы не установили эти узлы, вы по-прежнему можете получать оповещения в реальном времени от компонентов Skype для бизнеса Server 2015 при возникновении проблем. (Пакет управления компонентом и пользовательским интерфейсом не использует узлы-наблюдатели). Однако узлы-наблюдатели необходимы для мониторинга сквозных сценариев с помощью активного пакета управления мониторингом.
   
@@ -110,9 +110,9 @@ For details about the process for adding other synthetic transactions to a watch
   
 1. На компьютере узла-наблюдателя нажмите кнопку "Пуск", последовательно выберите пункты "Все программы", "Стандартные", щелкните правой кнопкой мыши значок "Командная строка" и в контекстном меню выберите пункт "Запуск от имени администратора".
     
-2. В окне консоли введите указанную ниже команду и нажмите клавишу ВВОД. Убедитесь, что вы ввели правильный путь к установочным файлам Skype для бизнеса Server: Д:\сетуп.ЕКСЕ/Бутстраплокалмгмтто убедитесь, что основные компоненты сервера Skype для бизнеса установлены успешно, нажмите кнопку **Пуск**, выберите **все программы**, Выберите **Skype для бизнеса server 2015**, а затем — **Командная консоль управления Skype для бизнеса Server**. В командной консоли управления Skype для бизнеса Server введите следующую команду Windows PowerShell и нажмите клавишу ВВОД.
+2. В окне консоли введите указанную ниже команду и нажмите клавишу ВВОД. Убедитесь, что вы ввели правильный путь к установочным файлам Skype для бизнеса Server: Д:\сетуп.ЕКСЕ/Бутстраплокалмгмтто убедитесь, что основные компоненты сервера Skype для бизнеса установлены успешно, нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Skype для бизнеса Server 2015**, а затем — **Командная консоль управления Skype для бизнеса Server**. В командной консоли управления Skype для бизнеса Server введите следующую команду Windows PowerShell и нажмите клавишу ВВОД.
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -169,26 +169,26 @@ MaximumLogonAttempts :
   
 Чтобы создать доверенный пул приложений, откройте командную консоль управления Skype для бизнеса Server и выполните команду, подобную следующей:
   
-```
+```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
 > Для получения сведений о параметрах, описанных в предыдущей команде, введите в командной консоли Skype для Business Server следующую команду: 
   
-```
+```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
 После создания надежного пула приложений вы можете настроить компьютер-узел наблюдателя таким образом, чтобы он выполнял синтетические транзакции как надежное приложение с помощью командлета **New-кструстедаппликатион** и команды, аналогичные этим:
   
-```
+```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
 После завершения этой команды и создания надежного приложения необходимо запустить командлет **Enable-кстопологи** , чтобы убедиться, что изменения вступают в силу.
   
-```
+```PowerShell
 Enable-CsTopology
 ```
 
@@ -196,7 +196,7 @@ Enable-CsTopology
   
 Чтобы убедиться в том, что новое надежное приложение создано, введите в командной консоли Skype для Business Server следующую команду:
   
-```
+```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
@@ -231,7 +231,7 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
     
 2. В командной консоли введите указанную ниже команду и нажмите клавишу ВВОД (убедитесь, что вы указали фактический путь к копии Ватчерноде. msi):
     
-```
+```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
@@ -241,7 +241,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 > [!IMPORTANT]
 > В предыдущей команде проверка подлинности пары имя/значение = Трустедсервер учитывает регистр. Оно должно быть введено точно так же, как показано на рисунке. Например, эта команда завершится ошибкой, так как она не использует правильный регистр букв. 
   
-```
+```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
@@ -282,7 +282,7 @@ C:\Tools\Watchernode.msi authentication=trustedserver
     
 2. В командной консоли управления Skype для бизнеса Server введите указанную ниже команду и нажмите клавишу ВВОД (не забудьте указать фактический путь к копии Ватчерноде. msi):
     
-   ```
+   ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 

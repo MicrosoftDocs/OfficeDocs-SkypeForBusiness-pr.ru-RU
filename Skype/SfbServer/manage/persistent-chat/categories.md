@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Сводка: сведения о том, как управлять категориями серверов сохраняемого чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417941"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992004"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -39,7 +39,7 @@ ms.locfileid: "35417941"
 Настраивать категории и управлять ими можно с помощью панели управления и командлетов Windows PowerShell.
 
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Настройка категорий с помощью панели управления
 
@@ -69,7 +69,7 @@ ms.locfileid: "35417941"
     
 7. На странице **Изменить категорию** выполните следующие действия:
     
-   - В **** разделе "разрешенные **** пользователи" добавьте или удалите пользователей и других участников доменных служб Active Directory (пользователей, группы рассылки, подразделения и т. д.), которые разрешено добавлять в качестве участников комнат чата. принадлежит к категории. Разрешенные в категории субъекты могут выполнять поиск комнат в этой категории (если только комната не является скрытой — такую комнату могут искать в каталоге только ее участники).
+   - В разделе **Разрешенные участники** добавьте или удалите пользователей и других участников доменных служб Active Directory (пользователей, группы рассылки, подразделения и т. д. **), которые**разрешено добавлять в качестве членов комнат чата, принадлежащих к категории. Разрешенные в категории субъекты могут выполнять поиск комнат в этой категории (если только комната не является скрытой — такую комнату могут искать в каталоге только ее участники).
     
    - В разделе "участие в группе" **члены** **группы**"участники" добавляют и удаляют пользователей и других участников Active Directory, связанных с участниками, которые отклоняются из комнаты.
     
@@ -109,7 +109,7 @@ ms.locfileid: "35417941"
 
 Новую категорию можно создать с помощью командлета **New-CsPersistentChatCategory**. Например, следующая команда создает новую категорию с именем HelpDesk в пуле atl-cs-001.contoso.com. В этом примере загрузка файлов включена.
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -119,7 +119,7 @@ New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-00
   
 Например, следующая команда указывает на то, что Пользователь1 является Алловедмембер и создателем, в то время как Пользователь2 не получает доступ к комнатам в этой категории:
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 Получить сведения о категориях можно с помощью командлета **Get-CsPersistentChatCategory**. Например, следующая команда выводит сведения обо всех категориях сохраняемого чата в организации:
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 Удалить категорию можно с помощью командлета **Remove-CsPersistentChatCategory**. Перед удалением категории сначала следует удалить все находящиеся в ней комнаты чата либо переместить их в новую категорию. Например, следующая команда удалит категорию с идентификатором "atl-cs-001.contoso.com\helpdesk":
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

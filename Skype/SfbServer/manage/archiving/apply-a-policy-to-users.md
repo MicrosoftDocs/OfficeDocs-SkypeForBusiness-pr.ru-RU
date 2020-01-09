@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Сводка: сведения о назначении политики архивации пользователям в Skype для бизнеса Server.'
-ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5dbd1624813b187e8c0981aa1a84b6096b79e86a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282051"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992786"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Применение к пользователям политики архивации в Skype для бизнеса Server
 
@@ -51,19 +51,19 @@ ms.locfileid: "34282051"
   
 Следующей командой пользователю Ken Myer назначается политика архивации RedmondArchivingPolicy на уровне пользователей.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
 Эта команда назначает политику архивации на уровне пользователя RedmondArchivingPolicy всем пользователям, чьи учетные записи размещены в пуле регистраторов atl-cs-001.contoso.com. Дополнительные сведения о параметре фильтрации, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
   
-```
+```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
 Следующей командой удаляется любая политика архивации на уровне пользователей, ранее назначенная пользователю Ken Myer. После того как политика на уровне пользователей удалена, Ken Myer будет автоматически управляться с помощью глобальной политики или политики его локального сайта, если такая существует. Политика сайта имеет приоритет над глобальной политикой.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 

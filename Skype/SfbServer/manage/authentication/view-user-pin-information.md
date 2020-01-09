@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Сводка: Просмотр сведений о КОНТАКТах пользователя в Skype для бизнеса Server.'
-ms.openlocfilehash: 48b179a8d6e8619c909cb92ba63d9a5869ae8f2e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e0a74d980be4c77c5fe92f9e0d871f238a7271f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297605"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991944"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Просмотр сведений о КОНТАКТе пользователя в Skype для бизнеса Server
  
@@ -69,7 +69,7 @@ You can view user PIN information by using the Get-CsClientPinInfo cmdlet. Эт�
 
 Чтобы просмотреть сведения о ПИН-коде для пользователя, введите в командной консоли Skype для Business Server следующую команду, как показано ниже, и нажмите клавишу ВВОД.
     
-  ```
+  ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
   ```
 

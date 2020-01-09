@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Сводка: сведения об управлении удалением архивных данных для сервера Skype для бизнеса Server.'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278393"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991614"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Управление удалением архивных данных в Skype для бизнеса Server
 
@@ -57,13 +57,13 @@ ms.locfileid: "34278393"
     
 Например, следующая команда обеспечивает удаление вех архивных данных. После запуска этой команды в Skype для бизнеса Server будут очищены все записи архивации, предшествующие значению, указанному в параметре Кипарчивингдатафордайс. 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 При выполнении следующей команды (применяется командлет **Export-CSArchivingData**) удаляются только те архивные записи, которые экспортированы в файл данных. Необходимо также задать для параметра PurgeExportedArchivesOnly значение True ($True).
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
@@ -71,12 +71,12 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -Purg
   
 Для отключения автоматического удаления архивных записей задайте для параметра EnablePurging значение False ($False).
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 В следующем примере командлет **Invoke-ксарчивингдатабасепурже** используется для очистки всех записей, не превышающих 24 часа, из базы данных архивации в ATL-SQL-001.contoso.com. Для удаления всех, а не только экспортированных записей параметру PurgeExportedArchivesOnly присвоено значение False ($False).
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

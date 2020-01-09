@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39961614"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992546"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -87,15 +87,15 @@ ms.locfileid: "39961614"
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Получить Граупобжектид определенной группы.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
 Получение участников указанной группы.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Назначьте политике настройки приложения Фирстлиневоркер всем пользователям в группе.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.

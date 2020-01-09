@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: При покупке лицензий аудиоконференций для Skype для бизнеса корпорация Майкрософт предоставит вашей организации мост аудиоконференции . Мост аудиоконференции предоставляет номера телефонов для подключения из различных мест, так что организаторы и участники собрания могут использовать их, чтобы присоединяться к собраниям Skype для бизнеса или Microsoft Teams с помощью телефона.
-ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a37f1d90fc0c960d1e3c1f7ddf4424b3aaec6f98
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516967"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992876"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Изменение номеров телефонов для моста аудиоконференций
 
 Если вы приобрели лицензии на **голосовую конференцию** , корпорация Майкрософт размещает ваш мост для голосовой связи в вашей организации. Мост видеоконференции предоставляет номера телефонов для телефонного подключения из различных местоположений, чтобы участники собрания организаторов и пользователи могли присоединяться к собраниям Skype для бизнеса или Microsoft Teams с помощью телефона.
   
-Помимо номеров телефонов, уже назначенных своему мосту конференц-связи, вы можете [получить дополнительные номера служб](/microsoftteams/getting-service-phone-numbers) (платные и бесплатные номера, используемые для голосовой конференции) из других источников, а затем назначить их мосту для проведения конференций, чтобы вы могли Расширьте покрытие для пользователей.
+Помимо номеров телефонов, уже назначенных для моста конференц-связи, вы можете [получить дополнительные служебные номера](/microsoftteams/getting-service-phone-numbers) (бесплатные и платные номера, используемые для голосовой конференции) из других источников, а затем назначить их мосту для Конференции, чтобы вы могли расширить покрытие для пользователей.
   
 > [!NOTE]
 > Чтобы назначить или отменить назначение номера телефона для моста конференц-связи, номер телефона должен быть номером*услуги*. Тип номера можно узнать, перейдя на номера **голосовых** > **телефонов** на портале Legacy и просматривая столбец **тип номера** . Кредитные кредиты Office 365 должны быть настроены для того, чтобы пользователи набрать мост на бесплатный номер.
@@ -85,13 +85,13 @@ ms.locfileid: "37516967"
   
 - Запустите службу перемещения собраний (MMS) для пользователей, у которых на шаге 2 были изменены номера телефонов по умолчанию. Для этого выполните следующую команду:
 
-```
+```PowerShell
     Start-CsExMeetingMigration user@contoso.com
 ```
 
 - Также можно просмотреть состояние перемещения собрания. Когда не останется операций с состоянием  *Ожидает*  или *Выполняется*  , все собрания будут запланированы повторно.
 
-```
+```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -108,7 +108,7 @@ ms.locfileid: "37516967"
 
 Замените платный или бесплатный номер по умолчанию для всех пользователей, которые имеют номер, назначенный по умолчанию, и начните повторное Планирование собраний. Для этого выполните следующую команду:
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
@@ -123,7 +123,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 Все собрания будут перепланированы после того, как в *ожидании* или *в состоянии выполнения* нет никаких операций.
 
-```
+```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -170,7 +170,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
 
 >
-  ```
+  ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -189,7 +189,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
   - Чтобы изменить бесплатный номер по умолчанию для определенного пользователя, выполните командлет
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
   ```
 
@@ -200,19 +200,19 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
   - Чтобы задать бесплатный номер 8005551234 в качестве номера по умолчанию для всех пользователей, не имеющих номера по умолчанию, выполните командлет
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - Чтобы изменить бесплатный номер по умолчанию для всех пользователей с бесплатным номером по умолчанию 8005551234 на 8005551239 и автоматически повторно запланировать собрания, выполните командлет:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
   - Чтобы задать бесплатный номер 8005551234 в качестве номера по умолчанию для всех пользователей, находящихся в США, и автоматически повторно запланировать собрания, выполните командлет:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
@@ -226,14 +226,14 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 Вы хотите отменить назначение номера, но кнопка недоступна, и, если он хуверинг, вы будете перенаправлены в службу поддержки, указав для него следующее сообщение: _"по умолчанию или общие номера могут ́т отменяться от моста. Чтобы отменить присвоение специальных платных номеров, обратитесь в службу поддержки._".
 
 Чтобы получить дополнительные сведения о мостах, выполните указанные ниже действия PowerShell.
-```
+```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
 Результат, помимо других данных, таких как идентификация, имя и регион, должен содержать Дефаултсервиценумбер.
 
 **Например**, для отмены назначения дефаултсервиценумбер "8005551234"
-```
+```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
 ```
 
@@ -253,5 +253,5 @@ Windows PowerShell обладает многими преимуществами 
 
   - [Использование возможностей Windows PowerShell для выполнения стандартных задач управления средой Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Изменение настроек для моста аудиоконференций](change-the-settings-for-an-audio-conferencing-bridge.md)

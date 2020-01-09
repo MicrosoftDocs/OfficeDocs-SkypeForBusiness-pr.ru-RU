@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: Сводка. Этот раздел посвящен развертыванию диспетчера статистики в Skype для бизнеса Server.
-ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288763"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990614"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
@@ -98,7 +98,7 @@ ms.locfileid: "34288763"
     
      Отпечаток сертификата можно найти с помощью диспетчера сертификатов или с помощью следующей команды PowerShell:
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -185,7 +185,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
     a) Выполните следующую команду. 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     б) Скопируйте файл mypoolinfo.xml на сервер, на котором запущен прослушиватель.
@@ -196,25 +196,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    б) Перейдите в каталог, куда установлен прослушиватель. По умолчанию это: 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. Чтобы проверить, какие серверы добавляются и обновляются, выполните следующую команду:
     
-   ```
+   ```PowerShell
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 Следующая команда позволяет увидеть все параметры:
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 Для просмотра всей импортированной информации о сервере выполните следующий сценарий: 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -274,7 +274,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 1. Выполнив вход от имени администратора, введите в консоли PowerShell следующую команду:
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

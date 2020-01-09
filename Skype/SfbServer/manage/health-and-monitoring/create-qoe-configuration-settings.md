@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Сводка: сведения о параметрах качества взаимодействия (QoE) в Skype для бизнеса Server.'
-ms.openlocfilehash: d87938fdab64f3a77b96f427363c846829081f44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 254e6f1032026f715c30017f984bc2906f46e0df
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305810"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992796"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Создание параметров конфигурации качества взаимодействия в Skype для бизнеса Server
  
@@ -67,7 +67,7 @@ ms.locfileid: "34305810"
 
  Эта команда создает новую коллекцию параметров конфигурации качества взаимодействия, применяемую на сайте Redmond:
     
-  ```
+  ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -75,7 +75,7 @@ ms.locfileid: "34305810"
 
  Так как никакие параметры (кроме обязательного параметра Identity) не были указаны в приведенных ранее командах, новая коллекция параметров конфигурации будет использовать значения по умолчанию для всех своих свойств. Чтобы создать параметры, использующие другие значения свойств просто включите соответствующий параметр и его значение. Например, чтобы создать коллекцию параметров конфигурации качества взаимодействия, которые, по умолчанию, разрешают отключать запись качества взаимодействия, используйте следующую команду:
     
-  ```
+  ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -83,7 +83,7 @@ ms.locfileid: "34305810"
 
  Можно задать несколько значений свойств, включив несколько параметров. Например, эта команда настраивает новые параметры для сохранения данных качества взаимодействия в течение 30 дней и очистки старых данных в 3:00:
     
-  ```
+  ```PowerShell
   New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
   ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Сводка: сведения о том, что нужно знать при планировании панели мониторинга качества звонков.'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328441"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991414"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Планирование панели мониторинга качества звонков в Skype для бизнеса Server 
  
@@ -194,8 +194,8 @@ CQD использует Microsoft SQL Server, службы Microsoft SQL Server
 |**Компьютер**|**Ядра ЦП**|**ДОСТУПНОЙ**|**QoE Архивация и куб на одном и том же диске**|**QoE архива и базы данных SQL Temp на одном и том же диске**|
 |:-----|:-----|:-----|:-----|:-----|
 |Виртуальная машина  <br/> |4  <br/> |7 ГБ  <br/> |Да  <br/> |Да  <br/> |
-|4 ядра  <br/> |4  <br/> |20 ГБ  <br/> |Да  <br/> |Да  <br/> |
-|8 основных  <br/> |No8  <br/> |32 ГБ  <br/> |Да  <br/> |Да  <br/> |
+|4 ядра  <br/> |4  <br/> |20 ГБ  <br/> |Да  <br/> |Нет  <br/> |
+|8 основных  <br/> |No8  <br/> |32 ГБ  <br/> |Да  <br/> |Нет  <br/> |
 |16 ядер  <br/> |шестнадцат  <br/> |128 ГБ  <br/> |Нет  <br/> |Нет  <br/> |
    
 **Результаты производительности**
@@ -284,11 +284,11 @@ CQD использует Microsoft SQL Server, сервер Microsoft SQL Analys
   
 Чтобы установить эти требования с помощью PowerShell, выполните указанные ниже действия.
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Три учетные записи службы домена рекомендуются на принципе минимальных привилегий. 
   
-- У пользователя, у которого уже есть участник безопасности для входа в базу данных метрик QoE (с полномочиями db_datareader) и участником безопасности входа в QoE архивном экземпляре SQL Server (требуется создать объект связанного сервера во время настройки). Эта учетная запись будет использоваться для запуска задания "QoE Archive Data" агента SQL Server.
+- У пользователя, у которого уже есть участник безопасности для входа в базу данных метрик QoE (с правами db_datareader) и участником безопасности входа в QoE архивном экземпляре SQL Server (требуется создать объект связанного сервера во время настройки). Эта учетная запись будет использоваться для запуска задания "QoE Archive Data" агента SQL Server.
     
 - Один, который будет использоваться для выполнения шага "процессный куб" для задания агента SQL Server. Программа установки создаст участника безопасности входа в QoE архивной базе данных (с правами на чтение и запись), а также создать участника в роли QoE (с правами на полный доступ) для куба.
     

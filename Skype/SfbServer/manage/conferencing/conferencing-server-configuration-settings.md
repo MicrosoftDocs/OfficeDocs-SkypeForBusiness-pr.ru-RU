@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Сводка: сведения об управлении параметрами конфигурации сервера конференций в Skype для бизнеса Server.'
-ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289001"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991904"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Управление параметрами конфигурации сервера конференций в Skype для бизнеса Server
  
@@ -42,7 +42,7 @@ ms.locfileid: "34289001"
    
 Приведенная ниже команда создает новую коллекцию параметров конфигурации конференц-связи для сайта Redmond (site:Redmond). В этом примере используется один дополнительный параметр (Organization), с помощью которого свойству Organization присваивается значение Litwareinc. 
   
-```
+```PowerShell
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 ```
 
@@ -56,7 +56,7 @@ New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
   
 Наконец, третья команда вызывает командлет **Set-CsConferencingConfiguration**, который применяет созданные параметры к сайту Redmond.
   
-```
+```PowerShell
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x

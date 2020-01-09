@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Вы можете переместить пользователя из устаревшего пула в Skype для бизнеса Server 2019 для пилотного пула с помощью панели управления Skype для бизнеса Server 2019 или консоли управления Skype для бизнеса Server 2019. В приведенном ниже примере в столбце пула регистратора pool01.contoso.net — это пул устаревших данных, и все шесть этих пользователей подключены к этому пулу. Чтобы переместить пользователя в пул Skype для бизнеса Server 2019 с помощью панели управления Skype для бизнеса Server 2019 и консоли управления Skype для бизнеса Server, выполните указанные ниже действия.
-ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8964dd3dc868c22cd14389ba70b88d32b6bd145a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237767"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988964"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Перемещение отдельного пользователя в пилотный пул
 
@@ -44,13 +44,13 @@ ms.locfileid: "36237767"
     
 2. В командной строке введите следующую команду: 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. Затем в командной строке введите следующую команду: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 

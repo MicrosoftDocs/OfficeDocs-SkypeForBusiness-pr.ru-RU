@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Сводка: Настройка проверки подлинности серверов и серверов для гибридной среды Skype для бизнеса Server.'
-ms.openlocfilehash: 2879a1acc35a2c8928a95af913476c26028d6e6c
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: 5d56f098589355b85f942a6b1eb80d8ab6c03225
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305775"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992356"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Настройка проверки подлинности "сервер-сервер" для гибридной среды Skype для бизнеса Server.
 
@@ -24,7 +24,7 @@ ms.locfileid: "37305775"
 
 В гибридной конфигурации некоторые пользователи размещаются в локальной установке Skype для бизнеса Server, в то время как другие пользователи находятся в версии Office 365 для Skype для бизнеса Server. Чтобы настроить проверку подлинности "сервер-сервер" в гибридной среде, необходимо сначала настроить локальную установку Skype для бизнеса Server, чтобы доверять серверу авторизации Office 365. Чтобы выполнить этот процесс, выполните следующие действия в сценарии командной консоли для управления Skype для бизнеса Server.
 
-```
+```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 $sts = Get-CsOAuthServer microsoft.sts -ErrorAction SilentlyContinue
@@ -66,7 +66,7 @@ Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
 Помните о том, что имя области для клиента обычно отличается от имени организации; на деле имя области почти всегда совпадает с идентификатором клиента. Поэтому первая строка скрипта используется для получения значения свойства TenantId для заданного клиента (в данном случае это fabrikam.com) и последующего назначения этого имени переменной $TenantId:
 
-```
+```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 ```
 
@@ -81,13 +81,13 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 После получения сертификата X. 509 откройте консоль PowerShell и импортируйте модуль Microsoft Online Windows PowerShell, содержащий командлеты, которые можно использовать для управления субъектами служб.
 
-```
+```PowerShell
 Import-Module MSOnline
 ```
 
 После импорта модуля введите указанную ниже команду и нажмите клавишу ВВОД, чтобы подключиться к Office 365:
 
-```
+```PowerShell
 Connect-MsolService
 ```
 
@@ -95,7 +95,7 @@ Connect-MsolService
 
 После подключения к Office 365 вы можете выполнить следующую команду, чтобы получить сведения об участниках службы.
 
-```
+```PowerShell
 Get-MsolServicePrincipal
 ```
 
@@ -114,7 +114,7 @@ TrustedForDelegation : True
 
 На следующем шаге выполняется импорт, кодирование и назначение сертификата X.509. Для импорта и кодирования сертификата используйте указанные ниже команды Windows PowerShell, чтобы указать полный путь к файлу. CER при вызове метода Import:
 
-```
+```PowerShell
 $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
 $certificate.Import("C:\Certificates\Office365.cer")
 $binaryValue = $certificate.GetRawCertData()
@@ -123,7 +123,7 @@ $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
 После того как сертификат будет импортирован и закодирован, вы можете назначить сертификат участникам службы Office 365. Для этого сначала используйте Get-МсолсервицепринЦипал для получения значения свойства АпппринЦипалид как для сервера Skype для бизнеса, так и для участников службы Microsoft Exchange. значение свойства АпппринЦипалид будет использоваться для идентификации субъекта-службы, которому назначается сертификат. С помощью значения свойства АпппринЦипалид в Skype для бизнеса Server вы можете присвоить сертификат для версии Skype для бизнеса Online, выполнив следующую команду:
 
-```
+```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
 ```
 
@@ -131,7 +131,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 Если позже вам потребуется удалить этот сертификат, например, если срок его действия истек, сначала нужно получить Кэйид сертификата.
 
-```
+```PowerShell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 
@@ -148,7 +148,7 @@ Usage     : Verify
 
 После этого вы можете удалить сертификат с помощью следующей команды:
 
-```
+```PowerShell
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
@@ -156,7 +156,7 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 В следующем примере Pool1ExternalWebFQDN.contoso.com — URL-адрес внешней веб-службы для пула сервера Skype для бизнеса. Вы должны повторить эти действия, чтобы добавить URL-адреса внешних веб-служб в развертывание.
 
-```
+```PowerShell
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
 $lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")

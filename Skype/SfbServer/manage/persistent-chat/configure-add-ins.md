@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Сводка: сведения о том, как настроить надстройки для сохраняемого чата-помещения на сервер чатов в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 4614387149eb264d5c59ca7a0642408093312a18
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: c7243184f273704335dda3c8709de17e767f6b51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417955"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992114"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Настройка надстроек для комнат сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -27,7 +27,7 @@ ms.locfileid: "35417955"
  Чтобы пользователи увидели надстройку в клиенте, необходимо добавить надстройку в список зарегистрированных надстроек, а руководители или создатели комнат чата должны сопоставить комнаты с надстройкой
   
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Конфигурация надстроек для комнат чата с помощью панели управления
 
@@ -71,7 +71,7 @@ ms.locfileid: "35417955"
   
 Например, следующая команда создает новую надстройку (с именем Итперсистентчатаддин) для пула atl-cs-001.contoso.com. Параметр URL-адреса и значение http://atl-cs-001.contoso.com/itchat параметра определяют расположение веб-страницы надстройки.
   
-```
+```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
 ```
 
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 Параметры для существующей надстройки можно настроить с помощью командлета **Set-CsPersistentChatAddIn**. Например, следующая команда используется для изменения URL-адреса, назначенного надстройке сохраняемого чата ITPersistentChatAddin. В этом случае URL-адрес изменится наhttp://atl-cs-001.contoso.com/itchat2:
   
-```
+```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
 ```
 
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 Получить информацию о надстройках можно с помощью командлета **Get-CsPersistentChatAddin**. Например, следующая команда используется для получения информации обо всех настроенных в организации надстройках сохраняемого чата:
   
-```
+```PowerShell
 Get-CsPersistentChatAddin
 ```
 
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 Вы можете удалить надстройку с помощью командлета **Remove-ксперсистентчатаддин** . Например, следующая команда удаляет надстройку "сохраняемый чат" Итчатаддин, найденную в пуле atl-cs-001.contoso.com:
   
-```
+```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"
 ```
 

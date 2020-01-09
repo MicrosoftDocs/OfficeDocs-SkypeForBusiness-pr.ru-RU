@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: Сводка. сведения о том, как архивировать и восстанавливать сохраняемые базы данных сервера чата в Skype для бизнеса Server 2015.
-ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a8c407c35b9d864889c26cbea7296dbed86516fa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417962"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991974"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Резервное копирование и восстановление баз данных сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "35417962"
 Для сервера сохраняемого чата требуется, чтобы программа базы данных SQL Server содержала данные комнаты чата, такие как журнал и содержимое, конфигурация, подготовка пользователей и другие необходимые метаданные. Кроме того, если в вашей организации есть нормативы, для которых требуется архивировать действия сохраняемого чата и включена служба соответствия требованиям, программное обеспечение баз данных SQL Server используется для хранения данных о соответствии требованиям, в том числе содержания и событий чата, например присоединение к комнатам и выход из нее. Содержимое комнаты чата хранится в базе данных сохраняемого чата (MGC). Данные о соответствии хранятся в базе данных соответствия (mgccomp). Необходимо регулярно создавать резервные копии этих критически важных для бизнеса данных. 
   
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
 
 ## <a name="back-up-the-databases"></a>Резервное копирование баз данных
 
@@ -41,19 +41,19 @@ ms.locfileid: "35417962"
   
 Если планируется использовать командлет **Export-CsPersistentChatData**, данную команду можно указать следующим образом:
   
-```
+```PowerShell
 Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>
 ```
 
 или
   
-```
+```PowerShell
 Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
 ```
 
 Например, приведенная ниже команда экспортирует данные сохраняемого чата из базы данных сохраняемого чата, расположенной на сервере atl-sql-001.contoso.com. Экспортируемые данные будут храниться в файле C:\Logs\PersistentChatData.zip. Поскольку параметр Level не задан, данная команда будет выполнять полный экспорт сведений о сохраняемом чате.
   
-```
+```PowerShell
 Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"
 ```
 
@@ -61,12 +61,12 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 Способ восстановления сохраняемых данных чата зависит от того, какой метод вы использовали для архивации. Если были использованы процедуры резервного копирования SQL Server, необходимо использовать процедуры восстановления SQL Server. Если вы использовали командлет **Export-ксперсистентчатдата** для резервного копирования сохраненных данных чата, необходимо использовать командлет **Import-ксперсистентчатдата** для восстановления данных.
   
-```
+```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>
 ```
 
 или
   
-```
+```PowerShell
 Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
 ```

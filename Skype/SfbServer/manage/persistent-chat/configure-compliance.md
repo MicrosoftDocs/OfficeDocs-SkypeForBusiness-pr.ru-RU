@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Сводка: сведения о настройке службы соответствия требованиям сервера для обеспечения постоянной связи в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 95418a814ac8f4796fbde561c90c5ac051c54725
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a02384c68c04798ea453b94bf736a2c6ff276397
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418700"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991994"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Настройка службы проверки на соответствие для сервера сохраняемого чата в Skype для бизнеса Server 2015
 
@@ -39,19 +39,19 @@ ms.locfileid: "35418700"
 Эта информация может извлекаться из базы данных проверки совместимости SQL по мере необходимости. 
 
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Настройка службы проверки совместимости с помощью Windows PowerShell
 
 Включив службы проверки совместимости с помощью построителя топологий, можно настроить ее путем выполнения командлета **Set-CsPersistenChatComplianceConfiguration**:
 
-```
+```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 или
 
-```
+```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
@@ -77,13 +77,13 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 Сервер соответствия требованиям сохраняемый чат вызывает следующий метод при первой загрузке адаптера. Она `AdapterConfig` содержит конфигурацию соответствия сохраняемым чата требованиям, связанную с адаптером соответствия:
 
-```
+```cpp
 void SetConfig(AdapterConfig config)
 ```
 
 Сервер соответствия требованиям в чате вызывает следующий метод через определенные интервалы времени, пока не будут переведены новые данные. Этот интервал времени равен значению, `RunInterval` заданному в параметрах соответствия требованиям сохраняемого чата.
 
-```
+```cpp
 void Translate(ConversationCollection conversations)
 ```
 
@@ -97,7 +97,7 @@ void Translate(ConversationCollection conversations)
 
 Выходные данные службы проверки совместимости классифицируются по беседе (элемент Conversation) и затем по сообщению (элемент Messages), как показано в следующем примере кода:
 
-```
+```XML
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Conversation>
@@ -114,7 +114,7 @@ void Translate(ConversationCollection conversations)
 
 Элемент Conversation содержит четыре элемента (Channel, FirstMessage, StartTimeUTC и EndTimeUTC). Элемент Channel содержит код URI, назначенный комнате чата, а элемент FirstMessage описывает первое сообщение в элементе Messages. Элементы StartTimeUTC и EndTimeUTC задают время начала и окончания беседы, как показано в следующем примере кода:
 
-```
+```XML
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
@@ -123,7 +123,7 @@ void Translate(ConversationCollection conversations)
 
 Элемент Message содержит два элемента (Sender и DateTimeUTC) и три атрибута (Type, Content и ID). Элемент Sender представляет пользователя, отправляющего сообщение, а элемент DateTimeUTC — время возникновения события, как показано в следующем примере кода:
 
-```
+```XML
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -150,13 +150,13 @@ void Translate(ConversationCollection conversations)
 |ID  <br/> |Уникальный идентификатор отправителя.  <br/> |Обязательный  <br/> |
 |Email  <br/> |Адрес электронной почты отправителя.  <br/> |Необязательно   <br/> |
 |Internal  <br/> |Определяет, является ли пользователь внутренним или федеративным. Если задано значение true, пользователь является внутренним.  <br/> |Необязательный  <br/> |
-|Uri  <br/> |Универсальный код ресурса (URI) пользователя SIP.  <br/> |Обязательно  <br/> |
+|Uri  <br/> |Универсальный код ресурса (URI) пользователя SIP.  <br/> |Обязательный  <br/> |
 
 В следующих примерах показаны типы сообщений, которые может содержать элемент Messages. Здесь также представлен пример использования каждого из элементов.
 
 Присоединение — пользователь присоединяется к комнате чата.
 
-```
+```XML
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -165,7 +165,7 @@ void Translate(ConversationCollection conversations)
 
 Part — пользователь покидает комнату чата.
 
-```
+```XML
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212610602532" string="2008-06-04T20:16:42.5324614Z" long="633482074025324614" /> 
@@ -174,7 +174,7 @@ Part — пользователь покидает комнату чата.
 
 Чат — адрес электронной почты отправителя.
 
-```
+```XML
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351800522" string="2008-03-12T19:56:40.522264Z" long="633409486005222640" /> 
@@ -183,7 +183,7 @@ Part — пользователь покидает комнату чата.
 
 "Чат" — пользователь запрашивает содержимое из истории чата.
 
-```
+```XML
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206034385284" string="2008-03-20T17:33:05.2841594Z" long="633416311852841594" /> 
@@ -192,7 +192,7 @@ Part — пользователь покидает комнату чата.
 
 Отправка файла — пользователь отправляет файл.
 
-```
+```XML
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351828975" string="2008-03-12T19:57:08.9755711Z" long="633409486289755711" /> 
@@ -201,7 +201,7 @@ Part — пользователь покидает комнату чата.
 
 Загрузка файла — пользователь загружает файл.
 
-```
+```XML
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212611141851" string="2008-06-04T20:25:41.8518646Z" long="633482079418518646" /> 
@@ -212,7 +212,7 @@ Part — пользователь покидает комнату чата.
 
 Следующий пример кода содержит выходные данные сервера проверки совместимости по умолчанию:
 
-```
+```XML
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
    <xs:simpleType name="ComplianceMessageType">
@@ -311,7 +311,7 @@ Part — пользователь покидает комнату чата.
 
 Следующий образец кода содержит пример преобразования в формат XSL:
 
-```
+```XML
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 

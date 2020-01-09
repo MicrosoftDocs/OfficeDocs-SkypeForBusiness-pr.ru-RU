@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Сводка: сведения о том, как указать хранение данных QoE в Skype для бизнеса Server.'
-ms.openlocfilehash: 89e20b18aa285bd4ee61df12c822e487dd6b37a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c597c0e5e3fbd2a8a92304ffd55d866a15c121a9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280007"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992044"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Изменение параметров качества работы в Skype для бизнеса Server
 
@@ -52,7 +52,7 @@ ms.locfileid: "34280007"
 
 - Эта команда включает очистку данных о качестве взаимодействия и настраивает их хранение в течение 20 дней для сайта Redmond.
 
-  ```
+  ```PowerShell
   Set-CsQoeConfiguration -Identity "site:Redmond" -EnablePurging -KeepQoEDataForDays 20
   ```
 
@@ -60,7 +60,7 @@ ms.locfileid: "34280007"
 
 - Эта команда настраивает срок хранения для всех параметров конфигурации качества взаимодействия, используемых в организации.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Сводка: сведения о том, как управлять сохраняемыми комнатами чата на сервере в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cbced7f62a4684e5541e35b5985b7e93cc7d3e66
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417948"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992124"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Управление комнатами чата на сервере сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "35417948"
 Создание комнат комнат чата и управление ими осуществляется значительно проще благодаря правильному использованию категорий. Категория определяет, кто может создавать комнаты чата или присоединяться к ним. Перед тем как приступить к управлению комнатами чата, не забудьте прочитать [категории сохраняемого чата, комнаты чата и роли пользователей в Skype для бизнеса server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) и [Управляйте категориями на сервере сохраняемого чата в Skype для бизнеса Server 2015](categories.md).
   
 > [!NOTE]
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
 
 Вы можете настраивать комнаты чата и управлять ими с помощью интерфейса командной строки Windows PowerShell или с помощью клиента Skype для бизнеса, если вы являетесь участником комнаты чата. В этом разделе описываются способы управления комнатами с помощью интерфейса командной строки. Если вы хотите управлять комнатами чата с помощью клиента Skype для бизнеса, ознакомьтесь со справкой клиента. 
   
@@ -83,7 +83,7 @@ ms.locfileid: "35417948"
 
 Создать новую комнату можно с помощью командлета **New-CsPersistentChatRoom**. Например, следующая команда создаст новую комнату чата с именем ITChatRoom в пуле atl-cs-001.contoso.com. В данном примере комната чата добавлена в категорию IT:
   
-```
+```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
@@ -99,7 +99,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
 
 Вы можете настроить существующую комнату с помощью командлета **Set-ксперсистентчатрум** . Например, с помощью следующей команды вы назначаете Пользователь1 в качестве участника и докладчика, а затем Пользователь2 в качестве руководителя в комнате Тесткат Аудиториум:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
 Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
@@ -107,13 +107,13 @@ Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.co
 
  В следующем примере выполняется добавление в комнату чата NorthAmerica всех пользователей подразделения NorthAmericaUsers OU в Active Directory:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=contoso,DC=com"}
 ```
 
 В следующем примере все участники группы рассылки Finance добавляются в ту же комнату чата:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=contoso,DC=com"}
 ```
 
@@ -127,13 +127,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
   
 Вы можете отключить комнату с помощью командлета **Set-ксперсистентчатрум** и задать для параметра Disabled значение true.
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
 ```
 
 Чтобы разрешить использование комнаты чата, задайте параметру Disabled значение False:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
@@ -143,7 +143,7 @@ Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled
   
 Следующая команда возвращает сведения обо всех настроенных в организации комнатах чата:
   
-```
+```PowerShell
 Get-CsPersistentChatRoom
 ```
 
@@ -151,7 +151,7 @@ Get-CsPersistentChatRoom
 
 Удалить содержимое из комнаты можно с помощью командлета **Clear-CsPersistentChatRoom**. Например, следующая команда удалит из комнаты сохраняемого чата все содержимое, добавленное в нее до 1 марта 2015 г. включительно:
   
-```
+```PowerShell
 Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDate "3/1/2015"
 ```
 
@@ -159,13 +159,13 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 Можно удалить одно или несколько сообщений из комнаты сохраняемого чата и при необходимости заменить какое-либо сообщение на стандартное или предоставленное администратором сообщение с помощью командлета **Remove-CsPersistentChatMessage**. Например, следующая команда удалит из комнаты чата ITChatRoom все сообщения, переданные пользователем kenmyer@contoso.com:
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
 ```
 
 В следующем примере вместо удаленных сообщений отображается примечание о том, что сообщение уже не доступно:
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com" -ReplaceMessage "This message is no longer available."
 ```
 
@@ -175,7 +175,7 @@ Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITC
   
 Например, следующая команда удалит комнату чата RedmondChatRoom:
   
-```
+```PowerShell
 Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"
 ```
 
