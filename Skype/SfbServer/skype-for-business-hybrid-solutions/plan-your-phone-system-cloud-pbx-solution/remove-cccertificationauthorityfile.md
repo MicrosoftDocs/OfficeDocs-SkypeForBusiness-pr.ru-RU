@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: Командлет Remove-Ккцертификатионаусоритифиле удаляет файл резервной копии службы центра сертификации в папке CA в каталоге Share сайта для Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7036633eaf092130fc6e4acaebda39d04ff17df
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287092"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003299"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-Командлет Remove-Ккцертификатионаусоритифиле удаляет файл резервной копии службы центра сертификации&lt;"&gt;ситерутдиректори \ка\сфб кце root. p12" в папке CA в каталоге Share сайта для облачного соединителя Skype для бизнеса Ознакомитель. 
+Командлет Remove-Ккцертификатионаусоритифиле удаляет файл резервной копии службы центра сертификации&lt;"&gt;ситерутдиректори \ка\сфб кце root. p12" в папке CA в каталоге Share сайта для Skype для бизнеса Cloud Connector Edition. 
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -37,7 +37,7 @@ Remove-CcCertificationAuthorityFile
 
 Следующий пример удаляет файл резервной копии службы центра сертификации "&lt;СИТЕРУТДИРЕКТОРИ&gt;\ка\сфб кце root. p12" в папке CA в каталоге общего доступа к сайту:
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 

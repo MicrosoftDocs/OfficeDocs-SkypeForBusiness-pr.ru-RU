@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Разверните (установите) группу доступности Always On в развертывании Skype для бизнеса Server.
-ms.openlocfilehash: 2cfc75aecd53a82e146feefd944134a4695c21fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240130"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002919"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Развертывание группы доступности Always on на обратном стороне сервера в Skype для бизнеса Server
  
@@ -138,7 +138,7 @@ ms.locfileid: "36240130"
     
    - Откройте командную консоль управления Skype для бизнеса Server и введите следующий командлет для создания имен входа SQL в этой реплике:
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -152,13 +152,13 @@ ms.locfileid: "36240130"
   
 1. Чтобы перенести все данные из зеркала на основной узел, откройте консоль управления Skype для бизнеса Server и введите следующий командлет.
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     Повторно выполните этот командлет для каждого типа баз данных в пуле. Для поиска всех типов баз данных, хранящихся в пуле, можно выполнить следующий командлет.
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -296,7 +296,7 @@ ms.locfileid: "36240130"
     
     - Откройте командную консоль управления Skype для бизнеса Server и введите следующий командлет для создания имен входа SQL в этой реплике:
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -428,7 +428,7 @@ ms.locfileid: "36240130"
     
     - Откройте командную консоль управления Skype для бизнеса Server и введите следующий командлет для создания имен входа SQL в этой реплике:
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'Командлет Set-CcCredential задает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition. '
-ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286980"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003219"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -24,7 +24,7 @@ ms.locfileid: "34286980"
   
 С помощью облачного соединителя версии 2,0 и более поздних версий этот командлет также может задать сведения об учетной записи для администратора виртуальных машин и для администратора домена.
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 В следующем примере задаются имя и пароль учетной записи для администратора клиента.
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 
@@ -47,7 +47,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> | Обязательный <br/> |System.String  <br/> |  Параметр должен иметь значение "TenantAdmin", "VmAdmin" или "DomainAdmin". <br/> |
    

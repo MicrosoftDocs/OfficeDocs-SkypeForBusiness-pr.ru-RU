@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Процесс развертывания и инструкции для группы ответа в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233301"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001189"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Процесс развертывания группы ответа в Skype для бизнеса
 
@@ -85,7 +85,7 @@ To be compliant with FIPS, you need to modify the application-level Web.config f
 
 3. Добавьте в `<system.web>` раздел `<machineKey>` следующий раздел:
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
@@ -93,7 +93,7 @@ To be compliant with FIPS, you need to modify the application-level Web.config f
 
 5. Перезапустите службу служб IIS, выполнив следующую команду в командной строке:
 
-   ```
+   ```console
    iisreset
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Настройте базу данных дополнительного расположения (СЛС) для E9-1-1 в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: 47dd4015cde79536323cee3edc04ed546459a3f0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1743a4c5f49fcc01fe2f0878c596e0d1bb530621
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240167"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002000"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Настройка дополнительной службы сведений о расположении в Skype для бизнеса Server
  
@@ -33,7 +33,7 @@ Skype для бизнеса Server предоставляет интерфейс
     
 2. Чтобы настроить URL-адрес базы данных дополнительных расположений, выполните следующий командлет. 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 

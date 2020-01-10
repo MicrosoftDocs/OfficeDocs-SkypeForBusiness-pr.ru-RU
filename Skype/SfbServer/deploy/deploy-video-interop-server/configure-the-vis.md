@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Сводка: Настройка роли сервера видеосвязи (ВИС) в Skype для бизнеса Server.'
-ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235685"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003059"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Настройка сервера видеосвязи в Skype для бизнеса Server
  
@@ -34,31 +34,31 @@ ms.locfileid: "36235685"
 
 1. Создайте новую конфигурацию магистральной видеосвязи (коллекцию параметров) для использования на магистралье между ВИС и Cisco Unified Communications Manager (Каллманажер или КУКМ) с помощью следующего командлета Windows PowerShell:
     
-   ```
+   ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
     Если вы хотите изменить существующую магистральную схему видео, используйте следующий командлет Windows PowerShell:
     
-   ```
+   ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
     Чтобы просмотреть параметры, связанные с конкретной конфигурацией магистрали видео, используйте следующий командлет Windows PowerShell:
     
-   ```
+   ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
     Чтобы удалить определенную конфигурацию магистрали видео, используйте следующий командлет Windows PowerShell (Обратите внимание на то, что будет применена конфигурация магистральной магистрали с глобальными областями, если для конкретной магистрали не определена особая конфигурация магистральной магистрали).
     
-   ```
+   ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
 2. Создайте абонентскую группу, которая будет связана с магистрали, используя следующие командлеты Windows PowerShell:
     
-   ```
+   ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
    New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
    Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"

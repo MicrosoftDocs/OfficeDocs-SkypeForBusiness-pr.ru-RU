@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: Командлет Restore CC-Credential восстанавливает все учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287085"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003249"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
@@ -24,7 +24,7 @@ ms.locfileid: "34287085"
   
 Этот командлет применим к Skype для бизнеса Cloud Connector Edition 2,1.
   
-```
+```powershell
 Restore-CcCredentials 
 ```
 
@@ -48,7 +48,7 @@ Restore-CcCredentials
 
 В следующем примере восстанавливаются все учетные данные для текущего развертывания облачного соединителя:
   
-```
+```powershell
     PS C:\>Restore-CcCredentials
 ```
 

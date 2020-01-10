@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: Командлет Renew-CcCACertificate продлевает сертификат корневого центра сертификации Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда была изменена на Update-Кккацертификате в облачном соединителе 2,0 и более поздних версиях.
-ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287106"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003279"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 Командлет Renew-CcCACertificate продлевает сертификат корневого центра сертификации Skype для бизнеса Cloud Connector Edition, срок действия которого истекает или уже истек. Эта команда была изменена на Update-Кккацертификате в облачном соединителе 2,0 и более поздних версиях.
   
-```
+```powershell
 Renew-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Renew-CcCACertificate
 
 В следующем примере продлевается сертификат корневого центра сертификации.  
   
-```
+```powershell
 Renew-CcCACertificate 
 ```
 

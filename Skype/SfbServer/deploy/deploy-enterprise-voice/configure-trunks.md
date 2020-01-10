@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Сводка: сведения о настройке магистрали между сервером-посредником и одноранговыми приложениями для корпоративной голосовой связи в Skype для бизнеса Server.'
-ms.openlocfilehash: 714c712816709e8f2211e752f87d20c8d2067c7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9bd285f1364d54940afd827858248656a6bb9f00
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233659"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001239"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Настройка каналов связи в Skype для бизнеса Server
  
@@ -43,7 +43,7 @@ ms.locfileid: "36233659"
     
 When a trunk is defined, it must be associated to a route. Чтобы связать магистраль с маршрутом, вы определяете простое имя для магистрали в построителе топологии. Это простое имя используется в качестве наименования канала на панели управления "Skype для бизнеса" на сервере, где магистральные магистрали могут быть связаны с маршрутами. Простое имя канала используется как имя шлюза в командной консоли управления Skype для бизнеса Server. 
   
-```
+```powershell
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 ```
 

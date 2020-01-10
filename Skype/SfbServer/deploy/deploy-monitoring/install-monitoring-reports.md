@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Сводка: сведения о том, как установить службу, которая будет создавать отчеты наблюдения в Skype для бизнеса Server.'
-ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a2d10e8025b2107da8a0b5c3866faf210b77ada
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239985"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001169"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Установка отчетов мониторинга в Skype для бизнеса Server
  
@@ -34,7 +34,7 @@ ms.locfileid: "36239985"
   
 - **Новые отчеты о качестве голосовой связи**. Эти новые отчеты включают [отчет о сравнении качества мультимедиа в Skype для бизнеса Server](../../manage/health-and-monitoring/comparison.md), который сравнивает качество связи между различными типами звонков (например, между проводных и беспроводными звонками). и [отчет о времени присоединения к Конференции в Skype для бизнеса Server, в](../../manage/health-and-monitoring/join-time-report.md)котором содержатся сведения о том, сколько времени требуется для присоединения пользователей к Конференции. 
     
-- **Улучшенные отчеты для анализа и диагностики видео связи и сеансов совместного использования приложений.** [сводный отчет о качестве качества мультимедиа в Skype для бизнеса Server](../../manage/health-and-monitoring/summary.md) позволяет анализировать звонки по видеосвязи и видеозвонкам, а [в отчете о производительности сервера в Skype для бизнеса Server](../../manage/health-and-monitoring/server-performance.md) подробно описана производительность серверов, создающих эти междугородн. Показатели общего соединения для видео и приложений также теперь предоставляются отчетом о одноранговых [сеансах в Skype для бизнеса Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) и в [отчете о конференции в Skype для бизнеса Server](../../manage/health-and-monitoring/detail-report.md).
+- **Улучшенные отчеты для анализа и диагностики видео связи и сеансов совместного использования приложений.** [сводный отчет о качестве качества мультимедиа в Skype для бизнеса Server](../../manage/health-and-monitoring/summary.md) предоставляет способ анализа звонков по видеосвязи и совместному использованию приложений, а [в отчете о производительности сервера в Skype для бизнеса Server](../../manage/health-and-monitoring/server-performance.md) подробно описана производительность серверов, создающих эти звонки. Показатели общего соединения для видео и приложений также теперь предоставляются [отчетом о одноранговых сеансах в Skype для бизнеса Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) и в [отчете о конференции в Skype для бизнеса Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Улучшенная производительность отчетов**. В том числе более быстрое время ответа и получения данных, а также более быстрая и простая навигация по отчетам.
     
@@ -67,13 +67,13 @@ ms.locfileid: "36239985"
     
 Для установки отчетов по мониторингу можно также использовать командную консоль управления Skype для бизнеса Server, выполнив сценарий Деплойрепортс. ps1; Этот сценарий Windows PowerShell можно найти в папке путь \<\>установки \скипе для Business Server 2015 \ деплоймент\сетуп. To install Monitoring Reports using DeployReports.ps1, type a command similar to the following at the Management Shell prompt:
   
-```
+```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 ```
 
 Параметры, используемые в этой команде, описаны в следующей таблице.
   
-|**Имя параметра**|**Обязательно**|**Описание**|
+|**Имя параметра**|**Обязательный**|**Описание**|
 |:-----|:-----|:-----|
 |storedUserName  <br/> |Да  <br/> |Учетная запись пользователя (в формате домен\имя_пользователя) для доступа к хранилищу данных наблюдения; например:  <br/> ```-storedUserName "litwareinc\kenmyer"```У этой учетной записи должны быть ранее указанные разрешения SQL Server и служб SQL Server Reporting Services, иначе сценарий завершится сбоем.  <br/> |
 |storedPassword  <br/> |Да  <br/> |Пароль учетной записи пользователя для доступа к хранилищу данных наблюдения.  <br/> |
@@ -83,7 +83,7 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
    
 After the Monitoring Reports have been installed you must then use the New-CsReportingConfiguration cmdlet to configure the URL used to access these reports. Эту задачу можно выполнить из командной консоли Skype для бизнеса Server, выполнив следующую команду Windows PowerShell. Note that it is recommended, but not required, that you use the HTTPS protocol when configuring the reporting URL:
   
-```
+```powershell
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'
 ```
 
@@ -95,6 +95,6 @@ New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.l
     
 3. В диспетчере конфигурации служб Reporting Services выберите "URL-адрес диспетчера отчетов". В области "URL-адрес диспетчера отчетов" должен появиться хотя бы один URL-адрес. Любой из появившихся URL-адресов можно использовать в качестве значения ReportingURL, хотя рекомендуется, чтобы этот ReportingUrl использовал протокол HTTPS.
     
-Если для базы данных мониторинга настроена зеркальная база данных, ее также нужно связать с отчетами по мониторингу. В этой статье приводятся сведения об отслеживании [отчетов с зеркальной базой данных в Skype для бизнеса Server](monitoring-reports-with-a-mirror-database.md) .
+Если для базы данных мониторинга настроена зеркальная база данных, ее также нужно связать с отчетами по мониторингу. В этой статье приводятся сведения об [отслеживании отчетов с зеркальной базой данных в Skype для бизнеса Server](monitoring-reports-with-a-mirror-database.md) .
   
 

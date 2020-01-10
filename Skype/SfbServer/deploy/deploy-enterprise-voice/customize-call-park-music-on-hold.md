@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Настройка музыкального сопровождения для остановки звонка на удержании в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: 834e6e811637c120e675a674f51ac0edeaf90542
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f071b83e155e2ddfb057619eb95773e4386b67c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245629"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001009"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Настройка музыкального сопровождения для приема звонков на удержание в Skype для бизнеса
  
@@ -38,7 +38,7 @@ ms.locfileid: "36245629"
     
 3. Выполните следующую команду:
     
-   ```
+   ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
    ```
 
@@ -47,7 +47,7 @@ ms.locfileid: "36245629"
   
     В следующем примере показано, как получить содержимое файла soothingmusic.wma в виде байтового массива и назначить его переменной. Затем аудиофайл назначается для режима приостановки вызовов в качестве музыки, воспроизводимой при удержании вызова. Подробности можно найти в разделе [Set-кскаллпарксервицемусиконхолдфиле](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
     
-   ```
+   ```powershell
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Сведения о настройке интеграции Cloud Connector с клиентом Office 365.
-ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ed9437026ddbae07aadbe81585886ed0cb5cb0cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508814"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002859"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Настройка интеграции Cloud Connector с клиентом Office 365
  
@@ -69,7 +69,7 @@ ms.locfileid: "37508814"
   
 Этот командлет задает внешнее полное доменное имя пограничного сервера доступа. В первой из команд полное доменное имя \<\> внешнего доступа должно быть одним для ролика доступа SIP. По умолчанию это должно быть значение AP\<. domain\>Name.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
@@ -107,7 +107,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   
 - Назначьте политику для пользователя и настройте номер рабочего голосового телефона пользователя, который вы указали с помощью значения параметра **Identity** :
     
-  ```
+  ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
@@ -116,7 +116,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
   
 Чтобы убедиться, что пользователи добавлены и включены, можно выполнить следующий сценарий.
   
-```
+```powershell
 # Input the user name you want to verify
 $user = Get-CsOnlineUser <User name>
 
@@ -134,7 +134,7 @@ $user.VoicePolicy
   
 Чтобы отключить международные звонки для отдельных пользователей, выполните следующий командлет в консоли PowerShell Skype для бизнеса Online.
   
-```
+```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
@@ -144,7 +144,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $u
 
 Используйте удаленную консоль PowerShell клиента, чтобы назначить сайт пользователям, даже если развернут только один сайт. Сведения о том, как установить удаленный сеанс PowerShell, можно найти в статье [Настройка компьютера для Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
-```
+```powershell
 # Set the site to users
 Set-CsUserPstnSettings -Identity <User Name> -HybridPstnSite <PSTN Site Name>
 
@@ -168,19 +168,19 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
     Использование домена SIP по умолчанию для облачного соединителя (первый домен SIP в ini-файле) в качестве домена пользователя.
     
     Обратите внимание на то, что назначение лицензий требуется только для распространения пользователя в каталог Skype для бизнеса Online. Назначьте вам лицензии на Office 365 (например, в г.) учетной записи, которую вы создали, а затем убедитесь в том, что учетные записи пользователей были правильно настроены в каталоге Skype для бизнеса Online, запустив следующий командлет, а затем удаляйте Лицензия из этой учетной записи.
-    ```
+    ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. Запустите сеанс Azure Active Directory для RAS с помощью глобальной или учетной записи администратора пользователя, а затем выполните следующий командлет, чтобы задать для подразделения учетную запись пользователя Azure AD, настроенную на шаге 1, на "Хибридмедиатионсервер":
 
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Запустите удаленный сеанс PowerShell в Skype для бизнеса с помощью учетных данных администратора Skype для бизнеса, а затем выполните следующий командлет, чтобы установить для сервера-посредника и полного доменного имени пограничного сервера \<имя\> учетной записи пользователя, заменив DisplayName. с отображаемым именем пользователя для учетной записи, созданной на этапе 1:
+3. Запустите удаленный сеанс PowerShell в Skype для бизнеса с помощью учетных данных администратора Skype для бизнеса, а затем выполните следующий командлет, чтобы установить для сервера-посредника и полного доменного имени сервера исправности учетную запись пользователя, заменив \<отображаемое\> имя именем пользователя для учетной записи, созданной в действии 1:
     
-   ```
+   ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Сводка: Настройка единой системы обмена сообщениями Exchange Server для голосовой почты в Skype для бизнеса Server.'
-ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61df3cb7f57a0fd924188f43374f0309d081b660
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238010"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001209"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Настройка единой системы обмена сообщениями Exchange Server для голосовой почты Skype для бизнеса Server
  
@@ -30,7 +30,7 @@ Skype для бизнеса Server позволяет использовать �
   
 Если вы уже настроили проверку подлинности серверов в Skype для бизнеса Server и Exchange Server 2016 или Exchange Server 2013, вы можете настроить единую систему обмена сообщениями. Для этого необходимо сначала создать и назначить новую абонентскую группу единой системы обмена сообщениями на сервере Exchange. Например, эти две команды (выполняются из командной консоли Exchange) настраивают новый 3-значный абонентский тариф для Exchange:
   
-```
+```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
 Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
@@ -52,13 +52,13 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
   
 После создания и настройки новой абонентской группы необходимо добавить ее на сервере единой системы обмена сообщениями и затем изменить режим запуска этого сервера: в частности, задать режим запуска "Двойной". Вы можете выполнять обе эти задачи в командной консоли Exchange:
   
-```
+```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
 После того как вы настроили сервер единой системы обмена сообщениями, необходимо выполнить командлет Enable-ExchangeCertificate, чтобы убедиться в том, что сертификат Exchange применен к службе единой системы обмена сообщениями:
   
-```
+```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 ```
 
@@ -66,7 +66,7 @@ Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint
   
 По завершении настройки сервера единой системы обмена сообщениями можно настроить маршрутизатор вызовов в единую систему обмена сообщениями:
   
-```
+```powershell
 Set-UMCallRouterSettings -Server "atl-exchange-001.litwareinc.com" -UMStartupMode "Dual" -DialPlans "RedmondDialPlan" 
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "45BAA32496CC891169B75B9811320F78A1075DDA" -Services "IIS","UMCallRouter"
 ```
@@ -75,13 +75,13 @@ Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint
   
 Для завершения настройки единой системы обмена сообщениями необходимо создать политику почтовых ящиков единой системы обмена мгновенными сообщениями, после чего использовать ее, чтобы разрешить пользователям работу с единой системой обмена сообщениями. Для создания политики почтовых ящиков можно использовать команду следующего вида:
   
-```
+```powershell
 New-UMMailboxPolicy -Name "RedmondMailboxPolicy" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
 Чтобы разрешить пользователям работу с единой системой обмена сообщениями, можно также использовать команду следующего вида:
   
-```
+```powershell
 Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com" -Identity "litwareinc\kenmyer" -UMMailboxPolicy "RedmondMailboxPolicy"
 ```
 
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
   
 После активации почтового ящика пользователь kenmyer@litwareinc.com может работать с единой системой обмена сообщениями Exchange. Вы можете убедиться, что пользователь может подключаться к UM Exchange, выполнив командлет [Test-ксексумконнективити](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) в командной консоли управления Skype для бизнеса Server.
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
 При наличии второго пользователя, которому разрешена работа с единой системой обмена сообщениями, можно с помощью командлета [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) проверить, может ли второй пользователь оставлять сообщения голосовой почты для первого пользователя.
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\pilar"
 Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential
 ```
@@ -105,7 +105,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Настройка единой системы обмена сообщениями на сервере Microsoft Exchange 
 > [!IMPORTANT]
-> Если вы хотите использовать единую систему обмена сообщениями Exchange для обеспечения ответа на звонки, голосового доступа к Outlook или служб автоматического ассистента для пользователей корпоративной голосовой связи, читайте [план интеграции единой системы обмена сообщениями в Skype для бизнеса](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md), а затем следуйте инструкциям инструкции в этом разделе. 
+> Если вы хотите использовать единую систему обмена сообщениями Exchange для обеспечения ответа на звонки, голосового доступа к Outlook или служб автоматического ассистента для пользователей корпоративной голосовой связи, читайте [план интеграции единой системы обмена сообщениями в Skype для бизнеса](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)и следуйте инструкциям в этом разделе. 
 
 Чтобы настроить единую систему обмена сообщениями Exchange для работы с корпоративной голосовой связью, необходимо выполнить указанные ниже действия.
 

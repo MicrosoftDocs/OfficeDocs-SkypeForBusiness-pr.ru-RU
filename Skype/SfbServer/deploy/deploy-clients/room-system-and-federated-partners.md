@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: В этом разделе описывается настройка Системы комнат Skype для федеративных партнеров Skype для бизнеса.
-ms.openlocfilehash: 7bf67a910b2c0d73cf3e068e9524500804ca87f4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775278"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002999"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Федеративные партнеры системы комнат Skype и Skype для бизнеса
  
@@ -27,7 +27,7 @@ ms.locfileid: "36775278"
   
 The reason for this limitation is that Outlook and Microsoft Exchange do not use a special method to package information for sending messages across the Internet. This method, referred to as Transport Neutral Encapsulation Format (TNEF), is disabled by default for messages sent externally from an Exchange organization. Для отображения ссылки присоединения к собранию в удаленной системе комнат Skype необходимо включить TNEF с помощью следующей команды:
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```

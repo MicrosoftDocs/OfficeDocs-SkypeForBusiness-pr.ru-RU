@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: Командлет Install-CcAppliance устанавливает на сервер узла устройство Skype для бизнеса Cloud Connector Edition, включая виртуальные машины Active Directory, центрального хранилища управления, сервера-посредника и пограничного сервера.
-ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cccf500c6506c8ba3459631d5c823940907ad213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287274"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003329"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
 Командлет Install-CcAppliance устанавливает на сервер узла устройство Skype для бизнеса Cloud Connector Edition, включая виртуальные машины Active Directory, центрального хранилища управления, сервера-посредника и пограничного сервера. 
   
-```
+```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 В следующем примере показано, как установить новое управляющее устройство облачного соединителя на сервере узла:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Install-CcAppliance
 
 Следующий пример обновляет облачный соединитель до последней версии:
   
-```
+```powershell
 Install-CcAppliance -Upgrade
 ```
 
@@ -51,7 +51,7 @@ Install-CcAppliance -Upgrade
 
 Следующий пример удаляет все учетные данные облачного соединителя, кэшированные на сервере узла, предложит пользователю снова указать все учетные данные, а затем установит облачный соединитель:
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -59,7 +59,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 В следующем примере в консоли PowerShell выводятся все шаги по развертыванию:
   
-```
+```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
@@ -67,9 +67,9 @@ Install-CcAppliance -ShowStepsOnly
   
 ### <a name="example-5"></a>Пример 5
 
-В следующем примере создаются файлы конфигурации для каждого шага развертывания на сервере узла. Файлы конфигурации сохраняются в \<папке апплианцерут\>\инстанцес\\_лт_версион\>-дефаулт\експортедконфиг на сервере узла.
+В следующем примере создаются файлы конфигурации для каждого шага развертывания на сервере узла. Файлы конфигурации сохраняются в \<папке апплианцерут\>\Инстанцес\\<Version\>-дефаулт\експортедконфиг на сервере узла:
   
-```
+```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
@@ -79,7 +79,7 @@ Install-CcAppliance -PrepareOnly
 
 В следующем примере Cloud Connector выполняет шаги развертывания 1, 2 и 3, создавая виртуальные коммутаторы и виртуальные машины Active Directory, после чего устанавливая службу домена на сервер Active Directory. Если шаг уже был выполнен ранее, он пропускается:
   
-```
+```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 
@@ -104,7 +104,7 @@ Install-CcAppliance -ShowStepsOnly
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |PrepareOnly  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> | Создает файлы конфигурации для каждого шага развертывания. Этот параметр используется только для устранения неполадок.  <br/> |
 |ShowStepsOnly  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Отображает только названия шагов развертывания. Этот параметр используется только для устранения неполадок.  <br/> |

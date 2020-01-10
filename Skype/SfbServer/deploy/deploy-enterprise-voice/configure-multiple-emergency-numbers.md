@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: В этой статье рассказывается о том, как настроить несколько номеров для экстренного реагирования в Skype для бизнеса Server.
-ms.openlocfilehash: 184a0060ed2383a652928356ab2999aa55b3d7bd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0a16536799024085afcce07d6a2a9a0e4c899e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233699"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001319"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Настройка нескольких номеров экстренной помощи в Skype для бизнеса
 
@@ -35,31 +35,31 @@ Skype для бизнеса Server теперь поддерживает нес�
 
 Следующая команда создает новый номер экстренной службы со строкой набора 911 с помощью командлета New-CsEmergency:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 ```
 
 Следующая команда связывает номер с указанной политикой расположения путем задания параметра EmergencyNumbers в командлете Set-CsLocationPolicy:
 
-```
+```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a} 
 ```
 
 В следующем примере создается номер экстренной службы с одной маской номера — 112:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
 ```
 
 Следующая команда создает номер для экстренного реагирования с несколькими масками набора номера:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 ```
 
 В следующем примере добавляется несколько номеров экстренных служб с несколькими масками номера, а затем эти номера связываются с выбранной политикой расположения:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 > $b = New-CsEmergencyNumber -DialString 500 -DialMask 501;502
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b} 
@@ -67,7 +67,7 @@ Skype для бизнеса Server теперь поддерживает нес�
 
 В следующем примере настраивается несколько номеров экстренных служб для поставщиков услуг здравоохранения, которые используют номера 911 и 450:  
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 > $b = New-CsEmergencyNumber -DialString 450
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
@@ -75,7 +75,7 @@ Skype для бизнеса Server теперь поддерживает нес�
 
 В следующем примере настраивается несколько номеров экстренных служб для Лондона:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 999 -DialMask 144
 > $b = New-CsEmergencyNumber -DialString 112 -DialMask 911;117;118
 > Set-CsLocationPolicy -Identity London -EmergencyNumbers @{add=$a,$b}
@@ -83,7 +83,7 @@ Skype для бизнеса Server теперь поддерживает нес�
 
 В следующем примере настраивается несколько номеров экстренных служб для Индии:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
 > $b = New-CsEmergencyNumber -DialString 101 
 > $c = New-CsEmergencyNumber -DialString 102 
@@ -92,7 +92,7 @@ Skype для бизнеса Server теперь поддерживает нес�
 
 В следующем примере выполняется удаление существующей записи со строкой набора 911 и масками номеров 112 и 999:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a} 
 ```

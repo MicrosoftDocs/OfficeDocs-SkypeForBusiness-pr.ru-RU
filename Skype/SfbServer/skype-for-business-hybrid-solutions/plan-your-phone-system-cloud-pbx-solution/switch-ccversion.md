@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: 'Командлет Switch-CcVersion отключает работающее устройство и выполняет переключение на только что развернутое или резервное устройство. '
-ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286931"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003159"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
 Командлет Switch-CcVersion отключает работающее устройство и выполняет переключение на только что развернутое или резервное устройство.  
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 В следующем примере очищаются службы работающего устройства и выполняется переключение на только что развернутое или резервное устройство.
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 В следующем примере очищаются службы работающего устройства, а в случае сбоя очистки службы принудительно останавливаются. Затем эта команда выполняет переключение на только что развернутое или резервное устройство.
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 
@@ -53,7 +53,7 @@ Switch-CcVersion -Force
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | Force <br/> | Необязательно <br/> |System.Management.Automation.SwitchParameter  <br/> |  Принудительно останавливает службы при сбое их очистки. <br/> |
    

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Создавайте и изменяйте сетевые регионы, сетевые сайты и свяжите сетевые подсети в Skype для бизнеса Server. Все они используются для расширенных функций голосовой связи для предприятий: обход мультимедиа, управление допуском звонков и маршрутизация на основе местоположения.'
-ms.openlocfilehash: 237720373c78bcb4a3cb3ad0aed376f2dc136a71
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 90410338d13ae8109e4a090bade739add32846b6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245412"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001939"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Развертывание регионов сети, сайтов и подсетей в Skype для бизнеса
 
@@ -45,13 +45,13 @@ ms.locfileid: "36245412"
 
 2. Чтобы создать области сети, используйте командлет New-CsNetworkRegion.
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     Например:
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
@@ -85,13 +85,13 @@ ms.locfileid: "36245412"
 
 2. Чтобы изменить существующую область сети, выполните командлет Set-CsNetworkRegion.
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     Например:
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
@@ -127,13 +127,13 @@ ms.locfileid: "36245412"
 
 2. Выполните командлет New-CsNetworkSite для создания областей сети:
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
     Например:
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
@@ -180,13 +180,13 @@ ms.locfileid: "36245412"
 
 2. Чтобы изменить сетевые узлы, выполните командлет Set-CsNetworkSite:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity <string>
    ```
 
     Например:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
@@ -228,13 +228,13 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 2. Чтобы связать подсеть с сетевым сайтом, используйте командлет **New-CsNetworkSubnet**:
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
     Например:
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
@@ -260,7 +260,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 
 3. Выполните следующий командлет для импорта **Subnet. csv**, а затем сохраните его содержимое в магазине Lync Server Management.
 
-   ```
+   ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 

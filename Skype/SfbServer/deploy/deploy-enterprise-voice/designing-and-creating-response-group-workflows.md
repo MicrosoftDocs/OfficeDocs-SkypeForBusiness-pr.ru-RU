@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Разработайте и Создайте рабочие процессы групп ответа в Skype для бизнеса Server Enterprise. Описаны как рабочие процессы сервисной группы, так и интерактивные процессы.
-ms.openlocfilehash: 9e056070bb01b5ee3cc7f32a8f9d07520fcb2030
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5b48816a3eb528a1ff96097c135697d8f9cb22d8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240527"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002589"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Разработка и создание рабочих процессов групп ответа в Skype для бизнеса
 
@@ -206,13 +206,13 @@ ms.locfileid: "36240527"
 
 3. Создайте подсказку для воспроизведения в качестве приветственного сообщения и сохраните ее в качестве переменной. В командной строке выполните команду:
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
     Например:
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
    ```
 
@@ -221,7 +221,7 @@ ms.locfileid: "36240527"
 
 4. Получите идентификатор очереди или вопроса при перенаправлении вызовов. В командной строке выполните команду:
 
-   ```
+   ```powershell
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
@@ -229,7 +229,7 @@ ms.locfileid: "36240527"
 
 5. Определите действие по умолчанию, которое будет выполняться при открытии рабочего процесса в рабочие часы, и сохраните его в качестве переменной. В командной строке выполните команду:
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
    ```
 
@@ -238,7 +238,7 @@ ms.locfileid: "36240527"
 
     Например:
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
@@ -248,19 +248,19 @@ ms.locfileid: "36240527"
 
 8. Получите имя службы для службы группы ответа Lync Server и назначьте ее переменной. В командной строке выполните следующую команду:
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Создайте или измените рабочий процесс. Для создания рабочего процесса выполните командлет **New-CsRgsWorkflow**. Для изменения рабочего процесса выполните командлет **Set-CsRgsWorkflow**. В командной строке введите следующую команду:
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     Например:
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
    ```
 
@@ -566,75 +566,75 @@ ms.locfileid: "36240527"
 
 3. Извлеките имя службы из службы группы ответа и назначьте его переменной. В командной строке выполните следующую команду:
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. Интерактивному рабочему процессу требуется как минимум две очереди и две группы агентов. Сначала создайте группы агентов. Выполните следующую команду:
 
-   ```
+   ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
 5. Создайте очереди. Выполните следующую команду:
 
-   ```
+   ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
 6. Создайте приглашение для первой группы ответа с помощью следующей команды:
 
-   ```
+   ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
 7. Теперь создайте действие, которое должно выполняться после приглашения, с помощью следующей команды:
 
-   ```
+   ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
 8. Создайте ответ для первой группы ответа с помощью следующей команды:
 
-   ```
+   ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
 9. Теперь создайте второе приглашение, действие вызова и ответ. Сначала создайте приглашение с помощью следующей команды:
 
-   ```
+   ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
 10. Создайте второе действие вызова с помощью следующей команды:
 
-    ```
+    ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
 11. Создайте ответ для второй группы ответа с помощью следующей команды:
 
-    ```
+    ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
 12. Создайте приглашение верхнего уровня с помощью следующей команды:
 
-    ```
+    ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
 13. Создайте вопрос верхнего уровня с помощью следующей команды:
 
-    ```
+    ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
 14. Теперь создайте рабочий процесс с помощью следующей команды:
 
-    ```
+    ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
     $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     ```

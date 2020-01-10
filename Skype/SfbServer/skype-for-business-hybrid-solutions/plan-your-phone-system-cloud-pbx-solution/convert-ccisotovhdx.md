@@ -11,24 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Командлет Convert-CcIsoToVhdx создает файл базового виртуального жесткого диска (VHDX) на основе предоставленного клиентом ISO-файла с образом Windows Server 2012 R2. VHDX-файл используется в процессе развертывания Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 780002c54a77746c51f418cae077ffcc9b1fb608
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287540"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001349"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
 Командлет Convert-CcIsoToVhdx создает файл базового виртуального жесткого диска (VHDX) на основе предоставленного клиентом ISO-файла с образом Windows Server 2012 R2. VHDX-файл используется в процессе развертывания Skype для бизнеса Cloud Connector Edition.
   
-```
+```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
 ```
 
 ## <a name="parameters"></a>Параметры
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |IsoFilePath  <br/> | Обязательно <br/> |System.String  <br/> | Путь к ISO-файлу образа с Windows Server 2012 R2. <br/> |
 |GeneralizeOnly  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Если во время обновления Windows произойдет сбой процесса преобразования, вы можете попробовать настроить сеть или прокси-сервер и выполнить обновление Windows вручную. После выполнения задачи вручную вы можете запустить этот командлет с параметром -GeneralizeOnly, чтобы выполнить оставшиеся шаги.   <br/> |
@@ -41,7 +41,7 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 В следующем примере подготавливается базовый VHDX-файл с использованием ISO-файла с образом Windows Server 2012 R2, который расположен в каталоге "C:\Windows_Server_2012_R2-EN-US-x64.ISO": 
   
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" 
 ```
 
@@ -49,7 +49,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 Если командлет Convert-КЦисотовхдкс завершается сбоем во время обновления Windows, возможно, это вызвано неверной конфигурацией сети или прокси-сервера. Вы можете выполнить инструкции, представленные в сообщении об ошибке, и войти в систему базовой виртуальной машины, чтобы устранить проблему и обновить Windows вручную. После выполнения задачи вручную вы можете запустить этот командлет еще раз с параметром -GeneralizeOnly, чтобы выполнить оставшиеся шаги: 
   
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
 ```
 
@@ -57,7 +57,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 Если для обновления Windows требуется выполнить настройку параметров вручную, используйте параметр -PauseBeforeUpdate. С помощью этого параметра облачный соединитель будет приостановлен до процесса обновления Windows. После этого вы можете выполнить настройку вручную и затем возобновить процесс преобразования:
   
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
 ```
 

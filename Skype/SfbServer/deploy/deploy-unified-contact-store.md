@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Сводка: Включите единое хранилище контактов в Skype для бизнеса Server.'
-ms.openlocfilehash: 39317316be6c4590e992c61e91549748f3bf6719
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cadba38f40a8ff12501e0fe73f4243dc96a5831
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239321"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003069"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Развертывание единого магазина контактов в Skype для бизнеса Server
  
@@ -44,37 +44,37 @@ ms.locfileid: "36239321"
     
    - Чтобы включить единое хранилище контактов глобально для всех пользователей Skype для бизнеса Server, в командной строке Windows PowerShell можно использовать следующий командлет:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
    ```
 
    - Чтобы включить единое хранилище контактов для пользователей на определенном сайте, введите в командной строке:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
    Например:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
    ```
 
    - Чтобы включить единое хранилище контактов по клиенту, в командной строке введите:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
    Например:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
    ```
 
    - Чтобы включить единое хранилище контактов для определенных пользователей, в командной строке введите:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
    ```
@@ -84,7 +84,7 @@ ms.locfileid: "36239321"
   
     Например:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
    ```
@@ -108,13 +108,13 @@ ms.locfileid: "36239321"
   
 - На клиентском компьютере проверьте следующий раздел реестра:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<URL-\>адрес SIP \укс
+    HKEY_CURRENT_USER \Software\Microsoft\Office\15.0\Lync\\<URL-\>адрес SIP \укс
     
     Если контакты пользователя хранятся в Exchange 2013, в этом разделе содержится значение Инуксмоде со значением 2165.
     
 - Запустите командлет **Test-ксунифиедконтактсторе** . В командной строке Skype для Business Server Management Shell введите:
     
-  ```
+  ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
@@ -139,6 +139,6 @@ ms.locfileid: "36239321"
 > [!IMPORTANT]
 > Перед перемещением почтового ящика Exchange из Exchange 2013 в Exchange 2010 администратор Exchange должен предварительно вернуть контакты пользователей Skype для бизнеса Server из Exchange 2013 в Skype для Business Server. Чтобы вернуть контакты из магазина Объединенных контактов в Skype для бизнеса Server, ознакомьтесь с разделом "как вернуть контакты из Exchange 2013 в Skype для бизнеса Server" Далее в этом разделе. 
   
- **Как восстановить контакты пользователей:** Если для перемещения пользователей между Skype для бизнеса Server 2015 и Lync Server 2010 используется командлет **Move-CsUser** , вы можете пропустить эти действия, так как командлет **Move-CsUser** автоматически откатывает единое хранилище контактов при перемещении пользователей из Skype Бизнес-сервер 2015 на Lync Server 2010. В разделе **Move-CsUser** не отключена политика хранилища контактов, поэтому миграция в единое хранилище контактов будет повторена, если пользователь перейдет обратно в Skype для бизнеса Server 2015.
+ **Как восстановить контакты пользователей:** Если вы используете командлет **Move-CsUser** для перемещения пользователей между Skype для бизнеса Server 2015 и Lync Server 2010, вы можете пропустить эти действия, так как командлет **Move-CsUser** автоматически откатывает единое хранилище контактов при перемещении пользователей из Skype для бизнеса Server 2015 в Lync Server 2010. В разделе **Move-CsUser** не отключена политика хранилища контактов, поэтому миграция в единое хранилище контактов будет повторена, если пользователь перейдет обратно в Skype для бизнеса Server 2015.
   
 

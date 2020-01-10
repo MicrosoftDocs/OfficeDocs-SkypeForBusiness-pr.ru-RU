@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Сводка: Настройка проверки подлинности сервера для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
-ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 004b9c1926f00cd869658ae0b90679897d20516b
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245513"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001259"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Настройка партнерских приложений в Skype для бизнеса Server и Exchange Server
  
@@ -33,19 +33,19 @@ ms.locfileid: "36245513"
 
 Самый простой способ настроить Skype для бизнеса Server — это партнерское приложение с Exchange Server 2016 или Exchange Server 2013 — запуск сценария Конфигуре-ентерприсепартнераппликатион. ps1 — сценария Windows PowerShell, который поставляется вместе с Exchange Server. Чтобы выполнить этот сценарий, необходимо указать URL-адрес для документа метаданных проверки подлинности в Skype для бизнеса Server. как правило, это полное доменное имя пула сервера Skype для бизнеса, за которым следует суффикс/Metadata/JSON/1. Например:
   
-```
+```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
 Чтобы настроить сервер Skype для бизнеса в качестве партнерского приложения, откройте командную консоль Exchange и выполните следующую команду (предполагая, что Exchange установлен на диске C: и используется путь к папке по умолчанию):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
 После настройки приложения-партнера рекомендуется остановить и перезапустить службы IIS в почтовом ящике Exchange и на серверах клиентского доступа. Ниже приведен пример команды перезапуска служб IIS, относящийся к компьютеру atl-exchange-001.
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -55,23 +55,23 @@ iisreset atl-exchange-001
 
 После того как вы настроили Skype для Business Server как приложение-партнер для Exchange Server 2016 или Exchange Server 2013, необходимо настроить сервер Exchange Server для работы в качестве партнерского приложения для Skype для бизнеса Server. Это можно сделать с помощью командной консоли Skype для бизнеса Server и указав документ метаданных проверки подлинности для Exchange; как правило, это URI службы автообнаружения Exchange, за которой следует суффикс/Metadata/JSON/1. Например:
   
-```
+```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
 В Skype для бизнеса Server партнерские приложения настраиваются с помощью командлета [New-кспартнераппликатион](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) . В дополнение к указанию URI метаданных необходимо также установить полный уровень доверия для приложения; Это позволит Exchange самостоятельно представлять себе и всех авторизованных пользователей в сфере. Например:
   
-```
+```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
 Кроме того, вы можете создать партнерское приложение, скопировав и изменив код сценария, который находится в документации для проверки подлинности сервера в Skype для бизнеса Server. Дополнительные сведения можно найти в статье [Управление проверкой подлинности серверов (OAuth) и партнерских программ в Skype для бизнеса Server](../../manage/authentication/server-to-server-and-partner-applications.md) .
   
-Если вы успешно настроили партнерские приложения для Skype для бизнеса Server и Exchange Server, вы также успешно настроили проверку подлинности серверов и сервера между двумя продуктами. В Skype для бизнеса Server есть командлет Windows PowerShell [Test-ксекссторажеконнективити](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , который позволяет проверить правильность настройки проверки подлинности серверов и сервера в службе хранилища Skype для бизнеса Server. Подключитесь к Exchange Server. Командлет делает это, подключаясь к почтовому ящику пользователя Exchange Server, записывая элемент в папку журнала бесед для этого пользователя, а затем (необязательно) его удаление.
+Если вы успешно настроили партнерские приложения для Skype для бизнеса Server и Exchange Server, вы также успешно настроили проверку подлинности серверов и сервера между двумя продуктами. В Skype для бизнеса Server есть командлет Windows PowerShell [Test-ксекссторажеконнективити](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , который позволяет проверить правильность настройки проверки подлинности серверов и служб хранилища в Skype для бизнеса Server, чтобы подключиться к Exchange Server. Командлет делает это, подключаясь к почтовому ящику пользователя Exchange Server, записывая элемент в папку журнала бесед для этого пользователя, а затем (необязательно) его удаление.
   
 Чтобы протестировать интеграцию Skype для бизнеса Server и Exchange Server, выполните в командной консоли Skype для Business Server команду, подобную следующей:
   
-```
+```powershell
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Настройте, заполните и опубликуйте базу данных расположения E9-1-1 в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: 1e972e78af1a83e68c2d28d0f636128b7c339cf2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038708"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001309"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Настройка базы данных местоположений в Skype для бизнеса Server
  
@@ -56,52 +56,52 @@ ms.locfileid: "38038708"
 
 1. Выполните следующий командлет, чтобы добавить расположение подсети в базу данных расположения.
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     Для шлюзов ELIN укажите номер ELIN в поле CompanyName. Можно указать несколько номеров ELIN. Например:
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     Вы также можете запустить следующие командлеты и использовать файл "subnets.csv" для массового обновления расположений подсетей.
     
-   ```
+   ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
 2. Выполните следующий командлет, чтобы добавить беспроводные расположения в базу данных расположений.
     
-   ```
+   ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
    Вы также можете запустить следующие командлеты и использовать файл "waps.csv" для массового обновления расположений точек беспроводного доступа.
     
-   ```
+   ```powershell
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
 3. Выполните следующий командлет, чтобы добавить расположения коммутаторов в базу данных расположений.
     
-   ```
+   ```powershell
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    Вы также можете запустить следующие командлеты и использовать файл "switches.csv" для массового обновления расположений коммутаторов.
     
-   ```
+   ```powershell
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
 4. Выполните следующий командлет, чтобы добавить расположения портов в базу данных расположений.
     
-   ```
+   ```powershell
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
@@ -109,7 +109,7 @@ ms.locfileid: "38038708"
     
    Вы также можете запустить следующие командлеты и использовать файл "ports.csv" для массового обновления расположений портов.
     
-   ```
+   ```powershell
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
@@ -122,14 +122,14 @@ ms.locfileid: "38038708"
     
 2. Чтобы настроить подключение к поставщику экстренной службы, выполните следующие командлеты.
     
-   ```
+   ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
 3. Чтобы проверить адреса, хранящиеся в базе данных местонахождения, выполните следующий командлет.
     
-   ```
+   ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
@@ -147,7 +147,7 @@ ms.locfileid: "38038708"
     
 - Чтобы опубликовать базу данных местоположений, выполните следующий командлет.
     
-  ```
+  ```powershell
   Publish-CsLisConfiguration
   ```
 

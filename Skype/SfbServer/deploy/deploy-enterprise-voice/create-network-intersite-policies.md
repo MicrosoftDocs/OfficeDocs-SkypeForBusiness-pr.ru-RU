@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Создавайте сетевые политики для разных сайтов, которые используются для управления допуском голосовых вызовов в Skype для бизнеса Server.
-ms.openlocfilehash: ac03057de5b6e25e2b9de812f0d53ae02811d456
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce1826a1205216791f056a46fa625d26e0362f1f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233484"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001749"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Создание политик межсайтовой сети в Skype для бизнеса Server
  
@@ -38,7 +38,7 @@ ms.locfileid: "36233484"
     
 2. Чтобы создать межсайтовые сетевые политики и применить соответствующий профиль политики пропускной способности для двух узлов с прямым соединением, выполните командлет New-CsNetworkInterSitePolicy. Пример:
     
-   ```
+   ```powershell
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
    ```
 

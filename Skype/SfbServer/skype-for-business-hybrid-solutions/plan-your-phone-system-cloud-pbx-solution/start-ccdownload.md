@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: Командлет Start-CcDownload синхронно скачивает части выпуска облачного соединителя Skype для бизнеса и MSI-файл.
-ms.openlocfilehash: 184c15d1932a179bb9ae07da515eeacfc115dfae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c493862151a308208bf83e142421f3257e476e0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286945"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003189"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
@@ -24,7 +24,7 @@ ms.locfileid: "34286945"
   
 В Cloud Connector версии 2.0 и более поздних также можно задать параметр DownloadBitsOnly.
   
-```
+```powershell
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
 ```
 
@@ -35,7 +35,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 В следующем примере синхронизирующие биты и MSI-файл загружаются синхронно из общедоступного сайта скачивания облачного соединителя:
   
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -43,7 +43,7 @@ Start-CcDownload
 
 В следующем примере синхронизирующие биты и MSI-файл загружаются синхронно из закрытого сайта скачивания.
   
-```
+```powershell
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 ```
 
@@ -51,7 +51,7 @@ Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 
 В третьем примере синхронно скачиваются файлы BITS и MSI Cloud Connector с закрытого сайта для скачивания.
   
-```
+```powershell
 Start-CcDownload -DownloadBitsOnly
 ```
 
@@ -63,7 +63,7 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |DownloadUrlRoot   <br/> |  Необязательно <br/> |System.String  <br/> | Полный URL-адрес конкретной версии облачного соединителя на закрытом сайте скачивания. Используйте этот параметр с осторожностью, убедитесь, что вы знаете, какую версию облачного соединителя вы скачиваете. <br/> |
 |DownloadBitsOnly   <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Пропустите скачивание и установку MSI-файла с сайта для скачивания. Скачайте только BITS-файл Cloud Connector.  <br/> |

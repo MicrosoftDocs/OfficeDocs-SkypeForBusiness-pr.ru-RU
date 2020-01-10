@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Создание или изменение группы агента в группе ответа в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 09a49acfe1fe86ffa3c1bce3d6ed889c8666a7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a919c1a25f3f4aa5a2d8648d782ea329f1e70d60
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233328"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001689"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Создание или изменение группы агента в Skype для бизнеса
  
@@ -72,7 +72,7 @@ ms.locfileid: "36233328"
   
 9. В разделе **Метод маршрутизации** выберите способ направления вызовов агентам в группе, выполнив следующие действия.
     
-   - Чтобы предложить новый звонок, прежде чем агент, использующий незанятый (в Skype для бизнеса должен быть **доступен** или неактивен), выберите наиболее продолжительное **время бездействия**. **** 
+   - Чтобы предложить новый звонок, прежде чем агент, использующий незанятый (в Skype для бизнеса должен быть **доступен** или **неактивен** ), выберите наиболее продолжительное **время бездействия**. 
     
    - Если требуется одновременно предлагать принять новый вызов всем свободным агентам, щелкните **Параллельно**. Вызов направляется первому агенту, который его принимает.
     
@@ -123,13 +123,13 @@ ms.locfileid: "36233328"
     
 3. Используйте **New-ксргсажентграуп** для создания группы агента. С помощью **Set-ксргсажентграуп** можно изменить существующую группу агента. В командной строке выполните следующую команду:
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
    ```
 
     Например:
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
    ```
 
@@ -138,7 +138,7 @@ ms.locfileid: "36233328"
   
 4. Чтобы убедиться, что группа агентов была создана, введите:
     
-   ```
+   ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 

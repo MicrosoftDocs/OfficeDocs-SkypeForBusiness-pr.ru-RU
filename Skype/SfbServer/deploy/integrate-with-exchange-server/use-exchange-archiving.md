@@ -1,5 +1,5 @@
 ---
-title: Настройка сервера Skype для бизнеса Server для использования архивации Exchange Server
+title: Настройка Skype для бизнеса Server на использование архивирования Exchange Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Сводка: Настройка транскрипции для обмена мгновенными сообщениями в Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244155"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003569"
 ---
-# <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Настройка сервера Skype для бизнеса Server для использования архивации Exchange Server
+# <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Настройка Skype для бизнеса Server на использование архивирования Exchange Server
 
 **Сводка:** Настройка транскрипции для обмена мгновенными сообщениями для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
 
@@ -48,13 +48,13 @@ Skype для бизнеса Server предоставляет администр
 
 Свойство Енабликсчанжеарчивинг является логическим значением: задайте для Енабликсчанжеарчивинг значение true ($True), чтобы включить архивацию Exchange или задать для Енабликсчанжеарчивинг значение false ($False), чтобы отключить архивацию Exchange. Например, эта команда позволяет архивировать записи о мгновенных сообщениях, а также включает архивацию Exchange.
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 Чтобы отключить архивацию Exchange, используйте следующую команду, которая включает архивацию мгновенных сообщений, но отключает архивацию для Exchange (другими словами, записи будут архивированы в Skype для бизнеса Server):
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -88,19 +88,19 @@ Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableE
 
 По умолчанию для обоих свойств установлено значение False, что означает, что ни внутренний, ни внешний обмен данными не архивируется. Чтобы изменить глобальную политику, вы можете использовать командную консоль управления Skype для бизнеса Server и командлет Set-Ксарчивингполици. Эта команда включает архивацию сеансов как внутреннего, так и внешнего обмена данными.
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Также можно использовать New-CsArchivingPolicy для создания новой политики в области сайта или в области пользователя. Например, эта команда создает новую индивидуальную политику архивации с именем RedmondArchivingPolicy:
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Если создана индивидуальная политика, потребуется назначить ее для соответствующих пользователей. Например:
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -110,7 +110,7 @@ Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolic
 
 Если Skype для бизнеса Server и Exchange Server находятся в разных лесах, вы не сможете просто включить архивацию Exchange в параметрах конфигурации архивации; Это не приведет к тому, что обмен мгновенными сообщениями и веб-конференции архивируются в Exchange. Вместо этого необходимо также настроить свойство Ексчанжеарчивингполици для каждой из соответствующих учетных записей пользователей Skype для бизнеса Server. Этому свойству можно присвоить одно из четырех возможных значений.
 
-1. **** Не инициализировано. Указывает на то, что архивирование будет основано на параметрах хранения на месте, настроенных для почтового ящика Exchange пользователя; Если хранение на месте не включено в почтовом ящике пользователя, пользователь получит доступ к своему обмену сообщениями и веб-конференции, заархивированными в Skype для бизнеса Server.
+1. Не **инициализировано**. Указывает на то, что архивирование будет основано на параметрах хранения на месте, настроенных для почтового ящика Exchange пользователя; Если хранение на месте не включено в почтовом ящике пользователя, пользователь получит доступ к своему обмену сообщениями и веб-конференции, заархивированными в Skype для бизнеса Server.
 
 2. **UseLyncArchivingPolicy**. Указывает на то, что для обмена мгновенными сообщениями и веб-конференций в Skype для бизнеса Server должны быть архивированы, а не в Exchange.
 
@@ -120,13 +120,13 @@ Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolic
 
 Например, чтобы настроить учетную запись пользователя таким образом, чтобы средства обмена мгновенными сообщениями и веб-конференций всегда заархивированы в Exchange, вы можете использовать команду, подобную следующей, в командной консоли Skype для бизнеса Server.
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 Чтобы настроить ту же политику архивации для группы пользователей (например, для всех пользователей, размещенных в указанном пуле регистратора), можно использовать команду следующего вида:
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser 
 
 Чтобы просмотреть список всех пользователей, для которых назначена конкретная политика архивации, можно использовать команду следующего вида. Эта команда возвращает отображаемые имена Active Directory всех пользователей, для которых свойству ExchangeArchivingPolicy присвоено значение Uninitialized:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 Эта команда также возвращает отображаемые имена пользователей, для которых свойству ExchangeArchivingPolicy не назначено значение UseLyncArchivingPolicy:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

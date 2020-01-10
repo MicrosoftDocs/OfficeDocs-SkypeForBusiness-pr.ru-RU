@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Аннотация: интеграция Skype для бизнеса Server и Outlook Web App.'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244213"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002879"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Настройка интеграции между локальным Skype для бизнеса Server и Outlook Web App
 
@@ -37,7 +37,7 @@ ms.locfileid: "36244213"
 
 Используя командную консоль управления Skype для бизнеса Server, настройте граничный сервер для Федерации, запустив командлет **Set-ксакцесседжеконфигуратион** , используя параметры, показанные в следующем примере.
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -49,7 +49,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 С помощью командной консоли Skype для бизнеса Server настройте поставщик услуг размещения на пограничном сервере, выполнив командлет **New-кшостингпровидер** , используя параметры в следующем примере:
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -66,7 +66,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - Параметр **ProxyFQDN** определяет полное доменное имя прокси-сервера, используемого поставщиком услуг размещения. Полное доменное имя Exchange Online: exap.um.outlook.com.
 
-- **** "WebProxy" показывает, является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Skype для бизнеса. Должен иметь значение False.
+- "WebProxy **" показывает,** является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Skype для бизнеса. Должен иметь значение False.
 
 - **Верификатионлевел** Указывает уровень проверки, разрешенный для сообщений, отправляемых поставщику услуг хостинга и от него. Укажите параметр **UseSourceVerification**, который основывается на уровне проверки, включенном в сообщения, отправленные от поставщика услуг размещения. Если этот уровень не указан, сообщение будет отвергнуто как Непроверяемое.
 
@@ -76,14 +76,14 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 Чтобы проверить наличие обновлений репликации на сервере во внутренней среде развертывания Skype для бизнеса Server, выполните следующий командлет:
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 Убедитесь, что значение Уптодате для всех реплик отображается верно.
 
 Чтобы убедиться, что изменения применены, на пограничном сервере выполните следующий командлет:
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 Дважды убедитесь, что отображаемая информация соответствует изменениям, зафиксированным в предыдущих шагах.

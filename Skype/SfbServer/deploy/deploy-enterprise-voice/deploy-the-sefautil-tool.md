@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Развертывание средства Сефаутил в Skype для бизнеса Server.
-ms.openlocfilehash: 1721f4d611a08a3054366e36b0ec9a3ebccf6c78
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e36448652f245d1c81a00cc206b6e8047a8f9d28
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245391"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001889"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Развертывание средства Сефаутил в Skype для бизнеса
  
@@ -43,7 +43,7 @@ ms.locfileid: "36245391"
     
 3. The SEFAUtil tool can be run only on a computer that is part of a trusted application pool. При необходимости определите доверенный пул приложений для пула переднего плана, в котором планируется запускать Сефаутил. В командной строке выполните следующую команду:
     
-   ```
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
@@ -53,7 +53,7 @@ ms.locfileid: "36245391"
 
 4. Определите инструмент SEFAUtil как доверенное приложение. В командной строке выполните следующую команду:
     
-   ```
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
@@ -62,7 +62,7 @@ ms.locfileid: "36245391"
   
 5. Включите топологию с внесенными изменениями. В командной строке выполните следующую команду:
     
-   ```
+   ```powershell
    Enable-CsTopology
    ```
 
@@ -74,7 +74,7 @@ ms.locfileid: "36245391"
     
     б) Отобразите параметры переадресации звонков пользователя. В командной строке выполните следующую команду:
     
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
    ```
 

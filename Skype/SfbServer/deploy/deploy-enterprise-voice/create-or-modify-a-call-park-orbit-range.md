@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Создание или изменение таблицы диапазонов на приостановку на орбиту в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e4dc9e9384210ec2abcceb652b814aef8c401b05
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233463"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001729"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Создание и изменение диапазона орбиты на расстоянии вверх в Skype для бизнеса
 
@@ -82,19 +82,19 @@ ms.locfileid: "36233463"
 
     В командной строке выполните следующую команду:
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity <name of orbit range> -NumberRangeStart <first number in orbit range> -NumberRangeEnd <last number in orbit range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application>
    ```
 
     Например:
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1
    ```
 
     В приведенном ниже примере показано, как изменять номера в существующем диапазоне орбиты.
 
-   ```
+   ```powershell
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 

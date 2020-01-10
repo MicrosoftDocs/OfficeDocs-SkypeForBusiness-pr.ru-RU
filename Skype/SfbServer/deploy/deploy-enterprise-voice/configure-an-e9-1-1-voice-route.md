@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Настройте Голосовые маршруты E9 1-1 в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: a8121cc7a7345150e485dc2e2b81e062672f5703
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c835aa2ab2b20f7877aa6a0deeb70c7459bcd8cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233716"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001399"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Настройка маршрута голосовой связи E9-1-1 в Skype для бизнеса Server
  
@@ -40,7 +40,7 @@ ms.locfileid: "36233716"
     
     Это должно быть то же самое имя, которое будет использоваться для параметра **ТСОП** в политике определения местоположения. Хотя развертывание будет включать несколько записей об использовании телефона, в следующем примере показано, как добавить "Использование экстренных вызовов" в текущий список доступных использований ТСОП. Подробности можно найти [в разделе Настройка политик голосовой связи, записей использования КТСОП и голосовых маршрутов в Skype для бизнеса](voice-and-pstn.md).
     
-   ```
+   ```powershell
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
    ```
 
@@ -48,7 +48,7 @@ ms.locfileid: "36233716"
     
     Шаблон номера должен соответствовать шаблону номера, который используется в параметре **Строка набора номера для экстренной связи** политики определения местоположения. Знак "+" нужен, так как в Skype для бизнеса для вызова экстренной помощи добавляется символ "+". "Co1-pstngateway-1" — это идентификатор службы магистрального канала SIP для поставщика службы E9-1-1 или для идентификатора службы шлюза ELIN. В следующем примере в качестве имени маршрута голосовой связи используется EmergencyRoute.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
@@ -56,7 +56,7 @@ ms.locfileid: "36233716"
     
     В следующем примере предполагается, что в политику голосовой связи пользователя включено использование "Локально".
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
    ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'Командлет Uninstall-CcAppliance удаляет работающее устройство Skype для бизнеса Cloud Connector Edition с сервера узла. '
-ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286896"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003149"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 Командлет Uninstall-CcAppliance удаляет работающее устройство Skype для бизнеса Cloud Connector Edition с сервера узла.  
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 В следующем примере выполняется сток и удаление управляющего устройства облачного соединителя с хостового сервера.
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 В следующем примере выполняется сток и принудительное удаление работающего устройства облачного соединителя на сервере узла, даже если процесс стока завершился сбоем.
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
@@ -49,7 +49,7 @@ Uninstall-CcAppliance -Force
 
 В следующем примере удаляется резервная версия облачного соединителя без подтверждения пользователя.
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 
@@ -61,7 +61,7 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | Версия <br/> | Необязательно  <br/> |System.String  <br/> | Версия облачного соединителя, которая будет удалена с сервера узла. Если этот параметр не задан, удаляется текущая версия. <br/> |
 |Force  <br/> |Необязательный  <br/> |System.Management.Automation.SwitchParameter  <br/> |При удалении текущей рабочей версии предпринимается попытка выполнить очистку на сервере-посреднике и пограничном сервере до удаления виртуальных машин. Если задан параметр "Force", виртуальные машины будут удалены даже в том случае, если работа служб очистки завершится сбоем. Этот параметр используется только для удаления текущей рабочей версии.  <br/> |

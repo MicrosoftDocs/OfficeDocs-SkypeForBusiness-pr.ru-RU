@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Сводка: сведения о том, как вручную удалять записи из баз данных CDR и QoE, используемых в Skype для бизнеса Server.'
-ms.openlocfilehash: ba87e05dd72e5da22cfe4e01cd68be1a9fac6242
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5dbd2120e408dea0c3b34f87c17e4fbb18cc5055
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239880"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001159"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Очистка записей и данных качества связи в Skype для бизнеса Server вручную
  
@@ -29,7 +29,7 @@ ms.locfileid: "36239880"
   
 В дополнение к этой автоматической очистке в Skype для бизнеса Server добавляются два новых командлета &#x2014; Invoke-Кскдрдатабасепурже и Invoke-Кскоедатбасепурже &#x2014;. Эти командлеты позволяют администраторам вручную удалять записи из баз данных CDR и QoE в любое время. Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:
   
-```
+```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
@@ -37,7 +37,7 @@ Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwa
   
 Как показано выше, при запуске командлета Invoke-CsCdrDatabasePurge вам следует включить как параметр urgeCallDetaiDataOlderThanDays, так и параметр PurgeDiagnosticDataOlderThanDays. Однако для этих параметров необязательно нужно устанавливать одинаковые значения. Например, можно очистить записи сведений о вызовах старше 10 дней, оставив все записи диагностических данных в базе данных. Для этого установите для Пуржекаллдетаилдатаолдерсандайс значение 10 и Пуржедиагностикдатаолдерсандайс равным 0. Например:
   
-```
+```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 ```
 
@@ -52,13 +52,13 @@ Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Se
 
 Для выполнения очистки базы данных вам следует ввести Y («Да») или A («Да для всех»). Если вы не хотите отображать эти запросы подтверждения, добавьте в конец вызова Invoke-CsCdrDatabasePurge следующий параметр:
   
-```
+```powershell
 -Confirm:$False
 ```
 
 Например:
   
-```
+```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10 -Confirm:$False
 ```
 
@@ -66,7 +66,7 @@ Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwa
   
 Чтобы очистить базу данных QoE, используйте командлет Invoke-CsQoEDatabasePurge и укажите возраст (в днях) для удаляемых записей:
   
-```
+```powershell
 Invoke-CsQoEDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeQoEDataOlderThanDays 10
 ```
 

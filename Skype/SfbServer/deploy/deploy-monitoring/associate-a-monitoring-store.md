@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Сводка: сведения о том, как связать пулы интерфейсов с хранилищем мониторинга, которое используется в Skype для бизнеса Server.'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239995"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001229"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Связывание хранилища мониторинга с внешним интерфейсом в Skype для бизнеса Server 
 **Сводка:** Сведения о том, как связать пулы интерфейсов с хранилищем мониторинга, которое используется в Skype для бизнеса Server.
@@ -28,7 +28,7 @@ ms.locfileid: "36239995"
   
 Или же вы можете связать существующий интерфейсный пул с новым или другим хранилищем мониторинга, выполнив следующие действия.
   
-1. Нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Skype для бизнеса Server 2015**, а затем — построитель **топологии Skype для бизнеса Server**.
+1. Нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Skype для бизнеса Server 2015**, а затем — **Построитель топологии Skype для бизнеса Server**.
     
 2. В диалоговом окне **построителя топологий** выберите **Загрузить топологию из существующего развертывания**, а затем нажмите **ОК**.
     
@@ -54,7 +54,7 @@ After associating the monitoring store with a Front End pool you must publish th
     
 After the topology has been published you can then install the monitoring database on the computer that will host the monitoring store. Базу данных мониторинга можно установить с помощью командной консоли Skype для бизнеса Server и Windows PowerShell. Чтобы установить базу данных локально (то есть для установки базы данных на том же компьютере, на котором работает консоль управления Skype для бизнеса Server), запустите командную консоль на соответствующем компьютере, введите указанную ниже команду и нажмите клавишу ВВОД.
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,7 +64,7 @@ Install-CsDatabase -LocalDatabases
   
 Например, следующая команда устанавливает базу данных мониторинга на компьютер atl-sql-001.litwareinc.com:
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 

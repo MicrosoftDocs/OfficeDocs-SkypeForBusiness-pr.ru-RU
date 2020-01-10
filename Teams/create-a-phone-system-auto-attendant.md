@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070225"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005205"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -162,6 +162,11 @@ ms.locfileid: "40070225"
   > **Сотрудник Организации** может быть пользователем в сети или локальным пользователем с помощью Skype для бизнеса Server.
 
   - **Голосовое приложение** Выберите автосекретарь или очередь звонков, которые уже настроены. Вы ищете автосекретарь или очередь звонков по имени учетной записи ресурса, связанной с этой службой.
+  - **Голосовая почта** Выберите группу Office 365, представляющую пользователей в Организации, которым нужен доступ к этой голосовой почте. Здесь вы можете также включить транскрипцию голосовой почты. Требуется группа Office 365.
+
+  > [!NOTE]
+> Голосовые сообщения, отправляемые пользователям из этой учетной записи голосовой почты автосекретаря, нельзя открыть в Teams. Они поступают в виде электронной почты.
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ ms.locfileid: "40070225"
 - **Operator (оператор** ) Если оператор уже настроен, параметр автоматически сопоставляется с ключом 0, но его также можно удалить или переназначить другим ключом. Вызывающий абонент, который выбрал этот параметр, отправляется назначенному оператору. Если оператор если не установлен ни в один ключ, голосовая команда "оператор" также отключается. 
 - **Сотрудник Организации** может быть пользователем в сети или локальным пользователем с помощью Skype для бизнеса Server. У пользователя должна быть лицензия на телефонную систему, для которой включена Корпоративная голосовая связь или назначенные планы звонков в Office 365. Найдите пользователя в поле **Поиск по имени** .
 
-  - **Голосовое приложение** Выберите автосекретарь или очередь звонков, которые уже настроены. Вы ищете автосекретарь или очередь звонков по имени учетной записи ресурса, связанной с приложением.
+- **Голосовое приложение** Выберите автосекретарь или очередь звонков, которые уже настроены. Вы ищете автосекретарь или очередь звонков по имени учетной записи ресурса, связанной с приложением.
+
+- **Голосовая почта** Выберите группу Office 365, представляющую пользователей в Организации, которым нужен доступ к этой голосовой почте. Здесь вы можете также включить транскрипцию голосовой почты. Требуется группа Office 365.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

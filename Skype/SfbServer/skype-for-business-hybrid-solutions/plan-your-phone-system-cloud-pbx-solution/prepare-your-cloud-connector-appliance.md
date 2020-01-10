@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Узнайте, как подготовить ваше управляющее устройство для работы с облачным соединителем для развертывания и использования в телефонной системе Office 365 (облачная УАТС).
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287001"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001949"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Подготовка устройства Cloud Connector
 
@@ -54,7 +54,7 @@ ms.locfileid: "34287001"
 
 1. Откройте консоль PowerShell с правами администратора и убедитесь, что командлеты Skype для бизнеса Cloud Connector доступны с помощью следующего командлета:
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ ms.locfileid: "34287001"
 
     Чтобы узнать расположение **каталога веб-сайтов**, запустите следующий командлет:
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,7 +78,7 @@ ms.locfileid: "34287001"
 
      Чтобы выбрать для **каталога сайтов** расположение, отличное от заданного по умолчанию, выполните следующий командлет:
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -90,13 +90,13 @@ ms.locfileid: "34287001"
 
     Чтобы узнать расположение **каталога устройств**, запустите следующий командлет:
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     Чтобы выбрать для **каталога устройств** расположение, отличное от заданного по умолчанию, выполните следующий командлет:
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ ms.locfileid: "34287001"
 
 - Выполните следующий командлет, чтобы задать путь с именем файла к внешнему сертификату пограничного компонента. Пример: C:\certs\cce\ap.contoso.com.pfx. Сертификат должен содержать закрытые ключи.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -125,7 +125,7 @@ ms.locfileid: "34287001"
 
 Если между сервером-посредником и шлюзом ТСОП/SBC используется протокол TLS, выполните следующий командлет, чтобы задать путь с именем файла к сертификату шлюза. Например: К:\цертс\кце\сбк.Контосо.ком.цер. Этот сертификат должен содержать корневой ЦС и промежуточную цепочку для сертификата, назначенного шлюзу:
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -142,11 +142,11 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 3. Создайте внешний виртуальный коммутатор и свяжите его с физическим сетевым адаптером, который пересылается в Интернет:
 
-    Снимите флажок **Разрешить управление операционной системой, чтобы предоставить общий доступ** к сетевому адаптеру для этого виртуального коммутатора.
+    Снимите флажок **Разрешить управление операционной системой, чтобы предоставить общий доступ к сетевому адаптеру** для этого виртуального коммутатора.
 
 4. Укажите имя коммутатора, соединяющего демилитаризованную сеть с доменом внутренней сети **SFB кце**.
 
-    Укажите имя коммутатора, соединяющего демилитаризованную сеть с Интернет- **SFB кце**Интернет-коммутатором.
+    Укажите имя коммутатора, соединяющего демилитаризованную сеть с Интернет- **SFB кце Интернет-коммутатором**.
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>Изменение файла конфигурации CloudConnector.ini
 
@@ -154,7 +154,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 Чтобы изменить файл, сначала выполните следующий командлет, чтобы получить пример шаблона (CloudConnector.Sample.ini):
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -227,7 +227,7 @@ Export-CcConfigurationSampleFile
 
 Выполните следующий командлет, чтобы скачать файлы компонентов и сведений о версии в **каталог сайта**:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Start-CcDownload
 
 Запустите консоль PowerShell от имени администратора и выполните следующий командлет, чтобы преобразовать ISO-образ в виртуальный жесткий диск (VHD):
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -278,13 +278,13 @@ Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 
 Указанные здесь сценарии PowerShell требуют, чтобы для политики выполнения было задано значение RemoteSigned. Чтобы узнать текущую настройку, откройте консоль PowerShell от имени администратора, а затем выполните следующий командлет:
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 Если значение RemoteSigned не задано, выполните этот командлет, чтобы изменить его:
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 

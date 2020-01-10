@@ -14,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 'Аннотация: сведения о том, как подготовить домен Active Directory к установке Skype для бизнеса Server. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 85bd8d45cee1144ef355f0a9b0491d24529d6ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Аннотация: сведения о том, как подготовить домен Active Directory к установке Skype для бизнеса Server. Скачайте бесплатную пробную версию Skype для бизнеса Server из центра оценки Майкрософт по адресу: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245289"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000889"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Подготовка службы каталогов Active Directory для Skype для бизнеса Server
  
@@ -97,7 +97,7 @@ Skype для бизнеса Server тесно интегрирован с дом
     
     h. Введите команду Get-Ксадфорест и нажмите клавишу **Ввод**.
     
-    думаю. Если результат — **LC_FORESTSETTINGS_STATE_READY**, лес успешно подготовлен, как показано на рисунке.
+    думаю. Если результат **LC_FORESTSETTINGS_STATE_READY**, лес успешно подготовлен, как показано на рисунке.
     
      ![Проверка репликации леса.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
@@ -131,7 +131,7 @@ Skype для бизнеса Server тесно интегрирован с дом
     
     б) С помощью команды Get-Ксаддомаин можно проверить репликацию в пределах домена.
     
-   ```
+   ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
@@ -140,14 +140,14 @@ Skype для бизнеса Server тесно интегрирован с дом
   
     Пример запуска команды для локального домена contoso.local:
     
-   ```
+   ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 
     > [!NOTE]
     > Параметр GlobalSettingsDomainController позволяет указать, где хранятся глобальные параметры. Если параметры хранятся в контейнере System (это обычная ситуация при обновлении развертываний, когда глобальные параметры не переносятся в контейнер Configuration), определите контроллер домена в корне леса AD DS. Если глобальные параметры хранятся в контейнере Configuration (это обычная ситуация для новых развертываний или обновленных развертываний, в которых параметры перенесены в контейнер Configuration), определите любой контроллер домена в лесу. Если не указать этот параметр, командлет будет считать, что параметры хранятся в контейнере Configuration, и будет ссылаться на любой контроллер домена в Active Directory. 
   
-    в. Если результат — **LC_DOMAINSETTINGS_STATE_READY**, то домен успешно реплицирован.
+    в. Если результат **LC_DOMAINSETTINGS_STATE_READY**, домен успешно реплицирован.
     
 10. **Шаг 7. Добавление пользователей для предоставления административного доступа к панели управления Skype для бизнеса Server**
     
