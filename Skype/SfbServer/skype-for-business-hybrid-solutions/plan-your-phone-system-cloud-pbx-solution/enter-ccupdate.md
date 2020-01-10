@@ -11,61 +11,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания. Управляющее устройство немедленно останавливает все службы, заканчивая всеми текущими звонками и отклоняет любые новые звонки.
-ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 694faf7f03fb672ec61ee97db08fb61bcf0dc532
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34740060"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003459"
 ---
-# <a name="enter-ccupdate"></a><span data-ttu-id="fc451-104">Enter-CcUpdate</span><span class="sxs-lookup"><span data-stu-id="fc451-104">Enter-CcUpdate</span></span>
+# <a name="enter-ccupdate"></a><span data-ttu-id="0ea21-104">Enter-CcUpdate</span><span class="sxs-lookup"><span data-stu-id="0ea21-104">Enter-CcUpdate</span></span>
 
-<span data-ttu-id="fc451-105">Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания.</span><span class="sxs-lookup"><span data-stu-id="fc451-105">The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode.</span></span> <span data-ttu-id="fc451-106">Управляющее устройство немедленно останавливает все службы, заканчивая всеми текущими звонками и отклоняет любые новые звонки.</span><span class="sxs-lookup"><span data-stu-id="fc451-106">The appliance immediately stops all services, ending any ongoing calls and rejecting any new calls.</span></span>
+<span data-ttu-id="0ea21-105">Командлет Enter-Ккупдате подготавливает сервер узла Skype для бизнеса Cloud Connector для процесса обновления, переводя его в режим обслуживания.</span><span class="sxs-lookup"><span data-stu-id="0ea21-105">The Enter-CcUpdate cmdlet prepares the Skype for Business Cloud Connector Edition host server for the update process by putting it in maintenance mode.</span></span> <span data-ttu-id="0ea21-106">Управляющее устройство немедленно останавливает все службы, заканчивая всеми текущими звонками и отклоняет любые новые звонки.</span><span class="sxs-lookup"><span data-stu-id="0ea21-106">The appliance immediately stops all services, ending any ongoing calls and rejecting any new calls.</span></span>
   
-```
+```powershell
 Enter-CcUpdate
 ```
 
-## <a name="parameters"></a><span data-ttu-id="fc451-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="fc451-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0ea21-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="0ea21-107">Parameters</span></span>
 
-<span data-ttu-id="fc451-108">Нет</span><span class="sxs-lookup"><span data-stu-id="fc451-108">None</span></span>
+<span data-ttu-id="0ea21-108">Нет</span><span class="sxs-lookup"><span data-stu-id="0ea21-108">None</span></span>
   
-## <a name="examples"></a><span data-ttu-id="fc451-109">Примеры</span><span class="sxs-lookup"><span data-stu-id="fc451-109">Examples</span></span>
-<span data-ttu-id="fc451-110"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="fc451-110"></span></span>
+## <a name="examples"></a><span data-ttu-id="0ea21-109">Примеры</span><span class="sxs-lookup"><span data-stu-id="0ea21-109">Examples</span></span>
+<span data-ttu-id="0ea21-110"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="0ea21-110"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="fc451-111">Пример 1</span><span class="sxs-lookup"><span data-stu-id="fc451-111">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="0ea21-111">Пример 1</span><span class="sxs-lookup"><span data-stu-id="0ea21-111">Example 1</span></span>
 
-<span data-ttu-id="fc451-112">В следующем примере устройство переводится в режим обслуживания для подготовки к процессу обновления:</span><span class="sxs-lookup"><span data-stu-id="fc451-112">The following example prepares the appliance for the update process by entering maintenance mode:</span></span>
+<span data-ttu-id="0ea21-112">В следующем примере устройство переводится в режим обслуживания для подготовки к процессу обновления:</span><span class="sxs-lookup"><span data-stu-id="0ea21-112">The following example prepares the appliance for the update process by entering maintenance mode:</span></span>
   
-```
+```powershell
 Enter-CcUpdate 
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="fc451-113">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="fc451-113">Detailed Description</span></span>
-<span data-ttu-id="fc451-114"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="fc451-114"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="0ea21-113">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="0ea21-113">Detailed Description</span></span>
+<span data-ttu-id="0ea21-114"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="0ea21-114"></span></span>
 
-<span data-ttu-id="fc451-115">Командлет Enter-Ккупдате сразу же останавливает все службы, завершающие все выполняемые звонки, и устройство будет отклонять любые новые звонки, которые передаются другим производственным устройствам.</span><span class="sxs-lookup"><span data-stu-id="fc451-115">The Enter-CcUpdate cmdlet will immediately stop all services ending any ongoing calls and the appliance will reject any new calls, which are transferred to other production appliances.</span></span> <span data-ttu-id="fc451-116">Необходимо убедиться в том, что у остальных производственных приборов достаточно свободного места для обработки звонков с устройства, которое вы готовитесь обновлять.</span><span class="sxs-lookup"><span data-stu-id="fc451-116">You must ensure that the remaining production appliances have enough capacity to handle the calls from the appliance that you are preparing to update.</span></span>
+<span data-ttu-id="0ea21-115">Командлет Enter-Ккупдате сразу же останавливает все службы, завершающие все выполняемые звонки, и устройство будет отклонять любые новые звонки, которые передаются другим производственным устройствам.</span><span class="sxs-lookup"><span data-stu-id="0ea21-115">The Enter-CcUpdate cmdlet will immediately stop all services ending any ongoing calls and the appliance will reject any new calls, which are transferred to other production appliances.</span></span> <span data-ttu-id="0ea21-116">Необходимо убедиться в том, что у остальных производственных приборов достаточно свободного места для обработки звонков с устройства, которое вы готовитесь обновлять.</span><span class="sxs-lookup"><span data-stu-id="0ea21-116">You must ensure that the remaining production appliances have enough capacity to handle the calls from the appliance that you are preparing to update.</span></span>
   
-<span data-ttu-id="fc451-p104">Режим обслуживание полезен в тех случаях, когда на вашем устройстве включено автоматическое обновление и, например, очередной выпуск компонентов Майкрософт содержит критически важные исправления. Кроме того, режим обслуживания применяется в тех случаях, когда вы отключаете автоматическое обновление, но продолжаете регулярно выполнять обновления вручную.</span><span class="sxs-lookup"><span data-stu-id="fc451-p104">Maintenance mode is useful if your appliance has automatic update enabled, for example, and Microsoft releases a critical hotfix. Maintenance mode is also useful if you decide to turn off automatic updates, but you perform manual updates on a consistent basis.</span></span>
+<span data-ttu-id="0ea21-p104">Режим обслуживание полезен в тех случаях, когда на вашем устройстве включено автоматическое обновление и, например, очередной выпуск компонентов Майкрософт содержит критически важные исправления. Кроме того, режим обслуживания применяется в тех случаях, когда вы отключаете автоматическое обновление, но продолжаете регулярно выполнять обновления вручную.</span><span class="sxs-lookup"><span data-stu-id="0ea21-p104">Maintenance mode is useful if your appliance has automatic update enabled, for example, and Microsoft releases a critical hotfix. Maintenance mode is also useful if you decide to turn off automatic updates, but you perform manual updates on a consistent basis.</span></span>
   
-<span data-ttu-id="fc451-119">После установки обновлений устройство может быть возвращено в производственный режим, запустив командлет Exit-Ккупдате.</span><span class="sxs-lookup"><span data-stu-id="fc451-119">After installing the updates, the appliance can be brought back to production mode by running the Exit-CcUpdate cmdlet.</span></span>
+<span data-ttu-id="0ea21-119">После установки обновлений устройство может быть возвращено в производственный режим, запустив командлет Exit-Ккупдате.</span><span class="sxs-lookup"><span data-stu-id="0ea21-119">After installing the updates, the appliance can be brought back to production mode by running the Exit-CcUpdate cmdlet.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="fc451-120">Если вы решите вручную обновить устройство облачного соединителя, вам нужно обновить его в течение 60 дней после выпуска следующей версии Microsoft.</span><span class="sxs-lookup"><span data-stu-id="fc451-120">If you decide to manually update a Cloud Connector appliance, you need to update it within 60 days after Microsoft releases the next version.</span></span> <span data-ttu-id="fc451-121">Корпорация Майкрософт поддерживает ранее выпущенную версию облачного соединителя для 60 дней после выпуска новой версии</span><span class="sxs-lookup"><span data-stu-id="fc451-121">Microsoft supports the previously-released version of Cloud Connector for 60 days after the new version is released</span></span> 
+> <span data-ttu-id="0ea21-120">Если вы решите вручную обновить устройство облачного соединителя, вам нужно обновить его в течение 60 дней после выпуска следующей версии Microsoft.</span><span class="sxs-lookup"><span data-stu-id="0ea21-120">If you decide to manually update a Cloud Connector appliance, you need to update it within 60 days after Microsoft releases the next version.</span></span> <span data-ttu-id="0ea21-121">Корпорация Майкрософт поддерживает ранее выпущенную версию облачного соединителя для 60 дней после выпуска новой версии</span><span class="sxs-lookup"><span data-stu-id="0ea21-121">Microsoft supports the previously-released version of Cloud Connector for 60 days after the new version is released</span></span> 
   
-## <a name="input-types"></a><span data-ttu-id="fc451-122">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="fc451-122">Input Types</span></span>
-<span data-ttu-id="fc451-123"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="fc451-123"></span></span>
+## <a name="input-types"></a><span data-ttu-id="0ea21-122">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="0ea21-122">Input Types</span></span>
+<span data-ttu-id="0ea21-123"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="0ea21-123"></span></span>
 
-<span data-ttu-id="fc451-p106">Нет. Командлет Enter-CCUpdate не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="fc451-p106">None. The Enter-CCUpdate cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="0ea21-p106">Нет. Командлет Enter-CCUpdate не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="0ea21-p106">None. The Enter-CCUpdate cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="fc451-126">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="fc451-126">Return Types</span></span>
-<span data-ttu-id="fc451-127"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="fc451-127"></span></span>
+## <a name="return-types"></a><span data-ttu-id="0ea21-126">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="0ea21-126">Return Types</span></span>
+<span data-ttu-id="0ea21-127"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="0ea21-127"></span></span>
 
-<span data-ttu-id="fc451-128">Отсутствуют</span><span class="sxs-lookup"><span data-stu-id="fc451-128">None</span></span> 
+<span data-ttu-id="0ea21-128">Отсутствуют</span><span class="sxs-lookup"><span data-stu-id="0ea21-128">None</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="fc451-129">См. также</span><span class="sxs-lookup"><span data-stu-id="fc451-129">See also</span></span>
-<span data-ttu-id="fc451-130"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="fc451-130"></span></span>
+## <a name="see-also"></a><span data-ttu-id="0ea21-129">См. также</span><span class="sxs-lookup"><span data-stu-id="0ea21-129">See also</span></span>
+<span data-ttu-id="0ea21-130"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="0ea21-130"></span></span>
 
-[<span data-ttu-id="fc451-131">Exit-CcUpdate</span><span class="sxs-lookup"><span data-stu-id="fc451-131">Exit-CcUpdate</span></span>](exit-ccupdate.md)
+[<span data-ttu-id="0ea21-131">Exit-CcUpdate</span><span class="sxs-lookup"><span data-stu-id="0ea21-131">Exit-CcUpdate</span></span>](exit-ccupdate.md)
   
 
