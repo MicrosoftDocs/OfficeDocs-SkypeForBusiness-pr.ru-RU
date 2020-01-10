@@ -11,44 +11,44 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Командлет Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287337"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003389"
 ---
-# <a name="get-cccredential"></a><span data-ttu-id="1030a-103">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="1030a-103">Get-CcCredential</span></span>
+# <a name="get-cccredential"></a><span data-ttu-id="3f940-103">Get-CcCredential</span><span class="sxs-lookup"><span data-stu-id="3f940-103">Get-CcCredential</span></span>
  
-<span data-ttu-id="1030a-104">Командлет Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="1030a-104">The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
+<span data-ttu-id="3f940-104">Командлет Get-CcCredential возвращает учетные данные текущего развертывания Skype для бизнеса Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="3f940-104">The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment.</span></span> 
   
-<span data-ttu-id="1030a-105">В версии 2,0 и более поздних версиях можно также использовать параметр-Дисплайпассворд, чтобы показать пароли для администратора клиента, Домаинадмин и Вмадмин.</span><span class="sxs-lookup"><span data-stu-id="1030a-105">With Version 2.0 and later, you can also use the -DisplayPassword parameter to show the passwords for TenantAdmin, DomainAdmin, and VMAdmin.</span></span>
+<span data-ttu-id="3f940-105">В версии 2,0 и более поздних версиях можно также использовать параметр-Дисплайпассворд, чтобы показать пароли для администратора клиента, Домаинадмин и Вмадмин.</span><span class="sxs-lookup"><span data-stu-id="3f940-105">With Version 2.0 and later, you can also use the -DisplayPassword parameter to show the passwords for TenantAdmin, DomainAdmin, and VMAdmin.</span></span>
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
-## <a name="examples"></a><span data-ttu-id="1030a-106">Примеры</span><span class="sxs-lookup"><span data-stu-id="1030a-106">Examples</span></span>
-<span data-ttu-id="1030a-107"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="1030a-107"></span></span>
+## <a name="examples"></a><span data-ttu-id="3f940-106">Примеры</span><span class="sxs-lookup"><span data-stu-id="3f940-106">Examples</span></span>
+<span data-ttu-id="3f940-107"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="3f940-107"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="1030a-108">Пример 1</span><span class="sxs-lookup"><span data-stu-id="1030a-108">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="3f940-108">Пример 1</span><span class="sxs-lookup"><span data-stu-id="3f940-108">Example 1</span></span>
 
-<span data-ttu-id="1030a-109">В следующем примере возвращаются учетные данные администратора домена виртуальной машины Cloud Connector:</span><span class="sxs-lookup"><span data-stu-id="1030a-109">The following example returns the credential of the domain administrator of the Cloud Connector virtual machine domain:</span></span>
+<span data-ttu-id="3f940-109">В следующем примере возвращаются учетные данные администратора домена виртуальной машины Cloud Connector:</span><span class="sxs-lookup"><span data-stu-id="3f940-109">The following example returns the credential of the domain administrator of the Cloud Connector virtual machine domain:</span></span>
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="1030a-110">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="1030a-110">Detailed Description</span></span>
-<span data-ttu-id="1030a-111"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="1030a-111"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="3f940-110">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="3f940-110">Detailed Description</span></span>
+<span data-ttu-id="3f940-111"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="3f940-111"></span></span>
 
-<span data-ttu-id="1030a-p101">Командлет Get-CcCredential возвращает сведения об учетных данных для указанного типа учетной записи. Эти учетные данные задаются администратором, который выполняет командлеты Register-CcAppliance и Install-CcAppliance при развертывании текущего устройства. </span><span class="sxs-lookup"><span data-stu-id="1030a-p101">The Get-CcCredential cmdlet returns the credential information about the specified account type. These credentials are specified by the administrator who runs the Register-CcAppliance and Install-CcAppliance cmdlets when deploying the current appliance.</span></span> 
+<span data-ttu-id="3f940-p101">Командлет Get-CcCredential возвращает сведения об учетных данных для указанного типа учетной записи. Эти учетные данные задаются администратором, который выполняет командлеты Register-CcAppliance и Install-CcAppliance при развертывании текущего устройства. </span><span class="sxs-lookup"><span data-stu-id="3f940-p101">The Get-CcCredential cmdlet returns the credential information about the specified account type. These credentials are specified by the administrator who runs the Register-CcAppliance and Install-CcAppliance cmdlets when deploying the current appliance.</span></span> 
   
-<span data-ttu-id="1030a-p102">Командлет Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential. Свойство password возвращаемого объекта имеет тип System.Security.SecureString.</span><span class="sxs-lookup"><span data-stu-id="1030a-p102">The Get-CcCredential cmdlet returns an instance of the System.Management.Automation.PSCredential object. The password property of the return object is System.Security.SecureString.</span></span>
+<span data-ttu-id="3f940-p102">Командлет Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential. Свойство password возвращаемого объекта имеет тип System.Security.SecureString.</span><span class="sxs-lookup"><span data-stu-id="3f940-p102">The Get-CcCredential cmdlet returns an instance of the System.Management.Automation.PSCredential object. The password property of the return object is System.Security.SecureString.</span></span>
   
-<span data-ttu-id="1030a-116">Если вы хотите получить пароль администратора домена в открытом виде, введите пароль текущей учетной записи для входа на сервере узла, после чего откройте консоль PowerShell от имени администратора и выполните следующий скрипт:</span><span class="sxs-lookup"><span data-stu-id="1030a-116">If you want to get the clear text of the domain administrator password, be sure the password is input by your current logon account on the host server, and then open a PowerShell console as administrator and run the below script:</span></span>
+<span data-ttu-id="3f940-116">Если вы хотите получить пароль администратора домена в открытом виде, введите пароль текущей учетной записи для входа на сервере узла, после чего откройте консоль PowerShell от имени администратора и выполните следующий скрипт:</span><span class="sxs-lookup"><span data-stu-id="3f940-116">If you want to get the clear text of the domain administrator password, be sure the password is input by your current logon account on the host server, and then open a PowerShell console as administrator and run the below script:</span></span>
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
@@ -57,26 +57,26 @@ $text = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($bstr);
 Write-Host $text
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1030a-117">Параметры</span><span class="sxs-lookup"><span data-stu-id="1030a-117">Parameters</span></span>
-<span data-ttu-id="1030a-118"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="1030a-118"></span></span>
+## <a name="parameters"></a><span data-ttu-id="3f940-117">Параметры</span><span class="sxs-lookup"><span data-stu-id="3f940-117">Parameters</span></span>
+<span data-ttu-id="3f940-118"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="3f940-118"></span></span>
 
-|<span data-ttu-id="1030a-119">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="1030a-119">**Parameter**</span></span>|<span data-ttu-id="1030a-120">**Обязательно**</span><span class="sxs-lookup"><span data-stu-id="1030a-120">**Required**</span></span>|<span data-ttu-id="1030a-121">**Тип**</span><span class="sxs-lookup"><span data-stu-id="1030a-121">**Type**</span></span>|<span data-ttu-id="1030a-122">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1030a-122">**Description**</span></span>|
+|<span data-ttu-id="3f940-119">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="3f940-119">**Parameter**</span></span>|<span data-ttu-id="3f940-120">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="3f940-120">**Required**</span></span>|<span data-ttu-id="3f940-121">**Тип**</span><span class="sxs-lookup"><span data-stu-id="3f940-121">**Type**</span></span>|<span data-ttu-id="3f940-122">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3f940-122">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="1030a-123">AccountType</span><span class="sxs-lookup"><span data-stu-id="1030a-123">AccountType</span></span> <br/> |<span data-ttu-id="1030a-124">Обязательный</span><span class="sxs-lookup"><span data-stu-id="1030a-124">Required</span></span>  <br/> | <span data-ttu-id="1030a-125">System.String</span><span class="sxs-lookup"><span data-stu-id="1030a-125">System.String</span></span> <br/> | <span data-ttu-id="1030a-126">Параметр AccountType может иметь следующие значения.</span><span class="sxs-lookup"><span data-stu-id="1030a-126">AccountType value can be one of the following:</span></span> <br/>  <span data-ttu-id="1030a-127">Вмадмин: локальный администратор виртуальных машин облачного соединителя.</span><span class="sxs-lookup"><span data-stu-id="1030a-127">VmAdmin: the local administrator of Cloud Connector virtual machines.</span></span> <br/>  <span data-ttu-id="1030a-128">DomainAdmin. Администратор домена виртуальных машин Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="1030a-128">DomainAdmin: Domain administrator of Cloud Connector virtual machine domain.</span></span> <br/>  <span data-ttu-id="1030a-129">SafeModeAdmin. Администратор безопасного режима для контроллера домена виртуальных машин Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="1030a-129">SafeModeAdmin: SafeModeAdmin of Cloud Connector virtual machine domain controller.</span></span> <br/>  <span data-ttu-id="1030a-130">ExternalCert. Учетная запись для внешнего сертификата, установленного на пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="1030a-130">ExternalCert: Account of external certificate installed on the Edge Server.</span></span> <br/>  <span data-ttu-id="1030a-131">TenantAdmin. Администратор клиента O365.</span><span class="sxs-lookup"><span data-stu-id="1030a-131">TenantAdmin: Administrator of the O365 tenant.</span></span> <br/> |
+| <span data-ttu-id="3f940-123">AccountType</span><span class="sxs-lookup"><span data-stu-id="3f940-123">AccountType</span></span> <br/> |<span data-ttu-id="3f940-124">Обязательный</span><span class="sxs-lookup"><span data-stu-id="3f940-124">Required</span></span>  <br/> | <span data-ttu-id="3f940-125">System.String</span><span class="sxs-lookup"><span data-stu-id="3f940-125">System.String</span></span> <br/> | <span data-ttu-id="3f940-126">Параметр AccountType может иметь следующие значения.</span><span class="sxs-lookup"><span data-stu-id="3f940-126">AccountType value can be one of the following:</span></span> <br/>  <span data-ttu-id="3f940-127">Вмадмин: локальный администратор виртуальных машин облачного соединителя.</span><span class="sxs-lookup"><span data-stu-id="3f940-127">VmAdmin: the local administrator of Cloud Connector virtual machines.</span></span> <br/>  <span data-ttu-id="3f940-128">DomainAdmin. Администратор домена виртуальных машин Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="3f940-128">DomainAdmin: Domain administrator of Cloud Connector virtual machine domain.</span></span> <br/>  <span data-ttu-id="3f940-129">SafeModeAdmin. Администратор безопасного режима для контроллера домена виртуальных машин Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="3f940-129">SafeModeAdmin: SafeModeAdmin of Cloud Connector virtual machine domain controller.</span></span> <br/>  <span data-ttu-id="3f940-130">ExternalCert. Учетная запись для внешнего сертификата, установленного на пограничном сервере.</span><span class="sxs-lookup"><span data-stu-id="3f940-130">ExternalCert: Account of external certificate installed on the Edge Server.</span></span> <br/>  <span data-ttu-id="3f940-131">TenantAdmin. Администратор клиента O365.</span><span class="sxs-lookup"><span data-stu-id="3f940-131">TenantAdmin: Administrator of the O365 tenant.</span></span> <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="1030a-132">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="1030a-132">Input Types</span></span>
-<span data-ttu-id="1030a-133"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="1030a-133"></span></span>
+## <a name="input-types"></a><span data-ttu-id="3f940-132">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="3f940-132">Input Types</span></span>
+<span data-ttu-id="3f940-133"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3f940-133"></span></span>
 
-<span data-ttu-id="1030a-p103">Нет. Командлет Get-CcCredential не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="1030a-p103">None. The Get-CcCredential cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="3f940-p103">Нет. Командлет Get-CcCredential не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="3f940-p103">None. The Get-CcCredential cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="1030a-136">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="1030a-136">Return Types</span></span>
-<span data-ttu-id="1030a-137"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="1030a-137"></span></span>
+## <a name="return-types"></a><span data-ttu-id="3f940-136">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="3f940-136">Return Types</span></span>
+<span data-ttu-id="3f940-137"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3f940-137"></span></span>
 
-<span data-ttu-id="1030a-138">Командлет Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential.</span><span class="sxs-lookup"><span data-stu-id="1030a-138">The Get-CcCredential cmdlet returns an instance of the System.Management.Automation.PSCredential object.</span></span>
+<span data-ttu-id="3f940-138">Командлет Get-CcCredential возвращает экземпляр объекта System.Management.Automation.PSCredential.</span><span class="sxs-lookup"><span data-stu-id="3f940-138">The Get-CcCredential cmdlet returns an instance of the System.Management.Automation.PSCredential object.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1030a-139">См. также</span><span class="sxs-lookup"><span data-stu-id="1030a-139">See also</span></span>
-<span data-ttu-id="1030a-140"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="1030a-140"></span></span>
+## <a name="see-also"></a><span data-ttu-id="3f940-139">См. также</span><span class="sxs-lookup"><span data-stu-id="3f940-139">See also</span></span>
+<span data-ttu-id="3f940-140"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="3f940-140"></span></span>
 
-[<span data-ttu-id="1030a-141">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="1030a-141">Set-CcCredential</span></span>](set-cccredential.md)
+[<span data-ttu-id="3f940-141">Set-CcCredential</span><span class="sxs-lookup"><span data-stu-id="3f940-141">Set-CcCredential</span></span>](set-cccredential.md)
   
 

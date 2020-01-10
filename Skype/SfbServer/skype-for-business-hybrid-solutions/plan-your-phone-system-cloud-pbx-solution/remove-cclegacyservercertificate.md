@@ -11,66 +11,66 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: Командлет Remove-CcLegacyServerCertificate удаляет прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после выполнения командлетов Renew-CcCACertificate или Renew CcServerCertificate.
-ms.openlocfilehash: ab332f6f0c88de01f59342002f6387ab8a83a13b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f22a57a3a366c621a1c035881c886190055b15e6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287078"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003289"
 ---
-# <a name="remove-cclegacyservercertificate"></a><span data-ttu-id="a5632-103">Remove-CcLegacyServerCertificate</span><span class="sxs-lookup"><span data-stu-id="a5632-103">Remove-CcLegacyServerCertificate</span></span>
+# <a name="remove-cclegacyservercertificate"></a><span data-ttu-id="81596-103">Remove-CcLegacyServerCertificate</span><span class="sxs-lookup"><span data-stu-id="81596-103">Remove-CcLegacyServerCertificate</span></span>
  
-<span data-ttu-id="a5632-104">Командлет Remove-CcLegacyServerCertificate удаляет прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после выполнения командлетов Renew-CcCACertificate или Renew CcServerCertificate.</span><span class="sxs-lookup"><span data-stu-id="a5632-104">The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets.</span></span>
+<span data-ttu-id="81596-104">Командлет Remove-CcLegacyServerCertificate удаляет прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после выполнения командлетов Renew-CcCACertificate или Renew CcServerCertificate.</span><span class="sxs-lookup"><span data-stu-id="81596-104">The Remove-CcLegacyServerCertificate cmdlet removes legacy server certificates on the Central Management Store, Mediation Server, and Edge Server after you execute the Renew-CcCACertificate or Renew CcServerCertificate cmdlets.</span></span>
   
-```
+```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
 ```
 
-## <a name="examples"></a><span data-ttu-id="a5632-105">Примеры</span><span class="sxs-lookup"><span data-stu-id="a5632-105">Examples</span></span>
-<span data-ttu-id="a5632-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="a5632-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="81596-105">Примеры</span><span class="sxs-lookup"><span data-stu-id="81596-105">Examples</span></span>
+<span data-ttu-id="81596-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="81596-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="a5632-107">Пример 1</span><span class="sxs-lookup"><span data-stu-id="a5632-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="81596-107">Пример 1</span><span class="sxs-lookup"><span data-stu-id="81596-107">Example 1</span></span>
 
-<span data-ttu-id="a5632-108">В следующем примере удаляются прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после продления сертификатов.</span><span class="sxs-lookup"><span data-stu-id="a5632-108">The following example removes legacy certificates issued for the Central Management Store, Mediation Server, and Edge Server after you have renewed the certificates:</span></span>
+<span data-ttu-id="81596-108">В следующем примере удаляются прежние версии сертификатов сервера центрального хранилища управления, сервера-посредника и пограничного сервера после продления сертификатов.</span><span class="sxs-lookup"><span data-stu-id="81596-108">The following example removes legacy certificates issued for the Central Management Store, Mediation Server, and Edge Server after you have renewed the certificates:</span></span>
   
-```
+```powershell
 Remove-CcLegacyServerCertificate
 ```
 
-### <a name="example-2"></a><span data-ttu-id="a5632-109">Пример 2</span><span class="sxs-lookup"><span data-stu-id="a5632-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="81596-109">Пример 2</span><span class="sxs-lookup"><span data-stu-id="81596-109">Example 2</span></span>
 
-<span data-ttu-id="a5632-110">В следующем примере удаляются прежние версии сертификатов сервера-посредника и пограничного сервера после продления сертификатов. </span><span class="sxs-lookup"><span data-stu-id="a5632-110">The next example removes certificates issued for Mediation Server and Edge Server after you have renewed the certificates:</span></span> 
+<span data-ttu-id="81596-110">В следующем примере удаляются прежние версии сертификатов сервера-посредника и пограничного сервера после продления сертификатов. </span><span class="sxs-lookup"><span data-stu-id="81596-110">The next example removes certificates issued for Mediation Server and Edge Server after you have renewed the certificates:</span></span> 
   
-```
+```powershell
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a5632-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="a5632-111">Parameters</span></span>
-<span data-ttu-id="a5632-112"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="a5632-112"></span></span>
+## <a name="parameters"></a><span data-ttu-id="81596-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="81596-111">Parameters</span></span>
+<span data-ttu-id="81596-112"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="81596-112"></span></span>
 
-|<span data-ttu-id="a5632-113">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="a5632-113">**Parameter**</span></span>|<span data-ttu-id="a5632-114">**Обязательно**</span><span class="sxs-lookup"><span data-stu-id="a5632-114">**Required**</span></span>|<span data-ttu-id="a5632-115">**Тип**</span><span class="sxs-lookup"><span data-stu-id="a5632-115">**Type**</span></span>|<span data-ttu-id="a5632-116">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a5632-116">**Description**</span></span>|
+|<span data-ttu-id="81596-113">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="81596-113">**Parameter**</span></span>|<span data-ttu-id="81596-114">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="81596-114">**Required**</span></span>|<span data-ttu-id="81596-115">**Тип**</span><span class="sxs-lookup"><span data-stu-id="81596-115">**Type**</span></span>|<span data-ttu-id="81596-116">**Описание**</span><span class="sxs-lookup"><span data-stu-id="81596-116">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="a5632-117">Роли</span><span class="sxs-lookup"><span data-stu-id="a5632-117">Roles</span></span> <br/> |<span data-ttu-id="a5632-118">Необязательно </span><span class="sxs-lookup"><span data-stu-id="a5632-118">Optional</span></span>  <br/> |<span data-ttu-id="a5632-119">System.Array</span><span class="sxs-lookup"><span data-stu-id="a5632-119">System.Array</span></span>  <br/> | <span data-ttu-id="a5632-120"> Массив ролей сервера Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="a5632-120">Array of Cloud Connector server roles.</span></span> <br/> |
+| <span data-ttu-id="81596-117">Роли</span><span class="sxs-lookup"><span data-stu-id="81596-117">Roles</span></span> <br/> |<span data-ttu-id="81596-118">Необязательно </span><span class="sxs-lookup"><span data-stu-id="81596-118">Optional</span></span>  <br/> |<span data-ttu-id="81596-119">System.Array</span><span class="sxs-lookup"><span data-stu-id="81596-119">System.Array</span></span>  <br/> | <span data-ttu-id="81596-120"> Массив ролей сервера Cloud Connector.</span><span class="sxs-lookup"><span data-stu-id="81596-120">Array of Cloud Connector server roles.</span></span> <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="a5632-121">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="a5632-121">Input Types</span></span>
-<span data-ttu-id="a5632-122"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="a5632-122"></span></span>
+## <a name="input-types"></a><span data-ttu-id="81596-121">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="81596-121">Input Types</span></span>
+<span data-ttu-id="81596-122"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="81596-122"></span></span>
 
-<span data-ttu-id="a5632-p101">Нет. Командлет Remove-CcLegacyServerCertificate не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="a5632-p101">None. The Remove-CcLegacyServerCertificate cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="81596-p101">Нет. Командлет Remove-CcLegacyServerCertificate не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="81596-p101">None. The Remove-CcLegacyServerCertificate cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="a5632-125">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="a5632-125">Return Types</span></span>
-<span data-ttu-id="a5632-126"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="a5632-126"></span></span>
+## <a name="return-types"></a><span data-ttu-id="81596-125">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="81596-125">Return Types</span></span>
+<span data-ttu-id="81596-126"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="81596-126"></span></span>
 
-<span data-ttu-id="a5632-127">Нет</span><span class="sxs-lookup"><span data-stu-id="a5632-127">None</span></span>
+<span data-ttu-id="81596-127">Нет</span><span class="sxs-lookup"><span data-stu-id="81596-127">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a5632-128">См. также</span><span class="sxs-lookup"><span data-stu-id="a5632-128">See also</span></span>
-<span data-ttu-id="a5632-129"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="a5632-129"></span></span>
+## <a name="see-also"></a><span data-ttu-id="81596-128">См. также</span><span class="sxs-lookup"><span data-stu-id="81596-128">See also</span></span>
+<span data-ttu-id="81596-129"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="81596-129"></span></span>
 
-[<span data-ttu-id="a5632-130">Renew-CcServerCertificate</span><span class="sxs-lookup"><span data-stu-id="a5632-130">Renew-CcServerCertificate</span></span>](renew-ccservercertificate.md)
+[<span data-ttu-id="81596-130">Renew-CcServerCertificate</span><span class="sxs-lookup"><span data-stu-id="81596-130">Renew-CcServerCertificate</span></span>](renew-ccservercertificate.md)
   
-[<span data-ttu-id="a5632-131">Reset-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="a5632-131">Reset-CcCACertificate</span></span>](reset-cccacertificate.md)
+[<span data-ttu-id="81596-131">Reset-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="81596-131">Reset-CcCACertificate</span></span>](reset-cccacertificate.md)
   
-[<span data-ttu-id="a5632-132">Renew-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="a5632-132">Renew-CcCACertificate</span></span>](renew-cccacertificate.md)
+[<span data-ttu-id="81596-132">Renew-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="81596-132">Renew-CcCACertificate</span></span>](renew-cccacertificate.md)
   
-[<span data-ttu-id="a5632-133">Update-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="a5632-133">Update-CcCACertificate</span></span>](update-cccacertificate.md)
+[<span data-ttu-id="81596-133">Update-CcCACertificate</span><span class="sxs-lookup"><span data-stu-id="81596-133">Update-CcCACertificate</span></span>](update-cccacertificate.md)
   
 
