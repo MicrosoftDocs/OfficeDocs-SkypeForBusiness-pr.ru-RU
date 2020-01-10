@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: В этом разделе описывается назначение политик конференц-связи для учетных записей Системы комнат Skype.
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775372"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003549"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Политика конференц-связи для учетных записей системы комнат Skype
  
@@ -71,7 +71,7 @@ ms.locfileid: "36775372"
   
 Следующая команда позволяет администраторам запрашивать проверку подлинности для всех собраний, включая собрания с неограниченным доступом: 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

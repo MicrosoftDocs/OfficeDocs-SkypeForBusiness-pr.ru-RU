@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Сведения о том, как включить телефонную систему в службах голосовой связи Office 365 для пользователей Skype для бизнеса.
-ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 902d2e1bad76c8275bfc8f4ce7ec7b4243b8572a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287505"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003469"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Предоставление пользователям доступа к корпоративной голосовой связи через сеть и телефонной системе в голосовой почте Office 365
  
@@ -42,13 +42,13 @@ ms.locfileid: "34287505"
     
 3. Введите следующую команду и нажмите клавишу ВВОД.
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. Введите следующую команду и нажмите клавишу ВВОД.
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -58,13 +58,13 @@ ms.locfileid: "34287505"
     
 6. В окне PowerShell введите следующую команду и нажмите клавишу ВВОД.
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. Импортируйте сеанс с помощью следующего командлета.
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -72,13 +72,13 @@ ms.locfileid: "34287505"
     
 8. Выполните командлет Set-CsUser, чтобы назначить свойства $EnterpriseVoiceEnabled и $HostedVoiceMail пользователю:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     Например:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -114,7 +114,7 @@ ms.locfileid: "34287505"
 
 - С помощью командлета [Grant-ксдиалплан](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) можно назначить пользователю RedmondDialPlan абонентской группы для пользователей мер:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -122,7 +122,7 @@ ms.locfileid: "34287505"
 
 - Следующая команда назначает абонентскую группу на уровне пользователей RedmondDialPlan всем пользователям, работающим в городе Редмонд (Redmond). Дополнительные сведения о параметре Лдапфилтер, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -133,7 +133,7 @@ ms.locfileid: "34287505"
 
 - Используйте командлет [Grant-ксдиалплан](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) , чтобы отменить назначение каждому пользователю абонентского плана, ранее назначенного для Кен мер. После отмены назначения абонентской группы на уровне пользователей управление пользователем Ken Myer автоматически осуществляется с помощью глобальной абонентской группы или абонентской группы уровня службы, назначенной его службе Registrar или шлюзу ТСОП. Абонентская группа уровня службы обладает приоритетом по отношению к глобальной абонентской группе.
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -150,7 +150,7 @@ ms.locfileid: "34287505"
 
 - Используйте командлет [Grant-ксвоицераутингполици](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) , чтобы назначить политику голосовой маршрутизации для каждого пользователя Редмондвоицераутингполици пользователю Кен мер:
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -158,7 +158,7 @@ ms.locfileid: "34287505"
 
 - Следующая команда назначает политику голосовой маршрутизации для каждого пользователя, Редмондвоицераутингполици всем пользователям, которые работают в городе Redmond. Дополнительные сведения о параметре Лдапфилтер, используемом в этой команде, см. в разделе [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -169,7 +169,7 @@ ms.locfileid: "34287505"
 
 - Используйте Grant-Ксвоицераутингполици для отмены назначения любой политики голосовой маршрутизации для каждого пользователя, ранее назначенной для Кен мер. После отмены политики на уровне пользователя к пользователю Ken Myer будет автоматически применяться глобальная политика маршрутизации голосовых звонков.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

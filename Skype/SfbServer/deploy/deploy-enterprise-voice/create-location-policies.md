@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: В этой статье рассказывается о том, как настроить политики расположения улучшенных служб экстренной помощи (E9-1-1) в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 24bcd891bd30a007411fd2436219c4c10ead0c24
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b7511de949e1c67fdf7a828d06826d22826f5694
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233498"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000879"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Создание политик местоположений в Skype для бизнеса Server
 
@@ -62,18 +62,18 @@ Skype для бизнеса Server использует политику рас�
 
 2. Чтобы изменить глобальную политику расположения, можно дополнительно выполнить следующий командлет:
 
-   ```
+   ```powershell
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
    ```
 
 3. Выполните следующие действия, чтобы создать именованную политику расположения.
 
-   ```
+   ```powershell
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
    ```
 
 4. Выполните следующий командлет, чтобы применить именованную политику расположения, созданную в шаге 3, к политике пользователя.
 
-   ```
+   ```powershell
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
    ```

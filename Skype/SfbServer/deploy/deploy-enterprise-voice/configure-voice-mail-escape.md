@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: Сводка. сведения о настройке ESC голосовой почты в Skype для бизнеса Server с помощью командной консоли Skype для бизнеса Server.
-ms.openlocfilehash: c9a858ead9261944c162cb10fda63840f8de86d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27f283f4bfb64aa950bd9e72a9d6fdc17df91ba0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233576"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001219"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Настройка ESC для голосовой почты в Skype для бизнеса
 
@@ -41,7 +41,7 @@ ms.locfileid: "36233576"
 
 ## <a name="example"></a>Пример
 
-```
+```powershell
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```

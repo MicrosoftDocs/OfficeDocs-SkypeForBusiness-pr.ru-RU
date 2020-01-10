@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Выполните действия, описанные в этой статье, чтобы изменить конфигурацию существующего выпуска Skype для бизнеса Cloud Connector 1.4.1 или более поздней версии.
-ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ead952c0ba567a8e5d81c52144de597e50d24014
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287050"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002289"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Изменение конфигурации существующего развертывания Cloud Connector
  
@@ -32,13 +32,13 @@ ms.locfileid: "34287050"
   
 1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на сервере узла.  
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. Выполните следующий командлет, чтобы отменить регистрацию устройства:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -46,19 +46,19 @@ ms.locfileid: "34287050"
     
 4. Чтобы обновить конфигурацию, запустите следующий командлет: (этот шаг применим только для версии 2, для предыдущих версий — переход к следующему шагу).
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. Выполните следующий командлет, чтобы зарегистрировать устройство снова:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Выполните следующий командлет, чтобы установить Skype для бизнеса Cloud Connector Edition:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -66,13 +66,13 @@ ms.locfileid: "34287050"
   
 1. Выполните следующий командлет, чтобы удалить все существующие виртуальные машины на текущем устройстве.  
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
 2. Выполните следующий командлет, чтобы отменить регистрацию устройства:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -80,25 +80,25 @@ ms.locfileid: "34287050"
     
 4. Чтобы обновить конфигурацию, запустите следующий командлет: (этот шаг применим только для версии 2, для предыдущих версий — переход к следующему шагу).
     
-   ```
+   ```powershell
    Import-CcConfiguration 
    ```
 
 5. Выполните следующий командлет, чтобы зарегистрировать устройство снова:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 6. Выполните следующий командлет на всех остальных устройствах сайта, чтобы получить последнюю конфигурацию:
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 7. Запустите следующий командлет для повторного развертывания облачного соединителя на текущем устройстве:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -116,7 +116,7 @@ ms.locfileid: "34287050"
   
 1. Свойству Енаблеаутаупдате сайта должно быть задано значение true (значение по умолчанию). Выполните следующий командлет, чтобы убедиться, что свойство EnableAutoUpdate имеет значение true:
     
-   ```
+   ```powershell
    Get-CsHybridPSTNSite -Identity <SiteName>
    ```
 
@@ -132,19 +132,19 @@ ms.locfileid: "34287050"
     
    - Для каждого клиента можно определить 20 периодов времени. По умолчанию для нового клиента устанавливается период, соответствующий периоду обновления операционной системы и компонентов. Чтобы настроить ежедневное, еженедельное или ежемесячное обновление, выполните следующие командлеты:
     
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
    ```
 
-   ```
+   ```powershell
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
@@ -152,7 +152,7 @@ ms.locfileid: "34287050"
     
      Интервалы времени обновления BITS-файлов и операционной системы задаются отдельно. В обоих случаях можно настроить один или несколько интервалов времени. Каждый интервал времени может быть назначен разным сайтам для разных целей (обновление BITS-файлов или операционной системы). Выполните следующий командлет, чтобы установить интервал времени для сайта:  
     
-   ```
+   ```powershell
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
    ```
 
@@ -163,7 +163,7 @@ ms.locfileid: "34287050"
   
 Если учетные данные учетной записи администратора изменяются в Office 365, вам также нужно обновить локально кэшированные учетные данные в облачном соединителе, выполнив следующую команду администратора PowerShell на каждом устройстве облачного соединителя, которое вы развернули:
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 
@@ -227,7 +227,7 @@ Set-CcCredential -AccountType TenantAdmin
   
 1. Чтобы получить имена учетных записей и пароли, которые будут использоваться позже, выполните следующие команды:
     
-   ```
+   ```powershell
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
    Get-CcCredential -AccountType TenantAdmin
    Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
@@ -267,13 +267,13 @@ Set-CcCredential -AccountType TenantAdmin
     
 10. После выполнения этих действий на всех устройствах на одном сайте КТСОП удалите следующие файлы в корневом каталоге сайта.
     
-    - Кклоккфиле
+    - кклоккфиле
     
-    - Полное\<доменное имя пула внешних SIP сите_ Edge\>
+    - Полное\<доменное имя пула внешних SIP Site_ Edge\>
     
-    - Полное\<доменное имя пула внешних SIP тенант_ Edge\>
+    - Полное\<доменное имя пула внешних SIP Tenant_ Edge\>
     
-    - Полное\<доменное имя пула внешних SIP тенантконфиглокк_ Edge\>
+    - Полное\<доменное имя пула внешних SIP TenantConfigLock_ Edge\>
     
 ## <a name="add-a-new-sip-domain"></a>Добавьте новый домен SIP. 
 <a name="BKMK_UpdatePassword"> </a>
@@ -288,7 +288,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. Задайте путь к новому внешнему сертификату пограничного компонента в следующем виде:
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -309,7 +309,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 4. Задайте путь к новому внешнему сертификату пограничного компонента в следующем виде:
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
    ```
 
@@ -317,7 +317,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     Удалите регистрацию клиента для каждого устройства на сайте, выполнив следующий командлет из оболочки администратора PowerShell для облачного соединителя:
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
@@ -325,7 +325,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     Удалите регистрацию клиента для каждого устройства на сайте, выполнив следующий командлет в консоли PowerShell Skype для бизнеса Online.
     
-   ```
+   ```powershell
    Remove-CsHybridPSTNSite
    ```
 
@@ -333,7 +333,7 @@ Set-CcCredential -AccountType TenantAdmin
     
     Удалите каждое устройство, выполнив следующий командлет в PowerShell администратора для облачного соединителя:
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 
@@ -341,7 +341,7 @@ Set-CcCredential -AccountType TenantAdmin
     
      Зарегистрируйте каждое устройство, выполнив следующий командлет в PowerShell администратора в облачном соединителе:
     
-   ```
+   ```powershell
    Register-ccAppliance
    ```
 
@@ -349,7 +349,7 @@ Set-CcCredential -AccountType TenantAdmin
     
      Установите каждое устройство по одному, выполнив следующий командлет в PowerShell администратора в облачном соединителе:
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -362,7 +362,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 2. Выполните следующую команду. 
     
-   ```
+   ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Создание или изменение диапазона номеров для группового звонка в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: 3098d7cf1554586dd2fd2ace934682ae58a90489
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 546fefd996286678aae77338b4e0867285670a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233470"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001719"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Создание или изменение диапазона номеров для группового звонка в Skype для бизнеса
 
@@ -56,19 +56,19 @@ Like call park orbit numbers, call pickup group numbers need to be virtual exten
 
     В командной строке выполните следующую команду:
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity <name of call pickup group range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application> -Type GroupPickup
    ```
 
     Например:
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
    ```
 
     Следующий пример показывает, как изменить диапазон номеров с орбит парковки вызовов на группы ответа на звонки.
 
-   ```
+   ```powershell
    Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
    ```
 

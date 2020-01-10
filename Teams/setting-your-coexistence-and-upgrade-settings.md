@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069380"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003319"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Настройка сосуществования и обновления
 
@@ -39,7 +39,7 @@ ms.locfileid: "40069380"
 
 ![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 
-1. На панели навигации слева перейдите к > **обновлению Teams**" **Параметры организации**". 
+1. В [центре администрирования Microsoft Teams](https://admin.teams.microsoft.com/)на панели навигации слева перейдите к > **обновлению Teams**в **масштабе организации**. 
 
 2. В верхней части страницы **Обновление Teams** внесите указанные ниже изменения, если они будут работать.
     - Установка режима **сосуществования** .

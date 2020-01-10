@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Сводка: сведения о том, как включить функцию списка Smart Contacts в клиенте Skype для бизнеса.'
-ms.openlocfilehash: 17981e13c239241f050704b7c98593f95a29ab27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c867232fd07131666033dc48ff9930dcdf6dccb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234239"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002689"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Настройка списка Smart Contacts в клиентах Skype для бизнеса
 
@@ -53,19 +53,19 @@ ms.locfileid: "36234239"
 
 Чтобы создать запись политики для включения функции списка Smart Contacts, используйте командлет [New-ксклиентполициентри](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) с параметром енаблеклиентаутопопулатевистеам, как описано ниже.
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
 Затем используйте командлет [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) , чтобы внести изменения в глобальную политику, как описано ниже.
 
-```
+```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
 Дополнительно можно создать политику для отключения автоматической расстановки тегов:
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $False
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```

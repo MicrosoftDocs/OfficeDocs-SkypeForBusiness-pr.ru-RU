@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: В этом разделе описывается выделение учетных записей системы комнат Skype в Office 365.
-ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 66686af36e3f71f91114d10eb448dd0a77ad1a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231270"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003019"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Предоставление учетных записей системы комнат Skype в Office 365
  
@@ -71,7 +71,7 @@ ms.locfileid: "38231270"
   
 Чтобы настроить существующую учетную запись почтового ящика для помещения в комнату для Skype, выполните следующие команды в Exchange Online PowerShell.
   
-```
+```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -79,7 +79,7 @@ Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword 
 
 Чтобы создать новую учетную запись почтового ящика Exchange для системы комнат Skype, выполните в Exchange Online PowerShell следующие команды:
   
-```
+```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -101,7 +101,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 1. Создайте удаленный сеанс PowerShell. Обратите внимание, что для этого вам потребуется загрузить модуль соединителя Skype для бизнеса Online и помощник по входу в Microsoft Online Services и проверить, настроен ли ваш компьютер. Дополнительные сведения можно найти в разделе [Настройка компьютера для Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
-   ```
+   ```powershell
    Import-Module LyncOnlineConnector
    $cssess=New-CsOnlineSession -Credential $cred
    Import-PSSession $cssess -AllowClobber
@@ -109,13 +109,13 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 2. Чтобы включить учетную запись системы комнаты Skype для Skype для бизнеса, выполните следующую команду:
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
     Вы можете получить адрес Регистрарпул, на котором пользователи Skype для бизнеса находятся в одной из существующих учетных записей, выполнив следующую команду, чтобы возвратить это свойство:
     
-   ```
+   ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
@@ -128,14 +128,14 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 1. Создайте сеанс Windows Azure Active Directory, указав учетные данные глобального администратора клиента.
     
-    ```
+    ```powershell
     $cred=Get-Credential admin@$org
     Connect-MsolService -Credential $cred
     ```
 
 2. Настройка пароля не действует для учетной записи комнаты системы комнат Skype, созданной ранее с помощью следующей команды:
     
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 

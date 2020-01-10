@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: В этой статье рассказывается о том, как развертывать системы комнат Skype в гибридной среде.
-ms.openlocfilehash: 80e7efaf5fe3705e052d40606ea5944527d43a61
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774960"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003499"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Гибридное развертывание системы комнат Skype
 
@@ -29,7 +29,7 @@ ms.locfileid: "36774960"
   
 1. Создайте почтовый ящик ресурсов в центре администрирования Exchange (LyncSample.ccsctp.net), подключившись к командной консоли Exchange Online, как описано в разделе Подготовка Exchange Online.
     
-   ```
+   ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
@@ -52,7 +52,7 @@ ms.locfileid: "36774960"
     
 6. Включите учетную запись системы комнаты Skype для Skype для бизнеса, выполнив в командной консоли Skype для бизнеса следующий командлет:
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
    Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
    ```

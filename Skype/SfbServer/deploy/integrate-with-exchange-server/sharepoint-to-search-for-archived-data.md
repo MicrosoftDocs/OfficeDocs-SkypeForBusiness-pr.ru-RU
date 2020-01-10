@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Сводка: Настройка SharePoint Server для поиска данных, архивированных сервером Exchange Server и приложением Skype для бизнеса Server.'
-ms.openlocfilehash: ef8fde621eddfb83972f6cdd540336c9380c7cd7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d896d6acecd808e5b153e931b8c4b3a8ba62ed9a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244146"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003579"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Настройка поиска архивных данных Skype для бизнеса на сервере SharePoint
  
 **Сводка:** Настройте сервер SharePoint Server для поиска данных, архивированных с помощью Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.
   
-Одним из основных преимуществ хранения мгновенных сообщений и веб-конференций на сервере Exchange Server, а не в Skype для бизнеса, является хранение данных в одном и том же месте, позволяющее администраторам использовать один инструмент для поиска архивных данных Exchange. и (или) архивированные данные в Skype для бизнеса Server. Так как все данные хранятся на одном и том же место (Exchange), все средства, которые могут искать архивные данные Exchange, также могут выполнять поиск архивированных данных в Skype для бизнеса Server.
+Одним из основных преимуществ хранения мгновенных сообщений и веб-конференций в Exchange Server, а не в Skype для бизнеса, является то, что хранение данных в одном и том же месте позволяет администраторам использовать один инструмент для поиска архивированных данных Exchange и архивированных данных в Skype для бизнеса Server. Так как все данные хранятся на одном и том же место (Exchange), все средства, которые могут искать архивные данные Exchange, также могут выполнять поиск архивированных данных в Skype для бизнеса Server.
   
 Одним из средств, позволяющим найти архивные данные, является Microsoft SharePoint Server 2013. Если вы хотите использовать SharePoint для поиска данных сервера Skype для бизнеса, необходимо сначала выполнить все действия, связанные с настройкой архивации Exchange в Skype для бизнеса Server. После успешной интеграции Exchange Server и Skype для бизнеса Server необходимо установить [управляемый API веб-служб](https://go.microsoft.com/fwlink/p/?LinkId=258305) Exchange на сервер SharePoint. Загруженный файл (EWSManagedAPI.msi) можно сохранить в любой папке на сервере SharePoint.
   
@@ -33,25 +33,25 @@ ms.locfileid: "36244146"
     
 2. В командном окне с помощью команды cd измените текущий каталог, указав папку, в которой сохранен файл EWSManagedAPI.msi. Например, если вы сохранили файл в К:\довнлоадс, введите в окне команд следующую команду и нажмите клавишу ВВОД.
     
-   ```
+   ```console
    cd C:\Downloads
    ```
 
 3. Чтобы установить API-интерфейс, введите указанную ниже команду и нажмите клавишу ВВОД.
     
-   ```
+   ```console
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
    ```
 
 4. После установки API выполните следующую команду и нажмите клавишу ВВОД, чтобы выполнить сброс IIS.
     
-   ```
+   ```console
    iisreset
    ```
 
 После установки веб-служб Exchange необходимо настроить проверку подлинности "сервер-сервер" между SharePoint Server и Exchange Server. Для этого сначала откройте командную консоль SharePoint и выполните следующий набор команд:
   
-```
+```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 $service = Get-SPSecurityTokenServiceConfig
 $service.HybridStsSelectionEnabled = $True
@@ -65,7 +65,7 @@ $service.Update()
   
 После создания поставщика маркера и настройки службы маркеров выполните следующие команды, чтобы заменить URL-адрес сайта SharePoint на пример URL-адреса.http://atl-sharepoint-001:
   
-```
+```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
 $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
 $site = Get-SPSite  "https://atl-sharepoint-001"
@@ -74,13 +74,13 @@ Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "Site
 
 Чтобы настроить проверку подлинности "сервер-сервер" для Exchange Server, откройте командную консоль Exchange и выполните следующую команду (предполагая, что Exchange установлен на диске C: и для него используется путь к папке по умолчанию):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
 После настройки приложения-партнера рекомендуется остановить и перезапустить службы IIS на всех ваших почтовом ящике Exchange и серверах клиентского доступа. Ниже приведен пример команды перезапуска служб IIS, относящийся к компьютеру atl-exchange-001.
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -88,13 +88,13 @@ iisreset atl-exchange-001
   
 Затем выполните следующую команду, которая предоставляет указанному пользователю (в данном примере, кенмер) право на обнаружение в Exchange.
   
-```
+```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
 После установки проверки подлинности между сервером Exchange и SharePoint следующим шагом является создание сайта обнаружения электронных данных в SharePoint. Это можно сделать, запустив команды, аналогичные указанным в командной консоли SharePoint:
   
-```
+```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
 New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 ```
@@ -126,9 +126,9 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. При появлении страницы набора eDiscovery выберите **Создать элемент** в разделе **Определить и сохранить: наборы обнаружения**.
     
-5. На странице "Создать: набор обнаружения" введите псевдоним пользователя электронной почты в поле **Имя набора обнаружения**. Введите **Lync\\* для обнаружения электронных**данных в поле " **Фильтр** " и нажмите кнопку " ** &amp; добавить Управление источниками**".
+5. На странице "Создать: набор обнаружения" введите псевдоним пользователя электронной почты в поле **Имя набора обнаружения**. Введите **Lync\\* для обнаружения электронных**данных в поле " **Фильтр** " и нажмите кнопку " **Добавить &amp; Управление источниками**".
     
-6. На странице Add &amp; Sources in (добавить источники) введите псевдоним электронной почты пользователя в первом поле в разделе Почтовые **ящики**. Щелкните на значке почтового ящика рядом со учебником для проверки связи SharePoint с указанным почтовым ящиком.
+6. На странице Add &amp; Sources in (добавить источники) введите псевдоним электронной почты пользователя в первом поле в разделе **почтовые ящики**. Щелкните на значке почтового ящика рядом со учебником для проверки связи SharePoint с указанным почтовым ящиком.
     
 7. Нажмите **ОК**.
     

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: Импорт конфигурации облачного соединителя Skype для бизнеса из локального файла на хост-сервер облачного соединителя.
-ms.openlocfilehash: 3e165250b5158513aa683770d5eb1768c0e1e29c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287281"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003339"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
 Импорт конфигурации облачного соединителя Skype для бизнеса из локального файла на хост-сервер облачного соединителя.
   
-```
+```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 В следующем примере копируется Клаудконнектор. ini из каталога устройства в экземпляре облачного соединителя в каталог%Системдриве%\програмдата\клаудконнектор:
   
-```
+```powershell
 Import-CcConfiguration
 ```
 
@@ -45,7 +45,7 @@ Import-CcConfiguration
 ## <a name="parameters"></a>Параметры
 <a name="Examples"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |Force  <br/> |Необязательно  <br/> |System.Management.Automation.SwitchParameter  <br/> |Перезаписать существующий файл в%Системдриве%\програмдата\клаудконнектор без уведомления.  <br/> |
    

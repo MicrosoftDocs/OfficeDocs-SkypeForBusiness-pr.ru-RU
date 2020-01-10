@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Узнайте о том, как установить и настроить параметры доступности в Skype для бизнеса Server.
-ms.openlocfilehash: a0fd235d5db645035ac9a6344c233dfe12a78b7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 45779af0410dcadd1b5fe8e3988905e88acd9213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240312"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002519"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Установка и настройка параметров занятости в Skype для бизнеса Server
 
@@ -50,7 +50,7 @@ ms.locfileid: "36240312"
 
 1. Запустите командлет [Set-ксвоицеполици](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) , чтобы включить параметры доступности, как показано в следующем примере.
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
@@ -58,25 +58,25 @@ ms.locfileid: "36240312"
 
     Сначала запустите [Get-кссите](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) , чтобы получить имя сайта:
 
-   ```
+   ```powershell
    Get-CsSite
    ```
 
     Используйте значение удостоверения (например, сайт: Redmond1), полученное из Get-Кссите, чтобы получить политику голосовой связи для сайта, как описано ниже.
 
-   ```
+   ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
     Если для сайта существует политика голосовой связи, выполните следующую команду:
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
 3. Затем выполните командлет [New-кссервераппликатион](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) , чтобы добавить параметры Busy в список серверных приложений, как показано в следующем примере:
 
-   ```
+   ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
@@ -85,13 +85,13 @@ ms.locfileid: "36240312"
 
 4. Затем выполните командлет [Update-ксадминроле](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) , чтобы обновить роли управления доступом на основе РОЛЕЙ (RBAC) для командлетов параметров Busy, как показано в следующем примере.
 
-   ```
+   ```powershell
    Update-CsAdminRole
    ```
 
 5. Наконец, запустите команду [Start-ксвиндовссервице](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) на всех серверах, на которых установлены и включены службы Windows для бизнеса Server, на все серверы переднего плана, на которых установлен и включен параметр Busy.
 
-   ```
+   ```powershell
    Start-CsWindowsService
    ```
 
@@ -101,25 +101,25 @@ ms.locfileid: "36240312"
 
 Например, следующая команда задает параметры занятости для пользователя "Ken Myer". В такой конфигурации при поступлении звонка этому пользователю во время активного звонка возвращается сигнал "занято":
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 В следующем примере эта команда задает параметры занятости для пользователя "Chrystal Velasquez". В такой конфигурации новые входящие звонки, поступающие этому пользователю во время активного звонка, переадресуются на голосовую почту:
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
 Чтобы извлечь сведения о конфигурации параметров занятости, используйте командлет [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). В следующем примере возвращаются значения параметров Busy для "KenMyer@Contoso.com":
 
-```
+```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
 Чтобы удалить параметры занятости, используйте командлет [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). Следующая команда удаляет параметры занятости для пользователя "Ken Myer":
 
-```
+```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
@@ -129,7 +129,7 @@ Remove-CsBusyOptions -Identity "Ken Myer"
 
 Чтобы включить ведение журналов с использованием соответствующей централизованной службы, введите следующую команду:
 
-```
+```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
 $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar

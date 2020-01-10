@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Возвращает версию устройства Cloud Connector. Использовать командлет Get-CCVersion можно только на хост-компьютере Cloud Connector.
-ms.openlocfilehash: b002b4a9f0cae34a2cdd7b8817e86a3e4ec2eb9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a7d50bbcd01dc80fe3e2202286c1adc1b5d5f9bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287253"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003349"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
 Возвращает версию устройства Cloud Connector. Использовать командлет Get-CCVersion можно только на хост-компьютере Cloud Connector.
   
-```
+```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 ```
 
@@ -32,7 +32,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
   
 ## <a name="parameters"></a>Параметры
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |VersionType  <br/> |Необязательно  <br/> |System.String  <br/> |Тип версии. Этот параметр может иметь значения RunningScripts, RunningBits, BackupBits или All. Значение по умолчанию: RunningScripts.   <br/> |
    
@@ -43,7 +43,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 
 В следующем примере показана версия облачного соединителя запущенного сценария на открытой консоли PowerShell.
   
-```
+```powershell
 Get-CcVersion
 ```
 
@@ -51,7 +51,7 @@ Get-CcVersion
 
 В следующем примере показана версия облачного соединителя для исполняемых в данный момент двоичных файлов, развернутых на виртуальных машинах. Версию можно просмотреть в названиях виртуальных машин в диспетчере Hyper-V.
   
-```
+```powershell
 Get-CCVersion -VersionType RunningBits
 ```
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: Аннотация. Настройте единое хранилище контактов для Exchange Server и Skype для Business Server.
-ms.openlocfilehash: 2719105478860f0352ae4a4cef75466ec460d475
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244135"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003559"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Настройка Skype для бизнеса Server для работы с единым хранилищем контактов
  
@@ -38,19 +38,19 @@ ms.locfileid: "36244135"
   
 Если для вас предпочтительнее не переносить все ваши контакты в единое хранилище контактов, можно заблокировать единое хранилище контактов для всех пользователей, присвоив свойству UcsAllowed в глобальной политике значение False:
   
-```
+```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
 После того как вы отключите единое хранилище контактов в глобальной политике, вы можете создать политику для пользователей, которая позволит использовать единое хранилище контактов; Это позволит некоторым пользователям хранить свои контакты в едином банке контактов, когда другие пользователи продолжают хранить свои контакты в Skype для бизнеса Server. Ниже приведен пример команды, позволяющей создать политику служб пользователей для отдельных пользователей:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 ```
 
 После создания политики ее необходимо назначить всем пользователям, которым требуется доступ к единому хранилищу контактов. Политики на уровне пользователей можно назначить пользователям с помощью следующей команды:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
@@ -58,23 +58,23 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
   
 Вы можете убедиться, что контакты пользователя успешно перенесены в единое хранилище контактов, запустив командлет [Test-ксунифиедконтактсторе](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) в командной консоли управления Skype для бизнеса Server.
   
-```
+```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Если Test-Ксунифиедконтактсторе успешно, это означает, что контакты для пользователя SIP: кенмер @<span></span>плана litwareinc<span></span>. com были перенесены в единое хранилище контактов.
+Если Test-Ксунифиедконтактсторе успешно, это означает, что контакты для пользователя SIP: kenmyer@<span></span>плана litwareinc<span></span>. com были перенесены в единое хранилище контактов.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Откат в единое хранилище контактов
 
 Если вы хотите удалить контакты пользователя из хранилища Объединенных контактов (например, если нужно переадресовать пользователя на сервере Microsoft Lync Server 2010 и, следовательно, он больше не может использовать единое хранилище контактов), необходимо выполнить два действия. Сначала следует назначить пользователю новую политику служб пользователей, запрещающую хранение контактов в едином хранилище контактов. (То есть, политика, в которой для свойства Уксалловед задано значение $False.) Если у вас нет такой политики, вы можете создать ее с помощью следующей команды:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 ```
 
 Затем вы можете назначить эту политику на уровней пользователей (NoUnifiedContactStore) с помощью следующей команды:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 ```
 
@@ -87,7 +87,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStor
   
 Это также означает, что после назначения пользователю новой политики пользовательских служб необходимо запустить командлет [Invoke-ксуксроллбакк](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) , чтобы переместить контакты пользователя из Exchange Server в Skype для бизнеса Server. Например, после назначения пользователю Ken Myer новой политики служб пользователя можно перенести его контакты из единого хранилища контактов с помощью следующей команды:
   
-```
+```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 

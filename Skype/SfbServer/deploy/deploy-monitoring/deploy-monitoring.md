@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Сводка: сведения о развертывании мониторинга в Skype для бизнеса Server.'
-ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239955"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001152"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Развертывание мониторинга в Skype для бизнеса Server
 
@@ -67,7 +67,7 @@ ms.locfileid: "36239955"
 
 Сбор данных начинается только после включения мониторинга регистрации вызовов и качества взаимодействия. (Обратите внимание, что вам не нужно включать мониторинг CDR и QoE; при желании вы можете включить один тип наблюдения, не выходя из другого типа.) Чтобы включить мониторинг CDR в глобальной области, выполните в командной консоли Skype для Business Server следующую команду:
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -81,7 +81,7 @@ Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
 Чтобы включить мониторинг QoE в глобальной области, выполните эту команду в командной консоли управления Skype для бизнеса Server:
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

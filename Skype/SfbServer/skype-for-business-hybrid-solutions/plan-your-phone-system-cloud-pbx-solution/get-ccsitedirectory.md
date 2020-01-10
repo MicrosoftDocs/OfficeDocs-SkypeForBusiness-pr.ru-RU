@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Командлет Get-CcSiteDirectory показывает текущий каталог, в котором хранятся файлы конфигурации уровня сайта. В папке находятся файлы установки базового виртуального жесткого диска и Skype для бизнеса Cloud Connector Edition. Эта папка должна быть предоставлена всем другим устройствам на сайте облачного соединителя.
-ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 095776a680fbbcc8c43a8f99700b357175010b5a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287302"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003369"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -24,7 +24,7 @@ ms.locfileid: "34287302"
   
 Этот командлет применяется к версии Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -39,7 +39,7 @@ Get-CcSiteDirectory
 
 В следующем примере показана текущая папка, в которой хранятся файлы конфигурации и виртуальных машин в компонентах облачного соединителя.
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 

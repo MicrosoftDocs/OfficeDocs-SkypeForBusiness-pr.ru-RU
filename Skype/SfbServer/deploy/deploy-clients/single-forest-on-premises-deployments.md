@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: В этом разделе описывается развертывание Системы комнат Skype в локальной среде с одиночным лесом.
-ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775268"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002949"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Развертывание одного локального леса для системы комнат Skype
  
@@ -31,13 +31,13 @@ ms.locfileid: "36775268"
   
 1. Выполните следующую команду в командной консоли Exchange PowerShell:
     
-   ```
+   ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 2. Если вы планируете создать новый почтовый ящик, выполните следующую команду для локальной организации Exchange с одиночным лесом:
     
-   ```
+   ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
@@ -45,7 +45,7 @@ ms.locfileid: "36775268"
     
 3. Настройте учетную запись для автоматического разрешения конфликтов путем приема/отклонения собраний. Система комнат Skype — это возможность управлять учетными записями комнаты на Конференции в Exchange, но обратите внимание на то, что до тех пор, пока они не будут принимать приглашение на собрание, оно не будет отображаться в календаре на начальном экране системы помещения Skype.
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
    ```
 
@@ -53,11 +53,11 @@ ms.locfileid: "36775268"
     
    Чтобы напомнить собранию организаторов на собрание Skype для бизнеса в Outlook, выполните следующую команду, чтобы настроить подсказку для новой учетной записи: 
     
-   ```
+   ```powershell
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
 4. Для настройки локализованных строк используйте следующие команды. Также можно добавить настраиваемые переводы, если это требуется для вашей организации. 
-   ```
+   ```powershell
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
@@ -65,7 +65,7 @@ ms.locfileid: "36775268"
 
 5. Необязательно: Настройка текста для принятия приглашения на собрание, предоставляющего пользователям сведения о комнате собрания Skype для бизнеса, а также о том, что следует ожидать при планировании и присоединении к собраниям. 
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
    ```
 
@@ -77,7 +77,7 @@ The conference room mailbox account created by Exchange in step 1 above might be
   
 1. Для включения входа в учетную запись выполните следующую команду в Active Directory. 
     
-   ```
+   ```powershell
    Set-ADAccountPassword -Identity LRS01
    ```
 
@@ -85,7 +85,7 @@ The conference room mailbox account created by Exchange in step 1 above might be
     
 2. После настройки пароля выполните следующую команду, чтобы активировать учетную запись. 
     
-   ```
+   ```powershell
    Enable-ADAccount -Identity LRS01
    ```
 
@@ -100,18 +100,18 @@ The conference room mailbox account created by Exchange in step 1 above might be
   
 1. Выполните следующую команду, чтобы включить учетную запись системы комнаты Skype в пуле сервера Skype для бизнеса.
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
 2. Optional: Allow this account to make and receive PSTN phone calls by enabling the account for Enterprise Voice. Корпоративная голосовая связь не требуется для системы комнат Skype, но если вы не включите ее для корпоративной голосовой связи, клиент системы комнат Skype не сможет предоставить возможность набора номера для PSTN:
     
-   ```
+   ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
    ```
 
 > [!NOTE]
-> Если вы включите корпоративную голосовую почту для учетной записи комнаты на конференц-зале Skype, убедитесь, что вы настроили политику голосовой связи, подходящую для вашей организации. Если комната для собраний Skype для бизнеса — общедоступный ресурс, любой пользователь может использовать его для присоединения к собранию, как запланированное, так и нерегламентированное. After joining a meeting, the person could dial out to any number. В Skype для бизнеса Server функция исходящих звонков из конференций использует политику голосовой связи пользователя, в этом случае учетная запись комнаты для помещения в Skype, которая использовалась для присоединения к собранию. In earlier versions of Lync Server, the voice policy of the organizer is used. Таким образом, если пользователь более ранней версии Lync Server планирует комнату для собраний и приглашает учетную запись комнаты для помещения в комнату Skype, любой пользователь может использовать для собрания Конференц-зал Skype для бизнеса, чтобы присоединиться к собранию и набрать любой национальный/региональный или международный телефон. номер, если организатор может набрать эти номера. 
+> Если вы включите корпоративную голосовую почту для учетной записи комнаты на конференц-зале Skype, убедитесь, что вы настроили политику голосовой связи, подходящую для вашей организации. Если комната для собраний Skype для бизнеса — общедоступный ресурс, любой пользователь может использовать его для присоединения к собранию, как запланированное, так и нерегламентированное. After joining a meeting, the person could dial out to any number. В Skype для бизнеса Server функция исходящих звонков из конференций использует политику голосовой связи пользователя, в этом случае учетная запись комнаты для помещения в Skype, которая использовалась для присоединения к собранию. In earlier versions of Lync Server, the voice policy of the organizer is used. Таким образом, если пользователь более ранней версии Lync Server планирует комнату для собраний и приглашает учетную запись комнаты для помещения в комнату, любой пользователь может использовать для собрания собрание Skype для бизнеса, чтобы присоединиться к собранию и набрать любой национальный, региональный или Международный телефонный номер, если организатор может набрать эти номера. 
   
 

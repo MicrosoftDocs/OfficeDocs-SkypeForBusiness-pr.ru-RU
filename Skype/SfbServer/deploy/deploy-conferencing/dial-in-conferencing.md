@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться настраивать конференц-связь с телефонным подключением в Skype для бизнеса Server.'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234145"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002929"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Настройка конференц-связи с телефонным подключением в Skype для бизнеса Server
  
 **Сводка:** В этой статье рассказывается о том, как настроить Конференц-связь с телефонным подключением в Skype для бизнеса Server.
   
-После создания топологии, которая содержит рабочую нагрузку и выбранную конференцию с телефонным подключением, необходимо выполнить дополнительные действия, чтобы настроить Конференц-связь с телефонным подключением. Перед тем как читать этот раздел, убедитесь, что у вас есть [план на Конференц-связь с телефонным подключением в Skype для бизнеса Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [требования к оборудованию и программному обеспечению для проведения конференций в Skype для бизнеса Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)и [блок-схема развертывания и контрольный список для Конференц-связь](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)с телефонным подключением. 
+После создания топологии, которая содержит рабочую нагрузку и выбранную конференцию с телефонным подключением, необходимо выполнить дополнительные действия, чтобы настроить Конференц-связь с телефонным подключением. Перед тем как читать этот раздел, убедитесь, что у вас есть [план для конференц-связи с телефонным подключением в Skype для бизнеса Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [требования к оборудованию и программному обеспечению для проведения конференций в Skype для бизнеса Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)и [блок-схемы развертывания и контрольный список для Конференции с телефонным подключением](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
   
 Для настройки конференц-связи с телефонным подключением необходимо выполнить описанные ниже задачи.
   
@@ -83,13 +83,13 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 3. Выполните следующую команду в командной строке:
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    Например:
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -107,13 +107,13 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
     
 3. Для всех абонентских групп, у которых не задан регион конференц-связи с телефонным подключением, выполните следующую команду:
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    Например:
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 
@@ -200,7 +200,7 @@ To verify whether the region is set for all dial-in conferencing dial plans, use
 
 Для присоединения к конференции в качестве пользователей, прошедших проверку подлинности, пользователи конференц-связи с телефонным подключением вводят номера телефонов или добавочные номера и ПИН-код. Для проверки подлинности требуется **универсальный код ресурса (URI)** телефонной линии, указанный в учетных записях пользователей Skype для бизнеса Server.
   
-В этом разделе описывается назначение **URI линии** отдельной учетной записи пользователя. Чтобы назначить **URI линии** нескольким учетным записям пользователей, можно создать сценарий, использующий командлет **Set-CsUser**. Подробнее об использовании примера сценария для назначения универсального **кода ресурса (URI)** для нескольких учетных записей пользователей в разделе Назначение URI для [строк нескольким пользователям](https://go.microsoft.com/fwlink/p/?linkId=196945).
+В этом разделе описывается назначение **URI линии** отдельной учетной записи пользователя. Чтобы назначить **URI линии** нескольким учетным записям пользователей, можно создать сценарий, использующий командлет **Set-CsUser**. Подробнее об использовании примера сценария для назначения **универсального кода ресурса (URI)** для нескольких учетных записей пользователей в разделе Назначение URI для [строк нескольким пользователям](https://go.microsoft.com/fwlink/p/?linkId=196945).
   
 1. Выполните вход на компьютер с учетной записью члена группы RTCUniversalServerAdmins или члена роли **Cs-UserAdministrator** или **CsAdministrator**.
     

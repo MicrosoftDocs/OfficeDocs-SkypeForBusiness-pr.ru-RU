@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype для бизнеса Server (SRS для систем с комнатой) в Skype — это веб-портал, который может использоваться организациями для обслуживания комнат конференц-зала Skype. Администраторы могут использовать веб-портал администрирования SRS v1 для наблюдения за работоспособностью устройства, например мониторингом аудио-и видеоустройств. С помощью этого портала, администраторы могут удаленно собирать диагностические сведения, чтобы отслеживать работоспособность конференц-зала.
-ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234178"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002889"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание веб-портала администрирования SRS v1 в Skype для бизнеса Server
 
@@ -86,7 +86,7 @@ Skype для бизнеса Server (SRS для систем с комнатой)
 
 1. Настройте порт доверенного приложения, выполнив следующий командлет в командной консоли управления Skype для бизнеса Server:
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -98,19 +98,19 @@ Skype для бизнеса Server (SRS для систем с комнатой)
 
 4. В файле Web. config измените Порталусернаме на имя пользователя, созданное на этапе 2, в разделе "[Настройка среды для административного веб-портала SRS](room-system-v1-administrative-web-portal.md#Config_Env)" (рекомендуемое имя на этапе — лрсапп):
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. Поскольку портал администрирования SRS версии 1 является доверенным приложением, указывать пароль в конфигурации портала не требуется. Если этот пользователь использует регистратор, отличный от локального, необходимо указать регистратор, добавив в файл Web.Config следующую строку: 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. Если используется порт, отличный от 5061, добавьте в файл Web.Config следующую строку: 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -221,7 +221,7 @@ Skype для бизнеса Server (SRS для систем с комнатой)
 
 - Если вы создали учетные записи SRS, но они не отображаются на веб-портале администрирования, соберите журналы клиента, используя средство Fiddler, а также скопируйте журнал консоли из средств разработки браузера и отправьте все эти данные своему контактному лицу в службе поддержки SRS. Чтобы получить более подробные журналы, можно также изменить значение уровня трассировки в файле Web.config.
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--

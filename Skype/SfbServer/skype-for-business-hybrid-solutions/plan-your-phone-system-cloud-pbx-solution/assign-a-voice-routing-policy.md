@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться назначать политику голосовой связи для пользователей, использующих телефонную систему в Office 365 с локальным подключением КТСОП.'
-ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc1bf50eabc1b596ba54e3447c0357cfd304ad2c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294434"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003039"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Назначение политики маршрутизации голосовой связи
  
@@ -51,13 +51,13 @@ ms.locfileid: "34294434"
     
 3. Добавьте в политику записи об использовании КТСОП.
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
     Например:
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
    ```
 
@@ -71,13 +71,13 @@ ms.locfileid: "34294434"
     
 3. Создание новой политики маршрутизации голосовой связи
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
     Например:
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
@@ -95,13 +95,13 @@ ms.locfileid: "34294434"
     
 3. Назначьте существующую политику голосовой связи пользователю:
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Например:
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 

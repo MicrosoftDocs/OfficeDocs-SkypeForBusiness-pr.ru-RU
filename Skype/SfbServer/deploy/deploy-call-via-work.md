@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Сводка: сведения о том, как развертывать звонки через Skype для бизнеса Server для некоторых или всех пользователей.'
-ms.openlocfilehash: d1c55e44cae944664a51eaddb2ad54e758d4f52c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d989c05b6b2b3e01a3a96e66133ec314029329e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234256"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002709"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Развертывание звонка через Skype для бизнеса Server
  
@@ -58,13 +58,13 @@ ms.locfileid: "36234256"
 
 - Введите следующий командлет
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     Например, указанный ниже командлет задает глобальный номер телефона 1-555-123-4567.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -72,13 +72,13 @@ ms.locfileid: "36234256"
 
 - Введите следующий командлет
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Например, следующий командлет создает вызов с помощью рабочей политики, именуемой ContosoUser1CvWP, требует, чтобы пользователь использовал номер обратного вызова для администратора, и устанавливает для него номер обратного вызова в 1-555-789-1234.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -86,13 +86,13 @@ ms.locfileid: "36234256"
 
 - Введите следующий командлет
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
     Например, следующий командлет назначает вызов с помощью рабочей политики "ContosoUser1CvWP" для пользователя с именем **ContosoUser1**.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

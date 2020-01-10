@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: Командлет Get-CcExternalCertificateFilePath возвращает путь к файлу внешнего сертификата для развертывания Skype для бизнеса Cloud Connector Edition. Этот сертификат подготавливается пользователем.
-ms.openlocfilehash: ed725814380741aade73166d01025650dfa78538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a471b0e4258728bfaa50558aab54955346b457c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287323"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003379"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -24,7 +24,7 @@ ms.locfileid: "34287323"
   
 Этот командлет применяется к версии Skype для бизнеса Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationSer
 
 В следующем примере показан путь к сертификату пограничного сервера.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
 ```
 
@@ -43,7 +43,7 @@ Get-CcExternalCertificateFilePath -Target EdgeServer
 
 В следующем примере показан путь к сертификату сервера-посредника.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
 ```
 
@@ -55,7 +55,7 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="parameters"></a>Параметры
 <a name="DetailedDescription"> </a>
 
-|**Параметр**|**Обязательно**|**Тип**|**Описание**|
+|**Параметр**|**Обязательный**|**Тип**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |Целевой объект  <br/> |Необязательно  <br/> | System.Management.Automation.SwitchParameter <br/> |Тип запрашиваемого пути к файлу. Возможные типы:  <br/> EdgeServer (по умолчанию)  <br/> MediationServer  <br/> |
    

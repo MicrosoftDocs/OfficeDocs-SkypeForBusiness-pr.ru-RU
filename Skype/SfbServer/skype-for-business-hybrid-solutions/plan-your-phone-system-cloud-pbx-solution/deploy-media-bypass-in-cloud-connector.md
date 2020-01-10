@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: В этой статье приведены инструкции по развертыванию обхода мультимедиа с помощью Cloud Connector Edition версии 2,0 и более поздних версий.
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287547"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003489"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Развертывание обхода сервера-посредника в Cloud Connector Edition
  
@@ -37,7 +37,7 @@ ms.locfileid: "34287547"
   
 В сеансе PowerShell введите следующие команды, чтобы разрешить обход сервера-посредника.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
@@ -53,14 +53,14 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
   
 Чтобы проверить репликацию в сети в пул клиентов, выполните в удаленной оболочке PowerShell следующую команду:
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 Чтобы проверить локальную репликацию, подключитесь к серверам с исправлениями в облаке, выполните следующую команду в PowerShell и убедитесь, что enabled = true и Алвайсбипасс = true
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
@@ -74,7 +74,7 @@ Get-CsNetworkConfiguration -LocalStore
 
 Администраторы клиента могут изменить имя DNS для веб-службы, выполнив следующий командлет:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -85,14 +85,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 Этот сценарий может быть полезен для устранения неполадок или обслуживания. Чтобы отключить службу, запустите следующие командлеты:
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
 Тиражирование внесенных изменений на все экземпляры Cloud Connector может занять определенное время. Чтобы проверить состояние репликации, выполните следующий командлет в PowerShell на серверах с исправлениями облачного соединителя: 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -102,7 +102,7 @@ Get- CsNetworkConfiguration -LocalStore
 
 Чтобы навсегда отключить обход сервера-посредника, администратору клиента необходимо выполнить следующие команды. 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 

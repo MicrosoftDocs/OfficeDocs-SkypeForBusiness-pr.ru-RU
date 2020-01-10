@@ -1,5 +1,5 @@
 ---
-title: Развертывание загружаемых веб-клиентов в Skype для бизнеса Server
+title: Развертывание веб-клиентов, доступных для загрузки, в Skype для бизнеса Server
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Сводка: развертывание приложения Skype для бизнеса Web App и собраний Skype, которое используется в Skype для бизнеса.'
-ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
-ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
+ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "36972880"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003529"
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание загружаемых веб-клиентов в Skype для бизнеса Server
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Развертывание веб-клиентов, доступных для загрузки, в Skype для бизнеса Server
 
 **Сводка:** Развертывание приложения Skype для бизнеса 2015 веб-приложения и собраний Skype, которое используется в Skype для бизнеса Server.
 
@@ -52,19 +52,19 @@ Skype для бизнеса Web App — это веб-клиент служб II
 
 3. В интерфейсе командной строки Windows PowerShell выполните следующую команду:
 
-    ```
+    ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
 
 4. Установите партнерство, выполнив следующую команду:
 
-    ```
+    ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
     ```
 
 5. Настройте следующие правила проверяющей стороны:
 
-    ```
+    ```powershell
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -123,13 +123,13 @@ Skype для бизнеса Web App — это веб-клиент служб II
 
 1. При включении доступа к сети доставки содержимого (CDN) пользователи получат возможность подключаться к CDN Online и получать приложения для собраний Skype (в Windows) и Skype для бизнеса для Mac (на Mac) и использовать упрощенное соединение для собраний.
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
 2. Разрешить отправку журнала на стороне клиента с веб-страницы присоединения к собранию или из приложения "собрания Skype" для отправки на серверы Майкрософт (по умолчанию для команды задано значение "ложь").
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
@@ -137,7 +137,7 @@ Skype для бизнеса Web App — это веб-клиент служб II
 
 3. Установите время ожидания перед переходом на локальное веб-приложение Skype для бизнеса, если сеть CDN недоступна. По умолчанию установлено значение 6 с. Если установлено значение 0, никакого времени ожидания не будет.
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
@@ -148,7 +148,7 @@ Skype для бизнеса Web App — это веб-клиент служб II
 ## <a name="see-also"></a>См. также
 <a name="SMA_Enable"> </a>
 
-[Планирование клиентов собраний (приложение для веб-приложений и собраний)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
+[Планирование для клиентов собраний (Skype для бизнеса Web App и приложение "Собрания Skype")](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
 [Настройка страницы присоединения к собранию в Skype для бизнеса Server](../../manage/conferencing/meeting-join-page.md)
 

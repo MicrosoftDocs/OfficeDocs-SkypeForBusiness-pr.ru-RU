@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Сводка: Настройка использования фотографий высокого разрешения в Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 или Exchange Online и Skype для бизнеса Server.'
-ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 598490cfc80b8885a570317a7559bfc4cdd3caf5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434914"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001179"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Настройка использования фотографий высокого разрешения в Skype для бизнеса Server
  
@@ -36,7 +36,7 @@ ms.locfileid: "37434914"
   
 Фотографии высокого разрешения, доступ к которым осуществляется с помощью веб-служб Exchange, могут отправлять пользователи, которые работают с Outlook 2013 Web App; Пользователи могут обновлять только свои фотографии. Однако администраторы могут обновлять фотографию для любого пользователя с помощью командной консоли Exchange и последовательности команд Windows PowerShell, как показано ниже.
   
-```
+```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
@@ -49,13 +49,13 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
   
 Отправка фотографии не означает, что она будет автоматически назначена учетной записи пользователя Ken Myer. После отправки фотография просто будет отображаться в режиме предварительного просмотра на странице параметров Outlook Web App. Чтобы назначить фотографию учетной записи, пользователь должен нажать кнопку **Сохранить** на странице параметров или же администратор должен выполнить третью команду данного примера. В третьей команде используется параметр Save для назначения фотографии учетной записи пользователя Ken Myer.
   
-```
+```powershell
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
 Чтобы убедиться в том, что новая фотография назначена учетной записи пользователя, Кен мер может войти в Skype для бизнеса, выбрать **Параметры**, а затем выбрать **мою фотографию**. В качестве личной фотографии пользователя Ken Myer должна отобразиться новая фотография. Администратор может проверить фотографию любого пользователя, введя в адресной строке Internet Explorer URL-адрес, подобный показанному ниже.
   
-```
+```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 

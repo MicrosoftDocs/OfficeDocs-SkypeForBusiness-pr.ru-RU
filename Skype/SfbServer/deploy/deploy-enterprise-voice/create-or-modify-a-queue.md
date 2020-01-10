@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Создание или изменение очереди групп ответов в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: b58ec9065eea1cc2dd8686b07ea798ac71c460fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9027c239c92c7c04b9de8b5579d7ebb73069b1a3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233456"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001709"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Создание и изменение очереди в Skype для бизнеса
  
@@ -69,11 +69,11 @@ Queues hold callers until an agent answers the call. Когда приложен
     
    - Чтобы разъединить звонок после завершения периода ожидания, установите переключатель **Отключить**.
     
-   - Чтобы перенаправить звонок на голосовую почту, выберите команду Переслать **на голосовую почту**, а затем в поле **адрес SIP** введите адрес голосовой почты в формате SIP * \<:\>имя_пользователя*@ *\<\> DomainName* (для Например, sip:bob@contoso.com).
+   - Чтобы перенаправить звонок на голосовую почту, выберите команду **Переслать на голосовую почту**, а затем в поле **адрес SIP** введите адрес голосовой почты в формате SIP * \<:\>имя_пользователя*@ *\<DomainName\> * (например, SIP:Bob@contoso.com).
     
-   - Чтобы перенаправить звонок на другой номер телефона, нажмите кнопку Переслать **на номер телефона**, а затем в поле **адрес SIP** введите номер телефона в формате SIP: * \<\>номер*@ *\<имя_домена\>* (например, SIP:+14255550121@contoso.com).
+   - Чтобы перенаправить звонок на другой номер телефона, нажмите кнопку **Переслать на номер телефона**, а затем в поле **адрес SIP** введите номер телефона в формате SIP: * \<номер\>*@ *\<DomainName\> * (например, SIP:+14255550121@contoso.com).
     
-   - Чтобы перенаправить звонок на другого пользователя, нажмите кнопку Переслать **на адрес SIP**, а затем введите в поле **SIP Address** (универсальный код ресурса) URI для пользователя в формате SIP: _ \<\>username_@ _\<\>имя_домена_.
+   - Чтобы перенаправить звонок на другого пользователя, нажмите кнопку **Переслать на адрес SIP**, а затем введите в поле **SIP Address** (универсальный код ресурса) URI для пользователя в формате SIP: _ \<username\>_@ _\<имя_домена\>_.
     
    - Чтобы переадресовать звонок в другую очередь, установите переключатель **Переадресовывать в другую очередь**, затем выберите требуемую очередь.
     
@@ -87,11 +87,11 @@ Queues hold callers until an agent answers the call. Когда приложен
     
    - Чтобы разъединить звонок после завершения периода ожидания, установите переключатель **Отключить**.
     
-   - Чтобы перенаправить звонок на голосовую почту, выберите команду Переслать **на голосовую почту**, а затем в поле **адрес SIP** введите адрес голосовой почты в формате SIP * \<:\>имя_пользователя*@ *\<\> DomainName* (для Например, sip:bob@contoso.com).
+   - Чтобы перенаправить звонок на голосовую почту, выберите команду **Переслать на голосовую почту**, а затем в поле **адрес SIP** введите адрес голосовой почты в формате SIP * \<:\>имя_пользователя*@ *\<DomainName\> * (например, SIP:Bob@contoso.com).
     
-   - Чтобы перенаправить звонок на другой номер телефона, нажмите кнопку Переслать **на номер телефона**, а затем в поле **адрес SIP** введите номер телефона в формате SIP: * \<\>номер*@ *\<имя_домена\>* (например, SIP:+14255550121@contoso.com).
+   - Чтобы перенаправить звонок на другой номер телефона, нажмите кнопку **Переслать на номер телефона**, а затем в поле **адрес SIP** введите номер телефона в формате SIP: * \<номер\>*@ *\<DomainName\> * (например, SIP:+14255550121@contoso.com).
     
-   - Чтобы перенаправить звонок на другого пользователя, нажмите кнопку Переслать **на адрес SIP**, а затем введите в поле **SIP Address** (универсальный код ресурса) URI для пользователя в формате SIP: _ \<\>username_@ _\<\>имя_домена_.
+   - Чтобы перенаправить звонок на другого пользователя, нажмите кнопку **Переслать на адрес SIP**, а затем введите в поле **SIP Address** (универсальный код ресурса) URI для пользователя в формате SIP: _ \<username\>_@ _\<имя_домена\>_.
     
    - Чтобы переадресовать звонок в другую очередь, установите переключатель **Переадресовывать в другую очередь**, затем выберите требуемую очередь.
     
@@ -108,13 +108,13 @@ Queues hold callers until an agent answers the call. Когда приложен
     
 3. Создайте сообщение, которое будет воспроизводиться при достижении порогового времени ожидания очереди, и сохраните его в переменной. В командной строке выполните следующую команду.
     
-   ```
+   ```powershell
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Например:
     
-   ```
+   ```console
    "All agents are currently busy. Please call back later."
    ```
 
@@ -123,7 +123,7 @@ Queues hold callers until an agent answers the call. Когда приложен
   
 4. Определите действие, которое должно выполняться при достижении порогового времени ожидания очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
-   ```
+   ```powershell
    $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -132,19 +132,19 @@ Queues hold callers until an agent answers the call. Когда приложен
   
     Например:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
    ```
 
 5. Создайте сообщение, которое будет воспроизводиться при достижении максимального числа звонков в очереди, и сохраните его в переменной. В командной строке выполните следующую команду.
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Например:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
@@ -153,7 +153,7 @@ Queues hold callers until an agent answers the call. Когда приложен
   
 6. Определите действие, которое должно выполняться при достижении максимального числа звонков в очереди, и сохраните его в переменной. В командной строке введите следующую команду.
     
-   ```
+   ```powershell
    $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -162,19 +162,19 @@ Queues hold callers until an agent answers the call. Когда приложен
   
     Например:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
 7. Извлеките имя службы из службы группы ответа и назначьте его переменной. В командной строке выполните следующую команду:
     
-   ```
+   ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
 8. Получите идентификатор группы агентов, которую нужно назначить очереди. В командной строке выполните следующую команду.
     
-   ```
+   ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
    ```
 
@@ -183,19 +183,19 @@ Queues hold callers until an agent answers the call. Когда приложен
   
 9. Создайте очередь. В командной строке выполните следующую команду.
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
    ```
 
    Например:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
 10. Убедитесь в том, что очередь создана. Выполните следующую команду.
     
-    ```
+    ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 

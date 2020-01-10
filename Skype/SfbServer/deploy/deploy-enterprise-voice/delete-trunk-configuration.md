@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: Сводка. сведения о том, как удалить набор параметров конфигурации магистрали с помощью панели управления "Skype для бизнеса Server".
-ms.openlocfilehash: 5823c47234f912293c7af2a15bf1fcb87ff23e15
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 97a0820258a837968b88e6840232829f3ad11d21
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233213"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000999"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Удаление существующей коллекции параметров конфигурации магистральной магистрали SIP в Skype для бизнеса Server
  
@@ -63,7 +63,7 @@ ms.locfileid: "36233213"
 
 - Следующая команда удаляет параметры конфигурации магистрали, примененные к сайту Redmond.
     
-  ```
+  ```powershell
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
@@ -71,7 +71,7 @@ ms.locfileid: "36233213"
 
 - Эта команда удаляет все параметры конфигурации канала, примененные к области обслуживания.
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
@@ -79,7 +79,7 @@ ms.locfileid: "36233213"
 
 - Следующая команда удаляет все параметры конфигурации канала, в которых включен обход мультимедиа.
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 

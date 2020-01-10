@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: В этой статье рассказывается о том, как настроить существующую установку Skype для бизнеса Server для использования службы Mobility Service, благодаря чему ваши мобильные устройства смогут пользоваться мобильными функциями Skype для бизнеса Server.
-ms.openlocfilehash: 910e23e8aec18d36c3a7e4bda9e97828fb498802
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3e39c354fd77d7ac36e3a4c36ed7e36e1d8ffbbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234578"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002869"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Развертывание и Настройка мобильных устройств для Skype для бизнеса Server  
  
@@ -158,7 +158,7 @@ ms.locfileid: "36234578"
     
 3. Важно знать, какие сертификаты были назначены до того, как вы попытаетесь добавить или обновить сертификат. В командной строке введите следующую команду:
     
-   ```
+   ```powershell
    Get-CsCertificate
    ```
 
@@ -172,13 +172,13 @@ ms.locfileid: "36234578"
     
    - Для отсутствующей записи альтернативного имени субъекта для службы автообнаружения (замените параметр -Ca путем к вашему центру сертификации):
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - Теперь, если у вас есть несколько доменов SIP, нельзя использовать параметр Аллсипдомаин, как в приведенном выше примере. Вместо этого необходимо использовать параметр имя_домена. А если вы используете параметр DomainName, вам нужно определить полное доменное имя для записей линкдисковеринтернал и lyncdiscover. Например, вы можете заменить параметр-CA на собственный путь к центру сертификации.
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
@@ -186,17 +186,17 @@ ms.locfileid: "36234578"
     
    - Для отсутствующей записи альтернативного имени субъекта для службы автообнаружения (замените параметр -Ca путем к вашему центру сертификации):
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - Теперь, если у вас есть несколько доменов SIP, нельзя использовать параметр Аллсипдомаин, как в приведенном выше примере. Вместо этого необходимо использовать параметр имя_домена. А если вы используете параметр DomainName, вам нужно определить полное доменное имя для записей линкдисковеринтернал и lyncdiscover. В качестве примера можно привести (заменив параметр-CA на собственный путь к центру сертификации):
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
    ```
 
@@ -208,13 +208,13 @@ ms.locfileid: "36234578"
     
   - Если вы используете для всех компонентов один и тот же сертификат (одинаковые отпечатки), выполните следующую команду:
     
-  ```
+  ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
   ```
 
   - Если вы используете несколько сертификатов с разными отпечатками, выполните следующую команду:
     
-  ```
+  ```powershell
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesInternal -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
@@ -260,7 +260,7 @@ ms.locfileid: "36234578"
 
 Представленные ниже шаги не обязательно выполнять в точности. Например, в предыдущих версиях продукта требовалась настройка Threat Management Gateway (TMG), поэтому если этот компонент не используется, вы можете пропустить соответствующие действия.
   
-TMG больше не предлагается корпорацией Майкрософт в качестве продукта, и если вы по-прежнему хотите настроить его, вы можете ознакомиться с пошаговыми [инструкциями Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Но приведенные ниже сведения предназначены для более широкого использования, даже если вы не можете предоставить определенные шаги в пошаговом руководстве для каждого обратного прокси-сервера.
+TMG больше не предлагается корпорацией Майкрософт в качестве продукта, и если вы по-прежнему хотите настроить его, вы можете ознакомиться с [пошаговыми инструкциями Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Но приведенные ниже сведения предназначены для более широкого использования, даже если вы не можете предоставить определенные шаги в пошаговом руководстве для каждого обратного прокси-сервера.
   
 Необходимо учитывать два основных момента:
   
@@ -287,7 +287,7 @@ TMG больше не предлагается корпорацией Майкр
     
 5. You may have a new certificate that has the Autodiscover SAN entry in it. , Которые должны быть установлены и настроены для использования в соответствии с параметрами обратного прокси-сервера. Be sure to save everything when the configuration is completed.
     
-6. Если у вашего обратного прокси **** -сервера есть тестовая функциональность, то для обеспечения правильного функционирования убедитесь, что она используется.
+6. Если у вашего обратного прокси-сервера есть **Тестовая** функциональность, то для обеспечения правильного функционирования убедитесь, что она используется.
     
 7. Теперь вам может потребоваться повторить эти действия, если в вашей среде есть режиссер или режиссер (это означает, что у вас есть второе правило).
     
@@ -295,21 +295,21 @@ TMG больше не предлагается корпорацией Майкр
 
 1. Откройте интерфейс обратного прокси-сервера.
     
-2. Вам нужно найти место в интерфейсе, где вы создали правила веб-публикации, и выбрать команду **** создать или **создать** (возможно, она находится в меню или на вкладке) в зависимости от настройки обратной прокси-сервера. You are looking for the option to create a new web publishing rule.
+2. Вам нужно найти место в интерфейсе, где вы создали правила веб-публикации, и выбрать команду Создать или **создать** (возможно, она находится в **меню или на** вкладке) в зависимости от настройки обратной прокси-сервера. You are looking for the option to create a new web publishing rule.
     
 3. Как правило, требуется ввести следующие данные:
     
    - **Имя** — имя правила.
     
-   - **Действие правила**: в этом случае это правило **разрешения** , вы разрешаете прослушать обратный прокси-сервер.
+   - **Действие правила**: в этом случае это правило разрешения, вы **разрешаете** прослушать обратный прокси-сервер.
     
    - Правило **публикации** или выбираемый параметр (**отдельный веб-сайт или подсистема балансировки нагрузки**).
     
    - Для внешнего доступа необходимо выбрать **SSL**.
     
-   - Вам потребуется опубликовать путь для **внутренней публикации**и ввести полное доменное имя для внешних веб-служб в подсистеме балансировки нагрузки пула (или полное доменное имя для подсистемы балансировки нагрузки пула, если таковой имеется). в качестве примера вы можете sfb_ pool01. contoso. local.
+   - Вам потребуется опубликовать путь для **внутренней публикации**и ввести полное доменное имя для внешних веб-служб в подсистеме балансировки нагрузки пула (или полное доменное имя для подсистемы балансировки нагрузки пула, если таковой имеется), например sfb_pool01. contoso. local.
     
-   - Введите ** / *** в качестве пути, который нужно опубликовать, но вы также должны переадресовать **исходный заголовок узла**.
+   - Введите ** / *** в качестве пути, который нужно опубликовать, но вы также должны **переадресовать исходный заголовок узла**.
     
    - Кроме того, будет представлен параметр для ввода сведений о **публикации или внешнем имени**:
     
@@ -341,21 +341,21 @@ TMG больше не предлагается корпорацией Майкр
 
 1. Откройте интерфейс обратного прокси-сервера.
     
-2. Вам нужно найти место в интерфейсе, где вы создали правила веб-публикации, и выбрать команду **** создать или **создать** (возможно, она находится в меню или на вкладке) в зависимости от настройки обратной прокси-сервера. You are looking for the option to create a new web publishing rule.
+2. Вам нужно найти место в интерфейсе, где вы создали правила веб-публикации, и выбрать команду Создать или **создать** (возможно, она находится в **меню или на** вкладке) в зависимости от настройки обратной прокси-сервера. You are looking for the option to create a new web publishing rule.
     
 3. Как правило, требуется ввести следующие данные:
     
    - **Имя** — имя правила.
     
-   - **Действие правила**: в этом случае это правило **разрешения** , вы разрешаете прослушать обратный прокси-сервер.
+   - **Действие правила**: в этом случае это правило разрешения, вы **разрешаете** прослушать обратный прокси-сервер.
     
    - Правило **публикации** или выбираемый параметр (**отдельный веб-сайт или подсистема балансировки нагрузки**).
     
    - Это должно быть **незащищенное подключение к опубликованным веб-серверу или ферме**.
     
-   - Вам потребуется опубликовать путь для **внутренней публикации**и ввести полное доменное имя для **IP-адреса** подсистемы балансировки нагрузки пула, например sfb_pool01. contoso. local.
+   - Необходимо опубликовать путь для **внутренней публикации**и ввести полное доменное имя для **IP-адреса** подсистемы балансировки нагрузки пула, например sfb_pool01. contoso. local.
     
-   - Введите ** / *** в качестве пути, который нужно опубликовать, но вы также должны переадресовать **исходный заголовок узла**.
+   - Введите ** / *** в качестве пути, который нужно опубликовать, но вы также должны **переадресовать исходный заголовок узла**.
     
    - Кроме того, будет представлен параметр для ввода сведений о **публикации или внешнем имени**:
     
@@ -392,13 +392,13 @@ TMG больше не предлагается корпорацией Майкр
     
 2. Выполните указанные ниже действия, чтобы получить значение атрибута **проксифкдн** для среды Skype для бизнеса Server.
     
-   ```
+   ```powershell
    Get-CsHostingProvider
    ```
 
 3. Затем, не закрывая окно оболочки, выполните следующий командлет:
     
-   ```
+   ```powershell
    Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
    ```
 
@@ -416,19 +416,19 @@ TMG больше не предлагается корпорацией Майкр
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Тестирование конференц-связи для мобильных клиентов Skype для бизнеса и Lync 2013
 
-1. Войдите в систему под учетной записью участника роли **ксадминистратор** на любом компьютере, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему под учетной записью участника роли **ксадминистратор** на любом компьютере, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **командную консоль управления Skype для бизнеса Server** (вы можете ввести имя в поле Поиск или перейдите в раздел **все программы** и выберите его).
     
 3. В командной строке введите следующую команду:
     
-   ```
+   ```powershell
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
    Кроме того, можно задать учетные данные в скрипте и передать их в тестовый командлет (см. пример ниже).
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $testuser1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -441,19 +441,19 @@ TMG больше не предлагается корпорацией Майкр
 > [!NOTE]
 > Поддержка МККС (служба Mobility Service) для устаревших мобильных клиентов больше не доступна в Skype для бизнеса Server 2019. На всех текущих мобильных клиентах Skype для бизнеса уже используется веб-API единой системы обмена сообщениями (УКВА) для поддержки мгновенных сообщений, присутствия и контактов. Пользователи с устаревшими клиентами, использующими МККС, должны обновиться до текущего клиента.
 
-1. Войдите в систему под учетной записью участника роли **ксадминистратор** на любом компьютере, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему под учетной записью участника роли **ксадминистратор** на любом компьютере, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **командную консоль управления Skype для бизнеса Server** (вы можете ввести имя в поле Поиск или перейдите в раздел **все программы** и выберите его).
     
 3. В командной строке введите следующую команду:
     
-   ```
+   ```powershell
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
    Кроме того, можно задать учетные данные в скрипте и передать их в тестовый командлет (см. пример ниже).
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -478,19 +478,19 @@ Push notifications, in the form of badges, icons, or alerts, can be sent to a mo
     
 ### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Настройка пограничного сервера Skype для бизнеса для использования push-уведомлений
 
-1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **консоль управления Skype для бизнеса Server**.
     
 3. Добавьте поставщика услуг размещения Skype для бизнеса Server Online.
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
    ```
 
    Пример:
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
    ```
 
@@ -499,55 +499,55 @@ Push notifications, in the form of badges, icons, or alerts, can be sent to a mo
   
 4. Настройте федерацию поставщика услуг хостинга между вашей организацией и службой push-уведомлений в Skype для бизнеса Online. В командной строке введите следующую команду:
     
-   ```
+   ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
    ```
 
 ### <a name="enable-push-notifications"></a>Включение push-уведомлений
 
-1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **консоль управления Skype для бизнеса Server**.
     
 3. Включите push-уведомления:
     
-   ```
+   ```powershell
    Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
    ```
 
 4. Включите федерацию:
      
-   ```
+   ```powershell
    Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
    ```
 
 ### <a name="test-federation-and-push-notifications"></a>Тестирование федерации и push-уведомлений
 
-1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **консоль управления Skype для бизнеса Server**.
     
 3. Проверьте конфигурацию федерации:
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
    ```
 
     Пример:
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
    ```
 
 4. Протестируйте push-уведомления:
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
    ```
 
     Пример:
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
    ```
 
@@ -577,13 +577,13 @@ Push notifications, in the form of badges, icons, or alerts, can be sent to a mo
   
 ### <a name="modify-global-mobility-policy"></a>Изменение глобальной политики мобильности
 
-1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **консоль управления Skype для бизнеса Server**.
     
 3. Отключите доступ к мобильным каналам связи и работайте с ними глобально, введя:
     
-   ```
+   ```powershell
    Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
    ```
 
@@ -594,13 +594,13 @@ Push notifications, in the form of badges, icons, or alerts, can be sent to a mo
     
 ### <a name="modify-mobility-policy-by-site"></a>Изменение политики мобильной связи по сайту
 
-1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **консоль управления Skype для бизнеса Server**.
     
 3. В можете создать политику на уровне сайта, отключить VoIP и видеосвязь и включить параметр "Запрашивать Wi-Fi для IP-аудио/видео" для отдельных сайтов. Для этого введите:
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
@@ -608,20 +608,20 @@ Push notifications, in the form of badges, icons, or alerts, can be sent to a mo
     
 ### <a name="modify-mobility-policy-by-user"></a>Изменение политики мобильности по пользователям
 
-1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены Командная консоль управления и **Окскоре** **Skype для бизнеса Server** .
+1. Войдите в систему с помощью учетной записи, которая входит в роль **ксадминистратор** , на компьютер, на котором установлены **Командная консоль управления и Окскоре Skype для бизнеса Server** . ****
     
 2. Запустите **консоль управления Skype для бизнеса Server**.
     
 3. Создавайте политики мобильности на уровне пользователей и отключайте мобильность и звоните по рабочему телефону. Type:
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
    ```
 
     Дополнительный пример (используется образец данных):
     
-   ```
+   ```powershell
    New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity MobileUser1@contoso.com -PolicyName tag:disableOutsideVoice
    ```

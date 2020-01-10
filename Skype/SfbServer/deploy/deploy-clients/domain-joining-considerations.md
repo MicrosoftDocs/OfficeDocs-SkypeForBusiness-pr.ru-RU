@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: В этом разделе описывается присоединение к домену ПК с системой комнат Skype.
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774667"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003519"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Рекомендации по присоединению к домену для системы комнат Skype
  
@@ -53,7 +53,7 @@ ms.locfileid: "36774667"
     
 Если вы планируете присоединиться к домену с системными машинами Skype, не присоединяясь к системным машинам Skype на непреднамеренном подразделении, не подключаясь к ним, убедитесь, что вы присоединитесь к нужному подразделению. Вы можете использовать следующий командлет с компьютера, на котором есть система для помещения Skype, чтобы присоединиться в подходящую подразделении и не получал ни одной политики, которая может блокировать функцию ЛРС. Contact your system administrator or OEM partner to run these cmdlet:
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password

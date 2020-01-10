@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Сводка: сведения о том, как разрешить пользователям совершать и принимать звонки с помощью корпоративной голосовой связи в Skype для бизнеса Server.'
-ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 441b7a5705268dedea1feb87e01a48d0ef68b32c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240333"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002529"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Включение пользователей корпоративной голосовой связи в Skype для бизнеса Server
  
@@ -69,13 +69,13 @@ ms.locfileid: "36240333"
     
 3. Чтобы назначить существующую политику голосовой связи пользователю, выполните следующую команду в окне командной строки:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Например:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
@@ -94,13 +94,13 @@ ms.locfileid: "36240333"
     
 3. Чтобы назначить абонентскую группу для отдельных пользователей, выполните следующую команду в окне командной строки:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Например:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 

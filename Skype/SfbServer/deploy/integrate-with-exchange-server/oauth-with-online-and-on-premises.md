@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Настройка проверки подлинности OAuth между Exchange на локальном и Skype для бизнеса Online включает возможности интеграции Skype для бизнеса и Exchange, описанные в разделе Поддержка функций.
-ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 35dc8777ddf5c7102e99d726f916f9b8f8bb4aae
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979782"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002899"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Настройка интеграции и OAuth между Skype для бизнеса Online и Exchange Server 
 
@@ -49,23 +49,23 @@ ms.locfileid: "37979782"
 
 Укажите проверенный домен для организации Exchange. Этот домен должен быть тем же доменом, который используется в качестве основного домена SMTP для локальных учетных записей Exchange. Этот домен называется \<проверяемым доменом\> в описанной ниже процедуре. Кроме того, \<домаинконтроллерфкдн\> должно быть полным доменным именем контроллера домена.
 
-``` Powershell
+```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 Эта команда скрывает нового пользователя почты из списка адресов.
 
-``` Powershell
+```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
 Следующие две команды назначают новой учетной записи роль управления UserApplication и ArchiveApplication.
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
@@ -73,7 +73,7 @@ New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -Doma
 
 Создайте новое партнерское приложение и начните использовать созданную учетную запись. Выполните следующую команду в PowerShell Exchange в локальной организации Exchange.
 
-``` Powershell
+```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
@@ -83,7 +83,7 @@ New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1
 
 Сохраните следующий тест в файл сценария PowerShell, который можно назвать ExportAuthCert.ps1.
 
-``` Powershell
+```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
 if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
 {
@@ -107,7 +107,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 2. Сохраните приведенный ниже текст в файле сценария PowerShell (например,) `UploadAuthCert.ps1`.
 
-   ``` Powershell
+   ```powershell
    Connect-MsolService;
    Import-Module msonlineextended;
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -128,7 +128,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Шаг 6: Проверка того, что сертификат передан участникам службы Skype для бизнеса
 1. В PowerShell, который был открыт и прошел проверку подлинности в Azure Active Directory, выполните указанные ниже действия.
-```
+```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. При появлении соответствующего запроса нажмите клавишу ВВОД Ретурнкэйвалуес
@@ -144,9 +144,9 @@ Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 3. Убедитесь в том, что архивированные сообщения в чате хранятся в локальном почтовом ящике пользователя в папке очистки с помощью [евседитор](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
-Кроме того, Взгляните на трафик. Трафик в подтверждении OAuth является весьма отличительным (и не рассматривается как обычная проверка подлинности), особенно вокруг сфер, где вы начнете просматривать трафик поставщика, выглядящий следующим образом: 00000004-0000-0ff1-ce00-000000000000 @ (иногда с a/Before знак "@") в токенах, которые передаются. Вы не увидите имя пользователя или пароль, который является точкой OAuth. Но вы увидите, что в этом случае это "4" — Skype для бизнеса — и сфера подписки.
+Кроме того, Взгляните на трафик. Трафик в подтверждении OAuth является весьма отличительным (и не рассматривается как обычная проверка подлинности), особенно вокруг сфер, где вы начнете просматривать трафик поставщика, выглядящий следующим образом: 00000004-0000-0ff1-ce00-000000000000 @ (иногда — перед знаком @ и до него) в передаваемых маркерах. Вы не увидите имя пользователя или пароль, который является точкой OAuth. Но вы увидите, что в этом случае это "4" — Skype для бизнеса — и сфера подписки.
 
-Если вы хотите, чтобы вы успешно использовали OAuth, убедитесь, что вы знаете, что нужно ожидать и что нужно знать, как выглядит трафик. Итак, вот [что нужно ожидать](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34): Вот стандартный [пример трафика OAuth в приложении Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (это может оказаться полезным для чтения, но не использует маркеры обновления), и есть расширения Fiddler, позволяющие найти OAuth JWT (JSON). Веб-токен).
+Если вы хотите, чтобы вы успешно использовали OAuth, убедитесь, что вы знаете, что нужно ожидать и что нужно знать, как выглядит трафик. Итак, вот [что нужно ожидать](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)— вот Стандартный [пример трафика OAuth в приложении Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (это может оказаться полезным для чтения, но не использует маркеры обновления), и есть расширения Fiddler, позволяющие найти OAuth JWT (веб-маркер JSON).
 
 Ниже приведен [Пример настройки одного из них](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), но вы можете использовать любой сетевой инструмент трассировки, который вы хотите предпринять.
 
