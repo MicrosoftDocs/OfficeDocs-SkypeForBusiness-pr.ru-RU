@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
+ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992596"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022294"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -193,9 +193,9 @@ Enabled               : True
 1. Подключитесь к удаленной оболочке PowerShell.
 2. Выдайте команду: 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Настройка номера телефона и включение корпоративной голосовой и голосовой почты 
 
@@ -206,9 +206,9 @@ Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
 1. Подключитесь к удаленному сеансу PowerShell. 
 2. Введите команду: 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 Например, чтобы добавить номер телефона пользователя "Спенцер Low", введите следующее: 
 
@@ -556,7 +556,7 @@ No Restrictions
 
 Политика применяется на уровне SBC. Вы можете назначить для SBC несколько правил перевода, которые применяются в том порядке, в котором они отображаются при их перечислении в PowerShell. Вы также можете изменить порядок правил в политике.
 
-Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты New-Кстеамстранслатионруле, Set-Кстеамстранслатионруле, Get-Кстеамстранслатионруле и Remove-Кстеамстранслатионруле.
+Для создания, изменения, просмотра и удаления правил управления цифрами используйте командлеты [New-кстеамстранслатионруле](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [Set-кстеамстранслатионруле](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-Кстеамстранслатионруле](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)и [Remove-кстеамстранслатионруле](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
 
 Чтобы назначить, настроить и перечислить правила управления числом для SBCs, используйте командлеты [New-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) и [Set-ксонлинепстнгатевай](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) вместе ```InboundTeamsNumberTranslationRules```с ```InboundPSTNNumberTranslationRules```параметрами ```OutboundTeamsNumberTranslationRules```, ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRulesList``` ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```,,,, и ```OutboundPSTNNumberTranslationRulesList``` .
 
