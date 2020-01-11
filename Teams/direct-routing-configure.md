@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022294"
+ms.locfileid: "41023423"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -176,15 +176,7 @@ Enabled               : True
 
 Если развертывание Skype для бизнеса Online осуществляется совместно со Skype для бизнеса 2015 или Lync 2010/2013 локально, единственным поддерживаемым вариантом будет создание пользователя в локальной службе каталогов Active Directory и синхронизация пользователя с облаком (вариант 1). 
 
-Обязательные лицензии: 
-
-- Office 365 Корпоративная E3 (в том числе SfB Plan2, Exchange Plan2 и Teams) + телефонная система
-- Office 365 Корпоративная + + + (в том числе SfB Plan2, Exchange Plan2, Teams и Phone System) 
-
-Необязательные лицензии: 
-
-- План звонков 
-- Аудиоконференции 
+Сведения о требованиях к лицензиям можно найти в разделе [Лицензирование и другие требования](direct-routing-plan.md#licensing-and-other-requirements) в [прямом маршруте планирование](direct-routing-plan.md).
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Убедитесь в том, что пользователь размещен в Skype для бизнеса Online 
 
