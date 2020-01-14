@@ -10,20 +10,22 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad30b9687c9566adb7936612e71ae9f41e69095
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301cd234e2218fc806423a9ffe9beb49994402f2
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849562"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104498"
 ---
+# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Системные требования для серверов, на которых работает Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Системные требования для серверов, на которых работает Lync Server 2013
+
 
 </div>
 
@@ -73,11 +75,13 @@ _**Тема последнего изменения:** 2014-07-24_
 
 Установка программного обеспечения операционной системы на стандартном сервере выпуска Standard Edition или корпоративном выпуске. Примените все обновления, чтобы обновить операционную систему до последнего обновления и требуемый уровень обновления в соответствии со стандартами Организации. Дополнительные сведения о требованиях, предъявляемых к операционной системе, можно найти в документации поддержка [серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) .
 
+> [!NOTE] Обновление операционной системы на месте для Lync Server 2013 не поддерживается.  Необходимо развернуть отдельный пул и перенести пользователей в новый пул с другой операционной системой.
+
 <div>
 
 
 > [!NOTE]  
-> Для Lync Server 2013 для работы с Windows Server 2012 R2 может потребоваться изменить значение раздела реестра в Windows Server. Это изменение может потребоваться для правильной работы сертификатов и для того, чтобы клиенты могли регистрироваться с бесперебойно работающими управляющими филиалами. Дополнительные сведения можно найти в <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>разделе.
+> Для Lync Server 2013 для работы с Windows Server 2012 R2 может потребоваться изменить значение раздела реестра в Windows Server. Это изменение может потребоваться для правильной работы сертификатов и для того, чтобы клиенты могли регистрироваться с бесперебойно работающими управляющими филиалами. Дополнительные сведения см. в статье <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>.
 
 
 
