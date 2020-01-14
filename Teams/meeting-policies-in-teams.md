@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Сведения о том, как управлять параметрами политики собраний в Teams.
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744873"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111713"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Управление политиками собраний в Teams
 
@@ -262,6 +262,9 @@ ms.locfileid: "40744873"
 |бабек    | Location1MeetingPolicy        | False   |
 
 Даниела может предоставлять доступ к рабочему столу или окну другим участникам собрания, упорядоченного по Бабек, в то время как Бабек не может передать управление другим участникам.
+
+> [!NOTE]
+> Чтобы предоставить общий доступ к содержимому и взять за него управление им, обе стороны должны использовать Настольный клиент Teams. Элемент управления не поддерживается, если обе стороны работают с Teams в браузере. Это обусловлено техническим ограничением, которое мы планируем решить. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Разрешение внешнему участнику предоставлять или запрашивать управление
 

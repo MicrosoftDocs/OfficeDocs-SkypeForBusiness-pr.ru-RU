@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Корпорация Майкрософт сотрудничает с рядом поставщиков SBC и сертифицирует их контроллеры для работы с прямой маршрутизацией.
-ms.openlocfilehash: 6953828ce3b97598a0173bc344bf7d43d7fe8097
-ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
+ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995109"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111753"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Список пограничных контроллеров сеансов, сертифицированных для прямой маршрутизации
 
@@ -50,11 +50,11 @@ ms.locfileid: "40995109"
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20 а. 250  |    |    |    
 |                                                                                                                     | Одномедианый SBC 9000  |     &#10004;     |   &#10004;     |  7.20 а. 250   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 а. 250 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |  Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  | Нет   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |  Интрадо ЕРС <br>Интрадо ЕГВ    |Нет|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  |  Нет  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |   Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  | Нет   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Интрадо ЕРС <br>Интрадо ЕГВ    |Нет|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Интрадо ЕРС <br>Интрадо ЕГВ  |  Нет  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Интрадо ЕРС <br>Интрадо ЕГВ |   Нет |    
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      V8.0.1     |  Интрадо ЕРС <br>Интрадо ЕГВ   |  Pending  |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     V8.0.1     |  Интрадо ЕРС <br>Интрадо ЕГВ  |  Pending  |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      V8.0.1    |  Интрадо ЕРС <br>Интрадо ЕГВ   |  Pending  |    

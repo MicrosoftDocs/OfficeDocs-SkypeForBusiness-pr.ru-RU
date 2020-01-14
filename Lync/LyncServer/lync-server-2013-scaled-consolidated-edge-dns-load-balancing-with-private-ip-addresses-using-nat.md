@@ -10,18 +10,18 @@ ms:contentKeyID: 48185369
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ccae081e80b61be767dfbdc82664ff90d4dfabd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0650e156dca03ac5024dfe4f3045a0d8f155643
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822267"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Масштабируемая консолидированная пограничная топология, балансировка нагрузки на DNS с закрытыми IP-адресами и трансляцией сетевых адресов в Lync Server 2013
 
@@ -37,7 +37,7 @@ _**Тема последнего изменения:** 2012-09-08_
 
 В топологии пула пограничного сервера два или более пограничных сервера развертываются в качестве пула балансировки нагрузки в демилитаризованной зоне центра обработки данных. Балансировка нагрузки службы доменных имен (DNS) используется для трафика как в внешних, так и в внутренних интерфейсах Edge.
 
-Если в вашей организации требуется поддержка более 15 000 доступа к клиентским подключениям службы EDGE, 1 000 Active Server Web конференций Service Connections или 500 одновременные сеансы и/или высокий уровень доступности пограничного сервера. Эта топология обеспечивает преимущества масштабируемости и поддержки перехода на другой ресурс.
+Если в вашей организации требуется поддержка более 15 000 доступа к клиентским подключениям к службе EDGE, 1 000 Active Server Web virtualizations Service Connections или 500 одновременные сеансы, а также высокий уровень доступности пограничного сервера, эта топология обеспечивает преимущества масштабируемости и поддержки перехода на другой ресурс.
 
 На рисунке не показаны режиссеры, необязательная роль сервера, развернутая во внутренней сети между пограничными серверами и пулами и сервером переднего плана. Сведения о топологии для режиссеров можно найти [в разделе компоненты, необходимые для режиссера в Lync Server 2013](lync-server-2013-components-required-for-the-director.md). Рисунок представляет собой один обратный прокси-сервер.
 
@@ -67,7 +67,7 @@ _**Тема последнего изменения:** 2012-09-08_
 
 </div>
 
-![899546d4-2eef-44d2-8317-51c5f699cd2a] (images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "899546d4-2eef-44d2-8317-51c5f699cd2a")
+![899546d4-2eef-44d2-8317-51c5f699cd2a](images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "899546d4-2eef-44d2-8317-51c5f699cd2a")
 
 <div>
 
@@ -83,7 +83,7 @@ _**Тема последнего изменения:** 2012-09-08_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Сводка по сертификатам — масштабируемая консолидированная пограничная топология, балансировка нагрузки на DNS с закрытыми IP-адресами и трансляцией сетевых адресов в Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Сводка по сертификатам — масштабируемая консолидированная пограничная топология, балансировка нагрузки на DNS с закрытыми IP-адресами и трансляцией сетевых адресов в Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)
 
   - [Сводка по портам — масштабируемая консолидированная пограничная топология, балансировка нагрузки на DNS с закрытыми IP-адресами и трансляцией сетевых адресов в Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 

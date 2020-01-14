@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: e2efddf5248c045a7f3f2daf0ef250027cd15127
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970967"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111353"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Аппаратные требования для приложения Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "40970967"
 |Жесткий диск    | 3,0 ГБ свободного места на диске        |
 |Display    |   разрешение экрана 1024 x 768 |
 |Графическое оборудование |  Не менее 128 МБАЙТ графической памяти
-|Операционная система  |    Windows 10, Windows 8,1 или Windows 7 с пакетом обновления 1 (SP1) в 32-и 64-разрядных версиях. Для оптимальной работы используйте самую последнюю версию любой операционной системы.|
+|Операционная система  |    Windows Server 2012 R2 +, Windows 10, Windows 8,1 или Windows 7 с пакетом обновления 1 в 32 и 64-bit. Для оптимальной работы используйте самую последнюю версию любой операционной системы.|
 |Версия .NET    |  Требуется .NET 4,5 CLR или более поздней версии       |
 |Видеосвязь    |  Видеокамера USB 2,0       |
 |Устройства    |   Стандартная камера для портативного компьютера, микрофон и динамики    | 

@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111583"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Назначение политики архивации по пользователям в Lync Server 2013
 
@@ -28,7 +28,7 @@ ms.locfileid: "34841758"
 
 После создания хотя бы одной политики архивации для пользователей с помощью описанных в этой статье процедур вы можете назначить политику, которая будет заархивирована на сервере с использованием внутренней связи, внешней связи или того или иного пользователя.
 
-Подробнее о создании политик архивации для каждого пользователя можно узнать [в разделе Создание политики архивации в Lync Server 2013, чтобы включить или отключить архивирование внутренних или внешних сообщений для определенных сайтов или пользователей](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+Подробнее о создании политик архивации для каждого пользователя можно узнать [в разделе Создание политики архивации в Lync Server 2013, чтобы включить или отключить архивирование внутренних или внешних сообщений для определенных сайтов или пользователей](lync-server-2013-create-archiving-policy-sites-users.md).
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>Назначение политики архивации на пользователя
 
@@ -90,7 +90,7 @@ ms.locfileid: "34841758"
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Назначение политики архивации для пользователей с помощью командлетов Windows PowerShell
 
-Вы можете назначать политики архивации для пользователей с помощью Windows PowerShell и командлета **Grant-ксарчивингполици** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Вы можете назначать политики архивации для пользователей с помощью Windows PowerShell и командлета **Grant-ксарчивингполици** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>Назначение политики архивации отдельных пользователей для одного пользователя
 
@@ -100,7 +100,7 @@ ms.locfileid: "34841758"
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>Назначение политики архивации на пользователя для нескольких пользователей
 
-  - Эта команда назначает политику архивации пользователей Редмондарчивингполици всем пользователям, которые имеют учетные записи, размещенные на atl-cs-001.litwareinc.com пула регистраторов. Дополнительные сведения о параметре фильтрации, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
+  - Эта команда назначает политику архивации пользователей Редмондарчивингполици всем пользователям, которые имеют учетные записи, размещенные на atl-cs-001.litwareinc.com пула регистраторов. Дополнительные сведения о параметре фильтрации, используемом в этой команде, можно найти в документации по командлету [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ ms.locfileid: "34841758"
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Дополнительные сведения можно найти в разделе справки о командлете [Grant-ксарчивингполици](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .
+Дополнительные сведения можно найти в разделе справки о командлете [Grant-ксарчивингполици](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) .
 
 ## <a name="see-also"></a>См. также
 
 
-[Создание политики архивации в Lync Server 2013 для включения и отключения архивации внутренних или внешних сообщений определенных сайтов и пользователей](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Создание политики архивации в Lync Server 2013 для включения и отключения архивации внутренних или внешних сообщений определенных сайтов и пользователей](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Назначение политик для пользователей в Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)

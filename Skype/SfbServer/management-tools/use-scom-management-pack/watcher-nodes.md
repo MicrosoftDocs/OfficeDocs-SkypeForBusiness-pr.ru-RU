@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Сводка: Установка и настройка узлов-наблюдателей для виртуальных транзакций в Skype для бизнеса Server.'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992446"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104488"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Установка и настройка узлов-наблюдателей
  
@@ -192,7 +192,7 @@ New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqd
 Enable-CsTopology
 ```
 
-После запуска команды Enable-Кстопологи перезагрузите компьютер.
+Для учетной записи компьютера узла-наблюдателя требуется возможность запрашивать CMS для некоторых искусственных транзакций. Чтобы разрешить эту возможность, добавьте в группу безопасности Рткуниверсалреадонлядминс учетную запись компьютера, которая является узлом-наблюдателем. После того как Репликация AD будет выполнена, перезагрузите компьютер.
   
 Чтобы убедиться в том, что новое надежное приложение создано, введите в командной консоли Skype для Business Server следующую команду:
   
