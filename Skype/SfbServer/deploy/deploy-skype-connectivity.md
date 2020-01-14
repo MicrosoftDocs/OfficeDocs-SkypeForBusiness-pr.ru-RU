@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: Сводка. Сведения о том, как подключить Skype для бизнеса Server к Skype для потребителей (функции подключения Skype).
-ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003079"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464604"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Развертывание функции подключения Skype в Skype для бизнеса Server
 
@@ -66,7 +66,8 @@ ms.locfileid: "41003079"
 > Служба Skype Graph будет передавать поисковые запросы от любого локального пользователя или пользователя Office 365, если частота запроса превышает 15 запросов / сек. 
   
 > [!NOTE]
-> Для локальных пользователей крупных предприятий домены должны быть внесены в белый список в службе поиска Skype для повышения частоты передачи запросов. 
+> Для локальных пользователей крупных предприятий домены должны быть внесены в утверждённый список в службе поиска Skype для повышения частоты передачи запросов.
+ 
   
 > [!NOTE]
 > Skype для бизнеса Server будет регулировать входящие запросы, если в очереди собралось слишком много ожидающих запросов. 
@@ -85,7 +86,7 @@ ms.locfileid: "41003079"
 
 - [Рекомендации при невозможности обмена мгновенными сообщениями с внешними пользователями Skype для бизнеса или Skype](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [Добавление контакта в Skype для бизнеса](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+- [Добавление контакта в Skype для бизнеса](https://support.office.com/ru-RU/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
   
 - [Администраторы: настройка параметров Skype для бизнеса для отдельных пользователей](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
     
@@ -187,14 +188,14 @@ ms.locfileid: "41003079"
     
 2. Выполните две следующие команды:
     
-   ```powershell
+   ```
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > Если в среде еще не установлен поставщик службы PIC и выполняется создание нового поставщика службы PIC, выполнять командлет Remove-CsPublicProvider не требуется. 
   
-   ```powershell
+   ```
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
