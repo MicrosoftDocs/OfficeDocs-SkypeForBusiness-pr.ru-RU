@@ -17,17 +17,19 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988804"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165619"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Обзор обеспечения безопасности и соответствия в Microsoft Teams
 ======================================================
 
 Продукт Microsoft Teams основан на гипермасштабируемом облаке корпоративного уровня Office 365, которое обеспечивает нужные клиентам расширенные возможности по обеспечению безопасности и соответствия.
+
+Для краткого введения (12:42 мин) на группы безопасности и соответствия требованиям в Teams Просмотрите это видео: [Microsoft Teams для ИТ: безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4).
 
 Teams — это уровень D-совместимый. Сюда входят следующие стандарты: ISO 27001, ISO 27018, SSAE16 SOC 1 и SOC 2, HIPAA и типовые нормы ЕС (EUMC). В структуре соответствия Майкрософт приложения и службы Office 365 делятся на четыре категории. В каждой из них подразумеваются определенные обязательства по обеспечению соответствию для службы Office 365 или другой службы Майкрософт, входящей в такую категорию.
 
