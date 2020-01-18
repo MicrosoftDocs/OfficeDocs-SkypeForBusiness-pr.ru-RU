@@ -244,7 +244,6 @@
 ### [Общие звонки и ответ на групповые звонки](call-sharing-and-group-call-pickup.md)
 ### [Политика звонков](teams-calling-policy.md)
 ### [Распределенная линия](shared-line-appearance.md)
-### [Общие сведения о способах блокирования пользователями звонков по ТСОП в клиентах Teams](block-pstn-calls-on-Teams-clients.md)
 
 
 ## Планы звонков

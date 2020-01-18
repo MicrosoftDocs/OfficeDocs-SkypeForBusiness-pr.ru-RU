@@ -22,7 +22,7 @@
 ### [Камеры содержимого](content-camera.md)
 
 ## Управление
-### [Обзор управления](skype-room-systems-v2.md)
+### [Обзор управления](skype-room-systems-v3.md)
 ### [Обслуживание и эксплуатация](room-systems-v2-operations.md)
 ### [Известные проблемы](known-issues.md)
 ### [Устройства с Azure Monitor](azure-monitor-manage.md)
