@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по внедрению голосовой почты в облаке для пользователей, размещенных в Skype для бизнеса Server.
-ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963007"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230359"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Настройка облачной службы голосовой почты для локальных пользователей
 
-## <a name="overview"></a>Общие сведения 
+## <a name="overview"></a>Обзор 
 В этой статье описано, как настроить облачную службу голосовой почты Майкрософт для локальных пользователей Skype для бизнеса.  
 
 В этой статье предполагается, что вы уже развернули Skype для бизнеса Server в поддерживаемой топологии и удовлетворены предварительные требования для настройки гибридного подключения.
@@ -36,7 +36,7 @@ ms.locfileid: "40963007"
 
 2.  Убедитесь, что вы настроили гибридное подключение, как описано в статье [Plan гибридное подключение](plan-hybrid-connectivity.md) и [Настройка гибридного](configure-hybrid-connectivity.md)подключения. 
 
-3.  [Настройте облачную голосовую почту в качестве поставщика услуг хостинга на пограничном сервере](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) , как описано в этой статье.
+3.  [Настройте облачную голосовую почту в качестве поставщика услуг хостинга на пограничном сервере](#configure-cloud-voicemail-as-the-hosting-provider) , как описано в этой статье.
 
 4.  [Настройте размещенную политику голосовой почты](#configure-a-hosted-voicemail-policy) , как описано в этой статье.
 
@@ -45,7 +45,7 @@ ms.locfileid: "40963007"
 6.  [Включите пользователя для облачной голосовой почты](#enable-a-user-for-cloud-voicemail) , как описано в этой статье.
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server"></a>Настройка облачной голосовой почты в качестве поставщика услуг хостинга на пограничном сервере 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Настройка облачной голосовой почты в качестве поставщика услуг хостинга 
 
 Вы настраиваете облачную голосовую почту как поставщик услуг хостинга на сервере переднего плана с помощью командлета New – CsHostingProvider со следующими параметрами:
 

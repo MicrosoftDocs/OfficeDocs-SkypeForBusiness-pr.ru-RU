@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019973"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230319"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Взаимодействие Exchange и Microsoft Teams
 
@@ -43,8 +43,8 @@ ms.locfileid: "40019973"
 
 | Место для размещения почтового ящика пользователя: | Обнаружение электронных данных| Юридическое&nbsp;хранение | Документации| Руководства для разработчиков групп и каналов |Создание и Просмотр собраний в Teams| Изменение аватара пользователя | История звонков | Управление контактами | Доступ к контактам Outlook | Голосовая почта |Добавление и настройка соединителей|Добавление и настройка вкладок|Добавление и настройка ботов| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да |Да |Да |Да |Да |Да |Да |Да |
-|**Exchange Online Dedicated vNext**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да |Да |Да |Да |Да |Да |Да |Да|
+|**Exchange Online**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да |Да |Да |Да, <sup>7</sup>|Да |Да |Да |Да |
+|**Exchange Online Dedicated vNext**|Да, <sup>2</sup>|Да, <sup>2</sup>|Да |Да |Да |Да |Да |Да |Да, <sup>7</sup>|Да |Да |Да |Да|
 |**Устаревшая среда Exchange Online Dedicated** (требуется синхронизация с Azure AD)|Да, <sup>2</sup>|Да <sup>, 2, 3</sup>|Да <sup>, 4|Да|Нет|Нет|Да|Да|Нет|Да <sup>, 5|Да <sup>, 6|Да |Да |
 |**Локальная Exchange** (требуется синхронизация с Azure AD)|Да, <sup>2</sup>| Да <sup>, 2, 3</sup> |Да <sup>, 4|Да|Да (Exchange 2016 CU3 +)|Да (Exchange 2016 CU3 +)|Да |Да|Нет|Да <sup>, 5|Да <sup>, 6|Да |Да |
 
@@ -60,8 +60,7 @@ ms.locfileid: "40019973"
 
 <sup>6</sup> если один из владельцев команды может добавлять соединители, все участники этой группы смогут сделать это, даже если их почтовые ящики размещены локально.
 
-
-Дополнительная информация:
+<sup>7</sup> контактов в папке "Контакты" по умолчанию. Доступ к другим папкам или вложенным папкам контактов не поддерживается.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Требования для максимально возможного использования Microsoft Teams
 
