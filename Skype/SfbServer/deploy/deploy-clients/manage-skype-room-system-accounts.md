@@ -11,19 +11,19 @@ localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: В этом разделе описывается управление учетными записями системы комнат Skype.
-ms.openlocfilehash: 7594532e5da42ac9f1b41444052ec51c3779ee2b
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d1cd40b12da89eed651152dd3b7b91914826d62e
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001489"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268475"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Управление учетными записями системы комнат Skype
  
 В этом разделе описывается управление учетными записями системы комнат Skype. 
 
 > [!NOTE]
-> Комнаты Microsoft Teams — это другой продукт с разными зависимостями и процедурами развертывания. Сведения о комнатах Microsoft Teams можно найти в разделе [Общие сведения об управлении](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)комнатами Microsoft Teams.
+> Комнаты Microsoft Teams — это другой продукт с разными зависимостями и процедурами развертывания. Сведения о комнатах Microsoft Teams можно найти в разделе [Общие сведения об управлении](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage)комнатами Microsoft Teams.
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Перемещение учетной записи системы комнаты Skype между пулами
 
