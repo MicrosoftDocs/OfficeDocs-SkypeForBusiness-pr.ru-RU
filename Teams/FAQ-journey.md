@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: b6b36f38ce2c72c085a7d52f403eba4bde7e8670
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698032"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268485"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Вопросы и ответы. Переход со Skype для бизнеса на Microsoft Teams
 
@@ -200,7 +200,7 @@ A successful upgrade will include validating technical readiness in addition to 
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Будет ли приложение "Системы комнат Skype" версии 1 обновлено для поддержки собраний Teams?
 
-Поддержка устройств системы комнат Lync (LRS), на которых установлено приложение "Системы комнат Skype" версии 1 (SRS v1), была прекращена 9 октября 2018 г. Это означает, что для приложения "Системы комнат Skype" версии 1 больше не будут выпускаться обновления и исправления. Пользователям устройств системы комнат Lync, использующие приложение "Системы комнат Skype" версии 1, рекомендуем установить на своих устройствах приложение "Комнаты Microsoft Teams". [Дополнительные сведения](room-systems/lrs-migration.md).
+Поддержка устройств системы комнат Lync (LRS), на которых установлено приложение "Системы комнат Skype" версии 1 (SRS v1), была прекращена 9 октября 2018 г. Это означает, что для приложения "Системы комнат Skype" версии 1 больше не будут выпускаться обновления и исправления. Пользователям устройств системы комнат Lync, использующие приложение "Системы комнат Skype" версии 1, рекомендуем установить на своих устройствах приложение "Комнаты Microsoft Teams". [Дополнительные сведения](rooms/lrs-migration.md).
 
 ## <a name="management-capabilities"></a>Возможности управления
 

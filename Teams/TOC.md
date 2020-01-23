@@ -132,7 +132,7 @@
 ## [Использование надстройки "Собрание Teams" в Outlook](teams-add-in-for-outlook.md)
 ## [Настройка функции "Позвонить мне" для пользователей](set-up-the-call-me-feature-for-your-users.md)
 ## [Настройка службы переноса собраний (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Комнаты Microsoft Teams](room-systems/index.md)
+## [Комнаты Microsoft Teams](rooms/index.md)
 ## [Управление Доской в Teams](manage-whiteboard.md)
 
 
@@ -604,8 +604,8 @@
 #### [Интеграция электронных историй болезни в Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Характеристики интерфейса DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [Характеристики интерфейса STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [Подключение приложения для пациентов к Azure API для FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [Журналы аудита приложения для пациентов](expand-teams-across-your-org/healthcare/patients-audit.md)
-
 ## [Teams для сферы образования](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Краткое руководство для администраторов — Teams для образовательных учреждений](teams-quick-start-edu.yml)
 ### [Задания в Teams для образовательных учреждений](expand-teams-across-your-org/assignments-in-teams.md)
