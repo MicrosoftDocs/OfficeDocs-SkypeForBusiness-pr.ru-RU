@@ -692,6 +692,7 @@
 ### [Установка Teams с помощью MSI](msi-deployment.md)
 ### [Включение Teams в организации](Office-365-set-up.md)
 ### [Файлы и папки Teams, которые должны быть исключены из проверки на вирусы](teams-files-folders-antivirus-perf.md)
+### [Использование памяти в Microsoft Teams](teams-memory-usage-perf.md)
 ### [URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams для инфраструктуры виртуальных рабочих столов (VDI)](teams-for-vdi.md)
 ### [Развертывание Teams для Surface Hub](teams-surface-hub.md)
