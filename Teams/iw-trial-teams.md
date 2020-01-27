@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871695"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554226"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Пробное предложение Microsoft Teams Commercial Cloud Trial
 =======================================================
 
-Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации. 
+Пробное предложение Microsoft Teams Commercial Cloud Trial позволяет существующим пользователям Office 365 в организации, у которых нет лицензии на Microsoft Teams, начать годовое пробное использование продукта. Администраторы могут включать и отключать эту функцию для пользователей в организации.
 
 > [!IMPORTANT]
 > Пробное предложение Microsoft Teams Commercial Cloud Trial будет заменено на Microsoft Teams Exploratory с января 2020 г. Дополнительные сведения об этом новом предложении см. в статье [Управление лицензией Teams Exploratory](teams-exploratory.md).
@@ -78,13 +78,13 @@ ms.locfileid: "39871695"
 
 Вы можете запретить пользователям устанавливать пробные версии приложений и служб.
 
-1. В [Центре администрирования Microsoft 365](https://portal.office.com/adminportal/home) выберите **Параметры** > **Службы и надстройки** > **Приложения и службы пользователей**.
+1. В [Центре администрирования Microsoft 365](https://portal.office.com/adminportal/home) выберите **Параметры** > **Параметры**, щелкните **Службы** и нажмите **Приложения и службы, лицензированные для отдельных пользователей**.
 
-    ![Снимок экрана: страница "Службы и надстройки" в Центре администрирования](media/iw-trial-enable-1.png)
+    ![Снимок экрана: страница "Службы" в Центре администрирования](media/iw-trial-services.png)
 
-2. Отключите параметр **Разрешить пользователям устанавливать пробные версии приложений и служб**.
+2. Снимите флажок **Разрешить пользователям устанавливать пробные версии приложений и служб**.
 
-    ![Снимок экрана: страница "Приложения и службы пользователей" в Центре администрирования](media/iw-trial-enable-2.png)
+    ![Снимок экрана: страница "Приложения и службы, лицензированные для отдельных пользователей" в Центре администрирования](media/iw-trial-user-owned-apps-services.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Управление доступностью пробной версии для пользователя с лицензией, включающей Teams
@@ -119,8 +119,8 @@ ms.locfileid: "39871695"
 
     ![Снимок экрана: параметр лицензии на пробную версию Teams на панели лицензий](media/iW-trial-enable-4.png)
     
->[!Note]
->Переключатель пробной версии Microsoft Teams отображается после регистрации первого пользователя организации в пробном предложении.
+    >[!Note]
+    >Переключатель пробной версии Microsoft Teams отображается после регистрации первого пользователя организации в пробном предложении.
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Управление Teams для пользователей с лицензией на пробную версию
 

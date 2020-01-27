@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Аннотация: сведения о том, как подготовить домен Active Directory к установке Skype для бизнеса Server. Скачайте бесплатную пробную версию Skype для бизнеса Server из центра оценки Майкрософт по адресу: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000889"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554056"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Подготовка службы каталогов Active Directory для Skype для бизнеса Server
  
@@ -35,7 +35,7 @@ Skype для бизнеса Server работает в тесном сотруд
 Skype для бизнеса Server тесно интегрирован с доменными службами Active Directory (AD DS). Перед первой установкой Skype для бизнеса Server необходимо подготовить службу каталогов Active Directory. Раздел мастера развертывания с названием **подготовить Active Directory** подготавливает среду Active Directory к использованию в Skype для бизнеса Server.
   
 > [!NOTE]
-> Skype для бизнеса Server использует (AD DS) для отслеживания и обмена данными со всеми серверами в топологии. Каждый сервер должен быть присоединен к домену, чтобы приложение Skype для бизнеса Server могло работать правильно. 
+> Skype для бизнеса Server использует (AD DS) для отслеживания и обмена данными со всеми серверами в топологии. Большая часть этих серверов должна быть подключена к домену, чтобы Skype для бизнеса Server мог работать правильно. Имейте в виду, что серверы, такие как EDGE и reverse proxy, не должны быть присоединены к домену.
   
 > [!IMPORTANT]
 > Для каждого домена в развертывании процедура подготовки Active Directory выполняется только один раз. 
