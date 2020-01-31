@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Узнайте, как включить и использовать панель мониторинга качества звонков и получить суммарные отчеты о качестве звонков. '
-ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41619985"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41636845"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Включение и использование панели мониторинга качества звонков для Microsoft Teams и Skype для бизнеса Online
 
@@ -196,7 +196,7 @@ CQD v3 поддерживает использование полей детал
 
 Все выпуски CQD обеспечивают взаимодействие с метриками качества связи без необходимости создавать новые отчеты. После того как данные обрабатываются в серверной части, вы увидите данные качества связи в отчетах.
 
-Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
+Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
   
 ### <a name="overview-reports"></a>Обзорные отчеты
 

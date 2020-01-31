@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8a25b7db3a254c4bc1c1266b6b9be48ed798f331
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580906"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634892"
 ---
 # <a name="quality-of-experience-review-guide"></a>Руководство по анализу качества взаимодействия
 
@@ -288,7 +288,7 @@ CQD, хотя он полезен для анализа тенденций и п
 
 Полное описание различий между двумя выпусками можно найти в [этой статье](turning-on-and-using-call-quality-dashboard.md).
 
-Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
+Новые возможности в январе 2020: [Скачайте шаблоны запросов Power BI для CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Настраиваемые шаблоны Power BI, которые можно использовать для анализа и составления отчетов о CQD данных.
 
 _Рисунок 4 — категории отчета CQD_
 
