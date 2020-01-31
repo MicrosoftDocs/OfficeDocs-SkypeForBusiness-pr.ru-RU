@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Сведения о лицензиях надстроек, функциях и о том, как приобрести планы Office 365 корпоративный (E1, E3, и E4). '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792885"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573635"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 корпоративный (E1, E3 и E4)
 
@@ -40,6 +40,8 @@ ms.locfileid: "35792885"
 |**Облачная голосовая почта** <br/> |Для планов E1 и E4 приобретите Exchange Online (план 2). <br/>Или перейдите на пакет Office, который входит в комплект поставки Exchange Online (план 2), например Office 365 E3. |
 |**Планы звонков** <br/> |1. надстройка для **телефонной системы** <br/> 2. [Тарифный план](/MicrosoftTeams/calling-plans-for-office-365): его можно приобрести только после приобретения надстройки **Телефонная система**. <br/> |
    
+ > [!IMPORTANT]
+ > Лицензии на Office 365 E4 были официально прекращены. Для получения дополнительных сведений ознакомьтесь с [важными сведениями о клиентах Office 365 Корпоративная E4](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) .
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Клиенты с планами E1 и E3: как просмотреть цены и приобрести дополнительные лицензии
 <a name="bkmk_buypremium"> </a>
@@ -57,9 +59,9 @@ ms.locfileid: "35792885"
 
 План E3 входит в состав вашей подписки Action Pack. Чтобы приобрести надстройки **телефонной системы** и **аудиоконференции**, выполните следующие действия.
 
-1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
+1. Купите одно рабочее место на [веб-сайте маркетинга](https://go.microsoft.com/fwlink/?LinkId=24393). Выберите параметр для добавления этого рабочего места в имеющийся у вас клиент.
 
-2. Войдите в центр администрирования и перейдите в раздел надстройки**подписки** > **** на **выставление счетов** > .
+2. Войдите в центр администрирования и перейдите в раздел**надстройки****подписки** > на **выставление счетов** > .
 
     После этого появится возможность просмотреть цены и приобрести надстройки **телефонной системы** и **аудиоконференции**.
 
@@ -68,8 +70,8 @@ ms.locfileid: "35792885"
 
 В некоторых случаях возможность приобретения надстроек Skype для бизнеса в центре администрирования Microsoft 365 не отображается.
 
-- **Вы приобрели Office 365 бизнес премиум через GoDaddy**. В этом случае вы не сможете купить надстройки Skype для бизнеса. Необходимо переключиться на план E3 (который не продается через GoDaddy), после чего вы сможете их приобрести. [Обратитесь в службу поддержки для бизнес-продуктов — Справка для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Вы приобрели Office 365 бизнес премиум через GoDaddy**. В этом случае вы не сможете купить надстройки Skype для бизнеса. Необходимо переключиться на план E3 (который не продается через GoDaddy), после чего вы сможете их приобрести. [Обратитесь в службу поддержки продуктов для бизнеса — справку для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **У вас определен месячный объем обязательств вместо годового**. В некоторых случаях клиенты с месячным объемом обязательств не могут приобретать надстройки, так как они используют другой способ оплаты. Это известная проблема, которую мы исправлены. [Обратитесь в службу поддержки продуктов для бизнеса — справку для администраторов](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

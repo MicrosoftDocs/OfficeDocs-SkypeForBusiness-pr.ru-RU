@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о том, как включить или отключить анонимным вызывающим абонентам возможность присоединяться к собранию из Центра администрирования Teams. '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570010"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580846"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Начало аудиоконференции по телефону без ПИН-кода в Microsoft Teams
 
@@ -48,11 +48,11 @@ ms.locfileid: "37570010"
 
 3. Щелкните **Изменить** рядом с элементом **Аудиоконференции**.
 
-4. В области **Аудиоконференции** включите или отключите настройку **Разрешить непроверенным абонентам стать первыми участниками собрания**.
+4. В области " **звуковые конференции** " Включите или отключите абонентов с **телефонным подключением. может быть первым участником собрания**.
     
-4. Нажмите кнопку **Сохранить**. 
+4. Нажмите кнопку **Применить**. 
 
-** Использование Windows PowerShell**
+**Использование Windows PowerShell**
   
 Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 

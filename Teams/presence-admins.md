@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714495"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580926"
 ---
 # <a name="user-presence-in-teams"></a>Присутствие пользователей в Teams
 
@@ -39,9 +39,9 @@ ms.locfileid: "38714495"
 | ![Сплошной зеленый флажок означает доступность присутствия](media/Presence_Available.png) Доступно|![Сплошной зеленый флажок означает доступность присутствия](media/Presence_Available.png) Доступно|
 || ![Открытие зеленой галочки означает, что вы можете получить доступ к отсутствием](media/Presence_Available_OOF.png) Доступно, нет на месте |
 |  ![Сплошной красный круг, обозначает "занято"](media/Presence_Busy.png) Сильно |  ![Сплошной красный круг, обозначает "занято"](media/Presence_Busy.png) Сильно  |
-|| ![Сплошной красный круг, указывает на то, что звонок занят](media/Presence_Busy.png) В звонке|
+|| ![Сплошной красный круг, указывает на то, что звонок занят](media/Presence_Busy.png) На звонке|
 || ![Сплошной красный круг, указывает на то, что собрание занято](media/Presence_Busy.png) На собрании |
-|| ![Открыть красный круг, обозначает "занято"](media/Presence_Busy_OOF.png) В звонке, нет на месте|
+|| ![Открыть красный круг, обозначает "занято"](media/Presence_Busy_OOF.png) На звонке, нет на месте|
 |  ![Красный кружок с белой линией означает "не беспокоить"](media/Presence_DND.png) Не беспокоить ||
 || ![Красный кружок с белой линией, обозначает представление](media/Presence_DND.png) Указав|
 || ![Красный кружок с белой линией указывает на фокусировку](media/Presence_DND.png) Фокусировка|

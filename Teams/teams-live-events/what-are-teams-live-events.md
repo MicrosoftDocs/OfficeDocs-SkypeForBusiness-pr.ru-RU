@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c49cf08d7d753e3a05bdcac89105f24621ccf29f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992806"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634882"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -73,7 +73,7 @@ Teams предоставляет возможность организаторо
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Корпоративная сеть доставки содержимого (Екдн)
 Цель Екдн заключается в том, чтобы принимать видео из Интернета и распространять содержимое по всему предприятию, не влияя на производительность сети. Вы можете использовать одного из следующих сертифицированных партнеров Екдн, чтобы оптимизировать работу сети для событий Live, которые хранятся в вашей организации:
 - [Куст](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [коллективе](https://kollective.com/microsoft-pilot/)
+- [коллективе](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Снижение](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участником 
@@ -87,7 +87,7 @@ Teams предоставляет возможность организаторо
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к разделу [планирование событий Teams в реальном времени](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>См. также
+### <a name="related-topics"></a>Статьи по теме
 - [События Live для Microsoft 365 в Yammer, Microsoft Teams и Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Начало работы с событиями Microsoft Teams Live](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [События Live в Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

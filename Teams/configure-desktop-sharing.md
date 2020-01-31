@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516890"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628715"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Совместный доступ к рабочему столу в Microsoft Teams
 ============================================
@@ -28,7 +28,7 @@ ms.locfileid: "37516890"
 
 Чтобы настроить демонстрацию экрана, создайте новую политику собраний и назначьте ее пользователям, которым хотите управлять.
 
-**В центре администрирования Microsoft Teams**
+**В [центре администрирования Microsoft Teams](https://admin.teams.microsoft.com/)**
 
 1.  > Выберите**политики собраний** **для собраний**.
 
@@ -36,7 +36,7 @@ ms.locfileid: "37516890"
 
 2. На странице **политики собрания** нажмите кнопку **создать политику**.
 
-    ![Снимок экрана с сообщением "политики собрания"](media/configure-desktop-sharing-image2.png)
+    ![Снимок экрана, на котором показано сообщение "политики собрания"](media/configure-desktop-sharing-image2.png)
 
 3. Задайте для политики уникальный заголовок и введите краткое описание.
 
@@ -46,7 +46,7 @@ ms.locfileid: "37516890"
    - **Единое приложение** — позволяет пользователям ограничить демонстрацию экрана одним активным приложением.
    - **Disabled (отключено** ) — отключает демонстрацию экрана.
 
-    ![Снимок экрана, демонстрирующий параметры режима общего использования](media/configure-desktop-sharing-image3.png)
+    ![Снимок экрана: параметры режима общего использования](media/configure-desktop-sharing-image3.png)
 
 5. Включать и отключать следующие параметры:
 
@@ -60,7 +60,7 @@ ms.locfileid: "37516890"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Настройка общего рабочего стола с помощью PowerShell
 
-Вы также можете использовать командлет [Set-кстеамсмитингполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) , чтобы управлять общим доступом к рабочему столу. Задайте следующие параметры:
+Вы также можете использовать командлет [Set-кстеамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) , чтобы управлять общим доступом к рабочему столу. Задайте следующие параметры:
 
 - Описание
 - скриншарингмоде
@@ -70,5 +70,5 @@ ms.locfileid: "37516890"
 - алловвхитебоард
 - AllowSharedNotes
 
-Дополнительные [сведения об использовании командлета кстеамсмитингполици](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+Дополнительные [сведения об использовании командлета кстеамсмитингполици](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 

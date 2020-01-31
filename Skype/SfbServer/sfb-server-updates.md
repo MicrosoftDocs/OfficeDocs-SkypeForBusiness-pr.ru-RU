@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Найдите и управляйте обновлениями для Skype для бизнеса Server 2015/2019 и Lync 2013 в одном приложении. Ссылки на этой странице позволяют получить дополнительные сведения об обновлениях и скачать их.
-ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: a42d7b1463e3b545688e8ef7bce6fe6b96872050
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837511"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580786"
 ---
 # <a name="skype-for-business-server-updates"></a>Обновления Skype для бизнеса Server
 
@@ -169,6 +169,7 @@ KB 4470124 является эталонной версией KB для Skype д
 
 |Название пакета|Номер статьи в базе знаний|Дата выпуска|
 |:--- |:--- |:--- |
+|Накопительное обновление для Lync Server 2010 (18), исправление 1 |[Статья базы знаний 2493736](https://support.microsoft.com/kb/2493736) |Июнь 2019 г.|
 |Накопительное обновление 18 для Lync Server 2010|[Статья базы знаний 2493736](https://support.microsoft.com/kb/2493736) |Январь 2019 г.|
 |Lync Server 2010, накопительный пакет обновления 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |Апрель 2016 г. |
 |Накопительное обновление для Lync Server 2010|[KB 3057803](https://support.microsoft.com/kb/3057803) |Май 2015 г. |

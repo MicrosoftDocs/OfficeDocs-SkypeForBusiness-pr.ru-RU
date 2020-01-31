@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: В этой статье рассказывается о накопительных улучшениях в комнатах Microsoft Teams.
-ms.openlocfilehash: c3de17e0139d1ae20a2a4667e4c5fbab2d6b6d53
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9d174ddb8e0d6495f3d493ea6b64819efe648726
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269189"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628655"
 ---
 # <a name="release-notes"></a>Примечания к выпуску
 
@@ -311,7 +311,7 @@ Introduced in this update:
 - Постоянное устройство, которое автоматически пробуждает дисплеи при обнаружении людей в комнате
 - Простота развертывания и обновления приложения для собраний Skype на универсальной платформе Windows
 - Блокировка устройств в приложении для собраний Skype с использованием технологии Windows AppLocker
-- Мониторинг и управление на уровне устройства для Windows 10 Корпоративная с использованием Intune и SCCM (MDM)
+- Мониторинг и управление как корпоративным устройством с Windows 10 с помощью Intune и Configuration Manager (MDM)
 - Надежность корпоративного уровня
 - Минимальные затраты времени и ресурсов на обучение благодаря хорошо знакомому пользовательскому интерфейсу Skype
 - Выполняется на планшете Surface Pro 4

@@ -16,12 +16,12 @@ f1keywords:
 description: Учебные видеоролики, колоды PowerPoint, учебники и другие ресурсы для администраторов о планировании, развертывании и запуске Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165609"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573615"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -90,7 +90,7 @@ ms.locfileid: "41165609"
 
 | Модуль | Видеосвязь | Набор слайдов PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft механики — основные компоненты в канале YouTube для ИТ-отделов](https://aka.ms/MicrosoftTeamsforIT) | [Видео: основные компоненты для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -специалистов (10:13 мин)<br>[Видео: развертывание & Настройка групп — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4) (12:42 мин)||
+| [Microsoft механики — основные компоненты в канале YouTube для ИТ-отделов](https://aka.ms/MicrosoftTeamsforIT) | [Видео: основные компоненты для ИТ](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) -специалистов (10:13 мин)<br>[Видео: развертывание & Настройка групп — введение](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 мин)  <br>[Видео: безопасность и соответствие требованиям](https://youtu.be/91lHNKVVvQ4) (12:42 мин)<br>[Видео: элементы управления группами для обеспечения безопасности и соответствия требованиям](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 мин)||
 | Базовые компоненты для основ | [Видео](https://aka.ms/teams-foundations) | [Крытий](https://aka.ms/teams-foundations-deck) |
 | Классическое приложение Windows | [Видео](https://aka.ms/teams-clients) | [Крытий](https://aka.ms/teams-clients-deck) |
 | Руководство, управление и жизненный цикл | [Видео](https://aka.ms/teams-governance) | [Крытий](https://aka.ms/teams-governance-deck) |

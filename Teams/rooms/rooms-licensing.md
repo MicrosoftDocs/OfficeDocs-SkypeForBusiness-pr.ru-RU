@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о возможностях, доступных в комнатах Microsoft Teams. '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269165"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628255"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Обновление лицензий для собрания Teams
 
@@ -66,7 +66,7 @@ ms.locfileid: "41269165"
 |Инициация нерегламентированного собрания | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
 |Создание нерегламентированного собрания и выход из собрания на номера телефонов |  SKU комнаты для собраний |Skype для бизнеса Клиентская лицензия Standard  <br/> Клиентская лицензия Server Enterprise для Skype для бизнеса|
 |Придайте комнате номер телефона и совершайте или получайте звонки из комнаты либо присоединитесь к звуковой конференции с помощью номера телефона.  | SKU комнаты для собраний  |Клиентская лицензия Server Standard для Skype для бизнеса  <br/> Skype для бизнеса Клиентская лицензия Server Plus  |
-|Управление устройством с комнатой в Microsoft Intune |SKU комнаты для собраний  |Подписка на Microsoft Intune в [локальной системе MDM](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|Управление устройством с комнатой в Microsoft Intune |SKU комнаты для собраний  |Подписка на Microsoft Intune с локальной учетной данными [MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
 > [!NOTE]

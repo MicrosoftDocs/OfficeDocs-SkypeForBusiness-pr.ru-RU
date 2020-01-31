@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1f92914a3f02fe85c478d5b6974a28ce9cc3a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c859ea669d8c8dfcc0813059a29e4d95df4fd09b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570318"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628725"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Подключение первых пользователей к Microsoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "37570318"
 Настольный клиент Teams предоставляет пользователям Windows и Mac самый оптимальный опыт использования. Дополнительные сведения см. в статье [Получить клиенты для Teams (настольный клиент)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) и [Требования к оборудованию для приложения Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> Как администратор вы можете выбрать способ распространения файлов установки на компьютерах организации, например, System Center Configuration Manager (Windows) или Jamf Pro (macOS).
+> Как администратор вы можете выбрать способ распространения файлов установки на компьютерах организации, например Microsoft Endpoint Configuration Manager (Windows) или Jamf Pro (macOS).
 
 #### <a name="teams-for-windows"></a>Teams для Windows 
 Самый простой способ установки настольного клиента Windows:

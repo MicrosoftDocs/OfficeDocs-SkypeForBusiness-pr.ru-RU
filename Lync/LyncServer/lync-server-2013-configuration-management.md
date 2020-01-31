@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841473"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Управление конфигурацией в Lync Server 2013
 
@@ -73,7 +73,7 @@ _**Тема последнего изменения:** 2015-05-15_
 
   - **Автоматические сценарии**   . Вы можете создавать простые сценарии для создания отчетов о таких элементах, как операционная система, уровень пакета обновления, а также сведения о том, существует ли программное обеспечение на определенном наборе компьютеров. Эти сценарии можно писать на конкретные требования Организации. Тем не менее, требуемое количество сценариев и их сложность может усложнить создание и обслуживание сценариев.
 
-  - **Автоматические инструменты**   , зависящие от размера вашего бизнеса и потребностей Организации, вы можете использовать автоматизированные средства. Такие инструменты, как System Center Configuration Manager, включают стандартные шаблоны отчетов (например, уровень пакета обновления), а также позволяют создавать пользовательские отчеты, например, для пользовательского приложения. Кроме того, System Center Configuration Manager можно использовать для создания отчетов о конфигурациях оборудования и программного обеспечения.
+  - **Автоматические инструменты**   , зависящие от размера вашего бизнеса и потребностей Организации, вы можете использовать автоматизированные средства. Такие инструменты, как Microsoft Endpoint Configuration Manager, включают стандартные шаблоны отчетов (например, уровень пакета обновления), а также позволяют создавать пользовательские отчеты, например, для пользовательского приложения. Диспетчер конфигурации конечных точек Майкрософт также можно использовать для создания отчетов о конфигурациях оборудования и программного обеспечения.
 
 </div>
 

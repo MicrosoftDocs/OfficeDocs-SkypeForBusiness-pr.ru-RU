@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: В этой статье рассказывается о том, как управлять комнатами Microsoft Teams, а также нового поколения систем комнат Skype.
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269194"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628665"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Обслуживание и эксплуатация комнат Microsoft Teams 
  
@@ -61,9 +61,9 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |Рабочая группа |Без присоединения к домену|Присоединение к домену|
 |:-----|:-----|:-----|
-|Перезапуск  <br/> |Удаленный рабочий стол  <br/> Удаленная среда PowerShell  <br/> |Дистанционное управление рабочим столом (требуется дополнительная настройка)  <br/> Удаленная оболочка PowerShell (требуется дополнительная настройка)  <br/> SCCM  <br/> |
+|Перезапуск  <br/> |Удаленный рабочий стол  <br/> Удаленная среда PowerShell  <br/> |Дистанционное управление рабочим столом (требуется дополнительная настройка)  <br/> Удаленная оболочка PowerShell (требуется дополнительная настройка)  <br/> Configuration Manager  <br/> |
 |Обновление ОС  <br/> |Обновление Windows  <br/> |Обновление Windows  <br/> WSUS  <br/> |
-|Обновление приложения  <br/> |	Магазин Windows  <br/> |Магазин Windows  <br/> SCCM  <br/> |
+|Обновление приложения  <br/> |	Магазин Windows  <br/> |	Магазин Windows  <br/> Configuration Manager  <br/> |
 |Настройка учетной записи Skype  <br/> |В настоящее время не поддерживается  <br/> |	В настоящее время не поддерживается  <br/> |
 |Журналы доступа  <br/> |	В настоящее время не поддерживается  <br/> |	В настоящее время не поддерживается  <br/> |
    
@@ -166,7 +166,7 @@ Copy-Item $movefile $targetDevice
   
 По умолчанию комнаты Microsoft Teams подключаются к центру обновления Windows для получения обновлений операционной системы и USB-устройств, а затем устанавливаются за пределами настроенного рабочего времени. Чтобы указать часы работы, войдите в учетную запись администратора и запустите приложение "Параметры".
   
-Если вы хотите управлять обновлениями вручную и не можете подписаться на стандартную процедуру [Microsoft Store для бизнеса](https://businessstore.microsoft.com/store) для [распространения автономных приложений](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), вы можете получить соответствующий APPX-файл и зависимости из [комплекта средств для развертывания](https://go.microsoft.com/fwlink/?linkid=851168) (из инструкций по [настройке консоли Microsoft Teams](console.md)), которые можно использовать с SCCM. Выпуск комплекта развертывания отключается за выпуском в магазине, поэтому он может не всегда совпадать с последней доступной сборкой.
+Если вы хотите управлять обновлениями вручную и не можете подписаться на стандартную процедуру [Microsoft Store для бизнеса](https://businessstore.microsoft.com/store) для [распространения автономных приложений](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), вы можете получить соответствующий APPX-файл и зависимости из [комплекта средств для развертывания](https://go.microsoft.com/fwlink/?linkid=851168) (из инструкций по [настройке консоли Microsoft Teams](console.md)), которые можно использовать в Configuration Manager. Выпуск комплекта развертывания отключается за выпуском в магазине, поэтому он может не всегда совпадать с последней доступной сборкой.
   
 ### <a name="to-update-using-powershell"></a>Обновление с помощью PowerShell
 

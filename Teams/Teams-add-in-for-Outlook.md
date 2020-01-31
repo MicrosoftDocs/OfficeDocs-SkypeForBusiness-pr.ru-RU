@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626985"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573625"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Использование надстройки "Собрание Teams" в Outlook
 =======================================
@@ -40,10 +40,9 @@ ms.locfileid: "38626985"
 > - Пользователи Windows 7 должны установить [Обновление для универсальной среды выполнения C в Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) в Windows для надстройки "собрание Teams" для работы.
 > - Если вы используете установку Office Outlook из Microsoft Store, надстройка для собраний Teams не поддерживается. Пользователям, которым требуется эта надстройка, рекомендуется установить версию Office "нажми и работай", как описано в разделе " [Office для Windows 10" в режиме S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Надстройка для собраний Teams в Outlook для Mac
 
-Кнопка "собрание Teams" в Outlook для Mac появится на ленте Outlook для Mac, если в Outlook используется рабочая сборка 16.24.414.0 и более поздние версии.
+Кнопка "собрание Teams" в Outlook для Mac появится на ленте Outlook для Mac, если в Outlook используется сборка 16.24.414.0 и более поздней версии, а затем она активируется с помощью клиентской подписки на Office 365.
 
 Координаты собрания (ссылки для присоединения к ним и номера коммутируемого подключения) будут добавлены в приглашение на собрание после того, как пользователь нажмет кнопку " **Отправить**".  
 

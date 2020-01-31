@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Сведения о том, как развертывать комнаты Microsoft Teams с помощью Exchange Online, читайте в этой статье.
-ms.openlocfilehash: fc403e2553fce157737b1bdda75c821563e6b0dd
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: e53fd2ebd25ef6b625ada84b60d58e42e8c13a28
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269207"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628425"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Развертывание комнаты Microsoft Teams с Exchange Online
 
@@ -41,13 +41,13 @@ ms.locfileid: "41269207"
 
 1. Запустите удаленный сеанс Windows PowerShell на компьютере и подключитесь к Exchange Online, как описано ниже.
 
-``` Powershell
-Set-ExecutionPolicy Unrestricted
-$org='contoso.microsoft.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
-Import-PSSession $Session -DisableNameChecking
-```
+    ``` Powershell
+    Set-ExecutionPolicy Unrestricted
+    $org='contoso.microsoft.com'
+    $cred=Get-Credential $admin@$org
+    $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
 
 2. После установления сеанса вы сможете создать новый почтовый ящик и включить его в качестве Руммаилбоксаккаунт или изменить параметры существующего почтового ящика помещения. Это позволит вашей учетной записи проходить проверку подлинности в комнатах Microsoft Teams.
 
@@ -91,27 +91,27 @@ Import-PSSession $Session -DisableNameChecking
    > [!NOTE]
    > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) не поддерживается. 
 
-  ``` PowerShell
- Connect-MsolService -Credential $cred
-  ```
-<!--   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ``` -->
+    ``` PowerShell
+   Connect-MsolService -Credential $cred
+    ```
+  <!--   ``` Powershell
+     Connect-AzureAD -Credential $cred
+     ``` -->
 
 2. Для обеспечения работоспособности Exchange и Skype для бизнеса сервер учетной записи пользователя должен быть действительной лицензией Office 365. При наличии лицензии вам необходимо назначить учетной записи устройства место использования, которое определяет, какие номера SKU лицензий будут доступны вашей учетной записи. Назначение будет проводиться на следующем этапе.
 3. Затем используйте`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> Получение списка доступных SKU для клиента Office 365.
 4. После того как вы выйдете список SKU, вы можете добавить лицензию с помощью`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Командлет. В этом случае будет отображаться код SKU $strLicense (например, contoso:STANDARDPACK). 
 
-  ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-  ```
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
-   ``` -->
+    ```PowerShell
+      Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-MsolAccountSku
+     Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+    ```
+  <!--   ``` Powershell
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+     Get-AzureADSubscribedSku
+     Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+     ``` -->
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Включение учетной записи пользователя в Skype для бизнеса Server
 
@@ -145,6 +145,12 @@ Import-PSSession $Session -DisableNameChecking
 6. Нажмите кнопку **Сохранить**.
 
 Для проверки подлинности вы можете войти в эту учетную запись с помощью любого клиента Skype для бизнеса.
+
+> [!NOTE]
+> Если вы используете номера SKU, E3, E4 или 3 и 3 с помощью Skype для бизнеса (план 2) с голосовой видеоконференцией или телефонной системой Office 365 и планом звонков, они будут продолжать работать. Однако рекомендуется перейти к более простой модели лицензирования, описанной в разделе " [собрание](rooms-licensing.md)" в конференц-зале, после истечения срока действия текущих лицензий.
+
+> [!IMPORTANT]
+> Если вы используете Skype для бизнеса (план 2), вы можете использовать комнаты Microsoft Teams только в режиме Skype для бизнеса, что означает, что все собрания будут собраны в Skype для бизнеса. Чтобы включить конференцию для собраний для собраний Microsoft Teams, мы рекомендуем приобрести лицензию на конференцию для участников.
   
 ## <a name="see-also"></a>См. также
 
