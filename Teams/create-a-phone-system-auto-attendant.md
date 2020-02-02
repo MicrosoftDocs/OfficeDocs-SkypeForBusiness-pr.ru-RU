@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Сведения о настройке и тестировании автоматических автосекретарей в облачных целях для Microsoft Teams.
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005205"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664331"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Настройка облачного автосекретаря
 
@@ -162,22 +162,9 @@ ms.locfileid: "41005205"
   > **Сотрудник Организации** может быть пользователем в сети или локальным пользователем с помощью Skype для бизнеса Server.
 
   - **Голосовое приложение** Выберите автосекретарь или очередь звонков, которые уже настроены. Вы ищете автосекретарь или очередь звонков по имени учетной записи ресурса, связанной с этой службой.
-  - **Голосовая почта** Выберите группу Office 365, представляющую пользователей в Организации, которым нужен доступ к этой голосовой почте. Здесь вы можете также включить транскрипцию голосовой почты. Требуется группа Office 365.
+  - **Голосовая почта** Выберите группу Office 365, в которой находятся пользователи в Организации, которым требуется доступ к голосовой почте, полученной этим автосекретарем. Сообщения голосовой почты отправляются в указанную вами группу Office 365. Чтобы получить доступ к голосовым сообщениям, участники группы смогут открывать их, перейдя в группу в Outlook.
 
-  > [!NOTE]
-> Голосовые сообщения, отправляемые пользователям из этой учетной записи голосовой почты автосекретаря, нельзя открыть в Teams. Они поступают в виде электронной почты.
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      Включите **в ON параметр "** **вкл** .", чтобы включить голосовую связь в сообщениях голосовой почты.
 
  * * *
 
@@ -214,7 +201,9 @@ ms.locfileid: "41005205"
 
 - **Голосовое приложение** Выберите автосекретарь или очередь звонков, которые уже настроены. Вы ищете автосекретарь или очередь звонков по имени учетной записи ресурса, связанной с приложением.
 
-- **Голосовая почта** Выберите группу Office 365, представляющую пользователей в Организации, которым нужен доступ к этой голосовой почте. Здесь вы можете также включить транскрипцию голосовой почты. Требуется группа Office 365.
+- **Голосовая почта** Выберите группу Office 365, в которой находятся пользователи в Организации, которым требуется доступ к голосовой почте, полученной этим автосекретарем. Сообщения голосовой почты отправляются в указанную вами группу Office 365. Чтобы получить доступ к голосовым сообщениям, участники группы смогут открывать их, перейдя в группу в Outlook.
+
+    Включите **в ON параметр "** **вкл** .", чтобы включить голосовую связь в сообщениях голосовой почты.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
