@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPreference'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd45dcbd6ade83d6c4404346e1752c1f78254e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849556"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,22 +56,22 @@ _**Тема последнего изменения:** 2012-09-24_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Префлабел</p></td>
+<td><p>префлабел</p></td>
 <td><p>nvarchar (255), NOT NULL</p></td>
 <td><p>Надпись с таким же форматом &lt;, как:&gt;URI SIP пользователя, | имя пользователя. &lt;наборы&gt;параметров.</p></td>
 </tr>
 <tr class="even">
-<td><p>Префсекид</p></td>
+<td><p>префсекид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Последовательный номер (на метку) для целей управления версиями.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Префконтент</p></td>
+<td><p>префконтент</p></td>
 <td><p>nvarchar (max)</p></td>
 <td><p>Закодированное содержимое.</p></td>
 </tr>
 <tr class="even">
-<td><p>Ластмодифиедби</p></td>
+<td><p>ластмодифиедби</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника, который обновил предпочтение.</p></td>
 </tr>

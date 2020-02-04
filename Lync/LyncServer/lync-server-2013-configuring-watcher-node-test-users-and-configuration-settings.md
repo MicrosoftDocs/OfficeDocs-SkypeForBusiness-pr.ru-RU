@@ -3,6 +3,8 @@ title: Настройка пользователей и параметров к�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d446934e8d84a12a6eecd84fbc94a956d8ae95e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3713844d5d2364459a28c5919bb1d32d421d706
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ _**Тема последнего изменения:** 2013-07-29_
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Обратите внимание, что необходимо указать не только адрес SIP, но и имя пользователя и пароль. Если пароль не указан, Кстестусеркредентиал предложит ввести эти данные. Имя пользователя можно указать с помощью формата доменных\\имен, показанного выше, или с помощью команды формат имени пользователя @ доменного имени; Например:
+Обратите внимание, что необходимо указать не только адрес SIP, но и имя пользователя и пароль. Если пароль не указан, Кстестусеркредентиал предложит ввести эти данные. Имя пользователя можно указать с помощью формата доменных\\имен, показанного выше, или с помощью команды формат имени пользователя name@domain; Например:
 
     -UserName "watcher3@litwareinc.com"
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Усеражентдеф'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgentDef table
 ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 952f065c5377a4d4e94677f9088569ffca681151
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,9 +48,9 @@ _**Тема последнего изменения:** 2014-03-25_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Уатипе</th>
-<th>Уанаме</th>
-<th>Уакатегори</th>
+<th>уатипе</th>
+<th>уанаме</th>
+<th>уакатегори</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +81,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="even">
 <td><p>32</p></td>
-<td><p>ДВТ</p></td>
-<td><p>ДВТ</p></td>
+<td><p>двт</p></td>
+<td><p>двт</p></td>
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
@@ -99,32 +101,32 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>КонференЦинг_аннаунцемент_сервице_ 1.0</p></td>
+<td><p>Conferencing_Announcement_Service_1.0</p></td>
 <td><p>УСТАРЕВШ</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>КонференЦинг_аттендант_ 1.0</p></td>
-<td><p>Каа</p></td>
+<td><p>Conferencing_Attendant_1.0</p></td>
+<td><p>каа</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Конференце_ауто_аттендант_ 1.0</p></td>
-<td><p>Каа</p></td>
+<td><p>Conference_Auto_Attendant_1.0</p></td>
+<td><p>каа</p></td>
 </tr>
 <tr class="odd">
 <td><p>1024</p></td>
-<td><p>Респонсе_грауп_сервице</p></td>
+<td><p>Response_Group_Service</p></td>
 <td><p>ГРУППЫ ответа</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Калл_парк_сервице_ 1.0</p></td>
+<td><p>Call_Park_Service_1.0</p></td>
 <td><p>ПОДКЛЮЧЕНИЙ</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
-<td><p>Респонсе_грауп_сервице Аннаунцемент_сервице</p></td>
+<td><p>Response_Group_Service Announcement_Service</p></td>
 <td><p>ФАЙЛА</p></td>
 </tr>
 <tr class="even">
@@ -134,8 +136,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
-<td><p>Комо</p></td>
-<td><p>Комо</p></td>
+<td><p>комо</p></td>
+<td><p>комо</p></td>
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
@@ -144,23 +146,23 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>16388</p></td>
-<td><p>Инбаундраутинг</p></td>
-<td><p>Инбаундраутинг</p></td>
+<td><p>инбаундраутинг</p></td>
+<td><p>инбаундраутинг</p></td>
 </tr>
 <tr class="even">
 <td><p>16389</p></td>
-<td><p>Комосвк</p></td>
-<td><p>Комосвк</p></td>
+<td><p>комосвк</p></td>
+<td><p>комосвк</p></td>
 </tr>
 <tr class="odd">
 <td><p>16393</p></td>
-<td><p>Мсексчанжеум</p></td>
-<td><p>Ексум</p></td>
+<td><p>мсексчанжеум</p></td>
+<td><p>ексум</p></td>
 </tr>
 <tr class="even">
 <td><p>16395</p></td>
-<td><p>Арчивингажент</p></td>
-<td><p>АРЧАЖЕНТ</p></td>
+<td><p>арчивингажент</p></td>
+<td><p>арчажент</p></td>
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
@@ -170,7 +172,7 @@ _**Тема последнего изменения:** 2014-03-25_
 <tr class="even">
 <td><p>16397</p></td>
 <td><p>аппликатионшаринг</p></td>
-<td><p>АСМКУ</p></td>
+<td><p>асмку</p></td>
 </tr>
 <tr class="odd">
 <td><p>16398</p></td>
@@ -199,8 +201,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="even">
 <td><p>16403</p></td>
-<td><p>ЛинЦимм</p></td>
-<td><p>ЛинЦимм</p></td>
+<td><p>линЦимм</p></td>
+<td><p>линЦимм</p></td>
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
@@ -209,8 +211,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
-<td><p>ЛВА</p></td>
-<td><p>ЛВА</p></td>
+<td><p>лва</p></td>
+<td><p>лва</p></td>
 </tr>
 <tr class="odd">
 <td><p>16406</p></td>
@@ -229,13 +231,13 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="even">
 <td><p>16409</p></td>
-<td><p>ИММКУ</p></td>
-<td><p>ИММКУ</p></td>
+<td><p>иммку</p></td>
+<td><p>иммку</p></td>
 </tr>
 <tr class="odd">
 <td><p>16410</p></td>
-<td><p>Ксмпптгв</p></td>
-<td><p>Ксмппгатевай</p></td>
+<td><p>ксмпптгв</p></td>
+<td><p>ксмппгатевай</p></td>
 </tr>
 <tr class="even">
 <td><p>32769</p></td>
@@ -244,8 +246,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>32770</p></td>
-<td><p>Гатеваймедиатионсерверпаир</p></td>
-<td><p>Гатеваймедиатионсерверпаир</p></td>
+<td><p>гатеваймедиатионсерверпаир</p></td>
+<td><p>гатеваймедиатионсерверпаир</p></td>
 </tr>
 </tbody>
 </table>

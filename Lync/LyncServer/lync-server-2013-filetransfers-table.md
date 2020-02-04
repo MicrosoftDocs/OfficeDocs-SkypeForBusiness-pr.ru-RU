@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица FileTransfers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FileTransfers table
 ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398353(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71e53e59e3ed1391adebff8b7c4046ef3c23aa21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834151"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743369"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,13 +57,13 @@ _**Тема последнего изменения:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Сессионидтиме</strong></p></td>
+<td><p><strong>сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Основной, внешний</p></td>
 <td><p>Время запроса сеанса. Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Сессионидсек</strong></p></td>
+<td><p><strong>сессионидсек</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Основной, внешний</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
@@ -73,7 +75,7 @@ _**Тема последнего изменения:** 2012-09-28_
 <td><p>Имя файла.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Филеидентити</strong></p></td>
+<td><p><strong>филеидентити</strong></p></td>
 <td><p>идентификатора</p></td>
 <td></td>
 <td><p>Уникальный идентификатор, позволяющий отличать передачу файлов с одним и тем же именем файла.</p></td>

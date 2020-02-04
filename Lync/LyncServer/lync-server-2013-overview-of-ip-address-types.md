@@ -3,6 +3,8 @@ title: 'Lync Server 2013: обзор типов IP-адресов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of IP address types for Lync Server
 ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90d31045879c4e6f488c232687346ed0413ef62b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825515"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -319,17 +321,17 @@ Lync Server 2013 не поддерживает обмен мультимедий
 <td><p><strong>Интерфейсный пул: IPv4</strong></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
-<td><p>Да</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Интерфейсный пул: двойной стек</strong></p></td>
 <td><p>Да </p></td>
 <td><p>Да</p></td>
-<td><p>Да</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Интерфейсный пул: IPv6</strong></p></td>
-<td><p>Возможность идентификации любого пользователя в организации с помощью ПИН-кода.</p></td>
+<td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Да*</p></td>
 </tr>
@@ -361,7 +363,7 @@ Lync Server 2013 не поддерживает обмен мультимедий
 <td><p><strong>Пограничный пул (внутренний периметр): IPv4</strong></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
-<td><p>Да</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Пограничный пул (внутренний периметр): двойной стек</strong></p></td>

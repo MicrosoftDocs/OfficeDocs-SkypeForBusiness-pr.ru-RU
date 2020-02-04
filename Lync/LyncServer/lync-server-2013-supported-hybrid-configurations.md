@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Поддерживаемые гибридные кон
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported hybrid configurations
 ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 142b86720e64fdfd071bc5cacb21e4891e3e7758
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dea28ecfcd5e6a881c1d3d1ee63f16cd4821410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849585"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764345"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -140,7 +142,7 @@ _**Тема последнего изменения:** 2016-05-10_
 <li><p>Архивация содержимого (мгновенных сообщений и собраний) в Exchange.</p>
 <p>Дополнительные сведения можно найти <a href="lync-server-2013-deployment-checklist-for-archiving.md">в разделе Контрольный список развертывания для архивации в Lync Server 2013</a></p></li>
 <li><p>Поиск архивных материалов. Дополнительные сведения можно найти в разделе <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Настройка Exchange для центра обнаружения электронных данных в SharePoint</a></p></li>
-<li><p>Голосовая почта. Дополнительные сведения можно найти <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">в разделе Предоставление пользователям Lync Server 2013 голосовой почты в размещенной UM единой системе</a> обмена сообщениями</p></li>
+<li><p>Голосовая почта. Дополнительные сведения можно найти <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">в разделе Предоставление пользователям Lync Server 2013 голосовой почты в размещенной UM единой системе обмена сообщениями</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">

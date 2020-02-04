@@ -3,6 +3,8 @@ title: 'Lync Server 2013: отчет о тенденциях качества с
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Media Quality Trend Report
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc60cd4c0d8d00fa67a5fe77ca70e61058191baa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4efb7e2f29c1da75a81f4df4ec586c396d77d3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821875"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ _**Тема последнего изменения:** 2012-11-12_
 
 Доступ к отчету по тенденциям качества мультимедиа на серверах можно получить из одного из следующих отчетов:
 
-  - [Отчет о производительности сервера в Lync server 2013](lync-server-2013-server-performance-report.md) (выбирая метрику тренда)
+  - [Отчет о производительности сервера в Lync server 2013](lync-server-2013-server-performance-report.md) (посредством выбора метрики тренда)
 
-  - [Подробный отчет о звонке в Lync Server 2013](lync-server-2013-call-detail-report.md) (щелкнув метрику пограничного сервера «A/V». Если вызывающий или вызываемый объект является сервером, вы также можете связаться с отчетом о тенденциях для качества сервера, щелкнув имя конечной точки.)
+  - [Подробный отчет о звонке в Lync server 2013](lync-server-2013-call-detail-report.md) (для этого щелкните метрику пограничного сервера «A/V». Если вызывающий или вызываемый объект является сервером, вы также можете связаться с отчетом о тенденциях для качества сервера, щелкнув имя конечной точки.)
 
 </div>
 

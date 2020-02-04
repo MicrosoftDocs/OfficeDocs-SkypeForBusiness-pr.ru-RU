@@ -3,6 +3,8 @@ title: 'Lync Server 2013: новые функции сервера сохран�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Persistent Chat Server features
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6d5cd0b8197b64abfc0761dfb333f338b507ff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe207d2469a36d880e9ed519ff1d47d942ed79aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826208"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Lync Server 2013, сервер сохраняемого чата недосту�
 
   - Справка по сохранению чата <http://go.microsoft.com/fwlink/p/?linkid=270945> , в которой содержится подробный список функций сохраняемого чата, как они работают и как использовать их во время работы с сохраняемым сервером чата.
 
-  - [Сервер планирования в Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) в документации по планированию [развертывание сохраняемого сервера чата в Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) в документации по развертыванию, [Переход с Lync Server 2010, групповой чат или Office Communications Server 2007 R2 Group Chat to Lync Server 2013, сохраняемый сервер чата](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) в документации по миграции и [Управление Lync Server 2013, сохраняемый сервер чата](managing-lync-server-2013-persistent-chat-server.md) в документации по работе, в которой содержатся инструкции для Настройка сервера сохраняемого чата.
+  - [Сервер планирования для постоянного чата в Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) в документации по планированию [Развертывание постоянного сервера чатов в Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) в документации по развертыванию, [Переход с Lync Server 2010, групповой чат или Office Communications Server 2007 R2 group Chat на Lync Server 2013, сохраняемый сервер чата](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) в документации по миграции и [Управление Lync Server 2013, сохраняемый сервер чата](managing-lync-server-2013-persistent-chat-server.md) в документации по переходу, в котором содержатся инструкции по настройке Сервер сохраняемого чата.
 
   - MSI-файл документации на сервере (файл установщика Windows) позволяет пользователям получить доступ к полной автономной документации на сервере сохраняемого чата.
 
