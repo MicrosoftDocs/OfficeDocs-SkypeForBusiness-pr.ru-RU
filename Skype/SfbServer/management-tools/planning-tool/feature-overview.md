@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Средство планирования Skype для бизнеса Server 2015
-ms.openlocfilehash: fddf71cef6dc54045c657ca466137b4adb650d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 360ce0cbac209c6076c470242eb1f552afacc949
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274179"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696334"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -83,7 +83,7 @@ ms.locfileid: "34274179"
     Skype для бизнеса Server 2015 представляет полностью интегрированный прокси-сервер КСМПП (развернутый на пограничном сервере) и шлюз КСМПП, развернутый на серверах переднего плана. Вы можете развернуть Добавление и настройку шлюза КСМПП proxy и КСМПП, чтобы пользователи Skype для бизнеса Server 2015 могли добавлять контакты из партнеров на основе КСМПП для обмена мгновенными сообщениями и их присутствия.
 
 > [!NOTE]
-> Шлюзы и прокси-серверы КСМПП доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Более подробную информацию вы видите в разделе [перевод КСМПП Федерации](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Прокси-серверы и шлюзы XMPP доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Дополнительные сведения см. в статье [Перенос федерации XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md).
     
 - **Мобильность**
     

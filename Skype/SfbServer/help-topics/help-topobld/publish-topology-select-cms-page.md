@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Вы публикуете топологию, настроенную с помощью построителя топологии. Вам будет предложено выбрать из списка сервер переднего плана или пул переднего плана, роль которого заключается в том, что вы владеете централизованным хранилищем управления. Только один сервер переднего плана или интерфейс переднего плана может включать эту роль в любое время.
-ms.openlocfilehash: 8f529f9b7fb303a7c5477bd28eea6d2881960937
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a5078389b1489f6b690b324b72cdf2808822554f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289849"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696774"
 ---
 # <a name="publish-topology-select-cms-page"></a>Страница публикации CMS выбора топологии
 

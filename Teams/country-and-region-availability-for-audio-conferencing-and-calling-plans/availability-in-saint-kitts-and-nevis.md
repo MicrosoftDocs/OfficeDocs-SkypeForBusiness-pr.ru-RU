@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Сент-Китс и Невис.
-ms.openlocfilehash: 6045535322c595018244cab146474c6bf9114a9b
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: e8f236da6a14a39a5a0b49feae96dfd5347f8f54
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741668"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694704"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>Доступность в Сент-Китс и Невис
 

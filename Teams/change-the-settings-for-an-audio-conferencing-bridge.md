@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
+f1.keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Получите инструкции по изменению параметров для моста конференц-связи, который используется для запроса вызывающих абонентов и сбора имен и контактов для собраний организаторов, если они не пользуются приложениями Skype для бизнеса или Microsoft Teams. '
-ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 0e5a93ec86ac0582fcfd35435bce47e746a35f44
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37516956"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695504"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Изменение настроек для моста аудиоконференций
 

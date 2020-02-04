@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568579"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694284"
 ---
 # <a name="what-are-communications-credits"></a>Что такое кредиты на связь?
 
@@ -71,7 +72,7 @@ ms.locfileid: "37568579"
   
 ## <a name="communications-credits"></a>Кредиты на связь
 
-У каждой организации свой объем планов звонков и тарифы. Эти сведения по использованию можно получить у текущего поставщика услуг. В организациях, использующих Skype для бизнеса в качестве поставщика услуг, вы можете получить данные об использовании, просмотрев их в**отчетах**  >  **центра администрирования Microsoft 365**или в > отчетах **центра администрирования Skype для бизнеса**.** **Сведения об **использовании КТСОП.**  > 
+У каждой организации свой объем планов звонков и тарифы. Эти сведения по использованию можно получить у текущего поставщика услуг. В организациях, использующих Skype для бизнеса в качестве поставщика услуг, вы можете получить данные об использовании в**отчетах** **** >  **центра** > администрирования Microsoft 365, а также в **центре** > администрирования Skype для бизнеса —**сведения об использовании PSTN**.
   
 При настройке кредитов на связь нужно проанализировать объем звонков в своей организации, чтобы определить сумму пополнения счета. Сведения о звонках можно получить в отчете **Сведения об использовании ТСОП**. Записи по звонкам из этого отчета можно экспортировать в Excel для хранения или создания настраиваемых отчетов.
 
@@ -98,7 +99,7 @@ ms.locfileid: "37568579"
   
 Чтобы просмотреть таблицу с лицензией или лицензиями, которые понадобятся для каждой функции, ознакомьтесь со страницей [Лицензирование Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Отчет об использовании услуг ТСОП в Skype для бизнеса](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   

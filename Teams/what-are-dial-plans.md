@@ -15,16 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Сведения о том, какие типы планов звонков (коммутируемые абонентские группы) доступны в Teams, а также о том, как выбрать одну из них для Организации.  '
-ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
-ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
+ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "40891218"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694324"
 ---
 # <a name="what-are-dial-plans"></a>Что такое абонентские группы?
 

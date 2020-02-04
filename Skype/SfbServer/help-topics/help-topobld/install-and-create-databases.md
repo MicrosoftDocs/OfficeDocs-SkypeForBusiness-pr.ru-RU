@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Вы выбираете базы данных, которые вы хотите создать для развертывания. По умолчанию база данных будет создана на сервере SQL Server, определенном в определенном сайте, и будет автоматически развертываться и настраиваться для файлов базы данных на основе сервера SQL Server, на котором вы размещаете базы данных.
-ms.openlocfilehash: 0a121b64e9f1ea25c1ff9b5daf6937adaee578f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf3493932fc699751cb31e1ab6f76312195b4e0a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284314"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697214"
 ---
 # <a name="install-and-create-databases"></a>Установка и создание баз данных
 

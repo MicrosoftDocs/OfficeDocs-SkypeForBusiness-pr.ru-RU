@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Клиентам предоставлены бесплатные возможности коммутируемого доступа, которые будут прекращены 30 ноября 2019 г.  Начиная с 1 декабря 2019 г., каждое подписку на аудиоклипы предоставляет 60 минут для каждого пользователя за месяц в любую зону, как описано в настоящем документе. '
-ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311274"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695654"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Подписка на голосовую подписку "на звонки" и "звонить мне по" (в минутах)
 

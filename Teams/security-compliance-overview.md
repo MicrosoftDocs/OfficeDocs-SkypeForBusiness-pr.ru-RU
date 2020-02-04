@@ -12,16 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e0f6424770e2a0ccbe7367d2786949ef4ef2f6d
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 400e6523a867e5ee7c2da1b3d0ccaba14db55f27
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693924"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Обзор обеспечения безопасности и соответствия в Microsoft Teams
 ======================================================
@@ -168,6 +168,6 @@ Microsoft Teams поддерживается отдельно как облач�
 
 Ознакомьтесь с дополнительными сведениями о доверительных отношениях и связанными с безопасностью в [центре управления безопасностью Майкрософт](https://microsoft.com/trustcenter). Команды в центре управления безопасностью должны следовать тем же рекомендациям и принципам.
 
-<a name="related-topics"></a>Статьи по теме
+<a name="related-topics"></a>См. также
 ----------------------
 [Безопасные ссылки на Office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

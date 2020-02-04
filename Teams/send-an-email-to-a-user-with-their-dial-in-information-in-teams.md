@@ -16,16 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Сведения об отправке пользователям сообщения электронной почты со сведениями об аудиоконференции в Microsoft Teams.
-ms.openlocfilehash: 9e4508f3907de35ee2752077ac22b5cd8a5e5735
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: d30e925d35531a2a152778bc805184cfbfc279cb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571319"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694074"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Отправка пользователю сообщения электронной почты со сведениями об аудиоконференции в Microsoft Teams
 
@@ -83,4 +84,4 @@ Windows PowerShell дает возможность управлять польз
   
 ## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

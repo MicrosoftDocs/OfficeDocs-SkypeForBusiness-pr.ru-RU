@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Гондурас.
-ms.openlocfilehash: 666e162de569aefb163a137e30926cf5b30a6a38
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 7e853ee9722261b6e21e05879f4311c9825d4d8a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741103"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695064"
 ---
 # <a name="availability-in-honduras"></a>Доступность в Гондурасе
 

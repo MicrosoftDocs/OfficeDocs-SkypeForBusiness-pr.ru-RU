@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Узнайте, как использовать центр администрирования Microsoft Teams, чтобы просмотреть список всех телефонных номеров в вашей организации, а также все номера, назначенные пользователям или не назначенные.
-ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9cbc26171b8f7321a941cc577e61f90048bf22a7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571437"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694144"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Просмотр списка телефонных номеров в организации
 

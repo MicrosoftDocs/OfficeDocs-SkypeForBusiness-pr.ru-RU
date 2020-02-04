@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Сведения о том, как настроить общие телефоны для приемных, областей приема и конференц-залов '
-ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: f678dba02506672be7176a75a355d606927d76d6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628395"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693914"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Настройка лицензии для телефонов общего пользования для Microsoft Teams
 > [!NOTE]

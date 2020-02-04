@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Фаурнир des експéриенцес доступ à Таус EST Au кœур De La миссии de Microsoft, Куи состоять из à перметтре à чакуе персонне à чакуе организация де ла планèте д'аккомплир davantage. Microsoft Оффре, что Номбре de фонктионналитéс д'акцессибилитé бетонирование Skype Ентреприсе et Microsoft Teams Куи с'инскривент данс, Селезнев, фавеур и l'accessibilité.
-ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516846"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695884"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Решения для специальных возможностей в Skype для бизнеса Online и Microsoft Teams в Франции
 
@@ -68,13 +69,13 @@ Microsoft Teams фаурнит des Pages д'аиде АВЕК des раккаур
 
 - Комментирование лектеур д'éкран бетонирование речерчер des оповещения et y рéпондре данс Microsoft Teams ([https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)) 
 
-Microsoft Teams Пермет маинтенант AUX утилисатеурс de брауиллер леур арриèре — Планирование зависимых Les рéунионс, CE Куи пеут êтре персоннес malentendantes qui «difficultés à lire Les Sur lèvres, qui peuvent être енвироннемент актиф: [ https://support.office.com/fr-fr/article/rendre-votre-arriФЛАУ-данс-Уне-рéунион-EN-éкуипе-f77a2381-443a-499d-825e-509a140f4780? омкт = fr-FR&UI = fr-FR&RS = ru-ru&AD =](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)fr.
+Microsoft Teams Пермет маинтенант AUX утилисатеурс de брауиллер леур арриèре — планирование ных Les рéунионс, CE Куи пеут êтре персоннес malentendantes qui «difficultés à lire Sur lèvres qui, peuvent être facilement-Environnement-Actif. [ https://support.office.com/fr-fr/article/rendre-votre-arri-ère omkt = fr-FR&UI = fr-FR&RS = fr-FR&AD = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
 
-De Plus, Ла фонктион de Chat de Microsoft Teams инклут дéсормаис "иммерсивное средство чтения", CE Куи Пермет AUX утилисатеурс Айант des диффикултéс de et висуеллес de таилле, d'augmenter l'espacement, рéдуире Чамп de л'експéриенце De La: [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). 
+De Plus, Ла фонктион de Chat de Microsoft Teams инклут дéсормаис "иммерсивное средство чтения", CE Куи Пермет AUX утилисатеурс Айант des диффикултéс de висуеллес, таилле, d'augmenter l'espacement, de а для с thèmes réduire, et [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)Les. 
 
 Skype Ентреприсе Пермет Le рéглаже De La таилле du текст de мессажерие инстантанéе бетонирование Уне лекции и фаЦиле, et Microsoft Teams Пермет Le Zoom. Skype Ентреприсе et éкуипес Microsoft фаурниссент Уне поддержку ТЕЛЕТАЙПА. Лорскуе ваус утилисез Skype Ентреприсе, Les Menus de рéпонсе вокале пеувент êтре ралентис, аккéлéрéс редéмаррéс utilisateurs, et les peuvent Choisir инструкции PAS Afficher. Microsoft Teams Пермет рéглаже De La Витессе De La мессажерие вокале.
 
-Les утилисатеурс de Skype Ентреприсе пеувент éгалемент чоисир de рецевоир леурс сообщения вокаукс Саус "de", CE Куи EST партикулиèремент bénéfique бетонирование Les personnes malentendantes OU sourdes, à условие qu'ils utilisent 2010 OU des версии плюс рéцентес: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). Les администратеурс информатикуес de Microsoft Teams пеувент гéрер La транскрипция — это леурс клиенты. 
+Les утилисатеурс de Skype Ентреприсе пеувент éгалемент чоисир de рецевоир леурс сообщения вокаукс Саус, Куи партикулиèремент подразделение bénéfique, personnes условие malentendantes sourdes Outlook 2010 OU des Versions и à: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). Les администратеурс информатикуес de Microsoft Teams пеувент гéрер La транскрипция — это леурс клиенты. 
 
 La Реконнаиссанце вокале Windows пеут éгалемент аидер Les персоннес à мобилитé рéдуите EN леур фаисант бéнéфиЦиер de l'utilisation des команды vocales plutôt Que du Clavier OU de Souris. DES, инструкции, савоир, реконнаиссанце вокале Сур ординатеур фонктионнант Саус сонт Windows 10 диспониблес иЦи: [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition). 
   

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Саудовская Аравия.
-ms.openlocfilehash: ef03d1d0d356c6432b2107dcd668e4b53e1b72cb
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 48a8319220e315131b9a1d6a1dcc6cdc5c02b344
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952412"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694674"
 ---
 # <a name="availability-in-saudi-arabia"></a>Доступность в Саудовской Аравии
 

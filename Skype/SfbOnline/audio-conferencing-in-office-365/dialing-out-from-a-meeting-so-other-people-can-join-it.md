@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Узнайте, что вам нужно, и как организаторы собраний могут позвонить другим людям, с помощью Skype для бизнеса.
-ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 392c868763c071e534daf8488baf751269792773
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306123"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695694"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Исходящие звонки из собрания Skype для бизнеса, чтобы другие люди могли присоединиться к ней
 
@@ -61,6 +62,6 @@ Dial-out is only available to some countries/regions. Полный список 
     
 - [Лицензирование надстройки Skype для бизнеса](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Установка Skype для бизнеса](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

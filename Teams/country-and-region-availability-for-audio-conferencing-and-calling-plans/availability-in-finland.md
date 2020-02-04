@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Финляндии.
-ms.openlocfilehash: c40bf25552f6d701596b50ae479be75a9a588995
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0795cdd787aa2c72e9d0d1c880c8e4199138c0dd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570420"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695184"
 ---
 # <a name="availability-in-finland"></a>Доступность в Финляндии
 

@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 0a483dba984799a3c9e0f1a63ed908dde9a9ca08
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37925370"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693954"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Настройка голосовой конференции в Microsoft Teams
 
@@ -79,7 +80,7 @@ ms.locfileid: "37925370"
 ![Значок, показывающий логотип](media/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса:**
 
  1. Перейдите на**портал**администрирования **центра администрирования Microsoft 365** > **** > **Teams** > Center.
- 2. Выберите номера **голосовых** > **телефонов**.
+ 2. Выберите **Голосовая связь** > **Номера телефонов**.
  3. Выберите номер телефона и нажмите кнопку **назначить**.
 
 Дополнительные сведения можно найти [в разделе изменение номеров телефонов для вашего моста звуковых конференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).

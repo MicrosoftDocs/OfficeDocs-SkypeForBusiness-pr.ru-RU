@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Пошаговые инструкции по созданию номера телефона по умолчанию для вызывающих абонентов для присоединения к собранию Microsoft Teams. '
-ms.openlocfilehash: edaed53ddd25dee875753b76bb612888ebb45cef
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: abe426149ca0fed3c1a28128cc327783844c2478
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571286"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694024"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Настройка телефонных номеров, включаемых в приглашения в Microsoft Teams
 
@@ -82,6 +83,6 @@ Windows PowerShell дает возможность управлять польз
     
 ## <a name="related-topics"></a>Связанные разделы
 
-[Пробная и платная аудиоконференции в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Платная или пробная версия аудиоконференций в Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [Изменение номеров телефонов для моста аудиоконференций](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

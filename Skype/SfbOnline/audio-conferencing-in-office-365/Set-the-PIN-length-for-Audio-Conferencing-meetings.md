@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Получите информацию относительно длины и требований к ПИН-коду, а также узнайте, как устанавливать необходимую длину кода для совещаний в Skype для бизнеса.
-ms.openlocfilehash: 4e4308eab334b37d32cbd53d047ba5fd077a1cad
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9142c78c30c56702e2892d396b5688ee120cc83e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792740"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695814"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Установка длины ПИН-кода для аудиоконференций в Skype для бизнеса Online
 
@@ -42,7 +43,7 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## <a name="setting-the-pin-length"></a>Установка длины ПИН-кода
  
-1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
+1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста** **видеоконференций** > Microsoft.
     
 2. В разделе**длина ПИН-кода** **безопасности** > выберите нужное количество цифр, а затем нажмите кнопку **сохранить**.
     
@@ -69,7 +70,7 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Learn about these advantages in the following topics: 
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности при использовании только в центре администрирования Microsoft 365, например при изменении параметров для нескольких пользователей за один раз. Ознакомьтесь с этими преимуществами в указанных ниже разделах. 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Настройка и использование средства аналитики звонков для выявления и устранения проблем с качеством звонков в Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571253"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693944"
 ---
 # <a name="set-up-call-analytics"></a>Настройка аналитики звонков
 
@@ -88,7 +89,7 @@ ms.locfileid: "37571253"
   
 Если вы создаете файл в формате TSV или CSV с нуля, ознакомьтесь со статьей [Формат файла данных клиента и структура файла данных для построения](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 <a name="BKMK_UploadFiles"> </a>
 
 [Использование аналитики звонков для устранения проблем с качеством звонка](use-call-analytics-to-troubleshoot-poor-call-quality.md)
