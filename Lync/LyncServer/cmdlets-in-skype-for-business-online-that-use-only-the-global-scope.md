@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use only the global scope
 ms:assetid: 0ffd3bc9-a6a1-4c2e-8d52-e599acc49d2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362771(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 210e9116152ebe071ec81d2e0d48ff31b7c20a60
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5610649295fdf4089372d9c59e4ccb51228c1fc2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233108"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728109"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Командлеты в Skype для бизнеса Online, использующие только глобальную область
 
@@ -84,7 +86,7 @@ ms.locfileid: "36233108"
 <td><p>Значение по умолчанию</p></td>
 </tr>
 <tr class="even">
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 <td><p>После изменения глобальной политики</p></td>
 </tr>
 <tr class="odd">

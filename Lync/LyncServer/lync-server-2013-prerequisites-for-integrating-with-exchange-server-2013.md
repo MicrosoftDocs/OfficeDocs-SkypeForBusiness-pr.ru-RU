@@ -3,6 +3,8 @@ title: 'Lync Server 2013: предварительные требования д
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51bc3ce48756f746b2f2f5c0ce65d08567fea74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a381f765c9c91e9c5e218d66320d542a11bf878
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823751"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ URI автообнаружения можно назначить с помощь
 
 Подробные сведения о службе автообнаружения можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)разделе Общие сведения о службе автообнаружения.
 
-После настройки службы автообнаружения необходимо изменить параметры конфигурации OAuth сервера Lync. Это гарантирует, что Lync Server знает, где найти службу автообнаружения. Чтобы изменить параметры конфигурации OAuth в Lync Server 2013, выполните следующую команду в командной консоли Lync Server Management Shell. При выполнении этой команды убедитесь, что вы указали универсальный код ресурса (URI) для службы автообнаружения, запущенной на сервере Exchange, и что вы используете функцию **автообнаружения. svc** , чтобы указать расположение службы вместо **автообнаружения. XML** (указывающий на XML-файл). используется службой):
+После настройки службы автообнаружения необходимо изменить параметры конфигурации OAuth сервера Lync. Это гарантирует, что Lync Server знает, где найти службу автообнаружения. Чтобы изменить параметры конфигурации OAuth в Lync Server 2013, выполните следующую команду в командной консоли Lync Server Management Shell. При выполнении этой команды убедитесь, что вы указали универсальный код ресурса (URI) для службы автообнаружения, запущенной на сервере Exchange, и что вы используете функцию **автообнаружения. svc** , чтобы указать расположение службы вместо **автообнаружения. XML** (указывающий на XML-файл, используемый службой):
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 

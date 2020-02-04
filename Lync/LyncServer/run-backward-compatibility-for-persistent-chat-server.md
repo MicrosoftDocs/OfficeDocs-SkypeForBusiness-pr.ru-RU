@@ -3,6 +3,8 @@ title: Организация обратной совместимости для
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
 ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b512d18449c881efd856674477a727cec137b64c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d7054e9dfb3eba8e6365710accfd3a9693bc39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848900"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Тема последнего изменения:** 2013-02-21_
 
 Этот наиболее распространенный сценарий, как правило, следует за следующим шаблоном:
 
-  - Администрирование пользователей с помощью одного из Lync Server 2010, пула групп чата, а также клиентов группового чата Lync 2010 подключаются к этому пулу с помощью известного пользователя (SIP: оксчат @\<domainName\>. com или аналогичного). Пользователи входят в доменные службы Active Directory с поддержкой SIP, а служба поиска регистрирует их для получения входящих запросов.
+  - Администрирование пользователей с помощью одного из Lync Server 2010, пула групп чата и клиентов группового чата Lync 2010 подключается к этому пулу с помощью известного пользователя (SIP: ocschat@\<ИмяДомена\>. com или аналогичного). Пользователи входят в доменные службы Active Directory с поддержкой SIP, а служба поиска регистрирует их для получения входящих запросов.
 
   - Затем вы установите сервер для Lync Server 2013 и пул серверов для сохраняемого чата.
 

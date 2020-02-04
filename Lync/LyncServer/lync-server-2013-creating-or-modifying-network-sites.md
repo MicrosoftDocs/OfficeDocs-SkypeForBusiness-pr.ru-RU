@@ -3,6 +3,8 @@ title: 'Lync Server 2013: создание и изменение сетевых 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying network sites
 ms:assetid: 358aa08a-c5bc-45fc-8017-19e6202f88c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520975(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bb09dfcd490d47de1bbfbbde48f538e95fc64cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4c77c343bff92e25ffc1678bc06e7a0ef05d3f96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728769"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -92,7 +94,7 @@ _**Тема последнего изменения:** 2012-10-08_
     
 
     > [!NOTE]  
-    > При создании нового сайта сети <STRONG></STRONG> не следует использовать таблицу с сопоставленными подсетями. При создании или изменении подсети вы связываете подсеть с сайтом. Дополнительные сведения можно найти <A href="lync-server-2013-create-or-modify-network-subnets.md">в разделе Создание или изменение подсетей сети в Lync Server 2013</A>.
+    > При создании нового сайта сети не следует использовать таблицу с <STRONG>сопоставленными подсетями</STRONG> . При создании или изменении подсети вы связываете подсеть с сайтом. Дополнительные сведения можно найти <A href="lync-server-2013-create-or-modify-network-subnets.md">в разделе Создание или изменение подсетей сети в Lync Server 2013</A>.
 
     
     </div>
@@ -117,7 +119,7 @@ _**Тема последнего изменения:** 2012-10-08_
 
 7.  Нажмите **Исполнить**.
 
-На этой странице невозможно **** изменить связанную таблицу подсетей. Список связанных подсетей предоставляется для справки, чтобы узнать о том, какие подсети будут затронуты при изменении параметров сайта.
+На этой странице невозможно изменить **связанную таблицу подсетей** . Список связанных подсетей предоставляется для справки, чтобы узнать о том, какие подсети будут затронуты при изменении параметров сайта.
 
 </div>
 

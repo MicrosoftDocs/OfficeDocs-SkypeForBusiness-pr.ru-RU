@@ -3,6 +3,8 @@ title: Включение Exchange 2013 Outlook Web App и интеграции 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Exchange 2013 Outlook Web App and IM integration
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204857(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69df3f33f0671d3014e90859fd39cc2b85f9558b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0bd9fb94dd0f068547819aa884b608ac6ddf7e39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841874"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ _**Тема последнего изменения:** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > Если ваш сервер CAS <EM>не</EM> размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013 (UM), пропустите оставшиеся действия, описанные в этой процедуре, и выполните описанную ниже процедуру "Создание надежного приложения для сервера Exchange 2013". разделе. Если ваш сервер CAS размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013 (UM), выполните действия, описанные в этой процедуре, и не выполняйте процедуру "создать доверенное приложение для сервера Exchange 2013 SharePoint" ниже в этой статье.
+    > Если ваш сервер CAS <EM>не</EM> размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013 (UM), пропустите оставшиеся действия, описанные в этой процедуре, и выполните действия "создать доверенное приложение для сервера Exchange 2013 SharePoint", описанное ниже в этой статье. Если ваш сервер CAS размещен на том же сервере, на котором работает единая система обмена сообщениями Exchange 2013 (UM), выполните действия, описанные в этой процедуре, и не выполняйте процедуру "создать доверенное приложение для сервера Exchange 2013 SharePoint" ниже в этой статье.
 
     
     </div>

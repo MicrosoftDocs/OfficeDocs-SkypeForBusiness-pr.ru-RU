@@ -3,6 +3,8 @@ title: 'Lync Server 2013: командлеты пограничного серв
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edge Server cmdlets
 ms:assetid: 1a5427f4-a0d1-4652-8135-91333158ffc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5c743cb229adb6f1ed8298d51713da181750cea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d142bc2a98fbbb1d8147943e379ae1e1a243b18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834331"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ _**Тема последнего изменения:** 2013-10-07_
 
 Ниже приведен список командлетов, которые непосредственно относятся к управлению пограничными серверами.
 
-**пограничный сервер**
+**Пограничный сервер**
 
   - <span></span>  
     [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398574(v=OCS.15))

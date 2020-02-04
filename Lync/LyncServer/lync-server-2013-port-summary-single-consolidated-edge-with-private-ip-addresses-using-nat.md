@@ -3,6 +3,8 @@ title: Сводка по портам — единая консолидиров�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b7c908d52577375f9caaab974f059ffda17fb35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a425a07bf5ff615fb4766d50f21c6467512d110e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725019"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Тема последнего изменения:** 2013-04-03_
 
 **Периметр сети для единого консолидированного пограничного сервера с использованием протокола преобразования сетевых адресов (NAT)**
 
-![f8c144c5-e5fb-498a-823e-eb39f26b6847] (images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
+![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
 
 <div>
 

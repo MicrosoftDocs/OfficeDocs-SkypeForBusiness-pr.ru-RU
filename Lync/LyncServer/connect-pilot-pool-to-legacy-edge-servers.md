@@ -3,6 +3,8 @@ title: Подключение пилотного пула к старым пог
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**Тема последнего изменения:** 2012-09-29_
 
 5.  В разделе **назначение маршрута Федерации сайтов**выберите **включить федерацию SIP**, а затем — режиссер сервера Lync Server 2010 или сервер Lync Server 2010 Edge Server, если в списке нет режиссера.
     
-    ![Страница "изменение свойств", "маршрут Федерации] " (images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Страница \"изменение свойств\", \"маршрут Федерации") "  
+    ![Страница "изменение свойств", "маршрут Федерации"](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Страница "изменение свойств", "маршрут Федерации"")  
 
 6.  Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** .
 
@@ -63,7 +65,7 @@ _**Тема последнего изменения:** 2012-09-29_
 
 9.  Выберите в списке старый сервер пограничного сервера.
     
-    ![Диалоговое окно "изменение свойств" с выделенным старым краем] (images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Диалоговое окно \"изменение свойств\" с выделенным старым краем")  
+    ![Диалоговое окно "изменение свойств" с выделенным старым краем](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Диалоговое окно "изменение свойств" с выделенным старым краем")  
 
 10. Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** .
 

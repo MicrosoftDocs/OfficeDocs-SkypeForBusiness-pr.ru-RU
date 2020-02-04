@@ -3,6 +3,8 @@ title: Планирование интеграции расширенной сл
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184892
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2f4e1d8f9b7f164dd9e83f556dcc57809619278
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee0543d36cb43a05042ca4341a837ae10b52051
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Тема последнего изменения:** 2012-10-22_
 
 Предыдущие версии Lync Server и Office Communications Server предоставили шлюз расширенных сообщений и протоколов доступа (КСМПП), который можно развернуть как отдельную серверную роль, разрешающую Федерацию с помощью КСМППных развертываний. В Microsoft Lync Server 2013 функциональность КСМПП может быть развернута как функция. Функции КСМПП устанавливаются в двух частях: прокси-сервер КСМПП, который работает на пограничном сервере и шлюз КСМПП, который работает на серверах переднего плана.
 
-Развертывание и настройка КСМПП рассматривается при развертывании [внешних пользователей в Lync Server 2013](lync-server-2013-deploying-external-user-access.md) вы планируете поддерживать КСМПП в вашей организации, определив правила порта и протоколов в брандмауэре, настроить сертификаты и добавить DNS-сервер. строк. В следующих разделах приведены сведения о том, как вам потребуется успешно спланировать КСМПП Федерацию для развертывания.
+Развертывание и настройка КСМПП рассматривается при [развертывании внешних пользователей в Lync Server 2013](lync-server-2013-deploying-external-user-access.md) вы планируете поддерживать КСМПП в вашей организации, определяя правила порта и протоколов в брандмауэре, настройку сертификатов и добавление записей DNS. В следующих разделах приведены сведения о том, как вам потребуется успешно спланировать КСМПП Федерацию для развертывания.
 
 <div>
 

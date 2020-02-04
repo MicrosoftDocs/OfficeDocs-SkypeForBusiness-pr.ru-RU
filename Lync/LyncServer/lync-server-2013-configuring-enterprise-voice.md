@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Настройка корпоративной голо
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Enterprise Voice
 ms:assetid: 7df179fa-d3a2-4b23-a433-b750aedf980b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994041(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e46bd64efd8aa2eb6e1aead17083aa8593c8544
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841260"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -68,7 +70,7 @@ _**Тема последнего изменения:** 2013-03-12_
 <th>Тип системы</th>
 <th>Имя</th>
 <th>Местоположение</th>
-<th>посредник</th>
+<th>Сервер-посредник</th>
 </tr>
 </thead>
 <tbody>
@@ -83,7 +85,7 @@ _**Тема последнего изменения:** 2013-03-12_
 <td><p>Магистраль 2 ХИД-GW</p></td>
 <td><p>Шлюз ТСОП</p></td>
 <td><p>ХИД-GW</p></td>
-<td><p>Хидерабад</p></td>
+<td><p>хидерабад</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="odd">
@@ -97,7 +99,7 @@ _**Тема последнего изменения:** 2013-03-12_
 <td><p>Магистральная ХИД 4-УАТС</p></td>
 <td><p>АТС</p></td>
 <td><p>ХИД-УАТС</p></td>
-<td><p>Хидерабад</p></td>
+<td><p>хидерабад</p></td>
 <td><p>MS1</p></td>
 </tr>
 </tbody>
@@ -145,7 +147,7 @@ _**Тема последнего изменения:** 2013-03-12_
 <td><p>Использование Хидерабад, Хид УАТС, использование АТС Delete</p></td>
 </tr>
 <tr class="odd">
-<td><p>Превентпстнтоллбипасс</p></td>
+<td><p>превентпстнтоллбипасс</p></td>
 <td><p>False</p></td>
 <td><p>False</p></td>
 </tr>

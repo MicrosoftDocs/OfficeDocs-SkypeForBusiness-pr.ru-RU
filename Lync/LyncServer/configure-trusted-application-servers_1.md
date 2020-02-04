@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 47a9e72e-566c-4c23-bec2-760a3098a974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204865(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28002e8bb060e9ac966121a419d8475b4828258
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92e7f2c808e9ea5a3e8dfbf3010715c86e02596e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233168"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ _**Тема последнего изменения:** 2012-10-04_
 
 5.  На странице **Выбор следующего прыжка** в списке выберите пул внешних интерфейсов Lync Server 2013.
     
-    ![Диалоговое окно определения нового доверенного пула приложений] (images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "Диалоговое окно определения нового доверенного пула приложений")  
+    ![Диалоговое окно определения нового доверенного пула приложений](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "Диалоговое окно определения нового доверенного пула приложений")  
 
 6.  Нажмите **Готово**.
 

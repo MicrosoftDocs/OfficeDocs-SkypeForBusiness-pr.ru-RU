@@ -3,6 +3,8 @@ title: 'Lync Server 2013: о сетевых областях, сайтах и п
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6601a0baafd1226f4e283d62a8cbdb410064ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723429"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Тема последнего изменения:** 2013-02-24_
 
 
 > [!IMPORTANT]  
-> Прежде чем приступить к настройке сети для управления допуском звонков, E9-1-1 или мультимедиа, убедитесь, что вы просматриваете дополнительные сведения о параметрах сети в <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">параметрах сети для расширенных функций голосовой связи в Lync Server 2013</A> . раздел в документации по планированию. Сведения о конфигурации сети в основном для управления допуском звонков также можно найти <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">в разделе Определение требований к управлению допуском звонков в Lync Server 2013</A> в документации по планированию.
+> Прежде чем приступить к настройке сети для управления допуском звонков, E9-1-1 или мультимедиа, убедитесь, что вы просматриваете дополнительные сведения о параметрах сети в разделе <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Параметры сети для расширенных функций голосовой связи в Lync Server 2013</A> в документации по планированию. Сведения о конфигурации сети в основном для управления допуском звонков также можно найти <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">в разделе Определение требований к управлению допуском звонков в Lync Server 2013</A> в документации по планированию.
 
 
 
