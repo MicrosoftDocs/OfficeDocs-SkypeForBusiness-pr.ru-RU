@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица User'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User table
 ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398505(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baaf8b8dea0f9e5aa77986791c82051fc00e90b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8256dec91c93ca6e8f0fd3cfff65280a417324e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849287"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ _**Тема последнего изменения:** 2012-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Усеркэй</strong></p></td>
+<td><p><strong>усеркэй</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этого пользователя.</p></td>
@@ -67,7 +69,7 @@ _**Тема последнего изменения:** 2012-10-02_
 <td><p>Строка URI.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Уритипе</strong></p></td>
+<td><p><strong>уритипе</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>1 — неизвестный тип URI.</p>
@@ -76,19 +78,19 @@ _**Тема последнего изменения:** 2012-10-02_
 <p>8 — это универсальный код ресурса (URI) телефона.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Тенанткэй</strong></p></td>
+<td><p><strong>тенанткэй</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Другом</p></td>
 <td><p>Клиент для пользователя, на который ссылается таблица "клиент".</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ластпуркаллтиме</strong></p></td>
+<td><p><strong>ластпуркаллтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
 <td><p>Самая поздняя метка времени, когда пользователь приходил к вызову неудовлетворительного звука.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Некступдатетс</strong></p></td>
+<td><p><strong>некступдатетс</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
 <td><p>Только для внутреннего использования.</p></td>
