@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure XMPP gateway access policies and certificates
 ms:assetid: cd91433e-6dfb-4553-8316-c1086b394221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721885(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e2ae31161241b05a626dbbb49193b9cd2e8e117
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3f1aabeeb49ecc413107d5cd346f310c0d2d294
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +26,7 @@ ms.locfileid: "36233143"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="64d89-102">Настройка политик доступа и сертификатов шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="64d89-102">Configure XMPP gateway access policies and certificates</span></span>
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="d8fc2-102">Настройка политик доступа и сертификатов шлюза XMPP</span><span class="sxs-lookup"><span data-stu-id="d8fc2-102">Configure XMPP gateway access policies and certificates</span></span>
 
 </div>
 
@@ -34,21 +36,21 @@ ms.locfileid: "36233143"
 
 <span> </span>
 
-<span data-ttu-id="64d89-103">_**Тема последнего изменения:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="64d89-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="d8fc2-103">_**Тема последнего изменения:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="d8fc2-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="64d89-104">КСМПП Федерация определяет внешнее развертывание на основе расширяемого протокола обмена сообщениями и присутствия (КСМПП).</span><span class="sxs-lookup"><span data-stu-id="64d89-104">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP).</span></span> <span data-ttu-id="64d89-105">Конфигурация КСМПП позволяет пользователям Lync получать доступ к КСМПП доменам, выполнив указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="64d89-105">An XMPP configuration allows Lync users access to XMPP domain users by:</span></span>
+<span data-ttu-id="d8fc2-104">КСМПП Федерация определяет внешнее развертывание на основе расширяемого протокола обмена сообщениями и присутствия (КСМПП).</span><span class="sxs-lookup"><span data-stu-id="d8fc2-104">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP).</span></span> <span data-ttu-id="d8fc2-105">Конфигурация КСМПП позволяет пользователям Lync получать доступ к КСМПП доменам, выполнив указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-105">An XMPP configuration allows Lync users access to XMPP domain users by:</span></span>
 
-  - <span data-ttu-id="64d89-106">Обмен сообщениями и присутствие — только для человека</span><span class="sxs-lookup"><span data-stu-id="64d89-106">IM and Presence – person to person only</span></span>
+  - <span data-ttu-id="d8fc2-106">Обмен сообщениями и присутствие — только для человека</span><span class="sxs-lookup"><span data-stu-id="d8fc2-106">IM and Presence – person to person only</span></span>
 
-  - <span data-ttu-id="64d89-107">Создание федеративных контактов КСМПП в клиенте Lync</span><span class="sxs-lookup"><span data-stu-id="64d89-107">Creation of XMPP federated contacts in the Lync client</span></span>
+  - <span data-ttu-id="d8fc2-107">Создание федеративных контактов КСМПП в клиенте Lync</span><span class="sxs-lookup"><span data-stu-id="d8fc2-107">Creation of XMPP federated contacts in the Lync client</span></span>
 
-<span data-ttu-id="64d89-108">Если вы настраиваете политики для поддержки федеративных партнеров по протоколу расширенного обмена сообщениями (КСМПП), политики применяются к пользователям КСМПП федеративных доменов, но не к пользователям служб мгновенных сообщений в протоколе запуска сеансов (SIP). (например, Windows Live) или федеративные домены SIP.</span><span class="sxs-lookup"><span data-stu-id="64d89-108">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains.</span></span> <span data-ttu-id="64d89-109">Вы настраиваете федеративного партнера КСМПП для каждого КСМПП федеративного домена, с которым вы хотите разрешить пользователям добавлять контакты и взаимодействовать с ними.</span><span class="sxs-lookup"><span data-stu-id="64d89-109">You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="64d89-110">После того как политики будут установлены, необходимо настроить сертификаты шлюза КСМПП.</span><span class="sxs-lookup"><span data-stu-id="64d89-110">Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span>
+<span data-ttu-id="d8fc2-108">Если вы настраиваете политики для поддержки федеративных партнеров по протоколу расширенного обмена сообщениями (КСМПП), политики применяются к пользователям КСМПП федеративных доменов, но не к пользователям служб мгновенных сообщений в протоколе запуска сеансов (SIP). (например, Windows Live) или федеративные домены SIP.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-108">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains.</span></span> <span data-ttu-id="d8fc2-109">Вы настраиваете федеративного партнера КСМПП для каждого КСМПП федеративного домена, с которым вы хотите разрешить пользователям добавлять контакты и взаимодействовать с ними.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-109">You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="d8fc2-110">После того как политики будут установлены, необходимо настроить сертификаты шлюза КСМПП.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-110">Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="64d89-111">Чтобы начать миграцию шлюза КСМПП, необходимо развернуть шлюз Lync Server 2013 КСМПП и настроить политики доступа, чтобы включить пользователей для Lync Server 2013 КСМПП Gateway.</span><span class="sxs-lookup"><span data-stu-id="64d89-111">To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway.</span></span> <span data-ttu-id="64d89-112">Перед выполнением описанных ниже действий необходимо переместить всех пользователей в развертывание Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="64d89-112">All users must be moved to the Lync Server 2013 deployment before you perform these steps.</span></span> <span data-ttu-id="64d89-113">Подробности можно найти <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">в разделе Настройка шлюза КСМПП на Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="64d89-113">For details, see <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configure XMPP gateway on Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="d8fc2-111">Чтобы начать миграцию шлюза КСМПП, необходимо развернуть шлюз Lync Server 2013 КСМПП и настроить политики доступа, чтобы включить пользователей для Lync Server 2013 КСМПП Gateway.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-111">To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway.</span></span> <span data-ttu-id="d8fc2-112">Перед выполнением описанных ниже действий необходимо переместить всех пользователей в развертывание Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-112">All users must be moved to the Lync Server 2013 deployment before you perform these steps.</span></span> <span data-ttu-id="d8fc2-113">Подробности можно найти <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">в разделе Настройка шлюза КСМПП на Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-113">For details, see <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configure XMPP gateway on Lync Server 2013</A>.</span></span>
 
 
 
@@ -56,23 +58,23 @@ ms.locfileid: "36233143"
 
 <div>
 
-## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="64d89-114">Настройка политики внешнего доступа для поддержки пользователей Lync Server 2013 КСМПП Gateway</span><span class="sxs-lookup"><span data-stu-id="64d89-114">Configure an External Access Policy to Enable Users for Lync Server 2013 XMPP Gateway</span></span>
+## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="d8fc2-114">Настройка политики внешнего доступа для поддержки пользователей Lync Server 2013 КСМПП Gateway</span><span class="sxs-lookup"><span data-stu-id="d8fc2-114">Configure an External Access Policy to Enable Users for Lync Server 2013 XMPP Gateway</span></span>
 
-1.  <span data-ttu-id="64d89-115">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="64d89-115">Open Lync Server Control Panel.</span></span>
+1.  <span data-ttu-id="d8fc2-115">Откройте Панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-115">Open Lync Server Control Panel.</span></span>
 
-2.  <span data-ttu-id="64d89-116">На панели навигации слева выберите пункт **интеграция и внешний доступ**, а затем — **Политика внешнего доступа**.</span><span class="sxs-lookup"><span data-stu-id="64d89-116">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
+2.  <span data-ttu-id="d8fc2-116">На панели навигации слева выберите пункт **интеграция и внешний доступ**, а затем — **Политика внешнего доступа**.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-116">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
 
-3.  <span data-ttu-id="64d89-117">Нажмите кнопку **создать** , а затем выберите пункт **Политика пользователя**.</span><span class="sxs-lookup"><span data-stu-id="64d89-117">Click **New** and then click **User policy**.</span></span>
+3.  <span data-ttu-id="d8fc2-117">Нажмите кнопку **создать** , а затем выберите пункт **Политика пользователя**.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-117">Click **New** and then click **User policy**.</span></span>
 
-4.  <span data-ttu-id="64d89-118">Введите имя для политики пользователей внешнего доступа.</span><span class="sxs-lookup"><span data-stu-id="64d89-118">Enter a name for the external access user policy.</span></span>
+4.  <span data-ttu-id="d8fc2-118">Введите имя для политики пользователей внешнего доступа.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-118">Enter a name for the external access user policy.</span></span>
 
-5.  <span data-ttu-id="64d89-119">Введите описание для политики пользователей внешнего доступа.</span><span class="sxs-lookup"><span data-stu-id="64d89-119">Provide a description for external access user policy.</span></span>
+5.  <span data-ttu-id="d8fc2-119">Введите описание для политики пользователей внешнего доступа.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-119">Provide a description for external access user policy.</span></span>
 
-6.  <span data-ttu-id="64d89-120">Выберите **включить связь с федеративными пользователями**.</span><span class="sxs-lookup"><span data-stu-id="64d89-120">Select **Enable communications with federated users**.</span></span>
+6.  <span data-ttu-id="d8fc2-120">Выберите **включить связь с федеративными пользователями**.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-120">Select **Enable communications with federated users**.</span></span>
 
-7.  <span data-ttu-id="64d89-121">Выберите **включить связь с федеративными пользователями КСМПП**.</span><span class="sxs-lookup"><span data-stu-id="64d89-121">Select **Enable communications with XMPP federated users**.</span></span>
+7.  <span data-ttu-id="d8fc2-121">Выберите **включить связь с федеративными пользователями КСМПП**.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-121">Select **Enable communications with XMPP federated users**.</span></span>
 
-8.  <span data-ttu-id="64d89-122">Нажмите \*\*\*\* кнопку Сохранить, чтобы сохранить изменения в политике сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="64d89-122">Click **Commit** to save your changes to the site or user policy.</span></span>
+8.  <span data-ttu-id="d8fc2-122">Нажмите **кнопку Сохранить,** чтобы сохранить изменения в политике сайта или пользователя.</span><span class="sxs-lookup"><span data-stu-id="d8fc2-122">Click **Commit** to save your changes to the site or user policy.</span></span>
 
 </div>
 

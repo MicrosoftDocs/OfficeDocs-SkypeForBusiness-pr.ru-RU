@@ -3,6 +3,8 @@ title: 'Lync Server 2013: политики мобильной связи'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility policies
 ms:assetid: 8caa5525-e16a-4e38-b3cd-acc0ae9ea375
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688126(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4854bcd63053e323a8df2f855e60e35e24bdd8ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826992"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34826992"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobility-policies-in-lync-server-2013"></a><span data-ttu-id="6e8d0-102">Политики мобильной связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e8d0-102">Mobility policies in Lync Server 2013</span></span>
+# <a name="mobility-policies-in-lync-server-2013"></a><span data-ttu-id="3a3b1-102">Политики мобильной связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3b1-102">Mobility policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,28 +35,28 @@ ms.locfileid: "34826992"
 
 <span> </span>
 
-<span data-ttu-id="6e8d0-103">_**Тема последнего изменения:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="6e8d0-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="3a3b1-103">_**Тема последнего изменения:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="3a3b1-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="6e8d0-104">Чтобы настроить политики мобильной связи для Lync Server 2013, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="6e8d0-104">Use the following procedures to configure mobility policies for Lync Server 2013.</span></span>
+<span data-ttu-id="3a3b1-104">Чтобы настроить политики мобильной связи для Lync Server 2013, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="3a3b1-104">Use the following procedures to configure mobility policies for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6e8d0-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="6e8d0-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3a3b1-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="3a3b1-105">In This Section</span></span>
 
-  - [<span data-ttu-id="6e8d0-106">Создание и изменение политики Mobility Service в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e8d0-106">Create or modify a mobility policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-mobility-policy.md)
+  - [<span data-ttu-id="3a3b1-106">Создание и изменение политики Mobility Service в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3b1-106">Create or modify a mobility policy in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [<span data-ttu-id="6e8d0-107">Назначение политики мобильности на мобильные пользователи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e8d0-107">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [<span data-ttu-id="3a3b1-107">Назначение политики мобильности на мобильные пользователи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3b1-107">Assign a per-user mobility policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [<span data-ttu-id="6e8d0-108">Принудительная Блокировка телефона в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e8d0-108">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
+  - [<span data-ttu-id="3a3b1-108">Принудительная Блокировка телефона в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3b1-108">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6e8d0-109">См. также</span><span class="sxs-lookup"><span data-stu-id="6e8d0-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a3b1-109">См. также</span><span class="sxs-lookup"><span data-stu-id="3a3b1-109">See Also</span></span>
 
 
-[<span data-ttu-id="6e8d0-110">Планирование мобильной работы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6e8d0-110">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)  
+[<span data-ttu-id="3a3b1-110">Планирование мобильной работы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a3b1-110">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)  
   
 
 </div>

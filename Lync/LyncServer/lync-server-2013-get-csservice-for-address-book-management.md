@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Get-Кссервице для управления а�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsService for Address Book management
 ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cfa9bd42bb29ca32ab27dc64d2ee9a111abab8d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834136"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34834136"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="e9ee5-102">Get-Кссервице для управления адресными книгами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e9ee5-102">Get-CsService for Address Book management in Lync Server 2013</span></span>
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="30755-102">Get-Кссервице для управления адресными книгами в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30755-102">Get-CsService for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,118 +35,118 @@ ms.locfileid: "34834136"
 
 <span> </span>
 
-<span data-ttu-id="e9ee5-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e9ee5-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="30755-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="30755-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e9ee5-104">Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет Get-Кссервице локально: Рткуниверсалусерадминс, Рткуниверсалсерверадминс.</span><span class="sxs-lookup"><span data-stu-id="e9ee5-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsService cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span> <span data-ttu-id="e9ee5-105">Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:</span><span class="sxs-lookup"><span data-stu-id="e9ee5-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="30755-104">Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет Get-Кссервице локально: Рткуниверсалусерадминс, Рткуниверсалсерверадминс.</span><span class="sxs-lookup"><span data-stu-id="30755-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Get-CsService cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span> <span data-ttu-id="30755-105">Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:</span><span class="sxs-lookup"><span data-stu-id="30755-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-<span data-ttu-id="e9ee5-106">Get-Кссервице является ценным для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры.</span><span class="sxs-lookup"><span data-stu-id="e9ee5-106">Get-CsService is valuable to retrieve and display the current configuration of your infrastructure’s defined Web Services.</span></span> <span data-ttu-id="e9ee5-107">Определив полное доменное имя (FQDN) для пула и веб-сервер параметров, командлет выводит на экран службы, предоставляемые вашим сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="e9ee5-107">By defining the pool’s fully qualified domain name (FQDN) and the parameter WebServer, the cmdlet returns the web-based services offered by your server, including the Address Book handler and distribution list expansion URIs.</span></span>
+<span data-ttu-id="30755-106">Get-Кссервице является ценным для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры.</span><span class="sxs-lookup"><span data-stu-id="30755-106">Get-CsService is valuable to retrieve and display the current configuration of your infrastructure’s defined Web Services.</span></span> <span data-ttu-id="30755-107">Определив полное доменное имя (FQDN) для пула и веб-сервер параметров, командлет выводит на экран службы, предоставляемые вашим сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="30755-107">By defining the pool’s fully qualified domain name (FQDN) and the parameter WebServer, the cmdlet returns the web-based services offered by your server, including the Address Book handler and distribution list expansion URIs.</span></span>
 
-<span data-ttu-id="e9ee5-108">Например:</span><span class="sxs-lookup"><span data-stu-id="e9ee5-108">For example:</span></span>
+<span data-ttu-id="30755-108">Например:</span><span class="sxs-lookup"><span data-stu-id="30755-108">For example:</span></span>
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-<span data-ttu-id="e9ee5-109">Этот командлет возвращает следующее:</span><span class="sxs-lookup"><span data-stu-id="e9ee5-109">This cmdlet returns the following:</span></span>
+<span data-ttu-id="30755-109">Этот командлет возвращает следующее:</span><span class="sxs-lookup"><span data-stu-id="30755-109">This cmdlet returns the following:</span></span>
 
-<span data-ttu-id="e9ee5-110">Identity::pool01. contoso. NET</span><span class="sxs-lookup"><span data-stu-id="e9ee5-110">Identity : WebServer:pool01.contoso.net</span></span>
+<span data-ttu-id="30755-110">Identity::pool01. contoso. NET</span><span class="sxs-lookup"><span data-stu-id="30755-110">Identity : WebServer:pool01.contoso.net</span></span>
 
-<span data-ttu-id="e9ee5-111">Хранилище файлов: хранилища файлов:DC01. contoso. NET</span><span class="sxs-lookup"><span data-stu-id="e9ee5-111">FileStore : FileStore:dc01.contoso.net</span></span>
+<span data-ttu-id="30755-111">Хранилище файлов: хранилища файлов:DC01. contoso. NET</span><span class="sxs-lookup"><span data-stu-id="30755-111">FileStore : FileStore:dc01.contoso.net</span></span>
 
-<span data-ttu-id="e9ee5-112">Усерсервер: Усерсервер:pool01. contoso. NET</span><span class="sxs-lookup"><span data-stu-id="e9ee5-112">UserServer : UserServer:pool01.contoso.net</span></span>
+<span data-ttu-id="30755-112">Усерсервер: Усерсервер:pool01. contoso. NET</span><span class="sxs-lookup"><span data-stu-id="30755-112">UserServer : UserServer:pool01.contoso.net</span></span>
 
-<span data-ttu-id="e9ee5-113">Примарихттппорт: 80</span><span class="sxs-lookup"><span data-stu-id="e9ee5-113">PrimaryHttpPort : 80</span></span>
+<span data-ttu-id="30755-113">Примарихттппорт: 80</span><span class="sxs-lookup"><span data-stu-id="30755-113">PrimaryHttpPort : 80</span></span>
 
-<span data-ttu-id="e9ee5-114">Примарихттпспорт: 443</span><span class="sxs-lookup"><span data-stu-id="e9ee5-114">PrimaryHttpsPort : 443</span></span>
+<span data-ttu-id="30755-114">Примарихттпспорт: 443</span><span class="sxs-lookup"><span data-stu-id="30755-114">PrimaryHttpsPort : 443</span></span>
 
-<span data-ttu-id="e9ee5-115">Екстерналхттппорт: 8080</span><span class="sxs-lookup"><span data-stu-id="e9ee5-115">ExternalHttpPort : 8080</span></span>
+<span data-ttu-id="30755-115">Екстерналхттппорт: 8080</span><span class="sxs-lookup"><span data-stu-id="30755-115">ExternalHttpPort : 8080</span></span>
 
-<span data-ttu-id="e9ee5-116">Екстерналхттпспорт: 4443</span><span class="sxs-lookup"><span data-stu-id="e9ee5-116">ExternalHttpsPort : 4443</span></span>
+<span data-ttu-id="30755-116">Екстерналхттпспорт: 4443</span><span class="sxs-lookup"><span data-stu-id="30755-116">ExternalHttpsPort : 4443</span></span>
 
-<span data-ttu-id="e9ee5-117">Публишедпримарихттппорт: 80</span><span class="sxs-lookup"><span data-stu-id="e9ee5-117">PublishedPrimaryHttpPort : 80</span></span>
+<span data-ttu-id="30755-117">Публишедпримарихттппорт: 80</span><span class="sxs-lookup"><span data-stu-id="30755-117">PublishedPrimaryHttpPort : 80</span></span>
 
-<span data-ttu-id="e9ee5-118">Публишедпримарихттпспорт: 443</span><span class="sxs-lookup"><span data-stu-id="e9ee5-118">PublishedPrimaryHttpsPort : 443</span></span>
+<span data-ttu-id="30755-118">Публишедпримарихттпспорт: 443</span><span class="sxs-lookup"><span data-stu-id="30755-118">PublishedPrimaryHttpsPort : 443</span></span>
 
-<span data-ttu-id="e9ee5-119">Публишедекстерналхттппорт: 80</span><span class="sxs-lookup"><span data-stu-id="e9ee5-119">PublishedExternalHttpPort : 80</span></span>
+<span data-ttu-id="30755-119">Публишедекстерналхттппорт: 80</span><span class="sxs-lookup"><span data-stu-id="30755-119">PublishedExternalHttpPort : 80</span></span>
 
-<span data-ttu-id="e9ee5-120">Публишедекстерналхттпспорт: 443</span><span class="sxs-lookup"><span data-stu-id="e9ee5-120">PublishedExternalHttpsPort : 443</span></span>
+<span data-ttu-id="30755-120">Публишедекстерналхттпспорт: 443</span><span class="sxs-lookup"><span data-stu-id="30755-120">PublishedExternalHttpsPort : 443</span></span>
 
-<span data-ttu-id="e9ee5-121">Реачпримарипсомсерверпорт: 8060</span><span class="sxs-lookup"><span data-stu-id="e9ee5-121">ReachPrimaryPsomServerPort : 8060</span></span>
+<span data-ttu-id="30755-121">Реачпримарипсомсерверпорт: 8060</span><span class="sxs-lookup"><span data-stu-id="30755-121">ReachPrimaryPsomServerPort : 8060</span></span>
 
-<span data-ttu-id="e9ee5-122">Реачекстерналпсомсерверпорт: 8061</span><span class="sxs-lookup"><span data-stu-id="e9ee5-122">ReachExternalPsomServerPort : 8061</span></span>
+<span data-ttu-id="30755-122">Реачекстерналпсомсерверпорт: 8061</span><span class="sxs-lookup"><span data-stu-id="30755-122">ReachExternalPsomServerPort : 8061</span></span>
 
-<span data-ttu-id="e9ee5-123">Аппшарингпортстарт: 49152</span><span class="sxs-lookup"><span data-stu-id="e9ee5-123">AppSharingPortStart : 49152</span></span>
+<span data-ttu-id="30755-123">Аппшарингпортстарт: 49152</span><span class="sxs-lookup"><span data-stu-id="30755-123">AppSharingPortStart : 49152</span></span>
 
-<span data-ttu-id="e9ee5-124">Аппшарингпорткаунт: 16383</span><span class="sxs-lookup"><span data-stu-id="e9ee5-124">AppSharingPortCount : 16383</span></span>
+<span data-ttu-id="30755-124">Аппшарингпорткаунт: 16383</span><span class="sxs-lookup"><span data-stu-id="30755-124">AppSharingPortCount : 16383</span></span>
 
-<span data-ttu-id="e9ee5-125">Лисервицеинтерналури:https://internalweb.contoso.net/locationinformation/liservice.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-125">LIServiceInternalUri : https://internalweb.contoso.net/locationinformation/liservice.svc</span></span>
+<span data-ttu-id="30755-125">Лисервицеинтерналури:https://internalweb.contoso.net/locationinformation/liservice.svc</span><span class="sxs-lookup"><span data-stu-id="30755-125">LIServiceInternalUri : https://internalweb.contoso.net/locationinformation/liservice.svc</span></span>
 
-<span data-ttu-id="e9ee5-126">Абхандлеринтерналури:https://internalweb.contoso.net/abs/handler</span><span class="sxs-lookup"><span data-stu-id="e9ee5-126">ABHandlerInternalUri : https://internalweb.contoso.net/abs/handler</span></span>
+<span data-ttu-id="30755-126">Абхандлеринтерналури:https://internalweb.contoso.net/abs/handler</span><span class="sxs-lookup"><span data-stu-id="30755-126">ABHandlerInternalUri : https://internalweb.contoso.net/abs/handler</span></span>
 
-<span data-ttu-id="e9ee5-127">Абхандлерекстерналури:https://csweb.contoso.com/abs/handler</span><span class="sxs-lookup"><span data-stu-id="e9ee5-127">ABHandlerExternalUri : https://csweb.contoso.com/abs/handler</span></span>
+<span data-ttu-id="30755-127">Абхандлерекстерналури:https://csweb.contoso.com/abs/handler</span><span class="sxs-lookup"><span data-stu-id="30755-127">ABHandlerExternalUri : https://csweb.contoso.com/abs/handler</span></span>
 
-<span data-ttu-id="e9ee5-128">Длекспансионинтерналури:https://internalweb.contoso.net/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-128">DLExpansionInternalUri : https://internalweb.contoso.net/groupexpansion/service.svc</span></span>
+<span data-ttu-id="30755-128">Длекспансионинтерналури:https://internalweb.contoso.net/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="30755-128">DLExpansionInternalUri : https://internalweb.contoso.net/groupexpansion/service.svc</span></span>
 
-<span data-ttu-id="e9ee5-129">Длекспансионекстерналури:https://csweb.contoso.com/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-129">DLExpansionExternalUri : https://csweb.contoso.com/groupexpansion/service.svc</span></span>
+<span data-ttu-id="30755-129">Длекспансионекстерналури:https://csweb.contoso.com/groupexpansion/service.svc</span><span class="sxs-lookup"><span data-stu-id="30755-129">DLExpansionExternalUri : https://csweb.contoso.com/groupexpansion/service.svc</span></span>
 
-<span data-ttu-id="e9ee5-130">Кахандлеринтерналури:https://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-130">CAHandlerInternalUri : https://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span></span>
+<span data-ttu-id="30755-130">Кахандлеринтерналури:https://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-130">CAHandlerInternalUri : https://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span></span>
 
-<span data-ttu-id="e9ee5-131">Кахандлеринтерналанонури:http://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-131">CAHandlerInternalAnonUri : http://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span></span>
+<span data-ttu-id="30755-131">Кахандлеринтерналанонури:http://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-131">CAHandlerInternalAnonUri : http://internalweb.contoso.net/CertProv/CertProvisioningService.svc</span></span>
 
-<span data-ttu-id="e9ee5-132">Коллабконтентинтерналури:https://internalweb.contoso.net/CollabContent</span><span class="sxs-lookup"><span data-stu-id="e9ee5-132">CollabContentInternalUri : https://internalweb.contoso.net/CollabContent</span></span>
+<span data-ttu-id="30755-132">Коллабконтентинтерналури:https://internalweb.contoso.net/CollabContent</span><span class="sxs-lookup"><span data-stu-id="30755-132">CollabContentInternalUri : https://internalweb.contoso.net/CollabContent</span></span>
 
-<span data-ttu-id="e9ee5-133">Коллабконтентекстерналури:https://csweb.contoso.com/CollabContent</span><span class="sxs-lookup"><span data-stu-id="e9ee5-133">CollabContentExternalUri : https://csweb.contoso.com/CollabContent</span></span>
+<span data-ttu-id="30755-133">Коллабконтентекстерналури:https://csweb.contoso.com/CollabContent</span><span class="sxs-lookup"><span data-stu-id="30755-133">CollabContentExternalUri : https://csweb.contoso.com/CollabContent</span></span>
 
-<span data-ttu-id="e9ee5-134">Кахандлерекстерналури:https://csweb.contoso.com/CertProv/CertProvisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-134">CAHandlerExternalUri : https://csweb.contoso.com/CertProv/CertProvisioningService.svc</span></span>
+<span data-ttu-id="30755-134">Кахандлерекстерналури:https://csweb.contoso.com/CertProv/CertProvisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-134">CAHandlerExternalUri : https://csweb.contoso.com/CertProv/CertProvisioningService.svc</span></span>
 
-<span data-ttu-id="e9ee5-135">Девицеупдатедовнлоадинтерналури:https://internalweb.contoso.net/RequestHandler/ucdevice.upx</span><span class="sxs-lookup"><span data-stu-id="e9ee5-135">DeviceUpdateDownloadInternalUri : https://internalweb.contoso.net/RequestHandler/ucdevice.upx</span></span>
+<span data-ttu-id="30755-135">Девицеупдатедовнлоадинтерналури:https://internalweb.contoso.net/RequestHandler/ucdevice.upx</span><span class="sxs-lookup"><span data-stu-id="30755-135">DeviceUpdateDownloadInternalUri : https://internalweb.contoso.net/RequestHandler/ucdevice.upx</span></span>
 
-<span data-ttu-id="e9ee5-136">Девицеупдатедовнлоадекстерналури:https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx</span><span class="sxs-lookup"><span data-stu-id="e9ee5-136">DeviceUpdateDownloadExternalUri : https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx</span></span>
+<span data-ttu-id="30755-136">Девицеупдатедовнлоадекстерналури:https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx</span><span class="sxs-lookup"><span data-stu-id="30755-136">DeviceUpdateDownloadExternalUri : https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx</span></span>
 
-<span data-ttu-id="e9ee5-137">Девицеупдатестореинтерналури:http://internalweb.contoso.net/RequestHandler/Files</span><span class="sxs-lookup"><span data-stu-id="e9ee5-137">DeviceUpdateStoreInternalUri : http://internalweb.contoso.net/RequestHandler/Files</span></span>
+<span data-ttu-id="30755-137">Девицеупдатестореинтерналури:http://internalweb.contoso.net/RequestHandler/Files</span><span class="sxs-lookup"><span data-stu-id="30755-137">DeviceUpdateStoreInternalUri : http://internalweb.contoso.net/RequestHandler/Files</span></span>
 
-<span data-ttu-id="e9ee5-138">Девицеупдатесторикстерналури:https://csweb.contoso.com/RequestHandlerExt/Files</span><span class="sxs-lookup"><span data-stu-id="e9ee5-138">DeviceUpdateStoreExternalUri : https://csweb.contoso.com/RequestHandlerExt/Files</span></span>
+<span data-ttu-id="30755-138">Девицеупдатесторикстерналури:https://csweb.contoso.com/RequestHandlerExt/Files</span><span class="sxs-lookup"><span data-stu-id="30755-138">DeviceUpdateStoreExternalUri : https://csweb.contoso.com/RequestHandlerExt/Files</span></span>
 
-<span data-ttu-id="e9ee5-139">Ргсажентсервицеинтерналури:https://internalweb.contoso.net/RgsClients/AgentService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-139">RgsAgentServiceInternalUri : https://internalweb.contoso.net/RgsClients/AgentService.svc</span></span>
+<span data-ttu-id="30755-139">Ргсажентсервицеинтерналури:https://internalweb.contoso.net/RgsClients/AgentService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-139">RgsAgentServiceInternalUri : https://internalweb.contoso.net/RgsClients/AgentService.svc</span></span>
 
-<span data-ttu-id="e9ee5-140">Ргсажентсервицеекстерналури:https://csweb.contoso.com/RgsClients/AgentService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-140">RgsAgentServiceExternalUri : https://csweb.contoso.com/RgsClients/AgentService.svc</span></span>
+<span data-ttu-id="30755-140">Ргсажентсервицеекстерналури:https://csweb.contoso.com/RgsClients/AgentService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-140">RgsAgentServiceExternalUri : https://csweb.contoso.com/RgsClients/AgentService.svc</span></span>
 
-<span data-ttu-id="e9ee5-141">Митекстерналури:https://csweb.contoso.com/Meet</span><span class="sxs-lookup"><span data-stu-id="e9ee5-141">MeetExternalUri : https://csweb.contoso.com/Meet</span></span>
+<span data-ttu-id="30755-141">Митекстерналури:https://csweb.contoso.com/Meet</span><span class="sxs-lookup"><span data-stu-id="30755-141">MeetExternalUri : https://csweb.contoso.com/Meet</span></span>
 
-<span data-ttu-id="e9ee5-142">Диалинекстерналури:https://csweb.contoso.com/Dialin</span><span class="sxs-lookup"><span data-stu-id="e9ee5-142">DialinExternalUri : https://csweb.contoso.com/Dialin</span></span>
+<span data-ttu-id="30755-142">Диалинекстерналури:https://csweb.contoso.com/Dialin</span><span class="sxs-lookup"><span data-stu-id="30755-142">DialinExternalUri : https://csweb.contoso.com/Dialin</span></span>
 
-<span data-ttu-id="e9ee5-143">Кскпинтерналури:https://internalweb.contoso.net/Cscp</span><span class="sxs-lookup"><span data-stu-id="e9ee5-143">CscpInternalUri : https://internalweb.contoso.net/Cscp</span></span>
+<span data-ttu-id="30755-143">Кскпинтерналури:https://internalweb.contoso.net/Cscp</span><span class="sxs-lookup"><span data-stu-id="30755-143">CscpInternalUri : https://internalweb.contoso.net/Cscp</span></span>
 
-<span data-ttu-id="e9ee5-144">Реачекстерналури:https://csweb.contoso.com/Reach</span><span class="sxs-lookup"><span data-stu-id="e9ee5-144">ReachExternalUri : https://csweb.contoso.com/Reach</span></span>
+<span data-ttu-id="30755-144">Реачекстерналури:https://csweb.contoso.com/Reach</span><span class="sxs-lookup"><span data-stu-id="30755-144">ReachExternalUri : https://csweb.contoso.com/Reach</span></span>
 
-<span data-ttu-id="e9ee5-145">Реачинтерналури:https://internalweb.contoso.net/Reach</span><span class="sxs-lookup"><span data-stu-id="e9ee5-145">ReachInternalUri : https://internalweb.contoso.net/Reach</span></span>
+<span data-ttu-id="30755-145">Реачинтерналури:https://internalweb.contoso.net/Reach</span><span class="sxs-lookup"><span data-stu-id="30755-145">ReachInternalUri : https://internalweb.contoso.net/Reach</span></span>
 
-<span data-ttu-id="e9ee5-146">Вебтиккетекстерналури:https://csweb.contoso.com/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-146">WebTicketExternalUri : https://csweb.contoso.com/WebTicket/WebTicketService.svc</span></span>
+<span data-ttu-id="30755-146">Вебтиккетекстерналури:https://csweb.contoso.com/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-146">WebTicketExternalUri : https://csweb.contoso.com/WebTicket/WebTicketService.svc</span></span>
 
-<span data-ttu-id="e9ee5-147">Вебтиккетинтерналури:https://internalweb.contoso.net/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="e9ee5-147">WebTicketInternalUri : https://internalweb.contoso.net/WebTicket/WebTicketService.svc</span></span>
+<span data-ttu-id="30755-147">Вебтиккетинтерналури:https://internalweb.contoso.net/WebTicket/WebTicketService.svc</span><span class="sxs-lookup"><span data-stu-id="30755-147">WebTicketInternalUri : https://internalweb.contoso.net/WebTicket/WebTicketService.svc</span></span>
 
-<span data-ttu-id="e9ee5-148">Екстерналфкдн: csweb.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e9ee5-148">ExternalFqdn : csweb.contoso.com</span></span>
+<span data-ttu-id="30755-148">Екстерналфкдн: csweb.contoso.com</span><span class="sxs-lookup"><span data-stu-id="30755-148">ExternalFqdn : csweb.contoso.com</span></span>
 
-<span data-ttu-id="e9ee5-149">Интерналфкдн: internalweb.contoso.net</span><span class="sxs-lookup"><span data-stu-id="e9ee5-149">InternalFqdn : internalweb.contoso.net</span></span>
+<span data-ttu-id="30755-149">Интерналфкдн: internalweb.contoso.net</span><span class="sxs-lookup"><span data-stu-id="30755-149">InternalFqdn : internalweb.contoso.net</span></span>
 
-<span data-ttu-id="e9ee5-150">Депендентсервицелист: {регистратор:pool01. contoso. NET, КонференЦингсервер:pool01. contoso. NET}</span><span class="sxs-lookup"><span data-stu-id="e9ee5-150">DependentServiceList : {Registrar:pool01.contoso.net, ConferencingServer:pool01.contoso.net}</span></span>
+<span data-ttu-id="30755-150">Депендентсервицелист: {регистратор:pool01. contoso. NET, КонференЦингсервер:pool01. contoso. NET}</span><span class="sxs-lookup"><span data-stu-id="30755-150">DependentServiceList : {Registrar:pool01.contoso.net, ConferencingServer:pool01.contoso.net}</span></span>
 
-<span data-ttu-id="e9ee5-151">Сервицеид: 1 — WebService-1</span><span class="sxs-lookup"><span data-stu-id="e9ee5-151">ServiceId : 1-WebServices-1</span></span>
+<span data-ttu-id="30755-151">Сервицеид: 1 — WebService-1</span><span class="sxs-lookup"><span data-stu-id="30755-151">ServiceId : 1-WebServices-1</span></span>
 
-<span data-ttu-id="e9ee5-152">Идентификатор сайта: сайт Redmond</span><span class="sxs-lookup"><span data-stu-id="e9ee5-152">SiteId : Site:Redmond</span></span>
+<span data-ttu-id="30755-152">Идентификатор сайта: сайт Redmond</span><span class="sxs-lookup"><span data-stu-id="30755-152">SiteId : Site:Redmond</span></span>
 
-<span data-ttu-id="e9ee5-153">Пулфкдн: pool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="e9ee5-153">PoolFqdn : pool01.contoso.net</span></span>
+<span data-ttu-id="30755-153">Пулфкдн: pool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="30755-153">PoolFqdn : pool01.contoso.net</span></span>
 
-<span data-ttu-id="e9ee5-154">Версия: 5</span><span class="sxs-lookup"><span data-stu-id="e9ee5-154">Version : 5</span></span>
+<span data-ttu-id="30755-154">Версия: 5</span><span class="sxs-lookup"><span data-stu-id="30755-154">Version : 5</span></span>
 
-<span data-ttu-id="e9ee5-155">Роль: сервер</span><span class="sxs-lookup"><span data-stu-id="e9ee5-155">Role : WebServer</span></span>
+<span data-ttu-id="30755-155">Роль: сервер</span><span class="sxs-lookup"><span data-stu-id="30755-155">Role : WebServer</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e9ee5-156">См. также</span><span class="sxs-lookup"><span data-stu-id="e9ee5-156">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30755-156">См. также</span><span class="sxs-lookup"><span data-stu-id="30755-156">See Also</span></span>
 
 
-[<span data-ttu-id="e9ee5-157">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="e9ee5-157">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[<span data-ttu-id="30755-157">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="30755-157">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

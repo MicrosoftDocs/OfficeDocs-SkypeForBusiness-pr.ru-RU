@@ -3,6 +3,8 @@ title: 'Lync Server 2013: развертывание контрольного с
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for monitoring
 ms:assetid: 4e798370-277c-4391-84b4-13a972b45ca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cbf14920ef0103f2d6e8aa6088a2c0b35e17654
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71b7d69054df266139f3f13ca0ca53e1803f44b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834497"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34834497"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="a8a2e-102">Развертывание контрольного списка для мониторинга в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8a2e-102">Deployment checklist for monitoring in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a><span data-ttu-id="0322e-102">Развертывание контрольного списка для мониторинга в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0322e-102">Deployment checklist for monitoring in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34834497"
 
 <span> </span>
 
-<span data-ttu-id="a8a2e-103">_**Тема последнего изменения:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="a8a2e-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="0322e-103">_**Тема последнего изменения:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="0322e-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="a8a2e-104">Несмотря на то, что мониторинг уже установлен и активирован на каждом сервере переднего плана, вы по-прежнему можете выполнить несколько действий, которые необходимо предпринять, прежде чем вы сможете собирать данные мониторинга для Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-104">Although monitoring is already installed and activated on each Front End server, there are still several steps that you must undertake before you can actually being to collect monitoring data for Microsoft Lync Server 2013.</span></span> <span data-ttu-id="a8a2e-105">Эти действия приведены в следующем контрольном списке.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-105">These steps are outlined in the following checklist:</span></span>
+<span data-ttu-id="0322e-104">Несмотря на то, что мониторинг уже установлен и активирован на каждом сервере переднего плана, вы по-прежнему можете выполнить несколько действий, которые необходимо предпринять, прежде чем вы сможете собирать данные мониторинга для Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0322e-104">Although monitoring is already installed and activated on each Front End server, there are still several steps that you must undertake before you can actually being to collect monitoring data for Microsoft Lync Server 2013.</span></span> <span data-ttu-id="0322e-105">Эти действия приведены в следующем контрольном списке.</span><span class="sxs-lookup"><span data-stu-id="0322e-105">These steps are outlined in the following checklist:</span></span>
 
 
 <table>
@@ -47,30 +49,30 @@ ms.locfileid: "34834497"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8a2e-106">Этап</span><span class="sxs-lookup"><span data-stu-id="a8a2e-106">Phase</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-107">Шаги</span><span class="sxs-lookup"><span data-stu-id="a8a2e-107">Steps</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-108">Членство в роли и группе</span><span class="sxs-lookup"><span data-stu-id="a8a2e-108">Role and group membership</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-109">Документация</span><span class="sxs-lookup"><span data-stu-id="a8a2e-109">Documentation</span></span></p></td>
+<td><p><span data-ttu-id="0322e-106">Этап</span><span class="sxs-lookup"><span data-stu-id="0322e-106">Phase</span></span></p></td>
+<td><p><span data-ttu-id="0322e-107">Шаги</span><span class="sxs-lookup"><span data-stu-id="0322e-107">Steps</span></span></p></td>
+<td><p><span data-ttu-id="0322e-108">Членство в роли и группе</span><span class="sxs-lookup"><span data-stu-id="0322e-108">Role and group membership</span></span></p></td>
+<td><p><span data-ttu-id="0322e-109">Документация</span><span class="sxs-lookup"><span data-stu-id="0322e-109">Documentation</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8a2e-110"><strong>Установка необходимого оборудования и программного обеспечения</strong></span><span class="sxs-lookup"><span data-stu-id="a8a2e-110"><strong>Install prerequisite hardware and software</strong></span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-111">Установка поддерживаемой версии Microsoft SQL Server на компьютере, который будет работать в качестве внутреннего хранилища данных для мониторинга.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-111">Install a supported version of Microsoft SQL Server on the computer that will act as the backend data store for monitoring.</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-112">Пользователь домена, который также является членом группы администраторов.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-112">Domain user who is also a member of the local administrators group.</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-113"><a href="lync-server-2013-supported-hardware.md">Поддерживаемое оборудование для Lync Server 2013</a> в руководстве по поддержке</span><span class="sxs-lookup"><span data-stu-id="a8a2e-113"><a href="lync-server-2013-supported-hardware.md">Supported hardware for Lync Server 2013</a> in the Supportability guide</span></span></p>
-<p><span data-ttu-id="a8a2e-114"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</a> в руководстве по поддержке</span><span class="sxs-lookup"><span data-stu-id="a8a2e-114"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server software and infrastructure support in Lync Server 2013</a> in the Supportability Guide</span></span></p></td>
+<td><p><span data-ttu-id="0322e-110"><strong>Установка необходимого оборудования и программного обеспечения</strong></span><span class="sxs-lookup"><span data-stu-id="0322e-110"><strong>Install prerequisite hardware and software</strong></span></span></p></td>
+<td><p><span data-ttu-id="0322e-111">Установка поддерживаемой версии Microsoft SQL Server на компьютере, который будет работать в качестве внутреннего хранилища данных для мониторинга.</span><span class="sxs-lookup"><span data-stu-id="0322e-111">Install a supported version of Microsoft SQL Server on the computer that will act as the backend data store for monitoring.</span></span></p></td>
+<td><p><span data-ttu-id="0322e-112">Пользователь домена, который также является членом группы администраторов.</span><span class="sxs-lookup"><span data-stu-id="0322e-112">Domain user who is also a member of the local administrators group.</span></span></p></td>
+<td><p><span data-ttu-id="0322e-113"><a href="lync-server-2013-supported-hardware.md">Поддерживаемое оборудование для Lync Server 2013</a> в руководстве по поддержке</span><span class="sxs-lookup"><span data-stu-id="0322e-113"><a href="lync-server-2013-supported-hardware.md">Supported hardware for Lync Server 2013</a> in the Supportability guide</span></span></p>
+<p><span data-ttu-id="0322e-114"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</a> в руководстве по поддержке</span><span class="sxs-lookup"><span data-stu-id="0322e-114"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server software and infrastructure support in Lync Server 2013</a> in the Supportability Guide</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8a2e-115"><strong>Создание подходящей внутренней топологии для поддержки мониторинга</strong></span><span class="sxs-lookup"><span data-stu-id="a8a2e-115"><strong>Create the appropriate internal topology to support monitoring</strong></span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-116">Используйте построитель топологии Lync Server 2013 для добавления в топологию баз данных мониторинга и публикации обновленной топологии.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-116">Use Lync Server 2013 Topology Builder to add monitoring databases to the topology, then published the updated topology.</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-117">Чтобы определить топологию, пользователь, который является членом локальной группы пользователей.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-117">To define a topology, a user who is a member of the local users group.</span></span></p>
-<p><span data-ttu-id="a8a2e-118">Чтобы опубликовать топологию, пользователь, который является членом группы администраторов домена и группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-118">To publish the topology, a user who is a member if the domain administrators group and the RTCUniversalServerAdmins group.</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-119"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Связывание хранилища мониторинга с пулом переднего плана в Lync Server 2013</a> в руководстве по развертыванию</span><span class="sxs-lookup"><span data-stu-id="a8a2e-119"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Associating a monitoring store with a Front End pool in Lync Server 2013</a> in the Deployment guide</span></span></p></td>
+<td><p><span data-ttu-id="0322e-115"><strong>Создание подходящей внутренней топологии для поддержки мониторинга</strong></span><span class="sxs-lookup"><span data-stu-id="0322e-115"><strong>Create the appropriate internal topology to support monitoring</strong></span></span></p></td>
+<td><p><span data-ttu-id="0322e-116">Используйте построитель топологии Lync Server 2013 для добавления в топологию баз данных мониторинга и публикации обновленной топологии.</span><span class="sxs-lookup"><span data-stu-id="0322e-116">Use Lync Server 2013 Topology Builder to add monitoring databases to the topology, then published the updated topology.</span></span></p></td>
+<td><p><span data-ttu-id="0322e-117">Чтобы определить топологию, пользователь, который является членом локальной группы пользователей.</span><span class="sxs-lookup"><span data-stu-id="0322e-117">To define a topology, a user who is a member of the local users group.</span></span></p>
+<p><span data-ttu-id="0322e-118">Чтобы опубликовать топологию, пользователь, который является членом группы администраторов домена и группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="0322e-118">To publish the topology, a user who is a member if the domain administrators group and the RTCUniversalServerAdmins group.</span></span></p></td>
+<td><p><span data-ttu-id="0322e-119"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Связывание хранилища мониторинга с пулом переднего плана в Lync Server 2013</a> в руководстве по развертыванию</span><span class="sxs-lookup"><span data-stu-id="0322e-119"><a href="lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md">Associating a monitoring store with a Front End pool in Lync Server 2013</a> in the Deployment guide</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8a2e-120"><strong>Включение подходящих параметров мониторинга</strong></span><span class="sxs-lookup"><span data-stu-id="a8a2e-120"><strong>Enable the appropriate monitoring settings</strong></span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-121">Включите мониторинг для записи сведений о вызовах (CDR) и/или качества (QoE) в глобальной и (или) масштабах сайта.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-121">Enable call detail recording (CDR) and/or Quality of Experience (QoE) monitoring at the global and/or the site scopes.</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-122">Пользователь, который является членом группы RTCUniversalServerAdmins или которому была назначена роль RBAC, предоставляющая доступ к командлетам CsCdrConfiguration и CsQoEConfiguration.</span><span class="sxs-lookup"><span data-stu-id="a8a2e-122">A user who is a member of the RTCUniversalServerAdmins group or who has been assigned an RBAC role that provides access to the CsCdrConfiguration and CsQoEConfiguration cmdlets.</span></span></p></td>
-<td><p><span data-ttu-id="a8a2e-123"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Настройка записи сведений о звонке и параметров качества обслуживания в Lync Server 2013</a> в руководстве по эксплуатации</span><span class="sxs-lookup"><span data-stu-id="a8a2e-123"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</a> in the Operations guide</span></span></p></td>
+<td><p><span data-ttu-id="0322e-120"><strong>Включение подходящих параметров мониторинга</strong></span><span class="sxs-lookup"><span data-stu-id="0322e-120"><strong>Enable the appropriate monitoring settings</strong></span></span></p></td>
+<td><p><span data-ttu-id="0322e-121">Включите мониторинг для записи сведений о вызовах (CDR) и/или качества (QoE) в глобальной и (или) масштабах сайта.</span><span class="sxs-lookup"><span data-stu-id="0322e-121">Enable call detail recording (CDR) and/or Quality of Experience (QoE) monitoring at the global and/or the site scopes.</span></span></p></td>
+<td><p><span data-ttu-id="0322e-122">Пользователь, который является членом группы RTCUniversalServerAdmins или которому была назначена роль RBAC, предоставляющая доступ к командлетам CsCdrConfiguration и CsQoEConfiguration.</span><span class="sxs-lookup"><span data-stu-id="0322e-122">A user who is a member of the RTCUniversalServerAdmins group or who has been assigned an RBAC role that provides access to the CsCdrConfiguration and CsQoEConfiguration cmdlets.</span></span></p></td>
+<td><p><span data-ttu-id="0322e-123"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Настройка записи сведений о звонке и параметров качества обслуживания в Lync Server 2013</a> в руководстве по эксплуатации</span><span class="sxs-lookup"><span data-stu-id="0322e-123"><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</a> in the Operations guide</span></span></p></td>
 </tr>
 </tbody>
 </table>

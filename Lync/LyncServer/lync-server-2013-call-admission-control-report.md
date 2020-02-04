@@ -3,6 +3,8 @@ title: 'Lync Server 2013: отчет управления допуском зв�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Admission Control Report
 ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f31159742757b7ef8b6889b7961bad747b1f6d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff036a27149db4360a938fe2ce9d63c2718f4d94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841718"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34841718"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a><span data-ttu-id="1a76b-102">Отчет по контролю за допуском звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a76b-102">Call Admission Control Report in Lync Server 2013</span></span>
+# <a name="call-admission-control-report-in-lync-server-2013"></a><span data-ttu-id="e4073-102">Отчет по контролю за допуском звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e4073-102">Call Admission Control Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,43 +35,43 @@ ms.locfileid: "34841718"
 
 <span> </span>
 
-<span data-ttu-id="1a76b-103">_**Тема последнего изменения:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="1a76b-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="e4073-103">_**Тема последнего изменения:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="e4073-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="1a76b-104">Отчет по контролю допуска звонков (Call Admission Control Report) содержит сведения о сеансах связи между одноранговыми узлами и конференц-связи, которые были проведены в рамках ограничений, наложенных с помощью функции контроля допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="1a76b-104">The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control.</span></span> <span data-ttu-id="1a76b-105">Управление допуском звонков, представленное в Microsoft Lync Server 2010, позволяет администраторам разрешать (или не разрешать) сеансы связи на основе ограничений пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="1a76b-105">Call Admission Control, introduced in Microsoft Lync Server 2010, provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints.</span></span> <span data-ttu-id="1a76b-106">Например, администраторы могут создавать политики, ограничивающие полосу пропускания для вызовов видео- и голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="1a76b-106">For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls.</span></span> <span data-ttu-id="1a76b-107">По достижении предельной полосы пропускания новые вызовы видео- и голосовой связи размещаются только после завершения одного из текущих вызовов и освобождения необходимых сетевых ресурсов.</span><span class="sxs-lookup"><span data-stu-id="1a76b-107">If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.</span></span>
+<span data-ttu-id="e4073-104">Отчет по контролю допуска звонков (Call Admission Control Report) содержит сведения о сеансах связи между одноранговыми узлами и конференц-связи, которые были проведены в рамках ограничений, наложенных с помощью функции контроля допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="e4073-104">The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control.</span></span> <span data-ttu-id="e4073-105">Управление допуском звонков, представленное в Microsoft Lync Server 2010, позволяет администраторам разрешать (или не разрешать) сеансы связи на основе ограничений пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="e4073-105">Call Admission Control, introduced in Microsoft Lync Server 2010, provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints.</span></span> <span data-ttu-id="e4073-106">Например, администраторы могут создавать политики, ограничивающие полосу пропускания для вызовов видео- и голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="e4073-106">For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls.</span></span> <span data-ttu-id="e4073-107">По достижении предельной полосы пропускания новые вызовы видео- и голосовой связи размещаются только после завершения одного из текущих вызовов и освобождения необходимых сетевых ресурсов.</span><span class="sxs-lookup"><span data-stu-id="e4073-107">If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.</span></span>
 
 <div>
 
-## <a name="accessing-the-call-admission-control-report"></a><span data-ttu-id="1a76b-108">Доступ к отчету по контролю допуска звонков</span><span class="sxs-lookup"><span data-stu-id="1a76b-108">Accessing the Call Admission Control Report</span></span>
+## <a name="accessing-the-call-admission-control-report"></a><span data-ttu-id="e4073-108">Доступ к отчету по контролю допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e4073-108">Accessing the Call Admission Control Report</span></span>
 
-<span data-ttu-id="1a76b-p102">Отчет по контролю допуска звонков можно вызвать на домашней странице отчетов мониторинга. Из отчета по контролю допуска звонков можно перейти в следующие отчеты.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p102">The Call Admission Control Report is accessed from the Monitoring Reports home page. From the Call Admission Control Report you can drill down to either of the following reports:</span></span>
+<span data-ttu-id="e4073-p102">Отчет по контролю допуска звонков можно вызвать на домашней странице отчетов мониторинга. Из отчета по контролю допуска звонков можно перейти в следующие отчеты.</span><span class="sxs-lookup"><span data-stu-id="e4073-p102">The Call Admission Control Report is accessed from the Monitoring Reports home page. From the Call Admission Control Report you can drill down to either of the following reports:</span></span>
 
-  - <span data-ttu-id="1a76b-111">Отчет по деталям конференции – чтобы вызвать этот отчет, нажмите метрику Детали в сеансе конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="1a76b-111">Conference Detail Report – To access this report, click the Details metric from a conference session.</span></span>
+  - <span data-ttu-id="e4073-111">Отчет по деталям конференции – чтобы вызвать этот отчет, нажмите метрику Детали в сеансе конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="e4073-111">Conference Detail Report – To access this report, click the Details metric from a conference session.</span></span>
 
-  - <span data-ttu-id="1a76b-112">Отчет по деталям однорангового сеанса – чтобы вызвать этот отчет, нажмите метрику Детали для однорангового сеанса.</span><span class="sxs-lookup"><span data-stu-id="1a76b-112">Peer-to-Peer Session Detail Report – To access this report, click the Details metric for a peer-to-peer session.</span></span>
+  - <span data-ttu-id="e4073-112">Отчет по деталям однорангового сеанса – чтобы вызвать этот отчет, нажмите метрику Детали для однорангового сеанса.</span><span class="sxs-lookup"><span data-stu-id="e4073-112">Peer-to-Peer Session Detail Report – To access this report, click the Details metric for a peer-to-peer session.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-admission-control-report"></a><span data-ttu-id="1a76b-113">Оптимальное использование отчета по контролю допуска звонков</span><span class="sxs-lookup"><span data-stu-id="1a76b-113">Making the Best Use of the Call Admission Control Report</span></span>
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a><span data-ttu-id="e4073-113">Оптимальное использование отчета по контролю допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e4073-113">Making the Best Use of the Call Admission Control Report</span></span>
 
-<span data-ttu-id="1a76b-p103">Чтобы получить полный список вызовов, отклоненных из-за недостаточной пропускной способности, выберите пункт "Вызовы, отклоненные контролем допуска звонков" в раскрывающемся списке категорий вызова. Большая часть отклоненных звонков скорее всего будет иметь диагностический идентификатор 5:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p103">To get a list of calls that failed because of insufficient bandwidth, select Calls rejected because of call admission control from the Call category dropdown list. Most of the returned calls will likely have a diagnostic ID of 5:</span></span>
+<span data-ttu-id="e4073-p103">Чтобы получить полный список вызовов, отклоненных из-за недостаточной пропускной способности, выберите пункт "Вызовы, отклоненные контролем допуска звонков" в раскрывающемся списке категорий вызова. Большая часть отклоненных звонков скорее всего будет иметь диагностический идентификатор 5:</span><span class="sxs-lookup"><span data-stu-id="e4073-p103">To get a list of calls that failed because of insufficient bandwidth, select Calls rejected because of call admission control from the Call category dropdown list. Most of the returned calls will likely have a diagnostic ID of 5:</span></span>
 
-<span data-ttu-id="1a76b-p104">Недостаточная пропускная способность для установки сеанса. Попытка перенаправить в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p104">Insufficient bandwidth to establish session. Attempt PSTN re-route.</span></span>
+<span data-ttu-id="e4073-p104">Недостаточная пропускная способность для установки сеанса. Попытка перенаправить в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="e4073-p104">Insufficient bandwidth to establish session. Attempt PSTN re-route.</span></span>
 
-<span data-ttu-id="1a76b-118">Это указывает, что ограничения контроля допуска звонков запретили выполнение этого вызова в сети VoIP.</span><span class="sxs-lookup"><span data-stu-id="1a76b-118">That indicates that Call Admission Control limitations were preventing the call from being made on the VoIP network.</span></span>
+<span data-ttu-id="e4073-118">Это указывает, что ограничения контроля допуска звонков запретили выполнение этого вызова в сети VoIP.</span><span class="sxs-lookup"><span data-stu-id="e4073-118">That indicates that Call Admission Control limitations were preventing the call from being made on the VoIP network.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="1a76b-119">Фильтры</span><span class="sxs-lookup"><span data-stu-id="1a76b-119">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="e4073-119">Фильтры</span><span class="sxs-lookup"><span data-stu-id="e4073-119">Filters</span></span>
 
-<span data-ttu-id="1a76b-p105">Фильтры позволяют получать более адресный набор данных или просматривать полученные данные разными способами. Например, контроль допуска звонков позволяет фильтровать вызовы по вызывающему пользователю или по вызываемому пользователю. Можно также выбрать способ группирования данных. В этом случае вызовы группируются по часу, дню, неделе или месяцу.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Admission Control Report enables you to filter calls by the user who initiated the call or by the user who was being called. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="e4073-p105">Фильтры позволяют получать более адресный набор данных или просматривать полученные данные разными способами. Например, контроль допуска звонков позволяет фильтровать вызовы по вызывающему пользователю или по вызываемому пользователю. Можно также выбрать способ группирования данных. В этом случае вызовы группируются по часу, дню, неделе или месяцу.</span><span class="sxs-lookup"><span data-stu-id="e4073-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Admission Control Report enables you to filter calls by the user who initiated the call or by the user who was being called. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="1a76b-124">В следующей таблице приведены фильтры, которые можно использовать в отчете по контролю допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="1a76b-124">The following table lists the filters that you can use with the Call Admission Control Report.</span></span>
+<span data-ttu-id="e4073-124">В следующей таблице приведены фильтры, которые можно использовать в отчете по контролю допуска звонков.</span><span class="sxs-lookup"><span data-stu-id="e4073-124">The following table lists the filters that you can use with the Call Admission Control Report.</span></span>
 
-### <a name="call-admission-control-report-filters"></a><span data-ttu-id="1a76b-125">Фильтры отчета по контролю допуска звонков</span><span class="sxs-lookup"><span data-stu-id="1a76b-125">Call Admission Control Report Filters</span></span>
+### <a name="call-admission-control-report-filters"></a><span data-ttu-id="e4073-125">Фильтры отчета по контролю допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e4073-125">Call Admission Control Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -78,51 +80,51 @@ ms.locfileid: "34841718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1a76b-126">Имя</span><span class="sxs-lookup"><span data-stu-id="1a76b-126">Name</span></span></th>
-<th><span data-ttu-id="1a76b-127">Описание</span><span class="sxs-lookup"><span data-stu-id="1a76b-127">Description</span></span></th>
+<th><span data-ttu-id="e4073-126">Имя</span><span class="sxs-lookup"><span data-stu-id="e4073-126">Name</span></span></th>
+<th><span data-ttu-id="e4073-127">Описание</span><span class="sxs-lookup"><span data-stu-id="e4073-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-128"><strong>От</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-128"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p106">Начальные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите начальные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="1a76b-131">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="1a76b-131">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="1a76b-p107">Если вы не вводите начальное время, отчет автоматически начинается с 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="1a76b-134">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="1a76b-134">7/17/12012</span></span></p>
-<p><span data-ttu-id="1a76b-135">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="1a76b-135">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="1a76b-136">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="1a76b-136">7/13/2012</span></span></p>
-<p><span data-ttu-id="1a76b-137">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="1a76b-137">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-128"><strong>От</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-128"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-p106">Начальные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите начальные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="e4073-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="e4073-131">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="e4073-131">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="e4073-p107">Если вы не вводите начальное время, отчет автоматически начинается с 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="e4073-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="e4073-134">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="e4073-134">7/17/12012</span></span></p>
+<p><span data-ttu-id="e4073-135">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="e4073-135">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="e4073-136">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="e4073-136">7/13/2012</span></span></p>
+<p><span data-ttu-id="e4073-137">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="e4073-137">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-138"><strong>До</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-138"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p108">Конечные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите конечные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="1a76b-141">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="1a76b-141">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="1a76b-p109">Если вы не вводите конечное время, отчет автоматически заканчивается в 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="1a76b-144">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="1a76b-144">7/17/12012</span></span></p>
-<p><span data-ttu-id="1a76b-145">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="1a76b-145">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="1a76b-146">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="1a76b-146">7/13/2012</span></span></p>
-<p><span data-ttu-id="1a76b-147">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="1a76b-147">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-138"><strong>До</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-138"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-p108">Конечные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите конечные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="e4073-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="e4073-141">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="e4073-141">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="e4073-p109">Если вы не вводите конечное время, отчет автоматически заканчивается в 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="e4073-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="e4073-144">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="e4073-144">7/17/12012</span></span></p>
+<p><span data-ttu-id="e4073-145">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="e4073-145">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="e4073-146">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="e4073-146">7/13/2012</span></span></p>
+<p><span data-ttu-id="e4073-147">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="e4073-147">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-148"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-148"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p110">Полное доменное имя пула регистратора или пограничного сервера. Можно выбрать отдельный пул или нажать <strong>[Все]</strong>, чтобы просмотреть данные для всех пулов. Этот раскрывающийся список автоматически заполняется на основе записей в базе данных.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p110">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-148"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-148"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-p110">Полное доменное имя пула регистратора или пограничного сервера. Можно выбрать отдельный пул или нажать <strong>[Все]</strong>, чтобы просмотреть данные для всех пулов. Этот раскрывающийся список автоматически заполняется на основе записей в базе данных.</span><span class="sxs-lookup"><span data-stu-id="e4073-p110">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-152"><strong>Тип сеанса</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-152"><strong>Activity type</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p111">Тип действия. Выберите одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p111">Type of activity. Select one of the following activities:</span></span></p>
+<td><p><span data-ttu-id="e4073-152"><strong>Тип сеанса</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-152"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-p111">Тип действия. Выберите одно из следующих действий:</span><span class="sxs-lookup"><span data-stu-id="e4073-p111">Type of activity. Select one of the following activities:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1a76b-155">[All] (Все)</span><span class="sxs-lookup"><span data-stu-id="1a76b-155">[All]</span></span></p></li>
-<li><p><span data-ttu-id="1a76b-156">Одноранговый сеанс</span><span class="sxs-lookup"><span data-stu-id="1a76b-156">Peer-to-Peer</span></span></p></li>
-<li><p><span data-ttu-id="1a76b-157">Конференция</span><span class="sxs-lookup"><span data-stu-id="1a76b-157">Conference</span></span></p></li>
+<li><p><span data-ttu-id="e4073-155">[All] (Все)</span><span class="sxs-lookup"><span data-stu-id="e4073-155">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e4073-156">Одноранговый сеанс</span><span class="sxs-lookup"><span data-stu-id="e4073-156">Peer-to-Peer</span></span></p></li>
+<li><p><span data-ttu-id="e4073-157">Конференция</span><span class="sxs-lookup"><span data-stu-id="e4073-157">Conference</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-158"><strong>Категория вызова</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-158"><strong>Call category</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p112">Указывает причину, которую контроль допуска звонков использовал для вызова. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="1a76b-p112">Indicates the reason that CAC was used for the call. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="e4073-158"><strong>Категория вызова</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-158"><strong>Call category</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-p112">Указывает причину, которую контроль допуска звонков использовал для вызова. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="e4073-p112">Indicates the reason that CAC was used for the call. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1a76b-161">[All] (Все)</span><span class="sxs-lookup"><span data-stu-id="1a76b-161">[All]</span></span></p></li>
-<li><p><span data-ttu-id="1a76b-162">Вызов отклонен контролем допуска звонков</span><span class="sxs-lookup"><span data-stu-id="1a76b-162">Call rejected because of call admission control</span></span></p></li>
-<li><p><span data-ttu-id="1a76b-163">Вызовы перенаправлены через ТСОП вследствие контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="1a76b-163">Calls rerouted through PSTN because of call admission control</span></span></p></li>
+<li><p><span data-ttu-id="e4073-161">[All] (Все)</span><span class="sxs-lookup"><span data-stu-id="e4073-161">[All]</span></span></p></li>
+<li><p><span data-ttu-id="e4073-162">Вызов отклонен контролем допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e4073-162">Call rejected because of call admission control</span></span></p></li>
+<li><p><span data-ttu-id="e4073-163">Вызовы перенаправлены через ТСОП вследствие контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="e4073-163">Calls rerouted through PSTN because of call admission control</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -133,11 +135,11 @@ ms.locfileid: "34841718"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="1a76b-164">Метрики для одноранговых сеансов</span><span class="sxs-lookup"><span data-stu-id="1a76b-164">Metrics for Peer-to-Peer Sessions</span></span>
+## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="e4073-164">Метрики для одноранговых сеансов</span><span class="sxs-lookup"><span data-stu-id="e4073-164">Metrics for Peer-to-Peer Sessions</span></span>
 
-<span data-ttu-id="1a76b-165">В следующей таблице приведены сведения, предоставляемые отчетом по контролю допуска звонков для одноранговых сеансов (т.е. сеансов, в которых только два участника).</span><span class="sxs-lookup"><span data-stu-id="1a76b-165">The following table lists the information provided in the Call Admission Control Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
+<span data-ttu-id="e4073-165">В следующей таблице приведены сведения, предоставляемые отчетом по контролю допуска звонков для одноранговых сеансов (т.е. сеансов, в которых только два участника).</span><span class="sxs-lookup"><span data-stu-id="e4073-165">The following table lists the information provided in the Call Admission Control Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
 
-### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="1a76b-166">Метрики для одноранговых сеансов</span><span class="sxs-lookup"><span data-stu-id="1a76b-166">Metrics for Peer-to-Peer Sessions</span></span>
+### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="e4073-166">Метрики для одноранговых сеансов</span><span class="sxs-lookup"><span data-stu-id="e4073-166">Metrics for Peer-to-Peer Sessions</span></span>
 
 <table>
 <colgroup>
@@ -147,51 +149,51 @@ ms.locfileid: "34841718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1a76b-167">Имя</span><span class="sxs-lookup"><span data-stu-id="1a76b-167">Name</span></span></th>
-<th><span data-ttu-id="1a76b-168">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="1a76b-168">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="1a76b-169">Описание</span><span class="sxs-lookup"><span data-stu-id="1a76b-169">Description</span></span></th>
+<th><span data-ttu-id="e4073-167">Имя</span><span class="sxs-lookup"><span data-stu-id="e4073-167">Name</span></span></th>
+<th><span data-ttu-id="e4073-168">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="e4073-168">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="e4073-169">Описание</span><span class="sxs-lookup"><span data-stu-id="e4073-169">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-170"><strong>Подробности</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-170"><strong>Detail</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-171">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-171">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-172">При нажатии этой метрики появится отчет по деталям однорангового сеанса для указанного сеанса.</span><span class="sxs-lookup"><span data-stu-id="1a76b-172">When you click this item, the report shows you a Peer-to-Peer Session Detail Report for the specified session.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-170"><strong>Подробности</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-170"><strong>Detail</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-171">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-171">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-172">При нажатии этой метрики появится отчет по деталям однорангового сеанса для указанного сеанса.</span><span class="sxs-lookup"><span data-stu-id="e4073-172">When you click this item, the report shows you a Peer-to-Peer Session Detail Report for the specified session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-173"><strong>От пользователя</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-173"><strong>From user</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-174">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-174">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-175">SIP-адрес пользователя, инициировавшего сеанс.</span><span class="sxs-lookup"><span data-stu-id="1a76b-175">SIP address of the user who initiated the session.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-173"><strong>От пользователя</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-173"><strong>From user</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-174">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-174">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-175">SIP-адрес пользователя, инициировавшего сеанс.</span><span class="sxs-lookup"><span data-stu-id="e4073-175">SIP address of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-176"><strong>Пользователю</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-176"><strong>To user</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-177">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-177">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-178">SIP-адрес пользователя, приглашенного принять участие в сеансе.</span><span class="sxs-lookup"><span data-stu-id="1a76b-178">SIP address of the user who was invited to join the session.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-176"><strong>Пользователю</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-176"><strong>To user</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-177">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-177">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-178">SIP-адрес пользователя, приглашенного принять участие в сеансе.</span><span class="sxs-lookup"><span data-stu-id="e4073-178">SIP address of the user who was invited to join the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-179"><strong>Модальности</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-179"><strong>Modalities</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-180">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-180">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-181">Модальности взаимодействия (например звук и видео), использовавшиеся во время сеанса.</span><span class="sxs-lookup"><span data-stu-id="1a76b-181">Communication modalities (such as audio and video) that were used during the session.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-179"><strong>Модальности</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-179"><strong>Modalities</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-180">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-180">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-181">Модальности взаимодействия (например звук и видео), использовавшиеся во время сеанса.</span><span class="sxs-lookup"><span data-stu-id="e4073-181">Communication modalities (such as audio and video) that were used during the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-182"><strong>Время приглашения</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-182"><strong>Invite time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-183">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-183">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-184">Дата и время отправки пользователем-инициатором исходного приглашения принять участие в сеансе.</span><span class="sxs-lookup"><span data-stu-id="1a76b-184">Date and time the initial session invitation was sent to the From user.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-182"><strong>Время приглашения</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-182"><strong>Invite time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-183">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-183">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-184">Дата и время отправки пользователем-инициатором исходного приглашения принять участие в сеансе.</span><span class="sxs-lookup"><span data-stu-id="e4073-184">Date and time the initial session invitation was sent to the From user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-185"><strong>Время ответа</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-185"><strong>Response time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-186">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-186">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-187">Дата и время, когда было получено принятие приглашения.</span><span class="sxs-lookup"><span data-stu-id="1a76b-187">Date and time that the invitation acceptance was received.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-185"><strong>Время ответа</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-185"><strong>Response time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-186">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-186">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-187">Дата и время, когда было получено принятие приглашения.</span><span class="sxs-lookup"><span data-stu-id="e4073-187">Date and time that the invitation acceptance was received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-188"><strong>Время окончания</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-188"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-189">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-189">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-190">Дата и время окончания сеанса.</span><span class="sxs-lookup"><span data-stu-id="1a76b-190">Date and time that the session ended.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-188"><strong>Время окончания</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-188"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-189">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-189">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-190">Дата и время окончания сеанса.</span><span class="sxs-lookup"><span data-stu-id="e4073-190">Date and time that the session ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-191"><strong>Диагностический идентификатор</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-191"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-192">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-192">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p113">Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок. Заголовки диагностики не являются обязательными (можно иметь сеансы SIP без таких заголовков), а идентификаторы диагностики указываются только для сеансов, в которых возникли какие-либо проблемы.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-191"><strong>Диагностический идентификатор</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-191"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-192">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-192">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-p113">Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок. Заголовки диагностики не являются обязательными (можно иметь сеансы SIP без таких заголовков), а идентификаторы диагностики указываются только для сеансов, в которых возникли какие-либо проблемы.</span><span class="sxs-lookup"><span data-stu-id="e4073-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -201,11 +203,11 @@ ms.locfileid: "34841718"
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="1a76b-195">Метрики для сеансов конференц-связи</span><span class="sxs-lookup"><span data-stu-id="1a76b-195">Metrics for Conferencing Sessions</span></span>
+## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="e4073-195">Метрики для сеансов конференц-связи</span><span class="sxs-lookup"><span data-stu-id="e4073-195">Metrics for Conferencing Sessions</span></span>
 
-<span data-ttu-id="1a76b-196">В следующей таблице приведены сведения, которые предоставляются в отчете по контролю допуска звонков для сеансов конференц-связи (т.е. сеансов, в которых не менее трех участников).</span><span class="sxs-lookup"><span data-stu-id="1a76b-196">The following table lists the information provided in the Call Admission Control Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
+<span data-ttu-id="e4073-196">В следующей таблице приведены сведения, которые предоставляются в отчете по контролю допуска звонков для сеансов конференц-связи (т.е. сеансов, в которых не менее трех участников).</span><span class="sxs-lookup"><span data-stu-id="e4073-196">The following table lists the information provided in the Call Admission Control Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
 
-### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="1a76b-197">Метрики для сеансов конференц-связи</span><span class="sxs-lookup"><span data-stu-id="1a76b-197">Metrics for Conferencing Sessions</span></span>
+### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="e4073-197">Метрики для сеансов конференц-связи</span><span class="sxs-lookup"><span data-stu-id="e4073-197">Metrics for Conferencing Sessions</span></span>
 
 <table>
 <colgroup>
@@ -215,36 +217,36 @@ ms.locfileid: "34841718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1a76b-198">Имя</span><span class="sxs-lookup"><span data-stu-id="1a76b-198">Name</span></span></th>
-<th><span data-ttu-id="1a76b-199">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="1a76b-199">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="1a76b-200">Описание</span><span class="sxs-lookup"><span data-stu-id="1a76b-200">Description</span></span></th>
+<th><span data-ttu-id="e4073-198">Имя</span><span class="sxs-lookup"><span data-stu-id="e4073-198">Name</span></span></th>
+<th><span data-ttu-id="e4073-199">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="e4073-199">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="e4073-200">Описание</span><span class="sxs-lookup"><span data-stu-id="e4073-200">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-201"><strong>Идентификатор URI конференции</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-201"><strong>Conference URI</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-202">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-202">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p114">Уникальный идентификатор конференции. Если нажать этот элемент, будут отображены отдельные участники конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p114">Unique identifier for the conference. When you click this item, the report shows the individual conference participants.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-201"><strong>Идентификатор URI конференции</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-201"><strong>Conference URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-202">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-p114">Уникальный идентификатор конференции. Если нажать этот элемент, будут отображены отдельные участники конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-p114">Unique identifier for the conference. When you click this item, the report shows the individual conference participants.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-205"><strong>Инициатор</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-205"><strong>Organizer</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-206">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-207">SIP-адрес пользователя, организовавшего конференцию.</span><span class="sxs-lookup"><span data-stu-id="1a76b-207">SIP address of the user who organized the conference.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-205"><strong>Инициатор</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-205"><strong>Organizer</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-206">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-207">SIP-адрес пользователя, организовавшего конференцию.</span><span class="sxs-lookup"><span data-stu-id="e4073-207">SIP address of the user who organized the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-208"><strong>Пул</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-208"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-209">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-209">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-210">пограничный сервер, использовавшийся в конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-210">Edge Server used in the conference.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-208"><strong>Пул</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-208"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-209">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-210">пограничный сервер, использовавшийся в конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-210">Edge Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-211"><strong>Время начала</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-211"><strong>Start time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-212">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-212">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-213">Дата и время начала конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-213">Date and time that the conference started.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-211"><strong>Время начала</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-211"><strong>Start time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-212">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-212">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-213">Дата и время начала конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-213">Date and time that the conference started.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-214"><strong>Время окончания</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-214"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-215">Да</span><span class="sxs-lookup"><span data-stu-id="1a76b-215">Yes</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-216">Дата и время завершения конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-216">Date and time that the conference ended.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-214"><strong>Время окончания</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-214"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-215">Да</span><span class="sxs-lookup"><span data-stu-id="e4073-215">Yes</span></span></p></td>
+<td><p><span data-ttu-id="e4073-216">Дата и время завершения конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-216">Date and time that the conference ended.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -254,11 +256,11 @@ ms.locfileid: "34841718"
 
 <div>
 
-## <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="1a76b-217">Метрики для отдельных участников конференции</span><span class="sxs-lookup"><span data-stu-id="1a76b-217">Metrics for Individual Conference Participants</span></span>
+## <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="e4073-217">Метрики для отдельных участников конференции</span><span class="sxs-lookup"><span data-stu-id="e4073-217">Metrics for Individual Conference Participants</span></span>
 
-<span data-ttu-id="1a76b-218">В следующей таблице приведены сведения, которые предоставляются в отчете по контролю допуска звонков для отдельных участников конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-218">The following table lists the information provided in the Call Admission Control Report for individual conference participants.</span></span>
+<span data-ttu-id="e4073-218">В следующей таблице приведены сведения, которые предоставляются в отчете по контролю допуска звонков для отдельных участников конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-218">The following table lists the information provided in the Call Admission Control Report for individual conference participants.</span></span>
 
-### <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="1a76b-219">Метрики для отдельных участников конференции</span><span class="sxs-lookup"><span data-stu-id="1a76b-219">Metrics for Individual Conference Participants</span></span>
+### <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="e4073-219">Метрики для отдельных участников конференции</span><span class="sxs-lookup"><span data-stu-id="e4073-219">Metrics for Individual Conference Participants</span></span>
 
 <table>
 <colgroup>
@@ -268,46 +270,46 @@ ms.locfileid: "34841718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1a76b-220">Имя</span><span class="sxs-lookup"><span data-stu-id="1a76b-220">Name</span></span></th>
-<th><span data-ttu-id="1a76b-221">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="1a76b-221">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="1a76b-222">Описание</span><span class="sxs-lookup"><span data-stu-id="1a76b-222">Description</span></span></th>
+<th><span data-ttu-id="e4073-220">Имя</span><span class="sxs-lookup"><span data-stu-id="e4073-220">Name</span></span></th>
+<th><span data-ttu-id="e4073-221">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="e4073-221">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="e4073-222">Описание</span><span class="sxs-lookup"><span data-stu-id="e4073-222">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-223"><strong>Роль</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-223"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-224">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-224">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-225">Роль (например, докладчик), которую играл участник конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-225">Role (for example, Presenter) played by the conference participant.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-223"><strong>Роль</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-223"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-224">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-224">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-225">Роль (например, докладчик), которую играл участник конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-225">Role (for example, Presenter) played by the conference participant.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-226"><strong>Участник</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-226"><strong>Participant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-227">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-227">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-228">SIP-адрес участника конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-228">SIP address of the conference participant.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-226"><strong>Участник</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-226"><strong>Participant</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-227">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-227">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-228">SIP-адрес участника конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-228">SIP address of the conference participant.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-229"><strong>Соединение</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-229"><strong>Connectivity</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-230">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-230">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-231">Подключение участника к сети, обычно из внутренней сети или из внешней сети.</span><span class="sxs-lookup"><span data-stu-id="1a76b-231">Network connectivity (typically From Internal or From External) for the participant.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-229"><strong>Соединение</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-229"><strong>Connectivity</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-230">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-230">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-231">Подключение участника к сети, обычно из внутренней сети или из внешней сети.</span><span class="sxs-lookup"><span data-stu-id="e4073-231">Network connectivity (typically From Internal or From External) for the participant.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-232"><strong>Модальность</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-232"><strong>Modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-233">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-233">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-234">Тип конференции (например, аудио- и видеоконференция).</span><span class="sxs-lookup"><span data-stu-id="1a76b-234">Conference type (for example, A/V conferencing).</span></span></p></td>
+<td><p><span data-ttu-id="e4073-232"><strong>Модальность</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-232"><strong>Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-233">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-233">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-234">Тип конференции (например, аудио- и видеоконференция).</span><span class="sxs-lookup"><span data-stu-id="e4073-234">Conference type (for example, A/V conferencing).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-235"><strong>Время присоединения к конференциям</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-235"><strong>Join time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-236">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-236">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-237">Дата и время присоединения участника к конференции.</span><span class="sxs-lookup"><span data-stu-id="1a76b-237">Date and time that the participant joined the conference.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-235"><strong>Время присоединения к конференциям</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-235"><strong>Join time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-236">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-236">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-237">Дата и время присоединения участника к конференции.</span><span class="sxs-lookup"><span data-stu-id="e4073-237">Date and time that the participant joined the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a76b-238"><strong>Время выхода</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-238"><strong>Leave time</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-239">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-239">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-240">Дата и время, когда участник покинул конференцию.</span><span class="sxs-lookup"><span data-stu-id="1a76b-240">Date and time that the participant left the conference.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-238"><strong>Время выхода</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-238"><strong>Leave time</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-239">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-239">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-240">Дата и время, когда участник покинул конференцию.</span><span class="sxs-lookup"><span data-stu-id="e4073-240">Date and time that the participant left the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a76b-241"><strong>Диагностический идентификатор</strong></span><span class="sxs-lookup"><span data-stu-id="1a76b-241"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="1a76b-242">Нет</span><span class="sxs-lookup"><span data-stu-id="1a76b-242">No</span></span></p></td>
-<td><p><span data-ttu-id="1a76b-p115">Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок. Заголовки диагностики не являются обязательными (можно иметь сеансы SIP без таких заголовков), а идентификаторы диагностики указываются только для сеансов, в которых возникли какие-либо проблемы.</span><span class="sxs-lookup"><span data-stu-id="1a76b-p115">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="e4073-241"><strong>Диагностический идентификатор</strong></span><span class="sxs-lookup"><span data-stu-id="e4073-241"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="e4073-242">Нет</span><span class="sxs-lookup"><span data-stu-id="e4073-242">No</span></span></p></td>
+<td><p><span data-ttu-id="e4073-p115">Прикрепленный к SIP-сообщению уникальный идентификатор (в форме заголовка ms-diagnostics), который часто содержит информацию, полезную при поиске и устранении ошибок. Заголовки диагностики не являются обязательными (можно иметь сеансы SIP без таких заголовков), а идентификаторы диагностики указываются только для сеансов, в которых возникли какие-либо проблемы.</span><span class="sxs-lookup"><span data-stu-id="e4073-p115">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>

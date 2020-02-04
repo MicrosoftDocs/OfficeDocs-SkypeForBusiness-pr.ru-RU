@@ -5,18 +5,20 @@ ms.author: kenwith
 author: kenwith
 audience: admin
 manager: serdars
+f1.keywords:
+- NOCSH
 TOCTitle: Create network interregion routes
 ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d234d959f434e9e2b96850add488ecd4eac952c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +26,7 @@ ms.locfileid: "40991714"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-network-interregion-routes-in-lync-server-2013"></a><span data-ttu-id="04b6a-102">Создание маршрутов между межсетевыми регионах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04b6a-102">Create network interregion routes in Lync Server 2013</span></span>
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a><span data-ttu-id="fbe50-102">Создание маршрутов между межсетевыми регионах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fbe50-102">Create network interregion routes in Lync Server 2013</span></span>
 
 </div>
 
@@ -34,31 +36,31 @@ ms.locfileid: "40991714"
 
 <span> </span>
 
-<span data-ttu-id="04b6a-103">_**Тема последнего изменения:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="04b6a-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="fbe50-103">_**Тема последнего изменения:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="fbe50-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="04b6a-104">*Маршрут к межсетевому региону* определяет маршрут между парой областей сети.</span><span class="sxs-lookup"><span data-stu-id="04b6a-104">A *network interregion route* defines the route between a pair of network regions.</span></span> <span data-ttu-id="04b6a-105">Для каждой пары областей сети в развертывании средства управления допуском звонков требуется маршрут сетевого региона.</span><span class="sxs-lookup"><span data-stu-id="04b6a-105">Each pair of network regions in your call admission control deployment requires a network interregion route.</span></span> <span data-ttu-id="04b6a-106">Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.</span><span class="sxs-lookup"><span data-stu-id="04b6a-106">This enables every network region within the deployment to access every other region.</span></span>
+<span data-ttu-id="fbe50-104">*Маршрут к межсетевому региону* определяет маршрут между парой областей сети.</span><span class="sxs-lookup"><span data-stu-id="fbe50-104">A *network interregion route* defines the route between a pair of network regions.</span></span> <span data-ttu-id="fbe50-105">Для каждой пары областей сети в развертывании средства управления допуском звонков требуется маршрут сетевого региона.</span><span class="sxs-lookup"><span data-stu-id="fbe50-105">Each pair of network regions in your call admission control deployment requires a network interregion route.</span></span> <span data-ttu-id="fbe50-106">Это позволяет каждому региону сети в рамках развертывания осуществлять доступ к любому другому региону.</span><span class="sxs-lookup"><span data-stu-id="fbe50-106">This enables every network region within the deployment to access every other region.</span></span>
 
-<span data-ttu-id="04b6a-107">Несмотря на то, что ссылки на области устанавливают ограничения пропускной способности для подключений между регионами, межрегионовый маршрут определяет связанный путь, по которому будет проходить соединение из одной области в другую.</span><span class="sxs-lookup"><span data-stu-id="04b6a-107">While region links set bandwidth limitations on the connections between regions, an interregion route determines which linked path the connection will traverse from one region to another.</span></span>
+<span data-ttu-id="fbe50-107">Несмотря на то, что ссылки на области устанавливают ограничения пропускной способности для подключений между регионами, межрегионовый маршрут определяет связанный путь, по которому будет проходить соединение из одной области в другую.</span><span class="sxs-lookup"><span data-stu-id="fbe50-107">While region links set bandwidth limitations on the connections between regions, an interregion route determines which linked path the connection will traverse from one region to another.</span></span>
 
-<span data-ttu-id="04b6a-108">Дополнительные сведения о работе с маршрутами между сетевыми контактами можно найти в документации по оболочке управления Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="04b6a-108">For details about working with network interregion routes, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="fbe50-108">Дополнительные сведения о работе с маршрутами между сетевыми контактами можно найти в документации по оболочке управления Lync Server для следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="fbe50-108">For details about working with network interregion routes, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [<span data-ttu-id="04b6a-109">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="04b6a-109">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="fbe50-109">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="fbe50-109">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [<span data-ttu-id="04b6a-110">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="04b6a-110">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="fbe50-110">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="fbe50-110">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [<span data-ttu-id="04b6a-111">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="04b6a-111">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="fbe50-111">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="fbe50-111">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [<span data-ttu-id="04b6a-112">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="04b6a-112">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+  - [<span data-ttu-id="fbe50-112">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="fbe50-112">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-<span data-ttu-id="04b6a-113">В примере топологии сетевые маршруты между регионами должны быть определены для каждой из трех пар регионов: Северная Америка/EMEA, EMEA/APAC, Северная Америка и APAC.</span><span class="sxs-lookup"><span data-stu-id="04b6a-113">In the example topology, network interregion routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span>
+<span data-ttu-id="fbe50-113">В примере топологии сетевые маршруты между регионами должны быть определены для каждой из трех пар регионов: Северная Америка/EMEA, EMEA/APAC, Северная Америка и APAC.</span><span class="sxs-lookup"><span data-stu-id="fbe50-113">In the example topology, network interregion routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span>
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a><span data-ttu-id="04b6a-114">Создание маршрутов межсетевого региона с помощью среды управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="04b6a-114">To create network interregion routes by using Lync Server Management Shell</span></span>
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a><span data-ttu-id="fbe50-114">Создание маршрутов межсетевого региона с помощью среды управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="fbe50-114">To create network interregion routes by using Lync Server Management Shell</span></span>
 
-1.  <span data-ttu-id="04b6a-115">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="04b6a-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="fbe50-115">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="fbe50-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="04b6a-116">Выполните командлет **New-CsNetworkInterRegionRoute**, чтобы определить необходимые маршруты.</span><span class="sxs-lookup"><span data-stu-id="04b6a-116">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="04b6a-117">Например, выполните командлет:</span><span class="sxs-lookup"><span data-stu-id="04b6a-117">For example, run:</span></span>
+2.  <span data-ttu-id="fbe50-116">Выполните командлет **New-CsNetworkInterRegionRoute**, чтобы определить необходимые маршруты.</span><span class="sxs-lookup"><span data-stu-id="fbe50-116">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="fbe50-117">Например, выполните командлет:</span><span class="sxs-lookup"><span data-stu-id="fbe50-117">For example, run:</span></span>
     
        ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -76,7 +78,7 @@ ms.locfileid: "40991714"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="04b6a-118">Для маршрута межсетевого взаимодействия в Северной Америке и APAC требуется две ссылки на сетевой регион, так как между ними нет связи между прямыми сетевыми регионах.</span><span class="sxs-lookup"><span data-stu-id="04b6a-118">The North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
+    > <span data-ttu-id="fbe50-118">Для маршрута межсетевого взаимодействия в Северной Америке и APAC требуется две ссылки на сетевой регион, так как между ними нет связи между прямыми сетевыми регионах.</span><span class="sxs-lookup"><span data-stu-id="fbe50-118">The North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
 
     
     </div>
@@ -85,36 +87,36 @@ ms.locfileid: "40991714"
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a><span data-ttu-id="04b6a-119">Создание маршрутов межсетевого региона с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="04b6a-119">To create network interregion routes by using Lync Server Control Panel</span></span>
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a><span data-ttu-id="fbe50-119">Создание маршрутов межсетевого региона с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="fbe50-119">To create network interregion routes by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="04b6a-120">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="04b6a-120">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="04b6a-121">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="04b6a-121">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="fbe50-120">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fbe50-120">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="fbe50-121">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="fbe50-121">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="04b6a-122">В левой области навигации щелкните элемент **Конфигурация сети**.</span><span class="sxs-lookup"><span data-stu-id="04b6a-122">In the left navigation bar, click **Network Configuration**.</span></span>
+2.  <span data-ttu-id="fbe50-122">В левой области навигации щелкните элемент **Конфигурация сети**.</span><span class="sxs-lookup"><span data-stu-id="fbe50-122">In the left navigation bar, click **Network Configuration**.</span></span>
 
-3.  <span data-ttu-id="04b6a-123">Щелкните кнопку навигации **Маршрут региона**.</span><span class="sxs-lookup"><span data-stu-id="04b6a-123">Click the **Region Route** navigation button.</span></span>
+3.  <span data-ttu-id="fbe50-123">Щелкните кнопку навигации **Маршрут региона**.</span><span class="sxs-lookup"><span data-stu-id="fbe50-123">Click the **Region Route** navigation button.</span></span>
 
-4.  <span data-ttu-id="04b6a-124">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="04b6a-124">Click **New**.</span></span>
+4.  <span data-ttu-id="fbe50-124">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="fbe50-124">Click **New**.</span></span>
 
-5.  <span data-ttu-id="04b6a-125">На странице **Новый маршрут** выберите **имя** , а затем введите имя для маршрута сетевого региона.</span><span class="sxs-lookup"><span data-stu-id="04b6a-125">On the **New Region Route** page, click **Name** and then type a name for the network interregion route.</span></span>
+5.  <span data-ttu-id="fbe50-125">На странице **Новый маршрут** выберите **имя** , а затем введите имя для маршрута сетевого региона.</span><span class="sxs-lookup"><span data-stu-id="fbe50-125">On the **New Region Route** page, click **Name** and then type a name for the network interregion route.</span></span>
 
-6.  <span data-ttu-id="04b6a-126">Щелкните **сетевую \#область 1**, а затем щелкните в списке сетевой регион, который вы хотите перенаправить в сетевой \#регион 2.</span><span class="sxs-lookup"><span data-stu-id="04b6a-126">Click **Network Region \#1**, and then click a network region in the list that you want to route to Network Region \#2.</span></span>
+6.  <span data-ttu-id="fbe50-126">Щелкните **сетевую \#область 1**, а затем щелкните в списке сетевой регион, который вы хотите перенаправить в сетевой \#регион 2.</span><span class="sxs-lookup"><span data-stu-id="fbe50-126">Click **Network Region \#1**, and then click a network region in the list that you want to route to Network Region \#2.</span></span>
 
-7.  <span data-ttu-id="04b6a-127">Щелкните **Сетевое \#окружение 2**, а затем щелкните в списке сетевой регион, который нужно переслать в сетевую \#область 1.</span><span class="sxs-lookup"><span data-stu-id="04b6a-127">Click **Network Region \#2**, and then click a network region in the list that you want to route to Network Region \#1.</span></span>
+7.  <span data-ttu-id="fbe50-127">Щелкните **Сетевое \#окружение 2**, а затем щелкните в списке сетевой регион, который нужно переслать в сетевую \#область 1.</span><span class="sxs-lookup"><span data-stu-id="fbe50-127">Click **Network Region \#2**, and then click a network region in the list that you want to route to Network Region \#1.</span></span>
 
-8.  <span data-ttu-id="04b6a-128">Нажмите кнопку **Добавить** рядом с полем **связи по сетевому региону** , а затем добавьте ссылку на сетевой регион, которая будет использоваться в маршруте межсетевого соединения.</span><span class="sxs-lookup"><span data-stu-id="04b6a-128">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregion route.</span></span>
+8.  <span data-ttu-id="fbe50-128">Нажмите кнопку **Добавить** рядом с полем **связи по сетевому региону** , а затем добавьте ссылку на сетевой регион, которая будет использоваться в маршруте межсетевого соединения.</span><span class="sxs-lookup"><span data-stu-id="fbe50-128">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregion route.</span></span>
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > <span data-ttu-id="04b6a-129">При создании маршрута между двумя регионами сети, между которыми отсутствует прямая связь, необходимо добавить все необходимые связи для создания полного маршрута.</span><span class="sxs-lookup"><span data-stu-id="04b6a-129">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route.</span></span> <span data-ttu-id="04b6a-130">Например, для маршрута межсетевого взаимодействия в Северной Америке и APAC требуется две ссылки на сетевой регион, так как между ними нет ссылки на прямую сетевую область.</span><span class="sxs-lookup"><span data-stu-id="04b6a-130">For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
+    > <span data-ttu-id="fbe50-129">При создании маршрута между двумя регионами сети, между которыми отсутствует прямая связь, необходимо добавить все необходимые связи для создания полного маршрута.</span><span class="sxs-lookup"><span data-stu-id="fbe50-129">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route.</span></span> <span data-ttu-id="fbe50-130">Например, для маршрута межсетевого взаимодействия в Северной Америке и APAC требуется две ссылки на сетевой регион, так как между ними нет ссылки на прямую сетевую область.</span><span class="sxs-lookup"><span data-stu-id="fbe50-130">For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="04b6a-131">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="04b6a-131">Click **Commit**.</span></span>
+9.  <span data-ttu-id="fbe50-131">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="fbe50-131">Click **Commit**.</span></span>
 
-10. <span data-ttu-id="04b6a-132">Чтобы завершить создание маршрутов межсетевой связи для топологии, повторите действия 4 – 9 с параметрами для других маршрутов межсетевого связи.</span><span class="sxs-lookup"><span data-stu-id="04b6a-132">To finish creating network interregion routes for your topology, repeat steps 4 through 9 with settings for other network interregion routes.</span></span>
+10. <span data-ttu-id="fbe50-132">Чтобы завершить создание маршрутов межсетевой связи для топологии, повторите действия 4 – 9 с параметрами для других маршрутов межсетевого связи.</span><span class="sxs-lookup"><span data-stu-id="fbe50-132">To finish creating network interregion routes for your topology, repeat steps 4 through 9 with settings for other network interregion routes.</span></span>
 
 </div>
 
