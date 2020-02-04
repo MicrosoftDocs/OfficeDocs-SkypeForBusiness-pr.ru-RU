@@ -18,73 +18,74 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Малайзии.
-ms.openlocfilehash: 0c02613e5ce974371f83b85e5b5a41806d2786d0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 105f4f12e455694531fcef133011e0429c852515
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571462"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694914"
 ---
-# <a name="availability-in-malaysia"></a><span data-ttu-id="b8e97-103">Доступность в Малайзии</span><span class="sxs-lookup"><span data-stu-id="b8e97-103">Availability in Malaysia</span></span>
+# <a name="availability-in-malaysia"></a><span data-ttu-id="eb65f-103">Доступность в Малайзии</span><span class="sxs-lookup"><span data-stu-id="eb65f-103">Availability in Malaysia</span></span>
 
-<span data-ttu-id="b8e97-104">[Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.</span><span class="sxs-lookup"><span data-stu-id="b8e97-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="eb65f-104">[Укажите другую страну или регион](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) либо получите дополнительную информацию о странах и регионах, где доступны аудиоконференции и планы звонков.</span><span class="sxs-lookup"><span data-stu-id="eb65f-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="b8e97-105">Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Малайзии.</span><span class="sxs-lookup"><span data-stu-id="b8e97-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Malaysia.</span></span>
+<span data-ttu-id="eb65f-105">Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Малайзии.</span><span class="sxs-lookup"><span data-stu-id="eb65f-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Malaysia.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="b8e97-106">Аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="b8e97-106">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="eb65f-106">Аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="eb65f-106">Audio Conferencing</span></span>
 
-|<span data-ttu-id="b8e97-107">**Функция**</span><span class="sxs-lookup"><span data-stu-id="b8e97-107">**Feature**</span></span>|<span data-ttu-id="b8e97-108">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="b8e97-108">**Details**</span></span>|
+|<span data-ttu-id="eb65f-107">**Функция**</span><span class="sxs-lookup"><span data-stu-id="eb65f-107">**Feature**</span></span>|<span data-ttu-id="eb65f-108">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="eb65f-108">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8e97-109">Доступно ли приобретение аудиоконференций?</span><span class="sxs-lookup"><span data-stu-id="b8e97-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="b8e97-110">Да</span><span class="sxs-lookup"><span data-stu-id="b8e97-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="b8e97-111">Назначаются ли номера телефонов для аудиоконференций автоматически?</span><span class="sxs-lookup"><span data-stu-id="b8e97-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="b8e97-112">Да, для:</span><span class="sxs-lookup"><span data-stu-id="b8e97-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="b8e97-113">Куала-Лумпур</span><span class="sxs-lookup"><span data-stu-id="b8e97-113">Kuala Lumpur</span></span></ul> <span data-ttu-id="b8e97-114">Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span><span class="sxs-lookup"><span data-stu-id="b8e97-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
-|<span data-ttu-id="b8e97-115">Возможность получить обратный звонок с функцией "Звонок на мой номер"</span><span class="sxs-lookup"><span data-stu-id="b8e97-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="b8e97-116">Доступно</span><span class="sxs-lookup"><span data-stu-id="b8e97-116">Available</span></span>  <br/> |
+|<span data-ttu-id="eb65f-109">Доступно ли приобретение аудиоконференций?</span><span class="sxs-lookup"><span data-stu-id="eb65f-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="eb65f-110">Да</span><span class="sxs-lookup"><span data-stu-id="eb65f-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="eb65f-111">Назначаются ли номера телефонов для аудиоконференций автоматически?</span><span class="sxs-lookup"><span data-stu-id="eb65f-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="eb65f-112">Да, для:</span><span class="sxs-lookup"><span data-stu-id="eb65f-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="eb65f-113">Куала-Лумпур</span><span class="sxs-lookup"><span data-stu-id="eb65f-113">Kuala Lumpur</span></span></ul> <span data-ttu-id="eb65f-114">Если вам нужны выделенные номера телефонов, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span><span class="sxs-lookup"><span data-stu-id="eb65f-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
+|<span data-ttu-id="eb65f-115">Возможность получить обратный звонок с функцией "Звонок на мой номер"</span><span class="sxs-lookup"><span data-stu-id="eb65f-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="eb65f-116">Доступно</span><span class="sxs-lookup"><span data-stu-id="eb65f-116">Available</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="b8e97-117">Телефонная система</span><span class="sxs-lookup"><span data-stu-id="b8e97-117">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="eb65f-117">Телефонная система</span><span class="sxs-lookup"><span data-stu-id="eb65f-117">Phone System</span></span>
 
-|<span data-ttu-id="b8e97-118">**Функция**</span><span class="sxs-lookup"><span data-stu-id="b8e97-118">**Feature**</span></span>|<span data-ttu-id="b8e97-119">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="b8e97-119">**Details**</span></span>|
+|<span data-ttu-id="eb65f-118">**Функция**</span><span class="sxs-lookup"><span data-stu-id="eb65f-118">**Feature**</span></span>|<span data-ttu-id="eb65f-119">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="eb65f-119">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8e97-120">Доступно ли приобретение телефонной системы?</span><span class="sxs-lookup"><span data-stu-id="b8e97-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="b8e97-121">Да</span><span class="sxs-lookup"><span data-stu-id="b8e97-121">Yes</span></span>  <br/> |
-| <span data-ttu-id="b8e97-122">Автосекретари</span><span class="sxs-lookup"><span data-stu-id="b8e97-122">Auto attendants</span></span> <br/> |<span data-ttu-id="b8e97-123">Доступно</span><span class="sxs-lookup"><span data-stu-id="b8e97-123">Available</span></span>  <br/> |
-|<span data-ttu-id="b8e97-124">Очередь звонков</span><span class="sxs-lookup"><span data-stu-id="b8e97-124">Call queues</span></span>  <br/> |<span data-ttu-id="b8e97-125">Доступно</span><span class="sxs-lookup"><span data-stu-id="b8e97-125">Available</span></span>  <br/> |
-|<span data-ttu-id="b8e97-126">Голосовая почта</span><span class="sxs-lookup"><span data-stu-id="b8e97-126">Voicemail</span></span>  <br/> |<span data-ttu-id="b8e97-127">Доступно</span><span class="sxs-lookup"><span data-stu-id="b8e97-127">Available</span></span>  <br/> |
+|<span data-ttu-id="eb65f-120">Доступно ли приобретение телефонной системы?</span><span class="sxs-lookup"><span data-stu-id="eb65f-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="eb65f-121">Да</span><span class="sxs-lookup"><span data-stu-id="eb65f-121">Yes</span></span>  <br/> |
+| <span data-ttu-id="eb65f-122">Автосекретари</span><span class="sxs-lookup"><span data-stu-id="eb65f-122">Auto attendants</span></span> <br/> |<span data-ttu-id="eb65f-123">Доступно</span><span class="sxs-lookup"><span data-stu-id="eb65f-123">Available</span></span>  <br/> |
+|<span data-ttu-id="eb65f-124">Очередь звонков</span><span class="sxs-lookup"><span data-stu-id="eb65f-124">Call queues</span></span>  <br/> |<span data-ttu-id="eb65f-125">Доступно</span><span class="sxs-lookup"><span data-stu-id="eb65f-125">Available</span></span>  <br/> |
+|<span data-ttu-id="eb65f-126">Голосовая почта</span><span class="sxs-lookup"><span data-stu-id="eb65f-126">Voicemail</span></span>  <br/> |<span data-ttu-id="eb65f-127">Доступно</span><span class="sxs-lookup"><span data-stu-id="eb65f-127">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="b8e97-128">Планы звонков</span><span class="sxs-lookup"><span data-stu-id="b8e97-128">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="eb65f-128">Планы звонков</span><span class="sxs-lookup"><span data-stu-id="eb65f-128">Calling Plans</span></span>
 
-|<span data-ttu-id="b8e97-129">**Функция**</span><span class="sxs-lookup"><span data-stu-id="b8e97-129">**Feature**</span></span>|<span data-ttu-id="b8e97-130">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="b8e97-130">**Details**</span></span>|
+|<span data-ttu-id="eb65f-129">**Функция**</span><span class="sxs-lookup"><span data-stu-id="eb65f-129">**Feature**</span></span>|<span data-ttu-id="eb65f-130">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="eb65f-130">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8e97-131">Доступно ли приобретение планов звонков?</span><span class="sxs-lookup"><span data-stu-id="b8e97-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="b8e97-132">Нет</span><span class="sxs-lookup"><span data-stu-id="b8e97-132">No</span></span>  <br/> |
-|<span data-ttu-id="b8e97-133">Доступные минуты для планов звонков</span><span class="sxs-lookup"><span data-stu-id="b8e97-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="b8e97-134">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="b8e97-134">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b8e97-135">Кому можно делать исходящие звонки?</span><span class="sxs-lookup"><span data-stu-id="b8e97-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="b8e97-136">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="b8e97-136">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="eb65f-131">Доступно ли приобретение планов звонков?</span><span class="sxs-lookup"><span data-stu-id="eb65f-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="eb65f-132">Нет</span><span class="sxs-lookup"><span data-stu-id="eb65f-132">No</span></span>  <br/> |
+|<span data-ttu-id="eb65f-133">Доступные минуты для планов звонков</span><span class="sxs-lookup"><span data-stu-id="eb65f-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="eb65f-134">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="eb65f-134">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="eb65f-135">Кому можно делать исходящие звонки?</span><span class="sxs-lookup"><span data-stu-id="eb65f-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="eb65f-136">Неприменимо</span><span class="sxs-lookup"><span data-stu-id="eb65f-136">Not applicable</span></span>  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="b8e97-137">Платные и бесплатные номера служб</span><span class="sxs-lookup"><span data-stu-id="b8e97-137">Toll and toll-free numbers for services</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="eb65f-137">Платные и бесплатные номера служб</span><span class="sxs-lookup"><span data-stu-id="eb65f-137">Toll and toll-free numbers for services</span></span>
 
-|<span data-ttu-id="b8e97-138">**Функция**</span><span class="sxs-lookup"><span data-stu-id="b8e97-138">**Feature**</span></span>|<span data-ttu-id="b8e97-139">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="b8e97-139">**Details**</span></span>|
+|<span data-ttu-id="eb65f-138">**Функция**</span><span class="sxs-lookup"><span data-stu-id="eb65f-138">**Feature**</span></span>|<span data-ttu-id="eb65f-139">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="eb65f-139">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8e97-140">Для каких столиц или крупных городов можно получить платные номера?</span><span class="sxs-lookup"><span data-stu-id="b8e97-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="b8e97-141">Куала-Лумпур</span><span class="sxs-lookup"><span data-stu-id="b8e97-141">Kuala Lumpur</span></span>  <br/> |
-|<span data-ttu-id="b8e97-142">Доступны ли платные номера?</span><span class="sxs-lookup"><span data-stu-id="b8e97-142">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="b8e97-143">Да</span><span class="sxs-lookup"><span data-stu-id="b8e97-143">Yes</span></span>  <br/> |
-|<span data-ttu-id="b8e97-144">Доступны ли бесплатные номера?</span><span class="sxs-lookup"><span data-stu-id="b8e97-144">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="b8e97-145">Да</span><span class="sxs-lookup"><span data-stu-id="b8e97-145">Yes</span></span>  <br/> |
+|<span data-ttu-id="eb65f-140">Для каких столиц или крупных городов можно получить платные номера?</span><span class="sxs-lookup"><span data-stu-id="eb65f-140">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="eb65f-141">Куала-Лумпур</span><span class="sxs-lookup"><span data-stu-id="eb65f-141">Kuala Lumpur</span></span>  <br/> |
+|<span data-ttu-id="eb65f-142">Доступны ли платные номера?</span><span class="sxs-lookup"><span data-stu-id="eb65f-142">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="eb65f-143">Да</span><span class="sxs-lookup"><span data-stu-id="eb65f-143">Yes</span></span>  <br/> |
+|<span data-ttu-id="eb65f-144">Доступны ли бесплатные номера?</span><span class="sxs-lookup"><span data-stu-id="eb65f-144">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="eb65f-145">Да</span><span class="sxs-lookup"><span data-stu-id="eb65f-145">Yes</span></span>  <br/> |
    
- <span data-ttu-id="b8e97-146">Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span><span class="sxs-lookup"><span data-stu-id="b8e97-146">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
+ <span data-ttu-id="eb65f-146">Если вы хотите получить платные и бесплатные номера телефонов для аудиоконференций, автосекретарей и очередей звонков, см. статью [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span><span class="sxs-lookup"><span data-stu-id="eb65f-146">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="b8e97-147">Кредиты на связь</span><span class="sxs-lookup"><span data-stu-id="b8e97-147">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="eb65f-147">Кредиты на связь</span><span class="sxs-lookup"><span data-stu-id="eb65f-147">Communications Credits</span></span>
 
-|<span data-ttu-id="b8e97-148">**Функция**</span><span class="sxs-lookup"><span data-stu-id="b8e97-148">**Feature**</span></span>|<span data-ttu-id="b8e97-149">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="b8e97-149">**Details**</span></span>|
+|<span data-ttu-id="eb65f-148">**Функция**</span><span class="sxs-lookup"><span data-stu-id="eb65f-148">**Feature**</span></span>|<span data-ttu-id="eb65f-149">**Сведения**</span><span class="sxs-lookup"><span data-stu-id="eb65f-149">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b8e97-150">Доступны ли кредиты на связь?</span><span class="sxs-lookup"><span data-stu-id="b8e97-150">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="b8e97-151">Да</span><span class="sxs-lookup"><span data-stu-id="b8e97-151">Yes</span></span>  <br/> |
+|<span data-ttu-id="eb65f-150">Доступны ли кредиты на связь?</span><span class="sxs-lookup"><span data-stu-id="eb65f-150">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="eb65f-151">Да</span><span class="sxs-lookup"><span data-stu-id="eb65f-151">Yes</span></span>  <br/> |
    
-<span data-ttu-id="b8e97-152">Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="b8e97-152">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="eb65f-152">Если они нужны вам, см. статью [Настройка кредитов на связь для организации](../set-up-communications-credits-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="eb65f-152">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b8e97-153">См. также:</span><span class="sxs-lookup"><span data-stu-id="b8e97-153">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="eb65f-153">См. также:</span><span class="sxs-lookup"><span data-stu-id="eb65f-153">Related topics</span></span>
 
-[<span data-ttu-id="b8e97-154">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b8e97-154">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="eb65f-154">Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="eb65f-154">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
-[<span data-ttu-id="b8e97-155">Страны и регионы, для которых доступны аудиоконференции и планы звонков</span><span class="sxs-lookup"><span data-stu-id="b8e97-155">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="eb65f-155">Страны и регионы, для которых доступны аудиоконференции и планы звонков</span><span class="sxs-lookup"><span data-stu-id="eb65f-155">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

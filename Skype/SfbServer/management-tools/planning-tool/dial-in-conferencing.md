@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Конференц-связь с телефонным подключением в Skype для бизнеса Server 2015 позволяет пользователям присоединиться к звуковой части Конференции Skype для бизнеса Server 2015 с помощью коммутируемого телефонного телефона, доступного по коммутируемой телефонной сети, не требуя поставщика услуг голосовой связи с третьими лицами.
-ms.openlocfilehash: 43df7e851ce51a169cd98dec1361872dee17282f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfba7bae9e3a1fa028784dc8c4c1b338bb750c2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274277"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696382"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="d1ec5-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="d1ec5-103">Dial-in Conferencing (Planning Tool)</span></span>
+# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="2e6da-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="2e6da-103">Dial-in Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="d1ec5-104">Конференц-связь с телефонным подключением в Skype для бизнеса Server 2015 позволяет пользователям присоединиться к звуковой части Конференции Skype для бизнеса Server 2015 с помощью коммутируемого телефонного телефона, доступного по коммутируемой телефонной сети, не требуя поставщика услуг голосовой связи с третьими лицами.</span><span class="sxs-lookup"><span data-stu-id="d1ec5-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
+<span data-ttu-id="2e6da-104">Конференц-связь с телефонным подключением в Skype для бизнеса Server 2015 позволяет пользователям присоединиться к звуковой части Конференции Skype для бизнеса Server 2015 с помощью коммутируемого телефонного телефона, доступного по коммутируемой телефонной сети, не требуя поставщика услуг голосовой связи с третьими лицами.</span><span class="sxs-lookup"><span data-stu-id="2e6da-104">Skype for Business Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
   
-<span data-ttu-id="d1ec5-105">Сведения о планировании включения конференц-связи с телефонным подключением в вашей организации см. в следующих статьях и разделах:</span><span class="sxs-lookup"><span data-stu-id="d1ec5-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
+<span data-ttu-id="2e6da-105">Сведения о планировании включения конференц-связи с телефонным подключением в вашей организации см. в следующих статьях и разделах:</span><span class="sxs-lookup"><span data-stu-id="2e6da-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
   
-- [<span data-ttu-id="d1ec5-106">Планирование конференц-связи в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="d1ec5-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="2e6da-106">Планирование конференц-связи в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="2e6da-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 
