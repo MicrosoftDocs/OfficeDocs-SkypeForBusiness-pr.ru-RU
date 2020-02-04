@@ -6,43 +6,43 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 37e52bc8c9b9f5f07903d3f071482bd3fd6f2e44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ef46d4a182983e94ce7c609f3ed524c40cf58e62
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281647"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690504"
 ---
-# <a name="users-edit-user"></a><span data-ttu-id="40fff-104">Пользователи: редактирование пользователя</span><span class="sxs-lookup"><span data-stu-id="40fff-104">Users: Edit User</span></span>
+# <a name="users-edit-user"></a><span data-ttu-id="b1d0a-104">Пользователи: редактирование пользователя</span><span class="sxs-lookup"><span data-stu-id="b1d0a-104">Users: Edit User</span></span>
 
-<span data-ttu-id="40fff-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="40fff-105">What do you want to do?</span></span> <span data-ttu-id="40fff-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="40fff-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b1d0a-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="b1d0a-105">What do you want to do?</span></span> <span data-ttu-id="b1d0a-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="b1d0a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="40fff-107">Включение и отключение пользователей</span><span class="sxs-lookup"><span data-stu-id="40fff-107">Enable or Disable Users</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [<span data-ttu-id="b1d0a-107">Включение и отключение пользователей</span><span class="sxs-lookup"><span data-stu-id="b1d0a-107">Enable or Disable Users</span></span>](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
 
-- [<span data-ttu-id="40fff-108">Включение пользователей корпоративной голосовой связи в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="40fff-108">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [<span data-ttu-id="b1d0a-108">Включение пользователей корпоративной голосовой связи в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="b1d0a-108">Enable users for Enterprise Voice in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [<span data-ttu-id="40fff-109">Назначение политики конференц-связи для изменения параметров собрания по умолчанию для пользователя</span><span class="sxs-lookup"><span data-stu-id="40fff-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="b1d0a-109">Назначение политики конференц-связи для изменения параметров собрания по умолчанию для пользователя</span><span class="sxs-lookup"><span data-stu-id="b1d0a-109">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-- [<span data-ttu-id="40fff-110">Указание клиентских версий, поддерживаемых для входа пользователем</span><span class="sxs-lookup"><span data-stu-id="40fff-110">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [<span data-ttu-id="b1d0a-110">Указание клиентских версий, поддерживаемых для входа пользователем</span><span class="sxs-lookup"><span data-stu-id="b1d0a-110">Specify Client Versions Supported for Sign-in by a User</span></span>](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
 
-- [<span data-ttu-id="40fff-111">Назначение политики PIN-кода для пользователя в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="40fff-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [<span data-ttu-id="b1d0a-111">Назначение политики PIN-кода для пользователя в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="b1d0a-111">Assign a per-user PIN policy in Skype for Business Server</span></span>](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [<span data-ttu-id="40fff-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="40fff-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="b1d0a-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="b1d0a-112">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [<span data-ttu-id="40fff-113">Настройка архивации сообщений пользователя</span><span class="sxs-lookup"><span data-stu-id="40fff-113">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [<span data-ttu-id="b1d0a-113">Настройка архивации сообщений пользователя</span><span class="sxs-lookup"><span data-stu-id="b1d0a-113">Configure Archiving of a User's Communications</span></span>](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
-- [<span data-ttu-id="40fff-114">Назначение пользователю политики местоположения</span><span class="sxs-lookup"><span data-stu-id="40fff-114">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [<span data-ttu-id="b1d0a-114">Назначение пользователю политики местоположения</span><span class="sxs-lookup"><span data-stu-id="b1d0a-114">Assign a Location Policy to a User</span></span>](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [<span data-ttu-id="40fff-115">Configure Telephony for Users</span><span class="sxs-lookup"><span data-stu-id="40fff-115">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [<span data-ttu-id="b1d0a-115">Configure Telephony for Users</span><span class="sxs-lookup"><span data-stu-id="b1d0a-115">Configure Telephony for Users</span></span>](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
-- [<span data-ttu-id="40fff-116">Назначение политики мобильности на уровне пользователей</span><span class="sxs-lookup"><span data-stu-id="40fff-116">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
+- [<span data-ttu-id="b1d0a-116">Назначение политики мобильности на уровне пользователей</span><span class="sxs-lookup"><span data-stu-id="b1d0a-116">Assign a Per-User Mobility Policy</span></span>](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 
 
 

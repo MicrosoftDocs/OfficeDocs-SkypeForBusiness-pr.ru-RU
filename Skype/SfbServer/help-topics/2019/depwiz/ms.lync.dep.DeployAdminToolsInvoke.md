@@ -6,22 +6,22 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployAdminToolsInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Дополнительные сведения об использовании мастера развертывания для установки сервера Skype для бизнеса можно найти в разделе Установка Skype для бизнеса Server.
-ms.openlocfilehash: d8663249c35407a990ddb245d8247b069508ff88
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7f55b4fcaee9db828e1cf40c3b8270ea6aae2d1f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275641"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705854"
 ---
-# <a name="deployment-wizard-using-the-admin-tools"></a><span data-ttu-id="ea56f-103">Мастер развертывания: использование средств администрирования</span><span class="sxs-lookup"><span data-stu-id="ea56f-103">Deployment Wizard: Using the Admin Tools</span></span>
+# <a name="deployment-wizard-using-the-admin-tools"></a><span data-ttu-id="3795f-103">Мастер развертывания: использование средств администрирования</span><span class="sxs-lookup"><span data-stu-id="3795f-103">Deployment Wizard: Using the Admin Tools</span></span>
  
-<span data-ttu-id="ea56f-104">Дополнительные сведения об использовании мастера развертывания для установки сервера Skype для бизнеса можно найти в разделе [Установка Skype для бизнеса Server](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="ea56f-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="3795f-104">Дополнительные сведения об использовании мастера развертывания для установки сервера Skype для бизнеса можно найти в разделе [Установка Skype для бизнеса Server](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="3795f-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

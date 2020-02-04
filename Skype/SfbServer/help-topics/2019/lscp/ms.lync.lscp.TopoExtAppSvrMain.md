@@ -6,25 +6,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.TopoExtAppSvrMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 612393419baca9718a593ad04dec5ab6e562e68b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbc52db045cd55c9c548c4ba1f9ecd7b712e9cbd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275953"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704274"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="28dc7-104">Топология: доверенное приложение</span><span class="sxs-lookup"><span data-stu-id="28dc7-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="4fceb-104">Топология: доверенное приложение</span><span class="sxs-lookup"><span data-stu-id="4fceb-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="28dc7-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="28dc7-105">What do you want to do?</span></span> <span data-ttu-id="28dc7-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="28dc7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="4fceb-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="4fceb-105">What do you want to do?</span></span> <span data-ttu-id="4fceb-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="4fceb-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="28dc7-107">Просмотр списка надежных приложений</span><span class="sxs-lookup"><span data-stu-id="28dc7-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="4fceb-107">Просмотр списка надежных приложений</span><span class="sxs-lookup"><span data-stu-id="4fceb-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
 
 
 
