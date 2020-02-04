@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.VoiceInfrastructure
 - ms.lync.plan.VoiceInfrastructure
 ms.prod: skype-for-business-itpro
@@ -14,15 +14,15 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype для бизнеса Server обеспечивает надежную и масштабируемую КОММУТИРУЕМую связь с помощью магистральных каналов SIP, прямых соединений по протоколу SIP с шлюзом PSTN или прямым подключением SIP к УАТС. Подробнее смотрите в разделе Планирование подключений PSTN в Skype для бизнеса Server.
-ms.openlocfilehash: 0e71562161ce23bc944a04e7aaf10fbc6fb14384
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2039e7a4a6ddeda336693aab787a9f0e2292e85
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284636"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689724"
 ---
-# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="a6bac-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="a6bac-104">Voice Infrastructure (Planning Tool)</span></span>
+# <a name="voice-infrastructure-planning-tool"></a><span data-ttu-id="646a7-104">Voice Infrastructure (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="646a7-104">Voice Infrastructure (Planning Tool)</span></span>
  
-<span data-ttu-id="a6bac-105">Skype для бизнеса Server обеспечивает надежную и масштабируемую КОММУТИРУЕМую связь с помощью магистральных каналов SIP, прямых соединений по протоколу SIP с шлюзом PSTN или прямым подключением SIP к УАТС.</span><span class="sxs-lookup"><span data-stu-id="a6bac-105">Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="a6bac-106">Подробнее смотрите в разделе [Планирование подключений PSTN в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span><span class="sxs-lookup"><span data-stu-id="a6bac-106">For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
+<span data-ttu-id="646a7-105">Skype для бизнеса Server обеспечивает надежную и масштабируемую КОММУТИРУЕМую связь с помощью магистральных каналов SIP, прямых соединений по протоколу SIP с шлюзом PSTN или прямым подключением SIP к УАТС.</span><span class="sxs-lookup"><span data-stu-id="646a7-105">Skype for Business Server provides reliable, scalable PSTN connectivity by using SIP trunks, direct SIP connections to a PSTN gateway, or direct SIP connections to a PBX.</span></span> <span data-ttu-id="646a7-106">Подробнее смотрите в разделе [Планирование подключений PSTN в Skype для бизнеса Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span><span class="sxs-lookup"><span data-stu-id="646a7-106">For details, see [Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).</span></span>
   
 

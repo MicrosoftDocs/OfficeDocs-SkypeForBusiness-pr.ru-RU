@@ -15,15 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 description: 'Это содержимое, которое должно быть опубликовано в соответствии с требованиями к специальным возможностям, соответствию требованиям и стандартам Skype для бизнеса Online в Франции. '
-ms.openlocfilehash: 1ee076a9890dd7aa66b3e1ff1d89c3f5c9d6e10c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301227"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693104"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="8f082-103">Юридическая и нормативная информация</span><span class="sxs-lookup"><span data-stu-id="8f082-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="6d9b7-103">Юридическая и нормативная информация</span><span class="sxs-lookup"><span data-stu-id="6d9b7-103">Legal and regulatory</span></span>
