@@ -3,6 +3,8 @@ title: Настройка партнерских приложений в Lync Se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring partner applications in Lync Server 2013 and Exchange Server 2013
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dad815a67dafea510513e334c910a5dbb8a2e82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c60e018a86ec0838791d5fc46845460b5f039f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ _**Тема последнего изменения:** 2012-11-12_
 
 Кроме того, вы можете создать партнерское приложение, скопировав и изменив код сценария, который находится в документации по проверке подлинности серверов в Lync Server 2013. Дополнительные сведения можно найти [в статье Управление проверкой подлинности серверов (OAuth) и партнерских приложений в Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) .
 
-Если вы успешно настроили партнерские приложения для Lync Server и Exchange, это означает, что вы также успешно настроили проверку подлинности серверов и серверов между двумя продуктами. Lync Server 2013 содержит командлет Windows PowerShell [Test-ксекссторажеконнективити](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15)), который позволяет проверить правильность настройки проверки подлинности серверов и сервера в службе хранилища Lync Server, которая может подключиться к Exchange 2013. Командлет делает это, подключаясь к почтовому ящику пользователя Exchange 2013, записывая элемент в папку журнала бесед для этого пользователя и, при необходимости, удаляя его.
+Если вы успешно настроили партнерские приложения для Lync Server и Exchange, это означает, что вы также успешно настроили проверку подлинности серверов и серверов между двумя продуктами. Lync Server 2013 включает командлет Windows PowerShell [Test-ксекссторажеконнективити](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15)), который позволяет проверить правильность настройки проверки подлинности серверов и сервера в службе хранилища Lync Server, которая может подключиться к Exchange 2013. Командлет делает это, подключаясь к почтовому ящику пользователя Exchange 2013, записывая элемент в папку журнала бесед для этого пользователя и, при необходимости, удаляя его.
 
 Чтобы протестировать интеграцию Lync Server 2013 и Exchange 2013, выполните в командной консоли Lync Server команду, подобную следующей:
 

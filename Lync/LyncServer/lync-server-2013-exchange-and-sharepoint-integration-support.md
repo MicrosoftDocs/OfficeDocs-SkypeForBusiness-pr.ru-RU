@@ -3,6 +3,8 @@ title: 'Lync Server 2013: поддержка Exchange и интеграции с
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exchange and SharePoint integration support
 ms:assetid: 72bf8aa5-55b1-4851-8a59-c96bf85d215a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205005(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c4d378337643adf79557bd4bbb649a01948de27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 198df79f63415affa4fb9b41d55265b58ae00a8a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834192"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Lync Server 2013 поддерживает два сценария проверк
 
 </div>
 
-Подробнее о проверке подлинности серверов и серверов можно найти в разделе Управление проверкой подлинности серверов [(OAuth) и партнерским приложением в Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) в документации по развертыванию или документации по операциям.
+Подробнее о проверке подлинности серверов и серверов можно найти в разделе [Управление проверкой подлинности серверов (OAuth) и партнерским приложением в Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) в документации по развертыванию или документации по операциям.
 
 </div>
 

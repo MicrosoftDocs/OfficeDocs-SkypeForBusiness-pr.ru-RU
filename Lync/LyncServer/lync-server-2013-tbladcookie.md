@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblADCookie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblADCookie
 ms:assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eef65e18de609f7e10fed4aaad9283612778070
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849543"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,27 +56,27 @@ _**Тема последнего изменения:** 2012-06-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Прингуид</p></td>
+<td><p>прингуид</p></td>
 <td><p>GUID, а не NULL</p></td>
 <td><p>Идентификатор GUID участника отслеживаемого домена.</p></td>
 </tr>
 <tr class="even">
-<td><p>Приндчост</p></td>
+<td><p>приндчост</p></td>
 <td><p>nvarchar (255)</p></td>
 <td><p>Полное доменное имя (FQDN) текущего контроллера домена, используемого для синхронизации доменных служб Active Directory. Имеет информационное значение.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адкконтент</p></td>
+<td><p>адкконтент</p></td>
 <td><p>изображение (двоичное)</p></td>
 <td><p>Cookie синхронизации Active Directory.</p></td>
 </tr>
 <tr class="even">
-<td><p>Ластупдатед</p></td>
+<td><p>ластупдатед</p></td>
 <td><p>datetime</p></td>
 <td><p>Метка времени со временем обновления строки.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Локкедунтил</p></td>
+<td><p>локкедунтил</p></td>
 <td><p>datetime</p></td>
 <td><p>Время, по истечении которого изменения строки будут заблокированы. Это является частью механизма программного обеспечения, который гарантирует, что только одна из служб чата выполняет синхронизацию службы каталогов Active Directory за один раз.</p></td>
 </tr>
@@ -97,11 +99,11 @@ _**Тема последнего изменения:** 2012-06-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Прингуид</p></td>
+<td><p>прингуид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>Прингуид</p></td>
+<td><p>прингуид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице Principal. Прингуид.</p></td>
 </tr>
 </tbody>

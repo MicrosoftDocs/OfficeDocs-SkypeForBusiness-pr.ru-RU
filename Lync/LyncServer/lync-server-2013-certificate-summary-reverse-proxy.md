@@ -3,6 +3,8 @@ title: 'Lync Server 2013: сводка по сертификатам — обр�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Reverse proxy
 ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a10259ac4a0beb6d79897b26bf446b109801a8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42e52fa8522de53404fee3f3b5798f159361dbf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**Тема последнего изменения:** 2012-11-14_
 
 **Блок-схема "сертификаты" для обратного прокси**
 
-![Блокическая схема сертификатов для пограничного сервера] (images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Блокическая схема сертификатов для пограничного сервера")
+![Блок-схема сертификации для пограничного сервера](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Блок-схема сертификации для пограничного сервера")
 
 ### <a name="reverse-proxy-external-interface"></a>Обратный прокси: внешний интерфейс
 

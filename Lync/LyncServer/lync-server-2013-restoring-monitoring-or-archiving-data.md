@@ -3,6 +3,8 @@ title: 'Lync Server 2013: восстановление данных монито
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring monitoring or archiving data
 ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 803cb6050d4230653a13f1e3e66c2a092911c509
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9621fe3c1905dbd34fd3b4da39b2562c608d6355
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ _**Тема последнего изменения:** 2013-02-18_
 
 ## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>Проверка правильности списков контроля доступа (ACL)
 
-1.  Разверните **** базу данных, разверните папку Архивация или мониторинг, разверните раздел **Безопасность**, а затем разверните раздел **Пользователи**.
+1.  Разверните **базу данных, разверните**папку Архивация или мониторинг, разверните раздел **Безопасность**, а затем разверните раздел **Пользователи**.
 
 2.  Убедитесь, что группа домена Ртккомпонентуниверсалсервицес существует в качестве пользователя.
 

@@ -3,6 +3,8 @@ title: Проверка параметров настройки
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify configuration settings
 ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc4d13f3bdd5af1a2c9b90e190775522ea6f11b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848883"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ _**Тема последнего изменения:** 2012-09-28_
 </tr>
 <tr class="even">
 <td><p>Communicator Web Access</p></td>
-<td><p>Простые URL-адреса </p></td>
+<td><p>Простые URL-адреса</p></td>
 </tr>
 <tr class="odd">
 <td><p>внешние пользователи;</p></td>
@@ -121,7 +123,7 @@ _**Тема последнего изменения:** 2012-09-28_
     
 
     > [!NOTE]  
-    > Если <STRONG>Анонимные участники</STRONG> настроены на <STRONG>принудительное применение</STRONG> в политике конференц-связи Office Communications Server 2007 R2, во время миграции создаются две политики конференций: один с <STRONG>аллованонимауспартиЦипантсинмитингс</STRONG> , для которого установлено значение <STRONG>True</STRONG> и One с <STRONG>аллованонимауспартиЦипантсинмитингс</STRONG> , для которого задано <STRONG>значение false</STRONG>.
+    > Если <STRONG>Анонимные участники</STRONG> настроены на <STRONG>принудительное применение</STRONG> в политике конференц-связи Office Communications Server 2007 R2, во время миграции создаются две политики конференций: один с <STRONG>аллованонимауспартиЦипантсинмитингс</STRONG> , для которого установлено значение <STRONG>true</STRONG> , а для <STRONG>аллованонимауспартиЦипантсинмитингс</STRONG> задано значение <STRONG>false</STRONG>.
 
     
     </div>
@@ -132,7 +134,7 @@ _**Тема последнего изменения:** 2012-09-28_
     
 
     > [!NOTE]  
-    > В Lync Server 2013 <STRONG>Профили местоположений</STRONG> теперь называются телефонными <STRONG>планами</STRONG>.
+    > В Lync Server 2013 <STRONG>Профили местоположений</STRONG> теперь называются <STRONG>телефонными планами</STRONG>.
 
     
     </div>

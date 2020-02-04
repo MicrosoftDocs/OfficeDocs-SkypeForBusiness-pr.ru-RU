@@ -3,6 +3,8 @@ title: Перенос параметров приложения приостан
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Call Park application settings
 ms:assetid: 23b192d2-93ec-42a8-b175-b6ed502a2c35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687993(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f01429a85b679ae5d3710585db84c17e6e64e34b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ba55ec7ff54858d3324df2ab8794176a5dc7a10
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849031"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ _**Тема последнего изменения:** 2012-10-19_
 
 4.  Для каждого диапазона на расстоянии по орбите, назначенного для пула Lync Server 2010, измените **полное доменное имя** в параметрах конечного сервера и выберите пул Lync Server 2013, который будет обрабатывать запросы на остановку звонков.
 
-5.  Нажмите **** кнопку Сохранить, чтобы сохранить изменения.
+5.  Нажмите **кнопку Сохранить,** чтобы сохранить изменения.
 
 **Переназначение всех диапазонов на орбиту на приостановку работы с помощью командной консоли Lync Server Management Shell**
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: сводный отчет о звонке'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Summary Report
 ms:assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e747d257e7c88973790e8fd0c9ba828949248598
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0228af8690fe7170fc4fd77e72f67f6cb3adc08c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**Тема последнего изменения:** 2012-06-06_
 
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Доступ к сводному диагностическому отчету по вызовам
 
-The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page. Из сводного отчета "Диагностика звонков" вы можете получить доступ к диагностическим отчету о действиях одноранговых групп [в Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) , щелкнув метрику частота сбоя в разделе "одноранговый сеанс" в сводном отчете. Вы также можете получить доступ к [диагностическим отчетам на Конференции в Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) , щелкнув одну из следующих метрик конференции:
+The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home page. Из сводного отчета "Диагностика звонков" вы можете получить доступ к [диагностическим отчету о действиях одноранговых групп в Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md) , щелкнув метрику частота сбоя в разделе "одноранговый сеанс" в сводном отчете. Вы также можете получить доступ к [диагностическим отчетам на Конференции в Lync Server 2013](lync-server-2013-conference-diagnostic-report.md) , щелкнув одну из следующих метрик конференции:
 
   - Общая доля сбоев сеансов
 
@@ -65,7 +67,7 @@ The Call Diagnostic Summary Report is accessed from the Monitoring Reports Home 
 
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Эффективное использование сводного диагностического отчета по вызовам
 
-Сводный отчет о звонке содержит графики, которые сравнивают тарифы на ошибки для различных модальностей, используемых в Microsoft Lync Server 2013. Столбцы на этих графах фактически хотлинкс; Например, если щелкнуть столбец "мгновенные сообщения" для одноранговых сеансов, вы узнаете, как перейти к экземпляру диагностического отчета о действиях одноранговых участников [в Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), который содержит дополнительные сведения о всех мгновенных сеансы обмена сообщениями, включенные в сводный отчет "Диагностика звонков".
+Сводный отчет о звонке содержит графики, которые сравнивают тарифы на ошибки для различных модальностей, используемых в Microsoft Lync Server 2013. Столбцы на этих графах фактически хотлинкс; Например, если щелкнуть столбец "мгновенные сообщения" для одноранговых сеансов, вы узнаете, как перейти к экземпляру [диагностического отчета о действиях одноранговых участников в Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md), который содержит дополнительные сведения о всех сеансах обмена мгновенными сообщениями, включенных в сводный отчет о звонке.
 
 </div>
 

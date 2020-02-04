@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Общие сведения о централизов�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Centralized Logging Service
 ms:assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688145(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647e6b1e5797b3936dc1fef6023c85ce4baf68b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1460699b6516ab4e510c9715b2464ce442466faa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825445"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**Тема последнего изменения:** 2013-02-22_
 
 **Взаимодействие ClsController и ClsAgent**
 
-![Связь между клсконтроллер и клсажент.] (images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "Связь между клсконтроллер и клсажент.")
+![Связь между CLSController и CLSAgent.](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "Связь между CLSController и CLSAgent.")
 
 Команды выдаются с помощью интерфейса командной строки Windows Server или консоли управления Lync Server. The commands are executed on the computer you are logged in to and sent to the ClsAgent locally or to the other computers and pools in your deployment.
 
