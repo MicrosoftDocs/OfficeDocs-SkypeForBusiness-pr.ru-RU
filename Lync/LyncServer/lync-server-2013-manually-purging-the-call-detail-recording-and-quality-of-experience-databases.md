@@ -3,6 +3,8 @@ title: Ручная очистка записи сведений о звонке
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manually purging the call detail recording and Quality of Experience databases
 ms:assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204812(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 979f05441bfb62c8b79c604127e23fe7b7b4909f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 50d7de2fdb63b9152731214edeff3bf9c03aa634
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827636"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34827636"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a><span data-ttu-id="4bbf7-102">Ручная очистка записи сведений о звонке и баз данных качества обслуживания в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4bbf7-102">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a><span data-ttu-id="de413-102">Ручная очистка записи сведений о звонке и баз данных качества обслуживания в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="de413-102">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,38 +35,38 @@ ms.locfileid: "34827636"
 
 <span> </span>
 
-<span data-ttu-id="4bbf7-103">_**Тема последнего изменения:** 2014-07-07_</span><span class="sxs-lookup"><span data-stu-id="4bbf7-103">_**Topic Last Modified:** 2014-07-07_</span></span>
+<span data-ttu-id="de413-103">_**Тема последнего изменения:** 2014-07-07_</span><span class="sxs-lookup"><span data-stu-id="de413-103">_**Topic Last Modified:** 2014-07-07_</span></span>
 
-<span data-ttu-id="4bbf7-p101">Администраторы могут настраивать базы данных регистрации вызовов (CDR) и/или качества взаимодействия (QoE) для автоматической очистки старых записей из базы данных; это происходит в том случае, если для указанной базы данных (CDR или QoE) была включена очистка и присутствуют записи, которые находятся в базе данных дольше заданного срока. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-p101">Administrators can configure the Call Detail Recording (CDR) and/or the Quality of Experience (QoE) databases to automatically purge old records from the database; this occurs if purging has been enabled for the specified database (CDR or QoE) and if there are any records that have been in the database longer than the specified amount of time. For example, every day at 1:00 AM administrators might configure the system so that QoE records more than 60 days old will be deleted from the QoE database.</span></span>
+<span data-ttu-id="de413-p101">Администраторы могут настраивать базы данных регистрации вызовов (CDR) и/или качества взаимодействия (QoE) для автоматической очистки старых записей из базы данных; это происходит в том случае, если для указанной базы данных (CDR или QoE) была включена очистка и присутствуют записи, которые находятся в базе данных дольше заданного срока. Например, каждый день в 1:00 администраторы могут настраивать систему, чтобы удалить из базы данных QoE записи старше 60 дней.</span><span class="sxs-lookup"><span data-stu-id="de413-p101">Administrators can configure the Call Detail Recording (CDR) and/or the Quality of Experience (QoE) databases to automatically purge old records from the database; this occurs if purging has been enabled for the specified database (CDR or QoE) and if there are any records that have been in the database longer than the specified amount of time. For example, every day at 1:00 AM administrators might configure the system so that QoE records more than 60 days old will be deleted from the QoE database.</span></span>
 
-<span data-ttu-id="4bbf7-106">В дополнение к этой автоматической очистке в Microsoft Lync Server 2013 добавлены два новых командлета--Invoke-Кскдрдатабасепурже и Invoke-Кскоедатбасепурже--. Эти командлеты позволяют администраторам вручную удалять записи из баз данных CDR и QoE в любое время.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-106">In addition to that automatic purging, two new cmdlets -- Invoke-CsCdrDatabasePurge and Invoke-CsQoEDatbasePurge -- have been added to Microsoft Lync Server 2013; these cmdlets allow administrators to manually purge records from the CDR and the QoE databases at any time.</span></span> <span data-ttu-id="4bbf7-107">Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:</span><span class="sxs-lookup"><span data-stu-id="4bbf7-107">For example, to manually purge all the records more than 10 days old from the CDR database you can use a command similar to this:</span></span>
+<span data-ttu-id="de413-106">В дополнение к этой автоматической очистке в Microsoft Lync Server 2013 добавлены два новых командлета--Invoke-Кскдрдатабасепурже и Invoke-Кскоедатбасепурже--. Эти командлеты позволяют администраторам вручную удалять записи из баз данных CDR и QoE в любое время.</span><span class="sxs-lookup"><span data-stu-id="de413-106">In addition to that automatic purging, two new cmdlets -- Invoke-CsCdrDatabasePurge and Invoke-CsQoEDatbasePurge -- have been added to Microsoft Lync Server 2013; these cmdlets allow administrators to manually purge records from the CDR and the QoE databases at any time.</span></span> <span data-ttu-id="de413-107">Например, чтобы вручную удалить из базы данных CDR все записи старше 10 дней, вы можете использовать команду, аналогичную следующей:</span><span class="sxs-lookup"><span data-stu-id="de413-107">For example, to manually purge all the records more than 10 days old from the CDR database you can use a command similar to this:</span></span>
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
-<span data-ttu-id="4bbf7-108">В предыдущей команде записи сведений о вызовах и записи диагностических данных старше 10 дней удаляются из базы данных мониторинга на atl-sql-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-108">In the preceding command both call detail records and diagnostic data records older than 10 days are deleted from the monitoring database on atl-sql-001.litwareinc.com.</span></span> <span data-ttu-id="4bbf7-109">(Записи регистрации вызовов представляют собой отчеты о пользователях/сеансах.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-109">(Call detail records are user/session reports.</span></span> <span data-ttu-id="4bbf7-110">Записи диагностических данных — это журналы диагностики, загружаемые клиентскими приложениями, такими как Lync 2013.)</span><span class="sxs-lookup"><span data-stu-id="4bbf7-110">Diagnostic data records are diagnostic logs uploaded by client applications such as Lync 2013.)</span></span>
+<span data-ttu-id="de413-108">В предыдущей команде записи сведений о вызовах и записи диагностических данных старше 10 дней удаляются из базы данных мониторинга на atl-sql-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="de413-108">In the preceding command both call detail records and diagnostic data records older than 10 days are deleted from the monitoring database on atl-sql-001.litwareinc.com.</span></span> <span data-ttu-id="de413-109">(Записи регистрации вызовов представляют собой отчеты о пользователях/сеансах.</span><span class="sxs-lookup"><span data-stu-id="de413-109">(Call detail records are user/session reports.</span></span> <span data-ttu-id="de413-110">Записи диагностических данных — это журналы диагностики, загружаемые клиентскими приложениями, такими как Lync 2013.)</span><span class="sxs-lookup"><span data-stu-id="de413-110">Diagnostic data records are diagnostic logs uploaded by client applications such as Lync 2013.)</span></span>
 
-<span data-ttu-id="4bbf7-111">Как показано выше, при запуске командлета Invoke-CsCdrDatabasePurge вам следует включить как параметр urgeCallDetaiDataOlderThanDays, так и параметр PurgeDiagnosticDataOlderThanDays.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-111">As shown above, when you run the Invoke-CsCdrDatabasePurge cmdlet you must include both the PurgeCallDetaiDataOlderThanDays and the PurgeDiagnosticDataOlderThanDays parameters.</span></span> <span data-ttu-id="4bbf7-112">Однако для этих параметров необязательно нужно устанавливать одинаковые значения.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-112">However, these parameters do not have to be set to the same value.</span></span> <span data-ttu-id="4bbf7-113">Например, можно очистить записи сведений о вызовах старше 10 дней, оставив все записи диагностических данных в базе данных.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-113">For example, it's possible to purge call detail records more than 10 days old and yet, at the same time, leave all the diagnostic data records in the database.</span></span> <span data-ttu-id="4bbf7-114">Для этого установите для Пуржекаллдетаилдатаолдерсандайс значение 10 и Пуржедиагностикдатаолдерсандайс равным 0.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-114">To do that, set PurgeCallDetailDataOlderThanDays to 10 and PurgeDiagnosticDataOlderThanDays to 0.</span></span> <span data-ttu-id="4bbf7-115">Например:</span><span class="sxs-lookup"><span data-stu-id="4bbf7-115">For example:</span></span>
+<span data-ttu-id="de413-111">Как показано выше, при запуске командлета Invoke-CsCdrDatabasePurge вам следует включить как параметр urgeCallDetaiDataOlderThanDays, так и параметр PurgeDiagnosticDataOlderThanDays.</span><span class="sxs-lookup"><span data-stu-id="de413-111">As shown above, when you run the Invoke-CsCdrDatabasePurge cmdlet you must include both the PurgeCallDetaiDataOlderThanDays and the PurgeDiagnosticDataOlderThanDays parameters.</span></span> <span data-ttu-id="de413-112">Однако для этих параметров необязательно нужно устанавливать одинаковые значения.</span><span class="sxs-lookup"><span data-stu-id="de413-112">However, these parameters do not have to be set to the same value.</span></span> <span data-ttu-id="de413-113">Например, можно очистить записи сведений о вызовах старше 10 дней, оставив все записи диагностических данных в базе данных.</span><span class="sxs-lookup"><span data-stu-id="de413-113">For example, it's possible to purge call detail records more than 10 days old and yet, at the same time, leave all the diagnostic data records in the database.</span></span> <span data-ttu-id="de413-114">Для этого установите для Пуржекаллдетаилдатаолдерсандайс значение 10 и Пуржедиагностикдатаолдерсандайс равным 0.</span><span class="sxs-lookup"><span data-stu-id="de413-114">To do that, set PurgeCallDetailDataOlderThanDays to 10 and PurgeDiagnosticDataOlderThanDays to 0.</span></span> <span data-ttu-id="de413-115">Например:</span><span class="sxs-lookup"><span data-stu-id="de413-115">For example:</span></span>
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 
-<span data-ttu-id="4bbf7-116">По умолчанию при запуске Invoke-CsCdrDatabasePurge для каждой из очищаемых баз данных отображается приглашение, аналогичное данному:</span><span class="sxs-lookup"><span data-stu-id="4bbf7-116">By default, any time you run Invoke-CsCdrDatabasePurge you will see a prompt similar to this one for each database table that must be purged:</span></span>
+<span data-ttu-id="de413-116">По умолчанию при запуске Invoke-CsCdrDatabasePurge для каждой из очищаемых баз данных отображается приглашение, аналогичное данному:</span><span class="sxs-lookup"><span data-stu-id="de413-116">By default, any time you run Invoke-CsCdrDatabasePurge you will see a prompt similar to this one for each database table that must be purged:</span></span>
 
     Confirm
     Are you sure you want to perform this action?
     Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Server:atl-sql-001.litwareinc.com\archinst Database: lcscdr".
     [Y] Yes  [A] Yes to All  [N] No  [L] No to All [S] Suspend  [?] Help (default is "Y"):
 
-<span data-ttu-id="4bbf7-p105">Для выполнения очистки базы данных вам следует ввести Y («Да») или A («Да для всех»). Если вы не хотите отображать эти запросы подтверждения, добавьте в конец вызова Invoke-CsCdrDatabasePurge следующий параметр:</span><span class="sxs-lookup"><span data-stu-id="4bbf7-p105">You must type either Y (for Yes) or A (for Yes to All) before the database purging will actually take place. If you would prefer to suppress these confirmation prompts, add the following parameter to the end of your call to Invoke-CsCdrDatabasePurge:</span></span>
+<span data-ttu-id="de413-p105">Для выполнения очистки базы данных вам следует ввести Y («Да») или A («Да для всех»). Если вы не хотите отображать эти запросы подтверждения, добавьте в конец вызова Invoke-CsCdrDatabasePurge следующий параметр:</span><span class="sxs-lookup"><span data-stu-id="de413-p105">You must type either Y (for Yes) or A (for Yes to All) before the database purging will actually take place. If you would prefer to suppress these confirmation prompts, add the following parameter to the end of your call to Invoke-CsCdrDatabasePurge:</span></span>
 
     -Confirm:$False
 
-<span data-ttu-id="4bbf7-119">Например:</span><span class="sxs-lookup"><span data-stu-id="4bbf7-119">For example:</span></span>
+<span data-ttu-id="de413-119">Например:</span><span class="sxs-lookup"><span data-stu-id="de413-119">For example:</span></span>
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10 -Confirm:$False
 
-<span data-ttu-id="4bbf7-120">Если вы сделаете это, запросы подтверждения отображаться не будут, а очистка базы данных будет выполнена немедленно.</span><span class="sxs-lookup"><span data-stu-id="4bbf7-120">If you do that, confirmation prompts will not be displayed, and database purging will immediately be performed.</span></span>
+<span data-ttu-id="de413-120">Если вы сделаете это, запросы подтверждения отображаться не будут, а очистка базы данных будет выполнена немедленно.</span><span class="sxs-lookup"><span data-stu-id="de413-120">If you do that, confirmation prompts will not be displayed, and database purging will immediately be performed.</span></span>
 
-<span data-ttu-id="4bbf7-121">Чтобы очистить базу данных QoE, используйте командлет Invoke-CsQoEDatabasePurge и укажите возраст (в днях) для удаляемых записей:</span><span class="sxs-lookup"><span data-stu-id="4bbf7-121">To purge the QoE database, use the Invoke-CsQoEDatabasePurge cmdlet and specify the age (in days) of the records to be deleted:</span></span>
+<span data-ttu-id="de413-121">Чтобы очистить базу данных QoE, используйте командлет Invoke-CsQoEDatabasePurge и укажите возраст (в днях) для удаляемых записей:</span><span class="sxs-lookup"><span data-stu-id="de413-121">To purge the QoE database, use the Invoke-CsQoEDatabasePurge cmdlet and specify the age (in days) of the records to be deleted:</span></span>
 
     Invoke-CsQoEDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeQoEDataOlderThanDays 10
 
