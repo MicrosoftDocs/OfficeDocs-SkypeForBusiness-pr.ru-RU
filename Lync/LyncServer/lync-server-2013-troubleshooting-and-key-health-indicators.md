@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Устранение неполадок и индик�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting and Key Health Indicators
 ms:assetid: 14ec9e21-aa2b-4d65-9be4-ef2adfbe9a8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720322(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 865ff509bb6f241563eebb884464cfe4d4a018e6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849341"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34849341"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="c9c13-102">Устранение неполадок и индикаторов работоспособности ключа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9c13-102">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>
+# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="a754d-102">Устранение неполадок и индикаторов работоспособности ключа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a754d-102">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,27 +35,27 @@ ms.locfileid: "34849341"
 
 <span> </span>
 
-<span data-ttu-id="c9c13-103">_**Тема последнего изменения:** 2015-05-18_</span><span class="sxs-lookup"><span data-stu-id="c9c13-103">_**Topic Last Modified:** 2015-05-18_</span></span>
+<span data-ttu-id="a754d-103">_**Тема последнего изменения:** 2015-05-18_</span><span class="sxs-lookup"><span data-stu-id="a754d-103">_**Topic Last Modified:** 2015-05-18_</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c9c13-104">Содержание</span><span class="sxs-lookup"><span data-stu-id="c9c13-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a754d-104">Содержание</span><span class="sxs-lookup"><span data-stu-id="a754d-104">In This Section</span></span>
 
-<span data-ttu-id="c9c13-105">Для обеспечения соблюдения требований эталонной архитектуры и для того, чтобы обеспечить более плавный переход на группы поддержки, необходимо определить наиболее распространенный подход по устранению неполадок вместе с необходимым набором средств и подходов для устранения неполадок, описанных в руководстве по сети Lync Server. [ ](http://go.microsoft.com/fwlink/p/?linkid=390677) .</span><span class="sxs-lookup"><span data-stu-id="c9c13-105">To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) .</span></span>
+<span data-ttu-id="a754d-105">Для обеспечения соблюдения требований эталонной архитектуры и для того, чтобы обеспечить более плавный переход на группы поддержки, необходимо определить наиболее распространенный способ устранения неполадок вместе с необходимым набором средств и подходов для устранения неполадок, определенных в [руководстве по сети](http://go.microsoft.com/fwlink/p/?linkid=390677) Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a754d-105">To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) .</span></span>
 
-<span data-ttu-id="c9c13-106">Мы настоятельно рекомендуем использовать System Center Operations Manager для наблюдения за работоспособностью системы Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c9c13-106">We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system.</span></span> <span data-ttu-id="c9c13-107">Кроме того, вы также можете обратиться к обсуждению Кхис в [руководстве по сети](http://go.microsoft.com/fwlink/p/?linkid=390677) Lync Server 2013 и электронной таблице Excel для работы с Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="c9c13-107">Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.</span></span>
+<span data-ttu-id="a754d-106">Мы настоятельно рекомендуем использовать System Center Operations Manager для наблюдения за работоспособностью системы Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a754d-106">We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system.</span></span> <span data-ttu-id="a754d-107">Кроме того, вы также можете обратиться к обсуждению Кхис в [руководстве по сети](http://go.microsoft.com/fwlink/p/?linkid=390677) Lync Server 2013 и электронной таблице Excel для работы с Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="a754d-107">Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="c9c13-108">Справочные материалы</span><span class="sxs-lookup"><span data-stu-id="c9c13-108">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="a754d-108">Справка</span><span class="sxs-lookup"><span data-stu-id="a754d-108">Reference</span></span>
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="c9c13-109">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="c9c13-109">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="a754d-109">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="a754d-109">Related Sections</span></span>
 
 </div>
 
