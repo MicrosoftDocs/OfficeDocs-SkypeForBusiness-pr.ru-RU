@@ -3,6 +3,8 @@ title: 'Lync Server 2013: поддержка браузеров для пане�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Browser support for Lync Server Control Panel
 ms:assetid: 716829ec-f00c-4425-9fb6-0c4c4d4006e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204993(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4166d69b76fd3b74932984eabc7d7ec63faf948f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841731"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34841731"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="22e26-102">Поддержка браузеров для панели управления Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="22e26-102">Browser support for Lync Server 2013 Control Panel</span></span>
+# <a name="browser-support-for-lync-server-2013-control-panel"></a><span data-ttu-id="111a4-102">Поддержка браузеров для панели управления Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="111a4-102">Browser support for Lync Server 2013 Control Panel</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34841731"
 
 <span> </span>
 
-<span data-ttu-id="22e26-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="22e26-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="111a4-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="111a4-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="22e26-104">Lync Server 2013 поддерживает использование построителя топологии и панели управления Lync Server 2013, которые поддерживаются в следующих браузерах:</span><span class="sxs-lookup"><span data-stu-id="22e26-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
+<span data-ttu-id="111a4-104">Lync Server 2013 поддерживает использование построителя топологии и панели управления Lync Server 2013, которые поддерживаются в следующих браузерах:</span><span class="sxs-lookup"><span data-stu-id="111a4-104">Lync Server 2013 supports the use of Topology Builder and Lync Server 2013 Control Panel is supported when using the following browsers:</span></span>
 
-  - <span data-ttu-id="22e26-105">Internet Explorer 10, 32-разрядная версия</span><span class="sxs-lookup"><span data-stu-id="22e26-105">Internet Explorer 10, 32-bit</span></span>
+  - <span data-ttu-id="111a4-105">Internet Explorer 10, 32-разрядная версия</span><span class="sxs-lookup"><span data-stu-id="111a4-105">Internet Explorer 10, 32-bit</span></span>
 
-  - <span data-ttu-id="22e26-106">Internet Explorer 9, 32-разрядная версия</span><span class="sxs-lookup"><span data-stu-id="22e26-106">Internet Explorer 9, 32-bit</span></span>
+  - <span data-ttu-id="111a4-106">Internet Explorer 9, 32-разрядная версия</span><span class="sxs-lookup"><span data-stu-id="111a4-106">Internet Explorer 9, 32-bit</span></span>
 
-  - <span data-ttu-id="22e26-107">Internet Explorer 8, 32 bit</span><span class="sxs-lookup"><span data-stu-id="22e26-107">Internet Explorer 8, 32 bit</span></span>
+  - <span data-ttu-id="111a4-107">Internet Explorer 8, 32 bit</span><span class="sxs-lookup"><span data-stu-id="111a4-107">Internet Explorer 8, 32 bit</span></span>
 
 </div>
 
