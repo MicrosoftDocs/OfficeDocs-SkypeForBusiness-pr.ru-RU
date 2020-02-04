@@ -3,6 +3,8 @@ title: 'Lync Server 2013: представление пользователя'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User view
 ms:assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21c22bdfbf758545418a821edaba5d8aaf447b87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c8e88d7a9fa66f309bbd64ab064ec95adafc40b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849289"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,17 +60,17 @@ _**Тема последнего изменения:** 2012-10-01_
 <td><p>Уникальный номер, идентифицирующий этого пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p>Усерури</p></td>
+<td><p>усерури</p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) пользователя.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тенанткэй</p></td>
+<td><p>тенанткэй</p></td>
 <td><p>идентификатора</p></td>
 <td><p>Клиент пользователя. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Уритипе</p></td>
+<td><p>уритипе</p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Тип универсального кода ресурса (URI) пользователя. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>

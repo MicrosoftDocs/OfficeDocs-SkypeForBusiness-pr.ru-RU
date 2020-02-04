@@ -3,6 +3,8 @@ title: Перенос адресной книги
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Address Book
 ms:assetid: b6e000ce-8b2e-460c-8a8b-000254b9d778
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205198(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185218
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dff13c31ecf203d6e6e4b60c22a3792475e403f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2c904a122f781da08c92c6b1123cfeb1944dd2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ _**Тема последнего изменения:** 2012-10-02_
     
 
     > [!NOTE]  
-    > Примеры правил нормализации адресных книг установлены в каталог файлов веб-компонентов ABS. Путь <STRONG>$installedDriveLetter: \Program Files\Microsoft Lync Server 2013 \ Web Компонентс\аддресс Book Филес\филес\ сампле_компани_фоне_нумбер_нормализатион_рулес. txt,</STRONG>. Этот файл можно скопировать и переименовать как &nbsp; <STRONG>компани_фоне_нумбер_нормализатион_рулес. txt</STRONG> &nbsp;в корневой каталог общей папки адресной книги. Например, адресная книга, доступная <STRONG></STRONG>в $serverX&nbsp;, будет выглядеть примерно так: <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
+    > Примеры правил нормализации адресных книг установлены в каталог файлов веб-компонентов ABS. Путь <STRONG>$installedDriveLetter: \Program Files\Microsoft Lync Server 2013 \ Web Компонентс\аддресс Book филес\филес\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>. Этот файл можно скопировать и переименовать как &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;в корневой каталог общей папки адресной книги. Например, адресная книга, доступная <STRONG></STRONG>в $serverX&nbsp;, будет выглядеть примерно так: <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
     
     </div>
