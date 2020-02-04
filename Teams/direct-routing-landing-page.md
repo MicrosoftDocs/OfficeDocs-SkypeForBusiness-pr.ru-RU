@@ -11,16 +11,16 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords: ms.teamsadmincenter.directrouting.overview
 description: Главная страница для прямой маршрутизации
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: decbe74eaece7508c2118175bd25f8acab200cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cc686f6e59eabedc405d0b6c517feb10908600a2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572194"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707254"
 ---
 # <a name="phone-system-direct-routing"></a>Прямая маршрутизация телефонной системы
 
@@ -44,7 +44,7 @@ ms.locfileid: "37572194"
 -  [Учетные записи пользователей в гибридной среде со связью с ТСОП](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Чтобы узнать больше о прямом маршруте, просмотрите следующий сеанс: [Прямая маршрутизация в Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Основные решения по развертыванию
+## <a name="core-deployment-decisions"></a>Решения по развертыванию основных функций
 
 Это основные решения, которые необходимо предусмотреть для прямой маршрутизации. 
 

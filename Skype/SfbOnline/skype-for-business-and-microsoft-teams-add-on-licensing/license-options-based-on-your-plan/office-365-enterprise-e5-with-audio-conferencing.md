@@ -15,21 +15,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как приобрести план Office 365 для предприятий. '
-ms.openlocfilehash: c0da6cc3d28cb5f41e29509a7f75dbe8c3a1b476
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1913d16b4a6595db27b4d32a10023866a5f76bb0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290042"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706104"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 корпоративный E5
 
-План [Office 365 корпоративный](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) + содержит большинство функций Skype для бизнеса. There are just a few additional options.
+План [Office 365 корпоративный](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) + содержит большинство функций Skype для бизнеса. Есть несколько дополнительных вариантов.
   
 |||
 |:-----|:-----|

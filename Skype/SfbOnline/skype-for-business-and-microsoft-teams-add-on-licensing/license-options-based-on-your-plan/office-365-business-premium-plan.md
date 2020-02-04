@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 бизнес премиум '
+title: 'Office 365 бизнес премиум '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях и возможностях надстройки, а также о том, как купить планы Office 365 Business Premium. '
-ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792895"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706114"
 ---
-# <a name="office-365-business-premium"></a>Office 365 бизнес премиум
+# <a name="office-365-business-premium"></a>Office 365 бизнес премиум
 
 Если вы подписаны на [Office 365 бизнес премиум](https://products.office.com/en/business/office-365-business-premium), вы можете использовать Skype для бизнеса, чтобы звонить другим пользователям в вашей организации, которые находятся в вашей подписке. Например, если в вашей организации 10 человек, вы можете звонить им и обмениваться с ними мгновенными сообщениями через Skype для бизнеса.
 
@@ -73,7 +74,7 @@ ms.locfileid: "35792895"
 
 1. Перейдите на план E1 или E3.
 
-2. Перейдите в центр администрирования > подписок на **выставление счетов** > ****.
+2. Перейдите в центр администрирования >**подписок**на **выставление счетов** > .
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

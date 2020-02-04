@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+f1.keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могут использовать экстренные службы.
-ms.openlocfilehash: 4cd11e97978ea0439fd918f4e6c2e854a822e908
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 010191a3e70e9f4d9be6ec34d57118d9b79dfec4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793337"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705904"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Создание запроса в службу поддержки на проверку адреса
 

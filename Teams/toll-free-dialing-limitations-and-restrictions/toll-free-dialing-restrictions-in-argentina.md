@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 70cfbcd90aee6ab3e70aaf8e83f2b1b0b448f14b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f084dae0e3843721fd559a20ebdf3807623df99e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570073"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708195"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Ограничения набора бесплатных номеров в Аргентине
 
@@ -44,7 +45,7 @@ ms.locfileid: "37570073"
 |Доступность мобильных сетей  <br/> |Да  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Мобильный доступ: Повременная оплата.  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Получение номеров телефонов служб для Skype для бизнеса и Microsoft Teams](/microsoftteams/getting-service-phone-numbers)

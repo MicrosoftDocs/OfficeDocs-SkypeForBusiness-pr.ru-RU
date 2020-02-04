@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: К сожалению, существует ряд пользовательских лицензий, которые блокируются, когда https://broadcast.skype.com пользователь переходит к трансляции собраний Skype и вы хотите использовать его. Если пользователь видит это сообщение, ему назначается один из заблокированных лицензий. Если вы по-прежнему хотите использовать их, назначьте им другую лицензию на Office 365.
-ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299585"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706144"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Заблокированные лицензии пользователей на размещение трансляции собраний Skype
 
@@ -58,7 +59,7 @@ ms.locfileid: "34299585"
 - Microsoft 365 a1 для учащихся используют преимущества
 
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

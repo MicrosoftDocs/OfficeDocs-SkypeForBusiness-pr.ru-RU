@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Сведения о настройке внешней связи в Skype для бизнеса Online для пользователей, которые могут общаться с внешними контактами Skype. '
-ms.openlocfilehash: b3f6af94e68042af220079dad23cdefad8209f02
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418080"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706284"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Видео: Внешняя связь в Skype для бизнеса Online
 
@@ -36,10 +37,10 @@ ms.locfileid: "35418080"
 
 ***
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Настройка внешней связи в Skype для бизнеса Online](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (пошаговое руководство)
 
-[Разрешение пользователям на связь с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
+[Разрешение пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md)
 
 [Разрешение на добавление контактов Skype пользователям Skype для бизнеса](let-skype-for-business-users-add-skype-contacts.md)
 

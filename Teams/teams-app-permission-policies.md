@@ -15,17 +15,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте о политиках разрешений приложений в Microsoft Teams и о том, как их использовать для управления доступными для пользователей в вашей организации приложениями.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.overview
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 8c42b4e2a8bf569d5aee6b2b822e81fc39ebfd81
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 86896da4d42d39f06f3fbf3f2b902aaaac08ce4f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573773"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708475"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Управление политиками разрешений для приложений в Microsoft Teams
 
@@ -199,5 +199,5 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 Политики разрешений для приложений, назначенные конкретным пользователям, если приложение с возможностью Bot или соединителей разрешено и затем заблокировано, и если это приложение разрешено только для некоторых пользователей в общем контексте, участники группового чата или канала, у которых нет разрешения на доступ к этому приложению  Вы можете просматривать историю сообщений и сообщения, которые были отправлены роботом или соединителем, но не могут взаимодействовать с ним.
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>См. также
 - [Параметры администратора для приложений в Teams](admin-settings.md)

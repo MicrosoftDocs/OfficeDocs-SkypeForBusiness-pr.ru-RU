@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Сведения о том, как управлять параметрами для событий Teams, которые хранятся в Организации.
-f1keywords: ms.teamsadmincenter.liveevents.settings
+f1.keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ad9d97c6d4dd6b7eb370bda026dbee3e33f2a32
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: f12432bb7932d7ab974f229344b5b5be51a1cb74
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952842"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708355"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 

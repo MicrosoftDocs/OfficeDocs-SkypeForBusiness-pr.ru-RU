@@ -17,18 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: Для устранения проблем с пользователями в Microsoft Teams и Skype для бизнеса и собраний вы можете использовать подробные сведения о работе с аналитическими вызовами по устройствам, сетям и подключениям.
-ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e8b1fe4bbad2b744310d0b609fdc6c6d5a23fea2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568638"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707725"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Использование аналитики звонков для устранения проблем с качеством звонка
 
@@ -87,7 +87,7 @@ ms.locfileid: "37568638"
 |Слабый Звонок по голосовой сети  <br/> |Session  <br/> |Обнаружены проблемы, связанные с качеством сети (например, потеря пакетов, колебание, НМОС, RTT или невидимая степень). Дополнительные сведения о требованиях, используемых для классификации некачественных звонков, вы можете найти в этой [записи в блоге Майкрософт](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |Устройство не работает  <br/> |Device  <br/> | Устройство работает неправильно. Нерабочее отношение устройства: <br/>  Девицерендернотфунктионинжевентратио >= 0,005 <br/>  Девицекаптуренотфунктионинжевентратио >= 0,005 <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Настройка аналитики звонков](set-up-call-analytics.md)
 
 [Аналитика звонков и панель мониторинга качества звонков](difference-between-call-analytics-and-call-quality-dashboard.md)

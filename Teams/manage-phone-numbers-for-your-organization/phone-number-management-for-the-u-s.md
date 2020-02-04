@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: В этой таблице содержатся сведения о том, как получить и управлять номерами телефонов в США (и Пуэрто-Рико) для Microsoft Teams.
-ms.openlocfilehash: d65dc8727d99d2387721176b9ee94242db6ff04a
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580816"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706934"
 ---
 # <a name="phone-number-management-for-the-us"></a>Управление номерами телефонов в США
 

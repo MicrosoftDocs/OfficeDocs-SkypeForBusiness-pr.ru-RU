@@ -15,19 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: Когда вы получаете номера телефонов или переносите (переносите) номера для своей организации, вам может потребоваться получить помощь и поддержку на рабочем столе PSTN.
-ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570615"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707244"
 ---
 # <a name="pstn-service-desk-help"></a>Справка службы поддержки PSTN
 

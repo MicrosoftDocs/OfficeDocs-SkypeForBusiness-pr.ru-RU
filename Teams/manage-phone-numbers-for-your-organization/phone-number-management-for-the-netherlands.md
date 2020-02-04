@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Нидерландов для Microsoft Teams.
-ms.openlocfilehash: 74801ef2f6f5202679a064b1a63528d81c56869e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 77e6748873d921a2e25fb10a73010da4dfdc6fc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573122"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706964"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Управление номерами телефонов в Нидерландах
 

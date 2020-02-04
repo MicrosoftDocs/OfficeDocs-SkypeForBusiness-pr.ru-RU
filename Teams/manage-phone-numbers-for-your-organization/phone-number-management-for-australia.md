@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Австралии для Microsoft Teams.
-ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5c8b5a668c8a1ec0a1ab34bd214955cd7e4ef25b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573166"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707134"
 ---
 # <a name="phone-number-management-for-australia"></a>Управление номерами телефонов в Австралии
 В Австралии мы соработали с Телстра для приобретения и подготовки планов звонков для клиентов с адресом выставления счетов в Австралии. Телстра продавал абонентские планы, предоставляли им австралийские номера пользователей, а также предоставляет поддержку управления телефонными номерами как для пользователей, так и для очередей звонков. Тем не менее номера службы и лицензий для аудиоконференции будут по-прежнему продаваться и управляться Office 365.

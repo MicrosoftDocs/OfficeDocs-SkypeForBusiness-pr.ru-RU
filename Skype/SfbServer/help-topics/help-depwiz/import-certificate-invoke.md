@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertImportInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: На странице Выполнение команд проверьте сводные данные для импортированного сертификата. В раскрывающемся списке выберите файл журнала импорта сертификатов. Убедитесь в том, что в раскрывающемся списке отображается файл журнала импорта сертификатов. Щелкните Просмотреть журнал, чтобы просмотреть сведения об импорте сертификата. Когда вы закончите просмотр сводки и файла журнала, нажмите кнопку Готово.
-ms.openlocfilehash: 7edb2bf704e94203cf5ba0b9d4974ac7cfb08b79
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ff240199f6e4e97cf0e6975025c8fa425325eca4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273982"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701074"
 ---
 # <a name="import-certificate-invoke"></a>Импорт сертификата (вызов)
  

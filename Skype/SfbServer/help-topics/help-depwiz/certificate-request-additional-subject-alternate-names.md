@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestSans
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 description: С помощью функции Настройка дополнительных альтернативных имен субъектов можно добавить в сертификат дополнительные альтернативные имена субъектов (SAN) перед завершением и отправкой запроса сертификата. Чтобы добавить SAN, введите полное доменное имя и нажмите кнопку Добавить. Если необходимо удалить добавленное имя, выделите его и нажмите кнопку Удалить. Чтобы удалить все добавленные записи SAN, нажмите кнопку Очистить все.
-ms.openlocfilehash: 2a2503285d41b954c74d381514aae5f9d694c54c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 79e9e62dff5c740b2a38101db0e2e53e27fa51a7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303013"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701274"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Запрос сертификата (дополнительные альтернативные имена субъектов)
  

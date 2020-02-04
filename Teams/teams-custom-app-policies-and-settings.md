@@ -15,17 +15,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять политиками и параметрами приложений, чтобы управлять тем, кто в вашей организации может отправлять пользовательские приложения в Microsoft Teams.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 8a4d7b60485f9411faeb46f8745735039f4dd21b
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 5357f368d6c5716c5af30e110a9193c4b4c2ad5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679319"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708465"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Управление пользовательскими политиками и параметрами приложений в Microsoft Teams
 
@@ -129,5 +129,5 @@ ms.locfileid: "39679319"
 | Вкл.     | Вкл.     | Выкл.         | Пользователь не может отправить пользовательские приложения.       |
 | Вкл.    | Вкл.        | Вкл.        | Пользователь может отправлять в группу пользовательские приложения независимо от того, является ли пользователь владельцем команды. Пользователь может отправлять пользовательские приложения в личном контексте.       |
 
- ## <a name="related-topics"></a>Статьи по теме
+ ## <a name="related-topics"></a>См. также
 - [Параметры администратора для приложений в Teams](admin-settings.md)

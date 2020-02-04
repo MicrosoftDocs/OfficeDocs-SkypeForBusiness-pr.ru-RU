@@ -16,17 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как загрузить пробную версию или приобрести лицензию на аудиоконференции (конференц-связь по ТСОП) для Office 365, чтобы настроить конференц-связь с возможностью входящих вызовов. '
-ms.openlocfilehash: ce20d72ff7d4d797c8e0689472cd483c5f06036b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 527455cc0f4d1a818c18271e3cf9bbafb04e2794
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571495"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708645"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Платная или пробная версия аудиоконференций в Office 365 для Microsoft Teams.
 
@@ -94,7 +94,7 @@ ms.locfileid: "37571495"
 > [!NOTE]
 > Эта функция еще не доступна пользователям Office 365 под управлением компании 21Vianet в Китае. Дополнительные сведения см. в разделе [Узнать больше о версии Office 365 под управлением компании 21Vianett](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Включение команд в Организации](office-365-set-up.md)
 

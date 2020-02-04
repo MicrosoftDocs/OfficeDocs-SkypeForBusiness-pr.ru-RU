@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например, в отчете об использовании услуг ТСОП в Skype для бизнеса можно просмотреть сведения о длительности входящих и исходящих звонков, а также их стоимости. Помимо этого, можно просмотреть сведения об использовании аудиоконференции с телефонным подключением по ТСОП и стоимости звонков, чтобы проанализировать расходы на связь в организации.
-ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111453"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706054"
 ---
 # <a name="pstn-usage-report"></a>Отчет об использовании ТСОП
 

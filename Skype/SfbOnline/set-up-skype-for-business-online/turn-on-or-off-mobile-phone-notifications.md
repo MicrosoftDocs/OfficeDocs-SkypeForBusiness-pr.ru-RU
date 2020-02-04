@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
 description: Сведения о том, как включать и отключать уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих, голосовых сообщениях и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792128"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706324"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 
@@ -35,7 +35,7 @@ ms.locfileid: "35792128"
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Отключение push-уведомлений для всех устройств с Windows Phone и Apple в Организации
 <a name="__top"> </a>
 
-![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365.
     

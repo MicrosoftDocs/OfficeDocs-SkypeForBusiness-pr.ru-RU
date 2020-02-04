@@ -1,5 +1,5 @@
 ---
-title: Отправка заказа на перенос вручную
+title: Отправка заказа на перенос номера вручную
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -13,18 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: Сведения о том, как вручную отправить запрос на перенос.
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925695"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708745"
 ---
-# <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос вручную
+# <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
 В некоторых странах и регионах может потребоваться ручная отправка запроса на обслуживание для получения телефонных номеров, передачи телефонных номеров, освобождения телефонных номеров и изменения адресов. Чтобы узнать, что требуется для каждой страны и региона, или узнать больше о переносе номеров, ознакомьтесь со статьей [Управление телефонными номерами в Организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -60,7 +60,7 @@ ms.locfileid: "37925695"
 
 ## <a name="related-topics"></a>См. также
 
-- [Что такое номер порта?](port-order-overview.md)
+- [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)

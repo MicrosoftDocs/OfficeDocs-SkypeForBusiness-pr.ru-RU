@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Сведения о шагах в Microsoft Teams для назначения лицензии конференц-связи с телефонным подключением и идентификатора конференции пользователю и многих других настройках такой конференц-связи. '
-ms.openlocfilehash: 7cb0e76771563305ce98445818c77364b0849845
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: bd44e80b233f1ffdf572a9eab6e307f30db6867f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570579"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708655"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Управление настройками аудиоконференций для организации в Microsoft Teams
 
@@ -111,7 +112,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## <a name="set-the-phone-numbers-included-on-invites"></a>Указание номеров телефонов, которые можно включать в приглашения
+## <a name="set-the-phone-numbers-included-on-invites"></a>Настройка телефонных номеров, включаемых в приглашения
 
 ![Значок с логотипом](media/teams-logo-30x30.png) Microsoft Teams, в котором **используется центр администрирования Microsoft Teams**
 

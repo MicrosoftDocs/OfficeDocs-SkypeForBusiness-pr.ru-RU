@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
 description: Ниже приведены некоторые причины, по которым может возникнуть проблема с подключением вашего адреса или адреса для правильной проверки правильности в Великобритании (Великобритания).
-ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290691"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705864"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Почему у меня возникают проблемы при входе в Великобритания Информация об адресе
 
@@ -99,8 +99,8 @@ ms.locfileid: "34290691"
     
 |**Формате**|**Пример**|
 |:-----|:-----|
-|AA # А_ # AA  <br/> |EC3B 2BD  <br/> |
-|# А_ # AA  <br/> |E1W 1AP  <br/> |
+|AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
+|# A_ # AA  <br/> |E1W 1AP  <br/> |
 |# _ # AA  <br/> |КЛАВИША F1 2AG  <br/> |
 |# #_ # AA  <br/> |C44 8HT  <br/> |
 |AA # _ # AA  <br/> |DR3 6HG  <br/> |

@@ -11,17 +11,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: В этой статье рассказывается о том, как в реальном времени пользователи могут широковещательно передавать видео и содержимое в крупные сетевые аудитории в Teams, Yammer и в потоке.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.liveevents
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9f0e94ef7a0f71930c2ae840a19db03f4844ba34
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634882"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708345"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams?
 
@@ -87,7 +87,7 @@ Teams предоставляет возможность организаторо
 ## <a name="next-steps"></a>Дальнейшие действия
 Перейдите к разделу [планирование событий Teams в реальном времени](plan-for-teams-live-events.md).
 
-### <a name="related-topics"></a>Статьи по теме
+### <a name="related-topics"></a>См. также
 - [События Live для Microsoft 365 в Yammer, Microsoft Teams и Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Начало работы с событиями Microsoft Teams Live](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [События Live в Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)

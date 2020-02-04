@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Используйте эту таблицу для поиска сведений о том, как получить и управлять номерами телефонов в Испании для Microsoft Teams.
-ms.openlocfilehash: 2b9d3ffd046d58131ebf1cae91ad45482a45fe0a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3fa21b37f3371c82c94603301035bd20b175adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571971"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706974"
 ---
 # <a name="phone-number-management-for-spain"></a>Управление номерами телефонов в Испании
 

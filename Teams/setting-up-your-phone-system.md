@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Сведения о том, как настроить телефонную систему (облачную УАТС) для своей организации. '
-ms.openlocfilehash: d4d8927e2abda35ff8cb3346218cb3c4cda9c049
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 8c2b65bf1a9b209ca64d2a8b915f04cfc9669971
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628405"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706884"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Настройка телефонной системы в Организации
 
@@ -139,7 +140,7 @@ ms.locfileid: "41628405"
 Если вы не настроили выставление счетов на звонки и не назначаете лицензии на **подписку** для пользователей и не хотите, чтобы ваша организация выпустила дополнительные минуты (в зависимости от вашего тарифного плана или плана видеоконференций в вашей стране или регионе), пользователи не смогут звонить и звонить из собраний с голосовой связью. Для получения дополнительных сведений, в том числе рекомендуемых сумм финансирования, посмотрите, [что такое кредиты?](what-are-communications-credits.md) и [Настройте кредиты на связь для вашей организации](set-up-communications-credits-for-your-organization.md).
   
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Возможности телефонной системы в Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Управление номерами телефонов для организации](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

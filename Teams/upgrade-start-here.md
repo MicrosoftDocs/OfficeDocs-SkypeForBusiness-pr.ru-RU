@@ -14,7 +14,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
 - ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
 - ms.teamsadmincenter.dashboard.widget.upgrade.planning
@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
-ms.translationtype: HT
+ms.openlocfilehash: cdaed37210283152d35d2b4d73b9cc03b884ec07
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305754"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707705"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Начало перехода на Microsoft Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "37305754"
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Зачем переходить на Microsoft Teams?
 
-Microsoft Teams расширяет возможности Skype для бизнеса, объединяя чат, собрания, звонки, совместную работу, интеграцию приложений и хранение файлов в едином интерфейсе. Этот новый центр командной работы позволяет упростить работу пользователей, повысить степень их удовлетворенности и ускорить получение бизнес-результатов. Мы постоянно расширяем возможности Teams, чтобы вы могли общаться и совместно работать по-новому, преодолевать организационные и географические барьеры, а также быть успешными в работе и принятии решений.  Узнайте больше о преимуществах перехода на Teams из отчета компании Forrester [Совокупный экономический эффект Microsoft Teams](https://www.microsoft.com/ru-RU/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+Microsoft Teams расширяет возможности Skype для бизнеса, объединяя чат, собрания, звонки, совместную работу, интеграцию приложений и хранение файлов в едином интерфейсе. Этот новый центр командной работы позволяет упростить работу пользователей, повысить степень их удовлетворенности и ускорить получение бизнес-результатов. Мы постоянно расширяем возможности Teams, чтобы вы могли общаться и совместно работать по-новому, преодолевать организационные и географические барьеры, а также быть успешными в работе и принятии решений.  Узнайте больше о преимуществах перехода на Teams из отчета компании Forrester [Совокупный экономический эффект Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>Когда моей организации следует перейти на Teams?
 

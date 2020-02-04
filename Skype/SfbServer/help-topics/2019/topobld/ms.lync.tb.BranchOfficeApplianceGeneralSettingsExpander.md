@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить параметры существующего работающего устройства филиала или работающего филиала, вы увидите следующие разделы:'
-ms.openlocfilehash: bcd1022c964a252ca08d4a8c000b224f61c42763
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97f12828a8513ce284f4cd14c06de3496100c313
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294301"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702394"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Расширитель общих параметров устройства для обеспечения связи в филиалах
 
@@ -63,7 +63,7 @@ ms.locfileid: "34294301"
 
 Для **сервера-посредника** можно задать следующие параметры.
 
-Флажок для **сервера** с размещенными исправлениями недоступен для работающего устройства филиалов или для бесперебойной подсети, так как сервер-посредник является выровненным.
+Флажок для сервера с размещенными исправлениями недоступен для **работающего** устройства филиалов или для бесперебойной подсети, так как сервер-посредник является выровненным.
 
 На серверах пула можно задать порт прослушивания для протокола TLS. По умолчанию применяется порт 5067. Если выбран режим **Включить порт TCP**, необходимо задать порт TCP для совмещенного сервера-посредника. Это необязательный параметр, который задается в зависимости от требований для шлюза или ТСОП. Значение порта TCP по умолчанию: 5068.
 

@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 810245ff0c3dce47422765774e65380fee2162e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fa913e0f5d6be388b52c47423ccd2a8a48cdbb10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573199"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708755"
 ---
 # <a name="toll-free-dialing-restrictions-in-hong-kong"></a>Ограничения набора бесплатных номеров в Гонконге (САР)
 
@@ -45,7 +46,7 @@ ms.locfileid: "37573199"
 |Доступность мобильных сетей  <br/> |Да  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Мобильный доступ: Повременная оплата.  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

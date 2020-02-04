@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Интерактивные семинары, предназначенные для работы с Microsoft Teams за всего 30 дней.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570216"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708455"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -70,7 +70,7 @@ ms.locfileid: "37570216"
                     </div>
                     <div class="cardText">
                     <h3>Подготовка среды (часть I)</h3>
-                    <p>Установите основу для выпуска Teams. Определите требования для Teams, советы по сети и безопасность, рекомендации, политики сосуществования, анализ и отчеты и рекомендации по распространению клиентов.</p><p>Аудитория: ИТ для администраторов</p>
+                    <p>Установите основу для выпуска Teams. Определите требования для Teams, советы по сети и безопасность, рекомендации, политики сосуществования, анализ и отчеты и рекомендации по распространению клиентов.</p><p>Аудитория: ИТ-администраторы</p>
 </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "37570216"
                     </div>
                     <div class="cardText">
                         <h3>Подготовка среды, часть II</h3>
-                    <p>Теперь, когда вы создали основу, ознакомьтесь с рекомендациями по внедрению соответствия требованиям, хранению, управлению и голосовой конференции в Teams.</p><p>Аудитория: ИТ для администраторов</p>
+                    <p>Теперь, когда вы создали основу, ознакомьтесь с рекомендациями по внедрению соответствия требованиям, хранению, управлению и голосовой конференции в Teams.</p><p>Аудитория: ИТ-администраторы</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "37570216"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Подготовка конечных пользователей</h3>
+                        <h3>Готовность конечных пользователей</h3>
                     <p>Выявление стратегий и ресурсов для подготовки пользователей, создания зависимости от лидерами и гарантии принятия пользователей в качестве основного компонента выпусков Teams.</p><p>Аудитория: принятие и изменение владельцев</p>
                     </div>
                 </div>

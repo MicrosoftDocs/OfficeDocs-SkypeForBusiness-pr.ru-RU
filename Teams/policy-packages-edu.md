@@ -1,5 +1,5 @@
 ---
-title: Пакеты политики Microsoft Teams для администраторов EDU
+title: Пакеты политик Microsoft Teams для администраторов образовательных учреждений
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -13,18 +13,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать пакеты политик и управлять ими в Microsoft Teams.
-ms.openlocfilehash: a49ab725ff0042b75afca9b1f9b4d7d9655c34b7
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 922481747e83b8885641185b8a7e4fa65bb2a1bd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676257"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708665"
 ---
-# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>Пакеты политики Microsoft Teams для администраторов EDU
+# <a name="microsoft-teams-policy-packages-for-edu-admins"></a>Пакеты политик Microsoft Teams для администраторов образовательных учреждений
 
 Пакет политики в Microsoft Teams собирает предопределенные политики и параметры политики, которые можно назначать пользователям с аналогичными ролями в вашем учебном заведении. Пакеты политики упрощают, оптимизируют и помогают обеспечить согласованность при управлении политиками. Обычно каждому пользователю назначаются пакеты политики, а при необходимости переопределение политик в каждом пакете в соответствии с потребностями этой группы пользователей. При обновлении параметров в пакете все пользователи, которым назначен этот пакет, изменяются как массовое обновление.
 

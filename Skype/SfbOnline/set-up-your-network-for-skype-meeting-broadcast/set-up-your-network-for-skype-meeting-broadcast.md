@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: Узнайте о функциях трансляции собраний Skype в Skype для бизнеса Online, которая позволяет планировать, создавать и транслировать собрания или события для больших Интернет-пользователей до 10 000 участников.
-ms.openlocfilehash: 95ad00be416a53e6e861ce4e9f235bded8e8075a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 05e970e7859b361a4ec8c9656aedbe54f0de6f4f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990984"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706124"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Настройка сети для трансляции собраний Skype
 

@@ -1,5 +1,5 @@
 ---
-title: Каков статус ваших заказов на перенос?
+title: Каково состояние ваших заказов на перенос номеров?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 7c7b0c745ac4af01b58771463f348f5ac0f3dac7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925697"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708635"
 ---
-# <a name="whats-the-status-of-your-port-orders"></a>Каков статус ваших заказов на перенос?
+# <a name="whats-the-status-of-your-port-orders"></a>Каково состояние ваших заказов на перенос номеров?
 
 Чтобы просмотреть состояние заказа на перенос, в левой области навигации центра администрирования Microsoft Teams перейдите в раздел >**заказы на** **голосовую** > почту и выберите пункт **История заказов**. Каждый статус порядка последовательного порта появится в столбце **Status (состояние** ).
 
@@ -45,7 +45,7 @@ ms.locfileid: "37925697"
 
 ## <a name="related-topics"></a>См. также
 
-- [Что такое номер порта?](port-order-overview.md)
+- [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)

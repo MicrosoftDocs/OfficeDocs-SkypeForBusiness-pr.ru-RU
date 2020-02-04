@@ -1,5 +1,5 @@
 ---
-title: Что такое номер порта?
+title: Что такое заказ на перенос номера?
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
 ms.custom:
 - Calling Plans
 description: Общие сведения о заказах на переносные телефоны и о том, как передавать номера из вашего поставщика услуг в Teams.
-ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925693"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708765"
 ---
-# <a name="whats-a-port-order"></a>Что такое номер порта?
+# <a name="whats-a-port-order"></a>Что такое заказ на перенос номера?
 
 Если у вас есть поставщик услуг телефонной связи или перевозчик и у вас уже есть номера телефонов для пользователей или служб, вам нужно создать "*порядок портов*", чтобы передать эти номера в Microsoft Teams. После переноса номеров вы можете назначить эти телефонные номера пользователям и службам, например к конференц-связи (мостам), автосекретарем и очередям звонков.
   
@@ -161,7 +161,7 @@ ms.locfileid: "37925693"
 
 ## <a name="related-topics"></a>См. также
 
-- [Каков статус ваших заказов на перенос?](port-order-status.md)
+- [Каково состояние ваших заказов на перенос номеров?](port-order-status.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)

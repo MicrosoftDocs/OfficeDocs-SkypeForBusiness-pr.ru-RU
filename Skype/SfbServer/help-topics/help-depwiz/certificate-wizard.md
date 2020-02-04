@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: 'В мастере сертификатов выполняются следующие операции с сертификатами: Запрос, Назначить, Удалить и Просмотреть. Необходимо войти в систему с правами участника группы RTCUniversalServerAdmins. Для запроса сертификата из общедоступного центра сертификации не требуется участие в других группах. Чтобы запросить сертификат из инфраструктуры открытых ключей Организации (PKI), вам нужно подтвердить дополнительные возможности, которые вам понадобятся. В ходе задачи запроса вы можете ввести альтернативные учетные данные, которые будут использоваться для запроса сертификата от ЦС, выдающего PKI.'
-ms.openlocfilehash: 0ae4a9f5bf80cc33cd743349c5353f40f2fdb986
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75f324415bbf0af96f79b0e6e5f00e1ee3faaab5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301906"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701144"
 ---
 # <a name="certificate-wizard"></a>Мастер сертификатов
  

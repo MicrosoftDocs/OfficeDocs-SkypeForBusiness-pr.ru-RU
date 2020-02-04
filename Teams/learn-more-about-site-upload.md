@@ -14,18 +14,18 @@ ms.collection:
 description: Сведения о том, как отправить текстовый файл, содержащий список физических расположений и связанных с ними подсетей, которые можно использовать в качестве меток отчетности для аналитики звонков и отчетов панели мониторинга качества звонков.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572040"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707865"
 ---
 <a name="add-and-update-reporting-labels"></a>Добавление и обновление наклеек для отчетов
 ============================
@@ -57,6 +57,6 @@ ms.locfileid: "37572040"
 
 Дополнительные сведения о форматировании файла данных можно найти в разделе [Формат файла данных клиента и структура файла данных для построения](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Настройка аналитики звонков](set-up-call-analytics.md)

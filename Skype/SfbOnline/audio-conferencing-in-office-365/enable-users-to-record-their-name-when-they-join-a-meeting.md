@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Сведения о том, как включать и отключать возможность записи пользователями своих имен при присоединении к собранию в Skype для бизнеса Online.
-ms.openlocfilehash: 19fad95c0775663db799a59da159ed145aedda6b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 88c1a24acc6d623410ec8048a7e41d5c9f17d637
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792301"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707214"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Предоставление пользователям возможности записывать свое имя при присоединении к собранию в Skype для бизнеса Online
 
@@ -38,7 +39,7 @@ ms.locfileid: "35792301"
 
 ## <a name="set-whether-callers-should-record-their-name"></a>Определение того, должны ли вызывающие записи записывать свое имя
     
-1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста**видеоконференций **** > Microsoft.
+1. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите к разделу**Настройка моста** **видеоконференций** > Microsoft.
     
 2. В разделе **Присоединение к собранию** включите параметр **Включить уведомления о входе и выходе из собрания**.
     
@@ -61,7 +62,7 @@ ms.locfileid: "35792301"
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics: 
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Ознакомьтесь с этими преимуществами в указанных ниже разделах. 
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -72,6 +73,6 @@ ms.locfileid: "35792301"
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

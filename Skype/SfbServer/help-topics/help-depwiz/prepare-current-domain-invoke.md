@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployDomainPrepInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 27553998-2adf-4727-a6e8-841679603ff2
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Посмотрите на экран Сводка и убедитесь, что задачи выполнены успешно и ошибки не обнаружены. Ознакомьтесь с предупреждениями, чтобы убедиться, что они ожидаются. Под областью сводки вы должны увидеть состояние задачи: завершено. В раскрывающемся списке должен быть показан домен подготовки файла журнала. Если это не так, выберите файл журнала и щелкните Просмотреть журнал для просмотра подробных действий и результатов задач. Нажмите кнопку Готово, чтобы завершить подготовку домена.'
-ms.openlocfilehash: f69c0dbfa82e1c116dd6de6986a7910e35f8043a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c3d5ee300dde0c75c9094df75cf2b7c3fef1b0ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283887"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700944"
 ---
 # <a name="prepare-current-domain-invoke"></a>Подготовка текущего домена (вызов)
  
