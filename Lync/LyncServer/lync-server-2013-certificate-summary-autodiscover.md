@@ -3,6 +3,8 @@ title: 'Lync Server 2013: сведения о сертификате — авт�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Autodiscover
 ms:assetid: 16ac96bb-882a-4141-b75c-9530637548d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945616(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59c3777f9b13dc18e3e52e80120009f93c20db3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8956c8a0ed4e149f336e6670aaf5b262f1868748
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841656"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ _**Тема последнего изменения:** 2013-02-14_
 </tr>
 <tr class="even">
 <td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>SAN = lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscover.&lt;домен_SIP&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +126,7 @@ _**Тема последнего изменения:** 2013-02-14_
 </tr>
 <tr class="even">
 <td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>SAN = lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscover.&lt;домен_SIP&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -156,7 +158,7 @@ _**Тема последнего изменения:** 2013-02-14_
 <tbody>
 <tr class="odd">
 <td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>SAN = lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscover.&lt;домен_SIP&gt;</p></td>
 </tr>
 </tbody>
 </table>

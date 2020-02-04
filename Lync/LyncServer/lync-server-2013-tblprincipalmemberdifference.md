@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalMemberDifference'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalMemberDifference
 ms:assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558612(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5db403431c182e3f5bb8e7a3fabaa04cd2a94d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849532"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,17 +56,17 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Прингуид</p></td>
+<td><p>прингуид</p></td>
 <td><p>GUID, а не NULL</p></td>
 <td><p>Идентификатор GUID участника измененной группы.</p></td>
 </tr>
 <tr class="even">
-<td><p>Мемберадпас</p></td>
+<td><p>мемберадпас</p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Отличительное имя участника.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Мемберремовед</p></td>
+<td><p>мемберремовед</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение false, если элемент был добавлен. Значение true, если элемент удален.</p></td>
 </tr>
