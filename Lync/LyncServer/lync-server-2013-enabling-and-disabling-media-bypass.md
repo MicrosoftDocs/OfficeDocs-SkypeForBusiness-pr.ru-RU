@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Включение и отключение обход�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling and disabling media bypass
 ms:assetid: f2b33a88-99c8-42ad-9fec-6bb9c5e9ff19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721937(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7152fcca2f987a39f65736084edfa1be392abfd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 612b944d35e3e8158622a4d18105074f5888daca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834265"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34834265"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a><span data-ttu-id="e1065-102">Включение и отключение пропуска мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1065-102">Enabling and disabling media bypass in Lync Server 2013</span></span>
+# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a><span data-ttu-id="f632f-102">Включение и отключение пропуска мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f632f-102">Enabling and disabling media bypass in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,29 +35,29 @@ ms.locfileid: "34834265"
 
 <span> </span>
 
-<span data-ttu-id="e1065-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e1065-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="f632f-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f632f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e1065-104">Чтобы включить или отключить функцию обхода мультимедиа с помощью панели управления Lync Server, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="e1065-104">Use the procedures in this section to enable or disable media bypass by using the Lync Server Control Panel.</span></span> <span data-ttu-id="e1065-105">Сведения о том, когда следует использовать обход мультимедиа, приведены [в разделе Планирование обхода мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="e1065-105">For details about when to use media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span></span>
+<span data-ttu-id="f632f-104">Чтобы включить или отключить функцию обхода мультимедиа с помощью панели управления Lync Server, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="f632f-104">Use the procedures in this section to enable or disable media bypass by using the Lync Server Control Panel.</span></span> <span data-ttu-id="f632f-105">Сведения о том, когда следует использовать обход мультимедиа, приведены [в разделе Планирование обхода мультимедиа в Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="f632f-105">For details about when to use media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e1065-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="e1065-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f632f-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="f632f-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e1065-107">Включение обхода сетевых мультимедийных файлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1065-107">Enabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-network-media-bypass.md)
+  - [<span data-ttu-id="f632f-107">Включение обхода сетевых мультимедийных файлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f632f-107">Enabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-network-media-bypass.md)
 
-  - [<span data-ttu-id="e1065-108">Отключение обхода сетевых мультимедийных файлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1065-108">Disabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-disabling-network-media-bypass.md)
+  - [<span data-ttu-id="f632f-108">Отключение обхода сетевых мультимедийных файлов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f632f-108">Disabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-disabling-network-media-bypass.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e1065-109">См. также</span><span class="sxs-lookup"><span data-stu-id="e1065-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f632f-109">См. также</span><span class="sxs-lookup"><span data-stu-id="f632f-109">See Also</span></span>
 
 
-[<span data-ttu-id="e1065-110">Общие сведения об обходном пропуске мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1065-110">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)  
+[<span data-ttu-id="f632f-110">Общие сведения об обходном пропуске мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f632f-110">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)  
 
 
-[<span data-ttu-id="e1065-111">Планирование обхода серверов-посредников в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1065-111">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="f632f-111">Планирование обхода серверов-посредников в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f632f-111">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>
