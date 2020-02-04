@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Security
 description: Руководство по безопасности для Skype для бизнеса Online <add description>
-ms.openlocfilehash: 8fb0ef5322af99e3868a64be4101cf898918c449
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298031"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706814"
 ---
 # <a name="security-and-skype-for-business-online"></a>Безопасность и Skype для бизнеса Online
 
@@ -41,7 +42,7 @@ Network communications in Skype for Business Online are encrypted by default. By
 В этом разделе описаны наиболее распространенные угрозы безопасности службы Сфбо и информация о том, как корпорация Майкрософт уменьшает опасность каждой угрозы.
 
 ### <a name="compromised-key-attack"></a>Атака с использованием скомпрометированного ключа
-Ключ — это секретный код или число, используемые для шифрования, расшифровки или проверки секретных сведений. В инфраструктуре открытого ключа (PKI) есть два чувствительных ключа: закрытый ключ, который имеет каждый владелец сертификата, и ключ сеанса, который используется после успешного обмена идентификационными данными и сеансом партнерами обмена. Атака с использованием скомпрометированного ключа происходит, когда злоумышленнику удается получить закрытый ключ или ключ сеанса. После этого он может использовать полученный ключ для расшифровки зашифрованных данных без ведома отправителя.
+Ключ — это секретный код или номер, который используется для шифрования, расшифровки и проверки секретных данных. В инфраструктуре открытых ключей используются два секретных ключа (PKI), которые необходимо учитывать: закрытый ключ, который каждый обладатель сертификата имеет и ключ сеанса, используемый после успешной идентификации и обмена ключами сеанса между партнерами. Атака с помощью скомпрометированного ключа возникает, когда злоумышленник определяет закрытый ключ или ключ сеанса. Если злоумышленнику удалось определить ключ, злоумышленник может использовать ключ для расшифровки зашифрованных данных без знания отправителя.
 
 Skype for Business Online uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. 
 
@@ -59,7 +60,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
-Протокол TURN используется для целей мультимедиа в реальном времени. Протокол включения не требует, чтобы трафик был зашифрован, а отправляемые им данные защищаются целостностью сообщений. Несмотря на то, что оно открыто для прослушивания, сведения, отправляемые им (то есть IP-адреса и порт), можно извлечь непосредственно, просто взгляните на адреса источника и назначения пакетов. Служба Сфбо гарантирует правильность данных, проверив целостность сообщений в сообщении с помощью ключа, полученного из нескольких элементов, в том числе для включения пароля, который никогда не отправляется открытым текстом. SRTP используется для медиа-трафика и также зашифрован.
+Протокол "включить" используется для целей мультимедиа в режиме реального времени. Протокол включения не требует, чтобы трафик был зашифрован, а отправляемые им данные защищаются целостностью сообщений. Несмотря на то, что оно открыто для прослушивания, сведения, отправляемые им (то есть IP-адреса и порт), можно извлечь непосредственно, просто взгляните на адреса источника и назначения пакетов. Служба Сфбо гарантирует правильность данных, проверив целостность сообщений в сообщении с помощью ключа, полученного из нескольких элементов, в том числе для включения пароля, который никогда не отправляется открытым текстом. SRTP используется для передачи данных мультимедиа, а также шифруется.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>Подделка подлинности (спуфинг IP-адреса)
 Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
@@ -80,7 +81,7 @@ A replay attack occurs when a valid media transmission between two parties is in
 Нежелательные мгновенные сообщения — это нежелательные мгновенные сообщения коммерческого характера либо запросы подписки на сведения о присутствии. Хотя такие сообщения сами по себе не нарушают безопасность сети, они как минимум раздражают пользователей, ухудшают их доступность и производительность и в перспективе могут привести к нарушению сетевой безопасности. Примером является отправка пользователями нежелательных запросов друг другу. Чтобы избавиться от таких запросов, пользователи могут блокировать друг друга, однако защититься от скоординированной атаки нежелательными мгновенными сообщениями в федеративной среде сложно без отключения федерации партнера.
 
 ### <a name="viruses-and-worms"></a>Вирусы и черви
-Вирус — это блок кода, задача которого — воспроизводство идентичных блоков. Для работы вирусу нужен носитель, например файл, сообщение электронной почты или программа. Подобно вирусу, вирус-червь представляет собой единицу кода, которая кодируется для воспроизведения дополнительных похожих единиц кода, но в отличие от вируса не требуется основного приложения. Вирусы и черви в основном появляются при обмене файлами между клиентами, а также при получении URL-адресов от других пользователей. Если вирус находится на компьютере, он может, например, использовать идентификационные данные хозяина для отправки мгновенных сообщений от его имени. Стандартные рекомендации по безопасности клиентов, такие как периодическое сканирование вирусов, могут уменьшить эту проблему. 
+Вирус — это блок кода, цель которого — воспроизвести дополнительные подобные фрагменты кода. Для работы вируса требуется узел, например файл, электронная почта или программа. Как и в случае с вирусом, червь — это блок кода, который задается для воспроизведения дополнительных подобных фрагментов кода, но, в отличие от вирусов, не нуждается в узле. Вирусы и черви обычно отображаются во время передачи файлов между клиентами, а также при отправке URL-адресов от других пользователей. Если на вашем компьютере есть вирус, он может, например, использовать свою учетную запись и отправлять мгновенные сообщения от вашего имени. Стандартные рекомендации по обеспечению безопасности клиента, например периодический поиск вирусов, могут устранить эту неполадку. 
 
 ## <a name="personally-identifiable-information"></a>Личные сведения
 SfBO has the potential to disclose information over a public network that might be able to be linked to an individual. The information types can be broken down to two specific categories:
@@ -94,7 +95,7 @@ SfBO has the potential to disclose information over a public network that might 
 
 |                      |                                                                                            |   |
 |:---------------------|:-------------------------------------------------------------------------------------------|:--|
-| **Значение**             | **Возможные** **настройки**                                                                  |   |
+| **Данные**             | **Возможные** **настройки**                                                                  |   |
 | Личные данные        | Имя, должность, компания, адрес электронной почты, часовой пояс                                             |   |
 | Номера телефонов    | Рабочий, мобильный, домашний                                                                         |   |
 | Данные календаря | Сведения о доступности, об отсутствии на месте и о собрании (для тех, кто имеет доступ к вашему календарю) |   |
@@ -136,7 +137,7 @@ SfBO service relies on certificates for server authentication and to establish a
 Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in. Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
 #### <a name="crl-distribution-points"></a>Точки распространения списка отзыва сертификатов (CRL)
-Для Сфбо требуется, чтобы все сертификаты сервера содержали одну или несколько точек распространения списков отзыва сертификатов (CRL). Точки распространения списка отзыва сертификатов (CDP) представляют собой местоположения, из которых можно загрузить CRL для проверки того, что сертификат не был отозван с момента выдачи и его срок действия не истек. Точка распространения CRL отмечается в свойствах сертификата как URL-адрес и является безопасной HTTP. Служба SfBO проверяет CRL с каждой  проверкой подлинности сервера сертификата.
+Для Сфбо требуется, чтобы все сертификаты сервера содержали одну или несколько точек распространения списков отзыва сертификатов (CRL). Точки распространения CRL — это расположение, из которого можно скачать списки отзыва сертификатов для целей проверки того, что сертификат не был отозван после того, как он был выдан, и сертификат по-прежнему находится в течение срока действия. Точка распространения CRL отмечается в свойствах сертификата как URL-адрес и является безопасной HTTP. Служба Сфбо проверяет CRL с учетом всех проверок подлинности сертификата.
 
 #### <a name="enhanced-key-usage"></a>Расширенное использование ключа
 All components of the SfBO service require all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. 
@@ -186,7 +187,7 @@ SfBO использует алгоритмы FIPS (Federal Information Processin
 Доверенным пользователем является тот, чьи учетные данные были аутентифицированы AAD в O365. 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
-- **Современная проверка подлинности** является реализацией Microsoft OAUTH 2.0 для взаимодействия клиента с сервером. Она включает функции безопасности, такие как проверка подлинности на основе сертификатов O365, многофакторная проверка подлинности O365 и условный доступ O365. Чтобы использовать MA, для онлайн-арендатора и клиентов необходимо включить MA. У арендаторов SfBO, созданных после мая 2017 года, MA включен по умолчанию. Для арендаторов, созданных до этого времени, следуйте инструкциям здесь, чтобы включить его. Следующие клиенты поддерживают MA: Skype для бизнеса  2015 или 2016, Skype для бизнеса  on Mac, Lync 2013 client, IP-телефоны 3PIP, iOS и Android. 
+- **Современная проверка подлинности** — это реализация OAuth 2,0 для клиента на взаимодействие с сервером. Она включает такие функции безопасности, как проверка подлинности на основе сертификата Office 365, многофакторная проверка подлинности и условный доступ O365. Для того чтобы использовать MA, клиент и клиенты должны быть включены для MA. Клиенты Сфбо, созданные после мая 2017, по умолчанию включены. Для клиентов, созданных до этого времени, следуйте инструкциям, приведенным здесь, чтобы включить его. Ниже перечислены клиенты, поддерживающие службу MA: клиентские компьютеры с ОС 2015 или 2016, Skype для бизнеса на Mac, клиент Lync 2013, 3PIP IP-телефоны, iOS и Android. 
 - **Идентификатор org** используется, если не включена современная проверка подлинности (или недоступна).
 - **Дайджест-проверка** для так называемых анонимных пользователей. Анонимные пользователи — это внешние пользователи, которые не имеют распознанных учетных данных Active Directory, но были приглашены в локальную конференцию и обладают действительным ключом конференции. Дайджест-проверка подлинности не используется для других клиентских взаимодействий.
 
@@ -203,7 +204,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 Сертификаты клиентов предоставляют альтернативный способ проверки подлинности пользователей с помощью Сфбо. Вместо того чтобы предоставлять имя пользователя и пароль, пользователи имеют сертификат и закрытый ключ, соответствующий сертификату, который требуется для устранения криптографических проблем. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Средства управления Windows PowerShell и SfBO
-В SfBO ИТ-администраторы могут управлять своим сервисом через портал администратора O365 или с помощью Tenant Remote PowerShell (TRPS). Администраторам клиентов для проверки подлинности ТРПС используется современная проверка подлинности.
+В Сфбо ИТ-администраторы могут управлять своей службой через портал администрирования Office 365 или с помощью удаленной оболочки клиента PowerShell (ТРПС). Администраторам клиентов для проверки подлинности ТРПС используется современная проверка подлинности.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Настройка доступа к SfBO на границе вашего интернета
 Для того чтобы Сфбо правильно работать (пользователи могут присоединяться к собраниям и т. д.), пользователям необходимо настроить доступ к Интернету таким образом, чтобы исходящий трафик UDP и TCP для служб в облаке Сфбо разрешен. Дополнительные сведения можно найти здесь:https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -223,8 +224,8 @@ Enabling external users and internal users to exchange media requires an Access 
 
 ![Последовательность вызовов в Meeting Join](media/sfbo-call-sequence-security.png) 
 
-1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>Пользователь инициирует процедуру соединения, щелкнув URL-адрес собрания в письме, которое инициирует процесс обнаружения клиента на машине пользователя. Если клиент обнаружен, этот клиент запускается. Если он не обнаружен, пользователь перенаправляется на веб-клиент.<p/>
-2. Клиент SfBO отправляет SIP INVITE, содержащий учетные данные пользователя. Федеративный или удаленный пользователь присоединяется к Конференции с помощью учетных данных своей организации. Для федеративного пользователя SIP INVITE сначала отправляется на его или ее домашний сервер, который проверяет подлинность пользователя и перенаправляет INVITE на SfBO. Анонимный пользователь должен пройти проверку подлинности дайджеста.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
+1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>Пользователь инициирует процедуру соединения, щелкнув URL-адрес собрания в сообщении, который инициирует процесс обнаружения клиента на компьютере пользователя. Если клиент обнаружен, этот клиент запускается. Если он не обнаружен, пользователь перенаправляется в веб-клиент.<p/>
+2. Клиент Сфбо отправляет приглашение на SIP, содержащее учетные данные пользователя. Федеративный или удаленный пользователь присоединяется к Конференции с помощью учетных данных своей организации. Для федеративного пользователя приглашение SIP сначала отправляется своему основному серверу, который проверяет подлинность пользователя, и пересылает приглашение на Сфбо. Для передачи дайджест-проверки подлинности требуется анонимный пользователь.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
 
 3. Клиент отправляет запрос INFO для добавления пользователя на конференцию A/V.
 
@@ -238,7 +239,7 @@ Enabling external users and internal users to exchange media requires an Access 
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
 ### <a name="federation-safeguards-for-sfbo"></a>Меры предосторожности Федерации для Сфбо
-Федерация предоставляет вашей организации возможность общаться с другими организациями для обмена мгновенными сообщениями и присутствием. В SfBO федерация включена по умолчанию. Тем не менее, администраторы-арендаторы имеют возможность контролировать это через портал администратора O365. См. больше.
+Интеграция обеспечивает взаимодействие с другими организациями для обмена мгновенными сообщениями и присутствием в Организации. По умолчанию Сфбо Федерация включена. Однако администраторы клиентов могут управлять этим с помощью портала администрирования Office 365. Дополнительные сведения.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Устранение угроз в конференциях SfBO
 
@@ -253,16 +254,16 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 
 ### <a name="participant-roles"></a>Роли участников
 Участники собрания делятся на три группы, у каждой из которых есть свои права и ограничения.
-- **Организатор** &nbsp;Пользователь, который создает собрание, будь то незапланированное или с помощью &nbsp;планирования. Организатор должен быть пользователем, прошедшим проверку подлинности, и управлять всеми аспектами пользователей на собрании.
-- **** Выступающий &nbsp;Пользователь, которому разрешено представлять данные на собрании, используя любой поддерживаемый &nbsp;мультимедиа. Организатор собрания — определение также является выступающим и определяет, кто еще может быть выступающим. Организатор может выполнять это определение при планировании собрания или во время собрания.
-- **Участник** &nbsp;Пользователь, приглашенный на собрание, но не уполномоченный выступающему &nbsp;.
+- **** &nbsp;Организатор &nbsp;для пользователя, который создал собрание, будь незапланированное или планирование. Организатор должен быть пользователем, прошедшим проверку подлинности, и управлять всеми аспектами пользователей на собрании.
+- Выступающий пользователь, которому разрешено представлять данные на собрании, используя любой поддерживаемый мультимедиа. **** &nbsp; &nbsp; Организатор собрания — определение также является выступающим и определяет, кто еще может быть выступающим. Организатор может выполнять это определение при планировании собрания или во время собрания.
+- Участники, которые были приглашены для участия в собрании, но не уполномоченные выступающим. **** &nbsp; &nbsp;
 
 Выступающий также могут допустить участника до роли выступающего во время собрания.
 
 ### <a name="participant-types"></a>Типы участников
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.  **Пользователи, которые принадлежат клиенту** &nbsp;У этих пользователей есть учетные данные в Azure Active Directory для &nbsp;клиента.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+1.  **Пользователи, которые находятся в клиенте** &nbsp; &nbsp;. Эти пользователи имеют учетные данные в Azure Active Directory для клиента.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
 2.  **Пользователи, принадлежащие арендатору**&nbsp;&nbsp;Эти пользователи имеют учетные данные в Azure Active Directory для арендатора.<br/>*Федеративные пользователи* : Федеративные пользователи, у которых есть действительные учетные данные с федеративными партнерами, и поэтому обрабатываются как прошедшие проверку подлинности с помощью сфбо. Федеративные пользователи могут присоединяться к конференциям и повышать их до выступающих после того, как они присоединились к собранию, но не могут создавать конференции на предприятиях, где они являются федеративными.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
@@ -275,8 +276,7 @@ Meeting organizers control whether participants can join a meeting without waiti
 - **Только я, организатор совещания**&nbsp;&nbsp;Все, кроме организатора, должны ожидать в "зале ожидания" до тех пор, пока не будут допущены.
 - **Людей, которых я приглашаю из своей компании**&nbsp;&nbsp;Любой человек из вашей компании может напрямую попасть на совещание, даже если его не пригласят.
 - **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
-- **Кто угодно**&nbsp;(не имеет ограничений), у которого есть доступ к ссылке на собрание, она находится на собрании&nbsp;напрямую.
-Если указан какой-либо метод, кроме Организатора (заблокирован), организатор совещания также может указать, что люди набирают номер по телефону в обход "зала ожидания". 
+- **Кто угодно**&nbsp;(не имеет ограничений), у которого есть доступ к ссылке на собрание, она находится на собрании&nbsp;напрямую. Если указан какой-либо метод, за исключением только организатора (заблокирована), организатор собрания может также указать пользователей, набираемых по телефону, минуя "зал ожидания". 
 
 ### <a name="presenter-capabilities"></a>Возможности докладчика
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
@@ -285,6 +285,6 @@ Meeting organizers control whether participants can present during a meeting. Ea
 - **Все, включая пользователей за пределами своей организации**&nbsp;&nbsp;(нет ограничений), которые присоединяются к собранию.
 - **Люди, которых я выбираю**&nbsp;&nbsp;Организатор совещания определяет, какие пользователи могут присутствовать, добавив их в список докладчиков.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Центр управления безопасностью Майкрософт](https://microsoft.com/trustcenter)
 

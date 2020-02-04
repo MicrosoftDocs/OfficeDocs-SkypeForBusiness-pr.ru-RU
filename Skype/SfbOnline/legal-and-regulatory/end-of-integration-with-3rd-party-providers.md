@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 31 июля 2021 г. окончание жизненного цикла выйдет за возможности интеграции Skype для бизнеса с помощью сторонних поставщиков видеоконференций (сторонних производителей).
-ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36170996"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706694"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Окончание жизненного цикла программы для интеграции Skype для бизнеса с поставщиками видеоконференций сторонних производителей 
 

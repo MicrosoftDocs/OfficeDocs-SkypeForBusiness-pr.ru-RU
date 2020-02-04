@@ -15,16 +15,17 @@ ms.appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOIDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Этот краткий обзор Организации и параметров пользователя в Skype для бизнеса поможет вам узнать больше об общедоступной службе обмена мгновенными сообщениями, приглашениях на собрания, записи звонков и собраниях и многое другое.  '
-ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285097"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706464"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Общие сведения о параметрах Skype для бизнеса Online
 
@@ -36,7 +37,7 @@ ms.locfileid: "34285097"
 ## <a name="skype-for-business-online-organization-settings"></a>Параметры организации Skype для бизнеса online
 <a name="__top"> </a>
 
-|**Параметрами**|**Описание**|**По умолчанию**.|**Дополнительные сведения**|
+|**Параметрами**|**Описание**|**По умолчанию**.|**Подробнее**|
 |:-----|:-----|:-----|:-----|
 |Федерация доменов  <br/> |Взаимодействие с другими организациями, которые используют Skype для бизнеса online  <br/> |Включено  <br/> |[Разрешите пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Подключение к общедоступным системам обмена мгновенными сообщениями  <br/> |Взаимодействие с пользователями Skype для бизнеса online  <br/> |Включено  <br/> |[Разрешите пользователям связываться с внешними пользователями Skype для бизнеса](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

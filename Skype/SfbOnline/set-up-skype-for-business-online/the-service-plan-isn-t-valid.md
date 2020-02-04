@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.ServicePlanNotValid
 ms.custom:
 - Setup
 description: 'Просмотр места назначения действующего плана обслуживания для пользователя после недействительной ошибки в плане обслуживания Skype для бизнеса Online. '
-ms.openlocfilehash: 896ac04909e9b00ada8e18e6a83f7fa9096f7455
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 2c3137cb5e8873c1416d7fac2d20930c8f378844
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411545"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706444"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>План обслуживания Skype для бизнеса Online пользователя недействителен
 

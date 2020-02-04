@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Узнайте, какие страны и регионы имеют телефонные номера для конференц-связи и как они автоматически назначаются.
-ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792312"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707164"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Номера телефонов для аудиоконференций в приложении Skype для бизнеса Online
 
@@ -66,7 +67,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > Страну или регион Организации можно найти, войдя в центр администрирования Microsoft 365 и просматривая в разделе " **профиль организации**". 
   
 > [!CAUTION]
-> Из-за ограниченной доступности платных телефонных номеров в Венесуэла, Индонезия, Вьетнаме и Объединенных Арабских ОАЭ (ОАЭ) в организации из этих стран или регионов не будет автоматически назначен номер для голосовой конференции. Бесплатные номера доступны для этих стран независимо от существующих ограничений. 
+> Из-за ограниченной доступности платных телефонных номеров в Венесуэла, Индонезия, Вьетнаме и Объединенных Арабских ОАЭ (ОАЭ) в организации из этих стран или регионов не будет автоматически назначен номер для голосовой конференции. Бесплатные номера из этих местоположений доступны в зависимости от имеющихся запасов. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
@@ -86,6 +87,6 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

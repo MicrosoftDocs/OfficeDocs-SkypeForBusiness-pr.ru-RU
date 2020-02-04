@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: a30af18ea18251ff4cc099459083e7df23ba6378
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: ef7b764d674590ed07e461029110505446b09900
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962487"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706644"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
