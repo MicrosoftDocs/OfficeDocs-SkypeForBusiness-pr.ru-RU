@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Для сервера исправлений вы можете указать следующее:'
-ms.openlocfilehash: fcff87faeb5911d12806f80499c2b2f0d63caff3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6e0321ddde79a088610e9e2b1c79739c68b2b90
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285605"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684512"
 ---
 # <a name="mediation-service-settings-expander"></a>Расширитель настроек службы сервера-посредника
 
@@ -32,6 +32,6 @@ ms.locfileid: "34285605"
 
 Если у вас есть несколько шлюзов, связанных с сервером-посредником, первый из них будет шлюзом по умолчанию. Если требуется применять по умолчанию другой шлюз, выберите его и щелкните **По умолчанию**. Для отмены применения шлюза по умолчанию щелкните **Отменить по умолчанию**.
 
-Подробнее об определении и настройке параметров для пула и сервера Standard Edition Enterprise Edition можно узнать в разделе [Определение и Настройка топологии](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) и [развертывание серверов обновлений и определение](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)одноранговых элементов.
+Подробнее об определении и настройке параметров для пула и сервера Standard Edition Enterprise Edition можно узнать в разделе [Определение и Настройка топологии](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) и [развертывание серверов обновлений и определение одноранговых](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)элементов.
 
 

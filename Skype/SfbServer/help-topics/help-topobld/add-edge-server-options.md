@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: Выберите каждый компонент, который требуется включить для пограничного пула. По умолчанию пограничный пул поддерживает удаленных пользователей организации, вошедших в систему за пределами брандмауэра с помощью виртуальной частной сети (VPN). Поддерживаются также следующие параметры пограничного пула.
-ms.openlocfilehash: 2c266db6fc9f43719a26242212071051670a633e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a2d844b90341a91a6532f743531b3237864830a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283705"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685222"
 ---
 # <a name="add-edge-server-options"></a>Добавление параметров пограничного сервера
 

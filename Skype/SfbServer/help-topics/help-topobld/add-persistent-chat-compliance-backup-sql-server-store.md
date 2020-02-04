@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Вы настраиваете хранилища SQL Server для обеспечения соответствия резервных копий, которые предоставляют резервные базы данных для сервера сохраняемого чата или сохраняемого сервера в соответствии с требованиями SQL Server Stores.
-ms.openlocfilehash: 457874f87266453939c75cdef50d30231d8610bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b40f749b59e6b389513a16277bfdc75624628d36
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277708"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685082"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Добавление резервного хранилища SQL Server соответствия сохраняемого чата
  

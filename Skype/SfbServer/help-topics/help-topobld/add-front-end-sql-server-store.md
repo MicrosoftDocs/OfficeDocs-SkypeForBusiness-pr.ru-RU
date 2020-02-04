@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 description: Развертывание сервера Standard Edition автоматически устанавливает необходимое программное обеспечение Microsoft SQL Server Express Database Server и базу данных SQL Server. Таким образом, все параметры предварительно заполнены, и вы не можете изменить конфигурацию по умолчанию.
-ms.openlocfilehash: 73e1e9351c5d5b6d9b9f596e2b839037b9081e29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2f3aef2b48981368a74d536254da55ae5e0495d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685142"
 ---
 # <a name="add-front-end-sql-server-store"></a>Добавление хранилища SQL Server для сервера переднего плана
 

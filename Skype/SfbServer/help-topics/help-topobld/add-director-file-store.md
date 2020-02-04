@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorFileStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 description: Необходимо указать общий файловый ресурс, который будет использоваться в качестве хранилища файлов для директоров. В качестве хранилища файлов можно использовать существующий общий файловый ресурс. Кроме того, можно добавить новый общий файловый ресурс, указав полное доменное имя файлового сервера, на котором расположен общий файловый ресурс, и имя папки для нового общего файлового ресурса.
-ms.openlocfilehash: e3f642dcbb4431c7a6565afa6e5b9d33c90e8149
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0321131a69ac4db691bc2d9b6f44845536bee535
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304837"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685342"
 ---
 # <a name="add-director-file-store"></a>Добавление файлового хранилища Директора
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: Чтобы изменить свойства сервер пограничного сервера на пограничный сервер или рядовые компьютеры в пуле EDGE, настройте параметры конфигурации сервера и IP-адреса.
-ms.openlocfilehash: c9201cfde9f19391e1cee351de6d4efac00be9dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 411e870a874366754d17d0601ed1f216ce18899a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302338"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684782"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Расширитель параметров пограничного сервера для Lync Server 2010
  
@@ -37,10 +37,10 @@ ms.locfileid: "34302338"
     
 - Если вы хотите изменить параметры, вы можете настроить **Внешний IPv4-адрес** для **службы EDGE (A/V** ), связанный с этим компьютером.
     
-- Если вы можете изменить его, вы можете настроить общедоступный **IPv4-адрес** , связанный с этим компьютером.
+- Если вы можете изменить его, вы можете настроить **общедоступный IPv4-адрес** , связанный с этим компьютером.
     
     > [!IMPORTANT]
-    > Свойство Configuration для общедоступного **IPv4-адреса, поддерживающего NAT** , будет доступно для редактирования только в том случае, если вы выбрали функцию преобразования сетевых адресов (NAT) для службы Edge A/V.
+    > Свойство Configuration для **общедоступного IPv4-адреса, поддерживающего NAT** , будет доступно для редактирования только в том случае, если вы выбрали функцию преобразования сетевых адресов (NAT) для службы Edge A/V.
   
   **ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.
   

@@ -12,27 +12,27 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: fa58c0a61a5a9a718cc38b316d91ed14ab224c20
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209065"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681406"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Знакомство с Microsoft Teams
 Эта статья предназначена для администраторов Microsoft Teams в вашей организации. Когда вы будете готовы начать работу Teams, начните со знакомства со статьей [Развертывание Teams](How-to-roll-out-teams.md).
-
-Если вы ищете справку по Teams для пользователей, выберите элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams). Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
 Если вы еще не знакомы с Teams и хотите узнать больше, посмотрите наше короткое видео [Добро пожаловать в Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (55 секунд).
 
 Не пропустите наше видео "Добро пожаловать в Teams" для администраторов Teams (чуть больше 3 минут):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+
+Если вы ищете справку по Teams для пользователей, выберите элемент **Справка** в левой части приложения или перейдите в [Центр справки Microsoft Teams](https://support.office.com/teams). Учебные курсы см. на странице [Обучение работе с Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
 ## <a name="teams-architecture"></a>Архитектура Teams
 

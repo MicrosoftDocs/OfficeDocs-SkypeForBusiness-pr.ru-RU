@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddMediationMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f186be15-626a-4454-9b54-55aa5d90c520
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который вы хотите добавить в качестве сервера переднего плана в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии изменение полного доменного имени требует удаления сервера в построителе топологии и добавления нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: d702c3e9dbfe4d75e9ed629ffcb339606c220d78
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7f5aaef45e130acc9321da09cc8f1ad818040f3a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275292"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685122"
 ---
 # <a name="add-mediation-machine"></a>Добавление компьютера-посредника
  
