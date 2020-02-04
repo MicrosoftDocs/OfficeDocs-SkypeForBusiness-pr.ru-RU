@@ -3,6 +3,8 @@ title: 'Lync Server 2013: представление Воипдетаилс'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VoIPDetails view
 ms:assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687973(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9553be13dcd73f89ba8d6ab051602d378bf353da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849065"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,52 +65,52 @@ _**Тема последнего изменения:** 2012-10-18_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Фромфоне</strong></p></td>
+<td><p><strong>фромфоне</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>URI телефона пользователя, запустившего сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Тофоне</strong></p></td>
+<td><p><strong>тофоне</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) пользователя, который присоединился к сеансу.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дисконнектедбюри</strong></p></td>
+<td><p><strong>дисконнектедбюри</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) пользователя, который отключил сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дисконнектедбюритипе</strong></p></td>
+<td><p><strong>дисконнектедбюритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Тип URI пользователя, который отключил сеанс. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дисконнектедбитенант</strong></p></td>
+<td><p><strong>дисконнектедбитенант</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Клиент пользователя, который отключил сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дисконнектедбифоне</strong></p></td>
+<td><p><strong>дисконнектедбифоне</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) пользователя, который отключил сеанс.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Фроммедиатионсервер</strong></p></td>
+<td><p><strong>фроммедиатионсервер</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Сервер исправлений, используемый пользователем, который запустил сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Томедиатионсервер</strong></p></td>
+<td><p><strong>томедиатионсервер</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Сервер исправлений, используемый пользователем, который присоединил сеанс.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Фромгатевай</strong></p></td>
+<td><p><strong>фромгатевай</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Шлюз, используемый пользователем, который запустил сеанс.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Тогатевай</strong></p></td>
+<td><p><strong>тогатевай</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Шлюз, используемый пользователем, который присоединился к сеансу.</p></td>
 </tr>

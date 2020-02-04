@@ -3,6 +3,8 @@ title: 'Сервер Lync Server 2013: отчет о устройстве'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Report
 ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc453ca1e83d8077e67ef130ef7a83e03c138be2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -135,7 +137,7 @@ _**Тема последнего изменения:** 2013-11-12_
 
   - Устройства обработки
 
-В отчете об устройстве вы можете детализировать отчет "список обзвона" [в Lync Server 2013](lync-server-2013-call-list-report.md) , щелкнув один из указанных ниже метрик.
+В отчете об устройстве вы можете детализировать [отчет "список обзвона" в Lync Server 2013](lync-server-2013-call-list-report.md) , щелкнув один из указанных ниже метрик.
 
   - Громкость вызова
 

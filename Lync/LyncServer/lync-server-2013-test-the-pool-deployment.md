@@ -3,6 +3,8 @@ title: 'Lync Server 2013: тестирование развертывания п
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test the pool deployment
 ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413092(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185976
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70a1dc68b8dbe6285cdf4b7e9c21c873caaf730d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cfde95e7323d68f05e78f670a6b027a5949f0169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849416"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,7 +103,7 @@ _**Тема последнего изменения:** 2013-09-25_
     
       - **Политика клиента**.
     
-    Для целей тестирования основных функций выберите предпочтительный параметр для URI-адресу для **пользовательского** интерфейса (другие параметры в конфигурации будут использовать параметры по умолчанию), а затем нажмите кнопку **включить**.
+    Для целей тестирования основных функций выберите предпочтительный параметр для **URI-адресу для пользовательского** интерфейса (другие параметры в конфигурации будут использовать параметры по умолчанию), а затем нажмите кнопку **включить**.
 
 11. Откроется страница со сводкой, на которой показан флажок в столбце **Enabled** , указывающий на то, что объекты теперь готовы к использованию. В столбце **SIP-адрес** будет отображаться адрес, который требуется для настройки входа пользователя.
 

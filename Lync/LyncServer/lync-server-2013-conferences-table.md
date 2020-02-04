@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Conferences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferences table
 ms:assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17cbadaf18fa36ca55f7755b5e679e564163a207
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c5464d3161a52a31fddb1322c82181d6e7a97fe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841485"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,49 +57,49 @@ _**Тема последнего изменения:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Сессионидтиме</strong></p></td>
+<td><p><strong>сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Primary</p></td>
 <td><p>Время, в течение которого запрос на конференцию был собран агентом CDR. Используется только в качестве первичного ключа для уникальной идентификации экземпляра Конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Сессионидсек</strong></p></td>
+<td><p><strong>сессионидсек</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации экземпляра Конференции. *</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Конференцеуриид</strong></p></td>
+<td><p><strong>конференцеуриид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Другом</p></td>
 <td><p>Универсальный код ресурса (URI) Конференции. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-conferenceuris-table.md">таблицей конференцеурис в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Конфинстанце</strong></p></td>
+<td><p><strong>конфинстанце</strong></p></td>
 <td><p>идентификатора</p></td>
 <td><p> </p></td>
 <td><p>Полезен для повторяющихся конференций; Каждый экземпляр повторяющейся Конференции имеет один и тот же <strong>конференцеури</strong>, но у него будет другой <strong>конфинстанце</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Конференцестарттиме</strong></p></td>
+<td><p><strong>конференцестарттиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
 <td><p>Время начала Конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Конференцеендтиме</strong></p></td>
+<td><p><strong>конференцеендтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>
 <td><p>Время начала Конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Пулид</strong></p></td>
+<td><p><strong>пулид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Другом</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер для идентификации пула, в котором собрана конференция. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-pools-table.md">таблицей пулы в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Организерид</strong></p></td>
+<td><p><strong>организерид</strong></p></td>
 <td><p>Типом</p></td>
 <td><p>Другом</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер для идентификации универсального кода ресурса (URI) организатора данной Конференции. Дополнительные сведения <a href="lync-server-2013-users-table.md">можно найти в таблице Users (пользователи) в Lync Server 2013</a> .</p></td>

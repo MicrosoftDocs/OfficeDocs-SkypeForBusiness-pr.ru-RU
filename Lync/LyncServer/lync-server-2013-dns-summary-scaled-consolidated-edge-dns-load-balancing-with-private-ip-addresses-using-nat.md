@@ -3,6 +3,8 @@ title: 'Lync Server 2013: сводка по DNS — масштабируемая
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398201(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476f258ddd70adad7f200db90b39438a19f4f84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a7836a8d9ce998a8de9185de7aeb12eb088f190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834367"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +84,7 @@ _**Тема последнего изменения:** 2012-09-08_
     
     Общедоступный IP-адрес Edge для доступа является основным шлюзом по умолчанию, установленным на интегрированный маршрутизатор (10.45.16.1).
     
-    Веб-конференции и частные IP-адреса Edge — это дополнительные IP-адреса в разделе " **Дополнительно** " свойств **протокола IP версии 4 (TCP/IPv4)** и **протокола IP версии 6 (TCP/IPv6)** **локальной зоны. Свойства подключения** в Windows Server.
+    Веб-конференции и частные IP-адреса Edge — это дополнительные IP-адреса в разделе " **Дополнительно** " свойств IP- **протоколов версии 4 (TCP/IPv4)** и IP- **протоколов версии 6 (TCP/IPv6)** для **подключений по локальной** сети в Windows Server.
 
   - **Сетевой адаптер 2, узел 2 (внешний интерфейс)**
     
@@ -90,7 +92,7 @@ _**Тема последнего изменения:** 2012-09-08_
     
     Общедоступный IP-адрес Edge для доступа является основным шлюзом по умолчанию, установленным на интегрированный маршрутизатор (10.45.16.1).
     
-    Веб-конференции и частные IP-адреса Edge — это дополнительные IP-адреса в разделе " **Дополнительно** " свойств **протокола IP версии 4 (TCP/IPv4)** и **протокола IP версии 6 (TCP/IPv6)** **локальной зоны. Свойства подключения** в Windows Server.
+    Веб-конференции и частные IP-адреса Edge — это дополнительные IP-адреса в разделе " **Дополнительно** " свойств IP- **протоколов версии 4 (TCP/IPv4)** и IP- **протоколов версии 6 (TCP/IPv6)** для **подключений по локальной** сети в Windows Server.
 
 <div>
 
@@ -226,7 +228,7 @@ _**Тема последнего изменения:** 2012-09-08_
 <tr class="odd">
 <td><p>Внешние DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Интерфейс службы Edge Access</p></td>
+<td><p>Интерфейс пограничной службы доступа</p></td>
 <td><p>Внешний интерфейс Access Edge (Contoso) повторяется по мере необходимости для всех доменов SIP с пользователями, поддерживающими Lync.</p></td>
 </tr>
 </tbody>
