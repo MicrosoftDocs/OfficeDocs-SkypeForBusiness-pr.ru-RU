@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Настройка кластеризации SQL Serv
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SQL Server clustering
 ms:assetid: d7b52ef1-573c-48ed-bb94-34e37b49645c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 279c6581d0a56193c094c3dd7b9638fd74e2e60c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b63d338e630da93c90b573ac098d47e0929f0d84
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841336"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Microsoft Lync Server 2013 поддерживает кластеризацию �
 
 ## <a name="to-create-databases-using-topology-builder"></a>Создание баз данных с помощью построителя топологии
 
-1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.
+1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку **Построитель топологии Lync Server**.
     
     <div>
     
