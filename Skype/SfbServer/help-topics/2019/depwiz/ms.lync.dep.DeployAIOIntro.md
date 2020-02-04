@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployAIOIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку сервера Skype для Business Server Standard Edition, который будет храниться в хранилище Центрального управления и других размещенных служб, вы должны войти в систему под учетной записью пользователя, который является членом локальной группы администраторов на сервере, который станет сервер Standard Edition. На странице Подготовка сервера Standard Edition вы заданные требования для начальной установки. Компьютер должен входить в домен, в котором вы собираетесь развернуть, и вы должны успешно завершить работу схемы, леса и домена для леса.
-ms.openlocfilehash: 93f10f486a7d7541fe28cf5ce03a4e642afa2d0b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e1d9119e07a813476fddf39ee46e43bc686cab45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275682"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692234"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Подготовка отдельного сервера Standard Edition (введение)
  

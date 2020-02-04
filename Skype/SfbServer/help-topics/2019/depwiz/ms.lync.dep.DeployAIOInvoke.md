@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Выполнение команд задачи по установке SQL Server Express и настройке для работы в качестве хранилища центрального управления можно просмотреть в области задач. По умолчанию создается экземпляр базы данных на основе SQL Server с именем RTC. Кроме того, создаются правила брандмауэра, разрешающие входящему и исходящий доступ к базам данных и экземпляру серверов и клиентов. После завершения задачи вы можете выбрать файл журнала из раскрывающегося списка. Файл журнала называется "локальный компьютер для начальной загрузки". Выбрав файл журнала, нажмите кнопку Просмотреть журнал. Проверьте файл журнала на наличие ошибок и предупреждений. Когда вы будете готовы продолжить, нажмите кнопку Готово. Теперь вы можете определить топологию с помощью построителя топологии, если это еще не сделано.
-ms.openlocfilehash: 59118511ef8631e06214c9262e64c95125182963
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 900ef91184a13c67676cfd89a40694ce9fb6224a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275711"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705894"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Подготовка отдельного сервера Standard Edition (вызов)
  

@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице "имя и параметры безопасности" можно задать понятное имя, раскрывающийся список для длины битов закрытого и открытого ключа, а также флажок, который позволяет помечать закрытый ключ сертификата как экспортируемый.
-ms.openlocfilehash: 4759b550c8e6aaa0c09b0ef44a6547ae3722a082
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1945089d8f58297476c98228fa2cff68e88c24f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273775"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705714"
 ---
 # <a name="certificate-request-basic"></a>Запрос сертификата (основные сведения)
  
-На странице " **имя и параметры безопасности** " можно задать **понятное имя**, раскрывающийся список для **длины битов** закрытого и открытого ключа, а также флажок, который позволяет **помечать закрытый ключ сертификата как экспортировать**.
+На странице " **имя и параметры безопасности** " можно задать **понятное имя**, раскрывающийся список для **длины битов** закрытого и открытого ключа, а также флажок, который позволяет **помечать закрытый ключ сертификата как экспортируемый**.
   
 Понятное, или простое, имя в сертификате используется для того, чтобы тому, кто просматривает сертификат, было проще его опознать.
   

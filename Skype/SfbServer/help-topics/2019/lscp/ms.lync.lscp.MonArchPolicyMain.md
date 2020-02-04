@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Политики архивации используются для включения и отключения архивации для пользователей, размещенных в Skype для бизнеса Server. В каждой политике архивирования можно включить или отключить архивирование для следующих параметров:'
-ms.openlocfilehash: bdeb7925256e47ac61d0210e1be36e28dbdfc0d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d1001a972b185fd8e36596798bc23e36a6ca3a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291945"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704794"
 ---
 # <a name="archiving-policy"></a>Политика архивирования
  
@@ -66,5 +66,5 @@ ms.locfileid: "34291945"
     
 - **Обновить** Вы можете обновить страницу " **Политика архивации** ", чтобы проверить состояние параметров всех политик архивации.
     
-Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, приведены [в разделе Планирование архивации в Skype для бизнеса](../../../plan-your-deployment/archiving/archiving.md)Server, [развертывание архивации в Skype для бизнеса Server](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для бизнеса Server (сервер](../../../manage/archiving/archiving.md)).
+Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, можно найти [в разделе Планирование архивации в Skype для бизнеса](../../../plan-your-deployment/archiving/archiving.md)Server, [развертывание архивации в Skype для бизнеса Server](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для](../../../manage/archiving/archiving.md)бизнеса Server.
 

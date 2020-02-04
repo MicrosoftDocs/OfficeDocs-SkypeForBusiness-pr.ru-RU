@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице состояния запроса онлайнового сертификата отображаются важные сведения, полученные в результате успешного создания и выпуска запроса на онлайновый сертификат. На этой странице представлена отпечаток сертификата, который однозначно определяет сертификат. По умолчанию этот флажок назначает этот сертификат для использования сертификата Skype для Business Server. После нажатия кнопки "Готово" сертификат будет автоматически назначаться в Skype для бизнеса Server для целей, определенных в ходе создания запроса сертификата. По умолчанию для назначения сертификата используются следующие назначения:'
-ms.openlocfilehash: 02d114ff55360f3e88a866485759510ce5f107c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0afc23baacc3430edaf1868e9fbe22e2e04455d7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278023"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705614"
 ---
 # <a name="certificate-request-returned"></a>Запрос сертификата (возврат)
  

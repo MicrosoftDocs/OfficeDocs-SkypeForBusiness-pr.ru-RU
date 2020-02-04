@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку нового сервера роли Skype для бизнеса Server, необходимо сначала установить локальный SQL Server, на котором будет размещено локальное хранилище конфигураций. Локальное хранилище конфигураций будет использоваться как реплика, предназначенная только для чтения, для хранилища серверов централизованного управления (CMS) Skype для бизнеса Server.
-ms.openlocfilehash: 699294889008f0d353e1ba727cbc078f9616f4ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51343bc68415d5c3a9b99b0697285f2e5c30d557
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303406"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705461"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
 

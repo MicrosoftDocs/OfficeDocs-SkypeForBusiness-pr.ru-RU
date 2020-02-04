@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployAssignedCertList
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
 description: На странице Просмотр сертификата есть область, с помощью которой можно выбрать любой действительный сертификат в локальном хранилище сертификатов. Вы можете выбрать сертификат и нажать кнопку Просмотреть сведения о сертификате. Сертификат будет отображаться в новой области. В области "сертификат" можно просмотреть общие сведения о сертификате. Откройте вкладку сведения, чтобы отобразить подробные сведения о сертификате, например имя субъекта и альтернативное имя субъекта. В пути сертификации будет отображен путь к сечаин трустфор сертификата. Когда вы закончите просмотр сведений о сертификате, нажмите кнопку ОК.
-ms.openlocfilehash: a53346651e925c488b1df500e859d5aa47ef95e6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a2d86e60dfe29ad905184a84e15b27846041ec8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275634"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692214"
 ---
 # <a name="view-certificate"></a>Просмотр сертификата
  

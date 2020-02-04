@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployForestPrepGroupDomain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать, где необходимо создать универсальные группы в лесу. На странице универсального расположения групп используется домен, в котором компьютер, на который вы вошли, является членом по умолчанию. Если вы хотите создать универсальные группы в домене, отличном от локального домена по умолчанию, выберите полное доменное имя домена и введите в текстовом поле полные имена доменов (FQDN). Предоставление альтернативного домена удобно при запуске задачи подготовки леса из домена, отличного от того, где вы хотите создать универсальные группы. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: 2416686172620933bb7c69d6140ff181e903a444
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc4889179f445085b7044a0d0828fdc957e00bf1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276381"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691884"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Подготовка текущего леса (местонахождение универсальной группы)
  

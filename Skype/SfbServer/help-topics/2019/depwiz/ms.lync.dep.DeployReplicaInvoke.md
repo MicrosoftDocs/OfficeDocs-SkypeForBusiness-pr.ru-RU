@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployReplicaInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: В области выполнение команд отображается состояние задач для установки локальной реплики, доступной только для чтения, в хранилище Центрального управления. При выполнении задач область задач обновляется по мере выполнения команд. Вы должны просмотреть состояние задачи и отметить все отображаемые ошибки или предупреждения. После того как задачи будут выполнены, отобразится состояние задачи сообщения, а в раскрывающемся списке для файлов журнала — имена файлов журнала. Чтобы просмотреть созданные файлы журнала, выберите файл журнала для просмотра и щелкните Просмотреть журнал. Проверьте все файлы журнала на предмет успешности, ошибок и предупреждающих сообщений.
-ms.openlocfilehash: e9d6c8567853eac167a6407a02f42297d2065986
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c498270e06994c4d497e461443778edd2f1315cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278009"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691694"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Установка локального хранилища конфигурации (вызов)
  

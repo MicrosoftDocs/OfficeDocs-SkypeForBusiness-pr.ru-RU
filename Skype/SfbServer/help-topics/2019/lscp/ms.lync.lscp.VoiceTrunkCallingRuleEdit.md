@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Вы можете использовать новую конфигурацию магистрали: новое правило перевода номера звонка для создания нового правила трансляции. Дополнительные сведения о правилах преобразования см. в следующих разделах:'
-ms.openlocfilehash: 87247e641826615f030f1204dac83bb678cd4d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95e96825d4fa81839dac44d0f644ae8694c8d62c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290887"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703834"
 ---
 # <a name="new-calling-number-translation-rule"></a>Новое правило преобразования вызывающего номера
 
