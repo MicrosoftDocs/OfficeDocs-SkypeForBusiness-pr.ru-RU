@@ -3,6 +3,8 @@ title: Управление конфигурацией службы ведени
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c18e57b81daf93139493d046b8b2124e04e767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ _**Тема последнего изменения:** 2014-02-04_
 
 При выполнении командлета **Get-CsClsConfiguration** отображаются сведения, подобные показанным на следующем снимке экрана. В этом примере в развертывании имеется глобальная конфигурация по умолчанию, а конфигурации сайтов не определены:
 
-![Пример выходных данных из Get-ксклсконфигуратион.] (images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Пример выходных данных из Get-ксклсконфигуратион.")
+![Выход выборки из Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Выход выборки из Get-CsClsConfiguration.")
 
 </div>
 

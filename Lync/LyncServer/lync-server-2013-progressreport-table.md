@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица ProgressReport'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ProgressReport table
 ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425864(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa8ca0341cd5b85418ef5f71234870ae4171af27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e1cb7c8e764097af96981220ee74d481b379341
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823723"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,32 +59,32 @@ _**Тема последнего изменения:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Еррортиме</strong></p></td>
+<td><p><strong>еррортиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Основной, внешний</p></td>
 <td><p>Дата и время отчета об ошибках хода выполнения, который включает этот отчет о ходе выполнения. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-errorreport-table.md">таблицей ерроррепорт в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Еррорид</strong></p></td>
+<td><p><strong>еррорид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Основной, внешний</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер, используемый в сочетании с Еррортиме, Прогрессрепортсек для уникальной идентификации отчета о ходе выполнения. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-errorreport-table.md">таблицей ерроррепорт в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ерроррепортсек</strong></p></td>
+<td><p><strong>ерроррепортсек</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Основной, внешний</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер, идентифицирующий отчет об ошибке. Ерроррепорсек используется в сочетании с Еррортиме для уникальной идентификации отчета об ошибке. Дополнительные сведения приведены <a href="lync-server-2013-errorreport-table.md">в таблице ерроррепорт в Lync Server 2013</a></p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Прогрессрепортсек</strong></p></td>
+<td><p><strong>прогрессрепортсек</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер для идентификации отчета о ходе выполнения. Используется совместно с Еррортиме и Ерроррепортсек для уникальной идентификации отчета о ходе выполнения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Мсдиагид</strong></p></td>
+<td><p><strong>мсдиагид</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>Идентификатор диагностики отчета о ходе выполнения.</p>
@@ -108,14 +110,14 @@ _**Тема последнего изменения:** 2012-09-28_
 <p>Cast (CAST (данные в формате varbinary (max)) AS varchar (max))</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Телеметрид</strong></p></td>
+<td><p><strong>телеметрид</strong></p></td>
 <td><p>Идентификатора</p></td>
 <td></td>
 <td><p>Уникальный идентификатор, который соответствует сведениям о времени соединения для различных компонентов, участвующих в Конференции.</p>
 <p>Это поле было введено в Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Сессионсетуптиме</strong></p></td>
+<td><p><strong>сессионсетуптиме</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>Время (в миллисекундах), в течение которого конкретный компонент присоединяется к Конференции.</p>

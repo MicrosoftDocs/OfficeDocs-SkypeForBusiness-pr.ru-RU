@@ -3,6 +3,8 @@ title: 'Lync Server 2013: настройка федерации в Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849701"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -91,13 +93,13 @@ _**Тема последнего изменения:** 2014-03-27_
     <th>Тип Федерации</th>
     <th>DNS-записи</th>
     <th>Определение политики</th>
-    <th>Примечания</th>
+    <th>Notes</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
     <td><p>Обнаружен домен партнера</p></td>
-    <td><p>Настройте запись SRV для формата _сипфедератионтлс. _tcp. &lt;имя&gt;внешнего домена, где значение порта для записи SRV — TCP 5061, а узел, предлагающий <strong>эту службу</strong> , определен как SIP. &lt;внешнее имя&gt; домена — FQDN службы Edge Access. Дополнительные сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки EDGE в Lync Server 2013</a> .</p></td>
+    <td><p>Настройте запись SRV для формата _sipfederationtls. _tcp. имя внешнего домена, где значение порта для записи SRV — TCP 5061, а <strong>узел, предлагающий эту службу</strong> , определен как SIP.&gt; &lt; &lt;внешнее имя&gt; домена — FQDN службы Edge Access. Дополнительные сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки EDGE в Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Включение или отключение федерации и подключение для общедоступного обмена мгновенными сообщениями в Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Включение или отключение обнаружения федеративных партнеров в Lync Server 2013</a></p></li>
@@ -106,7 +108,7 @@ _**Тема последнего изменения:** 2014-03-27_
     </tr>
     <tr class="even">
     <td><p>Разрешенный домен партнера</p></td>
-    <td><p>Настройте запись SRV для формата _сипфедератионтлс. _tcp. &lt;имя&gt;внешнего домена, где значение порта для записи SRV — TCP 5061, а узел, предлагающий <strong>эту службу</strong> , определен как SIP. &lt;внешнее имя&gt; домена — FQDN службы Edge Access. Дополнительные сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки EDGE в Lync Server 2013</a> .</p></td>
+    <td><p>Настройте запись SRV для формата _sipfederationtls. _tcp. имя внешнего домена, где значение порта для записи SRV — TCP 5061, а <strong>узел, предлагающий эту службу</strong> , определен как SIP.&gt; &lt; &lt;внешнее имя&gt; домена — FQDN службы Edge Access. Дополнительные сведения о создании записи SRV см. <a href="lync-server-2013-configure-dns-for-edge-support.md">в разделе Настройка DNS для поддержки EDGE в Lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Включение или отключение федерации и подключение для общедоступного обмена мгновенными сообщениями в Lync Server 2013</a></p></li>
     </ul></td>

@@ -3,6 +3,8 @@ title: Эталонная топология Lync Server 2013 для малых 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for small organizations
 ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e0171d9678d5d890cf4ecb81f6de25f9b558b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823814"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,9 +41,9 @@ _**Тема последнего изменения:** 2013-10-07_
 
 **Эталонная топология для небольших организаций**
 
-![Топология ссылок, развертывающая три схемы серверов] (images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Топология ссылок, развертывающая три схемы серверов")
+![Схема эталонной топологии с развертыванием трех серверов](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Схема эталонной топологии с развертыванием трех серверов")
 
-  - **Для пары серверов стандартных выпусков,**     развернутых в этой Организации, у вас 4 000 пользователей на своем центральном сайте. Для обеспечения высокого уровня доступности и аварийного восстановления Организация развернула два сервера стандартных выпусков Standard и пару их вместе. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Дополнительные сведения о возможностях высокой доступности и аварийного восстановления в Lync Server 2013 можно найти [в разделе Планирование обеспечения высокой доступности и аварийного восстановления в Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Для пары серверов стандартных выпусков, развернутых**     в этой Организации, у вас 4 000 пользователей на своем центральном сайте. Для обеспечения высокого уровня доступности и аварийного восстановления Организация развернула два сервера стандартных выпусков Standard и пару их вместе. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Дополнительные сведения о возможностях высокой доступности и аварийного восстановления в Lync Server 2013 можно найти [в разделе Планирование обеспечения высокой доступности и аварийного восстановления в Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
   - **Рекомендуется развертывание пограничного сервера.**    Несмотря на то, что развертывание пограничного сервера не требуется для внутренних мгновенных сообщений, присутствия и конференций, рекомендуется даже для небольших развертываний. Вы можете максимально увеличить инвестиции на Lync Server, развертывая пограничный сервер, чтобы обеспечить обслуживание пользователей, находящихся за пределами брандмауэров вашей организации. Вам будут доступны следующие преимущества:
     

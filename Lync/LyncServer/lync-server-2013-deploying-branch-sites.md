@@ -3,6 +3,8 @@ title: 'Lync Server 2013: развертывание сайтов филиало
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying branch sites
 ms:assetid: 1475dee0-66ae-4ee5-b6f1-7409b4bbff45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398217(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c96a8c99b6f80e7e70f3129e502d33b93a73f42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834560"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ _**Тема последнего изменения:** 2012-09-21_
 
 Сайты филиалов с бесперебойно работающими управляющими системами или работающими серверами филиалов более устойчивы во время многофакторной сети или сбоя центрального сайта, чем для сайтов филиалов без одного из этих решений. Например, на сайте с бесперебойно работающим управляющим устройством филиала или развернутом работающем сервере филиала пользователи по-прежнему могут совершать и принимать звонки PSTN, если сеть, соединяющая сайт ветви с центральным сайтом, не работает. Кроме того, вы можете достичь устойчивости сайта с помощью шлюза PSTN или магистральной магистрали SIP с полным развертыванием Lync Server на сайте филиала.
 
-Сведения о том, какое развертывание сайтов филиалов подходит для вашей организации, в том числе необходимые требования и другие соображения по планированию, приведены в разделе [Планирование подключений PSTN в Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) и [Планирование обеспечения устойчивости голоса для филиалов в Lync Сервер 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) в документации по планированию.
+Сведения о том, какое развертывание сайтов филиалов подходит для вашей организации, в том числе о предварительных требованиях и других вопросах планирования, приведены в разделе [Планирование подключений PSTN в Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) и [Планирование обеспечения устойчивости голоса на филиалах в Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) в документации по планированию.
 
 <div>
 

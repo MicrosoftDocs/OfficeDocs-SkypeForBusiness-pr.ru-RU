@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица ClientVersions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ClientVersions table
 ms:assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398356(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cba578209ca6c22360da73c2317334ecf77da569
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 857db525a61f478073d72a011d86ab34eff36d71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841554"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**Тема последнего изменения:** 2012-09-28_
 <td><p>Название версии.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Клиенттипе</strong></p></td>
+<td><p><strong>клиенттипе</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>Указывает тип клиента, используемого в сеансе. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-useragentdef-table.md">таблицей усеражентдеф в Lync Server 2013</a> .</p>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Пуржесеттингс'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PurgeSettings table
 ms:assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18b9fc0aa03596677cb73641ed46e86ea133f308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56ea95d0ba54a34eaa315ff345efb45cd563700c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823772"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747029"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ _**Тема последнего изменения:** 2012-09-28_
 <td><p>Уникальный идентификатор коллекции параметров очистки CDR.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Енаблепурже</strong></p></td>
+<td><p><strong>енаблепурже</strong></p></td>
 <td><p>бит</p></td>
 <td></td>
 <td><p>Если установлено значение true (1), Microsoft Lync Server 2013 будет периодически очищать устаревшие записи из базы данных CDR. Очистка будет выполняться каждый день в томе, указанном в параметре Пуржехаур. Если для этого свойства задано значение false (0), записи не будут автоматически удалены из базы данных. По умолчанию используется значение True.</p></td>
@@ -85,7 +87,7 @@ _**Тема последнего изменения:** 2012-09-28_
 <td><p>Указывает возраст записей отчета об ошибках (в днях), которые будут очищены из базы данных: Если включена очистка, записи отчета об ошибках старше этого значения будут удалены из базы данных. Значение по умолчанию — 60 дней.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Пуржехаур</strong></p></td>
+<td><p><strong>пуржехаур</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>Указывает местное время суток, когда будет выполняться очистка базы данных. Время суток задается в 24-часовом формате (0 соответствует полуночи (00:00), а 23 — 23:00 часам вечера). Обратите внимание, что вы можете указать только час дня: значение 10 (указывает на 10:00 AM) разрешено, но значение 10:30 от 10,5 (это означает 10:30 AM) не разрешено. Значение по умолчанию — 2 часа утра (02:00).</p></td>

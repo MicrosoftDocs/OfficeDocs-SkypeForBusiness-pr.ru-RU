@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Установка сервера исправлени
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60274ced1bf72a17b4c05b4908f60bde32323f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c84d5fc2c863e0e56af275a4bee084652742eeac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**Тема последнего изменения:** 2012-08-06_
 
 
 > [!NOTE]  
-> В этой статье предполагается, что вы уже определили и опубликовали пул серверов с изолированными исправлениями, как описано в разделе <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Определение сервера-посредника в построителе топологии в Lync server 2013</A> и <A href="lync-server-2013-publish-the-topology.md">Публикация топологии в Lync Server 2013</A> в развертывании и убедитесь, что компьютеры в составе пула сервера ресурсов соответствуют требованиям, описанным в разделе <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">требования к программному обеспечению для корпоративных голосовых документов в Lync Server 2013</A> и <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">требования к безопасности и конфигурации для Корпоративная голосовая связь в Lync Server 2013</A>.
+> В этой статье предполагается, что вы уже определили и опубликовали пул серверов с изолированными исправлениями, как описано в разделе <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Определение сервера-посредника в построителе топологии в Lync server 2013</A> и <A href="lync-server-2013-publish-the-topology.md">публикации топологии в Lync Server 2013</A> в документации по развертыванию, и убедитесь, что компьютеры в составе пула сервера исправлений соответствуют требованиям, описанным в разделе <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">требования к программному обеспечению для корпоративной 2013 голосовой</A> <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md"> Голосовая связь в Lync Server 2013</A>.
 
 
 
@@ -79,9 +81,9 @@ _**Тема последнего изменения:** 2012-08-06_
 
 12. После успешного завершения **шага 4** перезапустите сервер и войдите на него как участник группы DomainAdmins.
 
-13. На компьютере, на котором работает панель управления Lync Server, проверьте на странице **Topology** (топология) панели управления Lync Server, что состояние службы сервера-посредника отображается как зеленая галочка. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**.
+13. На компьютере, на котором работает панель управления Lync Server, проверьте на странице **Topology (топология** ) панели управления Lync Server, что состояние службы сервера-посредника отображается как зеленая галочка. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**.
 
-Если вы добавили несколько компьютеров к группе "сервер исправлений", выполните действия, описанные в этой процедуре, на всех остальных компьютерах в пуле сервера исправлений. Если вы не хотите устанавливать файлы для сервера исправлений на другие компьютеры, выполните действия, описанные в разделе [Настройка каналов в Lync Server 2013](lync-server-2013-configuring-trunks.md) , чтобы настроить параметры подключения по каналу магистрали между этим пулом сервера исправлений (или всеми исправлениями). Серверы на сайте) и его одноранговый элемент.
+Если вы добавили несколько компьютеров к группе "сервер исправлений", выполните действия, описанные в этой процедуре, на всех остальных компьютерах в пуле сервера исправлений. Если вы не хотите устанавливать файлы для сервера исправлений на другие компьютеры, выполните действия, описанные в разделе [Настройка каналов в Lync Server 2013](lync-server-2013-configuring-trunks.md) , чтобы настроить параметры для подключения по каналу магистрали между этим пулом сервера исправлений (или всеми серверами исправлений на сайте) и его одноранговым узлом.
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: изменения, внесенные с помощь
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by domain preparation
 ms:assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398742(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b674e2c3d65aeda22838dca08ac5b016fa83359
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841611"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730109"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,15 +65,15 @@ _**Тема последнего изменения:** 2010-10-18_
 <tbody>
 <tr class="odd">
 <td><p>Прочитать контейнер (не наследуется)</p></td>
-<td><p><strong>Да</strong></p></td>
 <td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="even">
 <td><p>Чтение пользовательских свойств в пользовательском интерфейсе — ограничения для учетных записей</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
@@ -79,7 +81,7 @@ _**Тема последнего изменения:** 2010-10-18_
 </tr>
 <tr class="odd">
 <td><p>Чтение личных сведений о пользовательском свойстве</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
@@ -87,7 +89,7 @@ _**Тема последнего изменения:** 2010-10-18_
 </tr>
 <tr class="even">
 <td><p>Чтение общих сведений о пользовательском свойстве</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
@@ -95,7 +97,7 @@ _**Тема последнего изменения:** 2010-10-18_
 </tr>
 <tr class="odd">
 <td><p>Чтение общедоступной информации о пользовательском свойстве</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
@@ -103,7 +105,7 @@ _**Тема последнего изменения:** 2010-10-18_
 </tr>
 <tr class="even">
 <td><p>Чтение Рткусерсеарчпроперти-Set для пользовательского свойства</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
@@ -111,7 +113,7 @@ _**Тема последнего изменения:** 2010-10-18_
 </tr>
 <tr class="odd">
 <td><p>Чтение Рткпропертисет свойств пользователя</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
@@ -121,7 +123,7 @@ _**Тема последнего изменения:** 2010-10-18_
 <td><p>Написание прокси-сервера свойств пользователя — адреса</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 </tr>
@@ -129,7 +131,7 @@ _**Тема последнего изменения:** 2010-10-18_
 <td><p>Запись пользовательского свойства Рткусерсеарчпроперти-Set</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 </tr>
@@ -137,7 +139,7 @@ _**Тема последнего изменения:** 2010-10-18_
 <td><p>Написание пользовательского свойства Рткпропертисет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 </tr>
@@ -146,7 +148,7 @@ _**Тема последнего изменения:** 2010-10-18_
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
-<td><p><strong>Кнопки</strong></p></td>
+<td><p><strong>Да</strong></p></td>
 <td><p>Нет</p></td>
 </tr>
 </tbody>
@@ -173,7 +175,7 @@ _**Тема последнего изменения:** 2010-10-18_
 <tbody>
 <tr class="odd">
 <td><p>Прочитать контейнер (не наследуется)</p></td>
-<td><p><strong>Да</strong></p></td>
+<td><p><strong>Кнопки</strong></p></td>
 <td><p><strong>Да</strong></p></td>
 </tr>
 </tbody>

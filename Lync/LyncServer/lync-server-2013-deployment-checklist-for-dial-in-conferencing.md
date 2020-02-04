@@ -3,6 +3,8 @@ title: 'Lync Server 2013: контрольный список развертыв
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for dial-in conferencing
 ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412726(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44591676d69b5fb4ac3d66ce0e18718389a0c189
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edf496dcb24c021246bfbb6e7a5ef7b3a3a5acc1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834520"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -200,7 +202,7 @@ _**Тема последнего изменения:** 2014-10-03_
 <td><p>Настройка каталогов конференций (рекомендуется)</p></td>
 <td><p>Командлет <strong>New-CsConferenceDirectory</strong> используется для создания одного каталога конференции для каждых 999 пользователей в пуле.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Требования к конференц-связи с телефонным подключением в Lync Server 2013</a> <a href="recommended-create-conference-directories.md">(Рекомендуется) создание каталогов конференций</a></p></td>
+<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Требования к конференц-связи с телефонным подключением в Lync Server 2013</a> <a href="recommended-create-conference-directories.md">(рекомендуется) создание каталогов конференций</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Приглашение пользователей принять участие в конференц-связи с телефонным подключением и установка начальных ПИН-кодов (необязательно)</strong></p></td>

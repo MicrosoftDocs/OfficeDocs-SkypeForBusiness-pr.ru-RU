@@ -3,6 +3,8 @@ title: 'Lync Server 2013: отчет списка обзвона группы о
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response Group Call List Report
 ms:assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615443(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf2c45167b5e5c437a3ff755115aa54d34c74a87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 94c06e2029ca1a22a0a9f73249cff3251e2fcbc2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ _**Тема последнего изменения:** 2013-02-22_
 
 3.  Выполните анализ с помощью Windows PowerShell.
 
-Например, если вы сохранили данные в файл\\с именем C: Group\\\_\_Data Response\_List\_. csv, вы можете использовать следующую команду, чтобы вернуть общее количество полученных звонков для каждого рабочего процесса. в отчете указаны следующие данные:
+Например, если вы сохранили данные в файл с названием C:\\список обзвона для\_\_\\\_групповых\_звонков Data List. csv, вы можете использовать следующую команду, чтобы вернуть общее количество полученных звонков для каждого рабочего процесса, указанного в отчете.
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending

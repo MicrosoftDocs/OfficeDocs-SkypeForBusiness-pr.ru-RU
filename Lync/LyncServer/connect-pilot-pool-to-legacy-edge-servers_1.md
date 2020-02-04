@@ -3,6 +3,8 @@ title: Подключение пилотного пула к старым пог
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841838"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ _**Тема последнего изменения:** 2012-10-02_
 
 4.  В разделе **назначение маршрута Федерации сайтов**выберите **включить федерацию SIP**, а затем выберите Office Communications Server 2007 R2 или пограничный сервер Office Communications Server 2007 R2, если в списке нет режиссера.
     
-    ![Диалоговое окно "изменение свойств", страница "маршрут Федерации] " (images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Диалоговое окно \"изменение свойств\", страница \"маршрут Федерации") "  
+    ![Диалоговое окно "изменение свойств", страница "маршрут Федерации"](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Диалоговое окно "изменение свойств", страница "маршрут Федерации"")  
 
 5.  Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** .
 
@@ -61,7 +63,7 @@ _**Тема последнего изменения:** 2012-10-02_
 
 8.  В списке выберите интерфейс пограничного сервера для Бакккомпатсите.
     
-    ![Диалоговое окно "изменение свойств", страница "Общие] " (images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Диалоговое окно \"изменение свойств\", страница \"Общие") "  
+    ![Диалоговое окно "изменение свойств", страница "Общие"](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Диалоговое окно "изменение свойств", страница "Общие"")  
 
 9.  Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** .
 

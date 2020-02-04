@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server table
 ms:assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398801(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363c07a6ab3be8f5acdf0286a4223f96a8bd3700
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822008"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,13 +57,13 @@ _**Тема последнего изменения:** 2012-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Серверкэй</strong></p></td>
+<td><p><strong>серверкэй</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий сервер.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Фкднорип</strong></p></td>
+<td><p><strong>фкднорип</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>индекса</p></td>
 <td><p>Строка MAC-адреса.</p></td>
@@ -74,13 +76,13 @@ _**Тема последнего изменения:** 2012-10-02_
 <p>2: Server16394 конференции/V-service32769: шлюз</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Пулнаме</strong></p></td>
+<td><p><strong>пулнаме</strong></p></td>
 <td><p>nvarchar (512)</p></td>
 <td></td>
 <td><p>Группа, к которой принадлежит сервер. Применимо только для сервера конференц-связи A/V.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Некступдатетс</strong></p></td>
+<td><p><strong>некступдатетс</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
 <td><p>Только для внутреннего использования.</p></td>

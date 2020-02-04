@@ -3,6 +3,8 @@ title: 'Lync Server 2013: обеспечение подключения ТСОП
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing PSTN connectivity at a branch site
 ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823625"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Тема последнего изменения:** 2012-10-05_
 
 Рекомендуем использовать средство Microsoft Lync Server 2013, планирование для добавления сайтов филиалов в топологию и настройки вашей голосовой инфраструктуры на сайтах филиалов.
 
-Если вы не используете средство планирования, выполните действия, описанные в подразделах этого раздела, чтобы добавить сайты филиалов, а затем настроить свою инфраструктуру голосовой связи, указав шлюз IP/коммутируемой телефонной сети (PSTN) и/или настроив SIP магистраль (с пропуском или без обобщения мультимедиа). Подключение к сайту филиала может быть еще одним вариантом.
+Если вы не используете средство планирования, выполните действия, описанные в разделах в этом разделе, чтобы добавить сайты филиалов, а затем — для настройки своей инфраструктуры, определив шлюз IP/коммутируемой телефонной сети (PSTN) и/или настроив магистраль SIP (с обобщениям и без него). Подключение к сайту филиала может быть еще одним вариантом.
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: контрольный список развертыв
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for external user access
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c8831e8bd94040095fabd9fb335113b62b5287b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ad2ad90ab43402babdd10478e1d86cac2a38ddf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Microsoft Lync Server 2013 содержит инструменты для упр
 
 
 > [!WARNING]  
-> Сведения в следующей таблице посвящены новой развертыванию. Если вы развернули пограничные серверы в среде Lync Server 2010, Office Communications Server 2007 R2 или Office Communications Server 2007, ознакомьтесь <A href="migration.md"></A> со статьей сведения о переходе на Lync Server 2013. Миграция не поддерживается в версиях, предшествующих Office Communications Server 2007 R2, включая Office Communications Server 2007, сервер Live Communications Server 2005 и Live Communications Server 2003.
+> Сведения в следующей таблице посвящены новой развертыванию. Если вы развернули пограничные серверы в среде Lync Server 2010, Office Communications Server 2007 R2 или Office Communications Server 2007, ознакомьтесь <A href="migration.md">со статьей сведения о переходе</A> на Lync Server 2013. Миграция не поддерживается в версиях, предшествующих Office Communications Server 2007 R2, включая Office Communications Server 2007, сервер Live Communications Server 2005 и Live Communications Server 2003.
 
 
 

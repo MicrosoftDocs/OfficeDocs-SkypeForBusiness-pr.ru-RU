@@ -3,6 +3,8 @@ title: 'Lync Server 2013: журналы резервного копирован
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and restoration worksheets
 ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ca10b848dfa1f6cf53724b364cf53b1fc0fad90
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 390d6289daf8075c873e90319642f0e74b61d835
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730369"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ _**Тема последнего изменения:** 2013-02-18_
 <th>Средство резервного копирования базы данных</th>
 <th>Резервный наборы данных</th>
 <th>Место назначения резервной копии</th>
-<th>Примечания</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -174,7 +176,7 @@ _**Тема последнего изменения:** 2013-02-18_
 <th>Средство архивации файловой системы</th>
 <th>Вы хотите создать резервную копию файла *?</th>
 <th>Место назначения резервной копии</th>
-<th>Примечания</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
@@ -219,7 +221,7 @@ _**Тема последнего изменения:** 2013-02-18_
 <th>Средство резервного копирования</th>
 <th>Имя файла конфигурации (XML)</th>
 <th>Расположение резервной копии</th>
-<th>Примечания</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

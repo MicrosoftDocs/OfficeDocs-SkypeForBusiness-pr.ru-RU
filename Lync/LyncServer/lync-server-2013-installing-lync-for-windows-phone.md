@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Установка Lync для Windows Phone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Lync for Windows Phone
 ms:assetid: bf502546-ff69-489f-a92e-a78b58803d53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeb8f43ea4f4db15a9a057bd0d7b24c55d858cb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75e42f9fd2b954e943050fc9877706ae53a1143c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833981"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Lync 2013 для Windows Phone — это приложение, которое �
 
 1.  На устройстве с Windows Phone в параметрах Lync щелкните экран **Exchange** .
 
-2.  Переместить **сервер автоматически** . ****
+2.  Переместить **сервер автоматически** **.**
 
 3.  Коснитесь пустого поля и введите полное доменное имя (FQDN) для веб-служб Exchange.
     

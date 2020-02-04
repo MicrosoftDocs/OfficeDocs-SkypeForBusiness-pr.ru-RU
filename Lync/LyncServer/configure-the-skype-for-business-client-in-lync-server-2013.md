@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632eed40992bfcff53072d618313afe3501431be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e1aa407fbb1d7d8a006698d30545165352386b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233234"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ Lync Server 2013 поддерживает новый клиентский инт
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-Если вы хотите настроить взаимодействие с клиентами для конкретных пользователей в Организации, вы можете создать новую политику пользователей с помощью командлета **New-CsClientPolicy** , а затем назначить политику для определенных пользователей с помощью функции **Grant-CsClientPolicy** Командлет.
+Если вы хотите настроить взаимодействие с клиентами для конкретных пользователей в Организации, вы можете создать новую политику пользователей с помощью командлета **New-CsClientPolicy** , а затем назначить политику конкретным пользователям с помощью командлета **Grant-CsClientPolicy** .
 
 Например, следующая команда создает новую политику клиента, Салесклиентуи, которая выбирает взаимодействие с клиентом Skype для бизнеса.
 
@@ -102,7 +104,7 @@ Lync Server 2013 поддерживает новый клиентский инт
 
 2.  Обновите системный реестр на компьютере пользователя. Это необходимо сделать до первого запуска клиента Skype для бизнеса. Действие выполняется всего один раз. Сведения о создании объекта групповой политики для обновления реестра на присоединенном к домену компьютере см. далее в этом разделе.
     
-    В разделе ** \[файл\_hKey\_приложения\\\\Microsoft\\Office\\\] Lync для текущего пользователя** создайте новый **двоичный** параметр.
+    В разделе ** \[файл\_hKey\_приложения\\\\Microsoft\\\\Office\] Lync для текущего пользователя** создайте новый **двоичный** параметр.
     
     **Имя значения** должно быть **EnableSkypeUI**. Для **данных значения** задайте **00 00 00 00**.
     
@@ -174,7 +176,7 @@ Lync Server 2013 поддерживает новый клиентский инт
 </tr>
 <tr class="even">
 <td><p>Skype для бизнеса Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
 <tr class="odd">
@@ -189,7 +191,7 @@ Lync Server 2013 поддерживает новый клиентский инт
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
 <tr class="even">
@@ -227,7 +229,7 @@ Lync Server 2013 поддерживает новый клиентский инт
 <tbody>
 <tr class="odd">
 <td><p>Skype для бизнеса Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 <td><p>Пользователь попросят перейти на Skype для бизнеса</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>
@@ -239,7 +241,7 @@ Lync Server 2013 поддерживает новый клиентский инт
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 или Lync Server 2013 (с правильными исправлениями)</p></td>
-<td><p>True</p></td>
+<td><p>Верно</p></td>
 <td><p>Пользователь попросят перейти на Skype для бизнеса</p></td>
 <td><p>Skype для бизнеса</p></td>
 </tr>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Servers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Servers table
 ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398223(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a360a9fbffed50747b695ec3f517ffc4002cc9cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce2bfcda6abe5ae60c5cd936f99f1adb80fd1eee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822015"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,13 +57,13 @@ _**Тема последнего изменения:** 2010-11-05_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Серверид</strong></p></td>
+<td><p><strong>серверид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этот сервер.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Серверфкдн</strong></p></td>
+<td><p><strong>серверфкдн</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
 <td><p>Полное доменное имя сервера.</p></td>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: развертывание сервера сохран
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a730057735f187dc5e5080d532515a4eb9db110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740869"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Lync Server 2013, сервер сохраняемого чата входит в
 
 Используйте построитель топологии, чтобы добавить сохраняемый сервер чата в развертывание Lync Server 2013. Вы можете добавить один или несколько пулов серверов для постоянного чата с помощью Topology Builder. Следуйте тем же инструкциям по развертыванию, чтобы развернуть несколько пулов серверов сохраняемого чата, как и в случае с пулом. Подробные сведения можно найти в разделе [развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) в документации по развертыванию.
 
-Сведения о доступных топологиях, требованиях к техническим и программному обеспечению для установки постоянного сервера чата приведены в разделе [планирование сохраняемого сервера чата в Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) в документации по планированию, [как работает сервер сохраняемого чата. в SharePoint Server 2013](lync-server-2013-how-persistent-chat-server-works.md) в документации по планированию, документации по развертыванию, документации по операциям и [поддерживаемому оборудованию для Lync Server 2013](lync-server-2013-supported-hardware.md) в документации по поддержке.
+Сведения о доступных топологиях, требованиях к техническим и программному обеспечению для установки постоянного сервера чата, приведены в разделе [планирование сохраняемого сервера чата в Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) в документации по планированию, [как сервер сохраняемого чата используется в Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) в документации по планированию, документации по развертыванию, документации по операциям и [поддерживаемому оборудованию для Lync Server 2013](lync-server-2013-supported-hardware.md) в документации по поддержке.
 
 Подробные сведения о получении сертификатов, создании базы данных SQL Server и создании хранилищ файлов можно найти в разделе [развертывание Lync Server 2013](lync-server-2013-deploying-lync-server.md) в документации по развертыванию.
 

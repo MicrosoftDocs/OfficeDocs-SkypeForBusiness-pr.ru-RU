@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblRoleType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblRoleType
 ms:assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 698d6b07d5662a403a7485d009a39a0a8beccc73
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849520"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,12 +56,12 @@ _**Тема последнего изменения:** 2012-06-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ртипеид</p></td>
+<td><p>ртипеид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор типа роли.</p></td>
 </tr>
 <tr class="even">
-<td><p>Ртипедеск</p></td>
+<td><p>ртипедеск</p></td>
 <td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Описание типа роли. Доступно четыре роли:</p>
 <ul>
@@ -70,7 +72,7 @@ _**Тема последнего изменения:** 2012-06-25_
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Ртипеалловедпермсет</p></td>
+<td><p>ртипеалловедпермсет</p></td>
 <td><p>bigint, NOT NULL</p></td>
 <td><p>Наборы разрешений для роли. Используются следующие биты:</p>
 <ul>
@@ -103,7 +105,7 @@ _**Тема последнего изменения:** 2012-06-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Ртипеид</p></td>
+<td><p>ртипеид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 </tbody>

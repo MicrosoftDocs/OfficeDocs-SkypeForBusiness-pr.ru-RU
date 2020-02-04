@@ -3,6 +3,8 @@ title: 'Lync Server 2013: сводка DNS — автообнаружение'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Autodiscover
 ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64e303ebecc42f03197f6502296c8a2708e97ebf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ed7d6edb44ebca8656a50aec432fe3c0ac669d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,12 +99,12 @@ _**Тема последнего изменения:** 2013-02-13_
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
 <td><p>Внешнее полное доменное имя веб-служб для пула, если у вас есть один из них или для пула переднего плана, если у вас нет директора.</p></td>
 </tr>
 <tr class="even">
 <td><p>A (узел, если IPv6, AAAA)</p></td>
-<td><p>lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>lyncdiscover.&lt;sipdomain&gt;</p></td>
 <td><p>Внешний или общий IP-адрес обратного прокси-сервера.</p></td>
 </tr>
 </tbody>

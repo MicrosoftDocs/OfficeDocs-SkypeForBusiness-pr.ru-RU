@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalAffiliations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalAffiliations
 ms:assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb5f6400de1c71b4d11101871b2dadedd232a9ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,12 +56,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ПринЦипалид</p></td>
+<td><p>принЦипалид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор присоединенного участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>Аффилиатионид</p></td>
+<td><p>аффилиатионид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника, представляющего назначение. Каждый принципал (за исключением системных типов пользователей) также имеет свое Самоназначение.</p></td>
 </tr>
@@ -69,7 +71,7 @@ _**Тема последнего изменения:** 2012-09-12_
 <td><p>Индекса. Значение для самостоятельных принадлежностей —-1, а для других — для других — в пределах от 1 в каждом &lt;ПринЦипалид, аффилиатионид&gt; сегмент.</p></td>
 </tr>
 <tr class="even">
-<td><p>Упдатедби</p></td>
+<td><p>упдатедби</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Основной участник, который обновил Последнее обновление. Обычно это 1, что означает синхронизацию Active Directory.</p></td>
 </tr>
@@ -96,11 +98,11 @@ _**Тема последнего изменения:** 2012-09-12_
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>ПринЦипалид</p></td>
+<td><p>принЦипалид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Аффилиатионид</p></td>
+<td><p>аффилиатионид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 </tbody>

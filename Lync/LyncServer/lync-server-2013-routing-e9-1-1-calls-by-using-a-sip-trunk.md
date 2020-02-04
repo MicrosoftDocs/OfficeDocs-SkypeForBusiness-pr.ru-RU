@@ -3,6 +3,8 @@ title: 'Lync Server 2013: маршрутизация звонков E9-1-1 с и
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using a SIP trunk
 ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204701(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c537b66883ab786bc28e3cc808874c0fcb79b92d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 918aaf97b1567f012a2b41de7128db23aa383acb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822316"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732859"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Тема последнего изменения:** 2012-09-29_
 
 **Маршрутизация вызовов E9-1-1 через SIP-магистраль**
 
-![Маршрут экстренного вызова с Lync Server в ПСАП] (images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Маршрут экстренного вызова с Lync Server в ПСАП")
+![Маршрутизация экстренных вызовов из Lync Server в надлежащие службы](images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Маршрутизация экстренных вызовов из Lync Server в надлежащие службы")
 
 При обращении в экстренный процесс из совместимого клиента Lync Server:
 

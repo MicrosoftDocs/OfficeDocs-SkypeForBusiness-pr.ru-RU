@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Настройка поддержки федераци
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation support for a Lync Online domain
 ms:assetid: 19d5d5be-cd7f-47b8-b6c5-651a3191def7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202166(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d7568e3e93850301a0c37fc73ae44cf4f5a84dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f883e8d730e63788b4cbe0ccd3315f21e6fea97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841376"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726599"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ _**Тема последнего изменения:** 2012-11-01_
     
       - **Хостсоксусерс** указывает, используется ли поставщик услуг размещения для размещения учетных записей Lync Server. Если **False**, то поставщик размещает другие типы учетных записей, такие как учетные записи Microsoft Exchange.
     
-      - **** "WebProxy" показывает, является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Lync.
+      - "WebProxy **" показывает,** является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Lync.
     
     Подробнее об использовании этого командлета можно узнать в разделе [New-кшостингпровидер](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) в документации по эксплуатации.
 

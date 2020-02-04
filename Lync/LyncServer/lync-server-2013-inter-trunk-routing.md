@@ -3,6 +3,8 @@ title: 'Lync Server 2013: межмагистральная маршрутиза�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 204402ba6620fa75b64bb9710ce979b44b63f412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,11 +41,11 @@ Lync Server 2013 обеспечивает базовое управление с
 
 На рисунке ниже показана интеграция сервера Lync Server 2013, обеспечивающая взаимодействие между шлюзом PSTN и IP-УАТС.
 
-![Lync Server подключение PSTN Gateway/IP-УАТС] (images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server подключение PSTN Gateway/IP-УАТС")
+![Схема подключения Lync Server к ТСОП-шлюзу/IP-УАТС](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Схема подключения Lync Server к ТСОП-шлюзу/IP-УАТС")
 
 На следующем рисунке показана платформа Lync Server 2013, соединяющая две системы IP-УАТС.
 
-![Схема IP-схемы для совместного подключения к Lync Server — система PAX] (images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Схема IP-схемы для совместного подключения к Lync Server — система PAX")
+![Схема соединений между системами IP-УАТС с помощью Lync Server](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Схема соединений между системами IP-УАТС с помощью Lync Server")
 
 </div>
 

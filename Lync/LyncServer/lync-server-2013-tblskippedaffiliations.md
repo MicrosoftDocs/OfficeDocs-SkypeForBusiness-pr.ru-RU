@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblSkippedAffiliations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblSkippedAffiliations
 ms:assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558611(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06269ede55a46757f78595d7573f3cd77414d1d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849516"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,18 +56,18 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Принид</p></td>
+<td><p>принид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>Аффдескриптион</p></td>
+<td><p>аффдескриптион</p></td>
 <td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Строка, указывающая на принадлежность.</p>
 <p>Формат: GUID: {0} URI: {1} &gt; ID:{2}</p></td>
 </tr>
 <tr class="odd">
-<td><p>Упдатедби</p></td>
+<td><p>упдатедби</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника, который обновил эту строку. Это всегда 1 (Системный пользователь), так как служба каталогов Active Directory — это единственный источник этих записей.</p></td>
 </tr>
@@ -92,7 +94,7 @@ _**Тема последнего изменения:** 2012-09-12_
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>Принид</p></td>
+<td><p>принид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 </tbody>

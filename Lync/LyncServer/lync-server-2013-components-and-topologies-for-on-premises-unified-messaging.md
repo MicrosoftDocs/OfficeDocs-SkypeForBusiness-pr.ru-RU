@@ -3,6 +3,8 @@ title: 'Lync Server 2013: компоненты и топологии для ло
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for on-premises Unified Messaging
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cdaf33a230f2663e9fc8b541aafb47c362d0ac97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1739dbb7d603f112af72c78032c46b94470302bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Тема последнего изменения:** 2012-09-25_
 
 ## <a name="exchange-server-components"></a>Компоненты Exchange Server
 
-Для предоставления функций и служб Exchange UM, описанных в [функциях интегрированной единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) для пользователей корпоративной голосовой связи в вашей организации, необходимо развернуть сервер почтовых ящиков Microsoft Exchange и сервер клиентского доступа. который размещает почтовые ящики пользователей и предоставляет единое место для хранения электронной почты и голосовой почты. UM Exchange работает как служба на почтовом ящике Exchange и серверах клиентского доступа.
+Для предоставления функций и служб Exchange UM, описанных в [функциях интеграции единой системы обмена сообщениями и Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) и корпоративной голосовой связи в Организации, необходимо развернуть сервер почтовых ящиков Microsoft Exchange и сервер клиентского доступа, на котором размещаются почтовые ящики пользователей и есть единое место для хранения электронной почты и голосовой почты. UM Exchange работает как служба на почтовом ящике Exchange и серверах клиентского доступа.
 
 Дополнительные сведения о компонентах UM Exchange в Microsoft Exchange Server 2007 и Microsoft Exchange Server 2010 можно найти в разделе [развертывание локальной системы обмена сообщениями Exchange для предоставления голосовой почты Lync Server 2013](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md) в документации по развертыванию.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: настройка парковки вызовов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Call Park
 ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69e2a1c6ef9da447688ea1ca7d0308afc0b4ab9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34841271"
 
 _**Тема последнего изменения:** 2012-10-30_
 
-Метод парковки позволяет корпоративному голосовому пользователю перевести звонок на удержание с одного телефона и затем получить его позже, набрав внутренний номер (например, орбита на обороте) ** с любого телефона.
+Метод парковки позволяет корпоративному голосовому пользователю перевести звонок на удержание с одного телефона и затем получить его позже, набрав внутренний номер (например, *орбита на обороте*) с любого телефона.
 
 Компоненты, используемые при использовании функции парковки, автоматически устанавливаются и включаются на сервере переднего плана или стандартном сервере Standard Edition при развертывании корпоративной голосовой связи. Однако вы должны настроить приостановку звонков, прежде чем она будет доступна для пользователей.
 

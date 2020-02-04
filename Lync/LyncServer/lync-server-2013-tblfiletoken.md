@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblFileToken'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblFileToken
 ms:assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558646(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9146c168e62bd0602a76cd77ab678c84ba5e44da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849553"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,47 +56,47 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Филетокен</p></td>
+<td><p>филетокен</p></td>
 <td><p>nvarchar (50), NOT NULL</p></td>
 <td><p>Уникальный маркер (GUID).</p></td>
 </tr>
 <tr class="even">
-<td><p>Филетокенусерид</p></td>
+<td><p>филетокенусерид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника, который передает файл.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Филетокенчаннелид</p></td>
+<td><p>филетокенчаннелид</p></td>
 <td><p>GUID, а не NULL</p></td>
 <td><p>GUID узла комнаты чата.</p></td>
 </tr>
 <tr class="even">
-<td><p>Филетокенекспиредате</p></td>
+<td><p>филетокенекспиредате</p></td>
 <td><p>DateTime, NOT NULL</p></td>
 <td><p>Время окончания срока действия. (Срок действия токенов истекает через 30 минут, за исключением случаев, когда они закреплены (в этой статье описаны следующие описания).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Филетокенкомплианцефилеурл</p></td>
+<td><p>филетокенкомплианцефилеурл</p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>URL-адрес перенесенного файла (для использования службы соответствия требованиям).</p></td>
 </tr>
 <tr class="even">
-<td><p>Филетокенкомплианцесумбнаилурл</p></td>
+<td><p>филетокенкомплианцесумбнаилурл</p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>URL-адрес миниатюры перенесенного файла (для использования службой соответствия требованиям).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Филетокенкомплианцетиме</p></td>
+<td><p>филетокенкомплианцетиме</p></td>
 <td><p>datetime2</p></td>
 <td><p>Метка времени для фактической операции передачи файлов (для использования службой соответствия требованиям).</p></td>
 </tr>
 <tr class="even">
-<td><p>Филетокенкомплианцеисуплоад</p></td>
+<td><p>филетокенкомплианцеисуплоад</p></td>
 <td><p>бит</p></td>
 <td><p>Значение true, если отправка; Значение false, если Download (для использования службы соответствия требованиям).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Филетокенкомплианцепиннед</p></td>
+<td><p>филетокенкомплианцепиннед</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение true, если маркер закреплен. Она используется для хранения токенов в таблице до тех пор, пока служба соответствия требованиям не сможет получить из нее нужные поля.</p></td>
 </tr>
@@ -117,11 +119,11 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Филетокен</p></td>
+<td><p>филетокен</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>Филетокенчаннелид</p></td>
+<td><p>филетокенчаннелид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодегуид.</p></td>
 </tr>
 </tbody>

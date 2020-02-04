@@ -3,6 +3,8 @@ title: 'Lync Server 2013: создание пользовательской по
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a user policy for Persistent Chat
 ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185103
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a1d2cd767af4cbee7c416dc8f600ed9e9e192a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a9bd88dd84b8b5056adf19ebc098daac54cb005
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841074"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726399"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34841074"
 
 _**Тема последнего изменения:** 2012-10-06_
 
-На панели управления Lync Server вы можете определить политики пользователей, которые могут назначаться пользователям. ****
+На панели управления Lync Server вы можете определить **политики пользователей,** которые могут назначаться пользователям.
 
 Политика пользователя переопределяет глобальную политику и политики сайта, но только для пользователей, которым она назначена.
 
@@ -43,7 +45,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
 
 > [!NOTE]  
-> Чтобы настроить и использовать сохраняемый сервер чата, необходимо сначала использовать Topology Builder, чтобы добавить в топологию постоянную поддержку сервера чата, а затем опубликовать топологию. Подробные сведения о том, <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">как добавить сохраняемый сервер чата в развертывание в среде Lync server 2013, можно</A> найти в документации по развертыванию.<BR>Чтобы настроить параметры конфигурации сервера для сохраняемого чата, ознакомьтесь с разстройкой <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Параметры сервера сохраняемого чата глобально или для постоянного пула серверов чатов в Lync server 2013</A> в документации по развертыванию.
+> Чтобы настроить и использовать сохраняемый сервер чата, необходимо сначала использовать Topology Builder, чтобы добавить в топологию постоянную поддержку сервера чата, а затем опубликовать топологию. Подробные сведения о том, <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">как добавить сохраняемый сервер чата в развертывание в среде Lync server 2013, можно</A> найти в документации по развертыванию.<BR>Чтобы настроить параметры конфигурации сервера для сохраняемого чата, ознакомьтесь с <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Разстройкой параметры сервера сохраняемого чата глобально или для постоянного пула серверов чатов в Lync server 2013</A> в документации по развертыванию.
 
 
 
@@ -61,7 +63,7 @@ _**Тема последнего изменения:** 2012-10-06_
     
 
     > [!IMPORTANT]  
-    > Вы также можете использовать командлеты Windows PowerShell. Дополнительные сведения о настройке сохраняемого сервера чата можно найти в документации по развертыванию <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">с помощью командлетов Windows PowerShell</A> .
+    > Вы также можете использовать командлеты Windows PowerShell. Дополнительные сведения о <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">настройке сохраняемого сервера чата можно найти в документации по развертыванию с помощью командлетов Windows PowerShell</A> .
 
     
     </div>

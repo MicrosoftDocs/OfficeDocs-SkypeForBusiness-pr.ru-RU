@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Устранение неполадок с внешн�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting the Lync VDI plug-in
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7afaa0067e4ca06f8bb40ff201b090a45c66f442
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849336"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**Тема последнего изменения:** 2012-10-10_
 
 При возникновении ошибки связывания с внешним подключением VDI значок связывания в правом нижнем углу отображается как красный крестик, как показано ниже.
 
-![Значок LYNC VDI] , показывающий успешное связывание (images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Значок LYNC VDI") , показывающий успешное связывание
+![Значок Lync VDI, показывающий успешное связывание](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Значок Lync VDI, показывающий успешное связывание")
 
 Ниже приведены возможные причины сбоя и действия по их исправлению.
 

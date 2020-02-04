@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Endpoint'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Endpoint table
 ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398327(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cedf4d85cefd8a9fefb9f0ee4608f4a290fdc09
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834214"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,13 +57,13 @@ _**Тема последнего изменения:** 2012-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Ендпоинткэй</strong></p></td>
+<td><p><strong>ендпоинткэй</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий эту конечную точку.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Имя</strong>.</p></td>
+<td><p><strong>Имя</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Повторя</p></td>
 <td><p>Имя конечной точки.</p></td>
@@ -73,25 +75,25 @@ _**Тема последнего изменения:** 2012-10-02_
 <td><p>Операционная система (ОС) конечной точки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Кпунаме</strong></p></td>
+<td><p><strong>кпунаме</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td></td>
 <td><p>Имя ЦП конечной точки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Кпунумберофкорес</strong></p></td>
+<td><p><strong>кпунумберофкорес</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
 <td><p>Количество ядер ЦП конечной точки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Кпупроцессорспид</strong></p></td>
+<td><p><strong>кпупроцессорспид</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>Тактовая частота процессора для конечной точки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Виртуализатионфлаг</strong></p></td>
+<td><p><strong>виртуализатионфлаг</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
 <td><p>Битовый флаг, указывающий на то, что система работает в виртуализованной среде.</p>

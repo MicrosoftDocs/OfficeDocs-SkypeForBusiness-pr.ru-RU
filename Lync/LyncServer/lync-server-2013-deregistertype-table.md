@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица DeRegisterType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DeRegisterType table
 ms:assetid: 09148118-6209-4fd7-a494-99118689a245
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398142(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97d25ded1a281df0774644cd0d69f5e12d9c85a7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,13 +57,13 @@ _**Тема последнего изменения:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Дерегистертипеид</strong></p></td>
+<td><p><strong>дерегистертипеид</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дерегистерреасон</strong></p></td>
+<td><p><strong>дерегистерреасон</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td></td>
 <td><p>Допустимые значения:</p>

@@ -3,6 +3,8 @@ title: Перемещение сервера Lync Server 2010 на центра�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abcb361beb82b98cd765b3797b63b22c280fdf70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f301c8f6e11ca3c8f19ed167489bb3fbf51fc63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848982"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Тема последнего изменения:** 2013-11-25_
 
 После успешного перемещения центрального сервера управления необходимо удалить базы данных центрального сервера управления с исходного сервера переднего плана. Сведения об удалении баз данных центрального сервера управления можно найти в разделе [Удаление базы данных SQL Server для пула переднего плана](remove-the-sql-server-database-for-a-front-end-pool.md).
 
-С помощью командлета Windows PowerShell **Move-ксманажементсервер** в командной консоли Lync Server Management Shell, чтобы переместить базу данных из базы данных lync Server 2010 SQL Server в базу данных сервера lync Server 2013, а затем обновить SCP, чтобы она указывала на Lync. Расположение сервера центрального управления сервера 2013.
+С помощью командлета Windows PowerShell **Remove-ксманажементсервер** в командной консоли Lync Server Management Shell можно переместить базу данных из базы данных lync Server 2010 SQL Server в базу данных сервера lync Server 2013 и затем обновить SCP, чтобы она указывала на расположение сервера lync Server 2013 Central Management Server.
 
 <div>
 

@@ -3,6 +3,8 @@ title: Контрольный список развертывания Lync Serve
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for web conferencing
 ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205104(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5f845fd57846d7f9b58351d1cb77f3f1c0142ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 426f6419b2127a09dd3c758cdb7d6e418e6c4fc6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834501"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ _**Тема последнего изменения:** 2012-09-30_
 <td><p><strong>Создание соответствующей внутренней топологии для поддержки конференц-связи</strong></p></td>
 <td><p>Запустите построитель топологии, чтобы добавить в топологию Конференц-связь, а затем опубликуйте топологию.</p></td>
 <td><p>Для определения топологии требуется учетная запись члена локальной группы "Пользователи".</p>
-<p>Чтобы опубликовать топологию, учетную запись, которая является членом группы "Администраторы домена" и Рткуниверсалсерверадминс, и у нее есть разрешения полного доступа (чтение/запись и изменение) в общей папке, которая будет использоваться для хранения файлов Lync Server 2013 (чтобы Topology Builder мог Настройка обязательных DACL</p></td>
+<p>Чтобы опубликовать топологию, учетную запись, которая является членом группы "Администраторы домена" и Рткуниверсалсерверадминс, и у нее есть разрешения полного доступа (чтение/запись и изменение) в общей папке, которая будет использоваться для хранения файлов Lync Server 2013 (чтобы Topology Builder мог настроить нужные DACL),</p></td>
 <td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Определите и настройте топологию в построителе топологии для Lync Server 2013</a> в документации по развертыванию.</p></td>
 </tr>
 <tr class="odd">

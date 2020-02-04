@@ -3,6 +3,8 @@ title: Управление централизованными параметр�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1ce13f34a5a48c80c1f825e225a20c96ebfa2db
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4cb3b16210b3fac64c0c5bd7886849da7dd0d065
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827741"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -44,11 +46,11 @@ _**Тема последнего изменения:** 2012-11-01_
 > Не все командлеты Windows PowerShell, указанные для централизованной службы ведения журналов, предназначены для использования с локальными развертываниями Lync Server 2013. Несмотря на то, что они работают, следующие командлеты не предназначены для работы с локальными развертываниями Lync Server 2013. 
 > <UL>
 > <LI>
-> <P><STRONG>Командлеты ксклсрегион:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15)">Get-ксклсрегион</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15)">Set-ксклсрегион</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15)">New-Ксклсрегион</A>и Remove <A href="https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15)">-ксклсрегион</A>.</P>
+> <P><STRONG>Командлеты ксклсрегион:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15)">Get-ксклсрегион</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15)">Set-ксклсрегион</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15)">New-ксклсрегион</A>и <A href="https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15)">Remove-ксклсрегион</A>.</P>
 > <LI>
 > <P><STRONG>Командлеты ксклссеарчтерм:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15)">Get-ксклссеарчтерм</A> и <A href="https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15)">Set-ксклссеарчтерм</A>.</P>
 > <LI>
-> <P><STRONG>Командлеты ксклссекуритиграуп:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15)">Get-ксклссекуритиграуп</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15)">Set-ксклссекуритиграуп</A>, <A href="https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15)">New-Ксклссекуритиграуп</A>и Remove <A href="https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15)">-ксклссекуритиграуп</A>.</P></LI></UL>Параметры, определенные в этих командлетах, не мешают или не вызывают какое-либо неотрицательное поведение, но они предназначены для работы с Microsoft Office 365 и не будут давать ожидаемые результаты в локальных развертываниях. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
+> <P><STRONG>Командлеты ксклссекуритиграуп:</STRONG> <A href="https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15)">Get-ксклссекуритиграуп</A>, <A href="https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15)">Set-ксклссекуритиграуп</A>, <A href="https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15)">New-ксклссекуритиграуп</A>и <A href="https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15)">Remove-ксклссекуритиграуп</A>.</P></LI></UL>Параметры, определенные в этих командлетах, не мешают или не вызывают какое-либо неотрицательное поведение, но они предназначены для работы с Microsoft Office 365 и не будут давать ожидаемые результаты в локальных развертываниях. Это не означает полную бесполезность таких командлетов в локальных развертываниях, но вопрос об их использовании выходит за рамки данной документации.
 
 
 

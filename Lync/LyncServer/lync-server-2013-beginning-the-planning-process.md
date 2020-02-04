@@ -3,6 +3,8 @@ title: 'Lync Server 2013: начало процесса планирования
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Beginning the planning process
 ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398986(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582769109a3792ddc2efdbef5d4a557b781c39b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9da1c5535f190a6f57aa76b78a04845d4a073e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ _**Тема последнего изменения:** 2012-09-24_
 
 1.  Если вы знакомы с предыдущими версиями Lync Server, ознакомьтесь с [новыми возможностями Lync server 2013](lync-server-2013-new-features.md) , чтобы ознакомиться с новыми функциями и требованиями в lync Server 2013.
 
-2.  Ознакомьтесь с другими разделами, приведенными в этом разделе документации. [основы топологии, которые необходимо знать перед планированием для Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), [базовых топологий в Lync Server 2013](lync-server-2013-reference-topologies.md), [первоначальных решений по планированию для Lync Server 2013](lync-server-2013-initial-planning-decisions.md)и [ Клиенты для Lync Server 2013](lync-server-2013-clients.md). Обратите внимание на решения по планированию, представленные в [эталонной топологии в Lync Server 2013](lync-server-2013-reference-topologies.md).
+2.  Ознакомьтесь с другими разделами, приведенными в этом разделе документации. [основы топологии, которые необходимо знать перед планированием для Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), [базовых топологий в Lync Server 2013](lync-server-2013-reference-topologies.md), [начальных решений по планированию для Lync Server 2013](lync-server-2013-initial-planning-decisions.md)и [клиентов для Lync Server 2013](lync-server-2013-clients.md). Обратите внимание на решения по планированию, представленные в [эталонной топологии в Lync Server 2013](lync-server-2013-reference-topologies.md).
 
 3.  Теперь, когда вы знакомы с возможностями Lync Server и видами вопросов, на которые необходимо ответить, запустите средство планирования и просмотрите конечную топологию и сведения о ней. Убедитесь в том, что топология соответствует уникальным требованиям для вашей организации.
 

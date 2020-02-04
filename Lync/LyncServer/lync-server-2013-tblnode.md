@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblNode'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84bf7cf57f9890093a56deb2e0769b82e92aa0ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24ba45d9ba650a9de4359d64e3281fb488b6a279
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849549"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,12 +56,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Нодеид</p></td>
+<td><p>нодеид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор узла (уникальный номер).</p></td>
 </tr>
 <tr class="even">
-<td><p>Нодегуид</p></td>
+<td><p>нодегуид</p></td>
 <td><p>GUID, а не NULL</p></td>
 <td><p>GUID узла.</p></td>
 </tr>
@@ -80,7 +82,7 @@ _**Тема последнего изменения:** 2012-09-12_
 <td><p>Имя узла.</p></td>
 </tr>
 <tr class="even">
-<td><p>Нодедеск</p></td>
+<td><p>нодедеск</p></td>
 <td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Описание узла.</p></td>
 </tr>
@@ -112,7 +114,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Филепост</p></td>
+<td><p>филепост</p></td>
 <td><p>бит</p></td>
 <td><p>Для категорий:</p>
 <ul>
@@ -156,33 +158,33 @@ _**Тема последнего изменения:** 2012-09-12_
 <p>Применимо только к комнатам чата.</p></td>
 </tr>
 <tr class="even">
-<td><p>Сиопид</p></td>
+<td><p>сиопид</p></td>
 <td><p>Глобальный уникальный идентификатор (GUID)</p></td>
 <td><p>GUID надстройки, если надстройка связана с этой комнатой чата. (В категориях нет надстроек.)</p>
 <p>Сведения о надстройке ищутся в таблице Сиопвхителист.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Нодеаддедби</p></td>
+<td><p>нодеаддедби</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника, который создал этот узел.</p></td>
 </tr>
 <tr class="even">
-<td><p>Нодеаддедон</p></td>
+<td><p>нодеаддедон</p></td>
 <td><p>bigint, NOT NULL</p></td>
 <td><p>Метка времени создания узла.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Нодеупдатедби</p></td>
+<td><p>нодеупдатедби</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника, который последним обновил этот узел.</p></td>
 </tr>
 <tr class="even">
-<td><p>Нодеупдатедон</p></td>
+<td><p>нодеупдатедон</p></td>
 <td><p>bigint, NOT NULL</p></td>
 <td><p>Метка времени последнего обновления этого узла.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Пуржедон</p></td>
+<td><p>пуржедон</p></td>
 <td><p>datetime</p></td>
 <td><p>Время последней операции очистки (удаления областей из таблицы ТблскопедпринЦипал и ролей из ТблпринЦипалроле таблицы), которые затронули этот узел. Это используется механизмом обновления внутреннего кэша в службе чата.</p></td>
 </tr>
@@ -205,7 +207,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Нодеид</p></td>
+<td><p>нодеид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
@@ -221,7 +223,7 @@ _**Тема последнего изменения:** 2012-09-12_
 <td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодеид.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сиопид</p></td>
+<td><p>сиопид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице Тблсиопвхителист. Сиопид.</p></td>
 </tr>
 </tbody>

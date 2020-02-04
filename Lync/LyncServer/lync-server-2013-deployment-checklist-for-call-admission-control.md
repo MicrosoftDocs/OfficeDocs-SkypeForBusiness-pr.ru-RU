@@ -3,6 +3,8 @@ title: 'Lync Server 2013: контрольный список развертыв
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for call admission control
 ms:assetid: 7e56a169-3e63-44ab-bf28-1fdeb52381c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dd425d53a282cc24fed8ad2f8be9acc5bf42209
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834503"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -90,7 +92,7 @@ _**Тема последнего изменения:** 2012-10-08_
 <td><p>Требования к системе</p></td>
 <td><ul>
 <li><p>Требования к оборудованию</p></li>
-<li><p>Требования к программному обеспечению </p></li>
+<li><p>Требования к программному обеспечению</p></li>
 <li><p>Требования к выровнению</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-determining-your-system-requirements.md">Определение требований к системе для Lync Server 2013</a></p></td>
@@ -124,7 +126,7 @@ _**Тема последнего изменения:** 2012-10-08_
 <tr class="odd">
 <td><p>Процесс развертывания</p></td>
 <td><ul>
-<li><p>Необходимые компоненты</p></li>
+<li><p>Предварительные требования</p></li>
 <li><p>Требования к информации</p></li>
 <li><p>Процесс и процедуры</p></li>
 </ul></td>

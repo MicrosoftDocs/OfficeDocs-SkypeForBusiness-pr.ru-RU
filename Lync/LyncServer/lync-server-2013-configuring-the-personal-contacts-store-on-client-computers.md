@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Настройка хранилища личных к�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the personal contacts store on client computers
 ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721922(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4f9b7bbb50b5e63e87904d29a01715fcdcac8c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77e6e48593bb3dc7a11375b13346ad59b2f40c0e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841174"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**Тема последнего изменения:** 2014-02-05_
 
 2.  В диалоговом окне **Выполнить** введите regedit, а затем нажмите ВВОД.
 
-3.  В редакторе реестра разверните узел **hKey\_локального\_компьютера**, разверните раздел **программы**, **** а затем разверните раздел **Microsoft**, а затем — **Communicator**.
+3.  В редакторе реестра разверните узел **hKey\_локального\_компьютера**, разверните раздел **программы**, **а затем разверните**раздел **Microsoft**, а затем — **Communicator**.
 
 4.  Щелкните элемент **Communicator** правой кнопкой мыши, наведите указатель на пункт **Создать** и выберите пункт **Параметр DWORD (32-разрядный)**.
 

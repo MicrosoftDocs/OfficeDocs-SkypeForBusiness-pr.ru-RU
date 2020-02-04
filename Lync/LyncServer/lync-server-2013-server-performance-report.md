@@ -3,6 +3,8 @@ title: 'Lync Server 2013: отчет о производительности с�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Performance Report
 ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c5a08104f33fc07d6a0ec1c3241a7f14fa1227a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: acb7e01086ac423380a913b75391ec3086ee3736
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822379"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ _**Тема последнего изменения:** 2012-10-01_
 
 ## <a name="accessing-the-server-performance-report"></a>Получение доступа к отчету о производительности серверов
 
-Доступ к отчету можно получить с главный страницы отчетов по мониторингу. Вы можете перейти к отчету [список обзвона в Lync Server 2013](lync-server-2013-call-list-report.md) , щелкнув один из следующих метрик:
+Доступ к отчету можно получить с главный страницы отчетов по мониторингу. Вы можете перейти к [отчету список обзвона в Lync Server 2013](lync-server-2013-call-list-report.md) , щелкнув один из следующих метрик:
 
   - Громкость вызова
 

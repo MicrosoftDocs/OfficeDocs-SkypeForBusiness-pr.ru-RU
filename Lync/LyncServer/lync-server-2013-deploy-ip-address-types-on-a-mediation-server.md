@@ -3,6 +3,8 @@ title: 'Lync Server 2013: развертывание типов IP-адресо�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on a Mediation Server
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e629b1074f41f1e32795de391b31e8b610f88b2e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab30a2153dc7dbf5a15557f6eeaf3b6cb65f68f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**Тема последнего изменения:** 2016-07-28_
     
     **Диалоговое окно "Изменение свойств" для пула сервера-посредника**
     
-    ![Страница общих свойств Lync Server с полным доменным именем] (images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Страница общих свойств Lync Server с полным доменным именем")
+    ![Страница общих свойств Lync Server с полным доменным именем](images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Страница общих свойств Lync Server с полным доменным именем")
     
       - **Use all configured IP addresses** (Использовать все заданные IP-адреса). Выберите этот параметр, если требуется разрешить использование любых IP-адресов, заданных на компьютере.
         
