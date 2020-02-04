@@ -7,21 +7,21 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LyncServer2010ScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ef810ad3-1689-4c21-b995-d45e5486f8b0
 description: Вы можете создать новые роли сервера на узле Lync Server 2010 в построителе топологии, щелкнув правой кнопкой мыши Lync Server 2010, выбрать команду Создать, а затем выбрать роль сервера для создания.
-ms.openlocfilehash: 7e08134070e804e54adeabfc174a2201497e53ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd5b7af1b26a282214d04e0784fecc9defd5d615
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284098"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684582"
 ---
-# <a name="lync-server-2010-create-new-expander"></a><span data-ttu-id="e16e0-103">Создание нового расширителя Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="e16e0-103">Lync Server 2010 Create New Expander</span></span>
+# <a name="lync-server-2010-create-new-expander"></a><span data-ttu-id="874e6-103">Создание нового расширителя Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="874e6-103">Lync Server 2010 Create New Expander</span></span>
  
-<span data-ttu-id="e16e0-104">Вы можете создать новые роли сервера на узле Lync Server 2010 в построителе топологии, щелкнув правой кнопкой мыши **Lync server 2010**, выбрать команду **создать**, а затем выбрать роль сервера для создания.</span><span class="sxs-lookup"><span data-stu-id="e16e0-104">You can create new server roles in the Lync Server 2010 node of Topology Builder by right clicking on **Lync Server 2010**, select **New**, then select the server role to create.</span></span>
+<span data-ttu-id="874e6-104">Вы можете создать новые роли сервера на узле Lync Server 2010 в построителе топологии, щелкнув правой кнопкой мыши **Lync server 2010**, выбрать команду **создать**, а затем выбрать роль сервера для создания.</span><span class="sxs-lookup"><span data-stu-id="874e6-104">You can create new server roles in the Lync Server 2010 node of Topology Builder by right clicking on **Lync Server 2010**, select **New**, then select the server role to create.</span></span>
   
 

@@ -7,23 +7,23 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: 'По умолчанию обмен данными с клиентами, интерфейсными пулами прежних версий и серверами осуществляется через SIP-порт 5061, работающий по протоколу TCP. Если значение по умолчанию не применялось, выберите SIP-порт для всех пулов и серверов: и введите новое значение.'
-ms.openlocfilehash: 853b50cd7e7e18b15374312bf9c52a0e5c27151b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 930252be234fa0b0bd8dd87db921d30226485d66
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284167"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684602"
 ---
-# <a name="legacy-merge-sip-port"></a><span data-ttu-id="90ece-104">Порт SIP для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="90ece-104">Legacy Merge SIP Port</span></span>
+# <a name="legacy-merge-sip-port"></a><span data-ttu-id="72a1b-104">Порт SIP для объединения с устаревшей версией</span><span class="sxs-lookup"><span data-stu-id="72a1b-104">Legacy Merge SIP Port</span></span>
  
-<span data-ttu-id="90ece-p102">По умолчанию обмен данными с клиентами, интерфейсными пулами прежних версий и серверами осуществляется через SIP-порт 5061, работающий по протоколу TCP. Если значение по умолчанию не применялось, выберите **SIP-порт для всех пулов и серверов:** и введите новое значение.</span><span class="sxs-lookup"><span data-stu-id="90ece-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
+<span data-ttu-id="72a1b-p102">По умолчанию обмен данными с клиентами, интерфейсными пулами прежних версий и серверами осуществляется через SIP-порт 5061, работающий по протоколу TCP. Если значение по умолчанию не применялось, выберите **SIP-порт для всех пулов и серверов:** и введите новое значение.</span><span class="sxs-lookup"><span data-stu-id="72a1b-p102">The default Transmission Control Protocol (TCP) SIP port for communicating with clients, legacy Front End pools, and servers is 5061. If the default value was not used, select **SIP port for all pools and servers:** and enter the new value.</span></span>
   
-<span data-ttu-id="90ece-107">Если в развертывании прежней версии настроен автоматический вход клиентов, выберите режим **Автоматическое определение конфигурации SIP-порта для каждого пула** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="90ece-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
+<span data-ttu-id="72a1b-107">Если в развертывании прежней версии настроен автоматический вход клиентов, выберите режим **Автоматическое определение конфигурации SIP-порта для каждого пула** и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="72a1b-107">If your legacy deployment is configured for Automatic Client sign-in, select **Automatic discovery of SIP port configuration for each pool** and click **Next** to continue.</span></span>
   
 

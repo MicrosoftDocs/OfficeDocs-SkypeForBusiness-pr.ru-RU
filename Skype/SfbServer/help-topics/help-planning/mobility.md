@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах.
-ms.openlocfilehash: 0dead585c5963840fb76c2ff53c051a134ea8f83
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 24aa5f5df7700063b22d02c9506e8a5fd51421fc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278194"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685412"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="d25af-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="d25af-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="8d5f9-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8d5f9-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="d25af-104">Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="d25af-104">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="8d5f9-104">Функция мобильной связи в Skype для бизнеса Server 2015 поддерживает функцию Skype для бизнеса на мобильных устройствах.</span><span class="sxs-lookup"><span data-stu-id="8d5f9-104">The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="d25af-105">Возможности мобильных устройств одинаковы для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d25af-105">Mobility functionality is the same as in Lync Server 2013.</span></span> <span data-ttu-id="d25af-106">Дополнительные сведения о подготовке среды для мобильных устройств можно найти [в разделе Планирование мобильных устройств в Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="d25af-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).</span></span>
+<span data-ttu-id="8d5f9-105">Возможности мобильных устройств одинаковы для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8d5f9-105">Mobility functionality is the same as in Lync Server 2013.</span></span> <span data-ttu-id="8d5f9-106">Дополнительные сведения о подготовке среды для мобильных устройств можно найти [в разделе Планирование мобильных устройств в Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="8d5f9-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/en-us/library/hh689981%28v=ocs.15%29.aspx).</span></span>
   
 

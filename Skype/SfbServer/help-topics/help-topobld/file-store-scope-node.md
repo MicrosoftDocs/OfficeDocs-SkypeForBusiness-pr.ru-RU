@@ -7,33 +7,33 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FileStoreScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: В этом узле отображается полное доменное имя и зависимые пулы для данного хранилища файлов. Доступно следующее действие.
-ms.openlocfilehash: b87c0033caa0c6d46ac07a10d9985f7f72f5702c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2a623e29f199c9663e72f4fb6e1fe267cf48dd6d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284461"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684702"
 ---
-# <a name="file-store-scope-node"></a><span data-ttu-id="a3059-104">Узел области хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="a3059-104">File Store Scope Node</span></span>
+# <a name="file-store-scope-node"></a><span data-ttu-id="f17fa-104">Узел области хранилища файлов</span><span class="sxs-lookup"><span data-stu-id="f17fa-104">File Store Scope Node</span></span>
  
-<span data-ttu-id="a3059-p102">В этом узле отображается полное доменное имя и зависимые пулы для данного хранилища файлов. Доступно следующее действие.</span><span class="sxs-lookup"><span data-stu-id="a3059-p102">This node shows the fully qualified domain name (FQDN) and dependent pools for this file store. You can perform the following actions:</span></span>
+<span data-ttu-id="f17fa-p102">В этом узле отображается полное доменное имя и зависимые пулы для данного хранилища файлов. Доступно следующее действие.</span><span class="sxs-lookup"><span data-stu-id="f17fa-p102">This node shows the fully qualified domain name (FQDN) and dependent pools for this file store. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="a3059-p103">**Изменение свойств**. Открытие страницы **Изменение свойств** для данного сервера, где можно изменить полное доменное имя пула и имя хранилища файлов.</span><span class="sxs-lookup"><span data-stu-id="a3059-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN and file store name.</span></span>
+- <span data-ttu-id="f17fa-p103">**Изменение свойств**. Открытие страницы **Изменение свойств** для данного сервера, где можно изменить полное доменное имя пула и имя хранилища файлов.</span><span class="sxs-lookup"><span data-stu-id="f17fa-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN and file store name.</span></span>
     
-- <span data-ttu-id="a3059-p104">**Удалить**. Удаление хранилища файлов из топологии.</span><span class="sxs-lookup"><span data-stu-id="a3059-p104">**Delete**. Deletes the file store from the topology.</span></span>
+- <span data-ttu-id="f17fa-p104">**Удалить**. Удаление хранилища файлов из топологии.</span><span class="sxs-lookup"><span data-stu-id="f17fa-p104">**Delete**. Deletes the file store from the topology.</span></span>
     
-<span data-ttu-id="a3059-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="a3059-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="f17fa-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="f17fa-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="a3059-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="a3059-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="f17fa-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="f17fa-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="a3059-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="a3059-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="f17fa-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="f17fa-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="a3059-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="a3059-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="f17fa-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="f17fa-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

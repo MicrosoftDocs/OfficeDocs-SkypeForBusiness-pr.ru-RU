@@ -7,33 +7,33 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MachineScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.
-ms.openlocfilehash: a79f8032ae2174599a6a07332b0e11b3234615ad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3d37a72b086c20a79da6dc5d380e7d8c742e1f4d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276146"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684562"
 ---
-# <a name="machine-scope-node"></a><span data-ttu-id="795bc-104">Узел области компьютера</span><span class="sxs-lookup"><span data-stu-id="795bc-104">Machine Scope Node</span></span>
+# <a name="machine-scope-node"></a><span data-ttu-id="fcc27-104">Узел области компьютера</span><span class="sxs-lookup"><span data-stu-id="fcc27-104">Machine Scope Node</span></span>
  
-<span data-ttu-id="795bc-p102">Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="795bc-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
+<span data-ttu-id="fcc27-p102">Этот узел отображает полное доменное имя и IP-адрес этого сервера. Можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="fcc27-p102">This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="795bc-p103">**Изменение свойств**. Открытие страницы **Изменение свойств** для данного сервера, где можно изменить полное доменное имя сервера (если топология еще не опубликована) и конфигурацию IP-адресов сервера.</span><span class="sxs-lookup"><span data-stu-id="795bc-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
+- <span data-ttu-id="fcc27-p103">**Изменение свойств**. Открытие страницы **Изменение свойств** для данного сервера, где можно изменить полное доменное имя сервера (если топология еще не опубликована) и конфигурацию IP-адресов сервера.</span><span class="sxs-lookup"><span data-stu-id="fcc27-p103">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can change the FQDN of the server (if the topology is not already published), and the IP address configuration of the server.</span></span>
     
-- <span data-ttu-id="795bc-p104">**Удалить**. Удаление сервера из топологии.</span><span class="sxs-lookup"><span data-stu-id="795bc-p104">**Delete**. Deletes the server from the topology.</span></span>
+- <span data-ttu-id="fcc27-p104">**Удалить**. Удаление сервера из топологии.</span><span class="sxs-lookup"><span data-stu-id="fcc27-p104">**Delete**. Deletes the server from the topology.</span></span>
     
-<span data-ttu-id="795bc-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="795bc-111">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="fcc27-111">Кроме работы с этими параметрами, вы можете выполнять следующие задачи общего характера:</span><span class="sxs-lookup"><span data-stu-id="fcc27-111">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="795bc-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="795bc-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
+- <span data-ttu-id="fcc27-p105">**Топология**. Эта команда позволяет задать новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, выполнить объединение с компонентами прежних версий или удалить развертывание.</span><span class="sxs-lookup"><span data-stu-id="fcc27-p105">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components, or remove the deployment.</span></span>
     
-- <span data-ttu-id="795bc-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="795bc-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="fcc27-p106">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="fcc27-p106">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="795bc-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="795bc-p107">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="fcc27-p107">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="fcc27-p107">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
