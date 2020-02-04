@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Эстонии.
-ms.openlocfilehash: 355ccfa805159a09348dcb4b4fa8fd589c7ee8df
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5e1d8c3b2696e040d85584605ff0c0bb3cf9fbf8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570406"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683922"
 ---
 # <a name="availability-in-estonia"></a>Доступность в Эстонии
 

@@ -1,5 +1,5 @@
 ---
-title: Государственные, образовательные и некоммерческие организации
+title: GOV, EDU и некоммерческие организации
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,25 +15,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Узнайте о лицензиях и функциях надстроек для GOV, EDU и некоммерческих планов. '
-ms.openlocfilehash: cc58055f2163372ff1385764751ba011075fd11d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea3ac1e76f16de7a5cc7d9e32f16299bc348a613
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301254"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692504"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>Государственные, образовательные и некоммерческие организации
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU и некоммерческие организации
 
 Большинство функций Skype для бизнеса доступны для gov, edu и некоммерческих организаций. Дополнительные сведения приведены в таблице ниже.
 
 |**Функция Skype для бизнеса**|**Доступна для .GOV (GCC)**|**Доступна для .GOV (не GCC)**|**Доступна для .EDU**|**Доступна для некоммерческих организаций**|
 |:-----|:-----|:-----|:-----|:-----|
-|Трансляция собрания Skype  <br/> |Да   <br/> |Да   <br/> |Нет  <br/> |Да  <br/> |
+|Трансляция собрания Skype  <br/> |Да   <br/> |Да  <br/> |Нет  <br/> |Да  <br/> |
 |АудиоконференцияSkype для бизнеса  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
 |Телефонная система Office 365  <br/> |Да   <br/> |Да   <br/> |Да   <br/> |Да   <br/> |
 |План звонков Office 365  <br/> |Да  <br/> |Да   <br/> |Да   <br/> |Да  <br/> |

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.BroadcastMeetings
 ms.custom:
 - SMB
 description: Вы можете включить трансляцию собраний Skype и внести изменения в параметры и политики для этих собраний.
-ms.openlocfilehash: 98010683c12c9c8586768f78bd9c45d0231c3e8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280796"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692614"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Внесение изменений в параметры трансляции собраний Skype для Организации
 
@@ -40,7 +40,7 @@ ms.locfileid: "34280796"
     
 - **URL-адрес поддержки службы поддержки для участников** Введите ссылку для участников широковещательного показа собрания, если вам нужна помощь по подключению к собранию или участию на нем.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Настройка сети для трансляции собраний Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

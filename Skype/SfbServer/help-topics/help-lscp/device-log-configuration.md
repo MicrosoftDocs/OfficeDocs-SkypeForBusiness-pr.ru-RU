@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: Веб-служба обновления устройств автоматически создает файл журнала, в котором регистрируются операции по обновлению устройства. В рамках стратегии управления данными Организации может потребоваться установить пороговые значения для размера кэша данных журнала, размера файла журнала или продолжительности хранения файла журнала до его очистки. Вы можете изменить эти параметры в соответствии с требованиями вашей организации. Если вы не хотите, чтобы веб-служба обновления устройств автоматически очищала файлы журналов, то можете очищать их вручную по мере необходимости. Параметры журнала можно изменять на глобальном уровне или для отдельных сайтов.
-ms.openlocfilehash: e46811d40a7b93f5c59557c6744fb554b70aea2a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0f054f4c9209b552f1f084efab73f0750aefb18
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285941"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686852"
 ---
 # <a name="device-log-configuration"></a>Конфигурация журнала устройств
 

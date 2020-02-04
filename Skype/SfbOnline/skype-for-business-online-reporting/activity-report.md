@@ -1,5 +1,5 @@
 ---
-title: Отчет о действиях
+title: Отчет об активности
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BActivity
 ms.custom:
 - Reporting
 description: 'Узнайте, как получить отчеты об активности в Skype для бизнеса, что оно содержит и как интерпретировать данные. '
-ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 1da7ea7b826d5a8f86691cda8b41b49298114d50
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746312"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692454"
 ---
-# <a name="activity-report"></a>Отчет о действиях
+# <a name="activity-report"></a>Отчет об активности
 
 На панели мониторинга " **отчеты** " для Office 365 отображаются общие сведения о действиях по продуктам Office 365 в вашей организации. Она позволяет детализировать отчеты на уровне продукта, чтобы получить более подробные сведения о действиях в каждом продукте. Например, с помощью отчета о **действиях в Skype для бизнеса** можно узнать, сколько пользователей используют одноранговые или размещенные конференции, или сколько они участвуют в сеансах конференц-связи. 
 
@@ -116,7 +116,7 @@ ms.locfileid: "38746312"
 - [Отчет о сеансах Skype для бизнеса](session-details-report.md) Вы можете просматривать сведения о звонках отдельных пользователей.
 
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Отчеты об активности в центре администрирования](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

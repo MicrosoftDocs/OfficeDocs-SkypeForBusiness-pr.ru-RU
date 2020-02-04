@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Skype для бизнеса Online (план 1) устарел. Однако если вы хотите оформить подписку на Skype для бизнеса Online 1, это изменение не повлияет на вас прямо сейчас. Когда вы будете готовы перейти к новому плану (сейчас или во время продления), у вас есть три варианта.
-ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793141"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692664"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Прекращение поддержки Skype для бизнеса Online (план 1) 
 

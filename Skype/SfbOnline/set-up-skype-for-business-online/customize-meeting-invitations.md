@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: 'Настройка приглашений на собрания Skype с помощью графических логотипов, справки и юридических URL-адресов и текста нижнего колонтитула. '
-ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792834"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692904"
 ---
 # <a name="customize-meeting-invitations"></a>Настройка приглашений на собрания
 
@@ -45,7 +45,7 @@ ms.locfileid: "35792834"
 ## <a name="customize-your-meeting-invitations"></a>Настройка приглашений на собрания
 <a name="__top"> </a>
 
-![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
 1. Войдите в Office 365 под своей учебной или рабочей учетной записью.
     
@@ -72,7 +72,7 @@ ms.locfileid: "35792834"
     
     ![Вот как выглядит настраиваемое приглашение, без рисунка](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 <a name="__top"> </a>
 
 [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

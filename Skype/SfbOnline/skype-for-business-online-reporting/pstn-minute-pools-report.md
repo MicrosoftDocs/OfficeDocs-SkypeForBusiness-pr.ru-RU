@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: В новом центре администрирования Skype для бизнеса в разделе Отчеты приводится сводка операций по звонкам и аудиоконференциям в организации. В ней можно также просмотреть детализированные отчеты по отдельным продуктам. Например, с помощью отчета пулы заряда минут в Skype для бизнеса можно узнать количество минут, потраченных в течение текущего месяца Организации.
-ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793093"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692434"
 ---
 # <a name="pstn-minute-pools-report"></a>Отчет о пулах минут, затраченных по ТСОП
 
@@ -41,9 +42,9 @@ ms.locfileid: "35793093"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Как перейти к отчету о пулах в Skype для бизнеса PSTN
 
-![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-- Перейдите в центр администрирования > **** > **центр** > администрирования Skype для бизнеса —**отчеты** > по**пулам PSTN-минут**.
+- Перейдите в центр **администрирования >** > **центр** > администрирования Skype для бизнеса —**отчеты** > по**пулам PSTN-минут**.
     
 > [!NOTE]
 > В зависимости от того, какая у вас подписка на Office 365, вы можете увидеть все указанные здесь данные. 
@@ -92,7 +93,7 @@ ms.locfileid: "35793093"
 
 - [Отчет о сеансах Skype для бизнеса](session-details-report.md) Вы можете просматривать сведения о звонках отдельных пользователей.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Отчеты об активности в центре администрирования](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'С помощью конфигураций архивации можно управлять параметрами архивации для развертывания в Skype для бизнеса Server, в том числе включать и отключать следующие параметры:'
-ms.openlocfilehash: 8f3ed4289d68359cb8eb0d4cb0bfc3a303c53dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f56b452058a8ce51ac5d5761e9b24c6595bbdd39
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299850"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687042"
 ---
 # <a name="archiving-configuration"></a>Конфигурация архивирования
  
@@ -66,5 +66,5 @@ ms.locfileid: "34299850"
     
 - **Обновить** Вы можете обновить страницу **конфигурации архивации** , чтобы проверить состояние параметров всех конфигураций архивации.
     
-Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, приведены [в разделе Планирование архивации в Skype для бизнеса server 2015](../../plan-your-deployment/archiving/archiving.md), развертывание архивации в Skype [для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для Business Server 2015](../../manage/archiving/archiving.md).
+Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, приведены [в разделе Планирование архивации в Skype для бизнеса server 2015](../../plan-your-deployment/archiving/archiving.md), [развертывание архивации в Skype для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для бизнеса Server 2015](../../manage/archiving/archiving.md).
 

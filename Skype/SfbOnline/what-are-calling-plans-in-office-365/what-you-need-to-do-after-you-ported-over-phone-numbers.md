@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
 description: После переноса номеров телефонов в Skype для бизнеса вы можете узнать, что вам нужно сделать дальше.
-ms.openlocfilehash: 52096606d6317109726a66cea66e12fef855d43c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: effddc74a74f72b4f167b793a09b8ee903fc0d2a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290701"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692294"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Что необходимо сделать после переноса на номера телефонов?
 

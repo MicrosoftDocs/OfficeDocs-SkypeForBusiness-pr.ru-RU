@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Изменение политики мобильной связи можно изменить сведения о политике мобильности.
-ms.openlocfilehash: 0725c673373e795af7bf950753c1c6d56f1e3e82
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 13bd3f328c661e90d925a9c1f55e2afe25c3ddea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300422"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691494"
 ---
 # <a name="edit-client-mobility-policy"></a>Изменение политики мобильных устройств для клиентов
 
@@ -29,7 +29,7 @@ ms.locfileid: "34300422"
 В следующих списках описываются меню, команды, поля и свойства на этой странице.
 
 
-- **Commit** (фиксация) Нажмите, чтобы сохранить изменения в параметрах политики.
+- **Commit (фиксация** ) Нажмите, чтобы сохранить изменения в параметрах политики.
 
 - **Отмена** Нажмите эту кнопку, чтобы прекратить редактирование политики и отменить все изменения, внесенные в параметры политики.
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 4/13/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Чтобы начать установку нового сервера роли Skype для бизнеса Server 2015, необходимо сначала установить локальный сервер SQL Server, на котором будет размещено локальное хранилище конфигураций. Локальное хранилище конфигураций будет использоваться как реплика, предназначенная только для чтения, для хранилища серверов централизованного управления (CMS) Skype для бизнеса Server. На сервер, на котором выполняется шаг Установка локального хранилища конфигурации, вы должны войти как локальный администратор компьютера и участник группы RTCUniversalServerAdmins или RTCUniversalGlobalReadOnlyGroup. При установке пограничного сервера не обязательно быть участником группы RTCUniversalServerAdmins или RTCUniversalGlobalReadOnlyGroup. Документ определения Topology Builder будет прочитан из экспортированного документа, а не из хранилища центрального управления. Чтобы экспортировать документ определения Topology Builder и сделать его доступным для пограничных серверов, ознакомьтесь с разделом экспорт топологии и его копирование на внешние носители для установки пограничного сервера.
-ms.openlocfilehash: c3da29e6c9630b22e7ae947f9b23ab5dbeebd13c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83412bbef1305dab51cbb35ad9044f756154905c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301447"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687647"
 ---
 # <a name="install-local-configuration-store"></a>Установка локального хранилища конфигурации
 

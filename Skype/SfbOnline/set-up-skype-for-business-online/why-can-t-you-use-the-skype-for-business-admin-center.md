@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
 description: 'Сведения о том, что можно и не может использовать в центре администрирования Skype для бизнеса, а также о других функциях, выполняемых при миграции службы в другой центр обработки данных Майкрософт. '
-ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411572"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692734"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Почему я не могу использовать центр администрирования Skype для бизнеса Online прямо сейчас?
 

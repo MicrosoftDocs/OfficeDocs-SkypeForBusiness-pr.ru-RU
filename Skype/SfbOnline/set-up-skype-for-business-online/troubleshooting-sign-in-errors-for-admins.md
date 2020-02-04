@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Priority
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Сведения о распространенных причинах ошибок входа в Skype для бизнеса Online и пошаговые инструкции по устранению этих проблем. '
-ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3315dec928ec019dc8f970171d2eb44693cdf909
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221494"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692774"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Устранение проблем со входом в Skype для бизнеса Online для администраторов
 
@@ -194,7 +195,7 @@ ms.locfileid: "35221494"
 
 1. Установите значение **TRUE** для атрибута **msRTCSIP-UserEnabled** на компьютерах всех пользователей, у которых возникла проблема.
 
-2. Перезапустите средство синхронизации Microsoft Online Services со службой каталогов (DirSync). Дополнительные сведения см. в статье [Интеграция локальных каталогов с Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx).
+2. Перезапустите средство синхронизации Microsoft Online Services со службой каталогов (DirSync). Дополнительные сведения см. в статье [Интеграция локальных каталогов с Azure Active Directory](https://technet.microsoft.com/ru-RU/library/hh967642.aspx).
 
 Устранение проблем со входом в Skype для бизнеса Online следует начать с исключения наиболее распространенных причин. Затем при необходимости можно выполнить определенные действия в зависимости от типа ошибки. Если пользователю по-прежнему не удается выполнить вход, соберите дополнительные сведения и обратитесь за помощью.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Использование руководства по устранению неполадок службы технической поддержки корпорации Майкрософт

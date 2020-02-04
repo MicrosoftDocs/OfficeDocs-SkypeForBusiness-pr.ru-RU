@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Если у вас есть пулы, пулы или пограничные серверы, вам потребуется развернуть балансировку нагрузки для этих пулов. Load balancing distributes the traffic among the servers in a pool. For details, see:'
-ms.openlocfilehash: 62958efcb528995e9c7349f6b40baa82ab184707
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 94b6082205deea4d2c64c2aa167e3c3131eec3fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281575"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689804"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  

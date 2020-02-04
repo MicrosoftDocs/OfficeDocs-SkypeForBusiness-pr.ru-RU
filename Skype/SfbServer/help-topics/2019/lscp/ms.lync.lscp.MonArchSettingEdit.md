@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Конфигурации архивирования используются для управления параметрами архивирования развертывания. Конфигурации архивирования включают глобальную конфигурацию и, возможно, одну или несколько конфигураций сайта или пула:'
-ms.openlocfilehash: 68d5de88fc56441989e8ffc9ceabfd3236179d1f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c387095f40078246a1391af5968925a7b28caf2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291980"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691144"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Конфигурация архивирования: создание новой или редактирование существующей
  
@@ -71,5 +71,5 @@ ms.locfileid: "34291980"
     > [!NOTE]
     > Если вы включаете интеграцию Microsoft Exchange, удаление для пользователей, расположенных на сервере Exchange, и почтовые ящики, помещенные на хранение на месте, контролируются Exchange. Единственным исключением является передача файлов конференций, которые хранятся на общем файловом сервере Lync Server. Эти файлы удаляются из файлового хранилища только после того, как эти файлы экспортированы (отправлены в Exchange), если выбран параметр удаления данных после экспорта архивных данных; или после заданного числа дней, если задан параметр числа дней хранения. 
   
-Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, приведены [в разделе Планирование архивации в Skype для бизнеса](../../../plan-your-deployment/archiving/archiving.md)Server, [развертывание архивации в Skype для бизнеса Server](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для бизнеса Server (сервер](../../../manage/archiving/archiving.md)).
+Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, можно найти [в разделе Планирование архивации в Skype для бизнеса](../../../plan-your-deployment/archiving/archiving.md)Server, [развертывание архивации в Skype для бизнеса Server](../../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для](../../../manage/archiving/archiving.md)бизнеса Server.
 

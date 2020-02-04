@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для хранения архивных данных сервер архивации должен поддерживать 64-разрядную выпускную базу данных SQL Server. Вы можете либо выбрать ранее определенную базу данных SQL Server, которая будет использоваться для архивации, либо определить новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором будет находиться база данных SQL Server, и экземпляр SQL Server, который Вы хотите использовать для новой базы данных SQL Server (которая может быть задана экземпляром по умолчанию или именованным экземпляром).
-ms.openlocfilehash: 9d9d5af7e769a22c7742029d786826e3d2b3c998
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 14a104a28c28c5ea78ab97fd73f7eb7312fffd87
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304102"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689714"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>Добавление хранилища SQL для сервера архивации
 

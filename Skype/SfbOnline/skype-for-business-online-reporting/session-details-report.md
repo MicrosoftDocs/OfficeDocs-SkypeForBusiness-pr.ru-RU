@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: На новой панели мониторинга "отчеты" для Office 365 отображаются общие сведения о действиях в продуктах Office 365 в вашей организации. С его помощью вы сможете детализировать отчеты на уровне продукта, чтобы получить более подробные сведения о действиях в каждом продукте.
-ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793065"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692354"
 ---
 # <a name="session-details-report"></a>Отчет со сведениями о сеансах
 
@@ -45,7 +46,7 @@ ms.locfileid: "35793065"
 3. В списке **выберите отчет**выберите пункт **сведения о сеансе Skype для бизнеса**.
     
     > [!TIP]
-    > Если вы не видите этот отчет в списке, перейдите в**** > **** >  **центр администрирования Skype для бизнеса**с подробными сведениями о сеансе. 
+    > Если вы не видите этот отчет в списке, перейдите в > **** >  **центр администрирования Skype для бизнеса**с**подробными сведениями о сеансе**. 
   
     > [!IMPORTANT]
     > Для некоторых подписок на Office 365 могут быть доступны не все продукты и отчеты об активности, показанные в этой статье. 
@@ -117,7 +118,7 @@ ms.locfileid: "35793065"
 
 - [Отчет о пулах минут в Skype для бизнеса PSTN](pstn-minute-pools-report.md) вы можете просматривать количество минут, потраченных на текущий месяц Организации.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Отчеты об активности в центре администрирования](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

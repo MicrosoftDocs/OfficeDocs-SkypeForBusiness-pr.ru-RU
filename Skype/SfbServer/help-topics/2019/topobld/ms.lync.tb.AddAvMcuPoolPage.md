@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Все серверы переднего плана Enterprise Edition на центральном сайте, не поддерживающим Объединенную службу конференц-связи, могут использовать один и тот же автономный пул конференций/V. Для каждого пула конференций (/V) необходимо указать полное доменное имя (FQDN) для пула, а также будет ли он иметь только один сервер для конференц-связи A/V или несколько серверов для конференц-связи с балансировкой нагрузки.
-ms.openlocfilehash: dfd1fd056e015ed4d6ed1344384efa485e65f318
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0cef8dd5c99859f03018d959f0d2d5a9d0523681
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304058"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689692"
 ---
 # <a name="add-av-mcu-pool"></a>Добавление пула A/V MCU
  

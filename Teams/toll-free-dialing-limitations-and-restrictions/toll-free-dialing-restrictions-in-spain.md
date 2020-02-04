@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 41fe4c0949b39c108a762475d9b24b1e35fa32b1
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 83680f72541f87db3d29221efc88da2dc5086e58
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565120"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693284"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Ограничения набора бесплатных номеров в Испании
 
@@ -45,7 +46,7 @@ ms.locfileid: "37565120"
 |Доступность мобильных сетей  <br/> |Да. Доступно по премиальному тарифу.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Доступна идентификация мобильных абонентов по передаваемым импульсным сигналам.  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'Этот отчет вместе с другими отчетами в Skype для бизнеса содержит подробные сведения о действиях, в том числе использование PSTN в Организации. '
-ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793017"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692334"
 ---
 # <a name="users-blocked-report"></a>Отчет о заблокированных пользователях
 
@@ -36,9 +37,9 @@ ms.locfileid: "35793017"
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Получение отчета о заблокированных пользователях Skype для бизнеса
 
-![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса**
+![Значок с логотипом Skype для бизнеса](../images/sfb-logo-30x30.png) **Использование центра администрирования Skype для бизнеса**
 
-- Перейдите в центр администрирования > **** > **центр** > администрирования Skype для бизнеса, который**показывает** > , что**пользователи заблокированы**.
+- Перейдите в центр **администрирования >** > **центр** > администрирования Skype для бизнеса, который**показывает** > , что**пользователи заблокированы**.
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Интерпретация отчета о заблокированных пользователях Skype для бизнеса
 
@@ -84,7 +85,7 @@ ms.locfileid: "35793017"
 
 - [Отчет о сеансах Skype для бизнеса](session-details-report.md) Вы можете просматривать сведения о звонках отдельных пользователей.
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 [Отчеты об активности в центре администрирования](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

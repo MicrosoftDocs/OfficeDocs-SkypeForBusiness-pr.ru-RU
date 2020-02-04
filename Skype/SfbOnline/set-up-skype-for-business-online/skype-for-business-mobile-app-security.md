@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Сведения о настройке безопасности мобильных приложений для пользователей. '
-ms.openlocfilehash: 109fd6cb2ddccbc69ddae3e912506836ee49a399
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8fa54ffa738bcd69f8cf4a29a530b86c91a63c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285137"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692864"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Безопасность мобильного приложения Skype для бизнеса
 
@@ -38,7 +39,7 @@ ms.locfileid: "34285137"
 |**iOS** <br/> |Мы не зашифрованы имя пользователя и пароль в цепочке ключей. Тем не менее, цепочка ключей шифруется.  <br/> |Для всех файлов в хранилище приложений уже используется флаг защиты данных [нсфилепротектионкомплетеунтилфирстусераусентикатион](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) . Это означает, что файлы в хранилище приложения будут зашифрованы до тех пор, пока пользователь не разблокирует устройство в первый раз после перезагрузки устройства. <br/> |Эти данные не зашифрованы.  <br/> |
 |**Windows Phone** <br/> |Windows Phone использует DPAPI (API защиты данных) в Windows для защиты паролей. Я считаю, что используемая схема шифрования — AES. Операционная система Windows не дает нам возможности настроить размер ключа (или схему), и это может быть любой интерфейс DPAPI. Он будет использовать доверенный платформенный модуль для безопасного ключа, специфичных для пользователя и устройства. Обратите внимание, что ключи DPAPI не специфичны для приложения.  <br/> |Данные приложения ВЧ защищаются с помощью [дпап](https://msdn.microsoft.com/en-us/library/windows/apps/hh487164%28v=vs.105%29.aspx)I, например учетных данных. В зависимости от того, какой объем информации требуется, некоторые данные индекса для данных приложения защищаются с помощью шифрования AES (не в DPAPI), чтобы не допустить Salt-версии, поэтому мы можем найти без расшифровки, и этот ключ, в свою очередь, защищен с помощью DPAPI. Кэшированные данные могут быть прочитаны любым процессом с того же телефона, предполагая, что он может получить доступ к нашей папке данных. Шифрование Windows не защищает от нарушений в среде "песочницы", но только для внешних попыток доступа.  <br/> |Эти данные не зашифрованы.  <br/> |
    
-**Примечание.** Пожалуйста, ознакомьтесь с [этой](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) общедоступной документацией для принудительного применения PIN-кода устройства на каждой из указанных выше мобильных платформ.
+**Примечание.** Пожалуйста, ознакомьтесь с [этой общедоступной документацией](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) для принудительного применения PIN-кода устройства на каждой из указанных выше мобильных платформ.
   
 ## <a name="related-topics"></a>Статьи по теме
 [Настройка Skype для бизнеса Online](set-up-skype-for-business-online.md)

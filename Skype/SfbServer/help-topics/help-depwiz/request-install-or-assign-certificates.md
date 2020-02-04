@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainCerts
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: Шаг 3. запрос, установка и назначение сертификатов. Запуск мастера сертификатов после нажатия кнопки выполнить. Сертификаты, настроенные с помощью мастера, основываются на определении топологии 2015 в Skype для бизнеса Server, которая настроена и Опубликовано построителем топологии в хранилище Центрального управления. Для успешного запуска мастера сертификатов в Интернет-центре сертификации необходимо войти в систему с учетной записью пользователя, который является членом группы локальных администраторов компьютера. Кроме того, необходимо иметь учетную запись пользователя домена, прошедшего проверку подлинности, в домене, где есть компьютер и центр сертификации. Мастер сертификатов предоставляет возможность указывать альтернативные учетные данные для доступа к центру сертификации организации.
-ms.openlocfilehash: fe9fe2d994541656d81d934ed1f16fd72978d037
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5d3c224142d4e457f584faa440b4fd4000497b3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283578"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687292"
 ---
 # <a name="request-install-or-assign-certificates"></a>Запрос, установка или назначение сертификатов
  

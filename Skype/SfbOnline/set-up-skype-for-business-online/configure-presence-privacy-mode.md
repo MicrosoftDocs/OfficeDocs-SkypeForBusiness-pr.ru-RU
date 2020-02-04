@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
 description: 'Узнайте, как настроить режим конфиденциальности для пользователей, чтобы они могли лучше управлять тем, как пользователи видят их доступность. '
-ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285317"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692934"
 ---
 # <a name="configure-presence-privacy-mode"></a>Настройка режима конфиденциальности присутствия
 
@@ -33,7 +33,7 @@ ms.locfileid: "34285317"
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Выбор параметра присутствия по умолчанию в Интернете для всех пользователей в Организации
 <a name="__top"> </a>
 
-1. Перейдите в центр администрирования Skype для бизнеса Online _Гт_ **Organization _Гт_ General (общие**).
+1. Перейдите в центр администрирования Skype для бизнеса Online > **организации > общие**.
     
 2. В разделе **режим конфиденциальности присутствия**выберите параметр, а затем нажмите кнопку **сохранить**.
     

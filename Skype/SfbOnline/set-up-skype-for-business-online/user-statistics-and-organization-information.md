@@ -15,18 +15,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 ms.custom:
 - Setup
 description: 'Узнайте, какая статистика предлагается по пользователям Skype для бизнеса: например, вы можете выяснить число пользователей, которым доступны конференции, Skype для бизнеса или Office 365.'
-ms.openlocfilehash: d15ba89dda3a5a87162855d5746aed93b21598d0
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2d6856129a9d94875efb05254293d87fbc88b8ec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792118"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692751"
 ---
 # <a name="user-statistics-and-organization-information"></a>Статистика пользователей и сведения об организации
 
@@ -38,7 +38,7 @@ ms.locfileid: "35792118"
 |:-----|:-----|
 |**Свойство** <br/> |**Изменение** <br/> |
 |Пользователи Skype для бизнеса Online  <br/> |Как открыть или заблокировать пользователям приложение Skype для бизнеса: [Назначение лицензий пользователям в Office 365 для бизнеса](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [Удаление лицензий пользователей в Office 365 для бизнеса](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Полный список указаний на случай, когда пользователь покидает вашу организацию, см. в разделе [Удаление бывшего сотрудника из среды Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
-|Пользователи, которым доступны аудиоконференции  <br/> |Чтобы включить пользователей для голосовой конференции, ознакомьтесь с разрешениями в Office 365 с помощью видеоконференции " [попробовать или приобрести](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)".  <br/> |
+|Пользователи, которым доступны аудиоконференции  <br/> |Чтобы включить пользователей для голосовой конференции, ознакомьтесь с [разрешениями в Office 365 с помощью видеоконференции "попробовать или приобрести](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)".  <br/> |
 |Пользователи в облаке  <br/> |Число пользователей Skype для бизнеса Online с учетными записями Office 365.  <br/> Добавление пользователей в подписку Office 365 (то есть, создание для них учетных записей Office 365): [Добавление пользователей в Office 365 по одному или массово — справка для администраторов](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
 |Пользователи с синхронизацией и размещением в сети  <br/> |Число "гибридных" пользователей, которые созданы в локальном развертывании Skype для бизнеса Server, но синхронизированы с Office 365.  <br/> Для настройки гибридного подключения Skype для бизнеса см. статью [Развертывание гибридных подключений между Skype для бизнеса Server и Skype для бизнеса Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
    

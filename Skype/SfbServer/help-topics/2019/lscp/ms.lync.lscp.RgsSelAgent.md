@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Агенты — это пользователи, которые предназначены для звонков групп ответов. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Пользователи с подходящими учетными записью включены для Skype для бизнеса Server и Enterprise Voice.
-ms.openlocfilehash: 84af4c10e6e6e0bacd053d16d4d9cce85d80f88e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15185ab3ad7bb16018d7995d5e7eaef6198dc68a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292565"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690774"
 ---
 # <a name="select-agents"></a>Выбор агентов
 
@@ -40,7 +40,7 @@ ms.locfileid: "34292565"
 
 - **SIP Address** Отображаются адреса SIP пользователя, возвращенные функцией поиска.
 
-- **Телефония** Отображает значение поля телефонии **** , определенного для пользователей.
+- **Телефония** Отображает значение поля **телефонии** , определенного для пользователей.
 
 - **Enabled (включено** ) Отображает значение поля **Enabled для Lync Server** , определенного для пользователей.
 

@@ -13,17 +13,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Инструкции по облегчением для учетной записи IP-ретрансляции для Канады.
-ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304125"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693114"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP-ретрансляция в Канаде — регистрация
 
@@ -31,12 +32,12 @@ ms.locfileid: "34304125"
 
 |||
 |:-----|:-----|
-|Фамилия для первой _Амп_:||
+|Имя & фамилия:||
 |Доменное имя клиента Office 365: <br/>(Пример: Contoso.com)||
 |Номер телефона пользователя Office 365: <br/>Пример: + 1 XXX XXX XXXX ||
 |Пароль (от 8 до 16 символов): ||
 |Наиболее вероятной физический адрес <br/>на момент экстренного реагирования:||
-|Номер дома _Амп_ названия:||
+|Номер дома & названия:||
 |Апартамент/набор:||
 |Город||
 |Область или край:||
