@@ -3,6 +3,8 @@ title: 'Этап 5: Добавление сервера Lync Server 2013 EDGE н
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 5: Add Lync Server 2013 Edge Server to pilot pool'
 ms:assetid: d2fd0a2f-8fec-4f86-a5b0-7f7d03172016
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205266(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a6dd8852edfce4cb76f603b1671fdaa40d86712
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88949c4a2be1779d6be0704bfa90c211640e88be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34848958"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="619c0-102">Этап 5: Добавление сервера Lync Server 2013 EDGE на пилотный пул</span><span class="sxs-lookup"><span data-stu-id="619c0-102">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>
+# <a name="phase-5-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="a1aa0-102">Этап 5: Добавление сервера Lync Server 2013 EDGE на пилотный пул</span><span class="sxs-lookup"><span data-stu-id="a1aa0-102">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "34848958"
 
 <span> </span>
 
-<span data-ttu-id="619c0-103">_**Тема последнего изменения:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="619c0-103">_**Topic Last Modified:** 2012-09-06_</span></span>
+<span data-ttu-id="a1aa0-103">_**Тема последнего изменения:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="a1aa0-103">_**Topic Last Modified:** 2012-09-06_</span></span>
 
-<span data-ttu-id="619c0-104">В этом разделе объясняется, как добавить пограничный сервер Lync Server 2013 в развертывание пула пилотной программы.</span><span class="sxs-lookup"><span data-stu-id="619c0-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="619c0-105">В этих разделах приведены рекомендации по настройке и проверке для мастера развертывания нового пула Edge.</span><span class="sxs-lookup"><span data-stu-id="619c0-105">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span>
+<span data-ttu-id="a1aa0-104">В этом разделе объясняется, как добавить пограничный сервер Lync Server 2013 в развертывание пула пилотной программы.</span><span class="sxs-lookup"><span data-stu-id="a1aa0-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="a1aa0-105">В этих разделах приведены рекомендации по настройке и проверке для мастера развертывания нового пула Edge.</span><span class="sxs-lookup"><span data-stu-id="a1aa0-105">The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="619c0-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="619c0-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a1aa0-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="a1aa0-106">In This Section</span></span>
 
-  - [<span data-ttu-id="619c0-107">Развертывание пилотного пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="619c0-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
+  - [<span data-ttu-id="a1aa0-107">Развертывание пилотного пограничного сервера</span><span class="sxs-lookup"><span data-stu-id="a1aa0-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server.md)
 
-  - [<span data-ttu-id="619c0-108">Проверка параметров настройки</span><span class="sxs-lookup"><span data-stu-id="619c0-108">Verify configuration settings</span></span>](verify-configuration-settings.md)
+  - [<span data-ttu-id="a1aa0-108">Проверка параметров настройки</span><span class="sxs-lookup"><span data-stu-id="a1aa0-108">Verify configuration settings</span></span>](verify-configuration-settings.md)
 
 </div>
 

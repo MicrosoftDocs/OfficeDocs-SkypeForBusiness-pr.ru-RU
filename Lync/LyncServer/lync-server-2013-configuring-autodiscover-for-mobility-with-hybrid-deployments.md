@@ -3,6 +3,8 @@ title: Настройка службы автообнаружения для м�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Autodiscover for mobility with hybrid deployments
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215885(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1865cab188bace472996db6207de62ce8498976
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dd6c36afb89d1a8b354d072ee39ee3f6a2e7e93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34841276"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a><span data-ttu-id="2c765-102">Настройка службы автообнаружения в Lync Server 2013 для мобильной работы с гибридными развертываниями</span><span class="sxs-lookup"><span data-stu-id="2c765-102">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a><span data-ttu-id="caab1-102">Настройка службы автообнаружения в Lync Server 2013 для мобильной работы с гибридными развертываниями</span><span class="sxs-lookup"><span data-stu-id="caab1-102">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>
 
 </div>
 
@@ -33,43 +35,43 @@ ms.locfileid: "34841276"
 
 <span> </span>
 
-<span data-ttu-id="2c765-103">_**Тема последнего изменения:** 2014-06-18_</span><span class="sxs-lookup"><span data-stu-id="2c765-103">_**Topic Last Modified:** 2014-06-18_</span></span>
+<span data-ttu-id="caab1-103">_**Тема последнего изменения:** 2014-06-18_</span><span class="sxs-lookup"><span data-stu-id="caab1-103">_**Topic Last Modified:** 2014-06-18_</span></span>
 
-<span data-ttu-id="2c765-104">Гибридное развертывание — это конфигурация, использующая как облачную службу Microsoft Lync Online, так и локальное развертывание.</span><span class="sxs-lookup"><span data-stu-id="2c765-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="2c765-105">В этом типе конфигурации Служба автообнаружения должна находить место, где пользователь фактически находится.</span><span class="sxs-lookup"><span data-stu-id="2c765-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="2c765-106">Это означает, что средства автообнаружения помогают найти учетную запись пользователя и сервер, на котором размещена учетная запись пользователя, независимо от того, есть ли в локальном развертывании или в развертывании Lync Online.</span><span class="sxs-lookup"><span data-stu-id="2c765-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
+<span data-ttu-id="caab1-104">Гибридное развертывание — это конфигурация, использующая как облачную службу Microsoft Lync Online, так и локальное развертывание.</span><span class="sxs-lookup"><span data-stu-id="caab1-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="caab1-105">В этом типе конфигурации Служба автообнаружения должна находить место, где пользователь фактически находится.</span><span class="sxs-lookup"><span data-stu-id="caab1-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="caab1-106">Это означает, что средства автообнаружения помогают найти учетную запись пользователя и сервер, на котором размещена учетная запись пользователя, независимо от того, есть ли в локальном развертывании или в развертывании Lync Online.</span><span class="sxs-lookup"><span data-stu-id="caab1-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
 
-<span data-ttu-id="2c765-107">Например, если учетная запись пользователя размещена на сервере в Lync Online, попытка найти пользователя будет выполняться следующим образом в процессе, известном как *обнаруживаемость*.</span><span class="sxs-lookup"><span data-stu-id="2c765-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
+<span data-ttu-id="caab1-107">Например, если учетная запись пользователя размещена на сервере в Lync Online, попытка найти пользователя будет выполняться следующим образом в процессе, известном как *обнаруживаемость*.</span><span class="sxs-lookup"><span data-stu-id="caab1-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
 
-  - <span data-ttu-id="2c765-108">Пользователь инициирует попытку подключения к локальному развертыванию **contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="2c765-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
+  - <span data-ttu-id="caab1-108">Пользователь инициирует попытку подключения к локальному развертыванию **contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="caab1-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
 
-  - <span data-ttu-id="2c765-109">Предпринята попытка отправки в lyncdiscover.contoso.com, DNS-имя, связанное со службой автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="2c765-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
+  - <span data-ttu-id="caab1-109">Предпринята попытка отправки в lyncdiscover.contoso.com, DNS-имя, связанное со службой автообнаружения.</span><span class="sxs-lookup"><span data-stu-id="caab1-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
 
-  - <span data-ttu-id="2c765-110">Автообнаружения — это предполагаемый пул регистраторов в локальной среде развертывания contoso.com и получает сведения на основном сервере, размещенном на Lync Online.</span><span class="sxs-lookup"><span data-stu-id="2c765-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="2c765-111">Затем служба автообнаружения отправляет пользователю ссылку на службу автообнаружения **Lync.com** Online.</span><span class="sxs-lookup"><span data-stu-id="2c765-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
+  - <span data-ttu-id="caab1-110">Автообнаружения — это предполагаемый пул регистраторов в локальной среде развертывания contoso.com и получает сведения на основном сервере, размещенном на Lync Online.</span><span class="sxs-lookup"><span data-stu-id="caab1-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="caab1-111">Затем служба автообнаружения отправляет пользователю ссылку на службу автообнаружения **Lync.com** Online.</span><span class="sxs-lookup"><span data-stu-id="caab1-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
 
-  - <span data-ttu-id="2c765-112">Пользователь инициирует попытку подключения к службе автообнаружения lync.com Online и может найти учетную запись пользователя и домашний сервер пользователя.</span><span class="sxs-lookup"><span data-stu-id="2c765-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
+  - <span data-ttu-id="caab1-112">Пользователь инициирует попытку подключения к службе автообнаружения lync.com Online и может найти учетную запись пользователя и домашний сервер пользователя.</span><span class="sxs-lookup"><span data-stu-id="caab1-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
 
-<span data-ttu-id="2c765-113">Чтобы разрешить мобильным клиентам найти развертывание, в котором находится домашний сервер пользователей, необходимо настроить службу автообнаружения с помощью нового URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="2c765-113">To enable mobile clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL).</span></span> <span data-ttu-id="2c765-114">Чтобы настроить службу автообнаружения, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="2c765-114">Do the following to configure the Autodiscover service.</span></span>
+<span data-ttu-id="caab1-113">Чтобы разрешить мобильным клиентам найти развертывание, в котором находится домашний сервер пользователей, необходимо настроить службу автообнаружения с помощью нового URL-адреса.</span><span class="sxs-lookup"><span data-stu-id="caab1-113">To enable mobile clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL).</span></span> <span data-ttu-id="caab1-114">Чтобы настроить службу автообнаружения, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="caab1-114">Do the following to configure the Autodiscover service.</span></span>
 
 <div>
 
-## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="2c765-115">Настройка автообнаружения для гибридных развертываний</span><span class="sxs-lookup"><span data-stu-id="2c765-115">Configuring Autodiscover for Hybrid Deployments</span></span>
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="caab1-115">Настройка автообнаружения для гибридных развертываний</span><span class="sxs-lookup"><span data-stu-id="caab1-115">Configuring Autodiscover for Hybrid Deployments</span></span>
 
-1.  <span data-ttu-id="2c765-116">Функция Get-Кшостингпровидер используется для получения значения атрибута Проксифкдн.</span><span class="sxs-lookup"><span data-stu-id="2c765-116">You use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
+1.  <span data-ttu-id="caab1-116">Функция Get-Кшостингпровидер используется для получения значения атрибута Проксифкдн.</span><span class="sxs-lookup"><span data-stu-id="caab1-116">You use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
 
-2.  <span data-ttu-id="2c765-117">В командной консоли Lync Server введите</span><span class="sxs-lookup"><span data-stu-id="2c765-117">From the Lync Server Management Shell, type</span></span>
+2.  <span data-ttu-id="caab1-117">В командной консоли Lync Server введите</span><span class="sxs-lookup"><span data-stu-id="caab1-117">From the Lync Server Management Shell, type</span></span>
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    <span data-ttu-id="2c765-118">Где \[идентификатор\] заменяется доменным именем общего адресного пространства SIP.</span><span class="sxs-lookup"><span data-stu-id="2c765-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
+    <span data-ttu-id="caab1-118">Где \[идентификатор\] заменяется доменным именем общего адресного пространства SIP.</span><span class="sxs-lookup"><span data-stu-id="caab1-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2c765-119">См. также</span><span class="sxs-lookup"><span data-stu-id="2c765-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="caab1-119">См. также</span><span class="sxs-lookup"><span data-stu-id="caab1-119">See Also</span></span>
 
 
-<span data-ttu-id="2c765-120">[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2c765-120">[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))</span></span>  
-<span data-ttu-id="2c765-121">[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2c765-121">[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))</span></span>  
+<span data-ttu-id="caab1-120">[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="caab1-120">[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))</span></span>  
+<span data-ttu-id="caab1-121">[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="caab1-121">[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))</span></span>  
   
 
 </div>
