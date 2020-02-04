@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceTestEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: Возможность "Устройство проверки" работает совместно с возможностью "Обновление устройства". Вы можете добавить устройство проверки на страницу Устройство проверки и затем использовать его для проверки функциональных возможностей новых обновлений перед их развертыванием на производственных устройствах. Вы можете протестировать устройство глобально (то есть в рамках всей среды) или для отдельного сайта. Устройство проверки указывается по MAC-адресу или серийному номеру. После добавления устройства оно появится в списке на странице "тестирование устройства" на панели управления "Skype для бизнеса Server".
-ms.openlocfilehash: 18cc276889e479a9aea7ac87950e2f50bb627578
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 56f5c7b43f55f50c5fa5e73cade3f74bea752778
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293230"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699471"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Тестовое устройство: создание нового или редактирование существующего
 

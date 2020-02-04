@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Благодаря корпоративной голосовой связи, Skype для бизнеса Server 2015 предлагает отдельное предложение голосовой связи по Интернету (VoIP) для расширения или замены традиционных компьютеров, использующих протокол обмена личной ветвью (АТС). Пользователи предприятий голосовой связи могут звонить коллегам в сети VoIP или УАТС организации и звонить на обычные телефонные номера за пределами вашей организации. Корпоративная голосовая связь включает в себя распространенные функции, такие как "ответить", "вперед", "передача", "удержание", "переадресация", "выпуск", "придерживаться" и Улучшенный 9-1-1 (E9-1-1) звонок в США (E9-1-1). Корпоративная голосовая связь также поддерживает широкий спектр текущих и устаревших IP-и USB-устройств.
-ms.openlocfilehash: 0441e71886dbf4c7972be115a35180786180ee44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0af20c421e1b5238fda73b3d57f12e43b5afa1a8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281538"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698654"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  

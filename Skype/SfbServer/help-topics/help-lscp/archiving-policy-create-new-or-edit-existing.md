@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 'Политики архивации используются для управления архивированием внутренней и внешней связи в развертывании для пользователей, которые размещены на сервере Skype для бизнеса Server. Политики архивирования включают глобальную политику и, дополнительно, одну или несколько политик сайтов и пользователей:'
-ms.openlocfilehash: 6390718110580fbe496b215e717cfa32d48936e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c1c4d88b4b06accdb1810c23aa7ad81a8b9225f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299836"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700553"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Политика архивирования: создание новой или редактирование существующей
  
@@ -48,5 +48,5 @@ ms.locfileid: "34299836"
     
 - **Архивация внешней связи** Установите этот флажок, чтобы включить архивацию данных, включающих внешних пользователей, например удаленных пользователей, а также пользователей с установленными параметрами "Анонимный" и "PIC" и федеративного партнера. По умолчанию этот параметр не включен ни в одной политике.
     
-Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, приведены [в разделе Планирование архивации в Skype для бизнеса server 2015](../../plan-your-deployment/archiving/archiving.md), развертывание архивации в Skype [для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для Business Server 2015](../../manage/archiving/archiving.md).
+Подробные сведения о функциях и возможностях архивации, включая интеграцию с Exchange, приведены [в разделе Планирование архивации в Skype для бизнеса server 2015](../../plan-your-deployment/archiving/archiving.md), [развертывание архивации в Skype для бизнеса Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)и [Управление архивацией в Skype для бизнеса Server 2015](../../manage/archiving/archiving.md).
 

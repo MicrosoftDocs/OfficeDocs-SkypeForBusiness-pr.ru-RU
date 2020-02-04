@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 description: Параметры конфигурации собрания определяют типы конференций (также калледмитингс), которые пользователи могут создавать, и определяют, как анонимные пользователи и пользователи конференц-связи с телефонным подключением могут присоединиться к этим конференциям. Эти параметры распространяются только на запланированные собрания. Они не распространяются на одноранговые собрания, созданные посредством выбора элемента "Провести собрание" в клиенте.
-ms.openlocfilehash: 82619b255f99dc5a82d6a9cb704fe5443fe83d23
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e4d0b11bc169b7658061e33fdfb8ddf0bd4b044
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293426"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700044"
 ---
 # <a name="meeting-configuration"></a>Конфигурация собрания
 

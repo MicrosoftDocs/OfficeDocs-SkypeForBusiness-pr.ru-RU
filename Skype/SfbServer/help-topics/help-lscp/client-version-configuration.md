@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Кроме того, чтобы указать версию клиентов, которые вы хотите поддерживать в вашей среде, вы также можете задать действие по умолчанию для клиентов, у которых еще не определена политика управления версиями. Это позволяет ограничить использование клиентских версий в среде, что поможет вам управлять затратами, связанными с поддержкой нескольких клиентских версий.
-ms.openlocfilehash: 3f223cbf90f76aab38cdb443d96dabd3d7797079
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46969857647a51dd092e3131dd3c24b71b810a2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300030"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700444"
 ---
 # <a name="client-version-configuration"></a>Конфигурация версий клиентов
 

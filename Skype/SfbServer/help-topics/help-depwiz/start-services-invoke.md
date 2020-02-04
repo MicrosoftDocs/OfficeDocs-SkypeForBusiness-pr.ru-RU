@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployStartServicesInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: В области "Сводка" в области "выполняемые команды" отображаются сведения о состоянии задач, выданных для запуска служб для сервера ролей Skype для бизнеса Server 2015, который вы развертываете. В сводной информации в области задач не отображается запуск служб в реальном времени. Некоторые службы Skype для бизнеса Server могут занимать продолжительное время для начала начального процесса запуска. В процессе выполнения задач вызывается команда запуска, но этот процесс не приостанавливается для проверки успешности запуска службы. Если необходимо отслеживать запуск службы и ее состояние, следует пользоваться консолью управления (MMC) для служб Windows.
-ms.openlocfilehash: 249ced56bd7abdc5b5142503fcffc5cb2107dde2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 92fbafc05f195a2cc0cc0c9d335f2d4b1939fbb2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289563"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700724"
 ---
 # <a name="start-services-invoke"></a>Запуск служб (вызов)
  

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Создавать сохраняемые комнаты чатов и управлять ими намного проще благодаря правильному использованию категорий. Администратор сохраняемого чата может определять Алловедмемберс и создателя для каждой категории, а также задавать параметры и поведения комнаты чата по умолчанию, которые будут применяться ко всем комнатам чата, созданным в этой категории. Сохраняемые администраторы чата создают категории и управляйте ими с помощью панели управления Skype для бизнеса Server или командлетов Windows PowerShell.
-ms.openlocfilehash: 6fc3feb4465f1ad55d369ed736ea277853aadc13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfaa7531f4f2a401dd90dc9473409d301a2fbfa6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294111"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699644"
 ---
 # <a name="select-creators"></a>Выбор создателей
 

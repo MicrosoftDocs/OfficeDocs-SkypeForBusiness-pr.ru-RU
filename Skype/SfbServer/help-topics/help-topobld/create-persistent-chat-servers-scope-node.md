@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: Вы можете щелкнуть правой кнопкой мыши группу постоянного чата в построителе топологии, чтобы выполнить указанные ниже действия.
-ms.openlocfilehash: 60c28ea5999030717da0885801eb6410c3d9a712
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15f73a250944cc30b26cbeec093015b861b83f2e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305936"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697584"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Создание узла области применения серверов сохраняемого чата
  

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: Вы может указать версию клиентов, поддерживаемых в вашей среде. При взаимодействии двух клиентов с разными версиями возможности, доступные обоим клиентам, могут быть ограничены возможностями другого клиента. Чтобы обеспечить максимально эффективное использование функций, включенных в Skype для бизнеса Server 2015, и улучшить общее взаимодействие с пользователем, вы можете использовать фильтр клиентской версии для ограничения версий клиентов, используемых в среде. Используя этот фильтр, вы также можете сократить расходы, связанные с поддержкой нескольких версий клиентов.
-ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53fe5e7636d95dcbb620b2d89714d8e6609ffaa4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300009"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700404"
 ---
 # <a name="client-version-policy"></a>Политика версий клиентов
 

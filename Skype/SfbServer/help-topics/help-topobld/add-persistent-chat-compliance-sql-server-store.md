@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Вы настраиваете хранилища SQL Server для соответствия требованиям к базам данных для сервера сохраняемого чата или функции соответствия требованиям сервера сохраняемого чата.
-ms.openlocfilehash: 79d7351563f049c7d05a0d592ecb3d65dba3eebb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64697fbe9783bbdf356a28882f7cf53e7e96ef94
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281762"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698074"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Добавление хранилища SQL Server для совместимости сохраняемого чата
  
@@ -30,7 +30,7 @@ ms.locfileid: "34281762"
   
 Установите флажок **включить зеркальное отображение хранилища SQL Server** , чтобы настроить базу данных SQL Server и дополнительный экземпляр, который будет предоставлять зеркальную базу данных для сведений о соответствии требованиям сохраняемого чата.
   
-Выберите в зеркальном отображении списка в **SQL Server сохраните** сервер SQL Server и Необязательный экземпляр, чтобы он действовал на SQL Server для сервера обработки соответствия требованиям сохраняемого чата.
+Выберите в **зеркальном отображении списка в SQL Server сохраните** сервер SQL Server и Необязательный экземпляр, чтобы он действовал на SQL Server для сервера обработки соответствия требованиям сохраняемого чата.
   
 Нажмите кнопку **создать** , чтобы определить новый SQL Server и создать новый экземпляр для сохраняемого зеркального отображения SQL Server.
   

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Вы можете настроить резервные хранилища SQL Server, в которых будут храниться резервные копии для сервера сохраняемого чата или для пула серверов сохраняемого чата.
-ms.openlocfilehash: 39e5e1ead6ed3cb089545406852de16170d782dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05baf1760b1f7a4f8c30d964b55811d56a2830a8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304655"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698084"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Добавление резервного хранилища SQL Server сохраняемого чата
  
@@ -30,7 +30,7 @@ ms.locfileid: "34304655"
   
 Установите флажок **включить зеркальное отображение хранилища SQL Server** , чтобы настроить базу данных SQL Server и дополнительный экземпляр, который предоставит зеркальную базу данных для сохраняемого резервного копирования чата.
   
-Выберите в зеркальном отображении списка в **SQL Server сохраните** сервер SQL Server и Необязательный экземпляр, чтобы он действовал для резервного копирования данных сохраняемого чата, как SQL Server.
+Выберите в **зеркальном отображении списка в SQL Server сохраните** сервер SQL Server и Необязательный экземпляр, чтобы он действовал для резервного копирования данных сохраняемого чата, как SQL Server.
   
 Нажмите кнопку **создать** , чтобы определить новый SQL Server и создать новый экземпляр для сохраняемого зеркального отображения SQL Server.
   

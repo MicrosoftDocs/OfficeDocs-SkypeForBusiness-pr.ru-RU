@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Политики расположения определяют, включена ли технология Enhanced 9-1-1 (E9-1-1) и как она используется, а также определяют, как сведения о расположении применяются для пользователей и контактов.
-ms.openlocfilehash: cb28dd60793da6681f2a8db71cf40ce8a5eda6fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e780256ba025328c6a84d709aaa4c6f522b219df
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293475"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700104"
 ---
 # <a name="location-policy"></a>Политика определения местонахождения
 

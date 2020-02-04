@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: В диалоговом окне "Выбор пользователей корпоративной голосовой связи" можно найти пользователей, для которых разрешено использование корпоративной голосовой связи. В поле поиска введите адрес SIP или отображаемое имя пользователя, которого вы хотите найти, и нажмите кнопку найти. Чтобы выбрать пользователя, выберите его в списке результатов поиска и нажмите кнопку ОК. Если вы не можете найти нужного пользователя, он может быть недоступен для корпоративной голосовой связи.
-ms.openlocfilehash: 04b940d99f4f32f2618589c840436618de55bf54
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e32b80403f318ec02068471a9dd455dd45269262
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294089"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699634"
 ---
 # <a name="select-enterprise-voice-users"></a>Выбор пользователей корпоративной голосовой связи
  

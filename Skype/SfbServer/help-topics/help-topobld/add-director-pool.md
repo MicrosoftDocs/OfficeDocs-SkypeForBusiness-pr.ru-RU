@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Чтобы определить полное доменное имя пула, выберите один из нескольких, который будет состоять из двух или более директоров в пуле с балансировкой нагрузки или один пул компьютеров. Кроме того, необходимо ввести полное доменное имя (FQDN), которое будет использоваться для подключения к каталогу пула или доменному имени одного из каталогов. Для пула компьютеров с режиссерами это может быть DNS-запись для виртуального IP-адреса аппаратной подсистемы балансировки нагрузки или общего DNS-записи для балансировки нагрузки DNS.
-ms.openlocfilehash: 163de8a6091e74238c4a4127ae39f7cd500cdb84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 150975cedf09c19acac1afffab25f5becf053fe3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304788"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698574"
 ---
 # <a name="add-director-pool"></a>Добавление пула директоров
  

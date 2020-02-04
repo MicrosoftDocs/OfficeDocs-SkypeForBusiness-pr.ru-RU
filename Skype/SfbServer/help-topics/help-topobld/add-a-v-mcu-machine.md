@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddAvMcuMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который вы хотите добавить в качестве сервера конференц-связи (A/v) в этом пуле конференц-связи. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии изменение полного доменного имени требует удаления сервера в построителе топологии и добавления нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 0fa18fac36cc6b9599213a3f19e2a863957baafd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 748c75d8d812ac42a51087c29aa9e82c27a6314b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304991"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698724"
 ---
 # <a name="add-av-mcu-machine"></a>Добавление машины A/V MCU
  

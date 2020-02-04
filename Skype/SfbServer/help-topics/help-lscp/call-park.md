@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Когда звонок приостанавливается, он передается во временный номер, в котором звонок удерживается до тех пор, пока кто-то не загружает его или не истечет время ожидания. Вы должны настроить таблицу с диапазонами добавочных номеров, которые вы сохраняете для приостановки звонка. Эти добавочные номера должны быть виртуальными (то есть не иметь назначенного пользователя или назначенный телефон). Каждый пул, на котором запущено приложение для парковки, может иметь один или несколько диапазонов расширений. Эти диапазоны должны быть уникальными в рамках всего развертывания.
-ms.openlocfilehash: 2b29591ac0173310caf2513db5d27b53142e9ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a7417ab525f8471b730dc177a993c3458750a3f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299899"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700304"
 ---
 # <a name="call-park"></a>Приостановка вызовов
 

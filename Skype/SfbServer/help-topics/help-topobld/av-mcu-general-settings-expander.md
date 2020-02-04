@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 description: 'Чтобы изменить свойства для пула серверов конференц-связи с уже определенными интерфейсами, вы можете сделать следующее:'
-ms.openlocfilehash: 2f3ebc1406c607ed053ec18570b06e7a6d51bd15
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: edace07f8d230a49a94140bdc43dedf07cf95eb7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301661"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697744"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Расширитель общих настроек AV MCU
  
@@ -33,7 +33,7 @@ ms.locfileid: "34301661"
 Чтобы связать пул серверов для конференц-связи A/V, выберите пул или пулы, которые нужно связать с пулом серверов для конференц-связи "A/V".
   
 > [!NOTE]
-> Если ни один из пулов интерфейсов не отображается в списке **выбрать интерфейсных пулов для связи с этой** областью, вы либо Выбери сервер конференц-связи с внешним интерфейсом, либо не выбирали конференции в **функциях и **раздел "функциональность" свойств пула переднего плана.
+> Если ни один из пулов интерфейсов не отображается в списке **выбрать интерфейсных пулов для связи с этой** областью, вы либо Выбери сервер конференц-связи с внешним интерфейсом, либо не выбирали конференции в разделе **функции и функциональность** в свойствах пула переднего плана.
   
 
 

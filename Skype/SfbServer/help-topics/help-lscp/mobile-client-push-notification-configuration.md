@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Чтобы настроить push-уведомления Майкрософт и Push-уведомления Apple, необходимо создать политику, чтобы определить, какие типы push-уведомлений вам нужны.
-ms.openlocfilehash: 571efc74050dc7b7cf55677167a803ddcd8c8f14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 36cf19d42a2378e024f90d3dbe60123b3d5473fa
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293391"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700034"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Мобильный клиент: конфигурация push-уведомлений
  
@@ -46,7 +46,7 @@ ms.locfileid: "34293391"
   
 Создание новой политики или изменение существующей политики связано с двумя действиями:
   
-- **Commit** (фиксация) Действие Commit создает или обновляет политику и сохраняет изменения.
+- **Commit (фиксация** ) Действие Commit создает или обновляет политику и сохраняет изменения.
     
 - **Отмена** Действие отмены отменяет все изменения, внесенные с момента последнего действия фиксации. При отмене все внесенные изменения будут потеряны.
     
