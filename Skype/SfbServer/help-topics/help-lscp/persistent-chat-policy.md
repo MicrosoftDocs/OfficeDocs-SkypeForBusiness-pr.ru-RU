@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Страницу Политика сохраняемого чата группы Сохраняемый чат можно использовать для управления политиками на глобальном уровне, на уровне пула, сайта или пользователя, в том числе для настройки глобальной политики по умолчанию и создания одной или нескольких дополнительных политик пользователей или сайтов для вашего развертывания. Если для пользователя включен параметр "сохраняемый сервер чата", то среда сервера сохраняемого чата появится на своем клиенте.
-ms.openlocfilehash: f08f0af3c2f553f1acc980c64be1602519ffa898
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 957956ce8537dd9f3ce08dd0919c7392a0c20810
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291062"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686192"
 ---
 # <a name="persistent-chat-policy"></a>Политика сохраняемого чата
  
@@ -83,7 +83,7 @@ ms.locfileid: "34291062"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>Создание политики пользователей для сохраняемого чата
 
-На панели управления Skype для бизнеса Server вы можете определить политики пользователей, которые можно назначать пользователям. ****
+На панели управления Skype для бизнеса Server вы можете определить **политики пользователей,** которые можно назначать пользователям.
   
 Политика пользователя переопределяет глобальную политику и политики сайта, но только для пользователей, которым она назначена.
   

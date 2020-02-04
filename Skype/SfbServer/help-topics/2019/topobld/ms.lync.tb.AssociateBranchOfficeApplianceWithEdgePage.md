@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Если вы развернули пограничные серверы и хотите предоставить доступ к службам мультимедиа для внешнего использования, выберите Пограничный сервер или пул, которые будут связаны с бесперебойно используемым устройством филиала или с бесперебойной подразделением, выбрав его в раскрывающемся списке. Для продолжения нажмите кнопку Далее.
-ms.openlocfilehash: d4076565e95786895eb012454056e0bc0ddf7619
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8fe50b48b079e255289e90eb1c4940737d801d3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281348"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688852"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Сопоставление устройства для обеспечения связи в филиалах с пограничным сервером
  

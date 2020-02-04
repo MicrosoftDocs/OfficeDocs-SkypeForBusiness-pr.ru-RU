@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Чтобы изменить параметры существующего интерфейсного пула или сервера Standard Edition, изучите следующие разделы:'
-ms.openlocfilehash: 4f8b9ac5a2291ae579dbc2a43e884132da325020
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76992a6d88c25a1907e4bb2cc1f6dee69a418f01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299356"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688521"
 ---
 # <a name="front-end-general-settings-expander"></a>Расширитель общих параметров сервера переднего плана
 
@@ -113,7 +113,7 @@ ms.locfileid: "34299356"
 
 - Порты прослушивания и опубликованные порты для HTTP и HTTPS, которые необходимы для развертывания. Параметры по умолчанию для порта 8080 для HTTP и порта 4443 для HTTPS определяются изначально. Эти параметры портов прослушивания можно изменить в соответствии с требованиями к обратному прокси-серверу и внешней сети. Для опубликованных портов задано значение по умолчанию для порта 80 для HTTP и порта 443 для HTTPS. Эти значения определяют, какие порты будет прослушиваться пулом для входящего запроса. Обычно эти изменения не нуждаются в изменении, если не возникает конфликт с требованиями к порту для пула. Ожидаются внутренние и внешние опубликованные порты с одинаковыми значениями порта. Это не является конфликтом.
 
-### <a name="mediation-server"></a>посредник
+### <a name="mediation-server"></a>Сервер-посредник
 
 В разделе **Сервер-посредник** задайте следующие параметры.
 

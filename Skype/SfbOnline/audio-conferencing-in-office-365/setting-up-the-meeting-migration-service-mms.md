@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Служба миграции собраний (MMS) — это служба, которая запускается в фоновом режиме и автоматически обновляет собрания Skype для бизнеса и Microsoft Teams для пользователей. MMS предназначен для предотвращения необходимости запуска средства миграции собраний для обновления собраний Skype для бизнеса и Microsoft Teams.
-ms.openlocfilehash: 187e1e7dbedc57249c2e2cc3c60ea4c365f470c1
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962547"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680356"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Использование службы миграции собраний (MMS)
 

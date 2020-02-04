@@ -16,16 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.callerid.overview
+f1.keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: Идентификатором вызывающего абонента можно управлять для входящих и исходящих вызовов для пользователей телефонной системы с помощью политики, которая называется CallingLineIdentity.
-ms.openlocfilehash: 671ee484cbb5cccd78f6512d714a4dd0954524b0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 32dbb3d5b164f2e40e0b8399e2047762ecf882ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570753"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680546"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Как можно использовать идентификатор звонящего в организации
 
@@ -64,7 +64,7 @@ ms.locfileid: "37570753"
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Конечные пользователи могут установить для идентификатора вызывающего абонента значение **anonymous** с помощью вкладки " **Параметры** " в классическом клиенте Skype для бизнеса **, выберите команду** " **Скрыть мой номер телефона" и сведения о профиле для всех звонков. **.
+Конечные пользователи могут настроить для идентификатора вызывающего абонента значение **anonymous** с помощью вкладки " **Параметры** " в классическом клиенте Skype для бизнеса **, выберите команду** " **Скрыть мой номер телефона" и сведения о профиле для всех звонков**.
   
 ||||
 |:-----|:-----|:-----|

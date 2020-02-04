@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: 23db850cef33072d010fe87ed0081c1ce30aeb2f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 380a03e7365be4bf83c055c018210aa0c0b91c9c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565282"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682406"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Ограничения набора бесплатных номеров в Кении
 
@@ -45,7 +46,7 @@ ms.locfileid: "37565282"
 |Доступность мобильных сетей  <br/> |Часть. Просмотр примечаний.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Доступно для абонентов наземных сетей Safaricom и Airtel и мобильных сетей Safaricom, Airtel и Orange.  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Узнайте, как определить входящие номера конференц-связи в Skype для бизнеса Online. '
-ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792448"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680516"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Просмотр списка номеров для аудиоконференций в Skype для бизнеса Online
 
@@ -55,7 +56,7 @@ If there is only one phone number available in your organization, it will be use
     
 2. Перейдите в центр администрирования > **Skype для бизнеса**.
     
-3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел видеоконференции **** > **Microsoft Bridge**, а затем:
+3. В **центре администрирования Skype для бизнеса**на панели навигации слева перейдите в раздел **видеоконференции** > **Microsoft Bridge**, а затем:
     
    - Вы можете просматривать телефонные номера, доступные для голосовой конференции.
     
@@ -75,7 +76,7 @@ If there is only one phone number available in your organization, it will be use
     
   - [Лучшие способы управления Office 365 с помощью Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Learn about these advantages in the following topics:
+- Windows PowerShell обладает многими преимуществами для ускорения, простоты и продуктивности только при использовании центра администрирования Microsoft 365, например при одновременном изменении параметров для нескольких пользователей. Ознакомьтесь с этими преимуществами в указанных ниже разделах.
     
   - [Введение в Windows PowerShell и Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -86,7 +87,7 @@ If there is only one phone number available in your organization, it will be use
     > [!NOTE]
     > Модуль Windows PowerShell для Skype для бизнеса online позволяет запускать удаленные сеансы Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль для 64-разрядных систем можно загрузить из Центра загрузки Microsoft здесь: [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Платная или пробная версия аудиоконференций в Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

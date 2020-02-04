@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddMediationServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы определить сервер-посредник, укажите полное доменное имя (FQDN) для пула серверов-исправлений. Если вы создаете пул серверов-посредников, укажите имя пула для серверов-исправлений, которые вы разворачиваете. Полные доменные имена отдельных серверов задаются на другом шаге. Если вы развертываете один сервер-посредник, указанное полное доменное имя будет полным доменным именем сервера единого исправления. Подробности можно найти в разделе Развертывание сервера-посредника в построителе топологии в Skype для бизнеса Server.
-ms.openlocfilehash: a9bb992e9fbceb4171b249f60eb15ecc005476d8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ad24ac7cfcb0186d1534966d1afcd25c23494899
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306228"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689225"
 ---
 # <a name="add-mediation-server"></a>Добавление сервера-посредника
  

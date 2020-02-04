@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: Здесь вы узнаете, как назначить или изменить место расположения для экстренного реагирования для пользователей в вашей организации.
-ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515844"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684172"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Назначение или изменение местоположения для экстренного реагирования для пользователя
 
@@ -40,7 +41,7 @@ ms.locfileid: "37515844"
 
 4. Нажмите кнопку **Сохранить**.
     
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Что такое расположения для экстренного реагирования, места для них и маршрутизация экстренных вызовов?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Добавление, изменение и удаление расположения для экстренного реагирования для организации](add-change-remove-emergency-location-organization.md)

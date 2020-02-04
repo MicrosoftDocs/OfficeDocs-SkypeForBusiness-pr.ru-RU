@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Выберите каждый компонент, который вы хотите включить для пула переднего плана. Как минимум, вы должны развертывать мгновенные сообщения (IM), которые всегда включены и не могут быть выбраны. Кроме того, у вас есть возможность развертывания других функций, таких как конференции, голосовые звонки и управление допуском звонков (CAC). Некоторые возможности зависят от вашей топологии.
-ms.openlocfilehash: bfc796a864f25c65d0f0a5588ff1dbdfe50d548c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6525ffb123ad3170ad8e0ba8faffc56effda989b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297871"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689318"
 ---
 # <a name="add-front-end-features"></a>Добавление компонентов переднего плана
 

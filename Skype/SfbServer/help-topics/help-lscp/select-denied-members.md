@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Администратор сохраняемого чата может создавать категории комнат чата и управлять ими. В рамках создания и управления категориями комнаты чата администратор сохраняемого чата может настраивать участников (для групп доменных служб Active Directory, контейнеров и пользователей), которые имеют доступ к участникам или создателям чатов в определенной категории. Администратор сохраняемого чата также может добавить Дениедмемберс в категорию, и они станут явными исключениями для списка разрешенных. Дениедмемберс переопределить содержимое в Алловедмемберс.
-ms.openlocfilehash: bbf54bfb05a2c3a54c9515d77ae6fb93b22a62ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8b357abe49d794283b7165d9c5decdffaece275
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294083"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685889"
 ---
 # <a name="select-denied-members"></a>Выбор запрещенных участников
 

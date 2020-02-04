@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: 1d380df67e2323c1be2005e8fb300e40d23319b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 13599dd1e68c98dc4d9197e546a62c9a20381130
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291041"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686172"
 ---
 # <a name="pin-policy"></a>Политика ПИН-кодов
 
@@ -31,7 +31,7 @@ ms.locfileid: "34291041"
 
 - [Удаление политики ПИН-кодов в Skype для бизнеса Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
-  **Работа с ПОЛИТИКОЙ ПИН для конференц-связи** с телефонным подключением Эта политика закрепления позволяет пользователям с учетными данными доменных служб Active Directory в Организации присоединяться к конференциям с телефонным подключением для пользователей, прошедших проверку подлинности, вводя ПИН-код.
+  **Работа с ПОЛИТИКОЙ ПИН для конференц-связи с телефонным подключением** Эта политика закрепления позволяет пользователям с учетными данными доменных служб Active Directory в Организации присоединяться к конференциям с телефонным подключением для пользователей, прошедших проверку подлинности, вводя ПИН-код.
 - [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать в течение бестурция.
-ms.openlocfilehash: 5480ed00ea21cc83ca36e029c8898d6f1ed3c71c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0078da82dc6e7569ae52b0ef0a42625ab50175ce
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572293"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682646"
 ---
 # <a name="availability-in-turkey"></a>Доступность в Турции
 

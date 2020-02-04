@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Тринидад и Тобаго.
-ms.openlocfilehash: 32284d83d101431192c81a4a3adf3296f199bab2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1bac3c3f105e78d11231a81d9cd69c9c061fb09c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572304"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683402"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Доступность в Тринидаде и Тобаго
 

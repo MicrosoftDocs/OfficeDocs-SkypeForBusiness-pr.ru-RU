@@ -16,18 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_DialInConfDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- O365P_DialInConfDesc
 description: 'Узнайте, как настроить телефонное подключение или конференц-связь для людей из вашей организации, которым нужно пользоваться телефоном для присоединения к конференциям. '
-ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: ea254da1f742db602d396868aad36a0c20951128
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37924980"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680366"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Настройка голосовой конференции в Skype для бизнеса
 
@@ -77,7 +78,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 ![Значок, показывающий логотип](../images/sfb-logo-30x30.png) Skype для бизнеса **, с помощью центра администрирования Skype для бизнеса:**
 
  1. Перейдите на**портал**администрирования **центра администрирования Microsoft 365** > **** > **Teams** > Center.
- 2. Выберите номера **голосовых** > **телефонов**.
+ 2. Выберите **Голосовая связь** > **Номера телефонов**.
  3. Выберите номер телефона и нажмите кнопку **назначить**.
 
 Для получения дополнительных сведений см. статью [Изменение номеров телефонов для моста аудиоконференций](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).

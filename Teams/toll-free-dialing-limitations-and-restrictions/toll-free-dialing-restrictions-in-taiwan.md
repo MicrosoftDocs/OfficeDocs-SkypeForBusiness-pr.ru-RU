@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: d1a709939c1a86a5c7d777351c2a0c9d15df8b88
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e120637ca003dfc0c2a4368d29e0b6c2bdf73cad
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572904"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681786"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>Ограничения набора бесплатных номеров на Тайване
 
@@ -45,7 +46,7 @@ ms.locfileid: "37572904"
 |Доступность мобильных сетей  <br/> |Частично. См. примечания.  <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Проводной доступ недоступен для абонентов KG Telecom. Мобильный доступ: без повременной оплаты, для абонентов всех мобильных сетей кроме KG Telecom.  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 

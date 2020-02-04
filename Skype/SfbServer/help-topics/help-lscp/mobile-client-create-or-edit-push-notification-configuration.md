@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Push-уведомления и система PNCH — это два компонента для работы с мобильными устройствами. Push-уведомления — это процесс, в котором уведомления отправляются в систему PNCH. Сообщение удерживается в системе до тех пор, пока оно не сможет быть доставлено на мобильный клиент или не закончится срок его действия.
-ms.openlocfilehash: 5c7d78174ca4cfe180742fa73a801704cb85997c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c4a149588abd9e741ae934d73ec23ad2355e772c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293433"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686292"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Мобильный клиент: создание или редактирование конфигурации push-уведомлений
  

@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Это поможет вам узнать, как звонить на бесплатные номера в каждой стране/регионе. После того как вы выберете страну или регион, она перейдет на страницу, которая содержит определенную информацию, ограничения и ограничения бесплатных услуг, в которых доступна бесплатная служба. В форматах набора номера или в разных регионах отображаются необходимые коды доступа в каждой стране/регионе, чтобы набрать бесплатный номер.
-ms.openlocfilehash: e9d500f0c8c69eb0a0bbf1969622dc5f2e50941d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ca54a9e3ff749808854b02a83d79428d1d4d106
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570858"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680446"
 ---
 # <a name="toll-free-dialing-restrictions-in-germany"></a>Ограничения набора бесплатных номеров в Германии
 
@@ -45,7 +46,7 @@ ms.locfileid: "37570858"
 |Доступность мобильных сетей  <br/> | Да. Доступно по премиальному тарифу. <br/> |
 |Примечания, ограничения и проблемы с доступом  <br/> |Не гарантируется доступ для абонентов международных операторов мобильной связи, находящихся в роуминге.  <br/> |
    
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Ограничения и запреты для бесплатных номеров](../toll-free-dialing-limitations-and-restrictions.md)
 
