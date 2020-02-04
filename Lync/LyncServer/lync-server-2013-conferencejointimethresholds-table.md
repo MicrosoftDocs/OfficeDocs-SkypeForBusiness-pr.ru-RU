@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица Конференцежоинтимес�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceJoinTimeThresholds table
 ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66793cc3bd545d343198d00f7fb477c1f9b88fac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: baf29af4b9d1f2b026271b84cb54436e8f4b233f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841489"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,13 +69,13 @@ _**Тема последнего изменения:** 2012-09-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Срешолдид</strong></p></td>
+<td><p><strong>срешолдид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный идентификатор для классификации.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Срешолдвалуе</strong></p></td>
+<td><p><strong>срешолдвалуе</strong></p></td>
 <td><p>целое</p></td>
 <td></td>
 <td><p>Верхний предел для классификации. Допустимые значения:</p>

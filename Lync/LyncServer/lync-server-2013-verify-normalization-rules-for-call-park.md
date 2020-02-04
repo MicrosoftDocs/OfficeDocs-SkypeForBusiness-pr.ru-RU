@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Проверка правил нормализации
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify normalization rules for Call Park
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398981(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 114c7e035d96217f8cf41e88a87ccfd490fe5754
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2041b807ad16f1e91a83da39739d0ea058a5fba5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849188"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34849188"
 
 _**Тема последнего изменения:** 2012-09-11_
 
-Орбиты для приостановки звонка не должны быть нормализованы. Check your dial plans to be sure that your orbit numbers are not normalized. Если необходимо создать дополнительное правило нормализации, чтобы не допустить нормализации, выполните действия, описанные в разделе [Создание абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md) , чтобы определить новое правило нормализации, чтобы **шаблон соответствовал** диапазону на орбите. и **шаблоном перевода** является **$1**. Например, если диапазон на повороте на поворот по орбите равен 7000 – 7999, **шаблон соответствует** **^ (7\\d{3}) $** , а **шаблон перевода** — **$1**.
+Орбиты для приостановки звонка не должны быть нормализованы. Check your dial plans to be sure that your orbit numbers are not normalized. Если необходимо создать дополнительное правило нормализации, чтобы не допустить нормализации, выполните действия, описанные в разделе [Создание абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md) , чтобы определить новое правило нормализации, чтобы **шаблон соответствовал** диапазону орбиты, а **шаблон перевода** — **$1**. Например, если диапазон на повороте на поворот по орбите равен 7000 – 7999, **шаблон соответствует** **^ (7\\d{3}) $** , а **шаблон перевода** — **$1**.
 
 <div>
 

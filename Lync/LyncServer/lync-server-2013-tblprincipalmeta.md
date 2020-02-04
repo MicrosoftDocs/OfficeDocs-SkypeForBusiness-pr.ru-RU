@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalMeta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalMeta
 ms:assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b9b067b9d04ecb32a3e43dbbd1f8435c00fa0c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849533"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,37 +56,37 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Принид</p></td>
+<td><p>принид</p></td>
 <td><p>int, NOT NULL</p></td>
 <td><p>Идентификатор участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>Принаффилиатионсдирти</p></td>
+<td><p>принаффилиатионсдирти</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение true, если присвоить участникам участники необходимо обновлять.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Принаттрибутесдирти</p></td>
+<td><p>принаттрибутесдирти</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение true, если атрибуты участника нужно обновить.</p></td>
 </tr>
 <tr class="even">
-<td><p>Принделетед</p></td>
+<td><p>принделетед</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение true, если участник удален.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Трикаунт</p></td>
+<td><p>трикаунт</p></td>
 <td><p>целое</p></td>
 <td><p>Количество попыток обновления участника из доменных служб Active Directory, произошедших в данный момент.</p></td>
 </tr>
 <tr class="even">
-<td><p>Ласттри</p></td>
+<td><p>ласттри</p></td>
 <td><p>datetime</p></td>
 <td><p>Метка времени последней попытки обновить участника. Может иметь значение null, если вы еще не пытались обновить обновление.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Нексттри</p></td>
+<td><p>нексттри</p></td>
 <td><p>datetime</p></td>
 <td><p>Метка времени для следующего запланированного обновления. Может иметь значение null, если дальнейшее обновление не запланировано.</p></td>
 </tr>
@@ -107,11 +109,11 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Принид</p></td>
+<td><p>принид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>Принид</p></td>
+<td><p>принид</p></td>
 <td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
 </tr>
 </tbody>

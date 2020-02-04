@@ -3,6 +3,8 @@ title: Настройка Lync Server 2013 для работы с серверо
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to work with Office Web Apps Server
 ms:assetid: 6231e519-9010-4ff9-b5a6-b5859c2b3e11
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ba6926af243b15449c5b8baa4b29706a2ec8ade
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f3516822064d0fd42b44edb7af73b321644c36c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,11 +37,11 @@ ms.locfileid: "34841238"
 
 _**Тема последнего изменения:** 2013-04-22_
 
-Прежде чем настраивать Lync Server 2013 для использования сервера Office Web Apps, необходимо развернуть и настроить сервер Office Web Apps. Подробные сведения о том, как установить и настроить один сервер Office Web Apps, а также о том, как установить и настроить сервер Office Web Apps на высоком уровне, можно найти в руководстве по документу, в котором вы можете **Развернуть Office Web Apps Server и Office Web Apps** . официального.
+Прежде чем настраивать Lync Server 2013 для использования сервера Office Web Apps, необходимо развернуть и настроить сервер Office Web Apps. Сведения о том, как установить и настроить один сервер Office Web Apps, а также о том, как установить и настроить сервер Office Web Apps для обеспечения высокой доступности, можно найти в руководстве по документу, в котором вы можете **Развернуть Office Web Apps Server и Office Web Apps** .
 
 После успешной установки Office Web Apps и правильной настройки веб-фермы необходимо настроить Lync Server для связи с новым сервером; Это можно сделать, добавив URL-адрес обнаружения сервера Office Web Apps в топологию сервера Lync. Чтобы добавить сервер Office Web Apps в топологию, выполните следующие действия:
 
-1.  Нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.
+1.  Нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку **Построитель топологии Lync Server**.
 
 2.  В диалоговом окне **построителя топологий** выберите **Загрузить топологию из существующего развертывания**, а затем нажмите **ОК**.
 

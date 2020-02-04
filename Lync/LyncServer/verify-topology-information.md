@@ -3,6 +3,8 @@ title: Проверка сведений о топологии
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34848876"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ _**Тема последнего изменения:** 2012-09-26_
     
     </div>
 
-![Диалоговое окно "Бакккомпатсите Topology Builder"] (images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Диалоговое окно \"Бакккомпатсите Topology Builder\"")
+![Диалоговое окно "Бакккомпатсите Topology Builder"](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Диалоговое окно "Бакккомпатсите Topology Builder"")
 
 Вы также можете использовать панель управления Lync Server 2013, чтобы просмотреть объединенную топологию. В панели управления Lync Server 2013 вы можете просмотреть полные доменные имена серверов, FQDN и имя пула для объединенной топологии. У Объединенных серверов есть имя **сайта** **бакккомпатсите**.
 
@@ -72,7 +74,7 @@ _**Тема последнего изменения:** 2012-09-26_
 
 3.  На вкладке **Status (состояние** ) убедитесь в том, что Объединенные серверы и пулы отображаются по столбцу " **сайт** ", выполнив поиск **бакккомпатсите** .
 
-![Объединенная топология на панели управления сервера Lync Server] (images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Объединенная топология на панели управления сервера Lync Server")
+![Объединенная топология на панели управления сервера Lync Server](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Объединенная топология на панели управления сервера Lync Server")
 
 Чтобы просмотреть дополнительные сведения о объединенном пуле, используйте командлет **Get-кспул** . В дополнение к сведениям, доступным в построителе топологии и панели управления Lync Server 2013, в этом командлете выводятся службы, которые выполняются в пуле Lync Server 2013.
 

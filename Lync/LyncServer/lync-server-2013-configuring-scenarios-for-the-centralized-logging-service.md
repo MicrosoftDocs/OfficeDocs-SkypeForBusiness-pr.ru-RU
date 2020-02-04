@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Настройка сценариев для цент�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd3933ff81fad6947fcc4ab1ff7a7dc9ad136c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841183"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34841183"
 
 _**Тема последнего изменения:** 2014-02-05_
 
-Сценарии определяют область (глобальные, сайты, пулы или компьютеры) и поставщиков услуг, которые используются в централизованной службе ведения журнала. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Если вы обнаружите, что сценарий необходимо изменить в соответствии с требованиями для устранения неполадок и ведения журнала, в средствах отладки Lync Server 2013 есть модуль Windows PowerShell с именем *клсконтроллер. PSM1* , который содержит функцию с именем *Edit-ксклссценарио *. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Средства отладки Lync Server 2013 загружаются по следующей ссылке:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Сценарии определяют область (глобальные, сайты, пулы или компьютеры) и поставщиков услуг, которые используются в централизованной службе ведения журнала. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Если вы обнаружите, что сценарий необходимо изменить в соответствии с требованиями для устранения неполадок и ведения журнала, в средствах отладки Lync Server 2013 есть модуль Windows PowerShell с именем *клсконтроллер. PSM1* , который содержит функцию с именем *Edit-ксклссценарио*. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Средства отладки Lync Server 2013 загружаются по следующей ссылке:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 

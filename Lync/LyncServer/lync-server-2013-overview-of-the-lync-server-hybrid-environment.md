@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Общие сведения о гибридной ср
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Lync Server 2013 hybrid environment
 ms:assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204669(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0420e4aaded9f5ae90d26c4cbdc176e7fb4c6bb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825326"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**Тема последнего изменения:** 2014-05-28_
 
 <div>
 
-## <a name="prerequisites"></a>Необходимые компоненты
+## <a name="prerequisites"></a>Предварительные требования
 
 Для выполнения задач по настройке гибридного развертывания на компьютере должны быть установлены следующие приложения и служебные программы. Установщики для этих файлов будут включены в установочный носитель, указанный для развертывания, а также ссылки, приведенные в следующем списке.
 

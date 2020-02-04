@@ -3,6 +3,8 @@ title: 'Lync Server 2013: предоставление разрешений'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting permissions
 ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61c8afde42a231124648824fbf8fbae07b0beedc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834117"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,9 +43,9 @@ _**Тема последнего изменения:** 2012-10-15_
 
   - Пишу
 
-  - Реадспн
+  - реадспн
 
-  - Вритеспн
+  - вритеспн
 
 Для администрирования вы можете добавить разрешения для указанных подразделений, чтобы участники универсальных групп RTC, созданные с помощью подготовки леса, могли получать доступ к подразделениям без необходимости входить в группу администраторов домена. Разрешения, добавленные в указанный ОРГАНИЗАЦИОНный элемент, совпадают с разрешениями, которые командлет **Enable-ксаддомаин** добавляет к контейнерам OU Computers и Users.
 

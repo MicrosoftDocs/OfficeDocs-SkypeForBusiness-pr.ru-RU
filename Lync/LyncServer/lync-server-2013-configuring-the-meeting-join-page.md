@@ -3,6 +3,8 @@ title: 'Lync Server 2013: конфигурация страницы присое
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the meeting join page
 ms:assetid: 45880423-47f4-49af-b825-cbd8e3fc1046
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204861(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184037
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984386eb15aac3c3d2d46c9d7aaab53457915b39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8471b6b897a365763d55edcbd55e4a9bab4a3124
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841170"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734639"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,11 +56,11 @@ _**Тема последнего изменения:** 2012-12-14_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Шовжоинусинглегациклиентлинк</p></td>
+<td><p>шовжоинусинглегациклиентлинк</p></td>
 <td><p>Если установлено значение true, пользователи, присоединяющиеся к собранию с помощью клиентского приложения, отличного от Lync, получают возможность присоединиться к собранию с помощью Office Communicator 2007 R2. Значение по умолчанию — False.</p></td>
 </tr>
 <tr class="even">
-<td><p>Шовалтернатежоиноптионсекспандед</p></td>
+<td><p>шовалтернатежоиноптионсекспандед</p></td>
 <td><p>Если установлено значение true, дополнительные параметры для присоединения к онлайн-конференции (например, Office Communicator 2007 R2) автоматически развертываются и появятся для пользователей. Если задано значение false (по умолчанию), эти параметры будут доступны, но пользователю потребуется отобразить список параметров.</p></td>
 </tr>
 </tbody>

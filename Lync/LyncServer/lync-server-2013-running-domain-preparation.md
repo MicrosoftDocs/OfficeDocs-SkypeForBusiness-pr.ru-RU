@@ -3,6 +3,8 @@ title: 'Lync Server 2013: проведение подготовки домена
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running domain preparation
 ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16fdd01b15fe5858129300c3a9f2f26c3d3de672
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 408dea780b4136f86ffed30d199d1d0ee63d6821
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822281"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ _**Тема последнего изменения:** 2013-04-16_
 
 6.  На странице **выполнения команд** подождите, пока не появится сообщение **Состояние задачи: Завершено**, а затем нажмите **Просмотреть журнал**.
 
-7.  В столбце **Action (действие** ) разверните доменную версию **домена**, ** \<найдите\> ** результаты выполнения в конце каждой задачи, чтобы убедиться в том, что подготовка домена успешно завершена, закройте журнал и нажмите кнопку **Готово**.
+7.  В столбце **Action (действие** ) разверните **доменную версию домена**, найдите ** \<\> результаты выполнения в** конце каждой задачи, чтобы убедиться в том, что подготовка домена успешно завершена, закройте журнал и нажмите кнопку **Готово**.
 
 8.  Дождитесь завершения репликации Active Directory или принудительно выполните репликацию на все контроллеры домена, указанные в оснастке "сайты и службы" Active Directory для корневого контроллера домена леса.
 

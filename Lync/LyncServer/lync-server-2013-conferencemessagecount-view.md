@@ -3,6 +3,8 @@ title: 'Lync Server 2013: представление Конференцемес�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceMessageCount view
 ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0324c9913a607057c4e1cd161a9040b83d6bd29b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73944e1561b88301b740fcb52cf301645154c6e7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841487"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,22 +65,22 @@ _**Тема последнего изменения:** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Усерури</strong></p></td>
+<td><p><strong>усерури</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) пользователя, отправившего сообщение.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Усеруритипе</strong></p></td>
+<td><p><strong>усеруритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Тип URI пользователя, отправившего сообщения. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Усертенант</strong></p></td>
+<td><p><strong>усертенант</strong></p></td>
 <td><p>идентификатора</p></td>
 <td><p>Клиент пользователя, отправившего сообщения. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Усермессажекаунт</strong></p></td>
+<td><p><strong>усермессажекаунт</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>Количество сообщений, отправленных пользователем во время сеанса конференции.</p></td>
 </tr>

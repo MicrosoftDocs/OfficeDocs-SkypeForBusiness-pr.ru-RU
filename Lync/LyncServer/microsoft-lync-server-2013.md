@@ -3,6 +3,8 @@ title: Microsoft Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: '@NoTitle'
 ms:assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398616(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4006715d24ac4e1d7c98788ad8007b92d1881c43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88de2c999b82621ddb0b176b49fc74dfac4a6371
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849036"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ _**Тема последнего изменения:** 2014-03-14_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Просмотр в Интернете: Приступая к <a href="lync-server-2013-getting-started.md">работе с Lync Server 2013</a></p></td>
+<td><p>Просмотр в Интернете: <a href="lync-server-2013-getting-started.md">Приступая к работе с Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -255,7 +257,7 @@ _**Тема последнего изменения:** 2014-03-14_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Просмотр в Интернете: гибридное развертывание <a href="lync-server-2013-lync-server-2013-hybrid.md">Lync Server 2013</a></p></td>
+<td><p>Просмотр в Интернете: <a href="lync-server-2013-lync-server-2013-hybrid.md">гибридное развертывание Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -274,7 +276,7 @@ _**Тема последнего изменения:** 2014-03-14_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Просмотр в Интернете <a href="migration.md"></a> : миграция</p></td>
+<td><p>Просмотр в Интернете: <a href="migration.md">Миграция</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Просмотр в Интернете: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Переход с Lync server 2010 на Lync server 2013</a></p></td>

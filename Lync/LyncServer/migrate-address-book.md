@@ -3,6 +3,8 @@ title: Перенос адресной книги
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Address Book
 ms:assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2293b7ad3e5ac14071bae4d5ecb935c24cfbb335
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849033"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ _**Тема последнего изменения:** 2012-10-09_
 
 **Для Усенормализатионрулес задано значение false**
 
-Если для **усенормализатионрулес** задано значение false, чтобы пользователи могли использовать номера телефонов, определенные в доменных службах Active Directory без применения правил нормализации для Lync Server 2013, необходимо установить параметр **усенормализатионрулес. **и **игнореженерикрулес** для параметров значения истина. Выполните действия, описанные ниже в этом разделе, чтобы установить для этих параметров значение true.
+Если задать для **усенормализатионрулес** значение false, чтобы пользователи могли использовать номера телефонов в соответствии с параметрами, определенными в доменных службах Active Directory без применения правил нормализации для Lync Server 2013, необходимо задать для параметров **Усенормализатионрулес** и **игнореженерикрулес** значение true. Выполните действия, описанные ниже в этом разделе, чтобы установить для этих параметров значение true.
 
 <div>
 
@@ -75,7 +77,7 @@ _**Тема последнего изменения:** 2012-10-09_
     
 
     > [!NOTE]  
-    > Примеры правил нормализации адресных книг установлены в каталог файлов веб-компонентов ABS. Путь <STRONG>$installedDriveLetter: \Program Files\Microsoft Lync Server 2013 \ Web Компонентс\аддресс Book Филес\филес\ сампле_компани_фоне_нумбер_нормализатион_рулес. txt,</STRONG>. Этот файл можно скопировать и переименовать как &nbsp; <STRONG>компани_фоне_нумбер_нормализатион_рулес. txt</STRONG> &nbsp;в корневой каталог общей папки адресной книги. Например, адресная книга, доступная <STRONG></STRONG>в $serverX&nbsp;, будет выглядеть примерно так: <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
+    > Примеры правил нормализации адресных книг установлены в каталог файлов веб-компонентов ABS. Путь <STRONG>$installedDriveLetter: \Program Files\Microsoft Lync Server 2013 \ Web Компонентс\аддресс Book филес\филес\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>. Этот файл можно скопировать и переименовать как &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;в корневой каталог общей папки адресной книги. Например, адресная книга, доступная <STRONG></STRONG>в $serverX&nbsp;, будет выглядеть примерно так: <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.
 
     
     </div>

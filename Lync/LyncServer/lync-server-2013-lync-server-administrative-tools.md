@@ -3,6 +3,8 @@ title: 'Lync Server 2013: средства администрирования Ly
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6756aee8d7c65b179fb5c1c15ca008b3bd205778
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34833929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,13 +41,13 @@ _**Тема последнего изменения:** 2013-02-21_
 
 Средства администрирования устанавливаются по умолчанию на каждом сервере Lync Server. Кроме того, вы можете установить средства администрирования на других компьютерах, таких как специальные консоли администрирования. Инструкции по установке средств администрирования можно найти в разделе [Установка средств администрирования Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md). Инструкции по открытию инструментов для выполнения задач управления можно найти в статье [Открытие средства администрирования Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-Убедитесь, что вы просматриваете требования инфраструктуры, операционной системы, программного обеспечения и прав администратора, прежде чем устанавливать или использовать средства администрирования Lync Server. Сведения о требованиях к инфраструктуре описаны [в разделе Требования к инфраструктуре средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Сведения о требованиях к операционной системе и программному обеспечению для установки средств администрирования Lync Server можно найти [в разделе Поддержка серверов и инструментальных средств операционной системы в Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Дополнительные требования к программному обеспечению для Lync Server 2013](lync-server-2013-additional-software-requirements.md)и [ Дополнительная поддержка и требования к серверу в Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Права и разрешения пользователей, необходимые для установки и использования этих средств, описаны в разделе [права и разрешения администратора, необходимые для настройки и администрирования Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
+Убедитесь, что вы просматриваете требования инфраструктуры, операционной системы, программного обеспечения и прав администратора, прежде чем устанавливать или использовать средства администрирования Lync Server. Сведения о требованиях к инфраструктуре описаны [в разделе Требования к инфраструктуре средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Сведения о требованиях к операционной системе и программному обеспечению для установки средств администрирования Lync Server можно найти [в разделе Поддержка серверов и инструментальных средств операционной системы в Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Дополнительные требования к программному обеспечению для Lync Server 2013](lync-server-2013-additional-software-requirements.md), а также [дополнительные серверные службы и требования в Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Права и разрешения пользователей, необходимые для установки и использования этих средств, описаны в разделе [права и разрешения администратора, необходимые для настройки и администрирования Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
 Средства администрирования состоят из указанных ниже вариантов.
 
   - **Мастер развертывания Lync Server**   используется для развертывания Lync Server и установки всех средств администрирования.
 
-  - ****   С помощью построителя топологии Lync Server можно определять компоненты в развертывании.
+  - **С помощью построителя**   топологии Lync Server можно определять компоненты в развертывании.
 
   - **Панель управления Lync Server**   — используется для постоянного управления развертыванием с помощью веб-интерфейса.
 

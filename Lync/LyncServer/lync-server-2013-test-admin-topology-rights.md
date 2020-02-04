@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Проверка прав топологии адми�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin topology rights
 ms:assetid: 0c03b7fd-449a-47ad-8263-ce811164cbce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 365c879678ff3fd51dcaaf89d4b2593eccf645f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3681a3328f0e1e659377947919bbfc782f1fea7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -98,7 +100,7 @@ _**Тема последнего изменения:** 2016-12-08_
 
 Если в параметре test-Кссетуппермиссион определено, что необходимые разрешения уже установлены для контейнера Active Directory, командлет вернет значение true:
 
-True
+Верно
 
 Если разрешения не заданы, Test-Кссетуппермиссион вернет значение false. Обратите внимание, что это значение обычно заключается на множество предупреждающих сообщений. Например:
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblComplianceParticipant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblComplianceParticipant
 ms:assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558655(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e98b257552f728d0976df6331673f1f55d0dbdeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 484948a01c82dc8ca256e3e50e484c94a9b81de4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849541"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,7 +56,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Чаннелури</p></td>
+<td><p>чаннелури</p></td>
 <td><p>nvarchar (255), NOT NULL</p></td>
 <td><p>Универсальный код ресурса (URI) канала.</p></td>
 </tr>
@@ -64,23 +66,23 @@ _**Тема последнего изменения:** 2012-09-12_
 <td><p>Идентификатор участника (соответствующий таблице ТблпринЦипал. Принид).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Жоинедат</p></td>
+<td><p>жоинедат</p></td>
 <td><p>bigint, NOT NULL</p></td>
 <td><p>Метка времени присоединения к событию.</p></td>
 </tr>
 <tr class="even">
-<td><p>Партедат</p></td>
+<td><p>партедат</p></td>
 <td><p>bigint</p></td>
 <td><p>NULL, если участник все еще присоединен. Метка времени события выхода канала, если значение не равно null.</p>
 <p>Эти записи в конечном итоге удаляются, когда все переводчики обрабатывают событие.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Усерури</p></td>
+<td><p>усерури</p></td>
 <td><p>nvarchar (255), NOT NULL</p></td>
 <td><p>URI пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p>Серверид</p></td>
+<td><p>серверид</p></td>
 <td><p>целое</p></td>
 <td><p>Идентификация сервера (как в таблице Тблсерверидентити. Серверид).</p></td>
 </tr>

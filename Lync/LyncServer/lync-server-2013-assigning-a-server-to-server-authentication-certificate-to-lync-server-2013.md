@@ -3,6 +3,8 @@ title: Назначение сертификата проверки подлин
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
 ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63d4e5e3ac8c544e83ab9cfb8f82a5c70f86131b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06372be3808f3855bc0172cc408308a0c9c9cab2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849799"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734019"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +83,7 @@ _**Тема последнего изменения:** 2013-10-24_
 
 2.  В мастере развертывания нажмите кнопку **Установка или обновление системы Lync Server**.
 
-3.  На странице Microsoft Lync Server 2013 нажмите кнопку **выполнить** под заголовком **Шаг 3: запрос, установка и назначение сертификатов**. (Примечание. Если вы уже установили сертификаты на этом компьютере, нажмите кнопку " **выполнить** ", чтобы **** пометить ее.)
+3.  На странице Microsoft Lync Server 2013 нажмите кнопку **выполнить** под заголовком **Шаг 3: запрос, установка и назначение сертификатов**. (Примечание. Если вы уже установили сертификаты на этом компьютере, нажмите кнопку " **выполнить** ", чтобы пометить **ее.)**
 
 4.  В мастере сертификатов выберите сертификат **OAuthTokenIssuer**, затем нажмите кнопку **Назначить**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: сводка по DNS — балансировка н�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - DNS and HLB load balanced
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205273(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceccb52a8ef9fae810821ffe6b52b763dd8904c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5b84ccab2b3074662016a19c5f0a51d0cb70405
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834346"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,13 +66,13 @@ _**Тема последнего изменения:** 2012-10-20_
 <tr class="even">
 <td><p>Внутренняя DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
-<td><p>директоров</p></td>
+<td><p>Пул директоров</p></td>
 <td><p>Запись узла для пула службы каталогов балансировки нагрузки DNS для сервера на сервер</p></td>
 </tr>
 <tr class="odd">
 <td><p>Внутренняя DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>директоров</p></td>
+<td><p>Пул директоров</p></td>
 <td><p>Протокол SIP, входящий в внутренний интерфейс пограничного сервера.</p></td>
 </tr>
 <tr class="even">

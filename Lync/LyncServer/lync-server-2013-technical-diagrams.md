@@ -3,6 +3,8 @@ title: Технические схемы Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d74f846f45b31fdff8921cfb628189726d4f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9a27f534c68a509e1febacd7937724c02c72061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +95,9 @@ _**Тема последнего изменения:** 2014-03-14_
 <tr class="odd">
 <td><p><strong>Локальные архитектуры Lync Server 2013</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="Эскиз архитектуры Lync для плакатов" alt="thumbnail of Lync architectures poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Подробное оглавление с помощью Zoom.IT в Microsoft</a> (оптимально на настольных компьютерах и ноутбуках)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">С помощью Zoom.IT в Microsoft</a>(на настольных компьютерах и ноутбуках) вы полностью рассмотрели плакаты.</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392578">Версия PDF</a> (оптимально для мобильных устройств и планшетных компьютеров)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Версия Visio</a> (оптимально для пользователей с помощью Visio)</p></td>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Версия Visio</a> (оптимально для пользователей с Visio)</p></td>
 <td><p>Афиша содержит руководство по архитектуре и развертыванию. Афиша, в которой содержатся сведения об основных компонентах Lync Server, терминологии, используемой при планировании развертывания, новых функциональных возможностей, ролях серверов и обзоре установки. Кроме того, на афише есть примеры архитектур для повышения уровня доступности и аварийного восстановления, а также небольших, средних и больших образцов топологии.</p>
 <p>Размер: 34 х 44 дюйма</p>
 <p>Этот плакат был создан с помощью Visio 2013. Никакие изменения с учетом специфики среды не требуются.</p></td>
@@ -103,7 +105,7 @@ _**Тема последнего изменения:** 2014-03-14_
 <tr class="even">
 <td><p><strong>Методология качества звонков Lync</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="Афиша, описывающая процесс ККМ" alt="Poster describing the CQM process" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Подробное оглавление с помощью Zoom.IT в Microsoft</a> (оптимально на настольных компьютерах и ноутбуках)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">С помощью Zoom.IT в Microsoft</a>(на настольных компьютерах и ноутбуках) вы полностью рассмотрели плакаты.</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391841">Visio и PDF-версии вместе в ZIP-файле</a></p></td>
 <td><p>Афиша, описывающая устранение неполадок системы Lync, особенно для проблем, связанных с качеством звука в корпоративной среде. Используйте этот плакат с:</p>
 <ul>
@@ -117,7 +119,7 @@ _**Тема последнего изменения:** 2014-03-14_
 <tr class="odd">
 <td><p><strong>Индикаторы работоспособности ключа</strong></p>
 <img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="Афиша с описанием устранения неполадок с помощью данных КХИ" alt="Poster describing troubleshooting using KHI data" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Подробное оглавление с помощью Zoom.IT в Microsoft</a> (оптимально на настольных компьютерах и ноутбуках)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">С помощью Zoom.IT в Microsoft</a>(на настольных компьютерах и ноутбуках) вы полностью рассмотрели плакаты.</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391838">Visio и PDF-версии вместе в ZIP-файле</a></p></td>
 <td><p>Афиша, описывающая метрики устранения неполадок сервера как для базовой работоспособности сервера, так и для роли определенного сервера в реализации Lync. Используйте этот плакат с:</p>
 <ul>
@@ -133,7 +135,7 @@ _**Тема последнего изменения:** 2014-03-14_
 <img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="Режим эскизов для параметров платформы" alt="thumbnail view of platform options poster" />
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=391840">Подробное оглавление с помощью Zoom.it в Microsoft</a></p>
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">Версия PDF</a> (оптимально для мобильных устройств и планшетных компьютеров)</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Версия Visio</a> (оптимально для пользователей с помощью Visio)</p></td>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Версия Visio</a> (оптимально для пользователей с Visio)</p></td>
 <td><p>В этом афише описаны доступные параметры платформы для Lync 2013 для БДМС и архитекторов пользователей, которые могут выбирать из Lync Online с помощью Office 365, гибридного Lync, Lync Server для локального и размещенного Lync. Афиша включает в себя подробные сведения о каждой архитектуре, в том числе наиболее идеальные сценарии для каждого из них, требования к лицензии и ответственность за ИТ – специалистам.</p>
 <p>Размер: 34 х 44 дюйма</p>
 <p>Этот плакат был создан с помощью Visio 2013. Никакие изменения с учетом специфики среды не требуются.</p></td>
@@ -143,7 +145,7 @@ _**Тема последнего изменения:** 2014-03-14_
 <img src="images/Dn594589.e00f8445-4e00-48f6-a3e2-f97334dde719(OCS.15).jpg" title="Просмотр эскизов рабочих нагрузок протоколов" alt="thumbnail view of protocol Workloads poster" />
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392970">Подробное оглавление с помощью Zoom.it в Microsoft</a></p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392512">Версия PDF</a> (оптимально для мобильных устройств и планшетных компьютеров)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Версия Visio</a> (оптимально для пользователей с помощью Visio)</p></td>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Версия Visio</a> (оптимально для пользователей с Visio)</p></td>
 <td><p>Загрузите этот плакат, чтобы узнать о возможностях и требованиях Lync 2013, Lync Phone, Lync Web App, Lync для Mac и Lync Mobile w. Узнайте, как рабочие нагрузки Lync Server упрощают связь в Организации.</p>
 <p>Размер: от 24 до 36 дюймов</p>
 <p>Этот плакат был создан с помощью Visio 2013. Никакие изменения с учетом специфики среды не требуются.</p></td>

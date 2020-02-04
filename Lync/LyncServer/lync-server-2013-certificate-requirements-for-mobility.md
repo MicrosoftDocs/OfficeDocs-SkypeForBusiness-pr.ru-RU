@@ -3,6 +3,8 @@ title: 'Lync Server 2013: требования к сертификатам дл�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for mobility
 ms:assetid: bb0e97af-cf60-4271-a0ab-654429d884ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690044(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f62b05fd77151250e352c62cad7084d1bb90926
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 680eaf205959b67d8fef93ff56d379ae8cd293bf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841651"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,9 +41,9 @@ _**Тема последнего изменения:** 2012-06-24_
 
 Необходимо включить записи альтернативных имен для субъектов для автоматического обнаружения в следующих сертификатах:
 
-  - директоров
+  - Пул директоров
 
-  - переднего плана
+  - Пул переднего плана
 
   - Сертификат обратного прокси-сервера
 
@@ -73,11 +75,11 @@ _**Тема последнего изменения:** 2012-06-24_
 <tbody>
 <tr class="odd">
 <td><p>URL-адрес внутренней службы автообнаружения</p></td>
-<td><p>SAN = линкдисковеринтернал. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscoverinternal.&lt;домен_SIP&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>SAN = lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscover.&lt;домен_SIP&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,11 +111,11 @@ _**Тема последнего изменения:** 2012-06-24_
 <tbody>
 <tr class="odd">
 <td><p>URL-адрес внутренней службы автообнаружения</p></td>
-<td><p>SAN = линкдисковеринтернал. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscoverinternal.&lt;домен_SIP&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>SAN = lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscover.&lt;домен_SIP&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -145,7 +147,7 @@ _**Тема последнего изменения:** 2012-06-24_
 <tbody>
 <tr class="odd">
 <td><p>Внешний URL-адрес службы автообнаружения</p></td>
-<td><p>SAN = lyncdiscover. &lt;сипдомаин&gt;</p></td>
+<td><p>SAN=lyncdiscover.&lt;домен_SIP&gt;</p></td>
 </tr>
 </tbody>
 </table>

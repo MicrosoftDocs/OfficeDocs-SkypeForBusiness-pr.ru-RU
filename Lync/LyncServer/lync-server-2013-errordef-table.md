@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица ErrorDef'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorDef table
 ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398503(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef21484d564419a5ab5cce7373ceb0b0b71e4a29
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55a6ab9a8bf50639267824c8330701ee74cb3f5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735439"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,25 +57,25 @@ _**Тема последнего изменения:** 2012-05-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Еррорид</strong></p></td>
+<td><p><strong>еррорид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный ИДЕНТИФИКАЦИОНный номер, показывающий этот тип ошибки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Респонсекоде</strong></p></td>
+<td><p><strong>респонсекоде</strong></p></td>
 <td><p>целое</p></td>
 <td><p> </p></td>
 <td><p>Стандартный код ответа SIP, связанный с этой ошибкой.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Мсдиагид</strong></p></td>
+<td><p><strong>мсдиагид</strong></p></td>
 <td><p>целое</p></td>
 <td><p> </p></td>
 <td><p>Идентификатор диагностики (Майкрософт).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Каллтипеид</strong></p></td>
+<td><p><strong>каллтипеид</strong></p></td>
 <td><p>Типом</p></td>
 <td><p>Другом</p></td>
 <td><p>Тип звонка. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-calltype-table.md">таблицей каллтипе в Lync Server 2013</a> .</p></td>

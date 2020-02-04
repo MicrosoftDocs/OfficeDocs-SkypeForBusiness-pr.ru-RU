@@ -3,6 +3,8 @@ title: 'Lync Server 2013: восстановление сервера, на ко
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring the server hosting the Central Management store
 ms:assetid: 3bd6c82c-07fb-4798-b8f9-e7c78a5a83d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202172(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95696c682e7acfba32e4f9a2bfd71ba988f22243
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 976f486d096f7be59e2eef74eab7b03d6cc4bab0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822449"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ _**Тема последнего изменения:** 2013-02-21_
 
 
 > [!NOTE]  
-> Если сервер или сервер Standard Edition, на котором не размещено центральное хранилище управления, не удалось найти, ознакомьтесь со сведениями о восстановлении сервера <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">выпуска Enterprise Edition в Lync server 2013</A> или <A href="lync-server-2013-restoring-a-standard-edition-server.md">восстановлении стандартного сервера выпуска в Lync Server 2013</A>. Если сервер, на котором размещен Центральный центр управления, находится в зеркальной конфигурации, а зеркальный сервер не прошел, ознакомьтесь со сведениями о <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">восстановлении зеркального сервера выпуска Enterprise Edition в Lync server 2013 — Mirror</A>. В случае сбоя любого другого сервера ознакомьтесь со сведениями о <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">восстановлении рядового сервера выпуска Enterprise Edition в Lync server 2013</A>.
+> Если сервер или сервер Standard Edition, на котором не размещено центральное хранилище управления, не удалось найти, ознакомьтесь со сведениями о <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">восстановлении сервера выпуска Enterprise Edition в Lync server 2013</A> или <A href="lync-server-2013-restoring-a-standard-edition-server.md">восстановлении стандартного сервера выпуска в Lync Server 2013</A>. Если сервер, на котором размещен Центральный центр управления, находится в зеркальной конфигурации, а зеркальный сервер не прошел, ознакомьтесь со сведениями о <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">восстановлении зеркального сервера выпуска Enterprise Edition в Lync server 2013 — Mirror</A>. В случае сбоя любого другого сервера ознакомьтесь со сведениями о <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">восстановлении рядового сервера выпуска Enterprise Edition в Lync server 2013</A>.
 
 
 
@@ -156,7 +158,7 @@ _**Тема последнего изменения:** 2013-02-21_
     
     Установите автономные базы данных, выполнив указанные ниже действия.
     
-    1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.
+    1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку **Построитель топологии Lync Server**.
     
     2.  Нажмите кнопку **загрузить топологию из существующего развертывания**и нажмите кнопку **ОК**.
     

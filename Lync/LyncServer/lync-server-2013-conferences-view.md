@@ -3,6 +3,8 @@ title: 'Lync Server 2013: представление "Конференции"'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferences view
 ms:assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721871(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 710aadb2770e9389d9e4becf206d68b8e8d815ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36278c1053c2b5737e0de6caf914c050db93ea4b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841486"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,12 +55,12 @@ _**Тема последнего изменения:** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Сессионидтиме</strong></p></td>
+<td><p><strong>сессионидтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Время запроса сеанса. Используется в сочетании с Сессионидсек для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Сессионидсек</strong></p></td>
+<td><p><strong>сессионидсек</strong></p></td>
 <td><p>целое</p></td>
 <td><p>ИДЕНТИФИКАЦИОНный номер для идентификации сеанса. Используется в сочетании с Сессионидтиме для уникальной идентификации сеанса. Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</p></td>
 </tr>
@@ -68,37 +70,37 @@ _**Тема последнего изменения:** 2012-10-01_
 <td><p>Универсальный код ресурса (URI) для Конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Конференцеуритипе</strong></p></td>
+<td><p><strong>конференцеуритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Тип URI конференции. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Конфинстанце</strong></p></td>
+<td><p><strong>конфинстанце</strong></p></td>
 <td><p>идентификатора</p></td>
 <td><p>Используется для повторяющихся конференций. Каждый экземпляр повторяющейся Конференции имеет один и тот же Конференцеури, но другой Конфинстанце.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Конференцестарттиме</strong></p></td>
+<td><p><strong>конференцестарттиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Время начала Конференции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Конференцеендтиме</strong></p></td>
+<td><p><strong>конференцеендтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td><p>Время окончания Конференции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Организерури</strong></p></td>
+<td><p><strong>организерури</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) пользователя, который организовал конференцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Организертипе</strong></p></td>
+<td><p><strong>организертипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Тип URI пользователя, который организовал конференцию. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Организертенант</strong></p></td>
+<td><p><strong>организертенант</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Клиент пользователя, который организовал конференцию. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
 </tr>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Требования DNS для сервера Standar
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for a Standard Edition server
 ms:assetid: 5d1daf54-6e60-4ce0-9254-7d57a0835fa4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204936(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7508fea0fa6640546bda4f1ecb559821d468803d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ab4280ca3ed329d0dc926756f6bfd933595ca08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834371"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ _**Тема последнего изменения:** 2013-02-22_
 </tr>
 <tr class="even">
 <td><p>Автоматический вход в учетную запись клиента</p></td>
-<td><p>Для каждого поддерживаемого домена SIP — запись SRV для _сипинтерналтлс. _tcp. &lt;домен&gt; , поступающий на порт 5061 и соответствующий доменному имени сервера Standard Edition, который проверяет подлинность и перенаправляет запросы клиентов на вход. Дополнительные сведения: <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">требования к DNS для автоматического входа на клиент в Lync Server 2013</a>.</p></td>
+<td><p>Для каждого поддерживаемого домена SIP — запись SRV для _sipinternaltls. _tcp. &lt;домен&gt; , поступающий на порт 5061 и соответствующий доменному имени сервера Standard Edition, который проверяет подлинность и перенаправляет запросы клиентов на вход. Дополнительные сведения: <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">требования к DNS для автоматического входа на клиент в Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Обнаружение веб-служб с помощью обновлений на устройствах с единым коммуникационным подключением (UC)</p></td>

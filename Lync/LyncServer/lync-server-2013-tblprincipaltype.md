@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblPrincipalType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblPrincipalType
 ms:assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558633(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 725d097e1e2e75b6430974a4f133cb5fa4130346
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849527"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,22 +56,22 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Птипеид</p></td>
+<td><p>птипеид</p></td>
 <td><p>smallint, NOT NULL</p></td>
 <td><p>Идентификатор типа участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>Птипедеск</p></td>
+<td><p>птипедеск</p></td>
 <td><p>nvarchar (256), NOT NULL</p></td>
 <td><p>Описание типа.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Птипеиссистемусер</p></td>
+<td><p>птипеиссистемусер</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение true, если тип соответствует участникам, которые используются для внутренних целей.</p></td>
 </tr>
 <tr class="even">
-<td><p>Птипеисусер</p></td>
+<td><p>птипеисусер</p></td>
 <td><p>bit, NOT NULL</p></td>
 <td><p>Значение true, если тип является пользовательским типом.</p></td>
 </tr>
@@ -92,7 +94,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Птипеид</p></td>
+<td><p>птипеид</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 </tbody>
@@ -125,19 +127,19 @@ _**Тема последнего изменения:** 2012-09-12_
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td><p>Анюсер</p></td>
+<td><p>анюсер</p></td>
 <td><p>Универсальный принципал для типа пользователя. Не используется в таблице ТблпринЦипал.</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
-<td><p>Аниграуп</p></td>
+<td><p>аниграуп</p></td>
 <td><p>Универсальный принципал с семантикой группы. Не используется в таблице ТблпринЦипал.</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td><p>Системусер</p></td>
+<td><p>системусер</p></td>
 <td><p>Основной сервер, который используется для внутренних целей с помощью сохраняемого сервера чата.</p></td>
 <td></td>
 </tr>

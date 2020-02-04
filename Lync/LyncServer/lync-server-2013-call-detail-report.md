@@ -3,6 +3,8 @@ title: 'Lync Server 2013: отчет о звонке'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Detail Report
 ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a258a5c228cfe96218c9c694b05055cc5ebd7eb6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffbfa8c3553b33f75b0f014265f93cccf46e7de6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841712"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,11 +71,11 @@ _**Тема последнего изменения:** 2014-02-05_
 
   - [Сводный отчет о качестве качества мультимедиа в Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (с помощью которого можно выбрать громкость звонка или метрику процента снижения звонка)
 
-  - [Отчет о сравнении качества мультимедиа в Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (щелчок по отчету "список обзвона" [в Lync Server 2013](lync-server-2013-call-list-report.md) и выбор подробной метрики).
+  - [Отчет о сравнении качества мультимедиа в Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (щелчок по [отчету "список обзвона" в Lync Server 2013](lync-server-2013-call-list-report.md) и выбор подробной метрики).
 
   - [Отчет о производительности сервера в Lync server 2013](lync-server-2013-server-performance-report.md) (по щелчку на томе звонка или в процентах от плохого звонка)
 
-  - Отчет "список обзвона" [в Lync Server 2013](lync-server-2013-call-list-report.md) (щелчок подробной метрики)
+  - [Отчет "список обзвона" в Lync Server 2013](lync-server-2013-call-list-report.md) (щелчок подробной метрики)
 
 В отчете сведения о звонке вы можете получить доступ к [отчету об устройстве в Lync Server 2013](lync-server-2013-device-report.md) , выбрав один из указанных ниже метрик.
 

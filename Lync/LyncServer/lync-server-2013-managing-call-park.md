@@ -3,6 +3,8 @@ title: 'Lync Server 2013: управление приостановкой зво
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Call Park
 ms:assetid: 9554cdf6-8e7c-48c8-94dd-f28e2befefdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688140(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30a92ef7f6f3cba14577e50f33fd1215f94711bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1188f80c5dc8555b53f54e7a13c60f97817eaba2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828112"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34828112"
 
 _**Тема последнего изменения:** 2012-09-10_
 
-Приложение для приема звонков позволяет корпоративному голосовому пользователю перевести звонок на удержание с одного телефона и затем получать Звонок позже с любого телефона. Когда пользователь парки звонок, Lync Server передает Звонок на временный номер, именуемый орбитой, ** где звонок удерживается, пока кто-то не загружает ее или не истечет.
+Приложение для приема звонков позволяет корпоративному голосовому пользователю перевести звонок на удержание с одного телефона и затем получать Звонок позже с любого телефона. Когда пользователь парки звонок, Lync Server передает Звонок на временный номер, именуемый *орбитой*, где звонок удерживается, пока кто-то не загружает ее или не истечет.
 
 В этой статье приведены пошаговые инструкции для задач, которые можно выполнять для настройки и обслуживания приложения для парковки звонков в развертывании.
 
