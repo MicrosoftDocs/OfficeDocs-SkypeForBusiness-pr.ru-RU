@@ -6,24 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: У каждого пула переднего плана и работающего устройства филиала может быть только один сервер мониторинга, связанный с ним. Если на сайте включена поддержка мониторинга, сервер мониторинга обеспечивает запись сведений о вызовах (CDR) и сбор данных о соотношении качества (QoE).
-ms.openlocfilehash: ad7fc4332fc8fc89ab9cc8d039282749e4f1f95d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de426c4d08752ce04c76a31ff6cfdbcbd152318b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281292"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702454"
 ---
-# <a name="associate-front-end-with-monitoring"></a><span data-ttu-id="a3a1c-104">Связывание сервера переднего плана с мониторингом</span><span class="sxs-lookup"><span data-stu-id="a3a1c-104">Associate Front End With Monitoring</span></span>
+# <a name="associate-front-end-with-monitoring"></a><span data-ttu-id="cca0a-104">Связывание сервера переднего плана с мониторингом</span><span class="sxs-lookup"><span data-stu-id="cca0a-104">Associate Front End With Monitoring</span></span>
  
-<span data-ttu-id="a3a1c-105">У каждого пула переднего плана и работающего устройства филиала может быть только один сервер мониторинга, связанный с ним.</span><span class="sxs-lookup"><span data-stu-id="a3a1c-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="a3a1c-106">Если на сайте включена поддержка мониторинга, сервер мониторинга обеспечивает запись сведений о вызовах (CDR) и сбор данных о соотношении качества (QoE).</span><span class="sxs-lookup"><span data-stu-id="a3a1c-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
+<span data-ttu-id="cca0a-105">У каждого пула переднего плана и работающего устройства филиала может быть только один сервер мониторинга, связанный с ним.</span><span class="sxs-lookup"><span data-stu-id="cca0a-105">Each Front End pool and Survivable Branch Appliance can have only one Monitoring Server associated with it.</span></span> <span data-ttu-id="cca0a-106">Если на сайте включена поддержка мониторинга, сервер мониторинга обеспечивает запись сведений о вызовах (CDR) и сбор данных о соотношении качества (QoE).</span><span class="sxs-lookup"><span data-stu-id="cca0a-106">When monitoring is enabled for the site, Monitoring Server provides call detail recording (CDR) and Quality of Experience (QoE) data collection and reporting.</span></span>
   
-<span data-ttu-id="a3a1c-107">Все пулы на сайте и пулы нескольких центральных сайтов могут использовать один и тот же сервер мониторинга, если использование не превышает емкость сервера мониторинга.</span><span class="sxs-lookup"><span data-stu-id="a3a1c-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> 
+<span data-ttu-id="cca0a-107">Все пулы на сайте и пулы нескольких центральных сайтов могут использовать один и тот же сервер мониторинга, если использование не превышает емкость сервера мониторинга.</span><span class="sxs-lookup"><span data-stu-id="cca0a-107">All pools at a site and the pools of multiple central sites can use the same Monitoring Server, if usage does not exceed the capacity of the Monitoring Server.</span></span> 
   
 
