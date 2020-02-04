@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Конференц-связь с телефонным 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing (configuration/access numbers)
 ms:assetid: e9b6143a-5ded-4ff8-9c5b-f0a1127e6193
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe71741f78fa0f9c6114ced3e2534c929ae3927
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e30bc351494185203808a9e8b0c6d7138ebf00d7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34834401"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a><span data-ttu-id="21137-102">Конференц-связь с телефонным подключением в Lync Server 2013 (номера конфигурации и доступа)</span><span class="sxs-lookup"><span data-stu-id="21137-102">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>
+# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a><span data-ttu-id="f9210-102">Конференц-связь с телефонным подключением в Lync Server 2013 (номера конфигурации и доступа)</span><span class="sxs-lookup"><span data-stu-id="f9210-102">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34834401"
 
 <span> </span>
 
-<span data-ttu-id="21137-103">_**Тема последнего изменения:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="21137-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="f9210-103">_**Тема последнего изменения:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="f9210-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="21137-104">В этом разделе объясняется, как использовать панель управления Lync Server 2013 для настройки конференц-связи с телефонным подключением для использования среды Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21137-104">The topics in this section describe how to use Lync Server 2013 Control Panel to configure dial-in conferencing for use your Lync Server 2013 environment.</span></span>
+<span data-ttu-id="f9210-104">В этом разделе объясняется, как использовать панель управления Lync Server 2013 для настройки конференц-связи с телефонным подключением для использования среды Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f9210-104">The topics in this section describe how to use Lync Server 2013 Control Panel to configure dial-in conferencing for use your Lync Server 2013 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="21137-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="21137-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f9210-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="f9210-105">In This Section</span></span>
 
-  - [<span data-ttu-id="21137-106">Включение и отключение конференц-связи с телефонным подключением для собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21137-106">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
+  - [<span data-ttu-id="f9210-106">Включение и отключение конференц-связи с телефонным подключением для собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9210-106">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
 
-  - [<span data-ttu-id="21137-107">Номера доступа для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21137-107">Dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="f9210-107">Номера доступа для конференц-связи с телефонным подключением в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9210-107">Dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="21137-108">Настройка правил для личного идентификационного номера конференц-связи с телефонным подключением (PIN) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21137-108">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
+  - [<span data-ttu-id="f9210-108">Настройка правил для личного идентификационного номера конференц-связи с телефонным подключением (PIN) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9210-108">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
 
 </div>
 

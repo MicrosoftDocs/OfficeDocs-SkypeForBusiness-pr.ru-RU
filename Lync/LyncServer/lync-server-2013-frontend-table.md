@@ -3,6 +3,8 @@ title: 'Lync Server 2013: таблица переднего плана'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FrontEnd table
 ms:assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205046(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c470dc3a4a6541cf1b76fbf048c768a1604d6a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c3bfb830247ddba9137cd143e085b7d9eb544de2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739639"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34834130"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="7a08c-102">Интерфейсная таблица в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a08c-102">FrontEnd table in Lync Server 2013</span></span>
+# <a name="frontend-table-in-lync-server-2013"></a><span data-ttu-id="652c1-102">Интерфейсная таблица в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="652c1-102">FrontEnd table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34834130"
 
 <span> </span>
 
-<span data-ttu-id="7a08c-103">_**Тема последнего изменения:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="7a08c-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="652c1-103">_**Тема последнего изменения:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="652c1-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="7a08c-104">Интерфейсная таблица предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="7a08c-104">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="7a08c-105">Эта таблица введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7a08c-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="652c1-104">Интерфейсная таблица предназначена только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="652c1-104">The FrontEnd table is for internal use only.</span></span> <span data-ttu-id="652c1-105">Эта таблица введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="652c1-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

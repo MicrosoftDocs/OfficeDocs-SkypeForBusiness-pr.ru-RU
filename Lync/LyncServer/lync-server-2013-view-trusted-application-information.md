@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Просмотр сведений о доверенн�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trusted application information
 ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34849138"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-trusted-application-information-in-lync-server-2013"></a><span data-ttu-id="74822-102">Просмотр сведений о надежном приложении в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74822-102">View trusted application information in Lync Server 2013</span></span>
+# <a name="view-trusted-application-information-in-lync-server-2013"></a><span data-ttu-id="1a7d3-102">Просмотр сведений о надежном приложении в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a7d3-102">View trusted application information in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34849138"
 
 <span> </span>
 
-<span data-ttu-id="74822-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="74822-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="1a7d3-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="1a7d3-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="74822-104">Вы можете просматривать сведения о доверенных приложениях с помощью Windows PowerShell и командлета **Get-кструстедаппликатион** .</span><span class="sxs-lookup"><span data-stu-id="74822-104">You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet.</span></span> <span data-ttu-id="74822-105">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="74822-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="74822-106">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="74822-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="1a7d3-104">Вы можете просматривать сведения о доверенных приложениях с помощью Windows PowerShell и командлета **Get-кструстедаппликатион** .</span><span class="sxs-lookup"><span data-stu-id="1a7d3-104">You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet.</span></span> <span data-ttu-id="1a7d3-105">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="1a7d3-105">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="1a7d3-106">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="1a7d3-106">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-trusted-applications"></a><span data-ttu-id="74822-107">Просмотр надежных приложений</span><span class="sxs-lookup"><span data-stu-id="74822-107">To view trusted applications</span></span>
+## <a name="to-view-trusted-applications"></a><span data-ttu-id="1a7d3-107">Просмотр надежных приложений</span><span class="sxs-lookup"><span data-stu-id="1a7d3-107">To view trusted applications</span></span>
 
-  - <span data-ttu-id="74822-108">Чтобы просмотреть все доверенные приложения, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="74822-108">To view all of your trusted applications, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="1a7d3-108">Чтобы просмотреть все доверенные приложения, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="1a7d3-108">To view all of your trusted applications, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsConferenceDisclaimer
     
-    <span data-ttu-id="74822-109">Эта команда возвращает данные, подобные приведенным ниже, для каждого надежного приложения.</span><span class="sxs-lookup"><span data-stu-id="74822-109">This command returns information similar to the following for each trusted application:</span></span>
+    <span data-ttu-id="1a7d3-109">Эта команда возвращает данные, подобные приведенным ниже, для каждого надежного приложения.</span><span class="sxs-lookup"><span data-stu-id="1a7d3-109">This command returns information similar to the following for each trusted application:</span></span>
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -63,7 +65,7 @@ ms.locfileid: "34849138"
         ExUmEnabled            : False
         Enabled                : True
     
-    <span data-ttu-id="74822-110">Подробности можно найти в [статьях Get-кструстедаппликатион](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span><span class="sxs-lookup"><span data-stu-id="74822-110">For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span></span>
+    <span data-ttu-id="1a7d3-110">Подробности можно найти в [статьях Get-кструстедаппликатион](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span><span class="sxs-lookup"><span data-stu-id="1a7d3-110">For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span></span>
 
 </div>
 

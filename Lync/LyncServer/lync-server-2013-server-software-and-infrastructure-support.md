@@ -3,6 +3,8 @@ title: 'Lync Server 2013: поддержка серверного програм
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server software and infrastructure support
 ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3df5a7c37c1b03cd5ce838721b6ef00fad9547
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821987"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34821987"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="da591-102">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-102">Server software and infrastructure support in Lync Server 2013</span></span>
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="e60b4-102">Поддержка серверного программного обеспечения и инфраструктуры в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-102">Server software and infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,37 +35,37 @@ ms.locfileid: "34821987"
 
 <span> </span>
 
-<span data-ttu-id="da591-103">_**Тема последнего изменения:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="da591-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="e60b4-103">_**Тема последнего изменения:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="e60b4-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="da591-104">Программная поддержка серверных компонентов, включая все роли и хранилище Lync Server 2013, включают Поддерживаемые операционные системы, программное обеспечение для баз данных, инфраструктуру программного обеспечения и другие программы, необходимые для поддержки конкретных функций.</span><span class="sxs-lookup"><span data-stu-id="da591-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="da591-105">Кроме того, она включает в себя виртуализацию серверных компонентов.</span><span class="sxs-lookup"><span data-stu-id="da591-105">It also includes virtualization of server components.</span></span>
+<span data-ttu-id="e60b4-104">Программная поддержка серверных компонентов, включая все роли и хранилище Lync Server 2013, включают Поддерживаемые операционные системы, программное обеспечение для баз данных, инфраструктуру программного обеспечения и другие программы, необходимые для поддержки конкретных функций.</span><span class="sxs-lookup"><span data-stu-id="e60b4-104">Software support for server components, including all Lync Server 2013 server roles and storage, includes supported operating systems, database software, infrastructure software, and other software required to support specific functionality.</span></span> <span data-ttu-id="e60b4-105">Кроме того, она включает в себя виртуализацию серверных компонентов.</span><span class="sxs-lookup"><span data-stu-id="e60b4-105">It also includes virtualization of server components.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="da591-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="da591-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e60b4-106">Содержание</span><span class="sxs-lookup"><span data-stu-id="e60b4-106">In This Section</span></span>
 
-  - [<span data-ttu-id="da591-107">Поддержка сервера и средств в операционной системе в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [<span data-ttu-id="e60b4-107">Поддержка сервера и средств в операционной системе в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-107">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [<span data-ttu-id="da591-108">Поддержка программного обеспечения баз данных в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="e60b4-108">Поддержка программного обеспечения баз данных в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-108">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-  - [<span data-ttu-id="da591-109">Поддержка интеграции Exchange Server и SharePoint в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
+  - [<span data-ttu-id="e60b4-109">Поддержка интеграции Exchange Server и SharePoint в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-109">Exchange Server and SharePoint integration support in Lync Server 2013</span></span>](lync-server-2013-exchange-and-sharepoint-integration-support.md)
 
-  - [<span data-ttu-id="da591-110">Поддержка инфраструктуры сертификатов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
+  - [<span data-ttu-id="e60b4-110">Поддержка инфраструктуры сертификатов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-110">Certificate infrastructure support in Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-support.md)
 
-  - [<span data-ttu-id="da591-111">Поддержка групповых сертификатов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
+  - [<span data-ttu-id="e60b4-111">Поддержка групповых сертификатов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-111">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)
 
-  - [<span data-ttu-id="da591-112">Поддержка инфраструктуры DNS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
+  - [<span data-ttu-id="e60b4-112">Поддержка инфраструктуры DNS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-112">DNS infrastructure support in Lync Server 2013</span></span>](lync-server-2013-dns-infrastructure-support.md)
 
-  - [<span data-ttu-id="da591-113">Поддержка IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
+  - [<span data-ttu-id="e60b4-113">Поддержка IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-113">IIS support in Lync Server 2013</span></span>](lync-server-2013-iis-support.md)
 
-  - [<span data-ttu-id="da591-114">Поддержка IP и сетевого протокола в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
+  - [<span data-ttu-id="e60b4-114">Поддержка IP и сетевого протокола в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-114">IP and networking protocol support in Lync Server 2013</span></span>](lync-server-2013-ip-and-networking-protocol-support.md)
 
-  - [<span data-ttu-id="da591-115">Поддержка общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
+  - [<span data-ttu-id="e60b4-115">Поддержка общедоступных служб обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-115">Public instant messaging support in Lync Server 2013</span></span>](lync-server-2013-public-instant-messaging-support.md)
 
-  - [<span data-ttu-id="da591-116">Поддержка браузеров для панели управления Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
+  - [<span data-ttu-id="e60b4-116">Поддержка браузеров для панели управления Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-116">Browser support for Lync Server 2013 Control Panel</span></span>](lync-server-2013-browser-support-for-lync-server-control-panel.md)
 
-  - [<span data-ttu-id="da591-117">Поддержка голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
+  - [<span data-ttu-id="e60b4-117">Поддержка голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-117">Voice support in Lync Server 2013</span></span>](lync-server-2013-voice-support.md)
 
-  - [<span data-ttu-id="da591-118">Поддержка виртуализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da591-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
+  - [<span data-ttu-id="e60b4-118">Поддержка виртуализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e60b4-118">Virtualization support in Lync Server 2013</span></span>](lync-server-2013-virtualization-support.md)
 
 </div>
 
