@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceRouteMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: c89146c5d24dc2680838601f5535b81c7d1554a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fec55fe08415d9a0bf78d7b268bb357ed166feb0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291342"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698984"
 ---
-# <a name="voice-route"></a><span data-ttu-id="8743b-104">Маршрут голосовых данных</span><span class="sxs-lookup"><span data-stu-id="8743b-104">Voice Route</span></span>
+# <a name="voice-route"></a><span data-ttu-id="1e968-104">Маршрут голосовых данных</span><span class="sxs-lookup"><span data-stu-id="1e968-104">Voice Route</span></span>
 
-<span data-ttu-id="8743b-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="8743b-105">What do you want to do?</span></span> <span data-ttu-id="8743b-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="8743b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1e968-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="1e968-105">What do you want to do?</span></span> <span data-ttu-id="1e968-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="1e968-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8743b-107">Создание или изменение голосового маршрута в Skype для бизнеса 2015</span><span class="sxs-lookup"><span data-stu-id="8743b-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="1e968-107">Создание или изменение голосового маршрута в Skype для бизнеса 2015</span><span class="sxs-lookup"><span data-stu-id="1e968-107">Create or modify a voice route in Skype for Business 2015</span></span>](../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="8743b-108">Изменение голосового маршрута</span><span class="sxs-lookup"><span data-stu-id="8743b-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="1e968-108">Изменение голосового маршрута</span><span class="sxs-lookup"><span data-stu-id="1e968-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
-<span data-ttu-id="8743b-109">Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="8743b-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="1e968-109">Сведения о различных процедурах, которые можно выполнить с помощью панели управления "Skype для бизнеса Server", приведены в статье [Управление Skype для бизнеса server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="1e968-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

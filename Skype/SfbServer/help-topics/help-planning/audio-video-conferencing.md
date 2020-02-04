@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Конференции Skype для бизнеса Server 2015 аудио-и видеоконференции (A/V) позволяют пользователям принимать участие в голосовой и видеоконференциях в режиме реального времени.
-ms.openlocfilehash: 23a79906de0a9252b4687e9663695d8d3cca4060
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3cb392a28c1cbe64a657d40fb0f83262e7712b12
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304220"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698982"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="b7807-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="b7807-103">Audio Video Conferencing (Planning Tool)</span></span>
+# <a name="audio-video-conferencing-planning-tool"></a><span data-ttu-id="315ae-103">Audio Video Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="315ae-103">Audio Video Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="b7807-104">Конференции Skype для бизнеса Server 2015 аудио-и видеоконференции (A/V) позволяют пользователям принимать участие в голосовой и видеоконференциях в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="b7807-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
+<span data-ttu-id="315ae-104">Конференции Skype для бизнеса Server 2015 аудио-и видеоконференции (A/V) позволяют пользователям принимать участие в голосовой и видеоконференциях в режиме реального времени.</span><span class="sxs-lookup"><span data-stu-id="315ae-104">Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.</span></span>
   
-<span data-ttu-id="b7807-105">Сведения о планировании включения аудио- и видеоконференций в вашей организации см. в следующих статьях и разделах:</span><span class="sxs-lookup"><span data-stu-id="b7807-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
+<span data-ttu-id="315ae-105">Сведения о планировании включения аудио- и видеоконференций в вашей организации см. в следующих статьях и разделах:</span><span class="sxs-lookup"><span data-stu-id="315ae-105">For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics:</span></span> 
   
-- [<span data-ttu-id="b7807-106">Планирование конференц-связи в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="b7807-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="315ae-106">Планирование конференц-связи в Skype для бизнеса Server 2015</span><span class="sxs-lookup"><span data-stu-id="315ae-106">Plan for conferencing in Skype for Business Server 2015</span></span>](../../plan-your-deployment/conferencing/conferencing.md)
     
 
