@@ -3,6 +3,8 @@ title: 'Lync Server 2013: планирование обхода серверов
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for media bypass
 ms:assetid: 8ac732b6-8538-4d7b-b1a9-2035e419dac2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398703(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa60b6658eca7a73e509a7f6c707c3cf48c7f16e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824647"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Media bypass can improve voice quality by reducing latency, needless translation
 
 **Пути передачи мультимедийных данных и сигналов при включенном и отключенном режиме обхода сервера-посредника**
 
-![Обход принудительного подключения мультимедиа с использованием голосовой почты] (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Обход принудительного подключения мультимедиа с использованием голосовой почты")
+![Голосовой контроль допуска звонков — обход мультимедиа при принудительном подключении](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Голосовой контроль допуска звонков — обход мультимедиа при принудительном подключении")
 
 Общая рекомендация состоит в том, чтобы включать обход сервера-посредника везде, где это возможно.
 

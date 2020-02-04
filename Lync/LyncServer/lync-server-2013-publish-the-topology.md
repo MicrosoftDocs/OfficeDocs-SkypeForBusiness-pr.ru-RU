@@ -3,6 +3,8 @@ title: 'Lync Server 2013: публикация топологии'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the topology
 ms:assetid: 3b5a744b-b3a8-4538-a55e-e2e4f72dff47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee3b14776c6cdf6ddd52ada724d3d4a6d6a245a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5760315cc60aa53a40457423c2b5402896c2a90c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823968"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747079"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ _**Тема последнего изменения:** 2013-10-01_
 
 
 > [!NOTE]  
-> Только для корпоративных выпусков: чтобы опубликовать топологию, сервер SQL Server с интерфейсом должен находиться в сети и иметь доступ к исключениям брандмауэра на месте. Подробнее об указании исключений межсетевого экрана можно узнать в разделе сведения о требованиях к межсетевому <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">экрану SQL Server с помощью Lync server 2013</A>. Дополнительные сведения о настройке SQL Server можно найти в разделе <A href="lync-server-2013-configure-sql-server-for-lync-server.md">Настройка SQL Server для Lync server 2013</A>.
+> Только для корпоративных выпусков: чтобы опубликовать топологию, сервер SQL Server с интерфейсом должен находиться в сети и иметь доступ к исключениям брандмауэра на месте. Подробнее об указании исключений межсетевого экрана можно узнать <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">в разделе сведения о требованиях к межсетевому экрану SQL Server с помощью Lync server 2013</A>. Дополнительные сведения о настройке SQL Server можно найти в разделе <A href="lync-server-2013-configure-sql-server-for-lync-server.md">Настройка SQL Server для Lync server 2013</A>.
 
 
 
@@ -63,7 +65,7 @@ _**Тема последнего изменения:** 2013-10-01_
 
 ## <a name="to-publish-a-topology"></a>Публикация топологии
 
-1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку Построитель **топологии Lync Server**.
+1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку **Построитель топологии Lync Server**.
 
 2.  Выберите этот пункт, чтобы открыть топологию из локального файла. Если вы используете компьютер, на котором вы определили топологию, это значение будет находиться в том месте, где вы его сохранили. Обычно это будет папка "документы" пользователя, который настроил топологию.
 

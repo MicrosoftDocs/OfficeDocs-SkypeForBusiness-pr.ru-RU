@@ -3,6 +3,8 @@ title: 'Lync Server 2013: компоненты и топологии для ра
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc1b80078f942f3f70957a7af6b27b7dd9210046
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841509"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**Тема последнего изменения:** 2012-09-21_
 
 **Топология магистрали SIP**
 
-![Топология магистрали SIP] (images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Топология магистрали SIP")
+![Топология распределения каналов SIP](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Топология распределения каналов SIP")
 
 Как показано на схеме, для подключений между корпоративной сетью и поставщиком услуг ТСОП используется виртуальная частная сеть VPN. Цель этой частной сети состоит в том, чтобы предоставить IP-подключение, повысить безопасность и (дополнительно) получить гарантированное качество обслуживания. В силу принципов работы VPN нет необходимости использовать протокол TLS для трафика передачи сигналов SIP или протокол SRTP для трафика мультимедиа. Таким образом, подключения между предприятием и поставщиком услуг представляют обычные TCP-соединения для SIP и обычные RTP-соединения (через UDP) для туннелирования мультимедиа через IP VPN. Убедитесь, что все брандмауэры между маршрутизаторами VPN имеют открытые порты, чтобы разрешить маршрутизаторам VPN взаимодействие, и что IP-адреса на внешних границах маршрутизаторов VPN маршрутизируемы общедоступным образом.
 

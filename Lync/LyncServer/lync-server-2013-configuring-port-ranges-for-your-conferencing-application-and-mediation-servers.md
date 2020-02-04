@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Настройка диапазонов портов �
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring port ranges for your Conferencing, Application, and Mediation servers
 ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5402da56fa646c6ae6e2247baa70a5ef03b851cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54aab5efbca06d918cc2dbeccc0e36aee9d4abf8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34841193"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -72,42 +74,42 @@ _**Тема последнего изменения:** 2015-04-30_
 <th>Свойство</th>
 <th>Сервер конференц-связи</th>
 <th>Сервер приложений</th>
-<th>посредник</th>
+<th>Сервер-посредник</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Аудиопортстарт</p></td>
+<td><p>аудиопортстарт</p></td>
 <td><p>49152</p></td>
 <td><p>49152</p></td>
 <td><p>49152</p></td>
 </tr>
 <tr class="even">
-<td><p>Аудиопорткаунт</p></td>
+<td><p>аудиопорткаунт</p></td>
 <td><p>8348</p></td>
 <td><p>8348</p></td>
 <td><p>8348</p></td>
 </tr>
 <tr class="odd">
-<td><p>Видеопортстарт</p></td>
+<td><p>видеопортстарт</p></td>
 <td><p>57501</p></td>
 <td><p>--</p></td>
 <td><p>--</p></td>
 </tr>
 <tr class="even">
-<td><p>Видеопорткаунт</p></td>
+<td><p>видеопорткаунт</p></td>
 <td><p>8034</p></td>
 <td><p>--</p></td>
 <td><p>--</p></td>
 </tr>
 <tr class="odd">
-<td><p>Аппликатионшарингпортстарт</p></td>
+<td><p>аппликатионшарингпортстарт</p></td>
 <td><p>49152</p></td>
 <td><p>--</p></td>
 <td><p>--</p></td>
 </tr>
 <tr class="even">
-<td><p>Аппликатионшарингпорткаунт</p></td>
+<td><p>аппликатионшарингпорткаунт</p></td>
 <td><p>16383</p></td>
 <td><p>--</p></td>
 <td><p>--</p></td>

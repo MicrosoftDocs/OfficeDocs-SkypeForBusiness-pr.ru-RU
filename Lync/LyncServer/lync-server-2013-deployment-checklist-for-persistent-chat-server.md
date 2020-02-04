@@ -3,6 +3,8 @@ title: 'Lync Server 2013: контрольный список развертыв
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Persistent Chat Server
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e539a1aa6883863228aaab19ddaa38300ae45591
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80122534739d443dedaeeb203ab09da94cb0067
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +109,7 @@ _**Тема последнего изменения:** 2012-10-16_
 </ul>
 <p>Если вы установили сервер сохраняемого чата в стандартном выпуске, полное доменное имя (FQDN) пула сервера сохраняемого чата должно соответствовать стандартному серверу выпуска, а базы данных SQL Server — в экземпляре SQL Server Express на стандартном Выиздание сервера</p></td>
 <td><p>Для определения топологии требуется учетная запись члена локальной группы "Пользователи".</p>
-<p>Чтобы опубликовать топологию, учетную запись, которая входит в группу "Администраторы домена" и группу Рткуниверсалсерверадминс, и пользователь также должен иметь разрешения на полный доступ (для чтения/записи/изменения) в хранилище файлов Lync для файлов на сервере для сохраняемого сервера чата (для топологии Построитель может настроить нужные DACL.</p></td>
+<p>Чтобы опубликовать топологию, учетную запись, которая входит в группу "Администраторы домена" и группу Рткуниверсалсерверадминс, и пользователю также будут доступны разрешения на полный доступ (чтение/запись и изменение) в хранилище файлов Lync для файлов сервера чатов (чтобы Topology Builder мог настроить нужные DACL).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Добавление постоянного сервера чата в развертывание в Lync Server 2013</a> в документации по развертыванию</p></td>
 </tr>
 <tr class="odd">

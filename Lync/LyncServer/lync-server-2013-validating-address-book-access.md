@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Проверка доступа к адресной к
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating address book access
 ms:assetid: 630682c6-9262-46c5-9af1-6193db70374b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720916(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 233ad9804ea0f9ddd1075ea01bf7a4c8f35da819
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96fe45f1491ca518a6985b0c15f8bcc229bd7f8c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849197"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ _**Тема последнего изменения:** 2014-06-05_
 
 ## <a name="determining-success-or-failure"></a>Определение успеха или сбоя
 
-Если указанный пользователь может подключаться к службе адресной книги, вы получите обратное вывод, как показано ниже, и свойство Result помечается **** как успешное.
+Если указанный пользователь может подключаться к службе адресной книги, вы получите обратное вывод, как показано ниже, и свойство Result помечается как **успешное**.
 
 Таржетури:https://lync-se.fabrikam.com:443/abs/handler
 
