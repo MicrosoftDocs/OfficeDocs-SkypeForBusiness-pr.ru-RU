@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateFailed
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateFailed
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aa84186013deab98143113197dc080406dcec798
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692284"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769153"
 ---
 # <a name="why-has-number-activation-failed"></a>Почему не удается выполнить активацию номера?
 Проверка адреса является важной частью настройки планов звонков в Office 365. Если по какой-либо причине номер телефона не был активирован из-за проверки адреса, вам потребуется создать запрос на обслуживание. Выполнение проверки зависит от размера организации.

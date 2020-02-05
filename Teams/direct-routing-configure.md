@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: d4d804d48a97757d0a810cb16b22fec9f09df300
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769822"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 Чтобы связать SBC с клиентом, в сеансе PowerShell введите следующую команду и нажмите клавишу ВВОД: 
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
+New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true 
 ```
   > [!NOTE]
   > 1. Мы настоятельно рекомендуем задать максимальное количество вызовов в SBC, используя сведения, которые можно найти в документации по SBC. Это ограничение инициирует уведомление, если объект SBC находится на уровне емкости.
@@ -89,13 +89,13 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```PowerShell
-New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
+New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 Дает
 <pre>
 Identity              : sbc.contoso.com 
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 FailoverTimeSeconds   : 10 
 ForwardCallHistory    : False 
 ForwardPai            : False 
@@ -111,7 +111,7 @@ Enabled               : True
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Да|Полное доменное имя|Полное доменное имя SBC |Нет|Нонефкдн имя, ограничение 63 символов|Строка, список допустимых и недопустимых символов в [соглашениях об именовании в Active Directory для компьютеров, доменов, сайтов и подразделений](https://support.microsoft.com/help/909264)|
 |Нет|медиабипасс |Параметр, обозначенный SBC, поддерживает обход мультимедиа, и администратор хочет использовать его.|Нет|Верно<br/>False|Boolean|
-|Да|сипсигналлингпорт |Порт прослушивания, используемый для связи с прямыми службами маршрутизации с помощью протокола TLS (Transport Layer Security).|Нет|Любой порт|от 0 до 65535 |
+|Да|сипсигналингпорт |Порт прослушивания, используемый для связи с прямыми службами маршрутизации с помощью протокола TLS (Transport Layer Security).|Нет|Любой порт|от 0 до 65535 |
 |Нет|фаиловертимесекондс |Если для этого параметра установлено значение 10 (значения по умолчанию), исходящие вызовы, которые не ответили шлюзом в течение 10 секунд, пересылаются на следующую доступную магистраль. Если дополнительных каналов связи нет, Звонок автоматически удаляется. В организации с медленными ответами сетей и шлюзов, это может приводить к необязательному пропуску вызовов. Значение по умолчанию — 10.|5-10|Число|Типом|
 |Нет|ForwardCallHistory |Означает, будет ли переадресовываться по магистральному каналу сведения о журнале звонков. Если этот флажок установлен, прокси-сервер Office 365 КТСОП отправляет два заголовка: журнал — информация и на которую указывает обращение. Значением по умолчанию является **ложь** ($false). |False|Верно<br/>False|Boolean|
 |Нет|ForwardPAI|Указывает, будет ли переадресовываться заголовок P-Asserted-Identity (PAI) одновременно с вызовом. Заголовок PAI предоставляет способ проверки удостоверения абонемента. Если включено, будет также отправлен заголовок "Конфиденциальность: ИД". Значением по умолчанию является **ложь** ($false).|False|Верно<br/>False|Boolean|
@@ -139,7 +139,7 @@ Get-CsOnlinePSTNGateway -Identity sbc.contoso.com
 <pre>
 Identity              : sbc.contoso.com  
 Fqdn                  : sbc.contoso.com 
-SipSignallingPort     : 5067 
+SipSignalingPort     : 5067 
 CodecPriority         : SILKWB,SILKNB,PCMU,PCMA 
 ExcludedCodecs        :  
 FailoverTimeSeconds   : 10 
@@ -559,7 +559,7 @@ No Restrictions
 В сценариях примера мы выпустили ```New-CsOnlinePSTNGateway``` командлет для создания следующей конфигурации SBC.
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
 ```
 
 Правила трансляции, назначенные SBC, описаны в таблице ниже.

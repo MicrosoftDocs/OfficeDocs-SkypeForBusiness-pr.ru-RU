@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateIncomplete
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateIncomplete
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: 0fd510ecd3d465407668f47dbc233d51b35a5735
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 81d6b46813783fbc9eb0bac645a5107d1467d73c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769092"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Почему активация номера отображается как незавершенная?
 

@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.OrgMobileNotification
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgMobileNotification
 description: Сведения о том, как включать и отключать уведомления на мобильном телефоне, чтобы пользователи могли получать оповещения о входящих, голосовых сообщениях и пропущенных мгновенных сообщениях.
-ms.openlocfilehash: e9b5b86cf07c90af4ca68d91a36a936d7c657590
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706324"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769552"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Включение и отключение уведомлений на мобильном телефоне
 

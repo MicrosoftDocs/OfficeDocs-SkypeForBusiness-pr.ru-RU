@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Сводка: Общие сведения о способах установки и средствах для Skype для бизнеса.'
-ms.openlocfilehash: 16c460d8fbbafd98a980c69bc0cd7638108ea164
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4661a440cfcb85a097f7760e2dd8992faf9adb70
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234185"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768802"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Настройка установки клиента Windows в Skype для бизнеса Server
  

@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.UsersCountLimitationWarning
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.UsersCountLimitationWarning
 description: 'Сведения о том, как работать с ограничениями пользователей Skype для бизнеса Online для администраторов. '
-ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 71885e7d445c489177feb28577f717fc7241217a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769592"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Ограничения страницы пользователей в центре администрирования Skype для бизнеса Online
 

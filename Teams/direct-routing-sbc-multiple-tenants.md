@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Сведения о том, как настроить один межсеансовый контроллер (SBC) для обслуживания нескольких клиентов.
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572139"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769832"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Настройка множества клиентов в пограничном контроллере сеансов
 
@@ -57,7 +57,7 @@ ms.locfileid: "37572139"
 
 - **AudioCodes:** [заметки о настройке прямого маршрутизатора](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), конфигурация сценария размещения SBC, описанного в разделе "подключение AudioCodes SBC к Microsoft Teams, Конфигурация модели хостинга для маршрутизации". 
 - **Oracle:** [заметки о настройке прямого](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)направления, конфигурация сценария размещения SBC описана в разделе "Microsoft". 
-- **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs-канал ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) Teams [: Настройка направляющих для ОДНОнаправленных SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Связь на ленте:**  Сведения о том, как настроить одновременный SBCs [для](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing) ленты и на эту страницу, можно найти в разделе [основы настройки SBC для ленты Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) .
 - **Системы TE (аниноде):**  Пожалуйста, зарегистрируйте на [странице сообщества TE](https://community.te-systems.de/) , чтобы получить документацию и примеры того, как настроить SBC аниноде для нескольких клиентов.
 
 > [!NOTE]
@@ -217,7 +217,7 @@ ms.locfileid: "37572139"
 Основываясь на этой обратной связи, корпорация Майкрософт приносит новую логику для подготовки каналов для клиентов.
 
 Появились две новые сущности:
--   Магистраль несущей для клиента, зарегистрированный в клиенте перевозчика с помощью команды New-Ксонлинепстнгатевай, например New-Ксонлинепстнгатевай-FQDN customers.adatum.biz-Сипсигналлингпорт 5068-Форвардпаи $true.
+-   Магистраль несущей для клиента, зарегистрированный в клиенте перевозчика с помощью команды New-Ксонлинепстнгатевай, например New-Ксонлинепстнгатевай-FQDN customers.adatum.biz-Сипсигналингпорт 5068-Форвардпаи $true.
 
 -   Производная магистральная линия, для которой не требуется регистрация. Это просто имя узла, которое вы добавили из магистрали несущей. Все параметры конфигурации наследуются из магистрали несущей. В PowerShell не требуется создавать производную магистраль, а связь с магистральной несущей на ней основывается на имени FQDN (подробности описаны ниже).
 

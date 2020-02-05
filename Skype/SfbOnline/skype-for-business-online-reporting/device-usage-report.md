@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- O365E_ReportsS4BClients
+- CSH
 ms.custom:
 - Reporting
+- O365E_ReportsS4BClients
 description: На новой панели мониторинга "отчеты" для Office 365 отображаются общие сведения о действиях в продуктах Office 365 в вашей организации. С его помощью вы сможете детализировать отчеты на уровне продукта, чтобы получить более подробные сведения о действиях в каждом продукте. Например, с помощью отчета об использовании устройств в Skype для бизнеса можно просматривать устройства, в том числе операционные системы Windows и мобильные устройства, на которых установлено приложение Skype для бизнеса и которое используется для обмена мгновенными сообщениями и собраний. Дополнительные сведения можно найти в отчете об активности в центре администрирования.
-ms.openlocfilehash: 12f16b050a105f6795437bbfd7f5008b177a6714
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706064"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769402"
 ---
 # <a name="device-usage-report"></a>Отчет об использовании устройств
 
