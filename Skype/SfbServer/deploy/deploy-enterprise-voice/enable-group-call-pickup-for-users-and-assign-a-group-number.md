@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,39 +16,39 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Предоставление пользователям возможности отправки группового звонка в Skype для бизнеса Server Enterprise и назначение номера группы.
-ms.openlocfilehash: 8ded9fbf7e9a9c8034684c1477c6aad92bfc9e5f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: bebddb5f71612cf23d442366c774d0e8d4b9f500
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002549"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767272"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a><span data-ttu-id="4d422-103">Включение отправки группового звонка для пользователей и назначение номера группы в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="4d422-103">Enable Group Call Pickup for users and assign a group number in Skype for Business</span></span>
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a><span data-ttu-id="7da3a-103">Включение отправки группового звонка для пользователей и назначение номера группы в Skype для бизнеса</span><span class="sxs-lookup"><span data-stu-id="7da3a-103">Enable Group Call Pickup for users and assign a group number in Skype for Business</span></span>
 
-<span data-ttu-id="4d422-104">Предоставление пользователям возможности отправки группового звонка в Skype для бизнеса Server Enterprise и назначение номера группы.</span><span class="sxs-lookup"><span data-stu-id="4d422-104">Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.</span></span>
+<span data-ttu-id="7da3a-104">Предоставление пользователям возможности отправки группового звонка в Skype для бизнеса Server Enterprise и назначение номера группы.</span><span class="sxs-lookup"><span data-stu-id="7da3a-104">Enable users for Group Call Pickup in Skype for Business Server Enterprise Voice, and assign a group number.</span></span>
 
-<span data-ttu-id="4d422-105">После добавления номеров групп для отправки звонков в таблицу "приостановить Звонок" вы можете использовать средство Сефаутил, чтобы назначить номера групп пользователям и включить для них функцию отправки групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="4d422-105">After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.</span></span>
+<span data-ttu-id="7da3a-105">После добавления номеров групп для отправки звонков в таблицу "приостановить Звонок" вы можете использовать средство Сефаутил, чтобы назначить номера групп пользователям и включить для них функцию отправки групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="7da3a-105">After you add call pickup group numbers to the call park orbit table, you use the SEFAUtil tool to assign the group numbers to users and enable Group Call Pickup for them.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4d422-106">В гибридном развертывании не назначайте группу отправки группового звонка пользователям, которые находятся в сети.</span><span class="sxs-lookup"><span data-stu-id="4d422-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="4d422-107">Пользователи, которые подключены к сети, не могут принимать участие в расправке групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="4d422-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="4d422-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span><span class="sxs-lookup"><span data-stu-id="4d422-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
+> <span data-ttu-id="7da3a-106">В гибридном развертывании не назначайте группу отправки группового звонка пользователям, которые находятся в сети.</span><span class="sxs-lookup"><span data-stu-id="7da3a-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="7da3a-107">Пользователи, которые подключены к сети, не могут принимать участие в расправке групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="7da3a-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="7da3a-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span><span class="sxs-lookup"><span data-stu-id="7da3a-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
 
-### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="4d422-109">Назначение номера группы и включение отправки группового звонка для пользователя</span><span class="sxs-lookup"><span data-stu-id="4d422-109">To assign a group number and enable Group Call Pickup for a user</span></span>
+### <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a><span data-ttu-id="7da3a-109">Назначение номера группы и включение отправки группового звонка для пользователя</span><span class="sxs-lookup"><span data-stu-id="7da3a-109">To assign a group number and enable Group Call Pickup for a user</span></span>
 
-1. <span data-ttu-id="4d422-110">Войдите в систему компьютера, на котором установлено средство SEFAUtil, с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="4d422-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1. <span data-ttu-id="7da3a-110">Войдите в систему компьютера, на котором установлено средство SEFAUtil, с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="7da3a-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2. <span data-ttu-id="4d422-111">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="4d422-111">At the command line, run:</span></span>
+2. <span data-ttu-id="7da3a-111">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7da3a-111">At the command line, run:</span></span>
 
    ```console
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
-    <span data-ttu-id="4d422-112">Например, чтобы назначить пользователю групповой номер 199, введите:</span><span class="sxs-lookup"><span data-stu-id="4d422-112">For example, to assign group number 199 to a user:</span></span>
+    <span data-ttu-id="7da3a-112">Например, чтобы назначить пользователю групповой номер 199, введите:</span><span class="sxs-lookup"><span data-stu-id="7da3a-112">For example, to assign group number 199 to a user:</span></span>
 
    ```console
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
-## <a name="see-also"></a><span data-ttu-id="4d422-113">См. также</span><span class="sxs-lookup"><span data-stu-id="4d422-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7da3a-113">См. также</span><span class="sxs-lookup"><span data-stu-id="7da3a-113">See also</span></span>
 
-[<span data-ttu-id="4d422-114">Disable Group Pickup for Users</span><span class="sxs-lookup"><span data-stu-id="4d422-114">Disable Group Pickup for Users</span></span>](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
+[<span data-ttu-id="7da3a-114">Disable Group Pickup for Users</span><span class="sxs-lookup"><span data-stu-id="7da3a-114">Disable Group Pickup for Users</span></span>](https://technet.microsoft.com/library/91b06f9e-2840-45a2-bbb3-6a29179b9a9f.aspx)
 
