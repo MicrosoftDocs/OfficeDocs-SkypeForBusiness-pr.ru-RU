@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться развертывать конференции в Skype для бизнеса Server.'
-ms.openlocfilehash: 3b00d20ea930d96f98502e3b75a0ce044301b142
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 34405084833bbdc5e65a6cc82ebc310718629296
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768552"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Развертывание конференций в Skype для бизнеса Server
 
@@ -49,7 +51,7 @@ ms.locfileid: "36234873"
 |**Этап**|**Шаги**|**Роли и членство в группах**|**Документация**|
 |:-----|:-----|:-----|:-----|
 |**Установка необходимого аппаратного и программного обеспечения** <br/> |Конференции выполняются на серверах переднего плана и серверах стандартных выпусков. Узнайте о требованиях к серверу и окружающей среде для серверов переднего плана.  <br/> Если вы используете веб-конференции, вам нужно убедиться, что Skype для бизнеса Server может взаимодействовать с сервером Office Web Apps, который используется для обработки и отрисовки презентаций PowerPoint.  <br/> Для веб-конференций также необходимо указать общий файловый ресурс для использования в качестве хранилища файлов.  <br/> Предполагается ли разрешить внешним пользователям с клиентами Skype для бизнеса присоединяться к конференциям? Если да, необходимо развернуть пограничные серверы.  <br/> |Пользователь домена, являющийся членом локальной группы "Администраторы"  <br/> | [Требования к серверу в Skype для бизнеса Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Требования к оборудованию и программному обеспечению для Конференции в Skype для бизнеса Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Настройка интеграции с Office Web Apps Server в Skype для бизнеса Server](office-web-app-server.md) <br/> [Создание общего файлового файла в Skype для бизнеса Server](../../deploy/install/create-a-file-share.md) <br/> [Планирование развертываний пограничного сервера в Skype для бизнеса Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Развертывание пограничного сервера в Skype для бизнеса Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
-|**Создание соответствующей внутренней топологии для поддержки конференц-связи** <br/> |Для добавления конференций в топологию и публикации топологии необходимо запустить построитель топологии.  <br/> |Для определения топологии требуется учетная запись члена локальной группы "Пользователи".  <br/> Чтобы опубликовать топологию, учетную запись, которая является членом группы "Администраторы домена" и Рткуниверсалсерверадминс, и у нее есть разрешения полного доступа (чтение/запись и изменение) в общей папке, которые будут использоваться для хранения файлов в Skype для бизнеса Server (для топологии Построитель может настроить нужные DACL.)  <br/> |[Создание и публикация новой топологии в Skype для бизнеса Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
+|**Создание соответствующей внутренней топологии для поддержки конференц-связи** <br/> |Для добавления конференций в топологию и публикации топологии необходимо запустить построитель топологии.  <br/> |Для определения топологии требуется учетная запись члена локальной группы "Пользователи".  <br/> Чтобы опубликовать топологию, учетную запись, которая является членом группы "Администраторы домена" и Рткуниверсалсерверадминс, и у нее есть разрешения полного доступа (чтение/запись и изменение) в общей папке, которые будут использоваться для хранения файлов в Skype для бизнеса Server (чтобы Topology Builder мог настроить нужные DACL),  <br/> |[Создание и публикация новой топологии в Skype для бизнеса Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Настройка политик и параметров конфигурации конференц-связи** <br/> |Используйте панель управления Skype для бизнеса Server или консоль управления Skype для бизнеса Server для настройки политик конференц-связи и параметров конфигурации.  <br/> |Группа Рткуниверсалсерверадминс (только для Windows PowerShell) или назначение пользователей роли Ксадминистратор  <br/> |[Управление политиками конференций в Skype для бизнеса Server](../../manage/conferencing/conferencing-policies.md) <br/> [Управление параметрами конфигурации собраний в Skype для бизнеса Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
 
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Блок-схема и контрольный список развертывания для конференц-связи с телефонным подключением

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Сводка: сведения о том, как развернуть корпоративный голосовую почту для сервера Skype для бизнеса на центральном сайте.'
-ms.openlocfilehash: 3e85ac96415788e8e15ba1ed11786864b6fc3124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1b1b1d0f79d1730bd491314f4f4e97b43b0acb62
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767552"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Развертывание корпоративной голосовой связи в Skype для бизнеса Server
 
@@ -28,7 +30,7 @@ ms.locfileid: "36245429"
 Этот раздел используется для развертывания корпоративной голосовой связи на центральном веб-сайте. Чтобы развернуть корпоративную голосовую почту на сайте филиала, перейдите к разделу [Развертывание сайтов филиалов](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
 
 Этот раздел содержит процедуры для развертываний, в которых сервер-посредник размещен на каждом сервере переднего плана или стандартном сервере выпуска Standard, как рекомендуется, а также для развертываний с помощью пула серверов с изолированными исправлениями. Вы можете пропустить следующее содержимое, если вы используете Topology Builder, чтобы определить и опубликовать топологию, которая будет высвоена серверу-посреднику на каждом сервере переднего плана или стандартном сервере выпуска Standard Edition, так как мастер развертывания уже автоматически установил файлы для Сервер для устранения проблем при установке файлов для пула серверов переднего плана или стандартного выпуска сервера:
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Требования к безопасности и конфигурации для корпоративной голосовой связи в Skype для бизнеса Server](enterprise-voice-security.md)
 

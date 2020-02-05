@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться настраивать интеграцию между сервером Office Web Apps и Skype для бизнеса Server для включения презентаций PowerPoint для веб-конференций.'
-ms.openlocfilehash: 99b0ab34af655b95fab3d92973f948d30e3e51f8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b20646f31a7925ca66180c1580751574152047e5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768352"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Настройка интеграции с Office Web Apps Server в Skype для бизнеса Server
  
@@ -46,7 +48,7 @@ Skype для бизнеса Server использует сервер Office Web 
     
 6. В диалоговом окне **Определение нового сервера Office Web Apps** введите полное доменное имя (FQDN) сервера Office Web Apps в поле **Полное доменное имя сервера Office Web Apps**; при этом URL-адрес для обнаружения сервера Office Web Apps автоматически вводится в поле **URL-адрес обнаружения сервера Office Web Apps**.
     
-   - Если сервер Office Web Apps установлен в локальной сети и в той же сетевой зоне, что и Skype для бизнеса, **сервер Office Web Apps разворачивается во внешней сети (то есть, он** не должен быть установлен в качестве периметра или Интернета).
+   - Если сервер Office Web Apps установлен в локальной сети и в той же сетевой зоне, что и Skype для бизнеса, **сервер Office Web Apps разворачивается во внешней сети (то есть, он не должен быть установлен в качестве периметра или Интернета)** .
     
    - Если сервер Office Web Apps развернут за пределами внутреннего брандмауэра, выберите режим **Сервер Office Web Apps развернут во внешней сети (периметр/Интернет)**.
     

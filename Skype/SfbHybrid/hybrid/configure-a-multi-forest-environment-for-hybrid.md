@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: В следующих разделах приведены указания по настройке среды с несколькими лесами в модели леса ресурсов и пользователей для предоставления функциональных возможностей Skype для бизнеса в гибридном сценарии.
-ms.openlocfilehash: 7ef895648c044dc5d1f3f907ad4f75d950a4253a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726949"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Развертывание топологии леса ресурсов
  
@@ -63,7 +65,7 @@ ms.locfileid: "36160710"
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP — Оригинаторсид  <br/> |
    
-[Выбранный атрибут связи](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) с учетной записью будет использоваться в качестве привязки источника. Если вы предпочитаете использовать другой и неизменяемый атрибут, вы можете сделать это. обязательно измените правило утверждений AD FS и выберите атрибут во время настройки подключения AAD.
+[Выбранный атрибут связи с учетной записью](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) будет использоваться в качестве привязки источника. Если вы предпочитаете использовать другой и неизменяемый атрибут, вы можете сделать это. обязательно измените правило утверждений AD FS и выберите атрибут во время настройки подключения AAD.
   
 Не синхронизируйте UPN между лесами. Во время тестирования мы обнаружили, что нам требовалось использовать уникальное имя участника-пользователя для каждого леса пользователя, так как вы не можете использовать одно и то же имя участника-пользователя в нескольких лесах. В результате мы предоставим две возможности для синхронизации имени участника-пользователя или не синхронизации. 
   

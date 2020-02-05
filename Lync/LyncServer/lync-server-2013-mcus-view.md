@@ -3,6 +3,8 @@ title: 'Lync Server 2013: представление Мкус'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mcus view
 ms:assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688127(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5495c023c19d6426dae7afc9bc2181aafe8d6cbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827531"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,17 +55,17 @@ _**Тема последнего изменения:** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Мкуид</strong></p></td>
+<td><p><strong>мкуид</strong></p></td>
 <td><p>целое</p></td>
 <td><p>Уникальный номер, показывающий MCU.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Мкуури</strong></p></td>
+<td><p><strong>мкуури</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p>Универсальный код ресурса (URI) для MCU.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Мкууритипе</strong></p></td>
+<td><p><strong>мкууритипе</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p>Тип URI MCU. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
 </tr>

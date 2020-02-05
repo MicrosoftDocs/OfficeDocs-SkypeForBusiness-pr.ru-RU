@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Аннотация: Ознакомьтесь с приведенными ниже сценариями, которые помогут вам спланировать топологию пограничного сервера в Skype для бизнеса Server.'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754169"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Сценарии пограничного сервера в Skype для бизнеса Server
  
@@ -93,11 +93,4 @@ ms.locfileid: "34277155"
 С этим сценарием можно обеспечить высокую доступность в пограничном развертывании, которое предлагает преимущества масштабируемости и поддержку отказоустойчивости.
   
 ![Сценарий пограничных серверов для масштабированного консолидированного пограничного сервера с устройством балансировки нагрузки](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>Схема портов
-
-У нас также есть схема для масштабируемых распределенных пулов Edge с аппаратным обеспечением балансировки нагрузки.
-  
-![Порты и протоколы сети периметра пограничного сервера](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

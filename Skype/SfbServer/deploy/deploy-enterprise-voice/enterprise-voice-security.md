@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Сводка: сведения о требованиях к безопасности и конфигурации для корпоративной голосовой связи в Skype для бизнеса Server.'
-ms.openlocfilehash: 70acac97bd2a3554c0613f64bdbf93f64811a0b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240326"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767242"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Требования к безопасности и конфигурации для корпоративной голосовой связи в Skype для бизнеса Server
  
@@ -59,7 +61,7 @@ ms.locfileid: "36240326"
 
 После того как вы проверите программное обеспечение и требования к среде для корпоративной голосовой связи, вы можете:
   
-- Установите сервер-посредника, как описано в разделе [развертывание сервера-посредника в построителе топологии в Skype для бизнеса Server](deploy-a-mediation-server.md), но только в том случае, если вы хотите развернуть изолированный сервер или пул, так как серверы обновлений устанавливаются в составе интерфейса пользователя процесс развертывания сервера пула или стандартного выпуска при совместном использовании.
+- Установите сервер-посредник, как описано в разделе [развертывание сервера-посредника в построителе топологии в Skype для бизнеса Server](deploy-a-mediation-server.md), но только в том случае, если вы хотите развернуть изолированный сервер или пул, так как серверы-исправления устанавливаются как часть внешнего пула или процесс развертывания сервера стандартных выпусков.
     
 - Кроме того, начните настраивать параметры для маршрутизации звонков для пользователей корпоративной голосовой связи, как описано в разделе [Настройка каналов в Skype для бизнеса Server](configure-trunks.md).
     

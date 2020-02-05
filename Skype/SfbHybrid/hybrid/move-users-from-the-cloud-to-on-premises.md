@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сведения о том, как переместить пользователей из Skype для бизнеса Online в локальную среду.
-ms.openlocfilehash: 47b454a30d66a2c033915868eb2c95ea9ce0efe4
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0b2143a1705aff3f0b74fb0194d3d10e3d55771b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963017"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726739"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Перемещение пользователей из облака в локальную среду 
 
@@ -30,7 +32,7 @@ ms.locfileid: "40963017"
 > [!Important]
 > Если пользователь ранее находился в режиме Теамсонли и вы используете более раннюю версию, чем Skype для бизнеса Server 2015 с 8, то необходимо также удалить назначение режима Теамсонли Теамсупградеполици для этого пользователя. Локальные пользователи не должны иметь режим = Теамсонли.  Последующие версии Skype для бизнеса Server автоматически удаляют это назначение. Дополнительные сведения см. в разделе [Grant – кстеамсупградеполици](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy).
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 - Для Организации необходимо правильно настроить подключение Azure AD и синхронизировать все нужные атрибуты для пользователя, как описано в разделе [Configure Azure AD Connect](configure-azure-ad-connect.md).
 - Пользователь, который перемещается из сети обратно в локальную среду, должен существовать в локальной службе Active Directory.

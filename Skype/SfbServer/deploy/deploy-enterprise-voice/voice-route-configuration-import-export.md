@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: Сводка. сведения о том, как экспортировать или импортировать файл конфигурации голосовой связи в Skype для бизнеса Server с помощью панели управления Skype для бизнеса Server.
-ms.openlocfilehash: ec5a3d0c7f14d85a7b64eaad1edc73ebe4e24cd2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b980aa26f4d67cd1697ec17286e6af7d9e657e15
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239917"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766882"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Экспорт и импорт файла конфигурации голосового маршрута в Skype для бизнеса
  
@@ -27,7 +29,7 @@ ms.locfileid: "36239917"
   
 Если требуется сохранить конфигурацию маршрутизации голосовых данных без ее публикации, выполните следующие действия для сохранения и извлечения снимков конфигурации маршрутизации голосовых данных. 
   
-При импорте файла конфигурации голосовой маршрутизации (. вкфг) изменения, внесенные в конфигурацию маршрутизации голоса на сервере, будут указывать на то, что на панели управления "Маршрутизация **** голосовых сообщений" в Skype для бизнеса Server — Это незафиксированные изменения в маршруте голосовой связи. Those uncommitted changes are the differences between the two configurations that require reconciliation.
+При импорте файла конфигурации голосовой маршрутизации (. вкфг) изменения, внесенные в конфигурацию маршрутизации голосовых сообщений на сервере, будут указывать на наличие незафиксированных изменений, внесенных в голосовую почту, в группе " **Маршрутизация** голосовой связи" на панели управления "Skype для бизнеса Server". Those uncommitted changes are the differences between the two configurations that require reconciliation.
   
 Если вы внесли какие-либо незафиксированные изменения параметров на любой странице в группе, изменения будут сохранены в файле экспортированной конфигурации голосовой связи (. вкфг). Это позволит вам вносить изменения в конфигурацию голосовой маршрутизации во время нескольких сеансов, прежде чем публиковать изменения. 
   

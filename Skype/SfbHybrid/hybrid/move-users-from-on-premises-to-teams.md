@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Сводка. Узнайте, как перенести пользовательские параметры и переместить пользователей в Teams.
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726749"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Перемещение пользователей из локальной группы в Teams
 
@@ -59,7 +61,7 @@ ms.locfileid: "38010622"
 
 Move-CsUser доступен из локального окна PowerShell для командной консоли Skype для бизнеса. Действия, необходимые ниже и необходимые разрешения, совпадают с перемещением пользователя в Skype для бизнеса Online, за исключением того, что необходимо также указать параметр Моветотеамс, и необходимо убедиться, что пользователю также предоставлена лицензия для Teams (в дополнение к Skype для бизнеса). В сети).
 
-У вас должны быть достаточные права как в локальной среде, так и в клиенте Office 365, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Вы можете использовать одну учетную запись с правами в обеих средах или можно запустить локальное окно командной консоли Skype для бизнеса Server с локальными учетными данными и использовать `-Credential` параметр для указания учетных данных для Office 365 Учетная запись с необходимым административной ролью Office 365.
+У вас должны быть достаточные права как в локальной среде, так и в клиенте Office 365, как описано в разделе [обязательные административные учетные данные](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Можно использовать одну учетную запись с правами в обеих средах или можно запустить локальное окно командной консоли Skype для бизнеса Server с локальными учетными данными и использовать `-Credential` параметр для указания учетных данных для учетной записи Office 365 с необходимой административной ролью Office 365.
 
 Перемещение пользователя в режим "только Teams" с помощью команды Move — CsUser:
 

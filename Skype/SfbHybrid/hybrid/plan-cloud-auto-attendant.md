@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Общие сведения об использовании автосекретаря для облачных приложений в Skype для бизнеса Server 2019
-ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207038"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724229"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Планирование автосекретарей в облаке
 
@@ -41,7 +43,7 @@ ms.locfileid: "36207038"
 - [Настройка облачного автосекретаря](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Автоматический ответ и маршрутизация для входящих вызовов](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 В приведенных ниже требованиях предполагается, что у вас уже развернут Skype для бизнеса Server 2019 в поддерживаемой топологии.  Требования зависят от вашего сценария:
 
@@ -56,7 +58,7 @@ ms.locfileid: "36207038"
    Для получения дополнительных сведений ознакомьтесь со статьей [планирование гибридного подключения между Skype для бизнеса Server и office 365](plan-hybrid-connectivity.md) и [Настройка гибридного подключения между Skype для бизнеса server и Office 365](configure-hybrid-connectivity.md).
 
 - Если вы назначаете номер телефона автосекретаря, вам потребуется лицензия на [Office 365 Корпоративная](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
-- Создайте учетную [запись](/MicrosoftTeams/manage-resource-accounts.md) Интернет-ресурса или локальную [учетную запись](configure-onprem-ra.md)для каждого автосекретаря, а также назначьте номера телефонов и лицензии. 
+- Создайте [учетную запись](/MicrosoftTeams/manage-resource-accounts.md) Интернет-ресурса или локальную [учетную запись](configure-onprem-ra.md)для каждого автосекретаря, а также назначьте номера телефонов и лицензии. 
 
 ## <a name="migration-and-interoperability"></a>Миграция и взаимодействие
 
@@ -91,7 +93,7 @@ ms.locfileid: "36207038"
 
 ## <a name="additional-planning-resources"></a>Дополнительные ресурсы по планированию
 
-В руководстве под названием " [малый бизнес" приведен пример настройки автосекретаря —](/microsoftteams/tutorial-org-aa) это процесс сбора сведений о потребностях пользователей, планирование структуры автосекретарей и пользователей (и, возможно, вызовов очередей), написание приглашений меню и Реализация плана в центре администрирования Teams. Изучите руководство и используйте упражнения, чтобы создать свой план.
+В руководстве под названием " [малый бизнес" — Настройка автосекретаря —](/microsoftteams/tutorial-org-aa) это процесс сбора сведений о потребностях пользователей, планирование структуры автосекретарей и пользователей (и, возможно, вызовов очередей), написание приглашений меню и реализация плана в центре администрирования Teams. Изучите руководство и используйте упражнения, чтобы создать свой план.
 
 Если у вас есть сплошная структура, соответствующая вашим потребностям, и сценарий, который эффективно проводит клиентов, перейдите к разделу [Настройка учетных записей ресурсов](configure-onprem-ra.md).
 
@@ -112,8 +114,8 @@ ms.locfileid: "36207038"
 
 Единая система обмена сообщениями Exchange: [Автоматический ответ и Маршрутизация входящих вызовов](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Планирование гибридного подключения между Skype для бизнеса Server и Office 365](plan-hybrid-connectivity.md)
+[Планирование гибридного подключения между приложением Skype для бизнеса Server и Office 365](plan-hybrid-connectivity.md)
 
-[Настройка гибридного подключения между Skype для бизнеса Server и Office 365](configure-hybrid-connectivity.md)
+[Настройка гибридного подключения между приложением Skype для бизнеса Server и Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: сбой вызовов абонентского доступа или автосекретаря с быстрым занятием и сообщение об ошибке "внутренний сервер 500" после перемещения объектов контакта в Skype для бизнеса Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

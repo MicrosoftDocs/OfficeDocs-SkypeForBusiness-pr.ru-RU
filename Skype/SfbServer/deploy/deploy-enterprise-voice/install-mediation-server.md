@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Сводка: сведения об установке сервера исправлений для файлов в Skype для бизнеса Server.'
-ms.openlocfilehash: b73832586ba4a09cc51f67bddcaf30c2f85fcca1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4dc4c9971b74bf27d0f516ed70484646b666a845
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240299"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767122"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Установка сервера исправлений в Skype для бизнеса Server
  
@@ -58,7 +60,7 @@ ms.locfileid: "36240299"
     
 12. После успешного завершения **шага 4** перезапустите сервер и войдите на него как участник группы DomainAdmins.
     
-13. На компьютере, на котором работает панель управления Skype для бизнеса Server, убедитесь, что на странице **Topology** (топология) панели управления Skype для бизнеса Server находится состояние службы сервера-посредника, на котором отображается зеленая галочка. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**. 
+13. На компьютере, на котором работает панель управления Skype для бизнеса Server, убедитесь, что на странице **Topology (топология** ) панели управления Skype для бизнеса Server находится состояние службы сервера-посредника, на котором отображается зеленая галочка. If a red X appears instead, select the Mediation Server. On the **Action** menu, click **Start All Services**. 
     
-Если вы добавили несколько компьютеров к группе "сервер исправлений", выполните действия, описанные в этой процедуре, на всех остальных компьютерах в пуле сервера исправлений. Если вы не хотите устанавливать файлы для сервера исправлений на других компьютерах, выполните действия, описанные в разделе [Настройка каналов в Skype для бизнеса Server](configure-trunks.md) для настройки параметров магистрального подключения между этим пулом серверов (или все исправления). Серверы на сайте) и его одноранговый элемент.
+Если вы добавили несколько компьютеров к группе "сервер исправлений", выполните действия, описанные в этой процедуре, на всех остальных компьютерах в пуле сервера исправлений. Если вы не хотите устанавливать файлы для сервера исправлений на других компьютерах, выполните действия, описанные в разделе [Настройка каналов в Skype для бизнеса Server](configure-trunks.md) для настройки параметров магистральной связи между этим пулом серверов (или всеми серверами-исправлениями на сайте) и его одноранговым узлом.
 

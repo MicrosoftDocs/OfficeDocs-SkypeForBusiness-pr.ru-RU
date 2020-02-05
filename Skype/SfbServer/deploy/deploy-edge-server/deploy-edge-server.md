@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Сводка: сведения о развертывании пограничного сервера или пограничного пула в среде Skype для бизнеса Server.'
-ms.openlocfilehash: 03cb3f1bc4a938a698c28332b4781d08434bc52f
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: ca0fba35165c05ab9cdf6010c3c5dd076ec1ea5b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36492974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768322"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Развертывание пограничного сервера в Skype для бизнеса Server
  
@@ -38,7 +40,7 @@ ms.locfileid: "36492974"
   
 - [Требования к системе пограничного сервера в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
     
-- [Требования к окружающей среде пограничного сервера в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
+- [Требования к среде пограничных серверов в Skype для бизнеса Server](../../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md)
     
 - [Создание топологии Edge для Skype для бизнеса Server](create-your-edge-topology.md)
     

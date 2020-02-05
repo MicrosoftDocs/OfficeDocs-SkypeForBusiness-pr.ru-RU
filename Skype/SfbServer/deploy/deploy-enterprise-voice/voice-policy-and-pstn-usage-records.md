@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,19 +16,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Сводка: создание и изменение политик голосовой связи и настройка записей об использовании PSTN с помощью панели управления "Skype для бизнеса Server".'
-ms.openlocfilehash: 76ce531eab2eb88b9a62c4bc38aae1e899802084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fe67c9c3764196559740e114419dc427cdeadf3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239931"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766972"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Создание или изменение политики голосовой связи и настройка записей использования PSTN в Skype для бизнеса
 
 **Сводка:** Создавайте и изменяйте политики голосовой связи и настраивайте записи об использовании PSTN с помощью панели управления "Skype для бизнеса Server".
 
 > [!NOTE]
-> С каждой политикой голосовой связи должна быть связана хотя бы одна запись о режиме работы с ТСОП. Чтобы просмотреть список всех записей использования PSTN, доступных в развертывании корпоративной голосовой связи, и просмотреть их свойства, ознакомьтесь с разрешениями [Просмотр записей использования PSTN в Skype для бизнеса](view-pstn-usage-records.md).
+> С каждой политикой голосовой связи должна быть связана хотя бы одна запись о режиме работы с ТСОП. Чтобы просмотреть список всех записей использования PSTN, доступных в развертывании корпоративной голосовой связи, и просмотреть их свойства, ознакомьтесь с [разрешениями Просмотр записей использования PSTN в Skype для бизнеса](view-pstn-usage-records.md).
 
 ### <a name="to-create-a-voice-policy"></a>Создание политики голосовой связи
 

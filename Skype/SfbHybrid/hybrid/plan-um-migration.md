@@ -5,16 +5,18 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: В этом разделе рассматриваются вопросы, которые необходимо учитывать при переносе существующих развертываний Skype для бизнеса Server или Exchange Server на последнюю версию или в Skype для бизнеса Online или Exchange Online.
-ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756003"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Планирование переноса в Skype для бизнеса Server и Exchange Server
 
@@ -37,7 +39,7 @@ ms.locfileid: "36237474"
 
 ### <a name="pbx-support-in-exchange-2019-and-skype-for-business-server-2019"></a>Поддержка УАТС в Exchange 2019 и Skype для бизнеса Server 2019
 
-Облачная Голосовая почта не предоставляет функции обмена голосовыми сообщениями для УАТС. Если вы используете единую систему обмена сообщениями Exchange Server для УАТС и хотите выполнить обновление до Exchange Server 2019, необходимо принять один из трех вариантов, перечисленных в записи блога [Новая дата для прекращения поддержки пограничных контроллеров сеансов в Exchange Единая система обмена сообщениями в Интернете](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) в [блоге группы разработчиков Exchange](https://blogs.technet.microsoft.com/exchange/).
+Облачная Голосовая почта не предоставляет функции обмена голосовыми сообщениями для УАТС. Если вы используете единую систему обмена сообщениями Exchange Server для УАТС и хотите выполнить обновление до Exchange Server 2019, необходимо принять один из трех вариантов, перечисленных в записи блога [Новая дата для прекращения поддержки пограничных контроллеров сеансов в единой системе обмена сообщениями Exchange Online](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) в [блоге группы Exchange](https://blogs.technet.microsoft.com/exchange/).
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>Поддержка единой системы обмена сообщениями Exchange Online в Skype для бизнеса Server 2019
 

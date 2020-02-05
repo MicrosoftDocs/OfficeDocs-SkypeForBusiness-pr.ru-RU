@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype для бизнеса Server (SRS для систем с комнатой) в Skype — это веб-портал, который может использоваться организациями для обслуживания комнат конференц-зала Skype. Администраторы могут использовать веб-портал администрирования SRS v1 для наблюдения за работоспособностью устройства, например мониторингом аудио-и видеоустройств. С помощью этого портала, администраторы могут удаленно собирать диагностические сведения, чтобы отслеживать работоспособность конференц-зала.
-ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 558baac64bdb1e21ed710cb4dafb063ce75a62de
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002889"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768522"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Развертывание веб-портала администрирования SRS v1 в Skype для бизнеса Server
 
