@@ -13,13 +13,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/13/2017
+f1.keywords:
+- NOCSH
 ms.author: samanro
-ms.openlocfilehash: c06dcc373b2029bac39af25a72429877c4bbd833
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 7067d96ccbba6a0a1ef654713396a878bd9f5a11
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "33911349"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769382"
 ---
 # <a name="whats-new-in-skype-for-business-online"></a>Новые возможности Skype для бизнеса Online
 
@@ -36,7 +38,7 @@ ms.locfileid: "33911349"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Следующим</h3>
+                        <h3>Статьи</h3>
                         <p><a href=" ">Имя ссылки</a></p>
                     </div>
                 </div>
@@ -53,7 +55,7 @@ ms.locfileid: "33911349"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Новые возможности</h3>
+                        <h3>Новые функции</h3>
                         <p><a href=" ">Имя ссылки</a></p>
                     </div>
                 </div>

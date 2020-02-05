@@ -17,96 +17,97 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStatePending
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStatePending
 description: Проверка адреса является важной частью настройки планов звонков в Office 365. Она предоставляет пользователю организации адрес для экстренного реагирования, который могутжет использоваться соответствующими экстренные службыами.
-ms.openlocfilehash: 7e4d9faa9a58469c2be751a0cb724650f544d077
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705834"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769142"
 ---
-# <a name="why-is-number-activation-just-pending"></a><span data-ttu-id="70666-104">Почему активация номера находится в ожидании?</span><span class="sxs-lookup"><span data-stu-id="70666-104">Why is number activation just pending?</span></span>
+# <a name="why-is-number-activation-just-pending"></a><span data-ttu-id="599fa-104">Почему активация номера находится в ожидании?</span><span class="sxs-lookup"><span data-stu-id="599fa-104">Why is number activation just pending?</span></span>
 
-<span data-ttu-id="70666-105">Проверка адреса является важной частью настройки планов звонков в Office 365.</span><span class="sxs-lookup"><span data-stu-id="70666-105">Address validation is an important part of setting up Calling Plans in Office 365.</span></span> <span data-ttu-id="70666-106">Если по какой-либо причине телефонный номер не активирован и указан как **Ожидание** в результате проверки адреса, вам потребуется создать и отправить запрос на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="70666-106">If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="70666-107">Выполнение проверки зависит от размера организации.</span><span class="sxs-lookup"><span data-stu-id="70666-107">How you do this is based on the size of your organization.</span></span>
+<span data-ttu-id="599fa-105">Проверка адреса является важной частью настройки планов звонков в Office 365.</span><span class="sxs-lookup"><span data-stu-id="599fa-105">Address validation is an important part of setting up Calling Plans in Office 365.</span></span> <span data-ttu-id="599fa-106">Если по какой-либо причине телефонный номер не активирован и указан как **Ожидание** в результате проверки адреса, вам потребуется создать и отправить запрос на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="599fa-106">If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="599fa-107">Выполнение проверки зависит от размера организации.</span><span class="sxs-lookup"><span data-stu-id="599fa-107">How you do this is based on the size of your organization.</span></span>
   
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="70666-108">Для организаций, где число пользователей не превышает 150, необходимо выполнить следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="70666-108">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="70666-109">В центре администрирования выберите **нужна помощь**?</span><span class="sxs-lookup"><span data-stu-id="70666-109">In the admin center, choose **Need help**?</span></span>
-2. <span data-ttu-id="70666-110">На панели **Требуется помощь?** опишите проблему и выберите **Получить справку**.</span><span class="sxs-lookup"><span data-stu-id="70666-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="70666-111">Если в разделе **Просмотр решений** нет подходящих результатов, выберите одно из следующий действий.</span><span class="sxs-lookup"><span data-stu-id="70666-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="70666-112">**Закажите звонок на свой номер (рекомендуется)**: подтвердите свой контактный номер и нажмите **Позвонить мне**.</span><span class="sxs-lookup"><span data-stu-id="70666-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="70666-113">На панели **Требуется помощь?** будет показано время ожидания обратного звонка.</span><span class="sxs-lookup"><span data-stu-id="70666-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="70666-114">**Напишите нам эл. письмо**: подтвердите свой адрес эл. почты и нажмите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="70666-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="70666-115">На панели **Требуется помощь?** будет показано время для ответного звонка.</span><span class="sxs-lookup"><span data-stu-id="70666-115">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="599fa-108">Для организаций, где число пользователей не превышает 150, необходимо выполнить следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="599fa-108">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="599fa-109">В центре администрирования выберите **нужна помощь**?</span><span class="sxs-lookup"><span data-stu-id="599fa-109">In the admin center, choose **Need help**?</span></span>
+2. <span data-ttu-id="599fa-110">На панели **Требуется помощь?** опишите проблему и выберите **Получить справку**.</span><span class="sxs-lookup"><span data-stu-id="599fa-110">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="599fa-111">Если в разделе **Просмотр решений** нет подходящих результатов, выберите одно из следующий действий.</span><span class="sxs-lookup"><span data-stu-id="599fa-111">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="599fa-112">**Закажите звонок на свой номер (рекомендуется)**: подтвердите свой контактный номер и нажмите **Позвонить мне**.</span><span class="sxs-lookup"><span data-stu-id="599fa-112">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="599fa-113">На панели **Требуется помощь?** будет показано время ожидания обратного звонка.</span><span class="sxs-lookup"><span data-stu-id="599fa-113">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="599fa-114">**Напишите нам эл. письмо**: подтвердите свой адрес эл. почты и нажмите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="599fa-114">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="599fa-115">На панели **Требуется помощь?** будет показано время для ответного звонка.</span><span class="sxs-lookup"><span data-stu-id="599fa-115">The call response time is indicated in the **Need help?** pane.</span></span>
 
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="70666-116">Если в вашей организации больше 150 пользователей, создайте запрос на обслуживание для проверки адреса экстренного реагирования</span><span class="sxs-lookup"><span data-stu-id="70666-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="599fa-116">Если в вашей организации больше 150 пользователей, создайте запрос на обслуживание для проверки адреса экстренного реагирования</span><span class="sxs-lookup"><span data-stu-id="599fa-116">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
 
-1. <span data-ttu-id="70666-117">Войдите в Office 365 как администратор под своей рабочей или учебной учетной записью.</span><span class="sxs-lookup"><span data-stu-id="70666-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="599fa-117">Войдите в Office 365 как администратор под своей рабочей или учебной учетной записью.</span><span class="sxs-lookup"><span data-stu-id="599fa-117">Sign in as an administrator to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="70666-118">В центре администрирования на панели навигации слева выберите пункт **Поддержка** > **нового запроса на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="70666-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="599fa-118">В центре администрирования на панели навигации слева выберите пункт **Поддержка** > **нового запроса на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="599fa-118">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="70666-119">В меню **Запросы на обслуживание** щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="70666-119">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="599fa-119">В меню **Запросы на обслуживание** щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="599fa-119">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="70666-120">На странице **Создание запроса на обслуживание** выберите **Совместная работа в сети**.</span><span class="sxs-lookup"><span data-stu-id="70666-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="599fa-120">На странице **Создание запроса на обслуживание** выберите **Совместная работа в сети**.</span><span class="sxs-lookup"><span data-stu-id="599fa-120">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="70666-121">На странице **Описать проблему** укажите следующие данные.</span><span class="sxs-lookup"><span data-stu-id="70666-121">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="599fa-121">На странице **Описать проблему** укажите следующие данные.</span><span class="sxs-lookup"><span data-stu-id="599fa-121">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-   - <span data-ttu-id="70666-122">**Функция:** выберите **План внутренних звонков** и (или) **План внутренних и международных звонков**.</span><span class="sxs-lookup"><span data-stu-id="70666-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="599fa-122">**Функция:** выберите **План внутренних звонков** и (или) **План внутренних и международных звонков**.</span><span class="sxs-lookup"><span data-stu-id="599fa-122">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-   - <span data-ttu-id="70666-123">**Симптом:** укажите **Экстренный звонок**.</span><span class="sxs-lookup"><span data-stu-id="70666-123">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="599fa-123">**Симптом:** укажите **Экстренный звонок**.</span><span class="sxs-lookup"><span data-stu-id="599fa-123">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-   - <span data-ttu-id="70666-124">**Описание проблемы:** введите **Проверка адреса**.</span><span class="sxs-lookup"><span data-stu-id="70666-124">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="599fa-124">**Описание проблемы:** введите **Проверка адреса**.</span><span class="sxs-lookup"><span data-stu-id="599fa-124">**Issue summary:** Enter **Address validation**.</span></span>
     
-   - <span data-ttu-id="70666-125">**Сведения о проблеме:** введите сведения об адресах для проверки, в том числе следующие данные.</span><span class="sxs-lookup"><span data-stu-id="70666-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="599fa-125">**Сведения о проблеме:** введите сведения об адресах для проверки, в том числе следующие данные.</span><span class="sxs-lookup"><span data-stu-id="599fa-125">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="70666-126">Номер дома</span><span class="sxs-lookup"><span data-stu-id="70666-126">Street number</span></span>
+      - <span data-ttu-id="599fa-126">Номер дома</span><span class="sxs-lookup"><span data-stu-id="599fa-126">Street number</span></span>
     
-      - <span data-ttu-id="70666-127">Название улицы</span><span class="sxs-lookup"><span data-stu-id="70666-127">Street name</span></span>
+      - <span data-ttu-id="599fa-127">Название улицы</span><span class="sxs-lookup"><span data-stu-id="599fa-127">Street name</span></span>
     
-      - <span data-ttu-id="70666-128">Город</span><span class="sxs-lookup"><span data-stu-id="70666-128">Town or city</span></span>
+      - <span data-ttu-id="599fa-128">Город</span><span class="sxs-lookup"><span data-stu-id="599fa-128">Town or city</span></span>
     
-      - <span data-ttu-id="70666-129">Страна или регион</span><span class="sxs-lookup"><span data-stu-id="70666-129">Country or region</span></span>
+      - <span data-ttu-id="599fa-129">Страна или регион</span><span class="sxs-lookup"><span data-stu-id="599fa-129">Country or region</span></span>
     
      > [!IMPORTANT]
-     > <span data-ttu-id="70666-130">**Укажите страну или регион, для которых предлагаются планы звонков в Office 365 и в которых необходимо проверить адрес для экстренного реагирования при назначении номера телефона.**</span><span class="sxs-lookup"><span data-stu-id="70666-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > <span data-ttu-id="599fa-130">**Укажите страну или регион, для которых предлагаются планы звонков в Office 365 и в которых необходимо проверить адрес для экстренного реагирования при назначении номера телефона.**</span><span class="sxs-lookup"><span data-stu-id="599fa-130">**Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="70666-131">Почтовый индекс</span><span class="sxs-lookup"><span data-stu-id="70666-131">Postal or zip code</span></span>
+      - <span data-ttu-id="599fa-131">Почтовый индекс</span><span class="sxs-lookup"><span data-stu-id="599fa-131">Postal or zip code</span></span>
     
-6. <span data-ttu-id="70666-132">Нажмите кнопку **Далее**, а затем **Да, продолжить**.</span><span class="sxs-lookup"><span data-stu-id="70666-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="599fa-132">Нажмите кнопку **Далее**, а затем **Да, продолжить**.</span><span class="sxs-lookup"><span data-stu-id="599fa-132">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="70666-133">На странице **Добавление сведений** укажите следующие данные.</span><span class="sxs-lookup"><span data-stu-id="70666-133">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="599fa-133">На странице **Добавление сведений** укажите следующие данные.</span><span class="sxs-lookup"><span data-stu-id="599fa-133">On the **Add details** page, select and enter the following:</span></span>
     
-   - <span data-ttu-id="70666-134">**У вас нет доступа к службе?**</span><span class="sxs-lookup"><span data-stu-id="70666-134">**Is your service unavailable?**</span></span> <span data-ttu-id="70666-135">Выберите **Нет**.</span><span class="sxs-lookup"><span data-stu-id="70666-135">Select **No**.</span></span>
+   - <span data-ttu-id="599fa-134">**У вас нет доступа к службе?**</span><span class="sxs-lookup"><span data-stu-id="599fa-134">**Is your service unavailable?**</span></span> <span data-ttu-id="599fa-135">Выберите **Нет**.</span><span class="sxs-lookup"><span data-stu-id="599fa-135">Select **No**.</span></span>
     
-   - <span data-ttu-id="70666-136">**Сколько пользователей затронуто?**</span><span class="sxs-lookup"><span data-stu-id="70666-136">**How many users are affected?**</span></span> <span data-ttu-id="70666-137">Выберите **Несколько пользователей**.</span><span class="sxs-lookup"><span data-stu-id="70666-137">Select **Some users**.</span></span>
+   - <span data-ttu-id="599fa-136">**Сколько пользователей затронуто?**</span><span class="sxs-lookup"><span data-stu-id="599fa-136">**How many users are affected?**</span></span> <span data-ttu-id="599fa-137">Выберите **Несколько пользователей**.</span><span class="sxs-lookup"><span data-stu-id="599fa-137">Select **Some users**.</span></span>
     
-   - <span data-ttu-id="70666-138">**Введите электронный адрес пользователя, которого затрагивает эта проблема,** или оставьте поле пустым.</span><span class="sxs-lookup"><span data-stu-id="70666-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="599fa-138">**Введите электронный адрес пользователя, которого затрагивает эта проблема,** или оставьте поле пустым.</span><span class="sxs-lookup"><span data-stu-id="599fa-138">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-   - <span data-ttu-id="70666-139">**Выберите нужные вам домены**</span><span class="sxs-lookup"><span data-stu-id="70666-139">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="599fa-139">**Выберите нужные вам домены**</span><span class="sxs-lookup"><span data-stu-id="599fa-139">**Select Domain(s) you want to list**</span></span>
     
-   - <span data-ttu-id="70666-140">**Вложите файл**, если требуется проверить несколько адресов.</span><span class="sxs-lookup"><span data-stu-id="70666-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="599fa-140">**Вложите файл**, если требуется проверить несколько адресов.</span><span class="sxs-lookup"><span data-stu-id="599fa-140">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-   - <span data-ttu-id="70666-141">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="70666-141">Click **Next**.</span></span>
+   - <span data-ttu-id="599fa-141">Нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="599fa-141">Click **Next**.</span></span>
     
-   - <span data-ttu-id="70666-142">Укажите свой контактный номер телефона.</span><span class="sxs-lookup"><span data-stu-id="70666-142">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="599fa-142">Укажите свой контактный номер телефона.</span><span class="sxs-lookup"><span data-stu-id="599fa-142">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="70666-143">Проверьте информацию и нажмите кнопку **Отправить запрос**.</span><span class="sxs-lookup"><span data-stu-id="70666-143">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="599fa-143">Проверьте информацию и нажмите кнопку **Отправить запрос**.</span><span class="sxs-lookup"><span data-stu-id="599fa-143">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="70666-144">Номер ссылки будет указан на странице " **запросы на обслуживание** " в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="70666-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="599fa-144">Номер ссылки будет указан на странице " **запросы на обслуживание** " в центре администрирования Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="599fa-144">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="70666-145">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="70666-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="599fa-145">Если вам нужно больше номеров, [обратитесь в службу поддержки администраторов Skype для бизнеса](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="599fa-145">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="70666-146">См. также:</span><span class="sxs-lookup"><span data-stu-id="70666-146">Related topics</span></span>
-[<span data-ttu-id="70666-147">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="70666-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="599fa-146">См. также:</span><span class="sxs-lookup"><span data-stu-id="599fa-146">Related topics</span></span>
+[<span data-ttu-id="599fa-147">Общие вопросы по передаче номеров телефонов</span><span class="sxs-lookup"><span data-stu-id="599fa-147">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="70666-148">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="70666-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="599fa-148">Типы номеров телефонов, используемые в планах звонков</span><span class="sxs-lookup"><span data-stu-id="599fa-148">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="70666-149">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="70666-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="599fa-149">Условия и положения, распространяющиеся на экстренные вызовы</span><span class="sxs-lookup"><span data-stu-id="599fa-149">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="70666-150">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="70666-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="599fa-150">[Skype для бизнеса Online: заявление об отказе для звонков в экстренные службы](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="599fa-150">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
  
