@@ -7,22 +7,24 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
 description: В дополнение к приведенным ниже рекомендациям по развертыванию сервера Skype для бизнеса вы можете обеспечить безопасность, просматривая и изменяя и устраняя нужные задачи в определенных областях развертывания.
-ms.openlocfilehash: 1b9798721434d02af33af2bf84abd4360eacdcdf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f48eac3393875c7ffbd7be93ca5f1e4568e0021f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296989"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815707"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="0bcaf-103">Устранение угроз для базовой инфраструктуры Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="0bcaf-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a><span data-ttu-id="5f615-103">Устранение угроз для базовой инфраструктуры Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="5f615-103">Addressing threats to your core infrastructure for Skype for Business Server</span></span>
  
-<span data-ttu-id="0bcaf-104">В дополнение к приведенным ниже рекомендациям по развертыванию сервера Skype для бизнеса вы можете обеспечить безопасность, просматривая и изменяя и устраняя нужные задачи в определенных областях развертывания.</span><span class="sxs-lookup"><span data-stu-id="0bcaf-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
+<span data-ttu-id="5f615-104">В дополнение к приведенным ниже рекомендациям по развертыванию сервера Skype для бизнеса вы можете обеспечить безопасность, просматривая и изменяя и устраняя нужные задачи в определенных областях развертывания.</span><span class="sxs-lookup"><span data-stu-id="5f615-104">In addition to following best practices for your Skype for Business Server deployment, you can help to ensure security by reviewing, understanding, and addressing any needs in specific areas of your deployment.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="0bcaf-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="0bcaf-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5f615-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="5f615-105">In this section</span></span>
 
-- [<span data-ttu-id="0bcaf-106">Рекомендации для базовой инфраструктуры в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="0bcaf-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
+- [<span data-ttu-id="5f615-106">Рекомендации для базовой инфраструктуры в Skype для бизнеса Server</span><span class="sxs-lookup"><span data-stu-id="5f615-106">Best practices for your core infrastructure in Skype for Business Server</span></span>](best-practices.md)
     
 
