@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Для успешного выполнения этой процедуры необходимо войти на сервер или домен в группу администраторов домена или в группу пользователей Днсадминс.
-ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ef77f491efd090949ff5dd6b653dd3cd6ea1cde7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241160"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812777"
 ---
 # <a name="update-dns-srv-records"></a>Обновление записей DNS SRV
 
@@ -26,7 +28,7 @@ ms.locfileid: "36241160"
 
 1. На DNS-сервере нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — **DNS**.
     
-2. В дереве консоли для вашего домена SIP разверните раздел **зоны прямого просмотра**, РАЗВЕРНИТЕ домен SIP, в котором установлен Skype для Business Server 2019, и перейдите к параметру " **_tcp** ". 
+2. В дереве консоли для вашего домена SIP разверните раздел **зоны прямого просмотра**, РАЗВЕРНИТЕ домен SIP, в котором установлен Skype для Business Server 2019, и перейдите к параметру **_tcp** . 
     
 3. На правой панели щелкните правой кнопкой мыши **_sipinternaltls** и выберите пункт **свойства**.
     
@@ -42,7 +44,7 @@ ms.locfileid: "36241160"
     
 3. В поле **Открыть** введите cmd и нажмите кнопку **ОК**.
     
-4. В командной строке введите nslookup _ \<FQDN для пула\> переднего плана_ или _ \<полное доменное имя\>сервера Standard Edition_, а затем нажмите клавишу ВВОД.
+4. В командной строке введите nslookup _ \<FQDN для пула\> переднего плана_ или _ \<полное доменное имя сервера\>Standard Edition_, а затем нажмите клавишу ВВОД.
     
 5. Убедитесь в том, что вы получили ответ на соответствующий IP-адрес для полного доменного имени.
     

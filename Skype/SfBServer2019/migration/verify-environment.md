@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Перед развертыванием Skype для бизнеса Server 2019 в состоянии сосуществования необходимо убедиться, что устаревшие службы настроены и запущены. Важно определить ключевые службы и компоненты, которые существуют в устаревшей среде, перед развертыванием пула пилотных проектов в Skype для бизнеса Server 2019. Перед развертыванием приложения Microsoft Skype для бизнеса Server 2019 КСМПП в состоянии сосуществования с помощью устаревшего КСМПП развертывания необходимо проверить, настроены ли устаревшие службы КСМПП и они запущены, а также определить, для какого федеративного партнера установлена устаревшая конфигурация КСМПП пояснитель.
-ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 34c9ecbc4fe9863c09b2648145ff46c1628ef655
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243777"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812697"
 ---
 # <a name="verify-the-legacy-environment"></a>Проверка прежней среды
 
@@ -42,7 +44,7 @@ ms.locfileid: "36243777"
     
 2. Откройте панель управления Skype для бизнеса Server.
     
-3. Выберите **Topology**(топология). Убедитесь в том, что в списке устаревших развертываний указаны различные серверы.
+3. Выберите **Topology (топология**). Убедитесь в том, что в списке устаревших развертываний указаны различные серверы.
     
      ![Страница топологии панели управления](../media/migration_lyncserver_2010_topology.JPG)
   

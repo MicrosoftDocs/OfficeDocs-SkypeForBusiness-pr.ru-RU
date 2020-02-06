@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: С помощью панели управления Skype для бизнеса Server можно запускать и останавливать все устаревшие службы, запущенные на конкретном компьютере, а также запускать и останавливать определенную устаревшую службу.
-ms.openlocfilehash: e7cde5a947d9822106223216f1f826d6ebac036f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e0ae8532330861cbdb153083072b582d757351c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241246"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812797"
 ---
 # <a name="stop-legacy-services"></a>Остановка устаревших служб
 
