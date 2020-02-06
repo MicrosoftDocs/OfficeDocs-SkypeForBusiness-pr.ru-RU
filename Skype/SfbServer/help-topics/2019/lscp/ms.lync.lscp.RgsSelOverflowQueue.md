@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне "Выбор очереди переполнения" можно выбрать очередь, в которую пересылаются звонки при заполнении очереди групп ответа.
-ms.openlocfilehash: f74aed9163a6ca8dfabbec50b77137985134f98d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dddd982a2a08aae0e3b2f22f2365f7fa9cc46e3f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690764"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793457"
 ---
 # <a name="select-overflow-queue"></a>Выбор очереди переполнения
  

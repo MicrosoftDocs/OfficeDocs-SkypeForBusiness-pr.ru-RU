@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Сводка: создание пула серверов для видеосвязи в Skype для бизнеса Server с помощью Topology Builder.'
-ms.openlocfilehash: dc97fde4447778be20cb60d86cddac65b663c321
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 474752253312b58b87a3d01f445bd93eabdaf203
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235665"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798056"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Создание пула ВИС в Skype для бизнеса Server
  
@@ -24,7 +26,7 @@ ms.locfileid: "36235665"
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Создание сервера видеовзаимодействия или пула серверов видеовзаимодействия с помощью построителя топологии
 
-1. Откройте построитель топологии на сервере переднего плана. В левой области построителя топологии щелкните правой кнопкой мыши **Пулы серверов видеовзаимодействия** и выберите **создать пул серверов**для видеовзаимодействия. 
+1. Откройте построитель топологии на сервере переднего плана. В левой области построителя топологии щелкните правой кнопкой мыши **Пулы серверов видеовзаимодействия** и выберите **создать пул серверов для видеовзаимодействия**. 
     
 2. Откроется мастер **Создание нового пула сервера видеовзаимодействия**. Укажите полное доменное имя пула для нового сервера видеовзаимодействия и выберите для него **один сервер** или **этот пул содержит несколько серверов** в соответствии с требованиями и нажмите кнопку **Далее**.
     

@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: Сводка. сведения о том, как настроить параметры сервера для сохраняемого чата на уровне глобального, сайта или пула в Skype для бизнеса Server 2015.
-ms.openlocfilehash: 524e225da84796674a41a2693bc369fa96c8ffb4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c842d0c0790f7aad18dda6f3f9cabe5382eb4f33
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793567"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Настройка параметров сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -33,7 +35,7 @@ ms.locfileid: "36239820"
 - URL-адрес управления комнатой. URL-адрес, предназначенный для управления настраиваемой комнатой чата. Этот параметр позволяет применять средство управления настраиваемой комнатой. 
    
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015.
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015.
  
 ## <a name="configure-persistent-chat-server-global-options"></a>Настройка сервера сохраняемого чата глобальных параметров
 

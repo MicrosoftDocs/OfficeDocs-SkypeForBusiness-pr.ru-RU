@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Если вам нужно удалить файловый сервер, который в данный момент выступает в качестве хранилища файлов для развертывания Skype для бизнеса Server, или внести другие изменения, которые приводили к недоступности текущего хранилища файлов, сначала необходимо создать новый общий доступ. Затем потребуется выполнить следующую процедуру.
-ms.openlocfilehash: 9909412d81240d87b8d1211453118780d1745744
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 00fa169eb000c9575609359c146a9db24c94de48
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988934"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794458"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Перемещение данных из хранилища файлов в новое хранилище файлов в Skype для бизнеса Server
 

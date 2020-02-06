@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: Сводка. Сведения о том, как подключить Skype для бизнеса Server к Skype для потребителей (функции подключения Skype).
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: e9c8a83b24ddbed95f2fd16f2f11b887f2241625
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464604"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798106"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Развертывание функции подключения Skype в Skype для бизнеса Server
 
@@ -86,7 +88,7 @@ ms.locfileid: "36464604"
 
 - [Рекомендации при невозможности обмена мгновенными сообщениями с внешними пользователями Skype для бизнеса или Skype](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
-- [Добавление контакта в Skype для бизнеса](https://support.office.com/ru-RU/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
+- [Добавление контакта в Skype для бизнеса](https://support.office.com/en-US/article/Add-a-contact-in-Skype-for-Business-89338023-2adf-4f5c-90b6-f8b6f72fadd1)
   
 - [Администраторы: настройка параметров Skype для бизнеса для отдельных пользователей](../../SfbOnline/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users.md)
     
@@ -188,14 +190,14 @@ ms.locfileid: "36464604"
     
 2. Выполните две следующие команды:
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > Если в среде еще не установлен поставщик службы PIC и выполняется создание нового поставщика службы PIC, выполнять командлет Remove-CsPublicProvider не требуется. 
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 

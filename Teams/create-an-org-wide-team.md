@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871725"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795158"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Создание команды для всей организации в Microsoft Teams
 
@@ -58,9 +58,9 @@ ms.locfileid: "39871725"
 
  Уменьшите @mentions, чтобы они не были перезагружены всей Организацией. Перейдите в группу и выберите **̇ ̇ ̇ Дополнительные параметры** > **управления командой**. На вкладке " **Параметры** " нажмите <strong>@mentions</strong> > отключить **параметр Показать членов, чтобы @team или @ [название группы]**. 
 
-### <a name="automatically-favorite-important-channels"></a>Автоматическое добавление важных каналов в избранное
+### <a name="automatically-show-important-channels"></a>Автоматическое отображение важных каналов
 
-Вы можете сделать так, чтобы все сотрудники вашей организации применялись в определенных беседах. Дополнительные сведения можно найти в статье ["автоматические избранные каналы" для всей группы](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+Покажите важную информацию о том, чтобы все пользователи в вашей организации могли привлекать участие в определенных беседах. Дополнительные сведения можно найти в статье ["автоматические избранные каналы" для всей группы](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6). 
 
 ### <a name="set-up-channel-moderation"></a>Настройка контроля канала
 

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: В диалоговом окне Выбор расширений для типов файлов выберите расширения для файлов, которые вы хотите заблокировать или разрешить, выбирая (заблокируйте) или сняв (разрешить) флажки рядом с расширениями в разделе расширения типов файлов. Щелкните стрелку, чтобы развернуть категорию и просмотреть все расширения типов файлов для этой категории. Если вы хотите выбрать все расширения типов файлов для категории, выберите ее имя.
-ms.openlocfilehash: b738ea0b9c6ea19e616c42e83395e6efcdf11682
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b15ddf1ed4786ae279d36848398b82814f153f8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691184"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796448"
 ---
 # <a name="select-file-type-extensions"></a>Выбор расширений типов файлов
  

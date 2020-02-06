@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Очереди групп ответа содержат звонки в группы ответа, пока агент не ответит на звонок. Очереди обладают назначенными группами агентов. Когда вы создаете или редактируете очередь, вы можете выбрать одну или несколько групп агента для назначения в очередь с помощью диалогового окна "Выбор групп".
-ms.openlocfilehash: fd27a776b17985fa9fee85ec536ff9f0ae56f8a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6439a501f48a67df56d37a4435c15a3c284c347f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704364"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793467"
 ---
 # <a name="select-groups"></a>Выбор групп
 

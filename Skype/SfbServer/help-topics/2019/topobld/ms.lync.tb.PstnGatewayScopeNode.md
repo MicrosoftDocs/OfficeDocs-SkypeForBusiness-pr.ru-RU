@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: Этот узел показывает полное доменное имя (FQDN), связанный сервер-посредник и другие основные сведения об этом шлюзе коммутируемой телефонной сети с открытым коммутируемым подключением (PSTN). Доступны следующие действия.
-ms.openlocfilehash: 43d30600ab9dbccf3d73b8fb70daa5b76527a80e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7f868eda63cb48aa4703479a29cc906f61de8f3
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688082"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794187"
 ---
 # <a name="pstn-gateway-scope-node"></a>Узел области применения шлюза ТСОП
  

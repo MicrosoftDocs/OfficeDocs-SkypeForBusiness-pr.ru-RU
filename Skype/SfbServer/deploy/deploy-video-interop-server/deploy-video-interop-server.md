@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 'Сводка: развертывание роли сервера ВИС в Skype для бизнеса Server.'
-ms.openlocfilehash: 790030e3ef0b88473f6fc1750c054db5cdd74b4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51db16a115871f7720379157aa1b97ae89e9031f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235590"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798036"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Развертывание сервера видеосвязи в Skype для бизнеса Server
  
@@ -24,7 +26,7 @@ ms.locfileid: "36235590"
   
 Skype для бизнеса Server теперь может интегрироваться непосредственно с системами для проведения телеконференций Cisco (Вткс), например с компанией Cisco C60 или Cisco MX300. Для этого требуется введение в новую роль сервера видеосвязи (ВИС) и правильную конфигурацию обоих ВИС и оборудования, с которым оно будет взаимодействовать. VTC проходит регистрацию в существующей инфраструктуре Cisco, например Cisco Unified Communication Manager (CUCM), а между CUCM и пулом VIS используется видеомагистраль SIP.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 Настройка взаимодействия между серверов видеовзаимодействия или пулом и системами VTC требуется выполнения следующих пяти процедур: 
   

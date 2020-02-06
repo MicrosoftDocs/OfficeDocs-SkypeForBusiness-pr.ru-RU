@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestOnlineOffline
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы создать отложенный или автономный запрос, выберите Подготовить запрос сейчас, но отправить позже (автономный запрос сертификата). Чтобы создать немедленный запрос на доступ в Интернет-центр сертификации (обычно это внутренняя система в инфраструктуре открытых ключей организации), выберите Отправить запрос немедленно в Интернет-центр сертификации.
-ms.openlocfilehash: eb5f8abfc7cb90f9940cdf6c73940119d6b332d0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d865455264f135d3283f6f731265efa059ee715
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705644"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796690"
 ---
 # <a name="certificate-request-online-offline"></a>Запрос сертификата (сетевой, автономный)
  

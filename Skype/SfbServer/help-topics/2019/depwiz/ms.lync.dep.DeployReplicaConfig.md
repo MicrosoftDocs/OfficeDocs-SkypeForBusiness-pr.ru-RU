@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployReplicaConfig
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы приступить к установке базы данных, в которой будет храниться локальная копия центрального хранилища, предназначенная только для чтения, выбери определенную конфигурацию, опубликованную с помощью построителя топологии из уже установленного и настроенного централизованного центра администрирования. Управление хранилищем или чтение определенных конфигураций из других носителей. Для компьютера, который находится в внутренней сети организации, выберите пункт загрузить конфигурацию автоматически из хранилища центрального управления.
-ms.openlocfilehash: a689d8cd7926cca109b808f8a186396dd48caaf8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4cc16b26e40b0215a72917c5cab47de8bce5e1b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705304"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794728"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Вызов установки локального хранилища конфигурации (настройка)
  

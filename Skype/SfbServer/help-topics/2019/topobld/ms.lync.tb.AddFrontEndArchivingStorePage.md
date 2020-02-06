@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFrontEndArchivingStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Для хранения данных архивации требуется поддерживаемая 64-разрядная версия приложения для работы с базами данных Microsoft SQL Server. Вы можете выбрать ранее определенную базу данных SQL Server, которая будет использоваться для архивации, или определить новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором будет находиться база данных SQL Server, в дополнение к экземпляру SQL SE. рвер, который вы хотите использовать для новой базы данных SQL Server (которая может быть экземпляром по умолчанию, или указанным именованным экземпляром).
-ms.openlocfilehash: d5ef47dd0df4063ce92b7c4adad955596e776f50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 234d0a2d4ef14aa969b8ef8c7445558e53ca2fee
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702944"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794908"
 ---
 # <a name="add-front-end-archiving-store"></a>Добавление хранилища архивации переднего плана
 

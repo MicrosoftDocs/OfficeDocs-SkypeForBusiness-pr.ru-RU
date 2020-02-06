@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MediationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Вы указываете на следующий прыжок сервер пула или сервер-посредника, выбрав определенный пул переднего плана Enterprise Edition или стандартный сервер переднего плана из раскрывающегося списка. Пул режиссера или режиссера не является допустимым выбором для пула серверов исправлений или сервера-посредника и не отображается в списке. Нажмите кнопку ОК, чтобы сохранить изменения. Для отмены изменений и закрытия страницы свойств нажмите кнопку Отмена.
-ms.openlocfilehash: de7bced46d832b9e054904b952a65dde7cfaec64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: da8c5b3ffd3fe96f770539207595e28b52fa51aa
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688202"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796238"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Расширитель параметров следующего узла посредника
  

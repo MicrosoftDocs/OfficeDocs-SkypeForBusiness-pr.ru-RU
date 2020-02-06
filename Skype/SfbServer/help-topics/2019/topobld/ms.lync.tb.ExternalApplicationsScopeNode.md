@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узел Серверы доверенных приложений содержит список пулов доверенных приложений на данном сайте. Доверенные пулы приложений содержат серверы, которые работают с надежными приложениями единой системы обмена сообщениями Майкрософт, но не выполняют роли Skype для бизнеса Server. Доступно следующее действие.
-ms.openlocfilehash: cccc17ec5027e60c0496723051bb80bf26b6b15b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9462b024a7e98d0b0007e6033d48d5785262635f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688572"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793717"
 ---
 # <a name="external-applications-scope-node"></a>Внешний узел области применения приложений
  
