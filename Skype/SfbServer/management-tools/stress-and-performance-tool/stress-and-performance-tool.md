@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Средство "стресс и производительность" в Skype для бизнеса Server 2015 используется при планировании мощности и настройке производительности в непроизводственных и тестовых средах.
-ms.openlocfilehash: d82d5ed33e6dca1303aed9f49150dd6b56fc4e1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efc3ed6cc7f24acc5fda7a7ae2ae818df5b43393
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299518"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816158"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
@@ -42,7 +44,7 @@ ms.locfileid: "34299518"
   
 |||
 |:-----|:-----|
-|Обмен мгновенными сообщениями и присутствие  <br/> |Голосовые конференции  <br/> |
+|Обмен мгновенными сообщениями и присутствие  <br/> |Аудиоконференции  <br/> |
 |Общий доступ к приложениям  <br/> |Голосовая связь по протоколу IP (VoIP), включая эмуляцию коммутируемой телефонной сети (ОКТС)  <br/> |
 |Конференции на клиентах веб-доступа к Интернету  <br/> |Автоматический секретарь Конференции  <br/> |
 |Группы ответа  <br/> |Развертывание списка рассылки  <br/> |

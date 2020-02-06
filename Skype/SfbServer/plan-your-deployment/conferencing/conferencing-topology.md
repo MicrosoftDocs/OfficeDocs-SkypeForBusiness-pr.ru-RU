@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы узнать, как планировать топологию конференций в Skype для бизнеса Server.'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277400"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816018"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Планирование топологии конференций в Skype для бизнеса Server
  
@@ -82,7 +84,7 @@ Skype для бизнеса Server предоставляет следующие
     
     Внешние клиенты Skype для бизнеса могут подключаться к Skype для бизнеса Server и Office Web Apps Server или Office Online Server, используя обратный прокси-сервер, который является сервером, который принимает запросы из Интернета и перенаправляет их во внутреннюю сеть. (Для внутренних клиентов не требуется использовать обратный прокси-сервер, так как они могут подключаться к Office Web Apps на сервер или на сервер Office Online напрямую.) Эта топология лучше всего подходит для использования выделенного сервера Office Web Apps или фермы серверов Office Online, который используется только в Skype для бизнеса Server.
     
-- **Используйте внешнее развернутое приложение Office Web Apps или сервер Office Online.** В этой топологии сервер Skype для бизнеса Server развернут локально и использует сервер Office Web Apps или сервер Office Online, который развернут за пределами сетевой зоны Skype для бизнеса Server. Это может происходить, если сервер Office Web Apps или сервер Office Online совместно используется несколькими приложениями в Организации и развернут в сети, требующей от Skype для бизнеса Server внешнего интерфейса сервера Office Web Apps или сервера Office Online. и наоборот.
+- **Используйте внешнее развернутое приложение Office Web Apps или сервер Office Online.** В этой топологии сервер Skype для бизнеса Server развернут локально и использует сервер Office Web Apps или сервер Office Online, который развернут за пределами сетевой зоны Skype для бизнеса Server. Это может быть вызвано тем, что Office Web Apps Server или Office Online Server совместно используется несколькими приложениями в корпорации и разворачивается в сети, требующей от Skype для бизнеса Server использования внешнего интерфейса сервера Office Web Apps или сервера Office Online и наоборот.
     
     Вам не нужно устанавливать обратный прокси-сервер; Вместо этого все запросы с сервера Office Web Apps и сервера Office Online на сервер Skype для бизнеса Server пересылаются через пограничный сервер. Как внутренний, так и ваш внешний клиент Skype для бизнеса подключается к серверу Office Web Apps или серверу Office Online с помощью внешнего URL-адреса.
     

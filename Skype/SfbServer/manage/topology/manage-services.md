@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Сведения о том, как просматривать состояние службы, запускать и останавливать службы и предотвращать сеансы для служб.
-ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991524"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817120"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Управление службами в Skype для бизнеса Server
 

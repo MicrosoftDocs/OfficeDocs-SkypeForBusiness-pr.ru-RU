@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Проверка прав на топологию в Skype для бизнеса Server
-ms.openlocfilehash: d70809ba929c4f1934adce2bd3c60b261bd30d71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1664a7e7d2b202b596a882e4b393cc15220806c9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279245"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817315"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Проверка прав топологии администратора в Skype для бизнеса Server
 
@@ -43,7 +45,7 @@ ms.locfileid: "34279245"
 
 Если в параметре test-Кссетуппермиссион определено, что необходимые разрешения уже установлены для контейнера Active Directory, командлет вернет значение true:
 
-True 
+Верно 
 
 Если разрешения не заданы, Test-Кссетуппермиссион вернет значение false. Обратите внимание, что это значение обычно заключается на множество предупреждающих сообщений. Например:
 

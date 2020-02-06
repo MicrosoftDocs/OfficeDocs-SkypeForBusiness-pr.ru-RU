@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Планирование подключений PSTN в корпоративной голосовой связи в Skype для бизнеса Server.
-ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12c18ba0be3f01651fb72ff325d7e51566da86ae
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276499"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802549"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Планирование подключения к PSTN в Skype для бизнеса Server
  
@@ -37,11 +39,11 @@ Skype для бизнеса Server обеспечивает надежную и 
     
 В зависимости от размеров предприятия, охватываемой территории и существующей инфраструктуры голосовой связи можно применять один и тот же способ на всем предприятии либо два или все три способа в разных подразделениях. Сведения о каждом способе см. в следующих разделах.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Магистральные линии SIP в Skype для бизнеса Server](sip-trunking.md)
     
-- [Прямые подключения по протоколу SIP в Skype для бизнеса Server](direct-sip.md)
+- [Прямая связь по SIP в Skype для бизнеса Server](direct-sip.md)
     
 - [М:Н магистраль в Skype для бизнеса Server](m-n-trunk.md)
     

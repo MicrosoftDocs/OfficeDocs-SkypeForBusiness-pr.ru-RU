@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Функции Skype для бизнеса Server поддерживают несколько ассоциаций между шлюзами и серверами исправлений. Эти связи выполняются путем определения канала, который является логической связью между пулом серверов «исправление» и шлюзом коммутируемой телефонной сети (КТСОП), контроллером границ сеансов (SBC) или IP-УАТС. С помощью построителя топологии свяжите шлюзы с серверами-посредниками (то есть магистральами).
-ms.openlocfilehash: a6a0134ee04d939a10aaf9e36c81124d085af5aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f950f089d23687f0215bd9db1f253eb57c17c75
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816949"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Поддержка нескольких каналов в Skype для бизнеса Server
 

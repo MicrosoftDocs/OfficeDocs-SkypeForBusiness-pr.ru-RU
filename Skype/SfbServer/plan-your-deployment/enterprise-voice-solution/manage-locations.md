@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Решения, необходимые для планирования базы данных сведений о расположении или аналогичной внешней базы данных для развертывания E9-1-1 с помощью провайдеров магистральной связи, в Skype для бизнеса Server Enterprise.
-ms.openlocfilehash: aafe35f4978ac18897d11aa55f229df501d555ed
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 81ec257b30d2916bb4df2a4590b9abfc1b270375
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276728"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802729"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Управление разположениями для провайдеров услуг магистральной магистрали SIP в Skype для бизнеса Server
 
@@ -33,7 +35,7 @@ ms.locfileid: "34276728"
 
 - Идентификатор места, с помощью которого пользователи смогут легко видеть, что клиент Skype для бизнеса выберет нужное расположение. Клиент Skype для бизнеса автоматически объединяет и отображает обнаруженные поля " **место** " и " **город** " в заголовке. Рекомендуется добавить почтовый адрес здания в каждый идентификатор местоположения (например, "1-й этаж <street number>"). Без почтового адреса общий идентификатор расположения, такой как "1‑й этаж" может применяться к любому зданию в городе.
 
-- Если расположение указано приблизительно так, как оно определено точкой доступа к беспроводной сети, вы можете добавить слово [NEAR] (например, "соседний 1-й 1234 этаж").
+- Если расположение указано приблизительно так, как оно определено точкой доступа к беспроводной сети, вы можете добавить слово **[NEAR]** (например, "соседний 1-й 1234 этаж").
 
 > [!NOTE]
 > Расположения, добавленные в центральную базу данных, недоступно для клиента, пока они не опубликованы с помощью команды командной консоли Skype для бизнеса Server и реплицируются в локальные магазины пула. Дополнительные сведения см. в разделе [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) документации по развертыванию.

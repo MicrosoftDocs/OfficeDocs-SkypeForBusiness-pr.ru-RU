@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Аннотация: Ознакомьтесь с этим разделом, чтобы узнать о диспетчере статистики для Skype для бизнеса Server.'
-ms.openlocfilehash: a58ca8ea8ed2d612e00a0705bb28e8d6fe95eb45
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bf7a5366047a0f4435a98cd8bca75eeb3ebc8d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299739"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816238"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Планирование диспетчера статистики в Skype для бизнеса Server
 
@@ -127,7 +129,7 @@ ms.locfileid: "34299739"
 
 Прежде чем развертывать диспетчер статистических данных, необходимо принять следующие требования к программному обеспечению, сети и аппаратному обеспечению.
 
-### <a name="software-requirements"></a>Требования к программному обеспечению 
+### <a name="software-requirements"></a>Требования к программному обеспечению
 
 - Windows Server 2016 и 2019
 

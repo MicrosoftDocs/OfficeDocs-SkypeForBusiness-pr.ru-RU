@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Доверенный пользователь, учетные данные которого прошли проверку подлинности надежным сервером в Skype для бизнеса Server. Этот сервер обычно является сервером стандартных выпусков, сервером переднего плана Enterprise Edition или режиссером. Skype для бизнеса Server использует доменные службы Active Directory как один доверенный серверный репозиторий для учетных данных пользователя.
-ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2ffabce6546bf8b542503f8c80fe5cb2b952c568
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296870"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815587"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Проверка подлинности пользователей и клиентов для Skype для бизнеса Server
  
@@ -48,7 +50,7 @@ ms.locfileid: "34296870"
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Требования к криптографии из-за ASP .NET 4,5 
 
-В Skype для бизнеса Server 2015 CU5 алгоритм AES не поддерживается для ASP.NET 4,6, и это может привести к тому, что приложение для собраний Skype не будет запускаться. Если клиент использует AES в качестве значения проверки ключа компьютера, вам потребуется сбросить значение ключа компьютера на SHA-1 или другой поддерживаемый алгоритм на уровне сайта приложения "собрания Skype" на сервере IIS. Инструкции можно найти в разделе [Управление конфигурацией сервера IIS 8,0 ASP.NET](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) .
+Начиная с Skype для бизнеса Server 2015 CU5, прекращена поддержка AES для ASP.NET 4.6, что может привести к сбоям при запуске приложения "Собрания Skype". Если клиент использует AES в качестве значения проверки ключа компьютера, вам потребуется сбросить значение ключа компьютера на SHA-1 или другой поддерживаемый алгоритм на уровне сайта приложения "собрания Skype" на сервере IIS. Инструкции можно найти в разделе [Управление конфигурацией сервера IIS 8,0 ASP.NET](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) .
   
 Другие поддерживаемые значения.
   

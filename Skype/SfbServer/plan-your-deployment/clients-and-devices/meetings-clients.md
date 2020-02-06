@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Сводка: ИТ-специалистам следует ознакомиться с требованиями к системе Skype для бизнеса Web App и приложения "Собрания Skype" при планировании использования Skype для бизнеса Server. Эта статья не предназначена для пользователей этих приложений.'
-ms.openlocfilehash: a2bc418b9179a63452c5d4fdd1990676f9db4b14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
-ms.translationtype: HT
+ms.openlocfilehash: 126d8ffc71a2ff1a0bcbf26c744301736d2b47b2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277316"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803559"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Планирование для клиентов собраний (Skype для бизнеса Web App и приложение "Собрания Skype")
  
@@ -156,9 +158,9 @@ Skype для бизнеса на Mac работает на компьютера�
     
 - В Internet Explorer необходимо включить [ActiveX без фильтрации](https://support.office.com/en-us/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US), даже если IE не является браузером по умолчанию. В Skype для бизнеса Web App элемент ActiveX (это небольшой модуль, реализующий дополнительные функции для веб-приложений и других программ) требуется для использования функций звука и видео, а также для демонстрации экрана.
     
-- Для правильной работы некоторых функций Skype для бизнеса Web App необходимо разрешить в браузере [сохранение файлов cookie](https://support.office.com/ru-RU/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) на компьютере или устройстве.
+- Для правильной работы некоторых функций Skype для бизнеса Web App необходимо разрешить в браузере [сохранение файлов cookie](https://support.office.com/en-us/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) на компьютере или устройстве.
     
-- Для правильной работы некоторых функций Skype для бизнеса Web App может потребоваться [включить поддержку JavaScript](https://support.office.com/ru-RU/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) в браузере.
+- Для правильной работы некоторых функций Skype для бизнеса Web App может потребоваться [включить поддержку JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) в браузере.
     
 ### <a name="aes-support"></a>Поддержка AES 
 

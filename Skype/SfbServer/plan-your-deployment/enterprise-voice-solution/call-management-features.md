@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Обзор поддерживаемых функций управления звонками в корпоративной голосовой связи Skype для бизнеса Server.
-ms.openlocfilehash: 9c1bdc73ea4656fa2e0d352988f61d6db428a80c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e987f2c004c3ef5583a673a87f3b7acdb9f83ddf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277064"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803219"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Планирование функций управления звонками в Skype для бизнеса
 
@@ -37,7 +39,7 @@ ms.locfileid: "34277064"
 
 Если планируется развертывание корпоративной голосовой связи, то можно указать, какие из этих функций управления вызовами следует реализовать.
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Planning for Call Parking](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Сводка: сведения об использовании системы в Skype для бизнеса Server.'
-ms.openlocfilehash: daa5991f45a8fc84b9904ac21ef73646377a6e72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c5fc4e59de4dd66da40d07c17bb615e5abc697a2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279748"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817648"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Отчеты об использовании системы в Skype для бизнеса Server
  
@@ -23,7 +25,7 @@ ms.locfileid: "34279748"
   
 Отчеты об использовании системы предоставляют сведения об использовании системы на основе данных записи сведений о вызовах (CDR), собранных в Skype для бизнеса Server.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Отчет о регистрации пользователя в Skype для бизнеса Server](user-registration-report.md)
     

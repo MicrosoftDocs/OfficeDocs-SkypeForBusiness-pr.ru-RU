@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы начать установку Skype для бизнеса Server, необходимо подготовить схему доменных служб Active Directory, леса и домены, в которых будут размещаться серверы и пользователи. Мастер развертывания Skype для бизнеса Server поможет вам выполнить необходимые действия для подготовки Active Directory, начиная с схемы и затем до подготовки леса. После того как вы убедитесь в том, что репликация Active Directory выполнена успешно, необходимо подготовить каждый домен, в котором будут размещаться пользователи или серверы.
-ms.openlocfilehash: 1cb997223a9f613bac4aeeec45d3a029d4436e18
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bbdd4eebe3a0e385d2b3cf8367e12339e2e943b7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691864"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798376"
 ---
 # <a name="prepare-active-directory"></a>Подготовка Active Directory
 

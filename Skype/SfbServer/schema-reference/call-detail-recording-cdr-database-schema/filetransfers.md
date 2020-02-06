@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: В представлении Филетрансфер хранятся сведения о одноранговых сеансах передачи файлов. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 303a8cf624b19f9701cabbd491fcb7b08dfba25d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d650c04b8dada5828eed5d7bc3039cb77570ce2b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296240"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815207"
 ---
 # <a name="filetransfers-view"></a>Представление Филетрансферс
  
@@ -29,7 +31,7 @@ ms.locfileid: "34296240"
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar(256)  <br/> |Имя перенесенного файла.  <br/> |
 |**Файлах** <br/> |nvarchar(128  <br/> |Используется для идентификации каждого сообщения к исполнению, связанного с этим сообщением.  <br/> |
-|**Филеидентити** <br/> |идентификатора  <br/> |Уникальный идентификатор, позволяющий отличать передачу файлов с одним и тем же именем файла.  <br/> |
+|**филеидентити** <br/> |идентификатора  <br/> |Уникальный идентификатор, позволяющий отличать передачу файлов с одним и тем же именем файла.  <br/> |
 |**Отвечать** <br/> |бит  <br/> |Может иметь значение истина или NULL. Если значение равно TRUE, то значение "отклонить" и "Отмена" будет равно NULL.  <br/> |
 |**Отклонил** <br/> |бит  <br/> |Может иметь значение истина или NULL. Если значение равно TRUE, то "принимать" и "Отмена" будут иметь значение NULL.  <br/> |
 |**Отмена**. <br/> |бит  <br/> |Может иметь значение истина или NULL. Если значение равно TRUE, то принять и отклонить будет значение NULL.  <br/> |

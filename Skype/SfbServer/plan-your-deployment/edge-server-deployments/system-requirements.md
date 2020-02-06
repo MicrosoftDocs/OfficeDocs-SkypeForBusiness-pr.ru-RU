@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Сводка: сведения о требованиях к системе для пограничного сервера в Skype для бизнеса Server.'
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277148"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803319"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Требования к системе пограничного сервера в Skype для бизнеса Server
  
@@ -193,7 +195,7 @@ Why does that matter? Важной функцией для режиссер яв
   
 Ниже приведены требования к ХЛБ для режиссеров и (обязательных) веб-служб пула интерфейсов.
   
-- Для внутренних виртуальных IP-адресов установите для Source_addr сохраняемость (внутренний порт 80, 443) в ХЛБ. В Skype для бизнеса Server Source_addr сохраняемость означает, что несколько подключений, поступающих с одного IP-адреса, всегда отправляются на один сервер, чтобы поддерживать состояние сеанса.
+- Для внутренних виртуальных IP-адресов установите Source_addr сохраняемости (внутренний порт 80, 443) на ХЛБ. В Skype для бизнеса Server Source_addr сохраняемость означает, что несколько подключений, поступающих с одного IP-адреса, всегда отправляются на один сервер, чтобы поддерживать состояние сеанса.
     
 - Задайте для TCP время ожидания в режиме простоя 1800 с.
     

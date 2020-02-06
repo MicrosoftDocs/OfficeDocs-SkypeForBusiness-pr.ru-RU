@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: Сводка. Использование калькулятора мощности.
-ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f83cde759c6e7b755af3766c342cdea19892425f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274459"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816638"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Калькулятор планирования мощности Skype для бизнеса Server
  
@@ -28,7 +30,7 @@ ms.locfileid: "34274459"
 > - Skype для бизнеса Server 2019.
 > - Skype для бизнеса Server 2015.
   
-Калькулятор для Skype для [бизнеса server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) и "производительность [Skype для бизнеса Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57509) " дополните развертывание [средства планирования Skype для бизнеса](https://www.microsoft.com/en-us/download/details.aspx?id=50357) и документации по развертыванию ([планирование для вашего Skype для бизнеса Сервер 2015 развертывание](../plan-your-deployment/plan-your-deployment.md) и [Планирование развертывания Skype для бизнеса Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) соответственно). Чтобы использовать калькулятор, сначала ознакомьтесь с руководством и создайте рекомендованную топологию с помощью средства планирования.
+Калькулятор для Skype [для бизнеса server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) и производительность [Skype для бизнеса Server 2019 для](https://www.microsoft.com/en-us/download/details.aspx?id=57509) работы с [программой планирования](https://www.microsoft.com/en-us/download/details.aspx?id=50357) в Skype для бизнеса и в документации по развертыванию ([Планирование развертывания Skype для бизнеса Server 2015](../plan-your-deployment/plan-your-deployment.md) и [планирование для развертывания Skype для](../../SfBServer2019/plan/plan-your-deployment-2019.md) бизнеса Server 2019, соответственно). Чтобы использовать калькулятор, сначала ознакомьтесь с руководством и создайте рекомендованную топологию с помощью средства планирования.
   
 Калькулятор мощности Skype для бизнеса Server помогает определить требования к серверу на основе количества пользователей и средств связи, используемых вашей организацией. После определения профиля пользователя и режимов, которые следует включить для пользователей, можно воспользоваться калькулятором, чтобы запланировать необходимое количество серверов, объем памяти и пропускную способность. Для этой версии калькулятора не предусмотрены инструкции относительно требований диска касательно ввода-вывода.
   
@@ -92,7 +94,7 @@ ms.locfileid: "34274459"
     
 В ячейках зеленого цвета указаны рекомендации для модели использования, которую вы ввели. 
   
-- **Общее число серверов переднего плана**: требуемое количество физических серверов определяется на основе выделенных серверов, использующих Skype для бизнеса Server 2015 с двумя процессорами, Hex, с 2 260 Мегациклес или Skype для бизнеса Server 2019 с помощью Intel Xeon 3 – 2673 v3, Dual степпинг процессора, ШЕСТН.
+- **Общее число серверов переднего плана**: необходимое количество физических серверов зависит от выделенных серверов, на которых работает Skype для бизнеса Server 2015 с двумя процессорными, шестым набором, с 2 260 Мегациклес или Skype для бизнеса Server 2019 с процессором Intel Xeon MP-2673 v3 с двухъядерным процессором, с шестым степпингом.
     
     Обратите внимание, что рекомендуется включить технологию Hyper-Threading, которая, как доказано, повышает производительности серверов с поддержкой видео и аудио.
     

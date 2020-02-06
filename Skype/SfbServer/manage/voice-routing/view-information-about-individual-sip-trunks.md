@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: В Skype для бизнеса Server для одного шлюза PSTN может быть назначено несколько каналов. Это означает, что шлюзы и магистральные линии не являются одними и теми же, а администраторы должны использовать командлет Get-Кструнк для просмотра сведений о отдельной внешней магистрали SIP.
-ms.openlocfilehash: f9199936dd4c9580c95c8b9708df04dcac13e1e8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7db7eebfc409b0f79bd562606368d434ba47f0c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274879"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816928"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Просмотр сведений об отдельных магистральных линиях SIP в Skype для бизнеса Server
 

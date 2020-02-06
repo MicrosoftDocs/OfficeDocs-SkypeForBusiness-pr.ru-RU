@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Сводка: сведения о том, как запланировать обмен мгновенными сообщениями и присутствием в Skype для бизнеса Server.'
-ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297381"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815907"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Планирование обмена мгновенными сообщениями и сведений о присутствии в Skype для бизнеса Server
  
@@ -33,7 +35,7 @@ ms.locfileid: "34297381"
   
 ### <a name="technical-requirements"></a>Технические требования
 
-Обмен мгновенными сообщениями и сведения о присутствии всегда выполняются в пулах переднего плана Enterprise Edition и на серверах Standard Edition. Сведения о поддерживаемом оборудовании, операционных системах и программах для работы с [](../../SfbPartnerCertification/certification/infra-gateways.md)базами данных можно найти в разделе сертифицированные шлюзы, [требования к среде skype для бизнеса 2015](requirements-for-your-environment/requirements-for-your-environment.md)и [требования к инфраструктуре для Skype для бизнеса Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
+Обмен мгновенными сообщениями и сведения о присутствии всегда выполняются в пулах переднего плана Enterprise Edition и на серверах Standard Edition. Информация о поддерживаемом оборудовании, операционных системах и программах для работы с базами данных приведена в разделе [сертифицированные шлюзы](../../SfbPartnerCertification/certification/infra-gateways.md), [требования к среде skype для бизнеса 2015](requirements-for-your-environment/requirements-for-your-environment.md)и [требования к инфраструктуре для Skype для бизнеса Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Обеспечение взаимодействия с внешними пользователями
 

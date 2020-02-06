@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Возможно, вы уже выполнили действия по проектированию отказоустойчивости вашей системы, применяя такие меры, как аппаратное резервирование, защита от потери напряжения питания, регулярная установка обновлений системы безопасности и использование средств защиты от вирусов, а также запуск сервера мониторинга. Эти практические рекомендации не только для инфраструктуры Skype для бизнеса Server, но и для всей сети. Если вы не реализовали эти рекомендации, рекомендуем сделать это перед развертыванием Skype для бизнеса Server.
-ms.openlocfilehash: c1f6a6ebe31276b8dbcd9037fa373baffc055fde
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 62200fc1ac45e1d647761af24d176a00d18693e4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296968"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815687"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Рекомендации для базовой инфраструктуры в Skype для бизнеса Server
  

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Планирование переадресации звонков в корпоративной голосовой связи в Skype для бизнеса Server, что позволяет совершать звонки на удержании и переносить звонки в отделы. Включает планирование мощности, поддерживаемые вызовы и поддерживаемые клиенты.
-ms.openlocfilehash: 3272efe89ac995b304d96ad7ce5660144641073b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3effeab4afef60fb7a5021206d9fc3cd0227ceb1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277057"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803199"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Планирование приостановки звонков в Skype для бизнеса
  
@@ -52,7 +54,7 @@ ms.locfileid: "34277057"
 
 Приложение для парковки звонков устанавливается автоматически при развертывании корпоративной голосовой связи. Вы включаете приостановку звонков с помощью настройки политики голосовой связи.
   
-### <a name="software-requirements"></a>Требования к программному обеспечению 
+### <a name="software-requirements"></a>Требования к программному обеспечению
 
 Все серверы переднего плана и стандартные серверы, на которых развернута служба парковки, должны установить среду выполнения формата Windows Media для серверов под управлением Windows Server 2008 R2 или Microsoft Media Foundation для серверов под управлением Windows Server 2012 или Windows Server. 2012 R2. В операционной системе Windows Server 2008 R2 на компьютере с Windows можно установить среду выполнения формата Windows Media Format. Формат среды выполнения Windows Media Audio (WMA), необходимый для воспроизведений музыкальных файлов, используется для воспроизведения музыки на удержании.
   

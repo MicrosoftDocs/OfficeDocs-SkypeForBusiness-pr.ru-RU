@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Необходимо указать полное доменное имя (FQDN) для службы Edge Access. Если вы не выбрали параметр использовать один и тот же &amp; доменный IP-адрес на странице Выбор компонентов, необходимо также указать полное доменное имя для службы Edge для веб-конференций и для службы EDGE (+ V).
-ms.openlocfilehash: 17873a280a213f12bf8339d3b18e0bafdfbc44b1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c7434331185006dd0c3b146872634ee7b9a40d8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689478"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798216"
 ---
 # <a name="add-edge-server-fqdn"></a>Добавление полного доменного имени пограничного сервера
  

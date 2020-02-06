@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: В этой статье описано, как настроить диапазоны портов для пограничных серверов и как настроить политику качества обслуживания для пограничных серверов/V.
-ms.openlocfilehash: e918dfd371b007741b73312c20033ab911422529
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5762cb6861552696f160dfe69459c357f6b63452
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279467"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817438"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Настройка диапазонов портов и политики качества обслуживания для пограничных серверов в Skype для бизнеса Server
 
@@ -143,7 +145,7 @@ ms.locfileid: "34279467"
 
 1.  В меню **Пуск** выберите пункт **Выполнить**.
 
-2.  В диалоговом окне **выполнить** введите regedit и нажмите клавишу ВВОД. ****
+2.  В диалоговом окне **выполнить** введите **regedit**и нажмите клавишу ВВОД.
 
 3.  В редакторе реестра разверните раздел **\_hKey локальный\_компьютер**, разверните раздел **система**, разверните **куррентконтролсет**, затем — **службы**, а затем — значок **tcpip**.
 

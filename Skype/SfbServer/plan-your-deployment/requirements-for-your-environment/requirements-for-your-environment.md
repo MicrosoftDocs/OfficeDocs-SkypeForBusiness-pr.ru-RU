@@ -8,6 +8,8 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'Сводка: Общие сведения о требованиях к системе и требованиях к сети и инфраструктуре для Skype для бизнеса Server 2015. Если вам нужно установить или настроить какие-либо необходимые компоненты для установки и развертывания Skype для бизнеса Server 2015, это будет здесь.'
-ms.openlocfilehash: d28f550b9279b579f357517ffdfd0c6beea22f23
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7c05420a8cf863a8ef6623a5750a46589145e44c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296814"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801899"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Требования для среды Skype для бизнеса 2015
  

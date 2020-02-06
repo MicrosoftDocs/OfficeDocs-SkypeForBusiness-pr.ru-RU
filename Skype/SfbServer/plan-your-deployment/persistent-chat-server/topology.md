@@ -8,15 +8,17 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы узнать о возможностях серверных компонентов и топологий чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: c31cb8b0ada280b52d902e975f1bacf947fd19e7
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: afcdf7ed85cca6b54652dcf5170316258a6b5551
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418275"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815727"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Планирование топологии сервера сохраняемого чата
  
@@ -25,7 +27,7 @@ ms.locfileid: "35418275"
 Сервер сохраняемого чата поддерживает конфигурации с одним сервером и с несколькими серверами. Вы можете установить сервер сохраняемого чата в Skype для бизнеса Server 2015 Enterprise Edition или Standard Edition Server. 
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
   
 ## <a name="persistent-chat-server-components"></a>Серверные компоненты для сохраняемого чата
 

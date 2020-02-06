@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Планирование приложения для объявлений в корпоративной голосовой связи Skype для бизнеса Server, которое позволяет настроить действия с телефонными звонками для неназначенных телефонных номеров в организациях. Включает требования к звуковым файлам
-ms.openlocfilehash: af7ce9fdcfa78daa875a4748eafac5020246b74b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d160878030fad30dd3e91b78f54ffcdab722299f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277134"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803269"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Планирование приложения для объявлений в Skype для бизнеса
 
@@ -35,7 +37,7 @@ ms.locfileid: "34277134"
 
 Приложение новый извещения автоматически устанавливается вместе с приложением группы ответа. Приложения группы "объявление" и "ответ" — это стандартные компоненты корпоративного развертывания для предприятий: при развертывании Enterprise Voice оба эти приложения автоматически развертываются.
 
-### <a name="software-requirements"></a>Требования к программному обеспечению 
+### <a name="software-requirements"></a>Требования к программному обеспечению
 
 Все серверы переднего плана и стандартные серверы выпуска, на которых запущено приложение для объявления, должны установить среду выполнения формата Windows Media для серверов под управлением Windows Server 2008 R2 или Microsoft Media Foundation для серверов под управлением Windows Server 2012 или Windows Server 2012 R2. В Windows Server 2008 R2 среда выполнения формата Windows Media устанавливается как часть рабочего стола Windows. Для файлов Windows Media Audio (WMA), которые воспринимаются для объявлений и музыки, требуется приложение для работы с форматами среды предвыполнения Windows Media.
 

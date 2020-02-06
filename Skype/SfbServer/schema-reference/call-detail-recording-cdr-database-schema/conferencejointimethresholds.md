@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: 'В таблице Конференцежоинтимесрешолдс содержатся ограничители классификации, используемые в сводном отчете "время присоединения к Конференции". Сводный отчет о времени присоединения к Конференции суммирует количество времени, необходимого для успешного присоединения пользователей к Конференции; Эти значения времени выводятся как среднее значение и в одной из следующих категорий:'
-ms.openlocfilehash: 4b2f27b6ab826ff95c1478cf54e8a21c148b1d3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1874a94448be5957079b1c53944bc127df761e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296499"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815397"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>Таблица Конференцежоинтимесрешолдс в Skype для бизнеса Server 2015
  
@@ -36,7 +38,7 @@ ms.locfileid: "34296499"
   
 |**Столбец**|**Тип данных**|**Ключ/индекс**|**Сведения**|
 |:-----|:-----|:-----|:-----|
-|**Срешолдид** <br/> |целое  <br/> |Primary  <br/> |Уникальный идентификатор для классификации.  <br/> |
-|**Срешолдвалуе** <br/> |целое  <br/> || Верхний предел для классификации. Допустимые значения: <br/>  2 <br/>  5 <br/>  5-10 <br/> |
+|**срешолдид** <br/> |целое  <br/> |Primary  <br/> |Уникальный идентификатор для классификации.  <br/> |
+|**срешолдвалуе** <br/> |целое  <br/> || Верхний предел для классификации. Допустимые значения: <br/>  2 <br/>  5 <br/>  5-10 <br/> |
    
 

@@ -7,6 +7,8 @@ audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: сценарии проверки для параметров развертывания в Skype для бизнеса Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758944"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802169"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Улучшенное планирование DNS для Microsoft Edge Server для сервера Skype для бизнеса
  
@@ -50,11 +52,11 @@ ms.locfileid: "35758944"
     
      *Запись хоста A для службы автоматического обнаружения на внешних веб-службах.* 
     
-3. _сипинтерналтлс. _tcp. \<Domain (домен)\>
+3. _sipinternaltls. _tcp. \<Domain (домен)\>
     
      *Запись SRV для внутренних подключений TLS.* 
     
-4. _сип. _тлс. \<Domain (домен)\>
+4. _sip. _tls. \<Domain (домен)\>
     
      *Запись SRV для внешних подключений TLS.* 
     
@@ -126,7 +128,7 @@ This presents some challenges. Самое важное — DNS с разделе
     
   - DNS A и AAAA (если вы используете IPv6-адресацию) и записи SRV для внешнего интерфейса обратного прокси-сервера или (VIP для пула обратных прокси-серверов) в сети периметра.
     
-  - DNS A и AAAA (если вы используете IPv6-адресацию) и записи SRV для автонастройки клиента Skype для бизнеса Server****(необязательно).
+  - DNS A и AAAA (если вы используете IPv6-адресацию) и записи SRV для автонастройки клиента Skype для бизнеса Server (**необязательно**).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Автоматическая настройка без разделенной DNS
 <a name="NoSplitBrainDNS"> </a>
@@ -162,7 +164,7 @@ This presents some challenges. Самое важное — DNS с разделе
     
     Вам потребуется создать в внутреннем DNS-зоне зону, соответствующую внешней зоне DNS (например, contoso.com), а затем создать DNS A (и AAAA, если вы используете адреса IPv6), которые соответствуют пулу сервера Skype для бизнеса, который используется для автоматического Настройка.
     
-    Например, если пользователь размещается на pool01.contoso.net, но входит в Skype для бизнеса как bob@contoso.com, создайте внутреннюю зону DNS с именем contoso.com и внутри нее нужно создать запись DNS A (и AAAA, если используется адресация IPv6) для pool01.contoso.com.
+    Например, если пользователь размещается на pool01.contoso.net, но входит в Skype для бизнеса как bob@contoso.com, создайте внутреннюю зону DNS под названием contoso.com и внутри нее нужно создать запись DNS A (и AAAA, если используется адресация IPv6) для pool01.contoso.com.
     
 - **Точное определение внутренней зоны**
     

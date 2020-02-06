@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Выполнение восстановления системы для сервера пула серверов Skype для бизнеса Server для проверки документированного процесса аварийного восстановления
-ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279216"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817305"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Тестирование аварийного восстановления в Skype для бизнеса Server
 
@@ -46,12 +48,12 @@ ms.locfileid: "34279216"
 
 На пул производственных данных в Skype для бизнеса будут ссылаться клиенты, использующие записи автоматической настройки и DNS SRV:
 
-- SRV: _сип. _тлс. \<домаин_гт_/КНАМЕ: SIP. \<домаин_гт_
-- CNAME: SIP. \<домаин_гт_/CVC-Pool-1. \<домаин_гт_
+- SRV: _sip. _tls. \<Domain>/КНАМЕ: SIP. \<> домена
+- CNAME: SIP. \<> домена/CVC-Pool-1. \<> домена
 
 Для облегчения процедуры отработки отказа данная запись CNAME должна быть обновлена с помощью ссылки на DROCSPool FQDN:
 
-- CNAME: SIP.<domain> /Дрокспул. \<домаин_гт_
-- Установка. \<домаин_гт_
-- AV.\<домаин_гт_
-- "". \<домаин_гт_
+- CNAME: SIP.<domain> /дрокспул. \<> домена
+- Установка. \<> домена
+- > AV\<. domain
+- "". \<> домена

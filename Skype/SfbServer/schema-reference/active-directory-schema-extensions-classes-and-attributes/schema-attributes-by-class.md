@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: В этом разделе перечислены атрибуты схемы, которые могут содержаться в каждом из классов сервера Skype для бизнеса Server и на классы, которые могут содержаться в других классах. Список всех классов и их описаний можно найти в разделе классы и описания схемы в Skype для бизнеса Server. Список всех атрибутов и их описание можно найти в разделе атрибуты и описания схемы в Skype для бизнеса Server.
-ms.openlocfilehash: 457b66b5b4b09bd610686bfdfb42af30b420930f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93598f1cc54ec76ccc59649ec97fd7ac57cd39f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296646"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815497"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Атрибуты схемы по классу в Skype для бизнеса Server
  
@@ -27,7 +29,7 @@ ms.locfileid: "34296646"
 |**Классов**|**Могут содержать эти атрибуты**|
 |:-----|:-----|
 |Службу  <br/> |msDS-Саурцеобжектдн  <br/> msRTCSIP-Акпинфо  <br/> msRTCSIP-Аппликатиондестинатион  <br/> msRTCSIP-Аппликатионоптионс  <br/> msRTCSIP-Аппликатионпримарилангуаже  <br/> msRTCSIP-Аппликатионсекондарилангуажес  <br/> msRTCSIP-Арчивинженаблед  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-Федератионенаблед  <br/> msRTCSIP-Граупингид  <br/> msRTCSIP-Интернетакцессенаблед  <br/> msRTCSIP (линия)  <br/> msRTCSIP-Линесервер  <br/> msRTCSIP-Оптионфлагс  <br/> msRTCSIP-Оригинаторсид  <br/> msRTCSIP-Овнерурн  <br/> msRTCSIP-Примарихомесервер  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-Привателине  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-Саурцеобжекттипе  <br/> msRTCSIP-Таржесомесервер  <br/> msRTCSIP-ТаржетусерполиЦиес  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-Усерекстенсион  <br/> msRTCSIP-Усерлокатионпрофиле  <br/> msRTCSIP-УсерполиЦиес  <br/> msRTCSIP-Усерполици  <br/> msRTCSIP-Усерраутингграупид  <br/> ProxyAddresses  <br/> |
-|Почта-получатель  <br/> |Мсексчуквоицемаилсеттингс  <br/> msExchUserHoldPolicies  <br/> |
+|Почта-получатель  <br/> |мсексчуквоицемаилсеттингс  <br/> msExchUserHoldPolicies  <br/> |
 |msRTCSIP-Аппликатионсерверсервице  <br/> |msRTCSIP-Аппликатионсервербл  <br/> |
 |msRTCSIP-Аппликатионсерверсеттингс  <br/> |msRTCSIP-Аппликатионлист  <br/> msRTCSIP-Аппликатионсерверпуллинк  <br/> msRTCSIP-Екстенсиондата  <br/> msRTCSIP-Серверверсион  <br/> |
 |msRTCSIP-Конференцедиректори  <br/> |msRTCSIP-Конференцедиректорихомепул  <br/> msRTCSIP-Конференцедиректорид  <br/> msRTCSIP-Конференцедиректоритаржетпул  <br/> msRTCSIP-Екстенсиондата  <br/> |

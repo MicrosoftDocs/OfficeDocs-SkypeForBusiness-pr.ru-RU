@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Сводка: Узнайте о новых возможностях Skype для бизнеса 2019, а также о том, как подготовить среду и пользователей к обновлению, независимо от того, используете ли вы Skype для бизнеса Online, Skype для бизнеса Server 2015, Lync Server 2013 или Lync Server 2010.'
-ms.openlocfilehash: 21a28af999b285910884241e6e7809a88b943a87
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: afd0f9f8a764ef9430d9ac1a9887a872c02fedd7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989854"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803529"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Планирование взаимодействия с клиентами Skype для бизнеса 2015 для пользователей
  

@@ -8,15 +8,17 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться планировать сохраняемый сервер чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 3e485f938d2bd48dad5f1b9f0baa96d7f3f537d0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f2adc5bc9ed23f4ca02843e8c6136c44fca92d6d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418282"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815737"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -37,7 +39,7 @@ ms.locfileid: "35418282"
 - Выполнение нормативных требований благодаря возможности развертывания, если необходимо, службы соответствия сохраняемого чата
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Высокоуровневая архитектура сервера сохраняемого чата
 

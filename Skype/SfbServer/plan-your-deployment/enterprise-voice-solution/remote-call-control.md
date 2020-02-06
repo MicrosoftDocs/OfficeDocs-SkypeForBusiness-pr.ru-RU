@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Удаленное управление звонками — это функция в предыдущих версиях Lync Server, на которой пользователи смогут управлять телефонным АТС с помощью Lync Server. В Skype для бизнеса Server эта функция заменена на "звонок через Work". В клиентских версиях Skype для бизнеса Server 2015 и переходе к следующему элементу управления удаленным звонком больше нельзя настроить в клиенте и он был удален для использования.
-ms.openlocfilehash: e98bcbd7e1feb91b31994d2ece2770c911547882
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67010a0bc74ef46dcf204e3b2a905be87c182daf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276492"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802509"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Планирование удаленного управления звонками в Skype для бизнеса
  
@@ -31,7 +33,7 @@ ms.locfileid: "34276492"
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Skype для бизнеса Server <br/> |Вызов с рабочего телефона  <br/> |1 <br/> |Вызов с рабочего телефона  <br/> |1 <br/> |1 <br/> |
 | Lync Server 2013 <br/> |Удаленное управление звонками  <br/> |Удаленное управление звонками  <br/> |1,1 <br/> |Удаленное управление звонками  <br/> |Удаленное управление звонками  <br/> |
-| Lync Server 2010 <br/> |Удаленное управление звонками  <br/> |Удаленное управление звонками  <br/> |1,1 <br/> |Удаленное управление звонками  <br/> |Удаленное управление звонками  <br/> |
+| Lync Server 2010 <br/> |Удаленное управление звонками  <br/> |Удаленное управление звонками  <br/> |1,1 <br/> |Удаленное управление звонками  <br/> |Удаленное управление звонками  <br/> |
    
 1. Ни одна из функций не поддерживается.
   

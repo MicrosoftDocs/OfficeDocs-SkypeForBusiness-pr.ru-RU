@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Сводка: сведения о том, что следует помнить при планировании обновления до Skype для бизнеса Server 2015. Загрузите бесплатную пробную версию Skype для бизнеса Server 2015 в центре оценки Майкрософт по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a812d0fac6d6d9e181f9216c73070c0bf085f368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222133"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815577"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Планирование обновления до Skype для бизнеса Server 2015
  
@@ -42,7 +44,7 @@ ms.locfileid: "35222133"
 |:-----|:-----|
 |Lync Server 2013  <br/> | Для обновления используйте построитель топологии Skype для бизнеса Server и новую функцию обновления на месте на каждом сервере, связанном с пулом. Ознакомьтесь со статьей [Планирование обновления с Lync Server 2013 до Skype для бизнеса server 2015](upgrade.md#BKMK_PlanUpgradeFromLync2013) и [Переход на Skype для бизнеса Server 2015](../deploy/upgrade-to-skype-for-business-server.md) для получения подробных инструкций. <br/> |
 |Lync Server 2010 и Lync Server 2013 (двойной режим работы)  <br/> |Сначала обновите систему до Lync Server 2013, а затем обновите версию до Skype для бизнеса Server 2015 с помощью новой функции обновления на месте. Однако в случае первичной топологии Lync Server 2010 можно также выполнить откат компонентов Lync Server 2013 до Lync Server 2010 и затем выполнить обновление непосредственно до Skype для бизнеса Server 2015. В такой ситуации, предусматривающей совместную работу Lync Server 2010 и Skype для бизнеса Server 2015, невозможно воспользоваться преимуществами обновления на месте. Поддерживается совместная работа не более чем двух компонентов.  <br/> |
-|Lync Server 2010  <br/> |Выведите новый пул Skype для бизнеса Server 2015, а затем перенесите пользователей в новый пул. Затем вы можете списать старый пул Lync Server 2010. Обновление с Lync Server 2010 до Skype для бизнеса Server 2015 аналогично обновлению с Lync Server 2010 до Lync Server 2013. Ознакомьтесь [с Разпереходом с Lync server 2010 на Lync server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).  <br/> |
+|Lync Server 2010  <br/> |Выведите новый пул Skype для бизнеса Server 2015, а затем перенесите пользователей в новый пул. Затем вы можете списать старый пул Lync Server 2010. Обновление с Lync Server 2010 до Skype для бизнеса Server 2015 аналогично обновлению с Lync Server 2010 до Lync Server 2013. Ознакомьтесь [с Разпереходом с Lync server 2010 на Lync server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526615).  <br/> |
 |Office Communications Server 2007 R2  <br/> | Выберите один из двух вариантов. <br/>  Настройте новую среду 2015 в Skype для бизнеса Server. <br/>  Кроме того, если оборудование и программное обеспечение отвечает требованиям для Skype для бизнеса Server 2015, обновите приложение Lync Server 2013 и обновите приложение до Skype для бизнеса Server 2015 с помощью новой функции обновления на месте. Дополнительные сведения можно найти в разделе [требования к серверу для Skype для бизнеса Server 2015](requirements-for-your-environment/server-requirements.md) и [Переход с Office Communications Server 2007 R2 на Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=526616).  <br/> |
    
 > [!NOTE]
@@ -68,7 +70,7 @@ ms.locfileid: "35222133"
 1. Сведения о текущей топологии.
     
     > [!NOTE]
-    > Обязательно удалите средство администрирования ЛРС для Lync Server 2013, прежде чем выполнять обновление на месте. Средство администрирования ЛРС для Lync Server 2013 не может сосуществовать в Skype для бизнеса Server 2015. После обновления на месте установите новое средство администрирования ЛРС. Дополнительные сведения о [Skype для бизнеса Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) вы увидите в разделе Microsoft Lync на комнатном веб-портале.
+    > Обязательно удалите средство администрирования ЛРС для Lync Server 2013, прежде чем выполнять обновление на месте. Средство администрирования ЛРС для Lync Server 2013 не может сосуществовать в Skype для бизнеса Server 2015. После обновления на месте установите новое средство администрирования ЛРС. Дополнительные сведения о [Skype для бизнеса Server 2015 вы увидите в разделе Microsoft Lync на комнатном веб-портале](https://go.microsoft.com/fwlink/?LinkID=544807) .
   
 2. Основной пул для обновления.
     

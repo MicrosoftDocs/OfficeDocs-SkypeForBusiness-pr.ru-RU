@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Вы можете использовать следующую метрику, чтобы оценить трафик пользователей на каждом сайте и количество портов, необходимых для поддержки этого трафика.
-ms.openlocfilehash: 09c3e638d25225376b95afd60bdd6d3c311c1f5a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f324a3030a8265288a30062fdfc1040a1aea8349
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277617"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816068"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Оценка использования голосовой связи и трафика для Skype для бизнеса Server
  

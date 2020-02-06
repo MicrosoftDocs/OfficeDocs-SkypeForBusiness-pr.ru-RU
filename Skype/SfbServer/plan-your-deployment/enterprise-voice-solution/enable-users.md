@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Решения, необходимые для политики местоположения для развертывания E9-1-1 в корпоративной среде Skype для бизнеса Server Enterprise, включая сведения о том, какие пользователи должны включать и как поддерживать перемещаемые пользователи.
-ms.openlocfilehash: 1e714e5296e8176c9052b50a5d4ce4f2c0d6184b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 717b127a94fbac966476c681cfb7f6e81d91bde9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276903"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802959"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Включение пользователей для E9-1-1 в Skype для бизнеса Server
  

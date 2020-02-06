@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: Протоколы TLS и MTLS предоставляют зашифрованный обмен данными и проверку подлинности конечной точки в Интернете. Skype для бизнеса Server использует эти два протокола для создания сети доверенных серверов и для проверки того, что все коммуникации в сети зашифрованы. Весь обмен данными по протоколу SIP между серверами происходит по протоколу MTLS. Обмен данными по протоколу SIP от клиента к серверу выполняется по протоколу TLS.
-ms.openlocfilehash: fe8619dd499388472612c67ddf1801a027ed1e5d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5030916780c9e39eee10bf2c2fcb6fb213c9b075
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296849"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815597"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS и MTLS для Skype для бизнеса Server
  

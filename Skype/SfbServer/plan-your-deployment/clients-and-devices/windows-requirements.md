@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Аннотация: Ознакомьтесь с требованиями поддержки клиента Windows при планировании сервера Skype для бизнеса Server.'
-ms.openlocfilehash: bbcbf11da53b2895f04725fda57342c17989b7f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a66887b616461a40c6326a66d982a8bfbe8e9605
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277274"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803489"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Требования к клиенту для Windows и поддержка программного обеспечения
  
@@ -73,7 +75,7 @@ Microsoft Skype для бизнеса для Windows Phone обеспечива�
 
 ## <a name="see-also"></a>См. также
 
-[Планирование клиентов собраний (приложение для веб-приложений и собраний)](meetings-clients.md)
+[Планирование для клиентов собраний (Skype для бизнеса Web App и приложение "Собрания Skype")](meetings-clients.md)
   
 [Клиентские требования Skype для бизнеса для Mac](mac-requirements.md)
 

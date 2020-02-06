@@ -8,18 +8,20 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Сведения о развертывании нескольких сайтов ТСОП в Cloud Connector Edition.
-ms.openlocfilehash: ba6b76366b65a9febb9fab06e7cfb0fad759e5ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98890bb3ffe53497c5e915acba5c073c4316f3b7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287330"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799699"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Развертывание нескольких сайтов в Cloud Connector
  
@@ -70,7 +72,7 @@ ExternalMRPublicIPs=104.42.226.134
 Для каждого сайта PSTN, который вы хотите добавить, выполните действия, описанные в разделе [развертывание одного сайта в облачном соединителе](deploy-a-single-site-in-cloud-connector.md).
   
 > [!IMPORTANT]
-> Общая папка для подготовки среды высокой доступности выделяется на каждый сайт ТСОП. Каждый сайт ТСОП **должен** использовать разные общие папки. Не используйте одну и ту же общую папку для нескольких сайтов. _Гт_ 
+> Общая папка для подготовки среды высокой доступности выделяется на каждый сайт ТСОП. Каждый сайт ТСОП **должен** использовать разные общие папки. Не используйте одну и ту же общую папку для нескольких сайтов. > 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Сравнение развертывания отдельного сайта с высокой доступностью и развертывания с несколькими сайтами
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

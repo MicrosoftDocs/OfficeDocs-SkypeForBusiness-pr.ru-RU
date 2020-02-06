@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: В представлении Клиентверсионс хранятся сведения о различных типах и версиях клиентов, которые принимали участие в сеансах, записанных в базе данных. Каждая запись в представлении представляет собой одну версию клиента. Это представление было представлено в Microsoft Lync Server 2013.
-ms.openlocfilehash: 845a6fdb88ba62273413d8e7ea50fb165f0f321c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d37e2a1599eaf8906d11fdb8faf545aa3447f00f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296541"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815417"
 ---
 # <a name="clientversions-view"></a>Представление Клиентверсионс
  
@@ -29,7 +31,7 @@ ms.locfileid: "34296541"
 |:-----|:-----|:-----|
 |**VersionId** <br/> |целое  <br/> |Уникальный номер, показывающий этот тип клиента и версию.  <br/> |
 |**Версия** <br/> |nvarchar(256)  <br/> |Представляет агент пользователя.  <br/> |
-|**Клиенттипе** <br/> |целое  <br/> |Тип клиента.  <br/> |
-|**Клиенткатегори** <br/> |nvarchar (64)  <br/> |Категория, к которой относится клиент. Например, клиент КонференЦинг_аттендант_ 1.0 принадлежит к Клиенткатегори Каа.  <br/> |
+|**клиенттипе** <br/> |целое  <br/> |Тип клиента.  <br/> |
+|**клиенткатегори** <br/> |nvarchar (64)  <br/> |Категория, к которой относится клиент. Например, клиент Conferencing_Attendant_1 .0 принадлежит Клиенткатегори Каа.  <br/> |
    
 

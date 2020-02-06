@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Качество обслуживания (QoS) — это сетевая технология, используемая в некоторых организациях для обеспечения оптимального взаимодействия с пользователем для голосовой и видеосвязи.
-ms.openlocfilehash: fbc10c5e94706348b7e3f66687b4868a9feb44ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 821ebb1cd6a101856f4fbc4fb3428ecba7674245
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279405"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817365"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Управление качеством обслуживания (QoS) в Skype для бизнеса Server
 

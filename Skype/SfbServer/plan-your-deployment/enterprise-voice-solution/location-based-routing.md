@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Планирование маршрутизации на основе местоположения в голосовой связи Skype для бизнеса Server Enterprise, включая взаимодействие с одновременными звонками и делегированием, а также поддерживаемые сценарии для маршрутизации на основе местоположения.
-ms.openlocfilehash: 8c6ce8467c48231ebcab706874e70341ba431fd8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fae78dcbc1aa1d92d6fe192618d9fda5001436a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276749"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802909"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Планирование маршрутизации на основе местоположения в Skype для бизнеса
 
@@ -208,14 +210,14 @@ ms.locfileid: "34276749"
 
 ****
 
-|**Версия пула**|**Версия cервера-посредника**|**Поддерживаются**|
+|**Версия пула**|**Версия cервера-посредника**|**Поддерживается**|
 |:-----|:-----|:-----|
 |Накопительный пакет обновления для Skype для бизнеса Server или Lync Server 2013 за Февраль 2013  <br/> |Накопительный пакет обновления для Skype для бизнеса Server или Lync Server 2013 за Февраль 2013  <br/> |Да  <br/> |
 |Накопительный пакет обновления для Skype для бизнеса Server или Lync Server 2013 за Февраль 2013  <br/> |Lync Server 2013  <br/> |нет  <br/> |
-|Накопительный пакет обновления для Skype для бизнеса Server или Lync Server 2013 за Февраль 2013  <br/> |Lync Server 2010  <br/> |нет  <br/> |
+|Накопительный пакет обновления для Skype для бизнеса Server или Lync Server 2013 за Февраль 2013  <br/> |Lync Server 2010  <br/> |нет  <br/> |
 |Накопительный пакет обновления для Skype для бизнеса Server или Lync Server 2013 за Февраль 2013  <br/> |Office Communications Server 2007 R2  <br/> |нет  <br/> |
 |Lync Server 2013  <br/> |любая  <br/> |нет  <br/> |
-|Lync Server 2010  <br/> |любая  <br/> |нет  <br/> |
+|Lync Server 2010  <br/> |любая  <br/> |нет  <br/> |
 |Office Communications Server 2007 R2  <br/> |любая  <br/> |нет  <br/> |
 
 ### <a name="client-support"></a>Поддержка клиента
@@ -224,7 +226,7 @@ ms.locfileid: "34276749"
 
 ****
 
-|**Тип клиента**|**Поддерживаются**|**Сведения**|
+|**Тип клиента**|**Поддерживается**|**Сведения**|
 |:-----|:-----|:-----|
 |Skype для бизнеса  <br/> |Да  <br/> ||
 |Lync 2013  <br/> |Да  <br/> ||

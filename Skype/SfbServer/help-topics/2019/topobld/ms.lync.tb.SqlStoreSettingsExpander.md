@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Чтобы изменить свойства базы данных SQL Server, необходимо изменить экземпляр базы данных SQL Server. Диалоговое окно "изменение свойств" нельзя использовать для выполнения таких задач, как перемещение базы данных сервера архивации с одного компьютера на другой. Кроме того, нельзя использовать диалоговое окно "изменение свойств" для изменения экземпляра SQL Server, на котором размещается хранилище Центрального управления.
-ms.openlocfilehash: ccaa6d2ceedfdef3f180de93e763c28b7167d45a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 10dd68bc7cfbeb58461afdb5d6c3427c4bc80056
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701464"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798286"
 ---
 # <a name="sql-store-settings-expander"></a>Расширитель параметров хранилища SQL
  

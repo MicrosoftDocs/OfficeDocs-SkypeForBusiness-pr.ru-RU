@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Узнайте о том, как звонить по протоколу SIP на сайтах филиалов в корпоративной голосовой связи в Skype для бизнеса Server.
-ms.openlocfilehash: 14af9a096b368f310b0d4fbce425bf6d1c08696a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 158c1cff28ba0c21f5c995a1fe5b7dfdf2f9f150
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277113"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803259"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Магистральные магистрали SIP сайтов филиалов в Skype для бизнеса Server
  
 Узнайте о том, как звонить по протоколу SIP на сайтах филиалов в корпоративной голосовой связи в Skype для бизнеса Server.
   
-В некоторых случаях может потребоваться реализация распределенной магистрали SIP на выбранных сайтах филиалов. Чтобы определить, нужна ли магистральная линия SIP для сайта филиала, а также подробные сведения о поддерживаемых параметрах топологии для развертывания магистральных каналов SIP на сайтах филиалов, ознакомьтесь со статьей магистральные линии [SIP в Skype для бизнеса Server](sip-trunking.md).
+В некоторых случаях может потребоваться реализация распределенной магистрали SIP на выбранных сайтах филиалов. Чтобы определить, нужна ли магистральная линия SIP для сайта филиала, а также подробные сведения о поддерживаемых параметрах топологии для развертывания магистральных каналов SIP на сайтах филиалов, ознакомьтесь со статьей [магистральные линии SIP в Skype для бизнеса Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Пример анализа требований к магистрали SIP для офиса филиала
 

@@ -8,15 +8,17 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы научиться планировать высокую доступность и аварийное восстановление для постоянного сервера чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 0cdd1d17680f0546a0081bb769e2c6f45a370d0c
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 08b025b09acc4b4db5f26ae67761412a96c0339c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815747"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Планирование высокой доступности и аварийного восстановления для постоянного сервера чата в Skype для бизнеса Server 2015
  
@@ -28,7 +30,7 @@ ms.locfileid: "35418268"
 > Использование групп доступности AlwaysOn SQL не поддерживается с базами данных сервера сохраняемого чата. 
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
   
 ## <a name="resource-requirements"></a>Требования к ресурсам
 

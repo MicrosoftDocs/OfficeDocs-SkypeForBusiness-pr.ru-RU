@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployForestPrepInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'На странице Выполнение команд отображается сводка задач по мере их выполнения. Посмотрите на экран Сводка и убедитесь, что задачи выполнены успешно и ошибки не обнаружены. Ознакомьтесь с предупреждениями, чтобы убедиться, что они ожидаются. В области сводки вы должны увидеть состояние задачи: завершено. В раскрывающемся списке должен быть показан лес Подготовка файла журнала. Если это не так, выберите файл журнала и щелкните Просмотреть журнал для просмотра подробных действий и результатов задач. Нажмите кнопку Готово, чтобы завершить подготовку леса.'
-ms.openlocfilehash: d9397c4a26034d20a7f2e2f03a0d1714a4e7c14c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1f6818c396a66e2503030a09b3b6d50aadad3b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691894"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798396"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Подготовка текущего леса (вызов)
  

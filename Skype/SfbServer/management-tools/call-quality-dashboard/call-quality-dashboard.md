@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Сводка: сведения о панели мониторинга качества связи, которая является средством создания отчетов для Skype для бизнеса Server.'
-ms.openlocfilehash: 86c8ef07a583526e3b5a40d69a795bbab8ec7879
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 142e172fd4c9a9444df4ac0713c03d18e5f07a39
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328388"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816898"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Панель мониторинга качества звонков в Skype для бизнеса Server
  

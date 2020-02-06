@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Аннотация: Ознакомьтесь со статьей, посвященными рекомендациям по внедрению и управлению большим количеством собраний в Skype для бизнеса Server.'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696045"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815977"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Планирование большого количества собраний в Skype для бизнеса Server
  
@@ -57,7 +59,7 @@ ms.locfileid: "34696045"
   
 Пул серверов Skype для бизнеса, предназначенный для размещения крупных собраний, должен одновременно содержать одно и только одно собрание до 1000 пользователей, поэтому время проведения собрания должно быть зарезервировано за пределы последовательного процесса планирования, чтобы обеспечить специальную поддержку из Серверы переднего плана. Если требуется поддержка одновременного проведения нескольких больших собраний, следует настроить несколько пулов, выделенных под крупные собрания.
   
-Дополнительные сведения о требованиях к оборудованию и программному обеспечению и планировании топологии, поддерживающей большое количество собраний, приведены [в разделе Требования к оборудованию и программному обеспечению для Конференции в Skype для бизнеса Server](hardware-and-software-requirements.md) и [Планирование топологии конференций для Skype для бизнеса Server](conferencing-topology.md).
+Дополнительные сведения о требованиях к оборудованию и программному обеспечению и планировании топологии, поддерживающей большое количество собраний, приведены [в разделе Требования к оборудованию и программному обеспечению для проведения конференций в Skype для бизнеса Server](hardware-and-software-requirements.md) и [Планирование топологии конференций для Skype для бизнеса Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Рекомендации по проведению больших собраний
 

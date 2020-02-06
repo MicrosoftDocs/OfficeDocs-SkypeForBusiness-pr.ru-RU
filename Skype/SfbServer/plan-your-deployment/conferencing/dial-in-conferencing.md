@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы узнать, как планировать Конференц-связь с телефонным подключением в Skype для бизнеса Server.'
-ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277330"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815997"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Планирование конференц-связи с телефонным подключением в Skype для бизнеса Server
  
@@ -48,7 +50,7 @@ ms.locfileid: "34277330"
   
 Шлюз ТСОП можно развернуть на центральном сайте или на сайте филиала. На сайте филиала шлюз ТСОП может быть изолированным или служить компонентом системы обеспечения связи в филиалах.
   
-Дополнительные сведения о требованиях сервера-посредников и шлюза PSTN см. [в разделе Сервер-посредника в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [развертывание сервера обновлений в построителе топологии в Skype для бизнеса Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)и [определение шлюза в топологии Builder в Skype для бизнеса Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Подробные сведения о требованиях сервера-посредников и шлюза PSTN можно найти в разделе [сервер исправлений в Skype для бизнеса Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [развернуть сервер-посредник в построителе топологии в Skype для бизнеса Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)и [определить шлюз в построителе топологии в Skype для бизнеса](../../deploy/deploy-enterprise-voice/define-a-gateway.md)Server.
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>План абонентских групп, номеров доступа и регионов конференц-связи
 

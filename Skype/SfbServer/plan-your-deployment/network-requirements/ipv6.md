@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Аннотация: реализация IPv6 перед установкой Skype для бизнеса Server.'
-ms.openlocfilehash: e4af5403ce416332ec7c75ca26522038fd9c42df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5fe8cd186d152d368ac89c1d6bc9c07cebb7bfe7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297045"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802079"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Планирование IPv6 в Skype для бизнеса
  
@@ -133,9 +135,9 @@ Skype для бизнеса Server не поддерживает обмен му
 
 ||**Пограничный пул: IPv4** <br/> |**Пограничный пул: двойной стек** <br/> |**Пограничный пул: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Интерфейсный пул: IPv4** <br/> |Да   <br/> |Да  <br/> |Да  <br/> |
-|**Интерфейсный пул: двойной стек** <br/> |Да   <br/> |Да  <br/> |Да  <br/> |
-|**Интерфейсный пул: IPv6** <br/> |Возможность идентификации любого пользователя в организации с помощью ПИН-кода.  <br/> |Нет  <br/> |Да\*  <br/> |
+|**Интерфейсный пул: IPv4** <br/> |Да   <br/> |Да  <br/> |Нет  <br/> |
+|**Интерфейсный пул: двойной стек** <br/> |Да   <br/> |Да  <br/> |Нет  <br/> |
+|**Интерфейсный пул: IPv6** <br/> |Нет  <br/> |Нет  <br/> |Да\*  <br/> |
    
 \*Используйте это сочетание только в лабораторной среде.
   
@@ -145,7 +147,7 @@ Skype для бизнеса Server не поддерживает обмен му
 
 ||**Пограничный пул (внешний периметр): IPv4** <br/> |**Пограничный пул (внешний периметр): двойной стек** <br/> |**Пограничный пул (внешний периметр): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Пограничный пул (внутренний периметр): IPv4** <br/> |Да  <br/> |Да  <br/> |Да  <br/> |
+|**Пограничный пул (внутренний периметр): IPv4** <br/> |Да  <br/> |Да  <br/> |Нет  <br/> |
 |**Пограничный пул (внутренний периметр): двойной стек** <br/> |Нет  <br/> |Да  <br/> |Нет  <br/> |
 |**Пограничный пул (внутренний периметр): IPv6** <br/> |Нет  <br/> |Нет  <br/> |Да\*  <br/> |
    

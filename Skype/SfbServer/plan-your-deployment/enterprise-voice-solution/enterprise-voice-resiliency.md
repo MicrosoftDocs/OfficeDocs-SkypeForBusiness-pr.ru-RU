@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: В этой статье рассказывается о том, как поддерживать устойчивость голоса в корпоративной голосовой связи Skype для бизнеса Server на обоих центральных сайтах и на сайтах филиалов. Параметры сайтов филиалов включают развертывание бесперебойно работающих устройств филиалов или оставшихся серверов филиалов.
-ms.openlocfilehash: 2ede1677e59753e5f8f39b3e9a35221041b56263
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e64ac79ef49339401c5b2d0bbb7d27140eca4296
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276889"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802949"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
@@ -275,7 +277,7 @@ Skype для бизнеса Server поддерживает до двух уст
 
 #### <a name="voice-routing-for-branch-users"></a>Маршрутизация голосовых вызовов для пользователей филиала
 
-We recommend that you create a separate user-level Voice over Internet Protocol (VoIP) policy for users in a branch site. Эта политика должна включать основной маршрут, использующий бесперебойно работающее устройство филиалов или шлюз сервера филиалов, а также один или несколько маршрутов резервного копирования, использующих магистраль с коммутируемым шлюзом телефонной сети на центральном сайте. If the primary route is unavailable, the backup route that uses one or more central site gateways is used instead. Таким образом, независимо от того, где зарегистрирован пользователь — на регистраторе сайтов филиалов или в пуле регистратора резервного копирования на центральном сайте, действует политика VoIP пользователя. This is an important consideration for failover scenarios. Например, если вам нужно переименовать бесперебойно работающее устройство филиала или перенастроить бесперебойно работающее устройство филиала для подключения к пулу регистратора архивации на центральном сайте, необходимо переместить пользователей филиалов на центральный сайт в течение длительного времени. (Дополнительные сведения о переименовании и перенастройке бесперебойно работающего устройства ветвления можно найти в разделе [Приложение B: Управление](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) работающем устройством филиала в документации по развертыванию.) Если пользователи не имеют политик VoIP на уровне пользователя или абонентов на уровне пользователей, то при перемещении пользователей на другой сайт политики VoIP на уровне сайта и абонентские планы на уровне сайта применяются по умолчанию, а не в VoIP на уровне сайта филиала политики и абонентские группы; In this scenario, unless the site-level VoIP policies and site-level dial plans used by the backup Registrar pool can also apply to the branch site users, their calls will fail. For example, if users from a branch site located in Japan are moved to a central site in Redmond, then a dial plan with normalization rules that prepend +1425 to all 7-digit calls is unlikely to appropriately translate calls for those users.
+We recommend that you create a separate user-level Voice over Internet Protocol (VoIP) policy for users in a branch site. Эта политика должна включать основной маршрут, использующий бесперебойно работающее устройство филиалов или шлюз сервера филиалов, а также один или несколько маршрутов резервного копирования, использующих магистраль с коммутируемым шлюзом телефонной сети на центральном сайте. If the primary route is unavailable, the backup route that uses one or more central site gateways is used instead. Таким образом, независимо от того, где зарегистрирован пользователь — на регистраторе сайтов филиалов или в пуле регистратора резервного копирования на центральном сайте, действует политика VoIP пользователя. This is an important consideration for failover scenarios. Например, если вам нужно переименовать бесперебойно работающее устройство филиала или перенастроить бесперебойно работающее устройство филиала для подключения к пулу регистратора архивации на центральном сайте, необходимо переместить пользователей филиалов на центральный сайт в течение длительного времени. (Дополнительные сведения о переименовании и перенастройке бесперебойно работающего устройства ветвления можно найти в разделе [Приложение B: Управление работающем устройством филиала](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) в документации по развертыванию.) Если пользователи не имеют политик VoIP на уровне пользователя или абонентов на уровне пользователей, то при перемещении пользователей на другой сайт политики VoIP на уровне сайта и абонентские планы на уровне сайта применяются по умолчанию вместо политик и абонентов семейства сайтов филиалов. In this scenario, unless the site-level VoIP policies and site-level dial plans used by the backup Registrar pool can also apply to the branch site users, their calls will fail. For example, if users from a branch site located in Japan are moved to a central site in Redmond, then a dial plan with normalization rules that prepend +1425 to all 7-digit calls is unlikely to appropriately translate calls for those users.
 
 > [!IMPORTANT]
 > При создании резервного маршрута для филиала мы рекомендуем добавить в пользовательскую политику филиала два режима работы с ТСОП и назначить каждому режиму отдельные маршруты. Первый (или основной) маршрут перенаправляет звонки на шлюз, связанный с устройством с бесперебойной подразделением (СБА) или с сервером подразделения; второй (или резервный) маршрут перенаправляет звонки на шлюз на центральном веб-сайте. Перед использованием второго режима работы с ТСОП устройство для обеспечения связи в филиалах или сервер филиала попытаются использовать все маршруты, назначенные первому режиму работы с ТСОП.
@@ -328,7 +330,7 @@ We recommend that you create a separate user-level Voice over Internet Protocol 
 
 - Администратор Skype для бизнеса Server должен взять номер телефона AA и использовать этот номер телефона в качестве номера **автосекретаря UM** в параметрах перенаправления голосовой почты для работающего устройства филиалов или сервера филиалов.
 
-- Администратор Skype для бизнеса Server должен получить номер телефона Access для абонента UM и использовать этот номер в качестве номера **абонентского доступа** в параметрах перенаправления голосовой почты для бесперебойно работающего устройства филиала или для бесперебойной подсети сервера. .
+- Администратор Skype для бизнеса Server должен получить номер телефона Access для абонента UM и использовать его в качестве номера **абонентского доступа** в параметрах перенаправления голосовой почты для работающего устройства филиалов или для бесперебойно работающего сервера филиалов.
 
 - Администратор Skype для бизнеса Server должен настроить Exchange UM так, чтобы только одна абонентская группа была связана со всеми пользователями филиалов, которым необходим доступ к голосовой почте во время отключения глобальной сети.
 
@@ -384,8 +386,8 @@ We recommend that you create a separate user-level Voice over Internet Protocol 
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
 | Локальный маршрут в Редмонде  <br/> | ^\+1 (425           | 206                     | 253) (\d{7}) $  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
 | Локальный маршрут в Далласе  <br/>  | ^\+1 (972           | 214                     | 469) (\d{7}) $  <br/>                       | Local  <br/>                                    |
-| Универсальный маршрут  <br/>     | ^\+_Км_ (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-| Маршрут для пользователей в Далласе  <br/>  | ^\+_Км_ (\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
+| Универсальный маршрут  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Маршрут для пользователей в Далласе  <br/>  | ^\+? (\d\*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 В таблице 1 использование телефона GlobalPSTNHopoff добавлено после использования телефона DallasUsers в политике звонков в Далласе. Это позволяет использовать для звонков, к которым применяется политика звонков в Далласе, маршруты, настроенные для использования телефонов GlobalPSTNHopoff, если маршрут, заданный для использования телефонов DallasUsers, недоступен.
 

@@ -8,15 +8,17 @@ ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Аннотация: Ознакомьтесь с этой статьей, чтобы узнать о требованиях к оборудованию и программному обеспечению для постоянного сервера чата в Skype для бизнеса Server 2015.'
-ms.openlocfilehash: e700b76c8af29a0c877c1dc594244a299b8a3904
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cba3b340710e4c5ed041c085f39f1a4cc209a789
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418447"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815757"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Требования к оборудованию и программному обеспечению для сервера сохраняемого чата в Skype для бизнеса Server 2015
  
@@ -39,7 +41,7 @@ ms.locfileid: "35418447"
 В следующих разделах описаны особые требования к сохраняемым серверам чата и базе данных, хранящей сохраняемые данные чата.
 
 > [!NOTE] 
-> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here). Если вы хотите использовать сохраняемый чат, вы можете либо перенести пользователей, которым требуются эти функции, в Teams, либо продолжить работу с Skype для бизнеса Server 2015. 
+> Сохраняемый чат доступен в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here). Если вам нужно использовать сохраняемый чат, то вы можете либо перенести пользователей, которым нужна эта функция, в Teams, либо продолжать использовать Skype для бизнеса Server 2015. 
   
 ## <a name="front-end-server-requirements"></a>Требования к внешнему серверу
 

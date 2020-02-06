@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: В этом разделе описаны все классы схем, используемые в Skype для бизнеса Server.
-ms.openlocfilehash: 6d27ff464bcd4613f12180b8f263686c9cc04bcd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cb67c47c20ecb9cc6af79e51ebc05c332fd0bf3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296597"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815477"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Классы и описания схемы в Skype для бизнеса Server
  
@@ -24,7 +26,7 @@ ms.locfileid: "34296597"
   
 ## <a name="schema-classes-and-descriptions"></a>Классы и описания схемы
 
-|**Классов**|**Описание**|**Комментарии**|
+|**Классов**|**Описание**|**Примечания**|
 |:-----|:-----|:-----|
 |Почта-получатель  <br/> |Сообщение электронной почты в единой системе обмена сообщениями Exchange (UM).  <br/> |Этот вспомогательный класс предоставляется в единой системе обмена сообщениями Exchange.  <br/> |
 |msRTCSIP-Аппликатионконтактс  <br/> |Этот класс является контейнером для нескольких контактов приложения и не содержит самих атрибутов.  <br/> |Новые возможности Microsoft Office Communications Server 2007 R2.  <br/> |

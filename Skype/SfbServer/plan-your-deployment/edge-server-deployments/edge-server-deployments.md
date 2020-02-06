@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Сводка: планирование для среды Microsoft Skype для бизнеса Server Edge. Этот раздел содержит начальные сведения о принципах работы пограничных серверов, а также систематизированные ссылки на разделы с более подробной информацией.'
-ms.openlocfilehash: 536ab82ec6845c55a0ee067ad8c1a4f5d9b9e153
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f19f00aab393ed94735f47f2e66ab0a2869d2d7a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277162"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803369"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Планирование развертывания пограничного сервера в Skype для бизнеса Server
  
@@ -48,7 +50,7 @@ ms.locfileid: "34277162"
 Если в организации требуются такие службы, для их развертывания рекомендуется спланировать среду пограничных серверов. Ниже приведен список разделов, содержащих дополнительные сведения.
 
 > [!NOTE]
-> Шлюзы и прокси-серверы КСМПП доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Более подробную информацию вы видите в разделе [перевод КСМПП Федерации](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
+> Прокси-серверы и шлюзы XMPP доступны в Skype для бизнеса Server 2015, но больше не поддерживаются в Skype для бизнеса Server 2019. Дополнительные сведения см. в статье [Перенос федерации XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md). 
   
 ## <a name="planning-topics"></a>Разделы по планированию
 

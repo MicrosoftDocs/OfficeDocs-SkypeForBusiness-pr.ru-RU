@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: В этой статье рассказывается о требованиях к оборудованию, программному обеспечению и инфраструктуре для работы Skype для бизнеса на компьютере Mac.
-ms.openlocfilehash: aca2329fa3e7d42dfd1aaf47e4c069773c7206f0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 08f3aeabbfd88b432c28f05727ec7cf009e297a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221718"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803599"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Клиентские требования Skype для бизнеса для Mac
  
@@ -64,13 +66,13 @@ Skype для бизнеса Server 2015 также поддерживает сл
   
 Список отзыва сертификатов HTTP должен быть определен и доступен для клиента. Например, в качестве списка отзыва сертификатов в сертификате не поддерживается запись LDAP.
   
-### <a name="dns"></a>Служба доменных имен
+### <a name="dns"></a>DNS
 
 Для правильной работы Skype для бизнеса на компьютере Mac мобильное приложение должно быть правильно развернуто. Стандартный сценарий сбоя происходит, когда обе следующие записи DNS разрешаются во внутреннюю сеть:
   
-- линкдисковеринтернал. \<сипдомаин\>
+- lyncdiscoverinternal.\<sipdomain\>
     
-- lyncdiscover. \<сипдомаин\>
+- lyncdiscover.\<sipdomain\>
     
 Дополнительные сведения можно найти в статье [развертывание мобильных устройств в Lync Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=798224)и руководство по [мобильному серверу Microsoft Lync Server 2010](https://go.microsoft.com/fwlink//p/?LinkId=798226).
   
