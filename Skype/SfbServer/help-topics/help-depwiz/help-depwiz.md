@@ -8,19 +8,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca35c25c-6238-4e98-a8d0-c225fb605058
 description: Разделы мастера развертывания
-ms.openlocfilehash: 5c555a2f2e3aca7f3fc7478e29bb0c1742fa397e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f415b9557b007f06d71e4373a8009bfb03255248
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301801"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823683"
 ---
-# <a name="help-depwiz"></a><span data-ttu-id="cd58a-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="cd58a-103">Help-DepWiz</span></span>
+# <a name="help-depwiz"></a><span data-ttu-id="62341-103">Help-DepWiz</span><span class="sxs-lookup"><span data-stu-id="62341-103">Help-DepWiz</span></span>
  
-<span data-ttu-id="cd58a-104">Темы этого узла содержат справку для мастера развертывания Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="cd58a-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
+<span data-ttu-id="62341-104">Темы этого узла содержат справку для мастера развертывания Skype для бизнеса Server.</span><span class="sxs-lookup"><span data-stu-id="62341-104">The topics in this node provide help for the Skype for Business Server deployment wizard.</span></span>
   
 
   

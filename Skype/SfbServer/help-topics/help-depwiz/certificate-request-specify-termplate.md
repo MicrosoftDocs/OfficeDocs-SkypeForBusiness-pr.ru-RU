@@ -8,23 +8,25 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: На странице Определение дополнительного шаблона сертификата можно определить шаблон сертификата, отличающийся от шаблона сертификата WebServer, который используется по умолчанию. Установите флажок Использовать другой шаблон сертификата для выбранного центра сертификации, затем укажите название альтернативного шаблона сертификата в поле Название шаблона сертификата. Необходимо указывать название шаблона в точности так, как оно определено в центре сертификации (ЦС). Чтобы вернуться на предыдущую страницу, нажмите кнопку Назад. Чтобы закончить процесс запроса сертификата, нажмите кнопку Отмена.
-ms.openlocfilehash: b06797c63ff0d49de0c094957cccee0e5cf35747
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a494d1816f41f8e6cf4a129ab5353dc9e59b7002
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687732"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823793"
 ---
-# <a name="certificate-request-specify-termplate"></a><span data-ttu-id="0cab3-107">Запрос сертификата (задание шаблона)</span><span class="sxs-lookup"><span data-stu-id="0cab3-107">Certificate Request (Specify Termplate)</span></span>
+# <a name="certificate-request-specify-termplate"></a><span data-ttu-id="df459-107">Запрос сертификата (задание шаблона)</span><span class="sxs-lookup"><span data-stu-id="df459-107">Certificate Request (Specify Termplate)</span></span>
  
-<span data-ttu-id="0cab3-p102">На странице **Определение дополнительного шаблона сертификата** можно определить шаблон сертификата, отличающийся от шаблона сертификата WebServer, который используется по умолчанию. Установите флажок **Использовать другой шаблон сертификата для выбранного центра сертификации**, затем укажите название альтернативного шаблона сертификата в поле **Название шаблона сертификата**. Необходимо указывать название шаблона в точности так, как оно определено в центре сертификации (ЦС). Чтобы вернуться на предыдущую страницу, нажмите кнопку **Назад**. Чтобы закончить процесс запроса сертификата, нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="0cab3-p102">The **Specify Alternate Certificate Template** page enables you to define a certificate template other than the WebServer certificate template that is used by default. Select the check box **Use alternate certificate template for selected certification authority**, and then define the name of the alternate certificate template in the text box **Certificate template name**. You must use the name of the template as it is defined in the certification authority (CA). Click **Back** to go back to the previous page. Click **Cancel** to end the certificate request process.</span></span>
+<span data-ttu-id="df459-p102">На странице **Определение дополнительного шаблона сертификата** можно определить шаблон сертификата, отличающийся от шаблона сертификата WebServer, который используется по умолчанию. Установите флажок **Использовать другой шаблон сертификата для выбранного центра сертификации**, затем укажите название альтернативного шаблона сертификата в поле **Название шаблона сертификата**. Необходимо указывать название шаблона в точности так, как оно определено в центре сертификации (ЦС). Чтобы вернуться на предыдущую страницу, нажмите кнопку **Назад**. Чтобы закончить процесс запроса сертификата, нажмите кнопку **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="df459-p102">The **Specify Alternate Certificate Template** page enables you to define a certificate template other than the WebServer certificate template that is used by default. Select the check box **Use alternate certificate template for selected certification authority**, and then define the name of the alternate certificate template in the text box **Certificate template name**. You must use the name of the template as it is defined in the certification authority (CA). Click **Back** to go back to the previous page. Click **Cancel** to end the certificate request process.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="0cab3-p103">Эту функцию следует использовать только в том случае, если общий ЦС рекомендует вам использовать конкретный шаблон, определенный в их системе для выдачи сертификатов. Если сертификат выдается вашим внутренним ЦС, администратор ЦС должен сообщить вам, какое название следует использовать для альтернативного шаблона сертификата. Эта функция может оказаться весьма полезной в ситуациях, когда ваша организация определяет новый шаблон WebServer и отключает используемый по умолчанию шаблон WebServer.</span><span class="sxs-lookup"><span data-stu-id="0cab3-p103">You should use this option only if you are advised by your public CA that you should use a specific template that is defined on their system for issuing certificates. If the certificate is being issued by your internal CA, your CA administrator should advise you what name to use for the alternate certificate template. This option is extremely valuable in cases where your organization has defined a new WebServer template and has disabled the default WebServer template.</span></span> 
+> <span data-ttu-id="df459-p103">Эту функцию следует использовать только в том случае, если общий ЦС рекомендует вам использовать конкретный шаблон, определенный в их системе для выдачи сертификатов. Если сертификат выдается вашим внутренним ЦС, администратор ЦС должен сообщить вам, какое название следует использовать для альтернативного шаблона сертификата. Эта функция может оказаться весьма полезной в ситуациях, когда ваша организация определяет новый шаблон WebServer и отключает используемый по умолчанию шаблон WebServer.</span><span class="sxs-lookup"><span data-stu-id="df459-p103">You should use this option only if you are advised by your public CA that you should use a specific template that is defined on their system for issuing certificates. If the certificate is being issued by your internal CA, your CA administrator should advise you what name to use for the alternate certificate template. This option is extremely valuable in cases where your organization has defined a new WebServer template and has disabled the default WebServer template.</span></span> 
   
 

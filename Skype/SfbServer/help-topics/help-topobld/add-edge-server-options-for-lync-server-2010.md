@@ -8,33 +8,35 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Вы определяете новый сервер пограничного или пограничного пула и обладаете возможностью определять возможности для нового сервера или пула. Вы можете выбрать один из следующих вариантов:'
-ms.openlocfilehash: 953aa6c0bcb5d5bf65f0ba649545aef909d3b647
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 983a8a6e4fdeea34930cc9adf2b2cb29e4c75759
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698364"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820991"
 ---
-# <a name="add-edge-server-options-for-lync-server-2010"></a><span data-ttu-id="6ce8f-104">Добавление параметров пограничных серверов для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6ce8f-104">Add Edge Server Options for Lync Server 2010</span></span>
+# <a name="add-edge-server-options-for-lync-server-2010"></a><span data-ttu-id="6192e-104">Добавление параметров пограничных серверов для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6192e-104">Add Edge Server Options for Lync Server 2010</span></span>
 
-<span data-ttu-id="6ce8f-105">Вы определяете новый сервер пограничного или пограничного пула и обладаете возможностью определять возможности для нового сервера или пула.</span><span class="sxs-lookup"><span data-stu-id="6ce8f-105">You define a new Edge Server or Edge pool and are presented with the opportunity to define features for the new server or pool.</span></span> <span data-ttu-id="6ce8f-106">Вы можете выбрать один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="6ce8f-106">The options that you can choose are:</span></span>
+<span data-ttu-id="6192e-105">Вы определяете новый сервер пограничного или пограничного пула и обладаете возможностью определять возможности для нового сервера или пула.</span><span class="sxs-lookup"><span data-stu-id="6192e-105">You define a new Edge Server or Edge pool and are presented with the opportunity to define features for the new server or pool.</span></span> <span data-ttu-id="6192e-106">Вы можете выбрать один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="6192e-106">The options that you can choose are:</span></span>
 
-- <span data-ttu-id="6ce8f-107">**Использование одного полного доменного имени и IP-адреса**: установите флажок, чтобы использовать один адрес IPv4 или IPv6 (если вы хотите использовать IPv4 и IPv6, вам потребуется задать один из адресов типа IP-адреса) и полное доменное имя (FQDN) для внешних интерфейсов Edge.</span><span class="sxs-lookup"><span data-stu-id="6ce8f-107">**Use a single FQDN and IP address**: Select the check box to use a single IPv4 or IPv6 (if you choose to use both IPv4 and IPv6, then you will need to define one of each IP address type) address and fully qualified domain name (FQDN) for the external Edge interfaces.</span></span>
+- <span data-ttu-id="6192e-107">**Использование одного полного доменного имени и IP-адреса**: установите флажок, чтобы использовать один адрес IPv4 или IPv6 (если вы хотите использовать IPv4 и IPv6, вам потребуется задать один из адресов типа IP-адреса) и полное доменное имя (FQDN) для внешних интерфейсов Edge.</span><span class="sxs-lookup"><span data-stu-id="6192e-107">**Use a single FQDN and IP address**: Select the check box to use a single IPv4 or IPv6 (if you choose to use both IPv4 and IPv6, then you will need to define one of each IP address type) address and fully qualified domain name (FQDN) for the external Edge interfaces.</span></span>
 
     > [!IMPORTANT]
-    > <span data-ttu-id="6ce8f-108">Если выбрать этот параметр, вы будете использовать только один IP-адрес или один и тот же IPv4 и один IPv6, но каждому интерфейсу пограничного сервера должны быть назначены разные номера портов.</span><span class="sxs-lookup"><span data-stu-id="6ce8f-108">If you choose this option, you will use only one IP address, or one IPv4 and one IPv6, but you must assign different port numbers to each Edge interface.</span></span>
+    > <span data-ttu-id="6192e-108">Если выбрать этот параметр, вы будете использовать только один IP-адрес или один и тот же IPv4 и один IPv6, но каждому интерфейсу пограничного сервера должны быть назначены разные номера портов.</span><span class="sxs-lookup"><span data-stu-id="6192e-108">If you choose this option, you will use only one IP address, or one IPv4 and one IPv6, but you must assign different port numbers to each Edge interface.</span></span>
 
-- <span data-ttu-id="6ce8f-109">**Включить федерацию (порт 5061)**: Установите этот флажок, если вы включаете в Федерацию другие Федерации SIP, поставщики или размещенные предложения, ИСПОЛЬЗУЮЩИЕ протокол SIP.</span><span class="sxs-lookup"><span data-stu-id="6ce8f-109">**Enable federation (port 5061)**: Select this check box if you will federate with other SIP federations, providers, or hosted offerings that use the session initiation protocol (SIP).</span></span>
+- <span data-ttu-id="6192e-109">**Включить федерацию (порт 5061)**: Установите этот флажок, если вы включаете в Федерацию другие Федерации SIP, поставщики или размещенные предложения, ИСПОЛЬЗУЮЩИЕ протокол SIP.</span><span class="sxs-lookup"><span data-stu-id="6192e-109">**Enable federation (port 5061)**: Select this check box if you will federate with other SIP federations, providers, or hosted offerings that use the session initiation protocol (SIP).</span></span>
 
-- <span data-ttu-id="6ce8f-110">**Внешний IP-адрес этого пограничного пула переводится NAT**: Установите этот флажок, если вы используете частные IP-адреса для внешних интерфейсов EDGE и предоставите устройство трансляции сетевых адресов (NAT) для логического размещения пограничного сервера или пула Edge.</span><span class="sxs-lookup"><span data-stu-id="6ce8f-110">**The external IP address of this Edge pool is translated by NAT**: Select this check box if you use private IP addresses for the Edge external interfaces and will provide a network address translation (NAT) device to place the Edge Server or Edge pool logically behind.</span></span>
+- <span data-ttu-id="6192e-110">**Внешний IP-адрес этого пограничного пула переводится NAT**: Установите этот флажок, если вы используете частные IP-адреса для внешних интерфейсов EDGE и предоставите устройство трансляции сетевых адресов (NAT) для логического размещения пограничного сервера или пула Edge.</span><span class="sxs-lookup"><span data-stu-id="6192e-110">**The external IP address of this Edge pool is translated by NAT**: Select this check box if you use private IP addresses for the Edge external interfaces and will provide a network address translation (NAT) device to place the Edge Server or Edge pool logically behind.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6ce8f-111">См. также</span><span class="sxs-lookup"><span data-stu-id="6ce8f-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6192e-111">См. также</span><span class="sxs-lookup"><span data-stu-id="6192e-111">See also</span></span>
 
-[<span data-ttu-id="6ce8f-112">Планирование доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="6ce8f-112">Planning for External User Access</span></span>](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
+[<span data-ttu-id="6192e-112">Планирование доступа внешних пользователей</span><span class="sxs-lookup"><span data-stu-id="6192e-112">Planning for External User Access</span></span>](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
 
-[<span data-ttu-id="6ce8f-113">Развертывание внешнего доступа пользователей</span><span class="sxs-lookup"><span data-stu-id="6ce8f-113">Deploying External User Access</span></span>](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
+[<span data-ttu-id="6192e-113">Развертывание внешнего доступа пользователей</span><span class="sxs-lookup"><span data-stu-id="6192e-113">Deploying External User Access</span></span>](https://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)

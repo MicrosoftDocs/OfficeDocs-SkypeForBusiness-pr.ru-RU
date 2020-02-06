@@ -8,42 +8,44 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Агенты — это пользователи, которые предназначены для звонков групп ответов. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Пользователи с подходящими учетными записью включены для Skype для бизнеса Server и Enterprise Voice.
-ms.openlocfilehash: 74110e23778813390b89fe4fa727a1bf3b09cf8b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2950295bcf78ee2c7c904375d009a8fba085b85f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822312"
 ---
-# <a name="select-agents"></a><span data-ttu-id="aef9f-106">Выбор агентов</span><span class="sxs-lookup"><span data-stu-id="aef9f-106">Select Agents</span></span>
+# <a name="select-agents"></a><span data-ttu-id="dbfb0-106">Выбор агентов</span><span class="sxs-lookup"><span data-stu-id="dbfb0-106">Select Agents</span></span>
 
-<span data-ttu-id="aef9f-107">Агенты — это пользователи, которые предназначены для звонков групп ответов.</span><span class="sxs-lookup"><span data-stu-id="aef9f-107">Agents are users who are designated to answer Response Group calls.</span></span> <span data-ttu-id="aef9f-108">Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа.</span><span class="sxs-lookup"><span data-stu-id="aef9f-108">Response groups must have an assigned agent group that identifies the agents who can receive calls for the response group.</span></span> <span data-ttu-id="aef9f-109">Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей.</span><span class="sxs-lookup"><span data-stu-id="aef9f-109">One way to create an agent group is to define a custom group by selecting eligible users.</span></span> <span data-ttu-id="aef9f-110">Пользователи с подходящими учетными записью включены для Skype для бизнеса Server и Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="aef9f-110">Eligible users are enabled for Skype for Business Server and Enterprise Voice.</span></span>
+<span data-ttu-id="dbfb0-107">Агенты — это пользователи, которые предназначены для звонков групп ответов.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-107">Agents are users who are designated to answer Response Group calls.</span></span> <span data-ttu-id="dbfb0-108">Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-108">Response groups must have an assigned agent group that identifies the agents who can receive calls for the response group.</span></span> <span data-ttu-id="dbfb0-109">Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-109">One way to create an agent group is to define a custom group by selecting eligible users.</span></span> <span data-ttu-id="dbfb0-110">Пользователи с подходящими учетными записью включены для Skype для бизнеса Server и Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-110">Eligible users are enabled for Skype for Business Server and Enterprise Voice.</span></span>
 
-<span data-ttu-id="aef9f-111">Вы используете диалоговое окно **Выбор агентов** для выбора пользователей, добавляемых в группу агентов.</span><span class="sxs-lookup"><span data-stu-id="aef9f-111">You use the **Select Agents** dialog box to select users to be added to an agent group.</span></span>
+<span data-ttu-id="dbfb0-111">Вы используете диалоговое окно **Выбор агентов** для выбора пользователей, добавляемых в группу агентов.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-111">You use the **Select Agents** dialog box to select users to be added to an agent group.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="aef9f-112">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="aef9f-112">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="dbfb0-112">Ссылка на пользовательский интерфейс</span><span class="sxs-lookup"><span data-stu-id="dbfb0-112">UI Reference</span></span>
 
-<span data-ttu-id="aef9f-113">В следующем списке описываются элементы управления в диалоговом окне **Выбор агентов**.</span><span class="sxs-lookup"><span data-stu-id="aef9f-113">The following list describes the controls in the **Select Agents** dialog box.</span></span>
+<span data-ttu-id="dbfb0-113">В следующем списке описываются элементы управления в диалоговом окне **Выбор агентов**.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-113">The following list describes the controls in the **Select Agents** dialog box.</span></span>
 
-- <span data-ttu-id="aef9f-114">**Найти** Поиск адреса SIP или отображаемого имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="aef9f-114">**Find** Searches for the SIP address or display name for a user.</span></span> <span data-ttu-id="aef9f-115">Введите адрес или имя или его часть.</span><span class="sxs-lookup"><span data-stu-id="aef9f-115">Enter all or part of the address or name.</span></span> <span data-ttu-id="aef9f-116">Оставьте поле поиска пустым, чтобы отобразить всех пользователей, имеющих доступ к Skype для бизнеса Server и корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="aef9f-116">Leave the search box empty to display all users who are enabled for Skype for Business Server and Enterprise Voice.</span></span>
+- <span data-ttu-id="dbfb0-114">**Найти** Поиск адреса SIP или отображаемого имени пользователя.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-114">**Find** Searches for the SIP address or display name for a user.</span></span> <span data-ttu-id="dbfb0-115">Введите адрес или имя или его часть.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-115">Enter all or part of the address or name.</span></span> <span data-ttu-id="dbfb0-116">Оставьте поле поиска пустым, чтобы отобразить всех пользователей, имеющих доступ к Skype для бизнеса Server и корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-116">Leave the search box empty to display all users who are enabled for Skype for Business Server and Enterprise Voice.</span></span>
 
-- <span data-ttu-id="aef9f-117">**Максимальное число отображаемых пользователей** Изменяет количество отображаемых возвращаемых результатов.</span><span class="sxs-lookup"><span data-stu-id="aef9f-117">**Maximum users to display** Changes the number of returned results that are displayed.</span></span> <span data-ttu-id="aef9f-118">Используйте этот счетчик для ограничения поиска, если вы ожидаете большого количества результатов.</span><span class="sxs-lookup"><span data-stu-id="aef9f-118">Use this counter to limit the search if you expect many results.</span></span>
+- <span data-ttu-id="dbfb0-117">**Максимальное число отображаемых пользователей** Изменяет количество отображаемых возвращаемых результатов.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-117">**Maximum users to display** Changes the number of returned results that are displayed.</span></span> <span data-ttu-id="dbfb0-118">Используйте этот счетчик для ограничения поиска, если вы ожидаете большого количества результатов.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-118">Use this counter to limit the search if you expect many results.</span></span>
 
-<span data-ttu-id="aef9f-119">В следующем списке описываются поля в диалоговом окне **Выбор агентов**.</span><span class="sxs-lookup"><span data-stu-id="aef9f-119">The following list describes the fields in the **Select Agents** dialog box.</span></span>
+<span data-ttu-id="dbfb0-119">В следующем списке описываются поля в диалоговом окне **Выбор агентов**.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-119">The following list describes the fields in the **Select Agents** dialog box.</span></span>
 
-- <span data-ttu-id="aef9f-120">**Агента** Отображаются имена пользователей, возвращаемые функцией поиска.</span><span class="sxs-lookup"><span data-stu-id="aef9f-120">**Agent** Displays the user names returned by the search.</span></span>
+- <span data-ttu-id="dbfb0-120">**Агента** Отображаются имена пользователей, возвращаемые функцией поиска.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-120">**Agent** Displays the user names returned by the search.</span></span>
 
-- <span data-ttu-id="aef9f-121">**SIP Address** Отображаются адреса SIP пользователя, возвращенные функцией поиска.</span><span class="sxs-lookup"><span data-stu-id="aef9f-121">**SIP address** Displays the user SIP addresses returned by the search.</span></span>
+- <span data-ttu-id="dbfb0-121">**SIP Address** Отображаются адреса SIP пользователя, возвращенные функцией поиска.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-121">**SIP address** Displays the user SIP addresses returned by the search.</span></span>
 
-- <span data-ttu-id="aef9f-122">**Телефония** Отображает значение поля **телефонии** , определенного для пользователей.</span><span class="sxs-lookup"><span data-stu-id="aef9f-122">**Telephony** Displays the value of the **Telephony** field defined for users.</span></span>
+- <span data-ttu-id="dbfb0-122">**Телефония** Отображает значение поля **телефонии** , определенного для пользователей.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-122">**Telephony** Displays the value of the **Telephony** field defined for users.</span></span>
 
-- <span data-ttu-id="aef9f-123">**Enabled (включено** ) Отображает значение поля **Enabled для Lync Server** , определенного для пользователей.</span><span class="sxs-lookup"><span data-stu-id="aef9f-123">**Enabled** Displays the value of the **Enabled for Lync Server** field defined for users.</span></span>
+- <span data-ttu-id="dbfb0-123">**Enabled (включено** ) Отображает значение поля **Enabled для Lync Server** , определенного для пользователей.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-123">**Enabled** Displays the value of the **Enabled for Lync Server** field defined for users.</span></span>
 
-<span data-ttu-id="aef9f-124">Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) документации по использованию.</span><span class="sxs-lookup"><span data-stu-id="aef9f-124">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="dbfb0-124">Дополнительные сведения о работе с группами агентов см. в разделе [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) документации по использованию.</span><span class="sxs-lookup"><span data-stu-id="dbfb0-124">For details about working with agent groups, see [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in the Operations documentation.</span></span>
 
 
