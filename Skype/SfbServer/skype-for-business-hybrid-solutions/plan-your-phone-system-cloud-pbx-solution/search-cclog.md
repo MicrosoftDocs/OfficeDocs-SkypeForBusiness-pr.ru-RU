@@ -8,72 +8,74 @@ ms.date: 3/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.
-ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003239"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824235"
 ---
-# <a name="search-cclog"></a><span data-ttu-id="fbf83-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="fbf83-103">Search-CcLog</span></span>
+# <a name="search-cclog"></a><span data-ttu-id="afbdc-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="afbdc-103">Search-CcLog</span></span>
  
-<span data-ttu-id="fbf83-104">Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="fbf83-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
+<span data-ttu-id="afbdc-104">Командлет Search-CcLog выполняет поиск журналов входящих и исходящих звонков в каталоге журнала устройства Skype для бизнеса Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="afbdc-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="fbf83-105">Примеры</span><span class="sxs-lookup"><span data-stu-id="fbf83-105">Examples</span></span>
-<span data-ttu-id="fbf83-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="fbf83-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="afbdc-105">Примеры</span><span class="sxs-lookup"><span data-stu-id="afbdc-105">Examples</span></span>
+<span data-ttu-id="afbdc-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="afbdc-106"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="fbf83-107">Пример 1</span><span class="sxs-lookup"><span data-stu-id="fbf83-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="afbdc-107">Пример 1</span><span class="sxs-lookup"><span data-stu-id="afbdc-107">Example 1</span></span>
 
-<span data-ttu-id="fbf83-108">В следующем примере выполняется поиск журналов входящих и исходящих звонков в каталоге журнала устройства с использованием имени файла по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="fbf83-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
+<span data-ttu-id="afbdc-108">В следующем примере выполняется поиск журналов входящих и исходящих звонков в каталоге журнала устройства с использованием имени файла по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="afbdc-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
-### <a name="example-2"></a><span data-ttu-id="fbf83-109">Пример 2</span><span class="sxs-lookup"><span data-stu-id="fbf83-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="afbdc-109">Пример 2</span><span class="sxs-lookup"><span data-stu-id="afbdc-109">Example 2</span></span>
 
-<span data-ttu-id="fbf83-110">В следующем примере выполняется поиск журналов входящих и исходящих звонков с использованием указанных имени файла и пути к нему.</span><span class="sxs-lookup"><span data-stu-id="fbf83-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
+<span data-ttu-id="afbdc-110">В следующем примере выполняется поиск журналов входящих и исходящих звонков с использованием указанных имени файла и пути к нему.</span><span class="sxs-lookup"><span data-stu-id="afbdc-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="fbf83-111">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="fbf83-111">Detailed Description</span></span>
-<span data-ttu-id="fbf83-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="fbf83-112"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="afbdc-111">Подробное описание</span><span class="sxs-lookup"><span data-stu-id="afbdc-111">Detailed Description</span></span>
+<span data-ttu-id="afbdc-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="afbdc-112"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="fbf83-113">Командлет  Search-CsClsLogging предоставляет параметр командной строки для поиска файлов журнала, созданных службой централизованного ведения журналов.</span><span class="sxs-lookup"><span data-stu-id="fbf83-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
+<span data-ttu-id="afbdc-113">Командлет  Search-CsClsLogging предоставляет параметр командной строки для поиска файлов журнала, созданных службой централизованного ведения журналов.</span><span class="sxs-lookup"><span data-stu-id="afbdc-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="fbf83-114">Параметры</span><span class="sxs-lookup"><span data-stu-id="fbf83-114">Parameters</span></span>
-<span data-ttu-id="fbf83-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="fbf83-115"></span></span>
+## <a name="parameters"></a><span data-ttu-id="afbdc-114">Параметры</span><span class="sxs-lookup"><span data-stu-id="afbdc-114">Parameters</span></span>
+<span data-ttu-id="afbdc-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="afbdc-115"><a name="DetailedDescription"> </a></span></span>
 
-|<span data-ttu-id="fbf83-116">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="fbf83-116">**Parameter**</span></span>|<span data-ttu-id="fbf83-117">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="fbf83-117">**Required**</span></span>|<span data-ttu-id="fbf83-118">**Тип**</span><span class="sxs-lookup"><span data-stu-id="fbf83-118">**Type**</span></span>|<span data-ttu-id="fbf83-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fbf83-119">**Description**</span></span>|
+|<span data-ttu-id="afbdc-116">**Параметр**</span><span class="sxs-lookup"><span data-stu-id="afbdc-116">**Parameter**</span></span>|<span data-ttu-id="afbdc-117">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="afbdc-117">**Required**</span></span>|<span data-ttu-id="afbdc-118">**Тип**</span><span class="sxs-lookup"><span data-stu-id="afbdc-118">**Type**</span></span>|<span data-ttu-id="afbdc-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="afbdc-119">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="fbf83-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="fbf83-120">StartTime</span></span>  <br/> | <span data-ttu-id="fbf83-121">Обязательно</span><span class="sxs-lookup"><span data-stu-id="fbf83-121">Required</span></span> <br/> |<span data-ttu-id="fbf83-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="fbf83-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="fbf83-p101">Начальные дата и время для искомых записей журнала. Указываются в местном часовом поясе.</span><span class="sxs-lookup"><span data-stu-id="fbf83-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
-|<span data-ttu-id="fbf83-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="fbf83-125">EndTime</span></span>  <br/> |<span data-ttu-id="fbf83-126">Обязательно</span><span class="sxs-lookup"><span data-stu-id="fbf83-126">Required</span></span>  <br/> |<span data-ttu-id="fbf83-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="fbf83-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="fbf83-p102">Конечные дата и время для искомых записей журнала. Указываются в местном часовом поясе.</span><span class="sxs-lookup"><span data-stu-id="fbf83-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
-|<span data-ttu-id="fbf83-130">FileName</span><span class="sxs-lookup"><span data-stu-id="fbf83-130">FileName</span></span>  <br/> |<span data-ttu-id="fbf83-131">Обязательный</span><span class="sxs-lookup"><span data-stu-id="fbf83-131">Required</span></span>  <br/> |<span data-ttu-id="fbf83-132">System.String</span><span class="sxs-lookup"><span data-stu-id="fbf83-132">System.String</span></span>  <br/> |<span data-ttu-id="fbf83-133">Указывает полный путь к текстовому файлу, содержащему результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="fbf83-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
+|<span data-ttu-id="afbdc-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="afbdc-120">StartTime</span></span>  <br/> | <span data-ttu-id="afbdc-121">Обязательно</span><span class="sxs-lookup"><span data-stu-id="afbdc-121">Required</span></span> <br/> |<span data-ttu-id="afbdc-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="afbdc-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="afbdc-p101">Начальные дата и время для искомых записей журнала. Указываются в местном часовом поясе.</span><span class="sxs-lookup"><span data-stu-id="afbdc-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
+|<span data-ttu-id="afbdc-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="afbdc-125">EndTime</span></span>  <br/> |<span data-ttu-id="afbdc-126">Обязательно</span><span class="sxs-lookup"><span data-stu-id="afbdc-126">Required</span></span>  <br/> |<span data-ttu-id="afbdc-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="afbdc-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="afbdc-p102">Конечные дата и время для искомых записей журнала. Указываются в местном часовом поясе.</span><span class="sxs-lookup"><span data-stu-id="afbdc-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
+|<span data-ttu-id="afbdc-130">FileName</span><span class="sxs-lookup"><span data-stu-id="afbdc-130">FileName</span></span>  <br/> |<span data-ttu-id="afbdc-131">Обязательный</span><span class="sxs-lookup"><span data-stu-id="afbdc-131">Required</span></span>  <br/> |<span data-ttu-id="afbdc-132">System.String</span><span class="sxs-lookup"><span data-stu-id="afbdc-132">System.String</span></span>  <br/> |<span data-ttu-id="afbdc-133">Указывает полный путь к текстовому файлу, содержащему результаты поиска.</span><span class="sxs-lookup"><span data-stu-id="afbdc-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="fbf83-134">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="fbf83-134">Input Types</span></span>
-<span data-ttu-id="fbf83-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="fbf83-135"></span></span>
+## <a name="input-types"></a><span data-ttu-id="afbdc-134">Типы входных данных</span><span class="sxs-lookup"><span data-stu-id="afbdc-134">Input Types</span></span>
+<span data-ttu-id="afbdc-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="afbdc-135"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="fbf83-p103">Нет. Командлет Search-CcLog не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="fbf83-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="afbdc-p103">Нет. Командлет Search-CcLog не принимает входные данные по конвейеру.</span><span class="sxs-lookup"><span data-stu-id="afbdc-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="fbf83-138">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="fbf83-138">Return Types</span></span>
-<span data-ttu-id="fbf83-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="fbf83-139"></span></span>
+## <a name="return-types"></a><span data-ttu-id="afbdc-138">Типы возвращаемых данных</span><span class="sxs-lookup"><span data-stu-id="afbdc-138">Return Types</span></span>
+<span data-ttu-id="afbdc-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="afbdc-139"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="fbf83-140">Нет</span><span class="sxs-lookup"><span data-stu-id="fbf83-140">None</span></span>
+<span data-ttu-id="afbdc-140">Нет</span><span class="sxs-lookup"><span data-stu-id="afbdc-140">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="fbf83-141">См. также</span><span class="sxs-lookup"><span data-stu-id="fbf83-141">See also</span></span>
-<span data-ttu-id="fbf83-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="fbf83-142"></span></span>
+## <a name="see-also"></a><span data-ttu-id="afbdc-141">См. также</span><span class="sxs-lookup"><span data-stu-id="afbdc-141">See also</span></span>
+<span data-ttu-id="afbdc-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="afbdc-142"><a name="ReturnTypes"> </a></span></span>
 
-[<span data-ttu-id="fbf83-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="fbf83-143">Start-CcLogging</span></span>](start-cclogging.md)
+[<span data-ttu-id="afbdc-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="afbdc-143">Start-CcLogging</span></span>](start-cclogging.md)
   
-[<span data-ttu-id="fbf83-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="fbf83-144">Stop-CcLogging</span></span>](stop-cclogging.md)
+[<span data-ttu-id="afbdc-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="afbdc-144">Stop-CcLogging</span></span>](stop-cclogging.md)
   
 

@@ -9,16 +9,18 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Сводка: Ознакомьтесь с этими ссылками, чтобы ознакомиться со сведениями о том, как внедрить Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286812"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824103"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype для бизнеса Server 2015
 
@@ -90,7 +92,7 @@ Skype для бизнеса — это платформа для связи и �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Upgrade</h3>
+                        <h3>Обновление</h3>
                     </div>
                 </div>
             </div>
@@ -137,7 +139,7 @@ Skype для бизнеса — это платформа для связи и �
 
 ---
 
-<h2>Популярные статьи</h2>
+<h2>Подборка статей</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -212,7 +214,7 @@ Skype для бизнеса — это платформа для связи и �
                         <h3>Другие ресурсы</h3>
                         <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Серия готовности Skype для бизнеса</a></p>
                         <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Документация по Skype для бизнеса Server 2019</a></p>
-                        <p><a href="/lyncserver/microsoft-lync-server-2013">Документация по Lync Server 2013</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Документация Lync Server 2013</a></p>
                     </div>
                 </div>
             </div>
