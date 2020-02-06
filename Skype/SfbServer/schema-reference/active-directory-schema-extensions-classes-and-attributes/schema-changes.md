@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Перед развертыванием и эксплуатацией Skype для бизнеса Server необходимо подготовить доменные службы Active Directory, расширив схему. Расширения схемы добавляют классы и атрибуты, необходимые для работы Skype для бизнеса Server.
-ms.openlocfilehash: 34f97f7a37adc23635f938fb12c9a72e22429538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296660"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815487"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Изменения схемы в Skype для бизнеса Server
  
@@ -33,7 +35,7 @@ ms.locfileid: "34296660"
     
   - Расширения для классов для обеспечения обратной совместимости с более ранними версиями Lync Server.
     
-- **Data (данные** ) (хранится в расширенной схеме и в существующих классах схемы Skype для бизнеса Server).
+- **Данные** (хранящиеся в расширенной схеме и в существующих классах схемы Skype для бизнеса Server):
     
   - Универсальный код ресурса (URI) пользователя SIP и другие пользовательские параметры
     
@@ -41,7 +43,7 @@ ms.locfileid: "34296660"
     
   - Указатель на хранилище Центрального управления
     
-  - Учетная запись проверки подлинности Kerberos (необязательный объект компьютера)
+  - Учетная запись для проверки подлинности Kerberos (необязательный объект-компьютер)
     
 В этой статье описаны изменения схемы Active Directory, необходимые для сервера Skype для бизнеса Server. В нем не описаны изменения схемы, которые появились в предыдущих версиях Office Communications Server. Список классов и их описаний можно найти в разделе [классы и описания схемы в Skype для бизнеса Server](schema-classes-and-descriptions.md). Список атрибутов и их описание можно найти [в разделе атрибуты и описания схемы в Skype для бизнеса Server](schema-attributes-and-descriptions.md). Список классов с атрибутами, которые они могут содержать, приведены [в разделе атрибуты схемы по классам в Skype для бизнеса Server](schema-attributes-by-class.md).
   
