@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Если общедоступный IP-адрес этого пограничного пула преобразуется с помощью преобразования сетевых адресов (NAT), необходимо указать общедоступный IP-адрес, который нужно перевести. Это должен быть внешний IP-адрес службы Edge/V.
-ms.openlocfilehash: 34f938c6d5b2e674e9b706ba14bc6c3bf0132222
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1bd8c7529c4febddc145ea92caff723d7a24a97
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703094"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794087"
 ---
-# <a name="add-edge-machine-nat-ip"></a><span data-ttu-id="417d6-104">Добавление IP-адреса NAT пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="417d6-104">Add Edge Machine NAT IP</span></span>
+# <a name="add-edge-machine-nat-ip"></a><span data-ttu-id="39bf3-104">Добавление IP-адреса NAT пограничного компьютера</span><span class="sxs-lookup"><span data-stu-id="39bf3-104">Add Edge Machine NAT IP</span></span>
  
-<span data-ttu-id="417d6-105">Если общедоступный IP-адрес этого пограничного пула преобразуется с помощью преобразования сетевых адресов (NAT), необходимо указать общедоступный IP-адрес, который нужно перевести.</span><span class="sxs-lookup"><span data-stu-id="417d6-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="417d6-106">Это должен быть внешний IP-адрес службы Edge/V.</span><span class="sxs-lookup"><span data-stu-id="417d6-106">This should be the external IP address of the A/V Edge service.</span></span>
+<span data-ttu-id="39bf3-105">Если общедоступный IP-адрес этого пограничного пула преобразуется с помощью преобразования сетевых адресов (NAT), необходимо указать общедоступный IP-адрес, который нужно перевести.</span><span class="sxs-lookup"><span data-stu-id="39bf3-105">If the public IP address of this Edge pool is translated by a network address translation (NAT), you must specify the public IP address to be translated.</span></span> <span data-ttu-id="39bf3-106">Это должен быть внешний IP-адрес службы Edge/V.</span><span class="sxs-lookup"><span data-stu-id="39bf3-106">This should be the external IP address of the A/V Edge service.</span></span>
   
-<span data-ttu-id="417d6-107">Чтобы указать, что в пуле Edge использует преобразование NAT, щелкните правой кнопкой мыши имя пула EDGE и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="417d6-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
+<span data-ttu-id="39bf3-107">Чтобы указать, что в пуле Edge использует преобразование NAT, щелкните правой кнопкой мыши имя пула EDGE и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="39bf3-107">To change whether the Edge pool uses NAT translation, right-click the name of the Edge pool and click **Edit Properties**.</span></span>
   
 

@@ -6,34 +6,36 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ExtEdgeEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Что требуется сделать? Щелкните ссылку на задачу, которую нужно выполнить.
-ms.openlocfilehash: ad223ae388c7efd655b5329f22bff0653d86867e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f3c3834369183565fb9b9fd045a6f6be0409e5fa
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691354"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797720"
 ---
-# <a name="access-edge-configuration-edit"></a><span data-ttu-id="96cfd-104">Настройка пограничного доступа: редактирование</span><span class="sxs-lookup"><span data-stu-id="96cfd-104">Access Edge Configuration: Edit</span></span>
+# <a name="access-edge-configuration-edit"></a><span data-ttu-id="b7cc8-104">Настройка пограничного доступа: редактирование</span><span class="sxs-lookup"><span data-stu-id="b7cc8-104">Access Edge Configuration: Edit</span></span>
 
-<span data-ttu-id="96cfd-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="96cfd-105">What do you want to do?</span></span> <span data-ttu-id="96cfd-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="96cfd-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="b7cc8-105">Что требуется сделать?</span><span class="sxs-lookup"><span data-stu-id="b7cc8-105">What do you want to do?</span></span> <span data-ttu-id="b7cc8-106">Щелкните ссылку на задачу, которую нужно выполнить.</span><span class="sxs-lookup"><span data-stu-id="b7cc8-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="96cfd-107">Enable or Disable Remote User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="96cfd-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
+- [<span data-ttu-id="b7cc8-107">Enable or Disable Remote User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="b7cc8-107">Enable or Disable Remote User Access for Your Organization</span></span>](https://technet.microsoft.com/library/8ec58f4b-9f6d-47b4-a187-d18a83fe4577.aspx)
 
-- [<span data-ttu-id="96cfd-108">Enable or Disable Federation for Your Organization</span><span class="sxs-lookup"><span data-stu-id="96cfd-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="b7cc8-108">Enable or Disable Federation for Your Organization</span><span class="sxs-lookup"><span data-stu-id="b7cc8-108">Enable or Disable Federation for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [<span data-ttu-id="96cfd-109">Enable or Disable Discovery of Federation Partners</span><span class="sxs-lookup"><span data-stu-id="96cfd-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
+- [<span data-ttu-id="b7cc8-109">Enable or Disable Discovery of Federation Partners</span><span class="sxs-lookup"><span data-stu-id="b7cc8-109">Enable or Disable Discovery of Federation Partners</span></span>](https://technet.microsoft.com/library/91fd036b-b1af-47cf-b1cf-0aa0a783c2aa.aspx)
 
-- [<span data-ttu-id="96cfd-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span><span class="sxs-lookup"><span data-stu-id="96cfd-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
+- [<span data-ttu-id="b7cc8-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span><span class="sxs-lookup"><span data-stu-id="b7cc8-110">Enable or Disable Sending an Archiving Disclaimer to Federated Partners</span></span>](https://technet.microsoft.com/library/c8e9a2fa-9dc1-4e4d-919f-56ece8004864.aspx)
 
-- [<span data-ttu-id="96cfd-111">Enable or Disable Anonymous User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="96cfd-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
+- [<span data-ttu-id="b7cc8-111">Enable or Disable Anonymous User Access for Your Organization</span><span class="sxs-lookup"><span data-stu-id="b7cc8-111">Enable or Disable Anonymous User Access for Your Organization</span></span>](https://technet.microsoft.com/library/090aea0f-ef0b-49da-9c80-02d9279f2fa6.aspx)
 
-- [<span data-ttu-id="96cfd-112">Create or Modify a Conferencing Policy</span><span class="sxs-lookup"><span data-stu-id="96cfd-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
+- [<span data-ttu-id="b7cc8-112">Create or Modify a Conferencing Policy</span><span class="sxs-lookup"><span data-stu-id="b7cc8-112">Create or Modify a Conferencing Policy</span></span>](https://technet.microsoft.com/library/e2974030-2c0a-4634-91e8-93f4e2d674d9.aspx)
 
 

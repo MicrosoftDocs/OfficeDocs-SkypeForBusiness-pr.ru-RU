@@ -6,26 +6,28 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.NcsSelRegionLink
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Используйте диалоговое окно Связь между областями для поиска связей между областями, которые доступны в вашей среде. Чтобы использовать существующую связь между областями, выберите связь в списке, затем нажмите кнопку ОК.
-ms.openlocfilehash: 47f4f67b63e1dddabf3700e325519e0edc5d0a5d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 55fd7e285beb2e094de709568e48d9a9f99f58c6
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704664"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795310"
 ---
-# <a name="select-a-region-link"></a><span data-ttu-id="18bae-104">Выбор связи между областями</span><span class="sxs-lookup"><span data-stu-id="18bae-104">Select a Region Link</span></span>
+# <a name="select-a-region-link"></a><span data-ttu-id="458c9-104">Выбор связи между областями</span><span class="sxs-lookup"><span data-stu-id="458c9-104">Select a Region Link</span></span>
  
-<span data-ttu-id="18bae-p102">Используйте диалоговое окно **Связь между областями** для поиска связей между областями, которые доступны в вашей среде. Чтобы использовать существующую связь между областями, выберите связь в списке, затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="18bae-p102">Use the **Region Link** dialog box to find region links available in your environment. To use an existing region link, click a region link in the list and then click **OK**.</span></span>
+<span data-ttu-id="458c9-p102">Используйте диалоговое окно **Связь между областями** для поиска связей между областями, которые доступны в вашей среде. Чтобы использовать существующую связь между областями, выберите связь в списке, затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="458c9-p102">Use the **Region Link** dialog box to find region links available in your environment. To use an existing region link, click a region link in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="18bae-107">Чтобы получить все доступные связи между областями, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="18bae-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="458c9-107">Чтобы получить все доступные связи между областями, ничего не вводите в поле поиска и нажмите значок поиска.</span><span class="sxs-lookup"><span data-stu-id="458c9-107">To retrieve all available region links, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   

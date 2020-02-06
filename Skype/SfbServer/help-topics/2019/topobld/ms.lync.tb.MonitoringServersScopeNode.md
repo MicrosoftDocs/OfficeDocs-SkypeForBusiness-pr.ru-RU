@@ -7,31 +7,33 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: На узле серверы мониторинга перечислены серверы мониторинга в топологии. Доступно следующее действие.
-ms.openlocfilehash: c6b328d96605c28fc847b65ed134f08adc1de3e2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 01e93df586ffc422ea86f635b0829652108cba1e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701824"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796168"
 ---
-# <a name="monitoring-servers-scope-node"></a><span data-ttu-id="4cea0-104">Узел области серверов мониторинга</span><span class="sxs-lookup"><span data-stu-id="4cea0-104">Monitoring Servers Scope Node</span></span>
+# <a name="monitoring-servers-scope-node"></a><span data-ttu-id="ab25a-104">Узел области серверов мониторинга</span><span class="sxs-lookup"><span data-stu-id="ab25a-104">Monitoring Servers Scope Node</span></span>
  
-<span data-ttu-id="4cea0-105">На узле **серверы мониторинга** перечислены серверы мониторинга в топологии.</span><span class="sxs-lookup"><span data-stu-id="4cea0-105">The **Monitoring Servers** node lists the Monitoring Servers in your topology.</span></span> <span data-ttu-id="4cea0-106">Доступно следующее действие.</span><span class="sxs-lookup"><span data-stu-id="4cea0-106">You can perform the following action:</span></span>
+<span data-ttu-id="ab25a-105">На узле **серверы мониторинга** перечислены серверы мониторинга в топологии.</span><span class="sxs-lookup"><span data-stu-id="ab25a-105">The **Monitoring Servers** node lists the Monitoring Servers in your topology.</span></span> <span data-ttu-id="ab25a-106">Доступно следующее действие.</span><span class="sxs-lookup"><span data-stu-id="ab25a-106">You can perform the following action:</span></span>
   
-- <span data-ttu-id="4cea0-107">**Новый сервер мониторинга**.</span><span class="sxs-lookup"><span data-stu-id="4cea0-107">**New Monitoring Server**.</span></span> <span data-ttu-id="4cea0-108">Запуск мастера **определения нового сервера мониторинга** , который используется для добавления нового сервера мониторинга в топологию.</span><span class="sxs-lookup"><span data-stu-id="4cea0-108">Starts the **Define New Monitoring Server** wizard, which you use to add a new Monitoring Server to the topology.</span></span>
+- <span data-ttu-id="ab25a-107">**Новый сервер мониторинга**.</span><span class="sxs-lookup"><span data-stu-id="ab25a-107">**New Monitoring Server**.</span></span> <span data-ttu-id="ab25a-108">Запуск мастера **определения нового сервера мониторинга** , который используется для добавления нового сервера мониторинга в топологию.</span><span class="sxs-lookup"><span data-stu-id="ab25a-108">Starts the **Define New Monitoring Server** wizard, which you use to add a new Monitoring Server to the topology.</span></span>
     
-<span data-ttu-id="4cea0-109">В дополнение к параметрам сервера мониторинга можно выполнять следующие общие задачи.</span><span class="sxs-lookup"><span data-stu-id="4cea0-109">In addition to the Monitoring Server options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="ab25a-109">В дополнение к параметрам сервера мониторинга можно выполнять следующие общие задачи.</span><span class="sxs-lookup"><span data-stu-id="ab25a-109">In addition to the Monitoring Server options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="4cea0-110">**Топология**.</span><span class="sxs-lookup"><span data-stu-id="4cea0-110">**Topology**.</span></span> <span data-ttu-id="4cea0-111">Вы можете использовать этот параметр, чтобы определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий Office Communications Server или удалить среде.</span><span class="sxs-lookup"><span data-stu-id="4cea0-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.</span></span>
+- <span data-ttu-id="ab25a-110">**Топология**.</span><span class="sxs-lookup"><span data-stu-id="ab25a-110">**Topology**.</span></span> <span data-ttu-id="ab25a-111">Вы можете использовать этот параметр, чтобы определить новую топологию, открыть существующую топологию, загрузить текущую топологию, сохранить копию топологии, опубликовать топологию, установить базу данных, объединить компоненты из предыдущих версий Office Communications Server или удалить среде.</span><span class="sxs-lookup"><span data-stu-id="ab25a-111">You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions of Office Communications Server, or remove the deployment.</span></span>
     
-- <span data-ttu-id="4cea0-p105">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="4cea0-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="ab25a-p105">**Вид**. Эта команда позволяет настроить представление в построителе топологий путем выбора элементов для скрытия и отображения в представлениях дерева консоли.</span><span class="sxs-lookup"><span data-stu-id="ab25a-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="4cea0-p106">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="4cea0-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="ab25a-p106">**Справка**. Эта команда обеспечивает доступ к справке по активному узлу.</span><span class="sxs-lookup"><span data-stu-id="ab25a-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
