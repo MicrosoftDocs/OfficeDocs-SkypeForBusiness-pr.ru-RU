@@ -8,23 +8,25 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.
-ms.openlocfilehash: 9ecd73a478064449f1956e57f13eeb3abf0f3287
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c48bebaf85a2ea57cfda88ea92d68586f7304ab9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698714"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41809867"
 ---
-# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="dafe6-103">Call Admission Control (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="dafe6-103">Call Admission Control (Planning Tool)</span></span>
+# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="7baeb-103">Call Admission Control (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="7baeb-103">Call Admission Control (Planning Tool)</span></span>
  
-<span data-ttu-id="dafe6-104">Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.</span><span class="sxs-lookup"><span data-stu-id="dafe6-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
+<span data-ttu-id="7baeb-104">Контроль допуска звонков (CAC) на основе доступной пропускной способности сети определяет, следует ли разрешать установку сеансов связи в режиме реального времени, таких как голосовые или видеовызовы.</span><span class="sxs-lookup"><span data-stu-id="7baeb-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
   
-<span data-ttu-id="dafe6-105">Подробнее об управлении допуском звонков можно узнать в разделе Планирование управления допуском звонков [в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="dafe6-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="7baeb-105">Подробнее об управлении допуском звонков можно узнать в разделе Планирование управления допуском звонков [в Skype для бизнеса Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="7baeb-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
 
