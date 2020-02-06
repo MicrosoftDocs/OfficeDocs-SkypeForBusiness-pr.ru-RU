@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Корпорация Microsoft периодически выпускает новые обновления встроенного по устройства для Skype для бизнеса Phone Edition, которые можно импортировать на серверы и распространить среди пользователей. Вы можете получить последний набор правил обновления устройства, перейдя на страницу справки и поддержки на веб-сайте Майкрософт и выполнив поиск в Форфоне Edition. Скачайте последнюю версию пакета обновления и извлеките файлы в папку на компьютере, на котором нужно отправить обновления. После извлечения вы можете воспользоваться командлетом Import-CsDeviceUpdate для импорта правил обновления устройств из извлеченного файла CAB (он имеет имя UCUpdates.cab). Подробности можно найти в разделе import-Ксдевицеупдате.
-ms.openlocfilehash: 066564a315fdda57e33ad62f8abfe8e5dbe931e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ad296ebc3b8ade977884a925180dbb3639855f76
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700244"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822892"
 ---
 # <a name="device-update"></a>Обновление устройства
 

@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: Чтобы начать установку или обновить существующее развертывание Skype для бизнеса Server 2015, нажмите кнопку установить или обновить Skype для бизнеса Server. Действия, описанные в этом разделе, задают компоненты, специфичные для данной роли сервера, на основе документа Topology Builder. Прежде чем приступать к этой серии шагов, необходимо определить развертывание в построителе топологии. Вы должны войти в развертываемый компьютер как локальный администратор и участник группы администраторов домена в домене, в котором находится сервер. Компьютер необходимо присоединить к домену до выполнения этого шага.
-ms.openlocfilehash: 34ce87f6ea2543fc23ab87e0eb291b0503216c92
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2af1a1b70bd7203e9d2f3f4bf8f52cb9e9c7e649
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701064"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823613"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Установка или обновление системы Skype для бизнеса Server
 

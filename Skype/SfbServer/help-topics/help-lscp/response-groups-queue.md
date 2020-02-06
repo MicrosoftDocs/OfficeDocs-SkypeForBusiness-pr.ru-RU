@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Группы ответа состоят из групп агентов, очередей и рабочих процессов. Очереди групп ответа содержат звонки в группу ответа до тех пор, пока агент не ответит на звонок.
-ms.openlocfilehash: 0f18c9c69fd78c8b4b3d9a5b667534cc398bc6e8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 20d696c640e02f5861c6621230c94d55a38116c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686022"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822372"
 ---
 # <a name="response-groups-queue"></a>Очередь группы ответа
 

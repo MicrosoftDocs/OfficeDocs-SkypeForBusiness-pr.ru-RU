@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 description: На странице Выполнение команд отображается область состояние задачи в виде команд, которые выполняются для создания запроса сертификата. После завершения задач раскрывающийся список под областью сводки будет содержать список файлов журнала. С помощью раскрывающегося списка выберите файл журнала для просмотра, а затем нажмите кнопку Просмотреть журнал. Откроется Internet Explorer и отобразится файл журнала. В случае неудачного запроса следует просмотреть файл журнала (-ы), чтобы определить причину сбоя. Вы можете повторно выполнить запрос сертификата, чтобы устранить проблему, устраняя проблему, указанную в файле журнала. Продолжайте пользоваться страницами запроса сертификата и запросите сертификат еще раз.
-ms.openlocfilehash: fe8b0ece32c5486349c45513399c817bed275023
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 35ea4b9b28d4eb35d1853bf8c87089887f83c65a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701182"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823843"
 ---
 # <a name="certificate-request-invoke"></a>Запрос сертификата (вызов)
  

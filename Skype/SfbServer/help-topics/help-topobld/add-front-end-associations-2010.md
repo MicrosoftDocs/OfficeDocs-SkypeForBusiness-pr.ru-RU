@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'В настоящее время вы можете включить поддержку определенных функций, которым требуется развертывание других серверов, путем сопоставления ролей сервера с пулом переднего плана. Вы также можете связать роли сервера с пулом переднего плана позднее. Серверные роли, которые могут быть связаны с пулом переднего плана, включают следующее:'
-ms.openlocfilehash: 7eaa29c4902516b92b4700065967edf97e725d0d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fd0bf53f21cf8de35bbdd6c707f3bdd51e3b6049
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685192"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820921"
 ---
 # <a name="add-front-end-associations-2010"></a>Добавление связей переднего плана 2010
 

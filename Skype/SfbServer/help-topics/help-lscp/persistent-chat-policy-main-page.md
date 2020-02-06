@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Страницу Политика сохраняемого чата группы Сохраняемый чат можно использовать для управления политиками на глобальном уровне, на уровне пула, сайта или пользователя, в том числе для настройки глобальной политики по умолчанию и создания одной или нескольких дополнительных политик пользователей или сайтов для вашего развертывания. Если пользователю разрешено ведение постоянного сервера чата с помощью политики, то серверная среда сохраняемого чата появляется на своем клиенте.
-ms.openlocfilehash: cf7a534a13b1bccf98fcae1929c17494a0a5a138
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 053e7fb4f03f7e152a238a3b155eac161433c141
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822522"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Главная страница политики сохраняемого чата
  

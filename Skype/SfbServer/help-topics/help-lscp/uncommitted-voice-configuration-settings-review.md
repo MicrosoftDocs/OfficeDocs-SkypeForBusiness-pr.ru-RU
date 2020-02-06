@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceViewSum
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Используйте диалоговое окно "Параметры незафиксированной голосовой конфигурации" для просмотра всех внесенных изменений. Прокрутите диалоговое окно, чтобы просмотреть все несохраненные изменения, или нажмите стрелки, чтобы развернуть или свернуть различные разделы. Когда все будет готово, нажмите кнопку Закрыть. После закрытия этого диалогового окна вы можете изменить изменения или зафиксировать их.
-ms.openlocfilehash: be90c7a2c55dd1728d3498ce208f1b785800c186
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b9b8bd766be74ddcf71702720f3cd9f2b4d86a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699254"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821881"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Незафиксированные параметры конфигурации голосовой связи: просмотр
  

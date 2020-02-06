@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Агенты — это пользователи, которые предназначены для звонков групп ответов. Группе ответа должна быть назначена группа агентов, определяющая, какие агенты могут принимать звонки для данной группы ответа. Один из способов создания группы агентов заключается в определении настраиваемой группы посредством выбора подходящих пользователей. Пользователи с подходящими учетными записью включены для Skype для бизнеса Server и Enterprise Voice.
-ms.openlocfilehash: 74110e23778813390b89fe4fa727a1bf3b09cf8b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2950295bcf78ee2c7c904375d009a8fba085b85f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822312"
 ---
 # <a name="select-agents"></a>Выбор агентов
 

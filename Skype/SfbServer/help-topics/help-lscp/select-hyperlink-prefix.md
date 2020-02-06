@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: В диалоговом окне "Выбор префикса гиперссылки" можно выбрать типы гиперссылок, которые вы хотите заблокировать, отправить предупреждение или разрешить, выбирая (блокировать или отправлять предупреждение) или сняв (чтобы разрешить) флажки для их расширений из категорий в разделе Префиксы гиперссылок. Щелкните стрелку, чтобы развернуть категорию и просмотреть все префиксы гиперссылок для этой категории. Если вы хотите выбрать все префиксы гиперссылок для категории, выберите ее имя.
-ms.openlocfilehash: 60d756075989b2d7c98352d5d86bc85e76cde59f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 87ee86a94d91b16e8f103efc0ca469fb39c4edb6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685872"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822192"
 ---
 # <a name="select-hyperlink-prefix"></a>Выбор префикса гиперссылок
  

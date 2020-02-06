@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Создавать сохраняемые комнаты чатов и управлять ими намного проще благодаря правильному использованию категорий. Администратор сохраняемого чата может определять Алловедмемберс и создателя для каждой категории, а также задавать параметры и поведения комнаты чата по умолчанию, которые будут применяться ко всем комнатам чата, созданным в этой категории. Сохраняемые администраторы чата создают категории и управляйте ими с помощью панели управления или командлетов Windows PowerShell.
-ms.openlocfilehash: 916077fe25e1616888dd58dc40f0ef0f14c61e7a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ad371fada6bbb7e8c9a2620eb5ec533cc60a0673
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699704"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822302"
 ---
 # <a name="select-allowed-members"></a>Выбор разрешенных участников
 

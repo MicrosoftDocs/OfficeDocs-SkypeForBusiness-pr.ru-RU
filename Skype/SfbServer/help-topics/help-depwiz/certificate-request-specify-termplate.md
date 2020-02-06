@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestTemplate
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: На странице Определение дополнительного шаблона сертификата можно определить шаблон сертификата, отличающийся от шаблона сертификата WebServer, который используется по умолчанию. Установите флажок Использовать другой шаблон сертификата для выбранного центра сертификации, затем укажите название альтернативного шаблона сертификата в поле Название шаблона сертификата. Необходимо указывать название шаблона в точности так, как оно определено в центре сертификации (ЦС). Чтобы вернуться на предыдущую страницу, нажмите кнопку Назад. Чтобы закончить процесс запроса сертификата, нажмите кнопку Отмена.
-ms.openlocfilehash: b06797c63ff0d49de0c094957cccee0e5cf35747
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a494d1816f41f8e6cf4a129ab5353dc9e59b7002
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687732"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823793"
 ---
 # <a name="certificate-request-specify-termplate"></a>Запрос сертификата (задание шаблона)
  

@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 description: Для включения пограничного сервера или пула пограничных серверов в топологическую схему необходимо указать полное доменное имя сервера, на котором требуется развернуть пограничный сервер или пул пограничных серверов. Прежде чем публиковать топологию, которая включает в себя пограничный сервер или пул пограничного сервера, и установить Skype для бизнеса Server, необходимо выполнить все необходимые условия для развертывания внешнего доступа для пользователей. Дополнительные сведения об этих обязательных условиях см. в разделе Preparing for Installation of Servers in the Perimeter Network документации по развертыванию.
-ms.openlocfilehash: 3433f5dac67d0e02fb8e8552e205092a51082cc6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1f8b5c71e0e857db285c9f272ceb8873492f54ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698344"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820951"
 ---
 # <a name="add-edge-server"></a>Добавление пограничного сервера
 
