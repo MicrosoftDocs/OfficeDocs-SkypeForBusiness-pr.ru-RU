@@ -8,41 +8,43 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: Чтобы определить свойства в разделе внешние параметры, выполните указанные ниже действия.
-ms.openlocfilehash: 2936c910f2cfc1d7e9106e2dca7477f5e1d2860e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 95e55625ec698d8762832e812a79547daf4d2bcf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684762"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820061"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a><span data-ttu-id="6425d-103">Расширитель параметров полного доменного имени пограничного сервера для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="6425d-103">Edge Server FQDN Settings Expander for Lync Server 2010</span></span>
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a><span data-ttu-id="a6186-103">Расширитель параметров полного доменного имени пограничного сервера для Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="a6186-103">Edge Server FQDN Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="6425d-104">Чтобы определить свойства в разделе **внешние параметры**, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="6425d-104">To define the properties under **External settings**, configure the following:</span></span>
+<span data-ttu-id="a6186-104">Чтобы определить свойства в разделе **внешние параметры**, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="a6186-104">To define the properties under **External settings**, configure the following:</span></span>
   
-<span data-ttu-id="6425d-105">Установите флажок **включить отдельное полное доменное имя и IP-адрес для конференций и/V** , если вы хотите задать индивидуальные доменные имена и IP-адреса для разных пулов и звуковых и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="6425d-105">Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.</span></span>
+<span data-ttu-id="a6186-105">Установите флажок **включить отдельное полное доменное имя и IP-адрес для конференций и/V** , если вы хотите задать индивидуальные доменные имена и IP-адреса для разных пулов и звуковых и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="a6186-105">Select the **Enable separate FQDN and IP address for web conferencing and A/V** check box if you want to define distinct Pool FQDN and IP addresses for web conferencing and audio/video.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6425d-106">Если вы решили не установить флажок для отдельных полных доменных имен и IP-адресов, необходимо предоставить отдельные порты для каждой из трех служб, предоставляемых пограничным сервером.</span><span class="sxs-lookup"><span data-stu-id="6425d-106">If you choose to not select the check box for separate FQDN and IP addresses, you must provide distinct ports for each of the three services provided by the Edge Server.</span></span> <span data-ttu-id="6425d-107">Единственным полным доменным именем, которое нужно настроить, является полное доменное имя, связанное со службой Edge Access.</span><span class="sxs-lookup"><span data-stu-id="6425d-107">The only fully qualified domain name that is to configure is the FQDN associated with the Access Edge service.</span></span> 
+> <span data-ttu-id="a6186-106">Если вы решили не установить флажок для отдельных полных доменных имен и IP-адресов, необходимо предоставить отдельные порты для каждой из трех служб, предоставляемых пограничным сервером.</span><span class="sxs-lookup"><span data-stu-id="a6186-106">If you choose to not select the check box for separate FQDN and IP addresses, you must provide distinct ports for each of the three services provided by the Edge Server.</span></span> <span data-ttu-id="a6186-107">Единственным полным доменным именем, которое нужно настроить, является полное доменное имя, связанное со службой Edge Access.</span><span class="sxs-lookup"><span data-stu-id="a6186-107">The only fully qualified domain name that is to configure is the FQDN associated with the Access Edge service.</span></span> 
   
-<span data-ttu-id="6425d-108">Установите флажок **Служба пограничного устройства NAT включена** , если вы хотите, чтобы служба EDGE (a/v) ИСПОЛЬЗОВАЛА IP-адрес и конфигурацию преобразования сетевых адресов (NAT).</span><span class="sxs-lookup"><span data-stu-id="6425d-108">Select the **A/V Edge service is NAT enabled** check box if you want the A/V Edge service to use a network address translation (NAT) IP address and configuration.</span></span>
+<span data-ttu-id="a6186-108">Установите флажок **Служба пограничного устройства NAT включена** , если вы хотите, чтобы служба EDGE (a/v) ИСПОЛЬЗОВАЛА IP-адрес и конфигурацию преобразования сетевых адресов (NAT).</span><span class="sxs-lookup"><span data-stu-id="a6186-108">Select the **A/V Edge service is NAT enabled** check box if you want the A/V Edge service to use a network address translation (NAT) IP address and configuration.</span></span>
   
-<span data-ttu-id="6425d-109">Для включенных служб Edge вы вводите **полное доменное имя пула** и порт в разделе **ports (порты** ).</span><span class="sxs-lookup"><span data-stu-id="6425d-109">For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports**</span></span>
+<span data-ttu-id="a6186-109">Для включенных служб Edge вы вводите **полное доменное имя пула** и порт в разделе **ports (порты** ).</span><span class="sxs-lookup"><span data-stu-id="a6186-109">For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports**</span></span>
   
-- <span data-ttu-id="6425d-110">Определите полное доменное имя пула **службы Edge Access** и порт, который однозначно определяет службу.</span><span class="sxs-lookup"><span data-stu-id="6425d-110">Define the **Access Edge service** Pool FQDN and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="a6186-110">Определите полное доменное имя пула **службы Edge Access** и порт, который однозначно определяет службу.</span><span class="sxs-lookup"><span data-stu-id="a6186-110">Define the **Access Edge service** Pool FQDN and a port that uniquely identifies the service.</span></span>
     
-- <span data-ttu-id="6425d-111">Определите полное доменное имя пула **служб для веб-конференций** (если не выбрано отдельное полное доменное имя и IP-адрес) и порт, который однозначно определяет службу.</span><span class="sxs-lookup"><span data-stu-id="6425d-111">Define the **Web Conferencing Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="a6186-111">Определите полное доменное имя пула **служб для веб-конференций** (если не выбрано отдельное полное доменное имя и IP-адрес) и порт, который однозначно определяет службу.</span><span class="sxs-lookup"><span data-stu-id="a6186-111">Define the **Web Conferencing Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
     
-- <span data-ttu-id="6425d-112">Определите полное доменное имя пула **служб EDGE (a/v** ) (если включено отдельное полное доменное имя и IP-адрес, а не выбрано значение A/V) и порт, который однозначно определяет службу.</span><span class="sxs-lookup"><span data-stu-id="6425d-112">Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
+- <span data-ttu-id="a6186-112">Определите полное доменное имя пула **служб EDGE (a/v** ) (если включено отдельное полное доменное имя и IP-адрес, а не выбрано значение A/V) и порт, который однозначно определяет службу.</span><span class="sxs-lookup"><span data-stu-id="a6186-112">Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.</span></span>
     
-  <span data-ttu-id="6425d-113">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="6425d-113">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="a6186-113">**ОК**. Принятие и фиксация изменений, внесенных в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="a6186-113">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="6425d-114">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="6425d-114">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="a6186-114">**Отмена**. Отмена изменений и закрытие диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="a6186-114">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="6425d-115">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="6425d-115">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="a6186-115">**Справка**. Отображение этого экрана справки.</span><span class="sxs-lookup"><span data-stu-id="a6186-115">**Help** Displays this help screen.</span></span>
   
 
