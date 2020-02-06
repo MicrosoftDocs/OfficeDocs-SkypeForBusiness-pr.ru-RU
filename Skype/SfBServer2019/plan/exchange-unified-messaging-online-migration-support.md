@@ -7,14 +7,16 @@ ms.reviewer: waseemh, dstrome, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Корпорация Майкрософт отключают службу единой системы обмена сообщениями Exchange Online (Ексчумо) до 2020 февраля. В этой статье приводятся сведения о том, какие уязвимые пользователи должны знать и как планировать бесперебойную деятельность.
-ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aee9441a6da436728e9d6add1cc67b9af7967439
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737129"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824043"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Поддержка сетевой единой системы обмена сообщениями Exchange
 
