@@ -8,19 +8,21 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: 'Сводка: сведения о том, как установить компоненты системы Skype для бизнеса Server на каждом сервере в топологии. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 35ad1914dced8d8937de0f56a19c2709551a2893
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Сводка: сведения о том, как установить компоненты системы Skype для бизнеса Server на каждом сервере в топологии. Скачайте бесплатную пробную версию Skype для бизнеса Server из центра оценки Майкрософт по адресу: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 8ecf298809a6c4c37b5c075e7ac16623f1669ff9
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245306"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791757"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Установка Skype для бизнеса Server на серверах в топологии
  
@@ -186,7 +188,7 @@ ms.locfileid: "36245306"
 
 1. Проверьте необходимые условия для **Шага 4. Запуск служб**.
     
-2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. Если используется один сервер, который всегда используется в стандартном выпуске, ты Мусе использовать командлет **Start-ксвиндовссервице** . В этом примере используется выпуск Enterprise Edition с тремя серверами переднего плана в пуле, откройте командную **консоль управления Skype для бизнеса Server** и запустите командлет **Start-кспул** , как показано на рисунке. For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. Если используется один сервер, который всегда используется в стандартном выпуске, ты Мусе использовать командлет **Start-ксвиндовссервице** . В этом примере используется выпуск Enterprise Edition с тремя серверами переднего плана в пуле, откройте **командную консоль управления Skype для бизнеса Server** и запустите командлет **Start-кспул** , как показано на рисунке. For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
      ![Запуск служб Skype для бизнеса.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

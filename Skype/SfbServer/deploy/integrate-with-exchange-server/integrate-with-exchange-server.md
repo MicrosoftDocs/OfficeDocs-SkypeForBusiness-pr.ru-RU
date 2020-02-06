@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Сводка: Ознакомьтесь с действиями по интеграции для Exchange Server 2016 или Exchange Server 2013 и Skype для бизнеса Server.'
-ms.openlocfilehash: 398ded1c138743c79de0e372b930dacef08fd94f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: ad8921c9c4c5c54809aa8323f60314dfc0826061
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244045"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791657"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Интеграция Skype для бизнеса Server с Exchange Server
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Вам может потребоваться использовать сопряженные интерфейсные пулы для обеспечения аварийного восстановления, однако это не обязательное требование.
-ms.openlocfilehash: 73f7d7619efbfc82124507234ebea8ebbcf4a7e8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 63b9c55aad2b31e01eec506ce28e54d2145ee636
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002909"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790087"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Развертывание попарных пулов переднего плана для аварийного восстановления в Skype для бизнеса Server
  

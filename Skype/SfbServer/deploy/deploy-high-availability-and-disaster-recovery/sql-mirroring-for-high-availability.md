@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Чтобы обеспечить возможность развертывания зеркального отображения SQL, серверы должны работать под управлением, как минимум, версии SQL Server 2008 R2. Эта версия должна выполнятся на всех серверах-участниках: на сервере-источнике, зеркальном сервере и следящем сервере. Подробности можно найти в разделе накопительный пакет обновления 9 для SQL Server 2008 с пакетом обновления 1.'
-ms.openlocfilehash: 19f315d643ea5b9379445bf7571e49e7d658f5ab
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 2be6b59d294db6a74ffe902648511658a07242ca
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003589"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790067"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Развертывание зеркального отображения SQL для серверного сервера высокой доступности в Skype для бизнеса Server 2015
 

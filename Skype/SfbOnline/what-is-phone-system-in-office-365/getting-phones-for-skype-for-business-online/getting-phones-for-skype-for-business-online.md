@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692254"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784766"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Телефоны, поддерживаемые в Skype для бизнеса Online
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692254"
 |Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
 |AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
    
-Дополнительные сведения о телефонах Polycom см. в разделе [Решения голосовой связи для Майкрософт](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+Дополнительные сведения о Polycom phones можно найти в разделе [Библиотека документации поли](https://documents.polycom.com/category/voice).
   
 Дополнительные сведения о Yealink phones можно найти в разделе [IP-телефоны Skype для бизнеса](http://www.yealink.com/products_list_10.html#filter2).
   

@@ -8,19 +8,21 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: Сводка. сведения о том, как убедиться, что топология сервера Skype для бизнеса и серверы Active Directory работают должным образом. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.
-ms.openlocfilehash: 6c7d7a67cab2cbd383ee26eb64f478985bcc4b27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Сводка. сведения о том, как убедиться, что топология сервера Skype для бизнеса и серверы Active Directory работают должным образом. Скачайте бесплатную пробную версию Skype для бизнеса Server из центра оценки Майкрософт по адресу: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: aa631e5b08ff8cbe9cb6db17009f286dcc975679
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245238"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791717"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Проверка топологии в Skype для бизнеса Server
  

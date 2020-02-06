@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678973"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790617"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Вход в Microsoft Teams с современной проверкой подлинности
 ==========================
@@ -54,6 +54,9 @@ ms.locfileid: "41678973"
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Выход из Microsoft Teams после выполнения современной проверки подлинности
 Чтобы выйти из Teams, пользователи могут щелкнуть аватар в верхней части приложения, а затем выбрать команду **выход**. Кроме того, они могут щелкнуть правой кнопкой мыши значок приложения на панели задач, а затем выбрать команду **выход**. После того как вы выйдете из Teams, ему нужно будет повторно ввести свои учетные данные, чтобы запустить приложение.
+
+## <a name="urls-and-ip-address-ranges"></a>URL-адреса и диапазоны IP-адресов
+Для работы Teams требуется подключение к Интернету. Чтобы понять конечные точки, которые должны быть доступны для клиентов, использующих Teams в Office 365, правительственные учреждения и другие облака, ознакомьтесь с [рекомендациями, изложенными здесь](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Кроме того, вам нужно также разрешить доступ к https://ssl.gstatic.com.
 
 ## <a name="troubleshooting-modern-authentication"></a>Устранение неполадок современной проверки подлинности
 

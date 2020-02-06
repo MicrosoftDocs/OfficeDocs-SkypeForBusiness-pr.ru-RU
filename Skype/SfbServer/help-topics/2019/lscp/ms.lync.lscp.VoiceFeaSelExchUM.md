@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: С помощью диалогового окна "Выбор автосекретаря UM Exchange" можно выбрать автосекретарь Exchange UM, который будет обрабатывать входящие звонки на диапазон неназначенных номеров.
-ms.openlocfilehash: 832f578e1d299109739ded9a9bcdaa6325edafc7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a4233a3e173713e9e06650e69a0f82239dea9647
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690374"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41792187"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Выбор автосекретаря единой системы обмена сообщениями Exchange
 

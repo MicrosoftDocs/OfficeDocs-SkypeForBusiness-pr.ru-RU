@@ -8,23 +8,25 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: 'Сводка: сведения о том, как установить средства администрирования, необходимые для установки Skype для бизнеса Server. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 168202048fcd72b16d93cfd410f678cad01b3058
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Сводка: сведения о том, как установить средства администрирования, необходимые для установки Skype для бизнеса Server. Скачайте бесплатную пробную версию Skype для бизнеса Server из центра оценки Майкрософт по адресу: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 3abf2eb35a4593f25db75e175f3cd30fdf49e21b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244622"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790177"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Установка средств администрирования в Skype для бизнеса Server
  
-**Сводка:** Сведения о том, как установить средства администрирования, необходимые для установки Skype для бизнеса Server. Загрузите бесплатную пробную версию Skype для бизнеса на сервере Microsoft Evaluation Center по адресу [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server):.
+**Сводка:** Сведения о том, как установить средства администрирования, необходимые для установки Skype для бизнеса Server. Скачайте бесплатную пробную версию Skype для бизнеса Server из центра оценки Майкрософт по адресу: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 К средствам администрирования относятся построитель топологий и панель управления. Средства администрирования должны быть установлены по крайней мере на одном сервере в топологии или на рабочей станции управления 64-bit для Windows, которая поддерживается в Skype для бизнеса Server. Шаги с 1 по 5 могут выполняться в произвольном порядке. Но шаги 6, 7 и 8 должны выполняться в указанном порядке после шагов с 1 по 5, как показано на схеме. Установка средств администрирования — шаг 3 из 8.
   
