@@ -7,14 +7,16 @@ manager: serdars
 audience: End User
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Когда пользователь щелкает ссылку на собрание в приглашении на собрание, страница присоединения к собранию определяет, какой клиент уже установлен на компьютере пользователя. Если клиент уже установлен, этот клиент открывает и присоединяется к собранию. Если клиент не установлен, по умолчанию откроется веб-приложение.
-ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 35b8b816d5c01f3061dc697cf7f37a4314a5f083
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989564"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813797"
 ---
 # <a name="configure-the-meeting-join-page"></a>Конфигурация страницы присоединения к собранию
 

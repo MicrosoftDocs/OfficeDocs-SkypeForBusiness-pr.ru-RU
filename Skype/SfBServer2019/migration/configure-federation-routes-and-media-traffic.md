@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Федерация — это отношение доверия между двумя или более доменами SIP, позволяющее пользователям в разных организациях взаимодействовать через границы сети. После того как вы перейдете на пилотный проект, вам нужно будет перейти с маршрута Федерации предыдущих версий пограничного сервера на маршрут Федерации сервера пограничных серверов в Skype для бизнеса Server 2019.
-ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 71417307fd46c2c29535cea3a52f0286ad6dc951
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239364"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813817"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Настройка маршрутов федерации и трафика мультимедиа
 

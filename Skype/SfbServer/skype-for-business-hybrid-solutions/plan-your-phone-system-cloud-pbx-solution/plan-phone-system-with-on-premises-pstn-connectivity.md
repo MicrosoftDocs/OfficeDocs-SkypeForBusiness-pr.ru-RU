@@ -8,6 +8,8 @@ ms.date: 1/26/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -18,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Сведения о планировании телефонной системы в Office 365 (облачная УАТС) с локальной связью по протоколу КТСОП.
-ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a134b4dbe48d302ee8be8df528e6bbebac336b8e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221045"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814487"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Планирование телефонной системы в Office 365 с использованием локальной сети PSTN в Skype для бизнеса Server
 
@@ -51,7 +53,7 @@ ms.locfileid: "35221045"
 > [!CAUTION]
 > Устройства Lync Phone Edition ДОЛЖНЫ быть обновлены до минимальной версии требуемого встроенного ПО в локальной среде, ДО перехода на Skype для бизнеса Online.
 Если перенести пользователей из локальной среды в сетевую версию до обновления встроенного ПО, пользователи не смогут подключаться с помощью телефонов. Для устранения этой проблемы потребуется переместить пользователей обратно в локальную среду, чтобы обновить телефоны до минимальной версии встроенного ПО. НЕ ПЫТАЙТЕСЬ ВЫПОЛНИТЬ ОБНОВЛЕНИЕ ДО МИНИМАЛЬНОЙ ВЕРСИИ ВСТРОЕННОГО ПО ИЛИ АППАРАТНЫЙ СБРОС НА ТЕЛЕФОНЕ ДО ПЕРЕМЕЩЕНИЯ ПОЛЬЗОВАТЕЛЯ ОБРАТНО В ЛОКАЛЬНУЮ СРЕДУ.
-Если аппаратный сброс выполняется на устройстве с устаревшей версией встроенного ПО, по умолчанию используется проверка подлинности PIN-кода, которая не поддерживается в Skype для бизнеса Online. Дополнительные сведения можно найти в статье Знакомство с [телефонами Skype для бизнеса Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
+Если аппаратный сброс выполняется на устройстве с устаревшей версией встроенного ПО, по умолчанию используется проверка подлинности PIN-кода, которая не поддерживается в Skype для бизнеса Online. Дополнительные сведения можно найти в статье [Знакомство с телефонами Skype для бизнеса Online](https://support.office.com/en-us/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
 Разворачивая телефонную систему в Office 365 с помощью локальной сети PSTN, вы можете переносить пользователей в облако через Skype для бизнеса Online на свой собственный темп, сохранив при этом локальную сеть PSTN. При наличии УАТС связь через ТСОП останется доступной для пользователей, перемещенных в облачную среду. Когда пользователь перемещается в Skype для бизнеса Online и телефонная система в Office 365, старый телефон УАТС больше не работает, но их номера будут направлены на любые клиенты Skype для бизнеса для ПК или смартфона, а также как Skype для бизнеса, совместимый с телефонным подключением. месяца. После переноса на телефонную систему в Office 365 пользователи и традиционные АТС смогут звонить друг другу, а также совершать и принимать звонки PSTN с помощью обычного номера телефона.
 
@@ -84,8 +86,8 @@ ms.locfileid: "35221045"
 | Край Федерации\*\*  <br/>                            | Skype для бизнеса Server 2015  <br/>                                                                              |
 | Внутренний сервер пула маршрута федерации следующего прыжка  <br/> | Skype для бизнеса Server 2015, март 2016 г., накопительный пакет обновления 6.0.9319.235 или более поздней версии (внешний интерфейс или директор)   <br/> |
 | Сервер пользователя переднего плана  <br/>                          | Skype для бизнеса Server 2015  <br/> Lync Server 2013  <br/>                                                      |
-| пограничный сервер  <br/>                                    | Skype для бизнеса Server 2015  <br/>                                                                              |
-| посредник  <br/>                               | Skype для бизнеса Server 2015  <br/> Lync Server 2013  <br/>                                                      |
+| Пограничный сервер  <br/>                                    | Skype для бизнеса Server 2015  <br/>                                                                              |
+| Сервер-посредник  <br/>                               | Skype для бизнеса Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 
 \*Минимальный поддерживаемый набор версий:
 
@@ -99,14 +101,14 @@ ms.locfileid: "35221045"
 
 - **Локальная Корпоративная голосовая связь настроена и протестирована для локальных пользователей** Сюда входят компоненты подключения PSTN. Дополнительные сведения можно найти в следующих статьях, если вы используете Skype для бизнеса Server 2015, посмотреть в разделе [планирование корпоративной голосовой связи в Skype для бизнеса server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) и [Развертывание корпоративной голосовой связи в Skype для бизнеса Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
-    Если вы используете Lync Server 2013, ознакомьтесь со сведениями о том, как [планировать корпоративную голосовую почту в Lync server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) и разворачивать корпоративную голосовую почту [в Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
+    Если вы используете Lync Server 2013, ознакомьтесь со сведениями о том, как [планировать корпоративную голосовую почту в Lync server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) и [разворачивать корпоративную голосовую почту в Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
 - **Синхронизация службы каталогов Active Directory** Необходимо настроить синхронизацию Active Directory с помощью Azure AD Connect. Дополнительные сведения можно найти в разделе [Управление Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Необходимо использовать версию AAD Connect не ниже 1.0.9125.0. Если вы используете более раннюю версию средств AAD Connect или DirSync, перейдите на поддерживаемую версию. Вы можете обновить текущую установку или сохранить все настраиваемые правила, определенные в среде. 
 
-- **Настройка гибридного развертывания** Вы хотите, чтобы все пользователи Skype для бизнеса в настоящее время размещаются в сети или в локальной среде, или, если у вас есть смесь, необходимо выполнить инструкции по настройке гибридного развертывания Skype для бизнеса Server или Lync Server 2013, как описано в разделе [развертывание гибридного развертывания. связь между Skype для бизнеса Server и Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Более подробную информацию о гибридных развертываниях можно найти в разделе [планирование гибридной связи между Skype для бизнеса Server и Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
+- **Настройка гибридного развертывания** Вы хотите, чтобы все пользователи Skype для бизнеса в настоящее время подключены к сети или локально, или если у вас есть смесь, необходимо выполнить инструкции по настройке гибридного развертывания Skype для бизнеса Server или Lync Server 2013, как описано в разделе [развертывание гибридной связи между Skype для бизнеса Server и Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Более подробную информацию о гибридных развертываниях можно найти в разделе [планирование гибридной связи между Skype для бизнеса Server и Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). 
 
     Если вы используете Lync Server 2013, ознакомьтесь со из [гибридной среды Lync server 2013](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 

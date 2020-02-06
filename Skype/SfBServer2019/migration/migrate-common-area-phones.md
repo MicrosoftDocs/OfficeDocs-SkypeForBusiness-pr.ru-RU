@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Обычные телефоны — это IP-телефоны, которые чаще всего находятся в общей рабочей области или в общей области, например в зале ожидания, кухни или фабрики. Для поддержки функций объединенных коммуникаций в Skype для бизнеса Server не нужно подключаться к компьютеру с помощью обычных телефонов. После миграции развертывания на Skype для бизнеса Server 2019 необходимо также перенести объекты контактов, связанные с устаревшим стандартным телефонным пространством. С помощью командной консоли Skype для бизнеса Server вы сначала получите все объекты контактов, связанные с устаревшими телефонными устройствами, а затем переместите эти объекты в пул Skype для бизнеса Server 2019.
-ms.openlocfilehash: f268c22f1d1132b3b5b8c1c1676e5b3a0182cf3f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5110f91788d09f644e20680f91f1cbafe146bdd6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991154"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813567"
 ---
 # <a name="migrate-common-area-phones"></a>Миграция телефонов общего пользования
 

@@ -8,6 +8,8 @@ ms.date: 7/9/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Сводка: Ознакомьтесь с этими ссылками, чтобы узнать, как установить и настроить Skype для бизнеса Server 2019.'
-ms.openlocfilehash: 302b2a7be850e434bbf705e38d6671cdc580b3e0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 419155b0cce38c9e212af3ebc47bc5dd9a5ba0e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242006"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814057"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Развертывание Skype для бизнеса Server 2019
  
@@ -37,7 +39,7 @@ Skype для бизнеса Server предлагает решения для о
 ||Содержимое|Описание|
 |:-----|:-----|:-----|
 |![Значок для документации](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Требования к системе для Skype для бизнеса Server 2019](../plan/system-requirements.md)  <br/> |Сведения о требованиях к серверам и среде для Skype для бизнеса Server.  <br/> |
-|![Значок для документации](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Основы топологии для Skype для бизнеса Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Сведения о вариантах топологии и сценариях выровненного размещения на сервере для Skype для бизнеса Server.  <br/> |
+|![Значок для документации](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Основы топологии Skype для бизнеса Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Сведения о вариантах топологии и сценариях выровненного размещения на сервере для Skype для бизнеса Server.  <br/> |
 |![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Установка Skype для бизнеса Server](../../SfbServer/deploy/install/install.md)<br/> |Сведения об установке Skype для бизнеса Server в различных топологиях — как в физических, так и в виртуальных средах.  <br/> |
 |![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Переход на Skype для бизнеса Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |В этой статье рассказывается о том, как перейти с предыдущих версий Skype для бизнеса или Lync Server.  <br/> |
 |![Нумерованные значки инструкций](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Настройка взаимодействия с клиентом в Skype для бизнеса](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Сведения о настройке взаимодействия с пользователем.  <br/> |

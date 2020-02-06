@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 description: Для хранения данных мониторинга на сервере мониторинга требуется поддерживаемый 64-разрядный выпуск базы данных SQL Server. Вы можете выбрать ранее определенную базу данных SQL Server, которая будет использоваться для наблюдения, или определить новую базу данных SQL Server, указав полное доменное имя (FQDN) сервера, на котором будет находиться база данных SQL Server, в дополнение к экземпляру SQL. Сервер, который вы хотите использовать для новой базы данных SQL Server (которая может быть экземпляром по умолчанию, или указанным именованным экземпляром).
-ms.openlocfilehash: 8c74462e0623c34fbbbf4c3f67d1a0adf0f3c922
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f1950b01aba29ddff6c7622a6fead726bf835ef3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698184"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820751"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Добавление хранилища SQL Server для сервера мониторинга
 

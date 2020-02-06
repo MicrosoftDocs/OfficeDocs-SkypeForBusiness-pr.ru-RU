@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Если вы создаете новый доверенный сервер приложений, то в смешанной среде необходимо настроить пул следующего прыжка в качестве пула в Skype для бизнеса Server 2019. В смешанной среде в раскрывающемся списке отобразятся пул устаревшего пула и пул Skype для бизнеса Server 2019. Выбор устаревшего пула не поддерживается.
-ms.openlocfilehash: b715cd7f3f067c5e54dbc085350fcc7f96b5c4be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a853065c8888ce9e160b34d182ec8bde6f4569f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239300"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813777"
 ---
 # <a name="configure-trusted-application-servers"></a>Настройка доверенных серверов приложений
 

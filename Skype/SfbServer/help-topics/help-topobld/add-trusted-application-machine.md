@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddExternalApplicationMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который вы хотите добавить в качестве доверенного сервера приложений в этом пуле. До публикации топологии можно в любой момент обновить полное доменное имя добавленного к списку компьютера или удалить его из пула. После публикации топологии изменение полного доменного имени требует удаления сервера в построителе топологии и добавления нового сервера в пул с новым полным доменным именем.
-ms.openlocfilehash: 48a9300c3c390a98450c38ef867b6c8d7176d357
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f0f2807165cedec32227998954ac0164268d60ad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685022"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820581"
 ---
 # <a name="add-trusted-application-machine"></a>Добавление доверенного компьютера приложений
  

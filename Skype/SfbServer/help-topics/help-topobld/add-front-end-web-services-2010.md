@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndWebServicesPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97420584-3c2e-4d6d-9a2b-f7e361f1e2d1
 description: Базовый URL-адрес представляет собой удостоверение веб-служб для URL-адреса без префикса https://. Например, если в качестве полного URL-адреса для сайтов в пуле — https://pool01.contoso.netбазовый URL-адрес — pool01.contoso.NET.
-ms.openlocfilehash: 48d2cc4c8ce9bc1074ae42e385265b34f24c662e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d55462bb7e8b4f5c5fac059bc6e6816ef11d0eab
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685132"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820801"
 ---
 # <a name="add-front-end-web-services-2010"></a>Добавление веб-служб переднего плана 2010
  

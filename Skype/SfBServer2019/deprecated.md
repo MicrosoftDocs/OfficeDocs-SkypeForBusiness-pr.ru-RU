@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Сводка: эти функции удалены из Skype для бизнеса Server 2019.'
-ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f77ccecd0ab963c0707a7b1dc1d24083ed0c3729
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418363"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813987"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Что не рекомендуется использовать в Skype для бизнеса Server 2019
 
@@ -35,11 +37,11 @@ Skype для бизнеса Server 2015 и его предшественники
 
 Сервер сохраняемого чата — это необязательная роль, которая позволяет нескольким пользователям в Организации принимать участие в беседах в чате, которые сохраняются с течением времени. В Skype для бизнеса Server 2019 нельзя разворачивать сохраняемый чат. Эта роль сервера удаляется из построителя топологии и из кода. 
 
-Эта функция доступна в Teams. Дополнительные сведения можно найти в разделе [Начало работы с обновлением Microsoft Teams](/microsoftteams/upgrade-start-here).
+Такие же функции доступны в Teams. Дополнительные сведения см. в статье [Начало перехода на Microsoft Teams](/microsoftteams/upgrade-start-here).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Зеркальное отображение SQL для сервера Skype для бизнеса Server
 
-Зеркальное отображение SQL не может быть развернуто в Skype для бизнеса Server 2019. Другие варианты обеспечения высокой доступности и аварийного восстановления по-прежнему поддерживаются, и вы можете выбрать один из них. Ознакомьтесь со сведениями о том, как [в Skype для бизнеса Server вы можете ознакомиться с высокой надежностью и восстановлением после аварии](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) .
+Зеркальное отображение SQL не может быть развернуто в Skype для бизнеса Server 2019. Другие варианты обеспечения высокой доступности и аварийного восстановления по-прежнему поддерживаются, и вы можете выбрать один из них. Ознакомьтесь со [сведениями о том, как в Skype для бизнеса Server вы можете ознакомиться с высокой надежностью и восстановлением после аварии](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) .
 
 ### <a name="in-place-upgrades"></a>Обновления на месте 
 

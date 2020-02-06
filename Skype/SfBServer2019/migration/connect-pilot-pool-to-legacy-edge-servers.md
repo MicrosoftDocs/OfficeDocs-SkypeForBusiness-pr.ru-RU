@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: После развертывания Skype для бизнеса Server 2019 необходимо настроить маршрут Федерации для вашего сайта. Чтобы использовать федеративный маршрут, который используется в устаревшем экземпляре, необходимо настроить Skype для Business Server 2019 на использование этого маршрута.
-ms.openlocfilehash: 7a5a65e1488d5a119e3d11affbbaa9995a06626e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cc49da3cb27679ef295c7bbeca122aea5a89d10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239226"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813707"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Подключение пилотного пула к старым пограничным серверам
 
@@ -36,7 +38,7 @@ ms.locfileid: "36239226"
   
 6. Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** . 
     
-7. В построителе топологии в разделе Skype для бизнеса Server 2019 перейдите к пулам **сервер стандартных** выпусков или **корпоративным интерфейсом Enterprise Edition**, щелкните пул правой кнопкой мыши и выберите команду **изменить свойства**.
+7. В построителе топологии в разделе Skype для бизнеса Server 2019 перейдите к пулам **сервер стандартных выпусков** или **корпоративным интерфейсом Enterprise Edition**, щелкните пул правой кнопкой мыши и выберите команду **изменить свойства**.
     
 8. В разделе **связи**установите флажок **связать пул граничного пула (для компонентов мультимедиа)**. 
     

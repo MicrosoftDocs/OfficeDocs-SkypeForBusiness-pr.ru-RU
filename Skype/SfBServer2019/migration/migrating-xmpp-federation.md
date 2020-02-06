@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Предыдущие версии предоставляли шлюз расширенных сообщений и протоколов присутствия (КСМПП), который можно развернуть как отдельную роль сервера, чтобы включить федерацию с КСМПП развертываниями. Функция КСМПП больше не доступна & не рекомендуется использовать в Skype для бизнеса Server 2019. Если вы хотите продолжить работу с функциями КСМПП, которые могут быть доступны в среде коекситенце с устаревшей версией (Skype для бизнеса Server 2015 или Lync Server 2013). Функции КСМПП устанавливаются в двух частях: в качестве прокси-сервера КСМПП, который работает на пограничном пограничного сервера, и шлюз КСМПП, который работает на устаревшем серверном интерфейсе.'
-ms.openlocfilehash: 0c7c3dbb9c7cda4f6825f66326422dced85a9c3c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d8640d90427d5d7ae9c19a092dc10f0d299ae2be
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237795"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813437"
 ---
 # <a name="migrating-xmpp-federation"></a>Перенос федерации XMPP
 

@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: Вы можете создать новый сервер сохраняемого чата или пул серверов сохраняемого чата с помощью мастера определения нового пула для сохраняемого чата. Выберите Пул из нескольких компьютеров или Пул из одного компьютера. Если выбран пул из одного компьютера, а позднее потребовался пул из нескольких компьютеров, необходимо удалить пул из одного компьютера и затем определить пул из нескольких компьютеров.
-ms.openlocfilehash: 0a30073d4b4df28eadaa206778adeb59651b1a48
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12b5a648de211086d33624afad56ce069493b135
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684832"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820201"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Определение полного доменного имени сохраняемого чата
  

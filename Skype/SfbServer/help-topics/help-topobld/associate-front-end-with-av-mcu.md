@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: Видеоконференции/V-связь – это возможность голосовой и видеосвязи между пользователями в режиме реального времени (например, если у них есть соответствующие клиентские устройства, такие как гарнитуры для голосовой конференции и веб-камеры для видеоконференций). Если ваше развертывание поддерживает Конференции и вы разрешите как веб-конференции, так и конференции с помощью однорангового сервера, вы можете разгруппировать сервер конференций (A/V) с помощью сервер переднего плана, а также можно развернуть один или несколько изолированных серверов конференций (пула конференций). Если вы выбрали параметр для развертывания отдельного сервера конференц-связи A/V, необходимо определить его в построителе топологии.
-ms.openlocfilehash: 49d76b6b14bc2a61b771341f24832b3b10e59919
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 81adb2e51cf026d189315abb45aebaf53bd38670
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697774"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820411"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Связывание сервера переднего плана с AV MCU
  

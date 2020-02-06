@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeServerAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Укажите полное доменное имя (FQDN) каждого компьютера, который вы хотите добавить в качестве пограничного сервера в этом пуле. После того как вы добавите компьютер в список, вы можете обновить полное доменное имя компьютера или удалить его из пула, в любой момент до публикации топологии. После публикации топологии изменение полного доменного имени требует удаления сервера в построителе топологии и добавления нового сервера в пул с новым полным доменным именем. Подробнее о создании топологии для пограничного пула можно узнать в разделе Определение топологии пограничного сервера в документации по развертыванию Edge.
-ms.openlocfilehash: f89d540966d83fb94149abb4f75be9fe0cb0d637
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b268edd89a841fdbce6c5f31c7834a3d1b68f8a3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697464"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820071"
 ---
 # <a name="edge-server-add-machine"></a>Добавление компьютера пограничного сервера
 

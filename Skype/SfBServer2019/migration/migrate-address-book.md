@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: В общем случае адресная книга переносится вместе с оставшейся частью вашей топологии. Однако вам может потребоваться выполнить некоторые действия после миграции, если в устаревшей среде были настроены указанные ниже компоненты.
-ms.openlocfilehash: 8c8e66a8182890ee6e3673769ddc620bb04404c6
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990104"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813607"
 ---
 # <a name="migrate-address-book"></a>Перенос адресной книги
 

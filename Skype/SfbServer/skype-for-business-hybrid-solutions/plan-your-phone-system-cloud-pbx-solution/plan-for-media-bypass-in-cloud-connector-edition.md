@@ -8,18 +8,20 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Ознакомьтесь с этой статьей, чтобы изучить сведения по планированию для реализации обхода сервера-посредника с помощью Cloud Connector Edition версии 2.0 и более поздних версий. Дополнительные сведения о развертывании мультимедийных файлов можно найти в статьях развертывание мультимедиа в облаке с Cloud Connector Edition.
-ms.openlocfilehash: 00f700880e26f12da3aa6c2d791e4f15bfe9a90b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67598cbe31dac074bf360ba6fe1462544fe12c5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287029"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814497"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>План обхода сервера-посредника в Cloud Connector Edition
  

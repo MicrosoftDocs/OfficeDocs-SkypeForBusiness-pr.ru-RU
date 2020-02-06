@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: В этой статье описаны рекомендованные этапы развертывания клиента, которые необходимо выполнить перед переходом на Skype для бизнеса Server 2019. Эти изменения конфигурации следует вносить в Lync Server 2013 или Skype для бизнеса Server 2015.
-ms.openlocfilehash: 1a674c6aa0d9082aa9887f618ab3a56dd12c2982
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 773a995508d6662b84830cc0a248e666dbaa4420
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239502"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813867"
 ---
 # <a name="configure-clients-for-migration"></a>Настройка клиентов для миграции
 
@@ -33,4 +35,4 @@ ms.locfileid: "36239502"
 [Взаимодействие с клиентами в Lync 2013](https://technet.microsoft.com/en-us/library/jj204672(v=ocs.15).aspx)
  <!-- The above links point to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 
- [Планирование для клиентов и устройств](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
+ [Планирование клиентов и устройств](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
