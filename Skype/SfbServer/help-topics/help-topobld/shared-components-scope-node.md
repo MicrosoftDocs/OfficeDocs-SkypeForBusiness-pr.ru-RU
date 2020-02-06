@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Вы можете щелкнуть общие компоненты в дереве иерархии построителя топологии, чтобы создать новые общие компоненты или получить доступ к параметрам уровня топологии.
-ms.openlocfilehash: 4a1a00265f4c5c53df2a1d045a1ac31eaef2d48d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12af3c19d0ea739d0c9cae3690325bf1d05c008f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684392"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819281"
 ---
 # <a name="shared-components-scope-node"></a>Узел области применения общих компонентов
  

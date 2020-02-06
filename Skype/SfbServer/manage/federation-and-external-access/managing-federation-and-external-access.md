@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Вы включаете и настраиваете доступ внешних пользователей к управлению внешними пользователями, которые могут работать с внутренними пользователями Skype для бизнеса Server.
-ms.openlocfilehash: 555fa5ca08a707f09c9e33d8b98294b7bb584046
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 366b65b53135388f4163154001f6400cc9fa2963
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280105"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818250"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Управление интеграцией и внешним доступом к Skype для бизнеса Server
 
@@ -54,7 +56,7 @@ ms.locfileid: "34280105"
 
 **Вы хотите разрешить пользователям общаться с контактами из федеративного домена SIP?**
 
-Настройте параметры так, как описано в разделах [Настройка политик для управления доступом пользователей](external-access-policies/configure-policies-to-control-federated-user-access.md)Федерации, [Включение и отключение подключения](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)к службам федеративных и общедоступных мгновенных сообщений, а также [Управление федеративными доменами SIP для Организации](sip-domains/manage-sip-federated-domains-for-your-organization.md).
+Настройте параметры так, как описано в разделах [Настройка политик для управления доступом пользователей](external-access-policies/configure-policies-to-control-federated-user-access.md)Федерации, [Включение и отключение подключения к службам федеративных и общедоступных мгновенных сообщений](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), а также [Управление федеративными доменами SIP для Организации](sip-domains/manage-sip-federated-domains-for-your-organization.md).
 
 
 **Если вы включили связь с федеративными доменами SIP, хотите включить автоматическое обнаружение модулей SIP?**
@@ -67,7 +69,7 @@ ms.locfileid: "34280105"
 
 **Вы хотите разрешить пользователям взаимодействовать с поставщиками услуг SIP, которые обеспечивают связь с общедоступными поставщиками?**
 
-Настройте параметры так, как описано в разделах [Настройка политик для управления доступом пользователей](external-access-policies/configure-policies-to-control-public-user-access.md), [Включение и отключение служб федерации и](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)общедоступных мгновенных сообщений, [Создание и изменение ОБЩЕдоступных федеративных поставщиков SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
+Настройте параметры так, как описано в разделах [Настройка политик для управления доступом пользователей](external-access-policies/configure-policies-to-control-public-user-access.md), [Включение и отключение служб федерации и общедоступных мгновенных сообщений](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), [Создание и изменение ОБЩЕдоступных федеративных поставщиков SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
 **Вы хотите разрешить пользователям взаимодействовать с поставщиками услуг SIP, которые являются размещенными поставщиками услуг, использующими Microsoft Office 365 и Skype для бизнеса Online?**
@@ -76,7 +78,7 @@ ms.locfileid: "34280105"
 
 **Задано ли развертывание в разделе с разделением (гибридным) доменом, в котором у некоторых пользователей есть домашний сервер в рамках локального развертывания, а другие пользователи настроены на работу с домашним сервером в Интернет-среде?**
 
-Настройте параметры так, как описано в разделах [Настройка политик для управления доступом пользователей](external-access-policies/configure-policies-to-control-federated-user-access.md)Федерации, [Включение и отключение подключения](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)к службам федеративных и общедоступных мгновенных сообщений, а также [Создание или изменение размещенных федеративных поставщиков SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
+Настройте параметры так, как описано в разделах [Настройка политик для управления доступом пользователей](external-access-policies/configure-policies-to-control-federated-user-access.md)Федерации, включение и отключение подключения к службам федеративных [и общедоступных мгновенных сообщений](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), а также [Создание или изменение размещенных федеративных поставщиков SIP](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 
 Вы можете настроить параметры доступа внешних пользователей, включая политики, которые вы хотите использовать для управления доступом внешних пользователей, даже если вы не включили доступ внешних пользователей для вашей организации. Тем не менее политики и другие параметры настройки действуют только в том случае, если к вашей организации разрешен доступ внешним пользователям. Внешние пользователи не могут взаимодействовать с пользователями вашей организации, если доступ к внешним пользователям отключен или политики доступа к внешним пользователям не настроены для ее поддержки.

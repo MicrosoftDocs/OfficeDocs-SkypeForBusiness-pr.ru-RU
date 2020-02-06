@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Внутреннее ДОМЕНное имя пула пограничного доступа используется в различных сценариях, в которых внутренние пользователи взаимодействуют с внешними пользователями для Федерации, удаленного доступа пользователей и общедоступного обмена мгновенными сообщениями. Если пограничный сервер балансировки нагрузки был развернут в устаревшей среде, введите полное доменное имя (FQDN) внутренней подсистемы балансировки нагрузки.
-ms.openlocfilehash: f77d5b962ccfa36b9a819accc42258da1c639cc6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a684ae21e693119bd6bccd1a457d42cf4b37d3a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684622"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819761"
 ---
 # <a name="legacy-merge-fqdn"></a>Полное доменное имя для объединения с устаревшей версией
  

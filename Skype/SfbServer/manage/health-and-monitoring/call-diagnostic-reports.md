@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 'Сводка: сведения о диагностических отчетах о звонках, используемых в Skype для бизнеса Server.'
-ms.openlocfilehash: bd7205afcc6bb37f336b52a6f33c6f2265d151bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc27972836ec78b20276e91ce8bb35d17a95842f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289366"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818130"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Отчеты о диагностике звонков в Skype для бизнеса Server
  
@@ -23,7 +25,7 @@ ms.locfileid: "34289366"
   
 Диагностические отчеты по вызовам предоставляют сводные сведения и диагностические данные для неудачных одноранговых сеансов связи и сеансов конференц-связи.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Сводный отчет о звонках в Skype для бизнеса Server](summary-report.md) Общие сведения об ошибках одноранговых сеансов и сеансов конференций. Одноранговые сеансы – это сеансы, в которых только два участника. Сеансы конференц-связи включают не менее трех участников.
     

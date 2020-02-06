@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Сводка: сведения о диагностических отчетах в Skype для бизнеса Server.'
-ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e8f89f1f5a013b40f7f5f105f49611542667a477
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305775"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817989"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Отчет о диагностике в Skype для бизнеса Server
  
@@ -31,7 +33,7 @@ ms.locfileid: "34305775"
     
 ## <a name="accessing-the-diagnostic-report"></a>Доступ к диагностическому отчету
 
-Отчет о диагностике можно получить, щелкнув метрику диагностического отчета (подробности) в отчете о одноранговых [сеансах в Skype для бизнеса Server](peer-to-peer-session-detail-report.md) или в отчете с подробными сведениями о Конференции.
+Отчет о диагностике можно получить, щелкнув метрику диагностического отчета (подробности) в [отчете о одноранговых сеансах в Skype для бизнеса Server](peer-to-peer-session-detail-report.md) или в отчете с подробными сведениями о Конференции.
   
 ## <a name="filters"></a>Фильтры
 
@@ -43,7 +45,7 @@ ms.locfileid: "34305775"
   
 **Показатели отчета Diagnostic Report (Диагностический отчет)**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**|
+|**Имя**|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Время создания отчета** <br/> |Нет  <br/> |Дата и время создания отчета.  <br/> |
 |**Код ответа** <br/> |Нет  <br/> |Код ответа SIP, отправленный при сбое сеанса.  <br/> |
@@ -58,6 +60,6 @@ ms.locfileid: "34305775"
 |**Время присоединения к конференции (мс)** <br/> |Нет  <br/> |Период времени (в миллисекундах), требуемый для присоединения пользователя к конференции.  <br/> |
 |**Заголовок диагностики** <br/> |Нет  <br/> |Описание ИД диагностики.  <br/> |
    
-Список ошибок диагностики можно найти на странице заголовков [MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+Список ошибок диагностики можно найти на [странице заголовков MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
   
 

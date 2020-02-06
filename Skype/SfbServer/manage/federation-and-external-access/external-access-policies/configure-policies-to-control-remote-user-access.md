@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Вы настраиваете одну или несколько политик доступа внешних пользователей, чтобы управлять совместным использованием внешних пользователей с внутренними пользователями Skype для бизнеса Server. Для управления доступом удаленных пользователей можно настроить политики на уровне Global, site и User.
-ms.openlocfilehash: 96d91179e7b99910182ff360920f3d46b80aa6f4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7735f15e61654f55a70f18ca032cd6b1613fec58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280140"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818300"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Настройка политик для управления доступом удаленных пользователей в Skype для бизнеса Server
 

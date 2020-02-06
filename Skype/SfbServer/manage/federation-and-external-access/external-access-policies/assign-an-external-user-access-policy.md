@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Если для пользователя разрешено использование Skype для бизнеса Server, вы можете настроить федерацию SIP, удаленный доступ пользователей и общедоступную службу обмена мгновенными сообщениями (IM) на панели управления "Skype для бизнеса" на сервере, применив соответствующие политики для конкретных пользователей.
-ms.openlocfilehash: ae8bea38a01f9211fc3338faf3e97f737c99e1a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b87eb377b23063dbcdfd9562a99533da230a8f30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280175"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818330"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Назначение внешней политики доступа пользователю, поддерживающему Skype для бизнеса
 
@@ -45,7 +47,7 @@ ms.locfileid: "34280175"
 5.  В диалоговом окне **изменение пользователя сервера Skype для бизнеса Server** в разделе **Политика внешнего доступа**выберите политику пользователей, которую вы хотите применить.
      
 > [!NOTE]  
-> Параметры ** \<аутоматик_гт_** применяются к параметрам сервера или глобальной политики, используемым по умолчанию.
+> Параметры ** \<автоматического>** применяются к параметрам сервера или глобальной политики, используемым по умолчанию.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Назначение политик внешнего доступа для каждого пользователя с помощью командлетов Windows PowerShell

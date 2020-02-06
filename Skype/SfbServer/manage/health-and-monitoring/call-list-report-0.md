@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Сводка: сведения об отчете о списке обзвона, используемом в Skype для бизнеса Server.'
-ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3013dcce34804c7afb4c0d1ca7a211f8decf56ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289331"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818120"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Отчет о списке обзвона в Skype для бизнеса Server
  
@@ -53,11 +55,11 @@ ms.locfileid: "34289331"
     
 - [Отчет об устройстве в Skype для бизнеса Server](device-report.md) (с помощью кнопки "позвонить" или "неудовлетворительный процент звонков")
     
-- Сводный отчет о качестве звукового [файла в Skype для бизнеса Server](summary.md) (с помощью кнопки "позвонить" или "неудовлетворительный процент звонков")
+- [Сводный отчет о качестве звукового файла в Skype для бизнеса Server](summary.md) (с помощью кнопки "позвонить" или "неудовлетворительный процент звонков")
     
 - [Отчет о производительности сервера в Skype для бизнеса Server](server-performance.md) (с помощью кнопки "позвонить" или "неудовлетворительный процент звонка")
     
-В отчете список обзвона вы можете получить доступ к подробным сведениям о [звонках в Skype для бизнеса Server](call-detail-report.md) , щелкнув детальную метрику.
+В отчете список обзвона вы можете получить доступ к [подробным сведениям о звонках в Skype для бизнеса Server](call-detail-report.md) , щелкнув детальную метрику.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Эффективное использование отчета по списку обзвона
 
@@ -73,7 +75,7 @@ ms.locfileid: "34289331"
   
 **Показатели в отчете по списку обзвона**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**|
+|**Имя**|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Сведения** <br/> |Нет  <br/> |Если щелкнуть этот элемент, в отчете отображается дополнительная информация о вызове.  <br/> |
 |**Вызывающая сторона** <br/> |Да  <br/> |SIP-адрес пользователя, инициировавшего вызов.  <br/> |

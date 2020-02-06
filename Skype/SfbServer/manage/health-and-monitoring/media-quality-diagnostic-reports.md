@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Сводка: сведения об диагностиках качества мультимедиа в Skype для бизнеса Server.'
-ms.openlocfilehash: d4ea9c56406799a6a053092e7b8ca16f44505ce7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e02ea51681b31b524bf87005e7c4b4fcf48bef62
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280035"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817868"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Отчеты диагностики качества мультимедиа в Skype для бизнеса Server
  
@@ -23,7 +25,7 @@ ms.locfileid: "34280035"
   
 Диагностический отчет по качеству мультимедиа предоставляет сведения о качестве вызовов, а также диагностические сведения для неудачных вызовов.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Сводный отчет о качестве качества мультимедиа в Skype для бизнеса Server](summary.md) Обеспечивает общие данные по качеству для разных типов конечных точек, в том числе одноранговых звонков для корпоративной голосовой связи, голосовых звонков и звонков, которые зависят от общедоступной коммутируемой телефонной сети (PSTN).
     

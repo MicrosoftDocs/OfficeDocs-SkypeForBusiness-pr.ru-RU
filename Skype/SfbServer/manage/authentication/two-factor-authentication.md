@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Сводка: Управление двухфакторной проверкой подлинности в Skype для бизнеса Server.'
-ms.openlocfilehash: ccda6795fa5033c792c293701d951e3111666e82
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297563"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818721"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Настройка двухфакторной проверки подлинности в Skype для бизнеса Server
  

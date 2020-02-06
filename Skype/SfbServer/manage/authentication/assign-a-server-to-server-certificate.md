@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Сводка: назначьте сертификат проверки подлинности серверов на сервер для Skype для бизнеса Server.'
-ms.openlocfilehash: 0332ba66c1cad69470b0007c4d9524a3025e0be7
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4689306e0fb8cd7b7c8ce67f74c6ddb65db44f13
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991774"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818861"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Назначение сертификата для проверки подлинности серверов и серверов в Skype для бизнеса Server
 **Сводка:** Назначьте сертификат для проверки подлинности серверов и серверов для Skype для бизнеса Server.

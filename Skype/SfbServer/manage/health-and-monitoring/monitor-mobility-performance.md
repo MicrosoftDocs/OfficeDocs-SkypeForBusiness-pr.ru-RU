@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Сводка: сведения о службе Mobility Service (МККС) и веб-интерфейсе API единой системы обмена сообщениями (УКВА) в Skype для бизнеса Server.'
-ms.openlocfilehash: 7b8340d90b5e1fa18c4dfaa7d61f986344ccbb33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d604c46704881a055385336f8b1ff32862d929a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279923"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817838"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Мониторинг производительности в Skype для бизнеса Server
  
@@ -38,7 +40,7 @@ ms.locfileid: "34279923"
     
 Кроме того, на производительность мобильности могут влиять следующие ограничения на серверах: не более 12 одновременных входов, проверок подлинности, а также возобновлений и прекращений сеансов. В большинстве развертываний эти максимальные значения не нуждаются в изменении.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Наблюдение за ограничениями объема памяти сервера в Skype для бизнеса Server](server-memory-capacity-limits.md)
     

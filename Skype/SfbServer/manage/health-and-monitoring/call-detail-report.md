@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Сводка: сведения о вызове отчета "сведения о звонке", который используется в Skype для бизнеса Server.'
-ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a700bf9969c921db2d36a816579ee36ff59cb3b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289373"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818150"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Отчет о звонках в Skype для бизнеса Server
  
@@ -57,7 +59,7 @@ ms.locfileid: "34289373"
     
 - [Отчет о производительности сервера в Skype для бизнеса Server](server-performance.md) (с помощью кнопки "позвонить" или "неудовлетворительный процент звонков")
     
-- Отчет "список обзвона" [в Skype для бизнеса Server](call-list-report-0.md) (с помощью кнопки "Детальная Метрика")
+- [Отчет "список обзвона" в Skype для бизнеса Server](call-list-report-0.md) (с помощью кнопки "Детальная Метрика")
     
 В отчете сведения о звонке вы можете получить доступ к [отчету устройства в Skype для бизнеса Server](device-report.md) , выбрав один из указанных ниже метрик.
   
@@ -85,7 +87,7 @@ ms.locfileid: "34289373"
   
 **Метрики подробного отчета по вызову**
 
-|**Имя**.|**Поддержка сортировки**|**Описание**|
+|**Имя**|**Поддержка сортировки**|**Описание**|
 |:-----|:-----|:-----|
 |**Caller PAI (PAI вызывающего абонента)** <br/> |Нет  <br/> |Параметр P-Asserted-Identity пользователя, который инициировал вызов. Параметр P-Asserted-Identity используется для передачи подтвержденного удостоверения пользователя в рамках надежной сети.  <br/> |
 |**Caller URI (URI вызывающего абонента)** <br/> |Нет  <br/> |SIP-адрес пользователя, инициировавшего вызов.  <br/> |

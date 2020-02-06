@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Сводка: сведения о задачах мониторинга и настройки работоспособности в Skype для бизнеса Server.'
-ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221939"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817939"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Управление состоянием и мониторингом в Skype для бизнеса Server
 
@@ -23,7 +25,7 @@ ms.locfileid: "35221939"
 
 В этой статье приведены пошаговые инструкции для мониторинга и настройки работоспособности, которые можно выполнить на панели управления Skype для бизнеса Server и в командной консоли управления Skype для бизнеса Server.
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Запись сведений о звонке (CDR) в Skype для бизнеса Server](call-detail-recording-cdr.md)
 

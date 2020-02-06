@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: Внешнее полное доменное имя веб-конференций позволяет внешним пользователям присоединяться к локальным собраниям. Введите полное доменное имя (FQDN) внешнего интерфейса веб-конференций, который является внешним для старого пограничного сервера.
-ms.openlocfilehash: bb059855f7893ef7b2b9c601835bb53e6f0d280b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19e508bdaaf44f64b3d907070d96a3691ce611c0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697094"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819691"
 ---
 # <a name="legacy-merge"></a>Объединение с устаревшей версией
 

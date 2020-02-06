@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Если вы развертываете Skype для бизнеса в своей организации, вы можете использовать федерацию с доменами одного или нескольких клиентов Skype для бизнеса Online. '
-ms.openlocfilehash: c6cf36abbbf8876a8aa349d4576b45220517b89e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6b0cbb439910b97d6fcbb0fee78825b0aff9dce
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280112"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818260"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Настройка поддержки федерации для клиента Skype для бизнеса Online в Skype для бизнеса Server 
 
@@ -61,7 +63,7 @@ ms.locfileid: "34280112"
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>Настройка поддержки поставщика услуг размещения
 
-1.  На сервере переднего плана запустите командную консоль управления Skype для бизнеса Server: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Skype для бизнеса Server**, а затем — Командная **консоль управления Skype для бизнеса Server**.
+1.  На сервере переднего плана запустите командную консоль управления Skype для бизнеса Server: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Skype для бизнеса Server**, а затем — **Командная консоль управления Skype для бизнеса Server**.
 
 2.  Запустите командлет **New-кшостингпровидер** для создания и настройки поставщика услуг размещения. Например, выполните следующую команду:
     
@@ -81,7 +83,7 @@ ms.locfileid: "34280112"
     
       - **Хостсоксусерс** указывает, используется ли поставщик услуг размещения для размещения учетных записей Skype для бизнеса Server. Если **False**, то поставщик размещает другие типы учетных записей, такие как учетные записи Microsoft Exchange.
     
-      - **** "WebProxy" показывает, является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Skype для бизнеса.
+      - "WebProxy **" показывает,** является ли прокси-сервер, используемый поставщиком услуг размещения, включен в топологию сервера Skype для бизнеса.
     
     Подробнее об использовании этого командлета можно узнать в статьях [New-кшостингпровидер](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider).
 
