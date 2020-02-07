@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: Rowille
 description: Видеоролики, знакомящие ИТ-администратора с Аудиоконференциями в Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,27 +18,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab70883c3ac98b6a67fe7f1685d161ffc7d5960
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 2bdfc195f492c5c9c88a7daeb3a950dfb190ef83
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37515967"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825497"
 ---
-<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="8bcde-103">Видео: Аудиоконференции в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8bcde-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
+<a name="videos-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="208f4-103">Видео: Аудиоконференции в Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="208f4-103">Videos: Audio Conferencing in Microsoft Teams</span></span>
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 > [!NOTE]
-> <span data-ttu-id="8bcde-104">Раньше Аудиоконференции назывались конференц-связью по ТСОП.</span><span class="sxs-lookup"><span data-stu-id="8bcde-104">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
+> <span data-ttu-id="208f4-104">Раньше Аудиоконференции назывались конференц-связью по ТСОП.</span><span class="sxs-lookup"><span data-stu-id="208f4-104">Audio Conferencing was formerly known as PSTN Conferencing</span></span>
 
 
-### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="8bcde-105">Введение в Аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="8bcde-105">Introduction to Audio Conferencing</span></span>
+### <a name="introduction-to-audio-conferencing"></a><span data-ttu-id="208f4-105">Введение в Аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="208f4-105">Introduction to Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AGPvaW4Vg0o]
 
-### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="8bcde-106">Планирование Аудиоконференций</span><span class="sxs-lookup"><span data-stu-id="8bcde-106">Plan for Audio Conferencing</span></span>
+### <a name="plan-for-audio-conferencing"></a><span data-ttu-id="208f4-106">Планирование Аудиоконференций</span><span class="sxs-lookup"><span data-stu-id="208f4-106">Plan for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/AWbuvcWcYIc]
 
-### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="8bcde-107">Перенос номеров для Аудиоконференций</span><span class="sxs-lookup"><span data-stu-id="8bcde-107">Number porting for Audio Conferencing</span></span>
+### <a name="number-porting-for-audio-conferencing"></a><span data-ttu-id="208f4-107">Перенос номеров для Аудиоконференций</span><span class="sxs-lookup"><span data-stu-id="208f4-107">Number porting for Audio Conferencing</span></span>
 > [!VIDEO https://www.youtube.com/embed/5k0C21KAsns]
