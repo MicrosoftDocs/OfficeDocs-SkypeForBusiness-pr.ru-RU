@@ -13,14 +13,16 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 7c1a264a3a286dec464af8d3389262fdfbb56f33
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 483b8d6d3770f37bdac5c28f35b2f34ccf5043e8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572436"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837889"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Обучение ИТ-администратора для работы с Microsoft Teams
 
@@ -92,7 +94,7 @@ ms.locfileid: "37572436"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Устранение неполадок в Skype для бизнеса Online</h3>
+                        <h3>Устранение проблем со Skype для бизнеса Online</h3>
                     </div>
                 </div>
             </div>
@@ -134,9 +136,9 @@ ms.locfileid: "37572436"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Следующим</h3>
+                        <h3>Статьи</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Настройка телефонной системы в вашей организации</a></p>
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Настройка телефонной системы в организации</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Сторонняя интеграция с Аудиоконференциями</a></p>
                     </div>
                 </div>
@@ -153,7 +155,7 @@ ms.locfileid: "37572436"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Новые возможности</h3>
+                        <h3>Новые функции</h3>
                         <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Планы звонков в Канаде (общедоступная версия)</a></p>
                         <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Планы звонков в Австралии (только предварительная версия)</a></p>
                     </div>

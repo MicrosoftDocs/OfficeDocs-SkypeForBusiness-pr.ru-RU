@@ -16,50 +16,50 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Администраторы могут управлять тем, как организаторы используют бесплатные номера для своих собраний.
-ms.openlocfilehash: e6a62473c2db2e2a36a0b0302831afe0b4877f8f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707274"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837269"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a><span data-ttu-id="39e9f-103">Отключение бесплатных номеров для отдельных пользователей Teams</span><span class="sxs-lookup"><span data-stu-id="39e9f-103">Disabling toll-free numbers for specific Teams users</span></span>
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a><span data-ttu-id="b1941-103">Отключение бесплатных номеров для отдельных пользователей Teams</span><span class="sxs-lookup"><span data-stu-id="b1941-103">Disabling toll-free numbers for specific Teams users</span></span>
 
-<span data-ttu-id="39e9f-104">Если в организации имеются бесплатные номера моста аудиоконференций Microsoft, можно разрешить или запретить их использование на собраниях определенных организаторов.</span><span class="sxs-lookup"><span data-stu-id="39e9f-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
+<span data-ttu-id="b1941-104">Если в организации имеются бесплатные номера моста аудиоконференций Microsoft, можно разрешить или запретить их использование на собраниях определенных организаторов.</span><span class="sxs-lookup"><span data-stu-id="b1941-104">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
 
-<span data-ttu-id="39e9f-105">По умолчанию для всех пользователей в организации разрешены бесплатные номера, что означает, что эти номера (при наличии) могут использовать участники для присоединения к собраниям.</span><span class="sxs-lookup"><span data-stu-id="39e9f-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="39e9f-106">Если это является нежелательным для некоторых пользователей в организации, можно запретить для определенных пользователей использование этих номеров на собраниях с помощью средства управления бесплатными номерами.</span><span class="sxs-lookup"><span data-stu-id="39e9f-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
+<span data-ttu-id="b1941-105">По умолчанию для всех пользователей в организации разрешены бесплатные номера, что означает, что эти номера (при наличии) могут использовать участники для присоединения к собраниям.</span><span class="sxs-lookup"><span data-stu-id="b1941-105">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="b1941-106">Если это является нежелательным для некоторых пользователей в организации, можно запретить для определенных пользователей использование этих номеров на собраниях с помощью средства управления бесплатными номерами.</span><span class="sxs-lookup"><span data-stu-id="b1941-106">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
 
-<span data-ttu-id="39e9f-107">Если бесплатные номера отключены для определенного организатора</span><span class="sxs-lookup"><span data-stu-id="39e9f-107">When toll-free numbers are disabled for a given organizer:</span></span> 
- - <span data-ttu-id="39e9f-108">Бесплатный номер не будет включен в приглашения на собрания.</span><span class="sxs-lookup"><span data-stu-id="39e9f-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
- - <span data-ttu-id="39e9f-109">Бесплатные номера не будут указаны в списке на странице «Найти локальный номер», на которую ссылаются приглашения на собрания.</span><span class="sxs-lookup"><span data-stu-id="39e9f-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
- - <span data-ttu-id="39e9f-110">Участники не смогут присоединиться к собранию указанного организатора при наборе любого бесплатного номера организации.</span><span class="sxs-lookup"><span data-stu-id="39e9f-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
- - <span data-ttu-id="39e9f-111">Все собрания организатора будут автоматически перенесены, а бесплатный номер будет удален из них.</span><span class="sxs-lookup"><span data-stu-id="39e9f-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
+<span data-ttu-id="b1941-107">Если бесплатные номера отключены для определенного организатора</span><span class="sxs-lookup"><span data-stu-id="b1941-107">When toll-free numbers are disabled for a given organizer:</span></span> 
+ - <span data-ttu-id="b1941-108">Бесплатный номер не будет включен в приглашения на собрания.</span><span class="sxs-lookup"><span data-stu-id="b1941-108">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="b1941-109">Бесплатные номера не будут указаны в списке на странице «Найти локальный номер», на которую ссылаются приглашения на собрания.</span><span class="sxs-lookup"><span data-stu-id="b1941-109">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="b1941-110">Участники не смогут присоединиться к собранию указанного организатора при наборе любого бесплатного номера организации.</span><span class="sxs-lookup"><span data-stu-id="b1941-110">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
+ - <span data-ttu-id="b1941-111">Все собрания организатора будут автоматически перенесены, а бесплатный номер будет удален из них.</span><span class="sxs-lookup"><span data-stu-id="b1941-111">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
 
     > [!IMPORTANT]
-    > <span data-ttu-id="39e9f-112">При этом будут повторно отправлены все приглашения электронной почты организатора всем участникам этих собраний.</span><span class="sxs-lookup"><span data-stu-id="39e9f-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
+    > <span data-ttu-id="b1941-112">При этом будут повторно отправлены все приглашения электронной почты организатора всем участникам этих собраний.</span><span class="sxs-lookup"><span data-stu-id="b1941-112">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
 
- - <span data-ttu-id="39e9f-113">Участники могут продолжать присоединяться к собраниям организатора с помощью бесплатных номеров.</span><span class="sxs-lookup"><span data-stu-id="39e9f-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
+ - <span data-ttu-id="b1941-113">Участники могут продолжать присоединяться к собраниям организатора с помощью бесплатных номеров.</span><span class="sxs-lookup"><span data-stu-id="b1941-113">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="39e9f-114">Отключение бесплатных номеров для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="39e9f-114">Disabling toll-free numbers for specific users</span></span> 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="b1941-114">Отключение бесплатных номеров для отдельных пользователей</span><span class="sxs-lookup"><span data-stu-id="b1941-114">Disabling toll-free numbers for specific users</span></span> 
 
-<span data-ttu-id="39e9f-115">Из **центра администрирования Microsoft Teams**:</span><span class="sxs-lookup"><span data-stu-id="39e9f-115">From the **Microsoft Teams admin center**:</span></span>
+<span data-ttu-id="b1941-115">Из **центра администрирования Microsoft Teams**:</span><span class="sxs-lookup"><span data-stu-id="b1941-115">From the **Microsoft Teams admin center**:</span></span>
 
-1. <span data-ttu-id="39e9f-116">На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.</span><span class="sxs-lookup"><span data-stu-id="39e9f-116">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="b1941-116">На панели навигации слева выберите пункт **Пользователи**, а затем выберите пользователя из списка доступных пользователей.</span><span class="sxs-lookup"><span data-stu-id="b1941-116">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="39e9f-117">Щелкните **Изменить** рядом с элементом **Аудиоконференции**.</span><span class="sxs-lookup"><span data-stu-id="39e9f-117">Next to **Audio Conferencing**, click **Edit**.</span></span>
+2. <span data-ttu-id="b1941-117">Щелкните **Изменить** рядом с элементом **Аудиоконференции**.</span><span class="sxs-lookup"><span data-stu-id="b1941-117">Next to **Audio Conferencing**, click **Edit**.</span></span>
 
-3. <span data-ttu-id="39e9f-118">Установите параметр **включать свободные номера в приглашения на собрания от этого пользователя** в **состояние "Выкл**.".</span><span class="sxs-lookup"><span data-stu-id="39e9f-118">Set **Include toll-free numbers in meeting requests from this user** to **Off**.</span></span> 
+3. <span data-ttu-id="b1941-118">Установите параметр **включать свободные номера в приглашения на собрания от этого пользователя** в **состояние "Выкл**.".</span><span class="sxs-lookup"><span data-stu-id="b1941-118">Set **Include toll-free numbers in meeting requests from this user** to **Off**.</span></span> 
 
-4. <span data-ttu-id="39e9f-119">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="39e9f-119">Click **Save.**</span></span> 
+4. <span data-ttu-id="b1941-119">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="b1941-119">Click **Save.**</span></span> 
 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
  
-<span data-ttu-id="39e9f-120">**Использование PowerShell**</span><span class="sxs-lookup"><span data-stu-id="39e9f-120">**Using PowerShell**</span></span>  
+<span data-ttu-id="b1941-120">**Использование PowerShell**</span><span class="sxs-lookup"><span data-stu-id="b1941-120">**Using PowerShell**</span></span>  
 
-<span data-ttu-id="39e9f-121">Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="39e9f-121">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="b1941-121">Дополнительные сведения см. в [справочнике по Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="b1941-121">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
