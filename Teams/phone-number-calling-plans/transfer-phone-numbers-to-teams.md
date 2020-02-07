@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925689"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827937"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Передача телефонных номеров в Microsoft Teams
 
 С помощью мастера переноса в центре администрирования Microsoft Teams вы можете перенести ваши номера телефонов из вашего текущего поставщика услуг в Teams. После того как вы перейдете на свой номер телефона в Teams, корпорация Майкрософт станет поставщиком услуг и выведет счет за эти телефонные номера.
 
-Прежде чем приступить к работе, мы рекомендуем вам ознакомиться с информацией в [порядке, в котором они находятся на порте?](port-order-overview.md). Если у вас есть номера служб для моста конференц-связи с телефонным подключением, автосекретарей или других сервисных номеров, бесплатных телефонных номеров или более 999 пользователей (подписчиков), которые нужно перенести в Teams, ознакомьтесь со сведениями о том, как [управлять телефонными номерами. организациям](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) загрузить нужные формы и отправить их нам.
+Прежде чем приступить к работе, мы рекомендуем вам ознакомиться с информацией в [порядке, в котором они находятся на порте?](port-order-overview.md). Если у вас есть номера служб для моста конференц-связи с телефонным подключением, автосекретарей или других сервисных номеров, бесплатных телефонных номеров или более 999 пользователей (подписчиков), которые нужно перенести в Teams, ознакомьтесь со сведениями о том, как [управлять номерами телефонов для вашей организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , чтобы скачать нужные формы и отправить их нам.
 
   > [!NOTE]
   > Мы обработаем заказы на перенос телефонных номеров только в США, а не в общедоступных праздничных и выходных.
@@ -89,7 +91,7 @@ ms.locfileid: "37925689"
 
 ## <a name="related-topics"></a>См. также
 
-- [Что такое номер порта?](port-order-overview.md)
+- [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)

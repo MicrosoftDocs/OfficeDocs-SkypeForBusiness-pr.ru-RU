@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Начало работы с шаблонами Teams для организаций в сфере здравоохранения
-ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: d2e22b47fbb0e6387a183fc12da70f7729af9172
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702320"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827767"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Начало работы с шаблонами Teams для организаций в сфере здравоохранения
 
@@ -36,7 +38,7 @@ ms.locfileid: "38702320"
 
 |Тип базового шаблона |басетемплатеид |Каналы базового шаблона|
 |:--- |:---|:---|
-|Здравоохранение – до | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Обслуживании\* <br> худдлес\* <br> До\* <br> Штата\* <br> Подготовку\* |
+|Здравоохранение – до | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Обслуживании\* <br> худдлес\* <br> До\* <br> Штата\* <br> Обучение\* |
 |     | |         |
 
 \*Автоматическое добавление в избранное
@@ -161,7 +163,7 @@ ms.locfileid: "38702320"
 
 ```
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Начало работы с шаблонами Teams](../../get-started-with-teams-templates.md)
 

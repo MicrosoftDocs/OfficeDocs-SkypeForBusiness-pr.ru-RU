@@ -8,17 +8,19 @@ ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
 description: Используйте этот сценарий PowerShell для создания политики обмена сообщениями в Teams и назначения ее пользователям в своей организации.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c8f58e4fbfa7629f9e5c59c41e0100263c29d4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 06f2dee7e7dbc4e15d544433057a8bb12b75b7c4
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573452"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827417"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Пример сценария PowerShell — создание и назначение политики обмена сообщениями
 -------------------------------------------------------------------------

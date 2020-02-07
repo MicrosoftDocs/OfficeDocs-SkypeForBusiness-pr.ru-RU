@@ -9,18 +9,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: Сведения об улучшении групп Office 365 с помощью Microsoft Teams за счет приглашения в команду с помощью списка рассылки, добавления групп безопасности с поддержкой почты и т. п.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1769fad917cb942072df4ff58aa1f4fcb91c14
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567462"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832919"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Расширение существующих групп Office 365 с помощью Microsoft Teams
 =======================================================

@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Скачайте, установите и используйте Windows PowerShell 5.1, чтобы создать удаленный сеанс PowerShell, соединяющийся с приложением Skype для бизнеса Online.
-ms.openlocfilehash: 1bea6ab4081acbc5efa07c3ec0e60677fe60a326
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831159"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Скачивание и установка Windows PowerShell 5.1
 
@@ -94,7 +94,7 @@ Get-ExecutionPolicy
 
 Если вы не знаете свою версию Windows или не уверены, установлен ли у вас пакет обновления 1 для Windows 7, откройте меню **Пуск**, щелкните правой кнопкой мыши пункт **Компьютер** и выберите пункт **Свойства**. Нужная информация будет представлена в диалоговом окне "Система".
   
-Чтобы установить Windows Management Framework 5.1, выполните процедуру из статьи [Установка и настройка WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
+Чтобы установить Windows Management Framework 5.1, выполните процедуру из статьи [Установка и настройка WMF 5.1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
   
 После перезагрузки проверьте работоспособность Windows PowerShell и возможность запуска этого приложения от имени администратора. Для этого выполните следующие действия:
   

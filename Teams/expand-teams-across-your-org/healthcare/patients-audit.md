@@ -7,20 +7,22 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Приложение пациентов для администраторов Teams
-ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749551"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827617"
 ---
-# <a name="audit-logs-for-patients-app"></a>Журналы аудита для приложения пациентов
+# <a name="audit-logs-for-patients-app"></a>Журналы аудита приложения для пациентов
 
 Журнал аудита для пациентов активности приложений позволяет группам в ответах на вопрос просмотреть изменения электронных записей пациента (ЕМР) или сведений о пациентах (фи) и определить, изменяются ли изменения или усовершенствования политики или процедуры для доступа по форме фи. требуются инструменты для повышения продуктивности. События журнала аудита обкрывают действия, выполненные в пользовательском интерфейсе приложения пациентов.
 
@@ -76,7 +78,7 @@ ms.locfileid: "37749551"
 
 Сведения о действиях в журнале для Microsoft Teams в целом описаны в разделе [действия Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Поиск в журнале аудита Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 

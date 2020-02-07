@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.callqueues.overview"
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Сведения о том, как настроить телефонную систему для очередей облачных вызовов в Microsoft Teams.
-ms.openlocfilehash: 2744a989225098b47814c53cb089de7a0ee6cfe4
-ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
+ms.openlocfilehash: 0447bf7aa8d935b214dc9db7c9a730d27fbb0b23
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41664328"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824796"
 ---
 # <a name="create-a-cloud-call-queue"></a>Создание облачной очереди вызовов
 

@@ -9,17 +9,19 @@ ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
 description: Сведения о назначении разрешений и ролей для владельцев и участников команд в Microsoft Teams, включая права на создание команд.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968070"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826107"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Назначение владельцев и участников команд в Microsoft Teams
 =================================================
@@ -42,10 +44,10 @@ ms.locfileid: "37968070"
 | **Изменить название и описание стандартного канала** |    Да     |    Да<sup>2</sup>|
 |        **Удалить стандартный канал**         |    Да     |    Да<sup>2</sup>|
 |          ***Добавление закрытого канала**          |    Да     |    Да<sup>2</sup>|
-| ***Изменить имя и описание личного канала** |    Нет     |    Недоступно|
+| ***Изменить имя и описание личного канала** |    Нет     |    Н/Д|
 |        ***Удаление закрытого канала**         |    Да     |    Нет|
 |          **Добавление участников**          |  Да,<sup>3</sup>   |     No<sup>4</sup>    |
-|          **Запрос на добавление участников**          |  Недоступно   |     Да,<sup>5</sup>     |
+|          **Запрос на добавление участников**          |  Н/Д   |     Да,<sup>5</sup>     |
 |           **Добавление вкладок**            |    Да     |    Да<sup>2</sup>|
 |        **Добавление соединителей**         |    Да     |    Да<sup>2</sup>|
 |           **Добавление ботов**            |    Да     |    Да<sup>2</sup>|

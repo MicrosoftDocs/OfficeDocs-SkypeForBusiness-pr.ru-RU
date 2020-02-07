@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Сведения о том, как настроить и управлять приложением смен в Teams для Firstline работников в Организации.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992546"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831171"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Управление приложением "Смены" для вашей организации в Microsoft Teams
 
@@ -77,11 +79,11 @@ ms.locfileid: "40992546"
 2. Рядом с пунктом **назначенные политики**нажмите кнопку **изменить**.
 3. В разделе **Политика настройки приложения Teams**выберите **фирстлиневоркер**и нажмите кнопку **сохранить**.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Назначение политики настройки приложения Фирстлиневоркер пользователям в группе
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Назначение политики настройки приложения Фирстлиневоркер пользователям группы
 
-Вы можете назначить политику настройки приложения Фирстлиневоркер пользователям в группе (например, группе безопасности), подключив ее к модулю Azure Active Directory PowerShell для Graph и в модуль Skype для бизнеса PowerShell. Дополнительные сведения об использовании PowerShell для управления группами можно найти в разделе [Общие сведения о Teams PowerShell](../../teams-powershell-overview.md).
+Вы можете назначить политику настройки приложения Фирстлиневоркер пользователям группы, например группе безопасности, подключився к модулю Azure Active Directory PowerShell для Graph и в модуль Skype для бизнеса PowerShell. Дополнительные сведения об использовании PowerShell для управления группами можно найти в разделе [Общие сведения о Teams PowerShell](../../teams-powershell-overview.md).
 
-В этом примере мы назначаем политику настройки приложения Фирстлиневоркер всем пользователям в группе группы "Contoso Firstline".
+В этом примере мы назначаем политику настройки приложения Фирстлиневоркер всем пользователям группы группы Contoso FIRSTLINE.
 
 > [!NOTE]
 > Убедитесь, что вы подключаетесь к модулю Azure Active Directory PowerShell для модуля Graph и Skype для бизнеса PowerShell, выполнив действия, описанные в разделе [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -94,9 +96,9 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Назначьте политике настройки приложения Фирстлиневоркер всем пользователям в группе.
+Назначьте политику настройки приложения Фирстлиневоркер всем пользователям группы.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 Для выполнения этой команды может потребоваться несколько минут в зависимости от количества участников в группе.
 

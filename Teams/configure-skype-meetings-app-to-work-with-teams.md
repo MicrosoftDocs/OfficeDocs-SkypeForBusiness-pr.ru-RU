@@ -9,17 +9,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Администраторы могут использовать центр администрирования Microsoft Teams для настройки приложения "собрания Skype" для работы с Teams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516926"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825527"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Настройка приложения "Собрания Skype" для работы с Teams
 ===================================================
@@ -28,7 +30,7 @@ ms.locfileid: "37516926"
 
 Чтобы указать приложение Skype для собраний в качестве предпочтительного приложения, выполните указанные ниже действия.
 
-1. Войдите в центр администрирования Microsoft Teams.
+1. Войдите в Центр администрирования Microsoft Teams.
 2. На левой панели в разделе **Параметры организации**выберите **Обновление Teams**.
 3. На странице "обновление Teams" в разделе " **настройки приложения**" выберите **приложение "собрания Skype** " из **предпочтительного приложения для пользователей, чтобы присоединиться к раскрывающимся спискам собраний Skype для бизнеса** .
 

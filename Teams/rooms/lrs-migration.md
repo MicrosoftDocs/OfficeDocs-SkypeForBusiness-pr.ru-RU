@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: В этой статье рассказывается о том, как переносить системные устройства комнат Lync для использования программного обеспечения Microsoft Teams.
-ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 4aad70c0a91824f0b1eff892aa1940760fc39d39
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269178"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826007"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Миграция устройств из системы комнаты Lync (ЛРС) в комнаты Microsoft Teams
 

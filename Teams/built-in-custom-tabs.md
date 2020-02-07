@@ -10,16 +10,18 @@ audience: admin
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: Сведения об использовании встроенных и настраиваемых вкладок для таких компонентов, как беседы, файлы, карты и многое другое.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824697"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Использование встроенных и настраиваемых вкладок в Microsoft Teams
 ==================================================
@@ -53,7 +55,7 @@ ms.locfileid: "39909365"
 
 ## <a name="develop-custom-tabs"></a>Разработка настраиваемых вкладок
 
-Помимо встроенных вкладок, вы можете проектировать и разрабатывать собственные вкладки для интеграции с группами или делиться ими с другими участниками сообщества. Дополнительные сведения вы найдете в [документации разработчика](/microsoftteams/platform/tabs/what-are-tabs) .
+Помимо встроенных вкладок, вы можете проектировать и разрабатывать собственные вкладки для интеграции с группами или делиться ими с другими участниками сообщества. Дополнительные сведения см. в [документации для разработчиков](/microsoftteams/platform/tabs/what-are-tabs).
 
 ![Снимок экрана с примером настраиваемой вкладки в Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

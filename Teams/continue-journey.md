@@ -11,19 +11,21 @@ search.appverid: MET150
 description: Руководство по продолжению путешествия из Skype для бизнеса в Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236369"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825307"
 ---
-![Обновление схемы поездки с акцентом на этапе непрерывности] работы (media/upgrade-banner-op-excellence.png "Этапы путешествия по обновлению, с акцентом на этапе непрерывности") работы
+![Обновление схемы поездки с акцентом на этапе непрерывности работы](media/upgrade-banner-op-excellence.png "Этапы путешествия по обновлению, с акцентом на этапе непрерывности работы")
 
 Эта статья относится к этапу непрерывной работы по обновлению, который начинается сразу же после того, как вы закончите переход с Skype для бизнеса на Teams.
 
@@ -45,7 +47,7 @@ ms.locfileid: "36236369"
 
 - Прикрепление одноранговых лидерами для еванжелизе и поддержки пользователей.
 - В [руководстве по внедрению Office 365 вы найдете](https://go.microsoft.com/fwlink/?linkid=859045) советы по повышению задействования и его внедрению.
-- Использование комплекта [успешных клиентов Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) для улучшения качества и предоставления лучших рекомендаций.
+- Использование [комплекта успешных клиентов Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) для улучшения качества и предоставления лучших рекомендаций.
 - Реализация формальной [стратегии внедрения и управления изменениями](http://www.successwithteams.com/) , которая помогает поддерживать рост внедрения.
 
 ## <a name="prepare-for-new-functionality"></a>Подготовка к новым функциям
@@ -56,4 +58,4 @@ ms.locfileid: "36236369"
 - Реализуйте форму планирования изменения (как показано ниже) для подготовки и реализации новых функций. Не забудьте включить как технические, так и пользовательские действия по подготовке.
 
 
-![Пример формы, в которой показаны ожидаемые даты выпуска и заметки] (media/upgrade-change-plan-form.png "Пример формы, в которой показаны ожидаемые даты выпуска и заметки о новых функциях, указанных в разделе \"следующие шаги и владельцы") "
+![Пример формы, в которой показаны ожидаемые даты выпуска и заметки](media/upgrade-change-plan-form.png "Пример формы, в которой показаны ожидаемые даты выпуска и заметки о новых функциях, указанных в разделе "следующие шаги и владельцы"")

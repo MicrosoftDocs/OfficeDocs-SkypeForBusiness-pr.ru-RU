@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Сведения о том, как создавать абонентские группы и управлять ими (абонентские группы для звонков по коммутируемой телефонной связи) и как управлять ими.
-ms.openlocfilehash: e61fb8c2ffd5c13816ff0093fc117dfadb251594
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707264"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826927"
 ---
 # <a name="create-and-manage-dial-plans"></a>Создание и использование абонентских групп
 

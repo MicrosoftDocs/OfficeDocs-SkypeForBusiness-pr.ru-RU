@@ -10,8 +10,10 @@ ms.reviewer: dearbeen, bjwhalen
 description: Подробные сведения о возможностях и режимах косуществования в Skype для бизнеса и Microsoft Teams, а затем переход к Teams из Skype для бизнеса с помощью примеров сценариев.
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
 f1.keywords:
+- CSH
+ms.custom:
+- Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection:
@@ -19,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9f4583e3ea15a073e0dbbebbebaee9db64678d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707534"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833729"
 ---
 ![Обновление схемы поездки с акцентом на этапе определения проекта](media/upgrade-banner-project-definition.png "Этапы путешествия по обновлению с акцентом на стадии определения проекта")
 

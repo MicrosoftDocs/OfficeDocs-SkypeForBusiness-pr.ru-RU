@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Выберите клиентские приложения Teams, спланируйте качество конечной точки, получите рекомендации по развертыванию конечных точек Wi-Fi и выбору звуковых устройств.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069200"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825187"
 ---
 # <a name="plan-my-users-experience"></a>Планирование работы пользователей
 

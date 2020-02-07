@@ -1,5 +1,5 @@
 ---
-title: Подключение приложения пациентов к Azure API для ФХИР
+title: Подключение приложения для пациентов к Azure API для FHIR
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Сведения о том, как подключить приложение пациентов в Microsoft Teams к Azure API для ФХИР (ресурсы для быстрого обеспечения для сферы здравоохранения).
-ms.openlocfilehash: e532aa9f9fbecb472db63a1ddad4cd71518a8041
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259142"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827727"
 ---
-# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Подключение приложения пациентов к Azure API для ФХИР
+# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Подключение приложения для пациентов к Azure API для FHIR
 
 Выполните эти действия, чтобы разрешить приложению пациентов в Microsoft Teams получить доступ к интерфейсу API Azure для экземпляра ФХИР. В этой статье предполагается, что у вас есть [API Azure для настройки экземпляра фхир](https://azure.microsoft.com/services/azure-api-for-fhir/) и его настройки в клиенте.  Если вы еще не создали интерфейс Azure API для экземпляра ФХИР в клиенте, ознакомьтесь [со ссылкой краткое руководство: развертывание Azure API для фхир с помощью портала Azure](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 

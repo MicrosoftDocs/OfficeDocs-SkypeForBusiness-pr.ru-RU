@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: В этой статье рассказывается о том, как использовать средство восстановления для комнат Microsoft Teams, которое можно использовать для выхода из системы, в которой она находится в поддерживаемом состоянии.
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269177"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831181"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Используйте средство восстановления приложения "Комнаты Microsoft Teams"
 
@@ -27,7 +29,7 @@ ms.locfileid: "41269177"
 Скачайте последний [установочный пакет Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=851168) и извлеките его в сетевую папку, доступную для устройства с поддержкой Microsoft Teams.
 
 > [!NOTE]
-> Извлечение файлов из MSI может осуществляться многими способами. Любой механизм, извлекающий все файлы и сохраняющий их структуру каталогов, является приемлемым. Один из таких способов — это использование команды `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` , `PathToMsi` где представлен полный путь к установочному пакету Microsoft Teams, `PathToTarget` и представляет полный путь к папке, в которую вы хотите извлечь файлы.
+> Извлечение файлов из MSI может осуществляться многими способами. Любой механизм, извлекающий все файлы и сохраняющий их структуру каталогов, является приемлемым. Один из таких способов — это использование команды `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` , `PathToMsi` где представлен полный путь к установочному пакету Microsoft Teams, `PathToTarget` и представляет полный путь к папке, в которую вы хотите извлечь файлы.
 
 ## <a name="running-the-tool"></a>Запуск средства
 

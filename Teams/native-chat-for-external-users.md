@@ -11,13 +11,15 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Узнайте о том, как работать с другими пользователями в Microsoft Teams с помощью чата, если оба пользователя находятся в режиме обновления Теамсонли.
-ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966762"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832689"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Встроенные функции чата для внешних (Федеративных) пользователей в Microsoft Teams
 ======================================

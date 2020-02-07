@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: ''
 description: В этой статье рассказывается, как настроить учетные записи для комнат Microsoft Teams в Exchange и Skype для бизнеса.
-ms.openlocfilehash: 473eb6de8b3e680487cee5ebe9e052fa179a619e
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269168"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825947"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Настройка учетных записей для комнат Microsoft Teams
  

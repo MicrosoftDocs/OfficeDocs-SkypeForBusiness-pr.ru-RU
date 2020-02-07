@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Здесь вы узнаете, как назначить, изменить или удалить номер рабочего телефона для пользователей Teams, чтобы внешние компании и клиенты могли звонить через Skype.
-ms.openlocfilehash: a52e8892150e94f73b76bd68aae874b50bd19a71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695734"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826997"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Назначение, изменение и удаление номера телефона пользователя
 

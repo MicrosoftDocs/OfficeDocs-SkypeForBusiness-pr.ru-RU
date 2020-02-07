@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 description: Пользователи могут использовать план звонков Office 365 и голосовую конференцию Office 365 в соответствии с условиями использования служб Skype для бизнеса Online и Microsoft Teams PSTN и соглашения о корпоративном лицензировании клиентов.
-ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695444"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825507"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Бесплатный период исходящих звонков для аудиоконференций
 

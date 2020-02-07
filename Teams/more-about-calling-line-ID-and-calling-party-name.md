@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Сведения о том, почему необходимо добавить уполномоченного пользователя, который может вносить изменения в учетную запись при использовании мастера создания заказа на перенос локальных номеров.
-ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708805"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832659"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Дополнительные сведения об ИД линии вызова и имени вызывающей стороны
 

@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: В дополнение к стандартным лицензиям на использование звука для пользователей организации, использующие Microsoft Volume Licensing, также могут выбрать оплату за минуту, чтобы включить возможности голосовой конференции для своих организаций.
-ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684142"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826287"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Поминутная оплата аудиоконференций
 

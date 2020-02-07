@@ -15,14 +15,16 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: В этой статье рассказывается о том, как использовать голосовую конференцию с прямой маршрутизацией в ГКЧ и по требованию.
-ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992899"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825657"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Аудиоконференции с прямой маршрутизацией для GCC High и DoD
 

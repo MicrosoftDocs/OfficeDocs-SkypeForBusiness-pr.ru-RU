@@ -10,6 +10,8 @@ layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
@@ -17,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a4de926de9fe56bb4ca5c5068a3b5dcb335e09f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236658"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827137"
 ---
 # <a name="tools-for-driving-adoption"></a>Инструменты для принятия решения 
 
@@ -150,7 +152,7 @@ ms.locfileid: "36236658"
 Программа Office 365 лидерами — это бесплатная программа, позволяющая людям, которые хотят получить больше возможностей из Microsoft Teams и других служб Office 365. Мы собираю наше интернет-сообщество в [техническом сообществе Майкрософт](https://aka.ms/DriveAdoption) с помощью ежемесячных звонков по сообществам, которые выделяют все компоненты, необходимые для внедрения, и рекомендации по новым функциям. Присоединяйтесь к нашему https://aka.ms/O365Champions сообществу и получайте доступ к раннему выпуску, прослушивать других пользователей и получать знания экспертов Майкрософт.  
 
 ### <a name="teams-adoption-guide"></a>Руководство по внедрению команд
-Ознакомьтесь с флипбуками по [внедрению команд](https://aka.ms/teamstoolkit), которые помогут вам развлекать команды в своей компании. Она содержит множество загружаемых инструментов, шаблонов и других ресурсов, которые помогут вам в пути внедрения команды.
+Ознакомьтесь с [флипбуками по внедрению команд](https://aka.ms/teamstoolkit), которые помогут вам развлекать команды в своей компании. Она содержит множество загружаемых инструментов, шаблонов и других ресурсов, которые помогут вам в пути внедрения команды.
 
 ### <a name="teams-customer-success-kit"></a>Комплект успешных клиентов Teams
 [Комплект поставки клиентов Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) предоставляет средства, помогающие в развертывании групп в Организации. Она включает шаблоны электронной почты для объявлений, листовок плакатов, отсчета и советов & приемы. Кроме того, он содержит руководства по началу работы для руководителей групп и ИТ – администраторов.

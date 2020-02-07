@@ -9,6 +9,8 @@ ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
 description: В этой статье описываются автоматические ассистенты и очереди звонков, а также объясняется, как можно ответить на эти звонки в Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516799"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825317"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Ответ на звонки автосекретарей и очередей вызовов непосредственно из Teams
 ===========================================================
@@ -60,7 +62,7 @@ ms.locfileid: "37516799"
 
 Чтобы получать автосекретаря и звонки из очереди звонков в Microsoft Teams, необходимо настроить политику взаимодействия и политику обновления. Пожалуйста, просматривайте [миграцию и взаимодействие для организаций, использующих Teams вместе со Skype для бизнеса](migration-interop-guidance-for-teams-with-skype.md). Если вы не обладаете автосекретарем и (или) очередью звонков, и это нужно сделать, ознакомьтесь со сведениями о [настройке автоматического ассистента в облаке](create-a-phone-system-auto-attendant.md) и [создании очереди облачных звонков](create-a-phone-system-call-queue.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 -   [Что такое телефонная система в Office 365](what-is-phone-system-in-office-365.md)
 -   [Создание облачной очереди вызовов](create-a-phone-system-call-queue.md)

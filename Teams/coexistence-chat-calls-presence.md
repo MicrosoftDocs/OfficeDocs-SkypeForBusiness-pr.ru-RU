@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: В этом документе описывается поведение чата, маршрутизация звонков и сведения о присутствии между пользователями Teams и Skype для бизнеса, в зависимости от назначенных режимов Теамсупграде, как в клиенте, так и в Федеративной. Она включает оптимизацию маршрутизации, поведение присутствия, а также изменение режима Теамсупграде по умолчанию со *старых* на *острова* и незапланированное удаление *устаревших*.
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515866"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824937"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Сосуществование со Skype для бизнеса
 

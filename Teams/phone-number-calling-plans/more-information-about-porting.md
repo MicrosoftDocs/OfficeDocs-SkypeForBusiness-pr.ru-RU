@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Получите рекомендации по переносу номеров телефонов в Microsoft Teams.
-ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925200"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827967"
 ---
 # <a name="more-information-about-porting"></a>Дополнительные сведения о переносе
 
@@ -110,7 +112,7 @@ ms.locfileid: "37925200"
 
 ## <a name="related-topics"></a>См. также
 
-- [Что такое номер порта?](port-order-overview.md)
+- [Что такое заказ на перенос номера?](port-order-overview.md)
 - [Типы номеров телефонов, используемые в планах звонков](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Управление номерами телефонов организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Условия и положения, распространяющиеся на экстренные вызовы](../emergency-calling-terms-and-conditions.md)
