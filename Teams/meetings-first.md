@@ -10,17 +10,19 @@ ms.reviewer: francoid
 description: Узнайте о собраниях, где пользователи могут создавать собрания в Teams, в то время как вы продолжаете использовать Skype для бизнеса для общения, звонков и присутствия.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564907"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836459"
 ---
 # <a name="meetings-first"></a>Вначале собрания
 
@@ -103,7 +105,7 @@ ms.locfileid: "37564907"
 
 После того как вы намерены лицензированию ваших пользователей и подготовлены ваша организация для собраний Teams, прежде всего разрешите пользователям проводить собрания. Мы сделали это все очень просто: один единственный параметр — все это сделает все!
 
-Все возможности и взаимодействие с пользователем в начале собрания, включая конфигурацию клиента Teams и [Автоматическое](teams-client-experience-and-conformance-to-coexistence-modes.md) согласование возможностей пользователей, службы миграции собраний и улучшенную совместную работу, настраиваются путем предоставления пользователю (или Группа пользователей или значение по умолчанию для клиента) [режим сосуществования сфбвистеамсколлабандмитингс](setting-your-coexistence-and-upgrade-settings.md) либо в [центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md) , либо с помощью [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Все возможности и взаимодействие с пользователем в собраниях сначала, включая конфигурацию клиента Teams и [Автоматическое](teams-client-experience-and-conformance-to-coexistence-modes.md) согласование возможностей пользователей, службы миграции собраний и улучшенную совместную работу, настраиваются путем предоставления пользователю (или группе пользователей или по умолчанию для клиента) [режима сосуществования сфбвистеамсколлабандмитингс](setting-your-coexistence-and-upgrade-settings.md) либо в [центре администрирования Microsoft Teams](manage-teams-in-modern-portal.md) , либо с помощью [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Снимок экрана: параметры администратора, чтобы включить собрания в первую очередь](media/teams-meeting-admin-settings.png)
 

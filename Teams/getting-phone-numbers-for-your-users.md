@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 'Узнайте о том, как получить новые, перенести и переносить существующие номера в Teams, а также как показать изменения пользователей. '
-ms.openlocfilehash: caba9206ab4c1f12250085a8323b22fabf57cc9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f4688287df090ca4b293af7f4b1466c7e666f7d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707875"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837009"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 

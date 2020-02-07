@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Выберите ранний переход на этап эксперимента для принятия команд в Teams, а затем соберите отзыв для проекта.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb2c890ad47a6c57a550ec607b84d12dcdf5c26c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 65e697ef46f9ec087975b47741597a7e0ff68508
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242309"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837809"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Подключение ранних последователей и сбор отзывов по Microsoft Teams
 
@@ -45,4 +47,4 @@ ms.locfileid: "36242309"
 > Некоторые организации будут сочетать каналы для обратной связи по переходу на ранних этапах разработки в группу программы лидерами. Это хороший подход, так как многие ранние лидерамии могут стать недоступными в будущем, и оно будет создавать более мощное сообщество. 
 
 
-![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : встроенная [Поддержка](teams-adoption-onboard-support.md).
+![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [Встроенная поддержка](teams-adoption-onboard-support.md).

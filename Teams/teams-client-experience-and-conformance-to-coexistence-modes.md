@@ -10,18 +10,20 @@ audience: admin
 description: Взаимодействие с клиентом Teams и соответствие режимам сосуществования
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435243"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837379"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -76,7 +78,7 @@ ms.locfileid: "37435243"
 |Сфбвистеамсколлаб или Сфбонли|Отключено|Отключено|Отключено|Отключено|
 ||||||
 
-При использовании PowerShell `Grant-CsTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующих параметров в Теамсмессагингполици, Теамскаллингполици и теамсмитингполици, чтобы определить, будут ли эти параметры заменены теамсупградеполициами, и если да, то Информационное сообщение предоставляется в PowerShell.  Как указано выше, больше не нужно настраивать эти параметры политики. Ниже показано, как выглядит предупреждение PowerShell.
+При использовании PowerShell `Grant-CsTeamsUpgradePolicy` командлет проверяет конфигурацию соответствующих параметров в Теамсмессагингполици, Теамскаллингполици и теамсмитингполици, чтобы определить, будут ли эти параметры заменены теамсупградеполици, и если да, то в PowerShell будет выдано информационное сообщение.  Как указано выше, больше не нужно настраивать эти параметры политики. Ниже показано, как выглядит предупреждение PowerShell.
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -84,7 +86,7 @@ ms.locfileid: "37435243"
 
 
 
-# <a name="related-topics"></a>Статьи по теме
+# <a name="related-topics"></a>См. также
 
 [Руководство по миграции и взаимодействию для организаций, использующих Teams вместе со Skype для бизнеса](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 

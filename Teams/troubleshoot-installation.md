@@ -9,17 +9,19 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как устранять проблемы с установкой и обновлением для клиентского приложения Teams для настольных систем в Windows.
-ms.openlocfilehash: 812beb3471a1d4ee2cbc1e8e7f7b36b2a42e0e2d
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39920158"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837629"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Устранение проблем с установкой и обновлением Microsoft Teams в Windows
 
@@ -37,7 +39,7 @@ ms.locfileid: "39920158"
 
 Если вы видите сообщение об ошибке или номер версии совпадает на этапе 4, процесс обновления завершился сбоем.
 
-## <a name="troubleshoot-installation-and-update-issues"></a>Устранение проблем с установкой и обновлением
+## <a name="troubleshoot-installation-and-update-issues"></a>Устранение неполадок при установке и обновлении
 
 ### <a name="troubleshoot-installation-issues"></a>Устранение проблем с установкой
 
@@ -148,7 +150,7 @@ Teams может автоматически запускать процесс о
 > [!NOTE]
 > Если вы не можете определить основную причину проблемы, выполните одно из указанных ниже действий. [](https://docs.microsoft.com/sysinternals/downloads/procmon) Монитор процесса — это средство Sysinternals, записывающее доступ к реестру и файловой системе.
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 - [Работа с клиентами для Teams](get-clients.md)
 - [Обновления клиента Teams](teams-client-update.md)

@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Узнайте больше о том, как структуризация команд и каналов в Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142060"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837729"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Знакомство с командами и каналами в Microsoft Teams
 

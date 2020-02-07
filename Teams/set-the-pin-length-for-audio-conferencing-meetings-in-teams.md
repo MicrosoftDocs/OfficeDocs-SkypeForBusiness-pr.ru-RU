@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Узнайте о параметрах длины и требований ПИН-кода и Узнайте, как установить продолжительность собраний в Microsoft Teams.
-ms.openlocfilehash: 7f7f477d14556baa7d2a47e5062aacd5de5796fd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2827845cb53aa822f09ebdd0948cc06e679e4c0a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694004"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838079"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Установка длины ПИН-кода для собраний аудиоконференций в Microsoft Teams
 

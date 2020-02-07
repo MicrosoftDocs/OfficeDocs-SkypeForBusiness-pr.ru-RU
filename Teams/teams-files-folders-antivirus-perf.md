@@ -1,5 +1,5 @@
 ---
-title: Файлы и папки Teams, которые нужно исключить из антивирусной проверки
+title: Файлы и папки Teams, которые должны быть исключены из проверки на вирусы
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -10,18 +10,20 @@ audience: admin
 description: Улучшите производительность Teams за счет исключения некоторых файлов и папок из обычной проверки антивирусной программы.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b4a4591bf25d7ef1a5b6efb9ab83c4508e26110
-ms.sourcegitcommit: bcebe833d5ff4fcd3d6246fc5ed80980c6f31d0c
+ms.openlocfilehash: 2dbb4b31fc3cddd8c434eb5c94e4f8801ff0633b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37578809"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837679"
 ---
-<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Файлы и папки Teams, которые нужно исключить из антивирусной проверки
+<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>Файлы и папки Teams, которые должны быть исключены из проверки на вирусы
 =================================
 
 Вы можете повысить общую производительность развертывания Teams, запретив антивирусным программам проверять определенные файлы и папки в группах. Это позволит избежать расхода системных ресурсов на просмотр файлов и папок, которые не требуется сканировать.

@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как применяйте внедрение команд с помощью продукта.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2cec58d96e5c812cf63a9af1ebf6dfeffa7c13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244817"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837719"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Создание первых команд в Microsoft Teams
 
@@ -62,4 +64,4 @@ ms.locfileid: "36244817"
 
 По мере начала работы с Teams вы и оставшаяе часть группы проекта зайдете на использование чата, каналов и ресурсов групп, чтобы запустить проект. Ваше собственное использование Teams очень важно для качества вашего проекта внедрения. Мы рекомендуем вам попытаться выполнить фрагментацию проекта, продолжая общение с основной группой проекта по электронной почте. Переходя на Teams, вы будете моделировать поведение, которое вы хотите использовать вашим сотрудниками для принятия. Настройте тон, начните и начинайте наслаждаться информацией о проекте в одном месте!  
 
-![Значок, посвященный следующему шагу](media/teams-adoption-next-icon.png) : [как вы можете подготовить свою организацию для Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Значок](media/teams-adoption-next-icon.png) [, посвященный следующему шагу: как вы можете подготовить свою организацию для Microsoft Teams?](teams-adoption-assess-readiness.md)

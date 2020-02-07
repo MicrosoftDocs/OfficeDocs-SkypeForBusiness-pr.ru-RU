@@ -11,21 +11,18 @@ search.appverid: MET150
 description: Сведения о различных командах, каналах и приложениях, адаптированных под самые разнообразные направления деятельности, например финансы, планирование мероприятий, продажи и многое другое.
 localization_priority: Normal
 f1.keywords:
-- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
-- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
-- ms.teamsadmincenter.teamschannel.overview
-- ms.teamsadmincenter.teamssettings.overview
+- CSH
+ms.custom: okr_smb
 ms.collection:
 - M365-collaboration
-ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6e241deaf074fb7ccd6db9789539838c1027e40
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708155"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834889"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Обзор команд и каналов в Microsoft Teams
 

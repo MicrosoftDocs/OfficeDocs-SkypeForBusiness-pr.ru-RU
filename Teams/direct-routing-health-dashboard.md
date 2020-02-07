@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Сведения о том, как использовать панель мониторинга работоспособности для наблюдения за подключением между вашим контроллером границ сеанса и прямой маршрутизацией.
-ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572205"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836079"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Панель мониторинга работоспособности для прямой маршрутизации
 

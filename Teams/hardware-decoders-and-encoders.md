@@ -13,16 +13,18 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Список сочетаний операционной системы, модели и драйверов, для которых не включена аппаратное ускорение из-за проблем с драйверами.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: dace536d8d47ecacc15661d159563a916b447113
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772602"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836439"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Рекомендации по драйверам аппаратного декодера и кодировщика
 
@@ -76,7 +78,7 @@ ms.locfileid: "37772602"
 
 ## <a name="hardware-decoder-driver-recommendations---amd"></a>Рекомендации по драйверам аппаратного декодера — AMD
 
-Для устаревших операционных систем для аппаратного ускорения включены только перечисленные ниже Device_ids.
+Для устаревших операционных систем для аппаратного ускорения включены только следующие Device_ids.
 
 |Операционная система           | Модель (Device_id) |
 |---------------------------|-------------------|
@@ -121,7 +123,7 @@ ms.locfileid: "37772602"
 
 ## <a name="hardware-encoder-driver-recommendations---amd"></a>Рекомендации по драйверам аппаратного кодировщика — AMD
 
-Для устаревших операционных систем для аппаратного ускорения включены только перечисленные ниже Device_ids.
+Для устаревших операционных систем для аппаратного ускорения включены только следующие Device_ids.
 
 |Операционная система           | Модель (Device_id) |
 |---------------------------|-------------------|
@@ -137,6 +139,6 @@ ms.locfileid: "37772602"
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | весь | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1 или Windows 10 | весь | [21.19.137.1] |
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
 [Аппаратные требования для приложения Teams](hardware-requirements-for-the-teams-app.md)

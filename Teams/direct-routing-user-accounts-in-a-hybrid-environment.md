@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Узнайте о различных сочетаниях для создания пользователей, а также о том, какие комбинации поддерживаются или не поддерживаются.
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572117"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837289"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Учетные записи пользователей в гибридной среде со связью с ТСОП
 
@@ -54,7 +56,7 @@ ms.locfileid: "37572117"
 ### <a name="supportability-matrix"></a>Матрица поддержки
 
 
-|**Объект пользователя, созданный в**  |**Поставщик услуг Skype для бизнеса для пользователей**|**Клиент пользователя**|**Параметр голоса**|**Поддерживаются**|
+|**Объект пользователя, созданный в**  |**Поставщик услуг Skype для бизнеса для пользователей**|**Клиент пользователя**|**Параметр голоса**|**Поддерживается**|
 | ------------ | --------- | --------- | --------- | -------- |
 |Для локальных рекламных объявлений| Локальная |Skype для бизнеса   | Корпоративная голосовая связь   |Да|
 |Для локальных рекламных объявлений|В Интернете| Skype для бизнеса  | Гибридная голосовая связь   |Да |

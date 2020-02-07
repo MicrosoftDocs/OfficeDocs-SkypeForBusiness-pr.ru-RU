@@ -10,15 +10,17 @@ ms.reviewer: rowille
 audience: admin
 description: Следуйте задачам списка дел и действиям в этом контрольном списке при настройке Office 365 для Teams.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c102a09e8c0249b9919769b6714b2382c33ccc30
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b207d5b7eafc7574daa454dbca6d9761f7375c0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567853"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835939"
 ---
 # <a name="enable-office-365"></a>Активация Office 365
  

@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Подготовьте ИТ – специалистов в своей организации для развертывания и поддержки Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b561af2fd5b29dd66f00f75634a660cfb08cf7e6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236129"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836129"
 ---
-![Обновление схемы поездки с акцентом на этапе технической подготовки] (media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
+![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
 Эта статья относится к техническому этапу подготовки к обновлению, действиям, завершенным параллельно с этапом готовности пользователей. Прежде чем продолжить, подтвердите, что вы выполнили следующие действия из предыдущих стадий.
 
@@ -39,7 +41,7 @@ ms.locfileid: "36236129"
 Поделитесь следующими ресурсами с сотрудниками отдела ИТ и убедитесь, что они готовы к поддержке пользователям до начала обновления до Teams.
 
 - [Обучение администратора для работы с Microsoft Teams](itadmin-readiness.md)
-- [Обращение в службу поддержки Office 365 для бизнеса: справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Обращение в службу поддержки продуктов для бизнеса. Справка для администраторов](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Устранение проблем связи с клиентом Microsoft Teams](connectivity-issues.md)
 - [Использование файлов журналов для устранения неполадок в Microsoft Teams](log-files.md)
 
@@ -47,7 +49,7 @@ ms.locfileid: "36236129"
 
 | | |
 |---|---|
-| ![Значок, который описывает точки принятия решений](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Вы выбрали всех сотрудников службы поддержки, которые могут быть вовлечены в развертывание и поддержку групп?</li><li>Вы разработали план обучения для подготовки дополнительного персонала к обновлению?</li></ul> |
-| ![Значок, который описывает дальнейшие действия](media/audio_conferencing_image9.png)<br/>Дальнейшие действия|<ul><li>Убедитесь в том, что у ИТ – сотрудников есть нужные сведения.</li><li>Пересмотрите планы обучения и подготовки по мере выпуска новых функций.</li></ul>|
+| ![Значок, изображающий точки принятия решений](media/audio_conferencing_image7.png) <br/>Точки принятия решений|<ul><li>Вы выбрали всех сотрудников службы поддержки, которые могут быть вовлечены в развертывание и поддержку групп?</li><li>Вы разработали план обучения для подготовки дополнительного персонала к обновлению?</li></ul> |
+| ![Значок, изображающий дальнейшие действия](media/audio_conferencing_image9.png)<br/>Дальнейшие действия|<ul><li>Убедитесь в том, что у ИТ – сотрудников есть нужные сведения.</li><li>Пересмотрите планы обучения и подготовки по мере выпуска новых функций.</li></ul>|
 
-После подготовки ИТ – специалистов для Teams убедитесь, что ваша среда соответствует всем требованиям [](upgrade-plan-journey-prerequisites.md).
+После подготовки ИТ – специалистов для Teams убедитесь, что ваша среда соответствует всем требованиям [.](upgrade-plan-journey-prerequisites.md)

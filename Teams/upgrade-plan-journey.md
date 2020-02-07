@@ -9,6 +9,8 @@ ms.reviewer: dearbeen
 audience: admin
 description: Планирование обновления путем включения заинтересованных лиц в первую очередь и определения области проекта.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 ms.collection:
@@ -16,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236063"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837119"
 ---
-![Схема путешествия по обновлению Teams] (media/upgrade-banner-main.png "Убедитесь в том, что проект успешно настроен на успех с помощью правой команды проекта. Определение области охвата проекта, целей и временной шкалы. Подтвердите как техническую, так и готовность пользователей. Выполните план выпуска. Ведение импульсов для максимального увеличения результатов.")
+![Схема путешествия по обновлению Teams](media/upgrade-banner-main.png "Убедитесь в том, что проект успешно настроен на успех с помощью правой команды проекта. Определение области охвата проекта, целей и временной шкалы. Подтвердите как техническую, так и готовность пользователей. Выполните план выпуска. Ведение импульсов для максимального увеличения результатов.")
 
 # <a name="plan-for-your-upgrade"></a>Планирование обновления
 

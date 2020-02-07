@@ -11,18 +11,20 @@ ms.reviewer: jatpatel
 description: Настройка параметров администратора для Microsoft Teams для Surface Hub.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom:
 - Devices
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570106"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836939"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Развертывание Microsoft Teams для Surface Hub
 ======================================
@@ -88,7 +90,7 @@ ms.locfileid: "37570106"
 |Параметр   |Значение    |
 |----------|---------|
 |Путь      | ./Вендор/мсфт/сурфацехуб/пропертиес/вткапппаккажеид        |
-|Тип данных | Строка — установка строки ID пакета приложения Teams в формате **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams** |
+|Тип данных | Строка — установка строки идентификатора пакета приложения Teams в формате **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams** |
 |Операции| Скачать, установить        |
 
 Перезапустите устройство Surface Hub. После перезапуска устройства вы должны сможете запустить приложение Teams с начального экрана и присоединиться к собранию из календаря.

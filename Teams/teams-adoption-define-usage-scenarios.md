@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Выберите сценарии использования для этапа эксперимента при внедрении Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85183f76327575b40ff2fb2e68e6c77247e8dd98
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e2b1103163f56fcb5910b0e883a26fe5b76d0450
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242378"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837849"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Определение сценариев использования Microsoft Teams
 
@@ -68,4 +70,4 @@ ms.locfileid: "36242378"
 > [!Note]
 > Мы всегда рады узнать, как наши клиенты пользуются группами в новых инновационных целях. Поделитесь своими #TeamsStoriesми с нами [форум обсуждений о внедрении внедрения]. Включите в публикацию хэш- **#TeamsStories** . Мы всегда заинтересованы в том, как пользоваться группами в Организации.
 
-![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : встроенные в [Начало и сбор отзывов](teams-adoption-onboard-early-adopters.md).
+![Значок, представляющий следующий шаг](media/teams-adoption-next-icon.png) : [встроенные в начало и сбор отзывов](teams-adoption-onboard-early-adopters.md).

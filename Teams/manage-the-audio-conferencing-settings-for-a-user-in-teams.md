@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Являясь администратором Office 365, вы можете изменять настройки аудиоконференций Microsoft Teams, например поставщика, платный или бесплатный номер по умолчанию, идентификатор конференции или ПИН-код, для отдельного пользователя в своей организации. '
-ms.openlocfilehash: 13d7af0dccefdbe1c0febcc6a6903b410221f0f8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1d6a72c2a621d5f87c1d0fad215c648e2511f48c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708675"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836261"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Управление настройками аудиоконференций для пользователя в Microsoft Teams
 

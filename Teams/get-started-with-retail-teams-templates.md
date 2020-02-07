@@ -12,16 +12,18 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как использовать шаблоны групп для создания структур групп, разработанных для розничных потребностей.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2688425d28d1118cc6fa3338e0724dfa92c3c88c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569612"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836819"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Начало работы с шаблонами Teams для розничной торговли 
 

@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: Сведения о том, как использовать шаблоны групп для создания группы с предопределенными каналами.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968320"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837019"
 ---
 # <a name="get-started-with-teams-templates"></a>Начало работы с шаблонами Teams
 
@@ -72,7 +74,7 @@ ms.locfileid: "37968320"
 |Получен<br>Группа с группой |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Приложения<ul><li>Записная книжка OneNote, закрепленная на вкладке " **Общие** "</ul></li>|
 | Магазины<br>Хранени | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Дистрибутор<ul><li>Переносится смена</li><li>Образователь</li></ul>Свойства группы<ul><li>Для видимости команды установлено значение Public</li></ul>Разрешения для участников<ul><li>Запретить участникам создавать, обновлять и удалять каналы</li><li>Запретить пользователям добавлять или удалять приложения</li><li>Запретить пользователям создавать, обновлять и удалять соединители</li></ul> |
 | Магазины<br>Совместная работа руководителя | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Дистрибутор<ul><li>Переносится смена</li><li>Образователь</li></ul>Свойства группы:<ul><li>Для видимости команды установлено значение Private</li></ul>Разрешения для участников:<ul><li>Запретить участникам создавать, обновлять и удалять каналы</li><li>Запретить пользователям добавлять или удалять приложения</li><li>Запретить пользователям создавать, обновлять и удалять соединители</li></ul>|
-| Учреждений<br>Порядке |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Дистрибутор <ul><li>Обслуживании\*</li><li>худдлес\*</li><li>До</li><li>Штата\*</li><li>Подготовку\*</li></ul>\*Автоматически добавленные в избранное каналы |
+| Учреждений<br>Порядке |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Дистрибутор <ul><li>Обслуживании\*</li><li>худдлес\*</li><li>До</li><li>Штата\*</li><li>Обучение\*</li></ul>\*Автоматически добавленные в избранное каналы |
 |Учреждений<br>Посещение | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Дистрибутор<ul><li>Обслуживании\*</li><li>О\*</li><li>кустодиал</li><li>Человеческие ресурсы</li></li><li>фармаци</li></ul>\*Автоматический избранный канал|
 |||
 

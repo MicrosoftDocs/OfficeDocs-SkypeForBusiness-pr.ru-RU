@@ -10,18 +10,20 @@ audience: admin
 description: Примеры сообщений электронной почты и опросов, которые можно использовать в конжунЦитон с помощью плана действий с десятью шагами для перехода с Skype для бизнеса на Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236391"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837229"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Примеры сообщений электронной почты и опросов для обновления основных средств связи
 

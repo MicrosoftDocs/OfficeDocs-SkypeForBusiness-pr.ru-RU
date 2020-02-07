@@ -12,14 +12,16 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: Сведения об истечении срока действия и возобновлении работы группы и о том, как использовать политику истечения срока действия групп Office 365 для автоматической очистки неиспользуемых команд в Microsoft Teams.
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4bd9949a23d18eb03c83e50ecd418abbf54c0494
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992816"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837899"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Срок действия и продление подписки для группы в Microsoft Teams
 

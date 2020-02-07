@@ -11,16 +11,18 @@ audience: admin
 description: Узнайте, как запланировать внедрение возможностей управления в Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913051"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836191"
 ---
 # <a name="plan-for-governance-in-teams"></a>Планирование управления в Teams
 
@@ -131,9 +133,9 @@ Teams строится на основе расширенных возможно
 > [!Important]
 > Если в вашей организации есть требования к соблюдению требований и безопасности, ознакомьтесь с подробным содержанием, предоставленным в этой статье, в разделе [Обзор безопасности и соответствия требованиям в Microsoft Teams](security-compliance-overview.md).
 
-## <a name="related-topics"></a>Статьи по теме
+## <a name="related-topics"></a>См. также
 
-[Краткое руководство по началу работы с Teams](teams-adoption-governance-quick-start.md)
+[Краткое руководство по управлению Teams](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management

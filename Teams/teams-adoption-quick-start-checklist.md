@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Выполните контрольный список для начала внедрения Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d7cef7033a79d7282d73534ded41805b11b2a46e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837749"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Краткий контрольный список по внедрению Microsoft Teams
 

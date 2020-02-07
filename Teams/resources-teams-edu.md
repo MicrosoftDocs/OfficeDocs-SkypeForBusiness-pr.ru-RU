@@ -11,16 +11,18 @@ audience: admin
 description: Список ресурсов Teams, которые могут быть полезны администраторам ИТ для образовательных учреждений.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569988"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838249"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Ресурсы Microsoft Teams для образовательных учреждений (администраторы)
 ==============================================

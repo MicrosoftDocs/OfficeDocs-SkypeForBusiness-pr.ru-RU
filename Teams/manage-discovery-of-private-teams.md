@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -15,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как управлять возможностью обнаружения конфиденциальных команд пользователями Microsoft Teams с помощью предложений в галерее группы и в результатах поиска.
-ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992014"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836519"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Управление обнаружением закрытых команд в Microsoft Teams
 

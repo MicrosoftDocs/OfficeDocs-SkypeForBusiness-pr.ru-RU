@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Соединители предоставляют команде актуальные сведения и данные из часто используемых служб, передавая их прямо в канал.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909335"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834379"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Использование Office 365 и настраиваемых соединителей в Microsoft Teams
 =======================================================
@@ -54,4 +56,4 @@ ms.locfileid: "39909335"
 <a name="develop-custom-connectors"></a>Разработка настраиваемых соединителей
 ----------------------------
 
-Вы также можете создавать пользовательские соединители, а также входящие и исходящие веб-перехватчики. Дополнительные сведения вы найдете в [документации разработчика](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) .
+Вы также можете создавать пользовательские соединители, а также входящие и исходящие веб-перехватчики. Дополнительные сведения см. в [документации для разработчиков](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).

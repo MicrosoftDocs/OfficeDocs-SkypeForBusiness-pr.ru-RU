@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: Сведения о том, как использовать поиск в каталоге с областью Microsoft Teams для создания настраиваемых представлений каталога.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: ca20e7293f20d68ea98f61a98090f7892ba294e8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772342"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836949"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Область поиска в каталоге Microsoft Teams
 
