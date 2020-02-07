@@ -13,13 +13,15 @@ appliesto:
 - Microsoft Teams
 search.appverid:
 - MET150
+f1.keywords:
+- NOCSH
 description: 'Сводка. Сведения о логической архитектуре служб повышения производительности в Microsoft 365, начиная с Microsoft Teams. А также сведения о решениях телефонии для Teams. '
-ms.openlocfilehash: 88fcb0e06fe642541421f0ba03c65b50bf9938ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3b55f24d720174d2b50dddea64b0adea5fd07596
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570285"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837389"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Плакаты ИТ-архитектуры и решений для телефонии Microsoft Teams
 
