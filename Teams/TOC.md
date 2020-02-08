@@ -480,7 +480,6 @@
 ### [Подготовка ИТ-персонала к использованию Teams](upgrade-prepare-IT-pros.md)
 ### [Необходимые компоненты](upgrade-plan-journey-prerequisites.md)
 ### [Оценка среды](upgrade-plan-journey-evaluate-environment.md)
-### [Подготовка сети](upgrade-prepare-environment-prepare-network.md)
 ### [Подготовка службы](upgrade-prepare-environment-prepare-service.md)
 
 ## Подготовка организации к использованию Teams
@@ -673,7 +672,6 @@
 # Справка
 
 ## Подготовка к развертыванию Teams
-### [Проверка готовности среды для Teams](environment-readiness.md).
 ### [Подготовка сети организации к использованию Teams](prepare-network.md)
 ### [Развертывание Teams с помощью Помощника по Teams](use-advisor-teams-roll-out.md)
 ### [Использование планировщика сети для Teams](network-planner.md)
