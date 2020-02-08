@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Южной Африки.
-ms.openlocfilehash: 64f4a5c9f461f5fb1594b47736990f2f74ec1a26
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 55783d94ced555f519d19dbc7085e936a652b3f2
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683562"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852406"
 ---
 # <a name="availability-in-south-africa"></a>Доступность в ЮАР
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683562"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

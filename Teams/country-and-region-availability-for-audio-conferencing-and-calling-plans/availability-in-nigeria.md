@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Нигерия.
-ms.openlocfilehash: e42a32aaf9a11314536e3fb93b61521d222041a3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 987e0a150fcd1af53af06eaacd09e987c19d7e36
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694814"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852978"
 ---
 # <a name="availability-in-nigeria"></a>Доступность в Нигерия
 
@@ -61,6 +61,8 @@ ms.locfileid: "41694814"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
 

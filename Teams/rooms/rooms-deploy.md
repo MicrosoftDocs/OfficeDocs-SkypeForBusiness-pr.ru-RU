@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Прочтите эту статью, чтобы узнать о том, как развертываются комнаты Microsoft Teams.
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825967"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863350"
 ---
 # <a name="deployment-overview"></a>Обзор развертывания
 
@@ -45,7 +45,7 @@ ms.locfileid: "41825967"
 -   [Сертификаты](rooms-prep.md#certificates)
 -   [Прокси-сервер](rooms-prep.md#proxy)
 
-**Совет по Pro** : Если вы планируете использовать прокси-серверы для предоставления доступа к Microsoft Teams или Skype для бизнеса Online, сначала [Ознакомьтесь с этой статьей](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Обратите внимание на то, что когда речь идет о трафике в Skype для бизнеса через прокси-серверы, мы рекомендуем вообще обойти прокси-серверы. Трафик Skype для бизнеса уже зашифрован, поэтому прокси-серверы не обеспечивают безопасность. В рамках вашего обширного развертывания мы рекомендуем следовать рекомендациям в статье [Оценка](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) пропускной способности для планирования и оценки соответствия требованиям сети для трафика в реальном времени.
+**Совет по Pro** : Если вы планируете использовать прокси-серверы для предоставления доступа к Teams или Skype для бизнеса Online, сначала [Ознакомьтесь с этой статьей](../proxy-servers-for-skype-for-business-online.md). Обратите внимание на то, что когда речь идет о трафике в Skype для бизнеса через прокси-серверы, мы рекомендуем вообще обойти прокси-серверы. Трафик Skype для бизнеса уже зашифрован, поэтому прокси-серверы не обеспечивают безопасность. В рамках вашего более широкого развертывания мы рекомендуем следовать рекомендациям в разделе [Подготовка сети для Teams](../prepare-network.md) для планирования пропускной способности и оценки соответствия требованиям сети для передачи данных в режиме реального времени.
 
 |    |     |
 |-----------|------------|

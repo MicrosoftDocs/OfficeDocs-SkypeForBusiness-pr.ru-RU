@@ -24,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 3ce67a13a2da66ebf582eb0aa9b928983910b173
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d5dff24821b23c690a27109bd1471f1a4817111
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683702"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852927"
 ---
 # <a name="availability-in-moldova"></a>Доступность в Молдове
 
@@ -61,6 +61,8 @@ ms.locfileid: "41683702"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

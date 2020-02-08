@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Иордания.
-ms.openlocfilehash: 4e5d3a9406988fbddde352f54184c52dbc1bd5c0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5f01a361ab22f264a033bc54a63985c4d66f9e4c
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695014"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853244"
 ---
 # <a name="availability-in-jordan"></a>Доступность в Иордании
 
@@ -62,6 +62,8 @@ ms.locfileid: "41695014"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

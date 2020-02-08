@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Бразилии.
-ms.openlocfilehash: 8414e87d74d1d88cf9a05dd780c24eadbab66edc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d07ed05218f878ebf80502099fdb4a1b0b0a3913
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695324"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853794"
 ---
 # <a name="availability-in-brazil"></a>Доступность в Бразилии
 
@@ -62,6 +62,8 @@ ms.locfileid: "41695324"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

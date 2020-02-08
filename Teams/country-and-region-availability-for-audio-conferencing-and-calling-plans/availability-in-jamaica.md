@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже приведены службы Office 365 для Skype для бизнеса и Microsoft Teams, которые можно использовать для работы с Ямайка.
-ms.openlocfilehash: 1145bb4d1aa4cbfdc4e59218f9f0d602570ea470
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1c433f78fdc0b3558cd8f3922b5876b280bfd216
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695024"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853254"
 ---
 # <a name="availability-in-jamaica"></a>Доступность в Ямайка
 
@@ -61,6 +61,8 @@ ms.locfileid: "41695024"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Бесплатный номер и бесплатные звонки на услуги
 

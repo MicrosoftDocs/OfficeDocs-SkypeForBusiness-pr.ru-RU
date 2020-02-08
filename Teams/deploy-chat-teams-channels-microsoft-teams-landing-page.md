@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51fd22257635502e92b89482f320b6bd68987cfe
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2acb9d1734bb04c4db522417064c3d99fd660d89
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826707"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863220"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Чат, команды, каналы и приложения в Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "41826707"
 
 |Задайте себе вопрос|Действие |
 |------------|-------|
-|Готова ли моя организация к развертыванию Teams?|Чтобы получить ответ на этот вопрос, см.: <ul><li> [Проверка готовности среды для Microsoft Teams](environment-readiness.md)</li><li>[Подготовка сети организации к использованию Teams](prepare-network.md)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Планирование использования групп Office 365 при создании команд](plan-office-365-groups.md)</li></ul>|
+|Готова ли моя организация к развертыванию Teams?|Чтобы получить ответ на этот вопрос, см.: <ul><li>[Подготовка сети организации к использованию Teams](prepare-network.md)</li><li>[URL-адреса и диапазоны IP-адресов для Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Планирование использования групп Office 365 при создании команд](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Основные решения по развертыванию

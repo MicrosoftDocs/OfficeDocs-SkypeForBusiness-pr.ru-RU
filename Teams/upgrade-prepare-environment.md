@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c5287db10067ad26feac8b3074de97a977646cf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837099"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863440"
 ---
 ![Обновление схемы поездки с акцентом на этапе технической подготовки](media/upgrade-banner-tech-readiness.png "Этапы путешествия по обновлению с акцентом на этапе технической подготовки")
 
@@ -43,5 +43,5 @@ ms.locfileid: "41837099"
 - [Подготовьте ИТ-отделы](upgrade-prepare-IT-pros.md) к тому, чтобы убедиться в том, что они нужны для успешного поездки на обновление.
 - Убедитесь, что ваша среда соответствует всем [требованиям, и](upgrade-plan-journey-prerequisites.md)Узнайте о зависимостях служб Office 365 и групп.
 - [Оцените свою среду](upgrade-plan-journey-evaluate-environment.md) , выполнив пробное обнаружение среды, используя образец анкеты для подтверждения готовности Организации к успешному переходу на новую версию в Teams.
-- [Подготовьте свою сеть](upgrade-prepare-environment-prepare-network.md) с помощью планирования, подготовки и выполнения необходимых действий по исправлению для вашей сети для поддержки рабочих нагрузок в Teams.
+- [Подготовьте свою сеть](prepare-network.md) с помощью планирования, подготовки и выполнения необходимых действий по исправлению для вашей сети для поддержки рабочих нагрузок в Teams.
 - [Подготовьте службу](upgrade-prepare-environment-prepare-service.md) для выгрузки с помощью контрольных списков, чтобы убедиться, что настройка групп готова для поддержки миграции пользователей из Skype для бизнеса в Teams.

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Ниже указаны службы Office 365 для Skype для бизнеса и Microsoft Teams, доступные для Швеции.
-ms.openlocfilehash: 132ffd78e576d625a2c3e5d819dfe53b7fa56891
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ce3b7918cdd98a80827c58cd587e59b13aad919
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683542"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852526"
 ---
 # <a name="availability-in-sweden"></a>Доступность в Швеции
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683542"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

@@ -1,11 +1,11 @@
 ---
 title: Руководство по анализу процедуры обеспечения качества для Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: Руководство по анализу производительности мультимедиа в режиме реального времени для Microsoft Teams с помощью панели мониторинга качества звонков (CQD).
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838259"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863400"
 ---
 # <a name="quality-of-experience-review-guide"></a>Руководство по анализу качества взаимодействия
 
@@ -1141,8 +1141,6 @@ _Рисунок 29: использование HTTP-прокси в здании
 Наиболее распространенная причина использования HTTP в том, что в прокси-серверах отсутствуют правила исключений. Используя предоставленные вами здания или подсети, вы можете быстро определить, какой прокси-сервер нужно настроить для обхода мультимедиа.
 
 Убедитесь в том, что необходимые [полные доменные имена Office 365](https://aka.ms/o365ips) список разрешений на прокси-сервере.
-
-Дополнительные сведения об использовании прокси-серверов в Skype для бизнеса Online и Teams можно найти в [этой статье](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Расследования конечных точек
 

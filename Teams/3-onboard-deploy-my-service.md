@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825177"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862819"
 ---
 # <a name="deploy-my-service"></a>Развертывание службы
 
@@ -44,7 +44,7 @@ ms.locfileid: "41825177"
 -   Снижение потребностей в поддержке и повышение степени удовлетворенности пользователей.
 
 > [!NOTE]
-> Эта статья и связанные плайбук не предназначены для описания шагов технического конфигурирования, необходимых для включения обслуживания, а также для обеспечения гудка в линии для определенного сайта. Вместо этого они сосредоточены на действиях и задачах, рекомендованных для интегрированных пользователей, и они могут использовать голосовые нагрузки групп с помощью быстрого и плавных переходов с высоким тарифом на использование и свести к минимуму требования поддержки. Технические рекомендации по настройке среды для голосовой связи в Teams можно найти в статье контрольные списки для [настройки голосовых нагрузок](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)в Teams, [настройки прямой маршрутизации в Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [основных возможностей Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [сети для Teams](onboarding-checklist-configure-networking.md)и [включения Office 365](onboarding-checklist-enable-office-365.md).
+> Эта статья и связанные плайбук не предназначены для описания шагов технического конфигурирования, необходимых для включения обслуживания, а также для обеспечения гудка в линии для определенного сайта. Вместо этого они сосредоточены на действиях и задачах, рекомендованных для интегрированных пользователей, и они могут использовать голосовые нагрузки групп с помощью быстрого и плавных переходов с высоким тарифом на использование и свести к минимуму требования поддержки. Технические рекомендации по настройке среды для голосовой связи в Teams можно найти в статье контрольные списки для [настройки голосовых нагрузок](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)в Teams, [настройки прямой маршрутизации в Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [основных возможностей Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [сети для Teams](prepare-network.md)и [включения Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -53,7 +53,7 @@ ms.locfileid: "41825177"
 Основное внимание в плайбук заключается в том, чтобы решить, какие факторы влияют на восприятие голоса при развертывании Teams. Действия и задачи группируются в следующие области фокуса:
 
 -   Проверка готовности службы
-    - Аудиоконференции
+    - Аудиоконференция
     - Планы звонков
     - Прямая маршрутизация
 

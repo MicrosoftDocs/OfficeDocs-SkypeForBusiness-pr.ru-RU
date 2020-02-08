@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 'Здесь представлены доступные в Колумбии службы Office 365 для Microsoft Teams и Skype для бизнеса '
-ms.openlocfilehash: 127db4fc0a2d08e42f614f7b53c756220ac4ece6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 57d93d1e4fd447f21a0e395d6a7ef0880bc31d86
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683982"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853684"
 ---
 # <a name="availability-in-colombia"></a>Доступность в Колумбии
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683982"
 |Доступно ли приобретение планов звонков?  <br/> |Нет  <br/> |
 |Доступные минуты для планов звонков  <br/> |Неприменимо  <br/> |
 |Кому можно делать исходящие звонки?  <br/> |Неприменимо  <br/> |
+
+Если тарифные планы недоступны для приобретения, можно использовать [прямую маршрутизацию телефонной системы](../direct-routing-landing-page.md). При прямой маршрутизации вы можете использовать телефонную систему практически любого поставщика услуг телефонной связи.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Платные и бесплатные номера служб
 

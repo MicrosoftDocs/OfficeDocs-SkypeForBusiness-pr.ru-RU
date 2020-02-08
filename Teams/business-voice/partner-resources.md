@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5bf036a3f613fff4af5cd97044bf8beebe7fa
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 74b5679805b325250a1c29e01a436738747dc49f
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824847"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862849"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Ресурсы партнера Microsoft 365 Business Voice
 
@@ -34,9 +34,9 @@ ms.locfileid: "41824847"
 
 - [Рекомендации для практических руководств по Teams](../cloud-voice-landing-page.md)
 - [Предварительная оценка и планирование](../3-envision-evaluate-my-environment.md)
-- [Deployment](../3-onboard-deploy-my-service.md)
-- [Операция](../1-drive-value-operate-my-service.md)
-- [Поддержка](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
+- [Развертывание](../3-onboard-deploy-my-service.md)
+- [Своей](../1-drive-value-operate-my-service.md)
+- [Поддержка](../prepare-network.md)
 - [Устранение неполадок](../connectivity-issues.md)
 - [Планы поддержки партнеров](https://partner.microsoft.com/support/partnersupport)
 - [Руководство по поставщику услуг Teams](https://aka.ms/teamsserviceproviderguide)
