@@ -268,7 +268,7 @@
 ### [Поток вызовов с использованием ExpressRoute](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [ExpressRoute и качество обслуживания в Skype для бизнеса Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Качество медиаданных и производительность сетевого подключения](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Прокси-серверы для Skype для бизнеса Online](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Прокси-серверы для Skype для бизнеса Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 ### [Использование помощника по тестированию сети](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Аналитика звонков и панель мониторинга качества звонков](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
