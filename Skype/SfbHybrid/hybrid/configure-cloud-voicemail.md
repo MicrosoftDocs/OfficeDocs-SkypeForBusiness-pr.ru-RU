@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Инструкции по внедрению голосовой почты в облаке для пользователей, размещенных в Skype для бизнеса Server.
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726919"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888538"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Настройка облачной службы голосовой почты для локальных пользователей
 
-## <a name="overview"></a>Общие сведения 
+## <a name="overview"></a>Обзор 
 В этой статье описано, как настроить облачную службу голосовой почты Майкрософт для локальных пользователей Skype для бизнеса.  
 
 В этой статье предполагается, что вы уже развернули Skype для бизнеса Server в поддерживаемой топологии и удовлетворены предварительные требования для настройки гибридного подключения.
@@ -102,7 +102,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Включение поддержки облачной голосовой почты для пользователя
@@ -111,13 +111,17 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:Cl
 
 Например, следующая команда включает учетную запись пользователя для облачной голосовой почты: 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 Командлет проверяет, применяется ли политика облачной голосовой почты (на глобальном уровне, на уровне сайта или на уровне пользователя) к этому пользователю. Если политика не применяется, то командлет завершается неудачно.  
 
 В следующем примере отключается учетная запись пользователя для облачной голосовой почты:
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 Командлет проверяет, относится ли политика размещенной голосовой почты на глобальном уровне, на уровне сайта или на уровне пользователя к этому пользователю. Если политика применяется, то командлет завершается неудачно.
 

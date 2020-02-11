@@ -12,18 +12,18 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737379"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Требования DNS для простых URL-адресов в Lync Server 2013
 
@@ -182,13 +182,13 @@ Lync Server поддерживает три простых URL-адреса: "В
 
 Чтобы настроить это, создайте два адреса Жеоднс. У каждого адреса есть две записи DNS A или CNAME, которые разрешают два пула, которые сопоставлены вместе для целей аварийного восстановления. Для внутреннего доступа используется один адрес Жеоднс и разрешение на внутренние доменные имена и IP-адреса подсистемы балансировки нагрузки для двух пулов. Другой адрес Жеоднс используется для внешнего доступа и разрешается в внешнем полном доменном имени или IP-адресе подсистемы балансировки нагрузки для двух пулов. Ниже приведен пример для простого URL-адреса, используя полные доменные имена для пулов.
 
-   ```
+   ```console
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
    ```
 
-   ```
+   ```console
    Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
@@ -212,8 +212,10 @@ Lync Server поддерживает три простых URL-адреса: "В
 
 После настройки конфигурации вы должны использовать приложение мониторинга для настройки наблюдения HTTP для отслеживания сбоев. Для внешнего доступа убедитесь в том, что протокол HTTPS получил запросы на автообнаружение полного доменного имени или IP-адреса подсистемы балансировки нагрузки для двух пулов. Например, следующие запросы не должны содержать заголовков **приема** и должны возвращать **200 ОК**.
 
+```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Для внутреннего доступа необходимо следить за портом 5061 на внутреннем полном доменном имени или IP-адресе подсистемы балансировки нагрузки для двух пулов. Если обнаружены ошибки подключения, VIP для этих пулов должен закрыть порты 80, 443 и 444.
 
