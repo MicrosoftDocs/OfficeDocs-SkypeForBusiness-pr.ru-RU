@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Сведения о том, как устранять проблемы с установкой и обновлением для клиентского приложения Teams для настольных систем в Windows.
-ms.openlocfilehash: f47edf351d6a55f57977fee823d670b749896049
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837629"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888848"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Устранение проблем с установкой и обновлением Microsoft Teams в Windows
 
@@ -77,36 +77,36 @@ Teams может автоматически запускать процесс о
 
     1. Чтобы перейти в ВРЕМЕНную папку, выполните указанные ниже действия.
 
-        ```
+        ```console
         cd /d %TEMP%
         ```
     2. Скопируйте журналы настройки и приложений. Обратите внимание, что в зависимости от точки сбоя некоторые из этих журналов могут отсутствовать.
 
-        ```
+        ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
     3. Выполните указанные ниже действия, чтобы захватить открытые дескрипторы.
 
-        ```
+        ```console
         handle > handles.txt
         ```
 
     4. Выполните указанные ниже действия, чтобы сохранить открытые библиотеки DLL.
 
-        ```
+        ```console
         listdlls -v Teams > dlls.txt
         ```
     5. Выполните указанные ниже действия, чтобы захватить запущенные драйверы.
 
-        ```
+        ```console
         driverquery /v > driverquery.txt
         ```
 
     6. Выполните указанные ниже действия, чтобы записать списки управления доступом (ACL) для папки "группы".
 
-        ``` 
+        ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 

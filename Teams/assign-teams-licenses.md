@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Сведения о назначении лицензий для таких функций, как голосовая конференция, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826317"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888688"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Назначение лицензий Microsoft Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "41826317"
 
 Названия лицензий и названий продуктов в сценарии выводятся курсивом (в этом примере [используются названия продуктов и номера SKU, используемые для создания сценариев, в телефонной системе и в планах звонков](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)).
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>Названия продуктов и номера SKU для телефонной системы и плана звонков, использующиеся для сценариев
 
 | Наименование товара | Наименование товарной единицы |
@@ -131,7 +132,7 @@ for each ($user in $users)
 
 В этом примере лицензия "Корпоративный E3" назначается вместе с лицензией на аудиоконференцию.
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>Названия и номера продуктов для голосовой конференции, используемые для создания сценариев
 
 | Наименование товара | Наименование товарной единицы |

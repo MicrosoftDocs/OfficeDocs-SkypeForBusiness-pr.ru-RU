@@ -1,0 +1,53 @@
+### YamlMime:Hub
+title: Техническая документация по Microsoft Teams
+summary: Техническая документация по Microsoft Teams
+brand: teams
+metadata:
+  title: Техническая документация по Microsoft Teams
+  description: Техническая документация по Microsoft Teams
+  ms.service: msteams
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
+  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.translationtype: MT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "41889428"
+additionalContent:
+  sections:
+  - title: Для ИТ-специалистов
+    items:
+    - title: Добро пожаловать в Teams
+      summary: Ознакомьтесь с общими сведениями о Teams и ознакомьтесь с техническими рекомендациями, которые необходимы для администраторов Teams и ИТ-специалистов.
+      url: /MicrosoftTeams/teams-overview
+    - title: Переход со Skype для бизнеса на Teams
+      summary: Рекомендации и средства для оптимального перехода на Teams.
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Центр внедрения
+      summary: Получение средств для поддержки выпуска групп.
+      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    - title: Поиск учебных материалов и видео
+      summary: Обучение работе с Teams — для вас и для пользователей.
+      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    - title: 'Плакаты: архитектура Teams, решения для телефонии'
+      summary: Выводите на печать иллюстрации архитектуры ИТ и решений для групп.
+      url: /microsoftteams/teams-architecture-solutions-posters
+    - title: Использование Teams во всей организации
+      summary: Вы найдете собственные решения для отрасли, в том числе здравоохранение, Firstline работников, розничных, правительственных и образовательных учреждений.
+      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
+  - title: Для других аудиторий
+    items:
+    - title: Сообщество технических специалистов по Teams
+      summary: Присоединяйтесь к сообществу Teams, чтобы задать вопросы и получить ответы, а также просмотреть блог Teams.
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+    - title: Справка по Teams для конечного пользователя
+      summary: Перейдите в раздел Справка, обучение и выберите новый контент для конечных пользователей.
+      url: https://support.office.com/Teams
+    - title: Платформа разработки для Teams
+      summary: Узнайте о платформе разработчиков Teams и о том, как она позволяет создавать полезные и удобные приложения.
+      url: /microsoftteams/platform/overview

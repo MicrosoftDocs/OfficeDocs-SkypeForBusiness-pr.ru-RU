@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Сведения о том, как настроить прямую маршрутизацию Microsoft Phone System.
-ms.openlocfilehash: 22cb8e289cd78d1736bb594280c6ebfc248c02a0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86406af88648d367f02fd420c9ba278bdfd47185
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836089"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888598"
 ---
 # <a name="configure-direct-routing"></a>Настройка прямой маршрутизации
 
@@ -49,9 +49,9 @@ ms.locfileid: "41836089"
 
 Ниже приведены три высокоуровневые действия, позволяющие подключать и связывать одноранговые SBC-интерфейсы с прямыми маршрутами. 
 
-- Подключение к центру администрирования **Skype для бизнеса Online** с помощью PowerShell 
-- Связывание SBC 
-- Проверка связывания 
+1. Подключение к центру администрирования **Skype для бизнеса Online** с помощью PowerShell 
+2. Связывание SBC 
+3. Проверка связывания 
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Подключение к Skype для бизнеса Online с помощью PowerShell 
 
@@ -204,16 +204,16 @@ Enabled               : True
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-Например, чтобы добавить номер телефона пользователя "Спенцер Low", введите следующее: 
+    Например, чтобы добавить номер телефона пользователя "Спенцер Low", введите следующее: 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+    ```PowerShell
+    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-Номер телефона должен быть настроен как полный E. 164 номер телефона с кодом страны. 
+    Номер телефона должен быть настроен как полный E. 164 номер телефона с кодом страны. 
 
-  > [!NOTE]
-  > Если в качестве номера телефона пользователя используется локальный, используйте локальную среду управления и панель управления Skype для бизнеса, чтобы настроить номер телефона пользователя. 
+      > [!NOTE]
+      > Если в качестве номера телефона пользователя используется локальный, используйте локальную среду управления и панель управления Skype для бизнеса, чтобы настроить номер телефона пользователя. 
 
 ### <a name="configure-voice-routing"></a>Настройка голосовой маршрутизации 
 
@@ -286,7 +286,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 Get-CSOnlinePSTNUsage
 ``` 
 Возвращающий список имен, которые могут быть усечены:
-```output
+```console
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -487,28 +487,28 @@ Name                      : International
 
 Использование PSTN "Redmond 1" и "Redmond" используются в этой политике маршрутизации голосовой связи для сохранения особой обработки звонков на номера "+ 1 425 XXX XX XX" и "+ 1 206 XXX XX XX" как локальных, так и локальных звонков.
 
-   ```PowerShell
-   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-   ```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
 Обратите внимание на порядок использования PSTN:
 
-a) Если вы вызываете число "+ 1 425 XXX XX XX" с использованием описанных ниже способов, вызов проходит по маршруту, заданному в разделе "США и Канада", и применяется специальная логика маршрутизации. Таким образом, вызов пересылается сначала с помощью sbc1.contoso.biz и sbc2.contoso.biz, а затем sbc3.contoso.biz и sbc4.contoso.biz в качестве маршрутов резервного копирования.
+  a) Если вы вызываете число "+ 1 425 XXX XX XX" с использованием описанных ниже способов, вызов проходит по маршруту, заданному в разделе "США и Канада", и применяется специальная логика маршрутизации. Таким образом, вызов пересылается сначала с помощью sbc1.contoso.biz и sbc2.contoso.biz, а затем sbc3.contoso.biz и sbc4.contoso.biz в качестве маршрутов резервного копирования.
 
-б) Если "Международная" использование PSTN перед "US и Канада", то звонки в + 1 425 XXX XX XX пересылаются в sbc2.contoso.biz и sbc5.contoso.biz как часть логики маршрутизации. Введите команду:
+  б) Если "Международная" использование PSTN перед "US и Канада", то звонки в + 1 425 XXX XX XX пересылаются в sbc2.contoso.biz и sbc5.contoso.biz как часть логики маршрутизации. Введите команду:
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
-Который возвращает
+Возвращаемое значение.
 
-<pre>
-Identity              : International 
-OnlinePstnUsages : {US and Canada, International}    
-Description      :  
-RouteType             : BYOT
-</pre>
+    <pre>
+    Identity              : International 
+    OnlinePstnUsages : {US and Canada, International}    
+    Description      :  
+    RouteType             : BYOT
+    </pre>
 
 **Действие 4**: назначьте политику маршрутизации голосовой связи пользователю John лесу с помощью следующей команды.
 
