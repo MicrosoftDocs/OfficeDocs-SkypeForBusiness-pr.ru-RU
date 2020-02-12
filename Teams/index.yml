@@ -1,53 +1,77 @@
 ### YamlMime:Hub
-title: Техническая документация по Microsoft Teams
-summary: Техническая документация по Microsoft Teams
+title: Документация администратора Microsoft Teams
+summary: Сведения о том, как развертывать команды и управлять ими, а также подготавливать пользователей для Teams.
 brand: teams
 metadata:
-  title: Техническая документация по Microsoft Teams
-  description: Техническая документация по Microsoft Teams
+  title: Документация администратора Microsoft Teams
+  description: Сведения о том, как развертывать команды и управлять ими, а также подготавливать пользователей для Teams.
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
-  ms.date: 07/03/2019
+  ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
-  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
+  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "41889428"
+  ms.lasthandoff: 02/12/2020
+  ms.locfileid: "41953800"
+highlightedContent:
+  items:
+  - title: Способ развертывания Teams
+    itemType: deploy
+    url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: Поиск обучения для вас и ваших пользователей
+    itemType: learn
+    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+  - title: Переход со Skype для бизнеса на Teams
+    itemType: overview
+    url: /MicrosoftTeams/upgrade-start-here
+  - title: Центр внедрения
+    itemType: get-started
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: Плакаты и решения для ИТ – архитектуры
+    itemType: architecture
+    url: /MicrosoftTeams/teams-architecture-solutions-posters
+  - title: Начните отсюда, если вы не знакомы с Teams
+    itemType: quickstart
+    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
-  - title: Для ИТ-специалистов
-    items:
-    - title: Добро пожаловать в Teams
-      summary: Ознакомьтесь с общими сведениями о Teams и ознакомьтесь с техническими рекомендациями, которые необходимы для администраторов Teams и ИТ-специалистов.
-      url: /MicrosoftTeams/teams-overview
-    - title: Переход со Skype для бизнеса на Teams
-      summary: Рекомендации и средства для оптимального перехода на Teams.
-      url: /MicrosoftTeams/upgrade-start-here
-    - title: Центр внедрения
-      summary: Получение средств для поддержки выпуска групп.
-      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-    - title: Поиск учебных материалов и видео
-      summary: Обучение работе с Teams — для вас и для пользователей.
-      url: /MicrosoftTeams/training-microsoft-teams-landing-page
-    - title: 'Плакаты: архитектура Teams, решения для телефонии'
-      summary: Выводите на печать иллюстрации архитектуры ИТ и решений для групп.
-      url: /microsoftteams/teams-architecture-solutions-posters
-    - title: Использование Teams во всей организации
-      summary: Вы найдете собственные решения для отрасли, в том числе здравоохранение, Firstline работников, розничных, правительственных и образовательных учреждений.
-      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
-  - title: Для других аудиторий
-    items:
-    - title: Сообщество технических специалистов по Teams
-      summary: Присоединяйтесь к сообществу Teams, чтобы задать вопросы и получить ответы, а также просмотреть блог Teams.
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-    - title: Справка по Teams для конечного пользователя
-      summary: Перейдите в раздел Справка, обучение и выберите новый контент для конечных пользователей.
-      url: https://support.office.com/Teams
-    - title: Платформа разработки для Teams
-      summary: Узнайте о платформе разработчиков Teams и о том, как она позволяет создавать полезные и удобные приложения.
-      url: /microsoftteams/platform/overview
+  - items:
+    - title: Самые популярные статьи
+      links:
+      - text: Подготовка сети для Teams
+        url: /MicrosoftTeams/prepare-network
+      - text: Использование помощника для групп в целях развертывания групп
+        url: /MicrosoftTeams/use-advisor-teams-roll-out
+      - text: Использование памяти в Teams
+        url: /MicrosoftTeams/teams-memory-usage-perf
+      - text: Взаимодействие с пользователями из других организаций (гость и внешний доступ)
+        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+      - text: Безопасность и соответствие требованиям в Teams
+        url: /MicrosoftTeams/security-compliance-overview
+    - title: Голосовая связь с командами
+      links:
+      - text: Облачная голосовая связь в Microsoft Teams
+        url: /MicrosoftTeams/cloud-voice-landing-page
+      - text: Корпоративная голосовая связь Microsoft 365
+        url: /MicrosoftTeams/business-voice/whats-business-voice
+      - text: Прямая маршрутизация телефонной системы
+        url: /MicrosoftTeams/direct-routing-landing-page
+      - text: Настройка телефонов общего пользования
+        url: /MicrosoftTeams/set-up-common-area-phones
+    - title: Дополнительные сведения о Teams
+      links:
+      - text: Справочные материалы для конечных пользователей
+        url: https://support.office.com/Teams
+      - text: Сообщество технических специалистов по Teams
+        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+      - text: Форум отзывов пользователей Teams
+        url: https://microsoftteams.uservoice.com/
+      - text: Сведения о продуктах для Teams
+        url: https://products.office.com/microsoft-teams/group-chat-software
+      - text: Платформа разработки для Teams
+        url: https://docs.microsoft.com/microsoftteams/platform/overview
