@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: В этом разделе содержатся примеры запросов для базы данных качества взаимодействия (QoE).
-ms.openlocfilehash: 46286f23a2f687d8c7464c2e131e4cef943a57c2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806207"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888658"
 ---
 # <a name="sample-qoe-database-queries"></a>Образцы запросов к базе данных качества взаимодействия
  
@@ -26,13 +26,13 @@ ms.locfileid: "41806207"
   
 В следующем примере показано, как получить значение нарушения колебаний и потери пакетов для всех звуковых потоков.
   
-```
+```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
 В следующем примере показано, как найти общее количество конференций, в которых использовалась консоль собрания.
   
-```
+```SQL
 select avg(ConversationalMOS)
 from SessionView s
 inner join MediaLineView m
@@ -45,7 +45,7 @@ on s.ConferenceDateTime = m.ConferenceDateTime
 
 Следующий пример используется для получения Конверсстионалмос, Сендингмос и Листендингмос для каждого устройства захвата.
   
-```
+```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
 from
 (

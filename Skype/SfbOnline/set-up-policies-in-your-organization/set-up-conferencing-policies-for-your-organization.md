@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: "Конференц-связь \x97 это важная часть Skype для бизнеса online: она позволяет группам пользователей объединяться, чтобы просматривать презентации и видео, делиться приложениями, обмениваться файлами, общаться и совместно работать другими способами."
-ms.openlocfilehash: ef7b764d674590ed07e461029110505446b09900
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706644"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887898"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Настройка политик аудиоконференций в организации
 
@@ -45,85 +45,85 @@ ms.locfileid: "41706644"
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-    
-3. Если у вас нет версии 3,0 или более новой, вам нужно скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Перезагрузите компьютер после появления соответствующего запроса.
-    
-4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
+    1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+        
+    2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
+        
+    3. Если у вас нет версии 3,0 или более новой, вам нужно скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Перезагрузите компьютер после появления соответствующего запроса.
+        
+    4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
     Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Запуск сеанса Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
-    
-    > [!NOTE]
-    > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
+    1. From the **Start Menu** > **Windows PowerShell**.
+        
+    2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+        
+        > [!NOTE]
+        > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+       ```PowerShell      
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
 
    Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Блокирование перемещения файлов и демонстрации рабочего стола во время собраний
 
 - Чтобы создать политику для настроек, запустите следующую команду:
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
-  > ```
-  > Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
+   ```
+   Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
-  > 
-  > ```PowerShell
-  > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
-  > ```
-  > Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
+   
+   ```powershell
+   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
+   ```
+   Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
     
   Если политика уже создана, используйте командлет [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx), чтобы применить настройки к пользователям.
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Блокирование записи конференций и запрет анонимных участников собрания
 
 - Чтобы создать политику для настроек, запустите следующую команду: 
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
-  > ```
-  > Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
+   ```
+   Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:
-  > 
-  > ```PowerShell
-  >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
-  > ```
-  > Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com//library/mt779156.aspx) .
+   
+   ```powershell
+    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
+   ```
+   Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
     
 Если вы уже создали политику, вы можете использовать командлет [Set-ксконференЦингполици](https://technet.microsoft.com/library/mt779157.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) , чтобы применить параметры к вашим пользователям.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Запрет записи собраний анонимными участниками и сохранения содержимого собрания внешними пользователями
 
 - Чтобы создать политику для настроек, запустите следующую команду:  
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
-  > ```
-  > Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
+   ```
+   Дополнительные сведения о командлете [New-ксконференЦингполици](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
     
-> 
->   ```PowerShell
->   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
+   ```
 
 Дополнительные сведения о командлете [Grant-ксконференЦингполици](https://technet.microsoft.com/library/mt779156.aspx) .
     

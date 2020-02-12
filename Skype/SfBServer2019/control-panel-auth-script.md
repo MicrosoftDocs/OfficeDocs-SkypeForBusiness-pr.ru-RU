@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Вспомогательный сценарий для настройки проверки подлинности панели управления SFB 2019 с помощью протокола OAuth 365.
-ms.openlocfilehash: d434ad1530e05af396982a6c6278a80b9a416aa6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824063"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887728"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Сценарий проверки подлинности панели управления в Skype для бизнеса Server 2019
 
 Этот сценарий следует запускать после установки накопительного обновления 1 для Skype для Business Server 2019, как часть настройки для новой панели управления. Этот сценарий создаст приложение Azure AD в Azure. Это поможет вам войти в Office 365 с помощью OAuth на новой панели управления.
 
-```
+```powershell
 <#
  .SYNOPSIS
  Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.

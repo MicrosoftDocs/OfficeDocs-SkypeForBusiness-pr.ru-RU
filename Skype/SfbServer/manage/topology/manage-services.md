@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Сведения о том, как просматривать состояние службы, запускать и останавливать службы и предотвращать сеансы для служб.
-ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: da617e386f30469c1b787522f8472d822d02b1e5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817120"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888448"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Управление службами в Skype для бизнеса Server
 
@@ -59,7 +59,9 @@ ms.locfileid: "41817120"
 
 Чтобы просмотреть состояние службы на компьютере, введите в командной консоли Skype для Business Server такую команду, как показано ниже, и нажмите клавишу ВВОД.
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 Этой командой возвращается информация, аналогичная следующим сведениям:
 
@@ -75,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Подробности можно найти в [статьях Get-ксвиндовссервице](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
+Подробности можно найти в [статьях Get-ксвиндовссервице](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Запуск и остановка служб Skype для бизнеса
 
@@ -85,7 +87,9 @@ RoleName                                  Status
 
 1. Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, войдя на любой компьютер в сети, в которой вы развернули Skype для бизнеса Server. . Вы можете определить, назначена ли вам роль Кссерверадминистратор или Ксадминистратор RBAC, выполнив команду, подобную следующей:
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server. Дополнительные сведения о различных способах использования панели управления "Skype для бизнеса Server" можно найти в разделе [Установка и открытие](../../management-tools/install-and-open-administrative-tools.md)компонента "Администрирование".
 3. В левой панели навигации щелкните **Топология**, а затем **Состояние**. 

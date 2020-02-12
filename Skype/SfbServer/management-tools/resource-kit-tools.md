@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: В этой статье описаны инструменты в наборе ресурсов Skype для бизнеса Server 2015, в том числе назначение каждого из них, а также примеры его использования. Набор ресурсов Skype для бизнеса Server 2015 поможет вам упростить повседневные задачи для ИТ-администраторов, развертывающих Skype для бизнеса Server 2015 и управляющих ими. Например, инструмент Web Conf Data упрощает управление данными, которые отправляют пользователи во время собрания по сети. А при помощи SEFAUtil можно настроить переадресацию звонков делегатам и ответ на них для пользователей. Мы рекомендуем ИТ-администраторам использовать эти средства для более эффективного управления Skype для бизнеса Server 2015.
-ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1a0b787f8cd82291d408e3e3ad30e58e0b8a3627
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816258"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888888"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Документация по инструментам Skype для бизнеса Server 2015 Resource Kit
 
@@ -94,7 +94,7 @@ ms.locfileid: "41816258"
 
 Средство ABSConfig сохраняет конфигурацию службы адресной книги в базе данных.
 
-```PowerShell
+```console
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -231,8 +231,8 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 - настройка отчетов, выполняемая с помощью электронной таблицы BandwidthUtilizationAnalyzer.xlsm.
 
-> [!IMPORTANT]
-> Мы настоятельно рекомендуем конечным пользователям не запускать электронную таблицу BandwidthUtilizationAnalyzer.xlsm вручную.
+    > [!IMPORTANT]
+    > Мы настоятельно рекомендуем конечным пользователям не запускать электронную таблицу BandwidthUtilizationAnalyzer.xlsm вручную.
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>Запуск анализатора использования полосы пропускания
 
@@ -266,10 +266,10 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 - **Место хранения временных файлов** Временное расположение файлов, в котором хранятся промежуточные файлы, при создании отчета.
 
-![Каталоги файлов при анализе использования пропускной способности](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![Каталоги файлов при анализе использования пропускной способности](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-> [!NOTE]
-> Пользователю средства необходимо предоставить достаточные права на доступ к файлам журналов сервера и папке хранения временных файлов.
+    > [!NOTE]
+    > Пользователю средства необходимо предоставить достаточные права на доступ к файлам журналов сервера и папке хранения временных файлов.
 
 #### <a name="step-3---collect-the-logs-and-start-the-report-viewer"></a>Этап 3. Сбор журналов и запуск средства просмотра отчетов
 
@@ -517,7 +517,7 @@ Integrated Security=false;"/>
 
 Ниже приведены примеры допустимых команд Dbanalyze.exe.
 
-```
+```console
 dbanalyze.exe /report:diag
 dbanalyze.exe /report:user /user:usera@domainb.com
 dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
@@ -558,7 +558,7 @@ dbanalyze.exe /report:disk
 
 ### <a name="examples"></a>Примеры
 
-```
+```console
 >  C:\StorageService>ImportStorageServiceData.exe
 Description:
 This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -746,7 +746,7 @@ Tool has finished execution.
 
 C:\Program Филес\скипе для бизнеса Server 2015 \ Рескит\>лукупусерконсоле. exe
 
-```
+```console
 > sip:john.doe@vdomain.com
 
   Execution time (ms):                            171.094
@@ -835,7 +835,7 @@ C:\Program Филес\скипе для бизнеса Server 2015 \ Рески�
 
 Ниже приведен пример входных данных средства.
 
-```
+```console
 MsTurnPing -ServerRole AudioVideoEdgeServer
 
 MsTurnPing -ServerRole BandwidthPolicyServer
@@ -1047,7 +1047,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 1. The SEFAUTil tool can be run only on a computer that is part of a trusted application pool. При необходимости для добавления пула в качестве нового доверенного пула приложений можно использовать командную консоль управления Skype для бизнеса Server с помощью следующего командлета:
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1056,7 +1056,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 2. A trusted application needs to be defined in the topology for the SEFAUtil tool. Чтобы определить Сефаутил как новое надежное приложение, используйте командную консоль управления Skype для бизнеса Server и выполните следующий командлет:
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1070,7 +1070,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 3. The topology changes need to be enabled. Чтобы включить изменения топологии, можно использовать командную консоль управления Skype для бизнеса Server, выполнив следующий командлет:
 
-   ```PowerShell
+   ```powershell
    Enable-CsToplogy
    ```
 
@@ -1099,7 +1099,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1112,13 +1112,13 @@ Call Forward No Answer to: voicemail
 
 В этом примере задается направление переадресации, назначение ответа и Задержка звонка. Параметр/Server не предоставляется; Сефаутил пытается выполнить автообнаружение в Skype для бизнеса Server 2015.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1131,13 +1131,13 @@ Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
 
 В этом примере немедленно включается переадресация звонков другому пользователю.
 
-```
+```console
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1149,13 +1149,13 @@ Forward immediate to: sip:anders@contoso.com
 
 В этом примере немедленно отключается переадресация звонков.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1168,13 +1168,13 @@ Call Forward No Answer to: voicemail
 
 В этом примере пользователь добавляется в качестве делегата и настраиваются одновременные звонки делегатам.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1185,13 +1185,13 @@ Simultaneously Ringing Delegates: sip:joe@contoso.com
 
 В этом примере правило одновременных звонков, настроенное в предыдущем примере, изменяется на правило задержки звонков.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1206,13 +1206,13 @@ Delay Ringing Delegates (delay:10 seconds): sip:joe@contoso.com
 > [!NOTE]
 > После удаления последнего делегата делегированные звонки автоматически отключаются.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1225,13 +1225,13 @@ Call Forward No Answer to: voicemail
 
 В этом примере добавляется делегат и настраивается правило переадресации звонков делегатам.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1242,7 +1242,7 @@ Forwarding calls to Delegates: sip:anders@contoso.com
 
 В этом примере включаются одновременные звонки и задается номер назначения для них.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 ```
 
@@ -1251,7 +1251,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1263,13 +1263,13 @@ Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
 
 В этом примере отключаются одновременные звонки.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1282,7 +1282,7 @@ Call Forward No Answer to: voicemail
 
 В этом примере добавляется член группы приема звонков и включаются одновременные звонки этой группе.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 ```
 
@@ -1291,7 +1291,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1302,7 +1302,7 @@ Team ringing enabled. Team: sip:anders@contoso.com
 
 В этом примере удаляется один из членов группы приема звонков пользователя.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 ```
 
@@ -1311,7 +1311,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1323,13 +1323,13 @@ Call Forward No Answer to: voicemail
 
 В этом примере изменяется параметр задержки звонков в группу приема звонков.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringteam:5
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1340,7 +1340,7 @@ Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
 
 В этом примере включается групповой звонок для определенного пользователя.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringteam
 ```
 
@@ -1353,13 +1353,13 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringte
 
 В этом примере отключается групповой звонок для определенного пользователя.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1371,13 +1371,13 @@ Call Forward No Answer to: voicemail
 
 В этом примере пользователю назначается группа ответа и включается групповой ответ на звонки.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
 ```
 
  **Выходные данные**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1388,14 +1388,14 @@ Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
 
 В этом примере отключается групповой ответ на звонки для определенного пользователя.
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 ```
 
 > [!NOTE]
 > Когда вы отключаете функцию группового ответа на звонки для пользователя, номер группы, который был назначен пользователю, не сохраняется. Если вы впоследствии повторно включаете функцию группового ответа на звонки для данного пользователя, необходимо снова назначить номер группы с помощью параметра /enablegrouppickup.
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1509,7 +1509,7 @@ SYSPrep. ps1 — это сценарий Windows PowerShell, который бу
 
 В этом примере из исходного пула (Lync Server 2013) перемещается число извещений о неназначенном номере, которое находится в целевом пуле (в Skype для бизнеса Server 2015).
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1517,7 +1517,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 В этом примере из исходного пула (Skype для бизнеса Server 2015) перемещается число извещений о неназначенном числе (в Lync Server 2013) в целевом пуле.
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 
@@ -1538,8 +1538,8 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 4. переносить все данные веб-конференций, связанные с отдельным пользователем, если этот пользователь переносится из одного пула в другой.
 
-> [!NOTE]
-> Средства набора ресурсов для Lync Server 2010 поддерживают перенос всех данных веб-конференций, связанных с одним пользователем, когда пользователь перемещается из одного пула в другой. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. Подробнее об этом параметре можно узнать в командлете [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) .
+    > [!NOTE]
+    > Средства набора ресурсов для Lync Server 2010 поддерживают перенос всех данных веб-конференций, связанных с одним пользователем, когда пользователь перемещается из одного пула в другой. That functionality is now deprecated from this tool in favor of the **MoveConferenceData** parameter. Подробнее об этом параметре можно узнать в командлете [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) .
 
 Средство удаляет данные только для неактивных собраний. Активные собрания (или собрания в рамках сеансов) удалить нельзя.
 
@@ -1565,13 +1565,13 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 ![Параметры Web Conf Data Tool.](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 ```
 
 В предыдущем примере показано, как выполняется команда запроса. Выходные данные этой команды представляют собой список всех папок с содержимым собраний, которые будут затронуты при работе средства.
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 ```
 

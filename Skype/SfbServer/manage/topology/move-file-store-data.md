@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: Если вам нужно удалить файловый сервер, который в данный момент выступает в качестве хранилища файлов для развертывания Skype для бизнеса Server, или внести другие изменения, которые приводили к недоступности текущего хранилища файлов, сначала необходимо создать новый общий доступ. Затем потребуется выполнить следующую процедуру.
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817110"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888458"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Перемещение данных из хранилища файлов в новое хранилище файлов в Skype для бизнеса Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "41817110"
 
 1. Войдите в систему как член группы Рткуниверсерсалсерверадминс или Кссерверадминистратор, в которой установлены средства администрирования сервера Skype для бизнеса.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
+2. Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Skype для бизнеса Server.
 
 3. В левой панели навигации щелкните **Топология**, а затем **Состояние**. 
 
@@ -55,8 +55,8 @@ ms.locfileid: "41817110"
 
    в. В разделе **Определение нового хранилища файлов** в поле **Полное доменное имя файлового сервера** введите полное доменное имя файлового сервера. В поле **Общая папка** введите имя новой общей папки и нажмите кнопку **ОК**.
 
-    > [!IMPORTANT]
-    > Этот этап определяет новое хранилище файлов для использования в построителе топологии. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > Этот этап определяет новое хранилище файлов для использования в построителе топологии. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 8. Для каждого сервера или пула, использующего хранилище файлов, выполните следующие действия.
 
@@ -70,10 +70,9 @@ ms.locfileid: "41817110"
 
 11. В командной строке введите следующую команду:
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > Параметр /S копирует файлы, каталоги и подкаталоги. Параметр /XF пропускает файлы с именем Meeting.Active. Текущие версии файла robocopy.exe с параметром /MT существенно повышают скорость копирования благодаря использованию нескольких потоков. Для параметра/LOG используйте путь к каталогу и имя файла журнала в форме К:\логфилес\лог.ткст. Этот параметр создает файл журнала операций в именованном расположении.
@@ -88,8 +87,6 @@ ms.locfileid: "41817110"
 
 ## <a name="see-also"></a>См. также
 
-
 [Переназначение сервера другому хранилищу файлов](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [Удаление хранилища файлов](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

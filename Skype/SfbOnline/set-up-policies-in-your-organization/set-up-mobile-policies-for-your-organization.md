@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Можно настроить способ подключения к Skype для бизнеса Online с помощью приложения Skype для бизнеса на мобильных устройствах, например с помощью функции, которая позволяет пользователям совершать и принимать звонки по рабочим, а не личным номерам мобильных телефонов. Можно также использовать политики мобильных устройств, чтобы запросить подключение Wi-Fi при звонках.
-ms.openlocfilehash: 7457b89014395a5ee833b8a35bde68751ade9cfd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692954"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887858"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Настройка политик мобильных устройств в организации
 
@@ -41,49 +41,49 @@ ms.locfileid: "41692954"
 
 - **Убедитесь в том, что у вас установлена оболочка Windows PowerShell 3.0 или более поздней версии**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
-    
-3. Если у вас нет версии 3,0 или более новой, вам нужно скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Перезагрузите компьютер после появления соответствующего запроса.
-    
-4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
+    1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+        
+    2. Проверьте версию, введя в окне _Windows PowerShell_ команду **Get-Host**.
+        
+    3. Если у вас нет версии 3,0 или более новой, вам нужно скачать и установить обновления для Windows PowerShell. Чтобы скачать и обновить Windows PowerShell до версии 4,0, ознакомьтесь с разгрузкой [платформы Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Перезагрузите компьютер после появления соответствующего запроса.
+        
+    4. Вам также потребуется установить модуль Windows PowerShell для Skype для бизнеса online, с помощью которого можно создать удаленный сеанс Windows PowerShell с подключением к Skype для бизнеса online. Этот модуль, который поддерживается только на 64-разрядных компьютерах, можно скачать в Центре загрузки Майкрософт на странице [Модуль Windows PowerShell для Skype для бизнеса Online](https://go.microsoft.com/fwlink/?LinkId=294688). При появлении запроса перезагрузите компьютер.
     
     Больше информации приведено в статье [Подключение ко всем службам Office 365 с помощью единого окна Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Запуск сеанса Windows PowerShell**
     
-1. From the **Start Menu** > **Windows PowerShell**.
-    
-2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
-    
-    > [!NOTE]
-    > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
+    1. From the **Start Menu** > **Windows PowerShell**.
+        
+    2. В окне **Windows PowerShell** подключитесь к организации Office 365, выполнив следующую команду:
+        
+        > [!NOTE]
+        > Команду **Import-Module** нужно запускать только при первом использовании модуля Windows PowerShell в Skype для бизнеса Online.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+       ```PowerShell      
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
 
    Если вы хотите получить дополнительные сведения о запуске Windows PowerShell, ознакомьтесь со статьей [подключение ко всем службам Office 365 в одном окне Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) или [Настройка компьютера для Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Требование подключения Wi-Fi для видеосвязи с пользователем
 
 - Чтобы создать политику для настроек, запустите следующую команду:
-  > 
-  > ```PowerShell
-  > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
-  > ```
-  > Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
+   
+   ```powershell
+   New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
+   ```
+   Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
-  > 
-  > ```PowerShell
-  > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
-  > ```
-  > Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
+   
+   ```powershell
+   Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
+   ```
+   Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
     
   Если политика уже создана, используйте командлет [Set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx), чтобы внести в нее изменения. Затем используйте командлет [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx), чтобы применить настройки к пользователям.
   
@@ -96,28 +96,28 @@ ms.locfileid: "41692954"
   Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Чтобы предоставить новую политику Amos Marble, запустите следующую команду:  
-  > 
-  > ```PowerShell
-  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
-  > ```
-  > Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
+   
+   ```powershell
+   Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
+   ```
+   Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
     
   Если вы уже создали политику, вы можете использовать командлет [Set-ксмобилитиполици](https://technet.microsoft.com/library/mt779147.aspx) , чтобы внести изменения в существующую политику, а затем использовать командлет [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) , чтобы применить этот параметр к вашим пользователям.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Запрет звонков по VoIP на мобильных устройствах
 
 - Чтобы создать политику для настроек, запустите следующую команду:
-  > 
-  > ```PowerShell
-  > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
-  > ```
-  > Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
+   
+   ```powershell
+   New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
+   ```
+   Дополнительные сведения о командлете [New-ксмобилитиполици](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Чтобы предоставить новую политику всем пользователям в организации, запустите следующую команду:
-  > 
-  > ```PowerShell
-  > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
-  > ```
+   
+   ```powershell
+   Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
+   ```
 
   Дополнительные сведения о командлете [Grant-ксмобилитиполици](https://technet.microsoft.com/library/mt779149.aspx) .
     

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Узнайте о параметрах высокой доступности сервера, которые поддерживаются в Skype для бизнеса Server, в том числе о группах доступности AlwaysOn, экземплярах отказоустойчивого кластера AlwaysOn, зеркальном отображении базы данных и отказоустойчивом кластере SQL.
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815957"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888618"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Высокий доступ к серверу в Skype для бизнеса Server
  
@@ -56,7 +56,7 @@ ms.locfileid: "41815957"
     
 
 > [!NOTE]
-> Зеркальное отображение SQL доступно в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. В Skype для бизнеса Server 2019 рекомендуется использовать группы доступности AlwaysOn, экземпляры отказоустойчивых кластеров AlwaysOn (FCI), и методы отказоустойчивой кластеризации SQL.
+> Зеркальное отображение SQL доступно в Skype для бизнеса Server 2015, но больше не поддерживается в Skype для бизнеса Server 2019. Группы доступности AlwaysOn, экземпляры отказоустойчивого кластера AlwaysOn (FCI) и методы отказоустойчивой кластеризации SQL являются единственными поддерживаемыми вариантами в Skype для бизнеса Server 2019.
     
 Асинхронное зеркальное отображение базы данных не поддерживается для обеспечения высокой доступности серверной части в Skype для бизнеса Server. Далее в этом документе под зеркальным отображением баз данных всегда понимается синхронное отображение, если явно не указано иное. 
   

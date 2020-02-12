@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: сценарии проверки для параметров развертывания в Skype для бизнеса Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: 098d25a23745c035813cfc5c0ea6d291999c3704
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: c1a5cc793cde46c1334d88dfcbd430922f0b7c32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803389"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887648"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Улучшенное планирование DNS для Microsoft Edge Server для сервера Skype для бизнеса
  
@@ -172,7 +172,7 @@ This presents some challenges. Самое важное — DNS с разделе
     
     Например, если ваш домен SIP — contoso.com, и у вас есть пул переднего плана под названием pool01, который содержит два сервера переднего плана, вам понадобятся следующие зоны с контактными точками и записи внутренних DNS-серверов.
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
   dnscmd . /zoneadd pool01.contoso.com. /dsprimary
@@ -184,7 +184,7 @@ This presents some challenges. Самое важное — DNS с разделе
 
     В среде может быть второй домен SIP. В этом случае вам потребуются следующие точно определенные зоны и записи A во внутренней DNS:
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
   dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary

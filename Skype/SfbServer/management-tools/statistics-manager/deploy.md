@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: Сводка. Этот раздел посвящен развертыванию диспетчера статистики в Skype для бизнеса Server.
-ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803969"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888428"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Развертывание диспетчера статистики в Skype для бизнеса Server
  
@@ -100,9 +100,9 @@ ms.locfileid: "41803969"
     
      Отпечаток сертификата можно найти с помощью диспетчера сертификатов или с помощью следующей команды PowerShell:
     
-   ```PowerShell
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+       ```PowerShell
+       Get-ChildItem -path cert:\LocalMachine\My
+       ```
 
    - **Каталог установки**. Это каталог, куда устанавливаются двоичные файлы. Каталог по умолчанию можно изменить на другой с помощью кнопки **Обзор...**.
     
@@ -172,7 +172,7 @@ ms.locfileid: "41803969"
     
 Если вы устанавливаете агент на несколько компьютеров, возможно, стоит сделать это в автоматическом режиме. Пример: 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
 ```
 
@@ -198,25 +198,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    б) Перейдите в каталог, куда установлен прослушиватель. По умолчанию это: 
     
-   ```PowerShell
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. Чтобы проверить, какие серверы добавляются и обновляются, выполните следующую команду:
     
-   ```PowerShell
+   ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 Следующая команда позволяет увидеть все параметры:
   
-```PowerShell
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 Для просмотра всей импортированной информации о сервере выполните следующий сценарий: 
   
-```PowerShell
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -224,13 +224,13 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 1. Перейдите в каталог, куда установлен прослушиватель. По умолчанию это: 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. Выполните следующую команду.
     
-   ```
+   ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -241,29 +241,29 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 - Зарегистрирован ли агент в диспетчере статистики?
     
-1. 	Убедитесь, что вы выполнили инструкции по импорту топологии. См. статью [Импорт топологии](deploy.md#BKMK_ImportTopology).  
-    
-2. Если агент находится на сервере, который не указан в топологии (например, узлы в кластере SQL AlwaysOn), необходимо добавить агент вручную, следуя инструкциям в статье [Импорт топологии](deploy.md#BKMK_ImportTopology).
+    1. 	Убедитесь, что вы выполнили инструкции по импорту топологии. См. статью [Импорт топологии](deploy.md#BKMK_ImportTopology).  
+        
+    2. Если агент находится на сервере, который не указан в топологии (например, узлы в кластере SQL AlwaysOn), необходимо добавить агент вручную, следуя инструкциям в статье [Импорт топологии](deploy.md#BKMK_ImportTopology).
     
 - Может ли агент установить контакт с прослушивателем?
     
-1. Убедитесь, что служба прослушивателя запущена. 
-    
-    Если служба не запущена, убедитесь, что система Redis запущена, а затем попробуйте перезапустить прослушиватель.
-    
-2. Убедитесь, что порт открыт для службы прослушивателя и что компьютер с агентом может установить связь с этим портом.
+    1. Убедитесь, что служба прослушивателя запущена. 
+        
+        Если служба не запущена, убедитесь, что система Redis запущена, а затем попробуйте перезапустить прослушиватель.
+        
+    2. Убедитесь, что порт открыт для службы прослушивателя и что компьютер с агентом может установить связь с этим портом.
     
 - Чтобы убедиться, что диспетчер статистики собирает данные, вы можете проверить CSV-файл указанным ниже способом. 
     
     Следующая команда получает имена хранилищ счетчика: 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     Следующая команда получает значения указанных счетчиков: 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -276,7 +276,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 1. Выполнив вход от имени администратора, введите в консоли PowerShell следующую команду:
     
-   ```PowerShell
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

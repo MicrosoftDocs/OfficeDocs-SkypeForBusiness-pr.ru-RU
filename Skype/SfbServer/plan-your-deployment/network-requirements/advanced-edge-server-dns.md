@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Сводка: сценарии проверки для параметров развертывания в Skype для бизнеса Server. Этот раздел будет полезен при использовании как одного сервера, так и пула серверов с DNS и средствами балансировки нагрузки (HLB).'
-ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b3893c11e1ce0cfdf9ab0b0452ef0a30a6442ee7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802169"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887766"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Улучшенное планирование DNS для Microsoft Edge Server для сервера Skype для бизнеса
  
@@ -128,7 +128,7 @@ This presents some challenges. Самое важное — DNS с разделе
     
   - DNS A и AAAA (если вы используете IPv6-адресацию) и записи SRV для внешнего интерфейса обратного прокси-сервера или (VIP для пула обратных прокси-серверов) в сети периметра.
     
-  - DNS A и AAAA (если вы используете IPv6-адресацию) и записи SRV для автонастройки клиента Skype для бизнеса Server (**необязательно**).
+  - DNS A и AAAA (если вы используете IPv6-адресацию) и записи SRV для автонастройки клиента Skype для бизнеса Server ( **необязательно** ).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Автоматическая настройка без разделенной DNS
 <a name="NoSplitBrainDNS"> </a>
@@ -172,7 +172,7 @@ This presents some challenges. Самое важное — DNS с разделе
     
     Например, если ваш домен SIP — contoso.com, и у вас есть пул переднего плана под названием pool01, который содержит два сервера переднего плана, вам понадобятся следующие зоны с контактными точками и записи внутренних DNS-серверов.
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
   dnscmd . /zoneadd pool01.contoso.com. /dsprimary
@@ -184,7 +184,7 @@ This presents some challenges. Самое важное — DNS с разделе
 
     В среде может быть второй домен SIP. В этом случае вам потребуются следующие точно определенные зоны и записи A во внутренней DNS:
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
   dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary
