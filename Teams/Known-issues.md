@@ -18,12 +18,12 @@ f1.keywords:
 description: Актуальный список известных проблем, связанных с клиентом и администрированием Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889452"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962098"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Известные проблемы для Microsoft Teams
 
@@ -78,7 +78,7 @@ ms.locfileid: "41889452"
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
-|Teams требуется доступ к Google Gstatic <br/> |В настоящее время Teams требуется доступ (порт TCP 443) к службе Google ssl.gstatic.com (https://ssl.gstatic.com) для всех пользователей, даже если вы не используете Gstatic. В ближайшее время (в начале 2020 г.) Teams откажется от этого требования. <br/> | Обходной путь отсутствует. <br/> |10.02.2020  <br/> |
+|Teams требуется доступ к Google Gstatic <br/> |В настоящее время Teams требуется доступ (порт TCP 443) к службе Google ssl.gstatic.com для всех пользователей, даже если вы не используете Gstatic. В ближайшее время (в начале 2020 г.) Teams откажется от этого требования. <br/> | Обходной путь отсутствует. <br/> |30.01.2020  <br/> |
 
 |**Название проблемы**|**Поведение/симптом**|**Известный обходной путь**|**Дата обнаружения**|
 |:-----|:-----|:-----|:-----|
