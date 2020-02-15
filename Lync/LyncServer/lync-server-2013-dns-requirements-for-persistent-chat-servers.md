@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования DNS для хранимых серверов чата'
+title: 'Lync Server 2013: требования к DNS для серверов сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc401fa844c750e57c870ad64ebd919c9b673d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737399"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Требования DNS к сохраняемым серверам чата в Lync Server 2013
+# <a name="dns-requirements-for-persistent-chat-servers-in-lync-server-2013"></a>Требования DNS для серверов сохраняемого чата в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737399"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-28_
+_**Последнее изменение темы:** 2012-06-28_
 
-В этом разделе описаны записи DNS, необходимые для развертывания сохраненных серверов чата.
+В этом разделе описываются записи службы доменных имен (DNS), необходимые для развертывания серверов сохраняемого чата.
 
 <div>
 
-## <a name="dns-records-for-persistent-chat-servers"></a>Записи DNS для постоянных серверов чата
+## <a name="dns-records-for-persistent-chat-servers"></a>Записи DNS для серверов сохраняемых чатов
 
-В приведенной ниже таблице указаны требования DNS для развертывания сервера для сохраняемого чата.
+В следующей таблице указаны требования к DNS для развертывания сервера сохраняемого чата.
 
-### <a name="dns-requirements-for-a-persistent-chat-server"></a>Требования к DNS для сервера сохраняемого чата
+### <a name="dns-requirements-for-a-persistent-chat-server"></a>Требования DNS для серверов сохраняемых чатов
 
 <table>
 <colgroup>
@@ -65,11 +65,11 @@ _**Тема последнего изменения:** 2012-06-28_
 </tr>
 <tr class="even">
 <td><p>Пул сохраняемого чата</p></td>
-<td><p>Внутренняя запись, разрешающая полное доменное имя (FQDN) серверов в свой IP-адрес.</p>
+<td><p>Внутренняя запись A, разрешающая полное доменное имя сервера в IP-адрес.</p>
 <p><strong>Пример</strong></p>
 <p>PersistentChatServer01.contoso.com 10.10.10.1</p>
 <p>PersistentChatServer02.contoso.com 10.10.10.2</p>
-<p>Внутренняя запись, разрешающая полное доменное имя (FQDN) серверов в свой IP-адрес.</p>
+<p>Внутренняя запись A, разрешающая полное доменное имя сервера в IP-адрес.</p>
 <p><strong>Пример</strong></p>
 <p>PersistentChatPool.contoso.com 10.10.10.1</p>
 <p>PersistentChatPool.contoso.com 10.10.10.2</p></td>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: новое единое хранилище контактов'
+title: 'Lync Server 2013: новая функция единого хранилища контактов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f6ab6688a7a2d9b743843c226f2c869f18d3643
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0fefe912557e533daedf528d308edf5cea1e89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755883"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a>Новое единое хранилище контактов в Lync Server 2013
+# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a>Новая функция единого хранилища контактов в Lync Server 2013
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41755883"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-13_
+_**Последнее изменение темы:** 2012-09-13_
 
-Lync Server 2013 представляет собой единое хранилище контактов. Единое хранилище контактов позволяет пользователям хранить все контактные данные в Microsoft Exchange Server 2013. После того как контакты Lync пользователей будут перенесены в Exchange 2013, пользователи смогут получать доступ к своим контактам и управлять ими из Lync 2013, Outlook или Outlook Web App, а их избранные элементы остаются синхронизированными. Например, если пользователь добавляет контакт в список "Избранное" в Outlook, этот контакт появится в группе "Избранное" в Lync 2013. Пользователям не нужно входить в Lync для управления своими контактами из Outlook или Outlook Web App.
+Lync Server 2013 содержит единое хранилище контактов. Единое хранилище контактов позволяет пользователям хранить все контактные данные в Microsoft Exchange Server 2013. После переноса контактов Lync для пользователей в Exchange 2013 пользователи могут получать доступ к своим контактам и управлять ими из Lync 2013, Outlook или Outlook Web App, а их Избранное остается синхронизированным. Например, если пользователь добавляет контакт в папку "Избранное" в Outlook, он отображается в группе "Избранное" в Lync 2013. Пользователям не нужно войти в Lync, чтобы управлять своими контактами из Outlook или Outlook Web App.
 
-Единое хранилище контактов включено по умолчанию. Вы можете включать и отключать пользователей для единого хранилища контактов глобально, по сайту, по клиенту или по отдельным пользователям или группам пользователей.
+Универсальное хранилище контактов включено по умолчанию. Можно включить или отключить универсальное хранилище контактов для пользователей на глобальном уровне, на уровне узла, клиента, отдельных пользователей или групп пользователей.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Планирование и развертывание единого банка контактов в Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+[Планирование и развертывание единого хранилища контактов в Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Добавление политики расположения на сайт сети'
+title: 'Lync Server 2013: Добавление политики расположения к сетевому сайту'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd5e0247ccdff82737c2ed7ed830b0a99b7da1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc968af06590eab55d541330bbfeef9d9cc4d24c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735079"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>Добавление политики расположения на сайт сети в Lync Server 2013
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>Добавление политики расположения к сетевому сайту в Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41735079"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-24_
+_**Последнее изменение темы:** 2013-02-24_
 
-В следующих примерах показано, как добавить политику расположения в **Редмонде** , определенную в разделе [Создание политик расположения в Lync Server 2013](lync-server-2013-create-location-policies.md) , на существующий сайт сети и как создать новый сайт сети, использующий политику расположения в **Редмонде** .
+В следующих примерах показано, как добавить политику расположения **Redmond** , определенную в разделе [Создание политик расположения в Lync Server 2013](lync-server-2013-create-location-policies.md) на существующий сетевой сайт, и как создать новый сетевой сайт, использующий политику расположения **Redmond** .
 
-Дополнительные сведения о работе с сетевыми сайтами можно найти в документации по оболочке Lync Server Management Shell для следующих командлетов:
+Для получения подробных сведений о работе с сетевыми сайтами обратитесь к документации по командной консоли Lync Server для следующих командлетов:
 
-  - **New-CsNetworkSite**
+  - **New — CsNetworkSite**
 
-  - **Get-CsNetworkSite**
+  - **Get — CsNetworkSite**
 
-  - **Set-CsNetworkSite**
+  - **Set — CsNetworkSite**
 
-  - **Remove-CsNetworkSite**
+  - **Remove — CsNetworkSite**
 
 <div>
 
 ## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Назначение политики местоположения существующему сетевому узлу
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 2.  Выполните следующие командлеты для изменения существующего сетевого узла.
     
@@ -67,11 +67,11 @@ _**Тема последнего изменения:** 2013-02-24_
 
 ## <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Назначение политики местоположения новому сетевому узлу
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 2.  Выполните следующий командлет для создания нового сетевого узла.
     
-    Создайте новый сетевой сайт в области сети и назначьте ему политику расположения с меткой **Redmond**.
+    Создайте новый сетевой узел в области сети и назначьте ему политику местоположения с меткой **Redmond**.
     
         New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

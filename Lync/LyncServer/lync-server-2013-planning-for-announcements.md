@@ -12,16 +12,16 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cd5a537b31b36c7a55f19ac476bb5d4c0fde93c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9adaeba6e26cb01a7c7aa8c2a1fb3f7ce955b6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41725629"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-13_
+_**Последнее изменение темы:** 2012-09-13_
 
-Приложение Lync Server объявлений позволяет настраивать обработку входящих звонков, когда номер набираемого номера действителен для вашей организации, но не назначен пользователю или телефону. Вы можете передать эти звонки на предварительно определенный адрес (номер телефона, URI SIP или голосовую почту), а также воспроизвести звуковое оповещение или и то, и другое. Приложение извещения поможет избежать ситуаций, в которых вызывающий абонент не набирает звук и прозвучит сообщение об ошибке. Этот раздел содержит сведения о планировании, специфичные для приложения "объявление".
+Приложение Lync Server извещения позволяет настроить обработку входящих телефонных звонков, когда набранный номер действителен для вашей организации, но не назначен пользователю или телефону. Такие вызовы можно передавать в предварительно заданное назначение (на телефонный номер, SIP URI или на голосовую почту), или воспроизводить вызывающему абоненту звуковое объявление, или выполнять оба действия. Приложение "Оповещение" помогает исключить ситуацию, в которой вызывающий абонент неправильно набирает номер и слышит сигнал "занято", или клиент SIP получает сообщение об ошибке. В этом разделе содержатся сведения о планировании, относящиеся к приложению извещения.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Общие сведения о приложении объявления в Lync Server 2013](lync-server-2013-overview-of-the-announcement-application.md)
+  - [Обзор приложения "объявление" в Lync Server 2013](lync-server-2013-overview-of-the-announcement-application.md)
 
-  - [Компоненты, используемые приложением "Объявление" в Lync Server 2013](lync-server-2013-components-used-by-the-announcement-application.md)
+  - [Компоненты, используемые приложением "объявление" в Lync Server 2013](lync-server-2013-components-used-by-the-announcement-application.md)
 
-  - [Технические требования для приложения "Объявление" в Lync Server 2013](lync-server-2013-technical-requirements-for-the-announcement-application.md)
+  - [Технические требования для приложения "объявление" в Lync Server 2013](lync-server-2013-technical-requirements-for-the-announcement-application.md)
 
-  - [Процесс развертывания приложения для объявлений в Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Процесс развертывания приложения "объявление" в Lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

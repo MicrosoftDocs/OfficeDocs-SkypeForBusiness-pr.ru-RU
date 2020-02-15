@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: контрольный список развертывания для конференций'
+title: Контрольный список развертывания Lync Server 2013 для конференц-связи
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea0fec545c2241a05b7f6b65d1a05fad9add349
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 649908e0d2503c886a1ad71937604d0234eb2270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728189"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a>Контрольный список развертывания для конференций в Lync Server 2013
+# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a>Контрольный список развертывания для конференц-связи в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728189"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-30_
+_**Последнее изменение темы:** 2012-09-30_
 
-В следующих разделах содержится контрольный список для развертывания и настройки веб-конференций, конференций и конференций с телефонным подключением.
+В следующих статьях предоставляется контрольный список для развертывания и настройки веб-конференций, аудио- и видеоконференций, а также конференц-связи с телефонным подключением.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-09-30_
 
   - [Контрольный список развертывания для веб-конференций в Lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)
 
-  - [Контрольный список развертывания для конференций/V в Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
+  - [Контрольный список развертывания для аудио-и видеоконференций в Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
 
   - [Контрольный список развертывания для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c37cd0f96ea0dd8e3fa63a851c3c93caf5988c7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744069"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41744069"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-21_
+_**Последнее изменение темы:** 2012-10-21_
 
-Lync Server 2013 включает набор стандартных отчетов, которые публикуются службой Microsoft SQL Server Reporting Services. Эти отчеты, доступные в браузере, предоставляют сведения об использовании, диагностики звонков и качестве медиаданных на основе записей регистрации вызовов (CDR) и качества взаимодействия (QoE) в базе данных CDR и QoE.
+Lync Server 2013 включает набор стандартных отчетов, публикуемых службой отчетов Microsoft SQL Server. Эти отчеты, доступные в браузере, предоставляют сведения об использовании, диагностики звонков и качестве медиаданных на основе записей регистрации вызовов (CDR) и качества взаимодействия (QoE) в база данных CDR и QoE.
 
-Для использования этих отчетов необходимо установить отчеты наблюдения на компьютере, на котором запущен экземпляр SQL Server.
+Чтобы использовать эти отчеты, необходимо установить отчеты мониторинга на компьютере, на котором запущен экземпляр SQL Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Использование панели мониторинга в Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   предоставляет администраторам краткий обзор состояния системы и использование системы.
+  - [Использование панели мониторинга в Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   предоставляет администраторам краткие сведения о работоспособности и использовании системы.
 
   - [Отчеты об использовании системы в Lync Server 2013](lync-server-2013-system-usage-reports.md)   предоставляют сведения об использовании системы на основе данных CDR, собранных Lync Server.
 
-  - [Диагностические отчеты о звонках (для каждого пользователя) в Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   предоставляет сведения о неудачных сеансах одноранговых и конференц-связи между пользователями.
+  - [Диагностические отчеты по звонку (на пользователя) в Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   предоставляет сведения о неудачных одноранговых сеансах и сеансах конференц-связи для отдельных пользователей.
 
-  - [Диагностические отчеты о звонках в Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   предоставляет сводную информацию и диагностические данные для неудачных сеансов одноранговых подключений и конференций.
+  - [Диагностические отчеты по вызовам в Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   предоставляет сводную информацию и диагностические данные для неудачных одноранговых сеансов и сеансов конференц-связи.
 
-  - [Отчеты диагностики качества мультимедиа в Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   предоставляют сведения о качестве связи, а также о диагностике и устранении неполадок для неудачных звонков.
+  - [Диагностические отчеты по качеству мультимедиа в Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   предоставляет сведения о качестве вызовов, а также диагностические сведения и сведения об устранении неполадок для неудачных вызовов.
 
 </div>
 
@@ -91,7 +91,7 @@ Lync Server 2013 включает набор стандартных отчето
 
   - XML-файл с данными отчета
 
-  - CSV (разделители-запятые)
+  - CSV (с разделителями-запятыми)
 
   - Файл Acrobat (PDF)
 
@@ -99,7 +99,7 @@ Lync Server 2013 включает набор стандартных отчето
 
   - Excel
 
-  - TIFF-файл
+  - Файл TIFF
 
   - Word
 

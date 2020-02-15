@@ -12,16 +12,16 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 784e229ee16bfee0e9e828f1df7f06a98e898eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765860"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765860"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Таблица Нетворкконнектиондетаил сопоставляет типы сетевых подключений с идентификаторами сетевых подключений, используемыми в базе данных качества обслуживания. Эта таблица введена в Microsoft Lync Server 2013.
+В таблице NetworkConnectionDetail сопоставляются типы сетевых подключений с идентификаторами сетевых подключений, используемых в базе данных качества взаимодействия. Эта таблица была введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -49,10 +49,10 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -63,14 +63,14 @@ _**Тема последнего изменения:** 2012-10-02_
 <td><p>Уникальный идентификатор типа сетевого подключения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>NetworkConnectionDetail</strong></p></td>
+<td><p><strong>нетворкконнектиондетаил</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Повторя</p></td>
-<td><p>Тип сетевого подключения, соответствующий Нетворкконнектиондетаилкэй. Допустимые значения:</p>
+<td><p>Уникальные</p></td>
+<td><p>Тип сетевого подключения, который соответствует значению NetworkConnectionDetailKey. Допускаются следующие значения:</p>
 <ol>
-<li><p>0--проводное подключение</p></li>
-<li><p>1--WiFi</p></li>
-<li><p>2--Ethernet</p></li>
+<li><p>0 — проводное</p></li>
+<li><p>1 — беспроводное</p></li>
+<li><p>2 — Ethernet</p></li>
 </ol></td>
 </tr>
 </tbody>

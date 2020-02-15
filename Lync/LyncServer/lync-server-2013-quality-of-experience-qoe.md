@@ -12,20 +12,20 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28ebdc40c4747d0ec2c3f97a3d39d07b9366e39a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 688086f559c5b5f21891ce87f9ea1f5256280a34
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045741"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Качество работы (QoE) в Lync Server 2013
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a>Качество взаимодействия (QoE) в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724579"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Служба отслеживания качества взаимодействия (QoE) записывает числовые данные, которые показывают качество мультимедиа-данных, и сведения об участниках, именах устройств, драйверах, IP-адресах и типах конечных точек, использованных во время звонка или сеанса. При установке Lync Server 2013 Вы также устанавливаете предопределенную коллекцию глобальных параметров конфигурации для QoE. Используйте разделы этой главы для настройки значений QoE.
+Служба качества взаимодействия (QoE) записывает числовые данные, которые показывают качество мультимедиа-данных, и сведения об участниках, именах устройств, драйверах, IP-адресах и типах конечных точек, использованных во время звонка или сеанса. При установке Lync Server 2013 Вы также устанавливаете предварительно определенную коллекцию глобальных параметров конфигурации для QoE. Используйте разделы этой главы для настройки значений QoE.
 
 <div>
 
@@ -45,13 +45,13 @@ _**Тема последнего изменения:** 2012-11-01_
 
   - [Создание параметров конфигурации качества взаимодействия в Lync Server 2013](lync-server-2013-create-quality-of-experience-configuration-settings.md)
 
-  - [Обеспечение качества взаимодействия в Lync Server 2013](lync-server-2013-enable-quality-of-experience.md)
+  - [Включение качества взаимодействия в Lync Server 2013](lync-server-2013-enable-quality-of-experience.md)
 
   - [Изменение параметров качества взаимодействия в Lync Server 2013](lync-server-2013-modify-quality-of-experience-settings.md)
 
   - [Удаление параметров конфигурации качества взаимодействия в Lync Server 2013](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
 
-  - [Ручная очистка записи сведений о звонке и баз данных качества обслуживания в Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [Ручное удаление баз данных регистрации вызовов и качества взаимодействия в Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
@@ -60,7 +60,7 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Настройка записи сведений о звонке и параметров качества обслуживания в Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[Настройка записи сведений о вызовах и параметров качества взаимодействия в Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

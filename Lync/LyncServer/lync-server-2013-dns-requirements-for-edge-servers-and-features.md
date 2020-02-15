@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования DNS к пограничным серверам и функциям'
+title: 'Lync Server 2013: требования к DNS для пограничных серверов и компонентов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e9f0cb2eb68ed29984811f1c42a97dab4693a2f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd9c14de1b25125e94a3019b4e3dcdbd192cbb13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739149"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Требования DNS к пограничным серверам и функциям в Lync Server 2013
+# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Требования к DNS для пограничных серверов и компонентов в Lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41739149"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-04-08_
+_**Последнее изменение темы:** 2014-04-08_
 
-На серверах пограничного сервера Lync Server 2013, пулах EDGE и обратных прокси предъявляются особые требования к записям DNS. В Lync Server 2013 при использовании IPv4 и IPv6 вы должны спланировать как записи A, так и AAAA.
+Пограничные серверы Lync Server 2013, пограничные пулы и обратные прокси-серверы имеют определенные требования к записям системы доменных имен (DNS). В Lync Server 2013 при использовании IPv4 и IPv6 необходимо запланировать записи A и AAAA для узла.
 
-Указанные ниже разделы определяют использование записей DNS для планирования развертывания.
+В разделах, приведенных далее, определяется использование записей DNS для планирования развертывания:
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Сводка по DNS — единая консолидированная пограничная топология с закрытыми IP-адресами и трансляцией сетевых адресов в Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Сводка по DNS — единый консолидированный край с частными IP-адресами, использующими NAT в Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Сводка по DNS — единая консолидированная пограничная топология с общедоступными IP-адресами в Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Сводка по DNS — единая консолидированная пограничная с общедоступными IP-адресами в Lync Server 2013](lync-server-2013-dns-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Сводка по DNS — масштабируемая консолидированная пограничная топология, балансировка нагрузки на DNS с закрытыми IP-адресами и трансляцией сетевых адресов в Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Сводка по DNS — масштабируемый консолидированный край, балансировка нагрузки на DNS с частными IP-адресами с использованием NAT в Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Сводка по DNS — масштабируемая консолидированная пограничная топология, балансировка нагрузки на DNS с общедоступными IP-адресами в Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Сводка по DNS — масштабируемый консолидированный край, балансировка нагрузки на DNS с общедоступными IP-адресами в Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Сводка по DNS — масштабируемая консолидированная пограничная топология с аппаратными балансировщиками нагрузки в Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Сводка по DNS — масштабируемая консолидированная пограничная система с аппаратными подсистемами балансировки нагрузки в Lync Server 2013](lync-server-2013-dns-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
   - [Сводка по DNS — обратный прокси-сервер в Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
 
-  - [Сводка DNS-SIP, Федерация КСМПП и общедоступная служба обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Сводка по DNS — SIP, Федерация XMPP и общедоступные службы обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

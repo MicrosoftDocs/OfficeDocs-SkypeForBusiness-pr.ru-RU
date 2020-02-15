@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: начало работы'
+title: 'Lync Server 2013: Начало работы'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c38799334dc2cb8f4858082f06212750bcc5dfb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742429"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-04-03_
+_**Последнее изменение темы:** 2015-04-03_
 
-Lync Server 2013 содержит множество функций, позволяющих повысить эффективность совместной работы и общения в Организации. Многие из этих функций более новые, чем в предыдущих версиях. В этом разделе приведены краткие сведения о новых возможностях.
+Lync Server 2013 предоставляет множество функций для повышения эффективности совместной работы и общения в Организации. Многие из этих функций являются новыми по сравнению с доступными в предыдущих версиях. В темах этого раздела приведено краткое описание этих новых возможностей.
 
 <div>
 
@@ -45,13 +45,13 @@ Lync Server 2013 содержит множество функций, позво�
 
   - [Введение в Lync Server 2013](lync-server-2013-introduction.md)
 
-  - [Новые серверные функции в Lync Server 2013](lync-server-2013-new-features.md)
+  - [Новые функции в Lync Server 2013](lync-server-2013-new-features.md)
 
-  - [Новые функции клиента в Lync Server 2013](lync-server-2013-new-client-features.md)
+  - [Новые функции клиентов в Lync Server 2013](lync-server-2013-new-client-features.md)
 
-  - [Настройка взаимодействия с клиентом в Skype для бизнеса](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Настройка взаимодействия с клиентом с помощью Skype для бизнеса](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [Примечания к выпуску для Lync Server 2013](lync-server-2013-release-notes.md)
+  - [Заметки о выпуске для Lync Server 2013](lync-server-2013-release-notes.md)
 
 </div>
 

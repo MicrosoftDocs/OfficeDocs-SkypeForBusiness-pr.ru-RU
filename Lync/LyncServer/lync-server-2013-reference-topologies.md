@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: эталонные топологии'
+title: Эталонные топологии Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bc7f3838cef5689cab0a81b59556c147f3588c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 145b5855f4576e68517e4bd837671000fb4a97e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724419"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41724419"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-21_
+_**Последнее изменение темы:** 2012-05-21_
 
-Оптимальная топология Lync Server зависит от размера организации, нагрузки, которую вы хотите развернуть, а также от настроек высокой доступности и стоимости инвестиций.
+Идеальная топология Lync Server зависит от размера вашей организации, нагрузки, которую вы хотите развернуть, а также от предпочтений для обеспечения высокой доступности и стоимости инвестиций.
 
-В следующих разделах описаны три эталонные топологии, в том числе причина в большинстве решений, которые применяют требования для каждой топологии.
+В следующем подразделе рассматриваются три эталонные топологии, а также приводится обоснование многих решений, на которых основаны требования для каждой из них.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Топология ссылок для Lync Server 2013 в небольших организациях](lync-server-2013-reference-topology-for-small-organizations.md)
+  - [Эталонная топология для Lync Server 2013 в небольших организациях](lync-server-2013-reference-topology-for-small-organizations.md)
 
-  - [Эталонная топология для Lync Server 2013 для средних по размеру организаций](lync-server-2013-reference-topology-for-medium-size-organizations.md)
+  - [Эталонная топология для Lync Server 2013 в организациях среднего размера](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
-  - [Эталонная топологии для Lync Server 2013 в крупных организациях с несколькими центрами обработки данных](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+  - [Эталонная топология для Lync Server 2013 в крупных организациях с несколькими центрами обработки данных](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
 
 </div>
 

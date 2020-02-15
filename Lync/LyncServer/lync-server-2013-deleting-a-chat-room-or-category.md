@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление чата или категории'
+title: 'Lync Server 2013: удаление комнаты или категории чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74cf41679a21612e67c4a793c09ae3484377ef6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e94068337747feee592ec25669e9d7b5fc10bc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-a-chat-room-or-category-in-lync-server-2013"></a>Удаление чата или категории в Lync Server 2013
+# <a name="deleting-a-chat-room-or-category-in-lync-server-2013"></a>Удаление комнаты или категории чата в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763261"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Сохраняемые комнаты чата могут быть удалены. Если у вас есть комната чата, которая больше не используется, ее можно отключить. Подробности можно найти [в разделе Отключение и включение комнаты чата в Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md).
+Можно удалить комнаты сохраняемого чата. Если комната чата больше не используется, вы можете отключить ее. Дополнительные сведения см. [в разделе Отключение или включение комнаты чата в Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md).
 
-Администратор сохраняемого чата может запрашивать отключенные комнаты чата, а также периодически очищать и удалять комнаты чата с помощью командлета Windows PowerShell **Remove-ксперсистентчатрум**.
+Администратор сохраняемого чата может запрашивать отключенные комнаты чата, а также периодически очищать и удалять комнаты чата с помощью командлета Windows PowerShell **Remove – CsPersistentChatRoom**.
 
-Категории можно удалить. Тем не менее, чтобы удалить категорию, необходимо сначала удалить из нее все комнаты чата или переместить комнаты чата в новую категорию, оставив пустую категорию для удаления. На сервере сохраняемого чата не разрешается удалять категории, содержащие комнаты чата. Подробности можно найти [в разделе Перемещение комнаты чата из одной категории в другую в Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md).
+Можно удалять категории. Однако чтобы удалить категорию, нужно сначала удалить в ней все комнаты чата или перенести их в другую категорию, оставив удаляемую категорию пустой. Сервер сохраняемого чата не позволяет удалять категорию, которая содержит комнаты чата. Дополнительную информацию можно узнать [в статье Перемещение комнаты чата из одной категории в другую в Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md).
 
-Подробнее об удалении пустых категорий с помощью интерфейса командной строки Windows PowerShell можно узнать в разделе Управление комнатой на странице [Настройка сохраняемого сервера чата с помощью командлетов Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Дополнительные сведения об удалении пустых категорий с помощью интерфейса командной строки Windows PowerShell можно найти в разделе Управление комнатой в разделе [Настройка сервера сохраняемого чата с помощью командлетов Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
-Дополнительные сведения о комнатах и категориях чата в разделе [Настройка комнат в Lync server 2013](lync-server-2013-configure-rooms.md) и [Настройка категорий в Lync Server 2013](lync-server-2013-configure-categories.md) в документации по развертыванию.
+Дополнительные сведения о комнатах и категориях чата приведены в статье [Настройка комнат в Lync server 2013](lync-server-2013-configure-rooms.md) и [Настройка категорий в Lync Server 2013](lync-server-2013-configure-categories.md) в документации по развертыванию.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 770107bb4f7fafc4b1d43db8a5bdfcd3efef63e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25bf5b464b8bda91d2374811d3c727154d1ceccc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a>Командлеты сервера баз данных и управления в Lync Server 2013
+# <a name="database-and-management-server-cmdlets-in-lync-server-2013"></a>Командлеты базы данных и сервера управления в Lync Server 2013
 
 </div>
 
@@ -35,76 +35,76 @@ ms.locfileid: "41728599"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-09_
+_**Последнее изменение темы:** 2012-10-09_
 
-Командлеты базы данных и сервера управления используются для управления серверными базами данных Microsoft Lync Server 2013 и внешними службами управления. Вы можете использовать эти командлеты, чтобы установить или удалить любую базу данных, используемую в Lync Server 2013, в дополнение к настройке точки управления службой Active Directory для хранилища центрального управления.
+Командлеты базы данных и сервера управления используются для управления серверными базами данных Microsoft Lync Server 2013 и интерфейсными службами управления. Эти командлеты можно использовать для установки или удаления любых баз данных, используемых Lync Server 2013, а также для настройки точки управления службой Active Directory для центрального хранилища управления.
 
 <div>
 
-## <a name="database-and-management-server-cmdlets"></a>Командлеты базы данных и сервера управления
+## <a name="database-and-management-server-cmdlets"></a>Командлеты для баз данных и серверов управления
 
-Ниже приведен список командлетов, непосредственно связанных с управлением базами данных и сервером управления.
+Ниже приведен список командлетов, которые непосредственно относятся к управлению базами данных и серверам управления:
 
-**Базы данных и сервер управления**
-
-  - <span></span>  
-    [Get-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg412814(v=OCS.15))
+**Базы данных и серверы управления**
 
   - <span></span>  
-    [Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398214(v=OCS.15))
+    [Get — CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398258(v=OCS.15))
+    [Remove — CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Install-CsDatabase](https://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [Install — CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDatabase](https://technet.microsoft.com/en-us/library/JJ204839(v=OCS.15))
+    [Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))
 
   - <span></span>  
-    [Uninstall-CsDatabase](unhttps://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [Uninstall — CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsDatabaseFailover](https://technet.microsoft.com/en-us/library/JJ204744(v=OCS.15))
+  - [Invoke — Ксдатабасефаиловер](https://technet.microsoft.com/library/JJ204744(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsDatabaseMirrorState](https://technet.microsoft.com/en-us/library/JJ204845(v=OCS.15))
+  - [Get — CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))
 
 <!-- end list -->
 
-  - [Install-CsMirrorDatabase](https://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
+  - [Install — CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
-  - [Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg398831(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg412973(v=OCS.15))
+  - [Uninstall — CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsUserDatabase](https://technet.microsoft.com/en-us/library/Gg398682(v=OCS.15))
+    [Get — CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg412921(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg398465(v=OCS.15))
+    [Update — Ксусердатабасе](https://technet.microsoft.com/library/Gg398682(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsManagementServerFailover](https://technet.microsoft.com/en-us/library/JJ204647(v=OCS.15))
+  - <span></span>  
+    [Move — CsManagementServer](https://technet.microsoft.com/library/Gg412921(v=OCS.15))
+
+  - <span></span>  
+    [Set — CsManagementServer](https://technet.microsoft.com/library/Gg398465(v=OCS.15))
+
+<!-- end list -->
+
+  - [Invoke — Ксманажементсерверфаиловер](https://technet.microsoft.com/library/JJ204647(v=OCS.15))
 
 </div>
 

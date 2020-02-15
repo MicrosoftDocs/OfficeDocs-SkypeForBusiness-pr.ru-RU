@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование обхода серверов-посредников'
+title: 'Lync Server 2013: Планирование обхода сервера мультимедиа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0bb4d495637cd78e430e975e9831421906bfbf6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751159"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Планирование обхода серверов-посредников в Lync Server 2013
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Планирование обхода сервера мультимедиа в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41751159"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-21_
+_**Последнее изменение темы:** 2012-09-21_
 
-Обойтись обозначает удаление сервера обновлений из пути к носителю, если это возможно, для звонков, сигнализация которых проходит на сервер обновлений.
+Обход сервера-посредника — это устранение сервера-посредника из пути мультимедиа везде, где это возможно, для вызовов, передача сигналов которых проходит через сервер-посредник.
 
-Media bypass can improve voice quality by reducing latency, needless translation, possibility of packet loss, and the number of points of potential failure. Масштабируемость может быть улучшена, так как при отключении обработки мультимедиа для обходных вызовов уменьшается нагрузка на сервер-посредник. Благодаря этому снижению нагрузки сервер может управлять несколькими шлюзами.
+Обход сервера-посредника может улучшить качество звука, поскольку уменьшается задержка, потребность в преобразовании, вероятность потери пакетов и число точек вероятного сбоя. Может улучшиться масштабируемость, поскольку устранение обработки мультимедиа для вызовов с обходом сервера-посредника уменьшает нагрузку на сервер-посредник. Это сокращение нагрузки дополняет способность сервера-посредника управлять несколькими шлюзами.
 
-Если сайт филиала без сервера-посредника подключен к центральному сайту по одной или нескольким ГЛОБАЛЬным каналам связи с ограниченной пропускной способностью, пропустите требования к пропускной способности, разрешая доступ к мультимедиа от клиента на сайте филиала для передачи данных непосредственно локальному шлюзу без Сначала перейдете по каналу глобальной сети на сервер-посредник на центральном сайте и обратно.
+Когда сайт филиала без сервера-посредника подключается к центральному сайту с помощью одной или нескольких каналов глобальной сети с ограниченной пропускной способностью, обход сервера-посредника пропонижает требования к пропускной способности, разрешая обмен данными с клиентом на сайте филиала непосредственно к локальному шлюзу без Сначала перетекает через канал WAN к серверу-посреднику на центральном сайте и обратно.
 
-Вырелиевинг сервер из обработки мультимедийных сообщений, вы также можете уменьшить количество серверов, которые потребуются при работе с корпоративной голосовой сетью.
+Освобождая сервер-посредник из обработки мультимедиа позволяет сократить количество серверов-посредников, необходимых для инфраструктуры корпоративной голосовой связи.
 
 На следующем рисунке показаны основные пути мультимедиа и передачи сигналов в топологиях с обходом сервера-посредника и без такого обхода.
 
-**Пути передачи мультимедийных данных и сигналов при включенном и отключенном режиме обхода сервера-посредника**
+**Пути мультимедиа и передачи сигналов с обходом сервера-посредника и без обхода**
 
-![Голосовой контроль допуска звонков — обход мультимедиа при принудительном подключении](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Голосовой контроль допуска звонков — обход мультимедиа при принудительном подключении")
+![Режим обхода подключений голосовой связи для передачи голоса](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Режим обхода подключений голосовой связи для передачи голоса")
 
 Общая рекомендация состоит в том, чтобы включать обход сервера-посредника везде, где это возможно.
 
@@ -57,13 +57,13 @@ Media bypass can improve voice quality by reducing latency, needless translation
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Общие сведения об обходном пропуске мультимедиа в Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)
+  - [Обзор обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)
 
-  - [Режимы обхода сервера-посредника в Lync Server 2013](lync-server-2013-media-bypass-modes.md)
+  - [Режимы обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-media-bypass-modes.md)
 
-  - [Обход сервера-посредника и контроль допуска звонков в Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)
+  - [Обход сервера мультимедиа и контроль допуска звонков в Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)
 
-  - [Технические требования для сервера-посредника в Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)
+  - [Технические требования для обхода сервера мультимедиа в Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)
 
 </div>
 
@@ -71,7 +71,7 @@ Media bypass can improve voice quality by reducing latency, needless translation
 
 ## <a name="related-sections"></a>Связанные разделы
 
-[Развертывание улучшенных функций голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[Развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
@@ -80,7 +80,7 @@ Media bypass can improve voice quality by reducing latency, needless translation
 ## <a name="see-also"></a>См. также
 
 
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Настройка магистрали с обходом сервера мультимедиа в Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 
 
 [Глобальные параметры обхода мультимедиа в Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  

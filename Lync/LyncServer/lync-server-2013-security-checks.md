@@ -12,16 +12,16 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03b9b966aaea9c74b0fbd9c0306aa559fd981419
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e93a9e220ddb89b7b82dc3df20709a3268907d5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764917"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-08-18_
+_**Последнее изменение темы:** 2014-08-18_
 
-Выполнять регулярные проверки безопасности, такие как правила брандмауэра, права пользователей, участие в группах, делегирование прав и т. д.
+Выполнять регулярный аудит безопасности, таких как правила брандмауэра, права пользователей, членство в группах, делегирование прав и т. д.
 
 <div>
 

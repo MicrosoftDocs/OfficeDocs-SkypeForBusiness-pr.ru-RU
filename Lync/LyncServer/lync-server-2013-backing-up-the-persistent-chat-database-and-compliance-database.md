@@ -12,16 +12,16 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64273ab712fdc62b70233a16131b29668c006974
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa9d657e10678b4f0b7969a2e3d2805d38833b2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740609"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740609"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-08-01_
+_**Последнее изменение темы:** 2012-08-01_
 
-Регулярно создавайте резервные копии базы данных и базы данных соответствия требованиям. Обратитесь к администратору базы данных, чтобы определить наилучший способ выполнения этой задачи в среде.
+Необходимо регулярно выполнять резервное копирование базы данных сохраняемого чата и базы данных соответствия требованиям. Обратитесь к администратору баз данных, чтобы определить наилучший способ выполнения в используемой среде.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр данных простого URL-адреса'
+title: 'Lync Server 2013: Просмотр сведений о простых URL-адресах'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f77c860d58ecc391298b88f4e1855ddd80199d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71f507f35d8fe616617a2782840cfcf41719ed45
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757433"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-simple-url-details-in-lync-server-2013"></a>Просмотр простых данных URL-адреса в Lync Server 2013
+# <a name="view-simple-url-details-in-lync-server-2013"></a>Просмотр сведений об простых URL-адресах в Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757433"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-11_
+_**Последнее изменение темы:** 2012-10-11_
 
-Вы можете использовать панель управления Lync Server 2013 для просмотра простых данных URL-адреса для вашей среды Lync Server 2013. Простые URL-адреса упрощают присоединение к собраниям, а также облегчает администраторам доступ к средствам администрирования. Подробные сведения можно найти [в разделе Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+Вы можете использовать панель управления Lync Server 2013 для просмотра простых URL-адресов для вашей среды Lync Server 2013. Простые URL-адреса облегчают пользователям присоединение к собраниям и упрощают доступ администраторов к средствам администрирования. Подробные сведения см. [в статье Планирование простых URL-адресов в Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
 <div>
 
-## <a name="to-view-simple-url-details"></a>Просмотр простых данных URL-адреса
+## <a name="to-view-simple-url-details"></a>Просмотр сведений о простых URL-адресах
 
-1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи, назначенной роли CsServerAdministrator, CsAdministrator, CsHelpDesk или CsViewOnlyAdministrator. Подробные сведения о стандартных ролях администратора, доступных в Lync Server 2013, можно найти [в разделе Планирование управления доступом на основе ролей в Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Из учетной записи пользователя, назначенной для роли CsServerAdministrator, CsAdministrator, CsHelpDesk или CsViewOnlyAdministrator, войдите на любой компьютер во внутреннем развертывании. Подробные сведения о предопределенных административных ролях, доступных в Lync Server 2013, приведены в статье [Планирование управления доступом на основе ролей в Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **топология** и щелкните **простой URL-адрес**.
+3.  В левой панели навигации щелкните элемент **Топология**, а затем элемент **Простой URL-адрес**.
 
-4.  На странице **простой URL-адрес** щелкните заголовок столбца, чтобы отсортировать список (при необходимости).
+4.  На странице **Простой URL-адрес** щелкните заголовок столбца, чтобы упорядочить список при необходимости.
 
-5.  Выберите имя, для которого требуется получить простой URL-адрес, и нажмите кнопку **Свойства**.
+5.  Выберите имя, для которого требуется просмотреть сведения о простых URL-адресах, а затем щелкните **Свойства**.
 
-6.  Когда вы закончите просмотр сведений, нажмите кнопку **Закрыть**.
+6.  Закончив просмотр сведений, нажмите кнопку **Закрыть**.
 
 </div>
 

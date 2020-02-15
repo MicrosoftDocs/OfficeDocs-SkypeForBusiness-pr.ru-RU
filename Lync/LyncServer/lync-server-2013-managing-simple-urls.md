@@ -12,16 +12,16 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1436855e3a5de0a20a0d08a8b8a526939d1bd17c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e72e562c2563a4e90613e2a75c424587bfb7b33d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757983"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-11_
+_**Последнее изменение темы:** 2012-10-11_
 
-С помощью описанных в этом разделе процедур можно управлять простыми URL-адресами на странице **топология** в Lync Server 2013 панели управления.
+С помощью процедур, описанных в этом разделе, можно управлять простыми URL-адресами на странице **топология** в панели управления Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-[Просмотр простых данных URL-адреса в Lync Server 2013](lync-server-2013-view-simple-url-details.md)
+[Просмотр сведений об простых URL-адресах в Lync Server 2013](lync-server-2013-view-simple-url-details.md)
 
 </div>
 

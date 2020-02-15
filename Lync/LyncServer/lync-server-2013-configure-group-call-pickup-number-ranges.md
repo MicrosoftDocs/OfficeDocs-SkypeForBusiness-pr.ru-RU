@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка диапазонов номеров для отправки групповых звонков'
+title: 'Lync Server 2013: Настройка диапазонов номеров для отправки групповых вызовов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bd822dda38dd3b6cb5d6b801460ad463375e62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47639ea1e158ce5cb4e6463b1fb953fc50412c79
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a>Настройка диапазонов номеров для группового приема звонков в Lync Server 2013
+# <a name="configure-group-call-pickup-number-ranges-in-lync-server-2013"></a>Настройка диапазонов номеров для группового ответа на звонки в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729849"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Отправка группового звонка осуществляется на основе заявления на приостановку звонков. При развертывании группового приема звонков настраивается таблица на приостановку соединения с диапазонами номеров телефонов, которые обозначены как номера групп для отправки звонков. These group numbers are the numbers that users dial to pick up calls that are ringing for another user.
+Группа ответа на звонки основана на приложении парковки вызовов. При развертывании группового ответа на звонки вы настраиваете таблицу орбит парковки вызовов с помощью диапазонов номеров телефонов, которые определены как номера групп ответа на звонки. Эти номера групп — это номера, которые пользователи настроили для получения вызовов, которые вызывают звонок другому пользователю.
 
-Like call park orbit numbers, call pickup group numbers need to be virtual extensions that have no user or phone assigned to them. У каждого пула переднего плана, в котором вы развертываете раскладки группового звонка, может быть один или несколько диапазонов номеров групп для раскладки звонков. Диапазоны номеров групп должны быть глобально уникальными в рамках развертывания Lync Server.
+Как и номера орбит для парковки вызовов, Номера групп для ответа на звонки должны быть виртуальными расширениями, которым не назначены пользователи или телефоны. Каждый пул переднего плана, в котором развернута Групповая отправка звонков, может иметь один или несколько диапазонов номеров групп ответа на звонки. Диапазоны номеров групп должны быть глобально уникальными в рамках развертывания Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Create or modify a Group Call Pickup number range in Lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+  - [Создание или изменение диапазона номеров для группового ответа на звонки в Lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
-  - [Удаление диапазона номеров для отправки группового звонка в Lync Server 2013](lync-server-2013-delete-a-group-call-pickup-number-range.md)
+  - [Удаление диапазона номеров для группового ответа на звонки в Lync Server 2013](lync-server-2013-delete-a-group-call-pickup-number-range.md)
 
 </div>
 

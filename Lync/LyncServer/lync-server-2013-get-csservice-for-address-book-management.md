@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get-Кссервице для управления адресными книгами'
+title: 'Lync Server 2013: Get – CsService для управления адресной книгой'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763583"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-Кссервице для управления адресными книгами в Lync Server 2013
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get – CsService для управления адресной книгой в Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763583"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Кто может запустить этот командлет: по умолчанию членам следующих групп разрешено выполнять командлет Get-Кссервице локально: Рткуниверсалусерадминс, Рткуниверсалсерверадминс. Чтобы возвратить список всех ролей управления доступом на основе ролей (RBAC), которые назначены этому командлету (включая любые пользовательские роли RBAC, созданные пользователем), выполните в командной строке Windows PowerShell следующую команду:
+По умолчанию право на локальный запуск командлета Get-CsService имеют члены следующих групп: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Чтобы получить список всех ролей управления доступом на основе ролей (RBAC), которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните в командной строке Windows PowerShell следующую команду:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-Кссервице является ценным для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры. Определив полное доменное имя (FQDN) для пула и веб-сервер параметров, командлет выводит на экран службы, предоставляемые вашим сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.
+Get-CsService является ценным для получения и отображения текущей конфигурации определенных веб-служб инфраструктуры. Если указать полное доменное имя пула и параметр WebServer, командлет возвращает веб-службы, предлагаемые сервером, в том числе URI обработчика адресной книги и расширения списка рассылки.
 
 Например:
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-Этот командлет возвращает следующее:
+Этот командлет возвращает следующие данные:
 
 Identity::pool01. contoso. NET
 
-Хранилище файлов: хранилища файлов:DC01. contoso. NET
+Хранилище файлов::DC01 хранилища файлов. contoso. NET
 
-Усерсервер: Усерсервер:pool01. contoso. NET
+UserServer: UserServer:pool01. contoso. NET
 
 Примарихттппорт: 80
 
@@ -131,11 +131,11 @@ Identity::pool01. contoso. NET
 
 Депендентсервицелист: {регистратор:pool01. contoso. NET, КонференЦингсервер:pool01. contoso. NET}
 
-Сервицеид: 1 — WebService-1
+ServiceId: 1 — WebService — 1
 
-Идентификатор сайта: сайт Redmond
+Сайт: сайт: Redmond
 
-Пулфкдн: pool01.contoso.net
+PoolFqdn: pool01.contoso.net
 
 Версия: 5
 
@@ -146,7 +146,7 @@ Identity::pool01. contoso. NET
 ## <a name="see-also"></a>См. также
 
 
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get — CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>
