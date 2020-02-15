@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: отчет о действиях в конференц-связи'
+title: 'Lync Server 2013: отчет об активности в конференциях'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c098bc3a1c8b937b72707c76a3943866ad7b9fbb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8992d4a8e6dc0933449c4ab4be4602d9707f1d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757043"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-activity-report-in-lync-server-2013"></a><span data-ttu-id="9fb81-102">Отчет о действиях в конференциях в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9fb81-102">Conference Activity Report in Lync Server 2013</span></span>
+# <a name="conference-activity-report-in-lync-server-2013"></a><span data-ttu-id="19eef-102">Отчет об активности конференций в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19eef-102">Conference Activity Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41757043"
 
 <span> </span>
 
-<span data-ttu-id="9fb81-103">_**Тема последнего изменения:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="9fb81-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="19eef-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="19eef-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="9fb81-104">Отчет о конференциях позволяет легко найти ответ на такие вопросы, как сколько конференций проводится каждый день и когда они проводятся.</span><span class="sxs-lookup"><span data-stu-id="9fb81-104">The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held?</span></span> <span data-ttu-id="9fb81-105">Такая информация полезна не только сама по себе, но и в целях устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="9fb81-105">Information like this is useful not only in its own right, but also as a troubleshooting tool.</span></span> <span data-ttu-id="9fb81-106">Например, предположим, что пользователи жалуются на то, что работа сети особенно замедляется в середине дня.</span><span class="sxs-lookup"><span data-stu-id="9fb81-106">For example, suppose users are complaining that the network seems particularly slow in the middle of the day.</span></span> <span data-ttu-id="9fb81-107">Краткий обзор отчетов о действиях в конференц-связи может предложить одну из возможных причин: время, на которое больше всего конференции в 10:00 AM и 2:00, будет планироваться в любой другой момент.</span><span class="sxs-lookup"><span data-stu-id="9fb81-107">A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.</span></span>
+<span data-ttu-id="19eef-104">Отчет о конференциях позволяет легко найти ответ на такие вопросы, как сколько конференций проводится каждый день и когда они проводятся.</span><span class="sxs-lookup"><span data-stu-id="19eef-104">The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held?</span></span> <span data-ttu-id="19eef-105">Такая информация полезна не только сама по себе, но и в целях устранения неполадок.</span><span class="sxs-lookup"><span data-stu-id="19eef-105">Information like this is useful not only in its own right, but also as a troubleshooting tool.</span></span> <span data-ttu-id="19eef-106">Например, предположим, что пользователи жалуются на то, что работа сети особенно замедляется в середине дня.</span><span class="sxs-lookup"><span data-stu-id="19eef-106">For example, suppose users are complaining that the network seems particularly slow in the middle of the day.</span></span> <span data-ttu-id="19eef-107">Краткий обзор отчетов о действиях в конференциях может предложить одну из возможных причин: в течение 10:00 AM и 2:00 на любой другой раз запланировано гораздо больше конференций.</span><span class="sxs-lookup"><span data-stu-id="19eef-107">A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.</span></span>
 
-<span data-ttu-id="9fb81-108">Если замедление работы сети вызывает проблемы, вы можете порекомендовать пользователям перенести некоторые конференции на менее загруженное время суток.</span><span class="sxs-lookup"><span data-stu-id="9fb81-108">If the slow network is causing problems, you can encourage users to reschedule some of their conferences during the less-heavily trafficked times of the day.</span></span>
+<span data-ttu-id="19eef-108">Если замедление работы сети вызывает проблемы, вы можете порекомендовать пользователям перенести некоторые конференции на менее загруженное время суток.</span><span class="sxs-lookup"><span data-stu-id="19eef-108">If the slow network is causing problems, you can encourage users to reschedule some of their conferences during the less-heavily trafficked times of the day.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-activity-report"></a><span data-ttu-id="9fb81-109">Доступ к отчету о конференциях</span><span class="sxs-lookup"><span data-stu-id="9fb81-109">Accessing the Conference Activity Report</span></span>
+## <a name="accessing-the-conference-activity-report"></a><span data-ttu-id="19eef-109">Доступ к отчету о конференциях</span><span class="sxs-lookup"><span data-stu-id="19eef-109">Accessing the Conference Activity Report</span></span>
 
-<span data-ttu-id="9fb81-110">Для доступа к отчету "действия на Конференции" [в сводном отчете о конференции в Lync Server 2013](lync-server-2013-conference-summary-report.md) выберите один из указанных ниже метрик.</span><span class="sxs-lookup"><span data-stu-id="9fb81-110">The Conference Activity Report is accessed from the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md) by clicking either one of the following metrics:</span></span>
+<span data-ttu-id="19eef-110">Доступ к отчету о конференциях можно получить из [сводного отчета по конференциям в Lync Server 2013](lync-server-2013-conference-summary-report.md) , щелкнув один из следующих показателей:</span><span class="sxs-lookup"><span data-stu-id="19eef-110">The Conference Activity Report is accessed from the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md) by clicking either one of the following metrics:</span></span>
 
-  - <span data-ttu-id="9fb81-111">Общее количество конференций</span><span class="sxs-lookup"><span data-stu-id="9fb81-111">Total conferences</span></span>
+  - <span data-ttu-id="19eef-111">Общее количество конференций</span><span class="sxs-lookup"><span data-stu-id="19eef-111">Total conferences</span></span>
 
-  - <span data-ttu-id="9fb81-112">Общее количество участников</span><span class="sxs-lookup"><span data-stu-id="9fb81-112">Total participants</span></span>
+  - <span data-ttu-id="19eef-112">Общее количество участников</span><span class="sxs-lookup"><span data-stu-id="19eef-112">Total participants</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-activity-report"></a><span data-ttu-id="9fb81-113">Рекомендации по использованию отчета о конференциях</span><span class="sxs-lookup"><span data-stu-id="9fb81-113">Making the Best Use of the Conference Activity Report</span></span>
+## <a name="making-the-best-use-of-the-conference-activity-report"></a><span data-ttu-id="19eef-113">Рекомендации по использованию отчета о конференциях</span><span class="sxs-lookup"><span data-stu-id="19eef-113">Making the Best Use of the Conference Activity Report</span></span>
 
-<span data-ttu-id="9fb81-p102">По умолчанию в отчете о конференциях приводится общее количество конференций за указанный период времени (например, за день или определенный час). Однако вы также можете просмотреть общее число участников за этот период или общее число минут участия в конференциях. Для этого нажмите кнопку "Показать или скрыть параметры", чтобы отобразить параметры фильтрации, и затем выберите в раскрывающемся списке "Отчет по" один из следующих пунктов:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p102">By default the Conference Activity Report shows you the total number of conferences for the specified time period (for example, the total number of conferences per day, or the total number of conferences per hour of the day). However, you can also choose to display the total number of participants for that time period or the total number of participant minutes. To do that, click the Show/Hide Parameters button to display the filtering options, and then select one of the following from the Report by dropdown list:</span></span>
+<span data-ttu-id="19eef-p102">По умолчанию в отчете о конференциях приводится общее количество конференций за указанный период времени (например, за день или определенный час). Однако вы также можете просмотреть общее число участников за этот период или общее число минут участия в конференциях. Для этого нажмите кнопку "Показать или скрыть параметры", чтобы отобразить параметры фильтрации, и затем выберите в раскрывающемся списке "Отчет по" один из следующих пунктов:</span><span class="sxs-lookup"><span data-stu-id="19eef-p102">By default the Conference Activity Report shows you the total number of conferences for the specified time period (for example, the total number of conferences per day, or the total number of conferences per hour of the day). However, you can also choose to display the total number of participants for that time period or the total number of participant minutes. To do that, click the Show/Hide Parameters button to display the filtering options, and then select one of the following from the Report by dropdown list:</span></span>
 
-  - <span data-ttu-id="9fb81-117">Число участников</span><span class="sxs-lookup"><span data-stu-id="9fb81-117">Participant count</span></span>
+  - <span data-ttu-id="19eef-117">Число участников</span><span class="sxs-lookup"><span data-stu-id="19eef-117">Participant count</span></span>
 
-  - <span data-ttu-id="9fb81-118">Минут участия</span><span class="sxs-lookup"><span data-stu-id="9fb81-118">Participant minutes</span></span>
+  - <span data-ttu-id="19eef-118">Минут участия</span><span class="sxs-lookup"><span data-stu-id="19eef-118">Participant minutes</span></span>
 
-  - <span data-ttu-id="9fb81-119">Число конференций</span><span class="sxs-lookup"><span data-stu-id="9fb81-119">Conference count</span></span>
+  - <span data-ttu-id="19eef-119">Число конференций</span><span class="sxs-lookup"><span data-stu-id="19eef-119">Conference count</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="9fb81-120">Фильтры</span><span class="sxs-lookup"><span data-stu-id="9fb81-120">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="19eef-120">Фильтры</span><span class="sxs-lookup"><span data-stu-id="19eef-120">Filters</span></span>
 
-<span data-ttu-id="9fb81-p103">Фильтры позволяют получить более конкретные наборы возвращаемых данных. В следующей таблице перечислены фильтры, которые можно использовать с отчетом о конференциях.</span><span class="sxs-lookup"><span data-stu-id="9fb81-p103">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Activity Report.</span></span>
+<span data-ttu-id="19eef-p103">Фильтры позволяют получить более конкретные наборы возвращаемых данных. В следующей таблице перечислены фильтры, которые можно использовать с отчетом о конференциях.</span><span class="sxs-lookup"><span data-stu-id="19eef-p103">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Activity Report.</span></span>
 
-### <a name="conference-activity-report-filters"></a><span data-ttu-id="9fb81-123">Фильтры отчета о конференциях</span><span class="sxs-lookup"><span data-stu-id="9fb81-123">Conference Activity Report Filters</span></span>
+### <a name="conference-activity-report-filters"></a><span data-ttu-id="19eef-123">Фильтры отчета о конференциях</span><span class="sxs-lookup"><span data-stu-id="19eef-123">Conference Activity Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -82,49 +82,49 @@ ms.locfileid: "41757043"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9fb81-124">Имя</span><span class="sxs-lookup"><span data-stu-id="9fb81-124">Name</span></span></th>
-<th><span data-ttu-id="9fb81-125">Описание</span><span class="sxs-lookup"><span data-stu-id="9fb81-125">Description</span></span></th>
+<th><span data-ttu-id="19eef-124">Имя</span><span class="sxs-lookup"><span data-stu-id="19eef-124">Name</span></span></th>
+<th><span data-ttu-id="19eef-125">Описание</span><span class="sxs-lookup"><span data-stu-id="19eef-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9fb81-126"><strong>От</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-126"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-p104">Начальные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите начальные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="9fb81-129">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="9fb81-129">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="9fb81-p105">Если вы не вводите начальное время, отчет автоматически начинается с 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="9fb81-132">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="9fb81-132">7/7/2012</span></span></p>
-<p><span data-ttu-id="9fb81-133">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="9fb81-133">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="9fb81-134">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="9fb81-134">7/3/2012</span></span></p>
-<p><span data-ttu-id="9fb81-135">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="9fb81-135">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-126"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-126"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-p104">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="19eef-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="19eef-129">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="19eef-129">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="19eef-p105">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="19eef-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="19eef-132">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="19eef-132">7/7/2012</span></span></p>
+<p><span data-ttu-id="19eef-133">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="19eef-133">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="19eef-134">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="19eef-134">7/3/2012</span></span></p>
+<p><span data-ttu-id="19eef-135">Недели всегда начинаются с Воскресенья и заканчиваются в Субботу.</span><span class="sxs-lookup"><span data-stu-id="19eef-135">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9fb81-136"><strong>До</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-136"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-p106">Конечные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите конечные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="9fb81-139">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="9fb81-139">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="9fb81-p107">Если вы не вводите конечное время, отчет автоматически заканчивается в 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="9fb81-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="9fb81-142">7/7/2012</span></span></p>
-<p><span data-ttu-id="9fb81-143">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="9fb81-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="9fb81-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="9fb81-144">7/3/2012</span></span></p>
-<p><span data-ttu-id="9fb81-145">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="9fb81-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-136"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-136"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-p106">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="19eef-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="19eef-139">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="19eef-139">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="19eef-p107">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="19eef-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="19eef-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="19eef-142">7/7/2012</span></span></p>
+<p><span data-ttu-id="19eef-143">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="19eef-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="19eef-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="19eef-144">7/3/2012</span></span></p>
+<p><span data-ttu-id="19eef-145">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="19eef-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9fb81-146"><strong>Интервал</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-146"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-p108">Временной интервал. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p108">Time interval. Select any of the following:</span></span></p>
+<td><p><span data-ttu-id="19eef-146"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-146"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-p108">Временной интервал. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="19eef-p108">Time interval. Select any of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9fb81-149">Ежечасно (можно отобразить не более 25 часов)</span><span class="sxs-lookup"><span data-stu-id="9fb81-149">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-150">Ежедневно (можно отобразить не более 31 дня)</span><span class="sxs-lookup"><span data-stu-id="9fb81-150">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-151">Еженедельно (можно отобразить не более 12 недель)</span><span class="sxs-lookup"><span data-stu-id="9fb81-151">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-152">Ежемесячно (можно отобразить не более 12 месяцев)</span><span class="sxs-lookup"><span data-stu-id="9fb81-152">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="19eef-149">Ежечасно (может отображаться до 25 часов)</span><span class="sxs-lookup"><span data-stu-id="19eef-149">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="19eef-150">Ежедневно (может отображаться до 31 дня)</span><span class="sxs-lookup"><span data-stu-id="19eef-150">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="19eef-151">Еженедельно (может отображаться до 12 недель)</span><span class="sxs-lookup"><span data-stu-id="19eef-151">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="19eef-152">Ежемесячно (может отображаться до 12 месяцев)</span><span class="sxs-lookup"><span data-stu-id="19eef-152">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="9fb81-153">Если количество значений между начальной и конечной датами превышает максимально допустимое для выбранного интервала, отображается максимальное возможное количество значений (от начальной даты и далее).</span><span class="sxs-lookup"><span data-stu-id="9fb81-153">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="9fb81-154">Например, если выбрать ежедневный интервал с датой начала 7/7/2012 и датой окончания 2/28/2012, данные будут выводиться для дней 8/7/2012 12:00 – 9/7/2012 12:00 AM (то есть, всего за 31 дня).</span><span class="sxs-lookup"><span data-stu-id="9fb81-154">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="19eef-p109">Если число значений между начальной и конечной датами превышает максимальное допустимое для выбранного интервала, отображается максимальное возможное число значений (с начальной даты). Например, если вы выбрали интервал "Ежедневно" с начальной датой 07.07.2012 и конечной датой 28.02.2012, будут показаны данные для периода с 07.08.2012 24:00 до 07.09.2012 24:00 (то есть для 31 дня).</span><span class="sxs-lookup"><span data-stu-id="19eef-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9fb81-155"><strong>Отчетность</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-155"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-p110">Указывает значения, которые должны использоваться в отчете. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="9fb81-p110">Indicates the values to be used in the report. You can select one of the following:</span></span></p>
+<td><p><span data-ttu-id="19eef-155"><strong>Отчет по</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-155"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-p110">Указывает значения, которые должны использоваться в отчете. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="19eef-p110">Indicates the values to be used in the report. You can select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9fb81-158">Число участников</span><span class="sxs-lookup"><span data-stu-id="9fb81-158">Participant Count</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-159">Минут участия</span><span class="sxs-lookup"><span data-stu-id="9fb81-159">Participant Minutes</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-160">Число конференций</span><span class="sxs-lookup"><span data-stu-id="9fb81-160">Conference Count</span></span></p></li>
+<li><p><span data-ttu-id="19eef-158">Число участников</span><span class="sxs-lookup"><span data-stu-id="19eef-158">Participant Count</span></span></p></li>
+<li><p><span data-ttu-id="19eef-159">Минут участия</span><span class="sxs-lookup"><span data-stu-id="19eef-159">Participant Minutes</span></span></p></li>
+<li><p><span data-ttu-id="19eef-160">Число конференций</span><span class="sxs-lookup"><span data-stu-id="19eef-160">Conference Count</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -135,11 +135,11 @@ ms.locfileid: "41757043"
 
 <div>
 
-## <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="9fb81-161">Показатели для конференций по пулу</span><span class="sxs-lookup"><span data-stu-id="9fb81-161">Metrics for Conferences by Pool</span></span>
+## <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="19eef-161">Показатели для конференций по пулу</span><span class="sxs-lookup"><span data-stu-id="19eef-161">Metrics for Conferences by Pool</span></span>
 
-<span data-ttu-id="9fb81-162">В следующей таблице показаны сведения, содержащиеся в отчете о конференциях для каждого пула.</span><span class="sxs-lookup"><span data-stu-id="9fb81-162">The following table lists the information in the Conference Activity Report for each pool.</span></span>
+<span data-ttu-id="19eef-162">В следующей таблице показаны сведения, содержащиеся в отчете о конференциях для каждого пула.</span><span class="sxs-lookup"><span data-stu-id="19eef-162">The following table lists the information in the Conference Activity Report for each pool.</span></span>
 
-### <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="9fb81-163">Показатели для конференций по пулу</span><span class="sxs-lookup"><span data-stu-id="9fb81-163">Metrics for Conferences by Pool</span></span>
+### <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="19eef-163">Показатели для конференций по пулу</span><span class="sxs-lookup"><span data-stu-id="19eef-163">Metrics for Conferences by Pool</span></span>
 
 <table>
 <colgroup>
@@ -149,26 +149,26 @@ ms.locfileid: "41757043"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9fb81-164">Имя</span><span class="sxs-lookup"><span data-stu-id="9fb81-164">Name</span></span></th>
-<th><span data-ttu-id="9fb81-165">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="9fb81-165">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="9fb81-166">Описание</span><span class="sxs-lookup"><span data-stu-id="9fb81-166">Description</span></span></th>
+<th><span data-ttu-id="19eef-164">Имя</span><span class="sxs-lookup"><span data-stu-id="19eef-164">Name</span></span></th>
+<th><span data-ttu-id="19eef-165">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="19eef-165">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="19eef-166">Описание</span><span class="sxs-lookup"><span data-stu-id="19eef-166">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9fb81-167"><strong>Пул</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-167"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-168">Нет</span><span class="sxs-lookup"><span data-stu-id="9fb81-168">No</span></span></p></td>
-<td><p><span data-ttu-id="9fb81-169">Имя пула Регистраторов или пограничного сервера, используемого в рамках конференции.</span><span class="sxs-lookup"><span data-stu-id="9fb81-169">Name of the Registrar pool or Edge Server used in the conference.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-167"><strong>Ресурсов</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-167"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-168">Нет</span><span class="sxs-lookup"><span data-stu-id="19eef-168">No</span></span></p></td>
+<td><p><span data-ttu-id="19eef-169">Имя пула Регистраторов или пограничного сервера, используемого в рамках конференции.</span><span class="sxs-lookup"><span data-stu-id="19eef-169">Name of the Registrar pool or Edge Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9fb81-170"><strong>Дата/время</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-170"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-171">Нет</span><span class="sxs-lookup"><span data-stu-id="9fb81-171">No</span></span></p></td>
-<td><p><span data-ttu-id="9fb81-172">Дата и время проведения конференции.</span><span class="sxs-lookup"><span data-stu-id="9fb81-172">Date and time when the conference was held.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-170"><strong>Дата/время</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-170"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-171">Нет</span><span class="sxs-lookup"><span data-stu-id="19eef-171">No</span></span></p></td>
+<td><p><span data-ttu-id="19eef-172">Дата и время проведения конференции.</span><span class="sxs-lookup"><span data-stu-id="19eef-172">Date and time when the conference was held.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9fb81-173"><strong>Всего</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-173"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-174">Нет</span><span class="sxs-lookup"><span data-stu-id="9fb81-174">No</span></span></p></td>
-<td><p><span data-ttu-id="9fb81-175">Общее число участников, общее число минут участия в конференциях или общее число конференций.</span><span class="sxs-lookup"><span data-stu-id="9fb81-175">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-173"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-173"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-174">Нет</span><span class="sxs-lookup"><span data-stu-id="19eef-174">No</span></span></p></td>
+<td><p><span data-ttu-id="19eef-175">Общее число участников, общее число минут участия в конференциях или общее число конференций.</span><span class="sxs-lookup"><span data-stu-id="19eef-175">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -178,11 +178,11 @@ ms.locfileid: "41757043"
 
 <div>
 
-## <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="9fb81-176">Показатели для конференций по типу сервера</span><span class="sxs-lookup"><span data-stu-id="9fb81-176">Metrics for Conferences by Server Type</span></span>
+## <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="19eef-176">Показатели для конференций по типу сервера</span><span class="sxs-lookup"><span data-stu-id="19eef-176">Metrics for Conferences by Server Type</span></span>
 
-<span data-ttu-id="9fb81-177">В следующей таблице показаны сведения, содержащиеся в отчете о конференциях для каждого типа сервера.</span><span class="sxs-lookup"><span data-stu-id="9fb81-177">The following table lists the information in the Conference Activity Report for each type of server.</span></span>
+<span data-ttu-id="19eef-177">В следующей таблице показаны сведения, содержащиеся в отчете о конференциях для каждого типа сервера.</span><span class="sxs-lookup"><span data-stu-id="19eef-177">The following table lists the information in the Conference Activity Report for each type of server.</span></span>
 
-### <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="9fb81-178">Показатели для конференций по типу сервера</span><span class="sxs-lookup"><span data-stu-id="9fb81-178">Metrics for Conferences by Server Type</span></span>
+### <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="19eef-178">Показатели для конференций по типу сервера</span><span class="sxs-lookup"><span data-stu-id="19eef-178">Metrics for Conferences by Server Type</span></span>
 
 <table>
 <colgroup>
@@ -192,33 +192,33 @@ ms.locfileid: "41757043"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9fb81-179">Имя</span><span class="sxs-lookup"><span data-stu-id="9fb81-179">Name</span></span></th>
-<th><span data-ttu-id="9fb81-180">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="9fb81-180">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="9fb81-181">Описание</span><span class="sxs-lookup"><span data-stu-id="9fb81-181">Description</span></span></th>
+<th><span data-ttu-id="19eef-179">Имя</span><span class="sxs-lookup"><span data-stu-id="19eef-179">Name</span></span></th>
+<th><span data-ttu-id="19eef-180">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="19eef-180">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="19eef-181">Описание</span><span class="sxs-lookup"><span data-stu-id="19eef-181">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9fb81-182"><strong>Тип сервера конференций</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-182"><strong>Conferencing server type</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-183">Нет</span><span class="sxs-lookup"><span data-stu-id="9fb81-183">No</span></span></p></td>
-<td><p><span data-ttu-id="9fb81-184">Тип сервера, используемого для конференции. Обычно имеет одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="9fb81-184">Type of server used in the conference, typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="19eef-182"><strong>Тип сервера конференций</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-182"><strong>Conferencing server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-183">Нет</span><span class="sxs-lookup"><span data-stu-id="19eef-183">No</span></span></p></td>
+<td><p><span data-ttu-id="19eef-184">Тип сервера, используемого для конференции. Обычно имеет одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="19eef-184">Type of server used in the conference, typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9fb81-185">Сервер веб-конференций</span><span class="sxs-lookup"><span data-stu-id="9fb81-185">Web Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-186">Сервер конференций с обменом мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="9fb81-186">IM Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-187">Сервер конференций с телефонной связью</span><span class="sxs-lookup"><span data-stu-id="9fb81-187">Telephony Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-188">Сервер аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="9fb81-188">AV Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="9fb81-189">Общий доступ к приложениям</span><span class="sxs-lookup"><span data-stu-id="9fb81-189">Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="19eef-185">Сервер веб-конференций</span><span class="sxs-lookup"><span data-stu-id="19eef-185">Web Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="19eef-186">Сервер конференций с обменом мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="19eef-186">IM Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="19eef-187">Сервер конференций с телефонной связью</span><span class="sxs-lookup"><span data-stu-id="19eef-187">Telephony Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="19eef-188">Сервер аудио- и видеоконференций</span><span class="sxs-lookup"><span data-stu-id="19eef-188">AV Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="19eef-189">Совместное использование приложений</span><span class="sxs-lookup"><span data-stu-id="19eef-189">Application Sharing</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9fb81-190"><strong>Дата/время</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-190"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-191">Нет</span><span class="sxs-lookup"><span data-stu-id="9fb81-191">No</span></span></p></td>
-<td><p><span data-ttu-id="9fb81-192">Дата и время проведения конференции.</span><span class="sxs-lookup"><span data-stu-id="9fb81-192">Date and time when the conference was held.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-190"><strong>Дата/время</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-190"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-191">Нет</span><span class="sxs-lookup"><span data-stu-id="19eef-191">No</span></span></p></td>
+<td><p><span data-ttu-id="19eef-192">Дата и время проведения конференции.</span><span class="sxs-lookup"><span data-stu-id="19eef-192">Date and time when the conference was held.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9fb81-193"><strong>Всего</strong></span><span class="sxs-lookup"><span data-stu-id="9fb81-193"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="9fb81-194">Нет</span><span class="sxs-lookup"><span data-stu-id="9fb81-194">No</span></span></p></td>
-<td><p><span data-ttu-id="9fb81-195">Общее число участников, общее число минут участия в конференциях или общее число конференций.</span><span class="sxs-lookup"><span data-stu-id="9fb81-195">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
+<td><p><span data-ttu-id="19eef-193"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="19eef-193"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="19eef-194">Нет</span><span class="sxs-lookup"><span data-stu-id="19eef-194">No</span></span></p></td>
+<td><p><span data-ttu-id="19eef-195">Общее число участников, общее число минут участия в конференциях или общее число конференций.</span><span class="sxs-lookup"><span data-stu-id="19eef-195">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

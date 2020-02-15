@@ -1,5 +1,5 @@
 ---
-title: Удаление старых серверов архивирования и мониторинга
+title: Удаление устаревших серверов архивации и мониторинга
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 816855b2661b8834264a2ff4b573ecbfe403d9b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 331a6f24cd2cc176679f628bc54460a6c3c7a718
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727169"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a><span data-ttu-id="2c51b-102">Удаление старых серверов архивирования и мониторинга</span><span class="sxs-lookup"><span data-stu-id="2c51b-102">Remove legacy Archiving and Monitoring servers</span></span>
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a><span data-ttu-id="53ad6-102">Удаление устаревших серверов архивации и мониторинга</span><span class="sxs-lookup"><span data-stu-id="53ad6-102">Remove legacy Archiving and Monitoring servers</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727169"
 
 <span> </span>
 
-<span data-ttu-id="2c51b-103">_**Тема последнего изменения:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="2c51b-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="53ad6-103">_**Последнее изменение темы:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="53ad6-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="2c51b-104">Если развертывание Office Communications Server 2007 R2 содержало сервер архивирования или сервер мониторинга, после перехода на Lync Server 2013 эти серверы можно будет удалить из устаревшей среды, если все пользователи были удалены из оставшихся. Пулы Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="2c51b-104">If your Office Communications Server 2007 R2 deployment contained an Archiving Server or a Monitoring Server, after migrating to Lync Server 2013, those servers can be removed from the legacy environment provided all users have been removed from any remaining Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="2c51b-105">Сервер архивирования или сервер мониторинга можно удалить в любой последовательности.</span><span class="sxs-lookup"><span data-stu-id="2c51b-105">You can remove the Archiving Server or Monitoring Server in any sequence.</span></span> <span data-ttu-id="2c51b-106">Ключевое требование состоит в том, что все пользователи удалены из всех остальных пулов Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="2c51b-106">The key requirement is that all users have been removed from any remaining Office Communications Server 2007 R2 pools.</span></span>
+<span data-ttu-id="53ad6-104">Если ваше развертывание Office Communications Server 2007 R2 содержит сервер архивации или сервер мониторинга, после перехода на Lync Server 2013 эти серверы можно удалить из устаревшей среды, если все пользователи удалены из всех оставшихся. Пулы Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="53ad6-104">If your Office Communications Server 2007 R2 deployment contained an Archiving Server or a Monitoring Server, after migrating to Lync Server 2013, those servers can be removed from the legacy environment provided all users have been removed from any remaining Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="53ad6-105">Сервер архивирования и сервер мониторинга можно удалять в любом порядке.</span><span class="sxs-lookup"><span data-stu-id="53ad6-105">You can remove the Archiving Server or Monitoring Server in any sequence.</span></span> <span data-ttu-id="53ad6-106">Ключевое требование состоит в том, что все пользователи удалены из всех оставшихся пулов Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="53ad6-106">The key requirement is that all users have been removed from any remaining Office Communications Server 2007 R2 pools.</span></span>
 
-<span data-ttu-id="2c51b-107">Вы можете переместить пользователей из Office Communications Server 2007 R2 на Lync Server 2013, выполнив действия, описанные в [этапе 6: перемещение пользователей в пилотный пул](phase-6-move-users-to-the-pilot-pool.md).</span><span class="sxs-lookup"><span data-stu-id="2c51b-107">You can move users from Office Communications Server 2007 R2 to Lync Server 2013 by following the procedures outlined in [Phase 6: Move users to the pilot pool](phase-6-move-users-to-the-pilot-pool.md).</span></span>
+<span data-ttu-id="53ad6-107">Вы можете переместить пользователей из Office Communications Server 2007 R2 на Lync Server 2013, выполнив процедуры, описанные в [шаге 6: перемещение пользователей в пилотный пул](phase-6-move-users-to-the-pilot-pool.md).</span><span class="sxs-lookup"><span data-stu-id="53ad6-107">You can move users from Office Communications Server 2007 R2 to Lync Server 2013 by following the procedures outlined in [Phase 6: Move users to the pilot pool](phase-6-move-users-to-the-pilot-pool.md).</span></span>
 
-<span data-ttu-id="2c51b-108">После того как вы подтвердите, что все пользователи удалены из остальных пулов, выполните процедуру, описанную в разделе "удаление серверов и серверных ролей" [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887).</span><span class="sxs-lookup"><span data-stu-id="2c51b-108">After you have confirmed that all users have been removed from any remaining pools, follow the procedure in "Removing Servers and Server Roles" at [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887).</span></span>
+<span data-ttu-id="53ad6-108">После подтверждения того, что все пользователи удалены из всех оставшихся пулов, выполните процедуру, описанную в разделе "удаление серверов и ролей серверов [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)" по адресу:</span><span class="sxs-lookup"><span data-stu-id="53ad6-108">After you have confirmed that all users have been removed from any remaining pools, follow the procedure in "Removing Servers and Server Roles" at [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887).</span></span>
 
 </div>
 

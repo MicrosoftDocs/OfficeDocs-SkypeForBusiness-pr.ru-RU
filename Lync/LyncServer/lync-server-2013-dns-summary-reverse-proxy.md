@@ -12,20 +12,20 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae4834ce608f6726403e8742a4d506b173309b35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fde945b4bd08020a072f36be073169454e423279
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737209"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="e6524-102">Сводка по DNS — обратный прокси-сервер в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6524-102">DNS summary - Reverse proxy in Lync Server 2013</span></span>
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="dafe3-102">Сводка по DNS — обратный прокси-сервер в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dafe3-102">DNS summary - Reverse proxy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41737209"
 
 <span> </span>
 
-<span data-ttu-id="e6524-103">_**Тема последнего изменения:** 2013-03-22_</span><span class="sxs-lookup"><span data-stu-id="e6524-103">_**Topic Last Modified:** 2013-03-22_</span></span>
+<span data-ttu-id="dafe3-103">_**Последнее изменение темы:** 2013-03-22_</span><span class="sxs-lookup"><span data-stu-id="dafe3-103">_**Topic Last Modified:** 2013-03-22_</span></span>
 
-<span data-ttu-id="e6524-104">Вы настраиваете на обратном прокси два сетевых адаптера, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="e6524-104">You configure two network adapters in your reverse proxy as follows:</span></span>
+<span data-ttu-id="dafe3-104">Два сетевых адаптера на обратном прокси-сервере можно настроить следующим образом:</span><span class="sxs-lookup"><span data-stu-id="dafe3-104">You configure two network adapters in your reverse proxy as follows:</span></span>
 
 <div>
 
-## <a name="reverse-proxy-network-adapter-requirements"></a><span data-ttu-id="e6524-105">Требования к обратной сети прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="e6524-105">Reverse Proxy Network Adapter Requirements</span></span>
+## <a name="reverse-proxy-network-adapter-requirements"></a><span data-ttu-id="dafe3-105">Требования к сетевым адаптерам обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="dafe3-105">Reverse Proxy Network Adapter Requirements</span></span>
 
-  - <span data-ttu-id="e6524-106">Пример **сетевого адаптера 1 (внутренний интерфейс)**</span><span class="sxs-lookup"><span data-stu-id="e6524-106">**Network adapter 1 (Internal Interface)** example</span></span>
+  - <span data-ttu-id="dafe3-106">**Сетевой адаптер 1 (внутренний интерфейс)** (пример)</span><span class="sxs-lookup"><span data-stu-id="dafe3-106">**Network adapter 1 (Internal Interface)** example</span></span>
     
-    <span data-ttu-id="e6524-107">Внутренний интерфейс с назначенным 172.25.33.40.</span><span class="sxs-lookup"><span data-stu-id="e6524-107">Internal interface with 172.25.33.40 assigned.</span></span>
+    <span data-ttu-id="dafe3-107">Назначенный внутренний интерфейс с 172.25.33.40.</span><span class="sxs-lookup"><span data-stu-id="dafe3-107">Internal interface with 172.25.33.40 assigned.</span></span>
     
-    <span data-ttu-id="e6524-108">Шлюз по умолчанию не определен.</span><span class="sxs-lookup"><span data-stu-id="e6524-108">No default gateway is defined.</span></span>
+    <span data-ttu-id="dafe3-108">Шлюз по умолчанию не определен.</span><span class="sxs-lookup"><span data-stu-id="dafe3-108">No default gateway is defined.</span></span>
     
-    <span data-ttu-id="e6524-109">Убедитесь в том, что в сети есть маршрут, который содержит внутренний прокси-интерфейс обратной связи в любые сети, которые содержат серверы пула переднего плана Lync Server (например, с 172.25.33.0 на 192.168.10.0).</span><span class="sxs-lookup"><span data-stu-id="e6524-109">Ensure there is a route from the network containing the reverse proxy internal interface to any networks that contain Lync Server Front End pool servers (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
+    <span data-ttu-id="dafe3-109">Убедитесь, что существует маршрут от сети, содержащей внутренний интерфейс обратного прокси-сервера, в любые сети, содержащие серверы пула переднего плана Lync Server (например, из 172.25.33.0 в 192.168.10.0).</span><span class="sxs-lookup"><span data-stu-id="dafe3-109">Ensure there is a route from the network containing the reverse proxy internal interface to any networks that contain Lync Server Front End pool servers (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
 
-  - <span data-ttu-id="e6524-110">Пример **сетевого адаптера 2 (внешний интерфейс)**</span><span class="sxs-lookup"><span data-stu-id="e6524-110">**Network adapter 2 (External Interface)** example</span></span>
+  - <span data-ttu-id="dafe3-110">**Сетевой адаптер 2 (внешний интерфейс)** (пример)</span><span class="sxs-lookup"><span data-stu-id="dafe3-110">**Network adapter 2 (External Interface)** example</span></span>
     
-    <span data-ttu-id="e6524-111">Этому сетевому адаптеру назначен минимум один общедоступный IP-адрес.</span><span class="sxs-lookup"><span data-stu-id="e6524-111">A minimum of one public IP address is assigned to this network adapter.</span></span>
+    <span data-ttu-id="dafe3-111">Как минимум один общедоступный IP-адрес назначен данному сетевому адаптеру.</span><span class="sxs-lookup"><span data-stu-id="dafe3-111">A minimum of one public IP address is assigned to this network adapter.</span></span>
     
-    <span data-ttu-id="e6524-112">Шлюз определен так, чтобы он указывал на маршрутизатор или интегрированный брандмауэр во внешнем периметре.</span><span class="sxs-lookup"><span data-stu-id="e6524-112">Gateway is defined to point to the router or integrated firewall in your outer perimeter.</span></span> <span data-ttu-id="e6524-113">(10.45.16.1 в примерах сценария)</span><span class="sxs-lookup"><span data-stu-id="e6524-113">(10.45.16.1 in the scenario examples)</span></span>
+    <span data-ttu-id="dafe3-p101">Шлюз определен так, что он указывает на маршрутизатор или интегрированный брандмауэр во внешнем периметре. (10.45.16.1 в примерах)</span><span class="sxs-lookup"><span data-stu-id="dafe3-p101">Gateway is defined to point to the router or integrated firewall in your outer perimeter. (10.45.16.1 in the scenario examples)</span></span>
 
-### <a name="dns-records-required-for-reverse-proxy"></a><span data-ttu-id="e6524-114">DNS-записи, необходимые для обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="e6524-114">DNS Records Required for Reverse Proxy</span></span>
+### <a name="dns-records-required-for-reverse-proxy"></a><span data-ttu-id="dafe3-114">Записи DNS, необходимые для обратного прокси-сервера</span><span class="sxs-lookup"><span data-stu-id="dafe3-114">DNS Records Required for Reverse Proxy</span></span>
 
 <table>
 <colgroup>
@@ -68,55 +68,55 @@ ms.locfileid: "41737209"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e6524-115">Расположение/тип/порт</span><span class="sxs-lookup"><span data-stu-id="e6524-115">Location/TYPE/Port</span></span></th>
-<th><span data-ttu-id="e6524-116">Полное доменное имя</span><span class="sxs-lookup"><span data-stu-id="e6524-116">FQDN</span></span></th>
-<th><span data-ttu-id="e6524-117">IP-адрес</span><span class="sxs-lookup"><span data-stu-id="e6524-117">IP address</span></span></th>
-<th><span data-ttu-id="e6524-118">Карты и примечания</span><span class="sxs-lookup"><span data-stu-id="e6524-118">Maps to/comments</span></span></th>
+<th><span data-ttu-id="dafe3-115">Расположение/тип/порт</span><span class="sxs-lookup"><span data-stu-id="dafe3-115">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="dafe3-116">FQDN</span><span class="sxs-lookup"><span data-stu-id="dafe3-116">FQDN</span></span></th>
+<th><span data-ttu-id="dafe3-117">IP-адрес</span><span class="sxs-lookup"><span data-stu-id="dafe3-117">IP address</span></span></th>
+<th><span data-ttu-id="dafe3-118">Сопоставляется с/комментарии</span><span class="sxs-lookup"><span data-stu-id="dafe3-118">Maps to/comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e6524-119">Внешние DNS/A</span><span class="sxs-lookup"><span data-stu-id="e6524-119">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="e6524-120">webext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e6524-120">webext.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e6524-121">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="e6524-121">Assigned listener for externally published resources</span></span></p></td>
-<td><p><span data-ttu-id="e6524-122">Внешние веб-службы из внутреннего развертывания.</span><span class="sxs-lookup"><span data-stu-id="e6524-122">External web services from the internal deployment.</span></span> <span data-ttu-id="e6524-123">Дополнительные записи можно определять и создавать для всех пулов и отдельных серверов для любого домена SIP, который будет использовать этот прокси-сервер, а также с определенными внешними веб-службами.</span><span class="sxs-lookup"><span data-stu-id="e6524-123">Additional records can be defined and created for all pools and single servers for any SIP domain that will use this reverse proxy, and has defined external web services.</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-119">Внешняя запись DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafe3-119">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-120">webext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafe3-120">webext.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-121">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="dafe3-121">Assigned listener for externally published resources</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-p102">Внешние веб-службы из внутреннего развертывания. Могут быть определены и созданы дополнительные записи для всех пулов и отдельных серверов для любого SIP-домена, который будет использовать это обратный прокси-сервер и на котором определены внешние веб-службы.</span><span class="sxs-lookup"><span data-stu-id="dafe3-p102">External web services from the internal deployment. Additional records can be defined and created for all pools and single servers for any SIP domain that will use this reverse proxy, and has defined external web services.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6524-124">Внешние DNS/A</span><span class="sxs-lookup"><span data-stu-id="e6524-124">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="e6524-125">webdirext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e6524-125">webdirext.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e6524-126">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="e6524-126">Assigned listener for externally published resources</span></span></p></td>
-<td><p><span data-ttu-id="e6524-127">Внешние веб-службы для режиссеров и пулов режиссеров в развертывании.</span><span class="sxs-lookup"><span data-stu-id="e6524-127">External web services for the Directors or Director pools in your deployment.</span></span> <span data-ttu-id="e6524-128">Вы можете определить любое количество режиссеров, для которых есть разные директора, которые могут быть связаны с другими доменами SIP.</span><span class="sxs-lookup"><span data-stu-id="e6524-128">You can define as many Directors as there are distinct Directors, of which may be associated with other SIP domains.</span></span></p>
+<td><p><span data-ttu-id="dafe3-124">Внешний DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafe3-124">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-125">webdirext.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafe3-125">webdirext.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-126">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="dafe3-126">Assigned listener for externally published resources</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-127">Внешние веб-службы для директоров или пулов директоров в развертывании.</span><span class="sxs-lookup"><span data-stu-id="dafe3-127">External web services for the Directors or Director pools in your deployment.</span></span> <span data-ttu-id="dafe3-128">Можно определить столько директоров, где есть разные директора, которые могут быть связаны с другими доменами SIP.</span><span class="sxs-lookup"><span data-stu-id="dafe3-128">You can define as many Directors as there are distinct Directors, of which may be associated with other SIP domains.</span></span></p>
 <div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="e6524-129">Определение DNS-записей для и публикации режиссеров не является ни интерфейсным пулом, ни решением режиссера.</span><span class="sxs-lookup"><span data-stu-id="e6524-129">Defining the DNS records for and publishing the Directors is not an either the Front End pool or the Director decision.</span></span> <span data-ttu-id="e6524-130">Если вы используете режиссеров, вы должны определить и опубликовать внешний веб-службы "режиссер" и "пул на стороне переднего плана".</span><span class="sxs-lookup"><span data-stu-id="e6524-130">You must define and publish both the Director and the Front End pool external web services if you are using Directors.</span></span> <span data-ttu-id="e6524-131">Конкретные типы трафика (для проверки подлинности и других применений) будут отправлены в директории сначала, если она определена в топологии.</span><span class="sxs-lookup"><span data-stu-id="e6524-131">Specific traffic types (for authentication and other uses) will be sent to the Director first, if it is defined in the topology.</span></span>
+> <span data-ttu-id="dafe3-129">Определение записей DNS для публикации директоров не является интерфейсным пулом или руководителем.</span><span class="sxs-lookup"><span data-stu-id="dafe3-129">Defining the DNS records for and publishing the Directors is not an either the Front End pool or the Director decision.</span></span> <span data-ttu-id="dafe3-130">При использовании директора необходимо определить и опубликовать внешние веб-службы директора и интерфейсного пула переднего плана.</span><span class="sxs-lookup"><span data-stu-id="dafe3-130">You must define and publish both the Director and the Front End pool external web services if you are using Directors.</span></span> <span data-ttu-id="dafe3-131">Конкретные типы трафика (для проверки подлинности и других применений) будут отправлены в директоре первыми, если она определена в топологии.</span><span class="sxs-lookup"><span data-stu-id="dafe3-131">Specific traffic types (for authentication and other uses) will be sent to the Director first, if it is defined in the topology.</span></span>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e6524-132">Внешние DNS/A</span><span class="sxs-lookup"><span data-stu-id="e6524-132">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="e6524-133">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e6524-133">dialin.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e6524-134">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="e6524-134">Assigned listener for externally published resources</span></span></p></td>
-<td><p><span data-ttu-id="e6524-135">Внешний вход в Конференц-связь с телефонным подключением</span><span class="sxs-lookup"><span data-stu-id="e6524-135">Dial-in conferencing published externally</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-132">Внешняя запись DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafe3-132">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-133">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafe3-133">dialin.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-134">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="dafe3-134">Assigned listener for externally published resources</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-135">Ресурсы конференц-связи с телефонным подключением, опубликованные внешне</span><span class="sxs-lookup"><span data-stu-id="dafe3-135">Dial-in conferencing published externally</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6524-136">Внешние DNS/A</span><span class="sxs-lookup"><span data-stu-id="e6524-136">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="e6524-137">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e6524-137">meet.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e6524-138">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="e6524-138">Assigned listener for externally published resources</span></span></p></td>
-<td><p><span data-ttu-id="e6524-139">Конференции, опубликованные извне</span><span class="sxs-lookup"><span data-stu-id="e6524-139">Conferences published externally</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-136">Внешняя запись DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafe3-136">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-137">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafe3-137">meet.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-138">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="dafe3-138">Assigned listener for externally published resources</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-139">Конференции, опубликованные внешне</span><span class="sxs-lookup"><span data-stu-id="dafe3-139">Conferences published externally</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e6524-140">Внешние DNS/A</span><span class="sxs-lookup"><span data-stu-id="e6524-140">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="e6524-141">officewebapps01.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e6524-141">officewebapps01.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e6524-142">Назначенный прослушиватель для сервера Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="e6524-142">Assigned listener for Office Web Apps Server</span></span></p></td>
-<td><p><span data-ttu-id="e6524-143">Сервер Office Web Apps, развернутый внутренне или на периметре, и опубликованный для внешнего клиентского доступа</span><span class="sxs-lookup"><span data-stu-id="e6524-143">Office Web Apps Server deployed internally or in the perimeter, and published for external client access</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-140">Внешняя запись DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafe3-140">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-141">officewebapps01.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafe3-141">officewebapps01.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-142">Назначенный прослушиватель для сервера Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="dafe3-142">Assigned listener for Office Web Apps Server</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-143">Сервер Office Web Apps, развернутый внутри или на периметре и опубликованный для внешнего клиентского доступа</span><span class="sxs-lookup"><span data-stu-id="dafe3-143">Office Web Apps Server deployed internally or in the perimeter, and published for external client access</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6524-144">Внешние DNS/A</span><span class="sxs-lookup"><span data-stu-id="e6524-144">External DNS/A</span></span></p></td>
-<td><p><span data-ttu-id="e6524-145">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="e6524-145">lyncdiscover.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="e6524-146">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="e6524-146">Assigned listener for externally published resources</span></span></p></td>
-<td><p><span data-ttu-id="e6524-147">Lync обнаружение внешней записи для внешних опубликованных автообнаружения и включает мобильные и веб-приложения Microsoft Lync Web App и планировщик</span><span class="sxs-lookup"><span data-stu-id="e6524-147">Lync Discover External record for externally published AutoDiscover, and includes Mobility, Microsoft Lync Web App, and scheduler Web app</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-144">Внешний DNS/A</span><span class="sxs-lookup"><span data-stu-id="dafe3-144">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-145">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="dafe3-145">lyncdiscover.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-146">Назначенный прослушиватель для внешних опубликованных ресурсов</span><span class="sxs-lookup"><span data-stu-id="dafe3-146">Assigned listener for externally published resources</span></span></p></td>
+<td><p><span data-ttu-id="dafe3-147">Внешняя запись Lync обнаружение для внешнего опубликованного автообнаружения и включение мобильности, Microsoft Lync Web App и веб-приложения планировщика</span><span class="sxs-lookup"><span data-stu-id="dafe3-147">Lync Discover External record for externally published AutoDiscover, and includes Mobility, Microsoft Lync Web App, and scheduler Web app</span></span></p></td>
 </tr>
 </tbody>
 </table>

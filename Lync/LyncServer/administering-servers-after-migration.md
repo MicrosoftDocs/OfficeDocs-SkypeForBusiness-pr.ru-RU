@@ -13,20 +13,20 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af2a420b12b10f0b96609fbcfbd31907294a1a08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a><span data-ttu-id="33aba-102">Администрирование серверов после миграции</span><span class="sxs-lookup"><span data-stu-id="33aba-102">Administering servers after migration</span></span>
+# <a name="administering-servers-after-migration"></a><span data-ttu-id="f2ae2-102">Администрирование серверов после миграции</span><span class="sxs-lookup"><span data-stu-id="f2ae2-102">Administering servers after migration</span></span>
 
 </div>
 
@@ -36,15 +36,15 @@ ms.locfileid: "41724199"
 
 <span> </span>
 
-<span data-ttu-id="33aba-103">_**Тема последнего изменения:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="33aba-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="f2ae2-103">_**Последнее изменение темы:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="f2ae2-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="33aba-104">Как правило, необходимо использовать средство администрирования, соответствующее серверной версии, которой вы хотите управлять.</span><span class="sxs-lookup"><span data-stu-id="33aba-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="33aba-105">Установка средств администрирования Lync Server 2010 и Lync Server 2013 на одном и том же компьютере невозможна.</span><span class="sxs-lookup"><span data-stu-id="33aba-105">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="33aba-106">Кроме того, панель управления Lync Server 2013 не устанавливается на каждый сервер автоматически.</span><span class="sxs-lookup"><span data-stu-id="33aba-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="33aba-107">Чтобы установить панель управления Lync Server 2013, следуйте инструкциям, приведенным в разделе [Установка средств администрирования Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="33aba-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="f2ae2-104">В целом, следует использовать средство администрирования, соответствующее версии сервера, которой требуется управлять.</span><span class="sxs-lookup"><span data-stu-id="f2ae2-104">In general, you must use the administrative tool that corresponds to the server version that you want to manage.</span></span> <span data-ttu-id="f2ae2-105">Установка средств администрирования Lync Server 2010 и Lync Server 2013 на одном компьютере невозможна.</span><span class="sxs-lookup"><span data-stu-id="f2ae2-105">You cannot install the Lync Server 2010 and the Lync Server 2013 administrative tools on the same computer.</span></span> <span data-ttu-id="f2ae2-106">Кроме того, панель управления Lync Server 2013 не устанавливается автоматически на каждом сервере.</span><span class="sxs-lookup"><span data-stu-id="f2ae2-106">Also, the Lync Server 2013 Control Panel is not installed automatically on each server.</span></span> <span data-ttu-id="f2ae2-107">Чтобы установить панель управления Lync Server 2013, выполните процедуру, описанную в разделе [Установка средств администрирования Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) в документации по развертыванию.</span><span class="sxs-lookup"><span data-stu-id="f2ae2-107">To install the Lync Server 2013 Control Panel, follow the procedure inside the topic [Install Lync Server 2013 administrative tools](lync-server-2013-install-lync-server-administrative-tools.md) in the Deployment documentation.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="33aba-108">После развертывания пилотного пула Lync Server 2013 вы не сможете использовать сервер Lync Server 2010 Topology Builder или панель управления Lync Server 2010 для управления ресурсами Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="33aba-108">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="33aba-109">Вы должны использовать инструменты Lync Server 2013 для управления ресурсами Lync Server 2013 и Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="33aba-109">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
+> <span data-ttu-id="f2ae2-108">После развертывания пилотного пула Lync Server 2013 невозможно использовать панель управления Lync Server 2010 или панель управления Lync Server 2010 для управления всеми ресурсами Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f2ae2-108">After a Lync Server 2013 pilot pool is deployed, you cannot use Lync Server 2010 Topology Builder or Lync Server 2010 Control Panel to manage any Lync Server 2013 resources.</span></span> <span data-ttu-id="f2ae2-109">Для управления ресурсами Lync Server 2013 и Lync Server 2010 необходимо использовать инструменты Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f2ae2-109">You must use Lync Server 2013 tools to manage Lync Server 2013 and Lync Server 2010 resources.</span></span>
 
 
 

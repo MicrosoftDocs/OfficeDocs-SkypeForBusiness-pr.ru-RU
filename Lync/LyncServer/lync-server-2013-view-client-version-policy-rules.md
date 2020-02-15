@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр правил политики версии клиента'
+title: 'Lync Server 2013: Просмотр правил политики версий клиентов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50675350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64dce1b74be8ed1aed0c5d1f515910341f57c52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 480e3002c6c6a22564c23bf4225d49cbd044f3c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757473"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-policy-rules-in-lync-server-2013"></a><span data-ttu-id="74830-102">Просмотр правил политики версии клиента в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74830-102">View client version policy rules in Lync Server 2013</span></span>
+# <a name="view-client-version-policy-rules-in-lync-server-2013"></a><span data-ttu-id="a9bb4-102">Просмотр правил политики версий клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9bb4-102">View client version policy rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41757473"
 
 <span> </span>
 
-<span data-ttu-id="74830-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="74830-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="a9bb4-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a9bb4-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="74830-104">Политика клиентской версии состоит из набора правил политики клиентской версии.</span><span class="sxs-lookup"><span data-stu-id="74830-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="74830-105">Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий.</span><span class="sxs-lookup"><span data-stu-id="74830-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="74830-106">Вы можете просматривать правила политики версии клиента из панели управления Lync Server 2013 или оболочки управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="74830-106">You can view client version policy rules from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="a9bb4-104">Политика версий клиентов состоит из набора правил политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="a9bb4-105">Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="a9bb4-106">Вы можете просматривать правила политики версий клиентов из панели управления Lync Server 2013 или командной консоли Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-106">You can view client version policy rules from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="74830-107">Просмотр правил политики версии клиента с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="74830-107">To view client version policy rules by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="a9bb4-107">Просмотр правил политики версий клиентов с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="a9bb4-107">To view client version policy rules by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="74830-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="74830-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="a9bb4-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="74830-109">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="74830-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="74830-110">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="74830-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="a9bb4-109">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a9bb4-110">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a9bb4-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="74830-111">На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Переход на **политику версии клиента** .</span><span class="sxs-lookup"><span data-stu-id="74830-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="a9bb4-111">В левой панели навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации для **политики версий клиентов** .</span><span class="sxs-lookup"><span data-stu-id="a9bb4-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="74830-112">На странице **политики Client Version** дважды щелкните политику версии клиента, которую вы хотите просмотреть.</span><span class="sxs-lookup"><span data-stu-id="74830-112">On the **Client Version Policy** page, double-click a client version policy you want to view.</span></span>
+4.  <span data-ttu-id="a9bb4-112">На странице **Политика версий клиентов** дважды щелкните политику версий клиентов, которую нужно просмотреть.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-112">On the **Client Version Policy** page, double-click a client version policy you want to view.</span></span>
 
-5.  <span data-ttu-id="74830-113">Правила отображаются на странице " **изменение политики версии клиента** ".</span><span class="sxs-lookup"><span data-stu-id="74830-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="74830-114">Чтобы просмотреть сведения о правиле, выберите правило и нажмите кнопку **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="74830-114">To view the details for a rule, select the rule, and then click **Show details**.</span></span>
+5.  <span data-ttu-id="a9bb4-113">Правила отображаются на странице **изменение политики версий клиентов** .</span><span class="sxs-lookup"><span data-stu-id="a9bb4-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="a9bb4-114">Чтобы просмотреть сведения о правиле, выберите правило, а затем щелкните **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-114">To view the details for a rule, select the rule, and then click **Show details**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="74830-115">Просмотр правил политики версий клиента с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="74830-115">Viewing Client Version Policy Rules by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a9bb4-115">Просмотр правил политики версий клиентов с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a9bb4-115">Viewing Client Version Policy Rules by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="74830-116">Вы можете просматривать правила политики версии клиента с помощью командной консоли Lync Server Management Shell и командлета **Get-ксклиентверсионполицируле** .</span><span class="sxs-lookup"><span data-stu-id="74830-116">You can view client version policy rules by using Lync Server Management Shell and the **Get-CsClientVersionPolicyRule** cmdlet.</span></span> <span data-ttu-id="74830-117">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="74830-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="74830-118">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="74830-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="a9bb4-116">Вы можете просматривать правила политики версий клиентов с помощью командной консоли Lync Server и командлета **Get – CsClientVersionPolicyRule** .</span><span class="sxs-lookup"><span data-stu-id="a9bb4-116">You can view client version policy rules by using Lync Server Management Shell and the **Get-CsClientVersionPolicyRule** cmdlet.</span></span> <span data-ttu-id="a9bb4-117">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a9bb4-118">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="a9bb4-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policy-rules"></a><span data-ttu-id="74830-119">Просмотр правил политики версии клиента</span><span class="sxs-lookup"><span data-stu-id="74830-119">To view client version policy rules</span></span>
+## <a name="to-view-client-version-policy-rules"></a><span data-ttu-id="a9bb4-119">Просмотр правил политики версий клиентов</span><span class="sxs-lookup"><span data-stu-id="a9bb4-119">To view client version policy rules</span></span>
 
-  - <span data-ttu-id="74830-120">Чтобы просмотреть правила политики клиентской версии, введите в командной консоли Lync Server указанную ниже команду и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="74830-120">To view the client version policy rules, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="a9bb4-120">Чтобы просмотреть правила политики версий клиентов, введите в командную консоль Lync Server следующую команду и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="a9bb4-120">To view the client version policy rules, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionPolicyRule
     
-    <span data-ttu-id="74830-121">Будут возвращены следующие сведения для каждого настроенного правила:</span><span class="sxs-lookup"><span data-stu-id="74830-121">That will return information similar to this for each configured rule:</span></span>
+    <span data-ttu-id="a9bb4-121">Будут возвращены сведения, аналогичные приведенным ниже, для каждого настроенного правила:</span><span class="sxs-lookup"><span data-stu-id="a9bb4-121">That will return information similar to this for each configured rule:</span></span>
     
         Identity          : Global/2336c611-a243-4c5d-994b-eea8a524d0e4
         Priority          : 0
@@ -88,7 +88,7 @@ ms.locfileid: "41757473"
 
 </div>
 
-<span data-ttu-id="74830-122">Дополнительные сведения можно найти в разделе справки по командлету [Get-ксклиентверсионполицируле](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) .</span><span class="sxs-lookup"><span data-stu-id="74830-122">For details, see the help topic for the [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet.</span></span>
+<span data-ttu-id="a9bb4-122">Дополнительные сведения см. в разделе справки по командлету [Get – CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) .</span><span class="sxs-lookup"><span data-stu-id="a9bb4-122">For details, see the help topic for the [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet.</span></span>
 
 </div>
 

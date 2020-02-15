@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты для прав пользователей и разрешений'
+title: 'Lync Server 2013: командлеты для прав и разрешений пользователя'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2412dc6af5153d431ff6d75177f405c00138fdaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85f99cbaf6c2a3b61e6437ec573d7e5800b73b72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744469"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a><span data-ttu-id="aa946-102">Командлеты для доступа пользователей и разрешения в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa946-102">User rights and permissions cmdlets in Lync Server 2013</span></span>
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a><span data-ttu-id="58fc3-102">Командлеты прав и разрешений пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="58fc3-102">User rights and permissions cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,68 +35,68 @@ ms.locfileid: "41744469"
 
 <span> </span>
 
-<span data-ttu-id="aa946-103">_**Тема последнего изменения:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="aa946-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="58fc3-103">_**Последнее изменение темы:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="58fc3-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="aa946-104">Командлеты разрешений пользователей главным образом используются для управления доступом на основе ролей (RBAC), а также новыми технологиями для делегирования административного управления Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="aa946-104">The user permission cmdlets are primarily used to manage role-based access control (RBAC), the new technology for delegating administrative control of Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="58fc3-104">Командлеты разрешений пользователя в основном используются для управления доступом на основе ролей (RBAC), новой технологией для делегирования административного управления Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="58fc3-104">The user permission cmdlets are primarily used to manage role-based access control (RBAC), the new technology for delegating administrative control of Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="user-permission-cmdlets"></a><span data-ttu-id="aa946-105">Командлеты разрешений пользователей</span><span class="sxs-lookup"><span data-stu-id="aa946-105">User Permission Cmdlets</span></span>
+## <a name="user-permission-cmdlets"></a><span data-ttu-id="58fc3-105">Командлеты разрешений пользователей</span><span class="sxs-lookup"><span data-stu-id="58fc3-105">User Permission Cmdlets</span></span>
 
-<span data-ttu-id="aa946-106">Ниже приведен список командлетов, непосредственно связанных с управлением разрешениями пользователей.</span><span class="sxs-lookup"><span data-stu-id="aa946-106">The following is a list of cmdlets that relate directly to managing user permissions:</span></span>
+<span data-ttu-id="58fc3-106">Ниже приведен список командлетов, которые относятся непосредственно к управлению разрешениями пользователей:</span><span class="sxs-lookup"><span data-stu-id="58fc3-106">The following is a list of cmdlets that relate directly to managing user permissions:</span></span>
 
-<span data-ttu-id="aa946-107">**Разрешения пользователей**</span><span class="sxs-lookup"><span data-stu-id="aa946-107">**User Permissions**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="aa946-108">[Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-108">[Get-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))</span></span>
+<span data-ttu-id="58fc3-107">**Разрешения пользователей**</span><span class="sxs-lookup"><span data-stu-id="58fc3-107">**User Permissions**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-109">[New-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-109">[New-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-108">[Get — CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-108">[Get-CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-110">[Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-110">[Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-109">[New — CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-109">[New-CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-111">[Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-111">[Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-110">[Remove — CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-110">[Remove-CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-112">[Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-112">[Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-111">[Set — CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-111">[Set-CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="58fc3-112">[Update — CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-112">[Update-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="aa946-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-113">[Get — CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-113">[Get-CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="aa946-114">[Grant-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-114">[Grant-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-114">[Granting — CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-114">[Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-115">[Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-115">[Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-115">[Revoke CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-115">[Revoke-CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-116">[Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-116">[Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-116">[Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-116">[Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="aa946-117">[Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-117">[Grant-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-117">[Granting — CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-117">[Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-118">[REVOKE CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-118">[Revoke-CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="aa946-119">[Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="aa946-119">[Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))</span></span>
+    <span data-ttu-id="58fc3-119">[Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="58fc3-119">[Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="aa946-120">См. также</span><span class="sxs-lookup"><span data-stu-id="aa946-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="58fc3-120">См. также</span><span class="sxs-lookup"><span data-stu-id="58fc3-120">See Also</span></span>
 
 
-[<span data-ttu-id="aa946-121">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="aa946-121">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="58fc3-121">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="58fc3-121">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

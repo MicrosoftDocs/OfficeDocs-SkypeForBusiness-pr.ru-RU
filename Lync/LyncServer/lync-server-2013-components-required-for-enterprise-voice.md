@@ -12,20 +12,20 @@ ms:contentKeyID: 48185752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61dc7668f5b99d94c9f64ed0310ad220f6398536
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c68bfdcc69dfabddd7bf052b64ead7fafd917ec8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757113"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="23933-102">Components required for Enterprise Voice in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23933-102">Components required for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="components-required-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="82163-102">Компоненты, необходимые для корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82163-102">Components required for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757113"
 
 <span> </span>
 
-<span data-ttu-id="23933-103">_**Тема последнего изменения:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="23933-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="82163-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="82163-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="23933-104">В этом разделе описаны все компоненты, используемые одной или несколькими корпоративными голосовыми функциями.</span><span class="sxs-lookup"><span data-stu-id="23933-104">This section describes all components that are used by one or more Enterprise Voice features.</span></span> <span data-ttu-id="23933-105">К ним относятся следующие:</span><span class="sxs-lookup"><span data-stu-id="23933-105">They include the following:</span></span>
+<span data-ttu-id="82163-104">В этом разделе описываются все компоненты, используемые одной или несколькими функциями корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="82163-104">This section describes all components that are used by one or more Enterprise Voice features.</span></span> <span data-ttu-id="82163-105">Некоторые из этих факторов:</span><span class="sxs-lookup"><span data-stu-id="82163-105">They include the following:</span></span>
 
-  - [<span data-ttu-id="23933-106">Компоненты VoIP сервера переднего плана для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23933-106">Front End Server VoIP components for Lync Server 2013</span></span>](lync-server-2013-front-end-server-voip-components.md)
+  - [<span data-ttu-id="82163-106">Компоненты VoIP сервера переднего плана для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82163-106">Front End Server VoIP components for Lync Server 2013</span></span>](lync-server-2013-front-end-server-voip-components.md)
 
-  - [<span data-ttu-id="23933-107">Компонент сервера «исправления» в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23933-107">Mediation Server component in Lync Server 2013</span></span>](lync-server-2013-mediation-server-component.md)
+  - [<span data-ttu-id="82163-107">Компонент сервера-посредника в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82163-107">Mediation Server component in Lync Server 2013</span></span>](lync-server-2013-mediation-server-component.md)
 
-  - [<span data-ttu-id="23933-108">Компоненты подключения PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23933-108">PSTN connectivity components in Lync Server 2013</span></span>](lync-server-2013-pstn-connectivity-components.md)
+  - [<span data-ttu-id="82163-108">Компоненты подключения PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82163-108">PSTN connectivity components in Lync Server 2013</span></span>](lync-server-2013-pstn-connectivity-components.md)
 
-  - [<span data-ttu-id="23933-109">Компоненты VoIP для сети периметра для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23933-109">Perimeter network VoIP components for Lync Server 2013</span></span>](lync-server-2013-perimeter-network-voip-components.md)
+  - [<span data-ttu-id="82163-109">Компоненты VoIP для сети периметра для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82163-109">Perimeter network VoIP components for Lync Server 2013</span></span>](lync-server-2013-perimeter-network-voip-components.md)
 
 </div>
 

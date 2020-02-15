@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Управление рабочими процессами групп ответов'
+title: 'Lync Server 2013: Управление рабочими процессами группы ответа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765590"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="1579b-102">Управление рабочими процессами групп ответов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1579b-102">Managing Response Group workflows in Lync Server 2013</span></span>
+# <a name="managing-response-group-workflows-in-lync-server-2013"></a><span data-ttu-id="4552f-102">Управление рабочими процессами группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4552f-102">Managing Response Group workflows in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41765590"
 
 <span> </span>
 
-<span data-ttu-id="1579b-103">_**Тема последнего изменения:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="1579b-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="4552f-103">_**Последнее изменение темы:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="4552f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="1579b-104">Рабочий процесс группы ответа определяет поведение звонка с момента звонка с телефона на время, когда агент отвечает на звонок.</span><span class="sxs-lookup"><span data-stu-id="1579b-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="1579b-105">Рабочий процесс включает в себя сведения о очереди и маршруте, а также включает в себя сведения о группе слежения или интерактивном речевом ответе (интерактивный автоответчик).</span><span class="sxs-lookup"><span data-stu-id="1579b-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
+<span data-ttu-id="4552f-104">Рабочий процесс группы ответа определяет поведение звонка с момента звонка с телефона на время, когда агент отвечает на вызов.</span><span class="sxs-lookup"><span data-stu-id="4552f-104">A Response Group workflow defines the behavior of a call from the time that the phone rings to the time that an agent answers the call.</span></span> <span data-ttu-id="4552f-105">Этот рабочий процесс включает сведения об очереди и маршрутизации, а также сведения либо о сервисной группе, либо об интерактивном автоответчике (IVR).</span><span class="sxs-lookup"><span data-stu-id="4552f-105">The workflow includes queue and routing information, and includes either hunt group or interactive voice response (IVR) information.</span></span>
 
-<span data-ttu-id="1579b-106">В этом разделе приведены рекомендации по проектированию рабочих процессов интерактивный автоответчик, а также объясняется, как создавать настраиваемые рабочие часы и наборы праздников, как создавать и изменять рабочие процессы, а также удалять рабочие группы.</span><span class="sxs-lookup"><span data-stu-id="1579b-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
+<span data-ttu-id="4552f-106">В разделах этой статьи даются рекомендации по разработке рабочих процессов IVR, а также объясняется создание пользовательских наборов рабочих часов и праздников, создание и изменение рабочих процессов, а также удаление рабочих групп.</span><span class="sxs-lookup"><span data-stu-id="4552f-106">Topics in this section identify best practices for designing IVR workflows, and explain how to create customized business hours and holiday sets, how to create or modify workflows, and how to delete workgroups.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1579b-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="1579b-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4552f-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="4552f-107">In This Section</span></span>
 
-  - [<span data-ttu-id="1579b-108">Создание потоков обработки вызовов системы интерактивного автоответчика в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1579b-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [<span data-ttu-id="4552f-108">Проектирование потоков вызовов интерактивного голосового ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4552f-108">Design interactive voice response call flows in Lync Server 2013</span></span>](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [<span data-ttu-id="1579b-109">Необязательно Определение группы ответа в рабочее время в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1579b-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [<span data-ttu-id="4552f-109">Необязательно Определение рабочих часов для группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4552f-109">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [<span data-ttu-id="1579b-110">Необязательно Определение наборов праздников группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1579b-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [<span data-ttu-id="4552f-110">Необязательно Определение наборов праздников группы ответа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4552f-110">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [<span data-ttu-id="1579b-111">Создание или изменение рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1579b-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
+  - [<span data-ttu-id="4552f-111">Создание или изменение рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4552f-111">Create or modify a workflow in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-workflow.md)
 
-  - [<span data-ttu-id="1579b-112">Удаление рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1579b-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
+  - [<span data-ttu-id="4552f-112">Удаление рабочего процесса в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4552f-112">Delete a workflow in Lync Server 2013</span></span>](lync-server-2013-delete-a-workflow.md)
 
 </div>
 

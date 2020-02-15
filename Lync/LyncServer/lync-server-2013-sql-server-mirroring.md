@@ -12,20 +12,20 @@ ms:contentKeyID: 48185270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d5de1c645d9cc0d4ed1e5c1026ad4a3b8f854f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5df155ed00bb6d6f5ad4ab1867bcf3bb533a9e4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731859"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="af4bd-102">Зеркальное отображение SQL Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="af4bd-102">SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="2fbb9-102">Зеркальное отображение SQL Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fbb9-102">SQL Server mirroring in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731859"
 
 <span> </span>
 
-<span data-ttu-id="af4bd-103">_**Тема последнего изменения:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="af4bd-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="2fbb9-103">_**Последнее изменение темы:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="2fbb9-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="af4bd-104">Установка сеанса зеркального отображения SQL Server между основной базой данных сохраняемого чата и ее зеркалом.</span><span class="sxs-lookup"><span data-stu-id="af4bd-104">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="af4bd-105">Сведения о том, как развертывать зеркальный набор SQL Server, приведены [в разделе Развертывание зеркального отображения SQL для серверного сервера высокой доступности в Lync server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span><span class="sxs-lookup"><span data-stu-id="af4bd-105">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
+<span data-ttu-id="2fbb9-104">Создайте сеанс зеркального отображения SQL Server между основной базой данных сохраняемого чата и ее зеркалом.</span><span class="sxs-lookup"><span data-stu-id="2fbb9-104">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="2fbb9-105">Сведения о развертывании зеркального отображения SQL Server приведены в статье [Развертывание зеркального отображения SQL для обеспечения высокой доступности внутреннего сервера в Lync server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span><span class="sxs-lookup"><span data-stu-id="2fbb9-105">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
 
 </div>
 

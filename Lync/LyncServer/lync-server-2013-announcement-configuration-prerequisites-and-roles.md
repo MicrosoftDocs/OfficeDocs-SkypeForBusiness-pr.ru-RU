@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: необходимые условия и роли для настройки объявлений'
+title: 'Lync Server 2013: необходимые условия и роли для настройки оповещений'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42cbc1429d4e27ee172dc1dacf6b86fa6ac243d9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 09a7a8a17e3431c382ce4f49534336d266bbaa13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737809"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a><span data-ttu-id="62126-102">Необходимые условия и роли для настройки объявлений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62126-102">Announcement configuration prerequisites and roles in Lync Server 2013</span></span>
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a><span data-ttu-id="19fac-102">Необходимые условия и роли для настройки объявлений в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19fac-102">Announcement configuration prerequisites and roles in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41737809"
 
 <span> </span>
 
-<span data-ttu-id="62126-103">_**Тема последнего изменения:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="62126-103">_**Topic Last Modified:** 2013-02-25_</span></span>
+<span data-ttu-id="19fac-103">_**Последнее изменение темы:** 2013-02-25_</span><span class="sxs-lookup"><span data-stu-id="19fac-103">_**Topic Last Modified:** 2013-02-25_</span></span>
 
-<span data-ttu-id="62126-104">Объявление — это функция управления голосовым звонком в корпоративной среде.</span><span class="sxs-lookup"><span data-stu-id="62126-104">Announcement is an Enterprise Voice call management feature.</span></span> <span data-ttu-id="62126-105">В этой статье описаны действия, которые необходимо выполнить, прежде чем можно будет настроить объявление и назначения ролей, необходимые для выполнения задач настройки.</span><span class="sxs-lookup"><span data-stu-id="62126-105">This topic describes what you need to have in place before you can configure Announcement and the role assignments that you need to perform configuration tasks.</span></span>
+<span data-ttu-id="19fac-104">Извещение — это функция управления вызовами корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="19fac-104">Announcement is an Enterprise Voice call management feature.</span></span> <span data-ttu-id="19fac-105">В этом разделе описываются действия, которые необходимо выполнить, прежде чем можно будет настроить объявление и назначения ролей, необходимые для выполнения задач по настройке.</span><span class="sxs-lookup"><span data-stu-id="19fac-105">This topic describes what you need to have in place before you can configure Announcement and the role assignments that you need to perform configuration tasks.</span></span>
 
-<span data-ttu-id="62126-106">В этом разделе предполагается, что вы прочитали документацию по планированию, относящуюся к объявлению (см. раздел [Планирование функций управления звонками в Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span><span class="sxs-lookup"><span data-stu-id="62126-106">This section assumes that you have read the planning documentation related to Announcement (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
+<span data-ttu-id="19fac-106">В этом разделе предполагается, что вы прочитали документацию по планированию, относящуюся к уведомлению (см. [Планирование функций управления вызовами в Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span><span class="sxs-lookup"><span data-stu-id="19fac-106">This section assumes that you have read the planning documentation related to Announcement (see [Planning for call management features in Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).</span></span>
 
 <div>
 
-## <a name="announcement-configuration-prerequisites"></a><span data-ttu-id="62126-107">Предварительные требования для конфигурации объявлений</span><span class="sxs-lookup"><span data-stu-id="62126-107">Announcement Configuration Prerequisites</span></span>
+## <a name="announcement-configuration-prerequisites"></a><span data-ttu-id="19fac-107">Предварительные требования к настройке объявлений</span><span class="sxs-lookup"><span data-stu-id="19fac-107">Announcement Configuration Prerequisites</span></span>
 
-<span data-ttu-id="62126-108">Для приложения извещения необходимы следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="62126-108">The Announcement application requires the following components:</span></span>
+<span data-ttu-id="19fac-108">Для приложения извещения необходимы следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="19fac-108">The Announcement application requires the following components:</span></span>
 
-  - <span data-ttu-id="62126-109">приложения</span><span class="sxs-lookup"><span data-stu-id="62126-109">Application service</span></span>
+  - <span data-ttu-id="19fac-109">служба приложения;</span><span class="sxs-lookup"><span data-stu-id="19fac-109">Application service</span></span>
 
-  - <span data-ttu-id="62126-110">"Группа ответа"</span><span class="sxs-lookup"><span data-stu-id="62126-110">Response Group application</span></span>
+  - <span data-ttu-id="19fac-110">приложение группы ответа;</span><span class="sxs-lookup"><span data-stu-id="19fac-110">Response Group application</span></span>
 
-  - <span data-ttu-id="62126-111">Хранилище файлов, для хранения звуковых файлов</span><span class="sxs-lookup"><span data-stu-id="62126-111">File Store, to hold audio files</span></span>
+  - <span data-ttu-id="19fac-111">хранилище файлов для звуковых файлов.</span><span class="sxs-lookup"><span data-stu-id="19fac-111">File Store, to hold audio files</span></span>
 
-<span data-ttu-id="62126-112">Все эти компоненты устанавливаются по умолчанию при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="62126-112">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="19fac-112">Все эти компоненты устанавливаются по умолчанию при развертывании корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="19fac-112">All of these components are installed by default when you deploy Enterprise Voice.</span></span>
 
 </div>
 
 <div>
 
-## <a name="announcement-configuration-roles"></a><span data-ttu-id="62126-113">Роли конфигурации объявлений</span><span class="sxs-lookup"><span data-stu-id="62126-113">Announcement Configuration Roles</span></span>
+## <a name="announcement-configuration-roles"></a><span data-ttu-id="19fac-113">Роли настройки объявлений</span><span class="sxs-lookup"><span data-stu-id="19fac-113">Announcement Configuration Roles</span></span>
 
-<span data-ttu-id="62126-114">Для настройки объявлений можно использовать следующие средства администрирования:</span><span class="sxs-lookup"><span data-stu-id="62126-114">You can use the following administrative tools to configure announcements:</span></span>
+<span data-ttu-id="19fac-114">Для настройки объявлений можно использовать следующие средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="19fac-114">You can use the following administrative tools to configure announcements:</span></span>
 
-  - <span data-ttu-id="62126-115">Панель управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="62126-115">Lync Server Control Panel</span></span>
+  - <span data-ttu-id="19fac-115">Панель управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="19fac-115">Lync Server Control Panel</span></span>
 
-  - <span data-ttu-id="62126-116">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="62126-116">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="19fac-116">Командная консоль Lync Server</span><span class="sxs-lookup"><span data-stu-id="19fac-116">Lync Server Management Shell</span></span>
 
-<span data-ttu-id="62126-117">Для настройки приложения объявления требуется одна из следующих административных ролей:</span><span class="sxs-lookup"><span data-stu-id="62126-117">Configuring Announcement application requires one of the following administrative roles:</span></span>
+<span data-ttu-id="19fac-117">Для настройки приложения извещения требуется одна из следующих административных ролей:</span><span class="sxs-lookup"><span data-stu-id="19fac-117">Configuring Announcement application requires one of the following administrative roles:</span></span>
 
-  - <span data-ttu-id="62126-118">**Ксвоицеадминистратор**   . Эта роль администратора может создавать, настраивать и управлять всеми параметрами и политиками голосовой связи, включая параметры объявлений.</span><span class="sxs-lookup"><span data-stu-id="62126-118">**CsVoiceAdministrator**   This administrator role can create, configure, and manage all voice-related settings and policies, including Announcement settings.</span></span>
+  - <span data-ttu-id="19fac-118">**CsVoiceAdministrator**   эта роль администратора позволяет создавать, настраивать и управлять всеми параметрами и политиками голосовой связи, включая параметры оповещений.</span><span class="sxs-lookup"><span data-stu-id="19fac-118">**CsVoiceAdministrator**   This administrator role can create, configure, and manage all voice-related settings and policies, including Announcement settings.</span></span>
 
-  - <span data-ttu-id="62126-119">**Кссерверадминистратор**   . Эта роль администратора может управлять, отслеживать и устранять неполадки серверов и служб, а также настраивать все параметры объявлений.</span><span class="sxs-lookup"><span data-stu-id="62126-119">**CsServerAdministrator**   This administrator role can manage, monitor, and troubleshoot servers and services, and configure all Announcement settings.</span></span>
+  - <span data-ttu-id="19fac-119">**CsServerAdministrator**   эта роль администратора позволяет управлять, отслеживать и устранять неполадки в серверах и службах, а также настраивать все параметры оповещений.</span><span class="sxs-lookup"><span data-stu-id="19fac-119">**CsServerAdministrator**   This administrator role can manage, monitor, and troubleshoot servers and services, and configure all Announcement settings.</span></span>
 
-  - <span data-ttu-id="62126-120">**Ксадминистратор**   . Эта роль администратора может выполнять все административные задачи и изменять все параметры.</span><span class="sxs-lookup"><span data-stu-id="62126-120">**CsAdministrator**   This administrator role can perform all administrative tasks and modify all settings.</span></span>
+  - <span data-ttu-id="19fac-120">**CsAdministrator**   . Эта роль администратора позволяет выполнять все административные задачи и изменять все параметры.</span><span class="sxs-lookup"><span data-stu-id="19fac-120">**CsAdministrator**   This administrator role can perform all administrative tasks and modify all settings.</span></span>
 
-  - <span data-ttu-id="62126-121">**Ксвиевонлядминистратор**   . Эта роль администратора может просматривать развертывание, чтобы отслеживать состояние развертывания.</span><span class="sxs-lookup"><span data-stu-id="62126-121">**CsViewOnlyAdministrator**   This administrator role can view the deployment to monitor deployment health.</span></span>
+  - <span data-ttu-id="19fac-121">**CsViewOnlyAdministrator**   эта роль администратора может просматривать развертывание для мониторинга работоспособности развертывания.</span><span class="sxs-lookup"><span data-stu-id="19fac-121">**CsViewOnlyAdministrator**   This administrator role can view the deployment to monitor deployment health.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="62126-122">Подробнее об административных правах пользователей можно узнать в разделе <A href="lync-server-2013-planning-for-role-based-access-control.md">Планирование управления доступом на основе ролей в Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="62126-122">For details about administrative user rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="19fac-122">Дополнительные сведения об административных правах пользователей приведены в статье <A href="lync-server-2013-planning-for-role-based-access-control.md">Планирование управления доступом на основе ролей в Lync Server 2013</A> в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="19fac-122">For details about administrative user rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -91,13 +91,13 @@ ms.locfileid: "41737809"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="62126-123">См. также</span><span class="sxs-lookup"><span data-stu-id="62126-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="19fac-123">См. также</span><span class="sxs-lookup"><span data-stu-id="19fac-123">See Also</span></span>
 
 
-[<span data-ttu-id="62126-124">Развертывание корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62126-124">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+[<span data-ttu-id="19fac-124">Развертывание корпоративной голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19fac-124">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[<span data-ttu-id="62126-125">Планирование функций управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="62126-125">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="19fac-125">Планирование функций управления звонками в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19fac-125">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

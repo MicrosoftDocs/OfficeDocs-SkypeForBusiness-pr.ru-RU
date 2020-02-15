@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: компоненты, используемые для отправки группового звонка'
+title: 'Lync Server 2013: компоненты, используемые при отправке звонков по группам'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9c810d5835d113a26bd3a15295f75a71552590
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a05bf0b6a55eb3d8d3d322061947ac43f6295c63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757073"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="57573-102">Компоненты, используемые для отправки группового звонка в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57573-102">Components used by Group Call Pickup in Lync Server 2013</span></span>
+# <a name="components-used-by-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="c6973-102">Компоненты, используемые при отправке звонков по группам в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6973-102">Components used by Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757073"
 
 <span> </span>
 
-<span data-ttu-id="57573-103">_**Тема последнего изменения:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="57573-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="c6973-103">_**Последнее изменение темы:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="c6973-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="57573-104">Отправка группового звонка автоматически разворачивается при развертывании корпоративной голосовой связи и приложения для приостановки звонков.</span><span class="sxs-lookup"><span data-stu-id="57573-104">Group Call Pickup is automatically deployed when you deploy Enterprise Voice and the Call Park application.</span></span> <span data-ttu-id="57573-105">Вы включаете функцию отправки группового звонка, настраивая в таблице на приостановку соединения различные диапазоны номеров, обозначенные как номера групп для отправки звонков, а затем назначая пользователям доступ к группам для отправки звонков и обеспечивая пользователям возможность раскладки группового звонка.</span><span class="sxs-lookup"><span data-stu-id="57573-105">You enable Group Call Pickup by configuring the Call Park orbit table with separate ranges of numbers designated as call pickup group numbers, and then by assigning users to call pickup groups and enabling the users for Group Call Pickup.</span></span> <span data-ttu-id="57573-106">Следующие компоненты Lync Server поддерживают раскладки групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="57573-106">The following Lync Server components support Group Call Pickup:</span></span>
+<span data-ttu-id="c6973-104">При развертывании корпоративной голосовой связи и приложения парковки вызовов автоматически разворачивается групповой ответ на звонки.</span><span class="sxs-lookup"><span data-stu-id="c6973-104">Group Call Pickup is automatically deployed when you deploy Enterprise Voice and the Call Park application.</span></span> <span data-ttu-id="c6973-105">Вы включаете функцию отправки звонков по группам, настраивая таблицу орбит парковки вызовов с отдельными диапазонами номеров, назначенными в качестве номеров группы ответа на звонки, а затем назначая пользователям группы ответа на звонки и предоставление пользователям возможности группового ответа на звонки.</span><span class="sxs-lookup"><span data-stu-id="c6973-105">You enable Group Call Pickup by configuring the Call Park orbit table with separate ranges of numbers designated as call pickup group numbers, and then by assigning users to call pickup groups and enabling the users for Group Call Pickup.</span></span> <span data-ttu-id="c6973-106">Следующие компоненты Lync Server поддерживают отправке звонков групп:</span><span class="sxs-lookup"><span data-stu-id="c6973-106">The following Lync Server components support Group Call Pickup:</span></span>
 
-  - <span data-ttu-id="57573-107">\*\*\*\*   Служба приложений службы приложений предоставляет платформу для развертывания и управления едиными приложениями для обмена информацией, например с помощью приложения для парковки звонков.</span><span class="sxs-lookup"><span data-stu-id="57573-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="57573-108">Служба приложений устанавливается автоматически на каждый сервер переднего плана в пуле переднего плана и на каждом сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="57573-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
+  - <span data-ttu-id="c6973-107">\*\*\*\*   Служба приложения службы приложений предоставляет платформу для развертывания, хостинга и управления едиными приложениями для обмена мгновенными сообщениями, такими как приложение парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="c6973-107">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as the Call Park application.</span></span> <span data-ttu-id="c6973-108">Служба приложений автоматически устанавливается на каждом сервере переднего плана в интерфейсном пуле и на каждом сервере Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="c6973-108">Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - <span data-ttu-id="57573-109">**Приложение для приостановки звонков**   . приложение для приема звонков — одно из унифицированных приложений для обмена данными, размещенных в службе приложений.</span><span class="sxs-lookup"><span data-stu-id="57573-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="57573-110">Отправка группового звонка осуществляется на основе заявления на приостановку звонков.</span><span class="sxs-lookup"><span data-stu-id="57573-110">Group Call Pickup is based on the Call Park application.</span></span>
+  - <span data-ttu-id="c6973-109">**Приложение парковки вызовов**   приложение парковки вызовов является одним из Объединенных приложений для обмена данными, размещенных в службе приложения.</span><span class="sxs-lookup"><span data-stu-id="c6973-109">**Call Park application**   The Call Park application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="c6973-110">Группа ответа на звонки основана на приложении парковки вызовов.</span><span class="sxs-lookup"><span data-stu-id="c6973-110">Group Call Pickup is based on the Call Park application.</span></span>
 
-  - <span data-ttu-id="57573-111">**Командная консоль**   Lync Server для управления группами отправки группового звонка используется Командная консоль Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="57573-111">**Lync Server Management Shell**   You use Lync Server Management Shell to manage Group Call Pickup groups.</span></span>
+  - <span data-ttu-id="c6973-111">**Командная консоль**   Lync Server. для управления группами ответа на звонки групп используется Командная консоль Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c6973-111">**Lync Server Management Shell**   You use Lync Server Management Shell to manage Group Call Pickup groups.</span></span>
 
-  - <span data-ttu-id="57573-112">**Сефаутил Resource Kit**   вы используете вспомогательную служебную программу активации компонентов расширения (сефаутил), чтобы назначать пользователей для группы приема звонков, а также включать и отключать функцию отправки звонков для пользователей.</span><span class="sxs-lookup"><span data-stu-id="57573-112">**SEFAUtil resource kit tool**   You use the secondary extension feature activation utility (SEFAUtil) to assign users to a call pickup group and to enable or disable call pickup for users.</span></span>
+  - <span data-ttu-id="c6973-112">**SEFAUtil Resource Kit**   . для назначения пользователей группе ответа на звонки и для включения или отключения функции отправки звонков используется вспомогательная служебная программа активации дополнительных компонентов (SEFAUtil).</span><span class="sxs-lookup"><span data-stu-id="c6973-112">**SEFAUtil resource kit tool**   You use the secondary extension feature activation utility (SEFAUtil) to assign users to a call pickup group and to enable or disable call pickup for users.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f39f3444c0d660a1ed73da566df6b5b348171f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723149"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a><span data-ttu-id="641d2-102">Подключение пилотного пула к старым пограничным серверам</span><span class="sxs-lookup"><span data-stu-id="641d2-102">Connect pilot pool to legacy Edge Servers</span></span>
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a><span data-ttu-id="a91e8-102">Подключение пилотного пула к старым пограничным серверам</span><span class="sxs-lookup"><span data-stu-id="a91e8-102">Connect pilot pool to legacy Edge Servers</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41723149"
 
 <span> </span>
 
-<span data-ttu-id="641d2-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="641d2-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="a91e8-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="a91e8-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="641d2-104">После развертывания Lync Server 2013 маршрут Федерации для этого сайта не настроен.</span><span class="sxs-lookup"><span data-stu-id="641d2-104">After deploying Lync Server 2013, a federation route for this site is not configured.</span></span> <span data-ttu-id="641d2-105">Чтобы использовать федеративный маршрут, который используется в Office Communications Server 2007 R2, Lync Server 2013 необходимо настроить для использования этого маршрута.</span><span class="sxs-lookup"><span data-stu-id="641d2-105">In order to use the federated route that is being used by Office Communications Server 2007 R2, Lync Server 2013 must be configured to use this route.</span></span>
+<span data-ttu-id="a91e8-104">После развертывания Lync Server 2013 маршрут Федерации для этого сайта не настроен.</span><span class="sxs-lookup"><span data-stu-id="a91e8-104">After deploying Lync Server 2013, a federation route for this site is not configured.</span></span> <span data-ttu-id="a91e8-105">Чтобы использовать федеративный маршрут, используемый Office Communications Server 2007 R2, Lync Server 2013 должен быть настроен для использования этого маршрута.</span><span class="sxs-lookup"><span data-stu-id="a91e8-105">In order to use the federated route that is being used by Office Communications Server 2007 R2, Lync Server 2013 must be configured to use this route.</span></span>
 
-<span data-ttu-id="641d2-106">Чтобы разрешить сайту Lync Server 2013 использовать режиссер и Edge-сервер Бакккомпатсите, воспользуйтесь построителем топологии для связи с устаревшим пулом Edge.</span><span class="sxs-lookup"><span data-stu-id="641d2-106">To enable the Lync Server 2013 site to use the Director and Edge Server of the BackCompatSite, use Topology Builder to associate the legacy Edge pool.</span></span>
+<span data-ttu-id="a91e8-106">Чтобы разрешить сайту Lync Server 2013 использовать директор и пограничный сервер BackCompatSite, используйте построитель топологий для связи устаревшего пограничного пула.</span><span class="sxs-lookup"><span data-stu-id="a91e8-106">To enable the Lync Server 2013 site to use the Director and Edge Server of the BackCompatSite, use Topology Builder to associate the legacy Edge pool.</span></span>
 
 <div>
 
-## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a><span data-ttu-id="641d2-107">Связывание устаревшего пула Edge с помощью построителя топологии</span><span class="sxs-lookup"><span data-stu-id="641d2-107">To associate the legacy Edge pool by using Topology Builder</span></span>
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a><span data-ttu-id="a91e8-107">Сопоставление старого пограничного пула с помощью построителя топологии</span><span class="sxs-lookup"><span data-stu-id="a91e8-107">To associate the legacy Edge pool by using Topology Builder</span></span>
 
-1.  <span data-ttu-id="641d2-108">Откройте топологию пилотного пула в построителе топологии.</span><span class="sxs-lookup"><span data-stu-id="641d2-108">Open the pilot pool topology in Topology Builder.</span></span>
+1.  <span data-ttu-id="a91e8-108">Откройте пилотную топологию пула в построителе топологии.</span><span class="sxs-lookup"><span data-stu-id="a91e8-108">Open the pilot pool topology in Topology Builder.</span></span>
 
-2.  <span data-ttu-id="641d2-109">Выберите сайт Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="641d2-109">Select your Lync Server 2013 site.</span></span>
+2.  <span data-ttu-id="a91e8-109">Выберите сайт Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a91e8-109">Select your Lync Server 2013 site.</span></span>
 
-3.  <span data-ttu-id="641d2-110">В меню **действия** выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="641d2-110">On the **Action** menu, click **Edit Properties**.</span></span>
+3.  <span data-ttu-id="a91e8-110">В меню **Действие** щелкните **Изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-110">On the **Action** menu, click **Edit Properties**.</span></span>
 
-4.  <span data-ttu-id="641d2-111">В разделе **назначение маршрута Федерации сайтов**выберите **включить федерацию SIP**, а затем выберите Office Communications Server 2007 R2 или пограничный сервер Office Communications Server 2007 R2, если в списке нет режиссера.</span><span class="sxs-lookup"><span data-stu-id="641d2-111">Under **Site federation route assignment**, select **Enable SIP federation**, and then select the Office Communications Server 2007 R2 Director, or the Office Communications Server 2007 R2 Edge Server if no Director is listed.</span></span>
+4.  <span data-ttu-id="a91e8-111">В разделе **назначение федеративного маршрута сайта**выберите **включить федерацию SIP**, а затем выберите Office Communications Server 2007 R2 или пограничный сервер Office Communications Server 2007 R2, если в списке нет директоров.</span><span class="sxs-lookup"><span data-stu-id="a91e8-111">Under **Site federation route assignment**, select **Enable SIP federation**, and then select the Office Communications Server 2007 R2 Director, or the Office Communications Server 2007 R2 Edge Server if no Director is listed.</span></span>
     
-    <span data-ttu-id="641d2-112">![Диалоговое окно "изменение свойств", страница "маршрут Федерации"](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Диалоговое окно "изменение свойств", страница "маршрут Федерации"")</span><span class="sxs-lookup"><span data-stu-id="641d2-112">![Edit Properties dialog, Federation route page](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Edit Properties dialog, Federation route page")</span></span>  
+    <span data-ttu-id="a91e8-112">![Диалоговое окно "изменение свойств", страница "маршрут Федерации"](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Диалоговое окно "изменение свойств", страница "маршрут Федерации"")</span><span class="sxs-lookup"><span data-stu-id="a91e8-112">![Edit Properties dialog, Federation route page](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Edit Properties dialog, Federation route page")</span></span>  
 
-5.  <span data-ttu-id="641d2-113">Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** .</span><span class="sxs-lookup"><span data-stu-id="641d2-113">Click **OK** to close the **Edit Properties** page.</span></span>
+5.  <span data-ttu-id="a91e8-113">Нажмите кнопку **ОК**, чтобы закрыть страницу **изменения свойств**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-113">Click **OK** to close the **Edit Properties** page.</span></span>
 
-6.  <span data-ttu-id="641d2-114">В построителе топологии на узле Lync Server 2013 перейдите к пулам **стандартных серверных** **пулов или интерфейсов Enterprise Edition**, щелкните пул правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="641d2-114">In Topology Builder, under the Lync Server 2013 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.</span></span>
+6.  <span data-ttu-id="a91e8-114">В построителе топологий разверните узел Lync Server 2013 и перейдите к пулам **переднего плана** **сервера Standard Edition** или Enterprise Edition, щелкните пул правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-114">In Topology Builder, under the Lync Server 2013 node, navigate to the **Standard Edition server** or **Enterprise Edition Front End pools**, right-click the pool, and then click **Edit Properties**.</span></span>
 
-7.  <span data-ttu-id="641d2-115">В разделе **связи**установите флажок **связать пул граничного пула (для компонентов мультимедиа)**.</span><span class="sxs-lookup"><span data-stu-id="641d2-115">Under **Associations**, select the check box next to **Associate Edge pool (for media components)**.</span></span>
+7.  <span data-ttu-id="a91e8-115">В разделе **Связи** установите флажок **Сопоставить пограничный пул (для компонентов мультимедиа)**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-115">Under **Associations**, select the check box next to **Associate Edge pool (for media components)**.</span></span>
 
-8.  <span data-ttu-id="641d2-116">В списке выберите интерфейс пограничного сервера для Бакккомпатсите.</span><span class="sxs-lookup"><span data-stu-id="641d2-116">From the list, select the Edge Server interface for the BackCompatSite.</span></span>
+8.  <span data-ttu-id="a91e8-116">Выберите из списка интерфейс пограничного сервера для BackCompatSite.</span><span class="sxs-lookup"><span data-stu-id="a91e8-116">From the list, select the Edge Server interface for the BackCompatSite.</span></span>
     
-    <span data-ttu-id="641d2-117">![Диалоговое окно "изменение свойств", страница "Общие"](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Диалоговое окно "изменение свойств", страница "Общие"")</span><span class="sxs-lookup"><span data-stu-id="641d2-117">![Edit Properties dialog, General page](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Edit Properties dialog, General page")</span></span>  
+    <span data-ttu-id="a91e8-117">![Диалоговое окно "изменение свойств", страница "Общие"](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Диалоговое окно "изменение свойств", страница "Общие"")</span><span class="sxs-lookup"><span data-stu-id="a91e8-117">![Edit Properties dialog, General page](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Edit Properties dialog, General page")</span></span>  
 
-9.  <span data-ttu-id="641d2-118">Нажмите кнопку **ОК** , чтобы закрыть страницу **изменение свойств** .</span><span class="sxs-lookup"><span data-stu-id="641d2-118">Click **OK** to close the **Edit Properties** page.</span></span>
+9.  <span data-ttu-id="a91e8-118">Нажмите кнопку **ОК**, чтобы закрыть страницу **изменения свойств**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-118">Click **OK** to close the **Edit Properties** page.</span></span>
 
-10. <span data-ttu-id="641d2-119">В **построителе топологии**выберите самый верхний узел, **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="641d2-119">In **Topology Builder**, select the top-most node, **Lync Server**.</span></span>
+10. <span data-ttu-id="a91e8-119">В **построителе топологий** выберите самый верхний узел, **Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-119">In **Topology Builder**, select the top-most node, **Lync Server**.</span></span>
 
-11. <span data-ttu-id="641d2-120">В меню **действие** выберите пункт **топология публикации**и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="641d2-120">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
+11. <span data-ttu-id="a91e8-120">В меню **Action** (Действие) выберите команду **Publish Topology** (Опубликовать топологию) и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-120">From the **Action** menu, click **Publish Topology**, and then click **Next**.</span></span>
 
-12. <span data-ttu-id="641d2-121">После завершения работы **мастера публикации** нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="641d2-121">When the **Publishing wizard** completes, click **Finish**.</span></span>
+12. <span data-ttu-id="a91e8-121">Когда **мастер публикации** завершит работу, нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a91e8-121">When the **Publishing wizard** completes, click **Finish**.</span></span>
 
 </div>
 

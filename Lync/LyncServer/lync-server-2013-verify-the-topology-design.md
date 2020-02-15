@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проверка структуры топологии'
+title: 'Lync Server 2013: Проверка структуры топологии'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85266477df342c16ed69c0507813b905c608745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6968dfca2072ca9a6c0e5008528e27a14f01447
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742149"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-the-topology-design-in-lync-server-2013"></a><span data-ttu-id="1c481-102">Проверка структуры топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c481-102">Verify the topology design in Lync Server 2013</span></span>
+# <a name="verify-the-topology-design-in-lync-server-2013"></a><span data-ttu-id="179a3-102">Проверка структуры топологии в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="179a3-102">Verify the topology design in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41742149"
 
 <span> </span>
 
-<span data-ttu-id="1c481-103">_**Тема последнего изменения:** 2012-01-02_</span><span class="sxs-lookup"><span data-stu-id="1c481-103">_**Topic Last Modified:** 2012-01-02_</span></span>
+<span data-ttu-id="179a3-103">_**Последнее изменение темы:** 2012-01-02_</span><span class="sxs-lookup"><span data-stu-id="179a3-103">_**Topic Last Modified:** 2012-01-02_</span></span>
 
-<span data-ttu-id="1c481-104">Построитель топологии автоматически проверяет топологию.</span><span class="sxs-lookup"><span data-stu-id="1c481-104">Topology Builder automatically verifies the topology.</span></span> <span data-ttu-id="1c481-105">Любая ошибка топологии определяется как ошибка проверки, указанная значком ошибки проверки рядом с ролью сервера.</span><span class="sxs-lookup"><span data-stu-id="1c481-105">Any topology error is identified as a validation error, indicated by the validation error icon next to the server role.</span></span> <span data-ttu-id="1c481-106">Важно также убедиться, что топология правильно представляет топологию для развертывания.</span><span class="sxs-lookup"><span data-stu-id="1c481-106">It is important to also verify that the topology correctly represents the topology for your deployment.</span></span>
+<span data-ttu-id="179a3-104">В построителе топологий автоматически проверяется топология.</span><span class="sxs-lookup"><span data-stu-id="179a3-104">Topology Builder automatically verifies the topology.</span></span> <span data-ttu-id="179a3-105">Любая ошибка топологии считается ошибкой проверки и обозначается значком ошибки проверки рядом с ролью сервера.</span><span class="sxs-lookup"><span data-stu-id="179a3-105">Any topology error is identified as a validation error, indicated by the validation error icon next to the server role.</span></span> <span data-ttu-id="179a3-106">Важно также проверить, что топология правильно представляет топологию вашего развертывания.</span><span class="sxs-lookup"><span data-stu-id="179a3-106">It is important to also verify that the topology correctly represents the topology for your deployment.</span></span>
 
 <div>
 
-## <a name="to-verify-the-topology-prior-to-publication"></a><span data-ttu-id="1c481-107">Проверка топологии перед публикацией</span><span class="sxs-lookup"><span data-stu-id="1c481-107">To verify the topology prior to publication</span></span>
+## <a name="to-verify-the-topology-prior-to-publication"></a><span data-ttu-id="179a3-107">Проверка топологии до публикации</span><span class="sxs-lookup"><span data-stu-id="179a3-107">To verify the topology prior to publication</span></span>
 
-1.  <span data-ttu-id="1c481-108">Проверьте, что все простые URL-адреса настроены правильно.</span><span class="sxs-lookup"><span data-stu-id="1c481-108">Check that all simple URLs are configured correctly.</span></span>
+1.  <span data-ttu-id="179a3-108">Проверьте, что все простые URL-адреса настроены правильно.</span><span class="sxs-lookup"><span data-stu-id="179a3-108">Check that all simple URLs are configured correctly.</span></span>
 
-2.  <span data-ttu-id="1c481-109">Проверьте, что сервер на основе SQL Server включен и доступен компьютеру, на котором установлен построитель топологий, включая все необходимые правила брандмауэра.</span><span class="sxs-lookup"><span data-stu-id="1c481-109">Confirm that the SQL Server-based server is online and available to the computer where Topology Builder is installed, including any necessary firewall rules.</span></span>
+2.  <span data-ttu-id="179a3-109">Убедитесь, что сервер на основе SQL Server подключен к сети и доступен компьютеру, на котором установлен построитель топологий, включая все необходимые правила брандмауэра.</span><span class="sxs-lookup"><span data-stu-id="179a3-109">Confirm that the SQL Server-based server is online and available to the computer where Topology Builder is installed, including any necessary firewall rules.</span></span>
 
-3.  <span data-ttu-id="1c481-110">Убедитесь в том, что общий доступ к файлам доступен, и у него есть соответствующие разрешения.</span><span class="sxs-lookup"><span data-stu-id="1c481-110">Confirm that the file share is available and has the proper permissions defined.</span></span>
+3.  <span data-ttu-id="179a3-110">Проверьте, что файловое хранилище доступно и для него заданы необходимые разрешения.</span><span class="sxs-lookup"><span data-stu-id="179a3-110">Confirm that the file share is available and has the proper permissions defined.</span></span>
 
-4.  <span data-ttu-id="1c481-111">Проверьте, что в топологии заданы правильные роли сервера, удовлетворяющие требованиям развертывания.</span><span class="sxs-lookup"><span data-stu-id="1c481-111">Confirm that the correct server roles that meet the deployment requirements are defined in the topology.</span></span>
+4.  <span data-ttu-id="179a3-111">Проверьте, что в топологии заданы правильные роли сервера, удовлетворяющие требованиям развертывания.</span><span class="sxs-lookup"><span data-stu-id="179a3-111">Confirm that the correct server roles that meet the deployment requirements are defined in the topology.</span></span>
 
-5.  <span data-ttu-id="1c481-112">Убедитесь в том, что серверы находятся в доменных службах Active Directory.</span><span class="sxs-lookup"><span data-stu-id="1c481-112">Verify that the servers exist in Active Directory Domain Services.</span></span> <span data-ttu-id="1c481-113">Это происходит автоматически, если вы присоединили серверы к домену.</span><span class="sxs-lookup"><span data-stu-id="1c481-113">This will happen automatically if you have joined the servers to the domain.</span></span>
+5.  <span data-ttu-id="179a3-112">Убедитесь, что серверы существуют в доменных службах Active Directory.</span><span class="sxs-lookup"><span data-stu-id="179a3-112">Verify that the servers exist in Active Directory Domain Services.</span></span> <span data-ttu-id="179a3-113">Это осуществляется автоматически, если серверы присоединены к домену.</span><span class="sxs-lookup"><span data-stu-id="179a3-113">This will happen automatically if you have joined the servers to the domain.</span></span>
 
-<span data-ttu-id="1c481-114">Когда топология проверена и ошибки проверки отсутствуют, все должно быть готово к публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="1c481-114">When you have verified the topology and there are no validation errors, you should be ready to publish the topology.</span></span> <span data-ttu-id="1c481-115">Если обнаружены ошибки проверки, необходимо исправить эти значения, прежде чем можно будет опубликовать топологию.</span><span class="sxs-lookup"><span data-stu-id="1c481-115">If there are validation errors, you must correct these before you can publish the topology.</span></span> <span data-ttu-id="1c481-116">Подробнее о публикации топологии можно найти в разделе [Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md).</span><span class="sxs-lookup"><span data-stu-id="1c481-116">For details about publishing your topology, see [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md).</span></span>
+<span data-ttu-id="179a3-114">Когда топология проверена и ошибки проверки отсутствуют, все должно быть готово к публикации топологии.</span><span class="sxs-lookup"><span data-stu-id="179a3-114">When you have verified the topology and there are no validation errors, you should be ready to publish the topology.</span></span> <span data-ttu-id="179a3-115">Если имеются ошибки проверки, то перед публикацией топологии их необходимо исправить.</span><span class="sxs-lookup"><span data-stu-id="179a3-115">If there are validation errors, you must correct these before you can publish the topology.</span></span> <span data-ttu-id="179a3-116">Сведения о публикации топологии приведены [в статье публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md).</span><span class="sxs-lookup"><span data-stu-id="179a3-116">For details about publishing your topology, see [Publish the topology in Lync Server 2013](lync-server-2013-publish-the-topology.md).</span></span>
 
 </div>
 

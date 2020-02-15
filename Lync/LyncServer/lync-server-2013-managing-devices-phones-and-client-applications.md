@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление устройствами, телефонами и клиентскими приложениями'
+title: 'Lync Server 2013: Управление устройствами, телефонами и клиентскими приложениями'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e80416897370711ce3bbadf3285cf25fad51f67d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 826dc7971eb2069573cb2b51095162b8f29f1ab9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729309"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a><span data-ttu-id="2fa67-102">Управление устройствами, телефонами и клиентскими приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-102">Managing devices, phones, and client applications in Lync Server 2013</span></span>
+# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a><span data-ttu-id="57c5a-102">Управление устройствами, телефонами и клиентскими приложениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-102">Managing devices, phones, and client applications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41729309"
 
 <span> </span>
 
-<span data-ttu-id="2fa67-103">_**Тема последнего изменения:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="2fa67-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="57c5a-103">_**Последнее изменение темы:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="57c5a-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="2fa67-104">В этом разделе приведены пошаговые инструкции для задач, которые можно выполнить с помощью группы " **Клиенты** " на панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2fa67-104">The topics in this section provide step-by-step procedures for tasks that you can perform by using the **Clients** group in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="57c5a-104">В подразделах этого раздела приводятся пошаговые процедуры для задач, которые можно выполнить с помощью группы **клиентов** в панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="57c5a-104">The topics in this section provide step-by-step procedures for tasks that you can perform by using the **Clients** group in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2fa67-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="2fa67-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="57c5a-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="57c5a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2fa67-106">Общие Телефоны на мобильных телефонах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-106">Common area phones in Lync Server 2013</span></span>](lync-server-2013-common-area-phones.md)
+  - [<span data-ttu-id="57c5a-106">Телефон общего пользования в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-106">Common area phones in Lync Server 2013</span></span>](lync-server-2013-common-area-phones.md)
 
-  - [<span data-ttu-id="2fa67-107">Устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-107">Conferencing devices in Lync Server 2013</span></span>](lync-server-2013-conferencing-devices.md)
+  - [<span data-ttu-id="57c5a-107">Устройства конференц-связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-107">Conferencing devices in Lync Server 2013</span></span>](lync-server-2013-conferencing-devices.md)
 
-  - [<span data-ttu-id="2fa67-108">Мобильные телефоны (политика/push-уведомление) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-108">Mobile phones (policy/push notification) in Lync Server 2013</span></span>](lync-server-2013-mobile-phones-policy-push-notification.md)
+  - [<span data-ttu-id="57c5a-108">Мобильные телефоны (политика/push-уведомления) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-108">Mobile phones (policy/push notification) in Lync Server 2013</span></span>](lync-server-2013-mobile-phones-policy-push-notification.md)
 
-  - [<span data-ttu-id="2fa67-109">Тестирование устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-109">Test devices in Lync Server 2013</span></span>](lync-server-2013-test-devices.md)
+  - [<span data-ttu-id="57c5a-109">Тестирование устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-109">Test devices in Lync Server 2013</span></span>](lync-server-2013-test-devices.md)
 
-  - [<span data-ttu-id="2fa67-110">Параметры конфигурации Lync Phone Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-110">Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="57c5a-110">Параметры конфигурации Lync Phone Edition в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-110">Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="2fa67-111">Веб-служба обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-111">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)
+  - [<span data-ttu-id="57c5a-111">Веб-служба обновления устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-111">Device Update Web service in Lync Server 2013</span></span>](lync-server-2013-device-update-web-service.md)
 
-  - [<span data-ttu-id="2fa67-112">Указание клиентских приложений, которые можно использовать для входа на сервер Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-112">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
+  - [<span data-ttu-id="57c5a-112">Указание клиентских приложений, которые можно использовать для входа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-112">Specifying the client applications that can be used to log on to Lync Server 2013</span></span>](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2fa67-113">См. также</span><span class="sxs-lookup"><span data-stu-id="2fa67-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="57c5a-113">См. также</span><span class="sxs-lookup"><span data-stu-id="57c5a-113">See Also</span></span>
 
 
-[<span data-ttu-id="2fa67-114">Операции в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-114">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
-[<span data-ttu-id="2fa67-115">Развертывание клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2fa67-115">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
+[<span data-ttu-id="57c5a-114">Операции в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-114">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="57c5a-115">Развертывание клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57c5a-115">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)  
   
 
 </div>

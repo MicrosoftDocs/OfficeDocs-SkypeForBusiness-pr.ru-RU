@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица PayloadDescription'
+title: 'Lync Server 2013: таблица таблица payloaddescription'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe905db80edae74e81cc496c9ad70ca3148854f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44edea16dc4874b797dd69402709a880c530147c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755393"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="34146-102">Таблица PayloadDescription в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="34146-102">PayloadDescription table in Lync Server 2013</span></span>
+# <a name="payloaddescription-table-in-lync-server-2013"></a><span data-ttu-id="e750f-102">Таблица Таблица payloaddescription в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e750f-102">PayloadDescription table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755393"
 
 <span> </span>
 
-<span data-ttu-id="34146-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="34146-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="e750f-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e750f-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="34146-104">Таблица Пайлоаддескриптион является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="34146-104">The PayloadDescription table is a supporting table.</span></span> <span data-ttu-id="34146-105">Каждая запись представляет один кодек, который используется в звуковом или видеосеансе.</span><span class="sxs-lookup"><span data-stu-id="34146-105">Each record represents one Codec, which is used in an audio or video session.</span></span>
+<span data-ttu-id="e750f-p101">Таблица PayloadDescription является вспомогательной. Каждая запись представляет один кодек, используемый в аудио- или видеосеансе.</span><span class="sxs-lookup"><span data-stu-id="e750f-p101">The PayloadDescription table is a supporting table. Each record represents one Codec, which is used in an audio or video session.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41755393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="34146-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="34146-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="34146-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="34146-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="34146-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="34146-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="34146-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="34146-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="e750f-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="e750f-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="e750f-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="e750f-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="e750f-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="e750f-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="e750f-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="e750f-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="34146-110"><strong>пайлоаддескриптионкэй</strong></span><span class="sxs-lookup"><span data-stu-id="34146-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="34146-111">целое</span><span class="sxs-lookup"><span data-stu-id="34146-111">int</span></span></p></td>
-<td><p><span data-ttu-id="34146-112">Primary</span><span class="sxs-lookup"><span data-stu-id="34146-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="34146-113">Уникальный номер кодека.</span><span class="sxs-lookup"><span data-stu-id="34146-113">Unique number identifying the Codec.</span></span></p></td>
+<td><p><span data-ttu-id="e750f-110"><strong>пайлоаддескриптионкэй</strong></span><span class="sxs-lookup"><span data-stu-id="e750f-110"><strong>PayloadDescriptionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="e750f-111">int</span><span class="sxs-lookup"><span data-stu-id="e750f-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e750f-112">Primary</span><span class="sxs-lookup"><span data-stu-id="e750f-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e750f-113">Уникальный номер, обозначающий кодек.</span><span class="sxs-lookup"><span data-stu-id="e750f-113">Unique number identifying the Codec.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="34146-114"><strong>PayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="34146-114"><strong>PayloadDescription</strong></span></span></p></td>
-<td><p><span data-ttu-id="34146-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="34146-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="34146-116">Повторя</span><span class="sxs-lookup"><span data-stu-id="34146-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="34146-117">Имя кодека.</span><span class="sxs-lookup"><span data-stu-id="34146-117">Codec name.</span></span></p></td>
+<td><p><span data-ttu-id="e750f-114"><strong>Таблица payloaddescription</strong></span><span class="sxs-lookup"><span data-stu-id="e750f-114"><strong>PayloadDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="e750f-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e750f-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e750f-116">Уникальные</span><span class="sxs-lookup"><span data-stu-id="e750f-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="e750f-117">Имя кодека.</span><span class="sxs-lookup"><span data-stu-id="e750f-117">Codec name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

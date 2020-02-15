@@ -12,20 +12,20 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69c63e710463a37eecbb7d20edbe5999d0fbb55f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6061f04875d15f163bfb91d8803c488467cadb6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757023"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="f9905-102">Диагностический отчет на Конференции в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f9905-102">Conference Diagnostic Report in Lync Server 2013</span></span>
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="0d5f2-102">Диагностический отчет по конференциям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d5f2-102">Conference Diagnostic Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757023"
 
 <span> </span>
 
-<span data-ttu-id="f9905-103">_**Тема последнего изменения:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="f9905-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="0d5f2-103">_**Последнее изменение темы:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="0d5f2-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="f9905-104">Диагностический отчет о конференц-связи содержит сведения об успешности или сбое всех сеансов конференц-связи.</span><span class="sxs-lookup"><span data-stu-id="f9905-104">The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions.</span></span> <span data-ttu-id="f9905-105">Обратите внимание, что в Microsoft Lync Server различаются различные типы сбоев.</span><span class="sxs-lookup"><span data-stu-id="f9905-105">Note that Microsoft Lync Server distinguishes between different kinds of failure:</span></span>
+<span data-ttu-id="0d5f2-p101">Диагностический отчет по конференциям содержит сведения об успешности или сбое всех сеансов конференц-связи. Обратите внимание на то, что Microsoft Lync Server различает несколько видов сбоев:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p101">The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions. Note that Microsoft Lync Server distinguishes between different kinds of failure:</span></span>
 
-  - <span data-ttu-id="f9905-p102">**Ожидаемый сбой**. Ожидаемый сбой можно назвать сбоем исключительно с технической точки зрения. Например, предположим, что кто-то запускает конференцию, но вешает трубку прежде, чем другие пользователи могут присоединиться к этой конференции. С технической точки зрения это сбой ? конференция была инициализирована, но не завершена. Однако это сбой, которого можно было ожидать: если организатор отменяет конференцию до присоединения других пользователей, ожидать завершения конференции нельзя.</span><span class="sxs-lookup"><span data-stu-id="f9905-p102">**Expected failure**. An expected failure is typically a failure only in the most technical sense. For example, suppose someone starts a conference but hangs up before anyone can join. Technically that's a failure: the conference was initiated, but not completed. However, that's a failure that you would expect to happen: if the organizer cancels the conference before anyone can join then you would not expect that conference to be completed.</span></span>
+  - <span data-ttu-id="0d5f2-p102">**Ожидаемый сбой**. Ожидаемый сбой можно назвать сбоем исключительно с технической точки зрения. Например, предположим, что кто-то запускает конференцию, но вешает трубку прежде, чем другие пользователи могут присоединиться к этой конференции. С технической точки зрения это сбой ? конференция была инициализирована, но не завершена. Однако это сбой, которого можно было ожидать: если организатор отменяет конференцию до присоединения других пользователей, ожидать завершения конференции нельзя.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p102">**Expected failure**. An expected failure is typically a failure only in the most technical sense. For example, suppose someone starts a conference but hangs up before anyone can join. Technically that's a failure: the conference was initiated, but not completed. However, that's a failure that you would expect to happen: if the organizer cancels the conference before anyone can join then you would not expect that conference to be completed.</span></span>
 
-  - <span data-ttu-id="f9905-p103">**Неожиданный сбой**. Неожиданный сбой полностью соответствует своему названию ? это ошибка, возникновение которой вы в данных обстоятельствах не ожидали. Например, предположим, что конференцию нельзя провести, так как не удается получить политику собраний организатора. Это неожиданная ошибка: возможность получения политики собраний организатора должна быть доступна всегда.</span><span class="sxs-lookup"><span data-stu-id="f9905-p103">**Unexpected failure**. An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur. For example, suppose a conference could not be held because the organizer's meeting policy could not be retrieved. That's an unexpected error: after all, you should always be able to retrieve a user's meeting policy.</span></span>
+  - <span data-ttu-id="0d5f2-p103">**Неожиданный сбой**. Неожиданный сбой полностью соответствует своему названию ? это ошибка, возникновение которой вы в данных обстоятельствах не ожидали. Например, предположим, что конференцию нельзя провести, так как не удается получить политику собраний организатора. Это неожиданная ошибка: возможность получения политики собраний организатора должна быть доступна всегда.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p103">**Unexpected failure**. An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur. For example, suppose a conference could not be held because the organizer's meeting policy could not be retrieved. That's an unexpected error: after all, you should always be able to retrieve a user's meeting policy.</span></span>
 
-<span data-ttu-id="f9905-p104">Обратите внимание на то, что метрики успешного выполнения, ожидаемого сбоя и неожиданного сбоя могут не учитываться в метрике итогового числа сеансов. Например, вы можете увидеть в отчете следующие значения:</span><span class="sxs-lookup"><span data-stu-id="f9905-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, you might see the following values in the Report:</span></span>
+<span data-ttu-id="0d5f2-p104">Обратите внимание на то, что метрики успешного выполнения, ожидаемого сбоя и неожиданного сбоя могут не учитываться в метрике итогового числа сеансов. Например, вы можете увидеть в отчете следующие значения:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, you might see the following values in the Report:</span></span>
 
 
 <table>
@@ -55,54 +55,54 @@ ms.locfileid: "41757023"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f9905-117">Число успешных выполнений</span><span class="sxs-lookup"><span data-stu-id="f9905-117">Successes</span></span></th>
-<th><span data-ttu-id="f9905-118">Число ожидаемых сбоев</span><span class="sxs-lookup"><span data-stu-id="f9905-118">Expected failures</span></span></th>
-<th><span data-ttu-id="f9905-119">Число неожиданных сбоев</span><span class="sxs-lookup"><span data-stu-id="f9905-119">Unexpected failures</span></span></th>
-<th><span data-ttu-id="f9905-120">Всего сеансов</span><span class="sxs-lookup"><span data-stu-id="f9905-120">Total sessions</span></span></th>
+<th><span data-ttu-id="0d5f2-117">Успешные операции</span><span class="sxs-lookup"><span data-stu-id="0d5f2-117">Successes</span></span></th>
+<th><span data-ttu-id="0d5f2-118">Число ожидаемых сбоев</span><span class="sxs-lookup"><span data-stu-id="0d5f2-118">Expected failures</span></span></th>
+<th><span data-ttu-id="0d5f2-119">Число неожиданных сбоев</span><span class="sxs-lookup"><span data-stu-id="0d5f2-119">Unexpected failures</span></span></th>
+<th><span data-ttu-id="0d5f2-120">Всего сеансов</span><span class="sxs-lookup"><span data-stu-id="0d5f2-120">Total sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-121">2024</span><span class="sxs-lookup"><span data-stu-id="f9905-121">2024</span></span></p></td>
-<td><p><span data-ttu-id="f9905-122">469</span><span class="sxs-lookup"><span data-stu-id="f9905-122">469</span></span></p></td>
-<td><p><span data-ttu-id="f9905-123">шестнадцат</span><span class="sxs-lookup"><span data-stu-id="f9905-123">16</span></span></p></td>
-<td><p><span data-ttu-id="f9905-124">2521</span><span class="sxs-lookup"><span data-stu-id="f9905-124">2521</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-121">2024</span><span class="sxs-lookup"><span data-stu-id="0d5f2-121">2024</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-122">469</span><span class="sxs-lookup"><span data-stu-id="0d5f2-122">469</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-123">16 </span><span class="sxs-lookup"><span data-stu-id="0d5f2-123">16</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-124">2521</span><span class="sxs-lookup"><span data-stu-id="0d5f2-124">2521</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="f9905-125">Если сложить 2024 + 469 + 16 получается 2509 сеансов, однако в столбце итогового числа сеансов стоит значение 2521.</span><span class="sxs-lookup"><span data-stu-id="f9905-125">If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="f9905-126">Для 12 «отсутствующих» сеансов системе не удалось отнести сеанс к категории успешных или неуспешных.</span><span class="sxs-lookup"><span data-stu-id="f9905-126">The "missing" 12 sessions for are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="f9905-127">Это иногда является случайом, когда сторонний продукт представляет новый диагностический код, незнакомый с сервером мониторинга.</span><span class="sxs-lookup"><span data-stu-id="f9905-127">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Monitoring Server.</span></span> <span data-ttu-id="f9905-128">В этом случае звонки, выполненные с использованием этого продукта и отчетность по этому диагностическому коду не всегда можно отнести к категории успешного выполнения, ожидаемого сбоя или неожиданного сбоя.</span><span class="sxs-lookup"><span data-stu-id="f9905-128">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
+<span data-ttu-id="0d5f2-125">Если сложить 2024 + 469 + 16 получается 2509 сеансов, однако в столбце итогового числа сеансов стоит значение 2521.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-125">If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="0d5f2-126">Для 12 «отсутствующих» сеансов системе не удалось отнести сеанс к категории успешных или неуспешных.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-126">The "missing" 12 sessions for are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="0d5f2-127">Это иногда происходит, когда сторонний продукт представляет новый диагностический код, незнакомый с сервером мониторинга.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-127">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Monitoring Server.</span></span> <span data-ttu-id="0d5f2-128">В этом случае звонки, выполненные с использованием этого продукта и отчетность по этому диагностическому коду не всегда можно отнести к категории успешного выполнения, ожидаемого сбоя или неожиданного сбоя.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-128">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-diagnostic-report"></a><span data-ttu-id="f9905-129">Доступ к диагностическому отчету по конференциям</span><span class="sxs-lookup"><span data-stu-id="f9905-129">Accessing the Conference Diagnostic Report</span></span>
+## <a name="accessing-the-conference-diagnostic-report"></a><span data-ttu-id="0d5f2-129">Доступ к диагностическому отчету по конференциям</span><span class="sxs-lookup"><span data-stu-id="0d5f2-129">Accessing the Conference Diagnostic Report</span></span>
 
-<span data-ttu-id="f9905-130">Доступ к диагностическому отчету по конференциям осуществляется с домашней страницы отчетов мониторинга.</span><span class="sxs-lookup"><span data-stu-id="f9905-130">The Conference Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="f9905-131">Вы можете получить доступ к [отчету о распределении отказов в Lync Server 2013](lync-server-2013-failure-distribution-report.md) , выбрав один из указанных ниже метрик.</span><span class="sxs-lookup"><span data-stu-id="f9905-131">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="0d5f2-130">Доступ к  диагностическому отчету по конференциям осуществляется с домашней страницы отчетов мониторинга.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-130">The Conference Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="0d5f2-131">Вы можете получить доступ к [отчету распределения сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md) , щелкнув один из следующих показателей:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-131">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="f9905-132">Unexpected failure volume (Объем неожиданных сбоев)</span><span class="sxs-lookup"><span data-stu-id="f9905-132">Unexpected failure volume</span></span>
+  - <span data-ttu-id="0d5f2-132">Unexpected failure volume (Неожиданный сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-132">Unexpected failure volume</span></span>
 
-  - <span data-ttu-id="f9905-133">Expected failure volume (Ожидаемый сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="f9905-133">Expected failure volume</span></span>
+  - <span data-ttu-id="0d5f2-133">Expected failure volume (Ожидаемый сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-133">Expected failure volume</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a><span data-ttu-id="f9905-134">Эффективное использование диагностического отчета по конференциям</span><span class="sxs-lookup"><span data-stu-id="f9905-134">Making the Best Use of the Conference Diagnostic Report</span></span>
+## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a><span data-ttu-id="0d5f2-134">Эффективное использование диагностического отчета по конференциям</span><span class="sxs-lookup"><span data-stu-id="0d5f2-134">Making the Best Use of the Conference Diagnostic Report</span></span>
 
-<span data-ttu-id="f9905-135">В отчете диагностика Конференции есть ряд диаграмм.</span><span class="sxs-lookup"><span data-stu-id="f9905-135">The Conference Diagnostic Report includes a series of graphs.</span></span> <span data-ttu-id="f9905-136">Каждый столбец, показанный на диаграмме, действительно является гиперссылкой.</span><span class="sxs-lookup"><span data-stu-id="f9905-136">Each of the columns shown in the graph is actually a hyperlink.</span></span> <span data-ttu-id="f9905-137">Если щелкнуть столбец, в Lync Server 2013 в течение этого периода времени и типа конференции будет детально рассмотрен [отчет о распределении отказов](lync-server-2013-failure-distribution-report.md) .</span><span class="sxs-lookup"><span data-stu-id="f9905-137">If you click a column, you'll drill down to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) for that time period and that conference type.</span></span>
+<span data-ttu-id="0d5f2-135">Диагностический отчет по Конференции содержит ряд графиков.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-135">The Conference Diagnostic Report includes a series of graphs.</span></span> <span data-ttu-id="0d5f2-136">Все столбцы, показанные на графике, фактически являются гиперссылкой.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-136">Each of the columns shown in the graph is actually a hyperlink.</span></span> <span data-ttu-id="0d5f2-137">Если щелкнуть столбец, вы получите подробные сведения [об отчете о распределении сбоев в Lync Server 2013](lync-server-2013-failure-distribution-report.md) для этого периода времени и типа конференции.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-137">If you click a column, you'll drill down to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) for that time period and that conference type.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="f9905-138">Фильтры</span><span class="sxs-lookup"><span data-stu-id="f9905-138">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="0d5f2-138">Фильтры</span><span class="sxs-lookup"><span data-stu-id="0d5f2-138">Filters</span></span>
 
-<span data-ttu-id="f9905-p108">Фильтры позволяют вам возвратить уточненный набор данных или просматривать возвращенные данные различными способами. Например, диагностический отчет по конференциям позволяет вам выполнять фильтрацию по таким условиям, как тип проводимой конференции (например, конференция Focus) или используемый для конференции пограничный сервер. Вы также можете определить группировку данных. В данном случае конференции группируются по часу, дню, неделе или месяцу.</span><span class="sxs-lookup"><span data-stu-id="f9905-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Diagnostic Report enables you to filter on such things as the type of conference being conducted (for example, a Focus-based conference) or by the Edge Server used in the conference. You can also choose how data should be grouped. In this case, conferences are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="0d5f2-p108">Фильтры позволяют вам возвратить уточненный набор данных или просматривать возвращенные данные различными способами. Например, диагностический отчет по конференциям позволяет вам выполнять фильтрацию по таким условиям, как тип проводимой конференции (например, конференция Focus) или используемый для конференции пограничный сервер. Вы также можете определить группировку данных. В данном случае конференции группируются по часу, дню, неделе или месяцу.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Conference Diagnostic Report enables you to filter on such things as the type of conference being conducted (for example, a Focus-based conference) or by the Edge Server used in the conference. You can also choose how data should be grouped. In this case, conferences are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="f9905-143">В следующей таблице перечислены фильтры, которые вы можете использовать в диагностическом отчете по конференциям.</span><span class="sxs-lookup"><span data-stu-id="f9905-143">The following table lists the filters that you can use with the Conference Diagnostic Report.</span></span>
+<span data-ttu-id="0d5f2-143">В следующей таблице перечислены фильтры, которые вы можете использовать в диагностическом отчете по конференциям.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-143">The following table lists the filters that you can use with the Conference Diagnostic Report.</span></span>
 
-### <a name="conference-diagnostic-report-filters"></a><span data-ttu-id="f9905-144">Фильтры диагностического отчета по конференциям</span><span class="sxs-lookup"><span data-stu-id="f9905-144">Conference Diagnostic Report Filters</span></span>
+### <a name="conference-diagnostic-report-filters"></a><span data-ttu-id="0d5f2-144">Фильтры диагностического отчета по конференциям</span><span class="sxs-lookup"><span data-stu-id="0d5f2-144">Conference Diagnostic Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -111,56 +111,56 @@ ms.locfileid: "41757023"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f9905-145">Имя</span><span class="sxs-lookup"><span data-stu-id="f9905-145">Name</span></span></th>
-<th><span data-ttu-id="f9905-146">Описание</span><span class="sxs-lookup"><span data-stu-id="f9905-146">Description</span></span></th>
+<th><span data-ttu-id="0d5f2-145">Имя</span><span class="sxs-lookup"><span data-stu-id="0d5f2-145">Name</span></span></th>
+<th><span data-ttu-id="0d5f2-146">Описание</span><span class="sxs-lookup"><span data-stu-id="0d5f2-146">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-147"><strong>От</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-147"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-p109">Начальные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите начальные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="f9905-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="f9905-150">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="f9905-150">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="f9905-p110">Если вы не вводите начальное время, отчет автоматически начинается с 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="f9905-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="f9905-153">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="f9905-153">7/7/2012</span></span></p>
-<p><span data-ttu-id="f9905-154">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="f9905-154">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="f9905-155">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="f9905-155">7/3/2012</span></span></p>
-<p><span data-ttu-id="f9905-156">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="f9905-156">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-147"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="0d5f2-147"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p109">Дата и время начала диапазона. Чтобы просмотреть данные по часам, введите дату и время начала в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="0d5f2-150">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0d5f2-150">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="0d5f2-p110">Если не указать время начала, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="0d5f2-153">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="0d5f2-153">7/7/2012</span></span></p>
+<p><span data-ttu-id="0d5f2-154">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="0d5f2-154">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="0d5f2-155">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="0d5f2-155">7/3/2012</span></span></p>
+<p><span data-ttu-id="0d5f2-156">Недели всегда начинаются с Воскресенья и заканчиваются в Субботу.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-156">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9905-157"><strong>До</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-157"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-p111">Конечные дата/время для временного диапазона. Чтобы просмотреть данные по часам, введите конечные дату и время следующим образом:</span><span class="sxs-lookup"><span data-stu-id="f9905-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="f9905-160">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="f9905-160">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="f9905-p112">Если вы не вводите конечное время, отчет автоматически заканчивается в 12:00 AM указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="f9905-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="f9905-163">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="f9905-163">7/7/2012</span></span></p>
-<p><span data-ttu-id="f9905-164">Чтобы просмотреть данные за неделю или месяц, введите дату, выпадающую на любое время в рамках недели или месяца, которые вы хотите просмотреть (вам не требуется вводить первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="f9905-164">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="f9905-165">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="f9905-165">7/3/2012</span></span></p>
-<p><span data-ttu-id="f9905-166">Недели всегда отсчитываются с воскресенья по субботу.</span><span class="sxs-lookup"><span data-stu-id="f9905-166">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-157"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="0d5f2-157"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p111">Дата и время окончания диапазона. Чтобы просмотреть данные по часам, введите дату и время окончания в следующем формате:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="0d5f2-160">7/7/2012 13:00.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-160">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="0d5f2-p112">Если не указать время окончания, автоматически будет выбрано время 00:00 указанного дня. Чтобы просмотреть данные по дням, просто введите дату:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="0d5f2-163">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="0d5f2-163">7/7/2012</span></span></p>
+<p><span data-ttu-id="0d5f2-164">Для просмотра по неделям или по месяцам введите дату, выпадающую на любой день недели или месяца, который вы хотите просмотреть (это необязательно должен быть первый день недели или месяца):</span><span class="sxs-lookup"><span data-stu-id="0d5f2-164">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="0d5f2-165">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="0d5f2-165">7/3/2012</span></span></p>
+<p><span data-ttu-id="0d5f2-166">Неделя всегда начинается с воскресения и заканчивается субботой.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-166">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-167"><strong>Интервал</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-167"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-p113">Временной интервал. Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="f9905-p113">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="0d5f2-167"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="0d5f2-167"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p113">Временной интервал. Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p113">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f9905-170">Ежечасно (можно отобразить не более 25 часов)</span><span class="sxs-lookup"><span data-stu-id="f9905-170">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="f9905-171">Ежедневно (можно отобразить не более 31 дня)</span><span class="sxs-lookup"><span data-stu-id="f9905-171">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="f9905-172">Еженедельно (можно отобразить не более 12 недель)</span><span class="sxs-lookup"><span data-stu-id="f9905-172">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="f9905-173">Ежемесячно (можно отобразить не более 12 месяцев)</span><span class="sxs-lookup"><span data-stu-id="f9905-173">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-170">Ежечасно (может отображаться до 25 часов)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-170">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-171">Ежедневно (может отображаться до 31 дня)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-171">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-172">Еженедельно (может отображаться до 12 недель)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-172">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-173">Ежемесячно (может отображаться до 12 месяцев)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-173">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="f9905-174">Если количество значений между начальной и конечной датами превышает максимально допустимое для выбранного интервала, отображается максимальное возможное количество значений (от начальной даты и далее).</span><span class="sxs-lookup"><span data-stu-id="f9905-174">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed.</span></span> <span data-ttu-id="f9905-175">Например, если выбрать ежедневный интервал с датой начала 7/7/2012 и датой окончания 2/28/2012, данные будут выводиться для дней 8/7/2012 12:00 – 9/7/2012 12:00 AM (то есть, всего за 31 дня).</span><span class="sxs-lookup"><span data-stu-id="f9905-175">For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="0d5f2-p114">Если начальная и конечная даты превышают максимально допустимое количество значений для выбранного интервала, отображается только максимальное число значений (с отсчетом от начальной даты). Например, если вы выбрали интервал «Daily» с начальной датой 7/7/2012 и конечной датой 2/28/2012, отображаются данные по дням с 00:00 часов 8/7/2012  по 00:00 часов 9/7/2012 (то есть всего за 31 день).</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9905-176"><strong>Пул</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-176"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-p115">Полное доменное имя пула регистратора или пограничного сервера. Можно выбрать отдельный пул или нажать <strong>[Все]</strong>, чтобы просмотреть данные для всех пулов. Этот раскрывающийся список автоматически заполняется на основе записей в базе данных.</span><span class="sxs-lookup"><span data-stu-id="f9905-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-176"><strong>Ресурсов</strong></span><span class="sxs-lookup"><span data-stu-id="0d5f2-176"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p115">Полное доменное имя пула регистратора или пограничного сервера. Можно выбрать отдельный пул или щелкнуть <strong>[Все]</strong>, чтобы просмотреть данные для всех пулов. Этот раскрывающийся список заполняется автоматически на основе записей в базе данных.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-180"><strong>Сеансы конференц-связи</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-180"><strong>Conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-p116">Указывает тип сеанса конференц-связи. Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="f9905-p116">Indicates the type of conferencing session. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="0d5f2-180"><strong>Conference sessions</strong> (Сеансы конференций)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-180"><strong>Conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p116">Указывает тип сеанса конференц-связи. Выберите одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p116">Indicates the type of conferencing session. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="f9905-183">[All] (Все)</span><span class="sxs-lookup"><span data-stu-id="f9905-183">[All]</span></span></p></li>
-<li><p><span data-ttu-id="f9905-184">Сеансы центра конференций</span><span class="sxs-lookup"><span data-stu-id="f9905-184">Focus sessions</span></span></p></li>
-<li><p><span data-ttu-id="f9905-185">All MCU sessions (Все сеансы MCU)</span><span class="sxs-lookup"><span data-stu-id="f9905-185">All MCU sessions</span></span></p></li>
-<li><p><span data-ttu-id="f9905-186">IM conferencing (Конференции с обменом мгновенными сообщениями)</span><span class="sxs-lookup"><span data-stu-id="f9905-186">IM conferencing</span></span></p></li>
-<li><p><span data-ttu-id="f9905-187">Общий доступ к приложениям</span><span class="sxs-lookup"><span data-stu-id="f9905-187">Application sharing</span></span></p></li>
-<li><p><span data-ttu-id="f9905-188">A/V conferencing (Аудио- и видеоконференции)</span><span class="sxs-lookup"><span data-stu-id="f9905-188">A/V conferencing</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-183">Ко</span><span class="sxs-lookup"><span data-stu-id="0d5f2-183">[All]</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-184">Focus sessions (Сеансы Focus)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-184">Focus sessions</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-185">All MCU sessions (Все сеансы MCU)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-185">All MCU sessions</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-186">IM conferencing (Конференции с обменом мгновенными сообщениями)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-186">IM conferencing</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-187">Application sharing (Общий доступ к приложениям)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-187">Application sharing</span></span></p></li>
+<li><p><span data-ttu-id="0d5f2-188">A/V conferencing (Аудио- и видеоконференции)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-188">A/V conferencing</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -171,11 +171,11 @@ ms.locfileid: "41757023"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="f9905-189">Показатели</span><span class="sxs-lookup"><span data-stu-id="f9905-189">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="0d5f2-189">Метрик</span><span class="sxs-lookup"><span data-stu-id="0d5f2-189">Metrics</span></span>
 
-<span data-ttu-id="f9905-190">В следующей таблице перечислены сведения, представленные в диагностическом отчете по конференциям.</span><span class="sxs-lookup"><span data-stu-id="f9905-190">The following table lists the information provided in the Conference Diagnostic Report for each type of conferencing session.</span></span>
+<span data-ttu-id="0d5f2-190">В следующей таблице перечислены сведения, представленные в диагностическом отчете по конференциям.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-190">The following table lists the information provided in the Conference Diagnostic Report for each type of conferencing session.</span></span>
 
-### <a name="conference-diagnostic-report-metrics"></a><span data-ttu-id="f9905-191">Метрики диагностического отчета по конференциям</span><span class="sxs-lookup"><span data-stu-id="f9905-191">Conference Diagnostic Report Metrics</span></span>
+### <a name="conference-diagnostic-report-metrics"></a><span data-ttu-id="0d5f2-191">Метрики диагностического отчета по конференциям</span><span class="sxs-lookup"><span data-stu-id="0d5f2-191">Conference Diagnostic Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -185,48 +185,48 @@ ms.locfileid: "41757023"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f9905-192">Имя</span><span class="sxs-lookup"><span data-stu-id="f9905-192">Name</span></span></th>
-<th><span data-ttu-id="f9905-193">Поддержка сортировки</span><span class="sxs-lookup"><span data-stu-id="f9905-193">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="f9905-194">Описание</span><span class="sxs-lookup"><span data-stu-id="f9905-194">Description</span></span></th>
+<th><span data-ttu-id="0d5f2-192">Имя</span><span class="sxs-lookup"><span data-stu-id="0d5f2-192">Name</span></span></th>
+<th><span data-ttu-id="0d5f2-193">Возможность сортировки по этому показателю</span><span class="sxs-lookup"><span data-stu-id="0d5f2-193">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="0d5f2-194">Описание</span><span class="sxs-lookup"><span data-stu-id="0d5f2-194">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-195"><strong>Success volume (Объем успешной связи)</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-195"><strong>Success volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-196">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-196">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-197">Общее число успешных конференций.</span><span class="sxs-lookup"><span data-stu-id="f9905-197">Total number of successful conferences.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-195"><strong>Success volume</strong> (Успех, объем)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-195"><strong>Success volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-196">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-196">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-197">Общее число успешных конференций.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-197">Total number of successful conferences.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9905-198"><strong>Доля успешной связи</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-198"><strong>Success percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-199">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-199">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-p117">Процентное отношение конференций, которые были завершены со значительными проблемами. Значение вычисляется путем деления значения «Success volume» (Успех, процент) на значение «Total sessions» (Всего сеансов).</span><span class="sxs-lookup"><span data-stu-id="f9905-p117">Percentage of conferences that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-198"><strong>Success percentage</strong> (Успех, процент)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-198"><strong>Success percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-199">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-199">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p117">Процентное отношение конференций, которые были завершены со значительными проблемами. Значение вычисляется путем деления значения «Success volume» (Успех, процент) на значение «Total sessions» (Всего сеансов).</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p117">Percentage of conferences that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-202"><strong>Unexpected failure volume (Объем неожиданных сбоев)</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-202"><strong>Expected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-203">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-203">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-204">Общее количество конференций, в &quot;которых произошла&quot; ожидаемая ошибка.</span><span class="sxs-lookup"><span data-stu-id="f9905-204">Total number of conferences where an &quot;expected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="f9905-p118">Ожидаемый сбой ? это сбой, возникновение которого ожидаемо. Например, если пользователь задал для себя состояние «Не беспокоить», можно ожидать, что любой звонок этому пользователю будет неудачным.</span><span class="sxs-lookup"><span data-stu-id="f9905-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-202"><strong>Expected failure volume</strong> (Ожидаемый сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-202"><strong>Expected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-203">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-203">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-204">Общее количество конференций, в &quot;которых возник ожидаемый сбой.&quot;</span><span class="sxs-lookup"><span data-stu-id="0d5f2-204">Total number of conferences where an &quot;expected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="0d5f2-p118">Ожидаемый сбой ? это сбой, возникновение которого ожидаемо. Например, если пользователь задал для себя состояние «Не беспокоить», можно ожидать, что любой звонок этому пользователю будет неудачным.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9905-207"><strong>Expected failure percentage (Доля ожидаемых сбоев)</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-207"><strong>Expected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-208">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-208">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-p119">Процентное отношение конференций, для которых возник ожидаемый сбой. Значение вычисляется путем деления значения «Expected failure volume» (Ожидаемый сбой, объем) на значение «Total sessions» (Всего сеансов).</span><span class="sxs-lookup"><span data-stu-id="f9905-p119">Percentage of conferences that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-207"><strong>Expected failure percentage</strong> (Ожидаемый сбой, процент)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-207"><strong>Expected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-208">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-208">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p119">Процентное отношение конференций, для которых возник ожидаемый сбой. Значение вычисляется путем деления значения «Expected failure volume» (Ожидаемый сбой, объем) на значение «Total sessions» (Всего сеансов).</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p119">Percentage of conferences that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-211"><strong>Unexpected failure volume (Объем неожиданных сбоев)</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-211"><strong>Unexpected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-212">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-212">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-213">Общее количество конференций, в &quot;которых произошла&quot; непредвиденная ошибка.</span><span class="sxs-lookup"><span data-stu-id="f9905-213">Total number of conferences where an &quot;unexpected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="f9905-p120">Неожиданный сбой ? это событие, которое в других условиях считалось бы нормальной работой системы. Например, звонок не следует завершать, если звонящий переведен в режим удержания. Если такое произошло, данное событие будет обозначено как неожиданный сбой.</span><span class="sxs-lookup"><span data-stu-id="f9905-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-211"><strong>Unexpected failure volume</strong> (Неожиданный сбой, объем)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-211"><strong>Unexpected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-212">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-212">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-213">Общее количество конференций, в &quot;которых произошла&quot; непредвиденная ошибка.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-213">Total number of conferences where an &quot;unexpected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="0d5f2-p120">Неожиданный сбой ? это событие, которое в других условиях считалось бы нормальной работой системы. Например, звонок не следует завершать, если звонящий переведен в режим удержания. Если такое произошло, данное событие будет обозначено как неожиданный сбой.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f9905-217"><strong>Unexpected failure percentage (Доля неожиданных сбоев)</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-217"><strong>Unexpected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-218">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-218">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-p121">Процентное отношение конференций, для которых возник неожиданный сбой. Значение вычисляется путем деления значения «Unexpected failure volume» (Неожиданный сбой, объем) на значение «Total sessions» (Всего сеансов).</span><span class="sxs-lookup"><span data-stu-id="f9905-p121">Percentage of conferences that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-217"><strong>Unexpected failure percentage</strong> (Неожиданный сбой, процент)</span><span class="sxs-lookup"><span data-stu-id="0d5f2-217"><strong>Unexpected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-218">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-218">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-p121">Процентное отношение конференций, для которых возник неожиданный сбой. Значение вычисляется путем деления значения «Unexpected failure volume» (Неожиданный сбой, объем) на значение «Total sessions» (Всего сеансов).</span><span class="sxs-lookup"><span data-stu-id="0d5f2-p121">Percentage of conferences that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f9905-221"><strong>Всего сеансов</strong></span><span class="sxs-lookup"><span data-stu-id="f9905-221"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="f9905-222">Нет</span><span class="sxs-lookup"><span data-stu-id="f9905-222">No</span></span></p></td>
-<td><p><span data-ttu-id="f9905-223">Общее число конференций, включая успешные конференции, неуспешные (как с ожидаемыми, так и с неожиданными сбоями) конференции и конференции, не отнесенные ни к одной из категорий.</span><span class="sxs-lookup"><span data-stu-id="f9905-223">Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-221"><strong> Всего сеансов </strong></span><span class="sxs-lookup"><span data-stu-id="0d5f2-221"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-222">Нет</span><span class="sxs-lookup"><span data-stu-id="0d5f2-222">No</span></span></p></td>
+<td><p><span data-ttu-id="0d5f2-223">Общее число конференций, включая успешные конференции, неуспешные (как с ожидаемыми, так и с неожиданными сбоями) конференции и конференции, не отнесенные ни к одной из категорий.</span><span class="sxs-lookup"><span data-stu-id="0d5f2-223">Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.</span></span></p></td>
 </tr>
 </tbody>
 </table>

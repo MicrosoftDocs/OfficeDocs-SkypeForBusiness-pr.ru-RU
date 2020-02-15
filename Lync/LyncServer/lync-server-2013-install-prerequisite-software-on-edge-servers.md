@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: установка необходимого программного обеспечения на пограничных серверах'
+title: 'Lync Server 2013: Установка необходимого программного обеспечения на пограничных серверах'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308459789de6ecbd153b66ef160e4a129223e1d1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5086c841f52a83c925367f3a4accfdf5326317a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763703"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a><span data-ttu-id="0f757-102">Установка необходимого программного обеспечения на пограничных серверах для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f757-102">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>
+# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a><span data-ttu-id="850c1-102">Установка необходимого программного обеспечения на пограничных серверах для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="850c1-102">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763703"
 
 <span> </span>
 
-<span data-ttu-id="0f757-103">_**Тема последнего изменения:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="0f757-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="850c1-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="850c1-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="0f757-104">Вам необходимо развернуть необходимое программное обеспечение на каждом пограничном сервере, который развертывается перед установкой Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0f757-104">You need to deploy prerequisite software on each Edge Server that you deploy prior to installing Lync Server 2013.</span></span> <span data-ttu-id="0f757-105">Сюда входит установка операционной системы на сервер, удовлетворяющий требованиям к системе.</span><span class="sxs-lookup"><span data-stu-id="0f757-105">This includes installing the operating system on a server that meets system requirements.</span></span> <span data-ttu-id="0f757-106">Сведения о требованиях к системе, включая поддерживаемые операционные системы, приведены в разделе [требования к системе для внешних компонентов доступа пользователей для Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span><span class="sxs-lookup"><span data-stu-id="0f757-106">For details about system requirements, including the supported operating systems, see [System requirements for external user access components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span></span>
+<span data-ttu-id="850c1-104">Необходимо развернуть необходимое программное обеспечение на каждом пограничном сервере, который развертывается до установки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="850c1-104">You need to deploy prerequisite software on each Edge Server that you deploy prior to installing Lync Server 2013.</span></span> <span data-ttu-id="850c1-105">В частности, потребуется установить операционную систему на сервере, соответствующем требованиям к системе.</span><span class="sxs-lookup"><span data-stu-id="850c1-105">This includes installing the operating system on a server that meets system requirements.</span></span> <span data-ttu-id="850c1-106">Сведения о требованиях к системе, включая поддерживаемые операционные системы, приведены в разделе [требования к системе для компонентов доступа внешних пользователей для Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span><span class="sxs-lookup"><span data-stu-id="850c1-106">For details about system requirements, including the supported operating systems, see [System requirements for external user access components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).</span></span>
 
 </div>
 

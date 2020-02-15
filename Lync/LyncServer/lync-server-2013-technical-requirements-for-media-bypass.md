@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: технические требования для сервера-посредника'
+title: 'Lync Server 2013: технические требования для обхода сервера мультимедиа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad3ea630a173d0925defcd476e6269b7e14e96e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b962905870287ef6765ecb6e7ee9b3e321ac6a8e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746550"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="7e20b-102">Технические требования для сервера-посредника в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e20b-102">Technical requirements for media bypass in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="48500-102">Технические требования для обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48500-102">Technical requirements for media bypass in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746550"
 
 <span> </span>
 
-<span data-ttu-id="7e20b-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7e20b-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="48500-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="48500-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="7e20b-104">Для каждого звонка в КТСОП сервер-посредник определяет, можно ли отправлять носители из конечной точки Lync непосредственно на сервер-посредника, не передавая его на сервер.</span><span class="sxs-lookup"><span data-stu-id="7e20b-104">For each call to the PSTN, the Mediation Server determines whether media from the Lync endpoint of origin can be sent directly to a Mediation Server peer without traversing the Mediation Server.</span></span> <span data-ttu-id="7e20b-105">Узлом партнера может являться шлюз ТСОП, УАТС или пограничный контроллер поставщика услуг интернет-телефонии (ITSP), связанного с магистральной линией между сервером-посредником, где маршрутизируется вызов.</span><span class="sxs-lookup"><span data-stu-id="7e20b-105">The peer can be a PSTN gateway, IP-PBX, or Session Border Controller (SBC) at an Internet telephony service provider (ITSP) that is associated with the trunk between the Mediation Server where the call is routed.</span></span>
+<span data-ttu-id="48500-104">Для каждого вызова PSTN сервер-посредник определяет, может ли носитель из исходной конечной точки Lync быть отправлен непосредственно на узел сервера-посредника без обхода сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="48500-104">For each call to the PSTN, the Mediation Server determines whether media from the Lync endpoint of origin can be sent directly to a Mediation Server peer without traversing the Mediation Server.</span></span> <span data-ttu-id="48500-105">Узлом партнера может являться шлюз ТСОП, УАТС или пограничный контроллер поставщика услуг интернет-телефонии (ITSP), связанного с магистральной линией между сервером-посредником, где маршрутизируется вызов.</span><span class="sxs-lookup"><span data-stu-id="48500-105">The peer can be a PSTN gateway, IP-PBX, or Session Border Controller (SBC) at an Internet telephony service provider (ITSP) that is associated with the trunk between the Mediation Server where the call is routed.</span></span>
 
-<span data-ttu-id="7e20b-106">Обход сервера-посредника можно использовать, если удовлетворены следующие требования:</span><span class="sxs-lookup"><span data-stu-id="7e20b-106">Media bypass can be employed when the following requirements are met:</span></span>
+<span data-ttu-id="48500-106">Обход сервера-посредника можно использовать, если удовлетворены следующие требования:</span><span class="sxs-lookup"><span data-stu-id="48500-106">Media bypass can be employed when the following requirements are met:</span></span>
 
-  - <span data-ttu-id="7e20b-107">Одноранговый сервер-посредник должен поддерживать необходимые возможности для пропуска мультимедиа, но важнее всего лишь возможность обработки нескольких разветвленных ответов (называемых ранними диалогами).</span><span class="sxs-lookup"><span data-stu-id="7e20b-107">A Mediation Server peer must support the necessary capabilities for media bypass, the most important being the ability to handle multiple forked responses (known as “early dialogs”).</span></span> <span data-ttu-id="7e20b-108">Обратитесь к производителю шлюза или ITSP, чтобы получить значение максимального количества ранних диалогов, которые могут поддерживать шлюз, PBX или SBC.</span><span class="sxs-lookup"><span data-stu-id="7e20b-108">Contact the manufacturer of your gateway or PBX, or your ITSP, to obtain the value for the maximum number of early dialogs that the gateway, PBX, or SBC can accept.</span></span>
+  - <span data-ttu-id="48500-107">Узел сервера-посредника должен поддерживать необходимые возможности для обхода сервера-посредника, наиболее важным является возможность обработки нескольких разветвленных ответов (называемых ранними диалоговыми средствами).</span><span class="sxs-lookup"><span data-stu-id="48500-107">A Mediation Server peer must support the necessary capabilities for media bypass, the most important being the ability to handle multiple forked responses (known as “early dialogs”).</span></span> <span data-ttu-id="48500-108">Обратитесь к производителю шлюза или ITSP, чтобы получить значение максимального количества ранних диалогов, которые могут поддерживать шлюз, PBX или SBC</span><span class="sxs-lookup"><span data-stu-id="48500-108">Contact the manufacturer of your gateway or PBX, or your ITSP, to obtain the value for the maximum number of early dialogs that the gateway, PBX, or SBC can accept.</span></span>
 
-  - <span data-ttu-id="7e20b-109">Одноранговый сервер должен получать трафик мультимедиа прямо из конечных точек Lync.</span><span class="sxs-lookup"><span data-stu-id="7e20b-109">The Mediation Server peer must accept media traffic directly from Lync endpoints.</span></span> <span data-ttu-id="7e20b-110">Многие Итспс позволяют их SBC получать трафик только от сервера обновлений.</span><span class="sxs-lookup"><span data-stu-id="7e20b-110">Many ITSPs allow their SBC to receive traffic only from the Mediation Server.</span></span> <span data-ttu-id="7e20b-111">Обратитесь к своему ИТСПу, чтобы определить, принимает ли его SBC мультимедийный трафик прямо из конечных точек Lync.</span><span class="sxs-lookup"><span data-stu-id="7e20b-111">Contact your ITSP to determine whether its SBC accepts media traffic directly from Lync endpoints.</span></span>
+  - <span data-ttu-id="48500-109">Узел сервера-посредника должен принимать трафик мультимедиа непосредственно из конечных точек Lync.</span><span class="sxs-lookup"><span data-stu-id="48500-109">The Mediation Server peer must accept media traffic directly from Lync endpoints.</span></span> <span data-ttu-id="48500-110">Многие Итспс позволяют их SBC получать трафик только от сервера-посредника.</span><span class="sxs-lookup"><span data-stu-id="48500-110">Many ITSPs allow their SBC to receive traffic only from the Mediation Server.</span></span> <span data-ttu-id="48500-111">Обратитесь к ITSP, чтобы определить, принимает ли его SBC трафик мультимедиа непосредственно из конечных точек Lync.</span><span class="sxs-lookup"><span data-stu-id="48500-111">Contact your ITSP to determine whether its SBC accepts media traffic directly from Lync endpoints.</span></span>
 
-  - <span data-ttu-id="7e20b-112">Клиенты Lync и одноранговый сервер-посредник должны быть надежно подключены, то есть они размещаются в том же регионе сети или на сайтах сети, которые подключаются к региону по глобальным каналам связи, не имеющим ограничений на пропускную способность.</span><span class="sxs-lookup"><span data-stu-id="7e20b-112">Lync clients and a Mediation Server peer must be well connected, meaning that they are either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints</span></span>
+  - <span data-ttu-id="48500-112">Клиенты Lync и одноранговые серверы-посредники должны быть хорошо подключены, то есть они размещаются в одном регионе сети или на сетевых сайтах, подключающихся к регионам по каналам глобальной сети, не имеющим ограничений пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="48500-112">Lync clients and a Mediation Server peer must be well connected, meaning that they are either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7e20b-113">См. также</span><span class="sxs-lookup"><span data-stu-id="7e20b-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48500-113">См. также</span><span class="sxs-lookup"><span data-stu-id="48500-113">See Also</span></span>
 
 
-[<span data-ttu-id="7e20b-114">Режимы обхода сервера-посредника в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e20b-114">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)  
-[<span data-ttu-id="7e20b-115">Обход сервера-посредника и контроль допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e20b-115">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)  
+[<span data-ttu-id="48500-114">Режимы обхода сервера мультимедиа в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48500-114">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)  
+[<span data-ttu-id="48500-115">Обход сервера мультимедиа и контроль допуска звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48500-115">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)  
   
 
 </div>

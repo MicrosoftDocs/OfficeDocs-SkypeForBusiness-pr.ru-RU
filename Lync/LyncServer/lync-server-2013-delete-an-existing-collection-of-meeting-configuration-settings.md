@@ -1,5 +1,5 @@
 ---
-title: Удаление существующей коллекции параметров конфигурации собрания
+title: Удаление существующей коллекции параметров конфигурации собраний
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96fe774830a8efc6f0cc88a2dd929b3126335b51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dee4aeac6c7fad8b82d2b34fd9d4a51b8984e716
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737419"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="32cab-102">Удаление существующей коллекции параметров конфигурации собрания в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32cab-102">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>
+# <a name="delete-an-existing-collection-of-meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="9ebc4-102">Удаление существующей коллекции параметров конфигурации собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ebc4-102">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41737419"
 
 <span> </span>
 
-<span data-ttu-id="32cab-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="32cab-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="9ebc4-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="9ebc4-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="32cab-104">Вы можете удалить сайт или конфигурацию пользователя.</span><span class="sxs-lookup"><span data-stu-id="32cab-104">You can delete a site or user configuration.</span></span> <span data-ttu-id="32cab-105">Невозможно удалить глобальную конфигурацию.</span><span class="sxs-lookup"><span data-stu-id="32cab-105">The global configuration cannot be removed.</span></span> <span data-ttu-id="32cab-106">При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32cab-106">If you delete the global configuration, it is automatically reset to the default values.</span></span>
+<span data-ttu-id="9ebc4-p101">Можно удалить конфигурацию сайта или пользователя. Глобальную конфигурацию невозможно удалить. При удалении глобальной конфигурации она автоматически восстанавливает значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-p101">You can delete a site or user configuration. The global configuration cannot be removed. If you delete the global configuration, it is automatically reset to the default values.</span></span>
 
 <div>
 
-## <a name="to-delete-a-site-or-user-meeting-configuration"></a><span data-ttu-id="32cab-107">Удаление конфигурации сайта или собрания пользователя</span><span class="sxs-lookup"><span data-stu-id="32cab-107">To delete a site or user meeting configuration</span></span>
+## <a name="to-delete-a-site-or-user-meeting-configuration"></a><span data-ttu-id="9ebc4-107">Удаление конфигурации собрания для сайта или пользователя</span><span class="sxs-lookup"><span data-stu-id="9ebc4-107">To delete a site or user meeting configuration</span></span>
 
-1.  <span data-ttu-id="32cab-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="32cab-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="9ebc4-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="32cab-109">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="32cab-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="32cab-110">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="32cab-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="9ebc4-109">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9ebc4-110">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="9ebc4-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="32cab-111">На панели навигации слева выберите **Конференц** -связь, а затем — **Конфигурация собрания**.</span><span class="sxs-lookup"><span data-stu-id="32cab-111">In the left navigation bar, click **Conferencing** and then click **Meeting Configuration**.</span></span>
+3.  <span data-ttu-id="9ebc4-111">На левой панели навигации щелкните **Conferencing** (Конференц-связь), а затем **Meeting Configuration** (Конфигурация собрания).</span><span class="sxs-lookup"><span data-stu-id="9ebc4-111">In the left navigation bar, click **Conferencing** and then click **Meeting Configuration**.</span></span>
 
-4.  <span data-ttu-id="32cab-112">В списке конфигураций собрания выберите конфигурацию сайта или пула, щелкните **Изменить**, а затем **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="32cab-112">In the list of meeting configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="9ebc4-112">В списке конфигураций собрания выберите конфигурацию сайта или пула, которую необходимо удалить, нажмите кнопку **изменить**, а затем нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-112">In the list of meeting configurations, click the site or pool configuration that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="32cab-113">Удаление параметров конфигурации собраний с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="32cab-113">Removing Meeting Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="9ebc4-113">Удаление параметров конфигурации собраний с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="9ebc4-113">Removing Meeting Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="32cab-114">Параметры собрания можно удалить с помощью Windows PowerShell и командлета Remove-Ксмитингконфигуратион.</span><span class="sxs-lookup"><span data-stu-id="32cab-114">Meeting settings can be deleted by using Windows PowerShell and the Remove-CsMeetingConfiguration cmdlet.</span></span> <span data-ttu-id="32cab-115">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="32cab-115">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="32cab-116">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="32cab-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="9ebc4-114">Параметры собрания можно удалить с помощью Windows PowerShell и командлета Remove – CsMeetingConfiguration.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-114">Meeting settings can be deleted by using Windows PowerShell and the Remove-CsMeetingConfiguration cmdlet.</span></span> <span data-ttu-id="9ebc4-115">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-115">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="9ebc4-116">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="9ebc4-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a><span data-ttu-id="32cab-117">Удаление заданной коллекции параметров конфигурации собрания</span><span class="sxs-lookup"><span data-stu-id="32cab-117">To remove a specified collection of meeting configuration settings</span></span>
+## <a name="to-remove-a-specified-collection-of-meeting-configuration-settings"></a><span data-ttu-id="9ebc4-117">Удаление указанной коллекции параметров конфигурации собраний</span><span class="sxs-lookup"><span data-stu-id="9ebc4-117">To remove a specified collection of meeting configuration settings</span></span>
 
-  - <span data-ttu-id="32cab-118">Эта команда удаляет параметры конфигурации собрания, примененные к сайту Redmond.</span><span class="sxs-lookup"><span data-stu-id="32cab-118">This command removes the meeting configuration settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="9ebc4-118">Эта команда удаляет параметры конфигурации собрания, примененные к сайту Redmond:</span><span class="sxs-lookup"><span data-stu-id="9ebc4-118">This command removes the meeting configuration settings applied to the Redmond site:</span></span>
     
         Remove-CsMeetingConfiguration -Identity "site:Redmond"
 
@@ -71,9 +71,9 @@ ms.locfileid: "41737419"
 
 <div>
 
-## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="32cab-119">Удаление всех параметров конфигурации собрания, примененных к области сайта</span><span class="sxs-lookup"><span data-stu-id="32cab-119">To remove all the meeting configuration settings applied to the site scope</span></span>
+## <a name="to-remove-all-the-meeting-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="9ebc4-119">Удаление всех параметров конфигурации собрания, примененных к области сайта</span><span class="sxs-lookup"><span data-stu-id="9ebc4-119">To remove all the meeting configuration settings applied to the site scope</span></span>
 
-  - <span data-ttu-id="32cab-120">Эта команда удаляет все параметры конфигурации собрания, примененные к области сайта.</span><span class="sxs-lookup"><span data-stu-id="32cab-120">This command removes all the meeting configuration settings applied to the site scope:</span></span>
+  - <span data-ttu-id="9ebc4-120">Эта команда удаляет все параметры конфигурации собрания, примененные к области сайта:</span><span class="sxs-lookup"><span data-stu-id="9ebc4-120">This command removes all the meeting configuration settings applied to the site scope:</span></span>
     
         Get-CsMeetingConfiguration -Filter "site:*" | Remove-CsMeetingConfiguration
 
@@ -81,15 +81,15 @@ ms.locfileid: "41737419"
 
 <div>
 
-## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a><span data-ttu-id="32cab-121">Удаление всех параметров конфигурации собрания, которые по умолчанию применяют анонимные пользователи</span><span class="sxs-lookup"><span data-stu-id="32cab-121">To remove all the meeting configuration settings that admit anonymous users by default</span></span>
+## <a name="to-remove-all-the-meeting-configuration-settings-that-admit-anonymous-users-by-default"></a><span data-ttu-id="9ebc4-121">Удаление всех параметров конфигурации собраний, которые допускают анонимных пользователей по умолчанию</span><span class="sxs-lookup"><span data-stu-id="9ebc4-121">To remove all the meeting configuration settings that admit anonymous users by default</span></span>
 
-  - <span data-ttu-id="32cab-122">И этот параметр удаляет все параметры, которые позволяют принимать анонимные пользователи по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32cab-122">And this one removes all the settings that allow anonymous users to be admitted by default:</span></span>
+  - <span data-ttu-id="9ebc4-122">Эта команда удаляет все параметры, которые допускают анонимных пользователей по умолчанию:</span><span class="sxs-lookup"><span data-stu-id="9ebc4-122">And this one removes all the settings that allow anonymous users to be admitted by default:</span></span>
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
 </div>
 
-<span data-ttu-id="32cab-123">Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксмитингконфигуратион](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="32cab-123">For more information, see the help topic for the [Remove-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg412775(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="9ebc4-123">Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Remove – CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="9ebc4-123">For more information, see the help topic for the [Remove-CsMeetingConfiguration](https://technet.microsoft.com/library/Gg412775(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 

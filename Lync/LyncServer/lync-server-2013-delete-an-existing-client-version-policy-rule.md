@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление существующего правила политики для версии клиента'
+title: 'Lync Server 2013: удаление существующего правила политики версий клиентов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ad64a77e8244bf1eb2073a5d62edcb30e41eb20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd2f021241f373a30e205ddb81c21ba9a4a5beb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736419"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="c1d13-102">Удаление существующего правила политики для версии клиента в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c1d13-102">Delete an existing client version policy rule in Lync Server 2013</span></span>
+# <a name="delete-an-existing-client-version-policy-rule-in-lync-server-2013"></a><span data-ttu-id="78e3a-102">Удаление существующего правила политики версий клиентов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78e3a-102">Delete an existing client version policy rule in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41736419"
 
 <span> </span>
 
-<span data-ttu-id="c1d13-103">_**Тема последнего изменения:** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="c1d13-103">_**Topic Last Modified:** 2013-01-21_</span></span>
+<span data-ttu-id="78e3a-103">_**Последнее изменение темы:** 2013-01-21_</span><span class="sxs-lookup"><span data-stu-id="78e3a-103">_**Topic Last Modified:** 2013-01-21_</span></span>
 
-<span data-ttu-id="c1d13-104">Политика клиентской версии состоит из набора правил политики клиентской версии.</span><span class="sxs-lookup"><span data-stu-id="c1d13-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="c1d13-105">Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий.</span><span class="sxs-lookup"><span data-stu-id="c1d13-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="c1d13-106">Вы можете удалить отдельные правила из политики версии клиента с помощью панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c1d13-106">You can delete individual rules from a client version policy from Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="78e3a-104">Политика версий клиентов состоит из набора правил политики версий клиентов.</span><span class="sxs-lookup"><span data-stu-id="78e3a-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="78e3a-105">Эти правила определяют действия, которые следует предпринять при попытке пользователей выполнить вход с использованием определенных клиентов и их версий.</span><span class="sxs-lookup"><span data-stu-id="78e3a-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="78e3a-106">Вы можете удалять отдельные правила из политики версий клиентов из панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="78e3a-106">You can delete individual rules from a client version policy from Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="c1d13-107">Удаление правил политики версий клиента с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="c1d13-107">To delete client version policy rules with Lync Server Control Panel</span></span>
+## <a name="to-delete-client-version-policy-rules-with-lync-server-control-panel"></a><span data-ttu-id="78e3a-107">Удаление правил политики версий клиентов с помощью панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="78e3a-107">To delete client version policy rules with Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="c1d13-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="c1d13-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="78e3a-108">Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="78e3a-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="c1d13-109">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c1d13-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="c1d13-110">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="c1d13-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="78e3a-109">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="78e3a-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="78e3a-110">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="78e3a-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="c1d13-111">На панели навигации слева выберите пункт **Клиенты**и нажмите кнопку Переход на **политику версии клиента** .</span><span class="sxs-lookup"><span data-stu-id="c1d13-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="78e3a-111">В левой панели навигации щелкните элемент **Клиенты**, а затем нажмите кнопку навигации для **политики версий клиентов** .</span><span class="sxs-lookup"><span data-stu-id="78e3a-111">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="c1d13-112">На странице **политики Client Version** дважды щелкните политику версии клиента для правила, которое вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="c1d13-112">On the **Client Version Policy** page, double-click the client version policy for the rule you want to delete.</span></span>
+4.  <span data-ttu-id="78e3a-112">На странице **Политика версий клиентов** дважды щелкните политику версий клиентов для правила, которое необходимо удалить.</span><span class="sxs-lookup"><span data-stu-id="78e3a-112">On the **Client Version Policy** page, double-click the client version policy for the rule you want to delete.</span></span>
 
-5.  <span data-ttu-id="c1d13-113">Правила отображаются на странице " **изменение политики версии клиента** ".</span><span class="sxs-lookup"><span data-stu-id="c1d13-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="c1d13-114">Для удаления правила выберите правило и нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="c1d13-114">To delete a rule, select the rule, and then click **Remove**.</span></span>
+5.  <span data-ttu-id="78e3a-113">Правила отображаются на странице **изменение политики версий клиентов** .</span><span class="sxs-lookup"><span data-stu-id="78e3a-113">The rules appear on the **Edit Client Version Policy** page.</span></span> <span data-ttu-id="78e3a-114">Чтобы удалить правило, выберите это правило и нажмите кнопку **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="78e3a-114">To delete a rule, select the rule, and then click **Remove**.</span></span>
 
 </div>
 

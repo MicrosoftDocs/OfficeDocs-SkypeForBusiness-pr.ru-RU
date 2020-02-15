@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: добавление администратора сохраняемого чата'
+title: 'Lync Server 2013: Добавление администратора сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23ced0c93aae8f55868f44f179c659aead26f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90fa941f575a49b3cb5de23f6aa38944d885eb85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="aa0f0-102">Добавление администратора сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aa0f0-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a><span data-ttu-id="37c31-102">Добавление администратора сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37c31-102">Adding a Persistent Chat administrator in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738199"
 
 <span> </span>
 
-<span data-ttu-id="aa0f0-103">_**Тема последнего изменения:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="aa0f0-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="37c31-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="37c31-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="aa0f0-104">В Lync Server 2013 пользователи, которые выполняют определенные задачи, должны быть назначены как участники одной или нескольких конкретных групп.</span><span class="sxs-lookup"><span data-stu-id="aa0f0-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="aa0f0-105">Управление доступом на основе ролей (RBAC) также можно использовать для предоставления привилегий путем назначения пользователям стандартных административных ролей Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="aa0f0-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
+<span data-ttu-id="37c31-104">В Lync Server 2013 пользователи, выполняющие определенные задачи, должны быть назначены как участники одной или нескольких конкретных групп.</span><span class="sxs-lookup"><span data-stu-id="37c31-104">In Lync Server 2013, users who perform specific tasks must be assigned as members of one or more specific groups.</span></span> <span data-ttu-id="37c31-105">Управление доступом на основе ролей (RBAC) также можно использовать для предоставления привилегий путем назначения пользователям предварительно заданных административных ролей Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37c31-105">Role-based access control (RBAC) can also be used to grant privileges by assigning users to predefined Lync Server 2013 administrative roles.</span></span>
 
-<span data-ttu-id="aa0f0-106">Перед настройкой и администрированием сохраняемого сервера чата убедитесь в том, что у вас есть соответствующие права и разрешения, и что пользователи, которые должны быть отнесены к постоянном администраторам чата, добавлены в Ксперсистентчатадминистратор безопасности. сгруппирован.</span><span class="sxs-lookup"><span data-stu-id="aa0f0-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
+<span data-ttu-id="37c31-106">Перед настройкой и администрированием сервера сохраняемого чата убедитесь, что у вас есть соответствующие права и разрешения, и что все пользователи, которые должны классифицироваться как администраторы сохраняемого чата, добавлены в систему безопасности CsPersistentChatAdministrator. группы.</span><span class="sxs-lookup"><span data-stu-id="37c31-106">Before configuring and administering Persistent Chat Server, be sure that the appropriate user rights and permissions are in place, and that any users to be classified as Persistent Chat administrators are added to the CsPersistentChatAdministrator security group.</span></span>
 
 </div>
 

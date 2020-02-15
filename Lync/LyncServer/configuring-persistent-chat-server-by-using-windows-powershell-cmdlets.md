@@ -1,5 +1,5 @@
 ---
-title: Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell
+title: Настройка сервера сохраняемого чата с помощью командлетов Windows PowerShell
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 281526be2ecee70bd0ed510ba37ee34745d60a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67a436f4058ea600f9eed67725f0a519835e432f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723177"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="82afb-102">Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="82afb-102">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="88e9b-102">Настройка сервера сохраняемого чата с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="88e9b-102">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41723177"
 
 <span> </span>
 
-<span data-ttu-id="82afb-103">_**Тема последнего изменения:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="82afb-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="88e9b-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="88e9b-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="82afb-104">Используйте указанные ниже командлеты Windows PowerShell для настройки управления в Lync Server 2013, который является сервером сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="82afb-104">Use the following Windows PowerShell cmdlets to configure management within Lync Server 2013, Persistent Chat Server.</span></span>
+<span data-ttu-id="88e9b-104">Используйте следующие командлеты Windows PowerShell для настройки управления в среде Lync Server 2013 и сервера сохраняемого чата.</span><span class="sxs-lookup"><span data-stu-id="88e9b-104">Use the following Windows PowerShell cmdlets to configure management within Lync Server 2013, Persistent Chat Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="82afb-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="82afb-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="88e9b-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="88e9b-105">In This Section</span></span>
 
-  - [<span data-ttu-id="82afb-106">Manage categories</span><span class="sxs-lookup"><span data-stu-id="82afb-106">Manage categories</span></span>](manage-categories.md)
+  - [<span data-ttu-id="88e9b-106">Управление категориями</span><span class="sxs-lookup"><span data-stu-id="88e9b-106">Manage categories</span></span>](manage-categories.md)
 
-  - [<span data-ttu-id="82afb-107">Управление чатами</span><span class="sxs-lookup"><span data-stu-id="82afb-107">Manage rooms</span></span>](manage-rooms.md)
+  - [<span data-ttu-id="88e9b-107">Управление комнатами</span><span class="sxs-lookup"><span data-stu-id="88e9b-107">Manage rooms</span></span>](manage-rooms.md)
 
-  - [<span data-ttu-id="82afb-108">Управление надстройками</span><span class="sxs-lookup"><span data-stu-id="82afb-108">Manage add-ins</span></span>](manage-add-ins.md)
+  - [<span data-ttu-id="88e9b-108">Управление надстройками</span><span class="sxs-lookup"><span data-stu-id="88e9b-108">Manage add-ins</span></span>](manage-add-ins.md)
 
-  - [<span data-ttu-id="82afb-109">Удаление сообщения</span><span class="sxs-lookup"><span data-stu-id="82afb-109">Remove a message</span></span>](remove-a-message.md)
+  - [<span data-ttu-id="88e9b-109">Удаление сообщения</span><span class="sxs-lookup"><span data-stu-id="88e9b-109">Remove a message</span></span>](remove-a-message.md)
 
-  - [<span data-ttu-id="82afb-110">Проверка сервера сохраняемого чата с помощью искусственной транзакции</span><span class="sxs-lookup"><span data-stu-id="82afb-110">Test Persistent Chat Server with a synthetic transaction</span></span>](test-persistent-chat-server-with-a-synthetic-transaction.md)
+  - [<span data-ttu-id="88e9b-110">Проверка сервера сохраняемого чата с помощью искусственной транзакции</span><span class="sxs-lookup"><span data-stu-id="88e9b-110">Test Persistent Chat Server with a synthetic transaction</span></span>](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [<span data-ttu-id="82afb-111">Организация обратной совместимости для сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="82afb-111">Run backward compatibility for Persistent Chat Server</span></span>](run-backward-compatibility-for-persistent-chat-server.md)
+  - [<span data-ttu-id="88e9b-111">Выполнение обратной совместимости для сервера сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="88e9b-111">Run backward compatibility for Persistent Chat Server</span></span>](run-backward-compatibility-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="82afb-112">Запуск, предоставление, получение, удаление и установка политики сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82afb-112">Run, grant, get, remove, or set Persistent Chat Policy in Lync Server 2013</span></span>](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
+  - [<span data-ttu-id="88e9b-112">Запуск, предоставление, получение, удаление и установка политики сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88e9b-112">Run, grant, get, remove, or set Persistent Chat Policy in Lync Server 2013</span></span>](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 
-  - [<span data-ttu-id="82afb-113">Настройка сервера сохраняемого сеанса беседы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82afb-113">Configure Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-configure-persistent-chat-server.md)
+  - [<span data-ttu-id="88e9b-113">Настройка сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88e9b-113">Configure Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-configure-persistent-chat-server.md)
 
-  - [<span data-ttu-id="82afb-114">Получение сведений о доступности пула сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82afb-114">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>](lync-server-2013-get-persistent-chat-server-pool-availability.md)
+  - [<span data-ttu-id="88e9b-114">Получение доступности пула сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88e9b-114">Get Persistent Chat Server pool availability in Lync Server 2013</span></span>](lync-server-2013-get-persistent-chat-server-pool-availability.md)
 
-  - [<span data-ttu-id="82afb-115">Соблюдение норм в сохряняемом чате в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82afb-115">Persistent Chat compliance in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-compliance.md)
+  - [<span data-ttu-id="88e9b-115">Соответствие сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88e9b-115">Persistent Chat compliance in Lync Server 2013</span></span>](lync-server-2013-persistent-chat-compliance.md)
 
 </div>
 

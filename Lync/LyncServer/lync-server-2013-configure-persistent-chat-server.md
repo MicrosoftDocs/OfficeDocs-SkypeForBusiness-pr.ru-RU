@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка сервера сохраняемого сеанса беседы'
+title: 'Lync Server 2013: Настройка сервера сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21c43bfaf3b40a746f09a000cb089509b589e39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741349"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="a2a0f-102">Настройка сервера сохраняемого сеанса беседы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2a0f-102">Configure Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="9eb14-102">Настройка сервера сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9eb14-102">Configure Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41741349"
 
 <span> </span>
 
-<span data-ttu-id="a2a0f-103">_**Тема последнего изменения:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a2a0f-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="9eb14-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="9eb14-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="a2a0f-104">Создание новой конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="a2a0f-104">To create a new Persistent Chat configuration</span></span>
+<span data-ttu-id="9eb14-104">Создание новой конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="9eb14-104">To create a new Persistent Chat configuration</span></span>
 
     New-CsPersistentChatConfiguration -Identity <XdsIdentity> [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject>] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="a2a0f-105">Получение конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="a2a0f-105">To get Persistent Chat configuration</span></span>
+<span data-ttu-id="9eb14-105">Получение конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="9eb14-105">To get Persistent Chat configuration</span></span>
 
     Get-CsPersistentChatConfiguration [-LocalStore <Switch Parameter>] [-Identity <XdsIdentity>]
 
-<span data-ttu-id="a2a0f-106">Удаление конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="a2a0f-106">To remove Persistent Chat configuration</span></span>
+<span data-ttu-id="9eb14-106">Удаление конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="9eb14-106">To remove Persistent Chat configuration</span></span>
 
     Remove-CsPersistentChatConfiguration -Identity <XdsIdentity>
 
-<span data-ttu-id="a2a0f-107">Настройка конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="a2a0f-107">To set Persistent Chat configuration</span></span>
+<span data-ttu-id="9eb14-107">Настройка конфигурации сохраняемого чата</span><span class="sxs-lookup"><span data-stu-id="9eb14-107">To set Persistent Chat configuration</span></span>
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-<span data-ttu-id="a2a0f-108">Для Lync Server 2013 весь трафик веб-службы поддерживается на Lync Server 2013, на серверах переднего плана.</span><span class="sxs-lookup"><span data-stu-id="a2a0f-108">For Lync Server 2013, all web service traffic is supported on the Lync Server 2013, Front End Servers.</span></span> <span data-ttu-id="a2a0f-109">Следовательно, адрес gcweb01 на сервере сохраняемого чата не требуется.</span><span class="sxs-lookup"><span data-stu-id="a2a0f-109">Therefore, the gcweb01 address on Persistent Chat Server is not necessary.</span></span> <span data-ttu-id="a2a0f-110">Мы по-прежнему поддерживаем внутренний доступ к веб-службам, так как мы предоставляем веб-службу отправки и скачивания файлов только *внутреннему* веб-сайту (но не *внешнему* веб-сайту для удаленных пользователей).</span><span class="sxs-lookup"><span data-stu-id="a2a0f-110">We still support internal web service access because we provide the File Upload/Download Web service to the *internal* website only (not to the *external* website for remote users).</span></span>
+<span data-ttu-id="9eb14-108">Для Lync Server 2013 весь трафик веб-службы поддерживается на сервере Lync Server 2013, на серверах переднего плана.</span><span class="sxs-lookup"><span data-stu-id="9eb14-108">For Lync Server 2013, all web service traffic is supported on the Lync Server 2013, Front End Servers.</span></span> <span data-ttu-id="9eb14-109">Поэтому адрес gcweb01 на сервере сохраняемого чата не требуется.</span><span class="sxs-lookup"><span data-stu-id="9eb14-109">Therefore, the gcweb01 address on Persistent Chat Server is not necessary.</span></span> <span data-ttu-id="9eb14-110">Мы продолжаем поддерживать внутренний доступ веб-службы, поскольку предоставляем веб-службу отправки и загрузки файлов только на *внутренний* веб-сайт (не на *внешний* веб-сайт для удаленных пользователей).</span><span class="sxs-lookup"><span data-stu-id="9eb14-110">We still support internal web service access because we provide the File Upload/Download Web service to the *internal* website only (not to the *external* website for remote users).</span></span>
 
 </div>
 

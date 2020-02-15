@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Назначение пользователям номеров для отправки групповых звонков'
+title: 'Lync Server 2013: Назначение пользователям номеров для отправки групповых вызовов пользователям'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a27746909a5a4baa5ea6c3c6d050393e66dab05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a><span data-ttu-id="faab1-102">Назначение номеров группового звонка пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faab1-102">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a><span data-ttu-id="e8e7d-102">Назначение номера группы для отправки звонков пользователям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8e7d-102">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734059"
 
 <span> </span>
 
-<span data-ttu-id="faab1-103">_**Тема последнего изменения:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="faab1-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="e8e7d-103">_**Последнее изменение темы:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="e8e7d-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="faab1-104">После добавления номеров групп отправки группового звонка в таблицу "приостановить Звонок" можно назначить группы пользователям.</span><span class="sxs-lookup"><span data-stu-id="faab1-104">After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users.</span></span> <span data-ttu-id="faab1-105">Используйте вспомогательный набор ресурсов для активации дополнительных функций расширения (Сефаутил), чтобы назначить пользователям группы для отправки звонков.</span><span class="sxs-lookup"><span data-stu-id="faab1-105">Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.</span></span>
+<span data-ttu-id="e8e7d-104">После добавления номеров групп ответа групп в таблицу орбит парковки вызовов можно назначить группы пользователям.</span><span class="sxs-lookup"><span data-stu-id="e8e7d-104">After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users.</span></span> <span data-ttu-id="e8e7d-105">Используйте дополнительное средство дополнительного набора ресурсов для активации функций расширения (SEFAUtil), чтобы назначить группы ответа на звонки пользователям.</span><span class="sxs-lookup"><span data-stu-id="e8e7d-105">Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="faab1-106">В гибридном развертывании не назначайте группу отправки группового звонка пользователям, которые находятся в сети.</span><span class="sxs-lookup"><span data-stu-id="faab1-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="faab1-107">Пользователи, которые подключены к сети, не могут принимать участие в расправке групповых звонков.</span><span class="sxs-lookup"><span data-stu-id="faab1-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="faab1-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span><span class="sxs-lookup"><span data-stu-id="faab1-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
+> <span data-ttu-id="e8e7d-106">В гибридном развертывании не назначайте группу группового ответа на звонки пользователям, размещенным в сети.</span><span class="sxs-lookup"><span data-stu-id="e8e7d-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="e8e7d-107">Пользователи, размещенные в Интернете, не могут участвовать в групповой отправке звонков.</span><span class="sxs-lookup"><span data-stu-id="e8e7d-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="e8e7d-108">Это значит, что их звонки не могут отвечать другим пользователям и они не могут отвечать на звонки другим пользователям.</span><span class="sxs-lookup"><span data-stu-id="e8e7d-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
 
 
 
@@ -51,15 +51,15 @@ ms.locfileid: "41734059"
 
 <div>
 
-## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a><span data-ttu-id="faab1-109">Назначение группе отправки группового звонка пользователю</span><span class="sxs-lookup"><span data-stu-id="faab1-109">To assign a Group Call Pickup group to a user</span></span>
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a><span data-ttu-id="e8e7d-109">Назначение группе группового ответа на звонки пользователю</span><span class="sxs-lookup"><span data-stu-id="e8e7d-109">To assign a Group Call Pickup group to a user</span></span>
 
-1.  <span data-ttu-id="faab1-110">Войдите в систему компьютера, на котором установлено средство SEFAUtil, с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="faab1-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1.  <span data-ttu-id="e8e7d-110">Войдите на компьютер, на котором установлено средство SEFAUtil с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="e8e7d-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2.  <span data-ttu-id="faab1-111">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="faab1-111">At the command line, run:</span></span>
+2.  <span data-ttu-id="e8e7d-111">В командной строке выполните следующую команду:</span><span class="sxs-lookup"><span data-stu-id="e8e7d-111">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    <span data-ttu-id="faab1-112">Например:</span><span class="sxs-lookup"><span data-stu-id="faab1-112">For example:</span></span>
+    <span data-ttu-id="e8e7d-112">Пример:</span><span class="sxs-lookup"><span data-stu-id="e8e7d-112">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
@@ -67,11 +67,11 @@ ms.locfileid: "41734059"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="faab1-113">См. также</span><span class="sxs-lookup"><span data-stu-id="faab1-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e8e7d-113">См. также</span><span class="sxs-lookup"><span data-stu-id="e8e7d-113">See Also</span></span>
 
 
-[<span data-ttu-id="faab1-114">Включение отправки группового звонка для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faab1-114">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[<span data-ttu-id="faab1-115">Отключение отправки группового вызова для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faab1-115">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="e8e7d-114">Включение групповой отправки звонков для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8e7d-114">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="e8e7d-115">Отключение групповой отправки вызовов для пользователей в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8e7d-115">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48706003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f29fa807034a8cdad6fb4bf14526a868e242130f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff25a874bc733f1186c5f4586a34bcbd3bf51831
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="1b71e-102">Настройка высокой доступности и аварийного восстановления для сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b71e-102">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="configuring-for-persistent-chat-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="3024b-102">Настройка высокой доступности и аварийного восстановления для сохраняемого чата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3024b-102">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728979"
 
 <span> </span>
 
-<span data-ttu-id="1b71e-103">_**Тема последнего изменения:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="1b71e-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="3024b-103">_**Последнее изменение темы:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="3024b-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="1b71e-104">Подробнее о том, как настроить службы сохраняемого чата для обеспечения высокой доступности и аварийного восстановления, можно найти [в разделе Развертывание сервера сохраняемого чата в Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="1b71e-104">For details about how to configure the Persistent Chat services for high availability and disaster recovery, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
+<span data-ttu-id="3024b-104">Сведения о том, как настроить службы сохраняемого чата для обеспечения высокой доступности и аварийного восстановления, можно найти [в статье Развертывание сервера сохраняемого чата в Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="3024b-104">For details about how to configure the Persistent Chat services for high availability and disaster recovery, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
 
 </div>
 

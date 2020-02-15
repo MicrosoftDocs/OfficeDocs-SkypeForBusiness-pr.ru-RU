@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление федеративными поставщиками SIP в организации'
+title: 'Lync Server 2013: Управление федеративными поставщиками SIP для Организации'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18d6fc2b4b5487e3900fc6f7a6a6fe7d63fbe3df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9778e8b071cff254db289b91200279b5badf8a8c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733279"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="c064e-102">Управление федеративными поставщиками SIP в организации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c064e-102">Manage SIP federated providers for your organization in Lync Server 2013</span></span>
+# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="b4b8b-102">Управление федеративными поставщиками SIP для Организации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4b8b-102">Manage SIP federated providers for your organization in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41733279"
 
 <span> </span>
 
-<span data-ttu-id="c064e-103">_**Тема последнего изменения:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="c064e-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="b4b8b-103">_**Последнее изменение темы:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="b4b8b-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="c064e-104">Это предварительная редакция документации и она может меняться.</span><span class="sxs-lookup"><span data-stu-id="c064e-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="c064e-105">Пустые разделы добавлены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="c064e-105">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="b4b8b-104">Это Предварительная документация, которая может быть изменена.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="b4b8b-105">Пустые разделы включены в качестве заполнителей.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-105">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="c064e-106">Для настройки поддержки пользователей федеративных поставщиков SIP необходимо выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="c064e-106">To configure support for users of SIP federated providers, you need to do the following:</span></span>
+<span data-ttu-id="b4b8b-106">Для настройки поддержки пользователей федеративных поставщиков SIP необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-106">To configure support for users of SIP federated providers, you need to do the following:</span></span>
 
-  - <span data-ttu-id="c064e-107">Настройка одной или нескольких политик доступа внешних пользователей для поддержки взаимодействия с контактами в службах федерации SIP</span><span class="sxs-lookup"><span data-stu-id="c064e-107">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
+  - <span data-ttu-id="b4b8b-107">Настроить одну или несколько политик доступа внешних пользователей для поддержки взаимодействия с контактами федеративного поставщика SIP.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-107">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
 
-  - <span data-ttu-id="c064e-108">Указание размещенных поставщиков, которые будут поддерживаться</span><span class="sxs-lookup"><span data-stu-id="c064e-108">Specify which hosted providers you want to support</span></span>
+  - <span data-ttu-id="b4b8b-108">Указать размещенных поставщиков, которых планируется поддерживать.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-108">Specify which hosted providers you want to support</span></span>
 
-  - <span data-ttu-id="c064e-109">Указание общедоступных служб обмена мгновенными сообщениями, которые вы хотите поддерживать</span><span class="sxs-lookup"><span data-stu-id="c064e-109">Specify which public IM providers you want to support</span></span>
+  - <span data-ttu-id="b4b8b-109">Указать поставщиков общедоступного обмена мгновенными сообщениями, которых планируется поддерживать.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-109">Specify which public IM providers you want to support</span></span>
 
-<span data-ttu-id="c064e-110">Чтобы выполнить эти задачи, выполните действия, описанные в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="c064e-110">To perform these tasks, use the procedures in this section.</span></span>
+<span data-ttu-id="b4b8b-110">Для выполнения этих задач используйте процедуры из данного раздела.</span><span class="sxs-lookup"><span data-stu-id="b4b8b-110">To perform these tasks, use the procedures in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c064e-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="c064e-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b4b8b-111">Содержание</span><span class="sxs-lookup"><span data-stu-id="b4b8b-111">In This Section</span></span>
 
-  - [<span data-ttu-id="c064e-112">Создание или изменение общедоступных федеративных поставщиков SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c064e-112">Create or edit public SIP federated providers in Lync Server 2013</span></span>](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+  - [<span data-ttu-id="b4b8b-112">Создание или изменение общедоступных федеративных поставщиков SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4b8b-112">Create or edit public SIP federated providers in Lync Server 2013</span></span>](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
 
-  - [<span data-ttu-id="c064e-113">Создание или изменение размещенных федеративных поставщиков SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c064e-113">Create or edit hosted SIP federated providers Lync Server 2013</span></span>](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+  - [<span data-ttu-id="b4b8b-113">Создание или изменение размещенных федеративных поставщиков SIP Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b4b8b-113">Create or edit hosted SIP federated providers Lync Server 2013</span></span>](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 </div>
 

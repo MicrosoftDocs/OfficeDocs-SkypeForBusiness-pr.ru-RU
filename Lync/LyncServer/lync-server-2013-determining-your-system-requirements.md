@@ -12,20 +12,20 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4798c763732f529de029db217eccd241902459ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52edce26ca2bfd82113f576344bf89912f69ed1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762457"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-system-requirements-for-lync-server-2013"></a><span data-ttu-id="d932a-102">Определение требований к системе для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-102">Determining your system requirements for Lync Server 2013</span></span>
+# <a name="determining-your-system-requirements-for-lync-server-2013"></a><span data-ttu-id="f134f-102">Определение требований к системе для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-102">Determining your system requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762457"
 
 <span> </span>
 
-<span data-ttu-id="d932a-103">_**Тема последнего изменения:** 2014-01-02_</span><span class="sxs-lookup"><span data-stu-id="d932a-103">_**Topic Last Modified:** 2014-01-02_</span></span>
+<span data-ttu-id="f134f-103">_**Последнее изменение темы:** 2014-01-02_</span><span class="sxs-lookup"><span data-stu-id="f134f-103">_**Topic Last Modified:** 2014-01-02_</span></span>
 
-<span data-ttu-id="d932a-104">Все серверы, на которых работает Lync Server, должны соответствовать определенным минимальным требованиям к системе.</span><span class="sxs-lookup"><span data-stu-id="d932a-104">All servers running Lync Server must meet certain minimum system requirements.</span></span> <span data-ttu-id="d932a-105">Требования к системе для Lync Server включают оборудование сервера, операционную систему, устанавливаемую на каждый сервер, и требования к программному обеспечению, такие как обновления Windows и другие программы, которые должны быть установлены на серверах.</span><span class="sxs-lookup"><span data-stu-id="d932a-105">System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.</span></span>
+<span data-ttu-id="f134f-104">Все серверы, на которых работает Lync Server, должны соответствовать определенным минимальным требованиям к системе.</span><span class="sxs-lookup"><span data-stu-id="f134f-104">All servers running Lync Server must meet certain minimum system requirements.</span></span> <span data-ttu-id="f134f-105">Требования к системе для Lync Server включают серверное оборудование, операционную систему, устанавливаемую на каждом сервере, а также требования к связанному программному обеспечению, такие как обновления Windows и другое программное обеспечение, которое должно быть установлено на серверах.</span><span class="sxs-lookup"><span data-stu-id="f134f-105">System requirements for Lync Server include the server hardware, the operating system to be installed on each server, and related software requirements, such as the Windows updates and other software that must be installed on the servers.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="d932a-106">Lync Server доступен только в 64-разрядном выпуске, требующем 64-разрядного оборудования и 64-bit Edition для Windows Server.</span><span class="sxs-lookup"><span data-stu-id="d932a-106">Lync Server is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of Windows Server.</span></span> <span data-ttu-id="d932a-107">Исключением является Microsoft Lync Server 2013, средство планирования, доступное в 32-разрядном выпуске.</span><span class="sxs-lookup"><span data-stu-id="d932a-107">The exception is the Microsoft Lync Server 2013, Planning Tool, which is available in a 32-bit edition.</span></span>
+> <span data-ttu-id="f134f-106">Lync Server доступен только в 64-разрядном выпуске, для которого требуется 64-разрядное оборудование и Windows Server 64-bit Edition.</span><span class="sxs-lookup"><span data-stu-id="f134f-106">Lync Server is available only in a 64-bit edition, which requires 64-bit hardware and a 64-bit edition of Windows Server.</span></span> <span data-ttu-id="f134f-107">Исключением является Microsoft Lync Server 2013, средство планирования, которое доступно в 32-разрядном выпуске.</span><span class="sxs-lookup"><span data-stu-id="f134f-107">The exception is the Microsoft Lync Server 2013, Planning Tool, which is available in a 32-bit edition.</span></span>
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "41762457"
 
 
 > [!NOTE]  
-> <span data-ttu-id="d932a-108">Подробные сведения о поддержке службы Active Directory, поддерживаемых топологиях, размещении серверов и других проблемах поддержки описаны в разделе <A href="lync-server-2013-supportability.md">Поддержка поддержки для Lync server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="d932a-108">For details about Active Directory support, supported topologies, server collocation, and other supportability issues, see <A href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="f134f-108">Для получения дополнительных сведений о поддержке Active Directory, поддерживаемых топологиях, размещении серверов и других проблемах с поддержкой, ознакомьтесь со статьей <A href="lync-server-2013-supportability.md">Поддержка для Lync server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="f134f-108">For details about Active Directory support, supported topologies, server collocation, and other supportability issues, see <A href="lync-server-2013-supportability.md">Supportability for Lync Server 2013</A>.</span></span>
 
 
 
@@ -61,25 +61,25 @@ ms.locfileid: "41762457"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d932a-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="d932a-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f134f-109">Содержание</span><span class="sxs-lookup"><span data-stu-id="f134f-109">In This Section</span></span>
 
-  - [<span data-ttu-id="d932a-110">Аппаратные серверные платформы для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-110">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)
+  - [<span data-ttu-id="f134f-110">Аппаратные серверные платформы для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-110">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)
 
-  - [<span data-ttu-id="d932a-111">Поддержка сервера и средств в операционной системе в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-111">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [<span data-ttu-id="f134f-111">Поддержка серверов и средств операционной системы в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-111">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [<span data-ttu-id="d932a-112">Поддержка программного обеспечения баз данных в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-112">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
+  - [<span data-ttu-id="f134f-112">Поддержка программного обеспечения баз данных в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-112">Database software support in Lync Server 2013</span></span>](lync-server-2013-database-software-support.md)
 
-  - [<span data-ttu-id="d932a-113">Дополнительные требования к программному обеспечению для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-113">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)
+  - [<span data-ttu-id="f134f-113">Дополнительные требования к программному обеспечению для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-113">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d932a-114">См. также</span><span class="sxs-lookup"><span data-stu-id="d932a-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f134f-114">См. также</span><span class="sxs-lookup"><span data-stu-id="f134f-114">See Also</span></span>
 
 
-[<span data-ttu-id="d932a-115">Поддерживаемое оборудование клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-115">Client and device hardware support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-hardware-support.md)  
-[<span data-ttu-id="d932a-116">Обеспечение поддержки для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d932a-116">Supportability for Lync Server 2013</span></span>](lync-server-2013-supportability.md)  
+[<span data-ttu-id="f134f-115">Поддержка оборудования клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-115">Client and device hardware support in Lync Server 2013</span></span>](lync-server-2013-client-and-device-hardware-support.md)  
+[<span data-ttu-id="f134f-116">Поддержка для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f134f-116">Supportability for Lync Server 2013</span></span>](lync-server-2013-supportability.md)  
   
 
 </div>
