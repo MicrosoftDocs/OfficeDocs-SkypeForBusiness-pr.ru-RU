@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр сведений о стандартном телефоне'
+title: 'Lync Server 2013: Просмотр сведений о телефонах общей области'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e045cb13d0e0d0c085d9d45e23b1510d61c93a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757463"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Просмотр сведений о стандартном телефоне в Lync Server 2013
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a>Просмотр сведений о телефонах общей области в Lync Server 2013
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41757463"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-С помощью командлета **Get-кскоммонареафоне** вы можете просматривать сведения об общих телефонах, настроенных для использования в вашей организации. При использовании без параметров этот командлет возвращает сведения обо всех ваших стандартных телефонах. Необязательные параметры предоставляют различные способы фильтрации данных. Например, вы можете получить доступ ко всем общим телефонам, которые содержат объекты контактов в указанном подразделении (OU) или все объекты контактов, находящиеся в указанном здании. Дополнительные сведения о параметрах **Get-кскоммонареафоне** можно найти в [статьях Get-кскоммонареафоне](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).
+Вы можете просмотреть сведения о телефонах, настроенных для использования в Организации, с помощью командлета **Get – CsCommonAreaPhone** . При использовании без параметров этот командлет возвращает сведения обо всех телефонах, используемых в вашей сети. Необязательные параметры предоставляют различные способы фильтрации информации. Например, вы можете вернуть все телефонные телефоны с контактами в указанном подразделении или всех объектах Contacts, расположенных в указанном здании. Дополнительные сведения о параметрах **Get – CsCommonAreaPhone** можно найти в статье [Get – CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).
 
-Запустите **Get-кскоммонареафоне** либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
-
-<div>
-
+Выполните командлет **Get – CsCommonAreaPhone** либо в командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
 
 <div>
 
-## <a name="viewing-information-about-all-your-common-area-phones"></a>Просмотр сведений обо всех общих телефонах с областями
 
-  - Чтобы просмотреть сведения обо всех обычных телефонах, введите в командной консоли Lync Server указанную ниже команду и нажмите клавишу ВВОД.
+<div>
+
+## <a name="viewing-information-about-all-your-common-area-phones"></a>Просмотр сведений обо всех телефонах на общем участке
+
+  - Чтобы просмотреть сведения обо всех телефонах вашей сети, введите следующую команду в командной консоли Lync Server, а затем нажмите клавишу ВВОД:
     
         Get-CsCommonAreaPhone
     
-    Вы получите примерно такую информацию:
+    Вы получите сведения, аналогичные приведенным ниже.
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -74,7 +74,7 @@ _**Тема последнего изменения:** 2013-02-20_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Get-кскоммонареафоне](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
+Дополнительные сведения см. в разделе справки по командлету [Get – CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
 
 </div>
 

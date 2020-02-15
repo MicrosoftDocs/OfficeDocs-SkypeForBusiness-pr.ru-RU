@@ -12,16 +12,16 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2e90dfa2133817236001406704dfbb78d22bf0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0aa69ce085c3d60e71f2bf465c91143dd812010
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730939"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41730939"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-08-29_
+_**Последнее изменение темы:** 2012-08-29_
 
-Ниже описаны этапы процесса миграции пула с Office Communications Server 2007 R2 на Lync Server 2013.
+На следующих этапах описывается процесс миграции пула с Office Communications Server 2007 R2 на Lync Server 2013.
 
-  - [Этап 1: планирование перехода с Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
+  - [Этап 1: Планирование миграции с Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
   - [Этап 2: подготовка к миграции](phase-2-prepare-for-migration_1.md)
 
-  - [Этап 3: развертывание пула Lync Server 2013 Pilot](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [Этап 3: Развертывание пилотного пула Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
   - [Этап 4: объединение топологий](phase-4-merge-topologies.md)
 
@@ -51,11 +51,11 @@ _**Тема последнего изменения:** 2012-08-29_
 
   - [Этап 6: перемещение пользователей в пилотный пул](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [Этап 7: Добавление сервера Lync Server 2013 EDGE на пилотный пул](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [Этап 7: Добавление пограничного сервера Lync Server 2013 в пилотный пул](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Этап 8: переход с пилотного развертывания на рабочий](phase-8-move-from-pilot-deployment-into-production.md)
+  - [Этап 8: переход от пилотного развертывания к рабочей среде](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [Этап 9: завершение задач после миграции](phase-9-complete-post-migration-tasks.md)
+  - [Этап 9: выполнение задач, выполняемых после миграции](phase-9-complete-post-migration-tasks.md)
 
   - [Этап 10: списание устаревшего сайта](phase-10-decommission-legacy-site.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: публикация базы данных расположения'
+title: 'Lync Server 2013: публикация базы данных расположений'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4e42d73a5b7ac36439aca673ff68c03cc13f50f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d524f8551561a4c7fb61abdaa6ab15bf2c111de9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747089"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41747089"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-30_
+_**Последнее изменение темы:** 2012-10-30_
 
 Новые расположения, добавленные вами в базу данных местоположений, останутся недоступны клиенту, пока не будут опубликованы.
 
-Подробности можно найти в документации по оболочке управления Lync Server для следующего командлета:
+Для получения дополнительных сведений обратитесь к документации по командной консоли Lync Server для следующего командлета:
 
-  - **Publish-CsLisConfiguration**
+  - **Publish — CsLisConfiguration**
 
-Если вы используете шлюзы ELIN, необходимо также загрузить номера ELIN в базу данных автоматического определения расположения (ALI) сети ТСОП. Оператор ТСОП может потребовать использования определенного формата для записей ELIN. Обратитесь к оператору ТСОП для получения более подробных сведений. Вы можете экспортировать записи из базы данных службы сведений о расположении и отформатировать их в соответствии с требованиями.
+Если вы используете шлюзы Emergency Location Identification Number (ELIN), необходимо также загрузить номера ELIN в базу данных Automatic Location Identification (ALI) сети PSTN. Оператор PSTN может потребовать использования определенного формата для записей ELIN. Обратитесь к оператору PSTN для получения более подробных сведений. Вы можете экспортировать записи из базы данных службы сведений о расположении и отформатировать их по мере необходимости.
 
 <div>
 
 ## <a name="to-publish-the-location-database"></a>Публикация базы данных местоположений
 
-  - Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+  - Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
   - Чтобы опубликовать базу данных местоположений, выполните следующий командлет.
     

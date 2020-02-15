@@ -1,5 +1,5 @@
 ---
-title: Общие сведения о масштабируемости конференции Lync Server 2013
+title: Обзор масштабируемости конференц-связи Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a65fe1ddd19046c1d6b424031d27127965f3849f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631a8ecbe6304b39824f2f65dab908dc63d0067c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741419"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-conferencing-scalability-in-lync-server-2013"></a>Общие сведения о масштабируемости конференции в Lync Server 2013
+# <a name="overview-of-conferencing-scalability-in-lync-server-2013"></a>Обзор масштабируемости конференц-связи в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741419"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-Максимальный размер Конференции, размещенной на Lync Server 2013 в общем пуле (то есть пул, на котором размещаются все рабочие нагрузки Lync Server 2013, включая обмен мгновенными сообщениями и сведения о присутствии, Конференции и корпоративной голосовой связи) — 250 пользователей.
+Максимальный размер Конференции, размещенной на Lync Server 2013 в общем пуле (то есть, пул, в котором размещаются все рабочие нагрузки Lync Server 2013, включая обмен мгновенными сообщениями и сведения о присутствии, Конференц-связь и Корпоративная голосовая связь) — 250 пользователей.
 
-Прежде чем обсудить использование Lync Server для более крупных собраний, давайте взглянем на методологию тестирования масштабируемости, которую мы использовали, и определите, как мы определяем модель 250-User для тестирования общего пула.
+Прежде чем приступить к обсуждению использования Lync Server для поддержки больших собраний, давайте взглянем на используемую методологию тестирования масштабируемости и определение модели 250 пользователя для тестирования общего пула.
 
 <div>
 
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2012-10-01_
 
   - [Пользовательская модель конференц-связи в Lync Server 2013](lync-server-2013-conferencing-user-model.md)
 
-  - [Распределение нагрузки для конференц-связи в Lync Server 2013](lync-server-2013-conferencing-load-distribution.md)
+  - [Распределение нагрузки конференц-связи в Lync Server 2013](lync-server-2013-conferencing-load-distribution.md)
 
 </div>
 

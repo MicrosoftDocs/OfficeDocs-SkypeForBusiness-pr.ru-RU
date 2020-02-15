@@ -13,16 +13,16 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84205c75da4c52aa6c90f3a501c74dd849933d9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727959"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41999194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,25 +36,25 @@ ms.locfileid: "41727959"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-11-21_
+_**Последнее изменение темы:** 2013-11-21_
 
-В этой статье описаны рекомендованные этапы развертывания клиента перед переходом на Lync Server 2013. Эти изменения конфигурации следует вносить в Office Communications Server 2007 R2. Прежде чем выполнять миграцию, очень важно выполнить эти действия. Подробные сведения можно найти [в разделе Планирование клиентов и устройств в Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
+В этой статье описываются рекомендуемые действия по развертыванию клиентов перед переходом на Lync Server 2013. Эти изменения конфигурации следует вносить в Office Communications Server 2007 R2. Эти действия обязательно должны выполняться перед миграцией. Дополнительные сведения см [в разделе Планирование для клиентов и устройств в Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
 
 <div>
 
 ## <a name="to-configure-clients-prior-to-migration"></a>Настройка клиентов перед миграцией
 
-1.  Развертывание самых последних обновлений сервера Office Communications Server 2007 R2, клиентов и устройств (исправлений):
+1.  Разверните самый последний сервер Office Communications Server 2007 R2, клиентские обновления и обновления устройств (исправления).
     
-      - [Установка обновлений Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
+      - [Применение обновлений Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
     
       - [Описание накопительного пакета обновления для Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
     
       - [Получение обновлений программного обеспечения для устройств](http://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  В Office Communications Server 2007 R2 используйте фильтрацию по версии клиента, чтобы разрешить только клиентам Office Communications Server 2007 R2, у которых установлены последние обновления, чтобы войти в систему.
+2.  В Office Communications Server 2007 R2 используйте фильтрацию версий клиентов, чтобы разрешить вход только клиентам Office Communications Server 2007 R2 с последними установленными обновлениями.
 
-3.  В Office Communications Server 2007 R2 используйте фильтрацию версий клиента, чтобы заблокировать вход в приложение Lync Server 2013 для клиентов. Выполните действия, описанные в статье **Настройка фильтрации клиентских версий** [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) , чтобы добавить фильтры версий, указанные в приведенной ниже таблице. Для каждого фильтра версий назначьте **блок**действий.
+3.  В Office Communications Server 2007 R2 используйте фильтрацию версий клиентов для блокирования входа клиентов Lync Server 2013. Выполните действия, описанные в статье **Настройка фильтрации версий клиентов** , [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) чтобы добавить фильтры версий, перечисленные в следующей таблице. Для каждого фильтра версии назначьте действие **блокировать**.
     
     
     <table>
@@ -65,7 +65,7 @@ _**Тема последнего изменения:** 2013-11-21_
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Клиент</th>
+    <th>Client</th>
     <th>Заголовок агента пользователя</th>
     <th>Версия</th>
     </tr>
@@ -83,7 +83,7 @@ _**Тема последнего изменения:** 2013-11-21_
     </tr>
     <tr class="odd">
     <td><p>Lync Phone Edition</p></td>
-    <td><p>OCPhone</p></td>
+    <td><p>окфоне</p></td>
     <td><p>4.*.*. *</p></td>
     </tr>
     </tbody>

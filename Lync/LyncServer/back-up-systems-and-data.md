@@ -13,16 +13,16 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3d5354cda17b574a686dbb9e942491041d8f794
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17d412b25bb0c6f9fb2cb069afc577cba12e122f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724179"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,11 +36,11 @@ ms.locfileid: "41724179"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-18_
+_**Последнее изменение темы:** 2012-09-18_
 
-Прежде чем приступить к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полную архивацию системы и документировать существующую систему, включая учетные записи пользователей, размещенные в каждом пуле, чтобы вернуться на Lync Server 2010, если он становится необходимой. Для резервного копирования и восстановления данных, параметров и систем доступны различные инструменты и программы.
+Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы вернуться к Lync Server 2010, если он становится необходимым. Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем.
 
-Подробные сведения и инструкции можно найти в разделе [резервное копирование и восстановление сервера Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=265417) .
+Подробные сведения и процедуры приведены в статье [резервное копирование и восстановление Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=265417) .
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: представление Филетрансферс'
+title: 'Lync Server 2013: представление Таблица filetransfers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95cc6790766d68ee478cf1b80326c974f7c15f1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-view-in-lync-server-2013"></a>Филетрансферс представления в Lync Server 2013
+# <a name="filetransfers-view-in-lync-server-2013"></a>Представление Таблица filetransfers в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743379"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-В представлении Филетрансфер хранятся сведения о одноранговых сеансах передачи файлов. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении Филетрансфер хранятся сведения об одноранговых сеансах передачи файлов. Это представление было представлено в Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> В представлении Филетрансферс содержатся все столбцы в <A href="lync-server-2013-sessiondetails-view.md">представлении сессиондетаилс в Lync Server 2013</A> в дополнение к столбцам, перечисленным ниже.
+> В представлении Таблица filetransfers содержатся все столбцы в <A href="lync-server-2013-sessiondetails-view.md">представлении SessionDetails в Lync Server 2013</A> , а также столбцы, перечисленные ниже.
 
 
 
@@ -60,39 +60,39 @@ _**Тема последнего изменения:** 2012-10-01_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробности</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>FileName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Имя перенесенного файла.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Имя переданного файла.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Файлах</strong></p></td>
+<td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Используется для идентификации каждого сообщения к исполнению, связанного с этим сообщением.</p></td>
+<td><p>Используется для идентификации каждого последующего сообщения как связанного с этим сообщением.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>филеидентити</strong></p></td>
 <td><p>идентификатора</p></td>
-<td><p>Уникальный идентификатор, позволяющий отличать передачу файлов с одним и тем же именем файла.</p></td>
+<td><p>Уникальный идентификатор для различения операций передачи файлов с одинаковыми именами файлов.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Отвечать</strong></p></td>
-<td><p>бит</p></td>
-<td><p>Может иметь значение истина или NULL. Если значение равно TRUE, то значение "отклонить" и "Отмена" будет равно NULL.</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>Битовая</p></td>
+<td><p>Может иметь значение TRUE или NULL. Если значение равно TRUE, то значением параметров Reject и Cancel будет NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Отклонил</strong></p></td>
-<td><p>бит</p></td>
-<td><p>Может иметь значение истина или NULL. Если значение равно TRUE, то "принимать" и "Отмена" будут иметь значение NULL.</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>Битовая</p></td>
+<td><p>Может иметь значение TRUE или NULL. Если значение равно TRUE, то значением параметров Accept и Cancel будет NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Отмена</strong>.</p></td>
-<td><p>бит</p></td>
-<td><p>Может иметь значение истина или NULL. Если значение равно TRUE, то принять и отклонить будет значение NULL.</p></td>
+<td><p><strong>Отмена</strong></p></td>
+<td><p>Битовая</p></td>
+<td><p>Может иметь значение TRUE или NULL. Если значение равно TRUE, то значением параметров Accept и Reject будет NULL.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a31863ef11f144b5996468ccbeef35f55bd9aa66
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fc1d53046b6a43da38a7a91c7e19f195e6667f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732769"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732769"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
 В этом разделе содержатся примеры запросов для базы данных сохраняемого чата.
 
-Чтобы получить список наиболее активных сохраненных комнат чата после определенной даты, используйте следующий пример.
+Используйте следующий пример, чтобы получить список наиболее активных комнат сохраняемого чата после определенной даты.
 
     SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
       FROM tblChat, tblNode
@@ -47,7 +47,7 @@ _**Тема последнего изменения:** 2012-10-06_
       GROUP BY nodeName
       ORDER BY ChatMessages DESC
 
-Чтобы получить список наиболее активных пользователей после определенной даты, используйте следующий пример.
+Используйте следующий пример, чтобы получить список наиболее активных пользователей после определенной даты.
 
     SELECT prinName as Name, count(*) as ChatMessages
       FROM tblChat, tblPrincipal
@@ -55,25 +55,25 @@ _**Тема последнего изменения:** 2012-10-06_
       GROUP BY prinName
       ORDER BY ChatMessages DESC
 
-В следующем примере показано, как получить список всех тех, кто когда-либо отправил сообщение с помощью "Hello World".
+Используйте следующий пример, чтобы получить список всех, кто когда-либо отправлял сообщение "Hello World".
 
     SELECT nodeName as ChatRoom, prinName as Name, content as Message
       FROM tblChat, tblNode, tblPrincipal
       WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 
-С помощью приведенного ниже примера можно получить список участников группы для определенного участника.
+Используйте следующий пример, чтобы получить список членства в группах для определенного участника.
 
     SELECT prinName as Name    
       FROM tblPrincipalAffiliations as pa, tblPrincipal
       where principalID = 7 and affiliationID = prinID
 
-В следующем примере показано, как получить список всех комнат чата, в которых входит пользователь, Джейн Seleznyov.
+Используйте следующий пример, чтобы получить список всех комнат чата, в которые непосредственно входит пользователь Джейн Доу.
 
     SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
       FROM tblPrincipalRole, tblPrincipal, tblNode
       WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 
-С помощью приведенного ниже примера можно получить список приглашенных, полученных пользователем.
+Используйте следующий пример, чтобы получить список приглашений, полученных пользователем.
 
     SELECT prinName
           ,nodeName

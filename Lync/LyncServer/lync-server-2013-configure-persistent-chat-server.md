@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка сервера сохраняемого сеанса беседы'
+title: 'Lync Server 2013: Настройка сервера сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3762679b8926370b85e03d0ffac2981c5c7d13a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21c43bfaf3b40a746f09a000cb089509b589e39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741349"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>Настройка сервера сохраняемого сеанса беседы в Lync Server 2013
+# <a name="configure-persistent-chat-server-in-lync-server-2013"></a>Настройка сервера сохраняемого чата в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41741349"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
 Создание новой конфигурации сохраняемого чата
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2012-10-06_
 
     Set-CsPersistentChatConfiguration [-DefaultChatHistory <Integer>] [-MaxChatContentSizeMB <Integer>] [-MaxFileSizeKB <Integer>] [-ParticipantUpdateLimit <Integer>] [-FileServiceUrl <UrlForFileUpload>] [-RoomManagementUrl <RoomManagementUrl>] [-Instance <PSObject >] [-Force <Switch Parameter>] [-Confirm <Switch Parameter>] [-WhatIf <Switch Parameter>]
 
-Для Lync Server 2013 весь трафик веб-службы поддерживается на Lync Server 2013, на серверах переднего плана. Следовательно, адрес gcweb01 на сервере сохраняемого чата не требуется. Мы по-прежнему поддерживаем внутренний доступ к веб-службам, так как мы предоставляем веб-службу отправки и скачивания файлов только *внутреннему* веб-сайту (но не *внешнему* веб-сайту для удаленных пользователей).
+Для Lync Server 2013 весь трафик веб-службы поддерживается на сервере Lync Server 2013, на серверах переднего плана. Поэтому адрес gcweb01 на сервере сохраняемого чата не требуется. Мы продолжаем поддерживать внутренний доступ веб-службы, поскольку предоставляем веб-службу отправки и загрузки файлов только на *внутренний* веб-сайт (не на *внешний* веб-сайт для удаленных пользователей).
 
 </div>
 

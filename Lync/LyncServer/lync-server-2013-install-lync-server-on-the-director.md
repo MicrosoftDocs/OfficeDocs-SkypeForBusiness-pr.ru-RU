@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: установка Lync Server на директоре'
+title: 'Lync Server 2013: Установка Lync Server в директоре'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183410
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d86acfe3ebd1a306a1810a492146849224cbfeb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b34aabd71a3501a305e76e9f9edcfd3fc6ca4201
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763733"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763733"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-05-05_
+_**Последнее изменение темы:** 2014-05-05_
 
-Выполните указанные ниже действия, чтобы установить компоненты Lync Server 2013 в директорию.
+Чтобы установить компоненты Lync Server 2013 в директоре, выполните указанные ниже действия.
 
 <div>
 
-## <a name="to-install-lync-server-components-on-a-director"></a>Установка компонентов Lync Server в директории
+## <a name="to-install-lync-server-components-on-a-director"></a>Порядок установки компонентов Lync Server на Директора
 
-1.  В мастере развертывания Lync Server на странице Lync Server 2013 рядом с **шагом 2: Настройка или удаление компонентов Lync Server**нажмите кнопку **выполнить**.
+1.  В мастере развертывания Lync Server на странице Lync Server 2013, рядом с пунктом **Шаг 2: Установка или удаление компонентов Lync Server**, нажмите кнопку **выполнить**.
 
-2.  На странице **Настройка компонентов сервера Lync** нажмите кнопку **Далее** , чтобы настроить компоненты, определенные в опубликованной топологии.
+2.  На странице **Установка компонентов Lync Server** нажмите кнопку **Далее** , чтобы настроить компоненты, как указано в опубликованной топологии.
 
-3.  После завершения установки компонентов сервера Lync нажмите кнопку **Готово**.
+3.  После завершения установки компонентов Lync Server нажмите кнопку **Готово**.
 
 </div>
 

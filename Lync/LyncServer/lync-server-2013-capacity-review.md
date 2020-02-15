@@ -12,20 +12,20 @@ ms:contentKeyID: 63969608
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88d9872b8a03d5867897c0ac904e0ac1c46669f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bf9aa2a8246f9f639a33381d7bcfa790df0cffb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736979"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-review-in-lync-server-2013"></a>Проверка производительности в Lync Server 2013
+# <a name="capacity-review-in-lync-server-2013"></a>Проверка емкости в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41736979"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-05-20_
+_**Последнее изменение темы:** 2014-05-20_
 
-Ознакомьтесь со сведениями о емкости за предыдущий месяц и выработка плана для любых обновлений, которые могут потребоваться в течение ближайших месяцев, чтобы операционная система заоставалась на предмет ограничений, указанных в соглашениях об уровне обслуживания Организации.
+Ознакомьтесь со сведениями о емкости за предыдущий месяц и создайте план для любых обновлений, которые могут потребоваться в ближайшие месяцы, чтобы поддерживать операционную систему в соответствии с требованиями соглашения об уровне обслуживания в Организации.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Использование калькулятора планирования производственных мощностей для Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)  
+[Использование калькулятора планирования емкости для Lync Server 2013](lync-server-2013-capacity-planning-calculator.md)  
 
 
-[Планирование мощностей для Lync Server 2013](lync-server-2013-capacity-planning.md)  
+[Планирование емкости для Lync Server 2013](lync-server-2013-capacity-planning.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица User'
+title: 'Lync Server 2013: пользовательская таблица'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8256dec91c93ca6e8f0fd3cfff65280a417324e4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98a34028ebec126c8d5fc5ec838a22180ccb0fa7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744449"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-table-in-lync-server-2013"></a>Таблица User в Lync Server 2013
+# <a name="user-table-in-lync-server-2013"></a>Таблица user в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744449"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Таблица user — это вспомогательная таблица, в которой хранится список различных пользователей, которые участвовали в сеансах, записанных в базе данных. Каждая запись в таблице представляет одного пользователя.
+Таблица User является таблицей поддержки, в которой хранится список разных пользователей, участвовавших в сеансах, записанных в базе данных. Каждая запись в таблице представляет одного пользователя.
 
 
 <table>
@@ -49,45 +49,45 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>усеркэй</strong></p></td>
-<td><p>целое</p></td>
+<td><p><strong>UserKey</strong></p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этого пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>КОД</strong></p></td>
+<td><p><strong>URI</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Повторя</p></td>
+<td><p>Уникальные</p></td>
 <td><p>Строка URI.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>уритипе</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td></td>
 <td><p>1 — неизвестный тип URI.</p>
-<p>2 — это универсальный код ресурса пользователя.</p>
-<p>4 — универсальный код ресурса Конференции.</p>
-<p>8 — это универсальный код ресурса (URI) телефона.</p></td>
+<p>2 — URI пользователя.</p>
+<p>4 — URI конференции.</p>
+<p>8 — URI телефона.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>тенанткэй</strong></p></td>
-<td><p>целое</p></td>
-<td><p>Другом</p></td>
-<td><p>Клиент для пользователя, на который ссылается таблица "клиент".</p></td>
+<td><p>int</p></td>
+<td><p>Правительства</p></td>
+<td><p>Клиент пользователя, ссылается на таблицу клиентов.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ластпуркаллтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Самая поздняя метка времени, когда пользователь приходил к вызову неудовлетворительного звука.</p></td>
+<td><p>Последняя метка времени, когда пользователь имел аудиовызов плохого качества.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>некступдатетс</strong></p></td>

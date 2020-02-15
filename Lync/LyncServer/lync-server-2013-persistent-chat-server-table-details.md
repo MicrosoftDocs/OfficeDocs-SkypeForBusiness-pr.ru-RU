@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: данные таблицы сервера сохраняемого чата'
+title: 'Lync Server 2013: сведения о таблице сервера сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd738a423744257968eb029abdd29e5964c0c623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3caf59185bc3fbe985ea8b7d4371d464b515e3fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755219"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Данные таблицы сервера сохраняемого чата в Lync Server 2013
+# <a name="persistent-chat-server-table-details-in-lync-server-2013"></a>Сведения о таблице сервера сохраняемого чата в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755219"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-25_
+_**Последнее изменение темы:** 2012-06-25_
 
-В следующих разделах приведены сведения о столбцах в каждой из таблиц схемы базы данных "сохраняемый чат".
+В следующих разделах описываются столбцы каждой таблицы схемы базы данных сохраняемого чата.
 
 <div>
 
@@ -47,9 +47,9 @@ _**Тема последнего изменения:** 2012-06-25_
 
   - [tblPrincipalMemberDifference в Lync Server 2013](lync-server-2013-tblprincipalmemberdifference.md)
 
-  - [tblADUpdates в Lync Server 2013](lync-server-2013-tbladupdates.md)
+  - [Тбладупдатес в Lync Server 2013](lync-server-2013-tbladupdates.md)
 
-  - [tblPrincipalMembers в Lync Server 2013](lync-server-2013-tblprincipalmembers.md)
+  - [ТблпринЦипалмемберс в Lync Server 2013](lync-server-2013-tblprincipalmembers.md)
 
   - [tblPrincipalMeta в Lync Server 2013](lync-server-2013-tblprincipalmeta.md)
 
@@ -59,7 +59,7 @@ _**Тема последнего изменения:** 2012-06-25_
 
   - [tblPrincipal в Lync Server 2013](lync-server-2013-tblprincipal.md)
 
-  - [tblPrincipalAffiliations в Lync Server 2013](lync-server-2013-tblprincipalaffiliations.md)
+  - [ТблпринЦипалаффилиатионс в Lync Server 2013](lync-server-2013-tblprincipalaffiliations.md)
 
   - [tblNode в Lync Server 2013](lync-server-2013-tblnode.md)
 
@@ -71,7 +71,7 @@ _**Тема последнего изменения:** 2012-06-25_
 
   - [tblSiopWhiteList в Lync Server 2013](lync-server-2013-tblsiopwhitelist.md)
 
-  - [tblEnumAttribute в Lync Server 2013](lync-server-2013-tblenumattribute.md)
+  - [Тбленуматтрибуте в Lync Server 2013](lync-server-2013-tblenumattribute.md)
 
   - [tblEnumValue в Lync Server 2013](lync-server-2013-tblenumvalue.md)
 
@@ -83,17 +83,17 @@ _**Тема последнего изменения:** 2012-06-25_
 
   - [tblLastChatId в Lync Server 2013](lync-server-2013-tbllastchatid.md)
 
-  - [tblPreference в Lync Server 2013](lync-server-2013-tblpreference.md)
+  - [Тблпреференце в Lync Server 2013](lync-server-2013-tblpreference.md)
 
-  - [tblFileToken в Lync Server 2013](lync-server-2013-tblfiletoken.md)
+  - [Тблфилетокен в Lync Server 2013](lync-server-2013-tblfiletoken.md)
 
   - [tblServerIdentity в Lync Server 2013](lync-server-2013-tblserveridentity.md)
 
   - [tblAdminLock в Lync Server 2013](lync-server-2013-tbladminlock.md)
 
-  - [tblSystemRevision в Lync Server 2013](lync-server-2013-tblsystemrevision.md)
+  - [Тблсистемревисион в Lync Server 2013](lync-server-2013-tblsystemrevision.md)
 
-  - [tblActivePeers в Lync Server 2013](lync-server-2013-tblactivepeers.md)
+  - [Тблактивепирс в Lync Server 2013](lync-server-2013-tblactivepeers.md)
 
   - [tblConfig в Lync Server 2013](lync-server-2013-tblconfig.md)
 
@@ -101,9 +101,9 @@ _**Тема последнего изменения:** 2012-06-25_
 
   - [tblComplianceFanout в Lync Server 2013](lync-server-2013-tblcompliancefanout.md)
 
-  - [tblComplianceParticipant в Lync Server 2013](lync-server-2013-tblcomplianceparticipant.md)
+  - [ТблкомплианцепартиЦипант в Lync Server 2013](lync-server-2013-tblcomplianceparticipant.md)
 
-  - [tblComplianceState в Lync Server 2013](lync-server-2013-tblcompliancestate.md)
+  - [Тблкомплианцестате в Lync Server 2013](lync-server-2013-tblcompliancestate.md)
 
 </div>
 

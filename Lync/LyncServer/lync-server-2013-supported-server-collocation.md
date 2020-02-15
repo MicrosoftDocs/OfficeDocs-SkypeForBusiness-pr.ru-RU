@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: поддерживаемое совместное размещение серверов'
+title: Lync Server 2013 поддерживал выровненный сервер
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27269a931691a023e81ef0a2198e20d5b53a2114
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1e3e68c0c76c71ac86a0b52f54faefc5e8d05a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764325"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008661"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-in-lync-server-2013"></a>Поддерживаемое совместное размещение серверов в Lync Server 2013
+# <a name="supported-server-collocation-in-lync-server-2013"></a>Поддерживаемое выровненное размещение серверов в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764325"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-Lync Server 2013 поддерживает расвыровненность некоторых ролей и функций сервера. Какие роли и компоненты сервера, которые можно разгруппировать, не зависят от того, вы развертываете ли вы интерфейс пула переднего плана или сервер Standard Edition.
+Lync Server 2013 поддерживает совместное размещение некоторых ролей и компонентов сервера. То, какие роли сервера и компоненты вы можете выровнять, частично зависит от того, выполняете ли вы развертывание интерфейсного пула или сервера Standard Edition.
 
 <div>
 

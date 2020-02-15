@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица Усеражентдеф'
+title: 'Lync Server 2013: таблица таблица useragentdef'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f065c5377a4d4e94677f9088569ffca681151
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0996abb7098ba636fc31d27388257f570a549ce2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744379"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragentdef-table-in-lync-server-2013"></a>Таблица Усеражентдеф в Lync Server 2013
+# <a name="useragentdef-table-in-lync-server-2013"></a>Таблица Таблица useragentdef в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744379"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-03-25_
+_**Последнее изменение темы:** 2014-03-25_
 
-В таблице Усеражентдеф идентификаторы агентов пользователя сопоставлены с описательными именами агента. Агенты пользователей — это клиенты программного обеспечения, используемые для подключения к Microsoft Lync Server 2013. Эта таблица введена в Microsoft Lync Server 2013.
+Таблица UserAgentDef сопоставляет идентификаторы агентов пользователей с описательными именами агентов. Агенты пользователей — это программные клиенты, которые используются для подключения к Microsoft Lync Server 2013. Эта таблица была введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -48,36 +48,36 @@ _**Тема последнего изменения:** 2014-03-25_
 </colgroup>
 <thead>
 <tr class="header">
-<th>уатипе</th>
+<th>UAType</th>
 <th>уанаме</th>
 <th>уакатегори</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>AV-MCU</p></td>
-<td><p>AV-MCU</p></td>
+<td><p>2 </p></td>
+<td><p>AV — MCU</p></td>
+<td><p>AV — MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>OC</p></td>
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>No8</p></td>
-<td><p>OCPhone</p></td>
-<td><p>OCPhone</p></td>
+<td><p>8 </p></td>
+<td><p>окфоне</p></td>
+<td><p>окфоне</p></td>
 </tr>
 <tr class="odd">
-<td><p>шестнадцат</p></td>
-<td><p>LMC</p></td>
-<td><p>LMC</p></td>
+<td><p>16 </p></td>
+<td><p>лмк</p></td>
+<td><p>лмк</p></td>
 </tr>
 <tr class="even">
 <td><p>32</p></td>
@@ -86,53 +86,53 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>ММ</p></td>
-<td><p>ММ</p></td>
+<td><p>MM</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
 <td><p>MC</p></td>
-<td><p>ММ</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Attendant</p></td>
-<td><p>Attendant</p></td>
+<td><p>Автосекретаря</p></td>
+<td><p>Автосекретаря</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
 <td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>УСТАРЕВШ</p></td>
+<td><p>УПРАВЛЕНИ</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
 <td><p>Conferencing_Attendant_1.0</p></td>
-<td><p>каа</p></td>
+<td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
 <td><p>Conference_Auto_Attendant_1.0</p></td>
-<td><p>каа</p></td>
+<td><p>CAA</p></td>
 </tr>
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>ГРУППЫ ответа</p></td>
+<td><p>ГРУПП</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
 <td><p>Call_Park_Service_1.0</p></td>
-<td><p>ПОДКЛЮЧЕНИЙ</p></td>
+<td><p>СОЗДАЛ</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>ФАЙЛА</p></td>
+<td><p>AS</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
 <td><p>Microsoft. RTC. Applications. CCS</p></td>
-<td><p>СЕТЕВ</p></td>
+<td><p>CCS</p></td>
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
@@ -156,8 +156,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>16393</p></td>
-<td><p>мсексчанжеум</p></td>
-<td><p>ексум</p></td>
+<td><p>MSExchangeUM</p></td>
+<td><p>ExUM</p></td>
 </tr>
 <tr class="even">
 <td><p>16395</p></td>
@@ -166,38 +166,38 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>ST</p></td>
-<td><p>ST</p></td>
+<td><p>&</p></td>
+<td><p>&</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
 <td><p>аппликатионшаринг</p></td>
-<td><p>асмку</p></td>
+<td><p>ASMCU</p></td>
 </tr>
 <tr class="odd">
 <td><p>16398</p></td>
-<td><p>WPLync</p></td>
-<td><p>WPLync</p></td>
+<td><p>вплинк</p></td>
+<td><p>вплинк</p></td>
 </tr>
 <tr class="even">
 <td><p>16399</p></td>
-<td><p>iPhoneLync</p></td>
-<td><p>iPhoneLync</p></td>
+<td><p>ифонелинк</p></td>
+<td><p>ифонелинк</p></td>
 </tr>
 <tr class="odd">
 <td><p>16400</p></td>
-<td><p>AndroidLync</p></td>
-<td><p>AndroidLync</p></td>
+<td><p>андроидлинк</p></td>
+<td><p>андроидлинк</p></td>
 </tr>
 <tr class="even">
 <td><p>16401</p></td>
-<td><p>iPadLync</p></td>
-<td><p>iPadLync</p></td>
+<td><p>ипадлинк</p></td>
+<td><p>ипадлинк</p></td>
 </tr>
 <tr class="odd">
 <td><p>16402</p></td>
-<td><p>NokiaLync</p></td>
-<td><p>NokiaLync</p></td>
+<td><p>нокиалинк</p></td>
+<td><p>нокиалинк</p></td>
 </tr>
 <tr class="even">
 <td><p>16403</p></td>
@@ -206,8 +206,8 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>КОМПЬЮТЕРАХ</p></td>
-<td><p>КОМПЬЮТЕРАХ</p></td>
+<td><p>НЕТБУК</p></td>
+<td><p>НЕТБУК</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -216,13 +216,13 @@ _**Тема последнего изменения:** 2014-03-25_
 </tr>
 <tr class="odd">
 <td><p>16406</p></td>
-<td><p>Outlook</p></td>
-<td><p>Outlook</p></td>
+<td><p>OWA</p></td>
+<td><p>OWA</p></td>
 </tr>
 <tr class="even">
 <td><p>16407</p></td>
-<td><p>AOC</p></td>
-<td><p>AOC</p></td>
+<td><p>аок</p></td>
+<td><p>аок</p></td>
 </tr>
 <tr class="odd">
 <td><p>16408</p></td>

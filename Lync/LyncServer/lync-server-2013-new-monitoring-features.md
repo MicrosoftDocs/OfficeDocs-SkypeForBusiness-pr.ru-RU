@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: новые возможности мониторинга'
+title: 'Lync Server 2013: новые функции мониторинга'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce8fa7b78aa00008cd5aaf748ba66a78ecefbe7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725608"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-monitoring-features-in-lync-server-2013"></a>Новые возможности мониторинга в Lync Server 2013
+# <a name="new-monitoring-features-in-lync-server-2013"></a>Новые функции мониторинга в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725608"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-08_
+_**Последнее изменение темы:** 2012-11-08_
 
-В Lync Server 2013 отсутствует отдельная роль сервера мониторинга. Мониторинг — это необязательная функция, доступная на всех серверах переднего плана в развертывании Enterprise Edition и на серверах Standard Edition, которые можно реализовать и настроить для пула или сайта. Новые возможности Lync Server 2013 можно включить зеркальное отображение базы данных SQL Server для базы данных мониторинга.
+Lync Server 2013 не имеет отдельной роли сервера мониторинга. Мониторинг является дополнительной функцией, доступной на всех серверах переднего плана в развертывании Enterprise Edition, а также на серверах Standard Edition, которые можно реализовать и настроить для пула или сайта. Новые возможности для Lync Server 2013 можно включить зеркальное отображение базы данных SQL Server для базы данных мониторинга.
 
 </div>
 

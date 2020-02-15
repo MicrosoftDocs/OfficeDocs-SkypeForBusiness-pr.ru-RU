@@ -12,16 +12,16 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ec6b3eff05ba27b41488aea49bb0347d058b6f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6868c98fd8ba78514d1e88c52075cbcccc50719b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41735199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-19_
+_**Последнее изменение темы:** 2012-06-19_
 
-Этот справочный раздел содержит указанные ниже сведения.
+В этом справочном разделе представлены следующие сведения:
 
   - Новые или измененные расширения схемы Active Directory для Lync Server 2013
     
-    Схема Active Directory включает в себя формальные определения всех классов объектов, которые можно создать в лесу Active Directory. Схема также содержит формальные определения всех атрибутов, которые могут существовать в объекте Active Directory. Глобальный каталог Active Directory включает в себя реплики всех объектов для леса, а также подмножество атрибутов для каждого объекта. В этом разделе описаны классы и атрибуты, новые или измененные в Lync Server 2013.
+    Схема Active Directory содержит формальные определения каждого класса объектов, который можно создать в лесу Active Directory. Схема также содержит формальные определения каждого атрибута в объекте Active Directory. Глобальный каталог Active Directory содержит реплики всех объектов для леса, а также подмножество атрибутов каждого объекта. В этом разделе описываются классы и атрибуты, новые или измененные в Lync Server 2013.
 
   - Все классы, используемые в Lync Server, с описанием каждого из них.
 
@@ -49,13 +49,13 @@ _**Тема последнего изменения:** 2012-06-19_
 
   - Список классов, используемых Lync Server, с атрибутами, которые могут содержать
 
-  - Глобальные параметры и объекты, в дополнение к универсальным службам и группам администрирования, которые создаются во время подготовки леса
+  - Глобальные параметры и объекты, помимо универсальных групп служб и администрирования, созданных во время подготовки леса
 
-  - Элементы управления доступом (ACE), созданные в корне домена и встроенных контейнерах во время подготовки домена
+  - Записи управления доступом (ACE), которые создаются в корне домена и встроенных контейнерах во время подготовки домена
 
-  - Изменения, вносимые в подразделение службы каталогов Active Directory (OU) с помощью командлета Grant\_кссетуппермиссион.
+  - Изменения, вносимые в подразделение Active Directory (OU) с помощью командлета Grant\_CsSetupPermission.
 
-  - Изменения, вносимые в подразделение Active Directory с помощью командлета\_Grant ксаупермиссион.
+  - Изменения, вносимые в подразделение Active Directory с помощью командлета\_Grant CsOUPermission.
 
 <div>
 
@@ -63,19 +63,19 @@ _**Тема последнего изменения:** 2012-06-19_
 
   - [Изменения схемы в Lync Server 2013](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
-  - [Классы схем и описания в Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md)
+  - [Классы и описания схемы в Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md)
 
   - [Атрибуты и описания схемы в Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md)
 
   - [Атрибуты схемы по классу в Lync Server 2013](lync-server-2013-schema-attributes-by-class.md)
 
-  - [Изменения, внесенные в процессе подготовки леса в Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md)
+  - [Изменения, внесенные при подготовке леса в Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [Изменения, внесенные в ходе подготовки домена в Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [Изменения, внесенные при подготовке домена в Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Изменения, внесенные функцией Grant-Кссетуппермиссион в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Изменения, внесенные с помощью GRANT – CsSetupPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Изменения, внесенные функцией Grant-Ксаупермиссион в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Изменения, внесенные с помощью Grant – CsOUPermission в Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

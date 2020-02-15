@@ -1,5 +1,5 @@
 ---
-title: Добавление архивных баз данных в существующую развертывание Lync Server 2013
+title: Добавление баз данных архивации к существующему развертыванию Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 028148822e7208efd383806693f9799b82d3186a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b2d859f38e6ed7322689f8b89f4865d2ea68733e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738189"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>Добавление архивных баз данных в существующую развертывание Lync Server 2013
+# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a>Добавление баз данных архивации к существующему развертыванию Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738189"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-23_
+_**Последнее изменение темы:** 2012-06-23_
 
-После того как вы настроили системные платформы и инфраструктуру для архивации, вы должны использовать Topology Builder, чтобы добавить в топологию архивацию, а затем опубликовать топологию.
+После настройки системных платформ и инфраструктуры для архивации необходимо использовать построитель топологий для добавления архивации в топологию, а затем опубликовать топологию.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Добавление архивных баз данных в топологию Lync Server 2013](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
+  - [Добавление баз данных архивации в топологию Lync Server 2013](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
 
-  - [Публикация обновленной топологии для добавления архивных баз данных в Lync Server 2013](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
+  - [Публикация обновленной топологии для добавления баз данных архивации в Lync Server 2013](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
 
 </div>
 

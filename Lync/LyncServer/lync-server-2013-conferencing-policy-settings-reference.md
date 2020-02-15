@@ -12,20 +12,20 @@ ms:contentKeyID: 48185737
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9705a56a2167e0afc5e950c387e0f99b15deed1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b71989b2dcc5dba8de877230d33133d88b95b221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741439"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a>Справочник по параметрам политики конференций в Lync Server 2013
+# <a name="conferencing-policy-settings-reference-for-lync-server-2013"></a>Справочник по параметрам политики конференц-связи для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741439"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-04-22_
+_**Последнее изменение темы:** 2014-04-22_
 
-Наиболее актуальный список параметров политики конференций можно найти в разделе справки для командлета [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
+Самый актуальный список параметров политики конференц-связи представлен в разделе справки для командлета [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) .
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell
+title: Настройка сервера сохраняемого чата с помощью командлетов Windows PowerShell
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 281526be2ecee70bd0ed510ba37ee34745d60a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67a436f4058ea600f9eed67725f0a519835e432f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723177"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Настройка сервера сохраняемого сеанса беседы с помощью командлетов Windows PowerShell
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Настройка сервера сохраняемого чата с помощью командлетов Windows PowerShell
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723177"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Используйте указанные ниже командлеты Windows PowerShell для настройки управления в Lync Server 2013, который является сервером сохраняемого чата.
+Используйте следующие командлеты Windows PowerShell для настройки управления в среде Lync Server 2013 и сервера сохраняемого чата.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Manage categories](manage-categories.md)
+  - [Управление категориями](manage-categories.md)
 
-  - [Управление чатами](manage-rooms.md)
+  - [Управление комнатами](manage-rooms.md)
 
   - [Управление надстройками](manage-add-ins.md)
 
@@ -53,15 +53,15 @@ _**Тема последнего изменения:** 2012-10-06_
 
   - [Проверка сервера сохраняемого чата с помощью искусственной транзакции](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [Организация обратной совместимости для сервера сохраняемого чата](run-backward-compatibility-for-persistent-chat-server.md)
+  - [Выполнение обратной совместимости для сервера сохраняемого чата](run-backward-compatibility-for-persistent-chat-server.md)
 
   - [Запуск, предоставление, получение, удаление и установка политики сохраняемого чата в Lync Server 2013](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 
-  - [Настройка сервера сохраняемого сеанса беседы в Lync Server 2013](lync-server-2013-configure-persistent-chat-server.md)
+  - [Настройка сервера сохраняемого чата в Lync Server 2013](lync-server-2013-configure-persistent-chat-server.md)
 
-  - [Получение сведений о доступности пула сервера сохраняемого чата в Lync Server 2013](lync-server-2013-get-persistent-chat-server-pool-availability.md)
+  - [Получение доступности пула сервера сохраняемого чата в Lync Server 2013](lync-server-2013-get-persistent-chat-server-pool-availability.md)
 
-  - [Соблюдение норм в сохряняемом чате в Lync Server 2013](lync-server-2013-persistent-chat-compliance.md)
+  - [Соответствие сохраняемого чата в Lync Server 2013](lync-server-2013-persistent-chat-compliance.md)
 
 </div>
 

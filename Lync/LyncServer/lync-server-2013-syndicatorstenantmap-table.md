@@ -12,16 +12,16 @@ ms:contentKeyID: 48185101
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9af5fa2432dc2bc3ab80dd68c64238996011d5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e611e98c6e76f23bd840422522fee4b28cddf8ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731629"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-08-20_
+_**Последнее изменение темы:** 2012-08-20_
 
-Таблица Синдикаторстенантмап предназначена только для внутреннего использования. Эта таблица введена в Microsoft Lync Server 2013.
+Таблица SyndicatorsTenantMap предназначена только для внутреннего использования. Эта таблица была введена в Microsoft Lync Server 2013.
 
 </div>
 

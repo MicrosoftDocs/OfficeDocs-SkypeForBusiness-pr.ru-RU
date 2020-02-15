@@ -12,20 +12,20 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95251144f6876adb7bd31cf5ae2926e53560976f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f13e337f509fe776b63b7a212670d5a5492e9929
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730471"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a>Требования к доменным службам Active Directory, поддержка и топология в Lync Server 2013
+# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a>Требования к доменным службам Active Directory, поддержка и топологии в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730471"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-05_
+_**Последнее изменение темы:** 2012-10-05_
 
-До Lync Server 2010 в Lync Server для хранения всех глобальных параметров и групп, необходимых для развертывания Lync Server, и управления ими используются доменные службы Active Directory. Теперь многие данные хранятся в главном хранилище управления, а не в доменных СЛУЖБах Active Directory. Однако расширения схемы объектов пользователя, в том числе расширения Lync Server 2013, Lync Server 2010 и Office Communications Server 2007 R2, по-прежнему хранятся в доменных СЛУЖБах Active Directory.
+До Lync Server 2010, Lync Server использовался в доменных службах Active Directory для хранения всех глобальных параметров и групп, необходимых для развертывания и управления Lync Server. Теперь большинство этих сведений хранятся в центральном хранилище управления, а не в доменных СЛУЖБах Active Directory. Однако расширения схемы объектов пользователей, в том числе расширения схемы Lync Server 2013, Lync Server 2010 и Office Communications Server 2007 R2, по-прежнему хранятся в доменных СЛУЖБах Active Directory.
 
 <div>
 

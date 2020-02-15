@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка серверов и пулов переднего плана'
+title: 'Lync Server 2013: Настройка серверов переднего плана и интерфейсных пулов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b912eca536960bccc09c5e7a14c9adc245fe69e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c615d383d2eedf1c24e2da2ddb2561476f4c8db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Настройка серверов и пулов переднего плана для Lync Server 2013
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Настройка серверов переднего плана и интерфейсных пулов для Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-В этом разделе рассказывается, как установить Lync Server 2013 и настроить роли сервера для стандартного выпуска Standard Server и пула переднего плана, включая серверы переднего плана и любые серверные роли, размещенные с помощью серверного переднего плана. Для установки и настройки ролей сервера вы запускаете мастер развертывания Lync Server на каждом компьютере, на котором устанавливается роль сервера. Мастер развертывания используется для выполнения всех четырех шагов развертывания, в том числе для установки локального хранилища конфигурации и серверов переднего плана, настройки сертификатов и запуска служб.
+В этом разделе описывается установка Lync Server 2013 и Настройка ролей сервера для сервера Standard Edition и интерфейсного пула, включая серверы переднего плана и роли серверов, размещенные с серверами переднего плана. Чтобы установить и настроить роли сервера, запустите мастер развертывания Lync Server на каждом компьютере, на котором устанавливается роль сервера. Мастер развертывания используется для выполнения всех четырех этапов развертывания, в том числе для установки локального хранилища конфигурации, установки серверов переднего плана, настройки сертификатов и запуска служб.
 
 <div>
 
 
 > [!NOTE]  
-> Для настройки ролей сервера необходимо успешно опубликовать топологию. Подробные сведения о публикации топологии можно найти в статьях <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Завершение и реализация топологии в Lync Server 2013</A>.
+> Перед настройкой ролей сервера необходимо успешно опубликовать топологию. Сведения о публикации топологии можно найти в статье <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Завершение и реализация топологии в Lync Server 2013</A>.
 
 
 

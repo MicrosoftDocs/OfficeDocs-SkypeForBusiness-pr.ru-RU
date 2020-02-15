@@ -12,16 +12,16 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c3774083feecba11572e2e5d5d050422d5f6bfa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e2107d649caa40b0813ca00b514a0d1fefbcf6d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764009"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-18_
+_**Последнее изменение темы:** 2012-09-18_
 
-В этом разделе объясняется, как перейти с Microsoft Office Communications Server 2007 R2 или Microsoft Lync Server 2010 на Microsoft Lync Server 2013, из Microsoft Lync Server 2010, групповой чат с Microsoft Lync Server 2013, сервера сохраняемого чата и из Microsoft Office Communications Server 2007 R2 групповой чат с сервером сохраняемого чата.
+В этом разделе объясняется, как выполнить миграцию с Microsoft Office Communications Server 2007 R2 или Microsoft Lync Server 2010 на Microsoft Lync Server 2013, из Microsoft Lync Server 2010, группового чата в Microsoft Lync Server 2013, сервера сохраняемого чата и из Microsoft Office Communications Server 2007 R2 групповой чат с сервером сохраняемого чата.
 
 <div>
 

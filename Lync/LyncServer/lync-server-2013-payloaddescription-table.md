@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица PayloadDescription'
+title: 'Lync Server 2013: таблица таблица payloaddescription'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fe905db80edae74e81cc496c9ad70ca3148854f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44edea16dc4874b797dd69402709a880c530147c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755393"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="payloaddescription-table-in-lync-server-2013"></a>Таблица PayloadDescription в Lync Server 2013
+# <a name="payloaddescription-table-in-lync-server-2013"></a>Таблица Таблица payloaddescription в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755393"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-02_
+_**Последнее изменение темы:** 2012-10-02_
 
-Таблица Пайлоаддескриптион является вспомогательной таблицей. Каждая запись представляет один кодек, который используется в звуковом или видеосеансе.
+Таблица PayloadDescription является вспомогательной. Каждая запись представляет один кодек, используемый в аудио- или видеосеансе.
 
 
 <table>
@@ -49,23 +49,23 @@ _**Тема последнего изменения:** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>пайлоаддескриптионкэй</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер кодека.</p></td>
+<td><p>Уникальный номер, обозначающий кодек.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PayloadDescription</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Повторя</p></td>
+<td><p><strong>Таблица payloaddescription</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Уникальные</p></td>
 <td><p>Имя кодека.</p></td>
 </tr>
 </tbody>

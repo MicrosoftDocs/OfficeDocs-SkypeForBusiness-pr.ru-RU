@@ -1,5 +1,5 @@
 ---
-title: Удаление старых серверов архивирования и мониторинга
+title: Удаление устаревших серверов архивации и мониторинга
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1df5ed76a0e0518120c9772b515b36c5f23bfd89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727139"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Удаление старых серверов архивирования и мониторинга
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Удаление устаревших серверов архивации и мониторинга
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727139"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Если ваше развертывание содержит сервер архивирования или сервер мониторинга, после перехода на Lync Server 2013 эти серверы могут быть удалены из устаревшей среды, при этом все пользователи удаляются из других устаревших пулов. Сервер архивирования или сервер мониторинга можно удалить в любой последовательности. Ключевое требование состоит в том, что все пользователи удалены из всех оставшихся устаревших пулов.
+Если устаревшее развертывание содержит сервер архивации или сервер мониторинга, после перехода на Lync Server 2013 эти серверы можно удалить из устаревшей среды, если все пользователи удалены из всех оставшихся устаревших пулов. Сервер архивирования и сервер мониторинга можно удалять в любом порядке. Главное требование состоит в удалении всех пользователей из всех оставшихся устаревших пулов.
 
-Вы можете переместить пользователей из Lync Server 2010 в Lync Server 2013, выполнив действия, описанные в разделе [Этап 4: перемещение тестовых пользователей в пул пилотных проектов](phase-4-move-test-users-to-the-pilot-pool.md).
+Вы можете переместить пользователей с Lync Server 2010 на Lync Server 2013, выполнив процедуры, описанные в [шаге 4: Move Test users to the пилотный пул](phase-4-move-test-users-to-the-pilot-pool.md).
 
-После того как вы подтвердите удаление всех пользователей из оставшихся пулов, выполните процедуру, описанную в разделе "удаление Microsoft Lync Server 2010 и удаление ролей сервера", которые можно скачать по адресу [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
+После подтверждения того, что все пользователи удалены из всех оставшихся пулов, выполните процедуру, описанную в разделе "удаление Microsoft Lync Server 2010 и удаление ролей сервера", которые можно скачать на сайте [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227).
 
 </div>
 

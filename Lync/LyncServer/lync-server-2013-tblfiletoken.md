@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblFileToken'
+title: 'Lync Server 2013: Тблфилетокен'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b469b79e680c202654024d1ac20a55b9929e4b10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 839086521c6e9054d1759943134b305c8205f59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblfiletoken-in-lync-server-2013"></a>tblFileToken в Lync Server 2013
+# <a name="tblfiletoken-in-lync-server-2013"></a>Тблфилетокен в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764185"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблфилетокен включает временные маркеры для целей обмена файлами.
+Таблица tblFileToken содержит временные маркеры для передачи файлов.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -63,48 +63,48 @@ _**Тема последнего изменения:** 2012-09-12_
 <tr class="even">
 <td><p>филетокенусерид</p></td>
 <td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника, который передает файл.</p></td>
+<td><p>Идентификатор субъекта, который передает файл.</p></td>
 </tr>
 <tr class="odd">
 <td><p>филетокенчаннелид</p></td>
-<td><p>GUID, а не NULL</p></td>
+<td><p>GUID, не NULL</p></td>
 <td><p>GUID узла комнаты чата.</p></td>
 </tr>
 <tr class="even">
 <td><p>филетокенекспиредате</p></td>
-<td><p>DateTime, NOT NULL</p></td>
-<td><p>Время окончания срока действия. (Срок действия токенов истекает через 30 минут, за исключением случаев, когда они закреплены (в этой статье описаны следующие описания).</p></td>
+<td><p>datetime, NOT NULL</p></td>
+<td><p>Срок действия. (Срок действия маркеров истекает через 30 минут, если они не были закреплены; см. описания в этом столбце.)</p></td>
 </tr>
 <tr class="odd">
 <td><p>филетокенкомплианцефилеурл</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>URL-адрес перенесенного файла (для использования службы соответствия требованиям).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL-адрес переданного файла (для использования службой соответствия).</p></td>
 </tr>
 <tr class="even">
 <td><p>филетокенкомплианцесумбнаилурл</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>URL-адрес миниатюры перенесенного файла (для использования службой соответствия требованиям).</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URL-адрес эскиза переданного файла (для использования службой соответствия).</p></td>
 </tr>
 <tr class="odd">
 <td><p>филетокенкомплианцетиме</p></td>
 <td><p>datetime2</p></td>
-<td><p>Метка времени для фактической операции передачи файлов (для использования службой соответствия требованиям).</p></td>
+<td><p>Метка времени для фактической операции передачи файла (для использования службой соответствия).</p></td>
 </tr>
 <tr class="even">
 <td><p>филетокенкомплианцеисуплоад</p></td>
-<td><p>бит</p></td>
-<td><p>Значение true, если отправка; Значение false, если Download (для использования службы соответствия требованиям).</p></td>
+<td><p>Битовая</p></td>
+<td><p>True при отправке; False при загрузке (для использования службой соответствия).</p></td>
 </tr>
 <tr class="odd">
 <td><p>филетокенкомплианцепиннед</p></td>
 <td><p>bit, NOT NULL</p></td>
-<td><p>Значение true, если маркер закреплен. Она используется для хранения токенов в таблице до тех пор, пока служба соответствия требованиям не сможет получить из нее нужные поля.</p></td>
+<td><p>True, если маркер закреплен. Используется для сохранения маркера в таблице, пока служба соответствия не получит возможность извлечь из него соответствующие поля.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ _**Тема последнего изменения:** 2012-09-12_
 </tr>
 <tr class="even">
 <td><p>филетокенчаннелид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодегуид.</p></td>
+<td><p>Внешний ключ для поиска в таблице tblNode.nodeGuid.</p></td>
 </tr>
 </tbody>
 </table>

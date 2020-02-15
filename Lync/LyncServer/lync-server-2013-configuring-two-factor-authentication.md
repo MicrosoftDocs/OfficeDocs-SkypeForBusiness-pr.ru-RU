@@ -12,16 +12,16 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee6bc90743e20f69579c86c565395e0375c8bb0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d51d4ff13fa6ec07827c638db49d9a75d370e71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734469"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734469"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-07-03_
+_**Последнее изменение темы:** 2013-07-03_
 
-В следующих разделах приведена пошаговая процедура настройки двухфакторной проверки подлинности для развертывания. Дополнительные сведения о двухфакторной проверке подлинности можно найти в разделе [Включение многофакторной проверки подлинности Office 365 для администраторов сети — сетка пользователя](http://go.microsoft.com/fwlink/p/?linkid=313332).
+В следующих разделах описаны действия, необходимые для настройки двухфакторной проверки подлинности для развертывания. Дополнительные сведения о двухфакторной проверке подлинности приведены в статье Включение многофакторной [проверки подлинности Office 365 для веб-администраторов — сетка](http://go.microsoft.com/fwlink/p/?linkid=313332)"учет пользователя".
 
 <div>
 
@@ -51,7 +51,7 @@ _**Тема последнего изменения:** 2013-07-03_
 
 [Настройка служб федерации Active Directory (AD FS 2,0) для Lync Server 2013](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
-[Настройка службы AD FS 2,0 для поддержки проверки подлинности клиента в Lync Server 2013](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+[Настройка служб федерации Active Directory 2,0 для поддержки проверки подлинности клиентов в Lync Server 2013](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 
 [Настройка пассивной проверки подлинности Lync Server 2013](lync-server-2013-configuring-passive-authentication.md)
 

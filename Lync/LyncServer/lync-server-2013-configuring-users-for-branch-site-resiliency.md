@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка пользователей для организации устойчивости на сайтах филиалов'
+title: 'Lync Server 2013: Настройка пользователей для обеспечения устойчивости сайта филиала'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b0909b7bbcd8f1b80f0c3e2f5718fc6df4d730
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 487120d76e64229779e7f73725545eaad3da7e4a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Настройка пользователей для организации устойчивости на сайтах филиалов в Lync Server 2013
+# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Настройка пользователей для обеспечения устойчивости сайта филиала в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734459"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-11_
+_**Последнее изменение темы:** 2012-10-11_
 
-После того как вы успешно заполните задачи в [развертывании бесперебойно работающего устройства филиала или сервера с задачей Lync Server 2013-Branch](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md), выполните указанные ниже действия, чтобы разрешить пользователям использовать корпоративный голосовую политику и назначить им параметры голосовой почты и голосовую почту. Затем в [домашних компьютерах пользователей на устройстве с работающей филиалом или на сервере Lync server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)вы будете дома эти пользователи на устройстве с бесперебойной филиалом или на сервере.
+После успешного выполнения задач по [развертыванию устройства или сервера для обеспечения связи в филиалах с помощью задачи Lync Server 2013-Branch site](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)выполните следующие действия, чтобы разрешить пользователям использовать корпоративную голосовую связь, назначьте им политику голосовой почты и параметры голосовой почты. Затем в [домашней системе для устройства или сервера для обеспечения связи в филиалах в Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)вы будете домашние пользователи на устройстве для обеспечения связи в филиалах или на сервере.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Включение пользователей корпоративной голосовой связи в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Разрешить пользователям использовать корпоративную голосовую связь в Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
   - [Создание политики маршрутизации VoIP для пользователей филиалов в Lync Server 2013](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
 
-  - [Настройка параметров повторной маршрутизации для голосовой почты в Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+  - [Настройка параметров перенаправления голосовой почты в Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
 </div>
 

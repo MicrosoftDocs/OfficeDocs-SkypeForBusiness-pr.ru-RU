@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblSystemRevision'
+title: 'Lync Server 2013: Тблсистемревисион'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 834ee6650e6bedfe76b1e46943f05e0aa713095d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf06b283221202943399f71ecf7b19224d29a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblsystemrevision-in-lync-server-2013"></a>tblSystemRevision в Lync Server 2013
+# <a name="tblsystemrevision-in-lync-server-2013"></a>Тблсистемревисион в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764059"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблсистемревисион содержит номер редакции, который используется в таблице Тбладминлокк для обеспечения согласованности в нескольких клиентах администратора.
+Таблица tblSystemRevision содержит номер редакции, который используется с таблицей tblAdminLock для обеспечения согласованности между клиентами администраторов.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,7 +57,7 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>сисревисион</p></td>
-<td><p>bigint, NOT NULL</p></td>
+<td><p>bigint, не может быть null</p></td>
 <td><p>Номер редакции.</p></td>
 </tr>
 </tbody>

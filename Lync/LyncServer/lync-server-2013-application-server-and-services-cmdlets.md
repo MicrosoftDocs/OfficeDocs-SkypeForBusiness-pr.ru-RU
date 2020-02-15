@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Командлеты сервера и служб приложений'
+title: 'Lync Server 2013: Командлеты сервера приложений и служб'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184076
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad4c2afc759ccf14e8b639f1d6e00292e4df457
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee43d09cc04bc32ba5cb0afd9c844f017f5688f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737639"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,34 +35,34 @@ ms.locfileid: "41737639"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Серверные приложения относятся к отдельным программам, которые работают под управлением Microsoft Lync Server 2013. Вы можете управлять этими приложениями с помощью командлетов в командной консоли Lync Server Management Shell.
+Серверные приложения обращаются к отдельным программам, которые работают под управлением Microsoft Lync Server 2013. Управлять этими приложениями можно с помощью командлетов в командной консоли Lync Server.
 
 <div>
 
-## <a name="application-server-and-services-cmdlets"></a>Командлеты сервера приложений и служб
+## <a name="application-server-and-services-cmdlets"></a>Application Server and Services Cmdlets
 
 Используйте следующие командлеты для управления приложениями Lync Server 2013.
 
-**Сервер приложений и службы**
+**Серверы приложений и службы**
 
   - <span></span>  
-    [Set-CsApplicationServer](https://technet.microsoft.com/en-us/library/Gg398562(v=OCS.15))
+    [Set — Ксаппликатионсервер](https://technet.microsoft.com/library/Gg398562(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Кссервераппликатион](https://technet.microsoft.com/en-us/library/Gg425948(v=OCS.15))
+    [Get — CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))
 
   - <span></span>  
-    [New-Кссервераппликатион](https://technet.microsoft.com/en-us/library/Gg398096(v=OCS.15))
+    [New — CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg398366(v=OCS.15))
+    [Remove — CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))
 
   - <span></span>  
-    [Set-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg412850(v=OCS.15))
+    [Set — CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))
 
 </div>
 

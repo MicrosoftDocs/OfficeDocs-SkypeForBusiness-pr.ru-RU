@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: сведения о таблице регистрации вызовов'
+title: 'Lync Server 2013: сведения о таблице CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650caa5244eaf796c066f1388f2fcbb5d3b0703a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32b48f6a03c0663277404876f538ae2f15d1bc38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736949"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="cdr-table-details-in-lync-server-2013"></a>Сведения о таблице регистрации вызовов в Lync Server 2013
+# <a name="cdr-table-details-in-lync-server-2013"></a>Сведения о таблице CDR в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736949"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-18_
+_**Последнее изменение темы:** 2012-10-18_
 
-В следующих разделах описаны столбцы в каждой из таблиц схемы базы данных "сведения о звонке" (CDR).
+В следующих разделах описываются столбцы таблиц схемы базы данных записей регистрации вызовов.
 
 <div>
 
@@ -45,75 +45,75 @@ _**Тема последнего изменения:** 2012-10-18_
 
   - [Таблица Application в Lync Server 2013](lync-server-2013-application-table.md)
 
-  - [Таблица SessionCorrelation в Lync Server 2013](lync-server-2013-callpriorities-table.md)
+  - [Таблица Таблица callpriorities в Lync Server 2013](lync-server-2013-callpriorities-table.md)
 
   - [Таблица CallType в Lync Server 2013](lync-server-2013-calltype-table.md)
 
-  - [Таблица ClientVersions в Lync Server 2013](lync-server-2013-clientversions-table.md)
+  - [Таблица Таблица clientversions в Lync Server 2013](lync-server-2013-clientversions-table.md)
 
-  - [Таблица Конференцежоинтимесрешолдс в Lync Server 2013](lync-server-2013-conferencejointimethresholds-table.md)
+  - [Таблица Таблица conferencejointimethresholds в Lync Server 2013](lync-server-2013-conferencejointimethresholds-table.md)
 
-  - [Таблица ConferenceMessageCount в Lync Server 2013](lync-server-2013-conferencemessagecount-table.md)
+  - [Таблица Таблица conferencemessagecount в Lync Server 2013](lync-server-2013-conferencemessagecount-table.md)
 
-  - [Таблица Conferences в Lync Server 2013](lync-server-2013-conferences-table.md)
+  - [Таблица конференций в Lync Server 2013](lync-server-2013-conferences-table.md)
 
-  - [Таблица ConferenceSessionDetails в Lync Server 2013](lync-server-2013-conferencesessiondetails-table.md)
+  - [Таблица Таблица conferencesessiondetails в Lync Server 2013](lync-server-2013-conferencesessiondetails-table.md)
 
-  - [Таблица ConferenceUris в Lync Server 2013](lync-server-2013-conferenceuris-table.md)
+  - [Таблица Таблица conferenceuris в Lync Server 2013](lync-server-2013-conferenceuris-table.md)
 
   - [Таблица ContentTypes в Lync Server 2013](lync-server-2013-contenttypes-table.md)
 
-  - [Таблица DeRegisterType в Lync Server 2013](lync-server-2013-deregistertype-table.md)
+  - [Таблица Таблица deregistertype в Lync Server 2013](lync-server-2013-deregistertype-table.md)
 
   - [Таблица Devices в Lync Server 2013](lync-server-2013-devices-table.md)
 
-  - [Таблица Dialogs в Lync Server 2013](lync-server-2013-dialogs-table.md)
+  - [Таблица диалогов в Lync Server 2013](lync-server-2013-dialogs-table.md)
 
-  - [Таблица EdgeServers в Lync Server 2013](lync-server-2013-edgeservers-table.md)
+  - [Таблица Таблица edgeservers в Lync Server 2013](lync-server-2013-edgeservers-table.md)
 
-  - [Таблица Ерроркатегори в Lync Server 2013](lync-server-2013-errorcategory-table.md)
+  - [Таблица ErrorCategory в Lync Server 2013](lync-server-2013-errorcategory-table.md)
 
-  - [Таблица ErrorDef в Lync Server 2013](lync-server-2013-errordef-table.md)
+  - [Таблица Таблица errordef в Lync Server 2013](lync-server-2013-errordef-table.md)
 
   - [Таблица ErrorReport в Lync Server 2013](lync-server-2013-errorreport-table.md)
 
-  - [Таблица FileTransfers в Lync Server 2013](lync-server-2013-filetransfers-table.md)
+  - [Таблица Таблица filetransfers в Lync Server 2013](lync-server-2013-filetransfers-table.md)
 
-  - [Таблица FocusJoinsAndLeaves в Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
+  - [Таблица Таблица focusjoinsandleaves в Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
 
   - [Интерфейсная таблица в Lync Server 2013](lync-server-2013-frontend-table.md)
 
   - [Таблица Gateways в Lync Server 2013](lync-server-2013-gateways-table.md)
 
-  - [Таблица HardwareVersions в Lync Server 2013](lync-server-2013-hardwareversions-table.md)
+  - [Таблица Таблица hardwareversions в Lync Server 2013](lync-server-2013-hardwareversions-table.md)
 
   - [Таблица Имрепортсуммари в Lync Server 2013](lync-server-2013-imreportsummary-table.md)
 
   - [Таблица Locations в Lync Server 2013](lync-server-2013-locations-table.md)
 
-  - [Таблица Manufacturers в Lync Server 2013](lync-server-2013-manufacturers-table.md)
+  - [Таблица производителей в Lync Server 2013](lync-server-2013-manufacturers-table.md)
 
-  - [Таблица McuJoinsAndLeaves в Lync Server 2013](lync-server-2013-mcujoinsandleaves-table.md)
+  - [Таблица Таблица mcujoinsandleaves в Lync Server 2013](lync-server-2013-mcujoinsandleaves-table.md)
 
-  - [Таблица Mcus в Lync Server 2013](lync-server-2013-mcus-table.md)
+  - [Таблица MCUs в Lync Server 2013](lync-server-2013-mcus-table.md)
 
-  - [Таблица Media в Lync Server 2013](lync-server-2013-media-table.md)
+  - [Таблица мультимедиа в Lync Server 2013](lync-server-2013-media-table.md)
 
-  - [Таблица MediaList в Lync Server 2013](lync-server-2013-medialist-table.md)
+  - [Таблица Таблица medialist в Lync Server 2013](lync-server-2013-medialist-table.md)
 
-  - [Таблица MediationServers в Lync Server 2013](lync-server-2013-mediationservers-table.md)
+  - [Таблица Таблица mediationservers в Lync Server 2013](lync-server-2013-mediationservers-table.md)
 
   - [Таблица Мсмкпроцессинг в Lync Server 2013](lync-server-2013-msmqprocessing-table.md)
 
-  - [Таблица Phones в Lync Server 2013](lync-server-2013-phones-table.md)
+  - [Таблица phones в Lync Server 2013](lync-server-2013-phones-table.md)
 
   - [Таблица Pools в Lync Server 2013](lync-server-2013-pools-table.md)
 
-  - [Таблица ProgressReport в Lync Server 2013](lync-server-2013-progressreport-table.md)
+  - [Таблица Таблица progressreport в Lync Server 2013](lync-server-2013-progressreport-table.md)
 
-  - [Таблица Пуржесеттингс в Lync Server 2013](lync-server-2013-purgesettings-table.md)
+  - [Таблица Таблица purgesettings в Lync Server 2013](lync-server-2013-purgesettings-table.md)
 
-  - [Таблица Registration в Lync Server 2013](lync-server-2013-registration-table.md)
+  - [Таблица регистрации в Lync Server 2013](lync-server-2013-registration-table.md)
 
   - [Таблица Roles в Lync Server 2013](lync-server-2013-roles-table.md)
 
@@ -123,23 +123,23 @@ _**Тема последнего изменения:** 2012-10-18_
 
   - [Таблица Сипреспонсеметадата в Lync Server 2013](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Таблица "синдикации" в Lync Server 2013](lync-server-2013-syndicators-table.md)
+  - [Таблица синдикации в Lync Server 2013](lync-server-2013-syndicators-table.md)
 
   - [Таблица Синдикаторстенантмап в Lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [Таблица задач в Lync Server 2013](lync-server-2013-task-table.md)
+  - [Таблица Task в Lync Server 2013](lync-server-2013-task-table.md)
 
-  - [Таблица Tenants в Lync Server 2013](lync-server-2013-tenants-table.md)
+  - [Таблица клиентов в Lync Server 2013](lync-server-2013-tenants-table.md)
 
-  - [Таблица UriTypes в Lync Server 2013](lync-server-2013-uritypes-table.md)
+  - [Таблица Таблица uritypes в Lync Server 2013](lync-server-2013-uritypes-table.md)
 
   - [Таблица Users в Lync Server 2013](lync-server-2013-users-table.md)
 
-  - [Таблица Усеражентдеф в Lync Server 2013](lync-server-2013-useragentdef-table.md)
+  - [Таблица Таблица useragentdef в Lync Server 2013](lync-server-2013-useragentdef-table.md)
 
   - [Таблица Усерстатистикс в Lync Server 2013](lync-server-2013-userstatistics-table.md)
 
-  - [Таблица VoipDetails в Lync Server 2013](lync-server-2013-voipdetails-table.md)
+  - [Таблица Таблица voipdetails в Lync Server 2013](lync-server-2013-voipdetails-table.md)
 
 </div>
 

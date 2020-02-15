@@ -12,16 +12,16 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c61c2744c6a2cdf8b857161d3476885992c4d74e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731199"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблскиппедаффилиатионс включает назначения, которые не удалось прочитать (обычно из-за ошибок доступа к доменным службам Active Directory).
+tblSkippedAffiliations содержит назначения, которые не удалось прочесть (обычно из-за ошибок доступа к доменным службам Active Directory).
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,26 +56,26 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>Идентификатор субъекта.</p></td>
 </tr>
 <tr class="even">
 <td><p>аффдескриптион</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
-<td><p>Строка, указывающая на принадлежность.</p>
-<p>Формат: GUID: {0} URI: {1} &gt; ID:{2}</p></td>
+<td><p>nvarchar (256), не NULL</p></td>
+<td><p>Строка, идентифицирующая принадлежность.</p>
+<p>Формат: GUID: {0} {1} &gt; идентификатор URI:{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>упдатедби</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника, который обновил эту строку. Это всегда 1 (Системный пользователь), так как служба каталогов Active Directory — это единственный источник этих записей.</p></td>
+<td><p>int, не NULL</p></td>
+<td><p>Идентификатор субъекта, обновившего эту строку. Он всегда равен 1 (системный пользователь) поскольку синхронизация Active Directory является единственным источником этих записей.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -84,18 +84,18 @@ _**Тема последнего изменения:** 2012-09-12_
 </colgroup>
 <thead>
 <tr class="header">
-<th>Столбцы (-ы)</th>
+<th>Столбцы</th>
 <th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Принид, Аффдескриптион&gt;</p></td>
+<td><p>&lt;prinID, Аффдескриптион&gt;</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>принид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
+<td><p>prinID</p></td>
+<td><p>Внешний ключ с поиском в таблице tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

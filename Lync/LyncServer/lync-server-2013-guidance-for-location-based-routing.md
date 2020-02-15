@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: инструкции по маршрутизации на основе местоположения'
+title: 'Lync Server 2013: рекомендации по маршрутизации на основе расположения'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a61478fcfffd182517a1045b041c51abb5efe7e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e419b448145927dd712ba41fca562a021c49174
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757543"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>Инструкции по маршрутизации на основе местоположения в Lync Server 2013
+# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>Руководство по маршрутизации на основе расположения в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757543"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Маршрутизация на основе местоположения, зависящая от ситуации, может быть применена к местоположению сайта конечной точки пользователя в сети или в расположении сайта сети PSTN Gateway. В этой статье приведены рекомендации по применению маршрутизации на основе местоположения.
+Маршрутизация на основе расположения в зависимости от ситуации может быть применена к расположению сайта сети конечной точки пользователя или на сетевом ресурсе шлюза PSTN. В этом разделе приведены рекомендации по применению маршрутизации на основе расположения.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2013-02-21_
 
   - [Расположение пользователя в Lync Server 2013](lync-server-2013-user-s-location.md)
 
-  - [Расположение шлюза ТСОП в Lync Server 2013](lync-server-2013-pstn-gateway-s-location.md)
+  - [Расположение шлюза PSTN в Lync Server 2013](lync-server-2013-pstn-gateway-s-location.md)
 
 </div>
 
@@ -54,7 +54,7 @@ _**Тема последнего изменения:** 2013-02-21_
 ## <a name="see-also"></a>См. также
 
 
-[Планирование маршрутизации на основе местоположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Планирование маршрутизации на основе расположения в Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

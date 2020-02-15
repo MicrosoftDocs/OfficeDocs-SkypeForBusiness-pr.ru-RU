@@ -12,20 +12,20 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfae1817cb47c769885ca42a7ca3ff6f57f7b669
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c50db03b8c6d428322129f1a46a0ffe50b19ed25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726369"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-an-announcement-in-lync-server-2013"></a>Создание объявления в Lync Server 2013
+# <a name="create-an-announcement-in-lync-server-2013"></a>Создание извещения в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41726369"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
 Чтобы создать новое оповещение, выполните следующие действия.
 
@@ -56,7 +56,7 @@ _**Тема последнего изменения:** 2012-11-01_
 
 4.  Назначьте новое оповещение диапазону номеров в таблице неназначенных номеров.
 
-В этом разделе описывается импорт и создание оповещений. Подробнее о назначении объявлений в таблице неназначенные номера можно найти в разделе [Настройка таблицы неназначенные номера в Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
+В этом разделе описывается импорт и создание оповещений. Подробнее о назначении объявлений в таблице неназначенных номеров можно узнать в статье [Настройка таблицы неназначенных номеров в Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
 
 <div>
 
@@ -64,15 +64,15 @@ _**Тема последнего изменения:** 2012-11-01_
 
 1.  Если планируется использовать звуковые приглашения, создайте звуковой файл.
 
-2.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+2.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+3.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 4.  Для звуковых приглашений выполните следующую команду:
     
         Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
 
-5.  Выполните следующую команду:
+5.  Выполняем
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     
@@ -88,7 +88,7 @@ _**Тема последнего изменения:** 2012-11-01_
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Подробнее об этих командлетах и о том, как просмотреть список кодов языков, используемых в параметре **тексттоспичпромпт** , можно найти в статьях [New-ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
+    Для получения дополнительных сведений об этих командлетах и просмотра списка языковых кодов, используемых в параметре **тексттоспичпромпт** , ознакомьтесь со статьей [New – ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
 
 </div>
 
@@ -97,8 +97,8 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
-[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[Import — CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
+[New — Ксаннаунцемент](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
 [Настройка таблицы неназначенных номеров в Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
   
 

@@ -1,5 +1,5 @@
 ---
-title: Проверка и отчет о функциональной готовности для использования проверки подлинности Kerberos
+title: Тестирование и составление отчетов о готовности к проверке подлинности Kerberos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8763203827afd3d14638b68474c4f9bd9d6d0cfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 870c0e19e2134c1a827485a5cacf2c055f99b0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746511"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Проверка и отчет о функциональной готовности для использования проверки подлинности Kerberos в Lync Server 2013
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Тестирование и составление отчетов о готовности к использованию проверки подлинности Kerberos в Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746511"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-01-16_
+_**Последнее изменение темы:** 2012-01-16_
 
-Для успешного выполнения этой процедуры необходимо войти в систему в качестве пользователя, который является членом группы Рткуниверсалсерверадминс.
+Чтобы успешно выполнить эту процедуру, вам следует выполнить вход в качестве члена группы RTCUniversalServerAdmins.
 
-С помощью командлета Windows PowerShell **Test-кскерберосаккаунтассигнмент** можно протестировать и сообщить о готовности назначения сайта для проверки подлинности Kerberos. Эта команда отправляет запрос на сайт, указанный в требуемом параметре удостоверения. Необязательный параметр отчета заставляет командлет записать отчет в формате HTML в C:\\журналы на компьютере, на котором она выполняется. Необязательный параметр подробной информации выводит сведения о действиях на экран.
+С помощью командлета Windows PowerShell **Test-CsKerberosAccountAssignment** вы можете протестировать и сообщить о готовности к работоспособности назначения сайта для проверки подлинности Kerberos. Эта команда запрашивает сайт, указанный обязательным параметром Identity. Необязательный параметр Report создает командлет для записи HTML-отчета в журнал C\\: журналы на компьютере, на котором выполняется команда. Дополнительный параметр Verbose передает данные об активности на экран.
 
 <div>
 
-## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>Тестирование и создание отчетов о готовности проверки подлинности Kerberos для сайта
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>Тестирование и передача данных о функциональной готовности сайта для проверки подлинности Kerberos
 
-1.  Войдя в группу Рткуниверсалсерверадминс, войдите в домен на компьютере с Lync Server 2013 или на компьютер, на котором установлены средства администрирования.
+1.  В качестве члена группы RTCUniversalServerAdmins Войдите на компьютер в домене, на котором работает Lync Server 2013 или на компьютер, на котором установлены средства администрирования.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  В командной строке выполните следующую команду:
     
         Test-CsKerberosAccountAssignment -Identity "site:SiteName" -Report "c:\logs\FileName.htm" -Verbose
     
-    Например:
+    Пример:
     
         Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "c:\logs\KerberosReport.htm" -Verbose
 

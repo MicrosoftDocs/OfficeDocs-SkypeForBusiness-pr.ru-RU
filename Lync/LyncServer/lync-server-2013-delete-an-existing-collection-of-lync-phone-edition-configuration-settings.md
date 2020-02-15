@@ -12,16 +12,16 @@ ms:contentKeyID: 49733574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf7d49a14ce45550777c6c122cd799f6a511f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 175f7d9cd5417f350dd08873aa748c56d829d86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737409"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737409"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Если вы больше не хотите использовать коллекцию параметров для устройств с Lync Phone Edition, удалите ее. Если вы удалите коллекцию для сайта, глобальные параметры будут применены к телефонам на этом сайте. Вы не можете удалить глобальную коллекцию.
+Если вы больше не хотите использовать набор параметров для устройств с Lync Phone Edition, удалите его. Если вы удалите коллекцию для сайта, глобальные параметры будут применяться к телефонам на этом сайте. Вы не можете удалить глобальную коллекцию.
 
 <div>
 
 
 > [!NOTE]
-> Вместо удаления коллекции, возможно, потребуется изменить некоторые параметры. Подробнее о том, как это сделать, можно найти <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">в разделе Создание или изменение семейства параметров конфигурации Lync Phone Edition в Lync Server 2013</A>.
+> Вместо удаления коллекции может потребоваться изменить некоторые параметры. Сведения о том, как это сделать, можно найти <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">в статье Создание или изменение коллекции параметров конфигурации Lync Phone Edition в Lync Server 2013</A>.
 
 
 
@@ -55,22 +55,22 @@ _**Тема последнего изменения:** 2013-02-23_
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **Клиенты**, а затем нажмите кнопку Навигация по **конфигурации устройства** .
+3.  На левой панели навигации щелкните **Клиенты**, затем нажмите кнопку навигации **Настройки устройств**.
 
-4.  На странице **Конфигурация устройства** выберите коллекцию, которую вы хотите удалить, а затем в меню **Правка** выберите команду **Удалить**.
+4.  На странице " **Конфигурация устройства** " щелкните удаляемую коллекцию, а затем выберите команду **Удалить**в меню **Правка** .
     
     <div>
     
 
     > [!NOTE]
-    > Если вы удалите глобальную коллекцию, для параметров будет восстановлены параметры по умолчанию. Коллекция не выходит за края.
+    > Если вы удаляете глобальную коллекцию, параметры просто возвращаются к параметрам по умолчанию. Коллекция не отключается.
 
     
     </div>
 
-5.  В диалоговом окне подтверждения нажмите кнопку **ОК**.
+5.  В окне подтверждения нажмите кнопку **ОК**.
 
 </div>
 
@@ -78,13 +78,13 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Удаление параметров конфигурации Lync Phone Edition с помощью командлетов Windows PowerShell
 
-Вы можете удалить параметры конфигурации Lync Phone Edition с помощью Windows PowerShell и командлета **Remove-ксукконфигуратион** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Параметры конфигурации Lync Phone Edition можно удалить с помощью Windows PowerShell и командлета **Remove – ксукконфигуратион** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>Удаление заданной коллекции параметров конфигурации Lync Phone Edition
+## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>Удаление указанной коллекции параметров конфигурации Lync Phone Edition
 
-  - Эта команда удаляет параметры конфигурации телефона UC, примененные к сайту Redmond.
+  - Эта команда удаляет параметры конфигурации телефона UC, применяемые к сайту Redmond:
     
         Remove-CsUCPhoneConfiguration -Identity "site:Redmond"
 
@@ -94,7 +94,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-applied-to-the-site-scope"></a>Удаление всех параметров конфигурации Lync Phone Edition, примененных к области сайта
 
-  - Эта команда удаляет все параметры конфигурации телефона UC, примененные к области действия службы.
+  - Эта команда удаляет все параметры конфигурации телефона UC, применяемые к области службы:
     
         Get-CsUCPhoneConfiguration -Filter "site:*" | Remove-CsUCPhoneConfiguration
 
@@ -102,15 +102,15 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>Удаление всех параметров конфигурации Lync Phone Edition с отключенной блокировкой телефона
+## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>Удаление всех параметров конфигурации Lync Phone Edition, в которых отключена Блокировка телефона
 
-  - Эта команда удаляет все наборы параметров конфигурации телефона UC, в которых заблокирована телефонная блокировка.
+  - Эта команда удаляет любую коллекцию параметров конфигурации телефона UC, в которых отключена Блокировка телефона:
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
 </div>
 
-Подробности можно найти в разделе [Remove-ксукфонеконфигуратион](https://technet.microsoft.com/en-us/library/Gg398249(v=OCS.15)).
+Дополнительные сведения см. в разделе [Remove – CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15)).
 
 </div>
 

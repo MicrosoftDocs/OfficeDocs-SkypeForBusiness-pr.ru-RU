@@ -12,16 +12,16 @@ ms:contentKeyID: 48183347
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5758d5e28610906b743888d25197385ef542717
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4bb0bcb30c49a44fe92920d4db77d6bf9697cd9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756193"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41756193"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Данные, заархивированные в архивных базах данных, не доступны для поиска или чтения, но можно использовать командлет Export-CsArchivingData для извлечения записей из базы данных и их сохранения в виде файла EML (Outlook Electronic Mail). Подробнее об экспорте архивных данных можно найти в разделе [Export-ксарчивингдата](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) в документации по эксплуатации.
+Данные, архивные в базах данных архивации, не могут быть доступны для поиска или в удобочитаемом формате, но вы можете использовать командлет Export-CsArchivingData для извлечения записей из базы данных и сохранения их в виде файла электронной почты Outlook (EML). Подробные сведения об экспорте архивных данных можно найти в статье [Export – CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) в документации по операциям.
 
-При включении интеграции с Microsoft Exchange данные архивируются в хранилищах Exchange 2013. Данные, сохраненные в Exchange 2013, можно найти и обнаруживаемые. Дополнительные сведения о поддержке интегрированной связи для Exchange 2013 и Lync Server 2013 можно найти в разделе Документация по поддержке [Exchange Server и интеграции с SharePoint в Lync server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) . Подробные сведения о доступе к данным, архивированным в Exchange, можно найти в документации по Exchange 2013.
+Если вы включаете интеграцию Microsoft Exchange, данные архивируются в хранилищах Exchange 2013. Данные, архивные в Exchange 2013, являются доступными для поиска и обнаружения. Для получения дополнительных сведений о поддержке интегрированных коммуникаций для Exchange 2013 и Lync Server 2013, ознакомьтесь со статьей [Поддержка интеграции Exchange Server и SharePoint в Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md) в документации по поддержке. Сведения о доступе к данным, архивированным в Exchange, можно найти в документации по Exchange 2013.
 
 <div>
 
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>Экспорт данных архивации с помощью командлетов Windows PowerShell
 
-Данные для архивации можно экспортировать с помощью командлета Export-Ксарчивингдата. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Архивированные данные можно экспортировать с помощью командлета Export-CSArchivingData. Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 **Экспорт данных архивации**
 
-  - Эта команда экспортирует все данные архивации, внесенные в базу данных архивации atl-sql-001.litwareinc.com с 1 июня 2012 г. Получившийся выходной файл будет храниться в папке C:\\арчивинжекспортс.
+  - Эта команда экспортирует все данные atl-sql-001.litwareinc.com, архивированные с 1 июня 2012 г. Полученный выходной файл будет храниться в папке C:\\арчивинжекспортс.
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 
 **Экспорт данных архивации для одного пользователя**
 
-  - Следующая команда экспортирует данные архивации для одного пользователя: kenmyer@litwareinc.com. Для этого задается параметр UserUri, после которого указывается SIP-адрес пользователя. Пример:
+  - Следующая команда экспортирует архивированные данные для одного пользователя: kenmyer@litwareinc.com. Для этого задается параметр UserUri, за которым указывается SIP-адрес пользователя. Пример:
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-Дополнительные сведения можно найти в разделе справки по командлету [Export-ксарчивингдата](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Export – CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) .
 
 </div>
 
@@ -71,7 +71,7 @@ _**Тема последнего изменения:** 2013-02-23_
 [Поддержка интеграции Exchange Server и SharePoint в Lync Server 2013](lync-server-2013-exchange-and-sharepoint-integration-support.md)  
 
 
-[Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)  
+[Export — CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)  
 [Управление архивированием Lync Server 2013](lync-server-2013-managing-archiving.md)  
   
 

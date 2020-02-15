@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление федеративными поставщиками SIP в организации'
+title: 'Lync Server 2013: Управление федеративными поставщиками SIP для Организации'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18d6fc2b4b5487e3900fc6f7a6a6fe7d63fbe3df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9778e8b071cff254db289b91200279b5badf8a8c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733279"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>Управление федеративными поставщиками SIP в организации в Lync Server 2013
+# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>Управление федеративными поставщиками SIP для Организации в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41733279"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
+Это Предварительная документация, которая может быть изменена. Пустые разделы включены в качестве заполнителей.
 
-Для настройки поддержки пользователей федеративных поставщиков SIP необходимо выполнить следующие действия:
+Для настройки поддержки пользователей федеративных поставщиков SIP необходимо выполнить следующие действия.
 
-  - Настройка одной или нескольких политик доступа внешних пользователей для поддержки взаимодействия с контактами в службах федерации SIP
+  - Настроить одну или несколько политик доступа внешних пользователей для поддержки взаимодействия с контактами федеративного поставщика SIP.
 
-  - Указание размещенных поставщиков, которые будут поддерживаться
+  - Указать размещенных поставщиков, которых планируется поддерживать.
 
-  - Указание общедоступных служб обмена мгновенными сообщениями, которые вы хотите поддерживать
+  - Указать поставщиков общедоступного обмена мгновенными сообщениями, которых планируется поддерживать.
 
-Чтобы выполнить эти задачи, выполните действия, описанные в этом разделе.
+Для выполнения этих задач используйте процедуры из данного раздела.
 
 <div>
 
@@ -55,7 +55,7 @@ _**Тема последнего изменения:** 2012-10-19_
 
   - [Создание или изменение общедоступных федеративных поставщиков SIP в Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
 
-  - [Создание или изменение размещенных федеративных поставщиков SIP в Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+  - [Создание или изменение размещенных федеративных поставщиков SIP Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 </div>
 

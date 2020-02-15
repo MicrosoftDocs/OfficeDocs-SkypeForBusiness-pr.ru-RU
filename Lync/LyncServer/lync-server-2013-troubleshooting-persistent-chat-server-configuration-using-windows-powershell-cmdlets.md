@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: устранение неполадок конфигурации сервера сохраняемого чата с помощью командлетов Windows PowerShell'
+title: 'Lync Server 2013: Устранение неполадок конфигурации сервера сохраняемого чата с помощью командлетов Windows PowerShell'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745009"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Используйте указанные ниже временные решения для устранения проблем с настройкой сервера чата с помощью командлетов интерфейса командной строки Windows PowerShell.
+Используйте следующие обходные пути, чтобы устранить проблемы с конфигурацией сервера сохраняемого чата с помощью командлетов интерфейса командной строки Windows PowerShell.
 
-  - Если появляется сообщение об ошибке "участник не подготовлен", участник, который вы пытались добавить, недоступен.
+  - Если отображается сообщение об ошибке «субъект не подготовлен», значит добавляемый субъект не существует.
     
     <div>
     
 
     > [!TIP]  
-    > Временное решение — не обойти проблему. Это сообщение об ошибке означает, что участник недоступен.
+    > Обходной путь — отсутствует. Это сообщение об ошибке просто указывает на то, что данный субъект не существует.
 
     
     </div>

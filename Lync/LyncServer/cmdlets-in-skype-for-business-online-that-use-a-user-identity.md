@@ -13,63 +13,63 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94c29eb2aadefcb6a9f3ca9b5c11a49f7e41167a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8310d5e25b5fc3dd3ada43fcf3c8f899f60e5a7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728129"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001264"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Командлеты в Skype для бизнеса Online, использующие удостоверение пользователя
 
  
 
 
-В Skype для бизнеса Online есть несколько способов ссылки на индивидуальные удостоверения пользователей.
+В Skype для бизнеса Online существует несколько различных способов ссылки на индивидуальные удостоверения пользователей.
 
-  - Введите отображаемое имя пользователя доменных служб Active Directory. Например:
+  - Используйте отображаемое имя доменных служб Active Directory пользователя. Пример:
     
         -Identity "Ken Myer"
 
-  - Используйте SIP-адрес пользователя. Например:
+  - Используйте SIP адрес пользователя. Пример:
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - Используйте имя участника-пользователя. Например:
+  - Используйте имя участника-пользователя. Пример:
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Используйте различающееся имя доменных служб Active Directory пользователя. Например:
+  - Используйте различающееся имя доменных служб Active Directory пользователя. Пример:
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Следующие командлеты допускают удостоверение пользователя:
+Следующие командлеты принимают удостоверение пользователя:
 
-  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
+  - [Disable — CsMeetingRoom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
+  - [Enable — CsMeetingRoom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
+  - [Get — CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
+  - [Get — CsMeetingRoom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
+  - [Get — CsOnlineUser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
+  - [Get — CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
+  - [New — CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
+  - [Remove — CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
+  - [Remove — CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
+  - [Set — CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
+  - [Set — CsMeetingRoom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
+  - [Set — CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))
 
-Обратите внимание, что при вызове одного из командлетов **Get-CS** вам не нужно указывать удостоверение пользователя. В этом случае командлеты возвращают все экземпляры указанного элемента. Например, эта команда возвращает сведения обо всех пользователях, которые были включены в Skype для бизнеса Online:
+Обратите внимание, что не требуется указывать удостоверение пользователя при вызове одного из командлетов **Get – CS** . В этом случае командлеты возвращают все экземпляры указанного элемента. Например, эта команда возвращает сведения обо всех пользователях, которым был разрешен доступ к Skype для бизнеса Online:
 
     Get-CsOnlineUser
 
@@ -81,5 +81,5 @@ ms.locfileid: "41728129"
 
 
 [Удостоверения, области и клиенты в Skype для бизнеса Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Командлеты Skype для бизнеса Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

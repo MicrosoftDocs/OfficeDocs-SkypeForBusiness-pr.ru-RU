@@ -12,16 +12,16 @@ ms:contentKeyID: 48184070
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34344654dfc8d2b26a935607111d8fd417d01c19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05c918d9f06bb1b22fd65bcde13e4049a0bab3c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763593"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-01-18_
+_**Последнее изменение темы:** 2012-01-18_
 
-Queues hold callers until an agent answers the call. Когда приложение группы ответа осуществляет поиск доступного агента, он выполняет поиск групп агента в том порядке, в котором они перечислены. You can select the agent groups that are assigned to the queue and specify queue behavior, such as limiting the number of calls that the queue can hold and the period of time that a call waits until an agent answers the call.
+Вызывающие абоненты размещаются в очередях, пока агент не ответит на вызов. Когда приложение группы ответа выполняет поиск доступного агента, он выполняет поиск групп агентов в том порядке, в котором они перечислены. Можно выбрать группы агентов, назначенные очереди, и указать поведение очереди, такое как ограничение количества вызовов, которое может размещаться в очереди, и время, которое вызов ожидает ответа агента.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-[Создание и изменение очереди в Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)
+[Создание или изменение очереди в Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)
 
 </div>
 

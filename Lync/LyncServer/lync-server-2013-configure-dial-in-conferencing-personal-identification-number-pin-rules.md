@@ -1,5 +1,5 @@
 ---
-title: Настройка правил для личного идентификационного номера конференц-связи с телефонным подключением (PIN)
+title: Настройка правил ПИН-кодов для конференц-связи с телефонным подключением
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aef41f14b37d2a21fa747bb14132bd6e9ba93ad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 243e8d44cb5d6e3662c51c643a86cc9379ee958b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a>Настройка правил для личного идентификационного номера конференц-связи с телефонным подключением (PIN) в Lync Server 2013
+# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a>Настройка правил ПИН-кодов для конференц-связи с телефонным подключением в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735009"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-19_
+_**Последнее изменение темы:** 2012-06-19_
 
-Пользователи Lync Server 2013, у которых есть учетные данные доменных служб Active Directory (AD DS) в вашей организации, могут присоединяться к конференциям в сети для пользователей с проверкой подлинности, используя персональный идентификационный номер (ПИН-код). Политика ПИН-кодов определяет способ работы ПИН-кодов для конференц-связи с телефонным подключением.
+Lync Server 2013 пользователи с учетными данными доменных служб Active Directory (AD DS) в организации могут присоединяться к конференциям в качестве пользователей, прошедших проверку подлинности, с помощью персонального идентификационного номера (ПИН-кода). Политика ПИН-кодов определяет способ работы ПИН-кодов для конференц-связи с телефонным подключением.
 
 Чтобы применить особую политику к узлу или группе пользователей, вы можете создать новую политику ПИН-кодов. Если вы хотите применить одну и ту же политику ПИН-кодов ко всей организации, вы можете использовать глобальную политику ПИН-кодов, изменив ее так, как нужно. Политики ПИН-кодов применяются к пользователям в очередности от самой узкой области действия до самой широкой. Если вы назначили пользователю политику ПИН-кодов на уровне пользователя, ее параметры имеют приоритет. Если вы не назначили политику пользователя, применяется политика ПИН-кодов на уровне узла, если она определена. Если политики пользователя и узла не назначены, действуют параметры по умолчанию глобальной политики ПИН-кодов.
 
@@ -45,11 +45,11 @@ _**Тема последнего изменения:** 2012-06-19_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Изменение параметров ПИН-кодов по умолчанию для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
+  - [Изменение параметров ПИН-кода конференц-связи с телефонным подключением по умолчанию в Lync Server 2013](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [оздание или изменение параметров ПИН-кода для конференц-связи с телефонным подключением в Lync Server 2013 для сайта или группы пользователей](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [Создание или изменение параметров ПИН-кода конференц-связи с телефонным подключением в Lync Server 2013 для сайта или группы пользователей](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
-  - [Удаление параметров контакта конференц-связи с телефонным подключением для сайта или группы пользователей в Lync Server 2013](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [Удаление параметров ПИН-кода конференц-связи с телефонным подключением для сайта или группы пользователей в Lync Server 2013](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Общие сведения о централизованных параметрах конфигурации службы ведения журнала
+title: Общие сведения о параметрах конфигурации службы централизованного ведения журналов
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a766756f082e6666d37dff793c457cb335736fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1bda4fe432841cd005671b18a163df57bd6e0bb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744809"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Общие сведения о централизованных параметрах конфигурации службы ведения журналов в Lync Server 2013
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>Общие сведения о параметрах конфигурации службы централизованного ведения журналов в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744809"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Служба централизованного ведения журналов настраивается для определения того, как должна собираться служба ведения журнала, как она будет собирать данные, откуда она собирается и какие параметры журнала. You define these settings globally (that is, for the entire deployment) or for a site (that is, a named site in your deployment). Any logging that you define will use the settings that are appropriate for the identity that you use for commands to start, stop, flush, and search logs.
+Служба централизованного ведения журналов настраивается на определение того, что должна собирать служба ведения журнала, как она собирает данные, откуда она будет собирать данные и какие параметры журнала. Эти параметры определяются глобально (то есть для всего развертывания) или для сайта (то есть именованный сайт в вашем развертывании). Любое определенное ведение журнала приведет к использованию параметров, подходящих для удостоверения, используемого для команд запуска, остановки, очистки журналов и выполнения поиска.
 
 <div>
 
-## <a name="to-display-the-current-centralized-logging-service-configuration"></a>Чтобы отобразить текущую конфигурацию централизованной службы ведения журнала
+## <a name="to-display-the-current-centralized-logging-service-configuration"></a>Отображение текущей конфигурации централизованной службы ведения журналов
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 2.  Введите следующую команду в командной строке:
     
@@ -53,14 +53,14 @@ _**Тема последнего изменения:** 2013-02-21_
     
 
     > [!TIP]
-    > Вы можете сузить или расширить область параметров конфигурации, возвращаемых определением <CODE>-Identity</CODE> и областью, например "site: Redmond", чтобы возвращать только Ксклсконфигуратион для Redmond сайта. Если вы хотите получить подробные сведения о конкретной части конфигурации, вы можете передать эти данные в другой командлет Windows PowerShell. Например, чтобы получить подробные сведения о сценариях, определенных в конфигурации для сайта Redmond, введите:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > Вы можете сузить или расширить область параметров конфигурации, возвращаемых определением <CODE>-Identity</CODE> и областью, например "site: Redmond", чтобы возвратить только CsClsConfiguration для сайта Redmond. Если вы хотите получить подробные сведения об определенной части конфигурации, вы можете передать выходные данные в другой командлет Windows PowerShell. Например, чтобы получить сведения о сценариях, определенных в конфигурации для сайта Redmond, введите:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
     
-    ![Выход выборки из Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Выход выборки из Get-CsClsConfiguration.")
+    ![Пример выходных данных Get – CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Пример выходных данных Get – CsClsConfiguration.")
     
-    Результат командлета выводит текущую конфигурацию централизованной службы ведения журнала.
+    В результате выполнения командлета отображается текущая конфигурация централизованной службы ведения журналов.
     
     
     <table>
@@ -76,7 +76,7 @@ _**Тема последнего изменения:** 2013-02-21_
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><strong>Identity</strong></p></td>
+    <td><p><strong>Идентификация</strong></p></td>
     <td><p>Определяет область действия и имя данной конфигурации.  Существует одна глобальная конфигурация и по одной конфигурации для каждого сайта.</p></td>
     </tr>
     <tr class="even">
@@ -88,55 +88,55 @@ _**Тема последнего изменения:** 2013-02-21_
     <td><p>Определенные поисковые запросы для этой конфигурации. Office 365, а не локальные развертывания.</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>SecurityGroups</strong></p></td>
-    <td><p>Определенные группы безопасности, которые управляют кто (т. е. участники групп безопасности) могут просматривать компьютеры на основе сайта их размещения. Сайт в данном контексте — сайт, определенный в построителе топологии.</p></td>
+    <td><p><strong>Групп безопасности</strong></p></td>
+    <td><p>Определенные группы безопасности, которые управляют кто (т. е. участники групп безопасности) могут просматривать компьютеры на основе сайта их размещения. Сайт в данном контексте — это сайт, определенный в построителе топологий.</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>Regions</strong></p></td>
+    <td><p><strong>Регионы</strong></p></td>
     <td><p>Определенные регионы используются для сбора групп безопасности по регионам, например EMEA (страны Европы, Ближнего Востока и Африки).</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>етлфилефолдер</strong></p></td>
-    <td><p>Определенный путь к расположению, в котором файлы журнала записываются на компьютеры. Клсажент записывает файлы журнала и запускается в контексте сетевой службы. В этом случае% TEMP% разворачивается до%Виндир%\сервицепрофилес\нетворксервице\аппдата\локал</p></td>
+    <td><p>Определенный путь к месту сохранения файлов журналов на компьютерах. CLSAgent записывает файлы журналов и работает в контексте сетевой службы. В этом случае значением переменной %TEMP% является %WINDIR%\ServiceProfiles\NetworkService\AppData\Local</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>EtlFileRolloverSizeMB</strong></p></td>
+    <td><p><strong>етлфилеролловерсиземб</strong></p></td>
     <td><p>Данный параметры указывает максимальный размер файла журнала до создания нового файла трассировки журнала (.etl). Новый файл журнала создается при достижении определенного размера, даже если не было достигнуто значение, заданное в параметре EtlFileRolloverMinutes.</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>EtlFileRolloverMinutes</strong></p></td>
+    <td><p><strong>етлфилеролловерминутес</strong></p></td>
     <td><p>Определенное максимальное время существования журнала (в минутах) до создания нового ETL-файла. Новый файл журнала создается по завершении таймера, даже если еще не было достигнуто значение максимального размера, заданное в параметре EtlFileRolloverSizeMB.</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>TmfFileSearchPath</strong></p></td>
-    <td><p>Местоположение для поиска файлов формата трассировки сообщений. Файлы формата сообщений трассировки используются для преобразования двоичных файлов в формат, пригодный для восприятия.</p></td>
+    <td><p><strong>тмффилесеарчпас</strong></p></td>
+    <td><p>Местоположение для поиска файлов формата трассировки сообщений. Файлы формата трассировки сообщений используются для преобразования двоичных файлов в понятный для восприятия формат.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>CacheFileLocalFolders</strong></p></td>
     <td><p>Определенный путь к месту сохранения файлов кэша на компьютерах. CLSAgent записывает файлы кэша и работает в контексте сетевой службы. В этом случае значением переменной %TEMP% является %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. По умолчанию файлы кэша и файлы журнала записываются в один каталог.</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>CacheFileNetworkFolder</strong></p></td>
+    <td><p><strong>качефиленетворкфолдер</strong></p></td>
     <td><p>Можно определить UNC-путь для получения файлов кэша во время операций ведения журналов.</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>CacheFileLocalRetentionPeriod</strong></p></td>
+    <td><p><strong>качефилелокалретентионпериод</strong></p></td>
     <td><p>Определяется как максимальное время в днях для сохранения файлов кэша.</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>CacheFileMaxDiskUsage</strong></p></td>
+    <td><p><strong>качефилемаксдискусаже</strong></p></td>
     <td><p>Определяется как часть дискового пространства (выраженное в процентах), которое может использоваться под файлы кэша.</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>ComponentThrottleLimit</strong></p></td>
+    <td><p><strong>Превышений значения componentthrottlelimit</strong></p></td>
     <td><p>Определяется как максимальное количество трассировок в секунду, которое может создавать компонент до активации автоматического ограничителя.</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>ComponentThrottleSample</strong></p></td>
+    <td><p><strong>компонентсроттлесампле</strong></p></td>
     <td><p>Количество превышений значения ComponentThrottleLimit в течение 60 секунд.</p></td>
     </tr>
     <tr class="even">
-    <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
+    <td><p><strong>минимумклсажентсервицеверсион</strong></p></td>
     <td><p>Минимальная версия CLSAgent, допустимая для запуска. Этот элемент предназначен для Office 365.</p></td>
     </tr>
     </tbody>
@@ -150,13 +150,13 @@ _**Тема последнего изменения:** 2013-02-21_
 ## <a name="see-also"></a>См. также
 
 
-[Общие сведения об централизованной службе ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Обзор централизованной службы ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
+[Set — CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[Remove — CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
+[New — CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[Get — CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
   
 
 </div>

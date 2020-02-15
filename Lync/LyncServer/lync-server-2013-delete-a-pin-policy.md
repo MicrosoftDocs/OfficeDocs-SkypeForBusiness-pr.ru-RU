@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Удаление политики ПИН-кода'
+title: 'Lync Server 2013: Удаление политики ПИН-кодов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc11f1383ec652c512fe5542d9a6780ce028c516
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38f8c9899665353d33682cc0c780cd7411b0abfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740999"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-pin-policy-in-lync-server-2013"></a>Удаление политики ПИН-кода в Lync Server 2013
+# <a name="delete-a-pin-policy-in-lync-server-2013"></a>Удаление политики ПИН-кодов в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41740999"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
 Чтобы удалить политику персональных идентификационных номеров (политику ПИН-кодов), выполните следующие действия.
 
@@ -51,31 +51,31 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a>Удаление политики ПИН-кода в Lync Server 2013 панели управления
+## <a name="to-delete-a-pin-policy-in-lync-server-2013-control-panel"></a>Удаление политики ПИН-кодов в панели управления Lync Server 2013
 
-1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации последовательно выберите пункты **Безопасность** и **Политика ПИН-кода**.
+3.  В левой панели навигации последовательно выберите пункты **Security (Безопасность)** и **PIN Policy (Политика ПИН-кодов)**.
 
-4.  На странице **Политика ПИН-кода** в поле поиска полностью или частично введите имя политики, которую требуется удалить.
+4.  На странице **PIN Policy (Политика ПИН-кодов)** в поле поиска полностью или частично введите имя политики, которую требуется удалить.
 
-5.  В списке политик выберите необходимую политику, щелкните **Правка**, затем выберите **Удалить**.
+5.  В появившемся списке политик щелкните нужную политику и последовательно выберите в меню пункты **Правка** и **Удалить**.
 
-6.  Нажмите **ОК**.
+6.  Нажмите кнопку **ОК**.
 
 </div>
 
 <div>
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик закрепления с помощью командлетов Windows PowerShell
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Удаление политик ПИН-кодов с помощью командлетов Windows PowerShell
 
-Вы можете удалять политики закрепления с помощью Windows PowerShell и командлета Remove-Кспинполици. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Политики ПИН-кодов можно удалить с помощью Windows PowerShell и командлета Remove-CsPinPolicy. Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-remove-a-specific-pin-policy"></a>Удаление определенной политики ПИН-кода
+## <a name="to-remove-a-specific-pin-policy"></a>Удаление определенной политики ПИН-кодов
 
   - Эта команда удаляет политику ПИН-кода с идентификатором RedmondPinPolicy:
     
@@ -85,7 +85,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Порядок применения всех политик ПИН-кода, применяемых на уровне сайта
+## <a name="to-remove-all-the-pin-policies-applied-to-the-site-scope"></a>Удаление всех политик ПИН-кодов, примененных к области сайта
 
   - Эта команда удаляет все политики ПИН-кода, настроенные в области действия сайта:
     
@@ -103,7 +103,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Remove-кспинполици](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Remove – CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsPinPolicy) .
 
 </div>
 

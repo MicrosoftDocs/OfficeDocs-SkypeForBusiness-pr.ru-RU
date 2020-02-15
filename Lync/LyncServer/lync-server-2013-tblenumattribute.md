@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblEnumAttribute'
+title: 'Lync Server 2013: Тбленуматтрибуте'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblenumattribute-in-lync-server-2013"></a>tblEnumAttribute в Lync Server 2013
+# <a name="tblenumattribute-in-lync-server-2013"></a>Тбленуматтрибуте в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764195"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тбленуматтрибуте — это жесткая таблица, которая содержит атрибуты видимости и поведения, которые используются в таблице node.
+Жестко запрограммированная таблица tblEnumAttribute содержит атрибуты Visibility и Behavior, которые используются в таблице Node.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ _**Тема последнего изменения:** 2012-09-12_
 <tbody>
 <tr class="odd">
 <td><p>attributeID</p></td>
-<td><p>smallint, NOT NULL</p></td>
+<td><p>smallint, не может быть null</p></td>
 <td><p>Идентификатор атрибута.</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>nvarchar (256), не может быть null</p></td>
 <td><p>Имя атрибута.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>
@@ -106,12 +106,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Отображение.</p></td>
+<td><p>1 </p></td>
+<td><p>Доступности.</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>Расширения.</p></td>
+<td><p>2 </p></td>
+<td><p>Такое.</p></td>
 </tr>
 </tbody>
 </table>

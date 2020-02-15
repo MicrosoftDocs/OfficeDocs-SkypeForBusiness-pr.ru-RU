@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проведение тестов маршрутизации голосовой связи'
+title: 'Lync Server 2013: выполнение тестов маршрутизации голосовой связи'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 869966f5d315fdfaa92409a7586b9eec8fd01ec4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a04188d671c514557107a7e54eab9ea00d00f2a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765037"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-voice-routing-tests-in-lync-server-2013"></a>Проведение тестов маршрутизации голосовой связи в Lync Server 2013
+# <a name="running-voice-routing-tests-in-lync-server-2013"></a>Выполнение тестов маршрутизации голосовой связи в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765037"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Lync Server 2013 предлагает два разных способа проверки голосовых маршрутов: неформальное, нерегламентированное тестирование на любом номере телефона и любом маршруте голосовой связи; Кроме того, вы можете выполнить более формальное тестирование с помощью тестовых случаев маршрутов голосовой связи. При формальном тестировании вы определяете, как набранный номер, а также с помощью абонентской группы и политики голосовой связи, и Lync Server может проверить, что при условии, что при этом предоставленный номер может успешно перенаправляться в сеть PSTN. Оба этих способа описаны в последующих разделах этой документации.
+Lync Server 2013 предоставляет два различных метода тестирования маршрутов голосовой связи: неформальное, нерегламентированное тестирование по любому номеру телефона и любому маршруту голоса; Вы также можете выполнить более формальное тестирование с помощью тестовых случаев маршрутизации голосовых вызовов. При формальном тестировании вы определяете, как набираемый номер, назначенная абонентская политика и политика голосовой связи, а Lync Server может проверить, что при наличии этих условий предоставленный номер может успешно маршрутизироваться в сеть PSTN. Оба этих метода описаны в последующих разделах настоящей документации.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Выполнение неформальных проверок голосовой маршрутизации в Lync Server 2013](lync-server-2013-run-informal-voice-routing-tests.md)
+  - [Выполнение неформальных тестов маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-run-informal-voice-routing-tests.md)
 
-  - [Запуск тестовых случаев маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)
+  - [Запуск тестовых примеров маршрутизации голосовой связи в Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)
 
 </div>
 

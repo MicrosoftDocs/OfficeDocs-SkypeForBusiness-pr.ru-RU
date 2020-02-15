@@ -1,5 +1,5 @@
 ---
-title: Удаление сервера переднего плана Enterprise Edition или стандартного выпуска Standard Edition
+title: Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74689dcc730874ecaea0aef31ab18cfc2e9c2c1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727159"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008875"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Удаление сервера переднего плана Enterprise Edition или стандартного выпуска Standard Edition
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Удаление сервера переднего плана Enterprise Edition или сервера переднего плана Standard Edition
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727159"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-10_
+_**Последнее изменение темы:** 2012-10-10_
 
-Процедуры, описанные в этом разделе, предназначены для того, чтобы попытаться выполнить удаление пула переднего плана Microsoft Lync Server 2010 Enterprise Edition или стандартного сервера переднего плана Standard Edition. После перехода на Lync Server 2013 это один из первых шагов, позволяющих списать устаревшую среду Lync Server 2010.
+Процедуры, описанные в этом разделе, помогут вам удалить пул переднего плана Microsoft Lync Server 2010 Enterprise Edition или сервер переднего плана Standard Edition. После перехода на Lync Server 2013 это один из первых этапов списания вашей устаревшей среды Lync Server 2010.
 
 <div>
 
@@ -45,13 +45,13 @@ _**Тема последнего изменения:** 2012-10-10_
 
   - [Сброс контроля допуска звонков](reset-call-admission-control.md)
 
-  - [Запрет сеансов для служб](prevent-sessions-for-services.md)
+  - [Предотвращение сеансов для служб](prevent-sessions-for-services.md)
 
   - [Остановка служб Lync Server 2010](stop-lync-server-2010-services.md)
 
   - [Удаление сервера переднего плана из пула](remove-a-front-end-server-from-a-pool.md)
 
-  - [Удаление пула переднего плана или сервера Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
+  - [Удаление внешнего интерфейса пула или сервера Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828e81d028fb476362a91c4fa0ab83c5e2c34c20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b82d8a03f159aa1c99d53dd06a0811847f77b12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744419"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragent-view-in-lync-server-2013"></a>Представление "UserAgent" в Lync Server 2013
+# <a name="useragent-view-in-lync-server-2013"></a>Представление UserAgent в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744419"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
-В представлении UserAgent хранятся сведения о агентах пользователей, которые были вовлечены в сеансы с записями в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
+В представлении UserAgent хранятся сведения об агентах пользователей, участвовавших в сеансах, для которых в базе данных есть соответствующие записи. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -50,29 +50,29 @@ _**Тема последнего изменения:** 2012-10-03_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробности</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>усераженткэй</p></td>
-<td><p>целое</p></td>
-<td><p>Уникальный номер, идентифицирующий агент пользователя.</p></td>
+<td><p>int</p></td>
+<td><p>Уникальное число, идентифицирующее этот агент пользователя.</p></td>
 </tr>
 <tr class="even">
 <td><p>UserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Строка агента пользователя.</p></td>
 </tr>
 <tr class="odd">
-<td><p>уатипе</p></td>
+<td><p>UAType</p></td>
 <td><p>smallint</p></td>
-<td><p>Тип агента пользователя. Дополнительные сведения приведены <a href="lync-server-2013-useragent-table.md">в таблице UserAgent в Lync Server 2013</a> .</p></td>
+<td><p>Тип агента пользователя. Дополнительные сведения см. <a href="lync-server-2013-useragent-table.md">в таблице UserAgent в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>уакатегори</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Категория, к которой принадлежит агент пользователя. Например, агент пользователя Conferencing_Attendant_1 .0 принадлежит Уакатегори Каа.</p></td>
+<td><p>Категория, к которой принадлежит агент пользователя. Например, агент пользователя Conferencing_Attendant_1.0 принадлежит UACategory CAA.</p></td>
 </tr>
 </tbody>
 </table>

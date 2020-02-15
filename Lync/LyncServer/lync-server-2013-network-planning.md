@@ -12,20 +12,20 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6084fdb6a73566c14185e5b39d1064aa7d5d3647
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eed16a295e678ea2df169fc2d1ec9ddb2eb33d90
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765910"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="network-planning-for-lync-server-2013"></a>Сетевое планирование для Lync Server 2013
+# <a name="network-planning-for-lync-server-2013"></a>Планирование сети для Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765910"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-10_
+_**Последнее изменение темы:** 2012-09-10_
 
-Вы можете использовать подразделы в этом разделе, чтобы убедиться в том, что сеть готова к работе с Lync Server.
+Можно использовать разделы, приведенные в этой главе, чтобы убедиться, что сеть готова к установке сервера Lync Server.
 
 <div>
 
@@ -47,13 +47,13 @@ _**Тема последнего изменения:** 2012-09-10_
 
   - [Планирование и настройка IPv6 в Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)
 
-  - [Требования балансировки нагрузки для Lync Server 2013](lync-server-2013-load-balancing-requirements.md)
+  - [Требования к балансировке нагрузки для Lync Server 2013](lync-server-2013-load-balancing-requirements.md)
 
   - [Требования к системе доменных имен (DNS) для Lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md)
 
   - [Требования к портам для Lync Server 2013](lync-server-2013-port-requirements.md)
 
-  - [Требования к пропускной способности сети для мультимедийного трафика в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
+  - [Требования к пропускной способности сети для трафика мультимедиа в Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
 
   - [Управление качеством обслуживания (QoS) в Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md)
 

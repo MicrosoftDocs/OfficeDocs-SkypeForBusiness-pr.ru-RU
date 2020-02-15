@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Управление обсоединением групп'
+title: 'Lync Server 2013: Управление групповой отправке звонков'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 314623577888576a502baa29cc83ba11d8d1f71d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8437e31f76efb1fe188fc22b4d630562e7e391c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762127"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-group-call-pickup-in-lync-server-2013"></a>Управление обсоединением групп в Lync Server 2013
+# <a name="managing-group-call-pickup-in-lync-server-2013"></a>Управление групповой отправке вызовов в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762127"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Накопительное обновление для Lync Server 2013: Февраль 2013 вводит функцию отправки группового звонка в качестве новой функции голосовой связи. Отправка группового звонка пользователи предприятий голосовой связи смогут совершать звонки, которые поступают за другие пользователи, набрав номер группы для отправки звонков.
+Накопительный пакет обновления для Lync Server 2013: в феврале 2013 появился новый компонент корпоративной голосовой связи. Групповое получение звонков позволяет пользователям корпоративной голосовой связи получать звонки, которые вызывают звонок для другого пользователя путем набора номера группы ответа на звонки.
 
-В этой статье приведены пошаговые инструкции для задач, которые необходимо выполнить для настройки отправки групповых звонков в развертывании.
+В подразделах этого раздела приводятся пошаговые процедуры для выполнения задач по настройке групповой отправки вызовов в развертывании.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Настройка диапазонов номеров для группового приема звонков в Lync Server 2013](lync-server-2013-configure-group-call-pickup-number-ranges.md)
+  - [Настройка диапазонов номеров для группового ответа на звонки в Lync Server 2013](lync-server-2013-configure-group-call-pickup-number-ranges.md)
 
-  - [Назначение номеров группового звонка пользователям в Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
+  - [Назначение номера группы для отправки звонков пользователям в Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
 
-  - [Включение и отключение отправки группового звонка для пользователей в Lync Server 2013](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
+  - [Включение или отключение групповой отправки звонков для пользователей в Lync Server 2013](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
 
-  - [Управление расведением группового звонка во время восстановления после аварии в Lync Server 2013](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
+  - [Управление отправке звонков по группам во время аварийного восстановления в Lync Server 2013](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
 
 </div>
 

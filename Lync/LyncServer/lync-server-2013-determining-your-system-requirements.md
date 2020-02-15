@@ -12,16 +12,16 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4798c763732f529de029db217eccd241902459ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52edce26ca2bfd82113f576344bf89912f69ed1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762457"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762457"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-01-02_
+_**Последнее изменение темы:** 2014-01-02_
 
-Все серверы, на которых работает Lync Server, должны соответствовать определенным минимальным требованиям к системе. Требования к системе для Lync Server включают оборудование сервера, операционную систему, устанавливаемую на каждый сервер, и требования к программному обеспечению, такие как обновления Windows и другие программы, которые должны быть установлены на серверах.
+Все серверы, на которых работает Lync Server, должны соответствовать определенным минимальным требованиям к системе. Требования к системе для Lync Server включают серверное оборудование, операционную систему, устанавливаемую на каждом сервере, а также требования к связанному программному обеспечению, такие как обновления Windows и другое программное обеспечение, которое должно быть установлено на серверах.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server доступен только в 64-разрядном выпуске, требующем 64-разрядного оборудования и 64-bit Edition для Windows Server. Исключением является Microsoft Lync Server 2013, средство планирования, доступное в 32-разрядном выпуске.
+> Lync Server доступен только в 64-разрядном выпуске, для которого требуется 64-разрядное оборудование и Windows Server 64-bit Edition. Исключением является Microsoft Lync Server 2013, средство планирования, которое доступно в 32-разрядном выпуске.
 
 
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2014-01-02_
 
 
 > [!NOTE]  
-> Подробные сведения о поддержке службы Active Directory, поддерживаемых топологиях, размещении серверов и других проблемах поддержки описаны в разделе <A href="lync-server-2013-supportability.md">Поддержка поддержки для Lync server 2013</A>.
+> Для получения дополнительных сведений о поддержке Active Directory, поддерживаемых топологиях, размещении серверов и других проблемах с поддержкой, ознакомьтесь со статьей <A href="lync-server-2013-supportability.md">Поддержка для Lync server 2013</A>.
 
 
 
@@ -65,7 +65,7 @@ _**Тема последнего изменения:** 2014-01-02_
 
   - [Аппаратные серверные платформы для Lync Server 2013](lync-server-2013-server-hardware-platforms.md)
 
-  - [Поддержка сервера и средств в операционной системе в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
   - [Поддержка программного обеспечения баз данных в Lync Server 2013](lync-server-2013-database-software-support.md)
 
@@ -78,8 +78,8 @@ _**Тема последнего изменения:** 2014-01-02_
 ## <a name="see-also"></a>См. также
 
 
-[Поддерживаемое оборудование клиентов и устройств в Lync Server 2013](lync-server-2013-client-and-device-hardware-support.md)  
-[Обеспечение поддержки для Lync Server 2013](lync-server-2013-supportability.md)  
+[Поддержка оборудования клиентов и устройств в Lync Server 2013](lync-server-2013-client-and-device-hardware-support.md)  
+[Поддержка для Lync Server 2013](lync-server-2013-supportability.md)  
   
 
 </div>

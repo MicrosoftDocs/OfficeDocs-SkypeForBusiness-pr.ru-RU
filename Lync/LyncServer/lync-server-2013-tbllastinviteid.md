@@ -12,16 +12,16 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92a51ed9b775990d048bf45bfa54a893ba15856
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b58f43c696a6218d0dd9b670615cc0f73b0b7ae3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764175"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблластинвитеид — это последний идентификатор приглашения, созданный (и использованный в таблице ТблпринЦипалинвитес) для каждого пользователя.
+Таблица tblLastInviteId содержит последний код приглашения, созданного (и используемого в таблице tblPrincipalInvites) для каждого пользователя.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,20 +56,20 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор участника.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>Код участника.</p></td>
 </tr>
 <tr class="even">
 <td><p>ластинвитеид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор приглашения последнего использован.</p></td>
+<td><p>int, не null</p></td>
+<td><p>Последний использованный код приглашения.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -84,12 +84,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>принид</p></td>
+<td><p>prinID</p></td>
 <td><p>Первичный ключ.</p></td>
 </tr>
 <tr class="even">
-<td><p>принид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</p></td>
+<td><p>prinID</p></td>
+<td><p>Внешний ключ с поиском в таблице tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

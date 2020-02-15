@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования к инфраструктуре средств администрирования'
+title: 'Lync Server 2013: требования к инфраструктуре административных средств'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bdef9998cf620f2718b8fa42a1f8337af93a9a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13c1ae59995a89f121b2073fdd0be374269268df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737949"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737949"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-27_
+_**Последнее изменение темы:** 2012-09-27_
 
-У вас нет дополнительных требований к инфраструктуре для установки Microsoft Lync Server 2013 Tools или выполнения большинства задач управления с помощью этих средств. Требования к инфраструктуре для конкретных сценариев описаны в разделах этой статьи.
+Не существует дополнительных требований к инфраструктуре для установки средств администрирования Microsoft Lync Server 2013 или выполнения большинства задач управления с помощью этих средств. Требования к инфраструктуре для определенных сценариев см. в подразделах настоящего раздела.
 
 <div>
 
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2012-09-27_
 
   - [Требования DNS для простых URL-адресов в Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [Изменить или настроить простые URL-адреса в Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
+  - [Изменение или Настройка простых URL-адресов в Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
 
 </div>
 
@@ -57,7 +57,7 @@ _**Тема последнего изменения:** 2012-09-27_
 
 ## <a name="related-sections"></a>Связанные разделы
 
-  - [командная консоль Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
+  - [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)
 
 </div>
 
@@ -69,10 +69,10 @@ _**Тема последнего изменения:** 2012-09-27_
 [Установка средств администрирования Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  
 
 
-[Программные требования для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
+[Требования к программному обеспечению для средств администрирования в Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
 
 
-[Административные права и разрешения, необходимые для установки и администрирования Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[Права и разрешения администратора, необходимые для установки и администрирования Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

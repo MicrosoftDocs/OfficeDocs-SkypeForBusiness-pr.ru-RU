@@ -12,20 +12,20 @@ ms:contentKeyID: 48185299
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32eee413b25da3231d5633e89571bbc08deb1f38
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4043c90cffc99b0c262e9091d3cb98d15ff89818
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764455"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Определение хранения данных CDR в Lync Server 2013
+# <a name="specifying-retention-of-cdr-data-in-lync-server-2013"></a>Указание хранения данных CDR в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41764455"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
 По умолчанию данные регистрации вызовов (CDR) удаляются по прошествии 60 дней. Можно использовать параметры на странице **Регистрация вызовов**, чтобы задать хранение данных в течение большего или меньшего времени. Если отключить CDR, то данные, которые были записаны до включения CDR, также будут удаляться.
 
@@ -55,9 +55,9 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="to-specify-retention-of-cdr-data"></a>Настройка хранения данных CDR
 
-1.  Войдите в учетную запись пользователя, которая является членом группы Рткуниверсалсерверадминс (или имеет эквивалентные права пользователей) или назначьте роль Кссерверадминистратор или Ксадминистратор, выполните вход на любой компьютер в сети, в которой вы развернули Lync Server 2013.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsServerAdministrator или CsAdministrator, войдите на любой компьютер в сети, в которой развернут Lync Server 2013.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  В левой панели навигации щелкните **Мониторинг и архивирование**, а затем — **Регистрация вызовов**.
 
@@ -69,7 +69,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 7.  В параметре **Хранить сведения отчетов об ошибках максимум в течение (дней):** выберите максимальное число дней, в течение которых должны храниться данные отчетов об ошибках.
 
-8.  Щелкните **Исполнить**.
+8.  Нажмите кнопку **Зафиксировать**.
 
 </div>
 
@@ -77,7 +77,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Указание хранения CDR с помощью командлетов Windows PowerShell
 
-Вы можете создать параметры хранения CDR с помощью Windows PowerShell и командлета Set-Кскдрконфигуратион. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Параметры хранения CDR можно создать с помощью Windows PowerShell и командлета Set-CsCdrConfiguration. Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
@@ -99,7 +99,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Set-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Set – CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .
 
 </div>
 
@@ -108,7 +108,7 @@ _**Тема последнего изменения:** 2013-02-23_
 ## <a name="see-also"></a>См. также
 
 
-[Запись сведений о звонке (CDR) в Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)  
+[Регистрация вызовов (CDR) в Lync Server 2013](lync-server-2013-call-detail-recording-cdr.md)  
   
 
 </div>

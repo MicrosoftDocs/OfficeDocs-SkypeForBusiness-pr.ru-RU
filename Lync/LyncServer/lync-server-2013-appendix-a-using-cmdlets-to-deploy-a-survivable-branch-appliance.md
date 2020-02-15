@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Приложение A. Использование командлетов для развертывания устройств для обеспечения связи в филиалах'
+title: 'Lync Server 2013: Приложение A: использование командлетов для развертывания устройства для обеспечения связи в филиалах'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2da84e03cc05607a47f1fe5af4a8b7987946df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb77c4f22122694d928489f7d61beaa9cbae9355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Приложение A. Использование командлетов для развертывания устройств для обеспечения связи в филиалах в Lync Server 2013
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Приложение а: использование командлетов для развертывания устройства для обеспечения связи в филиалах в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737799"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-07_
+_**Последнее изменение темы:** 2012-10-07_
 
-В этой статье описано, как развернуть бесперебойно работающее устройство филиала с помощью командной консоли Lync Server Management Shell. Выполните эту процедуру на центральном веб-сайте.
+В этом разделе описывается, как развернуть устройство для обеспечения связи в филиалах с помощью командной консоли Lync Server. Выполните эту процедуру на центральном сайте.
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>Удаленное развертывание бесперебойно работающего устройства филиала
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>Удаленное развертывание устройства для обеспечения связи в филиалах
 
-1.  Выполните действия, описанные в разделе [Добавление сайтов филиалов в топологию в Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) , чтобы добавить новый сайт филиала.
+1.  Чтобы добавить новый сайт филиала, выполните процедуру, описанную в разделе [Добавление сайтов филиалов в топологию в Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) .
 
-2.  Присоедините сайт филиалов к домену.
+2.  Присоедините узел филиала к домену.
 
-3.  Добавьте группу РткуниверсалсбатечниЦианс в локальную группу администраторов.
+3.  Добавьте группу RTCUniversalSBATechnicians в локальную группу администраторов.
 
-4.  Перезапустите сервер и войдите в него как член группы РткуниверсалсбатечниЦианс.
+4.  Перезапустите сервер и войдите в систему в качестве члена группы RTCUniversalSBATechnicians.
 
-5.  В командной консоли Lync Server введите следующие команды, заменив заполнители правильными сведениями для своей организации:
+5.  В командной консоли Lync Server введите следующие команды, заменив заполнители на правильные сведения для вашей организации:
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

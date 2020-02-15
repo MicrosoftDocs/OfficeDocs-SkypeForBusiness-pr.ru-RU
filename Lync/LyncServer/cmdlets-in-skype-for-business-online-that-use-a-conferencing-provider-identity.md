@@ -13,33 +13,33 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dc5438a0fe246b1e988d60a0e6ce1ac3d3f6d67
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0ae3167b1cb6c83b46e4f9d4846e8863b43515d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726719"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001724"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>Командлеты в Skype для бизнеса Online с использованием удостоверения поставщика конференц-связи
 
  
 
 
-Чтобы получить сведения обо всех поставщиках голосовой конференц-связи, с которыми вы пропустили организацию, вы можете просто вызвать командлет [Get – ксаудиоконференЦингпровидер](https://technet.microsoft.com/en-us/library/jj994030\(v=ocs.15\)) без каких-либо параметров:
+Чтобы получить сведения обо всех поставщиках аудио-конференций, с которыми ваша организация осуществляет контракт, можно просто вызвать командлет [Get-CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\)) без параметров:
 
     Get-CsAudioConferencingProvider
 
-Если вы хотите ограничить возвращаемые данные единственным поставщиком (в этом примере — службы голосовой связи Contoso поставщика), а затем использовать параметр Identity:
+Если вы хотите ограничить возвращаемые данные одним поставщиком (в этом примере — службы аудиоустройства Contoso поставщика), используйте параметр Identity:
 
     Get-CsAudioConferencingProvider -Identity "Contoso Audio Services"
 
-Только один командлет Skype для бизнеса Online, принимающий идентификатор поставщика видеоконференций:
+Существует только один командлет Skype для бизнеса Online, принимающий идентификатор поставщика аудио-конференций:
 
-  - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/jj994030\(v=ocs.15\))
+  - [Get — CsAudioConferencingProvider](https://technet.microsoft.com/library/jj994030\(v=ocs.15\))
 
 ## <a name="see-also"></a>См. также
 
 
 [Удостоверения, области и клиенты в Skype для бизнеса Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Командлеты Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Командлеты Skype для бизнеса Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

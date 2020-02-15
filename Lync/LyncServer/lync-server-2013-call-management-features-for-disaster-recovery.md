@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: функции управления вызовами для аварийного восстановления'
+title: Lync Server 2013 функции управления вызовами для аварийного восстановления
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c276c8dac153ebd2ba08c55d8444bcc746287ffc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4126f35850aeae6bd2d0bbd8f678e9f082a13355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742999"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-21_
+_**Последнее изменение темы:** 2012-09-21_
 
-В следующих разделах содержатся сведения о возможностях обеспечения высокой доступности и аварийного восстановления для функций управления звонками в Lync Server.
+В следующих разделах содержатся сведения о функциях обеспечения высокого уровня доступности и аварийного восстановления для функций управления вызовами в Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Управление группами ответов в Lync Server 2013 в аварийном режиме](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [Управление группами ответа в Lync Server 2013 во время аварии](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
-  - [Управление парковкой вызовов во время аварийного восстановления в Lync Server 2013](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [Управление приостановкой вызовов во время аварийного восстановления в Lync Server 2013](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
-  - [Управление оповещениями во время аварийного восстановления в Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
+  - [Управление объявлениями во время аварийного восстановления в Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
 </div>
 

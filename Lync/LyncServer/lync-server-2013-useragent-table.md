@@ -12,16 +12,16 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d1cd6b48b09ad3083499ec3f173772d242ba6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ba13a18436c7a55ca68931ff2794fd584be84f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744399"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744399"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-25_
+_**Последнее изменение темы:** 2012-05-25_
 
-Таблица UserAgent является вспомогательной таблицей, в которой хранится список различных агентов пользователей, которые участвовали в сеансах, записанных в базе данных. Каждая запись в таблице представляет одного агента пользователя
+Таблица UserAgent это вспомогательная таблица, в которой хранится список различных агентов пользователей, которые участвовали в сеансах, записанных в базе данных. Каждая запись в таблице представляет одного агента пользователя
 
 
 <table>
@@ -49,41 +49,41 @@ _**Тема последнего изменения:** 2012-05-25_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Столбец</strong></th>
+<th><strong>Column</strong></th>
 <th><strong>Тип данных</strong></th>
-<th><strong>Ключ/индекс</strong></th>
-<th><strong>Сведения</strong></th>
+<th><strong>Ключ или индекс</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>усераженткэй</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, идентифицирующий агент пользователя.</p></td>
+<td><p>Уникальное число, идентифицирующее этот агент пользователя.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserAgent</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Повторя</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Уникальные</p></td>
 <td><p>Строка агента пользователя.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>уатипе</strong></p></td>
+<td><p><strong>UAType</strong></p></td>
 <td><p>smallint</p></td>
 <td><p> </p></td>
-<td><p>1 — сервер исправлений.</p>
-<p>2 — это сервер конференц-связи с/V.</p>
+<td><p>1 — сервер-посредник.</p>
+<p>2 это сервер аудио-и видеоконференций.</p>
 <p>4 — Lync.</p>
-<p>8 — это IP-телефон.</p>
+<p>8 — IP-телефон.</p>
 <p>16 — консоль Live Meeting.</p>
 <p>32 — средство проверки развертывания (ДВТ).</p>
 <p>64 — Lync на компьютерах Macintosh.</p>
-<p>128 – это Office Communications Server 2007 R2.</p>
-<p>256 является службой объявлений конференций.</p>
-<p>512 — автоматический секретарь конференц-связи.</p>
-<p>1024 является приложением группы ответа.</p>
-<p>2048 находится за пределами голосового контроля.</p></td>
+<p>128 это Office Communications Server 2007 R2 Attendant.</p>
+<p>256 — служба извещений конференц-связи.</p>
+<p>512 является автосекретарем конференц-связи.</p>
+<p>1024 — приложение группы ответа.</p>
+<p>2048 находится за преноски управления голосовой связью.</p></td>
 </tr>
 </tbody>
 </table>

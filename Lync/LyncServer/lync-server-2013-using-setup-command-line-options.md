@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: использование параметров командной строки для настройки'
+title: 'Lync Server 2013: использование параметров командной строки программы установки'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fcf3637ac0d334c2d22ef714891ea0544ee1a6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aacaa402b325fbefe13d70dea4f3e74af1d896cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744009"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744009"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-03_
+_**Последнее изменение темы:** 2012-10-03_
 
 Командная строка программы установки используется для выполнения достаточно редких операций в процессе установки Office. Вместо использования параметров командной строки программы установки для установки продукта и настройки компонентов обычно используется центр развертывания Office и файл Config.xml.
 
@@ -56,7 +56,7 @@ _**Тема последнего изменения:** 2012-10-03_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>/admin</p></td>
+<td><p>/Admin</p></td>
 <td><p>Запускает центр развертывания Office для создания файла настройки программы установки (файла MSP).</p></td>
 </tr>
 <tr class="even">
@@ -65,25 +65,25 @@ _**Тема последнего изменения:** 2012-10-03_
 </tr>
 <tr class="odd">
 <td><p>/config [путь]</p></td>
-<td><p>Указывает файл Config.xml, который программа установки использует во время установки. Используйте параметр/config для указания файла config. XML, настроенного для установки Lync 2013, например:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Задает файл Config.xml, который программа установки использует во время установки. Используйте параметр/config, чтобы указать файл config. XML, который вы настроили для установок Lync 2013, например:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
-<td><p>/модифи Lync</p></td>
-<td><p>Используется с модифицированным файлом Config.xml для запуска программы установки в режиме обслуживания и изменения существующей установки Office. Например, можно использовать параметр/модифи для добавления и удаления функций Lync.</p></td>
+<td><p>/modify Lync</p></td>
+<td><p>Используется с модифицированным файлом Config.xml для запуска программы установки в режиме обслуживания и изменения существующей установки Office. Например, можно использовать параметр /modify для добавления или удаления компонентов Lync.</p></td>
 </tr>
 <tr class="odd">
-<td><p>/репаир Lync</p></td>
-<td><p>Запускает программу установки с компьютера пользователя, чтобы восстановить Lync.</p></td>
+<td><p>/repair Lync</p></td>
+<td><p>Запускает программу установки на компьютере пользователя для восстановления Lync.</p></td>
 </tr>
 <tr class="even">
-<td><p>/Uninstall Lync</p></td>
-<td><p>Запускает программу установки, чтобы удалить Lync с компьютера пользователя.</p></td>
+<td><p>/uninstall Lync</p></td>
+<td><p>Запускает программу установки для удаления Lync с компьютера пользователя.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Подробнее об использовании параметров командной строки Setup можно узнать в разделе <http://go.microsoft.com/fwlink/p/?linkid=267515>.
+Сведения об использовании параметров командной строки программы установки приведены в разделе <http://go.microsoft.com/fwlink/p/?linkid=267515>.
 
 </div>
 

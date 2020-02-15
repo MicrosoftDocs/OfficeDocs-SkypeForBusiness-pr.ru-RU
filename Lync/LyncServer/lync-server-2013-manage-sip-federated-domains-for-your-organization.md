@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление федеративными доменами SIP для организации'
+title: 'Lync Server 2013: Управление федеративными доменами SIP для Организации'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733309"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Управление федеративными доменами SIP для организации в Lync Server 2013
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Управление федеративными доменами SIP для Организации в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733309"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
+Это Предварительная документация, которая может быть изменена. Пустые разделы включены в качестве заполнителей.
 
-Для управления доменами SIP, с которыми вы можете использовать федерацию, вы можете сделать следующее:
+Вы можете выполнять следующие действия по управлению доменами SIP, с которыми возможна федерация, и их настройке:
 
-  - Создание и изменение списка разрешенных доменов для доменов федеративных партнеров SIP.
+  - создавать или изменять список разрешенных федеративных доменов SIP партнеров;
 
-  - Создание или изменение списка блокируемых доменов федеративных доменов SIP.
+  - создавать или изменять список заблокированных федеративных доменов SIP.
 
-Чтобы выполнить эти задачи, выполните действия, описанные в этом разделе.
+Для выполнения этих задач используйте процедуры из данного раздела.
 
 <div>
 
@@ -62,9 +62,9 @@ _**Тема последнего изменения:** 2012-10-19_
 ## <a name="see-also"></a>См. также
 
 
-[Настройка политик управления доступом федеративных пользователей в Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[Включение или отключение федерации и подключение для общедоступного обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[Включение или отключение обнаружения федеративных партнеров в Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[Настройка политик для управления доступом федеративных пользователей в Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[Включение или отключение Федерации и общедоступной службы обмена мгновенными сообщениями в Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[Включение и отключение обнаружения партнеров Федерации в Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   
 
 </div>

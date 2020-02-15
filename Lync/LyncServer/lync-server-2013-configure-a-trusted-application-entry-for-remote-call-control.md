@@ -12,16 +12,16 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43921fcdeb5ca6e5c74e2c7a82b36bf830cbaa15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757873"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757873"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-11-02_
+_**Последнее изменение темы:** 2015-11-02_
 
-Шлюз SIP/КСТА должен быть настроен как доверенное приложение, чтобы Lync Server может применять статический маршрут для маршрутизации звонков на шлюз.
+Шлюз SIP/CSTA должен быть настроен как доверенное приложение, чтобы Lync Server мог применить статический маршрут для маршрутизации вызовов шлюза.
 
 <div>
 
 
 > [!IMPORTANT]
-> Если вы переносите пользователей из предыдущей версии развертывания Lync Server, убедитесь, что вы удалили все существующие записи надежного приложения (ранее известные как авторизованные записи узла), созданные для шлюза SIP/КСТА, прежде чем выполнять действия, описанные в этой статье. Подробности можно найти <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">в разделе Удаление устаревшего авторизованного узла в Lync Server 2013 (необязательно)</A>.<BR>Если вы планируете развертывать новое удаленное управление звонками с помощью протокола TCP, вам нужно подтвердить, что для существующих доверенных приложений и пулов нужно задать <STRONG>ограничение использования службы, чтобы</STRONG> использовать один и тот же порт TCP для нового надежного приложения.
+> Если вы переносите пользователей из предыдущей версии развертывания Lync Server, убедитесь, что удалены все существующие записи доверенных приложений (ранее известные как авторизованные записи узла), созданные для шлюза SIP/CSTA, прежде чем выполнять процедуры, описанные в этом разделе. Дополнительные сведения см. <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">в статье удаление устаревшего авторизованного узла в Lync Server 2013 (необязательно)</A>.<BR>Если вы планируете развернуть новое удаленное управление звонками с помощью TCP-подключения, необходимо убедиться в том, что ограничения на <STRONG>Использование службы для выбранных IP-адресов</STRONG> должны быть установлены для существующих доверенных приложений и пулов, если вы хотите использовать один и тот же порт TCP для нового доверенного приложения.
 
 
 
@@ -51,15 +51,15 @@ _**Тема последнего изменения:** 2015-11-02_
 
 <div>
 
-## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>Настройка записи надежного приложения для шлюза SIP/КСТА
+## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>Настройка записи доверенного приложения для шлюза SIP/CSTA
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или роль управления доступом на основе ролей (RBAC), для которой вы назначили командлет **New-кструстедаппликатионпул** .
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или роли управления доступом на основе ролей (RBAC), которой назначен командлет **New-кструстедаппликатионпул** .
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Чтобы создать запись надежного приложения, выполните одно из указанных ниже действий.
+3.  Чтобы создать запись доверенного приложения, выполните одно из следующих действий:
     
-      - Для подключения к протоколу TLS введите в командной строке следующую команду:
+      - Для подключения по протоколу защиты транспортного уровня (TLS) введите в командной строке следующую команду:
         
             New-CsTrustedApplicationPool -Identity <FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -67,21 +67,21 @@ _**Тема последнего изменения:** 2015-11-02_
         
             New-CsTrustedApplicationPool -Identity rccgateway.contoso.net -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
     
-      - Для подключения по протоколу TCP введите в командной строке следующую команду:
+      - Для подключения по протоколу управления передачей (TCP) введите в командной строке следующую команду:
         
             New-CsTrustedApplicationPool -Identity <IP address or FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
-        Например:
+        Пример:
         
             New-CsTrustedApplicationPool -Identity 192.168.0.240 -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
 
-4.  Чтобы добавить в пул доверенное приложение, выполните одно из указанных ниже действий.
+4.  Чтобы добавить доверенное приложение в пул, выполните одно из следующих действий:
     
-      - Для подключения TLS введите в командной строке следующую команду:
+      - Для подключения по протоколу TLS введите в командной строке следующую команду:
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway>
         
-        Например:
+        Пример:
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn rccgateway.contoso.net -Port 5065
     
@@ -89,11 +89,11 @@ _**Тема последнего изменения:** 2015-11-02_
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <IP address or FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway> -EnableTcp
         
-        Например:
+        Пример:
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn 192.169.0.240 -Port 5065 -EnableTcp
 
-5.  Чтобы применить опубликованные изменения, внесенные в топологию, введите в командной строке следующую команду:
+5.  Для реализации опубликованных изменений, внесенных в топологию, введите в командной строке следующую команду:
     
         Enable-CsTopology
 
@@ -104,8 +104,8 @@ _**Тема последнего изменения:** 2015-11-02_
 ## <a name="see-also"></a>См. также
 
 
-[Настройка статического маршрута для дистанционного управления вызовами в Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[Определение IP-адреса для шлюза SIP/CSTA в Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+[Настройка статического маршрута для удаленного управления звонками в Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[Определение IP-адреса шлюза SIP/CSTA в Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 
 </div>

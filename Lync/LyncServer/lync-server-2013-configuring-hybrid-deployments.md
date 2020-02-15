@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка гибридных развертываний'
+title: 'Lync Server 2013: Настройка гибридных развертываний'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 299c80b3626f60209e268a51d91916bb72bb56c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4e1192882a7727ca4388b09a8644253be889b25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-hybrid-deployments"></a>Настройка гибридных развертываний для Lync Server 2013
+# <a name="configuring-lync-server-2013-hybrid-deployments"></a>Настройка гибридных развертываний Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41728799"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2016-05-26_
+_**Последнее изменение темы:** 2016-05-26_
 
-В этом разделе описаны шаги, необходимые для настройки гибридных развертываний Lync Server 2013.
+В этом разделе описываются действия, необходимые для настройки гибридных развертываний Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - Если вы используете локальное развертывание Lync и хотите переместить некоторых пользователей в облако для использования Lync Online в Office 365, ознакомьтесь [со страницей Настройка локального развертывания для гибридной среды с помощью Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
+  - Если у вас есть локальное развертывание Lync и вы хотите переместить некоторых пользователей в облако для использования Lync Online в Office 365, ознакомьтесь со статьей [Настройка локального развертывания для гибридной среды с Lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
 
-  - Если у вас есть пользователи, которые поддерживают Lync в Lync Online, но не включены в локальном развертывании, ознакомьтесь с разрешениями в разделе [Перемещение пользователей из Lync Online в локальное приложение Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
+  - Если у вас есть пользователи Lync Online, но не включенные в локальном развертывании, ознакомьтесь с [разрядом перемещение пользователей из Lync Online в локальную среду Lync в Lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
 
 </div>
 

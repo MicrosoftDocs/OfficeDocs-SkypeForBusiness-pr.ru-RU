@@ -12,16 +12,16 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d6cb7d0f27413449873cb8a0d8498aec230fdfd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41734619"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-03-19_
+_**Последнее изменение темы:** 2014-03-19_
 
-Чтобы воспользоваться всеми преимуществами новых возможностей мониторинга работоспособности, включенных в Microsoft Lync Server 2013, администраторы должны сначала назначить компьютер для работы в качестве основного сервера управления; на этом компьютере необходимо установить System Center Operations Manager 2007 R2 или System Center Operations Manager 2012. Кроме того, необходимо установить поддерживаемую версию SQL Server, которая будет выступать в качестве серверной базы данных Operations Manager. Если вы используете System Center Operations Manager 2012, вы можете использовать в качестве серверной базы данных любую из указанных ниже версий SQL Server.
+Чтобы воспользоваться всеми преимуществами новых возможностей мониторинга работоспособности, включенных в состав Microsoft Lync Server 2013, администраторы должны сначала назначить компьютеру роль основного сервера управления; на этом компьютере необходимо установить System Center Operations Manager 2007 R2 или System Center Operations Manager 2012. Кроме того, необходимо установить поддерживаемую версию SQL Server, которая будет выступать в качестве внутренней базы данных Operations Manager. Если вы используете System Center Operations Manager 2012, вы можете использовать любую из следующих версий SQL Server в качестве серверной базы данных:
 
   - SQL Server 2008 R2 с пакетом обновления 1 (SP1)
 
   - SQL Server 2008 R2 с пакетом обновления 2 (SP2)
 
-Если вы используете System Center Operations Manager 2007 R2, рекомендуется установить либо SQL Server 2005 с пакетом обновления 4, либо SQL Server 2008 с пакетом обновления 3. Вы также можете использовать SQL Server 2008 R2 в качестве серверной базы данных для System Center Operations Manager 2007 R2. Более подробную информацию о настройке SQL Server 2008 R2 для работы с System Center Operations Manager 2007 R2 можно найти в приложении 1 из этой документации.
+При использовании System Center Operations Manager 2007 R2 рекомендуется установить SQL Server 2005 с пакетом обновления 4 (SP4) или SQL Server 2008 с пакетом обновления 3 (SP3). Вы также можете использовать SQL Server 2008 R2 в качестве серверной базы данных для System Center Operations Manager 2007 R2. Дополнительные сведения о настройке SQL Server 2008 R2 для работы с System Center Operations Manager 2007 R2 приведены в приложении 1 этой документации.
 
-При установке System Center Operations Manager 2012 или System Center Operations Manager 2007 R2 вам нужно установить все компоненты этого продукта, в том числе:
+При установке System Center Operations Manager 2012 или System Center Operations Manager 2007 R2 необходимо установить все компоненты этого продукта, в том числе:
 
   - рабочую базу данных;
 
   - Сервер
 
-  - консоль;
+  - Текстовое
 
   - Командлеты Windows PowerShell
 
   - веб-консоль;
 
-  - отчеты;
+  - Reporting
 
   - хранилище данных.
 
-Эти компоненты и их установка не будут подробно рассмотрены в этом документе. Подробные сведения о System Center Operations Manager 2007 R2 можно найти в документации Operations Manager 2007 <http://go.microsoft.com/fwlink/p/?linkid=257526> R2 на странице System Center Operations Manager 2012 <http://go.microsoft.com/fwlink/p/?linkid=257527>по адресу. Следуйте этим инструкциям, если вы планируете использовать сервер SQL Server 2005 или SQL Server 2008 с пакетом обновления 1 в качестве серверной части базы данных.
+Эти компоненты и их установка не будут обсуждаться подробно в этом документе. Подробные сведения о System Center Operations Manager 2007 R2 представлены в документации по Operations Manager 2007 <http://go.microsoft.com/fwlink/p/?linkid=257526> R2 на сайте, а также в документации System <http://go.microsoft.com/fwlink/p/?linkid=257527>Center Operations Manager 2012 по адресу. Следуйте этим инструкциям, если вы планируете использовать SQL Server 2005 или SQL Server 2008 с пакетом обновления 1 в качестве серверной базы данных.
 
-Если вы используете System Center Operations Manager 2012, то можете использовать SQL Server 2012 в качестве серверной базы данных. Подробные сведения о SQL Server 2012 можно найти в книге электронная документация по SQL Server [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)2012 по адресу.
+Если вы используете System Center Operations Manager 2012, то можете использовать SQL Server 2012 в качестве серверной базы данных. Дополнительные сведения о SQL Server 2012 вы найдете в статье электронная документация по SQL Server [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)2012 по адресу.
 
-Имейте в виду, что для развертывания Lync Server вы можете использовать только один основной сервер управления. Кроме того, несмотря на то что вы можете использовать System Center Operations Manager 2012 или System Center Operations Manager 2007 R2, вы не сможете запускать два приложения одновременно — вы можете выбрать одно из них или другое. Например, если вы используете System Center Operations Manager 2012, то все агенты System Center должны быть также запущены с помощью System Center Operations Manager 2012. У вас не может быть некоторых агентов, использующих System Center Operations Manager 2012, а другие агенты работают под управлением System Center Operations Manager 2007 R2.
+Помните, что для развертывания Lync Server можно использовать только один основной сервер управления. Кроме того, несмотря на то, что вы можете использовать System Center Operations Manager 2012 или System Center Operations Manager 2007 R2, вы не сможете запускать два приложения одновременно — необходимо выбрать одно или другое. Например, если вы используете System Center Operations Manager 2012, то все агенты System Center также должны работать под управлением System Center Operations Manager 2012. Некоторые агенты запуска System Center Operations Manager 2012 и других агентов, работающих с System Center Operations Manager 2007 R2, не могут быть выполнены.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: установка необходимого программного обеспечения для Lync Server 2013'
+title: 'Lync Server 2013: Установка необходимого программного обеспечения Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e37e18fc18a0c57a2905302529ec0cb41d7c11f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2bf287ac6bb92f070047368685c1f1cbad371f2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763753"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008331"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-prerequisite-software"></a>Установка необходимого программного обеспечения для Lync Server 2013
+# <a name="install-lync-server-2013-prerequisite-software"></a>Установка необходимого программного обеспечения Lync Server 2013
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41763753"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Необходимое программное обеспечение для работы с сохраняемым чат — это то же самое, что и необходимое программное обеспечение для серверов переднего плана Lync Server 2013 и сервера Lync Server 2013 Standard Edition, на котором установлены функции сервера сохраняемого чата.
+Необходимое программное обеспечение для сервера сохраняемого чата это то же, что и необходимое программное обеспечение для серверов переднего плана Lync Server 2013 и сервера Lync Server 2013 Standard Edition, на котором установлены функции сервера сохраняемого чата.
 
-Необходимое программное обеспечение, требуемое для хранилища файлов постоянного сервера чата, такое же, как и для Lync Server 2013.
+Необходимое программное обеспечение, необходимое для хранилища файлов сервера сохраняемого чата, это то же, что и для Lync Server 2013.
 
-Необходимое программное обеспечение для баз данных SQL Server для сохраняемого содержимого сервера чатов и соответствия требованиям также осуществляется так же, как и для Lync Server 2013.
+Необходимое программное обеспечение для баз данных SQL Server для сервера сохраняемого чата и обеспечения соответствия также аналогично тому, что используется для Lync Server 2013.
 
-Подробные сведения о всех требованиях к программному обеспечению для серверов Lync Server 2013 можно найти в статьях [дополнительные серверные службы и требования в Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) в документации по поддержке.
+Подробные сведения о всех требованиях к программному обеспечению для серверов Lync Server 2013 приведены в статье дополнительные сведения о [поддержке серверов и требованиях в Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) в документации по поддержке.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Поддержка дополнительных серверов и соответствующие требования в Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
+[Дополнительная поддержка и требования к серверу в Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
   
 
 </div>

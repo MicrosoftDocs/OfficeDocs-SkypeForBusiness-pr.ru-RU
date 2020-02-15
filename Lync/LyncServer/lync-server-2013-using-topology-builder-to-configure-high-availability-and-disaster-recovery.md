@@ -12,16 +12,16 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc0f47bf8e0a0aec5d2a2374decd79ce2bae77f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743829"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41743829"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-Выполните указанные ниже действия в построителе топологии для настройки высокой доступности и аварийного восстановления для постоянного сервера чата.
+Выполните указанные ниже действия в построителе топологий, чтобы настроить высокую доступность и аварийное восстановление для сервера сохраняемого чата.
 
-1.  Добавьте зеркальные базы данных и хранилище журналов SQL Server, которые являются получателями.
+1.  Добавьте зеркальные базы данных и хранилища SQL Server, которые являются вторичными хранилищами баз данных SQL Server.
 
-2.  Измените параметры службы сервера для сохраняемого чата следующим образом:
+2.  Измените свойства службы сервера сохраняемого чата следующим образом:
     
     1.  Включите зеркальное отображение для базы данных-источника.
     
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2012-10-06_
     
     3.  Включите базу данных доставки журналов SQL Server.
     
-    4.  Добавьте хранилище журналов SQL Server с дополнительной доставкой.
+    4.  Добавьте дополнительное хранилище SQL Server для доставки журналов SQL Server.
     
     5.  Добавьте зеркало хранилища SQL Server для базы данных получателя.
     

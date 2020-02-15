@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: развертывание надстройки собраний по сети для Lync 2013'
+title: 'Lync Server 2013: развертывание надстройки "собрание по сети" для Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6c89c9d49754464c954c04ee0673f122848cdea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb38b41b57898b24abe1197a516103fa47c72d6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729639"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729639"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-30_
+_**Последнее изменение темы:** 2012-09-30_
 
 Разверните надстройку "собрание по сети" для Lync 2013, чтобы пользователи могли планировать конференции, поддерживающие Конференц-связь с телефонным подключением.
 
-Надстройка "собрание по сети" для Lync 2013 устанавливается автоматически при установке Lync 2013. Подробнее о настройке надстройки онлайн-собраний для Lync 2013 для Lync: [Настройка приглашения на собрание в Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).
+Надстройка "собрание по сети" для Lync 2013 устанавливается автоматически при установке Lync 2013. Подробные сведения о настройке надстройки собраний по сети для Lync 2013 для Lync приведены [в статье Настройка приглашения на собрание в Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).
 
 </div>
 

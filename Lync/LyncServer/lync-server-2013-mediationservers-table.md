@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица MediationServers'
+title: 'Lync Server 2013: таблица таблица mediationservers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7854306eefb1bed16753e8f6408a8c06f95bd04f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a711cdd4073d5e9bfe884c907d079437ffc8440
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766070"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mediationservers-table-in-lync-server-2013"></a>Таблица MediationServers в Lync Server 2013
+# <a name="mediationservers-table-in-lync-server-2013"></a>Таблица Таблица mediationservers в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766070"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-06_
+_**Последнее изменение темы:** 2010-11-06_
 
-Таблица Медиатионсерверс является вспомогательной таблицей. Каждая запись содержит сведения об одном сервере, который участвует в звонках, которые содержат записи в базе данных.
+Таблица Таблица mediationservers является вспомогательной таблицей. Каждая запись содержит сведения об одном сервере-посреднике, участвующем в вызовах, содержащих записи в базе данных.
 
 
 <table>
@@ -51,22 +51,22 @@ _**Тема последнего изменения:** 2010-11-06_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>медиатионсерверид</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, показывающий этот сервер исправлений.</p></td>
+<td><p>Уникальный номер, идентифицирующий сервер-посредник.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>медиатионсервер</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>MediationServer</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
-<td><p>Имя сервера исправлений.</p></td>
+<td><p>Имя сервера-посредника.</p></td>
 </tr>
 </tbody>
 </table>

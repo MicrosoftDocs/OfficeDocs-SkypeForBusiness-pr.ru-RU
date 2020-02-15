@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица Manufacturers'
+title: 'Lync Server 2013: таблица производителей'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8123d516e41d2d6a25d4cfca2234110bff129782
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 80ff164c294e2f9133f249ab9bfc3b737f7e5e3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723989"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manufacturers-table-in-lync-server-2013"></a>Таблица Manufacturers в Lync Server 2013
+# <a name="manufacturers-table-in-lync-server-2013"></a>Таблица производителей в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41723989"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-07_
+_**Последнее изменение темы:** 2010-11-07_
 
-Таблица изготовителей является вспомогательной таблицей. Каждая запись содержит информацию об одном производителе устройства (стационарном телефоне).
+Таблица производители — это вспомогательная таблица. Каждая запись содержит сведения об одном производителе устройства (стационарного телефона).
 
 
 <table>
@@ -51,20 +51,20 @@ _**Тема последнего изменения:** 2010-11-07_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ManufacturerId</strong></p></td>
-<td><p>целое</p></td>
+<td><p><strong>мануфактурерид</strong></p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
 <td><p>Уникальный номер, идентифицирующий этого производителя.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Производитель</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Вычислитель</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
 <td><p>Название изготовителя.</p></td>
 </tr>

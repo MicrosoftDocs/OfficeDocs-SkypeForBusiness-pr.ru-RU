@@ -1,5 +1,5 @@
 ---
-title: Административные права и разрешения, необходимые для установки и администрирования
+title: Права и разрешения администратора, необходимые для установки и администрирования
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca9fb6982a84ff70791fd4896ab92daf683b9864
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bea99b254504907b429da831fa6b072b482b61b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737839"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Административные права и разрешения, необходимые для установки и администрирования Lync Server 2013
+# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Права и разрешения администратора, необходимые для установки и администрирования Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737839"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-29_
+_**Последнее изменение темы:** 2012-06-29_
 
-Для установки и развертывания Lync Server 2013 необходимо, чтобы пользователь, который устанавливает и развертывать программное обеспечение, был членом локальной группы или групп на уровне домена. Средства администрирования для Lync Server 2013 могут потребовать дополнительных разрешений.
+Для установки и развертывания Lync Server 2013 необходимо, чтобы пользователь, устанавливающий и развертывающий программное обеспечение, был членом локальных групп или групп на уровне домена. Средства администрирования для Lync Server 2013 могут потребовать дополнительных разрешений.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Требования членства в группах для Lync Server 2013](lync-server-2013-group-membership-requirements.md)
+  - [Требования к членству в группах для Lync Server 2013](lync-server-2013-group-membership-requirements.md)
 
   - [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md)
 

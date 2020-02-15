@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр сведений о сетевом регионе'
+title: 'Lync Server 2013: Просмотр сведений о области сети'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db5610ddee677af989b16c150ffab96308bbb837
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ed95953b7016264b47d63d53e14442a108320c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757293"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-information-in-lync-server-2013"></a>Просмотр сведений о сетевом регионе в Lync Server 2013
+# <a name="viewing-network-region-information-in-lync-server-2013"></a>Просмотр сведений о области сети в Lync Server 2013
 
 </div>
 
@@ -35,50 +35,50 @@ ms.locfileid: "41757293"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-Сетевой регион соединяет различные части сети в нескольких географических регионах. Каждый сетевой регион должен быть связан с центральным сайтом. Центральный сайт — это сайт центра обработки данных, на котором запущена служба политики "Управление допуском звонков" (CAC). Для просмотра областей сети можно использовать панель управления Lync Server. Сетевые регионы включают параметры, определяющие, разрешены ли для аудио-и видеоподключений альтернативные пути через Интернет. Используйте этот раздел для просмотра существующих областей сети. Дополнительные сведения о создании и изменении существующих областей сети можно найти [в разделе Создание или изменение областей сети в Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).
+Область сети связывает части сети, расположенные в различных географических районах. Каждый регион сети должен быть связан с центральным сайтом. Центральный сайт — это сайт центра обработки данных, на котором выполняется служба политики пропускной способности для контроля допуска звонков. Для просмотра областей сети можно использовать панель управления Lync Server. Области сети включают параметры, которые определяют, разрешены ли альтернативные пути через Интернет для аудио- и видеоподключений. Используйте этот раздел для просмотра существующих областей сети. Сведения о создании или изменении существующих областей сети приведены в статье [Создание или изменение областей сети в Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md).
 
 <div>
 
-## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a>Просмотр сведений о сетевом регионе с помощью панели управления Lync Server
+## <a name="to-view-information-about-a-network-region-with-lync-server-control-panel"></a>Просмотр сведений о области сети с помощью панели управления Lync Server
 
-1.  Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.
+1.  Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На панели навигации слева выберите пункт **Настройка сети** , а затем — **регион**.
+3.  На левой панели навигации щелкните **Конфигурация сети**, затем **Регион**.
 
-4.  На странице **регион** выберите область, которую вы хотите просмотреть.
+4.  На странице **Регион** щелкните регион, который следует просмотреть.
     
     <div>
     
 
     > [!NOTE]  
-    > Вы можете просматривать только один регион за раз.
+    > одновременно можно просматривать только один регион.
 
     
     </div>
 
-5.  В меню **Правка** щелкните **Подробнее**.
+5.  В меню **Изменить** щелкните **Показать сведения**.
 
 </div>
 
 <div>
 
-## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о сетевом регионе с помощью командлетов Windows PowerShell
+## <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о области сети с помощью командлетов Windows PowerShell
 
-Вы можете просматривать сведения о сетевой области с помощью Windows PowerShell и командлета **Get-кснетворкрегион** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Сведения о области сети можно просмотреть с помощью Windows PowerShell и командлета **Get – CsNetworkRegion** . Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-view-network-region-information"></a>Просмотр сведений о сетевом регионе
+## <a name="to-view-network-region-information"></a>Просмотр сведений о области сети
 
-  - Чтобы просмотреть сведения обо всех регионах сети, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД.
+  - Чтобы просмотреть сведения обо всех регионах сети, введите следующую команду в командной консоли Lync Server, а затем нажмите клавишу ВВОД:
     
         Get-CsNetworkRegion
     
-    Команда возвращает примерно следующую информацию:
+    Это приведет к возврату приблизительно такой информации:
     
         Identity         : Pacific Northwest
         Description      :
@@ -90,7 +90,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Get-кснетворкрегион](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) .
+Дополнительные сведения см. в разделе справки по командлету [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
 
 </div>
 
@@ -99,7 +99,7 @@ _**Тема последнего изменения:** 2013-02-23_
 ## <a name="see-also"></a>См. также
 
 
-[Создание и изменение областей сети в Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  
+[Создание или изменение областей сети в Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)  
 [Удаление существующих областей сети в Lync Server 2013](lync-server-2013-deleting-existing-network-regions.md)  
   
 

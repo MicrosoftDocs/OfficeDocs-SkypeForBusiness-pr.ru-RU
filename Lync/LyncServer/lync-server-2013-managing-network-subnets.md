@@ -12,16 +12,16 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762021"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762021"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-15_
+_**Последнее изменение темы:** 2012-10-15_
 
-Вы можете использовать серверную панель управления Lync Server 2013 или командную консоль Lync Server 2013 для управления сетевыми подсетями. В большинстве развертываний Lync Server 2013, в котором реализован элемент управления допуском звонков (CAC), обычно это большое количество подсетей. По этой причине лучше всего настроить подсети из командной консоли Lync Server Management Shell.
+Для управления сетевыми подсетями можно использовать панель управления Lync Server 2013 или Командная консоль Lync Server 2013. В большинстве развертываний Lync Server 2013, где реализован контроль допуска звонков (CAC), как правило, существует большое количество подсетей. Поэтому часто лучше настроить подсети из командной консоли Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр сведений о сетевой подсети в Lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
+  - [Просмотр сведений о подсети в Lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
 
-  - [Создание и изменение подсетей сети в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)
+  - [Создание или изменение сетевых подсетей в Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)
 
-  - [Удаление подсетей сети в Lync Server 2013](lync-server-2013-deleting-network-subnets.md)
+  - [Удаление сетевых подсетей в Lync Server 2013](lync-server-2013-deleting-network-subnets.md)
 
 </div>
 
@@ -56,7 +56,7 @@ _**Тема последнего изменения:** 2012-10-15_
 ## <a name="see-also"></a>См. также
 
 
-[Связь подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[Связывание подсети с сетевым сайтом в Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

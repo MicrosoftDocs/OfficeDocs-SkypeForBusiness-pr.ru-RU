@@ -12,20 +12,20 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7ea90012c116bb66caf16313d930c6f05db4413
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41cb48da1711cfa6eb29a90f19a9b6e42b110c52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742099"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Проверка репликации схемы в Lync Server 2013
+# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Проверка репликации схемы Active Directory в Lync Server 2013
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41742099"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-29_
+_**Последнее изменение темы:** 2012-10-29_
 
-Перед запуском подготовки леса вручную убедитесь, что Секция схемы реплицирована.
+Прежде чем перейти к подготовке леса, вручную проверьте, был ли реплицирован раздел схемы.
 
 <div>
 
 ## <a name="to-manually-verify-schema-replication"></a>Проверка репликации схемы вручную
 
-1.  Войдите в систему на контроллере домена, который является членом группы администраторов предприятия.
+1.  Выполните вход на контроллер домена с учетной записью члена группы "Администраторы предприятия".
 
-2.  Откройте оснастку "Редактирование ADSI", нажмите кнопку **Пуск**, выберите пункт **Администрирование**, а затем — пункт **ADSI Edit**.
+2.  Чтобы открыть редактор ADSI, нажмите кнопку **Пуск**, выберите **Администрирование** и затем выберите **Редактирование ADSI**.
     
     <div>
     
 
     > [!TIP]  
-    > Кроме того, вы можете запустить <STRONG>ADSIEdit. msc</STRONG> из командной строки.
+    > Для открытия редактора также можно запустить оснастку <STRONG>adsiedit.msc</STRONG> в командной строке.
 
     
     </div>
 
-3.  В дереве консоли управления (MMC), если он еще не установлен, нажмите кнопку изменить в **ADSI**.
+3.  В дереве консоли управления (MMC) выберите **Редактирование ADSI**.
 
-4.  В меню **Действие** щелкните **Подключиться к**.
+4.  В меню **Действие**щелкните **Подключиться к**.
 
 5.  В диалоговом окне **Параметры подключения** выберите **Схема** в раскрывающемся списке **Выберите известный контекст именования** и затем нажмите кнопку **ОК**.
 
-6.  В контейнере схемы выполните поиск объекта CN=ms-RTC-SIP-SchemaVersion. Если этот объект существует, а значение атрибута **ранжеуппер** — 1150, а значение атрибута **ранжеловер** — 3, схема была успешно обновлена и реплицирована. Если этот объект не существует или значения атрибутов **ранжеуппер** и **ранжеловер** не заданы, схема не была изменена или не была реплицирована.
+6.  В контейнере схемы выполните поиск объекта CN=ms-RTC-SIP-SchemaVersion. Если объект существует, атрибут **rangeUpper** имеет значение 1150, а атрибут **rangeLower** — значение 3, то схема была успешно обновлена и реплицирована. Если этот объект не существует или значения атрибутов **rangeUpper** и **rangeLower** отличаются от указанных выше, то обновление и репликация схемы не выполнены.
 
 </div>
 
@@ -71,7 +71,7 @@ _**Тема последнего изменения:** 2012-10-29_
 ## <a name="see-also"></a>См. также
 
 
-[Проведение подготовки схемы Active Directory в Lync Server 2013](lync-server-2013-running-schema-preparation.md)  
+[Выполнение подготовки схемы Active Directory в Lync Server 2013](lync-server-2013-running-schema-preparation.md)  
 
 
 [Подготовка схемы Active Directory в Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  

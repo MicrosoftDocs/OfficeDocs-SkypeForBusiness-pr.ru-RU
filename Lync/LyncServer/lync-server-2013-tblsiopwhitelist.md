@@ -12,16 +12,16 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85fc3dd6575433b605d6ce9100aacfde56782e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ffecf185ab0c32c45e910d1821a33cbcabaea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764069"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764069"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-28_
+_**Последнее изменение темы:** 2012-06-28_
 
-Тблсиопвхителист — список зарегистрированных надстроек, которые можно связать с узлами.
+tblSiopWhiteList — это список зарегистрированных надстроек, которые могут быть связаны с узлами.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,24 +57,24 @@ _**Тема последнего изменения:** 2012-06-28_
 <tbody>
 <tr class="odd">
 <td><p>сиопид</p></td>
-<td><p>GUID, а не NULL</p></td>
-<td><p>Идентификатор GUID надстройки.</p></td>
+<td><p>GUID, отлично от null</p></td>
+<td><p>GUID надстройки.</p></td>
 </tr>
 <tr class="even">
 <td><p>сиопнаме</p></td>
-<td><p>nvarchar (50), NOT NULL</p></td>
+<td><p>nvarchar (50), отлично от null</p></td>
 <td><p>Отображаемое имя надстройки.</p></td>
 </tr>
 <tr class="odd">
 <td><p>сиопурл</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
+<td><p>nvarchar (255), отлично от null</p></td>
 <td><p>URL-адрес надстройки.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

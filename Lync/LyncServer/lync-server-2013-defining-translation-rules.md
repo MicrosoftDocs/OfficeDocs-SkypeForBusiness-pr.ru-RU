@@ -12,16 +12,16 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd6b46dbe0362f81cdaf6a1bf52a27112604a46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c67030878e4fe99a0deaa89e69c553b2e225fd8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728299"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41728299"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-22_
+_**Последнее изменение темы:** 2013-02-22_
 
-Lync Server 2013 Enterprise голосовой связи – звонки на основе номеров телефонов, нормализованных в формат E. 164. Это означает, что все строки с набором номера должны быть нормализованы в формате E. 164 для целей обратного просмотра номера (РНЛ), чтобы их можно было преобразовать в соответствующий URI SIP. Lync Server 2013 предоставляет возможность управлять вызываемым ИДЕНТИФИКАТОРом и презентацией идентификации вызывающего абонента.
+Lync Server 2013 Enterprise Voice маршрутизирует вызовы, основанные на телефонных номерах, нормализованном в формате E. 164. Это означает, что все набранные строки должны быть нормализованы до формата E. 164 для выполнения обратного просмотра номера (RNL), чтобы их можно было преобразовать в соответствующие URI SIP. Lync Server 2013 предоставляет возможность управлять вызываемым ИДЕНТИФИКАТОРом и представлением идентификатора звонящего.
 
-В этом разделе объясняется, как управлять ИД вызываемого идентификатора и ИДЕНТИФИКАТОРом вызывающего абонента.
+В данном разделе указывается, как обрабатывать вызываемый идентификатор и идентификатор вызывающего абонента.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Презентация идентификации вызывающего абонента в Lync Server 2013](lync-server-2013-caller-id-presentation.md)
+  - [Презентация идентификации звонящего в Lync Server 2013](lync-server-2013-caller-id-presentation.md)
 
-  - [Презентация с именем "идентификатор" в Lync Server 2013](lync-server-2013-called-id-presentation.md)
+  - [Презентация с именем ID в Lync Server 2013](lync-server-2013-called-id-presentation.md)
 
 </div>
 

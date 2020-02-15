@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр сведений об устройствах конференции'
+title: 'Lync Server 2013: Просмотр сведений об устройстве конференц-связи'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5355ae418e53c44cc61340b57910993ac2afea2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aeac19510f69eed8798c92c2d45b727cf5882978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757453"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Просмотр сведений об устройствах конференции в Lync Server 2013
+# <a name="view-conferencing-device-information-in-lync-server-2013"></a>Просмотр сведений о устройствах конференц-связи в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757453"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-С помощью Windows PowerShell и командлета **Get-ксмитингрум** вы можете просматривать сведения об устройствах для проведения конференций, настроенных для использования в вашей организации. Запустите командлет **Get-ксмитингрум** либо в командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
+Сведения об устройствах конференц-связи, настроенных для использования в Организации, можно просмотреть с помощью Windows PowerShell и командлета **Get-CsMeetingRoom** . Выполните командлет **Get – CsMeetingRoom** в командной консоли Lync Server 2013 или удаленном сеансе Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.
+> Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.
 
 
 
 </div>
 
-Если вы используете командлет **Get-ксмитингрум** без параметров, он возвращает сведения обо всех устройствах конференц-связи. Необязательные параметры предоставляют различные способы фильтрации данных. Подробные сведения можно найти в разделе Параметры раздела [Get-ксмитингрум](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom).
+Если вы используете командлет **Get-CsMeetingRoom** без параметров, он возвращает сведения обо всех устройствах конференц-связи. Необязательные параметры предоставляют различные способы фильтрации информации. Дополнительные сведения см. в разделе Parameters раздела [Get – CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom).
 
 <div>
 
@@ -58,11 +58,11 @@ _**Тема последнего изменения:** 2013-02-20_
 
 ## <a name="viewing-information-about-all-your-conferencing-devices"></a>Просмотр сведений обо всех устройствах конференц-связи
 
-  - Чтобы просмотреть сведения обо всех устройствах конференц-связи, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД.
+  - Чтобы просмотреть сведения обо всех устройствах для конференц-связи, введите следующую команду в командной консоли Lync Server, а затем нажмите клавишу ВВОД:
     
         Get-CsMeetingRoom
     
-    Этот командлет возвращает данные, подобные приведенным ниже, для каждого устройства Конференции. Обратите внимание, что в этом примере показаны только некоторые сведения, которые можно увидеть при выполнении этого командлета:
+    Этот командлет возвращает информацию, подобную приведенной ниже, для каждого устройства конференц-связи. Обратите внимание, что в этом примере показаны только некоторые сведения, которые вы увидите при выполнении этого командлета:
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem
@@ -86,15 +86,15 @@ _**Тема последнего изменения:** 2013-02-20_
 
 <div>
 
-## <a name="viewing-information-about-a-specific-conferencing-device"></a>Просмотр сведений об определенном устройстве конференц-связи
+## <a name="viewing-information-about-a-specific-conferencing-device"></a>Просмотр сведений о конкретном устройстве конференц-связи
 
-  - Чтобы просмотреть сведения о конкретном устройстве конференц-связи, включите параметр Identity и удостоверение устройства конференц-связи (обычно отображаемое имя Active Directory). Например:
+  - Чтобы просмотреть сведения о конкретном устройстве конференц-связи, включите параметр Identity, а затем идентификатор устройства конференц-связи (обычно отображаемое имя Active Directory). Пример:
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Get-ксмитингрум](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) .
+Дополнительные сведения см. в разделе справки по командлету [Get – CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) .
 
 </div>
 

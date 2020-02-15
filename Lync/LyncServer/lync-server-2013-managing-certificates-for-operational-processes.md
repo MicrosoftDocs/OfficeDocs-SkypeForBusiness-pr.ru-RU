@@ -12,20 +12,20 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7192462f5e9306a7410eb45cfb9060e4ddc11af4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d47607d2dedcf8d5466193f169e4cfb008c45bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738829"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a>Управление сертификатами рабочих процессов в Lync Server 2013
+# <a name="managing-certificates-for-operational-processes-in-lync-server-2013"></a>Управление сертификатами для рабочих процессов в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738829"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Чтобы управлять сертификатами с помощью командлетов командной консоли Lync Server, выполните указанные ниже действия.
+Используйте следующие процедуры для управления сертификатами с помощью командлетов командной консоли Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Промежуточный выпуск и сертификаты OAuth в Lync Server 2013 с помощью Set-Ксцертификате](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
+  - [Промежуточные сертификаты AV и OAuth в Lync Server 2013 using in Set — CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 
 </div>
 

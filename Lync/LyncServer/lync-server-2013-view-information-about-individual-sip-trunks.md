@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Просмотр сведений об отдельных магистральах SIP'
+title: 'Lync Server 2013: Просмотр сведений об отдельных магистральных магистральных каналах SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18b65d119b917d5ba48ef3e6805e4f70ea482ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3163bb6298bef570a68f2fcfd7dec66167549b21
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765650"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Просмотр сведений об отдельных магистральах SIP в Lync Server 2013
+# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>Просмотр сведений об отдельных магистральных магистральных каналах SIP в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765650"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Магистральные магистрали SIP используются для подключения к голосовой сети Lync Server 2013 по протоколу IP с помощью коммутируемой телефонной сети с открытым коммутируемым подключением. В предыдущих версиях продукта магистрали использовались для маршрутизации исходящих звонков с сервера-посредника на шлюз ТСОП, причем для каждого шлюза использовалась только одна магистраль. Поэтому шлюз ТСОП и магистраль SIP были практически равнозначны. Для администраторов это означало возможность просмотра сведений об отдельной магистрали SIP путем просмотра сведений о связанном шлюзе ТСОП.
+Магистральные линии SIP используются для подключения телефонной сети Lync Server 2013 для передачи голоса по протоколу IP с телефонной сетью общего пользования. В предыдущих версиях продукта магистрали использовались для маршрутизации исходящих звонков с сервера-посредника на шлюз ТСОП, причем для каждого шлюза использовалась только одна магистраль. Поэтому шлюз ТСОП и магистраль SIP были практически равнозначны. Для администраторов это означало возможность просмотра сведений об отдельной магистрали SIP путем просмотра сведений о связанном шлюзе ТСОП.
 
-Однако в Lync Server 2013 для одного шлюза PSTN может быть назначено несколько каналов. Это означает, что шлюзы и магистральные линии больше не являются одними и теми же. В свою очередь, это означает, что администраторы должны использовать новый командлет [Get-кструнк](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) для просмотра сведений о отдельной внешней магистрали SIP.
+Однако в Lync Server 2013 можно назначить несколько магистральных магистральов одному шлюзу PSTN; Это означает, что шлюзы и магистрали больше не являются одними и теми же. В свою очередь, это означает, что администраторам необходимо использовать новый командлет [Get – CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) для просмотра сведений об отдельной магистральной магистральной сети SIP.
 
-Командлет Get-Кструнк можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Командлет Get – CsTrunk можно запустить из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="to-view-information-for-all-your-sip-trunks"></a>Просмотр сведений о всех магистралях SIP
+## <a name="to-view-information-for-all-your-sip-trunks"></a>Просмотр сведений обо всех магистральных магистральных каналах SIP
 
   - Следующая команда возвращает сведения о всех магистралях SIP, используемых в организации.
     
@@ -65,7 +65,7 @@ _**Тема последнего изменения:** 2013-02-21_
 
 <div>
 
-## <a name="viewing-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>Просмотр сведений для всех магистральных каналов SIP, назначенных пулу
+## <a name="viewing-information-for-all-the-sip-trunks-assigned-to-a-pool"></a>Просмотр сведений о всех магистралях SIP, назначенных пулу
 
   - В этом примере возвращаются сведения о всех магистралях SIP, назначенных пулу atl-cs-001.litwareinc.com.
     

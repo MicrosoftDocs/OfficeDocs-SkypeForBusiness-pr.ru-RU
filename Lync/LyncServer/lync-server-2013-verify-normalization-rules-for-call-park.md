@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Проверка правил нормализации для приостановки звонка'
+title: 'Lync Server 2013: Проверка правил нормализации для парковки вызовов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2041b807ad16f1e91a83da39739d0ea058a5fba5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5ab8e6038fd17daed7f10f11023793b702dd7d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765580"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Проверка правил нормализации для парковки звонков в Lync Server 2013
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a>Проверка правил нормализации для парковки вызовов в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765580"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-11_
+_**Последнее изменение темы:** 2012-09-11_
 
-Орбиты для приостановки звонка не должны быть нормализованы. Check your dial plans to be sure that your orbit numbers are not normalized. Если необходимо создать дополнительное правило нормализации, чтобы не допустить нормализации, выполните действия, описанные в разделе [Создание абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md) , чтобы определить новое правило нормализации, чтобы **шаблон соответствовал** диапазону орбиты, а **шаблон перевода** — **$1**. Например, если диапазон на повороте на поворот по орбите равен 7000 – 7999, **шаблон соответствует** **^ (7\\d{3}) $** , а **шаблон перевода** — **$1**.
+Орбиты парковки вызовов не должны быть нормализованы. Проверьте абонентские группы и убедитесь, что значения орбит не нормализованы. Если необходимо создать дополнительное правило нормализации, чтобы не допустить нормализации орбит, выполните процедуру в разделе [Create a абонентской группы в Lync Server 2013](lync-server-2013-create-a-dial-plan.md) , чтобы определить новое правило нормализации, чтобы **в соответствии с шаблоном** определялся диапазон орбиты, а **шаблон перевода** — **$1**. Например, если диапазон орбиты парковки вызовов равен 7000 – 7999, то **шаблону, который необходимо найти** , является **^ (7\\d{3}) $** и **шаблоном перевода** является **$1**.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Be sure that the default normalization rule in your dial plans does not contain <STRONG>^(\d*)</STRONG>. В противном случае правило нормализации для приостановки вызова никогда не будет выполняться.
+> Убедитесь, что правило нормализации по умолчанию в абонентских группах не содержит <STRONG>^(\d*)</STRONG>. В противном случае правило нормализации приостановки вызовов никогда не будет выполняться.
 
 
 

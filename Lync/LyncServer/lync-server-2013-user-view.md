@@ -12,20 +12,20 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8e88d7a9fa66f309bbd64ab064ec95adafc40b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ddc05e2ee7e96ec10c6d3dbf691f7b094a10983
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744389"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-view-in-lync-server-2013"></a>Представление пользователя в Lync Server 2013
+# <a name="user-view-in-lync-server-2013"></a>Пользовательское представление в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744389"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-В представлении пользователя хранятся сведения о пользователях, которые участвовали в звонках или сеансах с записями в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
+Представление User хранит информацию о пользователях, участвовавших в звонках или сеансах с записями в базе данных. Это представление было представлено в Microsoft Lync Server 2013.
 
 
 <table>
@@ -50,29 +50,29 @@ _**Тема последнего изменения:** 2012-10-01_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Подробности</th>
+<th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Идентификатора пользователя</p></td>
-<td><p>целое</p></td>
+<td><p>UserId</p></td>
+<td><p>int</p></td>
 <td><p>Уникальный номер, идентифицирующий этого пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p>усерури</p></td>
+<td><p>UserUri</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Универсальный код ресурса (URI) пользователя.</p></td>
+<td><p>URI пользователя.</p></td>
 </tr>
 <tr class="odd">
 <td><p>тенанткэй</p></td>
 <td><p>идентификатора</p></td>
-<td><p>Клиент пользователя. Дополнительные сведения приведены в <a href="lync-server-2013-tenants-table.md">таблице "клиенты" в Lync Server 2013</a> .</p></td>
+<td><p>Клиент пользователя. Дополнительные сведения см. <a href="lync-server-2013-tenants-table.md">в таблице клиентов в Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>уритипе</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Тип универсального кода ресурса (URI) пользователя. Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-uritypes-table.md">таблицей уритипес в Lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Тип URI пользователя. Дополнительные сведения см. <a href="lync-server-2013-uritypes-table.md">в таблице таблица uritypes в Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

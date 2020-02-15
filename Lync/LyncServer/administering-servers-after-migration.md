@@ -13,16 +13,16 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af2a420b12b10f0b96609fbcfbd31907294a1a08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42005924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,15 +36,15 @@ ms.locfileid: "41724199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-29_
+_**Последнее изменение темы:** 2012-09-29_
 
-Как правило, необходимо использовать средство администрирования, соответствующее серверной версии, которой вы хотите управлять. Установка средств администрирования Lync Server 2010 и Lync Server 2013 на одном и том же компьютере невозможна. Кроме того, панель управления Lync Server 2013 не устанавливается на каждый сервер автоматически. Чтобы установить панель управления Lync Server 2013, следуйте инструкциям, приведенным в разделе [Установка средств администрирования Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) в документации по развертыванию.
+В целом, следует использовать средство администрирования, соответствующее версии сервера, которой требуется управлять. Установка средств администрирования Lync Server 2010 и Lync Server 2013 на одном компьютере невозможна. Кроме того, панель управления Lync Server 2013 не устанавливается автоматически на каждом сервере. Чтобы установить панель управления Lync Server 2013, выполните процедуру, описанную в разделе [Установка средств администрирования Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) в документации по развертыванию.
 
 <div>
 
 
 > [!IMPORTANT]  
-> После развертывания пилотного пула Lync Server 2013 вы не сможете использовать сервер Lync Server 2010 Topology Builder или панель управления Lync Server 2010 для управления ресурсами Lync Server 2013. Вы должны использовать инструменты Lync Server 2013 для управления ресурсами Lync Server 2013 и Lync Server 2010.
+> После развертывания пилотного пула Lync Server 2013 невозможно использовать панель управления Lync Server 2010 или панель управления Lync Server 2010 для управления всеми ресурсами Lync Server 2013. Для управления ресурсами Lync Server 2013 и Lync Server 2010 необходимо использовать инструменты Lync Server 2013.
 
 
 

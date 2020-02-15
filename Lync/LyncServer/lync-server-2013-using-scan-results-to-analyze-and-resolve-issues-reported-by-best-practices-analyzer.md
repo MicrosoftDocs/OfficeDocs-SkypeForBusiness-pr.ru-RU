@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: использование результатов сканирования для анализа и устранения проблем, обнаруженных анализатором соответствия рекомендациям'
+title: 'Lync Server 2013: использование результатов проверки для анализа и устранения проблем, о которых сообщает анализатор соответствия рекомендациям'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f2e7225cd79f4a89fcba1a168b9828ce6b72c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 116970f981c03212ec8ad769eaad71acb4d57cd8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744029"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744029"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-14_
+_**Последнее изменение темы:** 2012-06-14_
 
-При запуске Lync Server 2013, анализатора соответствия рекомендациям в среде Lync Server 2013 средство использует результаты проверки для создания отчетов о проблемах, связанных с развертыванием. Вы можете использовать отчеты, созданные анализатором соответствия рекомендациям, для выявления и устранения определенных проблем.
+При запуске Lync Server 2013, анализатор соответствия рекомендациям в среде Lync Server 2013, средство использует результаты проверки для создания отчетов о проблемах, связанных с развертыванием. Вы можете использовать анализатор соответствия рекомендациям для определения и устранения определенных ошибок.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013, анализатор соответствия рекомендациям проверяет и сообщает о проблемах только в компонентах Lync Server 2013. Если в развертывании есть компоненты Microsoft Lync Server 2010 или Office Communications Server 2007 R2, для анализа этих компонентов используйте анализатор соответствия рекомендациям предыдущей версии. Дополнительные сведения можно найти <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">в разделе Требования для анализатора соответствия рекомендациям в Lync Server 2013</A>.
+> Lync Server 2013, анализатор соответствия рекомендациям сканирует и сообщает о проблемах только с компонентами Lync Server 2013. Если развертывание включает компоненты Microsoft Lync Server 2010 или Office Communications Server 2007 R2, используйте анализатор соответствия рекомендациям предыдущей версии, чтобы проанализировать эти компоненты. Дополнительные сведения см. <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">в статье требования для запуска анализатора соответствия рекомендациям в Lync Server 2013</A>.
 
 
 

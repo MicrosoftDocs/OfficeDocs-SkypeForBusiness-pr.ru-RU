@@ -12,16 +12,16 @@ ms:contentKeyID: 49733695
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13bbc63d65786823ae49895358216a903878192
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0eff8985832d9bb6e8aa4e06b777944417c7b8bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757493"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757493"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
 Служба регистрации вызовов (CDR) позволяет отслеживать использование таких услуг, как сеансы обмена одноранговыми мгновенными сообщениями, телефонные вызовы с передачей речи по IP-сетям (VoIP) и вызовы конференц-связи. Данные о таком использовании телефонии включают сведения о том, кто кому звонил, когда звонили и каким долгим был телефонный разговор.
 
-При установке Microsoft Lync Server 2013 создается единая глобальная коллекция параметров конфигурации CDR. Администраторы также могут создавать настраиваемые коллекции параметров, которые можно применять к отдельным сайтам. Вы можете просматривать параметры конфигурации CDR, используемые в вашей организации, с помощью панели управления Lync Server или командлетом [Get-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .
+При установке Microsoft Lync Server 2013 создается одна глобальная коллекция параметров конфигурации CDR. Администраторы могут создавать пользовательские коллекции параметров, которые могут применяться к отдельным сайтам. Параметры конфигурации CDR, используемые в Организации, можно просмотреть с помощью панели управления Lync Server или командлета [Get – CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .
 
 <div>
 
 ## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a>Просмотр сведений о конфигурации CDR с помощью панели управления Lync Server
 
-1.  На панели управления Lync Server откройте вкладку **наблюдение и архивация**.
+1.  В панели управления Lync Server щелкните **мониторинг и архивация**.
 
 2.  Список всех параметров конфигурации CDR отображается на вкладке **Регистрация вызовов**. Для каждой коллекции параметров вы увидите **Имя**, была ли включена регистрация вызовов или нет (свойство **CDR**) независимо от включения очистки (свойство **Очистка CDR**). Для просмотра подробных сведений о коллекции дважды щелкните ее или выберите нужную коллекцию, нажмите кнопку **Правка** и щелкните **Показать подробности**. Учтите, что вы можете просматривать подробную информацию только для одной коллекции параметров конфигурации CDR за один раз.
 
@@ -55,17 +55,17 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>Просмотр сведений о конфигурации CDR с помощью командлетов Windows PowerShell
 
-Вы можете просматривать параметры конфигурации CDR с помощью Windows PowerShell и командлета Get-Кскдрконфигуратион. Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
+Параметры конфигурации CDR можно просмотреть с помощью Windows PowerShell и командлета Get – CsCdrConfiguration. Этот командлет можно выполнить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
 ## <a name="to-view-cdr-configuration-information"></a>Просмотр данных конфигурации CDR
 
-  - Чтобы просмотреть сведения о всех параметрах конфигурации CDR, введите следующую команду в командной консоли Lync Server Management Shell и нажмите клавишу ВВОД:
+  - Чтобы просмотреть сведения обо всех параметрах конфигурации CDR, введите следующую команду в командной консоли Lync Server, а затем нажмите клавишу ВВОД:
     
         Get-CsCdrConfiguration
     
-    Команда возвращает примерно следующую информацию:
+    Это приведет к возврату приблизительно такой информации:
     
         Identity               : Global
         EnableCDR              : True
@@ -76,7 +76,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [Get-кскдрконфигуратион](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Get – CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .
 
 </div>
 

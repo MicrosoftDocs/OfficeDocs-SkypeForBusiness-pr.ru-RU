@@ -12,16 +12,16 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755973"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755973"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-Lync Server 2013 использует систему доменных имен (DNS), чтобы регистрировать и поддерживать записи для правильного доменного имени в разрешении IP-адреса. Прежде чем приступать к работе с сервером Standard Edition или пулом переднего плана, необходимо настроить необходимые записи DNS для развертывания. Ниже приведены ссылки на рекомендации о том, какие записи необходимо создавать для обеспечения правильного функционирования Lync Server 2013.
+Lync Server 2013 использует систему доменных имен (DNS) для регистрации и обслуживания записей с правильным именем домена в разрешении IP-адресов. Прежде чем приступать к работе с сервером Standard Edition или интерфейсным пулом, необходимо настроить необходимые записи DNS для развертывания. Ниже приведены ссылки на инструкции по созданию записей, которые необходимо создать, чтобы обеспечить правильную работу Lync Server 2013.
 
 <div>
 
@@ -45,7 +45,7 @@ Lync Server 2013 использует систему доменных имен (
 
   - [Настройка DNS для балансировки нагрузки в Lync Server 2013](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [Настройка записей узлов DNS для Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
+  - [Настройка записей узла DNS для Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
 
   - [Создание и проверка записей DNS SRV в Lync Server 2013](lync-server-2013-create-and-verify-dns-srv-records.md)
 

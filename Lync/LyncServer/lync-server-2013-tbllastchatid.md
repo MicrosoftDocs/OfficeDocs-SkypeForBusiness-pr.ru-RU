@@ -12,16 +12,16 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0fc42a3151b5863885fdb3853ea529503e18a6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be10514a933cb6a311d115fbbb011398f2758ef9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731549"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731549"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-Тблластчатид включает последний идентификатор чата, который был создан (и использован в таблице Тблчат) для каждого пользователя.
+Таблица tblLastChatId содержит последние идентификаторы чатов, которые были созданы (и использованы в таблице tblChat) для каждого пользователя.
 
-### <a name="columns"></a>Столбцов
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,20 +56,20 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>нодеид</p></td>
-<td><p>int, NOT NULL</p></td>
-<td><p>Идентификатор узла (комната чата — только тип).</p></td>
+<td><p>nodeID</p></td>
+<td><p>int, not null</p></td>
+<td><p>Идентификатор узла (только типа комнаты чата).</p></td>
 </tr>
 <tr class="even">
 <td><p>ластчатид</p></td>
-<td><p>bigint, NOT NULL</p></td>
-<td><p>НОМЕР последнего использованного чата.</p></td>
+<td><p>bigint, not null</p></td>
+<td><p>Идентификатор последнего чата.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>Параметры
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -84,12 +84,12 @@ _**Тема последнего изменения:** 2012-09-12_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Нодеид, Ластчатид&gt;</p></td>
-<td><p>Первичный ключ (для обработки достаточно просто Нодеид).</p></td>
+<td><p>&lt;nodeID, Ластчатид&gt;</p></td>
+<td><p>Первичный ключ (для обработки достаточно nodeID).</p></td>
 </tr>
 <tr class="even">
-<td><p>нодеид</p></td>
-<td><p>Внешний ключ с подстановкой в таблице Тблноде. Нодеид.</p></td>
+<td><p>nodeID</p></td>
+<td><p>Внешний ключ с поиском в таблице tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

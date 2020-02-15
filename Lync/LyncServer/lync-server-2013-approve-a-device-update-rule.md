@@ -12,20 +12,20 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537af434a704b23553c217bde3370d49e318f37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738539"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>Утверждение правила обновления устройства в Lync Server 2013
+# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>Утверждение правила обновления устройств в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738539"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-23_
+_**Последнее изменение темы:** 2013-02-23_
 
-После импорта правила обновления устройства оно будет установлено на тестовых устройствах. Если тестирование прошло успешно и вы хотите развернуть обновление в своей организации, утвердите его с помощью панели управления Lync Server или Windows PowerShell.
+После импорта правила обновления устройств оно устанавливается на тестовые устройства. Если проверка прошла успешно, и вы хотите развернуть обновление в Организации, утвердите его с помощью панели управления Lync Server или Windows PowerShell.
 
 <div>
 
@@ -45,15 +45,15 @@ _**Тема последнего изменения:** 2013-02-23_
 
 1.  Войдите на любой компьютер во внутреннем развертывании с использованием учетной записи пользователя, назначенной роли CsUserAdministrator или CsAdministrator.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  На странице **обновление устройства** выполните одно из указанных ниже действий.
+3.  На странице **обновление устройства** выполните одно из следующих действий.
     
       - Чтобы утвердить одно правило, выберите это правило.
     
-      - Чтобы утвердить все правила, нажмите кнопку **изменить**, а затем выберите команду **выделить все**.
+      - Чтобы утвердить все правила, нажмите кнопку **изменить**, а затем выберите пункт **выбрать все**.
 
-4.  Нажмите кнопку **действие**и выберите пункт **утвердить**.
+4.  Щелкните **действие**, а затем нажмите кнопку **утвердить**.
 
 </div>
 
@@ -61,13 +61,13 @@ _**Тема последнего изменения:** 2013-02-23_
 
 ## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Утверждение правила обновления устройства с помощью командлетов Windows PowerShell
 
-Вы также можете утвердить правила обновления устройства с помощью Windows PowerShell и командлета **утвержденных ксдевицеупдатеруле** . Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
+Правила обновления устройств также могут быть утверждены с помощью Windows PowerShell и командлета **утвержденного CsDeviceUpdateRule** . Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>веб-сервере Lync Server Windows PowerShell.
+> Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>статье Lync Server Windows PowerShell в блоге.
 
 
 
@@ -75,7 +75,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-approve-a-single-device-update-rule"></a>Утверждение отдельного правила обновления устройства
+## <a name="to-approve-a-single-device-update-rule"></a>Утверждение правила обновления одного устройства
 
   - Следующая команда утверждает правило обновления устройства d5ce3c10-2588-420A-82ac-dc2d9b1222ff9, обнаруженное на веб-сервере atl-cs-001.litwareinc.com:
     
@@ -85,7 +85,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 <div>
 
-## <a name="to-approve-multiple-device-update-rules"></a>Утверждение нескольких правил обновления устройства
+## <a name="to-approve-multiple-device-update-rules"></a>Утверждение нескольких правил обновления устройств
 
   - Эта команда утверждает все правила обновления устройств для устройств с фирменной символикой Майкрософт:
     
@@ -93,7 +93,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 </div>
 
-Дополнительные сведения можно найти в разделе справки по командлету [утвержденных ксдевицеупдатеруле](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [утверждений CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
 
 </div>
 
@@ -103,7 +103,7 @@ _**Тема последнего изменения:** 2013-02-23_
 
 
 [Импорт правил обновления устройств в Lync Server 2013](lync-server-2013-import-device-update-rules.md)  
-[Восстановление правила обновления устройства в Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)  
+[Восстановление правила обновления устройств в Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md)  
   
 
 </div>

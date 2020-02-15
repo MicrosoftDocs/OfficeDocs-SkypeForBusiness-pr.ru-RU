@@ -1,5 +1,5 @@
 ---
-title: Обновление или переход на сервер Standard Edition
+title: Обновление или обновление внутреннего сервера или сервера Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744669"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Обновление или обновление серверного сервера или стандартного выпуска Standard в Lync Server 2013
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Обновление или обновление внутреннего сервера или сервера Standard Edition в Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41744669"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-В этой статье объясняется, как установить обновление на обратном сервере Enterprise Edition или стандартном сервере Standard Edition.
+В этом разделе объясняется, как установить обновление на фоновом сервере Enterprise Edition или сервере Standard Edition.
 
-Если сервер выходит за частоту не менее 30 минут после его обновления, пользователи могут перейти в режим устойчивости. После завершения обновления и повторного подключения серверов к внешним серверам из пула пользователи будут возвращены в полную функциональность. Если обновление занимает менее 30 минут, оно никак не затронет работу пользователей.
+Если во время обновления внутренний сервер отключается хотя бы на 30 минут, пользователи могут перейти в режим устойчивости. После завершения обновления и подключения внутреннего сервера к серверам переднего плана в пуле пользователи снова получают полный набор функциональных возможностей. Если обновление занимает менее 30 минут, оно никак не затронет работу пользователей.
 
 <div>
 
@@ -49,7 +49,7 @@ _**Тема последнего изменения:** 2012-11-01_
 
 2.  Загрузите обновление и извлеките его на локальный жесткий диск.
 
-3.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+3.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 4.  Остановите службы Lync Server. В командной строке выполните следующую команду:
     
@@ -59,13 +59,13 @@ _**Тема последнего изменения:** 2012-11-01_
     
         net stop w3svc
 
-6.  Закройте все окна команд Lync Server Management Shell.
+6.  Закройте все окна командной консоли Lync Server.
 
 7.  Установите обновление.
 
-8.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+8.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-9.  Снова остановите службы Lync Server, чтобы перехватить сборки глобального кэша сборок (GAC) – d. В командной строке выполните следующую команду:
+9.  Снова остановите службы Lync Server, чтобы получить сборки –d из глобального кэша сборок. В командной строке выполните следующую команду:
     
         Stop-CsWindowsService
 
@@ -73,17 +73,17 @@ _**Тема последнего изменения:** 2012-11-01_
     
         net start w3svc
 
-11. Примените изменения, внесенные Линксерверупдатеинсталлер. exe, в базу данных SQL Server, выполнив одно из указанных ниже действий.
+11. Примените изменения, внесенные программой LyncServerUpdateInstaller.exe в базы данных SQL Server, выполнив одно из следующих действий:
     
-      - Если это сервер выпуска Enterprise Edition и на нем нет размещенных на нем баз данных, таких как архивация и мониторинг баз данных, введите в командной строке следующую команду:
+      - Если это внутренний сервер выпуска Enterprise Edition, а на этом сервере нет размещенных баз данных, таких как архивация и отслеживание баз данных, введите в командной строке следующую команду:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - Если этот сервер выпуска Enterprise Edition и на нем есть размещенные на сервере базы данных, введите в командной строке следующее:
+      - Если это внутренний сервер выпуска Enterprise Edition и на этом сервере размещены размещенные базы данных, введите в командной строке следующую команду:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - Если это сервер Standard Edition, введите в командной строке следующее:
+      - Если это сервер Standard Edition, введите в командной строке следующую команду:
         
             Install-CsDatabase -Update -LocalDatabases
 

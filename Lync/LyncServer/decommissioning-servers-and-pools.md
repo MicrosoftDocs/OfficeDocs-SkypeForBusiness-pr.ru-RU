@@ -1,5 +1,5 @@
 ---
-title: Списание серверов и групп
+title: Списание серверов и пулов
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0dc7c9006170b2df6f3b54aea7ef80509e15438
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 454151e9f1f58bb55212356941feb8e6702a6bf7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723059"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="decommissioning-servers-and-pools"></a>Списание серверов и групп
+# <a name="decommissioning-servers-and-pools"></a>Списание серверов и пулов
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41723059"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-26_
+_**Последнее изменение темы:** 2012-09-26_
 
-На указанных ниже веб-страницах содержатся сведения о списании серверов и пулов Office Communications Server 2007 R2 Standard Edition и корпоративных выпусков.
+На следующих веб-страницах содержатся сведения о списании серверов и пулов Office Communications Server 2007 R2 Standard Edition или Enterprise Edition.
 
   - Списание стандартного выпуска по адресу[http://go.microsoft.com/fwlink/p/?linkId=205889](http://go.microsoft.com/fwlink/p/?linkid=205889)
 
-  - Удаление серверов и ролей сервера на[http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)
+  - Удаление серверов и ролей серверов в[http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)
 
-  - Удаление корпоративного пула на[http://go.microsoft.com/fwlink/p/?linkId=205888](http://go.microsoft.com/fwlink/p/?linkid=205888)
+  - Удаление корпоративного пула в[http://go.microsoft.com/fwlink/p/?linkId=205888](http://go.microsoft.com/fwlink/p/?linkid=205888)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: командлеты для управления приложениями'
+title: 'Lync Server 2013: командлеты управления приложениями'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183917
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8482a7efa1a66017bdc55cb2f121e5a3c14eade9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 223f954c4cbd6725259a8188c3213fce5f241872
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,95 +35,95 @@ ms.locfileid: "41737749"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Microsoft Lync Server 2013 содержит командлеты, позволяющие управлять серверными приложениями Lync и доверенными сторонними приложениями.
+Microsoft Lync Server 2013 содержит командлеты, которые позволяют управлять приложениями Lync Server и доверенными сторонними приложениями.
 
 <div>
 
-## <a name="application-management-cmdlets"></a>Командлеты для управления приложениями
+## <a name="application-management-cmdlets"></a>Командлеты управления приложениями
 
-Используйте командлеты в этих категориях для управления приложениями.
+Используйте командлеты в данных категориях, чтобы управлять приложениями.
 
-**[Командлеты конечных точек приложения в Lync Server 2013](lync-server-2013-application-endpoints-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398655(v=OCS.15))
+**[Командлеты конечных точек приложений в Lync Server 2013](lync-server-2013-application-endpoints-cmdlets.md)**
 
   - <span></span>  
-    [Move-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [Get — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398655(v=OCS.15))
+
+  - <span></span>  
+    [Move — CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 **[Командлеты сервера приложений и служб в Lync Server 2013](lync-server-2013-application-server-and-services-cmdlets.md)**
 
   - <span></span>  
-    [Set-CsApplicationServer](https://technet.microsoft.com/en-us/library/Gg398562(v=OCS.15))
+    [Set — Ксаппликатионсервер](https://technet.microsoft.com/library/Gg398562(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Кссервераппликатион](https://technet.microsoft.com/en-us/library/Gg425948(v=OCS.15))
+    [Get — CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))
 
   - <span></span>  
-    [New-Кссервераппликатион](https://technet.microsoft.com/en-us/library/Gg398096(v=OCS.15))
+    [New — CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg398366(v=OCS.15))
+    [Remove — CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))
 
   - <span></span>  
-    [Set-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg412850(v=OCS.15))
+    [Set — CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))
 
 **[Командлеты доверенных приложений в Lync Server 2013](lync-server-2013-trusted-applications-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg399025(v=OCS.15))
+    [Get — Кструстедаппликатион](https://technet.microsoft.com/library/Gg399025(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398259(v=OCS.15))
+    [New — Кструстедаппликатион](https://technet.microsoft.com/library/Gg398259(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg398176(v=OCS.15))
+    [Remove — Кструстедаппликатион](https://technet.microsoft.com/library/Gg398176(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplication](https://technet.microsoft.com/en-us/library/Gg425840(v=OCS.15))
+    [Set — Кструстедаппликатион](https://technet.microsoft.com/library/Gg425840(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg425843(v=OCS.15))
+    [Get — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg425843(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398405(v=OCS.15))
+    [New — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg398405(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplicationComputer](https://technet.microsoft.com/en-us/library/Gg398838(v=OCS.15))
+    [Remove — Кструстедаппликатионкомпутер](https://technet.microsoft.com/library/Gg398838(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg413035(v=OCS.15))
+    [Get — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg413035(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398594(v=OCS.15))
+    [New — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398594(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398837(v=OCS.15))
+    [Remove — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398837(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398509(v=OCS.15))
+    [Set — Кструстедаппликатионендпоинт](https://technet.microsoft.com/library/Gg398509(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg413055(v=OCS.15))
+    [Get — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg413055(v=OCS.15))
 
   - <span></span>  
-    [New-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg425804(v=OCS.15))
+    [New — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg425804(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398750(v=OCS.15))
+    [Remove — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg398750(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTrustedApplicationPool](https://technet.microsoft.com/en-us/library/Gg398187(v=OCS.15))
+    [Set — Кструстедаппликатионпул](https://technet.microsoft.com/library/Gg398187(v=OCS.15))
 
 </div>
 

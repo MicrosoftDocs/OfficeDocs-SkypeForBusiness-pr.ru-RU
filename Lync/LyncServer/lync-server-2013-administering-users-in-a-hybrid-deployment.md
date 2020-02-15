@@ -12,16 +12,16 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e416901fd5a98ffa3974c29e469eef2b6f4cb783
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a82cb5ae505db5db3bbd8dd216ad61256368814e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737969"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41737969"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-05-29_
+_**Последнее изменение темы:** 2014-05-29_
 
-Вы можете управлять параметрами пользователей и политиками для пользователей, перенесенных на Lync Online с помощью функций управления пользователями, доступных на портале Microsoft Office 365 Online. Для выполнения задач администрирования необходимо войти по учетной записи администратора клиента.
+Вы можете управлять параметрами пользователей и политиками для пользователей, перенесенных в Lync Online, используя функции управления пользователями, доступные на портале Microsoft Office 365 Online. Для выполнения задач администрирования необходимо войти в систему с помощью учетной записи администратора клиента.
 
 <div>
 
-## <a name="moving-users-back-to-on-premises"></a>Перемещение пользователей на локальный сервер
+## <a name="moving-users-back-to-on-premises"></a>Возврат пользователей в локальную среду
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> Этот раздел относится только к пользователям, которые были созданы и включены в локальной среде Lync, а затем перенесено из локального развертывания в Lync Online. Если вы хотите переместить пользователей, которые были созданы в Lync Online (и не включены для Lync в локальном развертывании), ознакомьтесь с разрешениями: <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Перемещение пользователей из Lync Online в локальное приложение Lync в Lync Server 2013</A>.
+> Этот раздел относится только к пользователям, созданным и включенным в локальной среде Lync, а затем перемещению из локального развертывания в Lync Online. Если вы хотите переместить пользователей, созданных в Lync Online (и не включенных для Lync в локальном развертывании), ознакомьтесь со статьей <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Перемещение пользователей из Lync Online в локальную среду Lync в Lync Server 2013</A>.
 
 
 
 </div>
 
-  - Чтобы переместить пользователя из Lync Online обратно в локальное Lync, выполните следующие командлеты:
+  - Выполните следующие командлеты, чтобы переместить пользователя из Lync Online обратно в локальную среду Lync:
     
        ```PowerShell
         $cred=Get-Credential
@@ -63,27 +63,27 @@ _**Тема последнего изменения:** 2014-05-29_
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-В качестве параметра **HostedMigrationOverrideUrl** следует указать URL-адрес пула, где работает служба миграции с размещением, в следующем формате:
+Формат URL-адреса, указанный для параметра **хостедмигратионоверридеурл** , должен быть URL-адресом пула, в котором запущена служба переноса, в следующем формате:
 
-Полное\<доменное\>имя пула HTTPS:///хостедмигратион/хостедмигратионсервице.СВК. URL-адрес службы миграции с размещением можно определить по URL-адресу панели управления Lync Online для учетной записи клиента Office 365.
+Полное\<доменное\>имя пула HTTPS:///HostedMigration/hostedmigrationService.svc. Вы можете определить URL-адрес размещенной службы миграции, просмотрев URL-адрес панели управления Lync Online для своей учетной записи клиента Office 365.
 
-**Определение URL-адреса размещенной службы миграции для своего клиента Office 365**
+**Определение размещенного URL-адреса службы миграции для клиента Office 365**
 
-1.  Выполните вход в свое клиентское приложение Office 365 как администратор.
+1.  Войдите в свой клиент Office 365 от имени администратора.
 
 2.  Откройте **центр администрирования Lync**.
 
-3.  В **центре администрирования Lync** выберите и скопируйте URL-адрес в адресной строке на **Lync.com**. Ниже показан возможны пример URL-адреса
+3.  При отображении **центра администрирования Lync** выберите и скопируйте URL-адрес в адресную строку вплоть до **Lync.com**. Пример URL-адреса выглядит примерно следующим образом:
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  После замены фрагмента **webdir** в URL-адресе фрагментом **admin** получается следующий результат:
+4.  Замените **webdir** в URL-адресе на **"Администратор"**, что приводит к следующим действиям:
     
     `https://admin0a.online.lync.com`
 
-5.  Добавьте к URL-адресу следующую строку: **/HostedMigration/hostedmigrationservice.svc**.
+5.  Добавьте указанную ниже строку в URL-адрес: **/HostedMigration/hostedmigrationservice.svc**.
     
-    Итоговый URL-адрес, который служит значением параметра **HostedMigrationOverrideUrl**, должен выглядеть следующим образом:
+    Итоговый URL-адрес, который является значением **хостедмигратионоверридеурл**, должен выглядеть следующим образом:
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 

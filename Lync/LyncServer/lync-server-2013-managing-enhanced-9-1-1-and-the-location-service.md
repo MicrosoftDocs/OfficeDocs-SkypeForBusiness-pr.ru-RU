@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление службой Enhanced 9-1-1 и службой расположения'
+title: 'Lync Server 2013: Управление расширенными 9-1-1ми и служба расположения'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251d76cd7fcdc04834dbab3146ac39847630f45c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6ea5107ddbcc4e98473f58c43d10fe8f745b2e64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729289"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729289"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Lync Server 2013 поддерживает вызов улучшенных 9-1-1 (E9-1-1) на клиентах Lync и устройствах Lync Phone Edition. Если вы настроили Lync Server 2013 для E9-1-1, экстренные вызовы, размещенные в Lync 2013 или Lync Phone Edition, включают в себя сведения о местоположении ответа на аварийную информацию (ЕРЛ) из базы данных службы сведений о расположении. С помощью описанных в этом разделе процедур можно управлять политикой расположения.
+Lync Server 2013 поддерживает вызовы расширенных 9-1-1 (E9-1-1) от клиентов Lync и устройств Lync Phone Edition. При настройке Lync Server 2013 для E9-1-1 экстренные вызовы, размещенные из Lync 2013 или Lync Phone Edition, включают сведения о местоположении отклика на аварийное обслуживание (пэр) из базы данных службы сведений о расположении. Используйте процедуры, описанные в этом разделе, для управления политикой расположения.
 
 <div>
 
 
 > [!NOTE]  
-> Подробнее о том, как развертывать дополнительные функции голосовой связи, такие как E9-1-1 и служба сведений о местоположении, можно узнать <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">в разделе развертывание расширенных функций голосовой связи в Lync Server 2013</A>.
+> Подробнее о развертывании расширенных функций корпоративной голосовой связи, таких как E9 – 1 – 1 и служба информации о местоположении, можно узнать <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">в статье развертывание расширенных функций корпоративной голосовой связи в Lync Server 2013</A>.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: добавление администратора сохраняемого чата'
+title: 'Lync Server 2013: Добавление администратора сохраняемого чата'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23ced0c93aae8f55868f44f179c659aead26f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90fa941f575a49b3cb5de23f6aa38944d885eb85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-06_
+_**Последнее изменение темы:** 2012-10-06_
 
-В Lync Server 2013 пользователи, которые выполняют определенные задачи, должны быть назначены как участники одной или нескольких конкретных групп. Управление доступом на основе ролей (RBAC) также можно использовать для предоставления привилегий путем назначения пользователям стандартных административных ролей Lync Server 2013.
+В Lync Server 2013 пользователи, выполняющие определенные задачи, должны быть назначены как участники одной или нескольких конкретных групп. Управление доступом на основе ролей (RBAC) также можно использовать для предоставления привилегий путем назначения пользователям предварительно заданных административных ролей Lync Server 2013.
 
-Перед настройкой и администрированием сохраняемого сервера чата убедитесь в том, что у вас есть соответствующие права и разрешения, и что пользователи, которые должны быть отнесены к постоянном администраторам чата, добавлены в Ксперсистентчатадминистратор безопасности. сгруппирован.
+Перед настройкой и администрированием сервера сохраняемого чата убедитесь, что у вас есть соответствующие права и разрешения, и что все пользователи, которые должны классифицироваться как администраторы сохраняемого чата, добавлены в систему безопасности CsPersistentChatAdministrator. группы.
 
 </div>
 

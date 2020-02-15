@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица Tenants'
+title: 'Lync Server 2013: таблица "клиенты"'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de776adeb8c280c5216b35cc8236a0834c14aa13
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0d2459c169fb93520125ceef7a8076bd51343db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746499"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tenants-table-in-lync-server-2013"></a>Таблица Tenants в Lync Server 2013
+# <a name="tenants-table-in-lync-server-2013"></a>Таблица клиентов в Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41746499"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-Таблица "клиенты" — это вспомогательная таблица, в которой хранится список различных клиентов. Каждая запись в таблице представляет собой один клиент.
+Таблица клиентов является вспомогательной таблицей, в которой хранится список различных клиентов. Каждая запись в таблице представляет одного клиента.
 
 <div>
 
 
 > [!NOTE]  
-> В локальной среде CDR использует идентификатор клиента сборки для указания другого типа проверки подлинности, например общедоступной службы обмена мгновенными сообщениями, федеративного и анонимного.
+> В локальном развертывании CDR использует встроенный ИД клиента, чтобы показать различные типы проверки подлинности, такие как общедоступное подключение для обмена мгновенными сообщениями, федеративное подключение или анонимное подключение.
 
 
 
@@ -61,27 +61,27 @@ _**Тема последнего изменения:** 2012-09-28_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>TenantId</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, идентифицирующий этот идентификатор клиента.</p></td>
+<td><p>Уникальное число, определяющее ИД клиента.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>тенанткэй</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Допустимые значения:</p>
 <ul>
-<li><p>00000000-0000-0000-0000-000000000000 – предприятие</p></li>
-<li><p>00000000-0000-0000-0000-000000000001 – Федеративные</p></li>
-<li><p>00000000-0000-0000-0000-000000000002 – анонимный</p></li>
-<li><p>00000000-0000-0000-0000-000000000003 – общедоступная служба обмена мгновенными сообщениями</p></li>
+<li><p>00000000-0000-0000-0000-000000000000 — Корпоративное</p></li>
+<li><p>00000000-0000-0000-0000-000000000001 — Федеративное</p></li>
+<li><p>00000000-0000-0000-0000-000000000002 — Анонимное</p></li>
+<li><p>00000000-0000-0000-0000-000000000003 — Общедоступное подключение для обмена мгновенными сообщениями</p></li>
 </ul></td>
 </tr>
 </tbody>

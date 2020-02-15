@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: требования к Lync для iPhone и iPad'
+title: 'Lync Server 2013: требования Lync для iPhone и iPad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc80d20006b63c2af50d10aa51150ebfa75b7a88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 969674ea6e426178ecb040d9474fc8fec85395cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765487"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030893"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765487"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-06-01_
+_**Последнее изменение темы:** 2015-06-01_
 
-Для поддержки Microsoft Lync 2013 для iPhone или Microsoft Lync 2013 для iPad необходимо, чтобы устройство удовлетворяло указанным ниже требованиям.
+Для поддержки Microsoft Lync 2013 для iPhone или Microsoft Lync 2013 для iPad устройство должно удовлетворять следующим требованиям:
 
-  - Мобильное цифровое устройство iPhone 6 с Apple iOS 8 или новейшей версией.
+  - Мобильное цифровое устройство iPhone 6 с Apple iOS 8 или последней версией.
 
-  - Мобильное цифровое устройство iPhone 5 с Apple iOS 7 или новейшей версией.
+  - Мобильное цифровое устройство iPhone 5 с Apple iOS 7 или последней версией.
 
-  - Мобильное цифровое устройство iPhone 4 с Apple iOS 7 или новейшей версией.
+  - Мобильное цифровое устройство iPhone 4 с Apple iOS 7 или последней версией.
 
-  - iPad 2 или более поздней версии цифровое устройство с ОС Apple iOS 7 или новейшей версии.
+  - iPad 2 или более поздней версии мобильное устройство с Apple iOS 7 или последней версией.
 
-  - Мини-приложение iPad для мобильных устройств с ОС Apple iOS 7 или новейшей версии.
+  - цифровое устройство iPad Mini Mobile с Apple iOS 7 или последней версией.
 
 </div>
 

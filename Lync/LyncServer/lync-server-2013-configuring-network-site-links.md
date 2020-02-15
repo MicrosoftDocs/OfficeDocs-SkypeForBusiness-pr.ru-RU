@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка ссылок на сайты сети'
+title: 'Lync Server 2013: Настройка связей между сетевыми сайтами'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e379a8195dd0a50d97a514307ac594908be4736c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: face7287ecf65a75e335b63f0a657c4534891277
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-site-links-in-lync-server-2013"></a>Настройка связей сайтов сети в Lync Server 2013
+# <a name="configuring-network-site-links-in-lync-server-2013"></a>Настройка связей между сетевыми сайтами в Lync Server 2013
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41763483"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-В конфигурации управления допуском звонков (CAC) можно создавать сетевые политики межсайтовых связей, определяющие ограничения пропускной способности между сайтами, которые непосредственно связаны. Если сетевые сайты имеют прямую связь, для них можно определять ограничения пропускной способности для аудио-и видеоподключений. Вы не можете использовать панель управления Lync Server для настройки политик сетевого сайта, это можно сделать только с помощью командлетов из командной консоли Lync Server Management Shell. Вы можете создавать, изменять и удалять ссылки на сетевые сайты (также называемые межсетевой политикой сайтов) из командной консоли Lync Server Management Shell.
+В конфигурации контроля допуска звонков можно создать сетевые межузловые политики, которые определяют ограничения пропускной способности между связанными напрямую узлами. Когда сетевые узлы совместно используют прямую связь, ограничения для аудио- и видеосвязи можно задавать между этими двумя узлами. Вы не можете использовать панель управления Lync Server для настройки политик сетевых сайтов, это можно сделать только с помощью командлетов из командной консоли Lync Server. С помощью командной консоли Lync Server можно создавать, изменять и удалять сетевые связи сайтов (также называемые сетевой политикой межсайтовой связи).
 
 <div>
 
-## <a name="to-create-a-network-site-link"></a>Создание связи сайтов сети
+## <a name="to-create-a-network-site-link"></a>Создание связи между сетевыми узлами
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  В командной строке введите следующую команду: подставляемые значения, которые являются допустимыми для вашей конфигурации.
+3.  В Введите в командной строке следующую команду, подставив значения, подходящие для вашей конфигурации:
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    В этом примере создается ссылка на веб-сайт с\_именем Рено Портленде, которая устанавливает ограничения для пропускной способности между сайтами Рено и Портленде. Перед выполнением этой команды необходимо, чтобы сетевые сайты и профиль политики пропускания уже существовали.
+    В этом примере создается сетевое подключение к сетевому\_сайту с именем Рино Портленде, которое задает ограничения пропускной способности между узлами Рино и сети Портленде. Перед выполнением этой команды уже должны существовать эти сетевые узлы и профиль политики пропускной способности.
 
-Подробное описание параметров можно найти в разделе [New-кснетворкинтерситеполици](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) в документации по консоли управления Lync Server. Чтобы получить список профилей политики пропускной способности, которые можно применить к связи сайтов сети, вызовите командлет **Get-кснетворкбандвидсполиципрофиле** . Подробности можно найти в разделе [Get-кснетворкбандвидсполиципрофиле](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) в документации по среде управления Lync Server.
+Подробное описание параметров приведено в разделе [New – CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) в документации по консоли управления Lync Server. Чтобы получить список профилей политик пропускной способности, которые можно применять к связи между сетевыми узлами, вызовите командлет **Get-CsNetworkBandwidthPolicyProfile**. Дополнительные сведения см. в статье [Get – CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) в документации по консоли управления Lync Server.
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-site-link"></a>Изменение связи сайтов сети
+## <a name="to-modify-a-network-site-link"></a>Изменение связи между сетевыми узлами
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  Используйте командлет **Set-кснетворкинтерситеполици** , чтобы изменить свойства данной ссылки на сайт сети. Вы можете изменить либо (или и то, и другое) подключенные сайты, а также изменить профиль политики для пропускной способности, связанный со ссылкой. Ниже приведен пример изменения профиля политики пропускной способности для ссылки на сайт с именем\_Рено Портленде.
+3.  Для изменения свойств конкретной связи между сетевыми узлами используется командлет **Set-CsNetworkInterSitePolicy**. Можно изменять каждый из связанных узлов (или оба этих узла), а также профиль политики пропускной способности, привязанный к этой связи. Ниже приведен пример изменения профиля политики пропускной способности для связи сайтов с именем Рино\_Портленде:
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-Подробное описание параметров можно найти в разделе [Set-кснетворкинтерситеполици](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) в документации по консоли управления Lync Server.
+Подробное описание параметров приведено в разделе [Set – CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) в документации по консоли управления Lync Server.
 
 </div>
 
 <div>
 
-## <a name="to-delete-a-network-site-link"></a>Удаление ссылки на сайт сети
+## <a name="to-delete-a-network-site-link"></a>Удаление связи между сетевыми узлами
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  С помощью командлета **Remove-кснетворкинтерситеполици** удалите связь с сетевым сайтом. В следующем примере удаляется ссылка\_на веб-сайт Рено в Портленде:
+3.  Для удаления связи между сетевыми узлами используется командлет **Remove-CsNetworkInterSitePolicy**. В следующем примере удаляется ссылка\_на сетевой сайт Рино в Портленде:
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-Подробное описание параметров приведено в разделе [Remove-кснетворкинтерситеполици](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) в документации по среде управления Lync Server.
+Подробное описание параметров приведено в разделе [Remove – CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) в документации по консоли управления Lync Server.
 
 </div>
 
@@ -94,14 +94,14 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Командлеты управления допуском звонков в Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)  
+[Командлеты контроля допуска звонков в Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)  
 
 
-[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
-[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
-[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[New — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[Set — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Remove — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Get — CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get — CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
   
 
 </div>

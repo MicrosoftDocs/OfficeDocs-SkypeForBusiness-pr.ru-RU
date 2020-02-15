@@ -12,16 +12,16 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 180cbbc79cba7f0379a832688ba7f9073b7b9798
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7926308c69c89c977705d5e4d51d73e78b46d1b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737819"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737819"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-25_
+_**Последнее изменение темы:** 2012-06-25_
 
-Анализатор соответствия рекомендациям не вносит изменений в вашу среду для устранения проблем. Он обнаруживает только потенциальные проблемы и отображает сведения о том, как их устранить. Если вы определили проблемы, которые необходимо устранить, необходимо определить соответствующее решение. В этом разделе приведены сведения, которые помогут вам определить и устранить наиболее существенные потенциальные проблемы.
+Анализатор соответствия рекомендациям не вносит изменения в среду, чтобы устранить проблемы. Он только определяет потенциальные проблемы и отображает сведения о том, как их решить. Если вы определили проблемы, которые необходимо устранить, следует выбрать подходящее решение. В данном разделе приведены сведения, помогающие определить и устранить некоторые наиболее значительные потенциальные проблемы.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-06-25_
 
   - [Проблемы, связанные с проверкой среды в Lync Server 2013](lync-server-2013-issues-with-the-environment-test.md)
 
-  - [Проблемы с проверкой топологии в Lync Server 2013](lync-server-2013-issues-with-the-topology-test.md)
+  - [Проблемы, связанные с проверкой топологии в Lync Server 2013](lync-server-2013-issues-with-the-topology-test.md)
 
 </div>
 

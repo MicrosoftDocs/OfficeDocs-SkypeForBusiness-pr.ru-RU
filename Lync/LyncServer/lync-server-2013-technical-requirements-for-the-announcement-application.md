@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: технические требования для приложения "Объявление"'
+title: 'Lync Server 2013: технические требования для приложения "оповещение"'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8812dca81d656e68fc506c4a87c3c80481040bf6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da328ef485d4dcc8bdac316aa31cef8880525c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746519"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Технические требования для приложения "Объявление" в Lync Server 2013
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Технические требования для приложения "объявление" в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41746519"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-11-07_
+_**Последнее изменение темы:** 2013-11-07_
 
-В этом разделе описаны следующие технические требования для приложения извещения.
+В этом разделе описываются следующие технические требования для приложения "извещения".
 
   - Требования к оборудованию
 
@@ -45,13 +45,13 @@ _**Тема последнего изменения:** 2013-11-07_
 
   - Требования к портам
 
-  - Требования к звуковым файлам
+  - Требования к аудиофайлам
 
 <div>
 
 ## <a name="hardware-requirements"></a>Требования к оборудованию
 
-Приложение извещения имеет те же аппаратные требования, что и сервер переднего плана. Сведения о требованиях к оборудованию можно найти в документации [серверные платформы для Lync server 2013](lync-server-2013-server-hardware-platforms.md) .
+Приложение извещения имеет те же требования к оборудованию, что и серверы переднего плана. Сведения о требованиях к оборудованию приведены в статье [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md) в документации по поддержке.
 
 </div>
 
@@ -59,9 +59,9 @@ _**Тема последнего изменения:** 2013-11-07_
 
 ## <a name="software-requirements"></a>Требования к программному обеспечению
 
-Приложение извещения имеет те же требования к операционной системе и необходимые компоненты по отношению к серверам переднего плана. Подробные сведения о требованиях к программному обеспечению можно найти [в разделе Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) в документации по поддержке.
+Приложение извещения имеет те же требования к операционной системе и программное обеспечение, что и серверы переднего плана. Сведения о требованиях к программному обеспечению приведены в статье [Поддержка серверов и средств операционной системы в Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) в документации по поддержке.
 
-Все серверы переднего плана и стандартные серверы выпуска, на которых запущено приложение для объявления, должны установить среду выполнения формата Windows Media для серверов под управлением Windows Server 2008 R2 или Microsoft Media Foundation для серверов под управлением Windows Server 2012 или Windows Server 2012 R2. В Windows Server 2008 R2 среда выполнения формата Windows Media устанавливается как часть рабочего стола Windows. Для файлов Windows Media Audio (WMA), которые воспринимаются для объявлений и музыки, требуется приложение для работы с форматами среды предвыполнения Windows Media.
+На всех серверах переднего плана или серверах Standard Edition, на которых работает приложение оповещений, должна быть установлена среда выполнения формата Windows Media для серверов под управлением Windows Server 2008 R2 или Microsoft Media Foundation для серверов под управлением Windows Server 2012 или Windows Server 2012 R2. Для Windows Server 2008 R2 среда выполнения формата Windows Media устанавливается в составе Windows Desktop Experience. Windows Media Format Runtime или Microsoft Media Foundation необходим для файлов Windows Media Audio (WMA), которые приложение для оповещений воспроизводится для оповещений и музыки.
 
 </div>
 
@@ -71,13 +71,13 @@ _**Тема последнего изменения:** 2013-11-07_
 
 Приложение извещения использует следующий порт:
 
-  - **Порт 5071**   , используемый для запросов прослушивания SIP
+  - **Порт 5071**   используется для запросов прослушивания SIP
 
 <div>
 
 
 > [!NOTE]  
-> Этот порт указан в параметрах по умолчанию, которые можно изменить с помощью командлета <STRONG>Set-CsApplicationServer</STRONG>. Подробные сведения об этом командлете можно найти в документации по оболочке Lync Server Management Shell.
+> Этот порт указан в параметрах по умолчанию, которые можно изменить с помощью командлета <STRONG>Set-CsApplicationServer</STRONG>. Подробнее об этом командлете можно узнать в документации по командной консоли Lync Server.
 
 
 
@@ -89,7 +89,7 @@ _**Тема последнего изменения:** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>Требования к аудиофайлам
 
-Приложение извещения поддерживает формат файла Wave (WAV) и формат Windows Media Audio (WMA) для музыки и объявлений. Требования к звуковым файлам для приложения для объявления совпадают с требованиями приложения группы ответа. Подробности можно найти [в разделе Технические требования для группы ответа в Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
+Приложение извещения поддерживает формат файлов WAV и Windows Media Audio (WMA) для музыкальных сообщений и объявлений. Требования к звуковым файлам для приложения оповещений совпадают с требованиями приложения группы ответа. Подробные сведения см. [в статье технические требования для группы ответа в Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка извещений'
+title: 'Lync Server 2013: Настройка объявлений'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff3a7189d0f9d5cbbea4a34e558ac67defa2aab5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab0af46f3f2170de0a169520c9f2097e7abbb058
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028740"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-announcements-in-lync-server-2013"></a>Настройка извещений в Lync Server 2013
+# <a name="configure-announcements-in-lync-server-2013"></a>Настройка объявлений в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757813"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
 При настройке объявлений в действительности вы настраиваете то, как будут обрабатываться звонки на неназначенные номера. Можно воспроизводить подсказку — аудиофайл или TTS-файл синтезированной речи, или можно просто перевести вызов на указанный пункт назначения без подсказки.
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2012-09-12_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Создание объявления в Lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Создание извещения в Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
   - [Удаление объявления в Lync Server 2013](lync-server-2013-delete-an-announcement.md)
 

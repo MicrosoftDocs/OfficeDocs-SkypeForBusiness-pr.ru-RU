@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: создание рабочих процессов для группы ответа'
+title: 'Lync Server 2013: создание рабочих процессов группы ответа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa76d218564e04048a07db7592ffc5ea4046a71
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b93b63ffbb551c7e5d9d6998a5f25f86eb6fb0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728789"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-workflows-in-lync-server-2013"></a>Создание рабочих процессов для группы ответа в Lync Server 2013
+# <a name="create-response-group-workflows-in-lync-server-2013"></a>Создание рабочих процессов группы ответа в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41728789"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
 Рабочий процесс определяет порядок обработки вызова с момента телефонного звонка до момента ответа на вызов. Этот рабочий процесс задает очередь удержания вызова и определяет метод маршрутизации, используемый для сервисных групп, а также вопросы и ответы, используемые для интерактивных групп ответа. Рабочий процесс также задает такие параметры, как приветственное сообщение, музыка при удержании, часы работы и выходные.
 
-Для создания рабочих процессов используется средство настройки группы ответа. Вы можете получить доступ к средству настройки группы ответа на странице "группа ответа" на панели управления Lync Server.
+Для создания рабочих процессов используется средство настройки группы ответа. Доступ к средству настройки группы ответа можно получить на странице "группа ответа" в панели управления Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> Вам следует создать группы агентов и очереди до создания рабочего процесса, который их использует.
+> Вы должны создать группы агентов и очереди перед созданием рабочего процесса, в котором они используются.
 
 
 
@@ -55,9 +55,9 @@ _**Тема последнего изменения:** 2012-09-12_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Создание или изменение рабочего процесса группы слежения в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [Создание или изменение рабочего процесса сервисной группы в Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [Создание потоков обработки вызовов системы интерактивного автоответчика в Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [Проектирование потоков вызовов интерактивного голосового ответа в Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
   - [Создание или изменение интерактивного рабочего процесса в Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
@@ -67,7 +67,7 @@ _**Тема последнего изменения:** 2012-09-12_
 
 ## <a name="related-sections"></a>Связанные разделы
 
-  - [Создание групп агента группы ответа Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
+  - [Создание групп агентов группы ответа Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
   - [Создание очередей группы ответа в Lync Server 2013](lync-server-2013-create-response-group-queues.md)
 

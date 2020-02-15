@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: новая функция промежуточной магистрали'
+title: 'Lync Server 2013: новая функция межмагистрали'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 833cfd1e11b885fc4291f2bbbfecb7d6118074e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c88447434594f940ef28b74212e4db2357d6ce38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758621"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Новая функция промежуточной магистрали в Lync Server 2013
+# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Новая функция межмагистрали в Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758621"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-08_
+_**Последнее изменение темы:** 2012-10-08_
 
-Lync Server 2013 обеспечивает базовое управление сеансами благодаря поддержке межмагистральной маршрутизации. Благодаря этой новой возможности сервер Lync Server обеспечивает функции управления звонками для вызываемых систем телефонной связи. Благодаря межсетевой маршрутизации, Lync Server может соединить IP-УАТС с шлюзом коммутируемой телефонной сети (PSTN), чтобы звонить с телефонной АТС через Интернет (частный филиал), а входящие звонки по протоколу PSTN могут маршрутизироваться на телефон УАТС. Аналогичным образом Lync Server может присоединиться к нескольким системам IP-УАТС, чтобы звонить и принимать их между телефонами УАТС из различных систем IP-УАТС.
+Lync Server 2013 обеспечивает базовое управление сеансами посредством поддержки маршрутизации по каналам связи. Эта новая возможность позволяет Lync Server обеспечивать функции управления звонками для вызываемых телефонных систем. При маршрутизации с использованием каналов Lync Server может подсоединить IP-УАТС к шлюзу телефонной сети общего пользования (PSTN), чтобы звонки из телефонной линии с телефонным подключением (УАТС) могли маршрутизироваться в PSTN, а входящие звонки PSTN могут маршрутизироваться на телефон УАТС. Аналогично, Lync Server может соединить две или более системы IP-УАТС, чтобы звонки можно было размещать и принимать между телефонами УАТС из различных систем IP-УАТС.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Маршрутизация с межмагистральными организациями в Lync Server 2013](lync-server-2013-inter-trunk-routing.md)  
-[Новые возможности корпоративной голосовой связи в Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Маршрутизация между магистрали в Lync Server 2013](lync-server-2013-inter-trunk-routing.md)  
+[Новые функции корпоративной голосовой связи в Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

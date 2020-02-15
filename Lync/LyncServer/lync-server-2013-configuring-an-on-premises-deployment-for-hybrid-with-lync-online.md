@@ -1,5 +1,5 @@
 ---
-title: Настройка локального развертывания для гибридной работы с Lync Online
+title: Настройка локального развертывания для гибридной среды с Lync Online
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58fc02c6416f1a0d1b60a5c1cdcf3c91c940c82c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741179"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Настройка локального развертывания для гибридной работы с Lync Online
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Настройка локального развертывания для гибридной среды с Lync Online
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741179"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-05-28_
+_**Последнее изменение темы:** 2014-05-28_
 
-Гибридное развертывание — это развертывание, в котором некоторые пользователи находятся в локальной среде, а некоторые пользователи находятся в сети, но все пользователи имеют общий доступ к тому же домену, например user@contoso.com. В этом разделе рассказывается, как развернуть приложения, необходимые для гибридного развертывания, а затем настроить развертывание для ее включения.
+Гибридное развертывание — это развертывание, в котором некоторые пользователи размещены в локальной среде, а некоторые — в сети, но все пользователи используют один домен, например user@contoso.com. В этом разделе дается руководство по развертыванию приложений, которые требуются для гибридного развертывания, а затем описывается настройка развертывания, необходимая для его включения.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Общие сведения о гибридной среде Lync Server 2013](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
+  - [Обзор гибридной среды Lync Server 2013](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
 
   - [Действия по подготовке и развертыванию гибридной среды Lync Server 2013](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
 

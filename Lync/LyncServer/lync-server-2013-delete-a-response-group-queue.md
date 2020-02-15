@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: удаление очереди групп ответов'
+title: 'Lync Server 2013: удаление очереди группы ответа'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d78b1396d92b16be120484f5bf1b40ef2e47a81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ee159d95a21b351da21c76cd04209da1c4ee938
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740989"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Удаление очереди групп ответов в Lync Server 2013
+# <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Удаление очереди группы ответа в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41740989"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Для удаления очереди воспользуйтесь одной из описанных ниже процедур.
+Используйте одну из следующих процедур для удаления очереди.
 
 <div>
 
 ## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a>Удаление очереди с помощью панели управления Lync Server
 
-1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1.  Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server. Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server. Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  В левой панели навигации щелкните **Группы ответа**, затем щелкните **Очередь**.
+3.  На панели навигации слева выберите пункт **Группы ответа** и щелкните **Очередь**.
 
-4.  В поле Поиск введите часть или все имя очереди, которую вы хотите удалить.
+4.  В поле поиска введите имя очереди, которую вы хотите удалить, или его часть.
 
-5.  В списке очередей выберите нужную очередь и нажмите кнопку **изменить**, а затем — **Удалить**.
+5.  В списке очередей выберите нужную очередь, нажмите кнопку **Изменить**, а затем щелкните **Удалить**.
 
 6.  Нажмите кнопку **ОК**.
 
@@ -61,15 +61,15 @@ _**Тема последнего изменения:** 2012-11-01_
 
 ## <a name="to-use-windows-powershell-to-delete-a-queue"></a>Использование Windows PowerShell для удаления очереди
 
-1.  Выполните вход как член группы RTCUniversalServerAdmins или одной из предварительно заданных административных ролей, поддерживающих группу ответа.
+1.  Выполните вход в качестве члена группы RTCUniversalServerAdmins или в качестве участника одной из предварительно заданных административных ролей, поддерживающих группу ответа.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
 3.  В командной строке выполните следующую команду:
     
         Get-CsRgsQueue -Identity <Application Server service> -Name "<name of queue>" | Remove-CsRgsQueue
     
-    Например:
+    Пример:
     
         Get-CsRgsQueue -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsQueue
 

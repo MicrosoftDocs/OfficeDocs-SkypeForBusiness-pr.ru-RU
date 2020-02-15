@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Удаление диапазона номеров для отправки группового звонка'
+title: 'Lync Server 2013: Удаление диапазона номеров для группового ответа на звонки'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66b95df76c812b50ff9c220ea208406a5ab7cf2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 179bde8b8e23cc21fb95fa93e3c6cbeb7f381630
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741029"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Удаление диапазона номеров для отправки группового звонка в Lync Server 2013
+# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Удаление диапазона номеров для группового ответа на звонки в Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41741029"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-01-30_
+_**Последнее изменение темы:** 2013-01-30_
 
-Чтобы удалить диапазон номеров для отправки группового звонка, выполните указанные ниже действия.
+Используйте следующую процедуру для удаления диапазона номеров для группового ответа на звонки.
 
 <div>
 
-## <a name="to-delete-a-call-pickup-group-number-range"></a>Удаление диапазона номеров группы для отправки звонков
+## <a name="to-delete-a-call-pickup-group-number-range"></a>Удаление диапазона номеров группы ответа на звонки
 
-1.  Войдите на компьютер, на котором установлена командная консоль Lync Server Management Shell, в группу Рткуниверсалсерверадминс или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на настройку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Выполните вход на компьютер, на котором установлена командная консоль Lync Server, в качестве члена группы RTCUniversalServerAdmins или с необходимыми правами пользователя, как описано в разделе [Делегирование разрешений на установку в Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  В командной строке введите следующую команду:
+3.  В командной строке введите следующую команду.
     
         Remove-CsCallParkOrbit -Identity "<group number range name>" 
     
-    Например:
+    Пример:
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
@@ -59,7 +59,7 @@ _**Тема последнего изменения:** 2013-01-30_
     
 
     > [!NOTE]  
-    > Подробнее о дополнительных параметрах можно найти в разделе <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-кскаллпаркорбит</A>.
+    > Дополнительные сведения о параметрах см. в разделе <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove – CsCallParkOrbit</A>.
 
     
     </div>
@@ -71,11 +71,11 @@ _**Тема последнего изменения:** 2013-01-30_
 ## <a name="see-also"></a>См. также
 
 
-[Создание или изменение диапазона орбиты на расстоянии вверх на сервере Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[Создание или изменение диапазона орбит для парковки вызовов в Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
-[Get-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
+[Remove — CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get — CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
   
 
 </div>

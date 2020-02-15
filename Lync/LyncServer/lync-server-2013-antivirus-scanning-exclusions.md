@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: исключения из антивирусной проверки'
+title: 'Lync Server 2013: исключения антивирусной проверки'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Исключения из антивирусной проверки для Lync Server 2013
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Исключения антивирусной проверки для Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737779"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-11-02_
+_**Последнее изменение темы:** 2015-11-02_
 
-Чтобы антивирусная программа не мешала работе с Lync Server 2013, необходимо исключить определенные процессы и каталоги для каждого сервера или серверной роли Lync Server 2013, на которых вы запускаете антивирусную программу. Исключите перечисленные ниже процессы и каталоги.
+Чтобы антивирусное программное обеспечение не влияло на работу Lync Server 2013, необходимо исключить конкретные процессы и каталоги для каждого сервера или роли сервера Lync Server 2013, на которых запускается антивирусное программное обеспечение. Необходимо исключить следующие процессы и каталоги:
 
 <div>
 
 
 > [!NOTE]  
-> Ниже указаны расположения файлов и папок для Lync Server 2013 по умолчанию. Если в вашей организации какие-либо из этих объектов расположены в других местах, укажите соответствующие пути.
+> Ниже указаны расположения файлов и папок по умолчанию для Lync Server 2013. Для всех расположений, для которых не использовалось значение по умолчанию, исключите расположения, указанные для Организации, вместо расположений по умолчанию, указанных в этом разделе.
 
 
 
@@ -53,7 +53,7 @@ _**Тема последнего изменения:** 2015-11-02_
 
 
 > [!IMPORTANT]  
-> Обратите внимание, что в некоторых антивирусных программах в списке исключений необходимо указывать абсолютные пути, а не относительные.
+> Обратите внимание на то, что некоторым антивирусным программам могут понадобиться абсолютные, не относительные пути, для списка исключений.
 
 
 
@@ -61,101 +61,101 @@ _**Тема последнего изменения:** 2015-11-02_
 
   - Lync Server 2013 процессы:
     
-      - ABServer.exe
+      - ABServer. exe
     
       - Акпмкусвк. exe
     
-      - ASMCUSvc.exe
+      - Асмкусвк. exe
     
-      - AVMCUSvc.exe
+      - Авмкусвк. exe
     
-      - ChannelService.exe
+      - Чаннелсервице. exe
     
-      - ClsAgent.exe
+      - ClsAgent. exe
     
-      - ComplianceService.exe
+      - Комплианцесервице. exe
     
-      - DataMCUSvc.exe
+      - Датамкусвк. exe
     
-      - DataProxy.exe
+      - Прокси-сервер данных. exe
     
-      - FileTransferAgent.exe
+      - Филетрансферажент. exe
     
-      - IMMCUSvc.exe
+      - Иммкусвк. exe
     
-      - LysSvc.exe
+      - Лиссвк. exe
     
-      - MasterReplicatorAgent.exe
+      - Мастеррепликаторажент. exe
     
-      - MediaRelaySvc.exe
+      - Медиарелайсвк. exe
     
-      - MediationServerSvc.exe
+      - Медиатионсерверсвк. exe
     
-      - MRASSvc.exe
+      - Мрассвк. exe
     
-      - OcsAppServerHost.exe
+      - Оксаппсерверхост. exe
     
-      - ReplicaReplicatorAgent.exe
+      - Репликарепликаторажент. exe
     
-      - ReplicationApp.exe
+      - Репликатионапп. exe
     
-      - RtcHost.exe
+      - Ртчост. exe
     
-      - RTCSrv.exe
+      - RTCSrv. exe
     
-      - XmppProxy.exe
+      - Ксмпппрокси. exe
     
-      - XmppTGW.exe
+      - Ксмпптгв. exe
 
-  - Процессы службы узла Windows Fabric
+  - Процессы службы узла Windows Fabric:
     
-      - Fabric.exe
+      - Fabric. exe
     
-      - FabricDCA.exe
+      - Фабрикдка. exe
     
-      - FabricHost.exe
+      - Фабричост. exe
 
-  - Процессы IIS
+  - Процессы IIS:
     
       - % SystemRoot%\\system32\\инетсрв\\w3wp. exe
     
       - % SystemRoot%\\SysWOW64\\инетсрв\\w3wp. exe
 
-  - Внутренние процессы сервера SQL Server
+  - Фоновые процессы SQL Server:
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\бинн\\SQLServr. exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. ReportServer\\\\в службах\\отчетов\\репортингсервицессервице. exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSRS11. Репортингсервицессервице\\. exe\\Report\\Reporting Services: сервер_отчетов bin\\
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\, программа MSMDSrv. exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe
 
-  - Внешние процессы сервера SQL Server
+  - Интерфейсные процессы SQL Server:
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. ЛИНКЛОКАЛ\\MSSQL\\бинн\\SQLServr. exe
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. РТКЛОКАЛ\\MSSQL\\бинн\\SQLServr. exe
+      - % ProgramFiles%\\Microsoft SQL Server\\MSSQL11. RTCLOCAL\\MSSQL\\бинн\\SQLServr. exe
 
-  - Каталоги и файлы
+  - Каталоги и файлы:
     
-      - файлы журнала%\\systemroot\\% system32
+      - % SystemRoot%\\system32\\файлов журнала
     
-      - журналы% systemroot\\%\\SysWOW64
+      - % SystemRoot%\\SysWOW64\\файлов журнала
     
-      - MSIL% systemroot\\%\\Microsoft.NET\\Assembly\_GAC
+      - % SystemRoot%\\Microsoft.NET\\сборки\\GAC\_
     
       - % ProgramFiles%\\Microsoft Lync Server 2013
     
-      - % ProgramFiles%\\общие файлы\\, узел наблюдателя Microsoft\\Lync Server 2013
+      - % ProgramFiles%\\общих файлов\\для узла-наблюдателя\\Microsoft Lync Server 2013
     
-      - % ProgramFiles%\\распространенных файлов\\в Microsoft Lync Server 2013
+      - % ProgramFiles%\\общих файлов\\, Microsoft Lync Server 2013
     
       - % SystemDrive%\\рткрепликарут
     
-      - Хранилище общих папок (указывается в построителе топологий). Хранилища файлов задаются в построителе топологий.
+      - Хранилище файлового ресурса (указано в построителе топологий). Хранилища файлов указываются в построителе топологий.
     
-      - Файлы данных и журналов сервера SQL Server, включая объекты внутренней базы данных, хранилища пользователей, архивов, мониторинга и приложений. Файлы баз данных и журналов можно указать в построителе топологий. Дополнительные сведения о файлах данных и журналов для каждой базы данных, включая имена по умолчанию, можно найти в разделе [данные и расположение файлов журнала SQL Server для Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) в документации по развертыванию.
+      - Файлы данных и журналов SQL Server, в том числе для серверной базы данных, хранилища пользователей, архивного хранилища, мониторинга и хранилища приложений. В построителе топологий можно указать файлы баз данных и журналов. Сведения о файлах данных и журналов для каждой базы данных, включая имена по умолчанию, можно найти в разделе [Data SQL Server and File log Placement for Lync server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) в документации по развертыванию.
     
-      - Файлы данных и журналов SQL Server, в том числе для интерфейсной базы данных, магазина Lync и Рткдатабасе Store. Обычно они находятся в рамках% локалдриве\\% ксдата.
+      - Файлы данных и журналов SQL Server, в том числе для интерфейсной базы данных, магазина Lync и хранилища Рткдатабасе. Обычно они находятся в папке% локалдриве\\% ксдата.
 
 </div>
 

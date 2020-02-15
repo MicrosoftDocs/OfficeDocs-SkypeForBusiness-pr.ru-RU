@@ -1,5 +1,5 @@
 ---
-title: Авторизовать подключение к Office Communications Server 2007 R2 Edge Server
+title: Авторизация подключения к пограничному серверу Office Communications Server 2007 R2
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dbce32a12f05dff768d23a2bdccfe1b84a567cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64786c29027c99de2f3b5e01846a5283ec57a084
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724219"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Авторизовать подключение к Office Communications Server 2007 R2 Edge Server
+# <a name="authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Авторизация подключения к пограничному серверу Office Communications Server 2007 R2
 
 </div>
 
@@ -36,31 +36,31 @@ ms.locfileid: "41724219"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-Для каждого сервера переднего плана и сервера Standard Edition для Lync Server 2013 в пилотном пуле необходимо обновить список внутренних серверов, которым разрешено подключаться к серверу Office Communications Server 2007 R2 Edge. Без этих обновлений не работают внешние аудио-и визуальные конференции для пользователей, присоединяющихся с помощью устаревшего пограничного сервера.
+Для каждого сервера переднего плана Lync Server 2013 или сервера Standard Edition в пилотном пуле необходимо обновить список внутренних серверов, которым разрешено подключаться к пограничному серверу Office Communications Server 2007 R2. Без этих обновлений внешние аудио и видеоконференции для пользователей, присоединяющихся к конференц-связи с помощью унаследованного пограничного сервера, не будут работать.
 
 <div>
 
-## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Чтобы авторизовать подключение к Office Communications Server 2007 R2 Edge Server
+## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Авторизация подключения к пограничному серверу Office Communications Server 2007 R2
 
-1.  На пограничном сервере Office Communications Server 2007 R2 в группе **средства администрирования** откройте оснастку **Управление компьютером** .
+1.  На пограничном сервере Office Communications Server 2007 R2 **в группе Администрирование** откройте оснастку " **Управление компьютером** ".
 
-2.  В дереве консоли разверните узел **службы и приложения**.
+2.  В дереве консоли разверните узел **Службы и приложения**.
 
 3.  Щелкните правой кнопкой мыши **Office Communications Server 2007 R2**и выберите пункт **свойства**.
 
-4.  Откройте вкладку **внутренний** .
+4.  Откройте вкладку **Внутренние**.
 
-5.  В разделе **Добавить сервер**нажмите кнопку **Добавить**.
+5.  В разделе **Добавить сервер** щелкните **Добавить**.
 
-6.  В диалоговом окне **Добавление сервера Office Communications Server** введите нужные сведения.
+6.  В диалоговом окне **Добавление сервера Office Communications Server** введите соответствующие сведения:
     
-      - Укажите полное доменное имя (FQDN) каждого сервера Lync Server 2013, а также сервера Standard Edition и пула Lync Server 2013.
+      - Укажите полное доменное имя (FQDN) каждого сервера переднего плана Lync Server 2013 или сервера Standard Edition и пула Lync Server 2013.
     
-      - Укажите полное доменное имя режиссера Lync Server 2013, если вы настроили статический маршрут для пула, указывающий на следующий компьютер по полному доменному имени.
+      - Укажите полное доменное имя для Lync Server 2013 Director, если вы настроили статический маршрут в пуле, указывающий компьютер следующего прыжка по полному доменному имени.
 
-7.  После добавления записи для каждого сервера Lync Server 2013, сервера переднего плана, сервера Standard Edition, пула и режиссера нажмите кнопку **Применить** , а затем нажмите кнопку **ОК** , чтобы закрыть страницу свойств.
+7.  После добавления записи для каждого сервера Lync Server 2013, сервера переднего плана, сервера Standard Edition, пула и директора, нажмите кнопку **Применить** , а затем нажмите кнопку **ОК** , чтобы закрыть страницу свойств.
 
 </div>
 

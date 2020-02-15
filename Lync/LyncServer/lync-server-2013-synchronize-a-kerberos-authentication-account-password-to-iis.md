@@ -12,16 +12,16 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811134697ea04f1dab3637e648ff89455fca07d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731659"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41731659"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-08_
+_**Последнее изменение темы:** 2010-11-08_
 
-Для успешного выполнения этой процедуры необходимо войти в систему в качестве пользователя, который является членом группы Рткуниверсалсерверадминс.
+Чтобы успешно выполнить эту процедуру, вам следует выполнить вход в качестве члена группы RTCUniversalServerAdmins.
 
-На сайте, серверы переднего плана, серверы Standard Edition и режиссеры могут использовать учетную запись проверки подлинности Kerberos для проверки подлинности запросов к службе веб-служб. Эта процедура позволяет найти каждый сервер, на котором запущены веб-службы, на сайте, которому была назначена учетная запись Kerberos, и обновить параметры конфигурации служб IIS для использования учетной записи Kerberos. Дополнительные сведения можно найти в разделе [определение пароля учетной записи проверки подлинности Kerberos на сервере Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+На сайте серверы переднего плана, серверы Standard Edition и директора могут использовать учетную запись проверки подлинности Kerberos для проверки подлинности запросов к службе веб-служб. Эта процедура размещает каждый сервер, на котором запущены веб-службы, на сайте, которому была назначена учетная запись Kerberos, и обновляет параметры конфигурации служб IIS для использования учетной записи Kerberos. Для получения дополнительных сведений см. Введите [пароль учетной записи проверки подлинности Kerberos на сервере в Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
 
 <div>
 
-## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>Установка и Настройка пароля учетной записи для проверки подлинности Kerberos
+## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>Порядок задания и настройки пароля учетной записи проверки подлинности Kerberos
 
-1.  Войдите в систему исходного компьютера (например, fe01.contoso.com) в качестве участника группы Рткуниверсалсерверадминс.
+1.  Войдите в систему исходного компьютера (например, fe01.contoso.com) в качестве члена группы RTCUniversalServerAdmins.
 
-2.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+2.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-3.  В командной строке оболочки Lync Server Management Shell выполните следующие две команды:
+3.  В командной строке Командная консоль Lync Server выполните две следующие команды:
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     
-    Например:
+    Пример:
     
         Set-CsKerberosAccountPassword -FromComputer fe01.contoso.com -ToComputer dir01.contoso.com
     
@@ -61,7 +61,7 @@ _**Тема последнего изменения:** 2010-11-08_
     
 
     > [!IMPORTANT]
-    > Имя исходного компьютера и конечного компьютера должно быть полным доменным именем сервера. Полное доменное имя пула нельзя использовать, если оно не совпадает с именем компьютера, который используется в качестве исходного компьютера или конечного компьютера.
+    > Имена исходного и конечного компьютеров должны быть полными доменными именами (FQDN) сервера. Имя FQDN пула можно использовать только в том случае, если имя пула совпадает с именем компьютера, который используется в качестве исходного или конечного компьютера.
 
     
     </div>
@@ -70,7 +70,7 @@ _**Тема последнего изменения:** 2010-11-08_
     
 
     > [!IMPORTANT]
-    > После внесения изменений в проверку подлинности Kerberos (например, для добавления учетной записи или удаления учетной записи) необходимо запустить команду <STRONG>Enable-кстопологи</STRONG> в командной строке оболочки Lync Server Management Shell.
+    > После внесения изменений в проверку подлинности Kerberos, например для добавления учетной записи или удаления учетной записи, необходимо выполнить команду <STRONG>Enable – CsTopology</STRONG> в командной строке командной консоли Lync Server.
 
     
     </div>

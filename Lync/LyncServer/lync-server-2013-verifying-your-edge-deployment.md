@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проверка развертывания пограничного сервера'
+title: 'Lync Server 2013: Проверка пограничного развертывания'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742029"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742029"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2010-11-07_
+_**Последнее изменение темы:** 2010-11-07_
 
-После завершения установки и настройки компонентов Edge необходимо проверить конфигурацию и подключение серверов, а также проверить возможность подключения для каждого типа внешних пользователей, которые вы поддерживаете.
+После завершения установки и настройки пограничных компонентов вам необходимо проверить конфигурацию и возможность подключения серверов, чтобы подтвердить возможность подключения для каждого поддерживаемого типа внешних пользователей.
 
 <div>
 
@@ -45,7 +45,7 @@ _**Тема последнего изменения:** 2010-11-07_
 
   - [Проверка подключения между внутренними и пограничными серверами в Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
-  - [Проверка соединений для внешних пользователей в Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
+  - [Проверка возможности подключения внешних пользователей в Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
 
 </div>
 

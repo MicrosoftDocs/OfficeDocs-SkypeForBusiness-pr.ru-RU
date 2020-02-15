@@ -12,16 +12,16 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76582be324977d5466d234a37e4352806dd6d92f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41728999"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Вы можете предоставить доступ к службам связи для пользователей в вашей организации одним из указанных ниже способов.
+Вы можете предоставить службы мгновенных сообщений пользователям свой организации любым из следующих способов:
 
-  - Развертывание Lync Server 2013 в вашей организации (называемой *локальными службами*) и Настройка учетных записей пользователей Lync 2013 в Организации.
+  - Развертывание Lync Server 2013 в Организации (называемой *локальными службами*) и Настройка учетных записей пользователей Lync 2013 в Организации.
 
-  - Настройка учетной записи клиента Microsoft Lync Online 2010 с поставщиком услуг размещения и Настройка учетных записей пользователей с помощью поставщика услуг размещения (называемых *веб-службами*).
+  - Настройка учетной записи клиента Microsoft Lync Online 2010 с поставщиком услуг хостинга и Настройка учетных записей пользователей с помощью поставщика услуг хостинга (известного как *веб-службы*).
 
-Если вы развертываете Lync 2013 в своей организации, вы можете использовать федерацию с доменами одного или нескольких пользователей Microsoft Lync Online 2010. Чтобы включить федерацию между пользователями локального развертывания Lync 2013 и пользователей в клиенте Lync Online 2010, необходимо настроить поддержку домена и пользователей клиента Lync Online.
+При развертывании Lync 2013 в Организации можно использовать федерацию с доменами одного или нескольких клиентов Microsoft Lync Online 2010. Чтобы включить федерацию между пользователями локального развертывания Lync 2013 и пользователями клиента Lync Online 2010, необходимо настроить поддержку домена и пользователей клиента Lync Online.
 
 <div>
 
 
 > [!NOTE]  
-> В этой статье описаны действия, которые необходимо выполнить, чтобы настроить для Организации поддержку Федерации с помощью клиента Lync Online 2010. В этой документации не описаны процедуры для настройки клиента Lync Online 2010 для поддержки Федерации. Подробные сведения о службах Lync Online можно найти в Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>Online по адресу.
+> В этой документации описываются только процедуры настройки организации для поддержки Федерации с клиентом Lync Online 2010. В этой документации не описываются процедуры настройки клиента Lync Online 2010 для поддержки Федерации. Подробнее о службах Lync Online можно узнать в статье Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>Online по адресу.
 
 
 
@@ -63,7 +63,7 @@ _**Тема последнего изменения:** 2012-11-01_
 
   - [Настройка поддержки федерации для домена Lync Online в Lync Server 2013](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
 
-  - [Настройка доступа пользователей для Федерации с помощью клиента Lync Online в Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+  - [Настройка доступа пользователей для Федерации с клиентом Lync Online в Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
 
   - [Проверка связи с клиентом Lync Online в Lync Server 2013](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
 

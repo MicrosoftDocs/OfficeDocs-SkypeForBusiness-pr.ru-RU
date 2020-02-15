@@ -1,5 +1,5 @@
 ---
-title: Настройка сервера Lync Server для работы с System Center Operations Manager
+title: Настройка Lync Server для работы с System Center Operations Manager
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0cf422ddab501acf521c26c36d8f373bd42dbf9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff72248e691d3e5358fda79a98d318cfc3a382eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762777"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762777"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-22_
+_**Последнее изменение темы:** 2012-10-22_
 
-Чтобы настроить инфраструктуру Microsoft Lync Server 2013 для работы с System Center Operations Manager, необходимо выполнить три действия.
+Чтобы настроить инфраструктуру Microsoft Lync Server 2013 для работы с System Center Operations Manager, необходимо выполнить три действия:
 
-  - Определение и Настройка основного сервера управления System Center Operations Manager. Настройка сервера управления включает установку System Center Operations Manager 2012 или System Center Operations Manager 2007 R2, а также настройку серверной базы данных с помощью SQL Server. Фактическая версия SQL Server, которую необходимо использовать, зависит от версии System Center Operations Manager, который вы используете. Подробности можно найти [в разделе Настройка основного сервера управления в Lync server 2013](lync-server-2013-configuring-the-primary-management-server.md).
+  - Определите и настройте основной сервер управления System Center Operations Manager. Настройка сервера управления включает установку System Center Operations Manager 2012 или System Center Operations Manager 2007 R2, а также настройку внутренней базы данных с помощью SQL Server. Действительную версию SQL Server, которую необходимо использовать, зависят от используемой версии System Center Operations Manager. Дополнительные сведения см. [в разделе Настройка основного сервера управления в Lync server 2013](lync-server-2013-configuring-the-primary-management-server.md).
 
-  - Определите и настройте компьютеры Lync Server, которые вы хотите отслеживать. Для наблюдения за компьютером Lync Server с помощью System Center Operations Manager необходимо установить файлы агента System Center Operations Manager и настроить каждый сервер для работы в качестве прокси-сервера.
+  - Определите и настройте компьютеры Lync Server, которые необходимо отслеживать. Для наблюдения за компьютером Lync Server с помощью System Center Operations Manager необходимо установить файлы агента System Center Operations Manager и настроить каждый сервер для работы в качестве прокси-сервера.
 
-  - Определите и настройте компьютеры, которые должны выступать в качестве *узлов наблюдения за*Lync Server. Узлы наблюдения — это компьютеры, периодически выполняющие синтетические транзакции Lync Server, которые являются командлетами Windows PowerShell, которые проверяют, что ключевые компоненты сервера Lync, такие как возможность входа в систему или возможности обмена мгновенными сообщениями: работают должным образом.
+  - Определите и настройте компьютеры, которые будут использоваться в качестве *узлов-наблюдателей*Lync Server. Узлы-наблюдатели — это компьютеры, которые периодически выполняют синтетические транзакции Lync Server, которые являются командлетами Windows PowerShell, которые проверяют, что ключевые компоненты Lync Server, такие как возможность входа в систему или возможность обмена мгновенными сообщениями, работает должным образом.
 
-В подразделах этого раздела содержатся инструкции по выполнению каждой из этих задач.
+В подразделах этого раздела приведены инструкции по выполнению каждой из этих задач.
 
 <div>
 
@@ -55,9 +55,9 @@ _**Тема последнего изменения:** 2012-10-22_
 
   - [Установка пакетов управления Lync Server 2013](lync-server-2013-installing-the-lync-server-2013-management-packs.md)
 
-  - [Настройка компьютеров с Lync Server, которые будут отслеживаться в Lync Server 2013](lync-server-2013-configuring-the-lync-server-computers-that-will-be-monitored.md)
+  - [Настройка компьютеров Lync Server, которые будут отслеживаться в Lync Server 2013](lync-server-2013-configuring-the-lync-server-computers-that-will-be-monitored.md)
 
-  - [Установка и настройка узлов наблюдения в Lync Server 2013](lync-server-2013-installing-and-configuring-watcher-nodes.md)
+  - [Установка и настройка узлов-наблюдателей в Lync Server 2013](lync-server-2013-installing-and-configuring-watcher-nodes.md)
 
 </div>
 

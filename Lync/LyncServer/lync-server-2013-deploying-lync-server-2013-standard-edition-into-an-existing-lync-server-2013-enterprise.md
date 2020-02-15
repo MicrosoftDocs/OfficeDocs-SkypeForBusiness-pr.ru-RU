@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Развертывание Lync Server 2013 Standard Edition на базе существующего развертывания Lync Server 2013 Enterprise'
+title: 'Lync Server 2013: развертывание Lync Server 2013 Standard Edition в существующем сервере Lync Server 2013 Enterprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6467ae9eb3c4d5159181a2d022c060b0b9f1fec9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b344b3e4ffbeb5d429db2d7220be5bbca9fbed6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758023"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Развертывание Lync Server 2013 Standard Edition на базе существующего развертывания Lync Server 2013 Enterprise
+# <a name="deploying-lync-server-2013-standard-edition-into-an-existing-lync-server-2013-enterprise"></a>Развертывание Lync Server 2013 Standard Edition в существующем сервере Lync Server 2013 Enterprise
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41758023"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-01_
+_**Последнее изменение темы:** 2012-10-01_
 
-Развертывание стандартного выпуска сервера в существующем развертывании Enterprise Edition похоже на развертывание дополнительных ролей сервера. Сервер Standard Edition может быть развернут на другом сайте, что позволяет пользователям на нем работать на сервере Standard Edition, а не в пуле переднего плана в глобальной сети. Процедуры для установки нового сайта и серверов на этом сайте уже определены в других разделах документации по [развертыванию Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
+Развертывание сервера Standard Edition в существующем развертывании Enterprise Edition аналогично развертыванию дополнительных ролей сервера. Сервер Standard Edition может быть развернут на другом сайте, что позволяет пользователям на этом сайте размещаться на сервере Standard Edition, а не на пуле переднего плана в глобальной сети (WAN). Процедуры установки нового сайта и серверов на этом сайте уже определены в других разделах документации по [развертыванию Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
 
 <div id="sectionSection0" class="section">
 
 **Определение нового сайта**
 
-1.  Запустить построитель топологии: нажмите кнопку **Пуск**, выберите пункт **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку **Построитель топологии Lync Server**.
+1.  Запустите построитель топологий: нажмите кнопку **Пуск**, последовательно выберите пункты **все программы**, **Microsoft Lync Server 2013**и **Построитель топологий Lync Server**.
 
-2.  В дереве консоли щелкните правой кнопкой мыши **Lync Server 2013**и выберите пункт **создать центральный сайт**.
+2.  В дереве консоли щелкните правой кнопкой мыши **Lync Server 2013**и выберите **создать центральный сайт**.
 
-3.  На странице **Определение сайта** укажите имя сайта и, при необходимости, введите описание.
+3.  На странице **указания сайта** задайте имя для этого сайта и при желании введите описание.
 
-4.  Следуйте инструкциям по определению оставшейся части топологии сайта. Подробные сведения можно найти [в разделе Определение и Настройка топологии в Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
+4.  Выполните процедуры по определению остальной топологии сайта. Дополнительные сведения см [в статье определение и Настройка топологии в Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
 
-5.  Опубликуйте обновленную топологию. Подробности можно найти [в разделе Публикация топологии в Lync Server 2013](lync-server-2013-publish-the-topology.md).
+5.  Опубликуйте обновленную топологию. Дополнительные сведения см [в статье Publishing Topology in Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
-6.  Настройка и установка сервера Standard Edition.
+6.  Установка и установка сервера Standard Edition.
     
     <div>
     
 
     > [!Caution]  
-    > Если вы развернули среду только на стандартном сервере выпуска, вы могли бы приступили к установке из мастера развертывания Lync Server, используя ссылку <STRONG>Prepare First Standard Edition</STRONG> , чтобы установить начальные файлы базы данных на новый сервер Standard Edition. <STRONG>Не</STRONG> поддерживайте этот процесс при установке стандартного выпуска сервера в существующем развертывании Lync Server 2013.
+    > Если вы развернули среду с сервером Standard Edition, процесс установки был начат в мастере развертывания Lync Server с помощью ссылки <STRONG>Подготовка первого сервера Standard</STRONG> Edition для установки исходных файлов базы данных на новый сервер Standard Edition. <STRONG>Не</STRONG> поддерживайте этот процесс при установке сервера Standard Edition в существующем развертывании Lync Server 2013.
 
     
     </div>

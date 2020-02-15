@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: назначение политик для телефонного телефона с общим регионом'
+title: 'Lync Server 2013: назначение политик для телефона общего пользования'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19e2fccabe4759f8cf4cf5eb55ade7e68e2b560
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6dfe908f2bb4ca66714d3eef756a0c53c7334fd7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734049"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Назначение политик в Lync Server 2013 на стандартном телефоне
+# <a name="assign-policies-in-lync-server-2013-to-a-common-area-phone"></a>Назначение политик в Lync Server 2013 на телефон общего пользования
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41734049"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-20_
+_**Последнее изменение темы:** 2013-02-20_
 
-После создания политики для обычных телефонов (Дополнительные сведения см. [в разделе Создание политики голосовой связи и настройка записей использования PSTN в Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)) можно назначить политику для обычного телефона с помощью Windows PowerShell и соответствующего командлета **Grant-CS** . Эти командлеты можно запускать либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell. Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.
-
-<div>
-
+После создания политики для телефонов с общими областями (Дополнительные сведения см. [в статье Создание политики голосовой связи и настройке записей использования PSTN в Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)) можно назначить политику для телефона общего пользования с помощью Windows PowerShell и соответствующего командлета **Grant-CS** . Эти командлеты можно запускать из командной консоли Lync Server 2013 или из удаленного сеанса Windows PowerShell. Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.
 
 <div>
 
-## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Назначение политики единому телефону с общим регионом
 
-  - Следующая команда назначает политику голосовой связи "на пользователя", Редмондвоице на общем телефоне с телефонным подключением, у которого установлен номер 14 зал здания.
+<div>
+
+## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Назначение политики для одного телефона общего пользования
+
+  - Следующая команда назначает политику голосовой связи на уровне пользователя Редмондвоице на телефон общего пользования с идентификатором 14 "зал ожидания".
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
@@ -54,15 +54,15 @@ _**Тема последнего изменения:** 2013-02-20_
 
 <div>
 
-## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Назначение политики для нескольких распространенных телефонных областей
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Назначение политики нескольким телефонам общего пользования
 
-  - В этом примере политика голосовой связи "на пользователя" Редмондвоице назначается всем телефонам с общим диапазоном, настроенным для использования в Организации.
+  - В этом примере политика голосовой связи на уровне пользователя Редмондвоице назначается всем телефонам, настроенным для использования в Организации.
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
 </div>
 
-Подробности можно найти в статьях справки для [Grant-ксвоицеполици](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
+Дополнительные сведения можно найти в разделах справки для [Grant — CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
 
 </div>
 
@@ -71,7 +71,7 @@ _**Тема последнего изменения:** 2013-02-20_
 ## <a name="see-also"></a>См. также
 
 
-[Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+[Get — CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

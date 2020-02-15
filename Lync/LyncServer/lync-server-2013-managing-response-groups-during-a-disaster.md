@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление группами ответов в аварийном режиме'
+title: 'Lync Server 2013: Управление группами ответа во время аварии'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe172863d2a1f8e762f8da2d6029f00531e04c70
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 289e210b8f8959c8bee471a73d9dc5680923d80d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743299"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>Управление группами ответов в Lync Server 2013 в аварийном режиме
+# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>Управление группами ответа в Lync Server 2013 во время аварии
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743299"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
-Lync Server 2013 поддерживает выполнение групп ответов в пуле резервного копирования во время восстановления после аварии. В этом разделе рассказывается о том, как запланировать группы ответов во время сбоя, как работают группы ответа во время отключения, и шаги, необходимые для групп ответа и отказ от нее.
+Lync Server 2013 поддерживает выполнение групп ответа в резервном пуле во время аварийного восстановления. В этом разделе описывается планирование групп ответа во время сбоя, работа групп ответа во время сбоя, а также действия, необходимые для отработки отказа групп ответа и их восстановления после сбоя.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Планирование аварийного восстановления для группы ответа в Lync Server 2013](lync-server-2013-planning-for-response-group-disaster-recovery.md)
+  - [Планирование аварийного восстановления группы ответа в Lync Server 2013](lync-server-2013-planning-for-response-group-disaster-recovery.md)
 
-  - [Поведение группы ответа Lync Server 2013 при отказе пула](lync-server-2013-response-group-experience-during-pool-failure.md)
+  - [Взаимодействие группы ответа в Lync Server 2013 во время сбоя пула](lync-server-2013-response-group-experience-during-pool-failure.md)
 
   - [Процедуры аварийного восстановления группы ответа в Lync Server 2013](lync-server-2013-response-group-disaster-recovery-procedures.md)
 

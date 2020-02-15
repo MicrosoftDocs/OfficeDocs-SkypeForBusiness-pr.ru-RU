@@ -13,16 +13,16 @@ ms:contentKeyID: 48184883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b808f4cc0eea74253ecf8f360278983f0bf92b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55c1749a24e89f68ccae858b94d41208fc4b6123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724209"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42004394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724209"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-29_
+_**Последнее изменение темы:** 2012-09-29_
 
-Как правило, необходимо использовать средство администрирования, соответствующее серверной версии, которой вы хотите управлять. Вы не можете установить средства администрирования Lync Server 2013 и Office Communications Server 2007 R2 на одном и том же компьютере. Кроме того, панель управления Lync Server 2013 не устанавливается на каждый сервер автоматически. Чтобы установить панель управления Lync Server 2013, следуйте инструкциям, приведенным в разделе [Установка средств администрирования Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) в документации по развертыванию.
+В целом, следует использовать средство администрирования, соответствующее версии сервера, которой требуется управлять. Вы не можете установить средства администрирования Lync Server 2013 и Office Communications Server 2007 R2 на одном компьютере. Кроме того, панель управления Lync Server 2013 не устанавливается автоматически на каждом сервере. Чтобы установить панель управления Lync Server 2013, выполните процедуру, описанную в разделе [Установка средств администрирования Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) в документации по развертыванию.
 
 </div>
 

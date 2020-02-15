@@ -12,16 +12,16 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541929233eff5e401b3998aa84e463e2640378c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34c774411fd825dd01595ef1e51ffa9c65c6eb8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763573"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41763573"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-04-22_
+_**Последнее изменение темы:** 2014-04-22_
 
-После добавления сервера Office Web Apps в топологию и после публикации этой топологии вы должны увидеть два новых события журнала событий в журнале событий Lync Server. First, an LS Data MCU event (event ID 41034) should be added; this event will report that the Office Web Apps Server has been discovered:
+После добавления сервера Office Web Apps в топологию и после публикации этой топологии в журнале событий Lync Server должны появиться два новых события журнала событий. Сначала необходимо добавить событие MCU для данных LS (Event ID 41034); Это событие сообщит о том, что сервер Office Web Apps обнаружен:
 
-**Сервер веб-конференций обнаружил сервер Office Web Apps Server, содержимое PowerPoint включено.**
+**Сервер веб-конференций сервер Office Web Apps обнаружен, содержимое PowerPoint включено.**
 
 Кроме того, должно отображаться другое событие LS Data MCU (идентификатор события — 41032), которое отправляют URL-адреса сервера Office Web Apps. Это событие может иметь, например, следующий вид:
 
-**Обнаружение Office Web Apps Server (WAC) сервера веб-конференций выполнено успешно.**
+**Сервер веб-конференций сервер Office Web Apps обнаружил успешность.**
 
-**Страница внутренней выступающего сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
+**Внутренняя страница выступающего сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Страница внутреннего участника на сервере Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Страница внутреннего участника сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Страница внешнего выступающего сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Внешняя страница докладчика сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Страница внутреннего участника на сервере Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Страница внутреннего участника сервера Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
-Если вы видите событие LS Data MCU с кодом события 41033, это означает, что не удалось обнаружить сервер Office Web Apps. В этом случае Microsoft Lync Server 2013 попытается выполнить столько раз, сколько нужно, чтобы найти только что настроенный сервер Office Web Apps. Если процесс обнаружения завершается сбоем, необходимо удалить сервер Office Web Apps из документа топологии, опубликовать обновленную топологию и попробовать добавить сервер Office Web Apps обратно в топологию после устранения проблем с подключением.
+Если событие LS Data MCU отображается с идентификатором события 41033, это означает, что произошел сбой обнаружения сервера Office Web Apps Server. В этом случае Microsoft Lync Server 2013 будет пытаться попытаться столько раз, сколько необходимо для обнаружения нового настроенного сервера Office Web Apps. Если происходит многократный сбой процесса обнаружения, следует удалить сервер Office Web Apps из документа топологии, опубликовать обновленную топологию, а затем снова попробовать добавить сервер Office Web Apps в топологию после устранения неполадок, связанных с подключением.
 
-Если сервер Office Web Apps правильно настроен и обнаружен в процессе обнаружения, вы можете проверить правильность работы сервера Office Web Apps с помощью демонстрации презентации PowerPoint между парой клиентов Microsoft Lync 2013. Если пользователь A может загрузить и отобразить презентацию PowerPoint, а затем пользователь B может присоединиться к собранию и просмотреть эту презентацию, будет ли работать сервер Office Web Apps.
+Если сервер Office Web Apps настроен правильно и распознается процессом обнаружения, можно проверить, что сервер Office Web Apps работает надлежащим образом, выполнив совместное использование презентации PowerPoint между двумя клиентами Microsoft Lync 2013. Если пользователь А может загружать и отображать презентацию PowerPoint, а пользователь Б затем может присоединяться к собранию и просматривать презентацию, сервер Office Web Apps функционирует правильно.
 
-Даже если сервер Office Web Apps настроен правильно, может быть получено сообщение об ошибке "некоторые функции общего доступа недоступны из-за проблем с подключением к серверу" при попытке предоставить общий доступ к презентации PowerPoint. Если появится сообщение об ошибке, необходимо перезапустить сервер переднего плана (или серверы), связанный с новым сервером Office Web Apps.
+Даже если кажется, что сервер Office Web Apps настроен правильно, при попытке совместного использования презентации PowerPoint существует вероятность возникновения сообщения об ошибке "Некоторые функции общего доступа недоступны из-за проблем с подключением к серверу". В случае отображения этого сообщения об ошибке следует перезапустить серверы переднего плана, сопоставленные с новым сервером Office Web Apps.
 
 </div>
 

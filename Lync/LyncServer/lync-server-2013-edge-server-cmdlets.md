@@ -12,16 +12,16 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d142bc2a98fbbb1d8147943e379ae1e1a243b18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d4343e9321ab463a6bf0b4173989d245267588e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726199"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726199"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-10-07_
+_**Последнее изменение темы:** 2013-10-07_
 
-Пограничные серверы предоставляют способ продления возможностей Microsoft Lync Server 2013 для пользователей, не вошедших в внутреннюю сеть. Например, если у вас есть удаленные пользователи, прошедшие проверку подлинности, которые входят в состав сервера Lync Server 2013 через Интернет, а не через внутреннюю сеть, вам потребуется настроить пограничный сервер, на котором запущена служба Edge Access для доступа к Lync Server. Кроме того, пограничные серверы требуются, если вы хотите установить Федерацию с другой организацией или вы хотите предоставить пользователям право общаться с людьми, у которых есть учетные записи с помощью общедоступной службы обмена мгновенными\!сообщениями, например Yahoo, AOL или MSN.
+Пограничные серверы предоставляют способ расширения возможностей Microsoft Lync Server 2013 для пользователей, которые не вошли во внутреннюю сеть. Например, если у вас есть удаленные пользователи с проверкой подлинности с проверкой подлинности, которые входят в Lync Server 2013 через Интернет, а не через внутреннюю сеть, вам потребуется настроить пограничный сервер, на котором работает пограничная служба доступа Lync Server. Кроме того, пограничные серверы необходимы, если вы хотите установить Федерацию с другой организацией или вы хотите предоставить пользователям право на взаимодействие с пользователями, у которых есть учетные записи с общедоступными службами обмена мгновенными\!сообщениями, такими как Yahoo, AOL или MSN.
 
 <div>
 
@@ -45,11 +45,11 @@ _**Тема последнего изменения:** 2013-10-07_
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>По состоянию на 1 сентября 2012, лицензия на подписку на общедоступные службы обмена мгновенными сообщениями в Microsoft Lync ("PIC усл") больше недоступна для приобретения новых или обновленных договоров. Пользователи с активными лицензиями смогут продолжать использовать федерацию с помощью Yahoo! Messenger, пока служба не отключается. Дата окончания жизненного цикла 2014 для AOL и Yahoo! в течение июня. было объявлено. Подробности можно найти <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">в разделе Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</A>.</P>
+> <P>С 1 сентября 2012 г. лицензия подписки на общедоступные службы обмена мгновенными сообщениями Microsoft Lync ("PIC усл") больше недоступна для приобретения новых или обновленных договоров. Клиенты с активными лицензиями смогут продолжать Федерацию с помощью Yahoo! Messenger до даты завершения работы службы. Дата окончания срока жизни 2014 для AOL и Yahoo! объявлено. Дополнительные сведения см <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">в разделе Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</A>.</P>
 > <LI>
-> <P>УСЛ PIC является лицензией на ежемесячную подписку для пользователей Lync Server или Office Communications Server, которая требуется для Федерации с помощью Yahoo!. Messenger. Возможность предоставления этой услуги корпорацией Майкрософт зависит от поддержки компании Yahoo!, основного соглашения, для которого выполняется обмотка.</P>
+> <P>УСЛ PIC является лицензией на месяц на уровне пользователя, которая требуется для Lync Server или Office Communications Server для Федерации с помощью Yahoo! Messenger. Способность корпорации Майкрософт предоставлять эту службу зависит от поддержки компании Yahoo!, основного соглашения, для которого выполняется обмотка.</P>
 > <LI>
-> <P>В некоторых случаях Lync — это мощный инструмент для связи между организациями и людьми по всему миру. Для интеграции с Windows Live Messenger не требуется дополнительных лицензий на пользователей и устройств за пределами стандартной клиентской лицензии Lync. В этот список будет добавлена Федерация Skype, благодаря чему пользователи Lync смогут общаться с сотнями миллионов людей с помощью обмена мгновенными сообщениями и голосовой связью.</P></LI></UL>
+> <P>Lync — это мощное средство для связи между организациями и пользователями мира. Для Федерации с Windows Live Messenger не требуется дополнительных лицензий на пользователей и устройств, не относящихся к стандарту Lync CAL. В этот список будет добавлена Федерация Skype, что позволит пользователям Lync достичь сотен миллионов людей с помощью обмена мгновенными сообщениями и голосовой связью.</P></LI></UL>
 
 
 
@@ -57,41 +57,41 @@ _**Тема последнего изменения:** 2013-10-07_
 
 <div>
 
-## <a name="edge-server-cmdlets"></a>Командлеты пограничного сервера
+## <a name="edge-server-cmdlets"></a>Командлеты пограничных серверов
 
-Ниже приведен список командлетов, которые непосредственно относятся к управлению пограничными серверами.
+Ниже приведен список командлетов, которые относятся непосредственно к управлению пограничными серверами:
 
 **Пограничный сервер**
 
   - <span></span>  
-    [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398574(v=OCS.15))
+    [Get — CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
+    [Set — CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413008(v=OCS.15))
+    [Get — CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))
 
   - <span></span>  
-    [New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))
+    [New — CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))
+    [Remove — CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))
+    [Set — CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/en-us/library/JJ205138(v=OCS.15))
+    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsEdgeServer](https://technet.microsoft.com/en-us/library/Gg398859(v=OCS.15))
+    [Set — Кседжесервер](https://technet.microsoft.com/library/Gg398859(v=OCS.15))
 
 </div>
 

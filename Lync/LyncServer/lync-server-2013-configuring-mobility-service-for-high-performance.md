@@ -12,16 +12,16 @@ ms:contentKeyID: 48185332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29eaea1e45c5d3b745debbc2f97370a76e6d16db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 460c56a9e51ab64491402eed22d40d60ad7d89c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730709"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41730709"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-17_
+_**Последнее изменение темы:** 2013-02-17_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Этот раздел относится только к службе мобильной связи Lync Server 2013 (МККС) и не применяется к веб-API единой системы обмена сообщениями (УКВА), как в накопительных обновлениях для Lync Server 2013: Февраль 2013.
+> Этот раздел относится только к службе Mobility Service 2013 для Lync Server и не относится к веб-API объединенных коммуникаций (UCWA), как доставляется в накопительные пакеты обновления для Lync Server 2013: Февраль 2013.
 
 
 
 </div>
 
-При установке службы Mobility Service (МККС) в службах IIS 7,5 программа установки службы Mobility Service настраивает некоторые параметры быстродействия на сервере переднего плана. We recommend that you use IIS 7.5 for mobility. The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.
+При установке службы Mobility Service (MCX) в службах IIS 7,5 программа установки службы Mobility Service настраивает некоторые параметры производительности на сервере переднего плана. Мы рекомендуем использовать IIS 7.5 для Mobility Service. Параметры влияют на максимальное число одновременных запросов пользователей и максимальное число потоков, которые разрешены для Mobility Service.
 
-Далее представлены параметры производительности:
+Ниже приведены параметры производительности.
 
 <div>
 
-## <a name="settings-for-mcx-on-iis-75"></a>Параметры для Mcx в службе IIS 7.5
+## <a name="settings-for-mcx-on-iis-75"></a>Параметры MCX в службах IIS 7,5
 
-1.  **maxConcurrentThreadsPerCPU** имеет значение нуля (0).
+1.  **maxConcurrentThreadsPerCPU** имеет значение нуль (0).
 
-2.  **maxConcurrentRequestsPerCPU** имеет значение нуля (0).
+2.  **maxConcurrentRequestsPerCPU** имеет значение нуль (0).
 
 3.  Процессная модель ASP.NET имеет значение AutoConfig (только для IIS 7.5).
 

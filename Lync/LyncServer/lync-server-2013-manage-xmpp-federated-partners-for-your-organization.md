@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: управление федеративными XMPP-партнерами для организации'
+title: 'Lync Server 2013: Управление федеративными партнерами XMPP для Организации'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ea1e2993ed168ece718864f4167815e799605d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733259"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Управление федеративными XMPP-партнерами в Lync Server 2013
+# <a name="manage-xmpp-federated-partners-in-lync-server-2013"></a>Управление федеративными партнерами XMPP в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733259"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Это предварительная редакция документации и она может меняться. Пустые разделы добавлены в качестве заполнителей.
+Это Предварительная документация, которая может быть изменена. Пустые разделы включены в качестве заполнителей.
 
-Чтобы управлять поддержкой пользователей КСМПП федеративных доменов, необходимо выполнить указанные ниже действия.
+Чтобы получить возможность управления поддержкой пользователей федеративных доменов XMPP, необходимо выполнить перечисленные ниже действия.
 
-  - Настройте одну или несколько политик внешнего доступа для поддержки пользователей КСМПП федеративных доменов.
+  - Настройте одну или несколько политик внешнего доступа для поддержки пользователей федеративных доменов XMPP.
 
-  - Настройка политики конфигурации пограничного доступа для поддержки Федерации.
+  - Настройте политику конфигурации пограничного доступа для поддержки федерации.
 
-  - Создание определений федеративных партнеров КСМПП.
+  - Создайте определения федеративных партнеров XMPP.
 
-  - Общие сведения о параметрах согласования, доступных для Федерации КСМПП.
+  - Получите общее представление о параметрах, доступных для федерации XMPP.
 
-Чтобы выполнить эти задачи, выполните действия, описанные в этом разделе.
+Для выполнения этих задач используйте процедуры из данного раздела.
 
 <div>
 
@@ -57,9 +57,9 @@ _**Тема последнего изменения:** 2012-10-19_
 
   - [Создание или редактирование конфигурации XMPP-партнеров в Lync Server 2013](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
 
-  - [Параметры согласования для федеративных XMPP-партнеров в Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
+  - [Параметры согласования для федеративных партнеров XMPP в Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
 
-  - [Пример конфигурации XMPP в Lync Server 2013 — федерация XMPP с Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
+  - [Пример конфигурации XMPP в Lync Server 2013 – XMPP Федерация с Google говорите](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
 
 </div>
 

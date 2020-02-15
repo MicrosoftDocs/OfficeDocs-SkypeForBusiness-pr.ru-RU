@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка существующего центрального сервера управления'
+title: 'Lync Server 2013: Настройка существующего центрального сервера управления'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50835858c9c78851ec5fc7359f988790bb0d1c2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757833"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757833"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Если вы повторно можете использовать центральный сервер управления из существующего развертывания Lync Server 2013, необходимо выполнить описанные ниже действия, чтобы убедиться, что панель управления Lync Server и функция Windows PowerShell правильно работают.
+Если вы повторно восиспользуете центральный сервер управления из существующего развертывания Lync Server 2013, необходимо выполнить процедуру, описанную ниже, чтобы убедиться, что панель управления Lync Server и функция Windows PowerShell правильно работают.
 
 <div>
 
 ## <a name="to-configure-an-existing-central-management-server"></a>Настройка существующего центрального сервера управления
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  С помощью командлета **Update-ксадминроле** можно обновить роли управления доступом на основе РОЛЕЙ (RBAC), хранящиеся на центральном сервере управления.
+2.  Используйте командлет **Update-CsAdminRole** , чтобы обновить роли управления доступом на основе РОЛЕЙ (RBAC), которые хранятся на центральном сервере управления.
     
     <div>
     
 
     > [!NOTE]  
-    > Никаких выходных данных не ожидается, если не возникает ошибки.
+    > При отсутствии ошибок вывод результатов не ожидается.
 
     
     </div>

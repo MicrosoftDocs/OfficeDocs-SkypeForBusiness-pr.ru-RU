@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: обновление списка включения Outlook'
+title: 'Lync Server 2013: обновление списка "разрешения" Outlook'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44de6e3b7756935829b008c585474e08f6f9969
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 376c5788d535cd893b2261dcddcb1fe05d676005
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744719"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Обновление списка включения Outlook в Lync Server 2013
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Обновление списка поддержки Outlook в Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744719"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-01-07_
+_**Последнее изменение темы:** 2013-01-07_
 
-Вы можете сделать так, чтобы надстройка сетевого собрания для Microsoft Lync 2013 всегда оставалась включена для пользователей путем создания политики, которая включает ее в список управления надстройками для Outlook. Политика списка управления надстройками входит в файлы административных шаблонов Office для консоли управления групповыми политиками. Он создает раздел реестра в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивость аддинлист. Вы можете добавить в этот раздел значение укаддин. dll и настроить значение укаддин. dll так, чтобы оно всегда было включено и не могло вручную его отключить.
+Вы можете убедиться, что надстройка "собрание по сети" для Microsoft Lync 2013 всегда остается включенной для пользователей, создав политику, которая включает ее в список управления надстройками для Outlook. Политика списка управления надстройками включается в файлы административных шаблонов Office для консоли управления групповыми политиками. Он создает раздел реестра в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивости AddinList. Вы можете добавить значение для укаддин. dll в этот ключ и настроить значение укаддин. dll так, чтобы оно всегда было включено и пользователи не могли отключить его вручную.
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Добавление укаддин. dll в список надстроек для Outlook
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Добавление укаддин. dll в список надстроек Outlook
 
-  - В раздел реестра Аддинлист, который находится в разделе\\политики\\\\программного\\обеспечения\\HKCU\\Microsoft\\Office 15,0\\Outlook15 устойчивость аддинлист, добавьте следующее значение:
+  - В раздел реестра AddinList, расположенный в разделе политики\\\\\\программного обеспечения\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\устойчивости AddinList, добавьте следующее значение:
     
       - Тип реестра = REG\_СЗ
     
-      - Name = укаддин. dll
+      - Имя = ucaddin.dll
     
-      - Value = 1 (указывает, что надстройка всегда включена и не может управляться конечным пользователем)
+      - Значение = 1 (указывает, что надстройка всегда включена и не управляется пользователем)
 
 </div>
 

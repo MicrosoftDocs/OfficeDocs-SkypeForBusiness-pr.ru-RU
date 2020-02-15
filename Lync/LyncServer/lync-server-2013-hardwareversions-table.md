@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица HardwareVersions'
+title: 'Lync Server 2013: таблица таблица hardwareversions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185406
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 870b80dd5f67cf2a79e1c44c9754223f6d576e2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a242f7ac01f89978ad4692f2e36374c52e92bc94
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardwareversions-table-in-lync-server-2013"></a>Таблица HardwareVersions в Lync Server 2013
+# <a name="hardwareversions-table-in-lync-server-2013"></a>Таблица Таблица hardwareversions в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727809"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-05-25_
+_**Последнее изменение темы:** 2012-05-25_
 
-Таблица Хардвареверсионс является вспомогательной таблицей. Каждая запись содержит сведения о одной аппаратной версии устройства.
+Таблица Таблица hardwareversions является вспомогательной таблицей. Каждая запись содержит сведения об одной аппаратной версии устройства.
 
 
 <table>
@@ -51,22 +51,22 @@ _**Тема последнего изменения:** 2012-05-25_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>VersionId</strong></p></td>
-<td><p>целое</p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, идентифицирующий эту аппаратную версию.</p></td>
+<td><p>Уникальный номер, идентифицирующий версию оборудования.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Версия</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
-<td><p>Аппаратная версия.</p></td>
+<td><p>Версия оборудования.</p></td>
 </tr>
 </tbody>
 </table>

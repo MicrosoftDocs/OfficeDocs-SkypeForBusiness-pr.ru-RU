@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: использование команды "остановить" для централизованной службы ведения журнала'
+title: 'Lync Server 2013: использование Stop для централизованной службы ведения журналов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733549
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 621d7c02530fea62b1601c1db755292c8f819a6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1273d961c52b2b02ff90c83dc8f677f57196f2bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743969"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Использование функции "остановить" для централизованной службы ведения журналов в Lync Server 2013
+# <a name="using-stop-for-the-centralized-logging-service-in-lync-server-2013"></a>Использование Stop для централизованной службы ведения журналов в Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41743969"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-11-01_
+_**Последнее изменение темы:** 2012-11-01_
 
 Остановить текущий работающий сеанс ведения журнала можно с помощью командлета Stop-CsClsLogging. Обычно ситуации, когда нужно остановить сеанс ведения журнала, возникают достаточно редко. Например, поиск в журналах и изменение конфигураций можно выполнять без обязательной предварительной остановки ведения журнала. Если выполняются два сценария, например AlwaysOn и UserReplicator, и нужно собирать сведения, связанные с проверкой подлинности (сценарий Authentication), понадобится остановить один из других сценариев (на глобальном уровне, уровне сайта, пула или компьютера), прежде чем можно будет запустить сценарий Authentication. Подробные сведения см. в статье [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Stop-CsClsLogging).
 
@@ -43,31 +43,31 @@ _**Тема последнего изменения:** 2012-11-01_
 
 
 > [!NOTE]  
-> При определении сценариев, которые можно выполнять для определенного развертывания, пула или компьютера, необходимо помнить, что вы ограничены выполнение двух сценариев <STRONG>на компьютере</STRONG>. If you are logging activity on a pool, you should treat a pool as a single entity. In most cases, it would not make sense to run different scenarios on each computer in a pool. It does make sense to look at the problem that you are collecting data about and think about what scenario makes the most sense on a given computer in the overall deployment. Например, если вы просматриваете сценарий Усеррепликатор, то в процессе выполнения Усеррепликатор на пограничном сервере или пуле Edgeов было бы очень мало значений.<BR>Разобравшись в проблеме и оценив масштаб влияния, следует аккуратно выбрать, какие сценарии будут выполняться и на каких компьютерах и пулах. Хотя сценарий AlwaysOn имеет смысл для широкой области применения, так как он собирает данные для широкого множества поставщиков, определенные сценарии целесообразно применять только на конкретных компьютерах и пулах. Кроме того, следует соблюдать осторожность и не запускать сеанс ведения журнала случайным образом, не разобравшись сначала в эффективности данного сценария в конкретном случае. Использование неправильного сценария или сценария, не соответствующего задаче, либо запуск сценария в неправильной области применения (будь это глобальный уровень, уровень площадки, пула или компьютера), может привести к получению сомнительных и не слишком полезных данных — как если бы никакой сценарий вообще не запускался.
+> При определении сценариев, которые можно выполнять для данного развертывания, пула или компьютера, нужно помнить, что можно выполнять не более двух сценариев <STRONG>на компьютер</STRONG>. При ведении журнала действий для пула следует считать пул единым объектом. В большинстве случаев бессмысленно выполнять разные сценарии на каждом компьютере пула. Стоит взглянуть на проблему, для которой собираются данные, и поискать сценарий, который даст максимальный эффект для данного компьютера в общей среде. Например, если вы рассматриваете сценарий UserReplicator, в запуске UserReplicator на пограничном сервере или пограничном пуле было бы очень мало значений.<BR>Разобравшись в проблеме и оценив масштаб влияния, следует аккуратно выбрать, какие сценарии будут выполняться и на каких компьютерах и пулах. Хотя сценарий AlwaysOn имеет смысл для широкой области применения, так как он собирает данные для широкого множества поставщиков, определенные сценарии целесообразно применять только на конкретных компьютерах и пулах. Кроме того, следует соблюдать осторожность и не запускать сеанс ведения журнала случайным образом, не разобравшись сначала в эффективности данного сценария в конкретном случае. Использование неправильного сценария или сценария, не соответствующего задаче, либо запуск сценария в неправильной области применения (будь это глобальный уровень, уровень площадки, пула или компьютера), может привести к получению сомнительных и не слишком полезных данных — как если бы никакой сценарий вообще не запускался.
 
 
 
 </div>
 
-Для управления централизованными функциями ведения журналов с помощью командной консоли Lync Server вы должны быть членами либо группами безопасности Ксадминистратор или Кссерверадминистратор, либо настраиваемой роли RBAC, которая включает в себя Любая из этих двух групп. Чтобы возвратить список всех ролей RBAC, которым был назначен этот командлет (включая любые пользовательские роли RBAC, созданные пользователем), выполните следующую команду из командной консоли Lync Server Management Shell или Windows PowerShell.
+Для управления функциями централизованного ведения журналов с помощью Командная консоль Lync Server необходимо быть членом группы безопасности CsAdministrator или CsServerAdministrator с управлением доступом на основе ролей (RBAC) или настраиваемой роли RBAC, содержащей Любая из этих двух групп. Чтобы получить список всех ролей RBAC, которым назначен этот командлет (включая все самостоятельно созданные роли RBAC), выполните следующую команду в командной консоли Lync Server или в командной строке Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-Например:
+Пример:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 <div>
 
-## <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Чтобы остановить запущенный в данный момент централизованный сеанс службы ведения журнала
+## <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Чтобы остановить запущенный в данный момент сеанс Службы централизованного ведения журнала
 
-1.  Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.
+1.  Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.
 
-2.  Запросите службу централизованного ведения журналов, чтобы узнать, какие сценарии в настоящее время выполняются, введя следующее:
+2.  Запросите службу централизованного ведения журналов, чтобы узнать, какие сценарии выполняются в данный момент, введя следующую команду:
     
         Show-CsClsLogging
     
-    ![Консоль Windows PowerShell после вызова Show-CsCl](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Консоль Windows PowerShell после вызова Show-CsCl")
+    ![Консоль Windows PowerShell после вызова Show — Кскл](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Консоль Windows PowerShell после вызова Show — Кскл")
     
     Результатом выполнения Show-CsClsLogging являются сводные данные обо всех выполняемых сценариях и областях их выполнения. Подробные сведения см. в статье [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging).
 
@@ -75,7 +75,7 @@ _**Тема последнего изменения:** 2012-11-01_
     
         Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
     
-    Например:
+    Пример:
     
         Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
     
@@ -99,15 +99,15 @@ _**Тема последнего изменения:** 2012-11-01_
 ## <a name="see-also"></a>См. также
 
 
-[Использование команды Start для централизованной службы ведения журналов для захвата журналов в Lync Server 2013](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)  
+[Использование Start для централизованной службы ведения журналов для захвата журналов в Lync Server 2013](lync-server-2013-using-start-for-the-centralized-logging-service-to-capture-logs.md)  
 
 
-[Общие сведения об централизованной службе ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Обзор централизованной службы ведения журналов в Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Show-Ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging)  
-[Start-Ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/Start-CsClsLogging)  
-[Остановить-Ксклслоггинг](https://docs.microsoft.com/powershell/module/skype/Stop-CsClsLogging)  
+[Show — CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Show-CsClsLogging)  
+[Start — CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Start-CsClsLogging)  
+[Stop — CsClsLogging](https://docs.microsoft.com/powershell/module/skype/Stop-CsClsLogging)  
   
 
 </div>

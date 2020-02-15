@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: технические требования для отправки группового звонка'
+title: 'Lync Server 2013: технические требования для групповой отправки звонков'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a24f9e5b3950f45804a816e44e13382fc7d3cc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fff6c8fa2d058d5e9ee2df0beb26f97508798f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746569"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>Технические требования для отправки группового звонка в Lync Server 2013
+# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a>Технические требования для группового ответа на звонки в Lync Server 2013
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41746569"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-01-30_
+_**Последнее изменение темы:** 2013-01-30_
 
-Для отправки группового звонка в качестве приложения для приостановки звонков должны быть установлены те же требования к оборудованию, программному обеспечению и порту. Отправка группового звонка не использует звуковые файлы.
+Для группового ответа на звонки в качестве приложения парковки вызовов используется одно и то же требования к оборудованию, программному обеспечению и портам. При отправке звонков по группам не используются звуковые файлы.
 
 <div>
 
 ## <a name="see-also"></a>См. также
 
 
-[Технические требования к парковке вызовов в Lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)  
+[Технические требования для парковки вызовов в Lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)  
   
 
 </div>

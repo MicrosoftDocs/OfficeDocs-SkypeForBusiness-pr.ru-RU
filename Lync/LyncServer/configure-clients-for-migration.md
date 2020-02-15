@@ -13,16 +13,16 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfba9142aca4981f02b0dca7e8e0b16a2cde446
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727969"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,17 +36,17 @@ ms.locfileid: "41727969"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-24_
+_**Последнее изменение темы:** 2012-09-24_
 
-В этой статье описаны рекомендованные этапы развертывания клиента перед переходом на Lync Server 2013. Эти изменения конфигурации следует вносить в Lync Server 2010.
+В этой статье описываются рекомендуемые действия по развертыванию клиентов перед переходом на Lync Server 2013. Эти изменения конфигурации следует вносить в Lync Server 2010.
 
 <div>
 
-## <a name="to-configure-clients-before-migration"></a>Настройка клиентов перед миграцией
+## <a name="to-configure-clients-before-migration"></a>Настройка клиентов перед переходом
 
-1.  Развертывание последних обновлений сервера, клиента и устройств (исправлений) для Lync Server 2010. Последние сведения о Lync Server 2010 можно найти в разделе Обновление центра ресурсов для Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.
+1.  Разверните последние обновления сервера, клиента и устройства (исправления) для Lync Server 2010. Самую актуальную информацию о Lync Server 2010 можно узнать в статье Update Center Resource Center for Lync at <http://go.microsoft.com/fwlink/p/?linkid=232630>.
 
-2.  На Lync Server 2010 используйте фильтрацию по версиям клиента, чтобы разрешить только клиентам с установленными текущими обновлениями.
+2.  В Lync Server 2010 используйте фильтрацию версий клиентов, чтобы позволить клиентам устанавливать только самые последние обновления.
 
 </div>
 

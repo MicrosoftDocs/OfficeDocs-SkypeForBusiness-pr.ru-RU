@@ -13,16 +13,16 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3d8b50276c2e547ba5f240f429198ef0bca8303
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f31186ffda8cd6c548d83d512c0c795110d4fc4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724139"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724139"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-19_
+_**Последнее изменение темы:** 2012-10-19_
 
-Прежде чем приступить к переходу на Lync Server 2013, настоятельно рекомендуется выполнить полную архивацию системы и документировать существующую систему, в том числе учетные записи пользователей, расположенные в каждом пуле, чтобы можно было вернуться к связям с Office. Сервер 2007 R2, если это становится нужно. Для резервного копирования и восстановления данных, параметров и систем доступны различные инструменты и программы. Подробности и инструкции можно найти в <http://go.microsoft.com/fwlink/p/?linkid=168162>разделе "Руководство по резервному копированию и восстановлению Office Communications Server 2007 R2".
+Прежде чем приступать к миграции на Lync Server 2013, настоятельно рекомендуется выполнить полное резервное копирование системы и документировать существующую систему, в том числе учетные записи пользователей, размещенные в каждом пуле, чтобы можно было вернуться к Office Communications. Сервер 2007 R2, если это необходимо. Существует множество средств и программ для резервного копирования и восстановления данных, параметров и систем. Сведения и процедуры, приведенные в <http://go.microsoft.com/fwlink/p/?linkid=168162>разделе "Руководство по резервному копированию и восстановлению Office Communications Server 2007 R2".
 
 </div>
 

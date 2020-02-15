@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: поддержка хранения файлов'
+title: Поддержка хранения файлов в Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185743
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 000f3357c8b30b83a2d2cecf74bdbec44d867d96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bba71468c9797ad52cd01e163c726f779f43aea9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743409"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41743409"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-16_
+_**Последнее изменение темы:** 2012-10-16_
 
-Lync Server 2013 использует одно и то же хранилище файлов для хранения всех файлов. Поддержка хранения файлов включает следующие возможности:
+Lync Server 2013 использует одно и то же хранилище файлов для всех хранилищ файлов. Поддержка хранения файлов включает следующее.
 
-  - Файловый общий доступ на запоминающем устройстве (DAS) или в сети хранения данных (SAN), включая распределенную файловую систему (DFS), а также на резервный массив независимых дисков (RAID) для хранения файлов. Сведения о требованиях к хранению можно найти в статьях [технические требования к серверам переднего плана, мгновенным сообщениям и сведениям о присутствии в Lync server 2013](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md) , а также [о требованиях к оборудованию и программному обеспечению для директора в Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md) Подробные сведения о DFS для операционной системы Windows Server 2008 можно найти в пошаговом руководстве по DFS для Windows Server 2008 по адресу [http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835).
+  - Файловый ресурс общего доступа либо в непосредственно подключенной системе хранения (DAS — direct attached storage), либо в сети хранения данных (SAN), включая распределенную файловую систему (DFS) и массив RAID для хранения файлов. Дополнительные сведения о требованиях к хранению приведены [в статье технические требования к серверам переднего плана, обмену мгновенными сообщениями и сведениям о присутствии в Lync server 2013](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md) , а [также требованиях к оборудованию и программному обеспечению для директора в Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md) Подробнее о распределенной файловой системе для Windows Server 2008 можно узнать в статье Пошаговое руководство по DFS для Windows Server 2008 по [http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)адресу.
 
-  - Общий кластер для общего доступа к файлам. Если вы пользуетесь общим кластером, вы должны использовать кластерные серверы под управлением Windows Server 2008 или Windows Server 2008 R2. Использование серверов кластера, работающих под управлением более ранней версии Windows, может привести к проблемам с разрешениями, которые не позволяют получить доступ к некоторым функциям. Для создания общих файловых ресурсов используйте администратор кластеров. Подробнее об использовании администратора кластера можно найти в [http://go.microsoft.com/fwlink/p/?linkId=140899](http://go.microsoft.com/fwlink/p/?linkid=140899)статье 284838 базы знаний Майкрософт, посвященной созданию общего файлового файла кластера сервера с помощью Cluster. exe.
+  - Общий кластер для этого файлового ресурса общего доступа. Если используется общий кластер, то серверы кластера должны работать под управлением Windows Server 2008 или Windows Server 2008 R2. Использование серверов кластера, работающих под управлением более ранней версии Windows, может привести к проблемам с разрешениями, которые не позволяют получить доступ к некоторым функциям. Создавать файловые ресурсы общего доступа можно с помощью администратора кластера. Сведения об использовании администратора кластера содержатся в [http://go.microsoft.com/fwlink/p/?linkId=140899](http://go.microsoft.com/fwlink/p/?linkid=140899)статье базы знаний Майкрософт 284838, "как создать файловый ресурс кластера серверов с помощью Cluster. exe.
 
 </div>
 
