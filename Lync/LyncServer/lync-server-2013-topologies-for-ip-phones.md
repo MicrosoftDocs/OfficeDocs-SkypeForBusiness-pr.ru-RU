@@ -12,20 +12,20 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e05a56d30167f2e20a383cde9fcfaaa70418e650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69761715846cd65a44fe34c9c8465101e9ceb681
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745209"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topologies-for-ip-phones-in-lync-server-2013"></a><span data-ttu-id="03b03-102">Топологии для IP-телефонов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03b03-102">Topologies for IP phones in Lync Server 2013</span></span>
+# <a name="topologies-for-ip-phones-in-lync-server-2013"></a><span data-ttu-id="eb0b0-102">Топологии для IP-телефонов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb0b0-102">Topologies for IP phones in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41745209"
 
 <span> </span>
 
-<span data-ttu-id="03b03-103">_**Тема последнего изменения:** 2012-06-21_</span><span class="sxs-lookup"><span data-stu-id="03b03-103">_**Topic Last Modified:** 2012-06-21_</span></span>
+<span data-ttu-id="eb0b0-103">_**Последнее изменение темы:** 2012-06-21_</span><span class="sxs-lookup"><span data-stu-id="eb0b0-103">_**Topic Last Modified:** 2012-06-21_</span></span>
 
-<span data-ttu-id="03b03-104">В этом разделе представлен обзор процесса подключения и описаны различия между подключением IP-телефона к внутренней и внешней сети.</span><span class="sxs-lookup"><span data-stu-id="03b03-104">This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.</span></span>
+<span data-ttu-id="eb0b0-104">В этом разделе приводится обзор процесса подключения и рассматриваются различия в способах подключения IP-телефона во внутренней и внешней сетях.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-104">This section provides an overview of the connectivity process and explains the differences between how an IP phone connects in an internal and external network.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="03b03-105">Lync Server поддерживает следующие IP-телефоны: Aastra 6721ip Common Area Phone, Aastra 6725ip стационарный телефон, HP 4110 IP Phone (на телефонах), HP 4120 IP-телефон (стационарный телефонный звонок), Polycom CX600 IP на стационарном телефоне, Polycom CX700 IP-телефонной сети, Polycom CX500 IP обычный телефон и Polycom CX3000 IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="03b03-105">Lync Server provides support for the following IP phones: the Aastra 6721ip common area phone, Aastra 6725ip desk phone, HP 4110 IP Phone (common area phone), HP 4120 IP Phone (desk phone), Polycom CX600 IP desk phone, Polycom CX700 IP desk phone, Polycom CX500 IP common area phone, and Polycom CX3000 IP conference phone.</span></span> <span data-ttu-id="03b03-106">Из этих телефонов все, кроме Polycom CX700, могут запускать Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="03b03-106">Of those phones, all but the Polycom CX700 can run Lync Phone Edition.</span></span>
+> <span data-ttu-id="eb0b0-105">Lync Server обеспечивает поддержку для следующих IP-телефонов: Aastra 6721ip Common Area Phone, Aastra 6725ip стационарный телефон, HP 4110 IP-телефон (телефон с общим доступом), HP 4120 IP-телефон (стационарный телефон), Polycom CX600 IP Desk Phone, Polycom CX700 IP Desk Phone, Polycom CX500 IP Телефон общего пользования и Polycom CX3000 IP-телефон.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-105">Lync Server provides support for the following IP phones: the Aastra 6721ip common area phone, Aastra 6725ip desk phone, HP 4110 IP Phone (common area phone), HP 4120 IP Phone (desk phone), Polycom CX600 IP desk phone, Polycom CX700 IP desk phone, Polycom CX500 IP common area phone, and Polycom CX3000 IP conference phone.</span></span> <span data-ttu-id="eb0b0-106">Из этих телефонов все, кроме Polycom CX700, могут запускать Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-106">Of those phones, all but the Polycom CX700 can run Lync Phone Edition.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="03b03-107">На приведенной ниже схеме описаны все компоненты, связанные с подключением к устройствам в корпоративной среде.</span><span class="sxs-lookup"><span data-stu-id="03b03-107">The following diagram describes all the components involved in device connectivity within the corporate environment.</span></span>
+<span data-ttu-id="eb0b0-107">На следующей схеме показаны все компоненты, используемые для связи между устройствами в корпоративной среде.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-107">The following diagram describes all the components involved in device connectivity within the corporate environment.</span></span>
 
-<span data-ttu-id="03b03-108">**Внутренняя топология**</span><span class="sxs-lookup"><span data-stu-id="03b03-108">**Internal Topology**</span></span>
+<span data-ttu-id="eb0b0-108">**Внутренняя топология**</span><span class="sxs-lookup"><span data-stu-id="eb0b0-108">**Internal Topology**</span></span>
 
-<span data-ttu-id="03b03-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span><span class="sxs-lookup"><span data-stu-id="03b03-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span></span>
+<span data-ttu-id="eb0b0-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span><span class="sxs-lookup"><span data-stu-id="eb0b0-109">![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="03b03-110">Предыдущий рисунок является логическим представлением, а не физическим обзором.</span><span class="sxs-lookup"><span data-stu-id="03b03-110">The previous figure is a logical representation, not a physical overview.</span></span> <span data-ttu-id="03b03-111">Например, доменные службы Active Directory (AD DS) редко находятся на том же компьютере, что и любые компоненты сервера Lync.</span><span class="sxs-lookup"><span data-stu-id="03b03-111">For example, Active Directory Domain Services (AD DS) is rarely located on the same machine as any Lync Server components.</span></span> <span data-ttu-id="03b03-112">Хранилище пользователей может находиться на сервере или на серверах архивации и мониторинга.</span><span class="sxs-lookup"><span data-stu-id="03b03-112">The user store can be located on the Back End Server or on the Archiving and Monitoring Servers.</span></span> <span data-ttu-id="03b03-113">Консоль управления Lync Server, веб-сервер и службы обновления являются частью роли сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="03b03-113">The Lync Server Management Shell, web server, and update services are all part of the Front End Server role.</span></span>
+> <span data-ttu-id="eb0b0-110">Выше представлена логическая схема, которая не отражает особенности физического размещения.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-110">The previous figure is a logical representation, not a physical overview.</span></span> <span data-ttu-id="eb0b0-111">Например, доменные службы Active Directory (AD DS) редко располагаются на том же компьютере, что и компоненты Lync Server.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-111">For example, Active Directory Domain Services (AD DS) is rarely located on the same machine as any Lync Server components.</span></span> <span data-ttu-id="eb0b0-112">Хранилище пользователя может располагаться на тыловом сервере или на сервере архивации и наблюдения.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-112">The user store can be located on the Back End Server or on the Archiving and Monitoring Servers.</span></span> <span data-ttu-id="eb0b0-113">Консоль управления Lync Server, веб-сервер и службы обновления являются частью роли сервера переднего плана.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-113">The Lync Server Management Shell, web server, and update services are all part of the Front End Server role.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="03b03-114">На приведенной ниже схеме представлен обзор компонентов, которые используются, если устройство находится за пределами корпоративной сети.</span><span class="sxs-lookup"><span data-stu-id="03b03-114">The following diagram provides an overview of the components involved when the device is located outside the corporate network.</span></span>
+<span data-ttu-id="eb0b0-114">На следующей схеме приводится обзор компонентов, используемых в том случае, если устройство находится за пределами корпоративной сети.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-114">The following diagram provides an overview of the components involved when the device is located outside the corporate network.</span></span>
 
-<span data-ttu-id="03b03-115">**Внешняя топология**</span><span class="sxs-lookup"><span data-stu-id="03b03-115">**External Topology**</span></span>
+<span data-ttu-id="eb0b0-115">**Внешняя топология**</span><span class="sxs-lookup"><span data-stu-id="eb0b0-115">**External Topology**</span></span>
 
-<span data-ttu-id="03b03-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span><span class="sxs-lookup"><span data-stu-id="03b03-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span></span>
+<span data-ttu-id="eb0b0-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span><span class="sxs-lookup"><span data-stu-id="eb0b0-116">![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="03b03-117">Веб-служба обновления устройств обеспечивает внешний и внутренний веб-сайт, но здесь показан только внешний.</span><span class="sxs-lookup"><span data-stu-id="03b03-117">The Device Update Web service provides an external and internal website, but only the external one is shown here.</span></span><BR><span data-ttu-id="03b03-118">Чтобы включить внешний доступ, необходимо опубликовать в службе DNS расположение регистратора и URL-адрес службы обновления устройства для Организации.</span><span class="sxs-lookup"><span data-stu-id="03b03-118">The location of the Registrar and the URL of the Device Update Web service for the organization must be published in DNS if external access is to be enabled.</span></span> <span data-ttu-id="03b03-119">Кроме того, пограничный сервер должен быть развернут и правильно настроен для разрешения внешней связи с устройства в корпоративную среду и обратно.</span><span class="sxs-lookup"><span data-stu-id="03b03-119">Additionally, the Edge Server must be deployed and correctly configured to allow external communications from the device to the corporate environment and back.</span></span> <span data-ttu-id="03b03-120">Этот параметр не указан на предыдущей схеме, так как развертывание EDGE не предназначено для подключения устройства.</span><span class="sxs-lookup"><span data-stu-id="03b03-120">This is omitted from the previous diagram because Edge deployment is not specific to device connectivity.</span></span>
+> <span data-ttu-id="eb0b0-117">Веб-служба обновления устройств предоставляет внешний и внутренний веб-сайты, но здесь показан только внешний веб-сайт.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-117">The Device Update Web service provides an external and internal website, but only the external one is shown here.</span></span><BR><span data-ttu-id="eb0b0-p103">Если планируется включать внешний доступ, в DNS необходимо опубликовать расположение Регистратора и URL-адрес веб-службы обновления устройств для организации. Кроме того, для обеспечения внешних подключений устройств к корпоративной среде и наоборот нужно развернуть и правильно настроить пограничный сервер. На предыдущей схеме этот компонент не показан, поскольку развертывание пограничного сервера не является необходимым для подключения устройств.</span><span class="sxs-lookup"><span data-stu-id="eb0b0-p103">The location of the Registrar and the URL of the Device Update Web service for the organization must be published in DNS if external access is to be enabled. Additionally, the Edge Server must be deployed and correctly configured to allow external communications from the device to the corporate environment and back. This is omitted from the previous diagram because Edge deployment is not specific to device connectivity.</span></span>
 
 
 

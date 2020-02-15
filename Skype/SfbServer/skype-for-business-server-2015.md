@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Сводка: Ознакомьтесь с этими ссылками, чтобы ознакомиться со сведениями о том, как внедрить Skype для бизнеса Server 2015.'
-ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Сводка. Изучите эти ссылки, чтобы узнать, как внедрить Skype для бизнеса Server 2015.
+ms.openlocfilehash: 05d9da9fb1edb9b9063b9d2649b34a45003dee7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824103"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045371"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype для бизнеса Server 2015
 
-Skype для бизнеса — это платформа для связи и совместной работы, объединяющая в себе клиентские возможности, связанные с безопасностью, соответствием требованиям и управлением корпоративными приложениями. Skype для бизнеса включает такие возможности, как присутствие, мгновенные сообщения, голосовые и видеозвонки, а также собрания по сети. 
+Skype для бизнеса — это платформа для общения и совместной работы, объединяющая клиентские возможности, которые посвящены Skype с корпоративной безопасностью, соответствие требованиям и управлению. Skype для бизнеса включает в себя функции присутствия, обмена мгновенными сообщениями, голосовых и видеоконференций, а также собраний по сети.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -92,7 +92,7 @@ Skype для бизнеса — это платформа для связи и �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Обновление</h3>
+                        <h3>Модернизация</h3>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ Skype для бизнеса — это платформа для связи и �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Технические схемы</h3>
+                        <h3>Технические графики</h3>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ Skype для бизнеса — это платформа для связи и �
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-skype-for-business-server">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -139,7 +139,7 @@ Skype для бизнеса — это платформа для связи и �
 
 ---
 
-<h2>Подборка статей</h2>
+<h2>Рекомендуемые статьи</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -162,7 +162,7 @@ Skype для бизнеса — это платформа для связи и �
                     <div class="cardText">
                         <h3>Установка и управление</h3>
                         <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Установка Skype для бизнеса Server</a></p>
-                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Управление системой Skype для бизнеса Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Управление Skype для бизнеса Server</a></p>
                      </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ Skype для бизнеса — это платформа для связи и �
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Трансляция собрания Skype</h3>
+                        <h3>Трансляция собраний Skype</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Что это такое?</a></p>
                         <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Настройка локального развертывания для трансляции собраний Skype</a>
                     </div>
@@ -204,7 +204,7 @@ Skype для бизнеса — это платформа для связи и �
                                        </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
@@ -214,11 +214,10 @@ Skype для бизнеса — это платформа для связи и �
                         <h3>Другие ресурсы</h3>
                         <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Серия готовности Skype для бизнеса</a></p>
                         <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Документация по Skype для бизнеса Server 2019</a></p>
-                        <p><a href="/lyncserver/microsoft-lync-server-2013">Документация Lync Server 2013</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Документация по Lync Server 2013</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
 </ul>
-

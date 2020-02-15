@@ -12,20 +12,20 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcd6cb462bd64f6fdcdbae93cfb733de0639898
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 164c6e1541869a2976f283443f2fae9246f28007
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731919"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="806ba-102">Таблица Сипреспонсеметадата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="806ba-102">SIPResponseMetaData table in Lync Server 2013</span></span>
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="67de4-102">Таблица Сипреспонсеметадата в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="67de4-102">SIPResponseMetaData table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731919"
 
 <span> </span>
 
-<span data-ttu-id="806ba-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="806ba-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="67de4-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="67de4-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="806ba-104">В Сипреспонсеметадататабле содержится список кодов ответов SIP, а также классификация и определение каждого из этих кодов.</span><span class="sxs-lookup"><span data-stu-id="806ba-104">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes.</span></span> <span data-ttu-id="806ba-105">Эти коды генерируются в ответ на события, влияющие на устройства SIP и сеансы связи SIP; Например, код ответа 403 генерируется, когда устройство SIP делает запрос, но сервер отклоняет этот запрос.</span><span class="sxs-lookup"><span data-stu-id="806ba-105">These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
+<span data-ttu-id="67de4-p101">Таблица SIPResponseMetaDataTable содержит список кодов ответа SIP, а также классификацию и определение каждого из этих кодов. Эти коды генерируются в ответ на события, затрагивающие устройства SIP и сеансы связи SIP; например, код ответа 403 создается, когда устройство SIP выполняет запрос, но сервер отказывается принять его на обработку.</span><span class="sxs-lookup"><span data-stu-id="67de4-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
 
-<span data-ttu-id="806ba-106">Эта таблица введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="806ba-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="67de4-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="67de4-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,39 +51,39 @@ ms.locfileid: "41731919"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="806ba-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="806ba-107">Column</span></span></th>
-<th><span data-ttu-id="806ba-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="806ba-108">Data Type</span></span></th>
-<th><span data-ttu-id="806ba-109">Ключ/индекс</span><span class="sxs-lookup"><span data-stu-id="806ba-109">Key/Index</span></span></th>
-<th><span data-ttu-id="806ba-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="806ba-110">Details</span></span></th>
+<th><span data-ttu-id="67de4-107">Столбец</span><span class="sxs-lookup"><span data-stu-id="67de4-107">Column</span></span></th>
+<th><span data-ttu-id="67de4-108">Тип данных</span><span class="sxs-lookup"><span data-stu-id="67de4-108">Data Type</span></span></th>
+<th><span data-ttu-id="67de4-109">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="67de4-109">Key/Index</span></span></th>
+<th><span data-ttu-id="67de4-110">Сведения</span><span class="sxs-lookup"><span data-stu-id="67de4-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="806ba-111"><strong>респонсекоде</strong></span><span class="sxs-lookup"><span data-stu-id="806ba-111"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="806ba-112">целое</span><span class="sxs-lookup"><span data-stu-id="806ba-112">int</span></span></p></td>
-<td><p><span data-ttu-id="806ba-113">Primary</span><span class="sxs-lookup"><span data-stu-id="806ba-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="806ba-114">Числовое значение, представляющее код ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="806ba-114">Numeric value that represents the SIP response code.</span></span></p></td>
+<td><p><span data-ttu-id="67de4-111"><strong>респонсекоде</strong></span><span class="sxs-lookup"><span data-stu-id="67de4-111"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="67de4-112">int</span><span class="sxs-lookup"><span data-stu-id="67de4-112">int</span></span></p></td>
+<td><p><span data-ttu-id="67de4-113">Primary</span><span class="sxs-lookup"><span data-stu-id="67de4-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="67de4-114">Числовое значение, которое определяет код ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="67de4-114">Numeric value that represents the SIP response code.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="806ba-115"><strong>Классов</strong></span><span class="sxs-lookup"><span data-stu-id="806ba-115"><strong>Class</strong></span></span></p></td>
-<td><p><span data-ttu-id="806ba-116">целое</span><span class="sxs-lookup"><span data-stu-id="806ba-116">int</span></span></p></td>
+<td><p><span data-ttu-id="67de4-115"><strong>Класс</strong></span><span class="sxs-lookup"><span data-stu-id="67de4-115"><strong>Class</strong></span></span></p></td>
+<td><p><span data-ttu-id="67de4-116">int</span><span class="sxs-lookup"><span data-stu-id="67de4-116">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="806ba-117">Общая классификация для кода ответа.</span><span class="sxs-lookup"><span data-stu-id="806ba-117">General classification for the response code.</span></span> <span data-ttu-id="806ba-118">Существуют следующие классификации:</span><span class="sxs-lookup"><span data-stu-id="806ba-118">Classifications include:</span></span></p>
+<td><p><span data-ttu-id="67de4-p102">Общая классификация кода ответа. Возможные классификации:</span><span class="sxs-lookup"><span data-stu-id="67de4-p102">General classification for the response code. Classifications include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="806ba-119">1 — Информационные ответы</span><span class="sxs-lookup"><span data-stu-id="806ba-119">1 – Informational Responses</span></span></p></li>
-<li><p><span data-ttu-id="806ba-120">2 – успешные ответы</span><span class="sxs-lookup"><span data-stu-id="806ba-120">2 – Successful Responses</span></span></p></li>
-<li><p><span data-ttu-id="806ba-121">3 – Ответы на перенаправление</span><span class="sxs-lookup"><span data-stu-id="806ba-121">3 – Redirection Responses</span></span></p></li>
-<li><p><span data-ttu-id="806ba-122">4 – Ответы на ошибки клиента</span><span class="sxs-lookup"><span data-stu-id="806ba-122">4 – Client Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="806ba-123">5-Ответы на ошибки сервера</span><span class="sxs-lookup"><span data-stu-id="806ba-123">5 -- Server Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="806ba-124">6 – Глобальный ответ на сбой</span><span class="sxs-lookup"><span data-stu-id="806ba-124">6 – Global Failure Response</span></span></p></li>
+<li><p><span data-ttu-id="67de4-119">1 — информационные ответы</span><span class="sxs-lookup"><span data-stu-id="67de4-119">1 – Informational Responses</span></span></p></li>
+<li><p><span data-ttu-id="67de4-120">2 — успешные ответы</span><span class="sxs-lookup"><span data-stu-id="67de4-120">2 – Successful Responses</span></span></p></li>
+<li><p><span data-ttu-id="67de4-121">3 — ответы перенаправления</span><span class="sxs-lookup"><span data-stu-id="67de4-121">3 – Redirection Responses</span></span></p></li>
+<li><p><span data-ttu-id="67de4-122">4 — ответы сбоя клиента</span><span class="sxs-lookup"><span data-stu-id="67de4-122">4 – Client Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="67de4-123">5 — ответы об отказах серверов</span><span class="sxs-lookup"><span data-stu-id="67de4-123">5 -- Server Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="67de4-124">6 — ответы глобального сбоя</span><span class="sxs-lookup"><span data-stu-id="67de4-124">6 – Global Failure Response</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="806ba-125"><strong>Описание</strong></span><span class="sxs-lookup"><span data-stu-id="806ba-125"><strong>Description</strong></span></span></p></td>
-<td><p><span data-ttu-id="806ba-126">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="806ba-126">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="67de4-125"><strong>Описание</strong></span><span class="sxs-lookup"><span data-stu-id="67de4-125"><strong>Description</strong></span></span></p></td>
+<td><p><span data-ttu-id="67de4-126">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="67de4-126">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="806ba-127">Описание кода ответа SIP.</span><span class="sxs-lookup"><span data-stu-id="806ba-127">Description of the SIP response code.</span></span> <span data-ttu-id="806ba-128">Например, код ответа 181 имеет следующее описание:</span><span class="sxs-lookup"><span data-stu-id="806ba-128">For example, response code 181 has the following description:</span></span></p>
-<p><span data-ttu-id="806ba-129">Переадресация звонка</span><span class="sxs-lookup"><span data-stu-id="806ba-129">Call Is Being Forwarded</span></span></p></td>
+<td><p><span data-ttu-id="67de4-p103">Описание кода ответа SIP. Например, для кода ответа 181 доступно следующее описание:</span><span class="sxs-lookup"><span data-stu-id="67de4-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
+<p><span data-ttu-id="67de4-129">Вызов перенаправляется</span><span class="sxs-lookup"><span data-stu-id="67de4-129">Call Is Being Forwarded</span></span></p></td>
 </tr>
 </tbody>
 </table>

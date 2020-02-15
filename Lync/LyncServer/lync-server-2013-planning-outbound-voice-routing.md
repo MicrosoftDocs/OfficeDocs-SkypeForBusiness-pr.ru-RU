@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: планирование маршрутизации исходящей голосовой почты'
+title: 'Lync Server 2013: планирование маршрутизации исходящих голосовых вызовов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747669"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="95b01-102">Планирование маршрутизации исходящей голосовой почты в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-102">Planning outbound voice routing in Lync Server 2013</span></span>
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a><span data-ttu-id="7fb47-102">Планирование маршрутизации исходящих голосовых вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-102">Planning outbound voice routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41747669"
 
 <span> </span>
 
-<span data-ttu-id="95b01-103">_**Тема последнего изменения:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="95b01-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="7fb47-103">_**Последнее изменение темы:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7fb47-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="95b01-104">Маршрутизация исходящих вызовов применяется к вызовам, которые предназначены для шлюза коммутируемой телефонной сети (PSTN), магистрального канала или частного обмена филиалами (АТС).</span><span class="sxs-lookup"><span data-stu-id="95b01-104">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX).</span></span> <span data-ttu-id="95b01-105">Когда пользователь попытается позвонить, сервер нормализует номер телефона на формат E. 164, если необходимо, и пытается сопоставить его с URI SIP.</span><span class="sxs-lookup"><span data-stu-id="95b01-105">When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI.</span></span> <span data-ttu-id="95b01-106">При невозможности сопоставления на сервере применяется логическая схема маршрутизации исходящих вызовов на основе представленной строки набора.</span><span class="sxs-lookup"><span data-stu-id="95b01-106">If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string.</span></span> <span data-ttu-id="95b01-107">Эта логическая схема задается путем настройки параметров сервера, описание которых приведено в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="95b01-107">You define that logic by configuring the server settings that are described in the following table.</span></span>
+<span data-ttu-id="7fb47-p101">Маршрутизация исходящих вызовов относится к вызовам, предназначенным для шлюза ТСОП, магистральной линии или офисной АТС. Когда пользователь размещает вызов, сервер при необходимости преобразует телефонный номер в формат E.164 и пытается сопоставить его с SIP URI. Если сопоставление не удается, то сервер применяет логику маршрутизации исходящих вызовов на основе представленной строки набора. Эта логика задается путем настройки параметров сервера, описанных в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="7fb47-p101">Outbound call routing applies to calls that are destined for a public switched telephone network (PSTN) gateway, trunk, or private branch exchange (PBX). When a user places a call, the server normalizes the phone number to E.164 format, if necessary, and attempts to match it to a SIP URI. If the server cannot make the match, it applies outbound call routing logic based on the supplied dial string. You define that logic by configuring the server settings that are described in the following table.</span></span>
 
-### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="95b01-108">Параметры маршрутизации исходящих вызовов Lync Server</span><span class="sxs-lookup"><span data-stu-id="95b01-108">Lync Server Outbound Call Routing Settings</span></span>
+### <a name="lync-server-outbound-call-routing-settings"></a><span data-ttu-id="7fb47-108">Параметры маршрутизации исходящих вызовов Lync Server</span><span class="sxs-lookup"><span data-stu-id="7fb47-108">Lync Server Outbound Call Routing Settings</span></span>
 
 <table>
 <colgroup>
@@ -48,30 +48,30 @@ ms.locfileid: "41747669"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="95b01-109">Объект</span><span class="sxs-lookup"><span data-stu-id="95b01-109">Object</span></span></th>
-<th><span data-ttu-id="95b01-110">Описание</span><span class="sxs-lookup"><span data-stu-id="95b01-110">Description</span></span></th>
+<th><span data-ttu-id="7fb47-109">Объект</span><span class="sxs-lookup"><span data-stu-id="7fb47-109">Object</span></span></th>
+<th><span data-ttu-id="7fb47-110">Описание</span><span class="sxs-lookup"><span data-stu-id="7fb47-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="95b01-111">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="95b01-111">Dial Plan</span></span></p></td>
-<td><p><span data-ttu-id="95b01-112">Абонентская группа — это именованный набор правил нормализации, которые преобразуют номера телефонов для именованного расположения, отдельного пользователя или контактного объекта в единый стандартный формат (E.164) для авторизации телефонов и маршрутизации вызовов.</span><span class="sxs-lookup"><span data-stu-id="95b01-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-111">Абонентская группа</span><span class="sxs-lookup"><span data-stu-id="7fb47-111">Dial Plan</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-112">Абонентская группа — это именованный набор правил нормализации, преобразующих телефонные номера для указанного расположения, отдельного пользователя или контактного объекта в единый стандартный формат (E.164) для авторизации телефона и маршрутизации вызова.</span><span class="sxs-lookup"><span data-stu-id="7fb47-112">A dial plan is a named set of normalization rules that translates phone numbers for a named location, individual user, or contact object into a single standard (E.164) format for purposes of phone authorization and call routing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95b01-113">Правило нормализации</span><span class="sxs-lookup"><span data-stu-id="95b01-113">Normalization rule</span></span></p></td>
-<td><p><span data-ttu-id="95b01-p102">Правила нормализации указывают, как телефонные номера, выраженные в разных форматах, должны маршрутизироваться для каждого конкретного расположения, пользователя или контактного объекта. Одна и та же строка набора может интерпретироваться и преобразовываться по-разному в зависимости от местоположения, из которого она была набрана, и лица или контактного объекта, выполнившего вызов. Ряд правил нормализации, связанный с конкретным расположением, составляет абонентскую группу.</span><span class="sxs-lookup"><span data-stu-id="95b01-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-113">Правило нормализации</span><span class="sxs-lookup"><span data-stu-id="7fb47-113">Normalization rule</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-p102">Правила нормализации указывают, как телефонные номера, выраженные в разных форматах, должны маршрутизироваться для каждого конкретного расположения, пользователя или контактного объекта. Одна и та же строка набора может интерпретироваться и преобразовываться по-разному, в зависимости от местоположения, из которого она была набрана, и лица или контактного объекта, выполнившего вызов. Ряд правил нормализации, связанный с конкретным расположением, составляет абонентскую группу.</span><span class="sxs-lookup"><span data-stu-id="7fb47-p102">Normalization rules define how phone numbers expressed in various formats are to be routed for each specified location, user, or contact object. The same dial string may be interpreted and translated differently, depending on the location from which it is dialed and the person or contact object that makes the call. A set of normalization rules associated with a particular location constitutes a dial plan.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95b01-117">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="95b01-117">Voice policy</span></span></p></td>
-<td><p><span data-ttu-id="95b01-p103">Политика голосовой связи связывает одну или несколько записей режима работы с ТСОП с одним пользователем или группой пользователей. Политика голосовой связи также предоставляет список функций вызовов, которые можно включать или отключать.</span><span class="sxs-lookup"><span data-stu-id="95b01-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-117">Политика голосовой связи</span><span class="sxs-lookup"><span data-stu-id="7fb47-117">Voice policy</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-p103">Политика голосовой связи связывает одну или несколько записей режима работы с ТСОП с одним пользователем или группой пользователей. Политика голосовой связи также предоставляет список функций вызовов, которые можно включать или отключать.</span><span class="sxs-lookup"><span data-stu-id="7fb47-p103">A voice policy associates one or more PSTN usage records with one user or a group of users. A voice policy also provides a list of calling features that you can enable or disable.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="95b01-120">Запись режима работы с ТСОП</span><span class="sxs-lookup"><span data-stu-id="95b01-120">PSTN usage record</span></span></p></td>
-<td><p><span data-ttu-id="95b01-121">Запись режима работы с ТСОП задает класс вызовов (например, внутренний, местный или междугородный), которые могут выполняться разными пользователями или группами пользователей в организации.</span><span class="sxs-lookup"><span data-stu-id="95b01-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-120">Запись режима работы с ТСОП</span><span class="sxs-lookup"><span data-stu-id="7fb47-120">PSTN usage record</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-121">Запись режима работы с ТСОП задает класс вызовов (например, внутренний, местный или междугородный), которые могут выполняться разными пользователями или группами пользователей в организации.</span><span class="sxs-lookup"><span data-stu-id="7fb47-121">A PSTN usage record specifies a class of call (such as internal, local, or long distance) that can be made by various users, or groups of users, in an organization.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="95b01-122">Маршрут вызова</span><span class="sxs-lookup"><span data-stu-id="95b01-122">Call Route</span></span></p></td>
-<td><p><span data-ttu-id="95b01-p104">Маршрут вызова связывает телефонные номера назначения с конкретными каналами и записями режимов работы с ТСОП. Шлюз ТСОП рассматривается как магистраль.</span><span class="sxs-lookup"><span data-stu-id="95b01-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-122">Маршрут вызова</span><span class="sxs-lookup"><span data-stu-id="7fb47-122">Call Route</span></span></p></td>
+<td><p><span data-ttu-id="7fb47-p104">Маршрут вызова связывает телефонные номера назначения с конкретными каналами и записями режимов работы с ТСОП. Шлюз ТСОП рассматривается как канал.</span><span class="sxs-lookup"><span data-stu-id="7fb47-p104">A call route associates destination phone numbers with particular trunks and PSTN usage records. A PSTN gateway is considered a trunk.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -79,31 +79,31 @@ ms.locfileid: "41747669"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="95b01-125">Содержание</span><span class="sxs-lookup"><span data-stu-id="95b01-125">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7fb47-125">Содержание</span><span class="sxs-lookup"><span data-stu-id="7fb47-125">In This Section</span></span>
 
-<span data-ttu-id="95b01-126">В этом разделе приводятся рекомендации по настройке следующих параметров сервера маршрутизации исходящих вызовов.</span><span class="sxs-lookup"><span data-stu-id="95b01-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
-
-  - <span></span>  
-    [<span data-ttu-id="95b01-127">Абонентские группы и правила нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
+<span data-ttu-id="7fb47-126">В этом разделе предоставляются рекомендации по настройке следующих параметров сервера маршрутизации исходящих вызовов:</span><span class="sxs-lookup"><span data-stu-id="7fb47-126">This section provides guidelines for configuring the following outbound call routing server settings:</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="95b01-128">Политики голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
+    [<span data-ttu-id="7fb47-127">Абонентские группы и правила нормализации в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-127">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
-    [<span data-ttu-id="95b01-129">Записи использования ТСОП в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+    [<span data-ttu-id="7fb47-128">Политики голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-128">Voice policies in Lync Server 2013</span></span>](lync-server-2013-voice-policies.md)
 
   - <span></span>  
-    [<span data-ttu-id="95b01-130">Маршруты голосовых вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
+    [<span data-ttu-id="7fb47-129">Записи использования PSTN в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-129">PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-pstn-usage-records.md)
+
+  - <span></span>  
+    [<span data-ttu-id="7fb47-130">Маршруты голосовой связи в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-130">Voice routes in Lync Server 2013</span></span>](lync-server-2013-voice-routes.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="95b01-131">См. также</span><span class="sxs-lookup"><span data-stu-id="95b01-131">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7fb47-131">См. также</span><span class="sxs-lookup"><span data-stu-id="7fb47-131">See Also</span></span>
 
 
-[<span data-ttu-id="95b01-132">Магистральные линии SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
-[<span data-ttu-id="95b01-133">Прямые подключения по протоколу SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="95b01-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
+[<span data-ttu-id="7fb47-132">Распределение каналов SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-132">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)  
+[<span data-ttu-id="7fb47-133">Прямые подключения SIP в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7fb47-133">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)  
   
 
 </div>

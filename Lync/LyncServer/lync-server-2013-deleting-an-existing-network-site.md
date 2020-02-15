@@ -12,20 +12,20 @@ ms:contentKeyID: 49733589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c8e3828bccb84fcddb4404dd7228173c63ab8a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b67dcb92fec16c31c2e2a6be780a29eb1eee295
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763067"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deleting-an-existing-network-site-in-lync-server-2013"></a><span data-ttu-id="9dd53-102">Удаление существующего сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dd53-102">Deleting an existing network site in Lync Server 2013</span></span>
+# <a name="deleting-an-existing-network-site-in-lync-server-2013"></a><span data-ttu-id="1bd36-102">Удаление существующего сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bd36-102">Deleting an existing network site in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41763067"
 
 <span> </span>
 
-<span data-ttu-id="9dd53-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9dd53-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="1bd36-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1bd36-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="9dd53-104">Сетевые сайты — это офисы или места, настроенные в каждом регионе управления допуском звонков (CAC) или Улучшенное развертывание 9-1-1.</span><span class="sxs-lookup"><span data-stu-id="9dd53-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="9dd53-105">Вы можете настроить сайты и связать их с областями с помощью панели управления Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9dd53-105">You can use the Lync Server 2013 Control Panel to configure sites and associate them with regions.</span></span> <span data-ttu-id="9dd53-106">Например, сетевой регион для Северной Америки может быть связан с сайтами сети, например в Чикаго, Redmond и Vancouver.</span><span class="sxs-lookup"><span data-stu-id="9dd53-106">For example, a network region for North America might be associated with networks sites such as Chicago, Redmond, and Vancouver.</span></span> <span data-ttu-id="9dd53-107">Сайт сети CAC должен создаваться для каждого сайта в Организации, даже если на нем нет ограничений по пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="9dd53-107">A CAC network site must be created for every site within an organization, even if that site has no bandwidth limitations.</span></span> <span data-ttu-id="9dd53-108">На панели управления Lync Server вы можете создавать, изменять и удалять сетевые сайты.</span><span class="sxs-lookup"><span data-stu-id="9dd53-108">From the Lync Server Control Panel you can create, modify, and delete network sites.</span></span> <span data-ttu-id="9dd53-109">Чтобы удалить существующий сайт сети, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="9dd53-109">Use the following procedure to delete an existing network site.</span></span> <span data-ttu-id="9dd53-110">Сведения о создании и изменении сайтов сети можно найти [в разделе Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span><span class="sxs-lookup"><span data-stu-id="9dd53-110">For details about creating or modifying network sites, see [Creating or modifying network sites in Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span></span>
+<span data-ttu-id="1bd36-104">Сетевые узлы — это офисы или места, настроенные в каждой области развертывания контроля допуска звонков (CAC) или Enhanced 9-1-1.</span><span class="sxs-lookup"><span data-stu-id="1bd36-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="1bd36-105">С помощью панели управления Lync Server 2013 можно настраивать сайты и связывать их с областями.</span><span class="sxs-lookup"><span data-stu-id="1bd36-105">You can use the Lync Server 2013 Control Panel to configure sites and associate them with regions.</span></span> <span data-ttu-id="1bd36-106">Например, сетевую область для Северной Америки можно связать с такими сетевыми узлами, как Чикаго, Редмонд и Ванкувер.</span><span class="sxs-lookup"><span data-stu-id="1bd36-106">For example, a network region for North America might be associated with networks sites such as Chicago, Redmond, and Vancouver.</span></span> <span data-ttu-id="1bd36-107">Сетевой узел CAC необходимо создать для каждого узла в организации, даже если у этого узла нет ограничений по пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="1bd36-107">A CAC network site must be created for every site within an organization, even if that site has no bandwidth limitations.</span></span> <span data-ttu-id="1bd36-108">С помощью панели управления Lync Server вы можете создавать, изменять и удалять сетевые сайты.</span><span class="sxs-lookup"><span data-stu-id="1bd36-108">From the Lync Server Control Panel you can create, modify, and delete network sites.</span></span> <span data-ttu-id="1bd36-109">Используйте следующую процедуру для удаления существующего сетевого сайта.</span><span class="sxs-lookup"><span data-stu-id="1bd36-109">Use the following procedure to delete an existing network site.</span></span> <span data-ttu-id="1bd36-110">Дополнительные сведения о создании или изменении сетевых сайтов можно найти [в статье Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span><span class="sxs-lookup"><span data-stu-id="1bd36-110">For details about creating or modifying network sites, see [Creating or modifying network sites in Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span></span>
 
 <div>
 
-## <a name="to-delete-a-network-site"></a><span data-ttu-id="9dd53-111">Удаление сайта сети</span><span class="sxs-lookup"><span data-stu-id="9dd53-111">To delete a network site</span></span>
+## <a name="to-delete-a-network-site"></a><span data-ttu-id="1bd36-111">Удаление сетевого узла</span><span class="sxs-lookup"><span data-stu-id="1bd36-111">To delete a network site</span></span>
 
-1.  <span data-ttu-id="9dd53-112">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="9dd53-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="1bd36-112">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="1bd36-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="9dd53-113">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9dd53-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9dd53-114">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="9dd53-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="1bd36-113">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1bd36-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1bd36-114">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="1bd36-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="9dd53-115">На панели навигации слева выберите пункт **Настройка сети** , а затем — **сайт**.</span><span class="sxs-lookup"><span data-stu-id="9dd53-115">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
+3.  <span data-ttu-id="1bd36-115">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Узел**.</span><span class="sxs-lookup"><span data-stu-id="1bd36-115">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
 
-4.  <span data-ttu-id="9dd53-116">На странице **сайта** выберите сайт, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="9dd53-116">On the **Site** page, click the site that you want to delete.</span></span>
+4.  <span data-ttu-id="1bd36-116">На странице **Узел** щелкните узел, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="1bd36-116">On the **Site** page, click the site that you want to delete.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="9dd53-117">За один раз можно удалить сразу несколько сайтов.</span><span class="sxs-lookup"><span data-stu-id="9dd53-117">You can delete more than one site at a time.</span></span> <span data-ttu-id="9dd53-118">Для этого нажмите клавишу CTRL и, удерживая нажатой клавишу CTRL, щелкните несколько сайтов.</span><span class="sxs-lookup"><span data-stu-id="9dd53-118">To do this, press CTRL and select multiple sites while holding down the CTRL key.</span></span> <span data-ttu-id="9dd53-119">Кроме того, чтобы выбрать все сайты, в меню <STRONG>Правка</STRONG> выберите команду <STRONG>выделить все</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="9dd53-119">Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="1bd36-p103">Вы можете удалить несколько узлов за раз. Для этого нажмите клавишу CTRL и выберите несколько узлов, удерживая клавишу CTRL нажатой. Или, чтобы выбрать все узлы, щелкните <STRONG>Выбрать все</STRONG> в меню <STRONG>Правка</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1bd36-p103">You can delete more than one site at a time. To do this, press CTRL and select multiple sites while holding down the CTRL key. Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="9dd53-120">В меню **Правка** выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="9dd53-120">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="1bd36-120">В меню **Правка** выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="1bd36-120">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="9dd53-121">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="9dd53-121">Click **OK**.</span></span>
+6.  <span data-ttu-id="1bd36-121">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="1bd36-121">Click **OK**.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="9dd53-122">Вы не можете удалить сайт сети, если он связан с сетевой подсетью.</span><span class="sxs-lookup"><span data-stu-id="9dd53-122">You cannot remove a network site if it is associated with a network subnet.</span></span> <span data-ttu-id="9dd53-123">При попытке удалить сайт, связанный с подсетью, появится сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="9dd53-123">If you attempt to remove a site associated with a subnet you will receive an error message.</span></span> <span data-ttu-id="9dd53-124">Чтобы проверить, связан ли сайт с подсетями, щелкните его, а затем в меню <STRONG>Правка</STRONG> выберите команду <STRONG>Показать подробности</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="9dd53-124">To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="1bd36-p104">Сетевой сайт нельзя удалить, если он связан с подсетью. При попытке удаления сайта, связанного с подсетью, появится сообщение об ошибке. Чтобы проверить, связан ли сайт с подсетями, щелкните сайт и выберите <STRONG>Подробнее</STRONG> в меню <STRONG>Изменить</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1bd36-p104">You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>

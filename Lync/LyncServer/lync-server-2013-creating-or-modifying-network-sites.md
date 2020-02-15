@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: создание и изменение сетевых сайтов'
+title: 'Lync Server 2013: создание или изменение сетевых сайтов'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c77c343bff92e25ffc1678bc06e7a0ef05d3f96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e7c3db5b37cba514a0c07e11a907628dcc7823f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728769"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a><span data-ttu-id="8cb19-102">Создание и изменение сетевых сайтов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cb19-102">Creating or modifying network sites in Lync Server 2013</span></span>
+# <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a><span data-ttu-id="0fb3d-102">Создание или изменение сетевых сайтов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0fb3d-102">Creating or modifying network sites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,66 +35,66 @@ ms.locfileid: "41728769"
 
 <span> </span>
 
-<span data-ttu-id="8cb19-103">_**Тема последнего изменения:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="8cb19-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="0fb3d-103">_**Последнее изменение темы:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="0fb3d-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="8cb19-104">Сетевые сайты — это офисы или места, настроенные в каждом регионе управления допуском звонков (CAC) или Улучшенное развертывание 9-1-1.</span><span class="sxs-lookup"><span data-stu-id="8cb19-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="8cb19-105">Вы можете настроить сайты и связать их с областями с помощью панели управления Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8cb19-105">You can use the Microsoft Lync Server 2013 Control Panel to configure sites and associate them with regions.</span></span> <span data-ttu-id="8cb19-106">Например, сетевой регион для Северной Америки может быть связан с сайтами сети, например в Чикаго, Redmond и Vancouver.</span><span class="sxs-lookup"><span data-stu-id="8cb19-106">For example, a network region for North America might be associated with networks sites such as Chicago, Redmond, and Vancouver.</span></span> <span data-ttu-id="8cb19-107">Сайт сети CAC должен создаваться для каждого сайта в Организации, даже если на нем нет ограничений по пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="8cb19-107">A CAC network site must be created for every site within an organization, even if that site has no bandwidth limitations.</span></span> <span data-ttu-id="8cb19-108">На панели управления Lync Server вы можете создавать, изменять и удалять сетевые сайты.</span><span class="sxs-lookup"><span data-stu-id="8cb19-108">From the Lync Server Control Panel you can create, modify, and delete network sites.</span></span> <span data-ttu-id="8cb19-109">Для создания и изменения сайта сети выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="8cb19-109">Use the following procedures to create or modify a network site.</span></span> <span data-ttu-id="8cb19-110">Подробнее об удалении существующего сетевого сайта можно узнать в разделе [Удаление существующего сетевого сайта в Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="8cb19-110">For details on deleting an existing network site, see [Deleting an existing network site in Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).</span></span>
+<span data-ttu-id="0fb3d-104">Сетевые узлы — это офисы или места, настроенные в каждой области развертывания контроля допуска звонков (CAC) или Enhanced 9-1-1.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="0fb3d-105">С помощью панели управления Microsoft Lync Server 2013 можно настраивать сайты и связывать их с областями.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-105">You can use the Microsoft Lync Server 2013 Control Panel to configure sites and associate them with regions.</span></span> <span data-ttu-id="0fb3d-106">Например, сетевую область для Северной Америки можно связать с такими сетевыми узлами, как Чикаго, Редмонд и Ванкувер.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-106">For example, a network region for North America might be associated with networks sites such as Chicago, Redmond, and Vancouver.</span></span> <span data-ttu-id="0fb3d-107">Сетевой узел CAC необходимо создать для каждого узла в организации, даже если у этого узла нет ограничений по пропускной способности.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-107">A CAC network site must be created for every site within an organization, even if that site has no bandwidth limitations.</span></span> <span data-ttu-id="0fb3d-108">С помощью панели управления Lync Server вы можете создавать, изменять и удалять сетевые сайты.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-108">From the Lync Server Control Panel you can create, modify, and delete network sites.</span></span> <span data-ttu-id="0fb3d-109">Ниже описаны процедуры для создания или изменения сетевого узла.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-109">Use the following procedures to create or modify a network site.</span></span> <span data-ttu-id="0fb3d-110">Более подробную информацию об удалении существующего сетевого сайта можно узнать [в статье Удаление существующего сетевого сайта в Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="0fb3d-110">For details on deleting an existing network site, see [Deleting an existing network site in Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-site"></a><span data-ttu-id="8cb19-111">Создание сайта сети</span><span class="sxs-lookup"><span data-stu-id="8cb19-111">To create a network site</span></span>
+## <a name="to-create-a-network-site"></a><span data-ttu-id="0fb3d-111">Создание сетевого узла</span><span class="sxs-lookup"><span data-stu-id="0fb3d-111">To create a network site</span></span>
 
-1.  <span data-ttu-id="8cb19-112">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8cb19-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fb3d-112">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="8cb19-113">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8cb19-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8cb19-114">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8cb19-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0fb3d-113">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0fb3d-114">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0fb3d-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="8cb19-115">На панели навигации слева выберите пункт **Настройка сети** , а затем — **сайт**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-115">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
+3.  <span data-ttu-id="0fb3d-115">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Узел**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-115">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
 
-4.  <span data-ttu-id="8cb19-116">На странице **сайта** нажмите кнопку **создать**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-116">On the **Site** page, click **New**.</span></span>
+4.  <span data-ttu-id="0fb3d-116">На странице **Узел** нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-116">On the **Site** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="8cb19-117">В поле **имя** **нового сайта**введите имя для этого сайта.</span><span class="sxs-lookup"><span data-stu-id="8cb19-117">In **New Site**, type a name for this site in the **Name** field.</span></span>
+5.  <span data-ttu-id="0fb3d-117">В диалоговом окне **Создание узла** введите имя узла в поле **Имя**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-117">In **New Site**, type a name for this site in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8cb19-118">Имена сайтов должны быть уникальными в рамках развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8cb19-118">Site names must be unique within the Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="0fb3d-118">Имена сайтов должны быть уникальными в рамках развертывания Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-118">Site names must be unique within the Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="8cb19-119">В раскрывающемся списке **Region (регион** ) выберите сетевую область, которую нужно связать с этим сайтом.</span><span class="sxs-lookup"><span data-stu-id="8cb19-119">In the **Region** drop-down list, select a network region to associate with this site.</span></span>
+6.  <span data-ttu-id="0fb3d-119">В раскрывающемся списке **Область** выберите сетевую область, которую необходимо сопоставить с этим узлом.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-119">In the **Region** drop-down list, select a network region to associate with this site.</span></span>
 
-7.  <span data-ttu-id="8cb19-120">Необязательно Если вы хотите помещать ограничения на пропускную способность для звуковых и видеозвонков на этот сайт, выберите профиль политики пропускной способности с нужными параметрами из раскрывающегося списка **политики пропускной способности** .</span><span class="sxs-lookup"><span data-stu-id="8cb19-120">(Optional) If you want to place bandwidth limitations on audio or video calls to this site, select the bandwidth policy profile with the appropriate settings from the **Bandwidth policy** drop-down list.</span></span>
+7.  <span data-ttu-id="0fb3d-120">(Необязательно) Если нужно наложить ограничения полосы пропускания на аудио- или видеовызовы с данного узла, выберите профиль политики с соответствующими параметрами в раскрывающемся списке **Политика полосы пропускания**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-120">(Optional) If you want to place bandwidth limitations on audio or video calls to this site, select the bandwidth policy profile with the appropriate settings from the **Bandwidth policy** drop-down list.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8cb19-121">Вы можете просмотреть сведения о доступных профилях политики пропускной способности или создать новый профиль политики пропускной способности на странице <STRONG>профиля политики</STRONG> в группе <STRONG>Конфигурация сети</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="8cb19-121">You can view the details of the available bandwidth policy profiles, or create a new bandwidth policy profile, on the <STRONG>Policy Profile</STRONG> page of the <STRONG>Network Configuration</STRONG> group.</span></span> <span data-ttu-id="8cb19-122">Подробные сведения можно найти <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">в разделе Создание и изменение профилей политики пропускной способности в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8cb19-122">For details, see <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Creating or modifying bandwidth policy profiles in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="0fb3d-121">Вы можете просмотреть информацию о доступных профилях политики пропускной полосы или создать новый профиль на странице <STRONG>Профиль политики</STRONG> группы <STRONG>Конфигурация сети</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-121">You can view the details of the available bandwidth policy profiles, or create a new bandwidth policy profile, on the <STRONG>Policy Profile</STRONG> page of the <STRONG>Network Configuration</STRONG> group.</span></span> <span data-ttu-id="0fb3d-122">Дополнительные сведения см. <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">в статье Создание или изменение профилей политики пропускной способности в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-122">For details, see <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">Creating or modifying bandwidth policy profiles in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="8cb19-123">Необязательно Если вы хотите предоставить параметры расположения для этого сайта, выберите политику расположения из раскрывающегося списка " **Политика расположения** ".</span><span class="sxs-lookup"><span data-stu-id="8cb19-123">(Optional) If you want to provide location settings for this site, select a location policy from the **Location policy** drop-down list.</span></span>
+8.  <span data-ttu-id="0fb3d-123">(Необязательно) Если требуется предоставить параметры местоположения для данного узла, выберите политику расположения в раскрывающемся списке **Политика расположения**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-123">(Optional) If you want to provide location settings for this site, select a location policy from the **Location policy** drop-down list.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8cb19-124">Политика расположения назначает узлу дополнительные 9-1-1 (E9-1-1) и параметры расположения клиента.</span><span class="sxs-lookup"><span data-stu-id="8cb19-124">The location policy assigns specific Enhanced 9-1-1 (E9-1-1) and client location settings to the site.</span></span> <span data-ttu-id="8cb19-125">Вы можете просмотреть сведения о доступных политиках расположения или создать новую политику местоположения на странице " <STRONG>Политика расположения</STRONG> " в группе " <STRONG>Конфигурация сети</STRONG> ".</span><span class="sxs-lookup"><span data-stu-id="8cb19-125">You can view the details of the available location policies, or create a new location policy, from the <STRONG>Location Policy</STRONG> page of the <STRONG>Network Configuration</STRONG> group.</span></span> <span data-ttu-id="8cb19-126">Подробные сведения можно найти <A href="lync-server-2013-viewing-location-policy-information.md">в разделе Просмотр сведений о правилах расположения в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8cb19-126">For details, see <A href="lync-server-2013-viewing-location-policy-information.md">Viewing location policy information in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="0fb3d-124">Политика расположения устанавливает определенные параметры системы Enhanced 9-1-1 (E9-1-1) и клиентского расположения для узла.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-124">The location policy assigns specific Enhanced 9-1-1 (E9-1-1) and client location settings to the site.</span></span> <span data-ttu-id="0fb3d-125">Вы можете просмотреть сведения о доступных политиках или создать новую на странице <STRONG>Политика расположения</STRONG> группы <STRONG>Конфигурация сети</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-125">You can view the details of the available location policies, or create a new location policy, from the <STRONG>Location Policy</STRONG> page of the <STRONG>Network Configuration</STRONG> group.</span></span> <span data-ttu-id="0fb3d-126">Дополнительные сведения см. <A href="lync-server-2013-viewing-location-policy-information.md">в разделе Просмотр сведений о политике расположения в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-126">For details, see <A href="lync-server-2013-viewing-location-policy-information.md">Viewing location policy information in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-9.  <span data-ttu-id="8cb19-127">Необязательно Введите значение в поле **Описание** , чтобы получить дополнительные сведения об этом сайте, которые нельзя выразить единственным именем.</span><span class="sxs-lookup"><span data-stu-id="8cb19-127">(Optional) Type a value in the **Description** field to provide more information about this site that cannot be expressed by the name alone.</span></span>
+9.  <span data-ttu-id="0fb3d-127">(Необязательно) Введите значение в поле **Описание**, чтобы предоставить дополнительную информацию об этом узле, которую нельзя выразить в имени.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-127">(Optional) Type a value in the **Description** field to provide more information about this site that cannot be expressed by the name alone.</span></span>
 
-10. <span data-ttu-id="8cb19-128">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-128">Click **Commit**.</span></span>
+10. <span data-ttu-id="0fb3d-128">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-128">Click **Commit**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8cb19-129">При создании нового сайта сети не следует использовать таблицу с <STRONG>сопоставленными подсетями</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="8cb19-129">You do not use the <STRONG>Associated Subnets</STRONG> table when you create a new network site.</span></span> <span data-ttu-id="8cb19-130">При создании или изменении подсети вы связываете подсеть с сайтом.</span><span class="sxs-lookup"><span data-stu-id="8cb19-130">You associate a subnet with a site when you create or modify the subnet.</span></span> <span data-ttu-id="8cb19-131">Дополнительные сведения можно найти <A href="lync-server-2013-create-or-modify-network-subnets.md">в разделе Создание или изменение подсетей сети в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8cb19-131">For details, see <A href="lync-server-2013-create-or-modify-network-subnets.md">Create or modify network subnets in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="0fb3d-129">Таблица <STRONG>Связанные подсети</STRONG> не используется при создании нового сетевого узла.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-129">You do not use the <STRONG>Associated Subnets</STRONG> table when you create a new network site.</span></span> <span data-ttu-id="0fb3d-130">Необходимо связать подсеть с узлом при создании или изменении подсети.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-130">You associate a subnet with a site when you create or modify the subnet.</span></span> <span data-ttu-id="0fb3d-131">Дополнительные сведения см. <A href="lync-server-2013-create-or-modify-network-subnets.md">в статье Создание или изменение сетевых подсетей в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-131">For details, see <A href="lync-server-2013-create-or-modify-network-subnets.md">Create or modify network subnets in Lync Server 2013</A>.</span></span>
 
     
     </div>
@@ -103,56 +103,56 @@ ms.locfileid: "41728769"
 
 <div>
 
-## <a name="to-modify-a-network-site"></a><span data-ttu-id="8cb19-132">Изменение сетевого сайта</span><span class="sxs-lookup"><span data-stu-id="8cb19-132">To modify a network site</span></span>
+## <a name="to-modify-a-network-site"></a><span data-ttu-id="0fb3d-132">Изменение сетевого узла</span><span class="sxs-lookup"><span data-stu-id="0fb3d-132">To modify a network site</span></span>
 
-1.  <span data-ttu-id="8cb19-133">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8cb19-133">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fb3d-133">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-133">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="8cb19-134">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8cb19-134">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8cb19-135">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8cb19-135">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0fb3d-134">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-134">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0fb3d-135">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0fb3d-135">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="8cb19-136">На панели навигации слева выберите пункт **Настройка сети** , а затем — **сайт**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-136">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
+3.  <span data-ttu-id="0fb3d-136">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Узел**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-136">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
 
-4.  <span data-ttu-id="8cb19-137">На странице **сайта** выберите сайт, который вы хотите изменить.</span><span class="sxs-lookup"><span data-stu-id="8cb19-137">On the **Site** page, click the site that you want to modify.</span></span>
+4.  <span data-ttu-id="0fb3d-137">На странице **Узел** щелкните узел, который требуется изменить.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-137">On the **Site** page, click the site that you want to modify.</span></span>
 
-5.  <span data-ttu-id="8cb19-138">В меню **Правка** щелкните **Подробнее**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-138">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="0fb3d-138">В меню **Правка** выберите команду **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-138">On the **Edit** menu, click **Show details**.</span></span>
 
-6.  <span data-ttu-id="8cb19-139">На странице **изменение сайта** можно изменить описание, область, профиль политики пропускной способности и политику расположения, связанные с сайтом.</span><span class="sxs-lookup"><span data-stu-id="8cb19-139">On the **Edit Site** page, you can modify the description, region, bandwidth policy profile, and location policy associated with the site.</span></span> <span data-ttu-id="8cb19-140">Дополнительные сведения можно найти в разделе "Создание сетевого сайта" ранее в этой статье.</span><span class="sxs-lookup"><span data-stu-id="8cb19-140">For details, see "To create a network site" section earlier in this topic.</span></span>
+6.  <span data-ttu-id="0fb3d-p107">На странице **Редактирование узла** вы можете изменить описание, область, профиль политики полосы пропускания и политику расположения, связанную с узлом. Дополнительные сведения см. в разделе "Создание сетевого узла" ранее в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-p107">On the **Edit Site** page, you can modify the description, region, bandwidth policy profile, and location policy associated with the site. For details, see "To create a network site" section earlier in this topic.</span></span>
 
-7.  <span data-ttu-id="8cb19-141">Нажмите **Исполнить**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-141">Click **Commit**.</span></span>
+7.  <span data-ttu-id="0fb3d-141">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-141">Click **Commit**.</span></span>
 
-<span data-ttu-id="8cb19-142">На этой странице невозможно изменить **связанную таблицу подсетей** .</span><span class="sxs-lookup"><span data-stu-id="8cb19-142">You cannot modify the **Associated Subnets** table on this page.</span></span> <span data-ttu-id="8cb19-143">Список связанных подсетей предоставляется для справки, чтобы узнать о том, какие подсети будут затронуты при изменении параметров сайта.</span><span class="sxs-lookup"><span data-stu-id="8cb19-143">The list of associated subnets is provided for reference so that you are aware of what subnets will be affected when you modify the site settings.</span></span>
+<span data-ttu-id="0fb3d-p108">Вы не можете изменить таблицу **Связанные подсети** на этой странице. Список связанных подсетей предоставлен для справки, чтобы вы могли узнать, на что повлияет изменение параметров узла.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-p108">You cannot modify the **Associated Subnets** table on this page. The list of associated subnets is provided for reference so that you are aware of what subnets will be affected when you modify the site settings.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-delete-a-network-site"></a><span data-ttu-id="8cb19-144">Удаление сайта сети</span><span class="sxs-lookup"><span data-stu-id="8cb19-144">To delete a network site</span></span>
+## <a name="to-delete-a-network-site"></a><span data-ttu-id="0fb3d-144">Удаление сетевого узла</span><span class="sxs-lookup"><span data-stu-id="0fb3d-144">To delete a network site</span></span>
 
-1.  <span data-ttu-id="8cb19-145">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="8cb19-145">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="0fb3d-145">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-145">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="8cb19-146">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8cb19-146">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8cb19-147">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8cb19-147">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="0fb3d-146">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-146">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="0fb3d-147">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0fb3d-147">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="8cb19-148">На панели навигации слева выберите пункт **Настройка сети** , а затем — **сайт**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-148">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
+3.  <span data-ttu-id="0fb3d-148">В левой панели навигации щелкните **Конфигурация сети**, а затем щелкните **Узел**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-148">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
 
-4.  <span data-ttu-id="8cb19-149">На странице **сайта** выберите сайт, который вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="8cb19-149">On the **Site** page, click the site that you want to delete.</span></span>
+4.  <span data-ttu-id="0fb3d-149">На странице **Узел** щелкните узел, который требуется удалить.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-149">On the **Site** page, click the site that you want to delete.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8cb19-150">За один раз можно удалить сразу несколько сайтов.</span><span class="sxs-lookup"><span data-stu-id="8cb19-150">You can delete more than one site at a time.</span></span> <span data-ttu-id="8cb19-151">Для этого нажмите клавишу CTRL и, удерживая нажатой клавишу CTRL, щелкните несколько сайтов.</span><span class="sxs-lookup"><span data-stu-id="8cb19-151">To do this, press CTRL and select multiple sites while holding down the CTRL key.</span></span> <span data-ttu-id="8cb19-152">Кроме того, чтобы выбрать все сайты, в меню <STRONG>Правка</STRONG> выберите команду <STRONG>выделить все</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="8cb19-152">Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="0fb3d-p110">Вы можете удалить несколько узлов за раз. Для этого нажмите клавишу CTRL и выберите несколько узлов, удерживая клавишу CTRL нажатой. Или, чтобы выбрать все узлы, щелкните <STRONG>Выбрать все</STRONG> в меню <STRONG>Правка</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-p110">You can delete more than one site at a time. To do this, press CTRL and select multiple sites while holding down the CTRL key. Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="8cb19-153">В меню **Правка** выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-153">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="0fb3d-153">В меню **Правка** выберите команду **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-153">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="8cb19-154">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="8cb19-154">Click **OK**.</span></span>
+6.  <span data-ttu-id="0fb3d-154">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-154">Click **OK**.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="8cb19-155">Вы не можете удалить сайт сети, если он связан с сетевой подсетью.</span><span class="sxs-lookup"><span data-stu-id="8cb19-155">You cannot remove a network site if it is associated with a network subnet.</span></span> <span data-ttu-id="8cb19-156">При попытке удалить сайт, связанный с подсетью, появится сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="8cb19-156">If you attempt to remove a site associated with a subnet you will receive an error message.</span></span> <span data-ttu-id="8cb19-157">Чтобы проверить, связан ли сайт с подсетями, щелкните его, а затем в меню <STRONG>Правка</STRONG> выберите команду <STRONG>Показать подробности</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="8cb19-157">To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="0fb3d-p111">Вы не можете удалить сетевой узел, если он связан с подсетью. При попытке удаления такого узла отображается сообщение об ошибке. Чтобы увидеть, связал ли узел с какой-либо подсетью, щелкните узел и выберите команду <STRONG>Показать подробности</STRONG> в меню <STRONG>Правка</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="0fb3d-p111">You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
@@ -161,16 +161,16 @@ ms.locfileid: "41728769"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8cb19-158">См. также</span><span class="sxs-lookup"><span data-stu-id="8cb19-158">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0fb3d-158">См. также</span><span class="sxs-lookup"><span data-stu-id="0fb3d-158">See Also</span></span>
 
 
-[<span data-ttu-id="8cb19-159">Удаление существующего сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cb19-159">Deleting an existing network site in Lync Server 2013</span></span>](lync-server-2013-deleting-an-existing-network-site.md)  
+[<span data-ttu-id="0fb3d-159">Удаление существующего сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0fb3d-159">Deleting an existing network site in Lync Server 2013</span></span>](lync-server-2013-deleting-an-existing-network-site.md)  
 
 
-[<span data-ttu-id="8cb19-160">New-CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="8cb19-160">New-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)  
-[<span data-ttu-id="8cb19-161">Set-CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="8cb19-161">Set-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)  
-[<span data-ttu-id="8cb19-162">Remove-CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="8cb19-162">Remove-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
-[<span data-ttu-id="8cb19-163">Get-CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="8cb19-163">Get-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  
+[<span data-ttu-id="0fb3d-160">New — CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="0fb3d-160">New-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)  
+[<span data-ttu-id="0fb3d-161">Set — CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="0fb3d-161">Set-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSite)  
+[<span data-ttu-id="0fb3d-162">Remove — CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="0fb3d-162">Remove-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSite)  
+[<span data-ttu-id="0fb3d-163">Get — CsNetworkSite</span><span class="sxs-lookup"><span data-stu-id="0fb3d-163">Get-CsNetworkSite</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite)  
   
 
 </div>

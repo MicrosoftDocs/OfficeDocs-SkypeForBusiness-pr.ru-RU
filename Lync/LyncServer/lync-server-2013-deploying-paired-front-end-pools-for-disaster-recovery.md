@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: развертывание сопоставленных пулов переднего плана для аварийного восстановления'
+title: 'Lync Server 2013: развертывание подключенных пулов переднего плана для аварийного восстановления'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740919"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="21b2c-102">Развертывание сопоставленных пулов переднего плана для аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21b2c-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="dacf0-102">Развертывание подключенных пулов переднего плана для аварийного восстановления в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dacf0-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41740919"
 
 <span> </span>
 
-<span data-ttu-id="21b2c-103">_**Тема последнего изменения:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="21b2c-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="dacf0-103">_**Последнее изменение темы:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="dacf0-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="21b2c-104">Топологию аварийного восстановления для сопряженных пулов переднего плана можно легко развернуть с помощью построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="21b2c-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
+<span data-ttu-id="dacf0-104">Топологию аварийного восстановления в связанных пулах переднего плана можно легко развернуть с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="dacf0-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="21b2c-105">Развертывание пары интерфейсных пулов</span><span class="sxs-lookup"><span data-stu-id="21b2c-105">To deploy a pair of Front End pools</span></span>
+## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="dacf0-105">Развертывание пары интерфейсных пулов</span><span class="sxs-lookup"><span data-stu-id="dacf0-105">To deploy a pair of Front End pools</span></span>
 
-1.  <span data-ttu-id="21b2c-106">Если вы еще не определили пулы, используйте построитель топологии для создания пулов.</span><span class="sxs-lookup"><span data-stu-id="21b2c-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
+1.  <span data-ttu-id="dacf0-106">Если пулы новые и еще не определены, используйте построитель топологий для создания пулов.</span><span class="sxs-lookup"><span data-stu-id="dacf0-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
 
-2.  <span data-ttu-id="21b2c-107">В построителе топологии щелкните правой кнопкой мыши один из двух пулов и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="21b2c-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="dacf0-107">В построителе топологий щелкните правой кнопкой мыши один из двух пулов и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="dacf0-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="21b2c-108">Щелкните элемент **Устойчивость** на левой панели и выберите **Связанный резервный пул** на правой панели.</span><span class="sxs-lookup"><span data-stu-id="21b2c-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
+3.  <span data-ttu-id="dacf0-108">Щелкните элемент **Resiliency** (Устойчивость) на левой панели и выберите **Associated Backup Pool** (Сопоставленный резервный пул) на правой панели.</span><span class="sxs-lookup"><span data-stu-id="dacf0-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
 
-4.  <span data-ttu-id="21b2c-p101">В расположенном ниже поле **Связанный резервный пул** выберите пул, который вы хотите связать с данным пулом. Для выбора будут доступны только существующие пулы, которые еще не связаны с другим пулом.</span><span class="sxs-lookup"><span data-stu-id="21b2c-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
+4.  <span data-ttu-id="dacf0-p101">В расположенном ниже поле **Associated Backup Pool** (Сопоставленный резервный пул) выберите пул, который вы хотите связать с данным пулом. Для выбора будут доступны только существующие пулы, которые еще не связаны с другим пулом.</span><span class="sxs-lookup"><span data-stu-id="dacf0-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
     
-    <span data-ttu-id="21b2c-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="21b2c-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
+    <span data-ttu-id="dacf0-111">![36080581 — db76 — 497d — bf9e – f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581 — db76 — 497d — bf9e – f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="dacf0-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
 
-5.  <span data-ttu-id="21b2c-112">Выберите **Автоматическая обработка отказов и восстановление после отказа для голосовой связи** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="21b2c-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
+5.  <span data-ttu-id="dacf0-112">Выберите **Automatic failover and failback for Voice** (Автоматическая отработка отказа и восстановление размещения для голосовой связи) и нажмите кнопку **OK** (ОК).</span><span class="sxs-lookup"><span data-stu-id="dacf0-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="21b2c-113">Теперь при просмотре сведений о данном пуле связанный с ним пул отображается на правой панели в области **Устойчивость**. </span><span class="sxs-lookup"><span data-stu-id="21b2c-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
+    <span data-ttu-id="dacf0-113">Теперь при просмотре сведений о данном пуле связанный с ним пул отображается на правой панели в области **Resiliency** (Устойчивость).</span><span class="sxs-lookup"><span data-stu-id="dacf0-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
 
-6.  <span data-ttu-id="21b2c-114">Опубликуйте топологию с помощью построителя топологии.</span><span class="sxs-lookup"><span data-stu-id="21b2c-114">Use Topology Builder to publish the topology.</span></span>
+6.  <span data-ttu-id="dacf0-114">Опубликуйте топологию с помощью построителя топологий.</span><span class="sxs-lookup"><span data-stu-id="dacf0-114">Use Topology Builder to publish the topology.</span></span>
 
-7.  <span data-ttu-id="21b2c-p102">Если два эти пула еще не были развернуты, разверните их для завершения настройки. Вы можете пропустить два последних действия данной процедуры.</span><span class="sxs-lookup"><span data-stu-id="21b2c-p102">If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.</span></span>
+7.  <span data-ttu-id="dacf0-p102">Если два эти пула еще не были развернуты, разверните их для завершения настройки. Вы можете пропустить два последних действия данной процедуры.</span><span class="sxs-lookup"><span data-stu-id="dacf0-p102">If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.</span></span>
     
-    <span data-ttu-id="21b2c-117">Однако если на момент определения связанного отношения пулы были уже развернуты, следует выполнить два последних действия.</span><span class="sxs-lookup"><span data-stu-id="21b2c-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
+    <span data-ttu-id="dacf0-117">Однако если на момент определения связанного отношения пулы были уже развернуты, следует выполнить два последних действия.</span><span class="sxs-lookup"><span data-stu-id="dacf0-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
 
-8.  <span data-ttu-id="21b2c-118">Выполните следующую команду на каждом сервере переднего плана в обоих пулах:</span><span class="sxs-lookup"><span data-stu-id="21b2c-118">On every Front End Server in both pools, run the following:</span></span>
+8.  <span data-ttu-id="dacf0-118">Выполните следующую команду на каждом сервере переднего плана в обоих пулах:</span><span class="sxs-lookup"><span data-stu-id="dacf0-118">On every Front End Server in both pools, run the following:</span></span>
     ```console
     <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
     ```
-    <span data-ttu-id="21b2c-119">Это позволяет настроить остальные службы, необходимые для правильной работы резервного сопряжения.</span><span class="sxs-lookup"><span data-stu-id="21b2c-119">This configures other services required for backup pairing to work correctly.</span></span>
+    <span data-ttu-id="dacf0-119">Это позволяет настроить остальные службы, необходимые для правильной работы резервного связывания.</span><span class="sxs-lookup"><span data-stu-id="dacf0-119">This configures other services required for backup pairing to work correctly.</span></span>
 
-9.  <span data-ttu-id="21b2c-120">В командной строке оболочки Lync Server Management Shell выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="21b2c-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
+9.  <span data-ttu-id="dacf0-120">В командной строке Командная консоль Lync Server выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="dacf0-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
-10. <span data-ttu-id="21b2c-121">Выполните принудительную синхронизацию данных о пользователях и конференциях между двумя пулами с помощью следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="21b2c-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
+10. <span data-ttu-id="dacf0-121">Выполните принудительную синхронизацию данных о пользователях и конференциях между двумя пулами с помощью следующих командлетов:</span><span class="sxs-lookup"><span data-stu-id="dacf0-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
     
        ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -83,7 +83,7 @@ ms.locfileid: "41740919"
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    <span data-ttu-id="21b2c-p103">Синхронизация данных может занять некоторое время. Можно использовать следующие командлеты для проверки состояния. Убедитесь, что для обоих направлений состояние является стационарным.</span><span class="sxs-lookup"><span data-stu-id="21b2c-p103">Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.</span></span>
+    <span data-ttu-id="dacf0-122">Синхронизация данных может занять некоторое время.</span><span class="sxs-lookup"><span data-stu-id="dacf0-122">Synchronizing the data may take some time.</span></span> <span data-ttu-id="dacf0-123">Можно использовать следующие командлеты для проверки состояния.</span><span class="sxs-lookup"><span data-stu-id="dacf0-123">You can use the following cmdlets to check the status.</span></span> <span data-ttu-id="dacf0-124">Убедитесь, что состояние в обоих направлениях находится в стабильном состоянии.</span><span class="sxs-lookup"><span data-stu-id="dacf0-124">Make sure that the status in both directions is in steady state.</span></span>
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ ms.locfileid: "41740919"
 
 
 > [!NOTE]  
-> <span data-ttu-id="21b2c-125">Параметры <STRONG>автоматического перехода на другой ресурс и восстановление при сбое для голосовой связи</STRONG> , а также соответствующие интервалы времени в построителе топологии применяются только к функциям устойчивости голоса, которые появились в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="21b2c-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="21b2c-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span><span class="sxs-lookup"><span data-stu-id="21b2c-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="21b2c-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span><span class="sxs-lookup"><span data-stu-id="21b2c-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
+> <span data-ttu-id="dacf0-125">Параметры <STRONG>автоматической отработки отказа и восстановления размещения для голосовой связи</STRONG> , а также соответствующие интервалы времени в построителе топологий применяются только к функциям устойчивости голосовой связи, которые были представлены в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="dacf0-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="dacf0-126">Выбор данного параметра не подразумевает, что отработка отказа пулом, описанная в настоящем документе, является автоматической.</span><span class="sxs-lookup"><span data-stu-id="dacf0-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="dacf0-127">Отработка отказа и восстановление размещения пула всегда требуют от администратора ручного вызова соответствующих командлетов.</span><span class="sxs-lookup"><span data-stu-id="dacf0-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
 
 
 

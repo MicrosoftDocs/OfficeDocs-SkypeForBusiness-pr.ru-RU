@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица SessionCorrelation'
+title: 'Lync Server 2013: таблица таблица sessioncorrelation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fe8deda7486d699073bf271953e382ac7b7c508
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9551cf5824d5f13f6167f2aaeb301ab619f6209b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764807"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sessioncorrelation-table-in-lync-server-2013"></a><span data-ttu-id="a2a01-102">Таблица SessionCorrelation в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2a01-102">SessionCorrelation table in Lync Server 2013</span></span>
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a><span data-ttu-id="e5dd7-102">Таблица Таблица sessioncorrelation в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5dd7-102">SessionCorrelation table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764807"
 
 <span> </span>
 
-<span data-ttu-id="a2a01-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="a2a01-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="e5dd7-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e5dd7-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="a2a01-104">Таблица Сессионкоррелатион является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="a2a01-104">The SessionCorrelation table is a supporting table.</span></span> <span data-ttu-id="a2a01-105">Каждая запись представляет собой один элемент CorrelationID, который используется для корреляции нескольких сеансов.</span><span class="sxs-lookup"><span data-stu-id="a2a01-105">Each record represents one CorrelationID which is used to correlate multiple sessions.</span></span>
+<span data-ttu-id="e5dd7-104">Таблица Таблица sessioncorrelation является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="e5dd7-104">The SessionCorrelation table is a supporting table.</span></span> <span data-ttu-id="e5dd7-105">Каждая запись представляет один элемент CorrelationID, который используется для корреляции нескольких сеансов.</span><span class="sxs-lookup"><span data-stu-id="e5dd7-105">Each record represents one CorrelationID which is used to correlate multiple sessions.</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "41764807"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a2a01-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="a2a01-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="a2a01-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="a2a01-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="e5dd7-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="e5dd7-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="e5dd7-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="e5dd7-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a2a01-110"><strong>Счет</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-110"><strong>Checksum</strong></span></span></p></td>
-<td><p><span data-ttu-id="a2a01-111">целое</span><span class="sxs-lookup"><span data-stu-id="a2a01-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-110"><strong>Контрольная сумма</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-110"><strong>Checksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-111">int</span><span class="sxs-lookup"><span data-stu-id="e5dd7-111">int</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a2a01-112"><strong>коррелатионкэй</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-112"><strong>CorrelationKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="a2a01-113">целое</span><span class="sxs-lookup"><span data-stu-id="a2a01-113">int</span></span></p></td>
-<td><p><span data-ttu-id="a2a01-114">Primary</span><span class="sxs-lookup"><span data-stu-id="a2a01-114">Primary</span></span></p></td>
-<td><p><span data-ttu-id="a2a01-115">Уникальный номер, показывающий этот сервер конференц-связи A/V.</span><span class="sxs-lookup"><span data-stu-id="a2a01-115">Unique number identifying this A/V Conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-112"><strong>коррелатионкэй</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-112"><strong>CorrelationKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-113">int</span><span class="sxs-lookup"><span data-stu-id="e5dd7-113">int</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-114">Primary</span><span class="sxs-lookup"><span data-stu-id="e5dd7-114">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-115">Уникальный номер, идентифицирующий этот сервер аудио-и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="e5dd7-115">Unique number identifying this A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a2a01-116"><strong>Корреляци</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-116"><strong>CorrelationID</strong></span></span></p></td>
-<td><p><span data-ttu-id="a2a01-117">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="a2a01-117">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="a2a01-118">Повторя</span><span class="sxs-lookup"><span data-stu-id="a2a01-118">Unique</span></span></p></td>
-<td><p><span data-ttu-id="a2a01-119">Коррелированные сеансы будут иметь одинаковый идентификатор корреляции.</span><span class="sxs-lookup"><span data-stu-id="a2a01-119">Sessions that are correlated will have the same correlation ID.</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-116"><strong>ИД</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-116"><strong>CorrelationID</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="e5dd7-117">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-118">Уникальные</span><span class="sxs-lookup"><span data-stu-id="e5dd7-118">Unique</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-119">Коррелированные сеансы будут иметь одинаковый идентификатор корреляции.</span><span class="sxs-lookup"><span data-stu-id="e5dd7-119">Sessions that are correlated will have the same correlation ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a2a01-120"><strong>некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="a2a01-120"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="a2a01-121">datetime</span><span class="sxs-lookup"><span data-stu-id="a2a01-121">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-120"><strong>некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="e5dd7-120"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-121">datetime</span><span class="sxs-lookup"><span data-stu-id="e5dd7-121">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="a2a01-122">Только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="a2a01-122">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="e5dd7-122">Только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="e5dd7-122">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
