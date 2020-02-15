@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5289c29c33b264664d29e4252c2c20c06dd3e5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fcbbfab675d21b9791537e9ebd677ad5845e02a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832929"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018120"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Обучение конечных пользователей для работы с Microsoft Teams
 
@@ -207,7 +207,7 @@ ms.locfileid: "41832929"
                         <h3>Записи и сообщения</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Видео: создание и форматирование записи</a></p>
                          <p>
-  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Видео: привлечение внимания с помощью @упоминаний</a></p>
+  <a href="https://support.office.com/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Видео: привлечение внимания с помощью @упоминаний</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Видео: сохранение записи или сообщения</a></p>
                     </div>
                 </div>
