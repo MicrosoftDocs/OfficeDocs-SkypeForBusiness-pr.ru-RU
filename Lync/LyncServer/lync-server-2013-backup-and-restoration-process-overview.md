@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Общие сведения о процессе резервного копирования и восстановления'
+title: 'Lync Server 2013: обзор процесса резервного копирования и восстановления'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 559ebb5a5d5ba91b5a4952037c18ad509ed5cec7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9d5e2700065444691dee1041ff210768e9bade7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728959"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="ef375-102">Обзор процесса резервного копирования и восстановления для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ef375-102">Backup and restoration process overview for Lync Server 2013</span></span>
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="a4da7-102">Общие сведения о процессе резервного копирования и восстановления для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4da7-102">Backup and restoration process overview for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41728959"
 
 <span> </span>
 
-<span data-ttu-id="ef375-103">_**Тема последнего изменения:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="ef375-103">_**Topic Last Modified:** 2013-03-26_</span></span>
+<span data-ttu-id="a4da7-103">_**Последнее изменение темы:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="a4da7-103">_**Topic Last Modified:** 2013-03-26_</span></span>
 
-<span data-ttu-id="ef375-104">В этом разделе приводятся общие сведения о том, как выполняется резервное копирование и восстановление для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ef375-104">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="ef375-105">Вы используете один и тот же процесс для всех серверов стандартных выпусков и серверов выпуска Enterprise Edition, независимо от того, где они находятся.</span><span class="sxs-lookup"><span data-stu-id="ef375-105">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
+<span data-ttu-id="a4da7-104">В этом разделе представлены общие сведения о том, как процесс резервного копирования и восстановления работает для Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a4da7-104">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="a4da7-105">Вы используете один и тот же процесс для всех серверов Standard Edition и серверов Enterprise Edition, независимо от их местонахождения.</span><span class="sxs-lookup"><span data-stu-id="a4da7-105">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
 
-<span data-ttu-id="ef375-106">Как правило, процесс резервного копирования выполняется следующим образом:</span><span class="sxs-lookup"><span data-stu-id="ef375-106">In general, the backup process works as follows:</span></span>
+<span data-ttu-id="a4da7-106">Как правило, процесс резервного копирования работает следующим образом:</span><span class="sxs-lookup"><span data-stu-id="a4da7-106">In general, the backup process works as follows:</span></span>
 
-  - <span data-ttu-id="ef375-107">Расположение резервной копии создается как общая папка на отдельном компьютере, который не входит ни в один пул.</span><span class="sxs-lookup"><span data-stu-id="ef375-107">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="ef375-108">Ссылка на расположение резервной копии содержится в **$BACKUP**.</span><span class="sxs-lookup"><span data-stu-id="ef375-108">The location of the backup is referenced in **$Backup**.</span></span>
+  - <span data-ttu-id="a4da7-107">Расположение резервной копии создается как общая папка на автономном компьютере, не входящем в пул.</span><span class="sxs-lookup"><span data-stu-id="a4da7-107">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="a4da7-108">Ссылка на расположение резервной копии содержится в **$BACKUP**.</span><span class="sxs-lookup"><span data-stu-id="a4da7-108">The location of the backup is referenced in **$Backup**.</span></span>
 
-  - <span data-ttu-id="ef375-109">Регулярное создание резервных копий всех баз данных Lync Server и всех хранилищ файлов, описанных в статье [требования к резервному копированию и восстановлению в Lync server 2013: данные](lync-server-2013-backup-and-restoration-requirements-data.md) , выполнив действия, описанные в статье [Создание резервной копии Lync Server 2013](lync-server-2013-backing-up-lync-server.md) . Центральное хранилище содержит все параметры и конфигурации сервера.</span><span class="sxs-lookup"><span data-stu-id="ef375-109">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
+  - <span data-ttu-id="a4da7-109">Регулярное резервное копирование всех баз данных Lync Server и всех хранилищ файлов, описанных в статье [требования к резервному копированию и восстановлению в Lync server 2013: Data](lync-server-2013-backup-and-restoration-requirements-data.md) , с помощью процедур, описанных в статье [резервное копирование Lync Server 2013](lync-server-2013-backing-up-lync-server.md) , включает в себя все параметры и конфигурации сервера.</span><span class="sxs-lookup"><span data-stu-id="a4da7-109">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
 
-  - <span data-ttu-id="ef375-110">Каждый раз, когда вы запускаете последующую архивацию, вы создаете новую общую папку и изменяете путь, который **$BACKUP** ссылок.</span><span class="sxs-lookup"><span data-stu-id="ef375-110">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
+  - <span data-ttu-id="a4da7-110">Каждый раз при выполнении последующего резервного копирования создается новая общая папка и изменяется путь, **$BACKUP** ссылки.</span><span class="sxs-lookup"><span data-stu-id="a4da7-110">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
 
-<span data-ttu-id="ef375-111">Как правило, процесс восстановления выполняется следующим образом:</span><span class="sxs-lookup"><span data-stu-id="ef375-111">In general, the restoration process works as follows:</span></span>
+<span data-ttu-id="a4da7-111">В общем случае процесс восстановления работает следующим образом:</span><span class="sxs-lookup"><span data-stu-id="a4da7-111">In general, the restoration process works as follows:</span></span>
 
-  - <span data-ttu-id="ef375-112">При возникновении ошибки или сбоя вы восстанавливаете данные в расположении, на которое ссылается **$BACKUP** , на новые или чистые компьютеры.</span><span class="sxs-lookup"><span data-stu-id="ef375-112">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
+  - <span data-ttu-id="a4da7-112">При возникновении сбоя или сбоя восстанавливаются данные в расположении, на которые ссылаются **$BACKUP** на новые или чистые компьютеры.</span><span class="sxs-lookup"><span data-stu-id="a4da7-112">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="ef375-113">Этот процесс восстановления не восстанавливает данные на существующем состоянии сервера.</span><span class="sxs-lookup"><span data-stu-id="ef375-113">This restoration process does not restore data onto an existing server state.</span></span> <span data-ttu-id="ef375-114">Это значит, что для этого процесса требуется, чтобы сервер был чистым или новым.</span><span class="sxs-lookup"><span data-stu-id="ef375-114">That is, this process requires that the server is clean or new.</span></span>
+    > <span data-ttu-id="a4da7-113">Этот процесс восстановления не восстанавливает данные на существующем состоянии сервера.</span><span class="sxs-lookup"><span data-stu-id="a4da7-113">This restoration process does not restore data onto an existing server state.</span></span> <span data-ttu-id="a4da7-114">То есть этот процесс требует, чтобы сервер был нечетким или новым.</span><span class="sxs-lookup"><span data-stu-id="a4da7-114">That is, this process requires that the server is clean or new.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="ef375-115">Чтобы обеспечить возможность восстановления сведений о пользователях и конференциях в точке сбоя, вы можете реализовать топологию аварийной проверки с помощью связанных пулов переднего плана, как описано в разделе [Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="ef375-115">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
+  - <span data-ttu-id="a4da7-115">Чтобы обеспечить возможность восстановления сведений о пользователях и конференциях до точки сбоя, можно реализовать топологию аварийного восстановления с подключенными пулами переднего плана, как описано в статье [Планирование обеспечения высокой доступности и аварийного восстановления в Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="a4da7-115">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
 
-  - <span data-ttu-id="ef375-116">Все конфигурации системы доменных имен (DNS), конфигурации протокола DHCP, доменных имен, полных доменных имен, путей к файлам и т. д. должны быть одинаковыми на момент восстановления Подавай назад.</span><span class="sxs-lookup"><span data-stu-id="ef375-116">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
+  - <span data-ttu-id="a4da7-116">Все настройки системы доменных имен (DNS), конфигурации протокола DHCP, доменных имен, полных доменных имен компьютера (FQDN), путей к хранилищу файлов и т. д. должны быть одинаковы во время выполнения восстановления. Подавай назад.</span><span class="sxs-lookup"><span data-stu-id="a4da7-116">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
 
-<span data-ttu-id="ef375-117">Если сервер, на котором работает Lync Server, не проходит, восстановление включает в себя следующие шаги:</span><span class="sxs-lookup"><span data-stu-id="ef375-117">If a server running Lync Server fails, recovery includes the following steps:</span></span>
+<span data-ttu-id="a4da7-117">Если сервер, на котором работает Lync Server, завершается с ошибкой, восстановление включает в себя следующие этапы:</span><span class="sxs-lookup"><span data-stu-id="a4da7-117">If a server running Lync Server fails, recovery includes the following steps:</span></span>
 
-  - <span data-ttu-id="ef375-118">Установите операционную систему на новом компьютере или удалите его с полным доменным именем, совпадающим с неисправной компьютером.</span><span class="sxs-lookup"><span data-stu-id="ef375-118">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
+  - <span data-ttu-id="a4da7-118">Установите операционную систему на новом или чистом компьютере с таким же полным доменным именем, как и у неисправного компьютера.</span><span class="sxs-lookup"><span data-stu-id="a4da7-118">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
 
-  - <span data-ttu-id="ef375-119">Переустановите сертификаты.</span><span class="sxs-lookup"><span data-stu-id="ef375-119">Reinstall certificates.</span></span>
+  - <span data-ttu-id="a4da7-119">Переустановите сертификаты.</span><span class="sxs-lookup"><span data-stu-id="a4da7-119">Reinstall certificates.</span></span>
 
-  - <span data-ttu-id="ef375-120">Если сервер размещается в базе данных, установите Microsoft SQL Server 2012 или Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="ef375-120">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
+  - <span data-ttu-id="a4da7-120">Если сервер размещает базу данных, установите Microsoft SQL Server 2012 или Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="a4da7-120">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
 
-  - <span data-ttu-id="ef375-121">Как правило, если сервер размещает базу данных, запустите Topology Builder, чтобы создать и установить базу данных и настроить списки управления доступом (ACL).</span><span class="sxs-lookup"><span data-stu-id="ef375-121">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
+  - <span data-ttu-id="a4da7-121">Как правило, если сервер размещает базу данных, запустите построитель топологий, чтобы создать и установить базу данных и настроить списки управления доступом (ACL).</span><span class="sxs-lookup"><span data-stu-id="a4da7-121">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
 
-  - <span data-ttu-id="ef375-122">В общем случае сервер, на котором размещена роль сервера, выполните шаг 1 до шага 4 мастера развертывания Lync Server для установки локальных файлов конфигурации, установки компонентов роли сервера, назначения сертификатов и запуска служб.</span><span class="sxs-lookup"><span data-stu-id="ef375-122">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
+  - <span data-ttu-id="a4da7-122">Как правило, если сервер размещает роль сервера, выполните шаг 1 с шагом 4 из мастера развертывания Lync Server, чтобы установить локальные файлы конфигурации, установить компоненты роли сервера, назначить сертификаты и запустить службы.</span><span class="sxs-lookup"><span data-stu-id="a4da7-122">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="ef375-123">Если сервер размещает базу данных, сопоставленную с ролью сервера, при выполнении шага 2 мастера развертывания Lync Server повторно создается база данных.</span><span class="sxs-lookup"><span data-stu-id="ef375-123">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
+    > <span data-ttu-id="a4da7-123">Если сервер, на котором размещена база данных, сопоставленная с ролью сервера, при выполнении шага 2 мастера развертывания Lync Server повторно создаст базу данных.</span><span class="sxs-lookup"><span data-stu-id="a4da7-123">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="ef375-124">Если сервер размещает базу данных, Восстановите резервные копии данных.</span><span class="sxs-lookup"><span data-stu-id="ef375-124">If the server hosted a database, restore the backed up data.</span></span>
+  - <span data-ttu-id="a4da7-124">Если сервер размещает базу данных, Восстановите резервные копии данных.</span><span class="sxs-lookup"><span data-stu-id="a4da7-124">If the server hosted a database, restore the backed up data.</span></span>
 
 </div>
 

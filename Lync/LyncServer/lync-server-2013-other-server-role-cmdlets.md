@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: другие командлеты роли сервера'
+title: 'Lync Server 2013: другие командлеты ролей сервера'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755653"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="other-server-role-cmdlets-in-lync-server-2013"></a><span data-ttu-id="e4a48-102">Другие командлеты роли сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e4a48-102">Other server role cmdlets in Lync Server 2013</span></span>
+# <a name="other-server-role-cmdlets-in-lync-server-2013"></a><span data-ttu-id="b16d4-102">Другие командлеты ролей сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b16d4-102">Other server role cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41755653"
 
 <span> </span>
 
-<span data-ttu-id="e4a48-103">_**Тема последнего изменения:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="e4a48-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="b16d4-103">_**Последнее изменение темы:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="b16d4-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="e4a48-104">Эти командлеты позволяют управлять одновременными серверными ролями (например, сервером конференции), которые не помещаются в категории ролей сервера, такие как пограничные серверы или серверы адресных книг.</span><span class="sxs-lookup"><span data-stu-id="e4a48-104">These cmdlets provide ways to manage "one-off" server roles (such as the Conference Server) that do not fit into server role categories such as Edge Servers or Address Book Servers.</span></span>
+<span data-ttu-id="b16d4-104">Эти командлеты дают возможность управлять специальными ролями сервера (например, сервером конференций), которые не относятся к таким общим категориям ролей, как пограничные серверы или серверы адресной книги.</span><span class="sxs-lookup"><span data-stu-id="b16d4-104">These cmdlets provide ways to manage "one-off" server roles (such as the Conference Server) that do not fit into server role categories such as Edge Servers or Address Book Servers.</span></span>
 
 <div>
 
-## <a name="other-server-role-and-cmdlets"></a><span data-ttu-id="e4a48-105">Другие роли и командлеты сервера</span><span class="sxs-lookup"><span data-stu-id="e4a48-105">Other Server Role and Cmdlets</span></span>
+## <a name="other-server-role-and-cmdlets"></a><span data-ttu-id="b16d4-105">Прочие роли сервера и командлеты</span><span class="sxs-lookup"><span data-stu-id="b16d4-105">Other Server Role and Cmdlets</span></span>
 
-<span data-ttu-id="e4a48-106">Ниже приведен список командлетов, непосредственно связанных с управлением другими ролями сервера и службами.</span><span class="sxs-lookup"><span data-stu-id="e4a48-106">The following is a list of cmdlets that relate directly to managing other server roles and services:</span></span>
+<span data-ttu-id="b16d4-106">Ниже приведен список командлетов, связанных непосредственно с управлением другими ролями сервера и службами.</span><span class="sxs-lookup"><span data-stu-id="b16d4-106">The following is a list of cmdlets that relate directly to managing other server roles and services:</span></span>
 
-<span data-ttu-id="e4a48-107">**Другие роли сервера**</span><span class="sxs-lookup"><span data-stu-id="e4a48-107">**Other Server Roles**</span></span>
+<span data-ttu-id="b16d4-107">**Прочие роли сервера**</span><span class="sxs-lookup"><span data-stu-id="b16d4-107">**Other Server Roles**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="e4a48-108">[Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4a48-108">[Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))</span></span>
+    <span data-ttu-id="b16d4-108">[Set — Ксконференцесервер](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b16d4-108">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="e4a48-109">[Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="e4a48-109">[Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))</span></span>
+    <span data-ttu-id="b16d4-109">[Set — Ксусерсервер](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b16d4-109">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e4a48-110">См. также</span><span class="sxs-lookup"><span data-stu-id="e4a48-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b16d4-110">См. также</span><span class="sxs-lookup"><span data-stu-id="b16d4-110">See Also</span></span>
 
 
-[<span data-ttu-id="e4a48-111">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="e4a48-111">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="b16d4-111">Блог Lync Server PowerShell</span><span class="sxs-lookup"><span data-stu-id="b16d4-111">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

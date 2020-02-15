@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица VoipDetails'
+title: 'Lync Server 2013: таблица таблица voipdetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13087202b15cf9b25f0c32741c396c48f628908
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe3d41021016d6d6e21e7112597bb6206dc46d95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758561"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-table-in-lync-server-2013"></a><span data-ttu-id="f431a-102">Таблица VoipDetails в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f431a-102">VoipDetails table in Lync Server 2013</span></span>
+# <a name="voipdetails-table-in-lync-server-2013"></a><span data-ttu-id="8ee49-102">Таблица Таблица voipdetails в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ee49-102">VoipDetails table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758561"
 
 <span> </span>
 
-<span data-ttu-id="f431a-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="f431a-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="8ee49-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="8ee49-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="f431a-104">Каждая запись представляет вызов на стороне 1 2, в котором как минимум один пользователь является пользователем VoIP.</span><span class="sxs-lookup"><span data-stu-id="f431a-104">Each record represents one two-party call in which at least one user is a VoIP user.</span></span>
+<span data-ttu-id="8ee49-104">Каждая запись представляет двусторонний звонок, по крайней мере один участник которого является пользователем VoIP.</span><span class="sxs-lookup"><span data-stu-id="8ee49-104">Each record represents one two-party call in which at least one user is a VoIP user.</span></span>
 
 
 <table>
@@ -49,72 +49,72 @@ ms.locfileid: "41758561"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f431a-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="f431a-105">Column</span></span></th>
-<th><span data-ttu-id="f431a-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="f431a-106">Data Type</span></span></th>
-<th><span data-ttu-id="f431a-107">Ключ/индекс</span><span class="sxs-lookup"><span data-stu-id="f431a-107">Key/Index</span></span></th>
-<th><span data-ttu-id="f431a-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="f431a-108">Details</span></span></th>
+<th><span data-ttu-id="8ee49-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="8ee49-105">Column</span></span></th>
+<th><span data-ttu-id="8ee49-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="8ee49-106">Data Type</span></span></th>
+<th><span data-ttu-id="8ee49-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="8ee49-107">Key/Index</span></span></th>
+<th><span data-ttu-id="8ee49-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="8ee49-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f431a-109"><strong>сессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-110">datetime</span><span class="sxs-lookup"><span data-stu-id="f431a-110">datetime</span></span></p></td>
-<td><p><span data-ttu-id="f431a-111">Primary</span><span class="sxs-lookup"><span data-stu-id="f431a-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f431a-112">Время запроса сеанса.</span><span class="sxs-lookup"><span data-stu-id="f431a-112">Time of session request.</span></span> <span data-ttu-id="f431a-113">Используется в сочетании с <strong>сессионидсек</strong> для уникальной идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="f431a-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="f431a-114">Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-109"><strong>сессионидтиме</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-110">datetime</span><span class="sxs-lookup"><span data-stu-id="8ee49-110">datetime</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-111">Primary</span><span class="sxs-lookup"><span data-stu-id="8ee49-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-112">Время запроса сеанса.</span><span class="sxs-lookup"><span data-stu-id="8ee49-112">Time of session request.</span></span> <span data-ttu-id="8ee49-113">В сочетании с параметром <strong>SessionIdSeq</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="8ee49-113">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="8ee49-114">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-114">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f431a-115"><strong>сессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-115"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-116">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-116">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-117">Primary</span><span class="sxs-lookup"><span data-stu-id="f431a-117">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f431a-118">ИДЕНТИФИКАЦИОНный номер для идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="f431a-118">ID number to identify the session.</span></span> <span data-ttu-id="f431a-119">Используется в сочетании с <strong>сессионидтиме</strong> для уникальной идентификации сеанса.</span><span class="sxs-lookup"><span data-stu-id="f431a-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="f431a-120">Дополнительные сведения приведены <a href="lync-server-2013-dialogs-table.md">в таблице диалоговые окна Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-115"><strong>сессионидсек</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-115"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-116">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-116">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-117">Primary</span><span class="sxs-lookup"><span data-stu-id="8ee49-117">Primary</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-118">Идентификатор сеанса.</span><span class="sxs-lookup"><span data-stu-id="8ee49-118">ID number to identify the session.</span></span> <span data-ttu-id="8ee49-119">В сочетании с параметром <strong>SessionIdTime</strong> определяет сеанс уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="8ee49-119">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="8ee49-120">Дополнительные сведения см. <a href="lync-server-2013-dialogs-table.md">в таблице диалоговых окон в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-120">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f431a-121"><strong>фромнумберид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-121"><strong>FromNumberId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-122">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-122">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-123">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-123">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-124"><strong>Фонеид</strong> вызывающего абонента.</span><span class="sxs-lookup"><span data-stu-id="f431a-124"><strong>PhoneId</strong> of the caller.</span></span> <span data-ttu-id="f431a-125">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-phones-table.md">таблицей "телефоны" в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-125">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="f431a-126">Если NOT NULL и <strong>фромгатевайид</strong> не NULL, вызывающий абонент являлся пользователем КТСОП.</span><span class="sxs-lookup"><span data-stu-id="f431a-126">If not NULL and <strong>FromGatewayId</strong> is not NULL, then the caller was a PSTN user.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-121"><strong>фромнумберид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-121"><strong>FromNumberId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-122">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-122">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-123">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-123">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-124">Идентификатор <strong>PhoneId</strong> звонящего.</span><span class="sxs-lookup"><span data-stu-id="8ee49-124"><strong>PhoneId</strong> of the caller.</span></span> <span data-ttu-id="8ee49-125">Дополнительные сведения см. <a href="lync-server-2013-phones-table.md">в таблице phones в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-125">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="8ee49-126">Если значение этого параметра, а также параметра <strong>FromGatewayId</strong> отлично от NULL, звонящий являлся пользователем ТСОП.</span><span class="sxs-lookup"><span data-stu-id="8ee49-126">If not NULL and <strong>FromGatewayId</strong> is not NULL, then the caller was a PSTN user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f431a-127"><strong>коннектеднумберид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-127"><strong>ConnectedNumberId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-128">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-128">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-129">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-129">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-130"><strong>Фонеид</strong> получателя звонка.</span><span class="sxs-lookup"><span data-stu-id="f431a-130"><strong>PhoneId</strong> of the call receiver.</span></span> <span data-ttu-id="f431a-131">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-phones-table.md">таблицей "телефоны" в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-131">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="f431a-132">Если NOT NULL и <strong>тогатевайид</strong> не NULL, получатель звонка был пользователем КТСОП.</span><span class="sxs-lookup"><span data-stu-id="f431a-132">If not NULL and <strong>ToGatewayId</strong> is not NULL, then the call receiver was a PSTN user.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-127"><strong>коннектеднумберид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-127"><strong>ConnectedNumberId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-128">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-128">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-129">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-129">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-130">Идентификатор <strong>PhoneId</strong> получателя звонка.</span><span class="sxs-lookup"><span data-stu-id="8ee49-130"><strong>PhoneId</strong> of the call receiver.</span></span> <span data-ttu-id="8ee49-131">Дополнительные сведения см. <a href="lync-server-2013-phones-table.md">в таблице phones в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-131">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="8ee49-132">Если значение этого параметра, а также параметра <strong>ToGatewayId</strong> отлично от NULL, получатель являлся пользователем ТСОП.</span><span class="sxs-lookup"><span data-stu-id="8ee49-132">If not NULL and <strong>ToGatewayId</strong> is not NULL, then the call receiver was a PSTN user.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f431a-133"><strong>фроммедиатионсерверид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-133"><strong>FromMediationServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-134">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-134">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-135">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-135">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-136">Сервер, на котором поступил звонок.</span><span class="sxs-lookup"><span data-stu-id="f431a-136">The Mediation Server the call is coming from.</span></span> <span data-ttu-id="f431a-137">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-mediationservers-table.md">таблицей медиатионсерверс в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-137">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-133"><strong>фроммедиатионсерверид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-133"><strong>FromMediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-134">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-134">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-135">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-135">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-136">Сервер-посредник, с которого поступил звонок.</span><span class="sxs-lookup"><span data-stu-id="8ee49-136">The Mediation Server the call is coming from.</span></span> <span data-ttu-id="8ee49-137">Дополнительные сведения см. <a href="lync-server-2013-mediationservers-table.md">в таблице таблица mediationservers в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-137">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f431a-138"><strong>томедиатионсерверид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-138"><strong>ToMediationServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-139">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-139">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-140">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-140">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-141">Будет вызываем сервер для устранения проблем.</span><span class="sxs-lookup"><span data-stu-id="f431a-141">The Mediation Server called is going to.</span></span> <span data-ttu-id="f431a-142">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-mediationservers-table.md">таблицей медиатионсерверс в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-142">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-138"><strong>томедиатионсерверид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-138"><strong>ToMediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-139">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-139">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-140">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-140">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-141">Сервер-посредник, на который направляется звонок.</span><span class="sxs-lookup"><span data-stu-id="8ee49-141">The Mediation Server called is going to.</span></span> <span data-ttu-id="8ee49-142">Дополнительные сведения см. <a href="lync-server-2013-mediationservers-table.md">в таблице таблица mediationservers в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-142">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f431a-143"><strong>фромгатевайид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-143"><strong>FromGatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-144">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-144">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-145">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-145">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-146">Шлюз, из которого поступил звонок.</span><span class="sxs-lookup"><span data-stu-id="f431a-146">Gateway the call is coming from.</span></span> <span data-ttu-id="f431a-147">Более подробную информацию вы увидите <a href="lync-server-2013-gateways-table.md">в таблице шлюзов в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-147">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-143"><strong>фромгатевайид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-143"><strong>FromGatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-144">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-144">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-145">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-145">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-146">Шлюз, из которого поступил звонок.</span><span class="sxs-lookup"><span data-stu-id="8ee49-146">Gateway the call is coming from.</span></span> <span data-ttu-id="8ee49-147">Более подробную информацию можно узнать <a href="lync-server-2013-gateways-table.md">в таблице шлюзы в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-147">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f431a-148"><strong>тогатевайид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-148"><strong>ToGatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-149">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-149">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-150">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-150">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-151">Шлюз, на который проходит звонок.</span><span class="sxs-lookup"><span data-stu-id="f431a-151">Gateway the call is going to.</span></span> <span data-ttu-id="f431a-152">Более подробную информацию вы увидите <a href="lync-server-2013-gateways-table.md">в таблице шлюзов в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-152">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-148"><strong>тогатевайид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-148"><strong>ToGatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-149">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-149">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-150">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-150">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-151">Шлюз, на который направляется звонок.</span><span class="sxs-lookup"><span data-stu-id="8ee49-151">Gateway the call is going to.</span></span> <span data-ttu-id="8ee49-152">Более подробную информацию можно узнать <a href="lync-server-2013-gateways-table.md">в таблице шлюзы в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-152">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f431a-153"><strong>дисконнектедбюриид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-153"><strong>DisconnectedbyURIId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-154">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-154">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-155">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-155">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-156">Универсальный код ресурса (URI) пользователя, который отключил звонок, если пользователь имеет URI.</span><span class="sxs-lookup"><span data-stu-id="f431a-156">URI of the user who disconnected the call, if the user has a URI.</span></span> <span data-ttu-id="f431a-157">Дополнительные сведения <a href="lync-server-2013-users-table.md">можно найти в таблице Users (пользователи) в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-157">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-153"><strong>дисконнектедбюриид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-153"><strong>DisconnectedbyURIId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-154">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-154">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-155">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-155">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-156">Универсальный код ресурса (URI) пользователя, прервавшего звонок (если имеется).</span><span class="sxs-lookup"><span data-stu-id="8ee49-156">URI of the user who disconnected the call, if the user has a URI.</span></span> <span data-ttu-id="8ee49-157">Дополнительные сведения см. <a href="lync-server-2013-users-table.md">в таблице "Пользователи" в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-157">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f431a-158"><strong>дисконнектедбифонеид</strong></span><span class="sxs-lookup"><span data-stu-id="f431a-158"><strong>DisconnectedbyPhoneId</strong></span></span></p></td>
-<td><p><span data-ttu-id="f431a-159">целое</span><span class="sxs-lookup"><span data-stu-id="f431a-159">int</span></span></p></td>
-<td><p><span data-ttu-id="f431a-160">Другом</span><span class="sxs-lookup"><span data-stu-id="f431a-160">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f431a-161">Идентификационный номер телефона, который отключил звонок, был отключен от телефона.</span><span class="sxs-lookup"><span data-stu-id="f431a-161">ID of the phone that disconnected the call was disconnected from a phone.</span></span> <span data-ttu-id="f431a-162">Для получения дополнительных сведений ознакомьтесь с <a href="lync-server-2013-phones-table.md">таблицей "телефоны" в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="f431a-162">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-158"><strong>дисконнектедбифонеид</strong></span><span class="sxs-lookup"><span data-stu-id="8ee49-158"><strong>DisconnectedbyPhoneId</strong></span></span></p></td>
+<td><p><span data-ttu-id="8ee49-159">int</span><span class="sxs-lookup"><span data-stu-id="8ee49-159">int</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-160">Правительства</span><span class="sxs-lookup"><span data-stu-id="8ee49-160">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="8ee49-161">ИД телефона, с которого был прерван звонок.</span><span class="sxs-lookup"><span data-stu-id="8ee49-161">ID of the phone that disconnected the call was disconnected from a phone.</span></span> <span data-ttu-id="8ee49-162">Дополнительные сведения см. <a href="lync-server-2013-phones-table.md">в таблице phones в Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="8ee49-162">See the <a href="lync-server-2013-phones-table.md">Phones table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>

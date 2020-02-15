@@ -12,20 +12,20 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd05761a1c107ac72c7b9c3242fb18a5a3c7a27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733859"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="d21df-102">Проверка обновлений анализатора соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d21df-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="c150a-102">Проверка наличия обновлений анализатора соответствия рекомендациям в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c150a-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41733859"
 
 <span> </span>
 
-<span data-ttu-id="d21df-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d21df-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="c150a-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="c150a-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="d21df-104">Когда вы запускаете анализатор соответствия рекомендациям, с помощью этого средства вы можете найти последние обновления для этого средства.</span><span class="sxs-lookup"><span data-stu-id="d21df-104">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool.</span></span> <span data-ttu-id="d21df-105">Если обновление доступно, вы можете скачать обновление.</span><span class="sxs-lookup"><span data-stu-id="d21df-105">If an update is available, you can download the update.</span></span> <span data-ttu-id="d21df-106">Если вы решили не загружать обновления или не можете получить доступ к Интернету, вы можете продолжать пользоваться версией, уже установленной на компьютере.</span><span class="sxs-lookup"><span data-stu-id="d21df-106">If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
+<span data-ttu-id="c150a-104">При запуске анализатора соответствия рекомендациям можно выполнить поиск последних обновлений для средства.</span><span class="sxs-lookup"><span data-stu-id="c150a-104">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool.</span></span> <span data-ttu-id="c150a-105">Если обновление доступно, вы можете скачать обновление.</span><span class="sxs-lookup"><span data-stu-id="c150a-105">If an update is available, you can download the update.</span></span> <span data-ttu-id="c150a-106">Если вы решили не загружать обновления или если анализатор соответствия рекомендациям не может получить доступ к Интернету, вы можете продолжать использовать версию, которая уже установлена на компьютере.</span><span class="sxs-lookup"><span data-stu-id="c150a-106">If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d21df-107">Если для доступа к Интернету требуется проверка подлинности прокси-сервера, анализатору соответствия рекомендациям не удается получить доступ к новым обновлениям, которые вы хотите скачать.</span><span class="sxs-lookup"><span data-stu-id="d21df-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="d21df-108">Тем не менее, вы можете вручную загрузить последнюю версию Рткбпа. msi из центра загрузки Майкрософт по адресу <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span><span class="sxs-lookup"><span data-stu-id="d21df-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="d21df-109">После загрузки файла вы можете скопировать его на компьютер, на котором вы хотите обновить анализатор соответствия рекомендациям, и с помощью MSI-файла установить новую версию средства на этом компьютере.</span><span class="sxs-lookup"><span data-stu-id="d21df-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
+> <span data-ttu-id="c150a-107">Если для доступа к Интернету требуется проверка подлинности прокси-сервера, анализатор соответствия рекомендациям не может получить доступ к новым обновлениям, которые можно скачать.</span><span class="sxs-lookup"><span data-stu-id="c150a-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="c150a-108">Тем не менее последнюю версию Рткбпа. msi можно скачать вручную в центре загрузки Майкрософт по адресу <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span><span class="sxs-lookup"><span data-stu-id="c150a-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="c150a-109">После загрузки файла его можно скопировать на компьютер, на котором необходимо обновить анализатор соответствия рекомендациям, и использовать MSI файл для установки новой версии средства на этом компьютере.</span><span class="sxs-lookup"><span data-stu-id="c150a-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d21df-110">Чтобы обновить правила анализатора соответствия рекомендациям, необходимо запустить средство в качестве администратора на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="d21df-110">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer.</span></span> <span data-ttu-id="d21df-111">Если вы не вошли в систему с помощью учетной записи, которая входит в группу администраторов, и обнаружены обновления, закройте анализатор соответствия рекомендациям, а затем выполните указанные ниже действия, чтобы запустить программу.</span><span class="sxs-lookup"><span data-stu-id="d21df-111">If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
+<span data-ttu-id="c150a-110">Чтобы обновить правила анализатора соответствия рекомендациям, необходимо запустить средство от имени администратора на локальном компьютере.</span><span class="sxs-lookup"><span data-stu-id="c150a-110">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer.</span></span> <span data-ttu-id="c150a-111">Если вы не вошли в систему с помощью учетной записи, которая является членом группы "Администраторы" и обнаружены обновления, закройте анализатор соответствия рекомендациям, а затем выполните следующую процедуру для запуска программы.</span><span class="sxs-lookup"><span data-stu-id="c150a-111">If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
 
 <div>
 
-## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="d21df-112">Чтобы открыть анализатор соответствия рекомендациям в качестве администратора, чтобы проверить наличие обновлений, выполните описанные выше.</span><span class="sxs-lookup"><span data-stu-id="d21df-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="c150a-112">Чтобы открыть анализатор соответствия рекомендациям от имени администратора для проверки обновлений</span><span class="sxs-lookup"><span data-stu-id="c150a-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
 
-1.  <span data-ttu-id="d21df-113">На компьютере, на котором установлен анализатор соответствия рекомендациям, нажмите кнопку **Пуск**, выберите пункт **Microsoft Lync Server 2013**, щелкните правой кнопкой **анализатор соответствия рекомендациям**и выберите команду **Запуск от имени администратора**.</span><span class="sxs-lookup"><span data-stu-id="d21df-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
+1.  <span data-ttu-id="c150a-113">На компьютере, на котором установлен анализатор соответствия рекомендациям, нажмите кнопку **Пуск**, выберите пункт **Microsoft Lync Server 2013**, щелкните правой кнопкой мыши **анализатор соответствия**рекомендациям, а затем выберите пункт **Запуск от имени администратора**.</span><span class="sxs-lookup"><span data-stu-id="c150a-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
 
-2.  <span data-ttu-id="d21df-114">Укажите учетные данные для учетной записи, которая входит в группу "Администраторы".</span><span class="sxs-lookup"><span data-stu-id="d21df-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
+2.  <span data-ttu-id="c150a-114">Укажите учетные данные для учетной записи, входящей в группу "Администраторы".</span><span class="sxs-lookup"><span data-stu-id="c150a-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
 
 </div>
 
