@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Планирование подключений PSTN'
+title: 'Lync Server 2013: планирование подключения PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec12aa5e579aed30e61c7cd34eab444e807c628f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811f69e8286e341b7769a58d03c42d0a43e63075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725259"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-pstn-connectivity-in-lync-server-2013"></a>Планирование подключений PSTN в Lync Server 2013
+# <a name="planning-for-pstn-connectivity-in-lync-server-2013"></a>Планирование подключения по протоколу PSTN в Lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41725259"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-21_
+_**Последнее изменение темы:** 2012-09-21_
 
-Решение VoIP корпоративного уровня должно предусматривать входящие и исходящие вызовы на телефонную сеть общего пользования (ТСОП) без какого-либо снижения качества обслуживания (QoS). Пользователи, которые размещаются и принимают звонки, не должны знать о базовой технологии: с точки зрения пользователя, Звонок между корпоративной инфраструктурой голосовой связи и PSTN должен казаться просто другим телефонным звонком.
+Решение VoIP корпоративного уровня должно обеспечивать вызовы в телефонную сеть общего пользования (ТСОП) и обратно без ухудшения качества обслуживания (QoS). Пользователи, получающие и принимающие звонки, не должны знать о базовой технологии: с точки зрения пользователя, вызов между инфраструктурой корпоративной голосовой связи и PSTN должен выглядеть так же, как и другой телефонный звонок.
 
-Lync Server 2013 обеспечивает надежную и масштабируемую КОММУТИРУЕМую связь с помощью следующих параметров:
+Lync Server 2013 обеспечивает надежное, масштабируемая возможность подключения по протоколу PSTN с помощью следующих параметров:
 
-  - **магистрали SIP**, соединяющие с оператором телефонной связи по сети Интернет;
+  - **SIP-магистрали** для поставщика услуг Интернет-телефонии (ITSP);
 
-  - **прямые подключения SIP** к шлюзу ТСОП;
+  - **прямые SIP-подключения** для шлюза ТСОП;
 
-  - **прямые подключения SIP** к УАТС.
+  - **прямые SIP-подключения** для УАТС.
 
-В зависимости от размеров предприятия, охватываемой территории и существующей инфраструктуры голосовой связи можно применять один и тот же способ на всем предприятии либо два или все три способа в разных подразделениях.
+В зависимости от размера, географического покрытия и существующей инфраструктуры системы голосовой связи предприятия могут использовать один, два или даже все три этих варианта в различных местоположениях.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Магистральные линии SIP в Lync Server 2013](lync-server-2013-sip-trunking.md)
+  - [Распределение каналов SIP в Lync Server 2013](lync-server-2013-sip-trunking.md)
 
-  - [Прямые подключения по протоколу SIP в Lync Server 2013](lync-server-2013-direct-sip-connections.md)
+  - [Прямые подключения SIP в Lync Server 2013](lync-server-2013-direct-sip-connections.md)
 
-  - [М:Н магистраль в Lync Server 2013](lync-server-2013-m-n-trunk.md)
+  - [Магистраль M:N в Lync Server 2013](lync-server-2013-m-n-trunk.md)
 
-  - [Правила перевода в Lync Server 2013](lync-server-2013-translation-rules.md)
+  - [Правила преобразования в Lync Server 2013](lync-server-2013-translation-rules.md)
 
-  - [Планирование маршрутизации исходящей голосовой почты в Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
+  - [Планирование маршрутизации исходящих голосовых вызовов в Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
 
 </div>
 

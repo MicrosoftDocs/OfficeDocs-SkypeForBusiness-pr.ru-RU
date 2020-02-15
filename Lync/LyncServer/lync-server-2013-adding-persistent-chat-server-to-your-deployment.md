@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: добавление сервера сохраняемого сеанса беседы в развертывание'
+title: 'Lync Server 2013: Добавление сервера сохраняемого чата к развертыванию'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a41e89193f4871197ab9b429eb6ab9a9078a7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738039"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a>Добавление сервера сохраняемого сеанса беседы в развертывание в Lync Server 2013
+# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a>Добавление сервера сохраняемого чата в развертывание в Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738039"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-12_
+_**Последнее изменение темы:** 2012-09-12_
 
-После установки необходимого программного обеспечения на каждый сервер, на котором планируется развернуть Lync Server 2013, сервер сохраняемого чата, необходимо использовать Topology Builder, чтобы добавить в топологию постоянную поддержку сервера чата, а затем опубликовать топологию.
+После установки необходимого программного обеспечения на каждом сервере, на котором планируется развертывание Lync Server 2013, сервера сохраняемого чата, необходимо использовать построитель топологий, чтобы добавить в топологию поддержку сервера сохраняемого чата, а затем опубликовать топологию.
 
 <div>
 

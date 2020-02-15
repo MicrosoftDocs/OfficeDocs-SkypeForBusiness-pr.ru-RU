@@ -12,16 +12,16 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6651c9cb15322498d68fa9b6cd705b68dc601c6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c2cb64b3ca2d8e7d0c520e1d8ff4ee896895e13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41740839"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-20_
+_**Последнее изменение темы:** 2012-10-20_
 
-В этом разделе описывается процесс развертывания функций удаленного управления звонками для пользователей в вашей организации.
+В этом разделе описывается процесс развертывания функции удаленного управления вызовами для пользователей в организации.
 
 <div>
 
 
 > [!NOTE]  
-> Несмотря на то что функции удаленного управления звонками доступны удаленным пользователям за пределами брандмауэра организации, сведения о развертывании внешних сценариев доступа выходят за рамки данной документации. Дополнительные сведения о развертывании внешних пользователей можно найти <A href="lync-server-2013-deploying-external-user-access.md">в разделе Развертывание внешних пользователей Access в Lync Server 2013</A> в документации по развертыванию.
+> Хотя функции удаленного управления вызовами доступны удаленным пользователям, когда они находятся за пределами брандмауэра организации, сведения о сценариях развертывания внешнего доступа не рассматриваются в данной документации. Дополнительные сведения о развертывании доступа внешних пользователей содержатся в документации по развертыванию, посвященной <A href="lync-server-2013-deploying-external-user-access.md">развертыванию доступа внешних пользователей в Lync Server 2013</A> .
 
 
 
@@ -53,19 +53,19 @@ _**Тема последнего изменения:** 2012-10-20_
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Настройка Lync Server 2013 для маршрутизации к шлюзу SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
+  - [Настройка Lync Server 2013 для маршрутизации на шлюз SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
-  - [Настройка статического маршрута для дистанционного управления вызовами в Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [Настройка статического маршрута для удаленного управления звонками в Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
   - [Настройка записи доверенного приложения для удаленного управления звонками в Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
-  - [Определение IP-адреса шлюза SIP/кста в Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (только в том случае, если шлюз настроен на использование TCP)
+  - [Определение IP-адреса шлюза SIP/CSTA в Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (только в том случае, если шлюз настроен на использование TCP)
 
   - [Включение удаленного управления звонками для пользователей Lync в Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md)
 
   - [Удаленное управление звонками и нормализация телефонных номеров в Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Удаление устаревшего авторизованного узла в Lync Server 2013 (необязательно)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (только если вы переносите пользователей, для которых уже разрешено удаленное управление звонками)
+  - [Удаление устаревшего авторизованного узла в Lync Server 2013 (необязательно)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (только при переносе пользователей, для которых ранее было включено удаленное управление звонками)
 
 </div>
 
@@ -73,7 +73,7 @@ _**Тема последнего изменения:** 2012-10-20_
 
 ## <a name="related-sections"></a>Связанные разделы
 
-[Планирование удаленного управления звонком в Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+[Планирование удаленного управления звонками в Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
 
 </div>
 

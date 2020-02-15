@@ -12,16 +12,16 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0726a1c7893a2411ed1fc1ad8981349b8cc9add
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755783"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755783"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2015-01-26_
+_**Последнее изменение темы:** 2015-01-26_
 
-В этой статье объясняется, как использовать средства управления для настройки развертывания Lync Server 2013 и управления ими.
+В подразделах этого раздела объясняется, как использовать средства управления для настройки развертывания Lync Server 2013 и управления им.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
+  - [Руководство по работе для Lync Server 2013](lync-server-2013-operations-guide.md)
 
-  - [Средства администрирования Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)
+  - [Lync Server 2013 административные средства](lync-server-2013-lync-server-administrative-tools.md)
 
   - [Управление пользователями в Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)
 
@@ -65,7 +65,7 @@ _**Тема последнего изменения:** 2015-01-26_
 
   - [Управление устройствами, телефонами и клиентскими приложениями в Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
 
-  - [Управление федерацией и внешним доступом к Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
+  - [Управление федерациями и внешним доступом к Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
 
   - [Управление архивированием Lync Server 2013](lync-server-2013-managing-archiving.md)
 
@@ -85,7 +85,7 @@ _**Тема последнего изменения:** 2015-01-26_
 
   - [Конфигурация мониторинга и работоспособности в Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
 
-  - [командная консоль Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
+  - [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)
 
   - [Анализатор соответствия рекомендациям Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md)
 

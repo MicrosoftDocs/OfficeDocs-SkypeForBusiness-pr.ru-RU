@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: просмотр отчетов администратора'
+title: 'Lync Server 2013: Просмотр отчетов администратора'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad04e03571f228fd83339dbc1c36be07d32f0962
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ffa9418b0b4ed2d9571a409faaad6948c9bbf01f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733029"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733029"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2013-02-21_
+_**Последнее изменение темы:** 2013-02-21_
 
-Компонент "Administrator Reports" (Отчеты администратора) предоставляют подробную информацию для развертывания и проведения операций. Отчеты создаются на базе параметров, выбранных в области **Design Sites** (Разработка сайтов). Проектировщик может получить дополнительную выгоду от использования компонента "Administrator Reports" (Отчеты администратора), изменив схемы сети и определив полные IP-адреса и полные доменные имена для серверов, пулов и подсистем балансировки нагрузки.
+Отчеты администратора — это подробные сведения о развертывании и операциях. Отчеты создаются в соответствии с выбранными параметрами, отмеченными в разделе **дизайн сайтов**. Разработчик может дополнительно добавить значение в отчеты администратора, изменив схемы сети и определив полные IP-адреса и полные доменные имена для серверов, пулов и подсистем балансировки нагрузки.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Просмотр сводного отчета в Lync Server 2013](lync-server-2013-reviewing-the-summary-report.md)
+  - [Обзор сводного отчета в Lync Server 2013](lync-server-2013-reviewing-the-summary-report.md)
 
   - [Просмотр отчета о сертификатах в Lync Server 2013](lync-server-2013-reviewing-the-certificates-report.md)
 

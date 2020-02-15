@@ -12,16 +12,16 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f8023f917e3da6757ce27ede44a63cf0ab1a08d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b12a47ffde7d09fa7e216312211b6f0118b89233
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734089"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734089"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-После того как вы объедините сведения о топологии Office Communications Server 2007 R2 с помощью проекта Lync Server 2013 для пилотного пула, необходимо запустить командлет командной консоли Lync Server 2013 для миграции политик и параметров конфигурации Office Communications Server 2007 R2 в состав пула Lync Server 2013 Pilot.
+После объединения информации о топологии Office Communications Server 2007 R2 с помощью пилотного пула Lync Server 2013 необходимо запустить командлет командной консоли Lync Server 2013, чтобы перенести политики и параметры конфигурации Office Communications Server 2007 R2 в пилотный пул Lync Server 2013.
 
-Командлет **Import-кслегациконфигуратион** импортирует политики, маршруты голосовой связи, абонентские группы, URL-адреса Communicator Web Access и номера доступа для телефонного подключения в Lync Server 2013.
+Командлет **Import-CsLegacyConfiguration** импортирует политики, маршруты голосовых вызовов, абонентские группы, URL-адреса веб-клиента Communicator и номера доступа по телефонной линии в Lync Server 2013.
 
 <div>
 
-## <a name="to-migrate-policies-and-settings"></a>Миграция политик и параметров
+## <a name="to-migrate-policies-and-settings"></a>Перенос политик и параметров
 
-1.  На сервере переднего плана Lync Server 2013 запустите командную консоль Lync Server Management Shell.
+1.  На сервере переднего плана Lync Server 2013 запустите командную консоль Lync Server.
 
-2.  В командной строке введите следующую команду:
+2.  Введите в командной строке следующую команду:
     
         Import-CsLegacyConfiguration
     
-    После импорта политик воспользуйтесь приведенными ниже инструкциями, чтобы просмотреть импортированные политики на панели управления Lync Server.
+    После импорта политик используйте приведенную ниже процедуру, чтобы просмотреть импортированные политики в панели управления Lync Server.
 
 </div>
 
@@ -61,13 +61,13 @@ _**Тема последнего изменения:** 2012-09-28_
 
 1.  Откройте панель управления Lync Server 2013.
 
-2.  Нажмите кнопку **Маршрутизация голоса** и просмотрите импортированные политики.
+2.  Выберите пункт **Маршрутизация голосовой связи** и просмотрите импортированные политики.
 
-3.  Выберите **Конференц** -связь и просмотрите импортированные политики.
+3.  Выберите пункт **Конференц-связь** и просмотрите импортированные политики.
 
 4.  Выберите пункт **Федерация и внешний доступ** и просмотрите импортированные политики.
 
-5.  Нажмите кнопку **мониторинг и архивация** и просмотрите импортированные политики.
+5.  Выберите пункт **Мониторинг и архивация** и просмотрите импортированные политики.
 
 </div>
 

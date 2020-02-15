@@ -12,16 +12,16 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d10b9c9bf31328f5008a8be84fe3c10c901b668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 277e977ae17d79c5c961586d40c9a30e4332b45a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724369"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724369"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-05_
+_**Последнее изменение темы:** 2012-09-05_
 
-Когда вы переносите управление удаленным звонком на сервер Lync Server, вы должны удалить устаревшие авторизованные записи узла (такие как *Доверенные записи приложений* на Lync Server) для всех шлюзов SIP/кста в рамках устаревшего развертывания. Для удаления авторизованных записей узла из этих развертываний необходимо использовать средства администрирования соответственно.
+При переносе удаленного управления звонками в развертывание Lync Server необходимо удалить устаревшие авторизованные записи узла (называемые *записями доверенных приложений* в Lync Server) для всех шлюзов SIP/CSTA в устаревшем развертывании. Для удаления записей авторизованных узлов из этих развертываний необходимо использовать соответствующие средства администрирования.
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d75e0f1f62ec2594ab8d774dc9d426b8bdd56061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93d2c35fcc9ebf037eb33e6553cef28b9e1041ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,197 +35,197 @@ ms.locfileid: "41763793"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-10-09_
+_**Последнее изменение темы:** 2012-10-09_
 
-Командлеты инфраструктуры и развертывания, включенные в Microsoft Lync Server 2013, могут быть полезны при первоначальной настройке и развертывании продукта. После развертывания Lync Server вы можете использовать эти командлеты, чтобы проверить, что компоненты работают должным образом. Управление параметрами репликации; Архивация и восстановление топологии сервера Lync, политик и параметров конфигурации.
+Командлеты инфраструктуры и развертывания, включенные в Microsoft Lync Server 2013, могут быть полезны при первоначальной установке и развертывании продукта; После развертывания Lync Server эти командлеты можно использовать для выполнения таких действий, как проверка правильности работы компонентов. Управление параметрами репликации; Резервное копирование и восстановление топологии, политик и параметров конфигурации Lync Server.
 
 <div>
 
 ## <a name="infrastructure-and-deployment-cmdlets"></a>Командлеты инфраструктуры и развертывания
 
-Администраторам часто приходится напрямую вызывать многие из инфраструктуры и развертывания. Это связано с тем, что эти командлеты автоматически вызываются при запуске программы установки или построителе топологии. (Одно из серьезных исключений может быть командлетом **Export-ксконфигуратион** , который позволяет создавать резервные копии топологии сервера Lync, политик и параметров конфигурации.) Тем не менее, и при необходимости командлеты инфраструктуры и развертывания также можно запускать из командной консоли Lync Server Management Shell или из сценария. Использование сценария позволяет автоматизировать определенные задачи. Ниже приведен список командлетов, которые непосредственно связаны с инфраструктурой и развертыванием.
+Администраторам редко требуется непосредственно вызывать большое количество командлетов инфраструктуры и развертывания. Это связано с тем, что при запуске программы установки или построителя топологий автоматически вызываются эти командлеты. (Одно из них может быть командлетом **Export-CsConfiguration** , которое позволяет создать резервную копию топологии Lync Server, политик и параметров конфигурации). Тем не менее, и при необходимости командлеты инфраструктуры и развертывания также можно запускать из командной консоли Lync Server или из скрипта; Использование сценария позволяет автоматизировать некоторые задачи. Ниже приведен список командлетов, которые относятся непосредственно к инфраструктуре и развертыванию:
 
 **[Командлеты Active Directory в Lync Server 2013](lync-server-2013-active-directory-cmdlets.md)**
 
   - <span></span>  
-    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+    [Disable — CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [Enable — CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [Get — CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-Ксадфорест](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [Disable — CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable — CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [Get — CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [Get — CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [Install-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install — CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
 **[Командлеты репликации в Lync Server 2013](lync-server-2013-replication-cmdlets.md)**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [Debug — Ксинтерпулрепликатион](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke — CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-Ксманажементсторерепликатионстатус](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get — CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-Ксреплика](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [Enable — CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [Get — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [New — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [Remove — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [Set — CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
-**[Командлеты топологии JN Lync Server 2013](lync-server-2013-topology-cmdlets.md)**
+**[Командлеты топологии ЖН Lync Server 2013](lync-server-2013-topology-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+    [Get — CsPool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+    [Get — CsSite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
+    [Set — CsSite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
+    [Enable — CsTopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))
 
   - <span></span>  
-    [Get-CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
+    [Get — CsTopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))
 
   - <span></span>  
-    [Publish-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
+    [Publish — CsTopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))
 
   - <span></span>  
-    [Test-Кстопологи](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+    [Test-CsTopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+    [Export — CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))
 
   - <span></span>  
-    [Import-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
+    [Import — CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
+    [Get — Кссерверверсион](https://technet.microsoft.com/library/Gg398470(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
+    [Disable — CsComputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
+    [Enable — CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))
 
   - <span></span>  
-    [Get-Кскомпутер](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
+    [Get — CsComputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))
 
   - <span></span>  
-    [Test-Кскомпутер](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+    [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+    [Get — CsNetworkInterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))
 
 **[Командлеты резервного копирования и высокой доступности в Lync Server 2013](lync-server-2013-backup-and-high-availability-cmdlets.md)**
 
-  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
+  - [Get — CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205087(v=OCS.15))
 
-  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
+  - [Remove — CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ204903(v=OCS.15))
 
-  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+  - [Set — CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205006(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+  - [Get — Ксбаккупсервицестатус](https://technet.microsoft.com/library/JJ205032(v=OCS.15))
 
 <!-- end list -->
 
-  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+  - [Invoke — Ксбаккупсервицесинк](https://technet.microsoft.com/library/JJ205374(v=OCS.15))
 
 <!-- end list -->
 
-  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+  - [Debug — CsIntraPoolReplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+  - [Backup — CsPool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+  - [Get — CsPoolBackupRelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+  - [Get — CsPoolFabricState](https://technet.microsoft.com/library/JJ619188(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+  - [Invoke — CsPoolFailBack](https://technet.microsoft.com/library/JJ204873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+  - [Invoke — CsPoolFailOver](https://technet.microsoft.com/library/JJ205189(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+  - [Get — CsPoolUpgradeReadinessState](https://technet.microsoft.com/library/JJ204689(v=OCS.15))
 
 <!-- end list -->
 
-  - [Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+  - [Invoke — Кссторажесервицефлуш](https://technet.microsoft.com/library/JJ619175(v=OCS.15))
 
 <!-- end list -->
 
-  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+  - [Sync — CsUserData](https://technet.microsoft.com/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [Remove — Ксусерсторебаккупдата](https://technet.microsoft.com/library/JJ205003(v=OCS.15))
 
 </div>
 

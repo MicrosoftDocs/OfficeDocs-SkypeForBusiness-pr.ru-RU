@@ -12,16 +12,16 @@ ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8040d52690628b6085727d6a1fdac9288b94d5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5fb0c960140ebe7474ac7b4b5322f7b42d611af5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763241"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763241"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2014-02-05_
+_**Последнее изменение темы:** 2014-02-05_
 
-Администратор сохраняемого чата может удалить сообщение из записной комнаты чата (и, при необходимости, может заменить его другим сообщением). Кроме того, для минимизации роста базы данных администраторы могут удалять устаревшие сообщения в рамках текущего обслуживания. Например, эта команда Windows PowerShell удаляет все сообщения из комнаты чата Итчатрум, которые были опубликованы пользователем kenmyer@litwareinc.com:
+Администратор сохраняемого чата может удалить сообщение из комнаты сохраняемого чата (и при необходимости может заменить его другим сообщением). Кроме того, администраторы могут удалять устаревшие сообщения в рамках текущего обслуживания, чтобы свести к минимуму рост объема базы данных. Например, эта команда Windows PowerShell удаляет все сообщения из комнаты чата ITChatRoom, которые были отправлены пользователем kenmyer@litwareinc.com:
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com"
 
-В этом примере все удаленные сообщения заменяются заметкой о том, что сообщение больше не доступно.
+В этом примере все удаленные сообщения заменяются заметкой о том, что сообщение больше не доступно:
 
     Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.litwareinc.com\ITChatRoom" -UserUri "sip:kenmyer@litwareinc.com" -ReplaceMessage "This message is no longer available."
 
-Дополнительные сведения можно найти в разделе справки по командлету [Remove-ксперсистентчатмессаже](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) .
+Для получения дополнительных сведений обратитесь к разделу "Справка" для командлета [Remove – CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Remove-CsPersistentChatMessage) .
 
 </div>
 

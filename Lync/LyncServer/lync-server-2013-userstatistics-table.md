@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744259"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744259"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-09-28_
+_**Последнее изменение темы:** 2012-09-28_
 
-Таблица Усерстатистикс является вспомогательной таблицей. Каждая запись в таблице содержит сведения об использовании системы конкретным пользователем. Эта таблица введена в Microsoft Lync Server 2013.
+Таблица UserStatistics предназначена для поддержки. Каждая запись в таблице содержит информацию об использовании системы отдельными пользователями. Эта таблица была введена в Microsoft Lync Server 2013.
 
 
 <table>
@@ -51,16 +51,16 @@ _**Тема последнего изменения:** 2012-09-28_
 <tr class="header">
 <th>Столбец</th>
 <th>Тип данных</th>
-<th>Ключ/индекс</th>
+<th>Ключ или индекс</th>
 <th>Сведения</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Идентификатора пользователя</strong></p></td>
-<td><p>целое</p></td>
+<td><p><strong>UserId</strong></p></td>
+<td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Уникальный номер, идентифицирующий этого пользователя.</p></td>
+<td><p>Уникальный номер, идентифицирующий данного пользователя.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ластлогинтиме</strong></p></td>
@@ -72,19 +72,19 @@ _**Тема последнего изменения:** 2012-09-28_
 <td><p><strong>ластконфорганизедтиме</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Последний раз, когда пользователь организует конференцию.</p></td>
+<td><p>Время последней конференции, организованной пользователем.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ласткаллорганизеркаллфаилуретиме</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Последнее время, когда пользователь попытался вызвать сбой звонка.</p></td>
+<td><p>Время последнего сбоя вызова пользователя.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ластконфорганизеркаллфаилуретиме</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Последний раз, когда пользователь попытался вызвать сбой в организаторе конференц-связи.</p></td>
+<td><p>Время последнего сбоя вызова, когда организатором конференции был данный пользователь.</p></td>
 </tr>
 </tbody>
 </table>

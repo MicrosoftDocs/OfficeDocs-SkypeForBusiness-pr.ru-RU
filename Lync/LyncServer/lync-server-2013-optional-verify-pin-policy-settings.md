@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: проверка параметров политики ПИН-кодов (необязательно)'
+title: 'Lync Server 2013: Проверка параметров политики ПИН-кодов (необязательно)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0932eb97ee276368ee7b4479d17100b00af29d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cccae79c64205ece3256851a19e54dce8582f9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755693"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>Проверка параметров политики ПИН-кодов в Lync Server 2013 (необязательно)
+# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>Необязательно Проверка параметров политики ПИН-кода в Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755693"
 
 <span> </span>
 
-_**Тема последнего изменения:** 2012-06-20_
+_**Последнее изменение темы:** 2012-06-20_
 
-Пользователи Lync Server 2013, у которых есть учетные данные доменных служб Active Directory, могут ввести персональный идентификационный номер (ПИН-код), чтобы присоединиться к конференциям в качестве зарегистрированных пользователей. Политика ПИН-кода определяет правила работы контактов конференц-связи с телефонным подключением.
+Lync Server 2013 пользователи, у которых есть учетные данные доменных служб Active Directory, могут вводить персональный идентификационный номер (ПИН-код) для присоединения к конференциям с телефонным подключением как проверенных пользователей. Политика ПИН-кодов определяет правила работы ПИН-кодов конференций с телефонными подключениями.
 
-Если вы развертываете Конференц-связь с телефонным подключением, убедитесь, что в соответствии с вашими требованиями соответствует политика глобального ПИН-кода по умолчанию. Если вам нужно внести изменения, вы можете изменить глобальную политику по умолчанию или создать новую политику ПИН-кода. Вы можете создавать политики закрепления, которые применяются к определенному сайту, определенному пользователю или определенной группе пользователей.
+При развертывании конференц-связи с телефонными подключениями следует убедиться, что глобальная политика ПИН-кодов по умолчанию удовлетворяет вашим требованиям. Если необходимо внести изменения, можно изменить глобальную политику по умолчанию или создать новую политику ПИН-кодов. Можно создать политики ПИН-кодов, которые применяются к определенному узлу, пользователю или группе пользователей.
 
 <div>
 
 ## <a name="in-this-section"></a>Содержание
 
-  - [Изменение параметров ПИН-кодов по умолчанию для конференц-связи с телефонным подключением в Lync Server 2013](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
+  - [Изменение параметров ПИН-кода конференц-связи с телефонным подключением по умолчанию в Lync Server 2013](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [оздание или изменение параметров ПИН-кода для конференц-связи с телефонным подключением в Lync Server 2013 для сайта или группы пользователей](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [Создание или изменение параметров ПИН-кода конференц-связи с телефонным подключением в Lync Server 2013 для сайта или группы пользователей](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 
