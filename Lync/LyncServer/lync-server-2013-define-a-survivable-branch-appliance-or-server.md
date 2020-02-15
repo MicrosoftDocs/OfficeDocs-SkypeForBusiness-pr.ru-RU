@@ -12,20 +12,20 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9006aa3a54a2aa38cecb4b49ef56094eb24494fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="162ee-102">Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="162ee-102">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
+# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="140e0-102">Определение устройства или сервера для обеспечения связи в филиалах в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="140e0-102">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,71 +35,71 @@ ms.locfileid: "41728509"
 
 <span> </span>
 
-<span data-ttu-id="162ee-103">_**Тема последнего изменения:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="162ee-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="140e0-103">_**Последнее изменение темы:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="140e0-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="162ee-104">Если вы не определили работающее устройство филиала или сервер при добавлении в топологию, выполните эту процедуру на центральном сайте.</span><span class="sxs-lookup"><span data-stu-id="162ee-104">Perform this procedure at the central site if you did not define the Survivable Branch Appliance or Server when you added it to your topology.</span></span>
+<span data-ttu-id="140e0-104">Выполните эту процедуру на центральном сайте, если вы не определили устройство или сервер для обеспечения связи в филиалах при добавлении его в топологию.</span><span class="sxs-lookup"><span data-stu-id="140e0-104">Perform this procedure at the central site if you did not define the Survivable Branch Appliance or Server when you added it to your topology.</span></span>
 
 <div>
 
-## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="162ee-105">Определение бесперебойно работающего устройства филиала или работающего сервера подразделения</span><span class="sxs-lookup"><span data-stu-id="162ee-105">To define a Survivable Branch Appliance or Survivable Branch Server</span></span>
+## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="140e0-105">Определение устройства для обеспечения связи в филиалах или сервера для обеспечения связи в филиалах</span><span class="sxs-lookup"><span data-stu-id="140e0-105">To define a Survivable Branch Appliance or Survivable Branch Server</span></span>
 
-1.  <span data-ttu-id="162ee-106">Нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**и нажмите кнопку **Построитель топологии Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="162ee-106">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="140e0-106">Нажмите кнопку **Пуск**, последовательно выберите пункты **все программы**, **Microsoft Lync Server 2013**и **Построитель топологий Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="140e0-106">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="162ee-107">В дереве консоли разверните узел центрального сайта, разверните **узлы филиалов**, а затем разверните имя сайта ветви, на котором вы планируете развернуть работающее устройство филиала или его бесперебойный сервер.</span><span class="sxs-lookup"><span data-stu-id="162ee-107">In the console tree, expand the central site, expand **Branch sites**, and then expand the name of the branch site where you plan to deploy the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+2.  <span data-ttu-id="140e0-107">В дереве консоли разверните узел центрального сайта, разверните узел **сайты филиалов**, а затем — имя сайта филиала, на котором планируется развернуть устройство для обеспечения связи в филиалах или сервер для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="140e0-107">In the console tree, expand the central site, expand **Branch sites**, and then expand the name of the branch site where you plan to deploy the Survivable Branch Appliance or Survivable Branch Server.</span></span>
 
-3.  <span data-ttu-id="162ee-108">Щелкните правой кнопкой мыши **бесперебойно работающие филиалы**, а затем выберите команду создать работающее **устройство филиала**.</span><span class="sxs-lookup"><span data-stu-id="162ee-108">Right-click **Survivable Branch Appliances**, and then click **New Survivable Branch Appliance**.</span></span>
+3.  <span data-ttu-id="140e0-108">Щелкните правой кнопкой мыши устройства для обеспечения связи в **филиалах**и выберите команду создать устройство для обеспечения связи в **филиалах**.</span><span class="sxs-lookup"><span data-stu-id="140e0-108">Right-click **Survivable Branch Appliances**, and then click **New Survivable Branch Appliance**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="162ee-109"><STRONG>Бесперебойно работающих филиалы</STRONG> — это область, в которой вы определяете бесперебойные серверы филиалов и бесперебойные устройства ветвления.</span><span class="sxs-lookup"><span data-stu-id="162ee-109"><STRONG>Survivable Branch Appliances</STRONG> is where you define Survivable Branch Servers and Survivable Branch Appliances.</span></span>
+    > <span data-ttu-id="140e0-109">Устройства для обеспечения связи в <STRONG>филиалах</STRONG> позволяют определить серверы для обеспечения связи в филиалах и устройства для обеспечения связи в филиалах.</span><span class="sxs-lookup"><span data-stu-id="140e0-109"><STRONG>Survivable Branch Appliances</STRONG> is where you define Survivable Branch Servers and Survivable Branch Appliances.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="162ee-110">В диалоговом окне **Определение бесперебойной работы устройства филиала** выберите полное доменное имя **(FQDN)** для работающего устройства филиала или его бесперебойный сервер, который будет развертываться на этом сайте филиала, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="162ee-110">In the **Define Survivable Branch Appliance** dialog box, click **FQDN**, type the fully qualified domain name (FQDN) of the Survivable Branch Appliance or Survivable Branch Server you will deploy at this branch site, and then click **Next**.</span></span>
+4.  <span data-ttu-id="140e0-110">В диалоговом окне **Определение устройства** для обеспечения связи в филиалах **выберите полное доменное имя, введите**полное доменное имя (FQDN) устройства или сервера для обеспечения связи в филиалах, которое будет развернуто на этом сайте филиала, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="140e0-110">In the **Define Survivable Branch Appliance** dialog box, click **FQDN**, type the fully qualified domain name (FQDN) of the Survivable Branch Appliance or Survivable Branch Server you will deploy at this branch site, and then click **Next**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="162ee-111">Если вы определяете бесперебойную подстановку, имя, которое вы ввели в <STRONG>полном доменном</STRONG> имени, должно совпадать с именем бесперебойного устройства, которое вы назначили атрибуту "пользовательское <STRONG>устройство".</STRONG></span><span class="sxs-lookup"><span data-stu-id="162ee-111">If you are defining a Survivable Branch Appliance, the name you enter in <STRONG>FQDN</STRONG> must be the same as the Survivable Branch Appliance FQDN you assigned to the <STRONG>servicePrincipalName</STRONG> attribute.</span></span> <span data-ttu-id="162ee-112">Дополнительные сведения можно найти <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">в разделе Добавление работающего устройства филиала в Active Directory в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="162ee-112">For details, see <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="140e0-111">При определении устройства для обеспечения связи в филиалах имя, введенное в поле <STRONG>полное доменное</STRONG> имя, должно совпадать с полным доменным именем устройства для обеспечения связи <STRONG>в</STRONG> филиалах, которое было назначено атрибуту "значение".</span><span class="sxs-lookup"><span data-stu-id="140e0-111">If you are defining a Survivable Branch Appliance, the name you enter in <STRONG>FQDN</STRONG> must be the same as the Survivable Branch Appliance FQDN you assigned to the <STRONG>servicePrincipalName</STRONG> attribute.</span></span> <span data-ttu-id="140e0-112">Сведения о том, <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">как добавить устройство для обеспечения связи в филиалах, можно найти в Active Directory в Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="140e0-112">For details, see <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="162ee-113">Щелкните элемент **пул переднего плана**, щелкните сервер переднего плана (пул служб пользователей) на центральном сайте, к которому можно подключиться, и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="162ee-113">Click **Front End pool**, click the Front End Server (User Services pool) at the central site that this Survivable Branch Appliance or Survivable Branch Server will connect to, and then click **Next**.</span></span>
+5.  <span data-ttu-id="140e0-113">Щелкните **интерфейсный пул**, выберите сервер переднего плана (пул служб пользователей) на центральном сайте, с которым будет подключаться это устройство для обеспечения связи в филиалах или сервером для обеспечения связи в филиалах, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="140e0-113">Click **Front End pool**, click the Front End Server (User Services pool) at the central site that this Survivable Branch Appliance or Survivable Branch Server will connect to, and then click **Next**.</span></span>
 
-6.  <span data-ttu-id="162ee-114">Щелкните **граничный сервер**, выберите пул пограничного пула, который будет подключаться к сети, чтобы обеспечить подключение к ним для удаленных пользователей на сайте филиала, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="162ee-114">Click **Edge Server**, click the Edge pool that this Survivable Branch Appliance or Survivable Branch Server will connect to provide PSTN connectivity to remote users of the branch site, and then click **Next**.</span></span>
+6.  <span data-ttu-id="140e0-114">Щелкните **пограничный сервер**, выберите Пограничный пул, который будет подключаться к этому устройству для обеспечения связи в филиалах или сервере для обеспечения связи в филиалах для предоставления доступа к PSTN удаленным пользователям сайта филиала, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="140e0-114">Click **Edge Server**, click the Edge pool that this Survivable Branch Appliance or Survivable Branch Server will connect to provide PSTN connectivity to remote users of the branch site, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="162ee-115">Выберите **полное доменное имя или IP-адрес шлюза**, а затем введите полное доменное имя или IP-адрес узла шлюза, с которым может быть установлено подключение для входящей или исходящей маршрутизации по протоколу PSTN.</span><span class="sxs-lookup"><span data-stu-id="162ee-115">Click **Gateway FQDN or IP Address**, and then type the FQDN or IP address of the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound or outbound PSTN calls.</span></span>
+7.  <span data-ttu-id="140e0-115">Выберите **полное доменное имя шлюза или IP-адрес**, а затем введите полное доменное имя или IP-адрес узла шлюза, с которым связано устройство для обеспечения связи в филиалах или сервер для обеспечения связи в филиалах, с целью маршрутизации входящих или исходящих вызовов PSTN.</span><span class="sxs-lookup"><span data-stu-id="140e0-115">Click **Gateway FQDN or IP Address**, and then type the FQDN or IP address of the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound or outbound PSTN calls.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="162ee-116">Если вы определяете бесперебойно работающее устройство ветвления, это шлюз, на который сервер-посредник может находиться в работающем устройстве филиала, подключается к сети PSTN.</span><span class="sxs-lookup"><span data-stu-id="162ee-116">If you are defining a Survivable Branch Appliance, this is the gateway to which the Mediation Server inside the Survivable Branch Appliance will connect for PSTN connectivity.</span></span>
+    > <span data-ttu-id="140e0-116">При определении устройства обеспечения связи на филиалах здесь указывается шлюз, к которому подключается сервер-посредник в устройстве обеспечения связи для выхода в ТСОП.</span><span class="sxs-lookup"><span data-stu-id="140e0-116">If you are defining a Survivable Branch Appliance, this is the gateway to which the Mediation Server inside the Survivable Branch Appliance will connect for PSTN connectivity.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="162ee-117">Выберите **прослушивающий порт для IP/КТСОП**и подтвердите порт по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="162ee-117">Click **Listening Port for IP/PSTN Gateway**, and then accept the default port.</span></span>
+8.  <span data-ttu-id="140e0-117">Щелкните элемент **Listening Port for IP/PSTN Gateway** (Прослушивающий порт для шлюза IP/ТСОП), а затем подтвердите порт по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="140e0-117">Click **Listening Port for IP/PSTN Gateway**, and then accept the default port.</span></span>
 
-9.  <span data-ttu-id="162ee-118">В **транспортном протоколе SIP**выберите транспортный протокол, который будет использоваться для работающего устройства филиала или для работающего филиала, а затем нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="162ee-118">In **Sip Transport Protocol**, click the transport protocol the Survivable Branch Appliance or Survivable Branch Server will use, and then click **Finish**.</span></span>
+9.  <span data-ttu-id="140e0-118">В разделе **транспортный протокол SIP**выберите транспортный протокол, который будет использоваться устройством для обеспечения связи в филиалах или сервером для обеспечения связи в филиалах, а затем нажмите кнопку **Готово**.</span><span class="sxs-lookup"><span data-stu-id="140e0-118">In **Sip Transport Protocol**, click the transport protocol the Survivable Branch Appliance or Survivable Branch Server will use, and then click **Finish**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="162ee-119">По соображениям безопасности мы настоятельно рекомендуем использовать TLS-защиту.</span><span class="sxs-lookup"><span data-stu-id="162ee-119">For security reasons, we strongly recommend that you use Transport Layer Security (TLS).</span></span> <span data-ttu-id="162ee-120">Если вы определяете работающее устройство филиала, ознакомьтесь с соответствующей документацией поставщика филиала, чтобы убедиться в том, что устройство, поддерживающее бесперебойную ветвь, поддерживает протокол TLS.</span><span class="sxs-lookup"><span data-stu-id="162ee-120">If you are defining a Survivable Branch Appliance, refer to your Survivable Branch Appliance vendor documentation to verify that your Survivable Branch Appliance supports the TLS protocol.</span></span>
+    > <span data-ttu-id="140e0-119">В целях безопасности мы настоятельно рекомендуем вам использовать протокол TLS.</span><span class="sxs-lookup"><span data-stu-id="140e0-119">For security reasons, we strongly recommend that you use Transport Layer Security (TLS).</span></span> <span data-ttu-id="140e0-120">Если необходимо определить устройство обеспечения связи на филиалах, обратитесь к документации производителей этих устройств, чтобы убедиться в поддержке протокола TLS.</span><span class="sxs-lookup"><span data-stu-id="140e0-120">If you are defining a Survivable Branch Appliance, refer to your Survivable Branch Appliance vendor documentation to verify that your Survivable Branch Appliance supports the TLS protocol.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="162ee-121">В дереве консоли щелкните правой кнопкой мыши новое работающее устройство или сервер филиала, выберите пункт **топология**и нажмите кнопку **опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="162ee-121">In the console tree, right-click the new Survivable Branch Appliance or Server, click **Topology**, and then click **Publish**.</span></span>
+10. <span data-ttu-id="140e0-121">В дереве консоли щелкните новое устройство или новый сервер для обеспечения связи в филиалах правой кнопкой мыши, выберите пункт **Topology** (Топология) и затем щелкните элемент **Publish** (Опубликовать).</span><span class="sxs-lookup"><span data-stu-id="140e0-121">In the console tree, right-click the new Survivable Branch Appliance or Server, click **Topology**, and then click **Publish**.</span></span>
 
-<span data-ttu-id="162ee-122">**Следующий этап**: [развертывание бесперебойно работающего устройства филиала или сервера с помощью Lync Server 2013 — задачи сайта ответвления](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span><span class="sxs-lookup"><span data-stu-id="162ee-122">**Next step**: [Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span></span>
+<span data-ttu-id="140e0-122">**Следующий шаг**: [развертывание устройства или сервера для обеспечения связи в филиалах с помощью Lync Server 2013 — задача сайта филиала](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span><span class="sxs-lookup"><span data-stu-id="140e0-122">**Next step**: [Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754389"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="708c3-102">Планирование парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-102">Planning for Call Park in Lync Server 2013</span></span>
+# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="3d45d-102">Планирование парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-102">Planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41754389"
 
 <span> </span>
 
-<span data-ttu-id="708c3-103">_**Тема последнего изменения:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="708c3-103">_**Topic Last Modified:** 2012-09-07_</span></span>
+<span data-ttu-id="3d45d-103">_**Последнее изменение темы:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="3d45d-103">_**Topic Last Modified:** 2012-09-07_</span></span>
 
-<span data-ttu-id="708c3-104">Приложение на приостановке звонков в Lync Server делает возможным, что пользователи корпоративной голосовой связи могут поставить звонок на удержание и затем извлечь его с любого телефона.</span><span class="sxs-lookup"><span data-stu-id="708c3-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="708c3-105">Пользователь, который заприпаркован звонок, может либо набрать номер орбиты, предоставленный приостановкой звонка, чтобы получить припаркованный звонок, либо воспользоваться внешним механизмом, таким как обмен мгновенными сообщениями или системам разбиения по страницам, чтобы попросить другого человека получить звонок.</span><span class="sxs-lookup"><span data-stu-id="708c3-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="708c3-106">Этот раздел содержит сведения о планировании, относящиеся к приостановке звонков.</span><span class="sxs-lookup"><span data-stu-id="708c3-106">This section includes planning information that is specific to Call Park.</span></span>
+<span data-ttu-id="3d45d-104">Приложение парковки вызовов Lync Server позволяет пользователям корпоративной голосовой связи помещать вызов на удержание, а затем извлекать его позже с любого телефона.</span><span class="sxs-lookup"><span data-stu-id="3d45d-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="3d45d-105">Пользователь, запарковавший вызов, может либо набрать номер орбиты, предоставленный приложением "Парковка вызовов", чтобы извлечь запаркованный вызов, или воспользоваться внешним механизмом, таким как обмен мгновенными сообщениями или система оповещения, чтобы попросить извлечь вызов кого-нибудь еще.</span><span class="sxs-lookup"><span data-stu-id="3d45d-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="3d45d-106">В этом разделе содержатся сведения о планировании, относящиеся к приостановке вызовов.</span><span class="sxs-lookup"><span data-stu-id="3d45d-106">This section includes planning information that is specific to Call Park.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="708c3-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="708c3-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3d45d-107">Содержание</span><span class="sxs-lookup"><span data-stu-id="3d45d-107">In This Section</span></span>
 
-  - [<span data-ttu-id="708c3-108">Общие сведения о приостановке звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
+  - [<span data-ttu-id="3d45d-108">Обзор парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
 
-  - [<span data-ttu-id="708c3-109">Компоненты, используемые парковкой вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
+  - [<span data-ttu-id="3d45d-109">Компоненты, используемые при парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
 
-  - [<span data-ttu-id="708c3-110">Технические требования к парковке вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
+  - [<span data-ttu-id="3d45d-110">Технические требования для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [<span data-ttu-id="708c3-111">Клиенты, поддерживаемые для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
+  - [<span data-ttu-id="3d45d-111">Клиенты, поддерживаемые для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [<span data-ttu-id="708c3-112">Планирование емкости для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
+  - [<span data-ttu-id="3d45d-112">Планирование емкости для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [<span data-ttu-id="708c3-113">Процесс развертывания для парковки звонков в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="708c3-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
+  - [<span data-ttu-id="3d45d-113">Процесс развертывания для парковки вызовов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d45d-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

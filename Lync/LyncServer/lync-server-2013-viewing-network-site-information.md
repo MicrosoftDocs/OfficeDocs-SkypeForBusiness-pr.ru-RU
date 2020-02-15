@@ -12,20 +12,20 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d3c6b0e4855cd8620205a70d6538465c32c0f0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3d6ee36e77a36e614019f4c29b563a4e7b25469
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-site-information-in-lync-server-2013"></a><span data-ttu-id="14379-102">Просмотр сведений о сетевом сайте в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14379-102">Viewing network site information in Lync Server 2013</span></span>
+# <a name="viewing-network-site-information-in-lync-server-2013"></a><span data-ttu-id="db364-102">Просмотр сведений о сетевом сайте в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db364-102">Viewing network site information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,50 +35,50 @@ ms.locfileid: "41757263"
 
 <span> </span>
 
-<span data-ttu-id="14379-103">_**Тема последнего изменения:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="14379-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="db364-103">_**Последнее изменение темы:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="db364-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="14379-104">Сетевые сайты — это офисы или места, настроенные в каждом регионе управления допуском звонков (CAC) или Улучшенное развертывание 9-1-1.</span><span class="sxs-lookup"><span data-stu-id="14379-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="14379-105">Вы можете просматривать сведения о сетевом сайте либо на панели управления Lync Server 2013, либо в командной консоли Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="14379-105">You can view network site information in either Lync Server 2013 Control Panel or Lync Server Management Shell .</span></span> <span data-ttu-id="14379-106">Дополнительные сведения о создании и изменении сайтов сети можно найти [в разделе Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).</span><span class="sxs-lookup"><span data-stu-id="14379-106">For details about creating or modifying network sites, see [Creating or modifying network sites in Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).</span></span>
+<span data-ttu-id="db364-104">Сетевые узлы — это офисы или места, настроенные в каждой области развертывания контроля допуска звонков (CAC) или Enhanced 9-1-1.</span><span class="sxs-lookup"><span data-stu-id="db364-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="db364-105">Сведения о сетевом сайте можно просматривать либо в панели управления Lync Server 2013, либо в командной консоли Lync Server.</span><span class="sxs-lookup"><span data-stu-id="db364-105">You can view network site information in either Lync Server 2013 Control Panel or Lync Server Management Shell .</span></span> <span data-ttu-id="db364-106">Дополнительные сведения о создании или изменении сетевых сайтов можно найти [в статье Создание или изменение сетевых сайтов в Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).</span><span class="sxs-lookup"><span data-stu-id="db364-106">For details about creating or modifying network sites, see [Creating or modifying network sites in Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).</span></span>
 
 <div>
 
-## <a name="to-view-network-site-information-in-lync-server-control-panel"></a><span data-ttu-id="14379-107">Просмотр сведений о сетевом сайте на панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="14379-107">To view network site information in Lync Server Control Panel</span></span>
+## <a name="to-view-network-site-information-in-lync-server-control-panel"></a><span data-ttu-id="db364-107">Просмотр сведений о сетевом сайте в панели управления Lync Server</span><span class="sxs-lookup"><span data-stu-id="db364-107">To view network site information in Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="14379-108">Войдите на любой компьютер, находящийся во внутреннем развертывании, с использованием учетной записи, входящей в группу RTCUniversalServerAdmins (или имеющей равнозначные права пользователя) либо назначенной роли CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="14379-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="db364-108">Из учетной записи пользователя, которая является членом группы RTCUniversalServerAdmins (или имеет эквивалентные права пользователя) или назначается роли CsAdministrator, войдите на любой компьютер во внутреннем развертывании.</span><span class="sxs-lookup"><span data-stu-id="db364-108">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="14379-109">Откройте окно браузера и введите URL-адрес администратора, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="14379-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="14379-110">Дополнительные сведения о различных способах, которые можно использовать для запуска панели управления Lync Server, приведены в разделе [Открытие меню администрирования Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="14379-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="db364-109">Откройте окно браузера и введите URL-адрес администрирования, чтобы открыть панель управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="db364-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="db364-110">Для получения дополнительных сведений о различных методах, которые можно использовать для запуска панели управления Lync Server, ознакомьтесь со статьей [Open Lync server 2013 администрирование](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="db364-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="14379-111">На панели навигации слева выберите пункт **Настройка сети** , а затем — **сайт**.</span><span class="sxs-lookup"><span data-stu-id="14379-111">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
+3.  <span data-ttu-id="db364-111">На левой панели навигации щелкните **Конфигурация сети** и выберите **Сайт**.</span><span class="sxs-lookup"><span data-stu-id="db364-111">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
 
-4.  <span data-ttu-id="14379-112">На странице **сайта** выберите сайт, который вы хотите просмотреть.</span><span class="sxs-lookup"><span data-stu-id="14379-112">On the **Site** page, click the site that you want to view.</span></span>
+4.  <span data-ttu-id="db364-112">На странице **Сайт** выберите сайт, который хотите просмотреть.</span><span class="sxs-lookup"><span data-stu-id="db364-112">On the **Site** page, click the site that you want to view.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="14379-113">Вы можете просматривать сведения только для одного сайта одновременно.</span><span class="sxs-lookup"><span data-stu-id="14379-113">You can only view information for one site at a time.</span></span>
+    > <span data-ttu-id="db364-113">Допускается одновременный просмотр данных только для одного сайта.</span><span class="sxs-lookup"><span data-stu-id="db364-113">You can only view information for one site at a time.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="14379-114">В меню **Правка** щелкните **Подробнее**.</span><span class="sxs-lookup"><span data-stu-id="14379-114">On the **Edit** menu, click **Show details**.</span></span>
+5.  <span data-ttu-id="db364-114">В меню **Правка** щелкните **Показать подробности**.</span><span class="sxs-lookup"><span data-stu-id="db364-114">On the **Edit** menu, click **Show details**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="14379-115">Просмотр сведений о сетевом сайте с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="14379-115">Viewing Network Site Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="db364-115">Просмотр сведений о сетевом сайте с помощью командлетов Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="db364-115">Viewing Network Site Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="14379-116">Вы можете просматривать сведения о сетевом сайте с помощью Windows PowerShell и командлета Get-Кснетворксите.</span><span class="sxs-lookup"><span data-stu-id="14379-116">You can view network site information by using Windows PowerShell and the Get-CsNetworkSite cmdlet.</span></span> <span data-ttu-id="14379-117">Этот командлет можно выполнить либо из управляющей оболочки Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="14379-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="14379-118">Подробнее об использовании удаленной оболочки Windows PowerShell для подключения к серверу Lync Server можно найти в статье "Краткое руководство по работе с Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" на [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)веб-сервере Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="14379-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="db364-116">Сведения о сетевом сайте можно просмотреть с помощью Windows PowerShell и командлета Get-CsNetworkSite.</span><span class="sxs-lookup"><span data-stu-id="db364-116">You can view network site information by using Windows PowerShell and the Get-CsNetworkSite cmdlet.</span></span> <span data-ttu-id="db364-117">Этот командлет можно запустить либо из командной консоли Lync Server 2013, либо из удаленного сеанса Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="db364-117">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="db364-118">Сведения об использовании удаленной оболочки Windows PowerShell для подключения к Lync Server приведены в статье "Краткое руководство по управлению Microsoft Lync Server 2010 с помощью удаленной оболочки PowerShell" в [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)статье Lync Server Windows PowerShell в блоге.</span><span class="sxs-lookup"><span data-stu-id="db364-118">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-network-site-information"></a><span data-ttu-id="14379-119">Просмотр сведений о сетевом сайте</span><span class="sxs-lookup"><span data-stu-id="14379-119">To view network site information</span></span>
+## <a name="to-view-network-site-information"></a><span data-ttu-id="db364-119">Просмотр сведений о сетевом сайте</span><span class="sxs-lookup"><span data-stu-id="db364-119">To view network site information</span></span>
 
-  - <span data-ttu-id="14379-120">Чтобы просмотреть сведения о всех сетевых сайтах, введите в командной консоли Lync Server указанную ниже команду и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="14379-120">To view information about all your network sites, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="db364-120">Чтобы просмотреть сведения обо всех сетевых сайтах, введите в командной консоли Lync Server следующую команду и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="db364-120">To view information about all your network sites, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkSite
     
-    <span data-ttu-id="14379-121">Команда возвращает примерно следующую информацию:</span><span class="sxs-lookup"><span data-stu-id="14379-121">That will return information similar to this:</span></span>
+    <span data-ttu-id="db364-121">Это приведет к возврату приблизительно такой информации:</span><span class="sxs-lookup"><span data-stu-id="db364-121">That will return information similar to this:</span></span>
     
         Identity          : Redmond
         NetworkSiteID     : Redmond
@@ -90,17 +90,17 @@ ms.locfileid: "41757263"
 
 </div>
 
-<span data-ttu-id="14379-122">Дополнительные сведения можно найти в разделе справки по командлету [Get-кснетворксите](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .</span><span class="sxs-lookup"><span data-stu-id="14379-122">For more information, see the help topic for the [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) cmdlet.</span></span>
+<span data-ttu-id="db364-122">Дополнительные сведения см. в разделе справки для командлета [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite).</span><span class="sxs-lookup"><span data-stu-id="db364-122">For more information, see the help topic for the [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="14379-123">См. также</span><span class="sxs-lookup"><span data-stu-id="14379-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="db364-123">См. также</span><span class="sxs-lookup"><span data-stu-id="db364-123">See Also</span></span>
 
 
-[<span data-ttu-id="14379-124">Создание и изменение сетевых сайтов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14379-124">Creating or modifying network sites in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-sites.md)  
-[<span data-ttu-id="14379-125">Удаление существующего сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14379-125">Deleting an existing network site in Lync Server 2013</span></span>](lync-server-2013-deleting-an-existing-network-site.md)  
+[<span data-ttu-id="db364-124">Создание или изменение сетевых сайтов в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db364-124">Creating or modifying network sites in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-sites.md)  
+[<span data-ttu-id="db364-125">Удаление существующего сетевого сайта в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="db364-125">Deleting an existing network site in Lync Server 2013</span></span>](lync-server-2013-deleting-an-existing-network-site.md)  
   
 
 </div>

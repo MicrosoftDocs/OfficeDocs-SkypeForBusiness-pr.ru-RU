@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: запущенные большие собрания'
+title: 'Lync Server 2013: выполнение больших собраний'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e3dacecfcb619d9b2a7142c562572f60b121894
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc7d3d105b09f3a917829e5610396b49f43d923
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-large-meetings-in-lync-server-2013"></a><span data-ttu-id="69b7b-102">Выполнение большого количества собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="69b7b-102">Running large meetings in Lync Server 2013</span></span>
+# <a name="running-large-meetings-in-lync-server-2013"></a><span data-ttu-id="ac6b5-102">Выполнение больших собраний в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ac6b5-102">Running large meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765057"
 
 <span> </span>
 
-<span data-ttu-id="69b7b-103">_**Тема последнего изменения:** 2019-01-17_</span><span class="sxs-lookup"><span data-stu-id="69b7b-103">_**Topic Last Modified:** 2019-01-17_</span></span>
+<span data-ttu-id="ac6b5-103">_**Последнее изменение темы:** 2019-01-17_</span><span class="sxs-lookup"><span data-stu-id="ac6b5-103">_**Topic Last Modified:** 2019-01-17_</span></span>
 
-<span data-ttu-id="69b7b-p101">Если в собрании участвует от нескольких сотен до одной тысячи пользователей, рекомендуется поручить одному из сотрудников ведение интернет-сеанса собрания. Этот сотрудник может быть назначен организатором собрания или работать в службе поддержки больших собраний в организации. При планировании собрания следует добавить назначенного собрания в качестве одного из докладчиков, хотя предоставить участнику роль докладчика можно и во время собрания.</span><span class="sxs-lookup"><span data-stu-id="69b7b-p101">With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting. This dedicated person can be a delegate of the meeting organizer or a member of the organization’s large-meeting support staff. It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.</span></span>
+<span data-ttu-id="ac6b5-104">С несколькими сотнями пользователей на собрании рекомендуется использовать выделенный человек, который умеренный сеанс работы в сети на большом собрании.</span><span class="sxs-lookup"><span data-stu-id="ac6b5-104">With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting.</span></span> <span data-ttu-id="ac6b5-105">Этот человек может получить делегированные полномочия от организатора собрания или являться сотрудником службы поддержки больших собраний в организации.</span><span class="sxs-lookup"><span data-stu-id="ac6b5-105">This dedicated person can be a delegate of the meeting organizer or a member of the organization’s large-meeting support staff.</span></span> <span data-ttu-id="ac6b5-106">При планировании собрания следует добавить этого специального модератора собрания в качестве выступающего, хотя повысить участника до роли выступающего можно прямо во время собрания.</span><span class="sxs-lookup"><span data-stu-id="ac6b5-106">It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.</span></span>
 
-<span data-ttu-id="69b7b-107">Модератор собрания может использовать следующие функции выступающего для клиентов Lync Server 2013 для управления большим собранием.</span><span class="sxs-lookup"><span data-stu-id="69b7b-107">The meeting moderator can use the following presenter functionalities of Lync Server 2013 clients to manage the large meeting:</span></span>
+<span data-ttu-id="ac6b5-107">Модератор собрания может использовать следующие функции докладчика для клиентов Lync Server 2013 для управления большим собранием:</span><span class="sxs-lookup"><span data-stu-id="ac6b5-107">The meeting moderator can use the following presenter functionalities of Lync Server 2013 clients to manage the large meeting:</span></span>
 
-- <span data-ttu-id="69b7b-108">Изменение типов доступа к собранию.</span><span class="sxs-lookup"><span data-stu-id="69b7b-108">Change meeting access types.</span></span>
+- <span data-ttu-id="ac6b5-108">Изменение типов доступа к собранию.</span><span class="sxs-lookup"><span data-stu-id="ac6b5-108">Change meeting access types.</span></span>
 
-- <span data-ttu-id="69b7b-109">Пригласите других участников собрания с помощью функции перетаскивания в Lync, набора номера телефона или электронной почты.</span><span class="sxs-lookup"><span data-stu-id="69b7b-109">Invite additional participants during the meeting using Lync drag and drop functionality, phone dial out, or email.</span></span>
+- <span data-ttu-id="ac6b5-109">Пригласите дополнительных участников во время собрания с помощью функции перетаскивания Lync, набора номера телефона или электронной почты.</span><span class="sxs-lookup"><span data-stu-id="ac6b5-109">Invite additional participants during the meeting using Lync drag and drop functionality, phone dial out, or email.</span></span>
 
-- <span data-ttu-id="69b7b-110">Управление содержимым для собраний, включая передачу содержимого, удаление содержимого и переключение активного содержимого.</span><span class="sxs-lookup"><span data-stu-id="69b7b-110">Manage meeting content, including uploading content, deleting content, and switching active content.</span></span>
+- <span data-ttu-id="ac6b5-110">Управление контентом собраний, включая отправку содержимого, удаление контента и переключение активного контента.</span><span class="sxs-lookup"><span data-stu-id="ac6b5-110">Manage meeting content, including uploading content, deleting content, and switching active content.</span></span>
 
 </div>
 

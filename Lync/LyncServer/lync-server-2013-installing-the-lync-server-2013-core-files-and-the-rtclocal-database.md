@@ -1,5 +1,5 @@
 ---
-title: Установка основных файлов Lync Server 2013 и базы данных Ртклокал
+title: Установка основных файлов Lync Server 2013 и базы данных RTCLocal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da8f0dd1fb83c595ed444a487d0321c571a09315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8502e1af9ddb607c25ed04429f6b5bb7fbfe980
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a><span data-ttu-id="cceb1-102">Установка основных файлов Lync Server 2013 и базы данных Ртклокал</span><span class="sxs-lookup"><span data-stu-id="cceb1-102">Installing the Lync Server 2013 core files and the RTCLocal database</span></span>
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a><span data-ttu-id="7f4cd-102">Установка основных файлов Lync Server 2013 и базы данных RTCLocal</span><span class="sxs-lookup"><span data-stu-id="7f4cd-102">Installing the Lync Server 2013 core files and the RTCLocal database</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41725999"
 
 <span> </span>
 
-<span data-ttu-id="cceb1-103">_**Тема последнего изменения:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="cceb1-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="7f4cd-103">_**Последнее изменение темы:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="7f4cd-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="cceb1-104">Чтобы установить основные файлы Lync Server 2013 на компьютере, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cceb1-104">To install the Lync Server 2013 core files on a computer, complete the following procedure.</span></span> <span data-ttu-id="cceb1-105">База данных Ртклокал устанавливается автоматически при установке основных файлов.</span><span class="sxs-lookup"><span data-stu-id="cceb1-105">The RTCLocal database is automatically installed when you install the core files.</span></span> <span data-ttu-id="cceb1-106">Обратите внимание, что вам не нужно устанавливать SQL Server на узлах наблюдения.</span><span class="sxs-lookup"><span data-stu-id="cceb1-106">Note that you do not need to install SQL Server on the watcher nodes.</span></span> <span data-ttu-id="cceb1-107">Вместо этого SQL Server Express устанавливается автоматически.</span><span class="sxs-lookup"><span data-stu-id="cceb1-107">Instead, SQL Server Express is automatically installed for you.</span></span>
+<span data-ttu-id="7f4cd-104">Чтобы установить основные файлы Lync Server 2013 на компьютер, выполните следующую процедуру.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-104">To install the Lync Server 2013 core files on a computer, complete the following procedure.</span></span> <span data-ttu-id="7f4cd-105">База данных RTCLocal устанавливается автоматически при установке файлов основных данных.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-105">The RTCLocal database is automatically installed when you install the core files.</span></span> <span data-ttu-id="7f4cd-106">Обратите внимание, что не требуется устанавливать SQL Server на узлах-наблюдателях.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-106">Note that you do not need to install SQL Server on the watcher nodes.</span></span> <span data-ttu-id="7f4cd-107">Вместо этого экспресс-выпуск SQL Server устанавливается автоматически.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-107">Instead, SQL Server Express is automatically installed for you.</span></span>
 
-<span data-ttu-id="cceb1-108">Чтобы установить основные файлы Lync Server 2013 и базу данных Ртклокал, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cceb1-108">To install the Lync Server 2013 core files and the RTCLocal database:</span></span>
+<span data-ttu-id="7f4cd-108">Установка основных файлов Lync Server 2013 и базы данных RTCLocal:</span><span class="sxs-lookup"><span data-stu-id="7f4cd-108">To install the Lync Server 2013 core files and the RTCLocal database:</span></span>
 
-1.  <span data-ttu-id="cceb1-109">На компьютере с узлом-наблюдателем нажмите кнопку **Пуск**, **выберите все программы**, затем **стандартные**, щелкните правой кнопкой мыши **Командная строка**и выберите пункт **Запуск от имени администратора**.</span><span class="sxs-lookup"><span data-stu-id="cceb1-109">On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
+1.  <span data-ttu-id="7f4cd-109">На компьютере узла-наблюдателя в меню **Пуск** щелкните **Все программы**, выберите **Стандартные**, щелкните правой кнопкой мыши **Командная строка**, а затем выберите команду **Запуск от имени администратора**.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-109">On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
 
-2.  <span data-ttu-id="cceb1-110">В окне консоли введите указанную ниже команду и нажмите клавишу ВВОД, указав соответствующий путь к файлам установки Lync Server.</span><span class="sxs-lookup"><span data-stu-id="cceb1-110">In the console window, type the following command and then press ENTER, using the appropriate path to your Lync Server setup files:</span></span>
+2.  <span data-ttu-id="7f4cd-110">В окне консоли введите следующую команду и нажмите клавишу ВВОД, указав соответствующий путь к файлам установки Lync Server:</span><span class="sxs-lookup"><span data-stu-id="7f4cd-110">In the console window, type the following command and then press ENTER, using the appropriate path to your Lync Server setup files:</span></span>
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-<span data-ttu-id="cceb1-111">Чтобы убедиться в том, что основные компоненты Lync Server были успешно установлены, нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="cceb1-111">To verify that the core Lync Server components were successfully installed, click **Start**, click **All Programs**, click **Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span> <span data-ttu-id="cceb1-112">В командной консоли Lync Server 2013 введите следующую команду Windows PowerShell и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="cceb1-112">In the Lync Server 2013 Management Shell, type the following Windows PowerShell command, and then press ENTER:</span></span>
+<span data-ttu-id="7f4cd-111">Чтобы убедиться, что основные компоненты Lync Server были успешно установлены, нажмите кнопку **Пуск**, выберите **все программы**, **Lync Server 2013**и щелкните **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-111">To verify that the core Lync Server components were successfully installed, click **Start**, click **All Programs**, click **Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span> <span data-ttu-id="7f4cd-112">В консоли управления Lync Server 2013 введите следующую команду Windows PowerShell и нажмите клавишу ВВОД:</span><span class="sxs-lookup"><span data-stu-id="7f4cd-112">In the Lync Server 2013 Management Shell, type the following Windows PowerShell command, and then press ENTER:</span></span>
 
     Get-CsWatcherNodeConfiguration
 
-<span data-ttu-id="cceb1-113">При первом запуске этой команды данные не возвращаются, так как вы еще не настроили ни один из узлов-наблюдателей.</span><span class="sxs-lookup"><span data-stu-id="cceb1-113">The first time you run this command, you no data is returned because you have not configured any watcher node computers yet.</span></span> <span data-ttu-id="cceb1-114">Если команда выполняется без возврата ошибки, вы можете предположить, что настройка сервера Lync Server выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="cceb1-114">As long as the command runs without returning an error, you can assume that the Lync Server setup completed successfully.</span></span>
+<span data-ttu-id="7f4cd-113">При первом выполнении этой команды данные не возвращаются, так как в качестве узла-наблюдателя не настроек ни один компьютер.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-113">The first time you run this command, you no data is returned because you have not configured any watcher node computers yet.</span></span> <span data-ttu-id="7f4cd-114">Если команда выполняется без возврата ошибки, можно предположить, что установка Lync Server выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-114">As long as the command runs without returning an error, you can assume that the Lync Server setup completed successfully.</span></span>
 
-<span data-ttu-id="cceb1-115">Если ваш компьютер-наблюдатель находится внутри сети периметра, вы можете выполнить следующую команду для проверки установки Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="cceb1-115">If your watcher node computer is located inside your perimeter network, you can run the following command to verify the installation of Lync Server 2013:</span></span>
+<span data-ttu-id="7f4cd-115">Если компьютер узла-наблюдателя расположен внутри сети периметра, можно выполнить следующую команду, чтобы проверить установку Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="7f4cd-115">If your watcher node computer is located inside your perimeter network, you can run the following command to verify the installation of Lync Server 2013:</span></span>
 
     Get-CsPinPolicy
 
-<span data-ttu-id="cceb1-116">В зависимости от количества политик, настроенных для использования в вашей организации, вам будут выводиться такие сведения, как, например, указанные ниже.</span><span class="sxs-lookup"><span data-stu-id="cceb1-116">You will receive information similar to the following, depending on the number of personal identification number (PIN) policies configured for use in your organization:</span></span>
+<span data-ttu-id="7f4cd-116">Отобразятся данные в следующем виде в соответствии с количеством политик ПИН-кодов, настроенных для организации:</span><span class="sxs-lookup"><span data-stu-id="7f4cd-116">You will receive information similar to the following, depending on the number of personal identification number (PIN) policies configured for use in your organization:</span></span>
 
     Identity             : Global
     Description          :
@@ -67,7 +67,7 @@ ms.locfileid: "41725999"
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-<span data-ttu-id="cceb1-117">Если вы видите сведения о политиках PIN-кода, это означает, что вы успешно установили основные компоненты.</span><span class="sxs-lookup"><span data-stu-id="cceb1-117">If you see information about your PIN policies, it means that you have successfully installed the core components.</span></span>
+<span data-ttu-id="7f4cd-117">Если отображаются сведения о политиках ПИН-кодов, это означает, что основные компоненты были успешно установлены.</span><span class="sxs-lookup"><span data-stu-id="7f4cd-117">If you see information about your PIN policies, it means that you have successfully installed the core components.</span></span>
 
 </div>
 

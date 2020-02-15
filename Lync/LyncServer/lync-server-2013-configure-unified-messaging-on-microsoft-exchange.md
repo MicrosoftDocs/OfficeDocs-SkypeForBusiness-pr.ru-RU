@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Настройка единой системы обмена сообщениями на сервере Microsoft Exchange'
+title: 'Lync Server 2013: Настройка единой системы обмена сообщениями в Microsoft Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edac9ff9b72c00e7520d80c376e49b03a9e35bab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 57e48e0ee3e7ef2b9a755ecbd64afaa0f2ce3c2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733828"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a><span data-ttu-id="a92c9-102">Настройка единой системы обмена сообщениями в Microsoft Exchange для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a92c9-102">Configure Unified Messaging on Microsoft Exchange for Lync Server 2013</span></span>
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a><span data-ttu-id="4e14b-102">Настройка единой системы обмена сообщениями в Microsoft Exchange для Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e14b-102">Configure Unified Messaging on Microsoft Exchange for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733828"
 
 <span> </span>
 
-<span data-ttu-id="a92c9-103">_**Тема последнего изменения:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="a92c9-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="4e14b-103">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="4e14b-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="a92c9-104">В этой статье описано, как настроить единую систему обмена сообщениями Exchange (UM) на сервере Microsoft Exchange для использования с корпоративной голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="a92c9-104">This topic describes how to configure Exchange Unified Messaging (UM) on a Microsoft Exchange Server for use with Enterprise Voice.</span></span>
+<span data-ttu-id="4e14b-104">В этом разделе описывается настройка единой системы обмена сообщениями Exchange на сервере Microsoft Exchange для использования с корпоративной голосовой связью.</span><span class="sxs-lookup"><span data-stu-id="4e14b-104">This topic describes how to configure Exchange Unified Messaging (UM) on a Microsoft Exchange Server for use with Enterprise Voice.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a92c9-105">Примеры командлетов в этом разделе содержат синтаксис для версии Exchange 2007 среды Exchange Management Shell.</span><span class="sxs-lookup"><span data-stu-id="a92c9-105">The cmdlet examples in this topic provide syntax for the Exchange 2007 version of Exchange Management Shell.</span></span> <span data-ttu-id="a92c9-106">Если вы используете Exchange 2010 или Exchange 2013, ознакомьтесь с соответствующей документацией в соответствии с указанными ссылками.</span><span class="sxs-lookup"><span data-stu-id="a92c9-106">If you are running Exchange 2010 or Exchange 2013, see the appropriate documentation as referenced.</span></span>
+> <span data-ttu-id="4e14b-105">В примерах, приведенных в этом разделе, представлен синтаксис для Exchange 2007 с помощью командной консоли Exchange.</span><span class="sxs-lookup"><span data-stu-id="4e14b-105">The cmdlet examples in this topic provide syntax for the Exchange 2007 version of Exchange Management Shell.</span></span> <span data-ttu-id="4e14b-106">Если вы используете Exchange 2010 или Exchange 2013, ознакомьтесь с соответствующей документацией, как показано на этой странице.</span><span class="sxs-lookup"><span data-stu-id="4e14b-106">If you are running Exchange 2010 or Exchange 2013, see the appropriate documentation as referenced.</span></span>
 
 
 
@@ -51,76 +51,76 @@ ms.locfileid: "41733828"
 
 <div>
 
-## <a name="to-configure-a-server-running-exchange-server-um"></a><span data-ttu-id="a92c9-107">Настройка сервера, на котором работает UM-сервер Exchange</span><span class="sxs-lookup"><span data-stu-id="a92c9-107">To configure a server running Exchange Server UM</span></span>
+## <a name="to-configure-a-server-running-exchange-server-um"></a><span data-ttu-id="4e14b-107">Настройка сервера, на котором работает единая система обмена сообщениями Exchange Server</span><span class="sxs-lookup"><span data-stu-id="4e14b-107">To configure a server running Exchange Server UM</span></span>
 
-1.  <span data-ttu-id="a92c9-108">Создайте абонентскую группу SIP (универсального кода ресурса) для каждого из профилей местоположения вашего голоса.</span><span class="sxs-lookup"><span data-stu-id="a92c9-108">Create a UM Session Initiation Protocol (SIP) Uniform Resource Identifier (URI) dial plan for each of your Enterprise Voice location profiles.</span></span> <span data-ttu-id="a92c9-109">Если вы решили использовать консоль управления Exchange, создайте новую абонентскую группу с защищенным параметром безопасности **(предпочтительно)**.</span><span class="sxs-lookup"><span data-stu-id="a92c9-109">If you choose to use the Exchange Management Console, create a new dial plan with the security setting **Secured (preferred)**.</span></span>
+1.  <span data-ttu-id="4e14b-108">Создайте абонентскую группу универсального кода ресурса (URI) SIP для каждого профиля расположения вашей корпоративной голосовой связи.</span><span class="sxs-lookup"><span data-stu-id="4e14b-108">Create a UM Session Initiation Protocol (SIP) Uniform Resource Identifier (URI) dial plan for each of your Enterprise Voice location profiles.</span></span> <span data-ttu-id="4e14b-109">Если вы решили использовать консоль управления Exchange, создайте новую абонентскую абонентскую систему с **защищенным (предпочтительным)** параметром безопасности.</span><span class="sxs-lookup"><span data-stu-id="4e14b-109">If you choose to use the Exchange Management Console, create a new dial plan with the security setting **Secured (preferred)**.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="a92c9-110">Если для параметра безопасности задано значение " <STRONG>SIP secures</STRONG> ", для которого требуется шифрование только за трафик SIP, как было рекомендовано, обратите внимание на то, что этот параметр безопасности для абонентской группы недостаточен, если для пула переднего плана задано шифрование, что означает, что для пула требуется шифрование для трафика SIP и RTP.</span><span class="sxs-lookup"><span data-stu-id="a92c9-110">If you set your security setting value to <STRONG>SIP Secured</STRONG> to require encryption for SIP traffic only, as previously recommended, note that this security setting on a dial plan is insufficient if the Front End pool is configured to require encryption, which means the pool requires encryption for both SIP and RTP traffic.</span></span> <span data-ttu-id="a92c9-111">Если параметры безопасности для абонентской группы и пула несовместимы, все звонки на Exchange UM из пула переднего плана будут завершаться сбоем, что приведет к ошибке, указывающей на то, что у вас есть несовместимый параметр безопасности.</span><span class="sxs-lookup"><span data-stu-id="a92c9-111">When the dial plan and pool security settings are not compatible, all calls to Exchange UM from the Front End pool will fail, resulting in an error indicating that you have an "Incompatible security setting."</span></span>
+    > <span data-ttu-id="4e14b-110">Если для параметра безопасности задано значение <STRONG>SIP Secured</STRONG> , требующее обязательного шифрования только для трафика SIP, как было сказано ранее, обратите внимание на то, что этот параметр безопасности для абонентской группы недостаточен, если для пула переднего плана настроено требование шифрования, что означает, что для пула требуется шифрование для трафика SIP и RTP.</span><span class="sxs-lookup"><span data-stu-id="4e14b-110">If you set your security setting value to <STRONG>SIP Secured</STRONG> to require encryption for SIP traffic only, as previously recommended, note that this security setting on a dial plan is insufficient if the Front End pool is configured to require encryption, which means the pool requires encryption for both SIP and RTP traffic.</span></span> <span data-ttu-id="4e14b-111">Если параметры безопасности абонентской группы и пула несовместимы, все вызовы Exchange единой системы обмена сообщениями из пула переднего плана завершатся ошибкой, что приведет к ошибке, указывающей на то, что параметр безопасности несовместим.</span><span class="sxs-lookup"><span data-stu-id="4e14b-111">When the dial plan and pool security settings are not compatible, all calls to Exchange UM from the Front End pool will fail, resulting in an error indicating that you have an "Incompatible security setting."</span></span>
 
     
     </div>
     
-    <span data-ttu-id="a92c9-112">Если вы используете консоль управления Exchange, введите:</span><span class="sxs-lookup"><span data-stu-id="a92c9-112">If you use the Exchange Management Shell, type:</span></span>
+    <span data-ttu-id="4e14b-112">Если используется Командная консоль Exchange, введите:</span><span class="sxs-lookup"><span data-stu-id="4e14b-112">If you use the Exchange Management Shell, type:</span></span>
     ```powershell
      New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
     ```
-    <span data-ttu-id="a92c9-113">Для получения дополнительных сведений см.:</span><span class="sxs-lookup"><span data-stu-id="a92c9-113">For details, see:</span></span>
+    <span data-ttu-id="4e14b-113">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="4e14b-113">For details, see:</span></span>
     
-      - <span data-ttu-id="a92c9-114">В Office Communications Server 2007 вы можете ознакомиться с разрешениями "Создание абонентской группы SIP для единой [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) системы обмена сообщениями" и "New-Умдиалплан: [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)Exchange 2007".</span><span class="sxs-lookup"><span data-stu-id="a92c9-114">For Office Communications Server 2007, see "How to Create a Unified Messaging SIP URI Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) and "New-UMDialplan: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666).</span></span>
+      - <span data-ttu-id="4e14b-114">Для Office Communications Server 2007 в [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)разделе "как создать абонентскую систему URI SIP единой системы обмена сообщениями" at и "New – UMDialPlan: Exchange 2007 Help".</span><span class="sxs-lookup"><span data-stu-id="4e14b-114">For Office Communications Server 2007, see "How to Create a Unified Messaging SIP URI Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) and "New-UMDialplan: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666).</span></span>
     
-      - <span data-ttu-id="a92c9-115">В [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)Exchange 2010 вы видите раздел "Создание абонентской группы единой системы [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) обмена сообщениями" на странице "New-умдиалплан: Exchange 2010".</span><span class="sxs-lookup"><span data-stu-id="a92c9-115">For Exchange 2010, see "Create a UM Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) and "New-UMDialplan: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680).</span></span>
+      - <span data-ttu-id="4e14b-115">Для Exchange 2010 в разделе "Создание абонентской группы единой системы обмена [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) сообщениями" и "New – UMDialPlan: Exchange 2010 [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)Help".</span><span class="sxs-lookup"><span data-stu-id="4e14b-115">For Exchange 2010, see "Create a UM Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) and "New-UMDialplan: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680).</span></span>
     
-      - <span data-ttu-id="a92c9-116">Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="a92c9-116">For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).</span></span>
+      - <span data-ttu-id="4e14b-116">Для Exchange 2013 в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="4e14b-116">For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a92c9-117">Выбор уровня безопасности <STRONG>сипсекуред</STRONG> или <STRONG>Защита</STRONG> зависит от того, активирована или деактивирована ли протокол передачи данных в режиме реального времени (SRTP) для шифрования мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="a92c9-117">Whether you select a security level of <STRONG>SIPSecured</STRONG> or <STRONG>Secured</STRONG> depends on whether secure real-time transport protocol (SRTP) is activated or deactivated for media encryption.</span></span> <span data-ttu-id="a92c9-118">Интеграция с единой системой обмена сообщениями Exchange для интеграции с Lync Server 2010 соответствует уровню шифрования в конфигурации мультимедиа Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-118">For the Lync Server 2010 integration with Exchange UM, this should correspond to the encryption level in the Lync Server media configuration.</span></span> <span data-ttu-id="a92c9-119">Чтобы просмотреть конфигурацию мультимедиа Lync Server, запустите командлет <STRONG>Get-ксмедиаконфигуратион</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="a92c9-119">The Lync Server media configuration can be viewed by running the <STRONG>Get-CsMediaConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="a92c9-120">Подробности можно найти в разделе Get-Ксмедиаконфигуратион в документации по среде управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-120">For details, see Get-CsMediaConfiguration in the Lync Server Management Shell documentation.</span></span><BR><span data-ttu-id="a92c9-121">Подробнее о том, как выбрать соответствующий параметр безопасности в службе VoIP, можно найти <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">в разделе процесс развертывания для интеграции локальной системы обработки сообщений и Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a92c9-121">For details about selecting the appropriate VoIP Security setting, see <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="4e14b-117">Выбор уровня безопасности <STRONG>сипсекуред</STRONG> или <STRONG>Secure зависит от того,</STRONG> активирована или отключена передача протокола безопасности в режиме реального времени (SRTP) для шифрования мультимедиа.</span><span class="sxs-lookup"><span data-stu-id="4e14b-117">Whether you select a security level of <STRONG>SIPSecured</STRONG> or <STRONG>Secured</STRONG> depends on whether secure real-time transport protocol (SRTP) is activated or deactivated for media encryption.</span></span> <span data-ttu-id="4e14b-118">Для интеграции Lync Server 2010 с единой системой обмена сообщениями Exchange она должна соответствовать уровню шифрования в конфигурации мультимедиа Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-118">For the Lync Server 2010 integration with Exchange UM, this should correspond to the encryption level in the Lync Server media configuration.</span></span> <span data-ttu-id="4e14b-119">Конфигурацию мультимедиа Lync Server можно просмотреть, выполнив командлет <STRONG>Get – CsMediaConfiguration</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="4e14b-119">The Lync Server media configuration can be viewed by running the <STRONG>Get-CsMediaConfiguration</STRONG> cmdlet.</span></span> <span data-ttu-id="4e14b-120">Дополнительные сведения см. в статье Get – CsMediaConfiguration в документации по консоли управления Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-120">For details, see Get-CsMediaConfiguration in the Lync Server Management Shell documentation.</span></span><BR><span data-ttu-id="4e14b-121">Дополнительные сведения о выборе соответствующего параметра безопасности VoIP приведены в разделе <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">процесс развертывания для интеграции локальной единой системы обмена сообщениями и Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="4e14b-121">For details about selecting the appropriate VoIP Security setting, see <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="a92c9-122">Чтобы получить полное доменное имя (FQDN) для каждой абонентской группы единой системы обмена сообщениями, выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="a92c9-122">Run the following cmdlet to obtain the fully qualified domain name (FQDN) for each UM dial plan:</span></span>
+2.  <span data-ttu-id="4e14b-122">Выполните следующий командлет для получения полного доменного имени (FQDN) для каждой абонентской группы единой системы обмена сообщениями:</span><span class="sxs-lookup"><span data-stu-id="4e14b-122">Run the following cmdlet to obtain the fully qualified domain name (FQDN) for each UM dial plan:</span></span>
     
     ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
-    <span data-ttu-id="a92c9-123">Для получения дополнительных сведений см.:</span><span class="sxs-lookup"><span data-stu-id="a92c9-123">For details, see:</span></span>
+    <span data-ttu-id="4e14b-123">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="4e14b-123">For details, see:</span></span>
     
-      - <span data-ttu-id="a92c9-124">Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)статье "Get-Умдиалплан: Exchange 2007".</span><span class="sxs-lookup"><span data-stu-id="a92c9-124">For Exchange 2007, see "Get-UMDialplan: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678).</span></span>
+      - <span data-ttu-id="4e14b-124">Для Exchange 2007 в разделе "Get – UMDialplan: Exchange 2007 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678).</span><span class="sxs-lookup"><span data-stu-id="4e14b-124">For Exchange 2007, see "Get-UMDialplan: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678).</span></span>
     
-      - <span data-ttu-id="a92c9-125">Дополнительные сведения об Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)статье "Get-Умдиалплан: Exchange 2010".</span><span class="sxs-lookup"><span data-stu-id="a92c9-125">For Exchange 2010, see "Get-UMDialplan: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679).</span></span>
+      - <span data-ttu-id="4e14b-125">Для Exchange 2010 в разделе "Get – UMDialplan: Exchange 2010 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679).</span><span class="sxs-lookup"><span data-stu-id="4e14b-125">For Exchange 2010, see "Get-UMDialplan: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679).</span></span>
     
-      - <span data-ttu-id="a92c9-126">Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="a92c9-126">For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).</span></span>
+      - <span data-ttu-id="4e14b-126">Для Exchange 2013 в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="4e14b-126">For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).</span></span>
 
-3.  <span data-ttu-id="a92c9-127">Запишите имя абонентской группы для каждой абонентской группы единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="a92c9-127">Record the dial plan name of each UM dial plan.</span></span> <span data-ttu-id="a92c9-128">В зависимости от используемой версии Exchange Server может потребоваться использовать полное доменное имя каждого имени абонентского плана в соответствии с именем каждой соответствующей абонентской группы Lync Server, чтобы имена абонентских групп соответствовали друг другу.</span><span class="sxs-lookup"><span data-stu-id="a92c9-128">Depending on your version of Exchange Server, you may need to use the FQDN of each dial plan name later as the name of each UM dial plan’s corresponding Lync Server dial plan so that the dial plan names match.</span></span>
+3.  <span data-ttu-id="4e14b-127">Запишите имя абонентской группы каждой абонентской группы единой системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="4e14b-127">Record the dial plan name of each UM dial plan.</span></span> <span data-ttu-id="4e14b-128">В зависимости от используемой версии Exchange Server может потребоваться использовать полное доменное имя каждого имени абонентской группы в соответствии с именем каждой соответствующей абонентской группы Lync Server, чтобы имена абонентских групп соотнесены.</span><span class="sxs-lookup"><span data-stu-id="4e14b-128">Depending on your version of Exchange Server, you may need to use the FQDN of each dial plan name later as the name of each UM dial plan’s corresponding Lync Server dial plan so that the dial plan names match.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a92c9-129">Имена абонентской группы Lync Server должны совпадать с именами абонентских групп UM только в том случае, если абонентская группа UM работает в более <EM>ранней</EM> версии Exchange, чем Exchange 2010 с пакетом обновления 1.</span><span class="sxs-lookup"><span data-stu-id="a92c9-129">Lync Server dial plan names must match UM dial plan names only if the UM dial plan is running on a version of Exchange <EM>earlier</EM> than Exchange 2010 SP1.</span></span>
+    > <span data-ttu-id="4e14b-129">Имена абонентской группы Lync Server должны сопоставлять имена абонентской группы единой системы обмена сообщениями только в том случае, если абонентская группа единой системы обмена сообщениями работает в более <EM>ранней</EM> версии Exchange, чем Exchange 2010 SP1</span><span class="sxs-lookup"><span data-stu-id="4e14b-129">Lync Server dial plan names must match UM dial plan names only if the UM dial plan is running on a version of Exchange <EM>earlier</EM> than Exchange 2010 SP1.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="a92c9-130">Добавьте абонентскую группу на сервер, на котором запущена служба Exchange UM, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="a92c9-130">Add the dial plan to the server running Exchange UM as follows:</span></span>
+4.  <span data-ttu-id="4e14b-130">Добавьте абонентскую группу на сервер, на котором работает единая система обмена сообщениями Exchange, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="4e14b-130">Add the dial plan to the server running Exchange UM as follows:</span></span>
     
-      - <span data-ttu-id="a92c9-131">Если вы решили использовать консоль управления Exchange, вы можете добавить абонентскую группу из страницы свойств сервера.</span><span class="sxs-lookup"><span data-stu-id="a92c9-131">If you choose to use the Exchange Management Console, you can add the dial plan from the property sheet for the server.</span></span> <span data-ttu-id="a92c9-132">Конкретные инструкции можно найти в документации по продукту Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-132">For specific instructions, see the Exchange Server product documentation.</span></span>
+      - <span data-ttu-id="4e14b-131">Если вы решили использовать консоль управления Exchange, вы можете добавить абонентскую схему из страницы свойств для сервера.</span><span class="sxs-lookup"><span data-stu-id="4e14b-131">If you choose to use the Exchange Management Console, you can add the dial plan from the property sheet for the server.</span></span> <span data-ttu-id="4e14b-132">Конкретные инструкции можно найти в документации по продукту Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-132">For specific instructions, see the Exchange Server product documentation.</span></span>
         
-        <span data-ttu-id="a92c9-133">Сведения о том, как добавить сервер единой системы обмена сообщениями в абонентскую группу Exchange 2007 [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681), можно найти по адресу ".</span><span class="sxs-lookup"><span data-stu-id="a92c9-133">For Exchange 2007, see "How to Add Unified Messaging Server to a Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681).</span></span>
+        <span data-ttu-id="4e14b-133">В разделе "как добавить сервер единой системы обмена сообщениями в абонентскую абонентию для Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)2007".</span><span class="sxs-lookup"><span data-stu-id="4e14b-133">For Exchange 2007, see "How to Add Unified Messaging Server to a Dial Plan" at [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681).</span></span>
         
-        <span data-ttu-id="a92c9-134">Для Exchange 2010 вы увидите в [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682)разделе "Просмотр или Настройка свойств сервера UM".</span><span class="sxs-lookup"><span data-stu-id="a92c9-134">For Exchange 2010, see "View or Configure the Properties of a UM Server" at [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).</span></span>
+        <span data-ttu-id="4e14b-134">Для Exchange 2010 можно ознакомиться в статье "Просмотр или Настройка свойств сервера единой системы обмена сообщениями" по адресу [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).</span><span class="sxs-lookup"><span data-stu-id="4e14b-134">For Exchange 2010, see "View or Configure the Properties of a UM Server" at [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).</span></span>
         
-        <span data-ttu-id="a92c9-135">Для Exchange 2013 следует ознакомиться в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="a92c9-135">For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).</span></span>
+        <span data-ttu-id="4e14b-135">Для Exchange 2013 в [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)разделе "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="4e14b-135">For Exchange 2013, see "Unified Messaging" at [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).</span></span>
     
-      - <span data-ttu-id="a92c9-136">Если вы используете командную консоль Exchange, выполните указанные ниже действия для каждого из серверов Exchange UM.</span><span class="sxs-lookup"><span data-stu-id="a92c9-136">If you use the Exchange Management Shell, run the following for each of your Exchange UM servers:</span></span>
+      - <span data-ttu-id="4e14b-136">Если вы используете командную консоль Exchange, выполните указанные ниже действия для каждого сервера единой системы обмена сообщениями Exchange.</span><span class="sxs-lookup"><span data-stu-id="4e14b-136">If you use the Exchange Management Shell, run the following for each of your Exchange UM servers:</span></span>
         ```powershell
         $ums=get-umserver; 
         $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
@@ -131,39 +131,39 @@ ms.locfileid: "41733828"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a92c9-137">Перед выполнением следующего действия Убедитесь в том, что все пользователи организации голосовой связи настроены с помощью почтового ящика Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-137">Before you perform the following step, make sure that all Enterprise Voice users have been configured with an Exchange Server mailbox.</span></span><BR><span data-ttu-id="a92c9-138">Сведения об Exchange 2007 можно найти в библиотеке TechNet на сайте Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>Server 2007.</span><span class="sxs-lookup"><span data-stu-id="a92c9-138">For Exchange 2007, see the Exchange Server 2007 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>.</span></span><BR><span data-ttu-id="a92c9-139">Сведения об Exchange 2010 можно найти в библиотеке TechNet на сайте Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a92c9-139">For Exchange 2010, see the Exchange Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>.</span></span><BR><span data-ttu-id="a92c9-140">При указании политики почтовых ящиков для каждой абонентской группы, созданной в действии 1, выберите либо политику по умолчанию, либо ее созданную.</span><span class="sxs-lookup"><span data-stu-id="a92c9-140">When specifying a mailbox policy for each dial plan that you created in step 1, select either the default policy or one that you have created.</span></span>
+    > <span data-ttu-id="4e14b-137">Перед выполнением следующего действия Убедитесь, что все пользователи корпоративной голосовой связи настроены с помощью почтового ящика Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-137">Before you perform the following step, make sure that all Enterprise Voice users have been configured with an Exchange Server mailbox.</span></span><BR><span data-ttu-id="4e14b-138">Для Exchange 2007 ознакомьтесь с разадресом библиотеки TechNet для Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>Server 2007 по адресу.</span><span class="sxs-lookup"><span data-stu-id="4e14b-138">For Exchange 2007, see the Exchange Server 2007 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>.</span></span><BR><span data-ttu-id="4e14b-139">Для Exchange 2010 ознакомьтесь с разадресом библиотеки TechNet для Exchange <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>Server 2010 по адресу.</span><span class="sxs-lookup"><span data-stu-id="4e14b-139">For Exchange 2010, see the Exchange Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>.</span></span><BR><span data-ttu-id="4e14b-140">При указании политики почтовых ящиков для каждой абонентской группы, созданной на шаге 1, выберите либо политику по умолчанию, либо одну из созданных.</span><span class="sxs-lookup"><span data-stu-id="4e14b-140">When specifying a mailbox policy for each dial plan that you created in step 1, select either the default policy or one that you have created.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="a92c9-141">Перейдите к \<разделу\>\\сценарии установки Exchange, а затем, если Exchange развернут в одном лесе, введите:</span><span class="sxs-lookup"><span data-stu-id="a92c9-141">Navigate to \<Exchange installation directory\>\\Scripts, and then if Exchange is deployed in a single forest, type:</span></span>
+5.  <span data-ttu-id="4e14b-141">Перейдите в \<раздел сценарии каталога\>\\установки Exchange, а затем, если Exchange развернут в едином лесу, введите:</span><span class="sxs-lookup"><span data-stu-id="4e14b-141">Navigate to \<Exchange installation directory\>\\Scripts, and then if Exchange is deployed in a single forest, type:</span></span>
     ```console
     exchucutil.ps1
     ```
-    <span data-ttu-id="a92c9-142">Если Exchange развернут в нескольких лесах, введите:</span><span class="sxs-lookup"><span data-stu-id="a92c9-142">Or, if Exchange is deployed in multiple forests, type:</span></span>
+    <span data-ttu-id="4e14b-142">Если Exchange развертывается в нескольких лесах, введите:</span><span class="sxs-lookup"><span data-stu-id="4e14b-142">Or, if Exchange is deployed in multiple forests, type:</span></span>
     ```console
     exchucutil.ps1 -Forest:"<forest FQDN>"
     ```
-    <span data-ttu-id="a92c9-143">где полное доменное имя леса определяет лес, в котором развернут Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-143">where forest FQDN specifies the forest in which Lync Server is deployed.</span></span>
+    <span data-ttu-id="4e14b-143">где полное доменное имя леса указывает лес, в котором развернут Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-143">where forest FQDN specifies the forest in which Lync Server is deployed.</span></span>
     
-    <span data-ttu-id="a92c9-144">Если у вас есть одна или несколько абонентских групп UM, которые связаны с несколькими IP-шлюзами, перейдите к действию 6.</span><span class="sxs-lookup"><span data-stu-id="a92c9-144">If you have one or more UM dial plans that are associated with multiple IP gateways, continue to step 6.</span></span> <span data-ttu-id="a92c9-145">Если абонентские группы связаны только с одним IP-шлюзом, пропустите шаг 6.</span><span class="sxs-lookup"><span data-stu-id="a92c9-145">If your dial plans are each associated with only a single IP gateway, skip step 6.</span></span>
+    <span data-ttu-id="4e14b-144">Если вы используете одну или несколько абонентских групп единой системы обмена сообщениями, которые связаны с несколькими шлюзами IP, перейдите к шагу 6.</span><span class="sxs-lookup"><span data-stu-id="4e14b-144">If you have one or more UM dial plans that are associated with multiple IP gateways, continue to step 6.</span></span> <span data-ttu-id="4e14b-145">Если абонентские группы связаны только с одним шлюзом IP, пропустите шаг 6.</span><span class="sxs-lookup"><span data-stu-id="4e14b-145">If your dial plans are each associated with only a single IP gateway, skip step 6.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="a92c9-146"><EM>После</EM> запуска ексчукутил. ps1 убедитесь в том, что вы перезапустите службу <STRONG>внешнего сервера Lync Server</STRONG> (ртксрв. exe).</span><span class="sxs-lookup"><span data-stu-id="a92c9-146">Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1.</span></span> <span data-ttu-id="a92c9-147">В противном случае Lync Server не будет определять единую систему обмена сообщениями в топологии.</span><span class="sxs-lookup"><span data-stu-id="a92c9-147">Otherwise, Lync Server will not detect Unified Messaging in the topology.</span></span>
+    > <span data-ttu-id="4e14b-146">Обязательно перезапустите службу <STRONG>Сервер переднего плана Lync Server</STRONG> (rtcsrv.exe) <EM>после</EM> выполнения скрипта exchucutil.ps1.</span><span class="sxs-lookup"><span data-stu-id="4e14b-146">Be sure to restart the <STRONG>Lync Server Front-End</STRONG> service (rtcsrv.exe) <EM>after</EM> you run exchucutil.ps1.</span></span> <span data-ttu-id="4e14b-147">В противном случае Lync Server не будет обнаруживать единую систему обмена сообщениями в топологии.</span><span class="sxs-lookup"><span data-stu-id="4e14b-147">Otherwise, Lync Server will not detect Unified Messaging in the topology.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="a92c9-148">Используя среду управления Exchange или консоль управления Exchange, отключите исходящие вызовы для всех IP-шлюзов, связанных с каждой из ваших абонентских планов.</span><span class="sxs-lookup"><span data-stu-id="a92c9-148">Using either the Exchange Management Shell or Exchange Management Console, disable outbound calling for all but one of the IP gateways associated with each of your dial plans.</span></span>
+6.  <span data-ttu-id="4e14b-148">С помощью командной консоли Exchange или консоли управления Exchange отключите исходящий вызов для всех шлюзов IP, которые связаны с каждой абонентской абонентской группы.</span><span class="sxs-lookup"><span data-stu-id="4e14b-148">Using either the Exchange Management Shell or Exchange Management Console, disable outbound calling for all but one of the IP gateways associated with each of your dial plans.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a92c9-149">Этот этап необходим для того, чтобы убедиться в том, что исходящие вызовы на сервере, на котором работает единая система обмена сообщениями Exchange, (например, как в случае с сценариями воспроизведения на телефоне) надежно просматривают корпоративный брандмауэр.</span><span class="sxs-lookup"><span data-stu-id="a92c9-149">This step is necessary to make sure that outbound calls by the server running Exchange Server Unified Messaging to external users (for example, as is the case with play-on-phone scenarios) reliably traverse the corporate firewall.</span></span>
+    > <span data-ttu-id="4e14b-149">Это необходимо, чтобы убедиться, что исходящие вызовы, выполняемые сервером, на котором работает единая система обмена сообщениями Exchange Server, для внешних пользователей (например, как в случае с помощью сценариев проигрывания на телефоне) надежно проходят через корпоративный брандмауэр.</span><span class="sxs-lookup"><span data-stu-id="4e14b-149">This step is necessary to make sure that outbound calls by the server running Exchange Server Unified Messaging to external users (for example, as is the case with play-on-phone scenarios) reliably traverse the corporate firewall.</span></span>
 
     
     </div>
@@ -172,37 +172,37 @@ ms.locfileid: "41733828"
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="a92c9-150">При выборе IP-шлюза UM, через который разрешены исходящие вызовы, выберите тот, который скорее всего будет обрабатывать весь трафик.</span><span class="sxs-lookup"><span data-stu-id="a92c9-150">When selecting the UM IP gateway through which to allow outgoing calls, choose the one that is likely to handle the most traffic.</span></span> <span data-ttu-id="a92c9-151">Не разрешать исходящий трафик через шлюз IP, который подключается к группе режиссеров Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-151">Do not allow outgoing traffic through an IP gateway that connects to a pool of Lync Server Directors.</span></span> <span data-ttu-id="a92c9-152">Также Избегайте пулов на другом центральном сайте или сайте ветви.</span><span class="sxs-lookup"><span data-stu-id="a92c9-152">Also avoid pools in another central site or a branch site.</span></span> <span data-ttu-id="a92c9-153">Для блокирования исходящих звонков через шлюз IP можно использовать один из указанных ниже способов.</span><span class="sxs-lookup"><span data-stu-id="a92c9-153">You can use either of the following methods to block outgoing calls from passing through an IP gateway:</span></span>
+    > <span data-ttu-id="4e14b-150">При выборе шлюза IP единой системы обмена сообщениями, с помощью которого можно разрешить исходящие вызовы, выберите один из них, который скорее всего будет обрабатывать весь трафик.</span><span class="sxs-lookup"><span data-stu-id="4e14b-150">When selecting the UM IP gateway through which to allow outgoing calls, choose the one that is likely to handle the most traffic.</span></span> <span data-ttu-id="4e14b-151">Не разрешать исходящий трафик через шлюз IP, который подключается к пулу директорий Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-151">Do not allow outgoing traffic through an IP gateway that connects to a pool of Lync Server Directors.</span></span> <span data-ttu-id="4e14b-152">Кроме того, не следует использовать пулы на другом центральном сайте или сайте филиала.</span><span class="sxs-lookup"><span data-stu-id="4e14b-152">Also avoid pools in another central site or a branch site.</span></span> <span data-ttu-id="4e14b-153">Для блокирования исходящих вызовов через шлюз IP можно использовать любой из указанных ниже способов.</span><span class="sxs-lookup"><span data-stu-id="4e14b-153">You can use either of the following methods to block outgoing calls from passing through an IP gateway:</span></span>
 
     
     </div>
     
-      - <span data-ttu-id="a92c9-154">Если вы используете консоль управления Exchange, отключите каждый шлюз IP, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="a92c9-154">If you use the Exchange Management Shell, disable each IP gateway by running the following command:</span></span>
+      - <span data-ttu-id="4e14b-154">Если вы используете командную консоль Exchange, отключите каждый шлюз IP, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="4e14b-154">If you use the Exchange Management Shell, disable each IP gateway by running the following command:</span></span>
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        <span data-ttu-id="a92c9-155">Инструкции для Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)разделе "Set-Умипгатевай: Exchange 2007 Help".</span><span class="sxs-lookup"><span data-stu-id="a92c9-155">For Exchange 2007, see "Set-UMIPGateway: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687).</span></span>
+        <span data-ttu-id="4e14b-155">Для Exchange 2007, в разделе "Set – UMIPGateway: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)в.</span><span class="sxs-lookup"><span data-stu-id="4e14b-155">For Exchange 2007, see "Set-UMIPGateway: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687).</span></span>
         
-        <span data-ttu-id="a92c9-156">Инструкции для Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)разделе "Set-Умипгатевай: Exchange 2010 Help".</span><span class="sxs-lookup"><span data-stu-id="a92c9-156">For Exchange 2010, see "Set-UMIPGateway: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688).</span></span>
+        <span data-ttu-id="4e14b-156">Для Exchange 2010, в разделе "Set – UMIPGateway: Exchange 2010 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)в.</span><span class="sxs-lookup"><span data-stu-id="4e14b-156">For Exchange 2010, see "Set-UMIPGateway: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688).</span></span>
     
-      - <span data-ttu-id="a92c9-157">Если вы используете консоль управления Exchange, снимите флажок **Разрешить исходящие вызовы через этот IP-шлюз** .</span><span class="sxs-lookup"><span data-stu-id="a92c9-157">If you use the Exchange Management Console, clear the **Allow outgoing calls through this IP gateway** check box.</span></span>
+      - <span data-ttu-id="4e14b-157">Если вы используете консоль управления Exchange, снимите флажок **Разрешить исходящие вызовы через этот шлюз IP** .</span><span class="sxs-lookup"><span data-stu-id="4e14b-157">If you use the Exchange Management Console, clear the **Allow outgoing calls through this IP gateway** check box.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="a92c9-158">Если абонентская группа SIP для обмена сообщениями с URI связана только с одним IP-шлюзом, не запретите исходящие вызовы через этот шлюз.</span><span class="sxs-lookup"><span data-stu-id="a92c9-158">If your UM SIP URI dial plan is associated with only a single IP gateway, do not disallow outgoing calls through this gateway.</span></span>
+    > <span data-ttu-id="4e14b-158">Если абонентская группа URI SIP единой системы обмена сообщениями связана только с одним шлюзом IP, не запретите исходящие вызовы через этот шлюз.</span><span class="sxs-lookup"><span data-stu-id="4e14b-158">If your UM SIP URI dial plan is associated with only a single IP gateway, do not disallow outgoing calls through this gateway.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="a92c9-159">Создание автосекретаря UM для каждой абонентской группы Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-159">Create a UM auto-attendant for each Lync Server dial plan.</span></span>
+7.  <span data-ttu-id="4e14b-159">Создание автосекретаря единой системы обмена сообщениями для каждой абонентской группы Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-159">Create a UM auto-attendant for each Lync Server dial plan.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="a92c9-160">Не включайте пробелы в имя автосекретаря.</span><span class="sxs-lookup"><span data-stu-id="a92c9-160">Do not include any spaces in the name of the auto attendant.</span></span>
+    > <span data-ttu-id="4e14b-160">Имя автосекретаря не должно содержать пробелов.</span><span class="sxs-lookup"><span data-stu-id="4e14b-160">Do not include any spaces in the name of the auto attendant.</span></span>
 
     
     </div>
@@ -210,21 +210,21 @@ ms.locfileid: "41733828"
     ```powershell
     New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
     ```
-    <span data-ttu-id="a92c9-161">Для получения дополнительных сведений см.:</span><span class="sxs-lookup"><span data-stu-id="a92c9-161">For details, see:</span></span>
+    <span data-ttu-id="4e14b-161">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="4e14b-161">For details, see:</span></span>
     
-      - <span data-ttu-id="a92c9-162">Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)статье "New-Умаутоаттендант: Exchange 2007".</span><span class="sxs-lookup"><span data-stu-id="a92c9-162">For Exchange 2007, see "New-UMAutoAttendant: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689).</span></span>
+      - <span data-ttu-id="4e14b-162">В разделе "New – UMAutoAttendant используется: Exchange 2007 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)Exchange 2007.</span><span class="sxs-lookup"><span data-stu-id="4e14b-162">For Exchange 2007, see "New-UMAutoAttendant: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689).</span></span>
     
-      - <span data-ttu-id="a92c9-163">Дополнительные сведения об Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)статье "New-Умаутоаттендант: Exchange 2010".</span><span class="sxs-lookup"><span data-stu-id="a92c9-163">For Exchange 2010, see "New-UMAutoAttendant: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690).</span></span>
+      - <span data-ttu-id="4e14b-163">В разделе "New – UMAutoAttendant используется: Exchange 2010 Help" в [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)Exchange 2010.</span><span class="sxs-lookup"><span data-stu-id="4e14b-163">For Exchange 2010, see "New-UMAutoAttendant: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690).</span></span>
     
-    <span data-ttu-id="a92c9-164">Необходимо выполнить описанные ниже действия для каждого пользователя, если вы включили пользователей Lync Server для корпоративного голосовой связи и знаете их URI SIP.</span><span class="sxs-lookup"><span data-stu-id="a92c9-164">The following step should be performed for each user after you have enabled Lync Server users for Enterprise Voice and know their SIP URIs.</span></span>
+    <span data-ttu-id="4e14b-164">Следующий шаг необходимо выполнить для каждого пользователя после включения пользователей Lync Server для корпоративной голосовой связи и получения сведений об URI SIP.</span><span class="sxs-lookup"><span data-stu-id="4e14b-164">The following step should be performed for each user after you have enabled Lync Server users for Enterprise Voice and know their SIP URIs.</span></span>
 
-8.  <span data-ttu-id="a92c9-165">Свяжите пользователей Exchange UM (каждый из которых должен быть настроен с помощью почтового ящика Exchange) с абонентской группой UM и создайте универсальный код ресурса (URI) SIP для каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="a92c9-165">Associate Exchange UM users (each of whom should be configured with an Exchange mail box) with the UM dial plan and create a SIP URI for each user.</span></span>
+8.  <span data-ttu-id="4e14b-165">Свяжите пользователей единой системы обмена сообщениями Exchange (каждая из которых должна быть настроена с помощью почтового ящика Exchange) с абонентской группой единой системы обмена сообщениями и Создайте URI SIP для каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="4e14b-165">Associate Exchange UM users (each of whom should be configured with an Exchange mail box) with the UM dial plan and create a SIP URI for each user.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a92c9-166"><STRONG>Сипресаурцеидентифиер</STRONG> в следующем примере должен быть адресом SIP пользователя Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a92c9-166">The <STRONG>SIPResourceIdentifier</STRONG> in the following sample must be the SIP address of the Lync Server user.</span></span>
+    > <span data-ttu-id="4e14b-166"><STRONG>Сипресаурцеидентифиер</STRONG> в следующем примере должен быть SIP адресом пользователя Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e14b-166">The <STRONG>SIPResourceIdentifier</STRONG> in the following sample must be the SIP address of the Lync Server user.</span></span>
 
     
     </div>
@@ -232,11 +232,11 @@ ms.locfileid: "41733828"
     ```powershell
     enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
     ```
-    <span data-ttu-id="a92c9-167">Для получения дополнительных сведений см.:</span><span class="sxs-lookup"><span data-stu-id="a92c9-167">For details, see:</span></span>
+    <span data-ttu-id="4e14b-167">Дополнительные сведения см. в следующих статьях:</span><span class="sxs-lookup"><span data-stu-id="4e14b-167">For details, see:</span></span>
     
-      - <span data-ttu-id="a92c9-168">Дополнительные сведения об Exchange 2007 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)статье "Enable-Уммаилбокс: Exchange 2007 Help".</span><span class="sxs-lookup"><span data-stu-id="a92c9-168">For Exchange 2007, see "Enable-UMMailbox: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691).</span></span>
+      - <span data-ttu-id="4e14b-168">Для Exchange 2007 см. в [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)разделе "Enable – UMMailbox: Exchange 2007 Help".</span><span class="sxs-lookup"><span data-stu-id="4e14b-168">For Exchange 2007, see "Enable-UMMailbox: Exchange 2007 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691).</span></span>
     
-      - <span data-ttu-id="a92c9-169">Дополнительные сведения об Exchange 2010 можно найти в [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)статье "Enable-Уммаилбокс: Exchange 2010 Help".</span><span class="sxs-lookup"><span data-stu-id="a92c9-169">For Exchange 2010, see "Enable-UMMailbox: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692).</span></span>
+      - <span data-ttu-id="4e14b-169">Для Exchange 2010 см. в [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)разделе "Enable – UMMailbox: Exchange 2010 Help".</span><span class="sxs-lookup"><span data-stu-id="4e14b-169">For Exchange 2010, see "Enable-UMMailbox: Exchange 2010 Help" at [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692).</span></span>
 
 </div>
 

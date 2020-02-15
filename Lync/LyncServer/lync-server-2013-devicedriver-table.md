@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица DeviceDriver'
+title: 'Lync Server 2013: таблица таблица devicedriver'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="3e757-102">Таблица DeviceDriver в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3e757-102">DeviceDriver table in Lync Server 2013</span></span>
+# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="170b7-102">Таблица Таблица devicedriver в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="170b7-102">DeviceDriver table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762367"
 
 <span> </span>
 
-<span data-ttu-id="3e757-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="3e757-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="170b7-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="170b7-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="3e757-104">Таблица Девицедривер является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="3e757-104">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="3e757-105">Каждая запись представляет драйвер, который используется устройством захвата или устройством рендеринга.</span><span class="sxs-lookup"><span data-stu-id="3e757-105">Each record represents a driver used by either a capture device or render device.</span></span>
+<span data-ttu-id="170b7-p101">Таблица DeviceDriver является вспомогательной. Каждая запись представляет драйвер, используемый устройством захвата или отображения.</span><span class="sxs-lookup"><span data-stu-id="170b7-p101">The DeviceDriver table is a supporting table. Each record represents a driver used by either a capture device or render device.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41762367"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e757-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="3e757-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="3e757-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="3e757-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="3e757-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="3e757-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="3e757-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="3e757-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="170b7-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="170b7-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="170b7-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="170b7-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="170b7-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="170b7-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="170b7-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="170b7-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3e757-110"><strong>девицедриверкэй</strong></span><span class="sxs-lookup"><span data-stu-id="3e757-110"><strong>DeviceDriverKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="3e757-111">целое</span><span class="sxs-lookup"><span data-stu-id="3e757-111">int</span></span></p></td>
-<td><p><span data-ttu-id="3e757-112">Primary</span><span class="sxs-lookup"><span data-stu-id="3e757-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="3e757-113">Уникальный номер, идентифицирующий эту запись драйвера устройства.</span><span class="sxs-lookup"><span data-stu-id="3e757-113">Unique number identifying this device driver record.</span></span></p></td>
+<td><p><span data-ttu-id="170b7-110"><strong>девицедриверкэй</strong></span><span class="sxs-lookup"><span data-stu-id="170b7-110"><strong>DeviceDriverKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="170b7-111">int</span><span class="sxs-lookup"><span data-stu-id="170b7-111">int</span></span></p></td>
+<td><p><span data-ttu-id="170b7-112">Primary</span><span class="sxs-lookup"><span data-stu-id="170b7-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="170b7-113">Уникальный номер, идентифицирующий эту запись драйвера устройства.</span><span class="sxs-lookup"><span data-stu-id="170b7-113">Unique number identifying this device driver record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3e757-114"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="3e757-114"><strong>DeviceDriver</strong></span></span></p></td>
-<td><p><span data-ttu-id="3e757-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="3e757-115">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="3e757-116">повторя</span><span class="sxs-lookup"><span data-stu-id="3e757-116">unique</span></span></p></td>
-<td><p><span data-ttu-id="3e757-117">Имя драйвера устройства.</span><span class="sxs-lookup"><span data-stu-id="3e757-117">Device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="170b7-114"><strong>Таблица devicedriver</strong></span><span class="sxs-lookup"><span data-stu-id="170b7-114"><strong>DeviceDriver</strong></span></span></p></td>
+<td><p><span data-ttu-id="170b7-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="170b7-115">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="170b7-116">уникальный</span><span class="sxs-lookup"><span data-stu-id="170b7-116">unique</span></span></p></td>
+<td><p><span data-ttu-id="170b7-117">Имя драйвера устройства.</span><span class="sxs-lookup"><span data-stu-id="170b7-117">Device driver name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c22f5e365e47ae7b6a41cd6e917b87718e07ac9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a><span data-ttu-id="e2168-102">Запуск Lync из другого приложения</span><span class="sxs-lookup"><span data-stu-id="e2168-102">Starting Lync from another application</span></span>
+# <a name="starting-lync-from-another-application"></a><span data-ttu-id="114ce-102">Запуск Lync из другого приложения</span><span class="sxs-lookup"><span data-stu-id="114ce-102">Starting Lync from another application</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764405"
 
 <span> </span>
 
-<span data-ttu-id="e2168-103">_**Тема последнего изменения:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="e2168-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="114ce-103">_**Последнее изменение темы:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="114ce-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="e2168-104">Вы можете использовать параметры командной строки для быстрого запуска Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e2168-104">You can use command-line parameters to quick-start Lync 2013.</span></span> <span data-ttu-id="e2168-105">Например, если пользователь щелкает номер телефона в другом приложении, приложение может запустить экземпляр Lync 2013 и инициировать Звонок на этот номер.</span><span class="sxs-lookup"><span data-stu-id="e2168-105">For example, if a user clicks a phone number in another application, the application can start an instance of Lync 2013 and initiate a call to that number.</span></span>
+<span data-ttu-id="114ce-104">Вы можете использовать параметры командной строки для быстрого запуска Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="114ce-104">You can use command-line parameters to quick-start Lync 2013.</span></span> <span data-ttu-id="114ce-105">Например, если пользователь щелкает номер телефона в другом приложении, приложение может запустить экземпляр Lync 2013 и инициировать вызов этого номера.</span><span class="sxs-lookup"><span data-stu-id="114ce-105">For example, if a user clicks a phone number in another application, the application can start an instance of Lync 2013 and initiate a call to that number.</span></span>
 
-<span data-ttu-id="e2168-106">Lync 2013 также может распознать список имен контактов, разделенных точкой с запятой, для односторонних конференций.</span><span class="sxs-lookup"><span data-stu-id="e2168-106">Lync 2013 can also recognize a semicolon-delimited list of contact names for multiparty conferencing.</span></span>
+<span data-ttu-id="114ce-106">Lync 2013 также может распознать список имен контактов, разделенных точкой с запятой, для конференц-связи с многоадресной связью.</span><span class="sxs-lookup"><span data-stu-id="114ce-106">Lync 2013 can also recognize a semicolon-delimited list of contact names for multiparty conferencing.</span></span>
 
-<span data-ttu-id="e2168-107">Если Lync 2013 настроен на автоматический вход при запуске, то при запуске Lync 2013 с параметрами командной строки откроется главное окно Lync.</span><span class="sxs-lookup"><span data-stu-id="e2168-107">If Lync 2013 is configured to automatically sign in when started, then starting Lync 2013 with command-line parameters will open the Lync main window.</span></span> <span data-ttu-id="e2168-108">Если Lync не настроен для автоматического входа при запуске, откроется окно входа.</span><span class="sxs-lookup"><span data-stu-id="e2168-108">If Lync is not configured to automatically sign in when started, the sign-in window opens.</span></span>
+<span data-ttu-id="114ce-107">Если Lync 2013 настроен на автоматический вход при запуске, то при запуске Lync 2013 с параметрами командной строки будет открыто главное окно Lync.</span><span class="sxs-lookup"><span data-stu-id="114ce-107">If Lync 2013 is configured to automatically sign in when started, then starting Lync 2013 with command-line parameters will open the Lync main window.</span></span> <span data-ttu-id="114ce-108">Если Lync не настроен на автоматический вход при запуске, откроется окно входа.</span><span class="sxs-lookup"><span data-stu-id="114ce-108">If Lync is not configured to automatically sign in when started, the sign-in window opens.</span></span>
 
-<span data-ttu-id="e2168-109">В приведенной ниже таблице показаны доступные параметры.</span><span class="sxs-lookup"><span data-stu-id="e2168-109">The following table shows the available parameters.</span></span>
+<span data-ttu-id="114ce-109">В следующей таблице приведены доступные параметры.</span><span class="sxs-lookup"><span data-stu-id="114ce-109">The following table shows the available parameters.</span></span>
 
-### <a name="lync-2013-command-line-parameters"></a><span data-ttu-id="e2168-110">Параметры командной строки Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2168-110">Lync 2013 Command-Line Parameters</span></span>
+### <a name="lync-2013-command-line-parameters"></a><span data-ttu-id="114ce-110">Параметры командной строки Lync 2013</span><span class="sxs-lookup"><span data-stu-id="114ce-110">Lync 2013 Command-Line Parameters</span></span>
 
 <table>
 <colgroup>
@@ -55,50 +55,50 @@ ms.locfileid: "41764405"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2168-111">Добавоч</span><span class="sxs-lookup"><span data-stu-id="e2168-111">Extension</span></span></th>
-<th><span data-ttu-id="e2168-112">Формат данных</span><span class="sxs-lookup"><span data-stu-id="e2168-112">Format of Data</span></span></th>
-<th><span data-ttu-id="e2168-113">Действие</span><span class="sxs-lookup"><span data-stu-id="e2168-113">Action</span></span></th>
+<th><span data-ttu-id="114ce-111">Расширение</span><span class="sxs-lookup"><span data-stu-id="114ce-111">Extension</span></span></th>
+<th><span data-ttu-id="114ce-112">Формат данных</span><span class="sxs-lookup"><span data-stu-id="114ce-112">Format of Data</span></span></th>
+<th><span data-ttu-id="114ce-113">Action</span><span class="sxs-lookup"><span data-stu-id="114ce-113">Action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2168-114">Tel</span><span class="sxs-lookup"><span data-stu-id="e2168-114">tel:</span></span></p></td>
-<td><p><span data-ttu-id="e2168-115">универсальный код ресурса (URI) Tel</span><span class="sxs-lookup"><span data-stu-id="e2168-115">tel URI</span></span></p></td>
-<td><p><span data-ttu-id="e2168-116">Открытие окна беседы для голосовой связи, но не набирает указанный номер.</span><span class="sxs-lookup"><span data-stu-id="e2168-116">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-114">Tel</span><span class="sxs-lookup"><span data-stu-id="114ce-114">tel:</span></span></p></td>
+<td><p><span data-ttu-id="114ce-115">универсальный код ресурса (URI) Tel</span><span class="sxs-lookup"><span data-stu-id="114ce-115">tel URI</span></span></p></td>
+<td><p><span data-ttu-id="114ce-116">Открывает окно беседы для голосовой связи, но не набирает указанный номер.</span><span class="sxs-lookup"><span data-stu-id="114ce-116">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2168-117">тегом "callto</span><span class="sxs-lookup"><span data-stu-id="e2168-117">callto:</span></span></p></td>
-<td><p><span data-ttu-id="e2168-118">URI TEL:, SIP: или Type Tel</span><span class="sxs-lookup"><span data-stu-id="e2168-118">tel:, sip:, or typeable tel URI</span></span></p></td>
-<td><p><span data-ttu-id="e2168-119">Открытие окна беседы для голосовой связи, но не набирает указанный номер.</span><span class="sxs-lookup"><span data-stu-id="e2168-119">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-117">callto</span><span class="sxs-lookup"><span data-stu-id="114ce-117">callto:</span></span></p></td>
+<td><p><span data-ttu-id="114ce-118">Tel:, SIP: или типизированный URI TEL</span><span class="sxs-lookup"><span data-stu-id="114ce-118">tel:, sip:, or typeable tel URI</span></span></p></td>
+<td><p><span data-ttu-id="114ce-119">Открывает окно беседы для голосовой связи, но не набирает указанный номер.</span><span class="sxs-lookup"><span data-stu-id="114ce-119">Opens the Conversation window for an audio call but does not dial the specified number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2168-120">Установка</span><span class="sxs-lookup"><span data-stu-id="e2168-120">sip:</span></span></p></td>
-<td><p><span data-ttu-id="e2168-121">Универсальный код ресурса SIP</span><span class="sxs-lookup"><span data-stu-id="e2168-121">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="e2168-122">Открытие окна беседы с указанным универсальным кодом ресурса (URI) SIP в списке участников.</span><span class="sxs-lookup"><span data-stu-id="e2168-122">Opens the Conversation window with the specified SIP Uniform Resource Identifier (URI) in the participant list.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-120">панели</span><span class="sxs-lookup"><span data-stu-id="114ce-120">sip:</span></span></p></td>
+<td><p><span data-ttu-id="114ce-121">Универсальный код ресурса (URI) SIP</span><span class="sxs-lookup"><span data-stu-id="114ce-121">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="114ce-122">Открывает окно беседы с указанным универсальным кодом ресурса (URI) SIP в списке участников.</span><span class="sxs-lookup"><span data-stu-id="114ce-122">Opens the Conversation window with the specified SIP Uniform Resource Identifier (URI) in the participant list.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2168-123">Протоколов</span><span class="sxs-lookup"><span data-stu-id="e2168-123">Sips:</span></span></p></td>
-<td><p><span data-ttu-id="e2168-124">Универсальный код ресурса SIP</span><span class="sxs-lookup"><span data-stu-id="e2168-124">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="e2168-125">Если Lync 2013 настроен на использование протокола TLS, функция работает точно так же, как SIP:.</span><span class="sxs-lookup"><span data-stu-id="e2168-125">If Lync 2013 is configured to use the Transport Layer Security (TLS) protocol, functions exactly like sip:.</span></span> <span data-ttu-id="e2168-126">Если TLS не используется, откроется диалоговое окно с уведомлением о том, что требуется более высокий уровень безопасности.</span><span class="sxs-lookup"><span data-stu-id="e2168-126">If TLS is not being used, displays a dialog box informing the user that a higher level of security is required.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-123">Sips</span><span class="sxs-lookup"><span data-stu-id="114ce-123">Sips:</span></span></p></td>
+<td><p><span data-ttu-id="114ce-124">Универсальный код ресурса (URI) SIP</span><span class="sxs-lookup"><span data-stu-id="114ce-124">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="114ce-125">Если Lync 2013 настроен для использования протокола TLS, функционирует аналогично SIP:.</span><span class="sxs-lookup"><span data-stu-id="114ce-125">If Lync 2013 is configured to use the Transport Layer Security (TLS) protocol, functions exactly like sip:.</span></span> <span data-ttu-id="114ce-126">Если протокол TLS не используется, отображается диалоговое окно, которое информирует пользователя о том, что необходим более высокий уровень безопасности.</span><span class="sxs-lookup"><span data-stu-id="114ce-126">If TLS is not being used, displays a dialog box informing the user that a higher level of security is required.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2168-127">CONF</span><span class="sxs-lookup"><span data-stu-id="e2168-127">conf:</span></span></p></td>
-<td><p><span data-ttu-id="e2168-128">Универсальный код ресурса (URI) для присоединения к Конференции</span><span class="sxs-lookup"><span data-stu-id="e2168-128">SIP URI of conference to join</span></span></p></td>
-<td><p><span data-ttu-id="e2168-129">Если URI является самосозданием, он создает фокус и выводит представление только для списка.</span><span class="sxs-lookup"><span data-stu-id="e2168-129">If URI is self, instantiates the focus and brings up roster-only view.</span></span> <span data-ttu-id="e2168-130">В противном случае выводится представление списка, но приглашение не отправляется.</span><span class="sxs-lookup"><span data-stu-id="e2168-130">Otherwise, brings up roster view but does not send INVITE.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-127">дает</span><span class="sxs-lookup"><span data-stu-id="114ce-127">conf:</span></span></p></td>
+<td><p><span data-ttu-id="114ce-128">Универсальный код ресурса (URI) SIP конференции для присоединения</span><span class="sxs-lookup"><span data-stu-id="114ce-128">SIP URI of conference to join</span></span></p></td>
+<td><p><span data-ttu-id="114ce-129">Если URI является самостоятельным, он создает фокус и выводит представление только для списка.</span><span class="sxs-lookup"><span data-stu-id="114ce-129">If URI is self, instantiates the focus and brings up roster-only view.</span></span> <span data-ttu-id="114ce-130">В противном случае отображает представление списка, но не отправляет приглашение.</span><span class="sxs-lookup"><span data-stu-id="114ce-130">Otherwise, brings up roster view but does not send INVITE.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2168-131">бесед</span><span class="sxs-lookup"><span data-stu-id="e2168-131">im:</span></span></p></td>
-<td><p><span data-ttu-id="e2168-132">Универсальный код ресурса SIP</span><span class="sxs-lookup"><span data-stu-id="e2168-132">SIP URI</span></span></p></td>
-<td><p><span data-ttu-id="e2168-133">Отображается окно беседы с помощью URI SIP (только для обмена мгновенными сообщениями).</span><span class="sxs-lookup"><span data-stu-id="e2168-133">Displays an instant messaging (IM)-only Conversation window with the SIP URI.</span></span> <span data-ttu-id="e2168-134">Принимает несколько URI SIP, указанных в угловых&lt;&gt;скобках () без разделителя.</span><span class="sxs-lookup"><span data-stu-id="e2168-134">Accepts multiple SIP URIs specified inside angle brackets (&lt;&gt;) without any separator.</span></span></p>
+<td><p><span data-ttu-id="114ce-131">обмена мгновенными сообщениями</span><span class="sxs-lookup"><span data-stu-id="114ce-131">im:</span></span></p></td>
+<td><p><span data-ttu-id="114ce-132">Универсальный код ресурса (URI) SIP</span><span class="sxs-lookup"><span data-stu-id="114ce-132">SIP URI</span></span></p></td>
+<td><p><span data-ttu-id="114ce-133">Отображает окно беседы с URI SIP только для обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="114ce-133">Displays an instant messaging (IM)-only Conversation window with the SIP URI.</span></span> <span data-ttu-id="114ce-134">Принимает несколько URI SIP, указанных внутри угловых&lt;&gt;скобок () без разделителя.</span><span class="sxs-lookup"><span data-stu-id="114ce-134">Accepts multiple SIP URIs specified inside angle brackets (&lt;&gt;) without any separator.</span></span></p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e2168-135">В таблице ниже приведены примеры этих параметров командной строки.</span><span class="sxs-lookup"><span data-stu-id="e2168-135">The following table provides examples of these command-line parameters.</span></span>
+<span data-ttu-id="114ce-135">В следующей таблице приведены примеры этих параметров командной строки.</span><span class="sxs-lookup"><span data-stu-id="114ce-135">The following table provides examples of these command-line parameters.</span></span>
 
-### <a name="command-line-parameter-examples"></a><span data-ttu-id="e2168-136">Примеры параметров командной строки</span><span class="sxs-lookup"><span data-stu-id="e2168-136">Command-Line Parameter Examples</span></span>
+### <a name="command-line-parameter-examples"></a><span data-ttu-id="114ce-136">Примеры параметров командной строки</span><span class="sxs-lookup"><span data-stu-id="114ce-136">Command-Line Parameter Examples</span></span>
 
 <table>
 <colgroup>
@@ -107,30 +107,30 @@ ms.locfileid: "41764405"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2168-137">Примеру</span><span class="sxs-lookup"><span data-stu-id="e2168-137">Instance</span></span></th>
-<th><span data-ttu-id="e2168-138">Поиска</span><span class="sxs-lookup"><span data-stu-id="e2168-138">Results</span></span></th>
+<th><span data-ttu-id="114ce-137">Экземпляр</span><span class="sxs-lookup"><span data-stu-id="114ce-137">Instance</span></span></th>
+<th><span data-ttu-id="114ce-138">Результаты</span><span class="sxs-lookup"><span data-stu-id="114ce-138">Results</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2168-139">Tel: + 14255550101</span><span class="sxs-lookup"><span data-stu-id="e2168-139">Tel:+14255550101</span></span></p></td>
-<td><p><span data-ttu-id="e2168-140">Открытие представления "только для телефона" с + 14255550101.</span><span class="sxs-lookup"><span data-stu-id="e2168-140">Opens a phone-only view with +14255550101.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-139">Tel: + 14255550101</span><span class="sxs-lookup"><span data-stu-id="114ce-139">Tel:+14255550101</span></span></p></td>
+<td><p><span data-ttu-id="114ce-140">Открывает представление "только телефон" с + 14255550101.</span><span class="sxs-lookup"><span data-stu-id="114ce-140">Opens a phone-only view with +14255550101.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2168-141">Тегом "callto: Tel: + 14255550101</span><span class="sxs-lookup"><span data-stu-id="e2168-141">Callto:tel:+ 14255550101</span></span></p></td>
-<td><p><span data-ttu-id="e2168-142">Открытие представления "только для телефона" с + 14255550101.</span><span class="sxs-lookup"><span data-stu-id="e2168-142">Opens a phone-only view with +14255550101.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-141">Callto: Tel: + 14255550101</span><span class="sxs-lookup"><span data-stu-id="114ce-141">Callto:tel:+ 14255550101</span></span></p></td>
+<td><p><span data-ttu-id="114ce-142">Открывает представление "только телефон" с + 14255550101.</span><span class="sxs-lookup"><span data-stu-id="114ce-142">Opens a phone-only view with +14255550101.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2168-143">Callto:sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="e2168-143">Callto:sip:kazuto@litwareinc.com</span></span></p></td>
-<td><p><span data-ttu-id="e2168-144">Открытие представления "только для телефона" с kazuto@litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="e2168-144">Opens a phone-only view with kazuto@litwareinc.com.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-143">Callto:sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="114ce-143">Callto:sip:kazuto@litwareinc.com</span></span></p></td>
+<td><p><span data-ttu-id="114ce-144">Открывает только телефонное представление с kazuto@litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="114ce-144">Opens a phone-only view with kazuto@litwareinc.com.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2168-145">sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="e2168-145">sip:kazuto@litwareinc.com</span></span></p></td>
-<td><p><span data-ttu-id="e2168-146">Открытие окна беседы с помощью kazuto@litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="e2168-146">Opens a Conversation window with kazuto@litwareinc.com.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-145">sip:kazuto@litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="114ce-145">sip:kazuto@litwareinc.com</span></span></p></td>
+<td><p><span data-ttu-id="114ce-146">Открывает окно беседы с kazuto@litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="114ce-146">Opens a Conversation window with kazuto@litwareinc.com.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2168-147">conf: SIP:https://meet.contoso.com/kazuto/7322994</span><span class="sxs-lookup"><span data-stu-id="e2168-147">conf:sip:https://meet.contoso.com/kazuto/7322994</span></span></p></td>
-<td><p><span data-ttu-id="e2168-148">Открытие окна беседы и отображение параметров присоединения к звуковому каналу собрания.</span><span class="sxs-lookup"><span data-stu-id="e2168-148">Opens a Conversation window and displays meeting audio join options.</span></span></p></td>
+<td><p><span data-ttu-id="114ce-147">conf: SIP:https://meet.contoso.com/kazuto/7322994</span><span class="sxs-lookup"><span data-stu-id="114ce-147">conf:sip:https://meet.contoso.com/kazuto/7322994</span></span></p></td>
+<td><p><span data-ttu-id="114ce-148">Открывает окно беседы и отображает варианты присоединения к собранию.</span><span class="sxs-lookup"><span data-stu-id="114ce-148">Opens a Conversation window and displays meeting audio join options.</span></span></p></td>
 </tr>
 </tbody>
 </table>

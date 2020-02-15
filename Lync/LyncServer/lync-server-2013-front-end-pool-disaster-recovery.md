@@ -12,20 +12,20 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739769"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="0d333-102">Аварийное восстановление пула переднего плана в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d333-102">Front End pool disaster recovery in Lync Server 2013</span></span>
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="edfe0-102">Аварийное восстановление пула переднего плана в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="edfe0-102">Front End pool disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739769"
 
 <span> </span>
 
-<span data-ttu-id="0d333-103">_**Тема последнего изменения:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="0d333-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="edfe0-103">_**Последнее изменение темы:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="edfe0-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="0d333-104">В этом разделе объясняется, как пулы интерфейсов верхнего уровня для обеспечения высокой доступности и аварийного восстановления доступны в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0d333-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
+<span data-ttu-id="edfe0-104">В подразделах этого раздела объясняются интерфейсные пулы возможностей обеспечения высокого уровня доступности и аварийного восстановления в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="edfe0-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0d333-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="0d333-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="edfe0-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="edfe0-105">In This Section</span></span>
 
-  - [<span data-ttu-id="0d333-106">Планирование сопоставления для пула переднего плана в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d333-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [<span data-ttu-id="edfe0-106">Планирование связывания пула переднего плана в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="edfe0-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [<span data-ttu-id="0d333-107">Взаимодействие с пользователем во время сбоя пула в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d333-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
+  - [<span data-ttu-id="edfe0-107">Взаимодействие с пользователем при отказе пула в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="edfe0-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [<span data-ttu-id="0d333-108">Высокий уровень доступности серверной части в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d333-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
+  - [<span data-ttu-id="edfe0-108">Высокая доступность внутреннего сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="edfe0-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
 
-  - [<span data-ttu-id="0d333-109">Общий доступ к файлам в Lync Server 2013 с высокой доступностью</span><span class="sxs-lookup"><span data-stu-id="0d333-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
+  - [<span data-ttu-id="edfe0-109">Высокая доступность общего доступа к файлам в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="edfe0-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

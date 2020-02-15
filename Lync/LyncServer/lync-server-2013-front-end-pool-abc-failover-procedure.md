@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: простая процедура отработки отказа для интерфейсного пула'
+title: 'Lync Server 2013: процедура отработки отказа для пула переднего плана ABC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf3d12aa519ab7746ccec92998995ed463aa9be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e2f3798dbe49b9da0e76810d1ea8e6619a4e9b6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038101"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a><span data-ttu-id="cb9f1-102">Простая процедура отработки отказа для интерфейсного пула в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cb9f1-102">Front End pool ABC failover procedure in Lync Server 2013</span></span>
+# <a name="front-end-pool-abc-failover-procedure-in-lync-server-2013"></a><span data-ttu-id="638aa-102">Процедура отработки отказа для пула переднего плана ABC в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="638aa-102">Front End pool ABC failover procedure in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41739779"
 
 <span> </span>
 
-<span data-ttu-id="cb9f1-103">_**Тема последнего изменения:** 2014-05-22_</span><span class="sxs-lookup"><span data-stu-id="cb9f1-103">_**Topic Last Modified:** 2014-05-22_</span></span>
+<span data-ttu-id="638aa-103">_**Последнее изменение темы:** 2014-05-22_</span><span class="sxs-lookup"><span data-stu-id="638aa-103">_**Topic Last Modified:** 2014-05-22_</span></span>
 
-<span data-ttu-id="cb9f1-104">Чтобы выполнить процедуру ABC failover, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-104">Use the following steps to perform the ABC failover procedure.</span></span> <span data-ttu-id="cb9f1-105">Эта процедура включает подробное описание каждого шага, а затем команды и командлеты, которые необходимо выполнить для каждого шага.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-105">This procedure contains a high-level description of each step, followed by commands and cmdlets to be run for each step.</span></span>
+<span data-ttu-id="638aa-104">Выполните следующие действия, чтобы выполнить процедуру отработки отказа ABC.</span><span class="sxs-lookup"><span data-stu-id="638aa-104">Use the following steps to perform the ABC failover procedure.</span></span> <span data-ttu-id="638aa-105">Эта процедура содержит подробное описание каждого этапа, а затем команды и командлеты, которые необходимо выполнить для каждого этапа.</span><span class="sxs-lookup"><span data-stu-id="638aa-105">This procedure contains a high-level description of each step, followed by commands and cmdlets to be run for each step.</span></span>
 
-<span data-ttu-id="cb9f1-106">Чтобы запустить командлеты, откройте консоль управления Lync Server с помощью команды Запуск от имени администратора.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-106">To run the cmdlets, open a Lync Server Management Shell using Run as Administrator.</span></span>
+<span data-ttu-id="638aa-106">Чтобы запустить командлеты, откройте командную консоль Lync Server с помощью команды Запуск от имени администратора.</span><span class="sxs-lookup"><span data-stu-id="638aa-106">To run the cmdlets, open a Lync Server Management Shell using Run as Administrator.</span></span>
 
 <div>
 
-## <a name="to-perform-an-abc-failover"></a><span data-ttu-id="cb9f1-107">Выполнение ABC отработки отказа</span><span class="sxs-lookup"><span data-stu-id="cb9f1-107">To Perform an ABC Failover</span></span>
+## <a name="to-perform-an-abc-failover"></a><span data-ttu-id="638aa-107">Выполнение отработки отказа ABC</span><span class="sxs-lookup"><span data-stu-id="638aa-107">To Perform an ABC Failover</span></span>
 
-1.  <span data-ttu-id="cb9f1-108">Убедитесь, что пул A является узлом центрального сервера управления (CMS).</span><span class="sxs-lookup"><span data-stu-id="cb9f1-108">Check whether the pool A is the host for the Central Management Server (CMS).</span></span>
+1.  <span data-ttu-id="638aa-108">Проверьте, является ли пул A узлом для центрального сервера управления (CMS).</span><span class="sxs-lookup"><span data-stu-id="638aa-108">Check whether the pool A is the host for the Central Management Server (CMS).</span></span>
     
-      - <span data-ttu-id="cb9f1-109">Выполнить следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-109">Run the following cmdlet:</span></span>
+      - <span data-ttu-id="638aa-109">Выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-109">Run the following cmdlet:</span></span>
         
             Get-CsService -CentralManagement
         
-        <span data-ttu-id="cb9f1-110">Если поле Identity активного CMS указывает на полное доменное имя (FQDN) для пула A, вы можете сначала выполнить действия 2 и 3 для этой процедуры для основного сервера управления.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-110">If the Identity field of the active CMS points to the fully qualified domain name (FQDN) of Pool A, then you use steps 2 and 3 of this procedure to fail over the Central Management Server first.</span></span> <span data-ttu-id="cb9f1-111">В противном случае перейдите к шагу 4.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-111">Otherwise, skip to step 4.</span></span>
+        <span data-ttu-id="638aa-110">Если поле Identity активного сервера CMS указывает на полное доменное имя пула A, то сначала выполните шаги 2 и 3, чтобы сначала выполнить отработку отказа на центральном сервере управления.</span><span class="sxs-lookup"><span data-stu-id="638aa-110">If the Identity field of the active CMS points to the fully qualified domain name (FQDN) of Pool A, then you use steps 2 and 3 of this procedure to fail over the Central Management Server first.</span></span> <span data-ttu-id="638aa-111">В противном случае перейдите к шагу 4.</span><span class="sxs-lookup"><span data-stu-id="638aa-111">Otherwise, skip to step 4.</span></span>
 
-2.  <span data-ttu-id="cb9f1-112">Для переключения CMS на пул B в режиме аварийного восстановления запустите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-112">Fail over the CMS to Pool B in disaster recovery mode by running the following cmdlet:</span></span>
+2.  <span data-ttu-id="638aa-112">Отработка отказа для сервера CMS в пул B в режиме аварийного восстановления путем запуска следующего командлета:</span><span class="sxs-lookup"><span data-stu-id="638aa-112">Fail over the CMS to Pool B in disaster recovery mode by running the following cmdlet:</span></span>
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    <span data-ttu-id="cb9f1-113">После этого мы рекомендуем вам переместить CMS из пула B в другой существующий Объединенный пул для дополнительной устойчивости.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-113">After you do this, we recommend that you move the CMS from pool B to another existing paired pool for extra resiliency.</span></span> <span data-ttu-id="cb9f1-114">Подробности можно найти в разделе [Move-ксманажементсервер](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)..</span><span class="sxs-lookup"><span data-stu-id="cb9f1-114">For details, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)..</span></span>
+    <span data-ttu-id="638aa-113">После этого мы рекомендуем переместить CMS из пула б в другой существующий связанный пул для дополнительной устойчивости.</span><span class="sxs-lookup"><span data-stu-id="638aa-113">After you do this, we recommend that you move the CMS from pool B to another existing paired pool for extra resiliency.</span></span> <span data-ttu-id="638aa-114">Дополнительные сведения см. в статье [Move – CsManagementServer](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)..</span><span class="sxs-lookup"><span data-stu-id="638aa-114">For details, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)..</span></span>
 
-3.  <span data-ttu-id="cb9f1-115">Если в пуле A содержится CMS, импортируйте конфигурацию LIS из группы A в базу данных LIS (LIS. mdf) пула.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-115">If Pool A contains CMS, import the LIS configuration from pool A into pool B’s LIS database (Lis.mdf).</span></span> <span data-ttu-id="cb9f1-116">Это действие будет работать только в том случае, если вы регулярно заархивированные данные LIS.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-116">This will work only if you have been backing up LIS data on a regular basis.</span></span> <span data-ttu-id="cb9f1-117">Чтобы импортировать конфигурацию LIS, выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-117">To import the LIS configuration, run the following cmdlets:</span></span>
+3.  <span data-ttu-id="638aa-115">Если пул A содержит CMS, импортируйте конфигурацию LIS из пула а в базу данных LIS (LIS. mdf) пула.</span><span class="sxs-lookup"><span data-stu-id="638aa-115">If Pool A contains CMS, import the LIS configuration from pool A into pool B’s LIS database (Lis.mdf).</span></span> <span data-ttu-id="638aa-116">Это будет работать только в том случае, если вы регулярно создаете резервную копию данных LIS.</span><span class="sxs-lookup"><span data-stu-id="638aa-116">This will work only if you have been backing up LIS data on a regular basis.</span></span> <span data-ttu-id="638aa-117">Чтобы импортировать конфигурацию LIS, выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="638aa-117">To import the LIS configuration, run the following cmdlets:</span></span>
     
         Import-CsLisConfiguration -FileName <String> 
         Publish-CsLisConfiguration
 
-4.  <span data-ttu-id="cb9f1-118">Импортируйте резервные копии рабочих процессов службы группы ответа сервера Lync из пула A в пул B.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-118">Import backed-up Lync Server Response Group service workflows from pool A into pool B.</span></span>
+4.  <span data-ttu-id="638aa-118">Импортируйте резервные копии рабочих процессов службы группы ответа Lync Server из пула A в пул B.</span><span class="sxs-lookup"><span data-stu-id="638aa-118">Import backed-up Lync Server Response Group service workflows from pool A into pool B.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="cb9f1-119">В настоящее время командлет <STRONG>Import-ксргсконфигуратион</STRONG> требует, чтобы имена очереди и рабочего процесса в пуле A отличаются от имен очереди и рабочего процесса в пуле B. Если имена не являются уникальными, при запуске командлета <STRONG>Import-ксргсконфигуратион</STRONG> возникает ошибка, а перед выполнением командлета <STRONG>Import-ксргсконфигуратион</STRONG> вы должны будете переименовать очереди и рабочие процессы в пуле B.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-119">Currently, the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet requires that the queue and workflow names on pool A are distinct from the queue and workflow names on pool B. If the names are not distinct, you will get an error when running the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet, and the queues and workflows will need to be renamed in pool B before proceeding with <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet.</span></span>
+    > <span data-ttu-id="638aa-119">В настоящее время командлету <STRONG>Import-CsRgsConfiguration</STRONG> требуется, чтобы имена очередей и рабочих процессов в пуле A отличались от имен очередей и рабочих процессов в пуле B. Если имена не отличаются, при выполнении командлета <STRONG>Import-CsRgsConfiguration</STRONG> возникает ошибка, и перед выполнением командлета <STRONG>Import-CsRgsConfiguration</STRONG> необходимо переименовать очереди и рабочие процессы в пуле B.</span><span class="sxs-lookup"><span data-stu-id="638aa-119">Currently, the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet requires that the queue and workflow names on pool A are distinct from the queue and workflow names on pool B. If the names are not distinct, you will get an error when running the <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet, and the queues and workflows will need to be renamed in pool B before proceeding with <STRONG>Import-CsRgsConfiguration</STRONG> cmdlet.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="cb9f1-120">У вас есть два варианта импорта конфигурации группы ответа из пула A в пул B. Выбор используемого параметра зависит от того, хотите ли вы заменить параметры уровня приложения для пула B с параметрами уровня приложения в пуле A.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-120">You have two options for importing the Response Group configuration from pool A to pool B. Which option you use depends on whether you want to overwrite the application-level settings of pool B with the application-level settings in pool A.</span></span>
+    <span data-ttu-id="638aa-120">Существует два варианта импорта конфигурации группы ответа из пула A в пул B. Выбор варианта зависит от того, хотите ли вы перезаписать параметры уровня приложения для пула B с параметрами уровня приложения в пуле A.</span><span class="sxs-lookup"><span data-stu-id="638aa-120">You have two options for importing the Response Group configuration from pool A to pool B. Which option you use depends on whether you want to overwrite the application-level settings of pool B with the application-level settings in pool A.</span></span>
     
-      - <span data-ttu-id="cb9f1-121">Если вы хотите перезаписать параметры пула (B), выполните командлет **Import-ксргсконфигуратион** с параметром **реплацеексистингсеттингс** :</span><span class="sxs-lookup"><span data-stu-id="cb9f1-121">If you want to overwrite the Pool B settings, run the **Import-CsRgsConfiguration** cmdlet with the **ReplaceExistingSettings** option:</span></span>
+      - <span data-ttu-id="638aa-121">Если вы хотите перезаписать параметры пула в, выполните командлет **Import – CsRgsConfiguration** с параметром **реплацеексистингсеттингс** :</span><span class="sxs-lookup"><span data-stu-id="638aa-121">If you want to overwrite the Pool B settings, run the **Import-CsRgsConfiguration** cmdlet with the **ReplaceExistingSettings** option:</span></span>
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"  -ReplaceExistingRgsSettings
     
-      - <span data-ttu-id="cb9f1-122">Если вы не хотите перезаписывать параметры пула (B), используйте командлет **Import-ксргсконфигуратион** без параметра **реплацеексистингсеттингс** .</span><span class="sxs-lookup"><span data-stu-id="cb9f1-122">If you do not want to overwrite the Pool B settings, use the **Import-CsRgsConfiguration** cmdlet without the **ReplaceExistingSettings** option.</span></span>
+      - <span data-ttu-id="638aa-122">Если вы не хотите перезаписывать параметры пула B, используйте командлет **Import – CsRgsConfiguration** без параметра **реплацеексистингсеттингс** .</span><span class="sxs-lookup"><span data-stu-id="638aa-122">If you do not want to overwrite the Pool B settings, use the **Import-CsRgsConfiguration** cmdlet without the **ReplaceExistingSettings** option.</span></span>
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
@@ -89,12 +89,12 @@ ms.locfileid: "41739779"
     
 
     > [!WARNING]  
-    > <span data-ttu-id="cb9f1-123">Имейте в виду, что если вы не хотите перезаписывать параметры уровня приложения для пула резервных копий (пула B) с параметрами основного пула (пула A), параметры уровня приложения для пула A будут потеряны, так как приложение группы ответа может Храните только один набор параметров на уровне приложения для каждого пула.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-123">Keep in mind that if you do not want to overwrite the application-level settings of the backup pool (pool B) with the settings of the primary pool (pool A), pool A’s application-level settings will be lost if pool A is lost, because the Response Group application can store only one set of application-level settings per pool.</span></span> <span data-ttu-id="cb9f1-124">Если группа C развернута для замены пула A, параметры на уровне приложения должны быть перенастроены, в том числе с аудиофайлом по умолчанию для хранения музыкальных файлов.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-124">When pool C is deployed to replace pool A, the application-level settings must be reconfigured, including the default music-on-hold audio file.</span></span>
+    > <span data-ttu-id="638aa-123">Имейте в виду, что если вы не хотите перезаписывать параметры уровня приложения для резервного пула (пула б) с параметрами основного пула (Pool A), то параметры уровня приложения пула A будут потеряны при потере пула A, так как приложение группы ответа может Сохраните только один набор параметров уровня приложения для каждого пула.</span><span class="sxs-lookup"><span data-stu-id="638aa-123">Keep in mind that if you do not want to overwrite the application-level settings of the backup pool (pool B) with the settings of the primary pool (pool A), pool A’s application-level settings will be lost if pool A is lost, because the Response Group application can store only one set of application-level settings per pool.</span></span> <span data-ttu-id="638aa-124">При развертывании Pool C для замены пула A параметры на уровне приложения должны быть перенастроены, включая звуковой файл по умолчанию для хранения музыки.</span><span class="sxs-lookup"><span data-stu-id="638aa-124">When pool C is deployed to replace pool A, the application-level settings must be reconfigured, including the default music-on-hold audio file.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="cb9f1-125">Убедитесь, что импорт конфигурации группы ответа выполнен успешно, выполнив следующие командлеты, чтобы отобразить импортированные группы ответа.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-125">Verify that the Response Group configuration import was successful by running the following cmdlets to display the imported response groups.</span></span> <span data-ttu-id="cb9f1-126">Обратите внимание на то, что импортированные группы ответов по-прежнему принадлежат группе A.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-126">Note that the imported response groups are still owned by pool A.</span></span>
+5.  <span data-ttu-id="638aa-125">Убедитесь, что импорт конфигурации группы ответа выполнен успешно, выполнив следующие командлеты, чтобы отобразить импортированные группы ответа.</span><span class="sxs-lookup"><span data-stu-id="638aa-125">Verify that the Response Group configuration import was successful by running the following cmdlets to display the imported response groups.</span></span> <span data-ttu-id="638aa-126">Обратите внимание на то, что импортированные группы ответа по-прежнему принадлежат пулу A.</span><span class="sxs-lookup"><span data-stu-id="638aa-126">Note that the imported response groups are still owned by pool A.</span></span>
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<Pool B FQDN>" -Owner "service:ApplicationServer:<Pool A FQDN>"
         
@@ -102,11 +102,11 @@ ms.locfileid: "41739779"
         
         Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<Pool B FQDN>" -Owner "service:ApplicationServer:<Pool A FQDN>"
 
-6.  <span data-ttu-id="cb9f1-127">Для неназначенных номеров переместите неназначенные диапазоны номеров, которые используют "извещение", в качестве выбранной службы объявлений из пула A в пул B. Для этого выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-127">For Unassigned Numbers, move the Unassigned Number ranges that are using "Announcement" as the selected announcement service from pool A to pool B. To do so:</span></span>
+6.  <span data-ttu-id="638aa-127">Для неназначенных номеров переместите диапазоны неназначенных номеров, которые используют "извещение", в качестве выбранной службы объявлений из пула A в пул B. Для этого выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="638aa-127">For Unassigned Numbers, move the Unassigned Number ranges that are using "Announcement" as the selected announcement service from pool A to pool B. To do so:</span></span>
     
-      - <span data-ttu-id="cb9f1-128">Повторное создание всех объявлений, развернутых в пуле A, в пуле B. Если при развертывании объявлений в пуле A использовались какие-либо звуковые файлы, эти файлы понадобятся вам для повторного создания объявлений в пуле B. Для повторного создания объявлений в пуле B используйте командлеты **New-ксаннаунцемент** с пулом b в качестве родительской службы.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-128">Re-create all announcements that were deployed in pool A on pool B. If any audio files were used when deploying the announcements in pool A, these files will be needed to re-create the announcements in pool B. To re-create the announcements in pool B, use the **New-CsAnnouncement** cmdlets, with pool B as the Parent service.</span></span>
+      - <span data-ttu-id="638aa-128">Повторно создайте все объявления, развернутые в пуле A, в пуле B. Если при развертывании объявлений в пуле A использовались какие бы то ни были звуковые файлы, эти файлы понадобятся для повторного создания объявлений в пуле B. Чтобы повторно создать объявления в пуле б, используйте командлеты **New – ксаннаунцемент** с пулом B в качестве родительской службы.</span><span class="sxs-lookup"><span data-stu-id="638aa-128">Re-create all announcements that were deployed in pool A on pool B. If any audio files were used when deploying the announcements in pool A, these files will be needed to re-create the announcements in pool B. To re-create the announcements in pool B, use the **New-CsAnnouncement** cmdlets, with pool B as the Parent service.</span></span>
     
-      - <span data-ttu-id="cb9f1-129">Переназначьте все диапазоны неназначенных номеров, предназначенные для объявления в пуле A, в новые развернутые объявления в пуле B. выполните следующий командлет для каждого неназначенного диапазона номеров, предназначенного для объявления пула а.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-129">Retarget all the Unassigned Number ranges that are targeting an announcement in pool A to the newly deployed announcements in pool B. Run the following cmdlet for every Unassigned Number range targeting an announcement of pool A:</span></span>
+      - <span data-ttu-id="638aa-129">Переназначьте все диапазоны неназначенных номеров, которые нацелены на оповещение в пуле а, в новые развернутые объявления в пуле б. выполните следующий командлет для каждого диапазона неназначенных номеров, предназначенного для объявления пула а:</span><span class="sxs-lookup"><span data-stu-id="638aa-129">Retarget all the Unassigned Number ranges that are targeting an announcement in pool A to the newly deployed announcements in pool B. Run the following cmdlet for every Unassigned Number range targeting an announcement of pool A:</span></span>
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
@@ -114,79 +114,79 @@ ms.locfileid: "41739779"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="cb9f1-130">Этот шаг не требуется для неназначенных диапазонов номеров, в которых в качестве выбранной службы объявлений используется "Exchange UM".</span><span class="sxs-lookup"><span data-stu-id="cb9f1-130">This step is not required for unassigned number ranges that use "Exchange UM" as the selected announcement service.</span></span>
+    > <span data-ttu-id="638aa-130">Этот шаг не нужен для диапазонов неназначенных номеров, в которых выбрана служба обмена единой системой обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="638aa-130">This step is not required for unassigned number ranges that use "Exchange UM" as the selected announcement service.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="cb9f1-131">Переключиться из пула A в пул B в режиме аварийного восстановления (DR), выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-131">Fail over Pool A to Pool B in Disaster Recovery (DR) mode, by running the following cmdlet:</span></span>
+7.  <span data-ttu-id="638aa-131">Отработка отказа пула A to Pool B в режиме аварийного восстановления (DR), выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-131">Fail over Pool A to Pool B in Disaster Recovery (DR) mode, by running the following cmdlet:</span></span>
     
         Invoke-CsPoolFailover -PoolFqdn <Pool A FQDN> -DisasterMode
 
-8.  <span data-ttu-id="cb9f1-132">Создание пула в пуле C, но не запуск служб в пуле C.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-132">Build pool C, but do not start any services on pool C.</span></span>
+8.  <span data-ttu-id="638aa-132">Создать пул C, но не запускать службы в пуле C.</span><span class="sxs-lookup"><span data-stu-id="638aa-132">Build pool C, but do not start any services on pool C.</span></span>
     
-    <span data-ttu-id="cb9f1-133">Обратите внимание на то, что это действие можно выполнить одновременно с действиями 5 и 6.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-133">Note that this step can be carried out concurrently with steps 5 and 6.</span></span>
+    <span data-ttu-id="638aa-133">Обратите внимание, что это действие можно выполнить одновременно с действиями 5 и 6.</span><span class="sxs-lookup"><span data-stu-id="638aa-133">Note that this step can be carried out concurrently with steps 5 and 6.</span></span>
 
-9.  <span data-ttu-id="cb9f1-134">Принудительное перемещение пользователей из пула а в группу C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-134">Force users homed on pool A to move to pool C by running the following cmdlet:</span></span>
+9.  <span data-ttu-id="638aa-134">Принудительное перемещение пользователей, размещенных в пуле а, в пул C с помощью следующего командлета:</span><span class="sxs-lookup"><span data-stu-id="638aa-134">Force users homed on pool A to move to pool C by running the following cmdlet:</span></span>
     
         Get-csuser -Filter {RegistrarPool -eq "<Pool A FQDN>"} | Move-CsUser -Target <Pool C FQDN> -Force
     
-    <span data-ttu-id="cb9f1-135">На этом этапе пользователи, работающие в пуле "A", начнут испытывать сбой в работе службы.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-135">At this point, users homed on pool A will begin to experience a service outage.</span></span> <span data-ttu-id="cb9f1-136">Этот сбой будет продолжен до этапа 16, после чего службы будут запущены в пуле C.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-136">This outage will continue until step 16, at which point services are started on pool C.</span></span>
+    <span data-ttu-id="638aa-135">На этом шаге пользователи, размещенные в пуле, начнут испытывать сбой службы.</span><span class="sxs-lookup"><span data-stu-id="638aa-135">At this point, users homed on pool A will begin to experience a service outage.</span></span> <span data-ttu-id="638aa-136">Этот сбой будет продолжен до этапа 16, после чего службы будут запущены в пуле C.</span><span class="sxs-lookup"><span data-stu-id="638aa-136">This outage will continue until step 16, at which point services are started on pool C.</span></span>
 
-10. <span data-ttu-id="cb9f1-137">Сделайте Каталог конференций пула а для перемещения на группу C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-137">Force the conference directory of pool A to move to pool C by running the following cmdlet:</span></span>
+10. <span data-ttu-id="638aa-137">Принудительно переместите каталог конференций пула A в пул C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-137">Force the conference directory of pool A to move to pool C by running the following cmdlet:</span></span>
     
         Move-CsConferenceDirectory -Identity <Conference Directory ID of Pool A> -TargetPool <Pool C FQDN> -Force
 
-11. <span data-ttu-id="cb9f1-138">Запросите объект контакта автосекретаря конференции (Каа) для перемещения из пула A в пул C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-138">Force the Conference Auto Attendant (CAA) Contact Object to move from pool A to pool C by running the following cmdlet:</span></span>
+11. <span data-ttu-id="638aa-138">Принудительно переместите объект контакта автосекретаря конференц-связи (CAA) из пула A в пул C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-138">Force the Conference Auto Attendant (CAA) Contact Object to move from pool A to pool C by running the following cmdlet:</span></span>
     
         Move-csApplicationEndpoint -Identity "<Pool A CAA Uri>" -targetApplicationPool <Pool C FQDN> -force
 
-12. <span data-ttu-id="cb9f1-139">Копирование содержимого конференции из пула B в пул C.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-139">Copy conference content from pool B to pool C.</span></span>
+12. <span data-ttu-id="638aa-139">Скопируйте содержимое конференций из пула B в пул C.</span><span class="sxs-lookup"><span data-stu-id="638aa-139">Copy conference content from pool B to pool C.</span></span>
 
-13. <span data-ttu-id="cb9f1-140">Экспортируйте пользовательские данные из пула B и импортируйте данные пользователя в пул C, выполнив следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-140">Export user data from pool B and import the user data into pool C by running the following cmdlets:</span></span>
+13. <span data-ttu-id="638aa-140">Экспортируйте данные пользователя из пула б и импортируйте данные пользователя в пул C, выполнив следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="638aa-140">Export user data from pool B and import the user data into pool C by running the following cmdlets:</span></span>
     
         Export-CsUserData -PoolFqdn <Pool B Fqdn> -FileName <String>
         Import-CsUserData -PoolFqdn <Pool C Fqdn> -FileName <String>
 
-14. <span data-ttu-id="cb9f1-141">Восстановление резервных копий данных приложения из пула A в пул C и назначение диапазонов на орбиту на вкладке "а" в пул C.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-141">Restore backed-up Call Park application data from pool A into pool C and assign the Call Park orbit ranges of pool A to pool C.</span></span>
+14. <span data-ttu-id="638aa-141">Восстановите резервные копии данных приложения парковки вызовов из пула A в пул C и назначьте Диапазоны орбит парковки вызовов для пула а в пул C.</span><span class="sxs-lookup"><span data-stu-id="638aa-141">Restore backed-up Call Park application data from pool A into pool C and assign the Call Park orbit ranges of pool A to pool C.</span></span>
     
-      - <span data-ttu-id="cb9f1-142">Вы можете переназначить диапазон орбиты для группы A в пул C на панели управления Lync Server или в командной консоли Lync Server Management.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-142">You can reassign a Call Park orbit range of pool A to pool C either through the Lync Server Control Panel or the Lync Server Management Shell.</span></span> <span data-ttu-id="cb9f1-143">Для командной консоли Lync Server выполните следующий командлет для каждого диапазона орбит на приостановку звонков, назначенного пулу A (Обратите внимание, что параметр Identity указывает на диапазоны орбиты на приостановку звонков, которые входят в пул A).</span><span class="sxs-lookup"><span data-stu-id="cb9f1-143">For the Lync Server Management Shell, run the following cmdlet for every Call Park orbit range assigned to pool A (note that the Identity parameter refers to the Call Park Orbit Ranges that belong to pool A):</span></span>
+      - <span data-ttu-id="638aa-142">С помощью панели управления Lync Server или командной консоли Lync Server вы можете переназначить диапазон орбиты для парковки вызовов пула A в пул C.</span><span class="sxs-lookup"><span data-stu-id="638aa-142">You can reassign a Call Park orbit range of pool A to pool C either through the Lync Server Control Panel or the Lync Server Management Shell.</span></span> <span data-ttu-id="638aa-143">Для командной консоли Lync Server выполните следующий командлет для каждого диапазона орбит парковки вызовов, назначенного пулу A (Обратите внимание, что параметр Identity указывает на диапазоны орбит парковки вызовов, принадлежащие пулу A):</span><span class="sxs-lookup"><span data-stu-id="638aa-143">For the Lync Server Management Shell, run the following cmdlet for every Call Park orbit range assigned to pool A (note that the Identity parameter refers to the Call Park Orbit Ranges that belong to pool A):</span></span>
         
             Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Pool C FQDN>"
     
-      - <span data-ttu-id="cb9f1-144">Если настроенная музыка заблокирована для приостановки звонков в пуле A, восстановите в группе C файл, настроенный для парковки звонков.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-144">If a customized music-on-hold has been configured for Call Park in pool A, restore the Call Park customized music-on-hold file in pool C.</span></span>
+      - <span data-ttu-id="638aa-144">Если настроенная музыка заблокирована для парковки вызовов в пуле A, восстановите настроенный в пуле C файл музыки для парковки на удержание вызовов.</span><span class="sxs-lookup"><span data-stu-id="638aa-144">If a customized music-on-hold has been configured for Call Park in pool A, restore the Call Park customized music-on-hold file in pool C.</span></span>
         
             Xcopy <Source> <Destination: Pool C CPS File Store Path>
         
-        <span data-ttu-id="cb9f1-145">Например:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-145">For example:</span></span>
+        <span data-ttu-id="638aa-145">Пример:</span><span class="sxs-lookup"><span data-stu-id="638aa-145">For example:</span></span>
         
             Xcopy "Source Path" "<Pool C File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"
     
-      - <span data-ttu-id="cb9f1-146">Наконец, настройте параметры парковки для пула C с помощью командлета **Set-кскпсконфигуратион** .</span><span class="sxs-lookup"><span data-stu-id="cb9f1-146">Finally, reconfigure the Call Park settings on pool C by using the **Set-CsCpsConfiguration** cmdlet.</span></span> <span data-ttu-id="cb9f1-147">Приложение для парковки звонков может хранить только один набор параметров и один настроенный звуковой файл на хранение музыки для каждого пула, и эти параметры не будут заархивированы или сохранены в случае аварии.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-147">The Call Park application can store only one set of settings and one customized music-on-hold audio file per pool, and these settings are not backed up or preserved in the event of a disaster.</span></span>
+      - <span data-ttu-id="638aa-146">Наконец, перенастройте параметры парковки вызовов в пуле C с помощью командлета **Set – CsCpsConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="638aa-146">Finally, reconfigure the Call Park settings on pool C by using the **Set-CsCpsConfiguration** cmdlet.</span></span> <span data-ttu-id="638aa-147">Приложение парковки вызовов может хранить только один набор параметров и один настроенный звуковой файл музыки при удержании на пул, и эти параметры не будут создаваться и сохраняться в случае аварии.</span><span class="sxs-lookup"><span data-stu-id="638aa-147">The Call Park application can store only one set of settings and one customized music-on-hold audio file per pool, and these settings are not backed up or preserved in the event of a disaster.</span></span>
 
-15. <span data-ttu-id="cb9f1-148">Если в качестве следующего пула переходов для сохраняемого чата указана группа A, настройте и опубликуйте изменения топологии, чтобы сервер следующего прыжка указывал на пул C.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-148">If the next hop pool for Persistent Chat is pointing to pool A, make and publish topology changes so that the next hop server points to pool C.</span></span>
+15. <span data-ttu-id="638aa-148">Если следующий пул прыжков для сохраняемого чата указывает на пул A, сделайте и опубликуйте изменения топологии, чтобы сервер следующего прыжка указывал на пул C.</span><span class="sxs-lookup"><span data-stu-id="638aa-148">If the next hop pool for Persistent Chat is pointing to pool A, make and publish topology changes so that the next hop server points to pool C.</span></span>
     
-      - <span data-ttu-id="cb9f1-149">В построителе топологии измените пул сохраняемого чата таким образом, чтобы он указывал на пул C в качестве следующего прыжка.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-149">In Topology Builder, change the Persistent Chat pool to point to Pool C as its next hop.</span></span> <span data-ttu-id="cb9f1-150">Для этого щелкните правой кнопкой мыши группу постоянного чата, а затем откройте вкладку **Общие** и введите имя пула C в **следующей версии пула прыжков**.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-150">To do so, right-click on the Persistent Chat pool, then click the **General** tab, and then type the name of Pool C in **Next Hop Pool**.</span></span>
+      - <span data-ttu-id="638aa-149">В построителе топологий измените пул сохраняемого чата, чтобы он ссылался на пул C в качестве следующего прыжка.</span><span class="sxs-lookup"><span data-stu-id="638aa-149">In Topology Builder, change the Persistent Chat pool to point to Pool C as its next hop.</span></span> <span data-ttu-id="638aa-150">Для этого щелкните правой кнопкой мыши пул сохраняемого чата, перейдите на вкладку **Общие** , а затем введите имя пула C в поле **пул следующего прыжка**.</span><span class="sxs-lookup"><span data-stu-id="638aa-150">To do so, right-click on the Persistent Chat pool, then click the **General** tab, and then type the name of Pool C in **Next Hop Pool**.</span></span>
     
-      - <span data-ttu-id="cb9f1-151">Запустите службу на пуле C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-151">Start services on pool C by running the following cmdlet:</span></span>
+      - <span data-ttu-id="638aa-151">Запустите службы из пула C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-151">Start services on pool C by running the following cmdlet:</span></span>
         
             Start-csWindowsService
     
-    <span data-ttu-id="cb9f1-152">На этом этапе служба завершает работу для пользователей, первоначально размещенных в пуле A.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-152">At this point, the service outage ends for users originally homed on pool A.</span></span>
+    <span data-ttu-id="638aa-152">На этом шаге сбой службы завершается для пользователей, изначально размещенных в пуле A.</span><span class="sxs-lookup"><span data-stu-id="638aa-152">At this point, the service outage ends for users originally homed on pool A.</span></span>
 
-16. <span data-ttu-id="cb9f1-153">Экспортируйте рабочие процессы службы ответов сервера Lync Server из пула B, владельца которого является группа A, для импорта в пул C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-153">Export Lync Server Response Group service workflows from pool B owned by pool A for import into pool C by running the following cmdlet:</span></span>
+16. <span data-ttu-id="638aa-153">Экспортируйте рабочие процессы службы группы ответа Lync Server из пула б, владельцем которых является пул A, для импорта в пул C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-153">Export Lync Server Response Group service workflows from pool B owned by pool A for import into pool C by running the following cmdlet:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<Pool B FQDN>" -Owner "service:ApplicationServer:<Pool A FQDN>" -FileName "C:\RgsExportPrimaryUpdated.zip" 
 
-17. <span data-ttu-id="cb9f1-154">Импорт рабочих процессов службы групп ответов Lync Server в пул C из пула B.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-154">Import Lync Server Response Group service workflows into pool C from pool B.</span></span>
+17. <span data-ttu-id="638aa-154">Импортируйте рабочие процессы службы группы ответа Lync Server в пул C из пула B.</span><span class="sxs-lookup"><span data-stu-id="638aa-154">Import Lync Server Response Group service workflows into pool C from pool B.</span></span>
     
-    <span data-ttu-id="cb9f1-155">Существует два варианта импорта конфигурации группы ответа из группы B в группу C. Выбор используемого параметра зависит от того, хотите ли вы заменить параметры уровня приложения для пула C с параметрами уровня приложения в пуле B.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-155">You have two options are for importing the Response Group configuration from pool B to pool C. Which option you use depends on whether you want to overwrite the application-level settings of pool C with the application-level settings in pool B.</span></span>
+    <span data-ttu-id="638aa-155">Существует два варианта импорта конфигурации группы ответа из пула б в пул C. Выбор варианта зависит от того, хотите ли вы перезаписать параметры уровня приложения для пула C с параметрами уровня приложения в пуле B.</span><span class="sxs-lookup"><span data-stu-id="638aa-155">You have two options are for importing the Response Group configuration from pool B to pool C. Which option you use depends on whether you want to overwrite the application-level settings of pool C with the application-level settings in pool B.</span></span>
     
-      - <span data-ttu-id="cb9f1-156">Если вы хотите перезаписать параметры пула C, выполните командлет **Import-ксргсконфигуратион** с параметром **реплацеексистингсеттингс** :</span><span class="sxs-lookup"><span data-stu-id="cb9f1-156">If you want to overwrite the Pool C settings, run the **Import-CsRgsConfiguration** cmdlet with the **ReplaceExistingSettings** option:</span></span>
+      - <span data-ttu-id="638aa-156">Если вы хотите перезаписать параметры пула в C, выполните командлет **Import – CsRgsConfiguration** с параметром **реплацеексистингсеттингс** :</span><span class="sxs-lookup"><span data-stu-id="638aa-156">If you want to overwrite the Pool C settings, run the **Import-CsRgsConfiguration** cmdlet with the **ReplaceExistingSettings** option:</span></span>
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool C FQDN>" -FileName "C:\RgsExportPrimary.zip"  -ReplaceExistingRgsSettings
     
-      - <span data-ttu-id="cb9f1-157">Если вы не хотите перезаписывать параметры пула в, используйте командлет **Import-ксргсконфигуратион** без параметра **реплацеексистингсеттингс** .</span><span class="sxs-lookup"><span data-stu-id="cb9f1-157">If you do not want to overwrite the Pool C settings, use the **Import-CsRgsConfiguration** cmdlet without the **ReplaceExistingSettings** option.</span></span>
+      - <span data-ttu-id="638aa-157">Если вы не хотите перезаписывать параметры пула в C, используйте командлет **Import – CsRgsConfiguration** без параметра **реплацеексистингсеттингс** .</span><span class="sxs-lookup"><span data-stu-id="638aa-157">If you do not want to overwrite the Pool C settings, use the **Import-CsRgsConfiguration** cmdlet without the **ReplaceExistingSettings** option.</span></span>
         
             Import-CsRgsConfiguration -Destination "service:ApplicationServer:<Pool B FQDN>" -FileName "C:\RgsExportPrimary.zip"
     
@@ -194,104 +194,104 @@ ms.locfileid: "41739779"
     
 
     > [!WARNING]  
-    > <span data-ttu-id="cb9f1-158">Имейте в виду, что если вы не хотите перезаписывать параметры уровня приложения для пула C с параметрами пула резервного копирования (пула B), параметры уровня приложения пула B будут потеряны, так как приложение группы ответа может хранить только один набор уровней приложения. параметры для каждого пула.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-158">Keep in mind that if you do not want to overwrite the application-level settings of Pool C with the settings of the backup pool (pool B), pool B’s application-level settings will be lost because the Response Group application can store only one set of application-level settings per pool.</span></span>
+    > <span data-ttu-id="638aa-158">Имейте в виду, что если вы не хотите перезаписывать параметры уровня приложения для пула C с параметрами резервного пула (пула B), то параметры уровня приложения пула B будут потеряны, так как приложение группы ответа может хранить только один набор уровня приложения. параметры для каждого пула.</span><span class="sxs-lookup"><span data-stu-id="638aa-158">Keep in mind that if you do not want to overwrite the application-level settings of Pool C with the settings of the backup pool (pool B), pool B’s application-level settings will be lost because the Response Group application can store only one set of application-level settings per pool.</span></span>
 
     
     </div>
 
-18. <span data-ttu-id="cb9f1-159">Убедитесь, что импорт конфигурации группы ответа прошел успешно, выполнив следующие командлеты для отображения групп ответов, которые были импортированы в пул C.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-159">Verify that the Response Group configuration import was successful by running the following cmdlets to display the response groups that have been imported to Pool C.</span></span>
+18. <span data-ttu-id="638aa-159">Убедитесь, что импорт конфигурации группы ответа выполнен успешно, выполнив следующие командлеты, чтобы отобразить группы ответа, импортированные в пул C.</span><span class="sxs-lookup"><span data-stu-id="638aa-159">Verify that the Response Group configuration import was successful by running the following cmdlets to display the response groups that have been imported to Pool C.</span></span>
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<Pool C FQDN>" -ShowAll
          Get-CsRgsQueue -Identity "service:ApplicationServer:<Pool C FQDN>" -ShowAll
         Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<Pool C FQDN>" -ShowAll
 
-19. <span data-ttu-id="cb9f1-160">После проверки импортированной конфигурации в пуле C удалите группы ответа, принадлежащие основным пулам из пула B. Это сократит время простоя групп ответов.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-160">When the imported configuration has been verified in pool C, remove the response groups owned by the primary pool from pool B. This will minimize the downtime of the response groups.</span></span>
+19. <span data-ttu-id="638aa-160">После проверки импортированной конфигурации в пуле C удалите группы ответа, принадлежащие основному пулу из пула B. Это снизит время простоя групп ответа.</span><span class="sxs-lookup"><span data-stu-id="638aa-160">When the imported configuration has been verified in pool C, remove the response groups owned by the primary pool from pool B. This will minimize the downtime of the response groups.</span></span>
     
-    <span data-ttu-id="cb9f1-161">На этом этапе создается новый файл с экспортированной конфигурацией, а затем этот файл удаляется из пула B.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-161">This step creates a new file with the exported configuration, and then removes the file from pool B.</span></span>
+    <span data-ttu-id="638aa-161">На этом этапе создается новый файл с экспортированной конфигурацией, после чего он удаляется из пула B.</span><span class="sxs-lookup"><span data-stu-id="638aa-161">This step creates a new file with the exported configuration, and then removes the file from pool B.</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<Pool B FQDN>" -Owner "service:ApplicationServer:<Pool A FQDN>" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
 
-20. <span data-ttu-id="cb9f1-162">Переместить в пул C: неназначенные диапазоны номеров, перенесенных из пула A в пул B.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-162">Move to pool C the Unassigned Number ranges that were moved from pool A to pool B.</span></span>
+20. <span data-ttu-id="638aa-162">Переместить в пул C диапазоны неназначенных номеров, перемещенных из пула A в пул B.</span><span class="sxs-lookup"><span data-stu-id="638aa-162">Move to pool C the Unassigned Number ranges that were moved from pool A to pool B.</span></span>
     
-      - <span data-ttu-id="cb9f1-163">Повторное создание в пуле из всех объявлений, которые были повторно созданы из пула A в пуле B. Если при развертывании извещений использовались какие-либо звуковые файлы, для повторного создания объявлений в пуле C необходимо использовать эти файлы. Для повторного создания объявлений в пуле C используйте командлеты **New-ксаннаунцемент** с пулом C в качестве родительской службы.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-163">Re-create in pool C all announcements that were re-created from pool A in pool B. If any audio files were used when deploying the announcements to be moved, you will need to use these files to re-create the announcements in pool C. To re-create the announcements in pool C, use the **New-CsAnnouncement** cmdlets, with pool C as the Parent service.</span></span>
+      - <span data-ttu-id="638aa-163">Повторное создание в пуле с все объявления, которые были повторно созданы из пула A в пуле B. Если при развертывании извещений использовались какие бы то ни были звуковые файлы, их необходимо будет использовать для повторного создания объявлений в пуле C. Чтобы повторно создать объявления в пуле C, используйте командлеты **New – ксаннаунцемент** с пулом C в качестве родительской службы.</span><span class="sxs-lookup"><span data-stu-id="638aa-163">Re-create in pool C all announcements that were re-created from pool A in pool B. If any audio files were used when deploying the announcements to be moved, you will need to use these files to re-create the announcements in pool C. To re-create the announcements in pool C, use the **New-CsAnnouncement** cmdlets, with pool C as the Parent service.</span></span>
     
-      - <span data-ttu-id="cb9f1-164">Переназначение в пул C все неназначенные диапазоны номеров, перенацеленные из пула A в пул B. выполните следующий командлет для всех неназначенных диапазонов номеров, которые необходимо переадресовать:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-164">Retarget to pool C all the unassigned number ranges that were retargeted from pool A to pool B. Run the following cmdlet for every Unassigned Number range that needs to be retargeted:</span></span>
+      - <span data-ttu-id="638aa-164">Перенаправлять в пул C все диапазоны неназначенных номеров, которые были перенацелены из пула A в пул б. выполните следующий командлет для каждого диапазона неназначенных номеров, которые необходимо переадресовать:</span><span class="sxs-lookup"><span data-stu-id="638aa-164">Retarget to pool C all the unassigned number ranges that were retargeted from pool A to pool B. Run the following cmdlet for every Unassigned Number range that needs to be retargeted:</span></span>
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool C FQDN>" -AnnouncementName "<New Announcement in pool C>"
     
-      - <span data-ttu-id="cb9f1-165">Необязательно Удалите из пула B объявления, которые были повторно созданы в пуле C, если они больше не используются в пуле B. Для удаления объявлений используйте командлет **Remove-ксаннаунцемент** .</span><span class="sxs-lookup"><span data-stu-id="cb9f1-165">(Optional) Remove from pool B the announcements that were re-created in pool C if they are no longer in use in pool B. To remove announcements, use the **Remove-CsAnnouncement** cmdlet.</span></span>
+      - <span data-ttu-id="638aa-165">Необязательно Удалить из пула б объявления, которые были повторно созданы в пуле C, если они больше не используются в пуле B. Чтобы удалить объявления, используйте командлет **Remove – ксаннаунцемент** .</span><span class="sxs-lookup"><span data-stu-id="638aa-165">(Optional) Remove from pool B the announcements that were re-created in pool C if they are no longer in use in pool B. To remove announcements, use the **Remove-CsAnnouncement** cmdlet.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="cb9f1-166">Этот шаг не требуется для неназначенных диапазонов номеров, в которых служба извещения использует сообщение "Exchange UM".</span><span class="sxs-lookup"><span data-stu-id="cb9f1-166">This step is not required for unassigned number ranges that use "Exchange UM" as the announcement service.</span></span>
+        > <span data-ttu-id="638aa-166">Этот шаг не нужен для диапазонов неназначенных номеров, в которых служба извещения использует "Единая система обмена сообщениями".</span><span class="sxs-lookup"><span data-stu-id="638aa-166">This step is not required for unassigned number ranges that use "Exchange UM" as the announcement service.</span></span>
 
         
         </div>
 
-21. <span data-ttu-id="cb9f1-167">Очистите данные пользователя пула A в пуле B, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-167">Clean up user data of pool A in pool B by running the following cmdlet:</span></span>
+21. <span data-ttu-id="638aa-167">Очистите данные пользователя пула A в пуле б, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-167">Clean up user data of pool A in pool B by running the following cmdlet:</span></span>
     
         Remove-CsUserStoreBackupData -PoolFqdn <Pool B FQDN> -Verbose
 
-22. <span data-ttu-id="cb9f1-168">В построителе топологии выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-168">Do the following in Topology Builder:</span></span>
+22. <span data-ttu-id="638aa-168">Выполните указанные ниже действия в построителе топологий.</span><span class="sxs-lookup"><span data-stu-id="638aa-168">Do the following in Topology Builder:</span></span>
     
-      - <span data-ttu-id="cb9f1-169">Отмена связывания пула A и пула B. Свяжите пул B и пул C. Затем удалите пул A из топологии и опубликуйте его.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-169">Unpair pool A and pool B. Pair pool B and pool C. Then remove Pool A from the topology and publish it.</span></span> <span data-ttu-id="cb9f1-170">Для этого:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-170">To do so:</span></span>
+      - <span data-ttu-id="638aa-169">Несвязанный пул A и пул B. Свяжите пул б и пул C. Затем удалите пул A из топологии и опубликуйте его.</span><span class="sxs-lookup"><span data-stu-id="638aa-169">Unpair pool A and pool B. Pair pool B and pool C. Then remove Pool A from the topology and publish it.</span></span> <span data-ttu-id="638aa-170">Для этого:</span><span class="sxs-lookup"><span data-stu-id="638aa-170">To do so:</span></span>
         
-          - <span data-ttu-id="cb9f1-171">В построителе топологии щелкните пул B правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-171">In Topology Builder, right-click on Pool B, and then click **Edit Properties**.</span></span>
+          - <span data-ttu-id="638aa-171">В построителе топологий щелкните пул б правой кнопкой мыши и выберите команду **изменить свойства**.</span><span class="sxs-lookup"><span data-stu-id="638aa-171">In Topology Builder, right-click on Pool B, and then click **Edit Properties**.</span></span>
         
-          - <span data-ttu-id="cb9f1-172">На левой панели выберите пункт **устойчивость** .</span><span class="sxs-lookup"><span data-stu-id="cb9f1-172">Click **Resiliency** in the left pane.</span></span>
+          - <span data-ttu-id="638aa-172">Нажмите кнопку **устойчивости** на левой панели.</span><span class="sxs-lookup"><span data-stu-id="638aa-172">Click **Resiliency** in the left pane.</span></span>
         
-          - <span data-ttu-id="cb9f1-173">В поле под **сопоставленным пулом резервных копий**выберите Pool C. Обратите внимание на то, что в поле выбора связанного пула резервных копий первоначально отображается пул A, так как пул B уже был связан с этим пулом.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-173">In the box below **Associated Backup Pool**, select Pool C. Note that the Associated Backup Pool selection box will initially display pool A, because pool B was previously associated with this pool.</span></span>
+          - <span data-ttu-id="638aa-173">В поле под **сопоставленным резервным пулом**выберите пул C. Обратите внимание, что в поле выбора связанного резервного пула изначально отображается пул A, так как пул B был ранее связан с этим пулом.</span><span class="sxs-lookup"><span data-stu-id="638aa-173">In the box below **Associated Backup Pool**, select Pool C. Note that the Associated Backup Pool selection box will initially display pool A, because pool B was previously associated with this pool.</span></span>
         
-          - <span data-ttu-id="cb9f1-174">Выберите **Автоматическая обработка отказов и восстановление после отказа для голосовой связи** и нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-174">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
+          - <span data-ttu-id="638aa-174">Выберите **Automatic failover and failback for Voice** (Автоматическая отработка отказа и восстановление размещения для голосовой связи) и нажмите кнопку **OK** (ОК).</span><span class="sxs-lookup"><span data-stu-id="638aa-174">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
             
-            <span data-ttu-id="cb9f1-175">Теперь при просмотре сведений о данном пуле связанный с ним пул отображается на правой панели в области **Устойчивость**. </span><span class="sxs-lookup"><span data-stu-id="cb9f1-175">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
+            <span data-ttu-id="638aa-175">Теперь при просмотре сведений о данном пуле связанный с ним пул отображается на правой панели в области **Resiliency** (Устойчивость).</span><span class="sxs-lookup"><span data-stu-id="638aa-175">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
         
-          - <span data-ttu-id="cb9f1-176">В дереве консоли щелкните правой кнопкой мыши группу и выберите команду Удалить.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-176">In the console tree, right-click pool A, and then click Delete.</span></span>
+          - <span data-ttu-id="638aa-176">В дереве консоли щелкните правой кнопкой мыши пул A, а затем выберите команду Удалить.</span><span class="sxs-lookup"><span data-stu-id="638aa-176">In the console tree, right-click pool A, and then click Delete.</span></span>
         
-          - <span data-ttu-id="cb9f1-177">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-177">Publish the topology.</span></span>
+          - <span data-ttu-id="638aa-177">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="638aa-177">Publish the topology.</span></span>
 
-23. <span data-ttu-id="cb9f1-178">Запустите приложение начальной загрузки в пуле C, чтобы установить приложение службы резервного копирования, а затем запустите приложение службы резервного копирования, выполнив следующие действия из папки развертывание на локальном компьютере в пуле C:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-178">Run the bootstrapping application on pool C to install the backup service application, and then start the backup service application by running the following from the deployment folder on a local machine in pool C:</span></span>
+23. <span data-ttu-id="638aa-178">Запустите приложение начальной загрузки в пуле C, чтобы установить приложение службы резервного копирования, а затем запустите приложение службы резервного копирования, выполнив следующие действия в папке Deployment локального компьютера в пуле C:</span><span class="sxs-lookup"><span data-stu-id="638aa-178">Run the bootstrapping application on pool C to install the backup service application, and then start the backup service application by running the following from the deployment folder on a local machine in pool C:</span></span>
     
         Run "%SYSTEMROOT%\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe"
         Start-CsWindowsService -name LyncBackup
 
-24. <span data-ttu-id="cb9f1-179">Перезапустите приложение службы резервного копирования в пуле B, выполнив следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-179">Restart the backup service application on pool B by running the following cmdlets:</span></span>
+24. <span data-ttu-id="638aa-179">Перезапустите приложение службы резервного копирования в пуле б, выполнив следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="638aa-179">Restart the backup service application on pool B by running the following cmdlets:</span></span>
     
         Stop-CsWindowsService -name LyncBackup
         Start-CsWindowsService -name LyncBackup
 
-25. <span data-ttu-id="cb9f1-180">Если в качестве пула пулов C используется стандартный выпуск (SE) и в пуле B есть сервер CMS, установите базу данных CMS вручную для пула C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-180">If pool C is a Standard Edition (SE) Pool and pool B has CMS, install the CMS database manually on pool C by running the following cmdlet:</span></span>
+25. <span data-ttu-id="638aa-180">Если пул C является пулом Standard Edition (SE), а пул B имеет CMS, установите базу данных CMS вручную в пуле C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-180">If pool C is a Standard Edition (SE) Pool and pool B has CMS, install the CMS database manually on pool C by running the following cmdlet:</span></span>
     
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <Pool C FQDN> -SqlInstanceName rtc
 
-26. <span data-ttu-id="cb9f1-181">Вызовите службу резервного копирования для синхронизации старых данных конференций из пула B с пулом C, созданным до объединения B и C, и для синхронизации нового содержимого конференций из пула C с группой B, созданной после того, как вы собрались с помощью групп C и before.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-181">Invoke the backup service to sync old conferencing content from pool B to pool C that was generated before pairing B and C together, and to sync new conferencing content from pool C to pool B that was generated after starting pool C and before B and C were paired together.</span></span> <span data-ttu-id="cb9f1-182">Для этого выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-182">To do so, run the following cmdlets:</span></span>
+26. <span data-ttu-id="638aa-181">Запустите службу резервного копирования, чтобы синхронизировать старое содержимое конференций из пула B с пулом C, созданным до совместной связи B и C, и для синхронизации нового контента конференций из пула C в пул B, который был создан после объединения групп C и до B и C.</span><span class="sxs-lookup"><span data-stu-id="638aa-181">Invoke the backup service to sync old conferencing content from pool B to pool C that was generated before pairing B and C together, and to sync new conferencing content from pool C to pool B that was generated after starting pool C and before B and C were paired together.</span></span> <span data-ttu-id="638aa-182">Чтобы сделать это, выполните следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="638aa-182">To do so, run the following cmdlets:</span></span>
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool C FQDN>
         Invoke-CsBackupServiceSync -PoolFqdn <Pool B FQDN>
 
-27. <span data-ttu-id="cb9f1-183">Для каждого устройства с бесперебойной подразделением X, связанного с пулом A:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-183">For each Survivable Branch Appliance X associated with pool A:</span></span>
+27. <span data-ttu-id="638aa-183">Для каждого устройства для обеспечения связи в филиале, сопоставленного с пулом A:</span><span class="sxs-lookup"><span data-stu-id="638aa-183">For each Survivable Branch Appliance X associated with pool A:</span></span>
     
-      - <span data-ttu-id="cb9f1-184">Завершите работу СБА X, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-184">Shut down SBA X by running the following cmdlet:</span></span>
+      - <span data-ttu-id="638aa-184">Завершите работу SBA X, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-184">Shut down SBA X by running the following cmdlet:</span></span>
         
             Stop-CsWindowsService
     
-      - <span data-ttu-id="cb9f1-185">Создание файла, содержащего список пользователей, размещенных на СБА X. Этот список будет нужен, когда пользователи будут перенесены в СБА X на этапе 30.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-185">Create a file that contains a list of users homed on SBA X. The list will be needed when the users are moved back to SBA X in step 30.</span></span> <span data-ttu-id="cb9f1-186">Для этого выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-186">To do so, run the following cmdlet:</span></span>
+      - <span data-ttu-id="638aa-185">Создайте файл, содержащий список пользователей, размещенных на SBA X. Список потребуется, когда пользователи перемещаются обратно в SBA X на шаге 30.</span><span class="sxs-lookup"><span data-stu-id="638aa-185">Create a file that contains a list of users homed on SBA X. The list will be needed when the users are moved back to SBA X in step 30.</span></span> <span data-ttu-id="638aa-186">Для этого выполните следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="638aa-186">To do so, run the following cmdlet:</span></span>
         
             Get-CsUser -Filter {RegistrarPool -eq "<SBA X FQDN>"} | Export-Csv d:\sbaxusers.txt
     
-      - <span data-ttu-id="cb9f1-187">Принудительный переход пользователей на СБА X на пул C, выполнив следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-187">Force users homed on SBA X to move to pool C by running the following cmdlet:</span></span>
+      - <span data-ttu-id="638aa-187">Принудительное перемещение пользователей, размещенных на SBA X, в пул C с помощью следующего командлета:</span><span class="sxs-lookup"><span data-stu-id="638aa-187">Force users homed on SBA X to move to pool C by running the following cmdlet:</span></span>
         
             Get-CsUser -Filter {RegistrarPool -eq "<SBA X FQDN>"} | Move-CsUser -Target <Pool C FQDN> -Force -Verbose
     
-      - <span data-ttu-id="cb9f1-188">Обновите данные этих пользователей, предварительно выполнив следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-188">Update the data of these users by first running the following cmdlets:</span></span>
+      - <span data-ttu-id="638aa-188">Обновите данные этих пользователей, выполнив следующие командлеты:</span><span class="sxs-lookup"><span data-stu-id="638aa-188">Update the data of these users by first running the following cmdlets:</span></span>
         
             Convert-csUserData -InputFile <Data file exported from PoolB> -OutputFile c:\Logs\ExportedUserData.xml -TargetVersionLync2010 
             $a=get-csuser -Filter {RegistrarPool -eq "FQDN of SBA X"} | select SipAddress
             foreach($x in $a) {$x.SipAddress.Substring(4) >> users.txt}
         
-        <span data-ttu-id="cb9f1-189">А затем выполните следующий сценарий:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-189">And then run this script:</span></span>
+        <span data-ttu-id="638aa-189">Затем выполните следующий сценарий:</span><span class="sxs-lookup"><span data-stu-id="638aa-189">And then run this script:</span></span>
         
             $users=gc c:\logs\users.txt
             foreach ($user in $users)
@@ -303,24 +303,24 @@ ms.locfileid: "41739779"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="cb9f1-190">Для пользователей, использующих Сбас, которые связаны с пулом A до тех пор, пока эти пользователи не будут перемещены в пул C, произойдет сбой службы.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-190">A service outage will occur for users who are homed on SBAs that are associated with pool A until these users are moved to pool C.</span></span>
+        > <span data-ttu-id="638aa-190">Отказ службы будет выполняться для пользователей, размещенных в устройства, связанных с пулом A до тех пор, пока эти пользователи не будут перемещены в пул C.</span><span class="sxs-lookup"><span data-stu-id="638aa-190">A service outage will occur for users who are homed on SBAs that are associated with pool A until these users are moved to pool C.</span></span>
 
         
         </div>
 
-28. <span data-ttu-id="cb9f1-191">В построителе топологии для каждого СБА X, ранее связанного с пулом A, выполните указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-191">In Topology Builder, for each SBA X previously associated with Pool A, do the following:</span></span>
+28. <span data-ttu-id="638aa-191">В построителе топологий для каждого SBA X, ранее связанных с пулом A, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="638aa-191">In Topology Builder, for each SBA X previously associated with Pool A, do the following:</span></span>
     
-      - <span data-ttu-id="cb9f1-192">Измените связь на пул C. Для этого щелкните сайт филиала, разверните узел, который можно использовать, и выберите пункт бесперебойно работающее **устройство филиала**.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-192">Change the association to Pool C. To do so, click the branch site, expand the Survivable Branch Appliances or Servers node, and click **Survivable Branch Appliance**.</span></span> <span data-ttu-id="cb9f1-193">Затем выберите **пул переднего плана, пул служб пользователя** , который будет подключаться к этому работающему устройству филиала в качестве пула, и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-193">Then select the **Front End pool, User Services Pool** that this Survivable Branch Appliance will connect to as Pool C, and then click **Next**.</span></span>
+      - <span data-ttu-id="638aa-192">Измените связь на Pool C. Для этого щелкните сайт филиала, разверните узел устройства для обеспечения связи или серверы для обеспечения связи в филиалах и выберите устройство для обеспечения связи в **филиалах**.</span><span class="sxs-lookup"><span data-stu-id="638aa-192">Change the association to Pool C. To do so, click the branch site, expand the Survivable Branch Appliances or Servers node, and click **Survivable Branch Appliance**.</span></span> <span data-ttu-id="638aa-193">Затем выберите **интерфейсный пул, пул служб пользователя** , который будет подключаться к этому устройству для обеспечения связи в филиалах, как пул C, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="638aa-193">Then select the **Front End pool, User Services Pool** that this Survivable Branch Appliance will connect to as Pool C, and then click **Next**.</span></span>
     
-      - <span data-ttu-id="cb9f1-194">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-194">Publish the topology.</span></span> <span data-ttu-id="cb9f1-195">Для этого в дереве консоли щелкните правой кнопкой мыши новое работающее **устройство филиала**, выберите пункт **топология**и нажмите кнопку **опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-195">To do so, in the console tree, right-click the new **Survivable Branch Appliance**, click **Topology**, and then click **Publish**.</span></span>
+      - <span data-ttu-id="638aa-194">Опубликуйте топологию.</span><span class="sxs-lookup"><span data-stu-id="638aa-194">Publish the topology.</span></span> <span data-ttu-id="638aa-195">Для этого в дереве консоли щелкните правой кнопкой мыши новое устройство для обеспечения связи в **филиалах**, выберите **топология**, а затем нажмите кнопку **опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="638aa-195">To do so, in the console tree, right-click the new **Survivable Branch Appliance**, click **Topology**, and then click **Publish**.</span></span>
 
-29. <span data-ttu-id="cb9f1-196">Для каждого СБА X теперь сопоставлены с пулом C:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-196">For each SBA X now associated with pool C:</span></span>
+29. <span data-ttu-id="638aa-196">Для каждого SBA X теперь связан с пулом C:</span><span class="sxs-lookup"><span data-stu-id="638aa-196">For each SBA X now associated with pool C:</span></span>
     
-      - <span data-ttu-id="cb9f1-197">Запустите СБА X, выполнив следующий командлет на устройстве для бесперебойной работы филиалов:</span><span class="sxs-lookup"><span data-stu-id="cb9f1-197">Start SBA X by running the following cmdlet on the survivable branch appliance:</span></span>
+      - <span data-ttu-id="638aa-197">Запустите SBA X, выполнив следующий командлет на устройстве для обеспечения связи в филиалах:</span><span class="sxs-lookup"><span data-stu-id="638aa-197">Start SBA X by running the following cmdlet on the survivable branch appliance:</span></span>
         
             Start-CsWindowsService
     
-      - <span data-ttu-id="cb9f1-198">Перемещайте пользователей, которые изначально разработали на СБА X из пула C в СБА X, выполнив следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="cb9f1-198">Move users who were originally homed on SBA X from pool C to SBA X by running the following cmdlet.</span></span>
+      - <span data-ttu-id="638aa-198">Переместите пользователей, которые изначально были размещены в SBA X из пула C, в SBA X, выполнив следующий командлет.</span><span class="sxs-lookup"><span data-stu-id="638aa-198">Move users who were originally homed on SBA X from pool C to SBA X by running the following cmdlet.</span></span>
         
             Import-Csv d:\sbaxusers.txt | Move-CsUser -Target <SBA X FQDN> -Force
 

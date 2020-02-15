@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: настройка аппаратных балансировщиков нагрузки для масштабируемых пограничных топологий'
+title: 'Lync Server 2013: Настройка аппаратных подсистем балансировки нагрузки для масштабируемых пограничных топологий'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9fdb64f5e67aec67f3246dc0c1693cf53c0fe09
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97da86dac975d663249021e80ca19ea17857576a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a><span data-ttu-id="81620-102">Настройка аппаратных балансировщиков нагрузки для масштабируемых пограничных топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="81620-102">Set up hardware load balancers for scaled edge topologies in Lync Server 2013</span></span>
+# <a name="set-up-hardware-load-balancers-for-scaled-edge-topologies-in-lync-server-2013"></a><span data-ttu-id="6816c-102">Настройка подсистем балансировки нагрузки оборудования для масштабируемых пограничных топологий в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6816c-102">Set up hardware load balancers for scaled edge topologies in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764655"
 
 <span> </span>
 
-<span data-ttu-id="81620-103">_**Тема последнего изменения:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="81620-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="6816c-103">_**Последнее изменение темы:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="6816c-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="81620-104">Если вы настраиваете масштабируемую топологию пограничного устройства с помощью аппаратной подсистемы балансировки нагрузки, ознакомьтесь [с масштабируемым консолидированным краем с аппаратными подсистемами балансировки нагрузки в Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="81620-104">If you are configuring a scaled edge topology using a hardware load balancer, see [Scaled consolidated edge with hardware load balancers in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) in the Planning documentation.</span></span>
+<span data-ttu-id="6816c-104">Если настраивается масштабируемая пограничная топология с помощью аппаратной подсистемы балансировки нагрузки, ознакомьтесь [с масштабируемым консолидированным краем с аппаратными подсистемами балансировки нагрузки в Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) в документации по планированию.</span><span class="sxs-lookup"><span data-stu-id="6816c-104">If you are configuring a scaled edge topology using a hardware load balancer, see [Scaled consolidated edge with hardware load balancers in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) in the Planning documentation.</span></span>
 
 </div>
 

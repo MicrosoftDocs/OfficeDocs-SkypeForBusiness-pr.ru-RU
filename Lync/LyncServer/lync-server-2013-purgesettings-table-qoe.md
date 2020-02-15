@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица Пуржесеттингс (QoE)'
+title: 'Lync Server 2013: таблица таблица purgesettings (QoE)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46516be447fa3099afe492e5edc4f4008ea5a079
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 622a807e9b41487408a62863e4c46149c63bbe8a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747039"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="purgesettings-table-qoe-in-lync-server-2013"></a><span data-ttu-id="1cbb0-102">Пуржесеттингс Table (QoE) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1cbb0-102">PurgeSettings table (QoE) in Lync Server 2013</span></span>
+# <a name="purgesettings-table-qoe-in-lync-server-2013"></a><span data-ttu-id="8f859-102">Таблица Таблица purgesettings (QoE) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f859-102">PurgeSettings table (QoE) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747039"
 
 <span> </span>
 
-<span data-ttu-id="1cbb0-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="1cbb0-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="8f859-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="8f859-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="1cbb0-104">В таблице Пуржесеттингс содержатся сведения о том, что (и когда) устаревшие записи качества обслуживания будут автоматически удалены из базы данных QoE.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-104">The PurgeSettings table contains information that specifies if (and when) outdated Quality of Experience records will automatically be deleted from the QoE database.</span></span> <span data-ttu-id="1cbb0-105">Обратите внимание, что в командной консоли Microsoft Lync Server 2013 также можно получить сведения об очистке, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="1cbb0-105">Note that purging-related information can also be obtained from within the Microsoft Lync Server 2013 Management Shell by running the following command:</span></span>
+<span data-ttu-id="8f859-104">В таблице PurgeSettings содержатся сведения о том, должны ли устаревшие записи автоматически удаляться из базы данных качества обслуживания, и когда это должно происходить.</span><span class="sxs-lookup"><span data-stu-id="8f859-104">The PurgeSettings table contains information that specifies if (and when) outdated Quality of Experience records will automatically be deleted from the QoE database.</span></span> <span data-ttu-id="8f859-105">Обратите внимание, что сведения об очистке можно также получить в командной консоли Microsoft Lync Server 2013, выполнив следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8f859-105">Note that purging-related information can also be obtained from within the Microsoft Lync Server 2013 Management Shell by running the following command:</span></span>
 
     Get-CsQoEConfiguration
 
-<span data-ttu-id="1cbb0-106">Эта таблица введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="8f859-106">Эта таблица была введена в Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8f859-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -53,36 +53,36 @@ ms.locfileid: "41747039"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1cbb0-107"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-107"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="1cbb0-108"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-108"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="1cbb0-109"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-109"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="1cbb0-110"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-110"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="8f859-107"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="8f859-108"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="8f859-109"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="8f859-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1cbb0-111"><strong>ID</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-111"><strong>ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cbb0-112">целое</span><span class="sxs-lookup"><span data-stu-id="1cbb0-112">int</span></span></p></td>
-<td><p><span data-ttu-id="1cbb0-113">Primary</span><span class="sxs-lookup"><span data-stu-id="1cbb0-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="1cbb0-114">Уникальный идентификатор коллекции параметров очистки QoE.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-114">Unique identifier for the collection of QoE purge settings.</span></span></p></td>
+<td><p><span data-ttu-id="8f859-111"><strong>ИД</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-111"><strong>ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="8f859-112">int</span><span class="sxs-lookup"><span data-stu-id="8f859-112">int</span></span></p></td>
+<td><p><span data-ttu-id="8f859-113">Primary</span><span class="sxs-lookup"><span data-stu-id="8f859-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="8f859-114">Уникальный идентификатор набора параметров, связанных с очисткой записей качества обслуживания.</span><span class="sxs-lookup"><span data-stu-id="8f859-114">Unique identifier for the collection of QoE purge settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1cbb0-115"><strong>енаблепурже</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-115"><strong>EnablePurge</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cbb0-116">бит</span><span class="sxs-lookup"><span data-stu-id="1cbb0-116">bit</span></span></p></td>
+<td><p><span data-ttu-id="8f859-115"><strong>енаблепурже</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-115"><strong>EnablePurge</strong></span></span></p></td>
+<td><p><span data-ttu-id="8f859-116">Битовая</span><span class="sxs-lookup"><span data-stu-id="8f859-116">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="1cbb0-117">Если установлено значение true (1), Microsoft Lync Server 2013 будет периодически очищать устаревшие записи из базы данных QoE.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-117">When set to True (1) Microsoft Lync Server 2013 will periodically purge outdated records from the QoE database.</span></span> <span data-ttu-id="1cbb0-118">Очистка будет выполняться каждый день в томе, указанном в параметре Пуржехаур.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-118">Purging will take place each day at the tome specified by the PurgeHour setting.</span></span> <span data-ttu-id="1cbb0-119">Если для этого свойства задано значение false (0), записи не будут автоматически удалены из базы данных.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-119">If set to False (0) then records will not be automatically purged from the database.</span></span> <span data-ttu-id="1cbb0-120">По умолчанию используется значение True.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-120">The default value is True.</span></span></p></td>
+<td><p><span data-ttu-id="8f859-117">Если для этого параметра задано значение true (1), Microsoft Lync Server 2013 будет периодически очищать устаревшие записи из базы данных QoE.</span><span class="sxs-lookup"><span data-stu-id="8f859-117">When set to True (1) Microsoft Lync Server 2013 will periodically purge outdated records from the QoE database.</span></span> <span data-ttu-id="8f859-118">Очистка будет происходить каждый день во время, установленное с помощью параметра PurgeHour.</span><span class="sxs-lookup"><span data-stu-id="8f859-118">Purging will take place each day at the tome specified by the PurgeHour setting.</span></span> <span data-ttu-id="8f859-119">Если задано значение False (0), записи не будут очищаться автоматически.</span><span class="sxs-lookup"><span data-stu-id="8f859-119">If set to False (0) then records will not be automatically purged from the database.</span></span> <span data-ttu-id="8f859-120">Значение по умолчанию — True.</span><span class="sxs-lookup"><span data-stu-id="8f859-120">The default value is True.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1cbb0-121"><strong>KeepQoEDataForDays</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-121"><strong>KeepQoEDataForDays</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cbb0-122">целое</span><span class="sxs-lookup"><span data-stu-id="1cbb0-122">int</span></span></p></td>
+<td><p><span data-ttu-id="8f859-121"><strong>KeepQoEDataForDays</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-121"><strong>KeepQoEDataForDays</strong></span></span></p></td>
+<td><p><span data-ttu-id="8f859-122">int</span><span class="sxs-lookup"><span data-stu-id="8f859-122">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="1cbb0-123">Указывает возраст QoE записей (в днях), которые будут очищены из базы данных: Если включена очистка, QoE записи, возраст которых превышает это значение, будут удалены из базы данных.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-123">Specifies the age of QoE records (in days) that will be purged from the database: if purging is enabled, QoE records older than this value will be removed from the database.</span></span> <span data-ttu-id="1cbb0-124">Значение по умолчанию — 60 дней.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-124">The default value is 60 days.</span></span></p></td>
+<td><p><span data-ttu-id="8f859-p103">Определяет возраст записей качества обслуживания (в днях), которые должны очищаться. Если очистка включена, записи старше этого значения будут удаляться из базы данных. Значение по умолчанию — 60 дней.</span><span class="sxs-lookup"><span data-stu-id="8f859-p103">Specifies the age of QoE records (in days) that will be purged from the database: if purging is enabled, QoE records older than this value will be removed from the database. The default value is 60 days.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1cbb0-125"><strong>пуржехаур</strong></span><span class="sxs-lookup"><span data-stu-id="1cbb0-125"><strong>PurgeHour</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cbb0-126">целое</span><span class="sxs-lookup"><span data-stu-id="1cbb0-126">int</span></span></p></td>
+<td><p><span data-ttu-id="8f859-125"><strong>пуржехаур</strong></span><span class="sxs-lookup"><span data-stu-id="8f859-125"><strong>PurgeHour</strong></span></span></p></td>
+<td><p><span data-ttu-id="8f859-126">int</span><span class="sxs-lookup"><span data-stu-id="8f859-126">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="1cbb0-127">Указывает местное время суток, когда будет выполняться очистка базы данных.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-127">Specifies the local time of day when database purging will take place.</span></span> <span data-ttu-id="1cbb0-128">Время суток задается в 24-часовом формате (0 соответствует полуночи (00:00), а 23 — 23:00 часам вечера).</span><span class="sxs-lookup"><span data-stu-id="1cbb0-128">The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM.</span></span> <span data-ttu-id="1cbb0-129">Обратите внимание, что вы можете указать только час дня: значение 10 (указывает на 10:00 AM) разрешено, но значение 10:30 от 10,5 (это означает 10:30 AM) не разрешено.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-129">Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed.</span></span> <span data-ttu-id="1cbb0-130">Значение по умолчанию — 1 (1:00 AM).</span><span class="sxs-lookup"><span data-stu-id="1cbb0-130">The default value is 1 (1:00 AM).</span></span> <span data-ttu-id="1cbb0-131">Указывает местное время суток, когда будет выполняться очистка базы данных.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-131">Specifies the local time of day when database purging will take place.</span></span> <span data-ttu-id="1cbb0-132">Время суток задается в 24-часовом формате (0 соответствует полуночи (00:00), а 23 — 23:00 часам вечера).</span><span class="sxs-lookup"><span data-stu-id="1cbb0-132">The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM.</span></span> <span data-ttu-id="1cbb0-133">Обратите внимание, что вы можете указать только час дня: значение 10 (указывает на 10:00 AM) разрешено, но значение 10:30 от 10,5 (это означает 10:30 AM) не разрешено.</span><span class="sxs-lookup"><span data-stu-id="1cbb0-133">Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed.</span></span> <span data-ttu-id="1cbb0-134">Значение по умолчанию — 1 (1:00 AM).</span><span class="sxs-lookup"><span data-stu-id="1cbb0-134">The default value is 1 (1:00 AM).</span></span></p></td>
+<td><p><span data-ttu-id="8f859-p104">Определяет время суток (по местному времени), когда должна выполняться очистка базы данных. Время суток указывается в 24-часовом формате, где 0 означает полночь, а 23 означает 11 часов вечера. Обратите внимание на то, что вы можете указать только час: значение 10 (соответствующее 10:00 утра) допускается, а значение 10:30 или 10.5 (соответствующее 10:30 утра) — нет. Значение по умолчанию — 1 (1:00 ночи). Определяет время суток (по местному времени), когда должна выполняться очистка базы данных. Время суток указывается в 24-часовом формате, где 0 соответствует полуночи, а 23 соответствует 11:00 вечера. Обратите внимание на то, что вы можете указать только час: значение 10 (соответствующее 10:00 утра) допускается, а значение 10:30 или 10.5 (соответствующее 10:30 утра) — нет. Значение по умолчанию — 1 (1:00 ночи).</span><span class="sxs-lookup"><span data-stu-id="8f859-p104">Specifies the local time of day when database purging will take place. The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM. Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed. The default value is 1 (1:00 AM). Specifies the local time of day when database purging will take place. The time of day is specified using a 24-hour clock, with 0 representing midnight (12:00 AM) and 23 representing 11:00 PM. Note that you can only specify the hour of the day: a value of 10 (indicating 10:00 AM) is allowed, but a value of 10:30 of 10.5 (indicating 10:30 AM) is not allowed. The default value is 1 (1:00 AM).</span></span></p></td>
 </tr>
 </tbody>
 </table>

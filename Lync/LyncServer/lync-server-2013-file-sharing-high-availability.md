@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: общий доступ к файлам с высокой доступностью'
+title: 'Lync Server 2013: высокая доступность общего доступа к файлам'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185238
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67fc8cfffc0b5dbecaf6da212b3a8e5414b18ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 453b4c63f58f6153092dae0259155dbfa72b5eca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="file-sharing-high-availability-in-lync-server-2013"></a><span data-ttu-id="524a1-102">Общий доступ к файлам в Lync Server 2013 с высокой доступностью</span><span class="sxs-lookup"><span data-stu-id="524a1-102">File sharing high availability in Lync Server 2013</span></span>
+# <a name="file-sharing-high-availability-in-lync-server-2013"></a><span data-ttu-id="0a396-102">Высокая доступность общего доступа к файлам в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0a396-102">File sharing high availability in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735239"
 
 <span> </span>
 
-<span data-ttu-id="524a1-103">_**Тема последнего изменения:** 2012-03-30_</span><span class="sxs-lookup"><span data-stu-id="524a1-103">_**Topic Last Modified:** 2012-03-30_</span></span>
+<span data-ttu-id="0a396-103">_**Последнее изменение темы:** 2012-03-30_</span><span class="sxs-lookup"><span data-stu-id="0a396-103">_**Topic Last Modified:** 2012-03-30_</span></span>
 
-<span data-ttu-id="524a1-104">Для обеспечения высокой доступности общего доступа к файлам Lync Server в одном центре обработки данных вы можете использовать распределенную файловую систему (DFS).</span><span class="sxs-lookup"><span data-stu-id="524a1-104">To ensure high availability for Lync Server file sharing within a single data center, you can use the Distributed File System (DFS).</span></span> <span data-ttu-id="524a1-105">DFS поддерживает отработку отказов с переключением на другой файловый сервер в пределах того же центра обработки данных.</span><span class="sxs-lookup"><span data-stu-id="524a1-105">DFS supports failover from one file server to another within the same data center.</span></span> <span data-ttu-id="524a1-106">В случае крупномасштабного развертывания рекомендуется пользоваться выделенными файловыми серверами, объединенными в пары с помощью DFS.</span><span class="sxs-lookup"><span data-stu-id="524a1-106">For a large scale deployment, we recommend that you use dedicated file servers that are paired using DFS.</span></span>
+<span data-ttu-id="0a396-104">Для обеспечения высокой доступности общего доступа к файлам Lync Server в одном центре обработки данных можно использовать распределенную файловую систему (DFS).</span><span class="sxs-lookup"><span data-stu-id="0a396-104">To ensure high availability for Lync Server file sharing within a single data center, you can use the Distributed File System (DFS).</span></span> <span data-ttu-id="0a396-105">Распределенная файловая система поддерживает отработку отказа в пределах одного центра обработки данных.</span><span class="sxs-lookup"><span data-stu-id="0a396-105">DFS supports failover from one file server to another within the same data center.</span></span> <span data-ttu-id="0a396-106">Для крупных развертываний рекомендуется использовать выделенные файловые серверы, связанные между собой с помощью распределенной файловой системы.</span><span class="sxs-lookup"><span data-stu-id="0a396-106">For a large scale deployment, we recommend that you use dedicated file servers that are paired using DFS.</span></span>
 
-<span data-ttu-id="524a1-107">В зависимости от размера сети и объема устойчивости вы можете использовать одну пару серверов для размещения всех общих файловых ресурсов на сайте или использовать одну пару для каждого из них на передней стороне пула.</span><span class="sxs-lookup"><span data-stu-id="524a1-107">Depending on your network's size, and the amount of resiliency you want, you can use one pair of servers to host all file shares in a site, or use one pair per Front End pool.</span></span>
+<span data-ttu-id="0a396-107">В зависимости от размера сети и требуемой устойчивости вы можете использовать одну пару серверов для всех файловых ресурсов общего доступа на сайте или использовать одну пару серверов для каждого интерфейсного пула.</span><span class="sxs-lookup"><span data-stu-id="0a396-107">Depending on your network's size, and the amount of resiliency you want, you can use one pair of servers to host all file shares in a site, or use one pair per Front End pool.</span></span>
 
-<span data-ttu-id="524a1-108">DFS предоставляет собой наилучший механизм репликации файлов без опубликованных обязательств по целевому времени восстановления (RTO) и целевой точке восстановления (RPO).</span><span class="sxs-lookup"><span data-stu-id="524a1-108">DFS is a best effort file replication mechanism, with no published recovery time objective (RTO) or recovery point objective (RPO) commitment.</span></span> <span data-ttu-id="524a1-109">Отработка отказа между серверами распределенной файловой системы (DFS) должна быть быстро завершена, но задержка репликации данных может препятствовать тому, что пользователи смогут продолжить работу, когда происходит переход на другой ресурс.</span><span class="sxs-lookup"><span data-stu-id="524a1-109">The failover between the DFS servers should be completed quickly, but data replication delay may prevent users from being able to continue work in progress when the failover happens.</span></span>
+<span data-ttu-id="0a396-p102">Распределенная файловая система предоставляет наилучший механизм репликации файлов, который не имеет заявленных обязательств по директивному времени восстановления (RTO) или целевой точке восстановления (RPO). Отработка отказа между серверами распределенной файловой системы должна выполняться быстро, однако задержки репликации данных могут привести к тому, что пользователи не смогут продолжить работу при отработке отказа.</span><span class="sxs-lookup"><span data-stu-id="0a396-p102">DFS is a best effort file replication mechanism, with no published recovery time objective (RTO) or recovery point objective (RPO) commitment. The failover between the DFS servers should be completed quickly, but data replication delay may prevent users from being able to continue work in progress when the failover happens.</span></span>
 
-<span data-ttu-id="524a1-110">Если вы используете DFS и хранилище данных в общей папке, вы должны часто создавать резервные копии общих файловых ресурсов, например каждые 4 – 8 часов.</span><span class="sxs-lookup"><span data-stu-id="524a1-110">If you use DFS and data store on the fileshare is critical, you should back up the file shares frequently, such as every 4 to 8 hours.</span></span> <span data-ttu-id="524a1-111">Если на момент отказа одного общего файлового ресурса данные репликации устарели, можно восстановить содержимое сбойного сервера на другом сервере, объединенном с ним в пару.</span><span class="sxs-lookup"><span data-stu-id="524a1-111">When one file share goes down and replication is not up to date, you can use the backup to restore the content on the failed server to the other server that is paired with the server that is now unavailable.</span></span>
+<span data-ttu-id="0a396-p103">Если вы используете распределенную файловую систему и храните на файловом ресурсе общего доступа критически важные данные, то вам потребуется достаточно часто создавать резервные копии файлов, например каждые 4-8 часов. При сбое одного файлового ресурса общего доступа и неактуальной репликации вы можете воспользоваться резервной копией для восстановления содержимого серверов на других серверах, которые связаны с временно недоступным сервером.</span><span class="sxs-lookup"><span data-stu-id="0a396-p103">If you use DFS and data store on the fileshare is critical, you should back up the file shares frequently, such as every 4 to 8 hours. When one file share goes down and replication is not up to date, you can use the backup to restore the content on the failed server to the other server that is paired with the server that is now unavailable.</span></span>
 
 </div>
 

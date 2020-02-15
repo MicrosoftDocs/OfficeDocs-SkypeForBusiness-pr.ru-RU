@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: отработка отказа для пула'
+title: 'Lync Server 2013: отработка отказа пула'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91e1dca7ffc210e9b44913f21846726f7a776912
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5929ed5fc3d29c0a42c223403a78f83154c5bef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-a-pool-in-lync-server-2013"></a><span data-ttu-id="3dead-102">Отработка отказа для пула в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3dead-102">Failing back a pool in Lync Server 2013</span></span>
+# <a name="failing-back-a-pool-in-lync-server-2013"></a><span data-ttu-id="e7a15-102">Отработка отказа пула в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7a15-102">Failing back a pool in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756183"
 
 <span> </span>
 
-<span data-ttu-id="3dead-103">_**Тема последнего изменения:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3dead-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="e7a15-103">_**Последнее изменение темы:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e7a15-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="3dead-104">После того как пул, в котором произошел сбой, перейдет в оперативный режим (то есть Pool1 в этом примере), выполните указанные ниже действия, чтобы восстановить состояние развертывания для обычного рабочего состояния.</span><span class="sxs-lookup"><span data-stu-id="3dead-104">After the pool that experienced the disaster is back online (that is, Pool1 in this example), take the following steps to restore your deployment to regular working status.</span></span>
+<span data-ttu-id="e7a15-104">После возврата пула, в котором возникла аварийная ситуация, в режим работы (в данном примере это Pool1) выполните следующие действия для восстановления обычного рабочего состояния развертывания.</span><span class="sxs-lookup"><span data-stu-id="e7a15-104">After the pool that experienced the disaster is back online (that is, Pool1 in this example), take the following steps to restore your deployment to regular working status.</span></span>
 
-<span data-ttu-id="3dead-105">Обратите внимание, что процесс восстановления после сбоя занимает несколько минут.</span><span class="sxs-lookup"><span data-stu-id="3dead-105">Note that the failback process takes several minute to complete.</span></span><span data-ttu-id="3dead-106">Следует исходить из длительности 60 минут для пула, в котором работает 20 000 пользователей.</span><span class="sxs-lookup"><span data-stu-id="3dead-106">  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
+<span data-ttu-id="e7a15-p101">Обратите внимание, что процедура отработки отказа занимает несколько минут. В качестве справки: отработка отказа для пула в 20000 пользователей занимает до 60 минут.</span><span class="sxs-lookup"><span data-stu-id="e7a15-p101">Note that the failback process takes several minute to complete.  For reference, it is expected to take up to 60 minutes for a pool of 20,000 users.</span></span>
 
-1.  <span data-ttu-id="3dead-107">Не изменяйте пользователей, которые изначально были размещены в Pool1, и произошел сбой при переходе на Pool2, введя следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="3dead-107">Fail back the users who were originally homed in Pool1 and have been failed over to Pool2 by typing the following cmdlet:</span></span>
+1.  <span data-ttu-id="e7a15-107">Восстановите размещение пользователей, которые изначально размещались в пуле Pool1 и были переключены на пул Pool2; для этого введите следующий командлет:</span><span class="sxs-lookup"><span data-stu-id="e7a15-107">Fail back the users who were originally homed in Pool1 and have been failed over to Pool2 by typing the following cmdlet:</span></span>
     
         Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
-<span data-ttu-id="3dead-108">Никаких других действий не требуется.</span><span class="sxs-lookup"><span data-stu-id="3dead-108">No other steps are necessary.</span></span> <span data-ttu-id="3dead-109">Если вы отошел сбой на центральном сервере управления, вы можете оставить его в Pool2.</span><span class="sxs-lookup"><span data-stu-id="3dead-109">If you failed over the Central Management Server, you can leave it in Pool2.</span></span>
+<span data-ttu-id="e7a15-108">Другие действия не требуются.</span><span class="sxs-lookup"><span data-stu-id="e7a15-108">No other steps are necessary.</span></span> <span data-ttu-id="e7a15-109">Если вы отработка отказа на центральном сервере управления, вы можете оставить ее в Pool2.</span><span class="sxs-lookup"><span data-stu-id="e7a15-109">If you failed over the Central Management Server, you can leave it in Pool2.</span></span>
 
 </div>
 

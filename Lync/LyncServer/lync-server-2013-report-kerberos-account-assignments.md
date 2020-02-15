@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: отчет о назначениях для учетной записи Kerberos'
+title: 'Lync Server 2013: отчет о назначениях учетных записей Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c5a6c118596acd406c3741c4dd2ee780fd381b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c742e6e7e5cedc773e0275700a738afd26a6777d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746699"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042016"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a><span data-ttu-id="0110a-102">Отчет о назначениях для учетной записи Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0110a-102">Report Kerberos account assignments in Lync Server 2013</span></span>
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a><span data-ttu-id="6fba3-102">Отчет о назначениях учетных записей Kerberos в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6fba3-102">Report Kerberos account assignments in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41746699"
 
 <span> </span>
 
-<span data-ttu-id="0110a-103">_**Тема последнего изменения:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="0110a-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="6fba3-103">_**Последнее изменение темы:** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="6fba3-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="0110a-104">Для успешного выполнения этой процедуры необходимо войти в систему в качестве пользователя, который является членом группы Рткуниверсалсерверадминс.</span><span class="sxs-lookup"><span data-stu-id="0110a-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
+<span data-ttu-id="6fba3-104">Чтобы успешно выполнить эту процедуру, вам следует выполнить вход в качестве члена группы RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="6fba3-104">To successfully complete this procedure you should be logged on as a user who is a member of the RTCUniversalServerAdmins group.</span></span>
 
-<span data-ttu-id="0110a-105">Вы можете использовать командлет **Get-кскерберосаккаунтассигнмент** , чтобы запросить сведения о назначениях учетных записей проверки подлинности Kerberos и сообщить о текущих заданиях в развертывании.</span><span class="sxs-lookup"><span data-stu-id="0110a-105">You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information about the Kerberos authentication account assignments and report information about the current assignments in your deployment.</span></span>
+<span data-ttu-id="6fba3-105">Можно использовать командлет **Get-CsKerberosAccountAssignment** для запроса информации о назначениях учетной записи проверки подлинности Kerberos и получения сведений о текущих назначениях в вашем развертывании.</span><span class="sxs-lookup"><span data-stu-id="6fba3-105">You can use the **Get-CsKerberosAccountAssignment** cmdlet to query information about the Kerberos authentication account assignments and report information about the current assignments in your deployment.</span></span>
 
 <div>
 
-## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a><span data-ttu-id="0110a-106">Запрос назначений учетной записи для проверки подлинности Kerberos для сайта</span><span class="sxs-lookup"><span data-stu-id="0110a-106">To query Kerberos authentication account assignments for a site</span></span>
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a><span data-ttu-id="6fba3-106">Запрос назначений учетной записи проверки подлинности Kerberos для сайта</span><span class="sxs-lookup"><span data-stu-id="6fba3-106">To query Kerberos authentication account assignments for a site</span></span>
 
-1.  <span data-ttu-id="0110a-107">Войдя в группу Рткуниверсалсерверадминс, войдите в домен на компьютере с Lync Server 2013 или на компьютер, на котором установлены средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="0110a-107">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
+1.  <span data-ttu-id="6fba3-107">В качестве члена группы RTCUniversalServerAdmins Войдите на компьютер в домене, на котором работает Lync Server 2013 или на компьютер, на котором установлены средства администрирования.</span><span class="sxs-lookup"><span data-stu-id="6fba3-107">As a member of the RTCUniversalServerAdmins group, log on to a computer in the domain running Lync Server 2013 or on to a computer where the administrative tools are installed.</span></span>
 
-2.  <span data-ttu-id="0110a-108">Запустите командную консоль Lync Server Management Shell: нажмите кнопку **Пуск**, выберите **все программы**, а затем — **Microsoft Lync Server 2013**, а затем — **Командная консоль Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="0110a-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="6fba3-108">Запустите командную консоль Lync Server: нажмите кнопку **Пуск**, последовательно выберите пункты **Все программы** и **Microsoft Lync Server 2013** и щелкните элемент **Командная консоль Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="6fba3-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="0110a-109">В командной строке выполните одну из следующих команд:</span><span class="sxs-lookup"><span data-stu-id="0110a-109">From the command line, run one of the following commands:</span></span>
+3.  <span data-ttu-id="6fba3-109">В командной строке выполните одну из следующих команд:</span><span class="sxs-lookup"><span data-stu-id="6fba3-109">From the command line, run one of the following commands:</span></span>
     
-      - <span data-ttu-id="0110a-110">Чтобы запросить все назначения учетной записи для проверки подлинности Kerberos в Организации и вернуть сведения о назначениях для каждого из них, запустите командлет без параметров.</span><span class="sxs-lookup"><span data-stu-id="0110a-110">To query all Kerberos authentication account assignments in your organization and return assignment information about each of them, run the cmdlet without any parameters:</span></span>
+      - <span data-ttu-id="6fba3-110">Чтобы запросить все назначения учетной записи проверки подлинности Kerberos в организации и возвратить сведения о каждом из них, запустите командлет без каких-либо параметров:</span><span class="sxs-lookup"><span data-stu-id="6fba3-110">To query all Kerberos authentication account assignments in your organization and return assignment information about each of them, run the cmdlet without any parameters:</span></span>
         
             Get-CsKerberosAccountAssignment
     
-      - <span data-ttu-id="0110a-111">Чтобы запросить все назначения учетной записи для проверки подлинности Kerberos в развертывании и вернуть сведения о назначениях сайтов для каждого из них, выполните командлет с параметром Identity.</span><span class="sxs-lookup"><span data-stu-id="0110a-111">To query all Kerberos authentication account assignments in your deployment and return site assignment information about each of them, run the cmdlet with the Identity parameter:</span></span>
+      - <span data-ttu-id="6fba3-111">Чтобы запросить все назначения учетной записи проверки подлинности Kerberos в развертывании и возвратить сведения о каждом из них, запустите командлет с параметром Identity:</span><span class="sxs-lookup"><span data-stu-id="6fba3-111">To query all Kerberos authentication account assignments in your deployment and return site assignment information about each of them, run the cmdlet with the Identity parameter:</span></span>
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
-        <span data-ttu-id="0110a-112">Например:</span><span class="sxs-lookup"><span data-stu-id="0110a-112">For example:</span></span>
+        <span data-ttu-id="6fba3-112">Пример:</span><span class="sxs-lookup"><span data-stu-id="6fba3-112">For example:</span></span>
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - <span data-ttu-id="0110a-113">Чтобы запросить все назначения учетной записи проверки подлинности Kerberos на одном сайте и вернуть сведения о назначениях для каждого из них, запустите командлет с параметром Filter.</span><span class="sxs-lookup"><span data-stu-id="0110a-113">To query all Kerberos authentication account assignments in a single site and return assignment information about each of them, run the cmdlet with the Filter parameter:</span></span>
+      - <span data-ttu-id="6fba3-113">Чтобы запросить все назначения учетной записи проверки подлинности Kerberos на отдельном сайте и возвратить сведения о каждом из них, запустите командлет с параметром Filter:</span><span class="sxs-lookup"><span data-stu-id="6fba3-113">To query all Kerberos authentication account assignments in a single site and return assignment information about each of them, run the cmdlet with the Filter parameter:</span></span>
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
-        <span data-ttu-id="0110a-114">Например:</span><span class="sxs-lookup"><span data-stu-id="0110a-114">For example:</span></span>
+        <span data-ttu-id="6fba3-114">Например:</span><span class="sxs-lookup"><span data-stu-id="6fba3-114">For example:</span></span>
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
@@ -75,7 +75,7 @@ ms.locfileid: "41746699"
         
 
         > [!NOTE]  
-        > <span data-ttu-id="0110a-115">Указание \* SiteName для параметра Filter возвращает сведения обо всех сайтах, которые содержат указанное имя сайта в любом месте идентификатора сайта (например, все сайты, содержащие строку Redmond в идентификаторе сайта).</span><span class="sxs-lookup"><span data-stu-id="0110a-115">Specifying \*SiteName for the Filter parameter returns information about all sites that contain the specified site name anywhere in the site identifier (for example, all sites that contain the string Redmond in the site identifier).</span></span>
+        > <span data-ttu-id="6fba3-115">При указании значения \*имя_сайта для параметра Filter возвращает информацию обо всех сайтах, содержащих указанное имя в любой части идентификатора сайта (например, все сайты, содержащие слово Redmond в идентификаторе).</span><span class="sxs-lookup"><span data-stu-id="6fba3-115">Specifying \*SiteName for the Filter parameter returns information about all sites that contain the specified site name anywhere in the site identifier (for example, all sites that contain the string Redmond in the site identifier).</span></span>
 
         
         </div>

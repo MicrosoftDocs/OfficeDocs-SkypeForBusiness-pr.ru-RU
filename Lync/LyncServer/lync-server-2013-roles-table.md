@@ -12,20 +12,20 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732969"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050821"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="7ecae-102">Таблица Roles в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ecae-102">Roles table in Lync Server 2013</span></span>
+# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="df6ad-102">Таблица Roles в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df6ad-102">Roles table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732969"
 
 <span> </span>
 
-<span data-ttu-id="7ecae-103">_**Тема последнего изменения:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="7ecae-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="df6ad-103">_**Последнее изменение темы:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="df6ad-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="7ecae-104">Таблица ролей — это статическая таблица, в которой хранится список возможных ролей конференции, таких как участники и выступающие.</span><span class="sxs-lookup"><span data-stu-id="7ecae-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
+<span data-ttu-id="df6ad-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span><span class="sxs-lookup"><span data-stu-id="df6ad-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
 
 
 <table>
@@ -49,28 +49,28 @@ ms.locfileid: "41732969"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7ecae-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="7ecae-105">Column</span></span></th>
-<th><span data-ttu-id="7ecae-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="7ecae-106">Data Type</span></span></th>
-<th><span data-ttu-id="7ecae-107">Ключ/индекс</span><span class="sxs-lookup"><span data-stu-id="7ecae-107">Key/Index</span></span></th>
-<th><span data-ttu-id="7ecae-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="7ecae-108">Details</span></span></th>
+<th><span data-ttu-id="df6ad-105">Столбец</span><span class="sxs-lookup"><span data-stu-id="df6ad-105">Column</span></span></th>
+<th><span data-ttu-id="df6ad-106">Тип данных</span><span class="sxs-lookup"><span data-stu-id="df6ad-106">Data Type</span></span></th>
+<th><span data-ttu-id="df6ad-107">Ключ или индекс</span><span class="sxs-lookup"><span data-stu-id="df6ad-107">Key/Index</span></span></th>
+<th><span data-ttu-id="df6ad-108">Сведения</span><span class="sxs-lookup"><span data-stu-id="df6ad-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7ecae-109"><strong>ролеид</strong></span><span class="sxs-lookup"><span data-stu-id="7ecae-109"><strong>RoleId</strong></span></span></p></td>
-<td><p><span data-ttu-id="7ecae-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="7ecae-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="7ecae-111">Primary</span><span class="sxs-lookup"><span data-stu-id="7ecae-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="df6ad-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="df6ad-109"><strong>RoleId</strong></span></span></p></td>
+<td><p><span data-ttu-id="df6ad-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="df6ad-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="df6ad-111">Primary</span><span class="sxs-lookup"><span data-stu-id="df6ad-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7ecae-112"><strong>Роль</strong></span><span class="sxs-lookup"><span data-stu-id="7ecae-112"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="7ecae-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="7ecae-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="df6ad-112"><strong>Role</strong></span><span class="sxs-lookup"><span data-stu-id="df6ad-112"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="df6ad-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="df6ad-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="7ecae-114">Допустимые значения:</span><span class="sxs-lookup"><span data-stu-id="7ecae-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="df6ad-114">Допустимые значения:</span><span class="sxs-lookup"><span data-stu-id="df6ad-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="7ecae-115">0 — неизвестно</span><span class="sxs-lookup"><span data-stu-id="7ecae-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="7ecae-116">1 — выступающий</span><span class="sxs-lookup"><span data-stu-id="7ecae-116">1 - Presenter</span></span></p></li>
-<li><p><span data-ttu-id="7ecae-117">2 участника</span><span class="sxs-lookup"><span data-stu-id="7ecae-117">2 - Attendee</span></span></p></li>
+<li><p><span data-ttu-id="df6ad-115">0 — неизвестно</span><span class="sxs-lookup"><span data-stu-id="df6ad-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="df6ad-116">1 — выступающий</span><span class="sxs-lookup"><span data-stu-id="df6ad-116">1 - Presenter</span></span></p></li>
+<li><p><span data-ttu-id="df6ad-117">2 — участник</span><span class="sxs-lookup"><span data-stu-id="df6ad-117">2 - Attendee</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

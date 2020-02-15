@@ -12,20 +12,20 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 893205127b6b1ccba958a0882c3aa0d1360a7c06
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a3674742cedbdfb267326e0170703f3fbc3ba3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730569"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="introduction"></a><span data-ttu-id="01f65-102">Введение</span><span class="sxs-lookup"><span data-stu-id="01f65-102">Introduction</span></span>
+# <a name="introduction"></a><span data-ttu-id="1d45c-102">Введение</span><span class="sxs-lookup"><span data-stu-id="1d45c-102">Introduction</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730569"
 
 <span> </span>
 
-<span data-ttu-id="01f65-103">_**Тема последнего изменения:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="01f65-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="1d45c-103">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="1d45c-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="01f65-104">С помощью средства нагрузки и производительности Lync Server 2013 (называемого также Линкперфтул) можно смоделировать нагрузку на следующие типы:</span><span class="sxs-lookup"><span data-stu-id="01f65-104">The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:</span></span>
+<span data-ttu-id="1d45c-104">Средство нагрузки и производительности Lync Server 2013 (которое называется Линкперфтул) может имитировать нагрузку пользователей следующих типов:</span><span class="sxs-lookup"><span data-stu-id="1d45c-104">The Lync Server 2013 Stress and Performance Tool (referred to as LyncPerfTool) can simulate user load of the following types:</span></span>
 
 
 <table>
@@ -47,28 +47,28 @@ ms.locfileid: "41730569"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="01f65-105">Обмен мгновенными сообщениями и присутствие</span><span class="sxs-lookup"><span data-stu-id="01f65-105">Instant messaging (IM) and presence</span></span></p></td>
-<td><p><span data-ttu-id="01f65-106">Аудиоконференции</span><span class="sxs-lookup"><span data-stu-id="01f65-106">Audio conferencing</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-105">Обмен мгновенными сообщениями и функция присутствия</span><span class="sxs-lookup"><span data-stu-id="1d45c-105">Instant messaging (IM) and presence</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-106">Голосовые конференции</span><span class="sxs-lookup"><span data-stu-id="1d45c-106">Audio conferencing</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="01f65-107">Общий доступ к приложениям</span><span class="sxs-lookup"><span data-stu-id="01f65-107">Application sharing</span></span></p></td>
-<td><p><span data-ttu-id="01f65-108">Голосовая связь по протоколу IP (VoIP), включая эмуляцию коммутируемой телефонной сети (PSTN)</span><span class="sxs-lookup"><span data-stu-id="01f65-108">Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-107">Общий доступ к приложениям</span><span class="sxs-lookup"><span data-stu-id="1d45c-107">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-108">Voice over IP (VoIP), включая имитацию телефонной сети общего пользования (PSTN).</span><span class="sxs-lookup"><span data-stu-id="1d45c-108">Voice over IP (VoIP), including public switched telephone network (PSTN) simulation</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="01f65-109">Конференции на клиентах веб-доступа к Интернету</span><span class="sxs-lookup"><span data-stu-id="01f65-109">Web Access Client conferencing</span></span></p></td>
-<td><p><span data-ttu-id="01f65-110">Помощник Microsoft Lync 2013</span><span class="sxs-lookup"><span data-stu-id="01f65-110">Microsoft Lync 2013 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-109">Конференц-связь по клиентам веб-доступа</span><span class="sxs-lookup"><span data-stu-id="1d45c-109">Web Access Client conferencing</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-110">Помощник Microsoft Lync 2013</span><span class="sxs-lookup"><span data-stu-id="1d45c-110">Microsoft Lync 2013 Attendant</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="01f65-111">Группы ответа</span><span class="sxs-lookup"><span data-stu-id="01f65-111">Response Groups</span></span></p></td>
-<td><p><span data-ttu-id="01f65-112">Развертывание списка рассылки</span><span class="sxs-lookup"><span data-stu-id="01f65-112">Distribution list expansion</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-111">Группы ответа</span><span class="sxs-lookup"><span data-stu-id="1d45c-111">Response Groups</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-112">Расширение списка рассылки</span><span class="sxs-lookup"><span data-stu-id="1d45c-112">Distribution list expansion</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="01f65-113">Запрос на загрузку и адресную книгу в адресной книге</span><span class="sxs-lookup"><span data-stu-id="01f65-113">Address book download and address book query</span></span></p></td>
-<td><p><span data-ttu-id="01f65-114">Улучшенный 9-1-1 (E9-1-1) звонки и профили местоположения (абонентская группа)</span><span class="sxs-lookup"><span data-stu-id="01f65-114">Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-113">Запрос на загрузку и адресную книгу адресной книги</span><span class="sxs-lookup"><span data-stu-id="1d45c-113">Address book download and address book query</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-114">Расширенные 9-1-1 (E9-1-1) вызовы и профиль расположения (абонентская план)</span><span class="sxs-lookup"><span data-stu-id="1d45c-114">Enhanced 9-1-1 (E9-1-1) calls and location profile (dial plan)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="01f65-115">Многорежимный Просмотр</span><span class="sxs-lookup"><span data-stu-id="01f65-115">MultiView</span></span></p></td>
-<td><p><span data-ttu-id="01f65-116">Просмотр нескольких потоков на Конференции</span><span class="sxs-lookup"><span data-stu-id="01f65-116">Viewing multiple streams from a conference</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-115">Невозможность</span><span class="sxs-lookup"><span data-stu-id="1d45c-115">MultiView</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-116">Просмотр нескольких потоков из конференции</span><span class="sxs-lookup"><span data-stu-id="1d45c-116">Viewing multiple streams from a conference</span></span></p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -78,25 +78,25 @@ ms.locfileid: "41730569"
 </table>
 
 
-<span data-ttu-id="01f65-117">Инструмент Lync Server 2013 поддерживает создание и использование нагрузки между пулами и интеграцией только с помощью расширенной конфигурации.</span><span class="sxs-lookup"><span data-stu-id="01f65-117">The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.</span></span>
+<span data-ttu-id="1d45c-117">Средство нагрузки и производительности Lync Server 2013 поддерживает создание и Федерацию нагрузки между пулами с помощью расширенной конфигурации.</span><span class="sxs-lookup"><span data-stu-id="1d45c-117">The Lync Server 2013 Stress and Performance Tool supports cross-pool load generation and federation through advanced configuration only.</span></span>
 
-<span data-ttu-id="01f65-118">Кроме того, это средство не моделирует загрузку пользователей для следующих клиентов:</span><span class="sxs-lookup"><span data-stu-id="01f65-118">The tool also does not simulate user load for the following clients:</span></span>
+<span data-ttu-id="1d45c-118">Кроме того, средство не моделирует нагрузку для следующих клиентов:</span><span class="sxs-lookup"><span data-stu-id="1d45c-118">The tool also does not simulate user load for the following clients:</span></span>
 
-  - <span data-ttu-id="01f65-119">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="01f65-119">Office Live Meeting 2007</span></span>
+  - <span data-ttu-id="1d45c-119">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="1d45c-119">Office Live Meeting 2007</span></span>
 
-  - <span data-ttu-id="01f65-120">Lync 2013 сохраняемый чат</span><span class="sxs-lookup"><span data-stu-id="01f65-120">Lync 2013 Persistent Chat</span></span>
+  - <span data-ttu-id="1d45c-120">Lync 2013 сохраняемый чат</span><span class="sxs-lookup"><span data-stu-id="1d45c-120">Lync 2013 Persistent Chat</span></span>
 
-<span data-ttu-id="01f65-121">В результате средство Lync Server 2013 и производительность не будут поддерживать тестирование следующих компонентов:</span><span class="sxs-lookup"><span data-stu-id="01f65-121">As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:</span></span>
+<span data-ttu-id="1d45c-121">В результате средство нагрузки и производительности Lync Server 2013 не будет поддерживать тестирование следующих компонентов:</span><span class="sxs-lookup"><span data-stu-id="1d45c-121">As a result, the Lync Server 2013 Stress and Performance Tool will not support testing the following components:</span></span>
 
-  - <span data-ttu-id="01f65-122">Lync 2013 сохраняемый чат</span><span class="sxs-lookup"><span data-stu-id="01f65-122">Lync 2013 Persistent Chat</span></span>
+  - <span data-ttu-id="1d45c-122">Lync 2013 сохраняемый чат</span><span class="sxs-lookup"><span data-stu-id="1d45c-122">Lync 2013 Persistent Chat</span></span>
 
-  - <span data-ttu-id="01f65-123">Сценарии интеграции с Exchange</span><span class="sxs-lookup"><span data-stu-id="01f65-123">Exchange integration scenarios</span></span>
+  - <span data-ttu-id="1d45c-123">Сценарии интеграции с Exchange</span><span class="sxs-lookup"><span data-stu-id="1d45c-123">Exchange integration scenarios</span></span>
 
 <div>
 
-## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="01f65-124">Приложения и файлы, входящие в состав средства быстрой и производительной нагрузки Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01f65-124">Applications and Files Included with the Lync Server 2013 Stress and Performance Tool</span></span>
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a><span data-ttu-id="1d45c-124">Приложения и файлы, включенные в средство нагрузки и производительности Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1d45c-124">Applications and Files Included with the Lync Server 2013 Stress and Performance Tool</span></span>
 
-<span data-ttu-id="01f65-125">Ниже перечислены приложения, которые входят в состав средства быстрой и высокопроизводительной нагрузки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="01f65-125">The following applications are included in the Lync Server 2013 Stress and Performance Tool:</span></span>
+<span data-ttu-id="1d45c-125">Следующие приложения включены в средство нагрузки и производительности Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="1d45c-125">The following applications are included in the Lync Server 2013 Stress and Performance Tool:</span></span>
 
 
 <table>
@@ -106,30 +106,30 @@ ms.locfileid: "41730569"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="01f65-126">Средств</span><span class="sxs-lookup"><span data-stu-id="01f65-126">Tool</span></span></th>
-<th><span data-ttu-id="01f65-127">Описание</span><span class="sxs-lookup"><span data-stu-id="01f65-127">Description</span></span></th>
+<th><span data-ttu-id="1d45c-126">Средство</span><span class="sxs-lookup"><span data-stu-id="1d45c-126">Tool</span></span></th>
+<th><span data-ttu-id="1d45c-127">Описание</span><span class="sxs-lookup"><span data-stu-id="1d45c-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="01f65-128">Усерпровисионингтул. exe</span><span class="sxs-lookup"><span data-stu-id="01f65-128">UserProvisioningTool.exe</span></span></p></td>
-<td><p><span data-ttu-id="01f65-129">Средство подготовки пользователей Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="01f65-129">The Lync Server 2013 User Provisioning tool.</span></span> <span data-ttu-id="01f65-130">Это средство используется для создания пользователей и контактов.</span><span class="sxs-lookup"><span data-stu-id="01f65-130">This tool is used to create users and contacts.</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-128">Усерпровисионингтул. exe</span><span class="sxs-lookup"><span data-stu-id="1d45c-128">UserProvisioningTool.exe</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-129">Средство подготовки пользователей Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d45c-129">The Lync Server 2013 User Provisioning tool.</span></span> <span data-ttu-id="1d45c-130">Это средство используется для создания пользователей и контактов.</span><span class="sxs-lookup"><span data-stu-id="1d45c-130">This tool is used to create users and contacts.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="01f65-131">Усерпрофилеженератор. exe</span><span class="sxs-lookup"><span data-stu-id="01f65-131">UserProfileGenerator.exe</span></span></p></td>
-<td><p><span data-ttu-id="01f65-132">Средство настройки загрузки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="01f65-132">The Lync Server 2013 Load Configuration Tool.</span></span> <span data-ttu-id="01f65-133">Это средство используется для настройки характеристик пользовательской нагрузки для имитации.</span><span class="sxs-lookup"><span data-stu-id="01f65-133">This tool is used to configure the characteristics of the user load to simulate.</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-131">Усерпрофилеженератор. exe</span><span class="sxs-lookup"><span data-stu-id="1d45c-131">UserProfileGenerator.exe</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-132">Средство настройки нагрузки Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d45c-132">The Lync Server 2013 Load Configuration Tool.</span></span> <span data-ttu-id="1d45c-133">Это средство используется для настройки параметров пользовательской нагрузки для имитации.</span><span class="sxs-lookup"><span data-stu-id="1d45c-133">This tool is used to configure the characteristics of the user load to simulate.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="01f65-134">Линкперфтул. exe</span><span class="sxs-lookup"><span data-stu-id="01f65-134">LyncPerfTool.exe</span></span></p></td>
-<td><p><span data-ttu-id="01f65-135">Средство "стресс и производительность" Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="01f65-135">The Lync Server 2013 Stress and Performance Tool.</span></span> <span data-ttu-id="01f65-136">Линкперфтул — это инструмент, который имитирует пользовательскую нагрузку.</span><span class="sxs-lookup"><span data-stu-id="01f65-136">LyncPerfTool is the tool that simulates the user load.</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-134">Линкперфтул. exe</span><span class="sxs-lookup"><span data-stu-id="1d45c-134">LyncPerfTool.exe</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-135">Средство нагрузочного тестирования и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1d45c-135">The Lync Server 2013 Stress and Performance Tool.</span></span> <span data-ttu-id="1d45c-136">Линкперфтул — это средство, моделирующее пользовательскую нагрузку.</span><span class="sxs-lookup"><span data-stu-id="1d45c-136">LyncPerfTool is the tool that simulates the user load.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="01f65-137">Default. тмкс</span><span class="sxs-lookup"><span data-stu-id="01f65-137">Default.tmx</span></span></p></td>
-<td><p><span data-ttu-id="01f65-138">Значение Default. тмкс является обязательным для использования средства ведения журнала в Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="01f65-138">Default.tmx is required to use the Lync Server 2013 Logging Tool.</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-137">По умолчанию. тмкс</span><span class="sxs-lookup"><span data-stu-id="1d45c-137">Default.tmx</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-138">Для использования средства ведения журнала Lync Server 2013 требуется значение Default. тмкс.</span><span class="sxs-lookup"><span data-stu-id="1d45c-138">Default.tmx is required to use the Lync Server 2013 Logging Tool.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="01f65-139">Примеры сценариев подготовки</span><span class="sxs-lookup"><span data-stu-id="01f65-139">Example provisioning scripts</span></span></p></td>
-<td><p><span data-ttu-id="01f65-140">Эти примеры используются для настройки топологии для выполняющихся нагрузочных тестов на основе определенных сценариев.</span><span class="sxs-lookup"><span data-stu-id="01f65-140">These examples are used to configure the topology for running load tests, based on specific scenarios</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-139">Пример сценариев подготовки</span><span class="sxs-lookup"><span data-stu-id="1d45c-139">Example provisioning scripts</span></span></p></td>
+<td><p><span data-ttu-id="1d45c-140">Эти примеры используются для настройки топологии для запуска нагрузочных тестов на основе определенных сценариев.</span><span class="sxs-lookup"><span data-stu-id="1d45c-140">These examples are used to configure the topology for running load tests, based on specific scenarios</span></span></p></td>
 </tr>
 </tbody>
 </table>

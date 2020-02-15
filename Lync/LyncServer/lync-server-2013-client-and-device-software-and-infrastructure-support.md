@@ -12,20 +12,20 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a741d4696d883d9a29dc0117be28ea82f474cff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729869"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="4ef01-102">Поддержка программного обеспечения и инфраструктуры клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ef01-102">Client and device software and infrastructure support in Lync Server 2013</span></span>
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a><span data-ttu-id="fb9a1-102">Поддержка программного обеспечения и инфраструктуры для клиентов и устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb9a1-102">Client and device software and infrastructure support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41729869"
 
 <span> </span>
 
-<span data-ttu-id="4ef01-103">_**Тема последнего изменения:** 2014-08-27_</span><span class="sxs-lookup"><span data-stu-id="4ef01-103">_**Topic Last Modified:** 2014-08-27_</span></span>
+<span data-ttu-id="fb9a1-103">_**Последнее изменение темы:** 2014-08-27_</span><span class="sxs-lookup"><span data-stu-id="fb9a1-103">_**Topic Last Modified:** 2014-08-27_</span></span>
 
-<span data-ttu-id="4ef01-104">Поддержка программного обеспечения для клиентов и устройств Lync Server 2013 включает в себя Поддерживаемые операционные системы, программное обеспечение инфраструктуры и другое дополнительное программное обеспечение, необходимое для поддержки функций клиента и устройства.</span><span class="sxs-lookup"><span data-stu-id="4ef01-104">Software support for clients and devices of a Lync Server 2013 deployment includes the supported operating systems, infrastructure software, and other additional software required to support client and device features.</span></span>
+<span data-ttu-id="fb9a1-104">Программная поддержка для клиентов и устройств в развертывании Lync Server 2013 включает поддерживаемые операционные системы, программное обеспечение инфраструктуры и другое дополнительное программное обеспечение, необходимое для поддержки функций клиентов и устройств.</span><span class="sxs-lookup"><span data-stu-id="fb9a1-104">Software support for clients and devices of a Lync Server 2013 deployment includes the supported operating systems, infrastructure software, and other additional software required to support client and device features.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4ef01-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="4ef01-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fb9a1-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="fb9a1-105">In This Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="4ef01-106">Поддержка программного обеспечения клиента Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ef01-106">Lync client software support in Lync Server 2013</span></span>](lync-server-2013-lync-client-software-support.md)
+    [<span data-ttu-id="fb9a1-106">Поддержка клиентского программного обеспечения Lync в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb9a1-106">Lync client software support in Lync Server 2013</span></span>](lync-server-2013-lync-client-software-support.md)
 
   - <span></span>  
-    [<span data-ttu-id="4ef01-107">Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ef01-107">Support for public instant messenger connectivity in Lync Server 2013</span></span>](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+    [<span data-ttu-id="fb9a1-107">Поддержка общедоступной службы обмена мгновенными сообщениями в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb9a1-107">Support for public instant messenger connectivity in Lync Server 2013</span></span>](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
   - <span></span>  
-    [<span data-ttu-id="4ef01-108">Отображение фотографий пользователей в Lync</span><span class="sxs-lookup"><span data-stu-id="4ef01-108">How user photos are displayed in Lync</span></span>](how-user-photos-are-displayed-in-lync.md)
+    [<span data-ttu-id="fb9a1-108">Сведения о том, как отображаются фотографии пользователей в Lync</span><span class="sxs-lookup"><span data-stu-id="fb9a1-108">How user photos are displayed in Lync</span></span>](how-user-photos-are-displayed-in-lync.md)
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4ef01-109">Lync Phone Edition работает аналогично с Lync Server 2013, как это происходит в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="4ef01-109">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="4ef01-110">Подробные сведения о поддержке программного обеспечения на устройствах можно найти в следующих статьях в библиотеке TechNet Server 2010:</span><span class="sxs-lookup"><span data-stu-id="4ef01-110">For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library:</span></span> 
+> <span data-ttu-id="fb9a1-109">Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="fb9a1-109">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="fb9a1-110">Подробные сведения о поддержке программного обеспечения для устройств представлены в следующих разделах библиотеки TechNet Server 2010 TechNet:</span><span class="sxs-lookup"><span data-stu-id="fb9a1-110">For details about software support for devices, see the following topics in the Lync Server 2010 TechNet Library:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="4ef01-111">Обязательные компоненты Lync Server 2010 для устройств на<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></span><span class="sxs-lookup"><span data-stu-id="4ef01-111">Required Lync Server 2010 Components for Devices at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></span></span></P>
+> <P><span data-ttu-id="fb9a1-111">Обязательные компоненты Lync Server 2010 для устройств на сайте<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></span><span class="sxs-lookup"><span data-stu-id="fb9a1-111">Required Lync Server 2010 Components for Devices at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></span></span></P>
 > <LI>
-> <P><span data-ttu-id="4ef01-112">Поддержка системы устройств и инфраструктуры на сайте<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></span><span class="sxs-lookup"><span data-stu-id="4ef01-112">Device System and Infrastructure Support at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></span></span></P></LI></UL>
+> <P><span data-ttu-id="fb9a1-112">Поддержка системы устройств и инфраструктуры в<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></span><span class="sxs-lookup"><span data-stu-id="fb9a1-112">Device System and Infrastructure Support at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></span></span></P></LI></UL>
 
 
 

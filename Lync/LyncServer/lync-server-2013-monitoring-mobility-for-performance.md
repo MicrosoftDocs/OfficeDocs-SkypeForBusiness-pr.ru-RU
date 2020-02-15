@@ -12,20 +12,20 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131a6a4dd6fffb3081ff2b1dee58318afd525eaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756823"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a><span data-ttu-id="57b74-102">Мониторинг мобильных устройств для повышения производительности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57b74-102">Monitoring mobility for performance in Lync Server 2013</span></span>
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a><span data-ttu-id="08013-102">Наблюдение за производительностью мобильных устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08013-102">Monitoring mobility for performance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41756823"
 
 <span> </span>
 
-<span data-ttu-id="57b74-103">_**Тема последнего изменения:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="57b74-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="08013-103">_**Последнее изменение темы:** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="08013-103">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="57b74-104">Служба мобильной связи Lync Server (МККС) и веб-интерфейс единой системы обмена сообщениями (УКВА) увеличивают нагрузку на сервер переднего плана и пулы интерфейсов.</span><span class="sxs-lookup"><span data-stu-id="57b74-104">The Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA) increase the load on Front End Servers and Front End pools.</span></span> <span data-ttu-id="57b74-105">Мобильные устройства, поддерживающие подключение к серверу даже в том случае, если мобильное приложение свернуто, например устройства Android и Nokia, работающие под управлением Lync 2010 Mobile, а также устройства Android и Apple, работающие под управлением Lync 2013 для мобильных устройств, выпускают больше нагрузки, чем устройства, которые прерывать соединение с сервером, когда мобильное приложение свернуто.</span><span class="sxs-lookup"><span data-stu-id="57b74-105">Mobile devices that maintain a connection to the server even when the mobile application is minimized, such as Android and Nokia devices running Lync 2010 Mobile, as well as Android and Apple devices running Lync 2013 Mobile, impose a greater load than devices that terminate their connection to the server when the mobile application is minimized.</span></span> <span data-ttu-id="57b74-106">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span><span class="sxs-lookup"><span data-stu-id="57b74-106">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span></span>
+<span data-ttu-id="08013-104">Служба Mobility Server Mobility Service (MCX) и веб-API объединенных коммуникаций (UCWA) увеличивают нагрузку на серверы переднего плана и пулы переднего плана.</span><span class="sxs-lookup"><span data-stu-id="08013-104">The Lync Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA) increase the load on Front End Servers and Front End pools.</span></span> <span data-ttu-id="08013-105">Мобильные устройства, которые поддерживают подключение к серверу, даже если мобильное приложение свернуто, например устройства Android и Nokia, работающие под управлением Lync 2010 Mobile, а также устройства с Android и Apple, работающие под управлением Lync 2013 Mobile, накладывают большую нагрузку, чем устройства, которые разрыв подключения к серверу, когда мобильное приложение свернуто.</span><span class="sxs-lookup"><span data-stu-id="08013-105">Mobile devices that maintain a connection to the server even when the mobile application is minimized, such as Android and Nokia devices running Lync 2010 Mobile, as well as Android and Apple devices running Lync 2013 Mobile, impose a greater load than devices that terminate their connection to the server when the mobile application is minimized.</span></span> <span data-ttu-id="08013-106">По мере роста использования мобильных устройств необходимо следить за производительностью мобильных устройств, чтобы определить, когда нужно увеличить емкость.</span><span class="sxs-lookup"><span data-stu-id="08013-106">As your mobility usage increases, you must monitor mobility performance to determine when you need to increase your capacity.</span></span>
 
-<span data-ttu-id="57b74-107">Некоторые ограничения, влияющие на производительность мобильности:</span><span class="sxs-lookup"><span data-stu-id="57b74-107">Several limits influence mobility performance:</span></span>
+<span data-ttu-id="08013-107">Некоторые ограничения, влияющие на производительность мобильности:</span><span class="sxs-lookup"><span data-stu-id="08013-107">Several limits influence mobility performance:</span></span>
 
-  - <span data-ttu-id="57b74-108">доступная память;</span><span class="sxs-lookup"><span data-stu-id="57b74-108">Available memory</span></span>
+  - <span data-ttu-id="08013-108">доступная память;</span><span class="sxs-lookup"><span data-stu-id="08013-108">Available memory</span></span>
 
-  - <span data-ttu-id="57b74-109">ограничение очереди запросов;</span><span class="sxs-lookup"><span data-stu-id="57b74-109">Request queue limit</span></span>
+  - <span data-ttu-id="08013-109">ограничение очереди запросов;</span><span class="sxs-lookup"><span data-stu-id="08013-109">Request queue limit</span></span>
 
-  - <span data-ttu-id="57b74-110">одновременные подключения;</span><span class="sxs-lookup"><span data-stu-id="57b74-110">Concurrent connections</span></span>
+  - <span data-ttu-id="08013-110">одновременные подключения;</span><span class="sxs-lookup"><span data-stu-id="08013-110">Concurrent connections</span></span>
 
-  - <span data-ttu-id="57b74-111">длина очереди IIS.</span><span class="sxs-lookup"><span data-stu-id="57b74-111">IIS queue length</span></span>
+  - <span data-ttu-id="08013-111">длина очереди IIS.</span><span class="sxs-lookup"><span data-stu-id="08013-111">IIS queue length</span></span>
 
-<span data-ttu-id="57b74-112">Другие ограничения на серверах, которые могут повлиять на производительность мобильных устройств, задаются максимум двенадцать одновременных входов, проверок подлинности, продления сеансов и прекращений.</span><span class="sxs-lookup"><span data-stu-id="57b74-112">Other limits on servers that can influence mobility performance are a maximum of twelve concurrent sign-ins, authentications, session renewals, and terminations.</span></span> <span data-ttu-id="57b74-113">В большинстве развертываний эти максимальные значения не нуждаются в изменении.</span><span class="sxs-lookup"><span data-stu-id="57b74-113">These maximums do not need to be modified for most deployments.</span></span>
+<span data-ttu-id="08013-112">Другие ограничения на серверах, которые могут повлиять на производительность мобильных устройств, могут быть не более двенадцати, чем двенадцать одновременных входов, проверки подлинности, продления сеанса и завершения.</span><span class="sxs-lookup"><span data-stu-id="08013-112">Other limits on servers that can influence mobility performance are a maximum of twelve concurrent sign-ins, authentications, session renewals, and terminations.</span></span> <span data-ttu-id="08013-113">В большинстве развертываний эти максимальные значения не нуждаются в изменении.</span><span class="sxs-lookup"><span data-stu-id="08013-113">These maximums do not need to be modified for most deployments.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="57b74-114">Содержание</span><span class="sxs-lookup"><span data-stu-id="57b74-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="08013-114">Содержание</span><span class="sxs-lookup"><span data-stu-id="08013-114">In This Section</span></span>
 
-  - [<span data-ttu-id="57b74-115">Наблюдение за пределами объема памяти сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57b74-115">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+  - [<span data-ttu-id="08013-115">Мониторинг пределов объема памяти сервера в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08013-115">Monitoring for server memory capacity limits in Lync Server 2013</span></span>](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [<span data-ttu-id="57b74-116">Наблюдение за работой службы Mobility Service и использованием УКВА в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57b74-116">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [<span data-ttu-id="08013-116">Мониторинг службы Mobility Service и использования UCWA в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08013-116">Monitoring Mobility Service and UCWA usage in Lync Server 2013</span></span>](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [<span data-ttu-id="57b74-117">Настройка службы Mobility Service для высокой производительности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57b74-117">Configuring Mobility Service for high performance in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [<span data-ttu-id="08013-117">Настройка службы Mobility Service для высокой производительности в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08013-117">Configuring Mobility Service for high performance in Lync Server 2013</span></span>](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
-  - [<span data-ttu-id="57b74-118">Мониторинг файлов журнала трассировки запросов IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57b74-118">Monitoring IIS request tracing log files in Lync Server 2013</span></span>](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+  - [<span data-ttu-id="08013-118">Мониторинг файлов журнала трассировки запросов IIS в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08013-118">Monitoring IIS request tracing log files in Lync Server 2013</span></span>](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
 
-  - [<span data-ttu-id="57b74-119">Счетчики производительности мобильных устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="57b74-119">Mobility performance counters in Lync Server 2013</span></span>](lync-server-2013-mobility-performance-counters.md)
+  - [<span data-ttu-id="08013-119">Счетчики производительности мобильных устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08013-119">Mobility performance counters in Lync Server 2013</span></span>](lync-server-2013-mobility-performance-counters.md)
 
 </div>
 

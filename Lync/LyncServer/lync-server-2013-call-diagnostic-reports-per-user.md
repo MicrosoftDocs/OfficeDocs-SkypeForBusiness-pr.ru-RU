@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: диагностические отчеты о звонках (для каждого пользователя)'
+title: 'Lync Server 2013: диагностические отчеты о вызовах (на пользователя)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1d9c1b504ac3b38948e04ed10cfe6d6e2b2744
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 961c6f70c5ca115824c71cf5366cb5f3610fd1fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743119"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a><span data-ttu-id="9bc94-102">Диагностические отчеты по звонку (на пользователя) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bc94-102">Call Diagnostic Reports (per user) in Lync Server 2013</span></span>
+# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a><span data-ttu-id="871c0-102">Диагностические отчеты по вызовам (на пользователя) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="871c0-102">Call Diagnostic Reports (per user) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743119"
 
 <span> </span>
 
-<span data-ttu-id="9bc94-103">_**Тема последнего изменения:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="9bc94-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="871c0-103">_**Последнее изменение темы:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="871c0-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="9bc94-104">Диагностические отчеты по вызовам предоставляют сведения о неудачных одноранговых сеансах и сеансах конференц-связи каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="9bc94-104">The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions.</span></span>
+<span data-ttu-id="871c0-104">Диагностические отчеты по вызовам предоставляют сведения о неудачных одноранговых сеансах и сеансах конференц-связи каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="871c0-104">The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9bc94-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="9bc94-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="871c0-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="871c0-105">In This Section</span></span>
 
-  - <span data-ttu-id="9bc94-106">[Отчет о действиях пользователей в Lync Server 2013](lync-server-2013-user-activity-report.md)   предоставляет сведения о одноранговых событиях и действиях конференций для каждого из пользователей.</span><span class="sxs-lookup"><span data-stu-id="9bc94-106">[User Activity Report in Lync Server 2013](lync-server-2013-user-activity-report.md)   Provides information about peer-to-peer and conference activities for each of your users.</span></span>
+  - <span data-ttu-id="871c0-106">[Отчет об активности пользователей в Lync Server 2013](lync-server-2013-user-activity-report.md)   предоставляет сведения об одноранговых действиях и конференциях для каждого пользователя.</span><span class="sxs-lookup"><span data-stu-id="871c0-106">[User Activity Report in Lync Server 2013](lync-server-2013-user-activity-report.md)   Provides information about peer-to-peer and conference activities for each of your users.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cdff416379d26391ca817f242104a433612a011
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ba219bcf473287879f8c198938506749262b726
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a><span data-ttu-id="12a8c-102">Схема базы данных качества взаимодействия (QoE) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12a8c-102">Quality of Experience (QoE) database schema in Lync Server 2013</span></span>
+# <a name="quality-of-experience-qoe-database-schema-in-lync-server-2013"></a><span data-ttu-id="dd659-102">Схема базы данных качества взаимодействия (QoE) в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd659-102">Quality of Experience (QoE) database schema in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41746979"
 
 <span> </span>
 
-<span data-ttu-id="12a8c-103">_**Тема последнего изменения:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="12a8c-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="dd659-103">_**Последнее изменение темы:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="dd659-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="12a8c-104">В этом документе документируется схема базы данных качества взаимодействия (QoE) в программном обеспечении Microsoft Lync Server 2010 Communications.</span><span class="sxs-lookup"><span data-stu-id="12a8c-104">This documents the schema of the Quality of Experience (QoE) database in Microsoft Lync Server 2010 communications software.</span></span>
+<span data-ttu-id="dd659-104">В этом документе документируется схема базы данных качества взаимодействия (QoE) в программном обеспечении Microsoft Lync Server 2010 Communications.</span><span class="sxs-lookup"><span data-stu-id="dd659-104">This documents the schema of the Quality of Experience (QoE) database in Microsoft Lync Server 2010 communications software.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="12a8c-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="12a8c-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dd659-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="dd659-105">In This Section</span></span>
 
-  - [<span data-ttu-id="12a8c-106">Список таблиц качества взаимодействия в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12a8c-106">List of QoE tables in Lync Server 2013</span></span>](lync-server-2013-list-of-qoe-tables.md)
+  - [<span data-ttu-id="dd659-106">Список таблиц QoE в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd659-106">List of QoE tables in Lync Server 2013</span></span>](lync-server-2013-list-of-qoe-tables.md)
 
-  - [<span data-ttu-id="12a8c-107">Данные таблицы качества взаимодействия в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12a8c-107">QoE table details in Lync Server 2013</span></span>](lync-server-2013-qoe-table-details.md)
+  - [<span data-ttu-id="dd659-107">Сведения о таблице QoE в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd659-107">QoE table details in Lync Server 2013</span></span>](lync-server-2013-qoe-table-details.md)
 
-  - [<span data-ttu-id="12a8c-108">QoE просмотра данных в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12a8c-108">QoE view details in Lync Server 2013</span></span>](lync-server-2013-qoe-view-details.md)
+  - [<span data-ttu-id="dd659-108">QoE View Details in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd659-108">QoE view details in Lync Server 2013</span></span>](lync-server-2013-qoe-view-details.md)
 
-  - [<span data-ttu-id="12a8c-109">Образцы запросов к базе данных качества взаимодействия в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12a8c-109">Sample QoE database queries in Lync Server 2013</span></span>](lync-server-2013-sample-qoe-database-queries.md)
+  - [<span data-ttu-id="dd659-109">Примеры запросов к базам данных QoE в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd659-109">Sample QoE database queries in Lync Server 2013</span></span>](lync-server-2013-sample-qoe-database-queries.md)
 
 </div>
 

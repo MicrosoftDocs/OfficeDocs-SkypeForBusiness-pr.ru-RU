@@ -12,20 +12,20 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6316a1027de963cefea6c0c76051f09cb5d33538
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 134535f904b7394d5335b2a3252eba2a8de9341e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727689"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-various-policies"></a><span data-ttu-id="fdb97-102">Настройка различных политик</span><span class="sxs-lookup"><span data-stu-id="fdb97-102">Configuring the Various Policies</span></span>
+# <a name="configuring-the-various-policies"></a><span data-ttu-id="54ab5-102">Настройка различных политик</span><span class="sxs-lookup"><span data-stu-id="54ab5-102">Configuring the Various Policies</span></span>
 
 </div>
 
@@ -35,128 +35,128 @@ ms.locfileid: "41727689"
 
 <span> </span>
 
-<span data-ttu-id="fdb97-103">_**Тема последнего изменения:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="fdb97-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="54ab5-103">_**Последнее изменение темы:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="54ab5-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
 <div>
 
-## <a name="configuring-the-various-policies"></a><span data-ttu-id="fdb97-104">Настройка различных политик</span><span class="sxs-lookup"><span data-stu-id="fdb97-104">Configuring the Various Policies</span></span>
+## <a name="configuring-the-various-policies"></a><span data-ttu-id="54ab5-104">Настройка различных политик</span><span class="sxs-lookup"><span data-stu-id="54ab5-104">Configuring the Various Policies</span></span>
 
-<span data-ttu-id="fdb97-105">Ниже приведены различные политики, которые можно настроить в топологии Lync Server 2013 перед запуском средства нагрузки и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fdb97-105">Here are the various policies that you can configure in your Lync Server 2013 topology, prior to running the Lync Server 2013 Stress and Performance Tool.</span></span>
+<span data-ttu-id="54ab5-105">Ниже приведены различные политики, которые можно настроить в топологии Lync Server 2013 до запуска средства нагрузки и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="54ab5-105">Here are the various policies that you can configure in your Lync Server 2013 topology, prior to running the Lync Server 2013 Stress and Performance Tool.</span></span>
 
 <div>
 
-## <a name="configuring-the-archiving-policy"></a><span data-ttu-id="fdb97-106">Настройка политики архивации</span><span class="sxs-lookup"><span data-stu-id="fdb97-106">Configuring the Archiving Policy</span></span>
+## <a name="configuring-the-archiving-policy"></a><span data-ttu-id="54ab5-106">Настройка политики архивации</span><span class="sxs-lookup"><span data-stu-id="54ab5-106">Configuring the Archiving Policy</span></span>
 
-<span data-ttu-id="fdb97-107">Посмотрите пример сценария Арчивингполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-107">See the example script ArchivingPolicy.ps1.</span></span> <span data-ttu-id="fdb97-108">Этот сценарий следует использовать только в том случае, если в вашей топологии развернут сервер архивирования.</span><span class="sxs-lookup"><span data-stu-id="fdb97-108">You need to use this script only if an Archiving Server is deployed in your topology.</span></span> <span data-ttu-id="fdb97-109">Дополнительные сведения можно найти в документации по Lync Server 2013 и командлетов для [архивации и мониторинга командлетов в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415629\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-109">For details, see the Lync Server 2013 documentation and cmdlet Help for [Archiving and Monitoring cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415629\(v=ocs.15\)).</span></span>
+<span data-ttu-id="54ab5-107">Пример сценария ArchivingPolicy. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-107">See the example script ArchivingPolicy.ps1.</span></span> <span data-ttu-id="54ab5-108">Этот сценарий необходимо использовать, только если в вашей топологии развернут сервер архивации.</span><span class="sxs-lookup"><span data-stu-id="54ab5-108">You need to use this script only if an Archiving Server is deployed in your topology.</span></span> <span data-ttu-id="54ab5-109">Дополнительные сведения см. в справке по Lync Server 2013 и командлетам для [архивации и мониторинга командлетов в Lync Server 2013](https://technet.microsoft.com/library/gg415629\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-109">For details, see the Lync Server 2013 documentation and cmdlet Help for [Archiving and Monitoring cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415629\(v=ocs.15\)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-the-conferencing-policy"></a><span data-ttu-id="fdb97-110">Настройка политики конференц-связи</span><span class="sxs-lookup"><span data-stu-id="fdb97-110">Configuring the Conferencing Policy</span></span>
+## <a name="configuring-the-conferencing-policy"></a><span data-ttu-id="54ab5-110">Настройка политики конференц-связи</span><span class="sxs-lookup"><span data-stu-id="54ab5-110">Configuring the Conferencing Policy</span></span>
 
-<span data-ttu-id="fdb97-111">Посмотрите пример сценария Митингполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-111">See the example script MeetingPolicy.ps1.</span></span> <span data-ttu-id="fdb97-112">Дополнительные сведения можно найти в документации Lync Server 2013 и в справке по командлетам [веб-конференций в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-112">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Web conferencing cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).</span></span>
-
-</div>
-
-<div>
-
-## <a name="configuring-the-contacts-policy"></a><span data-ttu-id="fdb97-113">Настройка политики контактов</span><span class="sxs-lookup"><span data-stu-id="fdb97-113">Configuring the Contacts Policy</span></span>
-
-<span data-ttu-id="fdb97-114">Смотрите пример Контактсполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-114">See the example ContactsPolicy.ps1.</span></span> <span data-ttu-id="fdb97-115">Подробные сведения можно найти в документации Lync Server 2013 и в справке по командлетам для [обмена мгновенными сообщениями и проверки присутствия в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398611\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-115">For details, see the Lync Server 2013 documentation and the cmdlet Help for [IM and presence cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398611\(v=ocs.15\)).</span></span>
+<span data-ttu-id="54ab5-111">Пример сценария MeetingPolicy. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-111">See the example script MeetingPolicy.ps1.</span></span> <span data-ttu-id="54ab5-112">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и справка командлета для [командлетов веб-конференций в Lync Server 2013](https://technet.microsoft.com/library/gg415675\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-112">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Web conferencing cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415675\(v=ocs.15\)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-the-federation-policy"></a><span data-ttu-id="fdb97-116">Настройка политики Федерации</span><span class="sxs-lookup"><span data-stu-id="fdb97-116">Configuring the Federation Policy</span></span>
+## <a name="configuring-the-contacts-policy"></a><span data-ttu-id="54ab5-113">Настройка политики контактов</span><span class="sxs-lookup"><span data-stu-id="54ab5-113">Configuring the Contacts Policy</span></span>
 
-<span data-ttu-id="fdb97-117">Смотрите пример Федератионполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-117">See the example FederationPolicy.ps1.</span></span> <span data-ttu-id="fdb97-118">Дополнительные сведения можно найти в документации по Lync Server 2013 и о командлетах [пограничного сервера в командлетах Lync server 2013](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) и [Федерации и внешнего доступа в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-118">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Edge Server cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) and [Federation and external access cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).</span></span>
-
-</div>
-
-<div>
-
-## <a name="configuring-the-call-admission-control-policy"></a><span data-ttu-id="fdb97-119">Настройка политики управления допуском звонков</span><span class="sxs-lookup"><span data-stu-id="fdb97-119">Configuring the Call Admission Control Policy</span></span>
-
-<span data-ttu-id="fdb97-120">Смотрите пример Бандвидсполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-120">See the example BandwidthPolicy.ps1.</span></span> <span data-ttu-id="fdb97-121">Дополнительные сведения можно найти в документации Lync Server 2013, посвященной [управлению допуском звонков в Lync server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) , и Справка по командлетам [управления допуском звонков в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-121">For details, see the Lync Server 2013 documentation [Overview of call admission control in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) and the cmdlet Help for [Call admission control cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\)).</span></span>
+<span data-ttu-id="54ab5-114">Смотрите пример Контактсполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-114">See the example ContactsPolicy.ps1.</span></span> <span data-ttu-id="54ab5-115">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и справка командлета для [мгновенных сообщений и командлетов присутствия в Lync Server 2013](https://technet.microsoft.com/library/gg398611\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-115">For details, see the Lync Server 2013 documentation and the cmdlet Help for [IM and presence cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg398611\(v=ocs.15\)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-the-voice-routing-rules"></a><span data-ttu-id="fdb97-122">Настройка правил для маршрутизации голосовых сообщений</span><span class="sxs-lookup"><span data-stu-id="fdb97-122">Configuring the Voice Routing Rules</span></span>
+## <a name="configuring-the-federation-policy"></a><span data-ttu-id="54ab5-116">Настройка политики Федерации</span><span class="sxs-lookup"><span data-stu-id="54ab5-116">Configuring the Federation Policy</span></span>
 
-<span data-ttu-id="fdb97-123">Смотрите пример Раутингрулес. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-123">See the example RoutingRules.ps1.</span></span> <span data-ttu-id="fdb97-124">Настроив правила маршрутизации голосовой связи, запишите контекст телефона (то есть,/Локатион Profile или/Симпленаме), а также внутренние и внешние коды города, чтобы их можно было указывать при создании пользователей и настройке конфигурации Линкперфтул (специально для PSTN-UC и UC-КТСОП).</span><span class="sxs-lookup"><span data-stu-id="fdb97-124">When you configure the voice routing rules, take note of the Phone Context (that is, /Location Profile or /SimpleName) and Internal/External Area Codes so that you can specify them when creating users and during LyncPerfTool configuration (specifically for PSTN-UC and UC-PSTN).</span></span> <span data-ttu-id="fdb97-125">Например, параметр Симпленаме в вызове командлета **New-ксдиалплан** в примере раутингрулес. ps1 следует использовать для значения локатионпрофиле на следующем рисунке файла усерпрофилеженератор. exe.</span><span class="sxs-lookup"><span data-stu-id="fdb97-125">For example, the SimpleName parameter in the call to the **New-CsDialPlan** cmdlet in the RoutingRules.ps1 example should be used for the LocationProfile value in the following figure of UserProfileGenerator.exe.</span></span>
-
-<span data-ttu-id="fdb97-126">![Правило маршрутизации образца записи голоса.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Правило маршрутизации образца записи голоса.")</span><span class="sxs-lookup"><span data-stu-id="fdb97-126">![Sample voice routing rule.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Sample voice routing rule.")</span></span>
-
-<span data-ttu-id="fdb97-127">Дополнительные сведения можно найти в документации по Lync Server 2013 и о командлетах для [корпоративных голосовых команд в Lync server 2013](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-127">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Enterprise Voice cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\)).</span></span>
+<span data-ttu-id="54ab5-117">Смотрите пример Федератионполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-117">See the example FederationPolicy.ps1.</span></span> <span data-ttu-id="54ab5-118">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и справке командлетов [пограничного сервера в командлетах Lync server 2013](https://technet.microsoft.com/library/gg415635\(v=ocs.15\)) , [Федерации и внешнего доступа в Lync Server 2013](https://technet.microsoft.com/library/gg415651\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-118">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Edge Server cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415635\(v=ocs.15\)) and [Federation and external access cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415651\(v=ocs.15\)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-conferencing-attendant-application"></a><span data-ttu-id="fdb97-128">Настройка приложения-участника конференц-связи</span><span class="sxs-lookup"><span data-stu-id="fdb97-128">Configuring Conferencing Attendant application</span></span>
+## <a name="configuring-the-call-admission-control-policy"></a><span data-ttu-id="54ab5-119">Настройка политики контроля допуска звонков</span><span class="sxs-lookup"><span data-stu-id="54ab5-119">Configuring the Call Admission Control Policy</span></span>
 
-<span data-ttu-id="fdb97-129">Смотрите пример Конференцеаутоаттендантконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-129">See the example ConferenceAutoAttendantConfiguration.ps1.</span></span> <span data-ttu-id="fdb97-130">Обратите внимание на КонференЦингаутоаттендант номер телефона (1121111111 по умолчанию), чтобы можно было ввести его в средство настройки средств Линкперф для создания конфигурации.</span><span class="sxs-lookup"><span data-stu-id="fdb97-130">Take note of the ConferencingAutoAttendant phone number (1121111111, by default), so that you can type it into the LyncPerf Tool Configuration tool for configuration generation.</span></span>
-
-<span data-ttu-id="fdb97-131">![Конфигурация приложения Conferencing Attendant](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Конфигурация приложения Conferencing Attendant")</span><span class="sxs-lookup"><span data-stu-id="fdb97-131">![Configuring the Conferencing Attendant application](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Configuring the Conferencing Attendant application")</span></span>
-
-<span data-ttu-id="fdb97-132">Дополнительные сведения можно найти в документации Lync Server 2013 и в разделе Справка по командлетам для [веб-конференций в](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) lync Server 2013 и [командлетах конференции с телефонным подключением в Lync сервер 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-132">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Web conferencing cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) and [Dial-in conferencing cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\)).</span></span>
+<span data-ttu-id="54ab5-120">Смотрите пример Бандвидсполици. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-120">See the example BandwidthPolicy.ps1.</span></span> <span data-ttu-id="54ab5-121">Для получения дополнительных сведений ознакомьтесь со статьей Lync Server 2013 в документации по [контролю допуска звонков в Lync server 2013](https://technet.microsoft.com/library/gg398529\(v=ocs.15\)) и справке командлета для [командлетов контроля допуска звонков в Lync Server 2013](https://technet.microsoft.com/library/gg415676\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-121">For details, see the Lync Server 2013 documentation [Overview of call admission control in Lync Server 2013](https://technet.microsoft.com/library/gg398529\(v=ocs.15\)) and the cmdlet Help for [Call admission control cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415676\(v=ocs.15\)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-lync-server-call-park-service"></a><span data-ttu-id="fdb97-133">Настройка службы приостановки звонков в Lync Server</span><span class="sxs-lookup"><span data-stu-id="fdb97-133">Configuring Lync Server Call Park Service</span></span>
+## <a name="configuring-the-voice-routing-rules"></a><span data-ttu-id="54ab5-122">Настройка правил маршрутизации голосовой связи</span><span class="sxs-lookup"><span data-stu-id="54ab5-122">Configuring the Voice Routing Rules</span></span>
 
-<span data-ttu-id="fdb97-134">По умолчанию метод приостановки звонка отключен.</span><span class="sxs-lookup"><span data-stu-id="fdb97-134">Call Park is disabled by default.</span></span> <span data-ttu-id="fdb97-135">Смотрите пример Каллпаркконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-135">See the example CallParkConfiguration.ps1.</span></span> <span data-ttu-id="fdb97-136">Дополнительные сведения можно найти в документации по Lync Server 2013 и о командлетах [приложения для приостановки звонков в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="fdb97-136">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Call Park application cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\)).</span></span>
+<span data-ttu-id="54ab5-123">Смотрите пример Раутингрулес. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-123">See the example RoutingRules.ps1.</span></span> <span data-ttu-id="54ab5-124">При настройке правил маршрутизации голосовой связи запишите контекст телефона (то есть,/Локатион Profile или/Симпленаме), а также внутренние/внешние коды областей, чтобы их можно было указать при создании пользователей и во время настройки Линкперфтул (в частности, для PSTN-UC и UC-PSTN).</span><span class="sxs-lookup"><span data-stu-id="54ab5-124">When you configure the voice routing rules, take note of the Phone Context (that is, /Location Profile or /SimpleName) and Internal/External Area Codes so that you can specify them when creating users and during LyncPerfTool configuration (specifically for PSTN-UC and UC-PSTN).</span></span> <span data-ttu-id="54ab5-125">Например, параметр Симпленаме в вызове командлета **New – CsDialPlan** в примере раутингрулес. ps1 должен использоваться для значения LocationProfile на следующем рисунке усерпрофилеженератор. exe.</span><span class="sxs-lookup"><span data-stu-id="54ab5-125">For example, the SimpleName parameter in the call to the **New-CsDialPlan** cmdlet in the RoutingRules.ps1 example should be used for the LocationProfile value in the following figure of UserProfileGenerator.exe.</span></span>
+
+<span data-ttu-id="54ab5-126">![Пример правила маршрутизации голосовых вызовов.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Пример правила маршрутизации голосовых вызовов.")</span><span class="sxs-lookup"><span data-stu-id="54ab5-126">![Sample voice routing rule.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Sample voice routing rule.")</span></span>
+
+<span data-ttu-id="54ab5-127">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и обратитесь к разделу Справка по командлетам [корпоративной голосовой связи в Lync server 2013](https://technet.microsoft.com/library/gg415658\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-127">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Enterprise Voice cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415658\(v=ocs.15\)).</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-emergency-calls"></a><span data-ttu-id="fdb97-137">Настройка экстренных вызовов</span><span class="sxs-lookup"><span data-stu-id="fdb97-137">Configuring Emergency Calls</span></span>
+## <a name="configuring-conferencing-attendant-application"></a><span data-ttu-id="54ab5-128">Настройка приложения помощника по конференц-связи</span><span class="sxs-lookup"><span data-stu-id="54ab5-128">Configuring Conferencing Attendant application</span></span>
 
-<span data-ttu-id="fdb97-138">Выполните указанные ниже действия, чтобы настроить стресс и тестирование производительности для экстренных вызовов.</span><span class="sxs-lookup"><span data-stu-id="fdb97-138">Perform the following steps to configure stress and performance testing for emergency calls.</span></span>
+<span data-ttu-id="54ab5-129">Смотрите пример Конференцеаутоаттендантконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-129">See the example ConferenceAutoAttendantConfiguration.ps1.</span></span> <span data-ttu-id="54ab5-130">Запишите номер телефона КонференЦингаутоаттендант (1121111111 по умолчанию), чтобы можно было ввести его в средство настройки средства Линкперф для создания конфигурации.</span><span class="sxs-lookup"><span data-stu-id="54ab5-130">Take note of the ConferencingAutoAttendant phone number (1121111111, by default), so that you can type it into the LyncPerf Tool Configuration tool for configuration generation.</span></span>
 
-1.  <span data-ttu-id="fdb97-139">Настройте голосовой маршрут для вызова экстренной помощи.</span><span class="sxs-lookup"><span data-stu-id="fdb97-139">Set up a voice route for emergency calls.</span></span> <span data-ttu-id="fdb97-140">Пример настройки этого голосового маршрута можно найти в Раутингрулес. ps1 под комментарием "Route E911 to КТСОП".</span><span class="sxs-lookup"><span data-stu-id="fdb97-140">See the RoutingRules.ps1 script under the comment "Route E911 to PSTN" for an example of setting up this voice route.</span></span>
+<span data-ttu-id="54ab5-131">![Настройка приложения "помощник по конференц-связи"](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Настройка приложения "помощник по конференц-связи"")</span><span class="sxs-lookup"><span data-stu-id="54ab5-131">![Configuring the Conferencing Attendant application](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Configuring the Conferencing Attendant application")</span></span>
+
+<span data-ttu-id="54ab5-132">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и справке командлета для [командлетов веб-конференций в Lync server 2013](https://technet.microsoft.com/library/gg415675\(v=ocs.15\)) и [командлетах конференц-связи с телефонным подключением в Lync Server 2013](https://technet.microsoft.com/library/gg415630\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-132">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Web conferencing cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415675\(v=ocs.15\)) and [Dial-in conferencing cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415630\(v=ocs.15\)).</span></span>
+
+</div>
+
+<div>
+
+## <a name="configuring-lync-server-call-park-service"></a><span data-ttu-id="54ab5-133">Настройка службы парковки вызовов Lync Server</span><span class="sxs-lookup"><span data-stu-id="54ab5-133">Configuring Lync Server Call Park Service</span></span>
+
+<span data-ttu-id="54ab5-134">По умолчанию парковки вызовов отключен.</span><span class="sxs-lookup"><span data-stu-id="54ab5-134">Call Park is disabled by default.</span></span> <span data-ttu-id="54ab5-135">Смотрите пример Каллпаркконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-135">See the example CallParkConfiguration.ps1.</span></span> <span data-ttu-id="54ab5-136">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и справка командлета для [командлетов приложений парковки вызовов в Lync server 2013](https://technet.microsoft.com/library/gg415639\(v=ocs.15\)).</span><span class="sxs-lookup"><span data-stu-id="54ab5-136">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Call Park application cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415639\(v=ocs.15\)).</span></span>
+
+</div>
+
+<div>
+
+## <a name="configuring-emergency-calls"></a><span data-ttu-id="54ab5-137">Настройка экстренных вызовов</span><span class="sxs-lookup"><span data-stu-id="54ab5-137">Configuring Emergency Calls</span></span>
+
+<span data-ttu-id="54ab5-138">Выполните указанные ниже действия, чтобы настроить нагрузочное тестирование и тестирование производительности для экстренных вызовов.</span><span class="sxs-lookup"><span data-stu-id="54ab5-138">Perform the following steps to configure stress and performance testing for emergency calls.</span></span>
+
+1.  <span data-ttu-id="54ab5-139">Настройте маршрут голосовой связи для экстренных вызовов.</span><span class="sxs-lookup"><span data-stu-id="54ab5-139">Set up a voice route for emergency calls.</span></span> <span data-ttu-id="54ab5-140">Пример настройки этого маршрута голосовой связи представлен в Раутингрулес. ps1 под комментарием "Route E911 to PSTN".</span><span class="sxs-lookup"><span data-stu-id="54ab5-140">See the RoutingRules.ps1 script under the comment "Route E911 to PSTN" for an example of setting up this voice route.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="fdb97-141">Пример команды в Раутингрулес. ps1 имеет числовой шаблон, который включает число 119 вместо 911.</span><span class="sxs-lookup"><span data-stu-id="fdb97-141">The example command in RoutingRules.ps1 has a number pattern that includes the number 119 rather than 911.</span></span> <span data-ttu-id="fdb97-142">Следует избегать использования 911 (или фактического местного номера для экстренного реагирования), чтобы предотвратить случайные вызовы локальных аварийных операторов в ходе нагрузочного тестирования.</span><span class="sxs-lookup"><span data-stu-id="fdb97-142">You should avoid using 911 (or your actual local emergency number) to prevent accidental calls to your local emergency operators during load testing.</span></span> <span data-ttu-id="fdb97-143">Эта конфигурация предназначена только для целей моделирования.</span><span class="sxs-lookup"><span data-stu-id="fdb97-143">This configuration is for simulation purposes only.</span></span>
+    > <span data-ttu-id="54ab5-141">В команде примера в Раутингрулес. ps1 имеется шаблон номера, включающий число 119, а не 911.</span><span class="sxs-lookup"><span data-stu-id="54ab5-141">The example command in RoutingRules.ps1 has a number pattern that includes the number 119 rather than 911.</span></span> <span data-ttu-id="54ab5-142">Не следует использовать 911 (или фактический локальный номер экстренного реагирования) для предотвращения случайных вызовов локальных аварийных операторов во время нагрузочного тестирования.</span><span class="sxs-lookup"><span data-stu-id="54ab5-142">You should avoid using 911 (or your actual local emergency number) to prevent accidental calls to your local emergency operators during load testing.</span></span> <span data-ttu-id="54ab5-143">Эта конфигурация предназначена только для целей моделирования.</span><span class="sxs-lookup"><span data-stu-id="54ab5-143">This configuration is for simulation purposes only.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="fdb97-144">Настройте адреса, заполнив значения на вкладке **LIS** в усерпровисионингтул, как показано на приведенном ниже рисунке.</span><span class="sxs-lookup"><span data-stu-id="fdb97-144">Configure addresses by filling in the values on the **LIS** tab in the UserProvisioningTool, as shown in the following figure.</span></span>
+2.  <span data-ttu-id="54ab5-144">Настройте адреса, заполнив значения на вкладке **LIS (LIS** ) в усерпровисионингтул, как показано на следующем рисунке.</span><span class="sxs-lookup"><span data-stu-id="54ab5-144">Configure addresses by filling in the values on the **LIS** tab in the UserProvisioningTool, as shown in the following figure.</span></span>
     
-    <span data-ttu-id="fdb97-145">![Конфигурация сервиса данных о местоположении.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Конфигурация сервиса данных о местоположении.")</span><span class="sxs-lookup"><span data-stu-id="fdb97-145">![Configuring the Location Information Service.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Configuring the Location Information Service.")</span></span>  
+    <span data-ttu-id="54ab5-145">![Настройка службы сведений о местоположении.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Настройка службы сведений о местоположении.")</span><span class="sxs-lookup"><span data-stu-id="54ab5-145">![Configuring the Location Information Service.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Configuring the Location Information Service.")</span></span>  
 
-3.  <span data-ttu-id="fdb97-146">Щелкните **создать файлы конфигурации LIS**.</span><span class="sxs-lookup"><span data-stu-id="fdb97-146">Click **Generate LIS Config Files**.</span></span>
+3.  <span data-ttu-id="54ab5-146">Щелкните **создать файлы конфигурации LIS**.</span><span class="sxs-lookup"><span data-stu-id="54ab5-146">Click **Generate LIS Config Files**.</span></span>
 
-4.  <span data-ttu-id="fdb97-147">Создаются файлы CSV для портов, подсетей, переключателей и точек доступа к беспроводной сети (Вапс), а также XML-файла для средства нагрузки и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fdb97-147">CSV files for ports, subnets, switches, and wireless access points (WAPs), and an XML file for the Lync Server 2013 Stress and Performance Tool, are generated.</span></span> <span data-ttu-id="fdb97-148">CSV-файлы будут использоваться в качестве входных данных (в той же папке) при настройке службы сведений о расположении (LIS) с помощью сценария Лисконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-148">The CSV files are to be used as inputs (in the same folder) when configuring Location Information service (LIS) with the LisConfiguration.ps1 script.</span></span> <span data-ttu-id="fdb97-149">Переместите созданный файл Locations0. XML в ту же папку, в которой находится исполняемая программа Lync Server 2013 (Линкперфтул. exe), которая будет запускать сценарии профилей местоположений (абонентской группы).</span><span class="sxs-lookup"><span data-stu-id="fdb97-149">Move the generated Locations0.xml file to the same folder as the Lync Server 2013 Stress and Performance Tool executable (LyncPerfTool.exe), which will run location profile (dial plan) scenarios.</span></span>
-
-</div>
-
-<div>
-
-## <a name="creating-enabling-configuring-and-disabling-users"></a><span data-ttu-id="fdb97-150">Создание, включение, Настройка и отключение пользователей</span><span class="sxs-lookup"><span data-stu-id="fdb97-150">Creating, Enabling, Configuring and Disabling Users</span></span>
-
-<span data-ttu-id="fdb97-151">Перед выполнением следующих сценариев необходимо создать все пользователи.</span><span class="sxs-lookup"><span data-stu-id="fdb97-151">You should create all your users before running the following scripts.</span></span> <span data-ttu-id="fdb97-152">Следуйте инструкциям в разделе [Создание пользователей и контактов](create-users-and-contacts.md) , чтобы создать пользователей.</span><span class="sxs-lookup"><span data-stu-id="fdb97-152">Follow the instructions in [Create Users and Contacts](create-users-and-contacts.md) to create users.</span></span> <span data-ttu-id="fdb97-153">Дополнительные сведения можно найти в документации по командлетам Lync Server 2013 для командлетов [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)), [Set-CsUser](https://technet.microsoft.com/en-us/library/gg398510\(v=ocs.15\))и [Disable-CsUser](https://technet.microsoft.com/en-us/library/gg398747\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="fdb97-153">For details, see the Lync Server 2013 cmdlet documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)), [Set-CsUser](https://technet.microsoft.com/en-us/library/gg398510\(v=ocs.15\)), and [Disable-CsUser](https://technet.microsoft.com/en-us/library/gg398747\(v=ocs.15\)) cmdlets.</span></span>
+4.  <span data-ttu-id="54ab5-147">Создаются CSV-файлы для портов, подсетей, коммутаторов и точек беспроводного доступа (WAPs), а также XML-файла для средства нагрузки и производительности Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="54ab5-147">CSV files for ports, subnets, switches, and wireless access points (WAPs), and an XML file for the Lync Server 2013 Stress and Performance Tool, are generated.</span></span> <span data-ttu-id="54ab5-148">CSV-файлы используются в качестве входных данных (в той же папке) при настройке службы сведений о местоположении (LIS) с помощью сценария Лисконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-148">The CSV files are to be used as inputs (in the same folder) when configuring Location Information service (LIS) with the LisConfiguration.ps1 script.</span></span> <span data-ttu-id="54ab5-149">Переместите созданный файл Locations0. XML в ту же папку, в которой находится исполняемый файл Lync Server 2013 (Линкперфтул. exe), который будет запускать сценарии профилей местоположений (абонентской группы).</span><span class="sxs-lookup"><span data-stu-id="54ab5-149">Move the generated Locations0.xml file to the same folder as the Lync Server 2013 Stress and Performance Tool executable (LyncPerfTool.exe), which will run location profile (dial plan) scenarios.</span></span>
 
 </div>
 
 <div>
 
-## <a name="configuring-response-group-application"></a><span data-ttu-id="fdb97-154">Настройка приложения группы ответа</span><span class="sxs-lookup"><span data-stu-id="fdb97-154">Configuring Response Group application</span></span>
+## <a name="creating-enabling-configuring-and-disabling-users"></a><span data-ttu-id="54ab5-150">Создание, включение, Настройка и отключение пользователей</span><span class="sxs-lookup"><span data-stu-id="54ab5-150">Creating, Enabling, Configuring and Disabling Users</span></span>
 
-<span data-ttu-id="fdb97-155">Смотрите пример Респонсеграупконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="fdb97-155">See the example ResponseGroupConfiguration.ps1.</span></span> <span data-ttu-id="fdb97-156">Дополнительные сведения можно найти в документации по Lync Server 2013 и о командлетах [приложения группы ответа в Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)). Чтобы просмотреть конфигурацию приложения группы ответа, посмотрите `https://<poolfqdn>/RgsConfig/`, как показано на рисунке ниже.</span><span class="sxs-lookup"><span data-stu-id="fdb97-156">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Response Group application cmdlets in Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)).To review the Response Group application configuration, see `https://<poolfqdn>/RgsConfig/`, as shown in the following figure.</span></span>
+<span data-ttu-id="54ab5-151">Перед выполнением следующих сценариев необходимо создать всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="54ab5-151">You should create all your users before running the following scripts.</span></span> <span data-ttu-id="54ab5-152">Следуйте инструкциям в статье [CREATE Users and Contacts](create-users-and-contacts.md) to Create Users.</span><span class="sxs-lookup"><span data-stu-id="54ab5-152">Follow the instructions in [Create Users and Contacts](create-users-and-contacts.md) to create users.</span></span> <span data-ttu-id="54ab5-153">Для получения дополнительных сведений обратитесь к документации по командлетам Lync Server 2013 для командлетов [Get – CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)), [Set CsUser](https://technet.microsoft.com/library/gg398510\(v=ocs.15\))и [Disable – CsUser](https://technet.microsoft.com/library/gg398747\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="54ab5-153">For details, see the Lync Server 2013 cmdlet documentation for the [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)), [Set-CsUser](https://technet.microsoft.com/library/gg398510\(v=ocs.15\)), and [Disable-CsUser](https://technet.microsoft.com/library/gg398747\(v=ocs.15\)) cmdlets.</span></span>
 
-<span data-ttu-id="fdb97-157">![Инструмент Response Group Configuration Tool.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "Инструмент Response Group Configuration Tool.")</span><span class="sxs-lookup"><span data-stu-id="fdb97-157">![The Response Group Configuration Tool.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "The Response Group Configuration Tool.")</span></span>
+</div>
+
+<div>
+
+## <a name="configuring-response-group-application"></a><span data-ttu-id="54ab5-154">Настройка приложения группы ответа</span><span class="sxs-lookup"><span data-stu-id="54ab5-154">Configuring Response Group application</span></span>
+
+<span data-ttu-id="54ab5-155">Смотрите пример Респонсеграупконфигуратион. ps1.</span><span class="sxs-lookup"><span data-stu-id="54ab5-155">See the example ResponseGroupConfiguration.ps1.</span></span> <span data-ttu-id="54ab5-156">Для получения дополнительных сведений ознакомьтесь с документацией по Lync Server 2013 и справка командлета для [командлетов приложений группы ответа в Lync Server 2013](https://technet.microsoft.com/library/gg415654\(v=ocs.15\)). Чтобы просмотреть конфигурацию приложения группы ответа, посмотрите `https://<poolfqdn>/RgsConfig/`, как показано на следующем рисунке.</span><span class="sxs-lookup"><span data-stu-id="54ab5-156">For details, see the Lync Server 2013 documentation and the cmdlet Help for [Response Group application cmdlets in Lync Server 2013](https://technet.microsoft.com/library/gg415654\(v=ocs.15\)).To review the Response Group application configuration, see `https://<poolfqdn>/RgsConfig/`, as shown in the following figure.</span></span>
+
+<span data-ttu-id="54ab5-157">![Средство настройки группы ответа.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "Средство настройки группы ответа.")</span><span class="sxs-lookup"><span data-stu-id="54ab5-157">![The Response Group Configuration Tool.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "The Response Group Configuration Tool.")</span></span>
 
 </div>
 

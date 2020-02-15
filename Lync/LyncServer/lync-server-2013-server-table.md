@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: таблица Server'
+title: 'Lync Server 2013: таблица сервера'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732419"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="f1eb5-102">Таблица Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1eb5-102">Server table in Lync Server 2013</span></span>
+# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="4f4bf-102">Таблица Server в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4f4bf-102">Server table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732419"
 
 <span> </span>
 
-<span data-ttu-id="f1eb5-103">_**Тема последнего изменения:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="f1eb5-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="4f4bf-103">_**Последнее изменение темы:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="4f4bf-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="f1eb5-104">Серверная таблица является вспомогательной таблицей.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-104">The Server table is a supporting table.</span></span> <span data-ttu-id="f1eb5-105">Каждая запись представляет один сервер.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-105">Each record represents one server.</span></span>
+<span data-ttu-id="4f4bf-p101">Таблица Server является таблицей поддержки. Каждая запись в этой таблице представляет один сервер.</span><span class="sxs-lookup"><span data-stu-id="4f4bf-p101">The Server table is a supporting table. Each record represents one server.</span></span>
 
 
 <table>
@@ -49,43 +49,43 @@ ms.locfileid: "41732419"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f1eb5-106"><strong>Столбец</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="f1eb5-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="f1eb5-108"><strong>Ключ/индекс</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="f1eb5-109"><strong>Сведения</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="4f4bf-106"><strong>Column</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="4f4bf-107"><strong>Тип данных</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="4f4bf-108"><strong>Ключ или индекс</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="4f4bf-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1eb5-110"><strong>серверкэй</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-110"><strong>ServerKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-111">целое</span><span class="sxs-lookup"><span data-stu-id="f1eb5-111">int</span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-112">Primary</span><span class="sxs-lookup"><span data-stu-id="f1eb5-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-113">Уникальный номер, идентифицирующий сервер.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-113">Unique number identifying the server.</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-110"><strong>серверкэй</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-110"><strong>ServerKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-111">int</span><span class="sxs-lookup"><span data-stu-id="4f4bf-111">int</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-112">Primary</span><span class="sxs-lookup"><span data-stu-id="4f4bf-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-113">Уникальный номер, идентифицирующий сервер.</span><span class="sxs-lookup"><span data-stu-id="4f4bf-113">Unique number identifying the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1eb5-114"><strong>фкднорип</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-114"><strong>FQDNOrIP</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="f1eb5-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-116">индекса</span><span class="sxs-lookup"><span data-stu-id="f1eb5-116">index</span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-117">Строка MAC-адреса.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-117">MAC address string.</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-114"><strong>фкднорип</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-114"><strong>FQDNOrIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="4f4bf-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-116">index</span><span class="sxs-lookup"><span data-stu-id="4f4bf-116">index</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-117">Строка MAC-адреса.</span><span class="sxs-lookup"><span data-stu-id="4f4bf-117">MAC address string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1eb5-118"><strong>ServerType</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-118"><strong>ServerType</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-119">целое</span><span class="sxs-lookup"><span data-stu-id="f1eb5-119">int</span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-120">Другом</span><span class="sxs-lookup"><span data-stu-id="f1eb5-120">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-121">1: сервер исправлений</span><span class="sxs-lookup"><span data-stu-id="f1eb5-121">1: Mediation Server</span></span></p>
-<p><span data-ttu-id="f1eb5-122">2: Server16394 конференции/V-service32769: шлюз</span><span class="sxs-lookup"><span data-stu-id="f1eb5-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-118"><strong>ServerType</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-118"><strong>ServerType</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-119">int</span><span class="sxs-lookup"><span data-stu-id="4f4bf-119">int</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-120">Правительства</span><span class="sxs-lookup"><span data-stu-id="4f4bf-120">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-121">1: сервер-посредник</span><span class="sxs-lookup"><span data-stu-id="4f4bf-121">1: Mediation Server</span></span></p>
+<p><span data-ttu-id="4f4bf-122">2: сервер аудио- и видеоконференций 16394: пограничная служба аудио- и видеосвязи 32769: шлюз</span><span class="sxs-lookup"><span data-stu-id="4f4bf-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1eb5-123"><strong>пулнаме</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-123"><strong>PoolName</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-124">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="f1eb5-124">nvarchar(512)</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-123"><strong>пулнаме</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-123"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-124">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="4f4bf-124">nvarchar(512)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="f1eb5-125">Группа, к которой принадлежит сервер.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-125">Pool the server belongs to.</span></span> <span data-ttu-id="f1eb5-126">Применимо только для сервера конференц-связи A/V.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-126">Only applicable for the A/V Conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-p102">Пул, которому принадлежит сервер. Применяется только для серверов аудио- и видеоконференций.</span><span class="sxs-lookup"><span data-stu-id="4f4bf-p102">Pool the server belongs to. Only applicable for the A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1eb5-127"><strong>некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="f1eb5-127"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="f1eb5-128">datetime</span><span class="sxs-lookup"><span data-stu-id="f1eb5-128">datetime</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-127"><strong>некступдатетс</strong></span><span class="sxs-lookup"><span data-stu-id="4f4bf-127"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-128">datetime</span><span class="sxs-lookup"><span data-stu-id="4f4bf-128">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="f1eb5-129">Только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="f1eb5-129">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="4f4bf-129">Только для внутреннего использования.</span><span class="sxs-lookup"><span data-stu-id="4f4bf-129">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc72daeeac3f4bd15c47eb3b9bfa27e4e1c7362
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5400a65f1003012499fd3cf4afae8f75b8b38b86
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-devices-in-lync-server-2013"></a><span data-ttu-id="a65e2-102">Развертывание устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a65e2-102">Deploying devices in Lync Server 2013</span></span>
+# <a name="deploying-devices-in-lync-server-2013"></a><span data-ttu-id="0d522-102">Развертывание устройств в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d522-102">Deploying devices in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729429"
 
 <span> </span>
 
-<span data-ttu-id="a65e2-103">_**Тема последнего изменения:** 2013-09-10_</span><span class="sxs-lookup"><span data-stu-id="a65e2-103">_**Topic Last Modified:** 2013-09-10_</span></span>
+<span data-ttu-id="0d522-103">_**Последнее изменение темы:** 2013-09-10_</span><span class="sxs-lookup"><span data-stu-id="0d522-103">_**Topic Last Modified:** 2013-09-10_</span></span>
 
-<span data-ttu-id="a65e2-104">Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные возможности телефонии, встроенную безопасность, управляемость и многое другое.</span><span class="sxs-lookup"><span data-stu-id="a65e2-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="a65e2-105">Lync Phone Edition работает аналогично с Lync Server 2013, как это происходит в Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a65e2-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="a65e2-106">Подробнее о том, как развертывать устройства, можно найти в разделе [развертывание Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) в библиотеке TechNet Server 2010.</span><span class="sxs-lookup"><span data-stu-id="a65e2-106">For details about deploying devices, see [Deploying Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) in the Lync Server 2010 TechNet Library.</span></span>
+<span data-ttu-id="0d522-104">Lync Server 2013 включает Lync Phone Edition, программное обеспечение, которое работает на соответствующих устройствах и предоставляет традиционные и расширенные функции телефонии, встроенную безопасность, управляемость и многое другое.</span><span class="sxs-lookup"><span data-stu-id="0d522-104">Lync Server 2013 includes Lync Phone Edition, software that runs on qualified devices and provides traditional and advanced telephony features, integrated security, manageability, and more.</span></span> <span data-ttu-id="0d522-105">Lync Phone Edition работает так же, как и Lync Server 2013, как и в случае Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="0d522-105">Lync Phone Edition works the same way with Lync Server 2013 as it does with Lync Server 2010.</span></span> <span data-ttu-id="0d522-106">Более подробную информацию о развертывании устройств можно узнать в статье [deploy Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) в библиотеке TechNet для lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="0d522-106">For details about deploying devices, see [Deploying Lync Phone Edition](http://go.microsoft.com/fwlink/p/?linkid=285880) in the Lync Server 2010 TechNet Library.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a65e2-107">См. также</span><span class="sxs-lookup"><span data-stu-id="a65e2-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d522-107">См. также</span><span class="sxs-lookup"><span data-stu-id="0d522-107">See Also</span></span>
 
 
-[<span data-ttu-id="a65e2-108">Планирование устройств</span><span class="sxs-lookup"><span data-stu-id="a65e2-108">Planning for Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285881)  
-[<span data-ttu-id="a65e2-109">Поддержка программного обеспечения клиента и устройства и инфраструктуры</span><span class="sxs-lookup"><span data-stu-id="a65e2-109">Client and Device Software and Infrastructure Support</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285882)  
+[<span data-ttu-id="0d522-108">Планирование для устройств</span><span class="sxs-lookup"><span data-stu-id="0d522-108">Planning for Devices</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285881)  
+[<span data-ttu-id="0d522-109">Поддержка программного обеспечения и инфраструктуры клиентов и устройств</span><span class="sxs-lookup"><span data-stu-id="0d522-109">Client and Device Software and Infrastructure Support</span></span>](http://go.microsoft.com/fwlink/p/?linkid=285882)  
   
 
 </div>

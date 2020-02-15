@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Мониторинг сервера Lync с помощью System Center Operations Manager'
+title: 'Lync Server 2013: мониторинг Lync Server с помощью System Center Operations Manager'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b5a251853efe20cc867f78f4f932e2c43efd22c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 341901ce6d467818e6aac433f7d8ca4dca37adef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756833"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a><span data-ttu-id="409d3-102">Мониторинг сервера Lync Server 2013 с помощью System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="409d3-102">Monitoring Lync Server 2013 with System Center Operations Manager</span></span>
+# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a><span data-ttu-id="7a558-102">Мониторинг Lync Server 2013 с помощью System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="7a558-102">Monitoring Lync Server 2013 with System Center Operations Manager</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756833"
 
 <span> </span>
 
-<span data-ttu-id="409d3-103">_**Тема последнего изменения:** 2015-05-06_</span><span class="sxs-lookup"><span data-stu-id="409d3-103">_**Topic Last Modified:** 2015-05-06_</span></span>
+<span data-ttu-id="7a558-103">_**Последнее изменение темы:** 2015-05-06_</span><span class="sxs-lookup"><span data-stu-id="7a558-103">_**Topic Last Modified:** 2015-05-06_</span></span>
 
-<span data-ttu-id="409d3-104">Пакет управления Lync Server Management Pack (MP) — это решение для мониторинга, которое можно выбирать для наблюдения за развертыванием Lync Server.</span><span class="sxs-lookup"><span data-stu-id="409d3-104">The Lync Server Management Pack (MP) is your monitoring solution of choice for monitoring any Lync Server deployment.</span></span>
+<span data-ttu-id="7a558-104">Пакет управления Lync Server (MP) — это решение для мониторинга, которое подходит для мониторинга любого развертывания Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7a558-104">The Lync Server Management Pack (MP) is your monitoring solution of choice for monitoring any Lync Server deployment.</span></span>
 
-<span data-ttu-id="409d3-105">MP реализует традиционный журнал событий и инструментарий на основе счетчиков, а также включает новые доступные инструментария в Lync Server, такие как связывание событий (сбоев и успехов) для нескольких ключевых индикаторов работоспособности, и полностью применяет новые синтетические\* транзакции (командлеты Windows PowerShell для тестирования и проверки).</span><span class="sxs-lookup"><span data-stu-id="409d3-105">The MP implements traditional Event Log and Performance counter-based instrumentation and enables newly available instrumentation in Lync Server, such as pair events (failure/success) for several Key Health Indicators, and also fully implements the new Synthetic Transactions (Test-Cs\* Windows PowerShell cmdlets).</span></span>
+<span data-ttu-id="7a558-105">В пакете управления реализовано традиционное инструментирование журнала событий и производительности на основе счетчиков, а также включены новые доступные инструментирования в Lync Server, такие как связывание событий (сбоев и успехов) для нескольких ключевых индикаторов работоспособности, а также полностью\* применяет новые синтетические транзакции (командлеты Windows PowerShell Test-CS).</span><span class="sxs-lookup"><span data-stu-id="7a558-105">The MP implements traditional Event Log and Performance counter-based instrumentation and enables newly available instrumentation in Lync Server, such as pair events (failure/success) for several Key Health Indicators, and also fully implements the new Synthetic Transactions (Test-Cs\* Windows PowerShell cmdlets).</span></span>
 
-<span data-ttu-id="409d3-106">Пакет управления Lync Server 2013 и связанные с ним документы можно найти по адресу [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468).</span><span class="sxs-lookup"><span data-stu-id="409d3-106">You can find the Lync Server 2013 Management Pack and its related documentation at [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468).</span></span> <span data-ttu-id="409d3-107">Это рекомендуется, если вы используете System Center Operations Manager 2012.</span><span class="sxs-lookup"><span data-stu-id="409d3-107">This is recommended if you are running System Center Operations Manager 2012.</span></span>
+<span data-ttu-id="7a558-106">Пакет управления Lync Server 2013 и сопутствующую документацию можно найти по адресу [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468).</span><span class="sxs-lookup"><span data-stu-id="7a558-106">You can find the Lync Server 2013 Management Pack and its related documentation at [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468).</span></span> <span data-ttu-id="7a558-107">Это рекомендуется при работе с System Center Operations Manager 2012.</span><span class="sxs-lookup"><span data-stu-id="7a558-107">This is recommended if you are running System Center Operations Manager 2012.</span></span>
 
 </div>
 

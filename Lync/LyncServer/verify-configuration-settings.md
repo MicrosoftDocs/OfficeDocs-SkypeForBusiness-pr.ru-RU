@@ -1,5 +1,5 @@
 ---
-title: Проверка параметров настройки
+title: Проверка параметров конфигурации
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184111
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fcb7f577719ad14a04c89250bfab66e6cc9de3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 80b84d2c11fee62b0912cc43317ed6716dd33f27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738559"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a><span data-ttu-id="3094c-102">Проверка параметров настройки</span><span class="sxs-lookup"><span data-stu-id="3094c-102">Verify configuration settings</span></span>
+# <a name="verify-configuration-settings"></a><span data-ttu-id="aecff-102">Проверка параметров конфигурации</span><span class="sxs-lookup"><span data-stu-id="aecff-102">Verify configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738559"
 
 <span> </span>
 
-<span data-ttu-id="3094c-103">_**Тема последнего изменения:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="3094c-103">_**Topic Last Modified:** 2012-09-06_</span></span>
+<span data-ttu-id="aecff-103">_**Последнее изменение темы:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="aecff-103">_**Topic Last Modified:** 2012-09-06_</span></span>
 
-<span data-ttu-id="3094c-104">Вы можете проверить репликацию сведений о конфигурации на пограничном сервере, запустив командлет Lync Server 2013 **Get-ксманажементсторерепликатионстатус** на внутреннем компьютере, на котором находится корневой центр управления, или на любом компьютере, подключенном к домену, на котором установлен компонент lync Server 2013 (окскоре. msi).</span><span class="sxs-lookup"><span data-stu-id="3094c-104">You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span>
+<span data-ttu-id="aecff-104">Можно проверить репликацию сведений о конфигурации на пограничный сервер, выполнив командлет Lync Server 2013 **Get-CsManagementStoreReplicationStatus** на внутреннем компьютере, на котором расположено центральное хранилище управления, или на любом компьютере, присоединенном к домену, на котором установлен основной компонент lync Server 2013 (OcsCore. msi).</span><span class="sxs-lookup"><span data-stu-id="aecff-104">You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span>
 
-<span data-ttu-id="3094c-105">Начальные результаты могут содержать состояние "false", а не "истина" для репликации.</span><span class="sxs-lookup"><span data-stu-id="3094c-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="3094c-106">Если это так, запустите командлет **Invoke-ксманажементсторерепликатион** и разрешите время завершения репликации, прежде чем запускать командлет **Get-ксманажементсторерепликатионстатус** еще раз.</span><span class="sxs-lookup"><span data-stu-id="3094c-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
+<span data-ttu-id="aecff-105">В начальных результатах для репликации может быть указано состояние "False" вместо "True".</span><span class="sxs-lookup"><span data-stu-id="aecff-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="aecff-106">В этом случае запустите командлет **Invoke-CsManagementStoreReplication** и дайте некоторое время для завершения репликации, прежде чем повторно запускать командлет **Get-CsManagementStoreReplicationStatus**.</span><span class="sxs-lookup"><span data-stu-id="aecff-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
 
 </div>
 

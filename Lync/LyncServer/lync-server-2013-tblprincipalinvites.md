@@ -12,20 +12,20 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731529"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalinvites-in-lync-server-2013"></a><span data-ttu-id="71a38-102">tblPrincipalInvites в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71a38-102">tblPrincipalInvites in Lync Server 2013</span></span>
+# <a name="tblprincipalinvites-in-lync-server-2013"></a><span data-ttu-id="99367-102">tblPrincipalInvites в Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99367-102">tblPrincipalInvites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731529"
 
 <span> </span>
 
-<span data-ttu-id="71a38-103">_**Тема последнего изменения:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="71a38-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="99367-103">_**Последнее изменение темы:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="99367-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="71a38-104">ТблпринЦипалинвитес включает приглашения для всех подготовленных пользователей для всех узлов с автоматическим приглашением.</span><span class="sxs-lookup"><span data-stu-id="71a38-104">tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.</span></span>
+<span data-ttu-id="99367-104">tblPrincipalInvites содержит приглашения для всех подготовленных пользователей для всех узлов с включенным автоматическим приглашением.</span><span class="sxs-lookup"><span data-stu-id="99367-104">tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="71a38-105">Столбцов</span><span class="sxs-lookup"><span data-stu-id="71a38-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="99367-105">Columns</span><span class="sxs-lookup"><span data-stu-id="99367-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ ms.locfileid: "41731529"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="71a38-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="71a38-106">Column</span></span></th>
-<th><span data-ttu-id="71a38-107">Тип</span><span class="sxs-lookup"><span data-stu-id="71a38-107">Type</span></span></th>
-<th><span data-ttu-id="71a38-108">Описание</span><span class="sxs-lookup"><span data-stu-id="71a38-108">Description</span></span></th>
+<th><span data-ttu-id="99367-106">Столбец</span><span class="sxs-lookup"><span data-stu-id="99367-106">Column</span></span></th>
+<th><span data-ttu-id="99367-107">Тип</span><span class="sxs-lookup"><span data-stu-id="99367-107">Type</span></span></th>
+<th><span data-ttu-id="99367-108">Описание</span><span class="sxs-lookup"><span data-stu-id="99367-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="71a38-109">принид</span><span class="sxs-lookup"><span data-stu-id="71a38-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="71a38-110">int, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="71a38-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="71a38-111">Идентификатор участника.</span><span class="sxs-lookup"><span data-stu-id="71a38-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="99367-109">prinID</span><span class="sxs-lookup"><span data-stu-id="99367-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="99367-110">int, не равно null</span><span class="sxs-lookup"><span data-stu-id="99367-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="99367-111">Код участника</span><span class="sxs-lookup"><span data-stu-id="99367-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71a38-112">инвид</span><span class="sxs-lookup"><span data-stu-id="71a38-112">invID</span></span></p></td>
-<td><p><span data-ttu-id="71a38-113">int, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="71a38-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="71a38-114">Уникальный последовательный номер (для идентификатора участника), сформированный из таблицы Тблластинвитеид.</span><span class="sxs-lookup"><span data-stu-id="71a38-114">Unique sequential number (per principal ID) generated from tblLastInviteId table.</span></span></p></td>
+<td><p><span data-ttu-id="99367-112">инвид</span><span class="sxs-lookup"><span data-stu-id="99367-112">invID</span></span></p></td>
+<td><p><span data-ttu-id="99367-113">int, not null</span><span class="sxs-lookup"><span data-stu-id="99367-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="99367-114">Уникальный порядковый номер (на код участника), созданный для таблицы tblLastInviteId.</span><span class="sxs-lookup"><span data-stu-id="99367-114">Unique sequential number (per principal ID) generated from tblLastInviteId table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="71a38-115">нодеид</span><span class="sxs-lookup"><span data-stu-id="71a38-115">nodeID</span></span></p></td>
-<td><p><span data-ttu-id="71a38-116">int, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="71a38-116">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="71a38-117">Идентификатор узла (только для комнаты чата).</span><span class="sxs-lookup"><span data-stu-id="71a38-117">Node ID (chat room only).</span></span></p></td>
+<td><p><span data-ttu-id="99367-115">nodeID</span><span class="sxs-lookup"><span data-stu-id="99367-115">nodeID</span></span></p></td>
+<td><p><span data-ttu-id="99367-116">int, не null</span><span class="sxs-lookup"><span data-stu-id="99367-116">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="99367-117">Код узла (только комната чата).</span><span class="sxs-lookup"><span data-stu-id="99367-117">Node ID (chat room only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71a38-118">креатедон</span><span class="sxs-lookup"><span data-stu-id="71a38-118">createdOn</span></span></p></td>
-<td><p><span data-ttu-id="71a38-119">DateTime, NOT NULL</span><span class="sxs-lookup"><span data-stu-id="71a38-119">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="71a38-120">Время создания.</span><span class="sxs-lookup"><span data-stu-id="71a38-120">Time of creation.</span></span></p></td>
+<td><p><span data-ttu-id="99367-118">креатедон</span><span class="sxs-lookup"><span data-stu-id="99367-118">createdOn</span></span></p></td>
+<td><p><span data-ttu-id="99367-119">datetime, не null</span><span class="sxs-lookup"><span data-stu-id="99367-119">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="99367-120">Время создания.</span><span class="sxs-lookup"><span data-stu-id="99367-120">Time of creation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="71a38-121">Параметры</span><span class="sxs-lookup"><span data-stu-id="71a38-121">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="99367-121">Keys</span><span class="sxs-lookup"><span data-stu-id="99367-121">Keys</span></span>
 
 <table>
 <colgroup>
@@ -88,22 +88,22 @@ ms.locfileid: "41731529"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="71a38-122">Столбец</span><span class="sxs-lookup"><span data-stu-id="71a38-122">Column</span></span></th>
-<th><span data-ttu-id="71a38-123">Описание</span><span class="sxs-lookup"><span data-stu-id="71a38-123">Description</span></span></th>
+<th><span data-ttu-id="99367-122">Столбец</span><span class="sxs-lookup"><span data-stu-id="99367-122">Column</span></span></th>
+<th><span data-ttu-id="99367-123">Описание</span><span class="sxs-lookup"><span data-stu-id="99367-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="71a38-124">&lt;Принид, Нодеид&gt;</span><span class="sxs-lookup"><span data-stu-id="71a38-124">&lt;prinID, nodeID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="71a38-125">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="71a38-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="99367-124">&lt;prinID, nodeID&gt;</span><span class="sxs-lookup"><span data-stu-id="99367-124">&lt;prinID, nodeID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="99367-125">Первичный ключ.</span><span class="sxs-lookup"><span data-stu-id="99367-125">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71a38-126">принид</span><span class="sxs-lookup"><span data-stu-id="71a38-126">prinID</span></span></p></td>
-<td><p><span data-ttu-id="71a38-127">Внешний ключ с подстановкой в таблице ТблпринЦипал. Принид.</span><span class="sxs-lookup"><span data-stu-id="71a38-127">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="99367-126">prinID</span><span class="sxs-lookup"><span data-stu-id="99367-126">prinID</span></span></p></td>
+<td><p><span data-ttu-id="99367-127">Внешний ключ с подстановкой в таблице tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="99367-127">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="71a38-128">нодеид</span><span class="sxs-lookup"><span data-stu-id="71a38-128">nodeID</span></span></p></td>
-<td><p><span data-ttu-id="71a38-129">Внешний ключ с подстановкой в таблице Тблноде. Нодеид.</span><span class="sxs-lookup"><span data-stu-id="71a38-129">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
+<td><p><span data-ttu-id="99367-128">nodeID</span><span class="sxs-lookup"><span data-stu-id="99367-128">nodeID</span></span></p></td>
+<td><p><span data-ttu-id="99367-129">Внешний ключ с подстановкой в таблице tblNode.nodeID.</span><span class="sxs-lookup"><span data-stu-id="99367-129">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
